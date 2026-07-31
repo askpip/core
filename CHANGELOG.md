@@ -10,6 +10,7 @@ Git provides the complete technical history of the repository. This changelog re
 
 ### Added
 
+- Added the first approved Foundation document, "Marie's Story" (Version 1.0).
 - Added the `Working` folder structure with dedicated directories for drafts, Founder review and AI outputs.
 
 ---
