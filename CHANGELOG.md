@@ -8,7 +8,9 @@ Git provides the complete technical history of the repository. This changelog re
 
 ## Unreleased
 
-No unreleased changes are currently recorded.
+### Added
+
+- Added the `Working` folder structure with dedicated directories for drafts, Founder review and AI outputs.
 
 ---
 
