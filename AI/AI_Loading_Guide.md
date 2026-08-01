@@ -3,10 +3,10 @@
 **Document Title:** AskPIP AI Loading Guide  
 **Repository:** AskPIP CORE  
 **Folder:** AI  
-**Version:** 0.1  
-**Status:** Draft  
+**Version:** 0.2  
+**Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 1 August 2026  
+**Last Updated:** 2 August 2026  
 **Purpose:** To identify the additional AI Operating System documents that must be loaded to correctly perform a requested task.  
 **Authority:** AskPIP AI Operating System  
 **Related Documents:** `AGENTS.md`, `AI_Operations_Manual.md`, `AI_Constitution.md`
@@ -65,7 +65,7 @@ The following table identifies which additional AI Operating System documents sh
 
 | Request Type | AI OS Documents to Load | Notes |
 |---------------|-------------------------|-------|
-| *(Entries will be added as Skills and Context documents are approved.)* | | |
+| Creating, drafting, reviewing, revising, restructuring, formatting, reconciling or converting an AskPIP document. | `AI/Skills/AskPIP_Document_Creation_and_Editing_Skill.md` | Governs document content and preparation but does not govern repository operations. |
 
 ---
 
