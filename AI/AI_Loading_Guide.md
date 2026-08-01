@@ -35,7 +35,7 @@ The normal startup sequence is:
 2. AI Operations Manual
 3. AI Constitution
 4. AI Loading Guide
-5. Applicable Standard Operating Procedures (SOPs)
+5. Applicable Skills
 6. Applicable Context Documents
 7. Perform the requested task
 
@@ -65,13 +65,13 @@ The following table identifies which additional AI Operating System documents sh
 
 | Request Type | AI OS Documents to Load | Notes |
 |---------------|-------------------------|-------|
-| *(Entries will be added as SOPs and Context documents are approved.)* | | |
+| *(Entries will be added as Skills and Context documents are approved.)* | | |
 
 ---
 
 # 5. Multiple Document Loading
 
-A single request may require multiple SOPs and Context documents.
+A single request may require multiple Skills and Context documents.
 
 Where multiple entries apply, every applicable document shall be loaded before performing the task.
 
@@ -85,7 +85,7 @@ If no entry within this guide applies to the requested task, the AI shall contin
 - the AskPIP AI Operations Manual; and
 - the Founder's current instructions.
 
-The AI shall not invent an unapproved SOP or Context document.
+The AI shall not invent an unapproved Skill or Context document.
 
 If the same type of request occurs repeatedly without a suitable document, the AI may propose that an additional AI OS document be created through the approved learning process.
 
@@ -106,7 +106,7 @@ The AI shall not claim that an unavailable document has been loaded.
 
 # 8. Maintenance
 
-Every approved SOP and Context document shall be recorded within this guide.
+Every approved Skill and Context document shall be recorded within this guide.
 
 A document shall not become part of the active AI Operating System until:
 

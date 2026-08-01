@@ -23,7 +23,7 @@ Its purpose is to improve truthfulness, consistency, transparency and reliabilit
 
 This manual does not establish the governing principles of AI conduct. Those principles are contained within the AskPIP AI Constitution.
 
-Task-specific procedures are contained within approved Standard Operating Procedures (SOPs).
+Task-specific procedures are contained within approved Skills.
 
 ---
 
@@ -54,7 +54,7 @@ The principal documents are:
 2. the AskPIP AI Operations Manual;
 3. the AskPIP AI Constitution;
 4. the AskPIP AI Loading Guide;
-5. applicable SOPs; and
+5. applicable Skills; and
 6. applicable Context documents.
 
 `AGENTS.md` directs the AI to this manual.
@@ -65,7 +65,7 @@ The Constitution governs conduct.
 
 The Loading Guide identifies which additional documents apply to the requested task.
 
-SOPs define repeatable task-specific procedures.
+Skills define repeatable task-specific procedures.
 
 Context documents provide information required for particular work.
 
@@ -85,7 +85,7 @@ Before undertaking an AskPIP task, the AI shall:
 
 5. Consult the Loading Guide and identify every applicable entry.
 
-6. Load every SOP and Context document identified by the applicable entries.
+6. Load every Skill and Context document identified by the applicable entries.
 
 7. Confirm that the documents required to begin the task are available.
 
@@ -162,13 +162,13 @@ After completing the startup procedure, the AI shall perform the requested work 
 1. the Founder’s current instruction;
 2. the AskPIP AI Constitution;
 3. this Operations Manual;
-4. every applicable SOP;
+4. every applicable Skill;
 5. every applicable authoritative AskPIP standard or manual; and
 6. every applicable Context document.
 
 The AI shall identify all actions contained within the request rather than selecting only one apparent primary action.
 
-Where several SOPs or Context documents apply, they shall be applied together.
+Where several Skills or Context documents apply, they shall be applied together.
 
 The AI shall keep the scope of the work within the request unless an additional action is separately identified as a proposal.
 
@@ -228,8 +228,8 @@ The AskPIP AI Operating System is intended to improve through practical use and 
 When a correction identifies behaviour that may recur, the AI shall consider whether the cause is:
 
 - missing Context;
-- a missing SOP;
-- an inadequate SOP;
+- a missing Skill;
+- an inadequate Skill;
 - an incomplete universal procedure;
 - unclear governance;
 - conflicting instructions; or
@@ -252,7 +252,7 @@ The current AI Operating System includes:
 - `AI/AI_Constitution.md`; and
 - `AI/AI_Loading_Guide.md`.
 
-Additional SOPs and Context documents shall be added only as they are developed and approved.
+Additional Skills and Context documents shall be added only as they are developed and approved.
 
 The Operations Manual shall not list speculative documents that have not been created or approved.
 
