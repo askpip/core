@@ -3,10 +3,10 @@
 **Document Title:** PIP AI Operations Manual  
 **Repository:** PIP CORE  
 **Folder:** AI  
-**Version:** 0.3  
+**Version:** 0.4  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 2 August 2026  
+**Last Updated:** 3 August 2026  
 **Approved By:** The Founders  
 **Permanent Location:** `AI/PIP_AI_Operations_Manual.md`  
 **Purpose:** To define the universal operating procedures followed by artificial intelligence (AI) systems working within the Plant Intelligence Platform (PIP).  
@@ -250,7 +250,7 @@ The AI shall not approve or implement its own governance changes without Founder
 
 # 10. Related PIP AI OS Documents
 
-The proposed PIP AI OS includes:
+The PIP AI OS includes:
 
 - `AGENTS.md`;
 - `AI/PIP_AI_Operations_Manual.md`;
