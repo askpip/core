@@ -10,6 +10,7 @@ Git provides the complete technical history of the repository. This changelog re
 
 ### Added
 
+- Approved and integrated the PIP System Identity and Naming Standard (Document ID SINS-001, Version 0.1).
 - Added the first approved Foundation document, "Marie's Story" (Version 1.0).
 - Added the `Working` folder structure with dedicated directories for drafts, Founder review and AI outputs.
 
