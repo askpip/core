@@ -1,32 +1,34 @@
 ---
-name: askpip-create-edit-documents
-description: Create, review, revise, restructure, format or convert AskPIP documents while preserving Founder intent, authoritative meaning, document status and traceability. Use for drafting new AskPIP documents; editing supplied text or existing documents; reviewing documents for clarity, consistency or currency; converting Google Docs, DOCX or other text documents into repository-ready Markdown; reconciling related documents; or preparing drafts for Founder review. Do not use this skill for repository operations such as selecting repository paths, creating repository files, staging, committing, pulling or pushing.
+name: pip-create-edit-documents
+description: Create, review, revise, restructure, format or convert PIP documents while preserving Founder intent, authoritative meaning, document status and traceability. Use for drafting new PIP documents; editing supplied text or existing documents; reviewing documents for clarity, consistency or currency; converting Google Docs, DOCX or other text documents into repository-ready Markdown; reconciling related documents; or preparing drafts for Founder review. Do not use this skill for repository operations such as selecting repository paths, creating repository files, staging, committing, pulling or pushing.
 ---
 
-# AskPIP Document Creation and Editing
+# Document Creation and Editing
 
 ## Document Metadata
 
-**Document Title:** AskPIP Document Creation and Editing Skill  
-**Document Type:** AI Operating System Skill  
-**Version:** 0.1  
+**Document Title:** Document Creation and Editing Skill  
+**Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill  
+**Version:** 0.2  
 **Status:** Approved  
 **Owner:** The Founders  
+**Approved By:** The Founders  
+**Permanent Location:** `AI/Skills/Document_Creation_and_Editing_Skill.md`  
 **Last Updated:** 2 August 2026  
-**Purpose:** To govern how AI creates, reviews, edits and converts AskPIP documents.  
-**Related Documents:** `AGENTS.md`; `AI/AI_Operations_Manual.md`; `AI/AI_Constitution.md`; `AI/AI_Loading_Guide.md`
+**Purpose:** To govern how artificial intelligence (AI) creates, reviews, edits and converts Plant Intelligence Platform (PIP) documents.  
+**Related Documents:** `AGENTS.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Constitution.md`; `AI/PIP_AI_Loading_Guide.md`
 
 ---
 
 # 1. Purpose
 
-Use this Skill to create and edit AskPIP documents accurately, consistently and efficiently.
+Use this Skill to create and edit PIP documents accurately, consistently and efficiently.
 
 Produce work that:
 
 - follows the Founder’s current instruction;
 - preserves the intended meaning of source material;
-- uses current authoritative AskPIP information;
+- uses current authoritative PIP information;
 - distinguishes proposed wording from approved content;
 - records document status truthfully; and
 - is ready for Founder review or its intended use.
@@ -35,7 +37,7 @@ Produce work that:
 
 Apply this Skill when asked to:
 
-- draft a new AskPIP document;
+- draft a new PIP document;
 - revise or rewrite an existing document;
 - correct spelling, grammar, structure or consistency;
 - tighten wording without losing meaning;
@@ -58,7 +60,7 @@ It does not govern:
 - staging, committing, pulling or pushing;
 - publication or distribution;
 - assigning Founder approval; or
-- approving changes to the AI Operating System.
+- approving changes to the PIP AI OS.
 
 Use the applicable repository-integration procedure when repository operations are also requested.
 
@@ -96,7 +98,7 @@ Identify the material authorized for the task, which may include:
 - an authorized connected source;
 - an existing repository document;
 - a template;
-- related authoritative AskPIP documents; or
+- related authoritative PIP documents; or
 - explicit decisions recorded in the current instruction.
 
 Access every required source before relying upon it.
@@ -110,11 +112,28 @@ When a required source is unavailable:
 3. complete only unaffected work where useful; and
 4. request the missing material or Founder direction when necessary.
 
+## 4.1 Naming and Terminology Sources
+
+For document creation, editing, renaming and terminology work:
+
+1. load and apply the PIP System Identity and Naming Standard (SINS-001) at `Standards/PIP_System_Identity_and_Naming_Standard.md`;
+2. use the PIP System Terminology Context at `AI/Context/PIP_System_Terminology_Context.md` as the compact operational reference;
+3. treat SINS-001 as authoritative where any uncertainty or difference exists; and
+4. use approved PIP terminology consistently.
+
+Within each standalone document, define every acronym at its first substantive use by writing the full term followed immediately by the acronym in parentheses.
+
+A title or metadata entry satisfies first use when it contains both the complete term and the acronym.
+
+The first-use requirement does not apply where an acronym appears only within a filename, repository path, URL, domain name, code identifier, configuration value, file extension or another technical context exempted by SINS-001.
+
+Do not introduce an acronym when its shortened form is unlikely to be reused or would reduce clarity.
+
 # 5. Establish Authority and Status
 
 Determine which sources are authoritative within the task.
 
-Apply the AskPIP authority hierarchy and the Founder’s current instruction.
+Apply the PIP authority hierarchy and the Founder’s current instruction.
 
 Treat each source according to its recorded status:
 
@@ -153,7 +172,7 @@ When creating a new document:
 
 1. use only established information and clearly identified proposals;
 2. organize the content around the document’s defined purpose;
-3. use AskPIP’s established terminology;
+3. use PIP’s established terminology;
 4. avoid unsupported facts, decisions or commitments;
 5. identify uncertainty where it materially affects the document; and
 6. assign a truthful draft or review status.
@@ -207,7 +226,7 @@ If both are requested, identify and perform both.
 
 # 10. Apply Document Metadata
 
-Use the applicable approved AskPIP documentation standard or supplied template where available.
+Use the applicable approved PIP documentation standard or supplied template where available.
 
 Do not invent missing metadata values.
 
@@ -239,6 +258,7 @@ Before presenting or saving the result, verify:
 - intended meaning was preserved;
 - new proposals are distinguishable from established decisions;
 - terminology is consistent;
+- acronym first-use, title or metadata satisfaction, technical-context exceptions and unnecessary-acronym requirements comply with SINS-001;
 - metadata is accurate;
 - heading levels and formatting are coherent;
 - spelling and grammar have been checked;
