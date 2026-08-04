@@ -10,7 +10,7 @@
 **Last Updated:** 4 August 2026  
 **Working Location:** `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`  
 **Proposed Permanent Location:** Founder decision required  
-**Purpose:** To express the first bounded Ask Pip minimum viable product journey through Marie’s complete experience with Sarah’s Rose, from first opening through a later leaf concern, follow-up and recorded outcome.  
+**Purpose:** To express the first bounded Ask Pip minimum viable product journey through Marie’s continuing experience with Sarah’s Rose, from first opening through guided care, pruning, follow-up and recorded outcomes.  
 **Authority Sources:** `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`  
 **Related Documents:** `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`
 
@@ -20,7 +20,7 @@
 
 The first guided-care journey is Marie’s complete first-use-to-outcome experience with Sarah’s Rose.
 
-It begins when Marie first opens Ask Pip, continues through creating Sarah’s Rose’s profile and beginning its story, and later follows Marie through a leaf concern, a decision, follow-up and an outcome.
+It begins when Marie first opens Ask Pip, continues through creating Sarah’s Rose’s profile and beginning its story, and follows her through a leaf concern, seasonal pruning, follow-up and recorded outcomes.
 
 # 2. Experience Intent
 
@@ -79,7 +79,7 @@ Ask Pip preserves her words and responds:
 
 Ask Pip invites Marie to take a few photographs so she has a starting point to look back on as Sarah’s Rose grows. She photographs the whole rose, its place in the garden and the nursery label, adding notes if she wishes.
 
-Using what Marie has shared and the approved knowledge available for the journey, Ask Pip offers a short introduction to what she might notice and one or two useful next steps.
+Using what Marie has shared and the approved knowledge available for the journey, Ask Pip offers a short introduction to what she might notice, how care changes through the year and one or two useful next steps. Ask Pip offers to remind her when it may be time to think about seasonal pruning. Marie chooses a suitable reminder.
 
 Marie leaves knowing that Sarah’s Rose has a place in her Garden Journal and that she can return whenever something changes or she is curious.
 
@@ -121,9 +121,9 @@ In this path, she chooses to observe before treating.
 
 > “All right. We’ll keep an eye on those changes before you decide what to do.”
 
-Ask Pip gives her a clear reason and point for returning.
+Ask Pip asks whether Marie would like a reminder to check Sarah’s Rose again. Marie agrees and chooses a suitable day. She can change or cancel the reminder at any time.
 
-## 3.7 Marie Returns and Records the Outcome
+## 3.7 Marie Returns and Records the Leaf Outcome
 
 At follow-up, Ask Pip returns Marie directly to Sarah’s Rose and the concern:
 
@@ -137,9 +137,21 @@ When the care check reaches an outcome, that outcome becomes the next chapter in
 
 Marie can look back and recognise one connected story: why the rose matters, how it began, what she noticed, what she chose and what happened next.
 
+## 3.8 Marie Learns About Pruning
+
+When Marie’s seasonal reminder arrives, it opens Sarah’s Rose at the point where she left it.
+
+Pip explains why pruning may help a bush rose and what Marie can learn by looking at the plant before deciding what to do. Marie works through simple questions about the season, the rose’s recent growth and the parts she can see. Pip explains each feature as it becomes relevant, so Marie learns what she is looking for and why it matters.
+
+Using Marie’s confirmed observations and the approved knowledge available for the journey, Ask Pip helps her compare supported choices: prune now, wait, leave a part alone or seek experienced help. Marie chooses what she is comfortable doing and records her decision.
+
+Before she begins, Ask Pip helps her prepare for safe, careful work. Marie can add photographs to mark the rose before pruning. Afterward, she records what she actually did and may add further photographs.
+
+Ask Pip offers a follow-up reminder. When Marie returns, she records how Sarah’s Rose responded and what she learned. The pruning decision, completed work and outcome become part of the same continuing history.
+
 # 4. Journey Boundaries
 
-Marie supplies and confirms what she notices. Photographs are optional parts of Sarah’s Rose’s history, and all plant and label details can be entered manually. Ask Pip uses approved operational knowledge and directs unsupported or urgent concerns to appropriate help.
+Marie supplies and confirms what she notices. Photographs are optional parts of Sarah’s Rose’s history, and all plant and label details can be entered manually. Reminders are optional and remain under Marie’s control. Ask Pip uses approved operational knowledge and directs unsupported or urgent concerns to appropriate help.
 
 # 5. Journey Acceptance Criteria
 
@@ -149,16 +161,20 @@ The journey is demonstrated for minimum viable product purposes when:
 2. Sarah’s Rose has its own profile, chosen name, personal meaning and continuing history.
 3. Marie can leave unknown plant information unresolved and add or correct it later.
 4. Marie can add photographs naturally when the profile is created and at later moments.
-5. The first session gives Marie useful guidance and a clear reason to return.
-6. Marie can return with the leaf concern and continue from Sarah’s Rose’s existing context.
-7. Ask Pip helps Marie describe and confirm what she has noticed in ordinary language.
-8. Marie can understand uncertainty, choose or defer a next step, and know when to return.
-9. Follow-up continues the same concern and records Marie’s later observation, action and outcome.
-10. Sarah’s Rose’s profile retains its name, personal meaning, photographs, observations, decisions and outcomes as one continuing history.
+5. The first session gives Marie useful guidance and offers a seasonal pruning reminder.
+6. Marie can choose, change or cancel a reminder, and opening it resumes the relevant point in Sarah’s Rose’s history.
+7. Marie can return with the leaf concern and continue from Sarah’s Rose’s existing context.
+8. Ask Pip helps Marie describe and confirm what she has noticed in ordinary language.
+9. Marie can understand uncertainty, choose or defer a next step, and know when to return.
+10. Follow-up continues the same concern and records Marie’s later observation, action and outcome.
+11. Ask Pip teaches Marie why, when and how to consider pruning by guiding her own observation of Sarah’s Rose.
+12. Marie can compare pruning choices, record her decision and later distinguish what she planned from what she completed.
+13. A pruning follow-up records how Sarah’s Rose responded and what Marie learned.
+14. Sarah’s Rose’s profile retains its name, personal meaning, photographs, observations, decisions, actions and outcomes as one continuing history.
 
 # 6. Specification Handoff
 
-The implementable specification shall define the interface states, supported questions and choices, operational knowledge, follow-up behaviour, data relationships, failure paths and test cases required for this journey. Product and information architecture remain governed by the MVP architecture.
+The implementable specification shall define the interface states, supported questions and choices, operational knowledge, reminders, follow-up behaviour, data relationships, failure paths and test cases required for this journey. Product and information architecture remain governed by the MVP architecture.
 
 # 7. Founder Review Decisions
 
