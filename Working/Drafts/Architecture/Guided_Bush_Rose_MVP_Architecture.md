@@ -20,20 +20,19 @@
 
 This document defines the product architecture for the first Guided Bush Rose minimum viable product (MVP) of Ask Pip.
 
-The MVP shall help a gardener observe, understand and care for individual bush roses over time through guided questions, trusted knowledge, contextual information and a continuing record for each rose.
+The MVP shall help a gardener observe, understand and care for individual bush roses over time through guided questions, trusted knowledge, contextual information and a continuing Bush Rose Profile history.
 
 This architecture establishes:
 
 - the product outcome;
 - the principal system boundaries;
-- the relationship between Bush Rose Profiles and their Garden Journals;
-- the role of photographs and associated data from the first MVP;
+- the Garden Journal and Plant Profile hierarchy;
+- the role of photographs in evidence and plant history;
 - the separation between evidence, observations, reasoning, guidance and plant history;
-- the role of the gardener;
-- the required relationship with approved knowledge;
+- the gardener's role and the use of approved knowledge;
 - the continuing observation and follow-up cycle;
-- the permitted use of limited image-reading capabilities; and
-- the point at which future plant-image analysis may be added without replacing the core product.
+- the permitted first-MVP image capabilities; and
+- the integration boundary for future plant-image analysis.
 
 This document does not select software technologies, artificial-intelligence models, image-analysis providers or detailed implementation methods. Those decisions belong to later technical design and specification work.
 
@@ -55,7 +54,7 @@ The first MVP may use photographs for capture, recordkeeping and limited reading
 
 # 3. MVP Product Outcome
 
-The MVP shall enable each gardener to create and maintain one or more separate Bush Rose Profiles. Each profile shall represent one individual bush rose and shall have its own continuing Garden Journal, photographic record, observations, decisions, care actions and outcomes.
+The MVP shall enable a gardener to understand and care for individual bush roses through a continuing guided-care cycle informed by each rose’s identity, observations, evidence, care history and outcomes.
 
 For at least one Bush Rose Profile, the gardener shall be able to complete a full guided-care cycle:
 
@@ -66,7 +65,7 @@ For at least one Bush Rose Profile, the gardener shall be able to complete a ful
 5. understand supported possibilities and uncertainty;
 6. record a decision or defer action;
 7. receive relevant follow-up guidance; and
-8. record the outcome in the Garden Journal.
+8. record the outcome in the Bush Rose Profile's history.
 
 The MVP succeeds as a product demonstration when that complete cycle can operate without requiring automated interpretation of the rose's physical appearance.
 
@@ -105,47 +104,41 @@ The absence of relevant context shall not be concealed. Ask Pip shall request ad
 
 ## 4.5 Continuing Plant History
 
-Each Bush Rose Profile shall preserve the continuing history of one individual rose. The linked Garden Journal shall be more than a collection of photographs or notes: it shall preserve the relationships between evidence, observations, guidance, decisions, actions, follow-ups and outcomes so later guidance can use what has already been learned.
+Each Plant Profile history shall preserve the relationships between evidence, observations, guidance, decisions, actions, follow-ups and outcomes so later guidance can use what has already been learned.
 
-Records belonging to different roses shall remain separate unless the gardener intentionally creates an explicit relationship between them.
+Plant Profile histories shall remain distinct unless the gardener intentionally creates an explicit relationship between them.
 
 ## 4.6 Encouraged but Optional Photography
 
-The gardener shall be encouraged, but not required, to add photographs to each Bush Rose Profile and Garden Journal.
+A gardener may complete every guided-care activity without supplying a photograph.
 
-Ask Pip shall explain the practical value of photographs at relevant points. Depending on the interaction, positive reasons may include:
+Ask Pip shall explain the practical value of photographs at relevant points, including where applicable:
 
-- creating a visual history of the individual rose;
-- helping the gardener compare change over time and across seasons;
+- creating a visual history that supports comparison over time and across seasons;
 - preserving supporting evidence alongside the gardener's observation;
 - recording labels and other visible information;
 - connecting before-and-after records with care actions and outcomes;
-- helping another person review the record where appropriate; and
-- allowing future authorised photographic capabilities to examine earlier records.
+- supporting appropriate review and future authorised photographic analysis.
 
-The absence of a photograph shall not prevent the gardener from creating a Bush Rose Profile, recording an observation, asking for guidance or continuing a care cycle. Guidance shall reflect the evidence actually available and identify material limitations where necessary.
+Guidance shall reflect the evidence available and identify material limitations.
 
 ## 4.7 AI-Powered but Provider-Adaptable
 
-Pip shall be an artificial-intelligence-powered companion. Pip's identity, approved knowledge, plant records, evidence history, operating rules and safeguards shall remain governed components of PIP rather than properties of one external model or provider.
+Pip shall be an artificial-intelligence-powered, provider-adaptable companion.
+
+Pip’s identity, approved knowledge, plant records, evidence history, operating rules and safeguards shall remain governed components of PIP.
 
 The product shall be designed so suitable artificial-intelligence models, image-reading technologies and external providers may be adopted, combined or replaced without requiring the loss or reconstruction of:
 
 - Pip's governed identity and behaviour;
-- Bush Rose Profiles and Garden Journals;
-- photographs and associated data;
-- approved operational knowledge;
-- evidence and reasoning history;
+- Plant Profile histories, photographs and associated data;
+- approved operational knowledge and evidence and reasoning history;
 - guidance and follow-up records; or
-- product safeguards.
-
-No particular model, technology or provider shall constitute the permanent identity, knowledge base or exclusive operating foundation of Pip.
+- operating rules and product safeguards.
 
 ## 4.8 Gardener Confirmation of Extracted Information
 
-Where the MVP uses a photograph to read visible information, such as text on a nursery label, the result shall be presented as a proposed transcription or interpretation for the gardener to confirm or correct.
-
-Ask Pip shall not silently treat extracted information as established profile information. The original photograph, proposed reading and gardener-confirmed or corrected value shall remain distinguishable where the difference is material.
+Where the MVP uses a photograph to read visible information, such as text on a nursery label, the result shall remain proposed information until the gardener confirms or corrects it. The original photograph, proposed reading and confirmed or corrected value shall remain distinguishable where the difference is material.
 
 # 5. Product Boundaries
 
@@ -153,18 +146,14 @@ Ask Pip shall not silently treat extracted information as established profile in
 
 The first MVP shall include:
 
-- the ability for each gardener to create and maintain one or more separate Bush Rose Profiles, with each profile representing an individual bush rose;
-- a separate continuing Garden Journal linked to each Bush Rose Profile;
-- optional capture and storage of multiple gardener-supplied photographs as linked evidence and historical records;
-- clear, relevant explanations of why adding photographs may benefit the gardener and the continuing rose record;
-- support for multiple views and before-and-after photographic sequences;
+- the Garden Journal and Plant Profile hierarchy defined in Section 7;
+- optional capture and storage of multiple gardener-supplied photographs, including multiple views and before-and-after sequences, as linked evidence and historical records;
+- relevant explanations of the value of photographs to the gardener and continuing plant record;
 - recording of relevant label, cultivar, location and planting information supplied through reliable records or gardener input;
-- optional use of a label photograph to propose a transcription of visible text for gardener confirmation or correction;
-- preservation of the original label photograph as supporting evidence where supplied;
+- optional use of a label photograph to propose a transcription for gardener confirmation or correction while preserving the original as supporting evidence;
 - gardener-supplied observations captured through guided questions;
 - verified reference material where required to help the gardener observe or compare;
-- contextual answers grounded in approved operational knowledge;
-- explicit communication of material uncertainty;
+- contextual answers grounded in approved operational knowledge with material uncertainty stated explicitly;
 - recording of decisions, deferred decisions, care actions and outcomes; and
 - follow-up guidance that continues from an earlier interaction.
 
@@ -187,7 +176,7 @@ These capabilities remain possible future additions. Their inclusion shall requi
 
 ## 6.1 Bush Rose Profile
 
-Each Bush Rose Profile shall represent one individual bush rose and hold its relatively stable identity and context.
+Each Bush Rose Profile shall hold the relatively stable identity and context of the individual bush rose it represents.
 
 It may include:
 
@@ -196,8 +185,7 @@ It may include:
 - planting or acquisition information supplied by the gardener;
 - relevant location information;
 - the gardener's account of why the rose matters;
-- selected profile photographs, including a label photograph where available; and
-- a link to the rose's Garden Journal.
+- selected profile photographs, including a label photograph where available.
 
 Information shall retain its source where source affects reliability. A gardener-confirmed label transcription shall remain distinguishable from a cultivar inferred from appearance, which is outside the first MVP boundary.
 
@@ -220,7 +208,7 @@ An evidence item shall remain identifiable independently of any later interpreta
 
 ## 6.3 Photographic Record
 
-Photographs supplied by the gardener shall form part of the continuing evidence and historical record for the correct individual rose. The product shall support photographs connected to a Bush Rose Profile and to relevant Garden Journal events, including observations, questions, decisions, care actions, follow-ups and outcomes.
+Gardener-supplied photographs shall form part of the evidence and historical record for the correct Plant Profile. The product shall support links to relevant observations, questions, decisions, care actions, follow-ups and outcomes.
 
 The photographic record shall support:
 
@@ -234,7 +222,7 @@ The photographic record shall support:
 - separation of the original image from later machine or human interpretations; and
 - later authorised analysis of photographs already retained.
 
-Photograph metadata shall be limited to information needed for the gardener's record and approved PIP purposes. Privacy, consent, retention and any use beyond the individual gardener's service shall be defined before implementation. Storage in a Bush Rose Profile or Garden Journal shall not by itself authorise use for model training or general research.
+Photograph metadata shall be limited to information needed for the gardener's record and approved PIP purposes. Privacy, consent, retention and any use beyond the individual gardener's service shall be defined before implementation. Storage in a Plant Profile history shall not by itself authorise use for model training or general research.
 
 ## 6.4 Visible-Information Extraction
 
@@ -302,11 +290,9 @@ Guidance shall communicate the practical result of the supported reasoning to th
 Guidance may:
 
 - explain relevant knowledge;
-- explain supported possibilities;
-- identify uncertainty and limitations;
+- explain supported possibilities, uncertainty and limitations;
 - suggest what to observe next;
-- present supported care options;
-- help the gardener compare options;
+- present and compare supported care options;
 - explain when and why a photograph may improve the record or later assessment; and
 - invite the gardener to record a decision or defer action.
 
@@ -323,13 +309,11 @@ The product shall distinguish between:
 - an action reported as completed; and
 - an outcome later observed.
 
-This separation is required so later guidance does not assume that an offered recommendation was accepted or completed.
-
 ## 6.9 Garden Journal
 
-Each Bush Rose Profile shall have one continuing Garden Journal that presents the history of that individual rose.
+The Garden Journal shall present and organise Plant Profile histories in accordance with Section 7.
 
-Journal entries may link:
+Plant Profile history entries may link:
 
 - evidence;
 - photographs and their contextual data;
@@ -342,7 +326,7 @@ Journal entries may link:
 - follow-up arrangements; and
 - observed outcomes.
 
-The journal shall preserve the relationship between an event and the earlier event that prompted it where that relationship is relevant.
+Each entry shall remain within the correct Plant Profile history and preserve any relevant relationship to an earlier event that prompted it.
 
 ## 6.10 Follow-Up
 
@@ -361,12 +345,15 @@ A follow-up record shall identify:
 
 The minimum required relationships are:
 
-- one gardener may have one or more Bush Rose Profiles;
+- each gardener has one continuing Garden Journal;
+- one Garden Journal contains one or more Plant Profiles;
+- the MVP initially supports Bush Rose Profiles as a Plant Profile type;
 - each Bush Rose Profile represents one individual bush rose;
-- each Bush Rose Profile has one continuing Garden Journal;
-- one Garden Journal contains multiple linked entries;
-- one journal entry may contain or reference multiple evidence items, including photographs;
-- one photograph may be linked to its Bush Rose Profile and to one or more relevant journal events;
+- the same Garden Journal may contain other Plant Profile types when they are added later;
+- each Plant Profile maintains its own continuing history;
+- one Plant Profile history contains multiple linked entries;
+- one profile-history entry may contain or reference multiple evidence items, including photographs;
+- one photograph may be linked to its Plant Profile and to one or more relevant events in that profile's history;
 - one evidence item may support one or more observations;
 - one observation may be considered by one or more reasoning assessments;
 - one reasoning assessment may produce one or more guidance items;
@@ -384,7 +371,7 @@ A structured observation shall be capable of moving through a controlled lifecyc
 2. **Clarified** - required questions or comparisons have improved the observation's meaning.
 3. **Confirmed or corrected** - the gardener has confirmed the wording, supplied a correction or identified that they cannot determine it.
 4. **Used in reasoning** - the observation has been considered with approved knowledge and relevant context.
-5. **Recorded in history** - the observation and its relationship to later decisions or outcomes are preserved in the correct Garden Journal.
+5. **Recorded in history** - the observation and its relationship to later decisions or outcomes are preserved in the relevant Plant Profile history.
 
 The specification may use different interface wording, but it shall preserve the difference between a proposed observation, a gardener-confirmed observation and a system inference.
 
@@ -392,9 +379,9 @@ The specification may use different interface wording, but it shall preserve the
 
 ## 9.1 Add a Rose
 
-The gardener shall be able to create a separate Bush Rose Profile for each individual bush rose they wish to record. The gardener shall be able to name the rose and record available identity, location, planting and personal information.
+The gardener shall be able to create a Bush Rose Profile for each individual bush rose they wish to record, name the rose and record available identity, location, planting and personal information.
 
-Ask Pip shall invite the gardener to begin the rose's visual history with one or more photographs and briefly explain the benefits of doing so. The gardener may continue without supplying a photograph.
+Ask Pip shall invite the gardener to begin the rose's visual history with one or more photographs and briefly explain the benefits of doing so.
 
 If the gardener supplies a photograph of a label, Ask Pip may propose what the visible text appears to say and shall ask the gardener to confirm or correct it before using it as established profile information.
 
@@ -408,7 +395,7 @@ Ask Pip shall present a bounded set of questions that helps the gardener describ
 
 Questions shall be chosen to improve the usefulness of the observation. The interface shall permit the gardener to state that they cannot determine an answer.
 
-Where a photograph would strengthen the record, support later comparison or provide useful evidence, Ask Pip shall invite the gardener to add one or more suitable views and explain what to photograph and why. Declining or being unable to add a photograph shall not end the guided observation.
+Where a photograph would strengthen the record, support later comparison or provide useful evidence, Ask Pip shall invite the gardener to add one or more suitable views and explain what to photograph and why.
 
 ## 9.4 Understand Possibilities and Uncertainty
 
@@ -424,7 +411,7 @@ Ask Pip shall create a relevant continuation point and return to the earlier obs
 
 ## 9.7 Record the Outcome
 
-The gardener shall be able to record what changed and whether a planned action was completed. The result, including any supplied follow-up photographs, shall be linked to the earlier observation, guidance and decision in the correct Garden Journal.
+The gardener shall be able to record what changed and whether a planned action was completed. The result, including any supplied follow-up photographs, shall be linked to the earlier observation, guidance and decision in the relevant Bush Rose Profile history.
 
 # 10. Knowledge Curation System Relationship
 
@@ -454,7 +441,7 @@ The first MVP may use photographs to:
 - capture visible label or record information; and
 - propose text transcriptions for gardener confirmation.
 
-The availability of these uses does not mean that Ask Pip can diagnose the plant, determine its health or identify its cultivar from physical appearance.
+These uses remain subject to the capability boundaries in Section 5.2.
 
 ## 11.2 Future Plant-Image Analysis
 
@@ -477,18 +464,18 @@ It shall not automatically:
 - bypass approved operational knowledge; or
 - make the rest of Ask Pip unavailable when photographic analysis is inconclusive or unavailable.
 
-The same reasoning, guidance, Garden Journal and follow-up processes used by gardener-reported observations shall remain available to confirmed photograph-derived observations.
+Confirmed photograph-derived observations shall use the same reasoning, guidance, Plant Profile history and follow-up processes as gardener-reported observations.
 
-Photographs retained before this capability becomes available shall be capable of later authorised analysis without requiring the gardener to rebuild the Bush Rose Profile or Garden Journal. Any later analysis shall be recorded as a new traceable interpretation and shall not alter the original photograph, the gardener's original report or the historical record of guidance previously given.
+Photographs retained before this capability becomes available shall support later authorised analysis. Any later analysis shall be recorded as a new traceable interpretation and preserve the original photograph, gardener report and historical guidance record unchanged.
 
 # 12. Required Safeguards
 
 The implementable specification shall preserve the following safeguards:
 
-- **Profile separation:** records, photographs and events remain linked to the correct individual rose.
+- **Journal and profile integrity:** the hierarchy, cardinalities and separated histories defined in Section 7 remain intact.
 - **Source traceability:** material observations identify where they came from.
 - **Evidence linkage:** supporting answers, records or photographs remain linked where applicable.
-- **Voluntary photography:** the product encourages and explains photographic capture without making it a condition of participation.
+- **Voluntary photography:** every guided-care activity shall remain available without a photograph.
 - **Photographic integrity:** original photographs, contextual data and later interpretations remain distinguishable.
 - **Confirmation of extracted information:** proposed label or text readings require gardener confirmation or correction before becoming established profile information.
 - **Capability clarity:** label reading is not represented as cultivar recognition, plant assessment or diagnosis.
@@ -521,7 +508,7 @@ After Founder approval of this architecture, the next controlled document shall 
 The specification shall define at least:
 
 - the single guided-care journey selected for implementation;
-- creation, selection and management of multiple Bush Rose Profiles;
+- implementation of the Garden Journal and Plant Profile relationships defined in Section 7;
 - user interactions and interface states;
 - required data fields and validation rules;
 - photograph capture, metadata, linkage, storage and retrieval behaviour;
@@ -529,7 +516,7 @@ The specification shall define at least:
 - the observation vocabulary and source states;
 - required knowledge retrieval and traceability behaviour;
 - reasoning and uncertainty outputs;
-- Garden Journal entry types and relationships;
+- Plant Profile history entry types and relationships;
 - decision, action, follow-up and outcome states;
 - acceptance criteria for the complete journey;
 - failure, unavailable-information and expert-referral behaviours;
