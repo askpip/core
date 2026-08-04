@@ -12,7 +12,7 @@
 **Proposed Permanent Location:** Founder decision required  
 **Purpose:** To define the first bounded minimum viable product implementation of the Ask Pip application, supporting Bush Rose V1 as its first Plant Profile type and plant-knowledge domain, and establish the boundaries that an implementable specification must follow.  
 **Authority Source:** Founder-approved Founder Direction Brief – Guided Bush Rose MVP  
-**Related Documents:** `Foundations/AskPIP_Vision_Statement.md`; `Foundations/Maries_Story.md`
+**Related Documents:** `Foundations/AskPIP_Vision_Statement.md`; `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`
 
 ---
 
@@ -377,6 +377,10 @@ The specification may use different interface wording, but it shall preserve the
 
 # 9. Guided Journey Architecture
 
+The selected first journey is Marie’s complete first-use-to-outcome arc, defined in `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`. It begins with Marie opening Ask Pip and creating Sarah’s Rose’s profile, then continues through early guidance, a later leaf concern, her decision, follow-up and recorded outcome.
+
+The journey document owns the gardener-facing and emotional sequence. This section retains the reusable architectural stages that the implementable specification shall support.
+
 ## 9.1 Add a Rose
 
 The gardener shall be able to create a Bush Rose Profile for each individual bush rose they wish to record, name the rose and manually record all available identity, label, cultivar, location, planting and personal information.
@@ -508,13 +512,13 @@ Earlier pruning-first requirements and materials do not govern the first MVP unl
 
 # 14. Specification Handoff
 
-After Founder approval of this architecture, the next controlled document shall be an implementable MVP specification.
+After Founder approval of this architecture and the selected journey, the next controlled document shall be an implementable MVP specification.
 
-This architecture may be reviewed as the general architectural boundary before the first guided-care journey is selected. Before the implementable specification is finalised and implementation begins, a Founder decision shall identify one bounded first guided-care journey. This architecture does not select that journey.
+The specification shall implement Marie’s complete first-use-to-outcome journey as the first bounded guided-care journey and shall satisfy its journey-specific acceptance criteria.
 
 The specification shall define at least:
 
-- the single guided-care journey selected for implementation;
+- the interface and behaviour required to implement the selected Marie journey;
 - implementation of the Garden Journal and Plant Profile relationships defined in Section 7;
 - user interactions and interface states;
 - required data fields and validation rules;
@@ -538,9 +542,8 @@ The Founders must determine:
 
 1. the approved version for this architecture document;
 2. its permanent PIP CORE location;
-3. whether the proposed source categories and observation lifecycle accurately express the approved product direction;
-4. which single guided-care journey the implementable specification shall develop first; and
-5. whether any amendment is required before the document enters Founder review.
+3. whether the proposed source categories and observation lifecycle accurately express the approved product direction; and
+4. whether any amendment is required before the document enters Founder review.
 
 ---
 
