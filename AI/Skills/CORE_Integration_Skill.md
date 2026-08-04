@@ -9,10 +9,10 @@ description: Manage scoped repository operations for PIP CORE assets, including 
 
 **Document Title:** CORE Integration Skill  
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill  
-**Version:** 0.1  
+**Version:** 0.2  
 **Status:** Approved  
 **Owner:** The Founders  
-**Approved By:** shaphanmartin73  
+**Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AI/Skills/CORE_Integration_Skill.md`  
 **Last Updated:** 4 August 2026  
 **Purpose:** To govern repository operations for controlled Plant Intelligence Platform (PIP) assets in PIP CORE.  
@@ -155,6 +155,10 @@ Official CORE integration requires Founder approval identifying or establishing,
 For internal operating and process documents, an instruction from either Founder is sufficient to approve the document, its version and permanent repository location, and its official CORE integration. This includes PIP AI OS Skills, operating procedures, Loading Guide amendments and repository-process Standards.
 
 References to Founder approval or approval by the Founders do not require both Founders for an internal operating or process document unless a higher-authority document expressly requires joint approval for that asset or decision, or a Founder expressly states that joint approval is required.
+
+`AskPIP Founder Authority` is the institutional governance identity recorded in approval metadata when an authorised AskPIP Founder exercises approval authority under the applicable governance. The label does not state that both Founders personally approved the document.
+
+For internal operating and process documents, approval metadata shall use `AskPIP Founder Authority` rather than a Founder's personal name, username, personal email address or shared administrative email address. This governance approval identity is distinct from the technical identity recorded by Git or another repository system; technical authorship and commit records shall remain accurate and shall not be rewritten to match document metadata.
 
 This rule does not determine approval requirements for public content, plant knowledge, commercial decisions, legal decisions, constitutional amendments or other asset classes outside internal operating and process documents.
 

@@ -10,11 +10,11 @@
 
 **Status:** Approved
 
-**Version:** 0.3
+**Version:** 0.4
 
 **Last Updated:** 4 August 2026
 
-**Approved By:** shaphanmartin73
+**Approved By:** AskPIP Founder Authority
 
 **Permanent Location:** `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`
 
@@ -98,6 +98,8 @@ A scoped instruction from either Founder is sufficient authority to create, edit
 Working-draft authority does not establish or alter the approval requirements for official CORE integration. Founder approval and official integration remain separate Founder-controlled actions governed by the current approved governance. No additional joint-approval rule shall be inferred.
 
 For an internal operating or process document, an instruction from either Founder is sufficient to approve the document, its version and permanent repository location, and its official CORE integration, unless a higher-authority document expressly requires joint approval for that asset or decision or a Founder expressly states that joint approval is required. This rule includes PIP AI OS Skills, operating procedures, Loading Guide amendments and repository-process Standards and does not determine approval requirements for other asset classes.
+
+Approval metadata for those internal operating and process documents shall use the institutional governance identity `AskPIP Founder Authority` in accordance with the CORE Integration Skill. That identity is distinct from technical repository authorship and does not represent that both Founders personally approved every document.
 
 ### 3.4 Controlled Integration
 
