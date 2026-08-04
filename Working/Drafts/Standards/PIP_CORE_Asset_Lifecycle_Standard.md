@@ -93,7 +93,9 @@ Only the Founders may:
 
 Artificial intelligence (AI) agents shall not infer or grant Founder approval.
 
-Founder authority for working-draft synchronisation shall be governed by the approved repository-integration procedure.
+A scoped instruction from either Founder is sufficient authority to create, edit and synchronise a working draft in `Working/Drafts/`, unless that Founder instructs the AI not to commit or push. This working-draft authority shall be executed under the approved repository-integration procedure.
+
+Working-draft authority does not establish or alter the approval requirements for official CORE integration. Founder approval and official integration remain separate Founder-controlled actions governed by the current approved governance. No additional joint-approval rule shall be inferred.
 
 ### 3.4 Controlled Integration
 
@@ -103,7 +105,13 @@ Unrelated modified or untracked files shall remain unaffected.
 
 Where the approved version, permanent location or integration scope cannot be determined, the affected official-integration action shall stop pending Founder direction.
 
-### 3.5 Repository Cleanliness
+### 3.5 Concurrent Change Protection
+
+Before writing or synchronising a controlled asset, the AI shall obtain the latest remote state and identify the current target-file state. Before completing synchronisation, it shall verify that the destination branch and target file have not changed incompatibly.
+
+If concurrent changes would require unsupported reconciliation, the affected operation shall stop and the conflict shall be reported. The AI shall not overwrite the newer state, force the change or infer a reconciliation decision.
+
+### 3.6 Repository Cleanliness
 
 The Working area is a controlled workspace and not a permanent location for approved repository-authoritative assets.
 
@@ -132,7 +140,11 @@ Assets requiring a functional repository location during development, including 
 
 All assets under development shall remain Draft.
 
-A working draft may be committed and pushed in its existing Working location throughout development and Founder review. Working-draft synchronisation records the current state of the Draft for review and collaboration. It does not constitute Founder approval, official CORE integration, publication or repository-authoritative use.
+An instruction to create or edit an asset within `Working/Drafts/` authorises the scoped save, commit and push to its existing working location unless the Founder instructs otherwise. For local working-draft synchronisation, `origin/main` is the normal destination unless a Founder specifies another branch or remote.
+
+Working-draft synchronisation records the current state of the Draft for review and collaboration. It does not constitute Founder approval, official CORE integration, publication or repository-authoritative use.
+
+The approved repository-integration procedure shall support both a local Git checkout and direct operation through an authorised GitHub connector. It shall apply capability-sensitive verification: Git status, diff, staging, commit and push verification in a local checkout; and current file, blob, commit and branch verification through an authorised GitHub connector.
 
 ### 4.2 Founder Review
 
@@ -173,6 +185,8 @@ Integration may include:
 * verifying the resulting repository state.
 
 The integration procedure shall contain the detailed operational requirements for these actions.
+
+An amendment that activates the CORE Integration Skill through the PIP AI Loading Guide shall integrate the approved CORE Integration Skill, this Standard amendment and the corresponding Loading Guide amendment together. The Loading Guide shall not route AI to either document until both have been installed at their approved permanent locations.
 
 ### 4.5 Repository Authority
 
@@ -254,6 +268,8 @@ AI agents shall:
 * stop affected official-integration actions when approval, version, location or scope remains unresolved;
 * verify successful integration before reporting an asset as repository-authoritative; and
 * remove working materials only when authorised.
+
+Repository verification shall match the operating environment. In a local checkout, AI agents shall use available Git status, diff, staging, commit and push evidence. Through an authorised GitHub connector, they shall use current file, blob, commit and branch evidence.
 
 ## 7. Exceptions
 
