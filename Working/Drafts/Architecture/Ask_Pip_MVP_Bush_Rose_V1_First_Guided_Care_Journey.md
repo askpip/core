@@ -20,7 +20,7 @@
 
 The first guided-care journey is Marie’s complete first-use-to-outcome experience with Sarah’s Rose.
 
-It begins when Marie first opens Ask Pip, continues through creating Sarah’s Rose’s profile and beginning its story, and follows her through a leaf concern, seasonal pruning, follow-up and recorded outcomes.
+It begins when Marie first opens Ask Pip, continues through creating Sarah’s Rose’s profile and beginning its story, and follows her through a black-spot care episode, seasonal pruning, follow-up and recorded outcomes.
 
 # 2. Experience Intent
 
@@ -83,7 +83,7 @@ Using what Marie has shared and the approved knowledge available for the journey
 
 Marie leaves knowing that Sarah’s Rose has a place in her Garden Journal and that she can return whenever something changes or she is curious.
 
-## 3.4 Marie Returns With a Concern
+## 3.4 Marie Returns With Black Spots
 
 Marie notices dark spots on a few leaves and returns to Sarah’s Rose.
 
@@ -97,45 +97,37 @@ Ask Pip continues from the existing story:
 
 ## 3.5 Marie Looks More Closely
 
-Ask Pip asks a short sequence of ordinary questions that help Marie look more carefully. Depending on the approved journey content, these may cover when she noticed the spots, how many leaves seem affected, where they are on the rose, whether she sees yellowing or leaf loss, and whether the change appears to be spreading.
+Ask Pip asks a short sequence of ordinary questions that help Marie look more carefully. These cover when she noticed the spots, where they appear on the rose, whether the surrounding leaves are yellowing or falling, whether new leaves are affected and whether the problem seems to be spreading.
 
-Marie can say that she is unsure or has not checked.
+Marie can say that she is unsure or has not checked. Ask Pip explains why a question matters when that helps her, then reflects her account back in plain language:
 
-Ask Pip briefly explains why a question matters when that helps her, then reflects her account back in plain language:
-
-> “You first noticed dark spots today on a few lower leaves. You haven’t seen leaf fall, and you’re not sure whether new growth is affected. Have I got that right?”
+> “You first noticed black spots on a few lower leaves. Some of those leaves are turning yellow, and you haven’t seen the same change on the new growth. Have I got that right?”
 
 Marie confirms or corrects it. She may add photographs and notes to mark this moment in Sarah’s Rose’s history.
 
-## 3.6 Marie Understands and Decides
+## 3.6 Pip Helps Marie Care for Sarah’s Rose
 
-Ask Pip explains what Marie’s observations suggest may be worth considering, what remains uncertain and what she could do next.
+Ask Pip uses Marie’s confirmed observations, Sarah’s Rose’s profile and approved bush-rose knowledge to explain what the pattern suggests:
 
-For example:
+> “What you’ve described is consistent with rose black spot. It is a common fungal disease of roses. Let’s care for the affected leaves and make the conditions less favourable for it, then check Sarah’s Rose again.”
 
-> “There are a few reasons rose leaves can develop dark spots, and your answers don’t yet point clearly to one cause. The most useful next step is to watch whether the spots spread, whether yellowing develops and whether new leaves are affected.”
+Pip explains the practical care supported by the approved knowledge for the journey. Marie learns which affected material to remove, how to dispose of it, and how watering, fallen leaves and airflow relate to the next steps. If treatment is appropriate, Pip explains the supported options and what Marie should consider before choosing one.
 
-Marie can choose a supported care action, continue observing, seek help, decide not to act or leave the decision open.
-
-In this path, she chooses to observe before treating.
-
-> “All right. We’ll keep an eye on those changes before you decide what to do.”
+Marie decides what she will do. Ask Pip records her choice separately from the work she later confirms she completed. If her answers do not fit the black-spot pathway, the concern is urgent, or the available knowledge does not support useful guidance, Pip helps her seek appropriate assistance.
 
 Ask Pip asks whether Marie would like a reminder to check Sarah’s Rose again. Marie agrees and chooses a suitable day. She can change or cancel the reminder at any time.
 
-## 3.7 Marie Returns and Records the Leaf Outcome
+## 3.7 Marie Returns and Sees What Changed
 
-At follow-up, Ask Pip returns Marie directly to Sarah’s Rose and the concern:
+The reminder returns Marie directly to Sarah’s Rose and the black-spot episode:
 
 > **Let’s check Sarah’s Rose again.**
 >
-> “You were watching the dark spots on a few lower leaves. Have they stayed much the same, increased or decreased?”
+> “You removed the affected leaves and changed how you were watering. Are new spots appearing, and how does the rest of the rose look?”
 
-Marie reports what she notices and whether she took any action. Ask Pip helps her understand what the change over time supports and what choice is available now.
+Marie records what she did and what she now notices. Ask Pip helps her compare the change with the earlier record, explains what it means for the next care choice and records the outcome.
 
-When the care check reaches an outcome, that outcome becomes the next chapter in Sarah’s Rose’s history. If further observation or help is appropriate, Ask Pip creates another clear continuation.
-
-Marie can look back and recognise one connected story: why the rose matters, how it began, what she noticed, what she chose and what happened next.
+If Sarah’s Rose needs another check, a different supported action or experienced help, Pip guides Marie to that next step. The black-spot episode becomes part of the rose’s continuing history: what Marie noticed, what she learned, what she did and how Sarah’s Rose responded.
 
 ## 3.8 Marie Learns About Pruning
 
@@ -163,14 +155,15 @@ The journey is demonstrated for minimum viable product purposes when:
 4. Marie can add photographs naturally when the profile is created and at later moments.
 5. The first session gives Marie useful guidance and offers a seasonal pruning reminder.
 6. Marie can choose, change or cancel a reminder, and opening it resumes the relevant point in Sarah’s Rose’s history.
-7. Marie can return with the leaf concern and continue from Sarah’s Rose’s existing context.
-8. Ask Pip helps Marie describe and confirm what she has noticed in ordinary language.
-9. Marie can understand uncertainty, choose or defer a next step, and know when to return.
-10. Follow-up continues the same concern and records Marie’s later observation, action and outcome.
-11. Ask Pip teaches Marie why, when and how to consider pruning by guiding her own observation of Sarah’s Rose.
-12. Marie can compare pruning choices, record her decision and later distinguish what she planned from what she completed.
-13. A pruning follow-up records how Sarah’s Rose responded and what Marie learned.
-14. Sarah’s Rose’s profile retains its name, personal meaning, photographs, observations, decisions, actions and outcomes as one continuing history.
+7. Marie can return with black spots on Sarah’s Rose and continue from the rose’s existing context.
+8. Ask Pip helps Marie describe and confirm the relevant pattern in ordinary language.
+9. Ask Pip explains that Marie’s confirmed observations are consistent with rose black spot and provides practical care choices grounded in approved operational knowledge.
+10. Marie can understand why each care step matters, decide what to do and record what she later completes.
+11. Follow-up continues the black-spot episode, helps Marie assess the response and records the outcome.
+12. Ask Pip teaches Marie why, when and how to consider pruning by guiding her own observation of Sarah’s Rose.
+13. Marie can compare pruning choices, record her decision and later distinguish what she planned from what she completed.
+14. A pruning follow-up records how Sarah’s Rose responded and what Marie learned.
+15. Sarah’s Rose’s profile retains its name, personal meaning, photographs, observations, decisions, actions and outcomes as one continuing history.
 
 # 6. Specification Handoff
 
@@ -181,9 +174,8 @@ The implementable specification shall define the interface states, supported que
 Before this journey becomes an approved input to the implementable specification, the Founders shall determine:
 
 1. whether to approve this as the first MVP journey;
-2. whether the leaf concern should remain general or be narrowed in the specification;
-3. the approved version; and
-4. the permanent PIP CORE location.
+2. the approved version; and
+3. the permanent PIP CORE location.
 
 ---
 
