@@ -8,450 +8,540 @@
 **Status:** Draft  
 **Owner:** The Founders  
 **Last Updated:** 4 August 2026  
-**Purpose:** To define the first bounded guided-care journey for the Ask Pip minimum viable product (MVP), using Marie's reported leaf concern as the scenario while remaining fully operable without photographic recognition or interpretation.  
-**Authority Source:** Founder instruction selecting a journey based on *Marie's Story*, altered for the current MVP without photographic recognition  
+**Purpose:** To define Marie's complete first experience of the Ask Pip minimum viable product (MVP), from welcoming Sarah's Rose into her Garden Journal through a later care concern, follow-up and recorded outcome.  
+**Authority Source:** Founder instruction selecting a journey based on *Marie's Story* and adapted to the current MVP architecture  
 **Related Documents:** `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`
 
 ---
 
 # 1. Purpose
 
-This document selects and defines the first bounded guided-care journey for the Ask Pip MVP:
+This document defines the first bounded guided-care journey for the Ask Pip MVP through Marie's experience with Sarah's Rose.
 
-**A gardener reports a visible change affecting the leaves of an individual bush rose.**
+The journey begins when Marie first opens Ask Pip. It follows her as she creates her Garden Journal, builds an individual profile for Sarah's Rose, records why the plant matters, begins its photographic and written history, learns what to notice, returns with a concern, makes a decision, follows up and records the outcome.
 
-The journey adapts the leaf-spot concern in *Marie's Story* to the current MVP boundary. It preserves the narrative's enduring purpose—helping the gardener observe, understand uncertainty, make an informed decision and learn from the outcome—without asking an artificial-intelligence system to recognise, assess or diagnose the plant from photographs.
+The black-spot concern is one chapter in that continuing relationship. It is not the beginning of Marie's experience or the definition of the product.
 
-The journey is a product and interaction draft. It does not supply horticultural rules, approve operational knowledge or commence software implementation.
+This is a product and interaction draft. It does not supply horticultural rules, approve operational knowledge or commence software implementation.
 
 # 2. Journey Decision
 
 The first guided-care journey is:
 
-**Reported leaf concern with guided observation and follow-up.**
+**Marie begins caring for Sarah's Rose with Ask Pip and completes the first continuing care cycle.**
 
-In the reference scenario:
+The reference journey demonstrates that Marie can:
 
-- Marie has an individual Bush Rose Profile for **Sarah's Rose**;
-- Marie notices marks or spots on some leaves;
-- Marie reports the concern in her own words;
-- Ask Pip guides her through structured, answerable questions;
-- Ask Pip uses Marie-confirmed observations and approved operational knowledge to explain supported possibilities and limitations;
-- Marie records a decision or defers action;
-- Ask Pip creates a continuation point;
-- Marie returns to report what changed; and
-- the outcome is linked to the original concern in Sarah's Rose's history.
+1. open Ask Pip and understand how to begin;
+2. create her continuing Garden Journal;
+3. create an individual Bush Rose Profile for Sarah's Rose;
+4. record what she knows and why the rose matters;
+5. add photographs that begin the rose's visual history;
+6. learn what may be useful to notice as the rose settles and grows;
+7. return naturally to the same profile when she notices a change;
+8. describe the change in her own words;
+9. work through guided questions and understand the resulting uncertainty;
+10. choose an appropriate next step or defer action;
+11. return to the same concern for follow-up; and
+12. preserve the outcome as another chapter in Sarah's Rose's history.
 
-The MVP shall not represent this journey as photographic diagnosis. It shall also remain usable when no photograph is supplied.
+# 3. Emotional and Product Outcome
 
-# 3. Intended Outcome
+At the beginning, Marie cares about the rose but does not know how to care for it confidently. Sarah's Rose matters because it was a gift from her sister, not because Marie already understands roses.
 
-The journey shall demonstrate that Ask Pip can:
+By the end of the journey, Marie shall feel that:
 
-1. continue from the correct individual Plant Profile;
-2. turn a gardener's concern into structured, source-traceable observations;
-3. explain why each material question is being asked;
-4. distinguish the gardener's report from system reasoning;
-5. apply only approved operational knowledge;
-6. communicate possibilities, limitations and uncertainty honestly;
-7. help the gardener choose an available next step or defer action;
-8. preserve the decision separately from any later completed action;
-9. return to the same concern for follow-up; and
-10. record the outcome as part of the plant's continuing history.
+- Sarah's Rose is known as an individual plant;
+- its personal meaning has been remembered;
+- its history has begun and can continue;
+- Ask Pip remembers where they left off;
+- questions help her notice what matters;
+- uncertainty does not prevent a sensible next step;
+- her decisions remain her own; and
+- each observation and outcome helps her become a more confident gardener.
 
-Success does not require Ask Pip to determine what appears in a photograph.
+The product outcome is not a single answer. It is a continuing relationship between Marie, Sarah's Rose and the knowledge Ask Pip helps her use.
 
-# 4. Preconditions and Entry Routes
+# 4. Experience Principles
 
-## 4.1 Existing Profile Route
+## 4.1 Begin With the Gardener
 
-The normal reference route begins with Sarah's Rose already recorded as a Bush Rose Profile within Marie's Garden Journal.
+Ask Pip shall begin with Marie's reason for being there and help her take one understandable step at a time.
 
-The profile may contain gardener-supplied information such as:
+The experience shall not assume that Marie knows horticultural language, the rose's cultivar or what information matters.
 
-- the gardener's chosen name;
-- confirmed cultivar or label information, if known;
-- location and planting context;
-- the personal reason the rose matters;
-- earlier observations, actions and outcomes; and
-- optional photographs retained as historical records.
+## 4.2 Treat Sarah's Rose as an Individual
 
-Ask Pip shall not imply that any profile fact is known when it is missing or unconfirmed.
+Sarah's Rose shall have its own Bush Rose Profile within Marie's Garden Journal.
 
-## 4.2 No Existing Profile Route
+Its chosen name, personal meaning, known identity, location, photographs, observations, decisions, actions, follow-ups and outcomes shall remain connected to that individual rose.
 
-If the gardener begins without a Bush Rose Profile, Ask Pip shall support a short setup path before the concern is recorded.
+## 4.3 Let the Relationship Grow
 
-The gardener shall be able to:
+Ask Pip shall use what Marie has already recorded so that returning feels like continuing, not starting again.
 
-1. create a profile for one individual rose;
-2. give it a chosen name;
-3. enter known identity, label, cultivar, location and planting information manually;
-4. state that information is unknown or unavailable;
-5. optionally record why the rose matters; and
-6. continue directly into the reported-concern journey.
+The journey shall move naturally from introduction to care, from care to concern, and from concern to follow-up.
 
-Photography and label reading shall not be required for setup or continuation.
+## 4.4 Explain Without Lecturing
 
-# 5. Capability Boundary
+Ask Pip shall explain why a question or next step matters in plain language and in proportion to Marie's immediate need.
 
-## 5.1 No Photographic Recognition
+It shall help Marie understand her rose without turning each interaction into a lesson or a compliance statement.
 
-During this journey, Ask Pip shall not:
+## 4.5 Preserve Marie's Voice and Choice
 
-- inspect a photograph to identify spots, colours, patterns, insects, damage or plant structures;
-- confirm that a gardener-reported feature is visible in a photograph;
-- infer a disease, pest, deficiency, cultivar or overall-health state from appearance;
-- compare photographs to determine what changed;
-- annotate or highlight suspected affected areas;
-- convert a supplied photograph into a structured plant observation; or
-- increase confidence because of machine interpretation of an image.
+Marie's own words shall be preserved where they express:
 
-Ask Pip shall not use phrases such as:
+- why Sarah's Rose matters;
+- what she has noticed;
+- what she decides;
+- what she has done; and
+- what she later observes.
 
-- “I can see the spotting”;
-- “your photograph confirms”;
-- “the image shows”;
-- “based on what I can see”; or
-- “I have analysed the plant.”
+Ask Pip may help organise or summarise her report, but Marie shall be able to confirm or correct the record.
 
-## 5.2 Optional Photographic Record
+# 5. End-to-End Journey
 
-The gardener may voluntarily attach photographs to preserve a visual record for personal comparison, later human review or future authorised capabilities.
+## 5.1 Stage 1 – Marie Opens Ask Pip
 
-If photographs are offered, Ask Pip shall explain that:
+Marie has recently planted the bush rose her sister gave her. She wants to look after it well but is unsure where to begin.
 
-- they are being stored as gardener-supplied evidence and history;
-- the current MVP will not interpret their plant content;
-- the gardener's own answers provide the observations used in this journey; and
-- not supplying photographs will not restrict the journey.
+She opens Ask Pip for the first time.
 
-The original photograph, the gardener's description and any later interpretation shall remain distinguishable.
+The opening experience is warm, simple and purposeful:
 
-## 5.3 No Label-Reading Dependency
+> **Welcome to Ask Pip.**
+>
+> “Let's begin with a plant you care about.”
 
-All profile and label information shall be enterable manually. Optional label reading is not part of this first guided-care journey and shall not be required by its acceptance criteria.
+Marie chooses **Add a plant**.
 
-# 6. End-to-End Journey
+Ask Pip explains that her Garden Journal will keep the continuing stories of the plants she adds. The Journal is created for Marie as she begins adding her first plant.
 
-## 6.1 Stage 1 – Marie Reports the Concern
+The interface does not make Marie configure an abstract record system before she can care for her rose. The Garden Journal becomes understandable through the act of adding Sarah's Rose.
 
-Marie opens Sarah's Rose and writes in ordinary language:
+## 5.2 Stage 2 – Marie Creates Sarah's Rose Profile
+
+Ask Pip helps Marie create one Bush Rose Profile for the individual rose.
+
+It asks only for useful information Marie can reasonably supply, including:
+
+- what kind of plant she is adding;
+- what she would like to call it;
+- where it is growing;
+- when it was planted or received, if she knows;
+- any cultivar or nursery-label information she wants to enter; and
+- anything else she already knows.
+
+Marie chooses the name:
+
+> **Sarah's Rose**
+
+Ask Pip uses that name from then on.
+
+Information may be entered manually. Marie can say that she does not know something, leave an optional field for another time or correct it later.
+
+The profile does not become a form-filling exercise. Ask Pip keeps the conversation centred on getting to know Sarah's Rose.
+
+## 5.3 Stage 3 – Marie Records Why the Rose Matters
+
+Ask Pip asks an optional human question:
+
+> “Would you like to record why Sarah's Rose is special to you?”
+
+Marie writes:
+
+> “My sister gave me this rose. I'd like to look after it well and enjoy it for many years.”
+
+Ask Pip preserves Marie's words in Sarah's Rose's profile.
+
+This personal meaning is not decorative metadata. It establishes why continuity, memory and careful guidance matter in the experience.
+
+Ask Pip responds simply:
+
+> “I'll remember that. Let's begin Sarah's Rose's story.”
+
+## 5.4 Stage 4 – Marie Begins the Visual History
+
+Ask Pip invites Marie to add photographs of Sarah's Rose.
+
+It briefly explains their value:
+
+> “A few photographs now will give you a starting point to look back on as Sarah's Rose grows.”
+
+Marie can take:
+
+- a whole-plant photograph;
+- one or more views that show where the rose is growing;
+- a photograph of the nursery label, if she wants to keep it with the profile; and
+- any other photograph she wants in the rose's history.
+
+Ask Pip helps Marie attach the photographs to Sarah's Rose and allows her to add a short note to each one.
+
+The task feels like beginning a living album, not gathering technical evidence for its own sake.
+
+## 5.5 Stage 5 – Ask Pip Helps Marie Know What Comes Next
+
+Using the profile information and approved operational knowledge available for the journey, Ask Pip gives Marie a short, relevant introduction to caring for her bush rose.
+
+The introduction may cover:
+
+- what settling-in or new growth Marie may notice;
+- one or two useful things to check;
+- any care information appropriate to the known planting context; and
+- when it may be useful to return.
+
+Ask Pip distinguishes general bush-rose guidance from anything that depends on cultivar or context Marie has not supplied.
+
+The tone is encouraging and practical:
+
+> “You don't need to learn everything about roses today. Start by noticing how Sarah's Rose settles into this spot. When something changes—or when you're simply curious—come back to her profile and we'll work through it together.”
+
+Marie leaves the first session with a clear sense of what she has created and why she would return.
+
+Sarah's Rose's profile now contains:
+
+- its chosen name;
+- information Marie supplied;
+- its location and planting context where known;
+- Marie's words about why it matters;
+- the first photographs in its history;
+- the guidance Marie received; and
+- a clear continuation point.
+
+## 5.6 Stage 6 – Marie Returns With a Concern
+
+Marie later notices dark spots on a few leaves.
+
+She opens Ask Pip and returns to Sarah's Rose. She may enter through the Garden Journal, the plant profile or ordinary conversation.
+
+She writes:
 
 > “I've noticed black spots on some of the leaves of Sarah's Rose.”
 
-Ask Pip acknowledges the report without confirming its visual accuracy or naming a cause:
+Ask Pip recognises which plant Marie means and continues from the existing profile:
 
-> “Let's record what you've noticed and work through a few questions. Your answers will help us understand what the observation supports, what remains uncertain and what to do next.”
+> “I'm glad you told me, Marie. Let's work through what you've noticed about Sarah's Rose.”
 
-Ask Pip creates a concern record linked to Sarah's Rose. The original gardener wording is preserved as evidence.
+The experience carries forward the plant's name, personal context and earlier history without making Marie repeat them.
 
-At this point:
+Her original wording is preserved as the beginning of a new concern record within Sarah's Rose's history.
 
-- the source is **gardener-reported**;
-- the concern is not a diagnosis;
-- the marks are not treated as photograph-verified; and
-- no action is assumed.
+## 5.7 Stage 7 – Marie Looks More Closely
 
-## 6.2 Stage 2 – Ask Pip Clarifies the Observation
+Ask Pip asks a bounded sequence of ordinary, answerable questions drawn from approved operational knowledge for the concern.
 
-Ask Pip asks a bounded sequence of questions selected from approved operational knowledge for the reported concern.
+Questions may explore:
 
-The question set shall:
+- when Marie first noticed the spots;
+- whether they appear on one leaf, a few leaves or many leaves;
+- where on the rose Marie has noticed them;
+- how she would describe their colour, shape or surrounding leaf tissue;
+- whether she has noticed yellowing or leaf loss;
+- whether new growth seems affected;
+- whether the change seems stable, increasing or decreasing; and
+- recent care or environmental context Marie knows.
 
-- use everyday language;
-- explain unfamiliar terms;
-- ask only one clear thing at a time where practical;
-- allow **I can't tell**, **I'm not sure** and **I haven't checked**;
-- avoid forcing an answer;
-- explain why a material question matters; and
-- avoid implying that Ask Pip already knows what the rose looks like.
+Each material question includes a brief, natural explanation when Marie would benefit from knowing why it matters.
 
-The implementable specification shall define the exact approved question set. The journey shall be able to capture categories such as:
+Marie can answer **I'm not sure**, **I can't tell** or **I haven't checked**.
 
-- when Marie first noticed the change;
-- whether she reports it on one leaf, a few leaves or many leaves;
-- which part of the rose she reports as affected;
-- how Marie describes the marks;
-- whether she reports yellowing, leaf loss or another accompanying change;
-- whether she reports a change in new growth;
-- whether the concern appears unchanged, increasing or decreasing;
-- relevant recent care or environmental context that Marie knows; and
-- anything Marie cannot determine.
+Ask Pip summarises what Marie has said:
 
-Each answer remains attributable to Marie. Ask Pip presents a concise proposed observation summary and asks her to confirm or correct it.
+> “You first noticed dark spots today on a few lower leaves. You haven't seen leaf fall, and you're not sure whether any new growth is affected. Have I recorded that correctly?”
 
-Example:
+Marie confirms or corrects the summary.
 
-> “You reported dark marks on a few leaves, first noticed today. You are not sure whether any new leaves are affected. Is that an accurate record of what you observed?”
+## 5.8 Stage 8 – Marie Adds to the Record
 
-Only after Marie confirms or corrects the summary does it become a gardener-confirmed observation.
+Ask Pip invites Marie to add photographs to the concern:
 
-## 6.3 Stage 3 – Optional Evidence Invitation
+> “Would you like to add a few photographs to Sarah's Rose's history so you can look back on today's change?”
 
-Ask Pip may offer:
+If Marie adds them, Ask Pip helps her link the photographs to the concern and add a note describing what she intended to record.
 
-> “You can add a photograph to Sarah's Rose's history if you would like a visual record for later comparison. I won't assess the photograph in this version, and you can continue without one.”
+If she does not, the conversation continues naturally.
 
-If Marie adds a photograph, she may describe what it is intended to record. Ask Pip stores it with the concern but does not interpret it.
+The photographs, Marie's description and her confirmed observation remain connected without being collapsed into a single record.
 
-If Marie declines, the journey continues unchanged.
+## 5.9 Stage 9 – Ask Pip Helps Marie Understand
 
-## 6.4 Stage 4 – Ask Pip Explains Possibilities and Uncertainty
+Ask Pip considers Marie's confirmed observations, Sarah's Rose's relevant profile context and approved operational knowledge.
 
-Ask Pip evaluates the gardener-confirmed observations against approved operational knowledge.
+It explains:
 
-Its response shall distinguish:
+- what Marie's answers suggest may be worth considering;
+- what remains uncertain;
+- which detail would be useful to watch next;
+- what supported choices are available now; and
+- why those choices make sense.
 
-- what Marie reported;
-- which possibilities the approved knowledge supports considering;
-- what the available information does not establish;
-- which missing or uncertain observation limits the reasoning;
-- what Marie could observe next;
-- whether the current information supports guidance, continued observation or expert assistance; and
-- the knowledge source used for material guidance.
+The response is written for Marie, not for a system auditor.
 
-Ask Pip shall not state that Sarah's Rose has black spot unless the applicable approved knowledge and specified reasoning rules support that conclusion from the permitted non-photographic evidence. If the evidence supports only possibilities, Ask Pip shall say so.
+A suitable form is:
 
-A suitable interaction form is:
+> “There are a few reasons rose leaves can develop dark spots, and your answers don't yet point clearly to one cause. The most useful next step is to watch whether the spots spread, whether yellowing develops and whether new leaves are affected. We can record that as a follow-up before you decide whether any treatment is needed.”
 
-> “Your answers are consistent with more than one possible cause. They do not establish a diagnosis. The most useful next step is to observe whether the reported marks spread, whether yellowing develops and whether new leaves become affected. You can record an action now, continue observing or seek expert help.”
+The exact possibilities, advice, timing, escalation conditions and safety thresholds shall come from approved operational knowledge and the implementable specification.
 
-The exact possibilities, safety thresholds, escalation conditions, confidence language and horticultural advice shall come from approved operational knowledge and the implementable specification, not from this journey document.
+## 5.10 Stage 10 – Marie Decides
 
-## 6.5 Stage 5 – Marie Decides or Defers
+Ask Pip presents only choices supported for the current information state.
 
-Ask Pip presents only options supported by approved operational knowledge for the current information state.
+Marie can:
 
-Marie can record:
+- continue observing;
+- choose a supported care action;
+- seek expert help;
+- decide not to act; or
+- leave the decision open.
 
-- a supported care action she chooses;
-- a decision to continue observing before acting;
-- a decision to seek expert help;
-- a decision not to act; or
-- that she is not ready to decide.
+In the reference path, Marie chooses to observe before treating.
 
-The record shall keep separate:
+Ask Pip responds:
 
-- guidance Ask Pip offered;
+> “All right. We'll keep an eye on those changes before you decide what to do.”
+
+The record keeps separate:
+
+- the guidance Ask Pip offered;
 - Marie's decision;
-- an action Marie plans;
-- an action Marie later reports as completed; and
-- an outcome observed later.
+- any action she plans;
+- any action she later reports as completed; and
+- the outcome she later observes.
 
-For the reference path, Marie chooses to continue observing before treatment because the cause has not been established.
+## 5.11 Stage 11 – Ask Pip Creates a Continuation
 
-Ask Pip confirms the decision without claiming an action occurred:
+Ask Pip creates a follow-up linked to the same concern.
 
-> “I've recorded that you chose to continue observing Sarah's Rose before deciding on treatment.”
+The continuation tells Marie:
 
-## 6.6 Stage 6 – Ask Pip Creates a Follow-Up
+- why she is returning;
+- what she decided previously;
+- what to look at again;
+- when or under what condition to return; and
+- any approved reason to seek help sooner.
 
-Ask Pip creates a continuation point linked to the same concern.
+The timing and escalation conditions shall be defined by approved operational knowledge and the implementable specification.
 
-The follow-up shall state:
+The reminder opens directly to Sarah's Rose and the existing concern:
 
-- why Marie is returning;
-- what earlier observation or decision is being reviewed;
-- what she is being asked to check;
-- the approved timing or condition for returning;
-- that she may return sooner if an approved escalation condition occurs; and
-- that photographs remain optional and uninterpreted.
+> **Let's check Sarah's Rose again.**
+>
+> “You were watching the dark spots on a few lower leaves. Have they stayed much the same, increased or decreased?”
 
-Any interval or escalation condition shall be determined by approved operational knowledge and the implementable specification. This journey shall not invent them.
+## 5.12 Stage 12 – Marie Reports What Changed
 
-The reminder or return point opens directly to Sarah's Rose and the existing concern context.
+Marie looks at Sarah's Rose and reports the change herself.
 
-## 6.7 Stage 7 – Marie Reports What Changed
+Ask Pip may ask whether:
 
-At follow-up, Ask Pip restates the earlier gardener-confirmed observation and asks Marie to compare the plant herself.
+- more or fewer leaves now seem affected;
+- the original spots have changed;
+- yellowing or leaf loss has appeared;
+- new growth now seems affected;
+- Marie completed any planned action; and
+- anything remains difficult to judge.
 
-Ask Pip may ask:
+Ask Pip summarises the new observation for Marie to confirm or correct.
 
-- whether the marks seem unchanged, increased or decreased;
-- whether Marie now reports more or fewer leaves affected;
-- whether she reports yellowing, leaf loss or another new change;
-- whether new growth appears affected based on her observation;
-- whether she completed any planned action; and
-- whether she is uncertain about any comparison.
+The follow-up observation is linked to the earlier one without overwriting it.
 
-Ask Pip shall not make the comparison from photographs.
+Ask Pip then explains what the change over time supports, what remains uncertain and which supported choices are now available.
 
-Marie reviews the rose and answers. Ask Pip produces a new proposed observation summary for her confirmation or correction. The new observation is linked to, but does not overwrite, the earlier record.
+Marie records her next decision. If she chooses an action, Ask Pip separately records whether it is planned or whether Marie has completed it.
 
-## 6.8 Stage 8 – Updated Reasoning and Next Decision
+## 5.13 Stage 13 – The Outcome Becomes Part of Sarah's Rose's Story
 
-Ask Pip reasons again using:
+At the next continuation point, Marie records:
 
-- the earlier confirmed observation;
-- Marie's follow-up observation;
-- relevant known profile context;
-- any action Marie reported as completed; and
-- approved operational knowledge.
-
-Ask Pip explains what the change over time supports and what remains uncertain. It may:
-
-- continue observation;
-- present supported care options;
-- limit guidance;
-- recommend expert assistance; or
-- identify that no further action is currently supported.
-
-The system shall not claim that confidence increased because it compared images. Any change in reasoning must be traceable to Marie's confirmed reports, recorded context and approved knowledge.
-
-Marie records her next decision. If she chooses an action, Ask Pip asks separately whether it is planned or already completed.
-
-## 6.9 Stage 9 – Outcome and Closure or Continuation
-
-At a later continuation point, Marie records:
-
-- whether the chosen action was completed;
-- what she now observes;
-- whether the concern improved, worsened, remained unchanged or cannot be determined;
+- whether a chosen action was completed;
+- what she now notices;
+- whether the concern has improved, worsened, remained unchanged or is still unclear;
 - whether further help is needed; and
-- any optional note or photograph she wants retained.
+- any note or photograph she wants to keep.
 
-Ask Pip links the outcome to:
+Ask Pip links the outcome to the original concern, the confirmed observations, guidance, Marie's decisions, any reported action and the follow-up.
 
-- the original concern;
-- the confirmed observations;
-- the reasoning and guidance provided;
-- Marie's decision;
-- any reported action; and
-- the follow-up records.
+When the applicable closure criteria are met, Ask Pip closes the care cycle in plain language:
 
-Ask Pip may close the care cycle only when the specified closure criteria are met. Otherwise, it creates another bounded continuation or recommends appropriate expert assistance.
+> “We've reached the end of this care check, and I've added the outcome to Sarah's Rose's history.”
 
-# 7. Garden Journal Record
+If more observation or help is appropriate, Ask Pip creates the next bounded continuation instead.
 
-The complete journey shall appear within Sarah's Rose's Plant Profile history, not as disconnected conversations.
+# 6. The Journey as One Continuing Story
 
-The linked record shall preserve:
+The complete experience shall appear within Sarah's Rose's Plant Profile history, not as a series of disconnected conversations.
 
-- Marie's original concern in her own words;
-- each question and answer material to the observation;
+Marie shall be able to look back and see:
+
+1. when she first added Sarah's Rose;
+2. what she knew at the time;
+3. why the rose mattered to her;
+4. the photographs that began its visual history;
+5. the early guidance she received;
+6. when she first reported the leaf concern;
+7. what she noticed and confirmed;
+8. why Ask Pip asked particular questions;
+9. what possibilities and uncertainty were explained;
+10. what Marie decided;
+11. what action she later reported;
+12. what changed at follow-up; and
+13. how the care cycle ended or continued.
+
+The history shall preserve relationships among these entries so that the meaning of the journey does not depend on Marie remembering which conversation contained which detail.
+
+# 7. Product and Information Requirements
+
+The implementable journey shall preserve:
+
+- one continuing Garden Journal for Marie;
+- one individual Bush Rose Profile for Sarah's Rose;
+- Marie's chosen plant name and personal story;
+- manual entry and later correction of profile information;
+- photographs linked to the correct profile and relevant moments;
+- Marie's original reports in her own words;
 - proposed, corrected and confirmed observation states where material;
-- source classification;
-- optional photographs as uninterpreted historical evidence;
-- knowledge references used for material reasoning;
-- possibilities, limitations and uncertainty communicated;
-- guidance offered;
-- Marie's decision or deferral;
-- planned and reported-completed actions as distinct states;
-- follow-up timing or condition;
-- later observations;
-- the resulting outcome; and
-- closure, continuation or expert-referral status.
+- source attribution for material observations;
+- approved knowledge references used for material guidance;
+- possibilities and uncertainty communicated to Marie;
+- guidance, decisions, planned actions, completed actions and outcomes as distinct records;
+- follow-ups linked to the event that created them;
+- later observations that add to rather than overwrite the earlier history; and
+- closure, continuation or expert-referral status for the care cycle.
 
-The historical record shall not be rewritten when later information changes the interpretation.
+# 8. Interaction Quality
 
-# 8. Failure and Safety Behaviour
+The journey shall feel warm, attentive and grounded in the plant Marie cares about.
+
+User-facing language shall:
+
+- address Marie's immediate purpose;
+- use Sarah's Rose's chosen name naturally;
+- describe what Ask Pip can help Marie do;
+- keep explanations short unless Marie asks for more;
+- avoid legalistic, defensive or system-centred wording;
+- avoid turning uncertainty into a disclaimer;
+- avoid announcing internal capability boundaries;
+- ask one clear question at a time where practical;
+- make **I'm not sure** a normal answer;
+- explain why a material question or next step matters; and
+- help Marie notice and understand rather than merely complete fields.
+
+Every proposed interaction shall pass this test:
+
+> Would a thoughtful human naturally say this to Marie at this point in her experience?
+
+# 9. Failure and Safety Behaviour
 
 The journey shall remain useful when:
 
-- Marie cannot answer a question;
-- important profile context is missing;
+- Marie does not know the cultivar;
+- profile information is incomplete;
+- Marie skips optional questions;
+- Marie does not add photographs;
+- a photograph cannot be stored;
+- Marie cannot answer an observation question;
+- her new report differs from an earlier one;
 - approved operational knowledge is unavailable;
-- the available observations do not distinguish among supported possibilities;
-- Marie does not want to supply a photograph;
-- photograph storage is unavailable;
+- the available information does not support a clear next step;
 - Marie misses a follow-up;
-- Marie returns earlier or later than planned;
-- reported information conflicts with an earlier record; or
-- the concern falls outside the approved journey scope.
+- she returns earlier or later than planned; or
+- the concern falls outside the supported journey.
 
-Ask Pip shall respond by stating the limitation, requesting useful information, narrowing or deferring guidance, preserving uncertainty or recommending appropriate expert assistance. It shall not fill a gap with an invented observation or diagnosis.
+Ask Pip shall respond with the next useful action available to Marie: clarify, correct, observe, defer, narrow the guidance or seek appropriate expert help.
 
-The implementable specification shall define urgent or safety-sensitive escalation behaviour using approved operational knowledge.
+Urgent and safety-sensitive behaviour shall be defined by approved operational knowledge and the implementable specification.
 
-# 9. Acceptance Criteria
+# 10. Acceptance Criteria
 
 The journey is complete for MVP purposes only when all of the following can be demonstrated:
 
-1. A gardener can enter through an existing Bush Rose Profile or create a minimal profile manually.
-2. The original concern is preserved as gardener-supplied evidence.
-3. Ask Pip captures a bounded set of structured observations without interpreting a photograph.
-4. The gardener can answer that they do not know or cannot determine something.
-5. The gardener confirms or corrects the proposed observation summary.
-6. Every material observation retains its source and confirmation state.
-7. Ask Pip uses only approved operational knowledge for reasoning and guidance.
-8. Ask Pip distinguishes possibilities from established conclusions.
-9. Ask Pip explains material uncertainty and limitations.
-10. The gardener can decide, defer, decline action or seek expert help.
-11. Guidance, decision, planned action, completed action and outcome remain separate.
-12. A follow-up continues from the original concern with its context intact.
-13. The gardener performs the follow-up comparison and reports what changed.
-14. Ask Pip does not claim to see, recognise, compare, assess or diagnose plant content in a photograph.
-15. Photography is optional and its absence does not reduce access to any journey stage.
-16. Any supplied photograph is stored only as uninterpreted evidence and history within this MVP journey.
-17. The outcome is linked to the earlier observation, guidance, decision and action.
-18. The full history remains within the correct individual Bush Rose Profile.
-19. Missing knowledge or insufficient evidence produces limitation, deferral or expert-referral behaviour rather than invented certainty.
-20. The interaction helps the gardener understand why a question, option or next step matters.
-
-# 10. Deferred Capabilities
-
-This journey does not include:
-
-- photographic plant recognition;
-- photograph-derived observations;
-- automated image comparison;
-- image-based diagnosis or health assessment;
-- cultivar inference from appearance;
-- label reading;
-- annotated photographs or highlighted plant regions;
-- structural assessment;
-- pruning recommendations or cut overlays; or
-- automated determination of treatment success from images.
-
-These capabilities require separate validation, specification and Founder approval.
+1. Marie can begin from the first opening of Ask Pip.
+2. Her continuing Garden Journal is established through adding her first plant.
+3. She can create one individual Bush Rose Profile for Sarah's Rose.
+4. She can enter plant and label information manually and leave unknown information unresolved.
+5. She can give the rose a chosen name and record why it matters.
+6. She can add photographs when creating the profile and at later points in its history.
+7. Ask Pip gives a bounded introduction to what Marie may notice or do next.
+8. Marie can leave the first session with a clear continuation point.
+9. She can later return to Sarah's Rose through its profile or ordinary conversation.
+10. Her original concern is preserved in her own words.
+11. Ask Pip asks a bounded set of useful questions in everyday language.
+12. Marie can answer that she is unsure or cannot determine something.
+13. She can confirm or correct the proposed observation summary.
+14. Every material observation retains its source and confirmation state.
+15. Reasoning and guidance use only approved operational knowledge.
+16. Ask Pip explains supported possibilities and uncertainty in natural language.
+17. Marie can decide, defer, decline action or seek expert help.
+18. Guidance, decision, planned action, completed action and outcome remain separate.
+19. A follow-up returns to Sarah's Rose and the existing concern with its context intact.
+20. Marie supplies the follow-up comparison and confirms the new observation.
+21. The outcome is linked to the earlier observation, guidance, decision and action.
+22. The full experience remains in Sarah's Rose's individual history.
+23. Missing information produces a useful next step rather than invented certainty.
+24. The interaction helps Marie understand why a question, choice or next step matters.
+25. The journey preserves the feeling that Sarah's Rose is known, remembered and cared for over time.
 
 # 11. Relationship to Marie's Story
 
-This journey preserves the parts of *Marie's Story* that define the intended Ask Pip experience:
+This journey adapts the opening, leaf-concern and follow-up arc of *Marie's Story* for the current Ask Pip MVP.
 
-- Sarah's Rose is treated as an individual plant with personal meaning;
-- Marie begins with uncertainty expressed in her own language;
+It preserves the foundational narrative's enduring qualities:
+
+- Sarah's Rose begins as a gift with personal meaning;
+- Marie starts with care and uncertainty rather than expertise;
+- Ask Pip welcomes her and helps her begin;
+- the plant is known by its individual name;
+- photographs help preserve the plant's story;
+- Marie learns what to notice;
+- the later concern arises within an existing relationship;
 - Ask Pip asks questions before offering guidance;
-- Ask Pip explains why information matters;
-- observation precedes action;
-- uncertainty is communicated rather than hidden;
-- Marie makes the decision;
-- the interaction continues through follow-up;
-- the outcome becomes part of Sarah's Rose's story; and
-- Marie's judgement grows rather than being replaced.
+- uncertainty is explained honestly but naturally;
+- Marie chooses what to do;
+- Ask Pip remembers the continuation;
+- the outcome becomes part of Sarah's Rose's history; and
+- Marie's judgement grows through the experience.
 
-The adaptation deliberately changes the earlier narrative wherever it relied on photographic analysis. Marie observes the rose, compares it over time and confirms what she sees. Ask Pip structures those reports, applies approved knowledge and preserves the reasoning trail.
+The architecture determines the implemented MVP boundary. This journey expresses that boundary through the experience Ask Pip provides rather than through repeated statements about absent features.
 
 # 12. Specification Handoff
 
 Before implementation, the controlled MVP specification shall define:
 
-- the exact permitted concern scope;
+- the first-opening, welcome and entry states;
+- Garden Journal creation behaviour;
+- Bush Rose Profile creation and editing;
+- required and optional profile fields;
+- photograph capture, notes, linkage, storage and retrieval;
+- the first-session guidance and continuation point;
+- the permitted leaf-concern scope;
 - the approved question set and branching rules;
-- the observation vocabulary and confirmation states;
-- the minimum required Bush Rose operational knowledge;
+- observation vocabulary, source and confirmation states;
+- the minimum approved Bush Rose operational knowledge;
 - reasoning and knowledge-traceability rules;
 - permitted possibility, confidence and uncertainty language;
 - supported guidance and decision options;
 - safety and expert-referral thresholds;
 - follow-up intervals or conditions;
-- closure and continuation criteria;
-- required data fields and relationships;
+- action, outcome, closure and continuation states;
+- required data relationships;
 - interface states and failure behaviour; and
-- test cases proving the complete journey works without photographic recognition or any photograph.
+- test cases proving the complete emotional, product and information journey.
 
-This journey does not itself approve those implementation details or the operational horticultural content they require.
+The specification shall preserve a clear separation between Marie-facing experience, product behaviour and internal acceptance tests.
+
+This journey does not itself approve the implementation details or horticultural content required by the specification.
 
 # 13. Founder Review Decisions
 
 Before this journey can become an approved input to the implementable specification, the Founders shall determine:
 
-1. whether **reported leaf concern with guided observation and follow-up** is approved as the first bounded guided-care journey;
-2. whether the scope should remain general to reported leaf marks or be narrowed to a more specific permitted concern;
-3. whether the optional photographic-record behaviour should remain in the first journey or be omitted entirely;
-4. whether the proposed acceptance criteria express the intended MVP demonstration; and
-5. the approved version and permanent PIP CORE location for this document.
+1. whether the complete first-use-to-follow-up journey expresses the intended first MVP demonstration;
+2. whether the leaf concern should remain general or be narrowed in the implementable specification;
+3. whether the acceptance criteria are sufficient for specification handoff;
+4. the approved version; and
+5. the permanent PIP CORE location.
 
 ---
 
