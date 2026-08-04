@@ -20,7 +20,7 @@
 
 This document defines the architecture for the first bounded minimum viable product (MVP) implementation of the Ask Pip application. Bush Rose V1 is the application's first supported Plant Profile type and plant-knowledge domain.
 
-The MVP shall help a gardener observe, understand and care for individual bush roses over time through guided questions, trusted knowledge, contextual information and a continuing Bush Rose Profile history.
+The MVP shall help a gardener observe, understand and care for individual bush roses over time through guided questions, trusted knowledge, contextual information and a continuing Bush Rose Profile history. Guided care includes learning why, when and how to consider pruning through gardener-led observation and supported choices.
 
 This architecture establishes:
 
@@ -64,8 +64,10 @@ For at least one Bush Rose Profile, the gardener shall be able to complete a ful
 4. complete a guided observation;
 5. understand supported possibilities and uncertainty;
 6. record a decision or defer action;
-7. receive relevant follow-up guidance; and
+7. receive relevant follow-up guidance and optional reminders; and
 8. record the outcome in the Bush Rose Profile's history.
+
+The complete cycle shall include guided pruning education and a gardener-led pruning assessment for Sarah’s Rose.
 
 The MVP succeeds as a product demonstration when that complete cycle can operate without requiring automated interpretation of the rose's physical appearance.
 
@@ -154,7 +156,11 @@ The first MVP shall include:
 - gardener-supplied observations captured through guided questions;
 - verified reference material where required to help the gardener observe or compare;
 - contextual answers grounded in approved operational knowledge with material uncertainty stated explicitly;
-- recording of decisions, deferred decisions, care actions and outcomes; and
+- guided pruning education that helps the gardener understand why, when and how to consider pruning;
+- gardener-led pruning assessment using profile context, approved operational knowledge and gardener-confirmed observations;
+- supported pruning choices, preparation, decisions, completed actions and outcomes;
+- recording of decisions, deferred decisions, care actions and outcomes;
+- optional, gardener-controlled reminders linked to the relevant Plant Profile and care cycle; and
 - follow-up guidance that continues from an earlier interaction.
 
 ## 5.2 Deferred from the First MVP
@@ -292,6 +298,7 @@ Guidance may:
 - explain relevant knowledge;
 - explain supported possibilities, uncertainty and limitations;
 - suggest what to observe next;
+- teach the gardener what to look for and why it matters when considering pruning;
 - present and compare supported care options;
 - explain when and why a photograph may improve the record or later assessment; and
 - invite the gardener to record a decision or defer action.
@@ -328,9 +335,11 @@ Plant Profile history entries may link:
 
 Each entry shall remain within the correct Plant Profile history and preserve any relevant relationship to an earlier event that prompted it.
 
-## 6.10 Follow-Up
+## 6.10 Follow-Up and Reminders
 
 Follow-up shall continue an existing care or observation cycle rather than begin an unrelated interaction.
+
+Ask Pip shall offer reminders when timing matters, including a chosen time to revisit an observation or consider seasonal pruning. Reminders shall be optional. The gardener shall be able to choose, change or cancel them. Opening a reminder shall return the gardener to the relevant Plant Profile and resume the care cycle it concerns. If notification delivery is unavailable or declined, the care cycle shall remain accessible from the Plant Profile and Garden Journal.
 
 A follow-up record shall identify:
 
@@ -358,8 +367,9 @@ The minimum required relationships are:
 - one observation may be considered by one or more reasoning assessments;
 - one reasoning assessment may produce one or more guidance items;
 - one guidance item may lead to a gardener decision, a deferred decision or no recorded decision;
-- one decision may lead to one or more planned or completed actions; and
-- an observation, decision or action may create a follow-up that later records an outcome.
+- one decision may lead to one or more planned or completed actions;
+- an observation, decision or action may create a follow-up that later records an outcome; and
+- one follow-up may have an optional reminder linked to the relevant Plant Profile and care cycle.
 
 The implementable specification shall define the exact data structures, required fields and cardinality rules without weakening these distinctions.
 
@@ -379,7 +389,7 @@ The specification may use different interface wording, but it shall preserve the
 
 The selected first journey is Marie’s complete first-use-to-outcome experience with Sarah’s Rose, defined in `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`.
 
-The implementable specification shall support that journey and satisfy its journey-specific acceptance criteria. This architecture governs the underlying system and information behaviour; the journey document governs Marie’s experience.
+The implementable specification shall support that journey and satisfy its journey-specific acceptance criteria, including its guided pruning and reminder behaviour. This architecture governs the underlying system and information behaviour; the journey document governs Marie’s experience.
 
 # 10. Knowledge Curation System Relationship
 
@@ -410,20 +420,20 @@ The implementable specification shall preserve:
 - expressible uncertainty, including unknown, not visible and conflicting information;
 - reasoning based only on approved operational knowledge;
 - separation of guidance, decisions, completed actions and outcomes;
-- continuity between an event, its follow-up and its outcome; and
+- continuity between an event, its optional reminder, its follow-up and its outcome; and
 - provider adaptability without making one external provider Pip’s permanent identity or exclusive operating foundation.
 
 # 12. Relationship to Marie's Story
 
 *Marie's Story* remains the approved long-term foundational narrative of the Ask Pip experience. The first MVP preserves its focus on the individual plant, observation before action, useful explanation, continuing history, honest uncertainty and gardener judgement.
 
-Earlier pruning-first requirements and materials govern the first MVP only when expressly incorporated into this architecture or the approved implementable specification. The deferred capabilities listed in Section 5.2 remain outside the first MVP.
+Guided pruning education and gardener-led pruning assessment are incorporated into the first MVP through this architecture and Marie’s selected journey. Earlier pruning-first requirements and materials govern only where they are expressly incorporated into this architecture or the approved implementable specification. The deferred capabilities listed in Section 5.2 remain outside the first MVP.
 
 # 13. Specification Handoff
 
 After Founder approval of this architecture and the selected journey, the next controlled document shall be an implementable MVP specification.
 
-The specification shall define the interfaces, data structures, validation, operational knowledge, reasoning, history, follow-up, failure behaviour and tests needed to implement Marie’s journey while preserving this architecture’s relationships and boundaries. Optional label reading shall be specified only if selected for implementation.
+The specification shall define the interfaces, data structures, validation, operational knowledge, reasoning, history, pruning guidance, reminders, follow-up, failure behaviour and tests needed to implement Marie’s journey while preserving this architecture’s relationships and boundaries. Optional label reading shall be specified only if selected for implementation.
 
 The specification shall not commence software development or approve technology choices unless the Founders separately authorise those actions.
 
