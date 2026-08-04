@@ -375,47 +375,11 @@ A structured observation shall be capable of moving through a controlled lifecyc
 
 The specification may use different interface wording, but it shall preserve the difference between a proposed observation, a gardener-confirmed observation and a system inference.
 
-# 9. Guided Journey Architecture
+# 9. Selected Guided-Care Journey
 
-The selected first journey is Marie’s complete first-use-to-outcome arc, defined in `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`. It begins with Marie opening Ask Pip and creating Sarah’s Rose’s profile, then continues through early guidance, a later leaf concern, her decision, follow-up and recorded outcome.
+The selected first journey is Marie’s complete first-use-to-outcome experience with Sarah’s Rose, defined in `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`.
 
-The journey document owns the gardener-facing and emotional sequence. This section retains the reusable architectural stages that the implementable specification shall support.
-
-## 9.1 Add a Rose
-
-The gardener shall be able to create a Bush Rose Profile for each individual bush rose they wish to record, name the rose and manually record all available identity, label, cultivar, location, planting and personal information.
-
-Ask Pip shall invite the gardener to begin the rose's visual history with one or more photographs and briefly explain the benefits of doing so.
-
-If optional label-reading capability is implemented and the gardener supplies a photograph of a label, Ask Pip may propose what the visible text appears to say and shall ask the gardener to confirm or correct it before using it as established profile information.
-
-## 9.2 Learn What to Expect
-
-Ask Pip shall retrieve approved knowledge relevant to the known rose and its context. It shall distinguish general bush-rose knowledge from cultivar-specific information and shall not imply that unavailable or unconfirmed cultivar information is known.
-
-## 9.3 Complete a Guided Observation
-
-Ask Pip shall present a bounded set of questions that helps the gardener describe a relevant plant feature, change or concern.
-
-Questions shall be chosen to improve the usefulness of the observation. The interface shall permit the gardener to state that they cannot determine an answer.
-
-Where a photograph would strengthen the record, support later comparison or provide useful evidence, Ask Pip shall invite the gardener to add one or more suitable views and explain what to photograph and why.
-
-## 9.4 Understand Possibilities and Uncertainty
-
-Ask Pip shall explain what the recorded observations may support, what they do not establish and what further evidence may help.
-
-## 9.5 Record a Decision or Defer Action
-
-The gardener shall be able to record a chosen action, a decision to continue observing, a decision to seek expert help or a decision not to act.
-
-## 9.6 Receive Follow-Up Guidance
-
-Ask Pip shall create a relevant continuation point and return to the earlier observation or decision with its context intact.
-
-## 9.7 Record the Outcome
-
-The gardener shall be able to record what changed and whether a planned action was completed. The result, including any supplied follow-up photographs, shall be linked to the earlier observation, guidance and decision in the relevant Bush Rose Profile history.
+The implementable specification shall support that journey and satisfy its journey-specific acceptance criteria. This architecture governs the underlying system and information behaviour; the journey document governs Marie’s experience.
 
 # 10. Knowledge Curation System Relationship
 
@@ -434,109 +398,36 @@ The Commission 008 Knowledge Pack may support model or capability validation, ar
 
 Gardener observations, photographs and outcomes may create useful records for the gardener and may support future authorised research or capability development. They shall not become approved general horticultural knowledge automatically, and storage for the gardener's service shall not itself authorise any secondary use.
 
-# 11. Image Capabilities
+# 11. Required Safeguards
 
-## 11.1 First-MVP Image Capability
+The implementable specification shall preserve:
 
-The first MVP may use photographs to:
+- the Journal, Plant Profile and history relationships defined in Section 7;
+- source and evidence traceability;
+- voluntary photography throughout guided care;
+- original photographs separately from notes and later interpretations;
+- gardener confirmation or correction of extracted information and future machine proposals;
+- expressible uncertainty, including unknown, not visible and conflicting information;
+- reasoning based only on approved operational knowledge;
+- separation of guidance, decisions, completed actions and outcomes;
+- continuity between an event, its follow-up and its outcome; and
+- provider adaptability without making one external provider Pip’s permanent identity or exclusive operating foundation.
 
-- create and continue a visual history;
-- preserve evidence supplied by the gardener;
-- support human comparison and review;
-- record before-and-after sequences;
-- capture visible label or record information; and
-- when the optional label-reading enhancement is implemented, propose text transcriptions for gardener confirmation or correction.
+# 12. Relationship to Marie's Story
 
-The complete MVP shall remain available when label reading is omitted or technically unavailable. These uses remain subject to the capability boundaries in Section 5.2.
+*Marie's Story* remains the approved long-term foundational narrative of the Ask Pip experience. The first MVP preserves its focus on the individual plant, observation before action, useful explanation, continuing history, honest uncertainty and gardener judgement.
 
-## 11.2 Future Plant-Image Analysis
+Earlier pruning-first requirements and materials govern the first MVP only when expressly incorporated into this architecture or the approved implementable specification. The deferred capabilities listed in Section 5.2 remain outside the first MVP.
 
-Future plant-image analysis shall connect to the architecture at the evidence and structured-observation layers.
-
-It may:
-
-- examine a photograph already retained as evidence;
-- propose one or more structured observations;
-- identify the region of the photograph supporting a proposal;
-- record confidence and limitations; and
-- ask the gardener to confirm, correct or reject the proposal.
-
-It shall not automatically:
-
-- convert a proposed visual observation into an established fact;
-- treat `not visible` as `absent`;
-- combine detection, interpretation, diagnosis and guidance into an untraceable result;
-- overwrite the gardener's report;
-- bypass approved operational knowledge; or
-- make the rest of Ask Pip unavailable when photographic analysis is inconclusive or unavailable.
-
-Confirmed photograph-derived observations shall use the same reasoning, guidance, Plant Profile history and follow-up processes as gardener-reported observations.
-
-Photographs retained before this capability becomes available shall support later authorised analysis. Any later analysis shall be recorded as a new traceable interpretation and preserve the original photograph, gardener report and historical guidance record unchanged.
-
-# 12. Required Safeguards
-
-The implementable specification shall preserve the following safeguards:
-
-- **Journal and profile integrity:** the hierarchy, cardinalities and separated histories defined in Section 7 remain intact.
-- **Source traceability:** material observations identify where they came from.
-- **Evidence linkage:** supporting answers, records or photographs remain linked where applicable.
-- **Voluntary photography:** every guided-care activity shall remain available without a photograph.
-- **Photographic integrity:** original photographs, contextual data and later interpretations remain distinguishable.
-- **Confirmation of extracted information:** proposed label or text readings require gardener confirmation or correction before becoming established profile information.
-- **Manual label information:** all label, cultivar and plant information can be entered without label-reading capability.
-- **Capability clarity:** label reading is optional and is not represented as plant identification, cultivar recognition, plant assessment or diagnosis.
-- **Human correction:** the gardener can correct their report, an extracted value and any future machine proposal.
-- **Uncertainty integrity:** absence of evidence, inability to determine and conflicting information remain expressible.
-- **Knowledge authority:** reasoning uses only knowledge authorised for operational use.
-- **Decision integrity:** offered guidance is not treated as a gardener decision or completed action.
-- **Historical continuity:** follow-up and outcomes remain linked to earlier events.
-- **Provider adaptability:** the governed product can use suitable artificial-intelligence and image capabilities without making one external provider the permanent identity or exclusive operating foundation of Pip.
-
-# 13. Relationship to Marie's Story
-
-*Marie's Story* remains the approved long-term foundational narrative of the Ask Pip experience.
-
-The first MVP shall preserve the narrative's enduring purpose:
-
-- help the gardener understand each individual plant;
-- explain why information or guidance matters;
-- encourage observation before action;
-- preserve each plant's continuing story;
-- communicate uncertainty honestly; and
-- strengthen rather than replace the gardener's judgement.
-
-Capabilities in *Marie's Story* that depend on automated plant-image interpretation, diagnosis, structural assessment or pruning overlays are longer-term capabilities and are outside the first MVP boundary unless separately validated, specified and approved.
-
-Earlier pruning-first requirements and materials do not govern the first MVP unless each applicable requirement is expressly reconciled with and incorporated into this architecture or the approved implementable specification. Automated plant-image diagnosis, overall-health assessment from appearance, structural assessment, cultivar inference from plant appearance, cut-by-cut pruning overlays and other unreconciled pruning-first capabilities remain deferred.
-
-# 14. Specification Handoff
+# 13. Specification Handoff
 
 After Founder approval of this architecture and the selected journey, the next controlled document shall be an implementable MVP specification.
 
-The specification shall implement Marie’s complete first-use-to-outcome journey as the first bounded guided-care journey and shall satisfy its journey-specific acceptance criteria.
-
-The specification shall define at least:
-
-- the interface and behaviour required to implement the selected Marie journey;
-- implementation of the Garden Journal and Plant Profile relationships defined in Section 7;
-- user interactions and interface states;
-- required data fields and validation rules;
-- photograph capture, metadata, linkage, storage and retrieval behaviour;
-- manual label-information behaviour and, only if the optional enhancement is selected for implementation, label-reading and gardener-confirmation behaviour;
-- the observation vocabulary and source states;
-- required knowledge retrieval and traceability behaviour;
-- reasoning and uncertainty outputs;
-- Plant Profile history entry types and relationships;
-- decision, action, follow-up and outcome states;
-- acceptance criteria for the complete journey;
-- failure, unavailable-information and expert-referral behaviours;
-- provider-adaptation boundaries; and
-- the boundary between implemented MVP behaviour and deferred capabilities.
+The specification shall define the interfaces, data structures, validation, operational knowledge, reasoning, history, follow-up, failure behaviour and tests needed to implement Marie’s journey while preserving this architecture’s relationships and boundaries. Optional label reading shall be specified only if selected for implementation.
 
 The specification shall not commence software development or approve technology choices unless the Founders separately authorise those actions.
 
-# 15. Decisions Required Before CORE Integration
+# 14. Decisions Required Before CORE Integration
 
 The Founders must determine:
 
