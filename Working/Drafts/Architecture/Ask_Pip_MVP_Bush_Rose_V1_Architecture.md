@@ -1,24 +1,24 @@
-# Guided Bush Rose MVP Architecture
+# Ask Pip MVP – Bush Rose V1 Architecture
 
 ## Document Metadata
 
-**Document Title:** Guided Bush Rose MVP Architecture  
+**Document Title:** Ask Pip MVP – Bush Rose V1 Architecture  
 **Document Type:** Architecture Document  
 **Version:** Unassigned - Founder decision required  
 **Status:** Draft  
 **Owner:** The Founders  
 **Last Updated:** 4 August 2026  
-**Working Location:** `Working/Drafts/Architecture/Guided_Bush_Rose_MVP_Architecture.md`  
+**Working Location:** `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`  
 **Proposed Permanent Location:** Founder decision required  
-**Purpose:** To define the product architecture for the first Guided Bush Rose minimum viable product and establish the boundaries that an implementable specification must follow.  
-**Authority Source:** Founder-approved *Founder Direction Brief - Guided Bush Rose MVP*, dated 4 August 2026  
+**Purpose:** To define the first bounded minimum viable product implementation of the Ask Pip application, supporting Bush Rose V1 as its first Plant Profile type and plant-knowledge domain, and establish the boundaries that an implementable specification must follow.  
+**Authority Source:** Founder-approved Founder Direction Brief – Guided Bush Rose MVP  
 **Related Documents:** `Foundations/AskPIP_Vision_Statement.md`; `Foundations/Maries_Story.md`
 
 ---
 
 # 1. Purpose
 
-This document defines the product architecture for the first Guided Bush Rose minimum viable product (MVP) of Ask Pip.
+This document defines the architecture for the first bounded minimum viable product (MVP) implementation of the Ask Pip application. Bush Rose V1 is the application's first supported Plant Profile type and plant-knowledge domain.
 
 The MVP shall help a gardener observe, understand and care for individual bush roses over time through guided questions, trusted knowledge, contextual information and a continuing Bush Rose Profile history.
 
@@ -38,7 +38,7 @@ This document does not select software technologies, artificial-intelligence mod
 
 # 2. Founder-Approved Direction
 
-The MVP shall be built first as a guided companion that helps a gardener observe, understand and care for individual bush roses over time.
+The Ask Pip application shall first support Bush Rose V1 as a bounded guided-care implementation that helps a gardener observe, understand and care for individual bush roses over time.
 
 The gardener shall remain the primary observer. Ask Pip shall help the gardener:
 
@@ -50,7 +50,7 @@ The gardener shall remain the primary observer. Ask Pip shall help the gardener:
 - record decisions and actions; and
 - return to the outcome.
 
-The first MVP may use photographs for capture, recordkeeping and limited reading of visible information such as text on a plant label. Advanced plant-image analysis shall be treated as a future source of proposed observations. It shall not become the foundation upon which plant records, knowledge-based reasoning, guidance or follow-up depend.
+The first MVP may use photographs for capture and recordkeeping. Image-based reading of visible information such as text on a plant label is an optional enhancement and shall not be required for the complete MVP journey. Advanced plant-image analysis shall be treated as a future source of proposed observations. It shall not become the foundation upon which plant records, knowledge-based reasoning, guidance or follow-up depend.
 
 # 3. MVP Product Outcome
 
@@ -124,7 +124,7 @@ Guidance shall reflect the evidence available and identify material limitations.
 
 ## 4.7 AI-Powered but Provider-Adaptable
 
-Pip shall be an artificial-intelligence-powered, provider-adaptable companion.
+Ask Pip shall provide artificial-intelligence-powered, provider-adaptable interaction through Pip.
 
 Pip’s identity, approved knowledge, plant records, evidence history, operating rules and safeguards shall remain governed components of PIP.
 
@@ -149,8 +149,8 @@ The first MVP shall include:
 - the Garden Journal and Plant Profile hierarchy defined in Section 7;
 - optional capture and storage of multiple gardener-supplied photographs, including multiple views and before-and-after sequences, as linked evidence and historical records;
 - relevant explanations of the value of photographs to the gardener and continuing plant record;
-- recording of relevant label, cultivar, location and planting information supplied through reliable records or gardener input;
-- optional use of a label photograph to propose a transcription for gardener confirmation or correction while preserving the original as supporting evidence;
+- manual entry of all relevant label, cultivar, location and planting information supplied through reliable records or gardener input;
+- optional use of an available label-reading capability to propose a transcription for gardener confirmation or correction while preserving the original as supporting evidence;
 - gardener-supplied observations captured through guided questions;
 - verified reference material where required to help the gardener observe or compare;
 - contextual answers grounded in approved operational knowledge with material uncertainty stated explicitly;
@@ -224,9 +224,9 @@ The photographic record shall support:
 
 Photograph metadata shall be limited to information needed for the gardener's record and approved PIP purposes. Privacy, consent, retention and any use beyond the individual gardener's service shall be defined before implementation. Storage in a Plant Profile history shall not by itself authorise use for model training or general research.
 
-## 6.4 Visible-Information Extraction
+## 6.4 Optional Visible-Information Extraction
 
-The MVP may use an available image-reading capability to propose a transcription or interpretation of visible information supplied by the gardener, including printed or handwritten text on a plant label, nursery tag or plant passport.
+The MVP may use an available image-reading capability as an optional enhancement to propose a transcription of visible information supplied by the gardener, including printed or handwritten text on a plant label, nursery tag or plant passport. The gardener shall be able to enter all such information manually, and omission or technical unavailability of label reading shall not block any part of the complete MVP journey.
 
 The interaction shall allow the gardener to:
 
@@ -242,7 +242,7 @@ Where material, the record shall preserve:
 - the gardener's confirmation or correction; and
 - the value ultimately used in the Bush Rose Profile.
 
-Reading visible text from a supplied image shall not be represented as recognition of the rose from its physical appearance.
+Reading visible text from a supplied image shall not be represented as plant identification, cultivar recognition, plant assessment, diagnosis or recognition of the rose from its physical appearance.
 
 ## 6.5 Structured Observations
 
@@ -379,11 +379,11 @@ The specification may use different interface wording, but it shall preserve the
 
 ## 9.1 Add a Rose
 
-The gardener shall be able to create a Bush Rose Profile for each individual bush rose they wish to record, name the rose and record available identity, location, planting and personal information.
+The gardener shall be able to create a Bush Rose Profile for each individual bush rose they wish to record, name the rose and manually record all available identity, label, cultivar, location, planting and personal information.
 
 Ask Pip shall invite the gardener to begin the rose's visual history with one or more photographs and briefly explain the benefits of doing so.
 
-If the gardener supplies a photograph of a label, Ask Pip may propose what the visible text appears to say and shall ask the gardener to confirm or correct it before using it as established profile information.
+If optional label-reading capability is implemented and the gardener supplies a photograph of a label, Ask Pip may propose what the visible text appears to say and shall ask the gardener to confirm or correct it before using it as established profile information.
 
 ## 9.2 Learn What to Expect
 
@@ -417,7 +417,7 @@ The gardener shall be able to record what changed and whether a planned action w
 
 The Knowledge Curation System (KCS) shall remain responsible for the governed preparation, approval and publication of knowledge for operational use.
 
-The MVP product shall consume approved operational knowledge. It shall not:
+The Ask Pip MVP shall consume approved operational knowledge. It shall not:
 
 - treat unapproved draft research as operational knowledge;
 - create Founder-approved knowledge through ordinary user interaction;
@@ -425,6 +425,8 @@ The MVP product shall consume approved operational knowledge. It shall not:
 - conceal when required operational knowledge is unavailable.
 
 The MVP specification shall identify the minimum approved bush-rose knowledge required for the selected guided journey before that journey is represented as operationally supported.
+
+The Commission 008 Knowledge Pack may support model or capability validation, architecture reconciliation, specification preparation and identification of required Bush Rose knowledge. It shall not be treated as approved operational knowledge unless it has separately completed the applicable approval and CORE integration process.
 
 Gardener observations, photographs and outcomes may create useful records for the gardener and may support future authorised research or capability development. They shall not become approved general horticultural knowledge automatically, and storage for the gardener's service shall not itself authorise any secondary use.
 
@@ -439,9 +441,9 @@ The first MVP may use photographs to:
 - support human comparison and review;
 - record before-and-after sequences;
 - capture visible label or record information; and
-- propose text transcriptions for gardener confirmation.
+- when the optional label-reading enhancement is implemented, propose text transcriptions for gardener confirmation or correction.
 
-These uses remain subject to the capability boundaries in Section 5.2.
+The complete MVP shall remain available when label reading is omitted or technically unavailable. These uses remain subject to the capability boundaries in Section 5.2.
 
 ## 11.2 Future Plant-Image Analysis
 
@@ -478,7 +480,8 @@ The implementable specification shall preserve the following safeguards:
 - **Voluntary photography:** every guided-care activity shall remain available without a photograph.
 - **Photographic integrity:** original photographs, contextual data and later interpretations remain distinguishable.
 - **Confirmation of extracted information:** proposed label or text readings require gardener confirmation or correction before becoming established profile information.
-- **Capability clarity:** label reading is not represented as cultivar recognition, plant assessment or diagnosis.
+- **Manual label information:** all label, cultivar and plant information can be entered without label-reading capability.
+- **Capability clarity:** label reading is optional and is not represented as plant identification, cultivar recognition, plant assessment or diagnosis.
 - **Human correction:** the gardener can correct their report, an extracted value and any future machine proposal.
 - **Uncertainty integrity:** absence of evidence, inability to determine and conflicting information remain expressible.
 - **Knowledge authority:** reasoning uses only knowledge authorised for operational use.
@@ -501,9 +504,13 @@ The first MVP shall preserve the narrative's enduring purpose:
 
 Capabilities in *Marie's Story* that depend on automated plant-image interpretation, diagnosis, structural assessment or pruning overlays are longer-term capabilities and are outside the first MVP boundary unless separately validated, specified and approved.
 
+Earlier pruning-first requirements and materials do not govern the first MVP unless each applicable requirement is expressly reconciled with and incorporated into this architecture or the approved implementable specification. Automated plant-image diagnosis, overall-health assessment from appearance, structural assessment, cultivar inference from plant appearance, cut-by-cut pruning overlays and other unreconciled pruning-first capabilities remain deferred.
+
 # 14. Specification Handoff
 
 After Founder approval of this architecture, the next controlled document shall be an implementable MVP specification.
+
+This architecture may be reviewed as the general architectural boundary before the first guided-care journey is selected. Before the implementable specification is finalised and implementation begins, a Founder decision shall identify one bounded first guided-care journey. This architecture does not select that journey.
 
 The specification shall define at least:
 
@@ -512,7 +519,7 @@ The specification shall define at least:
 - user interactions and interface states;
 - required data fields and validation rules;
 - photograph capture, metadata, linkage, storage and retrieval behaviour;
-- label-reading and gardener-confirmation behaviour;
+- manual label-information behaviour and, only if the optional enhancement is selected for implementation, label-reading and gardener-confirmation behaviour;
 - the observation vocabulary and source states;
 - required knowledge retrieval and traceability behaviour;
 - reasoning and uncertainty outputs;
