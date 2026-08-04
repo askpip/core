@@ -390,9 +390,9 @@ The specification may use different interface wording, but it shall preserve the
 
 # 9. Selected Guided-Care Journey
 
-The selected first journey is Marie’s complete first-use-to-outcome experience with Sarah’s Rose, defined in `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`.
+The selected first journey is the minimum viable product (MVP) retelling of the approved *Marie’s Story*, defined in `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`.
 
-The implementable specification shall support that journey and satisfy its journey-specific acceptance criteria, including its guided black-spot care, pruning and reminder behaviour. This architecture governs the underlying system and information behaviour; the journey document governs Marie’s experience.
+It shall preserve the vision story’s audience, problem, solution, emotional promise and complete narrative arc. Where the vision uses plant-image interpretation, the MVP shall instead help Marie inspect Sarah’s Rose, describe what she sees and confirm the observations used in reasoning. The implementable specification shall support the resulting journey, including its reminders, guided black-spot care, recovery, seasonal learning, pruning, Garden Journal continuity and Marie’s growing confidence. This architecture governs the underlying system and information behaviour; it shall support the journey without compressing or reshaping Marie’s experience.
 
 # 10. Knowledge Curation System Relationship
 
@@ -428,15 +428,17 @@ The implementable specification shall preserve:
 
 # 12. Relationship to Marie's Story
 
-*Marie's Story* remains the approved long-term foundational narrative of the Ask Pip experience. The first MVP preserves its focus on the individual plant, observation before action, useful explanation, continuing history, honest uncertainty and gardener judgement.
+*Marie’s Story* remains the approved vision story for Ask Pip. It defines the audience, the problem Ask Pip solves, the help and support it provides and the emotional outcome for the gardener. Marie’s MVP journey shall be recognisably the same story, delivered through the capabilities of the first build.
 
-Guided pruning education and gardener-led pruning assessment are incorporated into the first MVP through this architecture and Marie’s selected journey. Earlier pruning-first requirements and materials govern only where they are expressly incorporated into this architecture or the approved implementable specification. The deferred capabilities listed in Section 5.2 remain outside the first MVP.
+The principal adaptation is the source of plant interpretation. Marie supplies and confirms textual descriptions through guided conversation instead of Ask Pip interpreting the rose’s physical appearance from photographs. Photographs remain part of Sarah’s Rose’s history. The welcome, personal meaning, reminders, black-spot help and recovery, seasonal support, pruning education, Garden Journal continuity and Marie’s growth in understanding remain part of the MVP story.
+
+The deferred capabilities listed in Section 5.2 remain outside the first MVP.
 
 # 13. Specification Handoff
 
 After Founder approval of this architecture and the selected journey, the next controlled document shall be an implementable MVP specification.
 
-The specification shall define the interfaces, data structures, validation, operational knowledge, reasoning, history, black-spot guidance, pruning guidance, reminders, follow-up, failure behaviour and tests needed to implement Marie’s journey while preserving this architecture’s relationships and boundaries. Optional label reading shall be specified only if selected for implementation.
+The specification shall define the interfaces, data structures, validation, operational knowledge, reasoning, history, black-spot guidance, pruning guidance, reminders, follow-up, failure behaviour and tests needed to deliver Marie’s MVP story while preserving its narrative outcomes and this architecture’s relationships and boundaries. Optional label reading shall be specified only if selected for implementation.
 
 The specification shall not commence software development or approve technology choices unless the Founders separately authorise those actions.
 
