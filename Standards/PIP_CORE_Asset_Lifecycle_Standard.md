@@ -10,11 +10,13 @@
 
 **Status:** Approved
 
-**Version:** 0.2
+**Version:** 0.3
 
-**Last Updated:** 2 August 2026
+**Last Updated:** 4 August 2026
 
-**Approved By:** The Founders
+**Approved By:** shaphanmartin73
+
+**Permanent Location:** `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`
 
 ## 1. Purpose
 
@@ -59,7 +61,7 @@ This Standard governs repository status, authority, location and integration.
 
 It does not govern the internal creation, research, assessment or operational process specific to an asset type. Those processes shall be governed by the applicable approved Standard, Skill or Operations Manual.
 
-The practical procedure for integrating approved assets into PIP CORE shall be governed by the applicable approved repository-integration procedure.
+The practical procedures for synchronising working drafts and integrating approved assets shall be governed by the applicable approved repository-integration procedure.
 
 ## 3. Governing Principles
 
@@ -85,21 +87,33 @@ Only the Founders may:
 
 * approve a controlled repository asset;
 * approve its version;
-* authorise its integration;
+* authorise its official CORE integration;
 * approve an exception to this Standard; or
 * authorise the removal of controlled working materials.
 
 Artificial intelligence (AI) agents shall not infer or grant Founder approval.
 
+A scoped instruction from either Founder is sufficient authority to create, edit and synchronise a working draft in `Working/Drafts/`, unless that Founder instructs the AI not to commit or push. This working-draft authority shall be executed under the approved repository-integration procedure.
+
+Working-draft authority does not establish or alter the approval requirements for official CORE integration. Founder approval and official integration remain separate Founder-controlled actions governed by the current approved governance. No additional joint-approval rule shall be inferred.
+
+For an internal operating or process document, an instruction from either Founder is sufficient to approve the document, its version and permanent repository location, and its official CORE integration, unless a higher-authority document expressly requires joint approval for that asset or decision or a Founder expressly states that joint approval is required. This rule includes PIP AI OS Skills, operating procedures, Loading Guide amendments and repository-process Standards and does not determine approval requirements for other asset classes.
+
 ### 3.4 Controlled Integration
 
-Only assets and related changes expressly included within the approved integration scope may be integrated.
+Only assets and related changes expressly included within an approved official-integration scope may be integrated.
 
 Unrelated modified or untracked files shall remain unaffected.
 
-Where the approved version, permanent location or integration scope cannot be determined, the affected action shall stop pending Founder direction.
+Where the approved version, permanent location or integration scope cannot be determined, the affected official-integration action shall stop pending Founder direction.
 
-### 3.5 Repository Cleanliness
+### 3.5 Concurrent Change Protection
+
+Before writing or synchronising a controlled asset, the AI shall obtain the latest remote state and identify the current target-file state. Before completing synchronisation, it shall verify that the destination branch and target file have not changed incompatibly.
+
+If concurrent changes would require unsupported reconciliation, the affected operation shall stop and the conflict shall be reported. The AI shall not overwrite the newer state, force the change or infer a reconciliation decision.
+
+### 3.6 Repository Cleanliness
 
 The Working area is a controlled workspace and not a permanent location for approved repository-authoritative assets.
 
@@ -111,14 +125,14 @@ Working materials shall not be deleted merely because they appear temporary, obs
 
 A controlled repository asset shall pass through the following lifecycle stages where applicable:
 
-1. Draft development;
+1. Draft development and synchronisation;
 2. Founder review;
 3. Founder approval;
 4. CORE integration;
 5. repository-authoritative use; and
 6. later revision or replacement.
 
-### 4.1 Draft Development
+### 4.1 Draft Development and Synchronisation
 
 New standalone documents and similar assets shall normally be developed within:
 
@@ -128,11 +142,17 @@ Assets requiring a functional repository location during development, including 
 
 All assets under development shall remain Draft.
 
+An instruction to create or edit an asset within `Working/Drafts/` authorises the scoped save, commit and push to its existing working location unless the Founder instructs otherwise. For local working-draft synchronisation, `origin/main` is the normal destination unless a Founder specifies another branch or remote.
+
+Working-draft synchronisation records the current state of the Draft for review and collaboration. It does not constitute Founder approval, official CORE integration, publication or repository-authoritative use.
+
+The approved repository-integration procedure shall support both a local Git checkout and direct operation through an authorised GitHub connector. It shall apply capability-sensitive verification: Git status, diff, staging, commit and push verification in a local checkout; and current file, blob, commit and branch verification through an authorised GitHub connector.
+
 ### 4.2 Founder Review
 
 Draft assets shall remain within the Working area during Founder review unless an approved process requires another controlled review location.
 
-The Founders shall determine whether an asset:
+The Founder or Founders with the applicable approval authority shall determine whether an asset:
 
 * requires further revision;
 * is ready for approval;
@@ -142,7 +162,7 @@ The Founders shall determine whether an asset:
 
 ### 4.3 Founder Approval
 
-Founder approval authorises an asset for integration.
+Founder approval authorises an asset for official CORE integration.
 
 Approval shall identify or establish, where applicable:
 
@@ -151,7 +171,7 @@ Approval shall identify or establish, where applicable:
 * its permanent repository location; and
 * the scope of related repository changes.
 
-An approved local asset does not become repository-authoritative until its integration has been successfully committed and pushed.
+An approved local asset does not become repository-authoritative until its official integration has been successfully committed and pushed.
 
 ### 4.4 CORE Integration
 
@@ -168,6 +188,8 @@ Integration may include:
 
 The integration procedure shall contain the detailed operational requirements for these actions.
 
+An amendment that activates the CORE Integration Skill through the PIP AI Loading Guide shall integrate the approved CORE Integration Skill, this Standard amendment and the corresponding Loading Guide amendment together. The Loading Guide shall not route AI to either document until both have been installed at their approved permanent locations.
+
 ### 4.5 Repository Authority
 
 Following successful integration and verification, the pushed asset in its permanent repository location becomes the repository-authoritative version.
@@ -179,7 +201,7 @@ If integration, commit or push fails:
 
 ### 4.6 Revision of an Approved Asset
 
-An existing approved asset shall remain repository-authoritative while a proposed revision is being developed or reviewed.
+An existing approved asset shall remain repository-authoritative while a proposed revision is being developed, synchronised or reviewed.
 
 The revision shall remain Draft until Founder approval.
 
@@ -195,7 +217,7 @@ Controlled repository assets shall use the following repository lifecycle status
 
 **Draft**
 
-The asset is being developed, revised or reviewed and is not the repository-authoritative approved version.
+The asset is being developed, revised or reviewed and is not the repository-authoritative approved version. Committing and pushing a Draft within the Working area does not change this status.
 
 **Approved**
 
@@ -215,7 +237,7 @@ Where versioning applies, the approved version shall be determined by:
 
 Founder approval does not automatically require a version to become 1.0.
 
-An asset may be approved below Version 1.0 when the Founders approve it for controlled early use, testing or continued development.
+An asset may be approved below Version 1.0 when the Founder or Founders with the applicable approval authority approve it for controlled early use, testing or continued development.
 
 AI agents shall not invent, infer or automatically increment an approved version.
 
@@ -230,7 +252,7 @@ The Founders shall:
 * determine when an asset is ready for approval;
 * approve controlled repository assets;
 * approve versions where applicable;
-* authorise CORE integration;
+* authorise official CORE integration;
 * determine unresolved permanent locations or integration scope;
 * authorise controlled cleanup; and
 * approve exceptions to this Standard.
@@ -240,14 +262,16 @@ The Founders shall:
 AI agents shall:
 
 * follow this Standard and applicable approved governing documents;
-* distinguish Draft assets from repository-authoritative assets;
+* distinguish synchronised Draft assets from repository-authoritative assets;
 * preserve the integrity and traceability of controlled assets;
-* apply only the approval and integration authority granted;
+* apply only the authority granted for working-draft synchronisation or official integration;
 * avoid modifying unrelated repository content;
 * follow the approved repository-integration procedure;
-* stop affected actions when approval, version, location or scope remains unresolved;
+* stop affected official-integration actions when approval, version, location or scope remains unresolved;
 * verify successful integration before reporting an asset as repository-authoritative; and
 * remove working materials only when authorised.
+
+Repository verification shall match the operating environment. In a local checkout, AI agents shall use available Git status, diff, staging, commit and push evidence. Through an authorised GitHub connector, they shall use current file, blob, commit and branch evidence.
 
 ## 7. Exceptions
 

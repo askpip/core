@@ -4,12 +4,12 @@
 **Repository:** PIP CORE  
 **Parent Platform:** Plant Intelligence Platform (PIP)  
 **Folder:** AI  
-**Version:** 0.3  
+**Version:** 0.4  
 **Status:** Approved  
 **Owner:** The Founders  
-**Approved By:** The Founders  
+**Approved By:** shaphanmartin73  
 **Permanent Location:** `AI/PIP_AI_Loading_Guide.md`  
-**Last Updated:** 2 August 2026  
+**Last Updated:** 4 August 2026  
 **Purpose:** To identify the additional PIP Artificial Intelligence Operating System (PIP AI OS) documents that must be loaded to correctly perform a requested task.  
 **Authority:** PIP AI OS  
 **Related Documents:** `AGENTS.md`, `AI/PIP_AI_Operations_Manual.md`, `AI/PIP_AI_Constitution.md`
@@ -54,7 +54,7 @@ It does not define how those documents operate.
 After loading the PIP AI Operations Manual and the PIP AI Constitution, the AI shall:
 
 1. Load `AI/Context/PIP_System_Terminology_Context.md` for every PIP task, including ordinary conversation and advice.
-2. Determine the primary task requested by the Founder.
+2. Determine every action requested by the Founder.
 3. Consult this Loading Guide.
 4. Identify every applicable entry.
 5. Load every referenced PIP AI OS document.
@@ -72,7 +72,8 @@ The following table identifies which additional PIP AI OS documents shall be loa
 |---------------|-------------------------|-------|
 | Every PIP task, including ordinary conversation and advice, planning and analysis, document work, repository work, Knowledge Curation System work, Research Origin Curator work, Knowledge Integration Technician work, and software or application work. | `AI/Context/PIP_System_Terminology_Context.md` | Compact operational terminology reference. The PIP System Identity and Naming Standard (SINS-001) remains authoritative. |
 | Authoritative naming interpretation; naming conflict or uncertainty; document creation or editing; renaming; or terminology-governance work. | `Standards/PIP_System_Identity_and_Naming_Standard.md` | Authoritative naming Standard. |
-| Creating, drafting, reviewing, revising, restructuring, formatting, reconciling or converting a PIP document. | `AI/Skills/Document_Creation_and_Editing_Skill.md`; `Standards/PIP_System_Identity_and_Naming_Standard.md` | The Skill governs document content and preparation but does not govern repository operations. SINS-001 governs naming and terminology. |
+| Creating, drafting, reviewing, revising, restructuring, formatting, reconciling or converting a PIP document. | `AI/Skills/Document_Creation_and_Editing_Skill.md`; `Standards/PIP_System_Identity_and_Naming_Standard.md` | The Skill governs document content and preparation. SINS-001 governs naming and terminology. |
+| Creating or changing repository files; selecting or confirming repository paths; moving or synchronising controlled assets; inspecting repository status or changes; retrieving remote state; committing or pushing; or verifying repository state. | `AI/Skills/CORE_Integration_Skill.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md` | The Skill distinguishes working-draft synchronisation from official CORE integration and supports local Git checkouts and authorised GitHub connectors. The Standard governs asset status, authority and lifecycle. This entry becomes active only through the coordinated installation in Section 8. |
 
 ---
 
@@ -81,6 +82,8 @@ The following table identifies which additional PIP AI OS documents shall be loa
 A single request may require multiple Skills and Context documents.
 
 Where multiple entries apply, every applicable document shall be loaded before performing the task.
+
+Document content changes performed within the repository require both the document-creation and repository-operation entries.
 
 ---
 
@@ -117,11 +120,15 @@ Every approved Skill and Context document shall be recorded within this guide.
 
 A document shall not become part of the active PIP AI OS until:
 
-- it has been approved by the Founders;
+- it has received the Founder approval required by the applicable governance;
 - it has been stored within the repository; and
 - it has been referenced within this Loading Guide.
 
 Changes to this guide require Founder approval.
+
+The CORE Integration Skill, the PIP CORE Asset Lifecycle Standard amendment and the Loading Guide amendment that first activates the repository-operation entry shall be approved and officially integrated together in one coordinated change.
+
+That coordinated integration shall install the approved Skill and Standard at the exact permanent paths referenced in the Loading Index and install this Loading Guide amendment in the same commit. If all three files cannot be installed and verified together, the repository-operation entry shall not be activated and the previously approved Loading Guide shall remain authoritative.
 
 ---
 
