@@ -22,8 +22,6 @@ The first guided-care journey is Marie’s complete first-use-to-outcome experie
 
 It begins when Marie first opens Ask Pip, continues through creating Sarah’s Rose’s profile and beginning its story, and later follows Marie through a leaf concern, a decision, follow-up and an outcome.
 
-The leaf concern is a later chapter in an existing relationship. It is not the beginning or the whole purpose of the journey.
-
 # 2. Experience Intent
 
 Marie begins with care and uncertainty rather than horticultural expertise. Ask Pip helps her feel welcomed, understand what to do next and build confidence through attention to one plant she values.
@@ -81,9 +79,7 @@ Ask Pip preserves her words and responds:
 
 Ask Pip invites Marie to take a few photographs so she has a starting point to look back on as Sarah’s Rose grows. She photographs the whole rose, its place in the garden and the nursery label, adding notes if she wishes.
 
-The experience feels like beginning a living album.
-
-Using what Marie has shared and the approved knowledge available for the journey, Ask Pip offers a short introduction to what she might notice and one or two useful next steps. It does not turn the first visit into a lesson.
+Using what Marie has shared and the approved knowledge available for the journey, Ask Pip offers a short introduction to what she might notice and one or two useful next steps.
 
 Marie leaves knowing that Sarah’s Rose has a place in her Garden Journal and that she can return whenever something changes or she is curious.
 
@@ -99,8 +95,6 @@ Ask Pip continues from the existing story:
 
 > “I’m glad you told me, Marie. Let’s work through what you’ve noticed about Sarah’s Rose.”
 
-Marie does not need to repeat the rose’s name, history or meaning.
-
 ## 3.5 Marie Looks More Closely
 
 Ask Pip asks a short sequence of ordinary questions that help Marie look more carefully. Depending on the approved journey content, these may cover when she noticed the spots, how many leaves seem affected, where they are on the rose, whether she sees yellowing or leaf loss, and whether the change appears to be spreading.
@@ -115,7 +109,7 @@ Marie confirms or corrects it. She may add photographs and notes to mark this mo
 
 ## 3.6 Marie Understands and Decides
 
-Ask Pip explains what Marie’s observations suggest may be worth considering, what remains uncertain and what she could do next. The response stays proportionate to the immediate concern.
+Ask Pip explains what Marie’s observations suggest may be worth considering, what remains uncertain and what she could do next.
 
 For example:
 
@@ -145,18 +139,7 @@ Marie can look back and recognise one connected story: why the rose matters, how
 
 # 4. Journey Boundaries
 
-The architecture governs the system records, evidence rules, knowledge authority, uncertainty, safeguards and deferred capabilities behind this experience.
-
-For this journey:
-
-- Marie supplies and confirms what she notices;
-- photographs are optional parts of Sarah’s Rose’s history;
-- all plant and label details can be entered manually;
-- guidance comes from approved operational knowledge;
-- the leaf concern remains bounded to behaviour supported by the implementable specification; and
-- urgent, unsupported or out-of-scope concerns lead to the next appropriate form of help.
-
-These boundaries shall shape product behaviour without becoming defensive or system-centred dialogue.
+Marie supplies and confirms what she notices. Photographs are optional parts of Sarah’s Rose’s history, and all plant and label details can be entered manually. Ask Pip uses approved operational knowledge and directs unsupported or urgent concerns to appropriate help.
 
 # 5. Journey Acceptance Criteria
 
@@ -171,25 +154,17 @@ The journey is demonstrated for minimum viable product purposes when:
 7. Ask Pip helps Marie describe and confirm what she has noticed in ordinary language.
 8. Marie can understand uncertainty, choose or defer a next step, and know when to return.
 9. Follow-up continues the same concern and records Marie’s later observation, action and outcome.
-10. The complete experience feels like one growing relationship with Sarah’s Rose and satisfies the governing architecture and implementable specification.
+10. Sarah’s Rose’s profile retains its name, personal meaning, photographs, observations, decisions and outcomes as one continuing history.
 
 # 6. Specification Handoff
 
-The implementable specification shall turn this journey into defined interface states, supported questions and choices, required operational knowledge, follow-up behaviour, data relationships, failure paths and test cases.
-
-It shall preserve the separation between:
-
-- Marie’s experience, expressed here;
-- product and information architecture, governed by the MVP architecture; and
-- implementation detail and internal verification, governed by the specification.
-
-This journey does not approve horticultural content or implementation choices.
+The implementable specification shall define the interface states, supported questions and choices, operational knowledge, follow-up behaviour, data relationships, failure paths and test cases required for this journey. Product and information architecture remain governed by the MVP architecture.
 
 # 7. Founder Review Decisions
 
 Before this journey becomes an approved input to the implementable specification, the Founders shall determine:
 
-1. whether this complete first-use-to-outcome arc expresses the intended first MVP demonstration;
+1. whether to approve this as the first MVP journey;
 2. whether the leaf concern should remain general or be narrowed in the specification;
 3. the approved version; and
 4. the permanent PIP CORE location.
