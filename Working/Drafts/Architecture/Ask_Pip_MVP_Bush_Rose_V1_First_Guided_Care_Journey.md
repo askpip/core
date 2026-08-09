@@ -1,452 +1,208 @@
-# Ask Pip MVP – Marie’s Story
+# Ask Pip MVP – Bush Rose V1 First Guided-Care Journey
 
 ## Document Metadata
 
-**Document Title:** Ask Pip MVP – Marie’s Story  
-**Document Type:** Supporting Architecture Journey  
+**Document Title:** Ask Pip MVP – Bush Rose V1 First Guided-Care Journey  
+**Document Type:** Product Journey Document  
 **Version:** Unassigned - Founder decision required  
 **Status:** Draft  
 **Owner:** The Founders  
 **Last Updated:** 9 August 2026  
 **Working Location:** `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`  
 **Proposed Permanent Location:** Founder decision required  
-**Purpose:** To define Marie’s complete Bush Rose V1 product journey while establishing Chapters 1–5 as the initial minimum viable product implementation, including end-to-end guidance on how, why and when to prune a dormant bush rose.  
-**Authority Sources:** `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`  
-**Related Documents:** `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`
+**Purpose:** To describe the complete first Ask Pip experience: immediate dormant-bush-rose pruning help, an automatically created plant history and one meaningful return.  
+**Related Documents:** `Foundations/AskPIP_Vision_Statement.md`; `Foundations/Maries_Story.md`; `Working/Drafts/Foundations/AskPIP_Vision_Statement.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`
 
 ---
 
-# Initial Implementation Boundary
+# 1. Journey Purpose
 
-Chapters 1–5 define the initial minimum viable product (MVP) implementation. Together they shall demonstrate both central guided-care outcomes:
+This journey begins with a gardener who has an existing dormant bush rose and wants help pruning it now.
 
-1. helping Marie observe, understand and respond to a developing plant-health concern; and
-2. helping Marie understand how, why and when to prune her dormant bush rose, assess its structure, make supported choices and record the result.
+It tests whether Pip can turn a moment of uncertainty into understanding, preserve the useful interaction as the rose's history and continue from that history when the gardener returns.
 
-Chapters 6–8 remain the approved continuation journey that the architecture shall support. They demonstrate Garden Journal continuity, contextual questions and longer-term growth in Marie’s understanding, but they are not required for the initial implementation.
+Marie and Sarah's Rose illustrate the experience. The journey is not a requirement to reproduce Marie's earlier chronology or the complete story in `Foundations/Maries_Story.md`.
 
-The product shall not require a gardener to wait through Marie’s chronology. A gardener who adds an existing dormant bush rose shall be able to begin the pruning assessment when the available plant context and approved operational knowledge support it.
+# 2. The Behavioural Loop
 
-# Chapter 1 — Meeting Sarah’s Rose
+The first journey follows one simple loop:
 
-Marie had never planned to grow roses.
+1. Marie needs help pruning Sarah's Rose.
+2. Pip guides her to observe and understand it.
+3. Marie decides what to cut, leave or defer.
+4. The useful interaction creates the rose's history automatically.
+5. Marie returns to observe the response.
+6. Pip remembers the earlier session and helps her learn from what happened.
 
-One afternoon, her sister arrived with a beautiful bush rose as a gift.
+The journal is therefore an outcome of receiving help, not a separate task Marie must maintain.
 
-> “I thought this would look lovely in your garden.”
+# 3. Beginning With a Real Need
 
-Together, they chose a sunny spot and planted it.
+Marie stands beside Sarah's Rose with her phone. The rose is dormant and its branches look confusing. She is worried that she may remove the wrong cane.
 
-Over the following days, Marie found herself checking on the rose each time she walked through the garden. It had quickly become more than another shrub. It reminded her of her sister.
+She opens Ask Pip and chooses:
 
-Although Marie enjoyed gardening, she knew very little about roses. She wanted to care for this one properly but was not sure where to begin.
+> **Help me prune my dormant bush rose**
 
-A friend suggested Ask Pip.
+Pip introduces the supported journey in plain language:
 
-> “A gardening companion that helps you understand your plants.”
+> “We'll look at your rose together before you decide what to cut. I'll explain what to notice and why it matters. You can leave or defer any choice, and we'll stop if the structure or timing is not clear.”
 
-Marie downloaded the app and tapped **Begin**.
+Pip asks Marie to create a minimal record for the rose. Marie enters:
 
-The Home screen asked:
+- **Name:** Sarah's Rose
+- known rose type or label information;
+- approximate location and planting context; and
+- an optional note that the rose was a gift from her sister.
 
-> **How can I help you today?**
+Pip encourages a baseline photograph and explains its immediate purpose: it will help Marie compare the rose before pruning, after pruning and at follow-up. Marie can continue without a photograph if the supported journey can otherwise proceed safely.
 
-Marie selected **Add a plant**.
+The Bush Rose Profile begins with the information Marie has already supplied. She is not asked to complete a separate journal entry.
 
-Pip welcomed her:
+# 4. Is Pruning Appropriate Now?
 
-> “Let’s get to know your new plant.”
+Before discussing a cut, Pip checks whether this supported journey is appropriate.
 
-Pip asked what kind of plant it was, what Marie knew about it and whether it still had its nursery label. Marie found the label and typed in the cultivar and the useful information printed on it.
+Using approved operational knowledge, Pip asks only for context required to establish:
 
-Pip then asked:
+- that Sarah's Rose is within the supported bush-rose scope;
+- Marie's location and current seasonal conditions;
+- signs of dormancy or active growth that Marie can confirm;
+- recent planting, damage, stress or other condition relevant to pruning; and
+- whether Marie has clean, sharp secateurs, suitable protection and safe access.
 
-> “What would you like to call this rose in your garden?”
+Pip explains why each material question matters.
 
-Marie typed:
+If timing, rose type, condition or safety cannot be established, Pip does not force the journey forward. It explains the limitation and offers an appropriate outcome:
 
-**Sarah’s Rose**
+- leave the rose alone for now;
+- record what to observe and return when the condition changes;
+- defer the session to a more suitable time; or
+- seek experienced local help.
 
-Pip replied:
+When the available information supports proceeding, Pip says:
 
-> “Perfect. I’ll know this rose as Sarah’s Rose while also remembering its cultivar.”
+> “The information you've confirmed supports continuing with this bounded dormant-bush-rose pruning journey. We'll examine the structure before considering any cut.”
 
-It asked one final optional question:
+# 5. Learning to See the Rose
 
-> “Would you like to record why this plant is special to you?”
+Pip explains the purpose of pruning before asking Marie to act. It introduces only the structural conditions approved for the first journey and uses verified illustrations or comparisons to help Marie recognise them.
 
-Marie wrote:
+Pip asks one clear question at a time. Depending on the approved knowledge and journey scope, it may help Marie examine:
 
-> “My sister gave me this rose at the beginning of spring. I’d like to look after it well and enjoy it for many years.”
+- dead and living wood;
+- damaged growth;
+- crossing or rubbing stems;
+- stems growing into the centre;
+- weak or congested growth; and
+- the main framework that may be retained.
 
-Pip invited Marie to take photographs of the whole rose, its position in the garden and the nursery label. Marie added several views so she would have a record of how Sarah’s Rose looked when its story began.
+Pip does not assume Marie knows specialist terms. It explains each term and asks her to trace the relevant cane on the actual rose from its base to its tip. If two stems appear to cross from one viewpoint, Pip asks her to move around the plant and look again.
 
-Pip asked Marie a few simple questions about the newly planted rose: whether it was producing fresh growth, whether its leaves looked evenly coloured, whether any leaves were yellowing or falling and whether she had noticed insects or damaged growth. Marie walked around the rose, looked closely and answered in her own words.
+Marie may add structural photographs from different sides. Pip stores them as evidence and history. It does not treat an uninterpreted photograph as confirmation of a safe cut.
 
-Pip reflected her observations back so she could confirm them. Using those answers, the cultivar information, the season and approved bush-rose knowledge, Pip introduced Sarah’s Rose:
+After each observation, Pip reflects Marie's description back to her. Marie confirms or corrects it.
 
-> “From what you’ve told me, Sarah’s Rose seems to be settling in well. Over the next few weeks, you can expect fresh shoots followed by flower buds.”
+By the end of the inspection, Marie can describe the parts of Sarah's Rose that she understands and identify those she cannot yet resolve.
 
-Pip explained that aphids on tender new growth and black spot on the leaves were useful things to watch for. It told Marie what each would look like in ordinary language.
+# 6. Deciding Before Cutting
 
-Finally, Pip added:
+Pip creates a simple proposed pruning plan from Marie's confirmed observations and the supported knowledge.
 
-> “Sarah’s Rose won’t need pruning just yet. When it approaches dormancy and local conditions are suitable, we can look at its structure and decide what, if anything, needs pruning.”
+Each item contains:
 
-Then it asked:
+- the cane or structure Marie has identified;
+- the observation she confirmed;
+- why a cut, leave or defer choice may apply;
+- any supported alternatives; and
+- the information that remains uncertain.
 
-> “Would you like me to remind you when it’s time to assess Sarah’s Rose for pruning?”
+Before each cut, Pip asks Marie to confirm the relevant cane again on the actual rose.
 
-Marie selected **Yes** and chose to receive the seasonal reminder.
+Marie always has four clear choices:
 
-> “Certainly. When pruning season approaches, I’ll remind you, and we’ll assess Sarah’s Rose together.”
+- **Cut**
+- **Leave**
+- **Decide later**
+- **Get experienced help**
 
-The Garden Journal now held Sarah’s chosen name, cultivar information, photographs, nursery-label record, personal story, date added, Marie’s first observations and the future pruning reminder.
+Pip does not present leaving or deferring as failure. Where more than one approach is horticulturally acceptable, it explains the alternatives without pretending there is one required answer.
 
-Marie closed the app. She had learned what kind of rose she owned, what to expect over the coming months, what problems to watch for and that Pip would continue helping her care for it.
+If Marie cannot trace the cane, confirm the relevant feature or work safely, Pip does not proceed with that cut. The choice remains left or deferred.
 
-# Chapter 2 — Something Didn’t Look Right
+# 7. Recording What Happened
 
-Several weeks passed. Sarah’s Rose was growing well.
+After each decision, Pip distinguishes what Marie planned from what she reports completing.
 
-Most mornings, Marie spent a few minutes wandering through the garden before leaving for work. She had started noticing small changes that she might once have overlooked.
+When Marie finishes, Pip invites an after-pruning photograph and displays it beside the baseline photograph where available.
 
-One morning, something caught her attention. Several leaves had small black spots. Some leaves looked perfectly healthy. Others did not.
+Pip creates a plain-language session summary automatically. It includes:
 
-Marie remembered that Pip had mentioned black spot when she first added Sarah’s Rose. She opened Ask Pip and typed:
+- the pruning-suitability context Marie confirmed;
+- the structural observations she made;
+- the explanations and supported alternatives considered;
+- completed cuts;
+- canes left alone;
+- deferred choices or referrals;
+- before-and-after photographs where supplied; and
+- anything Marie should observe next.
 
-> “I’ve noticed black spots on the leaves of Sarah’s Rose.”
+Marie can correct the summary before it becomes part of Sarah's Rose's history.
 
-Pip replied:
+Pip explains the continuity simply:
 
-> “Let’s look at it together. I’ll ask a few questions to help you check what is happening.”
+> “I've saved what you observed, decided and completed for Sarah's Rose. When you return, we can compare what happens next with today's session.”
 
-Pip asked Marie to look at an affected leaf and describe the spots: whether they were round or irregular, whether their edges looked sharp or feathered, and whether the leaf around them was still green or beginning to yellow. It asked where on the rose the affected leaves appeared, whether there were many or only a few, whether new growth was affected and when Marie first noticed the change.
+# 8. One Meaningful Return
 
-Marie looked carefully and answered. When she was unsure what a question meant, Pip explained what to look for. Marie could add photographs to Sarah’s Rose’s history, including close-ups of the affected leaves and a whole-plant view, but her description remained the basis of the assessment.
+Pip offers one optional follow-up linked to the pruning session. The timing shall be determined from approved knowledge and the prototype design.
 
-Pip summarised:
+When Marie returns, Ask Pip opens Sarah's Rose and refers accurately to the earlier record:
 
-> “You first noticed a few irregular black spots today. They are on lower leaves, and some of the surrounding leaf tissue is beginning to yellow. The newer growth still looks healthy. Have I understood you correctly?”
+> “When we pruned Sarah's Rose, you removed the dead cane, left one healthy framework cane and deferred a crossing stem you could not trace confidently. Let's look at how the rose has responded.”
 
-Marie confirmed it.
+Pip asks Marie to observe the approved follow-up indicators. It may invite a new photograph for comparison and reminds her what the earlier photographs and decisions recorded.
 
-Pip explained:
+Marie reports what she sees. Pip distinguishes the new report from the earlier record and explains what the comparison supports, what remains uncertain and whether any next step is appropriate.
 
-> “What you’ve described is consistent with the early stages of rose black spot. A few other problems can cause leaf markings, so the way it changes over the next few days will help us judge it more confidently.”
+The follow-up is saved to the same rose history. Pip asks Marie three short validation questions:
 
-Pip explained what would strengthen or weaken that assessment: more spots appearing, existing spots growing, yellowing around them, affected leaves falling or the same pattern appearing elsewhere.
+1. Did the pruning journey help you understand your rose better?
+2. Was it useful that Pip remembered the earlier session?
+3. Would you return with this rose, another plant or another gardening question?
 
-Marie now understood what Pip thought might be happening and why.
+# 9. What This Journey Must Demonstrate
 
-Pip added:
+The journey is successful as a prototype demonstration when:
 
-> “A follow-up check in three days will help us see whether the pattern is developing like black spot. Would you like me to remind you?”
+1. Marie can begin with an existing dormant bush rose and no prior Ask Pip history.
+2. Pip establishes whether the supported journey is appropriate before cut planning.
+3. Marie can use guided questions and verified comparisons to examine the actual rose.
+4. Pip explains how, why and when each supported pruning choice may apply.
+5. Marie confirms the relevant structure before every cut and remains in control.
+6. Cut, leave, defer and seek-help choices are available throughout.
+7. No safe cut is inferred from an uninterpreted photograph or unresolved structure.
+8. The interaction automatically creates a correctable history without duplicate journal work.
+9. Marie can return for one follow-up in which Pip uses the earlier record accurately.
+10. The prototype captures whether understanding, remembered context and willingness to return improved.
 
-Marie selected **Yes**.
+# 10. Outside This First Journey
 
-> “Done. In three days, I’ll remind you to check the affected leaves, the new growth and the rest of Sarah’s Rose. We’ll compare what you notice with today’s record and decide what to do next.”
+The first journey does not include black-spot care, a complete year-long chronology, general garden questions, multiple plant types, a complete multi-plant Garden Journal, automated image diagnosis or collective learning from user records.
 
-Pip saved Marie’s observations, answers, assessment, photographs and reminder in Sarah’s Rose’s Garden Journal.
+Those capabilities may be considered after the pruning interaction and return behaviour have been tested.
 
-Marie closed the app feeling reassured. Pip had not simply named a disease or left her with a list of possibilities. It had helped her look closely, understand the likely problem and know what would make the next decision clearer.
+# 11. Founder Review Decisions
 
-# Chapter 3 — Taking Another Look
+Before this Draft becomes an approved input to an implementable specification, the Founders shall determine:
 
-Three days later, Marie’s phone gently alerted her:
-
-> **Sarah’s Rose is ready for another look.**
->
-> Three days ago, you noticed early leaf spotting. Let’s see what has changed.
-
-Marie tapped the reminder. Ask Pip opened directly to Sarah’s Rose and continued the earlier conversation.
-
-> “Welcome back, Marie. Please look again at the leaves you were watching, then check the rest of the rose and its new growth.”
-
-Pip guided Marie through the same features in the same order, making the comparison easy. Marie reported that two more lower leaves now had spots, some existing spots were a little larger, a few affected leaves were more yellow and the new growth still looked healthy.
-
-Pip placed her earlier and current answers side by side:
-
-## Comparison Summary
-
-- Two additional lower leaves now show the same spotting.
-- Existing spots have increased slightly in size.
-- Yellowing has developed around some affected areas.
-- New growth remains healthy.
-- Marie has not noticed significant leaf loss.
-
-Marie confirmed the comparison. She added new photographs beside the earlier ones so she could see the change for herself.
-
-Pip explained:
-
-> “The changes you’ve described are now much more consistent with black spot. The spread across lower leaves and the yellowing around the spots both support that assessment.”
-
-Pip then explained several suitable ways of managing black spot, including how each option worked, its advantages and disadvantages and when it might be appropriate. Marie decided to remove the affected leaves, clear infected fallen leaves from beneath the plant and use an approved organic fungicide option.
-
-Pip asked whether she wanted those choices recorded. Marie selected **Yes**.
-
-It then asked:
-
-> “Were you able to complete those treatments today?”
-
-Marie replied **Yes**.
-
-Pip recorded both what Marie had chosen and what she had completed. It created a Care Plan with the objective of confirming that the spotting had stopped spreading and healthy new growth continued.
-
-> “Would you like me to remind you when it’s time to review Sarah’s Rose?”
-
-Marie selected **Yes**.
-
-> “Certainly. Next week, we’ll check Sarah’s Rose again and use what you notice to see how it has responded.”
-
-Marie closed the app. Ask Pip was not giving advice and disappearing. It remembered what had happened, the choice she had made and what needed to happen next.
-
-Over the following two weeks, Marie completed the Care Plan with Pip’s help. Each reminder brought her directly back to Sarah’s Rose. Each review built on the previous one. Marie checked for new spots, leaf loss and healthy new growth; Pip helped her interpret the pattern and decide whether another action was needed.
-
-The spread gradually stopped, healthy new growth continued and no further intervention was required. Pip marked the Care Plan **Completed** and recorded the outcome.
-
-Marie could look back from the first suspicious spots to the successful recovery and understand what had happened and why each decision had been made.
-
-# Chapter 4 — Understanding Before Pruning
-
-As spring turned to summer and then autumn, Pip quietly supported Marie as she cared for Sarah’s Rose. It offered timely reminders, explained why deadheading encouraged repeat flowering and taught her how to recognise and remove spent blooms. Marie added photographs, questions and observations to the Garden Journal.
-
-Most interactions were brief. Some simply reassured her that Sarah’s Rose was developing as expected.
-
-Marie changed too. Instead of worrying whenever she noticed something different, she looked more carefully. She recognised healthy new growth, understood why spent blooms were removed and had begun to notice how the rose’s framework developed.
-
-She no longer felt like someone who simply owned a rose. She felt like someone learning to understand it.
-
-At the beginning of winter, Marie received the reminder she had accepted when Sarah’s Rose was first added:
-
-> **It’s time to assess Sarah’s Rose for dormant-season pruning.**
->
-> Sarah’s Rose appears to be dormant, and the timing is suitable for the rose and Marie’s local conditions. Would you like to assess its structure together before deciding what, if anything, should be pruned?
-
-Marie smiled. Pruning had once felt intimidating. She had worried about removing the wrong branch or damaging the plant. Now she felt curious.
-
-Before beginning, Pip confirmed the season, Marie’s location, the rose’s recent growth and whether it showed signs that made pruning inappropriate or uncertain. If the available information did not support pruning, Pip would explain why, defer the session and help Marie decide what to observe or when to return.
-
-Pip then explained that pruning was not simply about removing branches. It was about understanding how the rose grew and helping it develop into a healthy, balanced plant.
-
-Before discussing a cut, Pip taught Marie how to examine Sarah’s Rose from the base upward. It explained the difference between dead and living wood and asked Marie to check colour, flexibility and the condition beneath a small surface scratch where that was safe and appropriate. It helped her look for thick framework canes, vigorous new basal shoots, weak or damaged stems, crossing growth and stems growing into the centre.
-
-Marie walked around the rose and described what she found. Pip asked one clear question at a time and explained why each feature mattered. When Marie was unsure whether two stems crossed or merely overlapped from her viewpoint, Pip asked her to move around the plant and trace each stem with her eyes. She could add photographs from each side to preserve the structure she was learning to see.
-
-Pip reflected the emerging assessment back to her. Marie corrected anything it had misunderstood.
-
-For the first time, the rose began to make sense. Instead of a tangle of branches, Marie began to see an organised, living structure.
-
-Pip explained that experienced gardeners did not begin by asking:
-
-> “What should I cut?”
-
-They began by asking:
-
-> “What am I looking at?”
-
-Marie smiled. Only a few months earlier, she would have wanted Pip simply to tell her where to cut. Now she found herself studying the framework before thinking about pruning.
-
-Pip concluded:
-
-> “Today you’ve identified the main structure of Sarah’s Rose and recorded what you can see. Next, we can use that understanding to make a pruning plan together, with the reason for every choice explained before you begin.”
-
-Marie saved the structural assessment and scheduled the next session. As she walked back towards the house, she glanced at Sarah’s Rose once more. She was becoming ready to prune because she understood what she was looking at.
-
-# Chapter 5 — Making the First Cut
-
-Marie returned to the garden with her gloves, secateurs and phone. This time she felt prepared—not because she had memorised a list of instructions, but because she understood the structure of Sarah’s Rose.
-
-The reminder opened the saved structural assessment:
-
-> “Welcome back, Marie. Last time, we explored the structure of Sarah’s Rose. Today, we’ll use what you recorded to make a pruning plan. We’ll consider every choice before you begin.”
-
-Pip first helped Marie prepare: clean, sharp secateurs; suitable gloves and eye protection; a stable working position; and a clear way to dispose of diseased material. It reminded her to stop if she could not confidently trace or identify a cane, if a cut would require unsafe reach or force, or if the rose presented a condition outside the supported guidance. In those cases, Pip would help her defer the cut or seek experienced assistance.
-
-It began with the dead cane Marie had identified. Pip asked her to confirm the signs again and explained:
-
-> “A dead cane cannot produce healthy growth or flowers. Removing it makes space for healthy growth and removes damaged material from the framework.”
-
-Marie looked at the cane, checked the signs and made the cut. Pip asked whether it was complete, and Marie recorded **Yes**.
-
-Next they considered an inward-growing stem Marie had described during the assessment. Marie hesitated and asked why it might be removed.
-
-Pip explained that growth into the centre could create congestion, rubbing and poorer airflow as the plant developed. It asked Marie to trace where the stem began, where it was heading and whether it was crossing another healthy stem. Marie checked the actual rose and answered.
-
-Pip helped her compare the supported choices. Marie decided to remove it and understood her reason for doing so.
-
-They continued in the same way. Before each proposed cut, Marie identified the cane on the actual rose, confirmed the relevant observation and heard the reason for the choice. Some choices were straightforward. Others prompted questions. Pip explained the reasoning in plain language and, where more than one approach was horticulturally acceptable, explained the alternatives, including leaving the cane alone. Marie decided what she was comfortable doing and recorded each completed action.
-
-Pip did not infer a safe cut from a photograph or treat uncertainty as permission to proceed. When Marie could not confirm the structure, the cut remained deferred.
-
-When she finished, Marie photographed Sarah’s Rose again. The before-and-after photographs sat together in its Garden Journal. Marie could see that the centre was more open and the framework easier to understand because she knew what had changed and why.
-
-Pip created a pruning follow-up:
-
-## Care Plan
-
-**Care activity:** Winter pruning  
-**Status:** Completed  
-**Next review:** Early spring  
-**Objective:** Observe how Sarah’s Rose responds and confirm that healthy new growth develops as expected.
-
-Pip explained:
-
-> “Today’s pruning is only the beginning. The real measure will be how Sarah’s Rose responds. We’ll review the new growth together in spring and keep learning from what happens.”
-
-Marie accepted the follow-up reminder.
-
-Only a few months earlier, she would have stood beside the rose wondering which branches to cut. Now she understood why every cut had been made. Ask Pip had not simply told her where to prune. It had taught her how to think like a gardener.
-
-# Continuation Journey
-
-The following chapters describe required continuation scenarios for Bush Rose V1. They shall remain compatible with the initial implementation and guide later implementation, but they are outside the Chapters 1–5 initial build boundary.
-
-# Chapter 6 — The Garden Journal
-
-As winter eased, Marie noticed tiny buds swelling along several canes. She smiled. It was what Pip had helped her expect.
-
-Standing beside Sarah’s Rose, she thought back to the day her sister had given it to her. What had begun as a thoughtful gift had become part of her garden and part of her life.
-
-Marie opened Sarah’s Rose in the Garden Journal and began scrolling.
-
-The first entry held the cultivar and nursery-label information she had entered, the personal words she had written about Sarah and the photographs taken when the rose was newly planted. She remembered how uncertain she had felt and how little she had known about what to ask.
-
-The next entries showed the first signs of black spot. Alongside Marie’s photographs were her descriptions, Pip’s questions, the changing assessment, the care choices she had considered and the treatment she had completed. Each reminder and review followed until the disease was under control and the Care Plan closed.
-
-Further down were summer flowers, Marie’s notes, deadheading reminders and short explanations of what she had learned.
-
-Then came the winter structural assessment and pruning session: what Marie had seen, the questions she had asked, the choices she had made, the reasons for them and the before-and-after photographs.
-
-Nothing stood alone. The black-spot assessment led to a Care Plan. The completed plan became part of Sarah’s Rose’s history. The structural assessment became the basis of Marie’s pruning choices. The pruning record explained why she was now watching for spring growth.
-
-Every observation, explanation, decision and outcome told one continuing story.
-
-Marie compared the first photograph of Sarah’s Rose with the latest one. The framework was stronger, the centre more open and swelling buds promised another season of growth.
-
-The rose was not the only thing that had changed. Marie no longer saw a collection of branches. She saw a living plant with a history she understood.
-
-The Garden Journal was not simply storing information. It was preserving the memory of Sarah’s Rose and helping Marie understand what came next.
-
-# Chapter 7 — Asking Questions
-
-Spring arrived. Fresh green leaves unfolded, and vigorous shoots appeared throughout Sarah’s Rose.
-
-One morning, Marie noticed that several of the youngest shoots were a rich crimson red. The leaves looked healthy and were opening normally, but she wondered whether the colour was normal.
-
-Instead of searching through conflicting generic advice, Marie opened Sarah’s Rose and asked:
-
-> “Why are the new shoots on Sarah’s Rose red?”
-
-Pip replied:
-
-> “That’s a good observation. Are all the new shoots red, or only the youngest ones?”
-
-Marie looked again.
-
-**Only the youngest ones.**
-
-> “Do the leaves appear healthy, and are they opening normally?”
-
-**Yes.**
-
-Pip asked whether the colour was even across the tender growth and whether Marie could see distortion, spots or damaged edges. Marie checked and answered. She added a close-up photograph to the journal for her own record.
-
-Using Marie’s confirmed description, the season, Sarah’s Rose’s cultivar information and approved knowledge, Pip explained that many bush roses produce red, bronze or copper-coloured young growth. Natural pigments can protect tender leaves while they develop, and the foliage usually becomes greener as it matures.
-
-Marie looked back at Sarah’s Rose. What had seemed unusual now made sense.
-
-She asked whether all bush roses produced red new shoots. Pip explained that colour differed among cultivars and could also vary with growing conditions.
-
-Marie added the question and explanation to the Garden Journal. She had not opened Ask Pip because something was wrong. She had opened it because she wanted to understand a little more about the plant in her own garden.
-
-# Chapter 8 — Growing Understanding
-
-Almost a year had passed since Sarah arrived with the potted rose.
-
-The plant had become a beautiful feature in Marie’s garden. Its framework was balanced, healthy foliage filled the plant and new flowering stems carried blooms in the spring breeze.
-
-Marie understood the story behind them. Every season had brought its lessons. Every photograph, question, care choice, pruning cut and reminder had become part of Sarah’s Rose’s journey.
-
-When Sarah visited, she stopped in front of the rose.
-
-> “I can’t believe that’s the same rose. It’s beautiful.”
-
-Marie smiled.
-
-Sarah looked through the centre of the bush.
-
-> “It’s so open compared with when I bought it.”
-
-Marie nodded.
-
-> “I know why now.”
-
-She pointed out the main framework and explained why one older cane had mattered and why another stem had been removed.
-
-Sarah looked surprised.
-
-> “You’ve become quite the gardener.”
-
-Marie shook her head.
-
-> “I’m still learning. But now I understand what I’m looking at.”
-
-Sarah asked what had changed.
-
-Marie thought for a moment.
-
-> “Pip never just told me what to do. It explained why. It asked me questions and helped me notice things I would have missed. Every time I learned something, it became easier to understand Sarah’s Rose.”
-
-Sarah nodded.
-
-> “So it taught you.”
-
-> “It taught me to become a better gardener.”
-
-Sarah mentioned a rose at home that was looking unhappy.
-
-Marie smiled.
-
-> “A year ago, I would have guessed what was wrong. Now I’d start by asking questions. I’d look closely, describe what I found and let Pip help me understand it.”
-
-> “So it doesn’t replace the gardener?” Sarah asked.
-
-> “No. It helps the gardener grow.”
-
-The sisters stood together looking at Sarah’s Rose.
-
-Marie remembered entering the nursery-label information, worrying over black spot, following each reminder, making her first pruning cut with nervous hands, opening the Garden Journal and asking questions simply because she was curious.
-
-Sarah’s Rose had grown stronger over the year. So had Marie.
-
-Ask Pip had helped one gardener grow in understanding, one conversation at a time.
-
----
-
-# Initial MVP Acceptance Criteria
-
-The initial implementation is demonstrated when:
-
-1. Marie can create Sarah’s Rose as an individual Bush Rose Profile with its chosen name, known cultivar information, optional personal meaning and continuing history.
-2. Marie can complete guided observation, confirmation, reasoning, care choice, recorded action and follow-up for the black-spot episode.
-3. A gardener adding an existing dormant bush rose can enter the pruning journey without completing the earlier chronological episodes.
-4. Ask Pip establishes whether dormant-season pruning is appropriate using the available rose context, local conditions and approved operational knowledge; otherwise it defers guidance and explains the next step.
-5. Marie can assess the rose’s structure through guided observation before planning a cut.
-6. Pip explains why, when and how each supported pruning choice may apply and presents leaving, deferring or seeking experienced help where appropriate.
-7. Marie confirms the relevant structure on the actual rose before each cut and remains the decision-maker.
-8. The product does not infer a safe cut from an uninterpreted photograph or proceed where Marie cannot confirm the structure.
-9. Planned pruning, completed cuts, deferred choices, photographs, reasons and follow-up remain distinguishable in Sarah’s Rose’s history.
-10. The pruning journey ends with a recorded outcome and an optional follow-up linked to the same care cycle.
-
-# Founder Review Decisions
-
-Before this journey becomes an approved input to the implementable specification, the Founders shall determine:
-
-1. whether Chapters 1–5 accurately define the initial MVP implementation;
-2. whether Chapters 6–8 accurately define the approved continuation journey;
-3. the approved version; and
-4. the permanent PIP CORE location.
+1. the exact structural conditions and pruning choices supported;
+2. the verified comparison material required for each observation;
+3. the precise pruning-suitability and safety questions;
+4. the follow-up timing and indicators;
+5. the prototype success thresholds;
+6. the approved version; and
+7. the permanent PIP CORE location.
 
 ---
 

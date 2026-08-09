@@ -10,467 +10,235 @@
 **Last Updated:** 9 August 2026  
 **Working Location:** `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`  
 **Proposed Permanent Location:** Founder decision required  
-**Purpose:** To define the bounded first implementation of Ask Pip for Bush Rose V1, including guided plant-health care and end-to-end dormant-rose pruning guidance, while preserving the complete continuation journey and the boundaries an implementable specification must follow.  
-**Authority Source:** Founder-approved Founder Direction Brief – Guided Bush Rose MVP  
-**Related Documents:** `Foundations/AskPIP_Vision_Statement.md`; `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`
+**Purpose:** To define the bounded first implementation of Ask Pip: guided dormant-bush-rose pruning that naturally creates an individual plant history and supports one meaningful follow-up.  
+**Authority Source:** Founder-approved direction to use dormant-bush-rose pruning as Ask Pip's first task and automatic plant history as the beginning of the continuing companion relationship.  
+**Related Documents:** `Foundations/AskPIP_Vision_Statement.md`; `Foundations/Maries_Story.md`; `Working/Drafts/Foundations/AskPIP_Vision_Statement.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`
 
 ---
 
 # 1. Purpose
 
-This document defines the architecture for the first bounded minimum viable product (MVP) implementation of the Ask Pip application. Bush Rose V1 is the application's first supported Plant Profile type and plant-knowledge domain.
+This document defines the first bounded minimum viable product (MVP) implementation of Ask Pip.
 
-The MVP shall help a gardener observe, understand and care for individual bush roses over time through guided questions, trusted knowledge, contextual information and a continuing Bush Rose Profile history. Guided care includes learning why, when and how to consider pruning through gardener-led observation and supported choices.
+The first implementation shall test whether Pip can help a beginner examine an existing dormant bush rose, understand supported pruning choices, decide safely what to cut or leave and learn from the plant's response.
 
-This architecture establishes:
+The same useful interaction shall begin the rose's continuing history automatically. When the gardener returns, Pip shall remember the recorded session and use it to support the follow-up.
 
-- the product outcome;
-- the principal system boundaries;
-- the Garden Journal and Plant Profile hierarchy;
-- the role of photographs in evidence and plant history;
-- the separation between evidence, observations, reasoning, guidance and plant history;
-- the gardener's role and the use of approved knowledge;
-- the continuing observation and follow-up cycle;
-- the permitted first-MVP image capabilities; and
-- the integration boundary for future plant-image analysis.
+This architecture defines the product boundary and required information relationships. It does not select software technologies, artificial-intelligence models, providers or detailed implementation methods.
 
-This document does not select software technologies, artificial-intelligence models, image-analysis providers or detailed implementation methods. Those decisions belong to later technical design and specification work.
+# 2. Product Hypothesis
 
-# 2. Founder-Approved Direction
+The first MVP shall test two connected claims:
 
-The Ask Pip application shall first support Bush Rose V1 as a bounded guided-care implementation that helps a gardener observe, understand and care for individual bush roses over time.
+1. Pip can help a beginner make or defer supported dormant-bush-rose pruning decisions with greater understanding.
+2. The record created during that useful experience makes Pip more personal and valuable when the gardener returns.
 
-The gardener shall remain the primary observer. Ask Pip shall help the gardener:
+Pruning is the immediate reason to use Ask Pip. The individual plant history provides continuity after the task.
 
-- know what to notice;
-- describe observations carefully;
-- understand what supported observations may mean;
-- distinguish possibilities from established conclusions;
-- preserve photographs and other evidence in the history of the correct rose;
-- record decisions and actions; and
-- return to the outcome.
+The gardener shall not be asked to maintain a journal as a separate activity. Photographs, observations, explanations, decisions, actions and outcomes created through the pruning journey shall form the rose's history automatically.
 
-The first MVP may use photographs for capture and recordkeeping. Image-based reading of visible information such as text on a plant label is an optional enhancement and shall not be required for the complete MVP journey. Advanced plant-image analysis shall be treated as a future source of proposed observations. It shall not become the foundation upon which plant records, knowledge-based reasoning, guidance or follow-up depend.
+# 3. Required Journey
 
-# 3. MVP Product Outcome
+For one existing dormant bush rose, the gardener shall be able to:
 
-The MVP shall enable a gardener to understand and care for individual bush roses through a continuing guided-care cycle informed by each rose’s identity, observations, evidence, care history and outcomes.
+1. create a minimal Bush Rose Profile;
+2. record a baseline photograph and the context required to assess pruning suitability;
+3. understand why, when and how dormant bush roses are pruned;
+4. confirm whether the supported pruning journey is appropriate for this rose now;
+5. examine the rose through guided observation and verified comparison material;
+6. consider a bounded set of supported pruning choices;
+7. choose to cut, leave, defer or seek experienced help;
+8. record planned, completed and deferred actions;
+9. save an automatic pruning-session summary with before-and-after photographs where supplied;
+10. return for one follow-up that refers to the earlier session; and
+11. record the rose's response and the gardener's reported outcome.
 
-For at least one Bush Rose Profile, the gardener shall be able to complete a full guided-care cycle:
+The journey shall support direct entry by a gardener who needs pruning help now. It shall not require an earlier care episode, simulated chronology or pre-existing Garden Journal.
 
-1. add and describe the rose;
-2. begin or continue its photographic and written record;
-3. learn what is relevant to expect;
-4. complete a guided observation;
-5. understand supported possibilities and uncertainty;
-6. record a decision or defer action;
-7. receive relevant follow-up guidance and optional reminders; and
-8. record the outcome in the Bush Rose Profile's history.
+# 4. Product Principles
 
-The initial implementation shall deliver Chapters 1–5 of Marie’s selected journey. It shall include guided black-spot care and an end-to-end dormant-season pruning journey that helps the gardener understand how, why and when to prune, assess the actual rose, compare supported choices, record completed or deferred actions and return for follow-up.
+## 4.1 Guided Understanding
 
-The product shall support at least two entry conditions:
+Pip shall ask one clear question at a time, explain unfamiliar terms and provide verified comparison material where it is needed to help a beginner observe the actual rose.
 
-- a newly added rose requiring general or plant-health guidance; and
-- an existing dormant bush rose whose gardener wants pruning guidance immediately.
+The experience shall explain the reason for each supported choice. It shall help the gardener understand the plant rather than merely issue instructions.
 
-A gardener shall not be required to complete Marie’s chronology or wait for a simulated seasonal transition before entering a supported pruning journey.
+## 4.2 Gardener Confirmation and Control
 
-The MVP succeeds as a product demonstration when that complete cycle can operate without requiring automated interpretation of the rose's physical appearance.
+The gardener remains the primary observer and decision-maker.
 
-# 4. Architectural Principles
+Before every cut, the gardener shall identify and confirm the relevant structure on the actual rose. Pip shall not infer a safe cut from an uninterpreted photograph.
 
-## 4.1 Guided Observation
+Where the structure, timing, plant context or safe working conditions cannot be established, Pip shall support leaving the cane alone, deferring the choice or seeking experienced help.
 
-Ask Pip shall guide the gardener to produce useful observations through structured questions and verified comparison material.
+## 4.3 Individual Plant Memory
 
-The system shall not depend on the gardener already knowing specialist horticultural terminology. Where terminology is useful, Ask Pip shall explain it in language the gardener can understand and apply.
+Pip shall remember information recorded about the individual rose and use relevant history when the gardener returns.
 
-## 4.2 Separation of System Elements
+The product shall distinguish this personal memory from general platform learning. User records shall not automatically become trusted horticultural knowledge, model-training material or general research data. Any later use beyond the gardener's own service requires appropriate consent, privacy controls and governed validation.
 
-Evidence, observations, reasoning, guidance and plant history shall remain distinguishable.
+## 4.4 Automatic History
 
-This separation shall prevent:
+The plant history shall be created as a by-product of useful interaction.
 
-- raw evidence from being treated automatically as an observation;
-- an uploaded but uninterpreted photograph from being treated as proof of a reported observation;
-- an observation from being treated automatically as a diagnosis;
-- a possible interpretation from being presented as an established conclusion;
-- guidance from obscuring the evidence and reasoning that support it; and
-- future image-analysis technology from controlling the rest of the product.
+The gardener shall not need to repeat information already captured during the session. The history shall preserve what was observed, explained, decided, completed, deferred and later reported.
 
-## 4.3 Approved Knowledge
+## 4.5 Honest Evidence and Uncertainty
 
-Ask Pip shall use only horticultural knowledge authorised for operational use by the Plant Intelligence Platform (PIP).
+Evidence, gardener-confirmed observations, reasoning, guidance, decisions, actions and outcomes shall remain distinguishable.
 
-Product reasoning shall remain distinguishable from the approved knowledge on which it relies. The product shall preserve sufficient references to identify the operational knowledge used for a material assessment or guidance response.
+An uploaded photograph shall remain evidence. Unless it has been interpreted through an authorised capability and confirmed where required, it shall not be treated as proof of a condition or safe cut.
 
-## 4.4 Individual Plant Context
+Pip shall state material limitations and uncertainty. It shall request more information, limit guidance, defer or recommend experienced assistance when the available information does not support proceeding.
 
-Guidance shall be informed by the information available about the particular rose, including relevant profile information, location, season, prior observations, photographs, recorded decisions, actions and outcomes.
+## 4.6 Approved Knowledge
 
-The absence of relevant context shall not be concealed. Ask Pip shall request additional information, state uncertainty, limit or defer guidance, or identify when expert assistance may be appropriate.
+Pip shall use only horticultural knowledge authorised for operational use by the Plant Intelligence Platform (PIP). Material guidance shall retain sufficient reference to identify the operational knowledge used.
 
-## 4.5 Continuing Plant History
+# 5. First-MVP Boundary
 
-Each Plant Profile history shall preserve the relationships between evidence, observations, guidance, decisions, actions, follow-ups and outcomes so later guidance can use what has already been learned.
-
-Plant Profile histories shall remain distinct unless the gardener intentionally creates an explicit relationship between them.
-
-## 4.6 Encouraged but Optional Photography
-
-A gardener may complete every guided-care activity without supplying a photograph.
-
-Ask Pip shall explain the practical value of photographs at relevant points, including where applicable:
-
-- creating a visual history that supports comparison over time and across seasons;
-- preserving supporting evidence alongside the gardener's observation;
-- recording labels and other visible information;
-- connecting before-and-after records with care actions and outcomes;
-- supporting appropriate review and future authorised photographic analysis.
-
-Guidance shall reflect the evidence available and identify material limitations.
-
-## 4.7 AI-Powered but Provider-Adaptable
-
-Ask Pip shall provide artificial-intelligence-powered, provider-adaptable interaction through Pip.
-
-Pip’s identity, approved knowledge, plant records, evidence history, operating rules and safeguards shall remain governed components of PIP.
-
-The product shall be designed so suitable artificial-intelligence models, image-reading technologies and external providers may be adopted, combined or replaced without requiring the loss or reconstruction of:
-
-- Pip's governed identity and behaviour;
-- Plant Profile histories, photographs and associated data;
-- approved operational knowledge and evidence and reasoning history;
-- guidance and follow-up records; or
-- operating rules and product safeguards.
-
-## 4.8 Gardener Confirmation of Extracted Information
-
-Where the MVP uses a photograph to read visible information, such as text on a nursery label, the result shall remain proposed information until the gardener confirms or corrects it. The original photograph, proposed reading and confirmed or corrected value shall remain distinguishable where the difference is material.
-
-# 5. Product Boundaries
-
-## 5.1 Included in the First MVP
+## 5.1 Included
 
 The first MVP shall include:
 
-- the Garden Journal and Plant Profile hierarchy defined in Section 7;
-- optional capture and storage of multiple gardener-supplied photographs, including multiple views and before-and-after sequences, as linked evidence and historical records;
-- relevant explanations of the value of photographs to the gardener and continuing plant record;
-- manual entry of all relevant label, cultivar, location and planting information supplied through reliable records or gardener input;
-- gardener-supplied observations captured through guided questions;
-- verified reference material where required to help the gardener observe or compare;
-- contextual answers grounded in approved operational knowledge with material uncertainty stated explicitly;
-- a guided black-spot care episode that uses gardener-confirmed observations and individual plant context to explain when the reported pattern is consistent with rose black spot, provide practical supported care choices and assess the outcome at follow-up;
-- guided pruning education that helps the gardener understand how, why and when to consider pruning;
-- confirmation that dormant-season pruning is appropriate for the individual rose and local context before cut planning begins;
-- gardener-led pruning assessment using profile context, approved operational knowledge and gardener-confirmed observations;
-- supported pruning choices, safe preparation, decisions, deferred choices, completed actions and outcomes;
-- a requirement that the gardener identify and confirm the relevant structure on the actual rose before acting;
-- clear boundaries for leaving a cane alone, deferring a cut or seeking experienced assistance when structure, timing or safety cannot be established;
-- recording of decisions, deferred decisions, care actions and outcomes;
-- optional, gardener-controlled reminders linked to the relevant Plant Profile and care cycle; and
-- follow-up guidance that continues from an earlier interaction.
+- one gardener and one individual Bush Rose Profile;
+- the gardener's chosen rose name and optional personal meaning;
+- minimal location, season, rose-type and recent-condition context needed for pruning suitability;
+- optional baseline, structural, after-pruning and follow-up photographs;
+- manual entry of any relevant label or cultivar information;
+- pruning suitability and safe-preparation checks;
+- guided observation of a limited, approved set of structural conditions;
+- verified reference illustrations or comparisons needed by beginners;
+- explanations of how, why and when supported pruning choices apply;
+- cut, leave, defer and seek-help choices;
+- a simple pruning plan;
+- confirmation of completed and deferred actions;
+- an automatically generated session history and plain-language summary;
+- one optional follow-up prompt or reminder linked to the pruning session;
+- a follow-up that compares the gardener's new report with the earlier session; and
+- a short measure of understanding, confidence and willingness to return.
 
-## 5.2 Deferred from the First MVP
+## 5.2 Deferred
 
-The first MVP shall not claim to:
+The first MVP shall defer:
 
-- diagnose a rose from photographs;
-- determine overall plant health merely from appearance;
-- identify invisible or ambiguous conditions;
-- identify a cultivar from the rose's physical appearance;
-- represent text extracted from a label as independent visual identification of the plant;
-- provide automated cut-by-cut pruning overlays;
-- infer or prescribe a safe pruning cut from an uninterpreted photograph;
-- proceed with a pruning cut where the gardener cannot confirm the relevant structure, timing or safe working conditions;
-- provide automated label transcription as a required first-implementation capability;
-- treat something not visible in a photograph as absent; or
-- present uncertain possibilities as established conclusions.
+- black-spot assessment and care;
+- a complete year-long journey;
+- multiple plant types;
+- a complete multi-plant Garden Journal experience;
+- general plant questions;
+- automated diagnosis from photographs;
+- cultivar identification from plant appearance;
+- automated pruning overlays or cut-by-cut image instructions;
+- automated label transcription as a required capability;
+- complex reminder or notification infrastructure;
+- multiple Care Plan types;
+- collective learning from user records;
+- provider-switching abstractions beyond preserving the gardener's records in provider-independent product data; and
+- evidence, reasoning or audit structures beyond those required to preserve the pruning journey truthfully.
 
-These capabilities remain possible future additions. Their inclusion shall require separate validation, specification and Founder approval.
+These are possible later capabilities, not commitments of the first MVP.
 
-# 6. Logical Architecture
+# 6. Minimum Information Model
 
 ## 6.1 Bush Rose Profile
 
-Each Bush Rose Profile shall hold the relatively stable identity and context of the individual bush rose it represents.
+The Bush Rose Profile shall hold:
 
-It may include:
+- the rose's chosen name;
+- optional personal meaning;
+- known rose-type, cultivar or label information and its source;
+- relevant location and planting context;
+- selected photographs; and
+- links to its pruning session and follow-up.
 
-- the gardener's chosen name for the rose;
-- reliable cultivar or label information;
-- planting or acquisition information supplied by the gardener;
-- relevant location information;
-- the gardener's account of why the rose matters;
-- selected profile photographs, including a label photograph where available.
+## 6.2 Pruning Session
 
-Information shall retain its source where source affects reliability. A gardener-confirmed label transcription shall remain distinguishable from a cultivar inferred from appearance, which is outside the first MVP boundary.
+The pruning session shall preserve:
 
-## 6.2 Evidence
+- the rose and gardener concerned;
+- timing and pruning-suitability context;
+- gardener-confirmed observations;
+- photographs and their stated purpose;
+- explanations and choices presented;
+- the gardener's planned, completed, left and deferred choices;
+- reasons recorded for material choices;
+- safety or uncertainty boundaries encountered; and
+- a session summary.
 
-Evidence shall preserve the source material from which observations or context are obtained.
+## 6.3 Follow-Up
 
-Evidence may include:
+The follow-up shall preserve:
 
-- gardener answers;
-- gardener-written notes;
-- nursery labels and label photographs;
-- dates;
-- location information;
-- photographs;
-- imported records; and
-- previous journal records.
+- the earlier pruning session being reviewed;
+- the reason and timing for returning;
+- what the gardener is asked to observe or photograph;
+- the gardener's reported response of the rose;
+- any comparison with the earlier record;
+- the resulting guidance or next step; and
+- the gardener's assessment of whether Pip's memory and guidance were useful.
 
-An evidence item shall remain identifiable independently of any later interpretation made from it.
+## 6.4 Photographs
 
-## 6.3 Photographic Record
+Photographs shall remain linked to the correct rose and event. The record shall distinguish baseline, structural, after-pruning and follow-up purposes; retain the original image wherever practical; and keep any later human or machine interpretation separate from the original.
 
-Gardener-supplied photographs shall form part of the evidence and historical record for the correct Plant Profile. The product shall support links to relevant observations, questions, decisions, care actions, follow-ups and outcomes.
+Photograph capture is encouraged because it strengthens comparison and continuity, but absence of a photograph shall not by itself prevent a journey that can otherwise proceed safely from gardener-confirmed observations.
 
-The photographic record shall support:
+# 7. Safety and Guidance Boundary
 
-- multiple photographs for an event where useful;
-- whole-plant, plant-area, detail and label views;
-- capture date and, where different, upload date;
-- the gardener's description of the subject, viewpoint or purpose;
-- links between before, during, after and follow-up photographs;
-- preservation of the original image wherever practical;
-- retention of gardener notes or annotations without altering the original image;
-- separation of the original image from later machine or human interpretations; and
-- later authorised analysis of photographs already retained.
+Before pruning guidance proceeds, Ask Pip shall establish the supported rose type, appropriate timing, relevant plant condition and safe working context to the degree required by approved operational knowledge.
 
-Photograph metadata shall be limited to information needed for the gardener's record and approved PIP purposes. Privacy, consent, retention and any use beyond the individual gardener's service shall be defined before implementation. Storage in a Plant Profile history shall not by itself authorise use for model training or general research.
+The first journey shall be limited to pruning choices approved for this bounded implementation. It shall not claim that every rose, cane or pruning situation can be resolved.
 
-## 6.4 Optional Visible-Information Extraction
+Pip shall stop or defer the affected choice when:
 
-The MVP may use an available image-reading capability as an optional enhancement to propose a transcription of visible information supplied by the gardener, including printed or handwritten text on a plant label, nursery tag or plant passport. The gardener shall be able to enter all such information manually, and omission or technical unavailability of label reading shall not block any part of the complete MVP journey.
+- the rose is outside the supported type or condition;
+- pruning timing is inappropriate or materially uncertain;
+- the gardener cannot identify or trace the relevant structure;
+- the observation does not support the proposed choice;
+- safe access, equipment or working conditions are absent; or
+- the situation falls outside approved operational knowledge.
 
-The interaction shall allow the gardener to:
+# 8. Validation Measures
 
-- confirm the proposed reading;
-- correct it;
-- enter the information manually; or
-- state that it cannot be determined.
+The prototype shall collect enough evidence to determine:
 
-Where material, the record shall preserve:
+- whether beginners can complete the supported journey;
+- where they become unable to identify the requested structure;
+- whether they understand the reason for their choices;
+- whether they use cut, leave, defer and seek-help options appropriately;
+- whether the automatic history feels useful rather than burdensome;
+- whether Pip's reference to the earlier session makes the follow-up feel personal and continuous;
+- whether users would return with the same rose, another plant or another care question; and
+- whether they prefer the experience to ordinary written guidance or a general artificial-intelligence conversation.
 
-- the original image;
-- the information detected or proposed by the system;
-- the gardener's confirmation or correction; and
-- the value ultimately used in the Bush Rose Profile.
+These measures test the product hypothesis. They do not by themselves establish commercial viability or horticultural safety for unrestricted public release.
 
-Reading visible text from a supplied image shall not be represented as plant identification, cultivar recognition, plant assessment, diagnosis or recognition of the rose from its physical appearance.
+# 9. Initial MVP Acceptance Criteria
 
-## 6.5 Structured Observations
+The first implementation is demonstrated when:
 
-An observation shall be a structured statement about what has been reported or otherwise supported by evidence.
+1. A gardener can create one individual Bush Rose Profile and start the pruning journey without prior history.
+2. Ask Pip can establish whether the supported dormant-pruning journey is appropriate for the rose and local context or explain why it should be deferred.
+3. The gardener can examine a bounded set of structural conditions through guided questions and verified comparison material.
+4. Pip explains how, why and when each supported choice may apply.
+5. The gardener confirms the relevant structure on the actual rose before every cut and remains the decision-maker.
+6. Cut, leave, defer and seek-help choices are available and recorded truthfully.
+7. The product does not infer a safe cut from an uninterpreted photograph or proceed when the required structure cannot be confirmed.
+8. The useful interaction automatically creates a session history containing the relevant observations, explanations, decisions, actions and photographs.
+9. The gardener can return for one linked follow-up, and Pip refers accurately to the earlier session.
+10. The follow-up records the rose's reported response and whether the gardener found the remembered context useful.
 
-Each material observation shall be capable of recording:
+# 10. Founder Review Decisions
 
-- the subject of the observation;
-- the observation itself;
-- its source;
-- the supporting evidence;
-- when it was recorded;
-- any material limitations;
-- its confirmation state; and
-- confidence where an applicable approved standard requires or permits it.
+Before this Draft becomes an approved input to an implementable specification, the Founders shall determine:
 
-The initial source categories shall support at least:
-
-- gardener-reported;
-- imported record; and
-- system inference.
-
-An observation shall also be capable of recording whether the gardener linked photographic evidence and whether that evidence has been reviewed or interpreted. A supplied but uninterpreted photograph shall not be described as verifying the gardener's report.
-
-The architecture shall permit a future `photograph-derived` source without changing the observation structure.
-
-## 6.6 Knowledge-Based Reasoning
-
-Reasoning shall evaluate supported observations and relevant plant context using approved operational knowledge.
-
-The reasoning process shall be able to distinguish:
-
-- what the evidence supports;
-- what remains possible;
-- what has not been established;
-- what additional information may help; and
-- whether guidance should proceed, be limited, be deferred or recommend expert assistance.
-
-Reasoning outputs shall not silently alter the underlying evidence or observations.
-
-## 6.7 Guidance
-
-Guidance shall communicate the practical result of the supported reasoning to the gardener.
-
-Guidance may:
-
-- explain relevant knowledge;
-- explain supported possibilities, uncertainty and limitations;
-- suggest what to observe next;
-- teach the gardener what to look for and why it matters when considering pruning;
-- present and compare supported care options;
-- explain a supported likely cause with honest confidence when the available observations and approved knowledge justify useful guidance;
-- provide practical black-spot care guidance, including the purpose of each supported action and the circumstances in which further help is appropriate;
-- explain when and why a photograph may improve the record or later assessment; and
-- invite the gardener to record a decision or defer action.
-
-Guidance shall not imply that the gardener completed an action until completion is recorded.
-
-## 6.8 Decisions and Actions
-
-The product shall distinguish between:
-
-- guidance offered;
-- a decision made by the gardener;
-- a decision intentionally deferred;
-- an action planned;
-- an action reported as completed; and
-- an outcome later observed.
-
-## 6.9 Garden Journal
-
-The Garden Journal shall present and organise Plant Profile histories in accordance with Section 7.
-
-Plant Profile history entries may link:
-
-- evidence;
-- photographs and their contextual data;
-- observations;
-- questions and answers;
-- reasoning outcomes;
-- guidance;
-- decisions;
-- care actions;
-- follow-up arrangements; and
-- observed outcomes.
-
-Each entry shall remain within the correct Plant Profile history and preserve any relevant relationship to an earlier event that prompted it.
-
-## 6.10 Follow-Up and Reminders
-
-Follow-up shall continue an existing care or observation cycle rather than begin an unrelated interaction.
-
-Ask Pip shall offer reminders when timing matters, including a chosen time to revisit an observation or consider seasonal pruning. Reminders shall be optional. The gardener shall be able to choose, change or cancel them. Opening a reminder shall return the gardener to the relevant Plant Profile and resume the care cycle it concerns. If notification delivery is unavailable or declined, the care cycle shall remain accessible from the Plant Profile and Garden Journal.
-
-A follow-up record shall identify:
-
-- the Bush Rose Profile concerned;
-- the earlier observation, decision or action being reviewed;
-- the reason for returning;
-- what the gardener is asked to observe, photograph or report;
-- the relevant follow-up timing or condition; and
-- the resulting outcome when recorded.
-
-# 7. Core Information Relationships
-
-The minimum required relationships are:
-
-- each gardener has one continuing Garden Journal;
-- one Garden Journal contains one or more Plant Profiles;
-- the MVP initially supports Bush Rose Profiles as a Plant Profile type;
-- each Bush Rose Profile represents one individual bush rose;
-- the same Garden Journal may contain other Plant Profile types when they are added later;
-- each Plant Profile maintains its own continuing history;
-- one Plant Profile history contains multiple linked entries;
-- one profile-history entry may contain or reference multiple evidence items, including photographs;
-- one photograph may be linked to its Plant Profile and to one or more relevant events in that profile's history;
-- one evidence item may support one or more observations;
-- one observation may be considered by one or more reasoning assessments;
-- one reasoning assessment may produce one or more guidance items;
-- one guidance item may lead to a gardener decision, a deferred decision or no recorded decision;
-- one decision may lead to one or more planned or completed actions;
-- an observation, decision or action may create a follow-up that later records an outcome; and
-- one follow-up may have an optional reminder linked to the relevant Plant Profile and care cycle.
-
-The implementable specification shall define the exact data structures, required fields and cardinality rules without weakening these distinctions.
-
-# 8. Observation Lifecycle
-
-A structured observation shall be capable of moving through a controlled lifecycle:
-
-1. **Captured** - evidence or gardener input has produced a proposed observation record.
-2. **Clarified** - required questions or comparisons have improved the observation's meaning.
-3. **Confirmed or corrected** - the gardener has confirmed the wording, supplied a correction or identified that they cannot determine it.
-4. **Used in reasoning** - the observation has been considered with approved knowledge and relevant context.
-5. **Recorded in history** - the observation and its relationship to later decisions or outcomes are preserved in the relevant Plant Profile history.
-
-The specification may use different interface wording, but it shall preserve the difference between a proposed observation, a gardener-confirmed observation and a system inference.
-
-# 9. Selected Guided-Care Journey
-
-The selected journey is the minimum viable product (MVP) retelling of the approved *Marie’s Story*, defined in `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`.
-
-Chapters 1–5 define the initial implementation. They shall deliver plant onboarding, guided observation, black-spot care and follow-up, dormant-season suitability assessment, structural observation, pruning planning, supported cuts or deferrals, recorded actions and pruning follow-up. Dormant-rose pruning is a founding product outcome, not an optional continuation capability.
-
-Chapters 6–8 define the approved continuation journey. They demonstrate Garden Journal continuity, contextual questions and Marie’s longer-term growth in understanding. The architecture shall remain compatible with those chapters, but their complete implementation is not required for the initial build.
-
-Where the vision uses plant-image interpretation, the MVP shall instead help Marie inspect Sarah’s Rose, describe what she sees and confirm the observations used in reasoning. This architecture governs the underlying system and information behaviour; the journey document governs Marie’s experience.
-
-# 10. Knowledge Curation System Relationship
-
-The Knowledge Curation System (KCS) shall remain responsible for the governed preparation, approval and publication of knowledge for operational use.
-
-The Ask Pip MVP shall consume approved operational knowledge. It shall not:
-
-- treat unapproved draft research as operational knowledge;
-- create Founder-approved knowledge through ordinary user interaction;
-- overwrite the source knowledge record when applying it to an individual rose; or
-- conceal when required operational knowledge is unavailable.
-
-The MVP specification shall identify the minimum approved bush-rose knowledge required for the selected guided journey before that journey is represented as operationally supported. This includes the knowledge needed to recognise a gardener-reported pattern consistent with rose black spot, explain the condition, support proportionate care choices and assess the response at follow-up.
-
-The Commission 008 Knowledge Pack may support model or capability validation, architecture reconciliation, specification preparation and identification of required Bush Rose knowledge. It shall not be treated as approved operational knowledge unless it has separately completed the applicable approval and CORE integration process.
-
-Gardener observations, photographs and outcomes may create useful records for the gardener and may support future authorised research or capability development. They shall not become approved general horticultural knowledge automatically, and storage for the gardener's service shall not itself authorise any secondary use.
-
-# 11. Required Safeguards
-
-The implementable specification shall preserve:
-
-- the Journal, Plant Profile and history relationships defined in Section 7;
-- source and evidence traceability;
-- voluntary photography throughout guided care;
-- original photographs separately from notes and later interpretations;
-- gardener confirmation or correction of extracted information and future machine proposals;
-- expressible uncertainty, including unknown, not visible and conflicting information;
-- reasoning based only on approved operational knowledge;
-- separation of guidance, decisions, completed actions and outcomes;
-- continuity between an event, its optional reminder, its follow-up and its outcome; and
-- provider adaptability without making one external provider Pip’s permanent identity or exclusive operating foundation.
-
-# 12. Relationship to Marie's Story
-
-*Marie’s Story* remains the approved vision story for Ask Pip. It defines the audience, the problem Ask Pip solves, the help and support it provides and the emotional outcome for the gardener. Marie’s MVP journey shall be recognisably the same story, delivered through the capabilities of the first build.
-
-The principal adaptation is the source of plant interpretation. Marie supplies and confirms textual descriptions through guided conversation instead of Ask Pip interpreting the rose’s physical appearance from photographs. Photographs remain part of Sarah’s Rose’s history.
-
-The initial implementation preserves the welcome, personal meaning, reminders, black-spot help and recovery, and the complete dormant-season pruning outcome through Chapters 1–5. Chapters 6–8 preserve Garden Journal continuity, contextual questions and Marie’s longer-term growth in understanding as continuation scenarios.
-
-The deferred capabilities listed in Section 5.2 remain outside the first MVP.
-
-# 13. Specification Handoff
-
-After Founder approval of this architecture and the selected journey, the next controlled document shall be an implementable MVP specification.
-
-The specification shall define the interfaces, data structures, validation, operational knowledge, reasoning, history, black-spot guidance, pruning suitability checks, structural assessment, supported pruning choices, safety and deferral behaviour, reminders, follow-up, failure behaviour and tests needed to deliver Chapters 1–5 while preserving this architecture’s relationships and boundaries.
-
-It shall also identify the compatibility requirements needed to support Chapters 6–8 later without treating those chapters as part of the initial implementation.
-
-The specification shall not commence software development or approve technology choices unless the Founders separately authorise those actions.
-
-# 14. Decisions Required Before CORE Integration
-
-The Founders must determine:
-
-1. the approved version for this architecture document;
-2. its permanent PIP CORE location;
-3. whether the proposed source categories and observation lifecycle accurately express the approved product direction;
-4. whether Chapters 1–5 accurately define the initial implementation and Chapters 6–8 the continuation journey; and
-5. whether any amendment is required before the document enters Founder review.
+1. the exact pruning conditions and choices supported by the first journey;
+2. the required verified comparison material;
+3. the follow-up timing and outcome questions;
+4. the success thresholds for prototype validation;
+5. the approved version; and
+6. the permanent PIP CORE location.
 
 ---
 
