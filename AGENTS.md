@@ -1,11 +1,11 @@
 # AGENTS.md
 ## PIP AI OS Bootstrap
 
-**Status:** Draft  
-**Version:** 1.2 (Proposed)  
+**Status:** Approved  
+**Version:** 1.2  
 **Owner:** The Founders  
 **Last Updated:** 9 August 2026  
-**Approved By:** Pending Founder approval  
+**Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AGENTS.md`
 
 ---
