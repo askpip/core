@@ -1,14 +1,14 @@
 # **Marie's Story**
 
-## **PIP's Purpose**
+## **Ask Pip's Purpose**
 
-### **A Foundational Narrative of the AskPIP Experience**
+### **A Foundational Narrative of the Ask Pip Experience**
 
 ---
 
 ## **Document Metadata**
 
-**Document Title:** Marie's Story – PIP's Purpose
+**Document Title:** Marie's Story – Ask Pip's Purpose
 
 **Document Type:** Foundation Document
 
@@ -53,7 +53,7 @@ It reminded her of her sister.
 
 Although she enjoyed gardening, she realised she knew very little about growing roses. She wanted to care for it properly but wasn't sure where to begin.
 
-A friend suggested she try PIP.
+A friend suggested she try Ask Pip.
 
 "A gardening companion that helps you understand your plants."
 
@@ -63,7 +63,7 @@ The splash screen appeared.
 
 ---
 
-**PIP**
+**Ask Pip**
 
 *Growing understanding. Cultivating confidence.*
 
@@ -95,7 +95,7 @@ The Home screen opened.
 
 Marie selected **Add a plant**.
 
-PIP welcomed her with a simple message.
+Ask Pip welcomed her with a simple message.
 
 *"Let's get to know your new plant."*
 
@@ -103,7 +103,7 @@ It asked Marie to take a photograph of the whole rose.
 
 She did.
 
-Next, PIP asked:
+Next, Ask Pip asked:
 
 *"Does your plant still have its nursery label attached?"*
 
@@ -115,11 +115,11 @@ It did.
 
 Marie photographed both sides.
 
-PIP read the label.
+Ask Pip read the label.
 
 It identified the official cultivar and added it to the Garden Journal, together with the information printed on the nursery label.
 
-PIP then asked:
+Ask Pip then asked:
 
 *"What would you like to call this rose in your garden?"*
 
@@ -127,7 +127,7 @@ Marie typed:
 
 **Sarah's Rose**
 
-PIP replied:
+Ask Pip replied:
 
 *"Perfect. I'll know this rose as Sarah's Rose while also remembering its official cultivar."*
 
@@ -139,11 +139,11 @@ Marie wrote:
 
 *"My sister gave me this rose at the beginning of spring. I'd like to look after it well and enjoy it for many years."*
 
-Next, PIP asked Marie to take several photographs of Sarah's Rose to add to the Garden Journal—one from each side, one from the rear, and one looking down from above.
+Next, Ask Pip asked Marie to take several photographs of Sarah's Rose to add to the Garden Journal—one from each side, one from the rear, and one looking down from above.
 
-When Marie had uploaded the photographs, PIP added them to the Garden Journal and began analysing them.
+When Marie had uploaded the photographs, Ask Pip added them to the Garden Journal and began analysing them.
 
-A few moments later, PIP finished its analysis.
+A few moments later, Ask Pip finished its analysis.
 
 *"I've finished getting to know Sarah's Rose."*
 
@@ -151,13 +151,13 @@ A few moments later, PIP finished its analysis.
 
 **Confidence: High**
 
-PIP then introduced the rose.
+Ask Pip then introduced the rose.
 
 *"Your rose appears healthy and has settled in well after planting."*
 
 *"Over the next few weeks, you should expect to see fresh shoots followed by flower buds."*
 
-Finally, PIP added:
+Finally, Ask Pip added:
 
 *"Sarah's Rose won't need pruning just yet. Bush roses are normally assessed for pruning during winter, while they are dormant."*
 
@@ -167,7 +167,7 @@ Then it asked:
 
 Marie selected **Yes**.
 
-PIP replied:
+Ask Pip replied:
 
 *"Certainly. When pruning season approaches, I'll remind you, and we'll assess Sarah's Rose together."*
 
@@ -195,7 +195,7 @@ Marie closed the app.
 
 She hadn't simply added a plant.
 
-She had learned what kind of rose she owned, what to expect over the coming months, and that PIP would continue helping her care for it in the future.
+She had learned what kind of rose she owned, what to expect over the coming months, and that Ask Pip would continue helping her care for it in the future.
 
 
 
@@ -203,7 +203,7 @@ She had learned what kind of rose she owned, what to expect over the coming mont
 
 A year passed.
 
-As spring turned to summer, autumn and then winter, PIP quietly supported Marie as she cared for Sarah's Rose.
+As spring turned to summer, autumn and then winter, Ask Pip quietly supported Marie as she cared for Sarah's Rose.
 
 It reminded her when the rose entered new stages of growth, explained why regular deadheading encouraged repeat flowering, and showed her how to remove spent blooms correctly.
 
@@ -215,7 +215,7 @@ Some lasted only a few minutes.
 
 Others simply reassured Marie that Sarah's Rose was healthy and developing as expected.
 
-By its second winter in Marie's garden, Sarah's Rose was established and dormant. PIP had an evidence-based history of the rose from planting onward. It knew the cultivar, the planting context, how vigorously the rose had grown and the observations Marie had recorded through the seasons.
+By its second winter in Marie's garden, Sarah's Rose was established and dormant. Ask Pip had an evidence-based history of the rose from planting onward. It knew the cultivar, the planting context, how vigorously the rose had grown and the observations Marie had recorded through the seasons.
 
 Marie had changed as well.
 
@@ -225,9 +225,9 @@ She no longer felt like someone who simply owned a rose.
 
 She felt like someone who was learning to understand it.
 
-The pruning journey did not depend on a rose having been added when it was young. A gardener bringing an established rose to Ask Pip for the first time could create the same Bush Rose Profile from what was known now, record its current condition and begin its story from that point. Marie's history simply gave Pip more earlier context to remember.
+The pruning journey did not depend on a rose having been added when it was young. A gardener bringing an established rose to Ask Pip for the first time could create the same Bush Rose Profile from what was known now, record its current condition and begin its story from that point. Marie's history simply gave Ask Pip more earlier context to remember.
 
-One crisp June morning, Marie received another message from PIP.
+One crisp June morning, Marie received another message from Ask Pip.
 
 ---
 
@@ -241,7 +241,7 @@ One crisp June morning, Marie received another message from PIP.
 
 Marie smiled.
 
-When she had first installed PIP, the thought of pruning her rose had been intimidating. She had worried about removing the wrong branch or damaging the plant.
+When she had first installed Ask Pip, the thought of pruning her rose had been intimidating. She had worried about removing the wrong branch or damaging the plant.
 
 Now she felt curious rather than anxious.
 
@@ -251,17 +251,17 @@ She picked up her phone and walked out into the garden.
 
 ## **Understanding the Rose**
 
-PIP began by explaining that pruning was not simply about removing branches.
+Ask Pip began by explaining that pruning was not simply about removing branches.
 
 It was about understanding how the rose grew and helping it develop into a healthier, more balanced plant.
 
-Before recommending a single cut, PIP asked Marie to photograph Sarah's Rose from several different angles.
+Before recommending a single cut, Ask Pip asked Marie to photograph Sarah's Rose from several different angles.
 
 It explained that seeing the whole plant allowed it to understand the framework better and provide more reliable guidance.
 
 Marie slowly walked around the rose, taking photographs from the front, both sides, the rear and above.
 
-Once the photographs had been analysed, PIP presented an annotated image of Sarah's Rose.
+Once the photographs had been analysed, Ask Pip presented an annotated image of Sarah's Rose.
 
 The main framework canes were highlighted.
 
@@ -271,7 +271,7 @@ Older canes were distinguished from newer growth where possible.
 
 Areas that could not be assessed confidently were clearly marked.
 
-Rather than hiding uncertainty, PIP explained it openly.
+Rather than hiding uncertainty, Ask Pip explained it openly.
 
 *"I can't clearly see the base of this cane from the current photographs."*
 
@@ -285,9 +285,9 @@ The uncertainty disappeared.
 
 ## **Learning the Language of the Rose**
 
-Instead of immediately discussing pruning, PIP introduced Marie to the important parts of her rose.
+Instead of immediately discussing pruning, Ask Pip introduced Marie to the important parts of her rose.
 
-As she tapped on the highlighted structures, PIP explained:
+As she tapped on the highlighted structures, Ask Pip explained:
 
 - what each structure was;
 
@@ -311,7 +311,7 @@ Instead of seeing a tangled collection of branches, Marie began to see an organi
 
 ## **Building Confidence**
 
-PIP explained that experienced gardeners did not begin pruning by asking,
+Ask Pip explained that experienced gardeners did not begin pruning by asking,
 
 *"What should I cut?"*
 
@@ -321,13 +321,13 @@ They began by asking,
 
 Marie smiled.
 
-Only a few months earlier, she would have wanted PIP simply to tell her where to cut.
+Only a few months earlier, she would have wanted Ask Pip simply to tell her where to cut.
 
 Now she found herself studying the framework before thinking about pruning.
 
 She realised that understanding the rose felt just as satisfying as caring for it.
 
-PIP concluded the session.
+Ask Pip concluded the session.
 
 *"Today we've identified the structure of Sarah's Rose and completed a structural assessment."*
 
@@ -343,7 +343,7 @@ She could recognise the framework, identify the newer growth, and understand how
 
 She smiled.
 
-She wasn't ready to prune because PIP had told her she was.
+She wasn't ready to prune because Ask Pip had told her she was.
 
 She was ready because she finally understood what she was looking at.
 
@@ -357,13 +357,13 @@ She picked up her gloves, secateurs and phone.
 
 Today felt different.
 
-When she had first installed PIP, pruning had seemed intimidating. She had worried that every cut might be the wrong one.
+When she had first installed Ask Pip, pruning had seemed intimidating. She had worried that every cut might be the wrong one.
 
 Now she felt prepared.
 
 Not because she had memorised instructions, but because she understood the structure of Sarah's Rose.
 
-She opened PIP.
+She opened Ask Pip.
 
 ---
 
@@ -379,7 +379,7 @@ She opened PIP.
 
 Marie selected **Begin Pruning**.
 
-PIP displayed the annotated image of Sarah's Rose from the previous session.
+Ask Pip displayed the annotated image of Sarah's Rose from the previous session.
 
 One branch was highlighted.
 
@@ -389,13 +389,13 @@ One branch was highlighted.
 
 **Remove this dead cane.**
 
-PIP explained:
+Ask Pip explained:
 
 *"This cane is no longer alive and cannot produce healthy growth or flowers. Removing it improves the health of the plant and creates space for healthy new growth."*
 
 The highlighted branch was shown on both the annotated image and the original photograph.
 
-Marie could see exactly which branch PIP was referring to.
+Marie could see exactly which branch Ask Pip was referring to.
 
 She looked at the actual rose.
 
@@ -405,7 +405,7 @@ For the first time, she recognised the branch without hesitation.
 
 She made the cut.
 
-PIP asked:
+Ask Pip asked:
 
 *"Was this cut completed?"*
 
@@ -425,7 +425,7 @@ Marie hesitated.
 
 She tapped **Why?**
 
-PIP explained:
+Ask Pip explained:
 
 *"This stem is growing towards the centre of the plant. As it develops, it is likely to reduce airflow and increase congestion within the framework. Removing it encourages a more open structure, improving both plant health and future flowering."*
 
@@ -443,21 +443,21 @@ Others prompted questions.
 
 Whenever she was uncertain, she simply asked.
 
-PIP answered each question in plain language, explaining the reasoning rather than simply repeating the recommendation.
+Ask Pip answered each question in plain language, explaining the reasoning rather than simply repeating the recommendation.
 
-Where more than one pruning approach was horticulturally acceptable, PIP explained the alternatives.
+Where more than one pruning approach was horticulturally acceptable, Ask Pip explained the alternatives.
 
 It never suggested there was only one correct answer.
 
 As each cut was completed, Marie marked it as finished.
 
-PIP updated the pruning record and adjusted the remaining plan accordingly.
+Ask Pip updated the pruning record and adjusted the remaining plan accordingly.
 
 ---
 
 ## **Pruning Complete**
 
-When the final recommendation had been completed, PIP congratulated Marie.
+When the final recommendation had been completed, Ask Pip congratulated Marie.
 
 *"Well done."*
 
@@ -465,7 +465,7 @@ When the final recommendation had been completed, PIP congratulated Marie.
 
 *"Based on today's assessment, the rose now has a balanced framework with good spacing and strong potential for healthy spring growth."*
 
-PIP then asked Marie to photograph the completed rose.
+Ask Pip then asked Marie to photograph the completed rose.
 
 The new photographs were automatically displayed alongside those taken before pruning.
 
@@ -473,7 +473,7 @@ Marie could clearly see the difference.
 
 The framework looked cleaner, more open and easier to understand.
 
-PIP saved the complete pruning record to Sarah's Rose's Garden Journal.
+Ask Pip saved the complete pruning record to Sarah's Rose's Garden Journal.
 
 The journal now contained:
 
@@ -487,11 +487,11 @@ The journal now contained:
 
 - Marie's questions;
 
-- PIP's explanations; and
+- Ask Pip's explanations; and
 
 - the completed pruning session.
 
-Finally, PIP created a new Care Plan.
+Finally, Ask Pip created a new Care Plan.
 
 ---
 
@@ -515,7 +515,7 @@ Observe how Sarah's Rose responds to the pruning and confirm that healthy new gr
 
 ---
 
-PIP explained:
+Ask Pip explained:
 
 *"Today's pruning is only the beginning."*
 
@@ -529,7 +529,7 @@ Only a few months earlier, she would have stood there wondering which branches t
 
 Today she understood why every cut had been made.
 
-She realised that PIP had done something far more valuable than simply showing her where to prune.
+She realised that Ask Pip had done something far more valuable than simply showing her where to prune.
 
 It had taught her how to think like a gardener.
 
@@ -541,7 +541,7 @@ The coldest days of winter were beginning to ease. Although the rose still appea
 
 She smiled.
 
-Exactly as PIP had explained.
+Exactly as Ask Pip had explained.
 
 Standing quietly beside the rose, she found herself thinking back to the day Sarah had given it to her.
 
@@ -557,7 +557,7 @@ She wondered just how much Sarah's Rose had changed over those months.
 
 And, if she was honest, she wondered how much she had changed as well.
 
-Almost without thinking, she took out her phone and opened PIP.
+Almost without thinking, she took out her phone and opened Ask Pip.
 
 She selected **Sarah's Rose**.
 
@@ -587,7 +587,7 @@ The first entry took her back to the day Sarah had arrived with the rose.
 
 She smiled as she remembered photographing the nursery label that was still attached.
 
-From that simple beginning, PIP had identified the cultivar and introduced her to Sarah's Rose for the very first time.
+From that simple beginning, Ask Pip had identified the cultivar and introduced her to Sarah's Rose for the very first time.
 
 She remembered how uncertain she had felt.
 
@@ -725,7 +725,7 @@ Nothing seemed damaged.
 
 Still, she found herself wondering whether the unusual colour was normal.
 
-Rather than searching the internet and sorting through hundreds of conflicting opinions, Marie opened PIP.
+Rather than searching the internet and sorting through hundreds of conflicting opinions, Marie opened Ask Pip.
 
 She selected **Sarah's Rose**.
 
@@ -741,7 +741,7 @@ She typed:
 
 *"Why are the new shoots on Sarah's Rose red?"*
 
-Within moments, PIP replied.
+Within moments, Ask Pip replied.
 
 *"That's a great observation. Before I answer, I'd like to understand exactly what you're seeing."*
 
@@ -751,7 +751,7 @@ Marie looked back at the rose.
 
 **Only the youngest ones.**
 
-PIP continued.
+Ask Pip continued.
 
 *"Do the leaves appear healthy, and are they opening normally?"*
 
@@ -759,17 +759,17 @@ Marie smiled.
 
 **Yes.**
 
-PIP asked one final question.
+Ask Pip asked one final question.
 
 *"Could you please take a close-up photograph of one of the new shoots?"*
 
 Marie took the photograph and uploaded it.
 
-After analysing the image together with her answers, PIP responded.
+After analysing the image together with her answers, Ask Pip responded.
 
 *"Thank you. Based on your photograph and your observations, I'm highly confident that what you're seeing is normal spring growth."*
 
-PIP explained that many bush roses produced reddish new shoots because the young leaves contained natural pigments that helped protect the tender growth while it developed.
+Ask Pip explained that many bush roses produced reddish new shoots because the young leaves contained natural pigments that helped protect the tender growth while it developed.
 
 As the leaves matured, chlorophyll would gradually become more dominant, and the foliage would turn green.
 
@@ -779,7 +779,7 @@ What had seemed unusual only moments earlier suddenly made perfect sense.
 
 She smiled.
 
-Not because PIP had simply given her an answer.
+Not because Ask Pip had simply given her an answer.
 
 But because she now understood what she was seeing.
 
@@ -787,7 +787,7 @@ Curious to learn more, she asked another question.
 
 *"Do all bush roses produce red new shoots?"*
 
-PIP replied.
+Ask Pip replied.
 
 *"Not all of them. Some cultivars produce deep red new growth, while others produce bronze, copper or light green shoots. The colour depends on the genetics of the individual cultivar and can also vary slightly with growing conditions."*
 
@@ -795,7 +795,7 @@ Marie nodded.
 
 She was beginning to recognise that every rose had its own characteristics.
 
-PIP continued.
+Ask Pip continued.
 
 *"Questions like yours help build a better understanding of Sarah's Rose over time."*
 
@@ -803,7 +803,7 @@ PIP continued.
 
 Marie selected **Yes**.
 
-PIP recorded:
+Ask Pip recorded:
 
 - Marie's question;
 
@@ -815,7 +815,7 @@ PIP recorded:
 
 - the seasonal observation about Sarah's Rose's new growth.
 
-Before finishing, PIP added:
+Before finishing, Ask Pip added:
 
 *"The more we learn about Sarah's Rose together, the more complete its story becomes."*
 
@@ -829,13 +829,13 @@ Now the experience felt completely different.
 
 Instead of searching for generic information, she was learning about **Sarah's Rose**.
 
-Each question built upon everything PIP already knew about the plant.
+Each question built upon everything Ask Pip already knew about the plant.
 
 Each answer became part of its continuing history.
 
 Marie smiled.
 
-She hadn't opened PIP because something was wrong.
+She hadn't opened Ask Pip because something was wrong.
 
 She had opened it simply because she wanted to understand a little more about the plant growing in her own garden.
 
@@ -937,7 +937,7 @@ Sarah smiled.
 
 Marie thought for a moment before answering.
 
-*"PIP never just told me what to do."*
+*"Ask Pip never just told me what to do."*
 
 *"It always explained why."*
 
@@ -975,13 +975,13 @@ Marie picked up her phone.
 
 *"Now I'd start by asking questions."*
 
-She opened PIP.
+She opened Ask Pip.
 
 *"I'd take a few photographs."*
 
 *"I'd gather the evidence."*
 
-*"And then I'd let PIP help me understand what I was seeing."*
+*"And then I'd let Ask Pip help me understand what I was seeing."*
 
 Sarah smiled.
 
@@ -1015,7 +1015,7 @@ Sarah's Rose had grown stronger over the past year.
 
 So had Marie.
 
-PIP had never tried to replace the gardener.
+Ask Pip had never tried to replace the gardener.
 
 It had simply helped one gardener grow in understanding, one conversation at a time.
 
@@ -1031,10 +1031,10 @@ It concluded with understanding, confidence and a deeper appreciation for both t
 
 The Bush Rose MVP demonstrated that successful plant care was not achieved by replacing the gardener's judgement, but by nurturing it.
 
-Through observation, conversation, education and trustworthy guidance, PIP transformed individual moments of uncertainty into lasting knowledge.
+Through observation, conversation, education and trustworthy guidance, Ask Pip transformed individual moments of uncertainty into lasting knowledge.
 
 **Growing understanding. Cultivating confidence.**
 
 ## **The Founders' Reflection**
 
-"This story is intentionally preserved because it reminds every future contributor that AskPIP exists to help gardeners grow in understanding—not merely to answer questions. Every technical decision, knowledge record and feature should move AskPIP closer to the experience Marie had with Sarah's Rose."
+"This story is intentionally preserved because it reminds every future contributor that Ask Pip exists to help gardeners grow in understanding—not merely to answer questions. Every technical decision, knowledge record and feature should move Ask Pip closer to the experience Marie had with Sarah's Rose."
