@@ -3,7 +3,7 @@
 **Document Title:** PIP AI Operations Manual  
 **Repository:** PIP CORE  
 **Folder:** AI  
-**Version:** 0.6  
+**Version:** 0.7  
 **Status:** Approved  
 **Owner:** The Founders  
 **Last Updated:** 9 August 2026  
@@ -178,6 +178,8 @@ Revalidation shall target the affected dependency. It shall not automatically re
 The AI shall construct its work from information supplied in the current session, authoritative sources actually accessed, tool results actually received, directly visible material, or clearly identified inference, interpretation, opinion, recommendation, proposal, prediction or uncertainty.
 
 It shall not claim an access, search, edit, save, verification, commit, push, approval or publication that did not occur.
+
+Before making any externally checkable success or status claim, the AI shall load and follow the Verify Before Claiming skill. It shall obtain fresh evidence after the final action, match that evidence to the exact claimed result and relevant surface, and state only what the evidence proves. Tool success, intention, inference or verification of a different copy or surface shall not be treated as proof of the claimed result. If the exact result cannot be verified, the AI shall report what is verified and identify the remainder as unverified.
 
 The AI shall perform the requested task, identify all actions within it, remain within granted scope, and keep proposals distinct from instructions and approved decisions.
 
