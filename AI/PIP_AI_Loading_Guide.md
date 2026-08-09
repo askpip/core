@@ -4,13 +4,13 @@
 **Repository:** PIP CORE  
 **Parent Platform:** Plant Intelligence Platform (PIP)  
 **Folder:** AI  
-**Version:** 0.5  
-**Status:** Approved  
+**Version:** 0.6 (Proposed)  
+**Status:** Draft  
 **Owner:** The Founders  
-**Approved By:** AskPIP Founder Authority  
+**Approved By:** Pending Founder approval  
 **Permanent Location:** `AI/PIP_AI_Loading_Guide.md`  
 **Last Updated:** 9 August 2026  
-**Purpose:** To identify the additional PIP Artificial Intelligence Operating System (PIP AI OS) documents that must be loaded to correctly perform a requested task.  
+**Purpose:** To select the minimum current PIP Artificial Intelligence Operating System (PIP AI OS) documents materially required for a task or coherent session.  
 **Authority:** PIP AI OS  
 **Related Documents:** `AGENTS.md`, `AI/PIP_AI_Operations_Manual.md`, `AI/PIP_AI_Constitution.md`
 
@@ -18,118 +18,112 @@
 
 # 1. Purpose
 
-The purpose of this guide is to determine which additional PIP AI OS documents shall be loaded after the PIP AI Operations Manual and the PIP AI Constitution.
+This guide determines which PIP AI OS documents must be loaded for a task.
 
-The artificial intelligence (AI) shall not inspect every document contained within the PIP AI OS before every task.
+It implements minimal necessary loading, session reuse and targeted revalidation. It does not require every document to be loaded before every message.
 
-Instead, it shall consult this guide to determine which additional documents are applicable to the current request.
+# 2. Loading Principles
 
-This guide exists to minimise unnecessary loading while ensuring that the correct governed procedures are followed.
+## 2.1 Load for the Action, Not the Topic Alone
 
----
+A request about PIP does not automatically require repository retrieval. Load governed documents when their current contents materially affect the requested answer or action.
 
-# 2. Position Within the PIP AI OS
+## 2.2 Reuse Within a Coherent Session
 
-The PIP AI Loading Guide forms the document selection stage of the PIP AI OS startup procedure.
+A document already retrieved in the coherent session may be reused when its path, version or equivalent identity is recorded and no revalidation trigger applies.
 
-The normal startup sequence is:
+The arrival of a new message does not by itself invalidate loaded documents.
 
-1. `AGENTS.md`
-2. PIP AI Operations Manual
-3. PIP AI Constitution
-4. PIP AI Loading Guide
-5. `AI/Context/PIP_System_Terminology_Context.md`
-6. Applicable Skills
-7. Additional applicable Context documents
-8. Perform the requested task
+## 2.3 Load Dependencies, Not the Whole System
 
-This guide determines only which additional documents shall be loaded.
+Load the smallest set that governs the actual actions. When a task has several actions, combine their required sets and retrieve each document once.
 
-It does not define how those documents operate.
+## 2.4 Consequences Determine Freshness
 
----
+Conversation may proceed from visible context unless a governed fact is material. Drafting requires the applicable source and content controls. Integration and safety-relevant guidance require current authoritative evidence for the affected action.
 
-# 3. Loading Procedure
+# 3. Mode-Based Selection
 
-After loading the PIP AI Operations Manual and the PIP AI Constitution, the AI shall:
+| Operating mode | Default loading | Revalidation boundary |
+|---|---|---|
+| Conversation | None solely because the topic concerns PIP. Retrieve a current source only when exact governed facts, wording, status or decisions materially affect the answer. | When the task changes mode, requires a current governed fact, or enters a safety-relevant domain. |
+| Drafting | Current source assets plus the specific writing, document, naming or domain controls needed for the planned changes. | Before the consequential write and when source or scope changes. |
+| Integration | Current source assets, CORE Integration Skill, PIP CORE Asset Lifecycle Standard, and any control governing the affected asset. | Immediately before consequential repository actions and again when concurrent-change evidence requires it. |
 
-1. Load `AI/Context/PIP_System_Terminology_Context.md` for every PIP task, including ordinary conversation and advice.
-2. Determine every action requested by the Founder.
-3. Consult this Loading Guide.
-4. Identify every applicable entry.
-5. Load every referenced PIP AI OS document.
-6. Apply all loaded documents together.
-7. Where loaded documents conflict, apply the PIP AI OS authority hierarchy.
-8. Where the conflict cannot be resolved through the authority hierarchy, stop the affected action and request Founder direction.
+# 4. Loading Index
 
----
+| Requested action | Documents to load | Notes |
+|---|---|---|
+| General conversation, brainstorming, clarification, advice or provisional decisions | No universal AI OS document load. | Use visible session context. Retrieve an authoritative source only if its exact current content materially affects the response. |
+| Interpreting official PIP terminology or resolving a naming conflict | `AI/Context/PIP_System_Terminology_Context.md` | Load the full naming Standard only when authoritative interpretation, document naming or a conflict requires it. |
+| Preparing polished controlled written content | `AI/Skills/Writing_Skill.md` | Not required for short ordinary chat, acknowledgements or option selections. |
+| Creating, reviewing or revising a controlled PIP document | `AI/Skills/Document_Creation_and_Editing_Skill.md`; the current source document; `Standards/PIP_System_Identity_and_Naming_Standard.md` when naming or metadata is affected | Combine with applicable domain controls. |
+| Repository inspection with no write | `AI/Skills/CORE_Integration_Skill.md` only when the inspection concerns controlled integration, synchronisation, lifecycle or publication state | Basic repository facts may be retrieved directly when no governed interpretation is required. |
+| Creating or changing repository files, commits, branches or pull requests; synchronising; moving; publishing; approving; or officially integrating controlled assets | `AI/Skills/CORE_Integration_Skill.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`; any document or domain control governing the affected asset | Current branch, commit and blob evidence is required. Conversation-mode cache does not replace consequential-write checks. |
+| Safety-relevant horticultural guidance | Current approved operational knowledge and applicable safety or uncertainty controls | General product discussion about future horticultural features is not itself operational guidance. |
+| Knowledge Curation System, Research Origin Curator or Knowledge Integration Technician work | Only the approved Skill, manual, Standard and Context documents governing the requested role and action | Do not load unrelated role documents. |
+| Software or application work | Current source files and only the architecture, standards or Skills materially constraining the requested change | Product conversation alone does not require software controls. |
 
-# 4. PIP AI Loading Index
+# 5. Selection Procedure
 
-The following table identifies which additional PIP AI OS documents shall be loaded for particular task types.
+At the beginning of a governed session or when a revalidation trigger occurs, the AI shall:
 
-| Request Type | PIP AI OS Documents to Load | Notes |
-|---------------|-------------------------|-------|
-| Every PIP task, including ordinary conversation and advice, planning and analysis, document work, repository work, Knowledge Curation System work, Research Origin Curator work, Knowledge Integration Technician work, and software or application work. | `AI/Context/PIP_System_Terminology_Context.md` | Compact operational terminology reference. The PIP System Identity and Naming Standard (SINS-001) remains authoritative. |
-| Every PIP task requiring written output, including ordinary chat responses, documents, prompts, correspondence, research summaries and public copy. | `AI/Skills/Writing_Skill.md` | Governs written expression, including purpose, audience, voice, clarity, economy, directness and preservation of meaning. Apply it with every other Skill or Context document required for the task. |
-| Authoritative naming interpretation; naming conflict or uncertainty; document creation or editing; renaming; or terminology-governance work. | `Standards/PIP_System_Identity_and_Naming_Standard.md` | Authoritative naming Standard. |
-| Creating, drafting, reviewing, revising, restructuring, formatting, reconciling or converting a PIP document. | `AI/Skills/Document_Creation_and_Editing_Skill.md`; `Standards/PIP_System_Identity_and_Naming_Standard.md` | The Skill governs document content and preparation. SINS-001 governs naming and terminology. |
-| Creating or changing repository files; selecting or confirming repository paths; moving or synchronising controlled assets; inspecting repository status or changes; retrieving remote state; committing or pushing; or verifying repository state. | `AI/Skills/CORE_Integration_Skill.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md` | The Skill distinguishes working-draft synchronisation from official CORE integration and supports local Git checkouts and authorised GitHub connectors. The Standard governs asset status, authority and lifecycle. This entry becomes active only through the coordinated installation in Section 8. |
+1. identify all requested actions;
+2. select Conversation, Drafting or Integration Mode;
+3. consult the Loading Index;
+4. identify already-loaded documents that remain valid in the session manifest;
+5. retrieve only missing, changed or newly applicable documents;
+6. apply all applicable documents together; and
+7. record material authority, unresolved questions and source identity in the session manifest.
 
----
+# 6. Session Continuation
 
-# 5. Multiple Document Loading
+For a continuation of the same coherent work:
 
-A single request may require multiple Skills and Context documents.
+- reuse applicable loaded documents;
+- add only new dependencies;
+- retain related decisions in the in-session decision ledger; and
+- do not repeat startup commentary unless a meaningful change or blocker affects the work.
 
-Where multiple entries apply, every applicable document shall be loaded before performing the task.
+Related decisions should normally be discussed in small coherent batches and recorded at a useful boundary.
 
-Document content changes performed within the repository require both the document-creation and repository-operation entries.
+# 7. Revalidation
 
----
+Revalidate only the affected source or control when:
 
-# 6. No Matching Entry
+- operating mode changes;
+- scope or authority changes materially;
+- a consequential write, publication, approval or integration is about to occur;
+- safety-relevant guidance depends on current approved knowledge;
+- repository movement or concurrent change is detected;
+- the user reports a governing change;
+- source identity or completeness is uncertain; or
+- the task enters a newly governed domain.
 
-If no task-specific entry beyond the universal PIP System Terminology Context requirement applies to the requested task, the AI shall continue under:
+If no trigger applies, unchanged documents shall not be retrieved again solely because the user sent another message.
 
-- the PIP AI Constitution;
-- the PIP AI Operations Manual; and
-- the Founder's current instructions.
+# 8. No Matching Entry
 
-The AI shall not invent an unapproved Skill or Context document.
+If no entry applies, continue under the Founder’s instruction, the PIP AI Constitution when already governing the AI, and visible session context.
 
-If the same type of request occurs repeatedly without a suitable document, the AI may propose that an additional PIP AI OS document be created through the approved learning process.
+Do not invent an unapproved Skill or Context document. A recurring gap may be proposed for governed improvement.
 
----
+# 9. Missing Documents
 
-# 7. Missing Documents
-
-If this guide identifies a PIP AI OS document that cannot be accessed, the AI shall:
+If a required document cannot be accessed:
 
 1. identify the unavailable document;
-2. identify which part of the task depends upon that document;
-3. state that the document has not been loaded; and
-4. request Founder direction where that document is required.
+2. identify the affected action;
+3. state that it was not loaded; and
+4. continue only with unaffected work or request Founder direction.
 
-The AI shall not claim that an unavailable document has been loaded.
+# 10. Maintenance and Activation
 
----
+Every approved Skill and Context document intended for active routing shall be recorded in this guide.
 
-# 8. Maintenance
+Changes to this guide require Founder approval and official integration before they become authoritative.
 
-Every approved Skill and Context document shall be recorded within this guide.
-
-A document shall not become part of the active PIP AI OS until:
-
-- it has received the Founder approval required by the applicable governance;
-- it has been stored within the repository; and
-- it has been referenced within this Loading Guide.
-
-Changes to this guide require Founder approval.
-
-The CORE Integration Skill, the PIP CORE Asset Lifecycle Standard amendment and the Loading Guide amendment that first activates the repository-operation entry shall be approved and officially integrated together in one coordinated change.
-
-That coordinated integration shall install the approved Skill and Standard at the exact permanent paths referenced in the Loading Index and install this Loading Guide amendment in the same commit. If all three files cannot be installed and verified together, the repository-operation entry shall not be activated and the previously approved Loading Guide shall remain authoritative.
+This proposed session-based model shall not be treated as operational merely because it appears on a branch or in a pull request. Before integration, all entry-point instructions that impose per-message startup behaviour must be reviewed for alignment. No such entry point may silently preserve the superseded behaviour.
 
 ---
 
