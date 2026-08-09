@@ -4,12 +4,12 @@
 **Repository:** PIP CORE  
 **Parent Platform:** Plant Intelligence Platform (PIP)  
 **Folder:** AI  
-**Version:** 0.8  
+**Version:** 0.9  
 **Status:** Approved  
 **Owner:** The Founders  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AI/PIP_AI_Loading_Guide.md`  
-**Last Updated:** 9 August 2026  
+**Last Updated:** 10 August 2026  
 **Purpose:** To select the minimum current PIP Artificial Intelligence Operating System (PIP AI OS) documents materially required for a task or coherent session.  
 **Authority:** PIP AI OS  
 **Related Documents:** `AGENTS.md`, `AI/PIP_AI_Operations_Manual.md`, `AI/PIP_AI_Constitution.md`
@@ -44,7 +44,13 @@ Conversation may proceed from visible context unless a governed fact is material
 
 ## 2.5 Evidence Before Claims
 
-Before stating that an externally checkable action, change, delivery, repository state or other result succeeded or is true, load and follow the Verify Before Claiming skill. Apply it only when such a claim is being made; ordinary conversation does not require it otherwise.
+Before stating that an externally checkable completion, status, delivery, repository, publication, synchronisation, correction or other result succeeded or is true, load and follow `AI/Skills/Verify_Before_Claiming_Skill.md`. Apply it when its trigger becomes relevant; ordinary conversation does not require it otherwise, and an unchanged valid copy may be reused within the same coherent session.
+
+## 2.6 Governed Skill Authority and Platform Compatibility
+
+`AI/Skills/` is the single authoritative location for governed PIP AI OS Skills. This Loading Guide is the model-neutral routing authority that tells any artificial intelligence which authoritative Skills to load and when.
+
+Model-specific discovery folders, including `.agents/skills/`, are compatibility mechanisms only. An adapter may identify a trigger and direct a platform to an authoritative Skill, but it shall not duplicate the operational checklist, become an independent authoritative copy, override the authoritative Skill or replace this Loading Guide's routing authority. If an adapter cannot access its authoritative Skill, it shall fail closed for the affected action or claim.
 
 # 3. Mode-Based Selection
 
@@ -52,7 +58,7 @@ Before stating that an externally checkable action, change, delivery, repository
 |---|---|---|
 | Conversation | None solely because the topic concerns PIP. Retrieve a current source only when exact governed facts, wording, status or decisions materially affect the answer. | When the task changes mode, requires a current governed fact, or enters a safety-relevant domain. |
 | Drafting | Current `AGENTS.md` bootstrap, unless it remains valid in the same coherent document-working session; current source assets; `AI/Skills/Document_Creation_and_Editing_Skill.md`; `AI/Skills/Writing_Skill.md`; and only the additional naming or domain controls needed for the planned changes. | Before the first controlled document creation or edit, before the consequential write, and when source or scope changes. |
-| Integration | Current source assets, CORE Integration Skill, PIP CORE Asset Lifecycle Standard, and any control governing the affected asset. | Immediately before consequential repository actions and again when concurrent-change evidence requires it. |
+| Integration | Current source assets, `AI/Skills/CORE_Integration_Skill.md`, `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`, and any control governing the affected asset. | Immediately before consequential repository actions and again when concurrent-change evidence requires it. |
 
 # 4. Loading Index
 
@@ -64,7 +70,7 @@ Before stating that an externally checkable action, change, delivery, repository
 | Creating or revising a controlled PIP document | Current `AGENTS.md` bootstrap, unless it remains valid in the same coherent document-working session; `AI/Skills/Document_Creation_and_Editing_Skill.md`; `AI/Skills/Writing_Skill.md`; the current source document; `Standards/PIP_System_Identity_and_Naming_Standard.md` when naming or metadata is affected | Both Skills are mandatory for controlled document creation and revision. Combine them with only the applicable domain controls. |
 | Reviewing a controlled PIP document without editing it | `AI/Skills/Document_Creation_and_Editing_Skill.md`; the current source document; `AI/Skills/Writing_Skill.md` only when the review evaluates writing quality | Conversation Mode may be sufficient. Load additional controls only when their exact requirements materially affect the review. |
 | Repository inspection with no write | `AI/Skills/CORE_Integration_Skill.md` only when the inspection concerns controlled integration, synchronisation, lifecycle or publication state | Basic repository facts may be retrieved directly when no governed interpretation is required. |
-| Reporting an externally checkable action, change, delivery, repository state or other result as successful or true | Verify Before Claiming skill | Obtain fresh evidence after the final action and verify the exact claimed result on the relevant surface. If exact verification is unavailable, report the result as unverified rather than complete. |
+| Reporting an externally checkable completion, status, delivery, repository, publication, synchronisation, correction or other result as successful or true | `AI/Skills/Verify_Before_Claiming_Skill.md` | Mandatory when the claim trigger becomes relevant. Obtain fresh evidence after the final action and verify the exact claimed result on the relevant surface. If exact verification is unavailable, report the result as unverified rather than complete. An unchanged valid copy may be reused within the same coherent session. |
 | Creating or changing repository files, commits, branches or pull requests; synchronising; moving; publishing; approving; or officially integrating controlled assets | `AI/Skills/CORE_Integration_Skill.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`; any document or domain control governing the affected asset | Current branch, commit and blob evidence is required. Conversation-mode cache does not replace consequential-write checks. |
 | Safety-relevant horticultural guidance | Current approved operational knowledge and applicable safety or uncertainty controls | General product discussion about future horticultural features is not itself operational guidance. |
 | Knowledge Curation System, Research Origin Curator or Knowledge Integration Technician work | Only the approved Skill, manual, Standard and Context documents governing the requested role and action | Do not load unrelated role documents. |
