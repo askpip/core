@@ -4,10 +4,10 @@
 **Repository:** PIP CORE  
 **Parent Platform:** Plant Intelligence Platform (PIP)  
 **Folder:** AI  
-**Version:** 0.6 (Proposed)  
-**Status:** Draft  
+**Version:** 0.6  
+**Status:** Approved  
 **Owner:** The Founders  
-**Approved By:** Pending Founder approval  
+**Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AI/PIP_AI_Loading_Guide.md`  
 **Last Updated:** 9 August 2026  
 **Purpose:** To select the minimum current PIP Artificial Intelligence Operating System (PIP AI OS) documents materially required for a task or coherent session.  
