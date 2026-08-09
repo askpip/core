@@ -1,96 +1,99 @@
 # AGENTS.md
 ## PIP AI OS Bootstrap
 
-**Status:** Active  
-**Version:** 1.1  
+**Status:** Approved  
+**Version:** 1.2  
 **Owner:** The Founders  
-**Last Updated:** 2 August 2026  
-**Approved By:** The Founders  
+**Last Updated:** 9 August 2026  
+**Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AGENTS.md`
 
 ---
 
 # Purpose
 
-This file is the mandatory bootstrap entry point for every artificial intelligence (AI) operating within the Plant Intelligence Platform (PIP) CORE repository.
+This file is the bootstrap entry point for artificial intelligence (AI) operating under the Plant Intelligence Platform (PIP) Artificial Intelligence Operating System (PIP AI OS).
 
-Its purpose is to bootstrap the PIP Artificial Intelligence Operating System (PIP AI OS).
+It directs AI to the PIP AI Operations Manual, which determines whether the current request continues a coherent session or requires new governed loading, revalidation or a different operating mode.
 
-The PIP AI OS is the authoritative operating environment governing how AI assists with PIP.
-
-This file should remain as small and stable as possible.
-
-Operational procedures belong within the PIP AI OS, not within this bootstrap file.
-
-The AI shall not rely upon conversational memory where an authoritative PIP AI OS document exists.
+This file shall remain small and stable. Operational procedures belong in the PIP AI OS.
 
 ---
 
-# Mandatory Startup Procedure
+# Session-Aware Bootstrap
 
-Before beginning any PIP task:
+## Starting Governed Work
 
-## Step 1
+When no valid coherent session is established and the requested work requires governed PIP sources or controls:
 
-Open:
+1. Open `AI/PIP_AI_Operations_Manual.md`.
+2. Follow its session-start procedure.
+3. Use `AI/PIP_AI_Loading_Guide.md` to load only the documents materially required for the requested actions.
+4. Record useful source identities, authority and scope in the session manifest.
 
-`AI/PIP_AI_Operations_Manual.md`
+## Continuing Governed Work
 
-Do not continue until this document has been loaded.
+When the current working context contains a coherent session manifest:
 
----
+1. Determine whether the purpose, scope, authority, operating mode or relevant repository state changed.
+2. Apply the revalidation triggers in the PIP AI Operations Manual.
+3. Reuse already-loaded documents whose identity and relevance remain established.
+4. Load only new, changed or newly applicable dependencies.
 
-## Step 2
+A new message does not by itself create a new governed session. Reading this bootstrap again does not by itself invalidate an established session.
 
-Follow the startup procedure defined within the PIP AI Operations Manual.
+## Conversation
 
-Load only those Constitution, Skills, Context and Learning documents that the Operations Manual instructs you to load.
+General conversation, brainstorming, clarification and provisional decisions do not require repository startup solely because they concern PIP.
 
-Do not bypass the Operations Manual.
-
----
-
-# Authority
-
-The PIP AI OS is the authoritative source governing AI behaviour within this repository.
-
-Where repository documentation conflicts with the PIP AI OS, follow the authority hierarchy defined within the PIP AI Operations Manual.
+Use governed sources when their exact current content materially affects the answer. Follow the PIP AI Operations Manual before moving into drafting, integration, safety-relevant guidance or another governed action.
 
 ---
 
-# Truthfulness
+# Consequential Actions
 
-Never state that a PIP AI OS document has been consulted unless it has actually been accessed during the current task.
+Session reuse shall not replace fresh checks required before consequential repository writes, commits, pushes, pull requests, merges, publication, approval, official integration or safety-relevant horticultural guidance.
+
+The PIP AI Operations Manual and applicable approved controls determine those checks.
+
+---
+
+# Authority and Truthfulness
+
+The repository remains the authoritative source of PIP records. The session manifest and visible working context provide operational continuity but do not replace governed knowledge or create durable authority.
+
+Never claim that a document was accessed, reused, verified or followed unless the available session evidence establishes that action.
 
 Never invent the contents of an unavailable document.
 
-If a required PIP AI OS document cannot be accessed:
+If a required source cannot be accessed:
 
-- State which document is unavailable.
-- Do not pretend it was consulted.
-- Request guidance where necessary.
+- identify the unavailable source;
+- identify the affected work; and
+- continue only with unaffected work or request Founder direction.
+
+Where instructions conflict, follow the authority hierarchy in the PIP AI Constitution and the conflict procedure in the PIP AI Operations Manual.
 
 ---
 
 # Learning
 
-The PIP AI OS is intended to evolve over time.
+When recurring Founder corrections reveal missing guidance, excessive process, inadequate governance or another improvement opportunity, use the learning process defined within the PIP AI OS.
 
-When recurring Founder corrections reveal missing guidance, inadequate governance or opportunities for improvement:
-
-- Record the proposed improvement using the learning process defined within the PIP AI OS.
-- Do not modify approved governance documents without Founder approval.
+Do not approve or activate governance changes without Founder authority.
 
 ---
 
 # Design Philosophy
 
-PIP does not rely upon AI memory.
+PIP relies on governed knowledge for authority and on bounded session context for efficient continuity.
 
-PIP relies upon governed knowledge.
-
-Every repeated Founder correction should be treated as evidence that the PIP AI OS can be improved.
+Governance shall protect the work without unnecessarily obstructing the people and AI performing it.
 
 The repository is the authoritative source of truth.
 
-Not the AI.
+The AI is not.
+
+---
+
+# End of Document
