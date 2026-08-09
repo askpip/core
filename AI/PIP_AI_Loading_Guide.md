@@ -9,7 +9,7 @@
 **Owner:** The Founders  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AI/PIP_AI_Loading_Guide.md`  
-**Last Updated:** 4 August 2026  
+**Last Updated:** 9 August 2026  
 **Purpose:** To identify the additional PIP Artificial Intelligence Operating System (PIP AI OS) documents that must be loaded to correctly perform a requested task.  
 **Authority:** PIP AI OS  
 **Related Documents:** `AGENTS.md`, `AI/PIP_AI_Operations_Manual.md`, `AI/PIP_AI_Constitution.md`
@@ -71,6 +71,7 @@ The following table identifies which additional PIP AI OS documents shall be loa
 | Request Type | PIP AI OS Documents to Load | Notes |
 |---------------|-------------------------|-------|
 | Every PIP task, including ordinary conversation and advice, planning and analysis, document work, repository work, Knowledge Curation System work, Research Origin Curator work, Knowledge Integration Technician work, and software or application work. | `AI/Context/PIP_System_Terminology_Context.md` | Compact operational terminology reference. The PIP System Identity and Naming Standard (SINS-001) remains authoritative. |
+| Every PIP task requiring written output, including ordinary chat responses, documents, prompts, correspondence, research summaries and public copy. | `AI/Skills/Writing_Skill.md` | Governs written expression, including purpose, audience, voice, clarity, economy, directness and preservation of meaning. Apply it with every other Skill or Context document required for the task. |
 | Authoritative naming interpretation; naming conflict or uncertainty; document creation or editing; renaming; or terminology-governance work. | `Standards/PIP_System_Identity_and_Naming_Standard.md` | Authoritative naming Standard. |
 | Creating, drafting, reviewing, revising, restructuring, formatting, reconciling or converting a PIP document. | `AI/Skills/Document_Creation_and_Editing_Skill.md`; `Standards/PIP_System_Identity_and_Naming_Standard.md` | The Skill governs document content and preparation. SINS-001 governs naming and terminology. |
 | Creating or changing repository files; selecting or confirming repository paths; moving or synchronising controlled assets; inspecting repository status or changes; retrieving remote state; committing or pushing; or verifying repository state. | `AI/Skills/CORE_Integration_Skill.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md` | The Skill distinguishes working-draft synchronisation from official CORE integration and supports local Git checkouts and authorised GitHub connectors. The Standard governs asset status, authority and lifecycle. This entry becomes active only through the coordinated installation in Section 8. |
