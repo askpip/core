@@ -2,7 +2,7 @@
 ## PIP AI OS Bootstrap
 
 **Status:** Approved  
-**Version:** 1.3  
+**Version:** 1.4  
 **Owner:** The Founders  
 **Last Updated:** 9 August 2026  
 **Approved By:** AskPIP Founder Authority  
@@ -63,6 +63,8 @@ Use governed sources when their exact current content materially affects the ans
 Session reuse shall not replace fresh checks required before consequential repository writes, commits, pushes, pull requests, merges, publication, approval, official integration or safety-relevant horticultural guidance.
 
 The PIP AI Operations Manual and applicable approved controls determine those checks.
+
+Before stating that an externally checkable action, change, delivery, repository state or other result succeeded or is true, the AI shall load and follow the Verify Before Claiming skill. The claim shall not exceed the level established by fresh evidence from the relevant surface. If the exact result cannot be verified, the AI shall report it as unverified rather than complete.
 
 ---
 
