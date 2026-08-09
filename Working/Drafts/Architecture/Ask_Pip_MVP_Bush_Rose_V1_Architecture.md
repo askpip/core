@@ -7,10 +7,10 @@
 **Version:** Unassigned - Founder decision required  
 **Status:** Draft  
 **Owner:** The Founders  
-**Last Updated:** 4 August 2026  
+**Last Updated:** 9 August 2026  
 **Working Location:** `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`  
 **Proposed Permanent Location:** Founder decision required  
-**Purpose:** To define the first bounded minimum viable product implementation of the Ask Pip application, supporting Bush Rose V1 as its first Plant Profile type and plant-knowledge domain, and establish the boundaries that an implementable specification must follow.  
+**Purpose:** To define the bounded first implementation of Ask Pip for Bush Rose V1, including guided plant-health care and end-to-end dormant-rose pruning guidance, while preserving the complete continuation journey and the boundaries an implementable specification must follow.  
 **Authority Source:** Founder-approved Founder Direction Brief – Guided Bush Rose MVP  
 **Related Documents:** `Foundations/AskPIP_Vision_Statement.md`; `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`
 
@@ -67,7 +67,14 @@ For at least one Bush Rose Profile, the gardener shall be able to complete a ful
 7. receive relevant follow-up guidance and optional reminders; and
 8. record the outcome in the Bush Rose Profile's history.
 
-The complete cycle shall include guided pruning education and a gardener-led pruning assessment for Sarah’s Rose.
+The initial implementation shall deliver Chapters 1–5 of Marie’s selected journey. It shall include guided black-spot care and an end-to-end dormant-season pruning journey that helps the gardener understand how, why and when to prune, assess the actual rose, compare supported choices, record completed or deferred actions and return for follow-up.
+
+The product shall support at least two entry conditions:
+
+- a newly added rose requiring general or plant-health guidance; and
+- an existing dormant bush rose whose gardener wants pruning guidance immediately.
+
+A gardener shall not be required to complete Marie’s chronology or wait for a simulated seasonal transition before entering a supported pruning journey.
 
 The MVP succeeds as a product demonstration when that complete cycle can operate without requiring automated interpretation of the rose's physical appearance.
 
@@ -152,14 +159,16 @@ The first MVP shall include:
 - optional capture and storage of multiple gardener-supplied photographs, including multiple views and before-and-after sequences, as linked evidence and historical records;
 - relevant explanations of the value of photographs to the gardener and continuing plant record;
 - manual entry of all relevant label, cultivar, location and planting information supplied through reliable records or gardener input;
-- optional use of an available label-reading capability to propose a transcription for gardener confirmation or correction while preserving the original as supporting evidence;
 - gardener-supplied observations captured through guided questions;
 - verified reference material where required to help the gardener observe or compare;
 - contextual answers grounded in approved operational knowledge with material uncertainty stated explicitly;
 - a guided black-spot care episode that uses gardener-confirmed observations and individual plant context to explain when the reported pattern is consistent with rose black spot, provide practical supported care choices and assess the outcome at follow-up;
-- guided pruning education that helps the gardener understand why, when and how to consider pruning;
+- guided pruning education that helps the gardener understand how, why and when to consider pruning;
+- confirmation that dormant-season pruning is appropriate for the individual rose and local context before cut planning begins;
 - gardener-led pruning assessment using profile context, approved operational knowledge and gardener-confirmed observations;
-- supported pruning choices, preparation, decisions, completed actions and outcomes;
+- supported pruning choices, safe preparation, decisions, deferred choices, completed actions and outcomes;
+- a requirement that the gardener identify and confirm the relevant structure on the actual rose before acting;
+- clear boundaries for leaving a cane alone, deferring a cut or seeking experienced assistance when structure, timing or safety cannot be established;
 - recording of decisions, deferred decisions, care actions and outcomes;
 - optional, gardener-controlled reminders linked to the relevant Plant Profile and care cycle; and
 - follow-up guidance that continues from an earlier interaction.
@@ -174,6 +183,9 @@ The first MVP shall not claim to:
 - identify a cultivar from the rose's physical appearance;
 - represent text extracted from a label as independent visual identification of the plant;
 - provide automated cut-by-cut pruning overlays;
+- infer or prescribe a safe pruning cut from an uninterpreted photograph;
+- proceed with a pruning cut where the gardener cannot confirm the relevant structure, timing or safe working conditions;
+- provide automated label transcription as a required first-implementation capability;
 - treat something not visible in a photograph as absent; or
 - present uncertain possibilities as established conclusions.
 
@@ -390,9 +402,13 @@ The specification may use different interface wording, but it shall preserve the
 
 # 9. Selected Guided-Care Journey
 
-The selected first journey is the minimum viable product (MVP) retelling of the approved *Marie’s Story*, defined in `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`.
+The selected journey is the minimum viable product (MVP) retelling of the approved *Marie’s Story*, defined in `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`.
 
-It shall preserve the vision story’s audience, problem, solution, emotional promise and complete narrative arc. Where the vision uses plant-image interpretation, the MVP shall instead help Marie inspect Sarah’s Rose, describe what she sees and confirm the observations used in reasoning. The implementable specification shall support the resulting journey, including its reminders, guided black-spot care, recovery, seasonal learning, pruning, Garden Journal continuity and Marie’s growing confidence. This architecture governs the underlying system and information behaviour; it shall support the journey without compressing or reshaping Marie’s experience.
+Chapters 1–5 define the initial implementation. They shall deliver plant onboarding, guided observation, black-spot care and follow-up, dormant-season suitability assessment, structural observation, pruning planning, supported cuts or deferrals, recorded actions and pruning follow-up. Dormant-rose pruning is a founding product outcome, not an optional continuation capability.
+
+Chapters 6–8 define the approved continuation journey. They demonstrate Garden Journal continuity, contextual questions and Marie’s longer-term growth in understanding. The architecture shall remain compatible with those chapters, but their complete implementation is not required for the initial build.
+
+Where the vision uses plant-image interpretation, the MVP shall instead help Marie inspect Sarah’s Rose, describe what she sees and confirm the observations used in reasoning. This architecture governs the underlying system and information behaviour; the journey document governs Marie’s experience.
 
 # 10. Knowledge Curation System Relationship
 
@@ -430,7 +446,9 @@ The implementable specification shall preserve:
 
 *Marie’s Story* remains the approved vision story for Ask Pip. It defines the audience, the problem Ask Pip solves, the help and support it provides and the emotional outcome for the gardener. Marie’s MVP journey shall be recognisably the same story, delivered through the capabilities of the first build.
 
-The principal adaptation is the source of plant interpretation. Marie supplies and confirms textual descriptions through guided conversation instead of Ask Pip interpreting the rose’s physical appearance from photographs. Photographs remain part of Sarah’s Rose’s history. The welcome, personal meaning, reminders, black-spot help and recovery, seasonal support, pruning education, Garden Journal continuity and Marie’s growth in understanding remain part of the MVP story.
+The principal adaptation is the source of plant interpretation. Marie supplies and confirms textual descriptions through guided conversation instead of Ask Pip interpreting the rose’s physical appearance from photographs. Photographs remain part of Sarah’s Rose’s history.
+
+The initial implementation preserves the welcome, personal meaning, reminders, black-spot help and recovery, and the complete dormant-season pruning outcome through Chapters 1–5. Chapters 6–8 preserve Garden Journal continuity, contextual questions and Marie’s longer-term growth in understanding as continuation scenarios.
 
 The deferred capabilities listed in Section 5.2 remain outside the first MVP.
 
@@ -438,7 +456,9 @@ The deferred capabilities listed in Section 5.2 remain outside the first MVP.
 
 After Founder approval of this architecture and the selected journey, the next controlled document shall be an implementable MVP specification.
 
-The specification shall define the interfaces, data structures, validation, operational knowledge, reasoning, history, black-spot guidance, pruning guidance, reminders, follow-up, failure behaviour and tests needed to deliver Marie’s MVP story while preserving its narrative outcomes and this architecture’s relationships and boundaries. Optional label reading shall be specified only if selected for implementation.
+The specification shall define the interfaces, data structures, validation, operational knowledge, reasoning, history, black-spot guidance, pruning suitability checks, structural assessment, supported pruning choices, safety and deferral behaviour, reminders, follow-up, failure behaviour and tests needed to deliver Chapters 1–5 while preserving this architecture’s relationships and boundaries.
+
+It shall also identify the compatibility requirements needed to support Chapters 6–8 later without treating those chapters as part of the initial implementation.
 
 The specification shall not commence software development or approve technology choices unless the Founders separately authorise those actions.
 
@@ -448,8 +468,9 @@ The Founders must determine:
 
 1. the approved version for this architecture document;
 2. its permanent PIP CORE location;
-3. whether the proposed source categories and observation lifecycle accurately express the approved product direction; and
-4. whether any amendment is required before the document enters Founder review.
+3. whether the proposed source categories and observation lifecycle accurately express the approved product direction;
+4. whether Chapters 1–5 accurately define the initial implementation and Chapters 6–8 the continuation journey; and
+5. whether any amendment is required before the document enters Founder review.
 
 ---
 
