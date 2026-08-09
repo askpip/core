@@ -3,11 +3,11 @@
 **Document Title:** PIP AI Operations Manual  
 **Repository:** PIP CORE  
 **Folder:** AI  
-**Version:** 0.5 (Proposed)  
-**Status:** Draft  
+**Version:** 0.5  
+**Status:** Approved  
 **Owner:** The Founders  
 **Last Updated:** 9 August 2026  
-**Approved By:** Pending Founder approval  
+**Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AI/PIP_AI_Operations_Manual.md`  
 **Purpose:** To define proportionate, session-based operating procedures for artificial intelligence (AI) systems working within the Plant Intelligence Platform (PIP).  
 **Authority:** PIP Artificial Intelligence Operating System (PIP AI OS)  
