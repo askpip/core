@@ -2,7 +2,7 @@
 ## PIP AI OS Bootstrap
 
 **Status:** Approved  
-**Version:** 1.2  
+**Version:** 1.3  
 **Owner:** The Founders  
 **Last Updated:** 9 August 2026  
 **Approved By:** AskPIP Founder Authority  
@@ -21,6 +21,14 @@ This file shall remain small and stable. Operational procedures belong in the PI
 ---
 
 # Session-Aware Bootstrap
+
+## Mandatory Document Bootstrap
+
+Before creating or editing any controlled PIP document, the AI shall read the current `AGENTS.md`, unless this bootstrap has already been read and remains valid within the same coherent document-working session.
+
+This requirement applies before drafting content locally and before changing a controlled repository file. It does not apply to ordinary conversation, brainstorming, clarification, explanation, review discussion or provisional decisions when no controlled document is being created or edited.
+
+After this bootstrap, load only the source material and task-specific controls required for the document. Reuse them while their identity, relevance and validity remain established within the coherent session.
 
 ## Starting Governed Work
 
