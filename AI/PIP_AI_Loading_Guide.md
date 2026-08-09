@@ -4,7 +4,7 @@
 **Repository:** PIP CORE  
 **Parent Platform:** Plant Intelligence Platform (PIP)  
 **Folder:** AI  
-**Version:** 0.6  
+**Version:** 0.7  
 **Status:** Approved  
 **Owner:** The Founders  
 **Approved By:** AskPIP Founder Authority  
@@ -47,7 +47,7 @@ Conversation may proceed from visible context unless a governed fact is material
 | Operating mode | Default loading | Revalidation boundary |
 |---|---|---|
 | Conversation | None solely because the topic concerns PIP. Retrieve a current source only when exact governed facts, wording, status or decisions materially affect the answer. | When the task changes mode, requires a current governed fact, or enters a safety-relevant domain. |
-| Drafting | Current source assets plus the specific writing, document, naming or domain controls needed for the planned changes. | Before the consequential write and when source or scope changes. |
+| Drafting | Current `AGENTS.md` bootstrap, unless it remains valid in the same coherent document-working session; current source assets; `AI/Skills/Document_Creation_and_Editing_Skill.md`; `AI/Skills/Writing_Skill.md`; and only the additional naming or domain controls needed for the planned changes. | Before the first controlled document creation or edit, before the consequential write, and when source or scope changes. |
 | Integration | Current source assets, CORE Integration Skill, PIP CORE Asset Lifecycle Standard, and any control governing the affected asset. | Immediately before consequential repository actions and again when concurrent-change evidence requires it. |
 
 # 4. Loading Index
@@ -57,7 +57,8 @@ Conversation may proceed from visible context unless a governed fact is material
 | General conversation, brainstorming, clarification, advice or provisional decisions | No universal AI OS document load. | Use visible session context. Retrieve an authoritative source only if its exact current content materially affects the response. |
 | Interpreting official PIP terminology or resolving a naming conflict | `AI/Context/PIP_System_Terminology_Context.md` | Load the full naming Standard only when authoritative interpretation, document naming or a conflict requires it. |
 | Preparing polished controlled written content | `AI/Skills/Writing_Skill.md` | Not required for short ordinary chat, acknowledgements or option selections. |
-| Creating, reviewing or revising a controlled PIP document | `AI/Skills/Document_Creation_and_Editing_Skill.md`; the current source document; `Standards/PIP_System_Identity_and_Naming_Standard.md` when naming or metadata is affected | Combine with applicable domain controls. |
+| Creating or revising a controlled PIP document | Current `AGENTS.md` bootstrap, unless it remains valid in the same coherent document-working session; `AI/Skills/Document_Creation_and_Editing_Skill.md`; `AI/Skills/Writing_Skill.md`; the current source document; `Standards/PIP_System_Identity_and_Naming_Standard.md` when naming or metadata is affected | Both Skills are mandatory for controlled document creation and revision. Combine them with only the applicable domain controls. |
+| Reviewing a controlled PIP document without editing it | `AI/Skills/Document_Creation_and_Editing_Skill.md`; the current source document; `AI/Skills/Writing_Skill.md` only when the review evaluates writing quality | Conversation Mode may be sufficient. Load additional controls only when their exact requirements materially affect the review. |
 | Repository inspection with no write | `AI/Skills/CORE_Integration_Skill.md` only when the inspection concerns controlled integration, synchronisation, lifecycle or publication state | Basic repository facts may be retrieved directly when no governed interpretation is required. |
 | Creating or changing repository files, commits, branches or pull requests; synchronising; moving; publishing; approving; or officially integrating controlled assets | `AI/Skills/CORE_Integration_Skill.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`; any document or domain control governing the affected asset | Current branch, commit and blob evidence is required. Conversation-mode cache does not replace consequential-write checks. |
 | Safety-relevant horticultural guidance | Current approved operational knowledge and applicable safety or uncertainty controls | General product discussion about future horticultural features is not itself operational guidance. |
