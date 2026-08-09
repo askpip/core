@@ -7,14 +7,25 @@
 **Version:** Unassigned - Founder decision required  
 **Status:** Draft  
 **Owner:** The Founders  
-**Last Updated:** 4 August 2026  
+**Last Updated:** 9 August 2026  
 **Working Location:** `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`  
 **Proposed Permanent Location:** Founder decision required  
-**Purpose:** To retell the approved *Marie’s Story* through the first buildable Ask Pip minimum viable product, preserving its audience, problem, solution and emotional promise while using Marie’s descriptions and confirmed observations in place of plant-image interpretation.  
+**Purpose:** To define Marie’s complete Bush Rose V1 product journey while establishing Chapters 1–5 as the initial minimum viable product implementation, including end-to-end guidance on how, why and when to prune a dormant bush rose.  
 **Authority Sources:** `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`  
 **Related Documents:** `Foundations/Maries_Story.md`; `Working/Drafts/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`
 
 ---
+
+# Initial Implementation Boundary
+
+Chapters 1–5 define the initial minimum viable product (MVP) implementation. Together they shall demonstrate both central guided-care outcomes:
+
+1. helping Marie observe, understand and respond to a developing plant-health concern; and
+2. helping Marie understand how, why and when to prune her dormant bush rose, assess its structure, make supported choices and record the result.
+
+Chapters 6–8 remain the approved continuation journey that the architecture shall support. They demonstrate Garden Journal continuity, contextual questions and longer-term growth in Marie’s understanding, but they are not required for the initial implementation.
+
+The product shall not require a gardener to wait through Marie’s chronology. A gardener who adds an existing dormant bush rose shall be able to begin the pruning assessment when the available plant context and approved operational knowledge support it.
 
 # Chapter 1 — Meeting Sarah’s Rose
 
@@ -46,7 +57,7 @@ Pip welcomed her:
 
 > “Let’s get to know your new plant.”
 
-Pip asked what kind of plant it was, what Marie knew about it and whether it still had its nursery label. Marie found the label and typed in the cultivar and the useful information printed on it. If label reading is available in the MVP, she may photograph the label and confirm or correct the proposed text instead.
+Pip asked what kind of plant it was, what Marie knew about it and whether it still had its nursery label. Marie found the label and typed in the cultivar and the useful information printed on it.
 
 Pip then asked:
 
@@ -80,7 +91,7 @@ Pip explained that aphids on tender new growth and black spot on the leaves were
 
 Finally, Pip added:
 
-> “Sarah’s Rose won’t need pruning just yet. Winter is usually the time to look at a bush rose’s structure and decide what, if anything, needs pruning.”
+> “Sarah’s Rose won’t need pruning just yet. When it approaches dormancy and local conditions are suitable, we can look at its structure and decide what, if anything, needs pruning.”
 
 Then it asked:
 
@@ -208,13 +219,15 @@ She no longer felt like someone who simply owned a rose. She felt like someone l
 
 At the beginning of winter, Marie received the reminder she had accepted when Sarah’s Rose was first added:
 
-> **It’s time to look at Sarah’s Rose for winter pruning.**
+> **It’s time to assess Sarah’s Rose for dormant-season pruning.**
 >
-> Winter is the time to understand the rose’s structure before deciding what, if anything, should be pruned. Would you like to assess it together?
+> Sarah’s Rose appears to be dormant, and the timing is suitable for the rose and Marie’s local conditions. Would you like to assess its structure together before deciding what, if anything, should be pruned?
 
 Marie smiled. Pruning had once felt intimidating. She had worried about removing the wrong branch or damaging the plant. Now she felt curious.
 
-Pip began by explaining that pruning was not simply about removing branches. It was about understanding how the rose grew and helping it develop into a healthy, balanced plant.
+Before beginning, Pip confirmed the season, Marie’s location, the rose’s recent growth and whether it showed signs that made pruning inappropriate or uncertain. If the available information did not support pruning, Pip would explain why, defer the session and help Marie decide what to observe or when to return.
+
+Pip then explained that pruning was not simply about removing branches. It was about understanding how the rose grew and helping it develop into a healthy, balanced plant.
 
 Before discussing a cut, Pip taught Marie how to examine Sarah’s Rose from the base upward. It explained the difference between dead and living wood and asked Marie to check colour, flexibility and the condition beneath a small surface scratch where that was safe and appropriate. It helped her look for thick framework canes, vigorous new basal shoots, weak or damaged stems, crossing growth and stems growing into the centre.
 
@@ -248,7 +261,7 @@ The reminder opened the saved structural assessment:
 
 > “Welcome back, Marie. Last time, we explored the structure of Sarah’s Rose. Today, we’ll use what you recorded to make a pruning plan. We’ll consider every choice before you begin.”
 
-Pip first helped Marie prepare: clean, sharp secateurs; suitable gloves; a stable working position; and a clear way to dispose of diseased material.
+Pip first helped Marie prepare: clean, sharp secateurs; suitable gloves and eye protection; a stable working position; and a clear way to dispose of diseased material. It reminded her to stop if she could not confidently trace or identify a cane, if a cut would require unsafe reach or force, or if the rose presented a condition outside the supported guidance. In those cases, Pip would help her defer the cut or seek experienced assistance.
 
 It began with the dead cane Marie had identified. Pip asked her to confirm the signs again and explained:
 
@@ -262,7 +275,9 @@ Pip explained that growth into the centre could create congestion, rubbing and p
 
 Pip helped her compare the supported choices. Marie decided to remove it and understood her reason for doing so.
 
-They continued in the same way. Some choices were straightforward. Others prompted questions. Pip explained the reasoning in plain language and, where more than one approach was horticulturally acceptable, explained the alternatives. Marie decided what she was comfortable doing and recorded each completed action.
+They continued in the same way. Before each proposed cut, Marie identified the cane on the actual rose, confirmed the relevant observation and heard the reason for the choice. Some choices were straightforward. Others prompted questions. Pip explained the reasoning in plain language and, where more than one approach was horticulturally acceptable, explained the alternatives, including leaving the cane alone. Marie decided what she was comfortable doing and recorded each completed action.
+
+Pip did not infer a safe cut from a photograph or treat uncertainty as permission to proceed. When Marie could not confirm the structure, the cut remained deferred.
 
 When she finished, Marie photographed Sarah’s Rose again. The before-and-after photographs sat together in its Garden Journal. Marie could see that the centre was more open and the framework easier to understand because she knew what had changed and why.
 
@@ -282,6 +297,10 @@ Pip explained:
 Marie accepted the follow-up reminder.
 
 Only a few months earlier, she would have stood beside the rose wondering which branches to cut. Now she understood why every cut had been made. Ask Pip had not simply told her where to prune. It had taught her how to think like a gardener.
+
+# Continuation Journey
+
+The following chapters describe required continuation scenarios for Bush Rose V1. They shall remain compatible with the initial implementation and guide later implementation, but they are outside the Chapters 1–5 initial build boundary.
 
 # Chapter 6 — The Garden Journal
 
@@ -405,13 +424,29 @@ Ask Pip had helped one gardener grow in understanding, one conversation at a tim
 
 ---
 
+# Initial MVP Acceptance Criteria
+
+The initial implementation is demonstrated when:
+
+1. Marie can create Sarah’s Rose as an individual Bush Rose Profile with its chosen name, known cultivar information, optional personal meaning and continuing history.
+2. Marie can complete guided observation, confirmation, reasoning, care choice, recorded action and follow-up for the black-spot episode.
+3. A gardener adding an existing dormant bush rose can enter the pruning journey without completing the earlier chronological episodes.
+4. Ask Pip establishes whether dormant-season pruning is appropriate using the available rose context, local conditions and approved operational knowledge; otherwise it defers guidance and explains the next step.
+5. Marie can assess the rose’s structure through guided observation before planning a cut.
+6. Pip explains why, when and how each supported pruning choice may apply and presents leaving, deferring or seeking experienced help where appropriate.
+7. Marie confirms the relevant structure on the actual rose before each cut and remains the decision-maker.
+8. The product does not infer a safe cut from an uninterpreted photograph or proceed where Marie cannot confirm the structure.
+9. Planned pruning, completed cuts, deferred choices, photographs, reasons and follow-up remain distinguishable in Sarah’s Rose’s history.
+10. The pruning journey ends with a recorded outcome and an optional follow-up linked to the same care cycle.
+
 # Founder Review Decisions
 
 Before this journey becomes an approved input to the implementable specification, the Founders shall determine:
 
-1. whether to approve this as the first MVP journey;
-2. the approved version; and
-3. the permanent PIP CORE location.
+1. whether Chapters 1–5 accurately define the initial MVP implementation;
+2. whether Chapters 6–8 accurately define the approved continuation journey;
+3. the approved version; and
+4. the permanent PIP CORE location.
 
 ---
 
