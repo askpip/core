@@ -3,7 +3,7 @@
 **Document Title:** PIP AI Operations Manual  
 **Repository:** PIP CORE  
 **Folder:** AI  
-**Version:** 0.5  
+**Version:** 0.6  
 **Status:** Approved  
 **Owner:** The Founders  
 **Last Updated:** 9 August 2026  
@@ -86,6 +86,8 @@ In this mode:
 ## 4.2 Drafting Mode
 
 Drafting Mode covers creating or revising controlled content without official integration.
+
+Before creating or editing any controlled PIP document, the AI shall read the current `AGENTS.md`, unless that bootstrap has already been read and remains valid within the same coherent document-working session. It shall then use the Loading Guide to load only the current source material and task-specific controls required for the document.
 
 Before a consequential draft write, the AI shall establish the source version, granted scope, applicable writing or domain controls, and intended draft status and location.
 
