@@ -4,7 +4,7 @@
 **Repository:** PIP CORE  
 **Parent Platform:** Plant Intelligence Platform (PIP)  
 **Folder:** AI  
-**Version:** 0.7  
+**Version:** 0.8  
 **Status:** Approved  
 **Owner:** The Founders  
 **Approved By:** AskPIP Founder Authority  
@@ -42,6 +42,10 @@ Load the smallest set that governs the actual actions. When a task has several a
 
 Conversation may proceed from visible context unless a governed fact is material. Drafting requires the applicable source and content controls. Integration and safety-relevant guidance require current authoritative evidence for the affected action.
 
+## 2.5 Evidence Before Claims
+
+Before stating that an externally checkable action, change, delivery, repository state or other result succeeded or is true, load and follow the Verify Before Claiming skill. Apply it only when such a claim is being made; ordinary conversation does not require it otherwise.
+
 # 3. Mode-Based Selection
 
 | Operating mode | Default loading | Revalidation boundary |
@@ -60,6 +64,7 @@ Conversation may proceed from visible context unless a governed fact is material
 | Creating or revising a controlled PIP document | Current `AGENTS.md` bootstrap, unless it remains valid in the same coherent document-working session; `AI/Skills/Document_Creation_and_Editing_Skill.md`; `AI/Skills/Writing_Skill.md`; the current source document; `Standards/PIP_System_Identity_and_Naming_Standard.md` when naming or metadata is affected | Both Skills are mandatory for controlled document creation and revision. Combine them with only the applicable domain controls. |
 | Reviewing a controlled PIP document without editing it | `AI/Skills/Document_Creation_and_Editing_Skill.md`; the current source document; `AI/Skills/Writing_Skill.md` only when the review evaluates writing quality | Conversation Mode may be sufficient. Load additional controls only when their exact requirements materially affect the review. |
 | Repository inspection with no write | `AI/Skills/CORE_Integration_Skill.md` only when the inspection concerns controlled integration, synchronisation, lifecycle or publication state | Basic repository facts may be retrieved directly when no governed interpretation is required. |
+| Reporting an externally checkable action, change, delivery, repository state or other result as successful or true | Verify Before Claiming skill | Obtain fresh evidence after the final action and verify the exact claimed result on the relevant surface. If exact verification is unavailable, report the result as unverified rather than complete. |
 | Creating or changing repository files, commits, branches or pull requests; synchronising; moving; publishing; approving; or officially integrating controlled assets | `AI/Skills/CORE_Integration_Skill.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`; any document or domain control governing the affected asset | Current branch, commit and blob evidence is required. Conversation-mode cache does not replace consequential-write checks. |
 | Safety-relevant horticultural guidance | Current approved operational knowledge and applicable safety or uncertainty controls | General product discussion about future horticultural features is not itself operational guidance. |
 | Knowledge Curation System, Research Origin Curator or Knowledge Integration Technician work | Only the approved Skill, manual, Standard and Context documents governing the requested role and action | Do not load unrelated role documents. |
