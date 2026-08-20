@@ -16,9 +16,7 @@ export function AuthGate() {
     <div className="flex h-full flex-col">
       <AppHeader />
 
-      <div className="flex-1" />
-
-      <div className="shrink-0 px-4 pb-6">
+      <div className="px-4 pt-6">
         <ChatBubble>
           Hi, I'm Pip! Log in or create an account to keep your plant journal safe.
         </ChatBubble>

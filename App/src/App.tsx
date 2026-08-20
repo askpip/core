@@ -9,8 +9,10 @@ import { PlantProject } from '@/pages/PlantProject'
 function App() {
   return (
     <HashRouter>
-      <div className="flex min-h-screen items-center justify-center bg-pip-bg-deep p-4">
-        <div className="relative h-[812px] max-h-[92vh] w-[375px] max-w-full overflow-hidden rounded-[2.5rem] bg-pip-bg shadow-2xl ring-8 ring-black/80">
+      {/* Full-bleed on an actual phone — the rounded, bordered "phone mockup" is a desktop-only
+          preview convenience and would just waste real screen space on a real device. */}
+      <div className="min-h-dvh bg-pip-bg-deep sm:flex sm:min-h-screen sm:items-center sm:justify-center sm:p-4">
+        <div className="relative h-dvh w-full overflow-hidden bg-pip-bg sm:h-[812px] sm:max-h-[92vh] sm:w-[375px] sm:max-w-full sm:rounded-[2.5rem] sm:shadow-2xl sm:ring-8 sm:ring-black/80">
           <Routes>
             <Route path="/" element={<AuthGate />} />
             <Route path="/welcome" element={<Welcome />} />
