@@ -85,9 +85,7 @@ export function NewPlant() {
     <div className="flex h-full flex-col">
       <AppHeader />
 
-      <div className="flex-1" />
-
-      <div className="shrink-0 px-4 pb-6">
+      <div className="px-4 pt-6">
         <motion.div
           key={question.id}
           initial={{ opacity: 0, y: 12 }}
