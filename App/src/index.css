@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pip-bg: #e3f2e2;
+  --color-pip-bg-deep: #d3e9d0;
+  --color-pip-card: #ffffff;
+  --color-pip-text: #22331f;
+  --color-pip-text-soft: #56695a;
+  --color-pip-primary: #4f7942;
+  --color-pip-primary-hover: #416334;
+  --color-pip-secondary: #cfe3c8;
+  --color-pip-secondary-hover: #bdd6b4;
+  --color-pip-border: #c7ddc2;
+  --color-pip-tan: #e0a872;
+  --color-pip-tan-dark: #c98f57;
+  --color-pip-beanie: #6b7350;
+  --color-pip-blush: #f0a598;
+
+  --font-sans: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-script: 'Dancing Script', cursive;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-pip-bg);
+  color: var(--color-pip-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .input {
+    @apply rounded-xl border border-pip-border bg-pip-card px-3.5 py-2.5 text-sm text-pip-text outline-none transition-colors focus:border-pip-primary;
+  }
+}

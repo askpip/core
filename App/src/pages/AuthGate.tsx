@@ -1,0 +1,36 @@
+import { useNavigate } from 'react-router-dom'
+import { AppHeader } from '@/components/AppHeader'
+import { ChatBubble } from '@/components/ChatBubble'
+import { ResponseBubble } from '@/components/ResponseBubble'
+import { Button } from '@/components/Button'
+
+/**
+ * Placeholder entry gate — Log In / Create Account aren't wired to real
+ * auth yet (no Supabase session, no backend). Both just continue through
+ * to the Welcome screen for now; swap in real auth here when it's ready.
+ */
+export function AuthGate() {
+  const navigate = useNavigate()
+
+  return (
+    <div className="flex h-full flex-col">
+      <AppHeader />
+
+      <div className="flex-1" />
+
+      <div className="shrink-0 px-4 pb-6">
+        <ChatBubble>
+          Hi, I'm Pip! Log in or create an account to keep your plant journal safe.
+        </ChatBubble>
+        <ResponseBubble>
+          <div className="flex flex-col gap-2.5">
+            <Button onClick={() => navigate('/welcome')}>Log In</Button>
+            <Button variant="secondary" onClick={() => navigate('/welcome')}>
+              Create Account
+            </Button>
+          </div>
+        </ResponseBubble>
+      </div>
+    </div>
+  )
+}
