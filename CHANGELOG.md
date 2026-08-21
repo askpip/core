@@ -10,6 +10,7 @@ Git provides the complete technical history of the repository. This changelog re
 
 ### Added
 
+- Approved and integrated the Knowledge Curation System (KCS) governance package into the new `Knowledge Curation System/` top-level folder: PIP Research Origin Curator (ROC) Charter (Version 0.02), Mother Information Library (MIL) Standard (Version 0.01), PIP Evidence Assessment Standard (Version 1.0), PIP Knowledge Integration Workflow (Version 0.01) and PIP Research Origin Curator (ROC) Operations Manual (Version 2.0). Approved below Version 1.0 where applicable for controlled early use and testing, per the PIP CORE Asset Lifecycle Standard. Working drafts remain in `Working/Drafts/Knowledge Curation System/` for history.
 - Approved PIP AI Operations Manual Version 0.4 and removed the stale word “proposed” from its PIP AI OS document listing.
 - Approved and integrated the PIP CORE Asset Lifecycle Standard (Document ID RDL-001, Version 0.2).
 - Approved and completed the coordinated integration of the PIP Artificial Intelligence Operating System (PIP AI OS) bootstrap package: PIP AI OS Bootstrap Version 1.1, PIP AI Operations Manual Version 0.3, PIP AI Constitution Version 0.2, PIP AI Loading Guide Version 0.3, PIP System Terminology Context (Document ID PSTC-001) Version 0.1 and Document Creation and Editing Skill Version 0.2; activated the universal Terminology Context and replaced the obsolete AskPIP AI OS filenames and paths.
