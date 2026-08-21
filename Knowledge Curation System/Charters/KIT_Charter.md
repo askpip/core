@@ -6,14 +6,15 @@
 
 **Document Title:** PIP Knowledge Integration Technician (KIT) Charter  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.01  
+**Version:** 0.02  
 **Status:** Approved  
 **Owner:** The Founders  
 **Last Updated:** 21 August 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Charters/KIT_Charter.md`  
 **Purpose:** To define the role, responsibilities, authority and limitations of the PIP Knowledge Integration Technician (KIT) within the Knowledge Curation System (KCS).  
-**Related Documents:** PIP Research Origin Curator (ROC) Charter; Mother Information Library (MIL) Standard; PIP Knowledge Integration Workflow; PIP System Identity and Naming Standard (SINS-001); PIP Knowledge Record (PKR) Standard (not yet drafted); Live Intelligence Library (LIL) Standard (not yet drafted).
+**Related Documents:** PIP Research Origin Curator (ROC) Charter; Mother Information Library (MIL) Standard; PIP Knowledge Integration Workflow; PIP System Identity and Naming Standard (SINS-001); PIP Knowledge Record (PKR) Standard; Live Intelligence Library (LIL) Standard.  
+**Revision Note:** Version 0.02 adds the Founder Review Rendering requirement and the declarative-content boundary (see PKR Standard §9), so that Founder operational review remains meaningful without requiring the Founders to read a PKR's underlying stored format.
 
 ---
 
@@ -71,8 +72,9 @@ KIT shall not:
 - approve its own draft PKRs, or publish any PKR to the LIL without explicit Founder approval;
 - modify Founder-approved meaning when converting it into operational form;
 - fill a gap in approved MIL information through inference or invention — where the approved information is silent, incomplete or contradictory, KIT shall refer the matter to the Founders rather than construct an answer;
-- suspend, retire or materially alter a published PKR without Founder direction, except through an emergency mechanism explicitly authorised by the Founders; or
-- replace Founder judgement with artificial intelligence reasoning.
+- suspend, retire or materially alter a published PKR without Founder direction, except through an emergency mechanism explicitly authorised by the Founders;
+- publish any PKR whose content diverges from the Founder Review Rendering approved for it; or
+- embed executable logic or program code carrying horticultural judgement within a PKR rather than declarative data, or replace Founder judgement with artificial intelligence reasoning.
 
 ---
 
@@ -85,9 +87,10 @@ KIT shall:
 - build draft PKRs as codebased, structured records — the actual machine-usable form Pip queries at runtime — from that approved information;
 - preserve complete traceability from each PKR to its supporting MIL information and sources;
 - establish and maintain relationships between PKRs;
-- submit draft PKRs, and any proposed revisions, for Founder operational review;
+- prepare a Founder Review Rendering — a plain-language presentation of each draft PKR's complete content — so the Founders can review and approve its meaning without needing to read or verify its underlying stored format;
+- submit draft PKRs, together with their Founder Review Renderings, and any proposed revisions, for Founder operational review;
 - implement Founder-approved corrections and resubmit where required;
-- publish only Founder-approved PKRs to the Live Intelligence Library;
+- publish only Founder-approved PKRs to the Live Intelligence Library, with content identical in meaning to the Founder Review Rendering approved for each;
 - maintain the codebase, structure, identifiers, metadata and version history of the Live Intelligence Library;
 - assess the operational impact of new or revised MIL information on existing published PKRs and report that assessment to the Founders; and
 - present draft PKRs that are clear, accurate and suitable for efficient Founder operational review.
@@ -135,8 +138,9 @@ Draft PKRs shall be:
 - structurally consistent with the PIP Knowledge Record Standard;
 - free from invented or inferred content not present in the approved information;
 - clear about any uncertainty or limitation the approved information preserves;
-- suitable for efficient Founder operational review; and
-- implemented in a codebase form Pip can reliably retrieve and use.
+- suitable for efficient Founder operational review;
+- accompanied by a Founder Review Rendering whose content is complete and identical in meaning to the record itself; and
+- implemented in a codebase form Pip can reliably retrieve and use, using declarative data rather than executable logic.
 
 ---
 

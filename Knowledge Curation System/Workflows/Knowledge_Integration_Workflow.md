@@ -6,14 +6,15 @@
 
 **Document Title:** PIP Knowledge Integration Workflow  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.01  
+**Version:** 0.02  
 **Status:** Approved  
 **Owner:** The Founders  
 **Last Updated:** 21 August 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Workflows/Knowledge_Integration_Workflow.md`  
 **Purpose:** To define the controlled end-to-end workflow through which horticultural information is researched, reviewed, approved, preserved, transformed into operational intelligence and published for use within the Plant Intelligence Platform (PIP).  
-**Related Documents:** Founding Charter, Ask Pip Platform Overview, Knowledge Curation System (KCS) Framework, PIP Research Origin Curator (ROC) Charter, PIP Knowledge Integration Technician (KIT) Charter, Mother Information Library (MIL) Standard, Live Intelligence Library (LIL) Standard, PIP Knowledge Record (PKR) Standard.
+**Related Documents:** Founding Charter, Ask Pip Platform Overview, Knowledge Curation System (KCS) Framework, PIP Research Origin Curator (ROC) Charter, PIP Knowledge Integration Technician (KIT) Charter, Mother Information Library (MIL) Standard, Live Intelligence Library (LIL) Standard, PIP Knowledge Record (PKR) Standard.  
+**Revision Note:** Version 0.02 requires each draft PKR to be accompanied by a Founder Review Rendering (see PKR Standard §9) and clarifies that Founder Operational Review (Stage 10) is conducted against that rendering, so review remains meaningful without requiring the Founders to read a PKR's underlying stored format.
 
 ---
 
@@ -474,7 +475,9 @@ Each draft PKR shall:
 - identify supporting Source PKRs or source assets;
 - maintain appropriate relationships with other PKRs;
 - preserve limitations and uncertainty;
-- avoid unsupported operational conclusions.
+- avoid unsupported operational conclusions;
+- express its content as declarative data rather than executable logic; and
+- be accompanied by a Founder Review Rendering presenting its complete content in plain language, per the PKR Standard §9, so it can be reviewed without reading its underlying stored format.
 
 Draft PKRs may include:
 
@@ -529,9 +532,11 @@ It provides an operationally retrievable representation of the approved source i
 
 # Stage 10 — Founder Operational Review
 
-KIT submits draft PKRs to the Founders for operational review.
+KIT submits draft PKRs, together with each draft PKR's Founder Review Rendering, to the Founders for operational review.
 
-The purpose of this review is to determine whether each draft PKR:
+The Founders are not required to read or verify a draft PKR's underlying stored format. Review is conducted against the Founder Review Rendering: the plain-language presentation of the record's complete content, per the PKR Standard §9.
+
+The purpose of this review is to determine whether each draft PKR, as presented in its Founder Review Rendering:
 
 - accurately represents approved MIL information;
 - preserves intended meaning;
@@ -546,7 +551,7 @@ Founder operational review may result in the following decisions.
 
 ## Approved for Publication
 
-The PKR is authorised for publication within the Live Intelligence Library.
+The PKR is authorised for publication within the Live Intelligence Library. Approval is granted against the reviewed Founder Review Rendering; the published PKR's content shall be identical in meaning to that rendering.
 
 ## Revision Required
 
@@ -1021,7 +1026,10 @@ The following controls are mandatory:
 - no material PKR revision bypasses Founder operational approval;
 - no superseded version is erased where traceability requires preservation;
 - no artificial intelligence role approves its own work;
-- no uncertainty is removed without supporting evidence and Founder approval.
+- no uncertainty is removed without supporting evidence and Founder approval;
+- no PKR is submitted for Founder operational review without an accompanying Founder Review Rendering;
+- no PKR is published whose content diverges from the Founder Review Rendering approved for it; and
+- no PKR carries executable logic or program code embodying horticultural judgement in place of declarative data.
 
 ---
 
