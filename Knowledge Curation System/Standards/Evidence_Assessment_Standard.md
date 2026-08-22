@@ -8,17 +8,19 @@
 
 **Folder:** 04 – Standards
 
-**Version:** 1.0
+**Version:** 1.3
 
 **Status:** Approved
 
 **Owner:** The Founders
 
-**Last Updated:** 21 August 2026
+**Last Updated:** 22 August 2026
 
 **Permanent Location:** `Knowledge Curation System/Standards/Evidence_Assessment_Standard.md`
 
 **Approved By:** AskPIP Founder Authority
+
+**Revision Note:** Version 1.3 establishes the **Assessed Finding** as the unit of Evidence Confidence assessment, at Founder direction: a research commission, Founder Review Dossier or Approved Research Compilation (ARC) does not receive one overall Evidence Confidence Level, because it commonly contains claims of genuinely different evidential strength that a single blended figure would misrepresent in both directions. New §2.9 and §3.2 establish the principle and definition; §3.3–§3.4, §4.8, §5.1–§5.2, §5.5, §6.2–§6.3 are reworded so that assessment, recording and review all operate per Assessed Finding rather than per commission. This closes Gap 5 identified by a ROC agent during a real research commission conducted under this document set, which found that §5.2 required "a single Evidence Confidence Level" while the ROC Operations Manual §9.3 separately permitted (but did not require) individual findings to be assessed on their own — leaving no rule for how a weak sub-finding should affect an otherwise strong overall level. Version 1.2 replaces "Approved Information Compilation (AIC) management" with "Approved Research Compilation (ARC) management" in §1.2, following SINS-001 v0.4's retirement of the AIC term. Version 1.1 replaces "Knowledge Asset management" with "Approved Information Compilation (AIC) management" in §1.2, following SINS-001 v0.2's retirement of "Knowledge Asset." It also corrects §5.2, which stated the reverse of its intended logic: a confidence level is recorded as **Not Assigned** where the evidence has *not* been sufficiently evaluated to support one, not where it has.
 
 **Purpose:** To establish the standard governing how evidence shall be evaluated consistently within the PIP Knowledge Curation System (KCS).
 
@@ -73,7 +75,7 @@ This standard does not govern:
 - evidence collection;
 - research synthesis;
 - Founder Review; or
-- Knowledge Asset management.
+- Approved Research Compilation (ARC) management.
 
 These activities are governed by their respective controlled documents.
 
@@ -168,6 +170,16 @@ Every Evidence Assessment shall remain fully traceable to:
 
 No Evidence Assessment shall exist independently of the research upon which it is based.
 
+---
+
+## 2.9 Confidence Is Assessed Per Finding, Not Per Commission
+
+Evidence Confidence is assigned to the Assessed Finding — a single, discrete claim of fact, defined at §3.2 — not to a research commission, a Founder Review Dossier or an Approved Research Compilation (ARC) as a whole.
+
+A commission, dossier or ARC commonly contains more than one Assessed Finding. Where it does, each Assessed Finding is evaluated and assigned its own Evidence Confidence Level independently. A strongly-evidenced finding and a weakly-evidenced finding produced by the same commission are never blended into one figure; each is reported as what it is.
+
+This principle exists because a single confidence figure covering claims of differing evidential strength would misrepresent both: understating a well-supported finding and overstating a poorly-supported one. Reporting per Assessed Finding is what allows a Founder, and later a gardener through a PIP Knowledge Record, to know exactly how much confidence a specific piece of information deserves.
+
 **Part II — Evidence Assessment Methodology**
 
 **Chapter 3 — Conducting an Evidence Assessment**
@@ -176,31 +188,43 @@ No Evidence Assessment shall exist independently of the research upon which it i
 
 An Evidence Assessment shall evaluate the available evidence using the methodology defined within this standard.
 
-The purpose of the assessment is to determine the appropriate Evidence Confidence Level and document the rationale supporting that conclusion.
+The purpose of the assessment is to determine the appropriate Evidence Confidence Level for each Assessed Finding and document the rationale supporting that conclusion.
 
 ---
 
-## 3.2 Assessment Process
+## 3.2 The Assessed Finding
+
+The Assessed Finding is the unit this standard evaluates. An Assessed Finding is a single, discrete claim of fact arising from a research commission, capable of standing on its own and of being right or wrong independently of any other claim the same commission produces.
+
+A research commission commonly produces more than one Assessed Finding. Two claims shall be treated as separate Assessed Findings whenever they could reasonably be supported to a different degree by the available evidence — regardless of whether they arose from the same commission, the same source document, or address related aspects of the same subject. Claims shall not be merged into one Assessed Finding merely for convenience or brevity.
+
+No Evidence Confidence Level is assigned to a research commission, a Founder Review Dossier, or an Approved Research Compilation (ARC) as a whole. Confidence is assigned only to the Assessed Findings each of these contains. Where more than one Assessed Finding exists, each carries its own Evidence Confidence Level, and none is blended, averaged, or diluted by another — consistent with §2.9.
+
+---
+
+## 3.3 Assessment Process
 
 Every Evidence Assessment shall follow the following process:
 
 1. Review the Research Commission.
 2. Review the available evidence.
-3. Evaluate each Evidence Assessment Factor.
-4. Determine the appropriate Evidence Confidence Level.
-5. Record the rationale supporting the assessment.
+3. Identify the Assessed Finding(s) the evidence supports, per §3.2.
+4. For each Assessed Finding, evaluate each Evidence Assessment Factor.
+5. For each Assessed Finding, determine the appropriate Evidence Confidence Level.
+6. Record the rationale supporting each Assessed Finding's assessment.
 
 ---
 
-## 3.3 Assessment Requirements
+## 3.4 Assessment Requirements
 
 Evidence Assessments shall:
 
 - evaluate the complete body of available evidence;
-- consider all Evidence Assessment Factors;
-- identify significant limitations and uncertainty;
-- assign a single Evidence Confidence Level; and
-- record sufficient rationale to support the assigned confidence.    
+- identify each Assessed Finding the evidence supports;
+- consider all Evidence Assessment Factors for each Assessed Finding;
+- identify significant limitations and uncertainty affecting each Assessed Finding;
+- assign an Evidence Confidence Level to each Assessed Finding individually; and
+- record sufficient rationale to support each assigned confidence.    
 
 **Chapter 4 — Evidence Assessment Factors**
 
@@ -272,25 +296,27 @@ Where uncertainty remains, it shall be reflected in the assigned Evidence Confid
 
 ## 4.8 Overall Evaluation
 
-No single Evidence Assessment Factor shall determine the assigned Evidence Confidence Level.
+No single Evidence Assessment Factor shall determine the Evidence Confidence Level assigned to an Assessed Finding.
 
-The Evidence Confidence Level shall represent the overall evaluation of the available evidence after consideration of all relevant factors.            
+That level shall represent the overall evaluation of the evidence supporting that specific Assessed Finding, after consideration of all relevant factors, per §3.2. Where a commission produces more than one Assessed Finding, each is evaluated independently; the strength or weakness of one Assessed Finding does not raise or lower the Evidence Confidence Level of another.
 
 **Chapter 5 — Evidence Confidence Levels**
 
 ## 5.1 Purpose
 
-Evidence Confidence Levels communicate the degree of confidence that may reasonably be placed in the research findings based upon the available evidence.
+Evidence Confidence Levels communicate the degree of confidence that may reasonably be placed in a specific Assessed Finding (§3.2), based upon the available evidence.
 
-The assigned Evidence Confidence Level shall reflect the overall evaluation of the available evidence against the Evidence Assessment Factors defined within this standard.
+The Evidence Confidence Level assigned to an Assessed Finding shall reflect the evaluation of the available evidence for that finding against the Evidence Assessment Factors defined within this standard.
 
 ---
 
 ## 5.2 Assignment
 
-Every completed Evidence Assessment shall assign a single Evidence Confidence Level where the available evidence has been sufficiently evaluated to support a reasoned conclusion.
+Every Assessed Finding within a completed Evidence Assessment shall be assigned its own Evidence Confidence Level where the available evidence for that finding has been sufficiently evaluated to support a reasoned conclusion.
 
-Where the available evidence has been sufficiently evaluated within the PIP Knowledge Curation System to support the assignment of a confidence level, the Evidence Confidence shall be recorded as **Not Assigned**, together with the supporting rationale.
+A commission that produces more than one Assessed Finding does not receive one blended, averaged, or overall Evidence Confidence Level in place of, or in addition to, its individual findings' levels. Each Assessed Finding's level is recorded and carried forward on its own terms, including into the Founder Review Dossier (per the Founder Review Dossier Standard), the resulting Approved Research Compilation (per the Mother Information Library Standard), and any PIP Knowledge Record built from it (per the PIP Knowledge Record Standard §4).
+
+Where the available evidence for a given Assessed Finding has **not** been sufficiently evaluated within the PIP Knowledge Curation System to support the assignment of a confidence level, that finding's Evidence Confidence shall be recorded as **Not Assigned**, together with the supporting rationale.
 
 ---
 
@@ -364,15 +390,15 @@ The Evidence Assessment shall record the reason why a confidence level has not b
 
 ## 5.5 Reviewing the Assigned Confidence
 
-Before finalising an Evidence Assessment, the assessor shall confirm that:
+Before finalising an Evidence Assessment, the assessor shall confirm, for each Assessed Finding, that:
 
-- the assigned Evidence Confidence accurately reflects the available evidence;
+- the assigned Evidence Confidence accurately reflects the available evidence for that finding;
 - the assigned confidence is supported by documented rationale;
 - identified limitations have been appropriately considered;
 - remaining uncertainty has been appropriately considered; and
-- the assigned confidence does not exceed what the available evidence reasonably supports.
+- the assigned confidence does not exceed what the available evidence for that finding reasonably supports, and has not been raised or lowered by the confidence assigned to any other Assessed Finding.
 
-Where these requirements are not satisfied, the Evidence Assessment shall be reviewed before completion. 
+Where these requirements are not satisfied for any Assessed Finding, the Evidence Assessment shall be reviewed before completion. 
 
 **Chapter 6 — Recording the Evidence Assessment**
 
@@ -384,26 +410,28 @@ Every Evidence Assessment shall be recorded in a consistent manner to ensure tra
 
 ## 6.2 Minimum Record Requirements
 
-Every completed Evidence Assessment shall record:
+Every completed Evidence Assessment shall record, for each Assessed Finding it evaluates:
 
 - Research Commission reference;
-- subject of the assessment;
-- Evidence Confidence;
+- a clear statement of the Assessed Finding itself (§3.2);
+- Evidence Confidence assigned to that finding;
 - rationale supporting the assigned Evidence Confidence;
-- significant limitations;
-- remaining uncertainty;
+- significant limitations affecting that finding;
+- remaining uncertainty affecting that finding;
 - assessment date; and
 - assessor.
+
+Where a commission produces more than one Assessed Finding, the record shall present each as a separate, clearly labelled entry rather than combining them into one narrative.
 
 ---
 
 ## 6.3 Supporting Rationale
 
-The supporting rationale shall clearly explain the basis for the assigned Evidence Confidence.
+The supporting rationale shall clearly explain the basis for the Evidence Confidence assigned to each Assessed Finding.
 
-The rationale shall:
+For each Assessed Finding, the rationale shall:
 
-- reference the evidence supporting the assessment; 
+- reference the evidence supporting that finding; 
 - identify significant strengths;
 - identify significant limitations;
 - identify remaining uncertainty; and

@@ -4,12 +4,13 @@
 
 **Document Title:** PIP System Terminology Context  
 **Document ID:** PSTC-001  
-**Version:** 0.1  
+**Version:** 0.4  
 **Status:** Approved  
-**Last Updated:** 2 August 2026  
+**Last Updated:** 22 August 2026  
 **Approved By:** The Founders  
 **Governing Standard:** PIP System Identity and Naming Standard (SINS-001)  
-**Permanent Location:** `AI/Context/PIP_System_Terminology_Context.md`
+**Permanent Location:** `AI/Context/PIP_System_Terminology_Context.md`  
+**Revision Note:** Version 0.4 marks the **Founder Executive Brief (FEB)** retired, following SINS-001 v0.5, at Founder request. The Founder Review Dossier (FRD) is now the sole Founder Review Documentation. Version 0.3 replaces "Approved Information Compilation (AIC)" with "Approved Research Compilation (ARC)" throughout, following SINS-001 v0.4's retirement of the AIC term. Version 0.2 replaces "Knowledge Asset (KA)" with "Approved Information Compilation (AIC)" throughout, following SINS-001 v0.2, and tightens §5's MIL/PKR entries to say "information" rather than "knowledge" for MIL content, consistent with the Mother Information Library Standard.
 
 ---
 
@@ -34,20 +35,20 @@ SINS-001 remains the authoritative naming Standard. This Context does not replac
 
 # 4. KCS Roles
 
-- **Research Origin Curator (ROC):** researches, assesses and organises trustworthy information; prepares Founder Review Documentation; and creates and maintains approved Knowledge Assets in the Mother Information Library (MIL). ROC does not approve knowledge.
+- **Research Origin Curator (ROC):** researches, assesses and organises trustworthy information; prepares Founder Review Documentation; and creates and maintains Approved Research Compilations (ARCs) in the Mother Information Library (MIL). ROC does not approve knowledge.
 - **Knowledge Integration Technician (KIT):** converts Founder-approved knowledge into structured operational intelligence; prepares PIP Knowledge Records (PKRs); and maintains the Live Intelligence Library (LIL). KIT does not create or approve knowledge.
 
 # 5. Knowledge Components
 
-- **Mother Information Library (MIL):** the authoritative home of Founder-approved knowledge, supporting evidence, traceability, metadata and history. ROC maintains the MIL.
+- **Mother Information Library (MIL):** the authoritative home of Founder-approved information, supporting evidence, traceability, metadata and history. ROC maintains the MIL.
 - **Live Intelligence Library (LIL):** contains Founder-approved structured operational intelligence prepared for rapid retrieval and use by PIP. KIT maintains the LIL.
-- **Knowledge Asset (KA):** a governed body of Founder-approved knowledge concerning a defined plant, subject or knowledge scope. ROC creates and maintains KAs; the Founders approve them; and they are held within the MIL.
-- **PIP Knowledge Record (PKR):** a structured operational knowledge unit created and maintained by KIT from Founder-approved knowledge held within the MIL. Draft PKRs require Founder approval before publication to the LIL.
+- **Approved Research Compilation (ARC):** a governed body of Founder-approved information concerning a defined plant, subject or information scope; the primary record type held within the MIL. ROC creates and maintains ARCs; the Founders approve them. Formerly named "Knowledge Asset (KA)" and then "Approved Information Compilation (AIC)" — both names are retired.
+- **PIP Knowledge Record (PKR):** a structured operational knowledge unit created and maintained by KIT from Founder-approved information held within the MIL. Draft PKRs require Founder approval before publication to the LIL.
 
 # 6. Research and Review Documents
 
 - **Founder Review Dossier (FRD):** the complete supporting research record prepared for Founder review.
-- **Founder Executive Brief (FEB):** the concise summary prepared to support efficient Founder review and decision-making.
+- **Founder Executive Brief (FEB):** retired. Formerly the concise summary prepared to support efficient Founder review and decision-making, intended to work alongside the Founder Review Dossier. The Founder Review Dossier is now the sole Founder Review Documentation.
 - **Evidence Assessment (EA):** records evidence confidence, rationale, limitations and remaining uncertainty.
 - **Evidence Assessment Standard (EAS):** governs how EAs are completed and recorded.
 

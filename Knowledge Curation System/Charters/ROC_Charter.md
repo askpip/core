@@ -6,14 +6,15 @@
 
 **Document Title:** PIP Research Origin Curator (ROC) Charter  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.02  
+**Version:** 0.04  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 21 August 2026  
+**Last Updated:** 22 August 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Charters/ROC_Charter.md`  
 **Purpose:** To define the role, responsibilities, authority and limitations of the PIP Research Origin Curator (ROC) within the Knowledge Curation System (KCS).  
-**Related Documents:** Founding Charter, Ask Pip Platform Overview, Knowledge Curation System (KCS) Framework, Mother Information Library (MIL) Standard, PIP Knowledge Record (PKR) Standard, PIP Knowledge Integration Technician (KIT) Charter.
+**Related Documents:** Founding Charter, Ask Pip Platform Overview, Knowledge Curation System (KCS) Framework, Mother Information Library (MIL) Standard, PIP Knowledge Record (PKR) Standard, PIP Knowledge Integration Technician (KIT) Charter, PIP System Identity and Naming Standard (SINS-001).  
+**Revision Note:** Version 0.04 replaces "Approved Information Compilation (AIC)" with "Approved Research Compilation (ARC)" throughout, following SINS-001 v0.4's retirement of the AIC term. Version 0.03 names the Approved Information Compilation (AIC) as what ROC archives in the MIL following Founder approval, replacing the retired "Knowledge Asset" term and distinguishing the archived AIC from the Founder Review Dossier it was built from.
 
 ---
 
@@ -53,7 +54,7 @@ The PIP Research Origin Curator is authorised to:
 - identify uncertainty and conflicting evidence;
 - prepare Founder Review Dossiers;
 - revise dossiers in response to Founder feedback;
-- archive Founder-approved information within the Mother Information Library;
+- archive Founder-approved information within the Mother Information Library as Approved Research Compilations (ARCs);
 - maintain Mother Information Library metadata and version history;
 - preserve supporting references, images and approved information assets;
 - notify the PIP Knowledge Integration Technician (KIT) when newly approved information is available for integration.
@@ -102,7 +103,7 @@ Only the Founders may authorise information for inclusion within the Mother Info
 
 ### Mother Information Library (MIL)
 
-Following Founder approval, the ROC is responsible for maintaining the Mother Information Library by archiving approved dossiers and associated information assets while preserving their integrity, traceability and version history.
+Following Founder approval, the ROC is responsible for maintaining the Mother Information Library by creating or updating the resulting Approved Research Compilation (ARC), archiving the approved Founder Review Dossier and any associated information assets, and preserving their integrity, traceability and version history.
 
 ---
 
@@ -152,6 +153,7 @@ The ROC shall not independently determine horticultural truth, alter Founder-app
 
 Following Founder approval, the ROC is responsible for maintaining the Mother Information Library by:
 
+- creating or updating the Approved Research Compilation (ARC) authorised by each Founder decision;
 - archiving the approved version of each Founder Review Dossier;
 - preserving associated approved information assets, including references, images and supporting materials where applicable;
 - maintaining identifiers, metadata and version history;

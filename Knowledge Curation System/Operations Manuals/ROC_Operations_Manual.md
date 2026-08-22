@@ -20,15 +20,17 @@
 ** Approved
 
 **Version:  
-** 2.0
+** 2.5
 
 **Last Updated:  
-** 21 August 2026
+** 22 August 2026
 
 **Permanent Location:** `Knowledge Curation System/Operations Manuals/ROC_Operations_Manual.md`
 
 **Approved By:  
 ** AskPIP Founder Authority
+
+**Revision Note:** Version 2.5 aligns this manual with EAS v1.3's Assessed Finding model, at Founder direction: §9.3 previously required the Evidence Assessment to evaluate "the commission as a whole," with individual findings receiving their own assessment only "where appropriate" — this made the overall commission level the default and per-finding assessment optional, the reverse of what is actually correct. §9.3 and §9.5 now require an Evidence Confidence Level per Assessed Finding as the only level that exists; §7.6, §6.8 and §8.3 are updated for consistency. Version 2.4 retires the Founder Executive Brief (FEB) at Founder request and rewrites Chapter 10 accordingly: the Founder Review Dossier (FRD), prepared under the new Founder Review Dossier Standard, is now the sole Founder Review Documentation, and §10.4/§10.8 (both concerning the FEB) are removed with the remainder of the chapter renumbered. The retirement reflects that the FEB's stated purpose — efficient review at volume, without requiring the complete research record to be examined in every instance — describes a need the platform does not yet have: with a single Founder reviewing every commission directly, a summary document duplicates effort rather than saving it. The FEB may be reinstated by future Founder decision if review volume grows to require it. Version 2.3 renames "Approved Information Compilation (AIC)" to "Approved Research Compilation (ARC)" throughout this manual, following SINS-001 v0.4's retirement of the AIC term. Version 2.2 adds Evidence Confidence Level as explicit AIC metadata in §12.5, recorded directly on the AIC itself rather than only referenced through the linked Evidence Assessment, so KIT can retrieve it without opening the full Evidence Assessment record. Version 2.1 replaces "Knowledge Asset (KA)" with "Approved Information Compilation (AIC)" throughout (Chapters 1, 11, 12 and 13), following SINS-001 v0.2's retirement of the KA term. Chapter 12's title changed from "Creating Mother Information Library Knowledge Assets" to "Creating Mother Information Library AICs" at Version 2.1, and to "Creating Mother Information Library ARCs" at Version 2.3; no procedural steps changed at either point.
 
 **Related Documents:**
 
@@ -41,6 +43,7 @@
 - Standard Plant Knowledge Record (PKR) 
 - Standard Live Intelligence Library (LIL) 
 - Standard PIP Documentation Standard 
+- PIP System Identity and Naming Standard (SINS-001)
 
 ---
 
@@ -52,7 +55,7 @@
 
 This manual defines the operational procedures governing how the Research Origin Curator (ROC) conducts research and manages the Mother Information Library (MIL) within the PIP Knowledge Curation System (KCS).
 
-Its purpose is to ensure that every research commission is conducted using a consistent, transparent and evidence-based process, and that every Founder-approved knowledge asset is archived, maintained and preserved in accordance with the standards of the Knowledge Curation System.
+Its purpose is to ensure that every research commission is conducted using a consistent, transparent and evidence-based process, and that every Founder-approved Approved Research Compilation (ARC) is archived, maintained and preserved in accordance with the standards of the Knowledge Curation System.
 
 The procedures contained in this manual apply whether the role is performed by an AI system or a human researcher.
 
@@ -76,7 +79,7 @@ Responsibilities assigned to the Founders or the Knowledge Integration Technicia
 
 ### 1.3 Intended Outcome
 
-By following the procedures contained within this manual, the ROC shall produce research and maintain knowledge assets that are:
+By following the procedures contained within this manual, the ROC shall produce research and maintain ARCs that are:
 
 - accurate;
 - transparent;
@@ -91,7 +94,7 @@ By following the procedures contained within this manual, the ROC shall produce 
 
 The operating principles defined in this chapter govern how the Research Origin Curator (ROC) conducts research, evaluates evidence and manages knowledge throughout the Knowledge Curation System.
 
-These principles apply to every research commission and every knowledge asset entrusted   to the ROC.     
+These principles apply to every research commission and every ARC entrusted to the ROC.
 
 ---
 
@@ -664,7 +667,7 @@ The evaluation should explain:
 - areas of disagreement;
 - identified limitations;
 - evidence gaps; and
-- the Evidence Confidence Level determined in accordance with the Evidence Assessment Standard.
+- the Evidence Confidence Level determined for each Assessed Finding, in accordance with the Evidence Assessment Standard.
 
 This evaluation shall form the basis of the Founder Review Dossier.
 
@@ -757,9 +760,9 @@ Uncertainty shall be documented explicitly rather than reduced through assumptio
 
 ## 7.6 Evidence Confidence Assessment
 
-Following evaluation of the available evidence, the ROC shall prepare an Evidence Confidence Assessment in accordance with the Evidence Assessment Standard.
+Following evaluation of the available evidence, the ROC shall prepare an Evidence Assessment in accordance with the Evidence Assessment Standard, assigning an Evidence Confidence Level to each Assessed Finding rather than to the commission as a whole.
 
-The assessment shall reflect:
+For each Assessed Finding, the assessment shall reflect:
 
 - the quality of the available evidence;
 - the consistency of independent sources;
@@ -767,7 +770,7 @@ The assessment shall reflect:
 - identified limitations; and
 - unresolved uncertainty.
 
-The resulting Evidence Confidence Level shall not exceed that which can reasonably be supported by the available evidence.
+The resulting Evidence Confidence Level for each Assessed Finding shall not exceed that which can reasonably be supported by the available evidence for that finding.
 
 ---
 
@@ -833,6 +836,8 @@ Each finding shall:
 - remain traceable to the original sources.
 
 Findings shall describe what the evidence demonstrates rather than what the ROC believes.
+
+Where two findings could reasonably be supported to a different degree by the available evidence, the ROC shall keep them as separate findings rather than merging them, so that each becomes its own Assessed Finding under the Evidence Assessment Standard (Chapter 9) and is not diluted by, or credited with, the evidential strength of the other.
 
 ---
 
@@ -930,11 +935,11 @@ The ROC shall not substitute personal judgement for the approved assessment meth
 
 ## 9.3 Scope of the Assessment
 
-The Evidence Assessment shall evaluate the body of evidence supporting the commission as a whole.
+The Evidence Assessment shall evaluate the evidence supporting each Assessed Finding identified during research synthesis (Chapter 8) individually, per the Evidence Assessment Standard.
 
-Where appropriate, significant individual findings may also receive their own assessment where their evidential support differs materially from the overall commission.
+A research commission does not receive one blended or overall Evidence Confidence Level covering the commission as a whole. Where a commission produces more than one Assessed Finding, each is assessed and reported on its own terms; the confidence properly belonging to one finding is never used to raise, lower or average the confidence of another.
 
-The assessment shall accurately represent the available evidence without overstating or understating its strength.
+The assessment shall accurately represent the available evidence for each Assessed Finding without overstating or understating its strength.
 
 ---
 
@@ -959,15 +964,15 @@ The ROC shall consider all relevant factors prescribed by the Evidence Assessmen
 
 The completed Evidence Assessment shall become part of the permanent research record.
 
-The assessment shall include:
+For each Assessed Finding, the assessment shall include:
 
-- the overall Evidence Confidence Level;
-- the supporting rationale for the assessment;
-- significant strengths of the evidence;
-- significant limitations affecting the assessment; and
+- the Evidence Confidence Level assigned to that finding;
+- the supporting rationale for that assessment;
+- significant strengths of the evidence supporting that finding;
+- significant limitations affecting that finding; and
 - any qualifications necessary for correct interpretation.
 
-The rationale shall be sufficiently clear to enable the Founders to understand how the assessment was reached.
+The rationale shall be sufficiently clear to enable the Founders to understand how each finding's assessment was reached.
 
 ---
 
@@ -1009,14 +1014,9 @@ The commission may then proceed to preparation of the Founder Review Dossier.
 
 The purpose of this chapter is to establish the procedures governing how the Research Origin Curator (ROC) prepares the Founder Review Documentation.
 
-The Founder Review Documentation consists of two complementary documents:
+The Founder Review Documentation is the **Founder Review Dossier (FRD)**, the complete supporting research record submitted to the Founders for review and decision.
 
-- the **Founder Review Dossier (FRD)**; and
-- the **Founder Executive Brief (FEB)**.
-
-Together, these documents present the completed findings of a research commission to the Founders for review and decision.
-
-The Founder Review Documentation enables the Founders to evaluate the available evidence, understand the basis of the findings and determine whether the proposed knowledge should proceed to future Knowledge Asset development.
+The Founder Review Documentation enables the Founders to evaluate the available evidence, understand the basis of the findings and determine whether the proposed knowledge should proceed to future ARC development.
 
 The Founder Review Documentation does not create or approve knowledge. It presents the results of the completed research and Evidence Assessment.
 
@@ -1035,7 +1035,7 @@ Preparation shall commence only after:
 - the Evidence Assessment has been completed; and
 - all supporting research records have been finalised.
 
-Neither the Founder Review Dossier nor the Founder Executive Brief shall be prepared until these activities have been completed.
+The Founder Review Dossier shall not be prepared until these activities have been completed.
 
 ---
 
@@ -1058,17 +1058,7 @@ The dossier shall support informed decision-making while preserving the complete
 
 ---
 
-## 10.4 Purpose of the Founder Executive Brief
-
-The Founder Executive Brief is the primary document used for routine Founder review.
-
-Its purpose is to provide a concise, evidence-based summary of the completed Founder Review Dossier, enabling efficient Founder review without requiring the complete research record to be examined in every instance.
-
-The Founder Executive Brief summarises the completed research but does not replace the Founder Review Dossier.
-
----
-
-## 10.5 Authority of the Documentation
+## 10.4 Authority of the Documentation
 
 The Founder Review Documentation is advisory.
 
@@ -1080,7 +1070,7 @@ The ROC shall present the evidence objectively and shall not attempt to influenc
 
 ---
 
-## 10.6 Relationship to Supporting Records
+## 10.5 Relationship to Supporting Records
 
 The Founder Review Dossier shall remain fully traceable to the records created during the commission.
 
@@ -1094,13 +1084,11 @@ This includes, where applicable:
 - supporting source material; and
 - any related commissions.
 
-The Founder Executive Brief summarises the Founder Review Dossier.
-
-Neither document replaces the permanent commission records.
+The dossier does not replace the permanent commission records.
 
 ---
 
-## 10.7 Structure of the Founder Review Dossier
+## 10.6 Structure of the Founder Review Dossier
 
 The Founder Review Dossier shall be prepared in accordance with the approved Founder Review Dossier Standard.
 
@@ -1117,27 +1105,7 @@ While the structure may vary according to the nature of the commission, every do
 
 ---
 
-## 10.8 Structure of the Founder Executive Brief
-
-The Founder Executive Brief shall normally comprise approximately five to ten pages.
-
-It shall be prepared in accordance with the approved Founder Executive Brief Standard and shall normally include:
-
-- Document Metadata
-- Purpose of the Commission
-- Executive Summary
-- Key Findings
-- Evidence Confidence
-- Strategic Implications
-- Founder Decision Points
-- Recommended Future Research
-- Conclusion
-
-The level of detail shall remain proportionate to the complexity of the commission while remaining suitable for efficient Founder review.
-
----
-
-## 10.9 Presenting Findings
+## 10.7 Presenting Findings
 
 Findings shall be presented accurately, objectively and proportionately.
 
@@ -1151,63 +1119,53 @@ The ROC shall distinguish between:
 
 The significance attributed to each finding shall remain proportionate to the available evidence.
 
-Neither the Founder Review Dossier nor the Founder Executive Brief shall introduce new evidence, additional analysis or revised conclusions after completion of the research.
+The Founder Review Dossier shall not introduce new evidence, additional analysis or revised conclusions after completion of the research.
 
 ---
 
-## 10.10 Referencing Supporting Evidence
+## 10.8 Referencing Supporting Evidence
 
 The Founder Review Dossier shall provide sufficient references to enable the Founders to verify the origin of significant findings where necessary.
 
-The Founder Executive Brief shall summarise those findings without reproducing the complete research.
-
 Detailed research records shall remain within the permanent commission documentation.
-
-Where any inconsistency exists between the Founder Executive Brief and the Founder Review Dossier, the Founder Review Dossier shall remain the authoritative research record.
 
 ---
 
-## 10.11 Presenting the Evidence Assessment
+## 10.9 Presenting the Evidence Assessment
 
 The completed Evidence Assessment shall be incorporated into the Founder Review Dossier without alteration.
 
 The ROC may provide explanatory commentary where necessary to assist interpretation but shall not modify the completed assessment or present it in a manner that changes its intended meaning.
 
-The Founder Executive Brief shall accurately summarise the conclusions of the completed Evidence Assessment without altering its findings.
-
 ---
 
-## 10.12 Quality Review
+## 10.10 Quality Review
 
-Before submission, the ROC shall review both the Founder Review Dossier and the Founder Executive Brief to confirm that:
+Before submission, the ROC shall review the Founder Review Dossier to confirm that:
 
 - all commissioned questions have been addressed;
 - the findings accurately represent the completed research;
 - supporting evidence has been referenced appropriately;
 - limitations and uncertainty have been preserved;
 - the completed Evidence Assessment has been incorporated accurately;
-- the Founder Executive Brief accurately reflects the Founder Review Dossier;
-- both documents are internally consistent;
+- the document is internally consistent;
 - all required supporting records are complete; and
-- both documents comply with their respective documentation standards.
+- the document complies with the Founder Review Dossier Standard.
 
 Any deficiencies identified during the quality review shall be corrected before submission.
 
 ---
 
-## 10.13 Submission to the Founders
+## 10.11 Submission to the Founders
 
 Following successful completion of the quality review, the ROC shall submit the commission to the Founders.
 
 The submission shall include:
 
-- the Founder Executive Brief;
 - the Founder Review Dossier; and
 - access to all supporting documentation required by the Knowledge Curation System.
 
-The Founder Executive Brief shall serve as the primary document for routine Founder review.
-
-The Founder Review Dossier shall remain the complete and authoritative supporting research record.
+The Founder Review Dossier shall serve as the primary document for Founder review and shall remain the complete and authoritative supporting research record.
 
 Following submission, responsibility for the commission passes to the Founder Review stage.
 
@@ -1215,18 +1173,16 @@ The ROC shall remain available to provide clarification where requested but shal
 
 ---
 
-## 10.14 Completion Criteria
+## 10.12 Completion Criteria
 
 Preparation of the Founder Review Documentation is complete when:
 
 - the Founder Review Dossier has been prepared in accordance with the Founder Review Dossier Standard;
-- the Founder Executive Brief has been prepared in accordance with the Founder Executive Brief Standard;
 - the completed Evidence Assessment has been incorporated;
 - the quality review has been completed;
-- both documents have been submitted to the Founders;
+- the document has been submitted to the Founders;
 - all supporting documentation has been recorded within the Research Commission Record; and
 - the commission has formally proceeded to Founder Review.
-- 
 
 # Chapter 11 — Founder Review
 
@@ -1234,7 +1190,7 @@ Preparation of the Founder Review Documentation is complete when:
 
 The purpose of this chapter is to establish the procedures governing how the Research Origin Curator (ROC) supports the Founder Review process following submission of the Founder Review Dossier (FRD).
 
-Founder Review is the formal decision-making stage of the Knowledge Curation System through which the Founders evaluate the completed research, Evidence Assessment and Founder Review Dossier before determining whether the proposed knowledge shall become an approved Knowledge Asset within the Mother Information Library (MIL).
+Founder Review is the formal decision-making stage of the Knowledge Curation System through which the Founders evaluate the completed research, Evidence Assessment and Founder Review Dossier before determining whether the proposed knowledge shall become an approved ARC within the Mother Information Library (MIL).
 
 The Research Origin Curator shall support this process by maintaining complete traceability, providing clarification where requested and accurately recording the outcome of the Founders' decision.
 
@@ -1342,9 +1298,9 @@ The recorded decision shall remain permanently traceable to the Founder Review D
 
 ## 11.9 Approved Findings
 
-Where the Founders approve the findings, the Research Origin Curator shall proceed with creation or revision of the authorised Knowledge Asset within the Mother Information Library in accordance with Chapter 12.
+Where the Founders approve the findings, the Research Origin Curator shall proceed with creation or revision of the authorised ARC within the Mother Information Library in accordance with Chapter 12.
 
-Only the knowledge expressly approved by the Founders shall be incorporated into the Knowledge Asset.
+Only the knowledge expressly approved by the Founders shall be incorporated into the ARC.
 
 Any conditions, qualifications or limitations identified during Founder Review shall be preserved within the approved records.
 
@@ -1369,33 +1325,33 @@ Founder Review is complete when:
 - a documented Founder decision has been reached;
 - the decision has been recorded within the Research Commission Record;
 - any conditions or authorised further actions have been documented; and
-- the commission has been authorised to proceed to Knowledge Asset creation, returned for additional research or formally concluded.
+- the commission has been authorised to proceed to ARC creation, returned for additional research or formally concluded.
 
-# Chapter 12 — Creating Mother Information Library Knowledge Assets
+# Chapter 12 — Creating Mother Information Library ARCs
 
 ## 12.1 Purpose
 
-The purpose of this chapter is to establish the procedures governing how the Research Origin Curator (ROC) creates and incorporates Founder-approved Knowledge Assets into the Mother Information Library (MIL).
+The purpose of this chapter is to establish the procedures governing how the Research Origin Curator (ROC) creates and incorporates Founder-approved ARCs into the Mother Information Library (MIL).
 
-A Knowledge Asset is the authoritative representation of Founder-approved knowledge within the Knowledge Curation System. It preserves approved knowledge in a controlled, traceable and version-managed form for long-term stewardship within the Mother Information Library.
+An ARC is the authoritative representation of Founder-approved information within the Knowledge Curation System. It preserves approved information in a controlled, traceable and version-managed form for long-term stewardship within the Mother Information Library.
 
-Knowledge Assets shall only be created following formal approval by the Founders.
+ARCs shall only be created following formal approval by the Founders.
 
 ---
 
-## 12.2 Authority to Create a Knowledge Asset
+## 12.2 Authority to Create an ARC
 
-The ROC shall create or update a Mother Information Library Knowledge Asset only after receiving documented Founder approval.
+The ROC shall create or update a Mother Information Library ARC only after receiving documented Founder approval.
 
-The Founder Review Dossier and the recorded Founder decision together authorise the creation of the Knowledge Asset.
+The Founder Review Dossier and the recorded Founder decision together authorise the creation of the ARC.
 
 Research findings that have not received Founder approval shall remain within the Research Commission Record and shall not be incorporated into the Mother Information Library.
 
 ---
 
-## 12.3 Preparing the Knowledge Asset
+## 12.3 Preparing the ARC
 
-Before creating a Knowledge Asset, the ROC shall verify that:
+Before creating an ARC, the ROC shall verify that:
 
 - the Founder Review process has been completed;
 - the Founder approval decision has been recorded;
@@ -1403,15 +1359,15 @@ Before creating a Knowledge Asset, the ROC shall verify that:
 - the approved findings accurately reflect the Founder decision; and
 - the approved knowledge is ready for incorporation into the Mother Information Library.
 
-Any discrepancy shall be resolved before creation of the Knowledge Asset proceeds.
+Any discrepancy shall be resolved before creation of the ARC proceeds.
 
 ---
 
-## 12.4 Creating the Knowledge Asset
+## 12.4 Creating the ARC
 
-The ROC shall create a new Knowledge Asset or update an existing Knowledge Asset where the approved research represents a revision of previously approved knowledge.
+The ROC shall create a new ARC or update an existing ARC where the approved research represents a revision of previously approved knowledge.
 
-The Knowledge Asset shall faithfully represent the Founder-approved findings without introducing additional interpretation, assumptions or research.
+The ARC shall faithfully represent the Founder-approved findings without introducing additional interpretation, assumptions or research.
 
 The ROC shall ensure that the approved knowledge is accurately transferred into the Mother Information Library.
 
@@ -1419,14 +1375,14 @@ The ROC shall ensure that the approved knowledge is accurately transferred into 
 
 ## 12.5 Assigning Identification and Metadata
 
-Each Knowledge Asset shall receive a unique identifier in accordance with the Mother Information Library Standard.
+Each ARC shall receive a unique identifier in accordance with the Mother Information Library Standard.
 
-The ROC shall record all required metadata necessary to identify, manage and preserve the Knowledge Asset throughout its lifecycle.
+The ROC shall record all required metadata necessary to identify, manage and preserve the ARC throughout its lifecycle.
 
 This shall include, where applicable:
 
-- Knowledge Asset Identifier;
-- Knowledge Asset Title;
+- ARC Identifier;
+- ARC Title;
 - Version;
 - Approval Status;
 - Approval Date;
@@ -1434,7 +1390,8 @@ This shall include, where applicable:
 - Associated Research Commission Record;
 - Associated Founder Review Dossier;
 - Associated Evidence Assessment;
-- Related Knowledge Assets; and
+- Evidence Confidence Level (recorded directly on the ARC from its completed Evidence Assessment, in accordance with the Evidence Assessment Standard);
+- Related ARCs; and
 - Revision History.
 
 Additional metadata shall be recorded where required by the Mother Information Library Standard.
@@ -1443,7 +1400,7 @@ Additional metadata shall be recorded where required by the Mother Information L
 
 ## 12.6 Establishing Traceability
 
-The ROC shall ensure that every Knowledge Asset maintains complete documentary traceability to the records from which it was created.
+The ROC shall ensure that every ARC maintains complete documentary traceability to the records from which it was created.
 
 This shall include traceability to:
 
@@ -1454,35 +1411,35 @@ This shall include traceability to:
 - the Founder Review Dossier; and
 - the Founder approval decision.
 
-No approved Knowledge Asset shall exist without complete traceability to its supporting records.
+No approved ARC shall exist without complete traceability to its supporting records.
 
 ---
 
 ## 12.7 Verification and Incorporation
 
-Before incorporating the Knowledge Asset into the Mother Information Library, the ROC shall verify that:
+Before incorporating the ARC into the Mother Information Library, the ROC shall verify that:
 
-- the Knowledge Asset accurately reflects the Founder-approved findings;
+- the ARC accurately reflects the Founder-approved findings;
 - required metadata has been completed;
 - traceability has been established;
 - version information is correct;
 - all supporting records have been linked; and
-- the Knowledge Asset complies with the Mother Information Library Standard.
+- the ARC complies with the Mother Information Library Standard.
 
-Following successful verification, the ROC shall incorporate the Knowledge Asset into the Mother Information Library as the current approved version.
+Following successful verification, the ROC shall incorporate the ARC into the Mother Information Library as the current approved version.
 
 ---
 
 ## 12.8 Completion Criteria
 
-Creation of a Mother Information Library Knowledge Asset is complete when:
+Creation of a Mother Information Library ARC is complete when:
 
 - Founder approval has been verified;
-- the Knowledge Asset has been created or updated;
+- the ARC has been created or updated;
 - identification and metadata have been completed;
 - traceability has been established;
 - verification has been completed;
-- the Knowledge Asset has been incorporated into the Mother Information Library; and
+- the ARC has been incorporated into the Mother Information Library; and
 - the Research Commission has been formally closed.
 
 The Mother Information Library shall then contain the authoritative Founder-approved representation of the completed research.
@@ -1493,7 +1450,7 @@ The Mother Information Library shall then contain the authoritative Founder-appr
 
 The purpose of this chapter is to establish the procedures governing how the Research Origin Curator (ROC) stewards the Mother Information Library (MIL).
 
-The Mother Information Library is the authoritative repository of Founder-approved Knowledge Assets within the Knowledge Curation System. The ROC is responsible for preserving its integrity, organisation and reliability throughout the lifecycle of every Knowledge Asset.
+The Mother Information Library is the authoritative repository of Founder-approved ARCs within the Knowledge Curation System. The ROC is responsible for preserving its integrity, organisation and reliability throughout the lifecycle of every ARC.
 
 ---
 
@@ -1503,7 +1460,7 @@ The ROC shall maintain the Mother Information Library as a trusted and controlle
 
 In performing this responsibility, the ROC shall preserve:
 
-- the integrity of Knowledge Assets;
+- the integrity of ARCs;
 - documentary traceability;
 - version history;
 - metadata accuracy;
@@ -1514,11 +1471,11 @@ The Mother Information Library shall remain an accurate and authoritative repres
 
 ---
 
-## 13.3 Managing Knowledge Asset Revisions
+## 13.3 Managing ARC Revisions
 
-Where additional Founder-approved research affects an existing Knowledge Asset, the ROC shall update the Mother Information Library in accordance with the approved revision process.
+Where additional Founder-approved research affects an existing ARC, the ROC shall update the Mother Information Library in accordance with the approved revision process.
 
-Revisions shall result in the creation of a new approved version of the Knowledge Asset.
+Revisions shall result in the creation of a new approved version of the ARC.
 
 Previous approved versions shall remain preserved as part of the permanent knowledge history unless otherwise authorised by the Founders.
 
@@ -1526,7 +1483,7 @@ Previous approved versions shall remain preserved as part of the permanent knowl
 
 ## 13.4 Managing Corrections
 
-Where errors are identified within a Knowledge Asset or its associated metadata, the ROC shall investigate the reported issue.
+Where errors are identified within an ARC or its associated metadata, the ROC shall investigate the reported issue.
 
 Administrative corrections that do not alter the approved knowledge may be made in accordance with the Mother Information Library Standard.
 
@@ -1538,42 +1495,42 @@ Corrections that affect the meaning, interpretation or scope of approved knowled
 
 The ROC shall preserve the integrity of the Mother Information Library by ensuring that:
 
-- Knowledge Assets remain complete;
+- ARCs remain complete;
 - version histories remain accurate;
 - metadata remains current;
 - documentary traceability is preserved;
-- duplicate Knowledge Assets are prevented; and
+- duplicate ARCs are prevented; and
 - unauthorised modification does not occur.
 
 The Mother Information Library shall remain the single authoritative repository of Founder-approved knowledge.
 
 ---
 
-## 13.6 Knowledge Asset Retention
+## 13.6 ARC Retention
 
-The ROC shall preserve all approved Knowledge Assets in accordance with the Mother Information Library Standard.
+The ROC shall preserve all approved ARCs in accordance with the Mother Information Library Standard.
 
-Knowledge Assets shall not be deleted from the Mother Information Library except where authorised by the Founders in accordance with the Mother Information Library Standard.
+ARCs shall not be deleted from the Mother Information Library except where authorised by the Founders in accordance with the Mother Information Library Standard.
 
-Where a Knowledge Asset is superseded, the previous approved version shall remain preserved as part of the permanent knowledge history.
+Where an ARC is superseded, the previous approved version shall remain preserved as part of the permanent knowledge history.
 
-The retention of Knowledge Assets shall preserve the historical development of Founder-approved knowledge and maintain complete documentary traceability.
+The retention of ARCs shall preserve the historical development of Founder-approved knowledge and maintain complete documentary traceability.
 
 ---
 
 ## 13.7 Maintaining Knowledge Relationships
 
-The ROC shall maintain documented relationships between Knowledge Assets where such relationships improve the organisation and navigation of the Mother Information Library.
+The ROC shall maintain documented relationships between ARCs where such relationships improve the organisation and navigation of the Mother Information Library.
 
 Relationships may include:
 
-- related Knowledge Assets;
-- superseded Knowledge Assets;
-- supporting Knowledge Assets;
-- parent and subordinate Knowledge Assets; and
+- related ARCs;
+- superseded ARCs;
+- supporting ARCs;
+- parent and subordinate ARCs; and
 - other approved relationships defined within the Mother Information Library Standard.
 
-Maintaining relationships shall not alter the approved content of any Knowledge Asset.
+Maintaining relationships shall not alter the approved content of any ARC.
 
 ---
 
@@ -1581,7 +1538,7 @@ Maintaining relationships shall not alter the approved content of any Knowledge 
 
 The ROC shall periodically review the Mother Information Library to confirm that:
 
-- Knowledge Assets remain correctly organised;
+- ARCs remain correctly organised;
 - metadata remains complete;
 - traceability remains intact;
 - relationships remain accurate;
@@ -1598,7 +1555,7 @@ Stewardship of the Mother Information Library is an ongoing operational responsi
 
 The ROC shall consider this responsibility to be satisfactorily fulfilled when:
 
-- Knowledge Assets remain accurate and complete;
+- ARCs remain accurate and complete;
 - documentary traceability is preserved;
 - version histories remain current;
 - metadata remains accurate;

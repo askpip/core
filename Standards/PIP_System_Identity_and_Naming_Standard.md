@@ -10,13 +10,15 @@
 
 **Status:** Approved
 
-**Version:** 0.1
+**Version:** 0.5
 
-**Last Updated:** 2 August 2026
+**Last Updated:** 22 August 2026
 
 **Approved By:** The Founders
 
 **Permanent Location:** Standards/PIP_System_Identity_and_Naming_Standard.md
+
+**Revision Note:** Version 0.5 retires the **Founder Executive Brief (FEB)** at Founder request, marking §8.2 retired rather than removing it. The FEB's stated purpose — efficient Founder review at volume, without requiring the complete research record to be examined every time — describes a need the platform does not yet have: with a single Founder reviewing every research commission directly and carefully, a separate summary document duplicates effort rather than saving it. The Founder Review Dossier (§8.1), prepared under the new Founder Review Dossier Standard, is now the sole Founder Review Documentation. The FEB may be reinstated by future Founder decision if review volume grows to require it. Version 0.4 retires **Approved Information Compilation (AIC)** and replaces it with **Approved Research Compilation (ARC)** as the name for the component defined at §7.3, at Founder request. Version 0.3 corrects three residual uses of "knowledge" in §6.2, §7.1 and §7.4 to "information" where each describes MIL content, completing the distinction Version 0.2 established: the MIL holds approved information, and "knowledge" or "operational intelligence" is reserved for the LIL/PKR side. Version 0.2 retires **Knowledge Asset (KA)** and replaces it with **Approved Information Compilation (AIC)** as the name for the governed record ROC creates and holds within the MIL (see §7.3). The change resolves two problems with the prior terminology: it no longer overlaps with the Founder Review Dossier (which names the pre-approval submission, not the archived record), and it no longer calls MIL content "knowledge" — the Mother Information Library Standard reserves that word for the LIL/PKR side, treating MIL content as approved information rather than operational intelligence.
 
 ## 1. Purpose
 
@@ -292,7 +294,7 @@ The PIP AI OS is internal platform infrastructure. It is not part of the public 
 
 **Research Origin Curator**
 
-ROC is the specialist KCS role responsible for researching, assessing and organising trustworthy information, preparing Founder Review Documentation and creating and maintaining approved Knowledge Assets within the Mother Information Library.
+ROC is the specialist KCS role responsible for researching, assessing and organising trustworthy information, preparing Founder Review Documentation and creating and maintaining Approved Research Compilations (ARCs) within the Mother Information Library.
 
 ROC does not approve knowledge.
 
@@ -312,7 +314,7 @@ The role does not require PIP or KCS as a repeated title prefix.
 
 **Knowledge Integration Technician**
 
-KIT is the specialist KCS role responsible for converting Founder-approved knowledge into structured operational intelligence, preparing PIP Knowledge Records and maintaining the Live Intelligence Library.
+KIT is the specialist KCS role responsible for converting Founder-approved information into structured operational intelligence, preparing PIP Knowledge Records and maintaining the Live Intelligence Library.
 
 KIT does not create or approve knowledge.
 
@@ -334,7 +336,7 @@ The role does not require PIP or KCS as a repeated title prefix.
 
 **Mother Information Library**
 
-The MIL is the authoritative home of Founder-approved knowledge, supporting evidence, traceability, metadata and history.
+The MIL is the authoritative home of Founder-approved information, supporting evidence, traceability, metadata and history.
 
 The MIL is maintained by ROC.
 
@@ -359,17 +361,19 @@ Its contents may include:
 
 The LIL is maintained by KIT.
 
-### 7.3 Knowledge Asset
+### 7.3 Approved Research Compilation
 
-**KA** stands for:
+**ARC** stands for:
 
-**Knowledge Asset**
+**Approved Research Compilation**
 
-A KA is a governed body of Founder-approved knowledge concerning a defined plant, subject or knowledge scope.
+An ARC is a governed body of Founder-approved information concerning a defined plant, subject or information scope. It is the primary record type held within the MIL — distinct from the Founder Review Dossier (FRD) from which it is built, which remains the historical pre-approval submission record rather than the archived asset itself (see §8.1).
 
-Knowledge Assets are created and maintained by ROC, approved by the Founders and held within the MIL.
+ARCs are created and maintained by ROC, approved by the Founders and held within the MIL.
 
-The scope and granularity of a Knowledge Asset shall be determined by the applicable KCS governance rather than assumed from its name alone.
+The scope and granularity of an ARC shall be determined by the applicable KCS governance rather than assumed from its name alone.
+
+**Superseded terms:** this component has been named twice before. It was originally **Knowledge Asset (KA)**, retired as of Version 0.2 of this Standard because "Knowledge" wrongly implied MIL content was operational knowledge rather than approved information — the Mother Information Library Standard reserves "knowledge" and "operational intelligence" for content held within the Live Intelligence Library. It was then briefly **Approved Information Compilation (AIC)**, retired as of Version 0.4 of this Standard in favour of **Approved Research Compilation (ARC)**, at Founder request. Neither KA nor AIC shall be used in new or revised documents.
 
 ### 7.4 PIP Knowledge Record
 
@@ -377,7 +381,7 @@ The scope and granularity of a Knowledge Asset shall be determined by the applic
 
 **PIP Knowledge Record**
 
-A PKR is a structured operational knowledge unit created and maintained by KIT from Founder-approved knowledge held within the MIL.
+A PKR is a structured operational knowledge unit created and maintained by KIT from Founder-approved information held within the MIL.
 
 Draft PKRs require Founder approval before publication to the LIL.
 
@@ -393,15 +397,15 @@ The following document names shall remain unprefixed unless additional context i
 
 **Founder Review Dossier**
 
-The FRD is the complete supporting research record prepared for Founder review.
+The FRD is the complete supporting research record prepared for Founder review. It names the pre-approval submission specifically — once approved, the FRD is archived as a supporting record, and the resulting governed record is created and held in the MIL as an Approved Research Compilation (ARC, see §7.3), not as a renamed Dossier.
 
-### 8.2 Founder Executive Brief
+### 8.2 Founder Executive Brief (Retired)
 
-**FEB** stands for:
+**FEB** stood for:
 
 **Founder Executive Brief**
 
-The FEB is the concise summary prepared to support efficient Founder review and decision-making.
+The FEB is retired. It was the concise summary prepared to support efficient Founder review and decision-making, intended to work alongside the Founder Review Dossier (§8.1). It is retired because the review volume it was designed for does not yet exist: the Founder Review Dossier, prepared under the Founder Review Dossier Standard, is the sole Founder Review Documentation. The FEB may be reinstated by future Founder decision if review volume grows to require it.
 
 ### 8.3 Evidence Assessment
 
@@ -479,8 +483,9 @@ Examples:
 * Mother Information Library (MIL);
 * Live Intelligence Library (LIL);
 * Research Origin Curator (ROC);
-* PIP Knowledge Record (PKR); and
-* Founder Review Dossier (FRD).
+* PIP Knowledge Record (PKR);
+* Founder Review Dossier (FRD); and
+* Approved Research Compilation (ARC).
 
 After definition, the acronym may be used alone throughout the remainder of the document.
 

@@ -6,14 +6,15 @@
 
 **Document Title:** PIP Knowledge Record (PKR) Standard  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.01  
+**Version:** 0.05  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 21 August 2026  
+**Last Updated:** 22 August 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Standards/PKR_Standard.md`  
 **Purpose:** To define what a PIP Knowledge Record (PKR) is, the types of PKR currently required, the fields each type must contain, and how PKRs are identified, versioned and related to one another.  
-**Related Documents:** Live Intelligence Library (LIL) Standard; Mother Information Library (MIL) Standard; PIP Knowledge Integration Workflow; PIP Knowledge Integration Technician (KIT) Charter; `MVP/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`.
+**Related Documents:** Live Intelligence Library (LIL) Standard; Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Pip Runtime Architecture; PIP Knowledge Integration Workflow; PIP Knowledge Integration Technician (KIT) Charter; `MVP/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`.  
+**Revision Note:** Version 0.05 aligns the Evidence Confidence common field (Section 4) and Section 5.5 with EAS v1.3's Assessed Finding model, at Founder direction: an ARC does not carry one Evidence Confidence Level for all its content, so a PKR's Evidence Confidence must trace to the specific Assessed Finding(s) it is actually built from, not to a supporting ARC as a whole. Version 0.04 implements the two PKR Standard extensions the Pip Runtime Architecture §8.2 identifies as required: an Observation PKR now defines a closed Confirmation Responses set (Section 5.1), consistent with the Decision-Relevant Input Boundary that Standard establishes, and its Visual Criteria field is now required to be specific and structured enough to ground the Perception Layer's proposal, not written only as prose for a human reviewer. Version 0.03 replaces "AIC" with "ARC" throughout (Sections 4 and 5.5), following SINS-001 v0.4's retirement of the AIC term. Version 0.02 adds Evidence Confidence as a Common Field (Section 4), carried forward from the AIC(s) a record's Supporting Source(s) trace to, so that the strength of the underlying evidence is not lost between Founder approval and what Pip can draw on. Adds Section 4.1, designating which Common Fields are eligible for Pip to communicate to a gardener, and notes in Section 5.5 that Evidence Confidence on a Source PKR is inherited, not independently determined by KIT.
 
 ---
 
@@ -70,7 +71,22 @@ Every PKR, regardless of type, shall contain:
 - **Supporting Source(s)** — one or more Source PKR references this record is traceable to;
 - **Founder Approval Date** — the date operational approval was granted;
 - **Related PKRs** — references to other PKRs this record relates to, using the relationship types in Section 8;
-- **Preserved Uncertainty or Limitations** — any uncertainty, condition or limitation the approved MIL information carried, stated plainly rather than smoothed away.
+- **Preserved Uncertainty or Limitations** — any uncertainty, condition or limitation the approved MIL information carried, stated plainly rather than smoothed away;
+- **Evidence Confidence** — the Evidence Confidence Level (Very High, High, Moderate, Low, Very Low, or Not Assigned, per the Evidence Assessment Standard) carried forward from the specific Assessed Finding(s) — within the ARC(s) this record's Supporting Source(s) trace to — that this record's content is actually built from. An ARC does not carry one Evidence Confidence Level for all of its content; KIT shall identify which Assessed Finding(s) within the referenced ARC(s) support this specific PKR and carry forward only their level(s). Where a PKR's content draws on more than one Assessed Finding — whether within a single ARC or across multiple ARCs — with differing Evidence Confidence Levels, KIT shall record the lowest of the applicable levels and shall not average, round up, or otherwise infer a combined confidence higher than any single supporting Assessed Finding actually carries. Where a record type does not represent an evidentiary factual claim (for example, a Definition PKR), this field shall be recorded as **Not Applicable** rather than omitted.
+
+## 4.1 Gardener-Facing Fields
+
+Some Common Fields exist for internal traceability and system operation only. Others are eligible for Pip to draw on when communicating with a gardener, subject to the retrieval and communication boundaries set by the Live Intelligence Library (LIL) Standard and the approved MVP journey design.
+
+The following Common Fields are eligible for gardener-facing communication:
+
+- Evidence Confidence;
+- Supporting Source(s) — presented to the gardener as a plain-language attribution (for example, "sourced from a recognised extension publication") rather than as an internal MIL or ARC identifier;
+- Preserved Uncertainty or Limitations.
+
+The following Common Fields are internal only and shall not be presented to the gardener directly: PKR ID, PKR Type, Status, Version, Founder Approval Date, Related PKRs.
+
+Designating a field as eligible under this section does not by itself authorise Pip to present it. The approved MVP journey design and Pip's own communication approach determine when and how an eligible field is actually shown to a gardener, consistent with the LIL Standard's Accessibility and Retrieval Boundary provisions.
 
 ---
 
@@ -81,11 +97,12 @@ Every PKR, regardless of type, shall contain:
 In addition to the common fields, an Observation PKR shall contain:
 
 - **Observation Name** — one of the six supported observations;
-- **Visual Criteria** — what a photograph needs to show to support this observation (viewpoint, scale, relevant context), per Architecture §6.2;
+- **Visual Criteria** — what a photograph needs to show to support this observation (viewpoint, scale, relevant context), per Architecture §6.2. Visual Criteria shall be specific and structured enough to ground the Perception Layer's proposal under the Pip Runtime Architecture, not written only as descriptive prose for a human reviewer;
 - **What the Photo Cannot Establish** — an explicit statement of the limits of photographic evidence for this observation;
 - **Linked Comparison Image PKR(s)** — at least one, per Architecture §4.3;
 - **Linked Decision Logic PKR** — the rule governing what choices apply once this observation is gardener-confirmed;
-- **Confirmation Requirement** — confirmation that this observation requires the gardener to examine the physical rose before any decision proceeds (this is a structural requirement of the MVP, not optional per record).
+- **Confirmation Requirement** — confirmation that this observation requires the gardener to examine the physical rose before any decision proceeds (this is a structural requirement of the MVP, not optional per record);
+- **Confirmation Responses** — the closed set of responses the gardener may give when asked to confirm this observation, per the Pip Runtime Architecture's Decision-Relevant Input Boundary: at minimum **Confirmed**, **Doesn't Match** and **Not Sure**. Confirmed routes to the Linked Decision Logic PKR. Doesn't Match and Not Sure shall not proceed to a Decision Logic PKR; each shall route to a defined fallback (request better evidence, defer, or recommend experienced local help), consistent with the approved MVP journey. Free-text confirmation is not permitted.
 
 ## 5.2 Comparison Image PKR
 
@@ -127,6 +144,8 @@ In addition to the common fields, a Source PKR shall contain:
 - **Relevance** — a brief statement of what this source supports.
 
 A Source PKR does not duplicate the full source document into the LIL; it is a retrievable pointer, per the PIP Knowledge Integration Workflow §9.
+
+The Evidence Confidence common field (Section 4) on a Source PKR is populated directly from the Evidence Confidence Level recorded on the specific Assessed Finding, within the ARC it references, that the Source PKR supports — not from the ARC as a whole — and shall not be independently determined or adjusted by KIT.
 
 ## 5.6 Definition PKR
 

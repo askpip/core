@@ -6,15 +6,15 @@
 
 **Document Title:** PIP Knowledge Integration Workflow  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.02  
+**Version:** 0.04  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 21 August 2026  
+**Last Updated:** 22 August 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Workflows/Knowledge_Integration_Workflow.md`  
 **Purpose:** To define the controlled end-to-end workflow through which horticultural information is researched, reviewed, approved, preserved, transformed into operational intelligence and published for use within the Plant Intelligence Platform (PIP).  
-**Related Documents:** Founding Charter, Ask Pip Platform Overview, Knowledge Curation System (KCS) Framework, PIP Research Origin Curator (ROC) Charter, PIP Knowledge Integration Technician (KIT) Charter, Mother Information Library (MIL) Standard, Live Intelligence Library (LIL) Standard, PIP Knowledge Record (PKR) Standard.  
-**Revision Note:** Version 0.02 requires each draft PKR to be accompanied by a Founder Review Rendering (see PKR Standard §9) and clarifies that Founder Operational Review (Stage 10) is conducted against that rendering, so review remains meaningful without requiring the Founders to read a PKR's underlying stored format.
+**Related Documents:** Founding Charter, Ask Pip Platform Overview, Knowledge Curation System (KCS) Framework, PIP Research Origin Curator (ROC) Charter, PIP Knowledge Integration Technician (KIT) Charter, Mother Information Library (MIL) Standard, Live Intelligence Library (LIL) Standard, PIP Knowledge Record (PKR) Standard, PIP System Identity and Naming Standard (SINS-001).  
+**Revision Note:** Version 0.04 replaces "Approved Information Compilation (AIC)" with "Approved Research Compilation (ARC)" in Stage 6, following SINS-001 v0.4's retirement of the AIC term. Version 0.02 requires each draft PKR to be accompanied by a Founder Review Rendering (see PKR Standard §9) and clarifies that Founder Operational Review (Stage 10) is conducted against that rendering, so review remains meaningful without requiring the Founders to read a PKR's underlying stored format. Version 0.03 names the Approved Information Compilation (AIC) explicitly in Stage 6, as the primary record archiving produces, following SINS-001 v0.2's retirement of "Knowledge Asset."
 
 ---
 
@@ -411,11 +411,12 @@ Rejected information may be retained separately for audit or historical context 
 
 # Stage 6 — Archiving Within the Mother Information Library
 
-Following explicit Founder approval, ROC archives the approved information within the Mother Information Library.
+Following explicit Founder approval, ROC creates or updates the Approved Research Compilation (ARC) representing the approved information, and archives it within the Mother Information Library together with its supporting records.
 
 Archiving shall include:
 
-- the approved Founder Review Dossier;
+- the Approved Research Compilation (ARC) itself — the primary governed record KIT will retrieve from;
+- the approved Founder Review Dossier it was built from;
 - approved supporting information assets;
 - source references;
 - approved images, diagrams or illustrations;

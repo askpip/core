@@ -6,14 +6,15 @@
 
 **Document Title:** Live Intelligence Library (LIL) Standard  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.01  
+**Version:** 0.02  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 21 August 2026  
+**Last Updated:** 22 August 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Standards/LIL_Standard.md`  
 **Purpose:** To define the purpose, governance, structure and operating principles of the Live Intelligence Library (LIL) within the Knowledge Curation System (KCS).  
-**Related Documents:** Mother Information Library (MIL) Standard; PIP Research Origin Curator (ROC) Charter; PIP Knowledge Integration Technician (KIT) Charter; PIP Knowledge Integration Workflow; PIP Knowledge Record (PKR) Standard (drafted alongside this document).
+**Related Documents:** Mother Information Library (MIL) Standard; PIP Research Origin Curator (ROC) Charter; PIP Knowledge Integration Technician (KIT) Charter; PIP Knowledge Integration Workflow; PIP Knowledge Record (PKR) Standard (drafted alongside this document).  
+**Revision Note:** Version 0.02 adds to the Retrieval Boundary section that Pip may communicate a PKR's gardener-facing fields (Evidence Confidence and Supporting Source(s), per the PKR Standard §4.1) to the gardener in plain language, so the PKR Standard's new Evidence Confidence field has a stated authority to actually reach gardener communication rather than stopping at the LIL.
 
 ---
 
@@ -144,8 +145,9 @@ Pip may:
 
 - retrieve relevant PKRs and follow relationships between them;
 - retrieve definitions, terminology and approved comparison images;
-- identify exceptions, conditions and deferral thresholds; and
-- combine compatible PKRs within their approved operational boundaries.
+- identify exceptions, conditions and deferral thresholds;
+- combine compatible PKRs within their approved operational boundaries; and
+- communicate a PKR's gardener-facing fields — Evidence Confidence and Supporting Source(s), presented in plain language, and Preserved Uncertainty or Limitations — to the gardener, where the PIP Knowledge Record (PKR) Standard §4.1 designates that field as eligible for gardener-facing communication and the approved MVP journey design calls for it.
 
 Pip shall not create new horticultural knowledge, override a PKR's stated limitations, conceal uncertainty a PKR preserves, or treat missing information as confirmed.
 
