@@ -1,11 +1,21 @@
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import type { ReactElement } from 'react'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthGate } from '@/pages/AuthGate'
 import { Welcome } from '@/pages/Welcome'
 import { Library } from '@/pages/Library'
 import { NewPlant } from '@/pages/NewPlant'
 import { Journey } from '@/pages/Journey'
 import { PlantProject } from '@/pages/PlantProject'
+import { useAuth } from '@/lib/auth'
 import roseBackground from '@/assets/pip/rose-background.jpg'
+
+/** Redirects to the sign-in gate unless there's a live Supabase session. */
+function RequireAuth({ children }: { children: ReactElement }) {
+  const { session, loading } = useAuth()
+  if (loading) return null
+  if (!session) return <Navigate to="/" replace />
+  return children
+}
 
 function App() {
   return (
@@ -22,11 +32,46 @@ function App() {
         <div className="relative h-dvh w-full overflow-hidden bg-pip-bg sm:h-[812px] sm:max-h-[92vh] sm:w-[375px] sm:max-w-full sm:rounded-[2.5rem] sm:shadow-2xl sm:ring-8 sm:ring-black/80">
           <Routes>
             <Route path="/" element={<AuthGate />} />
-            <Route path="/welcome" element={<Welcome />} />
-            <Route path="/library" element={<Library />} />
-            <Route path="/new-plant" element={<NewPlant />} />
-            <Route path="/journey/:id" element={<Journey />} />
-            <Route path="/plant/:id" element={<PlantProject />} />
+            <Route
+              path="/welcome"
+              element={
+                <RequireAuth>
+                  <Welcome />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/library"
+              element={
+                <RequireAuth>
+                  <Library />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/new-plant"
+              element={
+                <RequireAuth>
+                  <NewPlant />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/journey/:id"
+              element={
+                <RequireAuth>
+                  <Journey />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/plant/:id"
+              element={
+                <RequireAuth>
+                  <PlantProject />
+                </RequireAuth>
+              }
+            />
           </Routes>
         </div>
       </div>

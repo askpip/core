@@ -52,11 +52,12 @@ export function NewPlant() {
   const [step, setStep] = useState(0)
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const [draft, setDraft] = useState('')
+  const [saving, setSaving] = useState(false)
 
   const question = QUESTIONS[step]
   const canAdvance = question.optional || draft.trim().length > 0
 
-  function advance() {
+  async function advance() {
     const next = { ...answers, [question.id]: draft.trim() }
     setAnswers(next)
 
@@ -77,7 +78,12 @@ export function NewPlant() {
       observations: [],
       journeyComplete: false,
     }
-    addProject(project)
+    setSaving(true)
+    // Wait for the save to actually land before navigating — the journey
+    // page does its own independent fetch of the gardener's plants, and if
+    // we navigate before this finishes, that fetch can run before the new
+    // row exists yet and briefly report "couldn't find that plant."
+    await addProject(project)
     navigate(`/journey/${project.id}`)
   }
 
@@ -116,16 +122,17 @@ export function NewPlant() {
             )}
 
             <div className="mt-3 flex flex-col gap-2">
-              <Button disabled={!canAdvance} onClick={advance}>
-                {step + 1 < QUESTIONS.length ? 'Next' : "That's everything — begin"}
+              <Button disabled={!canAdvance || saving} onClick={advance}>
+                {saving ? 'Saving…' : step + 1 < QUESTIONS.length ? 'Next' : "That's everything — begin"}
               </Button>
               {question.optional && (
                 <button
+                  disabled={saving}
                   onClick={() => {
                     setDraft('')
                     advance()
                   }}
-                  className="text-sm text-pip-text-soft underline"
+                  className="text-sm text-pip-text-soft underline disabled:opacity-40"
                 >
                   Skip this one
                 </button>

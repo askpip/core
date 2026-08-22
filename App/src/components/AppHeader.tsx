@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { MoreHorizontal } from 'lucide-react'
 import titleImg from '@/assets/pip/title.png'
+import { supabase } from '@/lib/supabase'
 import { InfoModal } from './InfoModal'
 
 type InfoPanel = 'disclaimer' | 'contact' | 'info' | null
@@ -76,7 +77,7 @@ export function AppHeader() {
               label="Log Out"
               onClick={() => {
                 setMenuOpen(false)
-                navigate('/')
+                supabase.auth.signOut().finally(() => navigate('/'))
               }}
             />
             <MenuItem label="Disclaimer" onClick={() => openInfo('disclaimer')} />

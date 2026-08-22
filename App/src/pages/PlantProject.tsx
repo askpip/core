@@ -8,8 +8,12 @@ import { Button } from '@/components/Button'
 export function PlantProject() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
-  const { getProject } = useProjects()
+  const { getProject, loading } = useProjects()
   const project = id ? getProject(id) : undefined
+
+  if (loading) {
+    return <div className="p-6 text-sm text-pip-text-soft">Loading…</div>
+  }
 
   if (!project) {
     return (

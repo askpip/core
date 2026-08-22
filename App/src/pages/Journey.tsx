@@ -27,7 +27,7 @@ type Phase = 'safety' | 'photos' | 'observe' | 'decide' | 'summary'
 export function Journey() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
-  const { getProject, updateProject } = useProjects()
+  const { getProject, updateProject, addObservation, loading } = useProjects()
   const project = id ? getProject(id) : undefined
 
   const [phase, setPhase] = useState<Phase>('safety')
@@ -36,7 +36,12 @@ export function Journey() {
   const [records, setRecords] = useState<ObservationRecord[]>([])
   const [revealed, setRevealed] = useState(false)
   const [showWhy, setShowWhy] = useState(false)
+  const [saving, setSaving] = useState(false)
   const uncheckedCount = checked.filter((v) => !v).length
+
+  if (loading) {
+    return <div className="p-6 text-sm text-pip-text-soft">Loading…</div>
+  }
 
   if (!project) {
     return (
@@ -70,7 +75,16 @@ export function Journey() {
   }
 
   function recordChoice(choice: Choice) {
+    const last = records[records.length - 1]
+    const completed = last ? { ...last, choice } : null
     setRecords((prev) => prev.map((r, i) => (i === prev.length - 1 ? { ...r, choice } : r)))
+
+    // Save this observation immediately, rather than waiting until the whole
+    // journey is done — see addObservation's comment in store.ts for why.
+    if (completed && project) {
+      addObservation(project.id, completed)
+    }
+
     if (obsIndex + 1 < observationScript.length) {
       setObsIndex(obsIndex + 1)
       setRevealed(false)
@@ -81,8 +95,13 @@ export function Journey() {
     }
   }
 
-  function finish() {
-    updateProject(project!.id, { observations: records, journeyComplete: true })
+  async function finish() {
+    setSaving(true)
+    // Each observation was already saved as it was completed (see
+    // recordChoice above) — this just marks the journey as complete. Wait
+    // for it to land before navigating, since the plant page does its own
+    // independent fetch and navigating too early can outrace the write.
+    await updateProject(project!.id, { journeyComplete: true })
     navigate(`/plant/${project!.id}`)
   }
 
@@ -241,7 +260,9 @@ export function Journey() {
                     </div>
                   ))}
                 </div>
-                <Button onClick={finish}>Save to {project.name}'s journal</Button>
+                <Button disabled={saving} onClick={finish}>
+                  {saving ? 'Saving…' : `Save to ${project.name}'s journal`}
+                </Button>
               </ResponseBubble>
             </>
           )}
