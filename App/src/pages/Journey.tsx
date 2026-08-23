@@ -369,7 +369,9 @@ export function Journey() {
                 {project.plantedWhen && (
                   <>
                     {' '}
-                    You told me earlier it was planted "{project.plantedWhen}".
+                    You mentioned earlier it was planted "{project.plantedWhen}" — I'd rather
+                    double-check the exact answer here than go on a rough memory, since it
+                    affects what's safe to do today.
                   </>
                 )}{' '}
                 Has this rose been growing in this spot for about three years or more?
@@ -431,10 +433,12 @@ export function Journey() {
 
           {phase === 'photos' && (
             <>
-              {gateResult && gateResult.status === 'restricted' && (
-                <ChatBubble>{gateResult.reason}</ChatBubble>
-              )}
+              {/* One Pip, one bubble — the restricted-gate reason (when there is
+                  one) leads into the same message rather than getting its own
+                  separate ChatBubble, which would render a second Pip avatar
+                  stacked above this one. */}
               <ChatBubble>
+                {gateResult && gateResult.status === 'restricted' && <>{gateResult.reason} </>}
                 Take a clear overview from base to tips, then a few close-ups of where stems
                 cross or look uncertain.
               </ChatBubble>
