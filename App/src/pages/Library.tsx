@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { Plus, Check, Trash2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useProjects } from '@/lib/store'
-import { PhotoPlaceholder } from '@/components/PhotoPlaceholder'
+import { PlantThumbnail } from '@/components/PlantThumbnail'
 import { AppHeader } from '@/components/AppHeader'
 import { Button } from '@/components/Button'
 
@@ -90,7 +90,11 @@ export function Library() {
                 )}
               >
                 <div className="relative">
-                  <PhotoPlaceholder label={project.name} className="aspect-square w-full" />
+                  <PlantThumbnail
+                    path={project.overviewPhotoPath}
+                    label={project.name}
+                    className="aspect-square w-full"
+                  />
                   {selectMode && (
                     <span
                       className={cn(

@@ -122,23 +122,31 @@ export function AuthGate() {
     navigate('/library', { replace: true })
   }
 
+  // What Pip says up top changes with the flow, rather than leaving the
+  // original "enter your email" prompt sitting there stale once a code has
+  // actually been sent — that mismatch (Pip still asking for an email while
+  // the box below is already asking for a code) was reported as looking
+  // broken/silly, and it was: the "check your inbox" instruction was being
+  // rendered as plain text inside the response bubble (the gardener's own
+  // "turn") instead of as something Pip says.
+  const pipMessage =
+    status === 'checking'
+      ? "Just a moment — I'm checking whether you're already signed in."
+      : status === 'sent'
+        ? `I've sent a code to ${email}. Check your inbox and enter it below, or click the link in the email — either works.`
+        : "Hi, I'm Pip! Enter your email and I'll send you a code to log in — no password needed."
+
   return (
     <div className="flex h-full flex-col">
       <AppHeader />
 
       <div className="px-4 pt-6">
-        <ChatBubble>
-          Hi, I'm Pip! Enter your email and I'll send you a code to log in — no password needed.
-        </ChatBubble>
+        <ChatBubble>{pipMessage}</ChatBubble>
         <ResponseBubble>
           {status === 'checking' ? (
             <p className="text-sm text-pip-text-soft">Checking for an existing session…</p>
           ) : status === 'sent' ? (
             <div className="flex flex-col gap-2.5">
-              <p className="text-sm text-pip-text-soft">
-                Check your inbox at <span className="font-medium text-pip-text">{email}</span> —
-                enter the code from that email below (or click the link in it, either works).
-              </p>
               <input
                 type="text"
                 inputMode="numeric"

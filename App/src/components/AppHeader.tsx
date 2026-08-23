@@ -1,11 +1,31 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate, matchPath } from 'react-router-dom'
 import { MoreHorizontal } from 'lucide-react'
 import titleImg from '@/assets/pip/title.png'
 import { supabase } from '@/lib/supabase'
 import { InfoModal } from './InfoModal'
 
-type InfoPanel = 'disclaimer' | 'contact' | 'info' | null
+type InfoPanel = 'disclaimer' | 'contact' | 'info' | 'privacy' | null
+
+/**
+ * Where "Back" should go from each route. Deliberately not `navigate(-1)`:
+ * that relies on the browser's actual session history matching the app's
+ * logical structure, which breaks the moment someone opens a page via a
+ * direct/refreshed URL, or unwinds further back than the screen implies —
+ * both easy to hit while testing. A fixed, per-route parent is predictable
+ * regardless of how the gardener arrived at the current screen.
+ */
+const BACK_TARGETS: { pattern: string; to: string }[] = [
+  { pattern: '/journey/:id', to: '/library' },
+  { pattern: '/plant/:id', to: '/library' },
+  { pattern: '/new-plant', to: '/library' },
+  { pattern: '/library', to: '/welcome' },
+]
+
+function backTargetFor(pathname: string): string {
+  const match = BACK_TARGETS.find(({ pattern }) => matchPath(pattern, pathname))
+  return match?.to ?? '/welcome'
+}
 
 const INFO_CONTENT: Record<Exclude<InfoPanel, null>, { title: string; body: string }> = {
   disclaimer: {
@@ -20,11 +40,16 @@ const INFO_CONTENT: Record<Exclude<InfoPanel, null>, { title: string; body: stri
     title: 'About Ask Pip',
     body: 'Ask Pip helps gardeners understand and confidently care for their plants, one careful decision at a time.',
   },
+  privacy: {
+    title: 'Privacy',
+    body: 'Your information is kept in a secure location and will never be shared or sold. Pip has access to what you enter here — your plants, photos and notes — so it can learn about your garden and help guide its care over time.',
+  },
 }
 
 /** The approved "Ask Pip" title graphic, tagline, and the top-right options menu. */
 export function AppHeader() {
   const navigate = useNavigate()
+  const location = useLocation()
   const [menuOpen, setMenuOpen] = useState(false)
   const [infoPanel, setInfoPanel] = useState<InfoPanel>(null)
 
@@ -56,7 +81,7 @@ export function AppHeader() {
               label="Back"
               onClick={() => {
                 setMenuOpen(false)
-                navigate(-1)
+                navigate(backTargetFor(location.pathname))
               }}
             />
             <MenuItem
@@ -70,7 +95,11 @@ export function AppHeader() {
               label="Go to Beginning"
               onClick={() => {
                 setMenuOpen(false)
-                navigate('/')
+                // Not '/' — that's AuthGate, which immediately bounces an
+                // already-signed-in gardener straight back to /library on
+                // mount, making this look like it does nothing. /welcome is
+                // the actual first screen after signing in.
+                navigate('/welcome')
               }}
             />
             <MenuItem
@@ -81,6 +110,7 @@ export function AppHeader() {
               }}
             />
             <MenuItem label="Disclaimer" onClick={() => openInfo('disclaimer')} />
+            <MenuItem label="Privacy" onClick={() => openInfo('privacy')} />
             <MenuItem label="Contact" onClick={() => openInfo('contact')} />
             <MenuItem label="Info" onClick={() => openInfo('info')} />
           </div>
