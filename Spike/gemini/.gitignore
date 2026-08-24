@@ -1,0 +1,6 @@
+# Never commit the real key.
+.env.local
+
+# Test photos are personal/scratch, not project assets — keep them local.
+photos/*
+!photos/README.md

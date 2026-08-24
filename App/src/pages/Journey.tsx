@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Check } from 'lucide-react'
@@ -13,6 +13,8 @@ import { JourneyCloseUps } from '@/components/JourneyCloseUps'
 import { DecisionChoices } from '@/components/DecisionChoices'
 import { InfoModal } from '@/components/InfoModal'
 import { useProjects } from '@/lib/store'
+import { usePlantPhotoUrl } from '@/lib/photos'
+import { askPipAboutDeadWood } from '@/lib/pipObserve'
 import { observationScript } from '@/data/observationScript'
 import { CONFIDENCE_EXPLANATIONS } from '@/data/confidenceDefinitions'
 import {
@@ -127,6 +129,15 @@ export function Journey() {
   // sources comment in observationScript.ts).
   const [showConfidenceInfo, setShowConfidenceInfo] = useState(false)
   const [showSourcesInfo, setShowSourcesInfo] = useState(false)
+  // Pip's live look at the dead-wood observation — the only observation with
+  // real, Founder-approved per-signal diagnostic content behind it
+  // (PKR-OBS-000001). See App/supabase/functions/pip-observe-dead-wood and
+  // the validated spike it mirrors, Spike/gemini/run-spike-signals.mjs. The
+  // other three observations stay on the static script below — there's no
+  // researched content yet to ground a live look for them.
+  const [aiAnswer, setAiAnswer] = useState<string | null>(null)
+  const [aiLoading, setAiLoading] = useState(false)
+  const [aiFailed, setAiFailed] = useState(false)
   // Journey has its own internal steps that AppHeader's generic per-route
   // "Back" target knows nothing about (see AppHeader's BACK_TARGETS
   // comment). Each forward setPhase() below pushes the snapshot it's
@@ -136,6 +147,61 @@ export function Journey() {
   const [history, setHistory] = useState<{ phase: Phase; obsIndex: number }[]>([])
   const uncheckedCount = checked.filter((v) => !v).length
   const fallbackComplete = FALLBACK_QUESTIONS.every((q) => fallbackSignals[q.key] !== undefined)
+
+  // Which observations this journey is allowed to offer, per PKR-SGT-000002.
+  // Established (or the gate hasn't run yet, e.g. still mid-onboarding data)
+  // gets the full script; a restricted result limits it to dead wood only.
+  // Computed here, ahead of the early returns below, because the hooks that
+  // follow (usePlantPhotoUrl, useEffect) need `current` on every render —
+  // React's Rules of Hooks don't allow a hook call to come after a
+  // conditional return.
+  const allowedObservations =
+    gateResult && gateResult.status === 'restricted'
+      ? observationScript.filter((o) => gateResult.allowedObservationIds.includes(o.id))
+      : observationScript
+  const current = allowedObservations[obsIndex]
+
+  // The photo Pip's live look uses for the dead-wood observation — the first
+  // close-up if the gardener took more than one, else the overview shot.
+  // Optional-chained throughout so this stays safe before `project` exists.
+  const deadWoodPhotoPath = project?.journeyCloseUpPhotoPaths?.[0] ?? project?.journeyOverviewPhotoPath
+  const deadWoodPhotoUrl = usePlantPhotoUrl(
+    phase === 'observe' && current?.id === 'dead-wood' ? deadWoodPhotoPath : undefined,
+  )
+
+  // Fires once, when the gardener taps "Show Me" on the dead-wood
+  // observation and a photo is actually available. Never blocks the
+  // journey: on any failure (network, rate limit, key not configured yet)
+  // aiFailed is set and the 'observe' render below falls back to the static
+  // script, exactly as if this whole feature didn't exist.
+  useEffect(() => {
+    if (phase !== 'observe' || !revealed || current?.id !== 'dead-wood' || !deadWoodPhotoPath) return
+    if (aiAnswer || aiLoading) return
+    let cancelled = false
+    setAiLoading(true)
+    setAiFailed(false)
+    askPipAboutDeadWood(deadWoodPhotoPath)
+      .then((answer) => {
+        if (!cancelled) setAiAnswer(answer)
+      })
+      .catch((err) => {
+        console.error('Pip live assessment failed:', err)
+        if (!cancelled) setAiFailed(true)
+      })
+      .finally(() => {
+        if (!cancelled) setAiLoading(false)
+      })
+    return () => {
+      cancelled = true
+    }
+    // aiAnswer/aiLoading are read above only to guard against starting a
+    // second call while one's already in flight or done — they're
+    // deliberately left out of the dependency list. Setting aiLoading below
+    // is itself a state change; including it here would re-run this effect
+    // immediately after starting the request, tearing down (cancelling) the
+    // very call it had just kicked off before it could ever resolve.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, revealed, current?.id, deadWoodPhotoPath])
 
   if (loading) {
     return <div className="p-6 text-sm text-pip-text-soft">Loading…</div>
@@ -148,15 +214,6 @@ export function Journey() {
       </div>
     )
   }
-
-  // Which observations this journey is allowed to offer, per PKR-SGT-000002.
-  // Established (or the gate hasn't run yet, e.g. still mid-onboarding data)
-  // gets the full script; a restricted result limits it to dead wood only.
-  const allowedObservations =
-    gateResult && gateResult.status === 'restricted'
-      ? observationScript.filter((o) => gateResult.allowedObservationIds.includes(o.id))
-      : observationScript
-  const current = allowedObservations[obsIndex]
 
   // What the gardener actually left unchecked on the safety screen (see
   // continueFromSafety below) — undefined/empty if the checklist was never
@@ -214,6 +271,9 @@ export function Journey() {
     setPendingHelpInfo(false)
     setShowConfidenceInfo(false)
     setShowSourcesInfo(false)
+    setAiAnswer(null)
+    setAiLoading(false)
+    setAiFailed(false)
     setHistory((prev) => [...prev, { phase, obsIndex }])
     setPhase('observe')
   }
@@ -239,6 +299,9 @@ export function Journey() {
     setPendingHelpInfo(false)
     setShowConfidenceInfo(false)
     setShowSourcesInfo(false)
+    setAiAnswer(null)
+    setAiLoading(false)
+    setAiFailed(false)
   }
 
   // Gate on DecisionChoices' "Cut" and "Get experienced local help" buttons
@@ -296,6 +359,9 @@ export function Journey() {
       setShowWhy(false)
       setShowConfidenceInfo(false)
       setShowSourcesInfo(false)
+      setAiAnswer(null)
+      setAiLoading(false)
+      setAiFailed(false)
       setPhase('observe')
     } else {
       setPhase('summary')
@@ -567,9 +633,25 @@ export function Journey() {
 
           {phase === 'observe' && current && revealed && (
             <>
-              <ChatBubble>{current.pipProposal}</ChatBubble>
+              <ChatBubble>{current.id === 'dead-wood' && aiAnswer ? aiAnswer : current.pipProposal}</ChatBubble>
               <ResponseBubble showAskField>
-                <PhotoPlaceholder label={current.feature} className="mb-3 aspect-video" />
+                {current.id === 'dead-wood' && deadWoodPhotoUrl ? (
+                  <img
+                    src={deadWoodPhotoUrl}
+                    alt={current.feature}
+                    className="mb-3 aspect-video w-full rounded-2xl object-cover"
+                  />
+                ) : (
+                  <PhotoPlaceholder label={current.feature} className="mb-3 aspect-video" />
+                )}
+                {current.id === 'dead-wood' && aiLoading && (
+                  <p className="mb-3 text-xs text-pip-text-soft">Pip is looking at your photo…</p>
+                )}
+                {current.id === 'dead-wood' && aiFailed && (
+                  <p className="mb-3 text-xs text-pip-text-soft">
+                    Pip's live look isn't available right now, so here's the general guidance instead.
+                  </p>
+                )}
                 <p className="mb-3 rounded-xl bg-pip-secondary/60 px-3.5 py-2.5 text-xs text-pip-text-soft">
                   {current.comparisonNote}
                 </p>
