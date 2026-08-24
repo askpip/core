@@ -3,13 +3,22 @@ import { useNavigate } from 'react-router-dom'
 import { Plus, Check, Trash2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useProjects } from '@/lib/store'
+import { useAuth } from '@/lib/auth'
 import { PlantThumbnail } from '@/components/PlantThumbnail'
 import { AppHeader } from '@/components/AppHeader'
 import { Button } from '@/components/Button'
 
+// Same fallback Welcome.tsx uses when a gardener somehow has no saved name
+// yet — shouldn't happen in the normal flow, but a heading shouldn't break
+// over a missing string.
+const FALLBACK_NAME = 'Gardener'
+
 export function Library() {
   const navigate = useNavigate()
   const { projects, deleteProject } = useProjects()
+  const { user } = useAuth()
+  const displayName = user?.user_metadata?.displayName
+  const name = typeof displayName === 'string' && displayName.trim() ? displayName.trim() : FALLBACK_NAME
 
   const [selectMode, setSelectMode] = useState(false)
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
@@ -57,7 +66,7 @@ export function Library() {
 
       <div className="flex-1 overflow-y-auto px-4 pt-4">
         <div className="mb-1 flex items-center justify-between">
-          <h2 className="font-heading text-2xl">Your plants</h2>
+          <h2 className="font-heading text-2xl">{name}'s Plants</h2>
           {projects.length > 0 && (
             <button
               onClick={toggleSelectMode}
@@ -109,8 +118,16 @@ export function Library() {
                   )}
                 </div>
                 <div>
+                  {/* Variety used to show here too, but a gardener who
+                      answered "not sure"/"I don't know" to the variety
+                      question during onboarding (a genuinely fine, expected
+                      answer — see NewPlant.tsx's isUnknownVarietyAnswer)
+                      then had that exact phrase sitting under their plant's
+                      name on every card, which read as broken rather than
+                      honest. The name is enough to identify a card at a
+                      glance; variety and everything else is one tap away on
+                      the plant's own page. */}
                   <p className="font-medium">{project.name}</p>
-                  <p className="text-xs text-pip-text-soft">{project.variety}</p>
                 </div>
               </div>
             )

@@ -134,6 +134,17 @@ export function NewPlant() {
   // A photo of the nursery tag itself, offered alongside the "what kind of
   // rose is it" question — same local-state reasoning as photoPath above.
   const [labelPhotoPath, setLabelPhotoPath] = useState<string | undefined>()
+  // This whole questionnaire lives on one route (/new-plant) — step just
+  // moves through QUESTIONS/PHOTO_STEP locally — so AppHeader's generic
+  // per-route Back target has no idea a step even exists; without this,
+  // Back from the 3-dot menu jumped straight out to the library from any
+  // question, the same bug already fixed for the pruning journey (see
+  // Journey.tsx's own history stack). Each step index is pushed here right
+  // before advanceStep moves forward, and goBack below pops it — including
+  // the skip-ahead over "Where did you find that out?" when the variety
+  // answer didn't call for it, since a skipped index is simply never pushed
+  // in the first place, so going back skips it too, symmetrically.
+  const [history, setHistory] = useState<number[]>([])
 
   const isPhotoStep = step === PHOTO_STEP
 
@@ -212,6 +223,7 @@ export function NewPlant() {
       nextIndex += 1
     }
     if (nextIndex < QUESTIONS.length) {
+      setHistory((prev) => [...prev, step])
       setStep(nextIndex)
       setDraft(next[QUESTIONS[nextIndex].id] ?? '')
       return
@@ -224,6 +236,7 @@ export function NewPlant() {
       // phase at all (see the photo step's ChatBubble below) — added after
       // feedback that a first-year rose's gardener could otherwise go a
       // full season without ever being offered the chance to attach one.
+      setHistory((prev) => [...prev, step])
       setStep(PHOTO_STEP)
       return
     }
@@ -286,9 +299,33 @@ export function NewPlant() {
     })
   }
 
+  // Pops the history stack above and restores that step, so "Back" from the
+  // 3-dot menu steps through the questionnaire one question at a time
+  // instead of leaving it for the library. The location question's own
+  // manual/choose sub-flow isn't tracked in `history` (it's a detour within
+  // a single step, not a step of its own) — unwound first, one layer at a
+  // time, the same way its inline "Back" link already does.
+  function goBack() {
+    if (question?.id === 'location' && locationStep !== 'choose') {
+      setLocationStep('choose')
+      setGeoError(null)
+      return
+    }
+    if (history.length === 0) {
+      navigate('/library')
+      return
+    }
+    const prevStep = history[history.length - 1]
+    setHistory((prev) => prev.slice(0, -1))
+    setStep(prevStep)
+    setDraft(answers[QUESTIONS[prevStep]?.id] ?? '')
+    setLocationStep('choose')
+    setGeoError(null)
+  }
+
   return (
     <div className="flex h-full flex-col">
-      <AppHeader />
+      <AppHeader onBack={goBack} />
 
       <div className="flex-1 overflow-y-auto px-4 pb-6 pt-6">
         <motion.div

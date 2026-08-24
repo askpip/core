@@ -3,7 +3,9 @@ import { useLocation, useNavigate, matchPath } from 'react-router-dom'
 import { MoreHorizontal } from 'lucide-react'
 import titleImg from '@/assets/pip/title.png'
 import { supabase } from '@/lib/supabase'
+import { useAuth } from '@/lib/auth'
 import { InfoModal } from './InfoModal'
+import { Button } from './Button'
 
 type InfoPanel = 'disclaimer' | 'contact' | 'info' | 'privacy' | null
 
@@ -46,16 +48,60 @@ const INFO_CONTENT: Record<Exclude<InfoPanel, null>, { title: string; body: stri
   },
 }
 
+interface AppHeaderProps {
+  /**
+   * Overrides "Back" for a page with its own internal steps (e.g. Journey's
+   * safety / questions / photos / observations phases), where a single
+   * route-level parent isn't granular enough — the generic `BACK_TARGETS`
+   * map above only knows how to leave the whole page, not step back within
+   * it. When omitted, "Back" keeps the route-level behavior every other
+   * page already relies on.
+   */
+  onBack?: () => void
+}
+
 /** The approved "Ask Pip" title graphic, tagline, and the top-right options menu. */
-export function AppHeader() {
+export function AppHeader({ onBack }: AppHeaderProps = {}) {
   const navigate = useNavigate()
   const location = useLocation()
+  const { user } = useAuth()
   const [menuOpen, setMenuOpen] = useState(false)
   const [infoPanel, setInfoPanel] = useState<InfoPanel>(null)
+  // "My Name" editing — reuses InfoModal's chrome (see its render below)
+  // rather than a dedicated modal component, since a name field and a Save
+  // button are just as valid as InfoModal's usual static children.
+  const [editingName, setEditingName] = useState(false)
+  const [nameDraft, setNameDraft] = useState('')
+  const [savingName, setSavingName] = useState(false)
+  const [nameError, setNameError] = useState<string | null>(null)
 
   function openInfo(panel: Exclude<InfoPanel, null>) {
     setMenuOpen(false)
     setInfoPanel(panel)
+  }
+
+  function openNameEditor() {
+    setMenuOpen(false)
+    setNameError(null)
+    const current = user?.user_metadata?.displayName
+    setNameDraft(typeof current === 'string' ? current : '')
+    setEditingName(true)
+  }
+
+  async function saveName() {
+    if (!nameDraft.trim()) return
+    setSavingName(true)
+    setNameError(null)
+    // updateUser triggers a USER_UPDATED auth event, which every page's own
+    // useAuth() picks up — Welcome's greeting and Library's heading update
+    // on their own, nothing else needs to know this ran.
+    const { error } = await supabase.auth.updateUser({ data: { displayName: nameDraft.trim() } })
+    setSavingName(false)
+    if (error) {
+      setNameError(error.message)
+      return
+    }
+    setEditingName(false)
   }
 
   return (
@@ -81,7 +127,11 @@ export function AppHeader() {
               label="Back"
               onClick={() => {
                 setMenuOpen(false)
-                navigate(backTargetFor(location.pathname))
+                if (onBack) {
+                  onBack()
+                } else {
+                  navigate(backTargetFor(location.pathname))
+                }
               }}
             />
             <MenuItem
@@ -102,6 +152,7 @@ export function AppHeader() {
                 navigate('/welcome')
               }}
             />
+            <MenuItem label="My Name" onClick={openNameEditor} />
             <MenuItem
               label="Log Out"
               onClick={() => {
@@ -120,6 +171,26 @@ export function AppHeader() {
       {infoPanel && (
         <InfoModal title={INFO_CONTENT[infoPanel].title} onClose={() => setInfoPanel(null)}>
           {INFO_CONTENT[infoPanel].body}
+        </InfoModal>
+      )}
+
+      {editingName && (
+        <InfoModal title="My Name" onClose={() => setEditingName(false)}>
+          <div className="flex flex-col gap-3">
+            <input
+              type="text"
+              autoFocus
+              value={nameDraft}
+              onChange={(e) => setNameDraft(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && saveName()}
+              placeholder="Your name"
+              className="input w-full text-pip-text"
+            />
+            {nameError && <p className="text-xs text-red-600">{nameError}</p>}
+            <Button disabled={savingName || !nameDraft.trim()} onClick={saveName}>
+              {savingName ? 'Saving…' : 'Save'}
+            </Button>
+          </div>
         </InfoModal>
       )}
     </header>

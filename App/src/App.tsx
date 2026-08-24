@@ -1,6 +1,7 @@
 import type { ReactElement } from 'react'
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthGate } from '@/pages/AuthGate'
+import { NameOnboarding } from '@/pages/NameOnboarding'
 import { Welcome } from '@/pages/Welcome'
 import { Library } from '@/pages/Library'
 import { NewPlant } from '@/pages/NewPlant'
@@ -32,6 +33,14 @@ function App() {
         <div className="relative h-dvh w-full overflow-hidden bg-pip-bg sm:h-[812px] sm:max-h-[92vh] sm:w-[375px] sm:max-w-full sm:rounded-[2.5rem] sm:shadow-2xl sm:ring-8 sm:ring-black/80">
           <Routes>
             <Route path="/" element={<AuthGate />} />
+            <Route
+              path="/name"
+              element={
+                <RequireAuth>
+                  <NameOnboarding />
+                </RequireAuth>
+              }
+            />
             <Route
               path="/welcome"
               element={

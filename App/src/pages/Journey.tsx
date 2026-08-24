@@ -115,6 +115,13 @@ export function Journey() {
   const [showWhy, setShowWhy] = useState(false)
   const [saving, setSaving] = useState(false)
   const [pendingCutConfirm, setPendingCutConfirm] = useState(false)
+  // Journey has its own internal steps that AppHeader's generic per-route
+  // "Back" target knows nothing about (see AppHeader's BACK_TARGETS
+  // comment). Each forward setPhase() below pushes the snapshot it's
+  // leaving here first, so "Back" can step through safety -> planted
+  // question -> photos -> each observation, and only fall out to the
+  // library once there's nothing left to step back into.
+  const [history, setHistory] = useState<{ phase: Phase; obsIndex: number }[]>([])
   const uncheckedCount = checked.filter((v) => !v).length
   const fallbackComplete = FALLBACK_QUESTIONS.every((q) => fallbackSignals[q.key] !== undefined)
 
@@ -165,11 +172,13 @@ export function Journey() {
       safetyAcknowledgedAt: new Date().toISOString(),
     })
     setSavingSafety(false)
+    setHistory((prev) => [...prev, { phase, obsIndex }])
     setPhase('planted-primary')
   }
 
   function choosePrimary(answer: RecentlyPlantedPrimaryAnswer) {
     const result = evaluateRecentlyPlantedPrimary(answer)
+    setHistory((prev) => [...prev, { phase, obsIndex }])
     if (result === 'needs-fallback') {
       setPhase('planted-fallback')
       return
@@ -182,6 +191,7 @@ export function Journey() {
     if (!fallbackComplete) return
     const result = evaluateRecentlyPlantedFallback(fallbackSignals as RecentlyPlantedFallbackSignals)
     setGateResult(result)
+    setHistory((prev) => [...prev, { phase, obsIndex }])
     setPhase('photos')
   }
 
@@ -189,7 +199,28 @@ export function Journey() {
     setRevealed(false)
     setShowWhy(false)
     setPendingCutConfirm(false)
+    setHistory((prev) => [...prev, { phase, obsIndex }])
     setPhase('observe')
+  }
+
+  // Pops the last step off the history stack above and restores it, so
+  // "Back" from the 3-dot menu steps through Journey's own phases one at a
+  // time instead of jumping straight out to the library. Once there's no
+  // history left (already on the very first step), there's nothing to step
+  // back into, so it falls through to the library like every other page's
+  // Back button.
+  function goBack() {
+    if (history.length === 0) {
+      navigate('/library')
+      return
+    }
+    const last = history[history.length - 1]
+    setHistory((prev) => prev.slice(0, -1))
+    setPhase(last.phase)
+    setObsIndex(last.obsIndex)
+    setRevealed(false)
+    setShowWhy(false)
+    setPendingCutConfirm(false)
   }
 
   // Gate on DecisionChoices' "Cut" button — not the whole checklist, and not
@@ -219,6 +250,7 @@ export function Journey() {
         correction: current.suggestedNote,
       },
     ])
+    setHistory((prev) => [...prev, { phase, obsIndex }])
     setPhase('decide')
   }
 
@@ -234,6 +266,7 @@ export function Journey() {
       addObservation(project.id, completed)
     }
 
+    setHistory((prev) => [...prev, { phase, obsIndex }])
     if (obsIndex + 1 < allowedObservations.length) {
       setObsIndex(obsIndex + 1)
       setRevealed(false)
@@ -267,7 +300,7 @@ export function Journey() {
 
   return (
     <div className="flex h-full flex-col">
-      <AppHeader />
+      <AppHeader onBack={goBack} />
 
       {/* Pip stays near the top, right after his message. Everything below — whether
           it's a checklist, a photo, or buttons — is the gardener's turn, so it all

@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import type { User } from '@supabase/supabase-js'
+import { Clipboard } from 'lucide-react'
 import { AppHeader } from '@/components/AppHeader'
 import { ChatBubble } from '@/components/ChatBubble'
 import { ResponseBubble } from '@/components/ResponseBubble'
@@ -7,6 +9,19 @@ import { Button } from '@/components/Button'
 import { supabase } from '@/lib/supabase'
 
 type Status = 'checking' | 'idle' | 'sending' | 'sent' | 'error'
+
+/**
+ * Where a signed-in gardener lands: /name if their account has no saved
+ * display name yet (first-ever sign-in, on any device), otherwise straight
+ * to /welcome — including a returning gardener on a new device, or one who
+ * chose not to "keep me logged in" last time, since the name lives on the
+ * Supabase auth user itself and isn't tied to this browser. See
+ * NameOnboarding.tsx for where displayName gets set.
+ */
+function nextRouteFor(user: User | null | undefined): string {
+  const name = user?.user_metadata?.displayName
+  return typeof name === 'string' && name.trim() ? '/welcome' : '/name'
+}
 
 /**
  * Real entry gate: magic-link sign-in via Supabase Auth. No password —
@@ -25,12 +40,13 @@ type Status = 'checking' | 'idle' | 'sending' | 'sent' | 'error'
  * with; the link stays as a convenience for whoever isn't hit by that.
  *
  * Handles two situations on mount:
- *  - Already has a session (e.g. reopening the app) -> skip straight to /library.
+ *  - Already has a session (e.g. reopening the app) -> skip straight past
+ *    this screen, routed onward by nextRouteFor above.
  *  - Arriving from a clicked magic link (?code=... in the URL) -> exchange
- *    the code for a session, then go to /library. The exchange is done here
- *    manually (supabase.ts sets detectSessionInUrl: false) because HashRouter
- *    also owns the URL hash and would otherwise race with supabase-js's own
- *    auto-detection.
+ *    the code for a session, then route onward the same way. The exchange
+ *    is done here manually (supabase.ts sets detectSessionInUrl: false)
+ *    because HashRouter also owns the URL hash and would otherwise race
+ *    with supabase-js's own auto-detection.
  */
 export function AuthGate() {
   const navigate = useNavigate()
@@ -57,21 +73,21 @@ export function AuthGate() {
         const authUrl = window.location.href
         window.history.replaceState({}, '', url.pathname + url.hash)
 
-        const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(authUrl)
+        const { data: exchangeData, error: exchangeError } = await supabase.auth.exchangeCodeForSession(authUrl)
         if (!active) return
         if (exchangeError) {
           setError(exchangeError.message)
           setStatus('idle')
           return
         }
-        navigate('/library', { replace: true })
+        navigate(nextRouteFor(exchangeData.session?.user ?? exchangeData.user), { replace: true })
         return
       }
 
       const { data } = await supabase.auth.getSession()
       if (!active) return
       if (data.session) {
-        navigate('/library', { replace: true })
+        navigate(nextRouteFor(data.session.user), { replace: true })
         return
       }
       setStatus('idle')
@@ -108,7 +124,7 @@ export function AuthGate() {
     setVerifying(true)
     setError(null)
 
-    const { error: verifyError } = await supabase.auth.verifyOtp({
+    const { data: verifyData, error: verifyError } = await supabase.auth.verifyOtp({
       email: email.trim(),
       token: code.trim(),
       type: 'email',
@@ -119,7 +135,24 @@ export function AuthGate() {
       setVerifying(false)
       return
     }
-    navigate('/library', { replace: true })
+    navigate(nextRouteFor(verifyData.session?.user ?? verifyData.user), { replace: true })
+  }
+
+  /**
+   * Reads the code straight from the clipboard, for a gardener copying it
+   * from the email rather than typing it. Needs the Clipboard API (works
+   * over https, which the production domain is) and a click to trigger it —
+   * browsers require a real user gesture for clipboard reads. Fails
+   * silently on denial/unsupported browsers rather than showing an alarming
+   * error over something this minor; the field is always still typeable.
+   */
+  async function pasteCode() {
+    try {
+      const text = await navigator.clipboard.readText()
+      if (text.trim()) setCode(text.trim())
+    } catch {
+      // See comment above — nothing to surface here.
+    }
   }
 
   // What Pip says up top changes with the flow, rather than leaving the
@@ -147,16 +180,26 @@ export function AuthGate() {
             <p className="text-sm text-pip-text-soft">Checking for an existing session…</p>
           ) : status === 'sent' ? (
             <div className="flex flex-col gap-2.5">
-              <input
-                type="text"
-                inputMode="numeric"
-                autoFocus
-                value={code}
-                onChange={(e) => setCode(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && verifyCode()}
-                placeholder="123456"
-                className="input w-full"
-              />
+              <div className="relative">
+                <input
+                  type="text"
+                  inputMode="numeric"
+                  autoFocus
+                  value={code}
+                  onChange={(e) => setCode(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && verifyCode()}
+                  placeholder="123456"
+                  className="input w-full pr-11"
+                />
+                <button
+                  type="button"
+                  onClick={pasteCode}
+                  aria-label="Paste code from clipboard"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 p-1.5 text-pip-text-soft hover:text-pip-primary"
+                >
+                  <Clipboard size={18} />
+                </button>
+              </div>
               {error && <p className="text-xs text-red-600">{error}</p>}
               <Button disabled={verifying || !code.trim()} onClick={verifyCode}>
                 {verifying ? 'Checking…' : 'Log in'}
