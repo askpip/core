@@ -14,6 +14,7 @@ import { DecisionChoices } from '@/components/DecisionChoices'
 import { InfoModal } from '@/components/InfoModal'
 import { useProjects } from '@/lib/store'
 import { observationScript } from '@/data/observationScript'
+import { CONFIDENCE_EXPLANATIONS } from '@/data/confidenceDefinitions'
 import {
   evaluateRecentlyPlantedFallback,
   evaluateRecentlyPlantedPrimary,
@@ -120,6 +121,12 @@ export function Journey() {
   // move straight on, a dead end with no actual help offered. This
   // interrupts with real, concrete leads before the choice is saved.
   const [pendingHelpInfo, setPendingHelpInfo] = useState(false)
+  // Tap-to-reveal panels for the current observation's confidence rating and
+  // its sources — only ever openable when the current observation actually
+  // has real content behind it (see ScriptedObservation's confidenceLevel /
+  // sources comment in observationScript.ts).
+  const [showConfidenceInfo, setShowConfidenceInfo] = useState(false)
+  const [showSourcesInfo, setShowSourcesInfo] = useState(false)
   // Journey has its own internal steps that AppHeader's generic per-route
   // "Back" target knows nothing about (see AppHeader's BACK_TARGETS
   // comment). Each forward setPhase() below pushes the snapshot it's
@@ -205,6 +212,8 @@ export function Journey() {
     setShowWhy(false)
     setPendingCutConfirm(false)
     setPendingHelpInfo(false)
+    setShowConfidenceInfo(false)
+    setShowSourcesInfo(false)
     setHistory((prev) => [...prev, { phase, obsIndex }])
     setPhase('observe')
   }
@@ -228,6 +237,8 @@ export function Journey() {
     setShowWhy(false)
     setPendingCutConfirm(false)
     setPendingHelpInfo(false)
+    setShowConfidenceInfo(false)
+    setShowSourcesInfo(false)
   }
 
   // Gate on DecisionChoices' "Cut" and "Get experienced local help" buttons
@@ -283,6 +294,8 @@ export function Journey() {
       setObsIndex(obsIndex + 1)
       setRevealed(false)
       setShowWhy(false)
+      setShowConfidenceInfo(false)
+      setShowSourcesInfo(false)
       setPhase('observe')
     } else {
       setPhase('summary')
@@ -560,6 +573,29 @@ export function Journey() {
                 <p className="mb-3 rounded-xl bg-pip-secondary/60 px-3.5 py-2.5 text-xs text-pip-text-soft">
                   {current.comparisonNote}
                 </p>
+                {/* Only ever shown when this observation actually has real
+                    content behind it — see the confidenceLevel/sources
+                    comment on ScriptedObservation. */}
+                {(current.confidenceLevel || (current.sources && current.sources.length > 0)) && (
+                  <div className="mb-3 flex flex-wrap gap-x-4 gap-y-1.5 text-xs">
+                    {current.confidenceLevel && (
+                      <button
+                        onClick={() => setShowConfidenceInfo(true)}
+                        className="font-medium text-pip-primary underline underline-offset-2"
+                      >
+                        {current.confidenceLevel} confidence — what does this mean?
+                      </button>
+                    )}
+                    {current.sources && current.sources.length > 0 && (
+                      <button
+                        onClick={() => setShowSourcesInfo(true)}
+                        className="font-medium text-pip-primary underline underline-offset-2"
+                      >
+                        Where this comes from
+                      </button>
+                    )}
+                  </div>
+                )}
                 <p className="mb-3 text-sm font-medium">Check the actual rose. What do you see?</p>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => recordOutcome('confirmed')}>Yes, I can see that</Button>
@@ -571,6 +607,40 @@ export function Journey() {
                   </Button>
                 </div>
               </ResponseBubble>
+
+              {showConfidenceInfo && current.confidenceLevel && (
+                <InfoModal title={`${current.confidenceLevel} confidence`} onClose={() => setShowConfidenceInfo(false)}>
+                  <p>{CONFIDENCE_EXPLANATIONS[current.confidenceLevel]}</p>
+                  <p className="mt-2.5">
+                    Pip's confidence ratings run from Very High to Very Low, based on how many
+                    reputable sources agree and how much is still left in question.
+                  </p>
+                </InfoModal>
+              )}
+
+              {showSourcesInfo && current.sources && current.sources.length > 0 && (
+                <InfoModal title="Where this comes from" onClose={() => setShowSourcesInfo(false)}>
+                  <p className="mb-3">
+                    This observation draws on the following reputable horticultural sources:
+                  </p>
+                  <div className="flex flex-col gap-2.5">
+                    {current.sources.map((source) => (
+                      <a
+                        key={source.url}
+                        href={source.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="block rounded-lg bg-pip-bg px-3 py-2.5"
+                      >
+                        <p className="text-sm font-medium text-pip-text underline underline-offset-2">
+                          {source.title}
+                        </p>
+                        <p className="mt-0.5 text-xs text-pip-text-soft">{source.publisher}</p>
+                      </a>
+                    ))}
+                  </div>
+                </InfoModal>
+              )}
             </>
           )}
 
