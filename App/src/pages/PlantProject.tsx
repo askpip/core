@@ -65,32 +65,10 @@ export function PlantProject() {
           </p>
         )}
 
-        <div>
-          <h2 className="mb-1 text-sm font-medium">Progress photos</h2>
-          <p className="mb-2 text-xs text-pip-text-soft">
-            Add a photo any time — no need to wait for a pruning journey — to see how{' '}
-            {project.name} changes over the seasons.
-          </p>
-          <ProgressPhotos
-            photos={project.progressPhotos}
-            onAdd={(file) => addProgressPhoto(project.id, file)}
-            onRemove={(photo) => deleteProgressPhoto(project.id, photo.id, photo.path)}
-          />
-        </div>
-
-        <div>
-          <h2 className="mb-1 text-sm font-medium">Notes</h2>
-          <p className="mb-2 text-xs text-pip-text-soft">
-            Jot down anything about {project.name}, any time. Any detail could help in caring
-            for and understanding {project.name} better.
-          </p>
-          <PlantNotes
-            notes={project.notes}
-            onAdd={(text) => addNote(project.id, text)}
-            onRemove={(note) => deleteNote(project.id, note.id)}
-          />
-        </div>
-
+        {/* Pip's own bubble (plus the journey button, or the journal once
+            complete) sits right under the photo now — the most immediate,
+            conversational thing on the page — with Notes, Progress photos,
+            and the plant's original onboarding info following below it. */}
         {!project.journeyComplete ? (
           <>
             <ChatBubble>
@@ -126,6 +104,32 @@ export function PlantProject() {
             </div>
           </>
         )}
+
+        <div>
+          <h2 className="mb-1 text-sm font-medium">Notes</h2>
+          <p className="mb-2 text-xs text-pip-text-soft">
+            Jot down anything about {project.name}, any time. Any detail could help in caring
+            for and understanding {project.name} better.
+          </p>
+          <PlantNotes
+            notes={project.notes}
+            onAdd={(text) => addNote(project.id, text)}
+            onRemove={(note) => deleteNote(project.id, note.id)}
+          />
+        </div>
+
+        <div>
+          <h2 className="mb-1 text-sm font-medium">Progress photos</h2>
+          <p className="mb-2 text-xs text-pip-text-soft">
+            Add a photo at any time so we can watch and learn how {project.name} grows and
+            changes over the seasons.
+          </p>
+          <ProgressPhotos
+            photos={project.progressPhotos}
+            onAdd={(file) => addProgressPhoto(project.id, file)}
+            onRemove={(photo) => deleteProgressPhoto(project.id, photo.id, photo.path)}
+          />
+        </div>
 
         <div className="mt-4 rounded-xl bg-pip-card p-4 text-xs text-pip-text-soft shadow-sm">
           <p>
