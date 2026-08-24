@@ -62,13 +62,13 @@ const SAFETY_ITEMS: SafetyItem[] = [
     label: 'The rose is dormant, not in active growth',
     // Verbatim from PKR-SGT-000001's approved Question/Check, its "Still
     // dormant" Acceptable Answer, and its AF-3 Preserved Uncertainty caveat
-    // (PKR-SGT-BUSHROSE-DORMANCY-01-submission.md — content Founder-approved
-    // 23 Aug 2026, Version 1.0). That PKR's Status is still Draft —
-    // Dependency-Blocked (an unrelated "not sure"-wording gap and an open
-    // caveat-design question — see Project_Backlog.md), so this is shown as
-    // plain informational text, not wired as an actual gate the way
-    // PKR-SGT-000002 is in the phases below. If that record's approved
-    // wording changes, this needs updating to match.
+    // (PKR-SGT-BUSHROSE-DORMANCY-01-submission.md — Published 24 Aug 2026,
+    // Version 1.0). Still shown here as plain informational text on a
+    // self-attested checkbox, not wired as an actual interactive gate the
+    // way PKR-SGT-000002 is in the phases below — that's a genuine next
+    // step (the record now has real "Not sure" fallback wording ready for
+    // it), just not built yet. If the record's approved wording changes,
+    // this needs updating to match.
     help: "Look closely at the buds along your rose's canes. Has active new growth already begun — buds swelling, breaking open, or new leaves emerging anywhere on the plant — or does it still appear dormant?\n\nStill dormant (check the box): buds are tight and closed, or just beginning to swell, with no new leaves open anywhere on the plant.\n\nIf your climate is mild or unusually warm, judge this by bud state specifically — not by whether the leaves have dropped. In milder climates a rose doesn't always lose all its leaves, and buds can sometimes break earlier than expected.",
   },
   {

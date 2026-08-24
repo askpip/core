@@ -43,10 +43,9 @@ export const observationScript: ScriptedObservation[] = [
     suggestedNote: 'Yes. I can see those signs on the rose — dry and brittle, no healthy buds.',
     // This proposal rests on two signals from PKR-OBS-000001: external
     // bark colour (AF-2) and dormant bud presence (AF-3) — both rated
-    // Moderate confidence there. That record's own Status is still "Draft —
-    // Dependency-Blocked" (blocked on a missing Comparison Image PKR, which
-    // has nothing to do with these two signals' rating), but its content
-    // was Founder-approved 23 August 2026.
+    // Moderate confidence there. PKR-OBS-000001 is Published (24 August
+    // 2026) with one documented, non-blocking gap: no Comparison Image PKR
+    // exists yet, since no reference photographs exist anywhere in the KCS.
     confidenceLevel: 'Moderate',
     sources: [
       {

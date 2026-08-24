@@ -1,14 +1,8 @@
 /**
  * Plain-language explanations for Pip's evidence-confidence ratings —
  * verbatim, Founder-approved wording from PKR-DEF-000001 through
- * PKR-DEF-000005 (content approved 23 August 2026).
- *
- * Each of those five records' own Status field is still "Draft —
- * Dependency-Blocked," but that's blocked on an unrelated, unresolved
- * governance question (whether a Definition PKR needs its own Source PKR
- * reference the way a factual claim does) — not on this wording, which the
- * Founder already approved. Shown here as informational content on the same
- * basis as the dormancy-gate help text in Journey.tsx's SAFETY_ITEMS.
+ * PKR-DEF-000005, all **Published** 24 August 2026 (content approved 23
+ * August 2026).
  *
  * See Working/AI Outputs/PKR-DEF-EVIDENCE-CONFIDENCE-submission.md. If that
  * record's approved wording changes, this needs updating to match.

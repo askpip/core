@@ -6,15 +6,15 @@
 
 **Document Title:** PIP Knowledge Record (PKR) Standard  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.09  
-**Status:** Approved  
+**Version:** 0.06  
+**Status:** Draft — pending Founder approval of this revision  
 **Owner:** The Founders  
-**Last Updated:** 23 August 2026 (v0.09)  
-**Approved By:** AskPIP Founder Authority  
+**Last Updated:** 22 August 2026  
+**Approved By:** Version 0.05 approved; this revision (0.06) not yet approved  
 **Permanent Location:** `Knowledge Curation System/Standards/PKR_Standard.md`  
 **Purpose:** To define what a PIP Knowledge Record (PKR) is, the types of PKR currently required, the fields each type must contain, and how PKRs are identified, versioned and related to one another.  
 **Related Documents:** Live Intelligence Library (LIL) Standard; Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Pip Runtime Architecture; PIP Knowledge Integration Workflow; PIP Knowledge Integration Technician (KIT) Charter; `MVP/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`.  
-**Revision Note:** **Version 0.09, approved by the Founder 23 August 2026** (approved alongside the first Source PKR package it enabled, `PKR-SRC-submission.md`). Corrects Section 5.5 and the related passage in Section 4.2: a Source PKR's Evidence Confidence common field is now **Not Applicable**, and its **MIL Reference** field is now **MIL References**, a list. This resolves a conflict identified while building this project's first Source PKRs: a single source document (for example, one extension publication) is routinely cited in support of several different Assessed Findings, across one or more ARCs, at different Evidence Confidence Levels — but the prior wording of §5.5 stated a Source PKR "represents exactly one claim's source," which would have required a separate, duplicate Source PKR for every claim a document happens to support, defeating the entire purpose of building Source PKRs as reusable, citable records rather than one-off pointers. Confidence now stays where EAS §2.9/§3.2 already say it belongs — with the specific claim, recorded on the citing PKR itself — never on the source being cited. This was identified and corrected before any Source PKR was built under the old rule, so no record required revision as a result. **Version 0.08** revises Section 6: identifiers now carry no scope, plant, or classification information (that belongs in Title/Applies To, which can be revised, unlike an ID), and a Draft-stage identifier may be corrected under Founder direction before a record reaches Approved for Publication. Prompted by the same-day retirement of the subject-scoped PKR ID format (KIT OM v0.4 §10.2) in favour of a plain sequential format, once the Founder questioned whether Pip's runtime efficiency was well served by scope-bearing IDs at all — it wasn't, since the same information was already duplicated in required Common Fields. **Version 0.07** adds §4.3, a Translation Boundary governing how KIT converts approved MIL content into gardener-facing PKR wording: KIT may add clarity, tone and structure, but shall never alter, extend, or reinterpret what a documented claim asserts while doing so. Added at Founder direction, raised alongside the Founder's ruling on how ROC's own reasoned synthesis is to be handled (EAS v1.4 §2.10) — the same underlying concern (an AI-performed role's wording drifting from documented evidence) applies one layer downstream, where KIT turns Assessed Findings into PKR field content. **Version 0.06** corrects a flaw in Version 0.05's Evidence Confidence common field (Section 4), identified directly by the Founder while reviewing a real draft PKR built under it: recording "the lowest of the applicable levels" where a PKR draws on multiple Assessed Findings is still one blended figure standing in for claims of differing evidential strength — the exact failure mode EAS v1.3 was written to eliminate at the ARC and Founder Review Dossier level, reintroduced one layer downstream at the PKR level. A PKR whose defining claim is High confidence (for example, pith colour) was being labelled Low overall because of a minor supporting detail, misleading a gardener about the strength of the primary claim. Section 4 is reworded so that a PKR's Evidence Confidence field records a single claim's level directly only where the PKR's content genuinely reduces to one claim; where it comprises more than one distinct claim (per EAS §3.2's test), each claim's level is recorded individually, never blended, averaged, or reduced to a lowest-applicable figure. Sections 5.1 and 5.3 are extended accordingly for Observation and Decision Logic PKRs, the two types most likely to bundle multiple claims. This revision also formalises, at Section 5.3, that a Decision Logic PKR's content — what a gardener is actually told to do — requires its own properly evidenced Assessed Finding(s), not an assumption inferred from the diagnostic content of the Observation PKR it governs. **Version 0.05** aligned the Evidence Confidence common field (Section 4) and Section 5.5 with EAS v1.3's Assessed Finding model, at Founder direction: an ARC does not carry one Evidence Confidence Level for all its content, so a PKR's Evidence Confidence must trace to the specific Assessed Finding(s) it is actually built from, not to a supporting ARC as a whole. Version 0.04 implements the two PKR Standard extensions the Pip Runtime Architecture §8.2 identifies as required: an Observation PKR now defines a closed Confirmation Responses set (Section 5.1), consistent with the Decision-Relevant Input Boundary that Standard establishes, and its Visual Criteria field is now required to be specific and structured enough to ground the Perception Layer's proposal, not written only as prose for a human reviewer. Version 0.03 replaces "AIC" with "ARC" throughout (Sections 4 and 5.5), following SINS-001 v0.4's retirement of the AIC term. Version 0.02 adds Evidence Confidence as a Common Field (Section 4), carried forward from the AIC(s) a record's Supporting Source(s) trace to, so that the strength of the underlying evidence is not lost between Founder approval and what Pip can draw on. Adds Section 4.1, designating which Common Fields are eligible for Pip to communicate to a gardener, and notes in Section 5.5 that Evidence Confidence on a Source PKR is inherited, not independently determined by KIT.
+**Revision Note:** **Version 0.06 (Draft, this revision)** corrects a flaw in Version 0.05's Evidence Confidence common field (Section 4), identified directly by the Founder while reviewing a real draft PKR built under it: recording "the lowest of the applicable levels" where a PKR draws on multiple Assessed Findings is still one blended figure standing in for claims of differing evidential strength — the exact failure mode EAS v1.3 was written to eliminate at the ARC and Founder Review Dossier level, reintroduced one layer downstream at the PKR level. A PKR whose defining claim is High confidence (for example, pith colour) was being labelled Low overall because of a minor supporting detail, misleading a gardener about the strength of the primary claim. Section 4 is reworded so that a PKR's Evidence Confidence field records a single claim's level directly only where the PKR's content genuinely reduces to one claim; where it comprises more than one distinct claim (per EAS §3.2's test), each claim's level is recorded individually, never blended, averaged, or reduced to a lowest-applicable figure. Sections 5.1 and 5.3 are extended accordingly for Observation and Decision Logic PKRs, the two types most likely to bundle multiple claims. This revision also formalises, at Section 5.3, that a Decision Logic PKR's content — what a gardener is actually told to do — requires its own properly evidenced Assessed Finding(s), not an assumption inferred from the diagnostic content of the Observation PKR it governs. **Version 0.05** aligned the Evidence Confidence common field (Section 4) and Section 5.5 with EAS v1.3's Assessed Finding model, at Founder direction: an ARC does not carry one Evidence Confidence Level for all its content, so a PKR's Evidence Confidence must trace to the specific Assessed Finding(s) it is actually built from, not to a supporting ARC as a whole. Version 0.04 implements the two PKR Standard extensions the Pip Runtime Architecture §8.2 identifies as required: an Observation PKR now defines a closed Confirmation Responses set (Section 5.1), consistent with the Decision-Relevant Input Boundary that Standard establishes, and its Visual Criteria field is now required to be specific and structured enough to ground the Perception Layer's proposal, not written only as prose for a human reviewer. Version 0.03 replaces "AIC" with "ARC" throughout (Sections 4 and 5.5), following SINS-001 v0.4's retirement of the AIC term. Version 0.02 adds Evidence Confidence as a Common Field (Section 4), carried forward from the AIC(s) a record's Supporting Source(s) trace to, so that the strength of the underlying evidence is not lost between Founder approval and what Pip can draw on. Adds Section 4.1, designating which Common Fields are eligible for Pip to communicate to a gardener, and notes in Section 5.5 that Evidence Confidence on a Source PKR is inherited, not independently determined by KIT.
 
 ---
 
@@ -72,7 +72,7 @@ Every PKR, regardless of type, shall contain:
 - **Founder Approval Date** — the date operational approval was granted;
 - **Related PKRs** — references to other PKRs this record relates to, using the relationship types in Section 8;
 - **Preserved Uncertainty or Limitations** — any uncertainty, condition or limitation the approved MIL information carried, stated plainly rather than smoothed away;
-- **Evidence Confidence** — see §4.2 (no single figure blended across multiple claims).
+- **Evidence Confidence** — see §4.2 (Draft v0.06 — no single figure blended across multiple claims).
 
 ## 4.1 Gardener-Facing Fields
 
@@ -88,33 +88,15 @@ The following Common Fields are internal only and shall not be presented to the 
 
 Designating a field as eligible under this section does not by itself authorise Pip to present it. The approved MVP journey design and Pip's own communication approach determine when and how an eligible field is actually shown to a gardener, consistent with the LIL Standard's Accessibility and Retrieval Boundary provisions.
 
-## 4.2 Evidence Confidence — Per Claim, Never Blended
+## 4.2 Evidence Confidence — Per Claim, Never Blended (Draft v0.06)
 
 Consistent with EAS §2.9 and §3.2 — Evidence Confidence is assigned to a distinct claim, never to a body of work as a whole — this principle applies with equal force at the PKR layer, not only at the ARC and Founder Review Dossier layers.
 
-**Where a PKR's content reduces to a single claim**, the Evidence Confidence common field records that single claim's level directly, inherited from the specific Assessed Finding it traces to. **Where a record type does not represent an evidentiary factual claim of its own**, this field shall be recorded as **Not Applicable** — this includes a Definition PKR, which is not an evidentiary claim at all, and a Source PKR (see §5.5), which is a pointer to a source document rather than to any single claim: the same document is routinely cited in support of several different Assessed Findings, at different Evidence Confidence Levels, across the PKRs that cite it. Confidence in that case is recorded on each citing PKR, per its own claim, never on the Source PKR being pointed to.
+**Where a PKR's content reduces to a single claim** (for example, a Source PKR, which represents one traceable pointer to one Assessed Finding; or a Definition PKR, which is not an evidentiary claim at all), the Evidence Confidence common field records that single claim's level directly, inherited from the specific Assessed Finding it traces to (see §5.5 for Source PKRs). Where a record type does not represent an evidentiary factual claim, this field shall be recorded as **Not Applicable**.
 
 **Where a PKR's content comprises more than one distinct claim** — under the same test EAS §3.2 applies: claims that could reasonably be supported to a different degree, regardless of whether they trace to the same or different Assessed Findings — the Evidence Confidence common field shall be recorded as **"See per-claim confidence"**, and each distinct claim's own Evidence Confidence Level shall be recorded individually, alongside that specific claim, within the PKR's type-specific fields. KIT shall not average, round up, or reduce multiple claims to one lowest-applicable value for this common field. This supersedes Version 0.05's "record the lowest of the applicable levels" rule, which is retired as of this version for exactly the reason EAS v1.3 retired blended commission-level confidence: it misrepresents both the well-supported and the poorly-supported claim it stands in for.
 
 Sections 5.1 and 5.3 specify how this applies to Observation and Decision Logic PKRs, the two types most likely to bundle multiple claims.
-
-## 4.3 Translation Boundary — Clarify, Never Alter
-
-Building a PKR necessarily converts an Assessed Finding's formal, evidence-assessment phrasing into wording suitable for a beginner gardener. This translation is expected and necessary — a PKR does not exist to reproduce a Finding's source phrasing verbatim — but it introduces a specific risk: added wording could, even unintentionally, shift, soften, strengthen, extend or reinterpret the underlying claim.
-
-KIT may add wording for readability, tone appropriate to a beginner gardener, formatting or structure. KIT shall not, in doing so:
-
-- change what the documented claim asserts;
-- extend a claim to a case, condition or plant type the evidence did not cover;
-- add a "why" or explanatory mechanism the source material did not itself state;
-- omit, soften or fold in a preserved limitation, condition or uncertainty; or
-- resolve an ambiguity in a documented claim through its own inference.
-
-Where phrasing a claim for a gardener requires resolving a genuine ambiguity in the documented claim itself, KIT shall refer the ambiguity to the Founders rather than resolve it independently, consistent with the KIT Charter's Limitations of Authority and with the same principle governing ROC's own reasoning (Evidence Assessment Standard §2.10) — an AI-performed role's added interpretation must not substitute for documented evidence, whether that role is generating a claim or merely wording one.
-
-Where practical, KIT should retain a source's own terms wherever they are already gardener-comprehensible, rather than paraphrasing for its own sake.
-
-This boundary applies to every PKR type's content when it is first drafted from approved MIL material. It is distinct from §9.3's Content Equivalence, which governs consistency between an already-approved Founder Review Rendering and what is later published.
 
 ---
 
@@ -125,7 +107,7 @@ This boundary applies to every PKR type's content when it is first drafted from 
 In addition to the common fields, an Observation PKR shall contain:
 
 - **Observation Name** — one of the six supported observations;
-- **Visual Criteria** — what a photograph needs to show to support this observation (viewpoint, scale, relevant context), per Architecture §6.2. Visual Criteria shall be specific and structured enough to ground the Perception Layer's proposal under the Pip Runtime Architecture, not written only as descriptive prose for a human reviewer. **Per §4.2: each distinct diagnostic signal within Visual Criteria is its own claim and shall carry its own Evidence Confidence Level, recorded directly alongside it (for example, as a column in a structured table) — never summarised into one PKR-level Evidence Confidence figure.**
+- **Visual Criteria** — what a photograph needs to show to support this observation (viewpoint, scale, relevant context), per Architecture §6.2. Visual Criteria shall be specific and structured enough to ground the Perception Layer's proposal under the Pip Runtime Architecture, not written only as descriptive prose for a human reviewer. **Per §4.2 (Draft v0.06): each distinct diagnostic signal within Visual Criteria is its own claim and shall carry its own Evidence Confidence Level, recorded directly alongside it (for example, as a column in a structured table) — never summarised into one PKR-level Evidence Confidence figure.**
 - **What the Photo Cannot Establish** — an explicit statement of the limits of photographic evidence for this observation;
 - **Linked Comparison Image PKR(s)** — at least one, per Architecture §4.3;
 - **Linked Decision Logic PKR** — the rule governing what choices apply once this observation is gardener-confirmed;
@@ -153,7 +135,7 @@ In addition to the common fields, a Decision Logic PKR shall contain:
 - **Conditions** — what must be true (including any Suitability Gate PKRs) for each choice to be horticulturally acceptable;
 - **Deferral Triggers** — the conditions under which the choice must be deferred rather than decided, per Architecture §4.2.
 
-**A Decision Logic PKR's content requires its own properly evidenced Assessed Finding(s) within the supporting ARC(s) — what a gardener is told to *do* is not inferable from an Observation PKR's diagnostic content, even where the connection seems obvious.** Where Conditions or Available Choices draw on more than one Assessed Finding of differing confidence (for example, a primary action and a separately-evidenced escalation or exception case), each is recorded with its own Evidence Confidence Level per §4.2, never blended into one figure for the whole record.
+**A Decision Logic PKR's content requires its own properly evidenced Assessed Finding(s) within the supporting ARC(s) — what a gardener is told to *do* is not inferable from an Observation PKR's diagnostic content, even where the connection seems obvious (Draft v0.06).** Where Conditions or Available Choices draw on more than one Assessed Finding of differing confidence (for example, a primary action and a separately-evidenced escalation or exception case), each is recorded with its own Evidence Confidence Level per §4.2, never blended into one figure for the whole record.
 
 ## 5.4 Suitability Gate PKR
 
@@ -170,12 +152,12 @@ In addition to the common fields, a Source PKR shall contain:
 
 - **Source Type** — book, scientific paper, extension publication, recognised horticultural publication, Founder observation, or another approved evidential origin;
 - **Source Identity** — author, publication, date, relevant section, and access date where applicable;
-- **MIL References** — a list of the specific MIL information asset(s) (ARC and Assessed Finding) this Source PKR traces back to. A single source document is routinely cited in support of more than one Assessed Finding, across one or more ARCs, at differing Evidence Confidence Levels; this field is a list for exactly that reason, so that one Source PKR can be built once and reused by every PKR that cites it, rather than duplicated per citation. Each entry records the ARC, the specific Assessed Finding, and that Finding's own Evidence Confidence Level, for traceability — but that confidence belongs to the citing claim, not to the Source PKR itself (see below);
+- **MIL Reference** — the specific MIL information asset this Source PKR traces back to;
 - **Relevance** — a brief statement of what this source supports.
 
 A Source PKR does not duplicate the full source document into the LIL; it is a retrievable pointer, per the PIP Knowledge Integration Workflow §9.
 
-The Evidence Confidence common field (Section 4) on a Source PKR is **Not Applicable**. A Source PKR is a pointer to a document, not to a single claim, and the document it points to may support several Assessed Findings at different confidence levels, cited by different PKRs. Recording one Evidence Confidence figure on the Source PKR itself would misrepresent every citation but one. Confidence stays with the claim doing the citing — recorded on the citing PKR's own Evidence Confidence field, per §4.2 — and is never recorded on, inherited from, or adjusted on the Source PKR being cited.
+The Evidence Confidence common field (Section 4) on a Source PKR is populated directly from the Evidence Confidence Level recorded on the specific Assessed Finding, within the ARC it references, that the Source PKR supports — not from the ARC as a whole — and shall not be independently determined or adjusted by KIT. A Source PKR represents exactly one claim's source, so §4.2's single-claim case always applies to it.
 
 ## 5.6 Definition PKR
 
@@ -189,11 +171,11 @@ In addition to the common fields, a Definition PKR shall contain:
 
 # 6. Identification and Versioning
 
-Every PKR shall have a permanent identifier assigned at creation. Once a PKR has reached Approved for Publication (Section 7), its identifier does not change across revisions. Before that point, while a record is still Draft, its identifier may be corrected under explicit Founder direction — nothing outside the Knowledge Curation System depends on a Draft record's ID yet — but this is the only circumstance in which an assigned identifier changes.
+Every PKR shall have a permanent identifier assigned at creation, which does not change across revisions.
 
 A published PKR shall never be silently overwritten. Where its approved operational meaning changes, a new version shall be created, the previous version preserved for traceability, and the relationship between versions recorded, in accordance with the PIP Knowledge Integration Workflow.
 
-The exact identifier format (for example, a type prefix plus a sequential or content-derived suffix) is a technical implementation decision for KIT to propose and the Founders to confirm; the current confirmed format is defined in the KIT Operations Manual. This Standard requires only that identifiers be permanent (subject to the Draft-stage exception above), unique and traceable — and that they carry no scope, plant, or classification information of their own. Any such information belongs in a record's Common Fields (Title, Applies To), which can be revised as understanding develops; an identifier cannot be, so nothing an identifier alone asserts should ever need to become untrue.
+The exact identifier format (for example, a type prefix plus a sequential or content-derived suffix) is a technical implementation decision for KIT to propose and the Founders to confirm when KIT's Operations Manual is drafted. This Standard requires only that identifiers be permanent, unique and traceable.
 
 ---
 
@@ -252,17 +234,3 @@ Every PKR published to the Live Intelligence Library shall comply with this Stan
 KIT shall not publish a PKR of a type not yet defined in Section 3, or omit a required field in Sections 4–5, without first referring the gap to the Founders.
 
 This Standard shall be extended, through Founder approval, as the platform's scope grows beyond the Bush Rose V1 MVP.
-
----
-
-# Document Control
-
-This document forms part of the controlled documentation of the PIP Knowledge Curation System.
-
-Printed copies are uncontrolled unless specifically identified by the Founders as controlled copies.
-
-The current approved version shall be maintained in the controlled documentation repository.
-
----
-
-# End of Document

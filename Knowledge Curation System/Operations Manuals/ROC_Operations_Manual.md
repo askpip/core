@@ -20,17 +20,17 @@
 ** Approved
 
 **Version:  
-** 2.5
+** 2.6
 
 **Last Updated:  
-** 22 August 2026
+** 23 August 2026
 
 **Permanent Location:** `Knowledge Curation System/Operations Manuals/ROC_Operations_Manual.md`
 
 **Approved By:  
 ** AskPIP Founder Authority
 
-**Revision Note:** Version 2.5 aligns this manual with EAS v1.3's Assessed Finding model, at Founder direction: §9.3 previously required the Evidence Assessment to evaluate "the commission as a whole," with individual findings receiving their own assessment only "where appropriate" — this made the overall commission level the default and per-finding assessment optional, the reverse of what is actually correct. §9.3 and §9.5 now require an Evidence Confidence Level per Assessed Finding as the only level that exists; §7.6, §6.8 and §8.3 are updated for consistency. Version 2.4 retires the Founder Executive Brief (FEB) at Founder request and rewrites Chapter 10 accordingly: the Founder Review Dossier (FRD), prepared under the new Founder Review Dossier Standard, is now the sole Founder Review Documentation, and §10.4/§10.8 (both concerning the FEB) are removed with the remainder of the chapter renumbered. The retirement reflects that the FEB's stated purpose — efficient review at volume, without requiring the complete research record to be examined in every instance — describes a need the platform does not yet have: with a single Founder reviewing every commission directly, a summary document duplicates effort rather than saving it. The FEB may be reinstated by future Founder decision if review volume grows to require it. Version 2.3 renames "Approved Information Compilation (AIC)" to "Approved Research Compilation (ARC)" throughout this manual, following SINS-001 v0.4's retirement of the AIC term. Version 2.2 adds Evidence Confidence Level as explicit AIC metadata in §12.5, recorded directly on the AIC itself rather than only referenced through the linked Evidence Assessment, so KIT can retrieve it without opening the full Evidence Assessment record. Version 2.1 replaces "Knowledge Asset (KA)" with "Approved Information Compilation (AIC)" throughout (Chapters 1, 11, 12 and 13), following SINS-001 v0.2's retirement of the KA term. Chapter 12's title changed from "Creating Mother Information Library Knowledge Assets" to "Creating Mother Information Library AICs" at Version 2.1, and to "Creating Mother Information Library ARCs" at Version 2.3; no procedural steps changed at either point.
+**Revision Note:** Version 2.6 adds §8.4A, implementing Evidence Assessment Standard v1.4 §2.10 at Founder direction: where the ROC identifies a relationship or interaction between findings that the available evidence does not itself state — the ROC's own reasoned synthesis — it is not proposed for adoption into an ARC in any form, but is instead carried forward as a specific Recommendation for Further Research (§7.7), so it can be tested against independent evidence rather than adopted on its own plausibility. This preserves rather than suppresses the ROC's capacity for reasoned synthesis; it changes only what happens to that synthesis afterward. §7.7 is extended to name this as a recommendation category. Version 2.5 aligns this manual with EAS v1.3's Assessed Finding model, at Founder direction: §9.3 previously required the Evidence Assessment to evaluate "the commission as a whole," with individual findings receiving their own assessment only "where appropriate" — this made the overall commission level the default and per-finding assessment optional, the reverse of what is actually correct. §9.3 and §9.5 now require an Evidence Confidence Level per Assessed Finding as the only level that exists; §7.6, §6.8 and §8.3 are updated for consistency. Version 2.4 retires the Founder Executive Brief (FEB) at Founder request and rewrites Chapter 10 accordingly: the Founder Review Dossier (FRD), prepared under the new Founder Review Dossier Standard, is now the sole Founder Review Documentation, and §10.4/§10.8 (both concerning the FEB) are removed with the remainder of the chapter renumbered. The retirement reflects that the FEB's stated purpose — efficient review at volume, without requiring the complete research record to be examined in every instance — describes a need the platform does not yet have: with a single Founder reviewing every commission directly, a summary document duplicates effort rather than saving it. The FEB may be reinstated by future Founder decision if review volume grows to require it. Version 2.3 renames "Approved Information Compilation (AIC)" to "Approved Research Compilation (ARC)" throughout this manual, following SINS-001 v0.4's retirement of the AIC term. Version 2.2 adds Evidence Confidence Level as explicit AIC metadata in §12.5, recorded directly on the AIC itself rather than only referenced through the linked Evidence Assessment, so KIT can retrieve it without opening the full Evidence Assessment record. Version 2.1 replaces "Knowledge Asset (KA)" with "Approved Information Compilation (AIC)" throughout (Chapters 1, 11, 12 and 13), following SINS-001 v0.2's retirement of the KA term. Chapter 12's title changed from "Creating Mother Information Library Knowledge Assets" to "Creating Mother Information Library AICs" at Version 2.1, and to "Creating Mother Information Library ARCs" at Version 2.3; no procedural steps changed at either point.
 
 **Related Documents:**
 
@@ -783,8 +783,9 @@ Recommendations may include:
 - obtaining further sources;
 - expanding the scope of the investigation;
 - seeking specialist expertise;
-- conducting observational studies; or
-- deferring conclusions until further evidence becomes available.
+- conducting observational studies;
+- deferring conclusions until further evidence becomes available; or
+- investigating a relationship or interaction the ROC identified through reasoned synthesis but which the available evidence does not itself state, so it may be tested against independent evidence (§8.4A).
 
 Recommendations for further research shall be clearly distinguished from the findings of the current commission.
 
@@ -854,7 +855,17 @@ These relationships may include:
 - environmental interactions; or
 - operational implications.
 
-Relationships shall only be documented where they are supported by the available evidence.
+Relationships shall only be documented as evidenced relationships where they are supported by the available evidence.
+
+---
+
+## 8.4A Reasoned Relationships Not Directly Evidenced
+
+Where the ROC identifies a plausible relationship, interaction, or connection between findings that the available evidence does not itself state — the ROC's own reasoned interpretation rather than a documented relationship — this shall be recorded separately from the findings themselves, clearly labelled as the ROC's own synthesis, and shall carry no Evidence Confidence Level, per the Evidence Assessment Standard §2.10.
+
+Such reasoned synthesis shall not be presented to the Founders as an Assessed Finding, and shall not be proposed for direct adoption into an ARC — whether as a finding or as a Founder observation — regardless of how directly it appears to follow from already-approved findings. Instead, it shall be carried forward as a specific, actionable Recommendation for Further Research (§7.7), phrased as a research question capable of being investigated, so the synthesis can be tested against independent evidence rather than substituted for it.
+
+This does not discourage the ROC from identifying such relationships. Doing so is a valuable part of research synthesis and often surfaces exactly the questions a future commission should investigate — the ROC's reasoning is not stifled by this section, only routed to where it can be validated before it reaches a gardener as advice.
 
 ---
 

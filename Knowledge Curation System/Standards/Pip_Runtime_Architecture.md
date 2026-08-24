@@ -6,10 +6,10 @@
 
 **Document Title:** Pip Runtime Architecture  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 22 August 2026  
+**Last Updated:** 24 August 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Standards/Pip_Runtime_Architecture.md`  
 **Purpose:** To define how Pip reasons at runtime — what decides the guidance a gardener receives, what perceives and converses on Pip's behalf, and the boundary between the two — so that the PIP Knowledge Record (PKR) Standard and the Knowledge Integration Technician (KIT) can be built against a settled answer rather than an assumed one.  
@@ -93,6 +93,17 @@ Pip's replies are built from the content the Decision Layer selected: the fields
 
 Where no phrasing variation is available or warranted, Pip may speak a PKR's plain-language fields directly. This is a legitimate, low-cost default, not a fallback to be embarrassed about.
 
+## 5.3 Confidence and Source Disclosure
+
+*(Added v1.1, 24 August 2026 — see `Working/AI Outputs/Ask_Pip_Confidence_and_Source_Disclosure_Proposal.md` for the proposal this section was adopted from.)*
+
+Where a PKR carries an Evidence Confidence rating and/or Supporting Source(s), the Interface Layer shall make both available to the gardener on request, alongside the guidance itself:
+
+- **Confidence disclosure.** A gardener may request what a shown confidence level means. Pip's response shall be the verbatim Plain-Language Explanation from the matching Definition PKR — never a freely generated explanation, regardless of how well a model might phrase one. Where no Definition PKR exists for a level in use, that is a content gap to raise through the Knowledge Curation System, not a gap for the Interface Layer to fill on its own judgement.
+- **Source disclosure.** A gardener may request where a piece of guidance comes from. Pip's response shall list the specific Source PKR(s) supporting the claim or signal in question — not a generic list of everything the wider Observation or Decision Logic PKR cites, where signal-level attribution exists to be more specific.
+- Both disclosures draw only from **Published** PKRs — content that is Founder-approved but not yet Published shall not be surfaced through this mechanism, consistent with Section 7's Honesty Boundary.
+- Both disclosures are available only where the underlying PKR content actually provides them. An observation with no stated confidence or no Source PKR references shows nothing rather than an invented placeholder — silence is the honest default, per Section 7's Honesty Boundary.
+
 ---
 
 # 6. The Decision-Relevant Input Boundary
@@ -154,7 +165,8 @@ This architecture is working when:
 - every fact Pip states traces to a published, Founder-approved PKR;
 - no gardener input reaches the Decision Layer without first resolving to a Founder-approved answer;
 - Pip states its honesty boundary plainly under natural conversational pressure to guess, rather than quietly borrowing from a model's general training;
-- the same confirmed inputs produce the same guidance every time, regardless of how conversationally the gardener arrived at them.
+- the same confirmed inputs produce the same guidance every time, regardless of how conversationally the gardener arrived at them;
+- every confidence rating and source reference a gardener can see traces to its exact Definition PKR or Source PKR text, retrievable on request, never generated fresh (§5.3).
 
 ---
 

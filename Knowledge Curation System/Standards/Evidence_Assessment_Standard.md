@@ -8,19 +8,19 @@
 
 **Folder:** 04 – Standards
 
-**Version:** 1.3
+**Version:** 1.4
 
 **Status:** Approved
 
 **Owner:** The Founders
 
-**Last Updated:** 22 August 2026
+**Last Updated:** 23 August 2026
 
 **Permanent Location:** `Knowledge Curation System/Standards/Evidence_Assessment_Standard.md`
 
 **Approved By:** AskPIP Founder Authority
 
-**Revision Note:** Version 1.3 establishes the **Assessed Finding** as the unit of Evidence Confidence assessment, at Founder direction: a research commission, Founder Review Dossier or Approved Research Compilation (ARC) does not receive one overall Evidence Confidence Level, because it commonly contains claims of genuinely different evidential strength that a single blended figure would misrepresent in both directions. New §2.9 and §3.2 establish the principle and definition; §3.3–§3.4, §4.8, §5.1–§5.2, §5.5, §6.2–§6.3 are reworded so that assessment, recording and review all operate per Assessed Finding rather than per commission. This closes Gap 5 identified by a ROC agent during a real research commission conducted under this document set, which found that §5.2 required "a single Evidence Confidence Level" while the ROC Operations Manual §9.3 separately permitted (but did not require) individual findings to be assessed on their own — leaving no rule for how a weak sub-finding should affect an otherwise strong overall level. Version 1.2 replaces "Approved Information Compilation (AIC) management" with "Approved Research Compilation (ARC) management" in §1.2, following SINS-001 v0.4's retirement of the AIC term. Version 1.1 replaces "Knowledge Asset management" with "Approved Information Compilation (AIC) management" in §1.2, following SINS-001 v0.2's retirement of "Knowledge Asset." It also corrects §5.2, which stated the reverse of its intended logic: a confidence level is recorded as **Not Assigned** where the evidence has *not* been sufficiently evaluated to support one, not where it has.
+**Revision Note:** Version 1.4 adds §2.10, establishing that an assessor's own reasoned synthesis — a plausible interpretation or connection between findings that the available evidence does not itself state — shall never be assigned confidence, treated as an Assessed Finding, or incorporated into approved knowledge in any form, but shall instead be routed as a Recommendation for Further Research so it can be tested against independent evidence. This was prompted directly by a Founder ruling during a real commission (FRD-BUSHROSE-DORMANCY-01 §7.4): the Founder's first instinct was to exclude such synthesis entirely, then refined this on reflection — the reasoning itself was sound and valuable, and AI-performed roles should not have that capacity stifled, but it must be validated through research before it becomes advice a gardener receives, rather than adopted on the strength of its own plausibility. §5.4's Not Assigned definition is cross-referenced accordingly. Version 1.3 establishes the **Assessed Finding** as the unit of Evidence Confidence assessment, at Founder direction: a research commission, Founder Review Dossier or Approved Research Compilation (ARC) does not receive one overall Evidence Confidence Level, because it commonly contains claims of genuinely different evidential strength that a single blended figure would misrepresent in both directions. New §2.9 and §3.2 establish the principle and definition; §3.3–§3.4, §4.8, §5.1–§5.2, §5.5, §6.2–§6.3 are reworded so that assessment, recording and review all operate per Assessed Finding rather than per commission. This closes Gap 5 identified by a ROC agent during a real research commission conducted under this document set, which found that §5.2 required "a single Evidence Confidence Level" while the ROC Operations Manual §9.3 separately permitted (but did not require) individual findings to be assessed on their own — leaving no rule for how a weak sub-finding should affect an otherwise strong overall level. Version 1.2 replaces "Approved Information Compilation (AIC) management" with "Approved Research Compilation (ARC) management" in §1.2, following SINS-001 v0.4's retirement of the AIC term. Version 1.1 replaces "Knowledge Asset management" with "Approved Information Compilation (AIC) management" in §1.2, following SINS-001 v0.2's retirement of "Knowledge Asset." It also corrects §5.2, which stated the reverse of its intended logic: a confidence level is recorded as **Not Assigned** where the evidence has *not* been sufficiently evaluated to support one, not where it has.
 
 **Purpose:** To establish the standard governing how evidence shall be evaluated consistently within the PIP Knowledge Curation System (KCS).
 
@@ -179,6 +179,18 @@ Evidence Confidence is assigned to the Assessed Finding — a single, discrete c
 A commission, dossier or ARC commonly contains more than one Assessed Finding. Where it does, each Assessed Finding is evaluated and assigned its own Evidence Confidence Level independently. A strongly-evidenced finding and a weakly-evidenced finding produced by the same commission are never blended into one figure; each is reported as what it is.
 
 This principle exists because a single confidence figure covering claims of differing evidential strength would misrepresent both: understating a well-supported finding and overstating a poorly-supported one. Reporting per Assessed Finding is what allows a Founder, and later a gardener through a PIP Knowledge Record, to know exactly how much confidence a specific piece of information deserves.
+
+---
+
+## 2.10 Reasoned Synthesis Is a Research Lead, Not Evidence
+
+An assessor — whether an AI system or a human researcher — may, in the course of research synthesis or Evidence Assessment, identify a plausible interpretation, interaction or connection between findings that the available evidence does not itself directly state. This capacity for reasoned synthesis is valuable and shall not be suppressed or discouraged: it is often exactly how genuine research gaps and promising lines of further inquiry are identified, and the Knowledge Curation System benefits from an assessor exercising it rather than reporting findings in isolation from one another.
+
+Such synthesis is not itself evidence. It shall never be assigned an Evidence Confidence Level, treated as an Assessed Finding, or incorporated into approved knowledge in any form — directly, in paraphrase, or repackaged as a different asset type such as a Founder observation — regardless of how directly it appears to follow from findings that are themselves well-evidenced. Confidence attaches only to claims independently supported by evidence, per §3.2.
+
+Instead, reasoned synthesis shall be recorded plainly as the assessor's own interpretation and carried forward as a Recommendation for Further Research, so that a future research commission can determine whether independent evidence exists to support it. Where independent evidence is subsequently found, the synthesised claim is then evaluated on its own terms as a new Assessed Finding, through the ordinary process this standard defines — it does not inherit any status, presumption of correctness, or evidential weight from having originated as synthesis.
+
+This principle exists to preserve the value of an assessor's reasoning as an engine for discovering what to research next, while ensuring that only independently evidenced claims ever reach a gardener as approved knowledge.
 
 **Part II — Evidence Assessment Methodology**
 
@@ -382,7 +394,7 @@ The findings should not be relied upon without substantial additional supporting
 
 **Not Assigned** indicates that an Evidence Confidence Level has not been assigned within the PIP Knowledge Curation System.
 
-This status shall be used where the available evidence has not yet been sufficiently evaluated to support the assignment of an Evidence Confidence Level.
+This status shall be used where the available evidence has not yet been sufficiently evaluated to support the assignment of an Evidence Confidence Level. This includes an assessor's own reasoned synthesis, which is always Not Assigned and never progresses beyond this status except by becoming, and then being independently assessed as, a new Assessed Finding — per §2.10.
 
 The Evidence Assessment shall record the reason why a confidence level has not been assigned and, where appropriate, identify any recommended further research.
 
