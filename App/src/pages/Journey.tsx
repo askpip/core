@@ -115,6 +115,11 @@ export function Journey() {
   const [showWhy, setShowWhy] = useState(false)
   const [saving, setSaving] = useState(false)
   const [pendingCutConfirm, setPendingCutConfirm] = useState(false)
+  // Mirrors pendingCutConfirm's pattern below — "Get experienced local help"
+  // used to be recorded identically to the other three choices and just
+  // move straight on, a dead end with no actual help offered. This
+  // interrupts with real, concrete leads before the choice is saved.
+  const [pendingHelpInfo, setPendingHelpInfo] = useState(false)
   // Journey has its own internal steps that AppHeader's generic per-route
   // "Back" target knows nothing about (see AppHeader's BACK_TARGETS
   // comment). Each forward setPhase() below pushes the snapshot it's
@@ -199,6 +204,7 @@ export function Journey() {
     setRevealed(false)
     setShowWhy(false)
     setPendingCutConfirm(false)
+    setPendingHelpInfo(false)
     setHistory((prev) => [...prev, { phase, obsIndex }])
     setPhase('observe')
   }
@@ -221,18 +227,23 @@ export function Journey() {
     setRevealed(false)
     setShowWhy(false)
     setPendingCutConfirm(false)
+    setPendingHelpInfo(false)
   }
 
-  // Gate on DecisionChoices' "Cut" button — not the whole checklist, and not
-  // the other three choices, since cutting is the one irreversible action
-  // here. If the gardener left something unchecked on the safety screen,
-  // interrupt with a confirmation naming exactly what they weren't sure
-  // about, instead of recording the cut straight away. Anything else
-  // (leave / decide later / get help) or a cut with nothing unchecked
-  // proceeds immediately, same as before.
+  // Gate on DecisionChoices' "Cut" and "Get experienced local help" buttons
+  // — not the other two choices, which still proceed immediately. Cutting
+  // is the one irreversible action here, so an unchecked safety item
+  // interrupts with a confirmation naming exactly what wasn't sure about.
+  // "Get help" interrupts too, but for the opposite reason: it used to be
+  // recorded and moved on with nothing else happening, a dead end — this
+  // gives the gardener somewhere real to start before that's saved.
   function chooseDecision(choice: Choice) {
     if (choice === 'cut' && uncheckedSafetyLabels.length > 0) {
       setPendingCutConfirm(true)
+      return
+    }
+    if (choice === 'get-help') {
+      setPendingHelpInfo(true)
       return
     }
     recordChoice(choice)
@@ -256,6 +267,7 @@ export function Journey() {
 
   function recordChoice(choice: Choice) {
     setPendingCutConfirm(false)
+    setPendingHelpInfo(false)
     const last = records[records.length - 1]
     const completed = last ? { ...last, choice } : null
     setRecords((prev) => prev.map((r, i) => (i === prev.length - 1 ? { ...r, choice } : r)))
@@ -310,7 +322,7 @@ export function Journey() {
         <h1 className="font-heading mb-4 text-xl">{topLabel}</h1>
 
         <motion.div
-          key={phase + obsIndex + String(revealed) + String(pendingCutConfirm)}
+          key={phase + obsIndex + String(revealed) + String(pendingCutConfirm) + String(pendingHelpInfo)}
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.25 }}
@@ -562,7 +574,7 @@ export function Journey() {
             </>
           )}
 
-          {phase === 'decide' && current && !pendingCutConfirm && (
+          {phase === 'decide' && current && !pendingCutConfirm && !pendingHelpInfo && (
             <>
               <ChatBubble>
                 Based on what you confirmed, here are the choices for this observation.
@@ -587,6 +599,27 @@ export function Journey() {
                     Yes, I'm confident — I'll go ahead and cut
                   </Button>
                   <Button variant="secondary" onClick={() => setPendingCutConfirm(false)}>
+                    Let me choose again
+                  </Button>
+                </div>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'decide' && current && pendingHelpInfo && (
+            <>
+              <ChatBubble>
+                Good instinct — reaching out before cutting is always fine. A few places that
+                tend to have real, trustworthy expertise: a local rose society or garden club,
+                your area's Cooperative Extension office (if you're in the US), or a nursery or
+                experienced gardener you already trust. I'll save this as "get help" for now, so
+                you can come back and finish this decision on {project.name} whenever you're
+                ready.
+              </ChatBubble>
+              <ResponseBubble showAskField>
+                <div className="flex flex-col gap-2">
+                  <Button onClick={() => recordChoice('get-help')}>Got it — continue</Button>
+                  <Button variant="secondary" onClick={() => setPendingHelpInfo(false)}>
                     Let me choose again
                   </Button>
                 </div>
