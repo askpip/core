@@ -199,6 +199,78 @@
   .btn.danger{ background:#a33; }
   .btn:disabled{ opacity:.5; cursor:default; }
 
+  /* To-Do List */
+  .todo-add{ display:flex; gap:8px; margin-bottom:16px; }
+  .todo-add input[type=text]{
+    flex:1; font-family:'Kalam',cursive; font-size:1.05rem; padding:8px 10px;
+    border:1px solid var(--pip-border); border-radius:8px; background:#fffef8; box-sizing:border-box;
+  }
+  .todo-section-heading{
+    font-family:'Nunito',sans-serif; font-weight:700; font-size:.75rem; text-transform:uppercase;
+    letter-spacing:.04em; color:var(--wood-dark); opacity:.75; margin:18px 0 8px;
+  }
+  .todo-section-heading:first-of-type{ margin-top:0; }
+  .todo-list{ display:grid; gap:8px; list-style:none; margin:0; padding:0; }
+  .todo-row{
+    display:flex; align-items:flex-start; gap:8px; background:var(--card); border:1px solid var(--pip-border);
+    border-left:4px solid var(--wood-light); border-radius:8px; padding:9px 11px; font-family:'Nunito',sans-serif;
+  }
+  .todo-row[data-status="received"]{ border-left-color:var(--wood-light); }
+  .todo-row[data-status="in_progress"]{ border-left-color:#3a7ab8; }
+  .todo-row[data-status="blocked"]{ border-left-color:#a33; }
+  .todo-row[data-status="completed"]{ border-left-color:var(--moss); opacity:.72; }
+  .todo-row.dragging{ opacity:.4; }
+  .todo-drag-handle{
+    flex:none; cursor:grab; touch-action:none; color:var(--wood-dark); opacity:.55; font-size:1.1rem;
+    padding:2px 2px; line-height:1; user-select:none; margin-top:1px;
+  }
+  .todo-row.no-drag .todo-drag-handle{ visibility:hidden; }
+  .todo-body{ flex:1; min-width:0; }
+  .todo-text{ font-family:'Kalam',cursive; font-size:1rem; color:var(--wood-dark); word-break:break-word; }
+  .todo-row[data-status="completed"] .todo-text{ text-decoration:line-through; }
+  .todo-meta{ font-size:.72rem; color:var(--wood-dark); opacity:.75; margin-top:3px; }
+  .todo-controls{ flex:none; display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
+  .todo-status-select{
+    font-family:'Nunito',sans-serif; font-weight:700; font-size:.72rem; border:1px solid var(--pip-border);
+    border-radius:6px; padding:3px 6px; background:#fffef8; color:var(--wood-dark); cursor:pointer;
+  }
+  .todo-row-actions{ display:flex; gap:6px; }
+  .todo-history-toggle, .todo-delete{
+    font-family:'Nunito',sans-serif; font-size:.68rem; border:none; background:transparent; cursor:pointer;
+    color:var(--wood-dark); opacity:.65; padding:0; text-decoration:underline;
+  }
+  .todo-delete{ color:#a33; }
+  .todo-history{ display:none; margin-top:8px; padding-top:8px; border-top:1px dashed var(--pip-border); }
+  .todo-history.show{ display:block; }
+  .todo-history ul{ margin:0; padding-left:16px; font-size:.72rem; color:var(--wood-dark); opacity:.85; }
+  .todo-history li{ margin-bottom:2px; }
+  .todo-empty{ font-family:'Kalam',cursive; color:var(--wood-dark); opacity:.7; margin:0 0 14px; }
+
+  /* Settings menu, next to the "Signed in as ..." badge */
+  .settings-btn{
+    position:absolute; top:1.5%; right:3%; z-index:6; margin-top:34px;
+    width:26px; height:26px; border-radius:50%; border:1.5px solid var(--wood);
+    background:var(--cream); color:var(--wood-dark); font-size:.85rem; cursor:pointer;
+    display:none; align-items:center; justify-content:center; box-shadow:2px 3px 6px rgba(0,0,0,.25);
+  }
+  @media (min-width:760px){ .settings-btn{ margin-top:38px; } }
+  .settings-popover{
+    position:absolute; top:calc(1.5% + 64px); right:3%; z-index:7; display:none;
+    background:var(--cream); border:2px solid var(--wood); border-radius:12px; padding:14px;
+    width:230px; box-shadow:2px 4px 10px rgba(0,0,0,.3); font-family:'Nunito',sans-serif;
+  }
+  .settings-popover.show{ display:block; }
+  .settings-popover h5{ font-family:'Kalam',cursive; margin:0 0 8px; font-size:.95rem; color:var(--wood-dark); }
+  .settings-popover input[type=password]{
+    width:100%; font-size:.85rem; padding:6px 8px; margin-bottom:6px;
+    border:1px solid var(--pip-border); border-radius:6px; background:#fffef8; box-sizing:border-box;
+  }
+  .settings-popover .btn{ font-size:.78rem; padding:6px 10px; }
+  .settings-msg{ font-size:.72rem; margin:4px 0 8px; }
+  .settings-msg.err{ color:#a33; }
+  .settings-msg.ok{ color:var(--moss); }
+  .settings-divider{ border:none; border-top:1px solid var(--pip-border); margin:10px 0; }
+
   /* Recycle Bin */
   .bin-toolbar{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:12px; }
   .bin-count{ font-family:'Nunito',sans-serif; font-size:.85rem; color:var(--wood-dark); }
@@ -398,11 +470,19 @@
         el.style.display = "none";
       }
     });
+    document.querySelectorAll(".settings-btn").forEach(function(el){
+      el.style.display = name ? "flex" : "none";
+    });
   }
 
   var CONTENT = {
     board: {
       title: "Notice Board",
+      bg: "__ASSET_BOARD__",
+      items: []
+    },
+    todo: {
+      title: "To-Do List",
       bg: "__ASSET_BOARD__",
       items: []
     },
@@ -538,6 +618,7 @@
   var HOTSPOTS = {
     mobile: [
       {key:"board", label:"Notice Board", icon:"📌", cx:58, cy:44},
+      {key:"todo", label:"To-Do List", icon:"✅", cx:58, cy:34},
       {key:"calendar", label:"Calendar", icon:"📅", cx:78, cy:48},
       {key:"bookshelf", label:"Bookshelf", icon:"📚", cx:96, cy:42},
       {key:"cabinet", label:"File Cabinet", icon:"🗄️", cx:5, cy:55},
@@ -547,6 +628,7 @@
     ],
     desktop: [
       {key:"board", label:"Notice Board", icon:"📌", cx:56, cy:25},
+      {key:"todo", label:"To-Do List", icon:"✅", cx:56, cy:14},
       {key:"calendar", label:"Calendar", icon:"📅", cx:72, cy:26},
       {key:"bookshelf", label:"Bookshelf", icon:"📚", cx:93, cy:15},
       {key:"cabinet", label:"File Cabinet", icon:"🗄️", cx:14, cy:53},
@@ -605,6 +687,69 @@
     var userBadge = document.createElement("div");
     userBadge.className = "active-user-badge";
     stageEl.appendChild(userBadge);
+
+    var settingsBtn = document.createElement("button");
+    settingsBtn.type = "button";
+    settingsBtn.className = "settings-btn";
+    settingsBtn.setAttribute("aria-label", "Settings");
+    settingsBtn.textContent = "⚙";
+    stageEl.appendChild(settingsBtn);
+
+    var settingsPop = document.createElement("div");
+    settingsPop.className = "settings-popover";
+    settingsPop.innerHTML =
+      '<h5>Change Passphrase</h5>' +
+      '<div class="settings-msg" style="display:none;"></div>' +
+      '<input type="password" class="cp-current" placeholder="Current passphrase" autocomplete="off">' +
+      '<input type="password" class="cp-new" placeholder="New passphrase" autocomplete="off">' +
+      '<input type="password" class="cp-confirm" placeholder="Confirm new passphrase" autocomplete="off">' +
+      '<button type="button" class="btn cp-save">Save</button>' +
+      '<hr class="settings-divider">' +
+      '<button type="button" class="btn ghost logout-btn" style="width:100%;">Log Out</button>';
+    stageEl.appendChild(settingsPop);
+
+    settingsBtn.addEventListener("click", function(){
+      settingsPop.classList.toggle("show");
+    });
+    document.addEventListener("click", function(e){
+      if(!settingsPop.contains(e.target) && e.target !== settingsBtn){
+        settingsPop.classList.remove("show");
+      }
+    });
+
+    var cpMsg = settingsPop.querySelector(".settings-msg");
+    function cpShowMsg(text, isErr){
+      cpMsg.textContent = text;
+      cpMsg.className = "settings-msg " + (isErr ? "err" : "ok");
+      cpMsg.style.display = "block";
+    }
+    settingsPop.querySelector(".cp-save").addEventListener("click", function(){
+      var curIn = settingsPop.querySelector(".cp-current");
+      var newIn = settingsPop.querySelector(".cp-new");
+      var confIn = settingsPop.querySelector(".cp-confirm");
+      var cur = curIn.value, nw = newIn.value, conf = confIn.value;
+      if(!cur){ cpShowMsg("Enter your current passphrase.", true); return; }
+      if(nw.length < 8){ cpShowMsg("New passphrase must be at least 8 characters.", true); return; }
+      if(nw !== conf){ cpShowMsg("New passphrases don't match.", true); return; }
+      var saveBtn = settingsPop.querySelector(".cp-save");
+      saveBtn.disabled = true;
+      sb.rpc("shed_change_passphrase", { current_p: cur, new_p: nw }).then(function(res){
+        saveBtn.disabled = false;
+        if(res.error){
+          cpShowMsg("Current passphrase didn't match. Please try again.", true);
+          return;
+        }
+        // Keep the session working with the new passphrase immediately, without
+        // forcing a re-login -- every other RPC call uses window.SHED_PASSPHRASE.
+        window.SHED_PASSPHRASE = nw;
+        curIn.value = ""; newIn.value = ""; confIn.value = "";
+        cpShowMsg("Passphrase updated.", false);
+      });
+    });
+    settingsPop.querySelector(".logout-btn").addEventListener("click", function(){
+      if(!confirm("Log out? You'll need a passphrase to get back in.")) return;
+      window.location.reload();
+    });
 
     var speechEl = pip.querySelector(".speech");
     var qi = 0;
@@ -1247,6 +1392,241 @@
       }
 
       loadEvents();
+    } else if(key === "todo"){
+      var todos = [];
+      var STATUS_LABELS = { received:"Received", in_progress:"In Progress", blocked:"Blocked", completed:"Completed" };
+      var STATUS_ORDER = ["received","in_progress","blocked","completed"];
+
+      function fmtWhen(iso){
+        if(!iso) return "";
+        var d = new Date(iso);
+        if(isNaN(d.getTime())) return "";
+        return SAVED_MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+      }
+
+      function loadTodos(){
+        titleEl.textContent = data.title;
+        panelBody.innerHTML = '<p class="empty-note">Loading tasks…</p>';
+        sb.rpc("shed_list_todos", { p: window.SHED_PASSPHRASE }).then(function(res){
+          if(res.error){
+            panelBody.innerHTML = "<p class='empty-note'>Couldn't load the to-do list. Please try again.</p>";
+            return;
+          }
+          todos = res.data || [];
+          renderTodos();
+        });
+      }
+
+      function persistReorder(){
+        var ids = todos.filter(function(t){ return t.status !== "completed"; }).map(function(t){ return t.id; });
+        sb.rpc("shed_reorder_todos", { p: window.SHED_PASSPHRASE, ordered_ids: ids }).then(function(res){
+          if(res.error){ alert("Couldn't save the new order. Please try again."); loadTodos(); }
+        });
+      }
+
+      function renderTodos(){
+        titleEl.textContent = data.title;
+        panelBody.innerHTML = "";
+
+        var addWrap = document.createElement("div");
+        addWrap.className = "todo-add";
+        addWrap.innerHTML =
+          '<input type="text" class="new-todo-text" placeholder="Add a task...">' +
+          '<button type="button" class="btn add-todo">Add</button>';
+        function addTask(){
+          var input = addWrap.querySelector(".new-todo-text");
+          var val = input.value.trim();
+          if(!val) return;
+          var addBtn = addWrap.querySelector(".add-todo");
+          addBtn.disabled = true;
+          sb.rpc("shed_add_todo", { p: window.SHED_PASSPHRASE, ttl: val }).then(function(res){
+            addBtn.disabled = false;
+            if(res.error){ alert("Couldn't add that task. Please try again."); return; }
+            loadTodos();
+          });
+        }
+        addWrap.querySelector(".add-todo").addEventListener("click", addTask);
+        addWrap.querySelector(".new-todo-text").addEventListener("keydown", function(e){
+          if(e.key === "Enter"){ e.preventDefault(); addTask(); }
+        });
+        panelBody.appendChild(addWrap);
+
+        var active = todos.filter(function(t){ return t.status !== "completed"; })
+          .sort(function(a,b){ return a.sort_order - b.sort_order; });
+        var completed = todos.filter(function(t){ return t.status === "completed"; })
+          .sort(function(a,b){ return new Date(b.updated_at) - new Date(a.updated_at); });
+
+        function buildRow(t, draggable){
+          var row = document.createElement("div");
+          row.className = "todo-row" + (draggable ? "" : " no-drag");
+          row.setAttribute("data-status", t.status);
+          row.setAttribute("data-id", t.id);
+
+          var handle = document.createElement("span");
+          handle.className = "todo-drag-handle";
+          handle.textContent = "⠿";
+          row.appendChild(handle);
+
+          var body = document.createElement("div");
+          body.className = "todo-body";
+          var createdLine = "Added by " + t.created_by + " on " + fmtWhen(t.created_at);
+          var statusVerb = t.status === "completed" ? "Completed" : STATUS_LABELS[t.status];
+          var updatedLine = t.updated_by ? (statusVerb + " by " + t.updated_by + " on " + fmtWhen(t.updated_at)) : "";
+          body.innerHTML =
+            '<div class="todo-text"></div>' +
+            '<div class="todo-meta">' + createdLine + (updatedLine ? " · " + updatedLine : "") + '</div>' +
+            '<div class="todo-row-actions">' +
+              '<button type="button" class="todo-history-toggle">History</button>' +
+              '<button type="button" class="todo-delete">Delete</button>' +
+            '</div>' +
+            '<div class="todo-history"><ul></ul></div>';
+          body.querySelector(".todo-text").textContent = t.text;
+          var histUl = body.querySelector(".todo-history ul");
+          (t.history || []).forEach(function(h){
+            var li = document.createElement("li");
+            li.textContent = STATUS_LABELS[h.status] + " by " + h.set_by + " — " + fmtWhen(h.set_at);
+            histUl.appendChild(li);
+          });
+          body.querySelector(".todo-history-toggle").addEventListener("click", function(){
+            body.querySelector(".todo-history").classList.toggle("show");
+          });
+          body.querySelector(".todo-delete").addEventListener("click", function(){
+            if(!confirm('Delete "' + t.text + '"? This can\'t be undone.')) return;
+            sb.rpc("shed_delete_todo", { p: window.SHED_PASSPHRASE, todo_id: t.id }).then(function(res){
+              if(res.error){ alert("Couldn't delete that task. Please try again."); return; }
+              loadTodos();
+            });
+          });
+          row.appendChild(body);
+
+          var controls = document.createElement("div");
+          controls.className = "todo-controls";
+          var select = document.createElement("select");
+          select.className = "todo-status-select";
+          STATUS_ORDER.forEach(function(s){
+            var opt = document.createElement("option");
+            opt.value = s;
+            opt.textContent = STATUS_LABELS[s];
+            if(s === t.status) opt.selected = true;
+            select.appendChild(opt);
+          });
+          select.addEventListener("change", function(){
+            var newStatus = select.value;
+            select.disabled = true;
+            sb.rpc("shed_set_todo_status", { p: window.SHED_PASSPHRASE, todo_id: t.id, new_status: newStatus }).then(function(res){
+              select.disabled = false;
+              if(res.error){ alert("Couldn't update that task's status. Please try again."); select.value = t.status; return; }
+              loadTodos();
+            });
+          });
+          controls.appendChild(select);
+          row.appendChild(controls);
+
+          return row;
+        }
+
+        // Pointer-based drag reorder (native HTML5 drag-and-drop doesn't fire on touch
+        // devices, and this app runs on phones, so plain pointer events drive it instead).
+        function makeDraggable(listEl){
+          function getRowAfter(y){
+            var rows = Array.prototype.slice.call(listEl.querySelectorAll(".todo-row:not(.dragging)"));
+            var result = null, closestOffset = -Infinity;
+            rows.forEach(function(r){
+              var box = r.getBoundingClientRect();
+              var offset = y - box.top - box.height / 2;
+              if(offset < 0 && offset > closestOffset){ closestOffset = offset; result = r; }
+            });
+            return result;
+          }
+
+          listEl.querySelectorAll(".todo-drag-handle").forEach(function(handle){
+            handle.addEventListener("pointerdown", function(e){
+              var row = handle.closest(".todo-row");
+              if(!row) return;
+              e.preventDefault();
+              var offsetY = e.clientY - row.getBoundingClientRect().top;
+              var rect = row.getBoundingClientRect();
+              var placeholder = document.createElement("div");
+              placeholder.className = "todo-row";
+              placeholder.style.visibility = "hidden";
+              placeholder.style.height = rect.height + "px";
+              row.parentNode.insertBefore(placeholder, row.nextSibling);
+              row.classList.add("dragging");
+              row.style.position = "fixed";
+              row.style.left = rect.left + "px";
+              row.style.top = rect.top + "px";
+              row.style.width = rect.width + "px";
+              row.style.zIndex = "1000";
+              row.style.pointerEvents = "none";
+              document.body.appendChild(row);
+
+              function move(ev){
+                row.style.top = (ev.clientY - offsetY) + "px";
+                var after = getRowAfter(ev.clientY);
+                if(after == null){ listEl.appendChild(placeholder); }
+                else { listEl.insertBefore(placeholder, after); }
+              }
+              function up(){
+                placeholder.parentNode.insertBefore(row, placeholder);
+                placeholder.remove();
+                row.classList.remove("dragging");
+                row.style.position = ""; row.style.left = ""; row.style.top = "";
+                row.style.width = ""; row.style.zIndex = ""; row.style.pointerEvents = "";
+                document.removeEventListener("pointermove", move);
+                document.removeEventListener("pointerup", up);
+
+                var newOrderIds = Array.prototype.slice.call(listEl.querySelectorAll(".todo-row"))
+                  .map(function(r){ return +r.getAttribute("data-id"); });
+                todos.sort(function(a, b){
+                  var ia = newOrderIds.indexOf(a.id), ib = newOrderIds.indexOf(b.id);
+                  if(ia === -1 || ib === -1) return 0;
+                  return ia - ib;
+                });
+                persistReorder();
+              }
+              document.addEventListener("pointermove", move);
+              document.addEventListener("pointerup", up);
+            });
+          });
+        }
+
+        var activeHeading = document.createElement("div");
+        activeHeading.className = "todo-section-heading";
+        activeHeading.textContent = "Active";
+        panelBody.appendChild(activeHeading);
+
+        if(active.length === 0){
+          var emptyA = document.createElement("p");
+          emptyA.className = "todo-empty";
+          emptyA.textContent = "No active tasks. Add one above.";
+          panelBody.appendChild(emptyA);
+        }
+
+        var activeList = document.createElement("div");
+        activeList.className = "todo-list";
+        active.forEach(function(t){ activeList.appendChild(buildRow(t, true)); });
+        panelBody.appendChild(activeList);
+        makeDraggable(activeList);
+
+        var completedHeading = document.createElement("div");
+        completedHeading.className = "todo-section-heading";
+        completedHeading.textContent = "Completed";
+        panelBody.appendChild(completedHeading);
+
+        if(completed.length === 0){
+          var emptyC = document.createElement("p");
+          emptyC.className = "todo-empty";
+          emptyC.textContent = "Nothing completed yet.";
+          panelBody.appendChild(emptyC);
+        }
+
+        var completedList = document.createElement("div");
+        completedList.className = "todo-list";
+        completed.forEach(function(t){ completedList.appendChild(buildRow(t, false)); });
+        panelBody.appendChild(completedList);
+      }
+
+      loadTodos();
     } else {
       renderItemList(function(){ return data.items; }, data.title, null);
     }
