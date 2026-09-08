@@ -79,13 +79,12 @@ push touching only `Shed/` won't rebuild `App/` and vice versa — no extra
 `ignoreBuildStep` config needed.
 
 **Retiring the old repo/checkout**: the standalone `askpip/KCS-PIP-Garden-Shed`
-GitHub repo and the local `C:\AskPIP\shed-deploy` checkout are redundant
-now but haven't been deleted — that's a deliberate choice (an AI session
-shouldn't permanently delete things on its own), plus in this case the
-tools available at the time couldn't authenticate to GitHub or reach the
-local machine's shell to do it either way. Archiving/deleting the GitHub
-repo and removing the local folder are both still open, low-urgency,
-Shaphan-side cleanup steps.
+GitHub repo and the local `C:\AskPIP\shed-deploy` checkout were made
+redundant by this migration. The local checkout has been removed
+(2026-09-08). Archiving (not deleting) the GitHub repo itself is the one
+remaining cleanup step, still open — that one needs to be done by hand by
+someone signed into GitHub as `askpip` (Settings → General → Archive this
+repository).
 
 ## Backend
 
@@ -125,7 +124,10 @@ The old Bookshelf content is still a manually seeded, point-in-time copy.
 As of 2026-09-08, File Cabinet documents are different: `Foundations/`,
 `Knowledge Curation System/`, and `Standards/` (every `.md` file, whole
 folders, recursively) sync wholesale into three new File Cabinet folders
-of the same names, kept current automatically.
+of the same names, kept current automatically. **Live and verified**: the
+first successful run synced all 18 markdown files across the three
+folders (1 in Foundations, 15 in Knowledge Curation System, 2 in
+Standards).
 
 - **`.github/workflows/shed-doc-sync.yml`** (repo root — GitHub only reads
   workflow files from there) — runs on every push to `main` that touches
@@ -140,6 +142,13 @@ of the same names, kept current automatically.
   in place rather than duplicating. Also deletes any previously-synced row
   whose file no longer exists in Core, so removed/renamed docs disappear
   from the shed too.
+- The `source_path` uniqueness is enforced with a plain (non-partial)
+  `UNIQUE` constraint — the first version of this migration used a partial
+  index (`WHERE source_path IS NOT NULL`), which PostgREST's
+  `on_conflict=source_path` upsert can't target, and the first live run
+  failed with `42P10` until this was corrected. A plain `UNIQUE` constraint
+  on a nullable column still allows unlimited `NULL`s, so ordinary
+  user-created items (no `source_path`) are unaffected.
 - Synced items are **not user-editable** in the shed (same as `'seed'`
   content) — the existing `editable = item.source === "user"` check
   already excludes anything that isn't `source='user'`, so this needed no
@@ -148,13 +157,8 @@ of the same names, kept current automatically.
 - Writes go straight to `shed_items` via the Supabase REST API with the
   service-role key (bypasses RLS) — this is a trusted CI job, not a shed
   "user", so it doesn't go through the passphrase-gated RPCs at all.
-
-**Setup step still needed from Shaphan**: add `SUPABASE_SERVICE_ROLE_KEY`
-(and `SUPABASE_URL`, `https://lapscltduzkbldfwcemq.supabase.co` — not
-sensitive, but kept alongside it) as repo secrets in `askpip/core` →
-Settings → Secrets and variables → Actions. The workflow will fail until
-that's done. This isn't something an AI session should hold or set —
-by design, it never saw or touched the actual key.
+- `SUPABASE_SERVICE_ROLE_KEY` and `SUPABASE_URL` are set as repo secrets in
+  `askpip/core` (Settings → Secrets and variables → Actions) — done.
 
 ## What's built so far
 
@@ -166,9 +170,12 @@ by design, it never saw or touched the actual key.
 - "Saved [date]" tracking on user-created notices/docs
 - All 7 hotspots (Notice Board, Calendar, Bookshelf, File Cabinet, Info,
   Notepad, Recycle Bin), calibrated separately for desktop and mobile
+- Named-passphrase identity + attribution (Shaphan/Karla)
+- Automatic document sync from Core (Foundations, Knowledge Curation
+  System, Standards)
 
 ## What's next
 
-Tracked in `Working/AI Outputs/Garden_Shed_Office_Overview.md` for now —
-repoint Vercel (above), then live doc-sync from Core and real per-user
-identity, in that order.
+Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`.
+Only remaining open item: archive the old `askpip/KCS-PIP-Garden-Shed`
+GitHub repo (see "Retiring the old repo/checkout" above).
