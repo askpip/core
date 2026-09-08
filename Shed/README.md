@@ -160,6 +160,45 @@ Standards).
 - `SUPABASE_SERVICE_ROLE_KEY` and `SUPABASE_URL` are set as repo secrets in
   `askpip/core` (Settings → Secrets and variables → Actions) — done.
 
+## To-Do List (added 2026-09-08)
+
+An 8th hotspot, positioned on the corkboard just above the Notice Board pin
+(a torn-paper "notice" prop in the same scene art — no new art needed, just
+a new hotspot coordinate over it).
+
+- **Data**: `shed_todos` (current state: `text`, `status`, `sort_order`,
+  `created_by`/`created_at`, `updated_by`/`updated_at`) plus
+  `shed_todo_status_log`, an append-only log of every status change
+  (`todo_id`, `status`, `set_by`, `set_at`) — the shed shows this as an
+  expandable "History" per task, not just the latest change.
+- **Status**: four states — Received, In Progress, Blocked, Completed — set
+  via a dropdown on each task. Changing it calls `shed_set_todo_status`,
+  which stamps `updated_by`/`updated_at` and appends a new history row.
+- **Layout**: active (non-completed) tasks are one draggable, reorderable
+  list; Completed tasks move to a separate, non-draggable section below so
+  the active list stays short. Reordering is pointer-events based (not
+  HTML5 drag-and-drop, which doesn't fire on touch) so it works the same on
+  desktop and mobile; a drop calls `shed_reorder_todos` with the new active
+  order.
+- **RPCs**: `shed_list_todos`, `shed_add_todo`, `shed_set_todo_status`,
+  `shed_reorder_todos`, `shed_delete_todo` — all passphrase-gated the same
+  way as every other shed RPC.
+
+## Settings menu (added 2026-09-08)
+
+A small ⚙ button next to the "Signed in as ..." badge, opening a popover
+with two actions:
+
+- **Change Passphrase**: current passphrase + new (twice, min 8 chars).
+  Calls `shed_change_passphrase(current_p, new_p)`, which re-resolves the
+  *current* passphrase server-side (never trusts the client's in-memory
+  identity) before updating that user's `passphrase_hash`. On success the
+  client immediately swaps `window.SHED_PASSPHRASE` to the new value so the
+  rest of the session keeps working without forcing a re-login.
+- **Log Out**: confirms, then reloads the page. Nothing is persisted
+  client-side (same as the passphrase itself), so a reload is a full,
+  clean log-out back to the lock screen.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI
@@ -167,9 +206,13 @@ Standards).
 - Desk creation flow (Notepad → Pin to Notice Board / File in Cabinet)
 - Full working Calendar: month-grid UI, add/edit/delete events, event
   chips on the month grid
+- To-Do List: draggable/reorderable, 4-state status with full history,
+  Active/Completed sections
+- Settings menu: change own passphrase, log out
 - "Saved [date]" tracking on user-created notices/docs
-- All 7 hotspots (Notice Board, Calendar, Bookshelf, File Cabinet, Info,
-  Notepad, Recycle Bin), calibrated separately for desktop and mobile
+- All 8 hotspots (Notice Board, To-Do List, Calendar, Bookshelf, File
+  Cabinet, Info, Notepad, Recycle Bin), calibrated separately for desktop
+  and mobile
 - Named-passphrase identity + attribution (Shaphan/Karla)
 - Automatic document sync from Core (Foundations, Knowledge Curation
   System, Standards)
