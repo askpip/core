@@ -119,16 +119,42 @@ in `shed_users` directly in Supabase (`extensions.crypt('newpass',
 extensions.gen_salt('bf'))`) — no redeploy required, same as the old
 single passphrase.
 
-Documents on the Bookshelf/File Cabinet are still manually seeded,
-point-in-time copies of select Core documents rather than a live sync —
-that's the one piece of the original roadmap not yet built. The plan
-(agreed 2026-09-08, not yet implemented): a GitHub Action, triggered on
-every push to `core`'s `main` that touches `Foundations/`,
-`Knowledge Curation System/`, or `Standards/`, syncs those folders'
-contents wholesale into `shed_items` (a new `source = 'synced'` kind,
-alongside today's `'seed'` and `'user'`) using a Supabase service-role
-key. That key has to be added as a GitHub Actions secret by Shaphan
-directly — not something an AI session should hold or set.
+## Document sync from Core
+
+The old Bookshelf content is still a manually seeded, point-in-time copy.
+As of 2026-09-08, File Cabinet documents are different: `Foundations/`,
+`Knowledge Curation System/`, and `Standards/` (every `.md` file, whole
+folders, recursively) sync wholesale into three new File Cabinet folders
+of the same names, kept current automatically.
+
+- **`.github/workflows/shed-doc-sync.yml`** (repo root — GitHub only reads
+  workflow files from there) — runs on every push to `main` that touches
+  those three folders (or the sync script/workflow itself), plus a manual
+  `workflow_dispatch` trigger for an on-demand re-run.
+- **`Shed/github/scripts/shed-doc-sync.mjs`** — the sync script it runs.
+  For each `.md` file: title is the first `# Heading`, or the filename if
+  there isn't one; body is the raw file content. Upserts into `shed_items`
+  as `location='cabinet'`, `source='synced'`, `folder=<top-level folder
+  name>`, keyed on a new `source_path` column (the file's repo-relative
+  path — see the `shed_items_source_path_uq` migration) so re-runs update
+  in place rather than duplicating. Also deletes any previously-synced row
+  whose file no longer exists in Core, so removed/renamed docs disappear
+  from the shed too.
+- Synced items are **not user-editable** in the shed (same as `'seed'`
+  content) — the existing `editable = item.source === "user"` check
+  already excludes anything that isn't `source='user'`, so this needed no
+  UI change, just the new folders in `CABINET_FOLDERS`
+  (`source/template.html`).
+- Writes go straight to `shed_items` via the Supabase REST API with the
+  service-role key (bypasses RLS) — this is a trusted CI job, not a shed
+  "user", so it doesn't go through the passphrase-gated RPCs at all.
+
+**Setup step still needed from Shaphan**: add `SUPABASE_SERVICE_ROLE_KEY`
+(and `SUPABASE_URL`, `https://lapscltduzkbldfwcemq.supabase.co` — not
+sensitive, but kept alongside it) as repo secrets in `askpip/core` →
+Settings → Secrets and variables → Actions. The workflow will fail until
+that's done. This isn't something an AI session should hold or set —
+by design, it never saw or touched the actual key.
 
 ## What's built so far
 

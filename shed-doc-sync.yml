@@ -1,0 +1,37 @@
+name: Sync Garden Shed documents
+
+# Keeps the shed's File Cabinet copies of Foundations/, "Knowledge Curation System/", and
+# Standards/ current with the real documents in this repo. See
+# Shed/github/scripts/shed-doc-sync.mjs (this workflow's script lives there too, since
+# GitHub only reads workflow YAML from .github/workflows/ but the rest of the shed's
+# source lives under Shed/).
+#
+# Requires a SUPABASE_SERVICE_ROLE_KEY repo secret (Settings -> Secrets and variables ->
+# Actions) -- add it there directly; it should never be committed or handed to an AI
+# session. SUPABASE_URL is not sensitive but is also read from a secret/variable here for
+# consistency.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Foundations/**"
+      - "Knowledge Curation System/**"
+      - "Standards/**"
+      - "Shed/github/scripts/shed-doc-sync.mjs"
+      - ".github/workflows/shed-doc-sync.yml"
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Sync shed documents
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node Shed/github/scripts/shed-doc-sync.mjs
