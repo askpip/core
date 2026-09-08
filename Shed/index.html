@@ -738,11 +738,17 @@
   // The File Cabinet is organized into named folders. Existing cabinet documents were filed
   // under "PIP AI OS"; anything filed from the desk pad lands in "From the Desk" automatically.
   // "Company Docs" and "Drafts" start empty, ready for whatever gets added later.
+  // Foundations / Knowledge Curation System / Standards are synced wholesale from the
+  // matching folders in core by a GitHub Action (source = 'synced', not user-editable --
+  // see .github/workflows/shed-doc-sync.yml in the core repo).
   var CABINET_FOLDERS = [
     {name:"PIP AI OS", icon:"🤖"},
     {name:"Company Docs", icon:"🏢"},
     {name:"From the Desk", icon:"🗒️"},
-    {name:"Drafts", icon:"✏️"}
+    {name:"Drafts", icon:"✏️"},
+    {name:"Foundations", icon:"🧱"},
+    {name:"Knowledge Curation System", icon:"📚"},
+    {name:"Standards", icon:"📐"}
   ];
   var CABINET_DEFAULT_FOLDER = "Company Docs";
 
