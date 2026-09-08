@@ -1,0 +1,54 @@
+{
+  "favicon": {
+    "file": "favicon.png",
+    "mime": "image/png"
+  },
+  "scene-mobile": {
+    "file": "scene-mobile.jpg",
+    "mime": "image/jpeg"
+  },
+  "scene-desktop": {
+    "file": "scene-desktop.jpg",
+    "mime": "image/jpeg"
+  },
+  "lock-mobile": {
+    "file": "lock-mobile.jpg",
+    "mime": "image/jpeg"
+  },
+  "lock-desktop": {
+    "file": "lock-desktop.jpg",
+    "mime": "image/jpeg"
+  },
+  "board": {
+    "file": "board.jpg",
+    "mime": "image/jpeg"
+  },
+  "cabinet": {
+    "file": "cabinet.jpg",
+    "mime": "image/jpeg"
+  },
+  "bookshelf": {
+    "file": "bookshelf.jpg",
+    "mime": "image/jpeg"
+  },
+  "rug": {
+    "file": "rug.jpg",
+    "mime": "image/jpeg"
+  },
+  "bin": {
+    "file": "bin.jpg",
+    "mime": "image/jpeg"
+  },
+  "calendar": {
+    "file": "calendar.jpg",
+    "mime": "image/jpeg"
+  },
+  "pip-avatar": {
+    "file": "pip-avatar.png",
+    "mime": "image/png"
+  },
+  "paper": {
+    "file": "paper.jpg",
+    "mime": "image/jpeg"
+  }
+}
