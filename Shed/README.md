@@ -64,46 +64,71 @@ regenerated `index.html` together.
 
 ## Deployment
 
-**Target: `https://shed.askpip.garden`, hosted the same way `App/` is** —
-a Vercel project connected to the `askpip/core` GitHub repo, with its
-**Root Directory set to `Shed`**, auto-deploying on push to `main`. No
-build command needed (Framework Preset "Other"); Vercel just serves
-`index.html` as static output, same as it does today from the separate
-`KCS-PIP-Garden-Shed` repo.
+**Live at `https://shed.askpip.garden`, hosted the same way `App/` is** —
+a Vercel project (`kcs-pip-garden-shed`) connected to the `askpip/core`
+GitHub repo, with its **Root Directory set to `Shed`**, auto-deploying on
+push to `main`. No build command (Framework Preset "Other"); Vercel just
+serves `index.html` as static output. Migrated 2026-09-08 — the project's
+Git connection was repointed from the old standalone `KCS-PIP-Garden-Shed`
+repo to `askpip/core`, and a deploy from this folder was confirmed `Ready`
+and verified live before the old repo was left for retirement (see below).
 
-**This repointing is a manual step in the Vercel dashboard that hasn't
-happened yet** — an AI session has no login there. Until it's done, the
-live site is still served from the old separate repo/checkout, and this
-folder is the prepared, committed replacement waiting to be switched over.
-See the migration steps in `Working/AI Outputs/Garden_Shed_Office_Overview.md`
-(or ask the AI session that set this up) for the exact dashboard steps:
-repoint the existing shed Vercel project's Git repository to `askpip/core`
-with Root Directory `Shed`, confirm a deploy succeeds, then retire the old
-`KCS-PIP-Garden-Shed` repo and the local `shed-deploy` checkout.
+Both this project and `App/`'s already have Vercel's "skip deployments
+when there are no changes to the root directory" enabled by default, so a
+push touching only `Shed/` won't rebuild `App/` and vice versa — no extra
+`ignoreBuildStep` config needed.
+
+**Retiring the old repo/checkout**: the standalone `askpip/KCS-PIP-Garden-Shed`
+GitHub repo and the local `C:\AskPIP\shed-deploy` checkout are redundant
+now but haven't been deleted — that's a deliberate choice (an AI session
+shouldn't permanently delete things on its own), plus in this case the
+tools available at the time couldn't authenticate to GitHub or reach the
+local machine's shell to do it either way. Archiving/deleting the GitHub
+repo and removing the local folder are both still open, low-urgency,
+Shaphan-side cleanup steps.
 
 ## Backend
 
 Same Supabase project as `App/` (`lapscltduzkbldfwcemq`), fully separate
-tables: `shed_items`, `shed_events`, `shed_config`. RLS is enabled with no
-policies — nothing reachable directly. All reads/writes go through
-`SECURITY DEFINER` RPCs (`shed_list_items`, `shed_add_item`,
-`shed_update_item`, `shed_delete_item`, `shed_restore_item`,
-`shed_purge_items`, and the calendar equivalents `shed_list_events`/
-`add`/`update`/`delete_event`), gated by `shed_check_passphrase(p)` against
-a hash in `shed_config`.
+tables: `shed_items`, `shed_events`, `shed_config`, plus `shed_users`
+(added 2026-09-08, see below). RLS is enabled with no policies — nothing
+reachable directly. All reads/writes go through `SECURITY DEFINER` RPCs
+(`shed_list_items`, `shed_add_item`, `shed_update_item`, `shed_delete_item`,
+`shed_restore_item`, `shed_purge_items`, and the calendar equivalents
+`shed_list_events`/`add`/`update`/`delete_event`), gated by
+`shed_check_passphrase(p)`.
 
-This is currently a **shared-passphrase model, not per-user auth** —
-deliberately lightweight for a small internal tool so far. As the shed
-takes on research approvals and commission discussions, which need
-accountability (who approved/decided what), moving to real per-person
-identity (Supabase Auth, same as `App/` already uses) is planned as a
-follow-up phase, along with making the Bookshelf/File Cabinet documents
-live-sync from the real Core documents instead of the current manually
-seeded, point-in-time copies.
+**Identity model (as of 2026-09-08): two named passphrases, not a single
+shared one and not full per-user auth.** `shed_users` holds a
+`(name, passphrase_hash)` row per person — currently Shaphan and Karla,
+the only two people using the shed. `shed_check_passphrase(p)` now checks
+against `shed_users` (any match unlocks, same as before), and a new RPC,
+`shed_identify_user(p)`, resolves a passphrase to its owner's name. The
+client calls this once at unlock and keeps the name in memory for the
+session (never persisted, same as the passphrase itself) to show a
+"Signed in as ..." badge and to label notices/docs/events with who
+created/last saved them (`created_by`/`updated_by` columns on `shed_items`
+and `shed_events`, stamped server-side from the resolved name — never
+trusted from client input). This was an explicit choice over real Supabase
+Auth: permissions stay flat (anyone can do anything; identity is for
+attribution only), so the extra weight of real accounts wasn't worth it
+for two people. Worth revisiting if the team using the shed grows.
 
-The passphrase is still the original default (`gardenshed2026`) — worth
-rotating once the team using the shed is settled; can be done directly in
-Supabase, no redeploy required.
+To change either passphrase, update the matching row's `passphrase_hash`
+in `shed_users` directly in Supabase (`extensions.crypt('newpass',
+extensions.gen_salt('bf'))`) — no redeploy required, same as the old
+single passphrase.
+
+Documents on the Bookshelf/File Cabinet are still manually seeded,
+point-in-time copies of select Core documents rather than a live sync —
+that's the one piece of the original roadmap not yet built. The plan
+(agreed 2026-09-08, not yet implemented): a GitHub Action, triggered on
+every push to `core`'s `main` that touches `Foundations/`,
+`Knowledge Curation System/`, or `Standards/`, syncs those folders'
+contents wholesale into `shed_items` (a new `source = 'synced'` kind,
+alongside today's `'seed'` and `'user'`) using a Supabase service-role
+key. That key has to be added as a GitHub Actions secret by Shaphan
+directly — not something an AI session should hold or set.
 
 ## What's built so far
 

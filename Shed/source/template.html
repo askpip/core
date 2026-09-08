@@ -67,6 +67,17 @@
     .speech{ font-size:.88rem; max-width:280px; }
   }
 
+  /* "Signed in as ..." badge, shown once the passphrase resolves to a named user. */
+  .active-user-badge{
+    position:absolute; top:1.5%; right:3%; z-index:5; display:none;
+    background:var(--cream); border:2px solid var(--wood); border-radius:14px;
+    padding:6px 12px; font-family:'Kalam',cursive; font-size:.78rem; color:var(--ink);
+    box-shadow:2px 3px 6px rgba(0,0,0,.25);
+  }
+  @media (min-width:760px){
+    .active-user-badge{ font-size:.88rem; }
+  }
+
 
   /* Hotspots: small round buttons centered on a single point */
   .hotspot{
@@ -355,6 +366,10 @@
   var SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxhcHNjbHRkdXprYmxkZndjZW1xIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODczMzgxMDQsImV4cCI6MjEwMjkxNDEwNH0.W_jcvK9xX9K66JGilWLNy5bW0FJiCrFBDaVCnnVhncI";
   var sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
   window.SHED_PASSPHRASE = null;
+  // The display name resolved from whichever passphrase was entered (e.g. "Shaphan" or
+  // "Karla"), via the shed_identify_user RPC. Used only for display/attribution -- the
+  // actual access gate is still the passphrase itself, checked server-side on every call.
+  window.SHED_ACTIVE_USER = null;
 
   var SAVED_MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   // Formats an ISO timestamp (shed_items.updated_at) into a short "Saved ..." line.
@@ -364,6 +379,25 @@
     var d = new Date(iso);
     if(isNaN(d.getTime())) return "";
     return "Saved " + SAVED_MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+  }
+  // Same as fmtSavedDate, but appends who last saved it (item.updatedBy), when known.
+  function fmtSavedLine(item){
+    var d = fmtSavedDate(item.updatedAt);
+    if(!d) return "";
+    return item.updatedBy ? (d + " by " + item.updatedBy) : d;
+  }
+  // Updates every "Signed in as ..." badge on the page. Called once the passphrase has
+  // been resolved to a name at unlock time.
+  function updateActiveUserBadge(){
+    var name = window.SHED_ACTIVE_USER;
+    document.querySelectorAll(".active-user-badge").forEach(function(el){
+      if(name){
+        el.textContent = "Signed in as " + name;
+        el.style.display = "block";
+      } else {
+        el.style.display = "none";
+      }
+    });
   }
 
   var CONTENT = {
@@ -412,7 +446,7 @@
     (rows || []).forEach(function(row){
       var loc = row.location;
       if(!CONTENT[loc]) return;
-      var item = { id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: loc, updatedAt: row.updated_at };
+      var item = { id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: loc, updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by };
       if(row.deleted_at){
         CONTENT.bin.items.push(item);
       } else {
@@ -462,15 +496,22 @@
   }
 
   // No persistence: the passphrase is asked for fresh on every visit/reload,
-  // it is never written to localStorage or any other browser storage.
+  // it is never written to localStorage or any other browser storage. The resolved
+  // display name (SHED_ACTIVE_USER) is likewise held only in memory for this page load.
   function tryUnlock(pass){
     var err = document.getElementById("lockError");
     setLockBtns(true); err.style.display = "none";
-    return fetchAllItems(pass).then(function(){
-      window.SHED_PASSPHRASE = pass;
-      showApp();
-      setLockBtns(false);
-      return true;
+    return sb.rpc("shed_identify_user", { p: pass }).then(function(idRes){
+      if(idRes.error){ throw idRes.error; }
+      if(!idRes.data){ throw new Error("invalid passphrase"); }
+      return fetchAllItems(pass).then(function(){
+        window.SHED_PASSPHRASE = pass;
+        window.SHED_ACTIVE_USER = idRes.data;
+        updateActiveUserBadge();
+        showApp();
+        setLockBtns(false);
+        return true;
+      });
     }).catch(function(e){
       setLockBtns(false);
       err.textContent = "That passphrase didn't work. Try again.";
@@ -561,6 +602,10 @@
       '<div class="speech">Welcome to the<br>KCS PIP SHED</div>';
     stageEl.appendChild(pip);
 
+    var userBadge = document.createElement("div");
+    userBadge.className = "active-user-badge";
+    stageEl.appendChild(userBadge);
+
     var speechEl = pip.querySelector(".speech");
     var qi = 0;
     setInterval(function(){
@@ -617,7 +662,7 @@
       '</div>';
     overlay.querySelector(".doc-page h4").textContent = item.title;
     overlay.querySelector(".doc-page .body").textContent = item.body;
-    overlay.querySelector(".doc-page .doc-date").textContent = item.source === "user" ? fmtSavedDate(item.updatedAt) : "";
+    overlay.querySelector(".doc-page .doc-date").textContent = item.source === "user" ? fmtSavedLine(item) : "";
     stageEl.appendChild(overlay);
     requestAnimationFrame(function(){ overlay.classList.add("open"); });
     function close(){
@@ -656,13 +701,14 @@
           item.title = res.data.title;
           item.body = res.data.body;
           item.updatedAt = res.data.updated_at;
+          item.updatedBy = res.data.updated_by;
           if(item.loc && CONTENT[item.loc]){
             var found = CONTENT[item.loc].items.find(function(it){ return it.id === item.id; });
-            if(found){ found.title = item.title; found.body = item.body; found.updatedAt = item.updatedAt; }
+            if(found){ found.title = item.title; found.body = item.body; found.updatedAt = item.updatedAt; found.updatedBy = item.updatedBy; }
           }
           overlay.querySelector(".view-mode h4").textContent = item.title;
           overlay.querySelector(".view-mode .body").textContent = item.body;
-          overlay.querySelector(".view-mode .doc-date").textContent = fmtSavedDate(item.updatedAt);
+          overlay.querySelector(".view-mode .doc-date").textContent = fmtSavedLine(item);
           if(stageEl._deskState && stageEl._deskState.id === item.id){ showOnDesk(stageEl, item); }
           editMode.style.display = "none";
           viewMode.style.display = "block";
@@ -758,7 +804,7 @@
         var card = document.createElement("button");
         card.type = "button";
         card.className = "item-card";
-        var savedLine = item.source === "user" ? fmtSavedDate(item.updatedAt) : "";
+        var savedLine = item.source === "user" ? fmtSavedLine(item) : "";
         card.innerHTML = "<b>" + item.title + "</b>" +
           (savedLine ? '<span class="item-date">' + savedLine + '</span>' : "") +
           item.body.slice(0, 60) + (item.body.length > 60 ? "..." : "");
@@ -949,7 +995,7 @@
           row.innerHTML =
             '<input type="checkbox"' + (binSelected[item.id] ? " checked" : "") + '>' +
             '<div class="bin-item-body"><b>' + item.title + '</b>' +
-              (fmtSavedDate(item.updatedAt) ? '<span class="item-date">' + fmtSavedDate(item.updatedAt) + '</span>' : "") +
+              (fmtSavedLine(item) ? '<span class="item-date">' + fmtSavedLine(item) + '</span>' : "") +
               item.body.slice(0, 80) + (item.body.length > 80 ? "..." : "") + '</div>' +
             '<div class="bin-item-actions"><button type="button" class="btn ghost restore-item">Restore</button></div>';
 
@@ -1113,6 +1159,7 @@
           card.innerHTML =
             '<div class="view-mode">' +
               '<b class="cal-ev-title">' + ev.title + '</b>' +
+              (ev.updated_by ? '<span class="item-date">by ' + ev.updated_by + '</span>' : "") +
               '<p style="margin:0 0 10px;">' + (ev.body || "") + '</p>' +
               '<div class="actions" style="border-bottom:none;margin-bottom:0;">' +
                 '<button type="button" class="btn ghost edit-ev">Edit</button>' +
@@ -1148,7 +1195,7 @@
             sb.rpc("shed_update_event", { p: window.SHED_PASSPHRASE, event_id: ev.id, edate: dateStr, ttl: newTitle, bdy: newBody }).then(function(res){
               saveBtn.disabled = false;
               if(res.error){ alert("Couldn't save that event. Please try again."); return; }
-              ev.title = res.data.title; ev.body = res.data.body;
+              ev.title = res.data.title; ev.body = res.data.body; ev.updated_by = res.data.updated_by;
               renderDay(dateStr);
             });
           });
@@ -1239,7 +1286,7 @@
           return;
         }
         var row = res.data;
-        CONTENT.board.items.unshift({ id: row.id, title: row.title, body: row.body, source: row.source, loc: "board", updatedAt: row.updated_at });
+        CONTENT.board.items.unshift({ id: row.id, title: row.title, body: row.body, source: row.source, loc: "board", updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by });
         showOnDesk(stageEl, {title: "Pinned: " + entry.title, body: "Added to the Notice Board."});
         close();
       });
@@ -1255,7 +1302,7 @@
           return;
         }
         var row = res.data;
-        CONTENT.cabinet.items.unshift({ id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: "cabinet", updatedAt: row.updated_at });
+        CONTENT.cabinet.items.unshift({ id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: "cabinet", updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by });
         showOnDesk(stageEl, {title: "Filed: " + entry.title, body: 'Added to the File Cabinet, under "From the Desk".'});
         close();
       });
