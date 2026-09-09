@@ -789,7 +789,7 @@
       {key:"bookshelf", label:"Bookshelf", icon:"📚", cx:96, cy:42},
       {key:"cabinet", label:"File Cabinet", icon:"🗄️", cx:5, cy:55},
       {key:"rug", label:"Info", icon:"👣", cx:59.7, cy:59},
-      {key:"deskpad", label:"Notepad", icon:"✎", cx:3.8, cy:76.4},
+      {key:"deskpad", label:"Notepad", icon:"✎", cx:16.7, cy:73.5},
       {key:"bin", label:"Recycle Bin", icon:"🗑️", cx:95, cy:56}
     ],
     desktop: [
@@ -1062,6 +1062,13 @@
   // body element is in the DOM and shows only the active (last) one. Call this after any
   // change to stageEl._deskWindows, stageEl._deskMaximized, or which window is active.
   function renderDeskChrome(stageEl){
+    // Any tab this rebuild is about to remove or reorder can't fire its own mouseleave
+    // (it's gone from the DOM, not moved away from by the pointer), so a tooltip left
+    // showing from it would otherwise stay stuck on screen indefinitely -- clear it
+    // unconditionally before rebuilding, since every tab-strip change (open, close,
+    // switch, maximize/restore) runs through here.
+    hideTabTooltip();
+
     var wins = stageEl._deskWindows || [];
     var frame = stageEl._deskFrame;
 

@@ -859,6 +859,58 @@ something is open was the specific, stated problem. Tab switching, the
 hover/touch title tooltip, and maximize/restore were all re-verified
 working correctly at the new smaller size before shipping.
 
+## Three bugs from this round's own changes, found and fixed immediately (2026-09-09)
+
+Direct feedback right after the round above shipped, all three real:
+
+- **The four Founder Approval notices (and their auto-created To-Do tasks)
+  showed "Added by Claude" / "Received by Claude."** They'd been inserted
+  directly into `shed_items` rather than through `shed_add_notice` (see
+  above), and `created_by`/`updated_by` were set to the literal string
+  `"Claude"` — matching what an earlier session had already done for the
+  first notice, but never actually a valid identity in the shed's
+  named-passphrase model (Shaphan/Karla only). The auto-todo trigger
+  (`shed_notice_requires_approval_todo`) copies a notice's `created_by`
+  straight through to its generated to-do and status-log rows
+  (`actor := coalesce(new.created_by, 'Shed')`), which is what carried
+  "Claude" into the To-Do List display too. Fixed by updating all four
+  notices, their four generated to-do rows, and their four status-log
+  entries directly in Supabase, from `'Claude'` to `'Shed'` — the
+  trigger's own built-in fallback label for exactly this case, so it now
+  reads "Added by Shed" throughout. `Founding_Principles`' notice kept
+  its real `updated_by:"Shaphan"` untouched (a real action taken through
+  the shed's own UI, not part of this fix). No code changed — this was a
+  data-only correction; a notice or to-do created normally, through the
+  shed's own UI, has always stamped the real signed-in name and was never
+  affected.
+- **A tab's hover/touch title tooltip could get stuck on screen after its
+  desk window closed.** The shared tooltip element (`.shed-tab-tooltip`,
+  see "Desk windowing rebuilt again" above) is only ever hidden by a
+  `mouseleave` on the tab it's attached to, or a touch auto-hide timer —
+  neither fires when the tab itself is removed from the DOM by closing
+  it (or the whole window) while the pointer is still sitting over where
+  the tab was, since nothing actually moved away. Fixed by calling
+  `hideTabTooltip()` unconditionally at the very start of
+  `renderDeskChrome()`, which runs on every tab-strip change (opening,
+  closing, switching tabs, maximize/restore) — so any tooltip left over
+  from a tab that's about to disappear or move is always cleared before
+  the rebuild, not just when the pointer happens to leave naturally.
+  Reproduced the exact reported case (hover a tab, close it without
+  moving the mouse away first) before and after the fix.
+- **The mobile pen (`deskpad`) hotspot was still not on the pen**, despite
+  being "fixed" and visually verified earlier the same day. Re-checked
+  properly this time with a fine pixel grid laid directly over a fresh
+  screenshot of the actual rendered page (not the source art, and not
+  reasoning from a crop that turned out to be misleading) at several real
+  phone widths (360/375/390/414/428px) — the previous value (`cx:3.8`)
+  put the hotspot's left edge off-screen at every one of them (roughly
+  10% of the 36px circle clipped), and, worse, its visible remainder
+  landed on bare desk wood below-left of the pen, not on the pen at all.
+  Moved to `cx:16.7, cy:73.5`, centred on the pen's wooden grip/barrel —
+  the thickest, safest part of it, well clear of both the lamp base above
+  and the desk edge below — and confirmed fully on-screen and correctly
+  placed at all five widths tested, not just one reference viewport.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI

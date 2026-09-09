@@ -8,6 +8,10 @@ Git provides the complete technical history of the repository. This changelog re
 
 ## Unreleased
 
+### Fixed
+
+- Three bugs from the same day's own round of changes, caught immediately from direct feedback (9 September 2026): the four Founder Approval notices (and their auto-created To-Do tasks) were showing "Added by Claude" — fixed to "Added by Shed" (the auto-todo trigger's own built-in fallback identity), a data-only correction since these had been inserted directly rather than through the shed's UI; a tab's hover/touch title tooltip could get stuck on screen after its desk window closed, fixed by explicitly clearing it at the start of every tab-strip rebuild rather than relying only on `mouseleave`; and the mobile pen hotspot, "fixed" and visually verified earlier the same day, turned out on a proper re-check (a fine pixel grid over the actual rendered page at five real phone widths, not one reference viewport) to still be landing on bare desk, off-screen at the edge — recentred on the pen's wooden grip. See `Shed/README.md` for the full technical record.
+
 ### Added
 
 - Shrunk the Garden Shed desk window's default (non-maximized) size to a small, fixed, corner-anchored "phone-card" size (9 September 2026), right after the tab redesign shipped — the previous default (`min(680px,86%)` × `min(560px,80%)`) still covered the Notice Board hotspot on a phone, blocking a second notice from being opened while one document was already on the desk, reintroducing the same "can't reach anything else" problem one level up. Maximize now reaches the old large size; the resting size is small enough that the Notice Board, To-Do List, Calendar and Bookshelf hotspots all stay clickable with a document open, verified with a real (non-scripted) pointer click at a real mobile viewport against the exact reported scenario.
