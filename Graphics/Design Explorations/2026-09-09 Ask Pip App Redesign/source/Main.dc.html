@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Dancing+Script:wght@600&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  a { color: #4f7942; }
+  a:hover { color: #416334; }
+</style>
+</helmet>
+
+<div style="width:390px;height:844px;position:relative;overflow:hidden;background:linear-gradient(180deg,#eef8ec 0%,#e3f2e2 42%,#d3e9d0 100%);font-family:'Segoe UI',system-ui,-apple-system,Roboto,sans-serif;color:#22331f;">
+
+  <!-- decorative botanical line art -->
+  <svg width="390" height="844" style="position:absolute;inset:0;opacity:0.5;" viewBox="0 0 390 844" fill="none">
+    <path d="M -20 90 C 40 60, 70 120, 130 95" stroke="#c7ddc2" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 0 100 C 10 78, 22 70, 34 88" stroke="#c7ddc2" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 410 210 C 350 190, 330 240, 280 220" stroke="#c7ddc2" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 388 760 C 330 730, 300 780, 250 760" stroke="#bdd6b4" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 10 790 C 60 760, 90 810, 150 790" stroke="#bdd6b4" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="345" cy="130" r="3" fill="#c7ddc2"/>
+    <circle cx="28" cy="250" r="2.5" fill="#c7ddc2"/>
+    <circle cx="360" cy="620" r="3" fill="#bdd6b4"/>
+  </svg>
+
+  <!-- top options dot -->
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" style="position:absolute;right:20px;top:26px;">
+    <circle cx="5" cy="12" r="1.6" fill="#56695a"/>
+    <circle cx="12" cy="12" r="1.6" fill="#56695a"/>
+    <circle cx="19" cy="12" r="1.6" fill="#56695a"/>
+  </svg>
+
+  <div style="position:relative;display:flex;flex-direction:column;align-items:center;padding:44px 26px 0;">
+    <h1 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:32px;letter-spacing:-0.01em;color:#22331f;">Ask Pip</h1>
+    <p style="margin:6px 0 0;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:500;font-size:14px;color:#4f7942;letter-spacing:0.01em;">Growing Understanding, Cultivating Confidence</p>
+  </div>
+
+  <!-- Pip hero -->
+  <div style="position:relative;display:flex;justify-content:center;margin-top:22px;">
+    <div style="position:absolute;bottom:6px;width:150px;height:26px;border-radius:50%;background:radial-gradient(ellipse,rgba(34,51,31,0.22) 0%,rgba(34,51,31,0) 72%);"></div>
+    <img src="pip.png" alt="Pip, your gardening companion" style="width:196px;height:auto;position:relative;filter:drop-shadow(0 18px 22px rgba(34,51,31,0.16));">
+  </div>
+
+  <!-- greeting bubble -->
+  <div style="position:relative;margin:14px 22px 0;background:#ffffff;border-radius:24px;padding:18px 20px;box-shadow:0 20px 40px -18px rgba(34,51,31,0.28), 0 2px 8px rgba(34,51,31,0.06);">
+    <span aria-hidden="true" style="position:absolute;left:50%;top:-9px;transform:translateX(-50%) rotate(45deg);width:16px;height:16px;background:#ffffff;border-radius:3px;"></span>
+    <p style="margin:0;font-size:15.5px;line-height:1.55;color:#22331f;position:relative;">
+      <strong style="font-weight:600;">Hi, I'm Pip!</strong> Enter your email and I'll send you a code to log in — no password needed.
+    </p>
+  </div>
+
+  <!-- input card -->
+  <div style="margin:16px 22px 0;background:#ffffff;border-radius:24px;padding:18px;box-shadow:0 14px 30px -18px rgba(34,51,31,0.22);">
+    <div style="display:flex;align-items:center;gap:10px;border:1.5px solid #c7ddc2;background:#f7fbf5;border-radius:16px;padding:13px 16px;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="flex:none;">
+        <path d="M4 6h16v12H4z" stroke="#56695a" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M4 7l8 6 8-6" stroke="#56695a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span style="font-size:14.5px;color:#8a9a8c;">you@example.com</span>
+    </div>
+
+    <div style="margin-top:12px;display:flex;align-items:center;justify-content:center;gap:8px;width:100%;background:linear-gradient(135deg,#4f7942,#416334);color:#ffffff;font-size:15.5px;font-weight:600;padding:15px;border-radius:999px;box-shadow:0 14px 26px -10px rgba(65,99,52,0.6);">
+      Send me a login code
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+        <path d="M5 12h14M13 6l6 6-6 6" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <p style="margin:12px 0 0;text-align:center;font-size:12px;color:#8a9a8c;">No password. No spam. Just a six-digit code.</p>
+  </div>
+
+  <!-- returning gardener affordance -->
+  <div style="position:relative;margin:14px 22px 0;display:flex;align-items:center;gap:10px;justify-content:center;">
+    <span style="height:1px;flex:1;background:#c7ddc2;"></span>
+    <span style="font-size:12px;color:#8a9a8c;">recognised this device before?</span>
+    <span style="height:1px;flex:1;background:#c7ddc2;"></span>
+  </div>
+  <div style="margin:10px 22px 0;display:flex;align-items:center;gap:10px;background:#eef5ea;border:1.5px dashed #bdd6b4;border-radius:18px;padding:12px 16px;">
+    <div style="width:30px;height:30px;border-radius:50%;background:#cfe3c8;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-weight:600;font-size:13px;color:#416334;">M</div>
+    <span style="font-size:13.5px;color:#416334;font-weight:500;">Continue as Marie — skip the code</span>
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" style="margin-left:auto;">
+      <path d="M9 6l6 6-6 6" stroke="#416334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

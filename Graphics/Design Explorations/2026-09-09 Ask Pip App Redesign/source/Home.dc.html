@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Dancing+Script:wght@600&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  a { color: #4f7942; }
+  a:hover { color: #416334; }
+</style>
+</helmet>
+
+<div style="width:390px;height:844px;position:relative;overflow:hidden;background:#eef8ec;font-family:'Segoe UI',system-ui,-apple-system,Roboto,sans-serif;color:#22331f;display:flex;flex-direction:column;">
+
+  <div style="position:absolute;top:0;left:0;right:0;height:150px;background:linear-gradient(180deg,#e3f2e2 0%,rgba(227,242,226,0) 100%);"></div>
+
+  <!-- header -->
+  <div style="position:relative;display:flex;align-items:center;justify-content:center;gap:7px;padding:22px 20px 2px;">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
+      <path d="M12 21c-4-3-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-3 8-7 11z" stroke="#4f7942" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <span style="font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:16px;color:#22331f;letter-spacing:-0.01em;">Ask Pip</span>
+  </div>
+
+  <!-- greeting -->
+  <div style="position:relative;padding:18px 22px 4px;">
+    <div style="display:flex;align-items:baseline;justify-content:space-between;">
+      <h1 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:27px;color:#22331f;">Marie's Plants</h1>
+      <span style="font-size:13.5px;font-weight:600;color:#4f7942;">Select</span>
+    </div>
+    <p style="margin:6px 0 0;font-size:13.5px;color:#56695a;line-height:1.5;">Every plant's story lives here — photos, decisions and what happened next.</p>
+  </div>
+
+  <!-- grid -->
+  <div style="position:relative;flex:1;overflow:hidden;padding:16px 20px 24px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-content:start;">
+
+    <!-- card 1: has a photo -->
+    <div style="display:flex;flex-direction:column;gap:8px;background:#ffffff;border-radius:24px;padding:8px;box-shadow:0 14px 28px -16px rgba(34,51,31,0.22);">
+      <div style="position:relative;aspect-ratio:1/1;border-radius:18px;overflow:hidden;">
+        <img src="rose.jpg" alt="Marie's Rose" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+        <div style="position:absolute;inset-inline:0;bottom:0;height:52%;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.55) 100%);"></div>
+        <span style="position:absolute;left:6px;right:6px;bottom:8px;font-family:'Dancing Script',cursive;font-weight:600;font-size:23px;color:#ffffff;text-shadow:0 1px 4px rgba(0,0,0,0.25);">Marie's Rose</span>
+        <span style="position:absolute;right:8px;top:8px;display:flex;align-items:center;gap:4px;background:rgba(255,255,255,0.88);border-radius:999px;padding:4px 9px;font-size:10.5px;font-weight:600;color:#416334;">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M12 21c-4-3-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-3 8-7 11z" stroke="#416334" stroke-width="2.4" stroke-linejoin="round"/></svg>
+          Autumn
+        </span>
+      </div>
+    </div>
+
+    <!-- card 2: no photo yet, placeholder -->
+    <div style="display:flex;flex-direction:column;gap:8px;background:#ffffff;border-radius:24px;padding:8px;box-shadow:0 14px 28px -16px rgba(34,51,31,0.22);">
+      <div style="position:relative;aspect-ratio:1/1;border-radius:18px;overflow:hidden;background:linear-gradient(135deg,#7fae61 0%,#a8c98a 55%,#e0a872 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 21V9M12 9c0-3.3-2.7-6-6-6 0 3.3 2.7 6 6 6zM12 13c0-3.3 2.7-6 6-6 0 3.3-2.7 6-6 6z" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/></svg>
+        <span style="font-family:'Dancing Script',cursive;font-weight:600;font-size:20px;color:#ffffff;">Grandma's Climb</span>
+      </div>
+    </div>
+
+    <!-- add a plant -->
+    <div style="aspect-ratio:1/1;border-radius:24px;border:2px dashed #c7ddc2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#56695a;">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#56695a" stroke-width="2" stroke-linecap="round"/></svg>
+      <span style="font-size:13px;font-weight:600;">Add a plant</span>
+    </div>
+
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

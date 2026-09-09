@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Dancing+Script:wght@600&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  a { color: #4f7942; }
+  a:hover { color: #416334; }
+</style>
+</helmet>
+
+<div style="width:390px;height:844px;position:relative;overflow:hidden;background:#eef8ec;font-family:'Segoe UI',system-ui,-apple-system,Roboto,sans-serif;color:#22331f;display:flex;flex-direction:column;">
+
+  <!-- header -->
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:20px 18px 4px;">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="#22331f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span style="font-size:12.5px;font-weight:600;color:#56695a;letter-spacing:0.02em;text-transform:uppercase;">Step 3 of 4 · Observing</span>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="5" cy="12" r="1.5" fill="#56695a"/><circle cx="12" cy="12" r="1.5" fill="#56695a"/><circle cx="19" cy="12" r="1.5" fill="#56695a"/></svg>
+  </div>
+
+  <div style="flex:1;overflow:hidden;padding:12px 18px 20px;display:flex;flex-direction:column;">
+
+    <!-- photo with annotation -->
+    <div style="position:relative;border-radius:26px;overflow:hidden;aspect-ratio:4/3;box-shadow:0 16px 30px -16px rgba(34,51,31,0.3);">
+      <img src="rose.jpg" alt="Gardener's photo of the stem" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+      <svg width="100%" height="100%" viewBox="0 0 400 300" style="position:absolute;inset:0;">
+        <ellipse cx="205" cy="150" rx="46" ry="30" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="5 5" opacity="0.9"/>
+        <path d="M243 138 L285 92" stroke="#ffffff" stroke-width="1.6" opacity="0.85"/>
+      </svg>
+      <span style="position:absolute;left:245px;top:56px;background:rgba(255,255,255,0.92);border-radius:999px;padding:5px 11px;font-size:11px;font-weight:600;color:#22331f;box-shadow:0 4px 10px rgba(0,0,0,0.15);">Pip is looking here</span>
+    </div>
+
+    <!-- pip bubble -->
+    <div style="position:relative;display:flex;align-items:flex-start;gap:0;margin-top:14px;">
+      <img src="pip.png" alt="Pip" style="width:52px;height:auto;position:relative;z-index:1;flex:none;">
+      <div style="position:relative;margin-left:-16px;background:#ffffff;border-radius:20px;padding:13px 15px 13px 24px;box-shadow:0 10px 22px -14px rgba(34,51,31,0.3);">
+        <p style="margin:0;font-size:13.5px;line-height:1.5;color:#22331f;">This stem may be dead. It looks darker than the growth beside it, and I can't see a healthy bud in the photograph. Can you find the same stem on the rose and look at it closely?</p>
+      </div>
+    </div>
+
+    <!-- confidence + sources -->
+    <div style="display:flex;gap:8px;margin-top:12px;">
+      <div style="flex:1;display:flex;align-items:center;gap:7px;background:#ffffff;border-radius:999px;padding:9px 13px;box-shadow:0 6px 14px -10px rgba(34,51,31,0.25);">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <path d="M4 15a8 8 0 0 1 16 0" stroke="#c7ddc2" stroke-width="3" stroke-linecap="round"/>
+          <path d="M4 15a8 8 0 0 1 12.2-6.8" stroke="#4f7942" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span style="font-size:12px;font-weight:600;color:#22331f;">Moderate confidence</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:6px;background:#ffffff;border-radius:999px;padding:9px 13px;box-shadow:0 6px 14px -10px rgba(34,51,31,0.25);">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 5h11a3 3 0 0 1 3 3v11H7a3 3 0 0 1-3-3V5z" stroke="#56695a" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        <span style="font-size:12px;font-weight:600;color:#56695a;">6 sources</span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#8a9a8c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </div>
+
+    <!-- decision -->
+    <p style="margin:16px 0 8px;font-size:13.5px;font-weight:600;color:#22331f;">What would you like to do?</p>
+    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;">
+
+      <div style="display:flex;align-items:center;gap:9px;background:linear-gradient(135deg,#4f7942,#416334);border-radius:16px;padding:13px 14px;box-shadow:0 10px 20px -10px rgba(65,99,52,0.55);">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.4" stroke="#ffffff" stroke-width="1.8"/><circle cx="6" cy="18" r="2.4" stroke="#ffffff" stroke-width="1.8"/><path d="M7.8 7.5L20 18M7.8 16.5L20 6" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span style="font-size:13.5px;font-weight:600;color:#ffffff;">Cut</span>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:9px;background:#ffffff;border:1.5px solid #c7ddc2;border-radius:16px;padding:13px 14px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 21V9M12 9c0-3.3-2.7-6-6-6 0 3.3 2.7 6 6 6z" stroke="#4f7942" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span style="font-size:13.5px;font-weight:600;color:#22331f;">Leave</span>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:9px;background:#cfe3c8;border-radius:16px;padding:13px 14px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="#3f5a37" stroke-width="1.8"/><path d="M12 8v4l3 2" stroke="#3f5a37" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span style="font-size:13.5px;font-weight:600;color:#3f5a37;">Decide later</span>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:9px;background:linear-gradient(135deg,#e0a872,#c98f57);border-radius:16px;padding:13px 14px;box-shadow:0 10px 20px -10px rgba(201,143,87,0.5);">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M8 12a4 4 0 1 1 8 0v3a4 4 0 0 1-8 0v-3z" stroke="#ffffff" stroke-width="1.8"/><path d="M8 13H6a2 2 0 0 1 0-4h1M16 13h2a2 2 0 0 0 0-4h-1" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span style="font-size:12.5px;font-weight:600;color:#ffffff;line-height:1.2;">Get local help</span>
+      </div>
+
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
