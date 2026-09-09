@@ -1,5 +1,7 @@
 # The Garden Shed Office — Overview & Deployment Notes
 
+> **⚠ Superseded — historical record only (9 September 2026).** This note predates the Shed's migration into Core as `Shed/` (8 September 2026) and is now stale on several specific points: it describes the Shed as living in a separate `askpip/KCS-PIP-Garden-Shed` repository deployed from a local `shed-deploy` checkout (both retired by that migration); it says the build source (`build_live.py`, `data_uris.json`) exists only in an AI working session and "not in this repository" (now fully recovered and committed under `Shed/source/` and `Shed/art/`); and it describes a single shared passphrase (superseded by two named passphrases with per-item attribution). It also predates the to-do list, automatic document sync from Core, and the settings menu added in that same migration. **`Shed/README.md` is the current source of truth** for what the Shed is and how it's built and deployed. This note is kept for historical record of the tool's original build history, not as current documentation — a fact `Shed/README.md` already points back to under its "What's next" section.
+
 ## Document Metadata
 
 **Document Title:** The Garden Shed Office — Overview & Deployment Notes

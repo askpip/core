@@ -4,14 +4,16 @@
 
 **Document Title:** Ask Pip MVP – Bush Rose V1 Architecture  
 **Document Type:** Architecture Document  
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 10 August 2026  
+**Last Updated:** 9 September 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `MVP/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`  
 **Purpose:** To define the bounded first implementation of Ask Pip: assisted-photo dormant-bush-rose pruning that creates an individual plant history and supports one meaningful follow-up.  
-**Related Documents:** `MVP/Stories/Maries_Story.md`; `Working/Drafts/Foundations/AskPIP_Vision_Statement.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`
+**Related Documents:** `MVP/Stories/Maries_Story.md`; `Working/Drafts/Foundations/AskPIP_Vision_Statement.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `Knowledge Curation System/Mother Information Library/Founder Review Dossiers/FRD-BUSHROSE-SCOPE-01.md`
+
+**Revision note (v1.1, 9 September 2026):** §5.1 amended to cite the Founder-approved taxonomic scope for "established bush rose," per `FRD-BUSHROSE-SCOPE-01` (approved 9 September 2026). No other section changed; this is a scope clarification, not a redesign.
 
 ---
 
@@ -92,6 +94,8 @@ Operational pruning and safety guidance shall use Founder-approved horticultural
 ## 5.1 Supported Rose Scope
 
 The journey supports an established bush rose that appears suitable for locally appropriate pruning, is safely accessible and is not evidently outside approved boundaries because of recent planting, severe stress, major damage, significant disease, unsuitable timing or another unsupported condition.
+
+Per `FRD-BUSHROSE-SCOPE-01` (approved 9 September 2026), "bush rose" is a practical profile category for PIP, not a botanical classification: it includes Hybrid Tea and Floribunda roses grown in bush form, and Grandiflora roses grown in bush form provisionally. It excludes shrub roses (including English/Austin-type shrub roses), Old Garden Roses, species roses, climbing and rambling roses, groundcover roses, miniature and miniflora roses, patio roses where classification or management differs materially, standard/half-standard/weeping-standard roses, and any climbing sport of an otherwise included cultivar. This scope is not yet enforced by any Suitability Gate PKR — building a "supported rose type" gate (§5.4) remains open, tracked in `Working/Project_Backlog.md`.
 
 The gardener supplies location, seasonal context, known rose information and photographs. Pip may interpret photographs and retrieve approved comparisons, but the gardener confirms the relevant physical condition before guidance proceeds.
 
