@@ -882,6 +882,7 @@
   // open as a card, never auto-expanded, per the Founder's direction. ----
 
   var DESK_STAGGER_STEP = 26; // px nudge per rank back from the front, both axes
+  var DESK_CARD_WIDTH = 230; // matches .desk-window.card{width:230px} in the stylesheet
 
   function deskWindowFor(stageEl, itemId){
     return (stageEl._deskWindows || []).filter(function(w){ return itemId != null && w.item.id === itemId; })[0] || null;
@@ -922,17 +923,42 @@
 
   function layoutDeskWindows(stageEl){
     var wins = stageEl._deskWindows || [];
+    var stageWidth = stageEl.clientWidth || 1000;
+
+    // Whenever a "closed" (card-state) window shares the desk with an expanded one, the
+    // expanded window -- however large, even maximized -- is pushed left by a reserved strip
+    // along the right edge, wide enough to keep a card's whole width visible. Without this, a
+    // large enough panel simply covers every card behind it and there's no way left to reach
+    // it. Cards themselves keep their normal small corner-hugging stagger, now guaranteed to
+    // sit inside that permanently-free strip rather than under the panel. Skipped below 700px
+    // (the shed's own mobile/desktop breakpoint) -- there's no width to spare there, and an
+    // expanded panel already fills virtually the whole screen anyway.
+    var anyCardOpen = wins.some(function(w){ return w.state === "card"; });
+    var reserveStrip = stageWidth >= 700 && anyCardOpen;
+    var stripWidth = reserveStrip ? Math.min(DESK_CARD_WIDTH + 40, Math.round(stageWidth * 0.28)) : 0;
+
     wins.forEach(function(w, idx){
-      if(w.state === "panel" && w.maximized){
-        // Maximized panels are positioned entirely by the .maximized CSS rule --
-        // clear any inline stagger offset so it doesn't win the cascade.
-        w.el.style.right = "";
-        w.el.style.bottom = "";
+      var rankFromFront = wins.length - 1 - idx;
+      var off = rankFromFront * DESK_STAGGER_STEP;
+
+      if(w.state === "panel"){
+        var rightOffset = reserveStrip ? stripWidth : 16 + off;
+        w.el.style.right = rightOffset + "px";
+        w.el.style.bottom = w.maximized ? "4%" : (16 + off) + "px";
+        w.el.style.left = "";
+        // Width is fully JS-driven (overriding the .panel/.maximized CSS width) so it can
+        // shrink to fit whatever's left of the stage once the strip is reserved, rather than
+        // the CSS-fixed width pushing the panel's own left edge off-stage.
+        var maxWidth = w.maximized ? stageWidth * 0.96 : Math.min(680, stageWidth * 0.86);
+        var available = stageWidth - rightOffset - 16; // 16px minimum left margin
+        w.el.style.width = Math.max(280, Math.min(maxWidth, available)) + "px";
       } else {
-        var rankFromFront = wins.length - 1 - idx;
-        var off = rankFromFront * DESK_STAGGER_STEP;
+        // Cards: unchanged, always hugging the true bottom-right corner with the normal
+        // stagger -- and always clearing any inline width a previous panel state left behind.
         w.el.style.right = (16 + off) + "px";
         w.el.style.bottom = (16 + off) + "px";
+        w.el.style.left = "";
+        w.el.style.width = "";
       }
       w.el.style.zIndex = String(100 + idx);
     });
@@ -1082,6 +1108,7 @@
         e.stopPropagation();
         win.state = "panel";
         renderDeskWindow(stageEl, win);
+        layoutDeskWindows(stageEl);
         bringDeskWindowToFront(stageEl, win);
       });
       win.el.appendChild(expandBtn);

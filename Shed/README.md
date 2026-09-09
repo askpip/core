@@ -414,6 +414,35 @@ easier to read side by side.
   several expanded docs/notices doesn't require minimizing one first.
   Minimizing a maximized panel resets `maximized` back to `false`, so a
   re-expand always starts at the normal windowed size.
+- **Reserved "peek strip" so a card is never fully hidden behind an
+  expanded panel** (fixed 2026-09-09, right after the maximize/cycle
+  buttons shipped): expanding — or worse, maximizing — a document used
+  to genuinely make any other, still-minimized (card-state) window
+  unreachable. A card sits only 16–68px from the desk's true bottom-right
+  corner, and even the *non*-maximized panel size (`min(680px, 86%)`)
+  already extends far enough to cover that whole area, so the card ended
+  up entirely behind it with no visible sliver left to click — confirmed
+  with a headless-browser reproduction of the exact reported case (a
+  maximized document with its notice still closed) before this fix, and
+  again after, in both desktop and mobile widths. `layoutDeskWindows`
+  now checks whether any card-state window is currently on the desk; if
+  so, it reserves a strip along the right edge (`min(270px, 28%)` of the
+  stage) and pushes every *expanded* window's right edge — panel or
+  maximized alike — left of it, shrinking its width to fit rather than
+  letting the CSS-fixed width push it off-stage. Cards keep their normal
+  small stagger, now guaranteed to land inside that permanently-free
+  strip instead of underneath the panel — exactly the "closed doc keeps
+  a visible corner out the side, click it to bring it forward in its
+  closed form" behaviour the Founder asked for. The reservation only
+  engages when a card actually exists (a lone expanded document still
+  gets the full width) and is skipped entirely below the shed's own
+  700px mobile/desktop breakpoint, where there isn't width to spare and
+  a maximized panel already fills virtually the whole screen regardless
+  — there, a card still shows on top via its higher z-index, just
+  without a dedicated non-overlapping strip. This also surfaced (and
+  fixed) a second, pre-existing gap: the plain card→panel "Expand"
+  button never called `layoutDeskWindows` at all, so a freshly-expanded
+  window wouldn't have picked up the new reservation regardless.
 
 ## List views show title + Send to Desktop only (changed 2026-09-09)
 
