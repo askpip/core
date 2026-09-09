@@ -1245,6 +1245,43 @@ fix ensures any future sync (or a currently-correct document that later
 adopts one of these templates) gets the right title the first time. See
 CHANGELOG.
 
+## Same-series revisions collapse into one expandable row in the File Cabinet (2026-09-09)
+
+Follow-up to the title fix above, asked directly once the titles were
+readable: the "Recently Planted Bush Roses" dossier has four Founder-
+approved revisions (`FRD-BUSHROSE-RECENTPLANT-01` through `-04`) — each
+one a real, separate, never-editable document per FRDS §5.3 (a governed
+dossier can't be changed after submission, so a later round of research
+becomes a whole new document rather than an edit) — and with the File
+Cabinet mirroring Core's real folders, all four show up twice each
+(`Working/Founder Review/` and the archived KCS copy), eight rows in one
+folder for what's really one evolving answer. Asked how to present this
+before picking an approach, rather than guessing; the Founder chose
+grouping the series into one expandable row.
+
+**Detection is deliberately conservative and title-based, not filename-
+based.** A document's title ending in the literal suffix `" (Revision N)"`
+(which these four dossiers already carry, self-declared, in their own
+first heading) marks it as part of a series; `groupIntoSeries` groups
+same-base-title items together only when at least one carries that
+marker — two unrelated documents that merely happen to share an identical
+title (checked directly: two Source PKRs both named the same thing exist
+elsewhere in the cabinet) are correctly left ungrouped, and nothing that
+merely ends in a number (the many individually-numbered Source/Definition
+PKRs) is at risk of being swept into a false "series." This is a pure
+list-*rendering* change in `buildItemListEl` — recomputed fresh every
+render from the same items array, no new field, no database or Core
+change of any kind, and every revision is still fully reachable, each
+with its own working "Desktop" button, once the group is expanded.
+
+Verified via Playwright against a freshly built copy of the real page,
+with a deliberate false-positive case included (two same-titled, unmarked
+items) alongside the real four-part series and an unrelated single
+document: the series collapsed into one row labelled "4 revisions"; the
+false-positive pair and the standalone document both rendered normally,
+ungrouped; expanding the series showed the four members in the correct
+order, labelled "Original," "Revision 2," "Revision 3," "Revision 4."
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI

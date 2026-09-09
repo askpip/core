@@ -326,6 +326,38 @@
     color:var(--wood-dark); background:#efe9dc; border:1px solid var(--pip-border);
     border-radius:6px; padding:3px 7px; margin-right:4px; opacity:.85;
   }
+  /* A same-series revision group (9 September 2026), collapsed into one row in the item
+     list -- see groupIntoSeries/buildItemListEl. Purely a display grouping: no data changes,
+     every revision is still its own full row (with its own Desktop button) once expanded. */
+  .item-series{
+    border:1px solid var(--pip-border); border-radius:8px; background:var(--card);
+    overflow:hidden;
+  }
+  .item-series-header{
+    display:flex; align-items:center; gap:10px; width:100%; box-sizing:border-box;
+    padding:10px 12px; font:inherit; background:none; border:none; cursor:pointer;
+    text-align:left;
+  }
+  .item-series-header:hover{ background:#fff; }
+  .item-series-title{
+    flex:1; min-width:0; font-family:'Kalam',cursive; font-size:1rem; color:var(--wood-dark);
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  .item-series-count{
+    flex:none; font-family:'Nunito',sans-serif; font-weight:700; font-size:.68rem;
+    color:var(--wood-dark); background:#efe9dc; border:1px solid var(--pip-border);
+    border-radius:6px; padding:3px 7px; opacity:.85;
+  }
+  .item-series-chevron{
+    flex:none; font-size:.75rem; color:var(--wood-dark); opacity:.6;
+    transition:transform .15s ease;
+  }
+  .item-series.open .item-series-chevron{ transform:rotate(90deg); }
+  .item-series-members{
+    display:none; flex-direction:column; gap:6px; padding:0 10px 10px; box-sizing:border-box;
+  }
+  .item-series.open .item-series-members{ display:flex; }
+  .item-series-members .item-row{ margin-left:16px; background:#fffef8; }
   .doc-page .pending-notice-link{
     display:inline-flex; align-items:center; gap:6px; font-family:'Nunito',sans-serif; font-weight:700;
     font-size:.82rem; border:1.5px solid var(--terracotta); background:#fff; color:var(--terracotta);
@@ -1725,6 +1757,101 @@
     // notices (shed_add_notice always inserts location='board'), so they never read this.
     var boardTodoStatus = null;
 
+    // A document whose title ends in the literal suffix " (Revision N)" is one entry in a
+    // governed revision series (Founder Review Dossiers that can never be edited in place
+    // once submitted -- FRDS §5.3 -- so a later round of research becomes a whole new
+    // document instead). Matches title text only, never source_path/filename -- deliberately
+    // conservative, since plenty of unrelated documents in the cabinet (PKRs, ARCs) end in a
+    // number without being revisions of anything. Returns the shared base title with that
+    // suffix stripped, or null if `title` doesn't carry the marker.
+    var REVISION_SUFFIX_RE = /^(.*) \(Revision (\d+)\)$/;
+    function seriesRevisionMatch(title){
+      return REVISION_SUFFIX_RE.exec(title);
+    }
+
+    // Groups `items` into an ordered list of entries -- {type:"item", item} for anything
+    // standalone, {type:"series", baseTitle, members} for 2+ items that share a base title
+    // where at least one carries the "(Revision N)" marker (see seriesRevisionMatch). A
+    // group of items that merely happen to share a title, with none marked as a revision,
+    // is deliberately left ungrouped -- the marker is the actual signal, not the collision.
+    function groupIntoSeries(items){
+      var byBase = {};
+      items.forEach(function(item){
+        var m = seriesRevisionMatch(item.title);
+        var base = m ? m[1] : item.title;
+        if(!byBase[base]) byBase[base] = [];
+        byBase[base].push({ item:item, revision: m ? parseInt(m[2], 10) : 1, marked: !!m });
+      });
+
+      var entries = [];
+      var seenBase = {};
+      items.forEach(function(item){
+        var m = seriesRevisionMatch(item.title);
+        var base = m ? m[1] : item.title;
+        if(seenBase[base]) return;
+        seenBase[base] = true;
+
+        var members = byBase[base];
+        var isSeries = members.length > 1 && members.some(function(x){ return x.marked; });
+        if(isSeries){
+          members.sort(function(a, b){ return a.revision - b.revision; });
+          entries.push({ type:"series", baseTitle: base, members: members.map(function(x){ return x.item; }) });
+        } else {
+          members.forEach(function(x){ entries.push({ type:"item", item: x.item }); });
+        }
+      });
+      return entries;
+    }
+
+    // Builds one normal item row (title, pending/status chip, Desktop button). `labelText`
+    // overrides the row's displayed title without changing what's sent to the desk --
+    // used for a series member row, where the base title is already shown once on the
+    // group's header and repeating it on every revision would just be noise.
+    function buildItemRow(item, labelText){
+      var row = document.createElement("div");
+      row.className = "item-row";
+
+      var titleEl = document.createElement("span");
+      titleEl.className = "item-row-title";
+      titleEl.textContent = labelText != null ? labelText : item.title;
+      row.appendChild(titleEl);
+
+      // A small flag, not a preview -- consistent with keeping this list to title + Send
+      // to Desktop only, but worth surfacing since otherwise the only way to know a
+      // document has a notice awaiting a decision is to find that notice first.
+      if(!item.requiresApproval && item.id != null && pendingNoticesFor(item.id).length){
+        var pendingBadge = document.createElement("span");
+        pendingBadge.className = "pending-notice-badge";
+        pendingBadge.textContent = "⚑ Pending";
+        row.appendChild(pendingBadge);
+      }
+
+      // A notice's shared status (same value as its linked to-do -- see
+      // renderDeskPanelBody's Status control), shown as a small read-only chip so it's
+      // visible right in the Notice Board list, not just once the notice is opened. Still
+      // just a glance, not a preview: no dropdown here, consistent with this list staying
+      // click-to-open for anything editable.
+      if(item.requiresApproval && item.todoId != null && boardTodoStatus && boardTodoStatus[item.todoId]){
+        var statusChip = document.createElement("span");
+        statusChip.className = "item-row-status";
+        var chipStatus = boardTodoStatus[item.todoId].status;
+        statusChip.textContent = STATUS_LABELS[chipStatus] || chipStatus;
+        row.appendChild(statusChip);
+      }
+
+      var sendBtn = document.createElement("button");
+      sendBtn.type = "button";
+      sendBtn.className = "btn send-row";
+      sendBtn.textContent = "Desktop";
+      sendBtn.addEventListener("click", function(){
+        addToDesk(stageEl, item);
+        close();
+      });
+      row.appendChild(sendBtn);
+
+      return row;
+    }
+
     // getItems is a function (not a plain array) so the list can be recomputed fresh
     // after content changes. Builds a ".item-list" element for `items`, used everywhere an
     // item list appears (a flat cabinet folder, a cabinet folder that also has items filed
@@ -1732,56 +1859,64 @@
     //
     // Deliberately minimal, per the Founder's direction (9 September 2026): a list appearing
     // in the Notice Board, File Cabinet or Bookshelf shows only an item's title and a "Send
-    // to Desktop" button -- no inline preview, no expand-in-place, no Edit/Delete here.
-    // Viewing, editing and deleting all happen only once an item is open on the desk (see
-    // renderDeskPanelBody) -- that's the one and only place an item can be edited. `refresh`
-    // is accepted for call-site compatibility but no longer used internally.
+    // to Desktop" button -- no inline preview, no edit-in-place here. Viewing, editing and
+    // deleting all happen only once an item is open on the desk (see renderDeskPanelBody) --
+    // that's the one and only place an item can be edited. `refresh` is accepted for
+    // call-site compatibility but no longer used internally.
+    //
+    // One deliberate, purely cosmetic exception to "one row per item" (9 September 2026,
+    // reported directly: a governed revision series read as clutter, four rows -- eight,
+    // counting its mirrored archive copy -- for what's really one evolving answer): same-
+    // series items (see groupIntoSeries) collapse into a single expandable row instead of
+    // one row each. Nothing about the underlying items changes -- this is List-rendering
+    // only, recomputed fresh every time the list renders, and every revision is still just
+    // as directly reachable once expanded.
     function buildItemListEl(items, refresh){
       var list = document.createElement("div");
       list.className = "item-list";
-      items.forEach(function(item){
-        var row = document.createElement("div");
-        row.className = "item-row";
+      groupIntoSeries(items).forEach(function(entry){
+        if(entry.type === "item"){
+          list.appendChild(buildItemRow(entry.item));
+          return;
+        }
+
+        var group = document.createElement("div");
+        group.className = "item-series";
+
+        var header = document.createElement("button");
+        header.type = "button";
+        header.className = "item-series-header";
 
         var titleEl = document.createElement("span");
-        titleEl.className = "item-row-title";
-        titleEl.textContent = item.title;
-        row.appendChild(titleEl);
+        titleEl.className = "item-series-title";
+        titleEl.textContent = entry.baseTitle;
+        header.appendChild(titleEl);
 
-        // A small flag, not a preview -- consistent with keeping this list to title + Send
-        // to Desktop only, but worth surfacing since otherwise the only way to know a
-        // document has a notice awaiting a decision is to find that notice first.
-        if(!item.requiresApproval && item.id != null && pendingNoticesFor(item.id).length){
-          var pendingBadge = document.createElement("span");
-          pendingBadge.className = "pending-notice-badge";
-          pendingBadge.textContent = "⚑ Pending";
-          row.appendChild(pendingBadge);
-        }
+        var countBadge = document.createElement("span");
+        countBadge.className = "item-series-count";
+        countBadge.textContent = entry.members.length + " revisions";
+        header.appendChild(countBadge);
 
-        // A notice's shared status (same value as its linked to-do -- see
-        // renderDeskPanelBody's Status control), shown as a small read-only chip so it's
-        // visible right in the Notice Board list, not just once the notice is opened. Still
-        // just a glance, not a preview: no dropdown here, consistent with this list staying
-        // click-to-open for anything editable.
-        if(item.requiresApproval && item.todoId != null && boardTodoStatus && boardTodoStatus[item.todoId]){
-          var statusChip = document.createElement("span");
-          statusChip.className = "item-row-status";
-          var chipStatus = boardTodoStatus[item.todoId].status;
-          statusChip.textContent = STATUS_LABELS[chipStatus] || chipStatus;
-          row.appendChild(statusChip);
-        }
+        var chevron = document.createElement("span");
+        chevron.className = "item-series-chevron";
+        chevron.textContent = "▸";
+        header.appendChild(chevron);
 
-        var sendBtn = document.createElement("button");
-        sendBtn.type = "button";
-        sendBtn.className = "btn send-row";
-        sendBtn.textContent = "Desktop";
-        sendBtn.addEventListener("click", function(){
-          addToDesk(stageEl, item);
-          close();
+        var membersEl = document.createElement("div");
+        membersEl.className = "item-series-members";
+        entry.members.forEach(function(item){
+          var m = seriesRevisionMatch(item.title);
+          var label = m ? ("Revision " + m[2]) : "Original";
+          membersEl.appendChild(buildItemRow(item, label));
         });
-        row.appendChild(sendBtn);
 
-        list.appendChild(row);
+        header.addEventListener("click", function(){
+          group.classList.toggle("open");
+        });
+
+        group.appendChild(header);
+        group.appendChild(membersEl);
+        list.appendChild(group);
       });
       return list;
     }
