@@ -9,7 +9,11 @@
 **Owner:** The Founders  
 **Last Updated:** 2 August 2026  
 **Purpose:** To define AskPIP’s enduring vision and guide the organisation’s future decisions.  
-**Related Documents:** `Foundations/Maries_Story.md`; Founding Principles; Gardener Experience Charter
+**Related Documents:** `MVP/Stories/Maries_Story.md`; `Foundations/Founding_Principles.md`; `Foundations/Gardener_Experience_Charter.md`; `Foundations/Pip_Character_Profile.md`
+
+**Migration note (9 September 2026, corrected 9 September 2026):** Founding Principles and the Gardener Experience Charter have now been migrated into Core from the original "PIP Founders Workspace" (Google Drive), fulfilling this Vision Statement's references to them for the first time. A fourth foundational document, the Pip Character Profile, was migrated alongside them; all three remain Draft — Founder Review, not yet formally approved within Core.
+
+Marie's Story is a separate case: this Vision Statement's citation is corrected above to point at `MVP/Stories/Maries_Story.md` (Version 1.1, **Approved**, 10 August 2026), which was already the current, Founder-approved version in Core a full month before this migration pass began. The original pre-MVP draft was also migrated, as `Foundations/Maries_Story.md`, but only as a superseded historical copy — `MVP/Stories/Maries_Story.md` v1.1 explicitly supersedes it. An earlier version of this note incorrectly implied the Foundations copy was the live reference; it was not.
 
 ---
 
