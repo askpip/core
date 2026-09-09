@@ -83,9 +83,38 @@ async function walkMarkdownFiles(dir) {
   return files;
 }
 
+// A handful of document templates in this repo reuse the exact same first heading across
+// every instance of that document type, so "the first # heading" isn't always a real title:
+// the Founder Review Dossier Standard (FRDS §5.3) requires a dossier's ORIGINAL first heading
+// to be preserved verbatim even once it's approved, and the older FRD template always used
+// this literal status banner as that heading, with the document's actual subject living only
+// in its metadata table instead; every "Approved Research Compilation" (ARC) opens with this
+// same fixed template title for the same reason. When the first heading is one of these known
+// generic ones, fall back to the metadata table's own title field before giving up and using
+// the filename. (Caught 9 September 2026, reported directly: three Founder Review Dossiers and
+// all three ARCs were showing this boilerplate text as their title in the shed's File Cabinet
+// instead of their real subject.)
+const GENERIC_HEADINGS = new Set([
+  "DRAFT — NOT APPROVED — FOR FOUNDER REVIEW ONLY",
+  "PIP Mother Information Library — Approved Research Compilation",
+]);
+const METADATA_TITLE_FIELDS = ["Document Title", "ARC Title"];
+
 function titleFromMarkdown(text, fallbackName) {
   const headingMatch = text.match(/^#\s+(.+)$/m);
-  if (headingMatch) return headingMatch[1].trim();
+  let heading = headingMatch ? headingMatch[1].trim() : null;
+
+  if (heading && GENERIC_HEADINGS.has(heading)) {
+    for (const field of METADATA_TITLE_FIELDS) {
+      const tableMatch = text.match(
+        new RegExp(`^\\|\\s*${field}\\s*\\|\\s*(.+?)\\s*\\|\\s*$`, "m")
+      );
+      if (tableMatch) return tableMatch[1].replace(/\*\*/g, "").trim();
+    }
+    heading = null;
+  }
+
+  if (heading) return heading;
   return fallbackName.replace(/\.md$/i, "").replace(/[-_]+/g, " ").trim();
 }
 

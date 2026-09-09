@@ -1211,6 +1211,40 @@ name; changing it calls `shed_set_todo_status` with the correct `todo_id`
 and new status; and a notice with no linked to-do shows "No linked to-do
 yet." cleanly instead of erroring.
 
+## File Cabinet titles fixed for six documents showing boilerplate text instead of their real title (2026-09-09)
+
+Reported directly, from a screenshot of the File Cabinet's "Founder Review
+Dossiers" folder: three rows all read the same generic
+"DRAFT — NOT APPROVED — FOR FOUNDER REVIEW ONLY" instead of their actual
+titles. Root cause was in `shed-doc-sync.mjs`'s `titleFromMarkdown()`,
+which simply takes a document's first `# ` heading as its title — correct
+for most of the repo, but wrong for two specific document templates that
+repeat the exact same first heading across every instance of that type:
+(1) `FRD-BUSHROSE-DEADWOOD-01.md`, `-DORMANCY-01.md` and `-DORMANCY-02.md`
+(an older Founder Review Dossier template) preserve their original
+submission's first heading verbatim even once approved, per FRDS §5.3 —
+and for that template, the first heading was always this status banner,
+with the document's real subject living only in a `| Document Title | ... |`
+metadata-table row instead. (2) All three ARCs
+(`ARC-BUSHROSE-DEADWOOD-01.md`, `-DORMANCY-01.md`,
+`-RECENTPLANT-01.md`) open with the same fixed template heading,
+"PIP Mother Information Library — Approved Research Compilation," with
+their real subject in an `| ARC Title | ... |` row instead — so all three
+ARCs had this exact same problem too, one folder over, not just the
+three originally reported. `titleFromMarkdown()` now checks the matched
+heading against these two known generic strings and, only when it
+matches one, falls back to the metadata table's title field before
+finally falling back to the filename (unaffected documents — everything
+else in the repo — behave exactly as before). Verified the new logic
+against all seven real affected files' actual content before shipping,
+confirming each now extracts its correct, distinct title. The nine
+already-synced rows (six FRD copies across both `Working/Founder Review/`
+and the archived KCS location, three ARCs) were corrected directly in the
+database immediately rather than waiting for the next sync run; the code
+fix ensures any future sync (or a currently-correct document that later
+adopts one of these templates) gets the right title the first time. See
+CHANGELOG.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI
