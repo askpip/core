@@ -1,10 +1,12 @@
 name: Sync Garden Shed documents
 
-# Keeps the shed's File Cabinet copies of Foundations/, "Knowledge Curation System/", and
-# Standards/ current with the real documents in this repo. See
-# Shed/github/scripts/shed-doc-sync.mjs (this workflow's script lives there too, since
-# GitHub only reads workflow YAML from .github/workflows/ but the rest of the shed's
-# source lives under Shed/).
+# Keeps the shed's File Cabinet copies of Foundations/, "Knowledge Curation System/", MVP/,
+# Standards/, Working/, AI/, and Graphics/ current with the real documents in this repo,
+# nested subfolder structure preserved. See Shed/github/scripts/shed-doc-sync.mjs (this
+# workflow's script lives there too, since GitHub only reads workflow YAML from
+# .github/workflows/ but the rest of the shed's source lives under Shed/). App/ (application
+# source code) and Spike/ (AI experiment scripts) are deliberately excluded -- see the
+# script's own header comment for the reasoning.
 #
 # Requires a SUPABASE_SERVICE_ROLE_KEY repo secret (Settings -> Secrets and variables ->
 # Actions) -- add it there directly; it should never be committed or handed to an AI
@@ -17,7 +19,11 @@ on:
     paths:
       - "Foundations/**"
       - "Knowledge Curation System/**"
+      - "MVP/**"
       - "Standards/**"
+      - "Working/**"
+      - "AI/**"
+      - "Graphics/**"
       - "Shed/github/scripts/shed-doc-sync.mjs"
       - ".github/workflows/shed-doc-sync.yml"
   workflow_dispatch: {}

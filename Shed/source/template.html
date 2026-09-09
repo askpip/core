@@ -106,20 +106,53 @@
   }
   .hotspot:hover .tag{ opacity:1; }
 
-  /* Desk note card (compact marker for whatever was last sent to the desk) */
-  .desk-note{
-    position:absolute; right:4%; left:56%; bottom:3%; background:var(--cream);
-    border-radius:6px; box-shadow:2px 6px 14px rgba(0,0,0,.35); padding:10px 12px;
-    font-family:'Kalam',cursive; font-size:.78rem; max-height:30%; overflow:auto;
-    display:none; z-index:4;
+  /* The Desk: any number of items (documents/notices/books) can be open at once, each a
+     .desk-window in either "card" (minimized) or "panel" (expanded) state, sharing one
+     staggered stack so every open window's title stays reachable. Newest-brought-to-front
+     is last in stageEl._deskWindows and sits at the bottom-right anchor; each window further
+     back in the stack is nudged up and to the left so its titlebar still peeks out above the
+     one in front of it -- click any titlebar (or window) to bring it back to the front. */
+  .desk-stack{ position:absolute; inset:0; z-index:15; pointer-events:none; overflow:hidden; }
+  .desk-window{
+    position:absolute; pointer-events:auto; background:var(--cream); border-radius:10px;
+    box-shadow:2px 8px 20px rgba(0,0,0,.4); font-family:'Nunito',sans-serif;
+    display:flex; flex-direction:column; overflow:hidden;
   }
-  .desk-note.show{ display:block; }
-  .desk-note h4{ margin:0 0 6px; font-size:1rem; }
-  .desk-note .close-note{ float:right; background:none; border:none; font-size:1rem; cursor:pointer; color:var(--wood-dark); }
-  .desk-note .note-actions{ margin-top:8px; }
-  .desk-note .expand-btn{
+  .desk-window .dw-titlebar{
+    display:flex; align-items:center; justify-content:space-between; gap:8px; flex:none;
+    background:var(--wood); color:var(--cream); padding:7px 10px; cursor:pointer;
+    font-family:'Kalam',cursive; font-size:.92rem;
+  }
+  .desk-window .dw-titlebar b{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0; }
+  .desk-window .dw-titlebtn{
+    flex:none; background:rgba(255,255,255,.18); border:none; color:var(--cream);
+    width:22px; height:22px; border-radius:50%; cursor:pointer; font-size:.8rem; line-height:1;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .desk-window .dw-titlebtn:hover{ background:rgba(255,255,255,.32); }
+  .desk-window.card{ width:230px; }
+  .desk-window.card .dw-body{ padding:8px 10px 0; font-size:.8rem; max-height:64px; overflow:hidden; }
+  .desk-window.card .dw-expand{
+    margin:8px 10px 10px; align-self:flex-start;
     font-family:'Nunito',sans-serif; font-weight:700; font-size:.72rem; border:none;
     border-radius:6px; padding:5px 9px; cursor:pointer; background:var(--moss); color:#fff;
+  }
+  .desk-window.panel{ width:min(680px, 86%); height:min(560px, 80%); }
+  .desk-window.panel .dw-body{ flex:1; overflow:auto; padding:14px 16px 16px; }
+  .desk-window .doc-date{ display:block; font-size:.75rem; color:var(--wood); opacity:.8; margin:2px 0 10px; }
+  .desk-window .linked-doc-btn{
+    display:inline-flex; align-items:center; gap:6px; font-family:'Nunito',sans-serif; font-weight:700;
+    font-size:.82rem; border:1.5px solid var(--pip-border); background:#fff; color:var(--wood-dark);
+    border-radius:8px; padding:7px 11px; cursor:pointer; margin:2px 0 14px;
+  }
+  .desk-window .approval-block{ border-top:1px dashed var(--pip-border); margin-top:14px; padding-top:12px; }
+  .desk-window .approval-check{ display:flex; align-items:center; gap:8px; font-family:'Kalam',cursive; font-size:1rem; margin-bottom:8px; }
+  .desk-window .approval-check input{ width:19px; height:19px; accent-color:var(--moss); }
+  .desk-window .approval-meta{ font-size:.72rem; color:var(--wood-dark); opacity:.75; margin:-4px 0 10px 27px; }
+  .desk-window .notes-label{ font-family:'Nunito',sans-serif; font-weight:700; font-size:.78rem; color:var(--wood-dark); display:block; margin-bottom:4px; }
+  .desk-window .notes-textarea{
+    width:100%; min-height:90px; font-family:'Kalam',cursive; font-size:.95rem; padding:8px 10px;
+    border:1px solid var(--pip-border); border-radius:8px; background:#fffef8; box-sizing:border-box;
   }
 
   /* Overlays */
@@ -526,7 +559,12 @@
     (rows || []).forEach(function(row){
       var loc = row.location;
       if(!CONTENT[loc]) return;
-      var item = { id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: loc, updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by };
+      var item = {
+        id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: loc,
+        updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by,
+        requiresApproval: row.requires_approval, linkedItemId: row.linked_item_id,
+        approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes
+      };
       if(row.deleted_at){
         CONTENT.bin.items.push(item);
       } else {
@@ -762,80 +800,192 @@
       }, 1100);
     }, 10000);
 
-    var note = document.createElement("div");
-    note.className = "desk-note";
-    note.innerHTML = '<button class="close-note" type="button">&times;</button><h4></h4><div class="body"></div>' +
-      '<div class="note-actions"><button class="expand-btn" type="button">Expand</button></div>';
-    note.querySelector(".close-note").addEventListener("click", function(){ note.classList.remove("show"); });
-    note.querySelector(".expand-btn").addEventListener("click", function(){
-      var s = stageEl._deskState;
-      if(s){ openDeskDoc(stageEl, s); }
-    });
-    stageEl.appendChild(note);
-    stageEl._deskNote = note;
+    var deskStack = document.createElement("div");
+    deskStack.className = "desk-stack";
+    stageEl.appendChild(deskStack);
+    stageEl._deskStack = deskStack;
+    stageEl._deskWindows = []; // ordered back -> front; last entry is always the frontmost window
   });
 
-  // item is {title, body} for a plain status toast (e.g. "Pinned: ..."), or a full item
-  // ({id, title, body, source, loc, ...}) when a real notice/document was sent to the desk.
-  function showOnDesk(stageEl, item){
-    stageEl._deskState = item;
-    var note = stageEl._deskNote;
-    note.querySelector("h4").textContent = item.title;
-    note.querySelector(".body").textContent = item.body.length > 90 ? item.body.slice(0,90) + "..." : item.body;
-    note.classList.add("show");
+  // ---- The Desk: a stack of windows (documents/notices/books), each a "card" (minimized)
+  // or a "panel" (expanded). Any number can be open at once; every open window -- card or
+  // panel alike -- shares one staggered back-to-front stack, so a notice and the document
+  // it links to can both stay open and be switched between with a click. New windows always
+  // open as a card, never auto-expanded, per the Founder's direction. ----
+
+  var DESK_STAGGER_STEP = 26; // px nudge per rank back from the front, both axes
+
+  function deskWindowFor(stageEl, itemId){
+    return (stageEl._deskWindows || []).filter(function(w){ return itemId != null && w.item.id === itemId; })[0] || null;
   }
 
-  // Full-page viewable document overlay, opened by "Send to desk" or by expanding the desk note.
-  // When the item is one the Founder created (source === "user"), Edit/Delete are offered here too.
-  function openDeskDoc(stageEl, item){
-    var editable = item.source === "user" && item.id;
-    var overlay = document.createElement("div");
-    overlay.className = "overlay";
-    overlay.innerHTML =
-      '<div class="bg" style="background-image:url(__ASSET_PAPER__)"></div>' +
-      '<div class="scrim"></div>' +
-      '<div class="panel doc-panel">' +
-        '<div class="panel-head"><h3>On the Desk</h3><button class="closebtn" type="button">&times;</button></div>' +
-        (editable ? '<div class="actions"><button class="btn ghost edit-item">Edit</button><button class="btn danger delete-item">Delete</button></div>' : '') +
-        '<div class="doc-page view-mode"><h4></h4><span class="doc-date"></span><div class="body"></div></div>' +
-        (editable ?
-          '<div class="edit-mode" style="display:none;">' +
-            '<input type="text" class="edit-title">' +
-            '<textarea class="edit-body" style="min-height:220px;"></textarea>' +
-            '<div class="actions"><button class="btn save-item">Save</button><button class="btn ghost cancel-edit">Cancel</button></div>' +
-          '</div>' : '') +
-      '</div>';
-    overlay.querySelector(".doc-page h4").textContent = item.title;
-    overlay.querySelector(".doc-page .body").textContent = item.body;
-    overlay.querySelector(".doc-page .doc-date").textContent = item.source === "user" ? fmtSavedLine(item) : "";
-    stageEl.appendChild(overlay);
-    requestAnimationFrame(function(){ overlay.classList.add("open"); });
-    function close(){
-      overlay.classList.remove("open");
-      setTimeout(function(){ overlay.remove(); }, 250);
+  function findItemById(id){
+    var locs = ["board", "cabinet", "bookshelf", "rug", "bin"];
+    for(var i = 0; i < locs.length; i++){
+      var arr = CONTENT[locs[i]] && CONTENT[locs[i]].items;
+      if(!arr) continue;
+      for(var j = 0; j < arr.length; j++){
+        if(arr[j].id === id) return arr[j];
+      }
     }
-    overlay.querySelector(".closebtn").addEventListener("click", close);
+    return null;
+  }
+
+  function layoutDeskWindows(stageEl){
+    var wins = stageEl._deskWindows || [];
+    wins.forEach(function(w, idx){
+      var rankFromFront = wins.length - 1 - idx;
+      var off = rankFromFront * DESK_STAGGER_STEP;
+      w.el.style.right = (16 + off) + "px";
+      w.el.style.bottom = (16 + off) + "px";
+      w.el.style.zIndex = String(100 + idx);
+    });
+  }
+
+  function bringDeskWindowToFront(stageEl, win){
+    var wins = stageEl._deskWindows;
+    var idx = wins.indexOf(win);
+    if(idx === -1 || idx === wins.length - 1) return;
+    wins.splice(idx, 1);
+    wins.push(win);
+    layoutDeskWindows(stageEl);
+  }
+
+  // Removes a window from the desk entirely (only reachable from a card's "x" -- a panel's
+  // top-right control minimizes instead, see renderDeskWindow). Nothing is deleted from
+  // Supabase here: being "on the desk" is purely a client-side view, so closing a window
+  // just stops showing it -- the item stays exactly where it already lives (cabinet,
+  // bookshelf, board, ...).
+  function closeDeskWindow(stageEl, win){
+    var wins = stageEl._deskWindows;
+    var idx = wins.indexOf(win);
+    if(idx > -1) wins.splice(idx, 1);
+    win.el.remove();
+    layoutDeskWindows(stageEl);
+  }
+
+  // Sends `item` to the desk: opens a new minimized card, or -- if that item is already
+  // open -- brings its existing window to the front instead of opening a duplicate. This is
+  // the one entry point every "open on the desk" action goes through: a cabinet/bookshelf/
+  // board item's "Send to desk" button, a freshly created notice or document, and a notice's
+  // linked-document button all call this.
+  function addToDesk(stageEl, item){
+    var existing = item.id != null ? deskWindowFor(stageEl, item.id) : null;
+    if(existing){
+      bringDeskWindowToFront(stageEl, existing);
+      return existing;
+    }
+    var win = { item: item, state: "card", el: document.createElement("div") };
+    stageEl._deskStack.appendChild(win.el);
+    stageEl._deskWindows.push(win);
+    renderDeskWindow(stageEl, win);
+    layoutDeskWindows(stageEl);
+    return win;
+  }
+
+  // Renders (or re-renders) one desk window's DOM for its current state. Called on creation
+  // and again on every card<->panel transition and every content refresh.
+  function renderDeskWindow(stageEl, win){
+    var item = win.item;
+    win.el.className = "desk-window " + win.state;
+    win.el.innerHTML = "";
+    win.el.addEventListener("mousedown", function(){ bringDeskWindowToFront(stageEl, win); });
+
+    var titlebar = document.createElement("div");
+    titlebar.className = "dw-titlebar";
+    var titleEl = document.createElement("b");
+    titleEl.textContent = item.title;
+    titlebar.appendChild(titleEl);
+
+    var titlebtn = document.createElement("button");
+    titlebtn.type = "button";
+    titlebtn.className = "dw-titlebtn";
+    if(win.state === "card"){
+      // Minimized: the x really does remove the window from the desk.
+      titlebtn.innerHTML = "&times;";
+      titlebtn.setAttribute("aria-label", "Close");
+      titlebtn.addEventListener("click", function(e){
+        e.stopPropagation();
+        closeDeskWindow(stageEl, win);
+      });
+    } else {
+      // Expanded: a down-arrow, because this only minimizes the window back onto the desk --
+      // it does not close it. Closing only ever happens from the minimized card's x.
+      titlebtn.innerHTML = "&#8595;";
+      titlebtn.setAttribute("aria-label", "Minimize");
+      titlebtn.addEventListener("click", function(e){
+        e.stopPropagation();
+        win.state = "card";
+        renderDeskWindow(stageEl, win);
+        bringDeskWindowToFront(stageEl, win);
+      });
+    }
+    titlebar.appendChild(titlebtn);
+    win.el.appendChild(titlebar);
+
+    var body = document.createElement("div");
+    body.className = "dw-body";
+    win.el.appendChild(body);
+
+    if(win.state === "card"){
+      body.textContent = item.body.length > 90 ? item.body.slice(0, 90) + "..." : item.body;
+      var expandBtn = document.createElement("button");
+      expandBtn.type = "button";
+      expandBtn.className = "dw-expand";
+      expandBtn.textContent = "Expand";
+      expandBtn.addEventListener("click", function(e){
+        e.stopPropagation();
+        win.state = "panel";
+        renderDeskWindow(stageEl, win);
+        bringDeskWindowToFront(stageEl, win);
+      });
+      win.el.appendChild(expandBtn);
+    } else {
+      renderDeskPanelBody(stageEl, win, body);
+    }
+  }
+
+  // Populates an expanded window's body: the item's own view/edit UI (same Edit/Delete/Save
+  // pattern the old single desk overlay had), plus -- only when the item is a notice
+  // (requiresApproval) -- a button linking to the document it's requesting approval for, an
+  // approval checkbox, and a notes area, each saved independently via shed_set_notice_approval.
+  function renderDeskPanelBody(stageEl, win, body){
+    var item = win.item;
+    var editable = item.source === "user" && item.id;
+
+    body.innerHTML =
+      (editable ? '<div class="actions"><button class="btn ghost edit-item">Edit</button><button class="btn danger delete-item">Delete</button></div>' : '') +
+      '<div class="doc-page view-mode"><h4></h4><span class="doc-date"></span><div class="body"></div></div>' +
+      (editable ?
+        '<div class="edit-mode" style="display:none;">' +
+          '<input type="text" class="edit-title">' +
+          '<textarea class="edit-body" style="min-height:160px;"></textarea>' +
+          '<div class="actions"><button class="btn save-item">Save</button><button class="btn ghost cancel-edit">Cancel</button></div>' +
+        '</div>' : '');
+    body.querySelector(".doc-page h4").textContent = item.title;
+    body.querySelector(".doc-page .body").textContent = item.body;
+    body.querySelector(".doc-page .doc-date").textContent = item.source === "user" ? fmtSavedLine(item) : "";
 
     if(editable){
-      var viewMode = overlay.querySelector(".view-mode");
-      var editMode = overlay.querySelector(".edit-mode");
-      var titleIn = overlay.querySelector(".edit-title");
-      var bodyIn = overlay.querySelector(".edit-body");
+      var viewMode = body.querySelector(".view-mode");
+      var editMode = body.querySelector(".edit-mode");
+      var titleIn = body.querySelector(".edit-title");
+      var bodyIn = body.querySelector(".edit-body");
 
-      overlay.querySelector(".edit-item").addEventListener("click", function(){
+      body.querySelector(".edit-item").addEventListener("click", function(){
         titleIn.value = item.title;
         bodyIn.value = item.body;
         viewMode.style.display = "none";
         editMode.style.display = "block";
       });
-      overlay.querySelector(".cancel-edit").addEventListener("click", function(){
+      body.querySelector(".cancel-edit").addEventListener("click", function(){
         editMode.style.display = "none";
         viewMode.style.display = "block";
       });
-      overlay.querySelector(".save-item").addEventListener("click", function(){
+      body.querySelector(".save-item").addEventListener("click", function(){
         var newTitle = titleIn.value.trim() || "Untitled";
         var newBody = bodyIn.value.trim() || "(no content yet)";
-        var saveBtn = overlay.querySelector(".save-item");
+        var saveBtn = body.querySelector(".save-item");
         saveBtn.disabled = true;
         sb.rpc("shed_update_item", { p: window.SHED_PASSPHRASE, item_id: item.id, ttl: newTitle, bdy: newBody }).then(function(res){
           saveBtn.disabled = false;
@@ -851,17 +1001,12 @@
             var found = CONTENT[item.loc].items.find(function(it){ return it.id === item.id; });
             if(found){ found.title = item.title; found.body = item.body; found.updatedAt = item.updatedAt; found.updatedBy = item.updatedBy; }
           }
-          overlay.querySelector(".view-mode h4").textContent = item.title;
-          overlay.querySelector(".view-mode .body").textContent = item.body;
-          overlay.querySelector(".view-mode .doc-date").textContent = fmtSavedLine(item);
-          if(stageEl._deskState && stageEl._deskState.id === item.id){ showOnDesk(stageEl, item); }
-          editMode.style.display = "none";
-          viewMode.style.display = "block";
+          renderDeskWindow(stageEl, win);
         });
       });
-      overlay.querySelector(".delete-item").addEventListener("click", function(){
+      body.querySelector(".delete-item").addEventListener("click", function(){
         if(!confirm('Move "' + item.title + '" to the Recycle Bin?')) return;
-        var delBtn = overlay.querySelector(".delete-item");
+        var delBtn = body.querySelector(".delete-item");
         delBtn.disabled = true;
         sb.rpc("shed_delete_item", { p: window.SHED_PASSPHRASE, item_id: item.id }).then(function(res){
           delBtn.disabled = false;
@@ -870,22 +1015,118 @@
             return;
           }
           moveItemToBin(item);
-          if(stageEl._deskState && stageEl._deskState.id === item.id){
-            stageEl._deskState = null;
-            stageEl._deskNote.classList.remove("show");
-          }
-          close();
+          closeDeskWindow(stageEl, win);
         });
       });
     }
+
+    if(item.requiresApproval){
+      var block = document.createElement("div");
+      block.className = "approval-block";
+
+      if(item.linkedItemId){
+        var linked = findItemById(item.linkedItemId);
+        var linkBtn = document.createElement("button");
+        linkBtn.type = "button";
+        linkBtn.className = "linked-doc-btn";
+        linkBtn.innerHTML = "📄 Review: " + (linked ? linked.title : ("Document #" + item.linkedItemId));
+        linkBtn.addEventListener("click", function(e){
+          e.stopPropagation();
+          var freshLinked = findItemById(item.linkedItemId);
+          if(!freshLinked){
+            alert("That document couldn't be found (it may have been removed).");
+            return;
+          }
+          addToDesk(stageEl, freshLinked);
+        });
+        block.appendChild(linkBtn);
+      }
+
+      function approvalMetaText(){
+        if(!item.approved) return "Not yet approved.";
+        var when = item.approvedAt ? fmtSavedDate(item.approvedAt).replace("Saved ", "") : "";
+        return "Approved" + (item.approvedBy ? " by " + item.approvedBy : "") + (when ? " on " + when : "");
+      }
+
+      var checkWrap = document.createElement("label");
+      checkWrap.className = "approval-check";
+      var check = document.createElement("input");
+      check.type = "checkbox";
+      check.checked = !!item.approved;
+      var checkText = document.createElement("span");
+      checkText.textContent = "Approved";
+      checkWrap.appendChild(check);
+      checkWrap.appendChild(checkText);
+      block.appendChild(checkWrap);
+
+      var meta = document.createElement("div");
+      meta.className = "approval-meta";
+      meta.textContent = approvalMetaText();
+      block.appendChild(meta);
+
+      var notesLabel = document.createElement("label");
+      notesLabel.className = "notes-label";
+      notesLabel.textContent = "Notes";
+      block.appendChild(notesLabel);
+      var notesArea = document.createElement("textarea");
+      notesArea.className = "notes-textarea";
+      notesArea.value = item.notes || "";
+      block.appendChild(notesArea);
+
+      var saveRow = document.createElement("div");
+      saveRow.className = "actions";
+      saveRow.style.marginTop = "8px";
+      var saveNotesBtn = document.createElement("button");
+      saveNotesBtn.type = "button";
+      saveNotesBtn.className = "btn";
+      saveNotesBtn.textContent = "Save";
+      saveRow.appendChild(saveNotesBtn);
+      block.appendChild(saveRow);
+
+      function persistApproval(isApproved, noteText){
+        return sb.rpc("shed_set_notice_approval", { p: window.SHED_PASSPHRASE, item_id: item.id, is_approved: isApproved, note_text: noteText }).then(function(res){
+          if(res.error){
+            alert("Couldn't save that. Please try again.");
+            return;
+          }
+          item.approved = res.data.approved;
+          item.approvedBy = res.data.approved_by;
+          item.approvedAt = res.data.approved_at;
+          item.notes = res.data.notes;
+          item.updatedAt = res.data.updated_at;
+          item.updatedBy = res.data.updated_by;
+          if(item.loc && CONTENT[item.loc]){
+            var found = CONTENT[item.loc].items.find(function(it){ return it.id === item.id; });
+            if(found){ found.approved = item.approved; found.approvedBy = item.approvedBy; found.approvedAt = item.approvedAt; found.notes = item.notes; }
+          }
+          meta.textContent = approvalMetaText();
+        });
+      }
+
+      check.addEventListener("change", function(){
+        check.disabled = true;
+        persistApproval(check.checked, null).then(function(){ check.disabled = false; });
+      });
+      saveNotesBtn.addEventListener("click", function(){
+        saveNotesBtn.disabled = true;
+        persistApproval(check.checked, notesArea.value).then(function(){ saveNotesBtn.disabled = false; });
+      });
+
+      body.appendChild(block);
+    }
   }
 
-  // The File Cabinet is organized into named folders. Existing cabinet documents were filed
-  // under "PIP AI OS"; anything filed from the desk pad lands in "From the Desk" automatically.
-  // "Company Docs" and "Drafts" start empty, ready for whatever gets added later.
-  // Foundations / Knowledge Curation System / Standards are synced wholesale from the
-  // matching folders in core by a GitHub Action (source = 'synced', not user-editable --
-  // see .github/workflows/shed-doc-sync.yml in the core repo).
+  // The File Cabinet's root is a set of named folders. "PIP AI OS", "Company Docs", "From
+  // the Desk" and "Drafts" are flat, user-managed folders (unchanged since before the sync).
+  // Foundations / Knowledge Curation System / MVP / Standards / Working / AI / Graphics are
+  // synced wholesale, recursively, from the matching folders in Core by a GitHub Action
+  // (source = 'synced', not user-editable -- see .github/workflows/shed-doc-sync.yml in the
+  // core repo) -- as of 9 September 2026 the sync preserves each file's full subfolder path
+  // (item.folder can be "Knowledge Curation System/Mother Information Library/ARCs", not
+  // just the top-level name), and the cabinet browser below (cabinetChildFolders /
+  // cabinetItemsAt / renderCabinetLevel) walks that nested structure the same way a real
+  // file explorer would, so the shed's File Cabinet mirrors Core's actual layout rather than
+  // flattening it.
   var CABINET_FOLDERS = [
     {name:"PIP AI OS", icon:"🤖"},
     {name:"Company Docs", icon:"🏢"},
@@ -893,9 +1134,35 @@
     {name:"Drafts", icon:"✏️"},
     {name:"Foundations", icon:"🧱"},
     {name:"Knowledge Curation System", icon:"📚"},
-    {name:"Standards", icon:"📐"}
+    {name:"MVP", icon:"🚀"},
+    {name:"Standards", icon:"📐"},
+    {name:"Working", icon:"🛠️"},
+    {name:"AI", icon:"🤖"},
+    {name:"Graphics", icon:"🎨"}
   ];
   var CABINET_DEFAULT_FOLDER = "Company Docs";
+
+  // Every distinct next path segment among items whose folder is a strict descendant of
+  // parentPath -- e.g. for parentPath "Knowledge Curation System" and an item filed under
+  // "Knowledge Curation System/Mother Information Library/ARCs", returns "Mother Information
+  // Library" (not the full remaining path -- one level of drill-down at a time).
+  function cabinetChildFolders(items, parentPath){
+    var prefix = parentPath + "/";
+    var seen = {};
+    items.forEach(function(it){
+      var f = it.folder || CABINET_DEFAULT_FOLDER;
+      if(f.indexOf(prefix) !== 0) return;
+      var rest = f.slice(prefix.length);
+      if(!rest) return;
+      seen[rest.split("/")[0]] = true;
+    });
+    return Object.keys(seen).sort(function(a, b){ return a.localeCompare(b); });
+  }
+
+  // Items filed exactly at this path (not in a deeper subfolder of it).
+  function cabinetItemsAt(items, path){
+    return items.filter(function(it){ return (it.folder || CABINET_DEFAULT_FOLDER) === path; });
+  }
 
   function openPanel(key, stageEl){
     if(key === "deskpad"){ openCreatePanel(stageEl); return; }
@@ -923,29 +1190,12 @@
 
     // getItems is a function (not a plain array) so the list can be recomputed fresh
     // after an edit/delete changes the underlying CONTENT arrays.
-    function renderItemList(getItems, title, onBack){
-      var items = getItems();
-      titleEl.textContent = title;
-      panelBody.innerHTML = "";
-
-      if(onBack){
-        var back = document.createElement("button");
-        back.type = "button";
-        back.className = "backbtn";
-        back.textContent = "← Folders";
-        back.addEventListener("click", onBack);
-        panelBody.appendChild(back);
-      }
-
-      if(items.length === 0){
-        var empty = document.createElement("p");
-        empty.className = "empty-note";
-        empty.textContent = "Nothing filed here yet.";
-        panelBody.appendChild(empty);
-      }
-
-      function refresh(){ renderItemList(getItems, title, onBack); }
-
+    // Builds a ".item-list" element for `items`, wired up with the same Send to
+    // desk/Edit/Delete/expand behavior everywhere an item list appears (a flat cabinet
+    // folder, a cabinet folder that also has items filed directly in it, the bookshelf,
+    // the board, ...). `refresh` is called after a save/delete so the caller can redraw
+    // however much of the screen depends on it (just this list, or the whole level).
+    function buildItemListEl(items, refresh){
       var list = document.createElement("div");
       list.className = "item-list";
       items.forEach(function(item){
@@ -981,9 +1231,8 @@
             '</div>' : '');
 
         detail.querySelector(".send").addEventListener("click", function(){
-          showOnDesk(stageEl, item);
+          addToDesk(stageEl, item);
           close();
-          openDeskDoc(stageEl, item);
         });
         detail.querySelector(".close-item").addEventListener("click", function(){
           group.classList.remove("open");
@@ -1052,33 +1301,117 @@
         group.appendChild(detail);
         list.appendChild(group);
       });
-      panelBody.appendChild(list);
+      return list;
+    }
+
+    function renderItemList(getItems, title, onBack){
+      var items = getItems();
+      titleEl.textContent = title;
+      panelBody.innerHTML = "";
+
+      if(onBack){
+        var back = document.createElement("button");
+        back.type = "button";
+        back.className = "backbtn";
+        back.textContent = "← Folders";
+        back.addEventListener("click", onBack);
+        panelBody.appendChild(back);
+      }
+
+      if(items.length === 0){
+        var empty = document.createElement("p");
+        empty.className = "empty-note";
+        empty.textContent = "Nothing filed here yet.";
+        panelBody.appendChild(empty);
+      }
+
+      function refresh(){ renderItemList(getItems, title, onBack); }
+      panelBody.appendChild(buildItemListEl(items, refresh));
     }
 
     if(key === "cabinet"){
+      // Total items filed at `path` or anywhere in a subfolder beneath it -- used for the
+      // folder-card counts, at both the root list and every nested level.
+      function cabinetCountUnder(path){
+        var prefix = path + "/";
+        return data.items.filter(function(it){
+          var f = it.folder || CABINET_DEFAULT_FOLDER;
+          return f === path || f.indexOf(prefix) === 0;
+        }).length;
+      }
+
       function renderFolders(){
         titleEl.textContent = data.title;
         panelBody.innerHTML = "";
         var grid = document.createElement("div");
         grid.className = "folder-list";
         CABINET_FOLDERS.forEach(function(f){
-          var items = data.items.filter(function(it){ return (it.folder || CABINET_DEFAULT_FOLDER) === f.name; });
+          var count = cabinetCountUnder(f.name);
           var card = document.createElement("button");
           card.type = "button";
           card.className = "folder-card";
           card.innerHTML = '<span class="folder-icon">' + f.icon + '</span>' +
             '<span class="folder-name">' + f.name + '</span>' +
-            '<span class="folder-count">' + items.length + (items.length === 1 ? " document" : " documents") + '</span>';
-          card.addEventListener("click", function(){
-            function getFolderItems(){
-              return data.items.filter(function(it){ return (it.folder || CABINET_DEFAULT_FOLDER) === f.name; });
-            }
-            renderItemList(getFolderItems, data.title + " – " + f.name, renderFolders);
-          });
+            '<span class="folder-count">' + count + (count === 1 ? " document" : " documents") + '</span>';
+          card.addEventListener("click", function(){ renderCabinetLevel(f.name, renderFolders); });
           grid.appendChild(card);
         });
         panelBody.appendChild(grid);
       }
+
+      // Renders one level of a (possibly nested) cabinet folder: any subfolders found
+      // directly under `path`, as their own folder cards drilling further down, plus the
+      // documents filed exactly at `path`. A folder with no subfolders falls straight
+      // through to the plain flat item list, same as before nesting existed.
+      function renderCabinetLevel(path, onBack){
+        var label = data.title + " – " + path;
+        var subfolders = cabinetChildFolders(data.items, path);
+
+        if(subfolders.length === 0){
+          renderItemList(function(){ return cabinetItemsAt(data.items, path); }, label, onBack);
+          return;
+        }
+
+        titleEl.textContent = label;
+        panelBody.innerHTML = "";
+
+        var back = document.createElement("button");
+        back.type = "button";
+        back.className = "backbtn";
+        back.textContent = "← Back";
+        back.addEventListener("click", onBack);
+        panelBody.appendChild(back);
+
+        var grid = document.createElement("div");
+        grid.className = "folder-list";
+        subfolders.forEach(function(name){
+          var childPath = path + "/" + name;
+          var count = cabinetCountUnder(childPath);
+          var card = document.createElement("button");
+          card.type = "button";
+          card.className = "folder-card";
+          card.innerHTML = '<span class="folder-icon">📁</span>' +
+            '<span class="folder-name">' + name + '</span>' +
+            '<span class="folder-count">' + count + (count === 1 ? " document" : " documents") + '</span>';
+          card.addEventListener("click", function(){
+            renderCabinetLevel(childPath, function(){ renderCabinetLevel(path, onBack); });
+          });
+          grid.appendChild(card);
+        });
+        panelBody.appendChild(grid);
+
+        var itemsHere = cabinetItemsAt(data.items, path);
+        if(itemsHere.length){
+          var heading = document.createElement("p");
+          heading.className = "empty-note";
+          heading.style.margin = "16px 2px 8px";
+          heading.textContent = "Filed directly in this folder:";
+          panelBody.appendChild(heading);
+          function refresh(){ renderCabinetLevel(path, onBack); }
+          panelBody.appendChild(buildItemListEl(itemsHere, refresh));
+        }
+      }
+
       renderFolders();
     } else if(key === "bin"){
       var binSelected = {};
@@ -1632,6 +1965,110 @@
     }
   }
 
+  // Builds an item object from a shed_items row in the same shape applyItems uses, so
+  // freshly created rows (from shed_add_notice/shed_add_item) behave identically to ones
+  // loaded at unlock -- including being openable as a full notice/approval panel on the desk.
+  function itemFromRow(row, loc){
+    return {
+      id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: loc,
+      updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by,
+      requiresApproval: row.requires_approval, linkedItemId: row.linked_item_id,
+      approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes
+    };
+  }
+
+  // Lightweight document picker for linking a notice to a cabinet document. Reuses the same
+  // nested-folder logic as the cabinet browser (cabinetChildFolders/cabinetItemsAt), but in a
+  // simpler "click a folder to drill in, click a document to pick it" flow with no Send to
+  // desk/Edit/Delete -- this overlay only exists to choose one document and hand it to
+  // `onPick`.
+  function openDocumentPicker(stageEl, onPick){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg" style="background-image:url(__ASSET_CABINET__)"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>Choose a Document</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+
+    function renderRoot(){
+      body.innerHTML = "";
+      var grid = document.createElement("div");
+      grid.className = "folder-list";
+      CABINET_FOLDERS.forEach(function(f){
+        var card = document.createElement("button");
+        card.type = "button";
+        card.className = "folder-card";
+        card.innerHTML = '<span class="folder-icon">' + f.icon + '</span><span class="folder-name">' + f.name + '</span>';
+        card.addEventListener("click", function(){ renderLevel(f.name, renderRoot); });
+        grid.appendChild(card);
+      });
+      body.appendChild(grid);
+    }
+
+    function renderLevel(path, onBack){
+      var subfolders = cabinetChildFolders(CONTENT.cabinet.items, path);
+      body.innerHTML = "";
+      var back = document.createElement("button");
+      back.type = "button";
+      back.className = "backbtn";
+      back.textContent = "← Back";
+      back.addEventListener("click", onBack);
+      body.appendChild(back);
+
+      if(subfolders.length){
+        var grid = document.createElement("div");
+        grid.className = "folder-list";
+        subfolders.forEach(function(name){
+          var childPath = path + "/" + name;
+          var card = document.createElement("button");
+          card.type = "button";
+          card.className = "folder-card";
+          card.innerHTML = '<span class="folder-icon">📁</span><span class="folder-name">' + name + '</span>';
+          card.addEventListener("click", function(){ renderLevel(childPath, function(){ renderLevel(path, onBack); }); });
+          grid.appendChild(card);
+        });
+        body.appendChild(grid);
+      }
+
+      var items = cabinetItemsAt(CONTENT.cabinet.items, path);
+      if(items.length){
+        var list = document.createElement("div");
+        list.className = "item-list";
+        list.style.marginTop = subfolders.length ? "14px" : "0";
+        items.forEach(function(item){
+          var pick = document.createElement("button");
+          pick.type = "button";
+          pick.className = "item-card";
+          pick.innerHTML = "<b>" + item.title + "</b>" + item.body.slice(0, 60) + (item.body.length > 60 ? "..." : "");
+          pick.addEventListener("click", function(){
+            onPick(item);
+            close();
+          });
+          list.appendChild(pick);
+        });
+        body.appendChild(list);
+      } else if(!subfolders.length){
+        var empty = document.createElement("p");
+        empty.className = "empty-note";
+        empty.textContent = "Nothing filed here yet.";
+        body.appendChild(empty);
+      }
+    }
+
+    renderRoot();
+  }
+
   function openCreatePanel(stageEl){
     var overlay = document.createElement("div");
     overlay.className = "overlay";
@@ -1642,6 +2079,14 @@
         '<div class="panel-head"><h3>New Notice / Document</h3><button class="closebtn" type="button">&times;</button></div>' +
         '<input type="text" class="titlein" placeholder="Title...">' +
         '<textarea class="bodyin" placeholder="Write it here..."></textarea>' +
+        '<label class="approval-check" style="margin-top:8px;">' +
+          '<input type="checkbox" class="requires-approval-check">' +
+          '<span>This notice requires approval</span>' +
+        '</label>' +
+        '<div class="link-doc-row" style="display:none; align-items:center; gap:8px; margin-bottom:6px;">' +
+          '<button type="button" class="btn ghost choose-doc">Link a document…</button>' +
+          '<span class="linked-doc-label" style="font-family:\'Kalam\',cursive;"></span>' +
+        '</div>' +
         '<div class="actions" style="margin-top:10px;">' +
           '<button class="btn pin">Pin to Notice Board</button>' +
           '<button class="btn alt file">File in Cabinet</button>' +
@@ -1656,6 +2101,20 @@
     }
     overlay.querySelector(".closebtn").addEventListener("click", close);
 
+    var requiresCheck = overlay.querySelector(".requires-approval-check");
+    var linkRow = overlay.querySelector(".link-doc-row");
+    var linkedLabel = overlay.querySelector(".linked-doc-label");
+    var linkedItem = null;
+    requiresCheck.addEventListener("change", function(){
+      linkRow.style.display = requiresCheck.checked ? "flex" : "none";
+    });
+    overlay.querySelector(".choose-doc").addEventListener("click", function(){
+      openDocumentPicker(stageEl, function(item){
+        linkedItem = item;
+        linkedLabel.textContent = "Linked: " + item.title;
+      });
+    });
+
     function getEntry(){
       var t = overlay.querySelector(".titlein").value.trim() || "Untitled";
       var b = overlay.querySelector(".bodyin").value.trim() || "(no content yet)";
@@ -1665,16 +2124,19 @@
       var entry = getEntry();
       var pinBtn = overlay.querySelector(".pin");
       pinBtn.disabled = true;
-      sb.rpc("shed_add_item", { p: window.SHED_PASSPHRASE, loc: "board", ttl: entry.title, bdy: entry.body }).then(function(res){
+      sb.rpc("shed_add_notice", {
+        p: window.SHED_PASSPHRASE, ttl: entry.title, bdy: entry.body,
+        req_approval: requiresCheck.checked, linked_id: linkedItem ? linkedItem.id : null
+      }).then(function(res){
         pinBtn.disabled = false;
         if(res.error){
           alert("Couldn't save that to the Notice Board. Please try again.");
           return;
         }
-        var row = res.data;
-        CONTENT.board.items.unshift({ id: row.id, title: row.title, body: row.body, source: row.source, loc: "board", updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by });
-        showOnDesk(stageEl, {title: "Pinned: " + entry.title, body: "Added to the Notice Board."});
+        var item = itemFromRow(res.data, "board");
+        CONTENT.board.items.unshift(item);
         close();
+        addToDesk(stageEl, item);
       });
     });
     overlay.querySelector(".file").addEventListener("click", function(){
@@ -1687,10 +2149,10 @@
           alert("Couldn't file that in the Cabinet. Please try again.");
           return;
         }
-        var row = res.data;
-        CONTENT.cabinet.items.unshift({ id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: "cabinet", updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by });
-        showOnDesk(stageEl, {title: "Filed: " + entry.title, body: 'Added to the File Cabinet, under "From the Desk".'});
+        var item = itemFromRow(res.data, "cabinet");
+        CONTENT.cabinet.items.unshift(item);
         close();
+        addToDesk(stageEl, item);
       });
     });
   }

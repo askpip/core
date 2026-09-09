@@ -1,9 +1,18 @@
 #!/usr/bin/env node
 /**
- * Syncs Foundations/, "Knowledge Curation System/", and Standards/ (wholesale, every
- * .md file) from this repo into the Garden Shed's File Cabinet, so the shed's copies stay
- * current with the real Core documents instead of the old manually-seeded, point-in-time
- * ones.
+ * Syncs the whole documentation surface of this repo -- Foundations/, "Knowledge Curation
+ * System/", MVP/, Standards/, Working/, AI/, and Graphics/ (wholesale, every .md file,
+ * recursively) -- into the Garden Shed's File Cabinet, so the shed's copies stay current
+ * with the real Core documents instead of the old manually-seeded, point-in-time ones.
+ *
+ * As of 9 September 2026 the sync preserves each file's full subfolder path (not just its
+ * top-level folder), so the shed's File Cabinet can present the same nested structure Core
+ * itself has -- "Knowledge Curation System/Mother Information Library/ARCs" is its own
+ * folder in the cabinet, not flattened into "Knowledge Curation System". Binary files
+ * (images etc.) are deliberately not synced yet -- documents first, per the Founder's
+ * explicit phasing decision; App/ (application source code), Spike/, and repo/tooling
+ * folders (.git, node_modules) are deliberately excluded, since they aren't documents
+ * anyone reviews or approves.
  *
  * Runs as a GitHub Action on every push to main that touches those folders (see
  * .github/workflows/shed-doc-sync.yml). Writes directly to shed_items via the Supabase
@@ -11,11 +20,13 @@
  * "user" of the shed, so it does not go through the passphrase-gated RPCs).
  *
  * Each synced row is tagged source='synced' and location='cabinet', with `folder` set to
- * the top-level Core folder it came from (e.g. "Foundations") -- these are the same
- * folder names the shed's CABINET_FOLDERS list uses, so they show up as their own File
- * Cabinet folders automatically. `source_path` (the file's path relative to the repo
- * root) is the stable key used to upsert on repeat runs and to detect files that were
- * removed or renamed since the last sync.
+ * the file's full directory path relative to the repo root (e.g. "MVP/Architecture", or
+ * just "Standards" for a file directly inside that folder) -- the shed's cabinet browser
+ * (source/template.html) builds its nested folder tree straight from these paths, splitting
+ * on "/", rather than needing a separate top-level-folder field. `source_path` (the file's
+ * full path, including filename, relative to the repo root) is the stable key used to
+ * upsert on repeat runs and to detect files that were removed or renamed since the last
+ * sync.
  *
  * Required environment variables (set as GitHub Actions secrets, not committed):
  *   SUPABASE_URL              -- not actually secret, but kept as a secret/var either way
@@ -25,7 +36,7 @@
  *                                 an AI session.
  */
 import { readdir, readFile } from "node:fs/promises";
-import { join, relative } from "node:path";
+import { join, relative, dirname } from "node:path";
 
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -35,12 +46,18 @@ if (!SUPABASE_URL || !SERVICE_KEY) {
   process.exit(1);
 }
 
-// Repo-root-relative folders to sync wholesale, and the File Cabinet folder each maps to.
-// Keep this in sync with CABINET_FOLDERS in Shed/source/template.html.
+// Repo-root-relative folders to sync wholesale, recursively, every .md file. Keep this in
+// sync with the "documents first" scope the Founder chose 9 September 2026: every real
+// documentation folder in Core, excluding App/ (application source code) and Spike/ (AI
+// experiment scripts) -- neither is something anyone reviews or approves in the shed.
 const SYNC_FOLDERS = [
-  { repoPath: "Foundations", cabinetFolder: "Foundations" },
-  { repoPath: "Knowledge Curation System", cabinetFolder: "Knowledge Curation System" },
-  { repoPath: "Standards", cabinetFolder: "Standards" },
+  "Foundations",
+  "Knowledge Curation System",
+  "MVP",
+  "Standards",
+  "Working",
+  "AI",
+  "Graphics",
 ];
 
 const REPO_ROOT = process.cwd();
@@ -92,17 +109,18 @@ async function supabaseRequest(path, options = {}) {
 }
 
 async function main() {
-  // 1. Gather the current set of files to sync.
+  // 1. Gather the current set of files to sync, across every configured folder.
   const currentFiles = [];
-  for (const { repoPath, cabinetFolder } of SYNC_FOLDERS) {
+  for (const repoPath of SYNC_FOLDERS) {
     const absDir = join(REPO_ROOT, repoPath);
     const files = await walkMarkdownFiles(absDir);
     for (const absPath of files) {
       const sourcePath = relative(REPO_ROOT, absPath).split("\\").join("/");
+      const folderPath = relative(REPO_ROOT, dirname(absPath)).split("\\").join("/");
       const content = await readFile(absPath, "utf8");
       currentFiles.push({
         sourcePath,
-        cabinetFolder,
+        folderPath,
         title: titleFromMarkdown(content, absPath.split(/[\\/]/).pop()),
         body: content,
       });
@@ -111,7 +129,7 @@ async function main() {
   console.log(`Found ${currentFiles.length} markdown files across ${SYNC_FOLDERS.length} synced folders.`);
 
   // 2. Upsert each one (on_conflict=source_path -- see the shed_items_source_path_uq
-  //    partial unique index).
+  //    unique constraint).
   for (const f of currentFiles) {
     await supabaseRequest("shed_items?on_conflict=source_path", {
       method: "POST",
@@ -122,7 +140,7 @@ async function main() {
           source: "synced",
           title: f.title,
           body: f.body,
-          folder: f.cabinetFolder,
+          folder: f.folderPath,
           source_path: f.sourcePath,
           updated_at: new Date().toISOString(),
         },
@@ -131,7 +149,10 @@ async function main() {
   }
   console.log(`Upserted ${currentFiles.length} synced documents.`);
 
-  // 3. Remove synced rows whose source file no longer exists (deleted/renamed in Core).
+  // 3. Remove synced rows whose source file no longer exists (deleted/renamed/moved in
+  //    Core). A moved file gets a new source_path, so its old row is stale here and its
+  //    new path is a fresh insert above -- this correctly re-files it under its new folder
+  //    rather than leaving a duplicate in the old one.
   const existing = await supabaseRequest(
     "shed_items?source=eq.synced&select=id,source_path"
   );
