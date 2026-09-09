@@ -227,17 +227,17 @@
     border:1px solid var(--pip-border); border-radius:8px; background:#fffef8; box-sizing:border-box;
   }
 
-  /* Per-person progress rows (2026-09-09): sits above the shared Approved/Request Review
-     controls, deliberately styled lighter/quieter than them -- it's informational ("where
-     is each of us at"), not a decision in itself. Only the signed-in user's own row is a
-     <select> (progress-select); the other person's is plain text (progress-value). */
+  /* Shared notice/to-do status control (2026-09-09, replacing an earlier per-person
+     Reading/Discussing tracker): sits above the shared Approved/Request Review controls,
+     deliberately styled lighter/quieter than them -- it's the same New/Received/In
+     Progress/Blocked/Completed status as the linked to-do (STATUS_LABELS/STATUS_ORDER),
+     editable by anyone, exactly like a to-do row's own status select. */
   .desk-window .progress-block{ margin-bottom:12px; }
   .desk-window .progress-rows{ display:flex; flex-direction:column; gap:5px; }
   .desk-window .progress-row{
     display:flex; align-items:center; justify-content:space-between; gap:8px;
     font-family:'Nunito',sans-serif; font-size:.82rem;
   }
-  .desk-window .progress-name{ color:var(--wood-dark); font-weight:700; }
   .desk-window .progress-value{ color:var(--wood-dark); opacity:.7; }
   .desk-window .progress-select{
     font-family:'Nunito',sans-serif; font-weight:700; font-size:.72rem; border:1px solid var(--pip-border);
@@ -318,6 +318,14 @@
     color:#fff; background:var(--terracotta); border-radius:6px; padding:3px 7px;
   }
   .item-row .pending-notice-badge{ margin-right:4px; }
+  /* A notice row's shared status, at a glance in the Notice Board list -- same status as
+     the linked to-do (see buildItemListEl and renderDeskPanelBody's Status control), shown
+     read-only here since this list stays click-to-open for anything editable. */
+  .item-row-status{
+    flex:none; font-family:'Nunito',sans-serif; font-weight:700; font-size:.68rem;
+    color:var(--wood-dark); background:#efe9dc; border:1px solid var(--pip-border);
+    border-radius:6px; padding:3px 7px; margin-right:4px; opacity:.85;
+  }
   .doc-page .pending-notice-link{
     display:inline-flex; align-items:center; gap:6px; font-family:'Nunito',sans-serif; font-weight:700;
     font-size:.82rem; border:1.5px solid var(--terracotta); background:#fff; color:var(--terracotta);
@@ -699,7 +707,8 @@
         createdAt: row.created_at, updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by,
         requiresApproval: row.requires_approval, linkedItemId: row.linked_item_id,
         approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes,
-        reviewRequested: row.review_requested, reviewRequestedBy: row.review_requested_by, reviewRequestedAt: row.review_requested_at
+        reviewRequested: row.review_requested, reviewRequestedBy: row.review_requested_by, reviewRequestedAt: row.review_requested_at,
+        todoId: row.todo_id
       };
       if(row.deleted_at){
         CONTENT.bin.items.push(item);
@@ -1019,6 +1028,16 @@
       return it.requiresApproval && !it.approved && it.linkedItemId === documentId;
     });
   }
+
+  // Shared everywhere a to-do/notice workflow status is shown or set -- the To-Do List, a
+  // notice's own desk-panel Status control, and the compact per-row glance in the Notice
+  // Board list (buildItemListEl) -- one label/order definition so all three views can never
+  // drift apart. A requires-approval notice and its linked to-do (shed_items.todo_id) share
+  // this exact same status value in the database (see shed_set_todo_status/shed_list_todos),
+  // so this isn't just shared labels -- changing the status from either view changes the
+  // same underlying row and both views show the result.
+  var STATUS_LABELS = { new:"New", received:"Received", in_progress:"In Progress", blocked:"Blocked", completed:"Completed" };
+  var STATUS_ORDER = ["new","received","in_progress","blocked","completed"];
 
   // Refreshes the small red count badge on the Notice Board hotspot (both stages) to the
   // number of notices still awaiting a decision. Call this after anything that can change
@@ -1373,79 +1392,84 @@
         block.appendChild(linkBtn);
       }
 
-      // Per-person reading/review progress (2026-09-09): separate from the shared
-      // approve/review-request decision below, so each of the shed's two named users can
-      // see where the OTHER personally is with a notice ("Shaphan: Reading, Karla: Not
-      // Started") without asking. Only the signed-in user's own row is editable -- the
-      // RPC resolves "who" from the passphrase, never from a parameter, so nobody can set
-      // progress on someone else's behalf even by tampering with the request.
-      var PROGRESS_LABELS = { not_started:"Not Started", reading:"Reading", discussing:"Discussing" };
-      var PROGRESS_ORDER = ["not_started","reading","discussing"];
+      // Shared workflow status (2026-09-09): a notice and the to-do that tracks it
+      // (shed_items.todo_id, set automatically when the notice was created or when review
+      // was last requested) are literally the same status now -- New/Received/In Progress/
+      // Blocked/Completed, the exact categories the To-Do List uses (STATUS_LABELS/
+      // STATUS_ORDER, shared at module scope). Changing the dropdown here calls the very
+      // same shed_set_todo_status RPC the To-Do List uses, on the same row, so a change made
+      // from either place shows up in both. This replaced an earlier per-person Reading/
+      // Discussing tracker per the Founder's direction, once it became clear a notice and
+      // its to-do are one task and should show one status, not two.
+      var statusBlock = document.createElement("div");
+      statusBlock.className = "progress-block";
+      var statusLabel = document.createElement("label");
+      statusLabel.className = "notes-label";
+      statusLabel.textContent = "Status";
+      statusBlock.appendChild(statusLabel);
+      var statusRowEl = document.createElement("div");
+      statusRowEl.className = "progress-rows";
+      statusRowEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">Loading status…</p>';
+      statusBlock.appendChild(statusRowEl);
+      block.appendChild(statusBlock);
 
-      var progressBlock = document.createElement("div");
-      progressBlock.className = "progress-block";
-      var progressLabel = document.createElement("label");
-      progressLabel.className = "notes-label";
-      progressLabel.textContent = "Progress";
-      progressBlock.appendChild(progressLabel);
-      var progressRowsEl = document.createElement("div");
-      progressRowsEl.className = "progress-rows";
-      progressRowsEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">Loading progress…</p>';
-      progressBlock.appendChild(progressRowsEl);
-      block.appendChild(progressBlock);
-
-      function renderProgressRows(rows){
-        progressRowsEl.innerHTML = "";
-        rows.forEach(function(r){
-          var prow = document.createElement("div");
-          prow.className = "progress-row";
-          var nameSpan = document.createElement("span");
-          nameSpan.className = "progress-name";
-          nameSpan.textContent = r.user_name;
-          prow.appendChild(nameSpan);
-
-          if(r.user_name === window.SHED_ACTIVE_USER){
-            var sel = document.createElement("select");
-            sel.className = "progress-select";
-            PROGRESS_ORDER.forEach(function(s){
-              var opt = document.createElement("option");
-              opt.value = s;
-              opt.textContent = PROGRESS_LABELS[s];
-              if(s === r.stage) opt.selected = true;
-              sel.appendChild(opt);
-            });
-            sel.addEventListener("change", function(){
-              var newStage = sel.value;
-              var prevStage = r.stage;
-              sel.disabled = true;
-              sb.rpc("shed_set_item_progress", { p: window.SHED_PASSPHRASE, p_item_id: item.id, new_stage: newStage }).then(function(res){
-                sel.disabled = false;
-                if(res.error){
-                  alert("Couldn't save your progress. Please try again.");
-                  sel.value = prevStage;
-                  return;
-                }
-                r.stage = res.data.stage;
-              });
-            });
-            prow.appendChild(sel);
-          } else {
-            var stageSpan = document.createElement("span");
-            stageSpan.className = "progress-value";
-            stageSpan.textContent = PROGRESS_LABELS[r.stage] || r.stage;
-            prow.appendChild(stageSpan);
-          }
-          progressRowsEl.appendChild(prow);
-        });
-      }
-
-      sb.rpc("shed_get_item_progress", { p: window.SHED_PASSPHRASE, p_item_id: item.id }).then(function(res){
-        if(res.error){
-          progressRowsEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">Couldn\'t load progress.</p>';
+      function renderStatusRow(todoRow){
+        statusRowEl.innerHTML = "";
+        if(!todoRow){
+          statusRowEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">No linked to-do yet.</p>';
           return;
         }
-        renderProgressRows(res.data || []);
-      });
+        var prow = document.createElement("div");
+        prow.className = "progress-row";
+
+        var sel = document.createElement("select");
+        sel.className = "progress-select";
+        STATUS_ORDER.forEach(function(s){
+          var opt = document.createElement("option");
+          opt.value = s;
+          opt.textContent = STATUS_LABELS[s];
+          if(s === todoRow.status) opt.selected = true;
+          sel.appendChild(opt);
+        });
+        prow.appendChild(sel);
+
+        var metaSpan = document.createElement("span");
+        metaSpan.className = "progress-value";
+        metaSpan.textContent = todoRow.updated_by ? ("set by " + todoRow.updated_by) : "";
+        prow.appendChild(metaSpan);
+
+        sel.addEventListener("change", function(){
+          var newStatus = sel.value;
+          var prevStatus = todoRow.status;
+          sel.disabled = true;
+          sb.rpc("shed_set_todo_status", { p: window.SHED_PASSPHRASE, todo_id: item.todoId, new_status: newStatus }).then(function(res){
+            sel.disabled = false;
+            if(res.error){
+              alert("Couldn't save that status. Please try again.");
+              sel.value = prevStatus;
+              return;
+            }
+            todoRow.status = res.data.status;
+            todoRow.updated_by = res.data.updated_by;
+            metaSpan.textContent = todoRow.updated_by ? ("set by " + todoRow.updated_by) : "";
+          });
+        });
+
+        statusRowEl.appendChild(prow);
+      }
+
+      if(item.todoId == null){
+        renderStatusRow(null);
+      } else {
+        sb.rpc("shed_list_todos", { p: window.SHED_PASSPHRASE }).then(function(res){
+          if(res.error){
+            statusRowEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">Couldn\'t load status.</p>';
+            return;
+          }
+          var match = (res.data || []).filter(function(t){ return t.id === item.todoId; })[0];
+          renderStatusRow(match || null);
+        });
+      }
 
       // Sets both the meta line's text AND a state-<x> class (state-pending/state-approved/
       // state-review -- see the CSS) so the outcome of Save/Request Review is visible as a
@@ -1694,6 +1718,13 @@
     }
     overlay.querySelector(".closebtn").addEventListener("click", close);
 
+    // Populated only for the Notice Board (see the final "else" branch below) with the
+    // linked to-do row for every requires-approval notice, keyed by todo_id -- lets
+    // buildItemListEl show each notice's shared status right in the list, at a glance,
+    // without opening it. null until that fetch resolves; cabinet/bookshelf items are never
+    // notices (shed_add_notice always inserts location='board'), so they never read this.
+    var boardTodoStatus = null;
+
     // getItems is a function (not a plain array) so the list can be recomputed fresh
     // after content changes. Builds a ".item-list" element for `items`, used everywhere an
     // item list appears (a flat cabinet folder, a cabinet folder that also has items filed
@@ -1725,6 +1756,19 @@
           pendingBadge.className = "pending-notice-badge";
           pendingBadge.textContent = "⚑ Pending";
           row.appendChild(pendingBadge);
+        }
+
+        // A notice's shared status (same value as its linked to-do -- see
+        // renderDeskPanelBody's Status control), shown as a small read-only chip so it's
+        // visible right in the Notice Board list, not just once the notice is opened. Still
+        // just a glance, not a preview: no dropdown here, consistent with this list staying
+        // click-to-open for anything editable.
+        if(item.requiresApproval && item.todoId != null && boardTodoStatus && boardTodoStatus[item.todoId]){
+          var statusChip = document.createElement("span");
+          statusChip.className = "item-row-status";
+          var chipStatus = boardTodoStatus[item.todoId].status;
+          statusChip.textContent = STATUS_LABELS[chipStatus] || chipStatus;
+          row.appendChild(statusChip);
         }
 
         var sendBtn = document.createElement("button");
@@ -2192,8 +2236,8 @@
       // by a trigger (a notice needing approval, a review request) -- nobody has looked at
       // it yet, so it must NOT read as "Received by <name>" until a real person explicitly
       // selects that status themselves. See buildRow()'s updatedLine for where this matters.
-      var STATUS_LABELS = { new:"New", received:"Received", in_progress:"In Progress", blocked:"Blocked", completed:"Completed" };
-      var STATUS_ORDER = ["new","received","in_progress","blocked","completed"];
+      // STATUS_LABELS/STATUS_ORDER are declared once at module scope (see pendingNoticesFor)
+      // and shared with the notice desk panel and Notice Board list, so reuse those here too.
 
       function fmtWhen(iso){
         if(!iso) return "";
@@ -2433,6 +2477,18 @@
       loadTodos();
     } else {
       renderItemList(function(){ return data.items; }, data.title, null);
+
+      // Notice Board only (bookshelf/other keys land here too, but never contain
+      // requires-approval items -- see boardTodoStatus's comment above): fetch every
+      // to-do once, then re-render so each notice row's status chip fills in.
+      if(key === "board"){
+        sb.rpc("shed_list_todos", { p: window.SHED_PASSPHRASE }).then(function(res){
+          if(res.error) return;
+          boardTodoStatus = {};
+          (res.data || []).forEach(function(t){ boardTodoStatus[t.id] = t; });
+          renderItemList(function(){ return data.items; }, data.title, null);
+        });
+      }
     }
   }
 
@@ -2445,7 +2501,8 @@
       createdAt: row.created_at, updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by,
       requiresApproval: row.requires_approval, linkedItemId: row.linked_item_id,
       approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes,
-      reviewRequested: row.review_requested, reviewRequestedBy: row.review_requested_by, reviewRequestedAt: row.review_requested_at
+      reviewRequested: row.review_requested, reviewRequestedBy: row.review_requested_by, reviewRequestedAt: row.review_requested_at,
+      todoId: row.todo_id
     };
   }
 

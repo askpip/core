@@ -1079,6 +1079,11 @@ were verified directly in Supabase — zero rows anywhere still reference
 
 ## Per-person notice progress: "where is each of us at with this" (2026-09-09)
 
+> **Superseded the same day** — see "Notice status merged with its to-do:
+> one shared status, not two" below. Kept here as the historical record of
+> what was actually built and verified first; none of `shed_item_progress`,
+> `shed_get_item_progress` or `shed_set_item_progress` exist any more.
+
 Requested directly: with two named users reviewing the same notices, there
 was no way for either of them to see where the other personally stood
 with one — only the shared approve/review-request decision, which says
@@ -1129,6 +1134,83 @@ correct parameters; the section is entirely absent on a non-notice
 document; and it coexists correctly alongside the existing Approved
 checkbox and Cancel Review Request controls on the same notice panel.
 
+## Notice status merged with its to-do: one shared status, not two (2026-09-09)
+
+Founder feedback, the same day the per-person progress tracker above
+shipped: a notice and the to-do task it spawns are "the same task," so
+they should carry **one** status, in the **same** categories the To-Do
+List already uses — New, Received, In Progress, Blocked, Completed —
+changeable from either place and instantly reflected in both, rather than
+two separate trackers that could say different things. Confirmed directly
+before building (this reverses the per-person design chosen only hours
+earlier): replace the per-person rows with a single shared status, yes.
+
+**One row, not two copies kept in sync.** Rather than duplicating a status
+value on both `shed_items` and `shed_todos` and writing triggers to keep
+them matching (real risk of drift or update loops), a notice now simply
+**points at** its to-do: `shed_items.todo_id` (new column, nullable,
+`references shed_todos(id) on delete set null`) names the one to-do row
+that *is* the notice's status. There is only ever one place the status
+lives — `shed_todos.status` — so the two views can't disagree by
+construction. The notice panel's Status dropdown and the To-Do List's own
+status dropdown call the exact same RPC (`shed_set_todo_status`) on the
+exact same row; nothing new was needed to make a change in one place show
+up in the other.
+
+**Trigger changes, so every notice ends up linked.** The trigger that
+creates a to-do when a notice is marked "requires approval"
+(`shed_notice_requires_approval_todo`) now also sets `todo_id` on the
+notice right after inserting its to-do. The review-request trigger
+(`shed_notice_review_requested_todo`) used to create a *second* to-do
+every time review was requested — now, if the notice already has a linked
+to-do (the normal case going forward), it **reuses that same to-do**,
+resetting its status back to New and logging the change, instead of
+spawning a duplicate. It only falls back to creating (and linking) a new
+one for a notice that somehow has no link yet. The four existing real
+notices (`Founder Approval Required` ×4, ids 174/578/579/580) were
+backfilled to point at the to-dos already created for them, matched
+unambiguously by their linked document's title and identical creation
+timestamp, and verified before moving on.
+
+**On the notice panel**, the per-person "Progress" section is now a single
+"Status" control in the same spot — a dropdown (open to anyone, exactly
+like a To-Do List row, not restricted to the signed-in user) plus a small
+"set by \<name\>" meta line. A notice with no linked to-do yet (none in
+practice now, but handled defensively) shows "No linked to-do yet."
+instead of a dropdown.
+
+**On the Notice Board list**, a notice's status now shows as a small
+read-only chip right in the list row (e.g. "In Progress"), fetched once
+via the existing `shed_list_todos` RPC when the board panel opens and
+matched to each notice by its `todo_id` — no new RPC needed for this. This
+was the specific, original ask: "the progress status in each notice needs
+to be visible on the notice board view... not down at the bottom of each
+notice." The list stays otherwise exactly as minimal as before (title +
+Desktop button, no edit-in-place) — the status chip is a glance, not a
+control; changing it still requires opening the notice or its to-do.
+
+**Removed:** `shed_item_progress` (table), `shed_get_item_progress` and
+`shed_set_item_progress` (RPCs) — none of them ever shipped to production
+before being superseded, so no client-facing migration was needed.
+`shed_get_all_notice_progress`, drafted mid-session for the original
+per-notice board-list ask before this redesign, was likewise dropped
+without ever being wired into the UI.
+
+**Verified directly against the database first**, using a temporary test
+user created and fully deleted afterward: a newly created requires-
+approval notice links to its to-do automatically; requesting review on it
+reuses that same to-do (confirmed no duplicate to-do row is created) and
+resets its status to New; setting the to-do's status directly is visible
+on the notice's `todo_id` immediately, since it's the same row. Then
+**verified via Playwright** against a freshly rebuilt copy of the real
+production page (stubbing only the Supabase client, not the app logic):
+the Notice Board list shows the correct status chip for a linked notice
+and shows nothing (no crash) for one with no link; opening a notice shows
+its Status dropdown pre-set to the correct value with the right "set by"
+name; changing it calls `shed_set_todo_status` with the correct `todo_id`
+and new status; and a notice with no linked to-do shows "No linked to-do
+yet." cleanly instead of erroring.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI
@@ -1170,6 +1252,11 @@ checkbox and Cancel Review Request controls on the same notice panel.
 - List views (Notice Board, File Cabinet, Bookshelf) show only a title
   and a "Desktop" button — no inline preview, no edit-in-place; viewing
   and editing happen only in a desk window
+- A requires-approval notice and the to-do task it spawns share one
+  status (New/Received/In Progress/Blocked/Completed, via
+  `shed_items.todo_id`) — changing it from either the notice's own Status
+  control or the To-Do List updates the same row, and the Notice Board
+  list shows each notice's current status as a small glance chip
 
 ## What's next
 
