@@ -105,6 +105,15 @@
     opacity:0; transition:opacity .15s ease; pointer-events:none;
   }
   .hotspot:hover .tag{ opacity:1; }
+  /* Pending-approval count on a hotspot (currently just Notice Board) -- hidden (no inline
+     display set) until updateBoardBadge() gives it a non-zero count. */
+  .hotspot-badge{
+    position:absolute; top:-4px; right:-4px; min-width:18px; height:18px; padding:0 4px;
+    border-radius:9px; background:#a33; color:#fff; font-family:'Nunito',sans-serif;
+    font-weight:700; font-size:.68rem; display:none; align-items:center; justify-content:center;
+    box-shadow:0 1px 4px rgba(0,0,0,.4); z-index:4;
+  }
+  .hotspot-badge.show{ display:flex; }
 
   /* The Desk: any number of items (documents/notices/books) can be open at once, each a
      .desk-window in either "card" (minimized) or "panel" (expanded) state, sharing one
@@ -124,6 +133,10 @@
     font-family:'Kalam',cursive; font-size:.92rem;
   }
   .desk-window .dw-titlebar b{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0; }
+  /* Groups the trailing titlebar buttons (cycle / maximize / minimize-or-close) so
+     justify-content:space-between on the titlebar puts all of space between the title and
+     this one cluster, rather than spreading three separate buttons apart. */
+  .desk-window .dw-titlebtns{ display:flex; align-items:center; gap:6px; flex:none; }
   .desk-window .dw-titlebtn{
     flex:none; background:rgba(255,255,255,.18); border:none; color:var(--cream);
     width:22px; height:22px; border-radius:50%; cursor:pointer; font-size:.8rem; line-height:1;
@@ -139,6 +152,9 @@
   }
   .desk-window.panel{ width:min(680px, 86%); height:min(560px, 80%); }
   .desk-window.panel .dw-body{ flex:1; overflow:auto; padding:14px 16px 16px; }
+  /* Full-screen reading mode, toggled by the ⤢ button -- layoutDeskWindows skips the
+     staggered right/bottom offset for a maximized window so this rule positions it instead. */
+  .desk-window.panel.maximized{ width:96%; height:92%; right:2%; bottom:4%; }
   .desk-window .doc-date{ display:block; font-size:.75rem; color:var(--wood); opacity:.8; margin:2px 0 10px; }
   .desk-window .linked-doc-btn{
     display:inline-flex; align-items:center; gap:6px; font-family:'Nunito',sans-serif; font-weight:700;
@@ -148,7 +164,20 @@
   .desk-window .approval-block{ border-top:1px dashed var(--pip-border); margin-top:14px; padding-top:12px; }
   .desk-window .approval-check{ display:flex; align-items:center; gap:8px; font-family:'Kalam',cursive; font-size:1rem; margin-bottom:8px; }
   .desk-window .approval-check input{ width:19px; height:19px; accent-color:var(--moss); }
-  .desk-window .approval-meta{ font-size:.72rem; color:var(--wood-dark); opacity:.75; margin:-4px 0 10px 27px; }
+  /* approvalMetaText's three states get distinct colors so the result of Save/Request Review
+     reads at a glance, not just as a one-line text change easy to miss. */
+  .desk-window .approval-meta{
+    font-size:.74rem; margin:-4px 0 10px 27px; font-family:'Nunito',sans-serif; font-weight:700;
+    padding:3px 7px; border-radius:6px; display:inline-block;
+  }
+  .desk-window .approval-meta.state-pending{ color:var(--wood-dark); opacity:.65; font-weight:400; padding:0; }
+  .desk-window .approval-meta.state-approved{ color:#fff; background:var(--moss); }
+  .desk-window .approval-meta.state-review{ color:#fff; background:var(--terracotta); }
+  @keyframes shed-approval-flash{
+    0%{ box-shadow:0 0 0 5px rgba(58,122,184,.4); }
+    100%{ box-shadow:0 0 0 0 rgba(58,122,184,0); }
+  }
+  .desk-window .approval-meta.flash{ animation:shed-approval-flash 1.1s ease; }
   .desk-window .notes-label{ font-family:'Nunito',sans-serif; font-weight:700; font-size:.78rem; color:var(--wood-dark); display:block; margin-bottom:4px; }
   .desk-window .notes-textarea{
     width:100%; min-height:90px; font-family:'Kalam',cursive; font-size:.95rem; padding:8px 10px;
@@ -213,6 +242,18 @@
     overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0;
   }
   .item-row .send-row{ flex:none; font-size:.78rem; padding:6px 10px; }
+  /* Marks a document that has a pending (unapproved, not yet review-requested-and-resolved)
+     approval notice linked to it -- in a list row, and again inside its own desk panel. */
+  .pending-notice-badge{
+    flex:none; font-family:'Nunito',sans-serif; font-weight:700; font-size:.68rem;
+    color:#fff; background:var(--terracotta); border-radius:6px; padding:3px 7px;
+  }
+  .item-row .pending-notice-badge{ margin-right:4px; }
+  .doc-page .pending-notice-link{
+    display:inline-flex; align-items:center; gap:6px; font-family:'Nunito',sans-serif; font-weight:700;
+    font-size:.82rem; border:1.5px solid var(--terracotta); background:#fff; color:var(--terracotta);
+    border-radius:8px; padding:7px 11px; cursor:pointer; margin:2px 0 14px;
+  }
 
   .item-group{ display:grid; gap:0; }
   .item-card{
@@ -602,6 +643,7 @@
     if(!CONTENT.bin.items.some(function(it){ return it.id === item.id; })){
       CONTENT.bin.items.unshift(item);
     }
+    updateBoardBadge();
   }
 
   // Moves an item from the bin back into its original CONTENT list, after a successful
@@ -612,12 +654,14 @@
     if(item.loc && CONTENT[item.loc]){
       CONTENT[item.loc].items.unshift(item);
     }
+    updateBoardBadge();
   }
 
   function fetchAllItems(pass){
     return sb.rpc("shed_list_items", { p: pass }).then(function(res){
       if(res.error){ throw res.error; }
       applyItems(res.data);
+      updateBoardBadge();
     });
   }
 
@@ -701,10 +745,16 @@
       node.style.left = h.cx + "%";
       node.style.top = h.cy + "%";
       node.textContent = h.icon;
+      node.dataset.key = h.key;
       var tag = document.createElement("span");
       tag.className = "tag";
       tag.textContent = h.label;
       node.appendChild(tag);
+      if(h.key === "board"){
+        var badge = document.createElement("span");
+        badge.className = "hotspot-badge";
+        node.appendChild(badge);
+      }
       node.setAttribute("aria-label", h.label);
       node.addEventListener("click", function(){ openPanel(h.key, stageEl); });
       stageEl.appendChild(node);
@@ -849,13 +899,41 @@
     return null;
   }
 
+  // Notices always live in CONTENT.board (shed_add_notice always inserts location='board').
+  // "Pending" here means still awaiting a decision either way -- approved is its own resolved
+  // state, so an approved notice no longer counts even though requiresApproval stays true.
+  function pendingNoticesFor(documentId){
+    return (CONTENT.board.items || []).filter(function(it){
+      return it.requiresApproval && !it.approved && it.linkedItemId === documentId;
+    });
+  }
+
+  // Refreshes the small red count badge on the Notice Board hotspot (both stages) to the
+  // number of notices still awaiting a decision. Call this after anything that can change
+  // that count: initial load, a new notice pinned, an approval/review-request saved, or a
+  // notice deleted/restored.
+  function updateBoardBadge(){
+    var count = (CONTENT.board.items || []).filter(function(it){ return it.requiresApproval && !it.approved; }).length;
+    document.querySelectorAll('.hotspot[data-key="board"] .hotspot-badge').forEach(function(el){
+      el.textContent = String(count);
+      el.classList.toggle("show", count > 0);
+    });
+  }
+
   function layoutDeskWindows(stageEl){
     var wins = stageEl._deskWindows || [];
     wins.forEach(function(w, idx){
-      var rankFromFront = wins.length - 1 - idx;
-      var off = rankFromFront * DESK_STAGGER_STEP;
-      w.el.style.right = (16 + off) + "px";
-      w.el.style.bottom = (16 + off) + "px";
+      if(w.state === "panel" && w.maximized){
+        // Maximized panels are positioned entirely by the .maximized CSS rule --
+        // clear any inline stagger offset so it doesn't win the cascade.
+        w.el.style.right = "";
+        w.el.style.bottom = "";
+      } else {
+        var rankFromFront = wins.length - 1 - idx;
+        var off = rankFromFront * DESK_STAGGER_STEP;
+        w.el.style.right = (16 + off) + "px";
+        w.el.style.bottom = (16 + off) + "px";
+      }
       w.el.style.zIndex = String(100 + idx);
     });
   }
@@ -905,7 +983,7 @@
   // and again on every card<->panel transition and every content refresh.
   function renderDeskWindow(stageEl, win){
     var item = win.item;
-    win.el.className = "desk-window " + win.state;
+    win.el.className = "desk-window " + win.state + (win.state === "panel" && win.maximized ? " maximized" : "");
     win.el.innerHTML = "";
     win.el.addEventListener("mousedown", function(){ bringDeskWindowToFront(stageEl, win); });
 
@@ -914,6 +992,47 @@
     var titleEl = document.createElement("b");
     titleEl.textContent = item.title;
     titlebar.appendChild(titleEl);
+
+    var titlebtns = document.createElement("div");
+    titlebtns.className = "dw-titlebtns";
+
+    if(win.state === "panel"){
+      // Cycle button: only shown when another expanded window is open, so you can hop
+      // between currently-open docs/notices without minimizing first.
+      var otherPanels = (stageEl._deskWindows || []).filter(function(w){ return w !== win && w.state === "panel"; });
+      if(otherPanels.length){
+        var cycleBtn = document.createElement("button");
+        cycleBtn.type = "button";
+        cycleBtn.className = "dw-titlebtn";
+        cycleBtn.innerHTML = "&#8644;";
+        cycleBtn.setAttribute("aria-label", "Switch to next open document or notice");
+        cycleBtn.title = "Switch to next open document/notice";
+        cycleBtn.addEventListener("click", function(e){
+          e.stopPropagation();
+          var panels = stageEl._deskWindows.filter(function(w){ return w.state === "panel"; });
+          var idx = panels.indexOf(win);
+          bringDeskWindowToFront(stageEl, panels[(idx + 1) % panels.length]);
+        });
+        titlebtns.appendChild(cycleBtn);
+      }
+
+      // Maximize/restore toggle: expands the panel to fill most of the screen for easier
+      // reading, without changing its state (still "panel" -- minimize still works normally).
+      var maxBtn = document.createElement("button");
+      maxBtn.type = "button";
+      maxBtn.className = "dw-titlebtn";
+      maxBtn.innerHTML = "&#10530;";
+      maxBtn.setAttribute("aria-label", win.maximized ? "Restore size" : "Expand to full screen");
+      maxBtn.title = win.maximized ? "Restore size" : "Expand to full screen";
+      maxBtn.addEventListener("click", function(e){
+        e.stopPropagation();
+        win.maximized = !win.maximized;
+        renderDeskWindow(stageEl, win);
+        layoutDeskWindows(stageEl);
+        bringDeskWindowToFront(stageEl, win);
+      });
+      titlebtns.appendChild(maxBtn);
+    }
 
     var titlebtn = document.createElement("button");
     titlebtn.type = "button";
@@ -934,11 +1053,14 @@
       titlebtn.addEventListener("click", function(e){
         e.stopPropagation();
         win.state = "card";
+        win.maximized = false;
         renderDeskWindow(stageEl, win);
+        layoutDeskWindows(stageEl);
         bringDeskWindowToFront(stageEl, win);
       });
     }
-    titlebar.appendChild(titlebtn);
+    titlebtns.appendChild(titlebtn);
+    titlebar.appendChild(titlebtns);
     win.el.appendChild(titlebar);
 
     var body = document.createElement("div");
@@ -1082,16 +1204,34 @@
         block.appendChild(linkBtn);
       }
 
-      function approvalMetaText(){
+      // Sets both the meta line's text AND a state-<x> class (state-pending/state-approved/
+      // state-review -- see the CSS) so the outcome of Save/Request Review is visible as a
+      // color change, not just a small line of text easy to miss. `flash` (true after a
+      // successful save, false on first render) briefly outlines the line so the change
+      // catches the eye even before it's read.
+      function updateApprovalMeta(flash){
+        var text, state;
         if(item.approved){
           var approvedWhen = item.approvedAt ? fmtSavedDate(item.approvedAt).replace("Saved ", "") : "";
-          return "Approved" + (item.approvedBy ? " by " + item.approvedBy : "") + (approvedWhen ? " on " + approvedWhen : "");
-        }
-        if(item.reviewRequested){
+          text = "✓ Approved" + (item.approvedBy ? " by " + item.approvedBy : "") + (approvedWhen ? " on " + approvedWhen : "");
+          state = "approved";
+        } else if(item.reviewRequested){
           var reviewWhen = item.reviewRequestedAt ? fmtSavedDate(item.reviewRequestedAt).replace("Saved ", "") : "";
-          return "Review requested" + (item.reviewRequestedBy ? " by " + item.reviewRequestedBy : "") + (reviewWhen ? " on " + reviewWhen : "");
+          text = "⚑ Review requested" + (item.reviewRequestedBy ? " by " + item.reviewRequestedBy : "") + (reviewWhen ? " on " + reviewWhen : "");
+          state = "review";
+        } else {
+          text = "Not yet approved.";
+          state = "pending";
         }
-        return "Not yet approved.";
+        meta.textContent = text;
+        meta.className = "approval-meta state-" + state;
+        if(flash){
+          // Re-trigger the CSS animation even if the class never changed (e.g. Save with the
+          // checkbox already in the same position) by removing and re-adding it next frame.
+          meta.classList.remove("flash");
+          void meta.offsetWidth;
+          meta.classList.add("flash");
+        }
       }
 
       var checkWrap = document.createElement("label");
@@ -1107,8 +1247,8 @@
 
       var meta = document.createElement("div");
       meta.className = "approval-meta";
-      meta.textContent = approvalMetaText();
       block.appendChild(meta);
+      updateApprovalMeta(false);
 
       var notesLabel = document.createElement("label");
       notesLabel.className = "notes-label";
@@ -1162,7 +1302,8 @@
           }
         }
         check.checked = !!item.approved;
-        meta.textContent = approvalMetaText();
+        updateApprovalMeta(true);
+        updateBoardBadge();
       }
 
       function persistApproval(isApproved, noteText){
@@ -1196,6 +1337,22 @@
       });
 
       body.appendChild(block);
+    } else if(item.id != null){
+      // The reverse direction of the notice's own "Review: <document>" button: if some
+      // notice is still awaiting a decision and links to *this* item, say so here and offer
+      // a one-click way to open that notice, so approval status is visible from either side.
+      var pending = pendingNoticesFor(item.id);
+      if(pending.length){
+        var pendingBtn = document.createElement("button");
+        pendingBtn.type = "button";
+        pendingBtn.className = "pending-notice-link";
+        pendingBtn.innerHTML = "⚑ " + (pending.length === 1 ? "1 approval notice pending" : (pending.length + " approval notices pending"));
+        pendingBtn.addEventListener("click", function(e){
+          e.stopPropagation();
+          addToDesk(stageEl, pending[0]);
+        });
+        body.appendChild(pendingBtn);
+      }
     }
   }
 
@@ -1293,6 +1450,16 @@
         titleEl.className = "item-row-title";
         titleEl.textContent = item.title;
         row.appendChild(titleEl);
+
+        // A small flag, not a preview -- consistent with keeping this list to title + Send
+        // to Desktop only, but worth surfacing since otherwise the only way to know a
+        // document has a notice awaiting a decision is to find that notice first.
+        if(!item.requiresApproval && item.id != null && pendingNoticesFor(item.id).length){
+          var pendingBadge = document.createElement("span");
+          pendingBadge.className = "pending-notice-badge";
+          pendingBadge.textContent = "⚑ Pending";
+          row.appendChild(pendingBadge);
+        }
 
         var sendBtn = document.createElement("button");
         sendBtn.type = "button";
@@ -2141,6 +2308,7 @@
         }
         var item = itemFromRow(res.data, "board");
         CONTENT.board.items.unshift(item);
+        updateBoardBadge();
         close();
         addToDesk(stageEl, item);
       });

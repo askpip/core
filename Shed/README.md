@@ -329,12 +329,21 @@ approvals without that approval automatically rewriting anything in Core.
   Pinning the notice calls `shed_add_notice` instead of `shed_add_item`.
 - **Approving or requesting review**: an expanded notice panel with
   `requiresApproval` shows an approval checkbox (its label switches
-  between "Not yet approved.", "Approved by ... on ...", and "Review
-  requested by ... on ..." — `renderDeskPanelBody`'s `approvalMetaText`),
+  between "Not yet approved.", "✓ Approved by ... on ...", and "⚑ Review
+  requested by ... on ..." — `renderDeskPanelBody`'s `updateApprovalMeta`),
   a notes textarea, and two buttons: **Save** (persists the notes
   alongside the checkbox's current state, via `shed_set_notice_approval`)
   and **Request Review** (submits the notes as a review request via
   `shed_request_notice_review`, regardless of the checkbox).
+  `updateApprovalMeta` gives each of the three states its own colour
+  (grey/pending, green/approved, terracotta/review-requested) and briefly
+  flashes the line after every successful Save or Request Review, added
+  2026-09-09 after a report that Request Review appeared to "do nothing"
+  — a direct database check confirmed the RPC had worked correctly all
+  along (the row really was flagged for review); the only problem was
+  that the only visible change had been one line of small grey text, easy
+  to miss when the checkbox itself didn't change. This is purely a
+  feedback fix, not a backend change.
 - **Deliberately scoped as a shed-side record only** — approving or
   requesting review on a notice does **not** write anything back to the
   Core document or to git. The Founder chose this explicitly: the shed's
@@ -350,6 +359,61 @@ approvals without that approval automatically rewriting anything in Core.
   `review_requested_at`, `linked_item_id`, and `notes` directly off
   `shed_items` to check or report on approval status, without needing the
   shed's UI.
+
+## Notice/approval workflow, phase 2 (added 2026-09-09)
+
+Four follow-up pieces, all requested together after the first
+approval-required notice (for `Foundations/Founding_Principles.md`) went
+live, to make pending approvals harder to miss and expanded desk windows
+easier to read side by side.
+
+- **Notice Board hotspot badge**: a small red count badge now sits on the
+  Notice Board hotspot itself (both mobile and desktop scenes) whenever
+  one or more notices are pending (`requires_approval` true, `approved`
+  false) — `updateBoardBadge()` recomputes and shows/hides it after
+  every fetch, and after any action that can change a notice's pending
+  state (approving, requesting review, pinning a new notice, moving a
+  notice to or from the Recycle Bin).
+- **Auto-created to-do on every approval-required notice** (migration
+  `shed_notice_auto_todo_trigger`, plus a follow-up
+  `shed_notice_auto_todo_trigger_grants` migration tightening its
+  grants): an `AFTER INSERT` trigger on `shed_items`,
+  `shed_items_notice_todo_trg` → `shed_notice_requires_approval_todo()`,
+  fires whenever a row is inserted with `requires_approval = true` and
+  inserts a matching `shed_todos` row ("Review & approve: <linked
+  document's title, or the notice's own title if unlinked> (see Notice
+  Board)") plus its opening `shed_todo_status_log` entry — the same
+  manual step done by hand for the first notice, now automatic for every
+  notice created afterwards, including ones created directly via SQL
+  rather than through `shed_add_notice`. The trigger function is
+  `SECURITY DEFINER` (needs write access to `shed_todos`/
+  `shed_todo_status_log` regardless of who or what inserted the notice)
+  but its direct-execute grants were revoked from `public`/`anon`/
+  `authenticated` — Postgres already refuses to invoke a trigger function
+  outside a real trigger context, so this only removes it from showing up
+  as an anon-callable RPC in the security advisors, without changing what
+  it can actually be made to do.
+- **Document-side pending-notice indicator**: the reverse direction of
+  the existing "View linked document" button on a notice. A new
+  `pendingNoticesFor(documentId)` helper finds any not-yet-approved
+  notice linked to a given document, and two places surface it: a "⚑
+  Pending" badge next to a document's title in any list view (Notice
+  Board/File Cabinet/Bookshelf row) that has one, and, inside a
+  document's own expanded desk panel, a "⚑ N approval notice(s) pending"
+  button that opens the first one on the desk — so finding the notice for
+  a document you're already looking at doesn't require going back to the
+  Notice Board first.
+- **Full-screen expand and cross-panel cycle buttons**: every expanded
+  (panel-state) desk window's titlebar now has two extra buttons next to
+  the existing minimize (↓) button, grouped in a `.dw-titlebtns` wrapper:
+  an expand-to-full-screen toggle (⤢, `win.maximized`, applying the
+  `.desk-window.panel.maximized` CSS rule which sizes the panel to ~96%
+  of the screen) for easier reading of long documents, and — shown only
+  when another panel is already open — a cycle button (⇄) that jumps
+  focus to the next open panel in stacking order, so switching between
+  several expanded docs/notices doesn't require minimizing one first.
+  Minimizing a maximized panel resets `maximized` back to `false`, so a
+  re-expand always starts at the normal windowed size.
 
 ## List views show title + Send to Desktop only (changed 2026-09-09)
 
@@ -390,10 +454,16 @@ Founder's direction was specific to these three locations.
   document, or have review requested instead (concerns/changes/
   disagreements, with notes); approval/review state is recorded in the
   shed and retrievable by an AI session, without writing back to the Core
-  document itself
+  document itself; a matching to-do task is created automatically
+  whenever such a notice is created; the Notice Board hotspot carries a
+  live pending-count badge; a linked document shows its own pending-
+  notice indicator; and approving/requesting review gives unmistakable
+  colour + flash feedback
 - List views (Notice Board, File Cabinet, Bookshelf) show only a title
   and a "Send to Desktop" button — no inline preview, no edit-in-place;
   viewing and editing happen only in a desk window
+- Expanded desk windows can be toggled full-screen for easier reading,
+  and cycled between when more than one is open at once
 
 ## What's next
 
