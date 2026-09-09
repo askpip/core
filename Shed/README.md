@@ -522,6 +522,102 @@ rendered rect (not just against the raw source art) — accounting for
 whatever letterboxing/cropping the mobile stage applies — before
 shipping.
 
+## Mobile badge text + hotspot fine-tuning, and a hotspot-calibration bug fix (2026-09-09)
+
+Three small requests, plus one real bug found while doing them:
+
+- **"Signed in as {name}" badge** now just shows the bare name. On
+  mobile the full "Signed in as ..." text was wide enough to collide
+  with Pip's speech bubble on the opposite side of the header — and
+  since being on this page at all already implies you're signed in,
+  the "Signed in as" prefix was redundant. `updateActiveUserBadge()`
+  in `template.html` now sets `el.textContent = name` directly.
+- **Three mobile hotspots nudged** by a physical amount the Founder
+  judged by eye on their own phone: `deskpad` (pen) 5mm left, `rug`
+  (Info/feet) 10mm right, `calendar` 5mm up. Converted using the CSS
+  reference-pixel definition (1mm = 96/25.4px ≈ 3.7795px) against the
+  mobile stage's own box (390×844 at the reference viewport used for
+  verification) — `cx`/`cy` are percentages of that box, so a move of
+  N mm is `N*3.7795/390*100` percentage points horizontally or
+  `N*3.7795/844*100` vertically.
+- **Bug found and fixed**: the previous entry below ("Mobile desk scene
+  art brought in line with desktop") calibrated `todo`, `board`, and
+  `deskpad` by picking a pixel on the raw `scene-mobile.jpg` file and
+  using its percentage of the *source image* (896×1200) directly as
+  the hotspot's `cx`/`cy` — i.e. percentage of the *stage*. Those are
+  not the same thing on mobile: `#stageMobile .scene-bg` is
+  deliberately zoomed relative to the stage (`width:125%; left:-12.5%`,
+  vertically centered) so a phone screen shows a bit more of the
+  bookshelf. A raw source-image percentage only equals the correct
+  stage percentage where that zoom transform happens to cancel out
+  (near the middle of the frame) — which is why `calendar` and `rug`
+  (calibrated earlier, independently, against the rendered page) were
+  unaffected, but `todo`, `board`, and `deskpad` were each off by
+  several percentage points once actually checked against the built
+  page rather than the source file. `deskpad` in particular had drifted
+  onto the empty desk below the pen rather than the pen itself.
+
+  Fixed by converting through the `scene-bg` box explicitly instead of
+  assuming a 1:1 mapping: on a 390×844 stage the box renders at
+  `x:-48.75 y:95.5546875 w:487.5 h:652.890625`, so a source pixel
+  `(px,py)` on the 896×1200 art maps to stage percentage
+  `((boxX + px/896*boxW)/390*100, (boxY + py/1200*boxH)/844*100)`. This
+  ratio holds at any stage size since the box's own offsets are
+  percentages of the stage. A comment with this formula is now next to
+  `HOTSPOTS` in `template.html` so this doesn't get re-broken.
+
+  Corrected + nudged values:
+  - `todo`: `cx:55.6, cy:38.8` → `cx:57.0, cy:41.3` (calibration fix
+    only, no nudge requested)
+  - `board`: `cx:57.5, cy:45.7` → `cx:59.3, cy:46.6` (calibration fix
+    only, no nudge requested)
+  - `deskpad`: `cx:21.2, cy:81.2` → `cx:9.2, cy:74.2` (calibration fix
+    + 5mm left)
+  - `rug`: `cx:50, cy:59` → `cx:59.7, cy:59` (10mm right; baseline was
+    already correct)
+  - `calendar`: `cx:78, cy:48` → `cx:78, cy:45.8` (5mm up; baseline was
+    already correct)
+
+  Verified for real this time: loaded the actual built `index.html` in
+  a headless browser at the mobile reference viewport, hid the lock
+  screen, hid the hotspot layer to get a clean shot of the art alone,
+  and cropped tightly around each target (pen, both corkboard notes,
+  the rug, the calendar) with a fine pixel grid to read off its true
+  on-screen bounds — then confirmed each hotspot's computed position
+  lands inside those bounds against the real render, not the source
+  file.
+
+## Desk notebook given aesthetic text; a device-sync gotcha caught (2026-09-09)
+
+`art/scene-desktop.jpg` and `art/scene-mobile.jpg` were swapped for two
+new versions with the same dimensions and content, except the open
+notebook now reads "Growing Understanding, Cultivating Confidence." in
+handwriting — a purely cosmetic addition confirmed by diffing old vs.
+new pixel-by-pixel: outside the notebook's text area, differences were
+only the same harmless whole-image JPEG re-encoding noise already
+documented above, not any change in layout. No hotspot recalibration
+was needed as a result (confirmed empirically against the real
+rendered page, not assumed).
+
+**New gotcha found while committing the art**: after the first
+`device_commit_files` call for `scene-mobile.jpg`, the file's on-device
+byte size changed to a new, plausible-looking value — indistinguishable
+at a glance from the harmless re-encoding pattern documented under the
+desk-scene-art update above. This time it wasn't harmless: staging the
+file back down and comparing it pixel-for-pixel against what was meant
+to be uploaded showed the device still had the *old* artwork (no
+notebook text at all), not the new one — the write had silently not
+taken, despite the tool reporting success and a byte count that looked
+like ordinary re-encoding drift. A second `device_commit_files` (with
+`force: true`) followed by staging the result back down and diffing it
+against the intended source confirmed a pixel-perfect match the second
+time. Lesson: a changed-but-plausible byte size on a re-committed
+binary/image file is not, on its own, evidence the write actually
+happened — for an image, staging the on-device copy back down and
+diffing its actual pixels (not just comparing byte counts) is the only
+reliable check, the same way a text file's exact byte count is checked
+after every commit.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI

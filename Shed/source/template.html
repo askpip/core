@@ -549,13 +549,15 @@
     if(!d) return "";
     return item.updatedBy ? (d + " by " + item.updatedBy) : d;
   }
-  // Updates every "Signed in as ..." badge on the page. Called once the passphrase has
-  // been resolved to a name at unlock time.
+  // Updates every active-user badge on the page. Called once the passphrase has been
+  // resolved to a name at unlock time. Just the name, not "Signed in as <name>" -- being on
+  // this page at all already implies you're signed in, and the shorter badge leaves enough
+  // room on mobile to not overlap Pip's speech bubble on the opposite side of the header.
   function updateActiveUserBadge(){
     var name = window.SHED_ACTIVE_USER;
     document.querySelectorAll(".active-user-badge").forEach(function(el){
       if(name){
-        el.textContent = "Signed in as " + name;
+        el.textContent = name;
         el.style.display = "block";
       } else {
         el.style.display = "none";
@@ -713,17 +715,29 @@
 
   showLock();
 
-  // Hotspots are small round buttons centered on a single point (cx, cy as % of the stage).
-  // Nudge these two numbers per item to re-align with the artwork.
+  // Hotspots are small round buttons centered on a single point (cx, cy as % of the STAGE
+  // box, i.e. the full .stage element -- NOT a percentage of the source art image).
+  // IMPORTANT (mobile only): #stageMobile .scene-bg is deliberately zoomed relative to the
+  // stage (width:125%, left:-12.5%, vertically centered) so a phone screen shows a bit more
+  // of the bookshelf -- see the comment on that rule above. Because of that zoom, "58% across
+  // the source image" is NOT the same point as "58% across the stage". To calibrate a mobile
+  // hotspot from a pixel picked in the raw art file (896x1200 for scene-mobile.jpg), convert
+  // through the scene-bg box first:
+  //   scene-bg box on a 390x844 stage = x:-48.75 y:95.5546875 w:487.5 h:652.890625
+  //   displayedX = boxX + (pixelX/896)*boxW;  stageCx% = displayedX/390*100
+  //   displayedY = boxY + (pixelY/1200)*boxH; stageCy% = displayedY/844*100
+  // (the box's own % offsets scale with any stage size, so this ratio holds on any phone.)
+  // Nudge these two numbers per item to re-align with the artwork -- verify against the
+  // actual rendered mobile stage (not the raw art file) before shipping a change.
   var HOTSPOTS = {
     mobile: [
-      {key:"board", label:"Notice Board", icon:"📌", cx:57.5, cy:45.7},
-      {key:"todo", label:"To-Do List", icon:"✅", cx:55.6, cy:38.8},
-      {key:"calendar", label:"Calendar", icon:"📅", cx:78, cy:48},
+      {key:"board", label:"Notice Board", icon:"📌", cx:59.3, cy:46.6},
+      {key:"todo", label:"To-Do List", icon:"✅", cx:57.0, cy:41.3},
+      {key:"calendar", label:"Calendar", icon:"📅", cx:78, cy:45.8},
       {key:"bookshelf", label:"Bookshelf", icon:"📚", cx:96, cy:42},
       {key:"cabinet", label:"File Cabinet", icon:"🗄️", cx:5, cy:55},
-      {key:"rug", label:"Info", icon:"👣", cx:50, cy:59},
-      {key:"deskpad", label:"Notepad", icon:"✎", cx:21.2, cy:81.2},
+      {key:"rug", label:"Info", icon:"👣", cx:59.7, cy:59},
+      {key:"deskpad", label:"Notepad", icon:"✎", cx:9.2, cy:74.2},
       {key:"bin", label:"Recycle Bin", icon:"🗑️", cx:95, cy:56}
     ],
     desktop: [
