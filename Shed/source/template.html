@@ -199,6 +199,21 @@
   .empty-note{ font-family:'Kalam',cursive; color:var(--wood-dark); opacity:.8; margin:6px 2px 14px; }
 
   .item-list{ display:grid; gap:8px; }
+
+  /* A row in the Notice Board / File Cabinet / Bookshelf item list: title + "Send to
+     Desktop" only, no preview -- see buildItemListEl's comment for why. */
+  .item-row{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    background:var(--card); border:1px solid var(--pip-border); border-radius:8px;
+    padding:10px 12px; font-family:'Nunito',sans-serif; font-size:.9rem;
+  }
+  .item-row:hover{ background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.15); }
+  .item-row-title{
+    font-family:'Kalam',cursive; font-size:1rem; color:var(--wood-dark);
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0;
+  }
+  .item-row .send-row{ flex:none; font-size:.78rem; padding:6px 10px; }
+
   .item-group{ display:grid; gap:0; }
   .item-card{
     text-align:left; width:100%; background:var(--card); border:1px solid var(--pip-border); border-radius:8px;
@@ -369,6 +384,8 @@
   }
   .doc-page h4{ font-size:1.3rem; margin:0 0 4px; color:var(--wood-dark); }
   .doc-page .doc-date{ display:block; font-family:'Nunito',sans-serif; font-size:.78rem; color:var(--wood); opacity:.8; margin-bottom:12px; }
+  .doc-page .notice-subtitle{ font-family:'Nunito',sans-serif; font-weight:700; font-size:.95rem; color:var(--wood-dark); opacity:.85; margin:0 0 4px; }
+  .doc-page .notice-created{ font-family:'Nunito',sans-serif; font-size:.75rem; color:var(--wood); opacity:.75; margin:0 0 12px; }
 
   .create-form textarea{
     width:100%; min-height:160px; font-family:'Kalam',cursive; font-size:1rem; padding:10px;
@@ -561,9 +578,10 @@
       if(!CONTENT[loc]) return;
       var item = {
         id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: loc,
-        updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by,
+        createdAt: row.created_at, updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by,
         requiresApproval: row.requires_approval, linkedItemId: row.linked_item_id,
-        approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes
+        approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes,
+        reviewRequested: row.review_requested, reviewRequestedBy: row.review_requested_by, reviewRequestedAt: row.review_requested_at
       };
       if(row.deleted_at){
         CONTENT.bin.items.push(item);
@@ -928,7 +946,12 @@
     win.el.appendChild(body);
 
     if(win.state === "card"){
-      body.textContent = item.body.length > 90 ? item.body.slice(0, 90) + "..." : item.body;
+      if(item.requiresApproval){
+        var linkedForCard = item.linkedItemId ? findItemById(item.linkedItemId) : null;
+        body.textContent = "Re: " + (linkedForCard ? linkedForCard.title : (item.linkedItemId ? ("Document #" + item.linkedItemId) : "no document linked"));
+      } else {
+        body.textContent = item.body.length > 90 ? item.body.slice(0, 90) + "..." : item.body;
+      }
       var expandBtn = document.createElement("button");
       expandBtn.type = "button";
       expandBtn.className = "dw-expand";
@@ -953,9 +976,21 @@
     var item = win.item;
     var editable = item.source === "user" && item.id;
 
+    // A notice with requiresApproval gets two extra lines above the usual "Saved ..." line:
+    // a subtitle naming the document it concerns (read live off the linked item, so it always
+    // matches that document's current title rather than a stale copy) and a "Created ..."
+    // line, plus a heading over its body text so that text reads as "things to be aware of"
+    // rather than an unlabelled paragraph.
+    var noticeSubtitleHtml = "", noticeCreatedHtml = "", bodyHeadingHtml = "";
+    if(item.requiresApproval){
+      noticeSubtitleHtml = '<div class="notice-subtitle"></div>';
+      noticeCreatedHtml = '<div class="notice-created"></div>';
+      bodyHeadingHtml = '<label class="notes-label" style="margin-top:2px;">Things to be aware of</label>';
+    }
+
     body.innerHTML =
       (editable ? '<div class="actions"><button class="btn ghost edit-item">Edit</button><button class="btn danger delete-item">Delete</button></div>' : '') +
-      '<div class="doc-page view-mode"><h4></h4><span class="doc-date"></span><div class="body"></div></div>' +
+      '<div class="doc-page view-mode"><h4></h4>' + noticeSubtitleHtml + noticeCreatedHtml + '<span class="doc-date"></span>' + bodyHeadingHtml + '<div class="body"></div></div>' +
       (editable ?
         '<div class="edit-mode" style="display:none;">' +
           '<input type="text" class="edit-title">' +
@@ -965,6 +1000,11 @@
     body.querySelector(".doc-page h4").textContent = item.title;
     body.querySelector(".doc-page .body").textContent = item.body;
     body.querySelector(".doc-page .doc-date").textContent = item.source === "user" ? fmtSavedLine(item) : "";
+    if(item.requiresApproval){
+      var linkedForSubtitle = item.linkedItemId ? findItemById(item.linkedItemId) : null;
+      body.querySelector(".notice-subtitle").textContent = linkedForSubtitle ? linkedForSubtitle.title : (item.linkedItemId ? ("Document #" + item.linkedItemId) : "(no document linked)");
+      body.querySelector(".notice-created").textContent = "Created " + (fmtSavedDate(item.createdAt).replace("Saved ", "") || "date unknown");
+    }
 
     if(editable){
       var viewMode = body.querySelector(".view-mode");
@@ -1043,9 +1083,15 @@
       }
 
       function approvalMetaText(){
-        if(!item.approved) return "Not yet approved.";
-        var when = item.approvedAt ? fmtSavedDate(item.approvedAt).replace("Saved ", "") : "";
-        return "Approved" + (item.approvedBy ? " by " + item.approvedBy : "") + (when ? " on " + when : "");
+        if(item.approved){
+          var approvedWhen = item.approvedAt ? fmtSavedDate(item.approvedAt).replace("Saved ", "") : "";
+          return "Approved" + (item.approvedBy ? " by " + item.approvedBy : "") + (approvedWhen ? " on " + approvedWhen : "");
+        }
+        if(item.reviewRequested){
+          var reviewWhen = item.reviewRequestedAt ? fmtSavedDate(item.reviewRequestedAt).replace("Saved ", "") : "";
+          return "Review requested" + (item.reviewRequestedBy ? " by " + item.reviewRequestedBy : "") + (reviewWhen ? " on " + reviewWhen : "");
+        }
+        return "Not yet approved.";
       }
 
       var checkWrap = document.createElement("label");
@@ -1081,7 +1127,43 @@
       saveNotesBtn.className = "btn";
       saveNotesBtn.textContent = "Save";
       saveRow.appendChild(saveNotesBtn);
+      var reviewBtn = document.createElement("button");
+      reviewBtn.type = "button";
+      reviewBtn.className = "btn alt";
+      reviewBtn.textContent = "Request Review";
+      saveRow.appendChild(reviewBtn);
       block.appendChild(saveRow);
+      var reviewHint = document.createElement("p");
+      reviewHint.className = "empty-note";
+      reviewHint.style.margin = "6px 0 0";
+      reviewHint.style.fontSize = ".76rem";
+      reviewHint.textContent = "\"Request Review\" flags this notice as needing another look -- for requests, changes, or disagreements raised in the notes above -- and clears any existing approval.";
+      block.appendChild(reviewHint);
+
+      // Applies a shed_items row (from either RPC below) back onto item/CONTENT/the visible
+      // approval meta line -- shared by both the approve/unapprove path and the
+      // request-review path, since both return the same shape and touch the same fields.
+      function applyApprovalRow(row){
+        item.approved = row.approved;
+        item.approvedBy = row.approved_by;
+        item.approvedAt = row.approved_at;
+        item.reviewRequested = row.review_requested;
+        item.reviewRequestedBy = row.review_requested_by;
+        item.reviewRequestedAt = row.review_requested_at;
+        item.notes = row.notes;
+        item.updatedAt = row.updated_at;
+        item.updatedBy = row.updated_by;
+        if(item.loc && CONTENT[item.loc]){
+          var found = CONTENT[item.loc].items.find(function(it){ return it.id === item.id; });
+          if(found){
+            found.approved = item.approved; found.approvedBy = item.approvedBy; found.approvedAt = item.approvedAt;
+            found.reviewRequested = item.reviewRequested; found.reviewRequestedBy = item.reviewRequestedBy; found.reviewRequestedAt = item.reviewRequestedAt;
+            found.notes = item.notes;
+          }
+        }
+        check.checked = !!item.approved;
+        meta.textContent = approvalMetaText();
+      }
 
       function persistApproval(isApproved, noteText){
         return sb.rpc("shed_set_notice_approval", { p: window.SHED_PASSPHRASE, item_id: item.id, is_approved: isApproved, note_text: noteText }).then(function(res){
@@ -1089,17 +1171,7 @@
             alert("Couldn't save that. Please try again.");
             return;
           }
-          item.approved = res.data.approved;
-          item.approvedBy = res.data.approved_by;
-          item.approvedAt = res.data.approved_at;
-          item.notes = res.data.notes;
-          item.updatedAt = res.data.updated_at;
-          item.updatedBy = res.data.updated_by;
-          if(item.loc && CONTENT[item.loc]){
-            var found = CONTENT[item.loc].items.find(function(it){ return it.id === item.id; });
-            if(found){ found.approved = item.approved; found.approvedBy = item.approvedBy; found.approvedAt = item.approvedAt; found.notes = item.notes; }
-          }
-          meta.textContent = approvalMetaText();
+          applyApprovalRow(res.data);
         });
       }
 
@@ -1110,6 +1182,17 @@
       saveNotesBtn.addEventListener("click", function(){
         saveNotesBtn.disabled = true;
         persistApproval(check.checked, notesArea.value).then(function(){ saveNotesBtn.disabled = false; });
+      });
+      reviewBtn.addEventListener("click", function(){
+        reviewBtn.disabled = true;
+        sb.rpc("shed_request_notice_review", { p: window.SHED_PASSPHRASE, item_id: item.id, note_text: notesArea.value }).then(function(res){
+          reviewBtn.disabled = false;
+          if(res.error){
+            alert("Couldn't save that. Please try again.");
+            return;
+          }
+          applyApprovalRow(res.data);
+        });
       });
 
       body.appendChild(block);
@@ -1189,117 +1272,39 @@
     overlay.querySelector(".closebtn").addEventListener("click", close);
 
     // getItems is a function (not a plain array) so the list can be recomputed fresh
-    // after an edit/delete changes the underlying CONTENT arrays.
-    // Builds a ".item-list" element for `items`, wired up with the same Send to
-    // desk/Edit/Delete/expand behavior everywhere an item list appears (a flat cabinet
-    // folder, a cabinet folder that also has items filed directly in it, the bookshelf,
-    // the board, ...). `refresh` is called after a save/delete so the caller can redraw
-    // however much of the screen depends on it (just this list, or the whole level).
+    // after content changes. Builds a ".item-list" element for `items`, used everywhere an
+    // item list appears (a flat cabinet folder, a cabinet folder that also has items filed
+    // directly in it, the bookshelf, the board, ...).
+    //
+    // Deliberately minimal, per the Founder's direction (9 September 2026): a list appearing
+    // in the Notice Board, File Cabinet or Bookshelf shows only an item's title and a "Send
+    // to Desktop" button -- no inline preview, no expand-in-place, no Edit/Delete here.
+    // Viewing, editing and deleting all happen only once an item is open on the desk (see
+    // renderDeskPanelBody) -- that's the one and only place an item can be edited. `refresh`
+    // is accepted for call-site compatibility but no longer used internally.
     function buildItemListEl(items, refresh){
       var list = document.createElement("div");
       list.className = "item-list";
       items.forEach(function(item){
-        var group = document.createElement("div");
-        group.className = "item-group";
+        var row = document.createElement("div");
+        row.className = "item-row";
 
-        var card = document.createElement("button");
-        card.type = "button";
-        card.className = "item-card";
-        var savedLine = item.source === "user" ? fmtSavedLine(item) : "";
-        card.innerHTML = "<b>" + item.title + "</b>" +
-          (savedLine ? '<span class="item-date">' + savedLine + '</span>' : "") +
-          item.body.slice(0, 60) + (item.body.length > 60 ? "..." : "");
+        var titleEl = document.createElement("span");
+        titleEl.className = "item-row-title";
+        titleEl.textContent = item.title;
+        row.appendChild(titleEl);
 
-        var editable = item.source === "user";
-        var detail = document.createElement("div");
-        detail.className = "detail";
-        detail.innerHTML =
-          '<div class="actions">' +
-            '<button class="btn send">Send to desk</button>' +
-            (editable ? '<button class="btn ghost edit-item">Edit</button><button class="btn danger delete-item">Delete</button>' : '') +
-            '<button class="btn ghost close-item">Close</button>' +
-          '</div>' +
-          '<div class="view-mode"><p style="margin:0;">' + item.body + '</p></div>' +
-          (editable ?
-            '<div class="edit-mode" style="display:none;">' +
-              '<input type="text" class="edit-title" value="">' +
-              '<textarea class="edit-body"></textarea>' +
-              '<div class="actions" style="border-bottom:none;margin-bottom:0;">' +
-                '<button class="btn save-item">Save</button>' +
-                '<button class="btn ghost cancel-edit">Cancel</button>' +
-              '</div>' +
-            '</div>' : '');
-
-        detail.querySelector(".send").addEventListener("click", function(){
+        var sendBtn = document.createElement("button");
+        sendBtn.type = "button";
+        sendBtn.className = "btn send-row";
+        sendBtn.textContent = "Send to Desktop";
+        sendBtn.addEventListener("click", function(){
           addToDesk(stageEl, item);
           close();
         });
-        detail.querySelector(".close-item").addEventListener("click", function(){
-          group.classList.remove("open");
-        });
+        row.appendChild(sendBtn);
 
-        if(editable){
-          var viewMode = detail.querySelector(".view-mode");
-          var editMode = detail.querySelector(".edit-mode");
-          var titleIn = detail.querySelector(".edit-title");
-          var bodyIn = detail.querySelector(".edit-body");
-
-          detail.querySelector(".edit-item").addEventListener("click", function(){
-            titleIn.value = item.title;
-            bodyIn.value = item.body;
-            viewMode.style.display = "none";
-            editMode.style.display = "block";
-          });
-          detail.querySelector(".cancel-edit").addEventListener("click", function(){
-            editMode.style.display = "none";
-            viewMode.style.display = "block";
-          });
-          detail.querySelector(".save-item").addEventListener("click", function(){
-            var newTitle = titleIn.value.trim() || "Untitled";
-            var newBody = bodyIn.value.trim() || "(no content yet)";
-            var saveBtn = detail.querySelector(".save-item");
-            saveBtn.disabled = true;
-            sb.rpc("shed_update_item", { p: window.SHED_PASSPHRASE, item_id: item.id, ttl: newTitle, bdy: newBody }).then(function(res){
-              saveBtn.disabled = false;
-              if(res.error){
-                alert("Couldn't save those changes. Please try again.");
-                return;
-              }
-              item.title = res.data.title;
-              item.body = res.data.body;
-              item.updatedAt = res.data.updated_at;
-              refresh();
-            });
-          });
-          detail.querySelector(".delete-item").addEventListener("click", function(){
-            if(!confirm('Move "' + item.title + '" to the Recycle Bin?')) return;
-            var delBtn = detail.querySelector(".delete-item");
-            delBtn.disabled = true;
-            sb.rpc("shed_delete_item", { p: window.SHED_PASSPHRASE, item_id: item.id }).then(function(res){
-              delBtn.disabled = false;
-              if(res.error){
-                alert("Couldn't delete that. Please try again.");
-                return;
-              }
-              moveItemToBin(item);
-              refresh();
-            });
-          });
-        }
-
-        card.addEventListener("click", function(){
-          var willOpen = !group.classList.contains("open");
-          // close any other open item in this same list first
-          list.querySelectorAll(".item-group.open").forEach(function(g){ g.classList.remove("open"); });
-          if(willOpen){
-            group.classList.add("open");
-            group.scrollIntoView({block:"nearest", behavior:"smooth"});
-          }
-        });
-
-        group.appendChild(card);
-        group.appendChild(detail);
-        list.appendChild(group);
+        list.appendChild(row);
       });
       return list;
     }
@@ -1971,9 +1976,10 @@
   function itemFromRow(row, loc){
     return {
       id: row.id, title: row.title, body: row.body, folder: row.folder, source: row.source, loc: loc,
-      updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by,
+      createdAt: row.created_at, updatedAt: row.updated_at, createdBy: row.created_by, updatedBy: row.updated_by,
       requiresApproval: row.requires_approval, linkedItemId: row.linked_item_id,
-      approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes
+      approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes,
+      reviewRequested: row.review_requested, reviewRequestedBy: row.review_requested_by, reviewRequestedAt: row.review_requested_at
     };
   }
 

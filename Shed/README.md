@@ -121,27 +121,38 @@ single passphrase.
 ## Document sync from Core
 
 The old Bookshelf content is still a manually seeded, point-in-time copy.
-As of 2026-09-08, File Cabinet documents are different: `Foundations/`,
-`Knowledge Curation System/`, and `Standards/` (every `.md` file, whole
-folders, recursively) sync wholesale into three new File Cabinet folders
-of the same names, kept current automatically. **Live and verified**: the
-first successful run synced all 18 markdown files across the three
-folders (1 in Foundations, 15 in Knowledge Curation System, 2 in
-Standards).
+As of 2026-09-08, File Cabinet documents sync wholesale and automatically
+from Core. **As of 2026-09-09, the synced scope covers the whole
+documentation surface of the repo** — every `.md` file, recursively, under
+`Foundations/`, `Knowledge Curation System/`, `MVP/`, `Standards/`,
+`Working/`, `AI/`, and `Graphics/` — up from the original three folders.
+`App/` (application source code) and `Spike/` (AI experiment scripts) are
+deliberately excluded; neither is something anyone reviews or approves in
+the shed.
+
+**As of 2026-09-09, each synced item's `folder` holds its full relative
+directory path, not just its top-level folder name** — e.g.
+`"Knowledge Curation System/Mother Information Library/ARCs"`, not just
+`"Knowledge Curation System"`. This is what lets the File Cabinet present
+the same nested structure Core itself has (see "Nested File Cabinet"
+below); no schema change was needed for this, since `folder` was already a
+free-text column.
 
 - **`.github/workflows/shed-doc-sync.yml`** (repo root — GitHub only reads
   workflow files from there) — runs on every push to `main` that touches
-  those three folders (or the sync script/workflow itself), plus a manual
-  `workflow_dispatch` trigger for an on-demand re-run.
+  any of the seven synced folders (or the sync script/workflow itself),
+  plus a manual `workflow_dispatch` trigger for an on-demand re-run.
 - **`Shed/github/scripts/shed-doc-sync.mjs`** — the sync script it runs.
   For each `.md` file: title is the first `# Heading`, or the filename if
   there isn't one; body is the raw file content. Upserts into `shed_items`
-  as `location='cabinet'`, `source='synced'`, `folder=<top-level folder
-  name>`, keyed on a new `source_path` column (the file's repo-relative
-  path — see the `shed_items_source_path_uq` migration) so re-runs update
-  in place rather than duplicating. Also deletes any previously-synced row
-  whose file no longer exists in Core, so removed/renamed docs disappear
-  from the shed too.
+  as `location='cabinet'`, `source='synced'`, `folder=<full relative
+  directory path>`, keyed on the `source_path` column (the file's
+  repo-relative path, including filename — see the
+  `shed_items_source_path_uq` migration) so re-runs update in place rather
+  than duplicating, and a moved file (new `source_path`) re-files itself
+  under its new folder rather than leaving a stale duplicate behind. Also
+  deletes any previously-synced row whose file no longer exists in Core,
+  so removed/renamed docs disappear from the shed too.
 - The `source_path` uniqueness is enforced with a plain (non-partial)
   `UNIQUE` constraint — the first version of this migration used a partial
   index (`WHERE source_path IS NOT NULL`), which PostgREST's
@@ -152,13 +163,15 @@ Standards).
 - Synced items are **not user-editable** in the shed (same as `'seed'`
   content) — the existing `editable = item.source === "user"` check
   already excludes anything that isn't `source='user'`, so this needed no
-  UI change, just the new folders in `CABINET_FOLDERS`
-  (`source/template.html`).
+  UI change.
 - Writes go straight to `shed_items` via the Supabase REST API with the
   service-role key (bypasses RLS) — this is a trusted CI job, not a shed
   "user", so it doesn't go through the passphrase-gated RPCs at all.
 - `SUPABASE_SERVICE_ROLE_KEY` and `SUPABASE_URL` are set as repo secrets in
   `askpip/core` (Settings → Secrets and variables → Actions) — done.
+- Images/binary files are deliberately not synced yet — documents first,
+  per an explicit Founder phasing decision (2026-09-09); real image
+  support is a follow-up phase.
 
 ## To-Do List (added 2026-09-08)
 
@@ -199,6 +212,159 @@ with two actions:
   client-side (same as the passphrase itself), so a reload is a full,
   clean log-out back to the lock screen.
 
+## Nested File Cabinet (added 2026-09-09)
+
+The File Cabinet now mirrors Core's own folder structure — the same
+subfolder layers Core has, not a flat list of top-level folders. This
+follows directly from the document-sync change above: since each synced
+item's `folder` is now a full relative path, the cabinet builds a tree by
+splitting that path on `/` and drilling down one level at a time, via two
+small helpers in `source/template.html`:
+
+- **`cabinetChildFolders(items, parentPath)`** — the distinct immediate
+  subfolder names under a given path (or the top level, when `parentPath`
+  is empty).
+- **`cabinetItemsAt(items, path)`** — the items filed directly at exactly
+  that path (not in a deeper subfolder).
+
+`CABINET_FOLDERS` (the top-level entries and their icons) was extended
+from three folders to seven: Foundations, Knowledge Curation System,
+Standards, MVP, Working, AI, Graphics — matching the sync scope. Opening
+the cabinet, or drilling into any folder, now renders via
+`renderCabinetLevel(path, onBack)`: it shows a subfolder grid when a level
+has child folders, falls straight through to the item list when it
+doesn't, or shows both (subfolder grid above, "Filed directly in this
+folder" item list below) when a level has both documents and subfolders
+of its own. The same two helpers back the document-link picker used when
+composing a notice (see "Notice/approval workflow" below), so browsing to
+pick a document to link works exactly like browsing the cabinet itself.
+
+## Desk windowing (rebuilt 2026-09-09)
+
+"Send to desk" no longer opens a single full-screen overlay. The desk is
+now a **staggered stack of windows**, unlimited in number, each either
+**minimized** (a small card: title, snippet, an Expand button, and a
+close ✕) or **expanded** (a full panel: title, a down-arrow to
+re-minimize, and the full view/edit UI). Both states share one stack —
+minimized cards and expanded panels alike — so several things can be open
+and switched between at once, including more than one expanded panel side
+by side.
+
+- **State**: `stageEl._deskWindows` is an ordered array, back-to-front,
+  replacing the old single-item `_deskState`/`_deskNote`. Each entry is
+  `{item, state: 'card'|'panel', el}`.
+- **Layout**: `layoutDeskWindows(stageEl)` positions every window with a
+  small `right`/`bottom` pixel offset per rank-from-front
+  (`DESK_STAGGER_STEP = 26px`) and a matching `z-index`, so windows behind
+  the front one stay staggered just enough for their titles to stay
+  visible without full overlap.
+- **Bringing to front**: clicking any window (card or panel) calls
+  `bringDeskWindowToFront(stageEl, win)`, which moves it to the end of
+  `_deskWindows` and re-runs the layout — the classic "click to raise"
+  behaviour, working the same whether the window is minimized or
+  expanded.
+- **Minimize vs. close**: the down-arrow on an expanded panel calls
+  `closeDeskWindow`'s minimize path — it drops the window back to a card
+  on the desk, nothing is removed. The ✕ only appears on a **minimized**
+  card, and only there does it fully remove the window from the desk
+  (conceptually "back in the file cabinet" — the underlying document is
+  untouched either way, since the desk is just a view).
+- **Notice → document links**: a notice window created with a linked
+  document (see below) shows a "View linked document" button in its panel
+  body. Clicking it calls `addToDesk` for that document (fetching the
+  freshest copy first), opening or raising it as its own window on the
+  same stack — so approving a notice and reviewing the document it's
+  about can sit side by side.
+
+## Notice/approval workflow (added 2026-09-09, extended same day)
+
+Notices pinned to the Notice Board can now optionally require approval
+and link to a specific document — the mechanism the Founder (or anyone
+with an AI session working from the shed's data) uses to track document
+approvals without that approval automatically rewriting anything in Core.
+
+- **Schema** (migration `shed_notice_approval_fields`, extended same day
+  by `shed_notice_review_request` — both additive only, no existing
+  column or RPC signature touched): `shed_items` gained `linked_item_id`
+  (bigint, FK to `shed_items.id`, `ON DELETE SET NULL`),
+  `requires_approval` (bool), `approved` (bool), `approved_by` (text),
+  `approved_at` (timestamptz), `notes` (text), and — from the second
+  migration — `review_requested` (bool), `review_requested_by` (text),
+  `review_requested_at` (timestamptz). A notice is in one of three states
+  at any time: not yet decided, approved, or review requested (the
+  reviewer has concerns, changes, or a disagreement to raise) — approving
+  clears any pending review request, and requesting review clears any
+  existing approval, so the two states never stand together.
+- **RPCs** (migrations `shed_notice_rpcs` and `shed_notice_review_request`,
+  kept separate from the existing `shed_add_item`/`shed_update_item` so
+  nothing already calling those is affected):
+  - `shed_add_notice(p, ttl, bdy, req_approval default false, linked_id
+    default null, fld default null)` — creates a notice-board item, same
+    passphrase-gated pattern as every other write RPC.
+  - `shed_set_notice_approval(p, item_id, is_approved, note_text default
+    null)` — sets `approved`, stamps `approved_by` (resolved server-side
+    from the passphrase, same as everywhere else identity is attributed)
+    and `approved_at`, clears any `review_requested` state, and updates
+    `notes` when given.
+  - `shed_request_notice_review(p, item_id, note_text default null)` —
+    the alternative action to approving: stamps `review_requested_by`/
+    `review_requested_at`, clears any existing approval, and updates
+    `notes` with what's being raised.
+- **A notice's title is a fixed label, its subtitle is read live off the
+  linked document.** The convention (not enforced by schema, just how
+  notices of this kind are composed): title is always "Founder Approval
+  Required"; the linked document's own title is rendered as a subtitle
+  directly under it — computed on the fly from `linked_item_id` via
+  `findItemById`, so it always matches that document's current title
+  rather than a stale copy — followed by a "Created ..." line
+  (`shed_items.created_at`, not previously surfaced in the UI before this
+  feature) and the notice's own body text under a "Things to be aware of"
+  heading. The minimized card shows "Re: &lt;document title&gt;" in place
+  of a body snippet, since every such card would otherwise show the same
+  generic title.
+- **Composing a notice**: the Notepad's create-form gained a "This notice
+  requires approval" checkbox and, once checked, a "Link a document…" row
+  that opens the same folder-drilldown picker the File Cabinet uses
+  (`openDocumentPicker`, built on `cabinetChildFolders`/`cabinetItemsAt`).
+  Pinning the notice calls `shed_add_notice` instead of `shed_add_item`.
+- **Approving or requesting review**: an expanded notice panel with
+  `requiresApproval` shows an approval checkbox (its label switches
+  between "Not yet approved.", "Approved by ... on ...", and "Review
+  requested by ... on ..." — `renderDeskPanelBody`'s `approvalMetaText`),
+  a notes textarea, and two buttons: **Save** (persists the notes
+  alongside the checkbox's current state, via `shed_set_notice_approval`)
+  and **Request Review** (submits the notes as a review request via
+  `shed_request_notice_review`, regardless of the checkbox).
+- **Deliberately scoped as a shed-side record only** — approving or
+  requesting review on a notice does **not** write anything back to the
+  Core document or to git. The Founder chose this explicitly: the shed's
+  approval/review-request fields are the record of the decision, and
+  updating the actual Core document (adding an Archival & Approval Record
+  banner, striking through its Status field, etc.) stays a separate,
+  deliberate step — the same banner pattern already used throughout
+  Core's Founder Review Dossiers.
+- **Retrievable by an AI session**: this was an explicit hard requirement
+  — any AI session working in this repo (via the Supabase MCP tools, or a
+  direct `shed_items` query) can read `requires_approval`, `approved`,
+  `approved_by`, `approved_at`, `review_requested`, `review_requested_by`,
+  `review_requested_at`, `linked_item_id`, and `notes` directly off
+  `shed_items` to check or report on approval status, without needing the
+  shed's UI.
+
+## List views show title + Send to Desktop only (changed 2026-09-09)
+
+Per the Founder's direction, a list appearing in the Notice Board, File
+Cabinet or Bookshelf (`buildItemListEl` in `source/template.html`) now
+shows only an item's title and a "Send to Desktop" button — no inline
+preview, no expand-in-place, and no Edit/Delete there. Viewing, editing
+and deleting all happen only once an item is open on the desk (in a
+`renderDeskPanelBody` panel) — that is the one and only place an item can
+be edited. This replaced the previous behaviour, where clicking a list
+item expanded an inline preview (with its own Edit/Delete) directly in
+the Notice Board/File Cabinet/Bookshelf overlay. The document-link picker
+used when composing a notice, and the Recycle Bin, are unaffected — the
+Founder's direction was specific to these three locations.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI
@@ -214,11 +380,34 @@ with two actions:
   Cabinet, Info, Notepad, Recycle Bin), calibrated separately for desktop
   and mobile
 - Named-passphrase identity + attribution (Shaphan/Karla)
-- Automatic document sync from Core (Foundations, Knowledge Curation
-  System, Standards)
+- Automatic document sync from Core, covering the full documentation
+  surface (Foundations, Knowledge Curation System, MVP, Standards,
+  Working, AI, Graphics), with full nested subfolder structure preserved
+- Nested File Cabinet mirroring Core's own folder structure
+- Multi-window, staggered, click-to-front desk — unlimited windows, each
+  minimized (card) or expanded (panel), sharing one stack
+- Notice/approval workflow: notices can require approval and link to a
+  document, or have review requested instead (concerns/changes/
+  disagreements, with notes); approval/review state is recorded in the
+  shed and retrievable by an AI session, without writing back to the Core
+  document itself
+- List views (Notice Board, File Cabinet, Bookshelf) show only a title
+  and a "Send to Desktop" button — no inline preview, no edit-in-place;
+  viewing and editing happen only in a desk window
 
 ## What's next
 
-Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`.
-Only remaining open item: archive the old `askpip/KCS-PIP-Garden-Shed`
-GitHub repo (see "Retiring the old repo/checkout" above).
+Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`
+(now superseded by this README — see the note at the top of that file).
+
+Open items:
+- Archive the old `askpip/KCS-PIP-Garden-Shed` GitHub repo (see "Retiring
+  the old repo/checkout" above).
+- Real image/binary support in the document sync and File Cabinet — the
+  2026-09-09 sync expansion is documents-only by explicit Founder
+  decision; images were deliberately deferred to a follow-up phase.
+- The notice/approval workflow does not write back to the Core document
+  or git — updating a Core document's own Archival & Approval Record
+  banner once a shed approval is granted is still a separate, manual
+  step. Worth a Founder decision if this project wants that automated
+  later.
