@@ -105,8 +105,9 @@
     opacity:0; transition:opacity .15s ease; pointer-events:none;
   }
   .hotspot:hover .tag{ opacity:1; }
-  /* Pending-approval count on a hotspot (currently just Notice Board) -- hidden (no inline
-     display set) until updateBoardBadge() gives it a non-zero count. */
+  /* Pending count on a hotspot -- Notice Board (notices awaiting a decision) and To-Do List
+     (tasks not yet Completed) -- hidden (no inline display set) until updateBoardBadge()/
+     updateTodoBadge() gives it a non-zero count. */
   .hotspot-badge{
     position:absolute; top:-4px; right:-4px; min-width:18px; height:18px; padding:0 4px;
     border-radius:9px; background:#a33; color:#fff; font-family:'Nunito',sans-serif;
@@ -124,8 +125,14 @@
      behind another" problem this replaced can't happen: nothing is ever hidden behind
      anything else. */
   .desk-stack{ position:absolute; inset:0; z-index:15; pointer-events:none; overflow:hidden; }
+  /* Default size is deliberately small and corner-anchored -- roughly phone-card-sized --
+     rather than covering most of the desk, so the hotspots behind it (Notice Board and
+     To-Do List above all) stay reachable while a document or notice is open. Fixed 2026-09-09
+     after the previous min(680px,86%) x min(560px,80%) default was reported as blocking the
+     Notice Board on an actual phone. Maximize (below) is the way to read something at the
+     old larger size; this is only the resting size. */
   .desk-window{
-    position:absolute; right:16px; bottom:16px; width:min(680px, 86%); height:min(560px, 80%);
+    position:absolute; right:16px; bottom:16px; width:min(340px, 82%); height:min(400px, 55%);
     pointer-events:auto; background:var(--cream); border-radius:10px;
     box-shadow:2px 8px 20px rgba(0,0,0,.4); font-family:'Nunito',sans-serif;
     display:flex; flex-direction:column; overflow:hidden; z-index:100;
@@ -731,7 +738,7 @@
     return sb.rpc("shed_identify_user", { p: pass }).then(function(idRes){
       if(idRes.error){ throw idRes.error; }
       if(!idRes.data){ throw new Error("invalid passphrase"); }
-      return fetchAllItems(pass).then(function(){
+      return Promise.all([fetchAllItems(pass), fetchTodoBadgeCount(pass)]).then(function(){
         window.SHED_PASSPHRASE = pass;
         window.SHED_ACTIVE_USER = idRes.data;
         updateActiveUserBadge();
@@ -809,7 +816,7 @@
       tag.className = "tag";
       tag.textContent = h.label;
       node.appendChild(tag);
-      if(h.key === "board"){
+      if(h.key === "board" || h.key === "todo"){
         var badge = document.createElement("span");
         badge.className = "hotspot-badge";
         node.appendChild(badge);
@@ -981,6 +988,30 @@
     document.querySelectorAll('.hotspot[data-key="board"] .hotspot-badge').forEach(function(el){
       el.textContent = String(count);
       el.classList.toggle("show", count > 0);
+    });
+  }
+
+  // Refreshes the small red count badge on the To-Do List hotspot (both stages) to the
+  // number of tasks not yet ticked off in any way -- i.e. anything other than Completed
+  // (Received, In Progress and Blocked all still count, same as the "Active" section of the
+  // to-do panel itself). Takes the raw rows from shed_list_todos directly, since -- unlike
+  // notices -- to-do tasks aren't part of CONTENT/shed_list_items.
+  function updateTodoBadge(todos){
+    var count = (todos || []).filter(function(t){ return t.status !== "completed"; }).length;
+    document.querySelectorAll('.hotspot[data-key="todo"] .hotspot-badge').forEach(function(el){
+      el.textContent = String(count);
+      el.classList.toggle("show", count > 0);
+    });
+  }
+
+  // Lightweight fetch just for the badge count, called at unlock (so the number is right
+  // before the to-do panel has ever been opened this session) -- the panel's own loadTodos()
+  // keeps it current afterward, since every add/status-change/delete there re-fetches and
+  // calls updateTodoBadge() itself.
+  function fetchTodoBadgeCount(pass){
+    return sb.rpc("shed_list_todos", { p: pass }).then(function(res){
+      if(res.error) return;
+      updateTodoBadge(res.data);
     });
   }
 
@@ -2031,6 +2062,7 @@
             return;
           }
           todos = res.data || [];
+          updateTodoBadge(todos);
           renderTodos();
         });
       }

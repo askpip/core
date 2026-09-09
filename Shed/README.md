@@ -760,6 +760,105 @@ always has its own reachable tab, full stop.
   rebuilt `index.html`, at both a desktop (1600×900) and a real mobile
   (390×844, touch-enabled) viewport — not just the desktop path.
 
+## Three more Founder Approval notices created (2026-09-09)
+
+The Notice Board's first "Founder Approval Required" notice (linked to
+`Foundations/Founding_Principles.md`) was joined by three more, one each
+for the other three Foundation documents the Project Backlog had flagged
+as still genuinely unapproved: `AskPIP_Vision_Statement.md` (v2.1, Founder
+Review), `Gardener_Experience_Charter.md` (v3.0 Founder Draft, migrated
+from Drive, mentions the still-unmigrated companion "User Experience
+Charter" draft), and `Pip_Character_Profile.md` (a Discussion Draft whose
+own Status field says approving it here wouldn't itself establish a
+brand standard). Each notice's body was written from that document's own
+Metadata block rather than reused boilerplate, so it explains what
+approving that specific document would (and wouldn't) mean. Inserted
+directly into `shed_items` (linking each to its synced document's real
+`id`) rather than through `shed_add_notice`, since that RPC needs a real
+passphrase this session doesn't have — the auto-todo trigger (see
+"Notice/approval workflow, phase 2" above) fires on any insert regardless
+of path, confirmed by checking that all three matching `shed_todos` rows
+were created automatically. The Notice Board badge now reads 4.
+
+## To-Do List hotspot gets a pending-count badge (2026-09-09)
+
+The same small red badge already on the Notice Board hotspot now also
+appears on the To-Do List hotspot, showing how many tasks aren't yet
+ticked off in any way — Received, In Progress and Blocked all count;
+only Completed clears it. `updateTodoBadge(todos)` mirrors
+`updateBoardBadge()`'s logic exactly, but to-do tasks aren't part of
+`CONTENT`/`shed_list_items` the way notices are (they're a separate
+table, only ever fetched when the To-Do List panel itself is opened), so
+a lightweight `fetchTodoBadgeCount(pass)` fetches just for the badge at
+unlock time (alongside the existing item fetch, via `Promise.all`) and
+the panel's own `loadTodos()` keeps it current afterward — every add,
+status change, delete and reorder there already re-fetches and now also
+calls `updateTodoBadge()`, so no separate hook was needed for those.
+
+## Info guide notes brought up to date, plus two new ones (2026-09-09)
+
+The Info panel's seven guide notes (`shed_items` rows, `location='rug'`)
+hadn't been touched since well before the named-passphrase migration, the
+notice/approval workflow, the To-Do List, or the desk's move to browser
+tabs — several were flatly wrong (still describing "a shared passphrase"
+and "click an item to expand it," and the room's own area count was
+seven, missing the To-Do List hotspot entirely). Updated in place, via
+direct `shed_items` writes (same non-RPC reasoning as the notices above):
+
+- **"How to Use This Shed"** — area count corrected to eight (adds the
+  To-Do List), each area's badge behaviour noted, "expand" language
+  replaced with "click Desktop to open it on the desk" plus a short
+  explanation of tabs/hover-tooltip/maximize, and the passphrase
+  description corrected to "your own passphrase" (naming the Settings
+  gear for changing it) rather than a single shared one.
+- **"Filing a Document"** — the stale "a small note appears on the desk
+  with an Expand option" replaced with the real Desktop-button-and-tabs
+  flow; added a line on the "This notice requires approval" checkbox and
+  document-linking, pointing at the new note below.
+- **"Getting Started"** — now mentions the To-Do List and the
+  Notice Board's pending-decision badge, and corrects the same stale
+  passphrase wording as above.
+- **New: "Notices That Need Approval"** (`sort_order:21`, right after
+  "Filing a Document") — the notice/approval workflow had no guide
+  coverage at all until now: composing one, the three-state approval
+  model and its colour coding, and where its two pending-count badges
+  show up.
+- **New: "The To-Do List"** (`sort_order:23`, between "Using the
+  Calendar" and "Using the Recycle Bin") — likewise previously
+  undocumented despite existing since 2026-09-08: adding/reordering/
+  deleting tasks, the four statuses and their history, and the new
+  badge.
+
+"Using the Calendar" and "Using the Recycle Bin" were re-read and found
+still accurate — left untouched.
+
+## Desk window default size shrunk, corner-anchored (2026-09-09)
+
+Direct feedback right after the tab redesign shipped: even the new
+tabbed desk window was still opening far too large by default —
+`min(680px, 86%)` wide by `min(560px, 80%)` tall — which on a phone
+covered the Notice Board hotspot entirely, so a second notice couldn't
+be opened while a document was already open, the exact "can't reach
+anything else" problem the tab redesign was meant to solve in the first
+place, just moved one level up. Per the Founder's preferred option
+(offered alongside two others), the resting size is now small and fixed
+— `min(340px, 82%)` wide, `min(400px, 55%)` tall, "phone-card-sized" —
+still corner-anchored bottom-right; only **Maximize** now reaches the
+old large size, and Restore returns to this new small default.
+
+Verified against the exact reported scenario: at a real 390×844 mobile
+viewport, with a document already open on the desk, the Notice Board
+hotspot's bounding box no longer overlaps the desk window's at all (a
+real Playwright pointer click on the hotspot — not a scripted DOM
+`.click()` bypass — now lands and opens the board panel normally). At
+that size the To-Do List, Calendar, Bookshelf and Notepad/pen hotspots
+also stay clear; the Info and Recycle Bin hotspots (both low on the
+scene, where the window is anchored) can still end up covered — accepted
+as a reasonable trade-off since reaching the Notice Board while
+something is open was the specific, stated problem. Tab switching, the
+hover/touch title tooltip, and maximize/restore were all re-verified
+working correctly at the new smaller size before shipping.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI
@@ -768,7 +867,8 @@ always has its own reachable tab, full stop.
 - Full working Calendar: month-grid UI, add/edit/delete events, event
   chips on the month grid
 - To-Do List: draggable/reorderable, 4-state status with full history,
-  Active/Completed sections
+  Active/Completed sections, and a hotspot badge showing how many tasks
+  aren't yet ticked off
 - Settings menu: change own passphrase, log out
 - "Saved [date]" tracking on user-created notices/docs
 - All 8 hotspots (Notice Board, To-Do List, Calendar, Bookshelf, File
@@ -780,12 +880,14 @@ always has its own reachable tab, full stop.
   Working, AI, Graphics), with full nested subfolder structure preserved
 - Nested File Cabinet mirroring Core's own folder structure, with a
   pending-notice count badge on any folder whose subtree has one
-- Browser-tab-style desk windowing — one shared frame per stage; a plain
-  titlebar with one item open, a tab strip once two or more are open,
-  each tab with its own close ✕ and a hover/touch tooltip showing its
-  full title; a maximize toggle; every open item always reachable by its
-  own tab, with no layering or hidden-behind-another-window state
-  possible
+- Browser-tab-style desk windowing — one shared frame per stage, small
+  and corner-anchored by default so hotspots (the Notice Board above
+  all) stay reachable while it's open; a plain titlebar with one item
+  open, a tab strip once two or more are open, each tab with its own
+  close ✕ and a hover/touch tooltip showing its full title; a maximize
+  toggle for the old larger reading size; every open item always
+  reachable by its own tab, with no layering or hidden-behind-another-
+  window state possible
 - Notice/approval workflow: notices can require approval and link to a
   document, or have review requested instead (concerns/changes/
   disagreements, with notes); approval/review state is recorded in the
