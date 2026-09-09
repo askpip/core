@@ -911,6 +911,224 @@ Direct feedback right after the round above shipped, all three real:
   and the desk edge below — and confirmed fully on-screen and correctly
   placed at all five widths tested, not just one reference viewport.
 
+## Login flakiness fixed — autofill confusion + lock-screen reset guard (2026-09-09)
+
+Direct report: "different auto fills keep trying to enter my passphrase,
+and sometimes the inside view opens then it jumps back to the outside
+login... it usually takes me three attempts to log in."
+
+**Diagnosis.** The shed has two real, named passphrases (Shaphan's and
+Karla's) that can both end up saved by a browser's password manager
+against the same URL. The lock forms' passphrase inputs had
+`autocomplete="off"` — a value modern browsers largely ignore for
+password fields specifically — and no username field of any kind for the
+browser to key its saved credentials against, so autofill had nothing to
+disambiguate which saved value belonged where and could offer or insert
+the wrong one. For the second symptom ("jumps back to the outside
+login"), `showLock()` is only ever called once, at page init, and nothing
+else in the JS removes the `unlocked` class — the most plausible
+mechanism is a native (non-JS-intercepted) form submission slipping past
+`preventDefault()`, plausibly via autofill's own auto-submit behaviour.
+Since neither lock form has an `action` attribute, a native submission
+falls back to a same-page GET reload, which — since the shed deliberately
+persists nothing — resets the whole page back to the lock screen.
+
+**Fix**, a bundle of standard, well-documented hardening rather than one
+silver-bullet change (the exact autofill/auto-submit interaction can't be
+reproduced in a headless test environment, so this targets the most
+likely and best-supported causes):
+
+- Both lock forms (`lockFormMobile`, `lockFormDesktop`) now include a
+  hidden `autocomplete="username"` anchor field (value `"shed"`, visually
+  hidden, `tabindex="-1"`, `aria-hidden="true"`) immediately before the
+  passphrase input, giving the browser a stable field to key saved
+  credentials against.
+- The passphrase inputs themselves changed from `autocomplete="off"` to
+  `autocomplete="new-password"` — the standards-documented way to
+  actively suppress autofill/save-password prompts, and a value browsers
+  do respect, unlike `off`. This also matches the app's own stated design
+  (nothing is ever persisted, so there's nothing to "remember").
+- The change-passphrase modal's three fields got the semantically correct
+  values too: `current-password` for the current-passphrase field,
+  `new-password` for the new and confirm fields (previously all three
+  were `off`).
+- Added an `unlockInFlight` module-level guard in `tryUnlock()`: a second
+  call while one is already in flight is ignored outright, so an autofill
+  auto-submit racing a manual submit (or a fast double-tap) can no longer
+  interleave two unlock attempts.
+- Added `e.stopPropagation()` alongside the existing `e.preventDefault()`
+  in both lock forms' submit handlers, as defense-in-depth against a
+  submission slipping through to native handling.
+
+**Verified via Playwright**: the hidden username field doesn't interfere
+with reading the real passphrase value; an incorrect passphrase still
+shows the error state and does not unlock; a correct passphrase still
+unlocks normally; and firing two submit events back-to-back against the
+same form now results in exactly one `shed_identify_user` call and a
+clean unlock, where before the guard both would have gone through. What
+could *not* be verified directly is the real browser/password-manager
+autofill behaviour itself — this environment has no way to reproduce a
+real saved-credential conflict or an autofill auto-submit the way a
+phone browser does, so if the "jumps back" symptom persists, the next
+useful piece of information would be which browser/device it happens on.
+
+## Review requests: a way back out, and their own To-Do item (2026-09-09)
+
+Direct report: no way existed to remove a review request from a notice
+once made (the `Founding_Principles` notice, set into "Review requested"
+via the shed's own UI, had no path back other than approving it outright)
+— plus a request that a review being requested should show up as its own
+To-Do List item when it's saved, not just as a status line on the notice.
+
+**Removing a review request.** `shed_set_notice_approval` already clears
+`review_requested` as a side effect of approving, but there was no
+complementary way to simply withdraw a review request without approving
+— "actually, never mind" had nowhere to go. Added a new RPC,
+`shed_clear_notice_review(p, item_id)`, that resets `review_requested`,
+`review_requested_by` and `review_requested_at` back to their neutral
+values while leaving `approved`/`approved_by`/`approved_at` and `notes`
+untouched — so the notice returns to plain "Not yet approved." On the
+notice panel, the "Request Review" button now doubles as the way back
+out: whenever a notice's review is currently pending it reads **"Cancel
+Review Request"** instead and calls the new RPC; the hint text below it
+and the approval-status line above both update to match. Approving
+directly (checking "Approved") still also clears any pending review
+request, exactly as before — this only adds the missing direct path.
+
+**Review requests now create a To-Do item.** A new database trigger,
+`shed_notice_review_requested_todo_trigger` (fires `AFTER UPDATE` on
+`shed_items`, mirroring the existing `shed_notice_requires_approval_todo`
+trigger that fires on a notice's initial `INSERT`), creates a matching
+`shed_todos`/`shed_todo_status_log` row every time a notice's
+`review_requested` genuinely transitions to `true` — so "Request Review"
+now surfaces on the To-Do List the same way a brand-new approval-required
+notice already does, and counts toward its pending-count badge. The
+trigger only fires on that specific `false`/`null` → `true` transition
+(guarded with `old.review_requested is distinct from new.review_requested`
+in its `WHEN` clause), so an unrelated save on a notice already in the
+review-requested state — saving edited notes, for instance — does not
+spam a duplicate To-Do entry, and cancelling a review request does not
+create one either (only asking for review does).
+
+**Verified directly in Supabase** (trigger behaviour: a genuine
+false→true transition creates exactly one To-Do row correctly naming the
+linked document; an unrelated save while already `true` creates none; a
+true→false transition creates none) and **via Playwright against the
+real production UI** (a notice already in "Review requested" opens
+showing "Cancel Review Request"; clicking it calls the new RPC and the
+notice correctly returns to "Not yet approved." with the button flipping
+back to "Request Review"; requesting review again correctly flips it back
+to "Cancel Review Request"; and approving directly still clears a pending
+review request and updates the button, exactly as before). Test data
+created during verification was cleaned up afterward — nothing test-only
+was left in the live database.
+
+## To-Do List: a genuine "New" stage before "Received," plus an attribution fix (2026-09-09)
+
+Direct report: every to-do — whether typed in manually or auto-created by
+a trigger — showed up already saying "Received by \<name\>" the instant
+it existed, which reads as if that person had already seen and
+acknowledged it. It hadn't been seen by anyone; it had just been created.
+On top of that, several to-dos and notices created earlier the same day
+(commissioned directly by the Founder, but inserted straight into the
+database because the shed's own passphrase-gated RPC path wasn't
+available to this session) were attributed to "Shed" rather than to the
+Founder who actually asked for them.
+
+**A true "New" stage.** `shed_todos.status` gains a fifth value, `new`,
+ahead of the existing `received` / `in_progress` / `blocked` /
+`completed`, and it's now the column's actual default (previously
+`received` was). Every path that creates a to-do — the manual
+`shed_add_todo` RPC, and both auto-todo triggers (a notice needing
+approval; a review being requested) — now inserts it as `new` instead of
+`received`. On the To-Do List panel, a `new` task shows only its "Added
+by \<name\> on \<date\>" line; the second line ("Received by...", "In
+Progress by...", etc.) is deliberately suppressed while status is `new`,
+since there's nothing genuine to report yet, and reappears the moment a
+real person picks an actual status from the dropdown next to the task —
+which now lists **New** as its first, already-selected option. A `new`
+row also gets its own dashed, muted-gray left-border color on the card,
+visually distinct from "received"'s solid tan, so an untouched task
+doesn't read as just another flavor of an already-acknowledged one.
+
+**Attribution fix.** The four "Review & approve" to-do tasks and the
+notices/todos created earlier the same day that were stamped "Shed"
+(itself an earlier same-day fix, from "Claude") are, on reflection,
+attributed to the wrong party: the Founder directly asked for these to
+be created, so they should read "Added by Shaphan," not a generic system
+identity. Corrected in the database: `shed_items` 174/578/579/580 and
+`shed_todos` 6/8/9/10 now show `created_by = "Shaphan"` (and
+`updated_by` too, wherever no real subsequent action by an actual person
+had happened yet). Three of the four to-dos (8, 9, 10 — the ones nobody
+had genuinely touched) also had their status corrected from the old
+false "Received" default back to the new, honest "New," along with their
+history log's very first entry. The fourth (6, `Founding_Principles`)
+already carries a real subsequent history — the Founder genuinely set it
+to Blocked and back to Received through the shed's own UI — so only its
+`created_by` needed fixing; its real status history was left untouched.
+
+**Verified via Playwright**: a freshly auto-created task shows only
+"Added by..." with no false second line and defaults to "New" in its
+dropdown; a task with genuine prior history (created differently, then
+actually received by a named person) still shows both lines correctly;
+manually selecting "Received" on a "New" task immediately produces a
+correct, honest "Received by \<name\>" line; and a brand-new manually
+added task also starts as "New" with no second line. Data corrections
+were verified directly in Supabase — zero rows anywhere still reference
+"Shed."
+
+## Per-person notice progress: "where is each of us at with this" (2026-09-09)
+
+Requested directly: with two named users reviewing the same notices, there
+was no way for either of them to see where the other personally stood
+with one — only the shared approve/review-request decision, which says
+nothing about whether it's even been opened yet. Asked for design input
+first (per-person vs. one shared status; which stages) rather than
+guessing — the Founder chose **per-person** tracking with three stages:
+**Not Started → Reading → Discussing**.
+
+**New table and RPCs.** `shed_item_progress` holds one row per
+(item, named user), defaulting implicitly to `not_started` for anyone
+with no row yet — so adding a third named user later needs no data
+migration. `shed_get_item_progress(p, item_id)` returns every named
+user's current stage for an item (a `LEFT JOIN` against `shed_users`, so
+a user who's never touched it still comes back as `not_started` rather
+than being silently missing). `shed_set_item_progress(p, item_id, stage)`
+sets progress for **the calling user only** — resolved from the
+passphrase, never taken as a parameter — so nobody can set another
+person's progress on their behalf, even by tampering with the request.
+Both are gated the same way as every other shed table: row-level
+security is on with zero policies, so direct table access is blocked
+entirely and everything must go through these `SECURITY DEFINER` RPCs.
+
+**On the notice panel**, a new "Progress" section sits above the existing
+Approved/Notes/Request-Review controls — deliberately styled lighter and
+quieter, since it's informational, not itself a decision. Each named
+user gets their own row: the signed-in user's own row is a dropdown they
+can change directly; the other person's row is plain, read-only text.
+Changing your own stage saves immediately via `shed_set_item_progress`,
+with no effect on the notice's actual approval state — the two systems
+are independent by design. The section loads asynchronously right when
+a notice panel opens and shows a brief "Loading progress…" placeholder
+in the meantime.
+
+**Verified directly against the database first** (a bug caught this
+way: the RPC's `item_id` parameter name collided with
+`shed_item_progress.item_id` inside its `ON CONFLICT` clause — a real
+"column reference is ambiguous" error on the very first test call, fixed
+by renaming the parameter to `p_item_id` and re-tested clean; the upsert
+path was also confirmed to update in place rather than duplicate rows,
+and an invalid stage value is correctly rejected) using a temporary test
+user created and fully deleted afterward — confirmed zero real or
+leftover test rows in the table once done. Then **verified via Playwright
+against the real production UI**: both named users' rows render in
+alphabetical order; the non-active user's row is genuinely read-only
+(no `<select>` present) while the active user's is a working dropdown
+pre-set to their actual stored stage; changing it calls the RPC with the
+correct parameters; the section is entirely absent on a non-notice
+document; and it coexists correctly alongside the existing Approved
+checkbox and Cancel Review Request controls on the same notice panel.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI
@@ -918,7 +1136,7 @@ Direct feedback right after the round above shipped, all three real:
 - Desk creation flow (Notepad → Pin to Notice Board / File in Cabinet)
 - Full working Calendar: month-grid UI, add/edit/delete events, event
   chips on the month grid
-- To-Do List: draggable/reorderable, 4-state status with full history,
+- To-Do List: draggable/reorderable, 5-state status with full history,
   Active/Completed sections, and a hotspot badge showing how many tasks
   aren't yet ticked off
 - Settings menu: change own passphrase, log out

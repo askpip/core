@@ -227,6 +227,23 @@
     border:1px solid var(--pip-border); border-radius:8px; background:#fffef8; box-sizing:border-box;
   }
 
+  /* Per-person progress rows (2026-09-09): sits above the shared Approved/Request Review
+     controls, deliberately styled lighter/quieter than them -- it's informational ("where
+     is each of us at"), not a decision in itself. Only the signed-in user's own row is a
+     <select> (progress-select); the other person's is plain text (progress-value). */
+  .desk-window .progress-block{ margin-bottom:12px; }
+  .desk-window .progress-rows{ display:flex; flex-direction:column; gap:5px; }
+  .desk-window .progress-row{
+    display:flex; align-items:center; justify-content:space-between; gap:8px;
+    font-family:'Nunito',sans-serif; font-size:.82rem;
+  }
+  .desk-window .progress-name{ color:var(--wood-dark); font-weight:700; }
+  .desk-window .progress-value{ color:var(--wood-dark); opacity:.7; }
+  .desk-window .progress-select{
+    font-family:'Nunito',sans-serif; font-weight:700; font-size:.72rem; border:1px solid var(--pip-border);
+    border-radius:6px; padding:3px 6px; background:#fffef8; color:var(--wood-dark); cursor:pointer;
+  }
+
   /* Overlays */
   .overlay{
     position:absolute; inset:0; z-index:20; display:flex; align-items:center; justify-content:center;
@@ -356,6 +373,10 @@
     display:flex; align-items:flex-start; gap:8px; background:var(--card); border:1px solid var(--pip-border);
     border-left:4px solid var(--wood-light); border-radius:8px; padding:9px 11px; font-family:'Nunito',sans-serif;
   }
+  /* "new" is the true default -- a task nobody has looked at yet -- so it gets a muted,
+     dashed indicator distinct from "received" (a real person has explicitly acknowledged
+     it), rather than looking like just another flavor of the same solid-border states. */
+  .todo-row[data-status="new"]{ border-left-color:#9a938a; border-left-style:dashed; }
   .todo-row[data-status="received"]{ border-left-color:var(--wood-light); }
   .todo-row[data-status="in_progress"]{ border-left-color:#3a7ab8; }
   .todo-row[data-status="blocked"]{ border-left-color:#a33; }
@@ -550,8 +571,9 @@
       <div class="stage-ratio mobile">
         <div class="stage">
           <img class="scene-bg" src="__ASSET_LOCK_MOBILE__" alt="The Garden Shed, from outside">
-          <form class="lock-box" id="lockFormMobile">
-            <input type="password" id="lockInputMobile" placeholder="Passphrase" autocomplete="off">
+          <form class="lock-box" id="lockFormMobile" autocomplete="off">
+            <input type="text" name="shed-identity" value="shed" autocomplete="username" tabindex="-1" aria-hidden="true" style="position:absolute;width:1px;height:1px;padding:0;border:0;opacity:0;pointer-events:none;">
+            <input type="password" id="lockInputMobile" placeholder="Passphrase" autocomplete="new-password">
             <button type="submit" id="lockBtnMobile">Enter</button>
           </form>
         </div>
@@ -559,8 +581,9 @@
       <div class="stage-ratio desktop">
         <div class="stage">
           <img class="scene-bg" src="__ASSET_LOCK_DESKTOP__" alt="The Garden Shed, from outside">
-          <form class="lock-box" id="lockFormDesktop">
-            <input type="password" id="lockInputDesktop" placeholder="Passphrase" autocomplete="off">
+          <form class="lock-box" id="lockFormDesktop" autocomplete="off">
+            <input type="text" name="shed-identity" value="shed" autocomplete="username" tabindex="-1" aria-hidden="true" style="position:absolute;width:1px;height:1px;padding:0;border:0;opacity:0;pointer-events:none;">
+            <input type="password" id="lockInputDesktop" placeholder="Passphrase" autocomplete="new-password">
             <button type="submit" id="lockBtnDesktop">Enter</button>
           </form>
         </div>
@@ -732,7 +755,17 @@
   // No persistence: the passphrase is asked for fresh on every visit/reload,
   // it is never written to localStorage or any other browser storage. The resolved
   // display name (SHED_ACTIVE_USER) is likewise held only in memory for this page load.
+  //
+  // unlockInFlight guards against two submits racing each other -- there are two lock
+  // forms (mobile/desktop) always in the DOM, and some browsers' password-manager
+  // autofill can auto-submit a saved credential on its own; without this guard, that
+  // auto-submit and a manual tap/Enter shortly after could both call tryUnlock() and
+  // interleave in ways that are hard to reason about. With it, a submit that arrives
+  // while one is already resolving is simply ignored.
+  var unlockInFlight = false;
   function tryUnlock(pass){
+    if(unlockInFlight) return Promise.resolve(false);
+    unlockInFlight = true;
     var err = document.getElementById("lockError");
     setLockBtns(true); err.style.display = "none";
     return sb.rpc("shed_identify_user", { p: pass }).then(function(idRes){
@@ -744,12 +777,14 @@
         updateActiveUserBadge();
         showApp();
         setLockBtns(false);
+        unlockInFlight = false;
         return true;
       });
     }).catch(function(e){
       setLockBtns(false);
       err.textContent = "That passphrase didn't work. Try again.";
       err.style.display = "block";
+      unlockInFlight = false;
       return false;
     });
   }
@@ -758,7 +793,13 @@
     var form = document.getElementById(formId);
     var inputId = formId.replace("lockForm", "lockInput");
     form.addEventListener("submit", function(e){
+      // preventDefault (and stopPropagation, belt-and-suspenders) unconditionally, before
+      // anything else -- an autofilled/auto-submitted form must never be allowed to fall
+      // through to the browser's own native submission, which (this form has no `action`)
+      // would GET-reload the page and silently drop back to the lock screen, since nothing
+      // here is persisted by design.
       e.preventDefault();
+      e.stopPropagation();
       var val = document.getElementById(inputId).value;
       if(!val) return;
       tryUnlock(val);
@@ -872,9 +913,9 @@
     settingsPop.innerHTML =
       '<h5>Change Passphrase</h5>' +
       '<div class="settings-msg" style="display:none;"></div>' +
-      '<input type="password" class="cp-current" placeholder="Current passphrase" autocomplete="off">' +
-      '<input type="password" class="cp-new" placeholder="New passphrase" autocomplete="off">' +
-      '<input type="password" class="cp-confirm" placeholder="Confirm new passphrase" autocomplete="off">' +
+      '<input type="password" class="cp-current" placeholder="Current passphrase" autocomplete="current-password">' +
+      '<input type="password" class="cp-new" placeholder="New passphrase" autocomplete="new-password">' +
+      '<input type="password" class="cp-confirm" placeholder="Confirm new passphrase" autocomplete="new-password">' +
       '<button type="button" class="btn cp-save">Save</button>' +
       '<hr class="settings-divider">' +
       '<button type="button" class="btn ghost logout-btn" style="width:100%;">Log Out</button>';
@@ -1332,6 +1373,80 @@
         block.appendChild(linkBtn);
       }
 
+      // Per-person reading/review progress (2026-09-09): separate from the shared
+      // approve/review-request decision below, so each of the shed's two named users can
+      // see where the OTHER personally is with a notice ("Shaphan: Reading, Karla: Not
+      // Started") without asking. Only the signed-in user's own row is editable -- the
+      // RPC resolves "who" from the passphrase, never from a parameter, so nobody can set
+      // progress on someone else's behalf even by tampering with the request.
+      var PROGRESS_LABELS = { not_started:"Not Started", reading:"Reading", discussing:"Discussing" };
+      var PROGRESS_ORDER = ["not_started","reading","discussing"];
+
+      var progressBlock = document.createElement("div");
+      progressBlock.className = "progress-block";
+      var progressLabel = document.createElement("label");
+      progressLabel.className = "notes-label";
+      progressLabel.textContent = "Progress";
+      progressBlock.appendChild(progressLabel);
+      var progressRowsEl = document.createElement("div");
+      progressRowsEl.className = "progress-rows";
+      progressRowsEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">Loading progress…</p>';
+      progressBlock.appendChild(progressRowsEl);
+      block.appendChild(progressBlock);
+
+      function renderProgressRows(rows){
+        progressRowsEl.innerHTML = "";
+        rows.forEach(function(r){
+          var prow = document.createElement("div");
+          prow.className = "progress-row";
+          var nameSpan = document.createElement("span");
+          nameSpan.className = "progress-name";
+          nameSpan.textContent = r.user_name;
+          prow.appendChild(nameSpan);
+
+          if(r.user_name === window.SHED_ACTIVE_USER){
+            var sel = document.createElement("select");
+            sel.className = "progress-select";
+            PROGRESS_ORDER.forEach(function(s){
+              var opt = document.createElement("option");
+              opt.value = s;
+              opt.textContent = PROGRESS_LABELS[s];
+              if(s === r.stage) opt.selected = true;
+              sel.appendChild(opt);
+            });
+            sel.addEventListener("change", function(){
+              var newStage = sel.value;
+              var prevStage = r.stage;
+              sel.disabled = true;
+              sb.rpc("shed_set_item_progress", { p: window.SHED_PASSPHRASE, p_item_id: item.id, new_stage: newStage }).then(function(res){
+                sel.disabled = false;
+                if(res.error){
+                  alert("Couldn't save your progress. Please try again.");
+                  sel.value = prevStage;
+                  return;
+                }
+                r.stage = res.data.stage;
+              });
+            });
+            prow.appendChild(sel);
+          } else {
+            var stageSpan = document.createElement("span");
+            stageSpan.className = "progress-value";
+            stageSpan.textContent = PROGRESS_LABELS[r.stage] || r.stage;
+            prow.appendChild(stageSpan);
+          }
+          progressRowsEl.appendChild(prow);
+        });
+      }
+
+      sb.rpc("shed_get_item_progress", { p: window.SHED_PASSPHRASE, p_item_id: item.id }).then(function(res){
+        if(res.error){
+          progressRowsEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">Couldn\'t load progress.</p>';
+          return;
+        }
+        renderProgressRows(res.data || []);
+      });
+
       // Sets both the meta line's text AND a state-<x> class (state-pending/state-approved/
       // state-review -- see the CSS) so the outcome of Save/Request Review is visible as a
       // color change, not just a small line of text easy to miss. `flash` (true after a
@@ -1398,15 +1513,30 @@
       var reviewBtn = document.createElement("button");
       reviewBtn.type = "button";
       reviewBtn.className = "btn alt";
-      reviewBtn.textContent = "Request Review";
       saveRow.appendChild(reviewBtn);
       block.appendChild(saveRow);
       var reviewHint = document.createElement("p");
       reviewHint.className = "empty-note";
       reviewHint.style.margin = "6px 0 0";
       reviewHint.style.fontSize = ".76rem";
-      reviewHint.textContent = "\"Request Review\" flags this notice as needing another look -- for requests, changes, or disagreements raised in the notes above -- and clears any existing approval.";
       block.appendChild(reviewHint);
+
+      // The review button and its hint text swap between two modes depending on whether a
+      // review is currently pending, so there's always a way *out* of the review-requested
+      // state that doesn't require approving -- previously the only way to clear a review
+      // request was to check "Approved" (shed_set_notice_approval clears it as a side effect),
+      // which meant a review request the Founder wanted to simply withdraw (no changes needed
+      // after all) had no direct path back to "not yet approved."
+      function updateReviewControls(){
+        if(item.reviewRequested){
+          reviewBtn.textContent = "Cancel Review Request";
+          reviewHint.textContent = "\"Cancel Review Request\" withdraws the request and returns this notice to Not Yet Approved, without approving it.";
+        } else {
+          reviewBtn.textContent = "Request Review";
+          reviewHint.textContent = "\"Request Review\" flags this notice as needing another look -- for requests, changes, or disagreements raised in the notes above -- and clears any existing approval.";
+        }
+      }
+      updateReviewControls();
 
       // Applies a shed_items row (from either RPC below) back onto item/CONTENT/the visible
       // approval meta line -- shared by both the approve/unapprove path and the
@@ -1431,6 +1561,7 @@
         }
         check.checked = !!item.approved;
         updateApprovalMeta(true);
+        updateReviewControls();
         updateBoardBadge();
       }
 
@@ -1454,7 +1585,14 @@
       });
       reviewBtn.addEventListener("click", function(){
         reviewBtn.disabled = true;
-        sb.rpc("shed_request_notice_review", { p: window.SHED_PASSPHRASE, item_id: item.id, note_text: notesArea.value }).then(function(res){
+        // Which RPC fires depends on the CURRENT state, checked at click time (not baked in
+        // when the button was created) -- applyApprovalRow/updateReviewControls keep the
+        // button's label in sync with item.reviewRequested after every save, approval change,
+        // or review action, so this always matches what's on screen.
+        var call = item.reviewRequested
+          ? sb.rpc("shed_clear_notice_review", { p: window.SHED_PASSPHRASE, item_id: item.id })
+          : sb.rpc("shed_request_notice_review", { p: window.SHED_PASSPHRASE, item_id: item.id, note_text: notesArea.value });
+        call.then(function(res){
           reviewBtn.disabled = false;
           if(res.error){
             alert("Couldn't save that. Please try again.");
@@ -2050,8 +2188,12 @@
       loadEvents();
     } else if(key === "todo"){
       var todos = [];
-      var STATUS_LABELS = { received:"Received", in_progress:"In Progress", blocked:"Blocked", completed:"Completed" };
-      var STATUS_ORDER = ["received","in_progress","blocked","completed"];
+      // "new" is the true default for every to-do, whether added manually or auto-created
+      // by a trigger (a notice needing approval, a review request) -- nobody has looked at
+      // it yet, so it must NOT read as "Received by <name>" until a real person explicitly
+      // selects that status themselves. See buildRow()'s updatedLine for where this matters.
+      var STATUS_LABELS = { new:"New", received:"Received", in_progress:"In Progress", blocked:"Blocked", completed:"Completed" };
+      var STATUS_ORDER = ["new","received","in_progress","blocked","completed"];
 
       function fmtWhen(iso){
         if(!iso) return "";
@@ -2127,8 +2269,13 @@
           var body = document.createElement("div");
           body.className = "todo-body";
           var createdLine = "Added by " + t.created_by + " on " + fmtWhen(t.created_at);
+          // No second line at all while status is still "new" -- there's nothing to report
+          // beyond "Added by ..." yet, and showing "New by <name>" would just be a confusing
+          // restatement of the same fact under a different label. The moment a real person
+          // picks a status from the dropdown below, that becomes a genuine, separate event
+          // worth its own line (e.g. "Received by Karla on ...").
           var statusVerb = t.status === "completed" ? "Completed" : STATUS_LABELS[t.status];
-          var updatedLine = t.updated_by ? (statusVerb + " by " + t.updated_by + " on " + fmtWhen(t.updated_at)) : "";
+          var updatedLine = (t.status !== "new" && t.updated_by) ? (statusVerb + " by " + t.updated_by + " on " + fmtWhen(t.updated_at)) : "";
           body.innerHTML =
             '<div class="todo-text"></div>' +
             '<div class="todo-meta">' + createdLine + (updatedLine ? " · " + updatedLine : "") + '</div>' +
