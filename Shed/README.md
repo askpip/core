@@ -618,6 +618,148 @@ diffing its actual pixels (not just comparing byte counts) is the only
 reliable check, the same way a text file's exact byte count is checked
 after every commit.
 
+## Mobile pen/to-do/board hotspots and desktop board hotspot, corrected again (2026-09-09)
+
+Direct on-device feedback after the notebook-text art swap above: on the
+Founder's actual phone, the pen hotspot had drifted onto the lamp base,
+and the To-Do List and Notice Board hotspots were touching each other. On
+desktop, the Notice Board hotspot sat left of where it should visually
+centre. All four were off despite passing this session's own earlier
+verification passes at a reference viewport — a reminder that a fine
+pixel-level calibration needs re-confirming against the *real* device
+report, not just a headless-browser rendering at the same nominal size.
+
+Re-derived all four from scratch against clean (hotspot-hidden)
+screenshots of the actual rebuilt page, overlaying a labelled coordinate
+grid at 5–10px increments and marking candidate positions with a test
+circle matching the real 36px hotspot diameter before committing to a
+value — the same fine-grid method used earlier in the session, just
+applied more carefully this round:
+
+- **`HOTSPOTS.mobile.deskpad`** (pen): `cx:9.2, cy:74.2` → `cx:3.8,
+  cy:76.4` — moved further down the pen's shaft, away from the lamp base
+  the previous value sat too close to.
+- **`HOTSPOTS.mobile.todo`**: `cx:57.0, cy:41.3` → `cx:57.7, cy:40.6`,
+  and **`HOTSPOTS.mobile.board`**: `cx:59.3, cy:46.6` → `cx:58.2, cy:47.4`
+  — nudged apart (todo up within its note, board down within its note)
+  to open a real gap between the two 36px hotspot circles, which
+  previously had only about 9px of clearance between them; both stayed
+  centred on their own note.
+- **`HOTSPOTS.desktop.board`**: `cx:56, cy:25` → `cx:58, cy:25` — nudged
+  right so it centres over the pinned note beneath it.
+
+All four re-verified visually against the freshly rebuilt `index.html`
+(not the pre-change marker overlay alone) before shipping.
+
+## File Cabinet folders show a pending-notice count badge (2026-09-09)
+
+A small red count badge — matching the one already on the Notice Board
+hotspot — now also appears on any File Cabinet folder card that contains
+one or more documents with a pending (unapproved) notice linked to them,
+anywhere in that folder's subtree. `cabinetPendingCountUnder(path)` sums
+`pendingNoticesFor(item.id).length` (the same predicate `buildItemListEl`
+already uses for a document's own "⚑ Pending" row badge) across every
+item whose `folder` is at or nested under the given path, and
+`folderBadgeHtml(count)` renders it as a small circular badge, absolutely
+positioned over the folder icon's top-right corner. Wired into both
+`renderFolders()` (top-level folder grid) and `renderCabinetLevel()`
+(nested subfolder grid), so a pending notice several folders deep is
+still visible from the top of the File Cabinet, not just once you've
+drilled down to it. With the shed's first real notice still pending
+(linked to `Foundations/Founding_Principles.md`), the Foundations folder
+now shows a badge reading "1," confirmed via a functional test with fake
+data before shipping.
+
+## "Send to Desktop" buttons renamed to "Desktop" (2026-09-09)
+
+The one button used throughout the Notice Board, File Cabinet and
+Bookshelf list views (`buildItemListEl`'s `sendBtn`, see "List views show
+title + Send to Desktop only" above) now reads just "Desktop" instead of
+"Send to Desktop" — shorter, and the button already only ever appears
+next to an item's title in a context where "send this to the desk" is
+the only thing it could mean.
+
+## Desk windowing rebuilt again — browser-tab style, replacing the staggered stack (2026-09-09)
+
+The staggered card/panel stack (see "Desk windowing" and the "peek strip"
+fix above) turned out to still have the exact problem it was built to
+prevent: on a real phone, with the desk window open, the Founder still
+couldn't reach any other item — there simply isn't width on a mobile
+screen for a reserved peek-strip plus an expanded window at the same
+time, and the mobile-breakpoint fallback (no reservation at all, cards on
+top by z-index only) never actually gave a clickable sliver to tap. Per
+the Founder's own suggested redesign, the entire layered/staggered
+approach has been replaced with a **browser-tab-style windowing model**
+that has no layering to get wrong in the first place: every open item
+always has its own reachable tab, full stop.
+
+- **One shared frame per stage, not one element per open item.** Each
+  stage now creates a single `.desk-window` frame element up front
+  (`stageEl._deskFrame`), fixed at the desk's bottom-right corner
+  (`right:16px; bottom:16px; width:min(680px,86%);
+  height:min(560px,80%)`, or ~96%/~92% via `.desk-window.maximized`).
+  `stageEl._deskWindows` is now a plain ordered array of `{item, bodyEl}`
+  (back-to-front; the last entry is always the active tab) rather than
+  the old array of separate DOM windows — there is nothing left to
+  stagger, layer, or reserve space around, so `layoutDeskWindows`,
+  `DESK_STAGGER_STEP`, `DESK_CARD_WIDTH`, and the whole 700px-breakpoint
+  peek-strip reservation logic were all deleted outright rather than
+  adjusted.
+- **Zero open items**: the frame is hidden (`display:none`) and empty.
+  **Exactly one**: a plain titlebar (`.dw-titlebar-single`) shows the
+  item's title plus a maximize toggle and a close ✕, no tab strip.
+  **Two or more**: the titlebar becomes a scrollable tab strip
+  (`.dw-tabs`), one `.dw-tab` per open item (its own title and its own
+  small ✕), a maximize toggle at the end. Both the single-item titlebar
+  and the tabbed header share the same `buildMaximizeBtn()`, so maximize
+  behaves identically regardless of how many items are open. Every
+  item's body element is kept alive in the DOM the whole time it's open
+  (`display:none` when its tab isn't active, not removed/re-rendered) so
+  switching tabs never re-fetches or re-renders anything.
+- **Opening an item** (`addToDesk`) that's already open just raises its
+  existing tab to active (`bringDeskWindowToFront`) instead of opening a
+  duplicate — unchanged behaviour from before, still shared by all five
+  existing call sites (the "Review: &lt;document&gt;" link, the pending-notice
+  button, a list row's "Desktop" send button, Pin to Notice Board, and
+  File in Cabinet), none of which needed to change since `addToDesk`'s
+  open-or-focus contract stayed the same.
+- **Closing a tab** (its own ✕, or the single titlebar's ✕ when only one
+  item is open) removes just that item; the frame itself hides only once
+  the last tab closes. **Maximize** is now a per-stage flag
+  (`stageEl._deskMaximized`), not per-window, since there's only ever one
+  frame to maximize.
+- **Hover (desktop) / touch (mobile) on a tab shows its full title** —
+  the Founder's specific ask, since a tab strip necessarily truncates
+  long titles to fit. A single shared tooltip element
+  (`.shed-tab-tooltip`) is appended once, directly to `document.body`,
+  and repositioned via `getBoundingClientRect()` math on `mouseenter`
+  (desktop) or `touchstart` (mobile, auto-hiding itself after 1.8s so it
+  doesn't linger after the finger lifts) — **not** a tooltip nested
+  inside the tab itself. The first version tried exactly that (a
+  `position:absolute` tooltip inside `.dw-tab` → `.dw-tabs` →
+  `.dw-header` → `.desk-window`) and it was silently invisible on screen
+  despite `getComputedStyle` correctly reporting `opacity:1;
+  visibility:visible` — caught by an actual screenshot, not just a
+  computed-style check. Root cause: `.desk-window{overflow:hidden}` and
+  `.dw-tabs{overflow-x:auto}` (which per spec forces `overflow-y` to
+  compute as `auto` too) were both clipping it regardless of its own
+  styles being correct. Switching to a single `position:fixed` element
+  on `document.body` sidesteps all ancestor clipping entirely and was
+  re-verified as visible and correctly positioned before shipping.
+- **The old cycle button (⇄) is gone** — tabs are the replacement for it,
+  per the Founder's request, so switching between open items is now a
+  tab click (or a hover/touch to preview the title first) rather than a
+  separate cycle action. **The old "Expand" button on a minimized card is
+  also gone** — there's no minimized-card state left to expand from;
+  every open item is simply a tab, always at its full windowed (or
+  maximized) size.
+- Verified end-to-end with a from-scratch Playwright harness driving the
+  real production UI (unlock, hotspot clicks, folder navigation, sending
+  items to the desk, tab switching, hover and touch tooltips, maximize/
+  restore, closing individual tabs and the last one) against the real
+  rebuilt `index.html`, at both a desktop (1600×900) and a real mobile
+  (390×844, touch-enabled) viewport — not just the desktop path.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI
@@ -636,9 +778,14 @@ after every commit.
 - Automatic document sync from Core, covering the full documentation
   surface (Foundations, Knowledge Curation System, MVP, Standards,
   Working, AI, Graphics), with full nested subfolder structure preserved
-- Nested File Cabinet mirroring Core's own folder structure
-- Multi-window, staggered, click-to-front desk — unlimited windows, each
-  minimized (card) or expanded (panel), sharing one stack
+- Nested File Cabinet mirroring Core's own folder structure, with a
+  pending-notice count badge on any folder whose subtree has one
+- Browser-tab-style desk windowing — one shared frame per stage; a plain
+  titlebar with one item open, a tab strip once two or more are open,
+  each tab with its own close ✕ and a hover/touch tooltip showing its
+  full title; a maximize toggle; every open item always reachable by its
+  own tab, with no layering or hidden-behind-another-window state
+  possible
 - Notice/approval workflow: notices can require approval and link to a
   document, or have review requested instead (concerns/changes/
   disagreements, with notes); approval/review state is recorded in the
@@ -649,10 +796,8 @@ after every commit.
   notice indicator; and approving/requesting review gives unmistakable
   colour + flash feedback
 - List views (Notice Board, File Cabinet, Bookshelf) show only a title
-  and a "Send to Desktop" button — no inline preview, no edit-in-place;
-  viewing and editing happen only in a desk window
-- Expanded desk windows can be toggled full-screen for easier reading,
-  and cycled between when more than one is open at once
+  and a "Desktop" button — no inline preview, no edit-in-place; viewing
+  and editing happen only in a desk window
 
 ## What's next
 

@@ -115,27 +115,72 @@
   }
   .hotspot-badge.show{ display:flex; }
 
-  /* The Desk: any number of items (documents/notices/books) can be open at once, each a
-     .desk-window in either "card" (minimized) or "panel" (expanded) state, sharing one
-     staggered stack so every open window's title stays reachable. Newest-brought-to-front
-     is last in stageEl._deskWindows and sits at the bottom-right anchor; each window further
-     back in the stack is nudged up and to the left so its titlebar still peeks out above the
-     one in front of it -- click any titlebar (or window) to bring it back to the front. */
+  /* The Desk: any number of items (documents/notices/books) can be open at once, sharing a
+     single window frame per stage -- browser-tab style. With one item open, the frame shows
+     a plain titlebar (title + maximize/restore + close). With two or more, a tab strip
+     replaces the titlebar: click a tab to switch which document is showing, click its own
+     little x to close just that one. Because every open item always has its own reachable
+     tab, there's no more layering/peeking to manage -- the old "can't reach a window buried
+     behind another" problem this replaced can't happen: nothing is ever hidden behind
+     anything else. */
   .desk-stack{ position:absolute; inset:0; z-index:15; pointer-events:none; overflow:hidden; }
   .desk-window{
-    position:absolute; pointer-events:auto; background:var(--cream); border-radius:10px;
+    position:absolute; right:16px; bottom:16px; width:min(680px, 86%); height:min(560px, 80%);
+    pointer-events:auto; background:var(--cream); border-radius:10px;
     box-shadow:2px 8px 20px rgba(0,0,0,.4); font-family:'Nunito',sans-serif;
-    display:flex; flex-direction:column; overflow:hidden;
+    display:flex; flex-direction:column; overflow:hidden; z-index:100;
   }
-  .desk-window .dw-titlebar{
-    display:flex; align-items:center; justify-content:space-between; gap:8px; flex:none;
-    background:var(--wood); color:var(--cream); padding:7px 10px; cursor:pointer;
-    font-family:'Kalam',cursive; font-size:.92rem;
+  /* Full-screen reading mode, toggled by the maximize/restore button. */
+  .desk-window.maximized{ width:96%; height:92%; right:2%; bottom:4%; }
+
+  .desk-window .dw-header{ flex:none; background:var(--wood); color:var(--cream); }
+
+  /* Exactly one item open: a plain titlebar, same shape the app always had. */
+  .desk-window .dw-titlebar-single{
+    display:flex; align-items:center; justify-content:space-between; gap:8px;
+    padding:7px 10px; font-family:'Kalam',cursive; font-size:.92rem;
   }
-  .desk-window .dw-titlebar b{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0; }
-  /* Groups the trailing titlebar buttons (cycle / maximize / minimize-or-close) so
-     justify-content:space-between on the titlebar puts all of space between the title and
-     this one cluster, rather than spreading three separate buttons apart. */
+  .desk-window .dw-titlebar-single b{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0; }
+
+  /* Two or more items open: a browser-style tab strip, window controls docked at its right
+     end. Each tab carries its own close x, exactly like a browser tab, so switching which
+     document is showing is always just a click on its tab -- no cycle button needed. */
+  .desk-window .dw-header.tabbed{ display:flex; align-items:stretch; }
+  .desk-window .dw-tabs{
+    display:flex; align-items:stretch; gap:2px; overflow-x:auto; flex:1; min-width:0;
+    padding:6px 4px 0;
+  }
+  .desk-window .dw-tab{
+    position:relative; display:flex; align-items:center; gap:6px; flex:none;
+    max-width:150px; min-width:70px; padding:6px 8px; border-radius:8px 8px 0 0; cursor:pointer;
+    background:rgba(255,255,255,.14); font-family:'Nunito',sans-serif; font-size:.78rem;
+  }
+  .desk-window .dw-tab.active{ background:var(--cream); color:var(--wood-dark); }
+  .desk-window .dw-tab-title{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0; flex:1; }
+  .desk-window .dw-tab-close{
+    flex:none; background:transparent; border:none; color:inherit; opacity:.7;
+    width:16px; height:16px; border-radius:50%; cursor:pointer; font-size:.75rem; line-height:1;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .desk-window .dw-tab-close:hover{ opacity:1; background:rgba(0,0,0,.15); }
+  .desk-window .dw-header.tabbed .dw-titlebtns{ flex:none; display:flex; align-items:center; padding:6px 8px 0; }
+
+  /* A tab's full title on hover (desktop) or a tap (mobile -- toggled briefly by a touchstart
+     handler, since a native title attribute never fires on touch). This one lives outside
+     .desk-window entirely (appended straight to <body>, position:fixed, placed by JS) rather
+     than nested inside the tab: the window frame and the scrolling tab strip both clip their
+     own contents (needed elsewhere, for rounded corners and for many tabs to scroll), which
+     would silently clip a tooltip nested inside them the moment it pokes above the tab. */
+  .shed-tab-tooltip{
+    position:fixed; background:var(--wood-dark); color:#fff; font-family:'Nunito',sans-serif;
+    font-weight:700; font-size:.72rem; padding:5px 9px; border-radius:6px; white-space:nowrap;
+    max-width:220px; overflow:hidden; text-overflow:ellipsis; box-shadow:0 2px 8px rgba(0,0,0,.35);
+    opacity:0; pointer-events:none; transition:opacity .15s ease; z-index:500;
+  }
+  .shed-tab-tooltip.show{ opacity:1; }
+
+  /* Groups the trailing titlebtns (maximize / close) so justify-content:space-between on the
+     single-item titlebar puts all the space between the title and this one cluster. */
   .desk-window .dw-titlebtns{ display:flex; align-items:center; gap:6px; flex:none; }
   .desk-window .dw-titlebtn{
     flex:none; background:rgba(255,255,255,.18); border:none; color:var(--cream);
@@ -143,18 +188,9 @@
     display:flex; align-items:center; justify-content:center;
   }
   .desk-window .dw-titlebtn:hover{ background:rgba(255,255,255,.32); }
-  .desk-window.card{ width:230px; }
-  .desk-window.card .dw-body{ padding:8px 10px 0; font-size:.8rem; max-height:64px; overflow:hidden; }
-  .desk-window.card .dw-expand{
-    margin:8px 10px 10px; align-self:flex-start;
-    font-family:'Nunito',sans-serif; font-weight:700; font-size:.72rem; border:none;
-    border-radius:6px; padding:5px 9px; cursor:pointer; background:var(--moss); color:#fff;
-  }
-  .desk-window.panel{ width:min(680px, 86%); height:min(560px, 80%); }
-  .desk-window.panel .dw-body{ flex:1; overflow:auto; padding:14px 16px 16px; }
-  /* Full-screen reading mode, toggled by the ⤢ button -- layoutDeskWindows skips the
-     staggered right/bottom offset for a maximized window so this rule positions it instead. */
-  .desk-window.panel.maximized{ width:96%; height:92%; right:2%; bottom:4%; }
+
+  .desk-window .dw-body-wrap{ flex:1; overflow:hidden; position:relative; }
+  .desk-window .dw-body{ height:100%; overflow:auto; padding:14px 16px 16px; box-sizing:border-box; }
   .desk-window .doc-date{ display:block; font-size:.75rem; color:var(--wood); opacity:.8; margin:2px 0 10px; }
   .desk-window .linked-doc-btn{
     display:inline-flex; align-items:center; gap:6px; font-family:'Nunito',sans-serif; font-weight:700;
@@ -212,6 +248,7 @@
   /* File Cabinet folder menu */
   .folder-list{ display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:12px; }
   .folder-card{
+    position:relative;
     display:flex; flex-direction:column; align-items:flex-start; gap:4px; text-align:left;
     background:var(--card); border:1px solid var(--pip-border); border-radius:10px;
     padding:14px; cursor:pointer; font-family:'Nunito',sans-serif;
@@ -220,6 +257,14 @@
   .folder-card .folder-icon{ font-size:1.6rem; }
   .folder-card .folder-name{ font-family:'Kalam',cursive; font-size:1rem; color:var(--wood-dark); }
   .folder-card .folder-count{ font-size:.75rem; color:var(--wood); }
+  /* Live count of items with a pending approval notice filed somewhere under this folder --
+     same red-circle treatment as a hotspot's pending badge, so the two read as one language. */
+  .folder-card .folder-pending-badge{
+    position:absolute; top:-6px; right:-6px; min-width:20px; height:20px; padding:0 5px;
+    border-radius:10px; background:#a33; color:#fff; font-family:'Nunito',sans-serif;
+    font-weight:700; font-size:.7rem; display:flex; align-items:center; justify-content:center;
+    box-shadow:0 1px 4px rgba(0,0,0,.4);
+  }
   .backbtn{
     font-family:'Nunito',sans-serif; font-weight:700; font-size:.8rem; cursor:pointer;
     background:transparent; border:1.5px solid var(--pip-border); color:var(--wood-dark);
@@ -229,8 +274,8 @@
 
   .item-list{ display:grid; gap:8px; }
 
-  /* A row in the Notice Board / File Cabinet / Bookshelf item list: title + "Send to
-     Desktop" only, no preview -- see buildItemListEl's comment for why. */
+  /* A row in the Notice Board / File Cabinet / Bookshelf item list: title + a "Desktop"
+     button only, no preview -- see buildItemListEl's comment for why. */
   .item-row{
     display:flex; align-items:center; justify-content:space-between; gap:10px;
     background:var(--card); border:1px solid var(--pip-border); border-radius:8px;
@@ -731,17 +776,17 @@
   // actual rendered mobile stage (not the raw art file) before shipping a change.
   var HOTSPOTS = {
     mobile: [
-      {key:"board", label:"Notice Board", icon:"📌", cx:59.3, cy:46.6},
-      {key:"todo", label:"To-Do List", icon:"✅", cx:57.0, cy:41.3},
+      {key:"board", label:"Notice Board", icon:"📌", cx:58.2, cy:47.4},
+      {key:"todo", label:"To-Do List", icon:"✅", cx:57.7, cy:40.6},
       {key:"calendar", label:"Calendar", icon:"📅", cx:78, cy:45.8},
       {key:"bookshelf", label:"Bookshelf", icon:"📚", cx:96, cy:42},
       {key:"cabinet", label:"File Cabinet", icon:"🗄️", cx:5, cy:55},
       {key:"rug", label:"Info", icon:"👣", cx:59.7, cy:59},
-      {key:"deskpad", label:"Notepad", icon:"✎", cx:9.2, cy:74.2},
+      {key:"deskpad", label:"Notepad", icon:"✎", cx:3.8, cy:76.4},
       {key:"bin", label:"Recycle Bin", icon:"🗑️", cx:95, cy:56}
     ],
     desktop: [
-      {key:"board", label:"Notice Board", icon:"📌", cx:56, cy:25},
+      {key:"board", label:"Notice Board", icon:"📌", cx:58, cy:25},
       {key:"todo", label:"To-Do List", icon:"✅", cx:56, cy:14},
       {key:"calendar", label:"Calendar", icon:"📅", cx:72, cy:26},
       {key:"bookshelf", label:"Bookshelf", icon:"📚", cx:93, cy:15},
@@ -886,17 +931,21 @@
     deskStack.className = "desk-stack";
     stageEl.appendChild(deskStack);
     stageEl._deskStack = deskStack;
-    stageEl._deskWindows = []; // ordered back -> front; last entry is always the frontmost window
+    stageEl._deskWindows = []; // ordered back -> front; last entry is always the active tab
+    stageEl._deskMaximized = false; // shared by the one frame, so it survives switching tabs
+
+    var deskFrame = document.createElement("div");
+    deskFrame.className = "desk-window";
+    deskFrame.style.display = "none";
+    deskStack.appendChild(deskFrame);
+    stageEl._deskFrame = deskFrame;
   });
 
-  // ---- The Desk: a stack of windows (documents/notices/books), each a "card" (minimized)
-  // or a "panel" (expanded). Any number can be open at once; every open window -- card or
-  // panel alike -- shares one staggered back-to-front stack, so a notice and the document
-  // it links to can both stay open and be switched between with a click. New windows always
-  // open as a card, never auto-expanded, per the Founder's direction. ----
-
-  var DESK_STAGGER_STEP = 26; // px nudge per rank back from the front, both axes
-  var DESK_CARD_WIDTH = 230; // matches .desk-window.card{width:230px} in the stylesheet
+  // ---- The Desk: any number of items (documents/notices/books) can be open at once, but
+  // there's only ever one visible window frame per stage (stageEl._deskFrame). With one item
+  // open it's a plain titlebar; with two or more, a browser-style tab strip appears so any
+  // open item is always one click away -- see renderDeskChrome. stageEl._deskWindows tracks
+  // which items are open, ordered back -> front; the last entry is always the active tab. ----
 
   function deskWindowFor(stageEl, itemId){
     return (stageEl._deskWindows || []).filter(function(w){ return itemId != null && w.item.id === itemId; })[0] || null;
@@ -935,200 +984,200 @@
     });
   }
 
-  function layoutDeskWindows(stageEl){
-    var wins = stageEl._deskWindows || [];
-    var stageWidth = stageEl.clientWidth || 1000;
+  // One shared tooltip bubble for the whole page (only one tab can be hovered/touched at a
+  // time), appended straight to <body> and positioned with fixed coordinates from the
+  // hovered tab's own getBoundingClientRect -- see the .shed-tab-tooltip CSS comment for why
+  // it can't just live inside the tab.
+  var tabTooltipEl = document.createElement("div");
+  tabTooltipEl.className = "shed-tab-tooltip";
+  document.body.appendChild(tabTooltipEl);
 
-    // Whenever a "closed" (card-state) window shares the desk with an expanded one, the
-    // expanded window -- however large, even maximized -- is pushed left by a reserved strip
-    // along the right edge, wide enough to keep a card's whole width visible. Without this, a
-    // large enough panel simply covers every card behind it and there's no way left to reach
-    // it. Cards themselves keep their normal small corner-hugging stagger, now guaranteed to
-    // sit inside that permanently-free strip rather than under the panel. Skipped below 700px
-    // (the shed's own mobile/desktop breakpoint) -- there's no width to spare there, and an
-    // expanded panel already fills virtually the whole screen anyway.
-    var anyCardOpen = wins.some(function(w){ return w.state === "card"; });
-    var reserveStrip = stageWidth >= 700 && anyCardOpen;
-    var stripWidth = reserveStrip ? Math.min(DESK_CARD_WIDTH + 40, Math.round(stageWidth * 0.28)) : 0;
-
-    wins.forEach(function(w, idx){
-      var rankFromFront = wins.length - 1 - idx;
-      var off = rankFromFront * DESK_STAGGER_STEP;
-
-      if(w.state === "panel"){
-        var rightOffset = reserveStrip ? stripWidth : 16 + off;
-        w.el.style.right = rightOffset + "px";
-        w.el.style.bottom = w.maximized ? "4%" : (16 + off) + "px";
-        w.el.style.left = "";
-        // Width is fully JS-driven (overriding the .panel/.maximized CSS width) so it can
-        // shrink to fit whatever's left of the stage once the strip is reserved, rather than
-        // the CSS-fixed width pushing the panel's own left edge off-stage.
-        var maxWidth = w.maximized ? stageWidth * 0.96 : Math.min(680, stageWidth * 0.86);
-        var available = stageWidth - rightOffset - 16; // 16px minimum left margin
-        w.el.style.width = Math.max(280, Math.min(maxWidth, available)) + "px";
-      } else {
-        // Cards: unchanged, always hugging the true bottom-right corner with the normal
-        // stagger -- and always clearing any inline width a previous panel state left behind.
-        w.el.style.right = (16 + off) + "px";
-        w.el.style.bottom = (16 + off) + "px";
-        w.el.style.left = "";
-        w.el.style.width = "";
-      }
-      w.el.style.zIndex = String(100 + idx);
-    });
+  function showTabTooltip(tabEl, text){
+    tabTooltipEl.textContent = text;
+    tabTooltipEl.classList.add("show");
+    var r = tabEl.getBoundingClientRect();
+    var tw = tabTooltipEl.offsetWidth;
+    var left = r.left + r.width / 2 - tw / 2;
+    left = Math.max(4, Math.min(left, window.innerWidth - tw - 4));
+    tabTooltipEl.style.left = left + "px";
+    tabTooltipEl.style.top = (r.top - tabTooltipEl.offsetHeight - 8) + "px";
   }
 
+  function hideTabTooltip(){
+    tabTooltipEl.classList.remove("show");
+  }
+
+  // Builds (or rebuilds) the maximize/restore button -- shared by both the single-item
+  // titlebar and the tab strip's control cluster, since maximize is a property of the one
+  // shared frame, not of any individual tab.
+  function buildMaximizeBtn(stageEl){
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "dw-titlebtn";
+    btn.innerHTML = "&#10530;";
+    var label = stageEl._deskMaximized ? "Restore size" : "Maximize";
+    btn.setAttribute("aria-label", label);
+    btn.title = label;
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      stageEl._deskMaximized = !stageEl._deskMaximized;
+      renderDeskChrome(stageEl);
+    });
+    return btn;
+  }
+
+  // (Re)builds the whole frame for a stage: hidden when nothing's open, a plain titlebar for
+  // exactly one open item, or a tab strip for two or more. Also makes sure every open item's
+  // body element is in the DOM and shows only the active (last) one. Call this after any
+  // change to stageEl._deskWindows, stageEl._deskMaximized, or which window is active.
+  function renderDeskChrome(stageEl){
+    var wins = stageEl._deskWindows || [];
+    var frame = stageEl._deskFrame;
+
+    if(wins.length === 0){
+      frame.style.display = "none";
+      frame.innerHTML = "";
+      return;
+    }
+
+    frame.style.display = "flex";
+    frame.classList.toggle("maximized", !!stageEl._deskMaximized);
+    var active = wins[wins.length - 1];
+
+    var header = document.createElement("div");
+    header.className = "dw-header" + (wins.length > 1 ? " tabbed" : "");
+
+    if(wins.length > 1){
+      var tabRow = document.createElement("div");
+      tabRow.className = "dw-tabs";
+      wins.forEach(function(w){
+        var tab = document.createElement("div");
+        tab.className = "dw-tab" + (w === active ? " active" : "");
+
+        var t = document.createElement("span");
+        t.className = "dw-tab-title";
+        t.textContent = w.item.title;
+        tab.appendChild(t);
+
+        var closeBtn = document.createElement("button");
+        closeBtn.type = "button";
+        closeBtn.className = "dw-tab-close";
+        closeBtn.innerHTML = "&times;";
+        closeBtn.setAttribute("aria-label", "Close " + w.item.title);
+        closeBtn.addEventListener("click", function(e){
+          e.stopPropagation();
+          closeDeskWindow(stageEl, w);
+        });
+        tab.appendChild(closeBtn);
+
+        tab.addEventListener("click", function(){ bringDeskWindowToFront(stageEl, w); });
+        tab.addEventListener("mouseenter", function(){ showTabTooltip(tab, w.item.title); });
+        tab.addEventListener("mouseleave", hideTabTooltip);
+        // Touch devices never get a hover, so a tap shows the tooltip for a couple of
+        // seconds instead -- the only way to read a truncated title without opening the tab.
+        tab.addEventListener("touchstart", function(){
+          showTabTooltip(tab, w.item.title);
+          clearTimeout(tab._tipTimer);
+          tab._tipTimer = setTimeout(hideTabTooltip, 1800);
+        }, {passive:true});
+
+        tabRow.appendChild(tab);
+      });
+      header.appendChild(tabRow);
+      header.appendChild(buildMaximizeBtn(stageEl));
+    } else {
+      var titlebar = document.createElement("div");
+      titlebar.className = "dw-titlebar-single";
+      var titleEl = document.createElement("b");
+      titleEl.textContent = active.item.title;
+      titleEl.title = active.item.title;
+      titlebar.appendChild(titleEl);
+
+      var btns = document.createElement("div");
+      btns.className = "dw-titlebtns";
+      btns.appendChild(buildMaximizeBtn(stageEl));
+
+      var closeBtn2 = document.createElement("button");
+      closeBtn2.type = "button";
+      closeBtn2.className = "dw-titlebtn";
+      closeBtn2.innerHTML = "&times;";
+      closeBtn2.setAttribute("aria-label", "Close");
+      closeBtn2.title = "Close";
+      closeBtn2.addEventListener("click", function(e){
+        e.stopPropagation();
+        closeDeskWindow(stageEl, active);
+      });
+      btns.appendChild(closeBtn2);
+
+      titlebar.appendChild(btns);
+      header.appendChild(titlebar);
+    }
+
+    var bodyWrap = document.createElement("div");
+    bodyWrap.className = "dw-body-wrap";
+    wins.forEach(function(w){
+      w.bodyEl.style.display = (w === active) ? "block" : "none";
+      bodyWrap.appendChild(w.bodyEl);
+    });
+
+    frame.innerHTML = "";
+    frame.appendChild(header);
+    frame.appendChild(bodyWrap);
+  }
+
+  // Makes `win` the active tab (last in the array) and re-renders the chrome to show it.
+  // Also how a window is "brought to front" now that there's only one visible frame -- the
+  // name is kept because every existing call site already means exactly this: make this the
+  // one showing.
   function bringDeskWindowToFront(stageEl, win){
     var wins = stageEl._deskWindows;
     var idx = wins.indexOf(win);
-    if(idx === -1 || idx === wins.length - 1) return;
-    wins.splice(idx, 1);
-    wins.push(win);
-    layoutDeskWindows(stageEl);
+    if(idx === -1) return;
+    if(idx !== wins.length - 1){
+      wins.splice(idx, 1);
+      wins.push(win);
+    }
+    renderDeskChrome(stageEl);
   }
 
-  // Removes a window from the desk entirely (only reachable from a card's "x" -- a panel's
-  // top-right control minimizes instead, see renderDeskWindow). Nothing is deleted from
-  // Supabase here: being "on the desk" is purely a client-side view, so closing a window
-  // just stops showing it -- the item stays exactly where it already lives (cabinet,
-  // bookshelf, board, ...).
+  // Removes a window (and its tab) from the desk entirely. Nothing is deleted from Supabase
+  // here: being "on the desk" is purely a client-side view, so closing a window just stops
+  // showing it -- the item stays exactly where it already lives (cabinet, bookshelf, board,
+  // ...). If the closed window was the active tab, whichever is now last becomes active.
   function closeDeskWindow(stageEl, win){
     var wins = stageEl._deskWindows;
     var idx = wins.indexOf(win);
     if(idx > -1) wins.splice(idx, 1);
-    win.el.remove();
-    layoutDeskWindows(stageEl);
+    if(win.bodyEl && win.bodyEl.parentNode) win.bodyEl.remove();
+    renderDeskChrome(stageEl);
   }
 
-  // Sends `item` to the desk: opens a new minimized card, or -- if that item is already
-  // open -- brings its existing window to the front instead of opening a duplicate. This is
-  // the one entry point every "open on the desk" action goes through: a cabinet/bookshelf/
-  // board item's "Send to desk" button, a freshly created notice or document, and a notice's
-  // linked-document button all call this.
+  // Sends `item` to the desk: opens a new tab, or -- if that item is already open -- switches
+  // to its existing tab instead of opening a duplicate. This is the one entry point every
+  // "open on the desk" action goes through: a cabinet/bookshelf/board item's "Desktop"
+  // button, a freshly created notice or document, and a notice's linked-document button all
+  // call this.
   function addToDesk(stageEl, item){
     var existing = item.id != null ? deskWindowFor(stageEl, item.id) : null;
     if(existing){
       bringDeskWindowToFront(stageEl, existing);
       return existing;
     }
-    var win = { item: item, state: "card", el: document.createElement("div") };
-    stageEl._deskStack.appendChild(win.el);
+    var win = { item: item, bodyEl: document.createElement("div") };
+    win.bodyEl.className = "dw-body";
     stageEl._deskWindows.push(win);
-    renderDeskWindow(stageEl, win);
-    layoutDeskWindows(stageEl);
+    renderDeskPanelBody(stageEl, win, win.bodyEl);
+    renderDeskChrome(stageEl);
     return win;
   }
 
-  // Renders (or re-renders) one desk window's DOM for its current state. Called on creation
-  // and again on every card<->panel transition and every content refresh.
-  function renderDeskWindow(stageEl, win){
-    var item = win.item;
-    win.el.className = "desk-window " + win.state + (win.state === "panel" && win.maximized ? " maximized" : "");
-    win.el.innerHTML = "";
-    win.el.addEventListener("mousedown", function(){ bringDeskWindowToFront(stageEl, win); });
-
-    var titlebar = document.createElement("div");
-    titlebar.className = "dw-titlebar";
-    var titleEl = document.createElement("b");
-    titleEl.textContent = item.title;
-    titlebar.appendChild(titleEl);
-
-    var titlebtns = document.createElement("div");
-    titlebtns.className = "dw-titlebtns";
-
-    if(win.state === "panel"){
-      // Cycle button: only shown when another expanded window is open, so you can hop
-      // between currently-open docs/notices without minimizing first.
-      var otherPanels = (stageEl._deskWindows || []).filter(function(w){ return w !== win && w.state === "panel"; });
-      if(otherPanels.length){
-        var cycleBtn = document.createElement("button");
-        cycleBtn.type = "button";
-        cycleBtn.className = "dw-titlebtn";
-        cycleBtn.innerHTML = "&#8644;";
-        cycleBtn.setAttribute("aria-label", "Switch to next open document or notice");
-        cycleBtn.title = "Switch to next open document/notice";
-        cycleBtn.addEventListener("click", function(e){
-          e.stopPropagation();
-          var panels = stageEl._deskWindows.filter(function(w){ return w.state === "panel"; });
-          var idx = panels.indexOf(win);
-          bringDeskWindowToFront(stageEl, panels[(idx + 1) % panels.length]);
-        });
-        titlebtns.appendChild(cycleBtn);
-      }
-
-      // Maximize/restore toggle: expands the panel to fill most of the screen for easier
-      // reading, without changing its state (still "panel" -- minimize still works normally).
-      var maxBtn = document.createElement("button");
-      maxBtn.type = "button";
-      maxBtn.className = "dw-titlebtn";
-      maxBtn.innerHTML = "&#10530;";
-      maxBtn.setAttribute("aria-label", win.maximized ? "Restore size" : "Expand to full screen");
-      maxBtn.title = win.maximized ? "Restore size" : "Expand to full screen";
-      maxBtn.addEventListener("click", function(e){
-        e.stopPropagation();
-        win.maximized = !win.maximized;
-        renderDeskWindow(stageEl, win);
-        layoutDeskWindows(stageEl);
-        bringDeskWindowToFront(stageEl, win);
-      });
-      titlebtns.appendChild(maxBtn);
-    }
-
-    var titlebtn = document.createElement("button");
-    titlebtn.type = "button";
-    titlebtn.className = "dw-titlebtn";
-    if(win.state === "card"){
-      // Minimized: the x really does remove the window from the desk.
-      titlebtn.innerHTML = "&times;";
-      titlebtn.setAttribute("aria-label", "Close");
-      titlebtn.addEventListener("click", function(e){
-        e.stopPropagation();
-        closeDeskWindow(stageEl, win);
-      });
-    } else {
-      // Expanded: a down-arrow, because this only minimizes the window back onto the desk --
-      // it does not close it. Closing only ever happens from the minimized card's x.
-      titlebtn.innerHTML = "&#8595;";
-      titlebtn.setAttribute("aria-label", "Minimize");
-      titlebtn.addEventListener("click", function(e){
-        e.stopPropagation();
-        win.state = "card";
-        win.maximized = false;
-        renderDeskWindow(stageEl, win);
-        layoutDeskWindows(stageEl);
-        bringDeskWindowToFront(stageEl, win);
-      });
-    }
-    titlebtns.appendChild(titlebtn);
-    titlebar.appendChild(titlebtns);
-    win.el.appendChild(titlebar);
-
-    var body = document.createElement("div");
-    body.className = "dw-body";
-    win.el.appendChild(body);
-
-    if(win.state === "card"){
-      if(item.requiresApproval){
-        var linkedForCard = item.linkedItemId ? findItemById(item.linkedItemId) : null;
-        body.textContent = "Re: " + (linkedForCard ? linkedForCard.title : (item.linkedItemId ? ("Document #" + item.linkedItemId) : "no document linked"));
-      } else {
-        body.textContent = item.body.length > 90 ? item.body.slice(0, 90) + "..." : item.body;
-      }
-      var expandBtn = document.createElement("button");
-      expandBtn.type = "button";
-      expandBtn.className = "dw-expand";
-      expandBtn.textContent = "Expand";
-      expandBtn.addEventListener("click", function(e){
-        e.stopPropagation();
-        win.state = "panel";
-        renderDeskWindow(stageEl, win);
-        layoutDeskWindows(stageEl);
-        bringDeskWindowToFront(stageEl, win);
-      });
-      win.el.appendChild(expandBtn);
-    } else {
-      renderDeskPanelBody(stageEl, win, body);
-    }
+  // Re-renders just this window's body content in place (e.g. after a save-edit changes its
+  // title or text) and refreshes the chrome so a changed title shows up in its tab/titlebar
+  // immediately, without disturbing any other open tab's content.
+  function refreshDeskWindow(stageEl, win){
+    win.bodyEl.innerHTML = "";
+    renderDeskPanelBody(stageEl, win, win.bodyEl);
+    renderDeskChrome(stageEl);
   }
 
   // Populates an expanded window's body: the item's own view/edit UI (same Edit/Delete/Save
@@ -1204,7 +1253,7 @@
             var found = CONTENT[item.loc].items.find(function(it){ return it.id === item.id; });
             if(found){ found.title = item.title; found.body = item.body; found.updatedAt = item.updatedAt; found.updatedBy = item.updatedBy; }
           }
-          renderDeskWindow(stageEl, win);
+          refreshDeskWindow(stageEl, win);
         });
       });
       body.querySelector(".delete-item").addEventListener("click", function(){
@@ -1505,7 +1554,7 @@
         var sendBtn = document.createElement("button");
         sendBtn.type = "button";
         sendBtn.className = "btn send-row";
-        sendBtn.textContent = "Send to Desktop";
+        sendBtn.textContent = "Desktop";
         sendBtn.addEventListener("click", function(){
           addToDesk(stageEl, item);
           close();
@@ -1553,6 +1602,25 @@
         }).length;
       }
 
+      // Count of items at or under `path` that themselves have a pending (unapproved) notice
+      // linked to them -- same predicate buildItemListEl uses for a row's own "⚑ Pending"
+      // flag, just summed across a folder's whole subtree so a folder card can carry a live
+      // count the same way the Notice Board hotspot does (see updateBoardBadge).
+      function cabinetPendingCountUnder(path){
+        var prefix = path + "/";
+        return data.items.filter(function(it){
+          var f = it.folder || CABINET_DEFAULT_FOLDER;
+          if(f !== path && f.indexOf(prefix) !== 0) return false;
+          return it.id != null && pendingNoticesFor(it.id).length > 0;
+        }).length;
+      }
+
+      function folderBadgeHtml(pendingCount){
+        return pendingCount > 0
+          ? '<span class="folder-pending-badge">' + pendingCount + '</span>'
+          : "";
+      }
+
       function renderFolders(){
         titleEl.textContent = data.title;
         panelBody.innerHTML = "";
@@ -1560,10 +1628,12 @@
         grid.className = "folder-list";
         CABINET_FOLDERS.forEach(function(f){
           var count = cabinetCountUnder(f.name);
+          var pendingCount = cabinetPendingCountUnder(f.name);
           var card = document.createElement("button");
           card.type = "button";
           card.className = "folder-card";
-          card.innerHTML = '<span class="folder-icon">' + f.icon + '</span>' +
+          card.innerHTML = folderBadgeHtml(pendingCount) +
+            '<span class="folder-icon">' + f.icon + '</span>' +
             '<span class="folder-name">' + f.name + '</span>' +
             '<span class="folder-count">' + count + (count === 1 ? " document" : " documents") + '</span>';
           card.addEventListener("click", function(){ renderCabinetLevel(f.name, renderFolders); });
@@ -1600,10 +1670,12 @@
         subfolders.forEach(function(name){
           var childPath = path + "/" + name;
           var count = cabinetCountUnder(childPath);
+          var pendingCount = cabinetPendingCountUnder(childPath);
           var card = document.createElement("button");
           card.type = "button";
           card.className = "folder-card";
-          card.innerHTML = '<span class="folder-icon">📁</span>' +
+          card.innerHTML = folderBadgeHtml(pendingCount) +
+            '<span class="folder-icon">📁</span>' +
             '<span class="folder-name">' + name + '</span>' +
             '<span class="folder-count">' + count + (count === 1 ? " document" : " documents") + '</span>';
           card.addEventListener("click", function(){
