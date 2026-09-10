@@ -1771,6 +1771,40 @@ four problems directly, all corrected the same day:
   archived write-back notices from the Core write-back section above were
   left untouched as historical record).
 
+### "Upload a document…" added to the New Notice box (10 September 2026)
+
+A follow-up report caught a real gap: the fixes above set `has_upload`
+and defaulted `want_upload` to true, but nothing in the New Notice
+composer actually let you choose a file — uploading only ever worked
+after a notice already existed, from its own panel. The Founder asked
+for an upload control next to "Link a document…" in the composer
+itself, working the same for either template, with uploaded files
+landing in the File Cabinet's "From the Desk" folder.
+
+Rather than attach the file to the not-yet-created notice directly, an
+**"Upload a document…"** button now sits beside "Link a document…" in
+the composer. Choosing a file: (1) files a new File Cabinet document
+under "From the Desk" via `shed_add_item`, titled with the file's own
+name; (2) uploads the actual file to it through the existing
+`shed-attachments` Storage bucket / `shed_add_attachment` mechanism —
+the same one the notice panel's own Attachments block already used;
+(3) links that new document to the notice being created, exactly as
+"Link a document…" would (`linkedItem`/`linkedLabel` are shared between
+the two buttons, so whichever was used most recently is what gets
+linked). This required one new backend piece: a `want_upload boolean`
+overload of `shed_add_item` (mirroring `shed_add_notice`'s existing
+`want_reply`/`want_upload` params) so the new Cabinet document can be
+created with `has_upload = true` in the same call, ready for the file
+to be attached to it — the original 5-argument `shed_add_item` is
+unchanged, so every other call site (bookshelf/rug items, the plain
+"File in Cabinet" button) is unaffected. Verified end-to-end against
+the real database with a disposable test user (create-with-upload flag,
+attach, both cleaned up afterward); the browser file-upload leg itself
+still carries the same caveat as the original feature — this session's
+sandbox has no direct network path to Supabase Storage, so that
+specific leg is verified by inspection of the reused, already-shipped
+upload code path rather than a live browser test.
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`

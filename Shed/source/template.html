@@ -3299,8 +3299,10 @@
           '<input type="checkbox" class="requires-approval-check">' +
           '<span>This notice requires approval</span>' +
         '</label>' +
-        '<div class="link-doc-row" style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">' +
+        '<div class="link-doc-row" style="display:flex; align-items:center; gap:8px; margin-bottom:6px; flex-wrap:wrap;">' +
           '<button type="button" class="btn ghost choose-doc">Link a document…</button>' +
+          '<button type="button" class="btn ghost upload-doc">Upload a document…</button>' +
+          '<input type="file" class="upload-doc-input" style="display:none;">' +
           '<span class="linked-doc-label" style="font-family:\'Kalam\',cursive;"></span>' +
         '</div>' +
         '<div class="existing-notice-warning" style="display:none; background:#fdecea; border:1px solid #c0392b; border-radius:6px; padding:8px 10px; margin-bottom:8px; font-size:.85rem; color:#8a2f22;"></div>' +
@@ -3409,6 +3411,59 @@
         linkedItem = item;
         linkedLabel.textContent = "Linked: " + item.title;
         checkExistingNotice();
+      });
+    });
+
+    // Upload a document (10 September 2026, Founder instruction): the counterpart to "Link a
+    // document..." for a file that doesn't exist as a Cabinet document yet -- choosing a file
+    // here files it as a new document under the File Cabinet's "From the Desk" folder (the
+    // same folder the composer's own "File in Cabinet" button already uses), attaches the
+    // actual file to that new document via the existing shed-attachments Storage bucket /
+    // shed_item_attachments mechanism, then links it to this notice exactly like "Link a
+    // document..." would -- linkedItem/linkedLabel are shared with that flow, so whichever one
+    // is used last is what gets linked when Pin/File is clicked.
+    var uploadDocBtn = overlay.querySelector(".upload-doc");
+    var uploadDocInput = overlay.querySelector(".upload-doc-input");
+    uploadDocBtn.addEventListener("click", function(){
+      uploadDocInput.click();
+    });
+    uploadDocInput.addEventListener("change", function(){
+      var file = uploadDocInput.files && uploadDocInput.files[0];
+      if(!file) return;
+      uploadDocBtn.disabled = true;
+      linkedLabel.textContent = "Uploading " + file.name + "…";
+      sb.rpc("shed_add_item", {
+        p: window.SHED_PASSPHRASE, loc: "cabinet", ttl: file.name,
+        bdy: "Uploaded from the New Notice box.", fld: "From the Desk", want_upload: true
+      }).then(function(res){
+        if(res.error || !res.data){
+          uploadDocBtn.disabled = false;
+          uploadDocInput.value = "";
+          linkedLabel.textContent = linkedItem ? ("Linked: " + linkedItem.title) : "";
+          alert("Couldn't file that upload in the Cabinet. Please try again.");
+          return;
+        }
+        var newItem = itemFromRow(res.data, "cabinet");
+        CONTENT.cabinet.items.unshift(newItem);
+        var safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, "_");
+        var path = newItem.id + "/" + Date.now() + "-" + safeName;
+        sb.storage.from("shed-attachments").upload(path, file).then(function(upRes){
+          uploadDocBtn.disabled = false;
+          uploadDocInput.value = "";
+          linkedItem = newItem;
+          checkExistingNotice();
+          if(upRes.error){
+            linkedLabel.textContent = "Linked: " + newItem.title + " (file upload failed — open it from From the Desk to retry)";
+            return;
+          }
+          sb.rpc("shed_add_attachment", { p: window.SHED_PASSPHRASE, item_id: newItem.id, file_name: file.name, storage_path: path, size_bytes: file.size }).then(function(attRes){
+            if(!attRes.error && attRes.data){
+              if(!ATTACHMENTS[newItem.id]) ATTACHMENTS[newItem.id] = [];
+              ATTACHMENTS[newItem.id].push(attRes.data);
+            }
+            linkedLabel.textContent = "Uploaded & linked: " + newItem.title;
+          });
+        });
       });
     });
 
