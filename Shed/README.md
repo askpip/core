@@ -1403,6 +1403,106 @@ Only then was the old rule in `template.html` (the `a, button, select, ...` curs
   control or the To-Do List updates the same row, and the Notice Board
   list shows each notice's current status as a small glance chip
 
+## Item-row badge alignment fix; single lock form; completed notices auto-archive to a "Completed Tasks" File Cabinet folder (2026-09-10)
+
+Three fixes/features from one direct report: the status/decision chips in
+Notice Board/File Cabinet/Bookshelf rows were landing at inconsistent
+horizontal positions instead of a steady column before the "Desktop"
+button; unlocking the shed was taking three passphrase attempts most
+logins that night, with a hard refresh first each time; and a request that
+a notice, once its shared to-do is marked Completed, come off the Notice
+Board on its own into a new File Cabinet folder for founder-review
+follow-up, rather than staying visible there as a decided item.
+
+- **Item-row alignment** — root cause was CSS, not markup: `.item-row` used
+  `justify-content:space-between` with an unbounded-width title as its
+  first child, so the leftover space in the row was split across every
+  gap between title, chips, and the Desktop button — meaning each badge's
+  on-screen position drifted with how long that row's title happened to
+  be, exactly the "all over the place" look reported directly, with a
+  screenshot, on 2026-09-10. Fixed with a single CSS change: `.item-row`'s
+  `justify-content` changed to `flex-start`, and `.item-row-title` given
+  `flex:1 1 auto` so the title alone absorbs all the row's slack width.
+  Everything after it — the status chip, the decision chip, the Desktop
+  button — now sits as one steady, right-anchored cluster on every row
+  regardless of title length. Verified with a Playwright render of three
+  rows (a short title, a long title, and one in between): the Desktop
+  button lands at the identical x-position on all three, with the chips
+  flush against it and each other.
+- **Login taking three passphrase attempts** — root cause: until this fix
+  the lock screen actually had *two* separate `<form>` elements, each with
+  its own `<input type="password">`
+  (`#lockFormMobile`/`#lockFormDesktop`), toggled only by CSS
+  `display:none` per breakpoint — so two live password fields existed in
+  the DOM at once on every load. That gives a browser's password-manager
+  autofill two targets to reconcile on one page, a known trigger for
+  autofill/auto-submit misbehaving or silently failing — a plausible
+  explanation for needing several attempts per login, and one a hard
+  refresh wouldn't fix, since the duplication was baked into the page
+  itself, not a stale cached state. Fixed structurally rather than with
+  another heuristic guard on top: collapsed to one shared `<form
+  id="lockForm">`/`<input id="lockInput">`, hoisted out of both
+  `.stage-ratio` divs and repositioned via the same `@media` breakpoint
+  that already switches the lock screen's background art — only the art
+  still switches per breakpoint; the form and its one password field now
+  exist exactly once regardless of viewport. Verified the built page now
+  contains exactly one `<input type="password">` inside `#lockScreen` (the
+  page has six other, unrelated password fields elsewhere in the app, all
+  pre-existing and outside the lock screen), that the single form still
+  renders in the correct on-screen position at both a desktop and a
+  mobile viewport width, and that unlock still works end-to-end.
+  **This should mean one passphrase entry unlocks reliably from now on**
+  — if it doesn't, that's worth reporting again, since it would point to
+  a different cause than the one found and fixed here.
+- **Completed notices auto-archive to a new "Completed Tasks" File Cabinet
+  folder** — migration `shed_notice_completed_auto_archive`, extending
+  `shed_set_todo_status`, `shed_set_notice_approval`, and
+  `shed_request_notice_review` (all `create or replace function`, no
+  signature changes). When a requires-approval notice's shared to-do
+  transitions *to* `completed`, the notice's own row moves from
+  `location='board'` to `location='cabinet', folder='Completed Tasks'` in
+  the same call — it disappears from the Notice Board and appears as a
+  document-like card in the File Cabinet's new "Completed Tasks" folder
+  (`CABINET_FOLDERS` gained a `✅ Completed Tasks` entry so the folder is
+  actually browsable, not just present in the data). This directly
+  matches the request: a completed-and-approved notice — e.g. the founder
+  review notices already sitting completed and approved — is exactly the
+  kind of decided item meant to land there, as a queue for the separate,
+  still-manual follow-up work of actually updating that real Core
+  document's Status field and committing it to the right place in the
+  repo (the notice/approval workflow has never written back to Core or
+  git on its own — see "Notice/approval workflow" above — this only
+  changes where the *record* of the decision lives once it's been acted
+  on, not that manual step itself).
+
+  Extended one step beyond the literal request, deliberately: the same
+  migration also un-archives a notice — moves it back to
+  `location='board'` and resets its to-do's status away from `completed`
+  — if it's later un-approved or has review requested against it while
+  archived. Reasoning: without this, un-approving an archived notice
+  would leave its to-do reading "Completed" while the notice itself no
+  longer reflected an actual approval, silently reintroducing the exact
+  Completed-to-do/unapproved-notice mismatch the existing
+  Completed-blocker (in `shed_set_todo_status`, unchanged) was already
+  guarding against at the moment of completion. Also fixed a related
+  client-side bug this change would otherwise have caused: the To-Do
+  List's "View Notice" link/decision badge for a given task used to look
+  up its linked notice by scanning only `CONTENT.board.items`, an
+  assumption that held before archiving existed (an unapproved notice is
+  always still on the board) but not after (a completed-and-approved
+  notice is now in the cabinet). Replaced with `findNoticeByTodoId`,
+  which checks every list, and reverified against a completed, archived
+  test notice that its to-do row still correctly shows the "✓ Approved"
+  decision badge and a working "View Notice" link.
+
+  All four transitions — complete (archive), un-complete (un-archive),
+  re-complete (re-archive), and un-approve/request-review while archived
+  (un-archive + to-do reset) — were tested directly against the live
+  database with disposable test rows before shipping, each verified with
+  an independent, freshly-run `SELECT` (never trusting a single RPC
+  call's own returned row), and all test rows fully deleted afterward
+  with a fresh zero-count check across every affected table.
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`
@@ -1417,5 +1517,8 @@ Open items:
 - The notice/approval workflow does not write back to the Core document
   or git — updating a Core document's own Archival & Approval Record
   banner once a shed approval is granted is still a separate, manual
-  step. Worth a Founder decision if this project wants that automated
-  later.
+  step. The new "Completed Tasks" File Cabinet folder (2026-09-10) is a
+  queue for exactly that follow-up — the founder review notices already
+  completed and approved belong there — but doing the actual document
+  edits and commits is still open work, for a person or an AI session
+  working directly in Core.

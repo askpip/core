@@ -310,12 +310,20 @@
   /* A row in the Notice Board / File Cabinet / Bookshelf item list: title + a "Desktop"
      button only, no preview -- see buildItemListEl's comment for why. */
   .item-row{
-    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    display:flex; align-items:center; justify-content:flex-start; gap:10px;
     background:var(--card); border:1px solid var(--pip-border); border-radius:8px;
     padding:10px 12px; font-family:'Nunito',sans-serif; font-size:.9rem;
   }
   .item-row:hover{ background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.15); }
+  /* flex:1 so the title alone absorbs all the row's slack width -- previously every badge
+     (status/decision) and the Desktop button shared `justify-content:space-between`'s leftover
+     space between them too, so their horizontal position drifted row to row depending on how
+     long each title happened to be, instead of sitting as one steady, right-anchored group
+     (reported directly, 10 September 2026, from a screenshot showing them "all over the
+     place"). With the title alone taking the slack, everything after it -- badges, then
+     Desktop -- now sits flush together against the row's right edge on every row. */
   .item-row-title{
+    flex:1 1 auto;
     font-family:'Kalam',cursive; font-size:1rem; color:var(--wood-dark);
     overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0;
   }
@@ -600,8 +608,10 @@
   }
   .lock-box button:disabled{ opacity:.6; cursor:default; }
 
-  #lockFormMobile{ left:51%; top:59%; width:23%; }
-  #lockFormDesktop{ left:46%; top:64%; width:12.5%; }
+  #lockForm{ left:51%; top:59%; width:23%; }
+  @media (min-width:760px){
+    #lockForm{ left:46%; top:64%; width:12.5%; }
+  }
 
   .lock-error{
     display:none; position:absolute; left:0; right:0; bottom:4%; z-index:6;
@@ -656,23 +666,24 @@
       <div class="stage-ratio mobile">
         <div class="stage">
           <img class="scene-bg" src="__ASSET_LOCK_MOBILE__" alt="The Garden Shed, from outside">
-          <form class="lock-box" id="lockFormMobile" autocomplete="off">
-            <input type="text" name="shed-identity" value="shed" autocomplete="username" tabindex="-1" aria-hidden="true" style="position:absolute;width:1px;height:1px;padding:0;border:0;opacity:0;pointer-events:none;">
-            <input type="password" id="lockInputMobile" placeholder="Passphrase" autocomplete="new-password">
-            <button type="submit" id="lockBtnMobile">Enter</button>
-          </form>
         </div>
       </div>
       <div class="stage-ratio desktop">
         <div class="stage">
           <img class="scene-bg" src="__ASSET_LOCK_DESKTOP__" alt="The Garden Shed, from outside">
-          <form class="lock-box" id="lockFormDesktop" autocomplete="off">
-            <input type="text" name="shed-identity" value="shed" autocomplete="username" tabindex="-1" aria-hidden="true" style="position:absolute;width:1px;height:1px;padding:0;border:0;opacity:0;pointer-events:none;">
-            <input type="password" id="lockInputDesktop" placeholder="Passphrase" autocomplete="new-password">
-            <button type="submit" id="lockBtnDesktop">Enter</button>
-          </form>
         </div>
       </div>
+      <!-- A single shared form (2026-09-10, replacing separate #lockFormMobile/#lockFormDesktop
+           forms) -- see #lockForm's CSS below for why: having two live password fields in the
+           DOM at once, each toggled only by display:none, was the likely cause of repeated
+           failed unlock attempts reported directly ("taken 3 attempts... entered my passcode 3
+           times"). Only the background art still switches per breakpoint; the form itself, and
+           its one password field, now exists exactly once regardless of viewport. -->
+      <form class="lock-box" id="lockForm" autocomplete="off">
+        <input type="text" name="shed-identity" value="shed" autocomplete="username" tabindex="-1" aria-hidden="true" style="position:absolute;width:1px;height:1px;padding:0;border:0;opacity:0;pointer-events:none;">
+        <input type="password" id="lockInput" placeholder="Passphrase" autocomplete="new-password">
+        <button type="submit" id="lockBtn">Enter</button>
+      </form>
     </div>
     <div class="lock-error" id="lockError"></div>
   </div>
@@ -832,22 +843,26 @@
   function showLock(){ document.body.classList.remove("unlocked"); }
 
   function setLockBtns(disabled){
-    ["lockBtnMobile", "lockBtnDesktop"].forEach(function(id){
-      var b = document.getElementById(id);
-      if(b) b.disabled = disabled;
-    });
+    var b = document.getElementById("lockBtn");
+    if(b) b.disabled = disabled;
   }
 
   // No persistence: the passphrase is asked for fresh on every visit/reload,
   // it is never written to localStorage or any other browser storage. The resolved
   // display name (SHED_ACTIVE_USER) is likewise held only in memory for this page load.
   //
-  // unlockInFlight guards against two submits racing each other -- there are two lock
-  // forms (mobile/desktop) always in the DOM, and some browsers' password-manager
-  // autofill can auto-submit a saved credential on its own; without this guard, that
-  // auto-submit and a manual tap/Enter shortly after could both call tryUnlock() and
-  // interleave in ways that are hard to reason about. With it, a submit that arrives
-  // while one is already resolving is simply ignored.
+  // unlockInFlight guards against two submits racing each other on this one form -- some
+  // browsers' password-manager autofill can auto-submit a saved credential on its own;
+  // without this guard, that auto-submit and a manual tap/Enter shortly after could both call
+  // tryUnlock() and interleave in ways that are hard to reason about. With it, a submit that
+  // arrives while one is already resolving is simply ignored. (Until 10 September 2026 there
+  // were actually TWO lock forms in the DOM at once -- #lockFormMobile/#lockFormDesktop, only
+  // one ever display:none'd off per breakpoint -- reported directly as needing 3 passphrase
+  // attempts most logins. The likely cause: two live password fields sharing the page gave a
+  // password manager two autofill targets to reconcile, and this guard could only make a
+  // resulting double-submit fail silently, not prevent it. Collapsed to the single #lockForm
+  // above -- one password field, full stop -- which removes that failure mode outright rather
+  // than adding another heuristic on top of it.)
   var unlockInFlight = false;
   function tryUnlock(pass){
     if(unlockInFlight) return Promise.resolve(false);
@@ -875,21 +890,17 @@
     });
   }
 
-  ["lockFormMobile", "lockFormDesktop"].forEach(function(formId){
-    var form = document.getElementById(formId);
-    var inputId = formId.replace("lockForm", "lockInput");
-    form.addEventListener("submit", function(e){
-      // preventDefault (and stopPropagation, belt-and-suspenders) unconditionally, before
-      // anything else -- an autofilled/auto-submitted form must never be allowed to fall
-      // through to the browser's own native submission, which (this form has no `action`)
-      // would GET-reload the page and silently drop back to the lock screen, since nothing
-      // here is persisted by design.
-      e.preventDefault();
-      e.stopPropagation();
-      var val = document.getElementById(inputId).value;
-      if(!val) return;
-      tryUnlock(val);
-    });
+  document.getElementById("lockForm").addEventListener("submit", function(e){
+    // preventDefault (and stopPropagation, belt-and-suspenders) unconditionally, before
+    // anything else -- an autofilled/auto-submitted form must never be allowed to fall
+    // through to the browser's own native submission, which (this form has no `action`)
+    // would GET-reload the page and silently drop back to the lock screen, since nothing
+    // here is persisted by design.
+    e.preventDefault();
+    e.stopPropagation();
+    var val = document.getElementById("lockInput").value;
+    if(!val) return;
+    tryUnlock(val);
   });
 
   showLock();
@@ -1103,9 +1114,31 @@
     return null;
   }
 
-  // Notices always live in CONTENT.board (shed_add_notice always inserts location='board').
-  // "Pending" here means still awaiting a decision either way -- approved is its own resolved
-  // state, so an approved notice no longer counts even though requiresApproval stays true.
+  // Finds the notice whose shared to-do is `todoId`, wherever that notice currently lives --
+  // a completed-and-approved notice auto-archives into the File Cabinet's Completed Tasks
+  // folder now (10 September 2026; see shed_set_todo_status), so it's no longer safe to
+  // assume every notice is still in CONTENT.board the way findNoticeByTodoId's one caller
+  // (buildRow's "View Notice" link/decision badge) used to.
+  function findNoticeByTodoId(todoId){
+    var locs = ["board", "cabinet", "bookshelf", "rug", "bin"];
+    for(var i = 0; i < locs.length; i++){
+      var arr = CONTENT[locs[i]] && CONTENT[locs[i]].items;
+      if(!arr) continue;
+      for(var j = 0; j < arr.length; j++){
+        if(arr[j].todoId === todoId) return arr[j];
+      }
+    }
+    return null;
+  }
+
+  // A notice is created with location='board', and only ever leaves it once approved (auto-
+  // archived into the File Cabinet's Completed Tasks folder when its to-do reaches Completed
+  // -- see shed_set_todo_status), so an UNapproved notice is always still in CONTENT.board;
+  // un-approving one that had been archived moves it straight back (shed_set_notice_approval/
+  // shed_request_notice_review). "Pending" here means still awaiting a decision either way --
+  // approved is its own resolved state, so an approved notice no longer counts even though
+  // requiresApproval stays true -- which is exactly the state this board-only scoping relies
+  // on never being violated.
   function pendingNoticesFor(documentId){
     return (CONTENT.board.items || []).filter(function(it){
       return it.requiresApproval && !it.approved && it.linkedItemId === documentId;
@@ -1540,7 +1573,7 @@
         // A to-do auto-created for a notice (shed_items.todo_id) can be opened straight from
         // here -- same addToDesk every other "open on the desk" action uses, so it lands as
         // another tab right alongside this To-Do List tab, never replacing it.
-        var linkedNotice = (CONTENT.board.items || []).filter(function(it){ return it.todoId === t.id; })[0] || null;
+        var linkedNotice = findNoticeByTodoId(t.id);
 
         var body = document.createElement("div");
         body.className = "todo-body";
@@ -2190,12 +2223,17 @@
   // just the top-level name), and the cabinet browser below (cabinetChildFolders /
   // cabinetItemsAt / renderCabinetLevel) walks that nested structure the same way a real
   // file explorer would, so the shed's File Cabinet mirrors Core's actual layout rather than
-  // flattening it.
+  // flattening it. "Completed Tasks" (10 September 2026) is where a notice lands on its own,
+  // automatically, once its shared to-do reaches Completed -- see shed_set_todo_status -- as
+  // a queue of decisions the shed has recorded but Core itself doesn't reflect yet (the
+  // document still needs its actual Status line changed to Approved and committing to the
+  // right place); nothing files anything there by hand.
   var CABINET_FOLDERS = [
     {name:"PIP AI OS", icon:"🤖"},
     {name:"Company Docs", icon:"🏢"},
     {name:"From the Desk", icon:"🗒️"},
     {name:"Drafts", icon:"✏️"},
+    {name:"Completed Tasks", icon:"✅"},
     {name:"Foundations", icon:"🧱"},
     {name:"Knowledge Curation System", icon:"📚"},
     {name:"MVP", icon:"🚀"},
