@@ -1320,6 +1320,14 @@ Five more direct requests, all addressed in the same pass:
 
 Verified via Playwright throughout: the maximize check only fires on a genuinely fresh open; the notice row's title and decision badge render correctly and update after a refetch; the status caption text is present; both `body` and a representative clickable element resolve `cursor` to the new custom SVG data URI. See `CHANGELOG.md` and `Working/Project_Backlog.md` for the tracked record.
 
+## The pointing-hand cursor, redrawn (2026-09-10)
+
+Direct feedback on the cursor shipped above: "The hand is no longer a pointing hand but a rectangle and small protrusion. it almost looks like its giving the finger." Looking back at what actually shipped, the criticism was fair — the first hand was just two plain rectangles, each individually stroked white (a short finger rect stacked on a wider palm rect), with no attempt at a recognizable hand shape. It was written from the code alone and never actually rendered and looked at before going into `template.html`.
+
+This time, before touching `template.html` at all: designed a six-shape hand (an angled thumb via `rotate(-18 ...)`, a palm base, three progressively-offset rounded rects standing in for folded second/third/fourth fingers, and a tall extended index finger), then wrapped the whole group in an SVG `<filter>` — `feMorphology` (`operator="dilate"`, `radius="1.1"`) against `SourceAlpha` to get a dilated silhouette, `feFlood` + `feComposite` (`operator="in"`) to turn that into a solid white shape clipped to the dilated outline, then `feMerge` to lay the white outline behind the original black shapes. This produces one continuous white halo around the *whole* hand, rather than the seam lines that stroking each of the six overlapping rectangles individually would leave where they meet. Built a small standalone preview (the hand on both the shed's light `#efe9dc` card background and its darker `#2b2118` art background) and rendered it with a headless-browser screenshot, actually looked at with the Read tool, before it went anywhere near production code — confirmed as a clean, legible, recognizable pointing hand on both backgrounds.
+
+Only then was the old rule in `template.html` (the `a, button, select, ...` cursor declaration) edited: the new SVG's base64 replaced the old one, and the click hotspot moved from `11 2` to `9 2` to sit on the new fingertip (the old hand's fingertip was a plain vertical rect starting further right). The plain black-arrow cursor on `body` was untouched — only the hand was reported as a problem. Rebuilt, and the built `index.html`'s embedded cursor rule was decoded straight back out of the shipped file and re-diffed against the intended SVG source, byte for byte, as a final check before sending it to the device. See `CHANGELOG.md` for the tracked record.
+
 ## What's built so far
 
 - Recycle Bin: soft-delete with restore + permanent purge, select-all UI
