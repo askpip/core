@@ -2256,7 +2256,7 @@
       if(item.hasReply){
         var replyLabel = document.createElement("label");
         replyLabel.className = "notes-label";
-        replyLabel.textContent = "Reply";
+        replyLabel.textContent = item.createdBy ? ("Reply to " + item.createdBy) : "Reply";
         replyBlock.appendChild(replyLabel);
 
         var replyMeta = document.createElement("p");
@@ -3299,7 +3299,7 @@
           '<input type="checkbox" class="requires-approval-check">' +
           '<span>This notice requires approval</span>' +
         '</label>' +
-        '<div class="link-doc-row" style="display:none; align-items:center; gap:8px; margin-bottom:6px;">' +
+        '<div class="link-doc-row" style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">' +
           '<button type="button" class="btn ghost choose-doc">Link a document…</button>' +
           '<span class="linked-doc-label" style="font-family:\'Kalam\',cursive;"></span>' +
         '</div>' +
@@ -3334,14 +3334,17 @@
     // pre-fills the fields below -- everything stays editable afterward.
     var templatePicker = overlay.querySelector(".template-picker");
     var templatePickerLabel = overlay.querySelector(".template-picker-label");
-    var wantReply = false, wantUpload = false;
+    // Every notice gets upload capability by default (10 September 2026, Founder instruction:
+    // "all new notices should contain an upload or link to core document from the file
+    // cabinet") -- picking a template can still override this via its own has_upload flag.
+    var wantReply = false, wantUpload = true;
     if(NOTICE_TEMPLATES.length){
       templatePicker.style.display = "";
       templatePickerLabel.style.display = "";
       NOTICE_TEMPLATES.forEach(function(t){
         var opt = document.createElement("option");
         opt.value = t.key;
-        opt.textContent = t.title.replace(/\{[^}]+\}/g, "…");
+        opt.textContent = t.label || t.title;
         templatePicker.appendChild(opt);
       });
       templatePicker.addEventListener("change", function(){
@@ -3394,8 +3397,11 @@
       }
     }
 
+    // Link-a-document row (10 September 2026): now shown for every notice, not only ones
+    // requiring approval -- per Founder instruction that every notice should offer an upload
+    // or a link to a Core document. The requires-approval checkbox still drives the duplicate-
+    // notice check below, since that guard only matters for approval-gated notices.
     requiresCheck.addEventListener("change", function(){
-      linkRow.style.display = requiresCheck.checked ? "flex" : "none";
       checkExistingNotice();
     });
     overlay.querySelector(".choose-doc").addEventListener("click", function(){

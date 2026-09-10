@@ -1710,18 +1710,19 @@ public.
 **Notice templates** (`shed_notice_templates`, read via
 `shed_list_notice_templates()`, no passphrase needed) exist so a
 repeatable kind of notice doesn't get re-derived from scratch, by a
-person or by an AI session, every time. Two seeded rows: `founder_review`
-(a document awaiting Founder approval -- `requires_approval` true,
-`has_reply`/`has_upload` false, matching every notice written up above in
-the Core write-back section) and `info_request` (asking someone to find
-or provide something -- `requires_approval` false, `has_reply`/
-`has_upload` both true). The New Notice composer shows a "Start from a
-template" dropdown when any templates exist, which pre-fills title/body
-and the requires-approval checkbox and carries the template's
-has_reply/has_upload through to `shed_add_notice`'s two new trailing
-params (`want_reply`, `want_upload` -- both default false, so every
-pre-existing call site is unaffected). **When posting a notice of either
-of these two shapes, read the template first** (`select * from
+person or by an AI session, every time. Two seeded rows: **Founder
+Attention Request** (key `founder_review`; a document awaiting Founder
+approval -- `requires_approval` true, `has_upload` true, `has_reply`
+false, matching every notice written up above in the Core write-back
+section) and **Specific Founder Request** (key `info_request`; asking
+someone to find or provide something -- `requires_approval` false,
+`has_reply`/`has_upload` both true). The New Notice composer shows a
+"Start from a template" dropdown when any templates exist, which
+pre-fills title/body and the requires-approval checkbox and carries the
+template's has_reply/has_upload through to `shed_add_notice`'s two new
+trailing params (`want_reply`, `want_upload` -- both default false, so
+every pre-existing call site is unaffected). **When posting a notice of
+either of these two shapes, read the template first** (`select * from
 shed_notice_templates` or the RPC) rather than re-deriving the wording --
 if the shape doesn't fit an existing template, that's a sign a third
 template may be worth adding, not a reason to skip using one.
@@ -1730,6 +1731,45 @@ template may be worth adding, not a reason to skip using one.
 `requires_approval` notices do (the trigger only fires when
 `requires_approval` is true) -- add one by hand and link it via the
 notice's `todo_id`, as done for `shed_items` id 1649 / `shed_todos` id 49.
+
+### Fixes reported directly, same day (10 September 2026)
+
+The Founder opened the feature within hours of it shipping and reported
+four problems directly, all corrected the same day:
+
+- The template-picker dropdown showed a mangled `"…: …"` label for
+  `info_request`, because its option text was derived by stripping
+  `{placeholders}` out of the template's `title` -- but `title` is
+  deliberately kept with its placeholders, so the composer can prefill
+  them for editing. Fix: `shed_notice_templates` gained a separate
+  `label` column (a clean display name, distinct from `title`/`body`),
+  and the dropdown now reads `t.label` instead of regex-stripping `title`.
+- The `info_request` body's blank line between the two sentences was
+  showing on screen as a literal `\n\n` -- the original migration had
+  written it as a plain/dollar-quoted SQL string, which Postgres does not
+  interpret backslash escapes in outside `E''` escape-string syntax. Fix:
+  rewritten using `E'...'` syntax so `\n\n` is a real newline, and the
+  trailing sentence reworded to name the actual controls: "Please reply
+  using the Reply box below, or attach the file directly using the
+  Attachments upload button on this notice."
+- `founder_review` had no upload option at all, and the composer's "Link
+  a document…" row was only shown when "requires approval" was checked --
+  so most notices had no way to attach a file or link a Core document.
+  Per direct Founder instruction ("all new notices should contain an
+  upload or link to core document from the file cabinet"): `founder_review`
+  now has `has_upload` true, the "Link a document…" row is shown on every
+  notice regardless of the requires-approval checkbox, and every notice
+  created via the composer defaults to upload-capable (`want_upload`
+  defaults true client-side, overridable by picking a template).
+- The reply panel's heading just said "Reply," with no indication of who
+  it was addressed to. Fix: it now reads "Reply to {Founder's name}",
+  using the notice's own `created_by` field.
+- Both templates were renamed for clarity: `founder_review` -> **Founder
+  Attention Request**, `info_request` -> **Specific Founder Request**
+  (the still-open notice using the old `founder_review` shape, id 1648,
+  was retrofitted with the new title and `has_upload`; the three already-
+  archived write-back notices from the Core write-back section above were
+  left untouched as historical record).
 
 ## What's next
 
