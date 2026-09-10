@@ -326,6 +326,17 @@
     color:var(--wood-dark); background:#efe9dc; border:1px solid var(--pip-border);
     border-radius:6px; padding:3px 7px; margin-right:4px; opacity:.85;
   }
+  /* A notice's OWN decision -- separate from the to-do-status chip above, which only says
+     how the linked task is progressing, not whether the notice itself has been approved
+     (2026-09-10, after that exact gap let a to-do read "Completed" with nothing approved).
+     Same colour language as the open panel's .approval-meta states, so the two always agree. */
+  .item-row-decision{
+    flex:none; font-family:'Nunito',sans-serif; font-weight:700; font-size:.68rem;
+    border-radius:6px; padding:3px 7px; margin-right:4px;
+  }
+  .item-row-decision.decision-pending{ color:var(--wood-dark); background:#efe9dc; border:1px solid var(--pip-border); opacity:.7; }
+  .item-row-decision.decision-approved{ color:#fff; background:var(--moss); }
+  .item-row-decision.decision-review{ color:#fff; background:var(--terracotta); }
   /* A same-series revision group (9 September 2026), collapsed into one row in the item
      list -- see groupIntoSeries/buildItemListEl. Purely a display grouping: no data changes,
      every revision is still its own full row (with its own Desktop button) once expanded. */
@@ -585,6 +596,26 @@
     text-shadow:0 1px 4px rgba(0,0,0,.7);
   }
   body.unlocked .lock-screen{ display:none; }
+
+  /* Custom black cursor (2026-09-10), replacing the OS/browser default arrow and hand --
+     requested directly since the default was hard to see against the shed's art. A small
+     inline SVG per state (plain arrow for the default cursor, a simple pointing hand for
+     anything clickable), each with a thin white outline so it stays visible against both the
+     light desk-window cards and the darker wood/background art. Placed last in this
+     stylesheet, after every existing `cursor:pointer`/`cursor:default` declaration, so it
+     wins by source order without needing `!important` anywhere else in the file; `!important`
+     here is the one exception, to guarantee it overrides regardless of any future reordering.
+     Custom cursor rendering (size, hotspot alignment) can vary slightly by OS/browser -- worth
+     a look on the actual device this was requested from. */
+  body{
+    cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KPHBhdGggZD0iTTIsMSBMMiwxOSBMNi42LDE1LjIgTDkuMywyMS44IEwxMi40LDIwLjUgTDkuNiwxNC4xIEwxNS41LDE0LjEgWiIgZmlsbD0iYmxhY2siIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS4yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==") 2 1, auto !important;
+  }
+  a, button, select, label, .hotspot, .btn, [onclick], [role="button"]{
+    cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KPHJlY3QgeD0iOSIgeT0iMiIgd2lkdGg9IjQiIGhlaWdodD0iMTMiIHJ4PSIyIiBmaWxsPSJibGFjayIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxIi8+CjxyZWN0IHg9IjUiIHk9IjExIiB3aWR0aD0iMTQiIGhlaWdodD0iMTAiIHJ4PSIzIiBmaWxsPSJibGFjayIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxIi8+Cjwvc3ZnPg==") 11 2, pointer !important;
+  }
+  button:disabled, .lock-box button:disabled{
+    cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KPHBhdGggZD0iTTIsMSBMMiwxOSBMNi42LDE1LjIgTDkuMywyMS44IEwxMi40LDIwLjUgTDkuNiwxNC4xIEwxNS41LDE0LjEgWiIgZmlsbD0iYmxhY2siIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS4yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==") 2 1, not-allowed !important;
+  }
 </style>
 
 <div class="wrap">
@@ -1315,7 +1346,16 @@
   // notice opened from one of its own rows (see buildRow's "View Notice" button), rather than
   // closing behind a modal the way the Notice Board/File Cabinet/Bookshelf panels still do.
   function openTodoDesk(stageEl){
+    var wasAlreadyOpen = deskWindowFor(stageEl, "__todo_list__") != null;
     addToDesk(stageEl, { id: "__todo_list__", title: "To-Do List", kind: "todo-list" });
+    // Opens maximized the moment it's freshly sent to the desk, so the full task list is
+    // readable right away rather than starting at the small phone-card default size --
+    // only on a genuinely fresh open, so switching back to an already-open tab never
+    // overrides a size the user chose themselves in the meantime.
+    if(!wasAlreadyOpen){
+      stageEl._deskMaximized = true;
+      renderDeskChrome(stageEl);
+    }
   }
 
   // Re-renders just this window's body content in place (e.g. after a save-edit changes its
@@ -1348,7 +1388,15 @@
 
     function loadTodos(){
       containerEl.innerHTML = '<p class="empty-note">Loading tasks…</p>';
-      sb.rpc("shed_list_todos", { p: window.SHED_PASSPHRASE }).then(function(res){
+      // Refreshes CONTENT (see fetchAllItems) alongside the to-do fetch, not just the
+      // to-dos themselves -- buildRow's "View Notice" link and its Completed-disabling check
+      // both read a linked notice's current approved/reviewRequested state off CONTENT, which
+      // would otherwise still be whatever it was at unlock.
+      Promise.all([
+        sb.rpc("shed_list_todos", { p: window.SHED_PASSPHRASE }),
+        fetchAllItems(window.SHED_PASSPHRASE)
+      ]).then(function(results){
+        var res = results[0];
         if(res.error){
           containerEl.innerHTML = "<p class='empty-note'>Couldn't load the to-do list. Please try again.</p>";
           return;
@@ -1356,6 +1404,8 @@
         todos = res.data || [];
         updateTodoBadge(todos);
         renderTodos();
+      }).catch(function(){
+        containerEl.innerHTML = "<p class='empty-note'>Couldn't load the to-do list. Please try again.</p>";
       });
     }
 
@@ -1737,6 +1787,17 @@
       statusLabel.className = "notes-label";
       statusLabel.textContent = "Status";
       statusBlock.appendChild(statusLabel);
+      // Added 10 September 2026: this dropdown IS the linked to-do's own status (New/
+      // Received/In Progress/Blocked/Completed) -- it says nothing about whether THIS notice
+      // has actually been approved, which is the separate Approved checkbox and decision
+      // below. Spelled out directly after two to-dos ended up marked Completed with nothing
+      // actually approved -- the same field name ("Status") had made the two easy to conflate.
+      var statusCaption = document.createElement("p");
+      statusCaption.className = "empty-note";
+      statusCaption.style.margin = "2px 0 6px";
+      statusCaption.style.fontSize = ".76rem";
+      statusCaption.textContent = "This is the linked to-do task's status, not this notice's own approval decision (see Approved below).";
+      statusBlock.appendChild(statusCaption);
       var statusRowEl = document.createElement("div");
       statusRowEl.className = "progress-rows";
       statusRowEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">Loading status…</p>';
@@ -2136,7 +2197,19 @@
 
       var titleEl = document.createElement("span");
       titleEl.className = "item-row-title";
-      titleEl.textContent = labelText != null ? labelText : item.title;
+      var rowTitleText = labelText != null ? labelText : item.title;
+      // Every requires-approval notice not tied to a standalone suggestion carries the same
+      // generic title ("Founder Approval Required") -- fine once opened (the panel already
+      // shows the linked document as a subtitle), but indistinguishable from one another in
+      // this closed list, which is exactly what made "which one did I just approve?" a real
+      // problem (Karla, 10 September 2026). Appending the linked document's own title here
+      // means a notice reads e.g. "Founder Approval Required — AskPIP Founding Principles"
+      // without needing to open it first.
+      if(item.requiresApproval && item.linkedItemId != null){
+        var linkedForRow = findItemById(item.linkedItemId);
+        if(linkedForRow) rowTitleText += " — " + linkedForRow.title;
+      }
+      titleEl.textContent = rowTitleText;
       row.appendChild(titleEl);
 
       // A small flag, not a preview -- consistent with keeping this list to title + Send
@@ -2160,6 +2233,28 @@
         var chipStatus = boardTodoStatus[item.todoId].status;
         statusChip.textContent = STATUS_LABELS[chipStatus] || chipStatus;
         row.appendChild(statusChip);
+      }
+
+      // The to-do-status chip above is the shared WORKFLOW status (New/Received/.../
+      // Completed) -- it says nothing about whether this notice itself has actually been
+      // approved, which is a separate decision (shed_items.approved/review_requested). Added
+      // 10 September 2026 after that exact gap let two to-dos read "Completed" while their
+      // notice had never been approved: a second, distinct badge for the notice's own
+      // decision, visible without opening it -- "so if you tick and save a notice it's
+      // visible when closed," per the direct request.
+      if(item.requiresApproval){
+        var decisionChip = document.createElement("span");
+        if(item.approved){
+          decisionChip.className = "item-row-decision decision-approved";
+          decisionChip.textContent = "✓ Approved";
+        } else if(item.reviewRequested){
+          decisionChip.className = "item-row-decision decision-review";
+          decisionChip.textContent = "⚑ Review Requested";
+        } else {
+          decisionChip.className = "item-row-decision decision-pending";
+          decisionChip.textContent = "Not Yet Approved";
+        }
+        row.appendChild(decisionChip);
       }
 
       var sendBtn = document.createElement("button");
@@ -2689,19 +2784,33 @@
 
       loadEvents();
     } else {
-      renderItemList(function(){ return data.items; }, data.title, null);
+      // CONTENT is otherwise only ever fetched once, at unlock -- a session left open for a
+      // while (or one that just watched someone else change something, e.g. an approval, a
+      // new notice, a correction made directly in the database) would keep showing that
+      // stale unlock-time snapshot until a full page reload. Re-fetching every time one of
+      // these lists is opened means it's never more than a click away from current, at the
+      // cost of one extra round-trip per open -- worth it after a stale list of test rows
+      // was mistaken for something still-live on the actual board (2026-09-10).
+      panelBody.innerHTML = '<p class="empty-note">Loading…</p>';
+      fetchAllItems(window.SHED_PASSPHRASE).then(function(){
+        renderItemList(function(){ return data.items; }, data.title, null);
 
-      // Notice Board only (bookshelf/other keys land here too, but never contain
-      // requires-approval items -- see boardTodoStatus's comment above): fetch every
-      // to-do once, then re-render so each notice row's status chip fills in.
-      if(key === "board"){
-        sb.rpc("shed_list_todos", { p: window.SHED_PASSPHRASE }).then(function(res){
-          if(res.error) return;
-          boardTodoStatus = {};
-          (res.data || []).forEach(function(t){ boardTodoStatus[t.id] = t; });
-          renderItemList(function(){ return data.items; }, data.title, null);
-        });
-      }
+        // Notice Board only (bookshelf/other keys land here too, but never contain
+        // requires-approval items -- see boardTodoStatus's comment above): fetch every
+        // to-do once, then re-render so each notice row's status chip fills in.
+        if(key === "board"){
+          sb.rpc("shed_list_todos", { p: window.SHED_PASSPHRASE }).then(function(res){
+            if(res.error) return;
+            boardTodoStatus = {};
+            (res.data || []).forEach(function(t){ boardTodoStatus[t.id] = t; });
+            renderItemList(function(){ return data.items; }, data.title, null);
+          });
+        }
+      }).catch(function(){
+        // If the refresh itself fails (network hiccup), fall back to whatever CONTENT
+        // already held rather than leaving the panel stuck on "Loading…" forever.
+        renderItemList(function(){ return data.items; }, data.title, null);
+      });
     }
   }
 
