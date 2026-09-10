@@ -2,7 +2,7 @@
 
 **Purpose:** A single running list of open items — flagged gaps, deferred research, pending Founder decisions, and known dependencies — surfaced during real work rather than invented in advance. This is not part of the controlled documentation chain (it's not a Standard, Charter, or Operations Manual, and nothing here is approved knowledge); it's a working tool so nothing flagged gets lost between sessions.
 
-**Last Updated:** 10 September 2026 (a test-data mistake cleaned up, the stale-list bug it exposed fixed, five follow-up requests shipped — maximized To-Do List, notice titles/decision badges in the Notice Board list, a Status-vs-Approval caption, and a custom black cursor — the pointing-hand cursor redrawn after direct feedback that the first version didn't read as a hand, and notice status/approval changes now reach an already-open To-Do List tab live, with its own rows gaining the same decision badge — see Resolved)
+**Last Updated:** 10 September 2026 (a test-data mistake cleaned up, the stale-list bug it exposed fixed, five follow-up requests shipped — maximized To-Do List, notice titles/decision badges in the Notice Board list, a Status-vs-Approval caption, and a custom black cursor — the pointing-hand cursor redrawn after direct feedback that the first version didn't read as a hand, notice status/approval changes now reach an already-open To-Do List tab live, with its own rows gaining the same decision badge, and a desk window opened from the Notice Board/File Cabinet/Bookshelf now carries a back button straight to that list, restoring the exact File Cabinet folder — see Resolved)
 
 ---
 

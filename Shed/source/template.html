@@ -170,6 +170,15 @@
     display:flex; align-items:center; justify-content:center;
   }
   .desk-window .dw-tab-close:hover{ opacity:1; background:rgba(0,0,0,.15); }
+  /* Only on the active tab, only when it remembers a Notice Board/File Cabinet/Bookshelf
+     list it was opened from (win.cameFrom) -- reopens that list without closing this tab.
+     Same round-button sizing as the close x it sits beside (see buildBackBtn). */
+  .desk-window .dw-tab-back{
+    flex:none; background:transparent; border:none; color:inherit; opacity:.7;
+    width:16px; height:16px; border-radius:50%; cursor:pointer; font-size:.75rem; line-height:1;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .desk-window .dw-tab-back:hover{ opacity:1; background:rgba(0,0,0,.15); }
   .desk-window .dw-header.tabbed .dw-titlebtns{ flex:none; display:flex; align-items:center; padding:6px 8px 0; }
 
   /* A tab's full title on hover (desktop) or a tap (mobile -- toggled briefly by a touchstart
@@ -1191,6 +1200,28 @@
     return btn;
   }
 
+  // Only rendered next to a window's close x when that window actually remembers where it
+  // was opened from (win.cameFrom -- see addToDesk). Reopens that same Notice Board/File
+  // Cabinet/Bookshelf list (at the exact folder, for the cabinet) on top of the desk, leaving
+  // this window open underneath exactly as it was -- closing that reopened list just reveals
+  // it again, so back-and-forth between a list and an item it opened never loses either side.
+  // `className` lets the caller use the small in-tab close-button sizing (dw-tab-back) in
+  // tabbed mode, or the titlebar's larger round button (dw-titlebtn) in single mode.
+  function buildBackBtn(stageEl, win, className){
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = className;
+    btn.innerHTML = "&#8592;";
+    var label = "Back to " + win.cameFrom.label;
+    btn.setAttribute("aria-label", label);
+    btn.title = label;
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      openPanel(win.cameFrom.key, stageEl, win.cameFrom.path);
+    });
+    return btn;
+  }
+
   // (Re)builds the whole frame for a stage: hidden when nothing's open, a plain titlebar for
   // exactly one open item, or a tab strip for two or more. Also makes sure every open item's
   // body element is in the DOM and shows only the active (last) one. Call this after any
@@ -1231,6 +1262,12 @@
         t.textContent = w.item.title;
         tab.appendChild(t);
 
+        // Only the active tab gets a back button -- it's the one actually on screen, and
+        // only when it remembers a list it was opened from (win.cameFrom; see addToDesk).
+        if(w === active && w.cameFrom){
+          tab.appendChild(buildBackBtn(stageEl, w, "dw-tab-back"));
+        }
+
         var closeBtn = document.createElement("button");
         closeBtn.type = "button";
         closeBtn.className = "dw-tab-close";
@@ -1268,6 +1305,13 @@
       var btns = document.createElement("div");
       btns.className = "dw-titlebtns";
       btns.appendChild(buildMaximizeBtn(stageEl));
+      // Same condition as the tabbed case above: only shown when this window remembers a
+      // list it was actually opened from (win.cameFrom; see addToDesk) -- e.g. a notice
+      // opened via another notice's linked-document button, or the To-Do List itself, never
+      // get one, since neither was opened from a Notice Board/File Cabinet/Bookshelf list.
+      if(active.cameFrom){
+        btns.appendChild(buildBackBtn(stageEl, active, "dw-titlebtn"));
+      }
 
       var closeBtn2 = document.createElement("button");
       closeBtn2.type = "button";
@@ -1328,14 +1372,23 @@
   // to its existing tab instead of opening a duplicate. This is the one entry point every
   // "open on the desk" action goes through: a cabinet/bookshelf/board item's "Desktop"
   // button, a freshly created notice or document, and a notice's linked-document button all
-  // call this.
-  function addToDesk(stageEl, item){
+  // call this. `cameFrom` (optional, {key, path, label}) is remembered on the window as
+  // win.cameFrom so its desk window can offer a "back" button to whichever Notice Board/File
+  // Cabinet/Bookshelf list it was actually opened from -- only the Desktop-button call sites
+  // in openPanel's item rows pass this; a notice's own linked-document button, a to-do's
+  // "View Notice" link and openTodoDesk all leave it unset, since none of those opened from a
+  // list the way a Desktop click does. Passed again on an already-open item (bringing it back
+  // to front rather than opening a duplicate) so back always points at the most recent list it
+  // was actually (re-)opened from.
+  function addToDesk(stageEl, item, cameFrom){
     var existing = item.id != null ? deskWindowFor(stageEl, item.id) : null;
     if(existing){
+      if(cameFrom) existing.cameFrom = cameFrom;
       bringDeskWindowToFront(stageEl, existing);
       return existing;
     }
     var win = { item: item, bodyEl: document.createElement("div") };
+    if(cameFrom) win.cameFrom = cameFrom;
     win.bodyEl.className = "dw-body";
     stageEl._deskWindows.push(win);
     renderDeskPanelBody(stageEl, win, win.bodyEl);
@@ -2168,7 +2221,11 @@
     return items.filter(function(it){ return (it.folder || CABINET_DEFAULT_FOLDER) === path; });
   }
 
-  function openPanel(key, stageEl){
+  // `initialPath` (cabinet only) reopens straight into a specific nested folder instead of
+  // the folder root -- used by the desk window's "back" button (see buildBackBtn) so
+  // returning to the File Cabinet after opening a document lands back in the same folder it
+  // was sent to the desk from, not the top-level folder grid.
+  function openPanel(key, stageEl, initialPath){
     if(key === "deskpad"){ openCreatePanel(stageEl); return; }
     var data = CONTENT[key];
     var overlay = document.createElement("div");
@@ -2198,6 +2255,13 @@
     // without opening it. null until that fetch resolves; cabinet/bookshelf items are never
     // notices (shed_add_notice always inserts location='board'), so they never read this.
     var boardTodoStatus = null;
+
+    // Which cabinet folder path the item list currently on screen actually belongs to (null
+    // outside the File Cabinet, or at its folder-grid root where no items are shown directly)
+    // -- set by renderCabinetLevel just before it renders, read by buildItemRow's Desktop
+    // button below so the "back" context it hands to addToDesk points at the exact folder a
+    // document was opened from, not just "the cabinet" in general.
+    var currentCabinetPath = null;
 
     // A document whose title ends in the literal suffix " (Revision N)" is one entry in a
     // governed revision series (Founder Review Dossiers that can never be edited in place
@@ -2320,7 +2384,12 @@
       sendBtn.className = "btn send-row";
       sendBtn.textContent = "Desktop";
       sendBtn.addEventListener("click", function(){
-        addToDesk(stageEl, item);
+        // Remembers exactly which panel (and, for the File Cabinet, which folder) this item
+        // was sent to the desk from, so its desk window can offer a "back" button straight to
+        // it -- see buildBackBtn/openPanel's initialPath, added 10 September 2026 per direct
+        // request: closing (x) always dropped back to the plain shed view, with no way back
+        // to "wherever you just left" to open another item from the same list.
+        addToDesk(stageEl, item, { key: key, path: (key === "cabinet") ? currentCabinetPath : null, label: data.title });
         close();
       });
       row.appendChild(sendBtn);
@@ -2478,6 +2547,7 @@
       // documents filed exactly at `path`. A folder with no subfolders falls straight
       // through to the plain flat item list, same as before nesting existed.
       function renderCabinetLevel(path, onBack){
+        currentCabinetPath = path;
         var label = data.title + " – " + path;
         var subfolders = cabinetChildFolders(data.items, path);
 
@@ -2528,7 +2598,23 @@
         }
       }
 
-      renderFolders();
+      // A "back"-triggered reopen names the exact folder a document was sent to the desk
+      // from (initialPath) -- walk straight to it instead of starting at the folder-grid
+      // root, rebuilding the same onBack chain a real click-by-click drill-down would have
+      // built (each level's "back" returns to its parent, ending at the folder grid), so the
+      // normal in-panel "← Back" button still works correctly from wherever this landed.
+      if(initialPath){
+        var pathSegs = initialPath.split("/");
+        var pathChain = [];
+        var acc = "";
+        pathSegs.forEach(function(seg){ acc = acc ? (acc + "/" + seg) : seg; pathChain.push(acc); });
+        (function openChain(idx){
+          if(idx < 0){ renderFolders(); return; }
+          renderCabinetLevel(pathChain[idx], idx === 0 ? renderFolders : function(){ openChain(idx - 1); });
+        })(pathChain.length - 1);
+      } else {
+        renderFolders();
+      }
     } else if(key === "bin"){
       var binSelected = {};
       function renderBin(){
