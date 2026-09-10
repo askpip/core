@@ -442,6 +442,10 @@
   .todo-text{ font-family:'Kalam',cursive; font-size:1rem; color:var(--wood-dark); word-break:break-word; }
   .todo-row[data-status="completed"] .todo-text{ text-decoration:line-through; }
   .todo-meta{ font-size:.72rem; color:var(--wood-dark); opacity:.75; margin-top:3px; }
+  /* A linked notice's own approval decision, shown right on its to-do row -- reuses
+     .item-row-decision (see the Notice Board list's own copy, buildItemRow) so the two
+     always read the same way; just needs its own top margin outside that flex row context. */
+  .todo-decision-wrap{ margin-top:4px; }
   .todo-controls{ flex:none; display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
   .todo-status-select{
     font-family:'Nunito',sans-serif; font-weight:700; font-size:.72rem; border:1px solid var(--pip-border);
@@ -1367,6 +1371,28 @@
     renderDeskChrome(stageEl);
   }
 
+  // A notice's status/approval/review state and its linked to-do's row live in two entirely
+  // separate desk-window closures (the notice panel and the To-Do List tab), each with its
+  // own local copy of the data -- changing one does NOT touch the other's already-rendered
+  // DOM. Reported directly (10 September 2026): approving a notice and changing its status
+  // from the notice panel left an already-open To-Do List tab still showing "New" and no
+  // approval indicator, because that tab had no way to know anything had changed elsewhere.
+  // Call this after any RPC that changes shed_items.approved/review_requested or
+  // shed_todos.status succeeds, from wherever it was changed -- it re-renders (via the same
+  // refreshDeskWindow used for a saved edit) any other currently-open window that shows the
+  // same to-do: the To-Do List tab (always, if open -- it has no single todoId of its own)
+  // and any notice panel open on the matching linked notice. `skip` is the window the change
+  // was just made in, already updated in place by its own handler, so it isn't redundantly
+  // torn down and rebuilt here.
+  function refreshRelatedDeskWindows(stageEl, opts){
+    opts = opts || {};
+    (stageEl._deskWindows || []).slice().forEach(function(w){
+      if(opts.skip && w === opts.skip) return;
+      if(w.item.kind === "todo-list"){ refreshDeskWindow(stageEl, w); return; }
+      if(opts.todoId != null && w.item.todoId === opts.todoId){ refreshDeskWindow(stageEl, w); }
+    });
+  }
+
   // Renders the To-Do List's own UI into a desk window's body (see openTodoDesk) -- the same
   // task list that used to live in a standalone modal panel, now living in whichever desk
   // window tab holds it. containerEl is that window's body element (win.bodyEl).
@@ -1473,9 +1499,27 @@
         // worth its own line (e.g. "Received by Karla on ...").
         var statusVerb = t.status === "completed" ? "Completed" : STATUS_LABELS[t.status];
         var updatedLine = (t.status !== "new" && t.updated_by) ? (statusVerb + " by " + t.updated_by + " on " + fmtWhen(t.updated_at)) : "";
+        // A linked notice's own decision (separate from the to-do status above it) --
+        // Karla's own suggestion, and the exact thing missing when a status change made from
+        // the notice panel didn't show up here at all (10 September 2026). Same three states,
+        // same classes/colours as the Notice Board list's own decision chip (buildItemRow),
+        // so the two always read the same way wherever they're seen.
+        var decisionHtml = "";
+        if(linkedNotice){
+          var decisionClass, decisionText;
+          if(linkedNotice.approved){
+            decisionClass = "decision-approved"; decisionText = "✓ Approved";
+          } else if(linkedNotice.reviewRequested){
+            decisionClass = "decision-review"; decisionText = "⚑ Review Requested";
+          } else {
+            decisionClass = "decision-pending"; decisionText = "Not Yet Approved";
+          }
+          decisionHtml = '<span class="item-row-decision ' + decisionClass + '">' + decisionText + '</span>';
+        }
         body.innerHTML =
           '<div class="todo-text"></div>' +
           '<div class="todo-meta">' + createdLine + (updatedLine ? " · " + updatedLine : "") + '</div>' +
+          (decisionHtml ? '<div class="todo-decision-wrap">' + decisionHtml + '</div>' : "") +
           '<div class="todo-row-actions">' +
             (linkedNotice ? '<button type="button" class="todo-open-notice">View Notice</button>' : '') +
             '<button type="button" class="todo-history-toggle">History</button>' +
@@ -1537,6 +1581,10 @@
               return;
             }
             loadTodos();
+            // This tab refreshes itself via loadTodos() above; a notice panel open on the
+            // linked notice (its own Status dropdown reads this same to-do row) does not,
+            // so tell it directly.
+            refreshRelatedDeskWindows(stageEl, { todoId: t.id, skip: win });
           });
         });
         controls.appendChild(select);
@@ -1859,6 +1907,11 @@
             todoRow.status = res.data.status;
             todoRow.updated_by = res.data.updated_by;
             metaSpan.textContent = todoRow.updated_by ? ("set by " + todoRow.updated_by) : "";
+            // This panel already updated itself above; an open To-Do List tab (and any other
+            // notice panel open on the same linked notice) has its own separate copy of this
+            // row and needs telling directly, or it keeps showing the old status until closed
+            // and reopened (reported directly, 10 September 2026).
+            refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
           });
         });
 
@@ -2003,6 +2056,11 @@
         updateReviewControls();
         updateBoardBadge();
         refreshStatusRow();
+        // Same gap as the status dropdown above, for the decision itself: approving (or
+        // requesting/cancelling review) here didn't show up in an already-open To-Do List
+        // tab's decision badge, or another notice panel open on this same notice, until that
+        // window was closed and reopened. Reported directly, 10 September 2026.
+        refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
       }
 
       function persistApproval(isApproved, noteText){
