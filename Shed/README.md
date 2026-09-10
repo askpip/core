@@ -1559,6 +1559,107 @@ should only ever be one.
   warning appears and Pin disables the moment a document with an open
   notice is picked, and "Open existing notice" correctly opens it.
 
+## Completed Tasks → Core write-back procedure (added 2026-09-10)
+
+The canonical procedure for turning a shed-approved document into an
+actually-updated Core file — written up here specifically so **any** AI
+session working in this repo can find and follow it correctly, without
+needing this conversation's context. Per the Founder's explicit decision
+(2026-09-10): this runs **on request only** — no scheduled task processes
+the queue on its own. A person (or an AI session at a person's request)
+kicks it off; nothing here fires automatically.
+
+**1. Find what's waiting.** A notice is *pending write-back* if and only if
+its `folder` is exactly `'Completed Tasks'` (not a subfolder of it — see
+step 4). Query `shed_items`:
+
+```sql
+select id, title, linked_item_id, approved_by, approved_at, notes
+from shed_items
+where folder = 'Completed Tasks'
+  and requires_approval = true
+  and approved = true;
+```
+
+Two different kinds of item can show up here, and they're handled
+differently:
+
+- **`linked_item_id` is not null** — a real Core document was approved.
+  This is the case this procedure covers; continue to step 2.
+- **`linked_item_id` is null** — a standalone suggestion/feature-request
+  notice about the shed itself (e.g. Karla's site-suggestion notices) that
+  happened to be built with `requires_approval` so it could be tracked
+  through the same workflow. There's no Core document to write back to —
+  these just mean the suggestion has been decided on and is ready to
+  build (or already built and just needs the notice acknowledged). Treat
+  them as a to-do, not a git commit; once acted on, move them to
+  `Completed Tasks/Written to Core` anyway (or a differently-named
+  subfolder, if that reads better later) so they stop showing as pending.
+
+**2. Look up the real file.** `shed_items.linked_item_id` points at the
+synced document's own row — `source_path` on *that* row is the
+repo-relative path (e.g. `Foundations/Founding_Principles.md`) to actually
+edit. Read/stage it from the user's connected `C:\AskPIP` folder (or the
+repo, if working from a checkout directly) — never edit the shed's own
+synced copy of the body text; that's a read-only mirror, not the source of
+truth.
+
+**3. Edit the file, following the established pattern exactly** (see any
+approved Founder Review Dossier, e.g. `FRD-BUSHROSE-SCOPE-01.md`, or the
+three Foundation documents done 2026-09-10, for a real example to copy):
+add a `> **Archival & Approval Record** — ...` blockquote directly under
+the document's H1 title, naming who approved it (the shed's own
+`approved_by`, verbatim — never guess or substitute a different name) and
+the date, briefly stating what was approved and any caveat the document's
+own original Status already carried (e.g. Pip Character Profile's "does
+not establish a controlled brand standard" — preserve that nuance rather
+than letting "Approved" overstate it). Then, in the document's own
+Metadata block, strike through the old `**Status:**` value with `~~...~~`
+and append a short **Approved by ... — see Archival & Approval Record
+above.** note. Don't touch anything else in the document — the rest is
+preserved exactly as drafted/migrated, matching the same principle applied
+throughout Core's Founder Review Dossiers.
+
+**4. Commit the file back, then mark the notice as done.** Once the edited
+file is written back to the user's folder (and, ideally, actually
+committed to git — see "Updating the user's C:\AskPIP checkout" below),
+move that notice out of the pending query by setting its `folder` to
+`'Completed Tasks/Written to Core'` (a plain subfolder — the File Cabinet
+already renders arbitrary nested folder paths under any top-level entry,
+`Completed Tasks` included, with no code change needed) and append a short
+note recording what was done and when, e.g.:
+
+```sql
+update shed_items
+set folder = 'Completed Tasks/Written to Core',
+    notes = coalesce(nullif(notes,''), '') || E'\n\nWritten back to Core <date>: <what was changed>.',
+    updated_at = now()
+where id = <notice id>;
+```
+
+This keeps the queue itself as the audit trail — `folder = 'Completed
+Tasks'` always means "still waiting," `folder = 'Completed Tasks/Written
+to Core'` means "done," and the note on each item says exactly what
+happened and when, readable directly from the Notice/File Cabinet UI or a
+plain query, without needing this README or any conversation history.
+
+**Updating the user's `C:\AskPIP` checkout with the result**: this is the
+same device-bridge pattern used throughout this project for every other
+shed/Core file — `device_stage_files` pulls the real file down from the
+user's machine into the working session, the edit happens there, then
+`device_commit_files` writes it back to the same path (guarded by
+`expectedMtimeMs` so a concurrent edit on the user's end is never silently
+overwritten). What that pattern does *not* do is run `git commit`/`git
+push` — writing a file to the user's disk and committing it to git are two
+separate steps, and a session without a working `device_bash` (shell
+access on the user's machine) can only do the first one. When that's the
+case, the session hands the user the exact `git add`/`git commit`/`git
+push` commands to run themselves, same as every commit this whole
+project's build has gone through. If `device_bash` is available in a
+future session, the whole thing — edit, commit, push — can happen without
+that handoff; worth trying it first each time rather than assuming it's
+still unavailable.
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`

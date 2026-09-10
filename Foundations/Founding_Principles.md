@@ -1,11 +1,13 @@
 # AskPIP Founding Principles
 
+> **Archival & Approval Record** — This Foundation Document was **approved by Karla, AskPIP Founder, on 10 September 2026**, via the Garden Shed Office's notice/approval workflow — the first formal Founder approval this document has received, in Core or in its original Google Drive workspace. Preserved below exactly as migrated/drafted; no other content was edited as part of this approval.
+
 ## Document Metadata
 
 **Document Title:** AskPIP Founding Principles
 **Document Type:** Foundation Document
 **Version:** 0.2
-**Status:** Draft — Founder Review (migrated from the Founders Workspace; never formally approved there; not yet Founder-approved in Core)
+**Status:** ~~Draft — Founder Review (migrated from the Founders Workspace; never formally approved there; not yet Founder-approved in Core)~~ **Approved by Karla, AskPIP Founder, 10 September 2026 — see Archival & Approval Record above.**
 **Owner:** The Founders
 **Last Updated:** 15 July 2026 (original); migrated to Core 9 September 2026
 **Purpose:** To record the founding conviction, purpose, vision, mission, pillars, values and design principles upon which AskPIP (originally "the Plant Intelligence Platform") was built, so they remain constant regardless of how the company or its technology changes.

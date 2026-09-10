@@ -2,11 +2,13 @@
 
 ### Founder Discussion Draft — Defining who Pip is across Ask Pip, Garden With Pip, the website, educational media and future public uses
 
+> **Archival & Approval Record** — This document's content was **approved by Karla, AskPIP Founder, on 10 September 2026**, via the Garden Shed Office's notice/approval workflow. Per this document's own Status field (below), this approval is Founder sign-off on the character material as an accurate discussion draft of Pip's identity — it does **not**, on its own, establish a controlled brand standard, approve specific public claims, or authorise publication; formalising this material into a Standard remains a separate, later decision. Preserved below exactly as migrated/drafted.
+
 ## Document Metadata
 
 **Document Title:** Pip Character Profile
 **Document Type:** Foundation Document
-**Status:** Discussion Draft — not approved. This document is intended to help the Founders explore and agree to Pip's enduring identity. It does not establish a controlled brand standard, approve public claims or authorise publication.
+**Status:** ~~Discussion Draft — not approved. This document is intended to help the Founders explore and agree to Pip's enduring identity. It does not establish a controlled brand standard, approve public claims or authorise publication.~~ **Approved (as a discussion draft) by Karla, AskPIP Founder, 10 September 2026 — see Archival & Approval Record above. Still does not itself establish a controlled brand standard, approve public claims, or authorise publication — see the preserved note above.**
 **Parent platform:** Plant Intelligence Platform (PIP) / AskPIP
 **Character:** Pip
 **Intended reviewers:** The Founders

@@ -1,11 +1,13 @@
 # AskPIP Vision Statement
 
+> **Archival & Approval Record** — This Foundation Document was **approved by Karla, AskPIP Founder, on 10 September 2026**, via the Garden Shed Office's notice/approval workflow. Preserved below exactly as drafted (Version 2.1); no other content was edited as part of this approval.
+
 ## Document Metadata
 
 **Document Title:** AskPIP Vision Statement  
 **Document Type:** Foundation Document  
 **Version:** 2.1  
-**Status:** Founder Review  
+**Status:** ~~Founder Review~~ **Approved by Karla, AskPIP Founder, 10 September 2026 — see Archival & Approval Record above.**  
 **Owner:** The Founders  
 **Last Updated:** 2 August 2026  
 **Purpose:** To define AskPIP’s enduring vision and guide the organisation’s future decisions.  
