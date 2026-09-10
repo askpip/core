@@ -777,6 +777,15 @@
     }
   };
 
+  // Attachments (shed_item_attachments rows) keyed by item_id, refreshed alongside CONTENT
+  // in fetchAllItems -- kept as a flat side-map, the same pattern boardTodoStatus already
+  // uses for todos, rather than nested onto each item object.
+  var ATTACHMENTS = {};
+
+  // Reusable notice shapes (shed_notice_templates), loaded once at unlock -- not passphrase
+  // sensitive, so this can be fetched even before the New Notice composer is opened.
+  var NOTICE_TEMPLATES = [];
+
   // Item content now lives in Supabase (shed_items table) and is fetched after the
   // passphrase gate succeeds. Deleting an item is a soft-delete (deleted_at gets set) --
   // such rows are routed into CONTENT.bin instead of their original location, and keep
@@ -796,7 +805,9 @@
         requiresApproval: row.requires_approval, linkedItemId: row.linked_item_id,
         approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes,
         reviewRequested: row.review_requested, reviewRequestedBy: row.review_requested_by, reviewRequestedAt: row.review_requested_at,
-        todoId: row.todo_id
+        todoId: row.todo_id,
+        hasReply: row.has_reply, hasUpload: row.has_upload,
+        replyBody: row.reply_body, replyBy: row.reply_by, replyAt: row.reply_at
       };
       if(row.deleted_at){
         CONTENT.bin.items.push(item);
@@ -831,11 +842,32 @@
     updateBoardBadge();
   }
 
+  function applyAttachments(rows){
+    ATTACHMENTS = {};
+    (rows || []).forEach(function(row){
+      if(!ATTACHMENTS[row.item_id]) ATTACHMENTS[row.item_id] = [];
+      ATTACHMENTS[row.item_id].push(row);
+    });
+  }
+
   function fetchAllItems(pass){
-    return sb.rpc("shed_list_items", { p: pass }).then(function(res){
-      if(res.error){ throw res.error; }
-      applyItems(res.data);
+    return Promise.all([
+      sb.rpc("shed_list_items", { p: pass }),
+      sb.rpc("shed_list_attachments", { p: pass })
+    ]).then(function(results){
+      var itemsRes = results[0], attachRes = results[1];
+      if(itemsRes.error){ throw itemsRes.error; }
+      applyItems(itemsRes.data);
+      if(!attachRes.error){ applyAttachments(attachRes.data); }
       updateBoardBadge();
+    });
+  }
+
+  // Loaded once at unlock -- see NOTICE_TEMPLATES above for why this doesn't need the
+  // passphrase-gated fetchAllItems path.
+  function fetchNoticeTemplates(){
+    return sb.rpc("shed_list_notice_templates", {}).then(function(res){
+      if(!res.error){ NOTICE_TEMPLATES = res.data || []; }
     });
   }
 
@@ -872,7 +904,7 @@
     return sb.rpc("shed_identify_user", { p: pass }).then(function(idRes){
       if(idRes.error){ throw idRes.error; }
       if(!idRes.data){ throw new Error("invalid passphrase"); }
-      return Promise.all([fetchAllItems(pass), fetchTodoBadgeCount(pass)]).then(function(){
+      return Promise.all([fetchAllItems(pass), fetchTodoBadgeCount(pass), fetchNoticeTemplates()]).then(function(){
         window.SHED_PASSPHRASE = pass;
         window.SHED_ACTIVE_USER = idRes.data;
         updateActiveUserBadge();
@@ -2211,6 +2243,146 @@
         body.appendChild(pendingBtn);
       }
     }
+
+    // Reply box + attachments (10 September 2026): independent of the approval block above --
+    // gated on item.hasReply/hasUpload, not item.requiresApproval, since a plain task notice
+    // like "Karla: legal document formatting info needed" (requires_approval false) still
+    // needs somewhere for Karla to type/paste a reply and attach a file. Set at creation, see
+    // shed_notice_templates ("info_request") and shed_add_notice's want_reply/want_upload params.
+    if((item.hasReply || item.hasUpload) && item.id != null){
+      var replyBlock = document.createElement("div");
+      replyBlock.className = "approval-block";
+
+      if(item.hasReply){
+        var replyLabel = document.createElement("label");
+        replyLabel.className = "notes-label";
+        replyLabel.textContent = "Reply";
+        replyBlock.appendChild(replyLabel);
+
+        var replyMeta = document.createElement("p");
+        replyMeta.className = "empty-note";
+        replyMeta.style.margin = "2px 0 6px";
+        replyMeta.style.fontSize = ".76rem";
+        function updateReplyMeta(){
+          var when = item.replyAt ? " on " + fmtSavedDate(item.replyAt).replace("Saved ", "") : "";
+          replyMeta.textContent = item.replyBy ? ("Last saved by " + item.replyBy + when) : "No reply yet.";
+        }
+        updateReplyMeta();
+        replyBlock.appendChild(replyMeta);
+
+        var replyArea = document.createElement("textarea");
+        replyArea.className = "notes-textarea";
+        replyArea.placeholder = "Type or paste your reply here…";
+        replyArea.value = item.replyBody || "";
+        replyBlock.appendChild(replyArea);
+
+        var saveReplyRow = document.createElement("div");
+        saveReplyRow.className = "actions";
+        saveReplyRow.style.marginTop = "8px";
+        var saveReplyBtn = document.createElement("button");
+        saveReplyBtn.type = "button";
+        saveReplyBtn.className = "btn";
+        saveReplyBtn.textContent = "Save Reply";
+        saveReplyRow.appendChild(saveReplyBtn);
+        replyBlock.appendChild(saveReplyRow);
+
+        saveReplyBtn.addEventListener("click", function(){
+          saveReplyBtn.disabled = true;
+          sb.rpc("shed_set_notice_reply", { p: window.SHED_PASSPHRASE, item_id: item.id, reply_text: replyArea.value }).then(function(res){
+            saveReplyBtn.disabled = false;
+            if(res.error){ alert("Couldn't save that. Please try again."); return; }
+            item.replyBody = res.data.reply_body;
+            item.replyBy = res.data.reply_by;
+            item.replyAt = res.data.reply_at;
+            updateReplyMeta();
+            refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
+          });
+        });
+      }
+
+      if(item.hasUpload){
+        var uploadLabel = document.createElement("label");
+        uploadLabel.className = "notes-label";
+        uploadLabel.style.marginTop = "14px";
+        uploadLabel.textContent = "Attachments";
+        replyBlock.appendChild(uploadLabel);
+
+        var attachListEl = document.createElement("div");
+        replyBlock.appendChild(attachListEl);
+
+        function renderAttachList(){
+          var files = ATTACHMENTS[item.id] || [];
+          attachListEl.innerHTML = "";
+          if(!files.length){
+            attachListEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">No files attached yet.</p>';
+            return;
+          }
+          files.forEach(function(f){
+            var row = document.createElement("div");
+            row.style.margin = "3px 0";
+            var link = document.createElement("a");
+            link.href = "#";
+            link.textContent = "📎 " + f.file_name + (f.uploaded_by ? " — uploaded by " + f.uploaded_by : "");
+            link.addEventListener("click", function(e){
+              e.preventDefault();
+              sb.storage.from("shed-attachments").createSignedUrl(f.storage_path, 3600).then(function(res){
+                if(res.error || !res.data){ alert("Couldn't open that file. Please try again."); return; }
+                window.open(res.data.signedUrl, "_blank");
+              });
+            });
+            row.appendChild(link);
+            attachListEl.appendChild(row);
+          });
+        }
+        renderAttachList();
+
+        var uploadRow = document.createElement("div");
+        uploadRow.className = "actions";
+        uploadRow.style.marginTop = "8px";
+        var fileInput = document.createElement("input");
+        fileInput.type = "file";
+        uploadRow.appendChild(fileInput);
+        var uploadBtn = document.createElement("button");
+        uploadBtn.type = "button";
+        uploadBtn.className = "btn";
+        uploadBtn.textContent = "Upload";
+        uploadRow.appendChild(uploadBtn);
+        replyBlock.appendChild(uploadRow);
+
+        var uploadHint = document.createElement("p");
+        uploadHint.className = "empty-note";
+        uploadHint.style.margin = "6px 0 0";
+        uploadHint.style.fontSize = ".76rem";
+        uploadHint.textContent = "Choose a file from your computer, then Upload.";
+        replyBlock.appendChild(uploadHint);
+
+        uploadBtn.addEventListener("click", function(){
+          var file = fileInput.files && fileInput.files[0];
+          if(!file){ alert("Choose a file first."); return; }
+          uploadBtn.disabled = true;
+          var safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, "_");
+          var path = item.id + "/" + Date.now() + "-" + safeName;
+          sb.storage.from("shed-attachments").upload(path, file).then(function(upRes){
+            if(upRes.error){
+              uploadBtn.disabled = false;
+              alert("Upload failed. Please try again.");
+              return;
+            }
+            return sb.rpc("shed_add_attachment", { p: window.SHED_PASSPHRASE, item_id: item.id, file_name: file.name, storage_path: path, size_bytes: file.size }).then(function(res){
+              uploadBtn.disabled = false;
+              if(res.error){ alert("The file uploaded, but couldn't be recorded. Please tell Shaphan."); return; }
+              if(!ATTACHMENTS[item.id]) ATTACHMENTS[item.id] = [];
+              ATTACHMENTS[item.id].push(res.data);
+              fileInput.value = "";
+              renderAttachList();
+              refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
+            });
+          });
+        });
+      }
+
+      body.appendChild(replyBlock);
+    }
   }
 
   // The File Cabinet's root is a set of named folders. "PIP AI OS", "Company Docs", "From
@@ -3013,7 +3185,9 @@
       requiresApproval: row.requires_approval, linkedItemId: row.linked_item_id,
       approved: row.approved, approvedBy: row.approved_by, approvedAt: row.approved_at, notes: row.notes,
       reviewRequested: row.review_requested, reviewRequestedBy: row.review_requested_by, reviewRequestedAt: row.review_requested_at,
-      todoId: row.todo_id
+      todoId: row.todo_id,
+      hasReply: row.has_reply, hasUpload: row.has_upload,
+      replyBody: row.reply_body, replyBy: row.reply_by, replyAt: row.reply_at
     };
   }
 
@@ -3117,6 +3291,8 @@
       '<div class="scrim"></div>' +
       '<div class="panel create-form">' +
         '<div class="panel-head"><h3>New Notice / Document</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<label class="notes-label template-picker-label" style="display:none;">Start from a template</label>' +
+        '<select class="template-picker" style="display:none; margin-bottom:8px;"><option value="">— None —</option></select>' +
         '<input type="text" class="titlein" placeholder="Title...">' +
         '<textarea class="bodyin" placeholder="Write it here..."></textarea>' +
         '<label class="approval-check" style="margin-top:8px;">' +
@@ -3149,6 +3325,37 @@
     var linkedItem = null;
     var blockedByExistingNotice = null; // the open notice this document already has, if any
     var pinBtn = overlay.querySelector(".pin");
+
+    // Notice templates (10 September 2026): reusable shapes saved server-side in
+    // shed_notice_templates (see the migration's seed rows -- "founder_review" and
+    // "info_request") so a repeatable kind of notice ("ask someone to find/provide
+    // something", "a document awaiting Founder approval") doesn't need its title/body/flags
+    // re-derived from scratch every time, by a person or by an AI session. Picking one just
+    // pre-fills the fields below -- everything stays editable afterward.
+    var templatePicker = overlay.querySelector(".template-picker");
+    var templatePickerLabel = overlay.querySelector(".template-picker-label");
+    var wantReply = false, wantUpload = false;
+    if(NOTICE_TEMPLATES.length){
+      templatePicker.style.display = "";
+      templatePickerLabel.style.display = "";
+      NOTICE_TEMPLATES.forEach(function(t){
+        var opt = document.createElement("option");
+        opt.value = t.key;
+        opt.textContent = t.title.replace(/\{[^}]+\}/g, "…");
+        templatePicker.appendChild(opt);
+      });
+      templatePicker.addEventListener("change", function(){
+        var t = NOTICE_TEMPLATES.filter(function(x){ return x.key === templatePicker.value; })[0];
+        wantReply = t ? !!t.has_reply : false;
+        wantUpload = t ? !!t.has_upload : false;
+        if(t){
+          overlay.querySelector(".titlein").value = t.title;
+          overlay.querySelector(".bodyin").value = t.body;
+          requiresCheck.checked = t.requires_approval;
+          requiresCheck.dispatchEvent(new Event("change"));
+        }
+      });
+    }
 
     // A document can only have one OPEN (undecided) requires-approval notice at a time -- see
     // shed_add_notice's own server-side guard (10 September 2026, added after Karla linked a new
@@ -3210,7 +3417,8 @@
       pinBtn.disabled = true;
       sb.rpc("shed_add_notice", {
         p: window.SHED_PASSPHRASE, ttl: entry.title, bdy: entry.body,
-        req_approval: requiresCheck.checked, linked_id: linkedItem ? linkedItem.id : null
+        req_approval: requiresCheck.checked, linked_id: linkedItem ? linkedItem.id : null,
+        want_reply: wantReply, want_upload: wantUpload
       }).then(function(res){
         pinBtn.disabled = false;
         if(res.error){

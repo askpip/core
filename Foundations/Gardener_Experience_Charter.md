@@ -11,6 +11,7 @@
 **Purpose:** This charter defines the experience AskPIP exists to create for every gardener, and establishes the principles that guide every future product, research, design and technical decision.
 **Related Documents:** `Foundations/AskPIP_Vision_Statement.md`; `Foundations/Founding_Principles.md`; `Foundations/Maries_Story.md`
 **Provenance:** Migrated from the Google Drive "PIP Founders Workspace" (Volume II – Vision & Experience, "PIP Gardener Experience Charter"). Preserved substantially as originally drafted; not edited for content. `AskPIP_Vision_Statement.md` v2.1 already cites this document by name ("Gardener Experience Charter") as a Related Document — this file fulfils that reference. A companion draft, "User Experience Charter" (also found in the Workspace, version 2.0), covers overlapping ground with some material not repeated here (a four-stage Teacher/Coach/Companion/Historian relationship model, ten interaction-design principles, and the "Growing understanding. Cultivating confidence." tagline and splash-screen framing) — not migrated separately in this pass; flagged for a follow-up review to decide whether it should be merged in or kept distinct.
+**Revision Note (10 September 2026):** Section 7, "The Measure of Success," raised entirely gardener-side measures of success (understanding, confidence, enjoyment) with no direct mention of plant health, even though plant health is the app's underlying purpose. Raised as a review request via the Garden Shed Office; a new sentence — "PIP succeeds when the plants in its care visibly grow healthier over time." — was added to §7, per direct instruction from Shaphan (Founder). This document's overall Status is unchanged by this edit; it remains a Draft awaiting full Founder review and approval.
 
 ---
 
@@ -119,6 +120,8 @@ PIP succeeds when uncertainty is replaced with informed confidence.
 PIP succeeds when trusted horticultural knowledge becomes practical wisdom through application to individual plants.
 
 PIP succeeds when each plant develops a meaningful history that enriches every future conversation.
+
+PIP succeeds when the plants in its care visibly grow healthier over time.
 
 Ultimately, PIP succeeds when gardeners care for their plants with greater understanding, greater confidence and greater enjoyment because PIP has become a trusted companion in their gardening journey.
 

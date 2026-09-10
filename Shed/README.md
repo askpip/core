@@ -1604,21 +1604,39 @@ repo, if working from a checkout directly) — never edit the shed's own
 synced copy of the body text; that's a read-only mirror, not the source of
 truth.
 
-**3. Edit the file, following the established pattern exactly** (see any
-approved Founder Review Dossier, e.g. `FRD-BUSHROSE-SCOPE-01.md`, or the
-three Foundation documents done 2026-09-10, for a real example to copy):
-add a `> **Archival & Approval Record** — ...` blockquote directly under
-the document's H1 title, naming who approved it (the shed's own
-`approved_by`, verbatim — never guess or substitute a different name) and
-the date, briefly stating what was approved and any caveat the document's
-own original Status already carried (e.g. Pip Character Profile's "does
-not establish a controlled brand standard" — preserve that nuance rather
-than letting "Approved" overstate it). Then, in the document's own
-Metadata block, strike through the old `**Status:**` value with `~~...~~`
-and append a short **Approved by ... — see Archival & Approval Record
-above.** note. Don't touch anything else in the document — the rest is
-preserved exactly as drafted/migrated, matching the same principle applied
-throughout Core's Founder Review Dossiers.
+**3. Edit the file, following the written convention exactly.** This
+pattern (the banner text, the Status-field strikethrough, and the
+attribution phrase) is now written down in full in
+`Document_Approval_and_Archival_Record_Convention.md` (drafted
+2026-09-10, in `Working/Drafts/Standards/` — not yet Founder-approved;
+see that document for the full rationale and an open item it flags for
+Founder attention). Follow it exactly rather than re-deriving the
+pattern by example. In short: add a `> **Archival & Approval Record**
+— ...` blockquote directly under the document's H1 title, stating the
+date and briefly what was approved, preserving any caveat the
+document's own original Status already carried (e.g. Pip Character
+Profile's "does not establish a controlled brand standard" — preserve
+that nuance rather than letting "Approved" overstate it); then, in the
+document's own Metadata block, strike through the old `**Status:**`
+value with `~~...~~` and append a short **Approved by AskPIP Founder
+Authority — see Archival & Approval Record above.** note.
+
+**Attribute the approval to `AskPIP Founder Authority` — the same
+institutional identity RDL-001 already uses for its own approval
+metadata — never to an individual Founder's name and never to free
+text like "the Founders."** This was corrected twice on 2026-09-10: the
+first pass named the individual who'd clicked Approve in the shed; the
+second, per direct Founder instruction, generalised that to "the
+Founders"; the third, after checking RDL-001 and finding it already
+establishes `AskPIP Founder Authority` as the institutional identity
+for exactly this purpose, switched to that exact phrase. (The shed's
+own `approved_by` field still records the real individual internally —
+that's a distinct, accurate fact about who actually used the shed, and
+stays untouched in the database; it's only the document-facing wording
+that uses the institutional identity.) Don't touch anything else in
+the document — the rest is preserved exactly as drafted/migrated,
+matching the same principle applied throughout Core's Founder Review
+Dossiers.
 
 **4. Commit the file back, then mark the notice as done.** Once the edited
 file is written back to the user's folder (and, ideally, actually
@@ -1659,6 +1677,59 @@ project's build has gone through. If `device_bash` is available in a
 future session, the whole thing — edit, commit, push — can happen without
 that handoff; worth trying it first each time rather than assuming it's
 still unavailable.
+
+## Notice reply box, file attachments, and reusable notice templates (added 10 September 2026)
+
+Added per direct Founder request, after asking Karla to find the legal
+document formatting requirements (see `shed_items` id 1649) and realising
+there was nowhere for her to actually answer from inside the shed.
+
+**Reply box and attachments** are a separate mechanism from the existing
+Notes field. Notes stays Founder/AI-facing (internal annotations, review
+requests); the new `reply_body`/`reply_by`/`reply_at` columns on
+`shed_items` are for whoever the notice was addressed to. Two new boolean
+columns, `has_reply` and `has_upload`, control whether a given notice's
+panel shows the reply textarea and the file-upload control at all -- most
+notices have neither; they're only set true for notices that actually ask
+someone for information or a file back (see the `info_request` template
+below). `shed_set_notice_reply(p, item_id, reply_text)` saves a reply, the
+same passphrase-gated pattern as every other write. Files go through a
+new private Storage bucket, `shed-attachments` (anon insert/select
+policies scoped to that one bucket -- the shed has no real per-user
+Supabase Auth session to key a stricter policy off, same trust model as
+every other shed write, where the RPC-layer passphrase check is the real
+gate); the client uploads directly via `sb.storage.from('shed-attachments')
+.upload(...)`, then calls `shed_add_attachment(p, item_id, file_name,
+storage_path, size_bytes)` to record who uploaded what, and
+`shed_list_attachments(p)` fetches them all (a flat list keyed by
+`item_id`, the same pattern `shed_list_todos` already uses, not nested
+onto the item rows). Downloading uses a signed URL
+(`createSignedUrl`, 1 hour) fetched at click time, since the bucket isn't
+public.
+
+**Notice templates** (`shed_notice_templates`, read via
+`shed_list_notice_templates()`, no passphrase needed) exist so a
+repeatable kind of notice doesn't get re-derived from scratch, by a
+person or by an AI session, every time. Two seeded rows: `founder_review`
+(a document awaiting Founder approval -- `requires_approval` true,
+`has_reply`/`has_upload` false, matching every notice written up above in
+the Core write-back section) and `info_request` (asking someone to find
+or provide something -- `requires_approval` false, `has_reply`/
+`has_upload` both true). The New Notice composer shows a "Start from a
+template" dropdown when any templates exist, which pre-fills title/body
+and the requires-approval checkbox and carries the template's
+has_reply/has_upload through to `shed_add_notice`'s two new trailing
+params (`want_reply`, `want_upload` -- both default false, so every
+pre-existing call site is unaffected). **When posting a notice of either
+of these two shapes, read the template first** (`select * from
+shed_notice_templates` or the RPC) rather than re-deriving the wording --
+if the shape doesn't fit an existing template, that's a sign a third
+template may be worth adding, not a reason to skip using one.
+
+`info_request` notices do NOT get an auto-created to-do the way
+`requires_approval` notices do (the trigger only fires when
+`requires_approval` is true) -- add one by hand and link it via the
+notice's `todo_id`, as done for `shed_items` id 1649 / `shed_todos` id 49.
 
 ## What's next
 
