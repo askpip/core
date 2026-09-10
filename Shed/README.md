@@ -1503,6 +1503,62 @@ follow-up, rather than staying visible there as a decided item.
   call's own returned row), and all test rows fully deleted afterward
   with a fresh zero-count check across every affected table.
 
+## Completed-notice backfill, a duplicate notice merged, and a guard against creating another (2026-09-10, same day, found from direct feedback on the shipped auto-archive)
+
+Direct feedback right after the auto-archive migration above shipped, with a
+screenshot: several notices that were already both Completed and Approved
+were still sitting on the Notice Board, not in the new Completed Tasks
+folder — and the board also showed two separate "Founder Approval
+Required"-style notices for the Gardener Experience Charter, when there
+should only ever be one.
+
+- **Why the already-completed notices didn't move**: the auto-archive
+  migration only acts on a *transition* — `shed_set_todo_status`'s archive
+  branch fires when a to-do's status changes *to* `completed`, comparing
+  against its previous status. Every notice reported as stuck had already
+  reached Completed *hours before* that migration was even written, so no
+  qualifying transition ever occurred for it after the migration went live
+  — a gap that should have been anticipated and tested against the real,
+  already-existing data rather than only against fresh test rows. Fixed
+  with a one-time backfill: a direct `UPDATE` moving every notice that was
+  already `requires_approval, approved, not review_requested` with a
+  `completed` linked to-do, still sitting in `location='board'`, into
+  `location='cabinet', folder='Completed Tasks'` — the exact same
+  condition the ongoing trigger logic already checks for new transitions,
+  applied once as a catch-up. Verified before and after with an
+  independent count query: 8 notices matched and moved, 0 left stuck
+  afterward.
+- **The duplicate Gardener Experience Charter notice**: Karla had linked a
+  *new* notice directly to that document to raise her review request,
+  rather than opening the existing "Founder Approval Required" notice
+  already open against it and using its own Request Review action —
+  `shed_add_notice` had no guard against this at all, so it silently
+  created a second, disconnected notice instead. Fixed in two parts, per
+  the direct instruction that "the original note should just be updated
+  with the notes and review request notification etc.": (1) **the existing
+  duplicate was merged by hand** — the original notice's
+  `review_requested`/`review_requested_by`/`review_requested_at` and
+  `notes` fields were set to carry Karla's actual request, then the
+  duplicate notice and its own separately-auto-created to-do were deleted,
+  confirmed by an independent query that exactly one notice now exists for
+  that document, carrying the review request. (2) **`shed_add_notice` now
+  refuses to create a second requires-approval notice for a document that
+  already has one open** (`approved = false` — an open review request
+  doesn't exempt it, only an actual approval does) — tested directly
+  against the database with disposable test rows: blocked while the first
+  notice was still undecided, and correctly allowed once it was approved
+  (a later, genuinely new round of review on the same document stays
+  possible). Extended with a client-side check in the "New Notice"
+  composer using the same `pendingNoticesFor` lookup already used
+  elsewhere, so the conflict is caught the moment a document is picked —
+  before Pin is even clickable — with a clear message and an "Open
+  existing notice" button straight to the one that already exists, rather
+  than only surfacing as a server error after the fact (the server-side
+  guard stays in place too, as the real enforcement — the client check is
+  a courtesy, not the only line of defense). Verified via Playwright: the
+  warning appears and Pin disables the moment a document with an open
+  notice is picked, and "Open existing notice" correctly opens it.
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`

@@ -3127,6 +3127,7 @@
           '<button type="button" class="btn ghost choose-doc">Link a document…</button>' +
           '<span class="linked-doc-label" style="font-family:\'Kalam\',cursive;"></span>' +
         '</div>' +
+        '<div class="existing-notice-warning" style="display:none; background:#fdecea; border:1px solid #c0392b; border-radius:6px; padding:8px 10px; margin-bottom:8px; font-size:.85rem; color:#8a2f22;"></div>' +
         '<div class="actions" style="margin-top:10px;">' +
           '<button class="btn pin">Pin to Notice Board</button>' +
           '<button class="btn alt file">File in Cabinet</button>' +
@@ -3144,14 +3145,57 @@
     var requiresCheck = overlay.querySelector(".requires-approval-check");
     var linkRow = overlay.querySelector(".link-doc-row");
     var linkedLabel = overlay.querySelector(".linked-doc-label");
+    var warningBox = overlay.querySelector(".existing-notice-warning");
     var linkedItem = null;
+    var blockedByExistingNotice = null; // the open notice this document already has, if any
+    var pinBtn = overlay.querySelector(".pin");
+
+    // A document can only have one OPEN (undecided) requires-approval notice at a time -- see
+    // shed_add_notice's own server-side guard (10 September 2026, added after Karla linked a new
+    // notice to a document that already had one open and unresolved, silently creating a second,
+    // disconnected notice instead of updating the existing one). This check mirrors that same
+    // guard's condition client-side (requiresApproval && !approved, the same test
+    // pendingNoticesFor already uses everywhere else), so the conflict shows up here, at the
+    // moment a document is picked, instead of only after Pin is clicked and the server rejects it.
+    function checkExistingNotice(){
+      blockedByExistingNotice = null;
+      if(linkedItem){
+        var open = pendingNoticesFor(linkedItem.id);
+        if(open.length) blockedByExistingNotice = open[0];
+      }
+      if(blockedByExistingNotice){
+        warningBox.style.display = "block";
+        warningBox.innerHTML = "";
+        var msg = document.createElement("span");
+        msg.textContent = "This document already has an open notice awaiting a decision. Open it and use its own Approve/Request Review controls, rather than starting a new one. ";
+        warningBox.appendChild(msg);
+        var openBtn = document.createElement("button");
+        openBtn.type = "button";
+        openBtn.className = "btn ghost";
+        openBtn.style.cssText = "padding:3px 8px; font-size:.8rem;";
+        openBtn.textContent = "Open existing notice";
+        openBtn.addEventListener("click", function(){
+          close();
+          addToDesk(stageEl, blockedByExistingNotice);
+        });
+        warningBox.appendChild(openBtn);
+        pinBtn.disabled = true;
+      } else {
+        warningBox.style.display = "none";
+        warningBox.innerHTML = "";
+        pinBtn.disabled = false;
+      }
+    }
+
     requiresCheck.addEventListener("change", function(){
       linkRow.style.display = requiresCheck.checked ? "flex" : "none";
+      checkExistingNotice();
     });
     overlay.querySelector(".choose-doc").addEventListener("click", function(){
       openDocumentPicker(stageEl, function(item){
         linkedItem = item;
         linkedLabel.textContent = "Linked: " + item.title;
+        checkExistingNotice();
       });
     });
 
@@ -3160,9 +3204,9 @@
       var b = overlay.querySelector(".bodyin").value.trim() || "(no content yet)";
       return {title:t, body:b};
     }
-    overlay.querySelector(".pin").addEventListener("click", function(){
+    pinBtn.addEventListener("click", function(){
+      if(blockedByExistingNotice) return; // belt and suspenders -- button is disabled in this state anyway
       var entry = getEntry();
-      var pinBtn = overlay.querySelector(".pin");
       pinBtn.disabled = true;
       sb.rpc("shed_add_notice", {
         p: window.SHED_PASSPHRASE, ttl: entry.title, bdy: entry.body,
@@ -3170,7 +3214,12 @@
       }).then(function(res){
         pinBtn.disabled = false;
         if(res.error){
-          alert("Couldn't save that to the Notice Board. Please try again.");
+          // Surface the server's own message when it has one worth showing (e.g. the
+          // duplicate-open-notice guard above, if this was somehow reached anyway -- a race
+          // with someone else creating the other notice in between the check and this click) --
+          // falling back to the generic message only for an unexplained failure.
+          var detail = (res.error && res.error.message) ? res.error.message : "";
+          alert(detail || "Couldn't save that to the Notice Board. Please try again.");
           return;
         }
         var item = itemFromRow(res.data, "board");
