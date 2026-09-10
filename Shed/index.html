@@ -2038,15 +2038,12 @@
       block.appendChild(meta);
       updateApprovalMeta(false);
 
-      var notesLabel = document.createElement("label");
-      notesLabel.className = "notes-label";
-      notesLabel.textContent = "Notes";
-      block.appendChild(notesLabel);
-      var notesArea = document.createElement("textarea");
-      notesArea.className = "notes-textarea";
-      notesArea.value = item.notes || "";
-      block.appendChild(notesArea);
-
+      // Save/Request Review moved directly under the Approved checkbox (and its status line
+      // just above) on 10 September 2026, per direct request: they used to sit below the
+      // Notes textarea, meaning saving a plain approve/unapprove -- the common case -- always
+      // required scrolling past Notes first even when there was nothing to write. Notes now
+      // follows the buttons instead, kept for whenever there's something to add rather than
+      // sitting in the way of the buttons every time.
       var saveRow = document.createElement("div");
       saveRow.className = "actions";
       saveRow.style.marginTop = "8px";
@@ -2066,6 +2063,16 @@
       reviewHint.style.fontSize = ".76rem";
       block.appendChild(reviewHint);
 
+      var notesLabel = document.createElement("label");
+      notesLabel.className = "notes-label";
+      notesLabel.style.marginTop = "14px";
+      notesLabel.textContent = "Notes";
+      block.appendChild(notesLabel);
+      var notesArea = document.createElement("textarea");
+      notesArea.className = "notes-textarea";
+      notesArea.value = item.notes || "";
+      block.appendChild(notesArea);
+
       // The review button and its hint text swap between two modes depending on whether a
       // review is currently pending, so there's always a way *out* of the review-requested
       // state that doesn't require approving -- previously the only way to clear a review
@@ -2078,7 +2085,7 @@
           reviewHint.textContent = "\"Cancel Review Request\" withdraws the request and returns this notice to Not Yet Approved, without approving it.";
         } else {
           reviewBtn.textContent = "Request Review";
-          reviewHint.textContent = "\"Request Review\" flags this notice as needing another look -- for requests, changes, or disagreements raised in the notes above -- and clears any existing approval.";
+          reviewHint.textContent = "\"Request Review\" flags this notice as needing another look -- for requests, changes, or disagreements, add them in the notes below -- and clears any existing approval.";
         }
       }
       updateReviewControls();
