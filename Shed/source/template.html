@@ -437,11 +437,12 @@
     border-radius:6px; padding:3px 6px; background:#fffef8; color:var(--wood-dark); cursor:pointer;
   }
   .todo-row-actions{ display:flex; gap:6px; }
-  .todo-history-toggle, .todo-delete{
+  .todo-open-notice, .todo-history-toggle, .todo-delete{
     font-family:'Nunito',sans-serif; font-size:.68rem; border:none; background:transparent; cursor:pointer;
     color:var(--wood-dark); opacity:.65; padding:0; text-decoration:underline;
   }
   .todo-delete{ color:#a33; }
+  .todo-open-notice{ color:var(--moss); opacity:.85; }
   .todo-history{ display:none; margin-top:8px; padding-top:8px; border-top:1px dashed var(--pip-border); }
   .todo-history.show{ display:block; }
   .todo-history ul{ margin:0; padding-left:16px; font-size:.72rem; color:var(--wood-dark); opacity:.85; }
@@ -904,7 +905,13 @@
         node.appendChild(badge);
       }
       node.setAttribute("aria-label", h.label);
-      node.addEventListener("click", function(){ openPanel(h.key, stageEl); });
+      // The To-Do List opens straight onto the desk as its own tab (see openTodoDesk) rather
+      // than as a modal panel, so it can stay open side-by-side with a notice opened from one
+      // of its rows -- everything else still opens the browse-then-close panel.
+      node.addEventListener("click", function(){
+        if(h.key === "todo"){ openTodoDesk(stageEl); return; }
+        openPanel(h.key, stageEl);
+      });
       stageEl.appendChild(node);
     });
   }
@@ -1301,6 +1308,16 @@
     return win;
   }
 
+  // Sends the To-Do List itself to the desk, the same way any document or notice gets there
+  // -- a fixed pseudo-item (its id never collides with a real shed_items id, which are all
+  // numeric) so addToDesk's existing dedup logic just brings the same tab forward on a second
+  // click instead of opening two. This lets the To-Do List sit in the tab strip alongside a
+  // notice opened from one of its own rows (see buildRow's "View Notice" button), rather than
+  // closing behind a modal the way the Notice Board/File Cabinet/Bookshelf panels still do.
+  function openTodoDesk(stageEl){
+    addToDesk(stageEl, { id: "__todo_list__", title: "To-Do List", kind: "todo-list" });
+  }
+
   // Re-renders just this window's body content in place (e.g. after a save-edit changes its
   // title or text) and refreshes the chrome so a changed title shows up in its tab/titlebar
   // immediately, without disturbing any other open tab's content.
@@ -1310,12 +1327,293 @@
     renderDeskChrome(stageEl);
   }
 
+  // Renders the To-Do List's own UI into a desk window's body (see openTodoDesk) -- the same
+  // task list that used to live in a standalone modal panel, now living in whichever desk
+  // window tab holds it. containerEl is that window's body element (win.bodyEl).
+  function renderTodoListBody(stageEl, win, containerEl){
+    var todos = [];
+    // "new" is the true default for every to-do, whether added manually or auto-created
+    // by a trigger (a notice needing approval, a review request) -- nobody has looked at
+    // it yet, so it must NOT read as "Received by <name>" until a real person explicitly
+    // selects that status themselves. See buildRow()'s updatedLine for where this matters.
+    // STATUS_LABELS/STATUS_ORDER are declared once at module scope (see pendingNoticesFor)
+    // and shared with the notice desk panel and Notice Board list, so reuse those here too.
+
+    function fmtWhen(iso){
+      if(!iso) return "";
+      var d = new Date(iso);
+      if(isNaN(d.getTime())) return "";
+      return SAVED_MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+    }
+
+    function loadTodos(){
+      containerEl.innerHTML = '<p class="empty-note">Loading tasks…</p>';
+      sb.rpc("shed_list_todos", { p: window.SHED_PASSPHRASE }).then(function(res){
+        if(res.error){
+          containerEl.innerHTML = "<p class='empty-note'>Couldn't load the to-do list. Please try again.</p>";
+          return;
+        }
+        todos = res.data || [];
+        updateTodoBadge(todos);
+        renderTodos();
+      });
+    }
+
+    function persistReorder(){
+      var ids = todos.filter(function(t){ return t.status !== "completed"; }).map(function(t){ return t.id; });
+      sb.rpc("shed_reorder_todos", { p: window.SHED_PASSPHRASE, ordered_ids: ids }).then(function(res){
+        if(res.error){ alert("Couldn't save the new order. Please try again."); loadTodos(); }
+      });
+    }
+
+    function renderTodos(){
+      containerEl.innerHTML = "";
+
+      var addWrap = document.createElement("div");
+      addWrap.className = "todo-add";
+      addWrap.innerHTML =
+        '<input type="text" class="new-todo-text" placeholder="Add a task...">' +
+        '<button type="button" class="btn add-todo">Add</button>';
+      function addTask(){
+        var input = addWrap.querySelector(".new-todo-text");
+        var val = input.value.trim();
+        if(!val) return;
+        var addBtn = addWrap.querySelector(".add-todo");
+        addBtn.disabled = true;
+        sb.rpc("shed_add_todo", { p: window.SHED_PASSPHRASE, ttl: val }).then(function(res){
+          addBtn.disabled = false;
+          if(res.error){ alert("Couldn't add that task. Please try again."); return; }
+          loadTodos();
+        });
+      }
+      addWrap.querySelector(".add-todo").addEventListener("click", addTask);
+      addWrap.querySelector(".new-todo-text").addEventListener("keydown", function(e){
+        if(e.key === "Enter"){ e.preventDefault(); addTask(); }
+      });
+      containerEl.appendChild(addWrap);
+
+      var active = todos.filter(function(t){ return t.status !== "completed"; })
+        .sort(function(a,b){ return a.sort_order - b.sort_order; });
+      var completed = todos.filter(function(t){ return t.status === "completed"; })
+        .sort(function(a,b){ return new Date(b.updated_at) - new Date(a.updated_at); });
+
+      function buildRow(t, draggable){
+        var row = document.createElement("div");
+        row.className = "todo-row" + (draggable ? "" : " no-drag");
+        row.setAttribute("data-status", t.status);
+        row.setAttribute("data-id", t.id);
+
+        var handle = document.createElement("span");
+        handle.className = "todo-drag-handle";
+        handle.textContent = "⠿";
+        row.appendChild(handle);
+
+        // A to-do auto-created for a notice (shed_items.todo_id) can be opened straight from
+        // here -- same addToDesk every other "open on the desk" action uses, so it lands as
+        // another tab right alongside this To-Do List tab, never replacing it.
+        var linkedNotice = (CONTENT.board.items || []).filter(function(it){ return it.todoId === t.id; })[0] || null;
+
+        var body = document.createElement("div");
+        body.className = "todo-body";
+        var createdLine = "Added by " + t.created_by + " on " + fmtWhen(t.created_at);
+        // No second line at all while status is still "new" -- there's nothing to report
+        // beyond "Added by ..." yet, and showing "New by <name>" would just be a confusing
+        // restatement of the same fact under a different label. The moment a real person
+        // picks a status from the dropdown below, that becomes a genuine, separate event
+        // worth its own line (e.g. "Received by Karla on ...").
+        var statusVerb = t.status === "completed" ? "Completed" : STATUS_LABELS[t.status];
+        var updatedLine = (t.status !== "new" && t.updated_by) ? (statusVerb + " by " + t.updated_by + " on " + fmtWhen(t.updated_at)) : "";
+        body.innerHTML =
+          '<div class="todo-text"></div>' +
+          '<div class="todo-meta">' + createdLine + (updatedLine ? " · " + updatedLine : "") + '</div>' +
+          '<div class="todo-row-actions">' +
+            (linkedNotice ? '<button type="button" class="todo-open-notice">View Notice</button>' : '') +
+            '<button type="button" class="todo-history-toggle">History</button>' +
+            '<button type="button" class="todo-delete">Delete</button>' +
+          '</div>' +
+          '<div class="todo-history"><ul></ul></div>';
+        body.querySelector(".todo-text").textContent = t.text;
+        if(linkedNotice){
+          body.querySelector(".todo-open-notice").addEventListener("click", function(){
+            addToDesk(stageEl, linkedNotice);
+          });
+        }
+        var histUl = body.querySelector(".todo-history ul");
+        (t.history || []).forEach(function(h){
+          var li = document.createElement("li");
+          li.textContent = STATUS_LABELS[h.status] + " by " + h.set_by + " — " + fmtWhen(h.set_at);
+          histUl.appendChild(li);
+        });
+        body.querySelector(".todo-history-toggle").addEventListener("click", function(){
+          body.querySelector(".todo-history").classList.toggle("show");
+        });
+        body.querySelector(".todo-delete").addEventListener("click", function(){
+          if(!confirm('Delete "' + t.text + '"? This can\'t be undone.')) return;
+          sb.rpc("shed_delete_todo", { p: window.SHED_PASSPHRASE, todo_id: t.id }).then(function(res){
+            if(res.error){ alert("Couldn't delete that task. Please try again."); return; }
+            loadTodos();
+          });
+        });
+        row.appendChild(body);
+
+        var controls = document.createElement("div");
+        controls.className = "todo-controls";
+        var select = document.createElement("select");
+        select.className = "todo-status-select";
+        // A to-do linked to a notice can't be marked Completed until that notice is actually
+        // approved (and has no open review request) -- shed_set_todo_status enforces this
+        // server-side; disabling the option here just avoids an error round-trip for the
+        // obvious case. Plain manually-added tasks (no linkedNotice) are never restricted.
+        var blockCompleted = !!(linkedNotice && (!linkedNotice.approved || linkedNotice.reviewRequested));
+        STATUS_ORDER.forEach(function(s){
+          var opt = document.createElement("option");
+          opt.value = s;
+          opt.textContent = STATUS_LABELS[s];
+          if(s === "completed" && blockCompleted){
+            opt.disabled = true;
+            opt.title = "Approve the linked notice (or resolve its review request) before completing this.";
+          }
+          if(s === t.status) opt.selected = true;
+          select.appendChild(opt);
+        });
+        select.addEventListener("change", function(){
+          var newStatus = select.value;
+          select.disabled = true;
+          sb.rpc("shed_set_todo_status", { p: window.SHED_PASSPHRASE, todo_id: t.id, new_status: newStatus }).then(function(res){
+            select.disabled = false;
+            if(res.error){
+              alert((res.error && res.error.message) || "Couldn't update that task's status. Please try again.");
+              select.value = t.status;
+              return;
+            }
+            loadTodos();
+          });
+        });
+        controls.appendChild(select);
+        row.appendChild(controls);
+
+        return row;
+      }
+
+      // Pointer-based drag reorder (native HTML5 drag-and-drop doesn't fire on touch
+      // devices, and this app runs on phones, so plain pointer events drive it instead).
+      function makeDraggable(listEl){
+        function getRowAfter(y){
+          var rows = Array.prototype.slice.call(listEl.querySelectorAll(".todo-row:not(.dragging)"));
+          var result = null, closestOffset = -Infinity;
+          rows.forEach(function(r){
+            var box = r.getBoundingClientRect();
+            var offset = y - box.top - box.height / 2;
+            if(offset < 0 && offset > closestOffset){ closestOffset = offset; result = r; }
+          });
+          return result;
+        }
+
+        listEl.querySelectorAll(".todo-drag-handle").forEach(function(handle){
+          handle.addEventListener("pointerdown", function(e){
+            var row = handle.closest(".todo-row");
+            if(!row) return;
+            e.preventDefault();
+            var offsetY = e.clientY - row.getBoundingClientRect().top;
+            var rect = row.getBoundingClientRect();
+            var placeholder = document.createElement("div");
+            placeholder.className = "todo-row";
+            placeholder.style.visibility = "hidden";
+            placeholder.style.height = rect.height + "px";
+            row.parentNode.insertBefore(placeholder, row.nextSibling);
+            row.classList.add("dragging");
+            row.style.position = "fixed";
+            row.style.left = rect.left + "px";
+            row.style.top = rect.top + "px";
+            row.style.width = rect.width + "px";
+            row.style.zIndex = "1000";
+            row.style.pointerEvents = "none";
+            document.body.appendChild(row);
+
+            function move(ev){
+              row.style.top = (ev.clientY - offsetY) + "px";
+              var after = getRowAfter(ev.clientY);
+              if(after == null){ listEl.appendChild(placeholder); }
+              else { listEl.insertBefore(placeholder, after); }
+            }
+            function up(){
+              placeholder.parentNode.insertBefore(row, placeholder);
+              placeholder.remove();
+              row.classList.remove("dragging");
+              row.style.position = ""; row.style.left = ""; row.style.top = "";
+              row.style.width = ""; row.style.zIndex = ""; row.style.pointerEvents = "";
+              document.removeEventListener("pointermove", move);
+              document.removeEventListener("pointerup", up);
+
+              var newOrderIds = Array.prototype.slice.call(listEl.querySelectorAll(".todo-row"))
+                .map(function(r){ return +r.getAttribute("data-id"); });
+              todos.sort(function(a, b){
+                var ia = newOrderIds.indexOf(a.id), ib = newOrderIds.indexOf(b.id);
+                if(ia === -1 || ib === -1) return 0;
+                return ia - ib;
+              });
+              persistReorder();
+            }
+            document.addEventListener("pointermove", move);
+            document.addEventListener("pointerup", up);
+          });
+        });
+      }
+
+      var activeHeading = document.createElement("div");
+      activeHeading.className = "todo-section-heading";
+      activeHeading.textContent = "Active";
+      containerEl.appendChild(activeHeading);
+
+      if(active.length === 0){
+        var emptyA = document.createElement("p");
+        emptyA.className = "todo-empty";
+        emptyA.textContent = "No active tasks. Add one above.";
+        containerEl.appendChild(emptyA);
+      }
+
+      var activeList = document.createElement("div");
+      activeList.className = "todo-list";
+      active.forEach(function(t){ activeList.appendChild(buildRow(t, true)); });
+      containerEl.appendChild(activeList);
+      makeDraggable(activeList);
+
+      var completedHeading = document.createElement("div");
+      completedHeading.className = "todo-section-heading";
+      completedHeading.textContent = "Completed";
+      containerEl.appendChild(completedHeading);
+
+      if(completed.length === 0){
+        var emptyC = document.createElement("p");
+        emptyC.className = "todo-empty";
+        emptyC.textContent = "Nothing completed yet.";
+        containerEl.appendChild(emptyC);
+      }
+
+      var completedList = document.createElement("div");
+      completedList.className = "todo-list";
+      completed.forEach(function(t){ completedList.appendChild(buildRow(t, false)); });
+      containerEl.appendChild(completedList);
+    }
+
+    loadTodos();
+  }
+
   // Populates an expanded window's body: the item's own view/edit UI (same Edit/Delete/Save
   // pattern the old single desk overlay had), plus -- only when the item is a notice
   // (requiresApproval) -- a button linking to the document it's requesting approval for, an
   // approval checkbox, and a notes area, each saved independently via shed_set_notice_approval.
   function renderDeskPanelBody(stageEl, win, body){
     var item = win.item;
+
+    // The To-Do List's pseudo-item (see openTodoDesk) gets a completely different body: the
+    // task list UI, not a document/notice view. Handled entirely by renderTodoListBody and
+    // nothing below this applies to it.
+    if(item.kind === "todo-list"){
+      renderTodoListBody(stageEl, win, body);
+      return;
+    }
+
     var editable = item.source === "user" && item.id;
 
     // A notice with requiresApproval gets two extra lines above the usual "Saved ..." line:
@@ -1445,7 +1743,13 @@
       statusBlock.appendChild(statusRowEl);
       block.appendChild(statusBlock);
 
+      // Remembers the last-loaded to-do row so a change to approval/review state (below)
+      // can rebuild this select's disabled-option state immediately, without re-fetching --
+      // see updateApprovalMeta's caller and refreshStatusRow.
+      var lastTodoRow = null;
+
       function renderStatusRow(todoRow){
+        lastTodoRow = todoRow;
         statusRowEl.innerHTML = "";
         if(!todoRow){
           statusRowEl.innerHTML = '<p class="empty-note" style="margin:2px 0;">No linked to-do yet.</p>';
@@ -1454,12 +1758,22 @@
         var prow = document.createElement("div");
         prow.className = "progress-row";
 
+        // A notice that hasn't been approved yet, or still has an open review request,
+        // can't have its to-do marked Completed -- shed_set_todo_status enforces this
+        // server-side too (the authoritative check); this just keeps the option from being
+        // picked in the first place instead of failing after the fact.
+        var blockCompleted = !item.approved || !!item.reviewRequested;
+
         var sel = document.createElement("select");
         sel.className = "progress-select";
         STATUS_ORDER.forEach(function(s){
           var opt = document.createElement("option");
           opt.value = s;
           opt.textContent = STATUS_LABELS[s];
+          if(s === "completed" && blockCompleted){
+            opt.disabled = true;
+            opt.title = "Approve this notice (or resolve its review request) before marking it Completed.";
+          }
           if(s === todoRow.status) opt.selected = true;
           sel.appendChild(opt);
         });
@@ -1477,7 +1791,7 @@
           sb.rpc("shed_set_todo_status", { p: window.SHED_PASSPHRASE, todo_id: item.todoId, new_status: newStatus }).then(function(res){
             sel.disabled = false;
             if(res.error){
-              alert("Couldn't save that status. Please try again.");
+              alert((res.error && res.error.message) || "Couldn't save that status. Please try again.");
               sel.value = prevStatus;
               return;
             }
@@ -1488,6 +1802,14 @@
         });
 
         statusRowEl.appendChild(prow);
+      }
+
+      // Rebuilds the status row from whatever was last loaded, so an approval/review change
+      // made just above (without leaving this window) immediately reflects in which options
+      // are selectable -- otherwise approving the notice wouldn't unblock "Completed" here
+      // until the window was closed and reopened.
+      function refreshStatusRow(){
+        if(lastTodoRow) renderStatusRow(lastTodoRow);
       }
 
       if(item.todoId == null){
@@ -1619,6 +1941,7 @@
         updateApprovalMeta(true);
         updateReviewControls();
         updateBoardBadge();
+        refreshStatusRow();
       }
 
       function persistApproval(isApproved, noteText){
@@ -2365,251 +2688,6 @@
       }
 
       loadEvents();
-    } else if(key === "todo"){
-      var todos = [];
-      // "new" is the true default for every to-do, whether added manually or auto-created
-      // by a trigger (a notice needing approval, a review request) -- nobody has looked at
-      // it yet, so it must NOT read as "Received by <name>" until a real person explicitly
-      // selects that status themselves. See buildRow()'s updatedLine for where this matters.
-      // STATUS_LABELS/STATUS_ORDER are declared once at module scope (see pendingNoticesFor)
-      // and shared with the notice desk panel and Notice Board list, so reuse those here too.
-
-      function fmtWhen(iso){
-        if(!iso) return "";
-        var d = new Date(iso);
-        if(isNaN(d.getTime())) return "";
-        return SAVED_MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
-      }
-
-      function loadTodos(){
-        titleEl.textContent = data.title;
-        panelBody.innerHTML = '<p class="empty-note">Loading tasks…</p>';
-        sb.rpc("shed_list_todos", { p: window.SHED_PASSPHRASE }).then(function(res){
-          if(res.error){
-            panelBody.innerHTML = "<p class='empty-note'>Couldn't load the to-do list. Please try again.</p>";
-            return;
-          }
-          todos = res.data || [];
-          updateTodoBadge(todos);
-          renderTodos();
-        });
-      }
-
-      function persistReorder(){
-        var ids = todos.filter(function(t){ return t.status !== "completed"; }).map(function(t){ return t.id; });
-        sb.rpc("shed_reorder_todos", { p: window.SHED_PASSPHRASE, ordered_ids: ids }).then(function(res){
-          if(res.error){ alert("Couldn't save the new order. Please try again."); loadTodos(); }
-        });
-      }
-
-      function renderTodos(){
-        titleEl.textContent = data.title;
-        panelBody.innerHTML = "";
-
-        var addWrap = document.createElement("div");
-        addWrap.className = "todo-add";
-        addWrap.innerHTML =
-          '<input type="text" class="new-todo-text" placeholder="Add a task...">' +
-          '<button type="button" class="btn add-todo">Add</button>';
-        function addTask(){
-          var input = addWrap.querySelector(".new-todo-text");
-          var val = input.value.trim();
-          if(!val) return;
-          var addBtn = addWrap.querySelector(".add-todo");
-          addBtn.disabled = true;
-          sb.rpc("shed_add_todo", { p: window.SHED_PASSPHRASE, ttl: val }).then(function(res){
-            addBtn.disabled = false;
-            if(res.error){ alert("Couldn't add that task. Please try again."); return; }
-            loadTodos();
-          });
-        }
-        addWrap.querySelector(".add-todo").addEventListener("click", addTask);
-        addWrap.querySelector(".new-todo-text").addEventListener("keydown", function(e){
-          if(e.key === "Enter"){ e.preventDefault(); addTask(); }
-        });
-        panelBody.appendChild(addWrap);
-
-        var active = todos.filter(function(t){ return t.status !== "completed"; })
-          .sort(function(a,b){ return a.sort_order - b.sort_order; });
-        var completed = todos.filter(function(t){ return t.status === "completed"; })
-          .sort(function(a,b){ return new Date(b.updated_at) - new Date(a.updated_at); });
-
-        function buildRow(t, draggable){
-          var row = document.createElement("div");
-          row.className = "todo-row" + (draggable ? "" : " no-drag");
-          row.setAttribute("data-status", t.status);
-          row.setAttribute("data-id", t.id);
-
-          var handle = document.createElement("span");
-          handle.className = "todo-drag-handle";
-          handle.textContent = "⠿";
-          row.appendChild(handle);
-
-          var body = document.createElement("div");
-          body.className = "todo-body";
-          var createdLine = "Added by " + t.created_by + " on " + fmtWhen(t.created_at);
-          // No second line at all while status is still "new" -- there's nothing to report
-          // beyond "Added by ..." yet, and showing "New by <name>" would just be a confusing
-          // restatement of the same fact under a different label. The moment a real person
-          // picks a status from the dropdown below, that becomes a genuine, separate event
-          // worth its own line (e.g. "Received by Karla on ...").
-          var statusVerb = t.status === "completed" ? "Completed" : STATUS_LABELS[t.status];
-          var updatedLine = (t.status !== "new" && t.updated_by) ? (statusVerb + " by " + t.updated_by + " on " + fmtWhen(t.updated_at)) : "";
-          body.innerHTML =
-            '<div class="todo-text"></div>' +
-            '<div class="todo-meta">' + createdLine + (updatedLine ? " · " + updatedLine : "") + '</div>' +
-            '<div class="todo-row-actions">' +
-              '<button type="button" class="todo-history-toggle">History</button>' +
-              '<button type="button" class="todo-delete">Delete</button>' +
-            '</div>' +
-            '<div class="todo-history"><ul></ul></div>';
-          body.querySelector(".todo-text").textContent = t.text;
-          var histUl = body.querySelector(".todo-history ul");
-          (t.history || []).forEach(function(h){
-            var li = document.createElement("li");
-            li.textContent = STATUS_LABELS[h.status] + " by " + h.set_by + " — " + fmtWhen(h.set_at);
-            histUl.appendChild(li);
-          });
-          body.querySelector(".todo-history-toggle").addEventListener("click", function(){
-            body.querySelector(".todo-history").classList.toggle("show");
-          });
-          body.querySelector(".todo-delete").addEventListener("click", function(){
-            if(!confirm('Delete "' + t.text + '"? This can\'t be undone.')) return;
-            sb.rpc("shed_delete_todo", { p: window.SHED_PASSPHRASE, todo_id: t.id }).then(function(res){
-              if(res.error){ alert("Couldn't delete that task. Please try again."); return; }
-              loadTodos();
-            });
-          });
-          row.appendChild(body);
-
-          var controls = document.createElement("div");
-          controls.className = "todo-controls";
-          var select = document.createElement("select");
-          select.className = "todo-status-select";
-          STATUS_ORDER.forEach(function(s){
-            var opt = document.createElement("option");
-            opt.value = s;
-            opt.textContent = STATUS_LABELS[s];
-            if(s === t.status) opt.selected = true;
-            select.appendChild(opt);
-          });
-          select.addEventListener("change", function(){
-            var newStatus = select.value;
-            select.disabled = true;
-            sb.rpc("shed_set_todo_status", { p: window.SHED_PASSPHRASE, todo_id: t.id, new_status: newStatus }).then(function(res){
-              select.disabled = false;
-              if(res.error){ alert("Couldn't update that task's status. Please try again."); select.value = t.status; return; }
-              loadTodos();
-            });
-          });
-          controls.appendChild(select);
-          row.appendChild(controls);
-
-          return row;
-        }
-
-        // Pointer-based drag reorder (native HTML5 drag-and-drop doesn't fire on touch
-        // devices, and this app runs on phones, so plain pointer events drive it instead).
-        function makeDraggable(listEl){
-          function getRowAfter(y){
-            var rows = Array.prototype.slice.call(listEl.querySelectorAll(".todo-row:not(.dragging)"));
-            var result = null, closestOffset = -Infinity;
-            rows.forEach(function(r){
-              var box = r.getBoundingClientRect();
-              var offset = y - box.top - box.height / 2;
-              if(offset < 0 && offset > closestOffset){ closestOffset = offset; result = r; }
-            });
-            return result;
-          }
-
-          listEl.querySelectorAll(".todo-drag-handle").forEach(function(handle){
-            handle.addEventListener("pointerdown", function(e){
-              var row = handle.closest(".todo-row");
-              if(!row) return;
-              e.preventDefault();
-              var offsetY = e.clientY - row.getBoundingClientRect().top;
-              var rect = row.getBoundingClientRect();
-              var placeholder = document.createElement("div");
-              placeholder.className = "todo-row";
-              placeholder.style.visibility = "hidden";
-              placeholder.style.height = rect.height + "px";
-              row.parentNode.insertBefore(placeholder, row.nextSibling);
-              row.classList.add("dragging");
-              row.style.position = "fixed";
-              row.style.left = rect.left + "px";
-              row.style.top = rect.top + "px";
-              row.style.width = rect.width + "px";
-              row.style.zIndex = "1000";
-              row.style.pointerEvents = "none";
-              document.body.appendChild(row);
-
-              function move(ev){
-                row.style.top = (ev.clientY - offsetY) + "px";
-                var after = getRowAfter(ev.clientY);
-                if(after == null){ listEl.appendChild(placeholder); }
-                else { listEl.insertBefore(placeholder, after); }
-              }
-              function up(){
-                placeholder.parentNode.insertBefore(row, placeholder);
-                placeholder.remove();
-                row.classList.remove("dragging");
-                row.style.position = ""; row.style.left = ""; row.style.top = "";
-                row.style.width = ""; row.style.zIndex = ""; row.style.pointerEvents = "";
-                document.removeEventListener("pointermove", move);
-                document.removeEventListener("pointerup", up);
-
-                var newOrderIds = Array.prototype.slice.call(listEl.querySelectorAll(".todo-row"))
-                  .map(function(r){ return +r.getAttribute("data-id"); });
-                todos.sort(function(a, b){
-                  var ia = newOrderIds.indexOf(a.id), ib = newOrderIds.indexOf(b.id);
-                  if(ia === -1 || ib === -1) return 0;
-                  return ia - ib;
-                });
-                persistReorder();
-              }
-              document.addEventListener("pointermove", move);
-              document.addEventListener("pointerup", up);
-            });
-          });
-        }
-
-        var activeHeading = document.createElement("div");
-        activeHeading.className = "todo-section-heading";
-        activeHeading.textContent = "Active";
-        panelBody.appendChild(activeHeading);
-
-        if(active.length === 0){
-          var emptyA = document.createElement("p");
-          emptyA.className = "todo-empty";
-          emptyA.textContent = "No active tasks. Add one above.";
-          panelBody.appendChild(emptyA);
-        }
-
-        var activeList = document.createElement("div");
-        activeList.className = "todo-list";
-        active.forEach(function(t){ activeList.appendChild(buildRow(t, true)); });
-        panelBody.appendChild(activeList);
-        makeDraggable(activeList);
-
-        var completedHeading = document.createElement("div");
-        completedHeading.className = "todo-section-heading";
-        completedHeading.textContent = "Completed";
-        panelBody.appendChild(completedHeading);
-
-        if(completed.length === 0){
-          var emptyC = document.createElement("p");
-          emptyC.className = "todo-empty";
-          emptyC.textContent = "Nothing completed yet.";
-          panelBody.appendChild(emptyC);
-        }
-
-        var completedList = document.createElement("div");
-        completedList.className = "todo-list";
-        completed.forEach(function(t){ completedList.appendChild(buildRow(t, false)); });
-        panelBody.appendChild(completedList);
-      }
-
-      loadTodos();
     } else {
       renderItemList(function(){ return data.items; }, data.title, null);
 
