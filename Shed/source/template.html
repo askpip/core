@@ -1838,8 +1838,15 @@
     // line, plus a heading over its body text so that text reads as "things to be aware of"
     // rather than an unlabelled paragraph.
     var noticeSubtitleHtml = "", noticeCreatedHtml = "", bodyHeadingHtml = "";
-    if(item.requiresApproval){
+    // The subtitle naming a linked document is shown whenever a document is linked, not only
+    // on approval notices -- "Link a document..."/"Upload a document..." are available on any
+    // note, and the saved link should be visible regardless of the approval checkbox (11 Sept
+    // 2026, Founder-reported gap: a linked document was saved correctly but never displayed
+    // when the note didn't require approval).
+    if(item.linkedItemId){
       noticeSubtitleHtml = '<div class="notice-subtitle"></div>';
+    }
+    if(item.requiresApproval){
       noticeCreatedHtml = '<div class="notice-created"></div>';
       bodyHeadingHtml = '<label class="notes-label" style="margin-top:2px;">Things to be aware of</label>';
     }
@@ -1856,9 +1863,11 @@
     body.querySelector(".doc-page h4").textContent = item.title;
     body.querySelector(".doc-page .body").textContent = item.body;
     body.querySelector(".doc-page .doc-date").textContent = item.source === "user" ? fmtSavedLine(item) : "";
+    if(item.linkedItemId){
+      var linkedForSubtitle = findItemById(item.linkedItemId);
+      body.querySelector(".notice-subtitle").textContent = linkedForSubtitle ? linkedForSubtitle.title : ("Document #" + item.linkedItemId);
+    }
     if(item.requiresApproval){
-      var linkedForSubtitle = item.linkedItemId ? findItemById(item.linkedItemId) : null;
-      body.querySelector(".notice-subtitle").textContent = linkedForSubtitle ? linkedForSubtitle.title : (item.linkedItemId ? ("Document #" + item.linkedItemId) : "(no document linked)");
       body.querySelector(".notice-created").textContent = "Created " + (fmtSavedDate(item.createdAt).replace("Saved ", "") || "date unknown");
     }
 
@@ -1916,27 +1925,30 @@
       });
     }
 
+    // The "open linked document" button is shown for any note with a linked document, not only
+    // approval notices -- moved out of the requiresApproval block below for the same reason as
+    // the subtitle above. Kept outside .approval-block so it isn't tied to approval styling.
+    if(item.linkedItemId){
+      var linkedGeneral = findItemById(item.linkedItemId);
+      var linkBtnGeneral = document.createElement("button");
+      linkBtnGeneral.type = "button";
+      linkBtnGeneral.className = "linked-doc-btn";
+      linkBtnGeneral.innerHTML = "📄 " + (item.requiresApproval ? "Review: " : "Open: ") + (linkedGeneral ? linkedGeneral.title : ("Document #" + item.linkedItemId));
+      linkBtnGeneral.addEventListener("click", function(e){
+        e.stopPropagation();
+        var freshLinked = findItemById(item.linkedItemId);
+        if(!freshLinked){
+          alert("That document couldn't be found (it may have been removed).");
+          return;
+        }
+        addToDesk(stageEl, freshLinked);
+      });
+      body.appendChild(linkBtnGeneral);
+    }
+
     if(item.requiresApproval){
       var block = document.createElement("div");
       block.className = "approval-block";
-
-      if(item.linkedItemId){
-        var linked = findItemById(item.linkedItemId);
-        var linkBtn = document.createElement("button");
-        linkBtn.type = "button";
-        linkBtn.className = "linked-doc-btn";
-        linkBtn.innerHTML = "📄 Review: " + (linked ? linked.title : ("Document #" + item.linkedItemId));
-        linkBtn.addEventListener("click", function(e){
-          e.stopPropagation();
-          var freshLinked = findItemById(item.linkedItemId);
-          if(!freshLinked){
-            alert("That document couldn't be found (it may have been removed).");
-            return;
-          }
-          addToDesk(stageEl, freshLinked);
-        });
-        block.appendChild(linkBtn);
-      }
 
       // Shared workflow status (2026-09-09): a notice and the to-do that tracks it
       // (shed_items.todo_id, set automatically when the notice was created or when review
