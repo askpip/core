@@ -148,6 +148,18 @@
     padding:7px 10px; font-family:'Kalam',cursive; font-size:.92rem;
   }
   .desk-window .dw-titlebar-single b{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0; }
+  /* "Under review" indicator in an opened window's own header -- shown for a notice (or its
+     linked to-do, opened via "View Notice") whose review has been requested but not yet
+     decided, so that's visible the moment the window opens, not only in the closed list row
+     or the To-Do List's per-row chip (11 September 2026, Founder-requested). Same colour as
+     the existing .item-row-decision.decision-review chip so it reads as the same status
+     wherever it appears. */
+  .desk-window .dw-titlebar-badge{
+    flex:none; font-family:'Nunito',sans-serif; font-size:.68rem; font-weight:700;
+    color:#fff; background:var(--terracotta); border-radius:999px; padding:3px 8px;
+    white-space:nowrap;
+  }
+  .desk-window .dw-tab-flag{ flex:none; font-size:.85em; }
 
   /* Two or more items open: a browser-style tab strip, window controls docked at its right
      end. Each tab carries its own close x, exactly like a browser tab, so switching which
@@ -1327,6 +1339,17 @@
         t.textContent = w.item.title;
         tab.appendChild(t);
 
+        // Same "under review" signal as the single titlebar below, just icon-only here --
+        // a tab is too narrow for the full badge text.
+        var tabTooltipText = w.item.title;
+        if(w.item.reviewRequested){
+          var flag = document.createElement("span");
+          flag.className = "dw-tab-flag";
+          flag.textContent = "⚑";
+          tab.insertBefore(flag, t.nextSibling);
+          tabTooltipText += " — Review Requested";
+        }
+
         // Only the active tab gets a back button -- it's the one actually on screen, and
         // only when it remembers a list it was opened from (win.cameFrom; see addToDesk).
         if(w === active && w.cameFrom){
@@ -1345,12 +1368,12 @@
         tab.appendChild(closeBtn);
 
         tab.addEventListener("click", function(){ bringDeskWindowToFront(stageEl, w); });
-        tab.addEventListener("mouseenter", function(){ showTabTooltip(tab, w.item.title); });
+        tab.addEventListener("mouseenter", function(){ showTabTooltip(tab, tabTooltipText); });
         tab.addEventListener("mouseleave", hideTabTooltip);
         // Touch devices never get a hover, so a tap shows the tooltip for a couple of
         // seconds instead -- the only way to read a truncated title without opening the tab.
         tab.addEventListener("touchstart", function(){
-          showTabTooltip(tab, w.item.title);
+          showTabTooltip(tab, tabTooltipText);
           clearTimeout(tab._tipTimer);
           tab._tipTimer = setTimeout(hideTabTooltip, 1800);
         }, {passive:true});
@@ -1366,6 +1389,15 @@
       titleEl.textContent = active.item.title;
       titleEl.title = active.item.title;
       titlebar.appendChild(titleEl);
+
+      // "Under review" indicator -- shown the moment this window opens (Notice Board or via
+      // a linked to-do's "View Notice"), not only once you're already reading the body below.
+      if(active.item.reviewRequested){
+        var titlebarBadge = document.createElement("span");
+        titlebarBadge.className = "dw-titlebar-badge";
+        titlebarBadge.textContent = "⚑ Review Requested";
+        titlebar.appendChild(titlebarBadge);
+      }
 
       var btns = document.createElement("div");
       btns.className = "dw-titlebtns";
