@@ -9,14 +9,15 @@ description: Manage scoped repository operations for PIP CORE assets, including 
 
 **Document Title:** CORE Integration Skill  
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill  
-**Version:** 0.2  
-**Status:** Approved  
+**Version:** 0.3  
+**Status:** Approved by AskPIP Founder Authority, 11 September 2026  
 **Owner:** The Founders  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AI/Skills/CORE_Integration_Skill.md`  
-**Last Updated:** 4 August 2026  
+**Last Updated:** 11 September 2026  
 **Purpose:** To govern repository operations for controlled Plant Intelligence Platform (PIP) assets in PIP CORE.  
-**Related Documents:** `AGENTS.md`; `AI/PIP_AI_Constitution.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`
+**Related Documents:** `AGENTS.md`; `AI/PIP_AI_Constitution.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`  
+**Revision Note:** Adds §6.1 (Shed Approval Write-Back Format), consolidating the banner and Status-line conventions previously drafted as a standalone companion document (`Working/Drafts/Standards/Document_Approval_and_Archival_Record_Convention.md`, withdrawn — see that file). The Status-line pattern in §6.1 replaces the prior status cleanly rather than preserving it with strikethrough, on the basis that Git history already provides that traceability (RDL-001 §4.6). No other content changed from Version 0.2.
 
 ---
 
@@ -164,6 +165,35 @@ This rule does not determine approval requirements for public content, plant kno
 
 Where any required decision remains unresolved, stop the affected integration action and request Founder direction.
 
+## 6.1 Shed Approval Write-Back Format
+
+When a controlled document is approved through the Garden Shed Office's notice/approval workflow (`shed_items` with `requires_approval = true`) and written back into PIP CORE, apply the following format in addition to the attribution rule above. This does not apply to a document approved and integrated through another approved process (for example, under the Founder Review Dossier Standard) unless that process is itself routed through the shed.
+
+**Archival & Approval Record banner.** Insert a blockquote immediately under the document's H1 title (and under any existing subtitle line):
+
+```
+> **Archival & Approval Record** — [This document / This Foundation Document]
+> was **approved by AskPIP Founder Authority on [date]**, via the Garden
+> Shed Office's notice/approval workflow. [Optional: note what was approved
+> and any caveat already carried by the document's prior Status, e.g. "this
+> approval is sign-off on the character material as an accurate discussion
+> draft — it does not, on its own, establish a controlled brand standard."]
+> Preserved below exactly as [migrated/drafted]; no other content was
+> edited as part of this approval.
+```
+
+No other content in the document shall be edited as part of this approval. The banner and the Status line below are the only changes.
+
+**Status field.** Replace the document's own Metadata `**Status:**` value cleanly with:
+
+```
+**Status:** Approved by AskPIP Founder Authority, [date] — see Archival & Approval Record above.
+```
+
+Do not preserve the prior status text with strikethrough or other visible markup in an approved document; the prior status remains recoverable through repository history (RDL-001 §4.6). Where the prior status carried a material caveat (for example, that approval does not authorise publication or establish a brand standard), preserve that caveat in the Archival & Approval Record banner above rather than letting a bare "Approved" overstate what was decided.
+
+**Marking the shed notice done.** Once the edited file has been written back to Core under §7, set the corresponding shed notice's `folder` to `'Completed Tasks/Written to Core'`, with a short dated note on what changed. Full shed workflow-state conventions are documented in `Shed/README.md`.
+
 # 7. Official CORE Integration Procedure
 
 Before integration:
@@ -173,7 +203,7 @@ Before integration:
 3. protect unrelated changes;
 4. obtain the latest remote state and record the source and destination file states;
 5. confirm the approved source asset and destination; and
-6. verify all required metadata and related repository updates.
+6. verify all required metadata and related repository updates, including the format in §6.1 where the asset was approved through the shed.
 
 Then:
 
