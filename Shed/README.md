@@ -1805,6 +1805,109 @@ sandbox has no direct network path to Supabase Storage, so that
 specific leg is verified by inspection of the reused, already-shipped
 upload code path rather than a live browser test.
 
+## Toolbox, and the Format Legal Docs export tool (added 2026-09-17)
+
+A Toolbox was added as a new, general entry point for shed-side utility
+tools — asked for directly as "a tool symbol button located on the label
+of the second drawer down on the file cabinet," opening "a toolbox page
+with the first tool being Format Legal Docs." The File Cabinet's top-level
+folders render as a reflowing card grid (`CABINET_FOLDERS`), not literal
+stacked drawers, so "second drawer down" is read here as the second entry
+in that array's own list order — currently "Company Docs" — named as a
+constant, `TOOLBOX_LABEL_FOLDER`, specifically so this is a one-line change
+if that reading turns out wrong. A small 🧰 button pinned to that one
+folder card's corner (`e.stopPropagation()` so it doesn't also trigger the
+card's own navigation click) opens `openToolbox`, an overlay listing
+`TOOLBOX_TOOLS` — today just Format Legal Docs, built as a list from the
+start since more tools are expected to land here later, not a
+single-purpose overlay.
+
+**Format Legal Docs** lets you pick any document in the shed (File Cabinet,
+including every nested folder, or Bookshelf), pick .docx or PDF, and get it
+back formatted to Karla's legal-formatting spec (`shed_items` id 2025, 14
+September 2026): 2.54cm margins, Times New Roman 12pt, 1.5 line spacing,
+0pt paragraph spacing before/after, a top header with the document title
+and "AskPIP Founder Authority," and centred page numbers at the bottom.
+Two things in her spec were ambiguous and resolved with the most reasonable
+reading rather than guessed at silently — flagged directly rather than
+assumed to be right:
+- "1.5 cm Line spacing" is read as ordinary 1.5 line spacing, not a literal
+  1.5cm measurement.
+- No separate title page is generated (her spec branches on one being
+  present without saying which documents warrant it), so page numbering
+  always starts at page 1. A4 (210mm × 297mm) is used as the page size,
+  since her spec didn't name one either — the NZ/AskPIP default assumption.
+
+**Architecture**: a new Edge Function, `App/supabase/functions/shed-export-document/`
+(same Supabase project as the shed itself, `lapscltduzkbldfwcemq` — see
+"Backend" above), takes `{p, title, body, format}`, validates `p` via
+`shed_check_passphrase` exactly like every other shed operation (the shed
+has no real Supabase Auth to issue a JWT against, which is why this
+function is deployed with `verify_jwt=false` rather than the default —
+custom passphrase auth replaces it, not bypasses it), and returns the
+formatted file's bytes directly (not JSON/base64). `.docx` generation uses
+`npm:docx`; PDF uses `npm:pdf-lib` with hand-rolled word-wrap and pagination
+(pdf-lib has no built-in text-flow layer) and pdf-lib's built-in
+Times-Roman/Times-Bold standard fonts, which share Times New Roman's
+metrics without needing an embedded font file. Both paths share one small
+markdown-block parser (#/##/### headings, "- "/"* " bullets, blank-line
+paragraphs); **bold** spans render correctly in the .docx path but, in the
+PDF path, only as a whole-block choice (headings bold, body/bullets plain)
+rather than mid-paragraph — mixed-run wrapping would need per-run width
+tracking that wasn't worth the added complexity for a first version.
+
+The client stays thin: on a successful response it reuses the exact same
+create-item-then-upload-then-attach sequence the "Upload a document…"
+composer already uses (`shed_add_item ... want_upload`, a Storage upload to
+`shed-attachments`, then `shed_add_attachment`), filing the result as an
+ordinary Cabinet document under a new top-level folder, **Formatted for
+Legal** — so it gets the exact same attachment-download UI, edit and
+delete every other Cabinet document already has, nothing new to maintain
+on that side. The tool also triggers an immediate browser download the
+moment the file is ready (an object URL + a synthetic `<a download>`
+click), separate from that attachment link, per direct request that a
+download option be available right when the file is created.
+
+**Select-then-delete, for From the Desk and Formatted for Legal**: both
+folders now carry the Recycle Bin's own select-all/checkbox/"Delete
+Selected" pattern (`renderSelectableItemList`, `CABINET_BULK_DELETE_FOLDERS`)
+instead of the plain click-to-open list every other folder keeps. This is a
+deliberate, narrowly-scoped exception to the Founder's original "no
+edit/delete from a closed list" direction (2026-09-09), not a reversal of
+it — reserved for these two folders specifically, since their contents are
+disposable, user/tool-generated output rather than governed Core content.
+Deletion here calls `shed_delete_item` once per selected id (the same
+soft-delete-to-bin a single item's own delete button already uses, not
+`shed_purge_items`), so a mistaken bulk delete is still recoverable from
+the Recycle Bin exactly like any other delete.
+
+**Verification**: the deployed Edge Function returned `ACTIVE` on deploy,
+but this session's sandbox has no network path to the live Supabase
+project (same egress-policy limitation noted elsewhere in this file for
+Storage), so the deployed endpoint couldn't be exercised end-to-end with a
+real passphrase from here. Instead, the exact same generation code was run
+standalone in a local Node sandbox against a real, full-length Core
+document (`Standards/PIP_CORE_Asset_Lifecycle_Standard.md`) as input: the
+resulting `.docx` unzips to well-formed XML with the correct margins
+(`w:pgMar` 1440 twips/side), font (Times New Roman), sizes and 1.5 line
+spacing (`w:line="360"`) all present in `word/document.xml`, and a `PAGE`
+field in the footer; the resulting `.pdf` round-trips through pdf-lib's own
+loader, reports as A4 (595.28 × 841.89pt) via independent `pdfinfo`
+inspection, and `pdftotext` shows the header, body headings, paragraphs and
+bullet list all extracting correctly. That's strong evidence the
+generation logic itself is correct; it is not the same as a real click
+through the live tool in a browser with a real passphrase, which is worth
+doing once this reaches the live site — see "What's next" below.
+
+Not yet done, both flagged rather than silently skipped: the folder
+placement of the Toolbox button (an inference from "second drawer down,"
+not a confirmed one) and the title-page/page-size assumptions above are
+worth a direct confirmation from Karla or the Founder; and this change is
+written to the `core` checkout but, per every other change in this file,
+still needs a git commit/push to actually deploy to `shed.askpip.garden`
+(this session had no shell access on the linked device to do that itself
+— see the CHANGELOG entry's own commit instructions).
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`
@@ -1824,3 +1927,8 @@ Open items:
   completed and approved belong there — but doing the actual document
   edits and commits is still open work, for a person or an AI session
   working directly in Core.
+- Confirm the Format Legal Docs tool end-to-end with a real browser click
+  and a real passphrase (see "Toolbox, and the Format Legal Docs export
+  tool" above for what was and wasn't verifiable from this session), and
+  confirm the Toolbox button's folder placement and the title-page/page-size
+  assumptions with Karla directly.

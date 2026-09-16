@@ -310,6 +310,17 @@
     font-weight:700; font-size:.7rem; display:flex; align-items:center; justify-content:center;
     box-shadow:0 1px 4px rgba(0,0,0,.4);
   }
+  /* Toolbox entry point, pinned to one specific folder card's label (17 September 2026) --
+     see TOOLBOX_LABEL_FOLDER. Its own button, not part of the card's own click target, so it
+     needs stopPropagation in the click handler and a real button element here (not a span)
+     for that to be reliable. */
+  .folder-card .toolbox-btn{
+    position:absolute; top:-6px; left:-6px; width:26px; height:26px; padding:0;
+    border-radius:50%; background:var(--moss); color:#fff; border:2px solid #fff;
+    font-size:.9rem; line-height:1; display:flex; align-items:center; justify-content:center;
+    cursor:pointer; box-shadow:0 1px 4px rgba(0,0,0,.4);
+  }
+  .folder-card .toolbox-btn:hover{ filter:brightness(1.1); }
   .backbtn{
     font-family:'Nunito',sans-serif; font-weight:700; font-size:.8rem; cursor:pointer;
     background:transparent; border:1.5px solid var(--pip-border); color:var(--wood-dark);
@@ -2450,6 +2461,10 @@
     {name:"From the Desk", icon:"🗒️"},
     {name:"Drafts", icon:"✏️"},
     {name:"Completed Tasks", icon:"✅"},
+    // "Formatted for Legal" (17 September 2026) -- where the Toolbox's "Format Legal Docs"
+    // tool files its output (see openFormatLegalDocsTool). A plain top-level folder like
+    // every other entry here; nothing about cabinet rendering needed to change for it.
+    {name:"Formatted for Legal", icon:"⚖️"},
     {name:"Foundations", icon:"🧱"},
     {name:"Knowledge Curation System", icon:"📚"},
     {name:"MVP", icon:"🚀"},
@@ -2458,6 +2473,18 @@
     {name:"AI", icon:"🤖"},
     {name:"Graphics", icon:"🎨"}
   ];
+  // Cabinet folders where an item is disposable, user/tool-generated output rather than
+  // governed content -- these two get the Recycle-Bin-style select-then-delete toolbar
+  // (see buildSelectableItemListEl) instead of the plain "click to open, delete from inside"
+  // flow every other folder keeps, per direct request (17 September 2026).
+  var CABINET_BULK_DELETE_FOLDERS = ["From the Desk", "Formatted for Legal"];
+  // Toolbox entry point (17 September 2026): a small tool-icon button on the label of "the
+  // second drawer down on the file cabinet". The cabinet's top-level folders render as a
+  // reflowing grid, not literal stacked drawers, so "second" is read here as the second
+  // entry in CABINET_FOLDERS' own list order (currently "Company Docs") -- named as a
+  // constant, not a magic index, specifically so this is a one-line change if that guess is
+  // wrong. See buildToolboxButton / openToolbox below.
+  var TOOLBOX_LABEL_FOLDER = CABINET_FOLDERS[1].name;
   var CABINET_DEFAULT_FOLDER = "Company Docs";
 
   // Every distinct next path segment among items whose folder is a strict descendant of
@@ -2523,6 +2550,12 @@
     // button below so the "back" context it hands to addToDesk points at the exact folder a
     // document was opened from, not just "the cabinet" in general.
     var currentCabinetPath = null;
+    // Selection state for the bulk select-then-delete list (renderSelectableItemList),
+    // shared across CABINET_BULK_DELETE_FOLDERS for the life of this one File Cabinet panel
+    // open -- stale ids from a different folder are filtered out on each render rather than
+    // explicitly reset on navigation, since item ids are unique across the whole table (see
+    // renderSelectableItemList).
+    var bulkDeleteSelected = {};
 
     // A document whose title ends in the literal suffix " (Revision N)" is one entry in a
     // governed revision series (Founder Review Dossiers that can never be edited in place
@@ -2752,6 +2785,126 @@
       panelBody.appendChild(buildItemListEl(items, refresh));
     }
 
+    // Recycle-Bin-style select-then-delete list, used only for CABINET_BULK_DELETE_FOLDERS
+    // (17 September 2026) -- everywhere else keeps the plain click-to-open list
+    // (renderItemList) per the Founder's original "no edit/delete from a closed list"
+    // direction (9 September 2026); this is a deliberate, narrowly-scoped exception for
+    // disposable, tool/user-generated output, not a reversal of that rule. Deletion here is
+    // the same soft-delete-to-bin as a single item's own "delete-item" button
+    // (shed_delete_item per id, not shed_purge_items), so a mistaken bulk delete is still
+    // recoverable from the Recycle Bin exactly like any other delete.
+    function renderSelectableItemList(getItems, title, onBack){
+      var items = getItems();
+      var itemIds = items.map(function(it){ return it.id; });
+      Object.keys(bulkDeleteSelected).forEach(function(id){
+        if(itemIds.indexOf(Number(id)) === -1) delete bulkDeleteSelected[id];
+      });
+
+      titleEl.textContent = title;
+      panelBody.innerHTML = "";
+
+      if(onBack){
+        var back = document.createElement("button");
+        back.type = "button";
+        back.className = "backbtn";
+        back.textContent = "← Folders";
+        back.addEventListener("click", onBack);
+        panelBody.appendChild(back);
+      }
+
+      function refresh(){ renderSelectableItemList(getItems, title, onBack); }
+
+      if(items.length === 0){
+        var empty = document.createElement("p");
+        empty.className = "empty-note";
+        empty.textContent = "Nothing filed here yet.";
+        panelBody.appendChild(empty);
+        return;
+      }
+
+      var selectedIds = Object.keys(bulkDeleteSelected).filter(function(id){ return bulkDeleteSelected[id]; });
+      var allSelected = selectedIds.length > 0 && selectedIds.length === items.length;
+
+      var toolbar = document.createElement("div");
+      toolbar.className = "bin-toolbar";
+      toolbar.innerHTML =
+        '<button type="button" class="btn ghost select-all">' + (allSelected ? "Deselect All" : "Select All") + '</button>' +
+        '<span class="bin-count">' + selectedIds.length + ' selected</span>' +
+        '<button type="button" class="btn danger delete-selected"' + (selectedIds.length === 0 ? " disabled" : "") + '>Delete Selected</button>';
+      panelBody.appendChild(toolbar);
+
+      toolbar.querySelector(".select-all").addEventListener("click", function(){
+        if(allSelected){
+          bulkDeleteSelected = {};
+        } else {
+          items.forEach(function(it){ bulkDeleteSelected[it.id] = true; });
+        }
+        refresh();
+      });
+
+      toolbar.querySelector(".delete-selected").addEventListener("click", function(){
+        var ids = Object.keys(bulkDeleteSelected)
+          .filter(function(id){ return bulkDeleteSelected[id]; })
+          .map(function(id){ return Number(id); })
+          .filter(function(id){ return itemIds.indexOf(id) > -1; });
+        if(ids.length === 0) return;
+        if(!confirm('Move ' + ids.length + ' item' + (ids.length === 1 ? "" : "s") + ' to the Recycle Bin?')) return;
+        var delBtn = toolbar.querySelector(".delete-selected");
+        delBtn.disabled = true;
+        Promise.all(ids.map(function(id){
+          return sb.rpc("shed_delete_item", { p: window.SHED_PASSPHRASE, item_id: id });
+        })).then(function(results){
+          var failed = 0;
+          results.forEach(function(res, i){
+            if(res.error){ failed++; return; }
+            delete bulkDeleteSelected[ids[i]];
+            var found = findItemById(ids[i]);
+            if(found) moveItemToBin(found);
+          });
+          if(failed) alert(failed + " item" + (failed === 1 ? "" : "s") + " couldn't be deleted. Please try again.");
+          refresh();
+        });
+      });
+
+      var list = document.createElement("div");
+      list.className = "item-list";
+      items.forEach(function(item){
+        var row = document.createElement("div");
+        row.className = "bin-item";
+
+        var check = document.createElement("input");
+        check.type = "checkbox";
+        check.checked = !!bulkDeleteSelected[item.id];
+        check.addEventListener("change", function(e){
+          if(e.target.checked){ bulkDeleteSelected[item.id] = true; } else { delete bulkDeleteSelected[item.id]; }
+          refresh();
+        });
+        row.appendChild(check);
+
+        var itemBody = document.createElement("div");
+        itemBody.className = "bin-item-body";
+        itemBody.innerHTML = "<b>" + item.title + "</b>" +
+          (fmtSavedLine(item) ? '<span class="item-date">' + fmtSavedLine(item) + '</span>' : "");
+        row.appendChild(itemBody);
+
+        var actions = document.createElement("div");
+        actions.className = "bin-item-actions";
+        var openBtn = document.createElement("button");
+        openBtn.type = "button";
+        openBtn.className = "btn ghost";
+        openBtn.textContent = "Desktop";
+        openBtn.addEventListener("click", function(){
+          addToDesk(stageEl, item, { key: "cabinet", path: currentCabinetPath, label: title });
+          close();
+        });
+        actions.appendChild(openBtn);
+        row.appendChild(actions);
+
+        list.appendChild(row);
+      });
+      panelBody.appendChild(list);
+    }
+
     if(key === "cabinet"){
       // Total items filed at `path` or anywhere in a subfolder beneath it -- used for the
       // folder-card counts, at both the root list and every nested level.
@@ -2798,6 +2951,19 @@
             '<span class="folder-name">' + f.name + '</span>' +
             '<span class="folder-count">' + count + (count === 1 ? " document" : " documents") + '</span>';
           card.addEventListener("click", function(){ renderCabinetLevel(f.name, renderFolders); });
+          if(f.name === TOOLBOX_LABEL_FOLDER){
+            var toolboxBtn = document.createElement("button");
+            toolboxBtn.type = "button";
+            toolboxBtn.className = "toolbox-btn";
+            toolboxBtn.title = "Toolbox";
+            toolboxBtn.setAttribute("aria-label", "Open Toolbox");
+            toolboxBtn.textContent = "🧰";
+            toolboxBtn.addEventListener("click", function(e){
+              e.stopPropagation();
+              openToolbox(stageEl);
+            });
+            card.appendChild(toolboxBtn);
+          }
           grid.appendChild(card);
         });
         panelBody.appendChild(grid);
@@ -2813,7 +2979,11 @@
         var subfolders = cabinetChildFolders(data.items, path);
 
         if(subfolders.length === 0){
-          renderItemList(function(){ return cabinetItemsAt(data.items, path); }, label, onBack);
+          if(CABINET_BULK_DELETE_FOLDERS.indexOf(path) > -1){
+            renderSelectableItemList(function(){ return cabinetItemsAt(data.items, path); }, label, onBack);
+          } else {
+            renderItemList(function(){ return cabinetItemsAt(data.items, path); }, label, onBack);
+          }
           return;
         }
 
@@ -3325,6 +3495,335 @@
     }
 
     renderRoot();
+  }
+
+  // Same picking flow as openDocumentPicker (browse-to-pick, no Send to desk/Edit/Delete),
+  // but for the Format Legal Docs tool specifically: the Founder asked for "any document in
+  // the shed (file cabinet or bookshelf)", and openDocumentPicker (used by the notice
+  // composer) only ever browsed the cabinet -- kept as a separate function rather than
+  // extending that one, so the existing notice-linking flow is untouched (17 September 2026).
+  function openLegalDocPicker(stageEl, onPick){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg" style="background-image:url(__ASSET_CABINET__)"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>Choose a Document</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+
+    function pickFrom(items){
+      var list = document.createElement("div");
+      list.className = "item-list";
+      items.forEach(function(item){
+        var pick = document.createElement("button");
+        pick.type = "button";
+        pick.className = "item-card";
+        pick.innerHTML = "<b>" + item.title + "</b>" + item.body.slice(0, 60) + (item.body.length > 60 ? "..." : "");
+        pick.addEventListener("click", function(){
+          onPick(item);
+          close();
+        });
+        list.appendChild(pick);
+      });
+      return list;
+    }
+
+    function renderRoot(){
+      body.innerHTML = "";
+      var grid = document.createElement("div");
+      grid.className = "folder-list";
+      CABINET_FOLDERS.forEach(function(f){
+        var card = document.createElement("button");
+        card.type = "button";
+        card.className = "folder-card";
+        card.innerHTML = '<span class="folder-icon">' + f.icon + '</span><span class="folder-name">' + f.name + '</span>';
+        card.addEventListener("click", function(){ renderCabinetFolder(f.name, renderRoot); });
+        grid.appendChild(card);
+      });
+      var bookshelfCard = document.createElement("button");
+      bookshelfCard.type = "button";
+      bookshelfCard.className = "folder-card";
+      bookshelfCard.innerHTML = '<span class="folder-icon">📚</span><span class="folder-name">Bookshelf</span>';
+      bookshelfCard.addEventListener("click", function(){
+        body.innerHTML = "";
+        var back = document.createElement("button");
+        back.type = "button";
+        back.className = "backbtn";
+        back.textContent = "← Back";
+        back.addEventListener("click", renderRoot);
+        body.appendChild(back);
+        var items = CONTENT.bookshelf.items;
+        if(items.length){
+          body.appendChild(pickFrom(items));
+        } else {
+          var empty = document.createElement("p");
+          empty.className = "empty-note";
+          empty.textContent = "Nothing on the bookshelf yet.";
+          body.appendChild(empty);
+        }
+      });
+      grid.appendChild(bookshelfCard);
+      body.appendChild(grid);
+    }
+
+    function renderCabinetFolder(path, onBack){
+      var subfolders = cabinetChildFolders(CONTENT.cabinet.items, path);
+      body.innerHTML = "";
+      var back = document.createElement("button");
+      back.type = "button";
+      back.className = "backbtn";
+      back.textContent = "← Back";
+      back.addEventListener("click", onBack);
+      body.appendChild(back);
+
+      if(subfolders.length){
+        var grid = document.createElement("div");
+        grid.className = "folder-list";
+        subfolders.forEach(function(name){
+          var childPath = path + "/" + name;
+          var card = document.createElement("button");
+          card.type = "button";
+          card.className = "folder-card";
+          card.innerHTML = '<span class="folder-icon">📁</span><span class="folder-name">' + name + '</span>';
+          card.addEventListener("click", function(){ renderCabinetFolder(childPath, function(){ renderCabinetFolder(path, onBack); }); });
+          grid.appendChild(card);
+        });
+        body.appendChild(grid);
+      }
+
+      var items = cabinetItemsAt(CONTENT.cabinet.items, path);
+      if(items.length){
+        var list = pickFrom(items);
+        list.style.marginTop = subfolders.length ? "14px" : "0";
+        body.appendChild(list);
+      } else if(!subfolders.length){
+        var empty = document.createElement("p");
+        empty.className = "empty-note";
+        empty.textContent = "Nothing filed here yet.";
+        body.appendChild(empty);
+      }
+    }
+
+    renderRoot();
+  }
+
+  // The Toolbox (17 September 2026): a small overlay opened from the tool-icon button on
+  // TOOLBOX_LABEL_FOLDER's card (see renderFolders). Deliberately built as a list of tools,
+  // not a single-purpose overlay, since "Format Legal Docs" was asked for as "the first
+  // tool" -- more are expected to land here later.
+  var TOOLBOX_TOOLS = [
+    {
+      icon: "⚖️",
+      name: "Format Legal Docs",
+      description: "Export any shed document as a correctly formatted .docx or PDF, ready to download or print.",
+      open: openFormatLegalDocsTool
+    }
+  ];
+
+  function openToolbox(stageEl){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg" style="background-image:url(__ASSET_CABINET__)"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>🧰 Toolbox</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+
+    var list = document.createElement("div");
+    list.className = "folder-list";
+    TOOLBOX_TOOLS.forEach(function(tool){
+      var card = document.createElement("button");
+      card.type = "button";
+      card.className = "folder-card";
+      card.innerHTML =
+        '<span class="folder-icon">' + tool.icon + '</span>' +
+        '<span class="folder-name">' + tool.name + '</span>' +
+        '<span class="folder-count">' + tool.description + '</span>';
+      card.addEventListener("click", function(){
+        close();
+        tool.open(stageEl);
+      });
+      list.appendChild(card);
+    });
+    body.appendChild(list);
+  }
+
+  // The Format Legal Docs tool (17 September 2026): pick any document in the shed, pick an
+  // output format, and export it matching Karla's legal-formatting spec (`shed_items` id
+  // 2025 -- 2.54cm margins, Times New Roman 12pt, 1.5 line spacing, 0pt paragraph spacing,
+  // top header with document title + author, footer page numbers starting at page 1). Two
+  // assumptions made where her spec was ambiguous, flagged directly to her once this shipped
+  // rather than guessed at silently: "1.5 cm Line spacing" is read as ordinary 1.5 line
+  // spacing, not a literal 1.5cm measurement; and no separate title page is generated (so
+  // page numbering always starts at 1), since her spec branches on a title page's presence
+  // without saying which documents warrant one.
+  //
+  // The actual .docx/PDF bytes are generated server-side by the shed-export-document Edge
+  // Function (App/supabase/functions/shed-export-document/) -- this stays a thin client: it
+  // sends {p, title, body, format}, gets a file back, then reuses the exact same
+  // create-item-then-upload-then-attach sequence the "Upload a document…" composer already
+  // uses (shed_add_item ... want_upload, then Storage upload, then shed_add_attachment) so
+  // the result is an ordinary Cabinet document -- same attachment/download UI, same
+  // edit/delete, nothing new to maintain on that side.
+  function openFormatLegalDocsTool(stageEl){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg" style="background-image:url(__ASSET_PAPER__)"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>⚖️ Format Legal Docs</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+
+    var selectedDoc = null;
+    var format = "docx";
+
+    body.innerHTML =
+      '<label class="notes-label">Document</label>' +
+      '<div class="actions" style="margin:4px 0 14px;">' +
+        '<button type="button" class="btn ghost choose-doc">Select Document…</button>' +
+        '<span class="empty-note chosen-doc" style="margin:0;">Nothing selected yet.</span>' +
+      '</div>' +
+      '<label class="notes-label">Output format</label>' +
+      '<div class="actions" style="margin:4px 0 14px;">' +
+        '<label style="display:flex;align-items:center;gap:6px;font-family:\'Nunito\',sans-serif;font-size:.85rem;cursor:pointer;">' +
+          '<input type="radio" name="legal-format" value="docx" checked> Word (.docx)</label>' +
+        '<label style="display:flex;align-items:center;gap:6px;font-family:\'Nunito\',sans-serif;font-size:.85rem;cursor:pointer;">' +
+          '<input type="radio" name="legal-format" value="pdf"> PDF (.pdf)</label>' +
+      '</div>' +
+      '<p class="empty-note tool-status" style="margin:0 0 10px;"></p>' +
+      '<div class="actions"><button type="button" class="btn create-doc" disabled>Create Formatted Document</button></div>' +
+      '<div class="tool-result" style="margin-top:14px;"></div>';
+
+    var chosenLabel = body.querySelector(".chosen-doc");
+    var createBtn = body.querySelector(".create-doc");
+    var statusEl = body.querySelector(".tool-status");
+    var resultEl = body.querySelector(".tool-result");
+
+    body.querySelector(".choose-doc").addEventListener("click", function(){
+      openLegalDocPicker(stageEl, function(doc){
+        selectedDoc = doc;
+        chosenLabel.textContent = "Selected: " + doc.title;
+        createBtn.disabled = false;
+      });
+    });
+
+    Array.prototype.forEach.call(body.querySelectorAll('input[name="legal-format"]'), function(radio){
+      radio.addEventListener("change", function(){ if(radio.checked) format = radio.value; });
+    });
+
+    createBtn.addEventListener("click", function(){
+      if(!selectedDoc) return;
+      createBtn.disabled = true;
+      resultEl.innerHTML = "";
+      statusEl.textContent = "Formatting…";
+
+      fetch(SUPABASE_URL + "/functions/v1/shed-export-document", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "apikey": SUPABASE_ANON_KEY,
+          "Authorization": "Bearer " + SUPABASE_ANON_KEY
+        },
+        body: JSON.stringify({ p: window.SHED_PASSPHRASE, title: selectedDoc.title, body: selectedDoc.body, format: format })
+      }).then(function(res){
+        if(!res.ok){
+          return res.json().catch(function(){ return {}; }).then(function(errJson){
+            throw new Error(errJson.error || "The formatting tool couldn't create that file.");
+          });
+        }
+        return res.blob();
+      }).then(function(blob){
+        statusEl.textContent = "Filing it in the Cabinet…";
+        var ext = format === "pdf" ? "pdf" : "docx";
+        var outTitle = selectedDoc.title + " (Legal Format)." + ext;
+        return sb.rpc("shed_add_item", {
+          p: window.SHED_PASSPHRASE, loc: "cabinet",
+          ttl: outTitle, bdy: "Formatted for legal use by the Format Legal Docs tool, from \"" + selectedDoc.title + "\".",
+          fld: "Formatted for Legal", want_upload: true
+        }).then(function(res){
+          if(res.error || !res.data) throw new Error("Couldn't file that document in the Cabinet.");
+          var newItem = itemFromRow(res.data, "cabinet");
+          CONTENT.cabinet.items.unshift(newItem);
+          var safeName = outTitle.replace(/[^a-zA-Z0-9._-]/g, "_");
+          var path = newItem.id + "/" + Date.now() + "-" + safeName;
+          return sb.storage.from("shed-attachments").upload(path, blob, { contentType: blob.type }).then(function(upRes){
+            if(upRes.error) throw new Error("Filed, but the file itself failed to upload -- open it from Formatted for Legal to retry.");
+            return sb.rpc("shed_add_attachment", {
+              p: window.SHED_PASSPHRASE, item_id: newItem.id, file_name: outTitle, storage_path: path, size_bytes: blob.size
+            }).then(function(attRes){
+              if(!attRes.error && attRes.data){
+                if(!ATTACHMENTS[newItem.id]) ATTACHMENTS[newItem.id] = [];
+                ATTACHMENTS[newItem.id].push(attRes.data);
+              }
+              return { blob: blob, outTitle: outTitle };
+            });
+          });
+        });
+      }).then(function(result){
+        statusEl.textContent = "Done — filed in File Cabinet → Formatted for Legal.";
+        createBtn.disabled = false;
+
+        // Immediate download, per direct request -- separate from the attachment link left
+        // in the result area below, which stays valid for opening/downloading it again later
+        // without needing this tool open.
+        var blobUrl = URL.createObjectURL(result.blob);
+        var a = document.createElement("a");
+        a.href = blobUrl;
+        a.download = result.outTitle;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(function(){ URL.revokeObjectURL(blobUrl); }, 30000);
+
+        resultEl.innerHTML = '<p class="empty-note" style="margin:0;">✅ "' + result.outTitle + '" is ready. Downloading now — ' +
+          '<a href="#" class="download-again">download it again</a> any time.</p>';
+        resultEl.querySelector(".download-again").addEventListener("click", function(e){
+          e.preventDefault();
+          var blobUrl2 = URL.createObjectURL(result.blob);
+          var a2 = document.createElement("a");
+          a2.href = blobUrl2;
+          a2.download = result.outTitle;
+          document.body.appendChild(a2);
+          a2.click();
+          a2.remove();
+          setTimeout(function(){ URL.revokeObjectURL(blobUrl2); }, 30000);
+        });
+      }).catch(function(err){
+        createBtn.disabled = false;
+        statusEl.textContent = "";
+        resultEl.innerHTML = '<p class="empty-note" style="margin:0;color:#a33;">' + (err && err.message ? err.message : "Something went wrong. Please try again.") + '</p>';
+      });
+    });
   }
 
   function openCreatePanel(stageEl){
