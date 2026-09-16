@@ -283,8 +283,8 @@
   }
   .overlay .panel-head{ display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
   .overlay .panel-head h3{
-    font-family:'Kalam',cursive; margin:0; color:var(--wood-dark); font-size:1.2rem;
-    text-shadow:0 1px 0 rgba(255,255,255,.6), 0 0 10px rgba(255,255,255,.5);
+    font-family:'Kalam',cursive; margin:0; color:var(--cream); font-size:1.2rem;
+    text-shadow:0 1px 3px rgba(0,0,0,.6), 0 0 8px rgba(0,0,0,.4);
   }
   .overlay .closebtn{
     background:var(--wood-dark); color:var(--cream); border:none; width:30px; height:30px;
@@ -316,6 +316,26 @@
     border-radius:8px; padding:6px 10px; margin-bottom:10px;
   }
   .empty-note{ font-family:'Kalam',cursive; color:var(--wood-dark); opacity:.8; margin:6px 2px 14px; }
+
+  /* Text sitting directly on an overlay panel's own translucent backdrop -- not inside a
+     solid-card row/folder-card/item-card, which already carry their own light `--card`
+     background and stay dark-on-light regardless -- was reading as dark wood-brown text on
+     a scrim-darkened photo, i.e. barely legible "brown on brown" (reported directly, 17
+     September 2026, first noticed in the Format Legal Docs tool but the same everywhere a
+     label/note/back button/ghost button floats free on a panel). panel-body's own inherited
+     colour covers anything with no explicit colour of its own (labels, plain notes); the few
+     classes below set their own colour explicitly and need their own cream override. The two
+     exceptions put wood-dark back: a ghost button that IS sitting inside one of those solid
+     cards (e.g. a row's own "Desktop" button) was already fine and must stay dark-on-light. */
+  .overlay .panel-body{ color:var(--cream); }
+  .overlay .panel-body .notes-label{ color:var(--cream); }
+  .overlay .panel-body .empty-note{ color:var(--cream); opacity:.92; }
+  .overlay .panel-body .backbtn{ color:var(--cream); border-color:rgba(255,255,255,.55); }
+  .overlay .panel-body .bin-count{ color:var(--cream); }
+  .overlay .panel-body .btn.ghost{ color:var(--cream); border-color:rgba(255,255,255,.55); }
+  .overlay .panel-body .item-row .btn.ghost,
+  .overlay .panel-body .bin-item .btn.ghost,
+  .overlay .panel-body .item-series .btn.ghost{ color:var(--wood-dark); border-color:var(--pip-border); }
 
   .item-list{ display:grid; gap:8px; }
 
@@ -528,7 +548,7 @@
   .bin-item input[type=checkbox]{ margin-top:3px; width:18px; height:18px; flex:none; accent-color:var(--moss); }
   .bin-item .bin-item-body{ flex:1; min-width:0; }
   .bin-item .bin-item-body b{ display:block; font-family:'Kalam',cursive; font-size:1rem; color:var(--wood-dark); margin-bottom:2px; }
-  .bin-item .bin-item-actions{ flex:none; }
+  .bin-item .bin-item-actions{ flex:none; display:flex; gap:6px; flex-wrap:wrap; }
 
   /* Calendar */
   .cal-nav{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
@@ -634,19 +654,31 @@
 
   /* Custom black cursor (2026-09-10), replacing the OS/browser default arrow and hand --
      requested directly since the default was hard to see against the shed's art. A small
-     inline SVG per state (plain arrow for the default cursor, a simple pointing hand for
-     anything clickable), each with a thin white outline so it stays visible against both the
-     light desk-window cards and the darker wood/background art. Placed last in this
-     stylesheet, after every existing `cursor:pointer`/`cursor:default` declaration, so it
-     wins by source order without needing `!important` anywhere else in the file; `!important`
-     here is the one exception, to guarantee it overrides regardless of any future reordering.
+     inline SVG per state (plain arrow for the default cursor, a pointing hand for anything
+     clickable), each with a thin white outline so it stays visible against both the light
+     desk-window cards and the darker wood/background art. Placed last in this stylesheet,
+     after every existing `cursor:pointer`/`cursor:default` declaration, so it wins by source
+     order without needing `!important` anywhere else in the file; `!important` here is the
+     one exception, to guarantee it overrides regardless of any future reordering.
      Custom cursor rendering (size, hotspot alignment) can vary slightly by OS/browser -- worth
-     a look on the actual device this was requested from. */
+     a look on the actual device this was requested from.
+     The pointing-hand cursor was redrawn again 17 September 2026, twice: a hand-rebuilt
+     version (index finger extended, three curled fingers as graduated knuckle bumps, thumb,
+     black fill/white border) was rejected as not matching the look requested; a from-scratch
+     white-fill/black-outline glove traced from a user-supplied reference photo was also
+     rejected as not close enough. The final version below is instead a small raster PNG:
+     generated via OpenArt (GPT Image 2.5 Sunburst, image-to-image) from a Flaticon "point up
+     hand" reference the user supplied and approved, background-removed (flood-filled to
+     transparent, keeping the enclosed white fill of the glove itself) and downsized to 34x50
+     for a crisp small cursor. Embedded as a base64 PNG data URI (not SVG, since the source is
+     now raster) with the fingertip as the hotspot, same as a real pointing gesture. If anyone
+     needs the source Flaticon icon credited: "Finger icons created by Magnific - Flaticon"
+     (flaticon.com/free-icons/finger). */
   body{
     cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KPHBhdGggZD0iTTIsMSBMMiwxOSBMNi42LDE1LjIgTDkuMywyMS44IEwxMi40LDIwLjUgTDkuNiwxNC4xIEwxNS41LDE0LjEgWiIgZmlsbD0iYmxhY2siIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS4yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==") 2 1, auto !important;
   }
   a, button, select, label, .hotspot, .btn, [onclick], [role="button"]{
-    cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZGVmcz4KICAgIDxmaWx0ZXIgaWQ9Im8iIHg9Ii02MCUiIHk9Ii02MCUiIHdpZHRoPSIyMjAlIiBoZWlnaHQ9IjIyMCUiPgogICAgICA8ZmVNb3JwaG9sb2d5IGluPSJTb3VyY2VBbHBoYSIgb3BlcmF0b3I9ImRpbGF0ZSIgcmFkaXVzPSIxLjEiIHJlc3VsdD0iZGlsYXRlZCIvPgogICAgICA8ZmVGbG9vZCBmbG9vZC1jb2xvcj0id2hpdGUiIHJlc3VsdD0id2hpdGUiLz4KICAgICAgPGZlQ29tcG9zaXRlIGluPSJ3aGl0ZSIgaW4yPSJkaWxhdGVkIiBvcGVyYXRvcj0iaW4iIHJlc3VsdD0ib3V0bGluZSIvPgogICAgICA8ZmVNZXJnZT4KICAgICAgICA8ZmVNZXJnZU5vZGUgaW49Im91dGxpbmUiLz4KICAgICAgICA8ZmVNZXJnZU5vZGUgaW49IlNvdXJjZUdyYXBoaWMiLz4KICAgICAgPC9mZU1lcmdlPgogICAgPC9maWx0ZXI+CiAgPC9kZWZzPgogIDxnIGZpbHRlcj0idXJsKCNvKSI+CiAgICA8ZyBmaWxsPSJibGFjayI+CiAgICAgIDxyZWN0IHg9IjIuNiIgeT0iMTMuMiIgd2lkdGg9IjYiIGhlaWdodD0iMy40IiByeD0iMS42IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTggNS42IDE0LjkpIi8+CiAgICAgIDxyZWN0IHg9IjUiIHk9IjEwLjUiIHdpZHRoPSIxNCIgaGVpZ2h0PSI5IiByeD0iNC4zIi8+CiAgICAgIDxyZWN0IHg9IjE2LjEiIHk9IjEwLjMiIHdpZHRoPSIyLjQiIGhlaWdodD0iMy40IiByeD0iMS4yIi8+CiAgICAgIDxyZWN0IHg9IjEzLjQiIHk9IjkuMiIgd2lkdGg9IjIuNyIgaGVpZ2h0PSI0LjIiIHJ4PSIxLjM1Ii8+CiAgICAgIDxyZWN0IHg9IjEwLjciIHk9IjgiIHdpZHRoPSIzIiBoZWlnaHQ9IjUiIHJ4PSIxLjUiLz4KICAgICAgPHJlY3QgeD0iNy4yIiB5PSIyIiB3aWR0aD0iMy40IiBoZWlnaHQ9IjEwLjIiIHJ4PSIxLjciLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo=") 9 2, pointer !important;
+    cursor:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAyCAYAAAA5kQlZAAAHgklEQVR4nM2YbWhU2RnH/885505mRo2TYDYvUjE6KkrMFzcgoqIbhbrbbGpY2IaqK76gblFD1Qpbg6ZbKFbS4hfdBLqLaBfBhX5wNVVsddem4urSiC+Yok1KTaKtKDZvd+495zz9kDvZiU4SExPpA4c7c+69nN/zep5zgcGFAJCUEhMmTHgfwO8BnMrIyNjKzDLlmXEXwcxSKfnZpEmTeM2aNbxp0ybOzc1lpUTD/v37owDEeMMoIsLEiRM3Z2dnc1NTk8/Mmpl1W1tbYtq0aRyNRquFEACgxhNEOo4DAOe3b99umNnv7e3lnp4eZmb9y48/NgCuhkIhoM8qryyDacPBNaOgoEAAYCmTYQGaMmWKAOAwc+qzryTDacPGmBcmjbVjsfaIQAB6MRbHIzqHBUm7aBq4cQd5XTIsSPpIHJP4HBlIeif8/7qG8Ip0w7uGB3eD53kEQKLPVxz8HhXQ8K4ZPEOE4zislNK1tbWR/XV1UaWUCYBGDPMqrunes2dPrtb62K5du5prtmz5u9b684ULF04NYAT6LKSC65iDUOCuKQcPHrywatWqdQ1nG77X0NAwdfny5ZVXr17944YNGyYBsERkpJQagMEwVhrNzklKKQCYvWzZMpw9e9YgUKi0tNSbUVhYdOLEiaXMfI6IfmiMyZk8eXJzV1fXn4PtgpAm/0flmiBuePPmzRaAdF2XvIRHjuOo+cXF1lr7HhFdnjNnzqmVK1ceEUR/AnCyrq7OCdZUKYNGDRK4hkKhkGBmKCkhpQQzSyGE0Fqv371798KbN2+a8+fP62+uXfMLCgrer6qq2kpERgihlVKaiHRgHUqCJCmT6aiC1BwaKLAOB/+ICN3d3Zg6dSofOnTIOo4jXddV8Xic1q1bZ3t7e5fW19dnW2t/qrX+tVLqx0HbycnFrZTSBloZrbUJGqMhYSjNv0QigdmzZxMzk9YaUkpYa2UsFiMAxdu2br26aNGieDwex4ULFxBynDW1tbUVAgDPnz9/hjHmE8/zGn3f/5KINgfdlzfUtpKu2BEAay2IqL8GCSEoaCtn79q9O97Y2KiPHTumr1+/7uW88cb39+3bt1XNmzcvfuvWra/fefvt/LKyMvzrwQMcP378nfb2B+8CiHEfyQDlhRBQSoHouxBLIokgXp4X3/cRzsjgAwcOMADV09OD/Px8U15ebo8ePbpCNTc3/2zFihX5X545kwDgAOCdO3eivLz8B1euXIGSCnguqF3XhdYanpdItQ8A4NmzZ3Cc0PPT6OzshJtIkFKKACAoAZSTkyMAhJUxJnfu3LkmoBRSSuTk5ODkyZN25syZZKzpt0ZgXpSUlKCyshLFxcUD5gFg7dq1yUX63CP6Xl+8eDG2bdsGIQSYud9t/X1vZmbmj7Kzs/n+/fuamVlrzZ7nMTNzSUkJ79ixg5mZPc9jay1bazlVknPP3xtuPljDVFdXM4ALoqen5+STJ0+OV1RUyO7ubpOkZGas/+ADFBUV9WuXFGsttK9h0zTRWmtorV+YN8aknU8V0dLSEgbQtHHjRg7Sd0jtxmK8YBEAVFhY6M6aNWv9p5/+zv/2+reQUsIYA2ttWq3HQwT6dkbV2traxIzT9fX1AoBOBtQQ/ciYgwDo67aEEF9c/stlAP3p9dokCWKJiKPR6I22tjZua2tTRAR+TW5JBWEAWLBgwb+7urr+29HRAQA8VL86VhJkkk0FoUuXLj211rY3NzcDANtxBAkijx89egQAHamlWzqOYwBcu3jxIgOwNI7fYJL7UVNTEwD8bcA9IkIoFCrPz8/nzs5Oba1lY8yY1xDt99WpO3fucMhx3OnTp89JBSEAFBS3fxw+fNgys0kt7WNczPRPPvzQAmgIWo4BoogI0Wh0Y25uLj99+tQ3xnCy0o4hBN++fdsPh8Ocl5e3NJ3rCIBkZgGgsaKigpnZ932fte+PGYTrJrzi4mKWUn4W1Ku05x4BgJYsWVII4D9VVVXMzF5AxJ7njWporZmZbXd3t7eitJQBfFNXVzfsl0kJAIWFhSUAHq9evZrv3r3LzGxShn6Jkfq8PXfuHBcVFTGAxsrKyikpig+ZnxKAKSsryz19+vSvYrHY6reWvxV7s+RNZGVlDfHaQLHWor29HV9/9RX+euVKCzN/Yoz5LRH5AYQdDoSIiPPy8hZ0dHSUApgBIIKRnw6Th3IXQG84HL68d+/eP9TU1Pgp9wcFkURkMjMz39PaP7Vs2XJEImE4TuiZUqo3oHypssvMBEC4rpsJ5vCNGzfQ0tpy7qOPfv5uTU2NRmCRwST5wfdS9b5qZmaXmQf2iKMT/fDhQy8rK4szMzNLkmsBg5vZBn2IM2PmDAagXNdNHr5HtQExMwkhZFZWFk2enGlbW/8ZIaL+s9FgIBRsvVprTdba/j4WABEIPFIe7uuFfd8HJ8+oKTJc4KlEIsFCCBOJRMZkB1RKWdd1VTgctonEd+eiQS1ijEEkEvn8N7W1i6SUoVgsNuA8MlJJWvTMmTPi8ePHN7ds2XLjyJEjhJdJXyEEC2CbtrYcr/ChLskSXFvi8fgv7t279wApdeR/9qMvJnN8r8YAAAAASUVORK5CYII=") 10 0, pointer !important;
   }
   button:disabled, .lock-box button:disabled{
     cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KPHBhdGggZD0iTTIsMSBMMiwxOSBMNi42LDE1LjIgTDkuMywyMS44IEwxMi40LDIwLjUgTDkuNiwxNC4xIEwxNS41LDE0LjEgWiIgZmlsbD0iYmxhY2siIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS4yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==") 2 1, not-allowed !important;
@@ -2789,7 +2821,7 @@
     // the same soft-delete-to-bin as a single item's own "delete-item" button
     // (shed_delete_item per id, not shed_purge_items), so a mistaken bulk delete is still
     // recoverable from the Recycle Bin exactly like any other delete.
-    function renderSelectableItemList(getItems, title, onBack){
+    function renderSelectableItemList(getItems, title, onBack, folderPath){
       var items = getItems();
       var itemIds = items.map(function(it){ return it.id; });
       Object.keys(bulkDeleteSelected).forEach(function(id){
@@ -2808,7 +2840,7 @@
         panelBody.appendChild(back);
       }
 
-      function refresh(){ renderSelectableItemList(getItems, title, onBack); }
+      function refresh(){ renderSelectableItemList(getItems, title, onBack, folderPath); }
 
       if(items.length === 0){
         var empty = document.createElement("p");
@@ -2894,6 +2926,45 @@
           close();
         });
         actions.appendChild(openBtn);
+
+        // Formatted for Legal items are a finished, downloadable file, not just a document
+        // to read on the desk -- Open/Download here so getting the actual file back out
+        // doesn't require opening it on the desk first and hunting for its attachment link
+        // (reported directly, 17 September 2026: that round-trip was "much too long a
+        // process"). Uses the same signed-URL storage pattern the desk's own Attachments
+        // list already uses; Download passes Supabase Storage's own `download` option so the
+        // browser saves the file straight to Downloads instead of just navigating to it.
+        if(folderPath === "Formatted for Legal"){
+          var legalFile = (ATTACHMENTS[item.id] || [])[0];
+          if(legalFile){
+            var viewBtn = document.createElement("button");
+            viewBtn.type = "button";
+            viewBtn.className = "btn ghost";
+            viewBtn.textContent = "Open";
+            viewBtn.addEventListener("click", function(){
+              sb.storage.from("shed-attachments").createSignedUrl(legalFile.storage_path, 3600).then(function(res){
+                if(res.error || !res.data){ alert("Couldn't open that file. Please try again."); return; }
+                window.open(res.data.signedUrl, "_blank");
+              });
+            });
+            actions.appendChild(viewBtn);
+
+            var dlBtn = document.createElement("button");
+            dlBtn.type = "button";
+            dlBtn.className = "btn alt";
+            dlBtn.textContent = "Download";
+            dlBtn.addEventListener("click", function(){
+              sb.storage.from("shed-attachments")
+                .createSignedUrl(legalFile.storage_path, 3600, { download: legalFile.file_name })
+                .then(function(res){
+                  if(res.error || !res.data){ alert("Couldn't download that file. Please try again."); return; }
+                  window.open(res.data.signedUrl, "_blank");
+                });
+            });
+            actions.appendChild(dlBtn);
+          }
+        }
+
         row.appendChild(actions);
 
         list.appendChild(row);
@@ -2963,7 +3034,7 @@
 
         if(subfolders.length === 0){
           if(CABINET_BULK_DELETE_FOLDERS.indexOf(path) > -1){
-            renderSelectableItemList(function(){ return cabinetItemsAt(data.items, path); }, label, onBack);
+            renderSelectableItemList(function(){ return cabinetItemsAt(data.items, path); }, label, onBack, path);
           } else {
             renderItemList(function(){ return cabinetItemsAt(data.items, path); }, label, onBack);
           }
