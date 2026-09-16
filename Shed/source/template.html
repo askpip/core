@@ -310,17 +310,6 @@
     font-weight:700; font-size:.7rem; display:flex; align-items:center; justify-content:center;
     box-shadow:0 1px 4px rgba(0,0,0,.4);
   }
-  /* Toolbox entry point, pinned to one specific folder card's label (17 September 2026) --
-     see TOOLBOX_LABEL_FOLDER. Its own button, not part of the card's own click target, so it
-     needs stopPropagation in the click handler and a real button element here (not a span)
-     for that to be reliable. */
-  .folder-card .toolbox-btn{
-    position:absolute; top:-6px; left:-6px; width:26px; height:26px; padding:0;
-    border-radius:50%; background:var(--moss); color:#fff; border:2px solid #fff;
-    font-size:.9rem; line-height:1; display:flex; align-items:center; justify-content:center;
-    cursor:pointer; box-shadow:0 1px 4px rgba(0,0,0,.4);
-  }
-  .folder-card .toolbox-btn:hover{ filter:brightness(1.1); }
   .backbtn{
     font-family:'Nunito',sans-serif; font-weight:700; font-size:.8rem; cursor:pointer;
     background:transparent; border:1.5px solid var(--pip-border); color:var(--wood-dark);
@@ -981,6 +970,13 @@
       {key:"calendar", label:"Calendar", icon:"📅", cx:78, cy:45.8},
       {key:"bookshelf", label:"Bookshelf", icon:"📚", cx:96, cy:42},
       {key:"cabinet", label:"File Cabinet", icon:"🗄️", cx:5, cy:55},
+      // Toolbox (17 September 2026) -- its own hotspot, not something opened from inside the
+      // File Cabinet panel: on the file cabinet's own artwork, sitting on the label of the
+      // second drawer down, directly under the File Cabinet hotspot above (the cabinet's top
+      // drawer). Positioned via the same raw-art-pixel-to-stage-% conversion documented above,
+      // then nudged by the same offset the shipped "cabinet" entry needed to land correctly --
+      // verify against the actual rendered mobile stage before shipping any further change.
+      {key:"toolbox", label:"Toolbox", icon:"🧰", cx:5, cy:59.5},
       {key:"rug", label:"Info", icon:"👣", cx:59.7, cy:59},
       {key:"deskpad", label:"Notepad", icon:"✎", cx:16.7, cy:73.5},
       {key:"bin", label:"Recycle Bin", icon:"🗑️", cx:95, cy:56}
@@ -991,6 +987,10 @@
       {key:"calendar", label:"Calendar", icon:"📅", cx:72, cy:26},
       {key:"bookshelf", label:"Bookshelf", icon:"📚", cx:93, cy:15},
       {key:"cabinet", label:"File Cabinet", icon:"🗄️", cx:14, cy:46},
+      // Toolbox (17 September 2026) -- see the matching mobile entry above for the full note.
+      // Same idea on the desktop art: the second drawer down's label, directly under the File
+      // Cabinet hotspot's own drawer.
+      {key:"toolbox", label:"Toolbox", icon:"🧰", cx:14.4, cy:57.1},
       {key:"rug", label:"Info", icon:"👣", cx:59, cy:64},
       {key:"deskpad", label:"Notepad", icon:"✎", cx:26.3, cy:85.9},
       {key:"bin", label:"Recycle Bin", icon:"🗑️", cx:86, cy:55}
@@ -1017,9 +1017,12 @@
       node.setAttribute("aria-label", h.label);
       // The To-Do List opens straight onto the desk as its own tab (see openTodoDesk) rather
       // than as a modal panel, so it can stay open side-by-side with a notice opened from one
-      // of its rows -- everything else still opens the browse-then-close panel.
+      // of its rows. The Toolbox is its own small overlay (see openToolbox), not a File
+      // Cabinet folder, so it doesn't go through openPanel either. Everything else still opens
+      // the browse-then-close panel.
       node.addEventListener("click", function(){
         if(h.key === "todo"){ openTodoDesk(stageEl); return; }
+        if(h.key === "toolbox"){ openToolbox(stageEl); return; }
         openPanel(h.key, stageEl);
       });
       stageEl.appendChild(node);
@@ -2478,13 +2481,6 @@
   // (see buildSelectableItemListEl) instead of the plain "click to open, delete from inside"
   // flow every other folder keeps, per direct request (17 September 2026).
   var CABINET_BULK_DELETE_FOLDERS = ["From the Desk", "Formatted for Legal"];
-  // Toolbox entry point (17 September 2026): a small tool-icon button on the label of "the
-  // second drawer down on the file cabinet". The cabinet's top-level folders render as a
-  // reflowing grid, not literal stacked drawers, so "second" is read here as the second
-  // entry in CABINET_FOLDERS' own list order (currently "Company Docs") -- named as a
-  // constant, not a magic index, specifically so this is a one-line change if that guess is
-  // wrong. See buildToolboxButton / openToolbox below.
-  var TOOLBOX_LABEL_FOLDER = CABINET_FOLDERS[1].name;
   var CABINET_DEFAULT_FOLDER = "Company Docs";
 
   // Every distinct next path segment among items whose folder is a strict descendant of
@@ -2951,19 +2947,6 @@
             '<span class="folder-name">' + f.name + '</span>' +
             '<span class="folder-count">' + count + (count === 1 ? " document" : " documents") + '</span>';
           card.addEventListener("click", function(){ renderCabinetLevel(f.name, renderFolders); });
-          if(f.name === TOOLBOX_LABEL_FOLDER){
-            var toolboxBtn = document.createElement("button");
-            toolboxBtn.type = "button";
-            toolboxBtn.className = "toolbox-btn";
-            toolboxBtn.title = "Toolbox";
-            toolboxBtn.setAttribute("aria-label", "Open Toolbox");
-            toolboxBtn.textContent = "🧰";
-            toolboxBtn.addEventListener("click", function(e){
-              e.stopPropagation();
-              openToolbox(stageEl);
-            });
-            card.appendChild(toolboxBtn);
-          }
           grid.appendChild(card);
         });
         panelBody.appendChild(grid);
@@ -3617,10 +3600,12 @@
     renderRoot();
   }
 
-  // The Toolbox (17 September 2026): a small overlay opened from the tool-icon button on
-  // TOOLBOX_LABEL_FOLDER's card (see renderFolders). Deliberately built as a list of tools,
-  // not a single-purpose overlay, since "Format Legal Docs" was asked for as "the first
-  // tool" -- more are expected to land here later.
+  // The Toolbox (17 September 2026): a small overlay opened from its own hotspot on the main
+  // shed scene -- the tool-icon button sitting on the label of the second drawer down on the
+  // file cabinet artwork, directly under the File Cabinet hotspot itself (see the "toolbox"
+  // entry in HOTSPOTS and its click handling in buildHotspots). Deliberately built as a list
+  // of tools, not a single-purpose overlay, since "Format Legal Docs" was asked for as "the
+  // first tool" -- more are expected to land here later.
   var TOOLBOX_TOOLS = [
     {
       icon: "⚖️",
