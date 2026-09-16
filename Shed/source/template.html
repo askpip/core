@@ -337,6 +337,30 @@
   .overlay .panel-body .bin-item .btn.ghost,
   .overlay .panel-body .item-series .btn.ghost{ color:var(--wood-dark); border-color:var(--pip-border); }
 
+  /* Second pass on the same bug (17 September 2026, reported again -- "calendar, new note
+     etc" still brown-on-brown): the first pass only caught classes with NO colour of their
+     own, which inherit panel-body's cream automatically. These calendar/to-do classes set
+     colour:var(--wood-dark) explicitly, so the inherited cream never reached them -- an
+     explicit colour always wins over an inherited one regardless of the ancestor rule's
+     specificity. Their siblings that already sit on a solid --card background (.cal-daynum
+     in a .cal-cell, .cal-event-chip, .cal-ev-title in a .detail) were correctly left alone. */
+  .overlay .panel-body .cal-nav h4,
+  .overlay .panel-body .cal-daylabel,
+  .overlay .panel-body .cal-day-heading,
+  .overlay .panel-body .todo-section-heading,
+  .overlay .panel-body .todo-empty{ color:var(--cream); }
+
+  /* The "New Notice / Document" composer (openCreatePanel) is the one overlay panel that was
+     never wrapped in .panel-body at all -- its label/button/input sit directly in .panel, so
+     none of the .panel-body-scoped rules above ever reached it. Giving the panel itself a
+     cream default fixes every plain-text child (the template-picker label, the "requires
+     approval" checkbox text, the linked-document name) the same way panel-body does elsewhere;
+     .btn.ghost still needs its own explicit override, same reason as above. The two inputs
+     and the existing-notice warning box already carry their own light background and stay
+     dark-on-light correctly, so they're deliberately not touched here. */
+  .overlay .panel.create-form{ color:var(--cream); }
+  .overlay .panel.create-form .btn.ghost{ color:var(--cream); border-color:rgba(255,255,255,.55); }
+
   .item-list{ display:grid; gap:8px; }
 
   /* A row in the Notice Board / File Cabinet / Bookshelf item list: title + a "Desktop"
@@ -669,16 +693,18 @@
      rejected as not close enough. The final version below is instead a small raster PNG:
      generated via OpenArt (GPT Image 2.5 Sunburst, image-to-image) from a Flaticon "point up
      hand" reference the user supplied and approved, background-removed (flood-filled to
-     transparent, keeping the enclosed white fill of the glove itself) and downsized to 34x50
-     for a crisp small cursor. Embedded as a base64 PNG data URI (not SVG, since the source is
-     now raster) with the fingertip as the hotspot, same as a real pointing gesture. If anyone
-     needs the source Flaticon icon credited: "Finger icons created by Magnific - Flaticon"
-     (flaticon.com/free-icons/finger). */
+     transparent, keeping the enclosed white fill of the glove itself) and downsized to match
+     the default arrow cursor's own footprint (16x24, same 24px cap as the arrow's 24x24 SVG
+     viewBox -- first downsized to 34x50 which read as noticeably larger than the arrow on
+     screen, reported directly and reduced again same day). Embedded as a base64 PNG data URI
+     (not SVG, since the source is now raster) with the fingertip as the hotspot, same as a
+     real pointing gesture. If anyone needs the source Flaticon icon credited: "Finger icons
+     created by Magnific - Flaticon" (flaticon.com/free-icons/finger). */
   body{
     cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KPHBhdGggZD0iTTIsMSBMMiwxOSBMNi42LDE1LjIgTDkuMywyMS44IEwxMi40LDIwLjUgTDkuNiwxNC4xIEwxNS41LDE0LjEgWiIgZmlsbD0iYmxhY2siIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS4yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==") 2 1, auto !important;
   }
   a, button, select, label, .hotspot, .btn, [onclick], [role="button"]{
-    cursor:url("data:image/png;base64,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") 10 0, pointer !important;
+    cursor:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAADY0lEQVR4nI1UTUhcVxT+zn0/WtuZZp61lSzMaHVgFHRT0kZpZlw4xdJxIYjgwiEhxWRVcFnQ0u6aQksL3ejSjatCNwmkEFGEpkEtCq2NUJ3nlIIzI1Fr5s289+49XcyM2pgx/eDC4V7Od879zncvUAYxMwF4o6ur68cPEonfAAxVzgRehlgsphMRQqHQF6urq6yU4mQymQZQVyGmWrkn7MwMy7Iut7e3KyJSHR0drwGoNwyDLyr+n/aUUl6xWBQAhOd5EsCFyecIAJCg8hYREQDyPE/7X1d4HsxM3d3dfn19vSQiVSE5R3SOgCtdG4ZR2tjYsEqlUpyZA0TEmqZxRdTaBFQuog6ePn21r69vYX5+fiEej99jZl1K2UREDECLxWI6ACEAaGNjYzQyMqKd5kMVHOfS5OTk26Ojo2pgYOBaW1vbw6mpqa1oNPo9ALm4uOgTkdIByImJCQkAkUikVNXdNE3WNZ193xeO42B6evr9VCoF13Vvbm1t5Xp6elrW1ta+1RsaGj6KXb/+adq2N3LZbBMJAgByHIdKbol0XQczIxgMKt/36fj42Lz75d3Pbn18C4lE4h29t7d39t79+81/ZTLXkkNJOI4DAFo0GsWbTU0AgHA4jFAoJHRdR2dnJ/X39/vBYBDRaLQRra2tXy0tLTEzu3Nzc7y7u8tnoZQ6F0vfV0opHh8f3wUA8e7Vq4uFZ8+YmX2lFCulWErJtWLf9xUzcyqVygghhPrl8eNvfn70CAAgpSyPk07HXSsGACGlJNM0n/yxuQlm1phfav+zdmRhGAa7rpv5fXMzR0Rcse2FEJrGUkrOZDJ/n/wFbeHwbD6fZ2Z2XddlKeULV7FYZGb2lpeX2TTNTwBAVPx95eaNG/9UBefaUIVCgePx+K8AXjnpSggBALE7d24/WVlZ8XZ2dlQ6nWbbttm2bU6n07y9va1+evCgNDg4+BDAFSHEiR4EgCzLuuy67teNjVYkGHy9+oRPFWNW+/v7Rjab/cH3/c+pOpLKy0IkEpmxbZuPjo68bDarcrmcyufzMp/Py1wup/b29uTh4SHPzswwgPc0TYN+tkJdXZ3e0tICAHogEHjB1MrxW83NAMq51UMNgAwFAh8ODQ9/Z1mWLqUU9LxrAEVEtL6+/ufCwtow88HBvzf+EMsgEy5sAAAAAElFTkSuQmCC") 4 0, pointer !important;
   }
   button:disabled, .lock-box button:disabled{
     cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KPHBhdGggZD0iTTIsMSBMMiwxOSBMNi42LDE1LjIgTDkuMywyMS44IEwxMi40LDIwLjUgTDkuNiwxNC4xIEwxNS41LDE0LjEgWiIgZmlsbD0iYmxhY2siIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS4yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==") 2 1, not-allowed !important;
