@@ -3867,7 +3867,7 @@
                 if(!ATTACHMENTS[newItem.id]) ATTACHMENTS[newItem.id] = [];
                 ATTACHMENTS[newItem.id].push(attRes.data);
               }
-              return { blob: blob, outTitle: outTitle };
+              return { outTitle: outTitle, newItem: newItem };
             });
           });
         });
@@ -3875,31 +3875,55 @@
         statusEl.textContent = "Done — filed in File Cabinet → Formatted for Legal.";
         createBtn.disabled = false;
 
-        // Immediate download, per direct request -- separate from the attachment link left
-        // in the result area below, which stays valid for opening/downloading it again later
-        // without needing this tool open.
-        var blobUrl = URL.createObjectURL(result.blob);
-        var a = document.createElement("a");
-        a.href = blobUrl;
-        a.download = result.outTitle;
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-        setTimeout(function(){ URL.revokeObjectURL(blobUrl); }, 30000);
+        // No auto-download (removed 17 September 2026, direct request -- it fired every time
+        // even though most of the time the point was just to check the formatting, and there
+        // was no way to get back to Open/Download without leaving this tool and hunting
+        // through the folder). Same Desktop/Open/Download trio as the Formatted for Legal
+        // folder row itself (buildCabinetLevel's renderSelectableItemList), so the file can be
+        // sent to the desk, opened in a browser tab, or downloaded straight from here --
+        // still saved in File Cabinet → Formatted for Legal either way.
+        var legalFile = (ATTACHMENTS[result.newItem.id] || [])[0];
+        resultEl.innerHTML = '<p class="empty-note" style="margin:0 0 10px;">✅ "' + result.outTitle + '" is ready.</p>' +
+          '<div class="actions"></div>';
+        var resultActions = resultEl.querySelector(".actions");
 
-        resultEl.innerHTML = '<p class="empty-note" style="margin:0;">✅ "' + result.outTitle + '" is ready. Downloading now — ' +
-          '<a href="#" class="download-again">download it again</a> any time.</p>';
-        resultEl.querySelector(".download-again").addEventListener("click", function(e){
-          e.preventDefault();
-          var blobUrl2 = URL.createObjectURL(result.blob);
-          var a2 = document.createElement("a");
-          a2.href = blobUrl2;
-          a2.download = result.outTitle;
-          document.body.appendChild(a2);
-          a2.click();
-          a2.remove();
-          setTimeout(function(){ URL.revokeObjectURL(blobUrl2); }, 30000);
+        var deskBtn = document.createElement("button");
+        deskBtn.type = "button";
+        deskBtn.className = "btn ghost";
+        deskBtn.textContent = "Desktop";
+        deskBtn.addEventListener("click", function(){
+          addToDesk(stageEl, result.newItem, { key: "cabinet", path: "Formatted for Legal", label: "Formatted for Legal" });
+          close();
         });
+        resultActions.appendChild(deskBtn);
+
+        if(legalFile){
+          var viewBtn = document.createElement("button");
+          viewBtn.type = "button";
+          viewBtn.className = "btn ghost";
+          viewBtn.textContent = "Open";
+          viewBtn.addEventListener("click", function(){
+            sb.storage.from("shed-attachments").createSignedUrl(legalFile.storage_path, 3600).then(function(res){
+              if(res.error || !res.data){ alert("Couldn't open that file. Please try again."); return; }
+              window.open(res.data.signedUrl, "_blank");
+            });
+          });
+          resultActions.appendChild(viewBtn);
+
+          var dlBtn = document.createElement("button");
+          dlBtn.type = "button";
+          dlBtn.className = "btn alt";
+          dlBtn.textContent = "Download";
+          dlBtn.addEventListener("click", function(){
+            sb.storage.from("shed-attachments")
+              .createSignedUrl(legalFile.storage_path, 3600, { download: legalFile.file_name })
+              .then(function(res){
+                if(res.error || !res.data){ alert("Couldn't download that file. Please try again."); return; }
+                window.open(res.data.signedUrl, "_blank");
+              });
+          });
+          resultActions.appendChild(dlBtn);
+        }
       }).catch(function(err){
         createBtn.disabled = false;
         statusEl.textContent = "";
