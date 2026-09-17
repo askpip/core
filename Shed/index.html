@@ -2483,6 +2483,11 @@
         var attachListEl = document.createElement("div");
         replyBlock.appendChild(attachListEl);
 
+        // Each row now also gets a Remove button (17 September 2026 -- "there should be a way
+        // to remove attachments", there wasn't one before this), and a row that was linked in
+        // from the Gallery (see "Link a photo..." below and shed_link_gallery_attachment) shows
+        // that plainly instead of claiming to have been "uploaded" -- it shares the Gallery
+        // photo's own bytes, nothing was actually uploaded here.
         function renderAttachList(){
           var files = ATTACHMENTS[item.id] || [];
           attachListEl.innerHTML = "";
@@ -2492,10 +2497,12 @@
           }
           files.forEach(function(f){
             var row = document.createElement("div");
-            row.style.margin = "3px 0";
+            row.style.cssText = "margin:3px 0; display:flex; align-items:center; gap:8px;";
             var link = document.createElement("a");
             link.href = "#";
-            link.textContent = "📎 " + f.file_name + (f.uploaded_by ? " — uploaded by " + f.uploaded_by : "");
+            link.style.flex = "1";
+            link.textContent = (f.linked_gallery_item_id ? "🖼️ " : "📎 ") + f.file_name +
+              (f.linked_gallery_item_id ? " — linked from Gallery" : (f.uploaded_by ? " — uploaded by " + f.uploaded_by : ""));
             link.addEventListener("click", function(e){
               e.preventDefault();
               sb.storage.from("shed-attachments").createSignedUrl(f.storage_path, 3600).then(function(res){
@@ -2504,6 +2511,25 @@
               });
             });
             row.appendChild(link);
+            var removeBtn = document.createElement("button");
+            removeBtn.type = "button";
+            removeBtn.className = "btn ghost";
+            removeBtn.style.cssText = "padding:2px 8px; font-size:.75rem; flex:none;";
+            removeBtn.textContent = "Remove";
+            removeBtn.addEventListener("click", function(){
+              var msg = f.linked_gallery_item_id
+                ? 'Remove this link to "' + f.file_name + '"? The photo stays in the Gallery.'
+                : 'Remove "' + f.file_name + '" from this item\'s attachments?';
+              if(!confirm(msg)) return;
+              removeBtn.disabled = true;
+              sb.rpc("shed_remove_attachment", { p: window.SHED_PASSPHRASE, attachment_id: f.id }).then(function(res){
+                if(res.error){ removeBtn.disabled = false; alert("Couldn't remove that. Please try again."); return; }
+                ATTACHMENTS[item.id] = (ATTACHMENTS[item.id] || []).filter(function(x){ return x.id !== f.id; });
+                renderAttachList();
+                refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
+              });
+            });
+            row.appendChild(removeBtn);
             attachListEl.appendChild(row);
           });
         }
@@ -2520,13 +2546,22 @@
         uploadBtn.className = "btn";
         uploadBtn.textContent = "Upload";
         uploadRow.appendChild(uploadBtn);
+        // "Link a photo..." (17 September 2026): the counterpart to Upload for a file that
+        // already exists as a Gallery photo -- picks from CONTENT.gallery.items (same picker
+        // the New Notice composer's own "Link a photo..." uses) and records the link via
+        // shed_link_gallery_attachment instead of uploading new bytes.
+        var linkPhotoBtn = document.createElement("button");
+        linkPhotoBtn.type = "button";
+        linkPhotoBtn.className = "btn ghost";
+        linkPhotoBtn.textContent = "Link a photo…";
+        uploadRow.appendChild(linkPhotoBtn);
         replyBlock.appendChild(uploadRow);
 
         var uploadHint = document.createElement("p");
         uploadHint.className = "empty-note";
         uploadHint.style.margin = "6px 0 0";
         uploadHint.style.fontSize = ".76rem";
-        uploadHint.textContent = "Choose a file from your computer, then Upload.";
+        uploadHint.textContent = "Choose a file from your computer and Upload, or Link a photo already in the Gallery.";
         replyBlock.appendChild(uploadHint);
 
         uploadBtn.addEventListener("click", function(){
@@ -2547,6 +2582,20 @@
               if(!ATTACHMENTS[item.id]) ATTACHMENTS[item.id] = [];
               ATTACHMENTS[item.id].push(res.data);
               fileInput.value = "";
+              renderAttachList();
+              refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
+            });
+          });
+        });
+
+        linkPhotoBtn.addEventListener("click", function(){
+          openGalleryImagePicker(stageEl, function(galleryItem){
+            linkPhotoBtn.disabled = true;
+            sb.rpc("shed_link_gallery_attachment", { p: window.SHED_PASSPHRASE, item_id: item.id, gallery_item_id: galleryItem.id }).then(function(res){
+              linkPhotoBtn.disabled = false;
+              if(res.error || !res.data){ alert("Couldn't link that photo. Please try again."); return; }
+              if(!ATTACHMENTS[item.id]) ATTACHMENTS[item.id] = [];
+              ATTACHMENTS[item.id].push(res.data);
               renderAttachList();
               refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
             });
