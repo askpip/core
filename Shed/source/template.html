@@ -2485,9 +2485,9 @@
 
         // Each row now also gets a Remove button (17 September 2026 -- "there should be a way
         // to remove attachments", there wasn't one before this), and a row that was linked in
-        // from the Gallery (see "Link a photo..." below and shed_link_gallery_attachment) shows
-        // that plainly instead of claiming to have been "uploaded" -- it shares the Gallery
-        // photo's own bytes, nothing was actually uploaded here.
+        // from elsewhere in the shed (see "Link a document.../Link a photo..." below and
+        // shed_link_item_attachment) shows that plainly instead of claiming to have been
+        // "uploaded" -- it shares that other item's own bytes, nothing was actually uploaded here.
         function renderAttachList(){
           var files = ATTACHMENTS[item.id] || [];
           attachListEl.innerHTML = "";
@@ -2501,10 +2501,20 @@
             var link = document.createElement("a");
             link.href = "#";
             link.style.flex = "1";
-            link.textContent = (f.linked_gallery_item_id ? "🖼️ " : "📎 ") + f.file_name +
-              (f.linked_gallery_item_id ? " — linked from Gallery" : (f.uploaded_by ? " — uploaded by " + f.uploaded_by : ""));
+            var linkedSource = f.linked_gallery_item_id ? findItemById(f.linked_gallery_item_id) : null;
+            link.textContent = (f.linked_gallery_item_id ? "🔗 " : "📎 ") + f.file_name +
+              (f.linked_gallery_item_id ? " — linked from " + (linkedSource && linkedSource.loc === "gallery" ? "Gallery" : "the File Cabinet") : (f.uploaded_by ? " — uploaded by " + f.uploaded_by : ""));
             link.addEventListener("click", function(e){
               e.preventDefault();
+              // A linked attachment points at a real item elsewhere in the shed (a Gallery
+              // photo or a Cabinet document) -- open THAT item on the desk, same as clicking it
+              // anywhere else in the app, rather than firing its raw file into a new browser
+              // tab like a plain upload (17 September 2026, reported: a linked photo was
+              // opening in a new tab instead of on the desk).
+              if(linkedSource){
+                addToDesk(stageEl, linkedSource);
+                return;
+              }
               sb.storage.from("shed-attachments").createSignedUrl(f.storage_path, 3600).then(function(res){
                 if(res.error || !res.data){ alert("Couldn't open that file. Please try again."); return; }
                 window.open(res.data.signedUrl, "_blank");
@@ -2546,10 +2556,17 @@
         uploadBtn.className = "btn";
         uploadBtn.textContent = "Upload";
         uploadRow.appendChild(uploadBtn);
-        // "Link a photo..." (17 September 2026): the counterpart to Upload for a file that
-        // already exists as a Gallery photo -- picks from CONTENT.gallery.items (same picker
-        // the New Notice composer's own "Link a photo..." uses) and records the link via
-        // shed_link_gallery_attachment instead of uploading new bytes.
+        // "Link a document..." / "Link a photo..." (17 September 2026): the counterpart to
+        // Upload for a file that already exists elsewhere in the shed -- same parity the New
+        // Notice composer already has (Link a document / Upload a document / Link a photo),
+        // now also available once an item already exists, not just while creating one. Both
+        // just pick from a different browser (Cabinet vs Gallery) and record the link the same
+        // way, via shed_link_item_attachment, instead of uploading new bytes.
+        var linkDocBtn = document.createElement("button");
+        linkDocBtn.type = "button";
+        linkDocBtn.className = "btn ghost";
+        linkDocBtn.textContent = "Link a document…";
+        uploadRow.appendChild(linkDocBtn);
         var linkPhotoBtn = document.createElement("button");
         linkPhotoBtn.type = "button";
         linkPhotoBtn.className = "btn ghost";
@@ -2561,7 +2578,7 @@
         uploadHint.className = "empty-note";
         uploadHint.style.margin = "6px 0 0";
         uploadHint.style.fontSize = ".76rem";
-        uploadHint.textContent = "Choose a file from your computer and Upload, or Link a photo already in the Gallery.";
+        uploadHint.textContent = "Choose a file from your computer and Upload, or Link something already in the Cabinet or Gallery.";
         replyBlock.appendChild(uploadHint);
 
         uploadBtn.addEventListener("click", function(){
@@ -2588,18 +2605,27 @@
           });
         });
 
-        linkPhotoBtn.addEventListener("click", function(){
-          openGalleryImagePicker(stageEl, function(galleryItem){
-            linkPhotoBtn.disabled = true;
-            sb.rpc("shed_link_gallery_attachment", { p: window.SHED_PASSPHRASE, item_id: item.id, gallery_item_id: galleryItem.id }).then(function(res){
-              linkPhotoBtn.disabled = false;
-              if(res.error || !res.data){ alert("Couldn't link that photo. Please try again."); return; }
-              if(!ATTACHMENTS[item.id]) ATTACHMENTS[item.id] = [];
-              ATTACHMENTS[item.id].push(res.data);
-              renderAttachList();
-              refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
-            });
+        // Shared by both Link buttons: record a link to pickedItem's own file, then patch it
+        // into ATTACHMENTS/renderAttachList the same way a real upload does. Idempotent server-
+        // side (shed_link_item_attachment upserts on (item_id, storage_path)), so linking
+        // something that's already linked here just confirms it instead of erroring.
+        function linkItem(btn, pickedItem){
+          btn.disabled = true;
+          sb.rpc("shed_link_item_attachment", { p: window.SHED_PASSPHRASE, item_id: item.id, linked_id: pickedItem.id }).then(function(res){
+            btn.disabled = false;
+            if(res.error || !res.data){ alert("Couldn't link that. Please try again."); return; }
+            if(!ATTACHMENTS[item.id]) ATTACHMENTS[item.id] = [];
+            var already = ATTACHMENTS[item.id].some(function(x){ return x.id === res.data.id; });
+            if(!already) ATTACHMENTS[item.id].push(res.data);
+            renderAttachList();
+            refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
           });
+        }
+        linkDocBtn.addEventListener("click", function(){
+          openDocumentPicker(stageEl, function(docItem){ linkItem(linkDocBtn, docItem); });
+        });
+        linkPhotoBtn.addEventListener("click", function(){
+          openGalleryImagePicker(stageEl, function(galleryItem){ linkItem(linkPhotoBtn, galleryItem); });
         });
       }
 
