@@ -43,6 +43,10 @@
     "file": "calendar.jpg",
     "mime": "image/jpeg"
   },
+  "gallery": {
+    "file": "gallery.jpg",
+    "mime": "image/jpeg"
+  },
   "pip-avatar": {
     "file": "pip-avatar.png",
     "mime": "image/png"

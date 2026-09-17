@@ -310,6 +310,32 @@
     font-weight:700; font-size:.7rem; display:flex; align-items:center; justify-content:center;
     box-shadow:0 1px 4px rgba(0,0,0,.4);
   }
+  /* Gallery (17 September 2026): thumbnail grid, same card language as .folder-card/.item-card
+     (solid --card background, so default dark-on-light text needs no cream override -- see the
+     brown-on-brown note above this block). .gallery-thumb uses object-fit:cover in a fixed
+     square so mixed-aspect photos still line up into a tidy grid. */
+  .gallery-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; }
+  .gallery-card{
+    display:flex; flex-direction:column; gap:6px; text-align:left;
+    background:var(--card); border:1px solid var(--pip-border); border-radius:10px;
+    padding:8px; cursor:pointer; font-family:'Nunito',sans-serif;
+  }
+  .gallery-card:hover{ background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.15); }
+  .gallery-thumb{
+    width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:6px;
+    background:var(--pip-border);
+  }
+  .gallery-caption{
+    font-size:.76rem; color:var(--wood-dark); overflow:hidden; text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .gallery-upload-row{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:14px; }
+  .gallery-upload-status{ font-family:'Kalam',cursive; color:var(--cream); font-size:.85rem; }
+  .gallery-viewer-img{
+    display:block; max-width:100%; max-height:60vh; margin:0 auto 12px;
+    border-radius:8px; box-shadow:0 3px 10px rgba(0,0,0,.3);
+  }
+
   .backbtn{
     font-family:'Nunito',sans-serif; font-weight:700; font-size:.8rem; cursor:pointer;
     background:transparent; border:1.5px solid var(--pip-border); color:var(--wood-dark);
@@ -844,6 +870,15 @@
       title: "Calendar",
       bg: "__ASSET_CALENDAR__",
       items: []
+    },
+    // Gallery (17 September 2026, Founder instruction): photos live here as their own flat
+    // (no-folder) location, each item = one shed_items row + exactly one attachment, same
+    // convention as every other Cabinet document -- see the migration note on
+    // shed_items_location_check and openGallery() below.
+    gallery: {
+      title: "Gallery",
+      bg: "__ASSET_GALLERY__",
+      items: []
     }
   };
 
@@ -866,6 +901,7 @@
     CONTENT.bookshelf.items = [];
     CONTENT.rug.items = [];
     CONTENT.bin.items = [];
+    CONTENT.gallery.items = [];
     (rows || []).forEach(function(row){
       var loc = row.location;
       if(!CONTENT[loc]) return;
@@ -1035,6 +1071,13 @@
       // then nudged by the same offset the shipped "cabinet" entry needed to land correctly --
       // verify against the actual rendered mobile stage before shipping any further change.
       {key:"toolbox", label:"Toolbox", icon:"🧰", cx:5, cy:59.5},
+      // Gallery (17 September 2026, Founder instruction) -- same idea one row further down:
+      // the cabinet's THIRD (bottom) drawer label, directly under Toolbox. Computed the same
+      // way from the raw art (scene-mobile.jpg) through the box-conversion formula above, then
+      // nudged by roughly the same offset the cabinet/toolbox rows above needed -- this has NOT
+      // yet been screenshot-verified against the live rendered stage; nudge cx/cy here if it's
+      // sitting off the actual bottom drawer label once deployed.
+      {key:"gallery", label:"Gallery", icon:"📷", cx:5, cy:64.2},
       {key:"rug", label:"Info", icon:"👣", cx:59.7, cy:59},
       {key:"deskpad", label:"Notepad", icon:"✎", cx:16.7, cy:73.5},
       {key:"bin", label:"Recycle Bin", icon:"🗑️", cx:95, cy:56}
@@ -1049,6 +1092,11 @@
       // Same idea on the desktop art: the second drawer down's label, directly under the File
       // Cabinet hotspot's own drawer.
       {key:"toolbox", label:"Toolbox", icon:"🧰", cx:14.4, cy:57.1},
+      // Gallery (17 September 2026) -- see the matching mobile entry above. Third/bottom drawer
+      // label, measured directly off scene-desktop.jpg (raw label center ~(195,512) of
+      // 1376x768, i.e. ~14.2%/66.7%) then nudged by roughly the same offset cabinet/toolbox
+      // needed above -- not yet screenshot-verified against the live rendered stage.
+      {key:"gallery", label:"Gallery", icon:"📷", cx:14.2, cy:67.7},
       {key:"rug", label:"Info", icon:"👣", cx:59, cy:64},
       {key:"deskpad", label:"Notepad", icon:"✎", cx:26.3, cy:85.9},
       {key:"bin", label:"Recycle Bin", icon:"🗑️", cx:86, cy:55}
@@ -1081,6 +1129,7 @@
       node.addEventListener("click", function(){
         if(h.key === "todo"){ openTodoDesk(stageEl); return; }
         if(h.key === "toolbox"){ openToolbox(stageEl); return; }
+        if(h.key === "gallery"){ openGallery(stageEl); return; }
         openPanel(h.key, stageEl);
       });
       stageEl.appendChild(node);
@@ -1219,7 +1268,7 @@
   }
 
   function findItemById(id){
-    var locs = ["board", "cabinet", "bookshelf", "rug", "bin"];
+    var locs = ["board", "cabinet", "bookshelf", "rug", "bin", "gallery"];
     for(var i = 0; i < locs.length; i++){
       var arr = CONTENT[locs[i]] && CONTENT[locs[i]].items;
       if(!arr) continue;
@@ -1931,6 +1980,14 @@
     // nothing below this applies to it.
     if(item.kind === "todo-list"){
       renderTodoListBody(stageEl, win, body);
+      return;
+    }
+
+    // A gallery photo gets a completely different body too -- just the image plus
+    // Open/Download/Delete, none of the title/body-edit machinery below applies to it (see
+    // renderGalleryImageBody, next to openGallery()).
+    if(item.loc === "gallery"){
+      renderGalleryImageBody(stageEl, win, item, body);
       return;
     }
 
@@ -3577,6 +3634,60 @@
     renderRoot();
   }
 
+  // Same picking flow as openDocumentPicker, but over CONTENT.gallery.items instead of the
+  // Cabinet's folders (17 September 2026, Founder instruction: a new notice/document should be
+  // able to link to a Gallery photo the same way it already links to a Cabinet document). No
+  // folders to browse -- the Gallery is deliberately flat -- so this is just openGallery's own
+  // thumbnail grid with onPick/close instead of addToDesk on click.
+  function openGalleryImagePicker(stageEl, onPick){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg" style="background-image:url(__ASSET_GALLERY__)"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>Choose a Photo</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+
+    if(!CONTENT.gallery.items.length){
+      var empty = document.createElement("p");
+      empty.className = "empty-note";
+      empty.textContent = 'No photos in the Gallery yet -- add some from the 📷 Gallery hotspot first.';
+      body.appendChild(empty);
+      return;
+    }
+    var grid = document.createElement("div");
+    grid.className = "gallery-grid";
+    CONTENT.gallery.items.forEach(function(item){
+      var card = document.createElement("button");
+      card.type = "button";
+      card.className = "gallery-card";
+      card.innerHTML = '<img class="gallery-thumb" alt="">' + '<span class="gallery-caption"></span>';
+      card.querySelector(".gallery-caption").textContent = item.title;
+      var att = (ATTACHMENTS[item.id] || [])[0];
+      if(att){
+        sb.storage.from("shed-attachments").createSignedUrl(att.storage_path, 3600).then(function(res){
+          if(!res.error && res.data) card.querySelector(".gallery-thumb").src = res.data.signedUrl;
+        });
+      }
+      card.addEventListener("click", function(){
+        onPick(item);
+        close();
+      });
+      grid.appendChild(card);
+    });
+    body.appendChild(grid);
+  }
+
   // Same picking flow as openDocumentPicker (browse-to-pick, no Send to desk/Edit/Delete),
   // but for the Format Legal Docs tool specifically: the Founder asked for "any document in
   // the shed (file cabinet or bookshelf)", and openDocumentPicker (used by the notice
@@ -3748,6 +3859,194 @@
       list.appendChild(card);
     });
     body.appendChild(list);
+  }
+
+  // Gallery (17 September 2026, Founder instruction): a thumbnail grid over
+  // CONTENT.gallery.items (each a shed_items row with exactly one attachment -- see the
+  // migration note on shed_items_location_check, and the CONTENT/applyItems entries above,
+  // which is all that was needed to make gallery items load/soft-delete/restore the same way
+  // every other location already does). Reached from its own hotspot on the File Cabinet's
+  // third/bottom drawer, not from inside the File Cabinet panel -- same pattern as Toolbox on
+  // the second drawer, see buildHotspots.
+  //
+  // "Add photos..." uploads straight from the browser's own native file picker, the same
+  // upload-then-attach sequence "Upload a document..." already uses elsewhere. This is
+  // deliberately a manual, on-demand action rather than an automatic sync from Core's Graphics
+  // folder: neither this cloud session's own network policy nor its device shell could write
+  // Storage bytes from outside the app when this was built (17 September 2026), and the
+  // Founder chose "populate it now" over wiring up real folder auto-sync as a separate,
+  // later step. Picking the files straight out of Graphics in the native dialog is what
+  // "shown as links to whatever is live in the core" means in practice today.
+  //
+  // Clicking a thumbnail closes this panel and sends the photo to the desk like any other
+  // item -- see renderGalleryImageBody just below for the image-only body that gets rendered
+  // there instead of the usual doc/notice view (renderDeskPanelBody's item.loc === "gallery"
+  // branch).
+  function openGallery(stageEl){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg" style="background-image:url(__ASSET_GALLERY__)"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>📷 Gallery</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+
+    var uploadRow = document.createElement("div");
+    uploadRow.className = "gallery-upload-row";
+    uploadRow.innerHTML =
+      '<button type="button" class="btn add-photos">Add photos…</button>' +
+      '<input type="file" class="gallery-upload-input" accept="image/*" multiple style="display:none;">' +
+      '<span class="gallery-upload-status"></span>';
+    body.appendChild(uploadRow);
+    var addBtn = uploadRow.querySelector(".add-photos");
+    var fileInput = uploadRow.querySelector(".gallery-upload-input");
+    var statusEl = uploadRow.querySelector(".gallery-upload-status");
+    addBtn.addEventListener("click", function(){ fileInput.click(); });
+
+    var gridWrap = document.createElement("div");
+    body.appendChild(gridWrap);
+
+    function render(){
+      gridWrap.innerHTML = "";
+      if(!CONTENT.gallery.items.length){
+        var empty = document.createElement("p");
+        empty.className = "empty-note";
+        empty.textContent = 'No photos yet — use "Add photos…" to bring some in (e.g. from Core\'s Graphics folder).';
+        gridWrap.appendChild(empty);
+        return;
+      }
+      var grid = document.createElement("div");
+      grid.className = "gallery-grid";
+      CONTENT.gallery.items.forEach(function(item){
+        var card = document.createElement("button");
+        card.type = "button";
+        card.className = "gallery-card";
+        card.innerHTML = '<img class="gallery-thumb" alt="">' + '<span class="gallery-caption"></span>';
+        card.querySelector(".gallery-caption").textContent = item.title;
+        var att = (ATTACHMENTS[item.id] || [])[0];
+        if(att){
+          sb.storage.from("shed-attachments").createSignedUrl(att.storage_path, 3600).then(function(res){
+            if(!res.error && res.data) card.querySelector(".gallery-thumb").src = res.data.signedUrl;
+          });
+        }
+        card.addEventListener("click", function(){
+          close();
+          addToDesk(stageEl, item);
+        });
+        grid.appendChild(card);
+      });
+      gridWrap.appendChild(grid);
+    }
+    render();
+
+    fileInput.addEventListener("change", function(){
+      var files = Array.prototype.slice.call(fileInput.files || []);
+      if(!files.length) return;
+      addBtn.disabled = true;
+      var done = 0, failed = 0;
+      function uploadNext(){
+        if(done >= files.length){
+          addBtn.disabled = false;
+          fileInput.value = "";
+          statusEl.textContent = "";
+          if(failed) alert(failed + " of " + files.length + " photo" + (files.length === 1 ? "" : "s") + " couldn't be added. Please try again.");
+          render();
+          return;
+        }
+        var file = files[done];
+        statusEl.textContent = "Adding " + (done + 1) + " of " + files.length + "…";
+        sb.rpc("shed_add_item", {
+          p: window.SHED_PASSPHRASE, loc: "gallery", ttl: file.name,
+          bdy: "Added to the Gallery.", fld: null, want_upload: true
+        }).then(function(res){
+          if(res.error || !res.data){ failed++; done++; uploadNext(); return; }
+          var newItem = itemFromRow(res.data, "gallery");
+          CONTENT.gallery.items.push(newItem);
+          var safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, "_");
+          var path = newItem.id + "/" + Date.now() + "-" + safeName;
+          sb.storage.from("shed-attachments").upload(path, file).then(function(upRes){
+            if(upRes.error){ failed++; done++; uploadNext(); return; }
+            sb.rpc("shed_add_attachment", { p: window.SHED_PASSPHRASE, item_id: newItem.id, file_name: file.name, storage_path: path, size_bytes: file.size }).then(function(attRes){
+              if(!attRes.error && attRes.data){
+                if(!ATTACHMENTS[newItem.id]) ATTACHMENTS[newItem.id] = [];
+                ATTACHMENTS[newItem.id].push(attRes.data);
+              }
+              done++;
+              uploadNext();
+            });
+          });
+        });
+      }
+      uploadNext();
+    });
+  }
+
+  // The desk-window body for a gallery photo (see openGallery above) -- just the image plus
+  // Open/Download/Delete, reusing the exact same signed-URL and delete patterns every other
+  // attachment/item already uses elsewhere in this file, rather than inventing new ones.
+  function renderGalleryImageBody(stageEl, win, item, body){
+    var att = (ATTACHMENTS[item.id] || [])[0];
+    body.innerHTML =
+      '<div class="actions"><button class="btn ghost delete-item">Delete</button></div>' +
+      '<h4 style="font-family:\'Kalam\',cursive; margin:8px 0;"></h4>' +
+      '<img class="gallery-viewer-img" alt="">' +
+      '<div class="actions gallery-viewer-actions"></div>';
+    body.querySelector("h4").textContent = item.title;
+    var imgEl = body.querySelector(".gallery-viewer-img");
+    var actionsEl = body.querySelector(".gallery-viewer-actions");
+    if(att){
+      sb.storage.from("shed-attachments").createSignedUrl(att.storage_path, 3600).then(function(res){
+        if(!res.error && res.data) imgEl.src = res.data.signedUrl;
+      });
+      var openBtn = document.createElement("button");
+      openBtn.type = "button";
+      openBtn.className = "btn ghost";
+      openBtn.textContent = "Open in new tab";
+      openBtn.addEventListener("click", function(){
+        sb.storage.from("shed-attachments").createSignedUrl(att.storage_path, 3600).then(function(res){
+          if(res.error || !res.data){ alert("Couldn't open that file. Please try again."); return; }
+          window.open(res.data.signedUrl, "_blank");
+        });
+      });
+      actionsEl.appendChild(openBtn);
+      var dlBtn = document.createElement("button");
+      dlBtn.type = "button";
+      dlBtn.className = "btn alt";
+      dlBtn.textContent = "Download";
+      dlBtn.addEventListener("click", function(){
+        sb.storage.from("shed-attachments")
+          .createSignedUrl(att.storage_path, 3600, { download: att.file_name })
+          .then(function(res){
+            if(res.error || !res.data){ alert("Couldn't download that file. Please try again."); return; }
+            window.open(res.data.signedUrl, "_blank");
+          });
+      });
+      actionsEl.appendChild(dlBtn);
+    }
+    body.querySelector(".delete-item").addEventListener("click", function(){
+      if(!confirm('Move "' + item.title + '" to the Recycle Bin?')) return;
+      var delBtn = body.querySelector(".delete-item");
+      delBtn.disabled = true;
+      sb.rpc("shed_delete_item", { p: window.SHED_PASSPHRASE, item_id: item.id }).then(function(res){
+        delBtn.disabled = false;
+        if(res.error){
+          alert("Couldn't delete that. Please try again.");
+          return;
+        }
+        moveItemToBin(item);
+        closeDeskWindow(stageEl, win);
+      });
+    });
   }
 
   // The Format Legal Docs tool (17 September 2026): pick any document in the shed, pick an
@@ -3951,6 +4250,7 @@
         '<div class="link-doc-row" style="display:flex; align-items:center; gap:8px; margin-bottom:6px; flex-wrap:wrap;">' +
           '<button type="button" class="btn ghost choose-doc">Link a document…</button>' +
           '<button type="button" class="btn ghost upload-doc">Upload a document…</button>' +
+          '<button type="button" class="btn ghost choose-photo">Link a photo…</button>' +
           '<input type="file" class="upload-doc-input" style="display:none;">' +
           '<span class="linked-doc-label" style="font-family:\'Kalam\',cursive;"></span>' +
         '</div>' +
@@ -4057,6 +4357,17 @@
     });
     overlay.querySelector(".choose-doc").addEventListener("click", function(){
       openDocumentPicker(stageEl, function(item){
+        linkedItem = item;
+        linkedLabel.textContent = "Linked: " + item.title;
+        checkExistingNotice();
+      });
+    });
+
+    // "Link a photo..." (17 September 2026): same linkedItem/linkedLabel/checkExistingNotice
+    // flow as "Link a document...", just picking from the Gallery instead of the Cabinet --
+    // see openGalleryImagePicker, next to openDocumentPicker.
+    overlay.querySelector(".choose-photo").addEventListener("click", function(){
+      openGalleryImagePicker(stageEl, function(item){
         linkedItem = item;
         linkedLabel.textContent = "Linked: " + item.title;
         checkExistingNotice();
