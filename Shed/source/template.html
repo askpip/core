@@ -226,6 +226,20 @@
     border-radius:8px; padding:7px 11px; cursor:pointer; margin:2px 0 14px;
   }
   .desk-window .approval-block{ border-top:1px dashed var(--pip-border); margin-top:14px; padding-top:12px; }
+  /* Multiple links on a notice (21 September 2026): the headline link stays as the big
+     .linked-doc-btn above; every further document, photo or web link lives in this block. */
+  .desk-window .item-links-block{ border-top:1px dashed var(--pip-border); margin-top:6px; padding-top:10px; }
+  .desk-window .item-link-row{ display:flex; align-items:center; gap:8px; margin:4px 0; }
+  .desk-window .item-link-row a{ flex:1; min-width:0; overflow-wrap:anywhere; font-family:'Nunito',sans-serif; font-weight:700; font-size:.85rem; color:var(--wood-dark); }
+  .desk-window .item-link-add{ display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin-top:8px; }
+  .desk-window .item-link-add input[type=text]{ flex:1 1 160px; min-width:0; padding:6px 8px; border:1.5px solid var(--pip-border); border-radius:6px; font-family:'Nunito',sans-serif; font-size:.85rem; }
+  .create-form .item-link-add{ display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+  .create-form .item-link-add input[type=text]{ flex:1 1 160px; min-width:0; padding:6px 8px; border:1.5px solid var(--pip-border); border-radius:6px; font-family:'Nunito',sans-serif; font-size:.85rem; }
+  .link-chips{ display:flex; flex-wrap:wrap; gap:6px; margin:4px 0 8px; }
+  .link-chip{ display:inline-flex; align-items:center; gap:6px; background:#fff; border:1.5px solid var(--pip-border); border-radius:14px; padding:3px 4px 3px 10px; font-family:'Nunito',sans-serif; font-size:.8rem; font-weight:700; color:var(--wood-dark); max-width:100%; }
+  .link-chip .chip-text{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:220px; }
+  .link-chip .chip-tag{ font-weight:400; opacity:.7; }
+  .link-chip button{ border:none; background:transparent; cursor:pointer; font-size:1rem; line-height:1; padding:0 6px; color:var(--wood-dark); }
   .desk-window .approval-check{ display:flex; align-items:center; gap:8px; font-family:'Kalam',cursive; font-size:1rem; margin-bottom:8px; }
   .desk-window .approval-check input{ width:19px; height:19px; accent-color:var(--moss); }
   /* approvalMetaText's three states get distinct colors so the result of Save/Request Review
@@ -887,6 +901,25 @@
   // uses for todos, rather than nested onto each item object.
   var ATTACHMENTS = {};
 
+  // Extra links on a notice (shed_item_links rows, 21 September 2026), keyed by the notice's
+  // item id: any number of further documents, photos or web addresses beyond the single
+  // "headline" linked_item_id. Same flat side-map pattern as ATTACHMENTS.
+  var ITEM_LINKS = {};
+  function applyItemLinks(rows){
+    ITEM_LINKS = {};
+    (rows || []).forEach(function(row){
+      if(!ITEM_LINKS[row.item_id]) ITEM_LINKS[row.item_id] = [];
+      ITEM_LINKS[row.item_id].push(row);
+    });
+  }
+  // Only ordinary web addresses may be linked (never javascript:, data: etc.).
+  function safeHttpUrl(u){
+    try{
+      var x = new URL(String(u || "").trim());
+      return (x.protocol === "http:" || x.protocol === "https:") ? x.href : null;
+    }catch(e){ return null; }
+  }
+
   // Reusable notice shapes (shed_notice_templates), loaded once at unlock -- not passphrase
   // sensitive, so this can be fetched even before the New Notice composer is opened.
   var NOTICE_TEMPLATES = [];
@@ -959,12 +992,14 @@
   function fetchAllItems(pass){
     return Promise.all([
       sb.rpc("shed_list_items", { p: pass }),
-      sb.rpc("shed_list_attachments", { p: pass })
+      sb.rpc("shed_list_attachments", { p: pass }),
+      sb.rpc("shed_list_item_links", { p: pass })
     ]).then(function(results){
-      var itemsRes = results[0], attachRes = results[1];
+      var itemsRes = results[0], attachRes = results[1], linksRes = results[2];
       if(itemsRes.error){ throw itemsRes.error; }
       applyItems(itemsRes.data);
       if(!attachRes.error){ applyAttachments(attachRes.data); }
+      if(linksRes && !linksRes.error){ applyItemLinks(linksRes.data); }
       updateBoardBadge();
     });
   }
@@ -2107,6 +2142,11 @@
       body.appendChild(linkBtnGeneral);
     }
 
+    // Any number of further links (documents, photos, web addresses) on a notice.
+    if(item.loc === "board" && item.id != null){
+      body.appendChild(buildItemLinksBlock(stageEl, item));
+    }
+
     if(item.requiresApproval){
       var block = document.createElement("div");
       block.className = "approval-block";
@@ -2556,29 +2596,13 @@
         uploadBtn.className = "btn";
         uploadBtn.textContent = "Upload";
         uploadRow.appendChild(uploadBtn);
-        // "Link a document..." / "Link a photo..." (17 September 2026): the counterpart to
-        // Upload for a file that already exists elsewhere in the shed -- same parity the New
-        // Notice composer already has (Link a document / Upload a document / Link a photo),
-        // now also available once an item already exists, not just while creating one. Both
-        // just pick from a different browser (Cabinet vs Gallery) and record the link the same
-        // way, via shed_link_item_attachment, instead of uploading new bytes.
-        var linkDocBtn = document.createElement("button");
-        linkDocBtn.type = "button";
-        linkDocBtn.className = "btn ghost";
-        linkDocBtn.textContent = "Link a document…";
-        uploadRow.appendChild(linkDocBtn);
-        var linkPhotoBtn = document.createElement("button");
-        linkPhotoBtn.type = "button";
-        linkPhotoBtn.className = "btn ghost";
-        linkPhotoBtn.textContent = "Link a photo…";
-        uploadRow.appendChild(linkPhotoBtn);
         replyBlock.appendChild(uploadRow);
 
         var uploadHint = document.createElement("p");
         uploadHint.className = "empty-note";
         uploadHint.style.margin = "6px 0 0";
         uploadHint.style.fontSize = ".76rem";
-        uploadHint.textContent = "Choose a file from your computer and Upload, or Link something already in the Cabinet or Gallery.";
+        uploadHint.textContent = "Choose a file from your computer and Upload. To point at something already in the Cabinet or Gallery, or at a web page, use Links above.";
         replyBlock.appendChild(uploadHint);
 
         uploadBtn.addEventListener("click", function(){
@@ -2603,29 +2627,6 @@
               refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
             });
           });
-        });
-
-        // Shared by both Link buttons: record a link to pickedItem's own file, then patch it
-        // into ATTACHMENTS/renderAttachList the same way a real upload does. Idempotent server-
-        // side (shed_link_item_attachment upserts on (item_id, storage_path)), so linking
-        // something that's already linked here just confirms it instead of erroring.
-        function linkItem(btn, pickedItem){
-          btn.disabled = true;
-          sb.rpc("shed_link_item_attachment", { p: window.SHED_PASSPHRASE, item_id: item.id, linked_id: pickedItem.id }).then(function(res){
-            btn.disabled = false;
-            if(res.error || !res.data){ alert("Couldn't link that. Please try again."); return; }
-            if(!ATTACHMENTS[item.id]) ATTACHMENTS[item.id] = [];
-            var already = ATTACHMENTS[item.id].some(function(x){ return x.id === res.data.id; });
-            if(!already) ATTACHMENTS[item.id].push(res.data);
-            renderAttachList();
-            refreshRelatedDeskWindows(stageEl, { todoId: item.todoId, skip: win });
-          });
-        }
-        linkDocBtn.addEventListener("click", function(){
-          openDocumentPicker(stageEl, function(docItem){ linkItem(linkDocBtn, docItem); });
-        });
-        linkPhotoBtn.addEventListener("click", function(){
-          openGalleryImagePicker(stageEl, function(galleryItem){ linkItem(linkPhotoBtn, galleryItem); });
         });
       }
 
@@ -3601,6 +3602,143 @@
     }
   }
 
+
+  // The "Links" block on a notice's desk panel (21 September 2026, Founder instruction: a
+  // notice must take more than one link -- documents, photos, web addresses). Lists every
+  // shed_item_links row for the notice, each openable (documents/photos open on the desk,
+  // web addresses in a new tab) and removable, plus controls to add more. The single headline
+  // link (linked_item_id) is still the big button above this block.
+  function buildItemLinksBlock(stageEl, item){
+    var wrap = document.createElement("div");
+    wrap.className = "item-links-block";
+    var label = document.createElement("label");
+    label.className = "notes-label";
+    label.textContent = "Links";
+    wrap.appendChild(label);
+    var listEl = document.createElement("div");
+    wrap.appendChild(listEl);
+
+    function render(){
+      var links = ITEM_LINKS[item.id] || [];
+      listEl.innerHTML = "";
+      if(!links.length){
+        var none = document.createElement("p");
+        none.className = "empty-note";
+        none.style.margin = "2px 0";
+        none.textContent = item.linkedItemId ? "No other links yet." : "No links yet.";
+        listEl.appendChild(none);
+        return;
+      }
+      links.forEach(function(l){
+        var row = document.createElement("div");
+        row.className = "item-link-row";
+        var a = document.createElement("a");
+        a.href = "#";
+        var target = l.linked_item_id ? findItemById(l.linked_item_id) : null;
+        if(l.url){
+          var href = safeHttpUrl(l.url);
+          a.textContent = "🔗 " + (l.label || l.url);
+          a.title = l.url;
+          if(href){
+            a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer";
+          } else {
+            a.addEventListener("click", function(e){ e.preventDefault(); });
+          }
+        } else {
+          a.textContent = (target && target.loc === "gallery" ? "🖼️ " : "📄 ") + (l.label || (target ? target.title : ("Document #" + l.linked_item_id + " (no longer available)")));
+          a.addEventListener("click", function(e){
+            e.preventDefault();
+            var fresh = findItemById(l.linked_item_id);
+            if(!fresh){ alert("That item couldn't be found (it may have been removed)."); return; }
+            addToDesk(stageEl, fresh);
+          });
+        }
+        row.appendChild(a);
+        var rm = document.createElement("button");
+        rm.type = "button";
+        rm.className = "btn ghost";
+        rm.style.cssText = "padding:2px 8px; font-size:.75rem; flex:none;";
+        rm.textContent = "Remove";
+        rm.addEventListener("click", function(){
+          rm.disabled = true;
+          sb.rpc("shed_remove_item_link", { p: window.SHED_PASSPHRASE, p_link_id: l.id }).then(function(res){
+            if(res.error){ rm.disabled = false; alert("Couldn't remove that link. Please try again."); return; }
+            ITEM_LINKS[item.id] = (ITEM_LINKS[item.id] || []).filter(function(x){ return x.id !== l.id; });
+            render();
+          });
+        });
+        row.appendChild(rm);
+        listEl.appendChild(row);
+      });
+    }
+    render();
+
+    var addRow = document.createElement("div");
+    addRow.className = "item-link-add";
+    var docBtn = document.createElement("button");
+    docBtn.type = "button"; docBtn.className = "btn ghost"; docBtn.textContent = "Link a document…";
+    var photoBtn = document.createElement("button");
+    photoBtn.type = "button"; photoBtn.className = "btn ghost"; photoBtn.textContent = "Link a photo…";
+    var webBtn = document.createElement("button");
+    webBtn.type = "button"; webBtn.className = "btn ghost"; webBtn.textContent = "Add a web link…";
+    addRow.appendChild(docBtn); addRow.appendChild(photoBtn); addRow.appendChild(webBtn);
+    wrap.appendChild(addRow);
+
+    var webRow = document.createElement("div");
+    webRow.className = "item-link-add";
+    webRow.style.display = "none";
+    var urlIn = document.createElement("input");
+    urlIn.type = "text"; urlIn.placeholder = "https://…";
+    var labIn = document.createElement("input");
+    labIn.type = "text"; labIn.placeholder = "Label (optional)";
+    var goBtn = document.createElement("button");
+    goBtn.type = "button"; goBtn.className = "btn"; goBtn.textContent = "Add";
+    var webMsg = document.createElement("span");
+    webMsg.style.cssText = "flex-basis:100%; font-size:.78rem; color:#a33;";
+    webRow.appendChild(urlIn); webRow.appendChild(labIn); webRow.appendChild(goBtn); webRow.appendChild(webMsg);
+    wrap.appendChild(webRow);
+
+    function addLink(args, btn, done){
+      var links = ITEM_LINKS[item.id] || [];
+      var dup = links.some(function(x){
+        return (args.p_linked_id != null && x.linked_item_id === args.p_linked_id) || (args.p_url && x.url === args.p_url);
+      }) || (args.p_linked_id != null && item.linkedItemId === args.p_linked_id);
+      if(dup){ if(done) done(true); return; }
+      btn.disabled = true;
+      var params = { p: window.SHED_PASSPHRASE, p_item_id: item.id };
+      Object.keys(args).forEach(function(k){ params[k] = args[k]; });
+      sb.rpc("shed_add_item_link", params).then(function(res){
+        btn.disabled = false;
+        if(res.error || !res.data){ alert((res.error && res.error.message) || "Couldn't add that link. Please try again."); return; }
+        if(!ITEM_LINKS[item.id]) ITEM_LINKS[item.id] = [];
+        ITEM_LINKS[item.id].push(res.data);
+        render();
+        if(done) done(true);
+      });
+    }
+    docBtn.addEventListener("click", function(){
+      openDocumentPicker(stageEl, function(d){ addLink({ p_linked_id: d.id }, docBtn); });
+    });
+    photoBtn.addEventListener("click", function(){
+      openGalleryImagePicker(stageEl, function(g){ addLink({ p_linked_id: g.id }, photoBtn); });
+    });
+    webBtn.addEventListener("click", function(){
+      webRow.style.display = webRow.style.display === "none" ? "flex" : "none";
+      if(webRow.style.display !== "none") urlIn.focus();
+    });
+    function submitWeb(){
+      var href = safeHttpUrl(urlIn.value);
+      if(!href){ webMsg.textContent = "Please enter a full web address starting with http:// or https://"; return; }
+      webMsg.textContent = "";
+      addLink({ p_url: href, p_label: labIn.value.trim() || null }, goBtn, function(){
+        urlIn.value = ""; labIn.value = ""; webRow.style.display = "none";
+      });
+    }
+    goBtn.addEventListener("click", submitWeb);
+    urlIn.addEventListener("keydown", function(e){ if(e.key === "Enter"){ e.preventDefault(); submitWeb(); } });
+    return wrap;
+  }
+
   // Builds an item object from a shed_items row in the same shape applyItems uses, so
   // freshly created rows (from shed_add_notice/shed_add_item) behave identically to ones
   // loaded at unlock -- including being openable as a full notice/approval panel on the desk.
@@ -4326,9 +4464,17 @@
           '<button type="button" class="btn ghost choose-doc">Link a document…</button>' +
           '<button type="button" class="btn ghost upload-doc">Upload a document…</button>' +
           '<button type="button" class="btn ghost choose-photo">Link a photo…</button>' +
+          '<button type="button" class="btn ghost add-web">Add a web link…</button>' +
           '<input type="file" class="upload-doc-input" style="display:none;">' +
           '<span class="linked-doc-label" style="font-family:\'Kalam\',cursive;"></span>' +
         '</div>' +
+        '<div class="item-link-add web-add-row" style="display:none; margin-bottom:6px;">' +
+          '<input type="text" class="web-url" placeholder="https://…">' +
+          '<input type="text" class="web-label" placeholder="Label (optional)">' +
+          '<button type="button" class="btn web-add-go">Add</button>' +
+          '<span class="web-msg" style="flex-basis:100%; font-size:.78rem; color:#a33;"></span>' +
+        '</div>' +
+        '<div class="link-chips"></div>' +
         '<div class="existing-notice-warning" style="display:none; background:#fdecea; border:1px solid #c0392b; border-radius:6px; padding:8px 10px; margin-bottom:8px; font-size:.85rem; color:#8a2f22;"></div>' +
         '<div class="actions" style="margin-top:10px;">' +
           '<button class="btn pin">Pin to Notice Board</button>' +
@@ -4348,9 +4494,47 @@
     var linkRow = overlay.querySelector(".link-doc-row");
     var linkedLabel = overlay.querySelector(".linked-doc-label");
     var warningBox = overlay.querySelector(".existing-notice-warning");
-    var linkedItem = null;
+    var linkedItem = null;       // the FIRST linked document/photo -- becomes the notice's headline link
+    var linkedItems = [];        // every document/photo picked, in order
+    var webLinks = [];           // {url, label} web addresses picked
+    var chipsEl = overlay.querySelector(".link-chips");
     var blockedByExistingNotice = null; // the open notice this document already has, if any
     var pinBtn = overlay.querySelector(".pin");
+
+    // Multiple links (21 September 2026): everything picked below is shown as a removable chip.
+    // The first document/photo becomes the notice's headline link (linked_item_id, and what the
+    // duplicate-open-notice check looks at); every further document/photo and every web address
+    // is saved as a shed_item_links row right after the notice is created.
+    function renderChips(){
+      linkedItem = linkedItems[0] || null;
+      chipsEl.innerHTML = "";
+      function chip(text, tag, onRemove){
+        var c = document.createElement("span");
+        c.className = "link-chip";
+        var t = document.createElement("span");
+        t.className = "chip-text"; t.textContent = text; t.title = text;
+        c.appendChild(t);
+        if(tag){ var g = document.createElement("span"); g.className = "chip-tag"; g.textContent = tag; c.appendChild(g); }
+        var x = document.createElement("button");
+        x.type = "button"; x.textContent = "×"; x.title = "Remove";
+        x.addEventListener("click", onRemove);
+        c.appendChild(x);
+        chipsEl.appendChild(c);
+      }
+      linkedItems.forEach(function(it, i){
+        chip((it.loc === "gallery" ? "🖼️ " : "📄 ") + it.title, i === 0 ? "main" : "", function(){
+          linkedItems.splice(i, 1); renderChips();
+        });
+      });
+      webLinks.forEach(function(w, i){
+        chip("🔗 " + (w.label || w.url), "", function(){ webLinks.splice(i, 1); renderChips(); });
+      });
+      checkExistingNotice();
+    }
+    function addLinkedItem(it){
+      if(!linkedItems.some(function(x){ return x.id === it.id; })) linkedItems.push(it);
+      renderChips();
+    }
 
     // Notice templates (10 September 2026): reusable shapes saved server-side in
     // shed_notice_templates (see the migration's seed rows -- "founder_review" and
@@ -4431,23 +4615,35 @@
       checkExistingNotice();
     });
     overlay.querySelector(".choose-doc").addEventListener("click", function(){
-      openDocumentPicker(stageEl, function(item){
-        linkedItem = item;
-        linkedLabel.textContent = "Linked: " + item.title;
-        checkExistingNotice();
-      });
+      openDocumentPicker(stageEl, function(item){ addLinkedItem(item); });
     });
 
     // "Link a photo..." (17 September 2026): same linkedItem/linkedLabel/checkExistingNotice
     // flow as "Link a document...", just picking from the Gallery instead of the Cabinet --
     // see openGalleryImagePicker, next to openDocumentPicker.
     overlay.querySelector(".choose-photo").addEventListener("click", function(){
-      openGalleryImagePicker(stageEl, function(item){
-        linkedItem = item;
-        linkedLabel.textContent = "Linked: " + item.title;
-        checkExistingNotice();
-      });
+      openGalleryImagePicker(stageEl, function(item){ addLinkedItem(item); });
     });
+
+    // "Add a web link..." -- an ordinary http/https address, with an optional label.
+    var webAddRow = overlay.querySelector(".web-add-row");
+    var webUrlIn = overlay.querySelector(".web-url");
+    var webLabelIn = overlay.querySelector(".web-label");
+    var webMsgEl = overlay.querySelector(".web-msg");
+    overlay.querySelector(".add-web").addEventListener("click", function(){
+      webAddRow.style.display = webAddRow.style.display === "none" ? "flex" : "none";
+      if(webAddRow.style.display !== "none") webUrlIn.focus();
+    });
+    function submitWebLink(){
+      var href = safeHttpUrl(webUrlIn.value);
+      if(!href){ webMsgEl.textContent = "Please enter a full web address starting with http:// or https://"; return; }
+      webMsgEl.textContent = "";
+      if(!webLinks.some(function(w){ return w.url === href; })) webLinks.push({ url: href, label: webLabelIn.value.trim() });
+      webUrlIn.value = ""; webLabelIn.value = ""; webAddRow.style.display = "none";
+      renderChips();
+    }
+    overlay.querySelector(".web-add-go").addEventListener("click", submitWebLink);
+    webUrlIn.addEventListener("keydown", function(e){ if(e.key === "Enter"){ e.preventDefault(); submitWebLink(); } });
 
     // Upload a document (10 September 2026, Founder instruction): the counterpart to "Link a
     // document..." for a file that doesn't exist as a Cabinet document yet -- choosing a file
@@ -4474,7 +4670,7 @@
         if(res.error || !res.data){
           uploadDocBtn.disabled = false;
           uploadDocInput.value = "";
-          linkedLabel.textContent = linkedItem ? ("Linked: " + linkedItem.title) : "";
+          linkedLabel.textContent = "";
           alert("Couldn't file that upload in the Cabinet. Please try again.");
           return;
         }
@@ -4485,10 +4681,9 @@
         sb.storage.from("shed-attachments").upload(path, file).then(function(upRes){
           uploadDocBtn.disabled = false;
           uploadDocInput.value = "";
-          linkedItem = newItem;
-          checkExistingNotice();
+          addLinkedItem(newItem);
           if(upRes.error){
-            linkedLabel.textContent = "Linked: " + newItem.title + " (file upload failed — open it from From the Desk to retry)";
+            linkedLabel.textContent = "File upload failed for " + newItem.title + " — open it from From the Desk to retry";
             return;
           }
           sb.rpc("shed_add_attachment", { p: window.SHED_PASSPHRASE, item_id: newItem.id, file_name: file.name, storage_path: path, size_bytes: file.size }).then(function(attRes){
@@ -4496,7 +4691,7 @@
               if(!ATTACHMENTS[newItem.id]) ATTACHMENTS[newItem.id] = [];
               ATTACHMENTS[newItem.id].push(attRes.data);
             }
-            linkedLabel.textContent = "Uploaded & linked: " + newItem.title;
+            linkedLabel.textContent = "";
           });
         });
       });
@@ -4529,8 +4724,26 @@
         var item = itemFromRow(res.data, "board");
         CONTENT.board.items.unshift(item);
         updateBoardBadge();
-        close();
-        addToDesk(stageEl, item);
+        // Every link beyond the headline one (linked_id above) is recorded as a shed_item_links
+        // row, one after another so they keep the order they were picked in.
+        var extras = linkedItems.slice(1).map(function(it){ return { p_linked_id: it.id }; })
+          .concat(webLinks.map(function(w){ return { p_url: w.url, p_label: w.label || null }; }));
+        var failed = 0;
+        extras.reduce(function(chain, args){
+          return chain.then(function(){
+            var params = { p: window.SHED_PASSPHRASE, p_item_id: item.id };
+            Object.keys(args).forEach(function(k){ params[k] = args[k]; });
+            return sb.rpc("shed_add_item_link", params).then(function(r){
+              if(r.error || !r.data){ failed++; return; }
+              if(!ITEM_LINKS[item.id]) ITEM_LINKS[item.id] = [];
+              ITEM_LINKS[item.id].push(r.data);
+            });
+          });
+        }, Promise.resolve()).then(function(){
+          close();
+          addToDesk(stageEl, item);
+          if(failed) alert("The notice was pinned, but " + failed + " link" + (failed === 1 ? "" : "s") + " couldn't be added. Open the notice and add " + (failed === 1 ? "it" : "them") + " under Links.");
+        });
       });
     });
     overlay.querySelector(".file").addEventListener("click", function(){

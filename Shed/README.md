@@ -1908,6 +1908,66 @@ still needs a git commit/push to actually deploy to `shed.askpip.garden`
 (this session had no shell access on the linked device to do that itself
 — see the CHANGELOG entry's own commit instructions).
 
+## Notices can carry any number of links (added 21 September 2026)
+
+**Why.** A notice used to have one "headline" link (`shed_items.linked_item_id`) to
+a single Cabinet document, plus file attachments (`shed_item_attachments`). That was
+too tight: the Founder Attention Request for `FRD-BUSHROSE-PRUNINGFRAMEWORK-01` needs
+to point at the full FRD, the plain-language FRD Brief, the Review Form and the
+Research Notes at once, and a document that came in through the GitHub sync cannot be
+attached as a file (`shed_link_item_attachment` fails with "that item has no file to
+link" for a synced markdown doc). Founder instruction: "Make the notice able to take
+more links, photos, forms etc."
+
+**Database (Supabase migration `shed_item_links_multiple_notice_links`).**
+
+- New table `shed_item_links` (`id`, `item_id` -> the notice, `linked_item_id` -> any
+  other `shed_items` row *or* `url`, optional `label`, `added_by`, `added_at`,
+  `sort_order`). Exactly one of `linked_item_id` / `url` is set per row. RLS on, no
+  policies, table privileges revoked -- same pattern as every other Shed table.
+- Three passphrase-gated `SECURITY DEFINER` RPCs, like the rest of the Shed:
+  `shed_list_item_links(p)`, `shed_add_item_link(p, p_item_id, p_linked_id, p_url, p_label)`
+  (attributes the row to the caller via the passphrase; only http/https addresses are
+  accepted) and `shed_remove_item_link(p, p_link_id)`.
+- `linked_item_id` is unchanged and still means "the main document" -- it still drives
+  the duplicate-open-notice guard and the big "Review:/Open:" button. `shed_item_links`
+  holds everything *beyond* that, in the order added.
+
+**Client (`source/template.html`).**
+
+- `fetchAllItems` now also calls `shed_list_item_links` and keeps the result in
+  `ITEM_LINKS` (keyed by notice id). A failure there is tolerated, like attachments.
+- A notice's desk panel (Notice Board items only) has a **Links** block under the
+  headline button: every extra document, photo or web link is listed and clickable
+  (documents and photos open on the desk, web addresses in a new tab with
+  `rel="noopener noreferrer"`), each with **Remove**, plus **Link a document...**,
+  **Link a photo...** and **Add a web link...** (inline address + optional label, no
+  browser prompt; anything not starting `http://` or `https://` is refused).
+  The old "Link a document..."/"Link a photo..." buttons in the Attachments block were
+  removed so there is one place to link things; the Attachments block is now just file
+  uploads (already attached links still display).
+- The **New Notice / Document** composer accepts several links: each document, photo
+  or web address picked appears as a removable chip; **Upload a document...** still
+  files the upload in the Cabinet and adds it as a chip. The *first* document/photo is
+  the headline link (`linked_id` in `shed_add_notice`); the rest, and every web
+  address, are saved as `shed_item_links` rows straight after the notice is created,
+  in the order picked. If any of those follow-up calls fails the notice still exists
+  and the user is told to add the missing ones under **Links**.
+- Picking a document that already has an open notice as the *headline* is still
+  blocked; picking one as a further link is not.
+
+**Tested** in headless Chromium against a stubbed Supabase client (unlock, open notice,
+add/refuse/remove a web link, link a document and a photo, open a linked document on
+the desk, composer chips incl. removal, pin with headline + 2 further links). Live
+Supabase RPCs were exercised separately with a throwaway user, then that user was
+deleted. Not verified against the real page with a real passphrase from this session --
+worth a quick click-through after deploy.
+
+**Live data.** Notice `2246` ("Founder Attention Request", FRD bush-rose pruning
+framework) is linked to the full FRD as its headline. Its extra links (FRD Brief, Review
+Form, Research Notes) can only be added once those files have been pushed and synced into
+the Cabinet.
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`

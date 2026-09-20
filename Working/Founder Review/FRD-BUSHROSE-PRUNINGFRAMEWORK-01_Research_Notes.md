@@ -6,22 +6,23 @@
 
 ## What this file is
 
-This file keeps the working material behind the dossier's source log so that quotations and attributions in the dossier can be traced and re-checked. It has four parts.
+This file keeps the working material behind the dossier's source log so that quotations and attributions in the dossier can be traced and re-checked. It has two parts and a note on use, matching the description in the dossier's §4 "Traceability".
 
-- **Part 1** — first-pass extraction output for eight sources (RHS, OSU, ILL, CLE, UCG, CSU, ISU, ARS), exactly as returned by the page-reading tool.
-- **Part 2** — second- and third-pass extraction output for thirteen further pages, exactly as returned by the page-reading tool, with the requested URL added as a heading.
-- **Part 3** — ROC's condensed notes on the second and third batches, written while reading.
-- **Part 4** — how to use this file, and its limitation.
+- **Part 1 — extraction output as returned by the page-reading tool.** Section 1A holds the first-pass output for eight sources (RHS, OSU, ILL, CLE, UCG, CSU, ISU, ARS). Section 1B holds the second- and third-pass output for fourteen further page fetches (thirteen pages, plus the redirect notice for the old UGA address), with the requested URL added as a heading.
+- **Part 2 — ROC's condensed notes** on the second and third batches, written while reading. These are the ROC's notes of the extraction output, not verbatim text.
+- **Use** — how to check a quotation, and the limitation.
 
 ## Standing limitation (dossier R-11)
 
 The page-reading tool returns a **machine-generated summary of each page**, not the page text. Where a summary shows wording in quotation marks, that wording has been reported by the tool as quoted; it has **not** been checked character-for-character against the live page. Every quotation the dossier relies on should be re-verified against the live page before any ARC is drafted from it. Nothing in this file has been altered from the tool output except the headings added by ROC and the removal of the tool's own preamble where noted.
 
-Some sources listed in the dossier's source log were read in earlier working sessions whose raw output is not reproduced here; for those, only the condensed notes in Part 3 (if any) survive.
+Some sources listed in the dossier's source log were read in earlier working sessions whose raw output is not reproduced here; for those, only the condensed notes in Part 2 (if any) survive.
 
 ---
 
-# Part 1 — First-pass extraction output (as returned)
+# Part 1 — Extraction output as returned
+
+## 1A. First-pass output
 
 ### RHS (first extraction pass)
 
@@ -777,7 +778,7 @@ Structure: "canes emanate from the bud union like spokes of a wheel with no cros
 
 ---
 
-# Part 2 — Second- and third-pass extraction output (as returned)
+## 1B. Second- and third-pass output
 
 ### Requested URL: https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide
 
@@ -1443,7 +1444,7 @@ Four images credited to Wikimedia Commons, Sierra Foothill Rose Society, "Rosie 
 
 ---
 
-# Part 3 — ROC's condensed notes on batches 2 and 3
+# Part 2 — ROC's condensed notes on batches 2 and 3
 
 # Source log batch 2 (fetched 21 Sep 2026; WebFetch summaries — verify against page before quoting)
 
@@ -1522,6 +1523,6 @@ SEARCHED, NOT FOUND (targeted): explicit conflict-resolution rule when a stem fi
 
 ---
 
-# Part 4 — Use
+# Use
 
-To check a quotation: find the source code in the dossier's §4 source log, locate that source in Part 1 or Part 2 above, then open the live page at the URL given and confirm the wording. Record any difference in a new revision of the dossier, not by editing this file.
+To check a quotation: find the source code in the dossier's §4 source log, locate that source in Part 1 (1A or 1B) above, or in the condensed notes in Part 2, then open the live page at the URL given and confirm the wording. Record any difference in a new revision of the dossier, not by editing this file.
