@@ -1968,6 +1968,70 @@ framework) is linked to the full FRD as its headline. Its extra links (FRD Brief
 Form, Research Notes) can only be added once those files have been pushed and synced into
 the Cabinet.
 
+## Fillable forms (added 21 September 2026)
+
+**Why.** The desk shows synced documents as plain text, so the first "Review Form" for
+`FRD-BUSHROSE-PRUNINGFRAMEWORK-01` (a Markdown file full of `[ ]` boxes) could not
+actually be filled in when opened on the desktop, and was too busy. Founder instruction:
+a real fill-in form, with real check boxes and fields, uncluttered, opened in a desk tab.
+It is also meant as the pattern for future Founder-approval forms.
+
+**How a document becomes a form.** If the *first line* of a synced `.md` file is
+`<!-- shed-form v1 -->`, the desk shows it as a form instead of raw text (`isShedForm`,
+`parseShedForm`, `renderFormBody` in `source/template.html`); it opens full size, like the
+To-Do List. The file stays ordinary readable Markdown for Core. Syntax, one directive per
+line:
+
+| Directive | Shows |
+|---|---|
+| `[[choice:id\|Question\|Option A;Option B\|comment]]` | Question with radio buttons. Fourth argument optional: `comment` adds an optional comment box behind a small link; `why` opens the comment box automatically when any option other than the first is chosen. |
+| `[[claim:id\|Option A;Option B]]` | Radio buttons for the card above it, with the `why` behaviour. |
+| `[[checks:id\|Question\|Option A;Option B]]` / `[[check:id\|Label]]` | Tick any / a single tick box. |
+| `[[text:id\|Label]]` / `[[area:id\|Label]]` | Short / long free text. |
+| `[[comment:id\|Link text]]` | A stand-alone optional comment box. |
+| `[[more:id\|Label\|Text]]` | A folded-away note (used for "Backing and caveats"). |
+| `## Section` (`## Section \| optional`) | Section heading; `optional` keeps its questions out of the progress count. |
+| `### Sub-heading`, `#### Card title \| Tag` | Sub-heading; a boxed card with an optional small tag. |
+| `> text`, `---` | Quoted text; ends the current card. |
+
+Text may use `**bold**` and `` `code` `` only. Other lines are paragraphs. Ids must be
+unique in the file and **must never be renamed once anyone has answered**, because answers
+are stored against the id.
+
+**What it does.** A progress bar counts answered required questions; answers autosave
+(600 ms after the last change); **Finish** locks the form (with a prompt listing what is
+unanswered, and "Finish anyway"); **Re-open to edit** unlocks it; **Download my answers**
+writes a Markdown copy. Once *both* people have finished, the form lists every question
+where their answers differ, with comments side by side. If the saved answers cannot be
+loaded, the form is not opened for editing at all, so a failed load can never overwrite
+someone's saved answers with blanks.
+
+**Database (migration `shed_form_responses`).** Table `shed_form_responses`
+(`item_id`, `user_name`, `answers` jsonb, `started_at`, `updated_at`, `submitted_at`;
+primary key `(item_id, user_name)`, cascade-deleted with the item; RLS on, no policies).
+RPCs: `shed_get_form_responses(p, p_item_id)` returns your own answers always, and the
+other person's answers **only when both of you have finished** (otherwise their row comes
+back with `answers = null`, showing only whether they have started/finished);
+`shed_save_form_response(p, p_item_id, p_answers, p_submit)` saves, refuses edits to a
+finished form unless `p_submit = false` re-opens it. Tested with two throwaway users
+(privacy before/after finishing, edit-after-finish refused, re-open hides answers again),
+then deleted.
+
+**Two things to know.**
+
+- The doc sync upserts on `source_path`, so re-pushing an edited form keeps the same row and
+  everyone's answers. But *renaming or moving* the form's file in Core makes the sync delete
+  the old row -- and with it every saved answer. Download answers first if a form has to move.
+- Reading the answers back into a Founder decision record is currently done by querying
+  `shed_form_responses`; there is no in-Shed export of both people's answers together yet.
+
+**Verified** in headless Chromium against a stubbed Supabase client (radio/comment
+behaviour, autosave payload, progress, optional section not counted, Finish with and without
+gaps, lock/re-open, download, compare, load failure, desktop and phone layouts). Not yet
+verified against the real page with a real passphrase.
+
+The first form built this way is `Working/Founder Review/FRD-BUSHROSE-PRUNINGFRAMEWORK-01_Review_Form.md`.
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`

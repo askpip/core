@@ -10,7 +10,7 @@
 **Prepared:** 21 September 2026, by Claude acting in the Research Origin Curator (ROC) role, at the request of the AskPIP Founder Authority  
 **Readers:** The two Founders, working individually
 
-> **What this document is, and is not.** The Founder Review Dossier (FRD) is the Founder Review Documentation, and it alone (FRDS section 2.1). It runs to about a thousand lines and is written to the Standard. This brief was asked for by the Founder because the FRD, on its own, does not make it clear what is being approved. It says the same things in plain English, in the order a decision needs them. It adds no evidence, changes no finding and changes no confidence level. Where this brief and the FRD differ, the FRD governs, and you should tell us. The FRDS (section 2.4) records that an earlier summary document was retired and that a summary may be reinstated by a Founder decision. This brief is a trial of that, and whether it becomes part of the process is a question in the Review Form (Part I).
+> **What this document is, and is not.** The Founder Review Dossier (FRD) is the Founder Review Documentation, and it alone (FRDS section 2.1). It runs to about a thousand lines and is written to the Standard. This brief was asked for by the Founder because the FRD, on its own, does not make it clear what is being approved. It says the same things in plain English, in the order a decision needs them. It adds no evidence, changes no finding and changes no confidence level. Where this brief and the FRD differ, the FRD governs, and you should tell us. The FRDS (section 2.4) records that an earlier summary document was retired and that a summary may be reinstated by a Founder decision. This brief is a trial of that, and whether it becomes part of the process is a question at the end of the Review Form.
 
 ---
 
@@ -19,13 +19,13 @@
 The research is finished. Your job now is to decide what, if anything, in it may become approved knowledge for Ask Pip. You are not being asked to decide how Pip will behave. That comes later. You may look at any part of the supporting record you wish (ROC Operations Manual section 11.3). Section 12 says where each part is.
 
 1. Read this brief.
-2. Open the Review Form and make your own copy, named with your own first name (the form's "Saving your copy and handing it in" section explains how). Work through it on your own.
-3. Upload your finished copy to the notice in the Shed. When you have both finished, compare your two forms. Anything you marked differently is what you need to talk about.
+2. Open the Review Form in the Shed and fill it in on your own. It is a real form, with tick boxes and text boxes. It saves as you go, and your answers stay private to you until you both press Finish.
+3. Press Finish at the top of the form. When you have both finished, the form shows where your answers differ. Anything you marked differently is what you need to talk about. ("Download my answers" gives you a copy as a file, if you want one.)
 4. Agree the combined outcome. The ROC then records it in the Research Commission Record (ROC Operations Manual section 11.8).
 
-You can keep the brief and the form open side by side in two tabs. The form's parts point to the brief's section numbers.
+You can keep the brief and the form open side by side in two tabs. The form points to the brief's section numbers.
 
-For every claim the form gives you four choices: **Approve**, **Approve with change**, **Flag** (you cannot decide yet, for a reason you give) or **Do not approve**. You can add a comment to any of them. These stand for the outcomes the ROC Operations Manual (section 11.6) allows: approve; approve subject to amendments; request additional research, correction or clarification, or defer; and decline.
+For every claim the form gives you four choices: **Approve**, **Approve with a change**, **Flag** (you cannot decide yet, for a reason you give) or **Do not approve**. You can add a comment to any of them. These stand for the outcomes the ROC Operations Manual (section 11.6) allows: approve; approve subject to amendments; request additional research, correction or clarification, or defer; and decline.
 
 ---
 
@@ -86,7 +86,7 @@ Three cautions.
 
 ## 5. What the research found
 
-Each table below shows the claim in plain words, its strength rating, its backing (how many of the 24 sources, how many organisations and how many of the four groups; see section 4), and anything worth knowing before you decide. The same claims, with the same numbers, are in the Review Form, Part C. The formal wording of each is in FRD section 7.1. The plain wording here is a paraphrase. If you think the plain wording changes the meaning, flag it.
+Each table below shows the claim in plain words, its strength rating, its backing (how many of the 24 sources, how many organisations and how many of the four groups; see section 4), and anything worth knowing before you decide. The same claims, with the same numbers, are in the Review Form, under "The thirty findings". The formal wording of each is in FRD section 7.1. The plain wording here is a paraphrase. If you think the plain wording changes the meaning, flag it.
 
 ### 5.1 Why we prune (Q1)
 
@@ -186,7 +186,7 @@ This is the cut itself. All ten claims answer Question 9. Most of the detail is 
 
 ## 6. Where the sources disagree
 
-Ten disagreements were found. The FRD records each as unresolved. It does not pick a winner, and where a source gives a reason for a difference the reason is recorded. Where the sources give none, the ROC does not supply one. The form (Part D) asks how you want each one treated. The FRD specifically asks about C1 to C4. C5 to C10 are included so that nothing is skipped.
+Ten disagreements were found. The FRD records each as unresolved. It does not pick a winner, and where a source gives a reason for a difference the reason is recorded. Where the sources give none, the ROC does not supply one. The form ("Where the sources disagree") asks how you want each one treated. The FRD specifically asks about C1 to C4. C5 to C10 are included so that nothing is skipped.
 
 | ID | Topic | What sources say | Reason given | Claim affected |
 |---|---|---|---|---|
@@ -263,15 +263,15 @@ The Review Form has a place for each. They follow the nine decision points in FR
 
 | No. | Decision | Where in the form | In plain words |
 |---|---|---|---|
-| 1 | Approve the findings? | Parts C and H | For each of the 30 claims, and then overall. The outcomes are: approve; approve subject to amendments; request additional research; request correction of the FRD; defer; or decline. You can approve some claims and not others. |
-| 2 | Once-flowering roses | Part G | AF-19 says old garden, rambling and rugosa roses are pruned differently. Do you want that recorded as a boundary of what Ask Pip supports, handled through the existing scope and Suitability Gate knowledge? |
-| 3 | Cut mechanics | Part G | Are the ten cut claims (AF-21 to AF-30) part of this same ARC? And do you want to decide separately how the cut findings are held and linked from each observation? |
-| 4 | The disagreements | Part D | Accept each as recorded, commission research, or give a direction. |
-| 5 | Older and younger wood | Part G | Sources use age of wood as a category, but it is not one of the six observations. Decide now whether it becomes a seventh, or after the ARC is approved? |
-| 6 | The crossing and inward-growth commission on hold | Part G | Resume it as two commissions, as one, as a commission on interactions (R-1, R-4), or keep it on hold? |
-| 7 | Further research | Part E | Which of R-1 to R-12 to commission, and in what order. |
-| 8 | Images | Part F | Confirm the register as the record of where things stand, and say whether a separate image step should be commissioned. |
-| 9 | Housekeeping | Part G | Confirm the label BUSHROSE-PRUNINGFRAMEWORK (and the ARC name that follows from it), record a priority (currently none), and decide whether a format for Research Commission Record identifiers should be defined. |
+| 1 | Approve the findings? | The thirty findings, then Your overall decision | For each of the 30 claims, and then overall. The outcomes are: approve; approve subject to amendments; request additional research; request correction of the FRD; defer; or decline. You can approve some claims and not others. |
+| 2 | Once-flowering roses | The other decisions | AF-19 says old garden, rambling and rugosa roses are pruned differently. Do you want that recorded as a boundary of what Ask Pip supports, handled through the existing scope and Suitability Gate knowledge? |
+| 3 | Cut mechanics | The other decisions | Are the ten cut claims (AF-21 to AF-30) part of this same ARC? And do you want to decide separately how the cut findings are held and linked from each observation? |
+| 4 | The disagreements | Where the sources disagree | Accept each as recorded, commission research, or give a direction. |
+| 5 | Older and younger wood | The other decisions | Sources use age of wood as a category, but it is not one of the six observations. Decide now whether it becomes a seventh, or after the ARC is approved? |
+| 6 | The crossing and inward-growth commission on hold | The other decisions | Resume it as two commissions, as one, as a commission on interactions (R-1, R-4), or keep it on hold? |
+| 7 | Further research | Further research | Which of R-1 to R-12 to commission, and in what order. |
+| 8 | Images | Images | Confirm the register as the record of where things stand, and say whether a separate image step should be commissioned. |
+| 9 | Housekeeping | The other decisions | Confirm the label BUSHROSE-PRUNINGFRAMEWORK (and the ARC name that follows from it), record a priority (currently none), and decide whether a format for Research Commission Record identifiers should be defined. |
 
 **The further research on offer (Decision 7).**
 

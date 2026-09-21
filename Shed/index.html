@@ -665,6 +665,46 @@
     background:#fffdf6; border-radius:6px; padding:22px 20px; box-shadow:0 2px 10px rgba(0,0,0,.15);
     font-family:'Kalam',cursive; font-size:1.05rem; line-height:1.5; white-space:pre-wrap;
   }
+  /* Fillable forms (21 September 2026) -- see renderFormBody. */
+  .doc-page.fm-form{ max-width:820px; margin:0 auto; white-space:normal; font-family:'Nunito',sans-serif; font-size:.95rem; line-height:1.45; padding:16px 18px 22px; }
+  .fm-form h4{ font-family:'Kalam',cursive; }
+  .fm-bar{ position:sticky; top:-14px; z-index:3; background:#fffdf6; margin:0 -18px 10px; padding:10px 18px 8px; border-bottom:1px solid var(--pip-border); }
+  .fm-bar-top{ display:flex; justify-content:space-between; gap:10px; font-size:.82rem; font-weight:700; color:var(--wood-dark); }
+  .fm-save-text{ font-weight:400; opacity:.75; text-align:right; }
+  .fm-save-text.bad{ color:#a33; opacity:1; }
+  .fm-track{ height:6px; border-radius:3px; background:#e6ecd9; margin:6px 0 8px; overflow:hidden; }
+  .fm-fill{ height:100%; width:0; background:var(--moss); transition:width .25s; }
+  .fm-bar-btns{ display:flex; gap:8px; flex-wrap:wrap; }
+  .fm-notice{ margin-top:8px; padding:8px 10px; border-radius:6px; font-size:.84rem; }
+  .fm-notice.ok{ background:#e8f2dd; border:1px solid #b9d3a5; }
+  .fm-notice.warn{ background:#fdf1dc; border:1px solid #e3c48a; }
+  .fm-notice .btn{ margin:4px 6px 0 0; }
+  .fm-who{ font-size:.82rem; opacity:.8; margin:0 0 10px; }
+  .fm-section{ font-family:'Kalam',cursive; font-size:1.2rem; color:var(--wood-dark); margin:22px 0 8px; padding-top:10px; border-top:2px solid var(--pip-border); display:flex; align-items:baseline; gap:8px; }
+  .fm-optional{ font-family:'Nunito',sans-serif; font-size:.7rem; font-weight:700; background:#eee; border-radius:8px; padding:1px 7px; }
+  .fm-sub{ font-size:1rem; color:var(--wood); margin:16px 0 6px; }
+  .fm-p{ margin:6px 0; }
+  .fm-card{ border:1.5px solid var(--pip-border); border-radius:8px; background:#fff; padding:10px 12px 8px; margin:10px 0; }
+  .fm-card-title{ font-weight:800; color:var(--wood-dark); display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; margin-bottom:4px; }
+  .fm-tag{ font-size:.7rem; font-weight:700; background:#eef4e6; color:#4b6a35; border-radius:8px; padding:1px 8px; }
+  .fm-quote{ margin:4px 0 8px; padding:0 0 0 10px; border-left:3px solid var(--pip-border); }
+  .fm-q{ margin:8px 0; }
+  .fm-qtext{ font-weight:700; margin-bottom:4px; display:block; }
+  .fm-opts{ display:flex; flex-wrap:wrap; gap:6px 14px; }
+  .fm-opt{ display:inline-flex; align-items:center; gap:6px; cursor:pointer; padding:3px 0; }
+  .fm-opt input{ width:18px; height:18px; accent-color:var(--moss); margin:0; flex:none; }
+  .fm-single{ display:flex; margin:6px 0; }
+  .fm-comment{ margin-top:4px; }
+  .fm-link{ border:none; background:transparent; color:var(--wood); font:inherit; font-size:.82rem; text-decoration:underline; cursor:pointer; padding:2px 0; }
+  .fm-text, .fm-area{ width:100%; box-sizing:border-box; padding:7px 9px; border:1.5px solid var(--pip-border); border-radius:6px; font-family:'Nunito',sans-serif; font-size:.92rem; background:#fff; }
+  .fm-area{ resize:vertical; margin-top:4px; }
+  .fm-more{ margin:6px 0 2px; font-size:.84rem; }
+  .fm-more summary{ cursor:pointer; color:var(--wood); }
+  .fm-more div{ margin-top:4px; padding-left:4px; }
+  .fm-compare{ margin-top:26px; }
+  .fm-cmp-row{ border-top:1px solid var(--pip-border); padding:8px 0; font-size:.88rem; }
+  .fm-cmp-label{ font-weight:800; color:var(--wood-dark); margin-bottom:2px; }
+  .fm-cmp-comment{ font-size:.82rem; opacity:.85; margin:2px 0 4px 12px; white-space:pre-wrap; }
   .doc-page h4{ font-size:1.3rem; margin:0 0 4px; color:var(--wood-dark); }
   .doc-page .doc-date{ display:block; font-family:'Nunito',sans-serif; font-size:.78rem; color:var(--wood); opacity:.8; margin-bottom:12px; }
   .doc-page .notice-subtitle{ font-family:'Nunito',sans-serif; font-weight:700; font-size:.95rem; color:var(--wood-dark); opacity:.85; margin:0 0 4px; }
@@ -1645,6 +1685,8 @@
     win.bodyEl.className = "dw-body";
     stageEl._deskWindows.push(win);
     renderDeskPanelBody(stageEl, win, win.bodyEl);
+    // A fillable form opens full size, like the To-Do List: it is far too long for the small card.
+    if(isShedForm(item)) stageEl._deskMaximized = true;
     renderDeskChrome(stageEl);
     return win;
   }
@@ -2023,6 +2065,13 @@
     // renderGalleryImageBody, next to openGallery()).
     if(item.loc === "gallery"){
       renderGalleryImageBody(stageEl, win, item, body);
+      return;
+    }
+
+    // A synced document marked as a fillable form (first line <!-- shed-form v1 -->) is shown
+    // as a real form -- see renderFormBody. Nothing below applies to it.
+    if(isShedForm(item) && item.id != null){
+      renderFormBody(stageEl, win, item, body);
       return;
     }
 
@@ -3602,6 +3651,485 @@
     }
   }
 
+
+  // ---------------------------------------------------------------------------------------
+  // Fillable forms (21 September 2026)
+  //
+  // A synced .md document whose first line is <!-- shed-form v1 --> is shown as a real form
+  // instead of raw text: radio buttons, tick boxes, text boxes, a progress count, and answers
+  // that save automatically to shed_form_responses -- one row per person per form, private to
+  // that person until both have pressed Finish (enforced in shed_get_form_responses, not here).
+  // The document stays ordinary readable Markdown for Core; the form syntax is a handful of
+  // one-line directives, see Shed/README.md "Fillable forms" for the full list:
+  //   [[choice:id|Question|Option A;Option B;...|comment|why]]  pick one (5th/4th arg optional)
+  //   [[claim:id|Option A;Option B;...]]     pick one, for the card above (auto-asks "why")
+  //   [[checks:id|Question|Option A;Option B]]  tick any            [[check:id|Label]]  one box
+  //   [[text:id|Label]]  [[area:id|Label]]   short / long free text
+  //   [[comment:id|Link text]]               an optional comment box behind a small link
+  //   [[more:id|Label|Text]]                 a folded-away note
+  // Headings: "## " opens a section (add " | optional" to keep its questions out of the
+  // progress count), "### " a sub-heading, "#### " a card (add " | Tag" for a small tag).
+  // "> " lines are quoted text; everything else is a paragraph. Answers are keyed by id, so an
+  // id must never be renamed once anyone has answered.
+  // ---------------------------------------------------------------------------------------
+  function isShedForm(item){
+    return !!(item && typeof item.body === "string" && /^\s*<!--\s*shed-form\b/.test(item.body));
+  }
+
+  function parseShedForm(text){
+    var nodes = [], para = [];
+    function flush(){ if(para.length){ nodes.push({ t: "p", text: para.join(" ") }); para = []; } }
+    String(text).split(/\r?\n/).forEach(function(raw, idx){
+      var line = raw.replace(/\s+$/, "");
+      var tl = line.trim();
+      if(idx === 0 && /^\s*<!--/.test(line)) return;
+      if(!tl){ flush(); return; }
+      var m;
+      if((m = /^\[\[(\w+):([^\]]*)\]\]$/.exec(tl))){
+        flush();
+        var parts = m[2].split("|");
+        nodes.push({ t: "ctl", kind: m[1], id: parts[0].trim(), args: parts.slice(1).map(function(s){ return s.trim(); }) });
+        return;
+      }
+      if(/^# /.test(line)) { flush(); return; }                       // title -- already shown
+      if((m = /^## (.*)$/.exec(line))){
+        flush();
+        var st = m[1].split("|");
+        nodes.push({ t: "section", text: st[0].trim(), optional: /optional/i.test(st[1] || "") });
+        return;
+      }
+      if((m = /^### (.*)$/.exec(line))){ flush(); nodes.push({ t: "sub", text: m[1].trim() }); return; }
+      if((m = /^#### (.*)$/.exec(line))){
+        flush();
+        var ct = m[1].split("|");
+        nodes.push({ t: "card", text: ct[0].trim(), tag: (ct[1] || "").trim() });
+        return;
+      }
+      if(/^---+$/.test(tl)){ flush(); nodes.push({ t: "end" }); return; }
+      if((m = /^>\s?(.*)$/.exec(line))){ flush(); nodes.push({ t: "quote", text: m[1] }); return; }
+      para.push(tl);
+    });
+    flush();
+    return nodes;
+  }
+
+  // **bold** and `code` only; everything goes in as text nodes, never as HTML.
+  function fmInline(parent, text){
+    String(text).split(/(\*\*[^*]+\*\*|`[^`]+`)/).forEach(function(seg){
+      if(!seg) return;
+      var el;
+      if(seg.slice(0, 2) === "**" && seg.slice(-2) === "**" && seg.length > 4){ el = document.createElement("strong"); el.textContent = seg.slice(2, -2); parent.appendChild(el); }
+      else if(seg.charAt(0) === "`" && seg.slice(-1) === "`" && seg.length > 2){ el = document.createElement("code"); el.textContent = seg.slice(1, -1); parent.appendChild(el); }
+      else parent.appendChild(document.createTextNode(seg));
+    });
+  }
+
+  var FORM_UID = 0;
+
+  function renderFormBody(stageEl, win, item, body){
+    var uid = ++FORM_UID;
+    var me = window.SHED_ACTIVE_USER || "";
+    var answers = {}, finished = false, finishedAt = null, others = [];
+    var meta = [];            // every control, in document order, for progress / export / compare
+    var inputs = [];          // every input element, so Finish can lock them all
+    var saveTimer = null, saving = false, again = false, dirty = false;
+
+    body.innerHTML = "";
+    var page = document.createElement("div");
+    page.className = "doc-page fm-form";
+    var h = document.createElement("h4");
+    h.textContent = item.title;
+    page.appendChild(h);
+    var host = document.createElement("div");
+    page.appendChild(host);
+    body.appendChild(page);
+
+    function msg(text, cls){
+      host.innerHTML = "";
+      var p = document.createElement("p");
+      p.className = "empty-note" + (cls ? " " + cls : "");
+      p.textContent = text;
+      host.appendChild(p);
+      return p;
+    }
+    msg("Loading your answers…");
+
+    function load(keepMine){
+      return sb.rpc("shed_get_form_responses", { p: window.SHED_PASSPHRASE, p_item_id: item.id }).then(function(res){
+        if(res.error) throw res.error;
+        var rows = res.data || [];
+        others = rows.filter(function(r){ return !r.is_me; });
+        var mine = rows.filter(function(r){ return r.is_me; })[0];
+        if(keepMine) return;
+        answers = (mine && mine.answers) ? mine.answers : {};
+        finished = !!(mine && mine.submitted_at);
+        finishedAt = mine ? mine.submitted_at : null;
+      });
+    }
+
+    function fmDate(iso){
+      var d = new Date(iso);
+      if(isNaN(d.getTime())) return "";
+      return d.getDate() + " " + ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][d.getMonth()] + " " + d.getFullYear();
+    }
+
+    load().then(build).catch(function(){
+      var p = msg("Couldn't load this form just now, so it is not open for editing (that protects any answers you have already saved). ");
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "btn ghost"; b.textContent = "Try again";
+      b.addEventListener("click", function(){ msg("Loading your answers…"); load().then(build).catch(function(){ msg("Still couldn't load it. Please try again in a moment."); }); });
+      p.appendChild(b);
+    });
+
+    function build(){
+      host.innerHTML = "";
+      meta = []; inputs = [];
+      var nodes = parseShedForm(item.body);
+
+      // ---- top bar: progress, save state, actions
+      var bar = document.createElement("div");
+      bar.className = "fm-bar";
+      var barTop = document.createElement("div");
+      barTop.className = "fm-bar-top";
+      var progText = document.createElement("span"); progText.className = "fm-prog-text";
+      var saveText = document.createElement("span"); saveText.className = "fm-save-text";
+      barTop.appendChild(progText); barTop.appendChild(saveText);
+      var track = document.createElement("div"); track.className = "fm-track";
+      var fill = document.createElement("div"); fill.className = "fm-fill"; track.appendChild(fill);
+      var barBtns = document.createElement("div"); barBtns.className = "fm-bar-btns";
+      var finishBtn = document.createElement("button"); finishBtn.type = "button"; finishBtn.className = "btn"; finishBtn.textContent = "Finish";
+      var dlBtn = document.createElement("button"); dlBtn.type = "button"; dlBtn.className = "btn ghost"; dlBtn.textContent = "Download my answers";
+      barBtns.appendChild(finishBtn); barBtns.appendChild(dlBtn);
+      bar.appendChild(barTop); bar.appendChild(track); bar.appendChild(barBtns);
+      var notice = document.createElement("div"); notice.className = "fm-notice"; notice.style.display = "none";
+      bar.appendChild(notice);
+      host.appendChild(bar);
+
+      var who = document.createElement("p");
+      who.className = "fm-who";
+      who.textContent = "Filling in as " + (me || "you") + ".";
+      host.appendChild(who);
+
+      var content = document.createElement("div");
+      host.appendChild(content);
+      var compareHost = document.createElement("div");
+      host.appendChild(compareHost);
+
+      function setSave(text, bad){ saveText.textContent = text; saveText.className = "fm-save-text" + (bad ? " bad" : ""); }
+      function nowTime(){ var d = new Date(); return ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2); }
+
+      function isBlank(v){ return v == null || v === "" || (Array.isArray(v) && !v.length) || v === false; }
+      function refreshProgress(){
+        var req = meta.filter(function(m){ return m.required && (m.kind === "choice" || m.kind === "claim" || m.kind === "checks" || m.kind === "check"); });
+        var done = req.filter(function(m){ return !isBlank(answers[m.id]); }).length;
+        progText.textContent = done + " of " + req.length + " questions answered";
+        fill.style.width = (req.length ? Math.round(100 * done / req.length) : 0) + "%";
+        return { req: req, done: done };
+      }
+
+      function doSave(){
+        if(saving){ again = true; return; }
+        saving = true; dirty = false; setSave("Saving…");
+        sb.rpc("shed_save_form_response", { p: window.SHED_PASSPHRASE, p_item_id: item.id, p_answers: answers }).then(function(res){
+          saving = false;
+          if(res.error){ dirty = true; setSave("Couldn't save just now, will retry on your next change", true); return; }
+          setSave("Saved " + nowTime());
+          if(dirty || again){ again = false; scheduleSave(); }
+        });
+      }
+      function scheduleSave(){
+        dirty = true; setSave("Unsaved changes…");
+        clearTimeout(saveTimer);
+        saveTimer = setTimeout(doSave, 600);
+      }
+      function changed(){ refreshProgress(); scheduleSave(); }
+
+      // ---- control builders
+      function optsOf(s){ return String(s || "").split(";").map(function(x){ return x.trim(); }).filter(Boolean); }
+
+      function commentBox(id, linkText, mode, getFirstOpt, owned){
+        // A comment field behind a small link; opens by itself once it has text, or (mode "why")
+        // whenever the chosen option is not the first one (the "yes / approve" answer).
+        var wrap = document.createElement("div"); wrap.className = "fm-comment";
+        var link = document.createElement("button"); link.type = "button"; link.className = "fm-link"; link.textContent = "＋ " + linkText;
+        var ta = document.createElement("textarea"); ta.className = "fm-area"; ta.rows = 3;
+        ta.value = typeof answers[id] === "string" ? answers[id] : "";
+        ta.placeholder = mode === "why" ? "Please say why, so your partner can see" : "Type here…";
+        ta.style.display = "none";
+        wrap.appendChild(link); wrap.appendChild(ta);
+        inputs.push(ta);
+        meta.push({ id: id, kind: "comment", label: linkText, required: false, owned: !!owned });
+        link.addEventListener("click", function(){ link.style.display = "none"; ta.style.display = "block"; ta.focus(); });
+        ta.addEventListener("input", function(){ answers[id] = ta.value; changed(); });
+        function sync(){
+          var chosen = mode === "why" ? answers[id.replace(/__c$/, "")] : null;
+          var open = ta.value.length > 0 || (mode === "why" && !isBlank(chosen) && chosen !== getFirstOpt());
+          if(open){ link.style.display = "none"; ta.style.display = "block"; }
+          else if(ta.style.display === "block" && !ta.value){ ta.style.display = "none"; link.style.display = ""; }
+        }
+        wrap._sync = sync;
+        sync();
+        return wrap;
+      }
+
+      function radioGroup(id, opts){
+        var grp = document.createElement("div"); grp.className = "fm-opts";
+        opts.forEach(function(o){
+          var lab = document.createElement("label"); lab.className = "fm-opt";
+          var r = document.createElement("input"); r.type = "radio"; r.name = "fm" + uid + "_" + id; r.value = o;
+          r.checked = answers[id] === o;
+          inputs.push(r);
+          var sp = document.createElement("span"); sp.textContent = o;
+          lab.appendChild(r); lab.appendChild(sp); grp.appendChild(lab);
+        });
+        return grp;
+      }
+
+      function addChoice(parent, kind, id, question, opts, flags, required, cardTitle, sectionTitle){
+        var q = document.createElement("div"); q.className = "fm-q";
+        if(question){ var qt = document.createElement("div"); qt.className = "fm-qtext"; fmInline(qt, question); q.appendChild(qt); }
+        var grp = radioGroup(id, opts);
+        q.appendChild(grp);
+        var myMeta = { id: id, kind: kind, label: question || cardTitle || id, card: cardTitle, section: sectionTitle, opts: opts, required: required };
+        meta.push(myMeta);
+        var cbox = null;
+        if(flags.indexOf("comment") > -1 || flags.indexOf("why") > -1){
+          var mode = flags.indexOf("why") > -1 ? "why" : "comment";
+          cbox = commentBox(id + "__c", "Add a comment", mode, function(){ return opts[0]; }, true);
+          q.appendChild(cbox);
+          myMeta.commentId = id + "__c";
+        }
+        grp.addEventListener("change", function(e){
+          if(e.target && e.target.type === "radio"){ answers[id] = e.target.value; if(cbox) cbox._sync(); changed(); }
+        });
+        parent.appendChild(q);
+      }
+
+      var cur = content, card = null, sectionTitle = "", sectionOptional = false, cardTitle = "";
+      function target(){ return card || cur; }
+
+      nodes.forEach(function(n){
+        if(n.t === "section"){
+          card = null; cardTitle = "";
+          sectionTitle = n.text; sectionOptional = n.optional;
+          var sec = document.createElement("h5"); sec.className = "fm-section";
+          sec.textContent = n.text;
+          if(n.optional){ var o = document.createElement("span"); o.className = "fm-optional"; o.textContent = "optional"; sec.appendChild(o); }
+          content.appendChild(sec);
+          meta.push({ kind: "section", label: n.text });
+        } else if(n.t === "sub"){
+          card = null; cardTitle = "";
+          var sb2 = document.createElement("h6"); sb2.className = "fm-sub"; sb2.textContent = n.text; content.appendChild(sb2);
+          meta.push({ kind: "sub", label: n.text });
+        } else if(n.t === "card"){
+          card = document.createElement("div"); card.className = "fm-card";
+          var ch = document.createElement("div"); ch.className = "fm-card-title";
+          var cs = document.createElement("span"); cs.textContent = n.text; ch.appendChild(cs);
+          if(n.tag){ var tg = document.createElement("span"); tg.className = "fm-tag"; tg.textContent = n.tag; ch.appendChild(tg); }
+          card.appendChild(ch);
+          content.appendChild(card);
+          cardTitle = n.text;
+        } else if(n.t === "end"){
+          card = null;
+        } else if(n.t === "quote"){
+          var qd = document.createElement("blockquote"); qd.className = "fm-quote"; fmInline(qd, n.text); target().appendChild(qd);
+        } else if(n.t === "p"){
+          var pp = document.createElement("p"); pp.className = "fm-p"; fmInline(pp, n.text); target().appendChild(pp);
+        } else if(n.t === "ctl"){
+          var a = n.args, req = !sectionOptional;
+          if(n.kind === "claim"){
+            addChoice(target(), "claim", n.id, "", optsOf(a[0]), ["why"], req, cardTitle, sectionTitle);
+          } else if(n.kind === "choice"){
+            addChoice(target(), "choice", n.id, a[0], optsOf(a[1]), a.slice(2), req, cardTitle, sectionTitle);
+          } else if(n.kind === "checks"){
+            var q = document.createElement("div"); q.className = "fm-q";
+            var qt = document.createElement("div"); qt.className = "fm-qtext"; fmInline(qt, a[0]); q.appendChild(qt);
+            var grp = document.createElement("div"); grp.className = "fm-opts";
+            var chosen = Array.isArray(answers[n.id]) ? answers[n.id] : [];
+            optsOf(a[1]).forEach(function(o){
+              var lab = document.createElement("label"); lab.className = "fm-opt";
+              var c = document.createElement("input"); c.type = "checkbox"; c.value = o; c.checked = chosen.indexOf(o) > -1;
+              inputs.push(c);
+              var sp = document.createElement("span"); sp.textContent = o;
+              lab.appendChild(c); lab.appendChild(sp); grp.appendChild(lab);
+            });
+            grp.addEventListener("change", function(){
+              answers[n.id] = Array.prototype.slice.call(grp.querySelectorAll("input:checked")).map(function(x){ return x.value; });
+              changed();
+            });
+            q.appendChild(grp); target().appendChild(q);
+            meta.push({ id: n.id, kind: "checks", label: a[0], section: sectionTitle, card: cardTitle, required: false });
+          } else if(n.kind === "check"){
+            var lab2 = document.createElement("label"); lab2.className = "fm-opt fm-single";
+            var c2 = document.createElement("input"); c2.type = "checkbox"; c2.checked = answers[n.id] === true;
+            inputs.push(c2);
+            var sp2 = document.createElement("span"); fmInline(sp2, a[0]);
+            lab2.appendChild(c2); lab2.appendChild(sp2);
+            c2.addEventListener("change", function(){ answers[n.id] = c2.checked; changed(); });
+            target().appendChild(lab2);
+            meta.push({ id: n.id, kind: "check", label: a[0], section: sectionTitle, card: cardTitle, required: false });
+          } else if(n.kind === "text" || n.kind === "area"){
+            var f = document.createElement("div"); f.className = "fm-q";
+            var fl = document.createElement("label"); fl.className = "fm-qtext"; fmInline(fl, a[0]); f.appendChild(fl);
+            var inp = document.createElement(n.kind === "text" ? "input" : "textarea");
+            if(n.kind === "text") inp.type = "text"; else inp.rows = 4;
+            inp.className = n.kind === "text" ? "fm-text" : "fm-area";
+            inp.value = typeof answers[n.id] === "string" ? answers[n.id] : "";
+            inp.addEventListener("input", function(){ answers[n.id] = inp.value; changed(); });
+            inputs.push(inp); f.appendChild(inp); target().appendChild(f);
+            meta.push({ id: n.id, kind: n.kind, label: a[0], section: sectionTitle, card: cardTitle, required: false });
+          } else if(n.kind === "comment"){
+            target().appendChild(commentBox(n.id, a[0] || "Add a comment", "comment", function(){ return null; }));
+            meta[meta.length - 1].section = sectionTitle; meta[meta.length - 1].card = cardTitle;
+          } else if(n.kind === "more"){
+            var det = document.createElement("details"); det.className = "fm-more";
+            var sm = document.createElement("summary"); sm.textContent = a[0] || "More";
+            var bd = document.createElement("div"); fmInline(bd, a.slice(1).join("|"));
+            det.appendChild(sm); det.appendChild(bd); target().appendChild(det);
+          }
+        }
+      });
+
+      // ---- finished / open state
+      function lock(){
+        inputs.forEach(function(i){ i.disabled = finished; });
+        finishBtn.textContent = finished ? "Re-open to edit" : "Finish";
+        finishBtn.className = finished ? "btn ghost" : "btn";
+        notice.style.display = "none";
+        if(finished){
+          setSave("Finished " + fmDate(finishedAt));
+          notice.style.display = "block";
+          notice.className = "fm-notice ok";
+          notice.textContent = "You finished this form on " + fmDate(finishedAt) + ". Your answers are locked until you re-open it.";
+        }
+        renderStatus();
+      }
+
+      function renderStatus(){
+        compareHost.innerHTML = "";
+        var box = document.createElement("div"); box.className = "fm-compare";
+        var t = document.createElement("h5"); t.className = "fm-section"; t.textContent = "Comparing with your partner"; box.appendChild(t);
+        var lines = others.map(function(o){
+          return o.user_name + (o.submitted_at ? " finished on " + fmDate(o.submitted_at) + "." : (o.updated_at ? " has started but not finished." : " has not started."));
+        });
+        if(!others.length) lines = ["Nobody else has started this form yet."];
+        var p = document.createElement("p"); p.className = "fm-p"; p.textContent = lines.join(" "); box.appendChild(p);
+        var recheck = document.createElement("button"); recheck.type = "button"; recheck.className = "btn ghost"; recheck.textContent = "Check again";
+        recheck.addEventListener("click", function(){ load(!finished).then(function(){ renderStatus(); }).catch(function(){}); });
+        box.appendChild(recheck);
+        if(finished){
+          var theirs = others.filter(function(o){ return o.submitted_at && o.answers; });
+          if(!theirs.length){
+            var hint = document.createElement("p"); hint.className = "empty-note"; hint.textContent = "Once you have both finished, the differences between your answers appear here.";
+            box.appendChild(hint);
+          } else {
+            theirs.forEach(function(o){ box.appendChild(buildCompare(o)); });
+          }
+        } else {
+          var hint2 = document.createElement("p"); hint2.className = "empty-note"; hint2.textContent = "Press Finish when you are done. Once you have both finished, you can each see where your answers differ.";
+          box.appendChild(hint2);
+        }
+        compareHost.appendChild(box);
+      }
+
+      function shown(v){ if(Array.isArray(v)) return v.join(", "); if(v === true) return "Yes"; return (v == null || v === "" || v === false) ? "(no answer)" : String(v); }
+
+      function buildCompare(o){
+        var wrap = document.createElement("div"); wrap.className = "fm-cmp";
+        var mine = answers, theirs = o.answers || {};
+        var diffs = [], same = 0;
+        meta.forEach(function(m){
+          if(!m.id || m.owned || m.kind === "section" || m.kind === "sub") return;
+          var a = shown(mine[m.id]), b = shown(theirs[m.id]);
+          var ca = m.commentId ? shown(mine[m.commentId]) : "", cb = m.commentId ? shown(theirs[m.commentId]) : "";
+          if(a !== b){ diffs.push({ m: m, a: a, b: b, ca: ca, cb: cb }); }
+          else if(!isBlank(mine[m.id])) same++;
+        });
+        var s = document.createElement("p"); s.className = "fm-p";
+        s.textContent = "You and " + o.user_name + " gave the same answer to " + same + (same === 1 ? " question" : " questions") + " and different answers to " + diffs.length + ".";
+        wrap.appendChild(s);
+        diffs.forEach(function(d){
+          var r = document.createElement("div"); r.className = "fm-cmp-row";
+          var lab = document.createElement("div"); lab.className = "fm-cmp-label";
+          lab.textContent = (d.m.card ? d.m.card + (d.m.label && d.m.label !== d.m.card ? " — " + d.m.label : "") : d.m.label);
+          r.appendChild(lab);
+          [[me || "You", d.a, d.ca], [o.user_name, d.b, d.cb]].forEach(function(x){
+            var l = document.createElement("div"); l.className = "fm-cmp-line";
+            var strong = document.createElement("strong"); strong.textContent = x[0] + ": "; l.appendChild(strong);
+            l.appendChild(document.createTextNode(x[1]));
+            if(x[2] && x[2] !== "(no answer)"){ var c = document.createElement("div"); c.className = "fm-cmp-comment"; c.textContent = x[2]; l.appendChild(c); }
+            r.appendChild(l);
+          });
+          wrap.appendChild(r);
+        });
+        return wrap;
+      }
+
+      // ---- export: a plain Markdown copy of this person's answers
+      function exportMarkdown(){
+        var out = ["# " + item.title + " — answers by " + (me || "unknown"), "", "Downloaded " + fmDate(new Date().toISOString()) + (finished ? "; marked finished " + fmDate(finishedAt) : "; not yet marked finished") + ".", ""];
+        var lastCard = null;
+        meta.forEach(function(m){
+          if(m.kind === "section"){ out.push("", "## " + m.label, ""); lastCard = null; return; }
+          if(m.kind === "sub"){ out.push("", "### " + m.label, ""); lastCard = null; return; }
+          if(!m.id) return;
+          var v = answers[m.id];
+          if(m.kind === "comment"){ if(m.owned) return; if(!isBlank(v)){ out.push("> " + (m.label || "Comment") + ": " + String(v).replace(/\n/g, "\n> ")); out.push(""); } return; }
+          var lab = m.card ? (m.card + (m.label && m.label !== m.card ? " — " + m.label : "")) : m.label;
+          out.push("**" + lab + "**: " + shown(v));
+          if(m.commentId && !isBlank(answers[m.commentId])) out.push("> Comment: " + String(answers[m.commentId]).replace(/\n/g, "\n> "));
+          out.push("");
+        });
+        return out.join("\n");
+      }
+      dlBtn.addEventListener("click", function(){
+        var blob = new Blob([exportMarkdown()], { type: "text/markdown;charset=utf-8" });
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = (item.title.replace(/[^A-Za-z0-9]+/g, "_").slice(0, 60) || "form") + "_answers_" + (me || "me") + ".md";
+        document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(function(){ URL.revokeObjectURL(a.href); }, 2000);
+      });
+
+      function submit(flag){
+        clearTimeout(saveTimer);
+        finishBtn.disabled = true;
+        setSave("Saving…");
+        sb.rpc("shed_save_form_response", { p: window.SHED_PASSPHRASE, p_item_id: item.id, p_answers: answers, p_submit: flag }).then(function(res){
+          finishBtn.disabled = false;
+          if(res.error || !res.data){ setSave("Couldn't do that just now. Please try again.", true); return; }
+          finished = !!res.data.submitted_at; finishedAt = res.data.submitted_at;
+          return load().then(function(){ lock(); }, function(){ lock(); });
+        });
+      }
+      finishBtn.addEventListener("click", function(){
+        if(finished){ submit(false); return; }
+        var pr = refreshProgress();
+        var missing = pr.req.filter(function(m){ return isBlank(answers[m.id]); });
+        if(missing.length){
+          notice.style.display = "block"; notice.className = "fm-notice warn"; notice.innerHTML = "";
+          notice.appendChild(document.createTextNode(missing.length + " question" + (missing.length === 1 ? " is" : "s are") + " still unanswered. If you can't decide, choose Flag (or the closest option) and say why. "));
+          var go = document.createElement("button"); go.type = "button"; go.className = "btn ghost"; go.textContent = "Go to the first one";
+          go.addEventListener("click", function(){
+            var first = missing[0];
+            var el = host.querySelector('input[name="fm' + uid + '_' + first.id + '"]');
+            if(el){ el.scrollIntoView({ block: "center" }); }
+          });
+          var anyway = document.createElement("button"); anyway.type = "button"; anyway.className = "btn ghost"; anyway.textContent = "Finish anyway";
+          anyway.addEventListener("click", function(){ submit(true); });
+          notice.appendChild(go); notice.appendChild(anyway);
+          return;
+        }
+        submit(true);
+      });
+
+      // Set comment boxes' initial open state now that answers are known, then draw.
+      host.querySelectorAll(".fm-comment").forEach(function(c){ if(c._sync) c._sync(); });
+      refreshProgress();
+      setSave(finished ? "" : "Answers save as you go");
+      lock();
+    }
+  }
 
   // The "Links" block on a notice's desk panel (21 September 2026, Founder instruction: a
   // notice must take more than one link -- documents, photos, web addresses). Lists every
