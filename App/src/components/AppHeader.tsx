@@ -4,6 +4,7 @@ import { MoreHorizontal } from 'lucide-react'
 import titleImg from '@/assets/pip/title.png'
 import { supabase } from '@/lib/supabase'
 import { useAuth } from '@/lib/auth'
+import { markPasswordSet } from '@/lib/membership'
 import { InfoModal } from './InfoModal'
 import { Button } from './Button'
 
@@ -77,6 +78,17 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
   const [nameDraft, setNameDraft] = useState('')
   const [savingName, setSavingName] = useState(false)
   const [nameError, setNameError] = useState<string | null>(null)
+  // "Change Password" — same InfoModal chrome as "My Name" above. Works
+  // whether or not a password exists yet: a gardener who skipped setting one
+  // after their code sign-in (see AuthGate.tsx) can still start one here,
+  // and it doubles as the ordinary "change my password" screen once they
+  // have. Either way it ends by calling markPasswordSet(), so a gardener who
+  // sets a password here is never asked again by AuthGate's post-code offer.
+  const [changingPassword, setChangingPassword] = useState(false)
+  const [newPassword, setNewPassword] = useState('')
+  const [confirmPassword, setConfirmPassword] = useState('')
+  const [savingPassword, setSavingPassword] = useState(false)
+  const [passwordError, setPasswordError] = useState<string | null>(null)
 
   function openInfo(panel: Exclude<InfoPanel, null>) {
     setMenuOpen(false)
@@ -105,6 +117,38 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
       return
     }
     setEditingName(false)
+  }
+
+  function openPasswordEditor() {
+    setMenuOpen(false)
+    setPasswordError(null)
+    setNewPassword('')
+    setConfirmPassword('')
+    setChangingPassword(true)
+  }
+
+  async function savePassword() {
+    setPasswordError(null)
+    if (newPassword.length < 8) {
+      setPasswordError('Use at least 8 characters.')
+      return
+    }
+    if (newPassword !== confirmPassword) {
+      setPasswordError("Those passwords don't match.")
+      return
+    }
+    setSavingPassword(true)
+    const { error } = await supabase.auth.updateUser({ password: newPassword })
+    setSavingPassword(false)
+    if (error) {
+      setPasswordError(error.message)
+      return
+    }
+    // Best-effort, same as AuthGate's own set-password step: if this fails,
+    // the only consequence is AuthGate offering the password step again
+    // after a future code sign-in, which is safe, just slightly repetitive.
+    await markPasswordSet()
+    setChangingPassword(false)
   }
 
   return (
@@ -166,6 +210,7 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
                 }}
               />
               <MenuItem label="My Name" onClick={openNameEditor} />
+              <MenuItem label="Change Password" onClick={openPasswordEditor} />
               <MenuItem
                 label="Log Out"
                 onClick={() => {
@@ -203,6 +248,35 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
             {nameError && <p className="text-xs text-red-600">{nameError}</p>}
             <Button disabled={savingName || !nameDraft.trim()} onClick={saveName}>
               {savingName ? 'Saving…' : 'Save'}
+            </Button>
+          </div>
+        </InfoModal>
+      )}
+
+      {changingPassword && (
+        <InfoModal title="Change Password" onClose={() => setChangingPassword(false)}>
+          <div className="flex flex-col gap-3">
+            <input
+              type="password"
+              autoFocus
+              autoComplete="new-password"
+              value={newPassword}
+              onChange={(e) => setNewPassword(e.target.value)}
+              placeholder="New password"
+              className="input w-full text-pip-text"
+            />
+            <input
+              type="password"
+              autoComplete="new-password"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && savePassword()}
+              placeholder="Confirm password"
+              className="input w-full text-pip-text"
+            />
+            {passwordError && <p className="text-xs text-red-600">{passwordError}</p>}
+            <Button disabled={savingPassword || !newPassword || !confirmPassword} onClick={savePassword}>
+              {savingPassword ? 'Saving…' : 'Save'}
             </Button>
           </div>
         </InfoModal>

@@ -338,3 +338,110 @@ create policy "plant_photo_log_delete_own" on public.plant_photo_log
 
 create policy "pkr_select_published" on public.pkr
   for select using (published = true);
+
+-- ---------------------------------------------------------------------------
+-- Membership: member_profiles (added 22 September 2026)
+--
+-- Why. The app has one sign-in method today (email one-time code). Two
+-- things are added here at once, deliberately, so the schema doesn't need a
+-- second retrofit later: (1) an optional password a gardener can set right
+-- after their first successful code sign-in, so return visits can skip the
+-- email round-trip (see AuthGate.tsx); (2) a place for a membership tier
+-- (free/paid) to live, ready for a future Stripe integration, even though
+-- nothing charges money yet.
+--
+-- Distinct from bush_rose_profiles (that table is about a gardener's roses;
+-- this one is about the gardener's account). One row per auth.users row,
+-- created automatically by the trigger below.
+--
+-- Security note: membership_tier and stripe_customer_id are NOT
+-- client-writable — there is no insert/update/delete policy on this table
+-- for anon/authenticated at all, only the select_own policy below. A
+-- gardener's own client can never grant itself paid access by editing its
+-- own row, the way it could if this lived in auth.users' user_metadata,
+-- which the client can edit via updateUser(). The only writers are the
+-- trigger below (new row, defaults to 'free') and mark_password_set()
+-- (has_password only) — later, a service-role Stripe webhook becomes the
+-- only writer of membership_tier/stripe_customer_id, never the app's own
+-- anon/authenticated client.
+-- ---------------------------------------------------------------------------
+
+create table if not exists public.member_profiles (
+  user_id uuid primary key references auth.users (id) on delete cascade,
+  membership_tier text not null default 'free' check (membership_tier in ('free', 'paid')),
+  stripe_customer_id text,
+  -- Whether this gardener has set a password via AuthGate.tsx's post-code
+  -- "set a password" step. Deliberately NOT derived from
+  -- auth.users.encrypted_password — current Supabase/GoTrue sets that
+  -- column to an unusable placeholder hash even for OTP-only accounts, so
+  -- its presence doesn't mean a real, usable password was ever set (checked
+  -- directly against this project's own auth.users before writing this).
+  -- This flag is the only source of truth, and only mark_password_set()
+  -- below is allowed to set it true.
+  has_password boolean not null default false,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+alter table public.member_profiles enable row level security;
+
+create policy "member_profiles_select_own" on public.member_profiles
+  for select using (auth.uid() = user_id);
+
+-- Deliberately no insert/update/delete policy for anon/authenticated — see
+-- the security note above. Row creation and every write happen only through
+-- the trigger and function below (SECURITY DEFINER), or later a
+-- service-role webhook.
+
+create or replace function public.handle_new_member_profile()
+returns trigger
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  insert into public.member_profiles (user_id)
+  values (new.id)
+  on conflict (user_id) do nothing;
+  return new;
+end;
+$$;
+
+-- Supabase grants EXECUTE on every new public-schema function to anon,
+-- authenticated and service_role automatically at creation time (a
+-- project-level default privilege) — "revoke ... from public" alone does
+-- NOT undo that (confirmed against this project with
+-- has_function_privilege() after first applying this migration without the
+-- lines below, and by the security advisor). Revoke the specific role
+-- grants directly instead.
+revoke execute on function public.handle_new_member_profile() from anon, authenticated;
+
+drop trigger if exists on_auth_user_created_member_profile on auth.users;
+create trigger on_auth_user_created_member_profile
+  after insert on auth.users
+  for each row execute function public.handle_new_member_profile();
+
+-- Backfill for accounts created before this migration existed.
+insert into public.member_profiles (user_id)
+select id from auth.users
+on conflict (user_id) do nothing;
+
+-- Lets a signed-in gardener record that they just set a password (see
+-- AuthGate.tsx), without granting the client any general write access to
+-- this table. auth.uid() is taken from the caller's own session, so a
+-- gardener can only ever mark their own row, and only this one column.
+create or replace function public.mark_password_set()
+returns void
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  update public.member_profiles
+  set has_password = true, updated_at = now()
+  where user_id = auth.uid();
+end;
+$$;
+
+revoke execute on function public.mark_password_set() from anon;
+grant execute on function public.mark_password_set() to authenticated;
