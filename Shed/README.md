@@ -2032,6 +2032,32 @@ verified against the real page with a real passphrase.
 
 The first form built this way is `Working/Founder Review/FRD-BUSHROSE-PRUNINGFRAMEWORK-01_Review_Form.md`.
 
+## Documents synced from Core are now shown formatted (added 21 September 2026)
+
+**Why.** The desk used to show every document as raw text, so a synced `.md` file
+displayed its asterisks, `#` marks and table pipes literally (the FRD Brief was hard to
+read for that reason). Founder request: format them.
+
+**What.** In `renderDeskPanelBody`, items with `source === "synced"` are drawn by
+`renderMarkdownInto` (in `source/template.html`) instead of as plain text. It handles
+headings (shifted down one level, and the leading `# Title` line is dropped because the
+window title already shows it), paragraphs (trailing two spaces or a backslash make a line
+break), `**bold**`, `*italic*`, `` `code` ``, fenced code blocks, block quotes, bullet and
+numbered lists (nested by indentation), pipe tables (wide ones scroll sideways), rules,
+`[text](https://...)` and `<https://...>` links, and backslash escapes. HTML comments are
+hidden. Everything is built as DOM nodes with `textContent`, never `innerHTML`, so a
+document cannot inject markup; only `http(s)` links are clickable (a relative link shows
+its words only). Not supported: underscore italics, setext (underlined) headings, images,
+raw HTML, footnotes.
+
+Notices and documents written in the Shed itself (`source` is not `synced`) are unchanged:
+plain text, exactly as typed. Fillable forms (`<!-- shed-form v1 -->`) keep their own
+renderer and take precedence.
+
+**Tested** in headless Chromium against the real Brief, Research Notes, FRD and Research
+Commission Record: no leftover `**`, `|---`, `#` or backticks in the displayed text; tables,
+lists, quotes and headings counted as expected. Not verified against the live page.
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`
