@@ -4,12 +4,13 @@
 
 **Document Title:** Ask Pip – Bush Rose Guided Journey Flow Proposal  
 **Document Type:** Draft Planning Document (proposal)  
-**Version:** 0.3  
+**Version:** 0.4  
 **Status:** Draft — prepared for Founder review. Not approved. It does not amend any approved document.  
 **Owner:** The Founders  
 **Prepared By:** Claude, at Shaphan's request  
 **Date:** 22 September 2026  
 **Purpose:** To propose how the Ask Pip bush-rose experience should flow from first welcome to follow-up: an opening that begins with the gardener's own rose, a plant profile that deepens without burdening the gardener, an optional training layer, and a Pip who grows in understanding alongside the gardener.  
+**Revision Note (Version 0.4, 23 September 2026):** Records the Founders' decisions on all of Section 13 and its three further questions, made in discussion with the ROC. Adopted as recommended: the seven-stage direction (Decision 1), the Primer with its three entry paths (Decision 2), the three-tier profile (Decision 3), the photo-first opening (Decision 4), and the Learn area with its opening-page option (Decision 7). Decided with detail beyond the recommendation: for Decision 5 (placeholder observations), the switch to honest "still being prepared" messaging takes effect at the start of formal moderated testing, not at the first outside viewing (see the updated Decision 5 below); for Decision 6 (unsupported rose types), the Founders chose option (b), journal-only, against the ROC's lean toward (a) — recorded as a direction for future development, since it sits close to the Garden Journal the MVP defers (§11) rather than something to build under this journey without a scope amendment. Of the three further questions: Pip's phrasing is to use a standard, Founder-approved Pip voice rather than wording improvised per instance (Runtime Architecture §9's approval mechanism still to be defined); the Charter's four-stage relationship model is to be brought into Core and reconciled against the Pip-role table in section 4 (the Charter itself remains a Draft awaiting its own whole-document approval, a separate governance step); and gardeners will not be able to type free-text questions into Learn — browse and tap only, closing section 9.5. None of this document is itself approved by these decisions; adopting any part of it into the approved Architecture or Journey still follows the governed amendment process (§11).  
 **Revision Note (Version 0.3, 22 September 2026):** Records two decisions Shaphan made in discussion: (1) basic rose care belongs in the MVP journey itself, not only in pruning, so that a rose found not ready for pruning at Stage 3 still has something useful from Pip (see the new note under Stage 3, section 6); (2) a `BUSHROSE-BASICCARE` research commission has been drafted to supply that content and the Learn area's general-care pages honestly (see `Working/AI Outputs/Research_Commission_Record_Basic_Bush_Rose_Care.md`). Also records that the Learn area's opening-page explainer and its first five "About Ask Pip" topics (section 9.2) have since been built as working screens, reachable from the header's ⋯ menu — all still draft concept copy, not Founder-approved phrasing.  
 **Revision Note (Version 0.2, 22 September 2026):** Adds the Learn area and the opening-page explainer at the Founder's request (new section 9). Later sections are renumbered accordingly.  
 **Related Documents:** `MVP/Stories/Maries_Story.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `MVP/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md`; `Knowledge Curation System/Standards/Pip_Runtime_Architecture.md`; `Foundations/Pip_Character_Profile.md`; `Foundations/Gardener_Experience_Charter.md`; `Working/Founder Review/FRD-BUSHROSE-PRUNINGFRAMEWORK-01_Decision_Brief.md`; `Working/AI Outputs/Research_Commission_Record_Basic_Bush_Rose_Care.md`; `Working/Project_Backlog.md`
@@ -28,7 +29,7 @@ The proposal has five parts.
 4. **Keep learning within reach.** A *Learn* area the gardener can open at any time, starting on the opening page with *What can Pip help me with?*, so that no one is ever left guessing what Pip is for or why it asks what it asks.
 5. **Let Pip grow.** Pip's understanding of the rose is the rose's accumulating record. Pip's way of speaking changes because of what that record contains: more explanation at the start, more questions to the gardener as their own judgement develops.
 
-The journey has seven stages: Meet Your Rose, The Shape of the Job, Getting Ready, Learning to See, Deciding and Cutting, Keeping the Story, and Coming Back. Section 4 sets them out. Section 13 lists the decisions the Founders are asked to make.
+The journey has seven stages: Meet Your Rose, The Shape of the Job, Getting Ready, Learning to See, Deciding and Cutting, Keeping the Story, and Coming Back. Section 4 sets them out. Section 13 records the decisions the Founders have made.
 
 *Research references.* Where this proposal cites research, the numbers are the Assessed Findings (AF-1 to AF-30) in the Founder Review Dossier (FRD) for whole-bush pruning, `FRD-BUSHROSE-PRUNINGFRAMEWORK-01`, each rated High, Moderate or Low. The Decision Brief explains the ratings. None of these findings is approved yet.
 
@@ -235,7 +236,7 @@ Each idea is written once and shown wherever it is needed: in the Primer, in the
 
 ## 9.5 Asking Pip a Question
 
-Whether a gardener may type a question inside Learn is left open. If allowed, the Runtime Architecture applies: Pip answers only from published knowledge, says plainly when nothing is published on the subject, and offers the nearest Learn page. Because the Architecture (§5.5) defers general plant questions, Learn stays limited to Ask Pip itself and bush-rose pruning.
+**Decided (23 September 2026): no.** Gardeners browse and tap within Learn; they cannot type a free-text question to Pip there. Because the Architecture (§5.5) defers general plant questions, Learn stays limited to Ask Pip itself and bush-rose pruning.
 
 # 10. Keeping the Gardener Engaged
 
@@ -261,7 +262,7 @@ Engagement in Ask Pip should come from usefulness and a sense of progress, never
 
 **Unresearched observations.** The Ask Pip minimum viable product (MVP) supports six observations. The Project Backlog, last updated 17 September 2026, records that only dead wood had approved research and that none had been commissioned for the other five. The whole-bush pruning research authorised on 21 September touches several of them, and the crossing-or-rubbing-stems commission is on hold. The full Learning to See stage depends on approved research for each observation.
 
-**Open questions from the Character Profile.** The Founders asked whether Pip could develop as the relationship does (Profile §15). This proposal applies that idea to Pip's voice and memory only. Whether Pip's appearance should also change is a Founder question. The Charter's migration note also refers to a four-stage Teacher, Coach, Companion and Historian model in an unmigrated document. I have not seen that document, so the Pip roles in section 4 are my own and should be compared with it if it is brought into Core.
+**Open questions from the Character Profile.** The Founders asked whether Pip could develop as the relationship does (Profile §15). This proposal applies that idea to Pip's voice and memory only. Whether Pip's appearance should also change is a Founder question. The Charter's migration note also refers to a four-stage Teacher, Coach, Companion and Historian model in an unmigrated document. I have not seen that document, so the Pip roles in section 4 are my own and should be compared with it if it is brought into Core. **Decided (23 September 2026): it should be brought in and reconciled — see the Revision Note above and the further-questions answer in section 13.**
 
 # 12. Suggested Build Sequence
 
@@ -288,18 +289,17 @@ The sequence is a suggestion for the Founders to reconcile with the Project Back
 
 # 13. Decisions Requested
 
-Each item carries a recommendation. None is approved by this document.
+Each item originally carried a recommendation. All seven, and the three further questions below them, were decided by the Founders on 23 September 2026, recorded here alongside the original recommendation. None of this approves the document itself, or amends any approved document — see section 11.
 
-1. **Direction.** Adopt the seven-stage shape as the direction for the next build of the bush-rose app. *Recommended: yes.*
-2. **The Primer.** Add the optional Pruning Primer with three entry paths; ship the product-description card first and add horticultural cards as knowledge is published. *Recommended: yes.*
-3. **Profile tiers.** Adopt the three-tier profile; add only the photo spot and the approved knot question now. *Recommended: yes.*
-4. **Opening.** Restore the photo-first opening of Marie's Story. *Recommended: yes.*
-5. **Placeholder observations.** Once real gardeners use the app, present observations that lack published knowledge as still being prepared, instead of using placeholder script. *Recommended: yes, and the Founders should say when "real gardeners" begins.*
-6. **Unsupported rose types.** Choose what happens when the gardener's rose is outside the approved scope: (a) explain kindly, keep the profile, offer no pruning journey; or (b) keep it as a journal-only rose. Option (b) sits close to the Garden Journal that the MVP defers. *Leaning toward (a); a Founder decision.*
+1. **Direction.** Adopt the seven-stage shape as the direction for the next build of the bush-rose app. *Recommended: yes.* **Decided: yes.**
+2. **The Primer.** Add the optional Pruning Primer with three entry paths; ship the product-description card first and add horticultural cards as knowledge is published. *Recommended: yes.* **Decided: yes.**
+3. **Profile tiers.** Adopt the three-tier profile; add only the photo spot and the approved knot question now. *Recommended: yes.* **Decided: yes.**
+4. **Opening.** Restore the photo-first opening of Marie's Story. *Recommended: yes.* **Decided: yes.**
+5. **Placeholder observations.** Once real gardeners use the app, present observations that lack published knowledge as still being prepared, instead of using placeholder script. *Recommended: yes, and the Founders should say when "real gardeners" begins.* **Decided: yes. "Real gardeners" begins at the start of formal moderated testing, as already described in the approved Journey (§9) — not the first moment anyone outside the Founders opens the app. Placeholder script stays in place through internal and Founder-only development until moderated testing begins; at that point, every observation without published knowledge switches to an honest "still being prepared" message.**
+6. **Unsupported rose types.** Choose what happens when the gardener's rose is outside the approved scope: (a) explain kindly, keep the profile, offer no pruning journey; or (b) keep it as a journal-only rose. Option (b) sits close to the Garden Journal that the MVP defers. *Leaning toward (a); a Founder decision.* **Decided: (b), journal-only — recorded as a direction for future development. Because it sits close to the Garden Journal and multiple-plant-type scope the MVP currently defers (§11), building it is not assumed to follow automatically from this decision and should be reconciled with the Architecture's scope boundary when it is actually built.**
+7. **The Learn area.** Add the opening-page option *What can Pip help me with?* and a permanent Learn area with an *About Ask Pip* shelf now and a *Pruning your bush rose* shelf that grows with published knowledge. *Recommended: yes. Its wording is Founder-approved product copy, and the front door should be available before sign-in.* **Decided: yes.**
 
-7. **The Learn area.** Add the opening-page option *What can Pip help me with?* and a permanent Learn area with an *About Ask Pip* shelf now and a *Pruning your bush rose* shelf that grows with published knowledge. *Recommended: yes. Its wording is Founder-approved product copy, and the front door should be available before sign-in.*
-
-Three further questions are for discussion and do not need an answer now. Should the app have an approved phrasing pool for Pip (Runtime Architecture §9)? Should the Charter's four-stage relationship model be brought into Core and compared with the Pip roles in this document? And should gardeners be able to type questions inside Learn, or only browse and tap?
+Three further questions were also decided on 23 September 2026. **Phrasing pool:** yes — Pip should use a standard, Founder-approved voice rather than wording improvised per instance; the mechanism for approving that pool (Runtime Architecture §9) still needs to be defined. **The four-stage relationship model:** yes — bring the Gardener Experience Charter's four-stage Teacher, Coach, Companion and Historian model into Core and reconcile it against the Pip-role table in section 4; the Charter itself remains a Draft awaiting its own whole-document approval, which is a separate step from this reconciliation. **Free-text questions in Learn:** no — Learn stays browse-and-tap only; gardeners cannot type questions to Pip there (section 9.5).
 
 # 14. Basis and Limits of This Proposal
 
