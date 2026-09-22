@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Plus, Check, Trash2 } from 'lucide-react'
+import { Plus, Check, Trash2, BookOpen, ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useProjects } from '@/lib/store'
 import { useAuth } from '@/lib/auth'
@@ -76,11 +76,36 @@ export function Library() {
             </button>
           )}
         </div>
-        <p className="mb-6 text-sm text-pip-text-soft">
+        <p className="mb-4 text-sm text-pip-text-soft">
           {selectMode
             ? 'Tap the plants you want to delete.'
             : "Every plant's story lives here — photos, decisions and what happened next."}
         </p>
+
+        {/* Learn used to be reachable only from the header's ⋯ menu — easy to
+            never notice. This is the same destination (/learn), just given
+            real visibility on the one screen every gardener actually returns
+            to, rather than sitting buried alongside Log Out and Privacy.
+            Hidden in select mode, same reasoning as the "Add a plant" tile
+            below: nothing here should compete for attention with a delete
+            decision in progress. */}
+        {!selectMode && (
+          <button
+            onClick={() => navigate('/learn')}
+            className="mb-5 flex w-full items-center gap-3 rounded-2xl bg-pip-secondary/60 px-4 py-3.5 text-left shadow-sm transition-transform hover:-translate-y-0.5"
+          >
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-pip-card text-pip-primary">
+              <BookOpen size={20} strokeWidth={1.75} />
+            </span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-pip-text">Learn with Pip</p>
+              <p className="text-xs text-pip-text-soft">
+                How the journey works, what Pip can help with, and more
+              </p>
+            </div>
+            <ChevronRight size={18} className="shrink-0 text-pip-text-soft" />
+          </button>
+        )}
 
         <div className="grid grid-cols-2 gap-4">
           {projects.map((project) => {
