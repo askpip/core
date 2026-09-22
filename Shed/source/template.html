@@ -5265,9 +5265,13 @@
     var statusEl = body.querySelector(".tool-status");
     var resultEl = body.querySelector(".tool-result");
 
+    // Arrowhead sits at (x1,y1) -- the point where the drag STARTED -- pointing away from
+    // (x2,y2), per direct request (23 September 2026): drawing "from the thing you're pointing
+    // at" reads more naturally than the usual convention of the head landing wherever the
+    // drag/mouse is released.
     function drawArrow(x1, y1, x2, y2, color){
-      var headLen = Math.max(10, Math.min(canvas.width, canvas.height) * 0.03);
-      var angle = Math.atan2(y2 - y1, x2 - x1);
+      var headLen = Math.max(8, Math.min(canvas.width, canvas.height) * 0.02);
+      var angle = Math.atan2(y1 - y2, x1 - x2);
       ctx.strokeStyle = color;
       ctx.fillStyle = color;
       ctx.lineWidth = Math.max(2, Math.min(canvas.width, canvas.height) * 0.006);
@@ -5276,9 +5280,9 @@
       ctx.lineTo(x2, y2);
       ctx.stroke();
       ctx.beginPath();
-      ctx.moveTo(x2, y2);
-      ctx.lineTo(x2 - headLen * Math.cos(angle - Math.PI / 6), y2 - headLen * Math.sin(angle - Math.PI / 6));
-      ctx.lineTo(x2 - headLen * Math.cos(angle + Math.PI / 6), y2 - headLen * Math.sin(angle + Math.PI / 6));
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x1 - headLen * Math.cos(angle - Math.PI / 6), y1 - headLen * Math.sin(angle - Math.PI / 6));
+      ctx.lineTo(x1 - headLen * Math.cos(angle + Math.PI / 6), y1 - headLen * Math.sin(angle + Math.PI / 6));
       ctx.closePath();
       ctx.fill();
     }
@@ -5338,6 +5342,12 @@
     }
 
     canvas.addEventListener("pointerdown", function(evt){
+      // preventDefault is load-bearing for the text tool: canvas isn't natively focusable, so
+      // without this the browser's own default mousedown focus-handling steals focus right back
+      // off the <input> placeTextInput just created and focused, blurring it (and so committing
+      // an empty, instantly-deleted text box) before a single key can be typed. Found and fixed
+      // 23 September 2026 after direct report that the Text tool "does not work at all."
+      evt.preventDefault();
       var pos = getCanvasPos(evt);
       if(mode === "text"){
         placeTextInput(pos);

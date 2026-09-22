@@ -2091,6 +2091,18 @@ complete (no leftover `__ASSET_` tokens). Not yet verified against the live
 page with a real browser click and a real photo — do that before relying on
 it, per the Verify Before Claiming Skill.
 
+**Fixes from direct feedback after the first real try (same day):**
+- The Text tool did nothing at all. Cause: `<canvas>` isn't natively
+  focusable, so the browser's own default mousedown focus-handling was
+  stealing focus straight back off the `<input>` the tool had just created
+  and focused, blurring it (which committed it as empty and deleted it)
+  before a single key could be typed. Fixed with `evt.preventDefault()` on
+  the canvas's `pointerdown` handler, which suppresses that default
+  behaviour.
+- The arrowhead was made smaller, and moved to sit at the point where the
+  drag *starts* rather than where it's released — pointing at the thing
+  being indicated reads more naturally than the reverse.
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`
