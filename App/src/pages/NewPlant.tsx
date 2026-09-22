@@ -100,11 +100,13 @@ const QUESTIONS: Question[] = [
 
 type LocationStep = 'choose' | 'geolocating' | 'manual'
 
-// One extra step after all the QUESTIONS: a chance to add a cover photo
-// right now, while the rose is already in front of the gardener (or at
-// least top of mind) — see the PHOTO_STEP render branch below for why this
-// couldn't just stay something Journey.tsx asks for later.
-const PHOTO_STEP = QUESTIONS.length
+// The very first step, before any question — Marie's Story begins with the
+// photograph, because it makes the rose real at once (Flow Proposal §13,
+// Decision 4: "Restore the photo-first opening"). QUESTIONS[0] ('name') is
+// step 1, QUESTIONS[i] is step i+1, and the photo has no entry of its own in
+// QUESTIONS since it isn't a text question — see the PHOTO_STEP render
+// branch below for its own controls.
+const PHOTO_STEP = 0
 
 /**
  * One conversational question at a time, matching Marie's Story chapter 1.
@@ -160,7 +162,7 @@ export function NewPlant() {
   const [manualRegion, setManualRegion] = useState('')
   const [manualCountry, setManualCountry] = useState('')
 
-  const question = isPhotoStep ? null : QUESTIONS[step]
+  const question = isPhotoStep ? null : QUESTIONS[step - 1]
   const canAdvance = !!question && (question.optional || draft.trim().length > 0)
 
   /**
@@ -181,7 +183,10 @@ export function NewPlant() {
       // The first question is always 'name' (it's the only required one
       // before this point), so this is the earliest moment a real plant
       // record can exist. Everything else starts at a safe default and
-      // fills in as each later question is answered.
+      // fills in as each later question is answered. photoPath is included
+      // here (rather than only at the old terminal photo step) because the
+      // photo now happens *before* the record exists — see the PHOTO_STEP
+      // render branch below.
       await addProject({
         id: projectId,
         name: value || 'My Rose',
@@ -190,6 +195,7 @@ export function NewPlant() {
         location: '',
         plantedWhen: undefined,
         personalMeaning: undefined,
+        overviewPhotoPath: photoPath,
         createdAt: new Date().toISOString(),
         observations: [],
         progressPhotos: [],
@@ -214,41 +220,33 @@ export function NewPlant() {
     // actually said what kind of rose it is — asking it after a plain skip,
     // "not sure," or "don't know" had no real answer to be "that" about.
     // Skips straight to the nursery-label question next either way (see
-    // QUESTIONS above) — that one's asked regardless of this path.
+    // QUESTIONS above) — that one's asked regardless of this path. Guarded
+    // by `step > PHOTO_STEP` because this call also fires from the photo
+    // step itself (step === PHOTO_STEP, no question answered yet).
     if (
-      QUESTIONS[step]?.id === 'variety' &&
+      step > PHOTO_STEP &&
+      QUESTIONS[step - 1]?.id === 'variety' &&
       isUnknownVarietyAnswer(next.variety ?? '') &&
-      QUESTIONS[nextIndex]?.id === 'varietySource'
+      QUESTIONS[nextIndex - 1]?.id === 'varietySource'
     ) {
       nextIndex += 1
     }
-    if (nextIndex < QUESTIONS.length) {
+    if (nextIndex <= QUESTIONS.length) {
       setHistory((prev) => [...prev, step])
       setStep(nextIndex)
-      setDraft(next[QUESTIONS[nextIndex].id] ?? '')
+      setDraft(next[QUESTIONS[nextIndex - 1].id] ?? '')
       return
     }
-    if (step < PHOTO_STEP) {
-      // Just answered the last text question — one more step before
-      // onboarding wraps up: a chance to add a cover photo now. This can't
-      // just wait for Journey.tsx's own 'photos' phase, because a young rose
-      // that isn't established enough to prune yet may never reach that
-      // phase at all (see the photo step's ChatBubble below) — added after
-      // feedback that a first-year rose's gardener could otherwise go a
-      // full season without ever being offered the chance to attach one.
-      setHistory((prev) => [...prev, step])
-      setStep(PHOTO_STEP)
-      return
-    }
-    // Onboarding's job ends here — the plant is saved and its journal now
-    // has somewhere to live in the Library. It deliberately does NOT drop
-    // the gardener straight into a pruning journey: that's a real, guided
-    // decision (with its own safety checklist and "is this rose even
-    // established enough yet" gate) that shouldn't be sprung on someone the
-    // moment they finish naming a plant. From the Library, opening this
-    // plant's own page (PlantProject.tsx) offers "Begin journey" alongside
-    // progress photos and notes, so starting a journey is something the
-    // gardener chooses to do next, not something onboarding decided for them.
+    // Onboarding's job ends here — the plant (its photo already attached,
+    // from the very first step) is saved and its journal now has somewhere
+    // to live in the Library. It deliberately does NOT drop the gardener
+    // straight into a pruning journey: that's a real, guided decision (with
+    // its own safety checklist and "is this rose even established enough
+    // yet" gate) that shouldn't be sprung on someone the moment they finish
+    // naming a plant. From the Library, opening this plant's own page
+    // (PlantProject.tsx) offers "Begin journey" alongside progress photos
+    // and notes, so starting a journey is something the gardener chooses to
+    // do next, not something onboarding decided for them.
     navigate('/library')
   }
 
@@ -318,7 +316,7 @@ export function NewPlant() {
     const prevStep = history[history.length - 1]
     setHistory((prev) => prev.slice(0, -1))
     setStep(prevStep)
-    setDraft(answers[QUESTIONS[prevStep]?.id] ?? '')
+    setDraft(prevStep === PHOTO_STEP ? '' : answers[QUESTIONS[prevStep - 1]?.id] ?? '')
     setLocationStep('choose')
     setGeoError(null)
   }
@@ -337,9 +335,8 @@ export function NewPlant() {
           {isPhotoStep ? (
             <>
               <ChatBubble>
-                Would you like to add a photo of {answers.name || 'your rose'} for your journal? You
-                can take one now or upload one from your device. If not, it's totally fine to skip
-                this for now.
+                Let's meet your rose. Stand back until you can see it from the base to the tips,
+                then take a photo — or skip this for now and add one later.
               </ChatBubble>
               <ResponseBubble>
                 <div className="mb-3 w-2/3">
@@ -347,28 +344,27 @@ export function NewPlant() {
                       deliberately separate from Journey.tsx's journey-overview/
                       journey-close-up slots. Those are re-captured fresh every pruning
                       journey (which can start years after this one), so this photo
-                      never pre-fills — and never gets pre-filled by — that step. */}
+                      never pre-fills — and never gets pre-filled by — that step.
+                      There's no project record yet at this first step (that's created
+                      once the name question is answered, below), so this only sets
+                      local state — see advance()'s overviewPhotoPath: photoPath. */}
                   <PhotoUpload
                     label="Cover photo"
                     profileId={projectId}
                     slot="overview"
                     path={photoPath}
-                    onChange={(path) => {
-                      setPhotoPath(path)
-                      updateProject(projectId, { overviewPhotoPath: path })
-                    }}
+                    onChange={(path) => setPhotoPath(path)}
                     className="aspect-square"
                   />
                 </div>
-                <Button onClick={() => navigate('/library')}>
-                  {photoPath ? "That's everything — save" : 'Skip for now — save'}
+                <Button onClick={() => advanceStep(answers)}>
+                  {photoPath ? 'Continue' : 'Skip for now'}
                 </Button>
-                <p className="mt-2 text-center text-xs text-pip-text-soft">
-                  {!photoPath &&
-                    `You can always add one later from ${answers.name || 'this plant'}'s own page. `}
-                  You'll find {answers.name || 'this rose'} waiting in your library — the pruning
-                  journey can start whenever you're ready.
-                </p>
+                {!photoPath && (
+                  <p className="mt-2 text-center text-xs text-pip-text-soft">
+                    You can always add one later from your rose's own page.
+                  </p>
+                )}
               </ResponseBubble>
             </>
           ) : (

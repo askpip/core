@@ -123,6 +123,12 @@ export function Journey() {
   // move straight on, a dead end with no actual help offered. This
   // interrupts with real, concrete leads before the choice is saved.
   const [pendingHelpInfo, setPendingHelpInfo] = useState(false)
+  // Gates every "Cut" choice, before pendingCutConfirm's safety-checklist
+  // interrupt ever gets a chance to fire — per Flow Proposal §13, a gardener
+  // should never cut without first having actually traced the stem down to
+  // the point they mean to cut, whatever the safety checklist did or didn't
+  // catch. See chooseDecision/confirmTraced/cannotTrace below.
+  const [pendingTraceConfirm, setPendingTraceConfirm] = useState(false)
   // Tap-to-reveal panels for the current observation's confidence rating and
   // its sources — only ever openable when the current observation actually
   // has real content behind it (see ScriptedObservation's confidenceLevel /
@@ -264,18 +270,42 @@ export function Journey() {
     setPhase('photos')
   }
 
+  // Resuming a journey that was left partway through: `project.observations`
+  // already holds whatever was confirmed and saved last time (each one saved
+  // immediately as it's completed — see recordChoice below), so there's no
+  // need to ask about those again. Matched by `feature`, not `id` — a saved
+  // ObservationRecord's id is a database-generated UUID on reload, not the
+  // scripted id these observationScript entries carry (see store.ts's
+  // addObservation comment). Seeding `records` from the same list keeps the
+  // eventual summary screen showing everything, not just what's left.
   function beginObservations() {
+    const completedFeatures = new Set(project!.observations.map((o) => o.feature))
+    const resumeIndex = allowedObservations.findIndex((o) => !completedFeatures.has(o.feature))
+    const alreadyDone = project!.observations.filter((o) =>
+      allowedObservations.some((a) => a.feature === o.feature),
+    )
+    setRecords(alreadyDone)
     setRevealed(false)
     setShowWhy(false)
     setPendingCutConfirm(false)
     setPendingHelpInfo(false)
+    setPendingTraceConfirm(false)
     setShowConfidenceInfo(false)
     setShowSourcesInfo(false)
     setAiAnswer(null)
     setAiLoading(false)
     setAiFailed(false)
     setHistory((prev) => [...prev, { phase, obsIndex }])
-    setPhase('observe')
+    if (resumeIndex === -1) {
+      // Every observation this journey is allowed to offer was already
+      // completed in an earlier session — nothing left to observe, so go
+      // straight to reviewing and saving rather than asking again.
+      setObsIndex(allowedObservations.length)
+      setPhase('summary')
+    } else {
+      setObsIndex(resumeIndex)
+      setPhase('observe')
+    }
   }
 
   // Pops the last step off the history stack above and restores it, so
@@ -297,6 +327,7 @@ export function Journey() {
     setShowWhy(false)
     setPendingCutConfirm(false)
     setPendingHelpInfo(false)
+    setPendingTraceConfirm(false)
     setShowConfidenceInfo(false)
     setShowSourcesInfo(false)
     setAiAnswer(null)
@@ -305,15 +336,17 @@ export function Journey() {
   }
 
   // Gate on DecisionChoices' "Cut" and "Get experienced local help" buttons
-  // — not the other two choices, which still proceed immediately. Cutting
-  // is the one irreversible action here, so an unchecked safety item
-  // interrupts with a confirmation naming exactly what wasn't sure about.
-  // "Get help" interrupts too, but for the opposite reason: it used to be
-  // recorded and moved on with nothing else happening, a dead end — this
-  // gives the gardener somewhere real to start before that's saved.
+  // — not the other two choices, which still proceed immediately. Every
+  // "Cut" first has to clear the trace-the-stem confirmation below — Flow
+  // Proposal §13 — before the existing safety-checklist confirmation (which
+  // only fires when something on that checklist was left unsure) ever gets
+  // a chance to run; see confirmTraced. "Get help" interrupts too, but for
+  // the opposite reason: it used to be recorded and moved on with nothing
+  // else happening, a dead end — this gives the gardener somewhere real to
+  // start before that's saved.
   function chooseDecision(choice: Choice) {
-    if (choice === 'cut' && uncheckedSafetyLabels.length > 0) {
-      setPendingCutConfirm(true)
+    if (choice === 'cut') {
+      setPendingTraceConfirm(true)
       return
     }
     if (choice === 'get-help') {
@@ -321,6 +354,28 @@ export function Journey() {
       return
     }
     recordChoice(choice)
+  }
+
+  // Fires once the gardener confirms they can actually follow the stem down
+  // to the point they mean to cut. Only then does the existing
+  // safety-checklist confirmation get a chance to run (still only when
+  // something on that checklist was left unsure) — and only after both are
+  // clear, if applicable, does the cut actually get recorded.
+  function confirmTraced() {
+    setPendingTraceConfirm(false)
+    if (uncheckedSafetyLabels.length > 0) {
+      setPendingCutConfirm(true)
+      return
+    }
+    recordChoice('cut')
+  }
+
+  // The gardener isn't sure they can trace the stem — the safe move is not
+  // to cut on that uncertainty. Nothing is recorded; this just returns to
+  // the plain decision choices so they can pick something else (decide
+  // later, or get experienced local help), or look again and retry "Cut."
+  function cannotTrace() {
+    setPendingTraceConfirm(false)
   }
 
   function recordOutcome(outcome: ObservationOutcome) {
@@ -342,6 +397,7 @@ export function Journey() {
   function recordChoice(choice: Choice) {
     setPendingCutConfirm(false)
     setPendingHelpInfo(false)
+    setPendingTraceConfirm(false)
     const last = records[records.length - 1]
     const completed = last ? { ...last, choice } : null
     setRecords((prev) => prev.map((r, i) => (i === prev.length - 1 ? { ...r, choice } : r)))
@@ -401,7 +457,14 @@ export function Journey() {
         <h1 className="font-heading mb-4 text-xl">{topLabel}</h1>
 
         <motion.div
-          key={phase + obsIndex + String(revealed) + String(pendingCutConfirm) + String(pendingHelpInfo)}
+          key={
+            phase +
+            obsIndex +
+            String(revealed) +
+            String(pendingCutConfirm) +
+            String(pendingHelpInfo) +
+            String(pendingTraceConfirm)
+          }
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.25 }}
@@ -726,13 +789,31 @@ export function Journey() {
             </>
           )}
 
-          {phase === 'decide' && current && !pendingCutConfirm && !pendingHelpInfo && (
+          {phase === 'decide' && current && !pendingCutConfirm && !pendingHelpInfo && !pendingTraceConfirm && (
             <>
               <ChatBubble>
                 Based on what you confirmed, here are the choices for this observation.
               </ChatBubble>
               <ResponseBubble showAskField>
                 <DecisionChoices onChoose={chooseDecision} />
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'decide' && current && pendingTraceConfirm && (
+            <>
+              <ChatBubble>
+                Before you cut — can you follow that stem all the way down to exactly where
+                you're planning to make the cut, with a clear line the whole way and nothing in
+                the way?
+              </ChatBubble>
+              <ResponseBubble showAskField>
+                <div className="flex flex-col gap-2">
+                  <Button onClick={confirmTraced}>Yes, I can trace it clearly</Button>
+                  <Button variant="secondary" onClick={cannotTrace}>
+                    No — let me choose again
+                  </Button>
+                </div>
               </ResponseBubble>
             </>
           )}
