@@ -2,12 +2,12 @@
 
 ## 1. Document Metadata
 
-**Dossier Identifier:** FRD-BUSHROSE-PRUNINGFRAMEWORK-02 (Revision 2 of FRD-BUSHROSE-PRUNINGFRAMEWORK-01; per FRDS §9.2, -01 remains the permanent Round-1 record and is not edited)  
+**Dossier Identifier:** FRD-BUSHROSE-PRUNINGFRAMEWORK-03 (Revision 3 of FRD-BUSHROSE-PRUNINGFRAMEWORK-01, following Revision 2's resolution of R-11; per FRDS §9.2, -01 and -02 remain the permanent record of their respective rounds and are not edited)  
 **Title:** Pruning an Established, Dormant Bush Rose as a Whole — Objectives, Categories of Growth, Order, Structure, Limits and Cut Mechanics  
 **Commission Reference:** Research Commission Record — Whole-Bush Pruning Framework for an Established, Dormant Bush Rose, Version 0.2, authorised by the AskPIP Founder Authority on 21 September 2026 (`Working/AI Outputs/Research_Commission_Record_Whole_Bush_Pruning_Framework.md`); subject-scope label `BUSHROSE-PRUNINGFRAMEWORK`  
-**Status:** Submitted (Revision 2)  
+**Status:** Submitted (Revision 3)  
 **Preparer:** Acting in the Research Origin Curator (ROC) role, per ROC Operations Manual v2.6  
-**Date:** 22 September 2026 (Revision 2; original submission 21 September 2026)  
+**Date:** 22 September 2026 (Revision 3; Revision 2 also 22 September 2026; original submission 21 September 2026)  
 **Priority:** Unspecified (none has been stated by the Founders, and none is inferred)
 
 **Evidence Confidence Summary (per Assessed Finding, stated up front per FRDS §4.2 item 1):**
@@ -44,20 +44,33 @@
 | AF-28 | Q9 | Tools are disinfected between plants | **Moderate** |
 | AF-29 | Q9 | Removed stems are cut at their origin and stubs are not left | **Moderate** |
 | AF-30 | Q9 | Sealing cut ends is advised by some sources and is contested | **Low** |
+| AF-31 | Q3/Q9 | Thinning cuts and heading cuts are functionally different, not interchangeable | **Moderate** |
+| AF-32 | Q5 | On a congested or overgrown bush, keeper canes are identified in a set sequence | **Low** |
+| AF-33 | Q4 | Where two canes cross, one source gives an explicit rule for which to remove | **Low** |
+| AF-34 | Q8 | General plant-diagnostic guidance favours physical examination over photographs alone | **Low** |
+| AF-35 | Q9 | Sealing larger cuts targets cane-boring insects, not wound healing | **Moderate** |
+| AF-36 | Q2 | Old wood is recognised visually by bark colour and texture, not a validated age | **Moderate** |
+| AF-37 | Q6 | Grandifloras are generally pruned like hybrid teas, adjusted for height | **Moderate** |
+| AF-38 | Q9 | A second RHS source corroborates AF-21 to AF-24; Southern Hemisphere sources dispute the slant/bud-direction convention | *Not assigned — a two-part entry; see below and C11* |
+| AF-39 | Q7 | A badly overgrown, weak or sickly bush is sometimes better replaced than renovated | **Low** |
 
-This commission produced 30 Assessed Findings: 11 High, 13 Moderate and 6 Low. No finding is assessed Very High or Very Low, and none is recorded as Not Assigned. No overall figure is given for the commission, and none should be inferred (FRDS §6.2).
+Across Revisions 1 to 3, this commission has produced 39 numbered Assessed Findings, of which 38 carry a confidence level: 11 High, 17 Moderate and 10 Low. AF-38 is a two-part entry — additional corroboration for AF-21 to AF-24 from a source not previously used, and a newly documented, unresolved conflict (C11) — and, per EAS §2.10, a documented disagreement between sources is not itself evidence for either side, so it does not carry its own confidence level. No finding is assessed Very High or Very Low. No overall figure is given for the commission, and none should be inferred (FRDS §6.2).
 
-Ten further matters were investigated and produced no Assessed Finding, because the sources are silent, conflict, or could not be retrieved. They are recorded in §7.2 as unresolved questions or absences of evidence (U-1 to U-10), and the conflicts in §6 (C1 to C10) are recorded as unresolved, not settled.
+Ten further matters were investigated under Q2 and Q4 to Q9 and did not produce a full Assessed Finding; they are recorded in §7.2 as unresolved questions or absences of evidence (U-1 to U-10). Revision 3's further-research round (§9) closed two of them outright (U-2, U-4) and partially narrowed five others (U-6 to U-10) with new findings that do not fully answer the original question. U-1 was searched again directly (R-1, R-4) and remains open; U-3 remains open, touched only indirectly by AF-32's narrower finding for congested bushes; U-5 was outside this round's commission (R-1 to R-10, R-12) and was not re-searched. Eleven conflicts are recorded in §6 (C1 to C11, C11 added in Revision 3), and all are preserved as unresolved, not settled.
 
-**How to read this dossier.** Section 7 presents the findings by commissioned question, followed by the correspondence table (§7.3). Section 8 holds the full Evidence Assessment for each finding. The image-permissions register requested by the Founder is at §4.4, with a plain statement of where matters stand. Cut mechanics (Q9) are covered by AF-21 to AF-30.
+**How to read this dossier.** Section 7 presents the findings by commissioned question, followed by the correspondence table (§7.3). Section 8 holds the full Evidence Assessment for each finding. The image-permissions register requested by the Founder is at §4.4, with a plain statement of where matters stand. Cut mechanics (Q9) are covered by AF-21 to AF-30, and further addressed by Revision 3's AF-31, AF-35 and AF-38.
 
-**One limitation applies to every finding.** The page contents were read through a page-extraction tool that returns a machine-generated summary of each page, not the page itself. Quoted wording is as the tool returned it. Where two passes over one page were made (the RHS), they agreed. Every quotation should be checked against the live page before an Approved Research Compilation (ARC) is written from it. This is carried to §9 as R-11.
+**One limitation applies to every finding from Rounds 1 and 2 (the original 22 sources).** The page contents were read through a page-extraction tool that returns a machine-generated summary of each page, not the page itself. Quoted wording is as the tool returned it. Where two passes over one page were made (the RHS), they agreed. **This has now been checked (R-11, resolved in Revision 2; see §0):** every quotation from those 22 sources was verified against the live page on 22 September 2026, two quotations were corrected, and two unverifiable sources were removed. The six sources added in Revision 3 (§4.1) were read directly by research agents quoting the live page text, not through the original bulk extraction tool, so this particular risk does not apply to them in the same way; their quotations have not undergone a separate, dedicated re-verification pass of the kind R-11 performed, since they were not extracted through the tool that R-11 was checking.
 
 ---
 
 ## 0. Note on This Revision
 
-This is Revision 2 of the dossier submitted as FRD-BUSHROSE-PRUNINGFRAMEWORK-01, created to resolve R-11 (§9: "Verify before writing an ARC") before any Founder review round, consistent with ROC Operations Manual §7.7 (v2.7) — the ROC resolves what it can resolve itself before recording a further-research item, rather than presenting the Founders with an open item it could have closed. No new Research Commission Record or authorisation was needed for this work: R-11 is a verification of material already gathered under the existing commission (Version 0.2), not new research, so it does not follow the RCR-amendment pattern used for FRD-BUSHROSE-BASICCARE-02.
+This dossier has been revised twice since its original submission as FRD-BUSHROSE-PRUNINGFRAMEWORK-01. Revision 2 resolved R-11 (source verification). Revision 3, below, carries out the further research the Founder directly commissioned on 22 September 2026 ("carry out any further research we need to... create a final rose bush pruning entry for the MIL"), covering R-1 to R-10 and R-12. Both revisions are recorded here in full for traceability; neither -01 nor -02 is edited (FRDS §9.2).
+
+### Revision 2 — R-11 resolved (22 September 2026)
+
+This revision resolved R-11 (§9: "Verify before writing an ARC") before any Founder review round, consistent with ROC Operations Manual §7.7 (v2.7) — the ROC resolves what it can resolve itself before recording a further-research item, rather than presenting the Founders with an open item it could have closed. No new Research Commission Record or authorisation was needed for this work: R-11 is a verification of material already gathered under the existing commission (Version 0.2), not new research, so it does not follow the RCR-amendment pattern used for FRD-BUSHROSE-BASICCARE-02.
 
 **What was checked.** Every quotation in §8 attributed to one of the 24 sources was checked against that source's live page (22 September 2026), and this dossier's findings were compared against the full, approved text of ARC-BUSHROSE-DORMANCY-01 and ARC-BUSHROSE-RECENTPLANT-01. Full detail, source by source, is in the companion record `FRD-BUSHROSE-PRUNINGFRAMEWORK-01_R11_Verification_Notes.md`.
 
@@ -75,6 +88,25 @@ This is Revision 2 of the dossier submitted as FRD-BUSHROSE-PRUNINGFRAMEWORK-01,
 **What this does not change.** No Evidence Confidence Level changes in this revision. No finding is added, withdrawn or re-worded in substance. §9's R-1 to R-10 and R-12 are untouched and remain open, for the Founders to prioritise as before (§10, Decision Point 7). Only R-11 is resolved by this revision.
 
 **Founder decision on Karla's already-submitted review (added 22 September 2026).** Before this revision was prepared, Karla had already submitted her Review Form response to FRD-BUSHROSE-PRUNINGFRAMEWORK-01 (submitted 22 September 2026, 01:52 UTC), and Shaphan had begun but not submitted his own. Because R-11's corrections change no Evidence Confidence Level and add or withdraw no finding (this section, above), Shaphan decided directly that Karla's existing response stands for this revision and does not need to be redone: the substance she reviewed and answered on is unchanged by the R-11 fixes. This is recorded here for traceability, on the same footing as a Founder Decision Record, rather than routed back to Karla as a further review cycle.
+
+### Revision 3 — Further research completed: R-1 to R-10 and R-12 (22 September 2026)
+
+**What was commissioned.** After accepting Karla's existing review of FRD-BUSHROSE-PRUNINGFRAMEWORK-01 as sufficient for Revision 2 (above), Shaphan directly instructed the ROC to "carry out any further research we need to to create a final rose bush pruning entry for the MIL" — commissioning the remaining Recommendations for Further Research, R-1 to R-10 and R-12 (§9), in one round. Authority for this round follows the same precedent already used for FRD-BUSHROSE-BASICCARE-01's Round 2 (ARC-BUSHROSE-RECENTPLANT-01's own metadata: "commissioned directly by Founder instruction, consistent with this project's established practice"); no separate Research Commission Record amendment was drafted.
+
+**What was done.** Each of R-1 to R-10 and R-12 was researched in full, following the same evidence standard (EAS) and the same "resolve before presenting" approach used for R-11 (ROC Operations Manual §7.7). Full detail — the disposition of every item, the new sources, the new findings in complete Evidence Assessment format, and an honest account of what could not be resolved despite real search effort — is in the companion record `FRD-BUSHROSE-PRUNINGFRAMEWORK-01_Round2_Research_Notes.md`.
+
+**Outcome, in brief.**
+
+- **Three items fully resolved**, each producing a new Assessed Finding: R-3 (thinning cuts and heading cuts are functionally different — AF-31); R-5 (keeper canes on a congested bush are identified in a set sequence — AF-32); R-12 (grandifloras are pruned like hybrid teas, adjusted for height — AF-37).
+- **Five items partially resolved**, each narrowed by a new finding that answers part, but not all, of the original question: R-4 (a tie-break rule for two crossing canes — AF-33 — but which category wins when a stem is both weak and structurally useful remains open); R-6 (photographs alone are generally insufficient for reliable diagnosis — AF-34 — but the specific breakdown of what is and isn't visible in a photo of a dormant rose bush remains open); R-7 (a weak or sickly overgrown bush is sometimes better replaced than renovated — AF-39 — but no source gives a concrete staging threshold or "seek help" trigger); R-8 (sealing cut ends is now explained — AF-35, resolving the apparent contradiction at C4 — and the slant-direction reasoning is strengthened, but the quarter-inch/half-inch distance dispute at C2, and the ISU/CLE wording dispute within C3, remain open); R-9 (old wood is now described by visual markers — AF-36 — but no age-in-years figure is resolved, and Round 2 found a further, more divergent age figure, widening rather than narrowing the existing disagreement at C6).
+- **One item substantially completed**: R-10 (widening the source base). Six new sources were added (§4.1): three Australian rose societies, one South African commercial nursery, a working University of Missouri Extension page (replacing the previously inaccessible one), and a second RHS page. Two sources remain genuinely unreachable after real attempts by three different methods: PlantAmnesty's rose-pruning guide (the link is dead; their current rose content is video-only) and The Rose Society UK's pruning page (membership-gated, not merely blocked — the ROC did not attempt to work around the login, consistent with this project's standing practice of not handling credentials or account sign-in on the Founders' behalf, even when a Founder's own browser was offered for the purpose). The second RHS page corroborates AF-21 to AF-24 (folded in as AF-38, part 1) and also surfaced a genuine new disagreement from two Southern Hemisphere sources over whether the cut's angle and bud-direction matter at all (AF-38, part 2, recorded as new conflict **C11**, §6).
+- **Two items remain genuine, confirmed gaps**, searched for in both rosarian and general-arboriculture literature and not found: R-1 (whether crossing, rubbing and inward-growing commonly occur on the same stem) and R-2 (whether "choose the canes to keep" and "remove the unwanted categories" reliably converge on the same result). Neither is treated as awaiting a search that hasn't been tried; both were searched for directly and the absence is recorded as a result in its own right, per ROC Operations Manual §7.7.
+- Nine new Assessed Findings (AF-31 to AF-39, one of which — AF-38 — is a two-part corroboration-and-conflict entry rather than a single confidence-leveled claim) and one new conflict (C11) are added to §8 and §6 respectively. §1's summary table and finding count are updated accordingly. §7.1, §7.2, §7.3 and §9 are updated to reflect each item's actual disposition.
+- **No existing Evidence Confidence Level changes**, and no existing finding (AF-1 to AF-30) is withdrawn or reworded in substance. Where a new Round 2 source bears on an existing finding without changing its level (the AF-24 reasoning note; the AF-20/renewal-figure corroboration recorded under R-7; the C6 age-figure widening), that is recorded as a note on the existing finding or conflict, not folded into its original source count, per the scoping decision stated in the companion Round 2 Research Notes.
+
+**What this does not change.** AF-1 to AF-30 keep their original Evidence Confidence Levels, sources and text (subject only to the R-11 corrections already made in Revision 2). §10's Founder Decision Points are updated below to reflect what has actually been resolved, but no new decision is manufactured on the Founders' behalf — where research closed a gap, that is reported as a fact; where the ROC's own reasoning might fill a remaining gap, it is withheld and left open, per EAS §2.10.
+
+**On Founder review of this revision.** This revision has not yet been put to either Founder for review. The Decision Brief and Review Form that accompanied FRD-BUSHROSE-PRUNINGFRAMEWORK-01 predate both R-11 and this further-research round and no longer match the dossier's content (they still name the two sources removed in Revision 2, among other things); rewriting them to match this revision, and inviting both Founders to review the consolidated result, is recorded as the next step rather than assumed to be already covered by Karla's earlier review of -01 — unlike Revision 2's R-11 corrections, this revision adds substantial new content, so the Revision 2 decision that her existing response could stand unchanged does not, on its own terms, extend to this revision.
 
 ---
 
@@ -162,9 +194,9 @@ The plan below records the approach followed, under ROC Operations Manual Chapte
 
 **Traceability.** The per-source extraction notes on which this log and the findings rest are kept in the companion record `FRD-BUSHROSE-PRUNINGFRAMEWORK-01_Research_Notes.md` (FRDS §3.3). Its first part is the extraction output as returned; its second part is the ROC's condensed notes of the extraction output, not verbatim text.
 
-### 4.1 Sources relied upon (22)
+### 4.1 Sources relied upon
 
-Every source below was fetched on 21 September 2026. Groups: **UK** = United Kingdom; **NZ** = New Zealand; **SOC** = specialist society or public garden (United States); **EXT** = United States university extension, extension-hosted question-and-answer pages and other public educational sources.
+**Sources relied upon in Rounds 1–2 (22).** Every source below was fetched on 21 September 2026. Groups: **UK** = United Kingdom; **NZ** = New Zealand; **SOC** = specialist society or public garden (United States); **EXT** = United States university extension, extension-hosted question-and-answer pages and other public educational sources.
 
 | # | Code | Source | Publisher and author | Date | Group and type |
 |---|---|---|---|---|---|
@@ -229,15 +261,40 @@ Every source below was fetched on 21 September 2026. Groups: **UK** = United Kin
 | UAEX | AF-5, AF-7, AF-9, AF-17, AF-20 | 5 |
 | CCER | AF-1, AF-2, AF-7, AF-15, AF-16, AF-18, AF-19, AF-20 | 8 |
 
+**Sources added in Revision 3 (6).** Added during the Round 2 further-research pass (§0) to widen the source base (R-10). Groups add **AUS** = Australia and **ZA** = South Africa. Per the scoping decision recorded in the companion `FRD-BUSHROSE-PRUNINGFRAMEWORK-01_Round2_Research_Notes.md`, these sources support the new findings AF-31 to AF-39 below; they are not retroactively folded into AF-1 to AF-30's existing counts, which are unchanged from Revision 2.
+
+| # | Code | Source | Publisher and author | Date | Group and type |
+|---|---|---|---|---|---|
+| 23 | MOEXT | [Roses: Care After Planting (G6601)](https://extension.missouri.edu/g6601) | University of Missouri Extension; David H. Trinklein, Horticulture State Specialist | Not stated on current page | EXT; University extension (replaces the previously 403'd PDF of the same guide, §4.2) |
+| 24 | RHS2 | [Rose Pruning: General Tips](https://www.rhs.org.uk/plants/roses/pruning-guide) | Royal Horticultural Society (UK); The RHS Advice Team | Not stated | UK; National horticultural charity (a distinct page from the original RHS source, `.../modern-bush/pruning-guide`) |
+| 25 | AUSSA | [Pruning Roses: A Home Gardener's Guide](https://sarose.org.au/growing-advice/pruning-roses-a-home-gardener-s-guide) | Rose Society of South Australia; Doug Gregory | Not stated | AUS; Regional specialist society |
+| 26 | AUSVIC | [The Pruning Bible](https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/) | The Rose Society of Victoria (Australia) | Not stated | AUS; Regional specialist society |
+| 27 | AUSNSW | [Growing Roses](https://nsw.rose.org.au/growing-roses) | Rose Society of NSW (Australia) | Not stated | AUS; Regional specialist society |
+| 28 | ZALR | [Winter Pruning](https://www.ludwigsroses.co.za/rose-growing-tips/rose-care/winter-pruning/) | Ludwig's Roses (South Africa); byline "Halmar" per page metadata | Published 9 May 2014; modified 23 Aug 2016 | ZA; Commercial (major specialist rose nursery — the best available South African source; no non-commercial South African rose-society written guide was found) |
+
+**Contribution map — sources added in Revision 3.**
+
+| Code | Findings supported | Number |
+|---|---|---|
+| MOEXT | AF-39 | 1 |
+| RHS2 | AF-38 | 1 |
+| AUSSA | AF-38 | 1 |
+| AUSVIC | (retrieved; content consistent with, did not independently add to, findings elsewhere) | 0 |
+| AUSNSW | (retrieved; content consistent with, did not independently add to, findings elsewhere) | 0 |
+| ZALR | AF-38 | 1 |
+
+**Sources relied upon, total: 28** (22 from Rounds 1–2, unchanged in substance since Revision 2, plus 6 added in Revision 3). The two counts are kept separate throughout this dossier, per the scoping decision above; a finding's stated source count never mixes sources from the two tables unless the finding's own text says so.
+
 ### 4.2 Sources retrieved or listed but not relied upon
 
 - **AEW — Ask Extension FAQ 365889** (`https://ask.extension.org/kb/faq.php?id=365889`): fetched successfully on 21 September 2026 and originally relied upon (support for AF-2, AF-7). On R-11 verification (22 September 2026), the same URL returned unrelated content — a rose-disease question answered by a different, named individual, dated 2022 — not the neglected-rosebush content originally cited. Given the one-day interval between the two fetches, this most likely reflects an error in the original page-extraction pass rather than a same-week change to the live site. Removed from the relied-upon source base; see §0.
 - **AEO — Ask Extension FAQ 387414** (`https://ask.extension.org/kb/faq.php?id=387414`): fetched successfully on 21 September 2026 and originally relied upon (support for AF-2, AF-5, AF-6, AF-7, AF-14, AF-15); its attribution was already flagged in the original dossier as unconfirmed ("as reported by the extraction"). On R-11 verification (22 September 2026), the URL returned the same unrelated content as AEW above, not the overgrown-rosebush content or the "Oregon State University Extension"/"Anne" attribution originally cited. The original flag was warranted. Removed from the relied-upon source base; see §0.
 - **Gardening Help (Missouri Botanical Garden), "Pruning Bush Roses" (factsheet Roses40)** (`https://www.missouribotanicalgarden.org/Portals/0/Gardening/Gardening%20Help/Factsheets/Roses40.pdf`): retrieved; the content on this topic is limited to cutting canes to about 18 inches at the end of the season, cutting into living tissue in spring, and minimising pruning of first-year plants. It supports none of the findings here and is not relied upon. No author, date or reuse wording is stated.
 - **University of Arkansas Cooperative Extension, "Hybrid Tea Roses"** (`https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/hybrid-tea-roses.aspx`): retrieved; contains summer deadheading and cutting-propagation questions only, with no dormant-season pruning content. Not relied upon.
-- **PlantAmnesty, "Hybrid Tea Rose Pruning"** (`https://www.plantamnesty.org/wp-content/uploads/Hybrid-Tea-Rose-Pruning.pdf`): listed in search results; the fetch returned a 404 error. Contents unknown. See R-10.
-- **University of Missouri Extension, guide G6601 (pruning roses)** (`https://extension.missouri.edu/sites/default/files/legacy_media/wysiwyg/Extensiondata/Pub/pdf/agguides/hort/g06601.pdf`): listed in search results; the fetch returned a 403 error. Contents unknown. See R-10. (The dead-wood ARC cites University of Missouri Extension, so the publisher is known to the project.)
-- Search results only, not fetched: RHS pages on rambling roses and on renovating overgrown shrubs; further extension, society and garden pages. Nothing was concluded from a search result alone.
+- **PlantAmnesty, "Hybrid Tea Rose Pruning"** (`https://www.plantamnesty.org/wp-content/uploads/Hybrid-Tea-Rose-Pruning.pdf`): listed in search results; the fetch returned a 404 error. **Revision 3 (R-10):** re-attempted by three different methods (WebFetch twice, from two environments, and a live Chrome browser session at Shaphan's offer). The PDF link is confirmed dead; PlantAmnesty's current rose-pruning content is video- and class-based only, with no written guide found to replace it. Recorded as a genuine, searched-and-not-found gap, not left for a further attempt.
+- **University of Missouri Extension, guide G6601 (pruning roses)** (`https://extension.missouri.edu/sites/default/files/legacy_media/wysiwyg/Extensiondata/Pub/pdf/agguides/hort/g06601.pdf`): listed in search results; the fetch returned a 403 error. **Revision 3 (R-10):** the PDF itself remains inaccessible, but a current HTML page of the same guide was found at a different URL (`https://extension.missouri.edu/g6601`) and fetched successfully; it is now relied upon as MOEXT (§4.1). (The dead-wood ARC cites University of Missouri Extension, so the publisher is known to the project.)
+- **The Rose Society UK, pruning page** (found during Revision 3, R-10): the page redirects to a WordPress member login. This is a membership-gated page, not simply a blocked or dead one, and the ROC did not attempt to sign in or create an account to reach it, consistent with this project's standing practice of never handling credentials or account access on the Founders' behalf — including when Shaphan offered his own signed-in Chrome browser for the purpose. Recorded as a genuine, searched-and-not-reachable gap.
+- Search results only, not fetched: RHS pages on rambling roses and on renovating overgrown shrubs (**Revision 3 note:** the RHS renovation guidance was checked in Round 2 and confirmed to be kept deliberately separate from rose-specific pruning guidance — a documented negative result, not a gap left unsearched; see AF-32's evidence). Nothing was concluded from a search result alone.
 
 ### 4.3 Other material encountered and excluded
 
@@ -280,6 +337,7 @@ This register records what each source itself states about photographs, illustra
 - **Third-party credits:** some images are credited to named third parties or to stock or shared libraries: KCRS ("Ortho's All About Roses, Tommy Cairns, Copyright 1999"; Laura Dickinson), OSU (a stock-image provider among others), UCF (Wikimedia Commons, Sierra Foothill Rose Society, two named individuals), UMD (the author's own artwork; a named photographer), RHS (a named photographer), UGA (the institution's research garden).
 - **Images that show how a cut is made or the shape aimed for** (from the extractions, not viewed by the ROC): ARS (five cutting-angle diagrams), TAMK (pruning-technique figures), RBG (six photographs of cuts and results), UMD (illustrations by the author), UCG (a diagram, not present in the fetched page), and DUN (a photograph of pruned roses).
 - **Position:** no image is currently available for reuse on the strength of what these pages state. No permission has been sought. The gap already recorded in the KCS (no reference photographs exist for a Comparison Image PKR) is therefore unchanged by this commission. Whether and how to source images is a Founder decision (§10, item 8).
+- **Revision 3 note:** the six sources added in Revision 3 (§4.1) were fetched for narrow, specific findings (AF-31 to AF-39) rather than the general structured extraction used for the original 22, and their photograph or illustration content was not separately logged in this register. This is recorded as an incomplete item rather than treated as "none found"; if any of the six carry images the Founders would want considered, a short follow-up pass would close this gap.
 
 ### 4.5 Record of what was searched but not found
 
@@ -319,7 +377,7 @@ The evidence was evaluated against the Evidence Assessment Factors (EAS Chapter 
 
 ## 6. Managing Conflicting Evidence and Uncertainty
 
-Ten conflicts were found. Each is preserved as unresolved. Where sources give a reason for a difference it is recorded; where they do not, the ROC does not supply one. The ROC's own reasoning about how differences might be reconciled is recorded, as a research lead only, at §9 (EAS §2.10).
+Eleven conflicts are recorded (ten from Rounds 1–2; C11 added in Revision 3). Each is preserved as unresolved. Where sources give a reason for a difference it is recorded; where they do not, the ROC does not supply one. The ROC's own reasoning about how differences might be reconciled is recorded, as a research lead only, at §9 (EAS §2.10).
 
 ### C1 — Final height and how hard to prune
 
@@ -335,7 +393,7 @@ Ten conflicts were found. Each is preserved as unresolved. Where sources give a 
 
 **Reasons given.** OSU gives a reason for a quarter inch ("ensures the wound can heal properly"). No source gives a reason for one-half inch.
 
-**Treatment.** Preserved. AF-22 is Moderate.
+**Treatment.** Preserved. AF-22 is Moderate, unchanged. **Revision 3 (R-8):** a general-woody-plant reason for cut distance (bud death if the cut is too close; dieback of the wood above it if too far) was found, but it does not reconcile the quarter-inch/half-inch split specifically for roses. This remains a genuine, searched-and-not-found gap — see §9.
 
 ### C3 — Direction of the slant relative to the bud
 
@@ -343,7 +401,7 @@ Ten conflicts were found. Each is preserved as unresolved. Where sources give a 
 
 **Reasons given.** The wordings may describe one geometry or two. The extraction cannot settle it, and no source explains its wording beyond the ARS and UMD/TAMK reasons.
 
-**Treatment.** Preserved. AF-24 is Low, and R-8 proposes checking the original pages and diagrams.
+**Treatment.** Preserved. AF-24 is Low, unchanged. **Revision 3 (R-8):** the reasoning behind the majority "away from the bud" position (sap flow, per ARS; water shedding, per UMD and TAMK) was examined further and confirmed consistent with what this entry already recorded; it does not resolve whether ISU and CLE's "same direction as the bud" wording describes a genuinely different practice or is a wording ambiguity — that remains a genuine, searched-and-not-found gap (see §9). A separate, new disagreement — over whether the cut's angle and bud-facing direction matter at all — was found in two Southern Hemisphere sources and is recorded as new conflict **C11**, below.
 
 ### C4 — Sealing cut ends
 
@@ -351,7 +409,7 @@ Ten conflicts were found. Each is preserved as unresolved. Where sources give a 
 
 **Reasons given.** The sources advising sealing give one reason, cane borers. TAMK's statement is general and not about roses.
 
-**Treatment.** Preserved. AF-30 is Low.
+**Treatment.** Preserved. AF-30 is Low, unchanged. **Revision 3 (R-8):** the apparent contradiction between the rose-specific sources advising sealing and TAMK's general advice against wound dressings is now explained rather than left as a bare disagreement — see **AF-35**, which finds the two positions answer different questions (protection against cane-boring insects, versus wound healing generally) and are not actually testing the same claim.
 
 ### C5 — How boldly to prune
 
@@ -367,7 +425,9 @@ Ten conflicts were found. Each is preserved as unresolved. Where sources give a 
 
 **Reasons given.** Not given.
 
-**Treatment.** Preserved. AF-7 is Moderate.
+**Revision 3 note (R-9).** Round 2 adds a visual-marker finding (**AF-36**: gray, scaly, streaked or crusty bark, sometimes with deteriorating prickles) that is consistent with, and somewhat sharpens, this entry. It does not resolve the age-in-years question: Round 2 found a new figure (Virginia Cooperative Extension Master Gardener Training Handbook: "after about 5 or 6 years, the canes begin to lose vigor") that is itself inconsistent with the figure already on record (three-year-old wood, per RHS's Wisley guidance) — widening, not narrowing, the existing disagreement. No source found in either round derives its figure from evidence; both remain unsupported conventions.
+
+**Treatment.** Preserved. AF-7 is Moderate, unchanged.
 
 ### C7 — How many canes to retain
 
@@ -401,6 +461,14 @@ Ten conflicts were found. Each is preserved as unresolved. Where sources give a 
 
 **Treatment.** Preserved. AF-28 is Moderate. Products are recorded as what the sources say and not recommended.
 
+### C11 — Whether the pruning cut's angle and bud-facing direction matter at all (new in Revision 3)
+
+**What the sources say.** The great majority of the source base (RHS, both pages; most US extension sources; New Zealand sources) says to slant the cut at roughly 45 degrees, sloping away from an outward-facing bud, and gives it enough weight to be one of the dossier's cut-mechanics findings (AF-23, AF-24). Two Southern Hemisphere sources found in Revision 3 explicitly disagree: the Rose Society of South Australia says the angle doesn't matter because "a healthy cane will seal over the cut without any human intervention"; Ludwig's Roses (South Africa) recommends a 90-degree (unsloped) cut and says which way the top eye faces is "of minor importance."
+
+**Reasons given.** The majority position's reasons (sap flow, per ARS; water shedding, per UMD and TAMK) are already on record (C3). Neither dissenting source gives a reason for its different position.
+
+**Treatment.** Preserved as unresolved, per this project's practice of recording disagreement rather than picking a side. AF-23 and AF-24 remain as assessed (Moderate and Low respectively) on the strength of the sources that support them; this conflict entry exists so the disagreement itself is on the record for the Founders, rather than only the majority position.
+
 **Approved findings.** The ROC did not re-research approved findings (Record §3). While reading, the ROC did not identify a statement that it recognised as conflicting with ARC-BUSHROSE-DEADWOOD-01. **Revision 2 (22 September 2026):** the systematic comparison against the full, approved text of ARC-BUSHROSE-DORMANCY-01 and ARC-BUSHROSE-RECENTPLANT-01 called for here (R-11) has now been carried out. No conflict was found; see §0 for the outcome and the companion `FRD-BUSHROSE-PRUNINGFRAMEWORK-01_R11_Verification_Notes.md` for detail.
 
 ---
@@ -431,6 +499,7 @@ The kinds of finding follow FRDS §5.2. All findings rest on published expert gu
 | AF-9 | The canes retained are the strong, healthy and vigorous ones, and in several sources the younger or previous year's canes. | Moderate | Supported | RHS, OSU, CLE, UGA, UMD, UCG, UCF, ILL, KCRS, UAEX (10) |
 | AF-10 | Sources treat new shoots arising from the base of the bush or the bud union as a sign of good health and as a route to renewing the framework. | Low | Limited | ARS, UCG (2) |
 | AF-11 | Sources give two reasons for removing crossing stems: that rubbing damages the canes and encourages disease, and that crossing stems obstruct air circulation. | Low | Limited | OSU, UCG (2) |
+| AF-36 | Old wood is recognised visually by gray colouring and rough, scaly, crusty or streaked bark texture, not by a validated age. New in Revision 3. | Moderate | Supported | Douglas Welsh/Texas A&M (via San Antonio Express-News), University of Arizona Cooperative Extension, Houston Rose Society (3) |
 
 **Q3 — Order of work**
 
@@ -438,6 +507,7 @@ The kinds of finding follow FRDS §5.2. All findings rest on published expert gu
 |---|---|---|---|---|
 | AF-12 | Where sources give an order of work, dead, damaged and diseased wood is removed first. | High | Established | RHS, YAT, SPR, OSU, CLE, ISU, CSU, UMD, PUR, RBG, KCRS, ILL (12) |
 | AF-13 | Sources that give a sequence complete the removal of unwanted growth (thinning) before shortening the canes that remain (heading). | High | Established | RHS, YAT, SPR, OSU, ILL, UCG, RBG, KCRS (8) |
+| AF-31 | A cut that removes a stem entirely (thinning) and a cut that shortens a stem back to a bud (heading) are functionally different, not one kind of cut in two places; also bears on Q9. New in Revision 3. | Moderate | Supported | Harris (*Journal of Arboriculture*, 1994), UC Marin Master Gardeners, UCG (3) |
 
 **Q5 — Structure and framework**
 
@@ -446,6 +516,7 @@ The kinds of finding follow FRDS §5.2. All findings rest on published expert gu
 | AF-14 | Sources describe the aim as an open-centred bush (vase, cup or spoked shape) with canes spread evenly around the base, so that light and air reach the interior. | High | Established | OSU, RHS, DUN, UCG, YAT, PUR, ARS, UGA, ILL, CLE, RBG, KCRS, CSU, SPR (14, Rev. 2 — see §0) |
 | AF-15 | Sources advise retaining a small number of strong canes, and the published counts fall between three and eight. | Moderate | Supported | OSU, ILL, CLE, UGA, UCG, DUN, KCRS, PUR, CCER (9, Rev. 2 — see §0) |
 | AF-16 | Several sources frame the task as choosing the canes to keep and removing the rest, alongside or instead of removing categories of growth. | Moderate | Supported | OSU, ILL, CLE, UCG, DUN, PUR, CCER (7) |
+| AF-32 | On a congested or overgrown bush, keeper canes are identified in a set sequence (dead/damaged first, then old/unproductive, then crossing, then assess the remaining shape), not all at once. New in Revision 3. | Low | Limited | Chicago Botanic Garden (1) |
 
 **Q6 — Limits and restraint**
 
@@ -455,6 +526,7 @@ The kinds of finding follow FRDS §5.2. All findings rest on published expert gu
 | AF-18 | Hybrid teas (and grandifloras) are pruned lower, or to fewer canes, than floribundas. | Moderate | Supported | RHS, OSU, CCER (3) |
 | AF-19 | Once-flowering roses (old garden roses, ramblers and rugosas) are pruned lightly and, where they flower on old wood, after flowering rather than in dormancy. | High | Established | ILL, CLE, UGA, RBG, YAT, SPR, CCER, KCRS, UCG (9) |
 | AF-20 | Where sources describe renewing a bush over more than one year, they remove about one-third of the old canes each year. | Low | Limited | ILL, UCF, UAEX, CCER (4) |
+| AF-37 | Grandifloras are generally pruned like hybrid teas, adjusted for height. New in Revision 3. | Moderate | Supported | American Rose Society Consulting Rosarian Manual, LSU AgCenter, University of Arizona Cooperative Extension, Heirloom Roses (4) |
 
 **Q9 — Cut mechanics**
 
@@ -470,23 +542,43 @@ The kinds of finding follow FRDS §5.2. All findings rest on published expert gu
 | AF-28 | Several sources advise disinfecting tools between plants (or after cutting diseased wood) to avoid spreading disease. | Moderate | Supported | OSU, CLE, UCG, UCF, YAT, ISU, TAMK (7) |
 | AF-29 | A stem chosen for removal is cut off at its point of origin (the base, the bud union or its parent stem), and stubs are not left. | Moderate | Supported | ILL, UCG, PUR, DUN, KCRS, YAT, ARS, TAMK, ISU (9) |
 | AF-30 | Some sources advise sealing the cut ends of larger canes with glue, nail polish or pruning sealer to deter cane borers, while a general woody-plant text advises against wound dressings. | Low | Limited | CLE, ILL, UMD, KCRS, ARS, UGA (6) |
+| AF-35 | Where rose-specific sources recommend sealing larger cuts, the stated reason is protection against cane-boring insects entering the exposed pith — a different claim from, and not contradicted by, general research finding sealing does not aid wound healing generally. Resolves the apparent contradiction at C4. New in Revision 3. | Moderate | Supported | University of Arizona Cooperative Extension, PlantTalk Colorado, ARS, Texas AgriLife El Paso (4) |
+| AF-38 | A second RHS source corroborates AF-21 to AF-24 (distance, slant, outward-facing bud). Two Southern Hemisphere sources dispute the whole slant/bud-direction convention (recorded as new conflict C11, not as a competing finding). New in Revision 3. | *Not assigned — see C11* | — | RHS2 (corroboration); AUSSA, ZALR (dispute) |
 
-No Assessed Finding was produced for Q4 (interactions), Q7 (deferral and help, apart from the partial figures at AF-20) or Q8 (photographs). See §7.2.
+**Q4 — Interactions**
+
+| Finding | Statement | Level | Kind | Sources |
+|---|---|---|---|---|
+| AF-33 | Where two canes cross or crowd each other, one source gives an explicit tie-breaking rule: remove the smaller of the pair. New in Revision 3; does not resolve the broader question of which category wins when a stem qualifies as more than one kind of "remove this" growth (still open — see §7.2, §9). | Low | Limited | Portland Rose Society (1 direct; a second source is loosely consistent on a different criterion) |
+
+**Q7 — Deferral and help**
+
+| Finding | Statement | Level | Kind | Sources |
+|---|---|---|---|---|
+| AF-39 | A badly overgrown, weak or sickly rose bush is sometimes better replaced than renovated. New in Revision 3; general-shrub guidance, not rose-specific, and gives no concrete threshold for the judgement (still open — see §7.2, §9). | Low | Limited | RHS (1 direct; a general-shrub source from Iowa State is consistent in principle for a different plant type) |
+
+**Q8 — What can be judged from photographs**
+
+| Finding | Statement | Level | Kind | Sources |
+|---|---|---|---|---|
+| AF-34 | General plant-diagnostic guidance (not rose-specific) favours physical examination or a physical sample over a photograph alone for a reliable diagnosis. New in Revision 3; an extrapolation from general plant diagnostics, capped at Low regardless of the four-source agreement (EAS §4); does not break the principle down into AskPIP's specific categories (still open — see §7.2, §9). | Low | Limited | Mississippi State University Extension, Iowa State University Extension, Cornell Cooperative Extension, Colorado State University Extension (4) |
+
+Before Revision 3, no Assessed Finding had been produced for Q4 (interactions), Q7 (deferral and help, apart from the partial figures at AF-20) or Q8 (photographs). Revision 3 adds one finding to each (AF-33, AF-39, AF-34 respectively), but none fully resolves the underlying question — see §7.2 and §9 for what remains open.
 
 ### 7.2 Unresolved questions and absences of evidence (not Assessed Findings)
 
 | ID | Question | Matter | What was found |
 |---|---|---|---|
-| U-1 | Q4 | Stems in more than one category | No source states how to treat a stem that fits more than one category, or how to resolve a conflict between a removal category and the structure of the plant. The nearest statements are UCG's "When in doubt, cut it out", UCG's note that an interior bud may be better on a horizontally spreading cane, and UMD's advice to start conservatively (§6, C5). The Founder's stated expectation that stems will often fall into more than one category is neither supported nor contradicted by any source. |
-| U-2 | Q4 | Choosing between two crossing stems | No source gives a criterion for choosing which of two crossing or rubbing stems to remove. CLE says only that "one can be removed". No source describes how to tell rubbing from touching. |
-| U-3 | Q3 | Order among the remaining categories | After dead, damaged and diseased wood (AF-12), sources do not agree on an order. RHS and SPR put crossing stems in the first step. OSU lists crossing stems second and then selecting canes to keep. RBG lists unproductive shoots and then crossing or crowding shoots. UCG groups all removals as "thinning cuts". |
-| U-4 | Q5 | Tracing the framework through congestion | No source describes how to identify the stems that carry the framework by tracing them through congested growth, which is the sixth supported observation. Sources speak of selecting canes to keep and making a plan (AF-16) but not of how to find them. |
-| U-5 | Q6 | A limit on total removal | No source states a limit on the total amount of wood removed in one session, as distinct from the fractions applied to shortening the retained canes (AF-17). UMD warns against excess and OSU against too little (§6, C5). |
-| U-6 | Q7 | Pausing or seeking help | No source advises pausing, or seeking experienced help, when a gardener is unsure how to prune a modern bush rose. The deferral advice found concerns old garden and other once-flowering roses (RBG: observe for a couple of years; YAT: skip a winter prune) and young plants, which are outside scope. OSU refers questions to a county extension office. |
-| U-7 | Q7 | Staged renovation of an overgrown bush | No source describes staged renovation of an overgrown hybrid tea or floribunda. Partial figures are at AF-20 (Low). OSU says neglected roses "can easily be rejuvenated by pruning" without describing stages. |
-| U-8 | Q8 | What can be judged from photographs | No source says which whole-plant judgements can be made from a photograph. The sources assume hands-on work: testing pith by cutting, looking at buds (OSU: remove foliage two weeks before to make buds visible; CLE: watch for swelling buds), clipping from the top down while checking for live growth (CSU), and standing back to look at the whole plant (YAT). No source gives visual criteria for crossing, inward or congested growth beyond naming them. |
-| U-9 | Q2 | Recognising old wood | Apart from "gray", "craggy", "thick woody" and the RHS three-year figure, no source describes how old wood is recognised (§6, C6). |
-| U-10 | Q9 | Rose-specific scientific evidence | No experimental or rose-specific scientific evidence on cut distance, angle or sealing was located. All Q9 findings rest on practitioner guidance. |
+| U-1 | Q4 | Stems in more than one category | No source states how to treat a stem that fits more than one category, or how to resolve a conflict between a removal category and the structure of the plant. The nearest statements are UCG's "When in doubt, cut it out", UCG's note that an interior bud may be better on a horizontally spreading cane, and UMD's advice to start conservatively (§6, C5). The Founder's stated expectation that stems will often fall into more than one category is neither supported nor contradicted by any source. **Revision 3 (R-1, R-4):** searched again directly, including consulting-rosarian manuals and judging/exhibition material; still no source addresses this. Confirmed as a genuine gap, not one merely unsearched. |
+| U-2 | Q4 | Choosing between two crossing stems | No source gives a criterion for choosing which of two crossing or rubbing stems to remove. CLE says only that "one can be removed". No source describes how to tell rubbing from touching. **Revision 3: resolved for the size-based case — see AF-33** (R-4). How to tell rubbing from touching remains unaddressed. |
+| U-3 | Q3 | Order among the remaining categories | After dead, damaged and diseased wood (AF-12), sources do not agree on an order. RHS and SPR put crossing stems in the first step. OSU lists crossing stems second and then selecting canes to keep. RBG lists unproductive shoots and then crossing or crowding shoots. UCG groups all removals as "thinning cuts". **Revision 3:** not directly resolved. AF-32 (R-5) gives a specific order for a congested or overgrown bush from one institutional source, but does not reconcile the general disagreement recorded here for ordinary annual pruning. |
+| U-4 | Q5 | Tracing the framework through congestion | No source describes how to identify the stems that carry the framework by tracing them through congested growth, which is the sixth supported observation. Sources speak of selecting canes to keep and making a plan (AF-16) but not of how to find them. **Revision 3: resolved, on a single strong institutional source — see AF-32** (R-5). |
+| U-5 | Q6 | A limit on total removal | No source states a limit on the total amount of wood removed in one session, as distinct from the fractions applied to shortening the retained canes (AF-17). UMD warns against excess and OSU against too little (§6, C5). **Revision 3:** not part of R-1 to R-10 or R-12 as commissioned; not re-searched in this round. Remains open. |
+| U-6 | Q7 | Pausing or seeking help | No source advises pausing, or seeking experienced help, when a gardener is unsure how to prune a modern bush rose. The deferral advice found concerns old garden and other once-flowering roses (RBG: observe for a couple of years; YAT: skip a winter prune) and young plants, which are outside scope. OSU refers questions to a county extension office. **Revision 3 (R-7):** searched again; still no source gives a concrete "seek help" trigger for an overgrown rose specifically. Confirmed as a genuine gap; see AF-39 for an adjacent, partial finding (replace rather than renovate). |
+| U-7 | Q7 | Staged renovation of an overgrown bush | No source describes staged renovation of an overgrown hybrid tea or floribunda. Partial figures are at AF-20 (Low). OSU says neglected roses "can easily be rejuvenated by pruning" without describing stages. **Revision 3 (R-7):** partially narrowed. the AF-20 one-third-per-year figure is reinforced (not extended) by an RHS and an Iowa State general-shrub source describing a 2–3 year staged approach; AF-39 adds that a weak or sickly bush is sometimes better replaced than renovated. No source gives a concrete size- or neglect-based staging threshold. |
+| U-8 | Q8 | What can be judged from photographs | No source says which whole-plant judgements can be made from a photograph. The sources assume hands-on work: testing pith by cutting, looking at buds (OSU: remove foliage two weeks before to make buds visible; CLE: watch for swelling buds), clipping from the top down while checking for live growth (CSU), and standing back to look at the whole plant (YAT). No source gives visual criteria for crossing, inward or congested growth beyond naming them. **Revision 3 (R-6):** partially narrowed. AF-34 establishes the general principle (from non-rose diagnostics literature) that physical examination is preferred over a photograph alone. The specific breakdown of what is and isn't visible in a photo of a dormant rose bush remains unaddressed by any source, and is not adopted as the ROC's own synthesis (EAS §2.10). |
+| U-9 | Q2 | Recognising old wood | Apart from "gray", "craggy", "thick woody" and the RHS three-year figure, no source describes how old wood is recognised (§6, C6). **Revision 3 (R-9):** partially narrowed. AF-36 gives converging visual markers (gray, scaly, streaked or crusty bark; sometimes deteriorating prickles) from three independent sources. The age-in-years question is not resolved, and Revision 3 found a further, more divergent figure that widens rather than narrows the existing disagreement (§6, C6). |
+| U-10 | Q9 | Rose-specific scientific evidence | No experimental or rose-specific scientific evidence on cut distance, angle or sealing was located. All Q9 findings rest on practitioner guidance. **Revision 3 (R-8):** substantially narrowed. AF-35 explains the reasoning behind sealing (cane-borer entry into soft pith), resolving the apparent contradiction at C4; slant-direction reasoning is corroborated (§6, C3), and a new Southern Hemisphere disagreement is recorded (C11). The roses-specific quarter/half-inch cut-distance dispute (C2) is not resolved; still no controlled or rose-specific experimental evidence was found for any of the three. |
 
 ### 7.3 Correspondence table — categories of growth used by sources against the six supported observations
 
@@ -502,7 +594,7 @@ This table reports what the sources say and makes no design decisions (Record §
 | Weak, thin, spindly or twiggy growth | 13 (pencil measure: 9) | 5. Weak or congested growth | AF-5, AF-6 |
 | Crowded or congested growth | included in AF-4 (RBG, UCG, ISU, OSU) | 5. Weak or congested growth | AF-4 |
 | Strong, vigorous, generally younger canes retained; number retained; open-centred form | 10; 10; 15 | 6. Main framework to retain | AF-9, AF-14, AF-15, AF-16 |
-| Old, woody or unproductive canes | 13 | None. Age of wood is not one of the six observations | AF-7 |
+| Old, woody or unproductive canes | 13 | None. Age of wood is not one of the six observations | AF-7, AF-36 |
 | Rootstock suckers | 7 | None | AF-8 |
 | New basal shoots | 2 | None | AF-10 |
 
@@ -942,35 +1034,192 @@ Each Assessed Finding is assessed on its own (EAS §3.2, §6.2). The assessment 
 
 ---
 
+**Findings added in Revision 3 (R-1 to R-10 and R-12 further research, §0).** The assessment date for AF-31 to AF-39 is 22 September 2026; the assessor is the Research Origin Curator role, acted by Claude at the Founder's direct instruction (§0). Full source-by-source detail is in the companion record `FRD-BUSHROSE-PRUNINGFRAMEWORK-01_Round2_Research_Notes.md`.
+
+### AF-31 — Thinning cuts and heading cuts are functionally different, not interchangeable
+
+**Question:** Q3 / Q9 (order of work; cut mechanics)
+**Assessed Finding:** A cut that removes a stem entirely, back to its point of origin ("thinning"), and a cut that shortens a stem partway along its length, back to a bud ("heading"), are treated in the pruning literature as different in purpose and in the plant's response, not as one kind of cut applied in two places.
+**Evidence Confidence Level: Moderate.**
+
+**Evidence.** Supported by 3 sources, only one of which is rose-specific in detail: Richard W. Harris, "Clarifying Certain Pruning Terminology: Thinning, Heading, Pollarding," *Journal of Arboriculture* (now *Arboriculture & Urban Forestry*), Vol. 20, No. 1 (January 1994), pp. 50–54 — a peer-reviewed general-arboriculture source, not specific to roses, defining thinning as producing "evenly distributed growth" that maintains natural form, and heading as stimulating "vigorous, dense, upright growth from buds below the cut" that "typically distorts the... natural shape." UC Marin Master Gardeners, "Pruning Cuts" (ucanr.edu/site/uc-marin-master-gardeners/pruning-cuts, last updated 12 May 2026) — general pruning guidance, not rose-specific, independently gives matching definitions and adds a technique difference: a heading cut is placed relative to the bud (about a quarter inch above it), while a thinning cut is placed relative to the branch collar, and cautions that heading cuts "seal more poorly." UCG (already in the source base; used here for its rose-specific application) applies the same thinning/heading distinction directly to bush rose pruning, matching the general-arboriculture definitions exactly.
+
+**Strengths.** The distinction rests on a peer-reviewed source plus independent corroboration, and the rose-specific application (UCG) matches the general definition exactly rather than contradicting it.
+
+**Limitations.** Only one of the three sources (UCG) is rose-specific; the other two are general woody-plant pruning literature applied here by extension, not tested on roses specifically. Neither of the two general sources discusses whether the two cut types also need different tools, which was part of the original question (R-3) and remains unaddressed.
+
+**Remaining uncertainty.** Whether the poorer sealing UC Marin attributes to heading cuts has any practical consequence for roses specifically (e.g., for cane-borer entry, see AF-35) was not addressed by any source found.
+
+---
+
+### AF-32 — On a congested or overgrown bush, keeper canes are identified in a set sequence, not all at once
+
+**Question:** Q5 (structure and framework)
+**Assessed Finding:** For a mature or congested bush where the target open-centred structure is hard to see, one institutional source describes identifying keeper canes in a specific sequence rather than in a single pass: remove dead/damaged/diseased wood first; then remove old, thick, unproductive canes (reasoned: an old cane costs the plant energy to support without a proportionate return in bloom); then remove canes crossing through the center; only then assess the remaining shape for an open center with well-spaced canes, and shorten the survivors.
+**Evidence Confidence Level: Low.**
+
+**Evidence.** Supported by 1 source directly verified: Chicago Botanic Garden, "Pruning Mature Roses?", *Smart Gardener* (chicagobotanic.org/plant-information/smart-gardener/pruning-mature-roses), by garden writer Karen Zaworski with input from Tom Soulsby, Senior Horticulturist, Rose Garden (2024) — a public botanic garden source. A second, secondary citation was found (RHS guidance on renovating old shrub roses, reported via a third-party garden blog quoting "RHS Masterclass" material and the RHS Pruning Book) describing a different but compatible principle — find the most vigorous young stems and treat the rest as removable — but this could not be independently verified against the original RHS text, and it concerns old/shrub roses specifically rather than the hybrid tea/floribunda/grandiflora scope of this dossier, so it is recorded here as a caveat, not counted as a second supporting source.
+
+**Strengths.** The one directly-verified source is institutional (a public botanic garden with a named horticulturist), gives a specific reasoned sequence rather than a vague instruction, and is consistent with (does not contradict) the general order-of-work already established at AF-12/AF-13.
+
+**Limitations.** Single directly-verified source. The secondary RHS citation, if accurate, uses a different selection principle (vigor-based) that was not reconciled with the sequential-removal principle here — whether the two produce the same result on the same bush is untested, and not assessed as part of this finding.
+
+**Remaining uncertainty.** Whether this sequence differs meaningfully from ordinary annual pruning's order of work (AF-12/AF-13), or is simply the same order applied more carefully, was not directly addressed by the source.
+
+---
+
+### AF-33 — Where two canes cross, one source gives an explicit rule for which to remove
+
+**Question:** Q4 (interactions)
+**Assessed Finding:** When two canes cross or crowd each other, one source states an explicit tie-breaking rule: remove the smaller of the pair, keeping the larger cane.
+**Evidence Confidence Level: Low.**
+
+**Evidence.** Supported by 1 direct source: Portland Rose Society, "Guide to Pruning Roses," by Rich Baer (reprinted with permission at Gaga's Garden, April 2019) — states to remove "the smaller one of each crowded pair." A second source is loosely consistent in spirit but uses a different criterion: Robert B. Martin Jr. (American Rose Society Consulting Rosarian), "Ten Principles of Rose Pruning," favors keeping the newest, greenest canes and removing older canes described as "craggy and gray," which is an age/color-based criterion rather than a size-based one, and is not stated as a rule specifically for crossing pairs. Two further sources (Kansas City Rose Society; Orange County Rose Society, citing Martin/Monge) explicitly note that the underlying guidance they draw on does not specify which of two crossing canes to remove.
+
+**Strengths.** The one direct source gives a specific, actionable, named rule from a rose-society source.
+
+**Limitations.** Single direct source for the specific rule as stated; the "loosely consistent" second source uses a different criterion (age/color, not size), so this is not treated as independent confirmation of the same rule. Two other sources explicitly confirm the absence of guidance on this point elsewhere in the literature, which supports treating this as a genuine minority/isolated rule rather than a hidden consensus.
+
+**Remaining uncertainty.** Whether size and age/color would generally agree on which cane to remove (an older cane is often, but not always, the thicker one) was not addressed by any source.
+
+---
+
+### AF-34 — General plant-diagnostic guidance favors physical examination over photographs alone
+
+**Question:** Q8 (what can be judged from photographs)
+**Assessed Finding:** General plant-diagnostics literature (not specific to roses) consistently holds that a photograph alone is usually insufficient for a reliable diagnosis, and that physical examination of the plant, or a physical sample, is preferred where available.
+**Evidence Confidence Level: Low.**
+
+**Evidence.** Supported by 4 independent general extension/diagnostics sources, none rose-specific: Mississippi State University Extension, "Taking Photos of Plant Disease Problems," Publication 3022, Dr. Rebecca A. Melanson ("in most cases, a diagnosis cannot be made using only photos"); Iowa State University Extension and Outreach, Plant & Insect Diagnostic Clinic, "Photography" page (updated 2026) ("it is not feasible in most cases to make even a good guess" from an image alone); Cornell Cooperative Extension, "How to Take a Photo for Crop Diagnostics," Elizabeth Buck (May 2020), noting image quality commonly limits remote diagnosis; Colorado State University Extension, "Diagnosing Plant Disorders" (David Whiting, Carol O'Meara, Mary Small, 2017) ("It is really best to see a sample").
+
+**Strengths.** Four independent institutional extension sources agree on the general principle, with no source found taking the opposite position.
+
+**Limitations.** None of the four sources concerns roses, or pruning judgements specifically; this finding is an extrapolation from general plant-diagnostic practice (mostly aimed at disease/pest identification) to the different question of assessing a dormant bush's structure for pruning. It is capped at Low confidence for that reason, regardless of the four-source agreement, per this project's practice of not exceeding what the evidence directly supports (EAS §4).
+
+**Remaining uncertainty.** No source breaks this general principle down into AskPIP's specific categories — which whole-plant judgements (shape, apparent density, visible crossing) are realistically assessable from an ordinary phone photograph of a dormant rose bush, versus which require physical examination (bud swell, pith color, base firmness). That breakdown remains the ROC's own reasoning, not sourced, and is not adopted here (EAS §2.10); it is recorded as an open question in §9.
+
+---
+
+### AF-35 — Sealing larger rose pruning cuts targets cane-boring insects, not wound healing
+
+**Question:** Q9 (cut mechanics — sealing cut ends; resolves the apparent contradiction behind C4)
+**Assessed Finding:** Where rose-specific sources recommend sealing larger cut ends (with glue, nail polish, or pruning sealer), the reason given is protection against cane-boring insects entering the cane's exposed, soft pith — a different claim from, and not contradicted by, general arboriculture and plant-pathology research finding that wound dressings do not measurably improve wound closure or reduce decay in woody plants generally.
+**Evidence Confidence Level: Moderate.**
+
+**Evidence.** The insect-protection rationale is supported by 4 independent sources: University of Arizona Cooperative Extension, Yavapai County, Jeff Schalau (19 June 2022) — states rose canes have "very soft, relatively large diameter pith... very attractive to carpenter bees, solitary wasps, and sawflies," recommending wood glue on cut ends for this reason specifically; PlantTalk Colorado (Colorado State University Extension), "Rose Cane Borer" — recommends sealing with water-insoluble glue or nail polish "to prevent more nests of eggs," and notes the insects involved are often beneficial wasps nesting in the pith rather than true pests; the American Rose Society's own "Basic Pruning Principles" (already in the source base as ARS) gives the same reason ("provide an instant protective barrier against cane borers"); a Texas AgriLife El Paso Master Gardener handout gives the same reason. The general "sealing doesn't help healing" position, which this finding does not contradict, is separately supported by a peer-reviewed literature review (Arboriculture & Urban Forestry, Vol. 36, Issue 3, citing Shigo & Larson 1969 and subsequent studies: "dressings provide no measurable benefit to wound compartmentalization") and is consistent with what the dossier's existing TAMK source already says about wound dressings generally.
+
+**Strengths.** Four independent institutional/society sources converge on the same specific mechanism (soft pith attracts boring insects), giving a clear, consistent reason where the original dossier (AF-30) had only competing instructions with no reasoning behind either side. This also resolves what looked like a straightforward contradiction (C4): the sources against sealing and the sources for it are not actually answering the same question.
+
+**Limitations.** No controlled trial or entomological research was found testing sealed versus unsealed rose canes for cane-borer incidence; the convergence is expert/institutional consensus, not tested research. The general "wound dressings don't help healing" literature is not rose-specific and concerns healing/decay resistance, not insect entry, so it genuinely does not test the claim made here — this is why the two bodies of evidence are treated as compatible rather than conflicting, not because either one was weighed against the other directly.
+
+**Remaining uncertainty.** Whether unsealed cane ends are actually, empirically more prone to borer damage than sealed ones (as opposed to being theoretically more exposed) was not tested by any source found. AF-30 itself (whether to seal at all) remains Low confidence and contested, per the original dossier — this finding explains *why* the sources that recommend sealing do so, without settling whether sealing is a good idea on balance.
+
+---
+
+### AF-36 — Old wood is recognized visually by bark color and texture, not a validated age
+
+**Question:** Q2 (categories of growth — old/woody canes)
+**Assessed Finding:** Where sources give a visual marker for "old" wood due for removal, they converge on gray coloring combined with a rough, scaly, crusty, or streaked bark texture; one source adds deteriorating or missing prickles as a further marker. No source ties "old" to a specific number of years with any stated reasoning or evidence.
+**Evidence Confidence Level: Moderate** (for the visual-marker description); **no finding is made on an age-in-years threshold** (see §6, C6).
+
+**Evidence.** Supported by 3 independent sources: Douglas Welsh (Texas A&M University Extension Horticulturist), via Lynn Rawe, County Extension Agent, San Antonio Express-News "Gardening, ETC." (6 February 2005) — "gray in color and scaly"; University of Arizona Cooperative Extension, Yavapai County, Phyllis Jiacalone, "Rose Presentation" (February 2021) — instructs using a wire brush to scrub "old gray crusty wood"; Houston Rose Society, Baxter Williams, "Pruning Basics" (Houston Rose-Ette newsletter, February 2017) — the most detailed of the three, describing "grey, streaked bark with missing or disintegrating prickles" as the marker.
+
+**Strengths.** Three independent sources (two institutional extension, one named rosarian via a rose-society newsletter) converge on the same visual description without contradiction.
+
+**Limitations.** All three sources are qualitative descriptions, not a test a gardener (or a photo-assessment tool) could apply with certainty; none gives a way to distinguish "old enough to remove" gray/scaly wood from wood that is merely a season or two older but still productive. All three sources are from the United States.
+
+**Remaining uncertainty.** See §6, C6: sources disagree on the age-in-years this visual state corresponds to, and Revision 3 found a new, more divergent figure (five to six years) than the three-year figure already on record, without resolving which is closer to correct — likely because neither figure rests on any cited evidence.
+
+---
+
+### AF-37 — Grandifloras are generally pruned like hybrid teas, adjusted for height
+
+**Question:** Q6 (limits and restraint — rose-class differences)
+**Assessed Finding:** Where sources address grandiflora roses as their own case rather than folding them silently into another class, they treat grandiflora pruning as closer to hybrid tea practice than to floribunda practice — similar or slightly fewer canes than a hybrid tea, and in some sources a gentler cutback specifically to preserve the class's characteristic height.
+**Evidence Confidence Level: Moderate.**
+
+**Evidence.** Supported by 4 sources: the American Rose Society's own Consulting Rosarian Manual (4th ed., October 2019) explicitly groups "Hybrid Teas and Grandifloras" together as one pruning category, distinct from floribundas; LSU AgCenter (Dan Gill, 9 February 2018) pairs hybrid tea and grandiflora pruning timing and treatment together, describing floribunda treatment separately as less severe; University of Arizona Cooperative Extension, Yavapai County (Phyllis Jiacalone, February 2021) gives grandiflora its own distinct figures — 3 to 7 retained canes, cut back one-third to one-half, closer to hybrid tea's 5 to 8 canes than floribunda's "many more"; Heirloom Roses (a specialist nursery) recommends a gentler cutback than a hybrid tea specifically to preserve the tall, sturdy canes that give grandifloras their characteristic height.
+
+**Strengths.** The lead source is the American Rose Society's own official training material for certified consulting rosarians — a strong, authoritative, rose-specific institutional source — corroborated by an independent university extension source and a specialist nursery.
+
+**Limitations.** Most general sources (Oregon State, the dossier's existing NYBG-type sources, Walter Andersen Nursery) simply fold grandiflora in with hybrid tea silently rather than discussing it, so this finding rests on the minority of sources that address it explicitly, not on a broad base. Only one source (Arizona) gives concrete, distinct numbers; the "gentler cutback" nuance rests on a single commercial nursery source.
+
+**Remaining uncertainty.** Whether the "gentler cutback to preserve height" recommendation (Heirloom Roses) is broadly shared or a minority view was not tested against further sources.
+
+---
+
+### AF-38 — A second RHS source confirms existing cut-mechanics figures; Southern Hemisphere sources push back on the slant/bud-direction convention
+
+**Question:** Q9 (cut mechanics)
+**Assessed Finding, part 1 (additional corroboration, not a new claim).** A second, previously unused RHS page ("Rose Pruning: General Tips," distinct from the RHS source already in the dossier) independently states the same quarter-inch distance, slant-away-from-the-bud direction, and outward-facing-bud guidance already recorded at AF-21 through AF-24. This is recorded as corroboration from a source the dossier had not previously used, not folded into AF-21–24's existing counts (per the scoping decision, §0).
+
+**Assessed Finding, part 2 (a genuine new conflict).** Two Southern Hemisphere sources explicitly and specifically disagree with the "slant the cut, and make sure it faces the right way relative to the bud" convention that AF-23/AF-24 record from Northern Hemisphere and US sources. Rose Society of South Australia (Doug Gregory): "Don't worry about cutting through at an angle. A healthy cane will seal over the cut without any human intervention." Ludwig's Roses (South Africa): the cut should be made "at 90° to the stem" (not sloped), and "the direction of the top eye is of minor importance — the rose will decide which eye to favour."
+**Evidence Confidence Level: not assigned to a competing claim** (per EAS, a documented, unresolved conflict; see §6, C11, which is where this is carried, rather than as a finding of its own).
+
+**Strengths.** The dissenting view comes from two independent, credible sources from a different hemisphere and climate than the sources AF-23/AF-24 already rest on (one a regional rose society, one a major specialist nursery), which strengthens it as a genuine regional/practitioner difference rather than a single outlier opinion.
+
+**Limitations.** Neither Southern Hemisphere source gives a reason for its position (unlike ARS and UMD/TAMK's reasoning already recorded for the "away from the bud" position); it simply differs. Whether this reflects a genuine difference in outcome, a difference in what different rosarian traditions consider worth the extra care, or something else, is untested.
+
+**Remaining uncertainty.** See §6, C11.
+
+---
+
+### AF-39 — A badly overgrown, weak or sickly rose bush is sometimes better replaced than renovated
+
+**Question:** Q7 (deferral and help)
+**Assessed Finding:** At least one source states that renovation is not always the right choice for a badly overgrown or declining shrub — a weak or sickly plant may be better replaced outright than pruned back hard.
+**Evidence Confidence Level: Low.**
+
+**Evidence.** Supported by 1 direct source: RHS, "Renovating Overgrown Shrubs" (RHS Advice Team) — "Weak or sickly plants are best replaced." This is general shrub guidance, not rose-specific. A second, general-shrub source (Iowa State University Extension and Outreach, "Pruning Large, Overgrown Shrubs," Richard Jauron and Aaron Steil) makes the same kind of point for a different plant type (recommending replacement rather than renovation for some overgrown conifers), which is consistent in principle but does not independently confirm the claim for roses or shrubs generally.
+
+**Strengths.** A clear, actionable piece of guidance that fills a real gap: existing sources describe *how* to renovate but not *when not to bother*.
+
+**Limitations.** Single source, general-shrub rather than rose-specific, and gives no criteria for "weak or sickly" beyond the words themselves — no source ties this to anything a gardener (or a photo-based assessment) could reliably judge.
+
+**Remaining uncertainty.** No source of any kind gives a concrete threshold (size, years of neglect, or degree of decline) at which a gardener should stop trying to renovate and start considering replacement — this remains a genuine, searched-and-not-found gap, recorded as still open in §9.
+
+---
+
 ## 9. Recommendations for Further Research
 
 The ROC identifies the following as warranted, whether or not the Founders act on them. R-1 to R-3 are the ROC's own reasoned synthesis. Under EAS §2.10 they are not evidence, carry no confidence, and are not adopted as findings. They are leads to be tested against independent evidence.
 
-**R-1 — Test whether crossing, rubbing and inward-growing stems commonly occur together (ROC synthesis).** The Founder expects that inward growth will often, but not always, cross another stem. No source states or tests this. A commission could look for evidence on how often the categories overlap on an unpruned bush, and how sources treat a stem that is both. This would also answer U-1 and U-2.
+**R-1 — Test whether crossing, rubbing and inward-growing stems commonly occur together (ROC synthesis). Researched in Revision 3; genuine gap confirmed, not resolved.** The Founder expects that inward growth will often, but not always, cross another stem. No source states or tests this. Revision 3 searched consulting-rosarian manuals, rose-society sites and general arboriculture defect literature directly on this question (§0) and found nothing that answers it; one tangential item (Peter Beales Roses' rosarian guide, on tying rather than cutting rubbing stems) does not address co-occurrence and rests on a single source, so it was not raised to a numbered finding. This is recorded as a result of real search, not an item still awaiting one (ROC Operations Manual §7.7). U-2 is now answered — see AF-33.
 
-**R-2 — Test whether "select the canes to keep" and "remove the unwanted categories" give the same result (ROC synthesis).** AF-16 records that sources use both framings, and none says when to prefer one. On a given bush they could lead to different plans. A commission could look for evidence on how sources reconcile them.
+**R-2 — Test whether "select the canes to keep" and "remove the unwanted categories" give the same result (ROC synthesis). Researched in Revision 3; genuine gap confirmed, not resolved.** AF-16 records that sources use both framings, and none says when to prefer one. On a given bush they could lead to different plans. Revision 3 confirmed both framings are independently well attested, including in the American Rose Society's own materials, but found no source — including the ARS Consulting Rosarian Manual, fetched directly — that compares or reconciles them; Paul Zimmerman Roses' own site explicitly declines to prescribe one method, calling it a matter of differing practitioner viewpoints. Recorded as a genuine, searched-and-not-found gap.
 
-**R-3 — Test whether removal cuts and shortening cuts need separate cut guidance (ROC synthesis).** Only UCG and TAMK use the terms thinning and heading cuts. Most cut-mechanics guidance (AF-21 to AF-24) is written for cuts back to a bud, and guidance for cutting a stem off at its origin is thinner (AF-29). A commission could look for evidence on whether the two kinds of cut are treated differently.
+**R-3 — Test whether removal cuts and shortening cuts need separate cut guidance (ROC synthesis). RESOLVED in Revision 3.** Only UCG and TAMK use the terms thinning and heading cuts. Most cut-mechanics guidance (AF-21 to AF-24) is written for cuts back to a bud, and guidance for cutting a stem off at its origin is thinner (AF-29). *Resolved: yes, thinning and heading cuts are treated as functionally different, not interchangeable — see* **AF-31** *(Moderate confidence, a peer-reviewed general-arboriculture source plus independent corroboration).*
 
-**R-4 — Interactions and priorities (Q4).** Research on how expert sources, including books and rosarian guidance not reached here, resolve a stem that fits more than one category, and how they choose between two crossing stems (U-1, U-2, U-3).
+**R-4 — Interactions and priorities (Q4). Partially resolved in Revision 3.** Research on how expert sources, including books and rosarian guidance not reached here, resolve a stem that fits more than one category, and how they choose between two crossing stems (U-1, U-2, U-3). *The "which of two crossing canes" sub-question is resolved — see* **AF-33** *(Low confidence, one explicit source). The "a stem is both weak and structurally useful — which category wins" sub-question remains a genuine, searched-and-not-found gap: not addressed by the ARS Consulting Rosarian Manual, rosarian blogs, or any rose-society judging/exhibition material found.*
 
-**R-5 — Identifying the framework (Q5).** Research on how the canes to keep are identified in congested growth (U-4).
+**R-5 — Identifying the framework (Q5). RESOLVED in Revision 3.** Research on how the canes to keep are identified in congested growth (U-4). *Resolved, on a single strong institutional source plus a scope-qualified secondary citation — see* **AF-32** *(Low confidence).*
 
-**R-6 — Judging from photographs (Q8).** Research on which whole-plant judgements can reliably be made from an overview photograph, including sources outside rose pruning (U-8). This bears directly on what Pip may propose from an image.
+**R-6 — Judging from photographs (Q8). Partially resolved in Revision 3.** Research on which whole-plant judgements can reliably be made from an overview photograph, including sources outside rose pruning (U-8). This bears directly on what Pip may propose from an image. *Four independent general plant-diagnostics sources (not rose-specific) converge on a real, useful general principle — see* **AF-34** *(Low confidence, capped for its extrapolation from non-rose diagnostics). Breaking this down into AskPIP's own specific categories (what's visible in a photo of a dormant rose bush versus what requires physical examination) remains the ROC's own synthesis, not sourced, and is not adopted (EAS §2.10) — recorded as still open below.*
 
-**R-7 — Staged renovation and deferral (Q7).** Research on renewing an overgrown hybrid tea or floribunda over several years, and on when experts advise pausing or seeking experienced help (U-6, U-7, AF-20).
+**R-7 — Staged renovation and deferral (Q7). Partially resolved in Revision 3.** Research on renewing an overgrown hybrid tea or floribunda over several years, and on when experts advise pausing or seeking experienced help (U-6, U-7, AF-20). *The existing one-third-per-year renewal figure (AF-20) is reinforced (not extended) by an RHS and an Iowa State general-shrub source describing a 2–3 year staged approach. One genuinely new item: the RHS states that a weak or sickly overgrown shrub is generally better replaced than renovated — see* **AF-39** *(Low confidence). No source of any kind — institutional, rosarian, or book — was found giving a concrete size/years-of-neglect threshold for staging, or explicit "hire a professional" guidance for an overgrown rose bush specifically; this remains a genuine, searched-and-not-found gap.*
 
-**R-8 — Rose-specific and scientific evidence on cut mechanics (Q9).** Research on cut distance, slant direction, and sealing, including plant-health and cane-borer literature and the original diagrams in ARS, TAMK, UMD and UCG, to settle C2, C3 and C4 (U-10).
+**R-8 — Rose-specific and scientific evidence on cut mechanics (Q9). Substantially resolved in Revision 3.** Research on cut distance, slant direction, and sealing, including plant-health and cane-borer literature and the original diagrams in ARS, TAMK, UMD and UCG, to settle C2, C3 and C4 (U-10). *Three sub-parts: (i) distance above the bud — a general-woody-plant reason was found (bud death if too close, dieback of wood above if too far) but it doesn't reconcile the quarter-inch/half-inch split for roses specifically, so* **C2** *stands unresolved; (ii) slant direction — reasoning was found for the "away from the bud" position (sap flow; water shedding), enriching AF-24 without resolving the ISU/CLE "same direction as the bud" wording disagreement within* **C3***, and a further, distinct Southern Hemisphere disagreement was found and recorded as* **C11***; (iii) sealing cut ends — resolved with a strong, well-reasoned, multi-source finding — see* **AF-35** *(Moderate confidence) — that explains why rose-specific sources recommend sealing (cane-borer entry into soft pith) even though general arboriculture research finds sealing doesn't aid wound healing generally, resolving the apparent contradiction at* **C4***.*
 
-**R-9 — Age of wood (Q2).** Research on how old wood is recognised and what age is treated as due for removal (U-9, C6).
+**R-9 — Age of wood (Q2). Partially resolved in Revision 3.** Research on how old wood is recognised and what age is treated as due for removal (U-9, C6). *Resolved on visual markers — see* **AF-36** *(Moderate confidence, three sources); not resolved on age-in-years, and a new, more divergent age figure was found, widening rather than narrowing the existing disagreement — see §6, C6 (updated).*
 
-**R-10 — Widen the source base.** Retrieve the two pages that could not be fetched (PlantAmnesty; University of Missouri Extension G6601), add further UK pages (including RHS pages on renovation) and Southern Hemisphere and other regional sources, and re-check the sources whose cut-mechanics content was silent.
+**R-10 — Widen the source base. Substantially completed in Revision 3.** Retrieve the two pages that could not be fetched (PlantAmnesty; University of Missouri Extension G6601), add further UK pages (including RHS pages on renovation) and Southern Hemisphere and other regional sources, and re-check the sources whose cut-mechanics content was silent. *Six new sources added (§4.1): three Australian rose societies, one South African commercial nursery, a working University of Missouri Extension page (replacing the previously 403'd one), and a second RHS page (folded in as AF-38, and surfacing new conflict* **C11***). Two sources remain genuinely unreachable after real attempts from three different methods (WebFetch twice from two environments, and a live Chrome browser session): PlantAmnesty (link dead; current content video-only) and The Rose Society UK (membership-gated, not attempted — see §4.2). No further UK renovation-specific source was found; the RHS was confirmed to keep general shrub renovation and rose pruning as separate, non-bridged guides, itself a documented negative result (see AF-32's evidence), not a gap left unsearched.*
 
 **R-11 — Verify before writing an ARC. RESOLVED in Revision 2 (22 September 2026).** Check every quotation against the live page, and compare each finding with the full text of the approved dormancy and recently-planted findings (§1, §6). *Resolved directly by the ROC, per ROC Operations Manual §7.7 (v2.7): no Founder-judgment call was needed. Outcome: two quotations corrected, two unverifiable sources (AEW, AEO) removed from the source base with no change to any Evidence Confidence Level, and no conflict found against ARC-BUSHROSE-DORMANCY-01 or ARC-BUSHROSE-RECENTPLANT-01. Full detail at §0 and in the companion `FRD-BUSHROSE-PRUNINGFRAMEWORK-01_R11_Verification_Notes.md`.*
 
-**R-12 — Rose classes.** Research on whether grandifloras are pruned as hybrid teas or as floribundas (AF-18), and on how the pencil, cane-count and height figures vary by class.
+**R-12 — Rose classes. RESOLVED in Revision 3.** Research on whether grandifloras are pruned as hybrid teas or as floribundas (AF-18), and on how the pencil, cane-count and height figures vary by class. *Resolved: grandifloras are generally pruned like hybrid teas, adjusted for height — see* **AF-37** *(Moderate confidence, 4 sources led by the American Rose Society's own Consulting Rosarian Manual).*
 
-**Leads for individual observation commissions.** The findings support each remaining observation commission as a place to go deeper: damaged growth (AF-2), crossing or rubbing stems (AF-3, AF-11, U-2), inward-growing stems (AF-4), weak or congested growth (AF-5, AF-6) and the main framework to retain (AF-9, AF-14 to AF-16, U-4). The draft commission on crossing and inward-growing stems remains on hold.
+**What remains genuinely open after Revision 3 (for Founder awareness, not further commissioning).** These are recorded honestly as gaps the ROC searched for and did not find evidence to close, after real effort in Revision 3, not as items still awaiting a search that hasn't been tried (ROC Operations Manual §7.7):
+
+- Whether crossing, rubbing, and inward-growing stems commonly occur together on the same stem, or are usually separate problems (R-1).
+- Whether "pick the canes to keep" and "remove each bad category" reliably produce the same result on the same bush (R-2).
+- Which category wins when a single stem qualifies as more than one kind of "remove this" growth (part of R-4).
+- A breakdown of exactly which whole-plant judgements are reliably visible in an ordinary phone photograph of a dormant rose bush, versus which require physical examination (part of R-6, beyond the general principle at AF-34).
+- Any concrete threshold — size, years of neglect, degree of decline — at which renovation should be staged over multiple years, or a professional should be brought in, rather than a gardener doing it in one session (part of R-7).
+- Why sources disagree on the exact distance above the bud (a quarter inch versus a half inch) specifically for roses (part of R-8, C2).
+- Which of the two contradictory wordings for slant direction (ISU/CLE: "same direction as the bud"; most others: "away from the bud") reflects a real difference in practice or is a wording ambiguity (part of R-8, C3) — Revision 3 added reasoning for the majority position (AF-24) and a further Southern Hemisphere complication (C11), but did not resolve the original ISU/CLE wording conflict itself.
+- No limit on total wood removed in one session, distinct from the fractions applied to shortening retained canes (U-5); not part of R-1 to R-10 or R-12 as commissioned, and not re-searched in Revision 3.
+
+**Leads for individual observation commissions.** The findings support each remaining observation commission as a place to go deeper: damaged growth (AF-2), crossing or rubbing stems (AF-3, AF-11, AF-33), inward-growing stems (AF-4), weak or congested growth (AF-5, AF-6) and the main framework to retain (AF-9, AF-14 to AF-16, AF-32). The draft commission on crossing and inward-growing stems remains on hold.
 
 ---
 
@@ -978,23 +1227,25 @@ The ROC identifies the following as warranted, whether or not the Founders act o
 
 This dossier is advisory. It does not approve knowledge, and the ROC does not seek to influence the decision (ROC Operations Manual §10.4).
 
-1. **Approve the findings?** Do the Founders approve as a future ARC, approve with amendment, defer pending further research, or decline: AF-1 to AF-30 as a whole, by question, or finding by finding? Each finding keeps its own level (§8).
+1. **Approve the findings?** Do the Founders approve as a future ARC, approve with amendment, defer pending further research, or decline: AF-1 to AF-39 as a whole, by question, or finding by finding? Each finding keeps its own level (§8); AF-38 is a two-part corroboration-and-conflict entry rather than a single leveled claim (see §1, §8, §6 C11).
 
 2. **Scope boundary for once-flowering roses.** AF-19 records that old garden, rambling and rugosa roses are pruned differently. Do the Founders want this recorded as a boundary of the supported scope, to be handled through the existing scope and Suitability Gate knowledge?
 
-3. **Cut mechanics.** AF-21 to AF-30 answer Q9. Do the Founders approve them as part of the same ARC, and do they wish to decide separately how cut findings are held and linked from each observation (Record §5.4)?
+3. **Cut mechanics.** AF-21 to AF-30, together with Revision 3's AF-31 (also Q3), AF-35 and AF-38, answer Q9. Do the Founders approve them as part of the same ARC, and do they wish to decide separately how cut findings are held and linked from each observation (Record §5.4)?
 
-4. **Conflicts.** For C1 (final height), C2 (distance above the bud), C3 (slope direction) and C4 (sealing), do the Founders (a) accept them as recorded, (b) commission the research at R-8 or R-12, or (c) give a direction on how they are to be treated pending research?
+4. **Conflicts.** Eleven conflicts are recorded at §6. Revision 3 added reasoning and narrowed some without resolving the underlying disagreement: C2 (distance above the bud) and the ISU/CLE wording within C3 (slope direction) remain unreconciled despite real research effort (R-8); C4 (sealing) now has an explanation that resolves its apparent contradiction (AF-35); C6 (age of wood) was widened, not narrowed, by a further conflicting figure (R-9); C11 (whether the cut's angle and bud-direction matter at all) is new, from two Southern Hemisphere sources. For C1, C2, C3, C4, C6 and C11, do the Founders (a) accept them as recorded, (b) commission further research beyond what R-8, R-9 and R-10 already attempted, or (c) give a direction on how they are to be treated pending research?
 
-5. **Older and younger wood.** AF-7, AF-9 and AF-10 show that sources use the age of wood as a category (Record §5.4). Do the Founders wish to decide now whether older and younger wood becomes a supported observation, or after the ARC is approved?
+5. **Older and younger wood.** AF-7, AF-9 and AF-10 show that sources use the age of wood as a category (Record §5.4); Revision 3's AF-36 adds visual markers (bark colour and texture) without resolving an age-in-years figure (§6, C6). Do the Founders wish to decide now whether older and younger wood becomes a supported observation, or after the ARC is approved?
 
-6. **Commissions on hold.** The draft commission on crossing and inward-growing stems is on hold. Given AF-3, AF-4, U-1 and U-2, do the Founders wish to resume it (a) as two commissions, (b) as one, (c) as a commission on interactions (R-1, R-4), or (d) to keep it on hold?
+6. **Commissions on hold.** The draft commission on crossing and inward-growing stems is on hold. Given AF-3, AF-4 and AF-33 (which resolves the size-based case for choosing between two crossing canes; U-1 and the category-priority part of R-4 remain genuinely open), do the Founders wish to resume it (a) as two commissions, (b) as one, (c) as a commission on interactions (R-1, R-4), or (d) to keep it on hold?
 
-7. **Further research.** Which of R-1 to R-10 and R-12, if any, do the Founders wish to commission, and in what order? (R-11 was resolved directly by the ROC in Revision 2 — see §0 and §9 — consistent with ROC Operations Manual §7.7, and needs no Founder decision.)
+7. **Further research.** R-3, R-5, R-9 (visual-marker part), R-10 and R-12 are now resolved or substantially completed, and R-11 was resolved in Revision 2 — see §0 and §9, consistent with ROC Operations Manual §7.7 — and need no Founder decision. What remains, after real search effort in two rounds did not close it, is: R-1, R-2, the category-priority part of R-4, the photo-breakdown part of R-6, the staging-threshold part of R-7, and the roses-specific reasoning behind C2 and the ISU/CLE wording within C3 (part of R-8), plus U-5 (a total-removal limit), which was never part of R-1 to R-10 or R-12 as commissioned. Do the Founders wish to commission further research on any of these, treat them as accepted gaps, or decide case by case?
 
 8. **Images.** Do the Founders confirm the register at §4.4 as the record of where matters stand, and do they wish any next step on sourcing comparison images to be commissioned separately? The ROC has requested nothing.
 
 9. **Housekeeping.** Do the Founders confirm the subject-scope label `BUSHROSE-PRUNINGFRAMEWORK` and the ARC name that follows from it, record a priority (currently Unspecified), and decide whether a format for Research Commission Record identifiers should be defined (Record §8)?
+
+10. **Review of this revision.** This revision has not yet been put to either Founder for review (§0). The Decision Brief and Review Form that accompanied FRD-BUSHROSE-PRUNINGFRAMEWORK-01 predate both R-11 and this further-research round and need to be rewritten to match before a review round is sensible. Do the Founders want (a) both Founders to review this consolidated revision as a fresh round, given the substantial new content since Karla's review of -01, or (b) some other arrangement?
 
 ---
 
