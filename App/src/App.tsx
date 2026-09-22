@@ -3,6 +3,9 @@ import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthGate } from '@/pages/AuthGate'
 import { NameOnboarding } from '@/pages/NameOnboarding'
 import { Welcome } from '@/pages/Welcome'
+import { AboutPip } from '@/pages/AboutPip'
+import { Learn } from '@/pages/Learn'
+import { LearnTopic } from '@/pages/LearnTopic'
 import { Library } from '@/pages/Library'
 import { NewPlant } from '@/pages/NewPlant'
 import { Journey } from '@/pages/Journey'
@@ -46,6 +49,30 @@ function App() {
               element={
                 <RequireAuth>
                   <Welcome />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/about-pip"
+              element={
+                <RequireAuth>
+                  <AboutPip />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/learn"
+              element={
+                <RequireAuth>
+                  <Learn />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/learn/:topicId"
+              element={
+                <RequireAuth>
+                  <LearnTopic />
                 </RequireAuth>
               }
             />

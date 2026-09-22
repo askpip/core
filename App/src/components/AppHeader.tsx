@@ -209,6 +209,13 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
                   navigate('/welcome')
                 }}
               />
+              <MenuItem
+                label="Learn"
+                onClick={() => {
+                  setMenuOpen(false)
+                  navigate('/learn')
+                }}
+              />
               <MenuItem label="My Name" onClick={openNameEditor} />
               <MenuItem label="Change Password" onClick={openPasswordEditor} />
               <MenuItem
