@@ -23,12 +23,24 @@ export function Welcome() {
 
       <div className="px-4 pt-6">
         <ChatBubble>Welcome {name}! What would you like to do next?</ChatBubble>
-        <ResponseBubble showAskField>
+        <ResponseBubble>
           <div className="flex flex-col gap-2.5">
             <Button onClick={() => navigate('/new-plant')}>Add a Plant</Button>
             <Button variant="secondary" onClick={() => navigate('/library')}>
               {name}'s Plants
             </Button>
+            {/* Replaces the old decorative "Ask Pip" field, which wasn't
+                wired to anything — this is a real, working entry point
+                instead. See AboutPip.tsx and the flow proposal's section
+                9.1 for what it opens. Kept quiet (plain text, not a full
+                Button) so it reads as an optional aside, not a third task
+                competing with the two above it. */}
+            <button
+              onClick={() => navigate('/about-pip')}
+              className="mt-1 text-center text-sm text-pip-text-soft underline"
+            >
+              Tell me more about what Pip does
+            </button>
           </div>
         </ResponseBubble>
       </div>
