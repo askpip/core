@@ -5232,6 +5232,12 @@
     var dragging = false;
     var dragStart = null;
     var dragCurrent = null;
+    // Lets a placed text annotation be dragged to a new spot after the fact, rather than
+    // only ever landing wherever it was first typed -- per direct request (23 September
+    // 2026). Grabbing anywhere inside the text's own (padded) bounding box starts the drag;
+    // see hitTestText/textShapeBounds below.
+    var draggingTextShape = null;
+    var dragTextOffset = null;
 
     body.innerHTML =
       '<div class="annotate-source-row">' +
@@ -5265,6 +5271,12 @@
     var statusEl = body.querySelector(".tool-status");
     var resultEl = body.querySelector(".tool-result");
 
+    // Shared with textShapeBounds' hit-testing so the box it measures always matches the
+    // size redraw() actually draws the text at.
+    function textFontSize(){
+      return Math.round(Math.min(canvas.width, canvas.height) * 0.045);
+    }
+
     // Arrowhead sits at (x1,y1) -- the point where the drag STARTED -- pointing away from
     // (x2,y2), per direct request (23 September 2026): drawing "from the thing you're pointing
     // at" reads more naturally than the usual convention of the head landing wherever the
@@ -5295,7 +5307,7 @@
         if(s.type === "arrow"){
           drawArrow(s.x1, s.y1, s.x2, s.y2, s.color);
         } else if(s.type === "text"){
-          ctx.font = "bold " + Math.round(Math.min(canvas.width, canvas.height) * 0.045) + "px 'Nunito', sans-serif";
+          ctx.font = "bold " + textFontSize() + "px 'Nunito', sans-serif";
           ctx.fillStyle = s.color;
           ctx.fillText(s.text, s.x, s.y);
         }
@@ -5310,6 +5322,30 @@
       var scaleX = canvas.width / rect.width;
       var scaleY = canvas.height / rect.height;
       return { x: (evt.clientX - rect.left) * scaleX, y: (evt.clientY - rect.top) * scaleY };
+    }
+
+    // A little padding on every side so grabbing a placed text doesn't need pixel-perfect
+    // precision. fillText's anchor (s.x, s.y) is the text's baseline-left point, so the box
+    // extends up by roughly the font size and down a little for descenders.
+    function textShapeBounds(s){
+      var fontSize = textFontSize();
+      ctx.font = "bold " + fontSize + "px 'Nunito', sans-serif";
+      var width = ctx.measureText(s.text).width;
+      var pad = 10;
+      return {
+        left: s.x - pad, right: s.x + width + pad,
+        top: s.y - fontSize - pad, bottom: s.y + fontSize * 0.3 + pad
+      };
+    }
+
+    // Topmost (last-drawn) matching text wins, same as z-order on screen.
+    function hitTestText(pos){
+      for(var i = shapes.length - 1; i >= 0; i--){
+        if(shapes[i].type !== "text") continue;
+        var b = textShapeBounds(shapes[i]);
+        if(pos.x >= b.left && pos.x <= b.right && pos.y >= b.top && pos.y <= b.bottom) return shapes[i];
+      }
+      return null;
     }
 
     function placeTextInput(pos){
@@ -5350,6 +5386,14 @@
       evt.preventDefault();
       var pos = getCanvasPos(evt);
       if(mode === "text"){
+        var hit = hitTestText(pos);
+        if(hit){
+          // Grabbed an existing text annotation -- drag it instead of placing a new one.
+          draggingTextShape = hit;
+          dragTextOffset = { dx: pos.x - hit.x, dy: pos.y - hit.y };
+          canvas.setPointerCapture(evt.pointerId);
+          return;
+        }
         placeTextInput(pos);
         return;
       }
@@ -5359,11 +5403,30 @@
       canvas.setPointerCapture(evt.pointerId);
     });
     canvas.addEventListener("pointermove", function(evt){
-      if(!dragging) return;
-      dragCurrent = getCanvasPos(evt);
-      redraw();
+      if(draggingTextShape){
+        var dragPos = getCanvasPos(evt);
+        draggingTextShape.x = dragPos.x - dragTextOffset.dx;
+        draggingTextShape.y = dragPos.y - dragTextOffset.dy;
+        redraw();
+        return;
+      }
+      if(dragging){
+        dragCurrent = getCanvasPos(evt);
+        redraw();
+        return;
+      }
+      // Not dragging anything: in Text mode, hint that a placed text can be picked up.
+      if(mode === "text"){
+        canvas.style.cursor = hitTestText(getCanvasPos(evt)) ? "move" : "crosshair";
+      }
     });
     canvas.addEventListener("pointerup", function(evt){
+      if(draggingTextShape){
+        draggingTextShape = null;
+        dragTextOffset = null;
+        redraw();
+        return;
+      }
       if(!dragging) return;
       dragging = false;
       var pos = getCanvasPos(evt);
@@ -5379,6 +5442,7 @@
     Array.prototype.forEach.call(toolBtns, function(btn){
       btn.addEventListener("click", function(){
         mode = btn.getAttribute("data-mode");
+        canvas.style.cursor = "crosshair";
         Array.prototype.forEach.call(toolBtns, function(b){
           b.classList.toggle("active", b === btn);
           b.classList.toggle("ghost", b !== btn);
@@ -5393,6 +5457,8 @@
       baseImg = img;
       sourceName = name || "";
       shapes = [];
+      draggingTextShape = null;
+      dragTextOffset = null;
       var w = img.naturalWidth || img.width;
       var h = img.naturalHeight || img.height;
       var scale = Math.min(1, MAX_DIM / Math.max(w, h));
@@ -5437,6 +5503,8 @@
       if(currentObjectUrl){ URL.revokeObjectURL(currentObjectUrl); currentObjectUrl = null; }
       baseImg = null;
       shapes = [];
+      draggingTextShape = null;
+      dragTextOffset = null;
       editorEl.style.display = "none";
       sourceRow.style.display = "flex";
       sourceEmpty.style.display = "block";

@@ -2102,6 +2102,15 @@ it, per the Verify Before Claiming Skill.
 - The arrowhead was made smaller, and moved to sit at the point where the
   drag *starts* rather than where it's released — pointing at the thing
   being indicated reads more naturally than the reverse.
+- Placed text stayed exactly where it was first typed, with no way to fix
+  a bad placement short of Undo-and-retype. Added drag-to-reposition:
+  while in Text mode, clicking inside an existing text's (padded)
+  bounding box now picks it up and drags it instead of starting a new
+  one (`hitTestText`/`textShapeBounds`, using the same font metrics
+  `redraw()` draws with so the hit box matches what's on screen); the
+  cursor switches to a "move" hint over draggable text so it's
+  discoverable. Syntax-checked (`node --check`) on the rebuilt
+  `index.html`; not yet click-tested in a real browser.
 
 ## What's next
 
