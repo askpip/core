@@ -528,6 +528,8 @@
   .annotate-toolbar{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:10px; }
   .annotate-tool-btn.active{ background:var(--terracotta); color:#fff; border-color:var(--terracotta); }
   .annotate-color-input{ width:34px; height:34px; padding:0; border:1.5px solid var(--pip-border); border-radius:8px; background:none; cursor:pointer; }
+  .annotate-size-label{ display:flex; align-items:center; gap:6px; font-family:'Nunito',sans-serif; font-size:.8rem; color:var(--wood-dark); opacity:.85; }
+  .annotate-size-input{ width:90px; cursor:pointer; }
   .annotate-canvas-wrap{ position:relative; display:inline-block; max-width:100%; margin-bottom:12px; }
   .annotate-canvas-wrap canvas{ display:block; max-width:100%; border-radius:8px; box-shadow:0 3px 10px rgba(0,0,0,.3); touch-action:none; cursor:crosshair; }
   .annotate-text-input{
@@ -5238,6 +5240,12 @@
     // see hitTestText/textShapeBounds below.
     var draggingTextShape = null;
     var dragTextOffset = null;
+    // Per-request (23 September 2026): text size is now adjustable. currentFontSize is the
+    // size a freshly-placed text gets; selectedTextShape is whichever placed text the size
+    // slider is currently driving live (set on creation and on picking up an existing text
+    // to drag), so moving the slider resizes that one rather than every piece of text.
+    var currentFontSize = 40;
+    var selectedTextShape = null;
 
     body.innerHTML =
       '<div class="annotate-source-row">' +
@@ -5251,6 +5259,7 @@
           '<button type="button" class="btn annotate-tool-btn active" data-mode="arrow">↗ Arrow</button>' +
           '<button type="button" class="btn ghost annotate-tool-btn" data-mode="text">🔤 Text</button>' +
           '<input type="color" class="annotate-color-input" value="#e53935" title="Colour">' +
+          '<label class="annotate-size-label">Size<input type="range" class="annotate-size-input" min="8" max="100" step="1" title="Text size"></label>' +
           '<button type="button" class="btn ghost annotate-undo">Undo</button>' +
           '<button type="button" class="btn ghost annotate-clear">Clear</button>' +
         '</div>' +
@@ -5267,12 +5276,16 @@
     var canvas = body.querySelector(".annotate-canvas-wrap canvas");
     var ctx = canvas.getContext("2d");
     var toolBtns = body.querySelectorAll(".annotate-tool-btn");
+    var sizeInput = body.querySelector(".annotate-size-input");
     var saveBtn = body.querySelector(".annotate-save");
     var statusEl = body.querySelector(".tool-status");
     var resultEl = body.querySelector(".tool-result");
 
-    // Shared with textShapeBounds' hit-testing so the box it measures always matches the
-    // size redraw() actually draws the text at.
+    // The size a text gets when nothing else has set one: the initial default for a
+    // freshly-opened photo (used to seed currentFontSize and the slider in setupEditor) and
+    // a defensive fallback in redraw()/textShapeBounds() for a shape with no `.size` of its
+    // own. Each placed text otherwise carries its own size, set from currentFontSize at the
+    // moment it's created and adjustable afterwards via the size slider.
     function textFontSize(){
       return Math.round(Math.min(canvas.width, canvas.height) * 0.045);
     }
@@ -5307,7 +5320,7 @@
         if(s.type === "arrow"){
           drawArrow(s.x1, s.y1, s.x2, s.y2, s.color);
         } else if(s.type === "text"){
-          ctx.font = "bold " + textFontSize() + "px 'Nunito', sans-serif";
+          ctx.font = "bold " + (s.size || textFontSize()) + "px 'Nunito', sans-serif";
           ctx.fillStyle = s.color;
           ctx.fillText(s.text, s.x, s.y);
         }
@@ -5328,7 +5341,7 @@
     // precision. fillText's anchor (s.x, s.y) is the text's baseline-left point, so the box
     // extends up by roughly the font size and down a little for descenders.
     function textShapeBounds(s){
-      var fontSize = textFontSize();
+      var fontSize = s.size || textFontSize();
       ctx.font = "bold " + fontSize + "px 'Nunito', sans-serif";
       var width = ctx.measureText(s.text).width;
       var pad = 10;
@@ -5358,6 +5371,7 @@
       input.style.left = (pos.x * scaleX) + "px";
       input.style.top = (pos.y * scaleY) + "px";
       input.style.color = currentColor;
+      input.style.fontSize = Math.max(10, Math.round(currentFontSize * scaleY)) + "px";
       body.querySelector(".annotate-canvas-wrap").appendChild(input);
       input.focus();
       var committed = false;
@@ -5365,7 +5379,11 @@
         if(committed) return;
         committed = true;
         if(input.value && input.value.trim()){
-          shapes.push({ type: "text", x: pos.x, y: pos.y, text: input.value.trim(), color: currentColor });
+          var shape = { type: "text", x: pos.x, y: pos.y, text: input.value.trim(), color: currentColor, size: currentFontSize };
+          shapes.push(shape);
+          // Newly-placed text becomes what the size slider drives, so dragging it right
+          // after typing resizes what you just made rather than nothing.
+          selectedTextShape = shape;
           redraw();
         }
         input.remove();
@@ -5388,9 +5406,12 @@
       if(mode === "text"){
         var hit = hitTestText(pos);
         if(hit){
-          // Grabbed an existing text annotation -- drag it instead of placing a new one.
+          // Grabbed an existing text annotation -- drag it instead of placing a new one,
+          // and hand the size slider to it so it reflects (and can adjust) this text's size.
           draggingTextShape = hit;
           dragTextOffset = { dx: pos.x - hit.x, dy: pos.y - hit.y };
+          selectedTextShape = hit;
+          sizeInput.value = hit.size || currentFontSize;
           canvas.setPointerCapture(evt.pointerId);
           return;
         }
@@ -5443,6 +5464,9 @@
       btn.addEventListener("click", function(){
         mode = btn.getAttribute("data-mode");
         canvas.style.cursor = "crosshair";
+        // Leaving Text mode: the slider goes back to just setting the default for the next
+        // new text, rather than still quietly resizing whatever was last selected.
+        if(mode !== "text") selectedTextShape = null;
         Array.prototype.forEach.call(toolBtns, function(b){
           b.classList.toggle("active", b === btn);
           b.classList.toggle("ghost", b !== btn);
@@ -5450,8 +5474,19 @@
       });
     });
     body.querySelector(".annotate-color-input").addEventListener("input", function(e){ currentColor = e.target.value; });
-    body.querySelector(".annotate-undo").addEventListener("click", function(){ shapes.pop(); redraw(); });
-    body.querySelector(".annotate-clear").addEventListener("click", function(){ shapes = []; redraw(); });
+    sizeInput.addEventListener("input", function(e){
+      currentFontSize = parseInt(e.target.value, 10) || currentFontSize;
+      if(selectedTextShape){
+        selectedTextShape.size = currentFontSize;
+        redraw();
+      }
+    });
+    body.querySelector(".annotate-undo").addEventListener("click", function(){
+      shapes.pop();
+      if(selectedTextShape && shapes.indexOf(selectedTextShape) === -1) selectedTextShape = null;
+      redraw();
+    });
+    body.querySelector(".annotate-clear").addEventListener("click", function(){ shapes = []; selectedTextShape = null; redraw(); });
 
     function setupEditor(img, name){
       baseImg = img;
@@ -5459,11 +5494,18 @@
       shapes = [];
       draggingTextShape = null;
       dragTextOffset = null;
+      selectedTextShape = null;
       var w = img.naturalWidth || img.width;
       var h = img.naturalHeight || img.height;
       var scale = Math.min(1, MAX_DIM / Math.max(w, h));
       canvas.width = Math.round(w * scale);
       canvas.height = Math.round(h * scale);
+      currentFontSize = textFontSize();
+      sizeInput.value = currentFontSize;
+      // The slider's min/max can clamp the assigned value -- read it back so currentFontSize
+      // always matches what's actually shown and can't drift from a tiny or huge photo's
+      // computed default.
+      currentFontSize = parseInt(sizeInput.value, 10) || currentFontSize;
       sourceRow.style.display = "none";
       sourceEmpty.style.display = "none";
       editorEl.style.display = "block";
@@ -5505,6 +5547,7 @@
       shapes = [];
       draggingTextShape = null;
       dragTextOffset = null;
+      selectedTextShape = null;
       editorEl.style.display = "none";
       sourceRow.style.display = "flex";
       sourceEmpty.style.display = "block";

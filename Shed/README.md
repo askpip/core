@@ -2111,6 +2111,16 @@ it, per the Verify Before Claiming Skill.
   cursor switches to a "move" hint over draggable text so it's
   discoverable. Syntax-checked (`node --check`) on the rebuilt
   `index.html`; not yet click-tested in a real browser.
+- Text size was fixed at one proportion of the photo's dimensions, with no
+  way to make a label bigger or smaller. Added a "Size" slider next to the
+  colour swatch: each placed text now carries its own `size` (set from
+  `currentFontSize` at the moment it's typed), and the slider edits
+  `selectedTextShape` live — whichever text was just created, or was just
+  picked up to drag — so dragging the slider resizes that one piece of
+  text rather than everything on the canvas. Switching to Arrow mode
+  clears the selection so the slider can't keep quietly resizing something
+  off-screen. Syntax-checked (`node --check`) on the rebuilt `index.html`;
+  not yet click-tested in a real browser.
 
 ## What's next
 
