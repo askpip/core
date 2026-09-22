@@ -521,6 +521,20 @@
   .btn.danger{ background:#a33; }
   .btn:disabled{ opacity:.5; cursor:default; }
 
+  /* Annotate Photo tool (23 September 2026): canvas-based arrow/text annotation over an
+     uploaded or existing (Gallery) photo. Toolbar buttons mirror .btn/.btn.ghost's language;
+     .annotate-tool-btn.active marks whichever of Arrow/Text is the current draw mode. */
+  .annotate-source-row{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:14px; }
+  .annotate-toolbar{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:10px; }
+  .annotate-tool-btn.active{ background:var(--terracotta); color:#fff; border-color:var(--terracotta); }
+  .annotate-color-input{ width:34px; height:34px; padding:0; border:1.5px solid var(--pip-border); border-radius:8px; background:none; cursor:pointer; }
+  .annotate-canvas-wrap{ position:relative; display:inline-block; max-width:100%; margin-bottom:12px; }
+  .annotate-canvas-wrap canvas{ display:block; max-width:100%; border-radius:8px; box-shadow:0 3px 10px rgba(0,0,0,.3); touch-action:none; cursor:crosshair; }
+  .annotate-text-input{
+    position:absolute; font-family:'Nunito',sans-serif; font-size:.9rem; padding:3px 6px;
+    border:1.5px dashed var(--terracotta); border-radius:4px; background:#fffef8; z-index:2; min-width:60px;
+  }
+
   /* To-Do List */
   .todo-add{ display:flex; gap:8px; margin-bottom:16px; }
   .todo-add input[type=text]{
@@ -2734,6 +2748,10 @@
     // tool files its output (see openFormatLegalDocsTool). A plain top-level folder like
     // every other entry here; nothing about cabinet rendering needed to change for it.
     {name:"Formatted for Legal", icon:"⚖️"},
+    // "Annotated Photos" (23 September 2026) -- where the Toolbox's "Annotate Photo" tool
+    // files its output (see openAnnotatePhotoTool). A plain top-level folder like every
+    // other entry here; nothing about cabinet rendering needed to change for it.
+    {name:"Annotated Photos", icon:"🖼️"},
     {name:"Foundations", icon:"🧱"},
     {name:"Knowledge Curation System", icon:"📚"},
     {name:"MVP", icon:"🚀"},
@@ -2745,8 +2763,10 @@
   // Cabinet folders where an item is disposable, user/tool-generated output rather than
   // governed content -- these two get the Recycle-Bin-style select-then-delete toolbar
   // (see buildSelectableItemListEl) instead of the plain "click to open, delete from inside"
-  // flow every other folder keeps, per direct request (17 September 2026).
-  var CABINET_BULK_DELETE_FOLDERS = ["From the Desk", "Formatted for Legal"];
+  // flow every other folder keeps, per direct request (17 September 2026). "Annotated Photos"
+  // (23 September 2026) joins them for the same reason: tool-generated output, not governed
+  // content.
+  var CABINET_BULK_DELETE_FOLDERS = ["From the Desk", "Formatted for Legal", "Annotated Photos"];
   var CABINET_DEFAULT_FOLDER = "Company Docs";
 
   // Every distinct next path segment among items whose folder is a strict descendant of
@@ -4735,6 +4755,12 @@
       name: "Format Legal Docs",
       description: "Export any shed document as a correctly formatted .docx or PDF, ready to download or print.",
       open: openFormatLegalDocsTool
+    },
+    {
+      icon: "🖊️",
+      name: "Annotate Photo",
+      description: "Mark up any photo with arrows and text, then file the result in the Cabinet.",
+      open: openAnnotatePhotoTool
     }
   ];
 
@@ -5143,6 +5169,359 @@
         statusEl.textContent = "";
         resultEl.innerHTML = '<p class="empty-note" style="margin:0;color:#a33;">' + (err && err.message ? err.message : "Something went wrong. Please try again.") + '</p>';
       });
+    });
+  }
+
+  // Annotate Photo (23 September 2026, direct request -- "an image editor in the shed that
+  // will allow for adding arrows and text to photos", placed in the Toolbox drawer, photos may
+  // come from a fresh upload or an existing Gallery photo, result filed in the Cabinet).
+  //
+  // Source picking reuses openGalleryImagePicker as-is (already exists, used by the notice
+  // composer's photo link and the desk's "Link a gallery photo" -- see its two other call
+  // sites) rather than a new picker function, since it already does exactly "browse the
+  // Gallery, pick a thumbnail" with no changes needed.
+  //
+  // The editor itself is a plain 2D canvas: the source photo is drawn once at load, then every
+  // arrow/text shape is redrawn from an in-memory `shapes` array on every change (undo/clear are
+  // therefore just array edits followed by a redraw, never a canvas-history stack). Pointer
+  // position math always goes through the canvas's own getBoundingClientRect() and scales by
+  // canvas.width/height against the rect, so it stays correct regardless of the CSS max-width
+  // scaling that shrinks the canvas on a narrow window -- there is no fixed on-screen size to
+  // assume. Arrow dragging uses native Pointer Events with setPointerCapture, which keeps
+  // receiving pointermove/pointerup for that pointer even if it leaves the canvas mid-drag --
+  // deliberately chosen over a window-level mouseup listener so there is nothing to leak or
+  // clean up if the tool is opened and closed repeatedly in one browser session.
+  //
+  // A photo picked from the Gallery is loaded from a signed Supabase Storage URL, which is
+  // cross-origin -- img.crossOrigin = "anonymous" is set before img.src for that path only, so
+  // canvas.toBlob() below doesn't throw on a tainted canvas. A freshly uploaded file instead
+  // becomes a same-origin blob: URL via URL.createObjectURL(file), which needs no such flag, but
+  // does need revoking (on replace, on "choose a different photo," and on close) or it leaks.
+  //
+  // Saving mirrors openFormatLegalDocsTool's own save step exactly: shed_add_item(loc:"cabinet",
+  // fld:"Annotated Photos", want_upload:true) to create the row, upload the canvas's PNG blob to
+  // Storage, then shed_add_attachment to link it -- the same three-call sequence, just with a
+  // canvas-produced blob standing in for the Edge Function's returned document blob.
+  function openAnnotatePhotoTool(stageEl){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg" style="background-image:url(__ASSET_GALLERY__)"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>🖊️ Annotate Photo</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      if(currentObjectUrl){ URL.revokeObjectURL(currentObjectUrl); currentObjectUrl = null; }
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+
+    var MAX_DIM = 900;
+    var mode = "arrow";
+    var currentColor = "#e53935";
+    var shapes = [];
+    var baseImg = null;
+    var sourceName = "";
+    var currentObjectUrl = null;
+    var dragging = false;
+    var dragStart = null;
+    var dragCurrent = null;
+
+    body.innerHTML =
+      '<div class="annotate-source-row">' +
+        '<button type="button" class="btn ghost choose-upload">Upload a Photo…</button>' +
+        '<button type="button" class="btn ghost choose-gallery">Choose from Gallery…</button>' +
+        '<input type="file" accept="image/*" class="annotate-file-input" style="display:none;">' +
+      '</div>' +
+      '<p class="empty-note annotate-source-empty">Pick a photo to start marking it up.</p>' +
+      '<div class="annotate-editor" style="display:none;">' +
+        '<div class="annotate-toolbar">' +
+          '<button type="button" class="btn annotate-tool-btn active" data-mode="arrow">↗ Arrow</button>' +
+          '<button type="button" class="btn ghost annotate-tool-btn" data-mode="text">🔤 Text</button>' +
+          '<input type="color" class="annotate-color-input" value="#e53935" title="Colour">' +
+          '<button type="button" class="btn ghost annotate-undo">Undo</button>' +
+          '<button type="button" class="btn ghost annotate-clear">Clear</button>' +
+        '</div>' +
+        '<div class="annotate-canvas-wrap"><canvas></canvas></div>' +
+        '<p class="empty-note tool-status" style="margin:0 0 10px;"></p>' +
+        '<div class="actions"><button type="button" class="btn annotate-save">Save to Cabinet</button><button type="button" class="btn ghost annotate-start-over">Choose a Different Photo</button></div>' +
+        '<div class="tool-result" style="margin-top:14px;"></div>' +
+      '</div>';
+
+    var sourceRow = body.querySelector(".annotate-source-row");
+    var sourceEmpty = body.querySelector(".annotate-source-empty");
+    var editorEl = body.querySelector(".annotate-editor");
+    var fileInput = body.querySelector(".annotate-file-input");
+    var canvas = body.querySelector(".annotate-canvas-wrap canvas");
+    var ctx = canvas.getContext("2d");
+    var toolBtns = body.querySelectorAll(".annotate-tool-btn");
+    var saveBtn = body.querySelector(".annotate-save");
+    var statusEl = body.querySelector(".tool-status");
+    var resultEl = body.querySelector(".tool-result");
+
+    function drawArrow(x1, y1, x2, y2, color){
+      var headLen = Math.max(10, Math.min(canvas.width, canvas.height) * 0.03);
+      var angle = Math.atan2(y2 - y1, x2 - x1);
+      ctx.strokeStyle = color;
+      ctx.fillStyle = color;
+      ctx.lineWidth = Math.max(2, Math.min(canvas.width, canvas.height) * 0.006);
+      ctx.beginPath();
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(x2, y2);
+      ctx.lineTo(x2 - headLen * Math.cos(angle - Math.PI / 6), y2 - headLen * Math.sin(angle - Math.PI / 6));
+      ctx.lineTo(x2 - headLen * Math.cos(angle + Math.PI / 6), y2 - headLen * Math.sin(angle + Math.PI / 6));
+      ctx.closePath();
+      ctx.fill();
+    }
+
+    function redraw(){
+      if(!baseImg) return;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(baseImg, 0, 0, canvas.width, canvas.height);
+      shapes.forEach(function(s){
+        if(s.type === "arrow"){
+          drawArrow(s.x1, s.y1, s.x2, s.y2, s.color);
+        } else if(s.type === "text"){
+          ctx.font = "bold " + Math.round(Math.min(canvas.width, canvas.height) * 0.045) + "px 'Nunito', sans-serif";
+          ctx.fillStyle = s.color;
+          ctx.fillText(s.text, s.x, s.y);
+        }
+      });
+      if(dragging && dragStart && dragCurrent){
+        drawArrow(dragStart.x, dragStart.y, dragCurrent.x, dragCurrent.y, currentColor);
+      }
+    }
+
+    function getCanvasPos(evt){
+      var rect = canvas.getBoundingClientRect();
+      var scaleX = canvas.width / rect.width;
+      var scaleY = canvas.height / rect.height;
+      return { x: (evt.clientX - rect.left) * scaleX, y: (evt.clientY - rect.top) * scaleY };
+    }
+
+    function placeTextInput(pos){
+      var rect = canvas.getBoundingClientRect();
+      var scaleX = rect.width / canvas.width;
+      var scaleY = rect.height / canvas.height;
+      var input = document.createElement("input");
+      input.type = "text";
+      input.className = "annotate-text-input";
+      input.style.left = (pos.x * scaleX) + "px";
+      input.style.top = (pos.y * scaleY) + "px";
+      input.style.color = currentColor;
+      body.querySelector(".annotate-canvas-wrap").appendChild(input);
+      input.focus();
+      var committed = false;
+      function commit(){
+        if(committed) return;
+        committed = true;
+        if(input.value && input.value.trim()){
+          shapes.push({ type: "text", x: pos.x, y: pos.y, text: input.value.trim(), color: currentColor });
+          redraw();
+        }
+        input.remove();
+      }
+      input.addEventListener("blur", commit);
+      input.addEventListener("keydown", function(e){
+        if(e.key === "Enter"){ e.preventDefault(); input.blur(); }
+        else if(e.key === "Escape"){ committed = true; input.remove(); }
+      });
+    }
+
+    canvas.addEventListener("pointerdown", function(evt){
+      var pos = getCanvasPos(evt);
+      if(mode === "text"){
+        placeTextInput(pos);
+        return;
+      }
+      dragging = true;
+      dragStart = pos;
+      dragCurrent = pos;
+      canvas.setPointerCapture(evt.pointerId);
+    });
+    canvas.addEventListener("pointermove", function(evt){
+      if(!dragging) return;
+      dragCurrent = getCanvasPos(evt);
+      redraw();
+    });
+    canvas.addEventListener("pointerup", function(evt){
+      if(!dragging) return;
+      dragging = false;
+      var pos = getCanvasPos(evt);
+      var dx = pos.x - dragStart.x, dy = pos.y - dragStart.y;
+      if(Math.sqrt(dx * dx + dy * dy) > 6){
+        shapes.push({ type: "arrow", x1: dragStart.x, y1: dragStart.y, x2: pos.x, y2: pos.y, color: currentColor });
+      }
+      dragStart = null;
+      dragCurrent = null;
+      redraw();
+    });
+
+    Array.prototype.forEach.call(toolBtns, function(btn){
+      btn.addEventListener("click", function(){
+        mode = btn.getAttribute("data-mode");
+        Array.prototype.forEach.call(toolBtns, function(b){
+          b.classList.toggle("active", b === btn);
+          b.classList.toggle("ghost", b !== btn);
+        });
+      });
+    });
+    body.querySelector(".annotate-color-input").addEventListener("input", function(e){ currentColor = e.target.value; });
+    body.querySelector(".annotate-undo").addEventListener("click", function(){ shapes.pop(); redraw(); });
+    body.querySelector(".annotate-clear").addEventListener("click", function(){ shapes = []; redraw(); });
+
+    function setupEditor(img, name){
+      baseImg = img;
+      sourceName = name || "";
+      shapes = [];
+      var w = img.naturalWidth || img.width;
+      var h = img.naturalHeight || img.height;
+      var scale = Math.min(1, MAX_DIM / Math.max(w, h));
+      canvas.width = Math.round(w * scale);
+      canvas.height = Math.round(h * scale);
+      sourceRow.style.display = "none";
+      sourceEmpty.style.display = "none";
+      editorEl.style.display = "block";
+      resultEl.innerHTML = "";
+      statusEl.textContent = "";
+      redraw();
+    }
+
+    function loadImageFromUrl(url, name, crossOrigin){
+      var img = new Image();
+      if(crossOrigin) img.crossOrigin = "anonymous";
+      img.onload = function(){ setupEditor(img, name); };
+      img.onerror = function(){ alert("Couldn't load that photo. Please try again."); };
+      img.src = url;
+    }
+
+    body.querySelector(".choose-upload").addEventListener("click", function(){ fileInput.click(); });
+    fileInput.addEventListener("change", function(){
+      var file = fileInput.files && fileInput.files[0];
+      if(!file) return;
+      if(currentObjectUrl){ URL.revokeObjectURL(currentObjectUrl); currentObjectUrl = null; }
+      var url = URL.createObjectURL(file);
+      currentObjectUrl = url;
+      loadImageFromUrl(url, file.name, false);
+    });
+    body.querySelector(".choose-gallery").addEventListener("click", function(){
+      openGalleryImagePicker(stageEl, function(item){
+        var att = (ATTACHMENTS[item.id] || [])[0];
+        if(!att){ alert("That photo doesn't have a file attached."); return; }
+        sb.storage.from("shed-attachments").createSignedUrl(att.storage_path, 3600).then(function(res){
+          if(res.error || !res.data){ alert("Couldn't open that photo. Please try again."); return; }
+          loadImageFromUrl(res.data.signedUrl, item.title, true);
+        });
+      });
+    });
+    body.querySelector(".annotate-start-over").addEventListener("click", function(){
+      if(currentObjectUrl){ URL.revokeObjectURL(currentObjectUrl); currentObjectUrl = null; }
+      baseImg = null;
+      shapes = [];
+      editorEl.style.display = "none";
+      sourceRow.style.display = "flex";
+      sourceEmpty.style.display = "block";
+      fileInput.value = "";
+      resultEl.innerHTML = "";
+      statusEl.textContent = "";
+    });
+
+    saveBtn.addEventListener("click", function(){
+      if(!baseImg) return;
+      saveBtn.disabled = true;
+      resultEl.innerHTML = "";
+      statusEl.textContent = "Saving…";
+      canvas.toBlob(function(blob){
+        if(!blob){
+          statusEl.textContent = "";
+          resultEl.innerHTML = '<p class="empty-note" style="margin:0;color:#a33;">Couldn\'t create the image file. Please try again.</p>';
+          saveBtn.disabled = false;
+          return;
+        }
+        var baseName = (sourceName || "Annotated Photo").replace(/\.[a-zA-Z0-9]+$/, "");
+        var outTitle = baseName + " (Annotated).png";
+        sb.rpc("shed_add_item", {
+          p: window.SHED_PASSPHRASE, loc: "cabinet",
+          ttl: outTitle, bdy: "Annotated with the Toolbox's Annotate Photo tool" + (sourceName ? (" from \"" + sourceName + "\".") : "."),
+          fld: "Annotated Photos", want_upload: true
+        }).then(function(res){
+          if(res.error || !res.data) throw new Error("Couldn't file that photo in the Cabinet.");
+          var newItem = itemFromRow(res.data, "cabinet");
+          CONTENT.cabinet.items.unshift(newItem);
+          var safeName = outTitle.replace(/[^a-zA-Z0-9._-]/g, "_");
+          var path = newItem.id + "/" + Date.now() + "-" + safeName;
+          return sb.storage.from("shed-attachments").upload(path, blob, { contentType: "image/png" }).then(function(upRes){
+            if(upRes.error) throw new Error("Filed, but the image itself failed to upload -- open it from Annotated Photos to retry.");
+            return sb.rpc("shed_add_attachment", {
+              p: window.SHED_PASSPHRASE, item_id: newItem.id, file_name: outTitle, storage_path: path, size_bytes: blob.size
+            }).then(function(attRes){
+              if(!attRes.error && attRes.data){
+                if(!ATTACHMENTS[newItem.id]) ATTACHMENTS[newItem.id] = [];
+                ATTACHMENTS[newItem.id].push(attRes.data);
+              }
+              return { outTitle: outTitle, newItem: newItem };
+            });
+          });
+        }).then(function(result){
+          statusEl.textContent = "Done — filed in File Cabinet → Annotated Photos.";
+          saveBtn.disabled = false;
+          resultEl.innerHTML = '<p class="empty-note" style="margin:0 0 10px;">✅ "' + result.outTitle + '" is ready.</p>' +
+            '<div class="actions"></div>';
+          var resultActions = resultEl.querySelector(".actions");
+
+          var deskBtn = document.createElement("button");
+          deskBtn.type = "button";
+          deskBtn.className = "btn ghost";
+          deskBtn.textContent = "Desktop";
+          deskBtn.addEventListener("click", function(){
+            addToDesk(stageEl, result.newItem, { key: "cabinet", path: "Annotated Photos", label: "Annotated Photos" });
+            close();
+          });
+          resultActions.appendChild(deskBtn);
+
+          var annotatedFile = (ATTACHMENTS[result.newItem.id] || [])[0];
+          if(annotatedFile){
+            var viewBtn = document.createElement("button");
+            viewBtn.type = "button";
+            viewBtn.className = "btn ghost";
+            viewBtn.textContent = "Open";
+            viewBtn.addEventListener("click", function(){
+              sb.storage.from("shed-attachments").createSignedUrl(annotatedFile.storage_path, 3600).then(function(res){
+                if(res.error || !res.data){ alert("Couldn't open that photo. Please try again."); return; }
+                window.open(res.data.signedUrl, "_blank");
+              });
+            });
+            resultActions.appendChild(viewBtn);
+
+            var dlBtn = document.createElement("button");
+            dlBtn.type = "button";
+            dlBtn.className = "btn alt";
+            dlBtn.textContent = "Download";
+            dlBtn.addEventListener("click", function(){
+              sb.storage.from("shed-attachments")
+                .createSignedUrl(annotatedFile.storage_path, 3600, { download: annotatedFile.file_name })
+                .then(function(res){
+                  if(res.error || !res.data){ alert("Couldn't download that photo. Please try again."); return; }
+                  window.open(res.data.signedUrl, "_blank");
+                });
+            });
+            resultActions.appendChild(dlBtn);
+          }
+        }).catch(function(err){
+          saveBtn.disabled = false;
+          statusEl.textContent = "";
+          resultEl.innerHTML = '<p class="empty-note" style="margin:0;color:#a33;">' + (err && err.message ? err.message : "Something went wrong. Please try again.") + '</p>';
+        });
+      }, "image/png");
     });
   }
 

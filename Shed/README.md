@@ -2058,6 +2058,39 @@ renderer and take precedence.
 Commission Record: no leftover `**`, `|---`, `#` or backticks in the displayed text; tables,
 lists, quotes and headings counted as expected. Not verified against the live page.
 
+## Toolbox: Annotate Photo (added 23 September 2026)
+
+**Why.** Direct request: "an image editor in the shed that will allow for
+adding arrows and text to photos," placed in the Toolbox drawer alongside
+Format Legal Docs, with the photo sourced from either a fresh upload or an
+existing Gallery photo, and the annotated result filed in the File Cabinet
+(a new folder, "Annotated Photos," made bulk-deletable in the Cabinet like
+"Formatted for Legal" since it's tool-generated output, not governed
+content).
+
+**What.** A new `TOOLBOX_TOOLS` entry, `openAnnotatePhotoTool`, opens a
+panel that first asks for a source photo — "Upload a Photo…" (the native
+file picker) or "Choose from Gallery…" (reuses `openGalleryImagePicker`
+as-is, the same picker the notice composer and desk's photo-link already
+use) — then a plain 2D-canvas editor: an Arrow tool and a Text tool
+(click-drag to draw an arrow with a hand-drawn arrowhead; click to drop an
+inline text field), a colour swatch, Undo and Clear. Every shape is kept in
+an in-memory array and the canvas is fully redrawn from it on every change,
+so Undo/Clear are just array edits. Arrow dragging uses native Pointer
+Events with `setPointerCapture`, so a drag that leaves the canvas mid-draw
+still finishes correctly, without a window-level listener to leak if the
+tool is opened and closed repeatedly. Saving runs the same three-call
+sequence Format Legal Docs already uses (`shed_add_item` → Storage upload
+→ `shed_add_attachment`), filing the canvas's PNG export under File
+Cabinet → Annotated Photos, with the same Desktop/Open/Download follow-up
+actions.
+
+**Tested**: the built `index.html`'s embedded script passes a Node syntax
+check (`node --check`), and the placeholder substitution was confirmed
+complete (no leftover `__ASSET_` tokens). Not yet verified against the live
+page with a real browser click and a real photo — do that before relying on
+it, per the Verify Before Claiming Skill.
+
 ## What's next
 
 Background/history in `Working/AI Outputs/Garden_Shed_Office_Overview.md`
