@@ -4,15 +4,16 @@
 **Repository:** PIP CORE  
 **Parent Platform:** Plant Intelligence Platform (PIP)  
 **Folder:** AI  
-**Version:** 0.9  
-**Status:** Approved  
+**Version:** 0.10  
+**Status:** Draft — for Founder approval  
 **Owner:** The Founders  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AI/PIP_AI_Loading_Guide.md`  
-**Last Updated:** 10 August 2026  
+**Last Updated:** 22 September 2026  
 **Purpose:** To select the minimum current PIP Artificial Intelligence Operating System (PIP AI OS) documents materially required for a task or coherent session.  
 **Authority:** PIP AI OS  
 **Related Documents:** `AGENTS.md`, `AI/PIP_AI_Operations_Manual.md`, `AI/PIP_AI_Constitution.md`
+**Revision Note:** Adds a Loading Index row (§4) routing Garden Shed Office work — composing or approving notices, to-dos, document links, and shed-form documents — to the new `AI/Skills/Garden_Shed_Operations_Skill.md`. Before this amendment, the Loading Index had no entry for Shed work at all; an AI session following this Guide strictly would not have known to consult `Shed/README.md` or any Skill unless it happened to reach the write-back case already covered by `AI/Skills/CORE_Integration_Skill.md` §6.1. Per §10 below and §9 of the CORE Integration Skill, this row shall not be treated as active until `AI/Skills/Garden_Shed_Operations_Skill.md` is itself approved and installed at its permanent location — the two are one coordinated change. No other content changed from Version 0.9.
 
 ---
 
@@ -59,6 +60,7 @@ Model-specific discovery folders, including `.agents/skills/`, are compatibility
 | Conversation | None solely because the topic concerns PIP. Retrieve a current source only when exact governed facts, wording, status or decisions materially affect the answer. | When the task changes mode, requires a current governed fact, or enters a safety-relevant domain. |
 | Drafting | Current `AGENTS.md` bootstrap, unless it remains valid in the same coherent document-working session; current source assets; `AI/Skills/Document_Creation_and_Editing_Skill.md`; `AI/Skills/Writing_Skill.md`; and only the additional naming or domain controls needed for the planned changes. | Before the first controlled document creation or edit, before the consequential write, and when source or scope changes. |
 | Integration | Current source assets, `AI/Skills/CORE_Integration_Skill.md`, `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`, and any control governing the affected asset. | Immediately before consequential repository actions and again when concurrent-change evidence requires it. |
+| Garden Shed Operation | Current source assets; `AI/Skills/Garden_Shed_Operations_Skill.md`; `Shed/README.md` when the Skill's own summary is insufficient for the task. | Before the first Shed write, and again when the write depends on a trigger, follow-up write, or approval state not already confirmed fresh. |
 
 # 4. Loading Index
 
@@ -72,6 +74,7 @@ Model-specific discovery folders, including `.agents/skills/`, are compatibility
 | Repository inspection with no write | `AI/Skills/CORE_Integration_Skill.md` only when the inspection concerns controlled integration, synchronisation, lifecycle or publication state | Basic repository facts may be retrieved directly when no governed interpretation is required. |
 | Reporting an externally checkable completion, status, delivery, repository, publication, synchronisation, correction or other result as successful or true | `AI/Skills/Verify_Before_Claiming_Skill.md` | Mandatory when the claim trigger becomes relevant. Obtain fresh evidence after the final action and verify the exact claimed result on the relevant surface. If exact verification is unavailable, report the result as unverified rather than complete. An unchanged valid copy may be reused within the same coherent session. |
 | Creating or changing repository files, commits, branches or pull requests; synchronising; moving; publishing; approving; or officially integrating controlled assets | `AI/Skills/CORE_Integration_Skill.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`; any document or domain control governing the affected asset | Current branch, commit and blob evidence is required. Conversation-mode cache does not replace consequential-write checks. |
+| Composing or approving a Garden Shed Office notice; adding, updating or linking a to-do; linking companion documents to a notice; reading, explaining or drafting a `shed-form v1` document; or otherwise reading or writing `shed_items`, `shed_todos`, `shed_item_links` or `shed_form_responses` | `AI/Skills/Garden_Shed_Operations_Skill.md`; `Shed/README.md` for detail beyond that Skill's summary; `AI/Skills/CORE_Integration_Skill.md` §6.1 when the action is writing an approved document back into Core rather than working inside the Shed itself | The Garden Shed's own passphrase-gated identity model is separate from repository access — this row does not, by itself, require `AI/Skills/CORE_Integration_Skill.md` unless the task also changes a repository file. |
 | Safety-relevant horticultural guidance | Current approved operational knowledge and applicable safety or uncertainty controls | General product discussion about future horticultural features is not itself operational guidance. |
 | Knowledge Curation System, Research Origin Curator or Knowledge Integration Technician work | Only the approved Skill, manual, Standard and Context documents governing the requested role and action | Do not load unrelated role documents. |
 | Software or application work | Current source files and only the architecture, standards or Skills materially constraining the requested change | Product conversation alone does not require software controls. |
@@ -81,7 +84,7 @@ Model-specific discovery folders, including `.agents/skills/`, are compatibility
 At the beginning of a governed session or when a revalidation trigger occurs, the AI shall:
 
 1. identify all requested actions;
-2. select Conversation, Drafting or Integration Mode;
+2. select Conversation, Drafting, Integration or Garden Shed Operation Mode;
 3. consult the Loading Index;
 4. identify already-loaded documents that remain valid in the session manifest;
 5. retrieve only missing, changed or newly applicable documents;
@@ -116,7 +119,7 @@ If no trigger applies, unchanged documents shall not be retrieved again solely b
 
 # 8. No Matching Entry
 
-If no entry applies, continue under the Founder’s instruction, the PIP AI Constitution when already governing the AI, and visible session context.
+If no entry applies, continue under the Founder's instruction, the PIP AI Constitution when already governing the AI, and visible session context.
 
 Do not invent an unapproved Skill or Context document. A recurring gap may be proposed for governed improvement.
 
