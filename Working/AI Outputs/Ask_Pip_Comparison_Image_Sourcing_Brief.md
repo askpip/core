@@ -4,11 +4,12 @@
 
 **Document Title:** Ask Pip – Comparison Image Sourcing Brief  
 **Document Type:** Draft Production Document (sourcing checklist, not a Founder Review Dossier)  
-**Version:** 0.1  
+**Version:** 0.2  
 **Status:** Draft — for use by whoever sources or photographs reference images. Not itself a knowledge document and does not require Founder Review as an FRD; the images eventually chosen against it do still require Founder approval before being marked Approved, per Architecture §4.3 and PKR Standard §5.2.  
 **Owner:** The Founders  
 **Prepared By:** Claude, at Shaphan's request  
-**Date:** 23 September 2026  
+**Date:** 27 September 2026 (Revision 2 of 23 September 2026's 0.1)  
+**Revision Note (0.2):** On Shaphan's direct instruction, exercising Founder Authority under Asset Lifecycle Standard §3.3 for this internal process document, §2 is amended to permit AI-generated placeholder images for internal app-function testing, and a new §11 adds a Tag ID / Image Status / file-location system for every comparison image listed here. No Feature Demonstrated, Viewpoint/Scale/Context, Lookalike or Limitation content changes from 0.1.  
 **Purpose:** To give a concrete, per-observation list of what reference/comparison photographs Ask Pip needs, structured against the already-approved field schema for a Comparison Image PKR, so that sourcing or photographing real images can proceed without waiting on, or reinventing, structure. This document specifies *what* each image must show; it does not supply the images themselves.  
 **Related Documents:** `MVP/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md` (§4.1, §4.3, §5.2); `Knowledge Curation System/Standards/Pip_Runtime_Architecture.md` (§4, §8.2); `Knowledge Curation System/Standards/PKR_Standard.md` (§5.1, §5.2); `Working/AI Outputs/PKR-OBS-BUSHROSE-DEADWOOD-01-submission.md` (the one observation already published, with its Comparison Image PKR still an open gap); `Working/Founder Review/FRD-BUSHROSE-STEMCROSSING-01.md`, `FRD-BUSHROSE-INWARDGROWTH-01.md`, `FRD-BUSHROSE-DAMAGEDGROWTH-01.md`, `FRD-BUSHROSE-WEAKCONGESTED-01.md`, `FRD-BUSHROSE-PRUNINGFRAMEWORK-04.md`.
 
@@ -27,6 +28,8 @@ This document is the checklist for closing that gap. For each observation it lis
 ## 2. Cross-cutting requirements — read before sourcing anything
 
 **Image rights are an open problem for every observation, not just one.** The whole-bush framework dossier checked this directly (FRD-BUSHROSE-PRUNINGFRAMEWORK-04 §8): none of its 28 sources states an open licence for its images, four carry an explicit copyright notice, and one carries an educational-use disclaimer rather than a reuse statement. No image has been requested, acquired or approved from any of them. The other five dossiers draw on a heavily overlapping set of extension, society and nursery sources, so the same is almost certainly true across the board. **Nothing below can be filled by screenshotting or saving an image off a cited source's website.** Every comparison image needs to be either newly photographed (an actual rose, ideally one of the Founders' own) or sourced from a collection with confirmed reuse rights.
+
+**AI-generated placeholder images are permitted for internal app-function testing only, as of this revision (0.2).** On Shaphan's direct instruction (27 September 2026, exercising Founder Authority per Asset Lifecycle Standard §3.3 for this internal process document), the requirement above is qualified as follows: an AI-generated image may be produced and used to test Pip's app functions — display, tagging, and the MIL/LIL pipeline mechanics — while a real photograph or rights-confirmed image is sourced, provided that: (1) it is generated to accurately match the entry's stated Feature Demonstrated, Viewpoint/Scale/Context and Rose/Seasonal-Context fields, drawing on the same research base as the rest of this document; (2) it carries a Tag ID (§11) and is recorded with Image Status `Placeholder — AI-generated`; (3) it is never marked `Approved`, and is never represented to a gardener as a real photograph; and (4) it is replaced with a genuinely sourced or photographed image, and re-reviewed, before any gardener-facing or production use. This exception covers internal testing placeholders only — it does not change the requirement above for any image intended for actual gardener-facing publication, and it does not itself constitute Founder approval of any specific image; approval remains a separate act per Asset Lifecycle Standard §4.3.
 
 **Some signals cannot be photographed at all, and no comparison image will fix that.** Three signals across two observations require physical contact with the plant, not just a clear photograph:
 
@@ -63,16 +66,18 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 
 ### 4.1 Living cane (positive example)
 
+- **Tag ID:** `IMG-BUSHROSE-DEADWOOD-01` (see §11)
 - **Feature Demonstrated:** Healthy, living stem tissue.
 - **Viewpoint, Scale and Visible Context:** Close enough to show bark colour and at least one dormant bud clearly; full stem length not required.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season.
 - **Common Lookalikes:** An older cane with naturally bronze-toned bark can visually suggest dead wood while still being alive — flagged directly on the published Visual Criteria (Moderate confidence). Worth a second image (§4.3) specifically for this.
 - **Limitations:** Bark colour and bud presence are both Moderate-confidence signals, not certain on their own. Two of the five approved diagnostic signals (pith colour, flexibility) cannot be shown in any photograph — see §2.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against a real cane and not to be marked Approved. File: `IMG-BUSHROSE-DEADWOOD-01.png`, held at `Working/Drafts/Comparison Images/DEADWOOD/` pending Founder review of the tagging system and, separately, sourcing of a real replacement image.
 - **Accessible Label:** "A living rose cane, green bark, with a visible dormant bud."
 
 ### 4.2 Dead cane (positive example)
 
+- **Tag ID:** `IMG-BUSHROSE-DEADWOOD-02` (see §11)
 - **Feature Demonstrated:** Dead stem tissue.
 - **Viewpoint, Scale and Visible Context:** Same framing as §4.1, ideally shot to allow a direct side-by-side comparison.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season.
@@ -83,6 +88,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 
 ### 4.3 Older living cane with bronze-toned bark (lookalike)
 
+- **Tag ID:** `IMG-BUSHROSE-DEADWOOD-03` (see §11)
 - **Feature Demonstrated:** The specific, sourced confusion risk between ageing-but-living bark and dead bark.
 - **Viewpoint, Scale and Visible Context:** Close enough to show bark tone and texture clearly.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, at least one full season old, dormant season.
@@ -99,6 +105,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 
 ### 5.1 Canker (positive example)
 
+- **Tag ID:** `IMG-BUSHROSE-DAMAGEDGROWTH-01` (see §11)
 - **Feature Demonstrated:** Canker — the best-evidenced form of damage in this dossier.
 - **Viewpoint, Scale and Visible Context:** Close enough to show the affected bark clearly against surrounding healthy tissue.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, any season canker is visible.
@@ -109,6 +116,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 
 ### 5.2 Frost damage (positive example, with a caveat)
 
+- **Tag ID:** `IMG-BUSHROSE-DAMAGEDGROWTH-02` (see §11)
 - **Feature Demonstrated:** Frost damage.
 - **Viewpoint, Scale and Visible Context:** Close enough to show the visual sign clearly.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, following a frost event.
@@ -119,6 +127,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 
 ### 5.3 Pest damage versus a harmless gall (positive example + lookalike pair)
 
+- **Tag ID:** `IMG-BUSHROSE-DAMAGEDGROWTH-03 (pest damage image); IMG-BUSHROSE-DAMAGEDGROWTH-04 (harmless gall image)` (see §11)
 - **Feature Demonstrated:** Genuine pest damage (wilting, entry holes) contrasted directly with a harmless gall.
 - **Viewpoint, Scale and Visible Context:** Two images, shot comparably, so the contrast is visible side by side.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, active growth or dormant season depending on which sign is shown.
@@ -129,6 +138,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 
 ### 5.4 Early-stage canker versus healthy new growth (lookalike)
 
+- **Tag ID:** `IMG-BUSHROSE-DAMAGEDGROWTH-05` (see §11)
 - **Feature Demonstrated:** The specific, sourced confusion between canker's early colour and healthy new growth's colour.
 - **Viewpoint, Scale and Visible Context:** Close enough to show colour and texture clearly; ideally paired directly against §5.1's canker image.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, early growth season.
@@ -149,6 +159,7 @@ Hidden splits — no non-destructive test exists in any source found. No compari
 
 ### 6.1 Two canes crossing or in contact (positive example)
 
+- **Tag ID:** `IMG-BUSHROSE-STEMCROSSING-01` (see §11)
 - **Feature Demonstrated:** Crossing or rubbing contact between two canes.
 - **Viewpoint, Scale and Visible Context:** Must show both canes and the point where they meet — a single-cane close-up cannot demonstrate crossing, since it's inherently a relationship between two stems. *(This framing requirement is the ROC's own reasoning from the definition itself, not a sourced instruction — no source spelled out how to photograph this.)*
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season.
@@ -169,6 +180,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 
 ### 7.1 A stem growing toward the bush's centre (positive example)
 
+- **Tag ID:** `IMG-BUSHROSE-INWARDGROWTH-01` (see §11)
 - **Feature Demonstrated:** Inward growth.
 - **Viewpoint, Scale and Visible Context:** Needs to show the stem's direction relative to the bush's overall centre — an overhead or three-quarter angle is more useful than a tight close-up, since the defining feature is direction, not the stem's own appearance.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season.
@@ -179,6 +191,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 
 ### 7.2 A stem curving toward light (possible lookalike)
 
+- **Tag ID:** `IMG-BUSHROSE-INWARDGROWTH-02` (see §11)
 - **Feature Demonstrated:** Phototropic curvature that could be mistaken for genuine inward growth.
 - **Viewpoint, Scale and Visible Context:** Same angle as §7.1, ideally paired for direct comparison.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, wherever a light-driven curve is visible.
@@ -195,6 +208,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 
 ### 8.1 A weak cane, about pencil thickness (positive example)
 
+- **Tag ID:** `IMG-BUSHROSE-WEAKCONGESTED-01` (see §11)
 - **Feature Demonstrated:** Weak growth.
 - **Viewpoint, Scale and Visible Context:** Include a size reference (a pencil, ideally, given the shorthand the sources themselves use) in the frame — general photo-assessment guidance says this genuinely helps with thickness judgment.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season.
@@ -205,6 +219,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 
 ### 8.2 A congested bush centre (positive example)
 
+- **Tag ID:** `IMG-BUSHROSE-WEAKCONGESTED-02` (see §11)
 - **Feature Demonstrated:** Congestion — too many canes crowded together.
 - **Viewpoint, Scale and Visible Context:** Wide enough to show the bush's overall centre, not a single-cane close-up.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season, before thinning.
@@ -215,6 +230,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 
 ### 8.3 Healthy new cane versus weak old cane (lookalike — genuinely useful, sourced)
 
+- **Tag ID:** `IMG-BUSHROSE-WEAKCONGESTED-03` (see §11)
 - **Feature Demonstrated:** The specific, sourced distinction between a naturally thin young cane and a genuinely weak old one.
 - **Viewpoint, Scale and Visible Context:** Close enough to show thorn and bark colour clearly on both canes, shot for direct comparison.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose; one cane from the current season, one older.
@@ -231,6 +247,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 
 ### 9.1 Overall bush shape, before and after (positive example, paired)
 
+- **Tag ID:** `IMG-BUSHROSE-PRUNINGFRAMEWORK-01 (before image); IMG-BUSHROSE-PRUNINGFRAMEWORK-02 (after image)` (see §11)
 - **Feature Demonstrated:** The target open-centred, vase-shaped framework — canes spread evenly round the base, a small number kept (four to six, within the three-to-eight range sources give).
 - **Viewpoint, Scale and Visible Context:** Full-bush shots, same angle and distance for the "before" and "after" pair, so the shape change is legible at a glance.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season, immediately before and after pruning.
@@ -254,6 +271,68 @@ If this gets picked up in priority order, the material most worth sourcing first
 3. **Framework's before/after pair (§9.1)** — needs an actual pruning session to capture, so worth planning for rather than staging on demand.
 4. **Damaged growth's four images (§5)**, especially the pest/gall pair (§5.3), which corrects a real mix-up already found in the source material.
 5. **Crossing/rubbing and inward growth (§6, §7)** — positive examples are straightforward to source; their lookalike gaps are a genuine open decision for the Founders (§6.2) before any lookalike image can be built.
+
+---
+
+## 11. Tag IDs, Image Status and File Location
+
+Added in Revision 0.2, on Shaphan's direct instruction, so that comparison images can be generated, tracked and reviewed at scale as they're produced, and so KIT has a stable identifier to carry each approved image from the Working area into the MIL and, from there, into the LIL.
+
+### 11.1 Tag ID format
+
+Each comparison image gets a plain sequential Tag ID, in the same style as this project's existing ARC/FRD identifiers (PKR Standard §6: identifiers carry no scope, plant or classification information of their own beyond the observation code):
+
+`IMG-BUSHROSE-<OBSERVATION>-<NN>`
+
+- `<OBSERVATION>` is the same code already used for that observation's ARC/FRD family: DEADWOOD, DAMAGEDGROWTH, STEMCROSSING, INWARDGROWTH, WEAKCONGESTED, PRUNINGFRAMEWORK.
+- `<NN>` is a two-digit sequence number, assigned in the order the image appears in this document (§4–§9), starting at 01 within each observation.
+- Where one entry calls for more than one photograph (a lookalike pair, a before/after pair), each photograph gets its own Tag ID — a Tag ID always names one image file, never a pair.
+
+### 11.2 Full Tag ID list (all six observations)
+
+| Tag ID | Entry | What it shows | Image Status |
+|---|---|---|---|
+| `IMG-BUSHROSE-DEADWOOD-01` | §4.1 | Living cane (positive example) | `Placeholder — AI-generated` |
+| `IMG-BUSHROSE-DEADWOOD-02` | §4.2 | Dead cane (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-DEADWOOD-03` | §4.3 | Older living cane, bronze-toned bark (lookalike) | *(blank — to source)* |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-01` | §5.1 | Canker (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-02` | §5.2 | Frost damage (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-03` | §5.3 | Pest damage (positive half of the lookalike pair) | *(blank — to source)* |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-04` | §5.3 | Harmless gall (lookalike half of the pair) | *(blank — to source)* |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-05` | §5.4 | Early-stage canker vs. healthy new growth (lookalike) | *(blank — to source)* |
+| `IMG-BUSHROSE-STEMCROSSING-01` | §6.1 | Two canes crossing or in contact (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-INWARDGROWTH-01` | §7.1 | Stem growing toward the bush's centre (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-INWARDGROWTH-02` | §7.2 | Stem curving toward light (possible lookalike) | *(blank — to source)* |
+| `IMG-BUSHROSE-WEAKCONGESTED-01` | §8.1 | Weak cane, about pencil thickness (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-WEAKCONGESTED-02` | §8.2 | Congested bush centre (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-WEAKCONGESTED-03` | §8.3 | Healthy new cane vs. weak old cane (lookalike) | *(blank — to source)* |
+| `IMG-BUSHROSE-PRUNINGFRAMEWORK-01` | §9.1 | Overall bush shape, before pruning | *(blank — to source)* |
+| `IMG-BUSHROSE-PRUNINGFRAMEWORK-02` | §9.1 | Overall bush shape, after pruning | *(blank — to source)* |
+
+Sixteen images in total. Two entries carry no Tag ID and are not in this table: §5.5 (hidden splits) and §6.2 (crossing/rubbing's lookalike and wound-appearance gap) — both are documented as not photographable, or not yet sourceable, rather than pending images.
+
+### 11.3 Image Status
+
+PKR Standard §5.2 leaves Image Source/Verification/Approval Status an open field rather than a closed enum. This document adopts the following four values to track comparison images through this sourcing effort. This is a working convention for this Brief, not an amendment to the PKR Standard itself — KIT should carry whichever value applies through into the Comparison Image PKR it builds.
+
+- `Placeholder — AI-generated` — generated under the §2 exception, for internal app-function testing only. Never `Approved`. Must be replaced with a genuinely sourced or photographed image, and re-reviewed, before any gardener-facing or production use.
+- `Sourced — pending rights confirmation` — a real photograph or archive image exists, but usage rights are not yet confirmed (§2, §9.2).
+- `Sourced — rights confirmed` — a real photograph exists and its rights are confirmed, but it has not yet cleared Founder review.
+- `Approved` — cleared Founder review per Asset Lifecycle Standard §4.3, and ready for CORE integration into the MIL.
+
+### 11.4 File location
+
+Pending Founder approval, every comparison image — AI-generated placeholder or real — is held in the Working area, per Asset Lifecycle Standard §4.1:
+
+`Working/Drafts/Comparison Images/<OBSERVATION>/<Tag ID>.<ext>`
+
+for example: `Working/Drafts/Comparison Images/DEADWOOD/IMG-BUSHROSE-DEADWOOD-01.png`
+
+On Founder approval and successful CORE integration (Asset Lifecycle Standard §4.4–4.5), the image becomes repository-authoritative and moves to its permanent location in the Mother Information Library, alongside or referenced by its Comparison Image PKR, for KIT to draw on when building the corresponding LIL entry. Listing a Tag ID and file location here does not itself approve that move for any image — approval and integration remain separate Founder-controlled acts under §4.3–4.5.
+
+### 11.5 What goes in the Shed
+
+Shed image attachments are uploaded through the app's own gallery interface, not by direct database insertion. Whoever uploads a comparison image to the Shed gallery should give it a title starting with its Tag ID — for example "IMG-BUSHROSE-DEADWOOD-01 — Living cane, positive example" — and record its Image Status in the item's notes field, so the gallery stays legible against the table in §11.2 as more images are added.
 
 ---
 
