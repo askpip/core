@@ -83,7 +83,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season.
 - **Common Lookalikes:** See §4.3.
 - **Limitations:** Same as §4.1.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against a real cane and not to be marked Approved. File: `IMG-BUSHROSE-DEADWOOD-02.png`, held at `Working/Drafts/Comparison Images/DEADWOOD/` pending sourcing of a real replacement image.
 - **Accessible Label:** "A dead rose cane, brown/grey/black, shrivelled, no visible buds."
 
 ### 4.3 Older living cane with bronze-toned bark (lookalike)
@@ -94,7 +94,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, at least one full season old, dormant season.
 - **Common Lookalikes:** This image *is* the lookalike entry for §4.1/§4.2.
 - **Limitations:** A single photo may not resolve this case at all — the underlying finding already says so. Pip should treat an ambiguous bronze-bark case as genuinely uncertain, not resolve it visually.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against a real cane and not to be marked Approved. File: `IMG-BUSHROSE-DEADWOOD-03.png`, held at `Working/Drafts/Comparison Images/DEADWOOD/` pending sourcing of a real replacement image.
 - **Accessible Label:** "An older but living rose cane with naturally bronze-toned bark, which can look similar to dead wood."
 
 ---
@@ -164,8 +164,8 @@ Hidden splits — no non-destructive test exists in any source found. No compari
 - **Viewpoint, Scale and Visible Context:** Must show both canes and the point where they meet — a single-cane close-up cannot demonstrate crossing, since it's inherently a relationship between two stems. *(This framing requirement is the ROC's own reasoning from the definition itself, not a sourced instruction — no source spelled out how to photograph this.)*
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season.
 - **Common Lookalikes:** **Not addressed by any source found.** This is a genuine, disclosed research gap, confirmed by real searching rather than a failure to look (Decision Brief §5, §7).
-- **Limitations:** No source anywhere describes what an actual rubbing wound looks like. A comparison image can show two canes touching; it cannot yet show, with any sourced basis, what contact damage itself looks like once it's happened.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Limitations:** No source anywhere describes what an actual rubbing wound looks like. A comparison image can show two canes touching; it cannot yet show, with any sourced basis, what contact damage itself looks like once it's happened. The placeholder image sourced below depicts a small patch of worn, abraded bark at the contact point — this is the ROC's/AI's own plausible extrapolation from general woody-plant friction, not something any source states, and should be labelled as illustrative rather than diagnostic if carried into a PKR later (same caution as §7.2's unsourced lookalike).
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026, after two corrective regenerations to fix an occlusion error (the rear cane not reading as continuous behind the front cane). Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; the contact-wear detail is an unsourced extrapolation (see Limitations above) and the image is not to be marked Approved. File: `IMG-BUSHROSE-STEMCROSSING-01.png`, held at `Working/Drafts/Comparison Images/STEMCROSSING/` pending sourcing of a real replacement image.
 - **Accessible Label:** "Two rose canes crossing and touching."
 
 ### 6.2 What's genuinely missing here
@@ -293,14 +293,14 @@ Each comparison image gets a plain sequential Tag ID, in the same style as this 
 | Tag ID | Entry | What it shows | Image Status |
 |---|---|---|---|
 | `IMG-BUSHROSE-DEADWOOD-01` | §4.1 | Living cane (positive example) | `Placeholder — AI-generated` |
-| `IMG-BUSHROSE-DEADWOOD-02` | §4.2 | Dead cane (positive example) | *(blank — to source)* |
-| `IMG-BUSHROSE-DEADWOOD-03` | §4.3 | Older living cane, bronze-toned bark (lookalike) | *(blank — to source)* |
+| `IMG-BUSHROSE-DEADWOOD-02` | §4.2 | Dead cane (positive example) | `Placeholder — AI-generated` |
+| `IMG-BUSHROSE-DEADWOOD-03` | §4.3 | Older living cane, bronze-toned bark (lookalike) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-DAMAGEDGROWTH-01` | §5.1 | Canker (positive example) | *(blank — to source)* |
 | `IMG-BUSHROSE-DAMAGEDGROWTH-02` | §5.2 | Frost damage (positive example) | *(blank — to source)* |
 | `IMG-BUSHROSE-DAMAGEDGROWTH-03` | §5.3 | Pest damage (positive half of the lookalike pair) | *(blank — to source)* |
 | `IMG-BUSHROSE-DAMAGEDGROWTH-04` | §5.3 | Harmless gall (lookalike half of the pair) | *(blank — to source)* |
 | `IMG-BUSHROSE-DAMAGEDGROWTH-05` | §5.4 | Early-stage canker vs. healthy new growth (lookalike) | *(blank — to source)* |
-| `IMG-BUSHROSE-STEMCROSSING-01` | §6.1 | Two canes crossing or in contact (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-STEMCROSSING-01` | §6.1 | Two canes crossing or in contact (positive example) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-INWARDGROWTH-01` | §7.1 | Stem growing toward the bush's centre (positive example) | *(blank — to source)* |
 | `IMG-BUSHROSE-INWARDGROWTH-02` | §7.2 | Stem curving toward light (possible lookalike) | *(blank — to source)* |
 | `IMG-BUSHROSE-WEAKCONGESTED-01` | §8.1 | Weak cane, about pencil thickness (positive example) | *(blank — to source)* |
