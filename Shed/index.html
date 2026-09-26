@@ -601,6 +601,9 @@
      uses (.item-link-add/.link-chips are already generic, defined near the To-Do List rules). */
   .todo-edit-links{ display:none; margin-top:8px; padding-top:8px; border-top:1px dashed var(--pip-border); }
   .todo-edit-links.show{ display:block; }
+  .todo-edit-title{ display:flex; gap:6px; margin-bottom:8px; }
+  .todo-edit-title-input{ flex:1; min-width:0; font-family:'Nunito',sans-serif; font-size:.85rem; padding:4px 8px; border:1.5px solid var(--pip-border); border-radius:8px; color:var(--wood-dark); }
+  .todo-edit-title .btn{ font-size:.72rem; padding:3px 8px; white-space:nowrap; }
   .todo-edit-links .todo-link-row{ margin-top:0; }
   /* Smaller than the New Notice composer's own Link a document…/photo… buttons -- this row
      sits inside a compact task list, not a full-size create form (27 September 2026). */
@@ -1998,6 +2001,10 @@
           '</div>' +
           '<div class="todo-history"><ul></ul></div>' +
           '<div class="todo-edit-links">' +
+            '<div class="todo-edit-title">' +
+              '<input type="text" class="todo-edit-title-input" maxlength="500" aria-label="Task title">' +
+              '<button type="button" class="btn ghost todo-edit-title-save">Save title</button>' +
+            '</div>' +
             '<div class="item-link-add todo-link-row">' +
               '<button type="button" class="btn ghost todo-link-doc">Link a document…</button>' +
               '<button type="button" class="btn ghost todo-link-photo">Link a photo…</button>' +
@@ -2030,10 +2037,34 @@
         // shed_set_todo_status's Completed guard depends on; use the notice's own panel for that
         // one instead.
         var editWrap = body.querySelector(".todo-edit-links");
+        // Edit the task's title (27 September 2026, Founder-requested) via shed_set_todo_text,
+        // which changes only the text -- not updated_by/updated_at, so the status line
+        // ("Received by ... on ...") is never disturbed by a rename.
+        var titleInput = editWrap.querySelector(".todo-edit-title-input");
+        var titleSaveBtn = editWrap.querySelector(".todo-edit-title-save");
+        titleInput.value = t.text;
+        function saveTitle(){
+          var v = titleInput.value.trim();
+          if(!v){ alert("A task needs a title."); titleInput.value = t.text; return; }
+          if(v === t.text) return;
+          titleSaveBtn.disabled = true;
+          sb.rpc("shed_set_todo_text", { p: window.SHED_PASSPHRASE, todo_id: t.id, ttl: v }).then(function(res){
+            titleSaveBtn.disabled = false;
+            if(res.error){ alert((res.error && res.error.message) || "Couldn't save that title. Please try again."); return; }
+            loadTodos();
+          });
+        }
+        titleSaveBtn.addEventListener("click", saveTitle);
+        titleInput.addEventListener("keydown", function(e){
+          if(e.key === "Enter"){ e.preventDefault(); saveTitle(); }
+        });
         var editChipsEl = editWrap.querySelector(".todo-link-chips");
         function renderEditChip(){
           editChipsEl.innerHTML = "";
-          if(!linkedNotice) return;
+          // A notice tied to an approval workflow can't be unlinked from here, and its
+          // "View Notice" button is already on the row -- a chip with no remove button
+          // would just be a dead, do-nothing label, so don't show one (27 September 2026).
+          if(!linkedNotice || linkedNotice.requiresApproval) return;
           var chip = document.createElement("span");
           chip.className = "link-chip";
           var chipText = document.createElement("span");
