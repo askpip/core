@@ -581,7 +581,7 @@
     border-radius:6px; padding:3px 6px; background:#fffef8; color:var(--wood-dark); cursor:pointer;
   }
   .todo-row-actions{ display:flex; gap:6px; }
-  .todo-open-notice, .todo-history-toggle, .todo-delete{
+  .todo-open-notice, .todo-history-toggle, .todo-edit-link-toggle, .todo-delete{
     font-family:'Nunito',sans-serif; font-size:.68rem; border:none; background:transparent; cursor:pointer;
     color:var(--wood-dark); opacity:.65; padding:0; text-decoration:underline;
   }
@@ -591,6 +591,12 @@
   .todo-history.show{ display:block; }
   .todo-history ul{ margin:0; padding-left:16px; font-size:.72rem; color:var(--wood-dark); opacity:.85; }
   .todo-history li{ margin-bottom:2px; }
+  /* Edit a task's link (27 September 2026) -- same toggle-open treatment as .todo-history
+     above, holding the same Link a document…/photo…/notice… row and chip the Add-task row
+     uses (.item-link-add/.link-chips are already generic, defined near the To-Do List rules). */
+  .todo-edit-links{ display:none; margin-top:8px; padding-top:8px; border-top:1px dashed var(--pip-border); }
+  .todo-edit-links.show{ display:block; }
+  .todo-edit-links .todo-link-row{ margin-top:0; }
   .todo-empty{ font-family:'Kalam',cursive; color:var(--wood-dark); opacity:.7; margin:0 0 14px; }
 
   /* Settings menu, next to the "Signed in as ..." badge */
@@ -1396,7 +1402,11 @@
   // assume every notice is still in CONTENT.board the way findNoticeByTodoId's one caller
   // (buildRow's "View Notice" link/decision badge) used to.
   function findNoticeByTodoId(todoId){
-    var locs = ["board", "cabinet", "bookshelf", "rug", "bin"];
+    // "gallery" added 27 September 2026 -- a to-do can now be linked to a Gallery photo too
+    // (see the To-Do List's Link a photo… button and shed_add_todo/shed_set_todo_link), and
+    // this lookup has to search every location a linked item could actually be in, not just
+    // the ones a notice/document could be in.
+    var locs = ["board", "cabinet", "bookshelf", "rug", "bin", "gallery"];
     for(var i = 0; i < locs.length; i++){
       var arr = CONTENT[locs[i]] && CONTENT[locs[i]].items;
       if(!arr) continue;
@@ -1796,6 +1806,13 @@
       return SAVED_MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
     }
 
+    // Shared between the Add row's link chip, the per-row Edit link chip, and buildRow's
+    // open-link button below -- a linked item can now be a notice, a cabinet document, or a
+    // gallery photo (27 September 2026), so every place that used to just say "View Notice"
+    // needs to say which kind of thing it actually is.
+    function linkIcon(loc){ return loc === "gallery" ? "🖼️ " : (loc === "board" ? "📌 " : "📄 "); }
+    function linkOpenLabel(loc){ return loc === "gallery" ? "View Photo" : (loc === "board" ? "View Notice" : "View Document"); }
+
     function loadTodos(){
       containerEl.innerHTML = '<p class="empty-note">Loading tasks…</p>';
       // Refreshes CONTENT (see fetchAllItems) alongside the to-do fetch, not just the
@@ -1850,7 +1867,8 @@
       linkRow.className = "item-link-add todo-link-row";
       linkRow.innerHTML =
         '<button type="button" class="btn ghost todo-link-doc">Link a document…</button>' +
-        '<button type="button" class="btn ghost todo-link-photo">Link a photo…</button>';
+        '<button type="button" class="btn ghost todo-link-photo">Link a photo…</button>' +
+        '<button type="button" class="btn ghost todo-link-notice">Link a notice…</button>';
       var linkChipsEl = document.createElement("div");
       linkChipsEl.className = "link-chips todo-link-chips";
       var linkedItemForNewTodo = null;
@@ -1861,7 +1879,7 @@
         chip.className = "link-chip";
         var chipText = document.createElement("span");
         chipText.className = "chip-text";
-        chipText.textContent = (linkedItemForNewTodo.loc === "gallery" ? "🖼️ " : "📄 ") + linkedItemForNewTodo.title;
+        chipText.textContent = linkIcon(linkedItemForNewTodo.loc) + linkedItemForNewTodo.title;
         chipText.title = chipText.textContent;
         chip.appendChild(chipText);
         var chipX = document.createElement("button");
@@ -1875,6 +1893,9 @@
       });
       linkRow.querySelector(".todo-link-photo").addEventListener("click", function(){
         openGalleryImagePicker(stageEl, function(g){ linkedItemForNewTodo = g; renderTodoLinkChip(); });
+      });
+      linkRow.querySelector(".todo-link-notice").addEventListener("click", function(){
+        openNoticePicker(stageEl, function(n){ linkedItemForNewTodo = n; renderTodoLinkChip(); });
       });
 
       function addTask(){
@@ -1938,8 +1959,15 @@
         // the notice panel didn't show up here at all (10 September 2026). Same three states,
         // same classes/colours as the Notice Board list's own decision chip (buildItemRow),
         // so the two always read the same way wherever they're seen.
+        // The approval/review decision chip (and the Completed guard below) only mean anything
+        // for a linked NOTICE that actually requires approval -- a to-do linked to a plain
+        // document or photo (or a notice nobody ever checked "requires approval" on) has
+        // approved=false by simple default, not because anything is pending, so gating on
+        // linkedNotice alone used to show a false "Not Yet Approved" badge on those and (in
+        // shed_set_todo_status, server-side) could block them from ever being marked Completed.
+        // Fixed 27 September 2026 alongside the notice/document/photo linking itself.
         var decisionHtml = "";
-        if(linkedNotice){
+        if(linkedNotice && linkedNotice.requiresApproval){
           var decisionClass, decisionText;
           if(linkedNotice.approved){
             decisionClass = "decision-approved"; decisionText = "✓ Approved";
@@ -1955,11 +1983,20 @@
           '<div class="todo-meta">' + createdLine + (updatedLine ? " · " + updatedLine : "") + '</div>' +
           (decisionHtml ? '<div class="todo-decision-wrap">' + decisionHtml + '</div>' : "") +
           '<div class="todo-row-actions">' +
-            (linkedNotice ? '<button type="button" class="todo-open-notice">View Notice</button>' : '') +
+            (linkedNotice ? '<button type="button" class="todo-open-notice">' + linkOpenLabel(linkedNotice.loc) + '</button>' : '') +
             '<button type="button" class="todo-history-toggle">History</button>' +
+            '<button type="button" class="todo-edit-link-toggle">Edit</button>' +
             '<button type="button" class="todo-delete">Delete</button>' +
           '</div>' +
-          '<div class="todo-history"><ul></ul></div>';
+          '<div class="todo-history"><ul></ul></div>' +
+          '<div class="todo-edit-links">' +
+            '<div class="item-link-add todo-link-row">' +
+              '<button type="button" class="btn ghost todo-link-doc">Link a document…</button>' +
+              '<button type="button" class="btn ghost todo-link-photo">Link a photo…</button>' +
+              '<button type="button" class="btn ghost todo-link-notice">Link a notice…</button>' +
+            '</div>' +
+            '<div class="link-chips todo-link-chips"></div>' +
+          '</div>';
         body.querySelector(".todo-text").textContent = t.text;
         if(linkedNotice){
           body.querySelector(".todo-open-notice").addEventListener("click", function(){
@@ -1975,6 +2012,66 @@
         body.querySelector(".todo-history-toggle").addEventListener("click", function(){
           body.querySelector(".todo-history").classList.toggle("show");
         });
+
+        // Edit an existing task's link (27 September 2026, Founder-requested) -- same small
+        // toggle-open style as History above, but for setting/changing/removing the
+        // shed_items.todo_id link a task can carry, using shed_set_todo_link (distinct from
+        // shed_add_todo's linked_id, which only ever applies at creation time). A task whose
+        // link is tied to a notice that actually requires approval is left alone here --
+        // shed_set_todo_link itself refuses to touch that pairing, since it's what
+        // shed_set_todo_status's Completed guard depends on; use the notice's own panel for that
+        // one instead.
+        var editWrap = body.querySelector(".todo-edit-links");
+        var editChipsEl = editWrap.querySelector(".todo-link-chips");
+        function renderEditChip(){
+          editChipsEl.innerHTML = "";
+          if(!linkedNotice) return;
+          var chip = document.createElement("span");
+          chip.className = "link-chip";
+          var chipText = document.createElement("span");
+          chipText.className = "chip-text";
+          chipText.textContent = linkIcon(linkedNotice.loc) + linkedNotice.title;
+          chipText.title = chipText.textContent;
+          chip.appendChild(chipText);
+          if(!linkedNotice.requiresApproval){
+            var chipX = document.createElement("button");
+            chipX.type = "button"; chipX.textContent = "×"; chipX.title = "Remove link";
+            chipX.addEventListener("click", function(){
+              chipX.disabled = true;
+              sb.rpc("shed_set_todo_link", { p: window.SHED_PASSPHRASE, todo_id: t.id, linked_id: null }).then(function(res){
+                if(res.error){ chipX.disabled = false; alert((res.error && res.error.message) || "Couldn't remove that link. Please try again."); return; }
+                loadTodos();
+              });
+            });
+            chip.appendChild(chipX);
+          }
+          editChipsEl.appendChild(chip);
+        }
+        renderEditChip();
+        function setEditLink(item, btn){
+          btn.disabled = true;
+          sb.rpc("shed_set_todo_link", { p: window.SHED_PASSPHRASE, todo_id: t.id, linked_id: item.id }).then(function(res){
+            btn.disabled = false;
+            if(res.error){ alert((res.error && res.error.message) || "Couldn't add that link. Please try again."); return; }
+            loadTodos();
+          });
+        }
+        editWrap.querySelector(".todo-link-doc").addEventListener("click", function(btnEvt){
+          openDocumentPicker(stageEl, function(d){ setEditLink(d, btnEvt.currentTarget); });
+        });
+        editWrap.querySelector(".todo-link-photo").addEventListener("click", function(btnEvt){
+          openGalleryImagePicker(stageEl, function(g){ setEditLink(g, btnEvt.currentTarget); });
+        });
+        editWrap.querySelector(".todo-link-notice").addEventListener("click", function(btnEvt){
+          openNoticePicker(stageEl, function(n){ setEditLink(n, btnEvt.currentTarget); });
+        });
+        if(linkedNotice && linkedNotice.requiresApproval){
+          // Tied to a notice's own approval workflow -- managed from the notice panel, not here.
+          editWrap.querySelectorAll(".todo-link-row button").forEach(function(b){ b.disabled = true; b.title = "This task is tied to a notice's approval workflow -- open the notice to change it."; });
+        }
+        body.querySelector(".todo-edit-link-toggle").addEventListener("click", function(){
+          body.querySelector(".todo-edit-links").classList.toggle("show");
+        });
         body.querySelector(".todo-delete").addEventListener("click", function(){
           if(!confirm('Delete "' + t.text + '"? This can\'t be undone.')) return;
           sb.rpc("shed_delete_todo", { p: window.SHED_PASSPHRASE, todo_id: t.id }).then(function(res){
@@ -1988,11 +2085,14 @@
         controls.className = "todo-controls";
         var select = document.createElement("select");
         select.className = "todo-status-select";
-        // A to-do linked to a notice can't be marked Completed until that notice is actually
-        // approved (and has no open review request) -- shed_set_todo_status enforces this
-        // server-side; disabling the option here just avoids an error round-trip for the
-        // obvious case. Plain manually-added tasks (no linkedNotice) are never restricted.
-        var blockCompleted = !!(linkedNotice && (!linkedNotice.approved || linkedNotice.reviewRequested));
+        // A to-do linked to a notice that actually REQUIRES approval can't be marked Completed
+        // until that notice is approved (and has no open review request) -- shed_set_todo_status
+        // enforces this server-side; disabling the option here just avoids an error round-trip
+        // for the obvious case. A plain manually-added task, and one linked only to a document,
+        // photo, or a plain notice with no approval requirement, is never restricted -- its
+        // linked item's approved field is just always false, not a pending decision (27
+        // September 2026, fixed alongside the notice/document/photo linking itself).
+        var blockCompleted = !!(linkedNotice && linkedNotice.requiresApproval && (!linkedNotice.approved || linkedNotice.reviewRequested));
         STATUS_ORDER.forEach(function(s){
           var opt = document.createElement("option");
           opt.value = s;
@@ -2339,11 +2439,15 @@
         var prow = document.createElement("div");
         prow.className = "progress-row";
 
-        // A notice that hasn't been approved yet, or still has an open review request,
-        // can't have its to-do marked Completed -- shed_set_todo_status enforces this
-        // server-side too (the authoritative check); this just keeps the option from being
-        // picked in the first place instead of failing after the fact.
-        var blockCompleted = !item.approved || !!item.reviewRequested;
+        // A notice that REQUIRES approval and hasn't gotten it yet, or still has an open
+        // review request, can't have its to-do marked Completed -- shed_set_todo_status
+        // enforces this server-side too (the authoritative check); this just keeps the option
+        // from being picked in the first place instead of failing after the fact. Gating on
+        // requiresApproval matters now that a plain notice can carry a todo_id just from being
+        // manually linked from the To-Do List's Link a notice… button (27 September 2026) --
+        // such a notice's approved field is simply always false (nobody ever asked for
+        // approval), which isn't the same thing as a pending decision.
+        var blockCompleted = item.requiresApproval && (!item.approved || !!item.reviewRequested);
 
         var sel = document.createElement("select");
         sel.className = "progress-select";
@@ -4673,6 +4777,55 @@
       grid.appendChild(card);
     });
     body.appendChild(grid);
+  }
+
+  // Same picking flow as openGalleryImagePicker, but over CONTENT.board.items (Notice Board
+  // notices) instead of the Gallery -- added 27 September 2026 alongside the To-Do List's
+  // document/photo linking, so a task can point at a notice too (Founder-requested: "add
+  // notice where the view notice will then appear"). Flat list like the Gallery picker --
+  // notices aren't foldered the way Cabinet documents are.
+  function openNoticePicker(stageEl, onPick){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg" style="background-image:url(__ASSET_BOARD__)"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>Choose a Notice</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+
+    var notices = (CONTENT.board && CONTENT.board.items) || [];
+    if(!notices.length){
+      var empty = document.createElement("p");
+      empty.className = "empty-note";
+      empty.textContent = "No notices on the Board yet -- add one from 📌 Notice Board first.";
+      body.appendChild(empty);
+      return;
+    }
+    var list = document.createElement("div");
+    list.className = "item-list";
+    notices.forEach(function(item){
+      var pick = document.createElement("button");
+      pick.type = "button";
+      pick.className = "item-card";
+      var bodyText = item.body || "";
+      pick.innerHTML = "<b>" + item.title + "</b>" + bodyText.slice(0, 60) + (bodyText.length > 60 ? "..." : "");
+      pick.addEventListener("click", function(){
+        onPick(item);
+        close();
+      });
+      list.appendChild(pick);
+    });
+    body.appendChild(list);
   }
 
   // Same picking flow as openDocumentPicker (browse-to-pick, no Send to desk/Edit/Delete),
