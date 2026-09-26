@@ -114,7 +114,9 @@ Shaphan's stated view at §3 — that basic care belongs in the MVP journey, not
 
 **Settled by Shaphan:** that Round 1 should be commissioned, that basic care (not just pruning) belongs in the MVP, and — 22 September 2026, via the Review Form and directly in conversation — that Round 2 (all five Recommendations for Further Research) should be commissioned now: "go ahead and resolve as many issues as we can with research."
 
-**Remaining, for Shaphan (and Karla, once she has reviewed) to settle:** the Round 1 Founder Review Decision itself (Karla has not yet completed her Review Form as of this amendment); whether Round 2's findings, once complete, should be folded into a revised `FRD-BUSHROSE-BASICCARE-02` per FRDS's naming convention for a dossier revised following a Founder request for further research (FRDS, Naming, footnote on `<sequence>`); and whether R-2 (geographic diversity, see §11) should be pursued further given what Round 2's research has found about its difficulty, or left recorded as a known, standing limitation.
+**Settled by Shaphan, 27 September 2026:** the Round 1/Round 2 Founder Review Decision — Findings F1–F13 are approved as a whole (§12). Whether Round 2's findings should be folded into a revised `FRD-BUSHROSE-BASICCARE-02` was resolved by that document's own creation, per FRDS's naming convention for a dossier revised following a Founder request for further research.
+
+**Still remaining, for the Founders to settle:** whether R-2 (geographic diversity, see §11) should be pursued further given what Round 2's research has found about its difficulty, or left recorded as a known, standing limitation — carried forward as a standing limitation in `ARC-BUSHROSE-BASICCARE-01` §5 pending that decision.
 
 ---
 
@@ -153,6 +155,20 @@ Full evidence gathered, evaluated and cited for each of the five items above is 
 - **R-4 — substantially resolved.** Further search across non-UK sources (US, Australian) continues to find no use of "bush rose" as a formal term outside UK/Commonwealth usage, strengthening F1a's existing observation.
 - **R-3 — checked, confirmed thin as an absence, not a gap in search effort.** Several additional institutional sources were reviewed (UC IPM, University of Tennessee Extension, University of Arizona Extension); none frame general, non-diagnostic "notice this before diagnosing" guidance independently of the University of Maryland source. This is recorded as a searched-and-not-found absence per this RCR's own Expected Deliverables (§6, item 3) — it supports, rather than undermines, F12 and F13's existing Moderate and Low–Moderate confidence levels as an accurate reflection of genuinely thin literature, not insufficient research.
 - **R-2 — not resolved; remains genuinely open.** Searches across Australian, South African and New Zealand sources found rose-care content that is almost entirely commercial (nurseries, garden centres) or enthusiast (rose societies) in nature, not the government or university-extension-equivalent institutional sources Round 1's evidentiary bar was built on. Continental European sources in English showed the same pattern. This is not a failure of search effort within the time available for this round; it reflects a real scarcity of the kind of source Round 1 used, at least in English and within ordinary web search. Resolving R-2 to the same evidentiary standard as the rest of this commission would likely require either accepting a lower evidentiary bar for non-UK/US sources (a Founder decision, not a research one) or searching non-English-language sources with translation, which is a materially larger undertaking than the other four items.
+
+---
+
+## 12. Founder Decision Record
+
+Per ROC Operations Manual §11.8, the Founder decision closing this commission is recorded here.
+
+**Decision:** Approved. Findings F1–F13, as assessed in `FRD-BUSHROSE-BASICCARE-02`, are adopted as a whole, in their general-pattern (not single-date) form for F4 and F5.
+
+**Decided by:** Shaphan, AskPIP Founder Authority, 27 September 2026.
+
+**Resulting Approved Research Compilation:** `ARC-BUSHROSE-BASICCARE-01`, created by the ROC per ROC Operations Manual Chapter 12.
+
+**Not resolved by this decision:** the geographic-diversity question (R-2, §11) — carried forward as a standing, disclosed limitation in `ARC-BUSHROSE-BASICCARE-01` §5 pending a future Founder decision among the paths §11 sets out.
 
 ---
 

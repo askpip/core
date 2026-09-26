@@ -8,19 +8,19 @@
 
 **Folder:** 04 – Standards
 
-**Version:** 1.1
+**Version:** 1.2
 
 **Status:** Approved
 
 **Owner:** The Founders
 
-**Last Updated:** 22 August 2026
+**Last Updated:** 27 September 2026
 
 **Permanent Location:** `Knowledge Curation System/Standards/Founder_Review_Dossier_Standard.md`
 
 **Approved By:** AskPIP Founder Authority
 
-**Revision Note:** Version 1.1 aligns this Standard with EAS v1.3's Assessed Finding model, at Founder direction: a dossier does not report one overall Evidence Confidence Level for its commission, because a commission commonly produces claims of genuinely different evidential strength that a single blended figure would misrepresent. §4.2 (item 1) and Chapter 6 are reworded so that every Assessed Finding's own Evidence Confidence Level is listed up front and presented individually, never averaged into one headline figure. Version 1.0 creates this Standard. The Research Origin Curator (ROC) Operations Manual and the Evidence Assessment Standard (EAS) have both referenced a "Founder Review Dossier Standard" as a governing document since their approval, but the document itself did not exist — a gap identified by a ROC agent while completing a real research commission under this session's document set. This Standard closes that gap. It also formalises the retirement of the Founder Executive Brief (FEB) under SINS-001 v0.5: the Founder Review Dossier (FRD) governed here is now the sole Founder Review Documentation, not one of two companion documents.
+**Revision Note:** Version 1.2, at Founder direction: a Founder Review Dossier had begun to accumulate content that is not research about the commissioned topic — narration of how many revisions produced it and why, commentary on a reviewer's status or prior answers, and justification of the dossier's own structure or decision points. New §2.2 items and new §5.5 state plainly that this does not belong, alongside the actual example that prompted this revision (a chat comment treated as if it were a research finding). §9.2's revision note is narrowed by new §9.3 to a brief, findings-only statement of what changed, not an account of the review process. §2.6 extends this principle to the Decision Brief and Review Form prepared alongside the FRD, per Founder direction, pending any dedicated standard for those documents. Version 1.1 aligns this Standard with EAS v1.3's Assessed Finding model: a dossier does not report one overall Evidence Confidence Level for its commission, because a commission commonly produces claims of genuinely different evidential strength that a single blended figure would misrepresent. §4.2 (item 1) and Chapter 6 are reworded so that every Assessed Finding's own Evidence Confidence Level is listed up front and presented individually, never averaged into one headline figure. Version 1.0 creates this Standard. The Research Origin Curator (ROC) Operations Manual and the Evidence Assessment Standard (EAS) have both referenced a "Founder Review Dossier Standard" as a governing document since their approval, but the document itself did not exist — a gap identified by a ROC agent while completing a real research commission under this session's document set. This Standard closes that gap. It also formalises the retirement of the Founder Executive Brief (FEB) under SINS-001 v0.5: the Founder Review Dossier (FRD) governed here is now the sole Founder Review Documentation, not one of two companion documents.
 
 **Purpose:** To establish what a Founder Review Dossier must contain, how it shall be structured and identified, and how it shall be prepared and reviewed, so that every research commission reaches the Founders in a form that supports an informed, safe approval decision.
 
@@ -100,7 +100,9 @@ The dossier does not:
 - create, approve or amend knowledge — that authority remains exclusively with the Founders, per the ROC Operations Manual §10.4;
 - introduce evidence, analysis or conclusions that were not already reached during the completed research;
 - alter, reinterpret or recalculate the completed Evidence Assessment;
-- replace the permanent commission records it draws from — the Research Commission Record, research notes, collected evidence and the Evidence Assessment continue to exist independently and remain the underlying source of truth.
+- replace the permanent commission records it draws from — the Research Commission Record, research notes, collected evidence and the Evidence Assessment continue to exist independently and remain the underlying source of truth;
+- contain anything that is not research about the commissioned topic — see §5.5 for what this excludes and why; or
+- treat a comment, expectation or working assumption offered in conversation as if it were evidence or an Assessed Finding. Where such a comment shaped a commission's scope, that belongs in the Research Commission Record (§7, Assumptions Recorded), not in the dossier presented for Founder review, and it is never elevated into a finding's rationale.
 
 ## 2.3 Naming
 
@@ -115,6 +117,14 @@ Before SINS-001 v0.5, the Founder Review Documentation comprised two documents: 
 The FEB is retired. With one Founder reviewing every commission directly and carefully, a second, shorter document duplicated effort rather than saving it. The FRD alone is now the Founder Review Documentation, and this Standard's structure requirements (Chapter 4) are written so that a well-prepared FRD is itself navigable without a separate summary — clear section headings, a stated Evidence Confidence up front, and findings ordered from most to least significant.
 
 Should review volume grow enough that a summary document becomes genuinely useful, that is a future Founder decision, made and documented the same way any retired term may be reinstated — not a default this Standard assumes.
+
+## 2.5 The Dossier Is Only the Research
+
+The Founder Review Dossier exists so a Founder can decide on the researched topic. Every sentence in it shall serve that decision directly: stating the commissioned question, the evidence, the assessment, or the decision the Founder is asked to make. Nothing else belongs, regardless of how it came about or how interesting it may be to record. §5.5 sets out what this excludes in practice.
+
+## 2.6 Application to the Decision Brief and Review Form
+
+The Decision Brief and Review Form prepared alongside a Founder Review Dossier are not governed in structure by this Standard, which addresses the FRD itself. §2.2, §2.5 and §5.5's prohibition on process narrative, reviewer-directed commentary, and non-research content applies equally to them, per Founder direction: a Founder or reviewer reading any of the three documents shall find only the commissioned topic's research and the decision it calls for, never commentary on the documents' own history.
 
 ---
 
@@ -212,6 +222,20 @@ The Founder Review Dossier shall not introduce new evidence, additional analysis
 
 The dossier shall provide sufficient references to enable the Founders to verify the origin of significant findings where necessary. Detailed research records shall remain within the permanent commission documentation rather than being reproduced in full within the dossier.
 
+## 5.5 No Process Narrative or Non-Research Content
+
+A Founder Review Dossier contains the research on its commissioned topic and nothing else. The following do not belong in a dossier, whatever section they might otherwise be placed under:
+
+- narration of how many revisions the dossier has been through, or why — beyond the brief, findings-only statement §9.3 requires when a dossier is revised;
+- commentary directed at a specific reviewer — whether they have completed their review, what they previously answered, or whether their earlier answer still stands;
+- explanation or justification of the dossier's own structure, length, or the number of Founder Decision Points it presents (for example, an account of why a commission that once seemed to require many separate decisions now presents only one);
+- the ROC's own reasoning about why one subject was scoped, split from, or connected to another, where that reasoning did not come from a source — this belongs in the Research Commission Record's scope section, stated once, not repeated or re-justified in the dossier; and
+- a working comment, expectation or assumption raised in conversation, presented with supporting paragraphs as though it were a research finding. A comment is not evidence merely because it prompted the commission (§2.2).
+
+**Illustration.** A commission on crossing and rubbing stems, scoped separately from inward-growing stems following an offhand comment that the two sometimes occur together, states that comment once, in the Research Commission Record, as the reason the commission exists (§7 of that record, Assumptions Recorded). The dossier itself contains only what recognised sources say about crossing and rubbing stems. It does not explain, justify, or revisit why the two subjects were separated — that is process history, not research, and §2.2 and this section exclude it regardless of how directly it might seem to help a Founder follow along.
+
+Applying this section is not a licence to omit a genuine limitation, an unresolved conflict, or a source that affects an Evidence Confidence Level (§4.3) — those remain required. The distinction is between the research itself, however imperfect or unresolved, and commentary about the dossier's own production.
+
 ---
 
 # Chapter 6 — Presenting the Evidence Assessment
@@ -296,10 +320,14 @@ The ROC shall instead:
 
 - carry out the directed further work;
 - prepare a revised dossier under the next sequence number for the same subject-scope label (§3.2) — for example, `FRD-BUSHROSE-DEADWOOD-02` following `-01`;
-- state plainly, near the top of the revised dossier, what changed since the prior version and why; and
+- state plainly, near the top of the revised dossier, what changed since the prior version, per §9.3; and
 - preserve the prior version and the Founders' decision on it as part of the permanent commission record rather than overwriting or deleting it.
 
 This mirrors the terminology-retirement pattern used elsewhere in PIP CORE: prior versions are superseded, not erased, so the record of what the Founders actually reviewed and decided remains intact.
+
+## 9.3 Scope of the Revision Note
+
+The note required by §9.2 identifies, in no more than a few sentences, which findings or sections changed and the one-line evidential reason (new source found, source re-checked, finding strengthened or narrowed). It is not the place for §5.5's excluded content: it does not narrate the review process, address a specific reviewer, or justify the revision's structure. Where a full account of what was researched and found in the revision round is useful to preserve, it belongs in the commission's research notes, not the dossier.
 
 ---
 

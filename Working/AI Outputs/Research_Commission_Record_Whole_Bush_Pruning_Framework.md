@@ -143,4 +143,18 @@ This commission is authorised. It creates no approved knowledge. Its outcome is 
 
 ---
 
+## 10. Founder Decision Record
+
+Per ROC Operations Manual §11.8, the Founder decision closing this commission is recorded here.
+
+**Decision:** Approved. AF-1 to AF-41, as assessed in `FRD-BUSHROSE-PRUNINGFRAMEWORK-04`, are adopted as a whole, including the eleven recorded conflicts and the practical defaults adopted for them.
+
+**Decided by:** Shaphan, AskPIP Founder Authority, 27 September 2026.
+
+**Resulting Approved Research Compilation:** `ARC-BUSHROSE-PRUNINGFRAMEWORK-01`, created by the ROC per ROC Operations Manual Chapter 12.
+
+**Status:** This commission is complete. Follow-on work (§5.4) — the individual observation commissions, comparison-image sourcing, and the crossing/inward-growing commission on hold — remains for the Founders to commission separately.
+
+---
+
 # End of Document
