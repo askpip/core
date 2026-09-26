@@ -132,8 +132,8 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 - **Viewpoint, Scale and Visible Context:** Two images, shot comparably, so the contrast is visible side by side.
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, active growth or dormant season depending on which sign is shown.
 - **Common Lookalikes:** This pairing *is* the lookalike entry. Worth flagging directly to whoever sources these: one commonly-cited source in the original research turned out, on closer reading, to actually describe a harmless wasp, not a genuine pest — a real, documented mix-up risk worth designing the comparison around.
-- **Limitations:** None beyond the general photographic caution in §2.
-- **Image Source / Verification / Approval:** IMG-BUSHROSE-DAMAGEDGROWTH-03 (pest damage half): Sourced, OpenArt "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026 — shepherd's-crook wilted tip with a visible entry hole, shown in active-growth season (with foliage) rather than this document's usual dormant framing, since the wilting sign needs leaves to read. Image Status: `Placeholder — AI-generated`, per §2 and §11 — internal app-function testing only, not Approved. File held at `Working/Drafts/Comparison Images/DAMAGEDGROWTH/`. IMG-BUSHROSE-DAMAGEDGROWTH-04 (harmless gall half): *(blank — to source)* — still pending, needed to complete this lookalike pair.
+- **Limitations:** More than one harmless gall type appears in the source material (a fuzzy, moss-like "mossy rose gall"/bedeguar gall being the most commonly pictured; smooth woody stem swellings are also documented) — which one is genuinely most likely to be confused with pest damage in practice is not settled by the research, and is flagged here as uncertain rather than resolved. The placeholder below depicts the mossy rose gall as the most visually distinctive, commonly-cited option; this choice needs checking against further research and real reference photos before being treated as representative.
+- **Image Source / Verification / Approval:** IMG-BUSHROSE-DAMAGEDGROWTH-03 (pest damage half): Sourced, OpenArt "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026 — shepherd's-crook wilted tip with a visible entry hole, shown in active-growth season (with foliage) rather than this document's usual dormant framing, since the wilting sign needs leaves to read. Image Status: `Placeholder — AI-generated`, per §2 and §11 — internal app-function testing only, not Approved. File held at `Working/Drafts/Comparison Images/DAMAGEDGROWTH/`. IMG-BUSHROSE-DAMAGEDGROWTH-04 (harmless gall half): Sourced, OpenArt "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026 — a mossy rose gall (bedeguar gall), shown in active-growth season for direct comparison with -03. Image Status: `Placeholder — AI-generated`, per §2 and §11 — internal app-function testing only, not Approved, and flagged (see Limitations) as needing further research to confirm this is the right gall type to represent this lookalike. File held at `Working/Drafts/Comparison Images/DAMAGEDGROWTH/`.
 - **Accessible Label:** "Genuine pest damage on a rose cane" / "A harmless gall, which can be mistaken for pest damage."
 
 ### 5.4 Early-stage canker versus healthy new growth (lookalike)
@@ -144,7 +144,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, early growth season.
 - **Common Lookalikes:** This image *is* the lookalike entry for §5.1.
 - **Limitations:** The dossier is explicit that this is a genuinely hard case — an expert declined to call it from a photograph alone in a real example. This comparison should be presented with that same honesty, not as a solved distinction.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026 — a young reddish new shoot shown deliberately close in colour and texture to a small, early-stage canker lesion on the adjacent older bark. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against a real case and not to be marked Approved. File: `IMG-BUSHROSE-DAMAGEDGROWTH-05.png`, held at `Working/Drafts/Comparison Images/DAMAGEDGROWTH/` pending sourcing of a real replacement image.
 - **Accessible Label:** "Early-stage canker, which can resemble healthy new growth in colour."
 
 ### 5.5 Not photographable at all
@@ -186,7 +186,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season.
 - **Common Lookalikes:** See §7.2.
 - **Limitations:** The only stated indicator is growth direction toward the centre — a soft, subjective standard on only three sources, not a hard visual rule.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026, three-quarter overhead framing showing one cane curving through the bush's centre against the others' outward radiating pattern. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against a real bush and not to be marked Approved. File: `IMG-BUSHROSE-INWARDGROWTH-01.png`, held at `Working/Drafts/Comparison Images/INWARDGROWTH/` pending sourcing of a real replacement image.
 - **Accessible Label:** "A rose cane growing toward the centre of the bush."
 
 ### 7.2 A stem curving toward light (possible lookalike)
@@ -298,10 +298,10 @@ Each comparison image gets a plain sequential Tag ID, in the same style as this 
 | `IMG-BUSHROSE-DAMAGEDGROWTH-01` | §5.1 | Canker (positive example) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-DAMAGEDGROWTH-02` | §5.2 | Frost damage (positive example) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-DAMAGEDGROWTH-03` | §5.3 | Pest damage (positive half of the lookalike pair) | `Placeholder — AI-generated` |
-| `IMG-BUSHROSE-DAMAGEDGROWTH-04` | §5.3 | Harmless gall (lookalike half of the pair) | *(blank — to source)* |
-| `IMG-BUSHROSE-DAMAGEDGROWTH-05` | §5.4 | Early-stage canker vs. healthy new growth (lookalike) | *(blank — to source)* |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-04` | §5.3 | Harmless gall (lookalike half of the pair) | `Placeholder — AI-generated` (gall type flagged for further research, see §5.3 Limitations) |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-05` | §5.4 | Early-stage canker vs. healthy new growth (lookalike) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-STEMCROSSING-01` | §6.1 | Two canes crossing or in contact (positive example) | `Placeholder — AI-generated` |
-| `IMG-BUSHROSE-INWARDGROWTH-01` | §7.1 | Stem growing toward the bush's centre (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-INWARDGROWTH-01` | §7.1 | Stem growing toward the bush's centre (positive example) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-INWARDGROWTH-02` | §7.2 | Stem curving toward light (possible lookalike) | *(blank — to source)* |
 | `IMG-BUSHROSE-WEAKCONGESTED-01` | §8.1 | Weak cane, about pencil thickness (positive example) | *(blank — to source)* |
 | `IMG-BUSHROSE-WEAKCONGESTED-02` | §8.2 | Congested bush centre (positive example) | *(blank — to source)* |
