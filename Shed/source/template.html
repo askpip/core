@@ -1834,15 +1834,63 @@
       addWrap.innerHTML =
         '<input type="text" class="new-todo-text" placeholder="Add a task...">' +
         '<button type="button" class="btn add-todo">Add</button>';
+
+      // Link a new task to a document/photo already in the Shed (27 September 2026,
+      // Founder-requested) -- the same shed_items.todo_id column an approval-required notice
+      // gets wired to automatically (see shed_notice_requires_approval_todo/
+      // shed_notice_review_requested_todo) can now be set by hand from here too, via
+      // shed_add_todo's new optional linked_id param. Once set, this task behaves exactly like
+      // an auto-created one -- buildRow's "View Notice" open-link below and
+      // shed_set_todo_status's approval guard both key off todo_id generically and have no
+      // idea (or need to know) whether the link was made by a trigger or by a person here.
+      // Reuses the exact picker overlays and .link-chip styling the New Notice composer already
+      // uses for the same purpose (openDocumentPicker/openGalleryImagePicker, further down this
+      // file), so this is one small chip, not a second linking UI to maintain.
+      var linkRow = document.createElement("div");
+      linkRow.className = "item-link-add todo-link-row";
+      linkRow.innerHTML =
+        '<button type="button" class="btn ghost todo-link-doc">Link a document…</button>' +
+        '<button type="button" class="btn ghost todo-link-photo">Link a photo…</button>';
+      var linkChipsEl = document.createElement("div");
+      linkChipsEl.className = "link-chips todo-link-chips";
+      var linkedItemForNewTodo = null;
+      function renderTodoLinkChip(){
+        linkChipsEl.innerHTML = "";
+        if(!linkedItemForNewTodo) return;
+        var chip = document.createElement("span");
+        chip.className = "link-chip";
+        var chipText = document.createElement("span");
+        chipText.className = "chip-text";
+        chipText.textContent = (linkedItemForNewTodo.loc === "gallery" ? "🖼️ " : "📄 ") + linkedItemForNewTodo.title;
+        chipText.title = chipText.textContent;
+        chip.appendChild(chipText);
+        var chipX = document.createElement("button");
+        chipX.type = "button"; chipX.textContent = "×"; chipX.title = "Remove";
+        chipX.addEventListener("click", function(){ linkedItemForNewTodo = null; renderTodoLinkChip(); });
+        chip.appendChild(chipX);
+        linkChipsEl.appendChild(chip);
+      }
+      linkRow.querySelector(".todo-link-doc").addEventListener("click", function(){
+        openDocumentPicker(stageEl, function(d){ linkedItemForNewTodo = d; renderTodoLinkChip(); });
+      });
+      linkRow.querySelector(".todo-link-photo").addEventListener("click", function(){
+        openGalleryImagePicker(stageEl, function(g){ linkedItemForNewTodo = g; renderTodoLinkChip(); });
+      });
+
       function addTask(){
         var input = addWrap.querySelector(".new-todo-text");
         var val = input.value.trim();
         if(!val) return;
         var addBtn = addWrap.querySelector(".add-todo");
         addBtn.disabled = true;
-        sb.rpc("shed_add_todo", { p: window.SHED_PASSPHRASE, ttl: val }).then(function(res){
+        var params = { p: window.SHED_PASSPHRASE, ttl: val };
+        if(linkedItemForNewTodo) params.linked_id = linkedItemForNewTodo.id;
+        sb.rpc("shed_add_todo", params).then(function(res){
           addBtn.disabled = false;
-          if(res.error){ alert("Couldn't add that task. Please try again."); return; }
+          if(res.error){ alert((res.error && res.error.message) || "Couldn't add that task. Please try again."); return; }
+          input.value = "";
+          linkedItemForNewTodo = null;
+          renderTodoLinkChip();
           loadTodos();
         });
       }
@@ -1851,6 +1899,8 @@
         if(e.key === "Enter"){ e.preventDefault(); addTask(); }
       });
       containerEl.appendChild(addWrap);
+      containerEl.appendChild(linkRow);
+      containerEl.appendChild(linkChipsEl);
 
       var active = todos.filter(function(t){ return t.status !== "completed"; })
         .sort(function(a,b){ return a.sort_order - b.sort_order; });
