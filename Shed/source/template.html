@@ -2056,14 +2056,25 @@
             loadTodos();
           });
         }
-        editWrap.querySelector(".todo-link-doc").addEventListener("click", function(btnEvt){
-          openDocumentPicker(stageEl, function(d){ setEditLink(d, btnEvt.currentTarget); });
+        // Capture the actual button elements here, rather than reading event.currentTarget
+        // inside the click handler -- by the time a picker's onPick fires (a later, separate
+        // click on a card in the picker overlay), the ORIGINAL click event has finished
+        // dispatching and the DOM resets its currentTarget to null, so setEditLink(item, null)
+        // would throw on "btn.disabled = true" and silently swallow the pick (this is why
+        // "Link a notice…" -- and document/photo -- looked like they did nothing when clicked
+        // from here; the Add-task row above never had this bug, since it never reads
+        // event.currentTarget in the first place).
+        var editDocBtn = editWrap.querySelector(".todo-link-doc");
+        var editPhotoBtn = editWrap.querySelector(".todo-link-photo");
+        var editNoticeBtn = editWrap.querySelector(".todo-link-notice");
+        editDocBtn.addEventListener("click", function(){
+          openDocumentPicker(stageEl, function(d){ setEditLink(d, editDocBtn); });
         });
-        editWrap.querySelector(".todo-link-photo").addEventListener("click", function(btnEvt){
-          openGalleryImagePicker(stageEl, function(g){ setEditLink(g, btnEvt.currentTarget); });
+        editPhotoBtn.addEventListener("click", function(){
+          openGalleryImagePicker(stageEl, function(g){ setEditLink(g, editPhotoBtn); });
         });
-        editWrap.querySelector(".todo-link-notice").addEventListener("click", function(btnEvt){
-          openNoticePicker(stageEl, function(n){ setEditLink(n, btnEvt.currentTarget); });
+        editNoticeBtn.addEventListener("click", function(){
+          openNoticePicker(stageEl, function(n){ setEditLink(n, editNoticeBtn); });
         });
         if(linkedNotice && linkedNotice.requiresApproval){
           // Tied to a notice's own approval workflow -- managed from the notice panel, not here.
