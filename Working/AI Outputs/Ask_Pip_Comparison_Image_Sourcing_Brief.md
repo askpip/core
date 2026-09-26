@@ -236,7 +236,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose; one cane from the current season, one older.
 - **Common Lookalikes:** This image *is* the lookalike entry for §8.1 — and unlike crossing/rubbing's and inward growth's lookalike gaps, this one has a real, sourced answer: new-season canes show brown or reddish thorns and bark; older, weaker wood shows grey thorns and grey bark. This is the strongest lookalike material found across all five dossiers — worth prioritising when sourcing begins.
 - **Limitations:** None beyond the general photographic caution in §2.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026, showing a reddish-brown new-season cane directly beside a grey older weak cane per the sourced thorn/bark colour distinction above. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against real canes and not to be marked Approved. File: `IMG-BUSHROSE-WEAKCONGESTED-03.png`, held at `Working/Drafts/Comparison Images/WEAKCONGESTED/` pending sourcing of a real replacement image.
 - **Accessible Label:** "A healthy young cane (reddish-brown thorns) next to a genuinely weak old cane (grey thorns), showing how to tell them apart."
 
 ---
@@ -253,7 +253,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season, immediately before and after pruning.
 - **Common Lookalikes:** Not applicable in the usual sense — this is a target shape, not a defect with a false-positive risk.
 - **Limitations:** Per AF-41, a photograph can support judging overall shape/outline and identifying crossing canes. It cannot support judging cane vigour (needs a bend/flex test) or true internal health (needs a cut to check pith colour) — a cane can look sound from outside while compromised inside. Framework comparison images should stick to shape and outline; they should not be used to imply a judgement about a cane's health.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** IMG-BUSHROSE-PRUNINGFRAMEWORK-01 (before): Sourced, OpenArt "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026 — crowded, undefined-shape framing. IMG-BUSHROSE-PRUNINGFRAMEWORK-02 (after): Sourced, same model, same date, matched eye-level angle and distance to the before image, per this entry's pairing requirement — open-centred vase shape, four to six evenly spaced canes. Since these are two independent generations rather than a real before/after of one bush, exact camera match is approximate, not pixel-identical. Image Status: `Placeholder — AI-generated` for both, per §2 and §11 — permitted for internal app-function testing only; not verified against a real bush and not to be marked Approved. Files: `IMG-BUSHROSE-PRUNINGFRAMEWORK-01.png` and `IMG-BUSHROSE-PRUNINGFRAMEWORK-02.png`, held at `Working/Drafts/Comparison Images/PRUNINGFRAMEWORK/` pending sourcing of a real replacement pair from an actual pruning session (see §10, priority 3).
 - **Accessible Label:** "A rose bush before pruning (crowded, no clear shape)" / "The same bush after pruning (open centre, evenly spread canes)."
 
 ### 9.2 Image rights — checked directly for this observation
@@ -305,11 +305,13 @@ Each comparison image gets a plain sequential Tag ID, in the same style as this 
 | `IMG-BUSHROSE-INWARDGROWTH-02` | §7.2 | Stem curving toward light (possible lookalike) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-WEAKCONGESTED-01` | §8.1 | Weak cane, about pencil thickness (positive example) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-WEAKCONGESTED-02` | §8.2 | Congested bush centre (positive example) | `Placeholder — AI-generated` |
-| `IMG-BUSHROSE-WEAKCONGESTED-03` | §8.3 | Healthy new cane vs. weak old cane (lookalike) | *(blank — to source)* |
-| `IMG-BUSHROSE-PRUNINGFRAMEWORK-01` | §9.1 | Overall bush shape, before pruning | *(blank — to source)* |
-| `IMG-BUSHROSE-PRUNINGFRAMEWORK-02` | §9.1 | Overall bush shape, after pruning | *(blank — to source)* |
+| `IMG-BUSHROSE-WEAKCONGESTED-03` | §8.3 | Healthy new cane vs. weak old cane (lookalike) | `Placeholder — AI-generated` |
+| `IMG-BUSHROSE-PRUNINGFRAMEWORK-01` | §9.1 | Overall bush shape, before pruning | `Placeholder — AI-generated` |
+| `IMG-BUSHROSE-PRUNINGFRAMEWORK-02` | §9.1 | Overall bush shape, after pruning | `Placeholder — AI-generated` |
 
 Sixteen images in total. Two entries carry no Tag ID and are not in this table: §5.5 (hidden splits) and §6.2 (crossing/rubbing's lookalike and wound-appearance gap) — both are documented as not photographable, or not yet sourceable, rather than pending images.
+
+**All sixteen placeholder images generated as of 27 September 2026.** Every entry above now carries an AI-generated placeholder for internal app-function testing — none are Approved, and two are flagged with extra caveats worth Founder attention before any of this is trusted beyond testing: the harmless-gall image (§5.3, gall type unsettled by research) and the framework before/after pair (§9.1, two independent generations rather than a real matched pair, and the one entry the Summary in §10 already flags as needing an actual pruning session to do properly). Real sourcing or photography against every entry remains the outstanding work.
 
 ### 11.3 Image Status
 
