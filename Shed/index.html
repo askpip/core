@@ -240,8 +240,13 @@
   .link-chip .chip-text{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:220px; }
   .link-chip .chip-tag{ font-weight:400; opacity:.7; }
   .link-chip button{ border:none; background:transparent; cursor:pointer; font-size:1rem; line-height:1; padding:0 6px; color:var(--wood-dark); }
-  .desk-window .approval-check{ display:flex; align-items:center; gap:8px; font-family:'Kalam',cursive; font-size:1rem; margin-bottom:8px; }
-  .desk-window .approval-check input{ width:19px; height:19px; accent-color:var(--moss); }
+  .desk-window .approval-check, .overlay .approval-check{ display:flex; align-items:center; gap:8px; font-family:'Kalam',cursive; font-size:1rem; margin-bottom:8px; }
+  .desk-window .approval-check input, .overlay .approval-check input{ width:19px; height:19px; accent-color:var(--moss); }
+  /* Create-a-new-notice mini form inside openNoticePicker (27 September 2026) -- reuses
+     .create-form's input/textarea styling (below) via the same class name, just narrower. */
+  .notice-picker-create{ margin-bottom:10px; padding-bottom:10px; border-bottom:1px dashed var(--pip-border); }
+  .notice-picker-form{ margin-top:8px; }
+  .notice-picker-form .new-notice-msg{ display:block; margin-top:4px; }
   /* approvalMetaText's three states get distinct colors so the result of Save/Request Review
      reads at a glance, not just as a one-line text change easy to miss. */
   .desk-window .approval-meta{
@@ -597,6 +602,9 @@
   .todo-edit-links{ display:none; margin-top:8px; padding-top:8px; border-top:1px dashed var(--pip-border); }
   .todo-edit-links.show{ display:block; }
   .todo-edit-links .todo-link-row{ margin-top:0; }
+  /* Smaller than the New Notice composer's own Link a document…/photo… buttons -- this row
+     sits inside a compact task list, not a full-size create form (27 September 2026). */
+  .todo-edit-links .todo-link-row button{ font-size:.72rem; padding:3px 8px; }
   .todo-empty{ font-family:'Kalam',cursive; color:var(--wood-dark); opacity:.7; margin:0 0 14px; }
 
   /* Settings menu, next to the "Signed in as ..." badge */
@@ -4814,29 +4822,82 @@
     overlay.querySelector(".closebtn").addEventListener("click", close);
     var body = overlay.querySelector(".panel-body");
 
-    var notices = (CONTENT.board && CONTENT.board.items) || [];
-    if(!notices.length){
-      var empty = document.createElement("p");
-      empty.className = "empty-note";
-      empty.textContent = "No notices on the Board yet -- add one from 📌 Notice Board first.";
-      body.appendChild(empty);
-      return;
-    }
-    var list = document.createElement("div");
-    list.className = "item-list";
-    notices.forEach(function(item){
-      var pick = document.createElement("button");
-      pick.type = "button";
-      pick.className = "item-card";
-      var bodyText = item.body || "";
-      pick.innerHTML = "<b>" + item.title + "</b>" + bodyText.slice(0, 60) + (bodyText.length > 60 ? "..." : "");
-      pick.addEventListener("click", function(){
+    // Create a brand new notice right from here (27 September 2026, Founder-requested),
+    // rather than only being able to pick one that already exists -- a minimal version of the
+    // New Notice composer's title/body/requires-approval fields (no linking/upload of its own;
+    // this picker's whole job IS the link). Reuses shed_add_notice, and once created, hands the
+    // fresh notice straight to onPick exactly like picking an existing one from the list below.
+    var createWrap = document.createElement("div");
+    createWrap.className = "notice-picker-create";
+    createWrap.innerHTML =
+      '<button type="button" class="btn ghost new-notice-toggle">+ New Notice…</button>' +
+      '<div class="notice-picker-form create-form" style="display:none;">' +
+        '<input type="text" class="new-notice-title" placeholder="Title...">' +
+        '<textarea class="new-notice-body" placeholder="Write it here..."></textarea>' +
+        '<label class="approval-check">' +
+          '<input type="checkbox" class="new-notice-approval">' +
+          '<span>This notice requires approval</span>' +
+        '</label>' +
+        '<button type="button" class="btn new-notice-create">Create &amp; Link</button>' +
+        '<span class="new-notice-msg" style="font-size:.78rem; color:#a33;"></span>' +
+      '</div>';
+    body.appendChild(createWrap);
+    var formWrap = createWrap.querySelector(".notice-picker-form");
+    createWrap.querySelector(".new-notice-toggle").addEventListener("click", function(){
+      var willShow = formWrap.style.display === "none";
+      formWrap.style.display = willShow ? "block" : "none";
+      if(willShow) createWrap.querySelector(".new-notice-title").focus();
+    });
+    createWrap.querySelector(".new-notice-create").addEventListener("click", function(){
+      var titleIn = createWrap.querySelector(".new-notice-title");
+      var bodyIn = createWrap.querySelector(".new-notice-body");
+      var approvalIn = createWrap.querySelector(".new-notice-approval");
+      var msg = createWrap.querySelector(".new-notice-msg");
+      var ttl = titleIn.value.trim();
+      if(!ttl){ msg.textContent = "Please give the notice a title."; titleIn.focus(); return; }
+      var createBtn = createWrap.querySelector(".new-notice-create");
+      createBtn.disabled = true; msg.textContent = "";
+      sb.rpc("shed_add_notice", {
+        p: window.SHED_PASSPHRASE, ttl: ttl, bdy: bodyIn.value.trim(),
+        req_approval: approvalIn.checked, want_reply: false, want_upload: false
+      }).then(function(res){
+        createBtn.disabled = false;
+        if(res.error || !res.data){ msg.textContent = (res.error && res.error.message) || "Couldn't create that notice. Please try again."; return; }
+        var item = itemFromRow(res.data, "board");
+        CONTENT.board.items.unshift(item);
         onPick(item);
         close();
       });
-      list.appendChild(pick);
     });
-    body.appendChild(list);
+
+    var notices = (CONTENT.board && CONTENT.board.items) || [];
+    if(notices.length){
+      var listHead = document.createElement("p");
+      listHead.className = "empty-note";
+      listHead.style.margin = "0 0 4px";
+      listHead.textContent = "Or choose an existing one:";
+      body.appendChild(listHead);
+      var list = document.createElement("div");
+      list.className = "item-list";
+      notices.forEach(function(item){
+        var pick = document.createElement("button");
+        pick.type = "button";
+        pick.className = "item-card";
+        var bodyText = item.body || "";
+        pick.innerHTML = "<b>" + item.title + "</b>" + bodyText.slice(0, 60) + (bodyText.length > 60 ? "..." : "");
+        pick.addEventListener("click", function(){
+          onPick(item);
+          close();
+        });
+        list.appendChild(pick);
+      });
+      body.appendChild(list);
+    } else {
+      var empty = document.createElement("p");
+      empty.className = "empty-note";
+      empty.textContent = "No notices on the Board yet -- create one above.";
+      body.appendChild(empty);
+    }
   }
 
   // Same picking flow as openDocumentPicker (browse-to-pick, no Send to desk/Edit/Delete),
