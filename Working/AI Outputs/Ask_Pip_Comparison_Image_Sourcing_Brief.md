@@ -111,7 +111,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, any season canker is visible.
 - **Common Lookalikes:** Early-stage canker colour genuinely overlaps with healthy new growth — see §5.4. Harmless galls are a separate, documented lookalike — see §5.3.
 - **Limitations:** Real enough that a cited expert declined to diagnose a case from photographs alone. This should not be presented as a confident visual call.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against a real cane and not to be marked Approved. File: `IMG-BUSHROSE-DAMAGEDGROWTH-01.png`, held at `Working/Drafts/Comparison Images/DAMAGEDGROWTH/` pending sourcing of a real replacement image.
 - **Accessible Label:** "A rose cane showing canker — discoloured, damaged bark."
 
 ### 5.2 Frost damage (positive example, with a caveat)
@@ -122,7 +122,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, following a frost event.
 - **Common Lookalikes:** Not separately addressed by any source found.
 - **Limitations:** Frost damage shows visually but the research is clear that a cut-and-check is needed to actually confirm it — a photo alone should not be treated as sufficient, and the journey's own "wait and reassess" pattern for frost damage (Decision Brief §5–6) already reflects this.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against a real cane and not to be marked Approved. File: `IMG-BUSHROSE-DAMAGEDGROWTH-02.png`, held at `Working/Drafts/Comparison Images/DAMAGEDGROWTH/` pending sourcing of a real replacement image.
 - **Accessible Label:** "A rose cane showing visible frost damage."
 
 ### 5.3 Pest damage versus a harmless gall (positive example + lookalike pair)
@@ -133,7 +133,7 @@ Where a field says **not addressed by any source found**, that's a direct, hones
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, active growth or dormant season depending on which sign is shown.
 - **Common Lookalikes:** This pairing *is* the lookalike entry. Worth flagging directly to whoever sources these: one commonly-cited source in the original research turned out, on closer reading, to actually describe a harmless wasp, not a genuine pest — a real, documented mix-up risk worth designing the comparison around.
 - **Limitations:** None beyond the general photographic caution in §2.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** IMG-BUSHROSE-DAMAGEDGROWTH-03 (pest damage half): Sourced, OpenArt "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026 — shepherd's-crook wilted tip with a visible entry hole, shown in active-growth season (with foliage) rather than this document's usual dormant framing, since the wilting sign needs leaves to read. Image Status: `Placeholder — AI-generated`, per §2 and §11 — internal app-function testing only, not Approved. File held at `Working/Drafts/Comparison Images/DAMAGEDGROWTH/`. IMG-BUSHROSE-DAMAGEDGROWTH-04 (harmless gall half): *(blank — to source)* — still pending, needed to complete this lookalike pair.
 - **Accessible Label:** "Genuine pest damage on a rose cane" / "A harmless gall, which can be mistaken for pest damage."
 
 ### 5.4 Early-stage canker versus healthy new growth (lookalike)
@@ -295,9 +295,9 @@ Each comparison image gets a plain sequential Tag ID, in the same style as this 
 | `IMG-BUSHROSE-DEADWOOD-01` | §4.1 | Living cane (positive example) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-DEADWOOD-02` | §4.2 | Dead cane (positive example) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-DEADWOOD-03` | §4.3 | Older living cane, bronze-toned bark (lookalike) | `Placeholder — AI-generated` |
-| `IMG-BUSHROSE-DAMAGEDGROWTH-01` | §5.1 | Canker (positive example) | *(blank — to source)* |
-| `IMG-BUSHROSE-DAMAGEDGROWTH-02` | §5.2 | Frost damage (positive example) | *(blank — to source)* |
-| `IMG-BUSHROSE-DAMAGEDGROWTH-03` | §5.3 | Pest damage (positive half of the lookalike pair) | *(blank — to source)* |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-01` | §5.1 | Canker (positive example) | `Placeholder — AI-generated` |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-02` | §5.2 | Frost damage (positive example) | `Placeholder — AI-generated` |
+| `IMG-BUSHROSE-DAMAGEDGROWTH-03` | §5.3 | Pest damage (positive half of the lookalike pair) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-DAMAGEDGROWTH-04` | §5.3 | Harmless gall (lookalike half of the pair) | *(blank — to source)* |
 | `IMG-BUSHROSE-DAMAGEDGROWTH-05` | §5.4 | Early-stage canker vs. healthy new growth (lookalike) | *(blank — to source)* |
 | `IMG-BUSHROSE-STEMCROSSING-01` | §6.1 | Two canes crossing or in contact (positive example) | `Placeholder — AI-generated` |
