@@ -197,7 +197,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, wherever a light-driven curve is visible.
 - **Common Lookalikes:** This image *is* the lookalike entry for §7.1 — but flagged clearly: the underlying finding is the ROC's own plausible inference, not something any source actually states. It should be labelled as such if it's built into a PKR later, not presented as sourced fact.
 - **Limitations:** Unsourced. Worth having a Founder confirm this is a real enough risk to bother sourcing an image for, given it isn't backed by any publisher.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026, same three-quarter overhead framing as §7.1 for direct comparison, showing a cane curving toward the light rather than toward the bush's centre. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; the underlying distinction is the ROC's own unsourced inference (see Limitations above) and the image is not to be marked Approved. File: `IMG-BUSHROSE-INWARDGROWTH-02.png`, held at `Working/Drafts/Comparison Images/INWARDGROWTH/` pending sourcing of a real replacement image.
 - **Accessible Label:** "A rose cane curving toward light, which may resemble inward growth."
 
 ---
@@ -214,7 +214,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season.
 - **Common Lookalikes:** See §8.3.
 - **Limitations:** "Pencil thickness" is agreed in concept but disputed by nearly double between the two sources that quantify it (6.4mm vs. 10mm) — describe the image as "about pencil thickness," not a precise measurement.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026, with a pencil placed alongside the cane for scale per this document's own size-reference guidance (§2). Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against a real cane and not to be marked Approved. File: `IMG-BUSHROSE-WEAKCONGESTED-01.png`, held at `Working/Drafts/Comparison Images/WEAKCONGESTED/` pending sourcing of a real replacement image.
 - **Accessible Label:** "A weak, thin rose cane, roughly pencil thickness, next to a pencil for scale."
 
 ### 8.2 A congested bush centre (positive example)
@@ -225,7 +225,7 @@ There is no sourced basis for a lookalike comparison image or a rubbing-wound im
 - **Rose and Seasonal/Growth-Stage Context:** Established bush rose, dormant season, before thinning.
 - **Common Lookalikes:** Not separately addressed — the research is clear the target cane count genuinely varies by region (roughly three to seven typical, per the stated default), so this is a judgment call rather than a fixed visual threshold.
 - **Limitations:** No source directly addresses photo-based density judgment; the same size-reference guidance as §8.1 applies at bush scale.
-- **Image Source / Verification / Approval:** *(blank — to source)*
+- **Image Source / Verification / Approval:** Sourced: OpenArt, model "GPT Image 2.5 Sunburst" (gpt-image-2-5-sunburst, text2image), generated 27 September 2026, wide framing of the bush's centre before thinning. Image Status: `Placeholder — AI-generated`, per §2 and §11 — permitted for internal app-function testing only; not verified against a real bush and not to be marked Approved. File: `IMG-BUSHROSE-WEAKCONGESTED-02.png`, held at `Working/Drafts/Comparison Images/WEAKCONGESTED/` pending sourcing of a real replacement image.
 - **Accessible Label:** "A rose bush centre with too many crowded canes."
 
 ### 8.3 Healthy new cane versus weak old cane (lookalike — genuinely useful, sourced)
@@ -302,9 +302,9 @@ Each comparison image gets a plain sequential Tag ID, in the same style as this 
 | `IMG-BUSHROSE-DAMAGEDGROWTH-05` | §5.4 | Early-stage canker vs. healthy new growth (lookalike) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-STEMCROSSING-01` | §6.1 | Two canes crossing or in contact (positive example) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-INWARDGROWTH-01` | §7.1 | Stem growing toward the bush's centre (positive example) | `Placeholder — AI-generated` |
-| `IMG-BUSHROSE-INWARDGROWTH-02` | §7.2 | Stem curving toward light (possible lookalike) | *(blank — to source)* |
-| `IMG-BUSHROSE-WEAKCONGESTED-01` | §8.1 | Weak cane, about pencil thickness (positive example) | *(blank — to source)* |
-| `IMG-BUSHROSE-WEAKCONGESTED-02` | §8.2 | Congested bush centre (positive example) | *(blank — to source)* |
+| `IMG-BUSHROSE-INWARDGROWTH-02` | §7.2 | Stem curving toward light (possible lookalike) | `Placeholder — AI-generated` |
+| `IMG-BUSHROSE-WEAKCONGESTED-01` | §8.1 | Weak cane, about pencil thickness (positive example) | `Placeholder — AI-generated` |
+| `IMG-BUSHROSE-WEAKCONGESTED-02` | §8.2 | Congested bush centre (positive example) | `Placeholder — AI-generated` |
 | `IMG-BUSHROSE-WEAKCONGESTED-03` | §8.3 | Healthy new cane vs. weak old cane (lookalike) | *(blank — to source)* |
 | `IMG-BUSHROSE-PRUNINGFRAMEWORK-01` | §9.1 | Overall bush shape, before pruning | *(blank — to source)* |
 | `IMG-BUSHROSE-PRUNINGFRAMEWORK-02` | §9.1 | Overall bush shape, after pruning | *(blank — to source)* |
