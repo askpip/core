@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-INWARDGROWTH-01** |
 | ARC Title | Inward-Growing Stems on an Established, Dormant Bush Rose — Recognition, Photographic Limits, and Pruning Choices |
-| Version | 1.0 |
+| Version | 1.1 |
 | Approval Status | **Approved** |
 | Approval Date | 28 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Karla, via finished, decisive Review Form — sufficient per ROC Operations Manual §11.2A) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-INWARDGROWTH-02` §8 (all 6 Assessed Findings) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | `ARC-BUSHROSE-STEMCROSSING-01` (the companion dossier from the same research commission; AF-3 and AF-6 below are stated identically there, since the underlying evidence concerns structural photo-assessment and general pruning timing generally, not either observation specifically). `ARC-BUSHROSE-DEADWOOD-01` (generic pruning safety, cross-referred to). `ARC-BUSHROSE-PRUNINGFRAMEWORK-01` (general cut mechanics, cross-referred to). |
-| Revision History | v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-INWARDGROWTH-02`, Founder-approved for AF-1 to AF-6 as a whole. |
+| Revision History | v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-INWARDGROWTH-02`, Founder-approved for AF-1 to AF-6 as a whole. v1.1 — 29 September 2026 — §8 Source Register added, per ROC Operations Manual §12.6/§12.10 (v2.9), from `Working/AI Outputs/Source_Register_Addendum_STEMCROSSING_INWARDGROWTH.md`, approved by Shaphan 29 September 2026. No Assessed Finding, Evidence Confidence Level, conflict, default or Founder decision changed. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01` |
 
@@ -158,6 +158,34 @@ The following ROC-recommended defaults were adopted for questions the evidence l
 ## 7. Downstream Note for KIT
 
 KIT should build the inward-growing-stems Observation PKR from AF-1 to AF-6 as approved (§3–§4), applying the practical defaults at §6 wherever the evidence would otherwise leave the guidance silent. This observation is kept separate from crossing/rubbing stems (`ARC-BUSHROSE-STEMCROSSING-01`), per Founder confirmation, even though both were researched as one commission and the removal action is identical. Dead wood and general cut mechanics remain governed by `ARC-BUSHROSE-DEADWOOD-01` and `ARC-BUSHROSE-PRUNINGFRAMEWORK-01` respectively. AF-3's photo-assessment limitation should inform what Pip claims to be able to judge from an image of a suspected inward-growing stem.
+
+---
+
+## 8. Source Register
+
+Added at version 1.1 (29 September 2026) under ROC Operations Manual §12.6 and §12.10. Every source relied on by this ARC's Assessed Findings, with its web address, checked as the same document (including locating the dossier's quoted passage where one exists). All accessed 29 September 2026.
+
+| Code | Source | Web address | Status | Verification |
+|---|---|---|---|---|
+| KCRS | Kansas City Rose Society, "Pruning Roses" | <https://www.kansascityrosesociety.org/prune-roses> | Confirmed | All three quoted passages found (rubbing damage; removed "to the ground or back to the next outward facing bud"; "grow toward the center of the bush..."). |
+| OSU | Oregon State University Extension, Barbara McMullen, "Pruning roses" | <https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses> | Confirmed (existing record) | Web address already held by Published PKR-SRC-000004. |
+| TAMK | Texas A&M AgriLife Extension, Douglas F. Welsh and Everett Janne, "Follow Proper Pruning Techniques" (Earth-Kind Landscaping; rev. Nov 2008) | <https://aggie-horticulture.tamu.edu/earthkind/landscape/proper-pruning-techniques/> | Confirmed | Both quotes found: "remove one of two canes which may be rubbing one another"; "the new shoots will not grow through the interior of the plants or crisscross". |
+| SARS (Home Gardener's Guide) | Rose Society of South Australia, Doug Gregory, "Pruning Roses – A Home Gardener's Guide" | <https://sarose.org.au/growing-advice/pruning-roses-a-home-gardener-s-guide> | Confirmed | C-1 confirmed: "a healthy plant will fill the space soon enough"; "let the leaves shade the base of the plant". |
+| NCSU | NC State Extension, Barbara Fair, "General Pruning Techniques" (reviewed 5 Mar 2025) | <https://content.ces.ncsu.edu/general-pruning-techniques> | Confirmed | Quote found: "step back and look over the plant from all sides". |
+| MUMG | University of Missouri Extension, *Missouri Master Gardener Core Manual*, Chapter 8: Pruning Ornamental Trees and Shrubs (MG8; Christopher J. Starbuck) | <https://extension.missouri.edu/publications/mg8> | Confirmed | Quote found: "Walk around the plant to view it from all sides." |
+| Berland19 | Adam Berland, Lara A. Roman and Jess Vogt, "Can Field Crews Telecommute? Varied Data Quality from Citizen Science Tree Inventories Conducted Using Street-Level Imagery", *Forests* 10(4):349 (2019) | <https://doi.org/10.3390/f10040349> | Confirmed | Quote found (§4.3): "Virtual surveys are not appropriate for detailed assessments of tree risk...". |
+| ISU-LINN | Iowa State University Extension and Outreach, Linn County, Linda Skvor, "Winterizing Roses" | <https://www.extension.iastate.edu/linn/winterizing-roses> | Confirmed | Named only in the AF-8 evidence. Quote found: "Wait until the leaf buds are a half inch or so long...". |
+| CSU-ASK | Colorado State University Extension / Ask Extension, answer recommending light autumn pruning with structural pruning deferred to spring | — | **Not located** | Several Ask Extension and CSU pages were checked. None matched the described answer, and one likely candidate is marked private. It is not substituted. SC AF-8 and IG AF-6 still rest on two other confirmed sources (OSU, ISU-LINN). |
+| DUN | Dunedin Botanic Garden (NZ), Linda Hellyer, "Practical Tips for Rose Pruning" (26 Jun 2014) | <https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning> | Confirmed (existing record) | Web address already held by Published PKR-SRC-000022. |
+| UGA | University of Georgia CAES, Frank M. Watson, "Prune Roses Now for More Blooms Later" (8 Feb 2012) | <https://fieldreport.caes.uga.edu/news/prune-roses-now-for-more-blooms-later/> | Confirmed (existing record) | Web address already held by Published PKR-SRC-000007. |
+| UMD | University of Maryland Extension, Raymond Bosmans (ed. Jeanine Smetana), "Guide to Pruning Roses" (rev. Dec 2020; updated 13 Jun 2023) | <https://extension.umd.edu/resource/guide-pruning-roses> | Confirmed | Quote found verbatim. |
+| ARS | American Rose Society, "Basic Pruning Principles" (17 Jul 2024) | <https://rose.org/basic-pruning-principles/> | Confirmed (existing record) | Web address already held by Published PKR-SRC-000013. |
+| YAT (pruning) | Yates New Zealand, "How to Prune Your Roses" | <https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/> | Confirmed | Quote found: "Always cut just above an outward-facing bud". The page shows no date; the FRD recorded 1 Mar 2021. |
+| SPR | South Pacific Roses (NZ), "darrencnz", "Pruning Your Roses" (28 Aug 2019) | <https://southpacificroses.co.nz/pruning-your-roses/> | Confirmed | Quote found: "cut to an outside facing bud". |
+| AUSVIC | Rose Society of Victoria (Australia), "The Pruning Bible" | <https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/> | Confirmed | Quote found: "Shorten these branches to a well-developed eye that is facing outwards." |
+| MGNV | Master Gardeners of Northern Virginia, Illustrated Glossary, "Phototropism" (11 Aug 2021) | <https://mgnv.org/plants/glossary/glossary-phototropism/> | Confirmed | A botanical definition only; the phototropism caution itself remains unsourced (IG §6). |
+
+**Founder decision on the matter reported (Shaphan, 29 September 2026):** AF-6 stays at **Moderate**, now resting on two confirmed sources (OSU; ISU-LINN) with CSU-ASK marked Not located.
 
 ---
 

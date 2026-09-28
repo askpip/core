@@ -56,7 +56,7 @@
 | PKR Type | Source PKR |
 | Title | Johnson County K-State Research and Extension, Master Gardeners — Rose Care |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Bush rose; recently planted / restraint period |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-SGT-000002 (planned) |
@@ -67,7 +67,10 @@
 - **Source Identity:** Johnson County K-State Research and Extension, Master Gardeners, "Rose Care," https://www.johnson.k-state.edu/programs/lawn-garden/agent-articles-fact-sheets-and-more/agent-articles/emg-fact-sheets/roses-docs/Rose%20Care.pdf, accessed during FRD-BUSHROSE-RECENTPLANT-01 research
 - **MIL References:**
   - ARC-BUSHROSE-RECENTPLANT-01, AF-1 (Moderate) — restraint period for full pruning
+  - ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High) — *added v1.1, 29 September 2026*
 - **Relevance:** Indirect support — structurally separates newly planted (at-planting cutback) from established-rose pruning cycles without bridging them, consistent with a distinct restraint period.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for its citation by PKR-OBS/DEC-000002 and 000003 (`PKR-SRC-BUSHROSE-STRUCTURAL-submission.md` Part B). Source identity and relevance unchanged.*
 
 ---
 
@@ -102,7 +105,7 @@
 | PKR Type | Source PKR |
 | Title | Fine Gardening (Paul Zimmerman) — When to Prune a Young Rose |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Bush rose; recently planted / restraint period |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-SGT-000002 (planned) |
@@ -113,7 +116,10 @@
 - **Source Identity:** Fine Gardening, Paul Zimmerman, "When to Prune a Young Rose," https://www.finegardening.com/project-guides/pruning/how-soon-can-you-prune-a-young-rose, accessed during FRD-BUSHROSE-RECENTPLANT-01 research
 - **MIL References:**
   - ARC-BUSHROSE-RECENTPLANT-01, AF-1 (Moderate) — restraint period for full pruning
+  - ARC-BUSHROSE-BASICCARE-01, F7 (High) — *added v1.1, 29 September 2026*
 - **Relevance:** States a young rose (planted the previous year) should not be pruned; original nursery canes typically replaced "by the third year or so." Independently converges with the Illinois Extension threshold.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000004 to 000006 (`PKR-SRC-BUSHROSE-BASICCARE-submission.md` Part B). Source identity unchanged.*
 
 ---
 

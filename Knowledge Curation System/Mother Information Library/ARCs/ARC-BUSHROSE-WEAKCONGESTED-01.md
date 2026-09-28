@@ -10,6 +10,8 @@
 **Custodian:** Research Origin Curator (ROC), per ROC Operations Manual v2.7
 **Date of Approval:** 28 September 2026
 **Prepared/Compiled:** 28 September 2026
+**Version:** 1.2
+**Revision History:** v1.0 — 28 September 2026 — initial creation. v1.1 — 29 September 2026 — §8 Source Register added (ROC Operations Manual §12.6/§12.10, v2.9), approved by Shaphan. v1.2 — 29 September 2026 — Orange County Rose Society's position corrected in AF-5's evidence and in §5 C-1, at Shaphan's direction, after the source check found the page supports the pencil rule rather than questioning it. No Evidence Confidence Level, default or Founder decision changed.
 
 ---
 
@@ -144,7 +146,7 @@ Reproduced faithfully from `FRD-BUSHROSE-WEAKCONGESTED-02` §8, without new inte
 **Assessed Finding:** "Pencil thickness" is the standard, widely-repeated qualitative threshold below which a cane is considered weak and removed. Where sources translate this into an actual measurement, they disagree by nearly a factor of two.
 **Evidence Confidence Level: Moderate**
 
-**Evidence.** Clemson, UF/IFAS, Texas A&M, Illinois Extension, American Rose Society, Rose Society of Victoria: all use "pencil" as the threshold, without a number. Kansas City Rose Society: "diameter less than that of a lead pencil (1/4-inch)." Rose Society of NSW: "no less than 10mm." Orange County Rose Society explicitly questions the rule's strictness: "Why should you consider leaving stems smaller than the pencil?"
+**Evidence.** Clemson, UF/IFAS, Texas A&M, Illinois Extension, American Rose Society, Rose Society of Victoria: all use "pencil" as the threshold, without a number. Kansas City Rose Society: "diameter less than that of a lead pencil (1/4-inch)." Rose Society of NSW: "no less than 10mm." Orange County Rose Society supports the rule: it asks, rhetorically, "Why, you may ask, should you consider leaving stems smaller than a pencil?" and answers against leaving them ("Pencil-thick stems produce matchstick-thick stems..."). *[Corrected at v1.2, 29 September 2026. This previously read as questioning the rule's strictness, a misreading found during the Source Register check.]*
 
 **Strengths.** Very broad agreement on the qualitative concept across many independent, different-region sources.
 
@@ -384,7 +386,7 @@ Reproduced from `FRD-BUSHROSE-WEAKCONGESTED-02` §6. Karla accepted all stated d
 
 ### C-1 — The exact numeric threshold for "weak" (pencil thickness)
 
-**What the sources say.** Nearly every source uses "pencil thickness" as the qualitative threshold for removing a weak cane. Of the two sources that translate this into an actual measurement, Kansas City Rose Society gives "1/4-inch" (about 6.4mm) while the Rose Society of NSW gives "no less than 10mm" — a difference of roughly 50%. Most sources give no number at all, and one source (Orange County Rose Society) explicitly questions applying the pencil rule strictly.
+**What the sources say.** Nearly every source uses "pencil thickness" as the qualitative threshold for removing a weak cane. Of the two sources that translate this into an actual measurement, Kansas City Rose Society gives "1/4-inch" (about 6.4mm) while the Rose Society of NSW gives "no less than 10mm" — a difference of roughly 50%. Most sources give no number at all. *[Corrected at v1.2, 29 September 2026: this previously said one source (Orange County Rose Society) questions applying the pencil rule strictly. On checking, that source supports the rule. No source found questions it.]*
 
 **Reasons given.** Not stated by either quantifying source for why their particular figure was chosen; the difference may simply reflect different pencils, or different local convention.
 
@@ -439,6 +441,57 @@ Reproduced from `FRD-BUSHROSE-WEAKCONGESTED-02` §9. Each is the ROC's own recom
 This ARC's AF-12 (weak growth: always remove fully) and AF-13 (congestion: always remove fully, tied to the "open, airy centre" goal) both confirm the "always remove fully" pattern already used in `ARC-BUSHROSE-STEMCROSSING-01` and `ARC-BUSHROSE-INWARDGROWTH-01`. This is consistent with those ARCs and contrasts, as expected, with `ARC-BUSHROSE-DAMAGEDGROWTH-01`'s severity-dependent trim-or-remove rule — a genuine, already-approved point of difference between observations, not an inconsistency to reconcile.
 
 With this ARC approved, all six MVP pruning observations named in Architecture §5.2 (dead wood, crossing/rubbing stems, inward-growing stems, damaged growth, weak/congested growth, whole-bush framework) now have an approved ARC or are governed by an existing one, together with the supporting gates (recently-planted, dormancy, basic care, rose-type scope-qualification).
+
+---
+
+## 8. Source Register
+
+Added at version 1.1 (29 September 2026) under ROC Operations Manual §12.6 and §12.10, from `Working/AI Outputs/Source_Register_Addendum_WEAKCONGESTED.md`. All accessed 29 September 2026.
+
+| Code | Source | Web address | Status | Findings | Verification |
+|---|---|---|---|---|---|
+| RHS-GEN | Royal Horticultural Society, "Rose Pruning: General Tips" | <https://www.rhs.org.uk/plants/roses/pruning-guide> | Confirmed (existing record) | (log) | The AF-3 quote is not on this page; see RHS (Rose Dieback) below. |
+| RHS-BUSH | Royal Horticultural Society, "Rose Pruning: Floribunda & Hybrid Tea Roses" | <https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide> | Confirmed | AF-1, AF-4, AF-8 | Quote found: "If the bush is crowded cut out some old shoots completely to keep the centre open." |
+| RHS-SHRUB | Royal Horticultural Society, "Rose Pruning: Shrub Roses" | <https://www.rhs.org.uk/plants/roses/shrub/pruning-guide> | Confirmed | (log) | Checked for the structural-stems register. |
+| RHS (Rose Dieback) | Royal Horticultural Society, "Rose Dieback" | <https://www.rhs.org.uk/problems/rose-dieback> | Confirmed (existing record) | AF-3 | The AF-3 quote ("Remove all dead and damaged wood as soon as it is seen. Also remove weak and crossing branches during routine pruning") is on this page. The page is not in this dossier's log, which lists four other RHS pages. |
+| RHS-SAFE | Royal Horticultural Society, "How to Garden Safely" | <https://www.rhs.org.uk/garden-jobs/how-to-garden-safely> | Confirmed | AF-17 | Both quotes found (eyes "inside the canopy"; long-cuffed gloves for plants with sharp protrusions). |
+| ARS | American Rose Society, "Basic Pruning Principles" | <https://rose.org/basic-pruning-principles/> | Confirmed (existing record) | AF-5, AF-6, AF-7, AF-8, AF-12, AF-13 |  |
+| KCRS | Kansas City Rose Society, "Pruning Roses" | <https://www.kansascityrosesociety.org/prune-roses> | Confirmed (existing record) | AF-5, AF-7, AF-12 | The quote "diameter less than that of a lead pencil (1/4-inch)" was found during the structural-stems check. |
+| DUN | Dunedin Botanic Garden, "Practical Tips for Rose Pruning" | <https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning> | Confirmed (existing record) | (log) |  |
+| RSV | Rose Society of Victoria, "The Pruning Bible" | <https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/> | Confirmed (existing record) | AF-2, AF-5, AF-12, AF-13 |  |
+| SARS | Rose Society of South Australia, Tony Hanna, "Rose Pruning – Main Points" | <https://sarose.org.au/growing-advice/rose-pruning-main-points> | Confirmed (existing record) | AF-8, AF-12, AF-14 | The "canes in a circle around an open centre" wording was confirmed during the structural check. |
+| RSNSW | Rose Society of NSW, "Rose Growing Advice" (growing-roses page) | <https://nsw.rose.org.au/growing-roses> | Confirmed (title differs) | AF-5 | Quote found: "no less than 10mm". The page title is "Rose Growing Advice"; the dossier records "Growing Roses". |
+| CLE | Clemson HGIC, "Pruning Roses" (HGIC 1173) | <https://hgic.clemson.edu/factsheet/pruning-roses/> | Confirmed (existing record) | AF-1, AF-3, AF-5, AF-7, AF-15, AF-16 |  |
+| ILL | University of Illinois Extension, "Pruning" (roses) | <https://extension.illinois.edu/roses/pruning> | Confirmed (existing record) | AF-5, AF-12, AF-13, AF-15, AF-16 | Quotes found: open-centred goal; "3 to 5 healthy, stout canes evenly spaced"; shrub roses left unpruned for two or three seasons; the weak-or-small caution. |
+| UFIFAS | UF/IFAS Leon County, "'Roses are Red…' – Pruning Florida Roses" | <https://blogs.ifas.ufl.edu/leonco/2014/02/14/roses-are-red-pruning-florida-roses/> | Confirmed (existing record) | AF-1, AF-3, AF-5 |  |
+| TAMK | Texas A&M AgriLife / El Paso County Master Gardeners, "Rose Pruning Handout" (Feb 2010) | <https://elp.tamu.edu/files/2010/10/Rose-Pruning-Handout-Feb-2010.pdf> | Confirmed (existing record) | AF-1, AF-3, AF-5, AF-7, AF-13, AF-14, AF-15 |  |
+| OSU | Oregon State University Extension, "Pruning roses" | <https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses> | Confirmed (existing record) | AF-7, AF-14 |  |
+| UGA | University of Georgia CAES, "Prune Roses Now for More Blooms Later" | <https://fieldreport.caes.uga.edu/news/prune-roses-now-for-more-blooms-later/> | Confirmed (existing record) | AF-7 |  |
+| UCANR-FS | UC Cooperative Extension Inyo & Mono Counties, Rick Delmas, "Pruning Roses" (Weekend Farmer Fact Sheet #2-02, Feb 2002) | <https://ucanr.edu/sites/default/files/2020-01/318605.pdf> | Confirmed | AF-7, AF-12 | Quotes found: "4 to 7 canes"; remove canes "smaller in diameter than the size of a lead pencil". |
+| UCANR-SLO | UC Master Gardeners of San Luis Obispo County, Lisa Mowery, "Pruning Rose Bushes" (updated 17 Mar 2026) | <https://ucanr.edu/site/uc-master-gardeners-san-luis-obispo-county/pruning-rose-bushes> | Confirmed | AF-17, AF-18 | Quotes found: gauntlet-style gloves and safety glasses; "In hot summer areas, leave some interior growth to shade the graft and prevent sunscald". |
+| NCSU-GEN | NC State Extension, Barbara Fair, "General Pruning Techniques" | <https://content.ces.ncsu.edu/general-pruning-techniques> | Confirmed (existing record) | AF-18, AF-19 | Both quotes found in the publication's PDF (one-third of the crown; "Make the easy cuts first"). |
+| NC State (cane count) | "NC State", named in AF-7's evidence for "three to seven" canes | — | **Not identified** | AF-7 | The general-techniques publication gives no rose cane count, and no other NC State page is in the log. Not substituted. AF-7's range is carried by nine other confirmed sources. |
+| PURDUE | Purdue Extension, Rosie Lerner, "Spring Pruning of Roses" | <https://www.purdue.edu/hla/sites/yardandgarden/spring-pruning-of-roses/> | Confirmed (existing record) | AF-7 |  |
+| MARIN | Marin Rose Society, "Cane Borers / general rose care pages" | — | **Not confirmed** | AF-15 | The log doesn't identify which Marin page says to prune first-year roses lightly. The Cane Borers page doesn't cover this. Not substituted. AF-15 is carried by Clemson, Illinois and Texas A&M. |
+| PRS | Portland Rose Society Guide To Pruning Roses (Gaga's Garden, 5 Apr 2019) | <https://gagasgarden.com/2019/04/portland-rose-society-guide-to-pruning-roses/> | Confirmed (existing record) | AF-4, AF-16 |  |
+| OCRS | Orange County Rose Society, "Pruning a Rose" | <https://www.orangecountyrosesociety.org/pruning-a-rose> | **Confirmed, with an evidence discrepancy** | AF-5 (and §5 C-1) | The page asks "Why, you may ask, should you consider leaving stems smaller than a pencil?" and then answers it *against* leaving them (thin stems produce ever-thinner stems). The dossier read this as questioning the pencil rule's strictness. See §3. |
+| CBG | Chicago Botanic Garden, Karen Zaworski (with Tom Soulsby), "Pruning Mature Roses?" | <https://www.chicagobotanic.org/plant-information/smart-gardener/pruning-mature-roses> | Confirmed | AF-2, AF-6, AF-8, AF-14, AF-16 | Both quotes found. |
+| LUDWIG | Ludwig's Roses, "Winter Pruning" (9 May 2014) | <https://www.ludwigsroses.co.za/rose-growing-tips/rose-care/winter-pruning/> | Confirmed | AF-2, AF-7, AF-11 | Quotes found: "maximum number of stems or branches to remain is four and the minimum one"; thorn colour on old versus new wood. |
+| DAVID-A | David Austin Roses, "Understanding and Managing Rose Suckers" | <https://www.davidaustinroses.com/blogs/rose-care/understanding-and-managing-rose-suckers> | Located (title match only) | (log; corroboration only) | Not opened; not cited by any finding. |
+| ISU-COIN | Iowa State University Extension, Donald Lewis, "How Coins Help with Digital Diagnosis" (24 Jul 2015) | <https://yardandgarden.extension.iastate.edu/article/2015/07-24/coins.htm> | Confirmed (title differs) | AF-9 | Quote found verbatim. The dossier recorded the title descriptively. |
+| ISU-PHOTO | Iowa State University Extension, Plant and Insect Diagnostic Clinic, "Photography (Plant problems)" | <https://yardandgarden.extension.iastate.edu/pidc/photography> | Confirmed | AF-9, AF-10 | Quotes found: "Include a size reference... coin, pencil, ruler"; whole-plant view plus close-ups. |
+| CLE-PHOTO | Clemson HGIC, Savereno, Johnson and Bowers, "Tips for Taking Good Photos to Send to Your Extension Agent" (HGIC 2368, Sep 2021) | <https://hgic.clemson.edu/factsheet/tips-for-taking-good-photos-to-send-to-your-extension-agent/> | Confirmed | AF-9, AF-10 | Quote found verbatim. |
+| ACES | Alabama Cooperative Extension System, "Photo Submission Guide for Ornamental Plant & Pest Identification" | <https://www.aces.edu/blog/topics/landscaping/photo-submission-guide-for-ornamental-plant-pest-identification/> | Confirmed (existing record) | AF-9, AF-10 |  |
+| Photogrammetry literature | "Academic photogrammetry literature on stem-diameter measurement", named in AF-9's evidence | — | **Not identified** | AF-9 | No specific paper is named or logged. Not substituted. AF-9 (Low) is carried by the extension photo-guidance sources. |
+| Patterson11 | Mason F. Patterson, P. Eric Wiseman, Matthew F. Winn, Sang-mook Lee and Philip A. Araman, "Effects of Photographic Distance on Tree Crown Attributes Calculated Using UrbanCrowns Image Analysis Software", *Arboriculture & Urban Forestry* 37(4):173–179 (Jul 2011) | <https://auf.isa-arbor.com/content/37/4/173> | Confirmed (wording differs) | AF-10 | The abstract reads "Two-thirds of the repeated computations had absolute differences of less than 1%, and all others did not exceed 5%." The dossier's quoted wording is a close paraphrase, not verbatim. |
+| Arevalo24 | Tito Arevalo-Ramirez et al., "Challenges for computer vision as a tool for screening urban trees through street-view images", *Urban Forestry & Urban Greening* 95 (2024) | <https://www.sciencedirect.com/science/article/pii/S1618866724001146> | Confirmed | AF-10 | Quote found: "semantic segmentation of trees fails when occluded trees or homogeneous crowns are hard to distinguish". |
+| Kennard96 | Kennard, Putz and Niederhofer (1996), *Journal of Arboriculture* 22(6):249 | <https://auf.isa-arbor.com/content/22/6/249> | Confirmed (existing record) | (log; analogy only) |  |
+| CAES-CT | Connecticut Agricultural Experiment Station, Sharon M. Douglas, "Five Easy Steps for Pruning a Shrub" | <https://portal.ct.gov/CAES/Fact-Sheets/Plant-Pathology/Five-Easy-Steps-for-Pruning-a-Shrub> | Confirmed | (log) | Gives "remove no more than 1/3 of the branches at one time". Not cited by any finding. |
+| ASKEXT-WK | Ask Extension #854664, "Pruning old roses" (Douglas County, OR; Chris Rusch; answered 6 Nov 2023) | <https://ask.extension.org/kb/faq.php?id=854664> | Confirmed | (log) | Removes canes "thinner than a pencil". Not cited by any ARC finding. |
+| Berkeley Hort (unlisted) | Berkeley Horticultural Nursery, named in AF-15's evidence | <https://berkeleyhort.com/gardening-suggestions/rose-pruning-for-hesitant-beginners/> | **Not confirmed** | AF-15 | Not in the log. The Berkeley page found says to skip a pruning season for young roses *except* Hybrid Teas and Floribundas, not "skip the first two seasons for bare-root roses". Not substituted. |
+| "Ten causes" source (unlisted) | A "lower-authority source cataloguing ten causes of thin canes", named in AF-11's evidence | — | **Not identified** | AF-11 | Not named or logged. It is cited only for an absence. AF-11 (Low) otherwise rests on Ludwig's Roses (confirmed). |
+
+**Founder decisions (Shaphan, 29 September 2026):** the Orange County correction is made at v1.2 (AF-5, C-1). AF-15's young-rose leniency is covered by the published recently-planted gate (PKR-SGT-000002, about three years), so no separate rule is added. The Not identified and Not confirmed entries are recorded; every affected finding rests on other confirmed sources.
 
 ---
 

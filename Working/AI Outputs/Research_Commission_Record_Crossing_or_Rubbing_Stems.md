@@ -147,7 +147,20 @@ Any Founder may reopen any of these at any time; none is treated as irreversible
 
 ## 9. Status and Authority
 
-This commission was authorised effective 22 September 2026, and research was completed the same day. Its output is submitted as two Founder Review Dossiers, `FRD-BUSHROSE-STEMCROSSING-01` and `FRD-BUSHROSE-INWARDGROWTH-01` (Version 0.4), each awaiting its own Founder approval decision. This Research Commission Record remains the authorising basis for both.
+This commission was authorised effective 22 September 2026, and research was completed the same day. Its output is submitted as two Founder Review Dossiers, `FRD-BUSHROSE-STEMCROSSING-01` and `FRD-BUSHROSE-INWARDGROWTH-01` (Version 0.4), each awaiting its own Founder approval decision. This Research Commission Record remains the authorising basis for both. The stem-crossing dossier has since been decided — see §10 below; the inward-growth dossier remains awaiting its own Founder approval decision.
+
+---
+
+## 10. Founder Decision Record
+
+| Field | Value |
+|---|---|
+| Decision | **Approved** — Assessed Findings AF-1 to AF-8 adopted as a whole, with the three preserved points of variation and their stated defaults (`FRD-BUSHROSE-STEMCROSSING-02` §6) |
+| Decided By | Shaphan, AskPIP Founder Authority |
+| Decision Date | 27 September 2026 |
+| Founder Review Dossier Decided | `FRD-BUSHROSE-STEMCROSSING-02` (Revision 2 of the `-01` submitted under this commission; revised per Founder Review Dossier Standard v1.2 to remove process narrative — no Assessed Finding, Evidence Confidence Level, or Founder Decision Point differs between `-01` and `-02`) |
+| Resulting Approved Research Compilation | `ARC-BUSHROSE-STEMCROSSING-01` |
+| Companion Dossier Under This Commission | `FRD-BUSHROSE-INWARDGROWTH-01` — a separate observation submitted under this same commission, not decided by this record |
 
 ---
 

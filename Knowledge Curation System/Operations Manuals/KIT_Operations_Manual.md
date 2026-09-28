@@ -7,10 +7,10 @@
 **Document Title:** PIP Knowledge Integration Technician (KIT) Operations Manual
 **Volume:** Volume VI – Knowledge Curation System
 **Folder:** 03 – Operations Manuals
-**Version:** 0.4
+**Version:** 0.5
 **Status:** **Approved**
 **Owner:** The Founders
-**Last Updated:** 23 August 2026
+**Last Updated:** 29 September 2026
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md`
 **Purpose:** To define, at a procedural level, how the PIP Knowledge Integration Technician (KIT) carries out the responsibilities and authority the KIT Charter grants it — retrieving Founder-approved information from the Mother Information Library (MIL), building draft PIP Knowledge Records (PKRs), preparing them for Founder operational review, and publishing and maintaining approved PKRs within the Live Intelligence Library (LIL) — so that any AI instance, bootstrapped from this document chain alone, can perform KIT's work consistently.
@@ -19,6 +19,8 @@
 **Related Documents:** PIP Knowledge Integration Technician (KIT) Charter; PIP Knowledge Record (PKR) Standard; Live Intelligence Library (LIL) Standard; Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Pip Runtime Architecture; PIP Knowledge Integration Workflow; PIP Research Origin Curator (ROC) Operations Manual (structural model for this document); PIP System Identity and Naming Standard (SINS-001).
 
 **Drafting Note:** This is the first version of this Manual. No KIT Operations Manual existed before this draft — the KIT Charter and PKR Standard both anticipated one without it being written. Rather than draft this speculatively, a real dry run was performed first: an AI instance, using only the Charter, the PKR Standard, the LIL Standard, the MIL Standard, the Pip Runtime Architecture and the Knowledge Integration Workflow, attempted to build one real draft Observation PKR from ARC-BUSHROSE-DEADWOOD-01 (`Working/AI Outputs/KIT_Dry_Run_BUSHROSE_DEADWOOD_01.md`). It produced a usable partial draft and stalled at six specific, concrete points. This Manual is written directly against those six stalls, using the same case as its worked example throughout, in the same spirit as how a real research commission on dead-versus-living wood shaped the Founder Review Dossier Standard and the Assessed Finding model earlier in this session. Sections below reference "the dry run" and "Gap 1" through "Gap 6" by number, matching that document.
+
+**Version 0.5 addition (approved by the Founder 29 September 2026, in chat):** §10.2 adds the type code `CGD` (Care Guidance) for the new Care Guidance PKR type defined in PKR Standard v0.10 §5.7. It follows the same scope-free format, with its own sequence starting at `PKR-CGD-000001`. Nothing else changes.
 
 **Version 0.4 addition:** Chapter 10's identifier format is rewritten to drop the `<SUBJECT-SCOPE>` segment entirely, for every PKR type, replaced by a plain six-digit sequence per type code (§10.2). This reverses the same-day v0.3 decision to confirm the subject-scoped format and its `EVIDENCE-CONFIDENCE` extension — both retired. Prompted by a Founder question about whether subject-scope was needed in PKR codes at all, for Pip's runtime efficiency: the scope information was already fully duplicated in the Title and Applies To Common Fields, an opaque key is faster and simpler for real retrieval, and a scope segment baked into a permanent ID could never track a record's real, revisable scope reliably. New §10.2A explains how human readability is preserved without it (Title, and filenames decoupled from the ID); new §10.2B establishes that a Draft record's ID may be corrected under Founder direction before it reaches Approved for Publication, since nothing outside the KCS depends on it yet — the basis for migrating the four affected records, mapped at §10.5.
 
@@ -273,7 +275,7 @@ PKR Standard §6 explicitly leaves the identifier format for KIT to propose and 
 
 Where:
 
-- **`<TYPE-CODE>`** is one of: `OBS` (Observation), `CMP` (Comparison Image), `DEC` (Decision Logic), `SGT` (Suitability Gate), `SRC` (Source), `DEF` (Definition);
+- **`<TYPE-CODE>`** is one of: `OBS` (Observation), `CMP` (Comparison Image), `DEC` (Decision Logic), `SGT` (Suitability Gate), `SRC` (Source), `DEF` (Definition), `CGD` (Care Guidance, added in v0.5 with PKR Standard v0.10 §5.7);
 - **`<sequence>`** is a six-digit, zero-padded number starting at `000001`, assigned once per record in creation order, counted separately per type code (so Observation PKRs and Decision Logic PKRs each have their own sequence, starting independently at `000001`).
 
 Examples: `PKR-OBS-000001`; `PKR-SRC-000001`; `PKR-DEF-000004`.

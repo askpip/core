@@ -34,7 +34,7 @@
 | PKR Type | Source PKR |
 | Title | RHS — Rose pruning: general tips |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.3 |
 | Applies To | Bush rose; dead-wood identification and removal |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001, PKR-DEC-000001 |
@@ -47,7 +47,18 @@
   - ARC-BUSHROSE-DEADWOOD-01, AF-1 (High) — pith colour as the definitive dead/living signal
   - ARC-BUSHROSE-DEADWOOD-01, AF-2 (Moderate) — external bark colour as a supporting signal
   - ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue
+  - ARC-BUSHROSE-STEMCROSSING-01, AF-1 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-3 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-38 (Not assigned; see C11) — *added v1.3, 29 September 2026*
 - **Relevance:** Primary reference-body source for the core dead-wood identification and removal rule; the most heavily-cited source in this commission.
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for its citation by PKR-OBS/DEC-000002 and 000003 (`PKR-SRC-BUSHROSE-STRUCTURAL-submission.md` Part B). Source identity and relevance unchanged.*
 
 ---
 
@@ -59,7 +70,7 @@
 | PKR Type | Source PKR |
 | Title | Colorado State University Extension (PlantTalk Colorado) — Pruning Roses |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.3 |
 | Applies To | Bush rose; dead-wood identification and removal |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001, PKR-DEC-000001 |
@@ -72,7 +83,19 @@
   - ARC-BUSHROSE-DEADWOOD-01, AF-2 (Moderate) — external bark colour
   - ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue
   - ARC-BUSHROSE-DEADWOOD-01, AF-8 (Moderate) — escalating removal where dieback persists
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-23 (Moderate) — *added v1.3, 29 September 2026*
 - **Relevance:** Corroborates the bark-colour signal and both removal rules.
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
 
 ---
 
@@ -84,7 +107,7 @@
 | PKR Type | Source PKR |
 | Title | University of Illinois Extension — Pruning |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.4 |
 | Applies To | Bush rose; dead-wood identification and removal |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001, PKR-DEC-000001 |
@@ -96,7 +119,37 @@
 - **MIL References:**
   - ARC-BUSHROSE-DEADWOOD-01, AF-2 (Moderate) — external bark colour
   - ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue
+  - ARC-BUSHROSE-STEMCROSSING-01, AF-1 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-STEMCROSSING-01, AF-2 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-13 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-15 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-16 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-8 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-16 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-20 (Low) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-23 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-24 (Low) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low) — *added v1.4, 29 September 2026*
 - **Relevance:** Corroborates the bark-colour signal and the cut-back rule.
+
+*Revision v1.4 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000005. Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for its citation by PKR-OBS/DEC-000002 and 000003 (`PKR-SRC-BUSHROSE-STRUCTURAL-submission.md` Part B). Source identity and relevance unchanged.*
 
 ---
 
@@ -108,7 +161,7 @@
 | PKR Type | Source PKR |
 | Title | Oregon State University Extension Service — Pruning roses |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.5 |
 | Applies To | Bush rose; dead-wood identification and removal |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001, PKR-DEC-000001 |
@@ -120,7 +173,39 @@
 - **MIL References:**
   - ARC-BUSHROSE-DEADWOOD-01, AF-1 (High) — pith colour
   - ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue
+  - ARC-BUSHROSE-STEMCROSSING-01, AF-1 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-STEMCROSSING-01, AF-2 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-STEMCROSSING-01, AF-8 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-INWARDGROWTH-01, AF-6 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-14 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-16 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-18 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-23 (Moderate) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-24 (Low) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-26 (Low) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate) — *added v1.5, 29 September 2026*
 - **Relevance:** Corroborates the pith-colour signal and the cut-back rule.
+
+*Revision v1.5 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.4 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000005. Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for its citation by PKR-OBS/DEC-000002 and 000003 (`PKR-SRC-BUSHROSE-STRUCTURAL-submission.md` Part B). Source identity and relevance unchanged.*
 
 ---
 
@@ -132,7 +217,7 @@
 | PKR Type | Source PKR |
 | Title | Texas A&M AgriLife Extension Service (El Paso County Master Gardeners) — Rose Pruning Handout |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.3 |
 | Applies To | Bush rose; dead-wood identification and removal |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001, PKR-DEC-000001 |
@@ -144,7 +229,24 @@
 - **MIL References:**
   - ARC-BUSHROSE-DEADWOOD-01, AF-1 (High) — pith colour
   - ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-5 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-12 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-1 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-3 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-13 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-14 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-15 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-35 (Moderate) — *added v1.3, 29 September 2026*
 - **Relevance:** Corroborates the pith-colour signal and the cut-back rule.
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000005. Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
 
 ---
 
@@ -156,7 +258,7 @@
 | PKR Type | Source PKR |
 | Title | Clemson University Cooperative Extension (HGIC) — Pruning Roses |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.5 |
 | Applies To | Bush rose; dead-wood identification and removal |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001, PKR-DEC-000001 |
@@ -170,7 +272,39 @@
   - ARC-BUSHROSE-DEADWOOD-01, AF-3 (Moderate) — dormant bud presence
   - ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue
   - ARC-BUSHROSE-DEADWOOD-01, AF-8 (Moderate) — escalating removal where dieback persists
+  - ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-1 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-3 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-12 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-1 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-3 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-15 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-16 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-16 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low) — *added v1.5, 29 September 2026*
 - **Relevance:** One of the most broadly-corroborating sources in this commission — supports four separate Assessed Findings at two different confidence levels, the clearest example in this package of why Evidence Confidence cannot live on the Source PKR itself.
+
+*Revision v1.5 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.4 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000005. Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for its citation by PKR-OBS/DEC-000002 and 000003 (`PKR-SRC-BUSHROSE-STRUCTURAL-submission.md` Part B). Source identity and relevance unchanged.*
 
 ---
 
@@ -182,7 +316,7 @@
 | PKR Type | Source PKR |
 | Title | University of Georgia CAES — Rose pruning |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.5 |
 | Applies To | Bush rose; dead-wood identification and removal |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001, PKR-DEC-000001 |
@@ -195,7 +329,28 @@
   - ARC-BUSHROSE-DEADWOOD-01, AF-1 (High) — pith colour
   - ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue
   - ARC-BUSHROSE-DEADWOOD-01, AF-8 (Moderate) — escalating removal where dieback persists
+  - ARC-BUSHROSE-INWARDGROWTH-01, AF-2 (Low) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-INWARDGROWTH-01, AF-4 (Low) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-12 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low) — *added v1.5, 29 September 2026*
 - **Relevance:** Corroborates the pith-colour signal and both removal rules.
+
+*Revision v1.5 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.4 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000005. Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for its citation by PKR-OBS/DEC-000002 and 000003 (`PKR-SRC-BUSHROSE-STRUCTURAL-submission.md` Part B). Source identity and relevance unchanged.*
 
 ---
 
@@ -230,7 +385,7 @@
 | PKR Type | Source PKR |
 | Title | Iowa State University Extension and Outreach — How to Prune Roses |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.3 |
 | Applies To | Bush rose; dead-wood identification |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001 |
@@ -243,7 +398,25 @@
   - ARC-BUSHROSE-DEADWOOD-01, AF-1 (High) — pith colour
   - ARC-BUSHROSE-DEADWOOD-01, AF-2 (Moderate) — external bark colour
   - ARC-BUSHROSE-DEADWOOD-01, AF-3 (Moderate) — dormant bud presence
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-1 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-12 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-8 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-26 (Low) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate) — *added v1.3, 29 September 2026*
 - **Relevance:** Corroborates all three primary photographable identification signals.
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
 
 ---
 
@@ -278,7 +451,7 @@
 | PKR Type | Source PKR |
 | Title | University of Maryland Extension — Canker on Roses, Shrubs, and Vines |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Bush rose; canker/lookalike conditions |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001 |
@@ -289,7 +462,11 @@
 - **Source Identity:** University of Maryland Extension, "Canker on Roses, Shrubs, and Vines," https://extension.umd.edu/resource/canker-roses-shrubs-and-vines, accessed during FRD-BUSHROSE-DEADWOOD-01 research
 - **MIL References:**
   - ARC-BUSHROSE-DEADWOOD-01, AF-5 (Low) — lesion pattern / canker ambiguity
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-2 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-4 (High) — *added v1.1, 29 September 2026*
 - **Relevance:** One of two sources for the canker-lookalike caution.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
 
 ---
 
@@ -301,7 +478,7 @@
 | PKR Type | Source PKR |
 | Title | Ask Extension / Colorado Master Gardener Program, Denver County — Red/Purple Canes on Rose Bush |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Bush rose; canker/lookalike conditions |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001 |
@@ -312,7 +489,10 @@
 - **Source Identity:** Ask Extension / Colorado Master Gardener Program, Denver County, "Red/Purple Canes on Rose Bush...," https://ask.extension.org/kb/faq.php?id=743094, accessed during FRD-BUSHROSE-DEADWOOD-01 research
 - **MIL References:**
   - ARC-BUSHROSE-DEADWOOD-01, AF-5 (Low) — lesion pattern / canker ambiguity
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-10 (Low) — *added v1.1, 29 September 2026*
 - **Relevance:** Second of two sources for the canker-lookalike caution.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). **Web address check (Source Register, damaged growth §3.1): as of 29 September 2026 this address no longer shows the original "Red/Purple Canes" answer; it serves a different question (#828627). The original exchange cannot currently be re-checked online.** The findings citing it are unchanged; each also rests on other confirmed sources.*
 
 ---
 
@@ -324,7 +504,7 @@
 | PKR Type | Source PKR |
 | Title | American Rose Society — Basic Pruning Principles |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.5 |
 | Applies To | Bush rose; dead-wood identification and removal |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-OBS-000001, PKR-DEC-000001 |
@@ -338,7 +518,38 @@
   - ARC-BUSHROSE-DEADWOOD-01, AF-2 (Moderate) — external bark colour
   - ARC-BUSHROSE-DEADWOOD-01, AF-3 (Moderate) — dormant bud presence
   - ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue
+  - ARC-BUSHROSE-INWARDGROWTH-01, AF-1 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-6 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-8 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-WEAKCONGESTED-01, AF-13 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-8 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-10 (Low) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-41 (Low) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-24 (Low) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low) — *added v1.5, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-35 (Moderate) — *added v1.5, 29 September 2026*
 - **Relevance:** The rose-specialist society source; corroborates all three primary identification signals plus the cut-back rule.
+
+*Revision v1.5 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.4 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000005. Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for its citation by PKR-OBS/DEC-000002 and 000003 (`PKR-SRC-BUSHROSE-STRUCTURAL-submission.md` Part B). Source identity and relevance unchanged.*
 
 ---
 
@@ -446,7 +657,7 @@
 | PKR Type | Source PKR |
 | Title | University of Arkansas Cooperative Extension Service — Pruning |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Bush rose; dormancy / bud-swell signal and timing |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-SGT-000001 |
@@ -458,7 +669,13 @@
 - **MIL References:**
   - ARC-BUSHROSE-DORMANCY-01, AF-2 (High) — climate/hemisphere-dependent timing
   - ARC-BUSHROSE-DORMANCY-01, AF-3 (Moderate) — mild/warm-winter complications
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-20 (Low) — *added v1.1, 29 September 2026*
 - **Relevance:** Supports both the general timing finding and the mild-climate caveat.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
 
 ---
 
@@ -541,7 +758,7 @@
 | PKR Type | Source PKR |
 | Title | Dunedin Botanic Garden (New Zealand) — Practical Tips for Rose Pruning |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.4 |
 | Applies To | Bush rose; dormancy / timing (Southern Hemisphere) |
 | Founder Approval Date | 23 August 2026 |
 | Related PKRs | Supports PKR-SGT-000001 |
@@ -552,7 +769,28 @@
 - **Source Identity:** Dunedin Botanic Garden, "Practical Tips for Rose Pruning," https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning, accessed during FRD-BUSHROSE-DORMANCY-01 research
 - **MIL References:**
   - ARC-BUSHROSE-DORMANCY-01, AF-2 (High) — climate/hemisphere-dependent timing
+  - ARC-BUSHROSE-INWARDGROWTH-01, AF-2 (Low) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-INWARDGROWTH-01, AF-4 (Low) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-1 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-16 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-23 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-24 (Low) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate) — *added v1.4, 29 September 2026*
 - **Relevance:** The Southern Hemisphere data point (late July) anchoring the climate-dependent-timing finding's roughly five-month range.
+
+*Revision v1.4 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000004 (`PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md` Part B). Source identity unchanged.*
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for its citation by PKR-OBS/DEC-000002 and 000003 (`PKR-SRC-BUSHROSE-STRUCTURAL-submission.md` Part B). Source identity and relevance unchanged.*
 
 ---
 

@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-PRUNINGFRAMEWORK-01** |
 | ARC Title | Whole-Bush Pruning Framework for an Established, Dormant Bush Rose |
-| Version | 1.0 |
+| Version | 1.1 |
 | Approval Status | **Approved** |
 | Approval Date | 27 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-PRUNINGFRAMEWORK-04` §8 (all 41 Assessed Findings) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | ARC-BUSHROSE-DEADWOOD-01 (dead wood is governed there and not re-assessed here); ARC-BUSHROSE-RECENTPLANT-01; ARC-BUSHROSE-DORMANCY-01; ARC-BUSHROSE-BASICCARE-01 |
-| Revision History | v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-PRUNINGFRAMEWORK-04` (incorporating Revisions 1–3), Founder-approved for AF-1 to AF-41 as a whole, including the eleven recorded conflicts and the practical defaults adopted for them. |
+| Revision History | v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-PRUNINGFRAMEWORK-04` (incorporating Revisions 1–3), Founder-approved for AF-1 to AF-41 as a whole, including the eleven recorded conflicts and the practical defaults adopted for them. v1.1 — 29 September 2026 — §10 Source Register added (ROC Operations Manual §12.6/§12.10, v2.9), approved by Shaphan. No finding, confidence level, conflict or default changed. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01` |
 
@@ -671,6 +671,77 @@ The following were searched for directly and not found, or found only partially;
 ## 9. Downstream Note for KIT
 
 KIT should build this ARC's pruning-framework PKR content from AF-1 to AF-41 as approved (§3–§4), applying the practical defaults at §6 wherever a conflict (§5) would otherwise leave the guidance silent. Dead wood remains governed by `ARC-BUSHROSE-DEADWOOD-01` and should not be duplicated here. Findings not reaching High or Moderate confidence (several of AF-10, AF-11, AF-20, AF-24, AF-26, AF-30, AF-32, AF-33, AF-34, AF-39, AF-40, AF-41) should be presented with appropriate hedging rather than as settled fact, consistent with their recorded Evidence Confidence Level. Where a photo-based assessment is involved, AF-34 and AF-41 should inform what Pip claims to be able to judge from an image; KIT should not extend Pip's claimed photo-assessment capability beyond what AF-41 itself states as visually assessable.
+
+---
+
+## 10. Source Register
+
+Added at version 1.1 (29 September 2026) under ROC Operations Manual §12.6 and §12.10, from `Working/AI Outputs/Source_Register_Addendum_PRUNINGFRAMEWORK.md`. All accessed 29 September 2026.
+
+| Code | Source | Web address | Status | Findings | Verification |
+|---|---|---|---|---|---|
+| RHS | Royal Horticultural Society, "Rose Pruning: Floribunda & Hybrid Tea Roses" | <https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide> | Confirmed (existing record) | AF-1–3, 7, 9, 12–14, 18 |  |
+| DUN | Dunedin Botanic Garden, Linda Hellyer, "Practical Tips for Rose Pruning" | <https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning> | Confirmed (existing record) | AF-1, 2, 4, 5, 7, 14–17, 21, 23, 24, 27, 29 |  |
+| YAT | Yates New Zealand, "How to Prune Your Roses" | <https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/> | Confirmed (existing record) | AF-1–3, 5, 7, 8, 12–14, 17, 19, 21, 23, 25, 27–29 |  |
+| SPR | South Pacific Roses, "Pruning Your Roses" (28 Aug 2019) | <https://southpacificroses.co.nz/pruning-your-roses/> | Confirmed (existing record) | AF-1–3, 5, 12–14, 17, 19, 21, 27 |  |
+| ARS | American Rose Society, "Basic Pruning Principles" | <https://rose.org/basic-pruning-principles/> | Confirmed (existing record) | AF-1–3, 5–8, 10, 14, 21, 22, 24, 25, 27, 29, 30, 35, 41 |  |
+| KCRS | Kansas City Rose Society, "Pruning Roses" | <https://www.kansascityrosesociety.org/prune-roses> | Confirmed (existing record) | AF-1–7, 9, 12–15, 17, 19, 21, 29, 30 |  |
+| RBG | Red Butte Garden (Utah), Cheryl Underwood and Crystal Kim, "How to Prune Roses" | <https://redbuttegarden.org/gardening-information/how-to-prune-roses/> | Confirmed | AF-1–7, 12–14, 17, 19, 21, 22, 25, 27 | Title and authors match. |
+| OSU | Oregon State University Extension, Barbara McMullen, "Pruning roses" | <https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses> | Confirmed (existing record) | AF-1–4, 9, 11–16, 18, 21–28 |  |
+| ILL | University of Illinois Extension, "Pruning" (roses) | <https://extension.illinois.edu/roses/pruning> | Confirmed (existing record) | AF-1, 2, 5, 6, 8, 9, 12–17, 19–24, 29, 30 |  |
+| CLE | Clemson HGIC, Russ and Polomski, "Pruning Roses" (HGIC 1173) | <https://hgic.clemson.edu/factsheet/pruning-roses/> | Confirmed (existing record) | AF-1–6, 9, 12, 14–16, 19, 21, 22, 25, 27, 28, 30 |  |
+| ISU | Iowa State University Extension, Aaron Steil, "How to Prune Roses" | <https://yardandgarden.extension.iastate.edu/how-to/how-prune-roses> | Confirmed (existing record) | AF-1, 2, 4, 8, 12, 21, 22, 25–29 |  |
+| ISUF | Iowa State University Extension, "How should I prune hybrid tea roses in spring?" (FAQ, 3 Dec 2024) | <https://yardandgarden.extension.iastate.edu/faq/how-should-i-prune-hybrid-tea-roses-spring> | Confirmed | AF-21, 22 | Title and date match; the quarter-inch, slanted cut to an outward bud was found. |
+| CSU | PlantTalk Colorado, "1763 – Pruning Roses" | <https://planttalk.colostate.edu/topics/trees-shrubs-vines/1763-pruning-roses/> | Confirmed (existing record) | AF-2, 12, 14, 21–23 |  |
+| UCG | UC ANR Garden Notes, Marceline D. Sousa, "Tips for Confident Rose Pruning" (30 Dec 2021; upd. 31 Mar 2025) | <https://ucanr.edu/blog/garden-notes/article/tips-confident-rose-pruning> | Located (title match only) | AF-1–11, 13–17, 19, 21–25, 27–29, 31 | The page returned an access error (403) on 29 Sep. The dossier fetched it on 21 Sep, and the title matches in the search index. |
+| UCF | UC ANR Fresno Gardening Green, "Rosie's Corner: It's time to prune roses" (1 Feb 2025) | <https://ucanr.edu/blog/fresno-gardening-green/article/rosies-corner-its-time-prune-roses> | Confirmed | AF-2, 3, 5–9, 17, 20–22, 27, 28 | Title matches. |
+| UGA | University of Georgia CAES, Frank M. Watson, "Prune roses now for more blooms later" | <https://fieldreport.caes.uga.edu/news/prune-roses-now-for-more-blooms-later/> | Confirmed (existing record) | AF-2–4, 9, 14, 15, 17, 19, 21, 22, 30 |  |
+| UMD | University of Maryland Extension, "Guide to Pruning Roses" | <https://extension.umd.edu/resource/guide-pruning-roses> | Confirmed (existing record) | AF-1, 2, 7, 9, 12, 21, 25, 27, 30 |  |
+| PUR | Purdue Extension, Rosie Lerner, "Spring Pruning of Roses" | <https://www.purdue.edu/hla/sites/yardandgarden/spring-pruning-of-roses/> | Confirmed (existing record) | AF-1, 2, 8, 12, 14–16, 21, 29 |  |
+| TAMK | Texas A&M AgriLife, Welsh and Janne, "Follow Proper Pruning Techniques" (Earth-Kind) | <https://aggie-horticulture.tamu.edu/earthkind/landscape/proper-pruning-techniques/> | Confirmed (existing record) | AF-2, 5, 6, 21, 23, 25–29 |  |
+| TAMN | Texas A&M AgriLife Today, "Rose pruning tips for stronger, more vibrant flowers" (Arnold, Ong) | <https://agrilifetoday.tamu.edu/2025/02/11/rose-pruning-tips-for-stronger-more-vibrant-flowers> | Confirmed | AF-1 | Title matches; the date comes from the web address only. |
+| UAEX | University of Arkansas Extension, "Pruning" (roses reference desk, Q&A 2006–2015) | <https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx> | Confirmed (existing record) | AF-5, 7, 9, 17, 20 |  |
+| CCER | Cornell Cooperative Extension, Rockland County, Rocco Lapenta, "Rose Care" (rev. Dec 2010) | <https://rocklandcce.org/resources/rose-care> | Confirmed | AF-1, 2, 7, 15, 16, 18–20 | Title, author and revision date match. |
+| MOEXT | University of Missouri Extension, David H. Trinklein, "Roses: Care After Planting" (G6601) | <https://extension.missouri.edu/g6601> | Confirmed, with a note | (log: AF-39) | The dossier's contribution map links this to AF-39, but ARC AF-39 doesn't cite it and the page doesn't address replacing a weak bush. This is a contribution-map inconsistency, with no effect on any finding. |
+| RHS2 | Royal Horticultural Society, "Rose Pruning: General Tips" | <https://www.rhs.org.uk/plants/roses/pruning-guide> | Confirmed (existing record) | AF-38 |  |
+| AUSSA | Rose Society of South Australia, Doug Gregory, "Pruning Roses – A Home Gardener's Guide" | <https://sarose.org.au/growing-advice/pruning-roses-a-home-gardener-s-guide> | Confirmed (existing record) | AF-38 |  |
+| AUSVIC | Rose Society of Victoria, "The Pruning Bible" | <https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/> | Confirmed (existing record) | (log) |  |
+| AUSNSW | Rose Society of NSW, "Rose Growing Advice" | <https://nsw.rose.org.au/growing-roses> | Confirmed (existing record) | (log) |  |
+| ZALR | Ludwig's Roses, "Winter Pruning" | <https://www.ludwigsroses.co.za/rose-growing-tips/rose-care/winter-pruning/> | Confirmed (existing record) | AF-38 |  |
+| HARRIS94 | Richard W. Harris, "Clarifying Certain Pruning Terminology: Thinning, Heading, Pollarding", *Journal of Arboriculture* 20(1):50–54 (1994) | <https://auf.isa-arbor.com/content/20/1/50> | Confirmed | AF-31 | Citation details match. |
+| UCMARIN-CUTS | UC Marin Master Gardeners, "Pruning Cuts" | <https://ucanr.edu/site/uc-marin-master-gardeners/pruning-cuts> | Located (title match only) | AF-31 | The page returned an access error (403). |
+| CBG | Chicago Botanic Garden, Karen Zaworski (with Tom Soulsby), "Pruning Mature Roses?" | <https://www.chicagobotanic.org/plant-information/smart-gardener/pruning-mature-roses> | Confirmed (existing record) | AF-32 |  |
+| PRS | Portland Rose Society Guide To Pruning Roses (Gaga's Garden, 2019) | <https://gagasgarden.com/2019/04/portland-rose-society-guide-to-pruning-roses/> | Confirmed (existing record) | AF-33 |  |
+| MSSTATE | Mississippi State University Extension, Melanson, "Taking Photos of Plant Disease Problems" (P3022) | <https://extension.msstate.edu/publications/taking-photos-plant-disease-problems> | Confirmed (existing record) | AF-34 |  |
+| ISU-PHOTO | Iowa State University Extension PIDC, "Photography (Plant problems)" | <https://yardandgarden.extension.iastate.edu/pidc/photography> | Confirmed (existing record) | AF-34 |  |
+| CORNELL-PHOTO | Cornell Cooperative Extension (Cornell Vegetable Program), Elizabeth Buck, "How to Take a Photo for Crop Diagnostics" (May 2020) | <https://rvpadmin.cce.cornell.edu/uploads/doc_868.pdf> | Confirmed | AF-34 | Title, author and date match. |
+| CSU-DIAG | Colorado State University Extension, Whiting and O'Meara (rev. Small, 2017), "CMG GardenNotes #102: Diagnosing Plant Disorders" | <https://cmg.extension.colostate.edu/Gardennotes/102.pdf> | Confirmed | AF-34 | Quote found: "It is really best to see a sample." |
+| UA-SCHALAU | University of Arizona Cooperative Extension, Yavapai County, Jeff Schalau, "Pruning Sealants" (19 Jun 2022) | <https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/PruningSealants.pdf> | Confirmed | AF-35 | Both quotes found (rose pith attracts carpenter bees and wasps; wood glue on cut ends). |
+| PTC-BORER | PlantTalk Colorado, "1463 – Rose Cane Borer" | <https://planttalk.colostate.edu/topics/insects-diseases/1463-rose-cane-borer/> | Confirmed (existing record) | AF-35 |  |
+| TAMK-ELP | Texas A&M AgriLife / El Paso County Master Gardeners, "Rose Pruning Handout" | <https://elp.tamu.edu/files/2010/10/Rose-Pruning-Handout-Feb-2010.pdf> | Confirmed (existing record) | AF-35 |  |
+| CLARK-MATHENY | James R. Clark and Nelda Matheny, "The Research Foundation to Tree Pruning: A Review of the Literature", *Arboriculture & Urban Forestry* 36(3):110–120 (2010) | <https://auf.isa-arbor.com/content/36/3/110> | Confirmed | AF-35 | Finding confirmed: dressings "neither improved closure nor reduced the presence of decay". |
+| TAMK-SA | Douglas Welsh (Texas A&M), submitted by Lynn Rawe, "Roses Part 2 – The Mystery of Pruning", San Antonio Express-News "Gardening, ETC." (6 Feb 2005), archived by Texas A&M AgriLife Bexar County | <https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/roses-part-2-the-mystery-of-pruning/> | Confirmed | AF-36 | Quote found: "These canes are usually gray in color and scaly." |
+| UA-YAV-ROSES | University of Arizona Cooperative Extension, Yavapai County, Phyllis Jiacalone, "Roses" (presentation, Feb 2021) | <https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/RosePresentationZoomFeb2021.pdf> | Confirmed | AF-36, 37 | Quotes found: "scrub old gray crusty wood"; Grandiflora "Leave 3-7 canes", "Cut height back by 1/3 to 1/2"; Hybrid Tea "5 to 8 canes". |
+| HRS | Houston Rose Society, Baxter Williams, "Pruning Basics", *The Houston Rose-Ette* 54(2) (Feb 2017) | <https://www.houstonrose.org/nwsl0217.pdf> | Confirmed | AF-36 | Quote found: "grey, streaked bark with missing or disintegrating prickles". |
+| ARS-CRM | American Rose Society, *Consulting Rosarian Manual*, 4th ed. (Oct 2019; rev. Mar 2021) | <https://rose.org/wp-content/uploads/2024/05/Consulting-Rosarian-Manual.pdf> | Confirmed | AF-37 | Confirmed: "Hybrid Teas and Grandifloras" is its own pruning section, separate from "Floribundas". |
+| LSU | LSU AgCenter, Dan Gill, "Prune roses now" (9 Feb 2018) | <https://www.lsuagcenter.com/profiles/rbogren/articles/page1518102296161> | Confirmed | AF-37 | Quotes found (hybrid tea and grandiflora paired; floribunda "less drastic"). |
+| HEI | Heirloom Roses, "Understanding Grandiflora Roses" | <https://heirloomroses.com/blogs/how-to-articles/understanding-grandiflora-roses-the-bridge-between-hybrid-teas-and-floribundas> | Confirmed (existing record) | AF-37 |  |
+| RHS-RENOV | Royal Horticultural Society, "Renovating Overgrown Shrubs" | <https://www.rhs.org.uk/plants/types/shrubs/renovation> | Confirmed | AF-39 | Quote found: "Weak or sickly plants are best replaced." |
+| ISU-OVERGROWN | Iowa State University Extension, Richard Jauron and Aaron Steil, "Pruning Large, Overgrown Shrubs" | <https://yardandgarden.extension.iastate.edu/how-to/pruning-large-overgrown-shrubs> | Confirmed | AF-39 | Quote found (overgrown conifers "will need to be removed and new shrubs planted"). |
+| NCSU | NC State Extension, Barbara Fair, "General Pruning Techniques" | <https://content.ces.ncsu.edu/general-pruning-techniques> | Confirmed (existing record) | AF-40, 41 |  |
+| CSU-ADAMS | "Colorado State University Extension (Adams County), Pruning Mature Shade Trees" — a tiered pruning-dose table | — | **Not confirmed** | AF-40 | The CSU "Pruning Mature Shade Trees" found (GardenNotes #615, hosted by CSFS) gives "a maximum of 10% of a mature tree's foliage", not the tiered table the dossier describes. The Adams County version wasn't found. Not substituted. |
+| SEATTLE | City of Seattle, Department of Trees, "Pruning Mature Trees" (an International Society of Arboriculture handout) | <https://www.seattle.gov/Documents/Departments/Trees/PlantingAndCare/Pruning/Pruning_MatureTrees.pdf> | Confirmed | AF-40 | Quote found: "no more than 25% of the crown should be removed at once, and less for mature trees". The document credits the ISA. |
+| UCMARIN-FUND | UC Marin Master Gardeners, "Pruning Fundamentals" | <https://ucanr.edu/site/uc-marin-master-gardeners/pruning-fundamentals> | Confirmed | AF-40 | Quote found: "at each pruning, remove no more than one-third of a shrub or tree". |
+| HG | Homes & Gardens, Holly Crossley, "This simple 1/3 pruning rule is easy to follow" (4 Feb 2023) | <https://www.homesandgardens.com/gardens/one-third-pruning-rule> | Confirmed | AF-40 | One-third rule with stress and regrowth reasoning. |
+| DA-SHRUB | David Austin Roses, "How to Prune Repeat Flowering Shrub Roses" | <https://www.davidaustinroses.com/blogs/rose-care/how-to-prune-an-english-shrub-rose> | Confirmed | AF-41 | Both quotes found ("Step back often, look at the outline..."; the stem-bend test). |
+| OCRS | Orange County Rose Society, "Pruning a Rose" | <https://www.orangecountyrosesociety.org/pruning-a-rose> | Confirmed (existing record) | AF-41 |  |
+| HOUZZ | A Houzz rose-grower forum discussion (a cane that looked sound outside proved compromised on a trial cut) | — | **Not identified** | AF-41 | Not identified in the dossier. Several similar threads exist, and none can be matched. Not substituted. AF-41 (Low) rests on four other sources. |
+
+**Founder decisions recorded (Shaphan, 29 September 2026), for downstream use (not changes to findings):**
+
+- **C7 cane count:** Pip presents 3–7 as the range, with 4–6 as typical, harmonised with `ARC-BUSHROSE-WEAKCONGESTED-01` C-2.
+- **AF-37:** Grandifloras are treated exactly as Hybrid Teas, without the gentler-cutback nuance, consistent with `ARC-BUSHROSE-ROSETYPE-01` R-4.
+- **AF-8:** sucker removal is held pending ROC research (`Working/AI Outputs/Research_Commission_Record_Rootstock_Suckers.md`).
 
 ---
 
