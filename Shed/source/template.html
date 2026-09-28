@@ -4869,6 +4869,10 @@
           '<input type="checkbox" class="new-notice-approval">' +
           '<span>This notice requires approval</span>' +
         '</label>' +
+        '<label class="approval-check new-notice-email-founders-row" style="margin-left:22px; display:none;">' +
+          '<input type="checkbox" class="new-notice-email-founders">' +
+          '<span>Send as a Founder Attention Request (emails both Founders)</span>' +
+        '</label>' +
         '<button type="button" class="btn new-notice-create">Create &amp; Link</button>' +
         '<span class="new-notice-msg" style="font-size:.78rem; color:#a33;"></span>' +
       '</div>';
@@ -4878,6 +4882,13 @@
       var willShow = formWrap.style.display === "none";
       formWrap.style.display = willShow ? "block" : "none";
       if(willShow) createWrap.querySelector(".new-notice-title").focus();
+    });
+    var emailFoundersRowMini = createWrap.querySelector(".new-notice-email-founders-row");
+    var emailFoundersInMini = createWrap.querySelector(".new-notice-email-founders");
+    createWrap.querySelector(".new-notice-approval").addEventListener("change", function(){
+      var checked = createWrap.querySelector(".new-notice-approval").checked;
+      emailFoundersRowMini.style.display = checked ? "" : "none";
+      if(!checked) emailFoundersInMini.checked = false;
     });
     createWrap.querySelector(".new-notice-create").addEventListener("click", function(){
       var titleIn = createWrap.querySelector(".new-notice-title");
@@ -4890,7 +4901,8 @@
       createBtn.disabled = true; msg.textContent = "";
       sb.rpc("shed_add_notice", {
         p: window.SHED_PASSPHRASE, ttl: ttl, bdy: bodyIn.value.trim(),
-        req_approval: approvalIn.checked, want_reply: false, want_upload: false
+        req_approval: approvalIn.checked, want_reply: false, want_upload: false,
+        email_founders: emailFoundersInMini.checked
       }).then(function(res){
         createBtn.disabled = false;
         if(res.error || !res.data){ msg.textContent = (res.error && res.error.message) || "Couldn't create that notice. Please try again."; return; }
@@ -5968,6 +5980,10 @@
           '<input type="checkbox" class="requires-approval-check">' +
           '<span>This notice requires approval</span>' +
         '</label>' +
+        '<label class="approval-check email-founders-check" style="margin-top:2px; margin-left:22px; display:none;">' +
+          '<input type="checkbox" class="email-founders-check-input">' +
+          '<span>Send as a Founder Attention Request (emails both Founders)</span>' +
+        '</label>' +
         '<div class="link-doc-row" style="display:flex; align-items:center; gap:8px; margin-bottom:6px; flex-wrap:wrap;">' +
           '<button type="button" class="btn ghost choose-doc">Link a document…</button>' +
           '<button type="button" class="btn ghost upload-doc">Upload a document…</button>' +
@@ -5999,6 +6015,16 @@
     overlay.querySelector(".closebtn").addEventListener("click", close);
 
     var requiresCheck = overlay.querySelector(".requires-approval-check");
+    var emailFoundersRow = overlay.querySelector(".email-founders-check");
+    var emailFoundersCheck = overlay.querySelector(".email-founders-check-input");
+    // The email option only makes sense for a notice that requires approval -- it's offered
+    // as a sub-option nested under that checkbox (27 September 2026, Founder-requested),
+    // never as a standalone way to email the Founders. Hidden and cleared whenever "requires
+    // approval" is unchecked, so an unrelated notice can't be left with it silently still on.
+    requiresCheck.addEventListener("change", function(){
+      emailFoundersRow.style.display = requiresCheck.checked ? "" : "none";
+      if(!requiresCheck.checked) emailFoundersCheck.checked = false;
+    });
     var linkRow = overlay.querySelector(".link-doc-row");
     var linkedLabel = overlay.querySelector(".linked-doc-label");
     var warningBox = overlay.querySelector(".existing-notice-warning");
@@ -6073,6 +6099,7 @@
           overlay.querySelector(".titlein").value = t.title;
           overlay.querySelector(".bodyin").value = t.body;
           requiresCheck.checked = t.requires_approval;
+          emailFoundersCheck.checked = !!t.email_founders;
           requiresCheck.dispatchEvent(new Event("change"));
         }
       });
@@ -6217,7 +6244,8 @@
       sb.rpc("shed_add_notice", {
         p: window.SHED_PASSPHRASE, ttl: entry.title, bdy: entry.body,
         req_approval: requiresCheck.checked, linked_id: linkedItem ? linkedItem.id : null,
-        want_reply: wantReply, want_upload: wantUpload
+        want_reply: wantReply, want_upload: wantUpload,
+        email_founders: emailFoundersCheck.checked
       }).then(function(res){
         pinBtn.disabled = false;
         if(res.error){
