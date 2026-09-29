@@ -9,11 +9,12 @@
  * PKR is revised first and this file is updated to match it, never the
  * other way around.
  *
- * Currently wires in PKR-SGT-000002 (Recently Planted) only. PKR-SGT-000001
- * (Dormancy) is still Draft — Dependency-Blocked, so Journey.tsx's dormancy
- * checklist item is deliberately left as a static self-attestation item
- * until that gate actually publishes.
+ * Wires in all three Published gates: PKR-SGT-000003 (rose type, v1.0),
+ * PKR-SGT-000002 (recently planted, v1.0) and PKR-SGT-000001 (dormancy,
+ * v1.1: governs structural pruning only; a stop offers the removal-only
+ * session). Their gardener-facing wording lives in data/pkr.ts.
  */
+import { ROSE_TYPE_GATE, publishedObservations, type ObservationDef, type RoseTypeAnswerId } from '@/data/pkr'
 
 /** PKR-SGT-000002, Primary Question — the gardener's answer, or that they don't know. */
 export type RecentlyPlantedPrimaryAnswer = 'established' | 'recent' | 'unknown'
@@ -34,7 +35,7 @@ export type RecentlyPlantedGateResult =
   | { status: 'restricted'; allowedObservationIds: string[]; reason: string }
 
 /**
- * Observation ids (see data/observationScript.ts) permitted when the gate
+ * Observation keys (see data/pkr.ts) permitted when the gate
  * restricts to dead-wood-only. Per AF-1, dead wood removal is explicitly
  * exempted from the "wait until established" finding — see PKR-SGT-000002
  * §4, "Why Dead Wood Is Exempted." This gate does not govern
@@ -94,4 +95,41 @@ export function evaluateRecentlyPlantedFallback(
     reason:
       "We can't confirm this rose is established enough yet, so we'll only look at dead wood today, to stay safe.",
   }
+}
+
+/** PKR-SGT-000003: only a stated Hybrid Tea, Floribunda or Grandiflora passes. */
+export function evaluateRoseType(answer: RoseTypeAnswerId): 'passes' | 'journal-only' | 'rose-finder' {
+  if (answer === 'variety-only') return 'rose-finder'
+  const a = ROSE_TYPE_GATE.answers.find((x) => x.id === answer)
+  return a && a.passes ? 'passes' : 'journal-only'
+}
+
+/** PKR-SGT-000001 v1.1 answers. */
+export type DormancyAnswer = 'dormant' | 'growing' | 'not-sure'
+
+/**
+ * PKR-SGT-000001 v1.1: 'dormant' passes (full journey). 'growing' and
+ * 'not-sure' do not pass for structural pruning; either way the removal-only
+ * session (§2.1) is offered.
+ */
+export function evaluateDormancy(answer: DormancyAnswer): 'passes' | 'removal-only' {
+  return answer === 'dormant' ? 'passes' : 'removal-only'
+}
+
+/**
+ * Which Published observations this session offers, from the gate results.
+ * Each observation's own flags (data/pkr.ts) carry what its PKRs allow:
+ * SGT-000002 restricted -> only observations exempt from it (dead wood);
+ * SGT-000001 not passed -> only removal of dead/damaged/diseased wood and
+ * suckers (PKR-DEC-000007 D1(b): any season).
+ */
+export function sessionObservations(opts: {
+  recentlyPlantedRestricted: boolean
+  dormancyPassed: boolean
+}): ObservationDef[] {
+  return publishedObservations().filter(
+    (o) =>
+      (!opts.recentlyPlantedRestricted || o.allowedWhenRecentlyPlanted) &&
+      (opts.dormancyPassed || o.allowedAfterBudBreak),
+  )
 }

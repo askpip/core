@@ -4,12 +4,12 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.1
+**Version:** 0.2
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `AI/Context/Ask_Pip_App_Build_Status_Context.md`
-**Last Updated:** 23 September 2026
+**Last Updated:** 29 September 2026
 **Purpose:** To give any artificial intelligence (AI) or Founder a current, accurate snapshot of what is actually built in the Ask Pip application, what is deliberately deferred and why, and what remains blocked pending Founder-approved knowledge — without requiring that state to be reconstructed from git history, conversation history or a fresh reading of every source file.
 **Related Documents:** `AGENTS.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `MVP/Architecture/Ask_Pip_App_Engineering_Architecture.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `Working/AI Outputs/Ask_Pip_Bush_Rose_Guided_Journey_Flow_Proposal.md`; `AI/Context/Ask_Pip_App_Known_Issues_and_Process_Notes_Context.md`
 
@@ -37,7 +37,7 @@ The Flow Proposal's Build Sequence (§12) defines Phase A as everything the guid
 
 **Trace-the-stem confirmation** (`App/src/pages/Journey.tsx`). Every "Cut" decision is gated by a confirmation asking whether the gardener can trace the stem to the exact point they intend to cut, before the existing safety-checklist confirmation (which only fires when something on that checklist was left unsure) gets a chance to run.
 
-**Journey pause and resume** (`App/src/pages/Journey.tsx`). `beginObservations()` now reconciles the project's already-saved observations against the current `allowedObservations` list, matched by the `feature` string (see the Engineering Architecture's note on why `id` cannot be used for this match), and resumes at the first observation not yet completed rather than restarting the sequence.
+**Journey pause and resume** (`App/src/pages/Journey.tsx`). Revised 29 September 2026: because every observation now loops and can have several instances, `beginObservations()` treats an observation as finished only when its explicit `'none-remaining'` marker row has been saved (written when the gardener answers no to "Can you see any more …?"). It resumes at the first observation of the session without a marker. Markers are hidden from the plant journal and from its confidence figure (`App/src/pages/PlantProject.tsx`). **The live database needs a one-line constraint change before markers can be saved** (see §3.3).
 
 **Prominent Learn entry point** (`App/src/pages/Library.tsx`). A "Learn with Pip" card now sits on the home/plant-list screen, in addition to the existing `/learn` entry in the header's overflow menu.
 
@@ -53,20 +53,39 @@ The Flow Proposal's Build Sequence (§12) defines Phase A as everything the guid
 
 The Flow Proposal's §12 Build Sequence also lists a front-door explainer, a Learn "About Ask Pip" shelf, and contextual links throughout the app. `App/src/pages/AboutPip.tsx` and the "About Ask Pip" topics in `App/src/data/learnTopics.ts` already exist in the codebase, but their exact scope has not been checked line-by-line against the Flow Proposal's specification in the course of producing this document. Treat their status as **likely built, not verified** until a future session does that reconciliation, and update this section once it has.
 
+## 3.3 Guided Journey Wired to Published PKRs (29 September 2026)
+
+The pruning journey now runs on Published knowledge. `npm run build` (TypeScript and Vite) and `oxlint` pass in the cloud clone. **The journey has not yet been clicked through in a browser**, because that needs a signed-in session.
+
+- **PKR data module** (`App/src/data/pkr.ts`, `App/src/data/pkrSources.ts`). Gardener-facing wording is transcribed from the Published PKRs: SGT-000001 v1.1, SGT-000002, SGT-000003, OBS/DEC-000001 to 000007, and CGD-000001 to 000006. Every record carries id, version and status. Only `Published` records are exposed, through the `published*` accessors. `pkrSources.ts` is generated from the Source PKR files and lists each PKR's Supporting Source(s) with its web address. It feeds "Where this comes from".
+- **Rose-type gate** (PKR-SGT-000003). It runs first. Only a stated Hybrid Tea, Floribunda or Grandiflora passes; Grandiflora shows its provisional note. A known variety name goes to the NZ Rose Society Rose Finder. Every other answer ends at a journal-only screen saying "I can't yet help prune this rose…". No basic care is shown there.
+- **Dormancy gate** (PKR-SGT-000001 v1.1). Interactive, with the mild-climate caveat and the "Not sure" fallback wording. It replaces the old self-attested checkbox. Dormant gives the full journey. Growing, or still not sure, gives the removal-only session: dead wood, damaged growth and suckers, with its conditions and the late-season advisory.
+- **Recently-planted gate** (PKR-SGT-000002). Unchanged. When it restricts, the session is dead wood only.
+- **Observations.** The session runs through dead wood, damaged growth, crossing/rubbing, inward, weak/congested, suckers and main framework, each filtered by the gates. Each observation offers Confirmed, Doesn't match and Not sure.
+  - **Doesn't match** is recorded and never reaches Cut. The one exception is the framework's defined old-wood path.
+  - **Not sure** shows the record's own guidance. If the gardener is still unsure, only the non-Cut choices are offered.
+  - Each observation loops on "Can you see any more …?".
+  - **Suckers** add the visible-bud-union step (D6). The growing-season supporting signs appear only in the removal-only session (D5).
+- **Decision Logic.** Each observation shows its DEC record's choices and notes with per-claim confidence. Cut still requires the trace-the-stem confirmation and the safety-checklist check.
+- **Care Guidance at its presentation points.**
+  - CGD-000001 (tools) and CGD-000003 (one-third advisory) appear before the first Cut under DEC-000001 to 000006. The advisory repeats after every third such Cut.
+  - CGD-000002 (making the cut) appears after the Cut is confirmed, using the part that fits the kind of cut.
+  - Sucker removal shows DEC-000007's own method instead.
+- **Basic-care branch.** When SGT-000001 or SGT-000002 limited the session, CGD-000005 (if recently planted), CGD-000004 and CGD-000006 are shown before the summary, with the UK/US disclosure. Nothing is shown for journal-only roses.
+- **Removed:** `App/src/data/observationScript.ts`, the old four-item script with three placeholders.
+
+**Outstanding for the app:**
+
+- **Database change.** Allow `'none-remaining'` in `observations.outcome`. The SQL is in `App/supabase/schema.sql` (29 Sep 2026 block). It needs applying to Supabase project `lapscltduzkbldfwcemq`. Until then the marker insert fails, and resume falls back to asking again.
+- **Rose type isn't saved** on the plant. It's asked at the start of each journey. Saving it needs a new column.
+- **Basic care in the plant journal.** The care reference that CGD-000004 and CGD-000006 list as a presentation point isn't built. It depends on the rose type being saved.
+- **Comparison images** are still a documented gap. The UI says so.
+
 # 4. Phase B — Blocked on Founder-Approved Knowledge
 
 Phase B covers the Primer's remaining horticultural cards, the "Pruning your bush rose" Learn shelf, the before-you-cut lesson, and observation ordering. None of it can be built with real content until the underlying research clears Founder review, is compiled into an Approved Research Compilation (ARC), and is published as a PIP Knowledge Record (PKR) by the Knowledge Integration Technician (KIT). Writing placeholder horticultural content into the app ahead of that is exactly the problem `learnTopics.ts`'s own governing comment warns against, and shall not be done to make Phase B appear further along than it is.
 
-As of this document's last update, six Founder Review Dossiers (FRDs) sit fully drafted and awaiting Founder review, each with zero recorded review-form responses:
-
-- FRD-BUSHROSE-PRUNINGFRAMEWORK-04 (pruning a dormant bush rose as a whole)
-- FRD-BUSHROSE-BASICCARE-02 (basic bush rose care, apart from pruning)
-- FRD-BUSHROSE-STEMCROSSING-01 (crossing or rubbing stems)
-- FRD-BUSHROSE-INWARDGROWTH-01 (inward-growing stems)
-- FRD-BUSHROSE-WEAKCONGESTED-01 (weak or congested growth)
-- FRD-BUSHROSE-DAMAGEDGROWTH-01 (damaged growth)
-
-Each has a linked Garden Shed Office "Founder Attention Request" notice and a corresponding to-do. Check `shed_form_responses` directly for current review status (§5) rather than assuming this list is still accurate — Founder review is exactly the kind of state this document cannot track live.
+**Updated 29 September 2026:** the six FRDs previously listed here were all reviewed, compiled into ARCs, and published as PKRs. The suckers and post-bud-break commissions were published too. The guided journey itself is no longer blocked (§3.3). What remains Phase B is the Primer's horticultural cards, the "Pruning your bush rose" Learn shelf and the before-you-cut lesson, which can now be written from the Published PKRs.
 
 # 5. Verifying Current Status Directly
 
@@ -79,5 +98,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 # 6. Revision Log
 
 - **23 September 2026 (Version 0.1):** Initial version. Records Phase A as built: photo-first onboarding, trace-the-stem confirmation, journey pause/resume, the Learn home-screen entry point, and confirms journal/growth visibility was already complete. Records the knot-question/photo-spot fields and the Primer shell as deferred within Phase A, and the front-door explainer / About Ask Pip shelf / contextual links as built but not yet reconciled against the Flow Proposal's exact specification. Records six FRDs as the current Phase B blocker.
+
+- **29 September 2026 (Version 0.2):** Added §3.3, the guided journey wired to Published PKRs: PKR data module, rose-type and interactive dormancy gates, removal-only session, observation loops with the none-remaining resume marker, Decision Logic, Care Guidance and the basic-care branch. The build passes. Recorded as outstanding: the database constraint change, rose type not saved, the journal care reference, and comparison images. §4 updated because the six FRDs are now published.
 
 # End of Document

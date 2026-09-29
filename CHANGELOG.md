@@ -14,6 +14,19 @@ Git provides the complete technical history of the repository. This changelog re
 
 ### Added
 
+- **Guided pruning journey wired to Published knowledge (29 September 2026).** `App/src/pages/Journey.tsx` rebuilt on a new PKR data module (`App/src/data/pkr.ts`, generated `pkrSources.ts`), which exposes only Published records:
+  - **Gates:** the rose-type gate (SGT-000003) runs first and gives a journal-only outcome. The dormancy gate (SGT-000001 v1.1) is now interactive; if the rose is already growing, Pip offers a removal-only session for dead, damaged or diseased wood and suckers.
+  - **Observations:** all seven run from their OBS/DEC records, each looping on "any more?". Doesn't Match and Not Sure never reach Cut.
+  - **Care Guidance:** CGD-000001, 000002 and 000003 appear at their presentation points. The basic-care branch (CGD-000004, 000005 and 000006) appears when a gate limits the session, and not for journal-only roses.
+  - **Resume:** uses an explicit `'none-remaining'` marker per observation. The schema change is in `App/supabase/schema.sql` and still needs applying to the live database.
+  - **Build:** `npm run build` passes. The journey has not yet been clicked through in a browser.
+- **Rootstock suckers and removal after bud break researched and published (29 September 2026).** Two research commissions were run in parallel, and both dossiers were approved by Shaphan in chat:
+  - **ARCs:** ARC-BUSHROSE-SUCKERS-01 and ARC-BUSHROSE-POSTBUDBREAK-01, each with a Source Register.
+  - **Suckers:** a new observation (PKR-OBS/DEC-000007). Removal is guided only when the shoot starts below a visible bud union; tearing is the main method and a clean cut the alternative. Removal is allowed in any season, with the recently-planted gate still applying.
+  - **Dormancy gate (PKR-SGT-000001 v1.1):** now governs structural pruning only. Confirmed dead, damaged or diseased wood may be removed after bud break, under conditions.
+  - **Decision Logic:** PKR-DEC-000001 and 000004 are at v1.1. Frost-damaged canes deferred earlier are now handled when the gardener returns.
+  - **Framework (OBS/DEC-000006 v1.1):** now points to the sucker observation.
+  - **Sources:** SRC-000139 to 000180 added, and 19 existing Source PKRs gained new MIL references. ARC-BUSHROSE-STEMCROSSING-01 moved to `Mother Information Library/ARCs/`.
 - **Bush rose pruning knowledge completed and published (29 September 2026).** Knowledge work for the three MVP build goals, approved by Shaphan in chat:
   - **Rose-type gate:** PKR-SGT-000003. Only a stated Hybrid Tea, Floribunda or Grandiflora enters pruning; every other rose is journal-only, with Pip saying it can't support pruning it yet.
   - **The five remaining observations:** Observation and Decision Logic PKRs published as PKR-OBS/DEC-000002 to 000006 (crossing/rubbing, inward-growing, damaged growth, weak/congested, main framework). Each loops ("any more?") until the gardener says no.

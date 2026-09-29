@@ -162,11 +162,18 @@ create table if not exists public.observations (
   feature text not null,
   pip_proposal text not null,
   comparison_note text not null,
-  outcome text not null check (outcome in ('confirmed', 'corrected', 'unresolved')),
+  outcome text not null check (outcome in ('confirmed', 'corrected', 'unresolved', 'none-remaining')),
   correction text,
   choice text check (choice in ('cut', 'leave', 'decide-later', 'get-help')),
   created_at timestamptz not null default now()
 );
+
+-- 29 Sep 2026: 'none-remaining' is Journey.tsx's per-observation "no more of
+-- these" marker (the gardener answered no to "Can you see any more …?"), used
+-- to resume a journey when an observation had several instances.
+alter table public.observations drop constraint if exists observations_outcome_check;
+alter table public.observations add constraint observations_outcome_check
+  check (outcome in ('confirmed', 'corrected', 'unresolved', 'none-remaining'));
 
 create table if not exists public.follow_ups (
   id uuid primary key default gen_random_uuid(),

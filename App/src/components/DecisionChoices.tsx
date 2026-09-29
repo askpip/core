@@ -1,28 +1,34 @@
 import { cn } from '@/lib/utils'
 import type { Choice } from '@/lib/types'
 
-const CHOICES: { id: Choice; label: string }[] = [
-  { id: 'cut', label: 'Cut' },
-  { id: 'leave', label: 'Leave' },
-  { id: 'decide-later', label: 'Decide later' },
-  { id: 'get-help', label: 'Get experienced local help' },
+export interface DecisionChoiceOption {
+  choice: Choice
+  label: string
+}
+
+const DEFAULT_CHOICES: DecisionChoiceOption[] = [
+  { choice: 'cut', label: 'Cut' },
+  { choice: 'leave', label: 'Leave' },
+  { choice: 'decide-later', label: 'Decide later' },
+  { choice: 'get-help', label: 'Get experienced local help' },
 ]
 
 interface DecisionChoicesProps {
   onChoose: (choice: Choice) => void
+  /** The choices a Decision Logic PKR offers here (Architecture 5.3). Defaults to the four standard choices. */
+  options?: DecisionChoiceOption[]
 }
 
-/** The four supported outcomes for every confirmed observation (Architecture 5.3). */
-export function DecisionChoices({ onChoose }: DecisionChoicesProps) {
+export function DecisionChoices({ onChoose, options = DEFAULT_CHOICES }: DecisionChoicesProps) {
   return (
     <div className="grid grid-cols-2 gap-2.5">
-      {CHOICES.map((c) => (
+      {options.map((c) => (
         <button
-          key={c.id}
-          onClick={() => onChoose(c.id)}
+          key={c.choice + c.label}
+          onClick={() => onChoose(c.choice)}
           className={cn(
             'rounded-xl border border-pip-border bg-pip-card px-3 py-3 text-sm font-medium text-pip-text transition-colors hover:border-pip-primary hover:bg-pip-secondary',
-            c.id === 'get-help' && 'col-span-2',
+            (c.choice === 'get-help' || c.label.length > 14) && 'col-span-2',
           )}
         >
           {c.label}

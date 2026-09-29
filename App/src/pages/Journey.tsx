@@ -7,7 +7,6 @@ import { AppHeader } from '@/components/AppHeader'
 import { ChatBubble } from '@/components/ChatBubble'
 import { ResponseBubble } from '@/components/ResponseBubble'
 import { Button } from '@/components/Button'
-import { PhotoPlaceholder } from '@/components/PhotoPlaceholder'
 import { PhotoUpload } from '@/components/PhotoUpload'
 import { JourneyCloseUps } from '@/components/JourneyCloseUps'
 import { DecisionChoices } from '@/components/DecisionChoices'
@@ -15,71 +14,63 @@ import { InfoModal } from '@/components/InfoModal'
 import { useProjects } from '@/lib/store'
 import { usePlantPhotoUrl } from '@/lib/photos'
 import { askPipAboutDeadWood } from '@/lib/pipObserve'
-import { observationScript } from '@/data/observationScript'
 import { CONFIDENCE_EXPLANATIONS } from '@/data/confidenceDefinitions'
 import {
+  ADVISORY_EVERY_N_CUTS,
+  CARE_DISCLOSURE,
+  DORMANCY_GATE,
+  MAKING_THE_CUT,
+  ROSE_TYPE_GATE,
+  SUCKER_REMOVAL,
+  SUCKER_STEPS,
+  publishedCare,
+  sourcesFor,
+  type CareGuidance,
+  type DecisionOption,
+  type ObservationDef,
+  type RoseTypeAnswerId,
+  type Statement,
+} from '@/data/pkr'
+import {
+  evaluateDormancy,
   evaluateRecentlyPlantedFallback,
   evaluateRecentlyPlantedPrimary,
+  evaluateRoseType,
+  sessionObservations,
 } from '@/lib/suitabilityGates'
 import type {
+  DormancyAnswer,
   RecentlyPlantedFallbackSignals,
   RecentlyPlantedGateResult,
   RecentlyPlantedPrimaryAnswer,
 } from '@/lib/suitabilityGates'
-import type { ObservationOutcome, ObservationRecord, SafetyChecklistEntry, Choice } from '@/lib/types'
+import type { Choice, ObservationOutcome, ObservationRecord, SafetyChecklistEntry } from '@/lib/types'
 
-// "It wasn't planted or moved recently" used to live here as a static,
-// self-attesting checklist item. It's now its own real check — the
-// 'planted-primary' / 'planted-fallback' phases below, driven by
-// PKR-SGT-000002 — so it's been removed from this list rather than left as
-// a duplicate, unconnected question.
-//
-// Every other item here is still a plain self-attestation — the gardener
-// checks a box on their own judgment, with nothing behind it verifying the
-// answer. `help`, where present, is a "?" a gardener can tap for guidance
-// on how to judge that item themselves; it does not change what checking
-// the box means or feed into any gate logic.
-//
-// This list is NOT a gate: continuing past it doesn't require every box
-// checked. No cutting decision has been made yet at this point in the
-// journey — that happens later, per observation, in the 'decide' phase, so
-// blocking progress here on an unconfident "I don't know" (which the
-// stress/damage help text explicitly invites) was stricter than the actual
-// stakes at this screen warrant. What the gardener actually checked or left
-// unchecked when they continued is still saved (see safetyChecklist below)
-// so there's an honest record that the checklist — including the tool
-// condition, gear, and access items — was genuinely shown to them.
+/*
+ * The guided pruning journey. All gardener-facing horticultural wording comes
+ * from Published PKRs via data/pkr.ts; this file only routes between them.
+ *
+ * Order: safety checklist → rose type (PKR-SGT-000003) → recently planted
+ * (PKR-SGT-000002) → dormancy (PKR-SGT-000001 v1.1) → photos → each allowed
+ * observation, looped until the gardener says there are no more → basic care
+ * when a gate limited the session → summary.
+ *
+ * PKR Standard §5.1: "Doesn't match" and "Not sure" never reach Cut. The only
+ * Doesn't-match route to a decision is the framework's defined old-wood path
+ * (PKR-OBS-000006), which is its own decision, not the confirmed one.
+ */
+
 interface SafetyItem {
   label: string
-  /**
-   * Sourced only from content a Founder has actually approved — never
-   * written fresh here. Left undefined where no approved content exists
-   * yet, rather than inventing something that sounds plausible.
-   */
   help?: string
 }
 
+// The dormancy item that used to live here as a self-attested checkbox is now
+// the interactive PKR-SGT-000001 step below. The recently-planted item became
+// PKR-SGT-000002's own step earlier. The rest remain plain self-attestation.
 const SAFETY_ITEMS: SafetyItem[] = [
   {
-    label: 'The rose is dormant, not in active growth',
-    // Verbatim from PKR-SGT-000001's approved Question/Check, its "Still
-    // dormant" Acceptable Answer, and its AF-3 Preserved Uncertainty caveat
-    // (PKR-SGT-BUSHROSE-DORMANCY-01-submission.md — Published 24 Aug 2026,
-    // Version 1.0). Still shown here as plain informational text on a
-    // self-attested checkbox, not wired as an actual interactive gate the
-    // way PKR-SGT-000002 is in the phases below — that's a genuine next
-    // step (the record now has real "Not sure" fallback wording ready for
-    // it), just not built yet. If the record's approved wording changes,
-    // this needs updating to match.
-    help: "Look closely at the buds along your rose's canes. Has active new growth already begun — buds swelling, breaking open, or new leaves emerging anywhere on the plant — or does it still appear dormant?\n\nStill dormant (check the box): buds are tight and closed, or just beginning to swell, with no new leaves open anywhere on the plant.\n\nIf your climate is mild or unusually warm, judge this by bud state specifically — not by whether the leaves have dropped. In milder climates a rose doesn't always lose all its leaves, and buds can sometimes break earlier than expected.",
-  },
-  {
     label: 'No serious stress, damage or disease',
-    // No FRD/ARC research exists for this item at all yet (tracked in
-    // Project_Backlog.md under "Remaining Suitability Gate areas"). This is
-    // process guidance only — it makes no diagnostic claims — rather than
-    // inventing what "serious stress or damage" looks like without
-    // approved evidence behind it.
     help: "Pip doesn't have specific guidance yet for spotting stress, damage or disease — that research hasn't been done. If you're at all unsure, the honest choice is to leave this box unchecked. That won't stop you continuing, but it's worth taking the extra care that implies, and considering asking an experienced local gardener to take a look with you before you actually cut anything.",
   },
   { label: 'Secateurs are clean and sharp' },
@@ -87,17 +78,76 @@ const SAFETY_ITEMS: SafetyItem[] = [
   { label: 'The rose is safely accessible' },
 ]
 
-/** PKR-SGT-000002's Fallback Check — the three AF-2 signals, asked only when the gardener doesn't know the planting date. */
 const FALLBACK_QUESTIONS: { key: keyof RecentlyPlantedFallbackSignals; label: string }[] = [
   { key: 'activeNewGrowth', label: 'Is it putting out active new growth right now?' },
-  {
-    key: 'caneCountAboveBaseline',
-    label: 'Does it have noticeably more canes than a newly bought rose (more than about 3)?',
-  },
+  { key: 'caneCountAboveBaseline', label: 'Does it have noticeably more canes than a newly bought rose (more than about 3)?' },
   { key: 'baseFeelsFirm', label: 'Does the base feel firmly rooted when you gently test it?' },
 ]
 
-type Phase = 'safety' | 'planted-primary' | 'planted-fallback' | 'photos' | 'observe' | 'decide' | 'summary'
+type Phase =
+  | 'safety'
+  | 'rose-type'
+  | 'rose-finder'
+  | 'journal-only'
+  | 'planted-primary'
+  | 'planted-fallback'
+  | 'dormancy'
+  | 'dormancy-not-sure'
+  | 'removal-intro'
+  | 'photos'
+  | 'observe'
+  | 'decide'
+  | 'tools'
+  | 'cut-guide'
+  | 'advisory'
+  | 'any-more'
+  | 'care'
+  | 'summary'
+
+/** Steps within one observation instance. */
+type ObsStep = 'look' | 'confirm' | 'not-sure' | 'sucker-union' | 'sucker-no-union'
+
+/** Which decision is on screen: after Confirmed, after the framework's old-wood Doesn't match, or after a final Not sure. */
+type DecidePath = 'confirmed' | 'doesnt-match' | 'not-sure'
+
+interface Snapshot {
+  phase: Phase
+  obsIndex: number
+  obsStep: ObsStep
+  decidePath: DecidePath
+}
+
+function ConfidenceTag({ level }: { level?: Statement['confidence'] }) {
+  if (!level) return null
+  return (
+    <span className="ml-1.5 whitespace-nowrap rounded-full bg-pip-secondary px-2 py-0.5 text-[10px] font-medium text-pip-text-soft">
+      {level === 'Approved default' ? 'approved default' : `${level} confidence`}
+    </span>
+  )
+}
+
+function StatementList({ items }: { items: Statement[] }) {
+  return (
+    <ul className="flex flex-col gap-1.5">
+      {items.map((s) => (
+        <li key={s.text} className="rounded-xl bg-pip-bg px-3.5 py-2.5 text-xs leading-relaxed">
+          {s.text}
+          <ConfidenceTag level={s.confidence} />
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+function CareBlock({ care }: { care: CareGuidance }) {
+  return (
+    <div className="mb-3">
+      <p className="mb-1 text-sm font-medium">{care.heading}</p>
+      {care.label && <p className="mb-1.5 text-xs italic text-pip-text-soft">{care.label}</p>}
+      <StatementList items={care.items} />
+    </div>
+  )
+}
 
 export function Journey() {
   const { id } = useParams<{ id: string }>()
@@ -110,78 +160,51 @@ export function Journey() {
   const [checked, setChecked] = useState<boolean[]>(() => SAFETY_ITEMS.map(() => false))
   const [helpIndex, setHelpIndex] = useState<number | null>(null)
   const [savingSafety, setSavingSafety] = useState(false)
+  const [roseType, setRoseType] = useState<RoseTypeAnswerId | null>(null)
   const [fallbackSignals, setFallbackSignals] = useState<Partial<RecentlyPlantedFallbackSignals>>({})
   const [gateResult, setGateResult] = useState<RecentlyPlantedGateResult | null>(null)
+  const [dormancyAnswer, setDormancyAnswer] = useState<DormancyAnswer | null>(null)
+  const [showDormancyHelp, setShowDormancyHelp] = useState(false)
   const [obsIndex, setObsIndex] = useState(0)
+  const [obsStep, setObsStep] = useState<ObsStep>('look')
+  const [decidePath, setDecidePath] = useState<DecidePath>('confirmed')
   const [records, setRecords] = useState<ObservationRecord[]>([])
-  const [revealed, setRevealed] = useState(false)
-  const [showWhy, setShowWhy] = useState(false)
+  const [pendingOutcome, setPendingOutcome] = useState<ObservationOutcome>('confirmed')
+  const [pendingChoice, setPendingChoice] = useState<DecisionOption | null>(null)
+  const [lastNote, setLastNote] = useState<string | null>(null)
+  const [cutsThisSession, setCutsThisSession] = useState(0)
+  const [toolsShown, setToolsShown] = useState(false)
   const [saving, setSaving] = useState(false)
-  const [pendingCutConfirm, setPendingCutConfirm] = useState(false)
-  // Mirrors pendingCutConfirm's pattern below — "Get experienced local help"
-  // used to be recorded identically to the other three choices and just
-  // move straight on, a dead end with no actual help offered. This
-  // interrupts with real, concrete leads before the choice is saved.
-  const [pendingHelpInfo, setPendingHelpInfo] = useState(false)
-  // Gates every "Cut" choice, before pendingCutConfirm's safety-checklist
-  // interrupt ever gets a chance to fire — per Flow Proposal §13, a gardener
-  // should never cut without first having actually traced the stem down to
-  // the point they mean to cut, whatever the safety checklist did or didn't
-  // catch. See chooseDecision/confirmTraced/cannotTrace below.
   const [pendingTraceConfirm, setPendingTraceConfirm] = useState(false)
-  // Tap-to-reveal panels for the current observation's confidence rating and
-  // its sources — only ever openable when the current observation actually
-  // has real content behind it (see ScriptedObservation's confidenceLevel /
-  // sources comment in observationScript.ts).
+  const [pendingCutConfirm, setPendingCutConfirm] = useState(false)
+  const [pendingHelpInfo, setPendingHelpInfo] = useState(false)
   const [showConfidenceInfo, setShowConfidenceInfo] = useState(false)
   const [showSourcesInfo, setShowSourcesInfo] = useState(false)
-  // Pip's live look at the dead-wood observation — the only observation with
-  // real, Founder-approved per-signal diagnostic content behind it
-  // (PKR-OBS-000001). See App/supabase/functions/pip-observe-dead-wood and
-  // the validated spike it mirrors, Spike/gemini/run-spike-signals.mjs. The
-  // other three observations stay on the static script below — there's no
-  // researched content yet to ground a live look for them.
+  const [aiRequested, setAiRequested] = useState(false)
   const [aiAnswer, setAiAnswer] = useState<string | null>(null)
   const [aiLoading, setAiLoading] = useState(false)
   const [aiFailed, setAiFailed] = useState(false)
-  // Journey has its own internal steps that AppHeader's generic per-route
-  // "Back" target knows nothing about (see AppHeader's BACK_TARGETS
-  // comment). Each forward setPhase() below pushes the snapshot it's
-  // leaving here first, so "Back" can step through safety -> planted
-  // question -> photos -> each observation, and only fall out to the
-  // library once there's nothing left to step back into.
-  const [history, setHistory] = useState<{ phase: Phase; obsIndex: number }[]>([])
+  const [history, setHistory] = useState<Snapshot[]>([])
+
   const uncheckedCount = checked.filter((v) => !v).length
   const fallbackComplete = FALLBACK_QUESTIONS.every((q) => fallbackSignals[q.key] !== undefined)
+  const recentlyPlantedRestricted = gateResult?.status === 'restricted'
+  const dormancyPassed = dormancyAnswer ? evaluateDormancy(dormancyAnswer) === 'passes' : true
+  const limitedSession = recentlyPlantedRestricted || !dormancyPassed
+  const allowed = sessionObservations({ recentlyPlantedRestricted, dormancyPassed })
+  const current: ObservationDef | undefined = allowed[obsIndex]
+  const removalOnly = !dormancyPassed
 
-  // Which observations this journey is allowed to offer, per PKR-SGT-000002.
-  // Established (or the gate hasn't run yet, e.g. still mid-onboarding data)
-  // gets the full script; a restricted result limits it to dead wood only.
-  // Computed here, ahead of the early returns below, because the hooks that
-  // follow (usePlantPhotoUrl, useEffect) need `current` on every render —
-  // React's Rules of Hooks don't allow a hook call to come after a
-  // conditional return.
-  const allowedObservations =
-    gateResult && gateResult.status === 'restricted'
-      ? observationScript.filter((o) => gateResult.allowedObservationIds.includes(o.id))
-      : observationScript
-  const current = allowedObservations[obsIndex]
-
-  // The photo Pip's live look uses for the dead-wood observation — the first
-  // close-up if the gardener took more than one, else the overview shot.
-  // Optional-chained throughout so this stays safe before `project` exists.
+  // Pip's live look (Edge Function pip-observe-dead-wood) exists only for
+  // dead wood, the one observation with the per-signal content it was built
+  // from (PKR-OBS-000001). It never blocks the journey.
   const deadWoodPhotoPath = project?.journeyCloseUpPhotoPaths?.[0] ?? project?.journeyOverviewPhotoPath
   const deadWoodPhotoUrl = usePlantPhotoUrl(
-    phase === 'observe' && current?.id === 'dead-wood' ? deadWoodPhotoPath : undefined,
+    phase === 'observe' && current?.key === 'dead-wood' ? deadWoodPhotoPath : undefined,
   )
 
-  // Fires once, when the gardener taps "Show Me" on the dead-wood
-  // observation and a photo is actually available. Never blocks the
-  // journey: on any failure (network, rate limit, key not configured yet)
-  // aiFailed is set and the 'observe' render below falls back to the static
-  // script, exactly as if this whole feature didn't exist.
   useEffect(() => {
-    if (phase !== 'observe' || !revealed || current?.id !== 'dead-wood' || !deadWoodPhotoPath) return
+    if (phase !== 'observe' || !aiRequested || current?.key !== 'dead-wood' || !deadWoodPhotoPath) return
     if (aiAnswer || aiLoading) return
     let cancelled = false
     setAiLoading(true)
@@ -200,14 +223,9 @@ export function Journey() {
     return () => {
       cancelled = true
     }
-    // aiAnswer/aiLoading are read above only to guard against starting a
-    // second call while one's already in flight or done — they're
-    // deliberately left out of the dependency list. Setting aiLoading below
-    // is itself a state change; including it here would re-run this effect
-    // immediately after starting the request, tearing down (cancelling) the
-    // very call it had just kicked off before it could ever resolve.
+    // See the note in git history: aiAnswer/aiLoading are guards only.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, revealed, current?.id, deadWoodPhotoPath])
+  }, [phase, aiRequested, current?.key, deadWoodPhotoPath])
 
   if (loading) {
     return <div className="p-6 text-sm text-pip-text-soft">Loading…</div>
@@ -221,99 +239,29 @@ export function Journey() {
     )
   }
 
-  // What the gardener actually left unchecked on the safety screen (see
-  // continueFromSafety below) — undefined/empty if the checklist was never
-  // saved (e.g. an older plant from before this existed), in which case
-  // there's nothing to warn about and none is shown. Read back here, right
-  // before the one genuinely irreversible action in the journey, rather
-  // than only at the earlier informational screen — that's the point where
-  // "was safety actually considered" matters most.
-  const uncheckedSafetyLabels = (project.safetyChecklist ?? [])
-    .filter((item) => !item.checked)
-    .map((item) => item.label)
+  const uncheckedSafetyLabels = (project.safetyChecklist ?? []).filter((item) => !item.checked).map((item) => item.label)
 
-  // Continuing past the safety checklist no longer requires every box
-  // checked (see the SAFETY_ITEMS comment above for why) — but what the
-  // gardener actually checked or left unchecked is saved here, immediately,
-  // as an honest record that the checklist was genuinely shown to them.
-  async function continueFromSafety() {
-    setSavingSafety(true)
-    const safetyChecklist: SafetyChecklistEntry[] = SAFETY_ITEMS.map((item, i) => ({
-      label: item.label,
-      checked: checked[i],
-    }))
-    await updateProject(project!.id, {
-      safetyChecklist,
-      safetyAcknowledgedAt: new Date().toISOString(),
-    })
-    setSavingSafety(false)
-    setHistory((prev) => [...prev, { phase, obsIndex }])
-    setPhase('planted-primary')
-  }
-
-  function choosePrimary(answer: RecentlyPlantedPrimaryAnswer) {
-    const result = evaluateRecentlyPlantedPrimary(answer)
-    setHistory((prev) => [...prev, { phase, obsIndex }])
-    if (result === 'needs-fallback') {
-      setPhase('planted-fallback')
-      return
-    }
-    setGateResult(result)
-    setPhase('photos')
-  }
-
-  function submitFallback() {
-    if (!fallbackComplete) return
-    const result = evaluateRecentlyPlantedFallback(fallbackSignals as RecentlyPlantedFallbackSignals)
-    setGateResult(result)
-    setHistory((prev) => [...prev, { phase, obsIndex }])
-    setPhase('photos')
-  }
-
-  // Resuming a journey that was left partway through: `project.observations`
-  // already holds whatever was confirmed and saved last time (each one saved
-  // immediately as it's completed — see recordChoice below), so there's no
-  // need to ask about those again. Matched by `feature`, not `id` — a saved
-  // ObservationRecord's id is a database-generated UUID on reload, not the
-  // scripted id these observationScript entries carry (see store.ts's
-  // addObservation comment). Seeding `records` from the same list keeps the
-  // eventual summary screen showing everything, not just what's left.
-  function beginObservations() {
-    const completedFeatures = new Set(project!.observations.map((o) => o.feature))
-    const resumeIndex = allowedObservations.findIndex((o) => !completedFeatures.has(o.feature))
-    const alreadyDone = project!.observations.filter((o) =>
-      allowedObservations.some((a) => a.feature === o.feature),
-    )
-    setRecords(alreadyDone)
-    setRevealed(false)
-    setShowWhy(false)
+  function resetTransient() {
+    setPendingTraceConfirm(false)
     setPendingCutConfirm(false)
     setPendingHelpInfo(false)
-    setPendingTraceConfirm(false)
     setShowConfidenceInfo(false)
     setShowSourcesInfo(false)
+    setAiRequested(false)
     setAiAnswer(null)
     setAiLoading(false)
     setAiFailed(false)
-    setHistory((prev) => [...prev, { phase, obsIndex }])
-    if (resumeIndex === -1) {
-      // Every observation this journey is allowed to offer was already
-      // completed in an earlier session — nothing left to observe, so go
-      // straight to reviewing and saving rather than asking again.
-      setObsIndex(allowedObservations.length)
-      setPhase('summary')
-    } else {
-      setObsIndex(resumeIndex)
-      setPhase('observe')
-    }
   }
 
-  // Pops the last step off the history stack above and restores it, so
-  // "Back" from the 3-dot menu steps through Journey's own phases one at a
-  // time instead of jumping straight out to the library. Once there's no
-  // history left (already on the very first step), there's nothing to step
-  // back into, so it falls through to the library like every other page's
-  // Back button.
+  function go(next: Phase, patch?: Partial<Omit<Snapshot, 'phase'>>) {
+    setHistory((prev) => [...prev, { phase, obsIndex, obsStep, decidePath }])
+    resetTransient()
+    if (patch?.obsIndex !== undefined) setObsIndex(patch.obsIndex)
+    if (patch?.obsStep !== undefined) setObsStep(patch.obsStep)
+    if (patch?.decidePath !== undefined) setDecidePath(patch.decidePath)
+    setPhase(next)
+  }
+
   function goBack() {
     if (history.length === 0) {
       navigate('/library')
@@ -321,31 +269,142 @@ export function Journey() {
     }
     const last = history[history.length - 1]
     setHistory((prev) => prev.slice(0, -1))
+    resetTransient()
     setPhase(last.phase)
     setObsIndex(last.obsIndex)
-    setRevealed(false)
-    setShowWhy(false)
-    setPendingCutConfirm(false)
-    setPendingHelpInfo(false)
-    setPendingTraceConfirm(false)
-    setShowConfidenceInfo(false)
-    setShowSourcesInfo(false)
-    setAiAnswer(null)
-    setAiLoading(false)
-    setAiFailed(false)
+    setObsStep(last.obsStep)
+    setDecidePath(last.decidePath)
   }
 
-  // Gate on DecisionChoices' "Cut" and "Get experienced local help" buttons
-  // — not the other two choices, which still proceed immediately. Every
-  // "Cut" first has to clear the trace-the-stem confirmation below — Flow
-  // Proposal §13 — before the existing safety-checklist confirmation (which
-  // only fires when something on that checklist was left unsure) ever gets
-  // a chance to run; see confirmTraced. "Get help" interrupts too, but for
-  // the opposite reason: it used to be recorded and moved on with nothing
-  // else happening, a dead end — this gives the gardener somewhere real to
-  // start before that's saved.
+  // --- Gates -------------------------------------------------------------
+
+  async function continueFromSafety() {
+    setSavingSafety(true)
+    const safetyChecklist: SafetyChecklistEntry[] = SAFETY_ITEMS.map((item, i) => ({ label: item.label, checked: checked[i] }))
+    await updateProject(project!.id, { safetyChecklist, safetyAcknowledgedAt: new Date().toISOString() })
+    setSavingSafety(false)
+    go('rose-type')
+  }
+
+  function chooseRoseType(answer: RoseTypeAnswerId) {
+    setRoseType(answer)
+    const result = evaluateRoseType(answer)
+    go(result === 'passes' ? 'planted-primary' : result === 'rose-finder' ? 'rose-finder' : 'journal-only')
+  }
+
+  function choosePrimary(answer: RecentlyPlantedPrimaryAnswer) {
+    const result = evaluateRecentlyPlantedPrimary(answer)
+    if (result === 'needs-fallback') {
+      go('planted-fallback')
+      return
+    }
+    setGateResult(result)
+    go('dormancy')
+  }
+
+  function submitFallback() {
+    if (!fallbackComplete) return
+    setGateResult(evaluateRecentlyPlantedFallback(fallbackSignals as RecentlyPlantedFallbackSignals))
+    go('dormancy')
+  }
+
+  function chooseDormancy(answer: DormancyAnswer) {
+    setDormancyAnswer(answer)
+    go(evaluateDormancy(answer) === 'passes' ? 'photos' : 'removal-intro')
+  }
+
+  // --- Observations ------------------------------------------------------
+
+  // Resume: an observation is finished only when its explicit
+  // 'none-remaining' marker was saved (several instances per observation
+  // are normal, so matching on feature alone can't tell).
+  function beginObservations() {
+    const finished = new Set(project!.observations.filter((o) => o.outcome === 'none-remaining').map((o) => o.feature))
+    const resumeIndex = allowed.findIndex((o) => !finished.has(o.feature))
+    setRecords(
+      project!.observations.filter(
+        (o) => o.outcome !== 'none-remaining' && allowed.some((a) => a.feature === o.feature),
+      ),
+    )
+    if (resumeIndex === -1) {
+      go(limitedSession ? 'care' : 'summary', { obsIndex: allowed.length })
+    } else {
+      go('observe', { obsIndex: resumeIndex, obsStep: 'look' })
+    }
+  }
+
+  function makeRecord(outcome: ObservationOutcome, choice?: Choice, note?: string): ObservationRecord {
+    return {
+      id: `${current!.key}-${Date.now()}`,
+      feature: current!.feature,
+      pipProposal: current!.lookFor,
+      comparisonNote: `${current!.obs.id} v${current!.obs.version}; ${current!.dec.id} v${current!.dec.version}`,
+      outcome,
+      correction: note,
+      choice,
+    }
+  }
+
+  function saveRecord(r: ObservationRecord) {
+    setRecords((prev) => [...prev, r])
+    addObservation(project!.id, r)
+  }
+
+  /** Gardener says this observation isn't present (or no more of it): save the marker and move on. */
+  function finishObservation() {
+    addObservation(project!.id, makeRecord('none-remaining'))
+    const next = obsIndex + 1
+    if (next < allowed.length) {
+      setLastNote(null)
+      go('observe', { obsIndex: next, obsStep: 'look' })
+    } else {
+      go(limitedSession ? 'care' : 'summary', { obsIndex: next })
+    }
+  }
+
+  function confirmOutcome(outcome: 'confirmed' | 'corrected') {
+    if (outcome === 'confirmed') {
+      setPendingOutcome('confirmed')
+      go('decide', { decidePath: 'confirmed' })
+      return
+    }
+    if (current!.doesntMatchRoute === 'decide') {
+      setPendingOutcome('corrected')
+      go('decide', { decidePath: 'doesnt-match' })
+      return
+    }
+    // Not present: recorded, never reaches a decision.
+    saveRecord(makeRecord('corrected', undefined, current!.doesntMatchNote))
+    setLastNote(current!.doesntMatchNote ?? null)
+    go('any-more')
+  }
+
+  function stillNotSure() {
+    setPendingOutcome('unresolved')
+    go('decide', { decidePath: 'not-sure' })
+  }
+
+  // --- Decisions ---------------------------------------------------------
+
+  const decisionOptions: DecisionOption[] =
+    !current
+      ? []
+      : decidePath === 'confirmed'
+        ? current.choices
+        : decidePath === 'doesnt-match'
+          ? (current.doesntMatchChoices ?? [])
+          : current.notSureChoices
+
   function chooseDecision(choice: Choice) {
+    const option = decisionOptions.find((o) => o.choice === choice) ?? null
+    // §5.1 guard: Cut is only reachable from a Confirmed (or defined old-wood) path.
+    if (choice === 'cut' && decidePath === 'not-sure') return
+    setPendingChoice(option)
     if (choice === 'cut') {
+      if (current!.cutCareGuidance && !toolsShown) {
+        go('tools')
+        return
+      }
       setPendingTraceConfirm(true)
       return
     }
@@ -356,115 +415,107 @@ export function Journey() {
     recordChoice(choice)
   }
 
-  // Fires once the gardener confirms they can actually follow the stem down
-  // to the point they mean to cut. Only then does the existing
-  // safety-checklist confirmation get a chance to run (still only when
-  // something on that checklist was left unsure) — and only after both are
-  // clear, if applicable, does the cut actually get recorded.
+  function afterTools() {
+    setToolsShown(true)
+    goBackToDecideWithTrace()
+  }
+
+  function goBackToDecideWithTrace() {
+    setHistory((prev) => [...prev, { phase, obsIndex, obsStep, decidePath }])
+    setPhase('decide')
+    setPendingTraceConfirm(true)
+  }
+
   function confirmTraced() {
     setPendingTraceConfirm(false)
     if (uncheckedSafetyLabels.length > 0) {
       setPendingCutConfirm(true)
       return
     }
-    recordChoice('cut')
-  }
-
-  // The gardener isn't sure they can trace the stem — the safe move is not
-  // to cut on that uncertainty. Nothing is recorded; this just returns to
-  // the plain decision choices so they can pick something else (decide
-  // later, or get experienced local help), or look again and retry "Cut."
-  function cannotTrace() {
-    setPendingTraceConfirm(false)
-  }
-
-  function recordOutcome(outcome: ObservationOutcome) {
-    setRecords((prev) => [
-      ...prev,
-      {
-        id: current.id,
-        feature: current.feature,
-        pipProposal: current.pipProposal,
-        comparisonNote: current.comparisonNote,
-        outcome,
-        correction: current.suggestedNote,
-      },
-    ])
-    setHistory((prev) => [...prev, { phase, obsIndex }])
-    setPhase('decide')
+    go('cut-guide')
   }
 
   function recordChoice(choice: Choice) {
-    setPendingCutConfirm(false)
-    setPendingHelpInfo(false)
-    setPendingTraceConfirm(false)
-    const last = records[records.length - 1]
-    const completed = last ? { ...last, choice } : null
-    setRecords((prev) => prev.map((r, i) => (i === prev.length - 1 ? { ...r, choice } : r)))
-
-    // Save this observation immediately, rather than waiting until the whole
-    // journey is done — see addObservation's comment in store.ts for why.
-    if (completed && project) {
-      addObservation(project.id, completed)
-    }
-
-    setHistory((prev) => [...prev, { phase, obsIndex }])
-    if (obsIndex + 1 < allowedObservations.length) {
-      setObsIndex(obsIndex + 1)
-      setRevealed(false)
-      setShowWhy(false)
-      setShowConfidenceInfo(false)
-      setShowSourcesInfo(false)
-      setAiAnswer(null)
-      setAiLoading(false)
-      setAiFailed(false)
-      setPhase('observe')
+    saveRecord(makeRecord(pendingOutcome, choice))
+    setLastNote(null)
+    const countsForAdvisory = choice === 'cut' && current!.cutCareGuidance
+    const cuts = countsForAdvisory ? cutsThisSession + 1 : cutsThisSession
+    if (countsForAdvisory) setCutsThisSession(cuts)
+    if (countsForAdvisory && cuts % ADVISORY_EVERY_N_CUTS === 0) {
+      go('advisory')
     } else {
-      setPhase('summary')
+      go('any-more')
     }
+  }
+
+  function anotherOne() {
+    go('observe', { obsStep: current?.key === 'rootstock-sucker' ? 'sucker-union' : 'confirm' })
   }
 
   async function finish() {
     setSaving(true)
-    // Each observation was already saved as it was completed (see
-    // recordChoice above) — this just marks the journey as complete. Wait
-    // for it to land before navigating, since the plant page does its own
-    // independent fetch and navigating too early can outrace the write.
     await updateProject(project!.id, { journeyComplete: true })
     navigate(`/plant/${project!.id}`)
   }
 
+  // --- Rendering helpers -------------------------------------------------
+
+  const cutGuide: Statement[] = (() => {
+    if (!pendingChoice?.cutKind) return []
+    switch (pendingChoice.cutKind) {
+      case 'sucker':
+        return SUCKER_REMOVAL
+      case 'dead-wood':
+        // PKR-CGD-000002 Presentation Points: for dead wood, PKR-DEC-000001's own
+        // rule decides where the cut goes; only Part A's "no stubs" and Part C apply.
+        return [...(current?.decisionNotes ?? []).slice(0, 2), { text: "Don't leave a stub.", confidence: 'Moderate' }, MAKING_THE_CUT.seal]
+      case 'shorten':
+        return [...MAKING_THE_CUT.shorten, MAKING_THE_CUT.seal]
+      default:
+        return [...MAKING_THE_CUT.removeStem, MAKING_THE_CUT.seal]
+    }
+  })()
+
+  const careRecords = [
+    recentlyPlantedRestricted ? publishedCare('PKR-CGD-000005') : undefined,
+    publishedCare('PKR-CGD-000004'),
+    publishedCare('PKR-CGD-000006'),
+  ].filter((c): c is CareGuidance => Boolean(c))
+
+  const summaryGroups = allowed
+    .map((o) => ({ obs: o, items: records.filter((r) => r.feature === o.feature) }))
+    .filter((g) => g.items.length > 0)
+
+  const outcomeLabel = (o: ObservationOutcome) =>
+    o === 'confirmed' ? 'Confirmed' : o === 'corrected' ? "Doesn't match" : o === 'unresolved' ? 'Not sure' : ''
+
   const topLabel =
     phase === 'safety'
       ? 'Before we begin'
-      : phase === 'planted-primary' || phase === 'planted-fallback'
-        ? 'One more check before we begin'
+      : ['rose-type', 'rose-finder', 'journal-only', 'planted-primary', 'planted-fallback', 'dormancy', 'dormancy-not-sure', 'removal-intro'].includes(phase)
+        ? 'A few checks before we begin'
         : phase === 'photos'
           ? 'A clear look at the rose'
-          : phase === 'observe' || phase === 'decide'
-            ? `Observation ${obsIndex + 1} of ${allowedObservations.length}`
-            : "Sarah's summary — check it before we save"
+          : phase === 'care'
+            ? 'Caring for your rose'
+            : phase === 'summary'
+              ? 'Your summary — check it before we save'
+              : current
+                ? `${current.feature} (${obsIndex + 1} of ${allowed.length})`
+                : ''
+
+  const roseName = roseType === 'hybrid-tea' ? 'Hybrid Tea' : roseType === 'floribunda' ? 'Floribunda' : roseType === 'grandiflora' ? 'Grandiflora' : 'rose'
 
   return (
     <div className="flex h-full flex-col">
       <AppHeader onBack={goBack} />
 
-      {/* Pip stays near the top, right after his message. Everything below — whether
-          it's a checklist, a photo, or buttons — is the gardener's turn, so it all
-          lives in one natural scrolling flow instead of being split into separate panes. */}
       <div className="flex-1 overflow-y-auto px-4 pb-6 pt-2">
         <p className="text-xs font-medium uppercase tracking-wide text-pip-text-soft">{project.name}</p>
         <h1 className="font-heading mb-4 text-xl">{topLabel}</h1>
 
         <motion.div
-          key={
-            phase +
-            obsIndex +
-            String(revealed) +
-            String(pendingCutConfirm) +
-            String(pendingHelpInfo) +
-            String(pendingTraceConfirm)
-          }
+          key={phase + obsIndex + obsStep + decidePath + String(pendingCutConfirm) + String(pendingHelpInfo) + String(pendingTraceConfirm)}
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.25 }}
@@ -472,28 +523,21 @@ export function Journey() {
           {phase === 'safety' && (
             <>
               <ChatBubble>
-                We'll check a few things before you decide what to cut. You can leave, decide
-                later or get experienced local help at any point.
+                We'll check a few things before you decide what to cut. You can leave, decide later or get experienced local
+                help at any point.
               </ChatBubble>
               <ResponseBubble showAskField>
                 <div className="flex flex-col gap-2">
                   {SAFETY_ITEMS.map((item, i) => (
-                    <div
-                      key={item.label}
-                      className="flex items-center gap-2 rounded-xl bg-pip-bg px-4 py-3 text-sm"
-                    >
+                    <div key={item.label} className="flex items-center gap-2 rounded-xl bg-pip-bg px-4 py-3 text-sm">
                       <button
-                        onClick={() =>
-                          setChecked((prev) => prev.map((v, idx) => (idx === i ? !v : v)))
-                        }
+                        onClick={() => setChecked((prev) => prev.map((v, idx) => (idx === i ? !v : v)))}
                         className="flex flex-1 items-center gap-3 text-left"
                       >
                         <span
                           className={cn(
                             'flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2',
-                            checked[i]
-                              ? 'border-pip-primary bg-pip-primary text-white'
-                              : 'border-pip-border',
+                            checked[i] ? 'border-pip-primary bg-pip-primary text-white' : 'border-pip-border',
                           )}
                         >
                           {checked[i] && <Check size={13} strokeWidth={3} />}
@@ -515,59 +559,96 @@ export function Journey() {
                 <div className="pt-3">
                   {uncheckedCount > 0 && (
                     <p className="mb-2 text-xs text-pip-text-soft">
-                      Not checked yet: {SAFETY_ITEMS.filter((_, i) => !checked[i])
-                        .map((item) => item.label)
-                        .join('; ')}
-                      . That's alright — nothing gets cut yet, and what you've told Pip here is
-                      saved either way. Take your time, or continue and stay extra careful.
+                      Not checked yet: {SAFETY_ITEMS.filter((_, i) => !checked[i]).map((item) => item.label).join('; ')}. That's
+                      alright — nothing gets cut yet, and what you've told Pip here is saved either way.
                     </p>
                   )}
-                  <Button
-                    variant={uncheckedCount > 0 ? 'secondary' : 'primary'}
-                    disabled={savingSafety}
-                    onClick={continueFromSafety}
-                  >
-                    {savingSafety
-                      ? 'Saving…'
-                      : uncheckedCount > 0
-                        ? 'Continue anyway'
-                        : 'Looks good, continue'}
+                  <Button variant={uncheckedCount > 0 ? 'secondary' : 'primary'} disabled={savingSafety} onClick={continueFromSafety}>
+                    {savingSafety ? 'Saving…' : uncheckedCount > 0 ? 'Continue anyway' : 'Looks good, continue'}
                   </Button>
                 </div>
               </ResponseBubble>
-
               {helpIndex !== null && SAFETY_ITEMS[helpIndex].help && (
                 <InfoModal title="How can I tell?" onClose={() => setHelpIndex(null)}>
-                  {SAFETY_ITEMS[helpIndex].help!.split('\n\n').map((paragraph, idx) => (
-                    <p key={idx} className={idx > 0 ? 'mt-2.5' : undefined}>
-                      {paragraph}
-                    </p>
-                  ))}
+                  <p>{SAFETY_ITEMS[helpIndex].help}</p>
                 </InfoModal>
               )}
+            </>
+          )}
+
+          {phase === 'rose-type' && (
+            <>
+              <ChatBubble>{ROSE_TYPE_GATE.question}</ChatBubble>
+              <ResponseBubble showAskField>
+                <div className="flex flex-col gap-2">
+                  {ROSE_TYPE_GATE.answers.map((a) => (
+                    <Button key={a.id} variant={a.passes ? 'primary' : 'secondary'} onClick={() => chooseRoseType(a.id)}>
+                      {a.label}
+                    </Button>
+                  ))}
+                </div>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'rose-finder' && (
+            <>
+              <ChatBubble>{ROSE_TYPE_GATE.roseFinder.text}</ChatBubble>
+              <ResponseBubble showAskField>
+                {ROSE_TYPE_GATE.roseFinder.url && (
+                  <a
+                    href={ROSE_TYPE_GATE.roseFinder.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mb-3 block text-sm font-medium text-pip-primary underline underline-offset-2"
+                  >
+                    Open the New Zealand Rose Society's Rose Finder
+                  </a>
+                )}
+                <div className="flex flex-col gap-2">
+                  <Button onClick={() => go('rose-type')}>I've found its type — answer again</Button>
+                  <Button variant="secondary" onClick={() => chooseRoseType('unknown')}>
+                    I couldn't find it
+                  </Button>
+                </div>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'journal-only' && (
+            <>
+              <ChatBubble>
+                {ROSE_TYPE_GATE.journalOnly.base}{' '}
+                {roseType === 'excluded'
+                  ? ROSE_TYPE_GATE.journalOnly.excluded
+                  : roseType === 'bush-only'
+                    ? ROSE_TYPE_GATE.journalOnly.bushOnly
+                    : ROSE_TYPE_GATE.journalOnly.unknown}
+              </ChatBubble>
+              <ResponseBubble>
+                <p className="mb-2 text-sm">{ROSE_TYPE_GATE.journalOnly.keep}</p>
+                <p className="mb-3 text-xs text-pip-text-soft">{ROSE_TYPE_GATE.journalOnly.help}</p>
+                <div className="flex flex-col gap-2">
+                  <Button onClick={() => navigate(`/plant/${project.id}`)}>Back to {project.name}'s journal</Button>
+                  <Button variant="secondary" onClick={() => go('rose-type')}>
+                    Answer the type question again
+                  </Button>
+                </div>
+              </ResponseBubble>
             </>
           )}
 
           {phase === 'planted-primary' && (
             <>
               <ChatBubble>
-                One more thing first — I don't want to guide you into pruning a rose that isn't
-                ready for it yet.
-                {project.plantedWhen && (
-                  <>
-                    {' '}
-                    You mentioned earlier it was planted "{project.plantedWhen}" — I'd rather
-                    double-check the exact answer here than go on a rough memory, since it
-                    affects what's safe to do today.
-                  </>
-                )}{' '}
-                Has this rose been growing in this spot for about three years or more?
+                {roseType === 'grandiflora' && <>{ROSE_TYPE_GATE.grandifloraNote} </>}
+                I don't want to guide you into pruning a rose that isn't ready for it yet.
+                {project.plantedWhen && <> You mentioned it was planted "{project.plantedWhen}" — I'd rather double-check.</>}{' '}
+                Has your {roseName} been growing in this spot for about three years or more?
               </ChatBubble>
               <ResponseBubble showAskField>
                 <div className="flex flex-col gap-2">
-                  <Button onClick={() => choosePrimary('established')}>
-                    Yes, three years or more
-                  </Button>
+                  <Button onClick={() => choosePrimary('established')}>Yes, three years or more</Button>
                   <Button variant="secondary" onClick={() => choosePrimary('recent')}>
                     No, it's more recent than that
                   </Button>
@@ -581,10 +662,7 @@ export function Journey() {
 
           {phase === 'planted-fallback' && (
             <>
-              <ChatBubble>
-                That's alright — plenty of gardeners aren't sure. Let's check three signs
-                together, since I'd rather be careful than guess.
-              </ChatBubble>
+              <ChatBubble>That's alright — plenty of gardeners aren't sure. Let's check three signs together.</ChatBubble>
               <ResponseBubble showAskField>
                 <div className="flex flex-col gap-3">
                   {FALLBACK_QUESTIONS.map((q) => (
@@ -618,24 +696,82 @@ export function Journey() {
             </>
           )}
 
-          {phase === 'photos' && (
+          {phase === 'dormancy' && (
             <>
-              {/* One Pip, one bubble — the restricted-gate reason (when there is
-                  one) leads into the same message rather than getting its own
-                  separate ChatBubble, which would render a second Pip avatar
-                  stacked above this one. */}
               <ChatBubble>
-                {gateResult && gateResult.status === 'restricted' && <>{gateResult.reason} </>}
-                Take a clear overview from base to tips, then a few close-ups of where stems
-                cross or look uncertain.
+                {gateResult?.status === 'restricted' && <>{gateResult.reason} </>}
+                {DORMANCY_GATE.question}
               </ChatBubble>
               <ResponseBubble showAskField>
-                {/* journey-overview / the close-up gallery below, not the plain
-                    'overview' slot — a pruning journey can start years after a
-                    plant was added (see the recently-planted gate above), so its
-                    onboarding cover photo may no longer show what the plant
-                    actually looks like. Both are always captured fresh for this
-                    journey rather than pre-filled from it. */}
+                <div className="flex flex-col gap-2">
+                  <Button onClick={() => chooseDormancy('dormant')}>{DORMANCY_GATE.answers.dormant}</Button>
+                  <Button variant="secondary" onClick={() => chooseDormancy('growing')}>
+                    {DORMANCY_GATE.answers.growing}
+                  </Button>
+                  <Button variant="secondary" onClick={() => go('dormancy-not-sure')}>
+                    {DORMANCY_GATE.answers.notSure}
+                  </Button>
+                </div>
+                <button
+                  onClick={() => setShowDormancyHelp(true)}
+                  className="mt-3 text-xs font-medium text-pip-primary underline underline-offset-2"
+                >
+                  My winters are mild — how do I judge this?
+                </button>
+              </ResponseBubble>
+              {showDormancyHelp && (
+                <InfoModal title="Mild climates" onClose={() => setShowDormancyHelp(false)}>
+                  <p>{DORMANCY_GATE.caveat}</p>
+                </InfoModal>
+              )}
+            </>
+          )}
+
+          {phase === 'dormancy-not-sure' && (
+            <>
+              <ChatBubble>{DORMANCY_GATE.notSureFallback}</ChatBubble>
+              <ResponseBubble showAskField>
+                <div className="flex flex-col gap-2">
+                  <Button onClick={() => chooseDormancy('dormant')}>The buds are still tight and closed</Button>
+                  <Button variant="secondary" onClick={() => chooseDormancy('growing')}>
+                    Some have swollen or opened
+                  </Button>
+                  <Button variant="secondary" onClick={() => chooseDormancy('not-sure')}>
+                    I'm still not sure
+                  </Button>
+                </div>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'removal-intro' && (
+            <>
+              <ChatBubble>
+                {dormancyAnswer === 'not-sure' ? DORMANCY_GATE.removalOnly.notSureIntro : DORMANCY_GATE.removalOnly.intro.text}
+              </ChatBubble>
+              <ResponseBubble showAskField>
+                <p className="mb-2 text-sm font-medium">If you remove anything today:</p>
+                <StatementList items={DORMANCY_GATE.removalOnly.conditions} />
+                <p className="mt-3 rounded-xl bg-pip-secondary/60 px-3.5 py-2.5 text-xs text-pip-text-soft">
+                  {DORMANCY_GATE.removalOnly.lateSeason.text}
+                  <ConfidenceTag level={DORMANCY_GATE.removalOnly.lateSeason.confidence} />
+                </p>
+                <div className="flex flex-col gap-2 pt-3">
+                  <Button onClick={() => go('photos')}>Look for dead, damaged or diseased wood</Button>
+                  <Button variant="secondary" onClick={() => go('care', { obsIndex: allowed.length })}>
+                    Skip to care tips
+                  </Button>
+                </div>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'photos' && (
+            <>
+              <ChatBubble>
+                Take a clear overview from base to tips, then a few close-ups of anything that looks uncertain.
+              </ChatBubble>
+              <ResponseBubble showAskField>
                 <p className="mb-1.5 text-xs font-medium text-pip-text-soft">Overview</p>
                 <div className="mb-4 w-1/2">
                   <PhotoUpload
@@ -655,12 +791,6 @@ export function Journey() {
                     onRemove={(path) => removeJourneyCloseUpPhoto(project.id, project.journeyCloseUpPhotoPaths, path)}
                   />
                 </div>
-                {(!project.journeyOverviewPhotoPath || project.journeyCloseUpPhotoPaths.length === 0) && (
-                  <p className="mb-2 text-xs text-pip-text-soft">
-                    Add an overview and at least one close-up to continue — they'll stay in{' '}
-                    {project.name}'s journal afterwards, alongside what you decide.
-                  </p>
-                )}
                 <Button
                   disabled={!project.journeyOverviewPhotoPath || project.journeyCloseUpPhotoPaths.length === 0}
                   onClick={beginObservations}
@@ -671,118 +801,163 @@ export function Journey() {
             </>
           )}
 
-          {phase === 'observe' && current && !revealed && (
+          {phase === 'observe' && current && obsStep === 'look' && (
             <>
-              <ChatBubble>
-                {current.pipProposal} Would you like me to show you what I'm seeing?
-              </ChatBubble>
+              <ChatBubble>{current.key === 'dead-wood' && aiAnswer ? aiAnswer : current.lookFor}</ChatBubble>
               <ResponseBubble showAskField>
-                {showWhy && (
-                  <p className="mb-3 rounded-xl bg-pip-secondary/60 px-3.5 py-2.5 text-xs text-pip-text-soft">
-                    {current.comparisonNote}
-                  </p>
+                {current.key === 'dead-wood' && deadWoodPhotoUrl && (
+                  <img src={deadWoodPhotoUrl} alt={current.feature} className="mb-3 aspect-video w-full rounded-2xl object-cover" />
                 )}
-                <div className="flex gap-3">
-                  <Button className="flex-1" onClick={() => setRevealed(true)}>
-                    Show Me
+                {current.key === 'dead-wood' && !aiRequested && deadWoodPhotoPath && (
+                  <Button variant="secondary" className="mb-3" onClick={() => setAiRequested(true)}>
+                    Ask Pip to look at my photo
                   </Button>
-                  <Button className="flex-1" variant="secondary" onClick={() => setShowWhy(true)}>
-                    Why?
+                )}
+                {aiLoading && <p className="mb-3 text-xs text-pip-text-soft">Pip is looking at your photo…</p>}
+                {aiFailed && (
+                  <p className="mb-3 text-xs text-pip-text-soft">Pip's live look isn't available right now, so here's the general guidance.</p>
+                )}
+                <p className="mb-1.5 text-sm font-medium">What to look for</p>
+                <StatementList items={current.criteria} />
+                <p className="mt-3 rounded-xl bg-pip-secondary/60 px-3.5 py-2.5 text-xs text-pip-text-soft">{current.photoLimit}</p>
+                <p className="mt-2 text-xs text-pip-text-soft">No comparison images yet — they'll be added later.</p>
+                <div className="mb-3 mt-2 flex flex-wrap gap-x-4 gap-y-1.5 text-xs">
+                  <button onClick={() => setShowConfidenceInfo(true)} className="font-medium text-pip-primary underline underline-offset-2">
+                    What do the confidence levels mean?
+                  </button>
+                  <button onClick={() => setShowSourcesInfo(true)} className="font-medium text-pip-primary underline underline-offset-2">
+                    Where this comes from
+                  </button>
+                </div>
+                {current.key === 'rootstock-sucker' ? (
+                  <>
+                    <p className="mb-3 text-sm font-medium">{SUCKER_STEPS.hasShoot}</p>
+                    <div className="flex flex-col gap-2">
+                      <Button onClick={() => go('observe', { obsStep: 'sucker-union' })}>Yes, there's a shoot</Button>
+                      <Button variant="secondary" onClick={finishObservation}>
+                        No
+                      </Button>
+                    </div>
+                  </>
+                ) : (
+                  <div className="flex flex-col gap-2">
+                    <Button onClick={() => go('observe', { obsStep: 'confirm' })}>I've found one to check</Button>
+                    <Button variant="secondary" onClick={finishObservation}>
+                      I can't see any
+                    </Button>
+                  </div>
+                )}
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'observe' && current && obsStep === 'sucker-union' && (
+            <>
+              <ChatBubble>{SUCKER_STEPS.unionVisible}</ChatBubble>
+              <ResponseBubble showAskField>
+                <p className="mb-3 text-xs text-pip-text-soft">{SUCKER_STEPS.ownRoot}</p>
+                <div className="flex flex-col gap-2">
+                  <Button onClick={() => go('observe', { obsStep: 'confirm' })}>Yes, I can see it</Button>
+                  <Button variant="secondary" onClick={() => go('observe', { obsStep: 'sucker-no-union' })}>
+                    No, I can't see it
                   </Button>
                 </div>
               </ResponseBubble>
             </>
           )}
 
-          {phase === 'observe' && current && revealed && (
+          {phase === 'observe' && current && obsStep === 'sucker-no-union' && (
             <>
-              <ChatBubble>{current.id === 'dead-wood' && aiAnswer ? aiAnswer : current.pipProposal}</ChatBubble>
+              <ChatBubble>{SUCKER_STEPS.noUnion}</ChatBubble>
               <ResponseBubble showAskField>
-                {current.id === 'dead-wood' && deadWoodPhotoUrl ? (
-                  <img
-                    src={deadWoodPhotoUrl}
-                    alt={current.feature}
-                    className="mb-3 aspect-video w-full rounded-2xl object-cover"
-                  />
-                ) : (
-                  <PhotoPlaceholder label={current.feature} className="mb-3 aspect-video" />
-                )}
-                {current.id === 'dead-wood' && aiLoading && (
-                  <p className="mb-3 text-xs text-pip-text-soft">Pip is looking at your photo…</p>
-                )}
-                {current.id === 'dead-wood' && aiFailed && (
-                  <p className="mb-3 text-xs text-pip-text-soft">
-                    Pip's live look isn't available right now, so here's the general guidance instead.
-                  </p>
-                )}
-                <p className="mb-3 rounded-xl bg-pip-secondary/60 px-3.5 py-2.5 text-xs text-pip-text-soft">
-                  {current.comparisonNote}
-                </p>
-                {/* Only ever shown when this observation actually has real
-                    content behind it — see the confidenceLevel/sources
-                    comment on ScriptedObservation. */}
-                {(current.confidenceLevel || (current.sources && current.sources.length > 0)) && (
-                  <div className="mb-3 flex flex-wrap gap-x-4 gap-y-1.5 text-xs">
-                    {current.confidenceLevel && (
-                      <button
-                        onClick={() => setShowConfidenceInfo(true)}
-                        className="font-medium text-pip-primary underline underline-offset-2"
-                      >
-                        {current.confidenceLevel} confidence — what does this mean?
-                      </button>
-                    )}
-                    {current.sources && current.sources.length > 0 && (
-                      <button
-                        onClick={() => setShowSourcesInfo(true)}
-                        className="font-medium text-pip-primary underline underline-offset-2"
-                      >
-                        Where this comes from
-                      </button>
-                    )}
-                  </div>
-                )}
-                <p className="mb-3 text-sm font-medium">Check the actual rose. What do you see?</p>
                 <div className="flex flex-col gap-2">
-                  <Button onClick={() => recordOutcome('confirmed')}>Yes, I can see that</Button>
-                  <Button variant="secondary" onClick={() => recordOutcome('corrected')}>
-                    Not quite — it looks different
+                  <Button onClick={() => go('observe', { obsStep: 'confirm' })}>I cleared some soil and can see it now</Button>
+                  <Button
+                    variant="secondary"
+                    onClick={() => {
+                      saveRecord(makeRecord('unresolved', 'leave', 'No bud union visible: not treated as a sucker.'))
+                      go('any-more')
+                    }}
+                  >
+                    Leave the shoot
                   </Button>
-                  <Button variant="secondary" onClick={() => recordOutcome('unresolved')}>
-                    I can't tell
+                  <Button
+                    variant="secondary"
+                    onClick={() => {
+                      setPendingOutcome('unresolved')
+                      go('decide', { decidePath: 'not-sure' })
+                    }}
+                  >
+                    Other choices
                   </Button>
                 </div>
               </ResponseBubble>
+            </>
+          )}
 
-              {showConfidenceInfo && current.confidenceLevel && (
-                <InfoModal title={`${current.confidenceLevel} confidence`} onClose={() => setShowConfidenceInfo(false)}>
-                  <p>{CONFIDENCE_EXPLANATIONS[current.confidenceLevel]}</p>
-                  <p className="mt-2.5">
-                    Pip's confidence ratings run from Very High to Very Low, based on how many
-                    reputable sources agree and how much is still left in question.
-                  </p>
+          {phase === 'observe' && current && obsStep === 'confirm' && (
+            <>
+              <ChatBubble>{current.confirmQuestion}</ChatBubble>
+              <ResponseBubble showAskField>
+                {current.key === 'rootstock-sucker' && removalOnly && (
+                  <p className="mb-3 rounded-xl bg-pip-bg px-3.5 py-2.5 text-xs text-pip-text-soft">{SUCKER_STEPS.supporting}</p>
+                )}
+                <div className="flex flex-col gap-2">
+                  <Button onClick={() => confirmOutcome('confirmed')}>{current.confirmLabel}</Button>
+                  <Button variant="secondary" onClick={() => confirmOutcome('corrected')}>
+                    {current.doesntMatchLabel}
+                  </Button>
+                  <Button variant="secondary" onClick={() => go('observe', { obsStep: 'not-sure' })}>
+                    I'm not sure
+                  </Button>
+                </div>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'observe' && current && obsStep === 'not-sure' && (
+            <>
+              <ChatBubble>{current.notSureGuidance}</ChatBubble>
+              <ResponseBubble showAskField>
+                <div className="flex flex-col gap-2">
+                  <Button onClick={() => confirmOutcome('confirmed')}>{current.confirmLabel}</Button>
+                  <Button variant="secondary" onClick={() => confirmOutcome('corrected')}>
+                    {current.doesntMatchLabel}
+                  </Button>
+                  <Button variant="secondary" onClick={stillNotSure}>
+                    I'm still not sure
+                  </Button>
+                </div>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'observe' && current && (
+            <>
+              {showConfidenceInfo && (
+                <InfoModal title="Confidence levels" onClose={() => setShowConfidenceInfo(false)}>
+                  {(['High', 'Moderate', 'Low'] as const).map((l) => (
+                    <p key={l} className="mb-2">
+                      <strong>{l}:</strong> {CONFIDENCE_EXPLANATIONS[l]}
+                    </p>
+                  ))}
+                  <p>An "approved default" is a sensible choice the Founders approved where the sources are silent.</p>
                 </InfoModal>
               )}
-
-              {showSourcesInfo && current.sources && current.sources.length > 0 && (
+              {showSourcesInfo && (
                 <InfoModal title="Where this comes from" onClose={() => setShowSourcesInfo(false)}>
-                  <p className="mb-3">
-                    This observation draws on the following reputable horticultural sources:
-                  </p>
-                  <div className="flex flex-col gap-2.5">
-                    {current.sources.map((source) => (
-                      <a
-                        key={source.url}
-                        href={source.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block rounded-lg bg-pip-bg px-3 py-2.5"
-                      >
-                        <p className="text-sm font-medium text-pip-text underline underline-offset-2">
-                          {source.title}
+                  <div className="flex max-h-[60vh] flex-col gap-2 overflow-y-auto">
+                    {sourcesFor(current.obs.id, current.dec.id).map((s) =>
+                      s.url ? (
+                        <a key={s.id} href={s.url} target="_blank" rel="noreferrer" className="block rounded-lg bg-pip-bg px-3 py-2 text-sm underline underline-offset-2">
+                          {s.title}
+                        </a>
+                      ) : (
+                        <p key={s.id} className="rounded-lg bg-pip-bg px-3 py-2 text-sm">
+                          {s.title}
                         </p>
-                        <p className="mt-0.5 text-xs text-pip-text-soft">{source.publisher}</p>
-                      </a>
-                    ))}
+                      ),
+                    )}
                   </div>
                 </InfoModal>
               )}
@@ -792,10 +967,17 @@ export function Journey() {
           {phase === 'decide' && current && !pendingCutConfirm && !pendingHelpInfo && !pendingTraceConfirm && (
             <>
               <ChatBubble>
-                Based on what you confirmed, here are the choices for this observation.
+                {decidePath === 'not-sure'
+                  ? "That's fine — we won't cut anything you're unsure about. What would you like to do?"
+                  : 'Here are your choices.'}
               </ChatBubble>
               <ResponseBubble showAskField>
-                <DecisionChoices onChoose={chooseDecision} />
+                {decidePath !== 'not-sure' && (
+                  <div className="mb-3">
+                    <StatementList items={(decidePath === 'doesnt-match' ? current.doesntMatchNotes : current.decisionNotes) ?? []} />
+                  </div>
+                )}
+                <DecisionChoices onChoose={chooseDecision} options={decisionOptions} />
               </ResponseBubble>
             </>
           )}
@@ -803,14 +985,13 @@ export function Journey() {
           {phase === 'decide' && current && pendingTraceConfirm && (
             <>
               <ChatBubble>
-                Before you cut — can you follow that stem all the way down to exactly where
-                you're planning to make the cut, with a clear line the whole way and nothing in
-                the way?
+                Before you cut — can you follow that stem all the way down to exactly where you're planning to make the cut,
+                with a clear line the whole way?
               </ChatBubble>
               <ResponseBubble showAskField>
                 <div className="flex flex-col gap-2">
                   <Button onClick={confirmTraced}>Yes, I can trace it clearly</Button>
-                  <Button variant="secondary" onClick={cannotTrace}>
+                  <Button variant="secondary" onClick={() => setPendingTraceConfirm(false)}>
                     No — let me choose again
                   </Button>
                 </div>
@@ -821,16 +1002,12 @@ export function Journey() {
           {phase === 'decide' && current && pendingCutConfirm && (
             <>
               <ChatBubble>
-                Before you cut — earlier, on the safety check, you told me you weren't sure
-                about: {uncheckedSafetyLabels.join('; ')}. Cutting live wood you're not
-                confident about can genuinely harm the rose, so it's worth pausing on this one.
-                Are you sure you want to go ahead?
+                Before you cut — on the safety check you weren't sure about: {uncheckedSafetyLabels.join('; ')}. Are you sure
+                you want to go ahead?
               </ChatBubble>
               <ResponseBubble showAskField>
                 <div className="flex flex-col gap-2">
-                  <Button onClick={() => recordChoice('cut')}>
-                    Yes, I'm confident — I'll go ahead and cut
-                  </Button>
+                  <Button onClick={() => go('cut-guide')}>Yes, I'm confident — go ahead</Button>
                   <Button variant="secondary" onClick={() => setPendingCutConfirm(false)}>
                     Let me choose again
                   </Button>
@@ -842,12 +1019,9 @@ export function Journey() {
           {phase === 'decide' && current && pendingHelpInfo && (
             <>
               <ChatBubble>
-                Good instinct — reaching out before cutting is always fine. A few places that
-                tend to have real, trustworthy expertise: a local rose society or garden club,
-                your area's Cooperative Extension office (if you're in the US), or a nursery or
-                experienced gardener you already trust. I'll save this as "get help" for now, so
-                you can come back and finish this decision on {project.name} whenever you're
-                ready.
+                Good instinct — reaching out before cutting is always fine. A local rose society or garden club, your area's
+                extension service, or a nursery or experienced gardener you trust are good places to start. I'll save this as
+                "get help" so you can come back to it.
               </ChatBubble>
               <ResponseBubble showAskField>
                 <div className="flex flex-col gap-2">
@@ -860,21 +1034,101 @@ export function Journey() {
             </>
           )}
 
-          {phase === 'summary' && (
+          {phase === 'tools' && (
+            <>
+              <ChatBubble>Before your first cut, a word about tools and about how much to take off.</ChatBubble>
+              <ResponseBubble showAskField>
+                {[publishedCare('PKR-CGD-000001'), publishedCare('PKR-CGD-000003')]
+                  .filter((c): c is CareGuidance => Boolean(c))
+                  .map((c) => (
+                    <CareBlock key={c.pkr.id} care={c} />
+                  ))}
+                <Button onClick={afterTools}>Got it</Button>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'cut-guide' && current && (
+            <>
+              <ChatBubble>{pendingChoice?.cutKind === 'sucker' ? "Here's how to remove it." : "Here's how to make the cut."}</ChatBubble>
+              <ResponseBubble showAskField>
+                {removalOnly && pendingChoice?.cutKind !== 'sucker' && (
+                  <div className="mb-3">
+                    <p className="mb-1.5 text-xs font-medium text-pip-text-soft">Because your rose is already growing:</p>
+                    <StatementList items={DORMANCY_GATE.removalOnly.conditions} />
+                  </div>
+                )}
+                <StatementList items={cutGuide} />
+                <div className="flex flex-col gap-2 pt-3">
+                  <Button onClick={() => recordChoice('cut')}>Done</Button>
+                  <Button variant="secondary" onClick={goBack}>
+                    I've changed my mind
+                  </Button>
+                </div>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'advisory' && (
+            <>
+              <ChatBubble>A gentle reminder, since you've made a few cuts now.</ChatBubble>
+              <ResponseBubble showAskField>
+                {publishedCare('PKR-CGD-000003') && <CareBlock care={publishedCare('PKR-CGD-000003')!} />}
+                <Button onClick={() => go('any-more')}>Continue</Button>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'any-more' && current && (
             <>
               <ChatBubble>
-                Here's what we looked at together. Correct anything before it becomes part of{' '}
-                {project.name}'s history.
+                {lastNote && <>{lastNote} </>}
+                {current.anyMoreQuestion}
               </ChatBubble>
               <ResponseBubble showAskField>
+                <div className="flex flex-col gap-2">
+                  <Button onClick={anotherOne}>Yes</Button>
+                  <Button variant="secondary" onClick={finishObservation}>
+                    No, that's all
+                  </Button>
+                </div>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'care' && (
+            <>
+              <ChatBubble>
+                {recentlyPlantedRestricted
+                  ? 'Your rose needs a little more time before full pruning.'
+                  : "It's not the time for full pruning this season."}{' '}
+                Here's how to look after your {roseName} in the meantime.
+              </ChatBubble>
+              <ResponseBubble showAskField>
+                {careRecords.map((c) => (
+                  <CareBlock key={c.pkr.id} care={c} />
+                ))}
+                <p className="mb-3 text-xs italic text-pip-text-soft">{CARE_DISCLOSURE}</p>
+                <Button onClick={() => go('summary')}>Continue</Button>
+              </ResponseBubble>
+            </>
+          )}
+
+          {phase === 'summary' && (
+            <>
+              <ChatBubble>Here's what we looked at together. It will become part of {project.name}'s history.</ChatBubble>
+              <ResponseBubble showAskField>
                 <div className="mb-3 flex flex-col gap-2.5">
-                  {records.map((r) => (
-                    <div key={r.id} className="rounded-xl bg-pip-bg p-3.5">
-                      <p className="text-sm font-medium">{r.feature}</p>
-                      <p className="mt-0.5 text-xs text-pip-text-soft">{r.correction}</p>
-                      <p className="mt-1.5 text-xs font-medium capitalize text-pip-primary">
-                        {r.choice?.replace('-', ' ') ?? 'No decision recorded'}
-                      </p>
+                  {summaryGroups.length === 0 && <p className="text-xs text-pip-text-soft">Nothing was recorded this time.</p>}
+                  {summaryGroups.map((g) => (
+                    <div key={g.obs.key} className="rounded-xl bg-pip-bg p-3.5">
+                      <p className="text-sm font-medium">{g.obs.feature}</p>
+                      {g.items.map((r, i) => (
+                        <p key={r.id + i} className="mt-1 text-xs text-pip-text-soft">
+                          {outcomeLabel(r.outcome)}
+                          {r.choice && <> — {r.choice.replace('-', ' ')}</>}
+                        </p>
+                      ))}
                     </div>
                   ))}
                 </div>

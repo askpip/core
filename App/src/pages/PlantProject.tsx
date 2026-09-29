@@ -38,10 +38,14 @@ export function PlantProject() {
     )
   }
 
-  const confirmedCount = project.observations.filter((o) => o.outcome !== 'unresolved').length
+  // 'none-remaining' rows are Journey.tsx's per-observation "no more" markers
+  // (resume bookkeeping), not observations the gardener made, so they're left
+  // out of both the journal list and the confidence figure.
+  const shownObservations = project.observations.filter((o) => o.outcome !== 'none-remaining')
+  const confirmedCount = shownObservations.filter((o) => o.outcome !== 'unresolved').length
   const confidenceLabel =
-    project.observations.length > 0
-      ? `${Math.round((confirmedCount / project.observations.length) * 100)}%`
+    shownObservations.length > 0
+      ? `${Math.round((confirmedCount / shownObservations.length) * 100)}%`
       : null
 
   return (
@@ -85,12 +89,12 @@ export function PlantProject() {
             </ChatBubble>
 
             <div className="flex flex-col gap-2.5">
-              {project.observations.map((o) => (
+              {shownObservations.map((o) => (
                 <div key={o.id} className="rounded-xl bg-pip-card p-4 shadow-sm">
                   <div className="flex items-center justify-between">
                     <p className="text-sm font-medium">{o.feature}</p>
                     <span className="rounded-full bg-pip-secondary px-2.5 py-0.5 text-[11px] font-medium capitalize text-pip-text">
-                      {o.outcome}
+                      {o.outcome === 'corrected' ? "doesn't match" : o.outcome === 'unresolved' ? 'not sure' : o.outcome}
                     </span>
                   </div>
                   <p className="mt-1 text-xs text-pip-text-soft">{o.correction}</p>

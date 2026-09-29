@@ -1,4 +1,9 @@
-export type ObservationOutcome = 'confirmed' | 'corrected' | 'unresolved'
+/**
+ * 'none-remaining' is the per-observation "no more of these" marker: saved once
+ * the gardener answers no to "Can you see any more …?", so a resumed journey
+ * knows that observation is finished even when it had several instances.
+ */
+export type ObservationOutcome = 'confirmed' | 'corrected' | 'unresolved' | 'none-remaining'
 export type Choice = 'cut' | 'leave' | 'decide-later' | 'get-help'
 
 /** How a plant's location was captured — see src/lib/location.ts. */
