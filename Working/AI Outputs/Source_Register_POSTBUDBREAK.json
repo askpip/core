@@ -1,0 +1,426 @@
+[
+ {
+  "code": "RHS-DB",
+  "source": "Royal Horticultural Society, \"Rose Dieback\". No date shown. Accessed 29 September 2026.",
+  "url": "https://www.rhs.org.uk/problems/rose-dieback",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-6",
+   "AF-8",
+   "AF-14"
+  ],
+  "quote": "Remove all dead and damaged wood as soon as it is seen / Browning and dieback of the tips of young shoots in spring (usually the result of frost damage)"
+ },
+ {
+  "code": "CBG",
+  "source": "Chicago Botanic Garden, \"Deadheading and Pruning Roses\". No date shown. Accessed 29 September 2026.",
+  "url": "https://www.chicagobotanic.org/plant-information/deadheading-and-pruning-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-15"
+  ],
+  "quote": "Dead, diseased, spindly, or crossing branches can be removed at any time. / Deadheading should not be done after Labor Day to avoid encouraging new growth that may be damaged by early cold temperatures"
+ },
+ {
+  "code": "NYBG-FAQ",
+  "source": "New York Botanical Garden, LuEsther T. Mertz Library, LibAnswers, \"When is the best time to prune roses?\" (30 October 2024). Accessed 29 September 2026.",
+  "url": "https://libanswers.nybg.org/faq/223492",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-8",
+   "AF-16"
+  ],
+  "quote": "If there is diseased growth on the plant, cut that back at any time, including the fall."
+ },
+ {
+  "code": "PTC",
+  "source": "PlantTalk Colorado (Colorado State University Extension), \"1763 – Pruning Roses\". No date shown. Accessed 29 September 2026.",
+  "url": "https://planttalk.colostate.edu/topics/trees-shrubs-vines/1763-pruning-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-1"
+  ],
+  "quote": "Dead wood can be removed at any time. [under the heading \"How do I prune climbing roses?\"]"
+ },
+ {
+  "code": "OSU-LATE",
+  "source": "Oregon State University Extension, Brooke Edmunds, \"Rose pruning, better late or never?\" (April 2014, reviewed 2024). Accessed 29 September 2026.",
+  "url": "https://extension.oregonstate.edu/ask-extension/featured/rose-pruning-better-late-or-never",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-3",
+   "AF-17"
+  ],
+  "quote": "If there are many dead canes that can be removed without damaging the foliage then go ahead and prune them out. / Any type of heavy pruning at this point has the potential to reduce flowering."
+ },
+ {
+  "code": "DA-APR",
+  "source": "David Austin Roses (commercial), Megan Edmondson, \"Is It Too Late to Prune Roses in April? Here's What You Need to Know\" (8 April 2026). Accessed 29 September 2026.",
+  "url": "https://www.davidaustinroses.com/blogs/rose-care/pruning-roses-in-april-heres-what-you-should-know-first",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-3",
+   "AF-17"
+  ],
+  "quote": "The main aim is to remove anything that's dead or damaged and give the plant some shape. / If your rose is now in full leaf, it's not too late. Just go a little more gently. / cutting back at this stage might delay flowering a little"
+ },
+ {
+  "code": "AEX-615970",
+  "source": "Ask Extension #615970, \"Ok to prune a rose bush that started to leaf out?\" (asked 6 March 2020), answered by Maryland Home & Garden Information Center Certified Professional Horticulturists. Accessed 29 September 2026.",
+  "url": "https://ask.extension.org/kb/faq.php?id=615970",
+  "status": "Opened",
+  "findings": [
+   "AF-3"
+  ],
+  "quote": "It only becomes a problem if you have a couple of inches of new growth already leafed out."
+ },
+ {
+  "code": "TAMU-EP",
+  "source": "Texas A&M AgriLife Extension Service, El Paso County Master Gardeners, \"Rose Pruning Handout\" (published 15 February 2016; modified 28 August 2024). Accessed 29 September 2026.",
+  "url": "https://txmg.org/elpaso/rose-pruning-handout/",
+  "status": "Opened",
+  "findings": [
+   "AF-4"
+  ],
+  "quote": "All major pruning should be done in late winter, just as buds break dormancy"
+ },
+ {
+  "code": "NYBG-LG",
+  "source": "New York Botanical Garden, LuEsther T. Mertz Library, \"Pruning Roses\" research guide (last updated 17 February 2026). Accessed 29 September 2026.",
+  "url": "https://libguides.nybg.org/pruningroses",
+  "status": "Opened",
+  "findings": [
+   "AF-4",
+   "AF-15"
+  ],
+  "quote": "Prune in early spring when about half the buds are swollen, but before the leaves start to expand / tender growth at the end of the season is at greater risk of winter damage"
+ },
+ {
+  "code": "RHS-MB",
+  "source": "Royal Horticultural Society, \"Rose Pruning: Floribunda & Hybrid Tea Roses\". No date shown. Accessed 29 September 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide",
+  "status": "Opened",
+  "findings": [
+   "AF-4"
+  ],
+  "quote": "To start with, cut out dead, diseased, rubbing and crossing stems. / Roses can be pruned during late winter when growth is just resuming"
+ },
+ {
+  "code": "OSU",
+  "source": "Oregon State University Extension, Barbara McMullen, \"Pruning roses\" (May 2007, reviewed 2024). Accessed 29 September 2026.",
+  "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-4",
+   "AF-6"
+  ],
+  "quote": "Start by removing dead, dying or diseased canes. / Earlier pruning (before the last hard frost or forecasted cold weather) may cause die-back that necessitates repruning."
+ },
+ {
+  "code": "ILL",
+  "source": "University of Illinois Extension, \"Pruning\" (Roses). No date shown. Accessed 29 September 2026.",
+  "url": "https://extension.illinois.edu/roses/pruning",
+  "status": "Opened",
+  "findings": [
+   "AF-4",
+   "AF-15"
+  ],
+  "quote": "In many cases, pruning is limited to removing winter-damaged wood. / Flowers should not be cut after October 1 to allow the plant to begin hardening off for the winter."
+ },
+ {
+  "code": "ISU-S",
+  "source": "Iowa State University Extension and Outreach, Aaron Steil, \"Rose Care by Season\" (last reviewed June 2025). Accessed 29 September 2026.",
+  "url": "https://yardandgarden.extension.iastate.edu/how-to/rose-care-season",
+  "status": "Opened",
+  "findings": [
+   "AF-4",
+   "AF-15",
+   "AF-16"
+  ],
+  "quote": "It starts by removing dead tissue from disease or winter kill. / Pruning late in the growing season can reduce winter survival rates. / prune out obviously diseased canes"
+ },
+ {
+  "code": "UGA",
+  "source": "University of Georgia CAES Field Report, Frank M. Watson, \"Prune roses now for more blooms later\" (8 February 2012). Accessed 29 September 2026.",
+  "url": "https://fieldreport.caes.uga.edu/news/prune-roses-now-for-more-blooms-later/",
+  "status": "Opened",
+  "findings": [
+   "AF-4"
+  ],
+  "quote": "you must remove all dead and diseased wood and reduce the remaining canes by at least a third."
+ },
+ {
+  "code": "DBG",
+  "source": "Dunedin Botanic Garden, Linda Hellyer, \"Practical Tips for Rose Pruning\" (26 June 2014). Accessed 29 September 2026.",
+  "url": "https://dunedinbotanicgarden.co.nz/collections/garden-life-article/practical-tips-for-rose-pruning",
+  "status": "Opened",
+  "findings": [
+   "AF-4"
+  ],
+  "quote": "Remove the 3Ds – Dead, Diseased and Damaged stems – cutting off cleanly at the base or a suitable outward facing bud."
+ },
+ {
+  "code": "PUR",
+  "source": "Purdue University Consumer Horticulture, Rosie Lerner, \"Spring Pruning of Roses\" (22 March 2011). Accessed 29 September 2026.",
+  "url": "https://www.purdue.edu/hla/sites/yardandgarden/spring-pruning-of-roses/?cat=15",
+  "status": "Opened",
+  "findings": [
+   "AF-4",
+   "AF-7"
+  ],
+  "quote": "Roses are best pruned before the new foliage emerges so that you can easily assess winter damage."
+ },
+ {
+  "code": "UMD",
+  "source": "University of Maryland Extension, Raymond Bosmans, \"Guide to Pruning Roses\" (updated 13 June 2023). Accessed 29 September 2026.",
+  "url": "https://extension.umd.edu/resource/guide-pruning-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-4",
+   "AF-5"
+  ],
+  "quote": "Throughout the growing season you should also do some 'dead-head' trimming, removing the spent blossoms and small, dead canes and branches."
+ },
+ {
+  "code": "LSU",
+  "source": "LSU AgCenter, Dan Gill, \"Prune roses in late summer\" (31 August 2018). Accessed 29 September 2026.",
+  "url": "https://www.lsuagcenter.com/profiles/rbogren/articles/page1535642548638",
+  "status": "Opened",
+  "findings": [
+   "AF-5"
+  ],
+  "quote": "First, entirely remove all diseased or dead canes by cutting them back to their point of origin."
+ },
+ {
+  "code": "YAT-S",
+  "source": "Yates New Zealand (commercial), \"Summer Rose care tips to refresh and reinvigorate\" (December garden calendar). No date shown. Accessed 29 September 2026.",
+  "url": "https://www.yates.co.nz/ideas-plans/garden-calendar/yearly/december/summer-rose-care/",
+  "status": "Opened",
+  "findings": [
+   "AF-5"
+  ],
+  "quote": "Just trim off around 30% of the overall growth and also remove any dead or thin stems."
+ },
+ {
+  "code": "YAT-AU",
+  "source": "Yates Australia (commercial), \"How to Care for Your Roses in Summer\". No date shown. Accessed 29 September 2026.",
+  "url": "https://www.yates.com.au/garden-hub/summer-rose-care/",
+  "status": "Opened",
+  "findings": [
+   "AF-5"
+  ],
+  "quote": "Cut back Rose bushes all over by about 30% and also completely remove any dead or spindly stems and spent flower heads."
+ },
+ {
+  "code": "UNL-L",
+  "source": "Nebraska Extension in Lancaster County, \"Spring Pruning for Shrub Roses\" (28 March 2021). Accessed 29 September 2026.",
+  "url": "https://lancaster.unl.edu/spring-rose-pruning",
+  "status": "Opened",
+  "findings": [
+   "AF-7",
+   "AF-20"
+  ],
+  "quote": "Beginning gardeners may want to delay pruning until new growth begins, which allows them to see exactly where healthy tissue is located / cut down to a good bud at least one inch below any evidence of disease"
+ },
+ {
+  "code": "FG-Z",
+  "source": "Fine Gardening, Paul Zimmerman, \"Wait Before Assuming The Cold Killed Your Rose\" (8 April 2014). Accessed 29 September 2026.",
+  "url": "https://www.finegardening.com/article/wait-before-assuming-the-cold-killed-your-rose",
+  "status": "Opened",
+  "findings": [
+   "AF-7"
+  ],
+  "quote": "We cut the dead growth back to the ground just like I did this year and waited to see if anything happened."
+ },
+ {
+  "code": "AEX-236546",
+  "source": "Ask Extension #236546, \"Rose Bush has half dead canes\" (asked 13 April 2015; answered 16 April 2015). Responding institution not named on the page. Accessed 29 September 2026.",
+  "url": "https://ask.extension.org/kb/faq.php?id=236546",
+  "status": "Opened",
+  "findings": [
+   "AF-8",
+   "AF-20"
+  ],
+  "quote": "Remove and destroy all infected/dead portions of the cane immediately. / Prune live canes in the spring, not fall."
+ },
+ {
+  "code": "VT-BOT",
+  "source": "Virginia Cooperative Extension (Virginia Tech), Elizabeth A. Bush and Lina Rodriguez Salamanca, \"Botryosphaeria Canker and Dieback of Trees and Shrubs in the Landscape\", Publication 450-726 (17 November 2023). Accessed 29 September 2026.",
+  "url": "https://www.pubs.ext.vt.edu/450/450-726/450-726.html",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-10",
+   "AF-19"
+  ],
+  "quote": "Botryosphaeria spp. colonize dead wood and can move from dead to healthy wood. / Wounded plant tissue is susceptible to infection by Botryosphaeria fungi. / Prune dead wood back to a healthy area on the branch (white to cream-colored inside when cut)."
+ },
+ {
+  "code": "UCIPM-CB",
+  "source": "UC Statewide IPM Program, University of California Agriculture and Natural Resources, \"Cane Blight of Caneberries and Roses\" (page copyright 1996–2026). Accessed 29 September 2026.",
+  "url": "https://ipm.ucanr.edu/home-and-landscape/cane-blight-of-caneberries-and-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-10",
+   "AF-11"
+  ],
+  "quote": "Prune out infected canes during dry weather during the dormant season. / The pathogen readily infects wounded or weakened areas of canes."
+ },
+ {
+  "code": "CLE-D",
+  "source": "Clemson Cooperative Extension HGIC, N. Doubrava, J. H. Blake and J. Williamson, \"Rose Diseases\" (updated 8 April 2025). Accessed 29 September 2026.",
+  "url": "https://hgic.clemson.edu/factsheet/rose-diseases/",
+  "status": "Opened",
+  "findings": [
+   "AF-10",
+   "AF-20"
+  ],
+  "quote": "Wounds are a major way the fungus enters the plant. / Make all pruning cuts well below the diseased areas"
+ },
+ {
+  "code": "PNW-C",
+  "source": "Pacific Northwest Plant Disease Management Handbook, \"Rose (Rosa spp.) and hybrids-Brand and Common Canker\" (first published 11 September 2015; revised March 2026). Accessed 29 September 2026.",
+  "url": "https://pnwhandbooks.org/plantdisease/host-disease/rose-rosa-spp-hybrids-brand-common-canker",
+  "status": "Opened",
+  "findings": [
+   "AF-10",
+   "AF-20"
+  ],
+  "quote": "Both infect cane wounds caused by pruning, harvesting, insects, thorn scars, or scratches. / Cut and destroy infected canes well below the affected area"
+ },
+ {
+  "code": "MRS",
+  "source": "Marin Rose Society, Nanette Londeree, \"Wilting Roses and Cane Borers\" (1 August 2023). Accessed 29 September 2026.",
+  "url": "https://www.marinrose.org/care/wilting-roses-and-cane-borers/",
+  "status": "Opened",
+  "findings": [
+   "AF-12",
+   "AF-13",
+   "AF-19"
+  ],
+  "quote": "inspect canes in spring (mid-April – mid June) for egg laying incisions or swelling. If you observe any, remove and destroy infested canes. / Cut each cane below the wilted portion and examine the pith – continue to make short cuts until the pith is white."
+ },
+ {
+  "code": "USU-RSG",
+  "source": "Utah State University Extension, Diane Alston, \"Rose Stem Girdler [Agrilus cuprescens]\" (October 2015). Accessed 29 September 2026.",
+  "url": "https://extension.usu.edu/planthealth/research/rose-stem-girdler",
+  "status": "Opened",
+  "findings": [
+   "AF-12",
+   "AF-13"
+  ],
+  "quote": "Prune out and destroy infested canes in spring through summer to remove larvae. / Prune below the point of insect boring activity, or remove entire canes."
+ },
+ {
+  "code": "PTC-CB",
+  "source": "PlantTalk Colorado (Colorado State University Extension), \"1463 – Rose Cane Borer\". No date shown. Accessed 29 September 2026.",
+  "url": "https://planttalk.colostate.edu/topics/insects-diseases/1463-rose-cane-borer/",
+  "status": "Opened",
+  "findings": [
+   "AF-13"
+  ],
+  "quote": "prune the rose cane below the wasp nest area where there may be a slight swelling."
+ },
+ {
+  "code": "AZ1528",
+  "source": "University of Arizona Cooperative Extension, Jack Kelly (original by Lucy Bradley), \"Diagnosing Problems of Roses in the Landscape\", AZ1528 (September 2010). Accessed 29 September 2026.",
+  "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1528.pdf",
+  "status": "Opened",
+  "findings": [
+   "AF-13",
+   "AF-19"
+  ],
+  "quote": "Cut the cane back an inch or two at a time until the hole is no longer visible."
+ },
+ {
+  "code": "RHS-PG",
+  "source": "Royal Horticultural Society, \"Rose Pruning: General Tips\". No date shown. Accessed 29 September 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/pruning-guide",
+  "status": "Opened",
+  "findings": [
+   "AF-19"
+  ],
+  "quote": "Prune dieback to healthy white pith"
+ },
+ {
+  "code": "ARS",
+  "source": "American Rose Society, \"Basic Pruning Principles\" (17 July 2024). Accessed 29 September 2026.",
+  "url": "https://rose.org/basic-pruning-principles/",
+  "status": "Opened",
+  "findings": [
+   "AF-19"
+  ],
+  "quote": "easily recognized by the green bark on the outside of the cane and white pith core revealed after the cut is made."
+ },
+ {
+  "code": "ARS-HEAT",
+  "source": "American Rose Society, Dr Mark Windham, \"Heat Stresses and Your Roses\" (1 August 2025). Accessed 29 September 2026.",
+  "url": "https://rose.org/heat-stresses-and-your-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-18"
+  ],
+  "quote": "Prune the scorched leaves and blooms off and pray for cooler weather."
+ },
+ {
+  "code": "NZRS-FAQ",
+  "source": "The New Zealand Rose Society, \"FAQ\" (2026-03-30 shown). Consulted; nothing on removal after bud break. Accessed 29 September 2026.",
+  "url": "https://nzroses.org.nz/faq/",
+  "status": "Opened",
+  "findings": [],
+  "quote": "Pruning starts up north around early July while in the colder parts of the South Island, it gets under-way in August."
+ },
+ {
+  "code": "RSV",
+  "source": "The Rose Society of Victoria, \"Monthly Care of Roses\". No date shown. Consulted; nothing on removal after bud break. Accessed 29 September 2026.",
+  "url": "https://www.rosesocietyvic.org.au/index.php/monthly-care-of-roses/",
+  "status": "Opened",
+  "findings": [],
+  "quote": "Prune now in cold areas so as to avoid frost damage."
+ },
+ {
+  "code": "CSU-PUE",
+  "source": "Colorado State University Extension, Pueblo County, Darla Carlock, \"Summer Rose Care Tips\". No date shown. Consulted; timing of dead-cane removal not stated. Accessed 29 September 2026.",
+  "url": "https://pueblo.extension.colostate.edu/summer-rose-care-tips/",
+  "status": "Opened",
+  "findings": [],
+  "quote": "You will cut them down as far as you can to remove what is dead."
+ },
+ {
+  "code": "FG-SUM",
+  "source": "Fine Gardening, Paul Zimmerman, \"Summer-Pruning Roses in Warmer Zones\" (9 December 2011; modified 7 September 2021). Consulted; no content on dead or damaged wood. Accessed 29 September 2026.",
+  "url": "https://www.finegardening.com/project-guides/pruning/summer-pruning-roses-in-a-hot-climate",
+  "status": "Opened",
+  "findings": [],
+  "quote": "prune their roses in late summer when the heat shuts the roses down and they don't look their best."
+ },
+ {
+  "code": "ILL-C",
+  "source": "University of Illinois Extension, \"Care\" (Roses). No date shown. Consulted; duplicates ILL. Accessed 29 September 2026.",
+  "url": "https://extension.illinois.edu/roses/care",
+  "status": "Opened",
+  "findings": [],
+  "quote": "The majority of the pruning will be done in the spring to remove dead and diseased canes."
+ },
+ {
+  "code": "UAEX",
+  "source": "University of Arkansas Cooperative Extension Service, \"Pruning\" (Roses reference desk; entries 2006–2015). Consulted; no statement on removal after bud break. Accessed 29 September 2026.",
+  "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx",
+  "status": "Opened",
+  "findings": [],
+  "quote": "most rose bushes should be pruned in late February"
+ },
+ {
+  "code": "UMASS",
+  "source": "UMass Amherst Center for Agriculture, Food and the Environment, Angela Madeiras, \"Raspberry IPM- Raspberry Cane Borers\" (6 August 2019). Consulted; does not mention roses, so not used. Accessed 29 September 2026.",
+  "url": "https://www.umass.edu/agriculture-food-environment/fruit/fact-sheets/raspberry-ipm-raspberry-cane-borers",
+  "status": "Opened",
+  "findings": [],
+  "quote": "Pruning and destroying symptomatic canes several inches below the lower ring is the most effective way of managing this pest."
+ }
+]

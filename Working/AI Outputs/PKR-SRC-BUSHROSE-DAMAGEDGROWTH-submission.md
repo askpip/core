@@ -16,7 +16,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — Rose Dieback |
 | Status | Published |
-| Version | 1.1 |
+| Version | 1.2 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000004 and/or PKR-DEC-000004 |
@@ -32,7 +32,13 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-5 (Moderate)
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-6 (Low)
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-3 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-1 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-6 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-8 (Moderate) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-14 (Low) — *added v1.2, 29 September 2026*
 - **Relevance:** Supports AF-1, AF-2, AF-4, AF-5, AF-6 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quotes found: frost browning of shoot tips; "Remove all dead and damaged wood as soon as it is seen"; "Physical damage, for example that created when crossing branches rub together".
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
 
 *Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000005. Source identity unchanged.*
 
@@ -115,7 +121,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 | PKR Type | Source PKR |
 | Title | Clemson HGIC — Rose Diseases (HGIC 2106) |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000004 and/or PKR-DEC-000004 |
@@ -129,7 +135,11 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-4 (High)
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-15 (Moderate)
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-16 (Moderate)
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-10 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-20 (High) — *added v1.1, 29 September 2026*
 - **Relevance:** Supports AF-2, AF-4, AF-15, AF-16 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quotes found: canker colour range; 1:9 bleach disinfection; rose rosette material burned or bagged.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
 
 ---
 
@@ -282,7 +292,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 | PKR Type | Source PKR |
 | Title | PlantTalk Colorado — 1463 Rose Cane Borer |
 | Status | Published |
-| Version | 1.1 |
+| Version | 1.2 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000004 and/or PKR-DEC-000004 |
@@ -296,7 +306,10 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-7 (Low)
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-13 (Moderate)
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-35 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-13 (Moderate) — *added v1.2, 29 September 2026*
 - **Relevance:** Supports AF-2, AF-7, AF-13 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quotes found: "a slight swelling"; hunting-wasp caveat; "seal this cut... with water-insoluble glue or nail polish".
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
 
 *Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
 
@@ -463,7 +476,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 | PKR Type | Source PKR |
 | Title | Ask Extension #236546 — Rose Bush has half dead canes (Orange County, FL) |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000004 and/or PKR-DEC-000004 |
@@ -474,7 +487,11 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 - **Source Identity:** Ask Extension #236546, "Rose Bush has half dead canes" (Orange County, FL; answered 16 Apr 2015); web address <https://ask.extension.org/kb/faq.php?id=236546>, accessed 29 September 2026; FRD code ASKEXT (UF/IFAS Orange County)
 - **MIL References:**
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-13 (Moderate)
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-8 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-20 (High) — *added v1.1, 29 September 2026*
 - **Relevance:** Supports AF-13 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quotes found: "Make all pruning cuts well below the diseased areas"; 1 part bleach to 9 parts water.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
 
 ---
 
@@ -546,7 +563,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 | PKR Type | Source PKR |
 | Title | Purdue Extension — Spring Pruning of Roses |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000004 and/or PKR-DEC-000004 |
@@ -557,7 +574,11 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 - **Source Identity:** Purdue Extension, Rosie Lerner, "Spring Pruning of Roses" (22 Mar 2011); web address <https://www.purdue.edu/hla/sites/yardandgarden/spring-pruning-of-roses/>, accessed 29 September 2026; FRD code PURDUE
 - **MIL References:**
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-12 (Moderate)
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-7 (Moderate) — *added v1.1, 29 September 2026*
 - **Relevance:** Supports AF-12 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quote found verbatim.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged. The ARC register records this page with a `?cat=15` suffix: <https://www.purdue.edu/hla/sites/yardandgarden/spring-pruning-of-roses/?cat=15>.*
 
 ---
 

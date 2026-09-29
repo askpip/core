@@ -517,7 +517,7 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
 | PKR Type | Source PKR |
 | Title | University of Maryland Extension — Guide to Pruning Roses |
 | Status | Published |
-| Version | 1.3 |
+| Version | 1.4 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000002/PKR-DEC-000002 and/or PKR-OBS-000003/PKR-DEC-000003 |
@@ -535,7 +535,11 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High) — *added v1.3, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High) — *added v1.3, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-5 (Moderate) — *added v1.4, 29 September 2026*
 - **Relevance:** Pruning to an outward bud keeps growth out of the centre.
+
+*Revision v1.4 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
 
 *Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
 
@@ -554,7 +558,7 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
 | PKR Type | Source PKR |
 | Title | Yates New Zealand — How to Prune Your Roses |
 | Status | Published |
-| Version | 1.3 |
+| Version | 1.4 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000002/PKR-DEC-000002 and/or PKR-OBS-000003/PKR-DEC-000003 |
@@ -577,7 +581,15 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High) — *added v1.3, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate) — *added v1.3, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-1 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-2 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-17 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-20 (High) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-22 (Low) — *added v1.4, 29 September 2026*
 - **Relevance:** Gives the outward-bud instruction.
+
+*Revision v1.4 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000007 and PKR-OBS-000006 v1.1 (`PKR-SRC-BUSHROSE-SUCKERS-submission.md` Part B). Source identity unchanged.*
 
 *Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
 

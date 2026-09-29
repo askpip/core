@@ -1,5 +1,7 @@
 # PKR Submission Package — Dormancy Suitability Gate (v1.0, Published)
 
+**Superseded in part, 29 September 2026:** PKR-SGT-000001 is now Published at v1.1 (scope narrowed to structural and whole-bush pruning; new removal-only session). See `PKR-SGT-BUSHROSE-POSTBUDBREAK-01-submission.md` §2. The v1.0 record below is kept as history.
+
 **Published 24 August 2026.** Source PKR references were added 23 August 2026 (PKR-SRC-000016 through PKR-SRC-000024, Published the same day). The two remaining blockers are now resolved by Founder decision, 24 August 2026: the caveat stays as an explicit, separately-stated limitation rather than being folded into the main Question/Check (see the updated "Note on the caveat design" below), and the "Not sure" fallback now has real wording (§2). See §5 for the full resolution record.
 
 **Flagged for a near-term follow-up, not a blocker on today's publication:** the Founder has proposed going further than a static caveat — asking the gardener's own climate directly and showing only the rule that applies to them, rather than one blanket sentence covering every climate. That's a genuine improvement on the design below, but it changes how this gate asks its question, not just its wording, so it's tracked as a future revision to this PKR rather than built into today's publish.

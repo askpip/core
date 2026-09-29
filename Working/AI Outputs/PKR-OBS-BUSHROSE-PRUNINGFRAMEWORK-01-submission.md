@@ -1,5 +1,7 @@
 # PKR Submission Package — The Main Framework to Retain (v1.0, Published)
 
+**Superseded in part, 29 September 2026:** PKR-OBS-000006 and PKR-DEC-000006 are now Published at v1.1 (pointer to the new sucker observation PKR-OBS/DEC-000007). The held AF-8 is now implemented via `ARC-BUSHROSE-SUCKERS-01`. See `PKR-OBS-BUSHROSE-SUCKERS-01-submission.md` §4.
+
 **Published 29 September 2026.** Approved by Shaphan in chat, 29 September 2026, under the standing condition that the records contain only content from already-approved ARCs. §5 decisions: **1(c)** — 3–7 canes as the range, with 4–6 as typical, used everywhere; PKR-DEC-000005 was revised to match (v1.1). **2** — Grandifloras are treated exactly as Hybrid Teas, without the gentler-cutback nuance. **3** — sucker removal (AF-8) stays held; ROC is commissioned to research recognising suckers (`Research_Commission_Record_Rootstock_Suckers.md`). This package holds PKR-OBS-000006 and PKR-DEC-000006, built per the KIT Operations Manual from `ARC-BUSHROSE-PRUNINGFRAMEWORK-01`. Source PKRs are in `PKR-SRC-BUSHROSE-PRUNINGFRAMEWORK-submission.md`, and web addresses in `Source_Register_Addendum_PRUNINGFRAMEWORK.md`.
 
 This is the sixth and last MVP observation (Architecture §5.2). It comes after the other five: once dead, damaged, crossing, inward and weak canes are dealt with, Pip helps the gardener identify the strong canes that form the bush's framework, keep them, and shorten them (AF-12, AF-13, High; §6 order-of-work default).

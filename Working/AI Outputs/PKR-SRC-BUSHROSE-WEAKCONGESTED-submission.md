@@ -16,7 +16,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — Rose Pruning: Floribunda & Hybrid Tea Roses |
 | Status | Published |
-| Version | 1.1 |
+| Version | 1.2 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000005 and/or PKR-DEC-000005 |
@@ -35,7 +35,10 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High) — *added v1.1, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High) — *added v1.1, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-18 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High) — *added v1.2, 29 September 2026*
 - **Relevance:** Supports AF-1, AF-4, AF-8. Verification: Quote found: "If the bush is crowded cut out some old shoots completely to keep the centre open."
+
+*Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
 
 *Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
 
@@ -95,7 +98,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
 | PKR Type | Source PKR |
 | Title | UC Cooperative Extension — Pruning Roses (Fact Sheet #2-02) |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000005 and/or PKR-DEC-000005 |
@@ -107,7 +110,14 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
 - **MIL References:**
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate)
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High)
+  - ARC-BUSHROSE-SUCKERS-01, AF-1 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-7 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-17 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-19 (Moderate) — *added v1.1, 29 September 2026*
 - **Relevance:** Supports AF-7, AF-12. Verification: Quotes found: "4 to 7 canes"; remove canes "smaller in diameter than the size of a lead pencil".
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000007 and PKR-OBS-000006 v1.1 (`PKR-SRC-BUSHROSE-SUCKERS-submission.md` Part B). Source identity unchanged.*
 
 ---
 

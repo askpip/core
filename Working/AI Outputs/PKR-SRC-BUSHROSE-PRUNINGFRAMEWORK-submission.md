@@ -203,7 +203,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-PRUNINGFRAM
 | PKR Type | Source PKR |
 | Title | Texas A&M (Welsh, via San Antonio Express-News) — Roses Part 2: The Mystery of Pruning |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000006 and/or PKR-DEC-000006 |
@@ -214,7 +214,12 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-PRUNINGFRAM
 - **Source Identity:** Douglas Welsh (Texas A&M), submitted by Lynn Rawe, "Roses Part 2 – The Mystery of Pruning", San Antonio Express-News "Gardening, ETC." (6 Feb 2005), archived by Texas A&M AgriLife Bexar County; web address <https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/roses-part-2-the-mystery-of-pruning/>, accessed 29 September 2026; FRD code TAMK-SA
 - **MIL References:**
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-36 (Moderate (visual marker only))
+  - ARC-BUSHROSE-SUCKERS-01, AF-1 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-13 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-SUCKERS-01, AF-24 (High) — *added v1.1, 29 September 2026*
 - **Relevance:** Supports AF-36.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000007 and PKR-OBS-000006 v1.1 (`PKR-SRC-BUSHROSE-SUCKERS-submission.md` Part B). Source identity unchanged. The ARC register also records this column at <https://bexar-tx.tamu.edu/?p=2624> (same article: title, author and date match).*
 
 ---
 

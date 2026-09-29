@@ -40,7 +40,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-BASICCARE-0
 | PKR Type | Source PKR |
 | Title | Iowa State University Extension — Rose Care by Season |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-CGD-000004, 000005 and/or 000006 |
@@ -54,7 +54,12 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-BASICCARE-0
   - ARC-BUSHROSE-BASICCARE-01, F3 (High)
   - ARC-BUSHROSE-BASICCARE-01, F5 (High (pattern))
   - ARC-BUSHROSE-BASICCARE-01, F6 (High)
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-15 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-POSTBUDBREAK-01, AF-16 (Moderate) — *added v1.1, 29 September 2026*
 - **Relevance:** Supports F2, F3, F5, F6.
+
+*Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
 
 ---
 
