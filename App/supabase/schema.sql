@@ -175,6 +175,12 @@ alter table public.observations drop constraint if exists observations_outcome_c
 alter table public.observations add constraint observations_outcome_check
   check (outcome in ('confirmed', 'corrected', 'unresolved', 'none-remaining'));
 
+-- 29 Sep 2026: the gardener's stated rose type (PKR-SGT-000003), asked once in
+-- Add a plant (or at the first journey). Only hybrid-tea, floribunda and
+-- grandiflora pass; the rest are journal-only. Null = not asked yet.
+alter table public.bush_rose_profiles add column if not exists rose_type text
+  check (rose_type in ('hybrid-tea', 'floribunda', 'grandiflora', 'excluded', 'bush-only', 'unknown'));
+
 create table if not exists public.follow_ups (
   id uuid primary key default gen_random_uuid(),
   profile_id uuid not null references public.bush_rose_profiles (id) on delete cascade,

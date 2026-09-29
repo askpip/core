@@ -32,6 +32,7 @@ function toPlantProject(
     longitude: row.longitude ?? undefined,
     hemisphere: row.hemisphere ?? undefined,
     plantedWhen: row.planted_when ?? undefined,
+    roseType: row.rose_type ?? undefined,
     personalMeaning: row.personal_meaning ?? undefined,
     safetyChecklist: row.safety_checklist ?? undefined,
     safetyAcknowledgedAt: row.safety_acknowledged_at ?? undefined,
@@ -197,6 +198,7 @@ export function useProjects() {
       longitude: project.longitude ?? null,
       hemisphere: project.hemisphere ?? null,
       planted_when: project.plantedWhen ?? null,
+      rose_type: project.roseType ?? null,
       personal_meaning: project.personalMeaning ?? null,
       safety_checklist: project.safetyChecklist ?? null,
       safety_acknowledged_at: project.safetyAcknowledgedAt ?? null,
@@ -238,6 +240,7 @@ export function useProjects() {
     if ('longitude' in patch) profilePatch.longitude = patch.longitude ?? null
     if ('hemisphere' in patch) profilePatch.hemisphere = patch.hemisphere ?? null
     if ('plantedWhen' in patch) profilePatch.planted_when = patch.plantedWhen ?? null
+    if ('roseType' in patch) profilePatch.rose_type = patch.roseType ?? null
     if ('personalMeaning' in patch) profilePatch.personal_meaning = patch.personalMeaning ?? null
     if ('safetyChecklist' in patch) profilePatch.safety_checklist = patch.safetyChecklist ?? null
     if ('safetyAcknowledgedAt' in patch) profilePatch.safety_acknowledged_at = patch.safetyAcknowledgedAt ?? null

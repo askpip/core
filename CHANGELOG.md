@@ -14,6 +14,11 @@ Git provides the complete technical history of the repository. This changelog re
 
 ### Added
 
+- **Rose type asked once, in Add a plant (29 September 2026).**
+  - **Where it's saved:** a new `rose_type` column (PKR-SGT-000003 answers). This change and the `'none-remaining'` outcome value are both applied to Supabase.
+  - **Add a plant:** asks the approved rose-type question after the nursery label. The old question that asked for the variety name now says "Do you know its variety name?".
+  - **Journey:** uses the saved type and doesn't ask again.
+  - **Plant page:** shows the type, which can be changed there. For Hybrid Tea, Floribunda and Grandiflora roses it also shows basic care (CGD-000004 and 000006) with the UK/US disclosure. Nothing is shown for journal-only roses.
 - **Guided pruning journey wired to Published knowledge (29 September 2026).** `App/src/pages/Journey.tsx` rebuilt on a new PKR data module (`App/src/data/pkr.ts`, generated `pkrSources.ts`), which exposes only Published records:
   - **Gates:** the rose-type gate (SGT-000003) runs first and gives a journal-only outcome. The dormancy gate (SGT-000001 v1.1) is now interactive; if the rose is already growing, Pip offers a removal-only session for dead, damaged or diseased wood and suckers.
   - **Observations:** all seven run from their OBS/DEC records, each looping on "any more?". Doesn't Match and Not Sure never reach Cut.

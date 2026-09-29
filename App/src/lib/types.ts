@@ -6,6 +6,14 @@
 export type ObservationOutcome = 'confirmed' | 'corrected' | 'unresolved' | 'none-remaining'
 export type Choice = 'cut' | 'leave' | 'decide-later' | 'get-help'
 
+/**
+ * The gardener's stated rose type, as saved (PKR-SGT-000003's final answers).
+ * Only 'hybrid-tea', 'floribunda' and 'grandiflora' pass the gate; the rest
+ * keep the rose as a journal only. "I know its variety name" isn't saved: it
+ * leads to the Rose Finder and then to one of these.
+ */
+export type SavedRoseType = 'hybrid-tea' | 'floribunda' | 'grandiflora' | 'excluded' | 'bush-only' | 'unknown'
+
 /** How a plant's location was captured — see src/lib/location.ts. */
 export type LocationMethod = 'geolocation' | 'manual'
 export type Hemisphere = 'northern' | 'southern'
@@ -73,6 +81,8 @@ export interface PlantProject {
    * (see src/lib/suitabilityGates.ts) rather than guessing from free text.
    */
   plantedWhen?: string
+  /** PKR-SGT-000003 answer, asked once (Add a plant or first journey). Absent = not asked yet. */
+  roseType?: SavedRoseType
   personalMeaning?: string
   /**
    * A record of what Journey.tsx's pre-journey safety checklist actually
@@ -199,6 +209,7 @@ export interface BushRoseProfileRow {
   longitude: number | null
   hemisphere: Hemisphere | null
   planted_when: string | null
+  rose_type: SavedRoseType | null
   personal_meaning: string | null
   safety_checklist: SafetyChecklistEntry[] | null
   safety_acknowledged_at: string | null

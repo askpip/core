@@ -14,7 +14,7 @@
  */
 import type { ConfidenceLevel } from './confidenceDefinitions'
 import { PKR_SOURCES, PKR_SUPPORTING_SOURCES, type PkrSource } from './pkrSources'
-import type { Choice } from '@/lib/types'
+import type { Choice, SavedRoseType } from '@/lib/types'
 
 export type PkrStatus = 'Published' | 'Draft'
 
@@ -69,6 +69,25 @@ export const ROSE_TYPE_GATE = {
 }
 
 export type RoseTypeAnswerId = (typeof ROSE_TYPE_GATE.answers)[number]['id']
+
+/** Short name for gardener copy ("your Hybrid Tea…", or "your rose"), never "bush rose". */
+export function roseTypeName(type?: SavedRoseType): string {
+  return type === 'hybrid-tea' ? 'Hybrid Tea' : type === 'floribunda' ? 'Floribunda' : type === 'grandiflora' ? 'Grandiflora' : 'rose'
+}
+
+export function roseTypePasses(type?: SavedRoseType): boolean {
+  return type === 'hybrid-tea' || type === 'floribunda' || type === 'grandiflora'
+}
+
+/** Labels for the saved types, for showing and changing on the plant page. */
+export const SAVED_ROSE_TYPE_LABELS: Record<SavedRoseType, string> = {
+  'hybrid-tea': 'Hybrid Tea',
+  floribunda: 'Floribunda',
+  grandiflora: 'Grandiflora (provisional)',
+  excluded: 'Another type (not supported for pruning yet)',
+  'bush-only': 'Label only says "bush rose"',
+  unknown: "Don't know",
+}
 
 /** PKR-SGT-000001 v1.1 — dormancy (structural pruning only). */
 export const DORMANCY_GATE = {

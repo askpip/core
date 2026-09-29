@@ -6,6 +6,8 @@ import { ChatBubble } from '@/components/ChatBubble'
 import { ResponseBubble } from '@/components/ResponseBubble'
 import { Button } from '@/components/Button'
 import { PhotoUpload } from '@/components/PhotoUpload'
+import { RoseTypeQuestion } from '@/components/RoseTypeQuestion'
+import { ROSE_TYPE_GATE, roseTypePasses } from '@/data/pkr'
 import { useProjects } from '@/lib/store'
 import {
   describeGeolocationError,
@@ -13,7 +15,7 @@ import {
   hemisphereFromCountry,
   hemisphereFromLatitude,
 } from '@/lib/location'
-import type { PlantProject } from '@/lib/types'
+import type { PlantProject, SavedRoseType } from '@/lib/types'
 
 interface Question {
   id: keyof Pick<
@@ -22,6 +24,7 @@ interface Question {
     | 'variety'
     | 'varietySource'
     | 'varietyLabelNote'
+    | 'roseType'
     | 'location'
     | 'plantedWhen'
     | 'personalMeaning'
@@ -48,7 +51,10 @@ const QUESTIONS: Question[] = [
   { id: 'name', pipAsks: 'What would you like to call this rose?', placeholder: "Sarah's Rose" },
   {
     id: 'variety',
-    pipAsks: 'What type of rose is this?',
+    // Renamed 29 Sep 2026: this asks for the variety name (e.g. Iceberg). The
+    // rose *type* (Hybrid Tea, Floribunda…) is its own question below
+    // (PKR-SGT-000003), so "What type of rose is this?" here would confuse the two.
+    pipAsks: 'Do you know its variety name?',
     placeholder: "Iceberg, or 'not sure'",
     optional: true,
   },
@@ -74,6 +80,15 @@ const QUESTIONS: Question[] = [
     placeholder: 'Plant code, breeder, care notes…',
     optional: true,
     multiline: true,
+  },
+  {
+    // PKR-SGT-000003's question, asked once here so the pruning journey
+    // doesn't need to ask again. Answered with buttons (RoseTypeQuestion),
+    // not the text input; see the `question.id === 'roseType'` branch below.
+    id: 'roseType',
+    pipAsks: ROSE_TYPE_GATE.question,
+    placeholder: '',
+    optional: true,
   },
   {
     id: 'location',
@@ -147,6 +162,9 @@ export function NewPlant() {
   // answer didn't call for it, since a skipped index is simply never pushed
   // in the first place, so going back skips it too, symmetrically.
   const [history, setHistory] = useState<number[]>([])
+  // Set after a rose-type answer that doesn't pass PKR-SGT-000003, so Pip can
+  // say plainly (once, here) that it can't yet help prune this rose.
+  const [journalOnlyType, setJournalOnlyType] = useState<SavedRoseType | null>(null)
 
   const isPhotoStep = step === PHOTO_STEP
 
@@ -250,6 +268,17 @@ export function NewPlant() {
     navigate('/library')
   }
 
+  async function commitRoseType(type: SavedRoseType) {
+    setSaving(true)
+    await updateProject(projectId, { roseType: type })
+    setSaving(false)
+    if (roseTypePasses(type)) {
+      advanceStep(answers)
+    } else {
+      setJournalOnlyType(type)
+    }
+  }
+
   /** Used by the location sub-flow instead of advance() — it saves several fields at once, not one draft string. */
   async function commitLocation(patch: Partial<PlantProject>) {
     setSaving(true)
@@ -313,6 +342,10 @@ export function NewPlant() {
       navigate('/library')
       return
     }
+    if (journalOnlyType) {
+      setJournalOnlyType(null)
+      return
+    }
     const prevStep = history[history.length - 1]
     setHistory((prev) => prev.slice(0, -1))
     setStep(prevStep)
@@ -372,7 +405,31 @@ export function NewPlant() {
               <ChatBubble>{question!.pipAsks}</ChatBubble>
 
               <ResponseBubble>
-                {question!.id === 'location' ? (
+                {question!.id === 'roseType' ? (
+                  journalOnlyType ? (
+                    <div className="flex flex-col gap-2">
+                      <p className="text-sm">
+                        {ROSE_TYPE_GATE.journalOnly.base}{' '}
+                        {journalOnlyType === 'excluded'
+                          ? ROSE_TYPE_GATE.journalOnly.excluded
+                          : journalOnlyType === 'bush-only'
+                            ? ROSE_TYPE_GATE.journalOnly.bushOnly
+                            : ROSE_TYPE_GATE.journalOnly.unknown}
+                      </p>
+                      <p className="text-xs text-pip-text-soft">{ROSE_TYPE_GATE.journalOnly.keep}</p>
+                      <Button
+                        onClick={() => {
+                          setJournalOnlyType(null)
+                          advanceStep(answers)
+                        }}
+                      >
+                        Continue
+                      </Button>
+                    </div>
+                  ) : (
+                    <RoseTypeQuestion disabled={saving} onAnswer={commitRoseType} onSkip={() => advanceStep(answers)} />
+                  )
+                ) : question!.id === 'location' ? (
               locationStep === 'choose' ? (
                 <div className="flex flex-col gap-2.5">
                   {geoError && <p className="text-xs text-red-600">{geoError}</p>}

@@ -11,6 +11,8 @@ import { PhotoUpload } from '@/components/PhotoUpload'
 import { JourneyCloseUps } from '@/components/JourneyCloseUps'
 import { DecisionChoices } from '@/components/DecisionChoices'
 import { InfoModal } from '@/components/InfoModal'
+import { CareBlock, ConfidenceTag, StatementList } from '@/components/PkrStatements'
+import { RoseTypeQuestion } from '@/components/RoseTypeQuestion'
 import { useProjects } from '@/lib/store'
 import { usePlantPhotoUrl } from '@/lib/photos'
 import { askPipAboutDeadWood } from '@/lib/pipObserve'
@@ -24,18 +26,18 @@ import {
   SUCKER_REMOVAL,
   SUCKER_STEPS,
   publishedCare,
+  roseTypeName,
+  roseTypePasses,
   sourcesFor,
   type CareGuidance,
   type DecisionOption,
   type ObservationDef,
-  type RoseTypeAnswerId,
   type Statement,
 } from '@/data/pkr'
 import {
   evaluateDormancy,
   evaluateRecentlyPlantedFallback,
   evaluateRecentlyPlantedPrimary,
-  evaluateRoseType,
   sessionObservations,
 } from '@/lib/suitabilityGates'
 import type {
@@ -44,7 +46,7 @@ import type {
   RecentlyPlantedGateResult,
   RecentlyPlantedPrimaryAnswer,
 } from '@/lib/suitabilityGates'
-import type { Choice, ObservationOutcome, ObservationRecord, SafetyChecklistEntry } from '@/lib/types'
+import type { Choice, ObservationOutcome, ObservationRecord, SafetyChecklistEntry, SavedRoseType } from '@/lib/types'
 
 /*
  * The guided pruning journey. All gardener-facing horticultural wording comes
@@ -87,7 +89,6 @@ const FALLBACK_QUESTIONS: { key: keyof RecentlyPlantedFallbackSignals; label: st
 type Phase =
   | 'safety'
   | 'rose-type'
-  | 'rose-finder'
   | 'journal-only'
   | 'planted-primary'
   | 'planted-fallback'
@@ -117,38 +118,6 @@ interface Snapshot {
   decidePath: DecidePath
 }
 
-function ConfidenceTag({ level }: { level?: Statement['confidence'] }) {
-  if (!level) return null
-  return (
-    <span className="ml-1.5 whitespace-nowrap rounded-full bg-pip-secondary px-2 py-0.5 text-[10px] font-medium text-pip-text-soft">
-      {level === 'Approved default' ? 'approved default' : `${level} confidence`}
-    </span>
-  )
-}
-
-function StatementList({ items }: { items: Statement[] }) {
-  return (
-    <ul className="flex flex-col gap-1.5">
-      {items.map((s) => (
-        <li key={s.text} className="rounded-xl bg-pip-bg px-3.5 py-2.5 text-xs leading-relaxed">
-          {s.text}
-          <ConfidenceTag level={s.confidence} />
-        </li>
-      ))}
-    </ul>
-  )
-}
-
-function CareBlock({ care }: { care: CareGuidance }) {
-  return (
-    <div className="mb-3">
-      <p className="mb-1 text-sm font-medium">{care.heading}</p>
-      {care.label && <p className="mb-1.5 text-xs italic text-pip-text-soft">{care.label}</p>}
-      <StatementList items={care.items} />
-    </div>
-  )
-}
-
 export function Journey() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
@@ -160,7 +129,7 @@ export function Journey() {
   const [checked, setChecked] = useState<boolean[]>(() => SAFETY_ITEMS.map(() => false))
   const [helpIndex, setHelpIndex] = useState<number | null>(null)
   const [savingSafety, setSavingSafety] = useState(false)
-  const [roseType, setRoseType] = useState<RoseTypeAnswerId | null>(null)
+  const [roseType, setRoseType] = useState<SavedRoseType | null>(null)
   const [fallbackSignals, setFallbackSignals] = useState<Partial<RecentlyPlantedFallbackSignals>>({})
   const [gateResult, setGateResult] = useState<RecentlyPlantedGateResult | null>(null)
   const [dormancyAnswer, setDormancyAnswer] = useState<DormancyAnswer | null>(null)
@@ -283,13 +252,20 @@ export function Journey() {
     const safetyChecklist: SafetyChecklistEntry[] = SAFETY_ITEMS.map((item, i) => ({ label: item.label, checked: checked[i] }))
     await updateProject(project!.id, { safetyChecklist, safetyAcknowledgedAt: new Date().toISOString() })
     setSavingSafety(false)
+    // PKR-SGT-000003 is asked once — in Add a plant, or here the first time.
+    // A saved answer is used as-is; the gardener can change it on the plant page.
+    if (project!.roseType) {
+      setRoseType(project!.roseType)
+      go(roseTypePasses(project!.roseType) ? 'planted-primary' : 'journal-only')
+      return
+    }
     go('rose-type')
   }
 
-  function chooseRoseType(answer: RoseTypeAnswerId) {
+  function chooseRoseType(answer: SavedRoseType) {
     setRoseType(answer)
-    const result = evaluateRoseType(answer)
-    go(result === 'passes' ? 'planted-primary' : result === 'rose-finder' ? 'rose-finder' : 'journal-only')
+    updateProject(project!.id, { roseType: answer })
+    go(roseTypePasses(answer) ? 'planted-primary' : 'journal-only')
   }
 
   function choosePrimary(answer: RecentlyPlantedPrimaryAnswer) {
@@ -492,7 +468,7 @@ export function Journey() {
   const topLabel =
     phase === 'safety'
       ? 'Before we begin'
-      : ['rose-type', 'rose-finder', 'journal-only', 'planted-primary', 'planted-fallback', 'dormancy', 'dormancy-not-sure', 'removal-intro'].includes(phase)
+      : ['rose-type', 'journal-only', 'planted-primary', 'planted-fallback', 'dormancy', 'dormancy-not-sure', 'removal-intro'].includes(phase)
         ? 'A few checks before we begin'
         : phase === 'photos'
           ? 'A clear look at the rose'
@@ -504,7 +480,7 @@ export function Journey() {
                 ? `${current.feature} (${obsIndex + 1} of ${allowed.length})`
                 : ''
 
-  const roseName = roseType === 'hybrid-tea' ? 'Hybrid Tea' : roseType === 'floribunda' ? 'Floribunda' : roseType === 'grandiflora' ? 'Grandiflora' : 'rose'
+  const roseName = roseTypeName(roseType ?? undefined)
 
   return (
     <div className="flex h-full flex-col">
@@ -580,37 +556,7 @@ export function Journey() {
             <>
               <ChatBubble>{ROSE_TYPE_GATE.question}</ChatBubble>
               <ResponseBubble showAskField>
-                <div className="flex flex-col gap-2">
-                  {ROSE_TYPE_GATE.answers.map((a) => (
-                    <Button key={a.id} variant={a.passes ? 'primary' : 'secondary'} onClick={() => chooseRoseType(a.id)}>
-                      {a.label}
-                    </Button>
-                  ))}
-                </div>
-              </ResponseBubble>
-            </>
-          )}
-
-          {phase === 'rose-finder' && (
-            <>
-              <ChatBubble>{ROSE_TYPE_GATE.roseFinder.text}</ChatBubble>
-              <ResponseBubble showAskField>
-                {ROSE_TYPE_GATE.roseFinder.url && (
-                  <a
-                    href={ROSE_TYPE_GATE.roseFinder.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mb-3 block text-sm font-medium text-pip-primary underline underline-offset-2"
-                  >
-                    Open the New Zealand Rose Society's Rose Finder
-                  </a>
-                )}
-                <div className="flex flex-col gap-2">
-                  <Button onClick={() => go('rose-type')}>I've found its type — answer again</Button>
-                  <Button variant="secondary" onClick={() => chooseRoseType('unknown')}>
-                    I couldn't find it
-                  </Button>
-                </div>
+                <RoseTypeQuestion onAnswer={chooseRoseType} />
               </ResponseBubble>
             </>
           )}
@@ -631,7 +577,7 @@ export function Journey() {
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => navigate(`/plant/${project.id}`)}>Back to {project.name}'s journal</Button>
                   <Button variant="secondary" onClick={() => go('rose-type')}>
-                    Answer the type question again
+                    I've found out its type — answer again
                   </Button>
                 </div>
               </ResponseBubble>

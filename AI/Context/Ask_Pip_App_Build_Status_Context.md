@@ -74,11 +74,20 @@ The pruning journey now runs on Published knowledge. `npm run build` (TypeScript
 - **Basic-care branch.** When SGT-000001 or SGT-000002 limited the session, CGD-000005 (if recently planted), CGD-000004 and CGD-000006 are shown before the summary, with the UK/US disclosure. Nothing is shown for journal-only roses.
 - **Removed:** `App/src/data/observationScript.ts`, the old four-item script with three placeholders.
 
+**Added later on 29 September 2026 (Shaphan: "1 add rose type database. 2 establish rose type during add a plant. 3 skip on the journey. 4 show basic care in the plant's journal"):**
+
+- **Database.** New `bush_rose_profiles.rose_type` column: `hybrid-tea`, `floribunda`, `grandiflora`, `excluded`, `bush-only` or `unknown`; null means not asked yet. It's applied to Supabase and verified by query. The `observations.outcome` change for `'none-remaining'` is also applied and verified.
+- **Add a plant** (`NewPlant.tsx`) asks PKR-SGT-000003's question once, after the nursery-label step, using the shared `RoseTypeQuestion` component.
+  - A type that doesn't pass gets the plain "can't yet help prune" message there.
+  - The earlier "What type of rose is this?" question, which actually asked for the variety name, now reads "Do you know its variety name?".
+- **Journey.** A saved type skips the question. A passing type goes straight to the recently-planted check; any other type goes to the journal-only screen. Plants without a saved type are asked once, and the answer is saved.
+- **Plant page** (`PlantProject.tsx`):
+  - shows the saved type and lets the gardener change it;
+  - for a Hybrid Tea, Floribunda or Grandiflora, shows "Caring for your …" with CGD-000004 and CGD-000006 and the UK/US disclosure (the journal care reference);
+  - shows nothing for journal-only roses.
+
 **Outstanding for the app:**
 
-- **Database change.** Allow `'none-remaining'` in `observations.outcome`. The SQL is in `App/supabase/schema.sql` (29 Sep 2026 block). It needs applying to Supabase project `lapscltduzkbldfwcemq`. Until then the marker insert fails, and resume falls back to asking again.
-- **Rose type isn't saved** on the plant. It's asked at the start of each journey. Saving it needs a new column.
-- **Basic care in the plant journal.** The care reference that CGD-000004 and CGD-000006 list as a presentation point isn't built. It depends on the rose type being saved.
 - **Comparison images** are still a documented gap. The UI says so.
 
 # 4. Phase B — Blocked on Founder-Approved Knowledge
@@ -100,5 +109,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **23 September 2026 (Version 0.1):** Initial version. Records Phase A as built: photo-first onboarding, trace-the-stem confirmation, journey pause/resume, the Learn home-screen entry point, and confirms journal/growth visibility was already complete. Records the knot-question/photo-spot fields and the Primer shell as deferred within Phase A, and the front-door explainer / About Ask Pip shelf / contextual links as built but not yet reconciled against the Flow Proposal's exact specification. Records six FRDs as the current Phase B blocker.
 
 - **29 September 2026 (Version 0.2):** Added §3.3, the guided journey wired to Published PKRs: PKR data module, rose-type and interactive dormancy gates, removal-only session, observation loops with the none-remaining resume marker, Decision Logic, Care Guidance and the basic-care branch. The build passes. Recorded as outstanding: the database constraint change, rose type not saved, the journal care reference, and comparison images. §4 updated because the six FRDs are now published.
+
+- **29 September 2026 (Version 0.2, later the same day):** Rose type is now saved on the plant and asked once, in Add a plant. The journey skips the question when a type is saved. The plant page shows and changes the type, and shows basic care for supported types. Both database changes are applied and verified.
 
 # End of Document

@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useProjects } from '@/lib/store'
 import { seasonForHemisphere } from '@/lib/location'
@@ -8,6 +9,10 @@ import { ProgressPhotos } from '@/components/ProgressPhotos'
 import { PlantNotes } from '@/components/PlantNotes'
 import { ChatBubble } from '@/components/ChatBubble'
 import { Button } from '@/components/Button'
+import { CareBlock } from '@/components/PkrStatements'
+import { CARE_DISCLOSURE, SAVED_ROSE_TYPE_LABELS, publishedCare, roseTypeName, roseTypePasses } from '@/data/pkr'
+import type { CareGuidance } from '@/data/pkr'
+import type { SavedRoseType } from '@/lib/types'
 
 const SEASON_LABEL: Record<ReturnType<typeof seasonForHemisphere>, string> = {
   winter: 'Winter',
@@ -25,6 +30,7 @@ export function PlantProject() {
   // Called unconditionally (before the early returns below) per the rules of
   // hooks — usePlantPhotoUrl already treats an undefined path as "no photo."
   const labelPhotoUrl = usePlantPhotoUrl(project?.varietyLabelPhotoPath)
+  const [showCare, setShowCare] = useState(false)
 
   if (loading) {
     return <div className="p-6 text-sm text-pip-text-soft">Loading…</div>
@@ -109,6 +115,33 @@ export function PlantProject() {
           </>
         )}
 
+        {/* Basic care as a journal reference: PKR-CGD-000004 and 000006 list
+            "in the plant journal of a rose that passed PKR-SGT-000003" as a
+            presentation point. Not shown for journal-only roses (BASICCARE D3). */}
+        {roseTypePasses(project.roseType) && (
+          <div>
+            <h2 className="mb-1 text-sm font-medium">Caring for your {roseTypeName(project.roseType)}</h2>
+            <p className="mb-2 text-xs text-pip-text-soft">Watering, mulch, feeding, deadheading and getting ready for winter.</p>
+            {showCare ? (
+              <div className="rounded-xl bg-pip-card p-4 shadow-sm">
+                {[publishedCare('PKR-CGD-000004'), publishedCare('PKR-CGD-000006')]
+                  .filter((c): c is CareGuidance => Boolean(c))
+                  .map((c) => (
+                    <CareBlock key={c.pkr.id} care={c} />
+                  ))}
+                <p className="text-xs italic text-pip-text-soft">{CARE_DISCLOSURE}</p>
+                <button onClick={() => setShowCare(false)} className="mt-2 text-xs text-pip-text-soft underline">
+                  Hide care tips
+                </button>
+              </div>
+            ) : (
+              <Button variant="secondary" onClick={() => setShowCare(true)}>
+                Show care tips
+              </Button>
+            )}
+          </div>
+        )}
+
         <div>
           <h2 className="mb-1 text-sm font-medium">Notes</h2>
           <p className="mb-2 text-xs text-pip-text-soft">
@@ -140,6 +173,29 @@ export function PlantProject() {
             <span className="font-medium text-pip-text">Variety:</span> {project.variety}
             {project.varietySource && ` (${project.varietySource})`}
           </p>
+          <div className="mt-1 flex flex-wrap items-center gap-1.5">
+            <span className="font-medium text-pip-text">Rose type:</span>
+            {/* PKR-SGT-000003's saved answer. Changing it here is how a gardener
+                updates it after finding out the type; the journey reads it. */}
+            <select
+              aria-label="Rose type"
+              value={project.roseType ?? ''}
+              onChange={(e) =>
+                updateProject(project.id, { roseType: (e.target.value || undefined) as SavedRoseType | undefined })
+              }
+              className="rounded-md border border-pip-border bg-pip-bg px-1.5 py-0.5 text-xs text-pip-text"
+            >
+              <option value="">Not set yet</option>
+              {(Object.keys(SAVED_ROSE_TYPE_LABELS) as SavedRoseType[]).map((t) => (
+                <option key={t} value={t}>
+                  {SAVED_ROSE_TYPE_LABELS[t]}
+                </option>
+              ))}
+            </select>
+          </div>
+          {project.roseType && !roseTypePasses(project.roseType) && (
+            <p className="mt-1">Pip can't yet help prune this rose; it's kept as a journal.</p>
+          )}
           {project.location && (
             <p className="mt-1">
               <span className="font-medium text-pip-text">Location:</span> {project.location}
