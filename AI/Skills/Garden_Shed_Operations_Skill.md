@@ -10,7 +10,7 @@ description: Operate the Garden Shed Office (the internal, Supabase-backed offic
 **Document Title:** Garden Shed Operations Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
 **Version:** 0.6
-**Status:** Draft — for Founder approval
+**Status:** Approved — approved by the Founder (Shaphan) in chat, 1 October 2026
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/Garden_Shed_Operations_Skill.md`
 **Purpose:** To give an AI session the minimum operational reference needed to work correctly in the Garden Shed Office without a passphrase, without re-deriving conventions from `Shed/README.md`'s full build history each time.
