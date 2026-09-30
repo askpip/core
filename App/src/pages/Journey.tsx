@@ -11,7 +11,7 @@ import { PhotoUpload } from '@/components/PhotoUpload'
 import { JourneyCloseUps } from '@/components/JourneyCloseUps'
 import { DecisionChoices } from '@/components/DecisionChoices'
 import { InfoModal } from '@/components/InfoModal'
-import { CareBlock, ConfidenceTag, StatementList } from '@/components/PkrStatements'
+import { CareBlock, ConfidenceTag, SourcesLink, StatementList } from '@/components/PkrStatements'
 import { RoseTypeQuestion } from '@/components/RoseTypeQuestion'
 import { useProjects } from '@/lib/store'
 import { usePlantPhotoUrl } from '@/lib/photos'
@@ -698,6 +698,7 @@ export function Journey() {
                   {DORMANCY_GATE.removalOnly.lateSeason.text}
                   <ConfidenceTag level={DORMANCY_GATE.removalOnly.lateSeason.confidence} />
                 </p>
+                <SourcesLink pkrIds={[DORMANCY_GATE.pkr.id]} />
                 <div className="flex flex-col gap-2 pt-3">
                   <Button onClick={() => go('photos')}>Look for dead, damaged or diseased wood</Button>
                   <Button variant="secondary" onClick={() => go('care', { obsIndex: allowed.length })}>
@@ -883,7 +884,7 @@ export function Journey() {
                       <strong>{l}:</strong> {CONFIDENCE_EXPLANATIONS[l]}
                     </p>
                   ))}
-                  <p>An "approved default" is a sensible choice the Founders approved where the sources are silent.</p>
+                  <p>An "Approved default" is a sensible choice the Founders approved where the sources are silent.</p>
                 </InfoModal>
               )}
               {showSourcesInfo && (
@@ -998,6 +999,7 @@ export function Journey() {
                   <div className="mb-3">
                     <p className="mb-1.5 text-xs font-medium text-pip-text-soft">Because your rose is already growing:</p>
                     <StatementList items={DORMANCY_GATE.removalOnly.conditions} />
+                    <SourcesLink pkrIds={[DORMANCY_GATE.pkr.id]} />
                   </div>
                 )}
                 <StatementList items={cutGuide} />

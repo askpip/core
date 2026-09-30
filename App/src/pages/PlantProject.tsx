@@ -46,13 +46,8 @@ export function PlantProject() {
 
   // 'none-remaining' rows are Journey.tsx's per-observation "no more" markers
   // (resume bookkeeping), not observations the gardener made, so they're left
-  // out of both the journal list and the confidence figure.
+  // out of the journal list.
   const shownObservations = project.observations.filter((o) => o.outcome !== 'none-remaining')
-  const confirmedCount = shownObservations.filter((o) => o.outcome !== 'unresolved').length
-  const confidenceLabel =
-    shownObservations.length > 0
-      ? `${Math.round((confirmedCount / shownObservations.length) * 100)}%`
-      : null
 
   return (
     <div className="flex h-full flex-col">
@@ -69,12 +64,6 @@ export function PlantProject() {
         />
 
         <div className="flex flex-col gap-4 pt-5">
-        {confidenceLabel && (
-          <p className="text-center text-xs text-pip-text-soft">
-            Observation Confidence: {confidenceLabel}
-          </p>
-        )}
-
         {/* Pip's own bubble (plus the journey button, or the journal once
             complete) sits right under the photo now — the most immediate,
             conversational thing on the page — with Notes, Progress photos,
