@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000182",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Kings Plant Barn — rose product titles using \"Ht\" and \"Fl\"",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial publication (garden centre)",
+    "identity": "Kings Plant Barn, product titles \"Legend Bush Rose Ht\" (https://www.kings.co.nz/legend-bush-rose-ht-103929), \"Fordell Bush Rose Fl\" (https://www.kings.co.nz/fordell-bush-rose-fl-297053), \"My Daughter Bush Rose Fl\" (https://www.kings.co.nz/my-daughter-bush-rose-fl-238276) and \"Summer Sun Bush Rose Fl\" (https://www.kings.co.nz/summer-sun-bush-rose-fl-103987), read from web-search result titles and addresses, https://www.kings.co.nz/legend-bush-rose-ht-103929, accessed 1 October 2026 (FRD code KPB-SR)",
+    "url": "https://www.kings.co.nz/legend-bush-rose-ht-103929",
+    "register_code": "KPB-SR",
+    "relevance": "Four more Kings titles using \"Ht\" and \"Fl\". Read from search results, not the pages (the pages load dynamically)."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-02-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Approved by Shaphan in chat, 1 October 2026, with PKR-SGT-000003 v1.1."
+  }
+}

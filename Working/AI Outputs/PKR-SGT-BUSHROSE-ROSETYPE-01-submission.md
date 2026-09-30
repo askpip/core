@@ -1,5 +1,7 @@
 # PKR Submission Package — Rose-Type Suitability Gate (v1.0, Published)
 
+> **Superseded in part (1 October 2026):** PKR-SGT-000003 is now v1.1, which adds a label-abbreviation line. See `Working/AI Outputs/PKR-SGT-BUSHROSE-ROSETYPE-02-submission.md`.
+
 **Published 29 September 2026.** Content approved by Shaphan (AskPIP Founder Authority) in chat, 29 September 2026, on the condition that it contains only content from already-approved ARCs. KIT checked that condition before publishing (see §6). Version 1.0 per KIT OM §10.4. Submitted for operational approval the same day. Built per the KIT Operations Manual from `ARC-BUSHROSE-ROSETYPE-01` (approved 28 September 2026) and Architecture §5.1. This is the third Suitability Gate PKR, after PKR-SGT-000001 (dormancy) and PKR-SGT-000002 (recently planted). It closes the open item recorded at Architecture §5.1: *"This scope is not yet enforced by any Suitability Gate PKR."*
 
 **Founder direction applied (Shaphan, 29 September 2026, in chat).** Only roses confirmed as a supported type may enter the pruning journey. Every other rose (a known excluded type, or a type nobody knows) can still be kept as a plant journal. Pip states plainly that it cannot yet support that rose's pruning. This confirms the Flow Proposal's Decision 6, option (b) (journal-only), for unsupported roses.

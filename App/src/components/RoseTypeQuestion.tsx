@@ -44,6 +44,9 @@ export function RoseTypeQuestion({ onAnswer, onSkip, disabled }: RoseTypeQuestio
 
   return (
     <div className="flex flex-col gap-2">
+      {ROSE_TYPE_GATE.labelAbbreviations && (
+        <p className="text-xs text-pip-text-soft">{ROSE_TYPE_GATE.labelAbbreviations.text}</p>
+      )}
       {ROSE_TYPE_GATE.answers.map((a) => (
         <Button
           key={a.id}

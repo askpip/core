@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000187",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Wairere Nursery — \"Legend\" product page",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial publication (nursery)",
+    "identity": "Wairere Nursery, product page \"Legend\" (filed and described as Hybrid Tea), https://www.wairere.nz/Roses/Hybrid-Tea/Legend-Rose, accessed 1 October 2026 (FRD code WAI-LG)",
+    "url": "https://www.wairere.nz/Roses/Hybrid-Tea/Legend-Rose",
+    "register_code": "WAI-LG",
+    "relevance": "Names Legend's class in full: Hybrid Tea."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-02-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Approved by Shaphan in chat, 1 October 2026, with PKR-SGT-000003 v1.1."
+  }
+}

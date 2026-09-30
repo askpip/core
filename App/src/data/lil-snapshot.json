@@ -1812,7 +1812,7 @@
   },
   {
    "pkr_id": "PKR-SGT-000003",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "suitability_gate",
    "title": "Rose-type gate — is this rose a supported bush-rose type?",
    "common": {
@@ -1833,15 +1833,39 @@
      "PKR-SRC-000045",
      "PKR-SRC-000046",
      "PKR-SRC-000047",
-     "PKR-SRC-000048"
+     "PKR-SRC-000048",
+     "PKR-SRC-000181",
+     "PKR-SRC-000182",
+     "PKR-SRC-000183",
+     "PKR-SRC-000184",
+     "PKR-SRC-000185",
+     "PKR-SRC-000186",
+     "PKR-SRC-000187",
+     "PKR-SRC-000188",
+     "PKR-SRC-000189"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-01",
     "related_pkrs": [],
-    "preserved_uncertainty": "(1) Pip can't tell a rose's type from photos or a dormant plant (AF-20, R-1). The gate relies entirely on what the gardener has been told. (2) Some cultivars are classed differently by different authorities (ARC §4, AF-5), so a stated type isn't infallible. (3) Grandiflora is included provisionally only. It's largely absent from NZ classification sources (AF-4), and Pip gives no Grandiflora-specific pruning guidance (R-4).",
+    "preserved_uncertainty": "(1) Pip can't tell a rose's type from photos or a dormant plant (AF-20, R-1). The gate relies entirely on what the gardener has been told. (2) Some cultivars are classed differently by different authorities (ARC §4, AF-5), so a stated type isn't infallible. (3) Grandiflora is included provisionally only. It's largely absent from NZ classification sources (AF-4), and Pip gives no Grandiflora-specific pruning guidance (R-4). (4) \"Ht\" and \"Fl\" are shop abbreviations that no source spells out; their meaning was shown by matching five Kings Plant Barn roses against nurseries that name the class in full (AF-L30, AF-L32). One Palmers title uses \"Ht\" on a rose its own page calls a Floribunda (AF-L31), so the hint says \"usually\". Either way the rose qualifies.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
     "question": "Do you know what type of rose this is — from its label or pot tag, a receipt or nursery listing, or someone experienced who has told you?",
+    "labelAbbreviations": {
+     "text": "Some New Zealand shops shorten the type in a rose's name: \"Ht\" usually means Hybrid Tea and \"Fl\" usually means Floribunda. So a label like \"Bush Rose Ht\" does tell you the type.",
+     "confidence": "Moderate",
+     "sources": [
+      "PKR-SRC-000181",
+      "PKR-SRC-000182",
+      "PKR-SRC-000183",
+      "PKR-SRC-000184",
+      "PKR-SRC-000185",
+      "PKR-SRC-000186",
+      "PKR-SRC-000187",
+      "PKR-SRC-000188",
+      "PKR-SRC-000189"
+     ]
+    },
     "answers": [
      {
       "id": "hybrid-tea",
@@ -6750,6 +6774,223 @@
     "url": "https://rose.org/heat-stresses-and-your-roses/",
     "register_code": "ARS-HEAT",
     "relevance": "Supports AF-18."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000181",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Kings Plant Barn — \"Frosty Moon Bush Rose Ht\" product page",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial publication (garden centre)",
+    "identity": "Kings Plant Barn, product page \"Frosty Moon Bush Rose Ht\", https://www.kings.co.nz/frosty-moon-bush-rose-ht-238320, accessed 1 October 2026 (FRD code KPB-FM)",
+    "url": "https://www.kings.co.nz/frosty-moon-bush-rose-ht-238320",
+    "register_code": "KPB-FM",
+    "relevance": "A Kings product title using \"Ht\"; the class was checked against Matthews Roses (PKR-SRC-000183)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000182",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Kings Plant Barn — rose product titles using \"Ht\" and \"Fl\"",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial publication (garden centre)",
+    "identity": "Kings Plant Barn, product titles \"Legend Bush Rose Ht\" (https://www.kings.co.nz/legend-bush-rose-ht-103929), \"Fordell Bush Rose Fl\" (https://www.kings.co.nz/fordell-bush-rose-fl-297053), \"My Daughter Bush Rose Fl\" (https://www.kings.co.nz/my-daughter-bush-rose-fl-238276) and \"Summer Sun Bush Rose Fl\" (https://www.kings.co.nz/summer-sun-bush-rose-fl-103987), read from web-search result titles and addresses, https://www.kings.co.nz/legend-bush-rose-ht-103929, accessed 1 October 2026 (FRD code KPB-SR)",
+    "url": "https://www.kings.co.nz/legend-bush-rose-ht-103929",
+    "register_code": "KPB-SR",
+    "relevance": "Four more Kings titles using \"Ht\" and \"Fl\". Read from search results, not the pages (the pages load dynamically)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000183",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Matthews Roses — \"Frosty Moon\" product page",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial publication (nursery)",
+    "identity": "Matthews Roses, product page \"Frosty Moon\" (type stated as \"Bush Hybrid Tea\"), https://www.matthewsroses.co.nz/product/frosty-moon/, accessed 1 October 2026 (FRD code MAT-FM)",
+    "url": "https://www.matthewsroses.co.nz/product/frosty-moon/",
+    "register_code": "MAT-FM",
+    "relevance": "Names Frosty Moon's class in full: Hybrid Tea."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000184",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Matthews Roses — \"Fordell\" product page",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)",
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L31 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial publication (nursery and breeder)",
+    "identity": "Matthews Roses, product page \"Fordell - My Rose Collection\" (type stated as \"Bush Floribunda\"; bred by Bob Matthews), https://www.matthewsroses.co.nz/product/fordell/, accessed 1 October 2026 (FRD code MAT-FO)",
+    "url": "https://www.matthewsroses.co.nz/product/fordell/",
+    "register_code": "MAT-FO",
+    "relevance": "The breeder names Fordell's class in full: Floribunda."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000185",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Matthews Roses — \"My Daughter\" product page",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial publication (nursery and breeder)",
+    "identity": "Matthews Roses, product page \"My Daughter - My Rose Collection\" (type stated as \"Bush Floribunda\"; bred by Bob Matthews), https://www.matthewsroses.co.nz/product/my-daughter-my-rose-collection/, accessed 1 October 2026 (FRD code MAT-MD)",
+    "url": "https://www.matthewsroses.co.nz/product/my-daughter-my-rose-collection/",
+    "register_code": "MAT-MD",
+    "relevance": "The breeder names My Daughter's class in full: Floribunda."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000186",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Matthews Roses — \"Summer Sun\" product page",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial publication (nursery)",
+    "identity": "Matthews Roses, product page \"Summer Sun - Kordes Rose Selection\" (type stated as \"Bush Floribunda\"), https://www.matthewsroses.co.nz/product/summer-sun-kordes-rose-selection/, accessed 1 October 2026 (FRD code MAT-SS)",
+    "url": "https://www.matthewsroses.co.nz/product/summer-sun-kordes-rose-selection/",
+    "register_code": "MAT-SS",
+    "relevance": "Names Summer Sun's class in full: Floribunda."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000187",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Wairere Nursery — \"Legend\" product page",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial publication (nursery)",
+    "identity": "Wairere Nursery, product page \"Legend\" (filed and described as Hybrid Tea), https://www.wairere.nz/Roses/Hybrid-Tea/Legend-Rose, accessed 1 October 2026 (FRD code WAI-LG)",
+    "url": "https://www.wairere.nz/Roses/Hybrid-Tea/Legend-Rose",
+    "register_code": "WAI-LG",
+    "relevance": "Names Legend's class in full: Hybrid Tea."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000188",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Palmers — \"Fordell Ht 4.7L\" product page",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L31 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial publication (garden centre)",
+    "identity": "Palmers, product page \"Fordell Ht 4.7L\" (description states \"Floribunda - Exclusive to Matthews Roses\"), https://www.palmers.co.nz/products/998165190, accessed 1 October 2026 (FRD code PAL-FO)",
+    "url": "https://www.palmers.co.nz/products/998165190",
+    "register_code": "PAL-FO",
+    "relevance": "A title whose \"Ht\" disagrees with the class stated on the same page."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000189",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Palmers — \"My Daughter Bush Fl\" product page",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-L31 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial publication (garden centre)",
+    "identity": "Palmers, product page \"My Daughter Bush Fl\" (description states \"Floribunda\"), https://www.palmers.co.nz/products/998157152, accessed 1 October 2026 (FRD code PAL-MD)",
+    "url": "https://www.palmers.co.nz/products/998157152",
+    "register_code": "PAL-MD",
+    "relevance": "A title using \"Fl\" on a rose the same page calls a Floribunda."
    }
   }
  ]

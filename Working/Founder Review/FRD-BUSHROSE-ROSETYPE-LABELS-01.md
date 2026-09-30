@@ -7,7 +7,7 @@
 | Dossier Identifier | `FRD-BUSHROSE-ROSETYPE-LABELS-01` |
 | Title | Founder Review Dossier — Recognisable Rose-Type Labels on Retail Stock: New Zealand, Australia, United Kingdom and United States |
 | Commission Reference | `BUSHROSE-ROSETYPE-LABELS`; Research Commission Record `Working/AI Outputs/Research_Commission_Record_Rose_Type_Labels.md` (v0.1, authorised 28 September 2026) |
-| Status | Submitted for Founder review |
+| Status | Approved by Shaphan in chat, 1 October 2026 (all findings, defaults R-1 to R-4, uneven coverage accepted, no market-specific Grandiflora treatment); incorporated into `ARC-BUSHROSE-ROSETYPE-01` v1.1 as AF-L1 to AF-L29 |
 | Preparer | Claude, acting in the Research Origin Curator (ROC) role, at Shaphan's request |
 | Date | 28 September 2026 |
 | Governing Standards | Founder Review Dossier Standard (FRDS) v1.3; Evidence Assessment Standard (EAS) v1.4; ROC Operations Manual v2.9 |

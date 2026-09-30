@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000183",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Matthews Roses — \"Frosty Moon\" product page",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-L30 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial publication (nursery)",
+    "identity": "Matthews Roses, product page \"Frosty Moon\" (type stated as \"Bush Hybrid Tea\"), https://www.matthewsroses.co.nz/product/frosty-moon/, accessed 1 October 2026 (FRD code MAT-FM)",
+    "url": "https://www.matthewsroses.co.nz/product/frosty-moon/",
+    "register_code": "MAT-FM",
+    "relevance": "Names Frosty Moon's class in full: Hybrid Tea."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-02-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Approved by Shaphan in chat, 1 October 2026, with PKR-SGT-000003 v1.1."
+  }
+}

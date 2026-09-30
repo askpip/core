@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 208,
-  "published_count": 208,
+  "record_count": 218,
+  "published_count": 217,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -223,9 +223,17 @@
       "pkr_id": "PKR-SGT-000003",
       "version": "1.0",
       "pkr_type": "suitability_gate",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rose-type gate — is this rose a supported bush-rose type?",
       "sha256": "303633af196a2183783bcfc07110f84a3692b56914032ba8d0fb7b9039da829a"
+    },
+    {
+      "pkr_id": "PKR-SGT-000003",
+      "version": "1.1",
+      "pkr_type": "suitability_gate",
+      "status": "Published",
+      "title": "Rose-type gate — is this rose a supported bush-rose type?",
+      "sha256": "3aa901f0dd62f1bb614311fd637fac31ef50a5c925ba8702d6937c266218388c"
     },
     {
       "pkr_id": "PKR-SRC-000001",
@@ -1666,6 +1674,78 @@
       "status": "Published",
       "title": "American Rose Society — Heat Stresses and Your Roses",
       "sha256": "a65ff415b77d7d2b1afbb31d979f3bcaac59bdfaa0838a20eda68cea94a43df9"
+    },
+    {
+      "pkr_id": "PKR-SRC-000181",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Kings Plant Barn — \"Frosty Moon Bush Rose Ht\" product page",
+      "sha256": "5bef2677da5c97a41f522760442ef534640038480b38094081894b4b442cd1f9"
+    },
+    {
+      "pkr_id": "PKR-SRC-000182",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Kings Plant Barn — rose product titles using \"Ht\" and \"Fl\"",
+      "sha256": "c19c88f4b2fb0be75da123ff7ea432f635e4fc45321238d427cf3d57fa509656"
+    },
+    {
+      "pkr_id": "PKR-SRC-000183",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Matthews Roses — \"Frosty Moon\" product page",
+      "sha256": "c3f9ce3313b658b2cfd456f5f9d7fc0285b979978fedaa6111fa067f9fc7bb4e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000184",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Matthews Roses — \"Fordell\" product page",
+      "sha256": "62d7581f3c63f1f64f6481f065b9e6f4c4827cd8862777306182449c5b1ec75f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000185",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Matthews Roses — \"My Daughter\" product page",
+      "sha256": "16551dad6cfb40ec0b5ccf37b5ed6cccca787d484dc58967259ec3d0d7de1f13"
+    },
+    {
+      "pkr_id": "PKR-SRC-000186",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Matthews Roses — \"Summer Sun\" product page",
+      "sha256": "79d4110b0da3adb25f1280897a97921eb2450b1dd41dfeb12917da2c67f73b65"
+    },
+    {
+      "pkr_id": "PKR-SRC-000187",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Wairere Nursery — \"Legend\" product page",
+      "sha256": "74809a7b8e02f5034356e0f4de590d9a98959bad0587ece5d0ddca2e5606ccfe"
+    },
+    {
+      "pkr_id": "PKR-SRC-000188",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Palmers — \"Fordell Ht 4.7L\" product page",
+      "sha256": "0a90a26fcb8053fd5b47efa2b48cace986fcbb7c9db7bd88b204fbf9a6e461f3"
+    },
+    {
+      "pkr_id": "PKR-SRC-000189",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Palmers — \"My Daughter Bush Fl\" product page",
+      "sha256": "51366218c6bfc60e645456ff6fa336a5d6a2bacca6b1b165339793b6af082fc0"
     }
   ]
 }

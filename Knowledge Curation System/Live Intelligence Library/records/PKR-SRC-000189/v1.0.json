@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000189",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Palmers — \"My Daughter Bush Fl\" product page",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-01",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-L31 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial publication (garden centre)",
+    "identity": "Palmers, product page \"My Daughter Bush Fl\" (description states \"Floribunda\"), https://www.palmers.co.nz/products/998157152, accessed 1 October 2026 (FRD code PAL-MD)",
+    "url": "https://www.palmers.co.nz/products/998157152",
+    "register_code": "PAL-MD",
+    "relevance": "A title using \"Fl\" on a rose the same page calls a Floribunda."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-02-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Approved by Shaphan in chat, 1 October 2026, with PKR-SGT-000003 v1.1."
+  }
+}

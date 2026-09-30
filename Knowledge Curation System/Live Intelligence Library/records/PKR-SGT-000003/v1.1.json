@@ -1,9 +1,9 @@
 {
   "schema": "pip-lil-record/1",
   "pkr_id": "PKR-SGT-000003",
-  "version": "1.0",
+  "version": "1.1",
   "pkr_type": "suitability_gate",
-  "status": "Retired",
+  "status": "Published",
   "title": "Rose-type gate — is this rose a supported bush-rose type?",
   "common": {
     "applies_to": "Any rose a gardener brings to the pruning journey. This prerequisite check runs before every other gate and every observation, dead wood included.",
@@ -23,15 +23,39 @@
       "PKR-SRC-000045",
       "PKR-SRC-000046",
       "PKR-SRC-000047",
-      "PKR-SRC-000048"
+      "PKR-SRC-000048",
+      "PKR-SRC-000181",
+      "PKR-SRC-000182",
+      "PKR-SRC-000183",
+      "PKR-SRC-000184",
+      "PKR-SRC-000185",
+      "PKR-SRC-000186",
+      "PKR-SRC-000187",
+      "PKR-SRC-000188",
+      "PKR-SRC-000189"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-01",
     "related_pkrs": [],
-    "preserved_uncertainty": "(1) Pip can't tell a rose's type from photos or a dormant plant (AF-20, R-1). The gate relies entirely on what the gardener has been told. (2) Some cultivars are classed differently by different authorities (ARC §4, AF-5), so a stated type isn't infallible. (3) Grandiflora is included provisionally only. It's largely absent from NZ classification sources (AF-4), and Pip gives no Grandiflora-specific pruning guidance (R-4).",
+    "preserved_uncertainty": "(1) Pip can't tell a rose's type from photos or a dormant plant (AF-20, R-1). The gate relies entirely on what the gardener has been told. (2) Some cultivars are classed differently by different authorities (ARC §4, AF-5), so a stated type isn't infallible. (3) Grandiflora is included provisionally only. It's largely absent from NZ classification sources (AF-4), and Pip gives no Grandiflora-specific pruning guidance (R-4). (4) \"Ht\" and \"Fl\" are shop abbreviations that no source spells out; their meaning was shown by matching five Kings Plant Barn roses against nurseries that name the class in full (AF-L30, AF-L32). One Palmers title uses \"Ht\" on a rose its own page calls a Floribunda (AF-L31), so the hint says \"usually\". Either way the rose qualifies.",
     "evidence_confidence": "Per claim — see content"
   },
   "content": {
     "question": "Do you know what type of rose this is — from its label or pot tag, a receipt or nursery listing, or someone experienced who has told you?",
+    "labelAbbreviations": {
+      "text": "Some New Zealand shops shorten the type in a rose's name: \"Ht\" usually means Hybrid Tea and \"Fl\" usually means Floribunda. So a label like \"Bush Rose Ht\" does tell you the type.",
+      "confidence": "Moderate",
+      "sources": [
+        "PKR-SRC-000181",
+        "PKR-SRC-000182",
+        "PKR-SRC-000183",
+        "PKR-SRC-000184",
+        "PKR-SRC-000185",
+        "PKR-SRC-000186",
+        "PKR-SRC-000187",
+        "PKR-SRC-000188",
+        "PKR-SRC-000189"
+      ]
+    },
     "answers": [
       {
         "id": "hybrid-tea",
@@ -85,9 +109,9 @@
     }
   },
   "provenance": {
-    "approved_rendering": "Working/AI Outputs/PKR-SGT-BUSHROSE-ROSETYPE-01-submission.md",
+    "approved_rendering": "Working/AI Outputs/PKR-SGT-BUSHROSE-ROSETYPE-02-submission.md",
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-01",
-    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+    "note": "v1.1 adds the label-abbreviation line (ARC-BUSHROSE-ROSETYPE-01 v1.2, AF-L30 to AF-L32, R-L6). Approved by Shaphan in chat, 1 October 2026. Supersedes v1.0."
   }
 }

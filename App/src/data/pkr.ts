@@ -65,6 +65,8 @@ export type RoseTypeAnswerId = SavedRoseType | 'variety-only'
 export interface RoseTypeGate {
   pkr: PkrMeta
   question: string
+  /** PKR-SGT-000003 v1.1: what "Ht" and "Fl" on NZ shop labels usually mean. Optional so an older record still loads. */
+  labelAbbreviations?: { text: string; confidence: ConfidenceLevel; sources: string[] }
   answers: { id: RoseTypeAnswerId; label: string; passes: boolean }[]
   grandifloraNote: string
   roseFinder: { text: string; url?: string; confidence: ConfidenceLevel }
