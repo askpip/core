@@ -8,7 +8,7 @@
 **Volume:** Volume VI – Knowledge Curation System
 **Folder:** 03 – Operations Manuals
 **Version:** 0.6
-**Status:** Draft — for Founder approval (Version 0.5 remains the approved text until then)
+**Status:** **Approved**
 **Owner:** The Founders
 **Last Updated:** 1 October 2026
 **Approved By:** AskPIP Founder Authority
@@ -20,7 +20,7 @@
 
 **Drafting Note:** This is the first version of this Manual. No KIT Operations Manual existed before this draft — the KIT Charter and PKR Standard both anticipated one without it being written. Rather than draft this speculatively, a real dry run was performed first: an AI instance, using only the Charter, the PKR Standard, the LIL Standard, the MIL Standard, the Pip Runtime Architecture and the Knowledge Integration Workflow, attempted to build one real draft Observation PKR from ARC-BUSHROSE-DEADWOOD-01 (`Working/AI Outputs/KIT_Dry_Run_BUSHROSE_DEADWOOD_01.md`). It produced a usable partial draft and stalled at six specific, concrete points. This Manual is written directly against those six stalls, using the same case as its worked example throughout, in the same spirit as how a real research commission on dead-versus-living wood shaped the Founder Review Dossier Standard and the Assessed Finding model earlier in this session. Sections below reference "the dry run" and "Gap 1" through "Gap 6" by number, matching that document.
 
-**Version 0.6 (draft, 1 October 2026):** the Founders asked for KIT's role to be fully defined and working, so that another AI can take it over. They left the form of the LIL to the implementer, asking only that it scale as the library grows. This version:
+**Version 0.6 (approved by the Founder 1 October 2026, in chat):** the Founders asked for KIT's role to be fully defined and working, so that another AI can take it over. They left the form of the LIL to the implementer, asking only that it scale as the library grows. This version:
 - rewrites Chapter 16 (Publishing) and Chapter 17 (Maintaining the LIL) to describe the LIL as built. The live LIL is the Supabase table `public.lil_pkr`, which the app reads (Published rows only). The repository folder `Knowledge Curation System/Live Intelligence Library/` holds one reviewed file per record version. Each publish is pinned to a git commit and checked by content hash;
 - adds §10.6: the LIL records folder is the register of identifiers in use;
 - names the two Skills that carry the working procedure, `AI/Skills/KIT_PKR_Build_Skill.md` and `AI/Skills/KIT_LIL_Publication_Skill.md`.

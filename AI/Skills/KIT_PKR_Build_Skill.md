@@ -10,7 +10,7 @@ description: Build, submit and (after Founder approval) mark Published the PIP K
 **Document Title:** KIT PKR Build Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
 **Version:** 0.1
-**Status:** Draft — for Founder approval
+**Status:** Approved — Approved by the Founder (Shaphan) in chat, 1 October 2026
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/KIT_PKR_Build_Skill.md`
 **Last Updated:** 1 October 2026

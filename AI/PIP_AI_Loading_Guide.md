@@ -5,7 +5,7 @@
 **Parent Platform:** Plant Intelligence Platform (PIP)  
 **Folder:** AI  
 **Version:** 0.11  
-**Status:** Draft — for Founder approval  
+**Status:** Approved  
 **Owner:** The Founders  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AI/PIP_AI_Loading_Guide.md`  
@@ -13,7 +13,7 @@
 **Purpose:** To select the minimum current PIP Artificial Intelligence Operating System (PIP AI OS) documents materially required for a task or coherent session.  
 **Authority:** PIP AI OS  
 **Related Documents:** `AGENTS.md`, `AI/PIP_AI_Operations_Manual.md`, `AI/PIP_AI_Constitution.md`
-**Revision Note:** Version 0.11 (draft, 1 October 2026): the Loading Index (§4) gains two rows routing Knowledge Integration Technician (KIT) work to the new `AI/Skills/KIT_PKR_Build_Skill.md` (building and publishing PKRs from an approved ARC) and `AI/Skills/KIT_LIL_Publication_Skill.md` (publishing to and maintaining the Live Intelligence Library), so another AI can take up KIT's role from this guide alone. Previous (0.10): Adds a Loading Index row (§4) routing Garden Shed Office work — composing or approving notices, to-dos, document links, and shed-form documents — to the new `AI/Skills/Garden_Shed_Operations_Skill.md`. Before this amendment, the Loading Index had no entry for Shed work at all; an AI session following this Guide strictly would not have known to consult `Shed/README.md` or any Skill unless it happened to reach the write-back case already covered by `AI/Skills/CORE_Integration_Skill.md` §6.1. Per §10 below and §9 of the CORE Integration Skill, this row shall not be treated as active until `AI/Skills/Garden_Shed_Operations_Skill.md` is itself approved and installed at its permanent location — the two are one coordinated change. No other content changed from Version 0.9.
+**Revision Note:** Version 0.11 (approved by the Founder in chat, 1 October 2026): the Loading Index (§4) gains two rows routing Knowledge Integration Technician (KIT) work to the new `AI/Skills/KIT_PKR_Build_Skill.md` (building and publishing PKRs from an approved ARC) and `AI/Skills/KIT_LIL_Publication_Skill.md` (publishing to and maintaining the Live Intelligence Library), so another AI can take up KIT's role from this guide alone. Previous (0.10): Adds a Loading Index row (§4) routing Garden Shed Office work — composing or approving notices, to-dos, document links, and shed-form documents — to the new `AI/Skills/Garden_Shed_Operations_Skill.md`. Before this amendment, the Loading Index had no entry for Shed work at all; an AI session following this Guide strictly would not have known to consult `Shed/README.md` or any Skill unless it happened to reach the write-back case already covered by `AI/Skills/CORE_Integration_Skill.md` §6.1. Per §10 below and §9 of the CORE Integration Skill, this row shall not be treated as active until `AI/Skills/Garden_Shed_Operations_Skill.md` is itself approved and installed at its permanent location — the two are one coordinated change. No other content changed from Version 0.9.
 
 ---
 

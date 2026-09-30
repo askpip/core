@@ -25,7 +25,8 @@ Git provides the complete technical history of the repository. This changelog re
     - The standard-library build tool `tools/build_lil.py` validates records, generates the bundle, manifest and app snapshot, and checks the database against the repository by content hash.
   - **The app** reads the live LIL with the snapshot as fallback (`App/src/data/pkr.ts`, `App/src/lib/lil.ts`).
   - **New KIT Skills:** `AI/Skills/KIT_PKR_Build_Skill.md` (ARC to PKR) and `AI/Skills/KIT_LIL_Publication_Skill.md` (publishing and maintaining the LIL), with `.agents/skills` adapters.
-  - **Drafts for Founder approval:** KIT Operations Manual v0.6 (Chapters 16 and 17 describe the LIL as built; new §10.6) and Loading Guide v0.11 (routes KIT work to the new Skills).
+  - **Approved by Shaphan in chat (1 October 2026):** both KIT Skills, KIT Operations Manual v0.6 (Chapters 16 and 17 describe the LIL as built; new §10.6) and Loading Guide v0.11 (routes KIT work to the new Skills).
+  - **First publish (1 October 2026):** KIT published commit `346dfb1` with `lil_publish_from_git`: 208 records inserted and Published. The verify step confirmed the database matches the repository manifest exactly (208 records), and the app's public key sees only the 208 Published rows.
 - **Rose type asked once, in Add a plant (29 September 2026).**
   - **Where it's saved:** a new `rose_type` column (PKR-SGT-000003 answers). This change and the `'none-remaining'` outcome value are both applied to Supabase.
   - **Add a plant:** asks the approved rose-type question after the nursery label. The old question that asked for the variety name now says "Do you know its variety name?".

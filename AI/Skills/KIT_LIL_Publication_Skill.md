@@ -10,7 +10,7 @@ description: Publish Founder-approved PKRs into the Live Intelligence Library (L
 **Document Title:** KIT LIL Publication Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
 **Version:** 0.1
-**Status:** Draft — for Founder approval
+**Status:** Approved — Approved by the Founder (Shaphan) in chat, 1 October 2026
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/KIT_LIL_Publication_Skill.md`
 **Last Updated:** 1 October 2026
