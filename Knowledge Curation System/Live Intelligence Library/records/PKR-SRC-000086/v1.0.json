@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000086",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Alabama Cooperative Extension System — Photo Submission Guide for Ornamental Plant & Pest Identification",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-8 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Alabama Cooperative Extension System, Lucy Edwards and Jim Jacobi, \"Photo Submission Guide for Ornamental Plant & Pest Identification\" (14 Apr 2022); web address <https://www.aces.edu/blog/topics/landscaping/photo-submission-guide-for-ornamental-plant-pest-identification/>, accessed 29 September 2026; FRD code ACES",
+    "url": "https://www.aces.edu/blog/topics/landscaping/photo-submission-guide-for-ornamental-plant-pest-identification/",
+    "register_code": null,
+    "relevance": "Supports AF-8 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quote found: \"Include multiple photos from different angles\"."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

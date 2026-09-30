@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000035",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Yates New Zealand — What Are the Different Types of Roses?",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial page; weighs on marketing terms, less on classification.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-ROSETYPE-01, AF-17 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial publication",
+    "identity": "Yates, \"What Are the Different Types of Roses?\", https://www.yates.co.nz/ideas-plans/project-guides-articles/all/types-of-roses/, accessed 27 September 2026 (FRD code YAT)",
+    "url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/types-of-roses/",
+    "register_code": null,
+    "relevance": "Describes Grandiflora and uses \"Bush Roses\" as a retail grouping — evidence that \"bush\" on a label is not a class."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

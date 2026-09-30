@@ -1,0 +1,46 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000007",
+  "version": "1.6",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Georgia CAES — Rose pruning",
+  "common": {
+    "applies_to": "Bush rose; dead-wood identification and removal",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, AF-1 (High) — pith colour",
+      "ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue",
+      "ARC-BUSHROSE-DEADWOOD-01, AF-8 (Moderate) — escalating removal where dieback persists",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-2 (Low)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-4 (Low)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-12 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Georgia College of Agricultural and Environmental Sciences)",
+    "identity": "University of Georgia CAES, Watson, \"Rose pruning,\" https://fieldreport.caes.uga.edu/news/prune-roses-now-for-more-blooms-later/, accessed during FRD-BUSHROSE-DEADWOOD-01 research",
+    "url": "https://fieldreport.caes.uga.edu/news/prune-roses-now-for-more-blooms-later/",
+    "register_code": null,
+    "relevance": "Corroborates the pith-colour signal and both removal rules."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

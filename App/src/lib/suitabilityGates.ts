@@ -14,7 +14,7 @@
  * v1.1: governs structural pruning only; a stop offers the removal-only
  * session). Their gardener-facing wording lives in data/pkr.ts.
  */
-import { ROSE_TYPE_GATE, publishedObservations, type ObservationDef, type RoseTypeAnswerId } from '@/data/pkr'
+import { RECENTLY_PLANTED_GATE, ROSE_TYPE_GATE, publishedObservations, type ObservationDef, type RoseTypeAnswerId } from '@/data/pkr'
 
 /** PKR-SGT-000002, Primary Question — the gardener's answer, or that they don't know. */
 export type RecentlyPlantedPrimaryAnswer = 'established' | 'recent' | 'unknown'
@@ -63,8 +63,7 @@ export function evaluateRecentlyPlantedPrimary(
     return {
       status: 'restricted',
       allowedObservationIds: DEAD_WOOD_ONLY_OBSERVATION_IDS,
-      reason:
-        "This rose hasn't been in the ground long enough yet for the full check, so we'll only look at dead wood today.",
+      reason: RECENTLY_PLANTED_GATE.restrictedReasonRecent,
     }
   }
   return 'needs-fallback'
@@ -92,8 +91,7 @@ export function evaluateRecentlyPlantedFallback(
   return {
     status: 'restricted',
     allowedObservationIds: DEAD_WOOD_ONLY_OBSERVATION_IDS,
-    reason:
-      "We can't confirm this rose is established enough yet, so we'll only look at dead wood today, to stay safe.",
+    reason: RECENTLY_PLANTED_GATE.restrictedReasonFallback,
   }
 }
 

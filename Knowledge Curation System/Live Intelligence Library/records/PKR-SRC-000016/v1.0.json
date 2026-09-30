@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000016",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Oregon State University Extension Service — When should I prune my roses?",
+  "common": {
+    "applies_to": "Bush rose; dormancy / pruning-window timing",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not the same article as the dead-wood commission's separate Oregon State University source (PKR-SRC-000004) — different URL, cited independently.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DORMANCY-01, AF-2 (High) — climate/hemisphere-dependent timing (no fixed calendar date)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (Oregon State University)",
+    "identity": "Oregon State University Extension Service, \"When should I prune my roses?\", https://extension.oregonstate.edu/ask-extension/featured/when-should-i-prune-my-roses, accessed during FRD-BUSHROSE-DORMANCY-01 research",
+    "url": "https://extension.oregonstate.edu/ask-extension/featured/when-should-i-prune-my-roses",
+    "register_code": null,
+    "relevance": "One of six sources supporting the climate-dependent-timing finding."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

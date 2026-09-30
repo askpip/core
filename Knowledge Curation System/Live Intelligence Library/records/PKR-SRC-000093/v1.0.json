@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000093",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "N.C. Cooperative Extension, Robeson County — Cold Damage",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-14 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "N.C. Cooperative Extension, Robeson County, Mack Johnson, \"Cold Damage\" (16 Jan 2018; upd. 29 Nov 2023); web address <https://robeson.ces.ncsu.edu/2018/01/cold-damage>, accessed 29 September 2026; FRD code NCCE",
+    "url": "https://robeson.ces.ncsu.edu/2018/01/cold-damage",
+    "register_code": null,
+    "relevance": "Supports AF-14 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Both quotes found."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

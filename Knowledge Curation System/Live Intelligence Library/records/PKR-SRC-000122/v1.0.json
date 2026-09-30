@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000122",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Iowa State University Extension — How should I prune hybrid tea roses in spring? (FAQ)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (Iowa State University)",
+    "identity": "Iowa State University Extension, \"How should I prune hybrid tea roses in spring?\" (FAQ, 3 Dec 2024); web address <https://yardandgarden.extension.iastate.edu/faq/how-should-i-prune-hybrid-tea-roses-spring>, accessed 29 September 2026; register code ISUF",
+    "url": "https://yardandgarden.extension.iastate.edu/faq/how-should-i-prune-hybrid-tea-roses-spring",
+    "register_code": "ISUF",
+    "relevance": "Supports AF-21, AF-22."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

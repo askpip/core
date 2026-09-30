@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000019",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Arizona Cooperative Extension (Yavapai County) — Pruning Roses",
+  "common": {
+    "applies_to": "Bush rose; dormancy / bud-swell signal",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DORMANCY-01, AF-1 (High) — bud swell as the readiness signal"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Arizona)",
+    "identity": "University of Arizona Cooperative Extension, Yavapai County, \"Pruning Roses,\" https://cales.arizona.edu/yavapai/anr/hort/byg/archive/pruningroses2015.html, accessed during FRD-BUSHROSE-DORMANCY-01 research",
+    "url": "https://cales.arizona.edu/yavapai/anr/hort/byg/archive/pruningroses2015.html",
+    "register_code": null,
+    "relevance": "Corroborates the bud-swell signal from a warm/dry climate region."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

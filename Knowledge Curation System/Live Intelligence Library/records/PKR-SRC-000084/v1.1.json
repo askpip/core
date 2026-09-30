@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000084",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Mississippi State University Extension — Taking Photos of Plant Disease Problems (P3022)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Quote found: \"photos do not provide the information necessary to make a diagnosis\".",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-8 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-34 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Mississippi State University Extension, Rebecca A. Melanson, \"Taking Photos of Plant Disease Problems\" (P3022); web address <https://extension.msstate.edu/publications/taking-photos-plant-disease-problems>, accessed 29 September 2026; FRD code MSSTATE",
+    "url": "https://extension.msstate.edu/publications/taking-photos-plant-disease-problems",
+    "register_code": null,
+    "relevance": "Supports AF-8 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quote found: \"photos do not provide the information necessary to make a diagnosis\"."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

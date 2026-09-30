@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000072",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — Cleaning Hand Tools: Maintenance Tips",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-15 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication",
+    "identity": "Royal Horticultural Society, \"Cleaning Hand Tools: Maintenance Tips\"; web address <https://www.rhs.org.uk/garden-jobs/cleaning-tools>, accessed 29 September 2026; FRD code RHS-TOOL",
+    "url": "https://www.rhs.org.uk/garden-jobs/cleaning-tools",
+    "register_code": null,
+    "relevance": "Supports AF-15 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quote found: disinfectant, \"leave for 15-20 minutes before wiping off\"; names bacterial canker."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

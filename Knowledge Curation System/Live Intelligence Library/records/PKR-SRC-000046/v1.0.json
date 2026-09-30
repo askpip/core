@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000046",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Illinois Extension — Roses Types",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None material.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-4 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "University of Illinois Extension, \"Roses Types\", https://extension.illinois.edu/roses/roses-types, accessed 27 September 2026 (FRD code ILL-T)",
+    "url": "https://extension.illinois.edu/roses/roses-types",
+    "register_code": null,
+    "relevance": "Describes Grandiflora as a class (US usage)."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

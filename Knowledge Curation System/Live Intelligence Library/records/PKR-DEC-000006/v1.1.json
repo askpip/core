@@ -1,0 +1,142 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-DEC-000006",
+  "version": "1.1",
+  "pkr_type": "decision_logic",
+  "status": "Published",
+  "title": "The main framework — what to keep, what to remove, and how much to shorten",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000002",
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000006",
+      "PKR-SRC-000007",
+      "PKR-SRC-000009",
+      "PKR-SRC-000018",
+      "PKR-SRC-000022",
+      "PKR-SRC-000048",
+      "PKR-SRC-000049",
+      "PKR-SRC-000065",
+      "PKR-SRC-000066",
+      "PKR-SRC-000067",
+      "PKR-SRC-000088",
+      "PKR-SRC-000095",
+      "PKR-SRC-000101",
+      "PKR-SRC-000108",
+      "PKR-SRC-000109",
+      "PKR-SRC-000110",
+      "PKR-SRC-000111",
+      "PKR-SRC-000115",
+      "PKR-SRC-000117",
+      "PKR-SRC-000118",
+      "PKR-SRC-000119",
+      "PKR-SRC-000120"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [
+      {
+        "relationship": "governed by",
+        "pkr_id": "PKR-OBS-000006"
+      }
+    ],
+    "preserved_uncertainty": "Final heights vary widely between sources, so no fixed height is given (C1). How many canes to keep varies from 3 to 8 (C7). The one-third-per-year renewal figure comes from sources about shrub, landscape and climbing roses, not specifically Hybrid Teas or Floribundas (AF-20). The \"replace a sickly bush\" point is general shrub advice (AF-39).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "choices": [
+      {
+        "choice": "cut",
+        "label": "Keep it, and shorten it",
+        "cutKind": "shorten"
+      },
+      {
+        "choice": "leave",
+        "label": "Keep it as it is"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "decision_notes": [
+      {
+        "text": "Keep the strong, healthy canes spread around the base, aiming for an open centre.",
+        "confidence": "High"
+      },
+      {
+        "text": "Keep roughly 3–7 canes, 4–6 typical, and fewer for a modest or young plant.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Shorten kept canes by roughly a third to a half. Hybrid Teas are cut lower, or to fewer canes, than Floribundas. Grandifloras are pruned as Hybrid Teas.",
+        "confidence": "Moderate"
+      }
+    ],
+    "doesnt_match_choices": [
+      {
+        "choice": "cut",
+        "label": "Remove this old cane at its base",
+        "cutKind": "remove-stem"
+      },
+      {
+        "choice": "leave",
+        "label": "Leave"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "doesnt_match_notes": [
+      {
+        "text": "Remove old, grey, unproductive canes at their base, in favour of younger ones.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Renewing an old bush: remove about a third of the old canes each year, over several years, rather than all at once.",
+        "confidence": "Low"
+      },
+      {
+        "text": "For a badly overgrown, weak or sickly bush, experienced local help is worth asking — such a bush is sometimes better replaced.",
+        "confidence": "Low"
+      }
+    ],
+    "not_sure_choices": [
+      {
+        "choice": "leave",
+        "label": "Keep it for now and reassess next pruning"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "headline_confidence": "High",
+    "gate_conditions": {
+      "PKR-SGT-000001": "applies",
+      "PKR-SGT-000002": "applies",
+      "PKR-SGT-000003": "applies"
+    },
+    "cut_care_guidance": true
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-SUCKERS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

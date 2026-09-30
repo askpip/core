@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000087",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Ask Extension #236546 — Rose Bush has half dead canes (Orange County, FL)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-20 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (question service)",
+    "identity": "Ask Extension #236546, \"Rose Bush has half dead canes\" (Orange County, FL; answered 16 Apr 2015); web address <https://ask.extension.org/kb/faq.php?id=236546>, accessed 29 September 2026; FRD code ASKEXT (UF/IFAS Orange County)",
+    "url": "https://ask.extension.org/kb/faq.php?id=236546",
+    "register_code": null,
+    "relevance": "Supports AF-13 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quotes found: \"Make all pruning cuts well below the diseased areas\"; 1 part bleach to 9 parts water."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

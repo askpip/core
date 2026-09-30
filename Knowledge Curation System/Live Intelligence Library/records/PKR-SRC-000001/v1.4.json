@@ -1,0 +1,40 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000001",
+  "version": "1.4",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "RHS — Rose pruning: general tips",
+  "common": {
+    "applies_to": "Bush rose; dead-wood identification and removal",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, AF-1 (High) — pith colour as the definitive dead/living signal",
+      "ARC-BUSHROSE-DEADWOOD-01, AF-2 (Moderate) — external bark colour as a supporting signal",
+      "ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-38 (Not assigned; see C11)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-19 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication (Royal Horticultural Society)",
+    "identity": "Royal Horticultural Society, \"Rose pruning: general tips,\" https://www.rhs.org.uk/plants/roses/pruning-guide, accessed during FRD-BUSHROSE-DEADWOOD-01 research",
+    "url": "https://www.rhs.org.uk/plants/roses/pruning-guide",
+    "register_code": null,
+    "relevance": "Primary reference-body source for the core dead-wood identification and removal rule; the most heavily-cited source in this commission."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

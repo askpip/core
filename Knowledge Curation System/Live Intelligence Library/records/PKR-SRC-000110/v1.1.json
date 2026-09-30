@@ -1,0 +1,40 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000110",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UC ANR Fresno — Rosie's Corner: It's time to prune roses",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-20 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "UC ANR Fresno Gardening Green, \"Rosie's Corner: It's time to prune roses\" (1 Feb 2025); web address <https://ucanr.edu/blog/fresno-gardening-green/article/rosies-corner-its-time-prune-roses>, accessed 29 September 2026; FRD code UCF",
+    "url": "https://ucanr.edu/blog/fresno-gardening-green/article/rosies-corner-its-time-prune-roses",
+    "register_code": null,
+    "relevance": "Supports AF-7, AF-8, AF-9, AF-17, AF-20."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PRUNINGFRAMEWORK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000057",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "USDA Forest Service — How to Prune Trees (NA-FR-01-95)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Trees, not roses; general principle.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-6 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Government publication (federal forestry agency)",
+    "identity": "USDA Forest Service, Bedker, O'Brien and Mielke, \"How to Prune Trees\" (NA-FR-01-95, rev. Aug 2012); FRD code USDAFS; web address <https://www.fs.usda.gov/nrs/pubs/na/NA-FR-01-95-Rev-2012.pdf>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://www.fs.usda.gov/nrs/pubs/na/NA-FR-01-95-Rev-2012.pdf",
+    "register_code": null,
+    "relevance": "Instructs removing crossing branches by thinning cuts."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

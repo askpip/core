@@ -1,0 +1,41 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000151",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Fine Gardening (Paul Zimmerman) — What Is a 'Sucker' on a Rose Bush?",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-2 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-8 (Low)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-11 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-17 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Paul Zimmerman, Fine Gardening (Taunton Press), \"What Is a 'Sucker' on a Rose Bush?\", published 15 April 2011, modified 3 August 2023. Gardening magazine (rose specialist author), US.; web address <https://www.finegardening.com/article/what-is-a-sucker-on-a-rose-bush>, accessed 29 September 2026; register code FG-Z",
+    "url": "https://www.finegardening.com/article/what-is-a-sucker-on-a-rose-bush",
+    "register_code": "FG-Z",
+    "relevance": "Supports AF-1, AF-2, AF-3, AF-4, AF-6, AF-8, AF-9, AF-11, AF-17, AF-18."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SUCKERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

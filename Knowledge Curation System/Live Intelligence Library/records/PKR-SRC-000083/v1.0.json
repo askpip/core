@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000083",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Kennard, Putz and Niederhofer (1996), The Predictability of Tree Decay Based on Visual Assessments",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-8 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Scientific paper (peer-reviewed)",
+    "identity": "Deborah K. Kennard, Francis E. Putz and Meg Niederhofer, \"The Predictability of Tree Decay Based on Visual Assessments\", *Journal of Arboriculture* 22(6):249–254 (Nov 1996); web address <https://auf.isa-arbor.com/content/22/6/249>, accessed 29 September 2026; FRD code Kennard96",
+    "url": "https://auf.isa-arbor.com/content/22/6/249",
+    "register_code": null,
+    "relevance": "Supports AF-8 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quote found in the abstract: \"External signs of decay may be misleading, or trees may show no signs of internal defects.\""
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000066",
+  "version": "1.4",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Yates New Zealand — How to Prune Your Roses",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial page; a different document from PKR-SRC-000035.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-23 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-2 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-17 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-20 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-22 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial publication",
+    "identity": "Yates New Zealand, \"How to Prune Your Roses\" (updated 1 Mar 2021); FRD code YAT-PR; web address <https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-INWARDGROWTH-02` §4",
+    "url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/",
+    "register_code": null,
+    "relevance": "Gives the outward-bud instruction."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

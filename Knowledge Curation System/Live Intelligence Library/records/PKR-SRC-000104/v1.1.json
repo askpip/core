@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000104",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Iowa State University Extension — Photography (Plant problems)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-9 (Low)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-10 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-34 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Iowa State University Extension, Plant and Insect Diagnostic Clinic, \"Photography (Plant problems)\"; web address <https://yardandgarden.extension.iastate.edu/pidc/photography>, accessed 29 September 2026; FRD code ISU-PHOTO",
+    "url": "https://yardandgarden.extension.iastate.edu/pidc/photography",
+    "register_code": null,
+    "relevance": "Supports AF-9, AF-10. Verification: Quotes found: \"Include a size reference... coin, pencil, ruler\"; whole-plant view plus close-ups."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-WEAKCONGESTED-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

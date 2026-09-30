@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000175",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UC Statewide IPM Program — Cane Blight of Caneberries and Roses",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-10 (High)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-11 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "UC Statewide IPM Program, University of California Agriculture and Natural Resources, \"Cane Blight of Caneberries and Roses\" (page copyright 1996–2026).; web address <https://ipm.ucanr.edu/home-and-landscape/cane-blight-of-caneberries-and-roses/>, accessed 29 September 2026; register code UCIPM-CB",
+    "url": "https://ipm.ucanr.edu/home-and-landscape/cane-blight-of-caneberries-and-roses/",
+    "register_code": "UCIPM-CB",
+    "relevance": "Supports AF-10, AF-11."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

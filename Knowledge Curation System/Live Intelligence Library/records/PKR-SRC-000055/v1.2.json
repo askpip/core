@@ -1,0 +1,36 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000055",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UF/IFAS Leon County Extension — Rose pruning advice",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None material.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-7 (Low)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "UF/IFAS Leon County Extension, Taylor Vandiver, \"Rose pruning advice\" (25 Feb 2014); FRD code UFIFAS; web address <https://blogs.ifas.ufl.edu/leonco/2014/02/14/roses-are-red-pruning-florida-roses/>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://blogs.ifas.ufl.edu/leonco/2014/02/14/roses-are-red-pruning-florida-roses/",
+    "register_code": null,
+    "relevance": "Instructs removing crossing canes; says the weakest of crossing branches should be removed."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

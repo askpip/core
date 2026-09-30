@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000031",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Marin Rose Society (Nanette Londeree) — Before You Buy New Roses",
+  "common": {
+    "applies_to": "Bush rose; establishment signals when planting date is unknown",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Distinct article from PKR-SRC-000029 (same author/site, different URL and content).",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-RECENTPLANT-01, AF-2 (Low) — observable establishment signals"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication (rose society; named Master Rosarian author)",
+    "identity": "Marin Rose Society, Nanette Londeree (Master Rosarian), \"Before You Buy New Roses,\" https://www.marinrose.org/care-basics/buying-roses/, accessed during FRD-BUSHROSE-RECENTPLANT-02 research",
+    "url": "https://www.marinrose.org/care-basics/buying-roses/",
+    "register_code": null,
+    "relevance": "States own-root roses \"start smaller and may take a few years to mature,\" supporting the general size/establishment relationship AF-2 relies on."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-RECENTPLANT-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

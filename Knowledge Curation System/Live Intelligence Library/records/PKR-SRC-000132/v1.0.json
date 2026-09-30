@@ -1,0 +1,36 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000132",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Illinois Extension — Care (Roses)",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-BASICCARE-01, F2 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F3 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F4 (High (pattern))",
+      "ARC-BUSHROSE-BASICCARE-01, F5 (High (pattern))",
+      "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Illinois)",
+    "identity": "University of Illinois Extension, \"Care\" (Roses); web address <https://extension.illinois.edu/roses/care>, accessed 29 September 2026; register code ILL-CARE",
+    "url": "https://extension.illinois.edu/roses/care",
+    "register_code": "ILL-CARE",
+    "relevance": "Supports F2, F3, F4, F5, F9."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-BASICCARE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000062",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Berland et al. (2019), Forests 10(4):349",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Urban trees, not roses; extrapolated (EAS §2.10).",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-4 (Low)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-3 (Low)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-8 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Scientific paper (peer-reviewed)",
+    "identity": "Berland et al., \"Can Field Crews Telecommute? ...\", *Forests* 10(4):349 (2019); FRD code Berland19; web address <https://doi.org/10.3390/f10040349>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://doi.org/10.3390/f10040349",
+    "register_code": null,
+    "relevance": "Finds single-viewpoint imagery less reliable than in-person viewing for structural assessment."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

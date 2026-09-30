@@ -1,0 +1,93 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SGT-000003",
+  "version": "1.0",
+  "pkr_type": "suitability_gate",
+  "status": "Published",
+  "title": "Rose-type gate — is this rose a supported bush-rose type?",
+  "common": {
+    "applies_to": "Any rose a gardener brings to the pruning journey. This prerequisite check runs before every other gate and every observation, dead wood included.",
+    "supporting_sources": [
+      "PKR-SRC-000033",
+      "PKR-SRC-000034",
+      "PKR-SRC-000035",
+      "PKR-SRC-000036",
+      "PKR-SRC-000037",
+      "PKR-SRC-000038",
+      "PKR-SRC-000039",
+      "PKR-SRC-000040",
+      "PKR-SRC-000041",
+      "PKR-SRC-000042",
+      "PKR-SRC-000043",
+      "PKR-SRC-000044",
+      "PKR-SRC-000045",
+      "PKR-SRC-000046",
+      "PKR-SRC-000047",
+      "PKR-SRC-000048"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "(1) Pip can't tell a rose's type from photos or a dormant plant (AF-20, R-1). The gate relies entirely on what the gardener has been told. (2) Some cultivars are classed differently by different authorities (ARC §4, AF-5), so a stated type isn't infallible. (3) Grandiflora is included provisionally only. It's largely absent from NZ classification sources (AF-4), and Pip gives no Grandiflora-specific pruning guidance (R-4).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "question": "Do you know what type of rose this is — from its label or pot tag, a receipt or nursery listing, or someone experienced who has told you?",
+    "answers": [
+      {
+        "id": "hybrid-tea",
+        "label": "Hybrid Tea (large-flowered)",
+        "passes": true
+      },
+      {
+        "id": "floribunda",
+        "label": "Floribunda (cluster-flowered)",
+        "passes": true
+      },
+      {
+        "id": "grandiflora",
+        "label": "Grandiflora",
+        "passes": true
+      },
+      {
+        "id": "excluded",
+        "label": "Another type (shrub, English, patio, miniature, groundcover, climbing or rambling, standard, old garden or species rose)",
+        "passes": false
+      },
+      {
+        "id": "bush-only",
+        "label": "The label only says \"bush rose\" or \"rose bush\"",
+        "passes": false
+      },
+      {
+        "id": "variety-only",
+        "label": "I know its variety name but not its type",
+        "passes": false
+      },
+      {
+        "id": "unknown",
+        "label": "I don't know",
+        "passes": false
+      }
+    ],
+    "grandifloraNote": "Grandiflora is supported provisionally. It gets the same guidance as a Hybrid Tea; there is no Grandiflora-specific advice.",
+    "roseFinder": {
+      "text": "The New Zealand Rose Society's Rose Finder lists a type for each rose it holds. Look the name up there, then answer this question again. If you can't find it, the answer is the same as \"I don't know\".",
+      "confidence": "Moderate",
+      "source": "PKR-SRC-000033"
+    },
+    "journalOnly": {
+      "base": "I can't yet help prune this rose. My pruning guidance so far covers only Hybrid Tea, Floribunda and Grandiflora bush roses.",
+      "excluded": "That type isn't one my pruning guidance covers yet.",
+      "bushOnly": "\"Bush\" on a label doesn't say which type a rose is — garden retailers use it for patio, shrub and groundcover roses too.",
+      "unknown": "Without a confirmed type I can't be sure the guidance fits, and I don't try to identify roses from photos, because that's unreliable even for experts.",
+      "keep": "Your rose stays in your garden list as a journal: photos, notes and history all remain available. If you later confirm it is a Hybrid Tea, Floribunda or Grandiflora, you can answer this question again.",
+      "help": "If you want the type identified, a local rose society or an experienced rose grower is the best place to ask."
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SGT-BUSHROSE-ROSETYPE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

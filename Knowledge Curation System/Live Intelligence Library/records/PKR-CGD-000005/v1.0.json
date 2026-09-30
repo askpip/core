@@ -1,0 +1,48 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000005",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Caring for a recently planted Hybrid Tea, Floribunda or Grandiflora rose",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose that PKR-SGT-000002 has stopped (planted less than about three years ago, or establishment not shown)",
+    "supporting_sources": [
+      "PKR-SRC-000028",
+      "PKR-SRC-000111",
+      "PKR-SRC-000130",
+      "PKR-SRC-000131",
+      "PKR-SRC-000132",
+      "PKR-SRC-000133"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "F7 concerns roughly the first year. F2's closer watering covers roughly the first two years. The pruning wait (PKR-SGT-000002) is about three years or more. These are three different questions and are stated separately, not merged (ARC F2 limitations). The gate's own question is about three years, so item 1 is worded for the gardener to apply if the rose went in within about the past year.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Caring for a recently planted rose",
+    "label": null,
+    "items": [
+      {
+        "text": "If your rose was planted within about the past year, leave as much of its leaves and stems as you can this first season. Only remove faded flowers, and don't cut stems for the vase. A new rose uses its leaves to make the energy it needs to grow roots.",
+        "confidence": "High"
+      },
+      {
+        "text": "Pay closer attention to watering for roughly the first two years after planting.",
+        "confidence": "High"
+      },
+      {
+        "text": "Full pruning usually waits until a rose has been in the ground about three years. I'll check this again next time.",
+        "confidence": "Moderate"
+      }
+    ],
+    "disclosure": "This care advice comes mainly from UK and US gardening services. Timings and amounts may differ where you live."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-BASICCARE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000134",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UNH Extension — Winter Protection of Roses",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)",
+      "ARC-BUSHROSE-BASICCARE-01, F10 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of New Hampshire)",
+    "identity": "UNH Extension, \"Winter Protection of Roses\" (fact sheet, updated Nov 2016); web address <https://extension.unh.edu/resource/winter-protection-roses>, accessed 29 September 2026; register code UNH",
+    "url": "https://extension.unh.edu/resource/winter-protection-roses",
+    "register_code": "UNH",
+    "relevance": "Supports F9, F10."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-BASICCARE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000154",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Treloar Roses — Watershoots vs Suckers",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-6 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial",
+    "identity": "Treloar Roses, \"Watershoots vs Suckers\", date not shown. Commercial rose nursery, Australia.; web address <https://www.treloarroses.com.au/Watershoots-Roses>, accessed 29 September 2026; register code TRE-W",
+    "url": "https://www.treloarroses.com.au/Watershoots-Roses",
+    "register_code": "TRE-W",
+    "relevance": "Supports AF-1, AF-3, AF-4, AF-6."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SUCKERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

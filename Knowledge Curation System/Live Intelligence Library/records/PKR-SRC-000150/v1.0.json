@@ -1,0 +1,42 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000150",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Harkness Roses — Suckers",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-2 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-12 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-16 (Low)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-17 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-19 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-20 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-22 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial",
+    "identity": "Harkness Roses, \"Suckers\" (support article), modified 8 December 2025. Commercial rose nursery, UK.; web address <https://support.roses.co.uk/support/solutions/articles/77000588419-suckers>, accessed 29 September 2026; register code HARK",
+    "url": "https://support.roses.co.uk/support/solutions/articles/77000588419-suckers",
+    "register_code": "HARK",
+    "relevance": "Supports AF-1, AF-2, AF-3, AF-7, AF-12, AF-16, AF-17, AF-18, AF-19, AF-20, AF-22."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SUCKERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

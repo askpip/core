@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000078",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Kansas State University — Growing Roses (MF799)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-4 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Kansas State University, Leuthold, Albrecht and van der Hoeven, \"Growing Roses\" (MF799, Apr 1993); web address <https://bookstore.ksre.ksu.edu/pubs/mf799.pdf>, accessed 29 September 2026; FRD code KSU-MF799",
+    "url": "https://bookstore.ksre.ksu.edu/pubs/mf799.pdf",
+    "register_code": null,
+    "relevance": "Supports AF-2, AF-3, AF-4 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quotes found: canker \"brown, sunken and cracked with age\"; rodents under winter mounds; \"remove anything smaller than the thickness of a pencil\"."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

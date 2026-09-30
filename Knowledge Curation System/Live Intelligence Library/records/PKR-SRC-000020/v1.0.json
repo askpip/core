@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000020",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Minnesota Extension — How will this warm winter affect my plants?",
+  "common": {
+    "applies_to": "General woody ornamental (not rose-specific); dormancy / mild-winter complications",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "General woody-shrub guidance, not rose-specific — the sole current source for AF-3, one reason it carries Moderate rather than High confidence and is flagged in Project_Backlog.md for a rose-specific follow-up source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DORMANCY-01, AF-1 (High) — bud swell as the readiness signal",
+      "ARC-BUSHROSE-DORMANCY-01, AF-3 (Moderate) — mild/warm-winter complications"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Minnesota)",
+    "identity": "University of Minnesota Extension, \"How will this warm winter affect my plants?\", https://extension.umn.edu/yard-and-garden-news/how-will-warm-winter-affect-my-plants, accessed during FRD-BUSHROSE-DORMANCY-01 research",
+    "url": "https://extension.umn.edu/yard-and-garden-news/how-will-warm-winter-affect-my-plants",
+    "register_code": null,
+    "relevance": "Sole current source for the mild-climate caveat; also corroborates bud swell generally."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

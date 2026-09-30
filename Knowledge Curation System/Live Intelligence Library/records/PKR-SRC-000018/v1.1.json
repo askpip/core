@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000018",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Arkansas Cooperative Extension Service — Pruning",
+  "common": {
+    "applies_to": "Bush rose; dormancy / bud-swell signal and timing",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DORMANCY-01, AF-2 (High) — climate/hemisphere-dependent timing",
+      "ARC-BUSHROSE-DORMANCY-01, AF-3 (Moderate) — mild/warm-winter complications",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-20 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Arkansas)",
+    "identity": "University of Arkansas Cooperative Extension Service, \"Pruning,\" https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx, accessed during FRD-BUSHROSE-DORMANCY-01 research",
+    "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx",
+    "register_code": null,
+    "relevance": "Supports both the general timing finding and the mild-climate caveat."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

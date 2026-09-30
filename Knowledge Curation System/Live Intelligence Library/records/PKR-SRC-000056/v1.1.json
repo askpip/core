@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000056",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Virginia Cooperative Extension — Master Gardener Training Handbook (woody-plant pruning)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "General woody-plant chapter.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Virginia Cooperative Extension, \"Master Gardener Training Handbook\", woody-plant pruning chapter (2023); FRD code VCE; web address <https://pressbooks.lib.vt.edu/emgtraining/chapter/14/>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://pressbooks.lib.vt.edu/emgtraining/chapter/14/",
+    "register_code": null,
+    "relevance": "Instructs removing crossing branches."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

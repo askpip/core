@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000038",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Wairere Nursery (NZ) — rose listings",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "The FRD cites this nursery as WAI (general listings), WAI-S and WAI-P; the source log records only the shrub and patio pages. Consolidated here as one source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-17 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial publication (nursery)",
+    "identity": "Wairere Nursery, rose listings (FRD codes WAI, WAI-S, WAI-P), https://www.wairere.nz/Roses/Shrub-Rose?show=10&skiprow=10 ; https://www.wairere.nz/Roses/Patio, accessed 27 September 2026 (FRD code WAI)",
+    "url": "https://www.wairere.nz/Roses/Shrub-Rose?show=10&skiprow=10",
+    "register_code": null,
+    "relevance": "Uses the habit \"Rose Bush\" for patio and shrub-category roses."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

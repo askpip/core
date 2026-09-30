@@ -1,0 +1,86 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000007",
+  "version": "1.0",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Rootstock suckers — shoots from below the bud union",
+  "common": {
+    "applies_to": "Established grafted Hybrid Tea, Floribunda or provisional Grandiflora rose (passed PKR-SGT-000003). Any season (Founder decision D1(b)); PKR-SGT-000002 applies. Dormant session: point of origin only. Growing season: supporting signs may be added.",
+    "supporting_sources": [
+      "PKR-SRC-000066",
+      "PKR-SRC-000098",
+      "PKR-SRC-000114",
+      "PKR-SRC-000139",
+      "PKR-SRC-000140",
+      "PKR-SRC-000141",
+      "PKR-SRC-000142",
+      "PKR-SRC-000143",
+      "PKR-SRC-000145",
+      "PKR-SRC-000146",
+      "PKR-SRC-000147",
+      "PKR-SRC-000148",
+      "PKR-SRC-000149",
+      "PKR-SRC-000150",
+      "PKR-SRC-000151",
+      "PKR-SRC-000152",
+      "PKR-SRC-000154",
+      "PKR-SRC-000155",
+      "PKR-SRC-000156",
+      "PKR-SRC-000157",
+      "PKR-SRC-000159",
+      "PKR-SRC-000162"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000007"
+      }
+    ],
+    "preserved_uncertainty": "No source describes recognising a sucker on a dormant, leafless rose other than by where it starts (AF-10, Low). Sources disagree on how dependable leaf clues are (C-2), and rootstocks differ by country (AF-9; New Zealand mainly uses *Rosa multiflora* or strains of it), so Pip gives no rootstock-specific cues (R-3 default). One source says a rootstock stub left above the union can also sucker (AF-14, Low; C-6); this isn't used to classify shoots. No source gives a prickle or cane rule (AF-8). No source says what a photo can establish (R-2). Sources are UK, US, Australian and New Zealand.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "rootstock-sucker",
+    "feature": "Rootstock suckers",
+    "journey_order": 6,
+    "look_for": "Let's check for suckers. A sucker is a shoot from the rootstock your rose was grafted onto, below the bud union — the knobbly join near the base. It isn't your rose's own new cane.",
+    "criteria": [
+      {
+        "text": "Where the shoot starts is the deciding check: below the bud union is a sucker; at the union or just above it is your rose's own new cane, which you keep.",
+        "confidence": "High"
+      },
+      {
+        "text": "A sucker can start below the soil, sometimes a little away from the plant.",
+        "confidence": "High"
+      },
+      {
+        "text": "Planting depth varies, so the bud union may be above, at or below the soil.",
+        "confidence": "Moderate"
+      }
+    ],
+    "photo_limit": "A photo can't show where a shoot starts, especially under the soil. I never decide a shoot is a sucker from a photo.",
+    "confirm_question": "Follow the shoot down with your fingers. Does it start below the bud union, or at or above it?",
+    "confirm_label": "Below the bud union",
+    "doesnt_match_label": "At or above the bud union",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": "That's your rose's own new cane. Keep it — the rose's own basal canes are valuable. It's considered in the framework step.",
+    "not_sure_guidance": "That's alright. It's easy to confuse these, even for experienced gardeners. Look again at where the shoot starts, on the plant, not in a photo.",
+    "any_more_question": "Can you see any more shoots like this coming from the base?",
+    "comparison_images": [],
+    "sucker_steps": {
+      "hasShoot": "Is there a shoot coming from the base of your rose, or from the ground near it?",
+      "unionVisible": "Can you see the bud union — the knobbly join near the base where your rose was grafted?",
+      "noUnion": "Then I won't call it a sucker. The union may just be buried. If you like, gently clear a little soil and look again — otherwise leave the shoot, and ask experienced local help if you're concerned.",
+      "ownRoot": "If you know your rose grows on its own roots (it wasn't grafted), shoots from the base are the same rose, so none is a sucker — keep them.",
+      "supporting": "In the growing season only, these can help you look, but never decide on their own: sucker leaves are often paler or smaller or have a different number of leaflets (though the \"seven leaflets\" rule isn't reliable); sucker flowers differ from your rose's; suckers are often unusually vigorous, straight and tall."
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-SUCKERS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

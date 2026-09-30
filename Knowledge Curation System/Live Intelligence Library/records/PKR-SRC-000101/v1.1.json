@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000101",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Chicago Botanic Garden — Pruning Mature Roses?",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-2 (Low)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-14 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-32 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication (public garden)",
+    "identity": "Chicago Botanic Garden, Karen Zaworski (with Tom Soulsby), \"Pruning Mature Roses?\"; web address <https://www.chicagobotanic.org/plant-information/smart-gardener/pruning-mature-roses>, accessed 29 September 2026; FRD code CBG",
+    "url": "https://www.chicagobotanic.org/plant-information/smart-gardener/pruning-mature-roses",
+    "register_code": null,
+    "relevance": "Supports AF-2, AF-6, AF-8, AF-14, AF-16. Verification: Both quotes found."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-WEAKCONGESTED-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

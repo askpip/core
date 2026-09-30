@@ -14,6 +14,18 @@ Git provides the complete technical history of the repository. This changelog re
 
 ### Added
 
+- **Live Intelligence Library built, and KIT's role written down (1 October 2026).** At Shaphan's direction, with the form of the LIL left to the implementer.
+  - **The live LIL** is the Supabase table `public.lil_pkr`.
+    - At most one Published version per PKR; superseded versions are kept.
+    - The app can read Published rows only and can't write.
+    - Only KIT publishes, through `lil_publish_from_git(<commit>)`, which loads a pinned commit's `lil_bundle.json`. Each publish is logged in `lil_publish_log`.
+    - This replaces the empty placeholder table `public.pkr`.
+  - **The repository mirror** is `Knowledge Curation System/Live Intelligence Library/`.
+    - One reviewed JSON file per record version: 208 records, covering SGT-1–3, OBS/DEC-1–7, CGD-1–6, DEF-1–5 and SRC-1–180.
+    - The standard-library build tool `tools/build_lil.py` validates records, generates the bundle, manifest and app snapshot, and checks the database against the repository by content hash.
+  - **The app** reads the live LIL with the snapshot as fallback (`App/src/data/pkr.ts`, `App/src/lib/lil.ts`).
+  - **New KIT Skills:** `AI/Skills/KIT_PKR_Build_Skill.md` (ARC to PKR) and `AI/Skills/KIT_LIL_Publication_Skill.md` (publishing and maintaining the LIL), with `.agents/skills` adapters.
+  - **Drafts for Founder approval:** KIT Operations Manual v0.6 (Chapters 16 and 17 describe the LIL as built; new §10.6) and Loading Guide v0.11 (routes KIT work to the new Skills).
 - **Rose type asked once, in Add a plant (29 September 2026).**
   - **Where it's saved:** a new `rose_type` column (PKR-SGT-000003 answers). This change and the `'none-remaining'` outcome value are both applied to Supabase.
   - **Add a plant:** asks the approved rose-type question after the nursery label. The old question that asked for the variety name now says "Do you know its variety name?".

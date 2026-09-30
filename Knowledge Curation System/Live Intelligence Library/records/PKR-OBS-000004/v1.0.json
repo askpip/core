@@ -1,0 +1,89 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000004",
+  "version": "1.0",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Damaged growth",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000009",
+      "PKR-SRC-000011",
+      "PKR-SRC-000012",
+      "PKR-SRC-000022",
+      "PKR-SRC-000049",
+      "PKR-SRC-000062",
+      "PKR-SRC-000068",
+      "PKR-SRC-000069",
+      "PKR-SRC-000070",
+      "PKR-SRC-000073",
+      "PKR-SRC-000074",
+      "PKR-SRC-000076",
+      "PKR-SRC-000078",
+      "PKR-SRC-000079",
+      "PKR-SRC-000080",
+      "PKR-SRC-000081",
+      "PKR-SRC-000082",
+      "PKR-SRC-000083",
+      "PKR-SRC-000084",
+      "PKR-SRC-000085",
+      "PKR-SRC-000086",
+      "PKR-SRC-000089"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000004"
+      }
+    ],
+    "preserved_uncertainty": "Causes aren't equally evidenced: sunscald rests on one source, and rodent and snow damage on one each (AF-2). No test exists for a split that isn't visible from outside (AF-6). Experts themselves disagree on whether canker can be diagnosed from a photo (C-3), so Pip always states its confidence. Sources are UK, US and Australian.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "damaged-growth",
+    "feature": "Damaged growth",
+    "journey_order": 2,
+    "look_for": "Now let's look for damaged growth — canes that are injured or diseased but not simply dead.",
+    "criteria": [
+      {
+        "text": "Canker: tan to purplish-brown sunken patches with cracking edges, tiny black dots, or dieback above a patch that rings the cane.",
+        "confidence": "High"
+      },
+      {
+        "text": "Frost or winter injury: browned or blackened tips and discoloured canes. Confirming it needs a cut into the pith.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Physical damage: a visibly broken cane, or worn, rubbed bark where canes touch.",
+        "confidence": "Low"
+      },
+      {
+        "text": "Borer: a new tip that suddenly wilts, an entry hole, or slight swelling. A hole in the end of an old pruning cut is often a harmless wasp nest.",
+        "confidence": "Low"
+      },
+      {
+        "text": "Not damage: mossy or spiny insect galls are generally harmless, and red, purple or yellow spots on young canes can be their normal colour.",
+        "confidence": "Moderate"
+      }
+    ],
+    "photo_limit": "A photo can show outside signs, but not what's happening inside the cane. If it's unclear, look closely at the plant rather than taking another photo.",
+    "confirm_question": "Find that cane on your rose. Can you see damage like this?",
+    "confirm_label": "Yes, I can see damage",
+    "doesnt_match_label": "No — it's not damaged",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": null,
+    "not_sure_guidance": "Look closely at that spot on the plant itself, not at a photo.",
+    "any_more_question": "Can you see any more damaged stems?",
+    "comparison_images": []
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-DAMAGEDGROWTH-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

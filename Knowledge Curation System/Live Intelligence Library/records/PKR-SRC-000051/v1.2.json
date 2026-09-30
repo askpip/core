@@ -1,0 +1,41 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000051",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Texas A&M AgriLife Extension — Follow Proper Pruning Techniques",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "General pruning text with a rose section.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-23 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-26 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (general, with a rose section)",
+    "identity": "Texas A&M AgriLife Extension, Douglas F. Welsh and Everett Janne, \"Follow Proper Pruning Techniques\" (rev. Nov 2008); FRD code TAMK; web address <https://aggie-horticulture.tamu.edu/earthkind/landscape/proper-pruning-techniques/>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://aggie-horticulture.tamu.edu/earthkind/landscape/proper-pruning-techniques/",
+    "register_code": null,
+    "relevance": "Instructs removing one of two rubbing canes; gives the outward-bud instruction."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

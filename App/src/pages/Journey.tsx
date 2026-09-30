@@ -22,6 +22,7 @@ import {
   CARE_DISCLOSURE,
   DORMANCY_GATE,
   MAKING_THE_CUT,
+  RECENTLY_PLANTED_GATE,
   ROSE_TYPE_GATE,
   SUCKER_REMOVAL,
   SUCKER_STEPS,
@@ -80,11 +81,6 @@ const SAFETY_ITEMS: SafetyItem[] = [
   { label: 'The rose is safely accessible' },
 ]
 
-const FALLBACK_QUESTIONS: { key: keyof RecentlyPlantedFallbackSignals; label: string }[] = [
-  { key: 'activeNewGrowth', label: 'Is it putting out active new growth right now?' },
-  { key: 'caneCountAboveBaseline', label: 'Does it have noticeably more canes than a newly bought rose (more than about 3)?' },
-  { key: 'baseFeelsFirm', label: 'Does the base feel firmly rooted when you gently test it?' },
-]
 
 type Phase =
   | 'safety'
@@ -156,7 +152,7 @@ export function Journey() {
   const [history, setHistory] = useState<Snapshot[]>([])
 
   const uncheckedCount = checked.filter((v) => !v).length
-  const fallbackComplete = FALLBACK_QUESTIONS.every((q) => fallbackSignals[q.key] !== undefined)
+  const fallbackComplete = RECENTLY_PLANTED_GATE.fallbackQuestions.every((q) => fallbackSignals[q.key] !== undefined)
   const recentlyPlantedRestricted = gateResult?.status === 'restricted'
   const dormancyPassed = dormancyAnswer ? evaluateDormancy(dormancyAnswer) === 'passes' : true
   const limitedSession = recentlyPlantedRestricted || !dormancyPassed
@@ -590,16 +586,16 @@ export function Journey() {
                 {roseType === 'grandiflora' && <>{ROSE_TYPE_GATE.grandifloraNote} </>}
                 I don't want to guide you into pruning a rose that isn't ready for it yet.
                 {project.plantedWhen && <> You mentioned it was planted "{project.plantedWhen}" — I'd rather double-check.</>}{' '}
-                Has your {roseName} been growing in this spot for about three years or more?
+                {RECENTLY_PLANTED_GATE.question}
               </ChatBubble>
               <ResponseBubble showAskField>
                 <div className="flex flex-col gap-2">
-                  <Button onClick={() => choosePrimary('established')}>Yes, three years or more</Button>
+                  <Button onClick={() => choosePrimary('established')}>{RECENTLY_PLANTED_GATE.answers.established}</Button>
                   <Button variant="secondary" onClick={() => choosePrimary('recent')}>
-                    No, it's more recent than that
+                    {RECENTLY_PLANTED_GATE.answers.recent}
                   </Button>
                   <Button variant="secondary" onClick={() => choosePrimary('unknown')}>
-                    I'm not sure
+                    {RECENTLY_PLANTED_GATE.answers.unknown}
                   </Button>
                 </div>
               </ResponseBubble>
@@ -608,10 +604,10 @@ export function Journey() {
 
           {phase === 'planted-fallback' && (
             <>
-              <ChatBubble>That's alright — plenty of gardeners aren't sure. Let's check three signs together.</ChatBubble>
+              <ChatBubble>{RECENTLY_PLANTED_GATE.fallbackIntro}</ChatBubble>
               <ResponseBubble showAskField>
                 <div className="flex flex-col gap-3">
-                  {FALLBACK_QUESTIONS.map((q) => (
+                  {RECENTLY_PLANTED_GATE.fallbackQuestions.map((q) => (
                     <div key={q.key} className="rounded-xl bg-pip-bg px-4 py-3">
                       <p className="mb-2 text-sm">{q.label}</p>
                       <div className="flex gap-2">

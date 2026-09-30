@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000042",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Heritage Roses in Australia — Identifying Roses",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Concerns older/unnamed roses; applies by analogy.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-20 (Moderate)",
+      "ARC-BUSHROSE-ROSETYPE-01, AF-24 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "Heritage Roses in Australia, \"Identifying Roses\", https://www.heritageroses.org.au/articles/identifying-roses/, accessed 27 September 2026 (FRD code HRA)",
+    "url": "https://www.heritageroses.org.au/articles/identifying-roses/",
+    "register_code": null,
+    "relevance": "Describes identifying an unlabelled rose as difficult and recommends taking it to a rosarian."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

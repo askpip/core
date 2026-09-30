@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000115",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Arizona Cooperative Extension, Yavapai County — Roses (presentation)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-36 (Moderate (visual marker only))",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-37 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "University of Arizona Cooperative Extension, Yavapai County, Phyllis Jiacalone, \"Roses\" (presentation, Feb 2021); web address <https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/RosePresentationZoomFeb2021.pdf>, accessed 29 September 2026; FRD code UA-YAV-ROSES",
+    "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/RosePresentationZoomFeb2021.pdf",
+    "register_code": null,
+    "relevance": "Supports AF-36, AF-37."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PRUNINGFRAMEWORK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

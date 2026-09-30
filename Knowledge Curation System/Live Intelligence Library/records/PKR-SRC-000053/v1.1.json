@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000053",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Arkansas Extension — Homeowner's Guide to Pruning Ornamental Trees (FSA6149)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "General shrub text; same institution as UAEX, so not independent of it.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-6 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (general)",
+    "identity": "University of Arkansas Cooperative Extension, James A. Robbins, \"Homeowner's Guide to Pruning Ornamental Trees\" (FSA6149, Aug 2017; recorded in the FRD under the incorrect title \"Pruning Landscape Trees and Shrubs\"); FRD code UAEXFSA; web address <https://www.uaex.uada.edu/publications/pdf/FSA-6149.pdf>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://www.uaex.uada.edu/publications/pdf/FSA-6149.pdf",
+    "register_code": null,
+    "relevance": "Defines a removal cut (\"removes a branch back to its point of origin\") and separately lists crossing branches as a structural problem. It does not itself connect the two (Source Register addendum §3.2)."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

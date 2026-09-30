@@ -1,0 +1,57 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000013",
+  "version": "1.6",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "American Rose Society — Basic Pruning Principles",
+  "common": {
+    "applies_to": "Bush rose; dead-wood identification and removal",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, AF-1 (High) — pith colour",
+      "ARC-BUSHROSE-DEADWOOD-01, AF-2 (Moderate) — external bark colour",
+      "ARC-BUSHROSE-DEADWOOD-01, AF-3 (Moderate) — dormant bud presence",
+      "ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-13 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-10 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-41 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-24 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-35 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-19 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication (American Rose Society)",
+    "identity": "American Rose Society, \"Basic Pruning Principles,\" https://rose.org/basic-pruning-principles/, accessed during FRD-BUSHROSE-DEADWOOD-01 research",
+    "url": "https://rose.org/basic-pruning-principles/",
+    "register_code": null,
+    "relevance": "The rose-specialist society source; corroborates all three primary identification signals plus the cut-back rule."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

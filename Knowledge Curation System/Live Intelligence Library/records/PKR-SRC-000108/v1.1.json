@@ -1,0 +1,40 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000108",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Red Butte Garden — How to Prune Roses",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication (public garden)",
+    "identity": "Red Butte Garden (Utah), Cheryl Underwood and Crystal Kim, \"How to Prune Roses\"; web address <https://redbuttegarden.org/gardening-information/how-to-prune-roses/>, accessed 29 September 2026; FRD code RBG",
+    "url": "https://redbuttegarden.org/gardening-information/how-to-prune-roses/",
+    "register_code": null,
+    "relevance": "Supports AF-7, AF-12, AF-13, AF-14, AF-17."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PRUNINGFRAMEWORK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

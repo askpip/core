@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000008",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Missouri Extension — Start your shears, it's pruning time",
+  "common": {
+    "applies_to": "Bush rose; dead-wood removal",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Contains no diagnostic (identification) content — general seasonal pruning guidance only.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Missouri)",
+    "identity": "University of Missouri Extension, Thomas, \"Start your shears, it's pruning time,\" https://extension.missouri.edu/news/start-your-shears-its-pruning-time, accessed during FRD-BUSHROSE-DEADWOOD-01 research",
+    "url": "https://extension.missouri.edu/news/start-your-shears-its-pruning-time",
+    "register_code": null,
+    "relevance": "Corroborates the cut-back rule only; does not support any identification (diagnostic) finding."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

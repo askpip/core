@@ -1,0 +1,39 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000149",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Treloar Roses — Suckers",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-2 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-17 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-21 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-24 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial",
+    "identity": "Treloar Roses, \"Suckers\", date not shown. Commercial rose nursery, Australia.; web address <https://www.treloarroses.com.au/Suckers-Roses>, accessed 29 September 2026; register code TRE",
+    "url": "https://www.treloarroses.com.au/Suckers-Roses",
+    "register_code": "TRE",
+    "relevance": "Supports AF-2, AF-6, AF-7, AF-13, AF-17, AF-18, AF-21, AF-24."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SUCKERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

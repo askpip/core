@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000171",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Yates Australia — How to Care for Your Roses in Summer",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-5 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial",
+    "identity": "Yates Australia (commercial), \"How to Care for Your Roses in Summer\". No date shown.; web address <https://www.yates.com.au/garden-hub/summer-rose-care/>, accessed 29 September 2026; register code YAT-AU",
+    "url": "https://www.yates.com.au/garden-hub/summer-rose-care/",
+    "register_code": "YAT-AU",
+    "relevance": "Supports AF-5."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

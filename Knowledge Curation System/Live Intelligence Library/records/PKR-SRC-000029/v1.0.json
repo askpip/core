@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000029",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Marin Rose Society (Nanette Londeree) — Pruning Roses",
+  "common": {
+    "applies_to": "Bush rose; recently planted / restraint period, and (documented, not operationalised) first-year light shaping",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not an institutional source. Distinct article from PKR-SRC-000031 (also Marin Rose Society/Londeree, \"Before You Buy New Roses\") — different URL, different content, treated as a separate source per this project's established practice (see PKR-SRC-000004/000016 for the equivalent Oregon State University precedent).",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-RECENTPLANT-01, AF-1 (Moderate) — restraint period for full pruning; explicitly exempts dead-wood removal from the newly-planted restriction",
+      "ARC-BUSHROSE-RECENTPLANT-01, AF-4 (Low, documented, not operationalised) — first-year roses may be pruned lightly"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication (rose society; named Master Rosarian author)",
+    "identity": "Marin Rose Society, Nanette Londeree (Master Rosarian), \"Pruning Roses,\" https://www.marinrose.org/care-basics/pruning-roses/, accessed during FRD-BUSHROSE-RECENTPLANT-03 research",
+    "url": "https://www.marinrose.org/care-basics/pruning-roses/",
+    "register_code": null,
+    "relevance": "The only source found that explicitly exempts dead-wood removal from the newly-planted pruning restriction, and separately addresses light first-year shaping."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-RECENTPLANT-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

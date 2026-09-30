@@ -1,0 +1,62 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SGT-000002",
+  "version": "1.0",
+  "pkr_type": "suitability_gate",
+  "status": "Published",
+  "title": "Recently planted gate — is the rose established enough for full pruning guidance?",
+  "common": {
+    "applies_to": "Established or recently planted bush rose; prerequisite check, before the five non-dead-wood pruning observations proceed. Does not restrict dead-wood removal (see §4).",
+    "supporting_sources": [
+      "PKR-SRC-000025",
+      "PKR-SRC-000026",
+      "PKR-SRC-000027",
+      "PKR-SRC-000028",
+      "PKR-SRC-000029",
+      "PKR-SRC-000030",
+      "PKR-SRC-000031",
+      "PKR-SRC-000032"
+    ],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "AF-1 (Moderate): the ~3-year threshold is an approximate range from the strongest available source, not a precise, validated figure; RHS's shorter \"first winter\" guidance remains unreconciled (ARC §5). AF-2 (Low): the fallback signals are unvalidated in combination and may not apply equally across own-root and grafted roses.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "question": "Do you know approximately when this rose was planted? If so, has it been growing in this spot for about three years or more?",
+    "answers": {
+      "established": "Yes, three years or more",
+      "recent": "No, it's more recent than that",
+      "unknown": "I'm not sure"
+    },
+    "answer_confidence": "Moderate",
+    "fallback_intro": "That's alright — plenty of gardeners aren't sure. Let's check three signs together.",
+    "fallback_questions": [
+      {
+        "key": "activeNewGrowth",
+        "label": "Is it putting out active new growth right now?"
+      },
+      {
+        "key": "caneCountAboveBaseline",
+        "label": "Does it have noticeably more canes than a newly bought rose (more than about 3)?"
+      },
+      {
+        "key": "baseFeelsFirm",
+        "label": "Does the base feel firmly rooted when you gently test it?"
+      }
+    ],
+    "fallback_confidence": "Low",
+    "fallback_rule": "all_three_support_established",
+    "restricted_reason_recent": "This rose hasn't been in the ground long enough yet for the full check, so we'll only look at dead wood today.",
+    "restricted_reason_fallback": "We can't confirm this rose is established enough yet, so we'll only look at dead wood today, to stay safe.",
+    "exempt_observations": [
+      "PKR-OBS-000001"
+    ]
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SGT-BUSHROSE-RECENTPLANT-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

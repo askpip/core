@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000106",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Patterson et al. (2011), Effects of Photographic Distance on Tree Crown Attributes",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "The abstract reads \"Two-thirds of the repeated computations had absolute differences of less than 1%, and all others did not exceed 5%.\" The dossier's quoted wording is a close paraphrase, not verbatim.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-10 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Scientific paper (peer-reviewed)",
+    "identity": "Mason F. Patterson, P. Eric Wiseman, Matthew F. Winn, Sang-mook Lee and Philip A. Araman, \"Effects of Photographic Distance on Tree Crown Attributes Calculated Using UrbanCrowns Image Analysis Software\", *Arboriculture & Urban Forestry* 37(4):173–179 (Jul 2011); web address <https://auf.isa-arbor.com/content/37/4/173>, accessed 29 September 2026; FRD code Patterson11",
+    "url": "https://auf.isa-arbor.com/content/37/4/173",
+    "register_code": null,
+    "relevance": "Supports AF-10. Verification: The abstract reads \"Two-thirds of the repeated computations had absolute differences of less than 1%, and all others did not exceed 5%.\" The dossier's quoted wording is a close paraphrase, not verbatim."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-WEAKCONGESTED-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000010",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "LSU AgCenter — Still Waiting for Leaves?",
+  "common": {
+    "applies_to": "General woody ornamental (not rose-specific); dead-wood identification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "General woody-plant guidance, not rose-specific — one of the reasons AF-4 (Low confidence) is flagged in Project_Backlog.md for a rose-specific follow-up source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, AF-4 (Low) — stem flexibility/brittleness"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (LSU AgCenter)",
+    "identity": "LSU AgCenter, \"Still Waiting for Leaves?...,\" https://www.lsuagcenter.com/articles/page1747856424360, accessed during FRD-BUSHROSE-DEADWOOD-01 research",
+    "url": "https://www.lsuagcenter.com/articles/page1747856424360",
+    "register_code": null,
+    "relevance": "Sole current source for the flexibility signal; general (not rose-specific), which is why AF-4 carries Low confidence."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

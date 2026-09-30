@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000163",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Chicago Botanic Garden — Deadheading and Pruning Roses",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-15 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Chicago Botanic Garden, \"Deadheading and Pruning Roses\". No date shown.; web address <https://www.chicagobotanic.org/plant-information/deadheading-and-pruning-roses>, accessed 29 September 2026; register code CBG",
+    "url": "https://www.chicagobotanic.org/plant-information/deadheading-and-pruning-roses",
+    "register_code": "CBG",
+    "relevance": "Supports AF-1, AF-15."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

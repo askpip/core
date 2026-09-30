@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000030",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Spring Hill Nursery — How Roses are Sized and Graded",
+  "common": {
+    "applies_to": "Bush rose; establishment signals when planting date is unknown",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "A commercial nursery grading standard (what is sold as new stock), not horticultural research on post-planting establishment.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-RECENTPLANT-01, AF-2 (Low) — observable establishment signals"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial nursery publication (stated grading standard)",
+    "identity": "Spring Hill Nursery, \"How Roses are Sized and Graded,\" https://springhillnursery.com/pages/about_rose_grading, accessed during FRD-BUSHROSE-RECENTPLANT-02 research",
+    "url": "https://springhillnursery.com/pages/about_rose_grading",
+    "register_code": null,
+    "relevance": "Establishes the roughly-three-cane baseline for a newly purchased Grade #1 rose, the anchor point AF-2's cane-count signal is built from."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-RECENTPLANT-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000103",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Iowa State University Extension — How Coins Help with Digital Diagnosis",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Quote found verbatim. The dossier recorded the title descriptively.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-9 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Iowa State University Extension, Donald Lewis, \"How Coins Help with Digital Diagnosis\" (24 Jul 2015); web address <https://yardandgarden.extension.iastate.edu/article/2015/07-24/coins.htm>, accessed 29 September 2026; FRD code ISU-COIN",
+    "url": "https://yardandgarden.extension.iastate.edu/article/2015/07-24/coins.htm",
+    "register_code": null,
+    "relevance": "Supports AF-9. Verification: Quote found verbatim. The dossier recorded the title descriptively."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-WEAKCONGESTED-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

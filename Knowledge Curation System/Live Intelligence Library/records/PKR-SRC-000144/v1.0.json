@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000144",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "ABC Gardening Australia — Fixing Suckering Roses",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-21 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-23 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "ABC Gardening Australia (Millie Ross), \"Fixing Suckering Roses\", 19 June 2020. Public broadcaster, Australia.; web address <https://www.abc.net.au/gardening/how-to/fixing-suckering-roses/12368198>, accessed 29 September 2026; register code GA-2020",
+    "url": "https://www.abc.net.au/gardening/how-to/fixing-suckering-roses/12368198",
+    "register_code": "GA-2020",
+    "relevance": "Supports AF-21, AF-23."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SUCKERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000136",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UGA Extension (Cobb County) — Rose Maintenance Guide and Schedule",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "September fertilising; October \"Stop deadheading\"; mound \"(12–18 inches) after second hard frost\". Branded products excluded, as the dossier recorded. The mound height (12–18 inches) is higher than F9's approximately 10–12; the finding is unchanged.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-BASICCARE-01, F4 (High (pattern))",
+      "ARC-BUSHROSE-BASICCARE-01, F5 (High (pattern))",
+      "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Georgia)",
+    "identity": "UGA Extension, Cobb County ANR, \"Rose Maintenance Guide and Schedule\" (revised 11 Mar 2016); web address <https://extension.uga.edu/content/dam/extension-county-offices/cobb-county/anr/Rose%20Maintenance%20Guide%20and%20Schedule.pdf>, accessed 29 September 2026; register code UGA-COBB",
+    "url": "https://extension.uga.edu/content/dam/extension-county-offices/cobb-county/anr/Rose%20Maintenance%20Guide%20and%20Schedule.pdf",
+    "register_code": "UGA-COBB",
+    "relevance": "Supports F4, F5, F9."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-BASICCARE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000099",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UC Master Gardeners San Luis Obispo County — Pruning Rose Bushes",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-17 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-18 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "UC Master Gardeners of San Luis Obispo County, Lisa Mowery, \"Pruning Rose Bushes\" (updated 17 Mar 2026); web address <https://ucanr.edu/site/uc-master-gardeners-san-luis-obispo-county/pruning-rose-bushes>, accessed 29 September 2026; FRD code UCANR-SLO",
+    "url": "https://ucanr.edu/site/uc-master-gardeners-san-luis-obispo-county/pruning-rose-bushes",
+    "register_code": null,
+    "relevance": "Supports AF-17, AF-18. Verification: Quotes found: gauntlet-style gloves and safety glasses; \"In hot summer areas, leave some interior growth to shade the graft and prevent sunscald\"."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-WEAKCONGESTED-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-DEF-000004",
+  "version": "1.0",
+  "pkr_type": "definition",
+  "status": "Published",
+  "title": "Low confidence — plain-language explanation",
+  "common": {
+    "applies_to": "All plants; system-wide terminology",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (Definition PKR)",
+    "supporting_references": [
+      "Evidence Assessment Standard v1.4 §5.4"
+    ]
+  },
+  "content": {
+    "term": "Low confidence",
+    "level": "Low",
+    "explanation": "This means the evidence behind this is limited. Treat it as a helpful pointer rather than something to rely on heavily on its own."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-DEF-EVIDENCE-CONFIDENCE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

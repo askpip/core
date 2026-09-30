@@ -7,8 +7,8 @@
 --                                  recorded during a guided journey)
 --   §6.4 Follow-Up              -> public.follow_ups
 --
--- and the PKR (PIP Knowledge Record) table that will eventually hold KIT's
--- published, Founder-approved knowledge (PKR_Standard.md). The `pkr` table is
+-- and (historically) the placeholder PKR table, now replaced by the Live
+-- Intelligence Library, public.lil_pkr (see the LIL section below). The `pkr` table was
 -- included now, empty and locked down, so the RLS boundary that enforces the
 -- KIT Charter's "no self-approval" rule exists from day one — the app's
 -- anon/authenticated roles get read access to published records only, and
@@ -282,19 +282,13 @@ create table if not exists public.plant_photo_log (
 create index if not exists plant_photo_log_profile_id_idx on public.plant_photo_log (profile_id);
 
 -- ---------------------------------------------------------------------------
--- Founder-approved knowledge (KCS output — PKR_Standard.md). Empty for now;
--- KIT will publish into this table once the LIL is actually populated.
+-- Founder-approved knowledge: the Live Intelligence Library (LIL).
+-- Replaced the empty placeholder table public.pkr on 1 October 2026. The full
+-- LIL schema (table public.lil_pkr, public.lil_publish_log, RLS and the
+-- KIT-only function public.lil_publish_from_git) is kept in one place:
+--   Knowledge Curation System/Live Intelligence Library/tools/lil_schema.sql
+-- Applied as migration "lil_create". See AI/Skills/KIT_LIL_Publication_Skill.md.
 -- ---------------------------------------------------------------------------
-
-create table if not exists public.pkr (
-  id uuid primary key default gen_random_uuid(),
-  pkr_type text not null check (
-    pkr_type in ('observation', 'comparison_image', 'decision_logic', 'suitability_gate', 'source', 'definition')
-  ),
-  content jsonb not null,
-  published boolean not null default false,
-  created_at timestamptz not null default now()
-);
 
 -- ---------------------------------------------------------------------------
 -- Row Level Security
@@ -304,7 +298,6 @@ alter table public.bush_rose_profiles enable row level security;
 alter table public.observations enable row level security;
 alter table public.follow_ups enable row level security;
 alter table public.plant_photo_log enable row level security;
-alter table public.pkr enable row level security;
 
 -- Gardeners can only ever see and touch their own rows.
 
@@ -349,8 +342,8 @@ create policy "plant_photo_log_delete_own" on public.plant_photo_log
 -- KIT's "no self-approval" boundary. Writes happen only via the service_role
 -- key, from a Founder-controlled process, never from the app itself.
 
-create policy "pkr_select_published" on public.pkr
-  for select using (published = true);
+-- (The old pkr_select_published policy went with public.pkr; the LIL's
+-- read-Published-only policy is in lil_schema.sql.)
 
 -- ---------------------------------------------------------------------------
 -- Membership: member_profiles (added 22 September 2026)

@@ -1,0 +1,93 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000006",
+  "version": "1.1",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "The main framework to retain",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000002",
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000006",
+      "PKR-SRC-000007",
+      "PKR-SRC-000013",
+      "PKR-SRC-000018",
+      "PKR-SRC-000022",
+      "PKR-SRC-000049",
+      "PKR-SRC-000060",
+      "PKR-SRC-000065",
+      "PKR-SRC-000066",
+      "PKR-SRC-000067",
+      "PKR-SRC-000084",
+      "PKR-SRC-000088",
+      "PKR-SRC-000095",
+      "PKR-SRC-000100",
+      "PKR-SRC-000104",
+      "PKR-SRC-000108",
+      "PKR-SRC-000109",
+      "PKR-SRC-000110",
+      "PKR-SRC-000111",
+      "PKR-SRC-000112",
+      "PKR-SRC-000113",
+      "PKR-SRC-000114",
+      "PKR-SRC-000115",
+      "PKR-SRC-000116",
+      "PKR-SRC-000121"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000006"
+      }
+    ],
+    "preserved_uncertainty": "Sources define \"younger\" differently (AF-9). No finding sets an age in years for \"old\" wood. The approved default treats canes older than about three years as candidates, which is a convention, not a measured fact (C6). No source describes how to spot new basal shoots on a dormant bush (AF-10).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "framework",
+    "feature": "The main framework to retain",
+    "journey_order": 7,
+    "look_for": "Finally, let's choose the framework to keep: the strong canes spread around the base that will form the shape of your rose.",
+    "criteria": [
+      {
+        "text": "Keeper canes: strong, healthy, vigorous canes, generally the younger ones.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Target shape: an open centre, with kept canes spread evenly around the base, like a vase or the spokes of a wheel.",
+        "confidence": "High"
+      },
+      {
+        "text": "Old wood: grey, rough, scaly or crusty bark, sometimes with worn prickles.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "New shoots from the base are a sign of good health and a way to renew the framework.",
+        "confidence": "Low"
+      },
+      {
+        "text": "Keep your rose's own new canes from the base. First check where each starts: a shoot from below the bud union is a sucker.",
+        "confidence": "High"
+      }
+    ],
+    "photo_limit": "A photo can show the outline, but not how vigorous a cane really is, the pith, or the base close up. Check those by hand.",
+    "confirm_question": "Check this cane on your rose, down to the base. Is it a strong framework cane?",
+    "confirm_label": "Yes, it's a strong cane",
+    "doesnt_match_label": "No — it's old, grey or unproductive",
+    "doesnt_match_route": "decide",
+    "doesnt_match_note": null,
+    "not_sure_guidance": "Look at the base close up and gently check the cane.",
+    "any_more_question": "Are there any more canes to check?",
+    "comparison_images": []
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-SUCKERS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

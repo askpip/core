@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000027",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Illinois Extension — Roses are Red, Pruning's for You",
+  "common": {
+    "applies_to": "Bush rose (shrub roses); recently planted / restraint period",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-RECENTPLANT-01, AF-1 (Moderate) — restraint period for full pruning"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Illinois Extension, *A Merry Gardener* blog)",
+    "identity": "University of Illinois Extension, \"Roses are Red, Pruning's for You,\" 24 February 2017, https://extension.illinois.edu/blogs/merry-gardener/2017-02-24-roses-are-red-prunings-you, accessed during FRD-BUSHROSE-RECENTPLANT-03 research",
+    "url": "https://extension.illinois.edu/blogs/merry-gardener/2017-02-24-roses-are-red-prunings-you",
+    "register_code": null,
+    "relevance": "The single institutional (university extension) source directly stating a multi-year threshold — \"pruning will not be required in the first few years of growth... when the shrub is three or more years old, prune out one-third of the oldest canes.\" The strongest individual source for AF-1."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-RECENTPLANT-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000165",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "David Austin Roses — Is It Too Late to Prune Roses in April? Here's What You Need to Know",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-2 (Low)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-17 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial",
+    "identity": "David Austin Roses (commercial), Megan Edmondson, \"Is It Too Late to Prune Roses in April? Here's What You Need to Know\" (8 April 2026).; web address <https://www.davidaustinroses.com/blogs/rose-care/pruning-roses-in-april-heres-what-you-should-know-first>, accessed 29 September 2026; register code DA-APR",
+    "url": "https://www.davidaustinroses.com/blogs/rose-care/pruning-roses-in-april-heres-what-you-should-know-first",
+    "register_code": "DA-APR",
+    "relevance": "Supports AF-2, AF-3, AF-17."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

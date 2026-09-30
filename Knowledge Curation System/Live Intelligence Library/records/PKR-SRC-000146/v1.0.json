@@ -1,0 +1,39 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000146",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "American Rose Society (Satish Prabhu) — Satish Says... Mid-Season Pruning",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-2 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-5 (Low)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-20 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-24 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Satish Prabhu, Master Rosarian, South Carolina Rose Society, \"Satish Says... Mid-Season Pruning\" (2016 Award of Merit article), republished on the American Rose Society website, posted 4 August 2020. Rose society (expert rosarian), US.; web address <https://www.rose.org/single-post/2020/08/04/Satish-Says-Mid-Season-Pruning>, accessed 29 September 2026; register code ARS-SP",
+    "url": "https://www.rose.org/single-post/2020/08/04/Satish-Says-Mid-Season-Pruning",
+    "register_code": "ARS-SP",
+    "relevance": "Supports AF-1, AF-2, AF-4, AF-5, AF-13, AF-18, AF-20, AF-24."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SUCKERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

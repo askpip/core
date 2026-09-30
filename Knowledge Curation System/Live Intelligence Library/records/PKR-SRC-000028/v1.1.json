@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000028",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Fine Gardening (Paul Zimmerman) — When to Prune a Young Rose",
+  "common": {
+    "applies_to": "Bush rose; recently planted / restraint period",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial gardening publication, not an institutional source — lower reliability tier than the extension sources also cited for AF-1.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-RECENTPLANT-01, AF-1 (Moderate) — restraint period for full pruning",
+      "ARC-BUSHROSE-BASICCARE-01, F7 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication (commercial; named, experienced rosarian author)",
+    "identity": "Fine Gardening, Paul Zimmerman, \"When to Prune a Young Rose,\" https://www.finegardening.com/project-guides/pruning/how-soon-can-you-prune-a-young-rose, accessed during FRD-BUSHROSE-RECENTPLANT-01 research",
+    "url": "https://www.finegardening.com/project-guides/pruning/how-soon-can-you-prune-a-young-rose",
+    "register_code": null,
+    "relevance": "States a young rose (planted the previous year) should not be pruned; original nursery canes typically replaced \"by the third year or so.\" Independently converges with the Illinois Extension threshold."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-RECENTPLANT-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

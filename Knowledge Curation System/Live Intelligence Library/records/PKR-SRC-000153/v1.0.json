@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000153",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Monder, Bąbelewski and Sołtan (2023) — Diversity in anatomical features of rose rootstock root necks",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-15 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Scientific paper (peer-reviewed)",
+    "identity": "Monder, M.J., Bąbelewski, P. & Sołtan, S. (2023). \"Diversity in anatomical features of rose rootstock root necks: Rosa canina 'Inermis', 'Pfänder', 'Schmid's Ideal', Rosa laxa Retz. and Rosa multiflora Thunb.\" Scientia Horticulturae 316, 112004. DOI 10.1016/j.scienta.2023.112004. Peer-reviewed, Poland.; web address <https://www.sciencedirect.com/science/article/pii/S0304423823001760>, accessed 29 September 2026; register code MON",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0304423823001760",
+    "register_code": "MON",
+    "relevance": "Supports AF-15."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SUCKERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000012",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Ask Extension / Colorado Master Gardener Program, Denver County — Red/Purple Canes on Rose Bush",
+  "common": {
+    "applies_to": "Bush rose; canker/lookalike conditions",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, AF-5 (Low) — lesion pattern / canker ambiguity",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-10 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (Ask Extension / Colorado Master Gardener Program)",
+    "identity": "Ask Extension / Colorado Master Gardener Program, Denver County, \"Red/Purple Canes on Rose Bush...,\" https://ask.extension.org/kb/faq.php?id=743094, accessed during FRD-BUSHROSE-DEADWOOD-01 research",
+    "url": "https://ask.extension.org/kb/faq.php?id=743094",
+    "register_code": null,
+    "relevance": "Second of two sources for the canker-lookalike caution."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

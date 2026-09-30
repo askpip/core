@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000113",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Colorado State University Extension — Diagnosing Plant Disorders (GardenNotes #102)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-34 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Colorado State University Extension, Whiting and O'Meara (rev. Small, 2017), \"CMG GardenNotes #102: Diagnosing Plant Disorders\"; web address <https://cmg.extension.colostate.edu/Gardennotes/102.pdf>, accessed 29 September 2026; FRD code CSU-DIAG",
+    "url": "https://cmg.extension.colostate.edu/Gardennotes/102.pdf",
+    "register_code": null,
+    "relevance": "Supports AF-34."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PRUNINGFRAMEWORK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

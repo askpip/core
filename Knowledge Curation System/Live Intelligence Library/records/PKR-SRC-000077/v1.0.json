@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000077",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UF/IFAS Extension Okaloosa County — Wait to Prune Cold Injured Landscape Plants",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Quote found: \"Pruning immediately after a freeze will cut away live wood that does not have to be lost.\"",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-14 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "UF/IFAS Extension Okaloosa County, Larry Williams, \"Wait to Prune Cold Injured Landscape Plants\" (14 Feb 2024); web address <https://blogs.ifas.ufl.edu/okaloosaco/2024/02/14/wait-to-prune-cold-injured-landscape-plants/>, accessed 29 September 2026; FRD code UFIFAS-COLD",
+    "url": "https://blogs.ifas.ufl.edu/okaloosaco/2024/02/14/wait-to-prune-cold-injured-landscape-plants/",
+    "register_code": null,
+    "relevance": "Supports AF-14 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quote found: \"Pruning immediately after a freeze will cut away live wood that does not have to be lost.\""
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

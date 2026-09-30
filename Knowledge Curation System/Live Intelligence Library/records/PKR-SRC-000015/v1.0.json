@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000015",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Founder observation — Confirmed Living Wood Is Not Removed",
+  "common": {
+    "applies_to": "Bush rose; dead-wood decision logic",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, §6A Founder observation (Not Applicable — Founder observation, definitional complement) — the \"Leave\" choice for confirmed living wood"
+    ]
+  },
+  "content": {
+    "source_type": "Founder observation",
+    "identity": "Founder direct observation, recorded at ARC-BUSHROSE-DEADWOOD-01 §6A, 2026",
+    "url": null,
+    "register_code": null,
+    "relevance": "Grounds PKR-DEC-000001's \"Leave\" choice as a definitional complement rather than an independently-evidenced claim."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

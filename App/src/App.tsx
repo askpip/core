@@ -1,4 +1,4 @@
-import type { ReactElement } from 'react'
+import { useEffect, useSyncExternalStore, type ReactElement } from 'react'
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthGate } from '@/pages/AuthGate'
 import { NameOnboarding } from '@/pages/NameOnboarding'
@@ -11,6 +11,8 @@ import { NewPlant } from '@/pages/NewPlant'
 import { Journey } from '@/pages/Journey'
 import { PlantProject } from '@/pages/PlantProject'
 import { useAuth } from '@/lib/auth'
+import { lilRevision, loadLiveLil, subscribeLil } from '@/data/pkr'
+import { fetchPublishedLil } from '@/lib/lil'
 import roseBackground from '@/assets/pip/rose-background.jpg'
 
 /** Redirects to the sign-in gate unless there's a live Supabase session. */
@@ -22,6 +24,13 @@ function RequireAuth({ children }: { children: ReactElement }) {
 }
 
 function App() {
+  // The Live Intelligence Library: start on the bundled snapshot, then switch to
+  // the live Published records. Re-render once when they arrive.
+  useSyncExternalStore(subscribeLil, lilRevision)
+  useEffect(() => {
+    loadLiveLil(fetchPublishedLil)
+  }, [])
+
   return (
     <HashRouter>
       {/* Full-bleed on an actual phone — the rounded, bordered "phone mockup" is a desktop-only

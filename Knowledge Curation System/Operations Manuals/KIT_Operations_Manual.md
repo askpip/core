@@ -7,10 +7,10 @@
 **Document Title:** PIP Knowledge Integration Technician (KIT) Operations Manual
 **Volume:** Volume VI – Knowledge Curation System
 **Folder:** 03 – Operations Manuals
-**Version:** 0.5
-**Status:** **Approved**
+**Version:** 0.6
+**Status:** Draft — for Founder approval (Version 0.5 remains the approved text until then)
 **Owner:** The Founders
-**Last Updated:** 29 September 2026
+**Last Updated:** 1 October 2026
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md`
 **Purpose:** To define, at a procedural level, how the PIP Knowledge Integration Technician (KIT) carries out the responsibilities and authority the KIT Charter grants it — retrieving Founder-approved information from the Mother Information Library (MIL), building draft PIP Knowledge Records (PKRs), preparing them for Founder operational review, and publishing and maintaining approved PKRs within the Live Intelligence Library (LIL) — so that any AI instance, bootstrapped from this document chain alone, can perform KIT's work consistently.
@@ -19,6 +19,13 @@
 **Related Documents:** PIP Knowledge Integration Technician (KIT) Charter; PIP Knowledge Record (PKR) Standard; Live Intelligence Library (LIL) Standard; Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Pip Runtime Architecture; PIP Knowledge Integration Workflow; PIP Research Origin Curator (ROC) Operations Manual (structural model for this document); PIP System Identity and Naming Standard (SINS-001).
 
 **Drafting Note:** This is the first version of this Manual. No KIT Operations Manual existed before this draft — the KIT Charter and PKR Standard both anticipated one without it being written. Rather than draft this speculatively, a real dry run was performed first: an AI instance, using only the Charter, the PKR Standard, the LIL Standard, the MIL Standard, the Pip Runtime Architecture and the Knowledge Integration Workflow, attempted to build one real draft Observation PKR from ARC-BUSHROSE-DEADWOOD-01 (`Working/AI Outputs/KIT_Dry_Run_BUSHROSE_DEADWOOD_01.md`). It produced a usable partial draft and stalled at six specific, concrete points. This Manual is written directly against those six stalls, using the same case as its worked example throughout, in the same spirit as how a real research commission on dead-versus-living wood shaped the Founder Review Dossier Standard and the Assessed Finding model earlier in this session. Sections below reference "the dry run" and "Gap 1" through "Gap 6" by number, matching that document.
+
+**Version 0.6 (draft, 1 October 2026):** the Founders asked for KIT's role to be fully defined and working, so that another AI can take it over. They left the form of the LIL to the implementer, asking only that it scale as the library grows. This version:
+- rewrites Chapter 16 (Publishing) and Chapter 17 (Maintaining the LIL) to describe the LIL as built. The live LIL is the Supabase table `public.lil_pkr`, which the app reads (Published rows only). The repository folder `Knowledge Curation System/Live Intelligence Library/` holds one reviewed file per record version. Each publish is pinned to a git commit and checked by content hash;
+- adds §10.6: the LIL records folder is the register of identifiers in use;
+- names the two Skills that carry the working procedure, `AI/Skills/KIT_PKR_Build_Skill.md` and `AI/Skills/KIT_LIL_Publication_Skill.md`.
+
+No rule about what a PKR may contain changes.
 
 **Version 0.5 addition (approved by the Founder 29 September 2026, in chat):** §10.2 adds the type code `CGD` (Care Guidance) for the new Care Guidance PKR type defined in PKR Standard v0.10 §5.7. It follows the same scope-free format, with its own sequence starting at `PKR-CGD-000001`. Nothing else changes.
 
@@ -320,6 +327,10 @@ Per PKR Standard §6, this format required Founder confirmation before binding u
 
 ---
 
+## 10.6 Register of Identifiers in Use
+
+The Live Intelligence Library records folder (`Knowledge Curation System/Live Intelligence Library/records/`) is the register of every identifier that has entered the LIL. Before assigning a new identifier, KIT takes the highest number in use for that type code there and in any unpublished draft package in `Working/AI Outputs/`, and adds one. The working procedure is in `AI/Skills/KIT_PKR_Build_Skill.md` §3.
+
 # Chapter 11 — Partial Completeness and Status Handling
 
 ## 11.1 Purpose
@@ -392,9 +403,23 @@ Where the Founders decline, request amendment, or request the record be held pen
 
 # Chapter 16 — Publishing Approved PKRs
 
-KIT publishes only PKRs that: have received explicit Founder operational approval; have every dependency required by their type (PKR Standard §5) satisfied and itself published; and whose published content is identical in meaning to their approved Founder Review Rendering (PKR Standard §9.3, Chapter 12.3).
+KIT publishes only PKRs that:
+
+- have received explicit Founder operational approval;
+- have every dependency required by their type (PKR Standard §5) satisfied and itself published; and
+- have published content identical in meaning to their approved Founder Review Rendering (PKR Standard §9.3, Chapter 12.3).
 
 A PKR approved for its own content but still blocked on a dependency (Chapter 11) is not published until that dependency is itself published. Its status remains Draft, not Approved for Publication, until then.
+
+**Publishing means entering the Live Intelligence Library**, as follows:
+
+1. **Record file.** KIT writes the approved content as a record file in `Knowledge Curation System/Live Intelligence Library/records/` (format `pip-lil-record/1`).
+2. **Validate.** KIT validates it with the LIL build tool.
+3. **Commit.** KIT commits it to the Core repository.
+4. **Load.** KIT loads that exact commit into the live LIL with the database function `lil_publish_from_git`.
+5. **Verify.** KIT verifies, by content hash, that the live LIL matches the repository.
+
+A PKR is Published only when that verification passes. Until then KIT reports it as approved but not yet live. The step-by-step procedure is `AI/Skills/KIT_LIL_Publication_Skill.md`.
 
 ---
 
@@ -403,6 +428,31 @@ A PKR approved for its own content but still blocked on a dependency (Chapter 11
 # Chapter 17 — Maintaining the Live Intelligence Library
 
 KIT maintains the LIL's codebase structure, identifiers, metadata, version history and inter-PKR relationships, per the LIL Standard's Custodianship section. This includes preserving superseded versions for traceability and never silently overwriting a published PKR (LIL Standard, Information Integrity).
+
+## 17.1 Structure
+
+The LIL has two parts, kept identical.
+
+**The live LIL** is the database table `public.lil_pkr` in the Ask Pip Supabase project.
+
+- It has one row per PKR version: identifier, version, type, status, title, Common Fields, type-specific content, provenance, and the git commit it came from.
+- At most one version of a PKR is Published. Superseded versions remain as Retired, and withdrawn ones as Suspended or Retired.
+- The application may read Published rows only, and cannot write.
+- Every load is recorded in `public.lil_publish_log`.
+
+**The repository mirror** is `Knowledge Curation System/Live Intelligence Library/`.
+
+- One reviewed file per record version, a generated bundle and manifest, and the build tool and schema.
+- The app's offline snapshot, `App/src/data/lil-snapshot.json`, is generated from the same records.
+
+The database was chosen so that retrieval stays fast however large the library grows. The application can load only the records it needs, and newly published knowledge reaches gardeners without an application release. The repository mirror keeps every record reviewable in git.
+
+## 17.2 Integrity Rules
+
+- A published record version is never edited or deleted in either part. A change is a new version (Chapter 18).
+- Only KIT writes to the live LIL, and only through the publish function or SQL generated by the build tool, run by the database owner.
+- After every publish, KIT verifies the live LIL against the repository manifest by content hash before reporting success.
+- A change to the table, publish function or build tool is software work. KIT records it in the schema files and the CHANGELOG.
 
 # Chapter 18 — Managing PKR Revisions and Corrections
 

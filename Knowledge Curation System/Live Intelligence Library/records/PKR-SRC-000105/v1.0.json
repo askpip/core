@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000105",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Clemson HGIC — Tips for Taking Good Photos to Send to Your Extension Agent (HGIC 2368)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-9 (Low)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-10 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Clemson HGIC, Savereno, Johnson and Bowers, \"Tips for Taking Good Photos to Send to Your Extension Agent\" (HGIC 2368, Sep 2021); web address <https://hgic.clemson.edu/factsheet/tips-for-taking-good-photos-to-send-to-your-extension-agent/>, accessed 29 September 2026; FRD code CLE-PHOTO",
+    "url": "https://hgic.clemson.edu/factsheet/tips-for-taking-good-photos-to-send-to-your-extension-agent/",
+    "register_code": null,
+    "relevance": "Supports AF-9, AF-10. Verification: Quote found verbatim."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-WEAKCONGESTED-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

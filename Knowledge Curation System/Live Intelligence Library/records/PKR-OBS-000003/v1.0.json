@@ -1,0 +1,61 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000003",
+  "version": "1.0",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Inward-growing stems",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000007",
+      "PKR-SRC-000013",
+      "PKR-SRC-000022",
+      "PKR-SRC-000049",
+      "PKR-SRC-000051",
+      "PKR-SRC-000060",
+      "PKR-SRC-000061",
+      "PKR-SRC-000062",
+      "PKR-SRC-000065",
+      "PKR-SRC-000066",
+      "PKR-SRC-000067",
+      "PKR-SRC-000068"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000003"
+      }
+    ],
+    "preserved_uncertainty": "Most sources don't treat an inward-growing stem as its own defect; they prevent it by cutting to an outward-facing bud (IG AF-1, Moderate). Only a few name it as something to find and remove, and their standard is a soft judgement (\"not growing in a graceful, natural direction\"). A stem curving toward a gap in the light could be mistaken for inward growth. That's a plausible but unsourced caution, worth bearing in mind, not a rule (IG §6 default). No beginner lookalike list exists (IG §6).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "inward-stem",
+    "feature": "Inward-growing stems",
+    "journey_order": 4,
+    "look_for": "Now let's look for stems growing into the centre of the bush.",
+    "criteria": [
+      {
+        "text": "A stem growing toward the centre of the bush is a candidate. No source gives a more specific sign.",
+        "confidence": "Low"
+      }
+    ],
+    "photo_limit": "One photo has real limits for judging which way a stem grows. Look from more than one side.",
+    "confirm_question": "Check the stem on your rose from more than one side. Is it growing into the centre?",
+    "confirm_label": "Yes, it grows inward",
+    "doesnt_match_label": "No — it doesn't",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": null,
+    "not_sure_guidance": "Take another photo that shows the middle of the bush more clearly, and look again from another side.",
+    "any_more_question": "Can you see any more stems growing inward?",
+    "comparison_images": []
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-STRUCTURAL-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

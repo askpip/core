@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000050",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "American Rose Society — Ten Principles of Rose Pruning (Martin)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Republished by two societies; one text, not two sources.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-6 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society (national)",
+    "identity": "Robert B. Martin Jr. (former ARS President), \"Ten Principles of Rose Pruning\", republished by Nashville Rose Society and Acadiana Rose Society; FRD code ARSTEN; web address <https://www.nashvillerosesociety.org/ten-principals-of-rose-pruning/>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://www.nashvillerosesociety.org/ten-principals-of-rose-pruning/",
+    "register_code": null,
+    "relevance": "Instructs removing crossing canes flush with the bud union or the cane they grow from."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

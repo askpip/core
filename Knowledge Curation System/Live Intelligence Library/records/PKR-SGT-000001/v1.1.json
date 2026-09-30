@@ -1,0 +1,90 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SGT-000001",
+  "version": "1.1",
+  "pkr_type": "suitability_gate",
+  "status": "Published",
+  "title": "Dormancy gate — is the rose in the window for structural pruning?",
+  "common": {
+    "applies_to": "Established bush rose. Prerequisite for structural and whole-bush pruning (PKR-OBS/DEC-000002, 000003, 000005, 000006, and any shortening or shaping of healthy canes). Does not govern removal of wood confirmed dead, damaged or diseased (PKR-DEC-000001, PKR-DEC-000004), which follows the removal-only session.",
+    "supporting_sources": [
+      "PKR-SRC-000002",
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000007",
+      "PKR-SRC-000016",
+      "PKR-SRC-000017",
+      "PKR-SRC-000018",
+      "PKR-SRC-000019",
+      "PKR-SRC-000020",
+      "PKR-SRC-000021",
+      "PKR-SRC-000022",
+      "PKR-SRC-000023",
+      "PKR-SRC-000024",
+      "PKR-SRC-000065",
+      "PKR-SRC-000069",
+      "PKR-SRC-000090",
+      "PKR-SRC-000095",
+      "PKR-SRC-000131",
+      "PKR-SRC-000163",
+      "PKR-SRC-000164",
+      "PKR-SRC-000165",
+      "PKR-SRC-000166",
+      "PKR-SRC-000167",
+      "PKR-SRC-000168",
+      "PKR-SRC-000169",
+      "PKR-SRC-000170",
+      "PKR-SRC-000171",
+      "PKR-SRC-000180"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "AF-3 (Moderate): in mild or warm-winter climates, full leaf loss may not occur and premature bud break is a documented risk — the gardener should judge dormancy by bud state specifically, not by whether leaves are present. A follow-up commission (FRD-BUSHROSE-DORMANCY-02, submitted alongside this package) is testing whether the bud-swell signal itself needs a stated mild-climate exception; this gate's wording will be revised if that research changes the picture.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "question": "Look closely at the dormant buds along your rose's canes. Has active new growth already begun — buds swelling, breaking open, or new leaves emerging anywhere on the plant — or does the plant still appear dormant?",
+    "caveat": "If your climate is mild or unusually warm, judge this by bud state specifically — not by whether the leaves have dropped. In milder climates a rose doesn't always lose all its leaves, and buds can sometimes break earlier than expected.",
+    "answers": {
+      "dormant": "Still dormant — buds are tight and closed, or just beginning to swell; no new leaves have opened anywhere",
+      "growing": "Active new growth is already well underway — leaves have opened and new shoots are clearly growing",
+      "notSure": "Not sure"
+    },
+    "notSureFallback": "That's alright — have another look at the buds specifically, not the leaves: are they still tight and closed, or have any started to swell or open? If you're still not certain after a closer look, the safest choice is to treat the rose as not quite ready yet, and check back in a week or two.",
+    "removalOnly": {
+      "intro": {
+        "text": "Your rose is already growing, so this is not the time for full pruning. Pruning hard now can cost you flowers. But you can still remove wood that is dead, damaged or diseased.",
+        "confidence": "Moderate"
+      },
+      "notSureIntro": "Since we can't be sure your rose is still dormant, we'll leave full pruning for now — check back in a week or two. You can still remove wood that is dead, damaged or diseased today.",
+      "conditions": [
+        {
+          "text": "Remove only the wood you've confirmed. Don't shorten or shape healthy canes today.",
+          "confidence": "Moderate"
+        },
+        {
+          "text": "Go gently and avoid damaging the new leaves and shoots.",
+          "confidence": "Low"
+        },
+        {
+          "text": "Cut back until the pith is white or pale green, exactly as at any other time.",
+          "confidence": "Moderate"
+        },
+        {
+          "text": "For anything that looks like canker or disease, the usual care applies: cut well below the affected part, clean your blades, and bin the prunings.",
+          "confidence": "High"
+        }
+      ],
+      "lateSeason": {
+        "text": "Late in the season (advice only): sources advise against pruning late in the growing season, because it can encourage new growth that winter cold may damage. Diseased wood is the exception — remove it whenever you find it. Sources don't say whether dead (as distinct from diseased) wood is exempt.",
+        "confidence": "High"
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SGT-BUSHROSE-POSTBUDBREAK-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

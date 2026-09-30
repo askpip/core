@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000063",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Iowa State University Extension (Linn County) — rose pruning timing",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Named in the FRD's AF-8 evidence but not in either dossier's source-log table; identity limited to what that evidence records.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-6 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Iowa State University Extension (Linn County), pruning-timing guidance (\"Wait until the leaf buds are a half inch or so long...\"); FRD code ISU-LINN; web address <https://www.extension.iastate.edu/linn/winterizing-roses>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-01` §8, AF-8 evidence",
+    "url": "https://www.extension.iastate.edu/linn/winterizing-roses",
+    "register_code": null,
+    "relevance": "General timing: wait until buds are about half an inch long to tell dead from live wood."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

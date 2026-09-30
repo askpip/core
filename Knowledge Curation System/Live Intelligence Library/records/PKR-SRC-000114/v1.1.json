@@ -1,0 +1,35 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000114",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Texas A&M (Welsh, via San Antonio Express-News) — Roses Part 2: The Mystery of Pruning",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-36 (Moderate (visual marker only))",
+      "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-24 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (syndicated column)",
+    "identity": "Douglas Welsh (Texas A&M), submitted by Lynn Rawe, \"Roses Part 2 – The Mystery of Pruning\", San Antonio Express-News \"Gardening, ETC.\" (6 Feb 2005), archived by Texas A&M AgriLife Bexar County; web address <https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/roses-part-2-the-mystery-of-pruning/>, accessed 29 September 2026; FRD code TAMK-SA",
+    "url": "https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/roses-part-2-the-mystery-of-pruning/",
+    "register_code": null,
+    "relevance": "Supports AF-36."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PRUNINGFRAMEWORK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

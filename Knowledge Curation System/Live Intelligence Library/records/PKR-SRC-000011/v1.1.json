@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000011",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Maryland Extension — Canker on Roses, Shrubs, and Vines",
+  "common": {
+    "applies_to": "Bush rose; canker/lookalike conditions",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, AF-5 (Low) — lesion pattern / canker ambiguity",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-4 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Maryland)",
+    "identity": "University of Maryland Extension, \"Canker on Roses, Shrubs, and Vines,\" https://extension.umd.edu/resource/canker-roses-shrubs-and-vines, accessed during FRD-BUSHROSE-DEADWOOD-01 research",
+    "url": "https://extension.umd.edu/resource/canker-roses-shrubs-and-vines",
+    "register_code": null,
+    "relevance": "One of two sources for the canker-lookalike caution."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -86,6 +86,16 @@ The pruning journey now runs on Published knowledge. `npm run build` (TypeScript
   - for a Hybrid Tea, Floribunda or Grandiflora, shows "Caring for your …" with CGD-000004 and CGD-000006 and the UK/US disclosure (the journal care reference);
   - shows nothing for journal-only roses.
 
+**Live Intelligence Library (1 October 2026).**
+- **What the app reads now.** All horticultural content comes from the LIL, the Supabase table `public.lil_pkr`, Published rows only, loaded at start-up by `App/src/lib/lil.ts`.
+- **Offline fallback.** The committed snapshot `App/src/data/lil-snapshot.json` covers offline use and first paint.
+- **What changed in the code.**
+  - `App/src/data/pkr.ts` is now a loader over LIL records. Its interface to the pages is unchanged.
+  - `pkrSources.ts` is gone; sources now come from the SRC records.
+  - The recently-planted wording now comes from PKR-SGT-000002.
+- **Checked.** The build passes. A content comparison showed identical wording before and after, except that dead wood's source list is now complete: 14 sources instead of 2.
+- **Records.** The records and KIT tooling live in `Knowledge Curation System/Live Intelligence Library/`. See `AI/Skills/KIT_LIL_Publication_Skill.md`.
+
 **Outstanding for the app:**
 
 - **Comparison images** are still a documented gap. The UI says so.
@@ -111,5 +121,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **29 September 2026 (Version 0.2):** Added §3.3, the guided journey wired to Published PKRs: PKR data module, rose-type and interactive dormancy gates, removal-only session, observation loops with the none-remaining resume marker, Decision Logic, Care Guidance and the basic-care branch. The build passes. Recorded as outstanding: the database constraint change, rose type not saved, the journal care reference, and comparison images. §4 updated because the six FRDs are now published.
 
 - **29 September 2026 (Version 0.2, later the same day):** Rose type is now saved on the plant and asked once, in Add a plant. The journey skips the question when a type is saved. The plant page shows and changes the type, and shows basic care for supported types. Both database changes are applied and verified.
+
+- **1 October 2026 (Version 0.2, update):** The app now reads the Live Intelligence Library, with the committed snapshot as its offline fallback.
 
 # End of Document

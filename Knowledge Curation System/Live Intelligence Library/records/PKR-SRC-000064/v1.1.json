@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000064",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Colorado State University Extension / Ask Extension — phased rose pruning",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Same limitation as ISU-LINN: not in the source-log table.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-6 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (question service)",
+    "identity": "Colorado State University Extension / Ask Extension, answer recommending light autumn pruning and structural pruning deferred to spring; FRD code CSU-ASK; web address: Not located (checked 29 September 2026; see Source Register addendum §3). As recorded in `FRD-BUSHROSE-STEMCROSSING-01` §8, AF-8 evidence",
+    "url": null,
+    "register_code": null,
+    "relevance": "General timing: defer structural pruning to spring."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

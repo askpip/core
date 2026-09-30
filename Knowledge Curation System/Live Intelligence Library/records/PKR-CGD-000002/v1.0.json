@@ -1,0 +1,80 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000002",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Making a pruning cut on a bush rose: removing a whole stem, or shortening one back to a bud",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000001",
+      "PKR-SRC-000002",
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000007",
+      "PKR-SRC-000009",
+      "PKR-SRC-000013",
+      "PKR-SRC-000022",
+      "PKR-SRC-000049",
+      "PKR-SRC-000051",
+      "PKR-SRC-000059",
+      "PKR-SRC-000065",
+      "PKR-SRC-000066",
+      "PKR-SRC-000067",
+      "PKR-SRC-000080",
+      "PKR-SRC-000088",
+      "PKR-SRC-000102",
+      "PKR-SRC-000108",
+      "PKR-SRC-000109",
+      "PKR-SRC-000110",
+      "PKR-SRC-000122",
+      "PKR-SRC-000123",
+      "PKR-SRC-000124",
+      "PKR-SRC-000125",
+      "PKR-SRC-000126"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Distance above the bud (C2): most sources say about a quarter inch; a few say up to half an inch. Both are defensible answers to the same tradeoff (too close risks killing the bud; too far risks the stub dying back). All the quarter-inch sources are from the United States. Slant direction (C3): most sources say \"away from the bud\"; a few say \"in the same direction as the bud\", and it's unresolved whether that's the same technique. Whether angle and bud direction matter at all (C11): rose societies in South Australia and South Africa say they matter little, or recommend a straight cut; neither gives a reason. The approved default keeps the majority convention. Sealing (C4, AF-30, AF-35): most sources, including every UK and New Zealand source, don't mention it. Where rose sources recommend it, the reason is to keep cane-boring insects out of the soft pith, not to help the cut heal. General tree research finds that wound dressings don't help healing, which answers a different question. No trial of sealed against unsealed rose canes was found. Stubs (AF-29): five of the nine sources are about dead canes, so whether the rule applies equally to every kind of removal isn't directly addressed. Two kinds of cut (AF-31): only one of the three sources is rose-specific. Outward bud (AF-21): two sources allow an exception for a cane that already spreads sideways.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "removeStem": [
+      {
+        "text": "Cut the stem off where it starts: at the base, at the bud union, or where it joins its parent stem. Don't leave a stub.",
+        "confidence": "Moderate"
+      }
+    ],
+    "shorten": [
+      {
+        "text": "Cut just above a bud that faces outward, away from the centre of the bush.",
+        "confidence": "High"
+      },
+      {
+        "text": "Cut about a quarter of an inch (about 6 mm) above the bud. Up to half an inch is also fine if you'd rather avoid the stub dying back.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Make the cut on a slant, at roughly 45 degrees, not flat.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Slant the cut away from the bud.",
+        "confidence": "Low"
+      }
+    ],
+    "seal": {
+      "text": "On cuts roughly pencil-thick or larger, you can seal the end with wood glue, nail polish or pruning sealer, to keep cane-boring insects out. Thinner cuts don't need it.",
+      "confidence": "Moderate"
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-CUTS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

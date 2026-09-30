@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000179",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Arizona Cooperative Extension — Diagnosing Problems of Roses in the Landscape",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-19 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "University of Arizona Cooperative Extension, Jack Kelly (original by Lucy Bradley), \"Diagnosing Problems of Roses in the Landscape\", AZ1528 (September 2010).; web address <https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1528.pdf>, accessed 29 September 2026; register code AZ1528",
+    "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1528.pdf",
+    "register_code": "AZ1528",
+    "relevance": "Supports AF-13, AF-19."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

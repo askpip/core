@@ -1,0 +1,35 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000058",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Portland Rose Society — Guide to Pruning Roses",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Its tie-break is stated for crowded canes, a closely related case.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-7 (Low)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-16 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society (local)",
+    "identity": "Portland Rose Society, Rich Baer, \"Portland Rose Society Guide to Pruning Roses\" (republished by Gaga's Garden, 5 Apr 2019); FRD code PRS; web address <https://gagasgarden.com/2019/04/portland-rose-society-guide-to-pruning-roses/>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://gagasgarden.com/2019/04/portland-rose-society-guide-to-pruning-roses/",
+    "register_code": null,
+    "relevance": "Says removed canes go entirely back to the bud union or major cane; usually leave the larger of a crowded pair."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

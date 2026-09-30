@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000082",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Illinois — Rose Cane Cankers (RPD No. 626)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-4 (High)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-10 (Low)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-16 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (plant pathology)",
+    "identity": "University of Illinois, \"Report on Plant Disease: Rose Cane Cankers\" (RPD No. 626, May 1990); web address <https://ipm.illinois.edu/diseases/rpds/626.pdf>, accessed 29 September 2026; FRD code ILL626",
+    "url": "https://ipm.illinois.edu/diseases/rpds/626.pdf",
+    "register_code": null,
+    "relevance": "Supports AF-2, AF-4, AF-10, AF-13, AF-15, AF-16 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: All quotes found (spots; fruiting bodies; 2–3 inches below; alcohol/bleach before each cut; burn or haul away). The page credits the department rather than N.R. Pataky."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

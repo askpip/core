@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000172",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Nebraska Extension in Lancaster County — Spring Pruning for Shrub Roses",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-20 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Nebraska Extension in Lancaster County, \"Spring Pruning for Shrub Roses\" (28 March 2021).; web address <https://lancaster.unl.edu/spring-rose-pruning>, accessed 29 September 2026; register code UNL-L",
+    "url": "https://lancaster.unl.edu/spring-rose-pruning",
+    "register_code": "UNL-L",
+    "relevance": "Supports AF-7, AF-20."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

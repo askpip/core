@@ -1,0 +1,82 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000005",
+  "version": "1.0",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Weak or congested growth",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000003",
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000013",
+      "PKR-SRC-000049",
+      "PKR-SRC-000055",
+      "PKR-SRC-000058",
+      "PKR-SRC-000059",
+      "PKR-SRC-000068",
+      "PKR-SRC-000069",
+      "PKR-SRC-000085",
+      "PKR-SRC-000095",
+      "PKR-SRC-000097",
+      "PKR-SRC-000100",
+      "PKR-SRC-000101",
+      "PKR-SRC-000102",
+      "PKR-SRC-000103",
+      "PKR-SRC-000104",
+      "PKR-SRC-000105",
+      "PKR-SRC-000106",
+      "PKR-SRC-000107"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000005"
+      }
+    ],
+    "preserved_uncertainty": "The two sources that put a number on \"pencil thickness\" disagree (about 6 mm versus 10 mm, C-1), so Pip uses no number. Why canes become weak is thinly evidenced; one source links congestion to weak growth, and one links old age to it (AF-2, Low). No source describes weak canes as arching or flopping, so that isn't used as a sign (U-2).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "weak-congested",
+    "feature": "Weak or congested growth",
+    "journey_order": 5,
+    "look_for": "Let's look for weak canes — thinner than a pencil, twiggy or unproductive — and at whether the middle of the bush is crowded.",
+    "criteria": [
+      {
+        "text": "A cane thinner than about a pencil is a candidate weak cane. No number is used.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Twiggy or unproductive growth, with thin tips rather than full, lush canes.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Crowded: the bush is densely packed, especially at ground level, rather than open in the middle.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "A thin cane with brown or reddish thorns may be this season's new growth rather than a weak cane.",
+        "confidence": "Low"
+      }
+    ],
+    "photo_limit": "Without a size reference, thickness can't be judged from a photo — hold a coin or pencil beside the cane. No photo can rule out crowding at the back of the bush.",
+    "confirm_question": "Check the cane against a pencil, and look at the middle of the bush from more than one side. Is it weak, or is the bush crowded?",
+    "confirm_label": "Yes, weak or crowded",
+    "doesnt_match_label": "No",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": null,
+    "not_sure_guidance": "Take a photo with a coin or pencil beside the cane, or look at the middle from another side, then check again.",
+    "any_more_question": "Can you see any more weak canes?",
+    "comparison_images": []
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-WEAKCONGESTED-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

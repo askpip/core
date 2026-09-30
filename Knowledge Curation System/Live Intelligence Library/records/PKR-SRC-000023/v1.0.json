@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000023",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Washington, Elisabeth C. Miller Library — Pruning roses",
+  "common": {
+    "applies_to": "Bush rose; dormancy / timing",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "This source contains an internal disagreement (fall vs. spring pruning within the Pacific Northwest) noted at ARC-BUSHROSE-DORMANCY-01, flagged in Project_Backlog.md as a follow-up to investigate directly rather than leave unresolved.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DORMANCY-01, AF-2 (High) — climate/hemisphere-dependent timing"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication (University of Washington, Elisabeth C. Miller Library)",
+    "identity": "University of Washington, Elisabeth C. Miller Library, \"Pruning roses,\" https://depts.washington.edu/hortlib/pal/pruning-roses, accessed during FRD-BUSHROSE-DORMANCY-01 research",
+    "url": "https://depts.washington.edu/hortlib/pal/pruning-roses",
+    "register_code": null,
+    "relevance": "Corroborates the climate-dependent-timing finding; carries a preserved internal disagreement, noted above rather than smoothed away."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

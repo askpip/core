@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000096",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — How to Garden Safely",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-17 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication",
+    "identity": "Royal Horticultural Society, \"How to Garden Safely\"; web address <https://www.rhs.org.uk/garden-jobs/how-to-garden-safely>, accessed 29 September 2026; FRD code RHS-SAFE",
+    "url": "https://www.rhs.org.uk/garden-jobs/how-to-garden-safely",
+    "register_code": null,
+    "relevance": "Supports AF-17. Verification: Both quotes found (eyes \"inside the canopy\"; long-cuffed gloves for plants with sharp protrusions)."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-WEAKCONGESTED-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000138",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Nebraska Extension (Lancaster County) — Preparing Roses for Winter",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-BASICCARE-01, F11 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Nebraska–Lincoln)",
+    "identity": "Nebraska Extension, Lancaster County, Sarah Browning, \"Preparing Roses for Winter\" (11 Oct 2018); web address <https://lancaster.unl.edu/preparing-roses-winter>, accessed 29 September 2026; register code NEB",
+    "url": "https://lancaster.unl.edu/preparing-roses-winter",
+    "register_code": "NEB",
+    "relevance": "Supports F11."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-BASICCARE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

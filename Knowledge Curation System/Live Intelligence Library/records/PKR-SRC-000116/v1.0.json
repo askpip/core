@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000116",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Houston Rose Society (Baxter Williams) — Pruning Basics",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-36 (Moderate (visual marker only))"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society (newsletter)",
+    "identity": "Houston Rose Society, Baxter Williams, \"Pruning Basics\", *The Houston Rose-Ette* 54(2) (Feb 2017); web address <https://www.houstonrose.org/nwsl0217.pdf>, accessed 29 September 2026; FRD code HRS",
+    "url": "https://www.houstonrose.org/nwsl0217.pdf",
+    "register_code": null,
+    "relevance": "Supports AF-36."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PRUNINGFRAMEWORK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

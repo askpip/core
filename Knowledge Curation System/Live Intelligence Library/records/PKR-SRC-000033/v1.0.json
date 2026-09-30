@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000033",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The New Zealand Rose Society — Rose Finder",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Coverage of New Zealand-available cultivars not established (AF-19); states some roses fit more than one category.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-ROSETYPE-01, AF-19 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society (directory)",
+    "identity": "The New Zealand Rose Society, \"Rose Finder\", https://nzroses.org.nz/rose-finder/, accessed 27 September 2026 (FRD code NZRS-F)",
+    "url": "https://nzroses.org.nz/rose-finder/",
+    "register_code": null,
+    "relevance": "A searchable cultivar directory giving a Type for each listed rose; the verification route for a named cultivar whose type is unknown (R-3). Also omits Grandiflora from its Type list (AF-4)."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

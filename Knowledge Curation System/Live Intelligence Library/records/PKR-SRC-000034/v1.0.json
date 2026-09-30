@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000034",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The New Zealand Rose Society — FAQ",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Given in a pruning answer, not specifically about classification.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-24 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "The New Zealand Rose Society, \"FAQ\", https://nzroses.org.nz/faq/, accessed 27 September 2026 (FRD code NZRS-Q)",
+    "url": "https://nzroses.org.nz/faq/",
+    "register_code": null,
+    "relevance": "Directs an unsure gardener to a local rose society or a pruning demonstration."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-ROSETYPE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

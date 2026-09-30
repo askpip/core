@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000032",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "ForeverYard — How Long Do Shrubs Take to Establish?",
+  "common": {
+    "applies_to": "General woody shrub (not rose-specific); establishment signals when planting date is unknown",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial gardening blog, not rose-specific, lowest reliability tier used in this ARC's source set.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-RECENTPLANT-01, AF-2 (Low) — observable establishment signals"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial gardening publication",
+    "identity": "ForeverYard, Matthew Lewis, \"How Long Do Shrubs Take to Establish?\", 2 May 2025, https://foreveryard.com/how-long-do-shrubs-take-to-establish/, accessed during FRD-BUSHROSE-RECENTPLANT-02 research",
+    "url": "https://foreveryard.com/how-long-do-shrubs-take-to-establish/",
+    "register_code": null,
+    "relevance": "Lists concrete observable establishment signs (new growth, healthy foliage, firm anchorage) and independently converges on a 2–3 year establishment timeframe, corroborating AF-1's restraint period from an unrelated, non-institutional source."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-RECENTPLANT-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

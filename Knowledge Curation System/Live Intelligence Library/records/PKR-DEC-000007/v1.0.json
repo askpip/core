@@ -1,0 +1,131 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-DEC-000007",
+  "version": "1.0",
+  "pkr_type": "decision_logic",
+  "status": "Published",
+  "title": "Rootstock sucker — what to do once confirmed",
+  "common": {
+    "applies_to": "Established grafted Hybrid Tea, Floribunda or provisional Grandiflora rose",
+    "supporting_sources": [
+      "PKR-SRC-000007",
+      "PKR-SRC-000066",
+      "PKR-SRC-000098",
+      "PKR-SRC-000139",
+      "PKR-SRC-000140",
+      "PKR-SRC-000141",
+      "PKR-SRC-000142",
+      "PKR-SRC-000143",
+      "PKR-SRC-000144",
+      "PKR-SRC-000145",
+      "PKR-SRC-000146",
+      "PKR-SRC-000147",
+      "PKR-SRC-000148",
+      "PKR-SRC-000149",
+      "PKR-SRC-000150",
+      "PKR-SRC-000151",
+      "PKR-SRC-000155",
+      "PKR-SRC-000157",
+      "PKR-SRC-000158"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [
+      {
+        "relationship": "governed by",
+        "pkr_id": "PKR-OBS-000007"
+      }
+    ],
+    "preserved_uncertainty": "Sources disagree on tearing versus cutting at the origin, and no trial compares them on roses (C-1; R-4). Sources differ on removing early versus waiting for the first flowers to identify a sucker (C-5); Pip follows removal on confirmed origin. Each precaution rests on a single source (AF-22).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "choices": [
+      {
+        "choice": "cut",
+        "label": "Remove the sucker where it starts",
+        "cutKind": "sucker"
+      },
+      {
+        "choice": "leave",
+        "label": "Leave"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "decision_notes": [
+      {
+        "text": "Suckers draw strength from your rose and, left alone, can take it over.",
+        "confidence": "High"
+      },
+      {
+        "text": "Remove it early, while it's young — it's easier then.",
+        "confidence": "High"
+      },
+      {
+        "text": "Leave: sources advise removing confirmed suckers, because they weaken the rose.",
+        "confidence": "High"
+      },
+      {
+        "text": "If suckers keep coming back after removal, get experienced local help.",
+        "confidence": "Low"
+      }
+    ],
+    "doesnt_match_choices": null,
+    "doesnt_match_notes": null,
+    "not_sure_choices": [
+      {
+        "choice": "leave",
+        "label": "Leave it"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "headline_confidence": "High",
+    "gate_conditions": {
+      "PKR-SGT-000001": "removal_allowed_after_bud_break",
+      "PKR-SGT-000002": "applies",
+      "PKR-SGT-000003": "applies"
+    },
+    "cut_care_guidance": false,
+    "removal_method": [
+      {
+        "text": "Uncover the point where the sucker starts, clearing soil if needed, and remove it right there. Never cut it off at soil level — a sucker cut at the surface grows back.",
+        "confidence": "High"
+      },
+      {
+        "text": "Main method: with gloves on, grip the sucker as close to where it starts as you can and pull or tear it away. Tearing takes the hidden buds at its base with it, which makes regrowth less likely.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Alternative: some sources cut it cleanly, flush at the point where it starts. Sources disagree on which works better; both agree it must go at the origin.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Support the stem with one hand; afterwards refill the soil and firm it gently around the base.",
+        "confidence": "Low"
+      },
+      {
+        "text": "Take care around the base when weeding or digging — root damage is linked with suckering.",
+        "confidence": "Low"
+      }
+    ]
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-SUCKERS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

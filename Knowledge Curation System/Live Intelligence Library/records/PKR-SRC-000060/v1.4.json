@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000060",
+  "version": "1.4",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "NC State Extension — General Pruning Techniques",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "General, not rose-specific.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-4 (Low)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-3 (Low)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-19 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-41 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-40 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (general)",
+    "identity": "NC State Extension, Barbara Fair, \"General Pruning Techniques\" (reviewed 5 Mar 2025); FRD code NCSU; web address <https://content.ces.ncsu.edu/general-pruning-techniques>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://content.ces.ncsu.edu/general-pruning-techniques",
+    "register_code": null,
+    "relevance": "Advises looking over the plant from all sides before pruning."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

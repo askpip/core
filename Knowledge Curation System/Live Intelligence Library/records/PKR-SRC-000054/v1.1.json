@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000054",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Missouri Extension — Pruning Ornamental Trees and Shrubs (G6870)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "General shrub text, not rose-specific.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-6 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (general)",
+    "identity": "University of Missouri Extension, Christopher J. Starbuck, \"Pruning Ornamental Trees and Shrubs\" (G6870, rev. Aug 2007); FRD code MOG; web address <https://extension.missouri.edu/publications/g6870>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://extension.missouri.edu/publications/g6870",
+    "register_code": null,
+    "relevance": "Instructs removing crossing branches with a removal (thinning) cut."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

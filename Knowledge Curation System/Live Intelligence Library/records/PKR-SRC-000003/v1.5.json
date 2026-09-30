@@ -1,0 +1,57 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000003",
+  "version": "1.5",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Illinois Extension — Pruning",
+  "common": {
+    "applies_to": "Bush rose; dead-wood identification and removal",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not Applicable",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, AF-2 (Moderate) — external bark colour",
+      "ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-13 (High)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-20 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-23 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-24 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-15 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Illinois)",
+    "identity": "University of Illinois Extension, \"Pruning,\" https://extension.illinois.edu/roses/pruning, accessed during FRD-BUSHROSE-DEADWOOD-01 research",
+    "url": "https://extension.illinois.edu/roses/pruning",
+    "register_code": null,
+    "relevance": "Corroborates the bark-colour signal and the cut-back rule."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

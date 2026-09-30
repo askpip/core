@@ -1,0 +1,49 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000006",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Preparing a Hybrid Tea, Floribunda or Grandiflora rose for winter",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose (a rose that has passed PKR-SGT-000003), in an area with hard winter frosts",
+    "supporting_sources": [
+      "PKR-SRC-000111",
+      "PKR-SRC-000132",
+      "PKR-SRC-000133",
+      "PKR-SRC-000134",
+      "PKR-SRC-000135",
+      "PKR-SRC-000136",
+      "PKR-SRC-000138"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Winter mounding applies where winters bring hard frosts (F9). Mound heights vary between sources, from 8 to 18 inches, around the common 10–12 (Source Register §3, matter 4). Collars and wraps rest on two sources and are described particularly for climbing roses or exposed sites (F10). All sources are from the US (ARC §5).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Preparing for winter",
+    "label": "If your winters bring hard frosts…",
+    "items": [
+      {
+        "text": "Once the rose has had several hard frosts and gone dormant, mound soil, compost or mulch about 10–12 inches (25–30 cm) high around the base, covering the graft union. Remove the mound in spring once hard frosts have passed.",
+        "confidence": "Very High"
+      },
+      {
+        "text": "For colder or exposed spots, sources also describe a collar of tar paper or wire mesh filled with straw, pine bark or peat moss, or wrapping canes in burlap or evergreen boughs.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Water thoroughly after the first hard frost and before the ground freezes, and clear fallen leaves from around the plant before winter.",
+        "confidence": "Moderate"
+      }
+    ],
+    "disclosure": "This care advice comes mainly from UK and US gardening services. Timings and amounts may differ where you live."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-BASICCARE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

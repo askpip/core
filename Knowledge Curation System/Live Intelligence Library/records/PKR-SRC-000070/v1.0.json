@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000070",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — Robin's pin cushion (rose bedeguar gall)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Both quotes found (\"not harmful to the rose ... no action should be taken\").",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-9 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication",
+    "identity": "Royal Horticultural Society, \"Robin's pin cushion (rose bedeguar gall)\"; web address <https://www.rhs.org.uk/biodiversity/robins-pin-cushion>, accessed 29 September 2026; FRD code RHS-GALL",
+    "url": "https://www.rhs.org.uk/biodiversity/robins-pin-cushion",
+    "register_code": null,
+    "relevance": "Supports AF-9 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Both quotes found (\"not harmful to the rose ... no action should be taken\")."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

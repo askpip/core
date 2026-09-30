@@ -1,0 +1,61 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000001",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Choosing, sharpening and cleaning pruning tools for a bush rose",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000004",
+      "PKR-SRC-000006",
+      "PKR-SRC-000009",
+      "PKR-SRC-000013",
+      "PKR-SRC-000022",
+      "PKR-SRC-000051",
+      "PKR-SRC-000065",
+      "PKR-SRC-000066",
+      "PKR-SRC-000067",
+      "PKR-SRC-000108",
+      "PKR-SRC-000109",
+      "PKR-SRC-000110"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "The thickness at which hand pruners give way to loppers differs between sources: three-quarters of an inch in two rose sources, half an inch in a general woody-plant text (C8). Sources name bypass pruners without giving a reason, and one recommends anvil pruners for dead wood (C9). Sources differ on what to disinfect with and how often, and none cites evidence of effectiveness (C10). No source compares sharp and blunt tools directly; the advice rests on practitioner agreement (AF-27).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Your tools",
+    "label": null,
+    "items": [
+      {
+        "text": "Match the tool to the stem: bypass hand pruners for thin canes, loppers for thicker ones, and a pruning saw for the thickest or oldest canes.",
+        "confidence": "High"
+      },
+      {
+        "text": "Hand pruners are for stems up to about three-quarters of an inch (about 2 cm) thick. Use loppers or a saw above that.",
+        "confidence": "Low"
+      },
+      {
+        "text": "Use bypass (scissor-action) pruners. Anvil pruners are fine for clearing dead wood only.",
+        "confidence": "Approved default"
+      },
+      {
+        "text": "Keep your tools sharp and clean, so each cut is clean and doesn't crush the cane.",
+        "confidence": "High"
+      },
+      {
+        "text": "Wipe the blades with 70 percent alcohol between plants, and after cutting out diseased wood. A sensible precaution, not a strict rule.",
+        "confidence": "Moderate"
+      }
+    ]
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-CUTS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000111",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Cornell Cooperative Extension Rockland County — Rose Care",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-20 (Low)",
+      "ARC-BUSHROSE-BASICCARE-01, F2 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F3 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F7 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Cornell Cooperative Extension, Rockland County, Rocco Lapenta, \"Rose Care\" (rev. Dec 2010); web address <https://rocklandcce.org/resources/rose-care>, accessed 29 September 2026; FRD code CCER",
+    "url": "https://rocklandcce.org/resources/rose-care",
+    "register_code": null,
+    "relevance": "Supports AF-7, AF-15, AF-16, AF-18, AF-20."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PRUNINGFRAMEWORK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

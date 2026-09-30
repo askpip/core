@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000085",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Colorado State University Extension — Digital Photography for Plant Problem Diagnosis or Plant ID",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Quote found: \"a site visit may be needed to diagnose the problem\". The document carries a Boulder County contact, not Douglas County as the dossier records. It is hosted on a CSU county Extension site (\"sam\").",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-8 (Low)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-9 (Low)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-10 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Colorado State University Extension, \"Digital Photography for Plant Problem Diagnosis or Plant ID\"; web address <https://sam.extension.colostate.edu/wp-content/uploads/sites/7/2021/04/Digital-Photography-for-Plant-Problem-Diagnosis-or-Plant-ID-003.pdf>, accessed 29 September 2026; FRD code CSU-PHOTO",
+    "url": "https://sam.extension.colostate.edu/wp-content/uploads/sites/7/2021/04/Digital-Photography-for-Plant-Problem-Diagnosis-or-Plant-ID-003.pdf",
+    "register_code": null,
+    "relevance": "Supports AF-8 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quote found: \"a site visit may be needed to diagnose the problem\". The document carries a Boulder County contact, not Douglas County as the dossier records. It is hosted on a CSU county Extension site (\"sam\")."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-DAMAGEDGROWTH-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

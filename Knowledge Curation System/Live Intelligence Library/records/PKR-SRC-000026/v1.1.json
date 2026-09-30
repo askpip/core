@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000026",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Johnson County K-State Research and Extension, Master Gardeners — Rose Care",
+  "common": {
+    "applies_to": "Bush rose; recently planted / restraint period",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Describes an at-planting cutback and a separate \"established roses\" section, without stating the transition point between them.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-RECENTPLANT-01, AF-1 (Moderate) — restraint period for full pruning",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (K-State Research and Extension, Johnson County Master Gardeners)",
+    "identity": "Johnson County K-State Research and Extension, Master Gardeners, \"Rose Care,\" https://www.johnson.k-state.edu/programs/lawn-garden/agent-articles-fact-sheets-and-more/agent-articles/emg-fact-sheets/roses-docs/Rose%20Care.pdf, accessed during FRD-BUSHROSE-RECENTPLANT-01 research",
+    "url": "https://www.johnson.k-state.edu/programs/lawn-garden/agent-articles-fact-sheets-and-more/agent-articles/emg-fact-sheets/roses-docs/Rose%20Care.pdf",
+    "register_code": null,
+    "relevance": "Indirect support — structurally separates newly planted (at-planting cutback) from established-rose pruning cycles without bridging them, consistent with a distinct restraint period."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-RECENTPLANT-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

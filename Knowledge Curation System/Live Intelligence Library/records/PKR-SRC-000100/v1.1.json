@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000100",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Orange County Rose Society — Pruning a Rose",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "The page asks \"Why, you may ask, should you consider leaving stems smaller than a pencil?\" and then answers it *against* leaving them (thin stems produce ever-thinner stems). The dossier read this as questioning the pencil rule's strictness. See §3.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-41 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "Orange County Rose Society, \"Pruning a Rose\"; web address <https://www.orangecountyrosesociety.org/pruning-a-rose>, accessed 29 September 2026; FRD code OCRS",
+    "url": "https://www.orangecountyrosesociety.org/pruning-a-rose",
+    "register_code": null,
+    "relevance": "Supports AF-5. Verification: The page asks \"Why, you may ask, should you consider leaving stems smaller than a pencil?\" and then answers it *against* leaving them (thin stems produce ever-thinner stems). The dossier read this as questioning the pencil rule's strictness. See §3."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-WEAKCONGESTED-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

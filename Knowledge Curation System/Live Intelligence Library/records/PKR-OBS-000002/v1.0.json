@@ -1,0 +1,65 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000002",
+  "version": "1.0",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Crossing or rubbing stems",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000001",
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000049",
+      "PKR-SRC-000051",
+      "PKR-SRC-000060",
+      "PKR-SRC-000061",
+      "PKR-SRC-000062"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000002"
+      }
+    ],
+    "preserved_uncertainty": "No source describes what a rubbing wound looks like; the rubbing/crossing distinction below is an approved default, not a sourced finding. No beginner lookalike list exists (SC §6). Whether crossing and inward-growing stems usually occur together is unknown (SC §6).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "crossing-stems",
+    "feature": "Crossing or rubbing stems",
+    "journey_order": 3,
+    "look_for": "Next, let's look for stems that cross each other or rub together.",
+    "criteria": [
+      {
+        "text": "A stem crossing another is a candidate. Crossing and rubbing are looked for together.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Bark damage, wear or a flattened face where two stems touch: treat as rubbing.",
+        "confidence": "Approved default"
+      },
+      {
+        "text": "Stems close together with no contact or wear: treat as crossing, not rubbing.",
+        "confidence": "Approved default"
+      }
+    ],
+    "photo_limit": "One photo can't reliably show whether two stems actually touch. Look from several sides.",
+    "confirm_question": "Follow both stems with your hands. Do they cross or touch?",
+    "confirm_label": "Yes, they cross or rub",
+    "doesnt_match_label": "No — they don't",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": null,
+    "not_sure_guidance": "Take another photo from a different angle, and look again from another side.",
+    "any_more_question": "Can you see any more crossing or rubbing stems?",
+    "comparison_images": []
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-STRUCTURAL-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

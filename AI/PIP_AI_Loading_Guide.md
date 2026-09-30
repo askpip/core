@@ -4,16 +4,16 @@
 **Repository:** PIP CORE  
 **Parent Platform:** Plant Intelligence Platform (PIP)  
 **Folder:** AI  
-**Version:** 0.10  
+**Version:** 0.11  
 **Status:** Draft — for Founder approval  
 **Owner:** The Founders  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `AI/PIP_AI_Loading_Guide.md`  
-**Last Updated:** 22 September 2026  
+**Last Updated:** 1 October 2026  
 **Purpose:** To select the minimum current PIP Artificial Intelligence Operating System (PIP AI OS) documents materially required for a task or coherent session.  
 **Authority:** PIP AI OS  
 **Related Documents:** `AGENTS.md`, `AI/PIP_AI_Operations_Manual.md`, `AI/PIP_AI_Constitution.md`
-**Revision Note:** Adds a Loading Index row (§4) routing Garden Shed Office work — composing or approving notices, to-dos, document links, and shed-form documents — to the new `AI/Skills/Garden_Shed_Operations_Skill.md`. Before this amendment, the Loading Index had no entry for Shed work at all; an AI session following this Guide strictly would not have known to consult `Shed/README.md` or any Skill unless it happened to reach the write-back case already covered by `AI/Skills/CORE_Integration_Skill.md` §6.1. Per §10 below and §9 of the CORE Integration Skill, this row shall not be treated as active until `AI/Skills/Garden_Shed_Operations_Skill.md` is itself approved and installed at its permanent location — the two are one coordinated change. No other content changed from Version 0.9.
+**Revision Note:** Version 0.11 (draft, 1 October 2026): the Loading Index (§4) gains two rows routing Knowledge Integration Technician (KIT) work to the new `AI/Skills/KIT_PKR_Build_Skill.md` (building and publishing PKRs from an approved ARC) and `AI/Skills/KIT_LIL_Publication_Skill.md` (publishing to and maintaining the Live Intelligence Library), so another AI can take up KIT's role from this guide alone. Previous (0.10): Adds a Loading Index row (§4) routing Garden Shed Office work — composing or approving notices, to-dos, document links, and shed-form documents — to the new `AI/Skills/Garden_Shed_Operations_Skill.md`. Before this amendment, the Loading Index had no entry for Shed work at all; an AI session following this Guide strictly would not have known to consult `Shed/README.md` or any Skill unless it happened to reach the write-back case already covered by `AI/Skills/CORE_Integration_Skill.md` §6.1. Per §10 below and §9 of the CORE Integration Skill, this row shall not be treated as active until `AI/Skills/Garden_Shed_Operations_Skill.md` is itself approved and installed at its permanent location — the two are one coordinated change. No other content changed from Version 0.9.
 
 ---
 
@@ -76,6 +76,8 @@ Model-specific discovery folders, including `.agents/skills/`, are compatibility
 | Creating or changing repository files, commits, branches or pull requests; synchronising; moving; publishing; approving; or officially integrating controlled assets | `AI/Skills/CORE_Integration_Skill.md`; `Standards/PIP_CORE_Asset_Lifecycle_Standard.md`; any document or domain control governing the affected asset | Current branch, commit and blob evidence is required. Conversation-mode cache does not replace consequential-write checks. |
 | Composing or approving a Garden Shed Office notice; adding, updating or linking a to-do; linking companion documents to a notice; reading, explaining or drafting a `shed-form v1` document; or otherwise reading or writing `shed_items`, `shed_todos`, `shed_item_links` or `shed_form_responses` | `AI/Skills/Garden_Shed_Operations_Skill.md`; `Shed/README.md` for detail beyond that Skill's summary; `AI/Skills/CORE_Integration_Skill.md` §6.1 when the action is writing an approved document back into Core rather than working inside the Shed itself | The Garden Shed's own passphrase-gated identity model is separate from repository access — this row does not, by itself, require `AI/Skills/CORE_Integration_Skill.md` unless the task also changes a repository file. |
 | Safety-relevant horticultural guidance | Current approved operational knowledge and applicable safety or uncertainty controls | General product discussion about future horticultural features is not itself operational guidance. |
+| Knowledge Integration Technician (KIT): building, submitting or publishing PKRs from an approved ARC; assessing the impact of new MIL information on published PKRs | `AI/Skills/KIT_PKR_Build_Skill.md`; `Knowledge Curation System/Charters/KIT_Charter.md`; `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md`; `Knowledge Curation System/Standards/PKR_Standard.md`; the approved ARC | Follow with `AI/Skills/KIT_LIL_Publication_Skill.md` once the Founders approve the package. |
+| KIT: publishing approved PKRs to the Live Intelligence Library (LIL); revising, suspending or retiring LIL records; checking the live LIL against the repository | `AI/Skills/KIT_LIL_Publication_Skill.md`; `Knowledge Curation System/Standards/LIL_Standard.md`; `Knowledge Curation System/Live Intelligence Library/README.md`; `AI/Skills/Verify_Before_Claiming_Skill.md` | Requires database access (Supabase) and a pushed commit. Without them, stop after committing the records and report the LIL as not yet updated. |
 | Knowledge Curation System, Research Origin Curator or Knowledge Integration Technician work | Only the approved Skill, manual, Standard and Context documents governing the requested role and action | Do not load unrelated role documents. |
 | Software or application work | Current source files and only the architecture, standards or Skills materially constraining the requested change | Product conversation alone does not require software controls. |
 

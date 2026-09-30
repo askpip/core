@@ -1,0 +1,57 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000049",
+  "version": "1.5",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Kansas City Rose Society — Pruning Roses",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Its inward-growth wording is a soft, subjective standard (IG AF-2).",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-5 (High)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-2 (Low)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-4 (Low)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-6 (Low)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society (local)",
+    "identity": "Kansas City Rose Society, \"Pruning Roses\" (date not stated); FRD code KCRS; web address <https://www.kansascityrosesociety.org/prune-roses>, accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://www.kansascityrosesociety.org/prune-roses",
+    "register_code": null,
+    "relevance": "Names crossing/rubbing and inward growth as things to remove, gives rubbing's disease-entry reason, and says removal is to the ground or the originating cane."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-STRUCTURAL-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000001",
+  "version": "1.0",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Dead vs. living wood",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000001",
+      "PKR-SRC-000002",
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000007",
+      "PKR-SRC-000008",
+      "PKR-SRC-000009",
+      "PKR-SRC-000010",
+      "PKR-SRC-000011",
+      "PKR-SRC-000012",
+      "PKR-SRC-000013",
+      "PKR-SRC-000014"
+    ],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000001"
+      }
+    ],
+    "preserved_uncertainty": "No Comparison Image PKR exists yet (documented gap, Founder decision 24 August 2026). Pith colour needs a cut and flexibility needs a bend, so neither can be judged from a photo.",
+    "evidence_confidence": "Per claim \u2014 see content"
+  },
+  "content": {
+    "key": "dead-wood",
+    "feature": "Dead versus living wood",
+    "journey_order": 1,
+    "look_for": "Let's look for dead wood. Dead canes are usually brown, grey, black or shrivelled rather than green, and have no plump buds anywhere along them.",
+    "criteria": [
+      {
+        "text": "Bark colour: green suggests living; brown, grey, black or shrivelled suggests dead. Older or bronze canes can mislead.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Buds: plump visible buds suggest living; none anywhere suggests dead.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Sunken patches or lesions may be canker, not routine dead wood.",
+        "confidence": "Low"
+      },
+      {
+        "text": "The surest check is the pith once cut: white or pale green is living; brown, grey or black is dead.",
+        "confidence": "High"
+      },
+      {
+        "text": "A living cane bends; a dead one is brittle and snaps.",
+        "confidence": "Low"
+      }
+    ],
+    "photo_limit": "A photo can't show the pith inside the cane or how it bends \u2014 check those on the plant.",
+    "confirm_question": "Find that cane on your rose and look at it closely. Is it dead?",
+    "confirm_label": "Yes, it looks dead",
+    "doesnt_match_label": "No \u2014 it's living wood",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": null,
+    "not_sure_guidance": "Look again at the cane on the plant itself \u2014 its buds and its bark colour, right down low.",
+    "any_more_question": "Can you see any more dead canes?",
+    "comparison_images": []
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-DEADWOOD-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

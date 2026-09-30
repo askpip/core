@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000124",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UC Marin Master Gardeners — Pruning Cuts",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Located by title only: The page returned an access error (403). The approved register accepts it on that basis.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-31 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of California Master Gardeners)",
+    "identity": "UC Marin Master Gardeners, \"Pruning Cuts\"; web address <https://ucanr.edu/site/uc-marin-master-gardeners/pruning-cuts>, accessed 29 September 2026; register code UCMARIN-CUTS",
+    "url": "https://ucanr.edu/site/uc-marin-master-gardeners/pruning-cuts",
+    "register_code": "UCMARIN-CUTS",
+    "relevance": "Supports AF-31."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

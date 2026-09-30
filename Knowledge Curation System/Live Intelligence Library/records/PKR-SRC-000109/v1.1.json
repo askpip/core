@@ -1,0 +1,49 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000109",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UC ANR Garden Notes — Tips for Confident Rose Pruning",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "The page returned an access error (403) on 29 Sep. The dossier fetched it on 21 Sep, and the title matches in the search index.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-10 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-23 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-24 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-29 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-31 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "UC ANR Garden Notes, Marceline D. Sousa, \"Tips for Confident Rose Pruning\" (30 Dec 2021; upd. 31 Mar 2025); web address <https://ucanr.edu/blog/garden-notes/article/tips-confident-rose-pruning>, accessed 29 September 2026; FRD code UCG",
+    "url": "https://ucanr.edu/blog/garden-notes/article/tips-confident-rose-pruning",
+    "register_code": null,
+    "relevance": "Supports AF-7, AF-8, AF-9, AF-10, AF-13, AF-14, AF-15, AF-16, AF-17."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PRUNINGFRAMEWORK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

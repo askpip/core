@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000025",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Cornell Cooperative Extension, Nassau County — Rose Culture and Pruning",
+  "common": {
+    "applies_to": "Bush rose; recently planted / restraint period",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-08-23",
+    "related_pkrs": [],
+    "preserved_uncertainty": "No exact duration stated — describes the first season only.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-RECENTPLANT-01, AF-1 (Moderate) — restraint period for full pruning"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (Cornell Cooperative Extension, Nassau County)",
+    "identity": "Cornell Cooperative Extension, Nassau County, \"Rose Culture and Pruning\" (D-2-13 MG/DWM, reviewed RT 11/01), https://ccenassau.org/resources/-rose-culture-and-pruning, accessed during FRD-BUSHROSE-RECENTPLANT-01 research",
+    "url": "https://ccenassau.org/resources/-rose-culture-and-pruning",
+    "register_code": null,
+    "relevance": "States plainly that in the first season after planting, only spent blooms should be removed — the clearest single statement of the first-season restraint principle found."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-RECENTPLANT-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}

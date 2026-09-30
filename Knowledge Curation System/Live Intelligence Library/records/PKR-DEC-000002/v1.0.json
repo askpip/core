@@ -1,0 +1,108 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-DEC-000002",
+  "version": "1.0",
+  "pkr_type": "decision_logic",
+  "status": "Published",
+  "title": "Crossing or rubbing stems — what to do once confirmed",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000001",
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000006",
+      "PKR-SRC-000026",
+      "PKR-SRC-000049",
+      "PKR-SRC-000050",
+      "PKR-SRC-000051",
+      "PKR-SRC-000052",
+      "PKR-SRC-000053",
+      "PKR-SRC-000054",
+      "PKR-SRC-000055",
+      "PKR-SRC-000056",
+      "PKR-SRC-000057",
+      "PKR-SRC-000058",
+      "PKR-SRC-000059",
+      "PKR-SRC-000063",
+      "PKR-SRC-000064"
+    ],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [
+      {
+        "relationship": "governed by",
+        "pkr_id": "PKR-OBS-000002"
+      }
+    ],
+    "preserved_uncertainty": "Only 2 of about 16 sources give any rule for which of the two stems to remove (AF-7, Low). One source argues against deliberately opening the centre of the bush (C-1, unresolved; the majority view is recorded). Whether a gardener should wait when unsure which stem to remove was not addressed by any source (AF-8).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "choices": [
+      {
+        "choice": "cut",
+        "label": "Cut",
+        "cutKind": "remove-stem"
+      },
+      {
+        "choice": "leave",
+        "label": "Leave"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "decision_notes": [
+      {
+        "text": "Remove the crossing or rubbing stem as ordinary dormant pruning.",
+        "confidence": "High"
+      },
+      {
+        "text": "Remove it completely, back to where it starts (the ground, the bud union, or the larger cane it grows from). Don't just shorten it.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "If you need to choose which one, the few sources that give a rule say remove the weaker, thinner one and keep the stronger one.",
+        "confidence": "Low"
+      },
+      {
+        "text": "Why: stems rubbing together damage each other's bark, which lets disease in.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Take care not to damage the stem you're keeping; cut a tangled stem out in sections rather than pulling it whole.",
+        "confidence": "Approved default"
+      }
+    ],
+    "doesnt_match_choices": null,
+    "doesnt_match_notes": null,
+    "not_sure_choices": [
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "headline_confidence": "High",
+    "gate_conditions": {
+      "PKR-SGT-000001": "applies",
+      "PKR-SGT-000002": "applies",
+      "PKR-SGT-000003": "applies"
+    },
+    "cut_care_guidance": true
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-STRUCTURAL-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-01",
+    "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+  }
+}
