@@ -8,10 +8,10 @@
 // strictly to the real, Founder-approved diagnostic content for dead vs.
 // living wood, and returns Pip's answer as plain text.
 //
-// This mirrors the validated content and behaviour of the standalone
-// Working/AI Outputs spike (Spike/gemini/run-spike-signals.mjs) — same
-// diagnostic signals, same confidence wording, same boundary rules — now
-// running for real against a gardener's own photo instead of a test one.
+// Originally mirrored the standalone spike (Spike/gemini/run-spike-signals.mjs).
+// Since 1 October 2026 it reads the signals from the Live Intelligence Library
+// and says so when a photo is too far away to judge (tested against the
+// variants in pip-observe-reference-test before going live).
 
 import 'jsr:@supabase/functions-js/edge-runtime.d.ts'
 import { createClient } from 'jsr:@supabase/supabase-js@2'
@@ -32,47 +32,10 @@ function json(body: unknown, status = 200) {
   })
 }
 
-// --- The real per-signal diagnostic criteria, verbatim from PKR-OBS-000001 -
-// (Working/AI Outputs/PKR-OBS-BUSHROSE-DEADWOOD-01-submission.md, §2,
-// Published 24 August 2026.) Confidence is per-signal, not blended. If that
-// record's approved wording changes, this needs updating to match.
-const DIAGNOSTIC_SIGNALS = [
-  {
-    signal: 'External stem/bark colour',
-    reading:
-      'Green usually means living. Brown, gray, black, or shriveled usually means dead. Use caution on older canes, which can naturally look bronze without being dead.',
-    confidence: 'Moderate',
-    photographable: true,
-  },
-  {
-    signal: 'Dormant bud presence',
-    reading: 'Plump, visible buds mean living. No buds visible anywhere on the stem means dead.',
-    confidence: 'Moderate',
-    photographable: true,
-  },
-  {
-    signal: 'Lesion pattern',
-    reading:
-      'A visible lesion pattern suggests possible canker — a different problem from routine dead wood, not the same thing.',
-    confidence: 'Low',
-    photographable:
-      'Partially — some lesions are visible in a photo, but a full assessment usually needs closer physical inspection.',
-  },
-  {
-    signal: 'Pith colour',
-    reading: 'White or pale-green pith means living. Brown, gray, or black pith means dead.',
-    confidence: 'High',
-    photographable: false,
-    note: 'Requires physically cutting into the stem. Cannot be assessed from a photograph at all.',
-  },
-  {
-    signal: 'Flexibility / brittleness',
-    reading: 'A stem that bends means living. A stem that snaps or is brittle means dead.',
-    confidence: 'Low',
-    photographable: false,
-    note: 'Requires physically bending the stem. Cannot be assessed from a photograph at all.',
-  },
-]
+// The diagnostic content is read at request time from the Live Intelligence
+// Library (public.lil_pkr, PKR-OBS-000001, Published version), so Pip's photo
+// look always uses exactly what the app shows and never a stale copy.
+// (Until 1 October 2026 this file held its own August 2026 copy.)
 
 // The full Plain-Language Explanation text for each confidence level
 // (PKR-DEF-000001 through 000005, Published 24 August 2026) deliberately
@@ -82,7 +45,7 @@ const DIAGNOSTIC_SIGNALS = [
 // Handing it a live level name only keeps replies short and avoids the two
 // saying slightly different things about what "Moderate" means.
 
-function buildSystemInstruction() {
+function buildSystemInstruction(signals: unknown) {
   return `You are "Pip", already mid-conversation with a gardener about their rose. They
 already know who you are — your name and avatar are already shown in the
 interface around this message. This is one reply inside that ongoing
@@ -99,26 +62,30 @@ Rules:
   you'd actually speak out loud — not a structured report, not a
   walkthrough of "first... second... third...", no headers, no numbering,
   no markdown of any kind (this renders as plain text in a chat bubble).
-- For each signal marked "photographable: true", genuinely look at the
+- For each signal a photo can show, genuinely look at the
   photo, briefly say what you actually see and what it suggests, and name
   its confidence level in passing (e.g. "moderate confidence"). Do NOT
   restate what that confidence level means — the app already shows that
   explanation separately when the gardener taps for it, so spelling it out
   here is redundant and makes the reply too long.
-- For each signal marked "photographable: false" (pith colour,
-  flexibility/brittleness), say briefly that it can't be judged from a
+- For each signal a photo cannot show (the pith once cut, how a cane
+  bends — see photo_limit), say briefly that it can't be judged from a
   photo, and mention in a few words what physical check they'd need to do
   instead (a light cut, a gentle bend) — don't repeat the full reading text
   for these either, just the gist.
 - Do not blend the signals into a single made-up overall confidence number.
 - Do not add any horticultural fact, tip, or reasoning that isn't in the
   signal list below.
-- If you genuinely cannot tell what the photo shows well enough to judge a
-  photographable signal (poor lighting, too far away, out of focus), say so
-  honestly rather than guessing.
+- Before judging any signal, decide honestly whether the photo is close and
+  sharp enough to see it. Individual buds are small: if the photo shows the
+  whole plant from a distance, or the canes are too thin, blurred or far away
+  to make out buds, say plainly that you can't judge buds from this photo and
+  ask for a close-up of one cane. Do the same for bark colour or lesions if
+  they can't be made out. Never describe something you can't actually see.
+  Saying "I can't tell from this photo" is a good answer.
 
-DIAGNOSTIC SIGNALS:
-${JSON.stringify(DIAGNOSTIC_SIGNALS, null, 2)}
+DIAGNOSTIC SIGNALS (PKR-OBS-000001):
+${JSON.stringify(signals, null, 2)}
 `
 }
 
@@ -154,6 +121,18 @@ Deno.serve(async (req: Request) => {
       global: { headers: { Authorization: authHeader } },
     })
 
+    const { data: obs, error: obsError } = await supabase
+      .from('lil_pkr')
+      .select('version, content')
+      .eq('pkr_id', 'PKR-OBS-000001')
+      .eq('status', 'Published')
+      .single()
+    if (obsError || !obs) {
+      console.error('LIL read failed:', obsError)
+      return json({ error: "Pip's guidance isn't available just now." }, 502)
+    }
+    const signals = { criteria: obs.content.criteria, photo_limit: obs.content.photo_limit }
+
     const { data: fileData, error: downloadError } = await supabase.storage
       .from(PLANT_PHOTOS_BUCKET)
       .download(photoPath)
@@ -168,7 +147,7 @@ Deno.serve(async (req: Request) => {
     const mimeType = fileData.type || 'image/jpeg'
 
     const geminiBody = {
-      systemInstruction: { role: 'system', parts: [{ text: buildSystemInstruction() }] },
+      systemInstruction: { role: 'system', parts: [{ text: buildSystemInstruction(signals) }] },
       contents: [
         {
           role: 'user',
