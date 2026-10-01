@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { ConfidenceTag, SourcesLink } from '@/components/PkrStatements'
 import { questionsFor, type CommonQuestion, type QuestionKey } from '@/data/commonQuestions'
 import { supabase } from '@/lib/supabase'
@@ -15,13 +16,17 @@ export function CommonQuestions({
   title = 'Questions gardeners ask',
   initialVisible,
   className,
+  plantId,
 }: {
   keys: QuestionKey[]
   title?: string
   /** Show this many chips, with "More questions" for the rest. */
   initialVisible?: number
   className?: string
+  /** When shown on a plant's page: lets an answer open that plant's growing-season check. */
+  plantId?: string
 }) {
+  const navigate = useNavigate()
   const questions = questionsFor(keys)
   const [open, setOpen] = useState<QuestionKey | null>(null)
   const [showAll, setShowAll] = useState(false)
@@ -89,6 +94,14 @@ export function CommonQuestions({
                 ))}
               </ul>
               <SourcesLink pkrIds={current.pkrIds} />
+              {current.check && plantId && (
+                <button
+                  onClick={() => navigate(`/plant/${plantId}/${current.check!.path}`)}
+                  className="mt-3 min-h-11 rounded-full bg-pip-primary px-4 py-2 text-sm font-bold text-white"
+                >
+                  {current.check.label}
+                </button>
+              )}
             </>
           )}
         </div>

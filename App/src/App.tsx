@@ -10,6 +10,7 @@ import { Library } from '@/pages/Library'
 import { NewPlant } from '@/pages/NewPlant'
 import { Journey } from '@/pages/Journey'
 import { PlantProject } from '@/pages/PlantProject'
+import { BlindShootCheck } from '@/pages/BlindShootCheck'
 import { useAuth } from '@/lib/auth'
 import { lilRevision, loadLiveLil, subscribeLil } from '@/data/pkr'
 import { fetchPublishedLil } from '@/lib/lil'
@@ -106,6 +107,14 @@ function App() {
               element={
                 <RequireAuth>
                   <Journey />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/plant/:id/blind-shoots"
+              element={
+                <RequireAuth>
+                  <BlindShootCheck />
                 </RequireAuth>
               }
             />

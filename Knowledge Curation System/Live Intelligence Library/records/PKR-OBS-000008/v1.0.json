@@ -1,0 +1,74 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000008",
+  "version": "1.0",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Blind shoots — healthy shoots with no flower bud at the tip",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora rose (passed PKR-SGT-000003), in the growing season",
+    "supporting_sources": [
+      "PKR-SRC-000141",
+      "PKR-SRC-000205",
+      "PKR-SRC-000211",
+      "PKR-SRC-000231",
+      "PKR-SRC-000238"
+    ],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000008"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000008"
+      }
+    ],
+    "preserved_uncertainty": "The cause of blind shoots is not known (ARC-BUSHROSE-NOFLOWERS-01 AF-22, C-3). No source says what a photograph can show. No source says how soon a shoot without a bud counts as blind; Pip offers this check only once other shoots have buds or flowers (approved default, Decision 2).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "blind-shoot",
+    "feature": "Blind shoots",
+    "session": "growing-season",
+    "journey_order": 100,
+    "look_for": "Let's check for blind shoots. A blind shoot grows and leafs normally, but has no flower bud at its tip.",
+    "criteria": [
+      {
+        "text": "The shoot and its leaves can look perfectly healthy; what's missing is a flower bud at the tip.",
+        "confidence": "High"
+      },
+      {
+        "text": "The tip may look empty, or dried up.",
+        "confidence": "High"
+      },
+      {
+        "text": "Nobody knows for certain what causes blind shoots.",
+        "confidence": "Moderate"
+      }
+    ],
+    "photo_limit": "I can't confirm a blind shoot from a photo. Look at the tip of the shoot itself.",
+    "confirm_question": "Look closely at the very tip of the shoot. Is there a flower bud there?",
+    "confirm_label": "No bud at the tip",
+    "doesnt_match_label": "There's a bud",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": "Then it isn't a blind shoot. Leave it to flower.",
+    "not_sure_guidance": "That's alright. Look again at the tip on the plant, not in a photo.",
+    "any_more_question": "Can you see any more shoots like this, with leaves but no bud at the tip?",
+    "comparison_images": [],
+    "offer_when": {
+      "question": "Do other shoots on your rose already have flower buds or flowers?",
+      "yes": "Yes",
+      "not_yet": "Not yet",
+      "not_sure": "Not sure",
+      "not_yet_note": "Then it's too early to call a shoot blind. Come back to this check once other shoots on your rose have buds or flowers."
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-BLINDSHOOT-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026 (Decisions 1(a), 2(a), 3(a); package \"yes\")."
+  }
+}

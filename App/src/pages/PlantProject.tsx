@@ -13,7 +13,7 @@ import { CareBlock } from '@/components/PkrStatements'
 import { SeasonCard } from '@/components/SeasonCard'
 import { CommonQuestions } from '@/components/CommonQuestions'
 import { HOME_QUESTIONS } from '@/data/commonQuestions'
-import { CARE_DISCLOSURE, SAVED_ROSE_TYPE_LABELS, publishedCare, roseTypeName, roseTypePasses } from '@/data/pkr'
+import { CARE_DISCLOSURE, SAVED_ROSE_TYPE_LABELS, growingSeasonObservation, publishedCare, roseTypeName, roseTypePasses } from '@/data/pkr'
 import type { CareGuidance } from '@/data/pkr'
 import type { SavedRoseType } from '@/lib/types'
 
@@ -151,7 +151,17 @@ export function PlantProject() {
           </div>
         )}
 
-        <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} />
+        {roseTypePasses(project.roseType) && growingSeasonObservation('blind-shoot') && (
+          <div>
+            <h2 className="mb-1 text-sm font-medium">Growing-season check</h2>
+            <p className="mb-2 text-xs text-pip-text-soft">Shoots with leaves but no flower bud at the tip, once other shoots are in bud.</p>
+            <Button variant="secondary" onClick={() => navigate(`/plant/${project.id}/blind-shoots`)}>
+              Check for blind shoots
+            </Button>
+          </div>
+        )}
+
+        <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} plantId={project.id} />
 
         <div>
           <h2 className="mb-1 text-sm font-medium">Notes</h2>

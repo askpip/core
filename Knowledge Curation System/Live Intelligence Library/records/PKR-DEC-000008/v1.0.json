@@ -1,0 +1,94 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-DEC-000008",
+  "version": "1.0",
+  "pkr_type": "decision_logic",
+  "status": "Published",
+  "title": "Blind shoot — what to do once confirmed",
+  "common": {
+    "applies_to": "As PKR-OBS-000008",
+    "supporting_sources": [
+      "PKR-SRC-000205",
+      "PKR-SRC-000231",
+      "PKR-SRC-000238"
+    ],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [
+      {
+        "relationship": "governed by",
+        "pkr_id": "PKR-OBS-000008"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000002"
+      }
+    ],
+    "preserved_uncertainty": "Sources differ on where to cut (ARC-BUSHROSE-NOFLOWERS-01 C-4). The RHS cut point is used, per Founder decision D6(a).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "choices": [
+      {
+        "choice": "cut",
+        "label": "Cut it back to a strong bud",
+        "cutKind": "shorten"
+      },
+      {
+        "choice": "leave",
+        "label": "Leave it"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "decision_notes": [],
+    "doesnt_match_choices": null,
+    "doesnt_match_notes": null,
+    "not_sure_choices": [
+      {
+        "choice": "leave",
+        "label": "Leave it"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "headline_confidence": "Moderate",
+    "gate_conditions": {
+      "PKR-SGT-000001": "not_applicable_growing_season",
+      "PKR-SGT-000002": "applies",
+      "PKR-SGT-000003": "applies"
+    },
+    "cut_care_guidance": false,
+    "cut_method": [
+      {
+        "text": "Cut the blind shoot back by about half, to a strong bud. This should give a new shoot that can flower later in the season.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Other sources cut to the next leaf joint down, or to the next full five-leaflet leaf. Sources differ on where to cut.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "One source removes a short blind shoot growing low on old wood completely.",
+        "confidence": "Moderate"
+      }
+    ]
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OBS-BUSHROSE-BLINDSHOOT-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026 (Decisions 1(a), 2(a), 3(a); package \"yes\")."
+  }
+}

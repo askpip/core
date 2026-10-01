@@ -1,4 +1,4 @@
-# PKR Submission Package — Blind Shoots: Growing-Season Check and What to Do (v0.1, Draft)
+# PKR Submission Package — Blind Shoots: Growing-Season Check and What to Do (v1.0, Published)
 
 Built by KIT from `ARC-BUSHROSE-NOFLOWERS-01` (v1.0, Founder-approved 2 October 2026), §2 D6(a): Pip guides cutting back blind shoots, using the RHS cut point and recording the others. Every source is already Published (`PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md`); no new Source PKRs. Reserved IDs: PKR-OBS-000008 and PKR-DEC-000008.
 
@@ -19,11 +19,11 @@ Built by KIT from `ARC-BUSHROSE-NOFLOWERS-01` (v1.0, Founder-approved 2 October 
 | PKR ID | PKR-OBS-000008 |
 | PKR Type | Observation PKR |
 | Title | Blind shoots — healthy shoots with no flower bud at the tip |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora rose (passed PKR-SGT-000003), in the growing season |
 | Supporting Source(s) | AF-21: PKR-SRC-000141, 000205, 000211, 000231, 000238; AF-22: PKR-SRC-000205, 000211, 000231, 000238 |
-| Founder Approval Date | — |
+| Founder Approval Date | 2 October 2026 |
 | Related PKRs | Decided by PKR-DEC-000008; answer text in PKR-CGD-000008 items 13–15 |
 | Preserved Uncertainty or Limitations | The cause of blind shoots is not known (AF-22, C-3). No source says what a photograph can show. No source says how long after other shoots form buds a shoot should be judged blind (see Decision 2). |
 | Evidence Confidence | See per-claim confidence |
@@ -49,11 +49,11 @@ Built by KIT from `ARC-BUSHROSE-NOFLOWERS-01` (v1.0, Founder-approved 2 October 
 | PKR ID | PKR-DEC-000008 |
 | PKR Type | Decision Logic PKR |
 | Title | Blind shoot — what to do once confirmed |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | As PKR-OBS-000008 |
 | Supporting Source(s) | AF-24: PKR-SRC-000205, 000231, 000238 |
-| Founder Approval Date | — |
+| Founder Approval Date | 2 October 2026 |
 | Related PKRs | Governed by PKR-OBS-000008; cut technique PKR-CGD-000002 |
 | Preserved Uncertainty or Limitations | Sources differ on where to cut (C-4). The RHS cut point is used, per Founder decision D6(a). |
 | Evidence Confidence | See per-claim confidence |
@@ -75,10 +75,13 @@ Built by KIT from `ARC-BUSHROSE-NOFLOWERS-01` (v1.0, Founder-approved 2 October 
 | 2 | Other sources cut to the next leaf joint down, or to the next full five-leaflet leaf. Sources differ on where to cut. | Moderate (AF-24, C-4) |
 | 3 | One source removes a short blind shoot growing low on old wood completely. | Moderate (AF-24, VSRG-B) |
 
-- **Gate conditions:** PKR-SGT-000003 applies (rose type). See Decisions 1 and 3 for how this check sits with PKR-SGT-000001 and PKR-SGT-000002.
+- **Gate conditions:** PKR-SGT-000003 applies (rose type). PKR-SGT-000002 applies (recently planted: no blind-shoot cut; Decision 3). PKR-SGT-000001 (dormancy) does not govern this check, which runs only in the growing season (Decision 1).
+- **When offered (approved default, Decision 2):** only when the gardener says other shoots on the rose already have buds or flowers.
 - **Headline confidence:** Moderate.
 
 ## 4. Decisions for the Founders
+
+**Decided by Shaphan in chat, 2 October 2026:** Decision 1 (a), Decision 2 (a), Decision 3 (a). Package approved by Shaphan in chat, 2 October 2026 ("yes"). Published 2 October 2026.
 
 **Decision 1 — Where the check lives.** The approved post-bud-break "removal only" session excludes shortening healthy canes (`ARC-BUSHROSE-POSTBUDBREAK-01` §2 D2), and blind shoots can't be seen in the winter pruning walk-through.
 - (a) A separate growing-season check on the rose's page and in the "Why isn't my rose flowering?" answer, outside the dormancy gate. *KIT recommendation.*

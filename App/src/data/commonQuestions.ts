@@ -41,6 +41,8 @@ export interface CommonQuestion {
   pkrIds: string[]
   /** Set when Pip has no approved answer yet. */
   pending?: string
+  /** A growing-season check this answer can open for a specific plant. */
+  check?: { label: string; path: 'blind-shoots' }
 }
 
 const PENDING =
@@ -155,6 +157,7 @@ export function commonQuestions(): CommonQuestion[] {
       question: "Why isn't my rose flowering?",
       statements: all('PKR-CGD-000008', 'items'),
       pkrIds: ['PKR-CGD-000008'],
+      check: { label: 'Check for blind shoots with Pip', path: 'blind-shoots' },
     },
     { key: 'spraying', question: 'Should I spray my roses?', statements: [], pkrIds: [], pending: PENDING },
     {

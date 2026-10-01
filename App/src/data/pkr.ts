@@ -136,6 +136,14 @@ export interface ObservationDef {
   allowedWhenRecentlyPlanted: boolean
   /** PKR-CGD-000001/000003 apply to this observation's Cut. */
   cutCareGuidance: boolean
+  /** 'growing-season' observations (PKR-OBS-000008) run in their own check, never in the pruning journey. */
+  session: 'pruning' | 'growing-season'
+  /** Growing-season checks: when Pip offers the check (approved default). */
+  offerWhen?: { question: string; yes: string; not_yet: string; not_sure: string; not_yet_note: string }
+  /** How to make this observation's Cut, where its Decision Logic PKR gives one. */
+  cutMethod?: Statement[]
+  /** PKR-SGT-000002 applies to this observation's Cut. */
+  recentlyPlantedApplies: boolean
 }
 
 export interface CareGuidance {
@@ -236,12 +244,16 @@ function hydrate(records: LilRecord[]) {
           allowedAfterBudBreak: dc.gate_conditions['PKR-SGT-000001'] === 'removal_allowed_after_bud_break',
           allowedWhenRecentlyPlanted: dc.gate_conditions['PKR-SGT-000002'] === 'exempt',
           cutCareGuidance: dc.cut_care_guidance,
+          session: oc.session === 'growing-season' ? 'growing-season' : 'pruning',
+          offerWhen: oc.offer_when ?? undefined,
+          cutMethod: dc.cut_method ?? undefined,
+          recentlyPlantedApplies: dc.gate_conditions['PKR-SGT-000002'] === 'applies',
         } as ObservationDef,
       }
     })
     .sort((a, b) => a.order - b.order)
     .map((x) => x.def)
-  if (observations.length === 0) throw new Error('LIL has no Published observations')
+  if (!observations.some((o) => o.session === 'pruning')) throw new Error('LIL has no Published observations')
 
   const sucker = records.find((r) => r.pkr_type === 'observation' && r.content.key === 'rootstock-sucker')
   const suckerDec = sucker && need(sucker.common.related_pkrs?.find((x) => x.relationship === 'decided by')?.pkr_id ?? '')
@@ -336,8 +348,14 @@ export const SAVED_ROSE_TYPE_LABELS: Record<SavedRoseType, string> = {
   unknown: "Don't know",
 }
 
+/** The pruning journey's observations (growing-season checks are excluded; they have their own screen). */
 export function publishedObservations(): ObservationDef[] {
-  return OBSERVATIONS
+  return OBSERVATIONS.filter((o) => o.session === 'pruning')
+}
+
+/** A growing-season check's observation (e.g. 'blind-shoot'), if Published. */
+export function growingSeasonObservation(key: string): ObservationDef | undefined {
+  return OBSERVATIONS.find((o) => o.session === 'growing-season' && o.key === key)
 }
 
 /** One Published LIL record by ID (undefined if it isn't Published in the loaded LIL). */

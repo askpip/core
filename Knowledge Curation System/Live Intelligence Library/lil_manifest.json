@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 296,
-  "published_count": 268,
+  "record_count": 298,
+  "published_count": 270,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -132,6 +132,14 @@
       "sha256": "33c6bd4c41bfe694bce3b855d66086eae4051f114131d9726110155367ead1dc"
     },
     {
+      "pkr_id": "PKR-DEC-000008",
+      "version": "1.0",
+      "pkr_type": "decision_logic",
+      "status": "Published",
+      "title": "Blind shoot — what to do once confirmed",
+      "sha256": "b96fde33bbc7c44284e9dcb4d10f54dad549a540db0f30be6f5bf2e8234f7339"
+    },
+    {
       "pkr_id": "PKR-DEF-000001",
       "version": "1.0",
       "pkr_type": "definition",
@@ -226,6 +234,14 @@
       "status": "Published",
       "title": "Rootstock suckers — shoots from below the bud union",
       "sha256": "2a11296bea8c9b515d53d1802c9e63627a003732f7b539f4dacc7096f1da8b28"
+    },
+    {
+      "pkr_id": "PKR-OBS-000008",
+      "version": "1.0",
+      "pkr_type": "observation",
+      "status": "Published",
+      "title": "Blind shoots — healthy shoots with no flower bud at the tip",
+      "sha256": "84c427904d05162030496285be73ea5dd5edfc669ce2301f4d74107d31070bb5"
     },
     {
       "pkr_id": "PKR-SGT-000001",
