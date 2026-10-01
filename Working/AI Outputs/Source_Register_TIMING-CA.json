@@ -1,0 +1,672 @@
+[
+ {
+  "code": "CRS-WP",
+  "source": "Canadian Rose Society, \"Winter Protection\", date not shown. Rose society, national (by zone band). Accessed 1 Oct 2026.",
+  "url": "https://canadianrosesociety.org/winter-protection/",
+  "status": "Opened",
+  "findings": [
+   "AF-8",
+   "AF-10",
+   "AF-11",
+   "AF-20",
+   "AF-32",
+   "AF-33",
+   "AF-39",
+   "AF-41"
+  ],
+  "quote": "AF-8: \"Zones 2-4 [heading] ... Zones 5-6 [heading] ... Zones 7-9 [heading]\" || AF-10: \"Tender roses (Hybrid Teas, Floribundas, Austins and Grandifloras) require layers of winter protection.\" || AF-11: \"Otherwise, winter protection is not usually necessary in Coastal B.C\" || AF-20: \"In the spring, when the bush begins to leaf out again, any winter kill can be removed and the bush shaped if necessary.\" || AF-32: \"Cut canes back to about 70cm to 1m (28-40 in) to prevent them whipping about in the wind.\" || AF-33: \"Around Thanksgiving cut canes back to about 70cm (28 in) and defoliate them.\" || AF-39: \"Remove all dead leaves and any clippings from the bed.\" || AF-41: \"When the ground is at least partially frozen, place a collar around each bush\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "CRS-SP",
+  "source": "Canadian Rose Society, \"Spring Maintenance & Pruning\", date not shown. Rose society, national (no band named). Accessed 1 Oct 2026.",
+  "url": "https://canadianrosesociety.org/spring-maintenance-pruning/",
+  "status": "Opened",
+  "findings": [
+   "AF-13",
+   "AF-15",
+   "AF-16",
+   "AF-46",
+   "AF-49"
+  ],
+  "quote": "AF-13: \"usually April or when the forsythia is in bloom in your area\" || AF-15: \"Established rose bushes are pruned after the soil mounds have been removed in the spring\" || AF-16: \"usually April or when the forsythia is in bloom in your area\" || AF-46: \"In late spring, when the soil has thawed and a hard freeze is no longer expected, carefully remove soil mounds\" || AF-49: \"usually April\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "CRS-PL",
+  "source": "Canadian Rose Society, \"Planting\" (page heading \"Site Selection and Preparation\"), date not shown. Rose society, national. Accessed 1 Oct 2026.",
+  "url": "https://canadianrosesociety.org/planting/",
+  "status": "Opened",
+  "findings": [
+   "AF-34",
+   "AF-35",
+   "AF-36",
+   "AF-37"
+  ],
+  "quote": "AF-34: \"prepare the beds at least 3 weeks before planting in April, or as soon as the soil is workable for spring planting\" || AF-35: \"or in September for fall planting.\" || AF-36: \"Note that fall planting is not recommended across the Prairies Provinces\" || AF-37: \"container-grown roses can be planted anytime during the growing season.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "CRS-OC",
+  "source": "Canadian Rose Society, \"Ongoing Care\", date not shown. Rose society, national. Accessed 1 Oct 2026.",
+  "url": "https://canadianrosesociety.org/ongoing-care/",
+  "status": "Opened",
+  "findings": [
+   "AF-24",
+   "AF-26"
+  ],
+  "quote": "AF-24: \"When spring clean-up has been completed, fertilize established roses with granular fertilizer\" || AF-26: \"a third application may be made in mid-July. Later applications are not recommended as plants must ripen wood before winter sets in.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "HRS",
+  "source": "Huronia Rose Society, \"Your Guide for Planting & Caring for a Rose Garden\", 25 May 2020, modified 9 December 2024. Local rose society, Ontario (Barrie and Orillia). Accessed 1 Oct 2026.",
+  "url": "https://huroniarose.wordpress.com/rose-links/plantingguide/",
+  "status": "Opened",
+  "findings": [
+   "AF-13",
+   "AF-15",
+   "AF-24",
+   "AF-26",
+   "AF-34",
+   "AF-39"
+  ],
+  "quote": "AF-13: \"or when the FORSTYHIA is in bloom in your area.\" || AF-15: \"Rose bushes are pruned after the winter protection has been removed in the spring\" || AF-24: \"When spring clean up has been completed fertilize ESTABLISHED roses.\" || AF-26: \"APPLICATIONS after July ARE NOT RECOMMENDED because the bush needs to prepare for winter\" || AF-34: \"Ideal planting time is early spring, as soon as the ground has thawed.\" || AF-39: \"Remove all dead leaves and any debris from the bed.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "NRCAN-ST",
+  "source": "Natural Resources Canada, \"In the zone: Canada's plant hardiness zone maps and website get an update\", July 2025. Federal government, national. Accessed 1 Oct 2026.",
+  "url": "https://natural-resources.canada.ca/stories/simply-science/zone-canada-s-plant-hardiness-zone-maps-website-get-update",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-6",
+   "AF-7"
+  ],
+  "quote": "AF-1: \"lowest average daily temperature in the region's coldest month; length of frost-free periods; rainfall totals from June to November\" || AF-6: \"many areas shifting by half a zone or more and some by as much as two full zones\" || AF-7: \"the plant hardiness zone website provides a storehouse of valuable information for choosing plants that will thrive in a particular area\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "NRCAN-OD",
+  "source": "Natural Resources Canada, \"Plant Hardiness Zones of Canada\", Open Government Portal dataset record, published 26 March 2026. Federal government, national. Accessed 1 Oct 2026.",
+  "url": "https://open.canada.ca/data/en/dataset/adda404d-93e4-48e9-b6bf-5d1d3952ff22",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2"
+  ],
+  "quote": "AF-1: \"The map is based on a formula using seven climate variables that influence plant survival\" || AF-2: \"an alternative plant hardiness zone approach using just one climate variable: average extreme minimum temperature for the period 1991 to 2020.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "SR-MCK",
+  "source": "McKenney, Pedlar, Lawrence, DeBoer and MacDonald, \"Updated plant hardiness zones for Canada and assessment of change over time\", Scientific Reports, July 2025, DOI 10.1038/s41598-025-00931-5; abstract read via DOAJ record. Peer-reviewed journal, national. Accessed 1 Oct 2026.",
+  "url": "https://doaj.org/article/60a3345256a64864b3264efec5b44e5f",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-6"
+  ],
+  "quote": "AF-1: \"In the United States, the plant hardiness system involves averaging annual extreme minimum temperatures over a period of interest\" || AF-6: \"zone values have increased by between half a zone and two full zones across the country\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RBG",
+  "source": "Royal Botanical Gardens (Christie Brodie, Interpretation Projects Coordinator), \"Caring for Roses\", 16 July 2020. Botanic garden, Ontario. Accessed 1 Oct 2026.",
+  "url": "https://www.rbg.ca/caring-for-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-13",
+   "AF-14",
+   "AF-22",
+   "AF-24",
+   "AF-35"
+  ],
+  "quote": "AF-13: \"This timing lines up with when forsythia is in flower, a natural reminder!\" || AF-14: \"Prune dead, damaged, or diseased canes in spring just before bud break, but after the last frost.\" || AF-22: \"Prune dead, damaged, or diseased canes in spring just before bud break, but after the last frost.\" || AF-24: \"Apply organic fertilizers, such as manure and compost, after spring pruning.\" || AF-35: \"It's best to plant roses in either spring or late autumn.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LO-TP",
+  "source": "Landscape Ontario, \"Roses: type and pruning\", 29 May 2013, no byline. Horticultural trade association, Ontario. Also cited in pending FRD-BUSHROSE-HARDPRUNE-01 (as LO); re-opened for this commission. Accessed 1 Oct 2026.",
+  "url": "https://landscapeontario.com/roses-type-and-pruning/",
+  "status": "Opened",
+  "findings": [
+   "AF-13",
+   "AF-14",
+   "AF-15",
+   "AF-46"
+  ],
+  "quote": "AF-13: \"When the yellow flowers of forsythia are in bloom, your roses should be showing signs of life.\" || AF-14: \"The buds should be swelling and quite obvious but showing no leaves.\" || AF-15: \"Somewhat later, remove the soil that you mounded up around the base of the canes the previous fall\" || AF-46: \"As soon as thawing permits, take away the evergreen boughs or remove the rose collars if you installed any.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LO-YR",
+  "source": "Landscape Ontario, \"Rose care throughout the year\", 4 June 2013, no byline. Horticultural trade association, Ontario. Accessed 1 Oct 2026.",
+  "url": "https://landscapeontario.com/rose-care-throughout-the-year/",
+  "status": "Opened",
+  "findings": [
+   "AF-24",
+   "AF-25",
+   "AF-26",
+   "AF-27",
+   "AF-30",
+   "AF-31",
+   "AF-32",
+   "AF-41",
+   "AF-42",
+   "AF-46"
+  ],
+  "quote": "AF-24: \"Start to fertilize when growth begins.\" || AF-25: \"Apply in early May, mid-June and again in mid-July.\" || AF-26: \"Start thinking of over-wintering your roses in mid-July at the time of your last fertilization.\" || AF-27: \"Established roses should be fed every week from early spring to late August.\" || AF-30: \"Let the last flowers go to seed; do not prune.\" || AF-31: \"Let the last flowers go to seed; do not prune.\" || AF-32: \"Do not prune at this time, unless the canes are so tall they could whip about in the winter winds\" || AF-41: \"When the ground is frozen, (not too early, mid- to late November)\" || AF-42: \"When the ground is frozen, (not too early, mid- to late November)\" || AF-46: \"Remove the collar and then the soil as it thaws.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "TMG-P",
+  "source": "Toronto Master Gardeners, \"Pruning Roses: A Toronto Master Gardeners Guide\", September 2021. Master Gardener volunteers, Ontario (Toronto). Accessed 1 Oct 2026.",
+  "url": "https://www.torontomastergardeners.ca/gardeningguides/pruning-roses-a-toronto-master-gardeners-guide/",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-17",
+   "AF-22",
+   "AF-49"
+  ],
+  "quote": "AF-9: \"In Toronto this is usually in April or May, just before new growth begins.\" || AF-17: \"In Toronto this is usually in April or May, just before new growth begins.\" || AF-22: \"Wait until the danger of a hard frost is past or newly pruned tips may be killed.\" || AF-49: \"usually in April or May\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "TMG-F",
+  "source": "Toronto Master Gardeners, \"Late July: Feeding Roses\", shown as posted 18 July 2026 and updated 1 September 2025. Master Gardener volunteers, Ontario (Toronto). Accessed 1 Oct 2026.",
+  "url": "https://www.torontomastergardeners.ca/late-july-feeding-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-27"
+  ],
+  "quote": "AF-27: \"Don't feed your roses after the end of July so that the growth can slow down before the weather turns cold.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "TIMG",
+  "source": "1000 Islands Master Gardeners (Nancy Shepherd), \"Growing Roses in Zone 5\", 4 July 2020, modified 17 December 2025. Master Gardener volunteers, Ontario (Kingston area). Accessed 1 Oct 2026.",
+  "url": "https://1000islandsmastergardeners.ca/2020/07/04/growing-roses-in-zone-5/",
+  "status": "Opened",
+  "findings": [
+   "AF-3",
+   "AF-9",
+   "AF-10",
+   "AF-13",
+   "AF-34",
+   "AF-35",
+   "AF-37"
+  ],
+  "quote": "AF-3: \"The United States Department of Agriculture Map's zones are different- zone 6 here may be zone 5 there.\" || AF-9: \"The Kingston area is designated as Zone 5a-6a on the Natural Resources Canada Map, depending on where you live.\" || AF-10: \"Winter protection is advised for this group\" || AF-13: \"a reblooming rose should be pruned in spring when the forsythia blooms.\" || AF-34: \"bagged roses best in early spring.\" || AF-35: \"If possible, order bare-root grafted roses for late fall planting.\" || AF-37: \"Potted roses are best planted in the spring or early summer\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "TG",
+  "source": "Toronto Gardens (Sarah Battersby), \"Planting Bare-Root Roses in Canada in Spring\", 24 March 2009. Garden writers' blog, Ontario (Toronto). Accessed 1 Oct 2026.",
+  "url": "https://www.torontogardens.com/2009/03/planting-bare-root-roses-in-canada-in.html/",
+  "status": "Opened",
+  "findings": [
+   "AF-34"
+  ],
+  "quote": "AF-34: \"buy and plant early, usually 1st week of April in most parts of Canada, certainly in Toronto.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "GGC",
+  "source": "Georgina Garden Centre, \"Frosty Nights, Rosy Delights: How to Winterize Roses in Georgina\", 17 November 2025. Commercial garden centre, Ontario (Georgina). Accessed 1 Oct 2026.",
+  "url": "https://shop.ggconline.ca/blogs/gardening-blogs/frosty-nights-rosy-delights-how-to-winterize-roses-in-georgina",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-27",
+   "AF-31",
+   "AF-32",
+   "AF-39",
+   "AF-41",
+   "AF-42",
+   "AF-46",
+   "AF-47",
+   "AF-49",
+   "AF-50"
+  ],
+  "quote": "AF-9: \"Learn how to winterize roses in Canadian zone 5!\" || AF-27: \"Around mid-August, stop fertilizing your roses.\" || AF-31: \"Leave the major shaping until spring, you'll want to see what survives the winter before making big cuts.\" || AF-32: \"Trim the top third of tall canes on shrub, hybrid tea, and floribunda roses to prevent them from snapping in winter winds.\" || AF-39: \"Clean up debris under and around your rose bushes.\" || AF-41: \"Once the ground is starting to freeze, mound 8-12 inches of soil or compost around the base of each rose.\" || AF-42: \"aim to start your rose winterizing routine in early to mid-November, or after the first few hard frosts.\" || AF-46: \"Once the snow melts and daytime temperatures consistently stay above freezing\" || AF-47: \"around late April or early May in Georgina\" || AF-49: \"around late April or early May in Georgina\" || AF-50: \"start pulling back mulch and soil mounds a little at a time.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PAL",
+  "source": "Palatine Roses, \"Planting Instructions for Potted Roses\" (PDF), date not shown. Commercial rose grower, Ontario. Accessed 1 Oct 2026.",
+  "url": "https://palatinefruit.com/wp-content/uploads/2021/07/planting_potted_roses.pdf",
+  "status": "Opened",
+  "findings": [
+   "AF-13",
+   "AF-15",
+   "AF-24",
+   "AF-27",
+   "AF-30"
+  ],
+  "quote": "AF-13: \"In spring when the Forsythias bloom un-mound and prune your roses.\" || AF-15: \"In spring when the Forsythias bloom un-mound and prune your roses.\" || AF-24: \"Spring is the best time to fertilize your roses.\" || AF-27: \"Stop fertilizing in early August.\" || AF-30: \"Stop deadheading a month before first expected frost.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LBG-WP",
+  "source": "Laidback Gardener (Larry Hodgson), \"Winter Protection for Tender Roses\", 16 November 2017. Garden writer's blog, Quebec. Accessed 1 Oct 2026.",
+  "url": "https://laidbackgardener.blog/2017/11/16/winter-protection-for-tender-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-5",
+   "AF-9",
+   "AF-10",
+   "AF-41",
+   "AF-46"
+  ],
+  "quote": "AF-5: \"The label on bush roses usually accords them a zone 5 hardiness rating, but that's actually a blatant lie.\" || AF-9: \"(AgCan zone 6)\" || AF-10: \"But for gardeners in colder climates, good winter protection is absolutely necessary.\" || AF-41: \"wait until all growth has stopped on your rose bushes and the leaves have dropped off, usually after several bouts with subzero cold\" || AF-46: \"as soon as temperatures start to regularly rise above freezing during the day, it's time to remove cones and fabrics.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LBG-HZ",
+  "source": "Laidback Gardener (Larry Hodgson), \"Hardiness of Bush Roses: Don't Trust the Label!\", 10 April 2019. Garden writer's blog, Quebec. Accessed 1 Oct 2026.",
+  "url": "https://laidbackgardener.blog/2019/04/10/when-plant-labels-lie-bush-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-5"
+  ],
+  "quote": "AF-5: \"Their zone 5 label is designed to give you an idea of what the plants can take ... Most are hardy only to zone 8.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LBG-MAP",
+  "source": "Laidback Gardener (Mathieu Hodgson), \"New Plant Hardiness Map for Canada\", 10 August 2025. Garden writer's blog, national. Accessed 1 Oct 2026.",
+  "url": "https://laidbackgardener.blog/2025/08/10/new-plant-hardiness-map-for-canada/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-6",
+   "AF-7"
+  ],
+  "quote": "AF-1: \"based solely on the average annual minimum temperature.\" || AF-6: \"a widespread increase in hardiness zones across Canada\" || AF-7: \"Consult the hardiness zone map by municipality to find out which zone you are in.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "JD",
+  "source": "Jardin Dion, \"Tout sur les protections hivernales\" (French), updated 11 June 2026. Commercial garden centre, Quebec (Sainte-Therese). Accessed 1 Oct 2026.",
+  "url": "https://www.jardindion.com/conseils-dexperts/rosiers/tout-sur-les-protections-hivernales/",
+  "status": "Opened",
+  "findings": [
+   "AF-43",
+   "AF-46"
+  ],
+  "quote": "AF-43: \"il est préférable d'attendre les températures plus fraîches du mois de novembre pour installer cônes de styromousse, toiles et jutes. [it is better to wait for the cooler temperatures of November to install foam cones, fabrics and jute]\" || AF-46: \"Il faut retirer les protections dès que la neige et la glace permettent de le faire. [protections must be removed as soon as the snow and ice allow]\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PV",
+  "source": "Pépinière Villeneuve, \"Rosier hybride de thé, floribunda et grandiflora\" (French), 13 October 2017. Commercial nursery, Quebec (L'Assomption). Accessed 1 Oct 2026.",
+  "url": "https://pepinierevilleneuve.com/rosier-non-rustique/",
+  "status": "Opened",
+  "findings": [
+   "AF-10",
+   "AF-26",
+   "AF-37",
+   "AF-40"
+  ],
+  "quote": "AF-10: \"les rosiers hybrides de thé, floribunda et grandiflora ont absolument besoin d'une protection hivernale. [hybrid tea, floribunda and grandiflora roses absolutely need winter protection]\" || AF-26: \"il faut fertiliser deux ou trois fois en début de saison, toujours avant la mi-juillet. [fertilize two or three times early in the season, always before mid-July]\" || AF-37: \"La plantation peut s'effectuer à n'importe quel moment de la saison. [planting can be done at any time in the season]\" || AF-40: \"Au printemps, avant la sortie des bourgeons, il est prudent d'appliquer de l'huile dormance. [in spring, before the buds emerge, it is prudent to apply dormant oil]\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LP",
+  "source": "La Pièce magazine (Passion Jardins), \"L'entretien des rosiers à l'automne\" (French), 25 October 2020. Commercial garden-centre network content, Quebec. Accessed 1 Oct 2026.",
+  "url": "https://lapiece.ca/en/magazine/5f957852515a690ef299101d",
+  "status": "Opened",
+  "findings": [
+   "AF-10",
+   "AF-43"
+  ],
+  "quote": "AF-10: \"La première catégorie, celle des rosiers non rustiques, comprend les hybrides de thé, les florbunda et les grandiflora. [the first category, non-hardy roses, includes hybrid teas, floribundas and grandifloras]\" || AF-43: \"juste avant les premiers gels, une taille est nécessaire, car ils doivent être recouverts rapidement d'un cône en styromousse. [just before the first frosts, pruning is needed, because they must be covered quickly with a foam cone]\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "TC",
+  "source": "Times Colonist, \"Helen Chesnut's Garden Notes: Pruning schedule depends on type of rose\", date not shown. Newspaper garden column, BC (Victoria, Vancouver Island). Accessed 1 Oct 2026.",
+  "url": "https://www.timescolonist.com/homes/helen-chesnuts-garden-notes-pruning-schedule-depends-on-type-of-rose-4676520",
+  "status": "Opened",
+  "findings": [
+   "AF-14",
+   "AF-18",
+   "AF-32"
+  ],
+  "quote": "AF-14: \"Leave the main pruning of bush roses until late winter, ideally as growth buds show the first signs of swelling.\" || AF-18: \"Leave the main pruning of bush roses until late winter\" || AF-32: \"Restrict pruning in the fall to shortening over-long canes prone to being whipped about and damaged or broken in winter winds.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "BCL",
+  "source": "BC Living (Christine Allen), \"Rose Care: Pruning\", 12 February 2009. General-interest magazine, BC, quoting a rose grower named Brad. Accessed 1 Oct 2026.",
+  "url": "https://bcliving.ca/home/garden/rose-care-pruning/",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-13",
+   "AF-18",
+   "AF-19",
+   "AF-22",
+   "AF-23",
+   "AF-30",
+   "AF-49"
+  ],
+  "quote": "AF-9: \"early March in the Lower Mainland, later in the north and interior of the province.\" || AF-13: \"Brad recommends pruning when the yellow-flowered forsythia blooms\" || AF-18: \"early March in the Lower Mainland\" || AF-19: \"later in the north and interior of the province.\" || AF-22: \"Earlier pruning risks damage from late frosts to the tender, exposed canes\" || AF-23: \"late pruning, even after the rose has already leafed out, will merely delay flowering by a week or two.\" || AF-30: \"At the end of the season, leave any rosehips to overwinter on the stems\" || AF-49: \"As spring arrives at different times in different places\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "FVRF",
+  "source": "Fraser Valley Rose Farm, \"Fraser Valley Rose Guide\", 21 November 2024. Commercial rose nursery, BC (Fraser Valley). Accessed 1 Oct 2026.",
+  "url": "https://www.fraservalleyrosefarm.com/fraser-valley-rose-guide/",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-11",
+   "AF-13",
+   "AF-18",
+   "AF-28",
+   "AF-31",
+   "AF-49"
+  ],
+  "quote": "AF-9: \"On average, that happens here in late February to mid-March.\" || AF-11: \"Our Fraser Valley winters are generally mild and wet, but are punctuated by some cold arctic outflow systems.\" || AF-13: \"The rule of thumb is to watch for Forsythia (pictured) or other early-flowering shrubs to bloom before picking up the pruners.\" || AF-18: \"On average, that happens here in late February to mid-March.\" || AF-28: \"Refrain from fertilizing and pruning from September onward.\" || AF-31: \"Refrain from fertilizing and pruning from September onward.\" || AF-49: \"On average, that happens here in late February to mid-March.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "GW",
+  "source": "GARDENWORKS, \"Rose Care Guide for Coastal BC\", date not shown. Commercial garden-centre chain, BC (coastal, with Okanagan and Penticton guidance). Accessed 1 Oct 2026.",
+  "url": "https://www.gardenworks.ca/care-tips/roses",
+  "status": "Opened",
+  "findings": [
+   "AF-11",
+   "AF-14",
+   "AF-18",
+   "AF-19",
+   "AF-24",
+   "AF-28",
+   "AF-31",
+   "AF-39",
+   "AF-44"
+  ],
+  "quote": "AF-11: \"Protect newly planted roses if extreme cold is forecast\" || AF-14: \"Late February to early March, just as buds begin to swell.\" || AF-18: \"Late February to early March\" || AF-19: \"Avoid fall pruning — wait until early spring\" || AF-24: \"Apply a balanced rose fertilizer in early spring as new growth appears\" || AF-28: \"Stop fertilizing by late summer to allow plants to prepare for winter.\" || AF-31: \"Avoid fall pruning — wait until early spring\" || AF-39: \"Clean up fallen leaves\" || AF-44: \"In late fall, mound soil or compost around the base of grafted roses\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "DNA",
+  "source": "DNA Gardens, \"Overwintering Hybid Tea and Floribunda Roses\" [sic], 19 May 2024. Commercial nursery and winery, Alberta (Elnora). Accessed 1 Oct 2026.",
+  "url": "https://dnagardens.ca/blogs/news/overwintering-hybid-tea-and-floribunda-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-29",
+   "AF-31",
+   "AF-45",
+   "AF-48",
+   "AF-49"
+  ],
+  "quote": "AF-29: \"In mid August stop all fertilizer.\" || AF-31: \"Do not prune in late summer.\" || AF-45: \"October 15th at this time, water your roses for the winter.\" || AF-48: \"Approximately May long weekend remove pail. ... Leave pail on the roses until night time temperature is plus 10.\" || AF-49: \"Approximately May long weekend remove pail.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "MOSS",
+  "source": "Mossfield, \"Protecting Roses for Alberta Winter\", last updated September 2026. Business-run community plant guide (shop announced, not yet open), treated as commercial in character, Alberta. Accessed 1 Oct 2026.",
+  "url": "https://www.mossfield.ca/learn/protect-roses-winter-alberta",
+  "status": "Opened",
+  "findings": [
+   "AF-6",
+   "AF-9",
+   "AF-10",
+   "AF-41",
+   "AF-50"
+  ],
+  "quote": "AF-6: \"Edmonton and Calgary are both zone 4a on the 2025 hardiness map\" || AF-9: \"Edmonton and Calgary are both zone 4a on the 2025 hardiness map\" || AF-10: \"Hybrid teas, floribundas, grandifloras and David Austin roses need real protection every year.\" || AF-41: \"Wait until the rose is fully dormant.\" || AF-50: \"Uncover in stages as the ground thaws, don't take everything off in one go\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PG",
+  "source": "Prairie Gardens, \"Canadian Hardiness Zones are Not the Same as US Hardiness Zones!\", 13 February 2024. Commercial garden centre, Alberta (near Edmonton). Accessed 1 Oct 2026.",
+  "url": "https://prairiegardens.org/garden-centre/canadian-hardiness-zones-are-not-the-same-as-us-hardiness-zones/",
+  "status": "Opened",
+  "findings": [
+   "AF-3",
+   "AF-4"
+  ],
+  "quote": "AF-3: \"The Canadian Hardiness Map and the USA hardiness map are not the same, and can not be used interchangeably.\" || AF-4: \"Many Canadian box stores use, without ever stating it, the American hardiness zone system.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "EPLV-WP",
+  "source": "Espace pour la vie (Montreal Botanical Garden), \"Winter protection for roses\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://espacepourlavie.ca/en/winter-protection-roses",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "EPLV-PH",
+  "source": "Espace pour la vie, \"Protection hivernale des rosiers\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://espacepourlavie.ca/protection-hivernale-des-rosiers",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "EPLV-R",
+  "source": "Espace pour la vie, \"Roses\" (also tried https://m.espacepourlavie.ca/en/roses). Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://espacepourlavie.ca/en/roses",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "EPLV-T",
+  "source": "Espace pour la vie, \"Doit-on tailler les rosiers au printemps ou à l'automne?\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://m.espacepourlavie.ca/faq/doit-tailler-les-rosiers-au-printemps-ou-lautomne",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "EPLV-HZ",
+  "source": "Espace pour la vie, \"Understanding hardiness zones and choosing the right plants\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://m.espacepourlavie.ca/en/understanding-hardiness-zones-and-choosing-right-plants",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "NRCAN-MAP",
+  "source": "Natural Resources Canada, \"Canada's Plant Hardiness Site\", zone map page. Located only: robots refusal; the site home page opened but gave only an introduction and is not relied on. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://planthardiness.gc.ca/?m=1",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PMC-MCK",
+  "source": "McKenney et al. 2025, full text on PubMed Central. Located only: verification page returned; abstract read via DOAJ (SR-MCK). Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12216870/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "CBC-MAP",
+  "source": "CBC News, \"Citrus trees in Canada? New plant hardiness map shows shift in growing zones\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.cbc.ca/news/science/canada-plant-map-1.7594348",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "CBC-OTT",
+  "source": "CBC News Ottawa, \"Canada's updated its plant hardiness map\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.cbc.ca/news/canada/ottawa/canada-plant-hardiness-map-climate-change-weather-9.7203010",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "CBC-MINTER",
+  "source": "CBC News BC, \"Brian Minter's gardening tips for growing roses this season\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.cbc.ca/news/canada/british-columbia/brian-minter-s-gardening-tips-for-growing-roses-this-season-1.3056726",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "SELECT",
+  "source": "Select Roses, \"Rose Care\" (linked from the Vancouver Rose Society). Located only: robots refusal. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.selectroses.ca/rose-care",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "HAMEL",
+  "source": "Jardin Hamel, \"Rosiers\". Located only: redirect loop. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "http://jardinhamel.com/conseils/rosiers",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LAPRESSE",
+  "source": "La Presse, \"La protection hivernale des rosiers\". Located only: no readable content returned. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.lapresse.ca/maison/cour-et-jardin/jardiner/200611/17/01-869766-la-protection-hivernale-des-rosiers.php",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PAL-TAB",
+  "source": "Palatine Roses, \"TAB: Pickup — Bare-Root & Potted Roses\". Located only: HTTP 404. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://palatineroses.com/tab-pickup-bare-root-rose/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "TMG-T",
+  "source": "Toronto Master Gardeners, \"Transplanting roses\". Located only: HTTP 404. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.torontomastergardeners.ca/askagardener/transplanting-roses/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "EDEN",
+  "source": "Eden Boreal, \"Hardy Shrub Roses for Canadian Gardens\". Located only: timed out. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://edenboreal.com/en/plants/hardy-shrub-roses-canadian-gardeners/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "CALRS",
+  "source": "Calgary Rose Society, home and \"Rose Gardening\" pages (also https://calgaryrosesociety.ca/?page_id=10). No rose timing. Accessed 1 Oct 2026.",
+  "url": "https://calgaryrosesociety.ca/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "VRS",
+  "source": "Vancouver Rose Society, home and \"About Us\" pages (also https://vancouverrosesociety.org/about-us.html). No rose timing; links to Select Roses (not opened). Accessed 1 Oct 2026.",
+  "url": "https://vancouverrosesociety.org/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "CRS-GT",
+  "source": "Canadian Rose Society, \"Growing Tips\". Planting depth only; no timing. Accessed 1 Oct 2026.",
+  "url": "https://canadianrosesociety.org/growing-tips/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "MGM",
+  "source": "Manitoba Master Gardener Association (Sandra Venton), \"Roses are Considered to be Picky\", 8 May 2020. Personal account; timing statements concern David Austin roses, outside scope. Accessed 1 Oct 2026.",
+  "url": "https://www.mgmanitoba.com/2020/05/08/roses-are-considered-to-be-picky/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "MBCOOP",
+  "source": "Manitoba Co-operator (Albert Parsons), \"Getting David Austin rose plants ready for the cold\", 19 October 2018. David Austin roses, outside scope. Accessed 1 Oct 2026.",
+  "url": "https://www.manitobacooperator.ca/country-crossroads/getting-david-austin-rose-plants-ready-for-the-cold/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "FEUIL",
+  "source": "Les Feuillages du Québec, \"C'est le temps de tailler vos rosiers!\", 17 May 2017. Hardy roses; advises leaving Hybrid Teas aside; outside scope. Accessed 1 Oct 2026.",
+  "url": "https://lesfeuillagesduquebec.ca/cest-le-temps-de-tailler-vos-rosiers/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "UA-FOLIO",
+  "source": "University of Alberta Folio (Bev Betkowski), \"Expert tips to get your garden growing after the snowy spring\", 7 May 2026. General garden recovery; no rose timing. Accessed 1 Oct 2026.",
+  "url": "https://www.ualberta.ca/en/folio/2026/05/expert-tips-to-get-your-garden-growing-after-the-snowy-spring.html",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "UBC-FORUM",
+  "source": "UBC Botanical Garden public forum, \"pruning roses\" thread. Public forum posts, not institutional advice. Accessed 1 Oct 2026.",
+  "url": "https://forums.botanicalgarden.ubc.ca/threads/pruning-roses.6047/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "SFC",
+  "source": "Small Farm Canada (Ray Douglas), \"Winterizing roses - tips for northern gardeners\", 28 October 2024. No region or month. Accessed 1 Oct 2026.",
+  "url": "https://www.smallfarmcanada.ca/gardens-crops/winterizing-roses-tips-for-northern-gardeners/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "NRCAN-HOME",
+  "source": "Natural Resources Canada, \"Canada's Plant Hardiness Site\", home page. Only the site introduction was returned. Accessed 1 Oct 2026.",
+  "url": "https://planthardiness.gc.ca/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ }
+]

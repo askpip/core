@@ -1,0 +1,515 @@
+[
+ {
+  "code": "RHS-MB",
+  "source": "Royal Horticultural Society, \"Rose Pruning: Floribunda & Hybrid Tea Roses\", date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-3",
+   "AF-7",
+   "AF-27"
+  ],
+  "quote": "AF-2: \"usually in mid-February in the south\" || AF-3: \"but in northern and colder areas wait until March.\" || AF-7: \"Roses can be pruned during late winter when growth is just resuming\" || AF-27: \"usually in mid-February in the south, but in northern and colder areas wait until March.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RHS-GT",
+  "source": "Royal Horticultural Society, \"Rose Pruning: General Tips\", date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/pruning-guide",
+  "status": "Opened",
+  "findings": [
+   "AF-1"
+  ],
+  "quote": "AF-1: \"Late winter (February or March) is often a good time for pruning roses\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RHS-GG",
+  "source": "Royal Horticultural Society, \"How to grow roses\" (RHS Growing Guide), date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/growing-guide",
+  "status": "Opened",
+  "findings": [
+   "AF-10",
+   "AF-11",
+   "AF-12",
+   "AF-15",
+   "AF-17",
+   "AF-28"
+  ],
+  "quote": "AF-10: \"in March/April before flowering\" || AF-11: \"in mid-summer after the first flush of flowers (especially for repeat-flowering types)\" || AF-12: \"Feed once a fortnight from mid-spring to late summer\" || AF-15: \"you should stop deadheading these plants in mid-summer to give the hips time to form\" || AF-17: \"usually in late autumn or from late winter to early spring, while the plant is not actively growing\" || AF-28: \"in March/April before flowering\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RHS-PL",
+  "source": "Royal Horticultural Society, \"Roses: planting\", date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/planting",
+  "status": "Opened",
+  "findings": [
+   "AF-17",
+   "AF-18",
+   "AF-19"
+  ],
+  "quote": "AF-17: \"Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.\" || AF-18: \"Avoid planting in the middle of winter when the ground is frozen.\" || AF-19: \"Plant all year round, provided the ground is neither frozen, nor very dry.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RHS-DH",
+  "source": "Royal Horticultural Society, \"Deadheading Plants: How and Why\", date not shown. Horticultural body, UK (general, names roses). Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/garden-jobs/deadheading-plants",
+  "status": "Opened",
+  "findings": [
+   "AF-14"
+  ],
+  "quote": "AF-14: \"remove spent flowers as soon as they look scruffy, whatever the time of year.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RHS-MOVE",
+  "source": "Royal Horticultural Society, \"Moving trees and shrubs\" (names Rosa), date not shown. Horticultural body, UK (general shrubs). Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/types/trees/moving-trees-shrubs",
+  "status": "Opened",
+  "findings": [
+   "AF-21"
+  ],
+  "quote": "AF-21: \"Move at any time during the dormant season from late October to mid-March\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RHS-BS",
+  "source": "Royal Horticultural Society, \"Rose black spot: Symptoms & Control\", date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/disease/rose-black-spot",
+  "status": "Opened",
+  "findings": [
+   "AF-22",
+   "AF-23"
+  ],
+  "quote": "AF-22: \"Collect and destroy fallen leaves in the autumn, or bury under a layer of mulch.\" || AF-23: \"If practical, pick off and dispose of any leaves that remain on the plant over the winter months.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RHS-RUST",
+  "source": "Royal Horticultural Society, \"Rose rust: Symptoms & Control\", date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/disease/rose-rust",
+  "status": "Opened",
+  "findings": [
+   "AF-22"
+  ],
+  "quote": "AF-22: \"Collect and destroy fallen leaves in autumn to reduce the number of overwintering resting spores\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RHS-FROST",
+  "source": "Royal Horticultural Society, \"When to plant out tender plants – avoiding late frosts\", date not shown. Horticultural body, UK (frost guidance, not rose-specific). Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/garden-jobs/when-to-plant-out-tender-plants-avoiding-late-frosts",
+  "status": "Opened",
+  "findings": [
+   "AF-29",
+   "AF-31",
+   "AF-33"
+  ],
+  "quote": "AF-29: \"These timings reflect the typical first safe planting time in an average year.\" || AF-29: \"The Highlands and northern Scotland: mid June\" || AF-31: \"Exposed, rural or higher elevation sites (e.g. Shropshire, Cotswolds, Pennines): delay 1–3 weeks\" || AF-33: \"April 2021 recorded the most April air frosts in at least 60 years\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RHS-MICRO",
+  "source": "Royal Horticultural Society, \"Microclimates: assessing your garden\", date not shown. Horticultural body, UK (not rose-specific). Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/garden-design/microclimates-assessing-garden",
+  "status": "Opened",
+  "findings": [
+   "AF-31"
+  ],
+  "quote": "AF-31: \"A garden in a frost pocket is at significant risk of late and early frosts and has a shortened growing season\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "MO-FROST",
+  "source": "Met Office, \"Why frost can still occur in late Spring\" (blog), 11 May 2026. National weather service, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.metoffice.gov.uk/blog/2026/why-frost-can-still-occur-in-late-spring",
+  "status": "Opened",
+  "findings": [
+   "AF-30",
+   "AF-31",
+   "AF-33",
+   "AF-34"
+  ],
+  "quote": "AF-30: \"In southern and coastal regions, the average last air frost tends to occur earlier in the spring, often before April comes to an end.\" || AF-30: \"Further north, and over higher ground, the average last frost often extends well into May and, in a few places, even into June.\" || AF-31: \"valleys are especially prone as colder air drains downhill and pools near the surface overnight.\" || AF-33: \"frosts can and do still occur well into late spring, including May.\" || AF-34: \"the average date of the last spring frost has been shifting earlier in the year.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "MO-SPRING",
+  "source": "Met Office, \"When does Spring start?\" (blog), 23 February 2026. National weather service, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.metoffice.gov.uk/blog/2026/when-does-spring-start",
+  "status": "Opened",
+  "findings": [
+   "AF-30",
+   "AF-33"
+  ],
+  "quote": "AF-30: \"Northern areas, including Scotland, typically remain cooler for longer, while southern parts of the UK tend to warm up earlier.\" || AF-33: \"March sees a higher likelihood of snow or sleet than December\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "MO-MAR",
+  "source": "Met Office, \"5 gardening tips for March\", date not shown. National weather service, UK. Accessed 1 Oct 2026.",
+  "url": "https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/your-home/gardening/gardening-tips-for-march",
+  "status": "Opened",
+  "findings": [
+   "AF-1"
+  ],
+  "quote": "AF-1: \"Pruning roses is a classic March task\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "MO-FEB",
+  "source": "Met Office, \"5 gardening tips for February\", date not shown. National weather service, UK. Accessed 1 Oct 2026.",
+  "url": "https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/your-home/gardening/gardening-tips-for-february",
+  "status": "Opened",
+  "findings": [
+   "AF-30"
+  ],
+  "quote": "AF-30: \"Cornwall seeing around 11 days of air frost and with Eastern Scotland seeing over 14 days of air frost on average\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "DA-PR",
+  "source": "David Austin Roses (Megan Edmondson), \"Pruning Roses: A Guide for the Season Ahead\", 24 January 2026. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/a-guide-to-pruning",
+  "status": "Opened",
+  "findings": [
+   "AF-4",
+   "AF-7",
+   "AF-8"
+  ],
+  "quote": "AF-4: \"Winter pruning is best completed while roses are dormant, and for most gardens that means January or February.\" || AF-7: \"Winter pruning is best completed while roses are dormant\" || AF-8: \"And if March arrives and you still haven't done it, you haven't missed your chance.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "DA-BASICS",
+  "source": "David Austin Roses (Megan Edmondson), \"The Basics of Growing Roses\", 6 January 2026. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/the-basics-of-growing-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-10",
+   "AF-11",
+   "AF-17",
+   "AF-22"
+  ],
+  "quote": "AF-1: \"In late winter or early spring remove anything that is obviously dead, diseased, or rubbing.\" || AF-10: \"A feed in spring encourages fresh growth\" || AF-11: \"another in midsummer helps repeat flowering varieties.\" || AF-17: \"Bare root roses are planted from late autumn to early spring while they are resting.\" || AF-22: \"Fallen leaves should be cleared so disease has nowhere to linger.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "DA-FEED",
+  "source": "David Austin Roses (Megan Edmondson), \"Rose Feeds Explained: Choosing and Using the Right Feed for Your English Roses\", 17 March 2026. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-feed-a-rose",
+  "status": "Opened",
+  "findings": [
+   "AF-10"
+  ],
+  "quote": "AF-10: \"Apply in late March or early April, just before new growth begins.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "DA-DH",
+  "source": "David Austin Roses (Megan Edmondson), \"A Masterclass in Deadheading Roses: How to Prolong the Perfect Bloom\", 4 June 2026. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-deadhead-a-rose",
+  "status": "Opened",
+  "findings": [
+   "AF-15"
+  ],
+  "quote": "AF-15: \"Do not deadhead roses renowned for their autumn fruit after the second flush.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "DA-BR",
+  "source": "David Austin Roses (Megan Edmondson), \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\", 29 September 2025. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-17"
+  ],
+  "quote": "AF-17: \"The ideal moment is during dormancy, from late autumn to early spring.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "DA-BRC",
+  "source": "David Austin Roses, \"Bare Root Roses\" (collection page), date not shown. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.co.uk/collections/bare-root",
+  "status": "Opened",
+  "findings": [
+   "AF-17"
+  ],
+  "quote": "AF-17: \"The winter planting season usually begins in October and our bare root roses can be ordered for delivery between November and April.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "DA-POT",
+  "source": "David Austin Roses (Megan Edmondson), \"How to Plant a Potted Shrub Rose: Step-by-Step\", 11 June 2026. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-plant-a-potted-shrub-rose",
+  "status": "Opened",
+  "findings": [
+   "AF-19"
+  ],
+  "quote": "AF-19: \"Potted roses can be planted at almost any time of year, provided the ground is not frozen, waterlogged or in drought conditions.\" || AF-19: \"Avoid planting during periods of extreme heat\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "DA-MOVE",
+  "source": "David Austin Roses (Megan Edmondson), \"Moving a Rose: A Step-by-Step Guide\", 3 September 2026. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-move-a-rose",
+  "status": "Opened",
+  "findings": [
+   "AF-21"
+  ],
+  "quote": "AF-21: \"In the UK and Europe, this is usually between November and February, once the leaves have fallen and active growth has slowed.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PB-HT",
+  "source": "Peter Beales Roses, \"When and How Should I Prune Hybrid Tea Roses vs. Climbing Roses?\", 11 March 2025. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/blog/when-and-how-should-i-prune-hybrid-tea-roses-vs-climbing-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-4",
+   "AF-9"
+  ],
+  "quote": "AF-4: \"February is the ideal month to prune hybrid tea roses\" || AF-4: \"January – February: Main pruning period for hybrid tea and climbing roses before new growth begins.\" || AF-9: \"Autumn (October – November): Light prune tall hybrid tea roses to prevent wind damage.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PB-WF",
+  "source": "Peter Beales Roses, \"A worry free guide to pruning roses\", 6 September 2017. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/blog/a-worry-free-guide-to-pruning-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-16"
+  ],
+  "quote": "AF-1: \"The best time to prune your roses is during February and March.\" || AF-16: \"It is not recommended to hard prune them during the autumn though as the tips can then become damaged by frost.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PB-CAL",
+  "source": "Peter Beales Roses, \"Rose Gardening Calendar\", 16 July 2020. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/blog/rose-gardening-calendar/",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-12",
+   "AF-17",
+   "AF-21",
+   "AF-22"
+  ],
+  "quote": "AF-9: \"removing approximately 30cm (12 inches) from the top of established plants\" || AF-12: \"Late August is usually the time you apply your last feed, to encourage the final flush\" || AF-17: \"Traditionally, this is the best time to plant bare rooted roses\" || AF-21: \"This is also the time to transplant mature roses\" || AF-22: \"pick up any foliage that has dropped onto the soil\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PB-FEED",
+  "source": "Peter Beales Roses, \"Rose Feeding Guide\" (Our Rosarians Guide To Feeding Your Roses), date not shown. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/feeding-roses-i40",
+  "status": "Opened",
+  "findings": [
+   "AF-10",
+   "AF-11",
+   "AF-12",
+   "AF-13"
+  ],
+  "quote": "AF-10: \"ideally in March, as the rose starts to leave its winter, dormant state.\" || AF-11: \"after the first flush of blooms has gone over in July.\" || AF-12: \"do your last liquid feed before the end of August\" || AF-13: \"prevents any new growth from being damaged by the frost.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PB-OCT",
+  "source": "Peter Beales Roses, \"Caring For Your Roses In October\", 29 September 2026. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/blog/looking-after-your-roses-in-october/",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-14",
+   "AF-16"
+  ],
+  "quote": "AF-9: \"just remember not to do anything too drastic, as it is too early to do a hard prune.\" || AF-14: \"make sure you are still deadheading your roses, once the flowers have gone over.\" || AF-16: \"as it is too early to do a hard prune.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PB-NOV",
+  "source": "Peter Beales Roses, \"Looking After Your Roses In November\", 31 October 2025. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/blog/looking-after-your-roses-in-november/",
+  "status": "Opened",
+  "findings": [
+   "AF-22",
+   "AF-25"
+  ],
+  "quote": "AF-22: \"removing any fallen leaves from the ground\" || AF-25: \"Before the winter weather takes hold, it is crucial to check the base of your roses, for root exposure.\" || AF-25: \"you will need to build up a mulch layer around them to protect them from the cold.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PB-DEC",
+  "source": "Peter Beales Roses, \"Caring For Your Roses In December\", 2 December 2025. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-december/",
+  "status": "Opened",
+  "findings": [
+   "AF-17"
+  ],
+  "quote": "AF-17: \"December is one of the best months of the year to plant your bare root roses\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PB-JAN",
+  "source": "Peter Beales Roses, \"Caring For Your Roses In January\", 7 January 2026. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-january/",
+  "status": "Opened",
+  "findings": [
+   "AF-17",
+   "AF-18"
+  ],
+  "quote": "AF-17: \"Planting your bare roots in January means the rose will stay dormant for a couple of months\" || AF-18: \"until the ground has thawed enough for you to plant it.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "PB-FEB",
+  "source": "Peter Beales Roses, \"Caring For Your Roses In February\", 30 January 2026. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-february/",
+  "status": "Opened",
+  "findings": [
+   "AF-4",
+   "AF-10",
+   "AF-17",
+   "AF-21",
+   "AF-22"
+  ],
+  "quote": "AF-4: \"January and February are the best months of the year to prune your shrubs, hybrid teas, and any other roses\" || AF-10: \"Towards the end of February or in early March, our rosarians recommend adding a layer of slow-release fertiliser\" || AF-17: \"Planting your bare-root roses in February allows the rose to put all of its energy into establishing strong roots\" || AF-21: \"If there are any roses in your garden that you need to move, February is the time to do it.\" || AF-22: \"February is the perfect time to tidy up your flower beds, ready for the spring.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "HARK-PT",
+  "source": "Harkness Roses (Harkness Roses (Global) Ltd, operated by You Garden Ltd), \"Pruning Tips\", date not shown. Commercial rose nursery brand, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.roses.co.uk/pruning-tips",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-7",
+   "AF-9"
+  ],
+  "quote": "AF-1: \"prune to one third original size in a frost-free period from mid-February to mid-March\" || AF-7: \"in a frost-free period from mid-February to mid-March\" || AF-9: \"Roses can be trimmed back after they finish flowering in November to stop wind-rock\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "HARK-EG",
+  "source": "Harkness Roses, \"The Essential Guide To Roses\", date not shown. Commercial rose nursery brand, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.roses.co.uk/the-essential-guide-to-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-7",
+   "AF-10",
+   "AF-11",
+   "AF-19"
+  ],
+  "quote": "AF-1: \"Prune fully around March, removing dead or damaged stems\" || AF-7: \"Aim to prune a bush rose before fresh buds start to open\" || AF-10: \"Apply feed twice a year - before flowering\" || AF-11: \"then again in mid-summer after the first flush.\" || AF-19: \"Roses can be planted in the garden at any time of the year, so long as ground conditions aren't frozen or waterlogged.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LTG-PR",
+  "source": "Love the Garden (by Miracle-Gro) (Kate Turner, horticulturalist), \"When and How To Prune Roses\", date not shown. Commercial garden products brand, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.lovethegarden.com/uk-en/article/pruning-roses-how-and-when-make-cut",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-3",
+   "AF-7",
+   "AF-27",
+   "AF-32"
+  ],
+  "quote": "AF-1: \"stick to February to March, the most common pruning time for roses.\" || AF-2: \"In the south you are safest to prune roses in mid-February before new growth begins on rose plants.\" || AF-3: \"in the north and other colder areas of the UK we would recommend waiting until mid to late March\" || AF-7: \"before leaf buds are starting to swell, but this normally depends on your climate and where you are.\" || AF-27: \"February is prime time in milder areas of the UK, but in colder regions March is best.\" || AF-32: \"this normally depends on your climate and where you are.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LTG-GG",
+  "source": "Love the Garden (by Miracle-Gro), \"How to plant and care for roses\", date not shown. Commercial garden products brand, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.lovethegarden.com/uk-en/growing-guide/how-grow-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-10",
+   "AF-11",
+   "AF-14",
+   "AF-17",
+   "AF-19",
+   "AF-20"
+  ],
+  "quote": "AF-10: \"use a granular rose food in early spring, or after pruning\" || AF-11: \"and again in mid-summer.\" || AF-14: \"Deadhead roses in the UK regularly during their blooming season, typically from late spring to autumn.\" || AF-17: \"Bare-root roses are best planted between October and early March.\" || AF-19: \"Can be planted anytime of year\" || AF-20: \"Can be planted anytime of year but ideally September to November and March to May.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "STYLE",
+  "source": "Style Roses, \"Rose Pruning Advice: When & How?\", 2 September 2021, modified 18 March 2024. Commercial rose nursery (Holbeach, Lincolnshire), UK. Accessed 1 Oct 2026.",
+  "url": "https://styleroses.co.uk/garden-roses-aftercare/tips/rose-pruning-advice/",
+  "status": "Opened",
+  "findings": [
+   "AF-5",
+   "AF-7",
+   "AF-27"
+  ],
+  "quote": "AF-5: \"this task should be completed every year during November/December for Midlands & South counties, January/Late February for North of England and Scotland\" || AF-5: \"will simply delay your roses from flowering in the following summer by up to 6 weeks!\" || AF-7: \"Prune on a frost-free day\" || AF-27: \"for Midlands & South counties, January/Late February for North of England and Scotland\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "TM",
+  "source": "Thompson & Morgan (Mandy Bradshaw), \"How to prune roses\", date not shown. Commercial seed and plant company, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.thompson-morgan.com/pruning/roses",
+  "status": "Opened",
+  "findings": [
+   "AF-6",
+   "AF-7"
+  ],
+  "quote": "AF-6: \"the best time to prune is a frost-free day between November and March.\" || AF-7: \"a frost-free day between November and March.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "EUTREMA",
+  "source": "Eutrema (Russell), \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\", 24 June 2023. Commercial garden products, UK. Accessed 1 Oct 2026.",
+  "url": "https://eutrema.co.uk/controlling-black-spot-on-roses-unleashing-the-power-of-lime-sulphur/",
+  "status": "Opened",
+  "findings": [
+   "AF-24"
+  ],
+  "quote": "AF-24: \"This typically occurs in late winter or early spring before new growth begins.\"",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RNRS-TIPS",
+  "source": "Royal National Rose Society, \"Members' Area\" (growing tips and advice). Located only: members-only, content not visible. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://rnrs.org/members/tips/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "RNRS-CARE",
+  "source": "Royal National Rose Society, \"Rose Fact Sheets\". Located only: page reports it is no longer there. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://rnrs.org/rnrs_rose_care.html",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "GW-PR",
+  "source": "BBC Gardeners' World, \"How to prune roses\". Located only: redirected to a third-party access gateway, not followed and not read. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-prune-roses/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ },
+ {
+  "code": "LTG-FEED",
+  "source": "Love the Garden, \"How to feed roses\". Located only: HTTP 404. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.lovethegarden.com/uk-en/article/how-feed-roses",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": "",
+  "accessed": "1 October 2026"
+ }
+]

@@ -1,6 +1,6 @@
 # Research Commission Record — Month-Level Timing for Bush Rose Care in the United States
 
-**DRAFT — for Founder authorisation.** Prepared at Shaphan's direction on 1 October 2026, after he stated in chat that month-level timing is a must and asked about covering the United Kingdom and United States as well, and then asked for these draft commissions (New Zealand, Australia, the United Kingdom and the United States), with Canada added at his request the same day. Not yet authorised; no research has begun.
+**AUTHORISED.** Shaphan authorised this commission on 1 October 2026, in chat ("I approve all 5 begin research"), together with the four companion commissions. Prepared at Shaphan's direction on 1 October 2026, after he stated in chat that month-level timing is a must and asked about covering the United Kingdom and United States as well, and then asked for these draft commissions (New Zealand, Australia, the United Kingdom and the United States), with Canada added at his request the same day. Research completed 1 October 2026; dossier submitted for Founder review.
 
 ---
 
@@ -9,9 +9,9 @@
 | Field | Value |
 |---|---|
 | Document Title | Research Commission Record — Month-Level Timing for Bush Rose Care in the United States |
-| Document Type | Research Commission Record (RCR) — draft for authorisation |
-| Version | 0.1 |
-| Status | Draft — for Founder authorisation |
+| Document Type | Research Commission Record (RCR) — authorised commission |
+| Version | 0.2 |
+| Status | Authorised. Research completed 1 October 2026; dossier submitted for Founder review. |
 | Owner | The Founders |
 | Prepared By | Claude, acting in the Research Origin Curator (ROC) role, at Shaphan's direction |
 | Date Prepared | 1 October 2026 |
@@ -31,8 +31,8 @@
 | Requesting Authority | AskPIP Founder Authority (Shaphan) |
 | Research Objective | To establish, from reputable sources, the month windows for the main bush rose care tasks in the United States, for each climate band those sources recognise, and how a gardener can be placed in the right band. |
 | Commission Description | Ask Pip currently gives season-level timing only, derived from the gardener's hemisphere. Month-level timing is required. This commission gathers what sources say about the months for each task in the United States, how they divide the country by climate, and what local signals (such as frost dates) they tie timing to. |
-| Priority | Proposed second group (with the United Kingdom and Canada), for Founder confirmation |
-| Current Status | Draft — awaiting Founder authorisation |
+| Priority | Second group (with the United Kingdom and Canada) (the order proposed in the draft, which the Founder approved with all five drafts on 1 October 2026) |
+| Current Status | Research completed; dossier submitted |
 | Related Commissions | `BUSHROSE-TIMING-NZ`, `BUSHROSE-TIMING-CA`, `BUSHROSE-TIMING-AU`, `BUSHROSE-TIMING-UK` |
 
 ## 3. Background — the gap
