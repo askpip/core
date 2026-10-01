@@ -23,7 +23,7 @@ function CloseUpThumb({ path, onRemove }: ThumbProps) {
 
       {confirming ? (
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-1.5 bg-black/70 p-2">
-          <p className="text-center text-[11px] text-white">Delete this photo?</p>
+          <p className="text-center text-xs text-white">Delete this photo?</p>
           <div className="flex gap-2">
             <button
               type="button"

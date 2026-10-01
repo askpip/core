@@ -10,6 +10,9 @@ import { PlantNotes } from '@/components/PlantNotes'
 import { ChatBubble } from '@/components/ChatBubble'
 import { Button } from '@/components/Button'
 import { CareBlock } from '@/components/PkrStatements'
+import { SeasonCard } from '@/components/SeasonCard'
+import { CommonQuestions } from '@/components/CommonQuestions'
+import { HOME_QUESTIONS } from '@/data/commonQuestions'
 import { CARE_DISCLOSURE, SAVED_ROSE_TYPE_LABELS, publishedCare, roseTypeName, roseTypePasses } from '@/data/pkr'
 import type { CareGuidance } from '@/data/pkr'
 import type { SavedRoseType } from '@/lib/types'
@@ -83,12 +86,25 @@ export function PlantProject() {
               decided.
             </ChatBubble>
 
+            {shownObservations.length > 0 && (
+              <p className="rounded-xl border border-pip-border bg-pip-card px-4 py-3 text-sm">
+                <span className="font-bold">So far: </span>
+                {shownObservations.length} {shownObservations.length === 1 ? 'thing' : 'things'} looked at
+                {(['cut', 'leave', 'decide-later'] as const).map((c) => {
+                  const n = shownObservations.filter((o) => o.choice === c).length
+                  if (!n) return null
+                  const label = c === 'cut' ? (n === 1 ? 'cut' : 'cuts') : c === 'leave' ? 'left as it is' : 'to decide later'
+                  return <span key={c}> · {n} {label}</span>
+                })}
+              </p>
+            )}
+
             <div className="flex flex-col gap-2.5">
               {shownObservations.map((o) => (
                 <div key={o.id} className="rounded-xl bg-pip-card p-4 shadow-sm">
                   <div className="flex items-center justify-between">
                     <p className="text-sm font-medium">{o.feature}</p>
-                    <span className="rounded-full bg-pip-secondary px-2.5 py-0.5 text-[11px] font-medium capitalize text-pip-text">
+                    <span className="rounded-full bg-pip-secondary px-2.5 py-0.5 text-xs font-medium capitalize text-pip-text">
                       {o.outcome === 'corrected' ? "doesn't match" : o.outcome === 'unresolved' ? 'not sure' : o.outcome}
                     </span>
                   </div>
@@ -108,6 +124,10 @@ export function PlantProject() {
             "in the plant journal of a rose that passed PKR-SGT-000003" as a
             presentation point. Not shown for journal-only roses (BASICCARE D3). */}
         {roseTypePasses(project.roseType) && (
+          <SeasonCard hemisphere={project.hemisphere} place={project.locationCity || undefined} />
+        )}
+
+        {roseTypePasses(project.roseType) && (
           <div>
             <h2 className="mb-1 text-sm font-medium">Caring for your {roseTypeName(project.roseType)}</h2>
             <p className="mb-2 text-xs text-pip-text-soft">Watering, mulch, feeding, deadheading and getting ready for winter.</p>
@@ -125,11 +145,13 @@ export function PlantProject() {
               </div>
             ) : (
               <Button variant="secondary" onClick={() => setShowCare(true)}>
-                Show care tips
+                All care tips
               </Button>
             )}
           </div>
         )}
+
+        <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} />
 
         <div>
           <h2 className="mb-1 text-sm font-medium">Notes</h2>

@@ -7,6 +7,8 @@ import { useAuth } from '@/lib/auth'
 import { PlantThumbnail } from '@/components/PlantThumbnail'
 import { AppHeader } from '@/components/AppHeader'
 import { Button } from '@/components/Button'
+import { CommonQuestions } from '@/components/CommonQuestions'
+import { HOME_QUESTIONS } from '@/data/commonQuestions'
 
 // Same fallback Welcome.tsx uses when a gardener somehow has no saved name
 // yet — shouldn't happen in the normal flow, but a heading shouldn't break
@@ -168,6 +170,10 @@ export function Library() {
             </button>
           )}
         </div>
+
+        {!selectMode && (
+          <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} className="mb-8 mt-8" />
+        )}
 
         {selectMode && (
           <div className="sticky bottom-4 mt-6">

@@ -13,6 +13,9 @@ import { DecisionChoices } from '@/components/DecisionChoices'
 import { InfoModal } from '@/components/InfoModal'
 import { CareBlock, ConfidenceTag, SourcesLink, StatementList } from '@/components/PkrStatements'
 import { RoseTypeQuestion } from '@/components/RoseTypeQuestion'
+import { CommonQuestions } from '@/components/CommonQuestions'
+import { SeasonCard } from '@/components/SeasonCard'
+import type { QuestionKey } from '@/data/commonQuestions'
 import { useProjects } from '@/lib/store'
 import { usePlantPhotoUrl } from '@/lib/photos'
 import { askPipAboutDeadWood } from '@/lib/pipObserve'
@@ -122,6 +125,8 @@ export function Journey() {
   const project = id ? getProject(id) : undefined
 
   const [phase, setPhase] = useState<Phase>('safety')
+  const [showAllCare, setShowAllCare] = useState(false)
+  const [photoRetakeHint, setPhotoRetakeHint] = useState(false)
   const [checked, setChecked] = useState<boolean[]>(() => SAFETY_ITEMS.map(() => false))
   const [helpIndex, setHelpIndex] = useState<number | null>(null)
   const [savingSafety, setSavingSafety] = useState(false)
@@ -478,13 +483,58 @@ export function Journey() {
 
   const roseName = roseTypeName(roseType ?? undefined)
 
+  // Whole-session progress (TRIAL, app review 1 Oct 2026): five stages.
+  const STAGES = ['Checks', 'Photos', 'Look and decide', 'Care', 'Summary'] as const
+  const stageIndex =
+    phase === 'photos'
+      ? 1
+      : ['observe', 'decide', 'tools', 'cut-guide', 'advisory', 'any-more'].includes(phase)
+        ? 2
+        : phase === 'care'
+          ? 3
+          : phase === 'summary'
+            ? 4
+            : 0
+
+  // Common questions that fit the step on screen (answers are Published LIL statements only).
+  const contextQuestions: QuestionKey[] =
+    phase === 'dormancy' || phase === 'dormancy-not-sure'
+      ? ['when-to-prune', 'too-late']
+      : phase === 'removal-intro'
+        ? ['how-much', 'how-to-cut']
+        : phase === 'tools' || phase === 'cut-guide' || phase === 'advisory'
+          ? ['how-to-cut', 'how-much', 'prune-too-hard']
+          : phase === 'care'
+            ? ['watering', 'feeding', 'black-spot', 'spraying']
+            : phase === 'photos'
+              ? ['dieback', 'sucker']
+              : []
+
   return (
     <div className="flex h-full flex-col">
       <AppHeader onBack={goBack} />
 
       <div className="flex-1 overflow-y-auto px-4 pb-6 pt-2">
         <p className="text-xs font-medium uppercase tracking-wide text-pip-text-soft">{project.name}</p>
-        <h1 className="font-heading mb-4 text-xl">{topLabel}</h1>
+        <h1 className="font-heading mb-2 text-xl">{topLabel}</h1>
+        <div className="mb-4">
+          <div className="mb-1 flex justify-between text-xs text-pip-text-soft">
+            <span>{STAGES[stageIndex]}</span>
+            <span>
+              Step {stageIndex + 1} of {STAGES.length}
+            </span>
+          </div>
+          <div
+            className="h-1.5 overflow-hidden rounded-full bg-pip-secondary"
+            role="progressbar"
+            aria-valuemin={1}
+            aria-valuemax={STAGES.length}
+            aria-valuenow={stageIndex + 1}
+            aria-label="Session progress"
+          >
+            <div className="h-full rounded-full bg-pip-primary transition-all" style={{ width: `${((stageIndex + 1) / STAGES.length) * 100}%` }} />
+          </div>
+        </div>
 
         <motion.div
           key={phase + obsIndex + obsStep + decidePath + String(pendingCutConfirm) + String(pendingHelpInfo) + String(pendingTraceConfirm)}
@@ -498,7 +548,7 @@ export function Journey() {
                 We'll check a few things before you decide what to cut. You can leave, decide later or get experienced local
                 help at any point.
               </ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   {SAFETY_ITEMS.map((item, i) => (
                     <div key={item.label} className="flex items-center gap-2 rounded-xl bg-pip-bg px-4 py-3 text-sm">
@@ -551,7 +601,7 @@ export function Journey() {
           {phase === 'rose-type' && (
             <>
               <ChatBubble>{ROSE_TYPE_GATE.question}</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <RoseTypeQuestion onAnswer={chooseRoseType} />
               </ResponseBubble>
             </>
@@ -588,7 +638,7 @@ export function Journey() {
                 {project.plantedWhen && <> You mentioned it was planted "{project.plantedWhen}" — I'd rather double-check.</>}{' '}
                 {RECENTLY_PLANTED_GATE.question}
               </ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => choosePrimary('established')}>{RECENTLY_PLANTED_GATE.answers.established}</Button>
                   <Button variant="secondary" onClick={() => choosePrimary('recent')}>
@@ -605,7 +655,7 @@ export function Journey() {
           {phase === 'planted-fallback' && (
             <>
               <ChatBubble>{RECENTLY_PLANTED_GATE.fallbackIntro}</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-3">
                   {RECENTLY_PLANTED_GATE.fallbackQuestions.map((q) => (
                     <div key={q.key} className="rounded-xl bg-pip-bg px-4 py-3">
@@ -644,7 +694,7 @@ export function Journey() {
                 {gateResult?.status === 'restricted' && <>{gateResult.reason} </>}
                 {DORMANCY_GATE.question}
               </ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => chooseDormancy('dormant')}>{DORMANCY_GATE.answers.dormant}</Button>
                   <Button variant="secondary" onClick={() => chooseDormancy('growing')}>
@@ -672,7 +722,7 @@ export function Journey() {
           {phase === 'dormancy-not-sure' && (
             <>
               <ChatBubble>{DORMANCY_GATE.notSureFallback}</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => chooseDormancy('dormant')}>The buds are still tight and closed</Button>
                   <Button variant="secondary" onClick={() => chooseDormancy('growing')}>
@@ -691,7 +741,7 @@ export function Journey() {
               <ChatBubble>
                 {dormancyAnswer === 'not-sure' ? DORMANCY_GATE.removalOnly.notSureIntro : DORMANCY_GATE.removalOnly.intro.text}
               </ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <p className="mb-2 text-sm font-medium">If you remove anything today:</p>
                 <StatementList items={DORMANCY_GATE.removalOnly.conditions} />
                 <p className="mt-3 rounded-xl bg-pip-secondary/60 px-3.5 py-2.5 text-xs text-pip-text-soft">
@@ -712,34 +762,63 @@ export function Journey() {
           {phase === 'photos' && (
             <>
               <ChatBubble>
-                Take a clear overview from base to tips, then a few close-ups of anything that looks uncertain.
+                Three photos, in this order. Each one shows me something different about your rose.
               </ChatBubble>
-              <ResponseBubble showAskField>
-                <p className="mb-1.5 text-xs font-medium text-pip-text-soft">Overview</p>
-                <div className="mb-4 w-1/2">
-                  <PhotoUpload
-                    label="Overview"
-                    profileId={project.id}
-                    slot="journey-overview"
-                    path={project.journeyOverviewPhotoPath}
-                    onChange={(path) => updateProject(project.id, { journeyOverviewPhotoPath: path })}
-                    className="aspect-square"
-                  />
+              <ResponseBubble>
+                {/* Photo coaching (TRIAL, app review 1 Oct 2026): whole plant, then one
+                    part, then a close-up — the sequence plant-ID and extension services
+                    recommend. Slots map onto the existing overview + close-ups storage. */}
+                <div className="mb-4 flex items-start gap-3">
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-pip-primary text-sm font-bold text-white">1</span>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-base font-bold">The whole bush</p>
+                    <p className="mb-2 text-sm text-pip-text-soft">Stand back so the whole rose fits, from the base to the tips.</p>
+                    <div className="w-1/2">
+                      <PhotoUpload
+                        label="Whole bush"
+                        profileId={project.id}
+                        slot="journey-overview"
+                        path={project.journeyOverviewPhotoPath}
+                        onChange={(path) => updateProject(project.id, { journeyOverviewPhotoPath: path })}
+                        className="aspect-square"
+                      />
+                    </div>
+                  </div>
                 </div>
-                <p className="mb-1.5 text-xs font-medium text-pip-text-soft">Close-ups</p>
-                <div className="mb-3">
-                  <JourneyCloseUps
-                    paths={project.journeyCloseUpPhotoPaths}
-                    onAdd={(file) => addJourneyCloseUpPhoto(project.id, project.journeyCloseUpPhotoPaths, file)}
-                    onRemove={(path) => removeJourneyCloseUpPhoto(project.id, project.journeyCloseUpPhotoPaths, path)}
-                  />
+                <div className="mb-4 flex items-start gap-3">
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-pip-primary text-sm font-bold text-white">2</span>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-base font-bold">One cane, then a close-up of a bud</p>
+                    <ul className="mb-2 flex flex-col gap-1 text-sm text-pip-text-soft">
+                      <li>Fill the screen with one cane, from about an arm's length.</li>
+                      <li>Then go close enough that a bud fills most of the picture.</li>
+                      <li>Use daylight, but not straight into the sun, and hold still.</li>
+                    </ul>
+                    <JourneyCloseUps
+                      paths={project.journeyCloseUpPhotoPaths}
+                      onAdd={(file) => addJourneyCloseUpPhoto(project.id, project.journeyCloseUpPhotoPaths, file)}
+                      onRemove={(path) => removeJourneyCloseUpPhoto(project.id, project.journeyCloseUpPhotoPaths, path)}
+                    />
+                  </div>
                 </div>
-                <Button
-                  disabled={!project.journeyOverviewPhotoPath || project.journeyCloseUpPhotoPaths.length === 0}
-                  onClick={beginObservations}
-                >
-                  Photos look good
-                </Button>
+                {project.journeyOverviewPhotoPath && project.journeyCloseUpPhotoPaths.length > 0 ? (
+                  <div className="rounded-xl border border-pip-border bg-pip-bg p-3.5">
+                    <p className="mb-2.5 text-base font-bold">Can you see the buds in your cane photo?</p>
+                    {photoRetakeHint && (
+                      <p className="mb-2.5 text-sm text-pip-text-soft">
+                        Take another one a little closer, then check again. You can remove the first one.
+                      </p>
+                    )}
+                    <div className="flex flex-col gap-2">
+                      <Button onClick={beginObservations}>Yes, I can see them</Button>
+                      <Button variant="secondary" onClick={() => setPhotoRetakeHint(true)}>
+                        Not really
+                      </Button>
+                    </div>
+                  </div>
+                ) : (
+                  <p className="text-sm text-pip-text-soft">Add the whole-bush photo and at least one close-up to carry on.</p>
+                )}
               </ResponseBubble>
             </>
           )}
@@ -747,7 +826,7 @@ export function Journey() {
           {phase === 'observe' && current && obsStep === 'look' && (
             <>
               <ChatBubble>{current.key === 'dead-wood' && aiAnswer ? aiAnswer : current.lookFor}</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 {current.key === 'dead-wood' && deadWoodPhotoUrl && (
                   <img src={deadWoodPhotoUrl} alt={current.feature} className="mb-3 aspect-video w-full rounded-2xl object-cover" />
                 )}
@@ -755,6 +834,11 @@ export function Journey() {
                   <Button variant="secondary" className="mb-3" onClick={() => setAiRequested(true)}>
                     Ask Pip to look at my photo
                   </Button>
+                )}
+                {current.key === 'dead-wood' && !aiRequested && deadWoodPhotoPath && (
+                  <p className="-mt-1 mb-3 text-xs text-pip-text-soft">
+                    Your photo is sent to Google's Gemini service so Pip can read it.
+                  </p>
                 )}
                 {aiLoading && <p className="mb-3 text-xs text-pip-text-soft">Pip is looking at your photo…</p>}
                 {aiFailed && (
@@ -797,7 +881,7 @@ export function Journey() {
           {phase === 'observe' && current && obsStep === 'sucker-union' && (
             <>
               <ChatBubble>{SUCKER_STEPS.unionVisible}</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <p className="mb-3 text-xs text-pip-text-soft">{SUCKER_STEPS.ownRoot}</p>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => go('observe', { obsStep: 'confirm' })}>Yes, I can see it</Button>
@@ -812,7 +896,7 @@ export function Journey() {
           {phase === 'observe' && current && obsStep === 'sucker-no-union' && (
             <>
               <ChatBubble>{SUCKER_STEPS.noUnion}</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => go('observe', { obsStep: 'confirm' })}>I cleared some soil and can see it now</Button>
                   <Button
@@ -841,7 +925,7 @@ export function Journey() {
           {phase === 'observe' && current && obsStep === 'confirm' && (
             <>
               <ChatBubble>{current.confirmQuestion}</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 {current.key === 'rootstock-sucker' && removalOnly && (
                   <p className="mb-3 rounded-xl bg-pip-bg px-3.5 py-2.5 text-xs text-pip-text-soft">{SUCKER_STEPS.supporting}</p>
                 )}
@@ -861,7 +945,7 @@ export function Journey() {
           {phase === 'observe' && current && obsStep === 'not-sure' && (
             <>
               <ChatBubble>{current.notSureGuidance}</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => confirmOutcome('confirmed')}>{current.confirmLabel}</Button>
                   <Button variant="secondary" onClick={() => confirmOutcome('corrected')}>
@@ -914,7 +998,7 @@ export function Journey() {
                   ? "That's fine — we won't cut anything you're unsure about. What would you like to do?"
                   : 'Here are your choices.'}
               </ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 {decidePath !== 'not-sure' && (
                   <div className="mb-3">
                     <StatementList items={(decidePath === 'doesnt-match' ? current.doesntMatchNotes : current.decisionNotes) ?? []} />
@@ -931,7 +1015,7 @@ export function Journey() {
                 Before you cut — can you follow that stem all the way down to exactly where you're planning to make the cut,
                 with a clear line the whole way?
               </ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={confirmTraced}>Yes, I can trace it clearly</Button>
                   <Button variant="secondary" onClick={() => setPendingTraceConfirm(false)}>
@@ -948,7 +1032,7 @@ export function Journey() {
                 Before you cut — on the safety check you weren't sure about: {uncheckedSafetyLabels.join('; ')}. Are you sure
                 you want to go ahead?
               </ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => go('cut-guide')}>Yes, I'm confident — go ahead</Button>
                   <Button variant="secondary" onClick={() => setPendingCutConfirm(false)}>
@@ -966,7 +1050,7 @@ export function Journey() {
                 extension service, or a nursery or experienced gardener you trust are good places to start. I'll save this as
                 "get help" so you can come back to it.
               </ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => recordChoice('get-help')}>Got it — continue</Button>
                   <Button variant="secondary" onClick={() => setPendingHelpInfo(false)}>
@@ -980,7 +1064,7 @@ export function Journey() {
           {phase === 'tools' && (
             <>
               <ChatBubble>Before your first cut, a word about tools and about how much to take off.</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 {[publishedCare('PKR-CGD-000001'), publishedCare('PKR-CGD-000003')]
                   .filter((c): c is CareGuidance => Boolean(c))
                   .map((c) => (
@@ -994,7 +1078,7 @@ export function Journey() {
           {phase === 'cut-guide' && current && (
             <>
               <ChatBubble>{pendingChoice?.cutKind === 'sucker' ? "Here's how to remove it." : "Here's how to make the cut."}</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 {removalOnly && pendingChoice?.cutKind !== 'sucker' && (
                   <div className="mb-3">
                     <p className="mb-1.5 text-xs font-medium text-pip-text-soft">Because your rose is already growing:</p>
@@ -1016,7 +1100,7 @@ export function Journey() {
           {phase === 'advisory' && (
             <>
               <ChatBubble>A gentle reminder, since you've made a few cuts now.</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 {publishedCare('PKR-CGD-000003') && <CareBlock care={publishedCare('PKR-CGD-000003')!} />}
                 <Button onClick={() => go('any-more')}>Continue</Button>
               </ResponseBubble>
@@ -1029,7 +1113,7 @@ export function Journey() {
                 {lastNote && <>{lastNote} </>}
                 {current.anyMoreQuestion}
               </ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={anotherOne}>Yes</Button>
                   <Button variant="secondary" onClick={finishObservation}>
@@ -1048,10 +1132,25 @@ export function Journey() {
                   : "It's not the time for full pruning this season."}{' '}
                 Here's how to look after your {roseName} in the meantime.
               </ChatBubble>
-              <ResponseBubble showAskField>
-                {careRecords.map((c) => (
-                  <CareBlock key={c.pkr.id} care={c} />
-                ))}
+              <ResponseBubble>
+                {recentlyPlantedRestricted && publishedCare('PKR-CGD-000005') && (
+                  <CareBlock care={publishedCare('PKR-CGD-000005')!} />
+                )}
+                <SeasonCard hemisphere={project.hemisphere} place={project.locationCity || undefined} />
+                {showAllCare ? (
+                  <div className="mt-3">
+                    {careRecords.filter((c) => c.pkr.id !== 'PKR-CGD-000005').map((c) => (
+                      <CareBlock key={c.pkr.id} care={c} />
+                    ))}
+                  </div>
+                ) : (
+                  <button
+                    onClick={() => setShowAllCare(true)}
+                    className="my-3 min-h-11 text-sm font-bold text-pip-primary underline underline-offset-2"
+                  >
+                    All care tips
+                  </button>
+                )}
                 <p className="mb-3 text-xs italic text-pip-text-soft">{CARE_DISCLOSURE}</p>
                 <Button onClick={() => go('summary')}>Continue</Button>
               </ResponseBubble>
@@ -1061,7 +1160,7 @@ export function Journey() {
           {phase === 'summary' && (
             <>
               <ChatBubble>Here's what we looked at together. It will become part of {project.name}'s history.</ChatBubble>
-              <ResponseBubble showAskField>
+              <ResponseBubble>
                 <div className="mb-3 flex flex-col gap-2.5">
                   {summaryGroups.length === 0 && <p className="text-xs text-pip-text-soft">Nothing was recorded this time.</p>}
                   {summaryGroups.map((g) => (
@@ -1083,6 +1182,10 @@ export function Journey() {
             </>
           )}
         </motion.div>
+
+        {contextQuestions.length > 0 && (
+          <CommonQuestions keys={contextQuestions} title="Common questions" className="mt-8" />
+        )}
       </div>
     </div>
   )

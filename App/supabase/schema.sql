@@ -451,3 +451,23 @@ $$;
 
 revoke execute on function public.mark_password_set() from anon;
 grant execute on function public.mark_password_set() to authenticated;
+
+-- ---------------------------------------------------------------------------
+-- question_interest (1 October 2026, app trial): one row each time a gardener
+-- taps a "Questions gardeners ask" chip that Pip can't answer yet. Founders read
+-- the counts (as database owner) to decide which research to approve next:
+--   select question_key, count(*) from public.question_interest group by 1 order by 2 desc;
+-- Applied to Supabase as migration question_interest.
+-- ---------------------------------------------------------------------------
+create table if not exists public.question_interest (
+  id bigint generated always as identity primary key,
+  user_id uuid not null default auth.uid() references auth.users(id) on delete cascade,
+  question_key text not null check (char_length(question_key) between 1 and 64),
+  created_at timestamptz not null default now()
+);
+alter table public.question_interest enable row level security;
+create policy "question_interest insert own" on public.question_interest
+  for insert to authenticated with check (user_id = auth.uid());
+create policy "question_interest read own" on public.question_interest
+  for select to authenticated using (user_id = auth.uid());
+create index if not exists question_interest_key_idx on public.question_interest (question_key);

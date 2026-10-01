@@ -1,6 +1,6 @@
 import type { CSSProperties } from 'react'
 import { cn } from '@/lib/utils'
-import pipFront from '@/assets/pip/pip-front-transparent.png'
+import pipFront from '@/assets/pip/pip-front-transparent.webp'
 
 interface PipAvatarProps {
   /** Width in pixels — height follows automatically from the image's own proportions, so there's no letterboxing. */

@@ -109,7 +109,7 @@ export function PhotoCard({
         {overlayName && (
           <>
             <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-black/55 to-transparent" />
-            <span className="font-script absolute bottom-3 left-4 right-4 text-3xl text-white drop-shadow-sm">
+            <span className="font-heading absolute bottom-3 left-4 right-4 text-3xl text-white drop-shadow-sm">
               {overlayName}
             </span>
           </>
@@ -166,7 +166,7 @@ export function PhotoCard({
             )}
 
             {error && (
-              <p className="absolute inset-x-2 top-12 z-20 rounded bg-white/95 px-1.5 py-1 text-center text-[10px] leading-tight text-red-600">
+              <p className="absolute inset-x-2 top-12 z-20 rounded bg-white/95 px-1.5 py-1 text-center text-xs leading-tight text-red-600">
                 {error}
               </p>
             )}

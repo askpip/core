@@ -1,0 +1,98 @@
+import { useState } from 'react'
+import { ConfidenceTag, SourcesLink } from '@/components/PkrStatements'
+import { questionsFor, type CommonQuestion, type QuestionKey } from '@/data/commonQuestions'
+import { supabase } from '@/lib/supabase'
+import { cn } from '@/lib/utils'
+
+/**
+ * Tappable question chips with an inline answer. Answers are Published LIL
+ * statements only (see data/commonQuestions.ts). A tap on a question Pip
+ * can't answer yet is recorded in public.question_interest; a failed insert
+ * never affects the gardener.
+ */
+export function CommonQuestions({
+  keys,
+  title = 'Questions gardeners ask',
+  initialVisible,
+  className,
+}: {
+  keys: QuestionKey[]
+  title?: string
+  /** Show this many chips, with "More questions" for the rest. */
+  initialVisible?: number
+  className?: string
+}) {
+  const questions = questionsFor(keys)
+  const [open, setOpen] = useState<QuestionKey | null>(null)
+  const [showAll, setShowAll] = useState(false)
+  if (questions.length === 0) return null
+
+  const visible = initialVisible && !showAll ? questions.slice(0, initialVisible) : questions
+  const current = questions.find((q) => q.key === open)
+
+  function choose(q: CommonQuestion) {
+    const next = open === q.key ? null : q.key
+    setOpen(next)
+    if (next && q.pending) {
+      void supabase
+        .from('question_interest')
+        .insert({ question_key: q.key })
+        .then(({ error }) => {
+          if (error) console.warn('question_interest not recorded:', error.message)
+        })
+    }
+  }
+
+  return (
+    <div className={cn('flex flex-col gap-2.5', className)}>
+      {title && <p className="text-xs font-bold uppercase tracking-wide text-pip-text-soft">{title}</p>}
+      <div className="flex flex-wrap gap-2">
+        {visible.map((q) => (
+          <button
+            key={q.key}
+            onClick={() => choose(q)}
+            aria-expanded={open === q.key}
+            className={cn(
+              'min-h-11 rounded-full px-4 py-2 text-left text-sm font-bold transition-colors',
+              open === q.key
+                ? 'bg-pip-primary text-white'
+                : 'bg-pip-secondary text-pip-primary hover:bg-pip-secondary-hover',
+            )}
+          >
+            {q.question}
+          </button>
+        ))}
+        {initialVisible && questions.length > initialVisible && (
+          <button
+            onClick={() => setShowAll((v) => !v)}
+            className="min-h-11 rounded-full px-3 py-2 text-sm font-bold text-pip-primary underline underline-offset-2"
+          >
+            {showAll ? 'Fewer questions' : 'More questions'}
+          </button>
+        )}
+      </div>
+
+      {current && (
+        <div className="rounded-2xl border border-pip-border bg-pip-card p-4 shadow-sm" role="region" aria-label={current.question}>
+          <p className="font-heading mb-2 text-lg leading-snug">{current.question}</p>
+          {current.pending ? (
+            <p className="text-sm text-pip-text-soft">{current.pending}</p>
+          ) : (
+            <>
+              {current.lead && <p className="mb-2 text-sm text-pip-text-soft">{current.lead}</p>}
+              <ul className="flex flex-col gap-1.5">
+                {current.statements.map((s) => (
+                  <li key={s.text} className="rounded-xl bg-pip-bg px-3.5 py-2.5 text-sm leading-relaxed">
+                    {s.text}
+                    <ConfidenceTag level={s.confidence} />
+                  </li>
+                ))}
+              </ul>
+              <SourcesLink pkrIds={current.pkrIds} />
+            </>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}

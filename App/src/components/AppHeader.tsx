@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useLocation, useNavigate, matchPath } from 'react-router-dom'
 import { MoreHorizontal } from 'lucide-react'
-import titleImg from '@/assets/pip/title.png'
+import titleImg from '@/assets/pip/title.webp'
 import { supabase } from '@/lib/supabase'
 import { useAuth } from '@/lib/auth'
 import { markPasswordSet } from '@/lib/membership'

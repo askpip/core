@@ -152,7 +152,7 @@ export function PhotoUpload({ label, profileId, slot, path, onChange, className 
       )}
 
       {error && (
-        <p className="absolute inset-x-1 bottom-1 rounded bg-white/95 px-1.5 py-1 text-center text-[10px] leading-tight text-red-600">
+        <p className="absolute inset-x-1 bottom-1 rounded bg-white/95 px-1.5 py-1 text-center text-xs leading-tight text-red-600">
           {error}
         </p>
       )}

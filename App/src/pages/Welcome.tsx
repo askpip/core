@@ -4,6 +4,8 @@ import { ChatBubble } from '@/components/ChatBubble'
 import { ResponseBubble } from '@/components/ResponseBubble'
 import { Button } from '@/components/Button'
 import { useAuth } from '@/lib/auth'
+import { CommonQuestions } from '@/components/CommonQuestions'
+import { HOME_QUESTIONS } from '@/data/commonQuestions'
 
 // Falls back to this if a gardener somehow lands here without a saved name
 // (shouldn't happen in the normal flow — AuthGate routes anyone without one
@@ -21,7 +23,7 @@ export function Welcome() {
     <div className="flex h-full flex-col">
       <AppHeader />
 
-      <div className="px-4 pt-6">
+      <div className="flex-1 overflow-y-auto px-4 pt-6">
         <ChatBubble>Welcome {name}! What would you like to do next?</ChatBubble>
         <ResponseBubble>
           <div className="flex flex-col gap-2.5">
@@ -43,6 +45,7 @@ export function Welcome() {
             </button>
           </div>
         </ResponseBubble>
+        <CommonQuestions keys={HOME_QUESTIONS} initialVisible={4} className="mb-8 mt-8" />
       </div>
     </div>
   )

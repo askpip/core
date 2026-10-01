@@ -5,7 +5,7 @@ import { sourcesFor, type CareGuidance, type Statement } from '@/data/pkr'
 export function ConfidenceTag({ level }: { level?: Statement['confidence'] }) {
   if (!level) return null
   return (
-    <span className="ml-1.5 whitespace-nowrap rounded-full bg-pip-secondary px-2 py-0.5 text-[10px] font-medium text-pip-text-soft">
+    <span className="ml-1.5 whitespace-nowrap rounded-full bg-pip-secondary px-2 py-0.5 text-xs font-medium text-pip-text-soft">
       {level === 'Approved default' ? 'Approved default' : `${level} confidence`}
     </span>
   )

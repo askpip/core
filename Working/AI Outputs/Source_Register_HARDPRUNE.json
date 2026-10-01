@@ -1,0 +1,443 @@
+[
+ {
+  "code": "NZRS-FAQ",
+  "source": "The New Zealand Rose Society, \"FAQ\", page metadata 30 March 2026. Rose society, New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://nzroses.org.nz/faq/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-25"
+  ],
+  "quote": "AF-1: \"Absolutely not! Roses are very tough and very forgiving so don't be afraid.\" || AF-25: \"If you need some advice, contact your local rose society or head along to a pruning demonstration.\""
+ },
+ {
+  "code": "NZRS-W",
+  "source": "The New Zealand Rose Society (Peter Elliott), \"Winter Rose Care\", article dated June 1996. Rose society, New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://nzroses.org.nz/winter-rose-care/",
+  "status": "Opened",
+  "findings": [
+   "AF-19"
+  ],
+  "quote": "AF-19: \"Note that white and yellow roses often resent hard pruning.\""
+ },
+ {
+  "code": "GU-P",
+  "source": "Hayden Foulds, GrownUps New Zealand, \"Pruning roses\", date not shown. General-interest website (rose column), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://grownups.co.nz/life/gardening/pruning-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-17",
+   "AF-18"
+  ],
+  "quote": "AF-1: \"It is impossible to kill a rose just by pruning it incorrectly and you probably deserve a medal if you do.\" || AF-17: \"It is actually a good idea to make any large cuts in the autumn when silver leaf spores are not around.\" || AF-18: \"spores that cause silver leaf disease are more prevalent in the air on damp days.\""
+ },
+ {
+  "code": "GU-P1",
+  "source": "Hayden Foulds, GrownUps New Zealand, \"Pruning Roses - Part 1\", date not shown. General-interest website (rose column), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://grownups.co.nz/life/gardening/hayden-foulds-pruning-roses-pt1/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-4"
+  ],
+  "quote": "AF-1: \"It is impossible to kill a rose just by pruning it incorrectly.\" || AF-4: \"Ok, it may sulk for a little bit but will get over it.\""
+ },
+ {
+  "code": "RNZIH",
+  "source": "Royal New Zealand Institute of Horticulture, Horticulture Pages, \"Rose pruning\" (content credited to Yates, from NZOOM Home and Garden), updated 1 March 2021. Commercial in origin, New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.rnzih.org.nz/pages/Rose_pruning.htm",
+  "status": "Opened",
+  "findings": [
+   "AF-10"
+  ],
+  "quote": "AF-10: \"Established roses can be cut back by at least half. Young, growing roses should be pruned with less vigour.\""
+ },
+ {
+  "code": "MATT",
+  "source": "Matthews Nurseries, \"Advice\", date not shown. Commercial rose nursery, New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.matthewsroses.co.nz/advice/",
+  "status": "Opened",
+  "findings": [
+   "AF-10"
+  ],
+  "quote": "AF-10: \"Then prune the main branches by at least a third or up to half back in length\""
+ },
+ {
+  "code": "TUI",
+  "source": "Tui Garden, \"Rose Pruning Guide\", date not shown. Commercial garden products, New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/rose-pruning-guide/",
+  "status": "Opened",
+  "findings": [
+   "AF-16"
+  ],
+  "quote": "AF-16: \"you risk the plant sending out new growth which won't have had time to harden off\""
+ },
+ {
+  "code": "SARS",
+  "source": "Rose Society of South Australia (Doug Gregory), \"Pruning Roses - A Home Gardener's Guide\", date not shown. Rose society, Australia. Accessed 1 Oct 2026.",
+  "url": "https://sarose.org.au/growing-advice/pruning-roses-a-home-gardener-s-guide",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-5",
+   "AF-14",
+   "AF-24"
+  ],
+  "quote": "AF-1: \"You will not kill a rose by pruning it.\" || AF-2: \"A rose can dieback to the stump and provided the roots are somewhat in tact, it will shoot out when the conditions are favourable.\" || AF-5: \"It's not a matter of how much you cut off, it's a matter of what you leave that counts.\" || AF-14: \"provided the roots are somewhat in tact, it will shoot out when the conditions are favourable.\" || AF-24: \"it will shoot out when the conditions are favourable.\""
+ },
+ {
+  "code": "RSNSW",
+  "source": "Rose Society of NSW, \"Rose Growing Advice\", date not shown. Rose society, Australia. Accessed 1 Oct 2026.",
+  "url": "https://nsw.rose.org.au/growing-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-10",
+   "AF-11"
+  ],
+  "quote": "AF-10: \"For the winter pruning, it is best to remove half to two thirds of all growth including all the dead wood and spindly growth.\" || AF-11: \"If the rose bush is not growing as vigorously as the other roses in your garden it is best not to prune as hard.\""
+ },
+ {
+  "code": "RSV",
+  "source": "The Rose Society of Victoria, \"The Pruning Bible\", date not shown. Rose society, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/",
+  "status": "Opened",
+  "findings": [
+   "AF-16"
+  ],
+  "quote": "AF-16: \"wait until early August so that the frosts don't knock back the new shoots.\""
+ },
+ {
+  "code": "VSRG-PM",
+  "source": "Victoria State Rose Garden, \"The Pruning Mystique\", date not shown. Public rose garden volunteers, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.vicstaterosegarden.com.au/about/rose-stories/the-pruning-mystique",
+  "status": "Opened",
+  "findings": [
+   "AF-11"
+  ],
+  "quote": "AF-11: \"Little growth, light prune; massive growth, heavy prune.\""
+ },
+ {
+  "code": "GAM",
+  "source": "ABC Gardening Australia magazine (Jennifer Stackhouse), \"How to prune roses in winter\", 13 June 2023. Public broadcaster's magazine, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.gardeningaustraliamag.com.au/pruning-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-10"
+  ],
+  "quote": "AF-10: \"remove about half to two-thirds of last season's growth to encourage new growth\""
+ },
+ {
+  "code": "TRE-P",
+  "source": "Treloar Roses, \"Pruning Roses\", date not shown. Commercial rose nursery, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.treloarroses.com.au/Pruning-Roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-10",
+   "AF-16"
+  ],
+  "quote": "AF-1: \"Pruning does not harm the rose at all, you will not kill the rose by pruning\" || AF-10: \"Remove 2/3 of plant height\" || AF-16: \"remember to hold off until the most severe frosts have passed in frost prone areas\""
+ },
+ {
+  "code": "YAT-AU",
+  "source": "Yates Australia, \"How to Prune Roses in Winter & Throughout the Growing Season\", date not shown. Commercial garden products, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.yates.com.au/garden-hub/how-to-prune-your-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-5",
+   "AF-10"
+  ],
+  "quote": "AF-5: \"You can also light prune in summer, cutting back a third of plant height.\" || AF-10: \"Prune up to two-thirds of the plant height and remove any remaining leaves.\""
+ },
+ {
+  "code": "RHS-MB",
+  "source": "Royal Horticultural Society, \"Rose Pruning: Floribunda & Hybrid Tea Roses\", date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide",
+  "status": "Opened",
+  "findings": [
+   "AF-6",
+   "AF-11",
+   "AF-21"
+  ],
+  "quote": "AF-6: \"Shorten back the strongest remaining shoots to four to six buds 10-15cm (4-6in) from the base\" || AF-11: \"Prune back less vigorous shoots more severely\" || AF-21: \"Occasionally some older stems can be pruned hard back to a few inches from soil level.\""
+ },
+ {
+  "code": "RHS-GT",
+  "source": "Royal Horticultural Society, \"Rose Pruning: General Tips\", date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/pruning-guide",
+  "status": "Opened",
+  "findings": [
+   "AF-8"
+  ],
+  "quote": "AF-8: \"prune all newly planted roses hard to encourage vigorous shoots\""
+ },
+ {
+  "code": "RHS-REN",
+  "source": "Royal Horticultural Society, \"Renovating Overgrown Shrubs\", date not shown. Horticultural body, UK (general shrubs, not rose-specific). Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/types/shrubs/renovation",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-14",
+   "AF-22",
+   "AF-23"
+  ],
+  "quote": "AF-2: \"Weak or sickly plants are best replaced.\" || AF-14: \"Take care not to cut back below the scion in grafted plants.\" || AF-22: \"Robust shrubs can be completely renovated in one year, but where the response is unknown, carry out a staged renovation instead.\" || AF-23: \"Follow up this hard pruning with a feed and mulch in spring.\""
+ },
+ {
+  "code": "RNRS",
+  "source": "Royal National Rose Society, \"Caring for your Roses\" (trial reports), date and trial years not shown. Rose society, UK. Accessed 1 Oct 2026.",
+  "url": "https://rnrs.org/rnrs_trials.html",
+  "status": "Opened",
+  "findings": [
+   "AF-3",
+   "AF-21"
+  ],
+  "quote": "AF-3: \"More flowers produced where minimal and hedge-trimmer techniques were used.\" || AF-21: \"All these varieties responded very well and we conclude that the rejuvenation can be carried out satisfactorily after a period of years.\""
+ },
+ {
+  "code": "BEALES",
+  "source": "Peter Beales Roses, \"A worry free guide to pruning roses\", 6 September 2017, updated 30 September 2024. Commercial rose nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.peterbealesroses.com/blog/a-worry-free-guide-to-pruning-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-3",
+   "AF-10"
+  ],
+  "quote": "AF-1: \"no matter how bad a job you make of pruning your roses, you are not going to kill them!\" || AF-3: \"roses rough pruned in this way can still produce an abundance of blooms\" || AF-10: \"take 2 thirds off of the plant, pruning to an outward facing bud\""
+ },
+ {
+  "code": "DA-SR",
+  "source": "David Austin Roses (Megan Edmondson), \"How to Prune Repeat Flowering Shrub Roses\", 15 January 2026. Commercial rose breeder and nursery, UK; written for English shrub roses. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.com/blogs/rose-care/how-to-prune-an-english-shrub-rose",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-4"
+  ],
+  "quote": "AF-1: \"You will not kill a rose by pruning it imperfectly.\" || AF-4: \"is rarely anything more than a short-term setback\""
+ },
+ {
+  "code": "CBG",
+  "source": "Chicago Botanic Garden (Karen Zaworski, quoting Tom Soulsby), \"Pruning Mature Roses?\", date not shown. Botanic garden, US. Accessed 1 Oct 2026.",
+  "url": "https://www.chicagobotanic.org/plant-information/smart-gardener/pruning-mature-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-4",
+   "AF-21",
+   "AF-22",
+   "AF-24"
+  ],
+  "quote": "AF-1: \"An otherwise healthy rose won't die because you pruned it\" || AF-2: \"An otherwise healthy rose won't die because you pruned it\" || AF-4: \"While the first year will be a recovery year for growth, a 'hard' pruning typically stimulates plenty of flowers in successive years.\" || AF-21: \"A lot of old roses tolerate aggressive pruning well.\" || AF-22: \"cut back the remaining canes to one to two feet from the ground\" || AF-24: \"the first year will be a recovery year for growth\""
+ },
+ {
+  "code": "NYBG",
+  "source": "New York Botanical Garden, research guide \"Pruning Roses\", 17 February 2026 (as extracted). Botanic garden, US. Accessed 1 Oct 2026.",
+  "url": "https://libguides.nybg.org/pruningroses",
+  "status": "Opened",
+  "findings": [
+   "AF-5",
+   "AF-6",
+   "AF-10"
+  ],
+  "quote": "AF-5: \"this is a moderate pruning where the plant is cut back by ⅓.\" || AF-6: \"drastic pruning where you cut the rose back to 3 to 5 buds per stem from the crown (the base) of the plant.\" || AF-10: \"Take off ⅓ to ⅔ the length of the canes, cutting back to an outside bud.\""
+ },
+ {
+  "code": "PRS",
+  "source": "Portland Rose Society (Natalie Humphrey), \"How to Prune Your Roses\", dated \"Jan 2\", year not shown. Rose society, US. Accessed 1 Oct 2026.",
+  "url": "https://www.portlandrosesociety.org/blog/springpruning",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-8",
+   "AF-9",
+   "AF-14"
+  ],
+  "quote": "AF-1: \"no matter how you prune unless you cut the rose below the ground line, it will survive and bloom.\" || AF-2: \"no matter how you prune unless you cut the rose below the ground line, it will survive and bloom.\" || AF-8: \"Hard pruning is sometimes recommended for newly planted roses and is often used by exhibitors\" || AF-9: \"Light pruning is not generally recommended because it often results in overly tall, spindly bushes in our climate area.\" || AF-14: \"unless you cut the rose below the ground line, it will survive and bloom.\""
+ },
+ {
+  "code": "OCRS",
+  "source": "Orange County Rose Society (Robert B. Martin, Jr.), \"Pruning a Rose\", date not shown. Rose society, US. Accessed 1 Oct 2026.",
+  "url": "https://www.orangecountyrosesociety.org/pruning-a-rose",
+  "status": "Opened",
+  "findings": [
+   "AF-1"
+  ],
+  "quote": "AF-1: \"Don't let the blooms fool you--a rose bush is one tough cookie.\""
+ },
+ {
+  "code": "LO",
+  "source": "Landscape Ontario, \"Roses: type and pruning\", 29 May 2013. Horticultural trade association, Canada. Accessed 1 Oct 2026.",
+  "url": "https://landscapeontario.com/roses-type-and-pruning/",
+  "status": "Opened",
+  "findings": [
+   "AF-5",
+   "AF-6",
+   "AF-8",
+   "AF-9",
+   "AF-11",
+   "AF-21"
+  ],
+  "quote": "AF-5: \"Stems are cut back by one third.\" || AF-6: \"Stems are cut back to three or four buds from the base, leaving short, sturdy stems about five inches long.\" || AF-8: \"Recommended only for newly planted roses or to rejuvenate old or neglected shrubs.\" || AF-9: \"Not recommended as it produces tall spindly plants with early but inferior blooms.\" || AF-11: \"Recommended stems are cut back to half their length. Weak stems are cut back further.\" || AF-21: \"Recommended only for newly planted roses or to rejuvenate old or neglected shrubs.\""
+ },
+ {
+  "code": "CLE",
+  "source": "Karen Russ and Robert F. Polomski, Clemson Cooperative Extension HGIC 1173, \"Pruning Roses\", published 27 June 1999. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://hgic.clemson.edu/factsheet/pruning-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-11"
+  ],
+  "quote": "AF-11: \"Prune weak-growing varieties lightly and vigorous varieties more severely.\""
+ },
+ {
+  "code": "ILL",
+  "source": "University of Illinois Extension, \"Pruning\" (Our Rose Garden), date not shown. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.illinois.edu/roses/pruning",
+  "status": "Opened",
+  "findings": [
+   "AF-5",
+   "AF-10",
+   "AF-11",
+   "AF-12"
+  ],
+  "quote": "AF-5: \"these roses are pruned very hard in early spring. This usually means removing about one-half to two-thirds of the plant's height.\" || AF-10: \"This usually means removing about one-half to two-thirds of the plant's height.\" || AF-11: \"If the plant is weak or small, you may not want to cut off as much material.\" || AF-12: \"Each time you remove this much wood you are removing a lot of the food-making ability of the plant.\""
+ },
+ {
+  "code": "UMD",
+  "source": "University of Maryland Extension, \"Guide to Pruning Roses\", date not shown. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.umd.edu/resource/guide-pruning-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-13"
+  ],
+  "quote": "AF-13: \"Routine excessive pruning will adversely affect bloom production.\""
+ },
+ {
+  "code": "OSU",
+  "source": "Barbara McMullen, Oregon State University Extension, \"Pruning roses\", May 2007, reviewed 2024. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-16",
+   "AF-21"
+  ],
+  "quote": "AF-9: \"Underpruning is the most common cause of an unproductive rose.\" || AF-16: \"Earlier pruning (before the last hard frost or forecasted cold weather) may cause die-back that necessitates repruning.\" || AF-21: \"neglected roses can easily be rejuvenated by pruning.\""
+ },
+ {
+  "code": "UCF",
+  "source": "UC ANR Fresno Gardening Green, \"Rosie's Corner: It's time to prune roses\", 1 February 2025. University extension (Master Gardener blog), US. Accessed 1 Oct 2026.",
+  "url": "https://ucanr.edu/blog/fresno-gardening-green/article/rosies-corner-its-time-prune-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-22"
+  ],
+  "quote": "AF-22: \"Don't remove all of those old canes at once, only a third at a time.\""
+ },
+ {
+  "code": "ISU-F",
+  "source": "Iowa State University Extension and Outreach, \"Should I prune my rose back in the fall?\", updated 6 December 2024. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://yardandgarden.extension.iastate.edu/faq/should-i-prune-my-rose-back-fall",
+  "status": "Opened",
+  "findings": [
+   "AF-17"
+  ],
+  "quote": "AF-17: \"Pruning stimulates new growth. That new growth will not have an opportunity to properly harden off before winter\""
+ },
+ {
+  "code": "PSU",
+  "source": "Susan Marquesen, Penn State Extension, \"Protecting Your Roses Through Pennsylvania Winters\", 15 November 2023. University extension (Master Gardener), US. Accessed 1 Oct 2026.",
+  "url": "https://extension.psu.edu/protecting-your-roses-through-pennsylvania-winters",
+  "status": "Opened",
+  "findings": [
+   "AF-14",
+   "AF-15",
+   "AF-16"
+  ],
+  "quote": "AF-14: \"If the graft union is compromised\" || AF-15: \"If the canes of an own-root rose die back, new ones will often emerge\" || AF-16: \"Don't prune roses too early, as late winter dieback can occur.\""
+ },
+ {
+  "code": "NMSU",
+  "source": "Bryant et al., New Mexico State University Guide H-165, \"Growing Roses\", reviewed 2005. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://pubs.nmsu.edu/_h/H165/",
+  "status": "Opened",
+  "findings": [
+   "AF-7",
+   "AF-16",
+   "AF-17"
+  ],
+  "quote": "AF-7: \"For exhibition roses, cut canes back to 6 to 10 inches\" || AF-16: \"Early pruning also tends to induce early cane growth that is subject to spring freezes\" || AF-17: \"Bushes pruned in late fall or early winter may be injured by cold\""
+ },
+ {
+  "code": "TAMU-EP",
+  "source": "Texas AgriLife Extension Service, El Paso County Master Gardeners, \"Rose Pruning Handout\", February 2010. University extension (Master Gardener handout), US. Accessed 1 Oct 2026.",
+  "url": "https://elp.tamu.edu/files/2010/10/Rose-Pruning-Handout-Feb-2010.pdf",
+  "status": "Opened",
+  "findings": [
+   "AF-7"
+  ],
+  "quote": "AF-7: \"Prune hard (far back) for fewer but larger blooms; less hard for more but smaller blooms\""
+ },
+ {
+  "code": "CLE-D",
+  "source": "Doubrava, Blake and Williamson, Clemson Cooperative Extension HGIC, \"Rose Diseases\", date not shown. University extension (plant pathology), US. Accessed 1 Oct 2026.",
+  "url": "https://hgic.clemson.edu/factsheet/rose-diseases/",
+  "status": "Opened",
+  "findings": [
+   "AF-18"
+  ],
+  "quote": "AF-18: \"These fungi enter healthy canes through wounds caused by winter injury, improper pruning, wind, hail damage, or flower cutting.\""
+ },
+ {
+  "code": "PNW",
+  "source": "Pacific Northwest Plant Disease Management Handbook, \"Rose (Rosa spp.) and hybrids - Brand and Common Canker\", revised March 2026. University extension handbook, US. Accessed 1 Oct 2026.",
+  "url": "https://pnwhandbooks.org/plantdisease/host-disease/rose-rosa-spp-hybrids-brand-common-canker",
+  "status": "Opened",
+  "findings": [
+   "AF-18"
+  ],
+  "quote": "AF-18: \"Common canker is favored by improper pruning, especially leaving long stubs above the last node.\""
+ },
+ {
+  "code": "GORG",
+  "source": "Gardening.org (Gardening LLC; \"Rosefiend Cordell\"), \"How To Revive and Rejuvenate an Old, Neglected Rosebush by Pruning\", 27 April 2025. Commercial general-interest website, US. Accessed 1 Oct 2026.",
+  "url": "https://gardening.org/how-to-revive-and-rejuvenate-an-old-neglected-rosebush/",
+  "status": "Opened",
+  "findings": [
+   "AF-20",
+   "AF-23"
+  ],
+  "quote": "AF-20: \"cutting a rose (or any plant) back too far could stress it out or even kill it.\" || AF-23: \"Water the compost into the soil, but not waterlogged.\""
+ },
+ {
+  "code": "GW-PR",
+  "source": "BBC Gardeners' World, \"How to prune roses\". Located only: redirected to a third-party access gateway, not followed. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-prune-roses/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "GW-OG",
+  "source": "BBC Gardeners' World, \"Dealing with Overgrown Plants\". Located only: redirected to a third-party access gateway, not followed. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.gardenersworld.com/plants/dealing-with-overgrown-plants/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "PA-HT",
+  "source": "PlantAmnesty, \"Hybrid Tea Rose Pruning\" (PDF). Located only: HTTP 404. Supports no finding. Accessed 1 Oct 2026.",
+  "url": "https://www.plantamnesty.org/wp-content/uploads/Hybrid-Tea-Rose-Pruning.pdf",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": ""
+ }
+]

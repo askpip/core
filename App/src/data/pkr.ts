@@ -340,6 +340,11 @@ export function publishedObservations(): ObservationDef[] {
   return OBSERVATIONS
 }
 
+/** One Published LIL record by ID (undefined if it isn't Published in the loaded LIL). */
+export function publishedRecord(id: string): LilRecord | undefined {
+  return BY_ID.get(id)
+}
+
 export function publishedCare(id: string): CareGuidance | undefined {
   return CARE.get(id)
 }

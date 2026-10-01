@@ -1,0 +1,560 @@
+[
+ {
+  "code": "RHS-PL",
+  "source": "Royal Horticultural Society, \"Roses: planting\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/planting",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-3",
+   "AF-4",
+   "AF-9",
+   "AF-11",
+   "AF-13",
+   "AF-15",
+   "AF-20",
+   "AF-22",
+   "AF-25"
+  ],
+  "quote": "AF-1: \"Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.\" || AF-3: \"Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.\" || AF-4: \"Plant all year round, provided the ground is neither frozen, nor very dry.\" || AF-9: \"Spacing depends on type and habit. Check catalogue or label details.\" || AF-11: \"as roses are at risk from replant disease.\" || AF-13: \"dig out the soil to a depth and width of 45cm (18in) and exchange it with soil from a different part of the garden\" || AF-15: \"dig a hole roughly twice the width of the plant's roots and the depth of a spade's blade.\" || AF-20: \"is at soil level (not below as this is reported to increase the risk of rose dieback).\" || AF-22: \"is at soil level (not below as this is reported to increase the risk of rose dieback).\" || AF-25: \"Prune back in the first winter after planting. Do this in late winter or early spring.\" || Consistency (BASICCARE F2): \"Water well in dry spells for at least two summers after planting.\""
+ },
+ {
+  "code": "RHS-RD",
+  "source": "Royal Horticultural Society, \"Replant disease\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/prevention-protection/replant-disease",
+  "status": "Opened",
+  "findings": [
+   "AF-11",
+   "AF-12",
+   "AF-13",
+   "AF-14"
+  ],
+  "quote": "AF-11: \"New plantings may struggle to establish, make poor growth and may even die\" || AF-12: \"Replant disease is a recognised but poorly understood problem.\" || AF-13: \"This is usually about 60cm (2ft) diameter and at least 30cm (1ft) deep.\" || AF-14: \"The problem can persist for at least nine years following removal of the first planting.\""
+ },
+ {
+  "code": "RHS-MOVE",
+  "source": "Royal Horticultural Society, \"Moving trees and shrubs\", RHS Advice, date not shown. Horticultural body, UK. General guidance on trees and shrubs that names Rosa. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/types/trees/moving-trees-shrubs",
+  "status": "Opened",
+  "findings": [
+   "AF-26",
+   "AF-29",
+   "AF-33",
+   "AF-34"
+  ],
+  "quote": "AF-26: \"Move at any time during the dormant season from late October to mid-March\" || AF-29: \"Thin the growth lightly by pruning out any old, worn-out wood, but do not prune hard.\" || AF-33: \"Ensure that plants are watered in thoroughly after planting and during dry spells\" || AF-34: \"Plants resenting root disturbance such as Rosa, Magnolia, Cytisus and Cistus can be tricky to move.\" || AF-34: \"plants that have been growing in position for more than five years are much less likely to survive transplanting\""
+ },
+ {
+  "code": "RHS-FAQ",
+  "source": "Royal Horticultural Society, \"Rose problems: frequently asked questions\", date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/frequently-asked-questions",
+  "status": "Opened",
+  "findings": [
+   "AF-11"
+  ],
+  "quote": "AF-11: \"it is likely that they are suffering from a problem known as replant disorder or rose sickness.\""
+ },
+ {
+  "code": "DA-MOVE",
+  "source": "David Austin Roses (Megan Edmondson), \"Moving a Rose: A Step-by-Step Guide\", dated 3 September 2026 as shown on page. Commercial breeder/nursery, UK (EU site). Accessed 1 Oct 2026.",
+  "url": "https://eu.davidaustinroses.com/blogs/rose-care/how-to-move-a-rose",
+  "status": "Opened",
+  "findings": [
+   "AF-13",
+   "AF-26",
+   "AF-29",
+   "AF-30",
+   "AF-31",
+   "AF-33",
+   "AF-35",
+   "AF-36"
+  ],
+  "quote": "AF-13: \"If the new position has previously been home to another rose\" || AF-26: \"If possible, wait until your rose is fully dormant before moving it.\" || AF-29: \"Cut back some of the top growth and remove any dead, damaged or weak stems.\" || AF-30: \"Begin digging at least a spade's width from the base, gradually working around the plant and loosening the soil.\" || AF-31: \"Begin digging at least a spade's width from the base\" || AF-33: \"Water regularly, particularly during dry weather.\" || AF-35: \"Moving a rose is quite forgiving, but a few simple precautions can make its transition much easier.\" || AF-36: \"If the new position has previously been home to another rose\" || AF-33: \"For its first year in the new position, treat it much as you would a newly planted rose.\""
+ },
+ {
+  "code": "DA-BR",
+  "source": "David Austin Roses (Megan Edmondson), \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\", 29 September 2025. Commercial breeder/nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-5",
+   "AF-6",
+   "AF-17",
+   "AF-18",
+   "AF-20",
+   "AF-24"
+  ],
+  "quote": "AF-1: \"The ideal moment is during dormancy, from late autumn to early spring.\" || AF-5: \"keep the roses in their packaging in a cool, dry place, protected from frost, for up to three weeks.\" || AF-6: \"Select a location that enjoys at least four hours of direct sun each day.\" || AF-17: \"Before planting, soak the roots in water for a couple of hours to rehydrate them.\" || AF-18: \"soak the roots in water for a couple of hours\" || AF-20: \"keeping the graft union 2-3 inches, 5-8 cm, below the soil surface\" || AF-24: \"Water deeply after planting so the soil settles around the roots.\""
+ },
+ {
+  "code": "YAT-NZ",
+  "source": "Yates New Zealand, \"How to Grow Glorious Roses\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-4",
+   "AF-5",
+   "AF-6",
+   "AF-7",
+   "AF-17",
+   "AF-20",
+   "AF-21",
+   "AF-24"
+  ],
+  "quote": "AF-1: \"arrive in garden centres in time for winter planting\" || AF-4: \"potted roses are often available (and can be planted) throughout the year.\" || AF-5: \"Don't buy bare-rooted rose plants until you're ready to plant; they need to go into the ground promptly.\" || AF-6: \"Choose a sunny spot with well drained soil.\" || AF-7: \"Choose a sunny spot with well drained soil.\" || AF-17: \"Before planting bare-rooted roses, soak the roots in a bucket of water and seaweed tonic\" || AF-20: \"will be 5cm above the top of the final soil level.\" || AF-21: \"will be 5cm above the top of the final soil level.\" || AF-24: \"Water it in well, then mulch with organic mulch, like woodchip or pea straw.\""
+ },
+ {
+  "code": "NZRS-FAQ",
+  "source": "The New Zealand Rose Society, \"FAQ\", date not shown. Rose society, New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://nzroses.org.nz/faq/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-4",
+   "AF-5"
+  ],
+  "quote": "AF-1: \"Winter is the best time to plant as it allows the plant to establish before summer arrives.\" || AF-4: \"If planting potted roses during spring and summer, keep them well watered.\" || AF-5: \"Avoid any plants that have shrivelled or wrinkled canes, this is a sign it has dried out.\""
+ },
+ {
+  "code": "ABG",
+  "source": "Auckland Botanic Gardens, \"Roses\" (garden advice), date not shown. Botanic garden (Auckland Council), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-6",
+   "AF-7",
+   "AF-23"
+  ],
+  "quote": "AF-6: \"Roses can be used in many situations but do best in full sun.\" || AF-7: \"They should be sheltered from strong winds and have good drainage.\" || AF-23: \"Always plant at the same depth as they are in their container.\""
+ },
+ {
+  "code": "KINGS",
+  "source": "Kings Plant Barn, \"Roses - Grow Well Guides\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.kings.co.nz/growing-guides/roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-6",
+   "AF-7",
+   "AF-23",
+   "AF-24",
+   "AF-26",
+   "AF-29",
+   "AF-30",
+   "AF-33"
+  ],
+  "quote": "AF-1: \"Roses are best planted in winter, however they can be planted right through spring.\" || AF-2: \"New seasons Roses arrive in store from June.\" || AF-6: \"Roses are best planted in a sheltered position that gets full sun.\" || AF-7: \"plant onto a raised mound and sprinkle Gypsum Clay Breaker into the bottom of the hole.\" || AF-23: \"so that when planted the top of the plant's roots sit level with the surrounding ground\" || AF-24: \"Water slowly allowing the water to sink down into the roots\" || AF-26: \"This is best done when dormant during Winter.\" || AF-29: \"If you need to move any roses, cut them back by a third\" || AF-30: \"dig out as large a root ball as you can manage.\" || AF-33: \"Make sure you keep your plant well watered until it recovers.\""
+ },
+ {
+  "code": "PALM-G",
+  "source": "Palmers, \"How to Grow Bush Roses\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-4",
+   "AF-6",
+   "AF-7",
+   "AF-15",
+   "AF-16",
+   "AF-20",
+   "AF-21",
+   "AF-24"
+  ],
+  "quote": "AF-1: \"The best planting time for all rose varieties is from winter through to spring.\" || AF-2: \"The best planting time for all rose varieties is from winter through to spring.\" || AF-4: \"Container grown roses can be planted in your garden at any time of the year.\" || AF-6: \"Five hours of sunlight is adequate.\" || AF-7: \"If drainage is a problem try raised beds (at least 30cm above ground level).\" || AF-15: \"dug to twice the depth and width of the root ball.\" || AF-16: \"Make a mound 5-7cm high in the centre and sit the central core of roots on it.\" || AF-20: \"is 2-5cm above ground level when the hole is filled in.\" || AF-21: \"is 2-5cm above ground level when the hole is filled in.\" || AF-24: \"Water deeply as roses are deep rooting so water must penetrate to the lowest roots.\""
+ },
+ {
+  "code": "PALM-FAQ",
+  "source": "Palmers, \"Most Frequently Asked Rose Questions\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
+  "status": "Opened",
+  "findings": [
+   "AF-26",
+   "AF-28",
+   "AF-33"
+  ],
+  "quote": "AF-26: \"the best time to relocate them would be after pruning in July when the rose is dormant with no active growth.\" || AF-28: \"make sure that the risk of frosts (or freezing weather) has passed\" || AF-33: \"be sure to give it a good water.\""
+ },
+ {
+  "code": "TUI-T",
+  "source": "Tui Garden, \"Transplanting trees, shrubs, roses, perennials and bulbs\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/transplanting-trees-shrubs-roses-perennials-and-bulbs/",
+  "status": "Opened",
+  "findings": [
+   "AF-21",
+   "AF-26",
+   "AF-29",
+   "AF-33"
+  ],
+  "quote": "AF-21: \"ensure the graft is above the soil when placed in its new position.\" || AF-26: \"Roses - readily transplant in winter.\" || AF-29: \"Prune roses back hard before moving\" || AF-33: \"Once planted, water the plant well\""
+ },
+ {
+  "code": "TUI-Q",
+  "source": "Tui Garden, \"What is the best way to shift my rose?\" (garden question, Manawatu), date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/",
+  "status": "Opened",
+  "findings": [
+   "AF-26",
+   "AF-29",
+   "AF-30",
+   "AF-31",
+   "AF-33"
+  ],
+  "quote": "AF-26: \"the best time of year to move a rose is winter when it is dormant\" || AF-29: \"cut it back hard to about 3-5 buds (or nodes) from the graft at ground level\" || AF-30: \"dig around the rose at around 25-30cm from the base in a circle to approximately a spade depth\" || AF-31: \"dig around the rose at around 25-30cm from the base in a circle to approximately a spade depth\" || AF-33: \"water in well\""
+ },
+ {
+  "code": "AMORE",
+  "source": "Amore Roses, \"How To Grow Roses - A Guide To Our Rose Breeds\", date not shown. Commercial (rose brand/nursery), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.amoreroses.co.nz/rose-growing-guide.html",
+  "status": "Opened",
+  "findings": [
+   "AF-6",
+   "AF-9",
+   "AF-17",
+   "AF-18",
+   "AF-21"
+  ],
+  "quote": "AF-6: \"a minimum of six hours of direct sunlight is recommended.\" || AF-9: \"60-100cm from other roses (depending on the size of the rose at maturity).\" || AF-17: \"Soak it well for 24 hours in a bucket of cold water before planting into the ground.\" || AF-18: \"Soak it well for 24 hours in a bucket of cold water\" || AF-21: \"Ensure you plant the rose up to the crown where all the shoots/branches are coming out from.\""
+ },
+ {
+  "code": "RSNSW-G",
+  "source": "The Rose Society of NSW, \"Rose Growing Advice\", date not shown. Rose society, Australia. Accessed 1 Oct 2026.",
+  "url": "https://nsw.rose.org.au/growing-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-17",
+   "AF-18"
+  ],
+  "quote": "AF-1: \"Bare rooted plants are dormant – they have no leaves or flowers and are only available in winter.\" || AF-17: \"It is best to soak bare rooted roses in a bucket of water for 24 hours before planting in the garden.\" || AF-18: \"soak bare rooted roses in a bucket of water for 24 hours\""
+ },
+ {
+  "code": "RSNSW-CAL",
+  "source": "The Rose Society of NSW, \"Rose Care Calendar\", date not shown. Rose society, Australia. Accessed 1 Oct 2026.",
+  "url": "https://nsw.rose.org.au/growing-roses/care-calendar",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-16",
+   "AF-17",
+   "AF-18",
+   "AF-20",
+   "AF-21",
+   "AF-24"
+  ],
+  "quote": "AF-2: \"Prepare the soil for planting in June/July.\" || AF-16: \"Make a mound in the hole and place the roots over and down around the mound.\" || AF-17: \"Before planting bare root roses soak the plants in a bucket of water with seaweed solution for at least two hours.\" || AF-18: \"for at least two hours.\" || AF-20: \"sitting 3-5cm above ground level.\" || AF-21: \"sitting 3-5cm above ground level.\" || AF-24: \"Water well, poking around the roots to maintain soil and root contact.\""
+ },
+ {
+  "code": "RSSA",
+  "source": "The Rose Society of South Australia Inc., \"Rose Growing Guide\" (PDF hosted by the National Rose Trial Garden of Australia), date not shown. Rose society, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-6",
+   "AF-7",
+   "AF-8",
+   "AF-11",
+   "AF-13",
+   "AF-15",
+   "AF-16",
+   "AF-17",
+   "AF-18",
+   "AF-20",
+   "AF-21",
+   "AF-24"
+  ],
+  "quote": "AF-1: \"This is best done in June or July.\" || AF-2: \"This is best done in June or July.\" || AF-6: \"Roses like full sun with at least 5 to 6 hours of direct sunlight each day.\" || AF-7: \"Soil must be well drained, preferably neutral and containing copious quantities of organic matter.\" || AF-8: \"Avoid root competition from nearby trees and shrubs.\" || AF-11: \"The new rose will not tolerate any old rose roots remaining in its root zone.\" || AF-13: \"Remove the old plant with as many roots as possible, plus an extra 2 buckets of soil.\" || AF-15: \"Dig a hole 30cm square by a spade depth.\" || AF-16: \"Position the roots over the soil mound\" || AF-17: \"Place plant in a bucket of water for 1 hour or more to thoroughly wet the roots.\" || AF-18: \"for 1 hour or more\" || AF-20: \"with the bud union (kink in the stem) to finish at soil level.\" || AF-21: \"with the bud union (kink in the stem) to finish at soil level.\" || AF-24: \"Back fill with soil to fill half the hole, fill hole with water.\""
+ },
+ {
+  "code": "GA-2014P",
+  "source": "ABC Gardening Australia (Sophie Thomson), \"Planting Roses\", 26 July 2014. Public broadcaster, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.abc.net.au/gardening/how-to/planting-roses/9435672",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-5",
+   "AF-16",
+   "AF-17",
+   "AF-20",
+   "AF-21",
+   "AF-24"
+  ],
+  "quote": "AF-1: \"Because it's winter, Sophie's planting bare-rooted roses.\" || AF-5: \"it's vital not to let the roots dry out before planting\" || AF-16: \"She creates a mound of earth in the centre of the hole, to encourage the roots to grow down over the mound.\" || AF-17: \"she likes to leave them soaking in a bucket of water\" || AF-20: \"It should be kept just above the soil level.\" || AF-21: \"It should be kept just above the soil level.\" || AF-24: \"She waters them in well to help the soil settle\""
+ },
+ {
+  "code": "GA-2019",
+  "source": "ABC Gardening Australia (Sophie Thomson), \"Rosy Road Trip - Bare-rooted Roses\", 14 June 2019. Public broadcaster, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.abc.net.au/gardening/how-to/tips-on-planting-bare-rooted-roses/11202854",
+  "status": "Opened",
+  "findings": [
+   "AF-5",
+   "AF-16",
+   "AF-19",
+   "AF-20",
+   "AF-21",
+   "AF-25"
+  ],
+  "quote": "AF-5: \"They need to be planted almost immediately after purchasing.\" || AF-16: \"Place rose into hole, and gently spread roots over mound\" || AF-19: \"Prune root system back by around one third.\" || AF-20: \"Ensure that the soil level is no higher than the graft or bud union.\" || AF-21: \"Ensure that the soil level is no higher than the graft or bud union.\" || AF-25: \"Prune top growth of rose by around a third to half which will ensure balanced root growth.\""
+ },
+ {
+  "code": "GA-MAG",
+  "source": "ABC Gardening Australia magazine (Loren Desbruslais), \"Growing roses 101\", 9 April 2024. Public broadcaster magazine, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-6",
+   "AF-7",
+   "AF-10",
+   "AF-17",
+   "AF-18",
+   "AF-19",
+   "AF-23"
+  ],
+  "quote": "AF-1: \"May, June and July are the months to plant bare-rooted roses in Australia.\" || AF-2: \"May, June and July are the months to plant bare-rooted roses in Australia.\" || AF-6: \"Roses need at least 4–6 hours of sunlight daily.\" || AF-7: \"if you have a heavy soil, consider building a raised bed or mounding the soil.\" || AF-10: \"leave breathing space between rose plants so there's good air circulation.\" || AF-17: \"soak the rose in a bucket of water with added seaweed solution for several hours.\" || AF-18: \"for several hours.\" || AF-19: \"Trim damaged roots and soak the rose\" || AF-23: \"Ensure the soil mark on the stem aligns with the level of the garden bed.\""
+ },
+ {
+  "code": "TRE-T",
+  "source": "Treloar Roses, \"Transplanting established roses\", date not shown. Commercial (rose nursery), Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
+  "status": "Opened",
+  "findings": [
+   "AF-26",
+   "AF-27",
+   "AF-29",
+   "AF-30",
+   "AF-31",
+   "AF-32",
+   "AF-33",
+   "AF-34"
+  ],
+  "quote": "AF-26: \"The best time to move a rose is in the winter dormancy when the plant is asleep\" || AF-27: \"Prune to at least half of its size, the balance of roots to growth will be important\" || AF-29: \"Prune to at least half of its size\" || AF-30: \"cut a circle around the plant about 45cm in diameter (the larger the better).\" || AF-31: \"cut a circle around the plant about 45cm in diameter (the larger the better).\" || AF-32: \"It is very important to keep the roots moist until planting into the new location.\" || AF-33: \"if kept moist it will recover.\" || AF-34: \"The older the rose, the more likely that it will not appreciate being moved, although it is possible.\" || AF-34: \"If your plant has been settled for many years it does become tricky.\""
+ },
+ {
+  "code": "CSU",
+  "source": "Colorado State University Extension (O'Connor, Nelson, Swift, Heins), \"Selecting and Planting Roses\", published May 1996, reviewed August 2025. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.colostate.edu/resource/selecting-and-planting-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-3",
+   "AF-4",
+   "AF-6",
+   "AF-7",
+   "AF-8",
+   "AF-15",
+   "AF-17",
+   "AF-18",
+   "AF-20",
+   "AF-22",
+   "AF-24",
+   "AF-25"
+  ],
+  "quote": "AF-3: \"For bare-root roses, spring planting is preferred over fall.\" || AF-4: \"Potted roses can be planted during the growing season, any time after the last killing frost.\" || AF-6: \"receive a minimum of five to six hours of sunshine each day.\" || AF-7: \"Roses prefer full sun, rich, well-drained soil, and good air circulation\" || AF-8: \"avoid places where the roses have to compete with tree or shrub roots.\" || AF-15: \"usually about 18-24 inches in diameter and 14-18 inches deep.\" || AF-17: \"If bare-root plants appear dry when they are received, soak them in a bucket of water overnight\" || AF-18: \"but not leave them in water for more than 24 hours.\" || AF-20: \"the bud union is below ground level, typically two to four inches.\" || AF-22: \"the bud union is below ground level, typically two to four inches.\" || AF-24: \"Water deeply at planting.\" || AF-25: \"leaving about 5 to 12 inches of the cane.\""
+ },
+ {
+  "code": "MU",
+  "source": "University of Missouri Extension (revised by Dave Trinklein; original authors Chris Starbuck and Mary Kroening), \"Roses: Selecting and Planting\" (G6600), date not shown. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.missouri.edu/publications/g6600",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-3",
+   "AF-4",
+   "AF-6",
+   "AF-7",
+   "AF-8",
+   "AF-9",
+   "AF-15",
+   "AF-17",
+   "AF-18",
+   "AF-20",
+   "AF-22",
+   "AF-24",
+   "AF-25"
+  ],
+  "quote": "AF-1: \"Plants should be planted in a dormant condition if purchased bare rooted\" || AF-3: \"spring planting is preferred\" || AF-4: \"container-grown plants may be planted throughout the growing season.\" || AF-6: \"a minimum of six hours of bright sunlight each day.\" || AF-7: \"The water should drain from the hole in 90 to 120 minutes.\" || AF-8: \"The roots of most roses don't compete well with those of trees and shrubs planted close by.\" || AF-9: \"hybrid tea roses should be spaced 2-1/2 to 3 feet apart.\" || AF-15: \"Planting holes should be at least 12 to 16 inches deep and 18 to 20 inches wide.\" || AF-17: \"Soak the roots for several hours or overnight\" || AF-18: \"Soaking for more than 24 hours may damage the root system.\" || AF-20: \"In northern Missouri, this union should be 2 inches below soil level.\" || AF-22: \"In southeast Missouri, plant roses so that this union is slightly below the soil level.\" || AF-24: \"A minimum of one gallon of water should be applied at planting time.\" || AF-25: \"Packaged plants have been pruned and rarely need additional pruning.\""
+ },
+ {
+  "code": "ISU",
+  "source": "Iowa State University Extension and Outreach (Aaron Steil), \"How to Plant Bare Root Shrubs and Roses\", January 2025. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://yardandgarden.extension.iastate.edu/how-to/how-plant-bare-root-shrubs-and-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-3",
+   "AF-5",
+   "AF-15",
+   "AF-17",
+   "AF-18",
+   "AF-19",
+   "AF-20",
+   "AF-22",
+   "AF-24"
+  ],
+  "quote": "AF-3: \"Bare root shrubs must be planted in spring before growth begins.\" || AF-5: \"store them in a cool, non-freezing location at around 40°F, such as a refrigerator\" || AF-15: \"dig a hole that is two to two-and-a-half times wider than the spread of the shrub's root system\" || AF-17: \"soak the shrubs' roots in a bucket of water for one to two hours\" || AF-18: \"for one to two hours\" || AF-19: \"prune off damaged or broken roots\" || AF-20: \"the bud/graft union should be planted 2 to 4 inches below the soil surface\" || AF-22: \"the bud/graft union should be planted 2 to 4 inches below the soil surface\" || AF-24: \"Finally, water the shrub thoroughly.\""
+ },
+ {
+  "code": "OSU-AE",
+  "source": "Stephen Oldfield, Oregon State University Extension, via Ask Extension, \"Plant rose bud union above or below the soil? (#740633)\", 25 March 2021. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://ask.extension.org/kb/faq.php?id=740633",
+  "status": "Opened",
+  "findings": [
+   "AF-20",
+   "AF-22"
+  ],
+  "quote": "AF-20: \"In Eugene, plant with the bud union one inch above soil level\" || AF-22: \"The reasons for planting deeper include avoidance of cold damage and stabilizing against wind rock.\""
+ },
+ {
+  "code": "UAEX",
+  "source": "University of Arkansas Cooperative Extension Service, \"Transplanting\" (rose Q&A reference desk; entries dated 2007 to 2014). University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx",
+  "status": "Opened",
+  "findings": [
+   "AF-26",
+   "AF-27",
+   "AF-28",
+   "AF-33"
+  ],
+  "quote": "AF-26: \"The dormant season--November through February is considered the best transplant season for most hardy plants\" || AF-27: \"With proper care--mainly watering, you can successfully move most plants year-round.\" || AF-28: \"The best time to move roses would be February, the same time we prune them.\" || AF-33: \"Get it in the ground, mulch it and water.\""
+ },
+ {
+  "code": "AE-T",
+  "source": "Ask Extension (Cooperative Extension expert \"John\"; answering institution not shown on page), \"Timing for transplanting rose bushes\" (#872229), 10 June 2024. University extension network, US. Accessed 1 Oct 2026.",
+  "url": "https://ask.extension.org/kb/faq.php?id=872229",
+  "status": "Opened",
+  "findings": [
+   "AF-27",
+   "AF-29",
+   "AF-30",
+   "AF-33"
+  ],
+  "quote": "AF-27: \"You can still transplant the roses now; be sure to dig a good-sized root ball with them\" || AF-29: \"There's no need to prune them back first\" || AF-30: \"be sure to dig a good-sized root ball with them\" || AF-33: \"give them a little extra TLC (in the form of water) through the summer.\""
+ },
+ {
+  "code": "UW-PAL",
+  "source": "Elisabeth C. Miller Library, University of Washington, Plant Answer Line, \"Transplanting roses\", date not shown; answer cites Roses: 1001 Gardening Questions Answered (Garden Way Publishing, 1989). University library, US. Accessed 1 Oct 2026.",
+  "url": "https://depts.washington.edu/hortlib/pal/transplanting-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-16",
+   "AF-26",
+   "AF-29",
+   "AF-30",
+   "AF-31",
+   "AF-33"
+  ],
+  "quote": "AF-16: \"build a mound of soil, and spread the roots over it\" || AF-26: \"the best time to transplant it to its new location is early spring or late fall\" || AF-29: \"Before moving it, prune it, leaving three to four canes\" || AF-30: \"dig a circular trench one foot away from the crown of the plant\" || AF-31: \"dig a circular trench one foot away from the crown of the plant\" || AF-33: \"water carefully, neither too much nor too little\""
+ },
+ {
+  "code": "ARS-RRD",
+  "source": "David Zlesak, \"Advanced in Understanding Rose Replant Disease\", American Rose Society website, Fall 2013 / Winter 2014. Rose society, US. Accessed 1 Oct 2026.",
+  "url": "https://rose.org/advanced-in-understanding-rose-replant-disease/",
+  "status": "Opened",
+  "findings": [
+   "AF-11",
+   "AF-12",
+   "AF-13"
+  ],
+  "quote": "AF-11: \"they may not grow as well as they would if they were planted in soil never planted with roses.\" || AF-12: \"Nothing specific has been identified as the cause of this phenomenon.\" || AF-13: \"Crop rotation (using other species between crops of roses) is practiced in Germany by some rose nurseries.\""
+ },
+ {
+  "code": "NRS-T",
+  "source": "Ron Daniels (ARS Master Consulting Rosarian), Nashville Rose Society, \"Transplanting and Moving Rose Bushes\", 9 November 2020. Rose society (expert rosarian), US. Accessed 1 Oct 2026.",
+  "url": "https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/",
+  "status": "Opened",
+  "findings": [
+   "AF-19",
+   "AF-26",
+   "AF-28",
+   "AF-29",
+   "AF-30",
+   "AF-31",
+   "AF-32",
+   "AF-33",
+   "AF-35"
+  ],
+  "quote": "AF-19: \"Prune any broken roots before planting it at the new site.\" || AF-26: \"Late winter to early spring is the best time.\" || AF-28: \"In our zone #7, December through the first of February is the ideal time.\" || AF-29: \"Cut the canes back by 1/2 to compensate for root loss.\" || AF-30: \"Carefully dig around the plant (18″ – 24″) to cut roots on all sides with a sharp spade or shovel.\" || AF-31: \"Carefully dig around the plant (18″ – 24″)\" || AF-32: \"The day before you transplant your rose bushes, water the soil around the rose bush very well.\" || AF-33: \"Water thoroughly and mound the mulch around the bush\" || AF-35: \"I have moved over 100 rose bushes with great success.\""
+ },
+ {
+  "code": "FG-RRD",
+  "source": "Paul Zimmerman, Fine Gardening, \"Planting Roses where roses used to be. Do you have to remove all the old soil??\", 17 November 2011; modified 26 July 2023. Gardening magazine (rose specialist author), US. Accessed 1 Oct 2026.",
+  "url": "https://www.finegardening.com/article/planting-roses-where-roses-used-to-be-do-you-have-to-remove-all-the-old-soil",
+  "status": "Opened",
+  "findings": [
+   "AF-11",
+   "AF-13"
+  ],
+  "quote": "AF-11: \"The old method of dealing with rose replant disease was to remove all the old soil and replace it with fresh soil.\" || AF-13: \"It has been proven that roses treated with mycorrhizal fungi thrive in soil where roses used to be.\""
+ },
+ {
+  "code": "FG-SP",
+  "source": "Paul Zimmerman, Fine Gardening, \"What Is The Proper Spacing When Planting Roses?\", 28 April 2011; modified 26 July 2023. Gardening magazine (rose specialist author), US. Accessed 1 Oct 2026.",
+  "url": "https://www.finegardening.com/article/what-is-the-proper-spacing-when-planting-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-10"
+  ],
+  "quote": "AF-9: \"plant them anywhere from 20 inches to 30 inches apart depending on the ultimate size of the plant.\" || AF-10: \"The reason given is that magic air circulation argument.\""
+ },
+ {
+  "code": "HEIR",
+  "source": "Heirloom Roses (Robin Jennings), \"How To Transplant or Move a Rose Bush\", 13 April 2023. Commercial (own-root rose nursery), US. Accessed 1 Oct 2026.",
+  "url": "https://heirloomroses.com/blogs/how-to-articles/transplanting-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-26",
+   "AF-27",
+   "AF-29",
+   "AF-30",
+   "AF-33"
+  ],
+  "quote": "AF-26: \"The best time to transplant is always during the dormant season in early spring\" || AF-27: \"roses are adaptable to being moved to a new home\" || AF-29: \"Cut the rose canes back to 10-12 inches and remove any foliage\" || AF-30: \"Take as many of the roots with you as possible.\" || AF-33: \"Water the new rose every day for a week or two depending on your weather.\""
+ },
+ {
+  "code": "SR-NZ",
+  "source": "Southern Roses, \"Rose Care New Zealand\". Commercial (rose nursery), New Zealand. Page returned HTTP 403. Not read. Accessed (attempted) 1 Oct 2026.",
+  "url": "https://www.southernroses.co.nz/rose-care/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "STUFF-T",
+  "source": "Stuff (New Zealand), \"The right way to transplant a rose\". Extraction returned page metadata only, no article text. Not read. Accessed (attempted) 1 Oct 2026.",
+  "url": "https://www.stuff.co.nz/life-style/home-property/83263203/how-to-transplant-a-rose",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "AE-RS",
+  "source": "Ask Extension, \"How do I avoid rose sickness (replant disease) when I replace a rose bush?\". Fetch failed (robots.txt lookup error). Not read. Accessed (attempted) 1 Oct 2026.",
+  "url": "https://ask2.extension.org/kb/faq.php?id=204015",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "ILL-PL",
+  "source": "University of Illinois Extension, \"Planting - Our Rose Garden\". URL redirected to the general roses page; the planting page was not read. Accessed (attempted) 1 Oct 2026.",
+  "url": "https://web.extension.illinois.edu/roses/planting.cfm",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "NRS-BR",
+  "source": "Marty Reich, Nashville Rose Society, \"Recommended Planting Procedure for Bare Root Roses\", 28 September 2017. Opened; describes potting bare-root roses before garden planting, so not relied on. Accessed 1 Oct 2026.",
+  "url": "https://www.nashvillerosesociety.org/recommended-planting-procedure-for-bare-root-roses/",
+  "status": "Opened (not relied on)",
+  "findings": [],
+  "quote": ""
+ }
+]

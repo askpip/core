@@ -13,7 +13,7 @@ import { PlantProject } from '@/pages/PlantProject'
 import { useAuth } from '@/lib/auth'
 import { lilRevision, loadLiveLil, subscribeLil } from '@/data/pkr'
 import { fetchPublishedLil } from '@/lib/lil'
-import roseBackground from '@/assets/pip/rose-background.jpg'
+import roseBackground from '@/assets/pip/rose-background.webp'
 
 /** Redirects to the sign-in gate unless there's a live Supabase session. */
 function RequireAuth({ children }: { children: ReactElement }) {

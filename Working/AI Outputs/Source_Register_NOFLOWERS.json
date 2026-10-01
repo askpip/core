@@ -1,0 +1,570 @@
+[
+ {
+  "code": "RHS-BLIND",
+  "source": "Royal Horticultural Society, \"Rose blindness\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/problems/rose-blindness",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-6",
+   "AF-21",
+   "AF-22",
+   "AF-23",
+   "AF-24"
+  ],
+  "quote": "AF-1: \"the plant being grown in an excessively shady area\" || AF-1: \"Ensure roses are grown in a sunny, open position\" || AF-6: \"Improve growing conditions by feeding with a proprietary rose fertiliser and mulching\" || AF-21: \"Flowering shoots develop normally, but fail to develop a terminal flower bud.\" || AF-21: \"Leaf and stem growth can appear perfectly healthy, with no sign of dieback.\" || AF-22: \"The cause is unknown, but could be linked to environmental factors such as adverse weather conditions damaging the shoot tip\" || AF-23: \"some rose cultivars are particularly prone to this problem\" || AF-24: \"Cut a blind shoot back by half to a strong bud to stimulate further growth.\""
+ },
+ {
+  "code": "RHS-BALL",
+  "source": "Royal Horticultural Society, \"Flower balling\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/problems/flower-balling",
+  "status": "Opened",
+  "findings": [
+   "AF-25",
+   "AF-26",
+   "AF-27"
+  ],
+  "quote": "AF-25: \"Flower balling is a disorder in which flower buds develop normally but do not open.\" || AF-25: \"Cool, wet weather saturates the outer petals and then the sunshine dries and fuses them into a tight, papery shell\" || AF-25: \"When the outer petals are prized apart, the inner petals appear normal.\" || AF-25: \"Thin-petalled, double flowers such as rose, peony and camellia cultivars are most susceptible to this condition.\" || AF-26: \"Remove balled buds promptly before grey mould sets in as it can infect other blooms.\" || AF-26: \"There are no chemicals treatments for this disorder.\" || AF-27: \"Remove balled buds promptly before grey mould sets in as it can infect other blooms.\""
+ },
+ {
+  "code": "RHS-FAQ",
+  "source": "Royal Horticultural Society, \"Rose problems: frequently asked questions\", date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/frequently-asked-questions",
+  "status": "Opened",
+  "findings": [
+   "AF-21",
+   "AF-25"
+  ],
+  "quote": "AF-21: \"This is often the result of a poorly understood problem known as rose blindness.\" || AF-25: \"This is a condition known as flower balling, usually caused by cool, wet weather.\""
+ },
+ {
+  "code": "DA-FAQ",
+  "source": "David Austin Roses, \"Rose Questions & FAQs\" (US site), date not shown. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://davidaustinroses.com/us/help-and-faq",
+  "status": "Opened",
+  "findings": [
+   "AF-14",
+   "AF-16",
+   "AF-18"
+  ],
+  "quote": "AF-14: \"These roses flower on older growth and may not bloom until their second year in your garden.\" || AF-16: \"The most likely cause is that you have purchased a once-flowering variety.\" || AF-18: \"Newly planted roses often focus their energy on developing a strong root system during their first season.\""
+ },
+ {
+  "code": "DA-BAS",
+  "source": "David Austin Roses (Megan Edmondson), \"The Basics of Growing Roses\", 6 January 2026. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.com/blogs/rose-care/the-basics-of-growing-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2"
+  ],
+  "quote": "AF-1: \"In lighter shade they will still grow, often with a little fewer blooms\" || AF-2: \"Most varieties flower best with at least four hours of direct sun each day.\""
+ },
+ {
+  "code": "DA-ONCE",
+  "source": "David Austin Roses (Megan Edmondson), \"Finding the Right Rose for Your Garden: How Often Would You Like Your Rose to Flower?\", 10 April 2026. Commercial rose breeder and nursery, UK. Accessed 1 Oct 2026.",
+  "url": "https://www.davidaustinroses.com/blogs/inspiration/finding-the-right-rose-for-your-garden-how-often-would-you-like-your-rose-to-flower-1",
+  "status": "Opened",
+  "findings": [
+   "AF-16",
+   "AF-17"
+  ],
+  "quote": "AF-16: \"They bloom just once, usually in early summer, but do so with remarkable generosity.\" || AF-17: \"They begin with an early summer flush, then return in waves, often continuing until the first frosts.\""
+ },
+ {
+  "code": "AE-CSU",
+  "source": "Alison O'Connor, PhD, Colorado State University Extension (Larimer County), answer on Ask Extension, \"Roses not Blooming\" (#265086), 28 July 2015. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://ask.extension.org/kb/faq.php?id=265086",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-5",
+   "AF-6",
+   "AF-8",
+   "AF-16",
+   "AF-18",
+   "AF-28",
+   "AF-31"
+  ],
+  "quote": "AF-1: \"Roses need at least 6-8 hours of direct sun a day to perform well.\" || AF-2: \"Roses need at least 6-8 hours of direct sun a day to perform well.\" || AF-5: \"Too much fertilizer can either damage the plant or cause it to grow extra leaves and stems at the expense of blooms.\" || AF-6: \"Inadequate foliage may result from disease or too little fertilizer.\" || AF-8: \"Roses like at least an inch of water per week during the growing season.\" || AF-16: \"This means it will bloom only once a year in the late spring or early summer.\" || AF-18: \"Don't expect too much from a plant during its first year.\" || AF-28: \"a disease or insect problem, such as black spot or thrips\" || AF-31: \"If the bush doesn't have adequate foliage, it can't produce the food it needs to make new flowers.\""
+ },
+ {
+  "code": "AE-ILL",
+  "source": "Ask Extension, \"Roses don't bloom\" (#787816), answered 25 April 2022 by an unnamed Ask Extension expert (the answer links to Illinois Extension; affiliation not stated). University extension network, US. Accessed 1 Oct 2026.",
+  "url": "https://ask.extension.org/kb/faq.php?id=787816",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-5",
+   "AF-11",
+   "AF-14",
+   "AF-21",
+   "AF-22"
+  ],
+  "quote": "AF-1: \"Rose bushes love the sun and need to get a minimum of five hours of sunlight.\" || AF-2: \"Rose bushes love the sun and need to get a minimum of five hours of sunlight.\" || AF-5: \"Too much nitrogen in the soil also can cause excessive green growth, but little or no flowers.\" || AF-11: \"the likely culprit is over pruning and perhaps over fertilizing.\" || AF-14: \"Old garden roses and wild roses typically bloom once, and you should prune them in the summer after their bloom cycle has finished.\" || AF-21: \"Rose bushes from time to time push out canes that are called 'blind shoots.'\" || AF-22: \"along with over-fertilization and lack of enough sunlight.\""
+ },
+ {
+  "code": "AE-UVM",
+  "source": "Jessie, UVM Extension Master Gardener Volunteer, answer on Ask Extension, \"Healthy Rose Bushes do not bloom\" (#803453), 29 July and 23 August 2022. University extension (volunteer), US. Accessed 1 Oct 2026.",
+  "url": "https://ask.extension.org/kb/faq.php?id=803453",
+  "status": "Opened",
+  "findings": [
+   "AF-14",
+   "AF-16"
+  ],
+  "quote": "AF-14: \"those need to be pruned immediately after blooming.\" || AF-16: \"It's definitely not a hybrid tea rose!\""
+ },
+ {
+  "code": "CLEM",
+  "source": "Nancy Doubrava and Robert F. Polomski, Clemson Cooperative Extension Home & Garden Information Center, \"Why Plants Fail to Flower or Fruit\", 31 August 2018 (originally 1999). University extension, US; general guidance, not rose-specific. Accessed 1 Oct 2026.",
+  "url": "https://hgic.clemson.edu/factsheet/why-plants-fail-to-flower-or-fruit/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-5",
+   "AF-8",
+   "AF-10",
+   "AF-14"
+  ],
+  "quote": "AF-1: \"Lack of adequate light is another very common reason that many types of plants do not flower.\" || AF-5: \"Too much nitrogen can cause plants to produce primarily leaves and stems.\" || AF-8: \"Flowers or flower buds dry and drop off when there is temporary lack of moisture in the plants.\" || AF-10: \"Cold weather may kill flower buds or partially opened flowers.\" || AF-14: \"Cutting back a plant severely, such as with climbing roses, can remove all the flowering wood.\""
+ },
+ {
+  "code": "UCIPM-C",
+  "source": "J.F. Karlik, UC Statewide IPM Program, \"Roses: Cultural Practices and Weed Control\", updated July 2019. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://ipm.ucanr.edu/home-and-landscape/roses-cultural-practices-and-weed-control/",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-5",
+   "AF-8",
+   "AF-12",
+   "AF-19"
+  ],
+  "quote": "AF-2: \"roses do best with 6 hours or more of direct sun\" || AF-5: \"Too much nitrogen may shift plants into vegetative growth at the expense of flowers\" || AF-8: \"Drought stress leads to defoliation and sunburn of canes\" || AF-12: \"Less pruning preserves the size of plants and results in a greater number of smaller flowers\" || AF-19: \"Removal of spent rose blossoms allows the plant to conserve energy and leads to further flower production\""
+ },
+ {
+  "code": "UCIPM-I",
+  "source": "UC Statewide IPM Program, \"Roses: Insects and Mites\" (Pest Notes), updated October 2019. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://ipm.ucanr.edu/home-and-landscape/roses-insects-and-mites/",
+  "status": "Opened",
+  "findings": [
+   "AF-28",
+   "AF-29",
+   "AF-30"
+  ],
+  "quote": "AF-28: \"primarily cause injury to rose flowers, causing blossom petals to streak with brown or become distorted\" || AF-29: \"some caterpillars, like the tobacco budworm, may bore into flower buds\" || AF-30: \"Hatching larvae move into flower buds to feed, leaving the injured buds to wither, blacken, and die\""
+ },
+ {
+  "code": "UMD",
+  "source": "University of Maryland Extension, \"Rose: Identify and Manage Problems\", updated 10 June 2024. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.umd.edu/resource/rose-identify-and-manage-problems",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-5",
+   "AF-9",
+   "AF-10",
+   "AF-11",
+   "AF-28",
+   "AF-30",
+   "AF-31",
+   "AF-33"
+  ],
+  "quote": "AF-1: \"Environmental (weather) stresses, shady conditions, excessive lush growth from too much fertilizer, improper pruning (either too much, too little, or at the wrong time)\" || AF-5: \"excessive lush growth from too much fertilizer\" || AF-9: \"Environmental (weather) stresses\" || AF-10: \"winter-kill, and pesticides are some possible reasons for poor flowering.\" || AF-11: \"improper pruning (either too much, too little, or at the wrong time)\" || AF-28: \"Irregular white or brown streaks on flowers and/or irregular streaking on the upper surfaces of leaves are symptoms of damage from thrips.\" || AF-30: \"Flower buds that do not form correctly, turn brown or black and wither\" || AF-31: \"causes severe loss of foliage on susceptible rose cultivars which over several seasons can lead to dead plants\" || AF-33: \"winter-kill, and pesticides are some possible reasons for poor flowering.\""
+ },
+ {
+  "code": "OKS-R",
+  "source": "David Hillock and Mike Schnelle, Oklahoma State University Extension, \"Roses in Oklahoma\" (fact sheet), October 2016. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.okstate.edu/fact-sheets/roses-in-oklahoma",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-3",
+   "AF-11",
+   "AF-12"
+  ],
+  "quote": "AF-2: \"Rose plants should have at least six hours of full sun.\" || AF-3: \"Roses seldom prosper in the vicinity of such fibrous rooted trees as birch, elm, maple, willow, oak, and others.\" || AF-3: \"Avoid planting roses under the branches of trees where they may suffer from a lack of light and competition with tree roots.\" || AF-11: \"Too much spring pruning can weaken plants.\" || AF-12: \"If only a few large flowers are preferred, cut the plants more severely.\""
+ },
+ {
+  "code": "OKS-BS",
+  "source": "Oklahoma State University Extension, Digital Diagnostics, \"Black Spot of Rose\", 13 April 2021. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.okstate.edu/programs/digital-diagnostics/plant-diseases/black-spot-of-rose",
+  "status": "Opened",
+  "findings": [
+   "AF-31"
+  ],
+  "quote": "AF-31: \"Repeated severe defoliation weakens the plant so that it produces fewer and poorer quality blooms\""
+ },
+ {
+  "code": "NMSU",
+  "source": "M. Douglas Bryant, rev. Curtis Smith, New Mexico State University Cooperative Extension, \"Growing Roses\", Guide H-165, revised May 2005. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://pubs.nmsu.edu/_h/H165/index.html",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-3",
+   "AF-6",
+   "AF-8"
+  ],
+  "quote": "AF-2: \"Plant roses where they will receive 6 hours or more of sun during the day.\" || AF-3: \"Do not plant them under trees.\" || AF-6: \"Nitrogen is the main nutrient responsible for this required cyclic growth.\" || AF-8: \"Leaves are pale and limp when stressed for moisture.\""
+ },
+ {
+  "code": "ILL-PREP",
+  "source": "University of Illinois Extension, \"Preparation\" (Our Rose Garden series), date not shown. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.illinois.edu/roses/preparation",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-3"
+  ],
+  "quote": "AF-2: \"Roses should receive at least six hours of sun a day.\" || AF-3: \"The roots of roses don't compete well with those of trees and other shrubs.\" || AF-3: \"It is recommended that roses be planted as far away from competing trees and shrubs as possible.\""
+ },
+ {
+  "code": "ILL-PRUNE",
+  "source": "University of Illinois Extension, \"Pruning\" (Our Rose Garden series), date not shown. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://extension.illinois.edu/roses/pruning",
+  "status": "Opened",
+  "findings": [
+   "AF-11",
+   "AF-14",
+   "AF-15"
+  ],
+  "quote": "AF-11: \"This usually means removing about one-half to two-thirds of the plant's height and reducing the number of canes.\" || AF-14: \"Old once-blooming roses such as Alba, Gallica, Centifolia, Damasks, and Mosses produce flowers on old wood, all pruning should be delayed until after flowering.\" || AF-15: \"Roses like hybrid teas, grandifloras, floribundas, and miniatures produce the best flowers on new or current season's wood.\""
+ },
+ {
+  "code": "ISU",
+  "source": "Iowa State University Extension and Outreach, Yard and Garden, \"Rose Care by Season\", last reviewed June 2025. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://yardandgarden.extension.iastate.edu/how-to/rose-care-season",
+  "status": "Opened",
+  "findings": [
+   "AF-19",
+   "AF-20"
+  ],
+  "quote": "AF-19: \"Deadheading or removing faded flowers is done to encourage additional bloom on modern and other repeat-flowering roses.\" || AF-20: \"The development of rose hips (fruits) slows plant growth and helps prepare the plants for winter.\""
+ },
+ {
+  "code": "UAEX-P",
+  "source": "University of Arkansas Cooperative Extension Service, \"Pruning\" (Roses reference desk, Garden Q&A), questions dated March 2010 and February 2011. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx",
+  "status": "Opened",
+  "findings": [
+   "AF-13",
+   "AF-15"
+  ],
+  "quote": "AF-13: \"if you haven't pruned yet, do so immediately or it can delay the onset of the first blooms.\" || AF-15: \"Knock outs bloom on the new growth, so late pruning simply delays the first flowers.\""
+ },
+ {
+  "code": "UAEX-G",
+  "source": "University of Arkansas Cooperative Extension Service, \"General Info: Roses\" (Roses reference desk, Garden Q&A), questions dated October 2007 and September 2012. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/general-info.aspx",
+  "status": "Opened",
+  "findings": [
+   "AF-9",
+   "AF-31"
+  ],
+  "quote": "AF-9: \"they slowed down or stopped blooming just to stay alive.\" || AF-31: \"Black spot can weaken a rose bush, and if it occurs year after year, it can weaken it enough for it to die\""
+ },
+ {
+  "code": "UGA",
+  "source": "Gary L. Wade, James T. Midcap, Jean Williams-Woodward and Beverly Sparks, University of Georgia Cooperative Extension, \"Rose Culture for Georgia Gardeners\", Bulletin 671, reviewed April 2009. University extension, US. Accessed 1 Oct 2026.",
+  "url": "https://secure.caes.uga.edu/extension/publications/files/pdf/B%20671_2.PDF",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-12",
+   "AF-28",
+   "AF-34"
+  ],
+  "quote": "AF-2: \"Roses require a minimum of six hours of sunlight each day.\" || AF-12: \"Generally, weak-growing varieties are pruned lightly while vigorous growing varieties are pruned more heavily.\" || AF-28: \"Thrips enter developing flower buds to feed and cause petals to become flecked and discolored.\" || AF-34: \"Many rose failures can be linked directly to poor site location.\""
+ },
+ {
+  "code": "UW",
+  "source": "Elisabeth C. Miller Library, University of Washington Botanic Gardens, Plant Answer Line, \"rose bush buds won't open\", date not shown (quotes the Olympia Rose Society and UC Davis). University botanic garden library, US. Accessed 1 Oct 2026.",
+  "url": "https://depts.washington.edu/hortlib/pal/rose-bush-buds-wont-open",
+  "status": "Opened",
+  "findings": [
+   "AF-27",
+   "AF-28"
+  ],
+  "quote": "AF-27: \"Affected plants have spotted flower petals and buds that fail to open, often with woolly gray fungal spores on decaying tissue.\" || AF-28: \"Buds do not open, or flowers are deformed. Petals have brownish yellow streaks\""
+ },
+ {
+  "code": "ARS-RRP",
+  "source": "Suzanne Gilbert, American Rose Society, \"Right Rose, Right Place\", 18 January 2023. Rose society, US. Accessed 1 Oct 2026.",
+  "url": "https://rose.org/right-rose-right-place-2/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-3",
+   "AF-4"
+  ],
+  "quote": "AF-1: \"Roses growing in too much shade will not produce many blooms and develop disease.\" || AF-2: \"Roses require about 6-8 hours of sun daily.\" || AF-3: \"Tree roots will steal water and nutrients your rose needs.\" || AF-4: \"A rose planted under a tree might be growing in sun at first. After a few years it will be in shade.\""
+ },
+ {
+  "code": "MARIN",
+  "source": "Nanette Londeree, Marin Rose Society, \"Keeping Roses Healthy in a Drought\", 24 May 2020. Local rose society (ARS-affiliated), US. Accessed 1 Oct 2026.",
+  "url": "https://www.marinrose.org/care/keeping-roses-healthy-in-a-drought/",
+  "status": "Opened",
+  "findings": [
+   "AF-8",
+   "AF-9"
+  ],
+  "quote": "AF-8: \"they avoid water stress by dropping their leaves, producing small blooms, or becoming virtually dormant\" || AF-9: \"the plant may not grow or produce many flowers during the hot summer months\""
+ },
+ {
+  "code": "LBG",
+  "source": "Larry Hodgson, Laidback Gardener (blog of a horticultural writer), \"Dude, Who Switched My Rose Bush?\", 21 May 2015. Horticultural writer, Canada. Accessed 1 Oct 2026.",
+  "url": "https://laidbackgardener.blog/2015/05/21/dude-who-switched-my-rose-bush/",
+  "status": "Opened",
+  "findings": [
+   "AF-32"
+  ],
+  "quote": "AF-32: \"died during the winter, but its rootstock, a very different rose, survived and sent up shoots of its own.\" || AF-32: \"The resulting roses are small-flowered roses\""
+ },
+ {
+  "code": "NZRS-FAQ",
+  "source": "The New Zealand Rose Society, \"FAQ\", date not shown (page metadata shows modification 30 March 2026). Rose society, New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://nzroses.org.nz/faq/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-17"
+  ],
+  "quote": "AF-1: \"Mix your roses in with other garden plants in a spot that gets full sun.\" || AF-17: \"Roses flower in New Zealand from late October through to May.\""
+ },
+ {
+  "code": "YAT-NZ",
+  "source": "Yates New Zealand, \"How to grow roses in the garden\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/growing-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-3"
+  ],
+  "quote": "AF-1: \"Roses need a sunny position to grow and flower well.\" || AF-3: \"They should not be grown too close to other shrubs or trees that will compete with them for light, moisture and nutrients.\""
+ },
+ {
+  "code": "TUI",
+  "source": "Tui Garden, \"Rose Growing Guide\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://tuigarden.co.nz/how-to-guide/rose-growing-guide/",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-11"
+  ],
+  "quote": "AF-2: \"as a rule of thumb roses need at least five hours sun a day\" || AF-11: \"Pruning your roses each year will keep them in tip top shape and improve flowering!\""
+ },
+ {
+  "code": "PALM",
+  "source": "Palmers Garden Centre, \"Year Round Rose Care\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/year-round-rose-care",
+  "status": "Opened",
+  "findings": [
+   "AF-2",
+   "AF-19"
+  ],
+  "quote": "AF-2: \"Five hours of sunlight is adequate.\" || AF-2: \"Roses love lots of sun but they will be fine with some afternoon shade.\" || AF-19: \"It is necessary to remove spent flowers to conserve the plant's energy and encourage repeat blooms.\""
+ },
+ {
+  "code": "KINGS",
+  "source": "Kings Plant Barn, \"Roses - Grow Well Guides\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://www.kings.co.nz/growing-guides/roses",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-6",
+   "AF-19"
+  ],
+  "quote": "AF-1: \"Roses are best planted in a sheltered position that gets full sun.\" || AF-6: \"Keep your roses well fed to ensure they stay happy, healthy, and full of flowers.\" || AF-19: \"Deadhead old flowers to encourage new growth and repeat flowering.\""
+ },
+ {
+  "code": "GU-H",
+  "source": "Hayden Foulds, GrownUps New Zealand, \"Heritage Roses\" (rose column), date not shown. General-interest website (rose columnist), New Zealand. Accessed 1 Oct 2026.",
+  "url": "https://grownups.co.nz/life/gardening/heritage-roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-16"
+  ],
+  "quote": "AF-16: \"many varieties only will bloom once and some can get very large in size.\""
+ },
+ {
+  "code": "VSRG-B",
+  "source": "Victoria State Rose Garden, Werribee Park (\"Wal J\"), \"Blind Shoots\", April 2017. Public rose garden volunteers, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.vicstaterosegarden.com.au/about/rose-stories/blind-shoots",
+  "status": "Opened",
+  "findings": [
+   "AF-21",
+   "AF-22",
+   "AF-23",
+   "AF-24"
+  ],
+  "quote": "AF-21: \"laterals malfunction and instead of producing a bud, they go \"blind\".\" || AF-22: \"A single proven and accepted cause is still unknown.\" || AF-23: \"quite common, particularly, for some reason, on red HTs.\" || AF-24: \"If you see blind shoots, you should cut the lateral back to the next lower stipule.\" || AF-24: \"cut the entire lateral off. It will never do anything.\""
+ },
+ {
+  "code": "TRE-BOT",
+  "source": "Treloar Roses, \"Botrytis\", date not shown. Commercial (rose nursery), Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.treloarroses.com.au/Botrytis-Roses",
+  "status": "Opened",
+  "findings": [
+   "AF-25",
+   "AF-26",
+   "AF-27"
+  ],
+  "quote": "AF-25: \"Sometimes buds will ball and fail to open, leaving a head of brown petals.\" || AF-26: \"Cut off the offending bud, increase air circulation around the plant and do not overhead water.\" || AF-27: \"Botrytis is a fungus that is more prevalent in cool, wet weather and generally only effects the flower head and neck.\""
+ },
+ {
+  "code": "TRE-FAQ",
+  "source": "Treloar Roses, \"Frequently Asked Questions\", date not shown. Commercial (rose nursery), Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.treloarroses.com.au/Frequently-Asked-Questions",
+  "status": "Opened",
+  "findings": [
+   "AF-13",
+   "AF-18"
+  ],
+  "quote": "AF-13: \"It takes approximately 6-8 weeks for a rose to produce a flower.\" || AF-18: \"Most roses will flower in their first spring / summer after planting.\""
+ },
+ {
+  "code": "TRE-SH",
+  "source": "Treloar Roses, \"Roses Ideal For... Shaded Areas\", date not shown. Commercial (rose nursery), Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.treloarroses.com.au/View-Our-Roses/Roses-Ideal-For/Shaded-Areas",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2"
+  ],
+  "quote": "AF-1: \"the less sunlight a rose receives the less flowers and less vigorous the plant will be.\" || AF-2: \"It is recommended that roses receive at least 6 hours of direct sunlight each day.\""
+ },
+ {
+  "code": "YAT-AU",
+  "source": "Yates Australia, \"How to Grow Roses\", date not shown. Commercial (garden products), Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.yates.com.au/how-to-grow/roses/",
+  "status": "Opened",
+  "findings": [
+   "AF-1",
+   "AF-2",
+   "AF-5",
+   "AF-6",
+   "AF-7",
+   "AF-34"
+  ],
+  "quote": "AF-1: \"the cause for lack of flowers might include lack of sun\" || AF-2: \"Plant Roses in a spot that receives 6-8 hours of full sun.\" || AF-5: \"the use of a high nitrogen and low potassium fertiliser.\" || AF-6: \"lack of sun, lack of nutrients\" || AF-7: \"These fertilisers are rich in potassium, a key nutrient in promoting flowering.\" || AF-34: \"If the plant is generally healthy and there are no signs of pests and diseases\""
+ },
+ {
+  "code": "YAT-BUD",
+  "source": "Yates Australia, \"How to Get Rid of Budworms in Your Garden\", date not shown. Commercial (garden products), Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.yates.com.au/garden-hub/budworms/",
+  "status": "Opened",
+  "findings": [
+   "AF-29"
+  ],
+  "quote": "AF-29: \"Holes in flower buds and fruit.\""
+ },
+ {
+  "code": "RSWA",
+  "source": "The Rose Society of Western Australia, \"Bugs\", date not shown. Rose society, Australia. Accessed 1 Oct 2026.",
+  "url": "https://www.rosesocietywa.au/bugs",
+  "status": "Opened",
+  "findings": [
+   "AF-29"
+  ],
+  "quote": "AF-29: \"The caterpillars feed on leaves first, then burrow into buds, preventing flowers from opening properly.\""
+ },
+ {
+  "code": "RSNSW",
+  "source": "The Rose Society of NSW, \"Rose Growing Advice\", date not shown. Rose society, Australia. Accessed 1 Oct 2026.",
+  "url": "https://nsw.rose.org.au/growing-roses",
+  "status": "Opened",
+  "findings": [
+   "AF-6"
+  ],
+  "quote": "AF-6: \"Roses are hungry plants and ideally should be fed at least four times every year.\""
+ },
+ {
+  "code": "TANTAU",
+  "source": "Rosen Tantau, \"Blind shoots are budless rose shoots with bent tips\" (care tips), date not shown. Commercial (rose breeder), Germany. Accessed 1 Oct 2026.",
+  "url": "https://www.rosen-tantau.com/en/legal/care-tipps/blind-shoots/",
+  "status": "Opened",
+  "findings": [
+   "AF-21",
+   "AF-22",
+   "AF-23",
+   "AF-24"
+  ],
+  "quote": "AF-21: \"individual shoots do not show bud growth and the shoot tip with the vegetation point is no longer visible or even dried up\" || AF-22: \"Blind shoots can result from large temperature differences between day and night temperatures.\" || AF-23: \"This phenomenon is more often observed in more frequently flowering and fast-shooting hybrid tea roses.\" || AF-24: \"stimulate the rose plant by pruning the blind shoot to the next fully formed five-leaf.\""
+ },
+ {
+  "code": "GU-F",
+  "source": "Hayden Foulds, GrownUps New Zealand, \"Fertilising Roses\". Page returned HTTP 403. Not read. Accessed (attempted) 1 Oct 2026.",
+  "url": "https://grownups.co.nz/life/gardening/hayden-foulds-fertilising-roses/",
+  "status": "Located (title match only)",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "AE-717",
+  "source": "Ask Extension, \"No bloom roses\" (#717372), 25 August 2020, unnamed expert. Opened; not relied on (no attribution; blind-shoot wording repeats AE-ILL). Accessed 1 Oct 2026.",
+  "url": "https://ask.extension.org/kb/faq.php?id=717372",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "AE-RICH",
+  "source": "Robert \"Skip\" Richter, Ask Extension, \"Rose plant not flowering\" (#311469), April 2016; affiliation not shown on page. Opened; not relied on (single-case answer, affiliation not shown). Accessed 1 Oct 2026.",
+  "url": "https://ask.extension.org/kb/faq.php?id=311469",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "PUR",
+  "source": "Rosie Lerner, Purdue University, \"Why plants fail to bloom\", 18 May 2017. General guidance; opened, not relied on (duplicates CLEM; not rose-specific). Accessed 1 Oct 2026.",
+  "url": "https://www.purdue.edu/hla/sites/yardandgarden/why-plants-fail-to-bloom-2/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "RHS-PL",
+  "source": "Royal Horticultural Society, \"Roses: planting\". Opened; no site, sun or tree-root content found. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/plants/roses/planting",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "RHS-FROST",
+  "source": "Royal Horticultural Society, \"Frost damage\". Opened; no rose-specific content. Accessed 1 Oct 2026.",
+  "url": "https://www.rhs.org.uk/prevention-protection/frost-damage",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "GA-LAR",
+  "source": "ABC Gardening Australia (Sophie Thomson), \"Looking After Roses\", 3 July 2010. Opened; no content on poor flowering. Accessed 1 Oct 2026.",
+  "url": "https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "GA-FAQ",
+  "source": "ABC Gardening Australia (Jerry Coleby-Williams), \"FAQs\" (roses for the subtropics), 13 November 2020. Opened; addresses variety choice for the subtropics, not poor flowering. Accessed 1 Oct 2026.",
+  "url": "https://www.abc.net.au/gardening/how-to/faqs-no-fruit-on-citrus-roses-for-subtropics-parsnip-prob/12882508",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": ""
+ },
+ {
+  "code": "MATT",
+  "source": "Matthews Nurseries, \"Advice\". Opened; deadheading statement returned by one extraction only and not re-checked. Accessed 1 Oct 2026.",
+  "url": "https://www.matthewsroses.co.nz/advice/",
+  "status": "Opened, not relied on",
+  "findings": [],
+  "quote": ""
+ }
+]

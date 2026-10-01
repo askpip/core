@@ -15,6 +15,22 @@ interface RoseTypeQuestionProps {
  * gardener sees the same approved wording in both places. "I know its
  * variety name but not its type" leads to the Rose Finder and is never saved.
  */
+/**
+ * Shows an approved answer label as a short title with its own bracketed
+ * detail underneath ("Hybrid Tea (large-flowered)" → "Hybrid Tea" /
+ * "large-flowered"). Display only: the wording is PKR-SGT-000003's, unchanged.
+ */
+function AnswerLabel({ label }: { label: string }) {
+  const m = label.match(/^(.*?) \((.*)\)$/)
+  if (!m) return <>{label}</>
+  return (
+    <span className="flex flex-col leading-snug">
+      <span>{m[1]}</span>
+      <span className="text-sm font-normal opacity-90">{m[2]}</span>
+    </span>
+  )
+}
+
 export function RoseTypeQuestion({ onAnswer, onSkip, disabled }: RoseTypeQuestionProps) {
   const [showFinder, setShowFinder] = useState(false)
 
@@ -45,7 +61,9 @@ export function RoseTypeQuestion({ onAnswer, onSkip, disabled }: RoseTypeQuestio
   return (
     <div className="flex flex-col gap-2">
       {ROSE_TYPE_GATE.labelAbbreviations && (
-        <p className="text-xs text-pip-text-soft">{ROSE_TYPE_GATE.labelAbbreviations.text}</p>
+        <p className="rounded-xl border border-pip-border bg-pip-bg px-3.5 py-2.5 text-sm text-pip-text-soft">
+          {ROSE_TYPE_GATE.labelAbbreviations.text}
+        </p>
       )}
       {ROSE_TYPE_GATE.answers.map((a) => (
         <Button
@@ -54,7 +72,7 @@ export function RoseTypeQuestion({ onAnswer, onSkip, disabled }: RoseTypeQuestio
           variant={a.passes ? 'primary' : 'secondary'}
           onClick={() => (a.id === 'variety-only' ? setShowFinder(true) : onAnswer(a.id))}
         >
-          {a.label}
+          <AnswerLabel label={a.label} />
         </Button>
       ))}
       {onSkip && (

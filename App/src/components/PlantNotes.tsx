@@ -20,7 +20,7 @@ function NoteCard({ note, onRemove }: NoteCardProps) {
     <div className="rounded-xl bg-pip-card p-3 shadow-sm">
       <div className="flex items-start justify-between gap-2">
         <div className="min-w-0">
-          <p className="text-[11px] text-pip-text-soft">{dateLabel}</p>
+          <p className="text-xs text-pip-text-soft">{dateLabel}</p>
           <p className="mt-0.5 whitespace-pre-wrap break-words text-sm text-pip-text">{note.note}</p>
         </div>
 
