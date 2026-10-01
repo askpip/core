@@ -7,7 +7,8 @@ import { ResponseBubble } from '@/components/ResponseBubble'
 import { Button } from '@/components/Button'
 import { cn } from '@/lib/utils'
 
-// DRAFT CONCEPT COPY — not Founder-approved phrasing. See
+// Wording approved "for now" by Shaphan in chat, 2 October 2026 (including the
+// Google Gemini photo disclosure); still open to revision. See
 // Working/AI Outputs/Ask_Pip_Bush_Rose_Guided_Journey_Flow_Proposal.md
 // section 9.1, which this page builds: the five questions a gardener should
 // be able to get answered at any time (what Pip helps with, why it works

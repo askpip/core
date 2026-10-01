@@ -483,7 +483,7 @@ export function Journey() {
 
   const roseName = roseTypeName(roseType ?? undefined)
 
-  // Whole-session progress (TRIAL, app review 1 Oct 2026): five stages.
+  // Whole-session progress (app review 1 Oct 2026; wording approved for now by Shaphan, 2 Oct 2026): five stages.
   const STAGES = ['Checks', 'Photos', 'Look and decide', 'Care', 'Summary'] as const
   const stageIndex =
     phase === 'photos'
@@ -765,7 +765,7 @@ export function Journey() {
                 Three photos, in this order. Each one shows me something different about your rose.
               </ChatBubble>
               <ResponseBubble>
-                {/* Photo coaching (TRIAL, app review 1 Oct 2026): whole plant, then one
+                {/* Photo coaching (app review 1 Oct 2026; wording approved for now by Shaphan, 2 Oct 2026): whole plant, then one
                     part, then a close-up — the sequence plant-ID and extension services
                     recommend. Slots map onto the existing overview + close-ups storage. */}
                 <div className="mb-4 flex items-start gap-3">

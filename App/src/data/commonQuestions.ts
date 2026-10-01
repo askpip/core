@@ -3,8 +3,8 @@
  * (ranked in the 1 October 2026 app review from 11 rose-society, nursery and
  * extension FAQ sources), each answered ONLY with statements already
  * Published in the Live Intelligence Library, quoted verbatim with their own
- * confidence and sources. The question wording is product copy (TRIAL — not
- * yet Founder-approved); the answers are not new content.
+ * confidence and sources. The question wording is product copy, approved
+ * "for now" by Shaphan in chat, 2 October 2026; the answers are not new content.
  *
  * Questions Pip can't answer yet carry `pending`: the app says so honestly and
  * records the tap (public.question_interest), so gardeners' own interest shows
