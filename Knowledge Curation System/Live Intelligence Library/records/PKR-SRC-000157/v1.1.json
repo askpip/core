@@ -1,0 +1,36 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000157",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The New Zealand Rose Society — Winter Rose Care",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-20 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-21 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-24 (High)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-19 (Low) (added v1.1, 2 October 2026)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "The New Zealand Rose Society (Peter Elliott), \"Winter Rose Care\", 30 March 2009. Rose society, New Zealand.; web address <https://nzroses.org.nz/winter-rose-care/>, accessed 29 September 2026; register code NZRS-W",
+    "url": "https://nzroses.org.nz/winter-rose-care/",
+    "register_code": "NZRS-W",
+    "relevance": "Supports AF-1, AF-20, AF-21, AF-24."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000194",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Tui Garden — \"Rose Pruning Guide\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial garden products",
+    "identity": "Tui Garden, \"Rose Pruning Guide\", date not shown. Commercial garden products, New Zealand. https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/rose-pruning-guide/, accessed 1 October 2026 (register code HARDPRUNE:TUI)",
+    "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/rose-pruning-guide/",
+    "register_code": "HARDPRUNE:TUI",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

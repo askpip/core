@@ -1,0 +1,35 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000216",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "David Hillock and Mike Schnelle, Oklahoma State University Extension — \"Roses in Oklahoma\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-11 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-12 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension",
+    "identity": "David Hillock and Mike Schnelle, Oklahoma State University Extension, \"Roses in Oklahoma\" (fact sheet), October 2016. University extension, US. https://extension.okstate.edu/fact-sheets/roses-in-oklahoma, accessed 1 October 2026 (register code NOFLOWERS:OKS-R)",
+    "url": "https://extension.okstate.edu/fact-sheets/roses-in-oklahoma",
+    "register_code": "NOFLOWERS:OKS-R",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

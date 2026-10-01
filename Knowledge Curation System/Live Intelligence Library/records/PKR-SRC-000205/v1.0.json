@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000205",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — \"Rose blindness\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-21 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-23 (Low)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-24 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Horticultural body",
+    "identity": "Royal Horticultural Society, \"Rose blindness\", RHS Advice, date not shown. Horticultural body, UK. https://www.rhs.org.uk/problems/rose-blindness, accessed 1 October 2026 (register code NOFLOWERS:RHS-BLIND)",
+    "url": "https://www.rhs.org.uk/problems/rose-blindness",
+    "register_code": "NOFLOWERS:RHS-BLIND",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

@@ -140,7 +140,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-POSTBUDBREA
 | PKR Type | Source PKR |
 | Title | New York Botanical Garden — Pruning Roses |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora) |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by the revised PKR-SGT-000001, PKR-DEC-000001 and/or PKR-DEC-000004 |
@@ -152,6 +152,9 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-POSTBUDBREA
 - **MIL References:**
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High)
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-15 (High)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-5 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-6 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High) (added v1.1, 2 October 2026)
 - **Relevance:** Supports AF-4, AF-15.
 
 ---
@@ -329,7 +332,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-POSTBUDBREA
 | PKR Type | Source PKR |
 | Title | Pacific Northwest Plant Disease Management Handbook — Rose (Rosa spp.) and hybrids-Brand and Common Canker |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora) |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by the revised PKR-SGT-000001, PKR-DEC-000001 and/or PKR-DEC-000004 |
@@ -341,6 +344,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-POSTBUDBREA
 - **MIL References:**
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-10 (High)
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-20 (High)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-18 (Moderate) (added v1.1, 2 October 2026)
 - **Relevance:** Supports AF-10, AF-20.
 
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 218,
-  "published_count": 217,
+  "record_count": 296,
+  "published_count": 268,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -23,9 +23,17 @@
       "pkr_id": "PKR-CGD-000003",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Advisory: removing no more than about a third of a bush in one session (general pruning guidance, not rose-specific)",
       "sha256": "2d4f67983167cb4255e1168444d1146337c40989c2961a5ba8f7a529e442c952"
+    },
+    {
+      "pkr_id": "PKR-CGD-000003",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Advisory: removing no more than about a third of a bush in one session (general pruning guidance, not rose-specific)",
+      "sha256": "10ef195513910976706cc9c6259171128e4c8befdc30d8172a8cfb48b87a3e22"
     },
     {
       "pkr_id": "PKR-CGD-000004",
@@ -50,6 +58,22 @@
       "status": "Published",
       "title": "Preparing a Hybrid Tea, Floribunda or Grandiflora rose for winter",
       "sha256": "138e60f617db406dcaee75663e73835eebec00e31468691bcd3785217f9109b7"
+    },
+    {
+      "pkr_id": "PKR-CGD-000007",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Can pruning too hard kill or harm my rose?",
+      "sha256": "c3c1776696da00e1d56bcd8c231e4d9d71fb6b4f917b33b4036149a1303f9a1f"
+    },
+    {
+      "pkr_id": "PKR-CGD-000008",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Why isn't my rose flowering?",
+      "sha256": "6f0c8254e5153b954b2e0191c5c0f98e2a2b7dc58c691e98e13cfdacf88b08ed"
     },
     {
       "pkr_id": "PKR-DEC-000001",
@@ -239,9 +263,17 @@
       "pkr_id": "PKR-SRC-000001",
       "version": "1.4",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "RHS — Rose pruning: general tips",
       "sha256": "a9d919344c68ab38e18358856361b2468c2b3488e04fb5558a27835163b4f150"
+    },
+    {
+      "pkr_id": "PKR-SRC-000001",
+      "version": "1.5",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "RHS — Rose pruning: general tips",
+      "sha256": "c5feb10f52fbe3efc750fe2c29b87132bd58976283f1af7084eb0141f1df8f0d"
     },
     {
       "pkr_id": "PKR-SRC-000002",
@@ -255,33 +287,65 @@
       "pkr_id": "PKR-SRC-000003",
       "version": "1.5",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Illinois Extension — Pruning",
       "sha256": "a9cbfcdf2cb6531a3ee8b4061e2300dc29e236dbc56f683280e243b1b430872b"
+    },
+    {
+      "pkr_id": "PKR-SRC-000003",
+      "version": "1.6",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Illinois Extension — Pruning",
+      "sha256": "4ee0ddb2c54354e7650c13a9d9372a7144dd7ea917daecd68b361fddfb39e035"
     },
     {
       "pkr_id": "PKR-SRC-000004",
       "version": "1.6",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Oregon State University Extension Service — Pruning roses",
       "sha256": "3b1229b646e8d070889e1f621db6e016940dedbfb4a06327981f1d02d0154895"
+    },
+    {
+      "pkr_id": "PKR-SRC-000004",
+      "version": "1.7",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Oregon State University Extension Service — Pruning roses",
+      "sha256": "8c88fac9f3a99322a19b8c63c140d194e164d098c99429e0273153e22e0d37a5"
     },
     {
       "pkr_id": "PKR-SRC-000005",
       "version": "1.3",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Texas A&M AgriLife Extension Service (El Paso County Master Gardeners) — Rose Pruning Handout",
       "sha256": "369b3317a4c4249cbca09f1a6bd5d6789fc0e155a470ada62a55ad6d1a0c5f0f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000005",
+      "version": "1.4",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Texas A&M AgriLife Extension Service (El Paso County Master Gardeners) — Rose Pruning Handout",
+      "sha256": "17a1ac295937a2bb1b45f24e0195a2432bbcd1fdeb3899440ea2f5c22b39d7f6"
     },
     {
       "pkr_id": "PKR-SRC-000006",
       "version": "1.5",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Clemson University Cooperative Extension (HGIC) — Pruning Roses",
       "sha256": "2fded664d35d77ff385f7145ad17098ed9067365bb86970c9194cfbd767ff258"
+    },
+    {
+      "pkr_id": "PKR-SRC-000006",
+      "version": "1.6",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Clemson University Cooperative Extension (HGIC) — Pruning Roses",
+      "sha256": "cf29ce029f58e11e950e625fb9eedb5205ac84bb87ebbdf38f2751bf9aeb5e32"
     },
     {
       "pkr_id": "PKR-SRC-000007",
@@ -375,9 +439,17 @@
       "pkr_id": "PKR-SRC-000018",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Arkansas Cooperative Extension Service — Pruning",
       "sha256": "016470eaef8b808978e79eeb423c87dd654ba7197a565a02ef92a6278ffdb885"
+    },
+    {
+      "pkr_id": "PKR-SRC-000018",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Arkansas Cooperative Extension Service — Pruning",
+      "sha256": "5675787748daf4e4660568fd23a421477e1831a7c5d185cf2b7cbf03d2bbea6a"
     },
     {
       "pkr_id": "PKR-SRC-000019",
@@ -503,9 +575,17 @@
       "pkr_id": "PKR-SRC-000034",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The New Zealand Rose Society — FAQ",
       "sha256": "95c103488dc81c55283752dc3b8119374f4e89659a7156e066ecc82a998241eb"
+    },
+    {
+      "pkr_id": "PKR-SRC-000034",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The New Zealand Rose Society — FAQ",
+      "sha256": "3afebd081276a4a8ed56173fb676f3e1b9b9e0f526ad9294b0bed2ebdc3dedf7"
     },
     {
       "pkr_id": "PKR-SRC-000035",
@@ -703,9 +783,17 @@
       "pkr_id": "PKR-SRC-000059",
       "version": "1.3",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rose Society of South Australia — Rose Pruning: Main Points / A Home Gardener's Guide",
       "sha256": "580f3a53f4ab1728b5ff0749eee94dfd170c4ce16bfe9e2922ad117aa4c87646"
+    },
+    {
+      "pkr_id": "PKR-SRC-000059",
+      "version": "1.4",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of South Australia — Rose Pruning: Main Points / A Home Gardener's Guide",
+      "sha256": "3a0b7e5e15cf6457a703f7a705fd55d599c4b2c5e0a4640415e265c485c60203"
     },
     {
       "pkr_id": "PKR-SRC-000060",
@@ -751,9 +839,17 @@
       "pkr_id": "PKR-SRC-000065",
       "version": "1.4",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Maryland Extension — Guide to Pruning Roses",
       "sha256": "0662da6673dafa883266e04c73e8398cd902dcc894710aec6fc340d5b3d30476"
+    },
+    {
+      "pkr_id": "PKR-SRC-000065",
+      "version": "1.5",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Maryland Extension — Guide to Pruning Roses",
+      "sha256": "8f0436be5642f4c271ab9077c58086c9dc0a3fc8a2d4a3e970f8a729ecdd0325"
     },
     {
       "pkr_id": "PKR-SRC-000066",
@@ -775,9 +871,17 @@
       "pkr_id": "PKR-SRC-000068",
       "version": "1.3",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rose Society of Victoria — The Pruning Bible",
       "sha256": "982c22f1b9cb012e7fa6bb6f66178261334b4ef6907faf17571a83950688aa74"
+    },
+    {
+      "pkr_id": "PKR-SRC-000068",
+      "version": "1.4",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of Victoria — The Pruning Bible",
+      "sha256": "c7065f990bb666ad333250f434dae96a1e4ff89bd1595cf3bb510a395297775f"
     },
     {
       "pkr_id": "PKR-SRC-000069",
@@ -815,9 +919,17 @@
       "pkr_id": "PKR-SRC-000073",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Clemson HGIC — Rose Diseases (HGIC 2106)",
       "sha256": "4ed94836f5b2953307faf73c71f3ce653de385c6d6be28e7ad70809d6ec019d0"
+    },
+    {
+      "pkr_id": "PKR-SRC-000073",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Clemson HGIC — Rose Diseases (HGIC 2106)",
+      "sha256": "1125d5183647aeb293047904aeaedf0884ae5180c37122188d84bf70bdc88fef"
     },
     {
       "pkr_id": "PKR-SRC-000074",
@@ -959,9 +1071,17 @@
       "pkr_id": "PKR-SRC-000091",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Portland Rose Society — How to Prune Your Roses (spring pruning)",
       "sha256": "d99108f1b808f924d0023d285f0feab8690b19908ab40c139df9b2259c57c395"
+    },
+    {
+      "pkr_id": "PKR-SRC-000091",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Portland Rose Society — How to Prune Your Roses (spring pruning)",
+      "sha256": "2ab5d1bce0d294e8e332137740a0e5bdbb9d4122a4173893318d225b737828a9"
     },
     {
       "pkr_id": "PKR-SRC-000092",
@@ -991,9 +1111,17 @@
       "pkr_id": "PKR-SRC-000095",
       "version": "1.2",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — Rose Pruning: Floribunda & Hybrid Tea Roses",
       "sha256": "5b185c7ee17651983100b4a77d9e8c684fc30d64abfe73f6aec558f827fd0fd2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000095",
+      "version": "1.3",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — Rose Pruning: Floribunda & Hybrid Tea Roses",
+      "sha256": "19b870ab2cee0c959552ed8b168f502e7ec31dc2e526e4f0ddf1fb45bf174a34"
     },
     {
       "pkr_id": "PKR-SRC-000096",
@@ -1007,9 +1135,17 @@
       "pkr_id": "PKR-SRC-000097",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rose Society of NSW — Rose Growing Advice",
       "sha256": "bd3c3302c36f1ef48ddfc9ac4538a2fb8e3ec0c104cb551ad106dd77d1e72458"
+    },
+    {
+      "pkr_id": "PKR-SRC-000097",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of NSW — Rose Growing Advice",
+      "sha256": "737374f2c4b194b919699dcb70f3affa481165dd91036e0acd83dcef661a2240"
     },
     {
       "pkr_id": "PKR-SRC-000098",
@@ -1031,17 +1167,33 @@
       "pkr_id": "PKR-SRC-000100",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Orange County Rose Society — Pruning a Rose",
       "sha256": "97f0028fa02e070540f3069adb0ac64b787ade83b5360883b00687f737ba152e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000100",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Orange County Rose Society — Pruning a Rose",
+      "sha256": "1d9df1af160182a0b22a60c41e6f8a88031ccf1e898bc90e9eee2e72782485d5"
     },
     {
       "pkr_id": "PKR-SRC-000101",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Chicago Botanic Garden — Pruning Mature Roses?",
       "sha256": "034c0ce14a6ec00a49f6e06285493c1e302c3f02c85f1db0c1891086b38aefc8"
+    },
+    {
+      "pkr_id": "PKR-SRC-000101",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Chicago Botanic Garden — Pruning Mature Roses?",
+      "sha256": "2be9e7e3e27e4648d16060b04d4f4b60471339b413aa40bd88bf57a153105f81"
     },
     {
       "pkr_id": "PKR-SRC-000102",
@@ -1111,9 +1263,17 @@
       "pkr_id": "PKR-SRC-000110",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "UC ANR Fresno — Rosie's Corner: It's time to prune roses",
       "sha256": "66b2d94cf20800ab28b7782ec13a6c404c6c8a496cfb4283c1fe7485b5e642ba"
+    },
+    {
+      "pkr_id": "PKR-SRC-000110",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "UC ANR Fresno — Rosie's Corner: It's time to prune roses",
+      "sha256": "5540c6d04acaff4d05ce92e28b0f0a3fdd678cd90d5afd0aa881410199adb25d"
     },
     {
       "pkr_id": "PKR-SRC-000111",
@@ -1183,9 +1343,17 @@
       "pkr_id": "PKR-SRC-000119",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — Renovating Overgrown Shrubs",
       "sha256": "e57e8f911e987d60d251e7255fc822e50a9110857ed6b66c32f89332543a0127"
+    },
+    {
+      "pkr_id": "PKR-SRC-000119",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — Renovating Overgrown Shrubs",
+      "sha256": "243c1fb7f7eb81fedd957f9a9b21b9ad2400ba1629a1b7518bf8d0800cf0f50c"
     },
     {
       "pkr_id": "PKR-SRC-000120",
@@ -1199,9 +1367,17 @@
       "pkr_id": "PKR-SRC-000121",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "David Austin Roses — How to Prune Repeat Flowering Shrub Roses",
       "sha256": "440651d4c3588aa1d0c6f05a17b4efd5b2f3f1b35554e100518987d0e7d71347"
+    },
+    {
+      "pkr_id": "PKR-SRC-000121",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses — How to Prune Repeat Flowering Shrub Roses",
+      "sha256": "87042fbdc22c0f294cbe117a1a0c5add89417467b4aba7be87b141ac1d8f3c61"
     },
     {
       "pkr_id": "PKR-SRC-000122",
@@ -1279,9 +1455,17 @@
       "pkr_id": "PKR-SRC-000131",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Iowa State University Extension — Rose Care by Season",
       "sha256": "0c32feebddacc3df381a172d75316203a62faa5fce752dae95e7bf94c49577ef"
+    },
+    {
+      "pkr_id": "PKR-SRC-000131",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Iowa State University Extension — Rose Care by Season",
+      "sha256": "2e7bda95e874ef2ec02735a34ca69a821dcb418e14134ff0bf3f5c665e285d6f"
     },
     {
       "pkr_id": "PKR-SRC-000132",
@@ -1311,9 +1495,17 @@
       "pkr_id": "PKR-SRC-000135",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Penn State Extension — Protecting Your Roses through Pennsylvania Winters",
       "sha256": "6301242b186e54ac63f5b4794660853e16d71cce4af328af789deccb1ee37b20"
+    },
+    {
+      "pkr_id": "PKR-SRC-000135",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Penn State Extension — Protecting Your Roses through Pennsylvania Winters",
+      "sha256": "ad19583364db52716a890e30ccc48856334601b967a8399831c0f5dd59757555"
     },
     {
       "pkr_id": "PKR-SRC-000136",
@@ -1327,9 +1519,17 @@
       "pkr_id": "PKR-SRC-000137",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Maryland Extension — Rose: Identify and Manage Problems",
       "sha256": "8726aaea53493f654c88dcdd778af4719fcbc918297a5279570085594bac780b"
+    },
+    {
+      "pkr_id": "PKR-SRC-000137",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Maryland Extension — Rose: Identify and Manage Problems",
+      "sha256": "b14fb274a7993b461ceccca658c02d2d97df6c2773f956e527442fcc701d0906"
     },
     {
       "pkr_id": "PKR-SRC-000138",
@@ -1359,9 +1559,17 @@
       "pkr_id": "PKR-SRC-000141",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — Rose problems: frequently asked questions",
       "sha256": "001bba2454a68b2d33041ee2a85987045698e8583cb734ed2df68e9e16e76686"
+    },
+    {
+      "pkr_id": "PKR-SRC-000141",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — Rose problems: frequently asked questions",
+      "sha256": "6ad0a77fa3c4d553c60e6b1e32898ba0d2ebcdca22d9cfa8966c3d9b4dd56d8a"
     },
     {
       "pkr_id": "PKR-SRC-000142",
@@ -1487,9 +1695,17 @@
       "pkr_id": "PKR-SRC-000157",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The New Zealand Rose Society — Winter Rose Care",
       "sha256": "9aad3c7097dbc61e84e3b953ac5bc97ec2c723b07c7190e722452c02be1b1803"
+    },
+    {
+      "pkr_id": "PKR-SRC-000157",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The New Zealand Rose Society — Winter Rose Care",
+      "sha256": "97bcfa8ac155b2169d723d648906b191ece46628e1bd78f05ee9207e5593aa9b"
     },
     {
       "pkr_id": "PKR-SRC-000158",
@@ -1575,9 +1791,17 @@
       "pkr_id": "PKR-SRC-000168",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "New York Botanical Garden — Pruning Roses",
       "sha256": "e5313993c650220a8742977c6578cfd87c73fc58ce9f4a85237924f834cbcd0e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000168",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "New York Botanical Garden — Pruning Roses",
+      "sha256": "ef04c25cf9f6f13a23fdd47b1116e06eb3273b3010560d9d06f20ac73ec67d44"
     },
     {
       "pkr_id": "PKR-SRC-000169",
@@ -1639,9 +1863,17 @@
       "pkr_id": "PKR-SRC-000176",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Pacific Northwest Plant Disease Management Handbook — Rose (Rosa spp.) and hybrids-Brand and Common Canker",
       "sha256": "9e14b3cb0216f896aab814a8cafcc865c04dcc3da89b35409ffbc3a6f2649d69"
+    },
+    {
+      "pkr_id": "PKR-SRC-000176",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Pacific Northwest Plant Disease Management Handbook — Rose (Rosa spp.) and hybrids-Brand and Common Canker",
+      "sha256": "9a0f07184940d670b3a26e123139ffecef171f57213082d5a4e4dff52fd0df02"
     },
     {
       "pkr_id": "PKR-SRC-000177",
@@ -1746,6 +1978,398 @@
       "status": "Published",
       "title": "Palmers — \"My Daughter Bush Fl\" product page",
       "sha256": "51366218c6bfc60e645456ff6fa336a5d6a2bacca6b1b165339793b6af082fc0"
+    },
+    {
+      "pkr_id": "PKR-SRC-000190",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Hayden Foulds, GrownUps New Zealand — \"Pruning roses\"",
+      "sha256": "e6e8587132e38c9b343078af9aa2825b1b74c0a47fc851aa8438c297031fc857"
+    },
+    {
+      "pkr_id": "PKR-SRC-000191",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Hayden Foulds, GrownUps New Zealand — \"Pruning Roses - Part 1\"",
+      "sha256": "d5c340efdbefd152257cb94c5108692cf54ba6d6c9d856d12d1f3194a16fea5a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000192",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal New Zealand Institute of Horticulture, Horticulture Pages — \"Rose pruning\"",
+      "sha256": "c7cf496fdc02617ea9fb2b20b3bbe6c48288cbf03492ece6b4b9d3f46bcefe3a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000193",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Matthews Nurseries — \"Advice\"",
+      "sha256": "8d0116b1f3cc833bf3ceb5cfb27e2f68d63a0158af699777fd1801383e72e783"
+    },
+    {
+      "pkr_id": "PKR-SRC-000194",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Tui Garden — \"Rose Pruning Guide\"",
+      "sha256": "44861d0e3fed3e5b439b308e8fa510b156a2347a4487086ba2c191072b94aa0d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000195",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Victoria State Rose Garden — \"The Pruning Mystique\"",
+      "sha256": "c73f8f968aff70d8187922cf289a80bbfd1b4f73ae333fc53ef6456f28dc2606"
+    },
+    {
+      "pkr_id": "PKR-SRC-000196",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia magazine (Jennifer Stackhouse) — \"How to prune roses in winter\"",
+      "sha256": "c8a4869c61f9f57b6455485f5e5fa6556e925ea446cc1e06813e8b4adf505de0"
+    },
+    {
+      "pkr_id": "PKR-SRC-000197",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Treloar Roses — \"Pruning Roses\"",
+      "sha256": "7132c1b050a1c6f618aef4e3e2d2c06823b26940266e0bac9653d01f8eb59eb4"
+    },
+    {
+      "pkr_id": "PKR-SRC-000198",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Yates Australia — \"How to Prune Roses in Winter & Throughout the Growing Season\"",
+      "sha256": "cc1a23f0971ece64c95a468aefcaf930201dc83d75692e762e648f4d37877b1f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000199",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal National Rose Society — \"Caring for your Roses\"",
+      "sha256": "3368a9eaf4e23d46bc5a83d435f24642bca373b2788cb370800ae88b5f6f9ec3"
+    },
+    {
+      "pkr_id": "PKR-SRC-000200",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"A worry free guide to pruning roses\"",
+      "sha256": "8c226792020305a6a9ee0cc5edf91837a7c73e7da644736b260cc6473ecc0c02"
+    },
+    {
+      "pkr_id": "PKR-SRC-000201",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Landscape Ontario — \"Roses: type and pruning\"",
+      "sha256": "04407a7a05aa1aa8a613832ae788072c2a104e10895ce60385cd12dc5bed7eab"
+    },
+    {
+      "pkr_id": "PKR-SRC-000202",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Iowa State University Extension and Outreach — \"Should I prune my rose back in the fall?\"",
+      "sha256": "96357cbf73ebce5789d08e45bf1395ae69922462b65f62034ae45de109890136"
+    },
+    {
+      "pkr_id": "PKR-SRC-000203",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Bryant et al., New Mexico State University Guide H-165 — \"Growing Roses\"",
+      "sha256": "96adb5727353c64d49e720e485e2e6757d6731a2006822dc21dddb7803f1d53a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000204",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Gardening.org (Gardening LLC; \"Rosefiend Cordell\") — \"How To Revive and Rejuvenate an Old, Neglected Rosebush by Pruning\"",
+      "sha256": "22f41ff062ef1d2d3ee8cae4afe462e7fae9bf08587e30f419428a1828f4ea9d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000205",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Rose blindness\"",
+      "sha256": "3ff891f82910019f6ec922efb9dabefd9ce8a981d422f9295e3fa1e6a6f89008"
+    },
+    {
+      "pkr_id": "PKR-SRC-000206",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Flower balling\"",
+      "sha256": "85b07971be03d9ff0e7e372082c585270fd24b3697adb19f40ca78250eecef5f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000207",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses — \"Rose Questions & FAQs\"",
+      "sha256": "2f4bb375e029f5b7e0fc4cb23a0d93bc274ff0a99808b51db35203b4c7bdd062"
+    },
+    {
+      "pkr_id": "PKR-SRC-000208",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"The Basics of Growing Roses\"",
+      "sha256": "598d750f0ea04dfe16c3dcdf743ab80b47194045057b60fa516a615cf4485cbb"
+    },
+    {
+      "pkr_id": "PKR-SRC-000209",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"Finding the Right Rose for Your Garden: How Often Would You Like Your Rose to Flower?\"",
+      "sha256": "f999299abb7bfcce535614cf6e51fdfe912cc07babcdbed71a9e2ffc7f97d4b2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000210",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Alison O'Connor, PhD, Colorado State University Extension (Larimer County), answer on Ask Extension — \"Roses not Blooming\"",
+      "sha256": "2dba592aae11eca42c1f9e3d1af2860fbe261e0b6fd3bfd9a4297c6bb29be75f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000211",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Ask Extension — \"Roses don't bloom\"",
+      "sha256": "0d0ca1f19715ac0f3e80ac3f9155b10fe21fc79ec2eb4f54ac2da292ff2ef33d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000212",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Jessie, UVM Extension Master Gardener Volunteer, answer on Ask Extension — \"Healthy Rose Bushes do not bloom\"",
+      "sha256": "4ee6b4f5b98b6d43639d7a600a63f6f2bf4dda8c642222f1efba466ca8601ceb"
+    },
+    {
+      "pkr_id": "PKR-SRC-000213",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Nancy Doubrava and Robert F. Polomski, Clemson Cooperative Extension Home & Garden Information Center — \"Why Plants Fail to Flower or Fruit\"",
+      "sha256": "e212164f0fccbefa3e69155adc7315c54154747836eeaba8e6ef320b734580f1"
+    },
+    {
+      "pkr_id": "PKR-SRC-000214",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "J.F. Karlik, UC Statewide IPM Program — \"Roses: Cultural Practices and Weed Control\"",
+      "sha256": "08784d7565bd43651c2d4fc131db8e7156aa1e796f3bc9902c499f7ae2406818"
+    },
+    {
+      "pkr_id": "PKR-SRC-000215",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "UC Statewide IPM Program — \"Roses: Insects and Mites\"",
+      "sha256": "ac1260798b59afed80cda76b558f83f0fd702461fb987894ec28c1abe9218fb3"
+    },
+    {
+      "pkr_id": "PKR-SRC-000216",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Hillock and Mike Schnelle, Oklahoma State University Extension — \"Roses in Oklahoma\"",
+      "sha256": "a0231d2d080c67733b0f0f21b62b10626beed5fa3678ca2f463893bd8922da3a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000217",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Oklahoma State University Extension, Digital Diagnostics — \"Black Spot of Rose\"",
+      "sha256": "6432eac9f178a5e1f93369ea668dab89e9bdf5db6ca5608d7f96e6e16cbc5d16"
+    },
+    {
+      "pkr_id": "PKR-SRC-000218",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "M. Douglas Bryant, rev. Curtis Smith, New Mexico State University Cooperative Extension — \"Growing Roses\"",
+      "sha256": "38c86a4ab1c9d11c39dccddea377f4313f6f0f7922650f29cf9eef8ff603b7ac"
+    },
+    {
+      "pkr_id": "PKR-SRC-000219",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Illinois Extension — \"Preparation\"",
+      "sha256": "108f862647e7b00aa234b85fb1a72b78e7efbbc8d2a912c40cbd18b4006991da"
+    },
+    {
+      "pkr_id": "PKR-SRC-000220",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Arkansas Cooperative Extension Service — \"General Info: Roses\"",
+      "sha256": "669bc0efa8b1396d91731d74407092f477b126ef58e44d28386e3a5231e4b216"
+    },
+    {
+      "pkr_id": "PKR-SRC-000221",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Gary L. Wade, James T. Midcap, Jean Williams-Woodward and Beverly Sparks, University of Georgia Cooperative Extension — \"Rose Culture for Georgia Gardeners\"",
+      "sha256": "c170b72a072dfed1a3d9faf2b473bfa6839f36d3b82f03de84e1625dc3a48ff0"
+    },
+    {
+      "pkr_id": "PKR-SRC-000222",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Elisabeth C. Miller Library, University of Washington Botanic Gardens, Plant Answer Line — \"rose bush buds won't open\"",
+      "sha256": "0c821c812185114ca41a60ec5b6ec5daf735e8eb0420c5ced426efb9134fcccf"
+    },
+    {
+      "pkr_id": "PKR-SRC-000223",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Suzanne Gilbert, American Rose Society — \"Right Rose, Right Place\"",
+      "sha256": "3919e1a3913bf3455bab1e56d86d3d253e0a969a9dacc13a8d608f1b83ab28d2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000224",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Nanette Londeree, Marin Rose Society — \"Keeping Roses Healthy in a Drought\"",
+      "sha256": "8e7ec7f7cf9140cd03d3a0535bfef4a9807a2c5b6f1d5fe78179e86b4ccb2d6d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000225",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Larry Hodgson, Laidback Gardener (blog of a horticultural writer) — \"Dude, Who Switched My Rose Bush?\"",
+      "sha256": "b7c8fa0390c8dbbd01c1a46d56b2e902c2831a6d20583625122a4c70c1f5aa87"
+    },
+    {
+      "pkr_id": "PKR-SRC-000226",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Yates New Zealand — \"How to grow roses in the garden\"",
+      "sha256": "2d7eb9bb403cb95bfff9d9060cc8a41f3a210bbb1d2a3c7a1464f7f1ca6bd909"
+    },
+    {
+      "pkr_id": "PKR-SRC-000227",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Tui Garden — \"Rose Growing Guide\"",
+      "sha256": "eb14a5e4e8ad53b67c4a27b15301750f6b72827e29d5f5ae9c4a7d5daafb617d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000228",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Palmers Garden Centre — \"Year Round Rose Care\"",
+      "sha256": "30c6948869b54b240effbf2eca6d79a29c738279b3d943ad88492a7f6fdda1c5"
+    },
+    {
+      "pkr_id": "PKR-SRC-000229",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
+      "sha256": "586750eb68c20104312a18463fd1cddf9f26499c55920160b2593557fe38a359"
+    },
+    {
+      "pkr_id": "PKR-SRC-000230",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Hayden Foulds, GrownUps New Zealand — \"Heritage Roses\"",
+      "sha256": "a171235f9445d0888eb72c236bd2a489c4393bb6c9b9960f43d5e5fce8c2a404"
+    },
+    {
+      "pkr_id": "PKR-SRC-000231",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Victoria State Rose Garden, Werribee Park (\"Wal J\") — \"Blind Shoots\"",
+      "sha256": "a12168dd3d4c6eb8057260a7f336cab42dd97810e981ff283e1175b73b4ef5d4"
+    },
+    {
+      "pkr_id": "PKR-SRC-000232",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Treloar Roses — \"Botrytis\"",
+      "sha256": "b5825f79dff9ded2cfdeb2a6ef195491f3d881a06ffb0362247bb81f0730f898"
+    },
+    {
+      "pkr_id": "PKR-SRC-000233",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Treloar Roses — \"Frequently Asked Questions\"",
+      "sha256": "5092530daec9e5b3b44b4f980ca2db76176368a77547d49aaa3165330716e0ee"
+    },
+    {
+      "pkr_id": "PKR-SRC-000234",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Treloar Roses — \"Roses Ideal For... Shaded Areas\"",
+      "sha256": "8de4fd3a50198cf48a727507939493748176bd576d675f4e99a0210f7d577607"
+    },
+    {
+      "pkr_id": "PKR-SRC-000235",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Yates Australia — \"How to Grow Roses\"",
+      "sha256": "f727269b0508c474b1dababae04b057b6596372de79faa7d23356d0d48397ef3"
+    },
+    {
+      "pkr_id": "PKR-SRC-000236",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Yates Australia — \"How to Get Rid of Budworms in Your Garden\"",
+      "sha256": "d080a94ffe47789956a80b1d462e0b2a879f65a559e473ac92a14dc5e016b748"
+    },
+    {
+      "pkr_id": "PKR-SRC-000237",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Rose Society of Western Australia — \"Bugs\"",
+      "sha256": "cfd927a55a3a85966b6c3187039d8fa92f34d3780307ad566e9772dab93534bb"
+    },
+    {
+      "pkr_id": "PKR-SRC-000238",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rosen Tantau — \"Blind shoots are budless rose shoots with bent tips\"",
+      "sha256": "6f685c77d7ad8a7adce4fd677a037ec356e9f8e96d620adc4ff6f19803f6e774"
     }
   ]
 }

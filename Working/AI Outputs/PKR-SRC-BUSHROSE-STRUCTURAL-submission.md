@@ -334,7 +334,7 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
 | PKR Type | Source PKR |
 | Title | Rose Society of South Australia — Rose Pruning: Main Points / A Home Gardener's Guide |
 | Status | Published |
-| Version | 1.3 |
+| Version | 1.4 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000002/PKR-DEC-000002 and/or PKR-OBS-000003/PKR-DEC-000003 |
@@ -350,6 +350,11 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High) — *added v1.2, 29 September 2026*
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-14 (Moderate) — *added v1.2, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-38 (Not assigned; see C11) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.4, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-2 (Moderate) (added v1.4, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-5 (Moderate) (added v1.4, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-14 (Moderate) (added v1.4, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-24 (Low) (added v1.4, 2 October 2026)
 - **Relevance:** The one source that argues against deliberately opening the bush centre (recorded as unresolved variation C-1).
 
 *Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
@@ -517,7 +522,7 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
 | PKR Type | Source PKR |
 | Title | University of Maryland Extension — Guide to Pruning Roses |
 | Status | Published |
-| Version | 1.4 |
+| Version | 1.5 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000002/PKR-DEC-000002 and/or PKR-OBS-000003/PKR-DEC-000003 |
@@ -537,6 +542,7 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low) — *added v1.3, 29 September 2026*
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High) — *added v1.4, 29 September 2026*
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-5 (Moderate) — *added v1.4, 29 September 2026*
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-13 (Low) (added v1.5, 2 October 2026)
 - **Relevance:** Pruning to an outward bud keeps growth out of the centre.
 
 *Revision v1.4 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
@@ -644,7 +650,7 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
 | PKR Type | Source PKR |
 | Title | Rose Society of Victoria — The Pruning Bible |
 | Status | Published |
-| Version | 1.3 |
+| Version | 1.4 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000002/PKR-DEC-000002 and/or PKR-OBS-000003/PKR-DEC-000003 |
@@ -660,6 +666,7 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate) — *added v1.3, 29 September 2026*
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High) — *added v1.3, 29 September 2026*
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-13 (High) — *added v1.3, 29 September 2026*
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High) (added v1.4, 2 October 2026)
 - **Relevance:** Gives the outward-bud instruction.
 
 *Revision v1.3 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000005. Source identity unchanged.*

@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000230",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Hayden Foulds, GrownUps New Zealand — \"Heritage Roses\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-16 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "General-interest website (rose columnist)",
+    "identity": "Hayden Foulds, GrownUps New Zealand, \"Heritage Roses\" (rose column), date not shown. General-interest website (rose columnist), New Zealand. https://grownups.co.nz/life/gardening/heritage-roses/, accessed 1 October 2026 (register code NOFLOWERS:GU-H)",
+    "url": "https://grownups.co.nz/life/gardening/heritage-roses/",
+    "register_code": "NOFLOWERS:GU-H",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

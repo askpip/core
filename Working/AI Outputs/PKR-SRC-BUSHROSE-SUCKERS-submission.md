@@ -78,7 +78,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-SUCKERS-01`
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — Rose problems: frequently asked questions |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora) |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by the sucker Observation and Decision Logic PKRs (PKR-OBS-000007 / PKR-DEC-000007) |
@@ -94,6 +94,8 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-SUCKERS-01`
   - ARC-BUSHROSE-SUCKERS-01, AF-11 (High)
   - ARC-BUSHROSE-SUCKERS-01, AF-17 (High)
   - ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-21 (High) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-25 (Moderate) (added v1.1, 2 October 2026)
 - **Relevance:** Supports AF-1, AF-2, AF-3, AF-11, AF-17, AF-18.
 
 ---
@@ -515,7 +517,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-SUCKERS-01`
 | PKR Type | Source PKR |
 | Title | The New Zealand Rose Society — Winter Rose Care |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora) |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by the sucker Observation and Decision Logic PKRs (PKR-OBS-000007 / PKR-DEC-000007) |
@@ -529,6 +531,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-SUCKERS-01`
   - ARC-BUSHROSE-SUCKERS-01, AF-20 (High)
   - ARC-BUSHROSE-SUCKERS-01, AF-21 (High)
   - ARC-BUSHROSE-SUCKERS-01, AF-24 (High)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-19 (Low) (added v1.1, 2 October 2026)
 - **Relevance:** Supports AF-1, AF-20, AF-21, AF-24.
 
 ---

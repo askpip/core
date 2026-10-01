@@ -16,7 +16,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — Rose Pruning: Floribunda & Hybrid Tea Roses |
 | Status | Published |
-| Version | 1.2 |
+| Version | 1.3 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000005 and/or PKR-DEC-000005 |
@@ -36,6 +36,9 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High) — *added v1.1, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-18 (Moderate) — *added v1.1, 29 September 2026*
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High) — *added v1.2, 29 September 2026*
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-6 (Moderate) (added v1.3, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.3, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate) (added v1.3, 2 October 2026)
 - **Relevance:** Supports AF-1, AF-4, AF-8. Verification: Quote found: "If the bush is crowded cut out some old shoots completely to keep the centre open."
 
 *Revision v1.2 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
@@ -75,7 +78,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
 | PKR Type | Source PKR |
 | Title | Rose Society of NSW — Rose Growing Advice |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000005 and/or PKR-DEC-000005 |
@@ -86,6 +89,9 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
 - **Source Identity:** Rose Society of NSW, "Rose Growing Advice" (growing-roses page); web address <https://nsw.rose.org.au/growing-roses>, accessed 29 September 2026; FRD code RSNSW
 - **MIL References:**
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-6 (Moderate) (added v1.1, 2 October 2026)
 - **Relevance:** Supports AF-5. Verification: Quote found: "no less than 10mm". The page title is "Rose Growing Advice"; the dossier records "Growing Roses".
 
 ---
@@ -153,7 +159,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
 | PKR Type | Source PKR |
 | Title | Orange County Rose Society — Pruning a Rose |
 | Status | Published |
-| Version | 1.1 |
+| Version | 1.2 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000005 and/or PKR-DEC-000005 |
@@ -165,6 +171,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
 - **MIL References:**
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-41 (Low) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.2, 2 October 2026)
 - **Relevance:** Supports AF-5. Verification: The page asks "Why, you may ask, should you consider leaving stems smaller than a pencil?" and then answers it *against* leaving them (thin stems produce ever-thinner stems). The dossier read this as questioning the pencil rule's strictness. See §3.
 
 *Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*
@@ -179,7 +186,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
 | PKR Type | Source PKR |
 | Title | Chicago Botanic Garden — Pruning Mature Roses? |
 | Status | Published |
-| Version | 1.1 |
+| Version | 1.2 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000005 and/or PKR-DEC-000005 |
@@ -195,6 +202,12 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-WEAKCONGEST
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-14 (Moderate)
   - ARC-BUSHROSE-WEAKCONGESTED-01, AF-16 (Moderate)
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-32 (Low) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.2, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-2 (Moderate) (added v1.2, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-4 (Moderate) (added v1.2, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate) (added v1.2, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-22 (Moderate) (added v1.2, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-24 (Low) (added v1.2, 2 October 2026)
 - **Relevance:** Supports AF-2, AF-6, AF-8, AF-14, AF-16. Verification: Both quotes found.
 
 *Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-OBS/DEC-000006. Source identity unchanged.*

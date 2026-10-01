@@ -1,0 +1,168 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000008",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Why isn't my rose flowering?",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000003",
+      "PKR-SRC-000034",
+      "PKR-SRC-000097",
+      "PKR-SRC-000131",
+      "PKR-SRC-000137",
+      "PKR-SRC-000141",
+      "PKR-SRC-000205",
+      "PKR-SRC-000206",
+      "PKR-SRC-000207",
+      "PKR-SRC-000208",
+      "PKR-SRC-000209",
+      "PKR-SRC-000210",
+      "PKR-SRC-000211",
+      "PKR-SRC-000212",
+      "PKR-SRC-000213",
+      "PKR-SRC-000214",
+      "PKR-SRC-000215",
+      "PKR-SRC-000216",
+      "PKR-SRC-000217",
+      "PKR-SRC-000218",
+      "PKR-SRC-000219",
+      "PKR-SRC-000220",
+      "PKR-SRC-000221",
+      "PKR-SRC-000222",
+      "PKR-SRC-000223",
+      "PKR-SRC-000224",
+      "PKR-SRC-000226",
+      "PKR-SRC-000227",
+      "PKR-SRC-000228",
+      "PKR-SRC-000229",
+      "PKR-SRC-000230",
+      "PKR-SRC-000231",
+      "PKR-SRC-000232",
+      "PKR-SRC-000234",
+      "PKR-SRC-000235",
+      "PKR-SRC-000236",
+      "PKR-SRC-000237",
+      "PKR-SRC-000238"
+    ],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000004"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-SGT-000003"
+      }
+    ],
+    "preserved_uncertainty": "No source gives a tested way to tell the causes apart, or says which is most common (R-1). Sources disagree on sun hours (C-1), on feeding (C-2), on where to cut a blind shoot (C-4), on first-season flowering (C-5), on how hard is too hard (C-6) and on chemical treatment of balling (C-7). Rose midge has no New Zealand or Australian source (R-3). Lower-confidence findings (potassium AF-7, heat AF-9, cold AF-10, hips AF-20, rootstock AF-32, pesticides AF-33) are not used in this answer.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Why isn't my rose flowering?",
+    "label": null,
+    "items": [
+      {
+        "text": "Pip can't tell you which reason applies to your rose. Here are the reasons sources give, with what to look for and what they suggest.",
+        "confidence": "Approved default"
+      },
+      {
+        "text": "Too little sun, or too much shade, means fewer flowers.",
+        "confidence": "High"
+      },
+      {
+        "text": "Sources give a minimum of four to eight hours of direct sun a day. Six is the most common figure.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Trees and shrubs nearby compete with a rose for light, water and food. Sources advise planting roses away from them.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Too much fertiliser, especially nitrogen, gives lots of leafy growth and few flowers.",
+        "confidence": "High"
+      },
+      {
+        "text": "Too little feeding is also given as a reason, and feeding as a remedy. Pip's care tips give the feeding pattern.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Too little water, or drought, reduces flowering. Sources describe pale, limp leaves, dropped leaves and small flowers.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Pruning too much, too little or at the wrong time is listed as a reason. No source says where too much begins.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Harder pruning gives fewer, larger flowers. Lighter pruning gives more, smaller ones.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Removing spent flowers from a repeat-flowering rose encourages more flowers.",
+        "confidence": "High"
+      },
+      {
+        "text": "If your rose flowered once in late spring or early summer and not again, it may be a once-flowering variety. Pip can't support those yet. A local rose society or garden centre can help, or you can check its type with Pip's rose-type questions.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Pruning a once-flowering rose before it flowers removes its flowers.",
+        "confidence": "High"
+      },
+      {
+        "text": "A blind shoot grows and leafs normally but has no flower bud at its tip.",
+        "confidence": "High"
+      },
+      {
+        "text": "The cause of blind shoots isn't known. Sources suggest weather, shade, over-feeding and big swings between day and night temperatures.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Sources cut a blind shoot back to get a new shoot that can flower. The RHS cuts it back by half to a strong bud. Others cut to the next leaf joint down, or to the next full five-leaflet leaf.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Buds that form but don't open after cool, wet weather may be \"balled\": the bud feels soft and its outer petals turn brown and papery.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Sources remove balled or rotting buds promptly, and suggest better air flow around the plant and watering at the base, not over the leaves.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Sources link spotted petals with grey fuzz to grey mould (botrytis), which is more common in cool, wet weather.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Sources link brown or white streaks on petals, or distorted flowers, to thrips.",
+        "confidence": "High"
+      },
+      {
+        "text": "Sources link holes in buds, with caterpillars, to budworm.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Black spot (dark spots on the leaves, then yellowing and leaf drop) weakens a rose so it flowers less.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "A photo alone can't show why a rose isn't flowering. Check these signs on the plant itself.",
+        "confidence": "Approved default"
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-HARDPRUNE-NOFLOWERS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026 (\"Approve and publish\"). Advisory with a question presentation point (Decision 1)."
+  }
+}

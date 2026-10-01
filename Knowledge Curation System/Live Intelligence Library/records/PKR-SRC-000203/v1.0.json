@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000203",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Bryant et al., New Mexico State University Guide H-165 — \"Growing Roses\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-7 (Low)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-17 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension",
+    "identity": "Bryant et al., New Mexico State University Guide H-165, \"Growing Roses\", reviewed 2005. University extension, US. https://pubs.nmsu.edu/_h/H165/, accessed 1 October 2026 (register code HARDPRUNE:NMSU)",
+    "url": "https://pubs.nmsu.edu/_h/H165/",
+    "register_code": "HARDPRUNE:NMSU",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

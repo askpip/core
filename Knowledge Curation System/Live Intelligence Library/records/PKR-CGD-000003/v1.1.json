@@ -1,0 +1,80 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000003",
+  "version": "1.1",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Advisory: removing no more than about a third of a bush in one session (general pruning guidance, not rose-specific)",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000060",
+      "PKR-SRC-000127",
+      "PKR-SRC-000128",
+      "PKR-SRC-000129",
+      "PKR-SRC-000003",
+      "PKR-SRC-000059",
+      "PKR-SRC-000097",
+      "PKR-SRC-000168",
+      "PKR-SRC-000192",
+      "PKR-SRC-000193",
+      "PKR-SRC-000196",
+      "PKR-SRC-000197",
+      "PKR-SRC-000198",
+      "PKR-SRC-000200",
+      "PKR-SRC-000201"
+    ],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "This is a general rule for shrubs and trees, not tested on roses. One rose-specific source recommends a hard, one-time renovation instead, which suggests the rule is a cautious default rather than a rose requirement (AF-40). The NC State wording is about a plant's crown in any one year, not about a single session (WEAKCONGESTED AF-18). No source links the choice between one hard cutback and a staged approach to a particular bush's condition (AF-40). A fifth source listed for AF-40 (Colorado State University, Adams County) couldn't be confirmed and isn't cited. Rose sources measure the amount removed in different ways (share of growth, of height, or of cane length), so their figures and the one-third rule may not measure the same thing (ARC-BUSHROSE-HARDPRUNE-01 C-3).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "How much to remove",
+    "label": "General pruning guidance, with what rose growers do",
+    "items": [
+      {
+        "text": "A general pruning rule for shrubs and trees is to remove no more than about a third of a plant's growth in one session. Removing more can stress the plant, drain its stored energy and cause a flush of uncontrolled regrowth.",
+        "confidence": "Low"
+      },
+      {
+        "text": "One general source puts it as no more than a third of a plant's crown in any one year.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "If an overgrown bush needs more than that, the same guidance spreads the work over two or three years, about a third at a time.",
+        "confidence": "Low"
+      },
+      {
+        "text": "This rule hasn't been tested on roses, and at least one rose source recommends a single hard renovation instead. Treat it as a cautious guide, not a limit.",
+        "confidence": "Low"
+      },
+      {
+        "text": "Rose growers commonly remove more than this at winter pruning: about half to two-thirds of a Hybrid Tea's or Floribunda's growth or height.",
+        "confidence": "High"
+      },
+      {
+        "text": "Some rose sources call cutting back by a third \"light\" pruning.",
+        "confidence": "Moderate"
+      }
+    ],
+    "presentation": {
+      "before_first_cut": true,
+      "repeat_every_n_cuts": 3,
+      "applies_to_decisions": [
+        "PKR-DEC-000001",
+        "PKR-DEC-000002",
+        "PKR-DEC-000003",
+        "PKR-DEC-000004",
+        "PKR-DEC-000005",
+        "PKR-DEC-000006"
+      ]
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-HARDPRUNE-NOFLOWERS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.1 approved by Shaphan in chat, 2 October 2026: adds the rose-specific figures from ARC-BUSHROSE-HARDPRUNE-01 (Founder Decision 3(b)). v1.0 retired."
+  }
+}

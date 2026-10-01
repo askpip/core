@@ -91,7 +91,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-PRUNINGFRAM
 | PKR Type | Source PKR |
 | Title | UC ANR Fresno — Rosie's Corner: It's time to prune roses |
 | Status | Published |
-| Version | 1.1 |
+| Version | 1.2 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000006 and/or PKR-DEC-000006 |
@@ -110,6 +110,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-PRUNINGFRAM
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate) — *added v1.1, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High) — *added v1.1, 29 September 2026*
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-22 (Moderate) (added v1.2, 2 October 2026)
 - **Relevance:** Supports AF-7, AF-8, AF-9, AF-17, AF-20.
 
 *Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-CGD-000001 to 000003 (`PKR-SRC-BUSHROSE-CAREGUIDANCE-CUTS-submission.md` Part B). Source identity unchanged.*
@@ -324,7 +325,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-PRUNINGFRAM
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — Renovating Overgrown Shrubs |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000006 and/or PKR-DEC-000006 |
@@ -335,6 +336,10 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-PRUNINGFRAM
 - **Source Identity:** Royal Horticultural Society, "Renovating Overgrown Shrubs"; web address <https://www.rhs.org.uk/plants/types/shrubs/renovation>, accessed 29 September 2026; FRD code RHS-RENOV
 - **MIL References:**
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-39 (Low)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-2 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-14 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-22 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-23 (Low) (added v1.1, 2 October 2026)
 - **Relevance:** Supports AF-39.
 
 ---
@@ -370,7 +375,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-PRUNINGFRAM
 | PKR Type | Source PKR |
 | Title | David Austin Roses — How to Prune Repeat Flowering Shrub Roses |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000006 and/or PKR-DEC-000006 |
@@ -381,6 +386,8 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-PRUNINGFRAM
 - **Source Identity:** David Austin Roses, "How to Prune Repeat Flowering Shrub Roses"; web address <https://www.davidaustinroses.com/blogs/rose-care/how-to-prune-an-english-shrub-rose>, accessed 29 September 2026; FRD code DA-SHRUB
 - **MIL References:**
   - ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-41 (Low)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-4 (Moderate) (added v1.1, 2 October 2026)
 - **Relevance:** Supports AF-41.
 
 ---

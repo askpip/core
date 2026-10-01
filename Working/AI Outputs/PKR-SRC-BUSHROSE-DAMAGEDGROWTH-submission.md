@@ -121,7 +121,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 | PKR Type | Source PKR |
 | Title | Clemson HGIC — Rose Diseases (HGIC 2106) |
 | Status | Published |
-| Version | 1.1 |
+| Version | 1.2 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000004 and/or PKR-DEC-000004 |
@@ -137,6 +137,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-16 (Moderate)
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-10 (High) — *added v1.1, 29 September 2026*
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-20 (High) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-18 (Moderate) (added v1.2, 2 October 2026)
 - **Relevance:** Supports AF-2, AF-4, AF-15, AF-16 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quotes found: canker colour range; 1:9 bleach disinfection; rose rosette material burned or bagged.
 
 *Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
@@ -590,7 +591,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 | PKR Type | Source PKR |
 | Title | Portland Rose Society — How to Prune Your Roses (spring pruning) |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Established bush rose; dormant pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-OBS-000004 and/or PKR-DEC-000004 |
@@ -601,6 +602,11 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-DAMAGEDGROW
 - **Source Identity:** Portland Rose Society, "How to Prune Your Roses" (spring pruning blog); web address <https://www.portlandrosesociety.org/blog/springpruning>, accessed 29 September 2026; FRD code PRS
 - **MIL References:**
   - ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-14 (Moderate)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-2 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-8 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-9 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-14 (Moderate) (added v1.1, 2 October 2026)
 - **Relevance:** Supports AF-14 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quote found verbatim ("It takes time for freeze damage to develop...").
 
 ---

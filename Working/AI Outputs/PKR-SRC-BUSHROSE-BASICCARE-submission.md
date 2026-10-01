@@ -40,7 +40,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-BASICCARE-0
 | PKR Type | Source PKR |
 | Title | Iowa State University Extension — Rose Care by Season |
 | Status | Published |
-| Version | 1.1 |
+| Version | 1.2 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-CGD-000004, 000005 and/or 000006 |
@@ -57,6 +57,8 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-BASICCARE-0
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High) — *added v1.1, 29 September 2026*
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-15 (High) — *added v1.1, 29 September 2026*
   - ARC-BUSHROSE-POSTBUDBREAK-01, AF-16 (Moderate) — *added v1.1, 29 September 2026*
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-19 (High) (added v1.2, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-20 (Low) (added v1.2, 2 October 2026)
 - **Relevance:** Supports F2, F3, F5, F6.
 
 *Revision v1.1 (29 September 2026, Founder-approved in chat by Shaphan): MIL References added for citation by PKR-SGT-000001 v1.1, PKR-DEC-000001 v1.1 and/or PKR-DEC-000004 v1.1 (`PKR-SRC-BUSHROSE-POSTBUDBREAK-submission.md` Part B). Source identity unchanged.*
@@ -149,7 +151,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-BASICCARE-0
 | PKR Type | Source PKR |
 | Title | Penn State Extension — Protecting Your Roses through Pennsylvania Winters |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-CGD-000004, 000005 and/or 000006 |
@@ -163,6 +165,9 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-BASICCARE-0
   - ARC-BUSHROSE-BASICCARE-01, F9 (Very High)
   - ARC-BUSHROSE-BASICCARE-01, F10 (Moderate)
   - ARC-BUSHROSE-BASICCARE-01, F11 (Moderate)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-14 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-15 (Low) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High) (added v1.1, 2 October 2026)
 - **Relevance:** Supports F4, F9, F10, F11.
 
 ---
@@ -200,7 +205,7 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-BASICCARE-0
 | PKR Type | Source PKR |
 | Title | University of Maryland Extension — Rose: Identify and Manage Problems |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Cited by PKR-CGD-000004, 000005 and/or 000006 |
@@ -213,6 +218,15 @@ Built per KIT OM Chapter 7 and PKR Standard §5.5 from `ARC-BUSHROSE-BASICCARE-0
   - ARC-BUSHROSE-BASICCARE-01, F6 (High)
   - ARC-BUSHROSE-BASICCARE-01, F12 (Moderate)
   - ARC-BUSHROSE-BASICCARE-01, F13 (Low–Moderate)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-5 (High) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-9 (Low) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-10 (Low) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-11 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-28 (High) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-30 (Low) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-31 (Moderate) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-33 (Low) (added v1.1, 2 October 2026)
 - **Relevance:** Supports F6, F12, F13.
 
 ---

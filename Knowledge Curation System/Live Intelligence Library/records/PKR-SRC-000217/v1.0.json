@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000217",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Oklahoma State University Extension, Digital Diagnostics — \"Black Spot of Rose\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-31 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension",
+    "identity": "Oklahoma State University Extension, Digital Diagnostics, \"Black Spot of Rose\", 13 April 2021. University extension, US. https://extension.okstate.edu/programs/digital-diagnostics/plant-diseases/black-spot-of-rose, accessed 1 October 2026 (register code NOFLOWERS:OKS-BS)",
+    "url": "https://extension.okstate.edu/programs/digital-diagnostics/plant-diseases/black-spot-of-rose",
+    "register_code": "NOFLOWERS:OKS-BS",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

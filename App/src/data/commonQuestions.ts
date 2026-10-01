@@ -150,9 +150,19 @@ export function commonQuestions(): CommonQuestion[] {
       statements: all('PKR-CGD-000006', 'items'),
       pkrIds: ['PKR-CGD-000006'],
     },
-    { key: 'no-flowers', question: "Why isn't my rose flowering?", statements: [], pkrIds: [], pending: PENDING },
+    {
+      key: 'no-flowers',
+      question: "Why isn't my rose flowering?",
+      statements: all('PKR-CGD-000008', 'items'),
+      pkrIds: ['PKR-CGD-000008'],
+    },
     { key: 'spraying', question: 'Should I spray my roses?', statements: [], pkrIds: [], pending: PENDING },
-    { key: 'prune-too-hard', question: 'Can I kill my rose by pruning too hard?', statements: [], pkrIds: [], pending: PENDING },
+    {
+      key: 'prune-too-hard',
+      question: 'Can I kill my rose by pruning too hard?',
+      statements: all('PKR-CGD-000007', 'items'),
+      pkrIds: ['PKR-CGD-000007'],
+    },
     { key: 'plant-move', question: 'When can I plant or move a rose?', statements: [], pkrIds: [], pending: PENDING },
   ]
 

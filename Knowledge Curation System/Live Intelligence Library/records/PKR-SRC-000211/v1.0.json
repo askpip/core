@@ -1,0 +1,38 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000211",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Ask Extension — \"Roses don't bloom\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-5 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-11 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-14 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-21 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-22 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension network",
+    "identity": "Ask Extension, \"Roses don't bloom\" (#787816), answered 25 April 2022 by an unnamed Ask Extension expert (the answer links to Illinois Extension; affiliation not stated). University extension network, US. https://ask.extension.org/kb/faq.php?id=787816, accessed 1 October 2026 (register code NOFLOWERS:AE-ILL)",
+    "url": "https://ask.extension.org/kb/faq.php?id=787816",
+    "register_code": "NOFLOWERS:AE-ILL",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

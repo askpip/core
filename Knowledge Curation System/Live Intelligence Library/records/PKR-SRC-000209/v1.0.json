@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000209",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "David Austin Roses (Megan Edmondson) — \"Finding the Right Rose for Your Garden: How Often Would You Like Your Rose to Flower?\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-17 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial rose breeder and nursery",
+    "identity": "David Austin Roses (Megan Edmondson), \"Finding the Right Rose for Your Garden: How Often Would You Like Your Rose to Flower?\", 10 April 2026. Commercial rose breeder and nursery, UK. https://www.davidaustinroses.com/blogs/inspiration/finding-the-right-rose-for-your-garden-how-often-would-you-like-your-rose-to-flower-1, accessed 1 October 2026 (register code NOFLOWERS:DA-ONCE)",
+    "url": "https://www.davidaustinroses.com/blogs/inspiration/finding-the-right-rose-for-your-garden-how-often-would-you-like-your-rose-to-flower-1",
+    "register_code": "NOFLOWERS:DA-ONCE",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

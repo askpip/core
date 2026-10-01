@@ -38,7 +38,7 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
 | PKR Type | Source PKR |
 | Title | The New Zealand Rose Society — FAQ |
 | Status | Published |
-| Version | 1.0 |
+| Version | 1.1 |
 | Applies To | Bush rose; rose-type scope qualification |
 | Founder Approval Date | 29 September 2026 |
 | Related PKRs | Supports PKR-SGT-000003 (rose-type gate) |
@@ -49,6 +49,10 @@ Built per KIT Operations Manual Chapter 7 and PKR Standard §5.5 from `ARC-BUSHR
 - **Source Identity:** The New Zealand Rose Society, "FAQ", https://nzroses.org.nz/faq/, accessed 27 September 2026 (FRD code NZRS-Q)
 - **MIL References:**
   - ARC-BUSHROSE-ROSETYPE-01, AF-24 (Moderate)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-HARDPRUNE-01, AF-25 (Low) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High) (added v1.1, 2 October 2026)
+  - ARC-BUSHROSE-NOFLOWERS-01, AF-17 (Low) (added v1.1, 2 October 2026)
 - **Relevance:** Directs an unsure gardener to a local rose society or a pruning demonstration.
 
 ---

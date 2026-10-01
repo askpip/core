@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000222",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Elisabeth C. Miller Library, University of Washington Botanic Gardens, Plant Answer Line — \"rose bush buds won't open\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-27 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-28 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "University botanic garden library",
+    "identity": "Elisabeth C. Miller Library, University of Washington Botanic Gardens, Plant Answer Line, \"rose bush buds won't open\", date not shown (quotes the Olympia Rose Society and UC Davis). University botanic garden library, US. https://depts.washington.edu/hortlib/pal/rose-bush-buds-wont-open, accessed 1 October 2026 (register code NOFLOWERS:UW)",
+    "url": "https://depts.washington.edu/hortlib/pal/rose-bush-buds-wont-open",
+    "register_code": "NOFLOWERS:UW",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

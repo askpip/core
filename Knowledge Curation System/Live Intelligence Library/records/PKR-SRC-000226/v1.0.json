@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000226",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Yates New Zealand — \"How to grow roses in the garden\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-3 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden products)",
+    "identity": "Yates New Zealand, \"How to grow roses in the garden\", date not shown. Commercial (garden products), New Zealand. https://www.yates.co.nz/ideas-plans/project-guides-articles/all/growing-roses/, accessed 1 October 2026 (register code NOFLOWERS:YAT-NZ)",
+    "url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/growing-roses/",
+    "register_code": "NOFLOWERS:YAT-NZ",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

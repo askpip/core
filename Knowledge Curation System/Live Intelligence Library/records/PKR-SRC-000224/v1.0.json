@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000224",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Nanette Londeree, Marin Rose Society — \"Keeping Roses Healthy in a Drought\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-9 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Local rose society (ARS-affiliated)",
+    "identity": "Nanette Londeree, Marin Rose Society, \"Keeping Roses Healthy in a Drought\", 24 May 2020. Local rose society (ARS-affiliated), US. https://www.marinrose.org/care/keeping-roses-healthy-in-a-drought/, accessed 1 October 2026 (register code NOFLOWERS:MARIN)",
+    "url": "https://www.marinrose.org/care/keeping-roses-healthy-in-a-drought/",
+    "register_code": "NOFLOWERS:MARIN",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

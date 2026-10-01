@@ -1,0 +1,36 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000213",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Nancy Doubrava and Robert F. Polomski, Clemson Cooperative Extension Home & Garden Information Center — \"Why Plants Fail to Flower or Fruit\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-5 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-10 (Low)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-14 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension, US; general guidance",
+    "identity": "Nancy Doubrava and Robert F. Polomski, Clemson Cooperative Extension Home & Garden Information Center, \"Why Plants Fail to Flower or Fruit\", 31 August 2018 (originally 1999). University extension, US; general guidance, not rose-specific. https://hgic.clemson.edu/factsheet/why-plants-fail-to-flower-or-fruit/, accessed 1 October 2026 (register code NOFLOWERS:CLEM)",
+    "url": "https://hgic.clemson.edu/factsheet/why-plants-fail-to-flower-or-fruit/",
+    "register_code": "NOFLOWERS:CLEM",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

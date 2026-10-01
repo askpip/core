@@ -1,0 +1,35 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000097",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Rose Society of NSW — Rose Growing Advice",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Quote found: \"no less than 10mm\". The page title is \"Rose Growing Advice\"; the dossier records \"Growing Roses\".",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-6 (Moderate) (added v1.1, 2 October 2026)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "Rose Society of NSW, \"Rose Growing Advice\" (growing-roses page); web address <https://nsw.rose.org.au/growing-roses>, accessed 29 September 2026; FRD code RSNSW",
+    "url": "https://nsw.rose.org.au/growing-roses",
+    "register_code": null,
+    "relevance": "Supports AF-5. Verification: Quote found: \"no less than 10mm\". The page title is \"Rose Growing Advice\"; the dossier records \"Growing Roses\"."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+  }
+}

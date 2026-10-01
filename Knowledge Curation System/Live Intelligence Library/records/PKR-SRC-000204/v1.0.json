@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000204",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Gardening.org (Gardening LLC; \"Rosefiend Cordell\") — \"How To Revive and Rejuvenate an Old, Neglected Rosebush by Pruning\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-20 (Very Low)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-23 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial general-interest website",
+    "identity": "Gardening.org (Gardening LLC; \"Rosefiend Cordell\"), \"How To Revive and Rejuvenate an Old, Neglected Rosebush by Pruning\", 27 April 2025. Commercial general-interest website, US. https://gardening.org/how-to-revive-and-rejuvenate-an-old-neglected-rosebush/, accessed 1 October 2026 (register code HARDPRUNE:GORG)",
+    "url": "https://gardening.org/how-to-revive-and-rejuvenate-an-old-neglected-rosebush/",
+    "register_code": "HARDPRUNE:GORG",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

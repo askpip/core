@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000195",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Victoria State Rose Garden — \"The Pruning Mystique\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Public rose garden volunteers",
+    "identity": "Victoria State Rose Garden, \"The Pruning Mystique\", date not shown. Public rose garden volunteers, Australia. https://www.vicstaterosegarden.com.au/about/rose-stories/the-pruning-mystique, accessed 1 October 2026 (register code HARDPRUNE:VSRG-PM)",
+    "url": "https://www.vicstaterosegarden.com.au/about/rose-stories/the-pruning-mystique",
+    "register_code": "HARDPRUNE:VSRG-PM",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

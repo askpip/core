@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000176",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Pacific Northwest Plant Disease Management Handbook — Rose (Rosa spp.) and hybrids-Brand and Common Canker",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-10 (High)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-20 (High)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-18 (Moderate) (added v1.1, 2 October 2026)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Pacific Northwest Plant Disease Management Handbook, \"Rose (Rosa spp.) and hybrids-Brand and Common Canker\" (first published 11 September 2015; revised March 2026).; web address <https://pnwhandbooks.org/plantdisease/host-disease/rose-rosa-spp-hybrids-brand-common-canker>, accessed 29 September 2026; register code PNW-C",
+    "url": "https://pnwhandbooks.org/plantdisease/host-disease/rose-rosa-spp-hybrids-brand-common-canker",
+    "register_code": "PNW-C",
+    "relevance": "Supports AF-10, AF-20."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+  }
+}

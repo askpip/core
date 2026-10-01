@@ -1,0 +1,42 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000059",
+  "version": "1.4",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Rose Society of South Australia — Rose Pruning: Main Points / A Home Gardener's Guide",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Cited only for a preserved, unresolved point of variation, not an adopted finding.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-STEMCROSSING-01, C-1 (Preserved variation (no confidence level))",
+      "ARC-BUSHROSE-INWARDGROWTH-01, C-1 (Preserved variation (no confidence level))",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-14 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-38 (Not assigned; see C11)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.4, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-2 (Moderate) (added v1.4, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-5 (Moderate) (added v1.4, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-14 (Moderate) (added v1.4, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-24 (Low) (added v1.4, 2 October 2026)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society (regional)",
+    "identity": "Rose Society of South Australia, Tony Hanna and Doug Gregory, \"Rose Pruning – Main Points\" and \"A Home Gardener's Guide\"; FRD code SARS; web addresses: Hanna, \"Rose Pruning – Main Points\" <https://sarose.org.au/growing-advice/pruning-roses-a-home-gardener-s-guide> (AF-3); Gregory, \"Pruning Roses – A Home Gardener's Guide\" <https://sarose.org.au/growing-advice/pruning-roses-a-home-gardener-s-guide> (C-1); accessed 29 September 2026. As recorded in `FRD-BUSHROSE-STEMCROSSING-02` §4",
+    "url": "https://sarose.org.au/growing-advice/pruning-roses-a-home-gardener-s-guide",
+    "register_code": null,
+    "relevance": "The one source that argues against deliberately opening the bush centre (recorded as unresolved variation C-1)."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.4: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.3 retired."
+  }
+}

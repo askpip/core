@@ -1,0 +1,38 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000135",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Penn State Extension — Protecting Your Roses through Pennsylvania Winters",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "\"12-inch-deep mound\" after several killing freezes; \"Water thoroughly late in the season, after the first frost, but before the ground freezes\"; \"Clean up all debris ... so that fungal spores do not overwinter\"; fertilise monthly from April, stopping by August. For F10, the page describes a covering of leaves, boughs or bark over the mound; a collar or burlap wrap wasn't found in this check.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-BASICCARE-01, F4 (High (pattern))",
+      "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)",
+      "ARC-BUSHROSE-BASICCARE-01, F10 (Moderate)",
+      "ARC-BUSHROSE-BASICCARE-01, F11 (Moderate)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-14 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-15 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High) (added v1.1, 2 October 2026)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (Penn State University)",
+    "identity": "Penn State Extension, Susan Marquesen, \"Protecting Your Roses through Pennsylvania Winters\" (updated 15 Nov 2023); web address <https://extension.psu.edu/protecting-your-roses-through-pennsylvania-winters>, accessed 29 September 2026; register code PSU",
+    "url": "https://extension.psu.edu/protecting-your-roses-through-pennsylvania-winters",
+    "register_code": "PSU",
+    "relevance": "Supports F4, F9, F10, F11."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+  }
+}

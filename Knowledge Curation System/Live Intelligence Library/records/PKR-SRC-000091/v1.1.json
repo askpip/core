@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000091",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Portland Rose Society — How to Prune Your Roses (spring pruning)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-14 (Moderate)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-2 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-8 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-9 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-14 (Moderate) (added v1.1, 2 October 2026)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "Portland Rose Society, \"How to Prune Your Roses\" (spring pruning blog); web address <https://www.portlandrosesociety.org/blog/springpruning>, accessed 29 September 2026; FRD code PRS",
+    "url": "https://www.portlandrosesociety.org/blog/springpruning",
+    "register_code": null,
+    "relevance": "Supports AF-14 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quote found verbatim (\"It takes time for freeze damage to develop...\")."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+  }
+}

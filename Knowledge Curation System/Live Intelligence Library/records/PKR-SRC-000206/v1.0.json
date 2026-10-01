@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000206",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — \"Flower balling\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-26 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-27 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Horticultural body",
+    "identity": "Royal Horticultural Society, \"Flower balling\", RHS Advice, date not shown. Horticultural body, UK. https://www.rhs.org.uk/problems/flower-balling, accessed 1 October 2026 (register code NOFLOWERS:RHS-BALL)",
+    "url": "https://www.rhs.org.uk/problems/flower-balling",
+    "register_code": "NOFLOWERS:RHS-BALL",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000004",
+  "version": "1.7",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Oregon State University Extension Service — Pruning roses",
+  "common": {
+    "applies_to": "Bush rose; dead-wood identification and removal",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Not distinct from the dormancy commission's separate Oregon State University source (PKR-SRC-000016) — different article, different URL, cited independently.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DEADWOOD-01, AF-1 (High) — pith colour",
+      "ARC-BUSHROSE-DEADWOOD-01, AF-7 (High) — cut back to living tissue",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-STEMCROSSING-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-INWARDGROWTH-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-14 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-23 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-24 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-26 (Low)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-9 (Moderate) (added v1.7, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High) (added v1.7, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate) (added v1.7, 2 October 2026)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (Oregon State University)",
+    "identity": "Oregon State University Extension Service, McMullen, \"Pruning roses,\" https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses, accessed during FRD-BUSHROSE-DEADWOOD-01 research",
+    "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses",
+    "register_code": null,
+    "relevance": "Corroborates the pith-colour signal and the cut-back rule."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.7: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.6 retired."
+  }
+}
