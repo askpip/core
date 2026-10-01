@@ -2629,7 +2629,16 @@
       reviewBtn.type = "button";
       reviewBtn.className = "btn alt";
       saveRow.appendChild(reviewBtn);
-      block.appendChild(saveRow);
+      // 2 October 2026, Founder request: Save and Request Review sit in the button row at the
+      // top of the notice, beside Edit and Delete, instead of down in the approval block.
+      var topActions = editable ? body.querySelector(":scope > .actions") : null;
+      if(topActions){
+        saveNotesBtn.title = "Save the Approved tick and any notes below";
+        topActions.appendChild(saveNotesBtn);
+        topActions.appendChild(reviewBtn);
+      } else {
+        block.appendChild(saveRow);
+      }
       var reviewHint = document.createElement("p");
       reviewHint.className = "empty-note";
       reviewHint.style.margin = "6px 0 0";
@@ -4290,7 +4299,7 @@
         if(question){ var qt = document.createElement("div"); qt.className = "fm-qtext"; fmInline(qt, question); q.appendChild(qt); }
         var grp = radioGroup(id, opts);
         q.appendChild(grp);
-        var myMeta = { id: id, kind: kind, label: question || cardTitle || id, card: cardTitle, section: sectionTitle, opts: opts, required: required };
+        var myMeta = { id: id, kind: kind, label: question || cardTitle || id, card: cardTitle, section: sectionTitle, opts: opts, required: required, el: q };
         meta.push(myMeta);
         var cbox = null;
         if(flags.indexOf("comment") > -1 || flags.indexOf("why") > -1){
@@ -4340,7 +4349,14 @@
           if(n.kind === "claim"){
             addChoice(target(), "claim", n.id, "", optsOf(a[0]), ["why"], req, cardTitle, sectionTitle);
           } else if(n.kind === "choice"){
-            addChoice(target(), "choice", n.id, a[0], optsOf(a[1]), a.slice(2), req, cardTitle, sectionTitle);
+            // Some forms write a choice with an empty field before its options
+            // ("[[choice:r1|Question||Opt A;Opt B|comment]]"). Read that the same way as the
+            // normal "[[choice:r1|Question|Opt A;Opt B|comment]]" so the options still appear.
+            // (2 October 2026: four such questions per form showed no buttons yet counted as
+            // unanswered.)
+            var cOpts = a[1], cFlags = a.slice(2);
+            if(!optsOf(cOpts).length && a.length > 2 && optsOf(a[2]).length > 1){ cOpts = a[2]; cFlags = a.slice(3); }
+            addChoice(target(), "choice", n.id, a[0], optsOf(cOpts), cFlags, req && optsOf(cOpts).length > 0, cardTitle, sectionTitle);
           } else if(n.kind === "checks"){
             var q = document.createElement("div"); q.className = "fm-q";
             var qt = document.createElement("div"); qt.className = "fm-qtext"; fmInline(qt, a[0]); q.appendChild(qt);
@@ -4509,11 +4525,21 @@
         if(missing.length){
           notice.style.display = "block"; notice.className = "fm-notice warn"; notice.innerHTML = "";
           notice.appendChild(document.createTextNode(missing.length + " question" + (missing.length === 1 ? " is" : "s are") + " still unanswered. If you can't decide, choose Flag (or the closest option) and say why. "));
-          var go = document.createElement("button"); go.type = "button"; go.className = "btn ghost"; go.textContent = "Go to the first one";
+          var go = document.createElement("button"); go.type = "button"; go.className = "btn ghost"; go.textContent = "Go to the first unanswered question";
           go.addEventListener("click", function(){
-            var first = missing[0];
-            var el = host.querySelector('input[name="fm' + uid + '_' + first.id + '"]');
-            if(el){ el.scrollIntoView({ block: "center" }); }
+            // Re-check at click time, so it always goes to the first question still unanswered.
+            var stillMissing = refreshProgress().req.filter(function(m){ return isBlank(answers[m.id]); });
+            var first = stillMissing[0];
+            if(!first) { notice.style.display = "none"; return; }
+            var el = first.el || host.querySelector('input[name="fm' + uid + '_' + first.id + '"]');
+            if(!el) return;
+            var holder = first.el && first.el.closest ? (first.el.closest(".fm-card") || first.el) : el;
+            holder.scrollIntoView({ block: "center", behavior: "smooth" });
+            holder.style.transition = "box-shadow .3s";
+            holder.style.boxShadow = "0 0 0 3px #e0a63b";
+            setTimeout(function(){ holder.style.boxShadow = ""; }, 2200);
+            var firstRadio = first.el ? first.el.querySelector("input") : null;
+            if(firstRadio) setTimeout(function(){ try { firstRadio.focus({ preventScroll: true }); } catch(e){} }, 400);
           });
           var anyway = document.createElement("button"); anyway.type = "button"; anyway.className = "btn ghost"; anyway.textContent = "Finish anyway";
           anyway.addEventListener("click", function(){ submit(true); });

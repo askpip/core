@@ -2146,3 +2146,11 @@ Open items:
   tool" above for what was and wasn't verifiable from this session), and
   confirm the Toolbox button's folder placement and the title-page/page-size
   assumptions with Karla directly.
+
+## Form questions with no buttons; "Go to" button; notice buttons moved (2 October 2026)
+
+**Form fix.** Some Review Forms write a choice with an empty field before its options, for example `[[choice:r1|R-1 — …||Commission next;Commission later;Not needed;Not sure|comment]]`. The parser read the empty field as the options, so these questions (the "Further research" items, about four per form) showed no buttons but still counted as unanswered. `renderFormBody` now reads the options from the next field when the expected one is empty. A choice that still has no options is not counted as required. Existing answers are untouched, because they are keyed by question id.
+
+**"Go to the first unanswered question".** The button under the Finish warning used to look for a radio input. For the broken questions there wasn't one, so it did nothing. It now re-checks at click time, scrolls to the first unanswered question's card, outlines it briefly and focuses its first option.
+
+**Notice buttons.** At the Founder's request, a notice's Save and Request Review (or Cancel Review Request) buttons now sit in the top button row, beside Edit and Delete. A notice that isn't editable keeps them in the approval block as before.
