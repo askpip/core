@@ -11,7 +11,7 @@
 | Document Title | Research Commission Record — Why an Established Bush Rose Is Not Flowering, or Flowering Poorly |
 | Document Type | Research Commission Record (RCR) — authorised commission |
 | Version | 0.1 |
-| Status | Authorised |
+| Status | Authorised. Research completed; Founder-approved 2 October 2026; ARC created. |
 | Owner | The Founders |
 | Prepared By | Claude, acting in the Research Origin Curator (ROC) role, at Shaphan's direction |
 | Date Prepared | 1 October 2026 |

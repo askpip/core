@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-ROSETYPE-01** |
 | ARC Title | Recognising a Supported Rose Type: Bush Rose Scope Qualification for the Ask Pip MVP |
-| Version | 1.2 |
+| Version | 1.3 |
 | Approval Status | **Approved** |
 | Approval Date | 28 September 2026 (v1.0); 1 October 2026 (v1.1, retail-labelling findings; v1.2, "Ht"/"Fl" addendum) |
 | Approving Authority | AskPIP Founder Authority (Shaphan and Karla, both via Review Form; AF-21/AF-22 exclusion at Shaphan's subsequent direction; v1.1 retail-labelling findings approved by Shaphan in chat, 1 October 2026 — see §2) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-ROSETYPE-01` §8 (all 24 Assessed Findings; AF-21 and AF-22 assessed there but not carried into this ARC — see §2); retail-labelling findings embedded within `FRD-BUSHROSE-ROSETYPE-LABELS-01` §8 (all 29 Assessed Findings, carried here as AF-L1 to AF-L29) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | `FRD-BUSHROSE-SCOPE-01` (the approved Bush Rose scope this ARC qualifies against — patio exclusion and provisional Grandiflora inclusion both reaffirmed here, §5). Companion research `FRD-BUSHROSE-ROSETYPE-LABELS-01` (rose-type retail labelling across New Zealand, Australia, the United Kingdom and the United States) was pending its own Founder decision at v1.0 and is incorporated in v1.1 as AF-L1 to AF-L29. |
-| Revision History | v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-ROSETYPE-01`, Founder-approved for AF-1 to AF-24 with AF-21 and AF-22 excluded from the approved record (§2). v1.1 — 1 October 2026 — incorporates `FRD-BUSHROSE-ROSETYPE-LABELS-01` (AF-1 to AF-29, carried here as AF-L1 to AF-L29 so they cannot be confused with this ARC's own AF-1 to AF-24), its approved defaults and a source key (§8). No v1.0 finding, confidence level or decision changes. v1.2 — 1 October 2026 — adds the addendum `FRD-BUSHROSE-ROSETYPE-LABELS-02` (what "Ht" and "Fl" mean in New Zealand rose product names) as AF-L30 to AF-L32, default R-L6 and its sources (§8). Nothing earlier changes. |
+| Revision History | v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-ROSETYPE-01`, Founder-approved for AF-1 to AF-24 with AF-21 and AF-22 excluded from the approved record (§2). v1.1 — 1 October 2026 — incorporates `FRD-BUSHROSE-ROSETYPE-LABELS-01` (AF-1 to AF-29, carried here as AF-L1 to AF-L29 so they cannot be confused with this ARC's own AF-1 to AF-24), its approved defaults and a source key (§8). No v1.0 finding, confidence level or decision changes. v1.2 — 1 October 2026 — adds the addendum `FRD-BUSHROSE-ROSETYPE-LABELS-02` (what "Ht" and "Fl" mean in New Zealand rose product names) as AF-L30 to AF-L32, default R-L6 and its sources (§8). Nothing earlier changes. v1.3 — 2 October 2026 — records the Founder's Review Form for `FRD-BUSHROSE-ROSETYPE-LABELS-01` and his confirmation of approval in chat (§2, v1.3); Grandiflora by market (R-L4) restated as same treatment everywhere until the Grandiflora scope decision, then varied by market. No finding or Evidence Confidence Level changes. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01`; `Working/AI Outputs/Photo_and_Comparison_Image_Requirements_Rose_Types.md` and `Working/AI Outputs/Ask_Pip_Rose_Type_Comparison_Image_Sourcing_Brief.md` (downstream production work drawn from this ARC's approved findings, not themselves findings of this commission) |
 
@@ -52,9 +52,23 @@ Per ROC Operations Manual §11.9/§12.2, this ARC is created following documente
 1. **Findings:** AF-1 to AF-29 accepted as stated, at the Evidence Confidence Level recorded for each, with the recorded conflicts (C-1 to C-3) preserved. They are carried here as AF-L1 to AF-L29.
 2. **Defaults R-1 to R-4:** accepted as approved practical defaults (§6). Nothing is commissioned, including the in-store tag survey (R-1).
 3. **Uneven coverage (R-3):** accepted. Australian and United Kingdom big-box coverage is thinner than New Zealand's and the United States'; this is flagged here and in §6 rather than delaying the compilation.
-4. **Grandiflora by market (R-4):** no market-specific treatment. Grandiflora's provisional inclusion (§5) applies the same in every market until the Founders decide otherwise.
+4. **Grandiflora by market (R-4):** no market-specific treatment. Grandiflora's provisional inclusion (§5) applies the same in every market until the Founders decide otherwise. *(Superseded at v1.3: varied by market once the Grandiflora scope decision is made.)*
 
 **Decided by:** Shaphan (in chat, 1 October 2026).
+
+### v1.3 — Review Form and confirmation (2 October 2026)
+
+**Decision:** Approval of AF-L1 to AF-L29 confirmed. Shaphan finished the Review Form for `FRD-BUSHROSE-ROSETYPE-LABELS-01` in the Garden Shed on 1 October 2026, after the chat approval recorded under v1.1. The form approved 26 findings, flagged AF-L3, AF-L6 and AF-L9 with questions, and chose "Request specific further work before deciding" overall. The ROC answered the three questions from this ARC in chat on 2 October 2026:
+
+- AF-L3 (Bunnings NZ): Pip goes by the stated type, not the store; any rose whose tag, listing, receipt or product name states Hybrid Tea, Floribunda or Grandiflora (including "Ht" and "Fl", AF-L30 to AF-L32) is accepted, and "bush" alone is not (R-L1).
+- AF-L6 (Rose Finder): a variety the Rose Finder lists as Hybrid Tea or Floribunda can be accepted; the Rose Finder is one verification route and does not cover every cultivar (R-3), and it has no Grandiflora value.
+- AF-L9 (Ross Roses): the source does not say what replaces the phased-out terms.
+
+Shaphan then approved the dossier in chat ("approve the labels FRD", 2 October 2026). No further work is commissioned.
+
+**Grandiflora by market (R-4, R-L4):** the Review Form chose "Yes, vary by market once the scope decision is made". This replaces v1.1 item 4: Grandiflora is treated the same in every market until the Founders decide its scope, and its treatment is then varied by market.
+
+**Decided by:** Shaphan (Review Form, 1 October 2026; in chat, 2 October 2026).
 
 ### v1.2 — "Ht" and "Fl" addendum (1 October 2026)
 
@@ -746,7 +760,7 @@ From `FRD-BUSHROSE-ROSETYPE-LABELS-01` §9 (its R-1 to R-5, carried here as R-L1
 - **R-L1 (what is printed on a physical tag, in any market — AF-L7, AF-L13, AF-L20, AF-L25, AF-L29):** a stated type term found on a tag, receipt, listing or product title is accepted as evidence where present (AF-L1, AF-L8, AF-L21, AF-L22, AF-L23, AF-L24); the word "bush" alone, without a named type, is not. This extends R-2 above from New Zealand to all four markets. No in-store survey is commissioned.
 - **R-L2 (Bunnings NZ, AF-L3 / C-1):** AF-L3 is treated as Low-Moderate only and is not relied on alone to characterise New Zealand big-box retail.
 - **R-L3 (uneven coverage):** the findings are used for all four markets, with this standing limitation: Australian and United Kingdom big-box coverage is thinner than New Zealand's and the United States'.
-- **R-L4 (Grandiflora by market, AF-L27):** no market-specific variation (see §5).
+- **R-L4 (Grandiflora by market, AF-L27):** no market-specific variation until the Founders decide Grandiflora's scope; then varied by market (v1.3, §2).
 
 **R-L5 (ROC's own reasoned synthesis, Not Assigned per EAS §2.10) — preserved, not adopted:** whether "bush" alone could ever be read by a per-market rule, or should never count as evidence of scope (R-5a); and whether a product-title type is a better practical signal for Pip than a retailer's category page (R-5b, AF-L22, AF-L23, AF-L28). Neither is acted on until independent evidence is found; R-L1 already reflects the cautious reading.
 

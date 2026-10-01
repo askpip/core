@@ -11,7 +11,7 @@
 | Document Title | Research Commission Record — Can Pruning Too Hard Kill or Harm an Established Bush Rose? |
 | Document Type | Research Commission Record (RCR) — authorised commission |
 | Version | 0.1 |
-| Status | Authorised. Research completed; FRD submitted for Founder review. |
+| Status | Authorised. Research completed; Founder-approved 2 October 2026; ARC created. |
 | Owner | The Founders |
 | Prepared By | Claude, acting in the Research Origin Curator (ROC) role, at Shaphan's direction |
 | Date Prepared | 1 October 2026 |
