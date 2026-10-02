@@ -5,7 +5,7 @@
 **Document Title:** PIP Knowledge Record (PKR) Standard Amendment Proposal — Question Answers and Growing-Season Checks
 **Document Type:** Amendment Proposal
 **Version:** 0.1
-**Status:** Draft — for Founder Review
+**Status:** Approved by AskPIP Founder Authority, 2 October 2026, and integrated as PKR Standard v0.11. Kept as the record of the proposal.
 **Owner:** The Founders
 **Prepared By:** Knowledge Integration Technician (KIT)
 **Working Location:** `Working/Drafts/Standards/PKR_Standard_Amendment_Proposal_v0.11.md`
@@ -23,7 +23,7 @@ Two changes to the PKR Standard, and one correction that the second change depen
 2. **Growing-season checks.** The Standard names a second journey context beside the dormant pruning journey: a short, separate check on one observation while the rose is in growth.
 3. **Supported observations.** The Standard says an Observation PKR is "one of the six supported observations". Eight are Published. The wording is corrected so that an approved observation is a supported one.
 
-The Standard stays at v0.10 and stays authoritative until a Founder approves this amendment and it is integrated.
+**Approved in chat, 2 October 2026:** Decision 1 (a), Decision 2 (a), Decision 3 (approved as v0.11). The wording in §3 is now in `Knowledge Curation System/Standards/PKR_Standard.md` v0.11.
 
 # 2. Why
 
