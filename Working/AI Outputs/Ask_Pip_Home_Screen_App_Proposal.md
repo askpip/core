@@ -1,6 +1,6 @@
 # Proposal: Ask Pip on the Home Screen
 
-**Status:** Proposal, not built. **Prepared by:** Claude, at Shaphan's request, 2 October 2026. **Live version:** Claude Doc at https://claude.ai/code/artifact/0a09ab90-6ff7-4b0a-8be7-259780c2b133 (this file is a copy of it as at 2 October 2026; edits made there aren't copied here automatically).
+**Status:** Route 1 (installable web app) built 2 October 2026; store apps not planned yet. **Prepared by:** Claude, at Shaphan's request, 2 October 2026. **Live version:** Claude Doc at https://claude.ai/code/artifact/0a09ab90-6ff7-4b0a-8be7-259780c2b133 (this file is a copy of it as at 2 October 2026; edits made there aren't copied here automatically).
 
 ## Summary
 
@@ -81,4 +81,6 @@ The same app code is wrapped in a native shell (Capacitor) and published to both
 
 ## Status and next step
 
-Proposal only; nothing has been built. It has no research dependency, so it can be built whenever the Founders say go, and it pairs naturally with stage 2 of the seasonal reminders proposal. The next step is the go-ahead and the icon approval.
+The installable web app (route 1) was built on 2 October 2026 and is waiting to go live. Founder decisions that day: the icon is the whole front-facing Pip on light green; the name is "Ask Pip"; the offer to add it sits in the menu only, so Pip does not invite the gardener; the drafted install and new-version wording is approved for now; store apps are not planned yet.
+
+Still to do: try it on a real Android phone and a real iPhone once it is live. It has been tested in a desktop browser only.

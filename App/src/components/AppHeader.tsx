@@ -5,6 +5,7 @@ import titleImg from '@/assets/pip/title.webp'
 import { supabase } from '@/lib/supabase'
 import { useAuth } from '@/lib/auth'
 import { markPasswordSet } from '@/lib/membership'
+import { installRoute, isInstalled, showInstallDialog, type InstallRoute } from '@/lib/homeScreen'
 import { InfoModal } from './InfoModal'
 import { Button } from './Button'
 
@@ -89,6 +90,10 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
   const [confirmPassword, setConfirmPassword] = useState('')
   const [savingPassword, setSavingPassword] = useState(false)
   const [passwordError, setPasswordError] = useState<string | null>(null)
+  // "Add to home screen" (2 October 2026). Menu only, by Founder decision: Pip does not
+  // invite the gardener. Which instructions show depends on the browser (see
+  // lib/homeScreen.ts). The item is hidden once Ask Pip runs from the home screen.
+  const [installHelp, setInstallHelp] = useState<InstallRoute | null>(null)
 
   function openInfo(panel: Exclude<InfoPanel, null>) {
     setMenuOpen(false)
@@ -216,6 +221,15 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
                   navigate('/learn')
                 }}
               />
+              {!isInstalled() && (
+                <MenuItem
+                  label="Add to home screen"
+                  onClick={() => {
+                    setMenuOpen(false)
+                    setInstallHelp(installRoute())
+                  }}
+                />
+              )}
               <MenuItem label="My Name" onClick={openNameEditor} />
               <MenuItem label="Change Password" onClick={openPasswordEditor} />
               <MenuItem
@@ -237,6 +251,45 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
       {infoPanel && (
         <InfoModal title={INFO_CONTENT[infoPanel].title} onClose={() => setInfoPanel(null)}>
           {INFO_CONTENT[infoPanel].body}
+        </InfoModal>
+      )}
+
+      {installHelp && (
+        <InfoModal title="Add Pip to your home screen" onClose={() => setInstallHelp(null)}>
+          {/* Wording approved "for now" by a Founder in chat, 2 October 2026. The 'other'
+              wording is a plain fallback for browsers with no install dialog of their own. */}
+          {installHelp === 'prompt' && (
+            <div className="flex flex-col gap-3">
+              <p>Open Ask Pip like an app, straight from your phone.</p>
+              <Button
+                onClick={() => {
+                  setInstallHelp(null)
+                  void showInstallDialog()
+                }}
+              >
+                Add to home screen
+              </Button>
+              <Button variant="secondary" onClick={() => setInstallHelp(null)}>
+                Not now
+              </Button>
+            </div>
+          )}
+          {installHelp === 'ios' && (
+            <div className="flex flex-col gap-3">
+              <ol className="flex list-decimal flex-col gap-1.5 pl-5">
+                <li>Tap the Share button in Safari.</li>
+                <li>Choose "Add to Home Screen".</li>
+                <li>Tap Add.</li>
+              </ol>
+              <Button onClick={() => setInstallHelp(null)}>Got it</Button>
+            </div>
+          )}
+          {installHelp === 'other' && (
+            <div className="flex flex-col gap-3">
+              <p>Open your browser's menu and choose "Add to Home screen" or "Install app".</p>
+              <Button onClick={() => setInstallHelp(null)}>Got it</Button>
+            </div>
+          )}
         </InfoModal>
       )}
 

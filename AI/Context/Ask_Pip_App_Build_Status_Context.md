@@ -135,6 +135,15 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
 
 **Pip's poses** (`App/src/components/PipAvatar.tsx`, `App/src/components/ChatBubble.tsx`). Since 2 October 2026 the avatar beside Pip's messages has five poses: front (the default), waving, gesturing, thumbs-up and thinking. A screen picks one with the `pose` property. The images are `App/src/assets/pip/pip-*.webp`, made from `Graphics/Pip Cut-outs/`. Checked in a browser on the sign-in screen and in a test page of all five poses; the signed-in screens were not opened.
 
+**Home-screen app** (2 October 2026; `App/public/manifest.webmanifest`, `App/public/sw.js`, `App/public/icons/`, `App/src/lib/homeScreen.ts`, `App/src/components/NewVersionBanner.tsx`).
+
+- **What it does.** A gardener can add Ask Pip to their phone's home screen from "Add to home screen" in the menu. It then opens full-screen with its own icon, and opens without a connection.
+- **What is kept on the phone.** Only the app's own page and files. Requests to other sites (Supabase, fonts) are never stored, so sign-in, the journal, photos and the live rose knowledge are always fetched fresh.
+- **How a new version arrives.** The page is fetched from the network first. If the app is open when a newer build goes live, it shows "A new version of Ask Pip is ready" with a Refresh button.
+- **Release order still matters.** An installed copy can stay open for days. Keep deploying the app before publishing records it depends on.
+- **Checked.** Type-check, build, lint, and an automated browser run of 18 checks (manifest, icons, storage, opening offline, the three sets of install instructions, the new-version message and Refresh). **Not yet tried on a real Android phone or iPhone.**
+- **To change what is stored,** change `CACHE` in `sw.js`; the old store is deleted when the new worker takes over.
+
 **Also built in the 1 October 2026 redesign trial** and present in the same code: the "This season" card (`App/src/components/SeasonCard.tsx`, on the plant page and the journey's care step), the whole-session progress stages and three-step photo coaching in `App/src/pages/Journey.tsx`, and the Google Gemini photo disclosure in the journey and on the About page. `CHANGELOG.md` has the full list.
 
 # 4. Phase B — Blocked on Founder-Approved Knowledge
@@ -166,5 +175,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **2 October 2026 (Version 0.2, update):** Recorded the rename of "Learn" to "How Pip works", its two new topics, and its wording approval.
 
 - **2 October 2026 (Version 0.2, update):** Recorded Pip's five poses and where the pose is set.
+
+- **2 October 2026 (Version 0.2, update):** Recorded the home-screen app: manifest, icons, service worker, menu item and new-version message.
 
 # End of Document

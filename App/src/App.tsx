@@ -15,6 +15,7 @@ import { useAuth } from '@/lib/auth'
 import { lilRevision, loadLiveLil, subscribeLil } from '@/data/pkr'
 import { fetchPublishedLil } from '@/lib/lil'
 import roseBackground from '@/assets/pip/rose-background.webp'
+import { NewVersionBanner } from '@/components/NewVersionBanner'
 
 /** Redirects to the sign-in gate unless there's a live Supabase session. */
 function RequireAuth({ children }: { children: ReactElement }) {
@@ -127,6 +128,7 @@ function App() {
               }
             />
           </Routes>
+          <NewVersionBanner />
         </div>
       </div>
     </HashRouter>
