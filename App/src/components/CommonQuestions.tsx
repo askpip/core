@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ConfidenceTag, SourcesLink } from '@/components/PkrStatements'
 import { questionsFor, type CommonQuestion, type QuestionKey } from '@/data/commonQuestions'
@@ -30,6 +30,15 @@ export function CommonQuestions({
   const questions = questionsFor(keys)
   const [open, setOpen] = useState<QuestionKey | null>(null)
   const [showAll, setShowAll] = useState(false)
+  // The answer opens below the whole list of questions, which on a phone is often off
+  // the bottom of the screen. Bring it into view whenever a question is opened (reported
+  // by a Founder, 2 October 2026). Closing a question doesn't move the screen.
+  const answerRef = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    if (!open) return
+    const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    answerRef.current?.scrollIntoView({ behavior: calm ? 'auto' : 'smooth', block: 'start' })
+  }, [open])
   if (questions.length === 0) return null
 
   const visible = initialVisible && !showAll ? questions.slice(0, initialVisible) : questions
@@ -78,7 +87,12 @@ export function CommonQuestions({
       </div>
 
       {current && (
-        <div className="rounded-2xl border border-pip-border bg-pip-card p-4 shadow-sm" role="region" aria-label={current.question}>
+        <div
+          ref={answerRef}
+          className="scroll-mt-3 rounded-2xl border border-pip-border bg-pip-card p-4 shadow-sm"
+          role="region"
+          aria-label={current.question}
+        >
           <p className="font-heading mb-2 text-lg leading-snug">{current.question}</p>
           {current.pending ? (
             <p className="text-sm text-pip-text-soft">{current.pending}</p>
