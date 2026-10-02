@@ -9,7 +9,7 @@
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `AI/Context/Ask_Pip_App_Build_Status_Context.md`
-**Last Updated:** 2 October 2026
+**Last Updated:** 3 October 2026
 **Purpose:** To give any artificial intelligence (AI) or Founder a current, accurate snapshot of what is actually built in the Ask Pip application, what is deliberately deferred and why, and what remains blocked pending Founder-approved knowledge — without requiring that state to be reconstructed from git history, conversation history or a fresh reading of every source file.
 **Related Documents:** `AGENTS.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `MVP/Architecture/Ask_Pip_App_Engineering_Architecture.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `Working/AI Outputs/Ask_Pip_Bush_Rose_Guided_Journey_Flow_Proposal.md`; `AI/Context/Ask_Pip_App_Known_Issues_and_Process_Notes_Context.md`
 
@@ -185,5 +185,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **2 October 2026 (Version 0.2, update):** Recorded the Chrome suggestion shown to Android gardeners in other browsers.
 
 - **3 October 2026 (Version 0.2, update):** The menu's Disclaimer is now "About this beta" and the contact address is founders@askpip.garden. An invite gate exists in the database (`hook_beta_invite_only`) but is not switched on, so sign-in is still open to any address. The app has no feedback form yet, although the website wording promises one.
+
+- **3 October 2026 (Version 0.2, update):** The invite gate is on: a Founder enabled Supabase Auth's "Before User Created" hook with `hook_beta_invite_only`, so a new account needs an approved request in the Shed's Beta Requests. Existing accounts are unaffected. The website is live at askpip.garden. The app now has a feedback form (`pages/Feedback.tsx`, wording in `data/feedbackForm.ts`, approved by a Founder in chat; record in `Working/AI Outputs/Ask_Pip_Feedback_Form_Wording.md`). Pip offers it when a pruning session is saved (`Journey.tsx` now goes to `/plant/:id/feedback/pruning`, where "Not now" leads to the plant's page) and on the last screen of the growing-season check (`BlindShootCheck.tsx`). The menu has "Give feedback" (`/feedback`). Feedback is sent with `app_send_feedback` and read in the Garden Shed's "Beta Feedback" tool; it never goes to Pip, and the form says so. Not yet checked with a real gardener's feedback from the deployed app.
 
 # End of Document

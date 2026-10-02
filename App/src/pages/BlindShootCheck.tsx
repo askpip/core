@@ -6,6 +6,7 @@ import { ChatBubble } from '@/components/ChatBubble'
 import { ResponseBubble } from '@/components/ResponseBubble'
 import { Button } from '@/components/Button'
 import { DecisionChoices } from '@/components/DecisionChoices'
+import { FeedbackOffer } from '@/components/FeedbackOffer'
 import { ConfidenceTag, SourcesLink, StatementList } from '@/components/PkrStatements'
 import {
   MAKING_THE_CUT,
@@ -282,12 +283,14 @@ export function BlindShootCheck() {
       )}
 
       {step === 'done' && (
-        <>
-          <ChatBubble pose="thumbs-up">
-            That's the blind-shoot check done{count > 0 ? ', and what you decided is saved in the journal' : ''}.
-          </ChatBubble>
-          <Button onClick={back}>Back to {project.name}</Button>
-        </>
+        // Pip's closing words, then the offer of the feedback form (approved by a Founder in
+        // chat, 3 October 2026). These words stand in for the offer's own "That's our session done."
+        <FeedbackOffer
+          pose="thumbs-up"
+          opening={`That's the blind-shoot check done${count > 0 ? ', and what you decided is saved in the journal' : ''}.`}
+          onYes={() => navigate(`/plant/${project.id}/feedback/growing-season`, { state: { skipOffer: true } })}
+          onNo={back}
+        />
       )}
     </Page>
   )

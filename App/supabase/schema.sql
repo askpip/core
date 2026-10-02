@@ -819,3 +819,179 @@ end;
 $$;
 grant execute on function public.hook_beta_invite_only(jsonb) to supabase_auth_admin;
 revoke execute on function public.hook_beta_invite_only(jsonb) from anon, authenticated, public;
+
+-- ---------------------------------------------------------------------------
+-- Beta feedback (3 October 2026): the app's feedback form and the Garden Shed's
+-- "Beta feedback" tool. Applied to Supabase as migration beta_feedback.
+-- Questions and answers approved by a Founder in chat, 3 October 2026
+-- (Working/AI Outputs/Ask_Pip_Feedback_Form_Wording.md).
+--
+-- Same pattern as beta invites: RLS on with no policies and all table privileges
+-- revoked. A signed-in gardener calls app_send_feedback, which can add a row
+-- and nothing else. The Shed calls the shed_* functions with a Founder's
+-- passphrase. No email is sent: the count on the Shed tool is the notice.
+--
+-- Two shapes of row. After a session (kind 'pruning' or 'growing-season'):
+-- went is required, the other answers are optional. From the menu (kind
+-- 'general'): topic and comment are required. The stored values are short keys;
+-- the words the gardener saw are in App/src/data/feedbackForm.ts.
+-- ---------------------------------------------------------------------------
+
+create table if not exists public.beta_feedback (
+  id uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default now(),
+  -- Deleting an account deletes its feedback with it (the row holds the email address).
+  user_id uuid not null references auth.users (id) on delete cascade,
+  -- Taken from the account, never from what the app sends.
+  email text not null,
+  kind text not null check (kind in ('pruning', 'growing-season', 'general')),
+  rose_type text check (rose_type is null or rose_type in ('hybrid-tea', 'floribunda', 'grandiflora')),
+  went text check (went is null or went in ('well', 'mixed', 'badly')),
+  clear text check (clear is null or clear in ('clear', 'partly', 'unsure')),
+  followed text check (followed is null or followed in ('most', 'some', 'no', 'nothing-suggested')),
+  obstacles text[] not null default '{}'
+    check (obstacles <@ array['match', 'photo', 'wording', 'app', 'too-long', 'none']::text[]),
+  confidence text check (confidence is null or confidence in ('more', 'same', 'less')),
+  topic text check (topic is null or topic in ('wrong', 'idea', 'liked')),
+  comment text check (comment is null or char_length(comment) between 1 and 1000),
+  may_contact boolean,
+  -- The Founders who have opened this feedback in the Shed. It is "unopened" for a Founder not listed.
+  opened_by text[] not null default '{}',
+  constraint beta_feedback_shape check (
+    (kind = 'general' and topic is not null and comment is not null and went is null)
+    or (kind <> 'general' and went is not null and topic is null)
+  )
+);
+create index if not exists beta_feedback_created_idx on public.beta_feedback (created_at desc);
+create index if not exists beta_feedback_user_idx on public.beta_feedback (user_id, created_at desc);
+alter table public.beta_feedback enable row level security;
+revoke all on public.beta_feedback from anon, authenticated, public;
+
+-- The app's feedback form. Only a signed-in gardener can call it. Answers {ok:true}, or {ok:false, reason}.
+-- At most 20 a day from one account, so a stuck button or a script cannot fill the Shed.
+create or replace function public.app_send_feedback(
+  p_kind text,
+  p_rose_type text default null,
+  p_went text default null,
+  p_clear text default null,
+  p_followed text default null,
+  p_obstacles text[] default '{}',
+  p_confidence text default null,
+  p_topic text default null,
+  p_comment text default null,
+  p_may_contact boolean default null
+)
+returns jsonb
+language plpgsql security definer
+set search_path to 'public'
+as $$
+declare
+  v_user uuid := auth.uid();
+  v_email text;
+  v_comment text := nullif(btrim(coalesce(p_comment, '')), '');
+  v_obstacles text[] := coalesce(p_obstacles, '{}');
+begin
+  if v_user is null then
+    return jsonb_build_object('ok', false, 'reason', 'not-signed-in');
+  end if;
+  select lower(u.email) into v_email from auth.users u where u.id = v_user;
+  if v_email is null then
+    return jsonb_build_object('ok', false, 'reason', 'not-signed-in');
+  end if;
+
+  if p_kind is null or p_kind not in ('pruning', 'growing-season', 'general') then
+    return jsonb_build_object('ok', false, 'reason', 'invalid');
+  end if;
+  if v_comment is not null and char_length(v_comment) > 1000 then
+    return jsonb_build_object('ok', false, 'reason', 'too-long');
+  end if;
+  if p_kind = 'general' then
+    if p_topic is null or p_topic not in ('wrong', 'idea', 'liked') or v_comment is null then
+      return jsonb_build_object('ok', false, 'reason', 'invalid');
+    end if;
+  else
+    if p_went is null or p_went not in ('well', 'mixed', 'badly')
+       or (p_clear is not null and p_clear not in ('clear', 'partly', 'unsure'))
+       or (p_followed is not null and p_followed not in ('most', 'some', 'no', 'nothing-suggested'))
+       or (p_confidence is not null and p_confidence not in ('more', 'same', 'less'))
+       or not (v_obstacles <@ array['match', 'photo', 'wording', 'app', 'too-long', 'none']::text[])
+       or cardinality(v_obstacles) > 6 then
+      return jsonb_build_object('ok', false, 'reason', 'invalid');
+    end if;
+  end if;
+
+  if (select count(*) from public.beta_feedback f
+      where f.user_id = v_user and f.created_at > now() - interval '24 hours') >= 20 then
+    return jsonb_build_object('ok', false, 'reason', 'too-many');
+  end if;
+
+  insert into public.beta_feedback
+    (user_id, email, kind, rose_type, went, clear, followed, obstacles, confidence, topic, comment, may_contact)
+  values (
+    v_user,
+    v_email,
+    p_kind,
+    case when p_kind <> 'general' and p_rose_type in ('hybrid-tea', 'floribunda', 'grandiflora') then p_rose_type end,
+    case when p_kind <> 'general' then p_went end,
+    case when p_kind <> 'general' then p_clear end,
+    case when p_kind <> 'general' then p_followed end,
+    case when p_kind <> 'general' then (select coalesce(array_agg(distinct o), '{}') from unnest(v_obstacles) o) else '{}' end,
+    case when p_kind <> 'general' then p_confidence end,
+    case when p_kind = 'general' then p_topic end,
+    v_comment,
+    p_may_contact
+  );
+  return jsonb_build_object('ok', true);
+end;
+$$;
+revoke execute on function public.app_send_feedback(text, text, text, text, text, text[], text, text, text, boolean) from public, anon;
+grant execute on function public.app_send_feedback(text, text, text, text, text, text[], text, text, text, boolean) to authenticated;
+
+-- The Shed's "Beta feedback" tool: every piece of feedback, newest first, with whether this Founder has opened it.
+create or replace function public.shed_list_beta_feedback(p text)
+returns table (
+  id uuid, created_at timestamptz, email text, kind text, rose_type text, went text, clear text, followed text,
+  obstacles text[], confidence text, topic text, comment text, may_contact boolean, is_unopened boolean
+)
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare who text;
+begin
+  who := public.shed_resolve_user(p);
+  if who is null then raise exception 'invalid passphrase'; end if;
+  return query
+    select f.id, f.created_at, f.email, f.kind, f.rose_type, f.went, f.clear, f.followed, f.obstacles, f.confidence,
+           f.topic, f.comment, f.may_contact, not (who = any (f.opened_by))
+    from public.beta_feedback f
+    order by f.created_at desc;
+end;
+$$;
+
+-- The number on the tool: feedback this Founder has not opened yet.
+create or replace function public.shed_count_unopened_beta_feedback(p text)
+returns integer
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare who text;
+begin
+  who := public.shed_resolve_user(p);
+  if who is null then raise exception 'invalid passphrase'; end if;
+  return (select count(*)::integer from public.beta_feedback f where not (who = any (f.opened_by)));
+end;
+$$;
+
+create or replace function public.shed_open_beta_feedback(p text, feedback_id uuid)
+returns void
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare who text;
+begin
+  who := public.shed_resolve_user(p);
+  if who is null then raise exception 'invalid passphrase'; end if;
+  update public.beta_feedback f set opened_by = array_append(f.opened_by, who)
+    where f.id = feedback_id and not (who = any (f.opened_by));
+end;
+$$;

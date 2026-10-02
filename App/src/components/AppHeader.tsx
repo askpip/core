@@ -274,6 +274,15 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
                   supabase.auth.signOut().finally(() => navigate('/'))
                 }}
               />
+              {/* The feedback form, at any time (Feedback.tsx; approved by a Founder in chat,
+                  3 October 2026). It is told which screen to come back to. */}
+              <MenuItem
+                label="Give feedback"
+                onClick={() => {
+                  setMenuOpen(false)
+                  if (location.pathname !== '/feedback') navigate('/feedback', { state: { from: location.pathname } })
+                }}
+              />
               <MenuItem label="About this beta" onClick={() => openInfo('disclaimer')} />
               <MenuItem label="Privacy" onClick={() => openInfo('privacy')} />
               <MenuItem label="Contact" onClick={() => openInfo('contact')} />

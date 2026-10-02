@@ -33,10 +33,17 @@ There is no build step. The folder is served as it is.
 
 The SQL is in `App/supabase/schema.sql` under "Beta invites". The Shed tool is described in `Shed/README.md`.
 
-## Still to do before it goes live
+## Where it is published (3 October 2026)
 
-1. A Founder creates a second Vercel project with this folder (`Site`) as its root and no build command, and points askpip.garden at it.
-2. A Founder switches on the invite gate in Supabase: Authentication, Hooks, "Before User Created", Postgres function `hook_beta_invite_only`. Until then anyone can still create an account in the app.
-3. The emails are switched on (`shed_config`: `beta_emails = 'on'`) once the email wording is approved.
-4. A feedback form in the app. The approved wording promises one after a session, and it isn't built yet.
-5. A real request sent from the deployed site, approved in the Shed, and the invitation received: the first full check with nothing stubbed.
+The site is live at **https://askpip.garden**. `www.askpip.garden` redirects to it.
+
+- **Vercel:** project `core-app` (team AskPip). Its root is the repository root, Framework "Other", no build command, and **Output Directory `Site`**, so only this folder is served. The rest of the repository returns "not found".
+- **DNS at Hostinger:** an A record for `@` to `216.198.79.1` and a CNAME for `www` to `52a71ea8c3b35d30.vercel-dns-017.com`. The mailbox records, and the `app`, `shed` and `contact` records, are separate and must stay as they are.
+- **Invite gate:** on. A Founder enabled Supabase Auth's "Before User Created" hook with the Postgres function `hook_beta_invite_only`. Only an address with an approved request can create an Ask Pip account. To switch it off, turn off the hook in Supabase: Authentication, Auth Hooks.
+- **Emails:** on (`shed_config`: `beta_emails = 'on'`).
+- **Feedback form:** built in the app (`App/src/pages/Feedback.tsx`), as the "Join the beta" wording promises.
+
+## Still to do
+
+1. Send one request from askpip.garden itself with a new address. That is also the first test of the notice email to founders@askpip.garden.
+2. Try to sign up in the app with an address that has not been approved, to see the gate's message.

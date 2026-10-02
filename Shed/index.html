@@ -153,6 +153,18 @@
   }
   .beta-actions button.go{ background:#2f5e3b; border-color:#2f5e3b; color:#fff; }
   .beta-actions button:disabled{ opacity:.5; cursor:progress; }
+  /* Beta Feedback tool (3 October 2026): the same rows, with the gardener's answer as the coloured label. */
+  .beta-status.well{ background:#cfe6cf; color:#1f5a2a; }
+  .beta-status.mixed{ background:#f1e3b8; color:#6a5210; }
+  .beta-status.badly{ background:#e6d3d3; color:#7a2a2a; }
+  .beta-status.general{ background:#dfe3ea; color:#2c3a52; }
+  .beta-comment{
+    margin:10px 0; padding:10px 12px; border-left:3px solid #2f5e3b; border-radius:0 8px 8px 0;
+    background:rgba(255,255,255,.7); white-space:pre-wrap; overflow-wrap:anywhere;
+  }
+  .beta-detail a{ color:#2f5e3b; font-weight:700; }
+  .beta-detail dl.stack{ grid-template-columns:minmax(0,1fr); gap:0; }
+  .beta-detail dl.stack dt{ margin-top:8px; }
 
   /* The Desk: any number of items (documents/notices/books) can be open at once, sharing a
      single window frame per stage -- browser-tab style. With one item open, the frame shows
@@ -1198,7 +1210,7 @@
     return sb.rpc("shed_identify_user", { p: pass }).then(function(idRes){
       if(idRes.error){ throw idRes.error; }
       if(!idRes.data){ throw new Error("invalid passphrase"); }
-      return Promise.all([fetchAllItems(pass), fetchTodoBadgeCount(pass), fetchNoticeTemplates(), fetchBetaBadgeCount(pass)]).then(function(){
+      return Promise.all([fetchAllItems(pass), fetchTodoBadgeCount(pass), fetchNoticeTemplates(), fetchBetaBadgeCount(pass), fetchFeedbackBadgeCount(pass)]).then(function(){
         window.SHED_PASSPHRASE = pass;
         window.SHED_ACTIVE_USER = idRes.data;
         updateActiveUserBadge();
@@ -1552,13 +1564,31 @@
   // name inside the Toolbox, is the number of invite requests THIS Founder has not opened yet
   // (shed_count_unopened_invite_requests works it out per Founder). A failed count never blocks
   // unlocking the Shed; the badge just stays hidden.
+  //
+  // Beta Feedback (3 October 2026) counts the same way (shed_count_unopened_beta_feedback). The
+  // Toolbox hotspot shows the two counts added together; inside the Toolbox each tool shows its own.
   window.SHED_BETA_UNOPENED = 0;
-  function updateBetaBadge(count){
-    window.SHED_BETA_UNOPENED = count || 0;
+  window.SHED_FEEDBACK_UNOPENED = 0;
+  function updateToolboxBadge(){
+    var total = window.SHED_BETA_UNOPENED + window.SHED_FEEDBACK_UNOPENED;
     document.querySelectorAll('.hotspot[data-key="toolbox"] .hotspot-badge').forEach(function(el){
-      el.textContent = String(window.SHED_BETA_UNOPENED);
-      el.classList.toggle("show", window.SHED_BETA_UNOPENED > 0);
+      el.textContent = String(total);
+      el.classList.toggle("show", total > 0);
     });
+  }
+  function updateBetaBadge(count){
+    window.SHED_BETA_UNOPENED = Number(count) || 0;
+    updateToolboxBadge();
+  }
+  function updateFeedbackBadge(count){
+    window.SHED_FEEDBACK_UNOPENED = Number(count) || 0;
+    updateToolboxBadge();
+  }
+  function fetchFeedbackBadgeCount(pass){
+    return sb.rpc("shed_count_unopened_beta_feedback", { p: pass }).then(function(res){
+      if(res.error) return;
+      updateFeedbackBadge(res.data);
+    }, function(){ /* leave the badge as it is */ });
   }
   function fetchBetaBadgeCount(pass){
     return sb.rpc("shed_count_unopened_invite_requests", { p: pass }).then(function(res){
@@ -5194,6 +5224,14 @@
       open: openBetaRequestsTool,
       // Shows the number of requests this Founder has not opened yet (see updateBetaBadge).
       count: function(){ return window.SHED_BETA_UNOPENED; }
+    },
+    {
+      icon: "💬",
+      name: "Beta Feedback",
+      description: "What gardeners in the beta have told us, after a session or from the app's menu.",
+      open: openBetaFeedbackTool,
+      // Shows the number of pieces of feedback this Founder has not opened yet (see updateFeedbackBadge).
+      count: function(){ return window.SHED_FEEDBACK_UNOPENED; }
     }
   ];
 
@@ -5401,6 +5439,177 @@
         button("Put back to waiting", null, function(){ decide("pending"); });
       }
       box.appendChild(actions);
+      return box;
+    }
+
+    load();
+  }
+
+  // Beta Feedback (3 October 2026, Founder instruction): what gardeners send from the app's
+  // feedback form, newest first. The form is offered by Pip after a pruning session and after a
+  // growing-season check, and is in the app's menu at any time. A piece of feedback shows as new
+  // (red dot, red outline) until this Founder opens it; opening it takes it off the count. No
+  // email is sent when feedback arrives: the count is the notice. Nothing here changes or
+  // deletes feedback. Database: migration beta_feedback (App/supabase/schema.sql, "Beta feedback").
+  //
+  // The words below are the ones the gardener saw. They are kept in step by hand with the app's
+  // App/src/data/feedbackForm.ts, where each answer's short key is defined.
+  var FEEDBACK_WORDS = {
+    kind: { "pruning": "After a pruning session", "growing-season": "After a growing-season check", "general": "From the menu" },
+    roseType: { "hybrid-tea": "Hybrid Tea", "floribunda": "Floribunda", "grandiflora": "Grandiflora" },
+    went: { well: "It went well", mixed: "It was mixed", badly: "It didn't go well" },
+    clear: { clear: "Yes, clear", partly: "Some of it was confusing", unsure: "No, I was often unsure" },
+    followed: { most: "Yes, all or most of it", some: "Some of it", no: "No", "nothing-suggested": "I didn't suggest anything this time" },
+    obstacles: {
+      match: "I couldn't match my rose to the pictures", photo: "A photo was slow or wouldn't upload",
+      wording: "I didn't understand a word or a question", app: "The app stopped or behaved oddly",
+      "too-long": "It took too long", none: "Nothing got in my way"
+    },
+    confidence: { more: "More confident", same: "About the same", less: "Less confident" },
+    topic: { wrong: "Something went wrong", idea: "An idea", liked: "Something I liked" }
+  };
+  function openBetaFeedbackTool(stageEl){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>💬 Beta Feedback</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    // The File Cabinet's own picture, taken from CONTENT so the artwork isn't embedded in the page again.
+    overlay.querySelector(".bg").style.backgroundImage = 'url("' + CONTENT.cabinet.bg + '")';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+    var rows = [];
+    var openId = null;
+    var W = FEEDBACK_WORDS;
+
+    function el(tag, cls, text){
+      var node = document.createElement(tag);
+      if(cls) node.className = cls;
+      if(text !== undefined && text !== null) node.textContent = text;
+      return node;
+    }
+    function when(iso){
+      if(!iso) return "";
+      var d = new Date(iso);
+      return d.toLocaleDateString(undefined, { day:"numeric", month:"short", year:"numeric" });
+    }
+    // The gardener's words for a stored key; the key itself if the app has gained an answer the Shed doesn't know yet.
+    function words(group, key){ return (W[group] && W[group][key]) || key; }
+
+    function load(){
+      body.textContent = "Loading…";
+      sb.rpc("shed_list_beta_feedback", { p: window.SHED_PASSPHRASE }).then(function(res){
+        if(res.error){ body.textContent = "The feedback couldn't be loaded: " + res.error.message; return; }
+        rows = res.data || [];
+        render();
+      });
+    }
+
+    function render(){
+      body.textContent = "";
+      updateFeedbackBadge(rows.filter(function(r){ return r.is_unopened; }).length);
+      if(rows.length === 0){
+        body.appendChild(el("p", "beta-summary", "No feedback yet. What gardeners send from the Ask Pip app will appear here."));
+        return;
+      }
+      var counts = { well:0, mixed:0, badly:0, general:0 };
+      rows.forEach(function(r){ counts[r.kind === "general" ? "general" : r.went] += 1; });
+      body.appendChild(el("p", "beta-summary",
+        counts.well + " went well · " + counts.mixed + " mixed · " + counts.badly + " didn't go well · " + counts.general + " from the menu"));
+
+      var list = el("div", "beta-list");
+      rows.forEach(function(r){
+        var row = el("div", "beta-row" + (r.is_unopened ? " unopened" : ""));
+        var head = el("button", "beta-head");
+        head.type = "button";
+        head.setAttribute("aria-expanded", openId === r.id ? "true" : "false");
+        if(r.is_unopened){
+          var dot = el("span", "beta-new");
+          dot.setAttribute("aria-label", "Not opened yet");
+          head.appendChild(dot);
+        }
+        var who = el("span", "beta-who");
+        who.appendChild(el("span", "beta-name", r.email));
+        who.appendChild(el("span", "beta-sub", words("kind", r.kind) + " · " + when(r.created_at)));
+        head.appendChild(who);
+        if(r.kind === "general"){
+          head.appendChild(el("span", "beta-status general", words("topic", r.topic)));
+        } else {
+          head.appendChild(el("span", "beta-status " + r.went, words("went", r.went)));
+        }
+        head.addEventListener("click", function(){ toggle(r); });
+        row.appendChild(head);
+        if(openId === r.id) row.appendChild(detail(r));
+        list.appendChild(row);
+      });
+      body.appendChild(list);
+    }
+
+    function toggle(r){
+      openId = (openId === r.id) ? null : r.id;
+      if(openId && r.is_unopened){
+        r.is_unopened = false;
+        sb.rpc("shed_open_beta_feedback", { p: window.SHED_PASSPHRASE, feedback_id: r.id }).then(function(res){
+          if(res.error) console.warn("Could not mark the feedback as opened:", res.error.message);
+        });
+      }
+      render();
+    }
+
+    function detail(r){
+      var box = el("div", "beta-detail");
+      var NOT_ANSWERED = "Not answered";
+      var pairs;
+      if(r.kind === "general"){
+        pairs = [["From", r.email], ["What it is", words("topic", r.topic)]];
+      } else {
+        pairs = [
+          ["From", r.email],
+          ["Rose", r.rose_type ? words("roseType", r.rose_type) : "Not recorded"],
+          ["How did that session go?", words("went", r.went)],
+          ["Was I clear about what to do?", r.clear ? words("clear", r.clear) : NOT_ANSWERED],
+          ["Did you do what I suggested?", r.followed ? words("followed", r.followed) : NOT_ANSWERED],
+          ["Did anything get in your way?", (r.obstacles && r.obstacles.length)
+            ? r.obstacles.map(function(o){ return words("obstacles", o); }).join("; ") : NOT_ANSWERED],
+          ["How do you feel about looking after this rose now?", r.confidence ? words("confidence", r.confidence) : NOT_ANSWERED]
+        ];
+      }
+      pairs.push(["Sent on", when(r.created_at)]);
+      // Each question on its own line with its answer under it: the questions are too long to sit beside their answers.
+      var dl = el("dl", "stack");
+      pairs.forEach(function(pair){
+        dl.appendChild(el("dt", null, pair[0]));
+        dl.appendChild(el("dd", null, pair[1]));
+      });
+      box.appendChild(dl);
+
+      if(r.comment){
+        box.appendChild(el("p", "beta-note", r.kind === "general" ? "In the gardener's words:" : "What worked, and what didn't:"));
+        box.appendChild(el("div", "beta-comment", r.comment));
+      }
+
+      // The gardener's answer to "May the Founders email you about your feedback?"
+      if(r.may_contact === true){
+        var yes = el("p", "beta-note", "Happy to be emailed about this. ");
+        var link = el("a", null, "Write to " + r.email);
+        link.href = "mailto:" + encodeURIComponent(r.email).replace(/%40/g, "@") + "?subject=" + encodeURIComponent("Your feedback on Ask Pip");
+        yes.appendChild(link);
+        box.appendChild(yes);
+      } else if(r.may_contact === false){
+        box.appendChild(el("p", "beta-note problem", "Asked not to be emailed about this."));
+      } else {
+        box.appendChild(el("p", "beta-note", "Did not say whether the Founders may email about this."));
+      }
       return box;
     }
 

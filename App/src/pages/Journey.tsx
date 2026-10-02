@@ -432,7 +432,11 @@ export function Journey() {
   async function finish() {
     setSaving(true)
     await updateProject(project!.id, { journeyComplete: true })
-    navigate(`/plant/${project!.id}`)
+    // The session is saved. Pip offers the feedback form before the gardener goes back to
+    // the plant (Feedback.tsx; approved by a Founder in chat, 3 October 2026). "Not now" there
+    // lands on the plant's page, where this used to go directly. `replace` so that Back from
+    // the offer doesn't return to a session that is already saved.
+    navigate(`/plant/${project!.id}/feedback/pruning`, { replace: true })
   }
 
   // --- Rendering helpers -------------------------------------------------

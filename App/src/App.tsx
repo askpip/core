@@ -11,6 +11,7 @@ import { NewPlant } from '@/pages/NewPlant'
 import { Journey } from '@/pages/Journey'
 import { PlantProject } from '@/pages/PlantProject'
 import { BlindShootCheck } from '@/pages/BlindShootCheck'
+import { GeneralFeedback, SessionFeedback } from '@/pages/Feedback'
 import { useAuth } from '@/lib/auth'
 import { lilRevision, loadLiveLil, subscribeLil } from '@/data/pkr'
 import { fetchPublishedLil } from '@/lib/lil'
@@ -116,6 +117,22 @@ function App() {
               element={
                 <RequireAuth>
                   <BlindShootCheck />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/plant/:id/feedback/:kind"
+              element={
+                <RequireAuth>
+                  <SessionFeedback />
+                </RequireAuth>
+              }
+            />
+            <Route
+              path="/feedback"
+              element={
+                <RequireAuth>
+                  <GeneralFeedback />
                 </RequireAuth>
               }
             />

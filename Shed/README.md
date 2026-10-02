@@ -2185,8 +2185,31 @@ Checked with the page's own styles on a test list at 1100 px and 390 px wide: th
 - The website calls `site_request_invite(...)` and `site_follow(...)` with the public key. Each can add a row and nothing else. A hidden field catches robots, and a simple hourly cap guards against floods. One row is kept per email address.
 - The Shed calls, with the passphrase as `p`: `shed_list_invite_requests(p)`, `shed_count_unopened_invite_requests(p)`, `shed_open_invite_request(p, request_id)`, `shed_decide_invite_request(p, request_id, decision)` and `shed_resend_invitation(p, request_id)`. The acting Founder is resolved on the server from `p`, as elsewhere.
 - Emails go through Resend with the key in Vault (`resend_api_key`), the same way as the Founder Attention email (`shed_notice_email_founders_fn`, which is not otherwise recorded in this repository). They are sent only while `shed_config` has `beta_emails = 'on'`. **It is off until a Founder says to switch it on.** The notice of a new request goes to founders@askpip.garden; the invitation goes from `founders@contact.askpip.garden` with replies to founders@askpip.garden.
-- `hook_beta_invite_only(event)` is the app's invite gate. Supabase Auth runs it before creating a new account, once a Founder switches it on in the dashboard (Authentication, Hooks, "Before User Created"). Only an address with an approved request may be created. Existing accounts are not affected.
+- `hook_beta_invite_only(event)` is the app's invite gate. Supabase Auth runs it before creating a new account, once a Founder switches it on in the dashboard (Authentication, Hooks, "Before User Created"). **A Founder switched it on on 3 October 2026.** Only an address with an approved request may be created. Existing accounts are not affected.
 
 **In the page.** `TOOLBOX_TOOLS` has the new entry, with an optional `count` function; `openToolbox` shows it. `openBetaRequestsTool` is the panel. `updateBetaBadge` and `fetchBetaBadgeCount` keep the number, and the count is fetched at unlock with the other badge counts. A failed count never blocks unlocking. The panel takes its background from `CONTENT.cabinet.bg`, so the cabinet artwork isn't embedded again.
 
 **Tested.** The database functions were run against the live project as the public role and with a throwaway `shed_users` row inside a transaction that was rolled back: validation, the robot field, one row per email, per-Founder unopened counts, approve, decline, undo, resend and the gate all behaved as described, with emails switched off. All test rows were removed afterwards. The page was checked with `node --check`, no leftover `__ASSET_` tokens, and headless Chromium at 1280 px and 390 px against a stubbed Supabase client: the badge, the tool's count, the list, opening, approving and the out-of-scope line all worked, with no sideways scrolling and no page errors. **Not checked:** the tool in the live Shed with a real passphrase, and a real email being sent.
+
+## Toolbox: Beta Feedback (3 October 2026)
+
+**Why.** The Ask Pip app now has a feedback form, as the website and the invitation email promise. A Founder approved it going to the Shed in its own tool, with a count of unopened feedback, the same as Beta Requests. No email is sent when feedback arrives.
+
+**What it is.** A fourth Toolbox tool, "Beta Feedback". It lists every piece of feedback, newest first, with the gardener's email address, where it came from (after a pruning session, after a growing-season check, or from the app's menu) and the date. The coloured label is the gardener's answer to "How did that session go?", or the kind of note for feedback from the menu.
+
+- Feedback is "unopened" for a Founder until that Founder opens it, with a red dot and a red outline. The count is per Founder.
+- The Toolbox hotspot's red badge now shows unopened requests and unopened feedback added together. Inside the Toolbox each tool shows its own count.
+- Opening a piece of feedback shows each question with the gardener's answer under it, in the words the gardener saw, and anything they wrote.
+- The last line says whether the gardener agreed to be emailed about it. If they did, it is a link that starts an email to them. If they said no, it says so in red.
+- Nothing in the tool changes or deletes feedback.
+
+**Database (migration `beta_feedback`; the SQL is recorded in `App/supabase/schema.sql`, "Beta feedback").**
+
+- Table `beta_feedback`, with the Shed's usual pattern: RLS on, no policies, all table privileges revoked. Deleting an account deletes its feedback.
+- The app calls `app_send_feedback(...)` as the signed-in gardener. It can add a row and nothing else. The email address is taken from the account, not from what the app sends. At most 20 a day from one account.
+- The Shed calls, with the passphrase as `p`: `shed_list_beta_feedback(p)`, `shed_count_unopened_beta_feedback(p)` and `shed_open_beta_feedback(p, feedback_id)`.
+- Answers are stored as short keys. The words for each key are in `FEEDBACK_WORDS` in the page, kept in step by hand with the app's `App/src/data/feedbackForm.ts`. A key the Shed doesn't know is shown as it is.
+
+**In the page.** `TOOLBOX_TOOLS` has the new entry. `openBetaFeedbackTool` is the panel. `updateFeedbackBadge` and `fetchFeedbackBadgeCount` keep the number; `updateToolboxBadge` adds the two counts for the hotspot. The count is fetched at unlock with the others, and a failed count never blocks unlocking.
+
+**Tested.** `app_send_feedback` was run against the live project as the public role and as a signed-in gardener, inside a transaction that was rolled back: sign-in required, each answer validated, the 1,000-character limit, the daily cap, and no direct access to the table. The three Shed functions refuse a wrong passphrase; their bodies were run with a fixed Founder name in place of the passphrase check, again rolled back, and listed, counted and opened as described, per Founder. The table is empty afterwards. The page was checked with `node --check`, no leftover `__ASSET_` tokens, and headless Chromium at 1280 px and 390 px against a stubbed Supabase client: the combined badge, each tool's count, the list, opening, the three kinds of feedback, the empty state, and text shown as text and never as HTML, with no sideways scrolling and no page errors. The earlier Beta Requests check was run again and still passes. **Not checked:** the tool in the live Shed with a real passphrase and real feedback.
