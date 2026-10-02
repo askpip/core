@@ -2154,3 +2154,15 @@ Open items:
 **"Go to the first unanswered question".** The button under the Finish warning used to look for a radio input. For the broken questions there wasn't one, so it did nothing. It now re-checks at click time, scrolls to the first unanswered question's card, outlines it briefly and focuses its first option.
 
 **Notice buttons.** At the Founder's request, a notice's Save and Request Review (or Cancel Review Request) buttons now sit in the top button row, beside Edit and Delete. A notice that isn't editable keeps them in the approval block as before.
+
+## List rows no longer scroll sideways; long titles fade (2 October 2026)
+
+**The problem.** In the Notice Board, File Cabinet and Bookshelf lists, every row's badges and Desktop button could sit off-screen, reachable only by scrolling the panel sideways. The list is a grid with one automatic column, and an automatic column grows to fit its widest row. A long title on one line made that column wider than the panel, and every row followed.
+
+**The fix.** `.item-list` now uses `grid-template-columns:minmax(0,1fr)`, so the column can never be wider than the panel. `.item-row` and `.item-series` have `min-width:0` for the same reason.
+
+**Long titles.** A title too long for its row now fades out just before the badges and the button, in place of the old "…". A short title is unaffected. The same fade applies to a series header.
+
+**Narrow screens (640 px wide or less).** The title takes its own lines in full, and the badges and the Desktop button sit on the line below, with the button at the right.
+
+Checked with the page's own styles on a test list at 1100 px and 390 px wide: the panel no longer scrolls sideways and every Desktop button sits inside it. It was not checked in the live Shed, which needs a Founder's passphrase.
