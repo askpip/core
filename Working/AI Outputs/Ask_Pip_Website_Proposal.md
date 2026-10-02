@@ -81,7 +81,7 @@ The site should look like the same family as the app, with more room to breathe.
 - **The app itself.** Real screens shown inside a phone outline, so people see the product and not a drawing of it.
 - **Roses.** Your own photographs of real roses, so there are no stock images and no licensing questions.
 
-**What is missing.** The approved logo is in the repository only under a working file name (`Graphics/gpt-image-2.5-sunburst-edit-1 (3).png`), so it should be saved under a clear one. A cut-out of Pip exists, but only at a small size; the large poses sit on white and need cutting out for a coloured page. A wide image for link previews in messages and social posts does not exist yet. Rose photographs need choosing. I have looked at the approved logo, the lettering and the front-facing avatar; the other artwork I have only listed, not viewed.
+**What is missing.** The approved logo is saved as `Graphics/Ask Pip Logo.png`. A cut-out of Pip exists, but only at a small size; the large poses sit on white and need cutting out for a coloured page. A wide image for link previews in messages and social posts does not exist yet. Rose photographs need choosing. I have looked at the approved logo, the lettering and the front-facing avatar; the other artwork I have only listed, not viewed.
 
 Quality here mostly means restraint: one typeface pair, a few colours, generous spacing, fast loading and nothing that moves without a reason.
 
@@ -114,7 +114,7 @@ Three stages, each useful on its own. The times are my estimates for the build, 
 
 **Where the forms go.** Into the existing Supabase project, as new tables for invite requests, followers and feedback. The Founders read and approve them in the Garden Shed.
 
-**Cost.** No new hosting cost is expected at beta size. Sending invite and update emails needs an email service; these usually have a free allowance that would cover a beta, but I have not checked current prices.
+**Cost.** No new hosting cost is expected at beta size. Invite and update emails can go through Resend, the email service the Garden Shed already uses. I have not checked whether its current plan covers the extra volume.
 
 ## Decisions for the Founders
 
@@ -131,4 +131,4 @@ Still to decide:
 - [ ] A contact address on the askpip.garden domain, in place of the Gmail address the app shows today.
 - [ ] Who checks the privacy and terms pages before launch.
 - [ ] Which rose photographs to use, and whether they are your own.
-- [ ] Save the approved logo in the repository under a clear name.
+- [ ] Protect the approved logo (`Graphics/Ask Pip Logo.png`). This needs advice from an intellectual-property adviser on trade mark registration in the five countries.
