@@ -7,6 +7,7 @@ import { useAuth } from '@/lib/auth'
 import { markPasswordSet } from '@/lib/membership'
 import {
   checkVersion,
+  chromeGivesCleanerIcon,
   installRoute,
   isInstalled,
   refreshToLatest,
@@ -75,6 +76,18 @@ interface AppHeaderProps {
 }
 
 /** The approved "Ask Pip" title graphic, tagline, and the top-right options menu. */
+/**
+ * Shown to Android gardeners in a browser other than Chrome, whose home-screen icon
+ * would carry that browser's logo. Wording approved by a Founder in chat, 2 October 2026.
+ */
+function CleanerIconNote() {
+  return (
+    <p className="text-sm text-pip-text-soft">
+      For the cleanest icon, open Ask Pip in Chrome and add it from there. It works from this browser too.
+    </p>
+  )
+}
+
 export function AppHeader({ onBack }: AppHeaderProps = {}) {
   const navigate = useNavigate()
   const location = useLocation()
@@ -289,6 +302,7 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
           {installHelp === 'prompt' && (
             <div className="flex flex-col gap-3">
               <p>Open Ask Pip like an app, straight from your phone.</p>
+              {chromeGivesCleanerIcon() && <CleanerIconNote />}
               <Button
                 onClick={() => {
                   setInstallHelp(null)
@@ -315,6 +329,7 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
           {installHelp === 'other' && (
             <div className="flex flex-col gap-3">
               <p>Open your browser's menu and choose "Add to Home screen" or "Install app".</p>
+              {chromeGivesCleanerIcon() && <CleanerIconNote />}
               <Button onClick={() => setInstallHelp(null)}>Got it</Button>
             </div>
           )}

@@ -55,6 +55,21 @@ export function installRoute(): InstallRoute {
   return 'other'
 }
 
+/**
+ * True on an Android phone in a browser that adds Ask Pip as a shortcut, which Android
+ * stamps with that browser's logo (Edge, Firefox, Opera, Brave, Vivaldi, DuckDuckGo).
+ * Chrome builds an installed app with a clean icon, and so does Samsung Internet on
+ * Samsung phones, so neither is flagged. Found by a Founder on 2 October 2026: the icon
+ * added from Edge carried the Edge logo, and the one from Chrome did not.
+ */
+export function chromeGivesCleanerIcon(): boolean {
+  const ua = navigator.userAgent
+  if (!/Android/.test(ua)) return false
+  // Brave reports itself as Chrome; it is known only by this property.
+  const brave = 'brave' in navigator
+  return brave || /EdgA\/|Firefox\/|OPR\/|Vivaldi\/|DuckDuckGo\//.test(ua)
+}
+
 /** Shows the browser's install dialog. Resolves true if the gardener accepted. */
 export async function showInstallDialog(): Promise<boolean> {
   const event = installEvent

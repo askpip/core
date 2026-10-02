@@ -135,7 +135,7 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
 
 **Pip's poses** (`App/src/components/PipAvatar.tsx`, `App/src/components/ChatBubble.tsx`). Since 2 October 2026 the avatar beside Pip's messages has five poses: front (the default), waving, gesturing, thumbs-up and thinking. A screen picks one with the `pose` property. The images are `App/src/assets/pip/pip-*.webp`, made from `Graphics/Pip Cut-outs/`. Checked in a browser on the sign-in screen and in a test page of all five poses; the signed-in screens were not opened. Pip also has two sitting images (`PipSitting` in `PipAvatar.tsx`; frame measurements in `pipSittingFrame.ts`): hands on the edge, and gesturing. He sits on the top right edge of the answer card in "Questions gardeners ask" (`CommonQuestions.tsx`), alternating between the two from one question to the next, and always with both hands down when he can't answer yet. Checked in a test page at two phone widths.
 
-**Home-screen app** (2 October 2026; `App/public/manifest.webmanifest`, `App/public/sw.js`, `App/public/icons/`, `App/src/lib/homeScreen.ts`, `App/src/components/NewVersionBanner.tsx`).
+**Home-screen app** (2 October 2026; `App/public/manifest.webmanifest`, `App/public/sw.js`, `App/public/icons/`, `App/src/lib/homeScreen.ts`, `App/src/components/NewVersionBanner.tsx`). On Android in a browser other than Chrome or Samsung Internet, the "Add to home screen" instructions add a line suggesting Chrome, because those browsers add a shortcut whose icon carries the browser's logo (`chromeGivesCleanerIcon` in `homeScreen.ts`).
 
 - **What it does.** A gardener can add Ask Pip to their phone's home screen from "Add to home screen" in the menu. It then opens full-screen with its own icon, and opens without a connection.
 - **What is kept on the phone.** Only the app's own page and files. Requests to other sites (Supabase, fonts) are never stored, so sign-in, the journal, photos and the live rose knowledge are always fetched fresh.
@@ -181,5 +181,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **2 October 2026 (Version 0.2, update):** Pip's sitting pose alternates between answers. PKR-CGD-000007 and PKR-CGD-000008 are v1.1 (first-person wording); six lines of app wording put in the first person.
 
 - **2 October 2026 (Version 0.2, update):** Recorded the home-screen app: manifest, icons, service worker, menu item and new-version message.
+
+- **2 October 2026 (Version 0.2, update):** Recorded the Chrome suggestion shown to Android gardeners in other browsers.
 
 # End of Document
