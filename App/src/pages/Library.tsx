@@ -68,7 +68,7 @@ export function Library() {
 
       <div className="flex-1 overflow-y-auto px-4 pt-4">
         <div className="mb-1 flex items-center justify-between">
-          <h2 className="font-heading text-2xl">{name}'s Plants</h2>
+          <h2 className="font-heading text-2xl">{name}'s Plant Journal</h2>
           {projects.length > 0 && (
             <button
               onClick={toggleSelectMode}

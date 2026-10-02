@@ -29,7 +29,7 @@ export function Welcome() {
           <div className="flex flex-col gap-2.5">
             <Button onClick={() => navigate('/new-plant')}>Add a Plant</Button>
             <Button variant="secondary" onClick={() => navigate('/library')}>
-              {name}'s Plants
+              {name}'s Plant Journal
             </Button>
             {/* Replaces the old decorative "Ask Pip" field, which wasn't
                 wired to anything — this is a real, working entry point
