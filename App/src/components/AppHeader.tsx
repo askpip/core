@@ -251,6 +251,21 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
       {infoPanel && (
         <InfoModal title={INFO_CONTENT[infoPanel].title} onClose={() => setInfoPanel(null)}>
           {INFO_CONTENT[infoPanel].body}
+          {/* Which build is running, so two phones (or the browser and the home-screen
+              app) can be compared. See vite.config.ts. */}
+          {infoPanel === 'info' && (
+            <p className="mt-4 text-xs">
+              Version:{' '}
+              {new Date(__APP_BUILD__.builtAt).toLocaleString(undefined, {
+                day: 'numeric',
+                month: 'short',
+                year: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit',
+              })}{' '}
+              ({__APP_BUILD__.commit})
+            </p>
+          )}
         </InfoModal>
       )}
 

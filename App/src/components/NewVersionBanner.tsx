@@ -7,7 +7,8 @@ const CHECK_EVERY_MS = 30 * 60 * 1000
 /**
  * "A new version of Ask Pip is ready." A home-screen app can stay open for days, so
  * the page looks for a newer build when it opens, whenever the gardener comes back to
- * it, and every half hour. Refresh reloads the page, which fetches the new build.
+ * it (several signals, because phones differ in which one they send to a home-screen
+ * app), and every half hour. Refresh reloads the page, which fetches the new build.
  * Wording approved "for now" by a Founder in chat, 2 October 2026.
  */
 export function NewVersionBanner() {
@@ -25,10 +26,16 @@ export function NewVersionBanner() {
     }
     check()
     document.addEventListener('visibilitychange', onVisible)
+    window.addEventListener('focus', check)
+    window.addEventListener('pageshow', check)
+    window.addEventListener('online', check)
     const timer = window.setInterval(check, CHECK_EVERY_MS)
     return () => {
       cancelled = true
       document.removeEventListener('visibilitychange', onVisible)
+      window.removeEventListener('focus', check)
+      window.removeEventListener('pageshow', check)
+      window.removeEventListener('online', check)
       window.clearInterval(timer)
     }
   }, [])
