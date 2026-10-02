@@ -133,7 +133,7 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
 
 **"How Pip works"** (`App/src/data/learnTopics.ts`, `App/src/pages/Learn.tsx`, `App/src/pages/LearnTopic.tsx`). The area formerly named "Learn" was renamed on 2 October 2026. It holds seven topics about Ask Pip itself, plus a link to the opening explainer: the pruning session, the four choices, how Pip looks at a photo, more than pruning, the rose's journal, why Pip sometimes isn't sure, and a word list. The word list shows the five confidence levels from PKR-DEF-000001 to 000005. The copy is approved "for now" by a Founder in chat, 2 October 2026, and contains no horticultural claim. The route is still `/learn`.
 
-**Pip's poses** (`App/src/components/PipAvatar.tsx`, `App/src/components/ChatBubble.tsx`). Since 2 October 2026 the avatar beside Pip's messages has five poses: front (the default), waving, gesturing, thumbs-up and thinking. A screen picks one with the `pose` property. The images are `App/src/assets/pip/pip-*.webp`, made from `Graphics/Pip Cut-outs/`. Checked in a browser on the sign-in screen and in a test page of all five poses; the signed-in screens were not opened.
+**Pip's poses** (`App/src/components/PipAvatar.tsx`, `App/src/components/ChatBubble.tsx`). Since 2 October 2026 the avatar beside Pip's messages has five poses: front (the default), waving, gesturing, thumbs-up and thinking. A screen picks one with the `pose` property. The images are `App/src/assets/pip/pip-*.webp`, made from `Graphics/Pip Cut-outs/`. Checked in a browser on the sign-in screen and in a test page of all five poses; the signed-in screens were not opened. Pip also has two sitting images (`PipSitting` in `PipAvatar.tsx`; frame measurements in `pipSittingFrame.ts`): hands on the edge, and gesturing. He sits on the top right edge of the answer card in "Questions gardeners ask" (`CommonQuestions.tsx`), gesturing when he answers and with both hands down when he can't answer yet. Checked in a test page at two phone widths.
 
 **Home-screen app** (2 October 2026; `App/public/manifest.webmanifest`, `App/public/sw.js`, `App/public/icons/`, `App/src/lib/homeScreen.ts`, `App/src/components/NewVersionBanner.tsx`).
 
@@ -175,6 +175,8 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **2 October 2026 (Version 0.2, update):** Recorded the rename of "Learn" to "How Pip works", its two new topics, and its wording approval.
 
 - **2 October 2026 (Version 0.2, update):** Recorded Pip's five poses and where the pose is set.
+
+- **2 October 2026 (Version 0.2, update):** Recorded Pip's two sitting images and his place on the common-question answer card.
 
 - **2 October 2026 (Version 0.2, update):** Recorded the home-screen app: manifest, icons, service worker, menu item and new-version message.
 

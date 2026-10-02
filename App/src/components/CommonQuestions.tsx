@@ -1,15 +1,29 @@
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { PipSitting } from '@/components/PipAvatar'
+import { PIP_SITTING_FRAME } from '@/components/pipSittingFrame'
 import { ConfidenceTag, SourcesLink } from '@/components/PkrStatements'
 import { questionsFor, type CommonQuestion, type QuestionKey } from '@/data/commonQuestions'
 import { supabase } from '@/lib/supabase'
 import { cn } from '@/lib/utils'
 
+// A small Pip sits on the top edge of the answer card with his boots hanging over it, so
+// the answer reads as his (a Founder's idea, 2 October 2026; it also marks the words voice
+// mode would speak). He sits at the right so his legs never cross the text: the question
+// heading keeps clear of them with HEADING_CLEARANCE.
+const PIP_WIDTH = 110
+const PIP_SCALE = PIP_WIDTH / PIP_SITTING_FRAME.width
+/** How far above the card's top edge he reaches, and so how much room to leave for him. */
+const PIP_ABOVE_EDGE = Math.round(PIP_SITTING_FRAME.seat * PIP_SCALE)
+const PIP_RIGHT = 16
+/** From the card's right edge to just past his left boot (90 frame px left of the middle of his legs), less the card's own 16px padding. */
+const HEADING_CLEARANCE = Math.round(PIP_RIGHT + PIP_WIDTH - (PIP_SITTING_FRAME.legs - 90) * PIP_SCALE) - 16
+
 /**
- * Tappable question chips with an inline answer. Answers are Published LIL
- * statements only (see data/commonQuestions.ts). A tap on a question Pip
- * can't answer yet is recorded in public.question_interest; a failed insert
- * never affects the gardener.
+ * Tappable question chips with an inline answer, which Pip sits on. Answers
+ * are Published LIL statements only (see data/commonQuestions.ts). A tap on a
+ * question Pip can't answer yet is recorded in public.question_interest; a
+ * failed insert never affects the gardener.
  */
 export function CommonQuestions({
   keys,
@@ -87,13 +101,23 @@ export function CommonQuestions({
       </div>
 
       {current && (
+        // The padding leaves room for Pip above the card, and scrolling to this wrapper
+        // (not the card) keeps him on screen with the answer.
+        <div ref={answerRef} className="scroll-mt-3" style={{ paddingTop: PIP_ABOVE_EDGE }}>
         <div
-          ref={answerRef}
-          className="scroll-mt-3 rounded-2xl border border-pip-border bg-pip-card p-4 shadow-sm"
+          className="relative rounded-2xl border border-pip-border bg-pip-card p-4 shadow-sm"
           role="region"
           aria-label={current.question}
         >
-          <p className="font-heading mb-2 text-lg leading-snug">{current.question}</p>
+          <PipSitting
+            size={PIP_WIDTH}
+            gesturing={!current.pending}
+            className="pointer-events-none absolute max-w-none"
+            style={{ right: PIP_RIGHT, top: -PIP_ABOVE_EDGE - 1 }}
+          />
+          <p className="font-heading mb-2 text-lg leading-snug" style={{ paddingRight: HEADING_CLEARANCE }}>
+            {current.question}
+          </p>
           {current.pending ? (
             <p className="text-sm text-pip-text-soft">{current.pending}</p>
           ) : (
@@ -118,6 +142,7 @@ export function CommonQuestions({
               )}
             </>
           )}
+        </div>
         </div>
       )}
     </div>
