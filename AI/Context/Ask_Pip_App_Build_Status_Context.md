@@ -9,7 +9,7 @@
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `AI/Context/Ask_Pip_App_Build_Status_Context.md`
-**Last Updated:** 29 September 2026
+**Last Updated:** 2 October 2026
 **Purpose:** To give any artificial intelligence (AI) or Founder a current, accurate snapshot of what is actually built in the Ask Pip application, what is deliberately deferred and why, and what remains blocked pending Founder-approved knowledge — without requiring that state to be reconstructed from git history, conversation history or a fresh reading of every source file.
 **Related Documents:** `AGENTS.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `MVP/Architecture/Ask_Pip_App_Engineering_Architecture.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `Working/AI Outputs/Ask_Pip_Bush_Rose_Guided_Journey_Flow_Proposal.md`; `AI/Context/Ask_Pip_App_Known_Issues_and_Process_Notes_Context.md`
 
@@ -100,6 +100,39 @@ The pruning journey now runs on Published knowledge. `npm run build` (TypeScript
 
 - **Comparison images** are still a documented gap. The UI says so.
 
+## 3.4 Common Questions and the Blind-Shoot Check (1–2 October 2026)
+
+Both are in the code on `main` at commit `7bf0f2c`. This section was written from that code and from the Published records. The live site was not opened for it.
+
+**Common questions** (`App/src/data/commonQuestions.ts`, `App/src/components/CommonQuestions.tsx`).
+
+- **Where they appear.** Seventeen tappable questions, shown on the Welcome screen, the plant list, each plant's page, and at the relevant steps of the pruning journey.
+- **How an answer is built.** Each answer is assembled when it is opened, from statements in Published records in the Live Intelligence Library (LIL). Every statement shows its own confidence, and the answer ends with "Where this comes from". The app adds no horticultural wording. Three answers open with one line of app copy.
+- **Fifteen questions have answers.**
+  - Thirteen reuse statements from records the journey already uses: PKR-SGT-000001, PKR-OBS-000001, PKR-OBS-000007 and PKR-CGD-000002 to 000006.
+  - "Can I kill my rose by pruning too hard?" reads PKR-CGD-000007.
+  - "Why isn't my rose flowering?" reads PKR-CGD-000008. Opened on a plant's page, it also offers the blind-shoot check for that plant.
+- **Two questions have no approved answer yet:** "Should I spray my roses?" and "When can I plant or move a rose?". Each says Pip is still learning, and records the tap in the table `public.question_interest`. A failed insert never affects the gardener.
+- **Missing statements.** A question whose statements cannot be found in the Published records is left out.
+- **Wording.** The question wording is app copy, approved "for now" by a Founder in chat on 2 October 2026.
+
+**Blind-shoot growing-season check** (`App/src/pages/BlindShootCheck.tsx`, route `/plant/:id/blind-shoots`). It reads PKR-OBS-000008 and PKR-DEC-000008.
+
+- **Where it sits.** A separate screen, outside the pruning journey and its dormancy gate (PKR-SGT-000001). `App/src/data/pkr.ts` marks the observation `session: 'growing-season'` and keeps it out of the journey's observations.
+- **How a gardener reaches it.** From "Check for blind shoots" on the page of a Hybrid Tea, Floribunda or Grandiflora, and from the "Why isn't my rose flowering?" answer on a plant's page. A rose of any other saved type gets the journal-only message.
+- **Steps.**
+  1. Pip asks whether other shoots already have flower buds or flowers. Only Yes continues; any other answer ends with a note to come back later.
+  2. The recently-planted check (PKR-SGT-000002) runs. Where it restricts, Cut is not offered.
+  3. Pip shows what to look for, says it cannot confirm a blind shoot from a photo, and asks the confirm question.
+  4. Confirmed leads to PKR-DEC-000008's choices. Doesn't match is recorded and never reaches Cut. Not sure offers only the choices that are not Cut.
+  5. After a Cut, Pip shows the record's cut method and the shortening guidance from PKR-CGD-000002, each with its sources.
+  6. The check loops on "Can you see any more …?" and saves the `'none-remaining'` marker when the gardener answers no.
+- **What is saved.** Each decision is saved to the plant's journal as an observation record that names the two records and their versions.
+- **Wording.** The screen's own app copy was approved "for now" by a Founder in chat on 2 October 2026.
+- **Not yet done.** There is no comparison image for blind shoots; this is a documented gap. The session handoff of 2 October 2026 records a browser walk-through that reached the confirm question and saved no records. The steps after it have not been walked through in a browser.
+
+**Also built in the 1 October 2026 redesign trial** and present in the same code: the "This season" card (`App/src/components/SeasonCard.tsx`, on the plant page and the journey's care step), the whole-session progress stages and three-step photo coaching in `App/src/pages/Journey.tsx`, and the Google Gemini photo disclosure in the journey and on the About page. `CHANGELOG.md` has the full list.
+
 # 4. Phase B — Blocked on Founder-Approved Knowledge
 
 Phase B covers the Primer's remaining horticultural cards, the "Pruning your bush rose" Learn shelf, the before-you-cut lesson, and observation ordering. None of it can be built with real content until the underlying research clears Founder review, is compiled into an Approved Research Compilation (ARC), and is published as a PIP Knowledge Record (PKR) by the Knowledge Integration Technician (KIT). Writing placeholder horticultural content into the app ahead of that is exactly the problem `learnTopics.ts`'s own governing comment warns against, and shall not be done to make Phase B appear further along than it is.
@@ -123,5 +156,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **29 September 2026 (Version 0.2, later the same day):** Rose type is now saved on the plant and asked once, in Add a plant. The journey skips the question when a type is saved. The plant page shows and changes the type, and shows basic care for supported types. Both database changes are applied and verified.
 
 - **1 October 2026 (Version 0.2, update):** The app now reads the Live Intelligence Library, with the committed snapshot as its offline fallback.
+
+- **2 October 2026 (Version 0.2, update):** Added §3.4: the common questions and how their answers are built from Published records, including the two answers that read PKR-CGD-000007 and PKR-CGD-000008; the blind-shoot growing-season check (PKR-OBS-000008, PKR-DEC-000008); and a pointer to the rest of the 1 October redesign trial.
 
 # End of Document
