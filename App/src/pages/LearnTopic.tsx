@@ -31,7 +31,7 @@ export function LearnTopic() {
       <div className="flex h-full flex-col">
         <AppHeader onBack={() => navigate('/learn')} />
         <div className="px-4 pt-6">
-          <ChatBubble>I don't have a page for that one. Let's go back to what I can explain.</ChatBubble>
+          <ChatBubble pose="thinking">I don't have a page for that one. Let's go back to what I can explain.</ChatBubble>
           <ResponseBubble>
             <Button onClick={() => navigate('/learn')}>Back to topics</Button>
           </ResponseBubble>

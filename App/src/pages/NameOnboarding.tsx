@@ -66,7 +66,7 @@ export function NameOnboarding() {
       <AppHeader />
 
       <div className="px-4 pt-6">
-        <ChatBubble>Welcome, Gardener! What would you like to be called from now on?</ChatBubble>
+        <ChatBubble pose="waving">Welcome, Gardener! What would you like to be called from now on?</ChatBubble>
         <ResponseBubble>
           <div className="flex flex-col gap-3">
             <input

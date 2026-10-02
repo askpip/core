@@ -721,7 +721,7 @@ export function Journey() {
 
           {phase === 'dormancy-not-sure' && (
             <>
-              <ChatBubble>{DORMANCY_GATE.notSureFallback}</ChatBubble>
+              <ChatBubble pose="thinking">{DORMANCY_GATE.notSureFallback}</ChatBubble>
               <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => chooseDormancy('dormant')}>The buds are still tight and closed</Button>
@@ -944,7 +944,7 @@ export function Journey() {
 
           {phase === 'observe' && current && obsStep === 'not-sure' && (
             <>
-              <ChatBubble>{current.notSureGuidance}</ChatBubble>
+              <ChatBubble pose="thinking">{current.notSureGuidance}</ChatBubble>
               <ResponseBubble>
                 <div className="flex flex-col gap-2">
                   <Button onClick={() => confirmOutcome('confirmed')}>{current.confirmLabel}</Button>
@@ -993,7 +993,7 @@ export function Journey() {
 
           {phase === 'decide' && current && !pendingCutConfirm && !pendingHelpInfo && !pendingTraceConfirm && (
             <>
-              <ChatBubble>
+              <ChatBubble pose={decidePath === 'not-sure' ? 'thinking' : 'gesturing'}>
                 {decidePath === 'not-sure'
                   ? "That's fine — we won't cut anything you're unsure about. What would you like to do?"
                   : 'Here are your choices.'}
@@ -1045,7 +1045,7 @@ export function Journey() {
 
           {phase === 'decide' && current && pendingHelpInfo && (
             <>
-              <ChatBubble>
+              <ChatBubble pose="thumbs-up">
                 Good instinct — reaching out before cutting is always fine. A local rose society or garden club, your area's
                 extension service, or a nursery or experienced gardener you trust are good places to start. I'll save this as
                 "get help" so you can come back to it.
@@ -1077,7 +1077,7 @@ export function Journey() {
 
           {phase === 'cut-guide' && current && (
             <>
-              <ChatBubble>{pendingChoice?.cutKind === 'sucker' ? "Here's how to remove it." : "Here's how to make the cut."}</ChatBubble>
+              <ChatBubble pose="gesturing">{pendingChoice?.cutKind === 'sucker' ? "Here's how to remove it." : "Here's how to make the cut."}</ChatBubble>
               <ResponseBubble>
                 {removalOnly && pendingChoice?.cutKind !== 'sucker' && (
                   <div className="mb-3">
@@ -1126,7 +1126,7 @@ export function Journey() {
 
           {phase === 'care' && (
             <>
-              <ChatBubble>
+              <ChatBubble pose="gesturing">
                 {recentlyPlantedRestricted
                   ? 'Your rose needs a little more time before full pruning.'
                   : "It's not the time for full pruning this season."}{' '}
@@ -1159,7 +1159,7 @@ export function Journey() {
 
           {phase === 'summary' && (
             <>
-              <ChatBubble>Here's what we looked at together. It will become part of {project.name}'s history.</ChatBubble>
+              <ChatBubble pose="thumbs-up">Here's what we looked at together. It will become part of {project.name}'s history.</ChatBubble>
               <ResponseBubble>
                 <div className="mb-3 flex flex-col gap-2.5">
                   {summaryGroups.length === 0 && <p className="text-xs text-pip-text-soft">Nothing was recorded this time.</p>}

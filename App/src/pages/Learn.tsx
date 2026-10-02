@@ -20,7 +20,7 @@ export function Learn() {
       <AppHeader />
 
       <div className="flex-1 overflow-y-auto px-4 pb-6 pt-6">
-        <ChatBubble>
+        <ChatBubble pose="gesturing">
           Anything you'd like explained? Pick a topic below — I'm always happy to talk about how I work.
         </ChatBubble>
 

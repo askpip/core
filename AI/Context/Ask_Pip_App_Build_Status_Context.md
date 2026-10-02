@@ -133,6 +133,8 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
 
 **"How Pip works"** (`App/src/data/learnTopics.ts`, `App/src/pages/Learn.tsx`, `App/src/pages/LearnTopic.tsx`). The area formerly named "Learn" was renamed on 2 October 2026. It holds seven topics about Ask Pip itself, plus a link to the opening explainer: the pruning session, the four choices, how Pip looks at a photo, more than pruning, the rose's journal, why Pip sometimes isn't sure, and a word list. The word list shows the five confidence levels from PKR-DEF-000001 to 000005. The copy is approved "for now" by a Founder in chat, 2 October 2026, and contains no horticultural claim. The route is still `/learn`.
 
+**Pip's poses** (`App/src/components/PipAvatar.tsx`, `App/src/components/ChatBubble.tsx`). Since 2 October 2026 the avatar beside Pip's messages has five poses: front (the default), waving, gesturing, thumbs-up and thinking. A screen picks one with the `pose` property. The images are `App/src/assets/pip/pip-*.webp`, made from `Graphics/Pip Cut-outs/`. Checked in a browser on the sign-in screen and in a test page of all five poses; the signed-in screens were not opened.
+
 **Also built in the 1 October 2026 redesign trial** and present in the same code: the "This season" card (`App/src/components/SeasonCard.tsx`, on the plant page and the journey's care step), the whole-session progress stages and three-step photo coaching in `App/src/pages/Journey.tsx`, and the Google Gemini photo disclosure in the journey and on the About page. `CHANGELOG.md` has the full list.
 
 # 4. Phase B — Blocked on Founder-Approved Knowledge
@@ -162,5 +164,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **2 October 2026 (Version 0.2, update):** Added §3.4: the common questions and how their answers are built from Published records, including the two answers that read PKR-CGD-000007 and PKR-CGD-000008; the blind-shoot growing-season check (PKR-OBS-000008, PKR-DEC-000008); and a pointer to the rest of the 1 October redesign trial.
 
 - **2 October 2026 (Version 0.2, update):** Recorded the rename of "Learn" to "How Pip works", its two new topics, and its wording approval.
+
+- **2 October 2026 (Version 0.2, update):** Recorded Pip's five poses and where the pose is set.
 
 # End of Document

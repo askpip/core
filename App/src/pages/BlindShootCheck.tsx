@@ -227,7 +227,7 @@ export function BlindShootCheck() {
 
       {step === 'not-sure' && (
         <>
-          <ChatBubble>{o.notSureGuidance}</ChatBubble>
+          <ChatBubble pose="thinking">{o.notSureGuidance}</ChatBubble>
           <ResponseBubble>
             <DecisionChoices options={o.notSureChoices} onChoose={(c) => choose(c, 'unresolved')} />
           </ResponseBubble>
@@ -243,7 +243,7 @@ export function BlindShootCheck() {
 
       {step === 'cut' && (
         <>
-          <ChatBubble>Here's how sources cut a blind shoot.</ChatBubble>
+          <ChatBubble pose="gesturing">Here's how sources cut a blind shoot.</ChatBubble>
           <ResponseBubble>
             <StatementList items={o.cutMethod ?? []} />
             <SourcesLink pkrIds={[o.dec.id]} />
@@ -283,7 +283,7 @@ export function BlindShootCheck() {
 
       {step === 'done' && (
         <>
-          <ChatBubble>
+          <ChatBubble pose="thumbs-up">
             That's the blind-shoot check done{count > 0 ? ', and what you decided is saved in the journal' : ''}.
           </ChatBubble>
           <Button onClick={back}>Back to {project.name}</Button>

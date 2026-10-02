@@ -1,13 +1,16 @@
 import type { ReactNode } from 'react'
 import { motion } from 'framer-motion'
-import { PipAvatar } from './PipAvatar'
+import { PipAvatar, type PipPose } from './PipAvatar'
 
 interface ChatBubbleProps {
   children: ReactNode
+  /** Pip's pose beside the bubble. Defaults to standing, facing forward. */
+  pose?: PipPose
 }
 
-// pip-front-transparent.png is 600x438; his mouth sits ~48% down the frame (measured directly from the pixel data),
-// and his silhouette only reaches ~66% of his box width, leaving room to tuck the bubble in behind him.
+// Every pose image is 600x460 (see PipAvatar.tsx). The pointer aims ~46% down the frame, the same spot on
+// Pip as before the 2 October 2026 artwork change, and his body only reaches ~66% of his box width, leaving
+// room to tuck the bubble in behind him. In the gesturing pose his outstretched hand reaches the bubble's edge.
 //
 // PIP_SIZE was 190 until a Founder review flagged the bubble as too narrow —
 // on a ~375px-wide phone frame, a 190px Pip (minus the overlap) left the
@@ -20,8 +23,8 @@ interface ChatBubbleProps {
 // transparent margin around his silhouette at any size, instead of under-
 // or over-lapping if PIP_SIZE changes again.
 const PIP_SIZE = 155
-const PIP_ASPECT = 438 / 600
-const MOUTH_FRACTION = 0.48
+const PIP_ASPECT = 460 / 600
+const MOUTH_FRACTION = 210 / 460
 const OVERLAP_FRACTION = 45 / 190
 const OVERLAP_PX = PIP_SIZE * OVERLAP_FRACTION
 // His image has empty, transparent padding on his left side too (confirmed
@@ -41,7 +44,7 @@ const PIP_HEIGHT = PIP_SIZE * PIP_ASPECT
 const POINTER_OFFSET_FROM_CENTER = (MOUTH_FRACTION - 0.5) * PIP_HEIGHT
 
 /** Pip's message, shown beside his avatar, with a pointer aimed at his mouth. The bubble is centred on the pointer, not pinned to his feet. */
-export function ChatBubble({ children }: ChatBubbleProps) {
+export function ChatBubble({ children, pose }: ChatBubbleProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 8 }}
@@ -51,6 +54,7 @@ export function ChatBubble({ children }: ChatBubbleProps) {
     >
       <PipAvatar
         size={PIP_SIZE}
+        pose={pose}
         className="relative z-10 shrink-0"
         style={{ marginLeft: -PIP_BLEED_PX }}
       />

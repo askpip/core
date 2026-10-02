@@ -24,7 +24,7 @@ export function Welcome() {
       <AppHeader />
 
       <div className="flex-1 overflow-y-auto px-4 pt-6">
-        <ChatBubble>Welcome {name}! What would you like to do next?</ChatBubble>
+        <ChatBubble pose="waving">Welcome {name}! What would you like to do next?</ChatBubble>
         <ResponseBubble>
           <div className="flex flex-col gap-2.5">
             <Button onClick={() => navigate('/new-plant')}>Add a Plant</Button>

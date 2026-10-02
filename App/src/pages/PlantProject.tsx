@@ -81,7 +81,7 @@ export function PlantProject() {
           </>
         ) : (
           <>
-            <ChatBubble>
+            <ChatBubble pose="gesturing">
               Here's {project.name}'s journal — what we looked at, what you saw and what you
               decided.
             </ChatBubble>

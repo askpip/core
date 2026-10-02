@@ -297,7 +297,7 @@ export function AuthGate() {
       <AppHeader />
 
       <div className="px-4 pt-6">
-        <ChatBubble>{pipMessage}</ChatBubble>
+        <ChatBubble pose="waving">{pipMessage}</ChatBubble>
         <ResponseBubble>
           {status === 'checking' ? (
             <p className="text-sm text-pip-text-soft">Checking for an existing session…</p>
