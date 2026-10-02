@@ -711,6 +711,7 @@ end;
 $$;
 
 -- The invitation email. Used when a request is approved, and again by "Send the invitation again".
+-- 3 October 2026 (migration beta_invitation_logo): Pip's picture added at the top, at a Founder's request.
 create or replace function public.beta_send_invitation(request_id uuid)
 returns text
 language plpgsql security definer
@@ -725,7 +726,8 @@ begin
   problem := public.beta_send_email(
     'Ask Pip <founders@contact.askpip.garden>', r.email, 'founders@askpip.garden',
     'Your invitation to Ask Pip',
-    '<p>Hello ' || public.beta_html(r.name) || ',</p>'
+    '<p style="margin:0 0 16px"><img src="https://app.askpip.garden/icons/icon-192.png" width="88" height="88" alt="Pip" style="display:block;border-radius:18px"></p>'
+    || '<p>Hello ' || public.beta_html(r.name) || ',</p>'
     || '<p>Thank you for asking to join the Ask Pip beta. We would like to offer you a place.</p>'
     || '<p><strong>Open Ask Pip:</strong> <a href="https://app.askpip.garden">https://app.askpip.garden</a></p>'
     || '<p>Sign in with this email address. Pip will send you a code each time, so there is no password to remember unless you choose to set one.</p>'
