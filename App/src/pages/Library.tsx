@@ -100,9 +100,9 @@ export function Library() {
               <BookOpen size={20} strokeWidth={1.75} />
             </span>
             <div className="flex-1">
-              <p className="text-sm font-medium text-pip-text">Learn with Pip</p>
+              <p className="text-sm font-medium text-pip-text">How Pip works</p>
               <p className="text-xs text-pip-text-soft">
-                How the journey works, what Pip can help with, and more
+                Pruning together, care through the year, your rose's journal, and more
               </p>
             </div>
             <ChevronRight size={18} className="shrink-0 text-pip-text-soft" />

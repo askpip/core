@@ -1,17 +1,17 @@
-// DRAFT CONCEPT COPY — not Founder-approved phrasing, and deliberately none
-// of it is a horticultural claim. See the flow proposal, section 9
-// ("Learn: A Knowledge Base for Any Time") and section 9.2's "About Ask
-// Pip" shelf, which this file builds out: pages about Ask Pip itself — how
-// the journey works, what the four choices mean, how Pip uses photographs,
-// why Pip sometimes says it isn't sure — never about rose care. That
-// content is gated behind Founder-reviewed research (see the flow
-// proposal's Decision 5 and section 11); putting it here would be exactly
-// the placeholder-script problem the proposal itself warns against.
+// "How Pip works": pages about Ask Pip itself (how the pruning session
+// works, what the four choices mean, how Pip uses photographs, what else Pip
+// offers, what the journal is for, why Pip sometimes says it isn't sure).
+// Wording approved "for now" by a Founder in chat, 2 October 2026, and open
+// to revision as the app grows.
 //
-// One topic, one entry, shown wherever it's needed (design principle 9.4:
-// "One Source for Each Idea") — right now that's just the Learn hub
-// (Learn.tsx) and each topic's own page (LearnTopic.tsx), reached from the
-// header's ⋯ menu.
+// None of it is a horticultural claim. Rose care content comes only from
+// Published records in the Live Intelligence Library; the confidence-level
+// explanations shown with the word list are read from PKR-DEF-000001 to
+// 000005, not written here.
+//
+// One topic, one entry, shown on the hub (Learn.tsx) and on each topic's own
+// page (LearnTopic.tsx). The file and route names still say "learn"; only
+// the name gardeners see changed.
 
 export interface TopicStep {
   heading: string
@@ -36,6 +36,8 @@ export interface ListTopic {
   menuLabel: string
   intro: string
   items: GlossaryTerm[]
+  /** Show the five confidence levels, with their Published explanations, under the list. */
+  showConfidenceLevels?: boolean
 }
 
 export type LearnTopic = StepsTopic | ListTopic
@@ -52,7 +54,7 @@ export const LEARN_TOPICS: LearnTopic[] = [
       },
       {
         heading: 'Checking it’s a good day',
-        body: "Before anything else, I check a few things with you — has the rose settled in long enough, is it dormant, are your tools clean and sharp. If today isn't the day, that's a real answer too. I'll help you plan for when it will be, not push you through it anyway.",
+        body: "Before anything else, I check a few things with you — has the rose settled in long enough, is it dormant, are your tools clean and sharp. If today isn't the day, that's a real answer too. I'll show you how to look after your rose in the meantime, not push you through it anyway.",
       },
       {
         heading: 'Looking, together',
@@ -64,7 +66,7 @@ export const LEARN_TOPICS: LearnTopic[] = [
       },
       {
         heading: 'Keeping the story',
-        body: "At the end, I bring together what we did — what you confirmed, what you cut, what you're watching — and ask when to check back in. Next time, I'll remember.",
+        body: "At the end, I bring together what we looked at and what you decided, and you save it to your rose's journal. From then on it's part of your rose's history.",
       },
     ],
   },
@@ -111,6 +113,48 @@ export const LEARN_TOPICS: LearnTopic[] = [
     ],
   },
   {
+    id: 'more-than-pruning',
+    kind: 'steps',
+    menuLabel: 'More than pruning',
+    steps: [
+      {
+        heading: 'This season',
+        body: "On your rose's page you'll find a card called \"This season\". It picks out the care advice that fits the time of year where your rose is growing.",
+      },
+      {
+        heading: 'Caring for your rose',
+        body: "Below that is everyday care: watering, mulch, feeding, deadheading and getting ready for winter. It's there for Hybrid Tea, Floribunda and Grandiflora roses, and I tell you where the advice comes from. If today isn't a day for pruning, I'll show you this care instead.",
+      },
+      {
+        heading: 'Questions gardeners ask',
+        body: "Tap a question to see what I can say about it. Every answer is made only from advice the Ask Pip team has already researched and approved, and it comes with its sources. If I don't have an answer yet, I'll say so, and I note that you asked.",
+      },
+      {
+        heading: 'Checks in the growing season',
+        body: "Some things can only be seen while a rose is growing, so they have their own short check outside the pruning session. The first is a check for blind shoots. You'll find it on your rose's page.",
+      },
+    ],
+  },
+  {
+    id: 'journal',
+    kind: 'steps',
+    menuLabel: "Your rose's journal",
+    steps: [
+      {
+        heading: 'What goes in it',
+        body: "Every rose you add has its own journal. It keeps your photos, your notes, and what we looked at and what you decided each time.",
+      },
+      {
+        heading: 'Add to it any time',
+        body: "You don't have to be pruning. Add a photo or jot down a note on your rose's page whenever something catches your eye.",
+      },
+      {
+        heading: "What it's for",
+        body: "The journal holds your rose's history. Today it keeps that history safe and shows it back to you. In future I'll draw on it, so the care advice I give fits your rose and what has happened to it.",
+      },
+    ],
+  },
+  {
     id: 'honesty',
     kind: 'steps',
     menuLabel: 'Why I sometimes say I’m not sure',
@@ -124,8 +168,8 @@ export const LEARN_TOPICS: LearnTopic[] = [
         body: "From me or from you. It's not a failure — it's just where we are today, and there's always a next step from there, even if that step is just waiting.",
       },
       {
-        heading: 'Ask me why, any time',
-        body: "If I ever say something and you want to know where it came from, just ask — I'm always glad to show you the source behind it.",
+        heading: 'See where it comes from',
+        body: "Wherever I share care advice, you'll find a link called \"Where this comes from\". Tap it to see the sources behind what I've said, with links so you can read them yourself.",
       },
     ],
   },
@@ -134,16 +178,12 @@ export const LEARN_TOPICS: LearnTopic[] = [
     kind: 'list',
     menuLabel: 'A few words I use',
     intro: "A handful of words I use a lot, in case any of them ever land oddly.",
+    showConfidenceLevels: true,
     items: [
       {
         term: 'Journal',
         meaning:
           "Your rose's own running record — every photo, note and decision, kept together so its story builds over time.",
-      },
-      {
-        term: 'Photo spot',
-        meaning:
-          'The place you choose to stand each time you photograph a rose, so photos taken months apart can be compared like for like.',
       },
       {
         term: 'Observation',
@@ -153,7 +193,11 @@ export const LEARN_TOPICS: LearnTopic[] = [
       {
         term: 'Confidence rating',
         meaning:
-          "How well-supported something I tell you is, based on how many reputable sources agree. I'll always say when it's low.",
+          "How strongly the evidence supports a piece of advice. It reflects how reliable the sources are, how well they agree with each other, and what is still uncertain. I show it beside the advice it belongs to.",
+      },
+      {
+        term: 'Approved default',
+        meaning: 'A sensible choice the Founders approved where the sources are silent.',
       },
       {
         term: 'The four choices',

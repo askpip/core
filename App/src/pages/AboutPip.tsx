@@ -35,7 +35,7 @@ const STEPS: { heading: string; body: string }[] = [
   },
   {
     heading: 'What happens to what you share',
-    body: "Every photo and note you give me becomes part of your rose's own story, kept for that rose. It's how I get to know this particular plant, season after season — so that next time, when I say \"last time, you...\", I actually mean it. One exception: when you ask me to look at a photo, it's sent to Google's Gemini service so I can read it.",
+    body: "Every photo and note you give me becomes part of your rose's own story, kept for that rose. It builds that rose's history, season after season, so that in future I can draw on it for care advice that fits your rose. One exception: when you ask me to look at a photo, it's sent to Google's Gemini service so I can read it.",
   },
 ]
 

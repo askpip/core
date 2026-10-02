@@ -5,7 +5,7 @@ import { ResponseBubble } from '@/components/ResponseBubble'
 import { LEARN_TOPICS } from '@/data/learnTopics'
 
 /**
- * The Learn hub — reachable from the header's ⋯ menu (AppHeader.tsx) from
+ * The "How Pip works" hub (formerly "Learn") — reachable from the header's ⋯ menu (AppHeader.tsx) from
  * any screen, per the flow proposal section 9.2: a permanent place to ask
  * "what can Pip help me with?" that doesn't depend on being partway through
  * a journey. Lists every topic in @/data/learnTopics, plus the original

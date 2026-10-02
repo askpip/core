@@ -131,6 +131,8 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
 - **Wording.** The screen's own app copy was approved "for now" by a Founder in chat on 2 October 2026.
 - **Not yet done.** There is no comparison image for blind shoots; this is a documented gap. The session handoff of 2 October 2026 records a browser walk-through that reached the confirm question and saved no records. The steps after it have not been walked through in a browser.
 
+**"How Pip works"** (`App/src/data/learnTopics.ts`, `App/src/pages/Learn.tsx`, `App/src/pages/LearnTopic.tsx`). The area formerly named "Learn" was renamed on 2 October 2026. It holds seven topics about Ask Pip itself, plus a link to the opening explainer: the pruning session, the four choices, how Pip looks at a photo, more than pruning, the rose's journal, why Pip sometimes isn't sure, and a word list. The word list shows the five confidence levels from PKR-DEF-000001 to 000005. The copy is approved "for now" by a Founder in chat, 2 October 2026, and contains no horticultural claim. The route is still `/learn`.
+
 **Also built in the 1 October 2026 redesign trial** and present in the same code: the "This season" card (`App/src/components/SeasonCard.tsx`, on the plant page and the journey's care step), the whole-session progress stages and three-step photo coaching in `App/src/pages/Journey.tsx`, and the Google Gemini photo disclosure in the journey and on the About page. `CHANGELOG.md` has the full list.
 
 # 4. Phase B — Blocked on Founder-Approved Knowledge
@@ -158,5 +160,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **1 October 2026 (Version 0.2, update):** The app now reads the Live Intelligence Library, with the committed snapshot as its offline fallback.
 
 - **2 October 2026 (Version 0.2, update):** Added §3.4: the common questions and how their answers are built from Published records, including the two answers that read PKR-CGD-000007 and PKR-CGD-000008; the blind-shoot growing-season check (PKR-OBS-000008, PKR-DEC-000008); and a pointer to the rest of the 1 October redesign trial.
+
+- **2 October 2026 (Version 0.2, update):** Recorded the rename of "Learn" to "How Pip works", its two new topics, and its wording approval.
 
 # End of Document

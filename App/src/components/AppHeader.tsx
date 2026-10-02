@@ -44,7 +44,7 @@ const INFO_CONTENT: Record<Exclude<InfoPanel, null>, { title: string; body: stri
     // Two paragraphs, joined with a blank line — InfoModal's body renders
     // this with whitespace-pre-line specifically so that break shows up as
     // a real paragraph gap instead of running together as one block.
-    body: "Ask Pip is here to help you understand your roses. Growing Understanding, Cultivating Confidence isn't just a tagline — it's the whole idea: Pip explains its reasoning, not just its conclusions, and only ever draws on guidance that's been carefully researched from reputable horticultural sources. If you ever want to know where an answer comes from, just ask — Pip is always happy to share its sources.\n\nEvery observation also carries its own confidence rating, built on how many reputable sources have confirmed the same information — real feedback and reliable sources. And when Pip genuinely doesn't have solid guidance on something yet, it says so plainly. That honesty matters to us as much as the horticulture does. It is Pip's mission to help you cultivate your own confidence by sharing in an enjoyable journey of learning and understanding how to care for your plants.",
+    body: "Ask Pip is here to help you understand your roses. Growing Understanding, Cultivating Confidence isn't just a tagline — it's the whole idea: Pip explains its reasoning, not just its conclusions, and only ever draws on guidance that's been carefully researched from reputable horticultural sources. If you ever want to know where an answer comes from, tap \"Where this comes from\" — Pip always shows its sources.\n\nEach piece of advice also carries its own confidence rating, which reflects how reliable the sources are, how well they agree, and what is still uncertain. And when Pip genuinely doesn't have solid guidance on something yet, it says so plainly. That honesty matters to us as much as the horticulture does. It is Pip's mission to help you cultivate your own confidence by sharing in an enjoyable journey of learning and understanding how to care for your plants.",
   },
   privacy: {
     title: 'Privacy',
@@ -210,7 +210,7 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
                 }}
               />
               <MenuItem
-                label="Learn"
+                label="How Pip works"
                 onClick={() => {
                   setMenuOpen(false)
                   navigate('/learn')

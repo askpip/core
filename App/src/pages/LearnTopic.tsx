@@ -7,9 +7,10 @@ import { ResponseBubble } from '@/components/ResponseBubble'
 import { Button } from '@/components/Button'
 import { cn } from '@/lib/utils'
 import { findTopic } from '@/data/learnTopics'
+import { CONFIDENCE_EXPLANATIONS, CONFIDENCE_LEVELS } from '@/data/confidenceDefinitions'
 
 /**
- * One Learn topic, reached from the Learn hub (Learn.tsx). Two shapes:
+ * One "How Pip works" topic, reached from the hub (Learn.tsx). Two shapes:
  * a short stepped explainer in Pip's voice (same one-idea-per-screen
  * pattern as AboutPip.tsx — deliberately not shared as one component with
  * it, since AboutPip is already shipped and reviewed; this is a fresh,
@@ -32,7 +33,7 @@ export function LearnTopic() {
         <div className="px-4 pt-6">
           <ChatBubble>I don't have a page for that one. Let's go back to what I can explain.</ChatBubble>
           <ResponseBubble>
-            <Button onClick={() => navigate('/learn')}>Back to Learn</Button>
+            <Button onClick={() => navigate('/learn')}>Back to topics</Button>
           </ResponseBubble>
         </div>
       </div>
@@ -54,9 +55,20 @@ export function LearnTopic() {
                 </div>
               ))}
             </div>
+            {topic.showConfidenceLevels && (
+              <div className="mt-4 flex flex-col gap-2 border-t border-pip-border pt-3.5">
+                {/* PKR-DEF-000001 to 000005, read from the Live Intelligence Library. */}
+                <p className="text-sm font-semibold text-pip-primary">The confidence levels</p>
+                {CONFIDENCE_LEVELS.filter((l) => CONFIDENCE_EXPLANATIONS[l]).map((l) => (
+                  <p key={l} className="text-sm text-pip-text-soft">
+                    <strong className="text-pip-text">{l}:</strong> {CONFIDENCE_EXPLANATIONS[l]}
+                  </p>
+                ))}
+              </div>
+            )}
             <div className="pt-3">
               <Button variant="secondary" onClick={() => navigate('/learn')}>
-                Back to Learn
+                Back to topics
               </Button>
             </div>
           </ResponseBubble>
@@ -116,9 +128,9 @@ export function LearnTopic() {
 
           <ResponseBubble>
             <div className="flex flex-col gap-2.5">
-              <Button onClick={next}>{isLast ? 'Back to Learn' : 'Go on'}</Button>
+              <Button onClick={next}>{isLast ? 'Back to topics' : 'Go on'}</Button>
               <button onClick={back} className="text-center text-sm text-pip-text-soft underline">
-                {step === 0 ? 'Back to Learn' : 'Back'}
+                {step === 0 ? 'Back to topics' : 'Back'}
               </button>
             </div>
           </ResponseBubble>
