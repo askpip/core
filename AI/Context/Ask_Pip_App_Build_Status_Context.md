@@ -184,4 +184,6 @@ This document can go stale the moment a session forgets to update it. Where prec
 
 - **2 October 2026 (Version 0.2, update):** Recorded the Chrome suggestion shown to Android gardeners in other browsers.
 
+- **3 October 2026 (Version 0.2, update):** The menu's Disclaimer is now "About this beta" and the contact address is founders@askpip.garden. An invite gate exists in the database (`hook_beta_invite_only`) but is not switched on, so sign-in is still open to any address. The app has no feedback form yet, although the website wording promises one.
+
 # End of Document

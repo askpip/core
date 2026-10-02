@@ -1,0 +1,1110 @@
+/* The Ask Pip website. Colours and type are the app's "Leaf & Petal" palette
+   (App/src/index.css), so the site and the app read as one family. */
+
+/* The two typefaces are served from this site (assets/fonts), not from Google, so a
+   visitor's browser contacts no one else to show the page. Both are under the SIL Open
+   Font License: Atkinson Hyperlegible (Braille Institute) and Playfair Display. */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/atkinson-hyperlegible-latin-400-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('assets/fonts/atkinson-hyperlegible-latin-700-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('assets/fonts/playfair-display-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('assets/fonts/playfair-display-latin-500-italic.woff2') format('woff2');
+}
+
+:root {
+  --bg: #f3f5f0;
+  --bg-deep: #e8ede5;
+  --card: #ffffff;
+  --text: #1f2b21;
+  --text-soft: #4a5a4d;
+  --primary: #2f5e3b;
+  --primary-hover: #244a2e;
+  --secondary: #e3ede2;
+  --border: #d6ded4;
+  --petal: #a63d52;
+  --petal-hover: #8c3145;
+  --dark: #213f2a;
+  --on-dark: #f3f5f0;
+  --on-dark-soft: #cfdccf;
+
+  --sans: 'Atkinson Hyperlegible', 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+  --heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+
+  --radius: 20px;
+  --shadow: 0 1px 2px rgba(31, 43, 33, 0.06), 0 8px 24px rgba(31, 43, 33, 0.08);
+  --gutter: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 76px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--heading);
+  font-weight: 600;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(2rem, 5.2vw, 3.1rem);
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: clamp(1.7rem, 3.6vw, 2.35rem);
+  margin-bottom: 0.6em;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--petal);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.wrap {
+  width: min(1120px, 100% - 2 * var(--gutter));
+  margin-inline: auto;
+}
+
+.narrow {
+  max-width: 44rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 100;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: var(--primary);
+  color: #fff;
+}
+
+.skip:focus {
+  top: 12px;
+}
+
+/* ---------- Buttons and links ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 12px 26px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.btn-small {
+  min-height: 44px;
+  padding: 8px 18px;
+  font-size: 0.9375rem;
+}
+
+.btn-wide {
+  width: 100%;
+}
+
+.btn-petal {
+  background: var(--petal);
+  color: #fff;
+}
+
+.btn-petal:hover {
+  background: var(--petal-hover);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-outline {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: var(--secondary);
+}
+
+.btn[disabled] {
+  opacity: 0.55;
+  cursor: progress;
+}
+
+.link {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---------- Header ---------- */
+
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(243, 245, 240, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 64px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: auto;
+  font-family: var(--heading);
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.brand img {
+  border-radius: 50%;
+}
+
+.nav {
+  display: none;
+  gap: 22px;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.nav a {
+  color: var(--text-soft);
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.nav a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* ---------- Bands ---------- */
+
+.band {
+  padding: 64px 0;
+}
+
+.band-deep {
+  background: var(--bg-deep);
+}
+
+.band-dark {
+  background: var(--dark);
+  color: var(--on-dark);
+}
+
+.lead {
+  font-size: 1.1875rem;
+  color: var(--text-soft);
+}
+
+.small,
+.help {
+  font-size: 0.9375rem;
+  color: var(--text-soft);
+}
+
+.note {
+  max-width: 46rem;
+  margin: 28px 0 0;
+  padding: 16px 20px;
+  border-left: 4px solid var(--primary);
+  border-radius: 0 14px 14px 0;
+  background: var(--secondary);
+  font-size: 1rem;
+}
+
+/* ---------- 1. Opening ---------- */
+
+.hero {
+  padding: 36px 0 56px;
+}
+
+.hero-grid {
+  display: grid;
+  gap: 36px;
+}
+
+.hero-logo {
+  width: 132px;
+  margin-bottom: 18px;
+}
+
+.hero-words .lead {
+  margin-top: 16px;
+  max-width: 34rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0 14px;
+}
+
+.hero-words .small {
+  max-width: 30rem;
+  margin: 0;
+}
+
+.hero-picture {
+  position: relative;
+  margin: 0;
+}
+
+.hero-picture img {
+  width: 100%;
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+}
+
+.bubble {
+  position: relative;
+  margin: 0;
+  padding: 16px 20px;
+  border-radius: 20px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  font-size: 1.0625rem;
+  line-height: 1.5;
+}
+
+.bubble-hero {
+  width: min(27rem, 94%);
+  margin: -18px 0 0 auto;
+}
+
+/* The pointer: up towards Pip in the picture. */
+.bubble-hero::before {
+  content: '';
+  position: absolute;
+  left: 44px;
+  top: -9px;
+  width: 20px;
+  height: 20px;
+  background: var(--card);
+  transform: rotate(45deg);
+}
+
+/* ---------- 2. What Pip does today ---------- */
+
+.cards {
+  display: grid;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: var(--text-soft);
+}
+
+.card > :last-child {
+  margin-bottom: 0;
+}
+
+.card .btn {
+  margin-top: auto;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 14px;
+  padding: 10px;
+  border-radius: 14px;
+  background: var(--secondary);
+  fill: none;
+  stroke: var(--primary);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* ---------- 3. How it works ---------- */
+
+.steps {
+  display: grid;
+  gap: 40px;
+  margin-top: 28px;
+}
+
+.steps li {
+  display: grid;
+  gap: 18px;
+  justify-items: center;
+  align-content: start;
+  text-align: center;
+}
+
+.steps p {
+  max-width: 24rem;
+  margin: 8px auto 0;
+  color: var(--text-soft);
+}
+
+.num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 700;
+  vertical-align: 2px;
+}
+
+.phone {
+  width: 236px;
+  padding: 9px;
+  border-radius: 38px;
+  background: #1f2b21;
+  box-shadow: 0 18px 40px rgba(31, 43, 33, 0.22);
+}
+
+.phone img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.says {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.says img {
+  width: 190px;
+  flex: none;
+  margin-right: -40px;
+  position: relative;
+  z-index: 1;
+}
+
+.bubble-left {
+  max-width: 26rem;
+}
+
+/* ---------- 4. Trust ---------- */
+
+.trust-grid {
+  display: grid;
+  gap: 40px;
+  align-items: start;
+}
+
+.points {
+  display: grid;
+  gap: 22px;
+}
+
+.points li {
+  padding-left: 22px;
+  border-left: 3px solid var(--border);
+}
+
+.points h3 {
+  margin-bottom: 4px;
+}
+
+.points p {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+.phone-tall {
+  justify-self: center;
+  width: 264px;
+}
+
+/* ---------- 5. Marie's Story ---------- */
+
+.story-grid {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+}
+
+.story-picture {
+  width: 100%;
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+}
+
+.closing {
+  font-family: var(--heading);
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+
+/* ---------- 6. Vision ---------- */
+
+.label {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 6px 14px;
+  border: 1px solid rgba(243, 245, 240, 0.4);
+  border-radius: 999px;
+  font-size: 0.9375rem;
+  color: var(--on-dark-soft);
+}
+
+.vision-line {
+  max-width: 50rem;
+  margin: 8px 0 24px;
+  font-family: var(--heading);
+  font-style: italic;
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  line-height: 1.35;
+}
+
+.band-dark p {
+  color: var(--on-dark-soft);
+}
+
+.band-dark .vision-line {
+  color: var(--on-dark);
+}
+
+.vision-grid {
+  display: grid;
+  gap: 36px;
+  margin-top: 40px;
+}
+
+.vision-grid h3 {
+  margin-bottom: 10px;
+  color: var(--on-dark);
+}
+
+.flow {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 22px;
+  counter-reset: flow;
+}
+
+.flow li {
+  position: relative;
+  padding: 14px 16px 14px 58px;
+  border-radius: 14px;
+  background: rgba(243, 245, 240, 0.08);
+  color: var(--on-dark);
+  counter-increment: flow;
+}
+
+.flow li::before {
+  content: counter(flow);
+  position: absolute;
+  left: 14px;
+  top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--on-dark);
+  color: var(--dark);
+  font-weight: 700;
+}
+
+/* ---------- 7. Founders ---------- */
+
+.founders {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+}
+
+.founders img {
+  width: 240px;
+  margin-left: -44px;
+}
+
+.founders p {
+  max-width: 40rem;
+}
+
+/* ---------- 8. Join the beta ---------- */
+
+.join-grid {
+  display: grid;
+  gap: 28px;
+  align-items: start;
+}
+
+/* Pip sits on the top edge of the form card, as on an answer in the app.
+   The image is 500x570 with the edge Pip sits on 432px down (App/src/components/pipSittingFrame.ts). */
+.form-seat {
+  position: relative;
+  padding-top: 104px;
+}
+
+.form-pip {
+  position: absolute;
+  top: 0;
+  right: 18px;
+  z-index: 2;
+  width: 120px;
+  pointer-events: none;
+}
+
+.form {
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.form h3 {
+  margin: 0 120px 18px 0;
+  font-size: 1.4rem;
+}
+
+.field {
+  margin: 0 0 18px;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+.field label,
+.field legend {
+  display: block;
+  margin-bottom: 6px;
+  padding: 0;
+  font-weight: 700;
+}
+
+.optional {
+  font-weight: 400;
+  color: var(--text-soft);
+}
+
+input[type='text'],
+input[type='email'],
+select,
+textarea {
+  width: 100%;
+  min-height: 50px;
+  padding: 11px 14px;
+  border: 1.5px solid #b9c5b6;
+  border-radius: 12px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid rgba(47, 94, 59, 0.35);
+  outline-offset: 1px;
+  border-color: var(--primary);
+}
+
+.field .help {
+  margin: 6px 0 0;
+}
+
+.tick,
+.field .tick {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-height: 44px;
+  margin: 0;
+  padding: 9px 0;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.ticks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  column-gap: 12px;
+}
+
+.tick input {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin: 2px 0 0;
+  accent-color: var(--primary);
+}
+
+.agree {
+  margin-bottom: 18px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--bg);
+}
+
+/* A field no person sees or reaches; a robot that fills it in is ignored. */
+.trap {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.form-error {
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #f7e6e9;
+  color: #7d2738;
+  font-weight: 700;
+}
+
+.form .btn + .help {
+  margin: 14px 0 0;
+}
+
+.form-done:focus {
+  outline: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* ---------- 9. Get involved ---------- */
+
+.follow {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.follow .form-error {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+/* ---------- 11. Footer ---------- */
+
+.foot {
+  padding: 40px 0 48px;
+  background: var(--dark);
+  color: var(--on-dark-soft);
+  font-size: 0.9375rem;
+}
+
+.foot-row {
+  display: grid;
+  gap: 14px;
+  justify-items: center;
+  text-align: center;
+}
+
+.foot-row img {
+  width: 120px;
+}
+
+.foot-tag {
+  margin: 0;
+  font-family: var(--heading);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--on-dark);
+}
+
+.foot-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 22px;
+}
+
+.foot-links a {
+  padding: 10px 0;
+  color: var(--on-dark);
+  text-underline-offset: 3px;
+}
+
+.foot-copy {
+  margin: 0;
+}
+
+/* ---------- Marie's Story, in full ---------- */
+
+.story-page {
+  padding: 40px 0 72px;
+}
+
+.story-page .wrap {
+  max-width: 42rem;
+}
+
+.story-page h1 {
+  margin-bottom: 8px;
+}
+
+.story-page h2 {
+  margin: 2.2em 0 0.7em;
+  font-size: 1.6rem;
+}
+
+.story-page .subtitle {
+  font-family: var(--heading);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.story-page hr {
+  margin: 2em auto;
+  width: 80px;
+  border: 0;
+  border-top: 2px solid var(--border);
+}
+
+.story-page ul {
+  margin: 0 0 1em 1.2em;
+  list-style: disc;
+}
+
+.story-page .app-card {
+  margin: 1.4em 0;
+  padding: 18px 22px;
+  border-radius: 16px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.story-page .app-card p:last-child {
+  margin-bottom: 0;
+}
+
+.story-page blockquote {
+  margin: 1.5em 0 0;
+  padding: 16px 20px;
+  border-left: 4px solid var(--primary);
+  border-radius: 0 14px 14px 0;
+  background: var(--secondary);
+}
+
+.story-page blockquote p {
+  margin: 0;
+}
+
+.story-page li {
+  margin-bottom: 0.5em;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 0 0 1em;
+}
+
+.story-page table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.story-page th,
+.story-page td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.story-page th {
+  font-family: var(--sans);
+  font-weight: 700;
+  background: var(--secondary);
+}
+
+/* ---------- Wider screens ---------- */
+
+@media (min-width: 640px) {
+  :root {
+    --gutter: 32px;
+  }
+
+  .band {
+    padding: 84px 0;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards:not(.cards-four) > .card:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .steps {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .phone {
+    width: min(236px, 100%);
+  }
+
+  .founders {
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .form {
+    padding: 32px;
+  }
+
+  .hero-logo {
+    width: 160px;
+  }
+}
+
+@media (min-width: 960px) {
+  .nav {
+    display: flex;
+  }
+
+  .hero {
+    padding: 56px 0 88px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr 1.05fr;
+    gap: 56px;
+    align-items: center;
+  }
+
+  .bubble-hero {
+    margin-top: -34px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* The pruning session is the main thing Pip does today, and has the most to say:
+     it takes the full width, with the other four beneath it. */
+  .cards:not(.cards-four) > .card:first-child {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 20px;
+  }
+
+  .cards:not(.cards-four) > .card:first-child .icon {
+    grid-row: span 2;
+    width: 56px;
+    height: 56px;
+    margin: 0;
+  }
+
+  .cards:not(.cards-four) > .card:first-child p {
+    max-width: 58rem;
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr auto;
+    gap: 72px;
+  }
+
+  .phone-tall {
+    position: sticky;
+    top: 100px;
+    width: 280px;
+  }
+
+  .story-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+  }
+
+  .vision-grid {
+    grid-template-columns: 1.3fr 1fr;
+    gap: 64px;
+  }
+
+  .join-grid {
+    grid-template-columns: 1fr 1.1fr;
+    gap: 64px;
+  }
+
+  .join-words {
+    position: sticky;
+    top: 100px;
+  }
+
+  .foot-row {
+    grid-template-columns: auto 1fr auto;
+    justify-items: start;
+    align-items: center;
+    text-align: left;
+    column-gap: 24px;
+  }
+
+  .foot-row img {
+    grid-row: span 2;
+    width: 110px;
+    margin-left: -20px;
+  }
+
+  .foot-links {
+    justify-content: flex-end;
+  }
+
+  .foot-copy {
+    grid-column: 2 / -1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

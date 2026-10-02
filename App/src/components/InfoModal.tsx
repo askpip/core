@@ -8,7 +8,7 @@ interface InfoModalProps {
 }
 
 /**
- * Overlay for menu items (Disclaimer, Contact, Info, Privacy, My Name).
+ * Overlay for menu items (About this beta, Contact, Info, Privacy, My Name).
  *
  * Anchored with a fixed top offset (items-start + pt-24), not vertically
  * centered — items-center used to mean a short panel (Contact) sat lower

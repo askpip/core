@@ -1,6 +1,6 @@
 # Proposal: The Ask Pip Website at askpip.garden
 
-**Status:** Proposal, not built. **Prepared by:** Claude, at a Founder's request, 2 October 2026. **Live version:** Claude Doc at https://claude.ai/code/artifact/710f1807-b8d6-45bc-958c-42dd1d49c7e0 (this file is a copy of it as at 2 October 2026; edits made there aren't copied here automatically).
+**Status:** Stage 1 is being built (3 October 2026): see `Site/README.md`. This copy is as at 2 October 2026 and is behind the live Doc, which records the Founder decisions taken since. **Prepared by:** Claude, at a Founder's request, 2 October 2026. **Live version:** Claude Doc at https://claude.ai/code/artifact/710f1807-b8d6-45bc-958c-42dd1d49c7e0 (this file is a copy of it as at 2 October 2026; edits made there aren't copied here automatically).
 
 ## Summary
 

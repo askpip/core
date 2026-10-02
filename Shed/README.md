@@ -2166,3 +2166,27 @@ Open items:
 **Narrow screens (640 px wide or less).** The title takes its own lines in full, and the badges and the Desktop button sit on the line below, with the button at the right.
 
 Checked with the page's own styles on a test list at 1100 px and 390 px wide: the panel no longer scrolls sideways and every Desktop button sits inside it. It was not checked in the live Shed, which needs a Founder's passphrase.
+
+## Toolbox: Beta Requests (3 October 2026)
+
+**Why.** The website at askpip.garden has a "Request an invite" form. A Founder asked for each request to appear in the Shed, in its own tool, with a number on the tool showing how many are unopened.
+
+**What it is.** A third Toolbox tool, "Beta Requests". It lists every invite request, newest first, with the gardener's name, country, roses and date, and a status of Waiting, Approved or Declined.
+
+- A request is "unopened" for a Founder until that Founder opens it. Unopened requests have a red dot and a red outline. The count is per Founder: one Founder opening a request doesn't clear it for the other.
+- The count shows in two places: a red badge on the Toolbox hotspot, and beside the tool's name inside the Toolbox.
+- Opening a request shows the email, phone and note, and a yellow line if the request is outside the beta's five countries or three rose types.
+- "Approve and send the invitation" approves the request and sends the gardener the invitation email. The panel then says whether the email went, and why not if it didn't. "Send the invitation again" resends it.
+- "Decline" sends nothing. "Put back to waiting" undoes either decision. Nothing in the tool deletes a request.
+
+**Database (migration `beta_invites`; the SQL is recorded in `App/supabase/schema.sql`, "Beta invites").**
+
+- Tables `beta_invite_requests` and `site_followers`, with the Shed's usual pattern: RLS on, no policies, all table privileges revoked.
+- The website calls `site_request_invite(...)` and `site_follow(...)` with the public key. Each can add a row and nothing else. A hidden field catches robots, and a simple hourly cap guards against floods. One row is kept per email address.
+- The Shed calls, with the passphrase as `p`: `shed_list_invite_requests(p)`, `shed_count_unopened_invite_requests(p)`, `shed_open_invite_request(p, request_id)`, `shed_decide_invite_request(p, request_id, decision)` and `shed_resend_invitation(p, request_id)`. The acting Founder is resolved on the server from `p`, as elsewhere.
+- Emails go through Resend with the key in Vault (`resend_api_key`), the same way as the Founder Attention email (`shed_notice_email_founders_fn`, which is not otherwise recorded in this repository). They are sent only while `shed_config` has `beta_emails = 'on'`. **It is off until a Founder says to switch it on.** The notice of a new request goes to founders@askpip.garden; the invitation goes from `founders@contact.askpip.garden` with replies to founders@askpip.garden.
+- `hook_beta_invite_only(event)` is the app's invite gate. Supabase Auth runs it before creating a new account, once a Founder switches it on in the dashboard (Authentication, Hooks, "Before User Created"). Only an address with an approved request may be created. Existing accounts are not affected.
+
+**In the page.** `TOOLBOX_TOOLS` has the new entry, with an optional `count` function; `openToolbox` shows it. `openBetaRequestsTool` is the panel. `updateBetaBadge` and `fetchBetaBadgeCount` keep the number, and the count is fetched at unlock with the other badge counts. A failed count never blocks unlocking. The panel takes its background from `CONTENT.cabinet.bg`, so the cabinet artwork isn't embedded again.
+
+**Tested.** The database functions were run against the live project as the public role and with a throwaway `shed_users` row inside a transaction that was rolled back: validation, the robot field, one row per email, per-Founder unopened counts, approve, decline, undo, resend and the gate all behaved as described, with emails switched off. All test rows were removed afterwards. The page was checked with `node --check`, no leftover `__ASSET_` tokens, and headless Chromium at 1280 px and 390 px against a stubbed Supabase client: the badge, the tool's count, the list, opening, approving and the out-of-scope line all worked, with no sideways scrolling and no page errors. **Not checked:** the tool in the live Shed with a real passphrase, and a real email being sent.

@@ -471,3 +471,349 @@ create policy "question_interest insert own" on public.question_interest
 create policy "question_interest read own" on public.question_interest
   for select to authenticated using (user_id = auth.uid());
 create index if not exists question_interest_key_idx on public.question_interest (question_key);
+
+-- ---------------------------------------------------------------------------
+-- Beta invites (3 October 2026): the askpip.garden invite form, the Garden
+-- Shed's "Beta requests" tool, the invitation email and the app's invite gate.
+-- Applied to Supabase as migration beta_invites.
+--
+-- Pattern, as for the Shed's own tables: RLS on with no policies and all table
+-- privileges revoked, so nothing reads or writes these tables directly. The
+-- website calls the two site_* functions with the public key; they can add a
+-- request and nothing else. The Shed calls the shed_* functions with a Founder's
+-- passphrase. Supabase Auth calls hook_beta_invite_only.
+-- ---------------------------------------------------------------------------
+
+create table if not exists public.beta_invite_requests (
+  id uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  name text not null check (char_length(name) between 1 and 120),
+  email text not null check (email = lower(email) and email ~ '^[^@\s]+@[^@\s]+\.[^@\s]+$' and char_length(email) <= 254),
+  country text not null check (char_length(country) between 1 and 60),
+  roses text[] not null check (cardinality(roses) between 1 and 5),
+  phone text not null check (phone in ('iPhone', 'Android', 'Computer')),
+  note text check (note is null or char_length(note) <= 2000),
+  accepted_beta_terms boolean not null check (accepted_beta_terms),
+  -- True when the country and roses are ones the beta covers. Worked out here, never taken from the visitor.
+  in_beta_scope boolean not null,
+  status text not null default 'pending' check (status in ('pending', 'approved', 'declined')),
+  decided_by text,
+  decided_at timestamptz,
+  invited_at timestamptz,
+  invite_error text,
+  -- The Founders who have opened this request in the Shed. A request is "unopened" for a Founder not listed.
+  opened_by text[] not null default '{}'
+);
+create unique index if not exists beta_invite_requests_email_key on public.beta_invite_requests (email);
+alter table public.beta_invite_requests enable row level security;
+revoke all on public.beta_invite_requests from anon, authenticated, public;
+
+create table if not exists public.site_followers (
+  id bigint generated always as identity primary key,
+  created_at timestamptz not null default now(),
+  email text not null unique check (email = lower(email) and email ~ '^[^@\s]+@[^@\s]+\.[^@\s]+$' and char_length(email) <= 254),
+  source text not null check (source in ('follow-progress', 'invite-form'))
+);
+alter table public.site_followers enable row level security;
+revoke all on public.site_followers from anon, authenticated, public;
+
+-- Text made safe to place inside an HTML email.
+create or replace function public.beta_html(t text) returns text
+language sql immutable
+set search_path to 'public'
+as $$ select replace(replace(replace(coalesce(t, ''), '&', '&amp;'), '<', '&lt;'), '>', '&gt;'); $$;
+revoke execute on function public.beta_html(text) from anon, authenticated, public;
+
+-- Sends one email through Resend, with the key held in Vault (the Shed's own notice email works the same
+-- way). Emails are sent only while shed_config has beta_emails = 'on'. Returns null when sent, otherwise why not.
+create or replace function public.beta_send_email(p_from text, p_to text, p_reply_to text, p_subject text, p_html text)
+returns text
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare
+  api_key text;
+  resp http_response;
+  payload jsonb;
+begin
+  if coalesce((select value from public.shed_config where key = 'beta_emails'), 'off') <> 'on' then
+    return 'emails are switched off';
+  end if;
+  select decrypted_secret into api_key from vault.decrypted_secrets where name = 'resend_api_key';
+  if api_key is null then
+    return 'no email key';
+  end if;
+  payload := jsonb_build_object('from', p_from, 'to', jsonb_build_array(p_to), 'subject', p_subject, 'html', p_html);
+  if p_reply_to is not null then
+    payload := payload || jsonb_build_object('reply_to', p_reply_to);
+  end if;
+  select * into resp from http((
+    'POST', 'https://api.resend.com/emails',
+    array[http_header('Authorization', 'Bearer ' || api_key), http_header('Content-Type', 'application/json')],
+    'application/json', payload::text
+  )::http_request);
+  if resp.status is null or resp.status not between 200 and 299 then
+    return 'email service answered ' || coalesce(resp.status::text, 'nothing');
+  end if;
+  return null;
+exception when others then
+  return 'email failed: ' || sqlerrm;
+end;
+$$;
+revoke execute on function public.beta_send_email(text, text, text, text, text) from anon, authenticated, public;
+
+-- The website's "Request an invite" form. p_trap is a field hidden from people; a filled one is a robot,
+-- which is told "ok" and ignored. One row per email address: a second request updates the first while it
+-- is still pending, and changes nothing once it has been decided.
+create or replace function public.site_request_invite(
+  p_name text, p_email text, p_country text, p_roses text[], p_phone text,
+  p_note text default null, p_accepted boolean default false, p_trap text default null
+) returns jsonb
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare
+  v_name text := btrim(coalesce(p_name, ''));
+  v_email text := lower(btrim(coalesce(p_email, '')));
+  v_note text := nullif(btrim(coalesce(p_note, '')), '');
+  v_roses text[];
+  v_scope boolean;
+  v_existing public.beta_invite_requests;
+  v_new boolean := false;
+  v_ignored text;
+begin
+  if coalesce(p_trap, '') <> '' then
+    return jsonb_build_object('ok', true, 'in_beta_scope', true);
+  end if;
+  if v_name = '' or char_length(v_name) > 120 then return jsonb_build_object('ok', false, 'reason', 'name'); end if;
+  if v_email !~ '^[^@\s]+@[^@\s]+\.[^@\s]+$' or char_length(v_email) > 254 then return jsonb_build_object('ok', false, 'reason', 'email'); end if;
+  if p_country is null or p_country not in ('New Zealand', 'Australia', 'United Kingdom', 'United States', 'Canada', 'Somewhere else') then
+    return jsonb_build_object('ok', false, 'reason', 'country');
+  end if;
+  select array_agg(distinct r) into v_roses from unnest(coalesce(p_roses, '{}')) r
+    where r in ('Hybrid Tea', 'Floribunda', 'Grandiflora', 'Other roses', 'I''m not sure');
+  if v_roses is null then return jsonb_build_object('ok', false, 'reason', 'roses'); end if;
+  if p_phone is null or p_phone not in ('iPhone', 'Android', 'Computer') then return jsonb_build_object('ok', false, 'reason', 'phone'); end if;
+  if v_note is not null and char_length(v_note) > 2000 then v_note := left(v_note, 2000); end if;
+  if not coalesce(p_accepted, false) then return jsonb_build_object('ok', false, 'reason', 'accept'); end if;
+
+  -- The beta covers five countries and three rose types. "I'm not sure" is let through for the Founders to judge.
+  v_scope := p_country <> 'Somewhere else'
+    and v_roses && array['Hybrid Tea', 'Floribunda', 'Grandiflora', 'I''m not sure'];
+
+  -- A plain guard against a flood of robot requests.
+  if (select count(*) from public.beta_invite_requests where created_at > now() - interval '1 hour') >= 60 then
+    return jsonb_build_object('ok', false, 'reason', 'busy');
+  end if;
+
+  select * into v_existing from public.beta_invite_requests where email = v_email;
+  if not found then
+    insert into public.beta_invite_requests (name, email, country, roses, phone, note, accepted_beta_terms, in_beta_scope)
+    values (v_name, v_email, p_country, v_roses, p_phone, v_note, true, v_scope);
+    v_new := true;
+  elsif v_existing.status = 'pending' then
+    update public.beta_invite_requests
+      set name = v_name, country = p_country, roses = v_roses, phone = p_phone, note = v_note,
+          in_beta_scope = v_scope, updated_at = now(), opened_by = '{}'
+      where id = v_existing.id;
+  end if;
+
+  if v_new then
+    v_ignored := public.beta_send_email(
+      'Ask Pip Shed <shed@contact.askpip.garden>', 'founders@askpip.garden', v_email,
+      'New beta request: ' || v_name || ', ' || p_country,
+      '<p><strong>' || public.beta_html(v_name) || '</strong> has asked to join the Ask Pip beta.</p>'
+      || '<ul><li>Email: ' || public.beta_html(v_email) || '</li>'
+      || '<li>Country: ' || public.beta_html(p_country) || '</li>'
+      || '<li>Roses: ' || public.beta_html(array_to_string(v_roses, ', ')) || '</li>'
+      || '<li>Phone: ' || public.beta_html(p_phone) || '</li>'
+      || '<li>Note: ' || public.beta_html(coalesce(v_note, 'None')) || '</li></ul>'
+      || '<p>Approve or decline it in the Garden Shed: <a href="https://shed.askpip.garden">shed.askpip.garden</a></p>'
+    );
+  end if;
+  return jsonb_build_object('ok', true, 'in_beta_scope', v_scope);
+end;
+$$;
+revoke execute on function public.site_request_invite(text, text, text, text[], text, text, boolean, text) from public;
+grant execute on function public.site_request_invite(text, text, text, text[], text, text, boolean, text) to anon, authenticated;
+
+-- The website's "Follow progress" form.
+create or replace function public.site_follow(p_email text, p_source text default 'follow-progress', p_trap text default null)
+returns jsonb
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare
+  v_email text := lower(btrim(coalesce(p_email, '')));
+begin
+  if coalesce(p_trap, '') <> '' then return jsonb_build_object('ok', true); end if;
+  if v_email !~ '^[^@\s]+@[^@\s]+\.[^@\s]+$' or char_length(v_email) > 254 then return jsonb_build_object('ok', false, 'reason', 'email'); end if;
+  if p_source is null or p_source not in ('follow-progress', 'invite-form') then return jsonb_build_object('ok', false, 'reason', 'source'); end if;
+  if (select count(*) from public.site_followers where created_at > now() - interval '1 hour') >= 120 then
+    return jsonb_build_object('ok', false, 'reason', 'busy');
+  end if;
+  insert into public.site_followers (email, source) values (v_email, p_source) on conflict (email) do nothing;
+  return jsonb_build_object('ok', true);
+end;
+$$;
+revoke execute on function public.site_follow(text, text, text) from public;
+grant execute on function public.site_follow(text, text, text) to anon, authenticated;
+
+-- The Shed's "Beta requests" tool: every request, newest first, with whether this Founder has opened it.
+create or replace function public.shed_list_invite_requests(p text)
+returns table (
+  id uuid, created_at timestamptz, updated_at timestamptz, name text, email text, country text, roses text[],
+  phone text, note text, in_beta_scope boolean, status text, decided_by text, decided_at timestamptz,
+  invited_at timestamptz, invite_error text, is_unopened boolean
+)
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare who text;
+begin
+  who := public.shed_resolve_user(p);
+  if who is null then raise exception 'invalid passphrase'; end if;
+  return query
+    select r.id, r.created_at, r.updated_at, r.name, r.email, r.country, r.roses, r.phone, r.note, r.in_beta_scope,
+           r.status, r.decided_by, r.decided_at, r.invited_at, r.invite_error, not (who = any (r.opened_by))
+    from public.beta_invite_requests r
+    order by r.created_at desc;
+end;
+$$;
+
+-- The number on the tool: requests this Founder has not opened yet.
+create or replace function public.shed_count_unopened_invite_requests(p text)
+returns integer
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare who text;
+begin
+  who := public.shed_resolve_user(p);
+  if who is null then raise exception 'invalid passphrase'; end if;
+  return (select count(*)::integer from public.beta_invite_requests r where not (who = any (r.opened_by)));
+end;
+$$;
+
+create or replace function public.shed_open_invite_request(p text, request_id uuid)
+returns void
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare who text;
+begin
+  who := public.shed_resolve_user(p);
+  if who is null then raise exception 'invalid passphrase'; end if;
+  update public.beta_invite_requests r set opened_by = array_append(r.opened_by, who)
+    where r.id = request_id and not (who = any (r.opened_by));
+end;
+$$;
+
+-- The invitation email. Used when a request is approved, and again by "Send the invitation again".
+create or replace function public.beta_send_invitation(request_id uuid)
+returns text
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare
+  r public.beta_invite_requests;
+  problem text;
+begin
+  select * into r from public.beta_invite_requests where id = request_id;
+  if not found then return 'request not found'; end if;
+  problem := public.beta_send_email(
+    'Ask Pip <founders@contact.askpip.garden>', r.email, 'founders@askpip.garden',
+    'Your invitation to Ask Pip',
+    '<p>Hello ' || public.beta_html(r.name) || ',</p>'
+    || '<p>Thank you for asking to join the Ask Pip beta. We would like to offer you a place.</p>'
+    || '<p><strong>Open Ask Pip:</strong> <a href="https://app.askpip.garden">https://app.askpip.garden</a></p>'
+    || '<p>Sign in with this email address. Pip will send you a code each time, so there is no password to remember unless you choose to set one.</p>'
+    || '<p><strong>To keep Pip on your phone:</strong> open the link in Chrome on Android, or in Safari on iPhone, then choose "Add to home screen" from Pip''s menu.</p>'
+    || '<p>Ask Pip is a free beta. Its guidance has not been reviewed by a horticultural expert, and you decide what to do with your own plants. After a session, Pip offers a short feedback form. We read everything you send.</p>'
+    || '<p>You can also reply to this email. One of us will read it.</p>'
+    || '<p>The Founders, Ask Pip</p>'
+  );
+  update public.beta_invite_requests
+    set invited_at = case when problem is null then now() else invited_at end, invite_error = problem
+    where id = request_id;
+  return problem;
+end;
+$$;
+revoke execute on function public.beta_send_invitation(uuid) from anon, authenticated, public;
+
+-- Approve, decline, or put a request back to pending. Approving sends the invitation; the answer says
+-- whether it went ("emailed") and, if not, why ("email_problem"), so the Shed can say so plainly.
+create or replace function public.shed_decide_invite_request(p text, request_id uuid, decision text)
+returns jsonb
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare
+  who text;
+  problem text;
+  was text;
+begin
+  who := public.shed_resolve_user(p);
+  if who is null then raise exception 'invalid passphrase'; end if;
+  if decision not in ('approved', 'declined', 'pending') then raise exception 'invalid decision'; end if;
+  select status into was from public.beta_invite_requests where id = request_id;
+  if was is null then raise exception 'request not found'; end if;
+
+  update public.beta_invite_requests r
+    set status = decision,
+        decided_by = case when decision = 'pending' then null else who end,
+        decided_at = case when decision = 'pending' then null else now() end,
+        updated_at = now(),
+        opened_by = case when who = any (r.opened_by) then r.opened_by else array_append(r.opened_by, who) end
+    where r.id = request_id;
+
+  if decision = 'approved' and was <> 'approved' then
+    problem := public.beta_send_invitation(request_id);
+    return jsonb_build_object('status', decision, 'emailed', problem is null, 'email_problem', problem);
+  end if;
+  return jsonb_build_object('status', decision, 'emailed', false, 'email_problem', null);
+end;
+$$;
+
+create or replace function public.shed_resend_invitation(p text, request_id uuid)
+returns jsonb
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare
+  who text;
+  problem text;
+begin
+  who := public.shed_resolve_user(p);
+  if who is null then raise exception 'invalid passphrase'; end if;
+  if not exists (select 1 from public.beta_invite_requests where id = request_id and status = 'approved') then
+    raise exception 'only an approved request can be invited';
+  end if;
+  problem := public.beta_send_invitation(request_id);
+  return jsonb_build_object('emailed', problem is null, 'email_problem', problem);
+end;
+$$;
+
+-- The app's invite gate. Supabase Auth runs this before it creates a NEW account (Authentication > Hooks >
+-- "Before User Created", switched on by a Founder in the dashboard). Only an address with an approved request
+-- may be created. Accounts that already exist are not affected: the hook does not run when they sign in.
+create or replace function public.hook_beta_invite_only(event jsonb)
+returns jsonb
+language plpgsql security definer
+set search_path to 'public'
+as $$
+declare
+  v_email text := lower(btrim(coalesce(event -> 'user' ->> 'email', '')));
+begin
+  if exists (select 1 from public.beta_invite_requests where email = v_email and status = 'approved') then
+    return '{}'::jsonb;
+  end if;
+  return jsonb_build_object('error', jsonb_build_object(
+    'http_code', 403,
+    'message', 'This email address isn''t on the Ask Pip beta list yet. You can request an invite at askpip.garden.'
+  ));
+end;
+$$;
+grant execute on function public.hook_beta_invite_only(jsonb) to supabase_auth_admin;
+revoke execute on function public.hook_beta_invite_only(jsonb) from anon, authenticated, public;

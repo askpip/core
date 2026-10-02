@@ -116,6 +116,44 @@
   }
   .hotspot-badge.show{ display:flex; }
 
+  /* Beta Requests tool (3 October 2026): the list of invite requests from askpip.garden. */
+  .tool-count{
+    min-width:20px; height:20px; padding:0 6px; border-radius:10px; background:#a33; color:#fff;
+    font-family:'Nunito',sans-serif; font-weight:700; font-size:.72rem;
+    display:inline-flex; align-items:center; justify-content:center; margin-left:6px; vertical-align:2px;
+  }
+  .beta-summary{ font-size:.9rem; color:var(--cream); margin:0 0 12px; }
+  .beta-list{ display:grid; grid-template-columns:minmax(0,1fr); gap:8px; }
+  .beta-row{ background:rgba(250,243,227,.95); border:1px solid rgba(0,0,0,.12); border-radius:10px; overflow:hidden; }
+  .beta-row.unopened{ border-color:#a33; box-shadow:0 0 0 1px #a33 inset; }
+  .beta-head{
+    display:flex; align-items:center; gap:10px; width:100%; min-height:48px; padding:10px 12px;
+    background:none; border:0; text-align:left; cursor:pointer; font:inherit; color:inherit;
+  }
+  .beta-head:hover{ background:rgba(255,255,255,.6); }
+  .beta-new{ flex:none; width:10px; height:10px; border-radius:50%; background:#a33; }
+  .beta-who{ flex:1 1 auto; min-width:0; }
+  .beta-name{ display:block; font-family:'Kalam',cursive; font-size:1.05rem; color:var(--wood-dark); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .beta-sub{ display:block; font-size:.78rem; color:var(--wood); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .beta-status{ flex:none; padding:3px 9px; border-radius:999px; font-size:.72rem; font-weight:700; white-space:nowrap; }
+  .beta-status.pending{ background:#f1e3b8; color:#6a5210; }
+  .beta-status.approved{ background:#cfe6cf; color:#1f5a2a; }
+  .beta-status.declined{ background:#e6d3d3; color:#7a2a2a; }
+  .beta-detail{ padding:4px 14px 14px; border-top:1px solid rgba(0,0,0,.1); font-size:.9rem; color:var(--wood-dark); }
+  .beta-detail dl{ display:grid; grid-template-columns:auto minmax(0,1fr); gap:4px 12px; margin:10px 0; }
+  .beta-detail dt{ font-weight:700; }
+  .beta-detail dd{ margin:0; overflow-wrap:anywhere; }
+  .beta-flag{ margin:8px 0; padding:8px 10px; border-radius:8px; background:#f1e3b8; color:#6a5210; font-size:.85rem; }
+  .beta-note{ margin:8px 0 0; font-size:.85rem; }
+  .beta-note.problem{ color:#7a2a2a; font-weight:700; }
+  .beta-actions{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+  .beta-actions button{
+    min-height:40px; padding:8px 14px; border-radius:8px; border:1px solid rgba(0,0,0,.25);
+    background:#fff; color:var(--wood-dark); font:inherit; font-weight:700; font-size:.85rem; cursor:pointer;
+  }
+  .beta-actions button.go{ background:#2f5e3b; border-color:#2f5e3b; color:#fff; }
+  .beta-actions button:disabled{ opacity:.5; cursor:progress; }
+
   /* The Desk: any number of items (documents/notices/books) can be open at once, sharing a
      single window frame per stage -- browser-tab style. With one item open, the frame shows
      a plain titlebar (title + maximize/restore + close). With two or more, a tab strip
@@ -1160,7 +1198,7 @@
     return sb.rpc("shed_identify_user", { p: pass }).then(function(idRes){
       if(idRes.error){ throw idRes.error; }
       if(!idRes.data){ throw new Error("invalid passphrase"); }
-      return Promise.all([fetchAllItems(pass), fetchTodoBadgeCount(pass), fetchNoticeTemplates()]).then(function(){
+      return Promise.all([fetchAllItems(pass), fetchTodoBadgeCount(pass), fetchNoticeTemplates(), fetchBetaBadgeCount(pass)]).then(function(){
         window.SHED_PASSPHRASE = pass;
         window.SHED_ACTIVE_USER = idRes.data;
         updateActiveUserBadge();
@@ -1265,7 +1303,7 @@
       tag.className = "tag";
       tag.textContent = h.label;
       node.appendChild(tag);
-      if(h.key === "board" || h.key === "todo"){
+      if(h.key === "board" || h.key === "todo" || h.key === "toolbox"){
         var badge = document.createElement("span");
         badge.className = "hotspot-badge";
         node.appendChild(badge);
@@ -1508,6 +1546,25 @@
       if(res.error) return;
       updateTodoBadge(res.data);
     });
+  }
+
+  // Beta Requests (3 October 2026): the red count on the Toolbox hotspot, and beside the tool's
+  // name inside the Toolbox, is the number of invite requests THIS Founder has not opened yet
+  // (shed_count_unopened_invite_requests works it out per Founder). A failed count never blocks
+  // unlocking the Shed; the badge just stays hidden.
+  window.SHED_BETA_UNOPENED = 0;
+  function updateBetaBadge(count){
+    window.SHED_BETA_UNOPENED = count || 0;
+    document.querySelectorAll('.hotspot[data-key="toolbox"] .hotspot-badge').forEach(function(el){
+      el.textContent = String(window.SHED_BETA_UNOPENED);
+      el.classList.toggle("show", window.SHED_BETA_UNOPENED > 0);
+    });
+  }
+  function fetchBetaBadgeCount(pass){
+    return sb.rpc("shed_count_unopened_invite_requests", { p: pass }).then(function(res){
+      if(res.error) return;
+      updateBetaBadge(res.data);
+    }, function(){ /* leave the badge hidden */ });
   }
 
   // One shared tooltip bubble for the whole page (only one tab can be hovered/touched at a
@@ -5129,6 +5186,14 @@
       name: "Annotate Photo",
       description: "Mark up any photo with arrows and text, then file the result in the Cabinet.",
       open: openAnnotatePhotoTool
+    },
+    {
+      icon: "🌹",
+      name: "Beta Requests",
+      description: "Gardeners who have asked to join the Ask Pip beta. Approve or decline each one.",
+      open: openBetaRequestsTool,
+      // Shows the number of requests this Founder has not opened yet (see updateBetaBadge).
+      count: function(){ return window.SHED_BETA_UNOPENED; }
     }
   ];
 
@@ -5161,6 +5226,13 @@
         '<span class="folder-icon">' + tool.icon + '</span>' +
         '<span class="folder-name">' + tool.name + '</span>' +
         '<span class="folder-count">' + tool.description + '</span>';
+      if(tool.count && tool.count() > 0){
+        var n = document.createElement("span");
+        n.className = "tool-count";
+        n.textContent = String(tool.count());
+        n.setAttribute("aria-label", tool.count() + " not opened yet");
+        card.querySelector(".folder-name").appendChild(n);
+      }
       card.addEventListener("click", function(){
         close();
         tool.open(stageEl);
@@ -5168,6 +5240,171 @@
       list.appendChild(card);
     });
     body.appendChild(list);
+  }
+
+  // Beta Requests (3 October 2026, Founder instruction): every invite request sent from the
+  // form on askpip.garden, newest first. A request shows as new (red dot, red outline) until
+  // this Founder opens it; opening it is what takes it off the count. Approving a request lets
+  // that email address create an Ask Pip account (public.hook_beta_invite_only) and sends the
+  // gardener the invitation email; the panel says plainly whether the email went. Nothing here
+  // deletes a request. Database: migration beta_invites (App/supabase/schema.sql, "Beta invites").
+  function openBetaRequestsTool(stageEl){
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.innerHTML =
+      '<div class="bg"></div>' +
+      '<div class="scrim"></div>' +
+      '<div class="panel">' +
+        '<div class="panel-head"><h3>🌹 Beta Requests</h3><button class="closebtn" type="button">&times;</button></div>' +
+        '<div class="panel-body"></div>' +
+      '</div>';
+    // The File Cabinet's own picture, taken from CONTENT so the artwork isn't embedded in the page a sixth time.
+    overlay.querySelector(".bg").style.backgroundImage = 'url("' + CONTENT.cabinet.bg + '")';
+    stageEl.appendChild(overlay);
+    requestAnimationFrame(function(){ overlay.classList.add("open"); });
+    function close(){
+      overlay.classList.remove("open");
+      setTimeout(function(){ overlay.remove(); }, 250);
+    }
+    overlay.querySelector(".closebtn").addEventListener("click", close);
+    var body = overlay.querySelector(".panel-body");
+    var requests = [];
+    var openId = null;
+
+    function el(tag, cls, text){
+      var node = document.createElement(tag);
+      if(cls) node.className = cls;
+      if(text !== undefined && text !== null) node.textContent = text;
+      return node;
+    }
+    function when(iso){
+      if(!iso) return "";
+      var d = new Date(iso);
+      return d.toLocaleDateString(undefined, { day:"numeric", month:"short", year:"numeric" });
+    }
+    var STATUS_WORDS = { pending:"Waiting", approved:"Approved", declined:"Declined" };
+
+    function load(){
+      body.textContent = "Loading…";
+      sb.rpc("shed_list_invite_requests", { p: window.SHED_PASSPHRASE }).then(function(res){
+        if(res.error){ body.textContent = "The requests couldn't be loaded: " + res.error.message; return; }
+        requests = res.data || [];
+        render();
+      });
+    }
+
+    function render(){
+      body.textContent = "";
+      updateBetaBadge(requests.filter(function(r){ return r.is_unopened; }).length);
+      if(requests.length === 0){
+        body.appendChild(el("p", "beta-summary", "No one has asked to join the beta yet. Requests from askpip.garden will appear here."));
+        return;
+      }
+      var counts = { pending:0, approved:0, declined:0 };
+      requests.forEach(function(r){ counts[r.status] = (counts[r.status] || 0) + 1; });
+      body.appendChild(el("p", "beta-summary",
+        counts.pending + " waiting · " + counts.approved + " approved · " + counts.declined + " declined"));
+
+      var list = el("div", "beta-list");
+      requests.forEach(function(r){
+        var row = el("div", "beta-row" + (r.is_unopened ? " unopened" : ""));
+        var head = el("button", "beta-head");
+        head.type = "button";
+        head.setAttribute("aria-expanded", openId === r.id ? "true" : "false");
+        if(r.is_unopened){
+          var dot = el("span", "beta-new");
+          dot.setAttribute("aria-label", "Not opened yet");
+          head.appendChild(dot);
+        }
+        var who = el("span", "beta-who");
+        who.appendChild(el("span", "beta-name", r.name));
+        who.appendChild(el("span", "beta-sub", r.country + " · " + (r.roses || []).join(", ") + " · " + when(r.created_at)));
+        head.appendChild(who);
+        head.appendChild(el("span", "beta-status " + r.status, STATUS_WORDS[r.status] || r.status));
+        head.addEventListener("click", function(){ toggle(r); });
+        row.appendChild(head);
+        if(openId === r.id) row.appendChild(detail(r));
+        list.appendChild(row);
+      });
+      body.appendChild(list);
+    }
+
+    function toggle(r){
+      openId = (openId === r.id) ? null : r.id;
+      if(openId && r.is_unopened){
+        r.is_unopened = false;
+        sb.rpc("shed_open_invite_request", { p: window.SHED_PASSPHRASE, request_id: r.id }).then(function(res){
+          if(res.error) console.warn("Could not mark the request as opened:", res.error.message);
+        });
+      }
+      render();
+    }
+
+    function detail(r){
+      var box = el("div", "beta-detail");
+      if(!r.in_beta_scope){
+        box.appendChild(el("p", "beta-flag", "Outside the beta today: another country, or roses Pip can't yet help prune."));
+      }
+      var dl = el("dl");
+      [["Email", r.email], ["Country", r.country], ["Roses", (r.roses || []).join(", ")],
+       ["Phone", r.phone === "Computer" ? "Would use a computer" : r.phone],
+       ["Note", r.note || "None"], ["Asked on", when(r.created_at)]].forEach(function(pair){
+        dl.appendChild(el("dt", null, pair[0]));
+        dl.appendChild(el("dd", null, pair[1]));
+      });
+      box.appendChild(dl);
+
+      if(r.status !== "pending"){
+        box.appendChild(el("p", "beta-note", STATUS_WORDS[r.status] + " by " + (r.decided_by || "a Founder") + " on " + when(r.decided_at) + "."));
+      }
+      if(r.status === "approved"){
+        if(r.invited_at){
+          box.appendChild(el("p", "beta-note", "Invitation email sent on " + when(r.invited_at) + "."));
+        }
+        if(r.invite_error){
+          box.appendChild(el("p", "beta-note problem", "The invitation email was not sent: " + r.invite_error + "."));
+        }
+      }
+
+      var actions = el("div", "beta-actions");
+      function button(label, cls, run){
+        var b = el("button", cls, label);
+        b.type = "button";
+        b.addEventListener("click", function(){
+          actions.querySelectorAll("button").forEach(function(x){ x.disabled = true; });
+          run();
+        });
+        actions.appendChild(b);
+      }
+      function decide(decision){
+        sb.rpc("shed_decide_invite_request", { p: window.SHED_PASSPHRASE, request_id: r.id, decision: decision }).then(function(res){
+          if(res.error){ alertProblem("That couldn't be saved: " + res.error.message); return; }
+          load();
+        });
+      }
+      function alertProblem(text){
+        box.appendChild(el("p", "beta-note problem", text));
+        actions.querySelectorAll("button").forEach(function(x){ x.disabled = false; });
+      }
+      if(r.status === "pending"){
+        button("Approve and send the invitation", "go", function(){ decide("approved"); });
+        button("Decline", null, function(){ decide("declined"); });
+      } else {
+        if(r.status === "approved"){
+          button("Send the invitation again", null, function(){
+            sb.rpc("shed_resend_invitation", { p: window.SHED_PASSPHRASE, request_id: r.id }).then(function(res){
+              if(res.error){ alertProblem("That couldn't be sent: " + res.error.message); return; }
+              load();
+            });
+          });
+        }
+        button("Put back to waiting", null, function(){ decide("pending"); });
+      }
+      box.appendChild(actions);
+      return box;
+    }
+
+    load();
   }
 
   // Gallery (17 September 2026, Founder instruction): a thumbnail grid over

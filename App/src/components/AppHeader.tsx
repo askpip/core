@@ -42,13 +42,15 @@ function backTargetFor(pathname: string): string {
 }
 
 const INFO_CONTENT: Record<Exclude<InfoPanel, null>, { title: string; body: string }> = {
+  // "About this beta" replaced the Disclaimer on 3 October 2026 (wording approved by a Founder in chat;
+  // Working/AI Outputs/Ask_Pip_Website_Wording.md, section 10). The same words are on askpip.garden.
   disclaimer: {
-    title: 'Disclaimer',
-    body: 'Ask Pip is a prototype. Pruning guidance shown here is for demonstration only and has not been reviewed by a horticultural expert.',
+    title: 'About this beta',
+    body: 'Ask Pip is in beta. Its care guidance is researched from reputable horticultural sources, and each piece shows its sources and a confidence rating. It has not been reviewed by a horticultural expert. Pip offers guidance, and you decide what to do with your rose. If you are unsure, ask an experienced local gardener.',
   },
   contact: {
     title: 'Contact',
-    body: 'Questions, feedback, or just want to say hello? Reach the Ask Pip team at askpipfounders@gmail.com.',
+    body: 'Questions, feedback, or just want to say hello? Reach the Ask Pip team at founders@askpip.garden.',
   },
   info: {
     title: 'About Ask Pip',
@@ -272,7 +274,7 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
                   supabase.auth.signOut().finally(() => navigate('/'))
                 }}
               />
-              <MenuItem label="Disclaimer" onClick={() => openInfo('disclaimer')} />
+              <MenuItem label="About this beta" onClick={() => openInfo('disclaimer')} />
               <MenuItem label="Privacy" onClick={() => openInfo('privacy')} />
               <MenuItem label="Contact" onClick={() => openInfo('contact')} />
               <MenuItem label="About" onClick={() => openInfo('info')} />
