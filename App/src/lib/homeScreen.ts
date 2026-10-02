@@ -83,20 +83,63 @@ function mainScript(html: string): string | null {
 }
 
 /**
- * True when the server has a newer build than the one running. Compares the main
- * script named in a fresh copy of the page with the one this page loaded. Any failure
- * (no connection, an odd response) counts as "no new version".
+ * Whether the server has a newer build than the one running:
+ * - 'newer': it does;
+ * - 'latest': this is the newest build;
+ * - 'unknown': it couldn't be checked (no connection, or an odd response).
+ * Compares the main script named in a fresh copy of the page with the one this page loaded.
  */
-export async function newVersionAvailable(): Promise<boolean> {
-  if (!import.meta.env.PROD) return false
+export type VersionCheck = 'newer' | 'latest' | 'unknown'
+
+export async function checkVersion(): Promise<VersionCheck> {
+  if (!import.meta.env.PROD) return 'unknown'
   try {
     const running = document.querySelector<HTMLScriptElement>('script[type="module"][src]')?.getAttribute('src')
-    if (!running) return false
+    if (!running) return 'unknown'
     const response = await fetch('/', { cache: 'no-store' })
-    if (!response.ok) return false
+    if (!response.ok) return 'unknown'
     const latest = mainScript(await response.text())
-    return latest !== null && latest !== running
+    if (latest === null) return 'unknown'
+    return latest === running ? 'latest' : 'newer'
   } catch {
-    return false
+    return 'unknown'
   }
+}
+
+/** True when the server has a newer build. A check that fails counts as "no new version". */
+export async function newVersionAvailable(): Promise<boolean> {
+  return (await checkVersion()) === 'newer'
+}
+
+/**
+ * Loads the newest build. Before reloading it asks the service worker to update itself
+ * and throws away the copy of the app kept on the phone, so nothing stale can be shown.
+ * The copy is stored again as the page loads.
+ */
+export async function refreshToLatest(): Promise<void> {
+  try {
+    const registration = await navigator.serviceWorker?.getRegistration()
+    await registration?.update()
+  } catch {
+    // Not fatal: the reload below still fetches the page from the network first.
+  }
+  try {
+    const names = await caches.keys()
+    await Promise.all(names.filter((name) => name.startsWith('askpip-')).map((name) => caches.delete(name)))
+  } catch {
+    // Not fatal, for the same reason.
+  }
+  window.location.reload()
+}
+
+/** The running build, for display: "2 Oct 2026, 10:04 pm (3de917a)". */
+export function versionLabel(): string {
+  const built = new Date(__APP_BUILD__.builtAt).toLocaleString(undefined, {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+  })
+  return `${built} (${__APP_BUILD__.commit})`
 }

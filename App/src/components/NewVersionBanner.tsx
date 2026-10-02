@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { newVersionAvailable } from '@/lib/homeScreen'
+import { newVersionAvailable, refreshToLatest } from '@/lib/homeScreen'
 
 /** How often to look for a new version while the app stays open. */
 const CHECK_EVERY_MS = 30 * 60 * 1000
@@ -8,7 +8,8 @@ const CHECK_EVERY_MS = 30 * 60 * 1000
  * "A new version of Ask Pip is ready." A home-screen app can stay open for days, so
  * the page looks for a newer build when it opens, whenever the gardener comes back to
  * it (several signals, because phones differ in which one they send to a home-screen
- * app), and every half hour. Refresh reloads the page, which fetches the new build.
+ * app), and every half hour. Refresh loads the new build (see refreshToLatest). The menu's
+ * "Check for updates" does the same check on request.
  * Wording approved "for now" by a Founder in chat, 2 October 2026.
  */
 export function NewVersionBanner() {
@@ -48,7 +49,7 @@ export function NewVersionBanner() {
     >
       <p className="flex-1 text-sm leading-snug">A new version of Ask Pip is ready.</p>
       <button
-        onClick={() => window.location.reload()}
+        onClick={() => void refreshToLatest()}
         className="min-h-11 shrink-0 rounded-full bg-white px-4 py-2 text-sm font-bold text-pip-primary"
       >
         Refresh

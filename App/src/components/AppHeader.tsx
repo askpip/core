@@ -5,7 +5,16 @@ import titleImg from '@/assets/pip/title.webp'
 import { supabase } from '@/lib/supabase'
 import { useAuth } from '@/lib/auth'
 import { markPasswordSet } from '@/lib/membership'
-import { installRoute, isInstalled, showInstallDialog, type InstallRoute } from '@/lib/homeScreen'
+import {
+  checkVersion,
+  installRoute,
+  isInstalled,
+  refreshToLatest,
+  showInstallDialog,
+  versionLabel,
+  type InstallRoute,
+  type VersionCheck,
+} from '@/lib/homeScreen'
 import { InfoModal } from './InfoModal'
 import { Button } from './Button'
 
@@ -94,6 +103,16 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
   // invite the gardener. Which instructions show depends on the browser (see
   // lib/homeScreen.ts). The item is hidden once Ask Pip runs from the home screen.
   const [installHelp, setInstallHelp] = useState<InstallRoute | null>(null)
+  // "Check for updates" (2 October 2026, asked for by a Founder): lets a gardener check
+  // for a new version themselves, in the browser or the home-screen app, and see which
+  // version they are on. null = closed; 'checking' while the check runs.
+  const [updateCheck, setUpdateCheck] = useState<VersionCheck | 'checking' | null>(null)
+
+  function openUpdateCheck() {
+    setMenuOpen(false)
+    setUpdateCheck('checking')
+    void checkVersion().then(setUpdateCheck)
+  }
 
   function openInfo(panel: Exclude<InfoPanel, null>) {
     setMenuOpen(false)
@@ -230,6 +249,7 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
                   }}
                 />
               )}
+              <MenuItem label="Check for updates" onClick={openUpdateCheck} />
               <MenuItem label="My Name" onClick={openNameEditor} />
               <MenuItem label="Change Password" onClick={openPasswordEditor} />
               <MenuItem
@@ -256,14 +276,7 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
           {infoPanel === 'info' && (
             <p className="mt-4 text-xs">
               Version:{' '}
-              {new Date(__APP_BUILD__.builtAt).toLocaleString(undefined, {
-                day: 'numeric',
-                month: 'short',
-                year: 'numeric',
-                hour: 'numeric',
-                minute: '2-digit',
-              })}{' '}
-              ({__APP_BUILD__.commit})
+              {versionLabel()}
             </p>
           )}
         </InfoModal>
@@ -305,6 +318,30 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
               <Button onClick={() => setInstallHelp(null)}>Got it</Button>
             </div>
           )}
+        </InfoModal>
+      )}
+
+      {updateCheck && (
+        <InfoModal title="Check for updates" onClose={() => setUpdateCheck(null)}>
+          <div className="flex flex-col gap-3">
+            {updateCheck === 'checking' && <p>Checking…</p>}
+            {updateCheck === 'latest' && <p>You have the latest version of Ask Pip.</p>}
+            {updateCheck === 'newer' && (
+              <>
+                <p>A new version of Ask Pip is ready.</p>
+                <Button onClick={() => void refreshToLatest()}>Refresh</Button>
+              </>
+            )}
+            {updateCheck === 'unknown' && (
+              <>
+                <p>I couldn't check just now. Please check your connection and try again.</p>
+                <Button variant="secondary" onClick={openUpdateCheck}>
+                  Try again
+                </Button>
+              </>
+            )}
+            {updateCheck !== 'checking' && <p className="text-xs">Your version: {versionLabel()}</p>}
+          </div>
         </InfoModal>
       )}
 
