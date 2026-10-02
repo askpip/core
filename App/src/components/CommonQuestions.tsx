@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { PipSitting } from '@/components/PipAvatar'
 import { PIP_SITTING_FRAME } from '@/components/pipSittingFrame'
 import { ConfidenceTag, SourcesLink } from '@/components/PkrStatements'
-import { questionsFor, type CommonQuestion, type QuestionKey } from '@/data/commonQuestions'
+import { HOME_QUESTIONS, questionsFor, type CommonQuestion, type QuestionKey } from '@/data/commonQuestions'
 import { supabase } from '@/lib/supabase'
 import { cn } from '@/lib/utils'
 
@@ -18,6 +18,15 @@ const PIP_ABOVE_EDGE = Math.round(PIP_SITTING_FRAME.seat * PIP_SCALE)
 const PIP_RIGHT = 16
 /** From the card's right edge to just past his left boot (90 frame px left of the middle of his legs), less the card's own 16px padding. */
 const HEADING_CLEARANCE = Math.round(PIP_RIGHT + PIP_WIDTH - (PIP_SITTING_FRAME.legs - 90) * PIP_SCALE) - 16
+
+/**
+ * Which of his two sitting images Pip uses for a question. They alternate down the
+ * full list of questions, so about half the answers show each, and a question always
+ * shows the same one wherever it is opened. When he can't answer yet, his hands stay down.
+ */
+function pipGestures(q: CommonQuestion): boolean {
+  return !q.pending && HOME_QUESTIONS.indexOf(q.key) % 2 === 0
+}
 
 /**
  * Tappable question chips with an inline answer, which Pip sits on. Answers
@@ -111,7 +120,7 @@ export function CommonQuestions({
         >
           <PipSitting
             size={PIP_WIDTH}
-            gesturing={!current.pending}
+            gesturing={pipGestures(current)}
             className="pointer-events-none absolute max-w-none"
             style={{ right: PIP_RIGHT, top: -PIP_ABOVE_EDGE - 1 }}
           />

@@ -77,7 +77,7 @@ interface SafetyItem {
 const SAFETY_ITEMS: SafetyItem[] = [
   {
     label: 'No serious stress, damage or disease',
-    help: "Pip doesn't have specific guidance yet for spotting stress, damage or disease — that research hasn't been done. If you're at all unsure, the honest choice is to leave this box unchecked. That won't stop you continuing, but it's worth taking the extra care that implies, and considering asking an experienced local gardener to take a look with you before you actually cut anything.",
+    help: "I don't have specific guidance yet for spotting stress, damage or disease — that research hasn't been done. If you're at all unsure, the honest choice is to leave this box unchecked. That won't stop you continuing, but it's worth taking the extra care that implies, and considering asking an experienced local gardener to take a look with you before you actually cut anything.",
   },
   { label: 'Secateurs are clean and sharp' },
   { label: 'Gloves and eye protection are ready' },
@@ -582,7 +582,7 @@ export function Journey() {
                   {uncheckedCount > 0 && (
                     <p className="mb-2 text-xs text-pip-text-soft">
                       Not checked yet: {SAFETY_ITEMS.filter((_, i) => !checked[i]).map((item) => item.label).join('; ')}. That's
-                      alright — nothing gets cut yet, and what you've told Pip here is saved either way.
+                      alright — nothing gets cut yet, and what you've told me here is saved either way.
                     </p>
                   )}
                   <Button variant={uncheckedCount > 0 ? 'secondary' : 'primary'} disabled={savingSafety} onClick={continueFromSafety}>
@@ -837,12 +837,12 @@ export function Journey() {
                 )}
                 {current.key === 'dead-wood' && !aiRequested && deadWoodPhotoPath && (
                   <p className="-mt-1 mb-3 text-xs text-pip-text-soft">
-                    Your photo is sent to Google's Gemini service so Pip can read it.
+                    Your photo is sent to Google's Gemini service so I can read it.
                   </p>
                 )}
-                {aiLoading && <p className="mb-3 text-xs text-pip-text-soft">Pip is looking at your photo…</p>}
+                {aiLoading && <p className="mb-3 text-xs text-pip-text-soft">I'm looking at your photo…</p>}
                 {aiFailed && (
-                  <p className="mb-3 text-xs text-pip-text-soft">Pip's live look isn't available right now, so here's the general guidance.</p>
+                  <p className="mb-3 text-xs text-pip-text-soft">My live look isn't available right now, so here's the general guidance.</p>
                 )}
                 <p className="mb-1.5 text-sm font-medium">What to look for</p>
                 <StatementList items={current.criteria} />

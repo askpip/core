@@ -1,9 +1,9 @@
 {
   "schema": "pip-lil-record/1",
   "pkr_id": "PKR-CGD-000007",
-  "version": "1.0",
+  "version": "1.1",
   "pkr_type": "care_guidance",
-  "status": "Retired",
+  "status": "Published",
   "title": "Can pruning too hard kill or harm my rose?",
   "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
@@ -80,7 +80,7 @@
         "confidence": "Moderate"
       },
       {
-        "text": "Pip's approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing.",
+        "text": "My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing.",
         "confidence": "Approved default"
       },
       {
@@ -97,6 +97,6 @@
     "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-HARDPRUNE-NOFLOWERS-01-submission.md",
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
-    "note": "Approved by Shaphan in chat, 2 October 2026 (\"Approve and publish\"). Advisory with a question presentation point (Decision 1)."
+    "note": "v1.1 by Founder direction in chat, 2 October 2026 (\"Pip shouldn't talk in the third person\"): Pip speaks in the first person. Wording only; no finding, confidence, source or limitation changed. v1.0 retired."
   }
 }

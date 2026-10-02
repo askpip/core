@@ -339,7 +339,7 @@
   },
   {
    "pkr_id": "PKR-CGD-000007",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "Can pruning too hard kill or harm my rose?",
    "common": {
@@ -417,7 +417,7 @@
       "confidence": "Moderate"
      },
      {
-      "text": "Pip's approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing.",
+      "text": "My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing.",
       "confidence": "Approved default"
      },
      {
@@ -433,7 +433,7 @@
   },
   {
    "pkr_id": "PKR-CGD-000008",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "Why isn't my rose flowering?",
    "common": {
@@ -497,7 +497,7 @@
     "label": null,
     "items": [
      {
-      "text": "Pip can't tell you which reason applies to your rose. Here are the reasons sources give, with what to look for and what they suggest.",
+      "text": "I can't tell you which reason applies to your rose. Here are the reasons sources give, with what to look for and what they suggest.",
       "confidence": "Approved default"
      },
      {
@@ -517,7 +517,7 @@
       "confidence": "High"
      },
      {
-      "text": "Too little feeding is also given as a reason, and feeding as a remedy. Pip's care tips give the feeding pattern.",
+      "text": "Too little feeding is also given as a reason, and feeding as a remedy. My care tips give the feeding pattern.",
       "confidence": "Moderate"
      },
      {
@@ -537,7 +537,7 @@
       "confidence": "High"
      },
      {
-      "text": "If your rose flowered once in late spring or early summer and not again, it may be a once-flowering variety. Pip can't support those yet. A local rose society or garden centre can help, or you can check its type with Pip's rose-type questions.",
+      "text": "If your rose flowered once in late spring or early summer and not again, it may be a once-flowering variety. I can't support those yet. A local rose society or garden centre can help, or you can check its type with my rose-type questions.",
       "confidence": "Moderate"
      },
      {

@@ -443,7 +443,7 @@
    "pkr_id": "PKR-CGD-000007",
    "version": "1.0",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Can pruning too hard kill or harm my rose?",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
@@ -541,10 +541,111 @@
    }
   },
   {
+   "pkr_id": "PKR-CGD-000007",
+   "version": "1.1",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Can pruning too hard kill or harm my rose?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000003",
+     "PKR-SRC-000004",
+     "PKR-SRC-000006",
+     "PKR-SRC-000034",
+     "PKR-SRC-000059",
+     "PKR-SRC-000068",
+     "PKR-SRC-000091",
+     "PKR-SRC-000095",
+     "PKR-SRC-000097",
+     "PKR-SRC-000100",
+     "PKR-SRC-000101",
+     "PKR-SRC-000110",
+     "PKR-SRC-000119",
+     "PKR-SRC-000121",
+     "PKR-SRC-000135",
+     "PKR-SRC-000190",
+     "PKR-SRC-000191",
+     "PKR-SRC-000194",
+     "PKR-SRC-000195",
+     "PKR-SRC-000197",
+     "PKR-SRC-000199",
+     "PKR-SRC-000200",
+     "PKR-SRC-000201",
+     "PKR-SRC-000203"
+    ],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000003"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000001"
+     }
+    ],
+    "preserved_uncertainty": "The view that pruning does not kill a rose is expert opinion, not measured (AF-1). One commercial website disagrees, saying cutting back too far \"could stress it out or even kill it\" (AF-20, Very Low; C-1). Sources disagree on whether \"weak\" means the whole plant or a single shoot (C-2), and on renovating in one go or in stages (C-4). Newly planted roses are outside this record.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Can pruning too hard kill or harm my rose?",
+    "label": null,
+    "items": [
+     {
+      "text": "Rose societies, rose growers and a botanic garden in New Zealand, Australia, the UK and the US say pruning, even hard or badly done, doesn't kill an established rose.",
+      "confidence": "High"
+     },
+     {
+      "text": "Some of them add conditions: the rose is otherwise healthy, it isn't cut below the ground line, and its roots are intact.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "The cut sources say can lose a rose is one made below the graft or below the ground line.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "A weak or slow-growing rose is pruned less hard than a vigorous one. Within a bush, sources still cut single weak shoots back further or remove them.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Pruning before the frosts have passed risks frost damage to the new growth and dieback.",
+      "confidence": "High"
+     },
+     {
+      "text": "Sources describe any harm from pruning too hard as a short-term setback. One says the first year after a hard pruning is a recovery year.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "An old or neglected rose can be brought back with hard pruning.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing.",
+      "confidence": "Approved default"
+     },
+     {
+      "text": "Sources give no signs or waiting time for judging recovery. If no new growth appears during the growing season, ask your local rose society.",
+      "confidence": "Approved default"
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-HARDPRUNE-NOFLOWERS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.1 by Founder direction in chat, 2 October 2026 (\"Pip shouldn't talk in the third person\"): Pip speaks in the first person. Wording only; no finding, confidence, source or limitation changed. v1.0 retired."
+   }
+  },
+  {
    "pkr_id": "PKR-CGD-000008",
    "version": "1.0",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Why isn't my rose flowering?",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
@@ -705,6 +806,173 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "Approved by Shaphan in chat, 2 October 2026 (\"Approve and publish\"). Advisory with a question presentation point (Decision 1)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000008",
+   "version": "1.1",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Why isn't my rose flowering?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000003",
+     "PKR-SRC-000034",
+     "PKR-SRC-000097",
+     "PKR-SRC-000131",
+     "PKR-SRC-000137",
+     "PKR-SRC-000141",
+     "PKR-SRC-000205",
+     "PKR-SRC-000206",
+     "PKR-SRC-000207",
+     "PKR-SRC-000208",
+     "PKR-SRC-000209",
+     "PKR-SRC-000210",
+     "PKR-SRC-000211",
+     "PKR-SRC-000212",
+     "PKR-SRC-000213",
+     "PKR-SRC-000214",
+     "PKR-SRC-000215",
+     "PKR-SRC-000216",
+     "PKR-SRC-000217",
+     "PKR-SRC-000218",
+     "PKR-SRC-000219",
+     "PKR-SRC-000220",
+     "PKR-SRC-000221",
+     "PKR-SRC-000222",
+     "PKR-SRC-000223",
+     "PKR-SRC-000224",
+     "PKR-SRC-000226",
+     "PKR-SRC-000227",
+     "PKR-SRC-000228",
+     "PKR-SRC-000229",
+     "PKR-SRC-000230",
+     "PKR-SRC-000231",
+     "PKR-SRC-000232",
+     "PKR-SRC-000234",
+     "PKR-SRC-000235",
+     "PKR-SRC-000236",
+     "PKR-SRC-000237",
+     "PKR-SRC-000238"
+    ],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000004"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000003"
+     }
+    ],
+    "preserved_uncertainty": "No source gives a tested way to tell the causes apart, or says which is most common (R-1). Sources disagree on sun hours (C-1), on feeding (C-2), on where to cut a blind shoot (C-4), on first-season flowering (C-5), on how hard is too hard (C-6) and on chemical treatment of balling (C-7). Rose midge has no New Zealand or Australian source (R-3). Lower-confidence findings (potassium AF-7, heat AF-9, cold AF-10, hips AF-20, rootstock AF-32, pesticides AF-33) are not used in this answer.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Why isn't my rose flowering?",
+    "label": null,
+    "items": [
+     {
+      "text": "I can't tell you which reason applies to your rose. Here are the reasons sources give, with what to look for and what they suggest.",
+      "confidence": "Approved default"
+     },
+     {
+      "text": "Too little sun, or too much shade, means fewer flowers.",
+      "confidence": "High"
+     },
+     {
+      "text": "Sources give a minimum of four to eight hours of direct sun a day. Six is the most common figure.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Trees and shrubs nearby compete with a rose for light, water and food. Sources advise planting roses away from them.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Too much fertiliser, especially nitrogen, gives lots of leafy growth and few flowers.",
+      "confidence": "High"
+     },
+     {
+      "text": "Too little feeding is also given as a reason, and feeding as a remedy. My care tips give the feeding pattern.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Too little water, or drought, reduces flowering. Sources describe pale, limp leaves, dropped leaves and small flowers.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Pruning too much, too little or at the wrong time is listed as a reason. No source says where too much begins.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Harder pruning gives fewer, larger flowers. Lighter pruning gives more, smaller ones.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Removing spent flowers from a repeat-flowering rose encourages more flowers.",
+      "confidence": "High"
+     },
+     {
+      "text": "If your rose flowered once in late spring or early summer and not again, it may be a once-flowering variety. I can't support those yet. A local rose society or garden centre can help, or you can check its type with my rose-type questions.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Pruning a once-flowering rose before it flowers removes its flowers.",
+      "confidence": "High"
+     },
+     {
+      "text": "A blind shoot grows and leafs normally but has no flower bud at its tip.",
+      "confidence": "High"
+     },
+     {
+      "text": "The cause of blind shoots isn't known. Sources suggest weather, shade, over-feeding and big swings between day and night temperatures.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Sources cut a blind shoot back to get a new shoot that can flower. The RHS cuts it back by half to a strong bud. Others cut to the next leaf joint down, or to the next full five-leaflet leaf.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Buds that form but don't open after cool, wet weather may be \"balled\": the bud feels soft and its outer petals turn brown and papery.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Sources remove balled or rotting buds promptly, and suggest better air flow around the plant and watering at the base, not over the leaves.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Sources link spotted petals with grey fuzz to grey mould (botrytis), which is more common in cool, wet weather.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Sources link brown or white streaks on petals, or distorted flowers, to thrips.",
+      "confidence": "High"
+     },
+     {
+      "text": "Sources link holes in buds, with caterpillars, to budworm.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Black spot (dark spots on the leaves, then yellowing and leaf drop) weakens a rose so it flowers less.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "A photo alone can't show why a rose isn't flowering. Check these signs on the plant itself.",
+      "confidence": "Approved default"
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-HARDPRUNE-NOFLOWERS-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-02",
+    "note": "v1.1 by Founder direction in chat, 2 October 2026 (\"Pip shouldn't talk in the third person\"): Pip speaks in the first person. Wording only; no finding, confidence, source or limitation changed. v1.0 retired."
    }
   },
   {

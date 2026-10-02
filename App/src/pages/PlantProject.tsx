@@ -215,7 +215,7 @@ export function PlantProject() {
             </select>
           </div>
           {project.roseType && !roseTypePasses(project.roseType) && (
-            <p className="mt-1">Pip can't yet help prune this rose; it's kept as a journal.</p>
+            <p className="mt-1">I can't yet help prune this rose; it's kept as a journal.</p>
           )}
           {project.location && (
             <p className="mt-1">

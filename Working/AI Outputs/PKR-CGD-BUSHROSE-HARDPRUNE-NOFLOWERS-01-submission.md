@@ -1,6 +1,8 @@
-# PKR Submission Package — Hard Pruning and No Flowers: Two New Answers and a Revised One-Third Advisory (v1.0, Published)
+# PKR Submission Package — Hard Pruning and No Flowers: Two New Answers and a Revised One-Third Advisory (Published; CGD-000007 and CGD-000008 revised to v1.1)
 
 **Published 2 October 2026.** Approved by Shaphan in chat, 2 October 2026 ("Approve and publish"). Decision 1: (a), Advisory with a question presentation point; KIT to propose the PKR Standard amendment. Decision 2: open; item 15 is published as information, which both options include, and whether to add a guided blind-shoot step is still being discussed.
+
+**Revised 2 October 2026.** PKR-CGD-000007 and PKR-CGD-000008 are now v1.1: Pip speaks in the first person (§8). The tables in §3 and §4 show the v1.1 wording.
 
 Built by KIT from `ARC-BUSHROSE-HARDPRUNE-01` (v1.0) and `ARC-BUSHROSE-NOFLOWERS-01` (v1.0), both Founder-approved 2 October 2026. Sources are in `PKR-SRC-BUSHROSE-HARDPRUNE-NOFLOWERS-submission.md`. Reserved IDs: PKR-CGD-000007 and PKR-CGD-000008 (new); PKR-CGD-000003 revised to v1.1.
 
@@ -66,7 +68,7 @@ Presentation points are unchanged (before the first cut, then after every third 
 | 5 | Pruning before the frosts have passed risks frost damage to the new growth and dieback. | ARC-BUSHROSE-HARDPRUNE-01 AF-16 | High | Rose-specific | Sources from New Zealand, Australia and the US. |
 | 6 | Sources describe any harm from pruning too hard as a short-term setback. One says the first year after a hard pruning is a recovery year. | ARC-BUSHROSE-HARDPRUNE-01 AF-4 | Moderate | Rose-specific | — |
 | 7 | An old or neglected rose can be brought back with hard pruning. | ARC-BUSHROSE-HARDPRUNE-01 AF-21 | Moderate | Rose-specific | — |
-| 8 | Pip's approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing. | ARC-BUSHROSE-HARDPRUNE-01 AF-22 | Approved default — see C-4 | Rose-specific | Rests on the approved staged default (ARC-BUSHROSE-PRUNINGFRAMEWORK-01 §6) because sources disagree (C-4). |
+| 8 | My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing. | ARC-BUSHROSE-HARDPRUNE-01 AF-22 | Approved default — see C-4 | Rose-specific | Rests on the approved staged default (ARC-BUSHROSE-PRUNINGFRAMEWORK-01 §6) because sources disagree (C-4). |
 | 9 | Sources give no signs or waiting time for judging recovery. If no new growth appears during the growing season, ask your local rose society. | ARC-BUSHROSE-HARDPRUNE-01 AF-24, AF-25 | Approved default — see R-3 | Rose-specific | — |
 
 ## 4. PKR-CGD-000008 — Why isn't my rose flowering?
@@ -92,17 +94,17 @@ Presentation points are unchanged (before the first cut, then after every third 
 
 | # | Guidance statement (gardener-facing) | Trace | Confidence | Applicability | Limitation |
 |---|---|---|---|---|---|
-| 1 | Pip can't tell you which reason applies to your rose. Here are the reasons sources give, with what to look for and what they suggest. | ARC-BUSHROSE-NOFLOWERS-01 §6 (approved default) | Approved default — see R-1 | App framing | No source gives a tested way to tell the causes apart or says which is most common (R-1). |
+| 1 | I can't tell you which reason applies to your rose. Here are the reasons sources give, with what to look for and what they suggest. | ARC-BUSHROSE-NOFLOWERS-01 §6 (approved default) | Approved default — see R-1 | App framing | No source gives a tested way to tell the causes apart or says which is most common (R-1). |
 | 2 | Too little sun, or too much shade, means fewer flowers. | ARC-BUSHROSE-NOFLOWERS-01 AF-1 | High | Rose-specific | — |
 | 3 | Sources give a minimum of four to eight hours of direct sun a day. Six is the most common figure. | ARC-BUSHROSE-NOFLOWERS-01 AF-2 | Moderate | Rose-specific | The two New Zealand figures are five hours (C-1). |
 | 4 | Trees and shrubs nearby compete with a rose for light, water and food. Sources advise planting roses away from them. | ARC-BUSHROSE-NOFLOWERS-01 AF-3 | Moderate | Rose-specific | — |
 | 5 | Too much fertiliser, especially nitrogen, gives lots of leafy growth and few flowers. | ARC-BUSHROSE-NOFLOWERS-01 AF-5 | High | Rose-specific | — |
-| 6 | Too little feeding is also given as a reason, and feeding as a remedy. Pip's care tips give the feeding pattern. | ARC-BUSHROSE-NOFLOWERS-01 AF-6 | Moderate | Rose-specific | No source says where enough becomes too much (C-2). |
+| 6 | Too little feeding is also given as a reason, and feeding as a remedy. My care tips give the feeding pattern. | ARC-BUSHROSE-NOFLOWERS-01 AF-6 | Moderate | Rose-specific | No source says where enough becomes too much (C-2). |
 | 7 | Too little water, or drought, reduces flowering. Sources describe pale, limp leaves, dropped leaves and small flowers. | ARC-BUSHROSE-NOFLOWERS-01 AF-8 | Moderate | Rose-specific | — |
 | 8 | Pruning too much, too little or at the wrong time is listed as a reason. No source says where too much begins. | ARC-BUSHROSE-NOFLOWERS-01 AF-11 | Moderate | Rose-specific | C-6. |
 | 9 | Harder pruning gives fewer, larger flowers. Lighter pruning gives more, smaller ones. | ARC-BUSHROSE-NOFLOWERS-01 AF-12 | Moderate | Rose-specific | — |
 | 10 | Removing spent flowers from a repeat-flowering rose encourages more flowers. | ARC-BUSHROSE-NOFLOWERS-01 AF-19 | High | Rose-specific | — |
-| 11 | If your rose flowered once in late spring or early summer and not again, it may be a once-flowering variety. Pip can't support those yet. A local rose society or garden centre can help, or you can check its type with Pip's rose-type questions. | ARC-BUSHROSE-NOFLOWERS-01 AF-16 | Moderate | Rose-specific | Once-flowering roses are outside Pip's approved scope (FRD-BUSHROSE-SCOPE-01). |
+| 11 | If your rose flowered once in late spring or early summer and not again, it may be a once-flowering variety. I can't support those yet. A local rose society or garden centre can help, or you can check its type with my rose-type questions. | ARC-BUSHROSE-NOFLOWERS-01 AF-16 | Moderate | Rose-specific | Once-flowering roses are outside Pip's approved scope (FRD-BUSHROSE-SCOPE-01). |
 | 12 | Pruning a once-flowering rose before it flowers removes its flowers. | ARC-BUSHROSE-NOFLOWERS-01 AF-14 | High | Rose-specific | — |
 | 13 | A blind shoot grows and leafs normally but has no flower bud at its tip. | ARC-BUSHROSE-NOFLOWERS-01 AF-21 | High | Rose-specific | — |
 | 14 | The cause of blind shoots isn't known. Sources suggest weather, shade, over-feeding and big swings between day and night temperatures. | ARC-BUSHROSE-NOFLOWERS-01 AF-22 | Moderate | Rose-specific | C-3. |
@@ -159,5 +161,18 @@ Any setback is described as short-term. Old or neglected roses can be brought ba
 It ends by saying a photo alone can't show the cause.
 
 **Sources.** 49 new Source PKRs (PKR-SRC-000190 to 000238), and 26 existing ones get the new references added. All are listed in the Source PKR package.
+
+## 8. Revision to v1.1 — Pip speaks in the first person (2 October 2026)
+
+**Founder direction in chat, 2 October 2026:** the first statement of "Why isn't my rose flowering?" is to read "I can't tell you…", and "Pip shouldn't talk in the third person." KIT checked every Published record. Four statements in two records named Pip, and all four are changed. No finding, confidence, source or limitation is changed.
+
+| Record | Item | v1.0 | v1.1 |
+|---|---|---|---|
+| PKR-CGD-000007 | 8 | Pip's approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing. | My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing. |
+| PKR-CGD-000008 | 1 | Pip can't tell you which reason applies to your rose. Here are the reasons sources give, with what to look for and what they suggest. | I can't tell you which reason applies to your rose. Here are the reasons sources give, with what to look for and what they suggest. |
+| PKR-CGD-000008 | 6 | Too little feeding is also given as a reason, and feeding as a remedy. Pip's care tips give the feeding pattern. | Too little feeding is also given as a reason, and feeding as a remedy. My care tips give the feeding pattern. |
+| PKR-CGD-000008 | 11 | If your rose flowered once in late spring or early summer and not again, it may be a once-flowering variety. Pip can't support those yet. A local rose society or garden centre can help, or you can check its type with Pip's rose-type questions. | If your rose flowered once in late spring or early summer and not again, it may be a once-flowering variety. I can't support those yet. A local rose society or garden centre can help, or you can check its type with my rose-type questions. |
+
+The Founder gave the wording of CGD-000008 item 1. The other three follow the same direction and were shown to the Founder in chat with the push block. The v1.0 files are kept, with status Retired. §7 describes the answers in KIT's words and is unchanged.
 
 # End of Document

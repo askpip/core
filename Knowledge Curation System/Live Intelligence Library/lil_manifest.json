@@ -1,6 +1,6 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 298,
+  "record_count": 300,
   "published_count": 270,
   "records": [
     {
@@ -63,17 +63,33 @@
       "pkr_id": "PKR-CGD-000007",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Can pruning too hard kill or harm my rose?",
       "sha256": "c3c1776696da00e1d56bcd8c231e4d9d71fb6b4f917b33b4036149a1303f9a1f"
+    },
+    {
+      "pkr_id": "PKR-CGD-000007",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Can pruning too hard kill or harm my rose?",
+      "sha256": "82266c17a165fb9d90b5c66bcf00b79ea1648a20dd6d4eafcadf307f8b16fbbd"
     },
     {
       "pkr_id": "PKR-CGD-000008",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Why isn't my rose flowering?",
       "sha256": "6f0c8254e5153b954b2e0191c5c0f98e2a2b7dc58c691e98e13cfdacf88b08ed"
+    },
+    {
+      "pkr_id": "PKR-CGD-000008",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Why isn't my rose flowering?",
+      "sha256": "6c0c00fcd8af573804905d2f50710fcce774c632c272db39d87275ff15eb0740"
     },
     {
       "pkr_id": "PKR-DEC-000001",
