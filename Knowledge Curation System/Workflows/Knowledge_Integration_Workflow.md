@@ -6,15 +6,15 @@
 
 **Document Title:** PIP Knowledge Integration Workflow  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.04  
+**Version:** 0.05  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 22 August 2026  
+**Last Updated:** 5 October 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Workflows/Knowledge_Integration_Workflow.md`  
 **Purpose:** To define the controlled end-to-end workflow through which horticultural information is researched, reviewed, approved, preserved, transformed into operational intelligence and published for use within the Plant Intelligence Platform (PIP).  
 **Related Documents:** Founding Charter, Ask Pip Platform Overview, Knowledge Curation System (KCS) Framework, PIP Research Origin Curator (ROC) Charter, PIP Knowledge Integration Technician (KIT) Charter, Mother Information Library (MIL) Standard, Live Intelligence Library (LIL) Standard, PIP Knowledge Record (PKR) Standard, PIP System Identity and Naming Standard (SINS-001).  
-**Revision Note:** Version 0.04 replaces "Approved Information Compilation (AIC)" with "Approved Research Compilation (ARC)" in Stage 6, following SINS-001 v0.4's retirement of the AIC term. Version 0.02 requires each draft PKR to be accompanied by a Founder Review Rendering (see PKR Standard §9) and clarifies that Founder Operational Review (Stage 10) is conducted against that rendering, so review remains meaningful without requiring the Founders to read a PKR's underlying stored format. Version 0.03 names the Approved Information Compilation (AIC) explicitly in Stage 6, as the primary record archiving produces, following SINS-001 v0.2's retirement of "Knowledge Asset."
+**Revision Note:** Version 0.05 (approved by AskPIP Founder Authority, 5 October 2026) brings the workflow into line with the Pip Knowledge Rules: Stage 5 says what the Founders are asked, new Stage 9A adds ROC's Build Check, and Stage 10 submits the Build Check Brief. Version 0.04 replaces "Approved Information Compilation (AIC)" with "Approved Research Compilation (ARC)" in Stage 6, following SINS-001 v0.4's retirement of the AIC term. Version 0.02 requires each draft PKR to be accompanied by a Founder Review Rendering (see PKR Standard §9) and clarifies that Founder Operational Review (Stage 10) is conducted against that rendering, so review remains meaningful without requiring the Founders to read a PKR's underlying stored format. Version 0.03 names the Approved Information Compilation (AIC) explicitly in Stage 6, as the primary record archiving produces, following SINS-001 v0.2's retirement of "Knowledge Asset."
 
 ---
 
@@ -371,6 +371,8 @@ The Founders review the Founder Review Dossier.
 
 The purpose of this review is to determine whether the information is sufficiently accurate, relevant, balanced and traceable to enter the Mother Information Library.
 
+The Founders decide through a short Review Form. It asks for the overall decision, and for any question of scope or of how Pip works that the Pip Knowledge Rules cannot settle. It does not ask for a decision on each finding, or for a choice between answers where the rules give one: a finding's Evidence Confidence Level sets whether Pip may use it (Pip Knowledge Rules §3).
+
 Founder review may result in one of the following decisions.
 
 ## Approved
@@ -531,9 +533,15 @@ It provides an operationally retrievable representation of the approved source i
 
 ---
 
+# Stage 9A — Build Check
+
+Before Founder operational review, ROC checks every statement in the draft PKRs against the approved finding it cites and against that finding's sources, reopened fresh, and records the result in a Build Check Brief (ROC Operations Manual Chapter 14). A statement that fails is corrected and rechecked before it goes to the Founders.
+
+---
+
 # Stage 10 — Founder Operational Review
 
-KIT submits draft PKRs, together with each draft PKR's Founder Review Rendering, to the Founders for operational review.
+KIT submits draft PKRs, together with each draft PKR's Founder Review Rendering and ROC's Build Check Brief, to the Founders for operational review.
 
 The Founders are not required to read or verify a draft PKR's underlying stored format. Review is conducted against the Founder Review Rendering: the plain-language presentation of the record's complete content, per the PKR Standard §9.
 

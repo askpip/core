@@ -6,15 +6,15 @@
 
 **Document Title:** PIP Knowledge Integration Technician (KIT) Charter  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.02  
+**Version:** 0.03  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 21 August 2026  
+**Last Updated:** 5 October 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Charters/KIT_Charter.md`  
 **Purpose:** To define the role, responsibilities, authority and limitations of the PIP Knowledge Integration Technician (KIT) within the Knowledge Curation System (KCS).  
 **Related Documents:** PIP Research Origin Curator (ROC) Charter; Mother Information Library (MIL) Standard; PIP Knowledge Integration Workflow; PIP System Identity and Naming Standard (SINS-001); PIP Knowledge Record (PKR) Standard; Live Intelligence Library (LIL) Standard.  
-**Revision Note:** Version 0.02 adds the Founder Review Rendering requirement and the declarative-content boundary (see PKR Standard §9), so that Founder operational review remains meaningful without requiring the Founders to read a PKR's underlying stored format.
+**Revision Note:** Version 0.03 (approved by AskPIP Founder Authority, 5 October 2026) adds the Build Check to KIT's working relationship with ROC: KIT gives each draft PKR package to ROC to be checked against the approved findings and their sources before the Founders see it. Version 0.02 adds the Founder Review Rendering requirement and the declarative-content boundary (see PKR Standard §9), so that Founder operational review remains meaningful without requiring the Founders to read a PKR's underlying stored format.
 
 ---
 
@@ -108,6 +108,8 @@ The Founders review draft PKRs submitted for operational approval and determine 
 ### PIP Research Origin Curator (ROC)
 
 KIT receives Founder-approved information exclusively through the MIL, which ROC maintains. KIT does not direct ROC's research, and does not request a research shortcut that would bypass Founder information approval.
+
+Before submitting a draft PKR package for Founder operational review, KIT gives it to ROC for the Build Check. KIT corrects any statement the Build Check fails and returns it for rechecking. ROC does not edit the package.
 
 ---
 

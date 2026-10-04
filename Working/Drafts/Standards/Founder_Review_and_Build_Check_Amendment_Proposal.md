@@ -4,14 +4,35 @@
 
 **Document Title:** Founder Review and Build Check Amendment Proposal
 **Document Type:** Amendment Proposal
-**Version:** 0.2
-**Status:** Draft — for Founder approval
+**Version:** 0.3
+**Status:** Integrated on 5 October 2026 at a Founder's direction, with the changes recorded in the Integration Record below. Kept as the record of the proposal. The wording in force is in the documents themselves.
 **Owner:** The Founders
 **Prepared By:** Research Origin Curator (ROC)
 **Working Location:** `Working/Drafts/Standards/Founder_Review_and_Build_Check_Amendment_Proposal.md`
 **Last Updated:** 5 October 2026 (v0.2: after a Founder tried the first short form, §2.6A is narrowed to real choices and §11.4B gains the precaution case)
 **Purpose:** To propose the wording that shortens Founder review of research, sets which findings Pip may use by their Evidence Confidence Level, and adds a check by the ROC after the Knowledge Integration Technician (KIT) has built Pip's records.
 **Related Documents:** `Knowledge Curation System/Standards/Founder_Review_Dossier_Standard.md` (v1.3); `Knowledge Curation System/Operations Manuals/ROC_Operations_Manual.md` (v2.9); `Knowledge Curation System/Charters/ROC_Charter.md` (v0.04); `Knowledge Curation System/Charters/KIT_Charter.md` (v0.02); `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md` (v0.6); `AI/Skills/KIT_PKR_Build_Skill.md` (v0.1); `Knowledge Curation System/Workflows/Knowledge_Integration_Workflow.md` (v0.04); `AI/Skills/Garden_Shed_Operations_Skill.md` (v0.6); `Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md` (v0.4, the patterns for the briefs and forms)
+
+---
+
+# Integration Record
+
+On 5 October 2026 a Founder agreed eight rules for what Pip may say, and directed that the documents be altered so the rules are followed throughout research and the preparation of dossiers, briefs and forms. This proposal was integrated the same day, changed as follows.
+
+- **The rules have their own Standard,** `Knowledge Curation System/Standards/Pip_Knowledge_Rules.md` (v0.1). Which findings Pip may use is set by its §3, reliable sources by its §4, what the Founders decide by its §5, and standing decisions by its §7. It replaces the list of cases in §11.4B and all of §11.4C in section 4 below.
+- **A Review Form asks less than section 4 proposed.** It asks the overall decision, and any question of scope or of how Pip works that the rules cannot settle. It does not ask a Founder to choose between answers where the rules give one, and it has no question about exceptions or further research.
+- **Two cases were not carried in:** "a finding Pip's guidance cannot work without" and "a class allowed by a Founder". A precaution and a local finding from one reliable source are covered by the rules.
+- **The ROC now states what the rules give** for each commissioned question (ROC Operations Manual §8.6A), and scope is settled when a commission is opened (§3.5). Neither was in section 4.
+- **The Loading Guide was also amended** (v0.12) so that ROC and KIT load the rules before they work.
+- **Versions** are as proposed in section 4.
+
+The decisions in section 6:
+
+1. and 2. Settled by the Pip Knowledge Rules, except whether a garden company is a reliable source for local months, which is recorded as open in the rules' §7.
+3. Not done. "Decision Brief", "Review Form", "Build Check", "Build Check Brief" and "Build Check Form" are not yet in the PIP System Identity and Naming Standard.
+4. The two Charter changes were integrated at one Founder's direction.
+5. Open. The 21 Low-tagged statements already Published have not been listed or changed.
+6. As proposed.
 
 ---
 

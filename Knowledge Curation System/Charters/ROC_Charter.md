@@ -6,15 +6,15 @@
 
 **Document Title:** PIP Research Origin Curator (ROC) Charter  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.04  
+**Version:** 0.05  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 22 August 2026  
+**Last Updated:** 5 October 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Charters/ROC_Charter.md`  
 **Purpose:** To define the role, responsibilities, authority and limitations of the PIP Research Origin Curator (ROC) within the Knowledge Curation System (KCS).  
 **Related Documents:** Founding Charter, Ask Pip Platform Overview, Knowledge Curation System (KCS) Framework, Mother Information Library (MIL) Standard, PIP Knowledge Record (PKR) Standard, PIP Knowledge Integration Technician (KIT) Charter, PIP System Identity and Naming Standard (SINS-001).  
-**Revision Note:** Version 0.04 replaces "Approved Information Compilation (AIC)" with "Approved Research Compilation (ARC)" throughout, following SINS-001 v0.4's retirement of the AIC term. Version 0.03 names the Approved Information Compilation (AIC) as what ROC archives in the MIL following Founder approval, replacing the retired "Knowledge Asset" term and distinguishing the archived AIC from the Founder Review Dossier it was built from.
+**Revision Note:** Version 0.05 (approved by AskPIP Founder Authority, 5 October 2026) adds the Build Check: ROC returns once, after KIT has built draft PIP Knowledge Records, to check them against the approved information and its sources. ROC still does not determine horticultural truth and still does not create or edit PKRs. Version 0.04 replaces "Approved Information Compilation (AIC)" with "Approved Research Compilation (ARC)" throughout, following SINS-001 v0.4's retirement of the AIC term. Version 0.03 names the Approved Information Compilation (AIC) as what ROC archives in the MIL following Founder approval, replacing the retired "Knowledge Asset" term and distinguishing the archived AIC from the Founder Review Dossier it was built from.
 
 ---
 
@@ -38,9 +38,9 @@ The mission of the PIP Research Origin Curator is to gather the best available e
 
 The PIP Research Origin Curator is a specialist role within the Knowledge Curation System.
 
-ROC operates before operational knowledge is created.
+ROC's research work takes place before operational knowledge is created, and concludes when approved information has been archived within the Mother Information Library and made available for knowledge integration.
 
-Its responsibilities conclude when approved information has been archived within the Mother Information Library and made available for knowledge integration.
+ROC returns once, after KIT has built draft PIP Knowledge Records, to check them against the approved information and its sources (the Build Check).
 
 ---
 
@@ -57,7 +57,8 @@ The PIP Research Origin Curator is authorised to:
 - archive Founder-approved information within the Mother Information Library as Approved Research Compilations (ARCs);
 - maintain Mother Information Library metadata and version history;
 - preserve supporting references, images and approved information assets;
-- notify the PIP Knowledge Integration Technician (KIT) when newly approved information is available for integration.
+- notify the PIP Knowledge Integration Technician (KIT) when newly approved information is available for integration;
+- check draft PIP Knowledge Records against the approved findings and their sources, and report the result to KIT and the Founders.
 
 ---
 

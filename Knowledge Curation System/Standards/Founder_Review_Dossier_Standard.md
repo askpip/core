@@ -8,19 +8,19 @@
 
 **Folder:** 04 – Standards
 
-**Version:** 1.3
+**Version:** 1.4
 
 **Status:** Approved
 
 **Owner:** The Founders
 
-**Last Updated:** 29 September 2026
+**Last Updated:** 5 October 2026
 
 **Permanent Location:** `Knowledge Curation System/Standards/Founder_Review_Dossier_Standard.md`
 
 **Approved By:** AskPIP Founder Authority
 
-**Revision Note:** **Version 1.3 (approved by Shaphan, AskPIP Founder Authority, 29 September 2026)**, at Shaphan's direction: §4.2 item 4 now requires the Source Log to give, for every online source, its web address and access date, or a stable identifier for an offline source, consistent with ROC Operations Manual §5.5 (Version 2.9). "Sufficient to identify and verify" had been read as satisfied by title and publisher alone, which left five commissions' sources without links. Previous: Version 1.2, at Founder direction: a Founder Review Dossier had begun to accumulate content that is not research about the commissioned topic — narration of how many revisions produced it and why, commentary on a reviewer's status or prior answers, and justification of the dossier's own structure or decision points. New §2.2 items and new §5.5 state plainly that this does not belong, alongside the actual example that prompted this revision (a chat comment treated as if it were a research finding). §9.2's revision note is narrowed by new §9.3 to a brief, findings-only statement of what changed, not an account of the review process. §2.6 extends this principle to the Decision Brief and Review Form prepared alongside the FRD, per Founder direction, pending any dedicated standard for those documents. Version 1.1 aligns this Standard with EAS v1.3's Assessed Finding model: a dossier does not report one overall Evidence Confidence Level for its commission, because a commission commonly produces claims of genuinely different evidential strength that a single blended figure would misrepresent. §4.2 (item 1) and Chapter 6 are reworded so that every Assessed Finding's own Evidence Confidence Level is listed up front and presented individually, never averaged into one headline figure. Version 1.0 creates this Standard. The Research Origin Curator (ROC) Operations Manual and the Evidence Assessment Standard (EAS) have both referenced a "Founder Review Dossier Standard" as a governing document since their approval, but the document itself did not exist — a gap identified by a ROC agent while completing a real research commission under this session's document set. This Standard closes that gap. It also formalises the retirement of the Founder Executive Brief (FEB) under SINS-001 v0.5: the Founder Review Dossier (FRD) governed here is now the sole Founder Review Documentation, not one of two companion documents.
+**Revision Note:** **Version 1.4 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, so that the Pip Knowledge Rules are followed when dossiers, briefs and forms are prepared. §2.6 makes the Decision Brief and Review Form a required pair. New §2.6A limits a Review Form to what the rules leave to the Founders: it no longer asks for a decision on each finding, or for a choice between answers where the rules give one. §4.2 item 10 is narrowed in the same way, and §2.1 no longer describes the dossier as unpaired. The required pair and a limit on Review Form questions were first directed on 28 September 2026 and had not reached the repository. Previous: **Version 1.3 (approved by Shaphan, AskPIP Founder Authority, 29 September 2026)**, at Shaphan's direction: §4.2 item 4 now requires the Source Log to give, for every online source, its web address and access date, or a stable identifier for an offline source, consistent with ROC Operations Manual §5.5 (Version 2.9). "Sufficient to identify and verify" had been read as satisfied by title and publisher alone, which left five commissions' sources without links. Previous: Version 1.2, at Founder direction: a Founder Review Dossier had begun to accumulate content that is not research about the commissioned topic — narration of how many revisions produced it and why, commentary on a reviewer's status or prior answers, and justification of the dossier's own structure or decision points. New §2.2 items and new §5.5 state plainly that this does not belong, alongside the actual example that prompted this revision (a chat comment treated as if it were a research finding). §9.2's revision note is narrowed by new §9.3 to a brief, findings-only statement of what changed, not an account of the review process. §2.6 extends this principle to the Decision Brief and Review Form prepared alongside the FRD, per Founder direction, pending any dedicated standard for those documents. Version 1.1 aligns this Standard with EAS v1.3's Assessed Finding model: a dossier does not report one overall Evidence Confidence Level for its commission, because a commission commonly produces claims of genuinely different evidential strength that a single blended figure would misrepresent. §4.2 (item 1) and Chapter 6 are reworded so that every Assessed Finding's own Evidence Confidence Level is listed up front and presented individually, never averaged into one headline figure. Version 1.0 creates this Standard. The Research Origin Curator (ROC) Operations Manual and the Evidence Assessment Standard (EAS) have both referenced a "Founder Review Dossier Standard" as a governing document since their approval, but the document itself did not exist — a gap identified by a ROC agent while completing a real research commission under this session's document set. This Standard closes that gap. It also formalises the retirement of the Founder Executive Brief (FEB) under SINS-001 v0.5: the Founder Review Dossier (FRD) governed here is now the sole Founder Review Documentation, not one of two companion documents.
 
 **Purpose:** To establish what a Founder Review Dossier must contain, how it shall be structured and identified, and how it shall be prepared and reviewed, so that every research commission reaches the Founders in a form that supports an informed, safe approval decision.
 
@@ -36,6 +36,7 @@
 - Research Origin Curator (ROC) Charter
 - Research Origin Curator Operations Manual
 - Evidence Assessment Standard (EAS)
+- Pip Knowledge Rules
 - Mother Information Library (MIL) Standard
 - PIP System Identity and Naming Standard (SINS-001)
 - PIP Documentation Standard
@@ -91,7 +92,7 @@ Application of this Standard shall produce Founder Review Dossiers that are:
 
 The Founder Review Dossier (FRD) is the complete supporting research record prepared for Founder review at the conclusion of a research commission.
 
-It is the sole Founder Review Documentation. It is not summarised by, or paired with, any other document prepared for the same purpose. The Founder Executive Brief, formerly a companion summary document, is retired under SINS-001 v0.5; see §2.4.
+It is the governed research record put before the Founders. A Decision Brief and a Review Form are prepared with it (§2.6); they add nothing to it. The Founder Executive Brief, formerly a companion summary document, is retired under SINS-001 v0.5; see §2.4.
 
 ## 2.2 What the Dossier Is Not
 
@@ -122,9 +123,27 @@ Should review volume grow enough that a summary document becomes genuinely usefu
 
 The Founder Review Dossier exists so a Founder can decide on the researched topic. Every sentence in it shall serve that decision directly: stating the commissioned question, the evidence, the assessment, or the decision the Founder is asked to make. Nothing else belongs, regardless of how it came about or how interesting it may be to record. §5.5 sets out what this excludes in practice.
 
-## 2.6 Application to the Decision Brief and Review Form
+## 2.6 Required Companion Documents: Decision Brief and Review Form
 
-The Decision Brief and Review Form prepared alongside a Founder Review Dossier are not governed in structure by this Standard, which addresses the FRD itself. §2.2, §2.5 and §5.5's prohibition on process narrative, reviewer-directed commentary, and non-research content applies equally to them, per Founder direction: a Founder or reviewer reading any of the three documents shall find only the commissioned topic's research and the decision it calls for, never commentary on the documents' own history.
+Every Founder Review Dossier submitted for Founder Review shall be prepared together with a Decision Brief and a Review Form, following the patterns in `Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md`. §4.3 (Proportionality) governs how much detail each carries, not whether they are prepared.
+
+The **Decision Brief** is the plain-language summary a Founder reads. It shall state what Pip would say under the Pip Knowledge Rules, how strong the evidence is, what Pip would not say and why, and anything the rules cannot settle. The **Review Form** is where a Founder records the decision.
+
+Both are downstream of the dossier. They restate its content for decision and add no evidence, finding or Evidence Confidence Level of their own. §2.2, §2.5 and §5.5 apply to both: a Founder reading any of the three documents shall find only the commissioned topic's research and the decision it calls for, never commentary on the documents' own history. Where either differs from the dossier, the dossier governs.
+
+## 2.6A What a Review Form Asks
+
+A Review Form asks only what the Pip Knowledge Rules §5 leave to the Founders:
+
+1. the overall decision on the dossier: approve as the named ARC, approve with stated changes, request further work, or decline;
+2. any question of scope, or of how Pip works, that the rules cannot settle and that is not already a standing decision (Pip Knowledge Rules §7); and
+3. optional comments, where a Founder may change, exclude or question anything.
+
+A Review Form shall not ask a Founder to approve an individual finding, to choose between answers where the rules give one, to judge the research, its ratings or its defaults, or to decide scheduling, sequencing or what work should happen next.
+
+Every question shall be answerable from its own words, without a finding number or option code to look up. Every option shall say what Pip would say or do.
+
+An answer recorded against a question that does not meet this section has no bearing on the Founder decision for that commission.
 
 ---
 
@@ -186,7 +205,7 @@ A Founder Review Dossier shall contain the following sections, in this order:
 7. **Principal Findings** — the synthesised findings of the research, presented as one or more Assessed Findings (per the Evidence Assessment Standard §3.2), distinguishing established findings, supported interpretations, expert opinion and unresolved questions, per §5 of this Standard.
 8. **Evidence Assessment** — the completed Evidence Assessment, incorporated without alteration, per the Evidence Assessment Standard, stating the Evidence Confidence Level assigned to each Assessed Finding individually.
 9. **Recommendations for Further Research** — any further research the ROC identifies as warranted, whether or not the Founders act on it.
-10. **Founder Decision Points** — the specific decisions the dossier asks the Founders to make, stated as direct questions (for example: approve as a future ARC; approve with amendment; defer pending further research; decline).
+10. **Founder Decision Points** — in two parts. **(a) What the rules give:** for each commissioned question, what Pip would say under the Pip Knowledge Rules, stated by the ROC from the findings (ROC Operations Manual §8.6A). These are statements, not questions. **(b) The decisions asked:** the overall decision (approve as a future ARC; approve with amendment; defer pending further research; decline), and any question of scope or of how Pip works that the Pip Knowledge Rules §5 leave to the Founders and that is not already a standing decision. A decision on an individual finding, or a choice between answers where the rules give one, is not a Founder Decision Point.
 
 Where a section has no content for a given commission (for example, no conflicting evidence was encountered), the dossier shall state this explicitly rather than omit the section.
 

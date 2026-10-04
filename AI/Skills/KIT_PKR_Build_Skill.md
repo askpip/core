@@ -9,15 +9,16 @@ description: Build, submit and (after Founder approval) mark Published the PIP K
 
 **Document Title:** KIT PKR Build Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
-**Version:** 0.1
-**Status:** Approved — Approved by the Founder (Shaphan) in chat, 1 October 2026
+**Version:** 0.2
+**Status:** Approved — Version 0.1 approved by a Founder in chat, 1 October 2026; Version 0.2 approved by AskPIP Founder Authority, 5 October 2026
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/KIT_PKR_Build_Skill.md`
-**Last Updated:** 1 October 2026
+**Last Updated:** 5 October 2026
 **Purpose:** To give any AI acting as KIT the working procedure for turning an approved ARC into Published PKRs: the steps, file conventions and standing Founder rules established in practice. It distils, and never overrides, the KIT Charter, KIT Operations Manual and PKR Standard.
 **Related Documents:**
 - `Knowledge Curation System/Charters/KIT_Charter.md`
 - `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md`
+- `Knowledge Curation System/Standards/Pip_Knowledge_Rules.md`
 - `Knowledge Curation System/Standards/PKR_Standard.md`
 - `Knowledge Curation System/Standards/LIL_Standard.md`
 - `Knowledge Curation System/Standards/Pip_Runtime_Architecture.md`
@@ -32,7 +33,7 @@ description: Build, submit and (after Founder approval) mark Published the PIP K
 # 1. Load before starting
 
 1. `AGENTS.md` bootstrap (then the AI Operations Manual and Loading Guide).
-2. The KIT Charter, the KIT Operations Manual, the PKR Standard and the LIL Standard.
+2. The Pip Knowledge Rules, the KIT Charter, the KIT Operations Manual, the PKR Standard and the LIL Standard.
 3. The approved ARC in `Knowledge Curation System/Mother Information Library/ARCs/`. Read all of:
    - §2, the Founder decision record: decisions there bind the PKRs;
    - §3–§4, the findings, each with its own confidence;
@@ -49,6 +50,8 @@ description: Build, submit and (after Founder approval) mark Published the PIP K
 
 These were set by the Founders in chat and apply until they change them.
 
+- **The Pip Knowledge Rules decide what Pip may say.** Build from findings whose Use status in the ARC is Available to Pip. Low and Very Low findings are on record only unless the rules make them available (Pip Knowledge Rules §3; ROC OM §11.4A).
+- **Build Check before the Founders.** Every package goes to ROC for the Build Check before it is presented (KIT OM Chapter 13A).
 - **Only approved content.** A PKR may contain only what approved ARCs say. Operational approval is given in chat by a Founder, and the Founders have said: "As long as they only contain content from the already approved ARCs, I approve." KIT still presents every package and waits for that approval. It is never assumed.
 - **Every source verifiable.** Every Source PKR carries a full web address and access date, or a stable identifier for an offline source (ROC OM §5.5).
 - **Never substitute a source silently.** If a register entry doesn't match an existing Source PKR (different page, edition, date or address), report it and let the Founders decide.
@@ -116,8 +119,9 @@ Set the title-line status to `(v0.1, Draft)`. The package has these sections, in
    2. copy to `/mnt/user-data/outputs/…`;
    3. commit to the device (pass the expected modified-time when overwriting);
    4. list the folder and **check every file size** against your copy. A stale commit has landed before.
-2. Present the rendering in chat: what changes for the gardener, the evidence with its confidence, the limitations, and source notes.
-3. Ask each open decision separately, then ask for approval of the package.
+2. Give the package to ROC for the Build Check. Fix anything it fails and have it rechecked.
+3. Present ROC's Build Check Brief: Pip's words with each result, what was left out, and any open decision.
+4. Ask each open decision separately, then ask for approval of the package. Ask only what the Pip Knowledge Rules §5 leave to the Founders.
 
 # 7. On approval
 
