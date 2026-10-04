@@ -4,7 +4,9 @@ This is the plain-language companion to `FRD-BUSHROSE-TIMING-US-01`. It adds no 
 
 ## 1. What you are being asked to do
 
-Read this Brief. The decisions are on the 60 findings, on four further-research items, and on six questions about how Pip should show US months, ending with one overall decision: **approve as `ARC-BUSHROSE-TIMING-US-01`, approve with amendments, request further work, or decline.**
+Read this Brief, then answer the eight questions in the Review Form: six on how Pip should show US months; one on further research; and the overall decision: **approve as `ARC-BUSHROSE-TIMING-US-01`, approve with changes, request further work, or decline.**
+
+You are not asked to decide each of the 60 findings. Section 4 explains which ones Pip may use, and section 5 marks each one. You can still change, exclude or flag any finding in the form's last box.
 
 ## 2. The short version
 
@@ -31,97 +33,111 @@ Q1: months for main pruning. Q2: months to start feeding and to give the last fe
 
 Each finding has its own rating. None is averaged into an overall figure. Many findings are Low simply because each area has only one or two sources.
 
+**What each rating means for Pip**
+
+| Rating | For Pip |
+|---|---|
+| Very High, High, Moderate | Pip may use the finding, with its rating shown. |
+| Low, Very Low | Kept on record only, except as below. |
+
+A Low finding is still used in two cases in this dossier:
+
+- **Yes, locally.** The finding says when or how a job is done in one named country, region or place, and comes from a reliable source: a rose or horticultural society, a botanic garden, a university or extension service, or a government body. Pip shows it only to gardeners in that place, with the source named.
+- **To say there's a gap.** The finding records that no source was found. Pip may use it only to say so.
+
 ## 5. What the research found
 
 ### Zones and placing the gardener (group 1)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-1 | USDA zones are based on how cold the winters get. | High |
-| AF-2 | Gardeners can look up their zone by ZIP code on the USDA map. | High |
-| AF-3 | The 2023 map moved much of the country about half a zone warmer; older zone numbers still circulate. | Moderate |
-| AF-4 | Zones don't account for summer heat, snow cover or late frosts. | Moderate |
-| AF-5 | Some California sources prefer the Sunset climate zones. | Low |
-| AF-6 | Rose sources give months for their own state, county or district, not by zone. | Moderate |
-| AF-7 | Sources tie timing to signs in the garden (bud swell, forsythia, frosts) as well as months. | High |
-| AF-8 | Timing differs within one state (South Carolina coast and mountains; Florida north and south). | Moderate |
-| AF-9 | Signs and averages can mislead in a particular year. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-1 | USDA zones are based on how cold the winters get. | High | Yes |
+| AF-2 | Gardeners can look up their zone by ZIP code on the USDA map. | High | Yes |
+| AF-3 | The 2023 map moved much of the country about half a zone warmer; older zone numbers still circulate. | Moderate | Yes |
+| AF-4 | Zones don't account for summer heat, snow cover or late frosts. | Moderate | Yes |
+| AF-5 | Some California sources prefer the Sunset climate zones. | Low | Yes, locally |
+| AF-6 | Rose sources give months for their own state, county or district, not by zone. | Moderate | Yes |
+| AF-7 | Sources tie timing to signs in the garden (bud swell, forsythia, frosts) as well as months. | High | Yes |
+| AF-8 | Timing differs within one state (South Carolina coast and mountains; Florida north and south). | Moderate | Yes |
+| AF-9 | Signs and averages can mislead in a particular year. | Low | On record only |
 
 ### Main pruning (group 2)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-10 | Coldest band: spring, after protection comes off; Iowa says late March to mid-April. | Low |
-| AF-11 | Illinois and Pennsylvania: spring, no month; Illinois says when forsythia flowers. | Low |
-| AF-12 | Nashville: March. Cobb County, Georgia: last week of February to 15 March. | Low |
-| AF-13 | Tucson area: mid-January to early February. Marin: from late December, January. | Low |
-| AF-14 | Ten other areas, from December (south Florida) to mid-April (Colorado; South Carolina mountains). | Moderate |
-| AF-15 | Across the country, December to mid-April, later where colder. | High |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-10 | Coldest band: spring, after protection comes off; Iowa says late March to mid-April. | Low | Yes, locally |
+| AF-11 | Illinois and Pennsylvania: spring, no month; Illinois says when forsythia flowers. | Low | Yes, locally |
+| AF-12 | Nashville: March. Cobb County, Georgia: last week of February to 15 March. | Low | Yes, locally |
+| AF-13 | Tucson area: mid-January to early February. Marin: from late December, January. | Low | Yes, locally |
+| AF-14 | Ten other areas, from December (south Florida) to mid-April (Colorado; South Carolina mountains). | Moderate | Yes |
+| AF-15 | Across the country, December to mid-April, later where colder. | High | Yes |
 
 ### Feeding (group 3)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-16 | Coldest band: start early to mid-May, or as new growth appears. | Moderate |
-| AF-17 | Pennsylvania: start in April. | Low |
-| AF-18 | Nashville and Cobb County: start in March (Nashville's established bushes in April). | Low |
-| AF-19 | Marin: start in April, after the first flowers. | Low |
-| AF-20 | Other areas: Florida mid-February, Kansas City mid-April, Georgia March; or at new growth or after hard frosts. | Moderate |
-| AF-21 | Coldest band: last feed late July to end of August. | Moderate |
-| AF-22 | Illinois and Pennsylvania: last feed by 15 August or in August. | Moderate |
-| AF-23 | Cobb County still feeds in September; Nashville stops granular feeds by September and all feeding in November. | Low |
-| AF-24 | Marin: September is the last month. | Low |
-| AF-25 | Other areas: from July (Missouri, Kansas City) to October (Orange County) and mid-November (Florida). | Low |
-| AF-26 | South Carolina: stop six weeks before your first frost date. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-16 | Coldest band: start early to mid-May, or as new growth appears. | Moderate | Yes |
+| AF-17 | Pennsylvania: start in April. | Low | Yes, locally |
+| AF-18 | Nashville and Cobb County: start in March (Nashville's established bushes in April). | Low | Yes, locally |
+| AF-19 | Marin: start in April, after the first flowers. | Low | Yes, locally |
+| AF-20 | Other areas: Florida mid-February, Kansas City mid-April, Georgia March; or at new growth or after hard frosts. | Moderate | Yes |
+| AF-21 | Coldest band: last feed late July to end of August. | Moderate | Yes |
+| AF-22 | Illinois and Pennsylvania: last feed by 15 August or in August. | Moderate | Yes |
+| AF-23 | Cobb County still feeds in September; Nashville stops granular feeds by September and all feeding in November. | Low | Yes, locally |
+| AF-24 | Marin: September is the last month. | Low | Yes, locally |
+| AF-25 | Other areas: from July (Missouri, Kansas City) to October (Orange County) and mid-November (Florida). | Low | Yes, locally |
+| AF-26 | South Carolina: stop six weeks before your first frost date. | Low | Yes, locally |
 
 ### Stopping deadheading (group 4)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-27 | Coldest band: after August or in September. | Moderate |
-| AF-28 | Illinois: after 1 October. | Low |
-| AF-29 | Cobb County: October. Nashville: still cutting flowers into November. | Low |
-| AF-30 | Marin: November. | Low |
-| AF-31 | Kansas City: after mid-August. Orange County: November to December. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-27 | Coldest band: after August or in September. | Moderate | Yes |
+| AF-28 | Illinois: after 1 October. | Low | Yes, locally |
+| AF-29 | Cobb County: October. Nashville: still cutting flowers into November. | Low | Yes, locally |
+| AF-30 | Marin: November. | Low | Yes, locally |
+| AF-31 | Kansas City: after mid-August. Orange County: November to December. | Low | Yes, locally |
 
 ### Planting and moving (group 5)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-32 | Coldest band: bare-root late March to mid-May. | Moderate |
-| AF-33 | Nashville: bare-root in March. | Low |
-| AF-34 | Warmest band: bare-root mid-December to February. | Moderate |
-| AF-35 | Other areas: bare-root months for six states or areas. | Low |
-| AF-36 | Coldest band: potted roses from April or from 15 May. | Low |
-| AF-37 | Arizona low desert: potted roses any time, spring or fall best. | Low |
-| AF-38 | Other areas: potted roses after the last hard frost and through the growing season. | Moderate |
-| AF-39 | Illinois: fall is a good time to move a rose. | Low |
-| AF-40 | Nashville: move December to 1 February. | Low |
-| AF-41 | Arizona low desert: move December to March. | Low |
-| AF-42 | Arkansas: move November to February, preferably February. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-32 | Coldest band: bare-root late March to mid-May. | Moderate | Yes |
+| AF-33 | Nashville: bare-root in March. | Low | Yes, locally |
+| AF-34 | Warmest band: bare-root mid-December to February. | Moderate | Yes |
+| AF-35 | Other areas: bare-root months for six states or areas. | Low | Yes, locally |
+| AF-36 | Coldest band: potted roses from April or from 15 May. | Low | Yes, locally |
+| AF-37 | Arizona low desert: potted roses any time, spring or fall best. | Low | Yes, locally |
+| AF-38 | Other areas: potted roses after the last hard frost and through the growing season. | Moderate | Yes |
+| AF-39 | Illinois: fall is a good time to move a rose. | Low | Yes, locally |
+| AF-40 | Nashville: move December to 1 February. | Low | Yes, locally |
+| AF-41 | Arizona low desert: move December to March. | Low | Yes, locally |
+| AF-42 | Arkansas: move November to February, preferably February. | Low | Yes, locally |
 
 ### Winter clear-up, sprays and protection (group 6)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-43 | Coldest band: clear up mid-to-late October or after the first hard frost. | Moderate |
-| AF-44 | Pennsylvania: clear up before winter. | Low |
-| AF-45 | Nashville and Cobb County: clear diseased leaves October into winter. | Low |
-| AF-46 | Warmest band: clear up with pruning, in January or February. | Low |
-| AF-47 | Colorado: around Thanksgiving. Kansas City: after hard freezes. | Low |
-| AF-48 | Coldest band: dormant spray mid-to-late October. | Low |
-| AF-49 | Cobb County: oil sprays November to December. Nashville: dormant oil in February. | Low |
-| AF-50 | Marin: dormant spray in January. | Low |
-| AF-51 | Coastal California: dormant spray or oil in January to February. | Low |
-| AF-52 | Coldest band: protection on from September (mounding begun) to mid-November. | Moderate |
-| AF-53 | Illinois and Pennsylvania: protection on after hard frosts; no month. | Moderate |
-| AF-54 | Nashville and Cobb County: protection on in December, after hard frosts. | Moderate |
-| AF-55 | Colorado and Kansas City: protection on after several hard freezes. | Moderate |
-| AF-56 | Coldest band: protection off late March to mid-April. | Moderate |
-| AF-57 | Pennsylvania: protection off in very early spring, once lows stay above 20 °F. | Low |
-| AF-58 | Nashville: uncover about the third week of March; pull mulch back after the last frost (mid-to-late April). | Low |
-| AF-59 | Other areas: protection off mid-April or once hard frosts are over. | Moderate |
-| AF-60 | No zone 9–10 source mentions winter protection. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-43 | Coldest band: clear up mid-to-late October or after the first hard frost. | Moderate | Yes |
+| AF-44 | Pennsylvania: clear up before winter. | Low | Yes, locally |
+| AF-45 | Nashville and Cobb County: clear diseased leaves October into winter. | Low | Yes, locally |
+| AF-46 | Warmest band: clear up with pruning, in January or February. | Low | Yes, locally |
+| AF-47 | Colorado: around Thanksgiving. Kansas City: after hard freezes. | Low | Yes, locally |
+| AF-48 | Coldest band: dormant spray mid-to-late October. | Low | Yes, locally |
+| AF-49 | Cobb County: oil sprays November to December. Nashville: dormant oil in February. | Low | Yes, locally |
+| AF-50 | Marin: dormant spray in January. | Low | Yes, locally |
+| AF-51 | Coastal California: dormant spray or oil in January to February. | Low | Yes, locally |
+| AF-52 | Coldest band: protection on from September (mounding begun) to mid-November. | Moderate | Yes |
+| AF-53 | Illinois and Pennsylvania: protection on after hard frosts; no month. | Moderate | Yes |
+| AF-54 | Nashville and Cobb County: protection on in December, after hard frosts. | Moderate | Yes |
+| AF-55 | Colorado and Kansas City: protection on after several hard freezes. | Moderate | Yes |
+| AF-56 | Coldest band: protection off late March to mid-April. | Moderate | Yes |
+| AF-57 | Pennsylvania: protection off in very early spring, once lows stay above 20 °F. | Low | Yes, locally |
+| AF-58 | Nashville: uncover about the third week of March; pull mulch back after the last frost (mid-to-late April). | Low | Yes, locally |
+| AF-59 | Other areas: protection off mid-April or once hard frosts are over. | Moderate | Yes |
+| AF-60 | No zone 9–10 source mentions winter protection. | Low | To say there's a gap |
+
+**For Pip, of the 60 findings:** 24 yes; 34 yes, locally; 1 to say there's a gap; 1 on record only.
 
 **Fit with what you've already approved.** The findings agree with the dormancy ARC that bud swell, not the calendar, is the signal to prune, and that the window varies by climate (western Oregon again gives mid-February). They agree with the basic-care ARC's Illinois, Penn State and Cobb County feeding and deadheading cut-offs, its mounding after hard frosts, and its clear-up before winter. **One mismatch:** the basic-care ARC records Iowa State as saying "stop fertilising after mid-July", but the current Iowa State page now says to give a feed in mid-to-late July and gives no stop date. The ARC finding itself is unchanged; the record may need a correction. Planting, moving and winter-spray months were gathered only; whether Pip gives that advice is still waiting on the planting-and-moving and spraying decisions.
 
@@ -150,7 +166,7 @@ Each finding has its own rating. None is averaged into an overall figure. Many f
 
 Recommendations are the ROC's, not decisions.
 
-1. **Approve the findings as `ARC-BUSHROSE-TIMING-US-01`?** Approve; approve with named changes; request further work; or decline.
+1. **Approve this dossier as `ARC-BUSHROSE-TIMING-US-01`?** Approve; approve with named changes; request further work; or decline. Approval accepts the research record; which findings Pip may use follows from section 4.
 
 2. **Which zone bands does Pip use, and where are the edges?**
    (a) four fixed bands: zones 3–5, 6, 7–8, 9–10; (b) no bands, months only for the gardener's own state where a source exists; (c) both: own-state months where a source exists, otherwise the band's months named with their source, otherwise season and signs; (d) defer.
@@ -180,7 +196,7 @@ Recommendations are the ROC's, not decisions.
 
 ## 9. What approval would and would not do
 
-Approving places the findings you accept, with the recorded disagreements, into Ask Pip's approved knowledge as `ARC-BUSHROSE-TIMING-US-01`. It doesn't change the bud-swell check, the basic-care ARC or its Iowa State record, or the pending planting-and-moving and spraying decisions, and it doesn't write Pip's wording. Until then, Pip keeps showing seasons only for the US, with the bud-swell check.
+Approving makes this dossier `ARC-BUSHROSE-TIMING-US-01`. Every finding goes on record there, with the recorded disagreements. Pip may use the findings marked Yes in section 5, and any you allow. It doesn't change the bud-swell check, the basic-care ARC or its Iowa State record, or the pending planting-and-moving and spraying decisions, and it doesn't write Pip's wording. Until then, Pip keeps showing seasons only for the US, with the bud-swell check.
 
 ## 10. Where to find the detail
 

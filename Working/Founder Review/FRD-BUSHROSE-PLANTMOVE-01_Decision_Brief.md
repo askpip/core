@@ -4,7 +4,9 @@ This is the plain-language companion to `FRD-BUSHROSE-PLANTMOVE-01`. It adds no 
 
 ## 1. What you are being asked to do
 
-Read this Brief. Then decide on the 37 findings, on four further-research items, and on five questions about how Pip should handle planting and moving, including whether this belongs in Pip at all. The overall decision is: **approve as `ARC-BUSHROSE-PLANTMOVE-01`, approve with amendments, request further work, or decline.**
+Read this Brief, then answer the eight questions in the Review Form: five on how Pip should handle planting and moving, including whether this belongs in Pip at all; one on two Low-confidence findings the ROC asks you to allow; one on further research; and the overall decision: **approve as `ARC-BUSHROSE-PLANTMOVE-01`, approve with changes, request further work, or decline.**
+
+You are not asked to decide each of the 37 findings. Section 4 explains which ones Pip may use, and section 5 marks each one. You can still change, exclude or flag any finding in the form's last box.
 
 ## 2. The short version
 
@@ -32,69 +34,83 @@ Q1: when to plant bare-root and potted roses, by region. Q2: sun, drainage, spac
 
 Each finding has its own rating. None is averaged into an overall figure.
 
+**What each rating means for Pip**
+
+| Rating | For Pip |
+|---|---|
+| Very High, High, Moderate | Pip may use the finding, with its rating shown. |
+| Low, Very Low | Kept on record only, except as below. |
+
+A Low finding is still used in two cases in this dossier:
+
+- **To say there's a gap.** The finding records that no source was found. Pip may use it only to say so.
+- **Your call.** The decision is yours, in the question named.
+
 ## 5. What the research found
 
 ### When to plant (group 1)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-1 | Bare-root roses are planted while dormant: winter in NZ and Australia, late autumn to early spring in the UK. | High |
-| AF-2 | Australia: May to July or June to July. NZ: winter, new roses in store from June, planting into spring. | Moderate |
-| AF-3 | Cold-winter US sources prefer spring for bare-root roses; the RHS gives autumn or late winter to early spring. | Moderate |
-| AF-4 | Potted roses can be planted most of the year, if the ground isn't frozen or very dry. | High |
-| AF-5 | Plant bare-root roses promptly; don't let the roots dry out. | High |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-1 | Bare-root roses are planted while dormant: winter in NZ and Australia, late autumn to early spring in the UK. | High | Yes |
+| AF-2 | Australia: May to July or June to July. NZ: winter, new roses in store from June, planting into spring. | Moderate | Yes |
+| AF-3 | Cold-winter US sources prefer spring for bare-root roses; the RHS gives autumn or late winter to early spring. | Moderate | Yes |
+| AF-4 | Potted roses can be planted most of the year, if the ground isn't frozen or very dry. | High | Yes |
+| AF-5 | Plant bare-root roses promptly; don't let the roots dry out. | High | Yes |
 
 ### Where to plant (group 2)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-6 | Roses need sun; sources give four to six hours of direct sun as the minimum. | High |
-| AF-7 | Roses need good drainage; raised beds or mounds for heavy soil. | High |
-| AF-8 | Keep away from tree and shrub roots. | Moderate |
-| AF-9 | Spacing depends on the rose's size; about 50 cm to 1 m between roses. | Moderate |
-| AF-10 | One source spaces for air flow; another questions that reason. | Low |
-| AF-11 | New roses where roses grew before may do poorly ("rose sickness"). | Moderate |
-| AF-12 | Nobody has pinned down the cause. | Moderate |
-| AF-13 | Sources give different fixes: replace soil (by different amounts), plant elsewhere, rotate, or add compost and fungi. | Moderate |
-| AF-14 | The RHS says the problem can last at least nine years. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-6 | Roses need sun; sources give four to six hours of direct sun as the minimum. | High | Yes |
+| AF-7 | Roses need good drainage; raised beds or mounds for heavy soil. | High | Yes |
+| AF-8 | Keep away from tree and shrub roots. | Moderate | Yes |
+| AF-9 | Spacing depends on the rose's size; about 50 cm to 1 m between roses. | Moderate | Yes |
+| AF-10 | One source spaces for air flow; another questions that reason. | Low | On record only |
+| AF-11 | New roses where roses grew before may do poorly ("rose sickness"). | Moderate | Yes |
+| AF-12 | Nobody has pinned down the cause. | Moderate | Yes |
+| AF-13 | Sources give different fixes: replace soil (by different amounts), plant elsewhere, rotate, or add compost and fungi. | Moderate | Yes |
+| AF-14 | The RHS says the problem can last at least nine years. | Low | On record only |
 
 ### How to plant (group 3)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-15 | Dig a hole wider than the roots; sizes vary. | Moderate |
-| AF-16 | Spread bare roots over a mound of soil in the hole. | Moderate |
-| AF-17 | Soak bare roots before planting. | High |
-| AF-18 | Soaking times range from one hour to 24 hours; two US universities say no more than 24. | Moderate |
-| AF-19 | Trim damaged or broken roots. | Moderate |
-| AF-20 | Sources disagree on bud-union depth: above, at or below the soil. | High |
-| AF-21 | NZ and Australian sources put it at or above soil level. | Moderate |
-| AF-22 | Burying it is linked to cold winters; the RHS says don't bury it (dieback risk). | Moderate |
-| AF-23 | Plant a potted rose at the depth it grew in its pot. | Moderate |
-| AF-24 | Water in well after planting. | High |
-| AF-25 | Sources disagree on pruning at planting. | Moderate |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-15 | Dig a hole wider than the roots; sizes vary. | Moderate | Yes |
+| AF-16 | Spread bare roots over a mound of soil in the hole. | Moderate | Yes |
+| AF-17 | Soak bare roots before planting. | High | Yes |
+| AF-18 | Soaking times range from one hour to 24 hours; two US universities say no more than 24. | Moderate | Yes |
+| AF-19 | Trim damaged or broken roots. | Moderate | Yes |
+| AF-20 | Sources disagree on bud-union depth: above, at or below the soil. | High | Yes |
+| AF-21 | NZ and Australian sources put it at or above soil level. | Moderate | Yes |
+| AF-22 | Burying it is linked to cold winters; the RHS says don't bury it (dieback risk). | Moderate | Yes |
+| AF-23 | Plant a potted rose at the depth it grew in its pot. | Moderate | Yes |
+| AF-24 | Water in well after planting. | High | Yes |
+| AF-25 | Sources disagree on pruning at planting. | Moderate | Yes |
 
 ### Moving an established rose (group 4)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-26 | Move it while it's dormant. | High |
-| AF-27 | Some sources move roses outside dormancy, with more pruning or more water. | Moderate |
-| AF-28 | Within winter, some prefer late winter, after pruning, or after frosts. | Low |
-| AF-29 | Most cut it back first, by anything from a third to hard; two sources say don't prune hard, or don't prune first. | Moderate |
-| AF-30 | Dig as big a root ball as you can. | High |
-| AF-31 | Sources dig about 25 cm to 60 cm from or across the plant. | Moderate |
-| AF-32 | Keep the roots moist; one source waters the day before. | Low |
-| AF-33 | Water it well and keep it watered until it recovers. | High |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-26 | Move it while it's dormant. | High | Yes |
+| AF-27 | Some sources move roses outside dormancy, with more pruning or more water. | Moderate | Yes |
+| AF-28 | Within winter, some prefer late winter, after pruning, or after frosts. | Low | On record only |
+| AF-29 | Most cut it back first, by anything from a third to hard; two sources say don't prune hard, or don't prune first. | Moderate | Yes |
+| AF-30 | Dig as big a root ball as you can. | High | Yes |
+| AF-31 | Sources dig about 25 cm to 60 cm from or across the plant. | Moderate | Yes |
+| AF-32 | Keep the roots moist; one source waters the day before. | Low | Your call (E1) |
+| AF-33 | Water it well and keep it watered until it recovers. | High | Yes |
 
 ### Limits (group 5)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-34 | Older, long-settled roses are said to be harder to move; no rose-specific age limit given. | Low |
-| AF-35 | Two sources call moving roses forgiving or report high success. | Low |
-| AF-36 | One source says to replace the soil if moving to a spot where a rose grew. | Low |
-| AF-37 | No source gives success odds for moving a rose. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-34 | Older, long-settled roses are said to be harder to move; no rose-specific age limit given. | Low | Your call (E1) |
+| AF-35 | Two sources call moving roses forgiving or report high success. | Low | On record only |
+| AF-36 | One source says to replace the soil if moving to a spot where a rose grew. | Low | On record only |
+| AF-37 | No source gives success odds for moving a rose. | Low | To say there's a gap |
+
+**For Pip, of the 37 findings:** 29 yes; 1 to say there's a gap; 5 on record only; 2 your call (E1).
 
 **Fit with what you've already approved.** The findings agree with the suckers ARC (bud-union depth varies), the recently-planted ARC (the union may be buried; the RHS "prune in the first winter" advice is still unreconciled), and the basic-care ARC (new roses need watering through their first summers).
 
@@ -124,7 +140,7 @@ Each finding has its own rating. None is averaged into an overall figure.
 
 Recommendations are the ROC's, not decisions.
 
-1. **Approve the findings as `ARC-BUSHROSE-PLANTMOVE-01`?** Approve; approve with named changes; request further work; or decline.
+1. **Approve this dossier as `ARC-BUSHROSE-PLANTMOVE-01`?** Approve; approve with named changes; request further work; or decline. Approval accepts the research record; which findings Pip may use follows from section 4.
 
 2. **Should Pip give planting and moving advice at all? It currently supports established roses only.**
    (a) No: Pip says it can't advise and points to a garden centre or rose society; (b) yes, as answers to questions, outside the pruning journey, with confidence and disagreements shown; (c) yes, as a guided journey; (d) moving only, not planting.
@@ -146,11 +162,15 @@ Recommendations are the ROC's, not decisions.
    (a) by dormancy and season, with NZ and Australian months where sources give them; (b) by season only.
    *ROC recommendation: (a).*
 
+E1. **Allow Pip to use AF-32 and AF-34?** Both are Low, so they would stay on record only. The ROC asks you to allow them, with the Low rating shown.
+   - **AF-32:** Roots are kept moist during the move, and one source waters the day before. *Why:* One source calls keeping the roots moist "very important"; leaving it out could cost the plant.
+   - **AF-34:** Older, long-settled roses are described as harder to move; no rose-specific age limit is given. *Why:* It warns that a long-settled rose may not survive a move, and the default for R-1 relies on it.
+
 7. **Accept the defaults in R-1 to R-4, or commission any of them?**
 
 ## 9. What approval would and would not do
 
-Approving places the findings you accept, with the recorded disagreements, into Ask Pip's approved knowledge as `ARC-BUSHROSE-PLANTMOVE-01`. It doesn't itself change Pip's scope, write Pip's wording, or change the recent-planting gate. Those follow as separate steps from your answers to decisions 2 to 6.
+Approving makes this dossier `ARC-BUSHROSE-PLANTMOVE-01`. Every finding goes on record there, with the recorded disagreements. Pip may use the findings marked Yes in section 5, and any you allow. It doesn't itself change Pip's scope, write Pip's wording, or change the recent-planting gate. Those follow as separate steps from your answers to decisions 2 to 6.
 
 ## 10. Where to find the detail
 

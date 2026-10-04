@@ -4,7 +4,9 @@ This is the plain-language companion to `FRD-BUSHROSE-SPRAYING-01`. It adds no e
 
 ## 1. What you are being asked to do
 
-Read this Brief. You are then asked for your decision on the 35 findings, on four further-research items, and on five questions about how Pip should answer "Should I spray my roses?", finishing with one overall decision: **approve as `ARC-BUSHROSE-SPRAYING-01`, approve with amendments, request further work, or decline.**
+Read this Brief, then answer the eight questions in the Review Form: five on how Pip should answer "Should I spray my roses?"; one on two Low-confidence findings the ROC asks you to allow; one on further research; and the overall decision: **approve as `ARC-BUSHROSE-SPRAYING-01`, approve with changes, request further work, or decline.**
+
+You are not asked to decide each of the 35 findings. Section 4 explains which ones Pip may use, and section 5 marks each one. You can still change, exclude or flag any finding in the form's last box.
 
 ## 2. The short version
 
@@ -32,67 +34,81 @@ Q1: does a rose need spraying at all, and what about resistant varieties? Q2: sp
 
 Each finding has its own rating. None is averaged into an overall figure.
 
+**What each rating means for Pip**
+
+| Rating | For Pip |
+|---|---|
+| Very High, High, Moderate | Pip may use the finding, with its rating shown. |
+| Low, Very Low | Kept on record only, except as below. |
+
+A Low finding is still used in two cases in this dossier:
+
+- **To say there's a gap.** The finding records that no source was found. Pip may use it only to say so.
+- **Your call.** The decision is yours, in the question named.
+
 ## 5. What the research found
 
 ### Does a rose need spraying? (group 1)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-1 | Roses can be grown well with little or no spraying, including in New Zealand. | High |
-| AF-2 | Choosing a disease-resistant or disease-tolerant variety is a main way to reduce disease. | High |
-| AF-3 | Claimed resistance may not last, and may vary by region. | Moderate |
-| AF-4 | Many popular Hybrid Teas and Floribundas are susceptible, and some sources say these need regular fungicide. | Moderate |
-| AF-5 | The RHS recommends gardeners don't use fungicides on roses. | High |
-| AF-6 | Several sources say pesticides are a last resort, after other measures. | High |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-1 | Roses can be grown well with little or no spraying, including in New Zealand. | High | Yes |
+| AF-2 | Choosing a disease-resistant or disease-tolerant variety is a main way to reduce disease. | High | Yes |
+| AF-3 | Claimed resistance may not last, and may vary by region. | Moderate | Yes |
+| AF-4 | Many popular Hybrid Teas and Floribundas are susceptible, and some sources say these need regular fungicide. | Moderate | Yes |
+| AF-5 | The RHS recommends gardeners don't use fungicides on roses. | High | Yes |
+| AF-6 | Several sources say pesticides are a last resort, after other measures. | High | Yes |
 
 ### Spraying to prevent, and when (group 2)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-7 | Fungicides protect leaves before infection; they don't cure it. | High |
-| AF-8 | Black spot is the most common rose fungal disease and needs leaves to stay wet. | Moderate |
-| AF-9 | Where regular spraying is described, it is about every one to two weeks; the label sets the interval. | Moderate |
-| AF-10 | Regular spraying runs from the first new leaves after winter through the growing season. | Moderate |
-| AF-11 | Wet weather, a history of disease, or a bad outbreak means more spraying. | Moderate |
-| AF-12 | People who spray are advised to alternate products, to slow resistance. | High |
-| AF-13 | Trying to keep a rose completely disease-free can mean more spraying than is justified. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-7 | Fungicides protect leaves before infection; they don't cure it. | High | Yes |
+| AF-8 | Black spot is the most common rose fungal disease and needs leaves to stay wet. | Moderate | Yes |
+| AF-9 | Where regular spraying is described, it is about every one to two weeks; the label sets the interval. | Moderate | Yes |
+| AF-10 | Regular spraying runs from the first new leaves after winter through the growing season. | Moderate | Yes |
+| AF-11 | Wet weather, a history of disease, or a bad outbreak means more spraying. | Moderate | Yes |
+| AF-12 | People who spray are advised to alternate products, to slow resistance. | High | Yes |
+| AF-13 | Trying to keep a rose completely disease-free can mean more spraying than is justified. | Low | On record only |
 
 ### The common problems, and measures other than spraying (group 3)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-14 | Clearing fallen leaves and infected stems, especially before and over winter, reduces disease next season. | Very High |
-| AF-15 | Pick off infected leaves and shoots as soon as you see them. | High |
-| AF-16 | Put diseased leaves and prunings in the rubbish, not the compost. | Moderate |
-| AF-17 | Water at the base and keep the leaves dry. | High |
-| AF-18 | Powdery mildew is the exception: water on the leaves can reduce it. | Moderate |
-| AF-19 | Sun, spacing and air movement reduce leaf disease. | High |
-| AF-20 | A well-watered, well-fed rose is described as better at resisting disease. | Moderate |
-| AF-21 | Gentler fungicide types (oils, sulfur, potassium bicarbonate) are described; one source warns home remedies are no cure-all. | Moderate |
-| AF-22 | Aphids: put up with a few, squash or hose them off, let natural enemies work. | High |
-| AF-23 | Insecticidal soaps and oils are gentler aphid sprays. | Moderate |
-| AF-24 | Strong broad-spectrum insecticides kill helpful insects and can make pests come back. | High |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-14 | Clearing fallen leaves and infected stems, especially before and over winter, reduces disease next season. | Very High | Yes |
+| AF-15 | Pick off infected leaves and shoots as soon as you see them. | High | Yes |
+| AF-16 | Put diseased leaves and prunings in the rubbish, not the compost. | Moderate | Yes |
+| AF-17 | Water at the base and keep the leaves dry. | High | Yes |
+| AF-18 | Powdery mildew is the exception: water on the leaves can reduce it. | Moderate | Yes |
+| AF-19 | Sun, spacing and air movement reduce leaf disease. | High | Yes |
+| AF-20 | A well-watered, well-fed rose is described as better at resisting disease. | Moderate | Yes |
+| AF-21 | Gentler fungicide types (oils, sulfur, potassium bicarbonate) are described; one source warns home remedies are no cure-all. | Moderate | Yes |
+| AF-22 | Aphids: put up with a few, squash or hose them off, let natural enemies work. | High | Yes |
+| AF-23 | Insecticidal soaps and oils are gentler aphid sprays. | Moderate | Yes |
+| AF-24 | Strong broad-spectrum insecticides kill helpful insects and can make pests come back. | High | Yes |
 
 ### Winter sprays after pruning (group 4)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-25 | New Zealand and Australian rose sources describe a winter clean-up spray after pruning. | Moderate |
-| AF-26 | It goes on after pruning and clearing up, onto the plant and the ground. | Moderate |
-| AF-27 | It is said to clean up fungal spores, mites and insects. | Low |
-| AF-28 | Sources differ on the order of winter sprays; the NZ Rose Society says keep lime sulphur and copper two weeks apart. | Low |
-| AF-29 | The UK and US institutional pages checked don't mention a winter spray. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-25 | New Zealand and Australian rose sources describe a winter clean-up spray after pruning. | Moderate | Yes |
+| AF-26 | It goes on after pruning and clearing up, onto the plant and the ground. | Moderate | Yes |
+| AF-27 | It is said to clean up fungal spores, mites and insects. | Low | On record only |
+| AF-28 | Sources differ on the order of winter sprays; the NZ Rose Society says keep lime sulphur and copper two weeks apart. | Low | On record only |
+| AF-29 | The UK and US institutional pages checked don't mention a winter spray. | Low | To say there's a gap |
 
 ### Safety (group 5)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-30 | Product, amount and frequency follow the label; in the UK this is the law. | Very High |
-| AF-31 | Gloves, safety gear and cleaning the sprayer are each mentioned by few sources. | Low |
-| AF-32 | Never spray open flowers or when bees are foraging; one NZ source says spray only in the evening. | High |
-| AF-33 | Two nurseries say don't spray in the heat. | Low |
-| AF-34 | Which products are allowed is set by each country and changes over time. | Moderate |
-| AF-35 | One NZ source says ask a local rose society or garden centre before spraying. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-30 | Product, amount and frequency follow the label; in the UK this is the law. | Very High | Yes |
+| AF-31 | Gloves, safety gear and cleaning the sprayer are each mentioned by few sources. | Low | Your call (E1) |
+| AF-32 | Never spray open flowers or when bees are foraging; one NZ source says spray only in the evening. | High | Yes |
+| AF-33 | Two nurseries say don't spray in the heat. | Low | Your call (E1) |
+| AF-34 | Which products are allowed is set by each country and changes over time. | Moderate | Yes |
+| AF-35 | One NZ source says ask a local rose society or garden centre before spraying. | Low | On record only |
+
+**For Pip, of the 35 findings:** 28 yes; 1 to say there's a gap; 4 on record only; 2 your call (E1).
 
 **Fit with what you've already approved.** The findings agree with the basic-care ARC: water at the base (F6) and clear fallen leaves before winter (F11, now backed by nine sources). They add that powdery mildew behaves differently with water on the leaves.
 
@@ -120,7 +136,7 @@ Each finding has its own rating. None is averaged into an overall figure.
 
 Recommendations are the ROC's, not decisions.
 
-1. **Approve the findings as `ARC-BUSHROSE-SPRAYING-01`?** Approve; approve with named changes; request further work; or decline.
+1. **Approve this dossier as `ARC-BUSHROSE-SPRAYING-01`?** Approve; approve with named changes; request further work; or decline. Approval accepts the research record; which findings Pip may use follows from section 4.
 
 2. **What is Pip's starting answer to "Should I spray my roses?"**
    (a) Spraying is optional: start with the basics, and consider a spray only if disease keeps coming back, using a product labelled for roses as its label says; (b) recommend regular preventive spraying; (c) recommend not spraying; (d) give both views with no starting answer.
@@ -129,6 +145,7 @@ Recommendations are the ROC's, not decisions.
 3. **Should Pip name any spray products?**
    (a) No: only "a spray labelled for roses", never brands, ingredients, rates or schedules; (b) name general types (lime sulphur, copper, oil, soap) but no brands or rates; (c) name specific products.
    *ROC recommendation: (a) now,* and look again at (b) once R-1 is settled.
+   *Note:* If you choose (b) or (c), AF-28 would need allowing too. It is Low: one rose society says lime sulphur and copper are kept two weeks apart.
 
 4. **What does Pip say about winter sprays after pruning?**
    (a) Describe it as an optional practice common in New Zealand and Australia, after clearing up; (b) say nothing, and give only the winter clear-up of leaves and prunings; (c) recommend it as standard.
@@ -142,11 +159,15 @@ Recommendations are the ROC's, not decisions.
    (a) Put up with a few, squash or hose them off, let natural enemies work; soaps or oils only if numbers stay high; no broad-spectrum insecticides; (b) treat them like leaf diseases.
    *ROC recommendation: (a).*
 
+E1. **Allow Pip to use AF-31 and AF-33?** Both are Low, so they would stay on record only. The ROC asks you to allow them, with the Low rating shown.
+   - **AF-31:** Protective equipment and sprayer cleaning are each stated by few sources. *Why:* It concerns the gardener's own safety when handling sprays. The rule to follow the label (AF-30, Very High) applies either way.
+   - **AF-33:** Two nurseries say not to spray in hot conditions. *Why:* The sources give it as a precaution, and decision 5 option (a) includes it ("or in heat").
+
 7. **Accept the defaults in R-1 to R-4, or commission any of them?**
 
 ## 9. What approval would and would not do
 
-Approving places the findings you accept, with the recorded disagreements, into Ask Pip's approved knowledge as `ARC-BUSHROSE-SPRAYING-01`. It doesn't itself write Pip's wording or name any product. Those follow as separate steps from your answers to decisions 2 to 6.
+Approving makes this dossier `ARC-BUSHROSE-SPRAYING-01`. Every finding goes on record there, with the recorded disagreements. Pip may use the findings marked Yes in section 5, and any you allow. It doesn't itself write Pip's wording or name any product. Those follow as separate steps from your answers to decisions 2 to 6.
 
 ## 10. Where to find the detail
 

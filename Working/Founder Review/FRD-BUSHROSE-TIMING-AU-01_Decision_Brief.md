@@ -4,7 +4,9 @@ This is the plain-language companion to `FRD-BUSHROSE-TIMING-AU-01`. It adds no 
 
 ## 1. What you are being asked to do
 
-Read this Brief. The decisions are on the 45 findings, on four further-research items, and on six questions about how Pip should show months in Australia, ending with one overall decision: **approve as `ARC-BUSHROSE-TIMING-AU-01`, approve with amendments, request further work, or decline.**
+Read this Brief, then answer the eight questions in the Review Form: six on how Pip should show months in Australia; one on further research; and the overall decision: **approve as `ARC-BUSHROSE-TIMING-AU-01`, approve with changes, request further work, or decline.**
+
+You are not asked to decide each of the 45 findings. Section 4 explains which ones Pip may use, and section 5 marks each one. You can still change, exclude or flag any finding in the form's last box.
 
 ## 2. The short version
 
@@ -33,87 +35,101 @@ Q1: which months for the main winter pruning, and what signal. Q2: when to start
 
 Each finding has its own rating. None is averaged into an overall figure.
 
+**What each rating means for Pip**
+
+| Rating | For Pip |
+|---|---|
+| Very High, High, Moderate | Pip may use the finding, with its rating shown. |
+| Low, Very Low | Kept on record only, except as below. |
+
+A Low finding is still used in two cases in this dossier:
+
+- **Yes, locally.** The finding says when or how a job is done in one named country, region or place, and comes from a reliable source: a rose or horticultural society, a botanic garden, a university or extension service, or a government body. Pip shows it only to gardeners in that place, with the source named.
+- **To say there's a gap.** The finding records that no source was found. Pip may use it only to say so.
+
 ## 5. What the research found
 
 ### Climate zones and where roses suit (group 1)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-1 | Gardening guides split Australia into five zones, with the edges given only as lists of towns. | Moderate |
-| AF-2 | The same towns get different zone names in different guides; one nursery puts Adelaide with Melbourne, Canberra and Hobart. | Moderate |
-| AF-3 | The Bureau of Meteorology uses a different scheme and calls Brisbane and Alice Springs subtropical. | High |
-| AF-4 | Rose sources time jobs by frost, coast and inland, not by the five zones. | High |
-| AF-5 | Rose sources never define what they mean by "mild", "cold", "cool", "warm" or "frosty". | Low |
-| AF-6 | Roses grow in most of Australia but are harder in hot, humid and tropical areas because of fungal disease. | Moderate |
-| AF-7 | Temperate and cool southern climates are described as the best for roses. | Low |
-| AF-8 | A garden near Darwin grows Hybrid Teas and Floribundas, flowering all year. | Low |
-| AF-9 | Near Brisbane, roses keep growing through winter without a rest. | Low |
-| AF-10 | In temperate climates, roses drop their leaves in autumn and rest until spring. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-1 | Gardening guides split Australia into five zones, with the edges given only as lists of towns. | Moderate | Yes |
+| AF-2 | The same towns get different zone names in different guides; one nursery puts Adelaide with Melbourne, Canberra and Hobart. | Moderate | Yes |
+| AF-3 | The Bureau of Meteorology uses a different scheme and calls Brisbane and Alice Springs subtropical. | High | Yes |
+| AF-4 | Rose sources time jobs by frost, coast and inland, not by the five zones. | High | Yes |
+| AF-5 | Rose sources never define what they mean by "mild", "cold", "cool", "warm" or "frosty". | Low | To say there's a gap |
+| AF-6 | Roses grow in most of Australia but are harder in hot, humid and tropical areas because of fungal disease. | Moderate | Yes |
+| AF-7 | Temperate and cool southern climates are described as the best for roses. | Low | On record only |
+| AF-8 | A garden near Darwin grows Hybrid Teas and Floribundas, flowering all year. | Low | On record only |
+| AF-9 | Near Brisbane, roses keep growing through winter without a rest. | Low | On record only |
+| AF-10 | In temperate climates, roses drop their leaves in autumn and rest until spring. | Low | On record only |
 
 ### Main winter pruning (group 2)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-11 | July is the month most often named for winter pruning. | High |
-| AF-12 | Near the coast, or where frost is rare: late June to the end of July, early July ideal. | Moderate |
-| AF-13 | Several sources start in June (Victoria, South Australia, Western Australia, Brisbane). | Moderate |
-| AF-14 | In cold, frosty or inland areas: wait until August. | High |
-| AF-15 | One Canberra source runs to early September. | Low |
-| AF-16 | The reason for waiting is that frost kills the new shoots pruning brings on. | High |
-| AF-17 | In the tropics, a light prune all year instead of a winter prune. | Low |
-| AF-18 | No Australian rose source times pruning by bud swell. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-11 | July is the month most often named for winter pruning. | High | Yes |
+| AF-12 | Near the coast, or where frost is rare: late June to the end of July, early July ideal. | Moderate | Yes |
+| AF-13 | Several sources start in June (Victoria, South Australia, Western Australia, Brisbane). | Moderate | Yes |
+| AF-14 | In cold, frosty or inland areas: wait until August. | High | Yes |
+| AF-15 | One Canberra source runs to early September. | Low | Yes, locally |
+| AF-16 | The reason for waiting is that frost kills the new shoots pruning brings on. | High | Yes |
+| AF-17 | In the tropics, a light prune all year instead of a winter prune. | Low | On record only |
+| AF-18 | No Australian rose source times pruning by bud swell. | Low | To say there's a gap |
 
 ### Feeding (group 3)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-19 | Start feeding in late August or September. | High |
-| AF-20 | Several sources go by the plant or the pruning date instead (new growth showing, shoots 2 cm long, three weeks after pruning, after first flowers). | Moderate |
-| AF-21 | One NSW society starts later in cold areas. | Low |
-| AF-22 | Last feed in late summer or early autumn (February or March). | Moderate |
-| AF-23 | Two sources feed later: April on sandy soils in South Australia, May in Western Australia. | Low |
-| AF-24 | Near Brisbane, feeding stops before winter (no month given). | Low |
-| AF-25 | Near Darwin, feed about every six weeks (no month given). | Low |
-| AF-26 | In Victoria, a newly planted bare-root rose isn't fed until late November or early December. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-19 | Start feeding in late August or September. | High | Yes |
+| AF-20 | Several sources go by the plant or the pruning date instead (new growth showing, shoots 2 cm long, three weeks after pruning, after first flowers). | Moderate | Yes |
+| AF-21 | One NSW society starts later in cold areas. | Low | Yes, locally |
+| AF-22 | Last feed in late summer or early autumn (February or March). | Moderate | Yes |
+| AF-23 | Two sources feed later: April on sandy soils in South Australia, May in Western Australia. | Low | Yes, locally |
+| AF-24 | Near Brisbane, feeding stops before winter (no month given). | Low | On record only |
+| AF-25 | Near Darwin, feed about every six weeks (no month given). | Low | On record only |
+| AF-26 | In Victoria, a newly planted bare-root rose isn't fed until late November or early December. | Low | Yes, locally |
 
 ### Late season (group 4)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-27 | A light summer trim between January and March times the autumn flowers. | High |
-| AF-28 | One NSW society varies the trim: January in cool areas, early February in mild, March in warm. | Low |
-| AF-29 | No Australian source gives a month to stop deadheading; some carry on into April and May. | Low |
-| AF-30 | One NSW society: new shoots that grow in March and April harden before mid-winter. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-27 | A light summer trim between January and March times the autumn flowers. | High | Yes |
+| AF-28 | One NSW society varies the trim: January in cool areas, early February in mild, March in warm. | Low | Yes, locally |
+| AF-29 | No Australian source gives a month to stop deadheading; some carry on into April and May. | Low | To say there's a gap |
+| AF-30 | One NSW society: new shoots that grow in March and April harden before mid-winter. | Low | Yes, locally |
 
 ### Planting and moving (group 5)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-31 | Plant bare-root roses in June and July. | High |
-| AF-32 | Some sources allow May or August; Canberra plants in August. | Moderate |
-| AF-33 | Potted roses can go in any time, avoiding hot weather. | Moderate |
-| AF-34 | Move an established rose in winter while it's dormant; one source names June. | Moderate |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-31 | Plant bare-root roses in June and July. | High | Yes |
+| AF-32 | Some sources allow May or August; Canberra plants in August. | Moderate | Yes |
+| AF-33 | Potted roses can go in any time, avoiding hot weather. | Moderate | Yes |
+| AF-34 | Move an established rose in winter while it's dormant; one source names June. | Moderate | Yes |
 
 ### Winter clear-up, spray and protection (group 6)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-35 | Clear fallen leaves and prunings at winter pruning, July to August. | High |
-| AF-36 | Where a winter clean-up spray is described, it goes on after pruning: usually July; June to July in WA; August in one SA source; August or early September in Canberra. | High |
-| AF-37 | The winter spray goes on before new growth appears. | Moderate |
-| AF-38 | No Australian source describes winter protection like mounding soil. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-35 | Clear fallen leaves and prunings at winter pruning, July to August. | High | Yes |
+| AF-36 | Where a winter clean-up spray is described, it goes on after pruning: usually July; June to July in WA; August in one SA source; August or early September in Canberra. | High | Yes |
+| AF-37 | The winter spray goes on before new growth appears. | Moderate | Yes |
+| AF-38 | No Australian source describes winter protection like mounding soil. | Low | To say there's a gap |
 
 ### Placing the gardener, and local variation (group 7)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-39 | Zone guides place you by listing example towns for each zone. | Moderate |
-| AF-40 | Sources say conditions, and so timing, vary within zones and states, even between neighbouring suburbs. | High |
-| AF-41 | The Bureau of Meteorology maps average frost days by month; the north is generally frost free and frosts fall mainly from late autumn to early spring. | High |
-| AF-42 | The Bureau says frost is very local and can vary over a very small area. | Moderate |
-| AF-43 | Some sources say: in frost areas, wait for the last frost or local conditions rather than a fixed month. | Moderate |
-| AF-44 | No Australian source says what to do in an unusually early or late season. | Low |
-| AF-45 | No Australian rose source gives months for the arid inland. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-39 | Zone guides place you by listing example towns for each zone. | Moderate | Yes |
+| AF-40 | Sources say conditions, and so timing, vary within zones and states, even between neighbouring suburbs. | High | Yes |
+| AF-41 | The Bureau of Meteorology maps average frost days by month; the north is generally frost free and frosts fall mainly from late autumn to early spring. | High | Yes |
+| AF-42 | The Bureau says frost is very local and can vary over a very small area. | Moderate | Yes |
+| AF-43 | Some sources say: in frost areas, wait for the last frost or local conditions rather than a fixed month. | Moderate | Yes |
+| AF-44 | No Australian source says what to do in an unusually early or late season. | Low | To say there's a gap |
+| AF-45 | No Australian rose source gives months for the arid inland. | Low | To say there's a gap |
+
+**For Pip, of the 45 findings:** 26 yes; 6 yes, locally; 6 to say there's a gap; 7 on record only.
 
 **Fit with what you've already approved.** The findings agree with the dormancy ARC that timing varies by climate and must be set locally, and they supply Australian months for it. No Australian source uses bud swell, but none contradicts it, so the bud-swell check stays as it is. They agree with the basic-care ARC on a spring-start, summer-taper feeding pattern and on clearing leaves in winter, and supply months. **They partly conflict with that ARC on stopping deadheading in autumn,** because Victorian and Western Australian sources carry on into April and May. **The basic-care ARC's winter mounding finding has no Australian support.** The bare-root months, moving in winter, the winter spray after pruning and the frost risk agree with the pending planting, spraying and hard-pruning dossiers; the sources shared with them were re-opened and confirmed, and two South Australian sources and a Canberra source extend bare-root planting into August.
 
@@ -142,11 +158,12 @@ Each finding has its own rating. None is averaged into an overall figure.
 
 Recommendations are the ROC's, not decisions.
 
-1. **Approve the findings as `ARC-BUSHROSE-TIMING-AU-01`?** Approve; approve with named changes; request further work; or decline.
+1. **Approve this dossier as `ARC-BUSHROSE-TIMING-AU-01`?** Approve; approve with named changes; request further work; or decline. Approval accepts the research record; which findings Pip may use follows from section 4.
 
 2. **Which bands does Pip use, and where are the edges?**
    (a) The two bands rose sources use (mild, coastal or frost-free; cold, frosty or inland), with subtropical and tropical shown separately where sources give months, and no line drawn; (b) the five gardening zones with their town lists; (c) the Bureau of Meteorology zones; (d) one band per state, using each state rose society's calendar.
    *ROC recommendation: (a).* The months in the sources hang on frost, not on the five zones, and the zone schemes disagree.
+   *Note:* AF-17 (the tropics) is Low and comes from one broadcast segment, so it stays on record only. Under option (a) Pip would then give no pruning timing for the tropics, as decision 7 option (a) also says.
 
 3. **How does Pip work out which band a gardener is in?**
    (a) From the town or region they enter, using the town lists; (b) from GPS and a climate map; (c) the gardener answers two questions (frosts most winters? near the coast or inland?); (d) suggest from the town where it's listed, then confirm with the questions.
@@ -172,7 +189,7 @@ Recommendations are the ROC's, not decisions.
 
 ## 9. What approval would and would not do
 
-Approving places the findings you accept, with the recorded disagreements, into Ask Pip's approved knowledge as `ARC-BUSHROSE-TIMING-AU-01`. It doesn't change the bud-swell check in `ARC-BUSHROSE-DORMANCY-01`, the basic-care ARC, or the pending planting, spraying and hard-pruning dossiers, and it doesn't write Pip's wording. Those follow as separate steps from your answers to decisions 2 to 7. Until then, Pip keeps showing season-level timing only, with the bud-swell check, and no months for Australia.
+Approving makes this dossier `ARC-BUSHROSE-TIMING-AU-01`. Every finding goes on record there, with the recorded disagreements. Pip may use the findings marked Yes in section 5, and any you allow. It doesn't change the bud-swell check in `ARC-BUSHROSE-DORMANCY-01`, the basic-care ARC, or the pending planting, spraying and hard-pruning dossiers, and it doesn't write Pip's wording. Those follow as separate steps from your answers to decisions 2 to 7. Until then, Pip keeps showing season-level timing only, with the bud-swell check, and no months for Australia.
 
 ## 10. Where to find the detail
 

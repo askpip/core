@@ -4,7 +4,9 @@ This is the plain-language companion to `FRD-BUSHROSE-TIMING-UK-01`. It adds no 
 
 ## 1. What you are being asked to do
 
-Read this Brief. The decisions are on the 34 findings, on four further-research items, and on seven questions about how Pip shows months to UK gardeners, ending with one overall decision: **approve as `ARC-BUSHROSE-TIMING-UK-01`, approve with amendments, request further work, or decline.**
+Read this Brief, then answer the nine questions in the Review Form: seven on how Pip shows months to UK gardeners; one on further research; and the overall decision: **approve as `ARC-BUSHROSE-TIMING-UK-01`, approve with changes, request further work, or decline.**
+
+You are not asked to decide each of the 34 findings. Section 4 explains which ones Pip may use, and section 5 marks each one. You can still change, exclude or flag any finding in the form's last box.
 
 ## 2. The short version
 
@@ -34,73 +36,87 @@ Q1: when the main pruning is done, and what signal it is tied to. Q2: when feedi
 
 Each finding has its own rating. None is averaged into an overall figure.
 
+**What each rating means for Pip**
+
+| Rating | For Pip |
+|---|---|
+| Very High, High, Moderate | Pip may use the finding, with its rating shown. |
+| Low, Very Low | Kept on record only, except as below. |
+
+A Low finding is still used in two cases in this dossier:
+
+- **Yes, locally.** The finding says when or how a job is done in one named country, region or place, and comes from a reliable source: a rose or horticultural society, a botanic garden, a university or extension service, or a government body. Pip shows it only to gardeners in that place, with the source named.
+- **To say there's a gap.** The finding records that no source was found. Pip may use it only to say so.
+
 ## 5. What the research found
 
 "National" means one window for the whole UK. "South" and "North" are the two broad areas some sources name.
 
 ### Main pruning (group 1)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-1 | National: main pruning in late winter to early spring, most often February to March. | High |
-| AF-2 | South or milder areas: usually around mid-February. | Moderate |
-| AF-3 | North or colder areas: wait until March, or mid to late March. | Moderate |
-| AF-4 | National: several rose growers say January and February. | Moderate |
-| AF-5 | One nursery: November and December in the Midlands and south, January to late February in the north and Scotland. | Very Low |
-| AF-6 | One seed company: any frost-free day from November to March. | Low |
-| AF-7 | Sources pair the month with a sign: growth resuming, buds, dormancy, or a frost-free day. | Moderate |
-| AF-8 | One grower: pruning that slips into March is still worth doing. | Low |
-| AF-9 | Two growers: a light trim of tall bushes in autumn (September to November) against winter wind, not a hard prune. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-1 | National: main pruning in late winter to early spring, most often February to March. | High | Yes |
+| AF-2 | South or milder areas: usually around mid-February. | Moderate | Yes |
+| AF-3 | North or colder areas: wait until March, or mid to late March. | Moderate | Yes |
+| AF-4 | National: several rose growers say January and February. | Moderate | Yes |
+| AF-5 | One nursery: November and December in the Midlands and south, January to late February in the north and Scotland. | Very Low | On record only |
+| AF-6 | One seed company: any frost-free day from November to March. | Low | On record only |
+| AF-7 | Sources pair the month with a sign: growth resuming, buds, dormancy, or a frost-free day. | Moderate | Yes |
+| AF-8 | One grower: pruning that slips into March is still worth doing. | Low | On record only |
+| AF-9 | Two growers: a light trim of tall bushes in autumn (September to November) against winter wind, not a hard prune. | Low | On record only |
 
 ### Feeding (group 2)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-10 | National: first feed in spring, mostly March or April. | High |
-| AF-11 | National: another feed in mid-summer after the first flush. | High |
-| AF-12 | One grower: last feed by the end of August. | Low |
-| AF-13 | That grower's reason: stopping lets the rose slow down and avoids frost-damaged new growth. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-10 | National: first feed in spring, mostly March or April. | High | Yes |
+| AF-11 | National: another feed in mid-summer after the first flush. | High | Yes |
+| AF-12 | One grower: last feed by the end of August. | Low | On record only |
+| AF-13 | That grower's reason: stopping lets the rose slow down and avoids frost-damaged new growth. | Low | On record only |
 
 ### Deadheading and the autumn cut-off (group 3)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-14 | National: no month given to stop deadheading repeat-flowering roses; one grower still deadheads in October. | Moderate |
-| AF-15 | Deadheading stops in mid-summer only for roses grown for their hips. | Moderate |
-| AF-16 | One grower: don't prune hard in autumn, as frost can damage the tips. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-14 | National: no month given to stop deadheading repeat-flowering roses; one grower still deadheads in October. | Moderate | Yes |
+| AF-15 | Deadheading stops in mid-summer only for roses grown for their hips. | Moderate | Yes |
+| AF-16 | One grower: don't prune hard in autumn, as frost can damage the tips. | Low | On record only |
 
 ### Planting and moving (group 4)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-17 | National: bare-root roses are planted late autumn to early spring, while dormant. | High |
-| AF-18 | Not into frozen ground. | Moderate |
-| AF-19 | National: potted roses can go in at any time if the ground isn't frozen, waterlogged or very dry. | High |
-| AF-20 | One source prefers September to November and March to May for potted roses. | Low |
-| AF-21 | National: move a rose while dormant; windows given range from late October to mid-March. | Moderate |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-17 | National: bare-root roses are planted late autumn to early spring, while dormant. | High | Yes |
+| AF-18 | Not into frozen ground. | Moderate | Yes |
+| AF-19 | National: potted roses can go in at any time if the ground isn't frozen, waterlogged or very dry. | High | Yes |
+| AF-20 | One source prefers September to November and March to May for potted roses. | Low | On record only |
+| AF-21 | National: move a rose while dormant; windows given range from late October to mid-March. | Moderate | Yes |
 
 ### Winter clear-up, spraying and protection (group 5)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-22 | National: clear fallen leaves in autumn (October and November). | High |
-| AF-23 | The RHS: pick off leaves still on the plant over winter. | Low |
-| AF-24 | Only one product seller describes a winter spray (late winter or early spring); the RHS doesn't. | Very Low |
-| AF-25 | One grower: in November, mulch over roots that show at the surface. | Low |
-| AF-26 | No UK source describes heaping soil over the base for winter. | Low |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-22 | National: clear fallen leaves in autumn (October and November). | High | Yes |
+| AF-23 | The RHS: pick off leaves still on the plant over winter. | Low | Yes, locally |
+| AF-24 | Only one product seller describes a winter spray (late winter or early spring); the RHS doesn't. | Very Low | On record only |
+| AF-25 | One grower: in November, mulch over roots that show at the surface. | Low | On record only |
+| AF-26 | No UK source describes heaping soil over the base for winter. | Low | To say there's a gap |
 
 ### Areas, placing the gardener, and odd seasons (group 6)
 
-| ID | Finding | Confidence |
-|---|---|---|
-| AF-27 | Sources that split the UK use two broad areas, south against north or colder, and draw no line. | Moderate |
-| AF-28 | Only main pruning gets different months by area. | Moderate |
-| AF-29 | The RHS has a five-region frost guide (for tender plants), from the south-west tip to the Highlands. | Moderate |
-| AF-30 | The Met Office: last frosts come earlier in the south and on coasts, later in the north and on high ground. | High |
-| AF-31 | Sheltered, town and coastal gardens are earlier; exposed, high and frost-pocket gardens later. | High |
-| AF-32 | No source explains how a gardener tells which area they are in. | Low |
-| AF-33 | Springs vary from year to year and late frosts still happen. | Moderate |
-| AF-34 | The Met Office: the average last spring frost is getting earlier. | Moderate |
+| ID | Finding | Confidence | For Pip |
+|---|---|---|---|
+| AF-27 | Sources that split the UK use two broad areas, south against north or colder, and draw no line. | Moderate | Yes |
+| AF-28 | Only main pruning gets different months by area. | Moderate | Yes |
+| AF-29 | The RHS has a five-region frost guide (for tender plants), from the south-west tip to the Highlands. | Moderate | Yes |
+| AF-30 | The Met Office: last frosts come earlier in the south and on coasts, later in the north and on high ground. | High | Yes |
+| AF-31 | Sheltered, town and coastal gardens are earlier; exposed, high and frost-pocket gardens later. | High | Yes |
+| AF-32 | No source explains how a gardener tells which area they are in. | Low | To say there's a gap |
+| AF-33 | Springs vary from year to year and late frosts still happen. | Moderate | Yes |
+| AF-34 | The Met Office: the average last spring frost is getting earlier. | Moderate | Yes |
+
+**For Pip, of the 34 findings:** 21 yes; 1 yes, locally; 2 to say there's a gap; 10 on record only.
 
 **Fit with what you've already approved.** The findings agree with the dormancy ARC that the calendar window depends on climate and comes later where it's colder, and none of the UK sources uses months in place of a signal on the plant. One source (Love the Garden) says to prune "before leaf buds are starting to swell", which isn't quite the same as Pip's bud-swell check. The feeding months fit the approved spring-start, summer-taper pattern. **Two differ:** UK sources give no autumn stop for deadheading, where the approved pattern (from US sources) stops in early-to-mid autumn; and no UK source describes the soil-heaping winter protection approved from US sources. The planting, moving, leaf and spray sources from the planting and spraying dossiers were re-opened and agree.
 
@@ -130,7 +146,7 @@ Each finding has its own rating. None is averaged into an overall figure.
 
 Recommendations are the ROC's, not decisions.
 
-1. **Approve the findings as `ARC-BUSHROSE-TIMING-UK-01`?** Approve; approve with named changes; request further work; or decline.
+1. **Approve this dossier as `ARC-BUSHROSE-TIMING-UK-01`?** Approve; approve with named changes; request further work; or decline. Approval accepts the research record; which findings Pip may use follows from section 4.
 
 2. **Does the UK need areas ("bands")?**
    (a) No, one window for everything; (b) one window for everything, with a note that the south usually prunes around mid-February and the north and colder areas wait until March; (c) two areas for pruning only; (d) five areas, using the RHS frost regions.
@@ -164,7 +180,7 @@ Recommendations are the ROC's, not decisions.
 
 ## 9. What approval would and would not do
 
-Approving places the findings you accept, with the recorded disagreements, into Ask Pip's approved knowledge as `ARC-BUSHROSE-TIMING-UK-01`. It doesn't itself change the bud-swell check, the basic-care ARC's deadheading or winter-protection findings, or the planting and spraying decisions still pending, and it doesn't write Pip's wording. Those follow as separate steps from your answers to decisions 2 to 8. Until then, Pip keeps showing season-level timing only for the UK.
+Approving makes this dossier `ARC-BUSHROSE-TIMING-UK-01`. Every finding goes on record there, with the recorded disagreements. Pip may use the findings marked Yes in section 5, and any you allow. It doesn't itself change the bud-swell check, the basic-care ARC's deadheading or winter-protection findings, or the planting and spraying decisions still pending, and it doesn't write Pip's wording. Those follow as separate steps from your answers to decisions 2 to 8. Until then, Pip keeps showing season-level timing only for the UK.
 
 ## 10. Where to find the detail
 

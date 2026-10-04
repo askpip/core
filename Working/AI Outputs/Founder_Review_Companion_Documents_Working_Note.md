@@ -1,105 +1,144 @@
-# Founder Review Companion Documents — Decision Brief & Review Form
+# Founder Review Companion Documents — Briefs and Forms
 
 ## Document Metadata
 
-**Document Title:** Founder Review Companion Documents — Decision Brief & Review Form
-**Document Type:** Draft Reference Note (not a controlled Standard — see "Status of This Pattern" below)
-**Status:** Draft — for Founder awareness, not Founder approval as a governed process
-**Prepared By:** Claude, at Shaphan's request
-**Date:** 22 September 2026
-**Version:** 0.1
-**Purpose:** To record, in one place, the pattern used twice so far (`FRD-BUSHROSE-PRUNINGFRAMEWORK-01` and `FRD-BUSHROSE-BASICCARE-01`) for presenting a completed Founder Review Dossier to the Founders for decision — so a future AI session can reproduce it without reverse-engineering two example instances from scratch, the way this note's author had to.
-**Related Documents:** `Standards/Founder_Review_Dossier_Standard.md` (governs the FRD itself); `Shed/README.md` (Garden Shed mechanics); `AI/Skills/Garden_Shed_Operations_Skill.md` (how an AI session posts the notice/links/todo)
-**Note:** This is a plain working note, not a Standard. It exists so the pattern is written down somewhere while it is still a trial. See "Status of This Pattern" immediately below before treating anything here as a requirement.
+**Document Title:** Founder Review Companion Documents — Briefs and Forms
+**Document Type:** Operational Reference Note (not a Standard)
+**Status:** Draft — the patterns below are on trial with six dossiers and take effect when the Founders approve `Working/Drafts/Standards/Founder_Review_and_Build_Check_Amendment_Proposal.md`
+**Prepared By:** Research Origin Curator (ROC), at a Founder's request
+**Date:** 5 October 2026
+**Version:** 0.4
+**Purpose:** To give the patterns for the four documents a Founder reads or fills in: the Decision Brief and Review Form that go with a Founder Review Dossier (FRD), and the Build Check Brief and Build Check Form that go with a package of PIP Knowledge Records (PKRs) built by the Knowledge Integration Technician (KIT).
+**Related Documents:** `Knowledge Curation System/Standards/Founder_Review_Dossier_Standard.md` §2.6 and §2.6A (as proposed); `Knowledge Curation System/Operations Manuals/ROC_Operations_Manual.md` §11.4A, §11.4B and Chapter 14 (as proposed); `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md`; `Shed/README.md` ("Fillable forms"); `AI/Skills/Garden_Shed_Operations_Skill.md`
+**Revision Note:** Version 0.4 replaces the long Review Form, which asked for a decision on every finding, with a short form, and adds the Build Check Brief and Build Check Form. Version 0.1 recorded the first pattern.
 
 ---
 
-## Status of This Pattern
+## 1. The Two Review Points
 
-This is **explicitly a trial, not a governed part of the Founder Review Dossier process.** Both existing instances say so on their own metadata: the Decision Brief is "a working aid, trial. Not a governed document. Not the Founder Review Documentation," and it "adds no evidence, changes no finding and changes no confidence level." The Founder Review Dossier (FRD) itself remains the sole governed record of the research; the Brief and the Review Form exist only to make that record easier for a Founder to act on.
+| When | What a Founder reads | Where a Founder decides | What is being decided |
+|---|---|---|---|
+| After research | Decision Brief | Review Form | How Pip handles the subject, any exceptions, further research, and whether the dossier becomes an Approved Research Compilation (ARC) |
+| After KIT builds | Build Check Brief | Build Check Form | Whether Pip's words are approved for publishing |
 
-Founder Review Dossier Standard (FRDS) §2.4 is what makes room for this: it "retired an earlier summary document and allows one to be reinstated by a Founder decision." The Decision Brief is that reinstated summary, in a new, form-paired shape.
+The dossier and the PKR package remain the governed records. The four documents here add no evidence, finding or confidence level. Where one differs from the record it summarises, the record governs.
 
-If the Founders decide, after this trial, that the pattern should become a permanent part of the FRD process, that is a governance decision for them to make — it would mean amending FRDS to require it, not just continuing to repeat it informally. This note does not make that decision and should not be read as having made it. Until then, treat everything below as "how it's been done twice," not "how it must be done."
+None of the four narrates how it was produced, addresses a reviewer by name, or asks about scheduling or what work comes next.
 
----
+## 2. Decision Brief
 
-## What the Two Companion Documents Are
+Plain language, proportionate to the dossier. Sections, in this order:
 
-**The Decision Brief** is a plain-English, proportionate walkthrough of the FRD, written for a Founder who wants to understand what was found and what they're being asked to decide without reading the full dossier line by line. It restates findings, confidence levels, points where sources disagreed, and open questions — but it is downstream of the FRD, never a substitute source for it. If the Brief and the FRD ever disagree, the FRD governs.
+1. **What you are being asked to do.** The number of questions and what they cover.
+2. **The short version.** The main points, each with its confidence.
+3. **What was researched.** The commissioned questions.
+4. **How to read the strength ratings.** The Evidence Confidence Levels the dossier uses, and what each means for Pip: Very High, High and Moderate findings are available to Pip; Low and Very Low findings stay on record only unless one of the four cases in ROC Operations Manual §11.4B applies.
+5. **What the research found.** Every finding in tables, grouped as in the dossier, with its identifier, plain statement, confidence, and a **For Pip** column: "Yes"; "Yes, locally" (one reliable source, shown for that place with the source named); "To say there's a gap"; "On record only"; or "Your call", with the question it belongs to.
+6. **Where the sources differ.** Each recorded disagreement.
+7. **What the sources leave open, and the default for each.**
+8. **The decisions you are asked to make.** The dossier's decisions about Pip, with options and the ROC's recommendation; then any exception; then further research; then the overall decision.
+9. **What approval would and would not do.**
+10. **Where to find the detail.**
+11. **Appendix: source key.**
 
-**The Review Form** is a fillable document, in the shed-form v1 markup (see `Shed/README.md`, "Fillable forms," and the operational reference in `AI/Skills/Garden_Shed_Operations_Skill.md`), that lets each Founder record their own decision on each finding and open question privately, with autosave, and see where the two Founders' answers differ once both have finished. It is where the actual decision gets recorded — the Brief only informs it.
+## 3. Review Form
 
-Together, they are the thing a Founder actually interacts with when deciding whether to approve an FRD; the FRD itself is the archival record of the research that produced them.
+The form asks only what Founder Review Dossier Standard §2.6A allows. Its first line is `<!-- shed-form v1 -->`. Skeleton:
 
----
+```
+<!-- shed-form v1 -->
+# Founder Review Form — <dossier title>
 
-## When to Create Them
+<Two or three sentences: read the Brief first; what the form asks; how findings are treated.>
 
-After an FRD is complete and would otherwise simply be handed to the Founders to read cold. Not every FRD necessarily needs this treatment — it is proportionate to how much there is to walk through (the BASICCARE pair, at 13 findings across 5 simple groups, was deliberately much shorter than the PRUNINGFRAMEWORK pair's 30 findings and full image-permissions register) — but so far it has been produced for both FRDs put to the Founders since the trial began.
+## How Pip handles this
 
----
+[[choice:d2|2. <Decision>. ROC recommends (a).|(a) …;(b) …;(c) …|comment]]
+[[more:d2m|The options|<each option in full, and the ROC's reason>]]
 
-## Required Structure
+## Exceptions
 
-### Decision Brief
+[[choice:e1|<What the ROC asks to allow, and why>|Allow;Keep on record only;Allow some (say which)|comment]]
+[[more:e1m|The findings|<each finding's statement, backing and limits>]]
 
-Both existing Briefs follow the same skeleton, scaled to the subject:
+## Further research
 
-1. Document Metadata + a "what this is / is not" callout (the trial-status language above, adapted per document)
-2. What you are being asked to do
-3. The short version (a compressed summary, including the spread of confidence levels across findings)
-4. What was researched
-5. How to read the strength ratings (a table explaining the Evidence Confidence Level scale actually used by that FRD — the pruning FRD only used 3 levels; BASICCARE used the full 6-level Evidence Assessment Standard scale)
-6. What the research found, grouped into tables by commissioned question or topic area, each finding given an ID, a plain-language statement, its strength/confidence, its evidentiary backing, and anything worth knowing about it
-7. Where the sources disagree (each conflict given its own ID and a short account of what's on each side)
-8. What the sources leave open / further research (each gap given its own ID)
-9. Images: where we stand (an image-permissions register) — only where the FRD's scope includes images; omitted entirely when it doesn't, as in BASICCARE
-10. What approval would and would not do
-11. The decisions you are asked to make (a numbered list, plus a further-research table when relevant)
-12. Where to find the detail (pointers into the FRD's own sections)
-13. Appendix: source key and/or glossary
+[[choice:research|The defaults in Brief section 7 apply unless you say otherwise. Commission any of these now?|No, use the defaults;Yes (say which)|why]]
+[[more:researchm|The open items and their defaults|<each item and its default>]]
 
-### Review Form
+## Your overall decision
 
-Both existing forms open with `<!-- shed-form v1 -->` as their literal first line (this is what makes the Shed render them as a fillable form instead of plain text — see `Shed/README.md`), then follow this shape:
+[[choice:outcome||Approve as ARC-…;Approve with the changes I've noted;Request further work before deciding;Decline to approve]]
 
-1. A short intro plus the answer-choice legend
-2. A `[[choice]]` confirming the Founder has read the Brief
-3. "Before the findings" — a handful of general questions
-4. The findings themselves, grouped to match the Brief's groupings, each as a heading giving the finding's ID/label/confidence, a blockquote restating it, a `[[claim:...|Approve;Approve with a change;Flag;Do not approve]]`, and a `[[more:...]]` collapsible giving its backing and caveats; each group ends with a `[[comment:...]]` for general remarks on that group
-5. "Where the sources disagree" — one `[[claim:...|Accept as recorded;Commission research;Give a direction]]` plus a `[[more:...]]` per conflict
-6. "Further research" — one `[[choice:...||Commission next;Commission later;Not needed;Not sure|comment]]` plus a `[[more:...]]` per open item
-7. Images, if in scope
-8. "The other decisions" — the numbered decisions from the Brief's §11, restated as form items
-9. "Your overall decision" — an `[[choice:outcome|...]]` plus free-text `[[area:...]]` fields for conditions/further-research direction/other remarks
-10. An optional closing section asking for feedback on the Brief and Form themselves
+## Anything else | optional
 
-The shed-form directive syntax itself (`[[choice]]`, `[[claim]]`, `[[more]]`, `[[comment]]`, `[[area]]`, `[[text]]`) is specified in `Shed/README.md`'s "Fillable forms" section and summarised in `AI/Skills/Garden_Shed_Operations_Skill.md` — this note does not repeat it.
+[[area:notes|Any finding, disagreement or open item you want changed, kept out of Pip, or looked at again. Give its number and what you want.]]
+```
 
----
+Rules:
 
-## File Naming and Location
+- One question for each of the dossier's decisions about Pip. Keep the dossier's numbering.
+- Include the Exceptions section only where the ROC asks a Founder to allow a vital finding or a class of findings. Local findings from one reliable source and records of a gap need no question.
+- One question for further research, however many open items there are.
+- No question on any individual finding, and no "have you read", scope or confidence-check questions.
+- Never rename a question's identifier once anyone has answered the form.
 
-Both companion documents take the FRD's own identifier and add a suffix:
+## 4. Build Check Brief
 
-- `FRD-<subject-scope>-<sequence>_Decision_Brief.md`
-- `FRD-<subject-scope>-<sequence>_Review_Form.md`
+Prepared by the ROC after the Build Check (ROC Operations Manual Chapter 14, as proposed). Sections, in this order:
 
-While an FRD is pending a Founder decision, all three files — the FRD itself, its Decision Brief and its Review Form — live together in `Working/Founder Review/`. This was not obvious from the Founder Review Dossier Standard alone; it is established by precedent (`FRD-BUSHROSE-PRUNINGFRAMEWORK-01` and its companions live only there, with no copy elsewhere; `FRD-BUSHROSE-BASICCARE-01` was originally filed only in the Mother Information Library and had to be corrected to also live in `Working/Founder Review/`, matching the precedent). Some earlier, already-decided FRDs (`DEADWOOD`, `RECENTPLANT`) have duplicate copies in both `Working/Founder Review/` and `Knowledge Curation System/Mother Information Library/Founder Review Dossiers/` — the working assumption is that `Working/Founder Review/` is the home for pending review material generally, and the Mother Information Library copy is added once (or if) a Founder decision is recorded, without removing the working copy.
+1. **What this is.** The package, the ARC or ARCs it was built from, and what is being asked: approval to publish.
+2. **What gardeners will see.** Pip's words, record by record and statement by statement, in a table: the statement, its confidence, the finding it rests on, and the result (Pass, Pass with a note, Fail).
+3. **The check in numbers.** Statements checked, passed, passed with a note and failed. Sources reopened: confirmed, changed, could not open.
+4. **Notes and failures.** Each one, and what was done about it. A failed statement is corrected and rechecked before the Brief goes to the Founders, and the Brief says so.
+5. **What was left out.** The findings KIT did not use, grouped by reason: on record only, or not needed.
+6. **Decisions still open.** Any choice the package needs from a Founder, with options. Omitted when there is none.
+7. **Where to find the detail.** The package file, the ARC and its Source Register.
 
----
+## 5. Build Check Form
 
-## Presenting the Pair to the Founders
+A check-off. Skeleton:
 
-Once both companion documents exist, they are surfaced through the Garden Shed's notice/approval workflow, not simply left in the repository for the Founders to find on their own:
+```
+<!-- shed-form v1 -->
+# Build Check Form — <package title>
 
-1. A "Founder Attention Request" notice is posted to the Notice Board, `requires_approval = true`, describing what's being asked and pointing the Founder at the Brief first, then the Review Form.
-2. The notice is linked to all three documents — the FRD, the Decision Brief, and the Review Form — via `shed_item_links`, in that order, not just the single `linked_item_id` column (which alone only supports one document).
-3. The auto-created to-do (from the `shed_items_notice_todo_trg` trigger) is edited to name the FRD's identifier and spell out the two-step action: read the Brief, then fill in and Finish the Review Form.
+<Two sentences: read the Build Check Brief first; this approves Pip's words for publishing.>
 
-The exact mechanics of all three steps — including why direct SQL inserts are used instead of the passphrase-gated RPCs — are in `AI/Skills/Garden_Shed_Operations_Skill.md`, not repeated here.
+## Decisions still open
 
----
+[[choice:k1|<Decision>|(a) …;(b) …|comment]]
+
+## Approval to publish
+
+[[choice:publish||Approve for publishing;Approve with the changes I've noted;Hold]]
+
+## Anything else | optional
+
+[[area:notes|Any statement you want reworded, removed or looked at again. Give its number and what you want.]]
+```
+
+Omit "Decisions still open" when there is none. The form then has one question.
+
+## 6. File Naming and Location
+
+| Document | Name | Location |
+|---|---|---|
+| Decision Brief | `FRD-<subject-scope>-<sequence>_Decision_Brief.md` | `Working/Founder Review/` |
+| Review Form | `FRD-<subject-scope>-<sequence>_Review_Form.md` | `Working/Founder Review/` |
+| Build Check Brief | `<package file name>_Build_Check_Brief.md` | `Working/Founder Review/` |
+| Build Check Form | `<package file name>_Build_Check_Form.md` | `Working/Founder Review/` |
+
+Renaming or moving a form's file makes the Garden Shed delete the old row and every saved answer with it. Change a form's content in place.
+
+## 7. Presenting to the Founders
+
+Each pair is surfaced through the Garden Shed's notice workflow (`AI/Skills/Garden_Shed_Operations_Skill.md` §5):
+
+1. A "Founder Attention Request" notice on the Notice Board, requiring approval.
+2. Links from the notice to the record, the brief and the form, in that order.
+3. The to-do the notice creates, edited to name the record and the action: read the brief, then fill in and Finish the form.
+
+Either Founder's finished, decisive form is enough on its own for the ROC or KIT to act.
 
 ## End of Document
