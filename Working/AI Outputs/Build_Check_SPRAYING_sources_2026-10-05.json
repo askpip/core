@@ -1,0 +1,1872 @@
+[
+ {
+  "code": "NZRS-FAQ",
+  "opened": true,
+  "finding": "AF-1",
+  "recorded": "\"Yes you can. Grow varieties that are very disease tolerant.\"",
+  "result": "Confirmed",
+  "page_wording": "Yes you can. Grow varieties that are very disease tolerant.",
+  "supports_finding": "yes",
+  "note": "Exact. Under the question 'Can I grow roses without spraying them?'. Page shows no date."
+ },
+ {
+  "code": "NZRS-FAQ",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Grow varieties that are very disease tolerant.\"",
+  "result": "Confirmed",
+  "page_wording": "Grow varieties that are very disease tolerant.",
+  "supports_finding": "yes",
+  "note": "Exact; part of the answer to 'Can I grow roses without spraying them?'."
+ },
+ {
+  "code": "NZRS-FAQ",
+  "opened": true,
+  "finding": "AF-19",
+  "recorded": "\"Mix your roses in with other garden plants in a spot that gets full sun.\"",
+  "result": "Confirmed",
+  "page_wording": "Mix your roses in with other garden plants in a spot that gets full sun.",
+  "supports_finding": "partly",
+  "note": "Exact. Supports full sun and mixed planting; the sentence does not mention spacing or air movement."
+ },
+ {
+  "code": "NZRS-FAQ",
+  "opened": true,
+  "finding": "AF-20",
+  "recorded": "\"Water and fertilise them well and you can grow good roses with minimal disease problems.\"",
+  "result": "Confirmed",
+  "page_wording": "Water and fertilise them well and you can grow good roses with minimal disease problems.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "NZRS-W",
+  "opened": true,
+  "finding": "AF-14",
+  "recorded": "\"Rake up all fallen leaves and burn them as they can harbour spores that spread disease later on.\"",
+  "result": "Confirmed",
+  "page_wording": "Rake up all fallen leaves and burn them as they can harbour spores that spread disease later on.",
+  "supports_finding": "yes",
+  "note": "Exact. Page is an extract from NZ Rosarian, June 1996 (Peter Elliott); advice is 30 years old."
+ },
+ {
+  "code": "NZRS-W",
+  "opened": true,
+  "finding": "AF-16",
+  "recorded": "\"Rake up all fallen leaves and burn them\"",
+  "result": "Confirmed",
+  "page_wording": "Rake up all fallen leaves and burn them as they can harbour spores that spread disease later on.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Says burn; composting is not mentioned in the fragment. Dated 1996."
+ },
+ {
+  "code": "NZRS-W",
+  "opened": true,
+  "finding": "AF-25",
+  "recorded": "\"In preparation for the spring, it is highly recommended that clean up sprays be applied in June.\"",
+  "result": "Confirmed",
+  "page_wording": "In preparation for the spring, it is highly recommended that clean up sprays be applied in June.",
+  "supports_finding": "partly",
+  "note": "Exact. This sentence does not say the June sprays come after pruning; elsewhere the page says 'Most people prune in July and even August'. A spray after pruning is described separately on the page ('post prune spray of copper and oil'). Dated 1996."
+ },
+ {
+  "code": "NZRS-W",
+  "opened": true,
+  "finding": "AF-28",
+  "recorded": "\"Note that you must not use lime sulphur and copper based sprays within 2 weeks of each other.\"",
+  "result": "Confirmed",
+  "page_wording": "Note that you must not use lime sulphur and copper based sprays within 2 weeks of each other.",
+  "supports_finding": "yes",
+  "note": "Exact. Followed by 'Make sure of this when you plan your spray programme.' The page does not say which of the two is applied first. Dated 1996."
+ },
+ {
+  "code": "NZRS-W",
+  "opened": true,
+  "finding": "AF-36",
+  "recorded": "\"Don't forget a post prune spray of copper and oil to complete the job.\"",
+  "result": "Confirmed",
+  "page_wording": "Don't forget a post prune spray of copper and oil to complete the job.",
+  "supports_finding": "yes",
+  "note": "Exact. Pruning is given as July and even August. Dated 1996."
+ },
+ {
+  "code": "NZRS-W",
+  "opened": true,
+  "finding": "AF-37",
+  "recorded": "\"Lime Sulphur at winter strength\"",
+  "result": "Confirmed",
+  "page_wording": "Lime Sulphur at winter strength is 1 part to 15 parts of water.",
+  "supports_finding": "partly",
+  "note": "Fragment exact, from the longer sentence given (a dilution rate). Page names lime sulphur among the winter clean-up sprays (June) and for painting on canes against white scale; it does not say lime sulphur is applied after pruning (the post-prune spray named is copper and oil). Dated 1996."
+ },
+ {
+  "code": "NZRS-W",
+  "opened": true,
+  "finding": "AF-38",
+  "recorded": "\"Don't forget a post prune spray of copper and oil to complete the job.\"",
+  "result": "Confirmed",
+  "page_wording": "Don't forget a post prune spray of copper and oil to complete the job.",
+  "supports_finding": "yes",
+  "note": "Exact. Oil is applied together with copper after pruning. Dated 1996."
+ },
+ {
+  "code": "NZRS-ABG",
+  "opened": true,
+  "finding": "AF-1",
+  "recorded": "\"No spraying is done at the gardens with roses mixed in with other garden plants including New Zealand natives.\"",
+  "result": "Confirmed",
+  "page_wording": "No spraying is done at the gardens with roses mixed in with other garden plants including New Zealand natives.",
+  "supports_finding": "yes",
+  "note": "Exact. Page dated 7 February 2016, modified 31 May 2017."
+ },
+ {
+  "code": "ABG-R",
+  "opened": true,
+  "finding": "AF-1",
+  "recorded": "\"We only grow those that perform well and stay healthy without spraying.\"",
+  "result": "Confirmed",
+  "page_wording": "We only grow those that perform well and stay healthy without spraying.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "ABG-R",
+  "opened": true,
+  "finding": "AF-14",
+  "recorded": "\"Always tidy up any dead and diseased fallen leaves\"",
+  "result": "Confirmed",
+  "page_wording": "Always tidy up any dead and diseased fallen leaves and apply fertiliser in spring to help keep plants healthy.",
+  "supports_finding": "partly",
+  "note": "Fragment is exact, from the longer sentence given. The sentence gives the purpose as keeping plants healthy; it does not mention winter or next season's disease."
+ },
+ {
+  "code": "ABG-R",
+  "opened": true,
+  "finding": "AF-20",
+  "recorded": "\"apply fertiliser in spring to help keep plants healthy\"",
+  "result": "Confirmed",
+  "page_wording": "Always tidy up any dead and diseased fallen leaves and apply fertiliser in spring to help keep plants healthy.",
+  "supports_finding": "partly",
+  "note": "Fragment is exact, from the longer sentence given. Covers feeding only (not watering) and says 'healthy', not disease resistance specifically."
+ },
+ {
+  "code": "SIBB",
+  "opened": true,
+  "finding": "AF-1",
+  "recorded": "\"Miticides, insecticides and fungicides are not used.\"",
+  "result": "Confirmed",
+  "page_wording": "Miticides, insecticides and fungicides are not used.",
+  "supports_finding": "yes",
+  "note": "Exact, in the abstract on the listed page. Followed by 'Suitable cultivars are chosen for public display...'."
+ },
+ {
+  "code": "SIBB",
+  "opened": true,
+  "finding": "AF-10",
+  "recorded": "\"These were to be applied at two- to three-week intervals from September to May.\"",
+  "result": "Confirmed",
+  "page_wording": "These were to be applied at two- to three-week intervals from September to May.",
+  "supports_finding": "yes",
+  "note": "NOT on the listed URL: that page holds only the abstract, references and a PDF link, and says nothing about spray intervals or months. The sentence was found word for word in the article's full-text PDF linked from that page (https://journals.rbge.org.uk/rbgesib/article/download/353/1797), opened with WebFetch. Context: it describes a past regime - 'A typical pesticide regime recommended by ABG for a home gardener at this time was the use of [three named products]...These were to be applied at two- to three-week intervals from September to May.' It is historic practice the gardens no longer follow, and the interval is two to three weeks."
+ },
+ {
+  "code": "GU-DIS",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"great tolerance to the common diseases\"",
+  "result": "Confirmed",
+  "page_wording": "In recent years, great progress has been made in producing new varieties that have great tolerance to the common diseases.",
+  "supports_finding": "partly",
+  "note": "Fragment exact. The sentence reports that new varieties are tolerant; it is followed by 'That is not to say they won't get them, but will look good for longer and still perform if affected.' It does not itself say that choosing them is a principal way to reduce disease. Page shows no date; text refers to a 2013 event."
+ },
+ {
+  "code": "GU-DIS",
+  "opened": true,
+  "finding": "AF-8",
+  "recorded": "\"Mild temperatures and wet leaf surfaces encourage black spot infection\"",
+  "result": "Confirmed",
+  "page_wording": "Mild temperatures and wet leaf surfaces encourage black spot infection so where possible, avoid overhead irrigation.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Supports the wet-leaf part only: the page does not say black spot is the most common rose disease (it lists four main diseases without ranking)."
+ },
+ {
+  "code": "GU-DIS",
+  "opened": true,
+  "finding": "AF-12",
+  "recorded": "\"use different sprays if you use them to manage resistance building up\"",
+  "result": "Confirmed",
+  "page_wording": "Of course, the best way to manage this is to use different sprays if you use them to manage resistance building up.",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "GU-DIS",
+  "opened": true,
+  "finding": "AF-14",
+  "recorded": "\"hence the need to pick up all fallen leaves during winter\"",
+  "result": "Confirmed",
+  "page_wording": "Blackspot will also over winter in fallen foliage, hence the need to pick up all fallen leaves during winter.",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "GU-DIS",
+  "opened": true,
+  "finding": "AF-17",
+  "recorded": "\"where possible, avoid overhead irrigation.\"",
+  "result": "Confirmed",
+  "page_wording": "Mild temperatures and wet leaf surfaces encourage black spot infection so where possible, avoid overhead irrigation.",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "GU-DIS",
+  "opened": true,
+  "finding": "AF-19",
+  "recorded": "\"make sure there is some air movement around your plants.\"",
+  "result": "Confirmed",
+  "page_wording": "High humidity and lack of ventilation doesn't help either so make sure there is some air movement around your plants.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Covers air movement; sun and spacing not in this sentence."
+ },
+ {
+  "code": "RNZIH",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Some cultivars are more disease resistant than others, but some of the older varieties are very susceptible to rust and/or black spot.\"",
+  "result": "Confirmed",
+  "page_wording": "Some cultivars are more disease resistant than others, but some of the older varieties are very susceptible to rust and/or black spot.",
+  "supports_finding": "partly",
+  "note": "Exact, in the expert's answer. States that cultivars differ in resistance; does not itself say choosing resistant ones is a principal control. Page dated 27 June 2005."
+ },
+ {
+  "code": "RNZIH",
+  "opened": true,
+  "finding": "AF-15",
+  "recorded": "\"Removing diseased leaves and dead flowers is definitely a good idea\"",
+  "result": "Confirmed",
+  "page_wording": "Removing diseased leaves and dead flowers is definitely a good idea",
+  "supports_finding": "partly",
+  "note": "Exact, in the expert's answer. Supports removing diseased leaves; the fragment does not say 'as soon as seen' or 'during the season'. Dated 2005."
+ },
+ {
+  "code": "RNZIH",
+  "opened": true,
+  "finding": "AF-44",
+  "recorded": "\"really just a safer alternative rather than a panacea\"",
+  "result": "Confirmed",
+  "page_wording": "really just a safer alternative rather than a panacea",
+  "supports_finding": "yes",
+  "note": "Exact, in the expert's answer. Refers to milk or baking soda sprays (suggested by Wellington Botanic Gardens gardeners). Dated 2005."
+ },
+ {
+  "code": "RNZIH",
+  "opened": true,
+  "finding": "AF-39",
+  "recorded": "[a limitation, from the gardener's question] \"I did spray with winter oil and copper oxychloride etc, but with wet weather, some varieties now have severe rust\"",
+  "result": "Confirmed",
+  "page_wording": "I did spray with winter oil and copper oxychloride etc, but with wet weather, some varieties now have severe rust",
+  "supports_finding": "no",
+  "note": "Exact, but it is in the gardener's QUESTION, not the expert's answer (as the record itself notes). It describes a winter oil and copper spray that was followed by severe rust; it does not name copper as a growing-season fungicide for black spot. Usable only as the limitation it is recorded as. Dated 2005."
+ },
+ {
+  "code": "EPA-NZ",
+  "opened": true,
+  "finding": "AF-30",
+  "recorded": "\"Label information is printed on all insecticides, whether you buy yours at the supermarket, garden centre or trade outlet\"",
+  "result": "Confirmed",
+  "page_wording": "Label information is printed on all insecticides, whether you buy yours at the supermarket, garden centre or trade outlet; whether the product is 'natural' ... or created in a laboratory.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. The fragment only says labels exist; the instruction is elsewhere on the page ('Reading and always complying with the chemical product label'; heading 'Follow the rules to keep pollinators safe'). Nothing on this page about the UK. Page shows no date."
+ },
+ {
+  "code": "EPA-NZ",
+  "opened": true,
+  "finding": "AF-32",
+  "recorded": "\"Avoid spraying budding or flowering plants\"",
+  "result": "Confirmed",
+  "page_wording": "Avoid spraying budding or flowering plants. (This restriction means users cannot use neonicotinoids on plants that are in flower, or even those that are going to flower soon.)",
+  "supports_finding": "yes",
+  "note": "Exact. Stated in the context of rules for neonicotinoid insecticides. The page does not mention time of day for spraying."
+ },
+ {
+  "code": "EPA-NZ",
+  "opened": true,
+  "finding": "AF-34",
+  "recorded": "\"neonicotinoids must not be used on flowering crops\"",
+  "result": "Confirmed",
+  "page_wording": "Most importantly, neonicotinoids must not be used on flowering crops.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Page says the EPA sets these rules ('We do this by setting rules around neonicotinoid use'). The fragment does not itself say approvals change."
+ },
+ {
+  "code": "CONS-NZ",
+  "opened": true,
+  "finding": "AF-30",
+  "recorded": "\"make sure you follow the instructions on the label\"",
+  "result": "Confirmed",
+  "page_wording": "If you do resort to an insecticide, make sure you follow the instructions on the label.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Article dated 5 December 2012 (Luke Harrison). Nothing about the UK."
+ },
+ {
+  "code": "CONS-NZ",
+  "opened": true,
+  "finding": "AF-32",
+  "recorded": "\"Spray only in the evening after bees have returned to their hives\"",
+  "result": "Confirmed",
+  "page_wording": "Spray only in the evening after bees have returned to their hives and don't spray on plants that are flowering or are visited by bees.",
+  "supports_finding": "yes",
+  "note": "Fragment exact; the article's own advice (under 'Our view'). Dated 2012."
+ },
+ {
+  "code": "TUI",
+  "opened": true,
+  "finding": "AF-15",
+  "recorded": "\"Pick off infected leaves as you see them, not always practical but it does help prevent the spread.\"",
+  "result": "Confirmed",
+  "page_wording": "Pick off infected leaves as you see them, not always practical but it does help prevent the spread.",
+  "supports_finding": "yes",
+  "note": "Exact. Commercial source; page shows no date."
+ },
+ {
+  "code": "TUI",
+  "opened": true,
+  "finding": "AF-16",
+  "recorded": "\"disposing of by burning or throwing in the rubbish and not composting\"",
+  "result": "Confirmed",
+  "page_wording": "disposing of by burning or throwing in the rubbish and not composting",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "TUI",
+  "opened": true,
+  "finding": "AF-25",
+  "recorded": "\"Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.\"",
+  "result": "Confirmed",
+  "page_wording": "Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.",
+  "supports_finding": "partly",
+  "note": "Exact. The page does not mention pruning: it describes clean-up sprays 'through winter and into early spring', not a spray after pruning. Commercial source."
+ },
+ {
+  "code": "TUI",
+  "opened": true,
+  "finding": "AF-36",
+  "recorded": "\"Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.\"",
+  "result": "Confirmed",
+  "page_wording": "Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.",
+  "supports_finding": "partly",
+  "note": "Exact. Names copper with a spraying oil as winter clean-up sprays; 'after pruning' is not on the page."
+ },
+ {
+  "code": "TUI",
+  "opened": true,
+  "finding": "AF-38",
+  "recorded": "\"Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.\"",
+  "result": "Confirmed",
+  "page_wording": "Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "SPR",
+  "opened": true,
+  "finding": "AF-7",
+  "recorded": "\"Spray regularly (every two weeks or so) to prevent disease from taking hold\"",
+  "result": "Confirmed",
+  "page_wording": "Spray regularly (every two weeks or so) to prevent disease from taking hold.",
+  "supports_finding": "partly",
+  "note": "Exact. Supports preventive use; the sentence does not say fungicides cannot cure. Commercial source, no date."
+ },
+ {
+  "code": "SPR",
+  "opened": true,
+  "finding": "AF-9",
+  "recorded": "\"every two weeks or so\"",
+  "result": "Confirmed",
+  "page_wording": "Spray regularly (every two weeks or so) to prevent disease from taking hold.",
+  "supports_finding": "partly",
+  "note": "Fragment exact. Gives the interval (about two weeks); the fragment does not refer to the label."
+ },
+ {
+  "code": "SPR",
+  "opened": true,
+  "finding": "AF-25",
+  "recorded": "\"Spray 1 application of Lime Sulphur a fews days after pruning\"",
+  "result": "Confirmed",
+  "page_wording": "Spray 1 application of Lime Sulphur a fews days after pruning the roses.",
+  "supports_finding": "yes",
+  "note": "Fragment exact (typo 'fews' is on the page)."
+ },
+ {
+  "code": "SPR",
+  "opened": true,
+  "finding": "AF-26",
+  "recorded": "\"Prune roses first\"",
+  "result": "Confirmed",
+  "page_wording": "Prune roses first (see pruning).",
+  "supports_finding": "partly",
+  "note": "Fragment exact. Supports spraying after pruning. The page does NOT mention clearing prunings or leaves first, or spraying the ground."
+ },
+ {
+  "code": "SPR",
+  "opened": true,
+  "finding": "AF-28",
+  "recorded": "\"At first sign of new spring growth\"",
+  "result": "Confirmed",
+  "page_wording": "At first sign of new spring growth spray one application of copper oxychloride or copper kocide.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Page order: prune; lime sulphur a few days later; spraying oil two weeks after that; copper at first sign of spring growth."
+ },
+ {
+  "code": "SPR",
+  "opened": true,
+  "finding": "AF-36",
+  "recorded": "\"At first sign of new spring growth spray one application of copper oxychloride\"",
+  "result": "Confirmed",
+  "page_wording": "At first sign of new spring growth spray one application of copper oxychloride or copper kocide.",
+  "supports_finding": "partly",
+  "note": "Recorded text is on the page but the sentence continues 'or copper kocide'. Here copper is applied at first spring growth, on its own, not straight after pruning and not together with oil (oil is a separate earlier step)."
+ },
+ {
+  "code": "SPR",
+  "opened": true,
+  "finding": "AF-37",
+  "recorded": "\"Spray 1 application of Lime Sulphur a fews days after pruning\"",
+  "result": "Confirmed",
+  "page_wording": "Spray 1 application of Lime Sulphur a fews days after pruning the roses.",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "SPR",
+  "opened": true,
+  "finding": "AF-38",
+  "recorded": "[the sentence names a brand and is not quoted] a spraying oil is applied two weeks after the lime sulphur",
+  "result": "Confirmed",
+  "page_wording": "Two weeks later spray 1 application of [brand] spraying oil.",
+  "supports_finding": "yes",
+  "note": "Note tested and holds: the page says a spraying oil is applied two weeks after the lime sulphur step (brand name omitted here)."
+ },
+ {
+  "code": "SPR",
+  "opened": true,
+  "finding": "AF-41",
+  "recorded": "\"Lime Sulphur and oil must never be mixed or spayed together.\"",
+  "result": "Confirmed",
+  "page_wording": "Lime Sulphur and oil must never be mixed or spayed together.",
+  "supports_finding": "yes",
+  "note": "Exact (typo 'spayed' is on the page)."
+ },
+ {
+  "code": "RSNSW",
+  "opened": true,
+  "finding": "AF-4",
+  "recorded": "\"Regularly spraying your rose bushes will help to prevent the build-up of pests and diseases and keep them healthy.\"",
+  "result": "Confirmed",
+  "page_wording": "Regularly spraying your rose bushes will help to prevent the build-up of pests and diseases and keep them healthy.",
+  "supports_finding": "partly",
+  "note": "Exact. Says regular spraying keeps roses healthy; the sentence covers pests and diseases generally and does not mention fungicide specifically, Hybrid Teas, Floribundas or susceptibility. Page shows no date."
+ },
+ {
+  "code": "RSNSW",
+  "opened": true,
+  "finding": "AF-7",
+  "recorded": "\"Spraying regularly will help slow down the disease and/or help prevent it occurring.\"",
+  "result": "Confirmed",
+  "page_wording": "Spraying regularly will help slow down the disease and/or help prevent it occurring.",
+  "supports_finding": "partly",
+  "note": "Exact. Supports prevention, but also says spraying will 'slow down the disease', i.e. some effect once disease is present; it does not say fungicides do not cure."
+ },
+ {
+  "code": "RSNSW",
+  "opened": true,
+  "finding": "AF-8",
+  "recorded": "\"It is the most commonly occurring fungal disease on roses.\"",
+  "result": "Confirmed",
+  "page_wording": "It is the most commonly occurring fungal disease on roses.",
+  "supports_finding": "yes",
+  "note": "Exact. 'It' is black spot. Page also says 'Black spot is a fungal disease that occurs in moist, humid conditions' (moist conditions, not wet leaves in so many words)."
+ },
+ {
+  "code": "RSNSW",
+  "opened": true,
+  "finding": "AF-9",
+  "recorded": "\"Spraying should be done approximately every 15 days\"",
+  "result": "Confirmed",
+  "page_wording": "Spraying should be done approximately every 15 days from the time they start to produce healthy foliage after the winter prune and up until the end of the growing season.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. 15 days is at the top of 'one to two weeks'. Page separately says to use sprays according to the packet instructions."
+ },
+ {
+  "code": "RSNSW",
+  "opened": true,
+  "finding": "AF-10",
+  "recorded": "\"from the time they start to produce healthy foliage after the winter prune and up until the end of the growing season.\"",
+  "result": "Confirmed",
+  "page_wording": "Spraying should be done approximately every 15 days from the time they start to produce healthy foliage after the winter prune and up until the end of the growing season.",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "RSNSW",
+  "opened": true,
+  "finding": "AF-11",
+  "recorded": "\"If the rose bushes get a big infestation of diseases or pests, they may need to be sprayed more frequently.\"",
+  "result": "Confirmed",
+  "page_wording": "If the rose bushes get a big infestation of diseases or pests, they may need to be sprayed more frequently.",
+  "supports_finding": "yes",
+  "note": "Exact. Covers heavy outbreak; wet weather and disease history are not in this sentence."
+ },
+ {
+  "code": "RSNSW",
+  "opened": true,
+  "finding": "AF-30",
+  "recorded": "\"It is important to carefully read the instructions on the packet of the products you are going to use\"",
+  "result": "Confirmed",
+  "page_wording": "NOTE: It is important to carefully read the instructions on the packet of the products you are going to use and use the sprays according to these instructions.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Nothing about the UK."
+ },
+ {
+  "code": "GA-LOOK",
+  "opened": true,
+  "finding": "AF-25",
+  "recorded": "\"Winter is the best time to combat fungal pests and other diseases.\"",
+  "result": "Confirmed",
+  "page_wording": "Winter is the best time to combat fungal pests and other diseases.",
+  "supports_finding": "yes",
+  "note": "Exact. Page date shows as Sat 3 Jul 2010 (record says 2 July 2010). Presenter Sophie Thomson."
+ },
+ {
+  "code": "GA-LOOK",
+  "opened": true,
+  "finding": "AF-26",
+  "recorded": "\"collect and dispose of dead or dying leaves and pruned branches. Next, spray the plants - and the ground around them\"",
+  "result": "Confirmed",
+  "page_wording": "Firstly, collect and dispose of dead or dying leaves and pruned branches. Next, spray the plants - and the ground around them",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "GA-LOOK",
+  "opened": true,
+  "finding": "AF-37",
+  "recorded": "\"with an organic lime-sulphur mix\"",
+  "result": "Confirmed",
+  "page_wording": "with an organic lime-sulphur mix",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "GA-PRUNE",
+  "opened": true,
+  "finding": "AF-25",
+  "recorded": "\"After pruning, spray for protection.\"",
+  "result": "Confirmed",
+  "page_wording": "After pruning, spray for protection.",
+  "supports_finding": "yes",
+  "note": "Exact. Page sets this in winter ('winter is the ideal time to get out and give them some maintenance'). Dated 17 Aug 2013, Jane Edmanson."
+ },
+ {
+  "code": "GA-PRUNE",
+  "opened": true,
+  "finding": "AF-37",
+  "recorded": "\"I'm using lime sulphur, which will kill mites and other insects.\"",
+  "result": "Confirmed",
+  "page_wording": "I'm using lime sulphur, which will kill mites and other insects.",
+  "supports_finding": "yes",
+  "note": "Exact. Stated purpose here is mites and insects, not fungal disease."
+ },
+ {
+  "code": "GA-RP",
+  "opened": true,
+  "finding": "AF-16",
+  "recorded": "\"don't put them in the compost, put them in your council bin\"",
+  "result": "Confirmed",
+  "page_wording": "Roses tend to suffer from fungal diseases, so if any of your prunings have black spot or powdery mildew, don't put them in the compost, put them in your council bin.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Applies to prunings that have black spot or powdery mildew. Dated 27 Jun 2009, Sophie Thomson."
+ },
+ {
+  "code": "GA-RP",
+  "opened": true,
+  "finding": "AF-19",
+  "recorded": "\"space for good air circulation which will minimise fungal diseases next year\"",
+  "result": "Confirmed",
+  "page_wording": "By cleaning up the roses there's space for good air circulation which will minimise fungal diseases next year, and allow for a beautiful show of flowers.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Covers air circulation (from pruning); sun and spacing between plants not in this sentence."
+ },
+ {
+  "code": "GA-RP",
+  "opened": true,
+  "finding": "AF-25",
+  "recorded": "\"You might also like to spray with lime sulphur to clean up any fungal spores.\"",
+  "result": "Confirmed",
+  "page_wording": "You might also like to spray with lime sulphur to clean up any fungal spores.",
+  "supports_finding": "yes",
+  "note": "Exact. Optional wording ('might also like'). It follows the pruning steps on a page that says 'Winter is the best time to prune roses, ideally around July'; the sentence itself does not state timing."
+ },
+ {
+  "code": "GA-RP",
+  "opened": true,
+  "finding": "AF-37",
+  "recorded": "\"You might also like to spray with lime sulphur to clean up any fungal spores.\"",
+  "result": "Confirmed",
+  "page_wording": "You might also like to spray with lime sulphur to clean up any fungal spores.",
+  "supports_finding": "yes",
+  "note": "Exact. Optional wording; timing implied by position after winter pruning, not stated in the sentence."
+ },
+ {
+  "code": "GA-BS",
+  "opened": true,
+  "finding": "AF-15",
+  "recorded": "\"Go round on a regular basis and pick off any black spot affected leaves\"",
+  "result": "Confirmed",
+  "page_wording": "Go round on a regular basis and pick off any black spot affected leaves, put them in a plastic bag and tie the top tightly.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Dated 31 Mar 2007, Colin Campbell."
+ },
+ {
+  "code": "GA-BS",
+  "opened": true,
+  "finding": "AF-16",
+  "recorded": "\"put them in a plastic bag and tie the top tightly\"",
+  "result": "Confirmed",
+  "page_wording": "Go round on a regular basis and pick off any black spot affected leaves, put them in a plastic bag and tie the top tightly.",
+  "supports_finding": "partly",
+  "note": "Fragment exact. The next sentence is 'Then leave it out in the sun to cook and that will kill the spores.' The page describes bagging and solarising; the fragment does not say 'not composted' or say to bin them."
+ },
+ {
+  "code": "GA-BS",
+  "opened": true,
+  "finding": "AF-17",
+  "recorded": "\"Always water around the roots of the rose and give it a good soaking.\"",
+  "result": "Confirmed",
+  "page_wording": "Always water around the roots of the rose and give it a good soaking.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "GA-BS",
+  "opened": true,
+  "finding": "AF-19",
+  "recorded": "\"open up the rose bush to create more air movement through the middle\"",
+  "result": "Confirmed",
+  "page_wording": "open up the rose bush to create more air movement through the middle and that minimises the risk of humidity",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "GA-BS",
+  "opened": true,
+  "finding": "AF-20",
+  "recorded": "\"the better fed they are, the more likely they are to resist disease\"",
+  "result": "Confirmed",
+  "page_wording": "Plants are no different to people - the better fed they are, the more likely they are to resist disease.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Covers feeding only; watering is not mentioned in this sentence."
+ },
+ {
+  "code": "GA-BS",
+  "opened": true,
+  "finding": "AF-39",
+  "recorded": "\"Or use Bordeaux mixture or one of the other copper based fungicides.\"",
+  "result": "Confirmed",
+  "page_wording": "Or use Bordeaux mixture or one of the other copper based fungicides.",
+  "supports_finding": "yes",
+  "note": "Exact. Follows the bicarb soda recipe; the advice is given for use through the growing season."
+ },
+ {
+  "code": "GA-BS",
+  "opened": true,
+  "finding": "AF-44",
+  "recorded": "\"This makes an excellent and inexpensive fungicide.\"",
+  "result": "Confirmed",
+  "page_wording": "This makes an excellent and inexpensive fungicide.",
+  "supports_finding": "yes",
+  "note": "Exact. 'This' is two teaspoons of bicarb soda in 5 litres of water with a couple of drops of detergent or seaweed extract. Supports the favourable side of the disagreement."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-6",
+  "recorded": "\"Spraying of roses should only occur minimally and when the problems are really bad.\"",
+  "result": "Confirmed",
+  "page_wording": "Spraying of roses should only occur minimally and when the problems are really bad.",
+  "supports_finding": "yes",
+  "note": "Exact. Commercial source, no date."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-22",
+  "recorded": "\"just a jet from a hose\"",
+  "result": "Confirmed",
+  "page_wording": "Soapy sprays, Eco Oils, Pest Oils or just a jet from a hose can all reduce the numbers enough to let natural predators control remaining insects.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Supports hosing off and natural predators; squashing and 'tolerate low numbers' are not stated in so many words."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-25",
+  "recorded": "\"After pruning in July it is good practise to spray the plants with two products to help control problems in spring.\"",
+  "result": "Confirmed",
+  "page_wording": "After pruning in July it is good practise to spray the plants with two products to help control problems in spring.",
+  "supports_finding": "yes",
+  "note": "Exact (spelling 'practise' is on the page)."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-30",
+  "recorded": "\"reading instructions is always the first step prior to any use.\"",
+  "result": "Confirmed",
+  "page_wording": "Care of the gardener must be assured and reading instructions is always the first step prior to any use.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Nothing about the UK."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-31",
+  "recorded": "\"Safety equipment should be used even in low toxicity chemicals\"",
+  "result": "Confirmed",
+  "page_wording": "Safety equipment should be used even in low toxicity chemicals and cleaning of the sprayer after use vital to avoid cross contamination.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. The same sentence also covers sprayer cleaning."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-33",
+  "recorded": "\"when the temperature is less than 25 degrees\"",
+  "result": "Confirmed",
+  "page_wording": "Copper Oxy Chloride, Lime Sulphur or Boudreaux sprays can be used in winter after pruning when the temperature is less than 25 degrees to control fungal attacks when new growth appears in spring.",
+  "supports_finding": "partly",
+  "note": "Fragment exact, but the 25-degree limit is stated only for the winter copper / lime sulphur sprays after pruning. The page says nothing else about temperature, hot weather or time of day."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-23",
+  "recorded": "\"can all reduce the numbers enough to let natural predators control remaining insects\"",
+  "result": "Confirmed",
+  "page_wording": "Soapy sprays, Eco Oils, Pest Oils or just a jet from a hose can all reduce the numbers enough to let natural predators control remaining insects.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. The products named are soapy sprays and oils (two are brand-type names)."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-36",
+  "recorded": "\"Copper Oxy Chloride, Lime Sulphur or Boudreaux sprays can be used in winter after pruning\"",
+  "result": "Confirmed",
+  "page_wording": "Copper Oxy Chloride, Lime Sulphur or Boudreaux sprays can be used in winter after pruning when the temperature is less than 25 degrees to control fungal attacks when new growth appears in spring.",
+  "supports_finding": "yes",
+  "note": "Fragment exact ('Boudreaux' spelling is on the page). Oil is the second of the 'two products' sprayed after pruning."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-37",
+  "recorded": "\"Copper Oxy Chloride, Lime Sulphur or Boudreaux sprays can be used in winter after pruning\"",
+  "result": "Confirmed",
+  "page_wording": "Copper Oxy Chloride, Lime Sulphur or Boudreaux sprays can be used in winter after pruning when the temperature is less than 25 degrees to control fungal attacks when new growth appears in spring.",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-38",
+  "recorded": "\"is used to coat insect eggs (mainly aphid) and kill them.\"",
+  "result": "Confirmed",
+  "page_wording": "A second spray of Winter Oil, Pest Oil or Eco Oil is used to coat insect eggs (mainly aphid) and kill them.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. It is the second of the two sprays after pruning in July."
+ },
+ {
+  "code": "ROSS-SP",
+  "opened": true,
+  "finding": "AF-40",
+  "recorded": "\"Spraying with a spray containing Triforine or Macozeb\"",
+  "result": "Confirmed",
+  "page_wording": "Spraying with a spray containing Triforine or Macozeb + will control these fungal problems.",
+  "supports_finding": "partly",
+  "note": "Fragment exact ('Macozeb' spelling is on the page; WebFetch reported a '+' after it). 'These fungal problems' are black spot, mildew and rust. This is an Australian nursery, not a US university extension service, and it names triforine and mancozeb, not chlorothalonil; it supports only that synthetic fungicides are named for black spot."
+ },
+ {
+  "code": "TRE-BS",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Choose varieties that are strong growers and either newer varieties or those recommended by the rose society in your area.\"",
+  "result": "Confirmed",
+  "page_wording": "Choose varieties that are strong growers and either newer varieties or those recommended by the rose society in your area.",
+  "supports_finding": "yes",
+  "note": "Exact. Commercial source, no date."
+ },
+ {
+  "code": "TRE-BS",
+  "opened": true,
+  "finding": "AF-9",
+  "recorded": "\"This will need to be repeated once a week as it is organic, not systemic.\"",
+  "result": "Confirmed",
+  "page_wording": "This will need to be repeated once a week as it is organic, not systemic.",
+  "supports_finding": "partly",
+  "note": "Exact. 'This' is an organic spray routine (preceded by 'Religiously spray both under and over leaves till they drip.'), per WebFetch a mix of an oil, an organic fungicide and a fish-based product. Gives a weekly interval for that routine only; the sentence does not refer to the label."
+ },
+ {
+  "code": "TRE-BS",
+  "opened": true,
+  "finding": "AF-20",
+  "recorded": "\"A happy rose is a healthy rose.\"",
+  "result": "Confirmed",
+  "page_wording": "A happy rose is a healthy rose.",
+  "supports_finding": "yes",
+  "note": "Exact. Preceded by 'Make sure your roses are well watered and fed regularly.' Link to resisting disease is implied by the black spot page, not stated in the sentence."
+ },
+ {
+  "code": "TRE-BS",
+  "opened": true,
+  "finding": "AF-25",
+  "recorded": "\"When winter pruning has been done and all waste removed, spray with Lime sulphur on the plant and ground around.\"",
+  "result": "Confirmed",
+  "page_wording": "When winter pruning has been done and all waste removed, spray with Lime sulphur on the plant and ground around.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "TRE-BS",
+  "opened": true,
+  "finding": "AF-26",
+  "recorded": "\"When winter pruning has been done and all waste removed\"",
+  "result": "Confirmed",
+  "page_wording": "When winter pruning has been done and all waste removed, spray with Lime sulphur on the plant and ground around.",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "TRE-BS",
+  "opened": true,
+  "finding": "AF-30",
+  "recorded": "\"read the instructions on the back of the packaging\"",
+  "result": "Confirmed",
+  "page_wording": "Always use caution when spraying chemicals and read the instructions on the back of the packaging.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Nothing about the UK."
+ },
+ {
+  "code": "TRE-BS",
+  "opened": true,
+  "finding": "AF-33",
+  "recorded": "\"Never in the heat of the day.\"",
+  "result": "Confirmed",
+  "page_wording": "Spray roses during the growing season with preferred chemical. Never in the heat of the day.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "TRE-BS",
+  "opened": true,
+  "finding": "AF-37",
+  "recorded": "\"spray with Lime sulphur on the plant and ground around.\"",
+  "result": "Confirmed",
+  "page_wording": "When winter pruning has been done and all waste removed, spray with Lime sulphur on the plant and ground around.",
+  "supports_finding": "yes",
+  "note": "Fragment exact."
+ },
+ {
+  "code": "RHS-BS",
+  "opened": true,
+  "finding": "AF-3",
+  "recorded": "\"Gardeners may gain a few years' respite by planting the newest cultivars which claim resistance, but as discussed above, this usually does not last.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word. Page also says: 'the resistance bred into new cultivars usually fails to last because new strains of the fungus arise to overcome it.' Supports 'may not last'; the 'may vary by region' half of the finding was not found stated on this page."
+ },
+ {
+  "code": "RHS-BS",
+  "opened": true,
+  "finding": "AF-4",
+  "recorded": "\"Popular garden cultivars of hybrid teas, floribundas, climbers and patio types are often susceptible.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Reported word for word. Supports the susceptibility half only. Page does NOT say susceptible roses need regular fungicide to stay healthy; the page says 'The RHS recommends that you don't use fungicides.'"
+ },
+ {
+  "code": "RHS-BS",
+  "opened": true,
+  "finding": "AF-5",
+  "recorded": "\"The RHS recommends that you don't use fungicides.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word. Next sentence: 'Fungicides (including organic types) may reduce biodiversity'."
+ },
+ {
+  "code": "RHS-BS",
+  "opened": true,
+  "finding": "AF-14",
+  "recorded": "\"Collect and destroy fallen leaves in the autumn, or bury under a layer of mulch.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word. Page also says: 'If practical, pick off and dispose of any leaves that remain on the plant over the winter months.'"
+ },
+ {
+  "code": "RHS-BS",
+  "opened": true,
+  "finding": "AF-15",
+  "recorded": "\"Prune out all stem lesions in spring before leaves appear.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Reported word for word, but the sentence is about pruning stem lesions in spring before leaves appear. It does not say infected leaves or shoots are removed during the growing season as soon as seen; asked directly, the reader found no such statement on this page."
+ },
+ {
+  "code": "RHS-PM",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"There are considerable differences in susceptibility between rose cultivars\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Fragment present ('There are considerable differences in susceptibility between rose cultivars.'). The very next sentence is the caveat: 'However, any claimed resistance to the disease may not persist for the lifetime of the plant, or be effective in all localities.' Page states that cultivars differ; it does not itself call variety choice a principal control."
+ },
+ {
+  "code": "RHS-PM",
+  "opened": true,
+  "finding": "AF-3",
+  "recorded": "\"any claimed resistance to the disease may not persist for the lifetime of the plant, or be effective in all localities\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Fragment present; the page sentence begins 'However, '."
+ },
+ {
+  "code": "RHS-PM",
+  "opened": true,
+  "finding": "AF-5",
+  "recorded": "\"The RHS recommends that you don't use fungicides\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word."
+ },
+ {
+  "code": "RHS-PM",
+  "opened": true,
+  "finding": "AF-15",
+  "recorded": "\"Badly affected shoots are best pruned out and disposed of as soon as the symptoms are seen\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "First reading returned NEAR but quoted identical wording; a second narrow reading reported the exact string with no difference. Applies to 'badly affected shoots' (not leaves)."
+ },
+ {
+  "code": "RHS-PM",
+  "opened": true,
+  "finding": "AF-18",
+  "recorded": "\"Overhead watering (in mid-morning) in dry weather can reduce powdery mildew\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Fragment present. Full sentence: 'Overhead watering (in mid-morning) in dry weather can reduce powdery mildew (which does not like direct contact with water).' Conditions: mid-morning, dry weather."
+ },
+ {
+  "code": "RHS-PM",
+  "opened": true,
+  "finding": "AF-44",
+  "recorded": "\"Homemade products are not recommended as they are unregulated and usually untested.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word. Page does not mention baking soda, bicarbonate or milk by name; it supports only the 'not recommended' side of the disagreement."
+ },
+ {
+  "code": "RHS-RUST",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Consider replacing it with a different one\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Fragment present but mid-sentence and lower-case. Page sentence: 'If infections are persistently troublesome, it may be that the cultivar concerned is unusually susceptible, so consider replacing it with a different one (but be aware of potential problems from replant disease if another rose is planted in exactly the same spot)'. The fragment omits the condition (persistently troublesome infections) and the replant-disease caveat. Page also says: 'Susceptibility to rust varies widely among rose cultivars, and many modern roses should be resistant to rust.'"
+ },
+ {
+  "code": "RHS-RUST",
+  "opened": true,
+  "finding": "AF-5",
+  "recorded": "\"The RHS recommends that you don't use fungicides.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word."
+ },
+ {
+  "code": "RHS-RUST",
+  "opened": true,
+  "finding": "AF-14",
+  "recorded": "\"Collect and destroy fallen leaves in autumn to reduce the number of overwintering resting spores\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word."
+ },
+ {
+  "code": "RHS-RUST",
+  "opened": true,
+  "finding": "AF-15",
+  "recorded": "\"Prune out spring infections as soon as they are detected, to prevent the spread of spring spores\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word. Applies to spring infections."
+ },
+ {
+  "code": "RHS-APH",
+  "opened": true,
+  "finding": "AF-22",
+  "recorded": "\"Where possible tolerate populations of aphids\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Fragment present. Page also says 'Encourage aphid predators in the garden, such as ladybirds, ground beetles, hoverflies, parasitoid wasps and earwigs.' and 'Use finger and thumb to squash aphid colonies where practical'. The reader reported that hosing/washing aphids off with water is NOT mentioned on this page."
+ },
+ {
+  "code": "RHS-CHEM",
+  "opened": true,
+  "finding": "AF-6",
+  "recorded": "\"Treatment with chemicals is rarely necessary – non-chemical controls are usually effective and sufficient\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "First reading EXACT. A second reading quoted the sentence as ending 'usually effective.' without 'and sufficient'; a third, narrow reading confirmed the words 'and sufficient' are in the sentence and quoted it in full as recorded."
+ },
+ {
+  "code": "RHS-CHEM",
+  "opened": true,
+  "finding": "AF-30",
+  "recorded": "\"Adhering to the label instructions is a legal requirement.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word in two readings. UK source."
+ },
+ {
+  "code": "RHS-CHEM",
+  "opened": true,
+  "finding": "AF-31",
+  "recorded": "\"Wearing rubber gloves when handling and applying pesticides is a sensible precaution.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word in two readings. Page also covers sprayer cleaning: 'Sprayers should be rinsed with three washes of a small amount of water, which should be sprayed onto areas or plants listed on the label.'"
+ },
+ {
+  "code": "RHS-CHEM",
+  "opened": true,
+  "finding": "AF-32",
+  "recorded": "\"Open blooms must not be sprayed.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word. Preceding sentence: 'Pesticides should not be used in wet, windy, very calm or hot, sunny weather.' Page says spraying open blooms puts 'bees, butterflies and other pollinators at risk'. Page does not give evening or other time-of-day advice."
+ },
+ {
+  "code": "RHS-CHEM",
+  "opened": true,
+  "finding": "AF-34",
+  "recorded": "\"It is illegal to sell unapproved products for use as pesticides.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word in two readings. Page also says: 'Some chemicals previously approved and sold to home gardeners have been withdrawn.' Whether the page names the regulator was not checked."
+ },
+ {
+  "code": "EUTREMA",
+  "opened": true,
+  "finding": "AF-28",
+  "recorded": "\"Lime Sulphur should be applied during the dormant season when the rose plants have shed their leaves and are in a state of dormancy.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Reported word for word. Page gives lime sulphur timing only. Reader reported NO mention of copper and NO mention of any interval between lime sulphur and other sprays, so this page contributes nothing on order or spacing."
+ },
+ {
+  "code": "EUTREMA",
+  "opened": true,
+  "finding": "AF-37",
+  "recorded": "\"Lime Sulphur should be applied during the dormant season when the rose plants have shed their leaves and are in a state of dormancy.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Reported word for word. Page also says: 'Applying Lime Sulphur to the pruned and bare rose canes helps eliminate overwintering pests and fungal spores.' The source is a UK commercial site (eutrema.co.uk, UK address; author 'Russell', June 24, 2023); it does not mention New Zealand or Australia and is not a rose society, so it does not match the finding's attribution to 'New Zealand and Australian rose sources'."
+ },
+ {
+  "code": "UCIPM-DIS",
+  "opened": true,
+  "finding": "AF-1",
+  "recorded": "\"many gardeners can grow plants with little to no use of fungicides, especially in California's dry interior valleys.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Fragment present. Full sentence: 'Although some rose enthusiasts consider regular application of fungicides a necessary component of rose culture, many gardeners can grow plants with little to no use of fungicides, especially in California's dry interior valleys.' Limited to fungicides and to California; nothing about New Zealand."
+ },
+ {
+  "code": "UCIPM-DIS",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Glossy-foliaged varieties of hybrid teas and grandifloras often have good resistance to powdery mildew\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Fragment reported word for word. Specific to powdery mildew."
+ },
+ {
+  "code": "UCIPM-DIS",
+  "opened": true,
+  "finding": "AF-7",
+  "recorded": "\"generally you must apply them to prevent rather than eradicate infections, so timing is critical\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Fragment present. Full sentence: 'Fungicides may be available, but generally you must apply them to prevent rather than eradicate infections, so timing is critical and repeat applications may be necessary.' It sits in the powdery mildew subsection."
+ },
+ {
+  "code": "UCIPM-DIS",
+  "opened": true,
+  "finding": "AF-14",
+  "recorded": "\"Remove fallen leaves and other infested material, and prune out infected stems during the dormant season.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "First reading was vague; three further narrow readings quoted the sentence character for character in the black spot paragraph, between 'Provide good air circulation around plants.' and 'Black spot is usually not a problem in the interior of California, but may be present in humid, coastal areas.' (One reading answered 'NO' to an exact-string question while quoting the identical sentence as the nearest wording; the final reading confirmed it.) Stated for black spot."
+ },
+ {
+  "code": "UCIPM-DIS",
+  "opened": true,
+  "finding": "AF-18",
+  "recorded": "\"may limit the disease by disrupting the daily spore-release cycle\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Fragment present. Page sentence: 'Overhead sprinkling, such as irrigation or washing, during midday may limit the disease by disrupting the daily spore-release cycle' (powdery mildew section). Condition: during midday."
+ },
+ {
+  "code": "UCIPM-DIS",
+  "opened": true,
+  "finding": "AF-19",
+  "recorded": "\"Provide good air circulation around plants.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "First two readings were vague (one offered a different sentence: 'Plants grown in sunny locations with good air circulation are less likely to have serious powdery mildew problems'). Two later narrow readings confirmed the exact sentence 'Provide good air circulation around plants.' in the black spot paragraph. Both sentences are on the page."
+ },
+ {
+  "code": "UCIPM-DIS",
+  "opened": true,
+  "finding": "AF-21",
+  "recorded": "\"Oils, including neem oil, or other fungicides such as potassium bicarbonate and sulfur, have been shown to be effective.\"",
+  "result": "Confirmed",
+  "page_wording": "Oils, including neem oil, or other fungicides such as potassium bicarbonate and sulfur, have been shown to be effective in reducing black spot.",
+  "supports_finding": "yes",
+  "note": "The recorded text ends with a full stop after 'effective'; on the page the sentence continues 'in reducing black spot.' Meaning unchanged. Stated for black spot only in this sentence."
+ },
+ {
+  "code": "UCIPM-DIS",
+  "opened": true,
+  "finding": "AF-29",
+  "recorded": "\"Remove fallen leaves and other infested material, and prune out infected stems during the dormant season.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Sentence confirmed (see AF-14). Tested the note directly: reader reported the words 'copper', 'Bordeaux' and 'lime sulfur' do not appear on the page, and no dormant-season or winter spray is described for any disease; the dormant-season/winter advice is leaf removal and pruning only."
+ },
+ {
+  "code": "UCIPM-DIS",
+  "opened": true,
+  "finding": "AF-42",
+  "recorded": "\"Do not apply oils to water-stressed plants or within two weeks of a sulfur spray.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word in two readings; powdery mildew subsection."
+ },
+ {
+  "code": "UCIPM-INS",
+  "opened": true,
+  "finding": "AF-1",
+  "recorded": "\"Other enthusiasts can maintain vigorous plants and produce high quality blooms with little or no use of insecticides.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Reported word for word. About insecticides, US (California) source; nothing about New Zealand."
+ },
+ {
+  "code": "UCIPM-INS",
+  "opened": true,
+  "finding": "AF-6",
+  "recorded": "\"Use of broadly toxic insecticides is not warranted in most gardens and landscapes.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word."
+ },
+ {
+  "code": "UCIPM-INS",
+  "opened": true,
+  "finding": "AF-22",
+  "recorded": "\"Low to moderate levels of aphids do little damage to plants\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Fragment present. Full sentence: 'Low to moderate levels of aphids do little damage to plants, although some gardeners may be concerned by their very presence.' Page also names natural enemies ('parasitic wasps, lady beetles, soldier beetles, and syrphid flies') and says 'knocking aphids off with a forceful stream or spray of water early in the day is all that is needed'. Squashing by hand was not checked on this page."
+ },
+ {
+  "code": "UCIPM-INS",
+  "opened": true,
+  "finding": "AF-23",
+  "recorded": "\"Insecticidal soaps or horticultural oils (including neem oil) can also be used to suppress aphids with only moderate impact on natural enemies.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word. Page says 'only moderate impact on natural enemies'."
+ },
+ {
+  "code": "UCIPM-INS",
+  "opened": true,
+  "finding": "AF-24",
+  "recorded": "\"are not usually necessary and may harm pollinators and natural enemies.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Fragment present, but its subject is soil-applied systemic insecticides, not broad-spectrum sprays. Full sentence: 'Soil-applied systemic insecticides, such as the neonicotinoid imidacloprid, are effective but are not usually necessary and may harm pollinators and natural enemies.' The finding itself is supported elsewhere on the page: 'Spider mite numbers may greatly increase if their many natural enemies are killed by broad-spectrum insecticides applied against other pests.'"
+ },
+ {
+  "code": "UCIPM-INS",
+  "opened": true,
+  "finding": "AF-32",
+  "recorded": "\"are not usually necessary and may harm pollinators and natural enemies.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Fragment present (same sentence as AF-24, about soil-applied systemic insecticides such as imidacloprid). It says these 'may harm pollinators'; the reader reported the page does NOT say to avoid spraying open flowers or to avoid spraying when bees are foraging."
+ },
+ {
+  "code": "UCIPM-BS",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Choose disease-resistant varieties when planting.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "yes",
+  "note": "Reported word for word."
+ },
+ {
+  "code": "UCIPM-BS",
+  "opened": true,
+  "finding": "AF-8",
+  "recorded": "\"For spore production and infection, leaves must remain wet for more than about 7 hours.\"",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Reported word for word. Supports the leaf-wetness half. The page does not call black spot the most common rose disease; it says: 'This fungal disease of roses is usually a problem in California only in foggy or humid coastal areas.'"
+ },
+ {
+  "code": "UCIPM-BS",
+  "opened": true,
+  "finding": "AF-17",
+  "recorded": "\"Irrigate and hose off aphids in the morning instead of the evening or night.\"",
+  "result": "Confirmed",
+  "page_wording": "To reduce black spot, irrigate and hose off aphids in the morning instead of the evening or night.",
+  "supports_finding": "partly",
+  "note": "Words present but mid-sentence: the page sentence begins 'To reduce black spot, irrigate ...' with lower-case 'irrigate' (one reading said it begins with a capital while quoting it lower-case). The sentence is about time of day for watering; the reader reported the page does not say to avoid overhead watering, keep leaves dry or water at the base."
+ },
+ {
+  "code": "UCIPM-BS",
+  "opened": true,
+  "finding": "AF-21",
+  "recorded": "\"Available preventive fungicides include neem oil, potassium bicarbonate, sulfur\"",
+  "result": "Confirmed",
+  "page_wording": "Where weather favors severe disease, available preventive fungicides include neem oil, potassium bicarbonate, sulfur, and the synthetic fungicides triforine and chlorothalonil.",
+  "supports_finding": "yes",
+  "note": "Fragment present mid-sentence (lower-case 'available'). The fragment omits the qualifying condition 'Where weather favors severe disease,'. Named for black spot only (this page is about black spot)."
+ },
+ {
+  "code": "UCIPM-BS",
+  "opened": true,
+  "finding": "AF-40",
+  "recorded": "\"available preventive fungicides include neem oil, potassium bicarbonate, sulfur, and the synthetic fungicides triforine and chlorothalonil\"",
+  "result": "Confirmed",
+  "page_wording": "Where weather favors severe disease, available preventive fungicides include neem oil, potassium bicarbonate, sulfur, and the synthetic fungicides triforine and chlorothalonil.",
+  "supports_finding": "yes",
+  "note": "Fragment reported word for word. Omits the condition 'Where weather favors severe disease,'. Names triforine and chlorothalonil."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Look for and plant disease-resistant roses.\"",
+  "result": "Confirmed",
+  "page_wording": "Look for and plant disease-resistant roses.",
+  "supports_finding": "yes",
+  "note": "Exact; under 'Management strategies'."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-3",
+  "recorded": "\"resistance can be regionally variable.\"",
+  "result": "Confirmed",
+  "page_wording": "Rose cultivars resistant to black spot are increasingly more available, but resistance can be regionally variable.",
+  "supports_finding": "partly",
+  "note": "Fragment present in a longer sentence. Supports regional variation only; this sentence says nothing about resistance not lasting."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-4",
+  "recorded": "\"Most people will need to use labeled fungicide sprays every 7-14 days\"",
+  "result": "Confirmed",
+  "page_wording": "Most people will need to use labeled fungicide sprays every 7-14 days as the first leaves emerge in the spring through the fall for adequate control of this disease.",
+  "supports_finding": "partly",
+  "note": "Fragment exact. Full sentence ends 'for adequate control of this disease'. The sentence says 'most people'; it does not name Hybrid Tea or Floribunda roses or limit itself to susceptible roses."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-7",
+  "recorded": "\"It is best to spray before a rain event to protect the leaves and to alternate types of fungicides.\"",
+  "result": "Confirmed",
+  "page_wording": "It is best to spray before a rain event to protect the leaves and to alternate types of fungicides.",
+  "supports_finding": "yes",
+  "note": "Exact. Supports spraying ahead of infection to protect leaves; the page does not state in this sentence that fungicides cannot cure."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-9",
+  "recorded": "\"Most people will need to use labeled fungicide sprays every 7-14 days\"",
+  "result": "Confirmed",
+  "page_wording": "Most people will need to use labeled fungicide sprays every 7-14 days as the first leaves emerge in the spring through the fall for adequate control of this disease.",
+  "supports_finding": "yes",
+  "note": "Exact fragment. Interval of 7-14 days stated; the sentence says 'labeled' sprays but does not itself say the label sets the interval."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-10",
+  "recorded": "\"as the first leaves emerge in the spring through the fall\"",
+  "result": "Confirmed",
+  "page_wording": "use labeled fungicide sprays every 7-14 days as the first leaves emerge in the spring through the fall",
+  "supports_finding": "yes",
+  "note": "Fragment present in the same sentence as the 7-14 day wording."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-12",
+  "recorded": "\"It is best to spray before a rain event to protect the leaves and to alternate types of fungicides.\"",
+  "result": "Confirmed",
+  "page_wording": "It is best to spray before a rain event to protect the leaves and to alternate types of fungicides.",
+  "supports_finding": "partly",
+  "note": "Exact. The page advises alternating fungicide types but gives no reason; resistance is not mentioned as the reason on this page."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-14",
+  "recorded": "\"Removal of fallen leaves and pruning infected canes will dramatically slow initial spring infections.\"",
+  "result": "Confirmed",
+  "page_wording": "Removal of fallen leaves and pruning infected canes will dramatically slow initial spring infections.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-17",
+  "recorded": "\"Restrict irrigation during cloudy, humid weather.\"",
+  "result": "Confirmed",
+  "page_wording": "Restrict irrigation during cloudy, humid weather.",
+  "supports_finding": "partly",
+  "note": "Exact. The page does not mention watering at the base, overhead watering or keeping leaves dry by how one waters; it only says to restrict irrigation in cloudy, humid weather."
+ },
+ {
+  "code": "UMD-BS",
+  "opened": true,
+  "finding": "AF-19",
+  "recorded": "\"Good air circulation will reduce the incidence of black spot by promoting faster drying of leaf surfaces.\"",
+  "result": "Confirmed",
+  "page_wording": "Good air circulation will reduce the incidence of black spot by promoting faster drying of leaf surfaces.",
+  "supports_finding": "yes",
+  "note": "Exact. Covers air circulation; sun and spacing not checked in this sentence."
+ },
+ {
+  "code": "UMD-PROB",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Seek and select disease-resistant varieties of roses (very important!).\"",
+  "result": "Confirmed",
+  "page_wording": "Seek and select disease-resistant varieties of roses (very important!).",
+  "supports_finding": "yes",
+  "note": "Exact; under 'Disease resistant plants'."
+ },
+ {
+  "code": "UMD-PROB",
+  "opened": true,
+  "finding": "AF-6",
+  "recorded": "\"Use a pesticide only as a last resort and apply with care.\"",
+  "result": "Confirmed",
+  "page_wording": "Use a pesticide only as a last resort and apply with care.",
+  "supports_finding": "yes",
+  "note": "Exact. WebFetch placed it under 'Tips for diagnosing plant problems'; preceding sentence reported as 'Become familiar with normal plant characteristics throughout the year.'"
+ },
+ {
+  "code": "UMD-PROB",
+  "opened": true,
+  "finding": "AF-22",
+  "recorded": "\"Aphids have many natural enemies (predators) like ladybugs and lacewings\"",
+  "result": "Confirmed",
+  "page_wording": "Aphids have many natural enemies (predators) like ladybugs and lacewings in the environment that can help to control their populations naturally.",
+  "supports_finding": "partly",
+  "note": "Fragment present. Supports natural enemies only. On three readings the Aphids section names no control method: nothing on tolerating low numbers, squashing or hosing off. It ends with a link 'Learn more about aphids and how to manage them.'"
+ },
+ {
+  "code": "UMD-PROB",
+  "opened": true,
+  "finding": "AF-24",
+  "recorded": "\"choose control measures that minimize impacts on natural enemies, or else secondary (recurring) pest outbreaks can be problematic.\"",
+  "result": "Confirmed",
+  "page_wording": "It is important to choose control measures that minimize impacts on natural enemies, or else secondary (recurring) pest outbreaks can be problematic.",
+  "supports_finding": "partly",
+  "note": "Fragment exact; under Aphids. The page does not use the words 'broad-spectrum' and names no insecticide class here; it speaks of 'control measures' generally."
+ },
+ {
+  "code": "UMD-PROB",
+  "opened": true,
+  "finding": "AF-32",
+  "recorded": "\"Fungicides may harm pollinators or other organisms, so use them with caution and do not spray open flowers.\"",
+  "result": "Confirmed",
+  "page_wording": "Fungicides may harm pollinators or other organisms, so use them with caution and do not spray open flowers.",
+  "supports_finding": "partly",
+  "note": "Exact; under 'Rose Rust'. The sentence is about fungicides. The page does not mention bees foraging or time of day for spraying."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Select rose varieties that are hardy in your area and that have a high level of black spot resistance.\"",
+  "result": "Confirmed",
+  "page_wording": "Select rose varieties that are hardy in your area and that have a high level of black spot resistance.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-7",
+  "recorded": "\"consider applying preventative fungicide treatments.\"",
+  "result": "Confirmed",
+  "page_wording": "If your rose has a history of severe black spot, and the weather for the growing season is predicted to be wet, consider applying preventative fungicide treatments.",
+  "supports_finding": "yes",
+  "note": "Fragment present. Conditional on a history of severe black spot and a wet forecast. Page says 'preventative'; it does not say in this sentence that fungicides cannot cure."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-9",
+  "recorded": "\"Treat every seven to 14 days from bud break until wet weather subsides.\"",
+  "result": "Confirmed",
+  "page_wording": "Treat every seven to 14 days from bud break until wet weather subsides.",
+  "supports_finding": "yes",
+  "note": "Exact. Label instruction is a separate sentence on the page (see AF-30)."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-10",
+  "recorded": "\"Treat every seven to 14 days from bud break until wet weather subsides.\"",
+  "result": "Confirmed",
+  "page_wording": "Treat every seven to 14 days from bud break until wet weather subsides.",
+  "supports_finding": "partly",
+  "note": "Exact. Start point (bud break) matches. End point on the page is 'until wet weather subsides', not through the whole growing season."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-11",
+  "recorded": "\"If your rose has a history of severe black spot, and the weather for the growing season is predicted to be wet\"",
+  "result": "Confirmed",
+  "page_wording": "If your rose has a history of severe black spot, and the weather for the growing season is predicted to be wet, consider applying preventative fungicide treatments.",
+  "supports_finding": "yes",
+  "note": "Fragment present (first WebFetch reply labelled it NEAR but gave identical wording; second call quoted the full sentence)."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-12",
+  "recorded": "\"DO NOT use the same active ingredient for all treatments.\"",
+  "result": "Confirmed",
+  "page_wording": "DO NOT use the same active ingredient for all treatments.",
+  "supports_finding": "yes",
+  "note": "Exact. Page gives the reason: 'to help minimize problems with fungicide-resistant strains of the black spot pathogen'."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-14",
+  "recorded": "\"Promptly remove diseased leaf litter.\"",
+  "result": "Confirmed",
+  "page_wording": "Promptly remove diseased leaf litter.",
+  "supports_finding": "yes",
+  "note": "Exact. The sentence is not specific to winter and does not mention infected stems."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-17",
+  "recorded": "\"DO NOT overhead water (e.g., with a sprinkler).\"",
+  "result": "Confirmed",
+  "page_wording": "DO NOT overhead water (e.g., with a sprinkler).",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-19",
+  "recorded": "\"Plant roses in a high light environment, and space shrubs far apart.\"",
+  "result": "Confirmed",
+  "page_wording": "Plant roses in a high light environment, and space shrubs far apart.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-30",
+  "recorded": "\"Be sure to read and follow all label instructions of the fungicide(s) that you select.\"",
+  "result": "Confirmed",
+  "page_wording": "Be sure to read and follow all label instructions of the fungicide(s) that you select.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-21",
+  "recorded": "\"Neem oil is another organic product (in addition to copper sulfate) that has been shown to provide some black spot control.\"",
+  "result": "Confirmed",
+  "page_wording": "Neem oil is another organic product (in addition to copper sulfate) that has been shown to provide some black spot control.",
+  "supports_finding": "yes",
+  "note": "Exact. Covers neem oil for black spot ('some' control); sulfur and potassium bicarbonate not in this sentence. Page calls copper sulfate an organic product."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-39",
+  "recorded": "\"Fungicides containing chlorothalonil, copper sulfate, and myclobutanil can be highly effective in controlling black spot.\"",
+  "result": "Confirmed",
+  "page_wording": "Fungicides containing chlorothalonil, copper sulfate, and myclobutanil can be highly effective in controlling black spot.",
+  "supports_finding": "yes",
+  "note": "Exact. Copper is named as copper sulfate."
+ },
+ {
+  "code": "WISC-BS",
+  "opened": true,
+  "finding": "AF-40",
+  "recorded": "\"Fungicides containing chlorothalonil, copper sulfate, and myclobutanil can be highly effective in controlling black spot.\"",
+  "result": "Confirmed",
+  "page_wording": "Fungicides containing chlorothalonil, copper sulfate, and myclobutanil can be highly effective in controlling black spot.",
+  "supports_finding": "yes",
+  "note": "Exact."
+ },
+ {
+  "code": "PSU-RD",
+  "opened": true,
+  "finding": "AF-7",
+  "recorded": "\"Apply a fungicide to protect new foliage.\"",
+  "result": "Confirmed",
+  "page_wording": "Apply a fungicide to protect new foliage.",
+  "supports_finding": "yes",
+  "note": "Exact; in the Black spot management text ('Remove infected canes. Remove and destroy fallen leaves. Water in a manner that keeps foliage surfaces dry. Apply a fungicide to protect new foliage.'). The page does not state whether fungicides cure existing infection."
+ },
+ {
+  "code": "PSU-RD",
+  "opened": true,
+  "finding": "AF-17",
+  "recorded": "\"Water in a manner that keeps foliage surfaces dry.\"",
+  "result": "Confirmed",
+  "page_wording": "Water in a manner that keeps foliage surfaces dry.",
+  "supports_finding": "yes",
+  "note": "Exact on second reading; appears under Black spot and Downy mildew. Page does not specifically say to water at the base."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Hybrid tea: 'Pride N Joy'\"",
+  "result": "Confirmed",
+  "page_wording": "Hybrid tea: 'Pride N Joy'",
+  "supports_finding": "partly",
+  "note": "Exact; an entry in the black-spot-resistant cultivar list. The recorded fragment is a list entry, not a statement that choosing resistant varieties is a principal control; other wording on the page about choosing resistant varieties was not checked."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-14",
+  "recorded": "\"In the fall or winter, remove all old leaves on the ground along with any mulch where infected leaves have fallen.\"",
+  "result": "Confirmed",
+  "page_wording": "In the fall or winter, remove all old leaves on the ground along with any mulch where infected leaves have fallen.",
+  "supports_finding": "yes",
+  "note": "Confirmed with the opening words 'In the fall or winter'; under Black Spot. Preceded by 'Sanitation practices are critical in reducing future disease development.' Followed by 'Replace with a fresh layer of mulch before new rose growth begins in the spring.'"
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-15",
+  "recorded": "\"Remove and destroy diseased leaves and canes during the growing season.\"",
+  "result": "Confirmed",
+  "page_wording": "Remove and destroy diseased leaves and canes during the growing season.",
+  "supports_finding": "yes",
+  "note": "Exact. WebFetch placed it under Powdery Mildew on three readings (not under Black Spot)."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-17",
+  "recorded": "\"It is best not to water plants with overhead irrigation\"",
+  "result": "Confirmed",
+  "page_wording": "It is best not to water plants with overhead irrigation",
+  "supports_finding": "yes",
+  "note": "Exact fragment; under Black Spot."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-18",
+  "recorded": "\"A film of water inhibits infection\"",
+  "result": "Confirmed",
+  "page_wording": "A film of water inhibits infection, so in years when rainfall is high during spring and summer, control measures may not be needed until the drier months of late summer.",
+  "supports_finding": "yes",
+  "note": "Fragment exact; under Powdery Mildew. The full sentence is about rainfall making control unnecessary; it is not advice to wet the leaves."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-19",
+  "recorded": "\"Space new plants far enough apart to allow for good air circulation.\"",
+  "result": "Confirmed",
+  "page_wording": "Space new plants far enough apart to allow for good air circulation.",
+  "supports_finding": "yes",
+  "note": "Exact; under Black Spot."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-30",
+  "recorded": "\"Apply all chemicals according to the directions on the label\"",
+  "result": "Confirmed",
+  "page_wording": "Apply all chemicals according to the directions on the label",
+  "supports_finding": "yes",
+  "note": "Exact; under Black Spot and repeated under other diseases."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-21",
+  "recorded": "\"sulfur, neem oil (clarified hydrophobic extract), or baking soda mixed with horticultural oil\"",
+  "result": "Confirmed",
+  "page_wording": "Fungicide sprays recommended for use in the home garden include propiconazole, thiophanate-methyl, myclobutanil, sulfur, neem oil (clarified hydrophobic extract), or baking soda mixed with horticultural oil.",
+  "supports_finding": "partly",
+  "note": "Fragment exact, but it sits under Powdery Mildew only, in a list that also includes synthetic fungicides. The page says baking soda (sodium bicarbonate), not potassium bicarbonate. It does not call these lower-toxicity in this sentence."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-29",
+  "recorded": "[checked 5 Oct 2026, two extractions: the page does not mention lime sulfur or a spray after pruning]",
+  "result": "Confirmed",
+  "page_wording": "",
+  "supports_finding": "partly",
+  "note": "Note tested by direct questions over three calls. 'Lime sulfur' / 'lime-sulfur': not on the page. Spray after pruning: nothing found (WebFetch answered 'yes' once but the quotations it gave were leaf clean-up and disinfecting pruning tools, not a spray). However the page does say 'Copper fungicides can be used on dormant bushes.' (under Botrytis Blight), which is a dormant-season application, though not tied to pruning."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-39",
+  "recorded": "\"chlorothalonil, mancozeb, myclobutanil, propiconazole, or copper fungicides\"",
+  "result": "Confirmed",
+  "page_wording": "Select one of the following fungicide sprays if the disease is severe enough to warrant control: chlorothalonil, mancozeb, myclobutanil, propiconazole, or copper fungicides.",
+  "supports_finding": "yes",
+  "note": "Fragment exact; under Black Spot. Carries the condition 'if the disease is severe enough to warrant control'."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-40",
+  "recorded": "\"chlorothalonil, mancozeb, myclobutanil, propiconazole, or copper fungicides\"",
+  "result": "Confirmed",
+  "page_wording": "Select one of the following fungicide sprays if the disease is severe enough to warrant control: chlorothalonil, mancozeb, myclobutanil, propiconazole, or copper fungicides.",
+  "supports_finding": "yes",
+  "note": "Fragment exact; under Black Spot; chlorothalonil listed first."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-44",
+  "recorded": "\"baking soda mixed with horticultural oil\"",
+  "result": "Confirmed",
+  "page_wording": "...sulfur, neem oil (clarified hydrophobic extract), or baking soda mixed with horticultural oil.",
+  "supports_finding": "yes",
+  "note": "Fragment present as the end of the Powdery Mildew fungicide sentence (WebFetch first answered NOT FOUND 'as an isolated phrase', then confirmed the exact word string inside that sentence). This page lists the baking soda mix among recommended sprays for powdery mildew; the 'sources disagree' part depends on other sources."
+ },
+ {
+  "code": "CLEM-DIS",
+  "opened": true,
+  "finding": "AF-45",
+  "recorded": "\"Copper fungicides can be used on dormant bushes.\"",
+  "result": "Confirmed",
+  "page_wording": "Copper fungicides can be used on dormant bushes.",
+  "supports_finding": "yes",
+  "note": "Exact; appears once. On three readings it sits under Botrytis Blight, not Black Spot. Sentence before: 'Use neem oil on a trial basis, especially on open blooms and during hot weather.' Sentence after: 'See Table 1 for examples of products.' The word 'dormant' is not used under Black Spot."
+ },
+ {
+  "code": "CLEM-INS",
+  "opened": true,
+  "finding": "AF-6",
+  "recorded": "\"Whenever possible, initially try physical control measures.\"",
+  "result": "Confirmed",
+  "page_wording": "Whenever possible, initially try physical control measures.",
+  "supports_finding": "yes",
+  "note": "Exact; in the introduction before the pest headings. Next sentence: 'If chemical control is necessary, use the least toxic chemical, plus be sure to apply it at the most susceptible stage of the insect pest.' The page does not use the words 'last resort'."
+ },
+ {
+  "code": "CLEM-INS",
+  "opened": true,
+  "finding": "AF-22",
+  "recorded": "\"Aphids can be hosed off with a strong stream of water directed above and below the leaves.\"",
+  "result": "Confirmed",
+  "page_wording": "Aphids can be hosed off with a strong stream of water directed above and below the leaves.",
+  "supports_finding": "yes",
+  "note": "Present under Aphids (first reply labelled it NEAR but gave identical wording). Page also says 'A low population of aphids does little damage to a rose bush' and lists natural enemies. Squashing was not found/checked."
+ },
+ {
+  "code": "CLEM-INS",
+  "opened": true,
+  "finding": "AF-23",
+  "recorded": "\"Insecticidal soap must be sprayed onto the aphids to be effective.\"",
+  "result": "Confirmed",
+  "page_wording": "Insecticidal soap must be sprayed onto the aphids to be effective.",
+  "supports_finding": "partly",
+  "note": "Exact; under Aphids. Insecticidal soap is named for aphids before the sentence 'Higher toxicity insecticides are available.' Horticultural oil appears for aphids only inside the contact-insecticide list ('Sprays containing bifenthrin, cyfluthrin, horticultural oil, lambda cyhalothrin, malathion, neem oil, permethrin, or pyrethrin will control aphids.'). The explicit low-toxicity wording ('essentially nontoxic to humans, wildlife, and pets') is in the Mites section, not Aphids."
+ },
+ {
+  "code": "CLEM-INS",
+  "opened": true,
+  "finding": "AF-24",
+  "recorded": "\"In addition, these insecticides kill the natural enemies of rose aphids.\"",
+  "result": "Confirmed",
+  "page_wording": "In addition, these insecticides kill the natural enemies of rose aphids.",
+  "supports_finding": "partly",
+  "note": "Exact; under Aphids. 'These insecticides' follows 'Higher toxicity insecticides are available. However, it is important to note that aphids are very difficult to control because they multiply rapidly. Leaving even one aphid alive can result in a large population very quickly.' The page does not use 'broad-spectrum' and does not state repeat outbreaks in so many words."
+ },
+ {
+  "code": "ARS-FUNG",
+  "opened": true,
+  "finding": "AF-4",
+  "recorded": "\"Keeping susceptible roses healthy requires some application of fungicides, especially when conditions support disease development\"",
+  "result": "Confirmed",
+  "page_wording": "Keeping susceptible roses healthy requires some application of fungicides, especially when conditions support disease development.",
+  "supports_finding": "partly",
+  "note": "Exact. Page says 'some application', not regular application. Page also says 'Roses differ in their susceptibility to fungal attack, with modern hybrid teas being the most susceptible.' Floribunda not found on the page."
+ },
+ {
+  "code": "ARS-FUNG",
+  "opened": true,
+  "finding": "AF-7",
+  "recorded": "\"before disease occurs or at the first appearance of symptoms\"",
+  "result": "Confirmed",
+  "page_wording": "For this reason, to be effective most fungicides should be applied when environmental conditions are right for disease development, before disease occurs or at the first appearance of symptoms.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Page also says 'While most fungicides are only capable of protecting uninfected growth from disease, only a handful are effective against pathogens once infection occurs', and refers to 'a curative fungicide, such as Mancozeb, applied every five days for three weeks'. So it qualifies 'not by curing' with 'most', not all."
+ },
+ {
+  "code": "ARS-FUNG",
+  "opened": true,
+  "finding": "AF-9",
+  "recorded": "\"seven to 14 days\"",
+  "result": "Confirmed",
+  "page_wording": "Contact fungicides are very sensitive to the environment and are usually effective for seven to 14 days, however product life depends on the amount of rain/irrigation the bush receives and the amount of UV rays the chemical is exposed to.",
+  "supports_finding": "partly",
+  "note": "Fragment exact, but it describes how long a contact fungicide stays effective, not a stated repeat-spray interval. WebFetch found no general repeat interval on the page; the only interval given is a curative fungicide 'applied every five days for three weeks'. The label part is supported by 'The product label will provide direction on application frequency.'"
+ },
+ {
+  "code": "ARS-FUNG",
+  "opened": true,
+  "finding": "AF-11",
+  "recorded": "\"especially when conditions support disease development\"",
+  "result": "Confirmed",
+  "page_wording": "Keeping susceptible roses healthy requires some application of fungicides, especially when conditions support disease development.",
+  "supports_finding": "yes",
+  "note": "Fragment exact. Says conditions that support disease; does not specifically name wet weather, disease history or a heavy outbreak in this sentence."
+ },
+ {
+  "code": "ARS-FUNG",
+  "opened": true,
+  "finding": "AF-12",
+  "recorded": "\"to delay the development of the resistance to chemical treatments\"",
+  "result": "Confirmed",
+  "page_wording": "Rotation of fungicide products that have different \"modes of action\" to delay the development of the resistance to chemical treatments.",
+  "supports_finding": "yes",
+  "note": "Fragment exact (including 'the resistance') on a second, narrower reading."
+ },
+ {
+  "code": "ARS-FUNG",
+  "opened": true,
+  "finding": "AF-30",
+  "recorded": "\"The product label will provide direction on application frequency.\"",
+  "result": "Confirmed",
+  "page_wording": "The product label will provide direction on application frequency.",
+  "supports_finding": "yes",
+  "note": "Exact. Preceding sentence is about rain reducing contact-fungicide residue. Nothing about UK law (not expected from this source)."
+ },
+ {
+  "code": "ZLESAK",
+  "opened": true,
+  "finding": "AF-1",
+  "recorded": "\"conducted without fertilizers or pesticides and greatly reduced irrigation\"",
+  "result": "Confirmed",
+  "page_wording": "The rose trials within the Earth-Kind program identify and promote the most regionally adapted rose cultivars and are conducted without fertilizers or pesticides and greatly reduced irrigation.",
+  "supports_finding": "partly",
+  "note": "Fragment exact in the abstract. It describes how the trials are run; it does not itself say roses grow well without spraying. New Zealand is not mentioned."
+ },
+ {
+  "code": "ZLESAK",
+  "opened": true,
+  "finding": "AF-2",
+  "recorded": "\"Race-specific resistance was generally more prevalent in newer rose cultivars\"",
+  "result": "Confirmed",
+  "page_wording": "Race-specific resistance was generally more prevalent in newer rose cultivars and rose cultivars more recently included in Earth-Kind trials.",
+  "supports_finding": "partly",
+  "note": "Fragment exact. The sentence reports where race-specific resistance was found; it is not a recommendation to choose resistant varieties. Abstract also reports nine cultivars resistant to all three races."
+ },
+ {
+  "code": "ZLESAK",
+  "opened": true,
+  "finding": "AF-3",
+  "recorded": "\"Race-specific resistance was generally more prevalent in newer rose cultivars\"",
+  "result": "Confirmed",
+  "page_wording": "Race-specific resistance was generally more prevalent in newer rose cultivars and rose cultivars more recently included in Earth-Kind trials.",
+  "supports_finding": "partly",
+  "note": "Fragment exact. The abstract does not state that resistance may not last or that it varies by region (both NOT STATED on direct questions; the words durable/durability/overcome/breakdown do not appear). The nearest wording is a reference to 'identifying resistance-breaking isolates of D. rosae' and to 'regionally adapted' cultivars. The claim rests on inference from 'race-specific'."
+ }
+]

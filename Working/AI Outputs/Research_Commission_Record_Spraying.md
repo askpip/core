@@ -1,6 +1,6 @@
 # Research Commission Record — Spraying an Established Bush Rose: Whether, When and How Often
 
-**AUTHORISED.** A Founder authorised this commission on 1 October 2026, in chat ("research whatever is required for questions"). Research was carried out on 1 October 2026. On 5 October 2026 a Founder directed that the types of spray the sources name be included (§7A). The sources were read again that day, and the revised dossier `FRD-BUSHROSE-SPRAYING-02` has been submitted for Founder review.
+**AUTHORISED.** A Founder authorised this commission on 1 October 2026, in chat ("research whatever is required for questions"). Research was carried out on 1 October 2026. On 5 October 2026 a Founder directed that the types of spray the sources name be included (§7A). The sources were read again that day, and the revised dossier `FRD-BUSHROSE-SPRAYING-02` was submitted for Founder review. A Founder approved it on 5 October 2026 (§7A), and `ARC-BUSHROSE-SPRAYING-01` has been created.
 
 ---
 
@@ -10,8 +10,8 @@
 |---|---|
 | Document Title | Research Commission Record — Spraying an Established Bush Rose: Whether, When and How Often |
 | Document Type | Research Commission Record (RCR), authorised commission |
-| Version | 0.2 |
-| Status | Authorised. Research complete; revised dossier submitted for Founder review. |
+| Version | 0.3 |
+| Status | Authorised. Research complete; approved; ARC created. |
 | Owner | The Founders |
 | Prepared By | Claude, acting in the Research Origin Curator (ROC) role, at a Founder's direction |
 | Date Prepared | 1 October 2026; amended 5 October 2026 |
@@ -27,7 +27,7 @@
 | Date Received | 1 October 2026 |
 | Requesting Authority | AskPIP Founder Authority |
 | Priority | High (identified by the Founder as one of the most-asked beginner rose questions Pip cannot yet answer) |
-| Current Status | Research complete; `FRD-BUSHROSE-SPRAYING-02` submitted for Founder review. `FRD-BUSHROSE-SPRAYING-01` is superseded and kept. |
+| Current Status | Approved 5 October 2026. `ARC-BUSHROSE-SPRAYING-01` created from `FRD-BUSHROSE-SPRAYING-02`. `FRD-BUSHROSE-SPRAYING-01` is superseded and kept. |
 
 ## 3. Background: the gap
 
@@ -65,6 +65,7 @@ Established Hybrid Tea and Floribunda bush roses (Grandiflora provisionally), wi
 Recorded under ROC Operations Manual §11.7.
 
 - **5 October 2026.** A Founder directed that the exclusion be lifted for types of spray, keeping brand names and mixing amounts out. Effect on the research: 30 of the 35 source pages were read again for the types of spray they name; ten findings were added (AF-36 to AF-45) and three revised (AF-21, AF-23, AF-29); the Evidence Assessment was extended to them; and `FRD-BUSHROSE-SPRAYING-02` was prepared with its Decision Brief and Review Form. `FRD-BUSHROSE-SPRAYING-01` is kept as submitted.
+- **5 October 2026: Founder decision (ROC Operations Manual §11.8).** Approved, by a Founder as AskPIP Founder Authority, in chat: "This one is complete and KIT can be instructed to create the relevant PKRs and carry out source checks for anything that will be published to the LIL for Pip to use." No conditions and no amendments. Authorised next stage: creation of `ARC-BUSHROSE-SPRAYING-01`, KIT's PKR build, and the ROC's Build Check before anything is published.
 
 ## 8. Interim Behaviour
 
