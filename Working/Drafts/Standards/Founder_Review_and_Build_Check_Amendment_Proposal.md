@@ -4,12 +4,12 @@
 
 **Document Title:** Founder Review and Build Check Amendment Proposal
 **Document Type:** Amendment Proposal
-**Version:** 0.1
+**Version:** 0.2
 **Status:** Draft — for Founder approval
 **Owner:** The Founders
 **Prepared By:** Research Origin Curator (ROC)
 **Working Location:** `Working/Drafts/Standards/Founder_Review_and_Build_Check_Amendment_Proposal.md`
-**Last Updated:** 5 October 2026
+**Last Updated:** 5 October 2026 (v0.2: after a Founder tried the first short form, §2.6A is narrowed to real choices and §11.4B gains the precaution case)
 **Purpose:** To propose the wording that shortens Founder review of research, sets which findings Pip may use by their Evidence Confidence Level, and adds a check by the ROC after the Knowledge Integration Technician (KIT) has built Pip's records.
 **Related Documents:** `Knowledge Curation System/Standards/Founder_Review_Dossier_Standard.md` (v1.3); `Knowledge Curation System/Operations Manuals/ROC_Operations_Manual.md` (v2.9); `Knowledge Curation System/Charters/ROC_Charter.md` (v0.04); `Knowledge Curation System/Charters/KIT_Charter.md` (v0.02); `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md` (v0.6); `AI/Skills/KIT_PKR_Build_Skill.md` (v0.1); `Knowledge Curation System/Workflows/Knowledge_Integration_Workflow.md` (v0.04); `AI/Skills/Garden_Shed_Operations_Skill.md` (v0.6); `Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md` (v0.4, the patterns for the briefs and forms)
 
@@ -21,8 +21,8 @@ Founder direction, 5 October 2026: the Review Forms are too long, the Founders' 
 
 Five changes:
 
-1. **A short Review Form.** The form asks for the decisions only a Founder can make: how Pip handles the subject, any exceptions, whether to commission more research, and the overall outcome. It does not ask for a decision on each finding.
-2. **An adoption rule.** A finding's Evidence Confidence Level sets whether Pip may use it. Very High, High and Moderate findings may be used. Low and Very Low findings are kept on record and not used, except in four stated cases.
+1. **A short Review Form.** The form asks only the real choices: where sources disagree, or where the decision is a judgement about Pip. It does not ask for a decision on each finding, and it does not ask where the research points one way.
+2. **An adoption rule.** A finding's Evidence Confidence Level sets whether Pip may use it. Very High, High and Moderate findings may be used. Low and Very Low findings are kept on record and not used, except in five stated cases.
 3. **A Build Check.** After KIT builds Pip's records and before the Founders approve them for publishing, the ROC checks every statement Pip will make against the approved finding and against the sources, reopened fresh.
 4. **A Build Check Brief.** The Founders see Pip's actual words with the result of that check, and tick them off.
 5. **Three approved changes restored.** Single-Founder approval (ROC Operations Manual §11.2A), the Decision Brief and Review Form as a required pair (Founder Review Dossier Standard §2.6), and the limit on Review Form questions (§2.6A) were directed by a Founder on 28 September 2026 and never reached the repository. Section 3 carries them in.
@@ -73,13 +73,15 @@ Text not shown is unchanged. Version numbers are proposed; the Founders set them
 >
 > A Review Form asks only for decisions a Founder is needed to make. It shall contain, and be limited to:
 >
-> 1. **The dossier's decisions about Pip.** Each Founder Decision Point in the dossier's §4.2 item 10 that settles what Pip says or does, with its options and the ROC's recommendation.
-> 2. **Exceptions.** Any Low or Very Low finding, or class of them, that the ROC asks the Founders to allow Pip to use (ROC Operations Manual §11.4B), with the reason.
-> 3. **Further research.** One question: whether the ROC's recommended defaults for the open items stand, or which items to commission.
+> 1. **The real choices about Pip.** A Founder Decision Point is put as a question only where sources disagree, or where it is a judgement about Pip that research cannot settle. Where the research points one way, the Decision Brief states what Pip will do and the form does not ask.
+> 2. **Any Low or Very Low finding, or class of them, the ROC asks the Founders to allow** (ROC Operations Manual §11.4B, case 5), with the reason.
+> 3. **Further research, only where the ROC recommends commissioning something.** Otherwise the Decision Brief lists the open items and what Pip does meanwhile.
 > 4. **The overall decision.** Approve as the named ARC, approve with stated changes, request further work, or decline.
-> 5. **Optional comments.** Space to change, exclude or flag any finding, disagreement or open item.
+> 5. **Optional comments.** Space to change, exclude or flag anything.
 >
-> A Review Form shall not ask for a decision on each finding. Whether Pip may use a finding follows from its Evidence Confidence Level (ROC Operations Manual §11.4A). A Founder may still change, exclude or flag any finding under item 5.
+> Every question shall be answerable from its own words, without a finding number or option code to look up. Every option shall say what Pip would say or do. The ROC's recommended answer shall be one option that can be chosen.
+>
+> A Review Form shall not ask for a decision on each finding, and shall not ask a Founder to judge the research itself. Whether Pip may use a finding follows from its Evidence Confidence Level (ROC Operations Manual §11.4A). A Founder may still change, exclude or flag anything under item 5.
 >
 > A Review Form shall not ask about scheduling, sequencing, prioritisation or what work should happen next. Those are raised separately, as a Garden Shed to-do or in conversation.
 >
@@ -89,7 +91,7 @@ Text not shown is unchanged. Version numbers are proposed; the Founders set them
 
 **Current:** 10. **Founder Decision Points** — the specific decisions the dossier asks the Founders to make, stated as direct questions (for example: approve as a future ARC; approve with amendment; defer pending further research; decline).
 
-**Proposed:** 10. **Founder Decision Points** — the specific decisions the dossier asks the Founders to make, stated as direct questions: the overall decision (approve as a future ARC; approve with amendment; defer pending further research; decline), each decision about what Pip says or does, and any exception the ROC asks for under ROC Operations Manual §11.4B. A decision on each individual finding is not a Founder Decision Point.
+**Proposed:** 10. **Founder Decision Points** — the specific decisions the dossier asks the Founders to make, stated as direct questions: the overall decision (approve as a future ARC; approve with amendment; defer pending further research; decline), each decision about what Pip says or does, with the ROC's recommendation and whether it is a real choice or one the research settles, and any finding the ROC asks the Founders to allow under ROC Operations Manual §11.4B. A decision on each individual finding is not a Founder Decision Point.
 
 ## B. ROC Operations Manual (v2.9 → v2.10)
 
@@ -97,12 +99,13 @@ Text not shown is unchanged. Version numbers are proposed; the Founders set them
 
 > ## 10.6A Decision Brief and Review Form
 >
-> With every Founder Review Dossier the ROC shall prepare a Decision Brief and a Review Form, as the Founder Review Dossier Standard §2.6 and §2.6A require. The Decision Brief shall show, for every finding, whether it would be available to Pip or kept on record only (§11.4A), and shall name every exception the ROC asks for (§11.4B).
+> With every Founder Review Dossier the ROC shall prepare a Decision Brief and a Review Form, as the Founder Review Dossier Standard §2.6 and §2.6A require. The Decision Brief shall show, for every finding, whether it would be available to Pip or kept on record only (§11.4A), shall state what Pip will do where the research settles a decision, and shall describe in words any finding the ROC asks the Founders to allow (§11.4B).
 
 ### B2 — §10.10 Quality Review, two checks added to the list
 
 > - every finding is marked as available to Pip or on record only, by its Evidence Confidence Level (§11.4A);
-> - every exception the ROC asks for states which test in §11.4B it meets and why;
+> - every Low or Very Low finding marked available states which case in §11.4B applies;
+> - every question on the Review Form is a real choice, is answerable from its own words, and offers the ROC's recommended answer as one option;
 
 ### B3 — new §11.2A, after §11.2
 
@@ -132,12 +135,13 @@ Text not shown is unchanged. Version numbers are proposed; the Founders set them
 >
 > ## 11.4B Exceptions for Low and Very Low Findings
 >
-> A Low or Very Low finding becomes available to Pip only in one of four ways.
+> A Low or Very Low finding becomes available to Pip only in one of five ways. The first three need no Founder question.
 >
-> 1. **A local finding from one reliable source.** The finding says when or how a job is done in a named country, region or place, and rests on a source of a kind listed below. Local information often has only one source, so one reliable source is enough. Pip shows it only to gardeners in that place, with the source named and the confidence shown. It needs no Founder question.
-> 2. **A record of a gap.** A finding that records that no source was found may be used only to say that the gap exists. It needs no Founder question.
-> 3. **A vital finding.** Leaving it out could lead to harm to the plant or the gardener, or a step in Pip's guidance cannot work without it. The ROC names each such finding in the Decision Brief and the Review Form, with the reason. It becomes available only if a Founder allows it.
-> 4. **A class allowed by a Founder.** Where a dossier's Low findings share one character that the cases above do not cover (for example, months given by single garden companies), a Founder may allow the class under stated conditions, through one question.
+> 1. **A local finding from one reliable source.** The finding says when or how a job is done in a named country, region or place, and rests on a source of a kind listed below. Local information often has only one source, so one reliable source is enough. Pip shows it only to gardeners in that place, with the source named and the confidence shown.
+> 2. **A precaution.** The finding only asks the gardener to take more care, to protect themselves or the plant, and following it costs little if the caution proves unnecessary. An Evidence Confidence Level measures how strong the evidence is, not how much a finding matters.
+> 3. **A record of a gap.** A finding that records that no source was found may be used only to say that the gap exists.
+> 4. **A finding Pip's guidance cannot work without.** The ROC names it in the Decision Brief and the Review Form, in words, with the reason. It becomes available only if a Founder allows it.
+> 5. **A class allowed by a Founder.** Where a dossier's Low findings share one character that the cases above do not cover (for example, months given by single garden companies), a Founder may allow the class under stated conditions, through one question.
 >
 > **Reliable sources for case 1** are: a rose society or horticultural society; a botanic garden; a university or its extension service, including its Master Gardener programme; and a government body or research institute. A single garden company, one person's own practice, a general-interest publication and a broadcast segment do not qualify on their own.
 >
@@ -293,7 +297,7 @@ No change. ROC still shall not create or edit PKRs.
 
 ### G1 — Stage 5, paragraph added before "Founder review may result in…"
 
-> The Founders decide through a short Review Form. It asks for the decisions about what Pip says or does, any exception, the further-research defaults and the overall outcome. It does not ask for a decision on each finding: a finding's Evidence Confidence Level sets whether Pip may use it (ROC Operations Manual §11.4A).
+> The Founders decide through a short Review Form. It asks only the real choices about what Pip says or does, and the overall outcome. It does not ask for a decision on each finding: a finding's Evidence Confidence Level sets whether Pip may use it (ROC Operations Manual §11.4A).
 
 ### G2 — new Stage 9A, after Stage 9
 
@@ -317,19 +321,19 @@ No change. ROC still shall not create or edit PKRs.
 
 ### H2 — §6, final paragraph, replaced
 
-> **A Review Form asks only what Founder Review Dossier Standard §2.6A allows:** the dossier's decisions about Pip, any exception, one further-research question, the overall decision, and optional comments. It never asks for a decision on each finding, and never asks about scheduling or what work should happen next. Before posting a Review Form, check every question against §2.6A.
+> **A Review Form asks only what Founder Review Dossier Standard §2.6A allows:** the real choices about Pip, any finding the ROC asks the Founders to allow, further research only where the ROC recommends commissioning it, the overall decision, and optional comments. Every question is answerable from its own words. It never asks for a decision on each finding, and never asks about scheduling or what work should happen next. Before posting a Review Form, check every question against §2.6A.
 
 # 5. Effect on Existing Records
 
 - **Approved ARCs and Published PKRs do not change.** The adoption rule applies to dossiers decided, and packages built, after approval of this amendment.
-- **21 statements in Published PKRs carry a Low confidence tag.** Under the new rule each would need to fall within one of the four cases in §11.4B, or be retired. KIT lists them for a Founder decision (Decision 5 below). Nothing is retired until then.
-- **Six dossiers await review.** Their Decision Briefs and Review Forms have been rewritten to the proposed pattern for the Founders to try: Spraying, Planting and Moving, and month-level timing for the United Kingdom, the United States, Canada and Australia. The dossiers themselves are unchanged.
+- **21 statements in Published PKRs carry a Low confidence tag.** Under the new rule each would need to fall within one of the five cases in §11.4B, or be retired. KIT lists them for a Founder decision (Decision 5 below). Nothing is retired until then.
+- **Six dossiers await review.** The Spraying Decision Brief and Review Form follow the pattern proposed here and are with the Founders to try. The other five (Planting and Moving, and month-level timing for the United Kingdom, the United States, Canada and Australia) were shortened on 5 October 2026 to an earlier version of the pattern and are to be redone once the Spraying form has been tried. The dossiers themselves are unchanged.
 - **The New Zealand timing dossier** was approved on 3 October 2026 through the earlier form. That approval stands.
 - **No Build Check has yet been run.** The first one can be run on the next package KIT builds.
 
 # 6. Decisions for the Founders
 
-1. **Approve the adoption rule (§11.4A) and the four cases in §11.4B?** The test for a vital finding is: leaving it out could lead to harm to the plant or the gardener, or a step in Pip's guidance cannot work without it.
+1. **Approve the adoption rule (§11.4A) and the five cases in §11.4B?** The second case uses a Low finding without a question where it only asks the gardener to take more care.
 2. **Confirm what counts as a reliable source for local information.** A Founder directed on 5 October 2026 that one reliable source is enough for local information. §11.4B lists the kinds proposed as reliable, and the kinds that do not qualify on their own. Change either list?
 3. **Names.** "Build Check", "Build Check Brief" and "Build Check Form" are new. "Decision Brief" and "Review Form" are in use but are not yet in the PIP System Identity and Naming Standard. All five would be added to its §8 on approval.
 4. **The two Charters.** Sections C and D change what ROC and KIT may do. Is one Founder's approval enough for a Charter, or do both approve?
