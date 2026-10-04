@@ -1,6 +1,6 @@
 # Research Commission Record — Spraying an Established Bush Rose: Whether, When and How Often
 
-**AUTHORISED.** Shaphan authorised this commission on 1 October 2026, in chat ("research whatever is required for questions"). Research was carried out on 1 October 2026, and the dossier `FRD-BUSHROSE-SPRAYING-01` has been submitted for Founder review.
+**AUTHORISED.** A Founder authorised this commission on 1 October 2026, in chat ("research whatever is required for questions"). Research was carried out on 1 October 2026. On 5 October 2026 a Founder directed that the types of spray the sources name be included (§7A). The sources were read again that day, and the revised dossier `FRD-BUSHROSE-SPRAYING-02` has been submitted for Founder review.
 
 ---
 
@@ -10,24 +10,24 @@
 |---|---|
 | Document Title | Research Commission Record — Spraying an Established Bush Rose: Whether, When and How Often |
 | Document Type | Research Commission Record (RCR), authorised commission |
-| Version | 0.1 |
-| Status | Authorised. Research complete; dossier submitted for Founder review. |
+| Version | 0.2 |
+| Status | Authorised. Research complete; revised dossier submitted for Founder review. |
 | Owner | The Founders |
-| Prepared By | Claude, acting in the Research Origin Curator (ROC) role, at Shaphan's direction |
-| Date Prepared | 1 October 2026 |
-| Governing Documents | ROC Operations Manual v2.9 (Chapter 3; §5.5, which requires a web address and access date for every online source; §12.6, which requires a Source Register); Evidence Assessment Standard v1.4; Founder Review Dossier Standard v1.3 |
+| Prepared By | Claude, acting in the Research Origin Curator (ROC) role, at a Founder's direction |
+| Date Prepared | 1 October 2026; amended 5 October 2026 |
+| Governing Documents | ROC Operations Manual v2.10 (Chapter 3; §5.5, which requires a web address and access date for every online source; §11.7, which governs additional research a Founder requests; §12.6, which requires a Source Register); Evidence Assessment Standard v1.4; Founder Review Dossier Standard v1.4; Pip Knowledge Rules v0.1 |
 | Related Documents | `ARC-BUSHROSE-BASICCARE-01` F6 (problems to watch for; watering at the base), F11 (clearing fallen leaf debris before winter) and F12 (noticing general signs early); `Source_Register_SPRAYING.json` |
 
 ## 2. Research Commission Record
 
 | Field | Value |
 |---|---|
-| Commission Identifier | `BUSHROSE-SPRAYING`, giving the dossier `FRD-BUSHROSE-SPRAYING-01` and, on approval, `ARC-BUSHROSE-SPRAYING-01` |
+| Commission Identifier | `BUSHROSE-SPRAYING`, giving the dossier `FRD-BUSHROSE-SPRAYING-01`, its revision `FRD-BUSHROSE-SPRAYING-02` and, on approval, `ARC-BUSHROSE-SPRAYING-01` |
 | Commission Title | Whether a beginner should spray an established bush rose, and, if so, when and how often |
 | Date Received | 1 October 2026 |
-| Requesting Authority | AskPIP Founder Authority (Shaphan) |
+| Requesting Authority | AskPIP Founder Authority |
 | Priority | High (identified by the Founder as one of the most-asked beginner rose questions Pip cannot yet answer) |
-| Current Status | Research complete; `FRD-BUSHROSE-SPRAYING-01` submitted for Founder review |
+| Current Status | Research complete; `FRD-BUSHROSE-SPRAYING-02` submitted for Founder review. `FRD-BUSHROSE-SPRAYING-01` is superseded and kept. |
 
 ## 3. Background: the gap
 
@@ -47,16 +47,24 @@
 
 Established Hybrid Tea and Floribunda bush roses (Grandiflora provisionally), within the approved scope. Standard ROC method, with New Zealand, Australian, United Kingdom and United States sources, and at least two to three from New Zealand and Australia where they exist. **Every online source is recorded with its web address and access date (ROC OM §5.5),** in the dossier's Source Log and in `Source_Register_SPRAYING.json`.
 
-**Exclusion.** The commission does not compile specific pesticide product recommendations, brand names, mixing rates or dosages as findings, beyond what a source states in general terms. Where sources name products or give rates, the dossier records only that product choice, rates and intervals are governed by the product label and local regulations.
+**Exclusion (as amended 5 October 2026).** The commission does not compile brand names, mixing rates or dosages as findings. Types of spray and active ingredients are recorded as the sources name them, with what each is used for and when. Where sources give brands or rates, the dossier records only that the product label and local regulations govern them.
+
+**Exclusion as first written (1 October 2026), kept for the record.** "The commission does not compile specific pesticide product recommendations, brand names, mixing rates or dosages as findings, beyond what a source states in general terms. Where sources name products or give rates, the dossier records only that product choice, rates and intervals are governed by the product label and local regulations."
 
 ## 6. Expected Deliverables
 
-`FRD-BUSHROSE-SPRAYING-01`, with per-finding Evidence Confidence Levels, recorded conflicts, Recommendations for Further Research with ROC-recommended defaults, and Founder Decision Points, including whether Pip should name any products at all. A plain-language Decision Brief, and `Source_Register_SPRAYING.json`.
+`FRD-BUSHROSE-SPRAYING-01` (1 October 2026) and its revision `FRD-BUSHROSE-SPRAYING-02` (5 October 2026), each with per-finding Evidence Confidence Levels, recorded conflicts, Recommendations for Further Research and Founder Decision Points. A plain-language Decision Brief and a Review Form for each, and `Source_Register_SPRAYING.json`.
 
 ## 7. Assumptions Recorded
 
 - The commission exists because the Founder identified "should I spray my roses, when, and how often?" as one of the most-asked beginner rose questions that Pip cannot yet answer. That statement set the commission's priority. It is not evidence and is not used as a finding.
-- The exclusion of product recommendations and rates (§5) was set at commissioning, not derived from the research.
+- The exclusion of product recommendations and rates, as first written in §5, was written by the ROC at commissioning. It was not directed by a Founder and was not derived from the research. Q4 of this commission names lime sulphur, copper and oil, and the first dossier recorded copper only inside quotations and one precaution, not as a finding of its own.
+
+## 7A. Founder Requests Recorded
+
+Recorded under ROC Operations Manual §11.7.
+
+- **5 October 2026.** A Founder directed that the exclusion be lifted for types of spray, keeping brand names and mixing amounts out. Effect on the research: 30 of the 35 source pages were read again for the types of spray they name; ten findings were added (AF-36 to AF-45) and three revised (AF-21, AF-23, AF-29); the Evidence Assessment was extended to them; and `FRD-BUSHROSE-SPRAYING-02` was prepared with its Decision Brief and Review Form. `FRD-BUSHROSE-SPRAYING-01` is kept as submitted.
 
 ## 8. Interim Behaviour
 

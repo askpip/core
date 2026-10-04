@@ -1,7 +1,7 @@
 [
  {
   "code": "RHS-BS",
-  "source": "Royal Horticultural Society, \"Rose black spot: Symptoms & Control\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "source": "Royal Horticultural Society, \"Rose black spot: Symptoms & Control\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.rhs.org.uk/disease/rose-black-spot",
   "status": "Opened",
   "findings": [
@@ -15,7 +15,7 @@
  },
  {
   "code": "RHS-PM",
-  "source": "Royal Horticultural Society, \"Rose powdery mildew: Symptoms & Control\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "source": "Royal Horticultural Society, \"Rose powdery mildew: Symptoms & Control\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.rhs.org.uk/disease/rose-powdery-mildew",
   "status": "Opened",
   "findings": [
@@ -23,13 +23,14 @@
    "AF-3",
    "AF-5",
    "AF-15",
-   "AF-18"
+   "AF-18",
+   "AF-44"
   ],
-  "quote": "AF-2: \"There are considerable differences in susceptibility between rose cultivars\" || AF-3: \"any claimed resistance to the disease may not persist for the lifetime of the plant, or be effective in all localities\" || AF-5: \"The RHS recommends that you don't use fungicides\" || AF-15: \"Badly affected shoots are best pruned out and disposed of as soon as the symptoms are seen\" || AF-18: \"Overhead watering (in mid-morning) in dry weather can reduce powdery mildew\""
+  "quote": "AF-2: \"There are considerable differences in susceptibility between rose cultivars\" || AF-3: \"any claimed resistance to the disease may not persist for the lifetime of the plant, or be effective in all localities\" || AF-5: \"The RHS recommends that you don't use fungicides\" || AF-15: \"Badly affected shoots are best pruned out and disposed of as soon as the symptoms are seen\" || AF-18: \"Overhead watering (in mid-morning) in dry weather can reduce powdery mildew\" || AF-44: \"Homemade products are not recommended as they are unregulated and usually untested.\""
  },
  {
   "code": "RHS-RUST",
-  "source": "Royal Horticultural Society, \"Rose rust: Symptoms & Control\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "source": "Royal Horticultural Society, \"Rose rust: Symptoms & Control\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.rhs.org.uk/disease/rose-rust",
   "status": "Opened",
   "findings": [
@@ -42,7 +43,7 @@
  },
  {
   "code": "RHS-APH",
-  "source": "Royal Horticultural Society, \"Rose aphids\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026.",
+  "source": "Royal Horticultural Society, \"Rose aphids\", RHS Advice, date not shown. Horticultural body, UK. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.rhs.org.uk/biodiversity/rose-aphids",
   "status": "Opened",
   "findings": [
@@ -66,7 +67,7 @@
  },
  {
   "code": "UCIPM-DIS",
-  "source": "J.F. Karlik, M. Al Rwahnih and D.A.G. Golino, \"Roses: Diseases and Abiotic Disorders\", UC IPM Pest Notes, UC ANR Publication 7463, updated February 2020. University extension, US. Accessed 1 Oct 2026.",
+  "source": "J.F. Karlik, M. Al Rwahnih and D.A.G. Golino, \"Roses: Diseases and Abiotic Disorders\", UC IPM Pest Notes, UC ANR Publication 7463, updated February 2020. University extension, US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://ipm.ucanr.edu/home-and-landscape/roses-diseases-and-abiotic-disorders/pest-notes/",
   "status": "Opened",
   "findings": [
@@ -78,13 +79,14 @@
    "AF-18",
    "AF-19",
    "AF-21",
-   "AF-29"
+   "AF-29",
+   "AF-42"
   ],
-  "quote": "AF-1: \"many gardeners can grow plants with little to no use of fungicides, especially in California's dry interior valleys.\" || AF-2: \"Glossy-foliaged varieties of hybrid teas and grandifloras often have good resistance to powdery mildew\" || AF-7: \"generally you must apply them to prevent rather than eradicate infections, so timing is critical\" || AF-13: \"attempting to keep plants rust-free may require frequent applications, which may not be justifiable\" || AF-14: \"Remove fallen leaves and other infested material, and prune out infected stems during the dormant season.\" || AF-18: \"may limit the disease by disrupting the daily spore-release cycle\" || AF-19: \"Provide good air circulation around plants.\" || AF-21: \"Oils, including neem oil, or other fungicides such as potassium bicarbonate and sulfur, have been shown to be effective.\" || AF-29: \"Remove fallen leaves and other infested material, and prune out infected stems during the dormant season.\""
+  "quote": "AF-1: \"many gardeners can grow plants with little to no use of fungicides, especially in California's dry interior valleys.\" || AF-2: \"Glossy-foliaged varieties of hybrid teas and grandifloras often have good resistance to powdery mildew\" || AF-7: \"generally you must apply them to prevent rather than eradicate infections, so timing is critical\" || AF-13: \"attempting to keep plants rust-free may require frequent applications, which may not be justifiable\" || AF-14: \"Remove fallen leaves and other infested material, and prune out infected stems during the dormant season.\" || AF-18: \"may limit the disease by disrupting the daily spore-release cycle\" || AF-19: \"Provide good air circulation around plants.\" || AF-21: \"Oils, including neem oil, or other fungicides such as potassium bicarbonate and sulfur, have been shown to be effective.\" || AF-29: \"Remove fallen leaves and other infested material, and prune out infected stems during the dormant season.\" || AF-42: \"Do not apply oils to water-stressed plants or within two weeks of a sulfur spray.\""
  },
  {
   "code": "UCIPM-INS",
-  "source": "M.L. Flint and J.F. Karlik, \"Roses: Insects and Mites\", UC IPM Pest Notes, updated October 2019. University extension, US. Accessed 1 Oct 2026.",
+  "source": "M.L. Flint and J.F. Karlik, \"Roses: Insects and Mites\", UC IPM Pest Notes, updated October 2019. University extension, US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://ipm.ucanr.edu/home-and-landscape/roses-insects-and-mites/",
   "status": "Opened",
   "findings": [
@@ -99,20 +101,21 @@
  },
  {
   "code": "UCIPM-BS",
-  "source": "UC Statewide IPM Program, \"Black Spot\" (Home and Landscape, garden plants: diseases), date not shown. University extension, US. Accessed 1 Oct 2026.",
+  "source": "UC Statewide IPM Program, \"Black Spot\" (Home and Landscape, garden plants: diseases), date not shown. University extension, US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://ipm.ucanr.edu/PMG/GARDEN/PLANTS/DISEASES/blackspot.html",
   "status": "Opened",
   "findings": [
    "AF-2",
    "AF-8",
    "AF-17",
-   "AF-21"
+   "AF-21",
+   "AF-40"
   ],
-  "quote": "AF-2: \"Choose disease-resistant varieties when planting.\" || AF-8: \"For spore production and infection, leaves must remain wet for more than about 7 hours.\" || AF-17: \"Irrigate and hose off aphids in the morning instead of the evening or night.\" || AF-21: \"Available preventive fungicides include neem oil, potassium bicarbonate, sulfur\""
+  "quote": "AF-2: \"Choose disease-resistant varieties when planting.\" || AF-8: \"For spore production and infection, leaves must remain wet for more than about 7 hours.\" || AF-17: \"Irrigate and hose off aphids in the morning instead of the evening or night.\" || AF-21: \"Available preventive fungicides include neem oil, potassium bicarbonate, sulfur\" || AF-40: \"available preventive fungicides include neem oil, potassium bicarbonate, sulfur, and the synthetic fungicides triforine and chlorothalonil\""
  },
  {
   "code": "UMD-BS",
-  "source": "University of Maryland Extension, \"Black Spot Disease of Roses\", 20 April 2021. University extension, US. Accessed 1 Oct 2026.",
+  "source": "University of Maryland Extension, \"Black Spot Disease of Roses\", 20 April 2021. University extension, US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://extension.umd.edu/resource/black-spot-disease-roses",
   "status": "Opened",
   "findings": [
@@ -131,7 +134,7 @@
  },
  {
   "code": "UMD-PROB",
-  "source": "University of Maryland Extension, \"Rose: Identify and Manage Problems\", 10 June 2024. University extension, US. Accessed 1 Oct 2026.",
+  "source": "University of Maryland Extension, \"Rose: Identify and Manage Problems\", 10 June 2024. University extension, US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://extension.umd.edu/resource/rose-identify-and-manage-problems",
   "status": "Opened",
   "findings": [
@@ -145,7 +148,7 @@
  },
  {
   "code": "WISC-BS",
-  "source": "Adrian Crabb and Brian Hudelson, UW-Madison Plant Pathology, \"Black Spot\", University of Wisconsin-Madison Extension, 28 February 2024. University extension, US. Accessed 1 Oct 2026.",
+  "source": "Adrian Crabb and Brian Hudelson, UW-Madison Plant Pathology, \"Black Spot\", University of Wisconsin-Madison Extension, 28 February 2024. University extension, US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://hort.extension.wisc.edu/articles/black-spot/",
   "status": "Opened",
   "findings": [
@@ -158,13 +161,16 @@
    "AF-14",
    "AF-17",
    "AF-19",
-   "AF-30"
+   "AF-21",
+   "AF-30",
+   "AF-39",
+   "AF-40"
   ],
-  "quote": "AF-2: \"Select rose varieties that are hardy in your area and that have a high level of black spot resistance.\" || AF-7: \"consider applying preventative fungicide treatments.\" || AF-9: \"Treat every seven to 14 days from bud break until wet weather subsides.\" || AF-10: \"Treat every seven to 14 days from bud break until wet weather subsides.\" || AF-11: \"If your rose has a history of severe black spot, and the weather for the growing season is predicted to be wet\" || AF-12: \"DO NOT use the same active ingredient for all treatments.\" || AF-14: \"Promptly remove diseased leaf litter.\" || AF-17: \"DO NOT overhead water (e.g., with a sprinkler).\" || AF-19: \"Plant roses in a high light environment, and space shrubs far apart.\" || AF-30: \"Be sure to read and follow all label instructions of the fungicide(s) that you select.\""
+  "quote": "AF-2: \"Select rose varieties that are hardy in your area and that have a high level of black spot resistance.\" || AF-7: \"consider applying preventative fungicide treatments.\" || AF-9: \"Treat every seven to 14 days from bud break until wet weather subsides.\" || AF-10: \"Treat every seven to 14 days from bud break until wet weather subsides.\" || AF-11: \"If your rose has a history of severe black spot, and the weather for the growing season is predicted to be wet\" || AF-12: \"DO NOT use the same active ingredient for all treatments.\" || AF-14: \"Promptly remove diseased leaf litter.\" || AF-17: \"DO NOT overhead water (e.g., with a sprinkler).\" || AF-19: \"Plant roses in a high light environment, and space shrubs far apart.\" || AF-30: \"Be sure to read and follow all label instructions of the fungicide(s) that you select.\" || AF-21: \"Neem oil is another organic product (in addition to copper sulfate) that has been shown to provide some black spot control.\" || AF-39: \"Fungicides containing chlorothalonil, copper sulfate, and myclobutanil can be highly effective in controlling black spot.\" || AF-40: \"Fungicides containing chlorothalonil, copper sulfate, and myclobutanil can be highly effective in controlling black spot.\""
  },
  {
   "code": "PSU-RD",
-  "source": "Gary W. Moorman, Penn State Extension, \"Rose Diseases (Outdoors)\", updated 15 November 2023. University extension, US. Accessed 1 Oct 2026.",
+  "source": "Gary W. Moorman, Penn State Extension, \"Rose Diseases (Outdoors)\", updated 15 November 2023. University extension, US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://extension.psu.edu/rose-diseases-outdoors",
   "status": "Opened",
   "findings": [
@@ -175,7 +181,7 @@
  },
  {
   "code": "CLEM-DIS",
-  "source": "Nancy Doubrava, James H. Blake and Joey Williamson, Clemson Cooperative Extension Home & Garden Information Center, \"Rose Diseases\", updated 8 April 2025. University extension, US. Accessed 1 Oct 2026.",
+  "source": "Nancy Doubrava, James H. Blake and Joey Williamson, Clemson Cooperative Extension Home & Garden Information Center, \"Rose Diseases\", updated 8 April 2025. University extension, US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://hgic.clemson.edu/factsheet/rose-diseases/",
   "status": "Opened",
   "findings": [
@@ -185,13 +191,19 @@
    "AF-17",
    "AF-18",
    "AF-19",
-   "AF-30"
+   "AF-21",
+   "AF-29",
+   "AF-30",
+   "AF-39",
+   "AF-40",
+   "AF-44",
+   "AF-45"
   ],
-  "quote": "AF-2: \"Hybrid tea: 'Pride N Joy'\" || AF-14: \"In the fall or winter, remove all old leaves on the ground along with any mulch where infected leaves have fallen.\" || AF-15: \"Remove and destroy diseased leaves and canes during the growing season.\" || AF-17: \"It is best not to water plants with overhead irrigation\" || AF-18: \"A film of water inhibits infection\" || AF-19: \"Space new plants far enough apart to allow for good air circulation.\" || AF-30: \"Apply all chemicals according to the directions on the label\""
+  "quote": "AF-2: \"Hybrid tea: 'Pride N Joy'\" || AF-14: \"In the fall or winter, remove all old leaves on the ground along with any mulch where infected leaves have fallen.\" || AF-15: \"Remove and destroy diseased leaves and canes during the growing season.\" || AF-17: \"It is best not to water plants with overhead irrigation\" || AF-18: \"A film of water inhibits infection\" || AF-19: \"Space new plants far enough apart to allow for good air circulation.\" || AF-30: \"Apply all chemicals according to the directions on the label\" || AF-21: \"sulfur, neem oil (clarified hydrophobic extract), or baking soda mixed with horticultural oil\" || AF-29: [checked 5 Oct 2026, two extractions: the page does not mention lime sulfur or a spray after pruning] || AF-39: \"chlorothalonil, mancozeb, myclobutanil, propiconazole, or copper fungicides\" || AF-40: \"chlorothalonil, mancozeb, myclobutanil, propiconazole, or copper fungicides\" || AF-44: \"baking soda mixed with horticultural oil\" || AF-45: \"Copper fungicides can be used on dormant bushes.\""
  },
  {
   "code": "CLEM-INS",
-  "source": "Janet McLeod Scott and Joey Williamson, Clemson Cooperative Extension Home & Garden Information Center, \"Rose Insects & Related Pests\", updated 11 October 2024. University extension, US. Accessed 1 Oct 2026.",
+  "source": "Janet McLeod Scott and Joey Williamson, Clemson Cooperative Extension Home & Garden Information Center, \"Rose Insects & Related Pests\", updated 11 October 2024. University extension, US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://hgic.clemson.edu/factsheet/rose-insects-related-pests/",
   "status": "Opened",
   "findings": [
@@ -204,7 +216,7 @@
  },
  {
   "code": "ARS-FUNG",
-  "source": "Gaye Hammond, \"Fungicides Made Simple\" (first published in Basal Breaks, Tri-State Rose Society of Chattanooga, Summer 2013), on the American Rose Society website, posted 17 July 2024. Rose society article (individual rosarian), US. Accessed 1 Oct 2026.",
+  "source": "Gaye Hammond, \"Fungicides Made Simple\" (first published in Basal Breaks, Tri-State Rose Society of Chattanooga, Summer 2013), on the American Rose Society website, posted 17 July 2024. Rose society article (individual rosarian), US. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://rose.org/fungicides-made-simple/",
   "status": "Opened",
   "findings": [
@@ -231,7 +243,7 @@
  },
  {
   "code": "NZRS-FAQ",
-  "source": "The New Zealand Rose Society, \"FAQ\" (question: \"Can I grow roses without spraying them?\"), date not shown. Rose society, New Zealand. Accessed 1 Oct 2026.",
+  "source": "The New Zealand Rose Society, \"FAQ\" (question: \"Can I grow roses without spraying them?\"), date not shown. Rose society, New Zealand. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://nzroses.org.nz/faq/",
   "status": "Opened",
   "findings": [
@@ -244,20 +256,23 @@
  },
  {
   "code": "NZRS-W",
-  "source": "The New Zealand Rose Society (Peter Elliott), \"Winter Rose Care\" (extract from NZ Rosarian, June 1996), posted 30 March 2009. Rose society, New Zealand. Accessed 1 Oct 2026.",
+  "source": "The New Zealand Rose Society (Peter Elliott), \"Winter Rose Care\" (extract from NZ Rosarian, June 1996), posted 30 March 2009. Rose society, New Zealand. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://nzroses.org.nz/winter-rose-care/",
   "status": "Opened",
   "findings": [
    "AF-14",
    "AF-16",
    "AF-25",
-   "AF-28"
+   "AF-28",
+   "AF-36",
+   "AF-37",
+   "AF-38"
   ],
-  "quote": "AF-14: \"Rake up all fallen leaves and burn them as they can harbour spores that spread disease later on.\" || AF-16: \"Rake up all fallen leaves and burn them\" || AF-25: \"In preparation for the spring, it is highly recommended that clean up sprays be applied in June.\" || AF-28: \"Note that you must not use lime sulphur and copper based sprays within 2 weeks of each other.\""
+  "quote": "AF-14: \"Rake up all fallen leaves and burn them as they can harbour spores that spread disease later on.\" || AF-16: \"Rake up all fallen leaves and burn them\" || AF-25: \"In preparation for the spring, it is highly recommended that clean up sprays be applied in June.\" || AF-28: \"Note that you must not use lime sulphur and copper based sprays within 2 weeks of each other.\" || AF-36: \"Don't forget a post prune spray of copper and oil to complete the job.\" || AF-37: \"Lime Sulphur at winter strength\" || AF-38: \"Don't forget a post prune spray of copper and oil to complete the job.\""
  },
  {
   "code": "NZRS-ABG",
-  "source": "The New Zealand Rose Society, \"Auckland Botanic Gardens\", 7 February 2016 (modified 31 May 2017). Rose society, New Zealand. Accessed 1 Oct 2026.",
+  "source": "The New Zealand Rose Society, \"Auckland Botanic Gardens\", 7 February 2016 (modified 31 May 2017). Rose society, New Zealand. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://nzroses.org.nz/auckland-botanic-gardens/",
   "status": "Opened",
   "findings": [
@@ -267,7 +282,7 @@
  },
  {
   "code": "ABG-R",
-  "source": "Auckland Botanic Gardens, \"Roses\" (Garden advice: what to grow), date not shown. Public botanic garden (Auckland Council), New Zealand. Accessed 1 Oct 2026.",
+  "source": "Auckland Botanic Gardens, \"Roses\" (Garden advice: what to grow), date not shown. Public botanic garden (Auckland Council), New Zealand. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
   "status": "Opened",
   "findings": [
@@ -290,7 +305,7 @@
  },
  {
   "code": "GU-DIS",
-  "source": "Hayden Foulds, GrownUps New Zealand, \"Diseases of Roses\", date not shown. General-interest website (rose column), New Zealand. Accessed 1 Oct 2026.",
+  "source": "Hayden Foulds, GrownUps New Zealand, \"Diseases of Roses\", date not shown. General-interest website (rose column), New Zealand. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://grownups.co.nz/life/gardening/hayden-foulds-rose-diseases/",
   "status": "Opened",
   "findings": [
@@ -306,16 +321,17 @@
  },
  {
   "code": "RNZIH",
-  "source": "Dr Dan Blanchon (Unitec), \"Rust and black spot on roses\", Royal New Zealand Institute of Horticulture Plant Doctor, 27 June 2005. Horticultural institute (question-and-answer), New Zealand. Accessed 1 Oct 2026.",
+  "source": "Dr Dan Blanchon (Unitec), \"Rust and black spot on roses\", Royal New Zealand Institute of Horticulture Plant Doctor, 27 June 2005. Horticultural institute (question-and-answer), New Zealand. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.rnzih.org.nz/Plant_Doctor/Rust_black_spot.htm",
   "status": "Opened",
   "findings": [
    "AF-2",
    "AF-13",
    "AF-15",
-   "AF-21"
+   "AF-39",
+   "AF-44"
   ],
-  "quote": "AF-2: \"Some cultivars are more disease resistant than others, but some of the older varieties are very susceptible to rust and/or black spot.\" || AF-13: \"you might be doing a bit too much\" || AF-15: \"Removing diseased leaves and dead flowers is definitely a good idea\" || AF-21: \"really just a safer alternative rather than a panacea\""
+  "quote": "AF-2: \"Some cultivars are more disease resistant than others, but some of the older varieties are very susceptible to rust and/or black spot.\" || AF-13: \"you might be doing a bit too much\" || AF-15: \"Removing diseased leaves and dead flowers is definitely a good idea\" || AF-44: \"really just a safer alternative rather than a panacea\" || AF-39: [a limitation, from the gardener's question] \"I did spray with winter oil and copper oxychloride etc, but with wet weather, some varieties now have severe rust\""
  },
  {
   "code": "EPA-NZ",
@@ -342,7 +358,7 @@
  },
  {
   "code": "RSNSW",
-  "source": "The Rose Society of NSW, \"Rose Growing Advice\", date not shown. Rose society, Australia. Accessed 1 Oct 2026.",
+  "source": "The Rose Society of NSW, \"Rose Growing Advice\", date not shown. Rose society, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://nsw.rose.org.au/growing-roses",
   "status": "Opened",
   "findings": [
@@ -358,42 +374,45 @@
  },
  {
   "code": "GA-LOOK",
-  "source": "ABC Gardening Australia (Sophie Thomson), \"Looking After Roses\", 2 July 2010. Public broadcaster, Australia. Accessed 1 Oct 2026.",
+  "source": "ABC Gardening Australia (Sophie Thomson), \"Looking After Roses\", 2 July 2010. Public broadcaster, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348",
   "status": "Opened",
   "findings": [
    "AF-25",
-   "AF-26"
+   "AF-26",
+   "AF-37"
   ],
-  "quote": "AF-25: \"Winter is the best time to combat fungal pests and other diseases.\" || AF-26: \"collect and dispose of dead or dying leaves and pruned branches. Next, spray the plants - and the ground around them\""
+  "quote": "AF-25: \"Winter is the best time to combat fungal pests and other diseases.\" || AF-26: \"collect and dispose of dead or dying leaves and pruned branches. Next, spray the plants - and the ground around them\" || AF-37: \"with an organic lime-sulphur mix\""
  },
  {
   "code": "GA-PRUNE",
-  "source": "ABC Gardening Australia (Jane Edmanson), \"How to Prune Roses\", 17 August 2013. Public broadcaster, Australia. Accessed 1 Oct 2026.",
+  "source": "ABC Gardening Australia (Jane Edmanson), \"How to Prune Roses\", 17 August 2013. Public broadcaster, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.abc.net.au/gardening/how-to/how-to-prune-roses/9434872",
   "status": "Opened",
   "findings": [
    "AF-25",
-   "AF-27"
+   "AF-27",
+   "AF-37"
   ],
-  "quote": "AF-25: \"After pruning, spray for protection.\" || AF-27: \"I'm using lime sulphur, which will kill mites and other insects.\""
+  "quote": "AF-25: \"After pruning, spray for protection.\" || AF-27: \"I'm using lime sulphur, which will kill mites and other insects.\" || AF-37: \"I'm using lime sulphur, which will kill mites and other insects.\""
  },
  {
   "code": "GA-RP",
-  "source": "ABC Gardening Australia (Sophie Thomson), \"Rose Pruning\", 27 June 2009. Public broadcaster, Australia. Accessed 1 Oct 2026.",
+  "source": "ABC Gardening Australia (Sophie Thomson), \"Rose Pruning\", 27 June 2009. Public broadcaster, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.abc.net.au/gardening/factsheets/rose-pruning/9430014",
   "status": "Opened",
   "findings": [
    "AF-16",
    "AF-19",
    "AF-25",
-   "AF-27"
+   "AF-27",
+   "AF-37"
   ],
-  "quote": "AF-16: \"don't put them in the compost, put them in your council bin\" || AF-19: \"space for good air circulation which will minimise fungal diseases next year\" || AF-25: \"You might also like to spray with lime sulphur to clean up any fungal spores.\" || AF-27: \"to clean up any fungal spores\""
+  "quote": "AF-16: \"don't put them in the compost, put them in your council bin\" || AF-19: \"space for good air circulation which will minimise fungal diseases next year\" || AF-25: \"You might also like to spray with lime sulphur to clean up any fungal spores.\" || AF-27: \"to clean up any fungal spores\" || AF-37: \"You might also like to spray with lime sulphur to clean up any fungal spores.\""
  },
  {
   "code": "GA-BS",
-  "source": "ABC Gardening Australia (Colin Campbell), \"Black Spot Control\", 31 March 2007. Public broadcaster, Australia. Accessed 1 Oct 2026.",
+  "source": "ABC Gardening Australia (Colin Campbell), \"Black Spot Control\", 31 March 2007. Public broadcaster, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.abc.net.au/gardening/factsheets/black-spot-control/9427620",
   "status": "Opened",
   "findings": [
@@ -401,28 +420,35 @@
    "AF-16",
    "AF-17",
    "AF-19",
-   "AF-20"
+   "AF-20",
+   "AF-39",
+   "AF-44"
   ],
-  "quote": "AF-15: \"Go round on a regular basis and pick off any black spot affected leaves\" || AF-16: \"put them in a plastic bag and tie the top tightly\" || AF-17: \"Always water around the roots of the rose and give it a good soaking.\" || AF-19: \"open up the rose bush to create more air movement through the middle\" || AF-20: \"the better fed they are, the more likely they are to resist disease\""
+  "quote": "AF-15: \"Go round on a regular basis and pick off any black spot affected leaves\" || AF-16: \"put them in a plastic bag and tie the top tightly\" || AF-17: \"Always water around the roots of the rose and give it a good soaking.\" || AF-19: \"open up the rose bush to create more air movement through the middle\" || AF-20: \"the better fed they are, the more likely they are to resist disease\" || AF-39: \"Or use Bordeaux mixture or one of the other copper based fungicides.\" || AF-44: \"This makes an excellent and inexpensive fungicide.\""
  },
  {
   "code": "ROSS-SP",
-  "source": "Ross Roses, \"Spraying Roses\", date not shown. Commercial (rose nursery), Australia. Accessed 1 Oct 2026.",
+  "source": "Ross Roses, \"Spraying Roses\", date not shown. Commercial (rose nursery), Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://rossroses.com.au/spraying-roses/",
   "status": "Opened",
   "findings": [
    "AF-6",
    "AF-22",
+   "AF-23",
    "AF-25",
    "AF-30",
    "AF-31",
-   "AF-33"
+   "AF-33",
+   "AF-36",
+   "AF-37",
+   "AF-38",
+   "AF-40"
   ],
-  "quote": "AF-6: \"Spraying of roses should only occur minimally and when the problems are really bad.\" || AF-22: \"just a jet from a hose\" || AF-25: \"After pruning in July it is good practise to spray the plants with two products to help control problems in spring.\" || AF-30: \"reading instructions is always the first step prior to any use.\" || AF-31: \"Safety equipment should be used even in low toxicity chemicals\" || AF-33: \"when the temperature is less than 25 degrees\""
+  "quote": "AF-6: \"Spraying of roses should only occur minimally and when the problems are really bad.\" || AF-22: \"just a jet from a hose\" || AF-25: \"After pruning in July it is good practise to spray the plants with two products to help control problems in spring.\" || AF-30: \"reading instructions is always the first step prior to any use.\" || AF-31: \"Safety equipment should be used even in low toxicity chemicals\" || AF-33: \"when the temperature is less than 25 degrees\" || AF-23: \"can all reduce the numbers enough to let natural predators control remaining insects\" || AF-36: \"Copper Oxy Chloride, Lime Sulphur or Boudreaux sprays can be used in winter after pruning\" || AF-37: \"Copper Oxy Chloride, Lime Sulphur or Boudreaux sprays can be used in winter after pruning\" || AF-38: \"is used to coat insect eggs (mainly aphid) and kill them.\" || AF-40: \"Spraying with a spray containing Triforine or Macozeb\""
  },
  {
   "code": "SPR",
-  "source": "South Pacific Roses, \"Spraying Your Roses\", date not shown. Commercial (rose nursery), New Zealand. Accessed 1 Oct 2026.",
+  "source": "South Pacific Roses, \"Spraying Your Roses\", date not shown. Commercial (rose nursery), New Zealand. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://southpacificroses.co.nz/spraying-your-roses/",
   "status": "Opened",
   "findings": [
@@ -431,13 +457,18 @@
    "AF-13",
    "AF-25",
    "AF-26",
-   "AF-28"
+   "AF-28",
+   "AF-36",
+   "AF-37",
+   "AF-38",
+   "AF-41",
+   "AF-43"
   ],
-  "quote": "AF-7: \"Spray regularly (every two weeks or so) to prevent disease from taking hold\" || AF-9: \"every two weeks or so\" || AF-13: \"more time consuming and costly\" || AF-25: \"Spray 1 application of Lime Sulphur a fews days after pruning\" || AF-26: \"Prune roses first\" || AF-28: \"At first sign of new spring growth\""
+  "quote": "AF-7: \"Spray regularly (every two weeks or so) to prevent disease from taking hold\" || AF-9: \"every two weeks or so\" || AF-13: \"more time consuming and costly\" || AF-25: \"Spray 1 application of Lime Sulphur a fews days after pruning\" || AF-26: \"Prune roses first\" || AF-28: \"At first sign of new spring growth\" || AF-36: \"At first sign of new spring growth spray one application of copper oxychloride\" || AF-37: \"Spray 1 application of Lime Sulphur a fews days after pruning\" || AF-38: [the sentence names a brand and is not quoted] a spraying oil is applied two weeks after the lime sulphur || AF-41: \"Lime Sulphur and oil must never be mixed or spayed together.\" || AF-43: \"Copper washes off easily and may need to be reapplied after rain.\""
  },
  {
   "code": "TRE-BS",
-  "source": "Treloar Roses, \"Black Spot\", date not shown. Commercial (rose nursery), Australia. Accessed 1 Oct 2026.",
+  "source": "Treloar Roses, \"Black Spot\", date not shown. Commercial (rose nursery), Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://www.treloarroses.com.au/Black-Spot-Roses",
   "status": "Opened",
   "findings": [
@@ -447,31 +478,35 @@
    "AF-25",
    "AF-26",
    "AF-30",
-   "AF-33"
+   "AF-33",
+   "AF-37"
   ],
-  "quote": "AF-2: \"Choose varieties that are strong growers and either newer varieties or those recommended by the rose society in your area.\" || AF-9: \"This will need to be repeated once a week as it is organic, not systemic.\" || AF-20: \"A happy rose is a healthy rose.\" || AF-25: \"When winter pruning has been done and all waste removed, spray with Lime sulphur on the plant and ground around.\" || AF-26: \"When winter pruning has been done and all waste removed\" || AF-30: \"read the instructions on the back of the packaging\" || AF-33: \"Never in the heat of the day.\""
+  "quote": "AF-2: \"Choose varieties that are strong growers and either newer varieties or those recommended by the rose society in your area.\" || AF-9: \"This will need to be repeated once a week as it is organic, not systemic.\" || AF-20: \"A happy rose is a healthy rose.\" || AF-25: \"When winter pruning has been done and all waste removed, spray with Lime sulphur on the plant and ground around.\" || AF-26: \"When winter pruning has been done and all waste removed\" || AF-30: \"read the instructions on the back of the packaging\" || AF-33: \"Never in the heat of the day.\" || AF-37: \"spray with Lime sulphur on the plant and ground around.\""
  },
  {
   "code": "TUI",
-  "source": "Tui Garden, \"My roses have black spot, what can I do?\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
+  "source": "Tui Garden, \"My roses have black spot, what can I do?\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://tuigarden.co.nz/garden-questions/my-roses-have-black-spot-what-can-i-do/",
   "status": "Opened",
   "findings": [
    "AF-15",
    "AF-16",
-   "AF-25"
+   "AF-25",
+   "AF-36",
+   "AF-38"
   ],
-  "quote": "AF-15: \"Pick off infected leaves as you see them, not always practical but it does help prevent the spread.\" || AF-16: \"disposing of by burning or throwing in the rubbish and not composting\" || AF-25: \"Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.\""
+  "quote": "AF-15: \"Pick off infected leaves as you see them, not always practical but it does help prevent the spread.\" || AF-16: \"disposing of by burning or throwing in the rubbish and not composting\" || AF-25: \"Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.\" || AF-36: \"Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.\" || AF-38: \"Protectant sprays such as a copper based spray and plant spraying oil are effective as clean up sprays through winter and into early spring.\""
  },
  {
   "code": "EUTREMA",
-  "source": "Eutrema (Russell), \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\", 24 June 2023. Commercial (garden products), UK. Accessed 1 Oct 2026.",
+  "source": "Eutrema (Russell), \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\", 24 June 2023. Commercial (garden products), UK. Accessed 1 Oct 2026. Opened again 5 Oct 2026.",
   "url": "https://eutrema.co.uk/controlling-black-spot-on-roses-unleashing-the-power-of-lime-sulphur/",
   "status": "Opened",
   "findings": [
-   "AF-28"
+   "AF-28",
+   "AF-37"
   ],
-  "quote": "AF-28: \"Lime Sulphur should be applied during the dormant season when the rose plants have shed their leaves and are in a state of dormancy.\""
+  "quote": "AF-28: \"Lime Sulphur should be applied during the dormant season when the rose plants have shed their leaves and are in a state of dormancy.\" || AF-37: \"Lime Sulphur should be applied during the dormant season when the rose plants have shed their leaves and are in a state of dormancy.\""
  },
  {
   "code": "APVMA-L",
