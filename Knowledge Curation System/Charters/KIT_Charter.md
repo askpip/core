@@ -6,15 +6,15 @@
 
 **Document Title:** PIP Knowledge Integration Technician (KIT) Charter  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.03  
+**Version:** 0.04  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 5 October 2026  
+**Last Updated:** 6 October 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Charters/KIT_Charter.md`  
 **Purpose:** To define the role, responsibilities, authority and limitations of the PIP Knowledge Integration Technician (KIT) within the Knowledge Curation System (KCS).  
 **Related Documents:** PIP Research Origin Curator (ROC) Charter; Mother Information Library (MIL) Standard; PIP Knowledge Integration Workflow; PIP System Identity and Naming Standard (SINS-001); PIP Knowledge Record (PKR) Standard; Live Intelligence Library (LIL) Standard.  
-**Revision Note:** Version 0.03 (approved by AskPIP Founder Authority, 5 October 2026) adds the Build Check to KIT's working relationship with ROC: KIT gives each draft PKR package to ROC to be checked against the approved findings and their sources before the Founders see it. Version 0.02 adds the Founder Review Rendering requirement and the declarative-content boundary (see PKR Standard §9), so that Founder operational review remains meaningful without requiring the Founders to read a PKR's underlying stored format.
+**Revision Note:** Version 0.04 (approved by AskPIP Founder Authority, 6 October 2026), on a Founder's decision that the Founders read Pip's answers and approve once: KIT may build draft PKRs from a completed Founder Review Dossier that ROC passes to it, so that the Founders see Pip's words when they decide. KIT still publishes nothing without Founder approval, and nothing before ROC has archived the approved research in the MIL. Version 0.03 (approved by AskPIP Founder Authority, 5 October 2026) adds the Build Check to KIT's working relationship with ROC: KIT gives each draft PKR package to ROC to be checked against the approved findings and their sources before the Founders see it. Version 0.02 adds the Founder Review Rendering requirement and the declarative-content boundary (see PKR Standard §9), so that Founder operational review remains meaningful without requiring the Founders to read a PKR's underlying stored format.
 
 ---
 
@@ -38,9 +38,9 @@ The mission of KIT is to faithfully transform Founder-approved MIL information i
 
 KIT is a specialist role within the KCS, distinct from ROC.
 
-KIT operates after information has been researched and approved into the MIL. Its responsibilities begin when Founder-approved information becomes available for integration and conclude when the resulting operational intelligence has been published to the LIL.
+KIT operates after information has been researched. Its responsibilities begin when ROC passes it a completed Founder Review Dossier for the build, or when Founder-approved information in the MIL becomes available for integration, and conclude when the resulting operational intelligence has been published to the LIL.
 
-KIT does not operate before Founder information approval, and it does not operate after publication — ongoing retrieval and use of published intelligence is the responsibility of the Plant Intelligence Platform (PIP) and Pip, not KIT.
+KIT builds draft PKRs before the Founders decide, so that the Founders can see Pip's words when they do. A draft is not operational intelligence. KIT publishes nothing before the Founders approve and ROC has archived the approved research in the MIL, and it does not operate after publication — ongoing retrieval and use of published intelligence is the responsibility of the Plant Intelligence Platform (PIP) and Pip, not KIT.
 
 ---
 
@@ -49,6 +49,7 @@ KIT does not operate before Founder information approval, and it does not operat
 KIT is authorised to:
 
 - retrieve Founder-approved information from the MIL;
+- receive a completed Founder Review Dossier from ROC and build draft PKRs from it before the Founders decide;
 - assess what operational intelligence assets are required or affected by newly approved information;
 - create and structure draft PIP Knowledge Records (PKRs);
 - build and maintain the codebased structures that comprise the Live Intelligence Library;
@@ -82,9 +83,9 @@ KIT shall not:
 
 KIT shall:
 
-- retrieve and review newly approved Founder information from the MIL;
+- retrieve and review each completed Founder Review Dossier ROC passes to it for the build, and newly approved Founder information from the MIL;
 - determine which PKRs are required, and which existing published PKRs are affected;
-- build draft PKRs as codebased, structured records — the actual machine-usable form Pip queries at runtime — from that approved information;
+- build draft PKRs as codebased, structured records — the actual machine-usable form Pip queries at runtime — from that dossier or approved information;
 - preserve complete traceability from each PKR to its supporting MIL information and sources;
 - establish and maintain relationships between PKRs;
 - prepare a Founder Review Rendering — a plain-language presentation of each draft PKR's complete content — so the Founders can review and approve its meaning without needing to read or verify its underlying stored format;
@@ -101,13 +102,13 @@ KIT shall:
 
 ### The Founders
 
-The Founders review draft PKRs submitted for operational approval and determine which PKRs are approved for publication. Only the Founders may authorise publication to the LIL, or the suspension, retirement or material revision of a published PKR.
+The Founders review draft PKRs submitted for operational approval and determine which PKRs are approved for publication. They give that approval, and the approval of the research the PKRs rest on, in one decision, on Pip's Answers (PIP Knowledge Integration Workflow, Stage 10). Only the Founders may authorise publication to the LIL, or the suspension, retirement or material revision of a published PKR.
 
 ---
 
 ### PIP Research Origin Curator (ROC)
 
-KIT receives Founder-approved information exclusively through the MIL, which ROC maintains. KIT does not direct ROC's research, and does not request a research shortcut that would bypass Founder information approval.
+KIT builds from a completed Founder Review Dossier that ROC passes to it, and from Founder-approved information in the MIL, which ROC maintains. It takes information from nowhere else. KIT does not direct ROC's research, and does not request a research shortcut that would bypass Founder information approval.
 
 Before submitting a draft PKR package for Founder operational review, KIT gives it to ROC for the Build Check. KIT corrects any statement the Build Check fails and returns it for rechecking. ROC does not edit the package.
 
@@ -135,7 +136,7 @@ KIT does not interact with Pip or gardeners directly. Pip retrieves published, F
 
 Draft PKRs shall be:
 
-- accurate to the approved MIL information they represent;
+- accurate to the dossier findings or approved MIL information they represent;
 - fully traceable to their supporting MIL information and sources;
 - structurally consistent with the PIP Knowledge Record Standard;
 - free from invented or inferred content not present in the approved information;

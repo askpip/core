@@ -6,15 +6,15 @@
 
 **Document Title:** Live Intelligence Library (LIL) Standard  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.02  
+**Version:** 0.03  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 22 August 2026  
+**Last Updated:** 6 October 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Standards/LIL_Standard.md`  
 **Purpose:** To define the purpose, governance, structure and operating principles of the Live Intelligence Library (LIL) within the Knowledge Curation System (KCS).  
 **Related Documents:** Mother Information Library (MIL) Standard; PIP Research Origin Curator (ROC) Charter; PIP Knowledge Integration Technician (KIT) Charter; PIP Knowledge Integration Workflow; PIP Knowledge Record (PKR) Standard (drafted alongside this document).  
-**Revision Note:** Version 0.02 adds to the Retrieval Boundary section that Pip may communicate a PKR's gardener-facing fields (Evidence Confidence and Supporting Source(s), per the PKR Standard §4.1) to the gardener in plain language, so the PKR Standard's new Evidence Confidence field has a stated authority to actually reach gardener communication rather than stopping at the LIL.
+**Revision Note:** Version 0.03 (6 October 2026, on a Founder's decision to keep the one-approval pattern) notes in Governance that the Founders give operational approval on Pip's Answers, in the same decision as approval of the research. Nothing else changed. Version 0.02 adds to the Retrieval Boundary section that Pip may communicate a PKR's gardener-facing fields (Evidence Confidence and Supporting Source(s), per the PKR Standard §4.1) to the gardener in plain language, so the PKR Standard's new Evidence Confidence field has a stated authority to actually reach gardener communication rather than stopping at the LIL.
 
 ---
 
@@ -86,7 +86,7 @@ No artificial intelligence system, including KIT, may approve its own work or pu
 
 Following Founder approval, KIT is responsible for maintaining the Live Intelligence Library while preserving the approved meaning, structure, traceability and integrity of every published PKR.
 
-The Founders are not required to read or verify a PKR's underlying stored format in order to approve it. Every PKR is approved against its Founder Review Rendering, and PKR content is restricted to declarative data rather than executable logic, in accordance with the PIP Knowledge Record (PKR) Standard §9. This is what allows Founder approval to remain meaningful even though the Founders are not expected to read code.
+The Founders are not required to read or verify a PKR's underlying stored format in order to approve it. Every PKR is approved against its Founder Review Rendering, which the Founders read as part of Pip's Answers and approve in the same decision as the research it rests on (PIP Knowledge Integration Workflow, Stage 10), and PKR content is restricted to declarative data rather than executable logic, in accordance with the PIP Knowledge Record (PKR) Standard §9. This is what allows Founder approval to remain meaningful even though the Founders are not expected to read code.
 
 ---
 

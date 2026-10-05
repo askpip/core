@@ -20,17 +20,17 @@
 ** Approved
 
 **Version:  
-** 2.12
+** 2.13
 
 **Last Updated:  
-** 5 October 2026
+** 6 October 2026
 
 **Permanent Location:** `Knowledge Curation System/Operations Manuals/ROC_Operations_Manual.md`
 
 **Approved By:  
 ** AskPIP Founder Authority
 
-**Revision Note:** **Version 2.12 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction: §14.3 checks that each of Pip's statements helps a gardener and follows the Pip Knowledge Rules Version 0.3 on sources and limits. Previous: **Version 2.11 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, after the Spraying commission and the first Build Check, so that every later commission is researched, written up and checked the same way. §3.5 forbids an exclusion the Founders did not direct, and says how products are recorded. §4.7 has the plan say how many websites will be opened. New §5.6A requires everything a source says on a commissioned question to be recorded, and every quotation used to be in the Source Register. §8.3 holds a finding's wording to what its sources say. New §8.5A is a completeness check before synthesis. §7.7 has each recommendation say what the rules give until it is pursued. §10.6 names the parts of the dossier that carry this. Chapter 14 sets out the Build Check as it was first run: the source check, the wording check, the recheck, and what happens when the check finds the record itself says more than its sources. Previous: **Version 2.10 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, so that the Pip Knowledge Rules are followed throughout research and Founder review. §3.5 settles scope when a commission is opened. §7.4 and new §8.6A have the ROC state what the rules give, without asking the Founders to choose between views. New §10.6A requires the Decision Brief and Review Form, and §10.10 checks them. New §11.2A records that either Founder may decide alone (first directed 28 September 2026; it had not reached the repository). New §11.4A and §11.4B set which findings Pip may use and what the Founders are asked. §11.9 and §12.5 have the ARC hold every finding with its use status and its Build Check status. New Chapter 14 adds the Build Check: the ROC's check of Pip's statements against the findings and their sources, after KIT has built them and before the Founders approve them. Previous: **Version 2.9 (approved by Shaphan, AskPIP Founder Authority, 29 September 2026)**, at Shaphan's direction ("we need to be able to verify where we have got our information from on every instance"). It amends §5.5 and §12.6 and adds §12.10. §5.5 previously required a source to be recorded well enough to be "identified and retrieved in the future", but never required a web address. Five of seven bush-rose commissions (crossing/rubbing stems, inward-growing stems, damaged growth, weak/congested growth, basic care) therefore recorded no links, while two (rose type, pruning framework) did. For web pages, a title and publisher alone do not reliably let a source be retrieved and checked later. §5.5 now requires a web address and access date for every online source, or a stable identifier for offline sources. §12.6 requires every ARC to carry its own Source Register, so that source traceability survives the retirement of review-stage documents under §12.9. §12.10 sets out how ROC closes the gap for ARCs approved before this amendment, without altering any finding. Previous: Version 2.8 adds §12.9 at Shaphan's direction: once an ARC has been created from a Founder Review Dossier, the dossier, its Decision Brief, Review Form, and any superseded revisions or companion research notes are removed from the working folders they occupied during review, since the Core repository would otherwise grow without bound as every revision of every dossier stayed in place indefinitely. Documentary traceability under §12.6 is preserved through the ARC's own metadata and the Core repository's version-control history, not through retaining a live copy of a superseded working document. §12.9 applies only to Founder Review working documents; it does not authorise deletion of a Research Commission Record, underlying research or evidence records, or any ARC, which remain governed by §11.10 and Chapter 13. Version 2.7 (draft, for Founder confirmation) amends §7.7 and §10.10 at Shaphan's direction, following the Basic Bush Rose Care commission (`BUSHROSE-BASICCARE`): a first Founder Review Dossier for that commission recorded five Recommendations for Further Research, four of which turned out to need nothing but further searching within the ROC's own existing authority and scope — no Founder decision was actually required to resolve them, only a second round the Founders then had to separately commission and later review. Only the fifth (a source-availability gap for a whole region) genuinely required Founder judgement, since closing it would mean accepting a different evidentiary standard than the rest of the commission used. §7.7 now requires the ROC to attempt to resolve a candidate recommendation itself, before the dossier is finalised, unless doing so would exceed the commission's approved scope, require accepting a different evidentiary standard, or demand materially disproportionate effort; only recommendations meeting one of those tests may still be recorded as open. §10.10's quality review checklist gains a matching check. The intent is that Founder Review Dossiers arrive at Founder Review closer to their final, decidable state, and that "Recommendations for Further Research" comes to mean "this needs your judgement," not "we didn't get to this yet." Version 2.6 adds §8.4A, implementing Evidence Assessment Standard v1.4 §2.10 at Founder direction: where the ROC identifies a relationship or interaction between findings that the available evidence does not itself state — the ROC's own reasoned synthesis — it is not proposed for adoption into an ARC in any form, but is instead carried forward as a specific Recommendation for Further Research (§7.7), so it can be tested against independent evidence rather than adopted on its own plausibility. This preserves rather than suppresses the ROC's capacity for reasoned synthesis; it changes only what happens to that synthesis afterward. §7.7 is extended to name this as a recommendation category. Version 2.5 aligns this manual with EAS v1.3's Assessed Finding model, at Founder direction: §9.3 previously required the Evidence Assessment to evaluate "the commission as a whole," with individual findings receiving their own assessment only "where appropriate" — this made the overall commission level the default and per-finding assessment optional, the reverse of what is actually correct. §9.3 and §9.5 now require an Evidence Confidence Level per Assessed Finding as the only level that exists; §7.6, §6.8 and §8.3 are updated for consistency. Version 2.4 retires the Founder Executive Brief (FEB) at Founder request and rewrites Chapter 10 accordingly: the Founder Review Dossier (FRD), prepared under the new Founder Review Dossier Standard, is now the sole Founder Review Documentation, and §10.4/§10.8 (both concerning the FEB) are removed with the remainder of the chapter renumbered. The retirement reflects that the FEB's stated purpose — efficient review at volume, without requiring the complete research record to be examined in every instance — describes a need the platform does not yet have: with a single Founder reviewing every commission directly, a summary document duplicates effort rather than saving it. The FEB may be reinstated by future Founder decision if review volume grows to require it. Version 2.3 renames "Approved Information Compilation (AIC)" to "Approved Research Compilation (ARC)" throughout this manual, following SINS-001 v0.4's retirement of the AIC term. Version 2.2 adds Evidence Confidence Level as explicit AIC metadata in §12.5, recorded directly on the AIC itself rather than only referenced through the linked Evidence Assessment, so KIT can retrieve it without opening the full Evidence Assessment record. Version 2.1 replaces "Knowledge Asset (KA)" with "Approved Information Compilation (AIC)" throughout (Chapters 1, 11, 12 and 13), following SINS-001 v0.2's retirement of the KA term. Chapter 12's title changed from "Creating Mother Information Library Knowledge Assets" to "Creating Mother Information Library AICs" at Version 2.1, and to "Creating Mother Information Library ARCs" at Version 2.3; no procedural steps changed at either point.
+**Revision Note:** **Version 2.13 (approved by AskPIP Founder Authority, 6 October 2026)**, on a Founder's decision to keep the one-approval pattern after its first topic: a Founder reads Pip's Answers and approves once. §10.6A replaces the Decision Brief and Review Form with Pip's Answers and its Form. §10.11 passes the completed dossier to KIT for the build and submits to the Founders only after the Build Check. Chapter 11 has the one decision approve the research and Pip's words together. Chapter 14 runs the Build Check before approval, against the dossier, and has its corrections made in the dossier first; §14.5 replaces the Build Check Brief and Form. Previous: **Version 2.12 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction: §14.3 checks that each of Pip's statements helps a gardener and follows the Pip Knowledge Rules Version 0.3 on sources and limits. Previous: **Version 2.11 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, after the Spraying commission and the first Build Check, so that every later commission is researched, written up and checked the same way. §3.5 forbids an exclusion the Founders did not direct, and says how products are recorded. §4.7 has the plan say how many websites will be opened. New §5.6A requires everything a source says on a commissioned question to be recorded, and every quotation used to be in the Source Register. §8.3 holds a finding's wording to what its sources say. New §8.5A is a completeness check before synthesis. §7.7 has each recommendation say what the rules give until it is pursued. §10.6 names the parts of the dossier that carry this. Chapter 14 sets out the Build Check as it was first run: the source check, the wording check, the recheck, and what happens when the check finds the record itself says more than its sources. Previous: **Version 2.10 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, so that the Pip Knowledge Rules are followed throughout research and Founder review. §3.5 settles scope when a commission is opened. §7.4 and new §8.6A have the ROC state what the rules give, without asking the Founders to choose between views. New §10.6A requires the Decision Brief and Review Form, and §10.10 checks them. New §11.2A records that either Founder may decide alone (first directed 28 September 2026; it had not reached the repository). New §11.4A and §11.4B set which findings Pip may use and what the Founders are asked. §11.9 and §12.5 have the ARC hold every finding with its use status and its Build Check status. New Chapter 14 adds the Build Check: the ROC's check of Pip's statements against the findings and their sources, after KIT has built them and before the Founders approve them. Previous: **Version 2.9 (approved by Shaphan, AskPIP Founder Authority, 29 September 2026)**, at Shaphan's direction ("we need to be able to verify where we have got our information from on every instance"). It amends §5.5 and §12.6 and adds §12.10. §5.5 previously required a source to be recorded well enough to be "identified and retrieved in the future", but never required a web address. Five of seven bush-rose commissions (crossing/rubbing stems, inward-growing stems, damaged growth, weak/congested growth, basic care) therefore recorded no links, while two (rose type, pruning framework) did. For web pages, a title and publisher alone do not reliably let a source be retrieved and checked later. §5.5 now requires a web address and access date for every online source, or a stable identifier for offline sources. §12.6 requires every ARC to carry its own Source Register, so that source traceability survives the retirement of review-stage documents under §12.9. §12.10 sets out how ROC closes the gap for ARCs approved before this amendment, without altering any finding. Previous: Version 2.8 adds §12.9 at Shaphan's direction: once an ARC has been created from a Founder Review Dossier, the dossier, its Decision Brief, Review Form, and any superseded revisions or companion research notes are removed from the working folders they occupied during review, since the Core repository would otherwise grow without bound as every revision of every dossier stayed in place indefinitely. Documentary traceability under §12.6 is preserved through the ARC's own metadata and the Core repository's version-control history, not through retaining a live copy of a superseded working document. §12.9 applies only to Founder Review working documents; it does not authorise deletion of a Research Commission Record, underlying research or evidence records, or any ARC, which remain governed by §11.10 and Chapter 13. Version 2.7 (draft, for Founder confirmation) amends §7.7 and §10.10 at Shaphan's direction, following the Basic Bush Rose Care commission (`BUSHROSE-BASICCARE`): a first Founder Review Dossier for that commission recorded five Recommendations for Further Research, four of which turned out to need nothing but further searching within the ROC's own existing authority and scope — no Founder decision was actually required to resolve them, only a second round the Founders then had to separately commission and later review. Only the fifth (a source-availability gap for a whole region) genuinely required Founder judgement, since closing it would mean accepting a different evidentiary standard than the rest of the commission used. §7.7 now requires the ROC to attempt to resolve a candidate recommendation itself, before the dossier is finalised, unless doing so would exceed the commission's approved scope, require accepting a different evidentiary standard, or demand materially disproportionate effort; only recommendations meeting one of those tests may still be recorded as open. §10.10's quality review checklist gains a matching check. The intent is that Founder Review Dossiers arrive at Founder Review closer to their final, decidable state, and that "Recommendations for Further Research" comes to mean "this needs your judgement," not "we didn't get to this yet." Version 2.6 adds §8.4A, implementing Evidence Assessment Standard v1.4 §2.10 at Founder direction: where the ROC identifies a relationship or interaction between findings that the available evidence does not itself state — the ROC's own reasoned synthesis — it is not proposed for adoption into an ARC in any form, but is instead carried forward as a specific Recommendation for Further Research (§7.7), so it can be tested against independent evidence rather than adopted on its own plausibility. This preserves rather than suppresses the ROC's capacity for reasoned synthesis; it changes only what happens to that synthesis afterward. §7.7 is extended to name this as a recommendation category. Version 2.5 aligns this manual with EAS v1.3's Assessed Finding model, at Founder direction: §9.3 previously required the Evidence Assessment to evaluate "the commission as a whole," with individual findings receiving their own assessment only "where appropriate" — this made the overall commission level the default and per-finding assessment optional, the reverse of what is actually correct. §9.3 and §9.5 now require an Evidence Confidence Level per Assessed Finding as the only level that exists; §7.6, §6.8 and §8.3 are updated for consistency. Version 2.4 retires the Founder Executive Brief (FEB) at Founder request and rewrites Chapter 10 accordingly: the Founder Review Dossier (FRD), prepared under the new Founder Review Dossier Standard, is now the sole Founder Review Documentation, and §10.4/§10.8 (both concerning the FEB) are removed with the remainder of the chapter renumbered. The retirement reflects that the FEB's stated purpose — efficient review at volume, without requiring the complete research record to be examined in every instance — describes a need the platform does not yet have: with a single Founder reviewing every commission directly, a summary document duplicates effort rather than saving it. The FEB may be reinstated by future Founder decision if review volume grows to require it. Version 2.3 renames "Approved Information Compilation (AIC)" to "Approved Research Compilation (ARC)" throughout this manual, following SINS-001 v0.4's retirement of the AIC term. Version 2.2 adds Evidence Confidence Level as explicit AIC metadata in §12.5, recorded directly on the AIC itself rather than only referenced through the linked Evidence Assessment, so KIT can retrieve it without opening the full Evidence Assessment record. Version 2.1 replaces "Knowledge Asset (KA)" with "Approved Information Compilation (AIC)" throughout (Chapters 1, 11, 12 and 13), following SINS-001 v0.2's retirement of the KA term. Chapter 12's title changed from "Creating Mother Information Library Knowledge Assets" to "Creating Mother Information Library AICs" at Version 2.1, and to "Creating Mother Information Library ARCs" at Version 2.3; no procedural steps changed at either point.
 
 **Related Documents:**
 
@@ -962,7 +962,7 @@ For each commissioned question the ROC shall state what the Pip Knowledge Rules 
 
 This applies the Founders' rules to the findings. It is not a finding, and it shall contain no claim, reason or certainty that the findings do not contain. The ROC does not decide what is true. It reports what reputable sources say and how the rules weigh them.
 
-The statement is carried into the dossier's Founder Decision Points and into the Decision Brief, as what Pip would say.
+The statement is carried into the dossier's Founder Decision Points, and guides KIT's build. KIT builds each statement from the findings themselves (KIT Operations Manual §7.1).
 
 ---
 
@@ -1097,7 +1097,7 @@ The commission may then proceed to preparation of the Founder Review Dossier.
 
 The purpose of this chapter is to establish the procedures governing how the Research Origin Curator (ROC) prepares the Founder Review Documentation.
 
-The Founder Review Documentation is the **Founder Review Dossier (FRD)**, the complete supporting research record submitted to the Founders for review and decision.
+The Founder Review Documentation is the **Founder Review Dossier (FRD)**, the complete supporting research record behind what the Founders approve. It reaches them behind Pip's Answers (§10.6A, §10.11).
 
 The Founder Review Documentation enables the Founders to evaluate the available evidence, understand the basis of the findings and determine whether the proposed knowledge should proceed to future ARC development.
 
@@ -1190,18 +1190,20 @@ The dossier shall also carry:
 
 - in its list of findings, a "For Pip" column showing whether Pip may use each finding and, for a Low or Very Low finding that is available, the rule that makes it so (§11.4A);
 - for each recommendation for further research, what a Founder decision would need to settle and what the rules give until then (§7.7);
-- in its Founder Decision Points, part (a) what the rules give for each commissioned question, and part (b) the decisions asked (§8.6A; Founder Review Dossier Standard §4.2 item 10); and
+- in its Founder Decision Points, part (a) what the rules give for each commissioned question, and part (b) the decision asked (§8.6A; Founder Review Dossier Standard §4.2 item 10); and
 - where it revises an earlier dossier, a short statement near the top of what changed (Founder Review Dossier Standard §9.3).
 
 `FRD-BUSHROSE-SPRAYING-02` is the worked example.
 
 ---
 
-## 10.6A Decision Brief and Review Form
+## 10.6A Pip's Answers and its Form
 
-With every Founder Review Dossier the ROC shall prepare a Decision Brief and a Review Form, as the Founder Review Dossier Standard §2.6 and §2.6A require.
+A Founder is given one document and one form for each commission: Pip's Answers and the Pip's Answers Form (Founder Review Dossier Standard §2.6; pattern in `Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md`).
 
-The Decision Brief shall state what Pip would say under the Pip Knowledge Rules (§8.6A), and shall show, for every finding, whether Pip may use it (§11.4A). The Review Form shall ask only what §11.4B allows.
+They are prepared after KIT has built Pip's words from the dossier and the Build Check is complete (Chapter 14), not with the dossier. Pip's Answers shows every word gardeners would see, then a short list of what a Founder should know, then the result of the check. The form asks one question (§11.4B).
+
+No Decision Brief or Review Form is prepared.
 
 ---
 
@@ -1219,7 +1221,7 @@ The ROC shall distinguish between:
 
 The significance attributed to each finding shall remain proportionate to the available evidence.
 
-The Founder Review Dossier shall not introduce new evidence, additional analysis or revised conclusions after completion of the research.
+The Founder Review Dossier shall not introduce new evidence, additional analysis or revised conclusions after completion of the research. The one exception is a correction from the Build Check, recorded in the dossier's final section under §14.4.
 
 ---
 
@@ -1252,7 +1254,7 @@ Before submission, the ROC shall review the Founder Review Dossier to confirm th
 - all required supporting records are complete;
 - every finding is marked as available to Pip or on record only, with the rule that applies (§11.4A);
 - what the Pip Knowledge Rules give is stated for every commissioned question (§8.6A);
-- every question on the Review Form is one the Founders are needed for (§11.4B), and is answerable from its own words;
+- any question of scope or of how Pip works that the rules cannot settle has been put to a Founder and answered (§11.4B);
 - every recommendation for further research has been checked against §7.7 — it could not have been resolved within the commission's own scope and authority, and states what a Founder decision would need to settle; and
 - the document complies with the Founder Review Dossier Standard.
 
@@ -1260,20 +1262,21 @@ Any deficiencies identified during the quality review shall be corrected before 
 
 ---
 
-## 10.11 Submission to the Founders
+## 10.11 Passing the Dossier to KIT, and Submission to the Founders
 
-Following successful completion of the quality review, the ROC shall submit the commission to the Founders.
+A completed dossier is not submitted to the Founders on its own.
 
-The submission shall include:
+Following successful completion of the quality review, the ROC shall:
 
-- the Founder Review Dossier; and
-- access to all supporting documentation required by the Knowledge Curation System.
+1. pass the completed Founder Review Dossier, with its Source Register, to KIT for the build (KIT Operations Manual §3.1);
+2. carry out the Build Check on what KIT builds (Chapter 14), and correct in the dossier whatever the check shows the dossier says beyond its sources (§14.4); and
+3. with KIT, submit Pip's Answers and its Form to the Founders (§10.6A), with the dossier, the PKR package and the Build Check results available to them.
 
-The Founder Review Dossier shall serve as the primary document for Founder review and shall remain the complete and authoritative supporting research record.
+The Founder Review Dossier remains the complete and authoritative supporting research record. The Founders may open it at any time and are not required to read it.
 
 Following submission, responsibility for the commission passes to the Founder Review stage.
 
-The ROC shall remain available to provide clarification where requested but shall not amend the findings unless directed by the Founders.
+The ROC shall remain available to provide clarification where requested but shall not amend the findings after submission unless directed by the Founders.
 
 ---
 
@@ -1284,7 +1287,8 @@ Preparation of the Founder Review Documentation is complete when:
 - the Founder Review Dossier has been prepared in accordance with the Founder Review Dossier Standard;
 - the completed Evidence Assessment has been incorporated;
 - the quality review has been completed;
-- the document has been submitted to the Founders;
+- the dossier has been passed to KIT, the Build Check is complete and its corrections are in the dossier;
+- Pip's Answers and its Form have been submitted to the Founders;
 - all supporting documentation has been recorded within the Research Commission Record; and
 - the commission has formally proceeded to Founder Review.
 
@@ -1292,9 +1296,9 @@ Preparation of the Founder Review Documentation is complete when:
 
 ## 11.1 Purpose
 
-The purpose of this chapter is to establish the procedures governing how the Research Origin Curator (ROC) supports the Founder Review process following submission of the Founder Review Dossier (FRD).
+The purpose of this chapter is to establish the procedures governing how the Research Origin Curator (ROC) supports the Founder Review process following submission of Pip's Answers.
 
-Founder Review is the formal decision-making stage of the Knowledge Curation System through which the Founders evaluate the completed research, Evidence Assessment and Founder Review Dossier before determining whether the proposed knowledge shall become an approved ARC within the Mother Information Library (MIL).
+Founder Review is the formal decision-making stage of the Knowledge Curation System. It follows the build and the Build Check. A Founder reads Pip's Answers, which shows what Pip would say from the research, and decides once. That decision determines whether the research shall become an approved ARC within the Mother Information Library (MIL) and whether Pip's words shall be published. The completed research, Evidence Assessment and Founder Review Dossier are open to the Founders throughout.
 
 The Research Origin Curator shall support this process by maintaining complete traceability, providing clarification where requested and accurately recording the outcome of the Founders' decision.
 
@@ -1304,7 +1308,7 @@ The Research Origin Curator shall support this process by maintaining complete t
 
 The Founders retain sole authority to approve, amend, defer or decline research findings.
 
-Completion of research, preparation of the Founder Review Dossier or completion of the Evidence Assessment shall not constitute approval of knowledge.
+Completion of research, preparation of the Founder Review Dossier, completion of the Evidence Assessment, the building of draft PKRs or completion of the Build Check shall not constitute approval of knowledge.
 
 The Research Origin Curator shall present information objectively and shall not substitute its judgement for that of the Founders.
 
@@ -1312,7 +1316,7 @@ The Research Origin Curator shall present information objectively and shall not 
 
 ## 11.2A Individual Founder Authority
 
-Approval, amendment, deferral or decline of research findings under this chapter does not require joint action by both Founders. A decision recorded by either Founder individually, including a Review Form marked Finished with a decisive outcome, is a valid Founder decision for the purposes of §11.6, §11.8 and §11.9. It is sufficient on its own for the ROC to proceed to ARC creation under Chapter 12, without waiting for the other Founder.
+Approval, amendment, deferral or decline of research findings under this chapter does not require joint action by both Founders. A decision recorded by either Founder individually, including a Pip's Answers Form marked Finished with a decisive outcome, or a decision given in conversation, is a valid Founder decision for the purposes of §11.6, §11.8 and §11.9. It is sufficient on its own for the ROC to proceed to ARC creation under Chapter 12, and for KIT to publish, without waiting for the other Founder.
 
 Either Founder may also review a dossier the other has decided, and either may ask for joint review of a specific commission. Where the Founders' recorded decisions on the same dossier conflict, the ROC shall record the conflict in the Research Commission Record and seek further Founder direction before proceeding.
 
@@ -1324,7 +1328,8 @@ Founder Review shall commence once:
 
 - the Founder Review Dossier has been completed;
 - the Research Origin Curator has completed its quality review;
-- the dossier has been submitted to the Founders; and
+- KIT has built Pip's words from the dossier, and the Build Check is complete with no statement failing;
+- Pip's Answers and its Form have been submitted to the Founders; and
 - all supporting documentation is available for review where required.
 
 The Founders may examine any supporting records throughout the review process.
@@ -1352,17 +1357,19 @@ Founder approval represents a governance decision and does not remove documented
 
 Founder approval of a dossier accepts it as the research record on its subject. Every Assessed Finding enters the ARC with its Evidence Confidence Level, sources, limitations and recorded disagreements.
 
-Whether Pip may use a finding is set by the Pip Knowledge Rules §3, from the finding's Evidence Confidence Level. The ROC shall mark each finding, in the dossier and in the Decision Brief, as available to Pip or on record only, and shall name the rule that applies to any Low or Very Low finding marked available.
+Whether Pip may use a finding is set by the Pip Knowledge Rules §3, from the finding's Evidence Confidence Level. The ROC shall mark each finding, in the dossier, as available to Pip or on record only, and shall name the rule that applies to any Low or Very Low finding marked available.
 
-The Founders are not asked to decide each finding. A Founder may change, exclude or question any finding when deciding the dossier, and that direction overrides this section for that finding.
+The Founders are not asked to decide each finding. A Founder may change, exclude or question any finding when deciding, and that direction overrides this section for that finding.
 
 ---
 
 ## 11.4B What the Founders Are Asked
 
-The ROC shall bring to the Founders only what the Pip Knowledge Rules §5 leave to them: the overall decision on the dossier, and any question of scope or of how Pip works that the rules cannot settle.
+The Founders are asked one thing for each commission: approval of Pip's answers. The Pip's Answers Form carries that one question, with three answers: approve; approve with changes; not yet.
 
-Before raising such a question the ROC shall check the standing decisions (Pip Knowledge Rules §7). A question already decided there is applied and not asked again. When a Founder decides a question that will recur, the ROC shall record it there.
+That one approval is the Founder approval this chapter requires for the research, and the Founder approval Chapter 14 and the KIT Operations Manual require before Pip's words are published (Pip Knowledge Rules §7, "One approval").
+
+A question of scope, or of how Pip works, that the Pip Knowledge Rules §5 leave to the Founders is not put on the form. The ROC shall put it to a Founder in conversation before the build, because the build depends on the answer, and shall record the answer in the Research Commission Record. Before raising such a question the ROC shall check the standing decisions (Pip Knowledge Rules §7). A question already decided there is applied and not asked again. When a Founder decides a question that will recur, the ROC shall record it there.
 
 The ROC shall not ask the Founders to choose between answers where the rules give one, or to judge the research, its ratings or its defaults.
 
@@ -1389,6 +1396,8 @@ Following review, the Founders may:
 - defer the decision pending further evidence; or
 - decline to approve the findings.
 
+On the Pip's Answers Form these are given as three answers. "Approve" approves the findings and Pip's words. "Approve with changes" approves them subject to the changes the Founder writes; where the ROC or KIT has to write new wording, or a finding or its level changes, the changed statements are shown to the Founder, and accepted, before anything is filed or published. "Not yet" covers a request for additional research or correction, a deferral, and a decline; the Founder's reason says which.
+
 The Founders may also provide observations, recommendations or guidance to assist future research.
 
 ---
@@ -1402,8 +1411,9 @@ Where the Founders require additional research or amendments, the Research Origi
 - update the research plan where necessary;
 - undertake the authorised additional work;
 - revise the Evidence Assessment where affected;
-- revise the Founder Review Dossier where required; and
-- resubmit the commission for Founder Review.
+- revise the Founder Review Dossier where required;
+- have KIT revise Pip's words where the findings they rest on changed, and check again every statement that changed (Chapter 14); and
+- resubmit the commission for Founder Review, through a revised Pip's Answers.
 
 Previous versions of all affected records shall be preserved in accordance with the PIP Documentation Standard.
 
@@ -1430,7 +1440,7 @@ The recorded decision shall remain permanently traceable to the Founder Review D
 
 ## 11.9 Approved Findings
 
-Where the Founders approve the findings, the Research Origin Curator shall proceed with creation or revision of the authorised ARC within the Mother Information Library in accordance with Chapter 12.
+Where the Founders approve, the Research Origin Curator shall proceed with creation or revision of the authorised ARC within the Mother Information Library in accordance with Chapter 12, and KIT then publishes Pip's words (KIT Operations Manual Chapter 16).
 
 The ARC shall hold every finding of the approved dossier, each marked as available to Pip or on record only under §11.4A. A finding a Founder excluded shall not enter the ARC.
 
@@ -1452,7 +1462,7 @@ A decision not to approve findings shall not result in deletion of the underlyin
 
 Founder Review is complete when:
 
-- the Founder Review Dossier has been considered by the Founders;
+- Pip's Answers has been considered by the Founders, with the Founder Review Dossier open to them;
 - any requested clarification has been provided;
 - a documented Founder decision has been reached;
 - the decision has been recorded within the Research Commission Record;
@@ -1487,6 +1497,7 @@ Before creating an ARC, the ROC shall verify that:
 
 - the Founder Review process has been completed;
 - the Founder approval decision has been recorded;
+- every correction the Build Check made is in the dossier, and is carried into the ARC;
 - all supporting documentation is complete;
 - the approved findings accurately reflect the Founder decision; and
 - the approved knowledge is ready for incorporation into the Mother Information Library.
@@ -1531,7 +1542,7 @@ Additional metadata shall be recorded where required by the Mother Information L
 For each Assessed Finding the ARC shall also record:
 
 - **Use status:** Available to Pip, or On record only, with the rule that applies under the Pip Knowledge Rules §3; and
-- **Build Check status:** Not yet checked, or the date and result of the Build Check that covered it (Chapter 14).
+- **Build Check status:** the date and result of the Build Check that covered it (Chapter 14). An ARC created before Version 2.13 may show Not yet checked for a finding no package has used.
 
 ---
 
@@ -1587,7 +1598,7 @@ The Mother Information Library shall then contain the authoritative Founder-appr
 
 ## 12.9 Retirement of Review-Stage Working Documents
 
-Once an ARC has been created or updated under this chapter, the Founder Review Dossier, Decision Brief, Review Form, and any superseded revisions or companion research notes prepared for that Founder Review shall be removed from the working folders they occupied prior to approval, including any location within the Mother Information Library structure that had been duplicating them.
+Once an ARC has been created or updated under this chapter, the Founder Review Dossier, Pip's Answers and its Form (and, for a commission reviewed before Version 2.13, its Decision Brief, Review Form, Build Check Brief and Build Check Form), and any superseded revisions or companion research notes prepared for that Founder Review shall be removed from the working folders they occupied prior to approval, including any location within the Mother Information Library structure that had been duplicating them.
 
 This removal shall occur only after the ARC has satisfied the verification requirements of §12.7 and has been incorporated into the Mother Information Library.
 
@@ -1736,7 +1747,7 @@ The addendum changes no Assessed Finding, Evidence Confidence Level, conflict, d
 
 ## 14.1 Purpose
 
-The Build Check is the ROC's check of the knowledge Pip is about to use. It takes place after KIT has built a draft PKR package and before the Founders approve that package for publishing. It covers only the statements in the package, so the final check falls on what gardeners will read.
+The Build Check is the ROC's check of the knowledge Pip is about to use. It takes place after KIT has built a draft PKR package from a completed Founder Review Dossier, and before the Founders see either. It covers the sources of every finding in the dossier and every statement in the package, so the final check falls on what gardeners will read, and the Founders approve only what has already been checked.
 
 It is how rule 8 of the Pip Knowledge Rules is kept: Pip adds nothing of its own, and an error may come only from the sources.
 
@@ -1744,7 +1755,7 @@ It is how rule 8 of the Pip Knowledge Rules is kept: Pip adds nothing of its own
 
 ## 14.2 Independence
 
-The Build Check shall be carried out in a session that took no part in building the package. The ROC shall reopen each source from the ARC's Source Register and shall not rely on earlier notes or recollection of the research.
+The Build Check shall be carried out in sessions that took no part in the work being checked: not in the research, not in writing the dossier and not in building the package. The ROC shall reopen each source from the dossier's Source Register (or the ARC's, where a package is built from an ARC already approved) and shall not rely on earlier notes or recollection of the research.
 
 The ROC reports what it finds. It does not create or edit PKRs.
 
@@ -1754,9 +1765,9 @@ The ROC reports what it finds. It does not create or edit PKRs.
 
 The Build Check has two parts, and then a recheck.
 
-**Part 1: the source check.** For every source the Source Register lists for a finding the package uses, a checker reopens the page and asks, for each recorded quotation, whether it is on the page: word for word, nearly, or not found. It records each as Confirmed, Changed or Could not open. It also records whether the page supports the finding fully, partly or not at all, and anything the page says that limits or contradicts the finding. Only the page-reading tool is used; where it cannot open a page, the page is recorded as Could not open and no other route is tried.
+**Part 1: the source check.** For every source the Source Register lists for any finding in the dossier (or, where the package is built from an ARC already approved, for each finding the package uses), a checker reopens the page and asks, for each recorded quotation, whether it is on the page: word for word, nearly, or not found. It records each as Confirmed, Changed or Could not open. It also records whether the page supports the finding fully, partly or not at all, and anything the page says that limits or contradicts the finding. Only the page-reading tool is used; where it cannot open a page, the page is recorded as Could not open and no other route is tried.
 
-**Part 2: the wording check.** A checker that took no part in the build reads the whole ARC, the Pip Knowledge Rules and the results of Part 1, and checks every statement under §14.3. It checks each statement against what the pages were confirmed to say, not only against the ARC's wording. It also checks the package as a whole: that every finding available to Pip is used or listed with a reason, that nothing on record only is used, that each gap is said, and that a gardener would learn of each recorded conflict.
+**Part 2: the wording check.** A checker that took no part in the research, the dossier or the build reads the whole dossier (or ARC), the Pip Knowledge Rules and the results of Part 1, and checks every statement under §14.3. It checks each statement against what the pages were confirmed to say, not only against the dossier's wording. It also checks the package as a whole: that every finding available to Pip is used or listed with a reason, that nothing on record only is used, that each gap is said, and that a gardener would learn of each recorded conflict.
 
 **Recheck.** KIT corrects every failure and acts on the notes. The statements that changed are checked again. This repeats until no statement fails.
 
@@ -1770,14 +1781,14 @@ The results of each part are kept with the package in `Working/AI Outputs/`, nam
 
 For every statement in every gardener-facing draft PKR in the package, the ROC shall confirm:
 
-1. **Trace.** The statement cites a finding in an approved ARC, an approved default, or a recorded Founder decision.
+1. **Trace.** The statement cites a finding in the dossier under check or in an approved ARC, an approved default, or a recorded Founder decision.
 2. **Use status.** That finding is available to Pip (§11.4A), and any condition attached to it is met.
 3. **Sources.** Each source the Source Register lists for that finding still says what the finding records. The ROC records each source as Confirmed, Changed or Could not open.
 4. **Finding.** The finding is still supported, at its recorded Evidence Confidence Level, by the sources confirmed.
 5. **Wording.** Pip's statement says no more than the finding. It adds no claim, case, reason or certainty the finding lacks, and it keeps the finding's limitations (PIP Knowledge Record Standard §4.3).
-6. **Confidence shown.** The confidence shown with the statement matches the ARC.
+6. **Confidence shown.** The confidence shown with the statement matches the finding's level in the dossier or ARC, as corrected by the check.
 7. **Rules.** Disagreement, ranges, local information, gaps, products and precautions are handled as the Pip Knowledge Rules require.
-8. **Founder decisions.** The package follows the decisions recorded in the ARC's Founder Decision Record and the standing decisions.
+8. **Founder decisions.** The package follows the standing decisions, any decision a Founder gave for this commission, and, where it is built from an approved ARC, that ARC's Founder Decision Record.
 9. **Stands alone.** The statement makes sense read on its own, because the app may show it away from its neighbours.
 10. **Limits.** A limit that would change what a gardener does is shown with the statement (Pip Knowledge Rules §3).
 11. **Helps a gardener.** The statement tells a gardener something they can do, look for or decide. It is in plain words, names no source in the sentence unless the name is the point, and says "one source says" where only one does (Pip Knowledge Rules §1, §3A).
@@ -1796,42 +1807,37 @@ Each statement is recorded as one of:
 
 A statement fails where none of its finding's sources could be opened. A failed statement shall not be published until it has been corrected and checked again.
 
-Where the fault is in the wording or the trace, the ROC returns the statement to KIT. Where a source no longer supports a finding, the ROC corrects the research record under Chapter 13 and reports the finding to the Founders.
+Where the fault is in the wording or the trace, the ROC returns the statement to KIT. Where a source no longer supports a finding, the ROC corrects the research record as set out below and tells the Founders in Pip's Answers.
 
-**Where the record says more than its sources.** Part 1 may show that a finding's wording, or its Evidence Confidence Level, is stronger than the pages support, though every quotation is confirmed. The ROC shall then:
+**Where the record says more than its sources.** Part 1 may show that a finding's wording, or its Evidence Confidence Level, is stronger than the pages support, though every quotation is confirmed. What the ROC does depends on whether the record has been approved.
 
-- list each such finding in the Build Check Brief, with what the record says and what the sources say;
-- propose the correction, including any change of level and of Use status;
-- hold out of the package any statement whose finding would no longer be available to Pip; and
-- make the correction only after a Founder authorises it (§13.4). The Build Check Form's approval option carries that authorisation.
+*A dossier not yet approved.* The ROC shall correct it before submission. The corrections are recorded in a final section of the same dossier, which governs where it differs from the sections before it (Founder Review Dossier Standard §9.2): each finding reworded, with what it said and what it now says; any change of level and of Use status; each limitation added; each source no longer relied on for a finding, and each quotation added; and any conflict the check found. The Source Register is corrected to match. Where a level changes, the Evidence Assessment for that finding is revised first (§9.6). Pip's Answers tells the Founders, in plain words, what the check changed. No separate authorisation is needed, because nothing has yet been approved.
 
-Pip's statements follow the sources in the meantime, so publication does not wait on the correction.
+*An ARC already approved.* The ROC shall list each such finding in Pip's Answers, with what the record says and what the sources say; propose the correction, including any change of level and of Use status; hold out of the package any statement whose finding would no longer be available to Pip; and make the correction only after a Founder authorises it (§13.4). Approval of Pip's Answers carries that authorisation.
+
+In both cases Pip's statements follow the sources.
 
 ---
 
-## 14.5 Build Check Brief
+## 14.5 Reporting the Result
 
-The ROC shall record the result in a Build Check Brief, following the pattern in `Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md`. It shall show:
+The ROC shall keep the full results of each part with the package (§14.2A), and the package shall record each round: how many statements were checked, how many passed, passed with a note and failed, what failed and what was done about it (KIT Operations Manual Chapter 13A).
 
-- what gardeners will see: Pip's words, statement by statement, each with its confidence and its result;
-- the totals: statements checked, passed, passed with a note and failed, and sources confirmed, changed and not opened;
-- every note and every failure, with what was done about it;
-- the findings KIT left out, and why; and
-- any decision the package still needs from a Founder.
+The Founders are told the result in Pip's Answers (§10.6A), in two places: one line giving how many source pages were reopened, that every recorded quotation was found, and that every statement was checked and none fails; and, under "What you should know", what the check changed in the research and anything not yet checked.
 
-The Build Check Brief is submitted to the Founders with the package. A Build Check Form asks for the approval to publish and for any decision still open, and for nothing else.
+No Build Check Brief or Build Check Form is prepared. Pip's Answers is not submitted while any statement fails.
 
 ---
 
 ## 14.6 Recording
 
-After the Founders approve the package, the ROC shall record against each finding covered, in the ARC, the date and result of the Build Check (§12.5). Findings not used in any package remain Not yet checked, and are checked when a package first uses them.
+When the ARC is created after approval, the ROC shall record against each finding the date and result of the Build Check (§12.5). Where a later package uses a finding of an older ARC that shows Not yet checked, the finding is checked then and the ARC updated.
 
 ---
 
 ## 14.7 Completion Criteria
 
-A Build Check is complete when every statement in the package has a recorded result, every failure has been corrected and rechecked or removed, the Build Check Brief has been submitted, and the ARC's Build Check status has been updated after approval.
+A Build Check is complete when every source has a recorded result, every statement in the package has a recorded result, every failure has been corrected and rechecked or removed, and every correction to the dossier has been made. Pip's Answers may then be submitted. The ARC's Build Check status is recorded when the ARC is created.
 
 ---
 

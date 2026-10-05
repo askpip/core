@@ -8,19 +8,19 @@
 
 **Folder:** 04 – Standards
 
-**Version:** 1.5
+**Version:** 1.6
 
 **Status:** Approved
 
 **Owner:** The Founders
 
-**Last Updated:** 5 October 2026
+**Last Updated:** 6 October 2026
 
 **Permanent Location:** `Knowledge Curation System/Standards/Founder_Review_Dossier_Standard.md`
 
 **Approved By:** AskPIP Founder Authority
 
-**Revision Note:** **Version 1.5 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, so that every later dossier is produced as `FRD-BUSHROSE-SPRAYING-02` was. §4.2 item 1 adds the "For Pip" column; item 2 requires any exclusion to be a Founder's; item 7 holds each finding's wording to its sources; item 9 has each recommendation say what the rules give until it is pursued. New §5.2A states the wording rule. Previous: **Version 1.4 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, so that the Pip Knowledge Rules are followed when dossiers, briefs and forms are prepared. §2.6 makes the Decision Brief and Review Form a required pair. New §2.6A limits a Review Form to what the rules leave to the Founders: it no longer asks for a decision on each finding, or for a choice between answers where the rules give one. §4.2 item 10 is narrowed in the same way, and §2.1 no longer describes the dossier as unpaired. The required pair and a limit on Review Form questions were first directed on 28 September 2026 and had not reached the repository. Previous: **Version 1.3 (approved by Shaphan, AskPIP Founder Authority, 29 September 2026)**, at Shaphan's direction: §4.2 item 4 now requires the Source Log to give, for every online source, its web address and access date, or a stable identifier for an offline source, consistent with ROC Operations Manual §5.5 (Version 2.9). "Sufficient to identify and verify" had been read as satisfied by title and publisher alone, which left five commissions' sources without links. Previous: Version 1.2, at Founder direction: a Founder Review Dossier had begun to accumulate content that is not research about the commissioned topic — narration of how many revisions produced it and why, commentary on a reviewer's status or prior answers, and justification of the dossier's own structure or decision points. New §2.2 items and new §5.5 state plainly that this does not belong, alongside the actual example that prompted this revision (a chat comment treated as if it were a research finding). §9.2's revision note is narrowed by new §9.3 to a brief, findings-only statement of what changed, not an account of the review process. §2.6 extends this principle to the Decision Brief and Review Form prepared alongside the FRD, per Founder direction, pending any dedicated standard for those documents. Version 1.1 aligns this Standard with EAS v1.3's Assessed Finding model: a dossier does not report one overall Evidence Confidence Level for its commission, because a commission commonly produces claims of genuinely different evidential strength that a single blended figure would misrepresent. §4.2 (item 1) and Chapter 6 are reworded so that every Assessed Finding's own Evidence Confidence Level is listed up front and presented individually, never averaged into one headline figure. Version 1.0 creates this Standard. The Research Origin Curator (ROC) Operations Manual and the Evidence Assessment Standard (EAS) have both referenced a "Founder Review Dossier Standard" as a governing document since their approval, but the document itself did not exist — a gap identified by a ROC agent while completing a real research commission under this session's document set. This Standard closes that gap. It also formalises the retirement of the Founder Executive Brief (FEB) under SINS-001 v0.5: the Founder Review Dossier (FRD) governed here is now the sole Founder Review Documentation, not one of two companion documents.
+**Revision Note:** **Version 1.6 (approved by AskPIP Founder Authority, 6 October 2026)**, on a Founder's decision to keep the one-approval pattern: §2.6 and §2.6A replace the Decision Brief and Review Form with Pip's Answers and its one-question Form, prepared after the build and the Build Check. §4.2 item 10 and §9.1 say the dossier reaches the Founders through Pip's Answers. §9.2 says how corrections found by the Build Check before submission are recorded. Previous: **Version 1.5 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, so that every later dossier is produced as `FRD-BUSHROSE-SPRAYING-02` was. §4.2 item 1 adds the "For Pip" column; item 2 requires any exclusion to be a Founder's; item 7 holds each finding's wording to its sources; item 9 has each recommendation say what the rules give until it is pursued. New §5.2A states the wording rule. Previous: **Version 1.4 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, so that the Pip Knowledge Rules are followed when dossiers, briefs and forms are prepared. §2.6 makes the Decision Brief and Review Form a required pair. New §2.6A limits a Review Form to what the rules leave to the Founders: it no longer asks for a decision on each finding, or for a choice between answers where the rules give one. §4.2 item 10 is narrowed in the same way, and §2.1 no longer describes the dossier as unpaired. The required pair and a limit on Review Form questions were first directed on 28 September 2026 and had not reached the repository. Previous: **Version 1.3 (approved by Shaphan, AskPIP Founder Authority, 29 September 2026)**, at Shaphan's direction: §4.2 item 4 now requires the Source Log to give, for every online source, its web address and access date, or a stable identifier for an offline source, consistent with ROC Operations Manual §5.5 (Version 2.9). "Sufficient to identify and verify" had been read as satisfied by title and publisher alone, which left five commissions' sources without links. Previous: Version 1.2, at Founder direction: a Founder Review Dossier had begun to accumulate content that is not research about the commissioned topic — narration of how many revisions produced it and why, commentary on a reviewer's status or prior answers, and justification of the dossier's own structure or decision points. New §2.2 items and new §5.5 state plainly that this does not belong, alongside the actual example that prompted this revision (a chat comment treated as if it were a research finding). §9.2's revision note is narrowed by new §9.3 to a brief, findings-only statement of what changed, not an account of the review process. §2.6 extends this principle to the Decision Brief and Review Form prepared alongside the FRD, per Founder direction, pending any dedicated standard for those documents. Version 1.1 aligns this Standard with EAS v1.3's Assessed Finding model: a dossier does not report one overall Evidence Confidence Level for its commission, because a commission commonly produces claims of genuinely different evidential strength that a single blended figure would misrepresent. §4.2 (item 1) and Chapter 6 are reworded so that every Assessed Finding's own Evidence Confidence Level is listed up front and presented individually, never averaged into one headline figure. Version 1.0 creates this Standard. The Research Origin Curator (ROC) Operations Manual and the Evidence Assessment Standard (EAS) have both referenced a "Founder Review Dossier Standard" as a governing document since their approval, but the document itself did not exist — a gap identified by a ROC agent while completing a real research commission under this session's document set. This Standard closes that gap. It also formalises the retirement of the Founder Executive Brief (FEB) under SINS-001 v0.5: the Founder Review Dossier (FRD) governed here is now the sole Founder Review Documentation, not one of two companion documents.
 
 **Purpose:** To establish what a Founder Review Dossier must contain, how it shall be structured and identified, and how it shall be prepared and reviewed, so that every research commission reaches the Founders in a form that supports an informed, safe approval decision.
 
@@ -72,7 +72,7 @@ This Standard does not govern:
 - how the Founders reach or record their decision — governed by the Research Origin Curator Operations Manual, Chapter 11 (Founder Review);
 - what happens to approved research once it becomes an Approved Research Compilation (ARC) — governed by the Mother Information Library Standard.
 
-This Standard governs the dossier itself: the document the Founders read, not the research that produced it.
+This Standard governs the dossier itself: the governed research record, not the research that produced it.
 
 ## 1.3 Intended Outcome
 
@@ -92,7 +92,7 @@ Application of this Standard shall produce Founder Review Dossiers that are:
 
 The Founder Review Dossier (FRD) is the complete supporting research record prepared for Founder review at the conclusion of a research commission.
 
-It is the governed research record put before the Founders. A Decision Brief and a Review Form are prepared with it (§2.6); they add nothing to it. The Founder Executive Brief, formerly a companion summary document, is retired under SINS-001 v0.5; see §2.4.
+It is the governed research record behind what the Founders approve. The Founders decide on Pip's Answers, which shows what Pip would say from it (§2.6); Pip's Answers adds nothing to it. The Founder Executive Brief, formerly a companion summary document, is retired under SINS-001 v0.5; see §2.4.
 
 ## 2.2 What the Dossier Is Not
 
@@ -115,7 +115,7 @@ Once a commission is approved, the FRD is archived as a supporting record. The r
 
 Before SINS-001 v0.5, the Founder Review Documentation comprised two documents: the FRD and a companion Founder Executive Brief (FEB), intended to give the Founders a shorter summary for routine review at volume.
 
-The FEB is retired. With one Founder reviewing every commission directly and carefully, a second, shorter document duplicated effort rather than saving it. The FRD alone is now the Founder Review Documentation, and this Standard's structure requirements (Chapter 4) are written so that a well-prepared FRD is itself navigable without a separate summary — clear section headings, a stated Evidence Confidence up front, and findings ordered from most to least significant.
+The FEB is retired. With one Founder reviewing every commission directly and carefully, a second, shorter document duplicated effort rather than saving it. The FRD alone is now the Founder Review Documentation, and this Standard's structure requirements (Chapter 4) are written so that a well-prepared FRD is itself navigable without a separate summary — clear section headings, a stated Evidence Confidence up front, and findings ordered from most to least significant. Since Version 1.6 the Founders read Pip's Answers (§2.6); the dossier is the record behind it.
 
 Should review volume grow enough that a summary document becomes genuinely useful, that is a future Founder decision, made and documented the same way any retired term may be reinstated — not a default this Standard assumes.
 
@@ -123,25 +123,25 @@ Should review volume grow enough that a summary document becomes genuinely usefu
 
 The Founder Review Dossier exists so a Founder can decide on the researched topic. Every sentence in it shall serve that decision directly: stating the commissioned question, the evidence, the assessment, or the decision the Founder is asked to make. Nothing else belongs, regardless of how it came about or how interesting it may be to record. §5.5 sets out what this excludes in practice.
 
-## 2.6 Required Companion Documents: Decision Brief and Review Form
+## 2.6 Required Companion Documents: Pip's Answers and its Form
 
-Every Founder Review Dossier submitted for Founder Review shall be prepared together with a Decision Brief and a Review Form, following the patterns in `Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md`. §4.3 (Proportionality) governs how much detail each carries, not whether they are prepared.
+A Founder Review Dossier is not submitted to the Founders on its own. When it is complete the ROC passes it to KIT, KIT builds Pip's words from its findings, and the ROC carries out the Build Check (ROC Operations Manual §10.11 and Chapter 14). The Founders are then given one document and one form, following the pattern in `Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md`. §4.3 (Proportionality) governs how much detail each carries, not whether they are prepared.
 
-The **Decision Brief** is the plain-language summary a Founder reads. It shall state what Pip would say under the Pip Knowledge Rules, how strong the evidence is, what Pip would not say and why, and anything the rules cannot settle. The **Review Form** is where a Founder records the decision.
+**Pip's Answers** shows every word gardeners would see, then a short list of what a Founder should know, then the result of the check. The **Pip's Answers Form** is where a Founder records the one decision.
 
-Both are downstream of the dossier. They restate its content for decision and add no evidence, finding or Evidence Confidence Level of their own. §2.2, §2.5 and §5.5 apply to both: a Founder reading any of the three documents shall find only the commissioned topic's research and the decision it calls for, never commentary on the documents' own history. Where either differs from the dossier, the dossier governs.
+Both are downstream of the dossier and of the PKR package. They add no evidence, finding or Evidence Confidence Level of their own. §2.2, §2.5 and §5.5 apply to both: a Founder reading them shall find what Pip would say on the commissioned topic and the decision it calls for, never commentary on the documents' own history. Where either differs from the dossier on what the research found, the dossier governs.
 
-## 2.6A What a Review Form Asks
+No Decision Brief or Review Form is prepared (they were required by Versions 1.4 and 1.5).
 
-A Review Form asks only what the Pip Knowledge Rules §5 leave to the Founders:
+## 2.6A What the Pip's Answers Form Asks
 
-1. the overall decision on the dossier: approve as the named ARC, approve with stated changes, request further work, or decline;
-2. any question of scope, or of how Pip works, that the rules cannot settle and that is not already a standing decision (Pip Knowledge Rules §7); and
-3. optional comments, where a Founder may change, exclude or question anything.
+The form asks one question: the decision on Pip's answers. It offers three answers: approve; approve with changes, which the Founder writes; or not yet, with the reason. It has one optional box for comments, where a Founder may change, exclude or question anything.
 
-A Review Form shall not ask a Founder to approve an individual finding, to choose between answers where the rules give one, to judge the research, its ratings or its defaults, or to decide scheduling, sequencing or what work should happen next.
+Approval is one decision that covers the research and Pip's words together: the dossier's findings, as corrected by the Build Check, become the named ARC, and Pip's words may be published (Pip Knowledge Rules §7, "One approval").
 
-Every question shall be answerable from its own words, without a finding number or option code to look up. Every option shall say what Pip would say or do.
+The form shall not ask a Founder to approve an individual finding, to choose between answers where the rules give one, to judge the research, its ratings or its defaults, or to decide scheduling, sequencing or what work should happen next.
+
+A question of scope, or of how Pip works, that the Pip Knowledge Rules §5 leave to the Founders and that is not already a standing decision is not put on the form. It is asked in conversation before the build (ROC Operations Manual §11.4B).
 
 An answer recorded against a question that does not meet this section has no bearing on the Founder decision for that commission.
 
@@ -196,7 +196,7 @@ Every Founder Review Dossier shall present the completed research in the sequenc
 
 A Founder Review Dossier shall contain the following sections, in this order:
 
-1. **Document Metadata** — Dossier Identifier (§3.2), title, commission reference, status (Draft or Submitted), preparer, date, and a summary list of each Assessed Finding's Evidence Confidence Level from §8, stated up front, before any other content. Where the commission produced more than one Assessed Finding, every finding's level is listed; none is omitted in favour of an average or a single headline figure. The list has a "For Pip" column: whether Pip may use the finding under the Pip Knowledge Rules §3 and, for a Low or Very Low finding that is available, the rule that makes it so.
+1. **Document Metadata** — Dossier Identifier (§3.2), title, commission reference, status (Draft; Passed to KIT for the build; Submitted, once Pip's Answers is with the Founders; or Approved), preparer, date, and a summary list of each Assessed Finding's Evidence Confidence Level from §8, stated up front, before any other content. Where the commission produced more than one Assessed Finding, every finding's level is listed; none is omitted in favour of an average or a single headline figure. The list has a "For Pip" column: whether Pip may use the finding under the Pip Knowledge Rules §3 and, for a Low or Very Low finding that is available, the rule that makes it so.
 2. **Research Commission Record (Summary)** — the commissioned question and its scope, drawn from the Research Commission Record without alteration. Any exclusion is stated with the Founder direction it rests on; a dossier shall not rely on an exclusion the Founders did not direct (ROC Operations Manual §3.5).
 3. **Research Plan** — the approach taken to answer the commissioned question, per the ROC Operations Manual, Chapter 5.
 4. **Evidence Collected — Source Log** — every source relied upon, sufficient for a Founder to identify and, where necessary, verify its origin, per the ROC Operations Manual, Chapter 6. For every source consulted online, this shall include its full web address and access date; for an offline source, a stable identifier where one exists; and where neither can be given, a plain statement of why (ROC Operations Manual §5.5).
@@ -205,7 +205,7 @@ A Founder Review Dossier shall contain the following sections, in this order:
 7. **Principal Findings** — the synthesised findings of the research, presented as one or more Assessed Findings (per the Evidence Assessment Standard §3.2), distinguishing established findings, supported interpretations, expert opinion and unresolved questions, per §5 of this Standard.
 8. **Evidence Assessment** — the completed Evidence Assessment, incorporated without alteration, per the Evidence Assessment Standard, stating the Evidence Confidence Level assigned to each Assessed Finding individually.
 9. **Recommendations for Further Research** — any further research the ROC identifies as warranted, whether or not the Founders act on it. Each states what a Founder decision would need to settle before it could be pursued, and what the Pip Knowledge Rules give until then. Anything the sources say that fell outside the commissioned questions is recorded here, so that it is not lost.
-10. **Founder Decision Points** — in two parts. **(a) What the rules give:** for each commissioned question, what Pip would say under the Pip Knowledge Rules, stated by the ROC from the findings (ROC Operations Manual §8.6A). These are statements, not questions. **(b) The decisions asked:** the overall decision (approve as a future ARC; approve with amendment; defer pending further research; decline), and any question of scope or of how Pip works that the Pip Knowledge Rules §5 leave to the Founders and that is not already a standing decision. A decision on an individual finding, or a choice between answers where the rules give one, is not a Founder Decision Point.
+10. **Founder Decision Points** — in two parts. **(a) What the rules give:** for each commissioned question, what Pip would say under the Pip Knowledge Rules, stated by the ROC from the findings (ROC Operations Manual §8.6A). These are statements, not questions. **(b) The decision asked:** one decision, asked on the Pip's Answers Form (§2.6A): approval of Pip's answers, which also approves these findings for the named ARC. Any question of scope or of how Pip works that the Pip Knowledge Rules §5 leave to the Founders, and that is not already a standing decision, is stated here with the answer a Founder gave before the build. A decision on an individual finding, or a choice between answers where the rules give one, is not a Founder Decision Point.
 
 Where a section has no content for a given commission (for example, no conflicting evidence was encountered), the dossier shall state this explicitly rather than omit the section.
 
@@ -247,7 +247,7 @@ Types of product are named as the sources name them. Brand names and mixing amou
 
 ## 5.3 No New Analysis After Completion
 
-The Founder Review Dossier shall not introduce new evidence, additional analysis or revised conclusions after completion of the research. Where additional analysis is required, the ROC shall revise the research and the Evidence Assessment before updating the dossier, per the ROC Operations Manual §9.7.
+The Founder Review Dossier shall not introduce new evidence, additional analysis or revised conclusions after completion of the research. Corrections from the Build Check are the one exception: they are recorded as §9.2 sets out, and where a level changes the Evidence Assessment is revised first (ROC Operations Manual §9.6). Where additional analysis is required, the ROC shall revise the research and the Evidence Assessment before updating the dossier, per the ROC Operations Manual §9.7.
 
 ## 5.4 Referencing Supporting Evidence
 
@@ -334,14 +334,15 @@ Any deficiencies identified during the quality review shall be corrected before 
 
 ## 9.1 Submission to the Founders
 
-Following successful completion of the quality review, the ROC shall submit the commission to the Founders. The submission shall include:
+Following successful completion of the quality review, the ROC shall pass the dossier to KIT for the build and carry out the Build Check (ROC Operations Manual §10.11). The commission is then submitted to the Founders. The submission shall include:
 
-- the Founder Review Dossier; and
-- access to all supporting documentation required by the Knowledge Curation System.
+- Pip's Answers and its Form (§2.6);
+- the Founder Review Dossier, as corrected by the Build Check; and
+- access to all supporting documentation required by the Knowledge Curation System, including the PKR package and the Build Check results.
 
-The Founder Review Dossier shall serve as the primary and complete document for Founder review. Following submission, responsibility for the commission passes to the Founder Review stage, per the ROC Operations Manual, Chapter 11.
+The Founder Review Dossier remains the primary and complete research record. The Founders may open it at any time and are not required to read it. Following submission, responsibility for the commission passes to the Founder Review stage, per the ROC Operations Manual, Chapter 11.
 
-The ROC shall remain available to provide clarification where requested but shall not amend the findings unless directed by the Founders.
+The ROC shall remain available to provide clarification where requested but shall not amend the findings after submission unless directed by the Founders.
 
 ## 9.2 Revision and Superseded Versions
 
@@ -355,6 +356,8 @@ The ROC shall instead:
 - preserve the prior version and the Founders' decision on it as part of the permanent commission record rather than overwriting or deleting it.
 
 This mirrors the terminology-retirement pattern used elsewhere in PIP CORE: prior versions are superseded, not erased, so the record of what the Founders actually reviewed and decided remains intact.
+
+**Corrections found by the Build Check before submission** are not a revision under this section, because the Founders have not yet seen the dossier. The ROC records them in a final section of the same dossier, under the same Dossier Identifier, headed as corrections from the Build Check and dated. That section states that it governs where it differs from the sections before it, and gives each change as ROC Operations Manual §14.4 requires. The earlier sections are left as written, so that what the research first said and what the check changed can both be read.
 
 ## 9.3 Scope of the Revision Note
 

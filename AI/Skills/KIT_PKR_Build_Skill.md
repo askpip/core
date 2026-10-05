@@ -1,20 +1,20 @@
 ---
 name: pip-kit-pkr-build
-description: Build, submit and (after Founder approval) mark Published the PIP Knowledge Records (PKRs) for an approved ARC, acting as the Knowledge Integration Technician (KIT). Use when an ARC is approved into the MIL, when an approved ARC changes and published PKRs may be affected, or when the Founders ask for PKRs, a gate, an observation, decision logic, care guidance or source records to be built.
+description: Build, submit and (after Founder approval) mark Published the PIP Knowledge Records (PKRs) for a completed Founder Review Dossier or an approved ARC, acting as the Knowledge Integration Technician (KIT). Use when the ROC passes a completed dossier for the build, when an approved ARC changes and published PKRs may be affected, or when the Founders ask for PKRs, a gate, an observation, decision logic, care guidance or source records to be built.
 ---
 
-# KIT — Building PKRs from an Approved ARC
+# KIT — Building PKRs from a Completed Dossier or an Approved ARC
 
 ## Document Metadata
 
 **Document Title:** KIT PKR Build Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
-**Version:** 0.4
-**Status:** Approved — Version 0.1 approved by a Founder in chat, 1 October 2026; Version 0.2 approved by AskPIP Founder Authority, 5 October 2026; Version 0.3 at a Founder's direction, 5 October 2026 (coverage, statement rules, question topics, Build Check rounds)
+**Version:** 0.5
+**Status:** Approved — Version 0.1 approved by a Founder in chat, 1 October 2026; Version 0.2 approved by AskPIP Founder Authority, 5 October 2026; Version 0.3 at a Founder's direction, 5 October 2026 (coverage, statement rules, question topics, Build Check rounds); Version 0.4 at a Founder's direction, 5 October 2026; Version 0.5 on a Founder's decision of 6 October 2026 to keep the one-approval pattern (build from the completed dossier; Pip's Answers; one approval)
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/KIT_PKR_Build_Skill.md`
-**Last Updated:** 5 October 2026
-**Purpose:** To give any AI acting as KIT the working procedure for turning an approved ARC into Published PKRs: the steps, file conventions and standing Founder rules established in practice. It distils, and never overrides, the KIT Charter, KIT Operations Manual and PKR Standard.
+**Last Updated:** 6 October 2026
+**Purpose:** To give any AI acting as KIT the working procedure for turning a completed dossier, or an approved ARC, into Published PKRs: the steps, file conventions and standing Founder rules established in practice. It distils, and never overrides, the KIT Charter, KIT Operations Manual and PKR Standard.
 **Related Documents:**
 - `Knowledge Curation System/Charters/KIT_Charter.md`
 - `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md`
@@ -34,13 +34,15 @@ description: Build, submit and (after Founder approval) mark Published the PIP K
 
 1. `AGENTS.md` bootstrap (then the AI Operations Manual and Loading Guide).
 2. The Pip Knowledge Rules, the KIT Charter, the KIT Operations Manual, the PKR Standard and the LIL Standard.
-3. The approved ARC in `Knowledge Curation System/Mother Information Library/ARCs/`. Read all of:
+3. What you are building from. **Usually a completed Founder Review Dossier** the ROC has passed for the build, in `Working/Founder Review/`: read its findings and levels, the "For Pip" column, its conflicts, its recommendations for further research, what the rules give, and its Source Register (`Working/AI Outputs/Source_Register_<SUBJECT>.json`). **For a change to something already approved, the ARC** in `Knowledge Curation System/Mother Information Library/ARCs/`: read all of:
    - §2, the Founder decision record: decisions there bind the PKRs;
    - §3–§4, the findings, each with its own confidence;
    - §5, the preserved conflicts;
    - §6, the approved defaults;
    - §7, the note for KIT;
    - the Source Register.
+
+   Below, "the ARC" means whichever of the two you are building from.
 4. Existing published PKRs the ARC touches:
    - **The current published form:** the records in `Knowledge Curation System/Live Intelligence Library/records/`.
    - **The approved rendering and history:** the submission packages in `Working/AI Outputs/PKR-*-submission.md`.
@@ -51,10 +53,12 @@ description: Build, submit and (after Founder approval) mark Published the PIP K
 These were set by the Founders in chat and apply until they change them.
 
 - **The Pip Knowledge Rules decide what Pip may say.** Build from findings whose Use status in the ARC is Available to Pip. Low and Very Low findings are on record only unless the rules make them available (Pip Knowledge Rules §3; ROC OM §11.4A).
-- **Build Check before the Founders.** Every package goes to ROC for the Build Check before it is presented (KIT OM Chapter 13A).
+- **One approval.** A Founder reads Pip's Answers and approves once; that approves the research and Pip's words together (Pip Knowledge Rules §7). Build from the completed dossier before approval. Publish nothing until a Founder approves and the ROC has filed the ARC.
+- **Build Check before the Founders.** Every package goes to ROC for the Build Check before anything is presented (KIT OM Chapter 13A). Where the check corrects the dossier, rebuild the statements that rest on what changed.
+- **Source check first where you can.** Pip's first-pass wording fails less when it is written from what the pages were confirmed to say. Where the ROC can run the source check before the statements are written, write them after it.
 - **Pip helps gardeners first** (Pip Knowledge Rules §1). Use every finding that helps a gardener understand, grow or care for the plant. Leave out what is only about the research, and list it with the reason (KIT OM §5.3).
 - **Write each statement to the Pip Knowledge Rules §3A** (KIT OM §7.7): plain words a beginner can act on; no source names in the sentence, because the sources are listed under the answer; "one source says" where only one does; a limit only where it changes what a gardener does; each statement stands alone.
-- **Only approved content.** A PKR may contain only what approved ARCs say. Operational approval is given in chat by a Founder, and the Founders have said: "As long as they only contain content from the already approved ARCs, I approve." KIT still presents every package and waits for that approval. It is never assumed.
+- **Only what the research says.** A PKR may contain only what the dossier's findings, or approved ARCs, say. Approval is given by a Founder on the Pip's Answers Form or in chat. KIT presents every package and waits for that approval. It is never assumed.
 - **Every source verifiable.** Every Source PKR carries a full web address and access date, or a stable identifier for an offline source (ROC OM §5.5).
 - **Never substitute a source silently.** If a register entry doesn't match an existing Source PKR (different page, edition, date or address), report it and let the Founders decide.
 - **Per-claim confidence**, never blended (PKR Standard §4.2).
@@ -64,7 +68,7 @@ These were set by the Founders in chat and apply until they change them.
   - Every observation loops ("Can you see any more …?") until the gardener says no.
   - "Doesn't match" and "Not sure" never reach Cut (PKR Standard §5.1).
   - Comparison images may be a documented gap without blocking publication.
-- **Questions go to the Founders in plain English, one decision at a time**, with options and a clearly labelled recommendation. Use a multiple-choice question tool when available.
+- **Questions go to the Founders in plain English, one decision at a time**, with its options and their consequences. Use a multiple-choice question tool when available.
 
 # 3. Identifiers
 
@@ -96,8 +100,9 @@ Set the title-line status to `(v0.1, Draft)`. The package has these sections, in
    - **Care Guidance (§5.7):** Care Topic; Guidance Mode; Presentation Points; items with trace, confidence and applicability, and where they apply the limit shown, the kind (precaution, gap, disagreement, framing) and the countries the item is shown in. For question answers: the topic and the record's order in it. A subject usually needs several short question answers under one topic, with one lead question, so that every usable finding has a place. `PKR-CGD-BUSHROSE-SPRAYING-01-submission.md` is the worked example.
    - **Revisions** of published PKRs list only the changed fields and state the new version.
 3. **Wording Boundary Check** (KIT OM §7.7): how each paraphrase stays within its finding.
-4. **Remaining Dependencies and Decisions for the Founders.** Any question the ARC's §2 doesn't settle, with options and a KIT recommendation. KIT can't decide horticultural questions by inference (KIT OM §9.3).
-5. **Founder Review Rendering** (PKR Standard §9.2): plain sentences a non-technical Founder can approve, with no field syntax.
+4. **Remaining Dependencies and Decisions for the Founders.** Any question the rules, the standing decisions and the dossier don't settle. Put it to a Founder before submission, in plain words with its options. KIT can't decide horticultural questions by inference (KIT OM §9.3).
+5. **Founder Review Rendering** (PKR Standard §9.2): plain sentences a non-technical Founder can approve, with no field syntax. It becomes section 1 of Pip's Answers.
+6. **Build Check Record:** each round of the check, what failed and how it was fixed, and what was left as it is and why.
 
 **Source PKRs** (PKR Standard §5.5):
 
@@ -121,13 +126,14 @@ Set the title-line status to `(v0.1, Draft)`. The package has these sections, in
    2. copy to `/mnt/user-data/outputs/…`;
    3. commit to the device (pass the expected modified-time when overwriting);
    4. list the folder and **check every file size** against your copy. A stale commit has landed before.
-2. Give the package to ROC for the Build Check. Fix anything it fails, act on the notes, and have the changed statements rechecked, until nothing fails. Record each round in the package, and list any correction to the research record the check proposes.
-3. Present ROC's Build Check Brief: Pip's words with each result, what was left out, and any open decision.
-4. Ask each open decision separately, then ask for approval of the package. Ask only what the Pip Knowledge Rules §5 leave to the Founders.
+2. Give the package to ROC for the Build Check. Fix anything it fails, act on the notes, and have the changed statements rechecked, until nothing fails. Record each round in the package. Where the check corrects the dossier, rebuild what rests on the corrected findings.
+3. With the ROC, write **Pip's Answers** and its one-question Form (`Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md`): every word gardeners will see, what a Founder should know, the check in one line, where the detail is. Check by script that section 1 matches the draft records statement for statement. Mark any earlier brief or form for the same dossier as replaced.
+4. Load test copies of the draft records into a local build of the app (never the live LIL, never `public.lil_pkr`) and look at them, at phone width, for a plant in each country that has its own statements. Remove the test copies afterwards.
+5. Deliver, and once the Founder has pushed, post it in the Shed: point a Founder Attention Request at Pip's Answers, with links to the Form and the dossier, and edit the to-do (Garden Shed Operations Skill §5).
 
 # 7. On approval
 
-1. Record the decision in the package: the title-line status, a `Published <date>` line quoting the approval, and the decision outcomes. Set the status to Published, set new records to Version 1.0 and revisions to their new version, and fill in the Founder Approval Date.
+1. Where the Founder approved with changes, make them first and have every statement whose meaning changed rechecked. Where you or the ROC had to write new wording, or a finding or its level changed, show the changed statements to the Founder, and have them accepted, before anything is filed or published (KIT OM Chapter 15). The ROC then files the ARC (ROC OM Chapter 12), with the check's corrections folded in. Then record the decision in the package: the title-line status, a `Published <date>` line quoting the approval, and the decision outcomes. Set the status to Published, set new records to Version 1.0 and revisions to their new version, and fill in the Founder Approval Date.
 2. Apply Part B source bumps in place in the file that holds each reused Source PKR. Add the new MIL reference lines ("added vX.Y, <date>") and a revision note. Verify each block after editing.
 3. Add a one-line "Superseded in part" banner to older packages whose records were revised.
 4. Publish to the LIL with `AI/Skills/KIT_LIL_Publication_Skill.md`. A PKR isn't live until that Skill's verification passes.

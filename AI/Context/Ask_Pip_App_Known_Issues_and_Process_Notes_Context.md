@@ -4,12 +4,12 @@
 
 **Document Title:** Ask Pip App Known Issues and Process Notes
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.1
+**Version:** 0.2
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `AI/Context/Ask_Pip_App_Known_Issues_and_Process_Notes_Context.md`
-**Last Updated:** 23 September 2026
+**Last Updated:** 6 October 2026
 **Purpose:** To record process, tooling and governance-adjacent problems discovered while working on the Ask Pip application and its Garden Shed Office records, so a future AI session does not rediscover them the hard way.
 **Related Documents:** `AI/Skills/Garden_Shed_Operations_Skill.md`; `AI/Skills/Verify_Before_Claiming_Skill.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/Context/Ask_Pip_App_Build_Status_Context.md`; `MVP/Architecture/Ask_Pip_App_Engineering_Architecture.md`
 
@@ -33,7 +33,7 @@ If an AI also separately writes its own descriptive to-do for the same subject i
 
 ## 2.2 To-Do Status Is Not Review Status
 
-A to-do's `status` field (`new` / `in_progress` / `completed`) reflects whether someone has opened or touched the to-do — `updated_by` and `updated_at` diverging from `created_by`/`created_at` is a reasonable signal that a human genuinely engaged with it. It does not reflect whether a Founder Review Form was actually submitted for the FRD it concerns. Check `shed_form_responses` directly for that — an empty result means no review has been recorded, regardless of what the to-do's status says.
+A to-do's `status` field (`new` / `in_progress` / `completed`) reflects whether someone has opened or touched the to-do — `updated_by` and `updated_at` diverging from `created_by`/`created_at` is a reasonable signal that a human genuinely engaged with it. It does not reflect whether a Founder's form (since 6 October 2026 the Pip's Answers Form; before that a Review Form or Build Check Form) was actually submitted for the commission it concerns. Check `shed_form_responses` directly for that — an empty result means no review has been recorded, regardless of what the to-do's status says.
 
 # 3. Tooling Notes
 
@@ -60,6 +60,7 @@ Only the documentation and governance folders (`AI`, `Foundations`, `Knowledge C
 
 # 4. Revision Log
 
+- **6 October 2026 (Version 0.2):** §2.2 names the Pip's Answers Form, which replaced the Review Form.
 - **23 September 2026 (Version 0.1):** Initial version, recording the Founder Attention Request to-do duplication (§2.1), the to-do-status-versus-review-status distinction (§2.2), the device shell's intermittent unavailability and its fallback pattern (§3.1–§3.2), and the App/Shed sync boundary (§3.3).
 
 # End of Document

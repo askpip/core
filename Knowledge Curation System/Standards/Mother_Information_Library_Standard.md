@@ -6,15 +6,15 @@
 
 **Document Title:** Mother Information Library (MIL) Standard  
 **Volume:** Volume VI – Knowledge Curation System  
-**Version:** 0.05  
+**Version:** 0.06  
 **Status:** Approved  
 **Owner:** The Founders  
-**Last Updated:** 22 August 2026  
+**Last Updated:** 6 October 2026  
 **Approved By:** AskPIP Founder Authority  
 **Permanent Location:** `Knowledge Curation System/Standards/Mother_Information_Library_Standard.md`  
 **Purpose:** To define the purpose, governance, structure and operating principles of the Mother Information Library (MIL) within the Knowledge Curation System (KCS).  
 **Related Documents:** Founding Charter, Knowledge Curation System (KCS) Framework, PIP Research Origin Curator (ROC) Charter, PIP Knowledge Integration Technician (KIT) Charter, PIP Knowledge Record (PKR) Standard, Live Intelligence Library (LIL) Standard, Evidence Assessment Standard (EAS), PIP System Identity and Naming Standard (SINS-001).  
-**Revision Note:** Version 0.05 aligns the Information Assets section with EAS v1.3's Assessed Finding model, at Founder direction: an ARC does not carry one blended Evidence Confidence Level for all its content, because it commonly holds more than one Assessed Finding of genuinely different evidential strength. Version 0.04 replaces "Approved Information Compilation (AIC)" with "Approved Research Compilation (ARC)" in the Information Assets section, following SINS-001 v0.4's retirement of the AIC term. Version 0.03 notes in the Information Assets section that each AIC records the Evidence Confidence Level assigned to it under the Evidence Assessment Standard, so that the strength of the underlying evidence remains attached to the information as it moves toward operational use. Version 0.02 names the Approved Information Compilation (AIC) as the MIL's primary governed record type in the Information Assets section, following SINS-001 v0.2's retirement of "Knowledge Asset" in favour of "AIC."
+**Revision Note:** Version 0.06 (approved by AskPIP Founder Authority, 6 October 2026), on a Founder's decision to keep the one-approval pattern: the Information Assets section says that every published PKR traces to an ARC, and that KIT may build draft PKRs from a completed dossier before approval. Version 0.05 aligns the Information Assets section with EAS v1.3's Assessed Finding model, at Founder direction: an ARC does not carry one blended Evidence Confidence Level for all its content, because it commonly holds more than one Assessed Finding of genuinely different evidential strength. Version 0.04 replaces "Approved Information Compilation (AIC)" with "Approved Research Compilation (ARC)" in the Information Assets section, following SINS-001 v0.4's retirement of the AIC term. Version 0.03 notes in the Information Assets section that each AIC records the Evidence Confidence Level assigned to it under the Evidence Assessment Standard, so that the strength of the underlying evidence remains attached to the information as it moves toward operational use. Version 0.02 names the Approved Information Compilation (AIC) as the MIL's primary governed record type in the Information Assets section, following SINS-001 v0.2's retirement of "Knowledge Asset" in favour of "AIC."
 
 ---
 
@@ -57,7 +57,7 @@ The Mother Information Library exists to:
 
 # Information Assets
 
-The primary governed record type held within the MIL is the Approved Research Compilation (ARC) — see the PIP System Identity and Naming Standard (SINS-001) §7.3. An ARC is the authoritative, structured representation of Founder-approved information on a defined subject, and is what KIT retrieves from when building a PKR.
+The primary governed record type held within the MIL is the Approved Research Compilation (ARC) — see the PIP System Identity and Naming Standard (SINS-001) §7.3. An ARC is the authoritative, structured representation of Founder-approved information on a defined subject, and is what every published PKR traces to. KIT may build draft PKRs from the completed dossier before approval (KIT Operations Manual §3.1); none is published until the Founders approve and the ARC exists.
 
 Each ARC records the Evidence Confidence Level(s) assigned under the Evidence Assessment Standard (EAS) to its constituent Assessed Finding(s), so that the strength of the underlying evidence remains attached to the information as it moves toward operational use. An ARC does not carry one blended Evidence Confidence Level for all its content; where an ARC holds more than one Assessed Finding, each finding's level is recorded and preserved individually.
 

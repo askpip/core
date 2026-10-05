@@ -9,11 +9,11 @@ description: Publish Founder-approved PKRs into the Live Intelligence Library (L
 
 **Document Title:** KIT LIL Publication Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
-**Version:** 0.2
-**Status:** Approved — Approved by the Founder (Shaphan) in chat, 1 October 2026
+**Version:** 0.3
+**Status:** Approved — Approved by the Founder (Shaphan) in chat, 1 October 2026; Version 0.3 on a Founder's decision of 6 October 2026 (approval on the Pip's Answers Form; ARC filed before publishing)
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/KIT_LIL_Publication_Skill.md`
-**Last Updated:** 5 October 2026
+**Last Updated:** 6 October 2026
 **Purpose:** To let any AI acting as KIT move Founder-approved PKRs into the LIL correctly and verifiably, without reconstructing the procedure from past sessions.
 **Related Documents:**
 - `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md` (Chapters 16–18)
@@ -97,7 +97,7 @@ Never use it to put a Draft into the LIL. The LIL holds only Published, Suspende
 
 # 4. Publishing an approved package
 
-1. **Confirm approval.** It must be explicit Founder approval in chat, recorded in the package (status line and decision record). No approval, no LIL.
+1. **Confirm approval.** It must be explicit Founder approval, given on the Pip's Answers Form or in chat, and recorded in the package (status line and decision record). Confirm too that the ARC the records cite has been filed in the MIL. No approval, no LIL.
 2. **Write the record files.**
    - For each new PKR, create `records/<ID>/v1.0.json`.
    - For a revision, create a new file `v<next>.json` with status `Published`, and set the previous version's file to `"status": "Retired"`. That status edit is the only edit ever made to a published version file.

@@ -8,19 +8,19 @@
 
 **Folder:** 04 – Standards
 
-**Version:** 0.3
+**Version:** 0.4
 
 **Status:** Approved
 
 **Owner:** The Founders
 
-**Last Updated:** 5 October 2026
+**Last Updated:** 6 October 2026
 
 **Permanent Location:** `Knowledge Curation System/Standards/Pip_Knowledge_Rules.md`
 
 **Approved By:** AskPIP Founder Authority
 
-**Revision Note:** Version 0.3 (5 October 2026, at a Founder's direction, after reading Pip's first answers written under these rules). The answers named their sources inside each sentence and carried statements that were about the research, not about the plant. §1 now puts helping the gardener first. Rule 1 has the confidence label and the list of sources under the answer carry what the sentence used to, and has Pip say "one source says" where only one does. Rule 4 lists the source under the answer. §3 shows a limit only where it would change what a gardener does. §3A is rewritten to match, and §7 records both decisions, replacing "nothing wasted". Version 0.2 (5 October 2026, at a Founder's direction, after the Spraying commission and the first Build Check). The eight rules are unchanged. New §3A says how the rules show in Pip's words. §6 adds what keeps the rules at commissioning, in research, at the build and in the app. §7 records three standing decisions a Founder made that day: products are named by type, exclusions are the Founders' alone, and every finding Pip may use is to reach gardeners. Version 0.1 created this Standard. A Founder agreed the eight rules in conversation on 5 October 2026 and directed that the Knowledge Curation System's documents be altered so the rules are followed throughout research and the preparation of dossiers, briefs and forms. The same day the Founder decided the three standing decisions on where a gardener is, garden companies and local months, and planting and moving (§7).
+**Revision Note:** Version 0.4 (6 October 2026, a Founder's decision after the first topic run this way): a Founder reads Pip's answers and approves once. §5 and §6 say so, and §7 records it as a standing decision. No rule changed. Version 0.3 (5 October 2026, at a Founder's direction, after reading Pip's first answers written under these rules). The answers named their sources inside each sentence and carried statements that were about the research, not about the plant. §1 now puts helping the gardener first. Rule 1 has the confidence label and the list of sources under the answer carry what the sentence used to, and has Pip say "one source says" where only one does. Rule 4 lists the source under the answer. §3 shows a limit only where it would change what a gardener does. §3A is rewritten to match, and §7 records both decisions, replacing "nothing wasted". Version 0.2 (5 October 2026, at a Founder's direction, after the Spraying commission and the first Build Check). The eight rules are unchanged. New §3A says how the rules show in Pip's words. §6 adds what keeps the rules at commissioning, in research, at the build and in the app. §7 records three standing decisions a Founder made that day: products are named by type, exclusions are the Founders' alone, and every finding Pip may use is to reach gardeners. Version 0.1 created this Standard. A Founder agreed the eight rules in conversation on 5 October 2026 and directed that the Knowledge Curation System's documents be altered so the rules are followed throughout research and the preparation of dossiers, briefs and forms. The same day the Founder decided the three standing decisions on where a gardener is, garden companies and local months, and planting and moving (§7).
 
 **Purpose:** To state, in one place, the rules that decide what Pip may say, so that the Research Origin Curator (ROC), the Knowledge Integration Technician (KIT) and Pip apply the same rules, and the Founders are asked only what the rules cannot settle.
 
@@ -117,7 +117,7 @@ The Founders decide:
 1. **These rules,** and what counts as a reliable source.
 2. **Scope.** Whether a subject belongs in Pip. This is decided when research is commissioned, not after it.
 3. **How Pip works.** Choices about Pip's behaviour that no research can answer. Each is decided once and recorded in section 7.
-4. **Approval.** Of each research record, and of Pip's words before they are published.
+4. **Approval.** One decision for each topic, given on Pip's answers. It approves the research record and Pip's words together (section 7, "One approval").
 
 The Founders are not asked:
 
@@ -126,7 +126,7 @@ The Founders are not asked:
 - to judge the research, its ratings or its defaults; or
 - to answer again a question already recorded in section 7.
 
-A Founder may still change, exclude or question anything at any approval.
+A Founder may still change, exclude or question anything when approving.
 
 # 6. How the Rules Are Kept
 
@@ -134,11 +134,10 @@ A Founder may still change, exclude or question anything at any approval.
 |---|---|---|
 | Commissioning | The Founders, ROC | Scope is settled before research starts. Only a Founder may exclude anything (ROC Operations Manual §3.5). |
 | Research | ROC | Sources are recorded with their web address. Everything a source says on the question is recorded, and checked for completeness (ROC Operations Manual §5.6A, §8.5A). Each finding says no more than its sources (§8.3) and is rated on its own evidence. |
-| Dossier | ROC | The dossier states what the rules give for each commissioned question (ROC Operations Manual §8.6A). It raises a Founder Decision Point only for a matter in section 5. |
-| Founder review | A Founder | Approves the research record. |
-| Build | KIT | Builds only from findings Pip may use, in plain words, without adding to them (PKR Standard §4.3). Uses every finding that helps a gardener, and lists any it leaves out with the reason (KIT Operations Manual §5.3). |
-| Build Check | ROC | Reopens the sources and checks every statement Pip will make against the finding and against what the pages say, and rechecks until none fails (ROC Operations Manual Chapter 14). |
-| Founder approval | A Founder | Reads Pip's words with the check result, and approves them for publishing. |
+| Dossier | ROC | The dossier states what the rules give for each commissioned question (ROC Operations Manual §8.6A). A question of scope, or of how Pip works, that the rules cannot settle is put to a Founder before the build, and recorded in section 7 if it will recur. |
+| Build | KIT | Builds draft records from the completed dossier, only from findings Pip may use, in plain words, without adding to them (PKR Standard §4.3). Uses every finding that helps a gardener, and lists any it leaves out with the reason (KIT Operations Manual §5.3). |
+| Build Check | ROC | Reopens the sources and checks every statement Pip will make against the finding and against what the pages say, and rechecks until none fails (ROC Operations Manual Chapter 14). What the check finds is corrected in the dossier and in Pip's words before a Founder sees either. |
+| Founder approval | A Founder | Reads Pip's answers, word for word as gardeners will see them, and approves once. That one decision approves the research record and Pip's words together. The research is then filed as an Approved Research Compilation and Pip's words are published. |
 | In the app | KIT | Every published statement helps a gardener and can be reached by one: questions are grouped by topic, and local statements are shown where the plant is (PKR Standard §5.7). |
 | After publishing | ROC, KIT | Where a source changes or is shown to be wrong, the finding goes back to the sources, and Pip's words follow. |
 
@@ -157,6 +156,7 @@ A standing decision is a Founder decision that applies to every later commission
 | **Exclusions.** Nothing is kept out of a commission unless a Founder directs it. The ROC does not write an exclusion of its own. | 5 October 2026 |
 | **What helps a gardener.** Every finding that helps a gardener understand, grow or care for the plant is to reach them through the app. A finding that is only about the research stays in the research record. A finding left out is listed with the reason. | 5 October 2026 |
 | **Sources under the answer.** Sources are listed under the answer for a gardener who wants them. Pip does not name them in its sentences, except where the name is the point. Where only one source says something, Pip says "one source says". | 5 October 2026 |
+| **One approval.** A Founder reads Pip's answers and approves once. The research, the build and the check of every statement against its sources are done before a Founder sees anything. The one approval covers the research record, Pip's words and publishing. A Founder is given one document, Pip's Answers, and one form with one question. | 6 October 2026 |
 
 No standing decision is open.
 

@@ -7,18 +7,20 @@
 **Document Title:** PIP Knowledge Integration Technician (KIT) Operations Manual
 **Volume:** Volume VI – Knowledge Curation System
 **Folder:** 03 – Operations Manuals
-**Version:** 0.9
+**Version:** 0.10
 **Status:** **Approved**
 **Owner:** The Founders
-**Last Updated:** 5 October 2026
+**Last Updated:** 6 October 2026
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md`
-**Purpose:** To define, at a procedural level, how the PIP Knowledge Integration Technician (KIT) carries out the responsibilities and authority the KIT Charter grants it — retrieving Founder-approved information from the Mother Information Library (MIL), building draft PIP Knowledge Records (PKRs), preparing them for Founder operational review, and publishing and maintaining approved PKRs within the Live Intelligence Library (LIL) — so that any AI instance, bootstrapped from this document chain alone, can perform KIT's work consistently.
+**Purpose:** To define, at a procedural level, how the PIP Knowledge Integration Technician (KIT) carries out the responsibilities and authority the KIT Charter grants it — receiving a completed Founder Review Dossier from ROC, or retrieving Founder-approved information from the Mother Information Library (MIL), building draft PIP Knowledge Records (PKRs), preparing them for Founder operational review, and publishing and maintaining approved PKRs within the Live Intelligence Library (LIL) — so that any AI instance, bootstrapped from this document chain alone, can perform KIT's work consistently.
 **Question This Document Answers:** How shall the PIP Knowledge Integration Technician carry out its Charter-granted responsibilities, step by step, from receiving approved information to publishing operational intelligence?
 
 **Related Documents:** PIP Knowledge Integration Technician (KIT) Charter; PIP Knowledge Record (PKR) Standard; Live Intelligence Library (LIL) Standard; Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Pip Runtime Architecture; PIP Knowledge Integration Workflow; PIP Research Origin Curator (ROC) Operations Manual (structural model for this document); PIP System Identity and Naming Standard (SINS-001).
 
 **Drafting Note:** This is the first version of this Manual. No KIT Operations Manual existed before this draft — the KIT Charter and PKR Standard both anticipated one without it being written. Rather than draft this speculatively, a real dry run was performed first: an AI instance, using only the Charter, the PKR Standard, the LIL Standard, the MIL Standard, the Pip Runtime Architecture and the Knowledge Integration Workflow, attempted to build one real draft Observation PKR from ARC-BUSHROSE-DEADWOOD-01 (`Working/AI Outputs/KIT_Dry_Run_BUSHROSE_DEADWOOD_01.md`). It produced a usable partial draft and stalled at six specific, concrete points. This Manual is written directly against those six stalls, using the same case as its worked example throughout, in the same spirit as how a real research commission on dead-versus-living wood shaped the Founder Review Dossier Standard and the Assessed Finding model earlier in this session. Sections below reference "the dry run" and "Gap 1" through "Gap 6" by number, matching that document.
+
+**Version 0.10 (approved by AskPIP Founder Authority, 6 October 2026):** on a Founder's decision to keep the one-approval pattern. KIT builds draft PKRs from a completed Founder Review Dossier that ROC passes to it, before the Founders decide (§3.1, §3.3, Chapter 4). Nothing built this way is published until the Founders approve and the ARC is archived (Chapter 16). Chapter 14 submits Pip's Answers in place of the Build Check Brief; Chapter 15 gives the three answers.
 
 **Version 0.9 (approved by AskPIP Founder Authority, 5 October 2026):** at a Founder's direction, after reading Pip's first answers under Version 0.8: statements are written in plain words for a gardener, sources are listed under the answer and not named in the sentence, and a finding that is only about the research is left out (§5.3, §7.7; Pip Knowledge Rules Version 0.3).
 
@@ -53,7 +55,7 @@ No rule about what a PKR may contain changes.
 
 This Manual establishes the procedures by which the PIP Knowledge Integration Technician (KIT) performs its role, as that role is defined by the KIT Charter.
 
-Where the KIT Charter establishes *what KIT is authorised and required to do*, this Manual establishes *how KIT does it* — the concrete, repeatable procedure a competent AI instance, bootstrapped from this document chain alone, follows to move Founder-approved information from the Mother Information Library into a published PIP Knowledge Record.
+Where the KIT Charter establishes *what KIT is authorised and required to do*, this Manual establishes *how KIT does it* — the concrete, repeatable procedure a competent AI instance, bootstrapped from this document chain alone, follows to turn a completed Founder Review Dossier, or Founder-approved information in the Mother Information Library, into a published PIP Knowledge Record.
 
 ## 1.2 Relationship to the PKR Standard
 
@@ -102,7 +104,9 @@ A draft PKR that is correct as far as it goes, but genuinely cannot be completed
 
 ## 3.1 When KIT's Work Begins
 
-KIT's work on a given piece of information begins only once ROC has archived it into the MIL as an ARC (or a Founder observation), per the KIT Charter and the PIP Knowledge Integration Workflow. KIT does not act on draft research, a submitted-but-undecided Founder Review Dossier, or any information ROC has not yet archived.
+KIT's work on a given piece of information begins when ROC passes it a completed Founder Review Dossier, with its Source Register, for the build (ROC Operations Manual §10.11), or when the information is already in the MIL as an ARC or a Founder observation. KIT builds draft PKRs from a completed dossier so that the Founders can see Pip's words when they decide.
+
+A PKR built from a dossier the Founders have not yet approved is a draft and stays one. It is published only after the Founders approve and ROC has archived the research as an ARC (Chapter 16). KIT does not act on research still in progress, on a dossier ROC has not completed and passed to it, or on source material of its own finding.
 
 ## 3.2 When KIT's Work Ends
 
@@ -110,9 +114,9 @@ KIT's responsibility for a given PKR ends at publication to the LIL, and resumes
 
 ## 3.3 What Triggers KIT to Begin Work on a New ARC
 
-Per the PIP Knowledge Integration Workflow, ROC notifies KIT when approved information becomes available for integration. On receiving that notification, KIT proceeds to Chapter 4.
+ROC tells KIT when a completed dossier is ready for the build, or when approved information in the MIL has changed. On receiving that notification, KIT proceeds to Chapter 4.
 
-Where no formal notification mechanism exists yet (as is currently the case — this is itself a gap, see §9.5), KIT proceeds directly from a Founder instruction identifying the ARC to work from, and records that instruction as the trigger in place of a formal ROC notification.
+Where no formal notification mechanism exists yet (as is currently the case — this is itself a gap, see §9.5), KIT proceeds directly from a Founder instruction identifying the dossier or ARC to work from, and records that instruction as the trigger in place of a formal ROC notification.
 
 ---
 
@@ -122,7 +126,9 @@ Where no formal notification mechanism exists yet (as is currently the case — 
 
 ## 4.1 Retrieval
 
-On receiving notification (§3.3), KIT shall retrieve the complete content of the relevant ARC(s) and any associated Founder observations from the MIL. KIT does not retrieve from, or treat as authoritative, any unapproved research, draft Founder Review Dossier, or source material outside the MIL, per the KIT Charter's Limitations of Authority.
+On receiving notification (§3.3), KIT shall retrieve the complete content of the completed Founder Review Dossier ROC has passed to it, or of the relevant ARC(s) in the MIL, with any associated Founder observations. KIT does not retrieve from, or treat as authoritative, research still in progress, a dossier ROC has not completed, or source material outside the dossier and the MIL, per the KIT Charter's Limitations of Authority.
+
+Wherever this Manual says "the ARC", it means the completed dossier where the build comes before approval. The dossier's findings, levels, Use statuses, conflicts and Source Register are what the ARC will hold once the Founders approve.
 
 ## 4.2 Review
 
@@ -130,7 +136,7 @@ Before drafting begins, KIT shall review the retrieved ARC(s) to identify:
 
 - every Assessed Finding the ARC contains, and its individual Evidence Confidence Level;
 - every Founder observation associated with the ARC;
-- any preserved limitations, uncertainty, or conditions attached to the Founder approval decision (per the ARC's Founder Decision Record);
+- any preserved limitations or uncertainty, any decision a Founder gave for the commission, and, for an approved ARC, any conditions in its Founder Decision Record;
 - each finding's Use status in the ARC (ROC Operations Manual §11.4A; Pip Knowledge Rules §3); and
 - any open questions the ARC explicitly leaves for later resolution.
 
@@ -254,11 +260,11 @@ For every draft PKR, KIT shall:
 1. identify every distinct claim the PKR's content comprises, per EAS §3.2's test (claims that could reasonably be supported to a different degree are separate claims, whether or not they trace to the same Assessed Finding or the same ARC);
 2. for each distinct claim, record its own Evidence Confidence Level directly, inherited from the specific Assessed Finding or Founder observation it traces to, and record it alongside that claim within the PKR's type-specific fields (for example, per row of an Observation PKR's Visual Criteria table, or per Condition of a Decision Logic PKR);
 3. record the PKR's Common Field "Evidence Confidence" as the single claim's level directly only where the PKR's content genuinely reduces to one claim; otherwise record it as **"See per-claim confidence"**, per PKR Standard §4.2 — never as an average, a round-up, or a lowest-applicable figure; and
-4. where the PKR's claims differ substantially in strength, present this to the Founders plainly in the Founder Review Rendering (Chapter 12) — for example, noting that the primary diagnostic signal is strongly evidenced while a secondary or fallback signal is not — so the Founders see the real shape of the evidence, not a single number standing in for all of it.
+4. where the PKR's claims differ substantially in strength, make this plain to the Founders through each statement's own confidence label in the Founder Review Rendering (Chapter 12) — for example, noting that the primary diagnostic signal is strongly evidenced while a secondary or fallback signal is not — so the Founders see the real shape of the evidence, not a single number standing in for all of it.
 
 ## 8.3 No Confidence-Driven Scope Decisions
 
-KIT shall not omit a claim from a PKR's content in order to produce a higher-looking confidence result, and — since v0.06 — has no reason to, because no blended figure exists for omission to protect. Where the Founders wish to narrow a PKR's scope (for example, deferring a weakly-evidenced claim to a future revision pending further research), that remains a Founder decision, presented as an option in the rendering (§8.2 item 4), not a KIT drafting choice. Leaving out a finding that is on record only is not such a choice: it follows the Pip Knowledge Rules.
+KIT shall not omit a claim from a PKR's content in order to produce a higher-looking confidence result, and — since v0.06 — has no reason to, because no blended figure exists for omission to protect. Where the Founders wish to narrow a PKR's scope (for example, deferring a weakly-evidenced claim to a future revision pending further research), that remains a Founder decision, put to a Founder before submission (Chapter 14), not a KIT drafting choice. Leaving out a finding that is on record only is not such a choice: it follows the Pip Knowledge Rules.
 
 ## 8.4 Decision Logic Content Requires Its Own Evidence
 
@@ -380,17 +386,18 @@ This allows Founder review of a PKR's substantive correctness to proceed in para
 
 ## 12.1 Purpose
 
-Every draft PKR submitted for Founder operational review shall be accompanied by a Founder Review Rendering, per PKR Standard §9.2.
+Every draft PKR submitted for Founder operational review shall be accompanied by a Founder Review Rendering, per PKR Standard §9.2. The renderings of a package are put before the Founders as section 1 of Pip's Answers, "What gardeners will see" (Chapter 14).
 
 ## 12.2 Content
 
-The rendering shall present the PKR's complete content in plain sentences and tables, without requiring the Founders to read or understand the underlying field structure, and shall explicitly state:
+The rendering shall present the PKR's complete content in plain sentences and tables, without requiring the Founders to read or understand the underlying field structure. Together with section 2 of Pip's Answers, it shall make plain to the Founders:
 
 - what the record is for, in one or two sentences a non-specialist could follow;
-- what evidence it rests on and how strong that evidence is, described in plain terms rather than only as a confidence label;
-- any preserved limitations or uncertainty, stated plainly rather than smoothed over;
-- any outstanding dependencies (Chapter 11) preventing publication even if the content itself is approved; and
-- any open decision the Founders need to make about this record specifically (for example, the confidence/scope choice from Chapter 8.2 item 4).
+- how strong the evidence is, through each statement's own confidence label;
+- any preserved limitations or uncertainty, stated plainly rather than smoothed over; and
+- any outstanding dependencies (Chapter 11) preventing publication even if the content itself is approved.
+
+An open decision about a record is put to a Founder before submission (Chapter 14) and is not left in the rendering. In Pip's Answers, section 1 carries the words and labels a gardener is shown. What a record is for, outstanding dependencies and anything not yet checked go in section 2, "What you should know". Fields a gardener never sees stay in the package, which is open to the Founders.
 
 ## 12.3 Content Equivalence
 
@@ -420,27 +427,38 @@ After its own quality review, KIT shall give the complete package, with its tria
 
 KIT shall correct any statement the Build Check fails, act on its notes, and return the changed statements for rechecking. This repeats until no statement fails. KIT shall not submit a package to the Founders while a failure is open.
 
-The package shall record what changed in each round, and shall list any correction to the research record that the Build Check proposes (ROC Operations Manual §14.4). A statement whose finding would no longer be available to Pip under a proposed correction is held out of the package.
+The package shall record what changed in each round. Where the Build Check corrects the dossier (ROC Operations Manual §14.4), KIT rebuilds the statements that rest on a corrected finding, so that every statement follows the dossier as corrected. A statement whose finding is no longer available to Pip is taken out of the package.
 
 ---
 
 # Part III — Founder Review and Publication
 
-# Chapter 14 — Submission for Founder Operational Review
+# Chapter 14 — Submission for Founder Review
 
-KIT submits the draft PKR and its Founder Review Rendering together with ROC's Build Check Brief, in which the rendering appears statement by statement with each result. Per the KIT Charter, KIT does not approve its own work and does not attempt to influence the Founders toward a predetermined outcome — where a live decision exists (Chapter 8.2 item 4, or an outstanding dependency per Chapter 11), KIT presents the options and their consequences without recommending one over another as though it were already decided.
+Once the Build Check is complete and no statement fails, KIT and ROC submit the package to the Founders as **Pip's Answers** and its one-question Form (pattern in `Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md`; ROC Operations Manual §10.6A).
+
+Section 1 of Pip's Answers is the Founder Review Rendering of every record in the package: every word gardeners would see, with its label and who sees it. KIT shall confirm, by script where it can, that section 1 and the draft records say the same thing, statement for statement.
+
+Per the KIT Charter, KIT does not approve its own work and does not attempt to influence the Founders toward a predetermined outcome. Where a live decision exists (Chapter 8.2 item 4, or an outstanding dependency per Chapter 11), it is put to a Founder before submission, with the options and their consequences and without recommending one as though it were already decided.
+
+No Build Check Brief or Build Check Form is prepared.
 
 # Chapter 15 — Founder Decision and Corrections
 
-Where the Founders approve a draft PKR (in whole, or with a specified narrowing per Chapter 8.2), KIT proceeds to Chapter 16.
+The Founders' one decision on Pip's Answers approves the research and Pip's words together (Pip Knowledge Rules §7, "One approval").
 
-Where the Founders decline, request amendment, or request the record be held pending dependency resolution, KIT does not silently revise the submitted draft. It implements the specific direction given, updates the record's version accordingly (Chapter 10.4), and resubmits, preserving the prior submission and decision for traceability — the same pattern already established for Founder Review Dossiers (FRDS §9.2).
+**Approve.** ROC archives the research as an ARC (ROC Operations Manual Chapter 12). KIT then proceeds to Chapter 16.
+
+**Approve with changes.** KIT makes the changes the Founder wrote. A statement whose meaning changed goes back to ROC to be checked again. KIT then proceeds as for "Approve", without a second submission, where the Founder gave the new wording or asked for a statement to be removed. Where ROC or KIT has to write new wording, or a finding or its level changes, the changed statements are shown to the Founder, and accepted, before anything is filed or published.
+
+**Not yet.** Nothing is published. KIT does not silently revise the submitted package. It implements the specific direction given, updates the record's draft version (Chapter 10.4), and resubmits through a revised Pip's Answers, preserving the prior submission and decision for traceability — the same pattern already established for Founder Review Dossiers (FRDS §9.2). Where the direction calls for more research, the package waits for ROC.
 
 # Chapter 16 — Publishing Approved PKRs
 
 KIT publishes only PKRs that:
 
-- have received explicit Founder operational approval;
+- have received explicit Founder approval (Chapter 15);
+- rest on research that ROC has archived in the MIL as an ARC following that approval;
 - have every dependency required by their type (PKR Standard §5) satisfied and itself published; and
 - have published content identical in meaning to their approved Founder Review Rendering (PKR Standard §9.3, Chapter 12.3).
 

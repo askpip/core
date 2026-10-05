@@ -1,5 +1,7 @@
 # Founder Review and Build Check Amendment Proposal
 
+> **Overtaken, 6 October 2026.** This proposal introduced the short Review Form and the Build Check. Both were adopted on 5 October 2026, and the review pattern was then changed again: a Founder now reads Pip's Answers and approves once (Pip Knowledge Rules §7, "One approval"; `Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md`). This draft is kept as a record and is not to be applied.
+
 ## Document Metadata
 
 **Document Title:** Founder Review and Build Check Amendment Proposal
