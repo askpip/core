@@ -7,10 +7,10 @@
 **Status:** Approved for use — the patterns here are required by Founder Review Dossier Standard §2.6 and ROC Operations Manual §10.6A and §14.5
 **Prepared By:** Research Origin Curator (ROC), at a Founder's request
 **Date:** 5 October 2026
-**Version:** 0.7
+**Version:** 0.8
 **Purpose:** To give the patterns for the four documents a Founder reads or fills in: the Decision Brief and Review Form that go with a Founder Review Dossier (FRD), and the Build Check Brief and Build Check Form that go with a package of PIP Knowledge Records (PKRs) built by the Knowledge Integration Technician (KIT).
 **Related Documents:** `Knowledge Curation System/Standards/Pip_Knowledge_Rules.md`; `Knowledge Curation System/Standards/Founder_Review_Dossier_Standard.md` §2.6 and §2.6A; `Knowledge Curation System/Operations Manuals/ROC_Operations_Manual.md` §8.6A, §11.4A, §11.4B and Chapter 14; `Shed/README.md` ("Fillable forms"); `AI/Skills/Garden_Shed_Operations_Skill.md`
-**Revision Note:** Version 0.7 (5 October 2026) brings the Build Check Brief and Form into line with the first Build Check as run, names the worked examples, and adds the checks that would have caught the faults that check found. Version 0.6 rebuilt the patterns on the Pip Knowledge Rules. Three short forms in a row asked a Founder to choose between answers the research had already settled. The Decision Brief now states what Pip would say under the rules, and the Review Form asks only what the rules leave to the Founders, which is usually the overall decision alone. Version 0.5 added the question test and the checks before delivery. Version 0.4 replaced the long form that asked for a decision on every finding, and added the Build Check documents.
+**Revision Note:** Version 0.8 (5 October 2026) adds §1A: from the next topic, on trial at a Founder's direction, a Founder reads Pip's answers and approves once. Version 0.7 (5 October 2026) brings the Build Check Brief and Form into line with the first Build Check as run, names the worked examples, and adds the checks that would have caught the faults that check found. Version 0.6 rebuilt the patterns on the Pip Knowledge Rules. Three short forms in a row asked a Founder to choose between answers the research had already settled. The Decision Brief now states what Pip would say under the rules, and the Review Form asks only what the rules leave to the Founders, which is usually the overall decision alone. Version 0.5 added the question test and the checks before delivery. Version 0.4 replaced the long form that asked for a decision on every finding, and added the Build Check documents.
 
 ---
 
@@ -24,6 +24,36 @@
 The dossier and the PKR package remain the governed records. The four documents here add no evidence, finding or confidence level. Where one differs from the record it summarises, the record governs.
 
 None of the four narrates how it was produced, addresses a reviewer by name, or asks about scheduling or what work comes next.
+
+## 1A. One Approval, on Trial
+
+**A Founder's decision, 5 October 2026, in chat: "yes let's try that."** From the next topic, a Founder reads one thing and approves once. This is a trial. The Standards and Operations Manuals are not changed for it; they are changed only if the Founders keep it. Where this section differs from §1 to §5 for a topic run under the trial, this section governs.
+
+**Why.** For Spraying a Founder was given a dossier, a Decision Brief, a Review Form, a PKR package, a Build Check Brief and a Build Check Form, and the dossier was reworked several times. What a Founder can judge best, and what gardeners actually see, is Pip's answers.
+
+**What still happens, without a Founder reading it.**
+
+1. The ROC researches and writes the dossier, with its Source Register (ROC Operations Manual, unchanged).
+2. KIT writes Pip's answers from the dossier's findings, under the Pip Knowledge Rules.
+3. The ROC runs the Build Check before a Founder sees anything: it reopens every source and checks every statement, in sessions that took no part in writing them (ROC Operations Manual Chapter 14). What the check finds is corrected in the dossier and in Pip's words first.
+4. The dossier, the package and the check results are filed where a Founder can open them. None needs reading.
+
+**What a Founder is given.** One document and one form, in the Shed.
+
+*Pip's Answers — <topic>.* In this order:
+
+1. **What gardeners will see.** Every question and every statement, word for word as the app shows it, with its label (confidence, Precaution, Sources disagree, No source found) and who sees it where that is not everyone. Nothing else in this section.
+2. **What you should know.** A short list, only of things a Founder would want to know before saying yes: where experts disagree and which way Pip leans; what Pip could not find; anything left out and why. No finding numbers, no method.
+3. **The check, in one line.** How many sources were reopened, and that every statement passed.
+4. **Where the detail is.** File paths only.
+
+*Pip's Answers Form — <topic>.* One question: **Approve** / **Approve with changes** (a box to write them) / **Not yet** (a box to say why). Plus the optional "Anything else" box. The question test (§3A) and the checks in §3B apply.
+
+**What the one approval covers.** The research becomes an Approved Research Compilation, Pip's words are approved, and KIT publishes them. It is the Founder approval that the ROC Operations Manual §11 and Chapter 14 each require, given once. A change a Founder writes on the form is made, checked again where it alters what Pip says, and then published without a second form unless the change is one a Founder would want to see first.
+
+**File names.** `<PKR package ID>_Pips_Answers.md` and `<PKR package ID>_Pips_Answers_Form.md`, in `Working/Founder Review/`.
+
+**After the first topic.** The Founders are asked one question: keep it, change it, or go back.
 
 ## 2. Decision Brief
 
