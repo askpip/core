@@ -1,8 +1,8 @@
-# PKR Submission Package — Source PKRs for Spraying (v0.1, Draft)
+# PKR Submission Package — Source PKRs for Spraying (v1.0, Published)
 
-**Draft.** Not approved and not published. Supports `PKR-CGD-BUSHROSE-SPRAYING-01-submission.md`. Built by KIT on 5 October 2026 from the Source Register of `ARC-BUSHROSE-SPRAYING-01` (§8). Only sources that at least one approved finding relies on get a Source PKR.
+**Published 5 October 2026**, with `PKR-CGD-BUSHROSE-SPRAYING-01-submission.md`, on a Founder's approval of that package (Build Check Form, 5 October 2026). Built by KIT on 5 October 2026 from the Source Register of `ARC-BUSHROSE-SPRAYING-01` (v1.1, §8). Only sources that at least one approved finding relies on get a Source PKR.
 
-**Matching (KIT PKR Build Skill §4):** every relied-on source was matched against the Published Source PKRs by web address. 6 match and are reused (Part B: version bumped and the new MIL references added on approval). 29 have no match and get new Source PKRs (Part A). Matching was by address only; a page that moved to a new address would appear here as new. Reserved range: PKR-SRC-000239 to PKR-SRC-000267.
+**Matching (KIT PKR Build Skill §4):** every relied-on source was matched against the Published Source PKRs by web address. 6 match and are reused (Part B: a new version with the new MIL references added; the old version retired). 29 have no match and get new Source PKRs (Part A). Matching was by address only; a page that moved to a new address would appear here as new. IDs: PKR-SRC-000239 to PKR-SRC-000267.
 
 ## Part A — New Source PKRs
 
@@ -13,10 +13,10 @@
 | PKR ID | PKR-SRC-000239 |
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — "Rose black spot: Symptoms & Control" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -33,10 +33,10 @@
 | PKR ID | PKR-SRC-000240 |
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — "Rose powdery mildew: Symptoms & Control" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -53,10 +53,10 @@
 | PKR ID | PKR-SRC-000241 |
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — "Rose rust: Symptoms & Control" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -73,10 +73,10 @@
 | PKR ID | PKR-SRC-000242 |
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — "Rose aphids" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -93,10 +93,10 @@
 | PKR ID | PKR-SRC-000243 |
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — "Understanding and avoiding chemical use" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -113,10 +113,10 @@
 | PKR ID | PKR-SRC-000244 |
 | PKR Type | Source PKR |
 | Title | J.F. Karlik, M. Al Rwahnih and D.A.G. Golino — "Roses: Diseases and Abiotic Disorders" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -133,10 +133,10 @@
 | PKR ID | PKR-SRC-000245 |
 | PKR Type | Source PKR |
 | Title | UC Statewide IPM Program — "Black Spot" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -153,10 +153,10 @@
 | PKR ID | PKR-SRC-000246 |
 | PKR Type | Source PKR |
 | Title | University of Maryland Extension — "Black Spot Disease of Roses" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -173,10 +173,10 @@
 | PKR ID | PKR-SRC-000247 |
 | PKR Type | Source PKR |
 | Title | Adrian Crabb and Brian Hudelson, University of Wisconsin-Madison Extension — "Black Spot" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -193,10 +193,10 @@
 | PKR ID | PKR-SRC-000248 |
 | PKR Type | Source PKR |
 | Title | Gary W. Moorman, Penn State Extension — "Rose Diseases (Outdoors)" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -213,10 +213,10 @@
 | PKR ID | PKR-SRC-000249 |
 | PKR Type | Source PKR |
 | Title | Janet McLeod Scott and Joey Williamson, Clemson Home & Garden Information Center — "Rose Insects & Related Pests" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -233,10 +233,10 @@
 | PKR ID | PKR-SRC-000250 |
 | PKR Type | Source PKR |
 | Title | Gaye Hammond — "Fungicides Made Simple" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -253,10 +253,10 @@
 | PKR ID | PKR-SRC-000251 |
 | PKR Type | Source PKR |
 | Title | Zlesak, D.C., Whitaker, V.M., George, S. and Hokanson, S.C. (2010) — "Evaluation of Roses from the Earth-Kind® Trials: Black Spot (*Diplocarpon rosae* Wolf) Resistance and Ploidy" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -273,10 +273,10 @@
 | PKR ID | PKR-SRC-000252 |
 | PKR Type | Source PKR |
 | Title | The New Zealand Rose Society — "Auckland Botanic Gardens" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -293,10 +293,10 @@
 | PKR ID | PKR-SRC-000253 |
 | PKR Type | Source PKR |
 | Title | Auckland Botanic Gardens — "Roses" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -313,10 +313,10 @@
 | PKR ID | PKR-SRC-000254 |
 | PKR Type | Source PKR |
 | Title | Bodley, E., Lollback, P., Hobbs, J., Brewer, M. and Stanley, R. (2022) — "Growing roses without chemicals: transitioning the collection at Auckland Botanic Gardens (New Zealand) 2000–2020" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -333,10 +333,10 @@
 | PKR ID | PKR-SRC-000255 |
 | PKR Type | Source PKR |
 | Title | Hayden Foulds, GrownUps New Zealand — "Diseases of Roses" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -353,10 +353,10 @@
 | PKR ID | PKR-SRC-000256 |
 | PKR Type | Source PKR |
 | Title | Dr Dan Blanchon (Unitec), Royal New Zealand Institute of Horticulture Plant Doctor — "Rust and black spot on roses" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -373,10 +373,10 @@
 | PKR ID | PKR-SRC-000257 |
 | PKR Type | Source PKR |
 | Title | Environmental Protection Authority — "Bees and other pollinators" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -393,10 +393,10 @@
 | PKR ID | PKR-SRC-000258 |
 | PKR Type | Source PKR |
 | Title | Luke Harrison, Consumer NZ — "Bees and insecticides" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -413,17 +413,17 @@
 | PKR ID | PKR-SRC-000259 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Sophie Thomson) — "Looking After Roses" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
 
 - **Source Type:** Public broadcaster, Australia
-- **Source Identity:** ABC Gardening Australia (Sophie Thomson), "Looking After Roses", 2 July 2010. Public broadcaster, Australia. https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:GA-LOOK)
-- **MIL References:** ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-26 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)
+- **Source Identity:** ABC Gardening Australia (Sophie Thomson), "Looking After Roses", 3 July 2010. Public broadcaster, Australia. https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:GA-LOOK)
+- **MIL References:** ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-26 (Low); ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)
 - **Relevance:** Supports the findings listed above.
 
 ### PKR-SRC-000260
@@ -433,10 +433,10 @@
 | PKR ID | PKR-SRC-000260 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Jane Edmanson) — "How to Prune Roses" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -453,10 +453,10 @@
 | PKR ID | PKR-SRC-000261 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Sophie Thomson) — "Rose Pruning" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -473,10 +473,10 @@
 | PKR ID | PKR-SRC-000262 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Colin Campbell) — "Black Spot Control" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -493,10 +493,10 @@
 | PKR ID | PKR-SRC-000263 |
 | PKR Type | Source PKR |
 | Title | Ross Roses — "Spraying Roses" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -513,17 +513,17 @@
 | PKR ID | PKR-SRC-000264 |
 | PKR Type | Source PKR |
 | Title | South Pacific Roses — "Spraying Your Roses" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
 
 - **Source Type:** Commercial (rose nursery), New Zealand
 - **Source Identity:** South Pacific Roses, "Spraying Your Roses", date not shown. Commercial (rose nursery), New Zealand. https://southpacificroses.co.nz/spraying-your-roses/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:SPR)
-- **MIL References:** ARC-BUSHROSE-SPRAYING-01, AF-7 (High); ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-13 (Low); ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-26 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-28 (Low); ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-41 (Low); ARC-BUSHROSE-SPRAYING-01, AF-43 (Low)
+- **MIL References:** ARC-BUSHROSE-SPRAYING-01, AF-7 (High); ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-13 (Low); ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-26 (Low); ARC-BUSHROSE-SPRAYING-01, AF-28 (Low); ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-41 (Low); ARC-BUSHROSE-SPRAYING-01, AF-43 (Low)
 - **Relevance:** Supports the findings listed above.
 
 ### PKR-SRC-000265
@@ -533,17 +533,17 @@
 | PKR ID | PKR-SRC-000265 |
 | PKR Type | Source PKR |
 | Title | Treloar Roses — "Black Spot" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
 
 - **Source Type:** Commercial (rose nursery), Australia
 - **Source Identity:** Treloar Roses, "Black Spot", date not shown. Commercial (rose nursery), Australia. https://www.treloarroses.com.au/Black-Spot-Roses, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:TRE-BS)
-- **MIL References:** ARC-BUSHROSE-SPRAYING-01, AF-2 (High); ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-26 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High); ARC-BUSHROSE-SPRAYING-01, AF-33 (Low); ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)
+- **MIL References:** ARC-BUSHROSE-SPRAYING-01, AF-2 (High); ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-26 (Low); ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High); ARC-BUSHROSE-SPRAYING-01, AF-33 (Low); ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)
 - **Relevance:** Supports the findings listed above.
 
 ### PKR-SRC-000266
@@ -553,10 +553,10 @@
 | PKR ID | PKR-SRC-000266 |
 | PKR Type | Source PKR |
 | Title | Tui Garden — "My roses have black spot, what can I do?" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -573,10 +573,10 @@
 | PKR ID | PKR-SRC-000267 |
 | PKR Type | Source PKR |
 | Title | Eutrema (Russell) — "Controlling Black Spot on Roses; unleashing the power of Lime Sulphur" |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | Supports PKR-CGD-000009 to PKR-CGD-000015 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -588,9 +588,9 @@
 
 ## Part B — Existing Source PKRs reused
 
-On approval each gets a new version with these MIL references added. Nothing else in the record changes.
+Each has a new Published version with these MIL references added, and its earlier version is Retired. Nothing else in the record changed.
 
-| Source PKR | Title | Version now | Version on approval | Register code | MIL references to add |
+| Source PKR | Title | Earlier version (Retired) | Version now (Published) | Register code | MIL references added |
 |---|---|---|---|---|---|
 | PKR-SRC-000215 | UC Statewide IPM Program — "Roses: Insects and Mites" | 1.0 | 1.1 | SPRAYING:UCIPM-INS | ARC-BUSHROSE-SPRAYING-01, AF-1 (High); ARC-BUSHROSE-SPRAYING-01, AF-6 (High); ARC-BUSHROSE-SPRAYING-01, AF-22 (High); ARC-BUSHROSE-SPRAYING-01, AF-23 (Moderate); ARC-BUSHROSE-SPRAYING-01, AF-24 (High); ARC-BUSHROSE-SPRAYING-01, AF-32 (High) |
 | PKR-SRC-000137 | University of Maryland Extension — Rose: Identify and Manage Problems | 1.1 | 1.2 | SPRAYING:UMD-PROB | ARC-BUSHROSE-SPRAYING-01, AF-2 (High); ARC-BUSHROSE-SPRAYING-01, AF-6 (High); ARC-BUSHROSE-SPRAYING-01, AF-22 (High); ARC-BUSHROSE-SPRAYING-01, AF-24 (High); ARC-BUSHROSE-SPRAYING-01, AF-32 (High) |

@@ -8,7 +8,7 @@
 
 **Folder:** 04 – Standards
 
-**Version:** 0.2
+**Version:** 0.3
 
 **Status:** Approved
 
@@ -20,7 +20,7 @@
 
 **Approved By:** AskPIP Founder Authority
 
-**Revision Note:** Version 0.2 (5 October 2026, at a Founder's direction, after the Spraying commission and the first Build Check). The eight rules are unchanged. New §3A says how the rules show in Pip's words. §6 adds what keeps the rules at commissioning, in research, at the build and in the app. §7 records three standing decisions a Founder made that day: products are named by type, exclusions are the Founders' alone, and every finding Pip may use is to reach gardeners. Version 0.1 created this Standard. A Founder agreed the eight rules in conversation on 5 October 2026 and directed that the Knowledge Curation System's documents be altered so the rules are followed throughout research and the preparation of dossiers, briefs and forms. The same day the Founder decided the three standing decisions on where a gardener is, garden companies and local months, and planting and moving (§7).
+**Revision Note:** Version 0.3 (5 October 2026, at a Founder's direction, after reading Pip's first answers written under these rules). The answers named their sources inside each sentence and carried statements that were about the research, not about the plant. §1 now puts helping the gardener first. Rule 1 has the confidence label and the list of sources under the answer carry what the sentence used to, and has Pip say "one source says" where only one does. Rule 4 lists the source under the answer. §3 shows a limit only where it would change what a gardener does. §3A is rewritten to match, and §7 records both decisions, replacing "nothing wasted". Version 0.2 (5 October 2026, at a Founder's direction, after the Spraying commission and the first Build Check). The eight rules are unchanged. New §3A says how the rules show in Pip's words. §6 adds what keeps the rules at commissioning, in research, at the build and in the app. §7 records three standing decisions a Founder made that day: products are named by type, exclusions are the Founders' alone, and every finding Pip may use is to reach gardeners. Version 0.1 created this Standard. A Founder agreed the eight rules in conversation on 5 October 2026 and directed that the Knowledge Curation System's documents be altered so the rules are followed throughout research and the preparation of dossiers, briefs and forms. The same day the Founder decided the three standing decisions on where a gardener is, garden companies and local months, and planting and moving (§7).
 
 **Purpose:** To state, in one place, the rules that decide what Pip may say, so that the Research Origin Curator (ROC), the Knowledge Integration Technician (KIT) and Pip apply the same rules, and the Founders are asked only what the rules cannot settle.
 
@@ -43,6 +43,8 @@
 
 # 1. The Principle
 
+**Pip exists to help gardeners understand, grow and care for their plants.** Everything Pip says must help a gardener do that. What is only about the research (who said it, how many sources, how they were weighed) stays in the research record and in the list of sources under the answer.
+
 Pip presents researched material and adds nothing of its own.
 
 Neither Pip, the ROC nor KIT decides what is true. What Pip says is what reputable sources say, weighed by the rules in this Standard. The Founders set the rules. The ROC and KIT apply them.
@@ -51,10 +53,10 @@ If something Pip says is not true, the only acceptable cause is that reputable s
 
 # 2. The Rules
 
-1. **Several reputable sources.** Pip says what several reputable, independent sources agree on. Pip says that sources say it, shows how strong the agreement is, and never presents it as certain.
+1. **Several reputable sources.** Pip says what several reputable, independent sources agree on, in plain words. A confidence label shows how strong the agreement is, and the sources are listed under the answer. Where only one source says something, Pip says "one source says".
 2. **Disagreement.** Where sources disagree, Pip leads with the better-supported view and says who disagrees. Where the evidence is evenly split, Pip gives both views and leads with neither.
 3. **Ranges.** Where sources give different months or amounts, Pip shows the range. Pip never picks one figure.
-4. **Local information.** Local information is shown only to gardeners in that place, with the source named. One reliable source is enough. Where only one source was found, Pip says so.
+4. **Local information.** Local information is shown only to gardeners in that place, with its source listed under the answer. One reliable source is enough. Where only one source was found, Pip says so.
 5. **Gaps.** Where no source was found, Pip says so and points the gardener to local expert help, such as a plant society or a botanic garden.
 6. **The plant decides, not the calendar.** Months are only a guide, because temperatures and frosts vary from year to year. A check on the plant is more accurate, and it decides whether to act.
 7. **Safety.** Where sources give a safety precaution, for the gardener or for the plant, Pip always includes it, even where only one source gives it. Where a product's label or the law governs how something is used, Pip tells the gardener to follow the label and the local rules, and gives no instruction of its own in their place.
@@ -67,8 +69,8 @@ The ROC rates each finding under the Evidence Assessment Standard. The rating de
 | Evidence Confidence Level | For Pip | Rule |
 |---|---|---|
 | Very High, High | Pip may use it. | 1 |
-| Moderate | Pip may use it, with its limits stated. | 1, 2 |
-| Low, Very Low: local information from one reliable source, or a local month from one garden company | Pip may use it for that place, with the source named, and says that only one source was found. | 4 |
+| Moderate | Pip may use it. A limit is shown with it where the limit would change what a gardener does. | 1, 2 |
+| Low, Very Low: local information from one reliable source, or a local month from one garden company | Pip may use it for that place, and says that only one source was found. | 4 |
 | Low, Very Low: a precaution, which only asks the gardener to take more care to protect themselves or the plant | Pip may use it. | 7 |
 | Low, Very Low: a record that no source was found | Pip may use it only to say the gap exists. | 5 |
 | Low, Very Low: anything else | Kept on record. Pip does not use it. | 1 |
@@ -80,16 +82,20 @@ A rating measures how strong the evidence is. It does not measure how much a fin
 
 # 3A. How the Rules Show in Pip's Words
 
-These follow from the rules and from the table above. They apply to every statement Pip makes.
+These apply to every statement Pip makes.
 
-- **Who says it (rule 1).** "Sources say" means at least two independent sources say that thing. Where one source says it, Pip names the source.
-- **Limits (the table above).** A statement from a Moderate finding is shown with the finding's limits, in plain words, with the statement.
-- **Disagreement (rule 2).** The statement names who holds each view. It is marked "Sources disagree" in place of a confidence level.
-- **Gaps (rule 5).** The statement says no source was found and points to local expert help. It is marked "No source found".
+- **It helps a gardener (§1).** Each statement tells a gardener something they can do, look for or decide. A statement that is only about the research is left out of Pip and stays in the research record.
+- **Plain words.** Pip says the thing itself: "Remove infected leaves as soon as you see them", not "Sources say to remove infected leaves".
+- **Sources go under the answer (rule 1).** Pip does not name sources in its sentences. The exception is where the name is the point, as when one well-known body disagrees with the rest.
+- **One source (rule 1).** Where only one source says something, Pip says "one source says". The source is in the list under the answer.
+- **How strong (rule 1).** The confidence label carries it. Pip does not repeat it in words.
+- **Limits.** A limit is shown under a statement only where it would change what a gardener does.
+- **Disagreement (rule 2).** The statement says that experts disagree and what each side says. It is marked "Sources disagree" in place of a confidence level.
+- **Gaps (rule 5).** The statement says Pip couldn't find it and points to local expert help. It is marked "No source found".
 - **Precautions (rule 7).** A precaution is marked as one, with its confidence level, so that a Low level is not read as a reason to ignore it.
-- **Local information (rule 4).** A local statement is shown only where the plant is, and names its source.
-- **Each statement stands alone.** A gardener may see one statement without its neighbours, so each makes sense by itself.
-- **Pip may say less than a finding, never more.** Where the sources say less than a finding's wording, Pip follows the sources.
+- **Local information (rule 4).** A local statement is shown only where the plant is.
+- **Each statement stands alone.** A gardener may see one statement without its neighbours.
+- **Pip may say less than a finding, never more.**
 
 # 4. Reliable Sources
 
@@ -130,10 +136,10 @@ A Founder may still change, exclude or question anything at any approval.
 | Research | ROC | Sources are recorded with their web address. Everything a source says on the question is recorded, and checked for completeness (ROC Operations Manual §5.6A, §8.5A). Each finding says no more than its sources (§8.3) and is rated on its own evidence. |
 | Dossier | ROC | The dossier states what the rules give for each commissioned question (ROC Operations Manual §8.6A). It raises a Founder Decision Point only for a matter in section 5. |
 | Founder review | A Founder | Approves the research record. |
-| Build | KIT | Builds only from findings Pip may use, and words them without adding to them (PKR Standard §4.3). Uses every such finding, or lists it with the reason it was left out (KIT Operations Manual §5.3). |
+| Build | KIT | Builds only from findings Pip may use, in plain words, without adding to them (PKR Standard §4.3). Uses every finding that helps a gardener, and lists any it leaves out with the reason (KIT Operations Manual §5.3). |
 | Build Check | ROC | Reopens the sources and checks every statement Pip will make against the finding and against what the pages say, and rechecks until none fails (ROC Operations Manual Chapter 14). |
 | Founder approval | A Founder | Reads Pip's words with the check result, and approves them for publishing. |
-| In the app | KIT | Every published statement can be reached by a gardener: questions are grouped by topic, and local statements are shown where the plant is (PKR Standard §5.7). |
+| In the app | KIT | Every published statement helps a gardener and can be reached by one: questions are grouped by topic, and local statements are shown where the plant is (PKR Standard §5.7). |
 | After publishing | ROC, KIT | Where a source changes or is shown to be wrong, the finding goes back to the sources, and Pip's words follow. |
 
 # 7. Standing Decisions
@@ -149,7 +155,8 @@ A standing decision is a Founder decision that applies to every later commission
 | **Planting and moving.** Advice on planting and on moving a plant belongs in Pip where the research provides it. | 5 October 2026 |
 | **Products.** Pip names a type of spray or other product as the sources name it. Pip never names a brand or gives a mixing amount. | 5 October 2026 |
 | **Exclusions.** Nothing is kept out of a commission unless a Founder directs it. The ROC does not write an exclusion of its own. | 5 October 2026 |
-| **Nothing wasted.** Every finding Pip may use is to reach gardeners through the app. A finding left out is listed with the reason. | 5 October 2026 |
+| **What helps a gardener.** Every finding that helps a gardener understand, grow or care for the plant is to reach them through the app. A finding that is only about the research stays in the research record. A finding left out is listed with the reason. | 5 October 2026 |
+| **Sources under the answer.** Sources are listed under the answer for a gardener who wants them. Pip does not name them in its sentences, except where the name is the point. Where only one source says something, Pip says "one source says". | 5 October 2026 |
 
 No standing decision is open.
 

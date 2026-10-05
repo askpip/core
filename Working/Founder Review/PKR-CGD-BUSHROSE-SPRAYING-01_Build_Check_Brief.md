@@ -1,5 +1,7 @@
 # Build Check Brief — Spraying: Seven Question Answers
 
+> **Decided and published, 5 October 2026.** A Founder approved this on the Build Check Form, then asked for Pip's words to be put in plain language before publishing, with sources listed under each answer and not named in the sentences. **The wording in section 2 below is the earlier version and is not what gardeners see.** The published wording is in `Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md`, section 12: 51 statements in seven answers, checked again before publishing (its section 13). The corrections to the research record in section 4 are made in `ARC-BUSHROSE-SPRAYING-01` Version 1.1, section 4B. This Brief is kept as the record of what was approved.
+
 This Brief goes with the draft PKR package `Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md` (version 0.3). It adds no evidence and changes no finding. Where it differs from the package, the package governs.
 
 ## 1. What this is

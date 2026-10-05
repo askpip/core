@@ -1,0 +1,130 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000012",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "If I spray, when and how often?",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000073",
+      "PKR-SRC-000097",
+      "PKR-SRC-000243",
+      "PKR-SRC-000244",
+      "PKR-SRC-000246",
+      "PKR-SRC-000247",
+      "PKR-SRC-000248",
+      "PKR-SRC-000250",
+      "PKR-SRC-000254",
+      "PKR-SRC-000255",
+      "PKR-SRC-000257",
+      "PKR-SRC-000258",
+      "PKR-SRC-000263",
+      "PKR-SRC-000264",
+      "PKR-SRC-000265"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000009"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000011"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000014"
+      }
+    ],
+    "preserved_uncertainty": "Sources disagree on spraying regularly through the season or only when a problem appears, and neither view is clearly better supported (C-2). Stated intervals differ by product and are set by the label (C-7). The season window is stated for regular-spraying programmes only. No New Zealand source compares regions (R-4).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "If I spray, when and how often?",
+    "label": null,
+    "items": [
+      {
+        "text": "Fungicides protect leaves before infection. They generally don't cure it, so timing matters.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-7"
+        ]
+      },
+      {
+        "text": "Experts disagree on when to spray. Some spray regularly through the growing season to prevent disease. Others spray only when there is a problem.",
+        "kind": "disagreement",
+        "trace": [
+          "C-2",
+          "rule 2"
+        ]
+      },
+      {
+        "text": "If you spray regularly, start with the first new leaves after winter and carry on through the growing season, or until wet weather passes.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-10"
+        ]
+      },
+      {
+        "text": "Repeat intervals range from weekly to about every two weeks. The product label sets the interval.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-9",
+          "C-7"
+        ]
+      },
+      {
+        "text": "One source says roses may need spraying more often in a bad outbreak. Another says to consider spraying ahead of disease where a rose has had black spot badly and a wet season is forecast.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-11"
+        ]
+      },
+      {
+        "text": "Alternate between types of fungicide, so the disease is slower to become resistant to them.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-12"
+        ]
+      },
+      {
+        "text": "I couldn't find anything that compares how much spraying is needed in different parts of New Zealand. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "R-4",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+        "kind": "framing",
+        "trace": [
+          "rule 7",
+          "ARC-BUSHROSE-SPRAYING-01 AF-30",
+          "ARC-BUSHROSE-SPRAYING-01 AF-34"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "spraying",
+        "topic_title": "Spraying",
+        "order": 4
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}

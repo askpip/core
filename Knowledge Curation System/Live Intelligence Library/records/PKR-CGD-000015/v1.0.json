@@ -1,0 +1,94 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000015",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "What should I do about aphids?",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000073",
+      "PKR-SRC-000097",
+      "PKR-SRC-000137",
+      "PKR-SRC-000215",
+      "PKR-SRC-000242",
+      "PKR-SRC-000243",
+      "PKR-SRC-000247",
+      "PKR-SRC-000249",
+      "PKR-SRC-000250",
+      "PKR-SRC-000257",
+      "PKR-SRC-000258",
+      "PKR-SRC-000263",
+      "PKR-SRC-000265"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000004"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000009"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000014"
+      }
+    ],
+    "preserved_uncertainty": "Soaps and oils for aphids are stated by two extension services and one nursery. Sprays for other pests (spider mites, scale, thrips, caterpillars, beetles) were outside the commissioned questions and are not covered (R-6).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "What should I do about aphids?",
+    "label": null,
+    "items": [
+      {
+        "text": "Put up with a few aphids, hose them off, and let their natural enemies deal with them. One source also says to squash them by hand.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-22"
+        ]
+      },
+      {
+        "text": "Insecticidal soaps and horticultural oils can be used on aphids. One source says they have only a moderate effect on aphids' natural enemies.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-23"
+        ]
+      },
+      {
+        "text": "Broad-spectrum and higher-toxicity insecticides can harm natural enemies, and that can bring pests back.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-24"
+        ]
+      },
+      {
+        "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+        "kind": "framing",
+        "trace": [
+          "rule 7",
+          "ARC-BUSHROSE-SPRAYING-01 AF-30",
+          "ARC-BUSHROSE-SPRAYING-01 AF-34"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "spraying",
+        "topic_title": "Spraying",
+        "order": 7
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}

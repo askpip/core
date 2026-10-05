@@ -1,0 +1,167 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000013",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "What about a winter spray after pruning?",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000073",
+      "PKR-SRC-000097",
+      "PKR-SRC-000157",
+      "PKR-SRC-000239",
+      "PKR-SRC-000241",
+      "PKR-SRC-000243",
+      "PKR-SRC-000244",
+      "PKR-SRC-000246",
+      "PKR-SRC-000247",
+      "PKR-SRC-000250",
+      "PKR-SRC-000253",
+      "PKR-SRC-000255",
+      "PKR-SRC-000257",
+      "PKR-SRC-000258",
+      "PKR-SRC-000259",
+      "PKR-SRC-000260",
+      "PKR-SRC-000261",
+      "PKR-SRC-000263",
+      "PKR-SRC-000264",
+      "PKR-SRC-000265",
+      "PKR-SRC-000266",
+      "PKR-SRC-000267"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000006"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000009"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000014"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-SGT-000001"
+      }
+    ],
+    "preserved_uncertainty": "New Zealand and Australian sources describe a winter spray; the UK and US institutional pages consulted don't describe a spray after pruning (C-5). No source tests whether it makes a difference (R-2). Sources differ on the order and timing of the winter sprays (C-6). Most of the sources are commercial, and the New Zealand Rose Society article dates from 1996. What the winter spray is said to achieve (AF-27) and that copper washes off in rain (AF-43) are on record only. Where the spray goes (AF-26) is on record only, at Low, after a correction to the research record.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "What about a winter spray after pruning?",
+    "label": null,
+    "items": [
+      {
+        "text": "Rose sources in New Zealand and Australia describe a clean-up spray in winter, usually after pruning. Their advice ranges from highly recommended to optional.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ",
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-25"
+        ]
+      },
+      {
+        "text": "For the winter clean-up spray, New Zealand and Australian sources name lime sulphur, copper and a spraying oil.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ",
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-37",
+          "ARC-BUSHROSE-SPRAYING-01 AF-36",
+          "ARC-BUSHROSE-SPRAYING-01 AF-38"
+        ]
+      },
+      {
+        "text": "For copper, sources differ on timing: after winter pruning, through winter into early spring, or at the first sign of spring growth.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ",
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-36",
+          "C-6"
+        ]
+      },
+      {
+        "text": "One source says not to use lime sulphur and copper sprays within two weeks of each other.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "NZ",
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-28"
+        ]
+      },
+      {
+        "text": "One source says never to mix lime sulphur and oil, or spray them together.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "NZ",
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-41"
+        ]
+      },
+      {
+        "text": "I couldn't find a test of whether a winter spray makes a difference. A local rose society is the place to ask what works near you.",
+        "kind": "gap",
+        "place": [
+          "NZ",
+          "AU"
+        ],
+        "trace": [
+          "R-2",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "The UK and US university and horticultural-society pages I checked don't describe a spray after pruning. Several advise clearing fallen leaves in autumn or winter. A local rose society is the place to ask.",
+        "kind": "gap",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-29",
+          "ARC-BUSHROSE-SPRAYING-01 AF-14",
+          "C-5"
+        ]
+      },
+      {
+        "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+        "kind": "framing",
+        "trace": [
+          "rule 7",
+          "ARC-BUSHROSE-SPRAYING-01 AF-30",
+          "ARC-BUSHROSE-SPRAYING-01 AF-34"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "spraying",
+        "topic_title": "Spraying",
+        "order": 5
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}

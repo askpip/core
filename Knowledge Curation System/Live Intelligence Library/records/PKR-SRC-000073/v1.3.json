@@ -1,0 +1,51 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000073",
+  "version": "1.3",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Clemson HGIC — Rose Diseases (HGIC 2106)",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-4 (High)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-10 (High)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-20 (High)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-18 (Moderate) (added v1.2, 2 October 2026)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-17 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-21 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-29 (Low)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-39 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-40 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-44 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-45 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Clemson HGIC, Nancy Doubrava, James H. Blake and Joey Williamson, \"Rose Diseases\" (HGIC 2106); web address <https://hgic.clemson.edu/factsheet/rose-diseases/>, accessed 29 September 2026; FRD code CLE-DIS",
+    "url": "https://hgic.clemson.edu/factsheet/rose-diseases/",
+    "register_code": null,
+    "relevance": "Supports AF-2, AF-4, AF-15, AF-16 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quotes found: canker colour range; 1:9 bleach disinfection; rose rosette material burned or bagged."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.3: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:CLEM-DIS). Nothing else changed. Version 1.2 retired."
+  }
+}

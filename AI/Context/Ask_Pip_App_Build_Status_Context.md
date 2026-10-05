@@ -4,7 +4,7 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.3
+**Version:** 0.4
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
@@ -112,7 +112,8 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
   - Thirteen reuse statements from records the journey already uses: PKR-SGT-000001, PKR-OBS-000001, PKR-OBS-000007 and PKR-CGD-000002 to 000006.
   - "Can I kill my rose by pruning too hard?" reads PKR-CGD-000007.
   - "Why isn't my rose flowering?" reads PKR-CGD-000008. Opened on a plant's page, it also offers the blind-shoot check for that plant.
-- **Two questions have no approved answer yet:** "Should I spray my roses?" and "When can I plant or move a rose?". Each says Pip is still learning, and records the tap in the table `public.question_interest`. A failed insert never affects the gardener.
+- "Should I spray my roses?" reads PKR-CGD-000009, the lead question of the Spraying topic (published 5 October 2026). Its answer offers the topic's six other answers, PKR-CGD-000010 to PKR-CGD-000015, under "More about spraying". "Black spots on the leaves?" offers them too.
+- **One question has no approved answer yet:** "When can I plant or move a rose?". It says Pip is still learning, and records the tap in the table `public.question_interest`. A failed insert never affects the gardener.
 - **Missing statements.** A question whose statements cannot be found in the Published records is left out.
 - **Wording.** The question wording is app copy, approved "for now" by a Founder in chat on 2 October 2026.
 
@@ -148,7 +149,7 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
 
 ## 3.5 Topics, Local Statements, Limits and Labels (5 October 2026)
 
-Built so that a subject's whole body of approved findings reaches gardeners, in short answers, without typed questions. Governed by PKR Standard §5.7 (Version 0.12) and the Pip Knowledge Rules §3A.
+Built so that a subject's whole body of approved findings reaches gardeners, in short answers, without typed questions. Governed by PKR Standard §5.7 and the Pip Knowledge Rules §3A (Version 0.3: plain words, sources under the answer, and only what helps a gardener).
 
 **Topics** (`App/src/data/commonQuestions.ts`, `App/src/data/pkr.ts`). A Care Guidance record may carry `content.presentation.question_answer` (`topic`, `topic_title`, `order`). `publishedQuestionAnswers()` reads every such Published record. The record with order 1 is the topic's lead question. A built-in question becomes the lead once its topic is Published (`TOPIC_FOR`; so far `spraying`), and stays "still learning" until then. The other records in the topic are offered under the answer as "More about …", and each of those offers the rest. Follow-up answers are keyed `pkr:<record id>` and need no app release when a new one is published. "Black spots on the leaves?" offers the spraying topic's answers once they are Published, and its first line then stops saying Pip can't say how to treat it.
 
@@ -156,7 +157,7 @@ Built so that a subject's whole body of approved findings reaches gardeners, in 
 
 **Limits and labels** (`App/src/components/PkrStatements.tsx`). `StatementLimit` shows a statement's `limit` under it in smaller type. `StatementTag` shows the confidence level, or "Precaution" with the level, or "Sources disagree", or "No source found", or nothing for app framing, by the statement's `kind`.
 
-**Checked** in a headless browser at phone widths (390 and 320 pixels) against test copies of the seven spraying records, for six cases: no plant; New Zealand by name; Australia by position; the United States; the United Kingdom; and a position in Canada, which correctly gives no country. The build passes. Not checked: the signed-in screens, and a real phone.
+**Checked** in a headless browser at phone widths (390 and 320 pixels), first against test copies of the seven spraying records and again on 5 October 2026 against the published records, for six cases: no plant; New Zealand by name; Australia by position; the United States; the United Kingdom; and a position in Canada, which correctly gives no country. The build passes. Not checked: the signed-in screens, and a real phone.
 
 # 4. Phase B — Blocked on Founder-Approved Knowledge
 

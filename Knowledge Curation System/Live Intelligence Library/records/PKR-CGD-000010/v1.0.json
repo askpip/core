@@ -1,0 +1,127 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000010",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "What can I do about leaf disease without spraying?",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000034",
+      "PKR-SRC-000073",
+      "PKR-SRC-000097",
+      "PKR-SRC-000157",
+      "PKR-SRC-000239",
+      "PKR-SRC-000240",
+      "PKR-SRC-000241",
+      "PKR-SRC-000244",
+      "PKR-SRC-000245",
+      "PKR-SRC-000246",
+      "PKR-SRC-000247",
+      "PKR-SRC-000248",
+      "PKR-SRC-000253",
+      "PKR-SRC-000255",
+      "PKR-SRC-000256",
+      "PKR-SRC-000261",
+      "PKR-SRC-000262",
+      "PKR-SRC-000265",
+      "PKR-SRC-000266"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000004"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000006"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000009"
+      }
+    ],
+    "preserved_uncertainty": "Keeping leaves dry helps against black spot, but sources say water on the leaves can reduce powdery mildew (C-4). The Royal Horticultural Society allows burying fallen leaves under mulch, where other sources bin or burn them. \"Most common\" for black spot comes from one rose society. No source gives a mechanism or a measure for a well-fed rose resisting disease.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "What can I do about leaf disease without spraying?",
+    "label": null,
+    "items": [
+      {
+        "text": "Black spot is tied to wet leaves.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-8"
+        ]
+      },
+      {
+        "text": "Clear away fallen leaves and cut out infected stems, especially before and during winter. This reduces disease the next season.",
+        "confidence": "Very High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-14"
+        ]
+      },
+      {
+        "text": "Remove infected leaves and shoots as soon as you see them.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-15"
+        ]
+      },
+      {
+        "text": "Put diseased leaves and prunings in the rubbish, not the compost.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-16"
+        ]
+      },
+      {
+        "text": "Avoid watering over the leaves, and keep them dry. One source says to water around the roots.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-17"
+        ]
+      },
+      {
+        "text": "For powdery mildew, wetting the leaves in mid-morning or the middle of the day, in dry weather, can reduce it.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-18",
+          "C-4"
+        ]
+      },
+      {
+        "text": "Give roses sun, space and moving air. These reduce leaf disease.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-19"
+        ]
+      },
+      {
+        "text": "A rose that is watered and fed well is more likely to resist disease.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-20"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "spraying",
+        "topic_title": "Spraying",
+        "order": 2
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}

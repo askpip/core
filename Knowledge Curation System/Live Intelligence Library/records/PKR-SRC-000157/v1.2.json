@@ -1,0 +1,43 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000157",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The New Zealand Rose Society — Winter Rose Care",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-20 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-21 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-24 (High)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-19 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-28 (Low)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "The New Zealand Rose Society (Peter Elliott), \"Winter Rose Care\", 30 March 2009. Rose society, New Zealand.; web address <https://nzroses.org.nz/winter-rose-care/>, accessed 29 September 2026; register code NZRS-W",
+    "url": "https://nzroses.org.nz/winter-rose-care/",
+    "register_code": "NZRS-W",
+    "relevance": "Supports AF-1, AF-20, AF-21, AF-24."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.2: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:NZRS-W). Nothing else changed. Version 1.1 retired."
+  }
+}

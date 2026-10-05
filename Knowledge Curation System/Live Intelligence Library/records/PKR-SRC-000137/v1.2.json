@@ -1,0 +1,48 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000137",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Maryland Extension — Rose: Identify and Manage Problems",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-BASICCARE-01, F6 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F12 (Moderate)",
+      "ARC-BUSHROSE-BASICCARE-01, F13 (Low–Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-5 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-9 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-10 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-11 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-28 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-30 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-31 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-33 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-6 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-22 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-24 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-32 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Maryland)",
+    "identity": "University of Maryland Extension, \"Rose: Identify and Manage Problems\" (10 Jun 2024); web address <https://extension.umd.edu/resource/rose-identify-and-manage-problems>, accessed 29 September 2026; register code UMD-PROB",
+    "url": "https://extension.umd.edu/resource/rose-identify-and-manage-problems",
+    "register_code": "UMD-PROB",
+    "relevance": "Supports F6, F12, F13."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.2: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:UMD-PROB). Nothing else changed. Version 1.1 retired."
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 300,
-  "published_count": 270,
+  "record_count": 342,
+  "published_count": 306,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -90,6 +90,62 @@
       "status": "Published",
       "title": "Why isn't my rose flowering?",
       "sha256": "6c0c00fcd8af573804905d2f50710fcce774c632c272db39d87275ff15eb0740"
+    },
+    {
+      "pkr_id": "PKR-CGD-000009",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Should I spray my roses?",
+      "sha256": "c38302c66841502f89d053abb3e37e073875c2219c1c6d9ba0481a64c48f9b0a"
+    },
+    {
+      "pkr_id": "PKR-CGD-000010",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "What can I do about leaf disease without spraying?",
+      "sha256": "9946622db0c2a74b63113091676f900ae32634f40e63b5b8ea3be4fb37ea37be"
+    },
+    {
+      "pkr_id": "PKR-CGD-000011",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Which sprays are used for black spot and mildew?",
+      "sha256": "d6f0eca80945e1786e902cc6dcda1c7a62f7eae34fb296629c7c04380ccc798e"
+    },
+    {
+      "pkr_id": "PKR-CGD-000012",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "If I spray, when and how often?",
+      "sha256": "2ed4727c8a006ce692b23a4f7ce3f2e5db05efe450836c500e610f28c31badc0"
+    },
+    {
+      "pkr_id": "PKR-CGD-000013",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "What about a winter spray after pruning?",
+      "sha256": "ad43919496c407630a5568c514359f4fc8ab843c3b360057f9439053996364cb"
+    },
+    {
+      "pkr_id": "PKR-CGD-000014",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "How do I spray safely?",
+      "sha256": "5c469df67f85847a7badfd3186ad82458786d1dc6cb496a36830423b7513c79d"
+    },
+    {
+      "pkr_id": "PKR-CGD-000015",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "What should I do about aphids?",
+      "sha256": "69b63d6c8f23d45db294d3cf8398978eee3a2c9ce239156cdf25bfeb9405cbff"
     },
     {
       "pkr_id": "PKR-DEC-000001",
@@ -615,9 +671,17 @@
       "pkr_id": "PKR-SRC-000034",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The New Zealand Rose Society — FAQ",
       "sha256": "3afebd081276a4a8ed56173fb676f3e1b9b9e0f526ad9294b0bed2ebdc3dedf7"
+    },
+    {
+      "pkr_id": "PKR-SRC-000034",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The New Zealand Rose Society — FAQ",
+      "sha256": "6df5be7d2f494e291e380d1caaddb0fa0f2d9865dd0c6cf9a4b5333205805f5f"
     },
     {
       "pkr_id": "PKR-SRC-000035",
@@ -959,9 +1023,17 @@
       "pkr_id": "PKR-SRC-000073",
       "version": "1.2",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Clemson HGIC — Rose Diseases (HGIC 2106)",
       "sha256": "1125d5183647aeb293047904aeaedf0884ae5180c37122188d84bf70bdc88fef"
+    },
+    {
+      "pkr_id": "PKR-SRC-000073",
+      "version": "1.3",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Clemson HGIC — Rose Diseases (HGIC 2106)",
+      "sha256": "bbdf7cfd07b20aebc5734a7a92eb13f74e42e5c39bd941307cb4974b4e077fdd"
     },
     {
       "pkr_id": "PKR-SRC-000074",
@@ -1175,9 +1247,17 @@
       "pkr_id": "PKR-SRC-000097",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rose Society of NSW — Rose Growing Advice",
       "sha256": "737374f2c4b194b919699dcb70f3affa481165dd91036e0acd83dcef661a2240"
+    },
+    {
+      "pkr_id": "PKR-SRC-000097",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of NSW — Rose Growing Advice",
+      "sha256": "e73484358375de75f14fe7ec1ebb3cc86801208f9f24ff26776f9a6429faefb9"
     },
     {
       "pkr_id": "PKR-SRC-000098",
@@ -1559,9 +1639,17 @@
       "pkr_id": "PKR-SRC-000137",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Maryland Extension — Rose: Identify and Manage Problems",
       "sha256": "b14fb274a7993b461ceccca658c02d2d97df6c2773f956e527442fcc701d0906"
+    },
+    {
+      "pkr_id": "PKR-SRC-000137",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Maryland Extension — Rose: Identify and Manage Problems",
+      "sha256": "aaa7e4181fb0d905b626ef9fee6d0643d4838fb1c31275fb0a63cfaaee2dd431"
     },
     {
       "pkr_id": "PKR-SRC-000138",
@@ -1735,9 +1823,17 @@
       "pkr_id": "PKR-SRC-000157",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The New Zealand Rose Society — Winter Rose Care",
       "sha256": "97bcfa8ac155b2169d723d648906b191ece46628e1bd78f05ee9207e5593aa9b"
+    },
+    {
+      "pkr_id": "PKR-SRC-000157",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The New Zealand Rose Society — Winter Rose Care",
+      "sha256": "52ddacdbd6461c66acd05eba2fc79445acf7b17ba83d1a0e063e1de484a523e5"
     },
     {
       "pkr_id": "PKR-SRC-000158",
@@ -2215,9 +2311,17 @@
       "pkr_id": "PKR-SRC-000215",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "UC Statewide IPM Program — \"Roses: Insects and Mites\"",
       "sha256": "ac1260798b59afed80cda76b558f83f0fd702461fb987894ec28c1abe9218fb3"
+    },
+    {
+      "pkr_id": "PKR-SRC-000215",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "UC Statewide IPM Program — \"Roses: Insects and Mites\"",
+      "sha256": "53b7ba1b4f3ecfd1d7b7e1e69ebd804ae01d09c8d685b4e88a58294786237080"
     },
     {
       "pkr_id": "PKR-SRC-000216",
@@ -2402,6 +2506,238 @@
       "status": "Published",
       "title": "Rosen Tantau — \"Blind shoots are budless rose shoots with bent tips\"",
       "sha256": "6f685c77d7ad8a7adce4fd677a037ec356e9f8e96d620adc4ff6f19803f6e774"
+    },
+    {
+      "pkr_id": "PKR-SRC-000239",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Rose black spot: Symptoms & Control\"",
+      "sha256": "1d0f386f3106870e751cfd83f473388e61023a5c8af4d97ff8c32bec731c5b28"
+    },
+    {
+      "pkr_id": "PKR-SRC-000240",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Rose powdery mildew: Symptoms & Control\"",
+      "sha256": "6294e7a18c024699032c53de10f1b7a8bafac5545189045faa9b30bb06014b9d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000241",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Rose rust: Symptoms & Control\"",
+      "sha256": "33826ffae3a2974be7c121e6dd93b1d8d98708f87dd810b14e4ba165e95e9079"
+    },
+    {
+      "pkr_id": "PKR-SRC-000242",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Rose aphids\"",
+      "sha256": "81193f630d37eee30d3f41a377200953cfb2ed831ef896e86021bc39cc23787c"
+    },
+    {
+      "pkr_id": "PKR-SRC-000243",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Understanding and avoiding chemical use\"",
+      "sha256": "7cb776c6681affec9b1042d33de4308e49fe89a67418473ad529bc64e368a2a2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000244",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "J.F. Karlik, M. Al Rwahnih and D.A.G. Golino — \"Roses: Diseases and Abiotic Disorders\"",
+      "sha256": "b5686967553d6d9ca06bd620e8a2cadc8956c5369c612a1d1e4a1be425d1fb2f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000245",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "UC Statewide IPM Program — \"Black Spot\"",
+      "sha256": "5849df1d85e6b5fdb596df45e8f3f10070f5467c0959b380404e928c1f27b4ef"
+    },
+    {
+      "pkr_id": "PKR-SRC-000246",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Maryland Extension — \"Black Spot Disease of Roses\"",
+      "sha256": "5f53044ac0ba2a34b318c331e49bb715c8de8bc5ad5b66bffd83033bbb47f0aa"
+    },
+    {
+      "pkr_id": "PKR-SRC-000247",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Adrian Crabb and Brian Hudelson, University of Wisconsin-Madison Extension — \"Black Spot\"",
+      "sha256": "1dabf898a036180aa6cf2fb56c234d09d4ec887cb39238476dc07b873299afdc"
+    },
+    {
+      "pkr_id": "PKR-SRC-000248",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Gary W. Moorman, Penn State Extension — \"Rose Diseases (Outdoors)\"",
+      "sha256": "e0e4b01f229d437366a8a5fab2690bbdd4dd8eca6ee88dec4a9eb5ca0dbe7d11"
+    },
+    {
+      "pkr_id": "PKR-SRC-000249",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Janet McLeod Scott and Joey Williamson, Clemson Home & Garden Information Center — \"Rose Insects & Related Pests\"",
+      "sha256": "f34040def2a3e050935cbb5e656dcc0924f95dcef3159f357425c1525a647b0a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000250",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Gaye Hammond — \"Fungicides Made Simple\"",
+      "sha256": "070e42b5208cd0d76ba700bfdea954339aa1e4d5cd4a05f27cec5a80893dffd2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000251",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Zlesak, D.C., Whitaker, V.M., George, S. and Hokanson, S.C. (2010) — \"Evaluation of Roses from the Earth-Kind® Trials: Black Spot (*Diplocarpon rosae* Wolf) Resistance and Ploidy\"",
+      "sha256": "643b6e47f178fe8065606ffd1220e1f67f061919f27a48b21eb332ff11c5219c"
+    },
+    {
+      "pkr_id": "PKR-SRC-000252",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The New Zealand Rose Society — \"Auckland Botanic Gardens\"",
+      "sha256": "e8fcc7c6c7f40ecb9ae48f64cd2bc0b077a1e29817ff7d405bf568efa948d9fd"
+    },
+    {
+      "pkr_id": "PKR-SRC-000253",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Auckland Botanic Gardens — \"Roses\"",
+      "sha256": "2d62bc7f5ec31679a351d6071c6f39088e4e56cb6dbe49cfa79304c0932d01eb"
+    },
+    {
+      "pkr_id": "PKR-SRC-000254",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Bodley, E., Lollback, P., Hobbs, J., Brewer, M. and Stanley, R. (2022) — \"Growing roses without chemicals: transitioning the collection at Auckland Botanic Gardens (New Zealand) 2000–2020\"",
+      "sha256": "21550348314ad4654ea63b946e8e3c5066215d460f8390ed6243e19750f508c6"
+    },
+    {
+      "pkr_id": "PKR-SRC-000255",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Hayden Foulds, GrownUps New Zealand — \"Diseases of Roses\"",
+      "sha256": "5f88dee0705f16d0d69357129d8838c728d8218cb5c20451680fc2c01c233488"
+    },
+    {
+      "pkr_id": "PKR-SRC-000256",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Dr Dan Blanchon (Unitec), Royal New Zealand Institute of Horticulture Plant Doctor — \"Rust and black spot on roses\"",
+      "sha256": "5b84c6bdeaa40d4eac37b5f5ff07f0ba119c92ad2d4400b193a93b60018d8fa9"
+    },
+    {
+      "pkr_id": "PKR-SRC-000257",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Environmental Protection Authority — \"Bees and other pollinators\"",
+      "sha256": "072eb3de1ec76230d93ad34c2c301d854b2a73cbb507271341539ac39a81a296"
+    },
+    {
+      "pkr_id": "PKR-SRC-000258",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Luke Harrison, Consumer NZ — \"Bees and insecticides\"",
+      "sha256": "7d10948c23c0025ca2ab12e22a4872963ef46478e8dfad472f7cce2989cff538"
+    },
+    {
+      "pkr_id": "PKR-SRC-000259",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Sophie Thomson) — \"Looking After Roses\"",
+      "sha256": "e6b469dcc7b26e4fe0526525d2bc9507a50c8560ebbbdf59da3ceb87cc61ce3b"
+    },
+    {
+      "pkr_id": "PKR-SRC-000260",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Jane Edmanson) — \"How to Prune Roses\"",
+      "sha256": "13b955828fa0bd3d200f9046c06ccd9baf7a2a13c291d4faa55eea1b0cac6805"
+    },
+    {
+      "pkr_id": "PKR-SRC-000261",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Sophie Thomson) — \"Rose Pruning\"",
+      "sha256": "28dc68db030148b46e73fe583bca432a6207a332e134b7c41c855558a2deb70b"
+    },
+    {
+      "pkr_id": "PKR-SRC-000262",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Colin Campbell) — \"Black Spot Control\"",
+      "sha256": "486acb0067feb14cb585ae00b93ff4dfee639c9d5f5b79c48dc2d4c3aadcf21f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000263",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Ross Roses — \"Spraying Roses\"",
+      "sha256": "2cc44680f2e8f20fa59c27efb53d33b23012a7dfa47693dec98be861c4d24951"
+    },
+    {
+      "pkr_id": "PKR-SRC-000264",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "South Pacific Roses — \"Spraying Your Roses\"",
+      "sha256": "e43e95335d0c3d325ce56616e40bbe686c1bff4a057f03e723b13347edb7bc56"
+    },
+    {
+      "pkr_id": "PKR-SRC-000265",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Treloar Roses — \"Black Spot\"",
+      "sha256": "0deafe89856c4262555b7678a7b9c05b2d58b40f627c45e060c7256198cbdb38"
+    },
+    {
+      "pkr_id": "PKR-SRC-000266",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Tui Garden — \"My roses have black spot, what can I do?\"",
+      "sha256": "72e8a58f3334dc65864b4dcfc6290e131258c70a0645f765cfd2c5b2e2cb716e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000267",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Eutrema (Russell) — \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\"",
+      "sha256": "87478813f8367612f3e8c89975f9a7e0a065f252afb089f77e15e7445140d353"
     }
   ]
 }

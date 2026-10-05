@@ -1,0 +1,40 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000034",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The New Zealand Rose Society — FAQ",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Given in a pruning answer, not specifically about classification.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-24 (Moderate)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-25 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-17 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "The New Zealand Rose Society, \"FAQ\", https://nzroses.org.nz/faq/, accessed 27 September 2026 (FRD code NZRS-Q)",
+    "url": "https://nzroses.org.nz/faq/",
+    "register_code": null,
+    "relevance": "Directs an unsure gardener to a local rose society or a pruning demonstration."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.2: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:NZRS-FAQ). Nothing else changed. Version 1.1 retired."
+  }
+}

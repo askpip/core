@@ -976,6 +976,917 @@
    }
   },
   {
+   "pkr_id": "PKR-CGD-000009",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Should I spray my roses?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000034",
+     "PKR-SRC-000073",
+     "PKR-SRC-000097",
+     "PKR-SRC-000137",
+     "PKR-SRC-000215",
+     "PKR-SRC-000239",
+     "PKR-SRC-000240",
+     "PKR-SRC-000241",
+     "PKR-SRC-000243",
+     "PKR-SRC-000244",
+     "PKR-SRC-000245",
+     "PKR-SRC-000246",
+     "PKR-SRC-000247",
+     "PKR-SRC-000249",
+     "PKR-SRC-000250",
+     "PKR-SRC-000251",
+     "PKR-SRC-000252",
+     "PKR-SRC-000253",
+     "PKR-SRC-000254",
+     "PKR-SRC-000255",
+     "PKR-SRC-000256",
+     "PKR-SRC-000257",
+     "PKR-SRC-000258",
+     "PKR-SRC-000263",
+     "PKR-SRC-000265"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000004"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000010"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000011"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000003"
+     }
+    ],
+    "preserved_uncertainty": "Sources disagree on whether to use fungicides at all (C-1): the Royal Horticultural Society recommends against them, and three sources say spraying is needed or helps. They also differ on how long a variety's resistance lasts (C-3). Three of the New Zealand sources for growing without spraying describe one garden, and the University of California ties its statement to dry climates. No source was found on which disease-tolerant varieties suit New Zealand (R-3).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Should I spray my roses?",
+    "label": null,
+    "items": [
+     {
+      "text": "Roses can be grown well with little or no spraying, especially if you grow disease-tolerant varieties.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-1"
+      ]
+     },
+     {
+      "text": "Choose disease-tolerant varieties to reduce disease.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-2"
+      ]
+     },
+     {
+      "text": "A variety's resistance can differ from region to region. One source says it may not last.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-3",
+       "C-3"
+      ]
+     },
+     {
+      "text": "One source says popular Hybrid Teas and Floribundas are often prone to black spot.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-4"
+      ]
+     },
+     {
+      "text": "Treat pesticides as a last resort, after other measures.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-6"
+      ]
+     },
+     {
+      "text": "Experts disagree on whether roses need spraying. The better-supported view is that they can be grown well with little or none. Some say disease-prone roses need fungicide, or that regular spraying helps. The Royal Horticultural Society advises against fungicides altogether.",
+      "kind": "disagreement",
+      "trace": [
+       "C-1",
+       "ARC-BUSHROSE-SPRAYING-01 AF-4",
+       "ARC-BUSHROSE-SPRAYING-01 AF-5",
+       "ARC-BUSHROSE-SPRAYING-01 AF-1",
+       "ARC-BUSHROSE-SPRAYING-01 AF-6"
+      ]
+     },
+     {
+      "text": "I couldn't find a list of disease-tolerant varieties that suit New Zealand. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "R-3",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+      "kind": "framing",
+      "trace": [
+       "rule 7",
+       "ARC-BUSHROSE-SPRAYING-01 AF-30",
+       "ARC-BUSHROSE-SPRAYING-01 AF-34"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "spraying",
+      "topic_title": "Spraying",
+      "order": 1
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000010",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "What can I do about leaf disease without spraying?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000034",
+     "PKR-SRC-000073",
+     "PKR-SRC-000097",
+     "PKR-SRC-000157",
+     "PKR-SRC-000239",
+     "PKR-SRC-000240",
+     "PKR-SRC-000241",
+     "PKR-SRC-000244",
+     "PKR-SRC-000245",
+     "PKR-SRC-000246",
+     "PKR-SRC-000247",
+     "PKR-SRC-000248",
+     "PKR-SRC-000253",
+     "PKR-SRC-000255",
+     "PKR-SRC-000256",
+     "PKR-SRC-000261",
+     "PKR-SRC-000262",
+     "PKR-SRC-000265",
+     "PKR-SRC-000266"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000004"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000006"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000009"
+     }
+    ],
+    "preserved_uncertainty": "Keeping leaves dry helps against black spot, but sources say water on the leaves can reduce powdery mildew (C-4). The Royal Horticultural Society allows burying fallen leaves under mulch, where other sources bin or burn them. \"Most common\" for black spot comes from one rose society. No source gives a mechanism or a measure for a well-fed rose resisting disease.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "What can I do about leaf disease without spraying?",
+    "label": null,
+    "items": [
+     {
+      "text": "Black spot is tied to wet leaves.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-8"
+      ]
+     },
+     {
+      "text": "Clear away fallen leaves and cut out infected stems, especially before and during winter. This reduces disease the next season.",
+      "confidence": "Very High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-14"
+      ]
+     },
+     {
+      "text": "Remove infected leaves and shoots as soon as you see them.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-15"
+      ]
+     },
+     {
+      "text": "Put diseased leaves and prunings in the rubbish, not the compost.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-16"
+      ]
+     },
+     {
+      "text": "Avoid watering over the leaves, and keep them dry. One source says to water around the roots.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-17"
+      ]
+     },
+     {
+      "text": "For powdery mildew, wetting the leaves in mid-morning or the middle of the day, in dry weather, can reduce it.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-18",
+       "C-4"
+      ]
+     },
+     {
+      "text": "Give roses sun, space and moving air. These reduce leaf disease.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-19"
+      ]
+     },
+     {
+      "text": "A rose that is watered and fed well is more likely to resist disease.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-20"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "spraying",
+      "topic_title": "Spraying",
+      "order": 2
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000011",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Which sprays are used for black spot and mildew?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000073",
+     "PKR-SRC-000097",
+     "PKR-SRC-000240",
+     "PKR-SRC-000243",
+     "PKR-SRC-000244",
+     "PKR-SRC-000245",
+     "PKR-SRC-000247",
+     "PKR-SRC-000250",
+     "PKR-SRC-000256",
+     "PKR-SRC-000257",
+     "PKR-SRC-000258",
+     "PKR-SRC-000262",
+     "PKR-SRC-000263",
+     "PKR-SRC-000265"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000009"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000012"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000014"
+     }
+    ],
+    "preserved_uncertainty": "The Royal Horticultural Society recommends against all fungicides, organic types included (C-1). Sources disagree about home-made sprays, and neither view is clearly better supported (C-8). The University of California doesn't list copper for black spot, and a gardener writing to the Royal New Zealand Institute of Horticulture reported disease in wet weather despite a copper spray. Wisconsin says neem oil gives only \"some\" control. The synthetic fungicides are named by US sources; which spray types are approved for home gardeners in each country was not established (R-1). Brand names and mixing amounts are not given.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Which sprays are used for black spot and mildew?",
+    "label": null,
+    "items": [
+     {
+      "text": "Oils, including neem oil, and sulphur are used against black spot and powdery mildew. One source also names potassium bicarbonate.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-21"
+      ]
+     },
+     {
+      "text": "Copper sprays are used against black spot.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-39"
+      ]
+     },
+     {
+      "text": "US university sources name synthetic fungicides for black spot, most often chlorothalonil. I couldn't find which are approved for home gardeners in each country, so use only a product labelled for roses where you live.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-40",
+       "R-1"
+      ]
+     },
+     {
+      "text": "Experts disagree about home-made sprays such as a baking soda mix. Some suggest them. The Royal Horticultural Society advises against them, because they are unregulated and usually untested.",
+      "kind": "disagreement",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-44",
+       "C-8"
+      ]
+     },
+     {
+      "text": "I name types of spray, not brands. For how much to use, follow the product's label.",
+      "kind": "framing",
+      "trace": [
+       "Research Commission Record §5",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "One source says not to put oil on a plant that is short of water, or within two weeks of a sulphur spray.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-42"
+      ]
+     },
+     {
+      "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+      "kind": "framing",
+      "trace": [
+       "rule 7",
+       "ARC-BUSHROSE-SPRAYING-01 AF-30",
+       "ARC-BUSHROSE-SPRAYING-01 AF-34"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "spraying",
+      "topic_title": "Spraying",
+      "order": 3
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000012",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "If I spray, when and how often?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000073",
+     "PKR-SRC-000097",
+     "PKR-SRC-000243",
+     "PKR-SRC-000244",
+     "PKR-SRC-000246",
+     "PKR-SRC-000247",
+     "PKR-SRC-000248",
+     "PKR-SRC-000250",
+     "PKR-SRC-000254",
+     "PKR-SRC-000255",
+     "PKR-SRC-000257",
+     "PKR-SRC-000258",
+     "PKR-SRC-000263",
+     "PKR-SRC-000264",
+     "PKR-SRC-000265"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000009"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000011"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000014"
+     }
+    ],
+    "preserved_uncertainty": "Sources disagree on spraying regularly through the season or only when a problem appears, and neither view is clearly better supported (C-2). Stated intervals differ by product and are set by the label (C-7). The season window is stated for regular-spraying programmes only. No New Zealand source compares regions (R-4).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "If I spray, when and how often?",
+    "label": null,
+    "items": [
+     {
+      "text": "Fungicides protect leaves before infection. They generally don't cure it, so timing matters.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-7"
+      ]
+     },
+     {
+      "text": "Experts disagree on when to spray. Some spray regularly through the growing season to prevent disease. Others spray only when there is a problem.",
+      "kind": "disagreement",
+      "trace": [
+       "C-2",
+       "rule 2"
+      ]
+     },
+     {
+      "text": "If you spray regularly, start with the first new leaves after winter and carry on through the growing season, or until wet weather passes.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-10"
+      ]
+     },
+     {
+      "text": "Repeat intervals range from weekly to about every two weeks. The product label sets the interval.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-9",
+       "C-7"
+      ]
+     },
+     {
+      "text": "One source says roses may need spraying more often in a bad outbreak. Another says to consider spraying ahead of disease where a rose has had black spot badly and a wet season is forecast.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-11"
+      ]
+     },
+     {
+      "text": "Alternate between types of fungicide, so the disease is slower to become resistant to them.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-12"
+      ]
+     },
+     {
+      "text": "I couldn't find anything that compares how much spraying is needed in different parts of New Zealand. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "R-4",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+      "kind": "framing",
+      "trace": [
+       "rule 7",
+       "ARC-BUSHROSE-SPRAYING-01 AF-30",
+       "ARC-BUSHROSE-SPRAYING-01 AF-34"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "spraying",
+      "topic_title": "Spraying",
+      "order": 4
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000013",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "What about a winter spray after pruning?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000073",
+     "PKR-SRC-000097",
+     "PKR-SRC-000157",
+     "PKR-SRC-000239",
+     "PKR-SRC-000241",
+     "PKR-SRC-000243",
+     "PKR-SRC-000244",
+     "PKR-SRC-000246",
+     "PKR-SRC-000247",
+     "PKR-SRC-000250",
+     "PKR-SRC-000253",
+     "PKR-SRC-000255",
+     "PKR-SRC-000257",
+     "PKR-SRC-000258",
+     "PKR-SRC-000259",
+     "PKR-SRC-000260",
+     "PKR-SRC-000261",
+     "PKR-SRC-000263",
+     "PKR-SRC-000264",
+     "PKR-SRC-000265",
+     "PKR-SRC-000266",
+     "PKR-SRC-000267"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000006"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000009"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000014"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000001"
+     }
+    ],
+    "preserved_uncertainty": "New Zealand and Australian sources describe a winter spray; the UK and US institutional pages consulted don't describe a spray after pruning (C-5). No source tests whether it makes a difference (R-2). Sources differ on the order and timing of the winter sprays (C-6). Most of the sources are commercial, and the New Zealand Rose Society article dates from 1996. What the winter spray is said to achieve (AF-27) and that copper washes off in rain (AF-43) are on record only. Where the spray goes (AF-26) is on record only, at Low, after a correction to the research record.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "What about a winter spray after pruning?",
+    "label": null,
+    "items": [
+     {
+      "text": "Rose sources in New Zealand and Australia describe a clean-up spray in winter, usually after pruning. Their advice ranges from highly recommended to optional.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ",
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-25"
+      ]
+     },
+     {
+      "text": "For the winter clean-up spray, New Zealand and Australian sources name lime sulphur, copper and a spraying oil.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ",
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-37",
+       "ARC-BUSHROSE-SPRAYING-01 AF-36",
+       "ARC-BUSHROSE-SPRAYING-01 AF-38"
+      ]
+     },
+     {
+      "text": "For copper, sources differ on timing: after winter pruning, through winter into early spring, or at the first sign of spring growth.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ",
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-36",
+       "C-6"
+      ]
+     },
+     {
+      "text": "One source says not to use lime sulphur and copper sprays within two weeks of each other.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "NZ",
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-28"
+      ]
+     },
+     {
+      "text": "One source says never to mix lime sulphur and oil, or spray them together.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "NZ",
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-41"
+      ]
+     },
+     {
+      "text": "I couldn't find a test of whether a winter spray makes a difference. A local rose society is the place to ask what works near you.",
+      "kind": "gap",
+      "place": [
+       "NZ",
+       "AU"
+      ],
+      "trace": [
+       "R-2",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "The UK and US university and horticultural-society pages I checked don't describe a spray after pruning. Several advise clearing fallen leaves in autumn or winter. A local rose society is the place to ask.",
+      "kind": "gap",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-29",
+       "ARC-BUSHROSE-SPRAYING-01 AF-14",
+       "C-5"
+      ]
+     },
+     {
+      "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+      "kind": "framing",
+      "trace": [
+       "rule 7",
+       "ARC-BUSHROSE-SPRAYING-01 AF-30",
+       "ARC-BUSHROSE-SPRAYING-01 AF-34"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "spraying",
+      "topic_title": "Spraying",
+      "order": 5
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000014",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "How do I spray safely?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000073",
+     "PKR-SRC-000097",
+     "PKR-SRC-000137",
+     "PKR-SRC-000157",
+     "PKR-SRC-000215",
+     "PKR-SRC-000243",
+     "PKR-SRC-000244",
+     "PKR-SRC-000247",
+     "PKR-SRC-000250",
+     "PKR-SRC-000257",
+     "PKR-SRC-000258",
+     "PKR-SRC-000263",
+     "PKR-SRC-000264",
+     "PKR-SRC-000265",
+     "PKR-SRC-000267"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000011"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000012"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000013"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000015"
+     }
+    ],
+    "preserved_uncertainty": "Protective equipment, cleaning the sprayer, heat and the three statements on what not to combine are each given by one or two sources; they are included as precautions. The evening-only timing rests on one consumer-organisation source. No Australian or US regulator page was read, and which spray types are approved for home gardeners in each country was not established (R-1).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "How do I spray safely?",
+    "label": null,
+    "items": [
+     {
+      "text": "Read and follow the product label. In the UK this is a legal requirement.",
+      "confidence": "Very High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-30"
+      ]
+     },
+     {
+      "text": "Which products are allowed differs by country and changes over time. I couldn't find which spray types are approved in each country, so use only a product labelled for roses where you live.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-34",
+       "R-1",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "Don't spray open flowers. One source says to spray only in the evening, once bees are back in their hives.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-32"
+      ]
+     },
+     {
+      "text": "Wear gloves and safety gear, and clean the sprayer afterwards.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-31"
+      ]
+     },
+     {
+      "text": "One source says never to spray in the heat of the day.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-33"
+      ]
+     },
+     {
+      "text": "One source says not to use lime sulphur and copper sprays within two weeks of each other.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-28"
+      ]
+     },
+     {
+      "text": "One source says never to mix lime sulphur and oil, or spray them together.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-41"
+      ]
+     },
+     {
+      "text": "One source says not to put oil on a plant that is short of water, or within two weeks of a sulphur spray.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-42"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "spraying",
+      "topic_title": "Spraying",
+      "order": 6
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000015",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "What should I do about aphids?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000073",
+     "PKR-SRC-000097",
+     "PKR-SRC-000137",
+     "PKR-SRC-000215",
+     "PKR-SRC-000242",
+     "PKR-SRC-000243",
+     "PKR-SRC-000247",
+     "PKR-SRC-000249",
+     "PKR-SRC-000250",
+     "PKR-SRC-000257",
+     "PKR-SRC-000258",
+     "PKR-SRC-000263",
+     "PKR-SRC-000265"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000004"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000009"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000014"
+     }
+    ],
+    "preserved_uncertainty": "Soaps and oils for aphids are stated by two extension services and one nursery. Sprays for other pests (spider mites, scale, thrips, caterpillars, beetles) were outside the commissioned questions and are not covered (R-6).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "What should I do about aphids?",
+    "label": null,
+    "items": [
+     {
+      "text": "Put up with a few aphids, hose them off, and let their natural enemies deal with them. One source also says to squash them by hand.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-22"
+      ]
+     },
+     {
+      "text": "Insecticidal soaps and horticultural oils can be used on aphids. One source says they have only a moderate effect on aphids' natural enemies.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-23"
+      ]
+     },
+     {
+      "text": "Broad-spectrum and higher-toxicity insecticides can harm natural enemies, and that can bring pests back.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-24"
+      ]
+     },
+     {
+      "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+      "kind": "framing",
+      "trace": [
+       "rule 7",
+       "ARC-BUSHROSE-SPRAYING-01 AF-30",
+       "ARC-BUSHROSE-SPRAYING-01 AF-34"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "spraying",
+      "topic_title": "Spraying",
+      "order": 7
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
    "pkr_id": "PKR-DEC-000001",
    "version": "1.1",
    "pkr_type": "decision_logic",
@@ -4536,7 +5447,7 @@
    "pkr_id": "PKR-SRC-000034",
    "version": "1.1",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "The New Zealand Rose Society — FAQ",
    "common": {
     "applies_to": "Bush rose; rose-type scope qualification",
@@ -4565,6 +5476,45 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000034",
+   "version": "1.2",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "The New Zealand Rose Society — FAQ",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Given in a pruning answer, not specifically about classification.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-24 (Moderate)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-25 (Low) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-17 (Low) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "The New Zealand Rose Society, \"FAQ\", https://nzroses.org.nz/faq/, accessed 27 September 2026 (FRD code NZRS-Q)",
+    "url": "https://nzroses.org.nz/faq/",
+    "register_code": null,
+    "relevance": "Directs an unsure gardener to a local rose society or a pruning demonstration."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.2: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:NZRS-FAQ). Nothing else changed. Version 1.1 retired."
    }
   },
   {
@@ -6015,7 +6965,7 @@
    "pkr_id": "PKR-SRC-000073",
    "version": "1.2",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "Clemson HGIC — Rose Diseases (HGIC 2106)",
    "common": {
     "applies_to": "Established bush rose; dormant pruning",
@@ -6046,6 +6996,56 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "v1.2: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.1 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000073",
+   "version": "1.3",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Clemson HGIC — Rose Diseases (HGIC 2106)",
+   "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-4 (High)",
+     "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-POSTBUDBREAK-01, AF-10 (High)",
+     "ARC-BUSHROSE-POSTBUDBREAK-01, AF-20 (High)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-18 (Moderate) (added v1.2, 2 October 2026)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-17 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-21 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-29 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-39 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-40 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-44 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-45 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Extension publication",
+    "identity": "Clemson HGIC, Nancy Doubrava, James H. Blake and Joey Williamson, \"Rose Diseases\" (HGIC 2106); web address <https://hgic.clemson.edu/factsheet/rose-diseases/>, accessed 29 September 2026; FRD code CLE-DIS",
+    "url": "https://hgic.clemson.edu/factsheet/rose-diseases/",
+    "register_code": null,
+    "relevance": "Supports AF-2, AF-4, AF-15, AF-16 of ARC-BUSHROSE-DAMAGEDGROWTH-01. Verification: Quotes found: canker colour range; 1:9 bleach disinfection; rose rosette material burned or bagged."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.3: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:CLEM-DIS). Nothing else changed. Version 1.2 retired."
    }
   },
   {
@@ -6915,7 +7915,7 @@
    "pkr_id": "PKR-SRC-000097",
    "version": "1.1",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "Rose Society of NSW — Rose Growing Advice",
    "common": {
     "applies_to": "Established bush rose; dormant pruning",
@@ -6943,6 +7943,47 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000097",
+   "version": "1.2",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Rose Society of NSW — Rose Growing Advice",
+   "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Quote found: \"no less than 10mm\". The page title is \"Rose Growing Advice\"; the dossier records \"Growing Roses\".",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-6 (Moderate) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)"
+    ]
+   },
+   "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "Rose Society of NSW, \"Rose Growing Advice\" (growing-roses page); web address <https://nsw.rose.org.au/growing-roses>, accessed 29 September 2026; FRD code RSNSW",
+    "url": "https://nsw.rose.org.au/growing-roses",
+    "register_code": null,
+    "relevance": "Supports AF-5. Verification: Quote found: \"no less than 10mm\". The page title is \"Rose Growing Advice\"; the dossier records \"Growing Roses\"."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.2: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:RSNSW). Nothing else changed. Version 1.1 retired."
    }
   },
   {
@@ -8536,7 +9577,7 @@
    "pkr_id": "PKR-SRC-000137",
    "version": "1.1",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "University of Maryland Extension — Rose: Identify and Manage Problems",
    "common": {
     "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
@@ -8572,6 +9613,53 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000137",
+   "version": "1.2",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "University of Maryland Extension — Rose: Identify and Manage Problems",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-BASICCARE-01, F6 (High)",
+     "ARC-BUSHROSE-BASICCARE-01, F12 (Moderate)",
+     "ARC-BUSHROSE-BASICCARE-01, F13 (Low–Moderate)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-5 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-9 (Low) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-10 (Low) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-11 (Moderate) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-28 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-30 (Low) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-31 (Moderate) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-33 (Low) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-6 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-22 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-24 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-32 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Extension publication (University of Maryland)",
+    "identity": "University of Maryland Extension, \"Rose: Identify and Manage Problems\" (10 Jun 2024); web address <https://extension.umd.edu/resource/rose-identify-and-manage-problems>, accessed 29 September 2026; register code UMD-PROB",
+    "url": "https://extension.umd.edu/resource/rose-identify-and-manage-problems",
+    "register_code": "UMD-PROB",
+    "relevance": "Supports F6, F12, F13."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.2: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:UMD-PROB). Nothing else changed. Version 1.1 retired."
    }
   },
   {
@@ -9322,7 +10410,7 @@
    "pkr_id": "PKR-SRC-000157",
    "version": "1.1",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "The New Zealand Rose Society — Winter Rose Care",
    "common": {
     "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
@@ -9351,6 +10439,48 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000157",
+   "version": "1.2",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "The New Zealand Rose Society — Winter Rose Care",
+   "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+     "ARC-BUSHROSE-SUCKERS-01, AF-20 (High)",
+     "ARC-BUSHROSE-SUCKERS-01, AF-21 (High)",
+     "ARC-BUSHROSE-SUCKERS-01, AF-24 (High)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-19 (Low) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-28 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "The New Zealand Rose Society (Peter Elliott), \"Winter Rose Care\", 30 March 2009. Rose society, New Zealand.; web address <https://nzroses.org.nz/winter-rose-care/>, accessed 29 September 2026; register code NZRS-W",
+    "url": "https://nzroses.org.nz/winter-rose-care/",
+    "register_code": "NZRS-W",
+    "relevance": "Supports AF-1, AF-20, AF-21, AF-24."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.2: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:NZRS-W). Nothing else changed. Version 1.1 retired."
    }
   },
   {
@@ -11262,7 +12392,7 @@
    "pkr_id": "PKR-SRC-000215",
    "version": "1.0",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "UC Statewide IPM Program — \"Roses: Insects and Mites\"",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
@@ -11289,6 +12419,45 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000215",
+   "version": "1.1",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "UC Statewide IPM Program — \"Roses: Insects and Mites\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-28 (High)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-30 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-6 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-22 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-23 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-24 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-32 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension",
+    "identity": "UC Statewide IPM Program, \"Roses: Insects and Mites\" (Pest Notes), updated October 2019. University extension, US. https://ipm.ucanr.edu/home-and-landscape/roses-insects-and-mites/, accessed 1 October 2026 (register code NOFLOWERS:UCIPM-I)",
+    "url": "https://ipm.ucanr.edu/home-and-landscape/roses-insects-and-mites/",
+    "register_code": "NOFLOWERS:UCIPM-I",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.1: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:UCIPM-INS). Nothing else changed. Version 1.0 retired."
    }
   },
   {
@@ -12038,6 +13207,1028 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000239",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Royal Horticultural Society — \"Rose black spot: Symptoms & Control\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-5 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK",
+    "identity": "Royal Horticultural Society, \"Rose black spot: Symptoms & Control\", date not shown. Horticultural body, UK. https://www.rhs.org.uk/disease/rose-black-spot, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:RHS-BS)",
+    "url": "https://www.rhs.org.uk/disease/rose-black-spot",
+    "register_code": "SPRAYING:RHS-BS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000240",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Royal Horticultural Society — \"Rose powdery mildew: Symptoms & Control\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-5 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-44 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK",
+    "identity": "Royal Horticultural Society, \"Rose powdery mildew: Symptoms & Control\", date not shown. Horticultural body, UK. https://www.rhs.org.uk/disease/rose-powdery-mildew, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:RHS-PM)",
+    "url": "https://www.rhs.org.uk/disease/rose-powdery-mildew",
+    "register_code": "SPRAYING:RHS-PM",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000241",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Royal Horticultural Society — \"Rose rust: Symptoms & Control\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-5 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK",
+    "identity": "Royal Horticultural Society, \"Rose rust: Symptoms & Control\", date not shown. Horticultural body, UK. https://www.rhs.org.uk/disease/rose-rust, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:RHS-RUST)",
+    "url": "https://www.rhs.org.uk/disease/rose-rust",
+    "register_code": "SPRAYING:RHS-RUST",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000242",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Royal Horticultural Society — \"Rose aphids\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-22 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK",
+    "identity": "Royal Horticultural Society, \"Rose aphids\", date not shown. Horticultural body, UK. https://www.rhs.org.uk/biodiversity/rose-aphids, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:RHS-APH)",
+    "url": "https://www.rhs.org.uk/biodiversity/rose-aphids",
+    "register_code": "SPRAYING:RHS-APH",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000243",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Royal Horticultural Society — \"Understanding and avoiding chemical use\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-6 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-31 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-32 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-34 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK",
+    "identity": "Royal Horticultural Society, \"Understanding and avoiding chemical use\", date not shown. Horticultural body, UK. https://www.rhs.org.uk/prevention-protection/understanding-and-avoiding-chemical-use, accessed 1 October 2026 (register code SPRAYING:RHS-CHEM)",
+    "url": "https://www.rhs.org.uk/prevention-protection/understanding-and-avoiding-chemical-use",
+    "register_code": "SPRAYING:RHS-CHEM",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000244",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "J.F. Karlik, M. Al Rwahnih and D.A.G. Golino — \"Roses: Diseases and Abiotic Disorders\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-13 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-21 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-29 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-42 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "J.F. Karlik, M. Al Rwahnih and D.A.G. Golino, \"Roses: Diseases and Abiotic Disorders\", UC IPM Pest Notes, Publication 7463, Updated February 2020. University extension, US. https://ipm.ucanr.edu/home-and-landscape/roses-diseases-and-abiotic-disorders/pest-notes/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:UCIPM-DIS)",
+    "url": "https://ipm.ucanr.edu/home-and-landscape/roses-diseases-and-abiotic-disorders/pest-notes/",
+    "register_code": "SPRAYING:UCIPM-DIS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000245",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "UC Statewide IPM Program — \"Black Spot\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-17 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-21 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-40 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "UC Statewide IPM Program, \"Black Spot\" (garden plants: diseases), date not shown. University extension, US. https://ipm.ucanr.edu/PMG/GARDEN/PLANTS/DISEASES/blackspot.html, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:UCIPM-BS)",
+    "url": "https://ipm.ucanr.edu/PMG/GARDEN/PLANTS/DISEASES/blackspot.html",
+    "register_code": "SPRAYING:UCIPM-BS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000246",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "University of Maryland Extension — \"Black Spot Disease of Roses\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-12 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-17 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "University of Maryland Extension, \"Black Spot Disease of Roses\", 20 April 2021. University extension, US. https://extension.umd.edu/resource/black-spot-disease-roses, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:UMD-BS)",
+    "url": "https://extension.umd.edu/resource/black-spot-disease-roses",
+    "register_code": "SPRAYING:UMD-BS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000247",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Adrian Crabb and Brian Hudelson, University of Wisconsin-Madison Extension — \"Black Spot\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-12 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-17 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-21 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-39 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-40 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "Adrian Crabb and Brian Hudelson, University of Wisconsin-Madison Extension, \"Black Spot\", 28 February 2024. University extension, US. https://hort.extension.wisc.edu/articles/black-spot/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:WISC-BS)",
+    "url": "https://hort.extension.wisc.edu/articles/black-spot/",
+    "register_code": "SPRAYING:WISC-BS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000248",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Gary W. Moorman, Penn State Extension — \"Rose Diseases (Outdoors)\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-17 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "Gary W. Moorman, Penn State Extension, \"Rose Diseases (Outdoors)\", Updated 15 November 2023. University extension, US. https://extension.psu.edu/rose-diseases-outdoors, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:PSU-RD)",
+    "url": "https://extension.psu.edu/rose-diseases-outdoors",
+    "register_code": "SPRAYING:PSU-RD",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000249",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Janet McLeod Scott and Joey Williamson, Clemson Home & Garden Information Center — \"Rose Insects & Related Pests\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-6 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-22 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-23 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-24 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "Janet McLeod Scott and Joey Williamson, Clemson Home & Garden Information Center, \"Rose Insects & Related Pests\", Updated 11 October 2024. University extension, US. https://hgic.clemson.edu/factsheet/rose-insects-related-pests/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:CLEM-INS)",
+    "url": "https://hgic.clemson.edu/factsheet/rose-insects-related-pests/",
+    "register_code": "SPRAYING:CLEM-INS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000250",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Gaye Hammond — \"Fungicides Made Simple\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-12 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society article (individual rosarian), US",
+    "identity": "Gaye Hammond, \"Fungicides Made Simple\" (first published in *Basal Breaks*, Tri-State Rose Society of Chattanooga, Summer 2013), on the American Rose Society website, Posted 17 July 2024 (article 2013). Rose society article (individual rosarian), US. https://rose.org/fungicides-made-simple/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:ARS-FUNG)",
+    "url": "https://rose.org/fungicides-made-simple/",
+    "register_code": "SPRAYING:ARS-FUNG",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000251",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Zlesak, D.C., Whitaker, V.M., George, S. and Hokanson, S.C. (2010) — \"Evaluation of Roses from the Earth-Kind® Trials: Black Spot (*Diplocarpon rosae* Wolf) Resistance and Ploidy\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-3 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Peer-reviewed journal, US",
+    "identity": "Zlesak, D.C., Whitaker, V.M., George, S. and Hokanson, S.C. (2010), \"Evaluation of Roses from the Earth-Kind® Trials: Black Spot (*Diplocarpon rosae* Wolf) Resistance and Ploidy\", *HortScience* 45(12): 1779–1787, DOI 10.21273/HORTSCI.45.12.1779 (read at abstract level via the Texas A&M Scholars record), 2010. Peer-reviewed journal, US. https://scholars.library.tamu.edu/vivo/display/n320746SE, accessed 1 October 2026 (register code SPRAYING:ZLESAK)",
+    "url": "https://scholars.library.tamu.edu/vivo/display/n320746SE",
+    "register_code": "SPRAYING:ZLESAK",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000252",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "The New Zealand Rose Society — \"Auckland Botanic Gardens\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, New Zealand",
+    "identity": "The New Zealand Rose Society, \"Auckland Botanic Gardens\", 7 February 2016 (modified 31 May 2017). Rose society, New Zealand. https://nzroses.org.nz/auckland-botanic-gardens/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:NZRS-ABG)",
+    "url": "https://nzroses.org.nz/auckland-botanic-gardens/",
+    "register_code": "SPRAYING:NZRS-ABG",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000253",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Auckland Botanic Gardens — \"Roses\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public botanic garden (Auckland Council), New Zealand",
+    "identity": "Auckland Botanic Gardens, \"Roses\" (garden advice), date not shown. Public botanic garden (Auckland Council), New Zealand. https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:ABG-R)",
+    "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+    "register_code": "SPRAYING:ABG-R",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000254",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Bodley, E., Lollback, P., Hobbs, J., Brewer, M. and Stanley, R. (2022) — \"Growing roses without chemicals: transitioning the collection at Auckland Botanic Gardens (New Zealand) 2000–2020\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-10 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Peer-reviewed journal (botanic garden horticulture), New Zealand",
+    "identity": "Bodley, E., Lollback, P., Hobbs, J., Brewer, M. and Stanley, R. (2022), \"Growing roses without chemicals: transitioning the collection at Auckland Botanic Gardens (New Zealand) 2000–2020\", *Sibbaldia* 21: 93–108, DOI 10.24823/Sibbaldia.2022.353, 2022. Peer-reviewed journal (botanic garden horticulture), New Zealand. https://journals.rbge.org.uk/rbgesib/article/view/353, accessed 1 October 2026 (register code SPRAYING:SIBB)",
+    "url": "https://journals.rbge.org.uk/rbgesib/article/view/353",
+    "register_code": "SPRAYING:SIBB",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000255",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Hayden Foulds, GrownUps New Zealand — \"Diseases of Roses\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-12 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-17 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-35 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "General-interest website (rose column), New Zealand",
+    "identity": "Hayden Foulds, GrownUps New Zealand, \"Diseases of Roses\", date not shown. General-interest website (rose column), New Zealand. https://grownups.co.nz/life/gardening/hayden-foulds-rose-diseases/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:GU-DIS)",
+    "url": "https://grownups.co.nz/life/gardening/hayden-foulds-rose-diseases/",
+    "register_code": "SPRAYING:GU-DIS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000256",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Dr Dan Blanchon (Unitec), Royal New Zealand Institute of Horticulture Plant Doctor — \"Rust and black spot on roses\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-13 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-39 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-44 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural institute (question and answer), New Zealand",
+    "identity": "Dr Dan Blanchon (Unitec), Royal New Zealand Institute of Horticulture Plant Doctor, \"Rust and black spot on roses\", 27 June 2005. Horticultural institute (question and answer), New Zealand. https://www.rnzih.org.nz/Plant_Doctor/Rust_black_spot.htm, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:RNZIH)",
+    "url": "https://www.rnzih.org.nz/Plant_Doctor/Rust_black_spot.htm",
+    "register_code": "SPRAYING:RNZIH",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000257",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Environmental Protection Authority — \"Bees and other pollinators\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-32 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-34 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Government regulator, New Zealand",
+    "identity": "Environmental Protection Authority, \"Bees and other pollinators\", date not shown. Government regulator, New Zealand. https://www.epa.govt.nz/everyday-environment/animals-and-insects/bees/, accessed 1 October 2026 (register code SPRAYING:EPA-NZ)",
+    "url": "https://www.epa.govt.nz/everyday-environment/animals-and-insects/bees/",
+    "register_code": "SPRAYING:EPA-NZ",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000258",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Luke Harrison, Consumer NZ — \"Bees and insecticides\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-32 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Consumer organisation, New Zealand",
+    "identity": "Luke Harrison, Consumer NZ, \"Bees and insecticides\", 5 December 2012. Consumer organisation, New Zealand. https://www.consumer.org.nz/articles/bees-and-insecticides, accessed 1 October 2026 (register code SPRAYING:CONS-NZ)",
+    "url": "https://www.consumer.org.nz/articles/bees-and-insecticides",
+    "register_code": "SPRAYING:CONS-NZ",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000259",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "ABC Gardening Australia (Sophie Thomson) — \"Looking After Roses\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-26 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster, Australia",
+    "identity": "ABC Gardening Australia (Sophie Thomson), \"Looking After Roses\", 3 July 2010. Public broadcaster, Australia. https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:GA-LOOK)",
+    "url": "https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348",
+    "register_code": "SPRAYING:GA-LOOK",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000260",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "ABC Gardening Australia (Jane Edmanson) — \"How to Prune Roses\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-27 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster, Australia",
+    "identity": "ABC Gardening Australia (Jane Edmanson), \"How to Prune Roses\", 17 August 2013. Public broadcaster, Australia. https://www.abc.net.au/gardening/how-to/how-to-prune-roses/9434872, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:GA-PRUNE)",
+    "url": "https://www.abc.net.au/gardening/how-to/how-to-prune-roses/9434872",
+    "register_code": "SPRAYING:GA-PRUNE",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000261",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "ABC Gardening Australia (Sophie Thomson) — \"Rose Pruning\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-27 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster, Australia",
+    "identity": "ABC Gardening Australia (Sophie Thomson), \"Rose Pruning\", 27 June 2009. Public broadcaster, Australia. https://www.abc.net.au/gardening/factsheets/rose-pruning/9430014, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:GA-RP)",
+    "url": "https://www.abc.net.au/gardening/factsheets/rose-pruning/9430014",
+    "register_code": "SPRAYING:GA-RP",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000262",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "ABC Gardening Australia (Colin Campbell) — \"Black Spot Control\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-17 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-39 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-44 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster, Australia",
+    "identity": "ABC Gardening Australia (Colin Campbell), \"Black Spot Control\", 31 March 2007. Public broadcaster, Australia. https://www.abc.net.au/gardening/factsheets/black-spot-control/9427620, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:GA-BS)",
+    "url": "https://www.abc.net.au/gardening/factsheets/black-spot-control/9427620",
+    "register_code": "SPRAYING:GA-BS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000263",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Ross Roses — \"Spraying Roses\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-6 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-22 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-23 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-31 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-33 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-40 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), Australia",
+    "identity": "Ross Roses, \"Spraying Roses\", date not shown. Commercial (rose nursery), Australia. https://rossroses.com.au/spraying-roses/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:ROSS-SP)",
+    "url": "https://rossroses.com.au/spraying-roses/",
+    "register_code": "SPRAYING:ROSS-SP",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000264",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "South Pacific Roses — \"Spraying Your Roses\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-13 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-26 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-28 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-41 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-43 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), New Zealand",
+    "identity": "South Pacific Roses, \"Spraying Your Roses\", date not shown. Commercial (rose nursery), New Zealand. https://southpacificroses.co.nz/spraying-your-roses/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:SPR)",
+    "url": "https://southpacificroses.co.nz/spraying-your-roses/",
+    "register_code": "SPRAYING:SPR",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000265",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Treloar Roses — \"Black Spot\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-26 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-33 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), Australia",
+    "identity": "Treloar Roses, \"Black Spot\", date not shown. Commercial (rose nursery), Australia. https://www.treloarroses.com.au/Black-Spot-Roses, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:TRE-BS)",
+    "url": "https://www.treloarroses.com.au/Black-Spot-Roses",
+    "register_code": "SPRAYING:TRE-BS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000266",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Tui Garden — \"My roses have black spot, what can I do?\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden products), New Zealand",
+    "identity": "Tui Garden, \"My roses have black spot, what can I do?\", date not shown. Commercial (garden products), New Zealand. https://tuigarden.co.nz/garden-questions/my-roses-have-black-spot-what-can-i-do/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:TUI)",
+    "url": "https://tuigarden.co.nz/garden-questions/my-roses-have-black-spot-what-can-i-do/",
+    "register_code": "SPRAYING:TUI",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000267",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Eutrema (Russell) — \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-28 (Low)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden products), UK",
+    "identity": "Eutrema (Russell), \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\", 24 June 2023. Commercial (garden products), UK. https://eutrema.co.uk/controlling-black-spot-on-roses-unleashing-the-power-of-lime-sulphur/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:EUTREMA)",
+    "url": "https://eutrema.co.uk/controlling-black-spot-on-roses-unleashing-the-power-of-lime-sulphur/",
+    "register_code": "SPRAYING:EUTREMA",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
    }
   }
  ]

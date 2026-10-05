@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000259",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "ABC Gardening Australia (Sophie Thomson) — \"Looking After Roses\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-26 (Low)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Public broadcaster, Australia",
+    "identity": "ABC Gardening Australia (Sophie Thomson), \"Looking After Roses\", 3 July 2010. Public broadcaster, Australia. https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:GA-LOOK)",
+    "url": "https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348",
+    "register_code": "SPRAYING:GA-LOOK",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}

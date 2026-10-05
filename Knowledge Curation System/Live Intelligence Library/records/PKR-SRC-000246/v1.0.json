@@ -1,0 +1,41 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000246",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Maryland Extension — \"Black Spot Disease of Roses\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-10 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-12 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-17 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension, US",
+    "identity": "University of Maryland Extension, \"Black Spot Disease of Roses\", 20 April 2021. University extension, US. https://extension.umd.edu/resource/black-spot-disease-roses, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:UMD-BS)",
+    "url": "https://extension.umd.edu/resource/black-spot-disease-roses",
+    "register_code": "SPRAYING:UMD-BS",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}

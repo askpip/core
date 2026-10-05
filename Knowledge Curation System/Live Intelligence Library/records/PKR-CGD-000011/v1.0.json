@@ -1,0 +1,120 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000011",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Which sprays are used for black spot and mildew?",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000073",
+      "PKR-SRC-000097",
+      "PKR-SRC-000240",
+      "PKR-SRC-000243",
+      "PKR-SRC-000244",
+      "PKR-SRC-000245",
+      "PKR-SRC-000247",
+      "PKR-SRC-000250",
+      "PKR-SRC-000256",
+      "PKR-SRC-000257",
+      "PKR-SRC-000258",
+      "PKR-SRC-000262",
+      "PKR-SRC-000263",
+      "PKR-SRC-000265"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000009"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000012"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000014"
+      }
+    ],
+    "preserved_uncertainty": "The Royal Horticultural Society recommends against all fungicides, organic types included (C-1). Sources disagree about home-made sprays, and neither view is clearly better supported (C-8). The University of California doesn't list copper for black spot, and a gardener writing to the Royal New Zealand Institute of Horticulture reported disease in wet weather despite a copper spray. Wisconsin says neem oil gives only \"some\" control. The synthetic fungicides are named by US sources; which spray types are approved for home gardeners in each country was not established (R-1). Brand names and mixing amounts are not given.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Which sprays are used for black spot and mildew?",
+    "label": null,
+    "items": [
+      {
+        "text": "Oils, including neem oil, and sulphur are used against black spot and powdery mildew. One source also names potassium bicarbonate.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-21"
+        ]
+      },
+      {
+        "text": "Copper sprays are used against black spot.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-39"
+        ]
+      },
+      {
+        "text": "US university sources name synthetic fungicides for black spot, most often chlorothalonil. I couldn't find which are approved for home gardeners in each country, so use only a product labelled for roses where you live.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-40",
+          "R-1"
+        ]
+      },
+      {
+        "text": "Experts disagree about home-made sprays such as a baking soda mix. Some suggest them. The Royal Horticultural Society advises against them, because they are unregulated and usually untested.",
+        "kind": "disagreement",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-44",
+          "C-8"
+        ]
+      },
+      {
+        "text": "I name types of spray, not brands. For how much to use, follow the product's label.",
+        "kind": "framing",
+        "trace": [
+          "Research Commission Record §5",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "One source says not to put oil on a plant that is short of water, or within two weeks of a sulphur spray.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-42"
+        ]
+      },
+      {
+        "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+        "kind": "framing",
+        "trace": [
+          "rule 7",
+          "ARC-BUSHROSE-SPRAYING-01 AF-30",
+          "ARC-BUSHROSE-SPRAYING-01 AF-34"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "spraying",
+        "topic_title": "Spraying",
+        "order": 3
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}

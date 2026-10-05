@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-SPRAYING-01** |
 | ARC Title | Spraying an Established Bush Rose: Whether, When and How Often |
-| Version | 1.0 |
+| Version | 1.1 |
 | Approval Status | **Approved** |
 | Approval Date | 5 October 2026 |
 | Approving Authority | AskPIP Founder Authority (a Founder, in chat, 5 October 2026) |
@@ -15,9 +15,9 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-SPRAYING-02` §8 (all 45 Assessed Findings), reproduced at §4A |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding (§3). No single blended level (EAS §2.9, §3.2) |
 | Related ARCs | `ARC-BUSHROSE-BASICCARE-01` (F6 problems to watch for and watering at the base; F11 clearing fallen leaves before winter; F12 noticing signs early). `ARC-BUSHROSE-NOFLOWERS-01` (AF-31, black spot and flowering). |
-| Revision History | v1.0 — 5 October 2026 — created from `FRD-BUSHROSE-SPRAYING-02`, Founder-approved for AF-1 to AF-45 as a whole, with each finding's Use status and Build Check status (ROC Operations Manual §12.5) and a Source Register (§8, ROC Operations Manual §12.6). |
+| Revision History | v1.0 — 5 October 2026 — created from `FRD-BUSHROSE-SPRAYING-02`, Founder-approved for AF-1 to AF-45 as a whole, with each finding's Use status and Build Check status (ROC Operations Manual §12.5) and a Source Register (§8, ROC Operations Manual §12.6). v1.1 — 5 October 2026 — corrections found by the Build Check, authorised by a Founder on the Build Check Form on 5 October 2026: §4B added, which governs where it differs from §4, §4A, §5, §6.1 and §7; AF-26 changed from Moderate to Low and to on record only; Build Check status entered for every finding (§3); one date corrected in the Source Register (§8). No finding was added or removed. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
-| Related Documents | Pip Knowledge Rules v0.1; Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS) v1.4; Founder Review Dossier Standard (FRDS) v1.4; ROC Operations Manual v2.10 |
+| Related Documents | Pip Knowledge Rules v0.3 (v0.1 when approved); Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS) v1.4; Founder Review Dossier Standard (FRDS) v1.4; ROC Operations Manual v2.10 |
 
 ---
 
@@ -54,67 +54,69 @@ Under ROC Operations Manual §11.9 and §12.2, this ARC is created following doc
 3. **Authorised next stage.** KIT builds the PKRs. The ROC carries out the Build Check on everything KIT builds, before it is published to the Live Intelligence Library (ROC Operations Manual Chapter 14).
 4. **Standing decisions apply** (Pip Knowledge Rules §7): Pip tells gardeners where its information comes from; Pip is "it" and speaks in the first person; Pip works out where a gardener is from the device's location where the gardener allows it, and otherwise from the place given for that plant in its journal entry.
 
+**Corrections authorised (Version 1.1).** The Build Check on 5 October 2026 found findings worded more strongly than their sources (§4B). A Founder authorised the corrections on the Build Check Form on 5 October 2026: "Approve for publishing, and make the corrections to the research record listed in Brief section 4." They are made in §4B. What is published to the Live Intelligence Library follows the corrected record.
+
 ---
 
 ## 3. Approved Findings — Summary
 
-**Use status** is set by the Pip Knowledge Rules §3 from each finding's Evidence Confidence Level (ROC Operations Manual §11.4A). **Build Check status** records the date and result of the Build Check that covered the finding (ROC Operations Manual §12.5, §14.6).
+**Use status** is set by the Pip Knowledge Rules §3 from each finding's Evidence Confidence Level (ROC Operations Manual §11.4A). **Build Check status** records the date and result of the Build Check that covered the finding (ROC Operations Manual §12.5, §14.6). "Quotations confirmed" means every recorded quotation for the finding that is in the Source Register was found on its page.
 
 | Finding | Subject | Evidence Confidence Level | Use status | Build Check status |
 |---|---|---|---|---|
-| AF-1 | Roses can be grown well with little or no spraying, including in New Zealand | High | Available to Pip | Not yet checked |
-| AF-2 | Choosing disease-resistant or disease-tolerant varieties is a principal way to reduce disease | High | Available to Pip | Not yet checked |
-| AF-3 | Claimed disease resistance may not last, and may vary by region | Moderate | Available to Pip | Not yet checked |
-| AF-4 | Many popular Hybrid Tea and Floribunda roses are susceptible, and some sources say susceptible roses need regular fungicide to stay healthy | Moderate | Available to Pip | Not yet checked |
-| AF-5 | The RHS recommends that gardeners don't use fungicides on roses | High | Available to Pip | Not yet checked |
-| AF-6 | Several sources treat pesticides as a last resort, after non-chemical measures | High | Available to Pip | Not yet checked |
-| AF-7 | Fungicides for rose leaf diseases work by protecting leaves before infection, not by curing it | High | Available to Pip | Not yet checked |
-| AF-8 | Black spot is the most common rose fungal disease and depends on leaves staying wet | Moderate | Available to Pip | Not yet checked |
-| AF-9 | Where regular spraying is described, the stated repeat interval is about one to two weeks, and the label sets it | Moderate | Available to Pip | Not yet checked |
-| AF-10 | Where regular spraying is described, it runs from the first new leaves after winter through the growing season | Moderate | Available to Pip | Not yet checked |
-| AF-11 | Spraying need and frequency rise with wet weather, a history of disease, or a heavy outbreak | Moderate | Available to Pip | Not yet checked |
-| AF-12 | Sources that spray advise alternating or rotating fungicides to slow resistance | High | Available to Pip | Not yet checked |
-| AF-13 | Trying to keep roses completely disease-free can mean frequent spraying that may not be justified | Low | On record only | Not yet checked |
-| AF-14 | Removing fallen leaves and infected stems, especially before and during winter, reduces disease the next season | Very High | Available to Pip | Not yet checked |
-| AF-15 | Infected leaves and shoots are removed during the season as soon as they are seen | High | Available to Pip | Not yet checked |
-| AF-16 | Diseased leaves and prunings are disposed of, not composted | Moderate | Available to Pip | Not yet checked |
-| AF-17 | Watering at the base and keeping leaves dry reduces leaf disease | High | Available to Pip | Not yet checked |
-| AF-18 | Powdery mildew is an exception: water on the leaves can reduce it | Moderate | Available to Pip | Not yet checked |
-| AF-19 | Sun, spacing and air movement reduce leaf disease | High | Available to Pip | Not yet checked |
-| AF-20 | Well-watered, well-fed roses are described as better at resisting disease | Moderate | Available to Pip | Not yet checked |
-| AF-21 | Lower-toxicity fungicide types (oils including neem oil, sulfur and potassium bicarbonate) are named for black spot and powdery mildew | High | Available to Pip | Not yet checked |
-| AF-22 | Aphids: tolerate low numbers, rely on natural enemies, squash or hose them off | High | Available to Pip | Not yet checked |
-| AF-23 | Insecticidal soaps and horticultural oils are described as lower-impact aphid sprays | Moderate | Available to Pip | Not yet checked |
-| AF-24 | Broad-spectrum insecticides harm natural enemies and can lead to repeat pest outbreaks | High | Available to Pip | Not yet checked |
-| AF-25 | New Zealand and Australian rose sources describe a winter clean-up spray after pruning | Moderate | Available to Pip in New Zealand and Australia (rule 4) | Not yet checked |
-| AF-26 | That winter spray is applied after pruning and after prunings and leaves are cleared, to the plant and the ground | Moderate | Available to Pip in New Zealand and Australia (rule 4) | Not yet checked |
-| AF-27 | The stated purpose of the winter spray is to clean up fungal spores and overwintering mites and insects | Low | On record only | Not yet checked |
-| AF-28 | Sources differ on the order and spacing of winter sprays; one rose society says lime sulphur and copper are kept two weeks apart | Low | Available to Pip, as a precaution (rule 7) | Not yet checked |
-| AF-29 | The UK and US institutional pages consulted don't describe a winter spray after pruning | Low | Available to Pip only to say there is a gap (rule 5) | Not yet checked |
-| AF-30 | Product choice, rates and frequency follow the product label; in the UK, following the label is a legal requirement | Very High | Available to Pip | Not yet checked |
-| AF-31 | Protective equipment and sprayer cleaning are each stated by few sources | Low | Available to Pip, as a precaution (rule 7) | Not yet checked |
-| AF-32 | Don't spray open flowers or when bees are foraging; one New Zealand source says spray only in the evening | High | Available to Pip | Not yet checked |
-| AF-33 | Two nurseries say not to spray in hot conditions | Low | Available to Pip, as a precaution (rule 7) | Not yet checked |
-| AF-34 | Which products may be sold and used is set by each country's regulator, and approvals change | Moderate | Available to Pip | Not yet checked |
-| AF-35 | One New Zealand source says to ask a local rose society or garden centre before spraying | Low | On record only | Not yet checked |
-| AF-36 | Copper, often with a spraying oil, is named as a winter spray after pruning by New Zealand and Australian rose sources | Moderate | Available to Pip in New Zealand and Australia (rule 4) | Not yet checked |
-| AF-37 | Lime sulphur is named as a winter spray after pruning by New Zealand and Australian rose sources | Moderate | Available to Pip in New Zealand and Australia (rule 4) | Not yet checked |
-| AF-38 | A spraying oil is used in winter, with or after the other winter sprays | Moderate | Available to Pip in New Zealand and Australia (rule 4) | Not yet checked |
-| AF-39 | Copper is among the fungicides sources name for black spot in the growing season | Moderate | Available to Pip | Not yet checked |
-| AF-40 | US university extension services name synthetic fungicides for black spot, most often chlorothalonil | High | Available to Pip | Not yet checked |
-| AF-41 | One New Zealand rose nursery says lime sulphur and oil must never be mixed or sprayed together | Low | Available to Pip, as a precaution (rule 7) | Not yet checked |
-| AF-42 | One US extension service says oils are not applied to a plant short of water, or within two weeks of a sulfur spray | Low | Available to Pip, as a precaution (rule 7) | Not yet checked |
-| AF-43 | One New Zealand rose nursery says copper washes off in rain and may need reapplying | Low | On record only | Not yet checked |
-| AF-44 | Sources disagree about home-made sprays such as a baking soda mix | Moderate | Available to Pip | Not yet checked |
-| AF-45 | One US extension service says copper fungicides can be used on dormant bushes | Low | Available to Pip in the United States, saying only one source was found (rule 4) | Not yet checked |
+| AF-1 | Roses can be grown well with little or no spraying, including in New Zealand | High | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-2 | Choosing disease-resistant or disease-tolerant varieties is a principal way to reduce disease | High | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-3 | Claimed disease resistance may not last, and may vary by region | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-4 | Many popular Hybrid Tea and Floribunda roses are susceptible, and some sources say susceptible roses need regular fungicide to stay healthy | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-5 | The RHS recommends that gardeners don't use fungicides on roses | High | Available to Pip | 5 Oct 2026: quotations confirmed |
+| AF-6 | Several sources treat pesticides as a last resort, after non-chemical measures | High | Available to Pip | 5 Oct 2026: quotations confirmed |
+| AF-7 | Fungicides for rose leaf diseases work by protecting leaves before infection, not by curing it | High | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-8 | Black spot is the most common rose fungal disease and depends on leaves staying wet | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-9 | Where regular spraying is described, the stated repeat interval is about one to two weeks, and the label sets it | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-10 | Where regular spraying is described, it runs from the first new leaves after winter through the growing season | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-11 | Spraying need and frequency rise with wet weather, a history of disease, or a heavy outbreak | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-12 | Sources that spray advise alternating or rotating fungicides to slow resistance | High | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-13 | Trying to keep roses completely disease-free can mean frequent spraying that may not be justified | Low | On record only | Not checked: on record only, so nothing was built from it |
+| AF-14 | Removing fallen leaves and infected stems, especially before and during winter, reduces disease the next season | Very High | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-15 | Infected leaves and shoots are removed during the season as soon as they are seen | High | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-16 | Diseased leaves and prunings are disposed of, not composted | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-17 | Watering at the base and keeping leaves dry reduces leaf disease | High | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-18 | Powdery mildew is an exception: water on the leaves can reduce it | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; one further quotation not confirmed (§4B) |
+| AF-19 | Sun, spacing and air movement reduce leaf disease | High | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-20 | Well-watered, well-fed roses are described as better at resisting disease | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-21 | Lower-toxicity fungicide types (oils including neem oil, sulfur and potassium bicarbonate) are named for black spot and powdery mildew | High | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-22 | Aphids: tolerate low numbers, rely on natural enemies, squash or hose them off | High | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-23 | Insecticidal soaps and horticultural oils are described as lower-impact aphid sprays | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-24 | Broad-spectrum insecticides harm natural enemies and can lead to repeat pest outbreaks | High | Available to Pip | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-25 | New Zealand and Australian rose sources describe a winter clean-up spray after pruning | Moderate | Available to Pip in New Zealand and Australia (rule 4) | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-26 | That winter spray is applied after pruning and after prunings and leaves are cleared, to the plant and the ground | Low (was Moderate; §4B) | On record only | 5 Oct 2026: quotations confirmed; level corrected to Low (§4B) |
+| AF-27 | The stated purpose of the winter spray is to clean up fungal spores and overwintering mites and insects | Low | On record only | Not checked: on record only, so nothing was built from it |
+| AF-28 | Sources differ on the order and spacing of winter sprays; one rose society says lime sulphur and copper are kept two weeks apart | Low | Available to Pip, as a precaution (rule 7) | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-29 | The UK and US institutional pages consulted don't describe a winter spray after pruning | Low | Available to Pip only to say there is a gap (rule 5) | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-30 | Product choice, rates and frequency follow the product label; in the UK, following the label is a legal requirement | Very High | Available to Pip | 5 Oct 2026: quotations confirmed |
+| AF-31 | Protective equipment and sprayer cleaning are each stated by few sources | Low | Available to Pip, as a precaution (rule 7) | 5 Oct 2026: quotations confirmed |
+| AF-32 | Don't spray open flowers or when bees are foraging; one New Zealand source says spray only in the evening | High | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added; one further quotation not confirmed (§4B) |
+| AF-33 | Two nurseries say not to spray in hot conditions | Low | Available to Pip, as a precaution (rule 7) | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-34 | Which products may be sold and used is set by each country's regulator, and approvals change | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed |
+| AF-35 | One New Zealand source says to ask a local rose society or garden centre before spraying | Low | On record only | Not checked: on record only, so nothing was built from it |
+| AF-36 | Copper, often with a spraying oil, is named as a winter spray after pruning by New Zealand and Australian rose sources | Moderate | Available to Pip in New Zealand and Australia (rule 4) | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-37 | Lime sulphur is named as a winter spray after pruning by New Zealand and Australian rose sources | Moderate | Available to Pip in New Zealand and Australia (rule 4) | 5 Oct 2026: quotations confirmed; wording corrected (§4B) |
+| AF-38 | A spraying oil is used in winter, with or after the other winter sprays | Moderate | Available to Pip in New Zealand and Australia (rule 4) | 5 Oct 2026: quotations confirmed |
+| AF-39 | Copper is among the fungicides sources name for black spot in the growing season | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-40 | US university extension services name synthetic fungicides for black spot, most often chlorothalonil | High | Available to Pip | 5 Oct 2026: quotations confirmed; limitation added (§4B) |
+| AF-41 | One New Zealand rose nursery says lime sulphur and oil must never be mixed or sprayed together | Low | Available to Pip, as a precaution (rule 7) | 5 Oct 2026: quotations confirmed |
+| AF-42 | One US extension service says oils are not applied to a plant short of water, or within two weeks of a sulfur spray | Low | Available to Pip, as a precaution (rule 7) | 5 Oct 2026: quotations confirmed |
+| AF-43 | One New Zealand rose nursery says copper washes off in rain and may need reapplying | Low | On record only | Not checked: on record only, so nothing was built from it |
+| AF-44 | Sources disagree about home-made sprays such as a baking soda mix | Moderate | Available to Pip | 5 Oct 2026: quotations confirmed |
+| AF-45 | One US extension service says copper fungicides can be used on dormant bushes | Low | Available to Pip in the United States, saying only one source was found (rule 4) | 5 Oct 2026: quotation confirmed; not used in Pip's answers (§4B) |
 
-Of the 45 findings, 29 are available to Pip without condition, 5 in New Zealand and Australia, 1 in the United States, 5 as precautions and 1 to say there is a gap. 4 are on record only.
+Of the 45 findings, 29 are available to Pip without condition, 4 in New Zealand and Australia, 1 in the United States, 5 as precautions and 1 to say there is a gap. 5 are on record only (AF-13, AF-26, AF-27, AF-35, AF-43). The subjects above are as approved in Version 1.0; where §4B corrects a finding's wording, §4B governs.
 
 ---
 
 ## 4. Approved Findings — Full Content
 
-Reproduced from `FRD-BUSHROSE-SPRAYING-02` §7 as approved. Source codes refer to the Source Register at §8. Each finding is one claim. Brand names and mixing rates given by sources are not reproduced.
+Reproduced from `FRD-BUSHROSE-SPRAYING-02` §7 as approved. **Read with §4B, which corrects 14 of these findings and adds limitations to 16. Where they differ, §4B governs.** Source codes refer to the Source Register at §8. Each finding is one claim. Brand names and mixing rates given by sources are not reproduced.
 
 #### Whether a rose needs spraying (Q1)
 
@@ -218,6 +220,8 @@ Reproduced from `FRD-BUSHROSE-SPRAYING-02` §7 as approved. Source codes refer t
 
 ### 4A. Evidence Assessment
 
+*Read with §4B: AF-26 is corrected to Low, and limitations are added to 16 findings.*
+
 Assessed by the ROC role under the Evidence Assessment Standard, for commission `BUSHROSE-SPRAYING`: AF-1 to AF-35 on 1 October 2026; AF-21, AF-23 and AF-29 reassessed, and AF-36 to AF-45 assessed, on 5 October 2026. Each finding is assessed on its own; no level raises or lowers another.
 
 | Finding | Level | Rationale and strengths | Limitations | Remaining uncertainty |
@@ -268,6 +272,72 @@ Assessed by the ROC role under the Evidence Assessment Standard, for commission 
 | AF-44 | **Moderate** | Four sources address it: an extension service and a broadcaster suggest a baking soda mix; the RHS recommends against home-made products; an RNZIH expert calls them no cure-all. | The sources disagree (C-8). | Whether home-made mixes work. |
 | AF-45 | **Low** | Stated directly by Clemson Extension, and confirmed on a second reading of the page. | Single source; stated under botrytis blight. | Whether other US institutional guidance says the same. |
 
+### 4B. Corrections from the Build Check (Version 1.1)
+
+**Authority.** A Founder authorised these corrections on the Build Check Form on 5 October 2026 (§2). **Where this section differs from §4, §4A, §5, §6.1 or §7, this section governs.**
+
+**What the Build Check found.** The ROC reopened all 35 sources that findings rely on and looked for each of the 187 quotations recorded in the Source Register. Every one was found on its page. 136 fully support the finding they are recorded against, 50 support part of it, and 1 does not support it (AF-39, below). So the quotations are sound, and in the findings below the wording said more than the sources do. The results are in `Working/AI Outputs/Build_Check_SPRAYING_sources_2026-10-05.json`. The four findings that are on record only (AF-13, AF-27, AF-35, AF-43) had nothing built from them and were not checked.
+
+#### 4B.1 Wording corrected
+
+No Evidence Confidence Level changes here except AF-26.
+
+| Finding | As approved in Version 1.0 | Corrected reading |
+|---|---|---|
+| AF-2 | Choosing disease-resistant or disease-tolerant varieties is "a principal way" to reduce disease | Sources say to choose disease-resistant or disease-tolerant varieties to reduce disease. None ranks it against other measures. |
+| AF-4 | Many popular Hybrid Tea and Floribunda roses are susceptible, and some sources say susceptible roses need regular fungicide to stay healthy | Each source says something different. The RHS says popular cultivars are often susceptible to black spot. One rosarian's article says susceptible roses need some application of fungicide. The University of Maryland says most people will need regular sprays for adequate control of black spot. The Rose Society of NSW says regular spraying helps keep roses healthy, of pests and diseases generally. |
+| AF-7 | Fungicides work by protecting leaves before infection, "not by curing it" | Fungicides generally protect leaves before infection. One source also mentions curative products, and one says spraying slows the disease. |
+| AF-8 | Black spot is the most common rose fungal disease and depends on leaves staying wet | Sources tie black spot to wet leaves. One rose society calls it the most commonly occurring fungal disease of roses. |
+| AF-10 and C-7 | SIBB records "Auckland Botanic Gardens' former programme" | SIBB records a regime the Gardens once recommended to home gardeners, not the Gardens' own programme. The quotation is in the paper's full-text PDF, not on the page first listed. One source (WISC-BS) ends the spraying period when wet weather subsides, not at the end of the growing season. |
+| AF-11 | Spraying need and frequency rise with wet weather, a history of disease, or a heavy outbreak | Each condition is given by one source, and conditionally. |
+| AF-17 | Watering at the base and keeping leaves dry reduces leaf disease | Sources say to avoid overhead watering and to keep leaves dry. One source says to water around the roots. |
+| AF-21 | "Lower-toxicity fungicide types" (oils including neem oil, sulfur and potassium bicarbonate) are named for black spot and powdery mildew | Oils including neem oil, and sulfur, are named for black spot and powdery mildew. No quotation calls them lower-toxicity. Potassium bicarbonate is named by the University of California only; Clemson names baking soda with oil, under powdery mildew. |
+| AF-22 | Aphids: tolerate low numbers, rely on natural enemies, squash or hose them off | Squashing is the RHS's advice only. One of the five sources (UMD-PROB) supports natural enemies only. |
+| AF-24 | "Broad-spectrum insecticides" harm natural enemies and can lead to repeat pest outbreaks | "Higher-toxicity or broad-spectrum insecticides": each source names a class in its own terms, and one speaks of control measures generally. |
+| AF-26 | Moderate. Available to Pip in New Zealand and Australia. | **Low. On record only.** Two sources, a broadcaster and a nursery, both Australian, say the spray goes on after clearing up, onto the plant and the ground. The third (SPR) says only to prune first. By the yardstick used for the other findings, two such sources are Low. |
+| AF-33 | Two nurseries say not to spray in hot conditions | One nursery says never to spray in the heat of the day. The other gives a temperature limit for its winter sprays only. |
+| AF-36 | Copper, often with a spraying oil, is named "as a winter spray after pruning" | Sources name copper for the winter clean-up and differ on timing: two put it on after winter pruning, one through winter and into early spring, one at the first sign of spring growth. |
+| AF-37 | Lime sulphur is named "as a winter spray after pruning" | The New Zealand Rose Society names it as a June clean-up spray, not tied to pruning. |
+
+#### 4B.2 Limitations added
+
+Wording and Evidence Confidence Level are unchanged. In each, one or more of the listed sources supports only part of the finding.
+
+| Finding | Limitation added |
+|---|---|
+| AF-1 | Three of the seven sources support it in part: UCIPM-DIS says it of fungicides, especially in California's dry interior valleys; UCIPM-INS says it of insecticides; ZLESAK describes how trials are run. None of the three mentions New Zealand. |
+| AF-3 | "May not last" is stated by the RHS only, on two pages. UMD-BS supports the regional variation only. ZLESAK states neither. |
+| AF-9 | Three of the six sources support it in part: SPR gives an interval and does not refer to the label; TRE-BS gives a weekly interval for one organic routine; ARS-FUNG describes how long a contact fungicide stays effective, not a repeat interval. |
+| AF-12 | UMD-BS advises alternating fungicide types and gives no reason. |
+| AF-14 | ABG-R gives the purpose as keeping plants healthy and does not mention winter or the next season. |
+| AF-15 | RNZIH says to remove diseased leaves, without "as soon as seen". The RHS-BS sentence is about pruning out stem lesions in spring. |
+| AF-16 | GA-BS says to bag the leaves and leave them in the sun. It does not say not to compost them. |
+| AF-19 | NZRS-FAQ supports full sun and mixed planting only. |
+| AF-20 | ABG-R covers feeding only, and says "healthy", not disease resistance. |
+| AF-23 | CLEM-INS names insecticidal soap for aphids directly. It names horticultural oil for aphids only within a list of contact insecticides, and its low-toxicity wording is about mites. |
+| AF-25 | NZRS-W recommends its June clean-up sprays without tying them to pruning, and describes a spray after pruning separately. TUI does not mention pruning. |
+| AF-28 | EUTREMA gives lime sulphur timing only, and nothing on copper or on spacing. |
+| AF-29 | CLEM-DIS describes no spray after pruning, but it does say copper fungicides can be used on dormant bushes (AF-45). |
+| AF-32 | UCIPM-INS says soil-applied systemic insecticides may harm pollinators; it does not address spraying flowers. UMD-PROB's sentence is about fungicides and does not mention bees foraging or time of day. |
+| AF-39 | The RNZIH quotation is in a gardener's question, not the expert's answer, and does not support the finding. Three sources support it. |
+| AF-40 | ROSS-SP is an Australian nursery and names other synthetic fungicides. The finding rests on the three US university sources. |
+
+#### 4B.3 Quotations not confirmed
+
+Two quotations appear in §4 that are not in the Source Register, so they were not reopened. Both are marked **not confirmed**, and nothing published relies on either.
+
+- AF-18: the RHS on leaves left wet favouring other diseases.
+- AF-32: New Zealand's Environmental Protection Authority on spraying "when bees are foraging". The words "or when bees are foraging" in AF-32 rest on it.
+
+#### 4B.4 Other corrections
+
+- The Source Register gave ABC Gardening Australia's "Looking After Roses" (GA-LOOK) as 2 July 2010. The page shows 3 July 2010. §8 is corrected.
+- AF-45 is not used in Pip's answers. That copper can be used on dormant bushes, from one source and with no timing or purpose a gardener could act on, does not help a gardener (Pip Knowledge Rules §1). Its Use status is unchanged.
+
+#### 4B.5 Found at the last check and not yet in the record
+
+The RHS page RHS-CHEM also says pesticides should not be used in wet, windy, very calm or hot, sunny weather. AF-33 and §4A say no institutional source addresses heat. The sentence was reported in the Build Check's note on that page. It is not yet a recorded quotation in the Source Register, so it is not added to AF-33. Confirming it would let Pip say more than "one source says never to spray in the heat of the day".
+
 ---
 
 ## 5. Preserved, Unreconciled Points of Variation
@@ -309,6 +379,8 @@ Whether winter clean-up sprays make a measurable difference, which products are 
 ## 6. What the Pip Knowledge Rules Give, and Further Research
 
 ### 6.1 What the rules give
+
+*As approved in Version 1.0. Read with §4B, which governs where it differs. What Pip says is the published wording in `Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md` §12.*
 
 Reproduced from `FRD-BUSHROSE-SPRAYING-02` §10(a). For each commissioned question, this is what Pip would say under the Pip Knowledge Rules. Each statement comes from the findings named and adds nothing to them. Pip presents each as what sources say, with its Evidence Confidence Level, and names the sources.
 
@@ -408,6 +480,8 @@ CLEM-INS and UCIPM-INS name sprays for spider mites, rose scale, thrips, caterpi
 
 ## 7. Downstream Note for KIT
 
+*Version 1.1: AF-26 is now on record only, so five findings are on record only and 40 are available to Pip. PKR-CGD-000009 to PKR-CGD-000015 were built from this ARC and published on 5 October 2026 under the Pip Knowledge Rules v0.3: each finding that helps a gardener is used, and one that does not is listed in the package with the reason (AF-45).*
+
 1. **Build from the findings whose Use status is Available to Pip** (§3), under the Pip Knowledge Rules. The four findings on record only (AF-13, AF-27, AF-35, AF-43) and the ROC's own synthesis (R-5) are never used.
 2. **Use every available finding.** Each of the 41 findings available to Pip is to reach a gardener through a Published PKR, or be listed in the package with the reason it was left out.
 3. **Place.** AF-25, AF-26, AF-36, AF-37 and AF-38 are shown only to gardeners in New Zealand and Australia. AF-45 is shown only to gardeners in the United States, with the statement that only one source was found. Where the gardener's place is not known, these are not shown.
@@ -451,7 +525,7 @@ Under ROC Operations Manual §12.6. 40 entries, from `Working/AI Outputs/Source_
 | EPA-NZ | Environmental Protection Authority (New Zealand), "Bees and other pollinators", date not shown. Government regulator, New Zealand. Accessed 1 Oct 2026. | <https://www.epa.govt.nz/everyday-environment/animals-and-insects/bees/> | Opened | AF-30, AF-32, AF-34 | AF-30: "Label information is printed on all insecticides, whether you buy yours at the supermarket, garden centre or trade outlet" / AF-32: "Avoid spraying budding or flowering plants" / AF-34: "neonicotinoids must not be used on flowering crops" |
 | CONS-NZ | Luke Harrison, Consumer NZ, "Bees and insecticides", 5 December 2012. Consumer organisation, New Zealand. Accessed 1 Oct 2026. | <https://www.consumer.org.nz/articles/bees-and-insecticides> | Opened | AF-30, AF-32 | AF-30: "make sure you follow the instructions on the label" / AF-32: "Spray only in the evening after bees have returned to their hives" |
 | RSNSW | The Rose Society of NSW, "Rose Growing Advice", date not shown. Rose society, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026. | <https://nsw.rose.org.au/growing-roses> | Opened | AF-4, AF-7, AF-8, AF-9, AF-10, AF-11, AF-30 | AF-4: "Regularly spraying your rose bushes will help to prevent the build-up of pests and diseases and keep them healthy." / AF-7: "Spraying regularly will help slow down the disease and/or help prevent it occurring." / AF-8: "It is the most commonly occurring fungal disease on roses." / AF-9: "Spraying should be done approximately every 15 days" / AF-10: "from the time they start to produce healthy foliage after the winter prune and up until the end of the growing season." / AF-11: "If the rose bushes get a big infestation of diseases or pests, they may need to be sprayed more frequently." / AF-30: "It is important to carefully read the instructions on the packet of the products you are going to use" |
-| GA-LOOK | ABC Gardening Australia (Sophie Thomson), "Looking After Roses", 2 July 2010. Public broadcaster, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026. | <https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348> | Opened | AF-25, AF-26, AF-37 | AF-25: "Winter is the best time to combat fungal pests and other diseases." / AF-26: "collect and dispose of dead or dying leaves and pruned branches. Next, spray the plants - and the ground around them" / AF-37: "with an organic lime-sulphur mix" |
+| GA-LOOK | ABC Gardening Australia (Sophie Thomson), "Looking After Roses", 3 July 2010. Public broadcaster, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026. | <https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348> | Opened | AF-25, AF-26, AF-37 | AF-25: "Winter is the best time to combat fungal pests and other diseases." / AF-26: "collect and dispose of dead or dying leaves and pruned branches. Next, spray the plants - and the ground around them" / AF-37: "with an organic lime-sulphur mix" |
 | GA-PRUNE | ABC Gardening Australia (Jane Edmanson), "How to Prune Roses", 17 August 2013. Public broadcaster, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026. | <https://www.abc.net.au/gardening/how-to/how-to-prune-roses/9434872> | Opened | AF-25, AF-27, AF-37 | AF-25: "After pruning, spray for protection." / AF-27: "I'm using lime sulphur, which will kill mites and other insects." / AF-37: "I'm using lime sulphur, which will kill mites and other insects." |
 | GA-RP | ABC Gardening Australia (Sophie Thomson), "Rose Pruning", 27 June 2009. Public broadcaster, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026. | <https://www.abc.net.au/gardening/factsheets/rose-pruning/9430014> | Opened | AF-16, AF-19, AF-25, AF-27, AF-37 | AF-16: "don't put them in the compost, put them in your council bin" / AF-19: "space for good air circulation which will minimise fungal diseases next year" / AF-25: "You might also like to spray with lime sulphur to clean up any fungal spores." / AF-27: "to clean up any fungal spores" / AF-37: "You might also like to spray with lime sulphur to clean up any fungal spores." |
 | GA-BS | ABC Gardening Australia (Colin Campbell), "Black Spot Control", 31 March 2007. Public broadcaster, Australia. Accessed 1 Oct 2026. Opened again 5 Oct 2026. | <https://www.abc.net.au/gardening/factsheets/black-spot-control/9427620> | Opened | AF-15, AF-16, AF-17, AF-19, AF-20, AF-39, AF-44 | AF-15: "Go round on a regular basis and pick off any black spot affected leaves" / AF-16: "put them in a plastic bag and tie the top tightly" / AF-17: "Always water around the roots of the rose and give it a good soaking." / AF-19: "open up the rose bush to create more air movement through the middle" / AF-20: "the better fed they are, the more likely they are to resist disease" / AF-39: "Or use Bordeaux mixture or one of the other copper based fungicides." / AF-44: "This makes an excellent and inexpensive fungicide." |

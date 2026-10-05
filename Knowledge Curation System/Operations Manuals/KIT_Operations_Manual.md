@@ -7,7 +7,7 @@
 **Document Title:** PIP Knowledge Integration Technician (KIT) Operations Manual
 **Volume:** Volume VI – Knowledge Curation System
 **Folder:** 03 – Operations Manuals
-**Version:** 0.8
+**Version:** 0.9
 **Status:** **Approved**
 **Owner:** The Founders
 **Last Updated:** 5 October 2026
@@ -19,6 +19,8 @@
 **Related Documents:** PIP Knowledge Integration Technician (KIT) Charter; PIP Knowledge Record (PKR) Standard; Live Intelligence Library (LIL) Standard; Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Pip Runtime Architecture; PIP Knowledge Integration Workflow; PIP Research Origin Curator (ROC) Operations Manual (structural model for this document); PIP System Identity and Naming Standard (SINS-001).
 
 **Drafting Note:** This is the first version of this Manual. No KIT Operations Manual existed before this draft — the KIT Charter and PKR Standard both anticipated one without it being written. Rather than draft this speculatively, a real dry run was performed first: an AI instance, using only the Charter, the PKR Standard, the LIL Standard, the MIL Standard, the Pip Runtime Architecture and the Knowledge Integration Workflow, attempted to build one real draft Observation PKR from ARC-BUSHROSE-DEADWOOD-01 (`Working/AI Outputs/KIT_Dry_Run_BUSHROSE_DEADWOOD_01.md`). It produced a usable partial draft and stalled at six specific, concrete points. This Manual is written directly against those six stalls, using the same case as its worked example throughout, in the same spirit as how a real research commission on dead-versus-living wood shaped the Founder Review Dossier Standard and the Assessed Finding model earlier in this session. Sections below reference "the dry run" and "Gap 1" through "Gap 6" by number, matching that document.
+
+**Version 0.9 (approved by AskPIP Founder Authority, 5 October 2026):** at a Founder's direction, after reading Pip's first answers under Version 0.8: statements are written in plain words for a gardener, sources are listed under the answer and not named in the sentence, and a finding that is only about the research is left out (§5.3, §7.7; Pip Knowledge Rules Version 0.3).
 
 **Version 0.8 (approved by AskPIP Founder Authority, 5 October 2026):** at a Founder's direction, after the first Build Check, so that approved knowledge is used and not wasted. §5.3 requires every finding Pip may use to be routed to a statement or listed with its reason. §7.7 sets out how each statement is written. Chapter 13A has the Build Check repeat until nothing fails, and has the package record each round and any correction proposed to the research record.
 
@@ -159,7 +161,7 @@ KIT shall build only from findings whose Use status is Available to Pip, and sha
 
 KIT shall record this routing explicitly, as a short table, before drafting begins — which finding supports which PKR type — and carry that table forward into the draft submission so the Founders can see how the ARC's content was distributed, not only the resulting individual PKRs.
 
-**Every finding Pip may use is used.** The triage table shall list every finding of the ARC. A finding whose Use status is Available to Pip shall be routed to at least one statement, or listed as not routed with the reason. "Not needed" is not a reason. The table also lists each recorded conflict and each gap, and where the gardener is told of it. KIT shall state the totals: findings routed, on record only, and held.
+**Every finding that helps a gardener is used.** The triage table shall list every finding of the ARC. A finding whose Use status is Available to Pip shall be routed to at least one statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant? A finding that is only about the research is left out, and the table says so. The table also lists each recorded conflict and each gap, and where the gardener is told of it. KIT shall state the totals: findings routed, on record only, and held.
 
 ## 5.4 Content With No Current Destination
 
@@ -227,12 +229,14 @@ This is rule 8 of the Pip Knowledge Rules: KIT adds no claim, reason or certaint
 
 **How each statement is written (Pip Knowledge Rules §3A):**
 
-- "Sources say" only where the finding shows at least two independent sources for that part. Otherwise name the source.
-- Each statement makes sense read alone. It does not lean on the statement before it ("they", "the view above", "the exception").
-- A Moderate finding's limits go with its statement, in plain words, as its Limit.
-- A disagreement names who holds each view. A gap says no source was found and points to local expert help. A precaution is marked as one.
-- A local statement is marked with the countries it is shown in, and names its source.
-- A company is named only as a source. No brand of product and no mixing amount appears.
+- Say the thing itself, in plain words a beginner can act on. Not "Sources say to…".
+- Do not name sources in the sentence. They are listed under the answer. The exception is where the name is the point, as in a disagreement.
+- Where the finding shows only one source for it, say "one source says".
+- Let the confidence label carry how strong it is. Do not repeat it in words.
+- Add a limit only where it would change what a gardener does.
+- Each statement makes sense read alone.
+- A disagreement says that experts disagree and what each side says. A gap says Pip couldn't find it and points to local expert help. A precaution is marked as one. A local statement is marked with the countries it is shown in.
+- No brand of product and no mixing amount appears.
 - Where the Build Check shows the sources say less than the finding, the statement follows the sources.
 
 ---

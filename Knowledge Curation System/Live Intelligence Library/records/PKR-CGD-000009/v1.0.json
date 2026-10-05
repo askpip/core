@@ -1,0 +1,147 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000009",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Should I spray my roses?",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000034",
+      "PKR-SRC-000073",
+      "PKR-SRC-000097",
+      "PKR-SRC-000137",
+      "PKR-SRC-000215",
+      "PKR-SRC-000239",
+      "PKR-SRC-000240",
+      "PKR-SRC-000241",
+      "PKR-SRC-000243",
+      "PKR-SRC-000244",
+      "PKR-SRC-000245",
+      "PKR-SRC-000246",
+      "PKR-SRC-000247",
+      "PKR-SRC-000249",
+      "PKR-SRC-000250",
+      "PKR-SRC-000251",
+      "PKR-SRC-000252",
+      "PKR-SRC-000253",
+      "PKR-SRC-000254",
+      "PKR-SRC-000255",
+      "PKR-SRC-000256",
+      "PKR-SRC-000257",
+      "PKR-SRC-000258",
+      "PKR-SRC-000263",
+      "PKR-SRC-000265"
+    ],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000004"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000010"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000011"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-SGT-000003"
+      }
+    ],
+    "preserved_uncertainty": "Sources disagree on whether to use fungicides at all (C-1): the Royal Horticultural Society recommends against them, and three sources say spraying is needed or helps. They also differ on how long a variety's resistance lasts (C-3). Three of the New Zealand sources for growing without spraying describe one garden, and the University of California ties its statement to dry climates. No source was found on which disease-tolerant varieties suit New Zealand (R-3).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Should I spray my roses?",
+    "label": null,
+    "items": [
+      {
+        "text": "Roses can be grown well with little or no spraying, especially if you grow disease-tolerant varieties.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-1"
+        ]
+      },
+      {
+        "text": "Choose disease-tolerant varieties to reduce disease.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-2"
+        ]
+      },
+      {
+        "text": "A variety's resistance can differ from region to region. One source says it may not last.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-3",
+          "C-3"
+        ]
+      },
+      {
+        "text": "One source says popular Hybrid Teas and Floribundas are often prone to black spot.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-4"
+        ]
+      },
+      {
+        "text": "Treat pesticides as a last resort, after other measures.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-6"
+        ]
+      },
+      {
+        "text": "Experts disagree on whether roses need spraying. The better-supported view is that they can be grown well with little or none. Some say disease-prone roses need fungicide, or that regular spraying helps. The Royal Horticultural Society advises against fungicides altogether.",
+        "kind": "disagreement",
+        "trace": [
+          "C-1",
+          "ARC-BUSHROSE-SPRAYING-01 AF-4",
+          "ARC-BUSHROSE-SPRAYING-01 AF-5",
+          "ARC-BUSHROSE-SPRAYING-01 AF-1",
+          "ARC-BUSHROSE-SPRAYING-01 AF-6"
+        ]
+      },
+      {
+        "text": "I couldn't find a list of disease-tolerant varieties that suit New Zealand. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "R-3",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "If you spray, use only a product labelled for roses where you live, and follow its label.",
+        "kind": "framing",
+        "trace": [
+          "rule 7",
+          "ARC-BUSHROSE-SPRAYING-01 AF-30",
+          "ARC-BUSHROSE-SPRAYING-01 AF-34"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "spraying",
+        "topic_title": "Spraying",
+        "order": 1
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}

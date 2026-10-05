@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000251",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Zlesak, D.C., Whitaker, V.M., George, S. and Hokanson, S.C. (2010) — \"Evaluation of Roses from the Earth-Kind® Trials: Black Spot (*Diplocarpon rosae* Wolf) Resistance and Ploidy\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-3 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Peer-reviewed journal, US",
+    "identity": "Zlesak, D.C., Whitaker, V.M., George, S. and Hokanson, S.C. (2010), \"Evaluation of Roses from the Earth-Kind® Trials: Black Spot (*Diplocarpon rosae* Wolf) Resistance and Ploidy\", *HortScience* 45(12): 1779–1787, DOI 10.21273/HORTSCI.45.12.1779 (read at abstract level via the Texas A&M Scholars record), 2010. Peer-reviewed journal, US. https://scholars.library.tamu.edu/vivo/display/n320746SE, accessed 1 October 2026 (register code SPRAYING:ZLESAK)",
+    "url": "https://scholars.library.tamu.edu/vivo/display/n320746SE",
+    "register_code": "SPRAYING:ZLESAK",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}

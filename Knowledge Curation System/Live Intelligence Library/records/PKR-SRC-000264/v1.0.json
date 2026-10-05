@@ -1,0 +1,42 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000264",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "South Pacific Roses — \"Spraying Your Roses\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-13 (Low)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-26 (Low)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-28 (Low)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-41 (Low)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-43 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (rose nursery), New Zealand",
+    "identity": "South Pacific Roses, \"Spraying Your Roses\", date not shown. Commercial (rose nursery), New Zealand. https://southpacificroses.co.nz/spraying-your-roses/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:SPR)",
+    "url": "https://southpacificroses.co.nz/spraying-your-roses/",
+    "register_code": "SPRAYING:SPR",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-SPRAYING-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-05",
+    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+  }
+}
