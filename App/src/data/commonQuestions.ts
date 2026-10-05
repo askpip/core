@@ -47,6 +47,7 @@ export type QuestionKey = BuiltInKey | TopicKey
 /** Which topic's lead question a built-in question becomes once that topic is Published. */
 const TOPIC_FOR: Partial<Record<BuiltInKey, string>> = {
   spraying: 'spraying',
+  'plant-move': 'planting',
 }
 
 export interface CommonQuestion {
@@ -215,7 +216,13 @@ export function commonQuestions(): CommonQuestion[] {
       statements: all('PKR-CGD-000007', 'items'),
       pkrIds: ['PKR-CGD-000007'],
     },
-    { key: 'plant-move', question: 'When can I plant or move a rose?', statements: [], pkrIds: [], pending: PENDING },
+    fromTopic('plant-move', 'When can I plant or move a rose?', topics) ?? {
+      key: 'plant-move',
+      question: 'When can I plant or move a rose?',
+      statements: [],
+      pkrIds: [],
+      pending: PENDING,
+    },
   ]
 
   // The follow-up answers of every Published topic. They aren't in the home list; they open from a lead answer.

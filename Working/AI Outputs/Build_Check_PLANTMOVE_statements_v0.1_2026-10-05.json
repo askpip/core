@@ -1,0 +1,1035 @@
+{
+ "what": "Build Check Part 2 (wording check), statements version v0.1, 5 October 2026.",
+ "statements_checked": [
+  {
+   "ref": "PKR-CGD-000016 item 1",
+   "question": "When can I plant or move a rose?",
+   "text": "Plant a bare-root rose while it is dormant, between late autumn and early spring.",
+   "trace": [
+    "AF-1"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000016 item 2",
+   "question": "When can I plant or move a rose?",
+   "text": "In New Zealand, roses are planted from winter into spring. One garden centre says new-season roses arrive from June.",
+   "trace": [
+    "AF-2",
+    "AF-1"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000016 item 3",
+   "question": "When can I plant or move a rose?",
+   "text": "In Australia, plant bare-root roses from May to July. Two rose societies say June or July.",
+   "trace": [
+    "AF-2"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000016 item 4",
+   "question": "When can I plant or move a rose?",
+   "text": "In the UK, plant bare-root roses in late autumn, or from late winter to early spring before growth starts.",
+   "trace": [
+    "AF-3",
+    "AF-1"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000016 item 5",
+   "question": "When can I plant or move a rose?",
+   "text": "In the US, where winters are very cold, plant bare-root roses in spring. Where winters are milder, one source says autumn or spring both work.",
+   "trace": [
+    "AF-3",
+    "C-3"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000016 item 6",
+   "question": "When can I plant or move a rose?",
+   "text": "A rose in a pot can be planted over a longer season. Sources say all year, or through the growing season where winters are cold. One source says not to plant into frozen or very dry ground, and another to keep it well watered if you plant in spring or summer.",
+   "trace": [
+    "AF-4"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000016 item 7",
+   "question": "When can I plant or move a rose?",
+   "text": "Move an established rose while it is dormant. Most sources say winter.",
+   "trace": [
+    "AF-26"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000016 item 8",
+   "question": "When can I plant or move a rose?",
+   "text": "A rose can be moved in the growing season if you have to. It will need extra watering afterwards.",
+   "trace": [
+    "AF-27"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000017 item 1",
+   "question": "Where should I plant a rose?",
+   "text": "Choose a sunny spot. Sources give a minimum of four to six hours of direct sun a day.",
+   "trace": [
+    "AF-6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000017 item 2",
+   "question": "Where should I plant a rose?",
+   "text": "Roses need soil that drains well. Where the soil is heavy or drains poorly, plant in a raised bed or on a mound.",
+   "trace": [
+    "AF-7"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000017 item 3",
+   "question": "Where should I plant a rose?",
+   "text": "Keep roses away from the roots of nearby trees and shrubs, which compete with them.",
+   "trace": [
+    "AF-8"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000017 item 4",
+   "question": "Where should I plant a rose?",
+   "text": "How far apart to plant depends on the variety, so check the label. Where sources give a distance for bush roses, it is about 60 cm to 1 m.",
+   "trace": [
+    "AF-9"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000017 item 5",
+   "question": "Where should I plant a rose?",
+   "text": "A new rose planted where a rose grew before may struggle to establish and may grow poorly.",
+   "trace": [
+    "AF-11"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 1",
+   "question": "How do I plant a rose?",
+   "text": "Plant a bare-root rose soon after you get it, and don't let its roots dry out.",
+   "trace": [
+    "AF-5"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 2",
+   "question": "How do I plant a rose?",
+   "text": "If you can't plant a bare-root rose straight away, one source says it can be kept in its packaging in a cool, dry place, protected from frost, for up to three weeks.",
+   "trace": [
+    "AF-5"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 3",
+   "question": "How do I plant a rose?",
+   "text": "Soak the roots of a bare-root rose in water before planting.",
+   "trace": [
+    "AF-17"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 4",
+   "question": "How do I plant a rose?",
+   "text": "Stated soaking times range from one hour to 24 hours. Two sources say not to soak for longer than that.",
+   "trace": [
+    "AF-18",
+    "C-2"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 5",
+   "question": "How do I plant a rose?",
+   "text": "Trim off any damaged or broken roots before planting.",
+   "trace": [
+    "AF-19"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 6",
+   "question": "How do I plant a rose?",
+   "text": "Dig the planting hole wider than the roots. Several sources say about twice as wide.",
+   "trace": [
+    "AF-15"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 7",
+   "question": "How do I plant a rose?",
+   "text": "For a bare-root rose, make a mound of soil in the bottom of the hole and spread the roots over it.",
+   "trace": [
+    "AF-16"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 8",
+   "question": "How do I plant a rose?",
+   "text": "Plant a potted rose at the same depth it was growing in its pot.",
+   "trace": [
+    "AF-23"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 9",
+   "question": "How do I plant a rose?",
+   "text": "Water the rose in well as soon as it is planted.",
+   "trace": [
+    "AF-24"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 10",
+   "question": "How do I plant a rose?",
+   "text": "Experts disagree on pruning at planting. Some cut the stems back when they plant. Others say a packaged rose rarely needs it, or prune in the first winter after planting.",
+   "trace": [
+    "C-6",
+    "AF-25"
+   ],
+   "confidence": null,
+   "kind": "disagreement",
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000019 item 1",
+   "question": "How deep should I plant the bud union?",
+   "text": "Experts disagree on how deep to plant the bud union, the knob near the base where the stems join. Advice ranges from just above the soil, to level with it, to as much as 10 cm below. Sources that give a reason for burying it are in places with cold winters, and say it protects the rose from the cold.",
+   "trace": [
+    "C-1",
+    "AF-20",
+    "AF-22"
+   ],
+   "confidence": null,
+   "kind": "disagreement",
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000019 item 2",
+   "question": "How deep should I plant the bud union?",
+   "text": "New Zealand and Australian sources put the bud union level with the soil or just above it, by up to 5 cm.",
+   "trace": [
+    "AF-21"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ",
+    "AU"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000019 item 3",
+   "question": "How deep should I plant the bud union?",
+   "text": "In the UK, one source says to plant the bud union at soil level, not below, because burying it is reported to raise the risk of dieback.",
+   "trace": [
+    "AF-22"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000019 item 4",
+   "question": "How deep should I plant the bud union?",
+   "text": "In the US, extension sources in cold-winter states plant the bud union 5 to 10 cm below the soil. In a mild area, one plants it just above. Your local extension service is the place to ask.",
+   "trace": [
+    "AF-22",
+    "rule 5"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000019 item 5",
+   "question": "How deep should I plant the bud union?",
+   "text": "I couldn't find advice on bud-union depth for New Zealand's coldest districts. A local rose society is the place to ask.",
+   "trace": [
+    "R-2",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "NZ"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000020 item 1",
+   "question": "Can I plant a rose where another rose grew?",
+   "text": "A new rose planted where a rose grew before may struggle to establish and may grow poorly. This is called replant disease.",
+   "trace": [
+    "AF-11"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000020 item 2",
+   "question": "Can I plant a rose where another rose grew?",
+   "text": "If you plant in the same spot, replace the soil in the planting hole. Sources differ on how much: from the old roots plus two extra buckets of soil, to a hole 45 to 60 cm across. One source says to plant somewhere else if you can.",
+   "trace": [
+    "AF-13"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000020 item 3",
+   "question": "Can I plant a rose where another rose grew?",
+   "text": "Experts disagree about replant disease. Most who mention it advise replacing the soil. One rose specialist calls that the old method and adds compost and mycorrhizal fungi to the soil instead. He reports that opinion is divided on whether the problem is real.",
+   "trace": [
+    "C-4",
+    "AF-13",
+    "AF-11"
+   ],
+   "confidence": null,
+   "kind": "disagreement",
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 1",
+   "question": "How do I move an established rose?",
+   "text": "Move an established rose while it is dormant. Most sources say winter.",
+   "trace": [
+    "AF-26"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 2",
+   "question": "How do I move an established rose?",
+   "text": "Cut the top growth back before a winter move. Sources differ on how much, from a third to a hard prune.",
+   "trace": [
+    "AF-29",
+    "C-5"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 3",
+   "question": "How do I move an established rose?",
+   "text": "Dig wide around the rose, about 25 to 30 cm out from its base, and keep as many of the roots as you can.",
+   "trace": [
+    "AF-30",
+    "AF-31"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 4",
+   "question": "How do I move an established rose?",
+   "text": "One source says it is very important to keep the roots moist until the rose is replanted. Another waters the soil well the day before the move.",
+   "trace": [
+    "AF-32"
+   ],
+   "confidence": "Low",
+   "kind": "precaution",
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 5",
+   "question": "How do I move an established rose?",
+   "text": "Water the rose well once it is replanted, and keep it watered until it recovers.",
+   "trace": [
+    "AF-33"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 6",
+   "question": "How do I move an established rose?",
+   "text": "A rose can be moved in the growing season if you have to. It will need extra watering afterwards. Sources disagree on whether to cut it back first.",
+   "trace": [
+    "AF-27"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 7",
+   "question": "How do I move an established rose?",
+   "text": "I couldn't find how often a moved rose survives, or an age beyond which a rose is too old to move. A local rose society is the place to ask.",
+   "trace": [
+    "AF-37",
+    "R-1",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": null
+  }
+ ],
+ "results": [
+  {
+   "ref": "PKR-CGD-000016 item 1",
+   "result": "Pass with a note",
+   "points_failed": [
+    5,
+    10,
+    11
+   ],
+   "note": "Supported at High for planting in the dormant season: RHS-PL (bare-root roses, 'Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes'), DA-BR ('during dormancy, from late autumn to early spring'), MU ('planted in a dormant condition if purchased bare rooted'), with YAT-NZ, GA-2014P and RSSA for winter bare-root planting. Three things to know. (a) 'Between late autumn and early spring' as one unbroken season is DA-BR's wording only; RHS-PL gives two windows and its next sentence is 'Avoid planting in the middle of winter when the ground is frozen'. The statement is shown to everyone, including cold-winter places, and that limit would change what a gardener does; it is said for potted roses (item 6) but not here. (b) The season words are UK wording; New Zealand and Australian pages say winter, which sits inside the range, so nothing is overstated for them. (c) 'Bare-root' and 'dormant' are not explained; the pages give plain meanings (YAT-NZ: 'roses supplied without any soil'; RSNSW-G: 'they have no leaves or flowers').",
+   "suggested_wording": "Plant a bare-root rose (one sold without soil on its roots) while it is dormant, with no leaves, between late autumn and early spring. One source says to avoid the middle of winter when the ground is frozen."
+  },
+  {
+   "ref": "PKR-CGD-000016 item 2",
+   "result": "Fail",
+   "points_failed": [
+    7,
+    8,
+    10
+   ],
+   "note": "The evidence is confirmed; the fail is on the rules. KINGS: 'Roses are best planted in winter, however they can be planted right through spring' and 'New seasons Roses arrive in store from June'; PALM-G: 'The best planting time for all rose varieties is from winter through to spring'; NZRS-FAQ: 'Winter is the best time to plant'. The statement rightly says 'roses', not 'bare-root roses', and rightly says 'one garden centre' for June (KINGS only). What is wrong: (a) June is a local month from a garden company. Rules section 4 and the standing decision of 5 October require Pip to say that only one source was found AND that months are only a guide (rule 6). The second half is missing, and this statement can be seen alone. (b) It drops 'winter is best', which NZRS-FAQ and KINGS both say and which would change when a gardener plants. (c) ABG, the one New Zealand botanic garden, says 'Planting is best done in autumn or winter' (confirmed in the extra check, said of container plants). It is not recorded under AF-2, so the New Zealand range shown leaves autumn out (rule 3). 'Arrive from June' also loses 'in store'.",
+   "suggested_wording": "In New Zealand, winter is the best time to plant a rose, and roses can be planted on through spring. One source says autumn or winter. One garden centre says new-season roses reach the shops from June. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000016 item 3",
+   "result": "Fail",
+   "points_failed": [
+    7,
+    8
+   ],
+   "note": "The months are confirmed: GA-MAG 'May, June and July are the months to plant bare-rooted roses in Australia'; RSSA 'Planting winter bare rooted roses: This is best done in June or July'; RSNSW-CAL 'Prepare the soil for planting in June/July' (planting steps under June). 'Two rose societies' is right. What is wrong: (a) Rule 6. Read alone, the statement is a calendar instruction and nothing else. It does not say months are only a guide and gives neither the season nor the state of the plant, although the pages do (RSSA 'winter bare rooted roses'; RSNSW-G 'Bare rooted plants are dormant ... only available in winter'; GA-2014P 'Because it's winter'). (b) Rule 1. May rests on GA-MAG alone, yet the statement leads with 'May to July' as the plain instruction and does not say one source; the better-supported months (June or July, two rose societies) come second. Moderate is right for the Australian months (two rose societies and one broadcaster).",
+   "suggested_wording": "In Australia, plant bare-root roses in winter, while they are dormant. Two rose societies say June or July, and one source says from May. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000016 item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Follows RHS-PL almost word for word ('Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes'), and DA-BR agrees on the outer season ('during dormancy, from late autumn to early spring'), so two UK voices. Keeping the RHS's two windows also respects its 'Avoid planting in the middle of winter when the ground is frozen'. 'Before growth starts' is a check on the plant (rule 6). Moderate matches AF-3. Shown in GB only.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000016 item 5",
+   "result": "Pass with a note",
+   "points_failed": [
+    5,
+    11
+   ],
+   "note": "Supported by three US extension voices, Moderate: CSU 'For bare-root roses, spring planting is preferred over fall'; MU 'If you live in an area where winter temperatures dip below -10 degrees Fahrenheit, spring planting is preferred'; ISU 'Bare root shrubs must be planted in spring before growth begins'. 'One source' for the milder case is right (MU: 'either fall or spring planting is satisfactory'). To know: (a) two of the three say 'preferred', and the statement turns that into a plain instruction; (b) only MU ties the preference to cold, and it gives the line (-10 °F). CSU gives no reason. 'Very cold' leaves a gardener unable to tell which case is theirs, and the one figure on the pages would let them decide; (c) MU's two sentences are under general rose planting, not bare-root only.",
+   "suggested_wording": "In the US, where winters are very cold, spring is the preferred time to plant bare-root roses. One source puts the line at winters that fall below -10 °F, and says that where it stays warmer than that, autumn or spring both work."
+  },
+  {
+   "ref": "PKR-CGD-000016 item 6",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    7,
+    9,
+    10
+   ],
+   "note": "(a) 'Through the growing season where winters are cold' is not on any page. MU says only 'container-grown plants may be planted throughout the growing season'; CSU says 'during the growing season, any time after the last killing frost'. Neither says 'where winters are cold', and RHS-PL, in a country with frozen ground, says 'all year round'. The condition is an explanation added in the build (rule 8) and would mislead a UK gardener who reads it as applying to them. The corrected AF-4 wording records it correctly as 'two US extension sources'. (b) ABG, a New Zealand botanic garden, says 'Planting is best done in autumn or winter' of container plants (confirmed in the extra check and listed in the AF-4 limitation). It is a limit that changes when a gardener plants and it is not said. (c) 'Over a longer season' does not say longer than what; read alone it has no comparison. MU makes the comparison with bare-root roses in one sentence. Confirmed and correct: 'all year' (RHS-PL, YAT-NZ, PALM-G), the frozen or very dry ground condition (RHS-PL, one source), and well watered in spring and summer (NZRS-FAQ). High is defensible for 'a longer season than bare-root' (five voices) but not for either window on its own.",
+   "suggested_wording": "A rose in a pot can be planted over a longer season than a bare-root rose. UK and New Zealand sources say all year; two US sources say through the growing season, one of them once the last killing frost has passed. One source says not to plant into frozen or very dry ground, and another to keep it well watered if you plant in spring or summer. One source says autumn or winter is still the best time."
+  },
+  {
+   "ref": "PKR-CGD-000016 item 7",
+   "result": "Pass with a note",
+   "points_failed": [
+    7,
+    11
+   ],
+   "note": "Supported at High: TRE-T ('in the winter dormancy'), KINGS ('best done when dormant during Winter'), TUI-Q ('winter when it is dormant'), DA-MOVE ('wait until your rose is fully dormant'), RHS-MOVE ('the dormant season from late October to mid-March', deciduous shrubs), PALM-FAQ, NRS-T, HEIR and UAEX: ten independent voices. 'Most sources say winter' holds: seven name winter or winter months. To know: (a) rule 3. The sentence says most say winter but not what the rest say. HEIR says 'the dormant season in early spring', UW-PAL 'early spring or late fall' (and prefers spring), RHS-MOVE late October to mid-March. (b) 'Dormant' is not explained; the pages give 'once the leaves have fallen' (DA-MOVE) and 'no active growth' (PALM-FAQ).",
+   "suggested_wording": "Move an established rose while it is dormant, with no active growth. Most sources say winter; some say late autumn or early spring."
+  },
+  {
+   "ref": "PKR-CGD-000016 item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, Moderate. HEIR: 'If you need to transplant your rose during the growing season (non-dormant), you can still be successful but water is key!'; DA-MOVE: 'it can still be done ... Keep the rose well-watered'; AE-T (a June move): 'You can still transplant the roses now' with 'a little extra TLC (in the form of water) through the summer'; TRE-T: 'if kept moist it will recover'. Four independent voices, mostly commercial. It says less than the corrected finding (the pruning disagreement is left to PKR-CGD-000021 item 6), which is allowed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000017 item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Every figure confirmed: DA-BR 'at least four hours of direct sun', GA-MAG 'at least 4-6 hours', PALM-G 'Five hours of sunlight is adequate', CSU and RSSA five to six, MU and AMORE six; ABG, KINGS and YAT-NZ say full sun or a sunny spot. Seven voices give hours and ten agree on sun, so High stands. 'Direct' is the word on DA-BR, RSSA and AMORE; the other four say sunlight or sunshine, which does not change what a gardener does.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000017 item 2",
+   "result": "Pass with a note",
+   "points_failed": [
+    10
+   ],
+   "note": "First sentence: confirmed at High (ABG, RSSA, MU, CSU, KINGS, PALM-G, YAT-NZ, GA-MAG). Second sentence: confirmed on four pages (MU 'consider planting them in a raised bed'; GA-MAG 'consider building a raised bed or mounding the soil'; KINGS 'plant onto a raised mound'; PALM-G 'try raised beds'), two of them commercial, so the High label really belongs to the first sentence. To know: the corrected AF-7 records a second remedy that three pages give for heavy soil, and the statement leaves it out: ABG 'add compost before planting and gypsum to particularly heavy soils, like clay'; RSSA gypsum and compost; YAT-NZ 'add gypsum and fork it in well' (KINGS does both). Those are the non-commercial New Zealand and Australian sources, and working in compost and gypsum is a much smaller job than building a bed, so it changes what a gardener might do. The pages also say 'consider' and 'try', which the statement hardens to 'plant in'.",
+   "suggested_wording": "Roses need soil that drains well. Where the soil is heavy or drains poorly, some sources suggest a raised bed or mound, and others suggest digging in compost and gypsum."
+  },
+  {
+   "ref": "PKR-CGD-000017 item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "All three pages confirmed in full: CSU 'avoid places where the roses have to compete with tree or shrub roots for water and nutrients'; MU 'The roots of most roses don't compete well with those of trees and shrubs planted close by'; RSSA 'Avoid root competition from nearby trees and shrubs'. Two extension services and a rose society, Moderate.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000017 item 4",
+   "result": "Fail",
+   "points_failed": [
+    4,
+    5,
+    7
+   ],
+   "note": "The first sentence stands (RHS-PL: 'Spacing depends on type and habit. Check catalogue or label details'). The second does not stand as written. '60 cm to 1 m for bush roses' takes both its ends from AMORE ('60-100cm from other roses (depending on the size of the rose at maturity)'), and the check found that AMORE's guide 'covers several rose types and does not limit this figure to bush roses'. The only distance said of a bush rose is MU's: hybrid teas '2-1/2 to 3 feet apart' (about 75 to 90 cm), 'in most of Missouri'. So 'for bush roses' is a case the pages lack. The corrected AF-9 wording has the same fault: it drops FG-SP's 20 to 30 inches (about 50 to 75 cm) because it is 'not bush roses by name', but AMORE's figure is not bush roses by name either. Applied evenly, either both stay, and the range for roses is about 50 cm to 1 m (rule 3: show the whole range), or only MU's figure can be called a bush-rose distance. GA-MAG's 1 m is for shrub roses. 'Variety' is also looser than the pages, which say type and habit (RHS-PL) or size at maturity (AMORE, FG-SP).",
+   "suggested_wording": "How far apart to plant depends on the type of rose and how big it will grow, so check the label. Where sources give a distance, it is about 50 cm to 1 m; one gives 75 to 90 cm for hybrid tea roses."
+  },
+  {
+   "ref": "PKR-CGD-000017 item 5",
+   "result": "Pass with a note",
+   "points_failed": [
+    11
+   ],
+   "note": "Supported, Moderate: RHS-RD 'New plantings may struggle to establish, make poor growth and may even die' (and 'Roses are particularly prone'); ARS-RRD 'they may not grow as well'; RSSA the new rose 'will not die, but will not thrive for many months'; RHS-FAQ 'poor establishment'. Three independent voices (the RHS pages count once). To know: under the question 'Where should I plant a rose?' the statement names a risk and stops, so a gardener who sees it alone is not told what to do. The step that answers that question is on one page (RHS-RD: replant on another site), and PKR-CGD-000020 item 2 already uses it.",
+   "suggested_wording": "A new rose planted where a rose grew before may struggle to establish and may grow poorly. One source says to choose a spot where roses haven't grown if you can."
+  },
+  {
+   "ref": "PKR-CGD-000018 item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Both halves confirmed. Planting soon: YAT-NZ 'they need to go into the ground promptly'; GA-2019 'planted almost immediately after purchasing'; ISU 'Plant bare root shrubs as soon as possible after receiving them' (AMORE also says 'as soon as possible'). Roots not drying out: GA-2014P 'it's vital not to let the roots dry out before planting'; ISU 'Do not let any part of the bare root shrub dry out, especially the root system'; RSNSW-G roots 'kept moist'. The label is the corrected Moderate.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 2",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    7,
+    10
+   ],
+   "note": "The words are DA-BR's and are confirmed ('keep the roses in their packaging in a cool, dry place, protected from frost, for up to three weeks'), and 'one source says' is true of three weeks. But the pages give other storage advice, and the statement shows one figure, the longest, from a commercial page. RSNSW-G: 'can be stored in their transport packaging, providing the roots are kept moist, for up to 14 days'. ISU: 'store them in a cool, non-freezing location at around 40°F', with the packing kept damp but not wet. The corrected AF-5 itself says 'two sources allow storing them for two to three weeks'. Rule 3: where sources give different amounts Pip shows the range and never picks one figure. The condition that the roots are kept moist (RSNSW-G; ISU for the packing) protects the plant, it would change what a gardener does over two or three weeks, and it is not said (rule 7).",
+   "suggested_wording": "If you can't plant a bare-root rose straight away, keep it in its packaging somewhere cool and safe from frost. One source allows up to two weeks, with the roots kept moist, and another up to three weeks."
+  },
+  {
+   "ref": "PKR-CGD-000018 item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Confirmed on RSNSW-G, RSNSW-CAL, RSSA, GA-2014P, GA-MAG, YAT-NZ, DA-BR, ISU, MU and AMORE: eight independent voices across all four regions, High. CSU soaks only 'If bare-root plants appear dry when they are received', and RHS-PL is silent; neither changes the instruction.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 4",
+   "result": "Pass with a note",
+   "points_failed": [
+    9,
+    11
+   ],
+   "note": "The range and the count are right. One hour: RSSA 'for 1 hour or more', ISU 'one to two hours'. 24 hours: RSNSW-G and AMORE. The two that set a limit: CSU 'not leave them in water for more than 24 hours' and MU 'Soaking for more than 24 hours may damage the root system'. To know: read alone, it does not say what is being soaked or when ('Stated soaking times' has no subject), and it reports the research where it could tell the gardener what to do. MU's reason (it may damage the roots) is on the page and would tell a gardener why the limit matters.",
+   "suggested_wording": "Soak a bare-root rose's roots for anywhere from one hour to 24 hours before planting; sources differ within that range. Two say not to soak for longer than 24 hours, and one of them says it may damage the roots."
+  },
+  {
+   "ref": "PKR-CGD-000018 item 5",
+   "result": "Pass with a note",
+   "points_failed": [
+    7
+   ],
+   "note": "Supported for planting by three voices, Moderate: ISU 'prune off damaged or broken roots'; GA-MAG 'Trim damaged roots'; YAT-NZ 'prune off any damaged or broken roots' (said of a rose from 'its packaging or pot'). To know: MU, confirmed in the extra check, says of roots too large for the hole 'don't cut them off' and to dig a larger hole. That protects the plant, and rule 7 has Pip include such a precaution even from one source; no statement in this share carries it. GA-2019's different practice (cutting the whole root system back by about a third) is rightly not used here.",
+   "suggested_wording": "Trim off any damaged or broken roots before planting. One source says not to cut healthy roots to make them fit, but to dig a bigger hole."
+  },
+  {
+   "ref": "PKR-CGD-000018 item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Confirmed. Wider than the roots: RHS-PL, ISU, PALM-G, and MU ('large enough to permit full spread of the roots without touching the edges'). 'Several ... about twice as wide' is three pages: RHS-PL 'roughly twice the width of the plant's roots', ISU 'two to two-and-a-half times wider than the spread', PALM-G 'twice the depth and width of the root ball' (a potted rose). Moderate. It says less than the finding (no depth), which is allowed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Confirmed for bare-root roses on GA-2014P ('a mound of earth in the centre of the hole'), GA-2019 ('gently spread roots over mound'), RSNSW-CAL ('Make a mound in the hole and place the roots over and down around the mound') and RSSA ('a slight mound of soil at the base of the hole'). The two Gardening Australia pages count once, so three independent voices, all Australian; Moderate. The statement is rightly limited to a bare-root rose, since PALM-G's mound is for a potted rose and UW-PAL's for a moved one.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 8",
+   "result": "Pass with a note",
+   "points_failed": [
+    4,
+    10
+   ],
+   "note": "The words are supported: ABG 'Always plant at the same depth as they are in their container'; KINGS 'the top of the plant's roots sit level with the surrounding ground'. To know: (a) after the correction this rests on two pages, both New Zealand, one a garden centre (GA-MAG's sentence is about a bare-root rose). Moderate was given on three sources and now looks generous; the level should be looked at again. (b) For a grafted rose this can run against bud-union advice given elsewhere: PALM-G and YAT-NZ set the union 2 to 5 cm above the soil for a potted rose, and CSU says budded roses 'need to be planted so that the bud union is below ground level'. A gardener in a cold-winter place who sees this statement alone would not know that, and it would change what they do.",
+   "suggested_wording": "Plant a potted rose at the same depth it was growing in its pot. Advice on where the bud union, the knob at the base of the stems, should sit differs, so check that too."
+  },
+  {
+   "ref": "PKR-CGD-000018 item 9",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Confirmed on CSU ('Water deeply at planting'), MU ('A minimum of one gallon of water should be applied at planting time'), DA-BR, ISU ('Finally, water the shrub thoroughly'), RSSA, RSNSW-CAL, YAT-NZ, GA-2014P, and the planting-step sentences of KINGS and PALM-G recorded at the check. Nine independent voices, High. No product is named.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 10",
+   "result": "Pass with a note",
+   "points_failed": [
+    5,
+    8
+   ],
+   "note": "Each position is confirmed: GA-2019 'Prune top growth of rose by around a third to half'; CSU 'Bare-root roses may need pruning after planting', leaving 5 to 12 inches of cane; MU 'Packaged plants have been pruned and rarely need additional pruning'; RHS-PL 'Prune back in the first winter after planting'. It is rightly marked as a disagreement and leads with neither side. To know: (a) both pages that cut back at planting are about bare-root roses (CSU says nothing on potted roses), but the statement speaks of planting in general, so a gardener with a potted rose could take it as applying to them; (b) 'Others say ... or prune' covers two positions that each rest on one page (MU, RHS-PL), and rule 1 has Pip say 'one source'.",
+   "suggested_wording": "Experts disagree on whether to prune a bare-root rose at planting. Some cut the stems back when they plant. One source says a packaged rose has already been pruned and rarely needs more, and another prunes in the first winter after planting."
+  },
+  {
+   "ref": "PKR-CGD-000019 item 1",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Supported, with four things to tighten. (1) Range (rule 3): the below-soil end is given as a figure (10 cm = the 4 inches of CSU and ISU) but the above-soil end only as 'just above'. Four sources put the union up to 5 cm above: YAT-NZ '5cm above', PALM-G '2-5cm above', RSNSW-CAL '3-5cm above', OSU-AE one inch above in Eugene; only GA-2014P says 'just above'. (2) Rule 2 asks for what each side says. The reason for burying is given, but the reasons against are not: RHS-PL 'not below as this is reported to increase the risk of rose dieback', and OSU-AE 'In milder climates, disease susceptibility of the graft is a risk'. (3) 'Sources that give a reason for burying it are in places with cold winters' is right for ISU (Iowa) and MU (northern Missouri) but loose for OSU-AE, which is an Oregon answer to a gardener in mild Eugene that speaks OF colder regions ('where winter temperatures predictably drop below 20 degrees'); it also gives a second reason, steadying against wind rock. CSU, DA-BR and DA-MOVE bury and give no reason, so the wording 'that give a reason' is correctly limited. (4) The gloss 'the knob near the base where the stems join' can be read as stems joining each other. The pages say 'a knob or crook in the plant stem' (ISU), 'kink in the stem where the branches emerge' (RSSA), 'the swollen joint found near the soil level' (GA-2014P). Marked 'Sources disagree' correctly; no confidence label needed. A gardener outside NZ, Australia, the UK and the US sees only this statement and is given nothing to do (see package).",
+   "suggested_wording": "Experts disagree on how deep to plant the bud union, the swollen knob near the base of the rose that the branches grow from. Advice ranges from up to 5 cm above the soil, to level with it, to as much as 10 cm below. Sources that give a reason for burying it are speaking of places with cold winters, and say it protects the rose from the cold. Two sources give reasons against burying it: a reported risk of dieback, and, in mild climates, disease at the union."
+  },
+  {
+   "ref": "PKR-CGD-000019 item 2",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Supported at Moderate. Confirmed: YAT-NZ 5 cm above, PALM-G 2-5 cm above (container-grown paragraph), RSNSW-CAL 3-5 cm above, GA-2014P just above, GA-2019 soil 'no higher than the graft or bud union', RSSA 'at soil level', TUI-T graft above the soil (a moved rose). Independent voices: three Australian (RSNSW, RSSA, ABC Gardening Australia) and three New Zealand, all garden companies (Yates, Palmers, Tui). For New Zealand, 'level with the soil' rests only on AMORE, which speaks of the 'crown', not the bud union; the three NZ voices that name the union all put it above the soil. 'Up to 5 cm' is right. Two notes. (1) Stands alone (point 9): 'bud union' is explained only in item 1. (2) Plain words (section 3A): this is written as a report about sources; the plain instruction says the same and no more. The cold-district gap is said for New Zealand in item 5.",
+   "suggested_wording": "In New Zealand and Australia, plant the bud union (the swollen knob near the base of the rose that the branches grow from) level with the soil or up to 5 cm above it."
+  },
+  {
+   "ref": "PKR-CGD-000019 item 3",
+   "result": "Fail",
+   "points_failed": [
+    7,
+    10
+   ],
+   "note": "The sentence is word for word what RHS-PL says ('at soil level (not below as this is reported to increase the risk of rose dieback)'), and 'one source' is right for that claim. It fails because it presents this as the UK position when a second UK source was confirmed to say the opposite: DA-MOVE, 'The graft union ... should sit around 2 inches below soil level' when replanting a moved rose in the ground, and DA-BR, 'Plant the rose as you would in the ground, keeping the graft union 2-3 inches, 5-8 cm, below the soil surface' (stated in its pot-planting sections). Both pages are one voice (David Austin, a UK rose nursery) and are recorded as a limitation on AF-20. Rule 2 has Pip lead with the better-supported view and say who disagrees; a UK gardener who sees this statement, with or without item 1, is not told that UK advice itself differs, and 'In the UK, one source says' reads as if only one UK source speaks. That is a limit that changes what a gardener does (point 10). Label: 'Moderate confidence' matches AF-22, so point 6 is met in form, but the half of AF-22 used here rests on one organisation only; the Moderate level comes from the other half (the US extension sources). The label overstates how strong this statement is (see AF-22 in findings). 'Bud union' and 'dieback' are not explained when the statement is seen alone. If reworded as suggested, the statement becomes a disagreement: mark it 'Sources disagree' and trace it to C-1, AF-20 and AF-22.",
+   "suggested_wording": "In the UK, sources differ. One says to plant the bud union at soil level, not below, because burying it is reported to raise the risk of dieback. A UK rose nursery sets it about 5 cm below the soil when replanting a rose."
+  },
+  {
+   "ref": "PKR-CGD-000019 item 4",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    7
+   ],
+   "note": "The range is wrong at its lower end (rule 3). '5 to 10 cm below' is the 2 to 4 inches of CSU (Colorado) and ISU (Iowa). The other two extension sources that link depth to cold give less: OSU-AE, 'In colder regions, where winter temperatures predictably drop below 20 degrees, the graft should be 1 to 2 inches below the soil' (about 2.5 to 5 cm; two inches in Central Oregon), and MU, 2 inches in northern Missouri and 'slightly below the soil level' in southeast Missouri. So extension advice for burying runs from slightly below to 4 inches, not 2 to 4 inches. The second sentence also drops MU: for the milder part of its state MU still plants slightly below, so 'In a mild area, one plants it just above' (OSU-AE, one inch above in Eugene) gives only one of the two milder-area positions. 'One' is otherwise right. Other notes: the figures are shown to US gardeners in centimetres only, while every US page gives inches; 'bud union' is unexplained when seen alone; the last sentence is traced to rule 5 but no gap is stated (the pointer to the extension service is reasonable, since advice turns on the local winter, but it comes from the dossier's recommended default R-2, not from a source). Level: four independent extension voices (CSU, ISU, MU, OSU-AE) bury the union and three give cold as the reason, so Moderate is fair.",
+   "suggested_wording": "In the US, extension sources in places with cold winters plant the bud union below the soil, from slightly below to 4 inches (about 10 cm) down. In one mild area, one source plants it an inch above. Ask your local extension service what is done where you live."
+  },
+  {
+   "ref": "PKR-CGD-000019 item 5",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "A true gap, marked as one, in the first person, pointing to local expert help, shown only in New Zealand. Two small notes. (1) The recorded gap (dossier 4.3) is 'No New Zealand source located addresses bud-union depth for New Zealand's colder districts'; 'coldest' narrows it, and a gardener in a district that is cold but not the coldest could take item 2 as covering them. (2) 'Bud union' is not explained when the statement is seen alone.",
+   "suggested_wording": "I couldn't find advice on how deep to plant the bud union in New Zealand's colder districts. A local rose society is the place to ask."
+  },
+  {
+   "ref": "PKR-CGD-000020 item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Matches RHS-RD ('New plantings may struggle to establish, make poor growth and may even die'; 'Roses are particularly prone'), with RHS-FAQ, ARS-RRD ('may not grow as well') and RSSA ('will not die, but will not thrive for many months'). Three independent voices (RHS, American Rose Society, Rose Society of SA) plus FG-RRD reporting it second-hand; Moderate is right. 'Replant disease' is the term of RHS-RD, ARS-RRD and FG-RRD. It says less than the sources (no 'may even die'), which is allowed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000020 item 2",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Supported: soil replacement is given by three independent voices (RHS-PL and RHS-RD as one, RSSA, DA-MOVE); the amounts are right (RSSA 'an extra 2 buckets of soil'; RHS-PL 45 cm wide; RHS-RD about 60 cm across); 'one source' is right for planting elsewhere (RHS-RD). Things a gardener needs that are missing or loose. (1) It does not say what to replace the soil WITH. All four pages do: 'soil from a different part of the garden' (RHS-PL), 'fresh soil from another part of the garden' (RHS-RD), 'fresh garden soil from an area free of roses' (RSSA), 'fresh soil from another part of the garden or good-quality topsoil' (DA-MOVE). Without it a gardener could swap in soil from another rose bed. (2) Depth is left out: RHS-PL 45 cm deep, RHS-RD at least 30 cm deep. (3) 'From the old roots plus two extra buckets of soil' reads oddly as an amount of soil; RSSA says to remove the old plant with as many roots as possible, plus two buckets of soil. (4) 'if you can' is not in the confirmed wording; Part 1 records only that RHS-RD 'gives replanting on another site'. (5) Seen alone, the flat instruction does not show that one source calls soil replacement the old method (item 3); the Moderate label partly carries that.",
+   "suggested_wording": "If you plant in the same spot, swap the soil in the planting hole for fresh soil from another part of the garden. Sources differ on how much to take out: from two buckets of soil, along with the old rose's roots, to a hole 45 to 60 cm across and 30 to 45 cm deep. One source gives planting somewhere else as another option."
+  },
+  {
+   "ref": "PKR-CGD-000020 item 3",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Supported and correctly marked 'Sources disagree'; it leads with the better-supported view and says who disagrees (rule 2). FG-RRD is confirmed: 'The old method of dealing with rose replant disease was to remove all the old soil and replace it with fresh soil', and 'There are mixed feelings about this with some people saying it's true and some saying it isn't'. The unsupported 'It has been proven' claim is rightly left out. Notes. (1) 'Most who mention it' is thin: of five independent voices (RHS, RSSA, David Austin, American Rose Society, Fine Gardening) three advise replacing the soil; ARS-RRD gives gardeners no remedy, and DA-MOVE does not name replant disease. 'Several' is safer than 'most'. (2) 'adds compost and mycorrhizal fungi to the soil' is loose: the page says 'roses treated with mycorrhizal fungi' and 'well-rotted manure or compost'. (3) 'Mycorrhizal fungi' is not a beginner's term and is not explained; no confirmed page gives a plain gloss (RHS-RD speaks of 'mycorrhizal products'). (4) RHS-RD, the main soil-replacement source, also lists mycorrhizal products and organic matter in the backfill, so the difference is 'instead of', which the statement does say. The suggested wording leaves the term unexplained for that reason; a gloss should be added only from source wording.",
+   "suggested_wording": "Experts disagree about replant disease. Several advise replacing the soil. One rose specialist calls that the old method and instead adds compost or well-rotted manure and treats the new rose with mycorrhizal fungi. That source reports that opinion is divided on whether the problem is real."
+  },
+  {
+   "ref": "PKR-CGD-000021 item 1",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Supported at High: ten independent voices give the time (TRE-T, KINGS, Tui, DA-MOVE, RHS-MOVE, UAEX, HEIR, NRS-T, UW-PAL, PALM-FAQ), nine of them saying dormant; RHS-MOVE and UAEX say it of shrubs or hardy plants in general. 'Most sources say winter' holds for about eight of the ten. Two notes. (1) Rule 2 and rule 3: it does not say what the rest say. HEIR says 'the dormant season in early spring', UW-PAL 'early spring or late fall' (preferring spring), NRS-T 'Late winter to early spring', and RHS-MOVE's window runs late October to mid-March. That matters where the ground freezes in winter. (2) Rule 6 and plain words: 'dormant' is the check on the plant, but a beginner is not told how to see it. The pages say 'dormant with no active growth' (PALM-FAQ), 'dormant or going dormant, not actively growing' (NRS-T), 'once the leaves have fallen' (DA-MOVE, UK). The same wording is used at PKR-CGD-000016 item 7; change both together.",
+   "suggested_wording": "Move an established rose while it is dormant, which means it is not actively growing. Most sources say winter; some say late autumn or early spring."
+  },
+  {
+   "ref": "PKR-CGD-000021 item 2",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Supported at Moderate, and rightly limited to a winter move. Seven independent voices cut back for a move: KINGS a third, NRS-T a half, HEIR to 10-12 inches (dormant section), UW-PAL to three or four canes, TUI-T and TUI-Q hard (to 3-5 buds), DA-MOVE 'some of the top growth', and TRE-T, UAEX and PALM-FAQ move after the normal winter prune. The voices against are for other cases: AE-T a summer move, UAEX an autumn move, RHS-MOVE year-ahead preparation of mature trees and shrubs ('do not prune hard'). 'From a third to a hard prune' is a fair range (DA-MOVE's 'some' has no amount). Notes. (1) 'A hard prune' is not a beginner's term; the pages give figures that say what it means. (2) RHS-MOVE's 'do not prune hard' is not shown; the stated limitation on AF-29 explains why.",
+   "suggested_wording": "Cut the top growth back before a winter move. Sources differ on how much, from cutting it back by a third to pruning it hard, down to 3 to 5 buds on each stem."
+  },
+  {
+   "ref": "PKR-CGD-000021 item 3",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    7
+   ],
+   "note": "The second half is supported (AF-30 as corrected, Moderate: HEIR 'Take as many of the roots with you as possible', DA-MOVE 'Aim to preserve as much of the root system as possible', NRS-T 'damage as few of the roots as possible', KINGS, TRE-T, AE-T). The distance breaks rule 3. AF-31 records a range of about 25 to 60 cm, from or across the plant, and the statement gives only its bottom: 'about 25 to 30 cm out from its base' is TUI-Q (25-30 cm, for a rose being moved into a container) and UW-PAL (one foot from the crown). It leaves out NRS-T, 'dig around the plant (18 to 24 inches)' (about 45 to 60 cm, not said whether out from the plant or across), and TRE-T, a circle 'about 45cm in diameter (the larger the better)'. Two of the four sources that give a figure are dropped, and the result reads as the one right distance; it also sits oddly with 'Dig wide'. DA-MOVE gives no figure ('at least a spade's width from the base'). Also not said: whether to keep the soil on the roots, on which the pages differ (see package).",
+   "suggested_wording": "Dig wide around the rose and keep as many of the roots as you can. Sources give different distances, from about 25 cm out from the base to as much as 60 cm, and one says the larger the better."
+  },
+  {
+   "ref": "PKR-CGD-000021 item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Both halves are word for word from one source each: TRE-T, 'It is very important to keep the roots moist until planting into the new location. Never let the roots dry out', and NRS-T, 'The day before you transplant your rose bushes, water the soil around the rose bush very well'. Each is said as one source's advice. It asks only for more care of the plant, so it is a precaution under rule 7, is marked as one, and shows its Low level. HEIR also waters deeply before a growing-season move, which does not change the 'day before' count.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 5",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Supported. Watering at replanting is given by ten voices. Keeping it watered afterwards is supported in full by six: KINGS ('keep your plant well watered until it recovers'), DA-MOVE, HEIR, NRS-T, AE-T and RHS-MOVE (shrubs in general). Notes. (1) 'Until it recovers' is the wording of KINGS (and TRE-T for growing-season moves). The others give a time, and they differ widely: 'every day for a week or two' (HEIR), every 7 days if there is no rain (NRS-T), 'through the summer' (AE-T, a June move), and in dry spells for the first year (DA-MOVE, RHS-MOVE). A beginner cannot judge 'recovers', so the range would help (rule 3). (2) Level: High is the most generous reading. The six full supporters are three companies, one rosarian, one unnamed extension answer and one general RHS page, the same mix for which AF-30 was lowered to Moderate (see AF-33 in findings).",
+   "suggested_wording": "Water the rose well once it is replanted, and keep it watered until it recovers. Sources differ on how long: from every day for a week or two, to watering in dry spells through the first year."
+  },
+  {
+   "ref": "PKR-CGD-000021 item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Matches AF-27 as corrected. Moving in growth: AE-T 'You can still transplant the roses now', HEIR 'you can still be successful but water is key', DA-MOVE 'it can still be done', TRE-T's growing-season section; UAEX says it of plants in general. Extra watering: all four. Cutting back: TRE-T 'Prune to at least half of its size'; AE-T 'There's no need to prune them back first'; HEIR optional; UAEX avoid pruning for an autumn move. Four independent rose voices, Moderate is right. Could be better, not required: two pages warn of wilting or 'temporary signs of stress' (TRE-T, DA-MOVE), and TRE-T keeps as much soil on the roots as possible for a move in growth (see package).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Matches the recorded gap (dossier 4.3: 'No source located gives success rates for moving a rose, or a rose-specific age beyond which moving fails'; AF-37; R-1). First person, marked as a gap, points to local expert help. The statement itself is sound. What it leaves a gardener without is a package matter: two pages say older or long-settled roses are harder to move (TRE-T; RHS-MOVE of shrubs in general), and that is kept on record only (AF-34).",
+   "suggested_wording": null
+  }
+ ],
+ "package_notes": [
+  "Noticed in this share only, not a package check: no statement says that months are only a guide (rule 6), although items 2 and 3 of PKR-CGD-000016 give months and one of them is from a garden company.",
+  "Noticed in this share only: 'bare-root' and 'dormant' are used in nine statements and explained in none; the pages give plain meanings that could be used at first mention under each question.",
+  "Noticed in this share only: the gypsum and compost remedy in the corrected AF-7, the root-moisture condition on storing a bare-root rose (AF-5), and the precaution not to cut healthy roots to fit the hole (AF-19 limitation) reach no gardener.",
+  "Coverage: every finding marked available is used in at least one statement or carries a reason, and no statement traces to, or borrows the content of, a finding kept on record only (AF-10, AF-14, AF-28, AF-34, AF-35, AF-36).",
+  "AF-12 is marked 'Available to Pip' in the use field but has a not-used reason; the reason (it is about the research) is acceptable, but the use field should say it is not used.",
+  "Parts of corrected findings that would help a gardener reach no statement and have no listed reason: the gypsum and compost remedy for heavy soil (AF-7, second half; ABG, RSSA, YAT-NZ) is missing from PKR-CGD-000017 item 2, which gives raised beds or mounds only; the bare-root soil-mark sentence (AF-23, second half; GA-MAG) is used nowhere.",
+  "PKR-CGD-000018 item 2 gives one figure where the corrected AF-5 has two: DA-BR allows up to three weeks, RSNSW-G up to 14 days 'providing the roots are kept moist', and ISU stores with the packing kept damp. Rule 3 asks for the range, and the keep-moist condition changes what a gardener does (DA-BR says a 'cool, dry place').",
+  "PKR-CGD-000016 item 4 (UK bare-root timing) leaves out the limit added to AF-1 at the check: RHS-PL, 'Avoid planting in the middle of winter when the ground is frozen'. That limit changes what a gardener does.",
+  "PKR-CGD-000016 item 2 gives a month from one garden centre (KINGS, June) and says it is one source, but does not say that months are only a guide, which the standing decision on garden companies and local months requires. No statement in the package says months are only a guide (rule 6).",
+  "PKR-CGD-000016 item 2 says New Zealand roses 'are planted from winter into spring', which loses that winter is the best time: NZRS-FAQ 'Winter is the best time to plant', KINGS 'best planted in winter, however they can be planted right through spring'. Three of the four NZ voices say winter; two extend it into spring.",
+  "PKR-CGD-000016 item 6 tells every gardener a potted rose can be planted all year, but the one New Zealand non-commercial page on it says 'Planting is best done in autumn or winter' of container roses (ABG), and PALM-G says the best time for all roses is winter through spring. That limit is recorded on AF-4 and is not said.",
+  "Rule 6 (the plant decides): 'dormant' is the check on the plant in PKR-CGD-000016 items 1 and 7 and PKR-CGD-000021 item 1, but no statement says how to recognise it, though the pages do ('no leaves or flowers', RSNSW-G; 'no active growth', PALM-FAQ; 'not actively growing', NRS-T and GA-2014P).",
+  "Gap not said: no source compares replant-disease remedies in home gardens (dossier 4.3 and R-3). A gardener reading PKR-CGD-000020 must choose between remedies and is not told that I couldn't find which works best, nor pointed to local help (rule 5).",
+  "Gaps said: success odds and an age limit for moving (R-1, at PKR-CGD-000021 item 7) and bud-union depth in New Zealand's colder districts (R-2, at PKR-CGD-000019 item 5). R-4 (all NZ moving sources are commercial) and the unread pages in 4.3 are about the research and are rightly not said. Nothing from R-5 (the ROC's own synthesis) appears in any statement.",
+  "Conflicts: a gardener learns of C-1 (PKR-CGD-000019), C-2 (000018 item 4), C-3 (000016 items 4 and 5, shown in the UK and US only, which is where it applies), C-4 (000020 item 3), C-5 (000021 items 2 and 6, without the RHS 'do not prune hard', for a stated limitation) and C-6 (000018 item 10). C-7, C-8 and C-9 are on record only, each with a stated reason (AF-34, AF-35, AF-10, AF-28 are Low).",
+  "C-7 and AF-34 deserve a second look. The reason given is only that AF-34 is Low. But 'Rosa ... can be tricky to move' and plants in place 'more than five years are much less likely to survive transplanting' (RHS-MOVE) and 'The older the rose, the more likely that it will not appreciate being moved' (TRE-T) are warnings that ask a gardener to take more care of the plant, which is how rule 7 defines a precaution, and the dossier's own default for R-1 has Pip say older, long-settled roses are described as harder to move. As built, the answer to 'How do I move an established rose?' gives no hint of risk, and item 7 can read as if age is not known to matter.",
+  "AF-28 may be wrongly kept on record. Its reason is that each source gives a different point in the dormant season, but each is local to its own place. PALM-FAQ's 'after pruning in July when the rose is dormant' is a local month from one New Zealand garden company, which the rules allow for that place (section 3 table, third row, and the standing decision), said as one source and with months only a guide. New Zealand gardeners currently get no month for moving a rose.",
+  "A conflict found at the check is not recorded as a conflict and reaches no gardener: whether to keep the soil on the roots when moving. For a dormant move TRE-T shakes the soil off and replants as a bare-root rose, and UW-PAL removes the soil; for a move in growth TRE-T says 'keep as much soil around the roots as possible'; KINGS says 'as large a root ball as you can manage'. It changes what a gardener does and is only a limitation note on AF-30.",
+  "AF-22 holds two claims with different support (cold-winter link: three or four US extension voices; the RHS dieback warning: one organisation). PKR-CGD-000019 item 3 uses only the one-source half and shows 'Moderate confidence'. The findings should be split so the label follows the evidence.",
+  "Gardeners outside New Zealand, Australia, the UK and the US get only PKR-CGD-000019 item 1 on bud-union depth and PKR-CGD-000016 item 1 on timing, with no pointer to local help. A short rule-5 line for other places would give them something to do.",
+  "Units: statements shown to US gardeners give centimetres only (PKR-CGD-000019 item 4; also 000017 item 4 and 000021 item 3, shown to everyone), while every US page gives inches and feet. Giving both would help and adds nothing to the sources.",
+  "Three statements are repeated across questions (000016 item 7 and 000021 item 1; 000016 item 8 and the first two sentences of 000021 item 6; 000017 item 5 and the first sentence of 000020 item 1). They agree now; any rewording must be made in both places.",
+  "Standing decisions: no statement names a brand or gives a mixing amount (the seaweed tonic and house-brand products on YAT-NZ, KINGS, TUI and RSNSW-CAL are rightly left out); Pip speaks in the first person in both gap statements; no source is named, though several are described by type ('one garden centre', 'two rose societies', 'extension sources', 'one rose specialist'), which the rules allow where the kind of source is the point.",
+  "Terms a beginner may not know and that are not explained where they stand: 'bare-root' (eight statements; YAT-NZ gives 'roses supplied without any soil'); 'bud union' (explained only in 000019 item 1, though items 2 to 5 may be seen alone, and the gloss there, 'where the stems join', is unclear); 'dormant' (three statements); 'mycorrhizal fungi' (000020 item 3; no confirmed page explains it, so a gloss needs source wording); also 'dieback' (000019 item 3), 'hard prune' (000021 item 2) and 'top growth'.",
+  "The six questions cover the subject in a sensible order (when, where, how, bud-union depth, replanting where a rose grew, moving), and the first question does answer 'When can I plant or move a rose?' for bare-root roses, potted roses and moving, by place where sources allow. It would answer it well once it says how to tell a rose is dormant, that months are only a guide, the frozen-ground limit for the UK, that winter is best in New Zealand, and what the minority say about moving (late autumn or early spring).",
+  "In my share of 15 statements: three fail (PKR-CGD-000019 items 3 and 4, PKR-CGD-000021 item 3), eight pass with a note, four pass."
+ ],
+ "findings_comments": [
+  {
+   "finding": "AF-1",
+   "comment": "High holds for the core claim (bare-root roses are planted in the dormant season): RHS-PL, DA-BR and MU say dormant in terms; YAT-NZ, GA-2014P and RSSA say winter of bare-root roses. 'Late autumn to early spring' as one season is DA-BR's wording; RHS-PL gives two windows and says to avoid mid-winter when the ground is frozen. That limit is in the limitation column but reaches no gardener through item 1. The finding does not cover the US season (MU: fall or spring)."
+  },
+  {
+   "finding": "AF-2",
+   "comment": "Moderate is right. May rests on GA-MAG alone; June or July on two rose societies. 'Into spring' in New Zealand rests on two garden centres (KINGS, PALM-G), and June on KINGS alone. ABG's 'Planting is best done in autumn or winter' is a New Zealand non-commercial statement of season that is not recorded under AF-2 and should be; it widens the New Zealand range to autumn. YAT-NZ (bare-root roses 'in time for winter planting') could also be listed here."
+  },
+  {
+   "finding": "AF-3",
+   "comment": "Moderate is right (CSU, MU, ISU). The wording needs tightening: 'prefer' understates ISU ('must be planted in spring'), and 'cold-winter' is given as a reason only by MU (below -10 °F); CSU states the preference with no reason, so for CSU the link is an inference from Colorado. MU's two sentences sit under general rose planting, not bare-root only. The UK half is one organisation."
+  },
+  {
+   "finding": "AF-4",
+   "comment": "The corrected wording is right, and 'through most of the year, with conditions' was rightly dropped. High is defensible only for the umbrella claim (a longer season than bare-root: RHS-PL, YAT-NZ, PALM-G, MU, CSU). 'All year' rests on the RHS and two New Zealand commercial pages, 'growing season' on two extension pages, and ABG says autumn or winter is best. Moderate would be the safer level. No page links 'growing season' to cold winters in words; CSU ties it to killing frosts."
+  },
+  {
+   "finding": "AF-5",
+   "comment": "The corrected wording is right. Moderate is on the cautious side: after the extra check, planting soon has YAT-NZ, GA-2019, ISU and AMORE ('Plant your bareroot rose as soon as possible', seen in the AF-17 note but not recorded here), and not drying out has GA-2014P, ISU and RSNSW-G. Storage is on three pages, not two: DA-BR (three weeks, cool and dry), RSNSW-G (14 days, roots kept moist) and ISU (cool, about 40 °F, packing damp, no time given). The wording should carry the moisture condition."
+  },
+  {
+   "finding": "AF-6",
+   "comment": "High is right. Hours come from seven independent voices and every figure was confirmed. 'Direct' sun is the word on DA-BR, RSSA and AMORE only."
+  },
+  {
+   "finding": "AF-7",
+   "comment": "The corrected wording is right. High holds for the need for drainage. The raised-bed or mound part has four voices, two commercial, which is nearer Moderate, and the gypsum and compost part (ABG, RSSA, YAT-NZ, with KINGS doing both) is used in no statement in this share."
+  },
+  {
+   "finding": "AF-8",
+   "comment": "Moderate is right and could be argued up: CSU, MU and RSSA each carry the whole finding, and AMORE also keeps roses 1 m from other plants because of competition."
+  },
+  {
+   "finding": "AF-9",
+   "comment": "The corrected wording is still not right. AMORE's 60 to 100 cm is not limited to bush roses, so it cannot be called a bush-rose distance while FG-SP's 50 to 75 cm is excluded for the same reason. Either the range is for roses generally and runs from about 50 cm to 1 m, or only MU's 75 to 90 cm for hybrid teas ('in most of Missouri') is a bush-rose figure. GA-MAG's 1 m is for shrub roses."
+  },
+  {
+   "finding": "AF-11",
+   "comment": "Moderate is right: the RHS (three pages, one voice), ARS-RRD and RSSA describe poor growth; FG-RRD reports it second-hand and says opinion is divided."
+  },
+  {
+   "finding": "AF-15",
+   "comment": "Moderate is right. 'About twice as wide' is RHS-PL, ISU and PALM-G (a potted rose); MU carries 'wider than the roots' in a sentence that was not the one recorded."
+  },
+  {
+   "finding": "AF-16",
+   "comment": "Moderate is right, but all three voices that fully support it are Australian (the two Gardening Australia pages count once). The AF-7 note on YAT-NZ says its planting step has a mound 'for spreading bare roots'; that sentence was not recorded and would add a New Zealand voice."
+  },
+  {
+   "finding": "AF-17",
+   "comment": "High is right: eight independent voices in all four regions."
+  },
+  {
+   "finding": "AF-18",
+   "comment": "Level and wording are right. The two sources that set the limit (CSU, MU) are both confirmed, and ISU was rightly not counted."
+  },
+  {
+   "finding": "AF-19",
+   "comment": "Moderate is right (ISU, GA-MAG, YAT-NZ for planting). MU's 'don't cut them off' for roots too large for the hole is a precaution for the plant that reaches no gardener."
+  },
+  {
+   "finding": "AF-23",
+   "comment": "After the correction this rests on ABG and KINGS only, both New Zealand, one commercial. Moderate looks too high and should be looked at again. For grafted potted roses it can also conflict with the bud-union findings (PALM-G and YAT-NZ above the soil; CSU below)."
+  },
+  {
+   "finding": "AF-24",
+   "comment": "High is right: nine independent voices once the KINGS and PALM-G planting-step sentences are counted."
+  },
+  {
+   "finding": "AF-25",
+   "comment": "Moderate is right for 'sources differ'. Each position but one rests on a single page, and the two pages that cut back at planting (GA-2019, CSU) are both about bare-root roses, which the finding does not say."
+  },
+  {
+   "finding": "AF-26",
+   "comment": "High is right: ten independent voices. 'Most say winter' holds (seven of ten); HEIR says early spring, UW-PAL early spring or late fall, RHS-MOVE late October to mid-March for deciduous shrubs generally."
+  },
+  {
+   "finding": "AF-27",
+   "comment": "The corrected wording is right, and Moderate is right (AE-T, TRE-T, HEIR, DA-MOVE; UAEX is about plants in general)."
+  },
+  {
+   "finding": "AF-1",
+   "comment": "No correction needed to level (High): RHS-PL, DA-BR, MU, RSNSW-G, RSSA, ABC Gardening Australia and YAT-NZ support planting bare-root roses in dormancy or winter. The added limitation is right: in New Zealand only YAT-NZ ties winter to bare-root roses. UAEX also says 'Bare root plants are shipped dormant and meant to be planted dormant' (Part 1 note), which is unrecorded support. The RHS frozen-ground limit is recorded but not carried into PKR-CGD-000016 item 4."
+  },
+  {
+   "finding": "AF-2",
+   "comment": "No correction needed. Moderate is right; the limitation (RSNSW-CAL names June and July, not May; PALM-G names no month) is right. May rests on GA-MAG alone."
+  },
+  {
+   "finding": "AF-3",
+   "comment": "No correction needed. Moderate is right. ISU says 'must be planted in spring', which is firmer than 'prefer'; CSU gives no reason and its cold-winter link is an inference from Colorado. Both are noted in Part 1."
+  },
+  {
+   "finding": "AF-4",
+   "comment": "Corrected wording is right and High is defensible (six independent voices: RHS, Yates, Palmers, CSU, MU, NZRS). The wording could add that two New Zealand pages still give a best season (ABG autumn or winter; PALM-G winter through spring)."
+  },
+  {
+   "finding": "AF-5",
+   "comment": "Corrected level (Moderate) and wording are right. Two additions: AMORE says 'Plant your bareroot rose as soon as possible' (Part 1 note), unrecorded support for the first half; and the limitation should record that the storage conditions differ (DA-BR 'cool, dry place'; RSNSW-G roots kept moist; ISU packing kept damp), since ISU is a third source that allows storage."
+  },
+  {
+   "finding": "AF-6",
+   "comment": "No correction needed. High is right; seven voices give hours between four and six."
+  },
+  {
+   "finding": "AF-7",
+   "comment": "Level right (High). Corrected wording is slightly off: YAT-NZ says gypsum only ('add gypsum and fork it in well'), not compost, and KINGS adds gypsum as well as a mound. Better: four sources suggest raised beds or mounds (MU, KINGS, PALM-G, GA-MAG) and four suggest gypsum (ABG, RSSA, YAT-NZ, KINGS), two of them with compost (ABG, RSSA)."
+  },
+  {
+   "finding": "AF-8",
+   "comment": "No correction needed. Moderate is right (CSU, MU, RSSA). AMORE ('Plant your rose 100cm away from other plants', under 'Avoid intense competition from other plants') is unrecorded partial support."
+  },
+  {
+   "finding": "AF-9",
+   "comment": "Corrected wording still claims too much. Of the 'two sources [giving] distances for bush roses', only MU is about bush roses (hybrid teas, 2.5 to 3 feet, 'In most of Missouri'); AMORE's 60 to 100 cm covers several rose types. FG-SP was dropped for not naming bush roses, and the same applies to AMORE. Either say 'two sources give distances between about 60 cm and 1 m, one of them for hybrid teas', or keep FG-SP and say 50 cm to 1 m for roses in general. GA-MAG's 'shrub roses ... about 1m apart' is a third figure. Moderate is right for 'depends on type and size'."
+  },
+  {
+   "finding": "AF-10",
+   "comment": "No correction needed. Low, on record only, with a sound reason."
+  },
+  {
+   "finding": "AF-11",
+   "comment": "No correction needed. Moderate is right; limitation right. RSSA's term is 'rose sick soil'."
+  },
+  {
+   "finding": "AF-12",
+   "comment": "Level and limitation are right. The use field says 'Available to Pip' while the reason says it is not used; make the field match."
+  },
+  {
+   "finding": "AF-13",
+   "comment": "Needs correcting, not only a limitation. RHS-RD gives remedies that were never compiled: a cardboard box lining, high-nitrogen fertiliser, tolerant rootstocks, and mycorrhizal products with organic matter in the backfill. The last matters most: mycorrhizal fungi are then given by two independent voices (RHS-RD and FG-RRD), not by FG-RRD alone, and the RHS uses them alongside the soil swap. The wording should also mark rotation as a practice of commercial nurseries (ARS-RRD), and DA-MOVE's mycorrhizal step as unconfirmed. Moderate is right."
+  },
+  {
+   "finding": "AF-14",
+   "comment": "No correction needed. Low, one source, not said of roses; on record only is right."
+  },
+  {
+   "finding": "AF-15",
+   "comment": "No correction needed. Moderate is right; about twice the width is given by RHS-PL, ISU and PALM-G."
+  },
+  {
+   "finding": "AF-16",
+   "comment": "Check the limitation. Part 1 (YAT-NZ, AF-7 check) notes that the mound in the YAT-NZ planting step 'is for spreading bare roots', but YAT-NZ was not recorded against AF-16. If that sentence is confirmed, 'the four sources that fully support it are Australian' is wrong and New Zealand has a supporting page. Those four pages are three independent voices (RSNSW, RSSA, ABC Gardening Australia). Moderate stands."
+  },
+  {
+   "finding": "AF-17",
+   "comment": "No correction needed. High is right."
+  },
+  {
+   "finding": "AF-18",
+   "comment": "No correction needed. Moderate is right; CSU and MU are the two that set a 24-hour limit; RSNSW-G and AMORE recommend 24 hours as the soak."
+  },
+  {
+   "finding": "AF-19",
+   "comment": "No correction needed. Moderate rests on ISU, GA-MAG and YAT-NZ. The limitation rightly records that GA-2019 and MU say something different."
+  },
+  {
+   "finding": "AF-20",
+   "comment": "No correction needed. High is right; the limitation on the two David Austin pages is right and should be carried into the UK statement (PKR-CGD-000019 item 3)."
+  },
+  {
+   "finding": "AF-21",
+   "comment": "No correction needed. Moderate is right. Independent voices are three Australian (two rose societies and the broadcaster) and three New Zealand garden companies; for New Zealand, 'at soil level' rests on AMORE's 'crown' only."
+  },
+  {
+   "finding": "AF-22",
+   "comment": "Should be split. The cold-winter half is supported at Moderate (OSU-AE and ISU state the reason, MU in context; CSU buries without one). The RHS half is one organisation: on its own it is Low, usable for the UK as local information from one reliable source (rule 4) and said as one source. Kept together, the one-source half carries a Moderate label. Add as a limitation that DA-BR and DA-MOVE (UK) bury the union with no reason and no cold-winter link, so 'linked to cold winters' is true only of the sources that give a reason."
+  },
+  {
+   "finding": "AF-23",
+   "comment": "Corrected wording is right, but the level now looks high. After the correction only two voices support the potted-rose claim (ABG and KINGS), both New Zealand, one of them a garden centre; the dossier's Moderate counted the broadcaster, whose sentence is about a bare-root rose. Consider Low, used for New Zealand under rule 4 on ABG (a botanic garden), or state why two voices keep Moderate. The second half (GA-MAG, bare-root to the soil mark) is used in no statement."
+  },
+  {
+   "finding": "AF-24",
+   "comment": "No correction needed. High is right; the planting-step sentences for KINGS and PALM-G were confirmed in the extra results."
+  },
+  {
+   "finding": "AF-25",
+   "comment": "No correction needed. Moderate is right for a recorded difference (GA-2019, CSU, MU, RHS-PL)."
+  },
+  {
+   "finding": "AF-26",
+   "comment": "No correction needed. High is right: ten independent voices give a time, nine say dormant, and about eight say winter. The limitation (HEIR early spring; UW-PAL early spring or late autumn) should reach the gardener in the statement."
+  },
+  {
+   "finding": "AF-27",
+   "comment": "Corrected wording and level are right (AE-T, TRE-T, HEIR, DA-MOVE; UAEX general)."
+  },
+  {
+   "finding": "AF-28",
+   "comment": "Level right (Low). The use decision is doubtful: these are local timings, and PALM-FAQ's July is a local month from one New Zealand garden company, which the rules allow for that place. The stated reason does not address that. PALM-FAQ also says to wait until frost risk has passed, which would have to be said with it."
+  },
+  {
+   "finding": "AF-29",
+   "comment": "Level right (Moderate). Wording: with UAEX ('I would avoid pruning if possible', an autumn move) there are three voices against cutting back, not two, and HEIR makes it optional. None of the three is about an ordinary winter move: AE-T is summer, UAEX autumn, RHS-MOVE year-ahead preparation. That should be in the wording, not only the limitation."
+  },
+  {
+   "finding": "AF-30",
+   "comment": "Corrected level (Moderate) and wording are right. The disagreement on keeping soil on the roots should be recorded as a conflict of its own, not only as a limitation."
+  },
+  {
+   "finding": "AF-31",
+   "comment": "Level right (Moderate). Four sources give a figure (TUI-Q, UW-PAL, TRE-T, NRS-T). They mix distance out from the plant with width across: TRE-T's 45 cm circle is about 22 cm out, so no single 'out from the base' figure can be drawn from the range, which is why PKR-CGD-000021 item 3 fails."
+  },
+  {
+   "finding": "AF-32",
+   "comment": "No correction needed. Low, each half one source, correctly used as a precaution. HEIR also waters deeply before a growing-season move (unrecorded)."
+  },
+  {
+   "finding": "AF-33",
+   "comment": "Level is borderline. Watering at replanting has ten voices. Keeping it watered has six in full: three companies, one rosarian, one unnamed extension answer on a summer move and one general RHS page, the same mix that brought AF-30 down to Moderate. High can stand because the RHS supports this one in full, but the reason should be recorded, or the level made Moderate for consistency. 'Until it recovers' is KINGS's wording; the others give times from a week or two to the first year."
+  },
+  {
+   "finding": "AF-34",
+   "comment": "Level right (Low). Consider whether it is a precaution under rule 7 (it warns the gardener that an older or long-settled rose is at more risk when moved), in which case Pip would use it, marked as a precaution, with 'one source says' for each page. The limitation is right that RHS-MOVE says Rosa is tricky to move at any age."
+  },
+  {
+   "finding": "AF-35",
+   "comment": "No correction needed. Low, on record only."
+  },
+  {
+   "finding": "AF-36",
+   "comment": "No correction needed. Low, one source; its content reaches gardeners through AF-13 (DA-MOVE)."
+  },
+  {
+   "finding": "AF-37",
+   "comment": "No correction needed. Used only to say the gap, as rule 5 allows."
+  }
+ ]
+}

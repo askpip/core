@@ -1,0 +1,247 @@
+{
+ "what": "Build Check Part 2 (wording check), statements version v0.3_changed, 5 October 2026.",
+ "statements_checked": [
+  {
+   "ref": "PKR-CGD-000016 item 3",
+   "question": "When can I plant or move a rose?",
+   "text": "In Australia, plant bare-root roses (ones sold without soil on their roots) in winter, while they are dormant. Two rose societies say June or July, and one source says from May. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-2",
+    "AF-1",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000016 item 4",
+   "question": "When can I plant or move a rose?",
+   "text": "In the UK, plant bare-root roses (ones sold without soil on their roots) in late autumn, or from late winter to early spring before growth starts.",
+   "limit": null,
+   "trace": [
+    "AF-3",
+    "AF-1"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000016 item 5",
+   "question": "When can I plant or move a rose?",
+   "text": "In the US, where winters are very cold, spring is the preferred time to plant bare-root roses (ones sold without soil on their roots). One source puts the line at winters that fall below -10 °F, and says that where it stays warmer than that, autumn or spring both work.",
+   "limit": null,
+   "trace": [
+    "AF-3",
+    "C-3"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000016 item 6",
+   "question": "When can I plant or move a rose?",
+   "text": "A rose in a pot can be planted over a longer season than a bare-root rose. UK and New Zealand sources say all year, and two US sources say through the growing season.",
+   "limit": "One source says not to plant into frozen or very dry ground. Another says to keep it well watered if you plant in spring or summer. One New Zealand source says autumn or winter is still the best time.",
+   "trace": [
+    "AF-4"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000016 item 8",
+   "question": "When can I plant or move a rose?",
+   "text": "In New Zealand, one garden centre says the best time to move a rose is after pruning in July, while it is dormant, and once the risk of frost has passed. Months are only a guide, because frosts vary from year to year.",
+   "limit": null,
+   "trace": [
+    "AF-28",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000018 item 5",
+   "question": "How do I plant a rose?",
+   "text": "Trim off any damaged or broken roots before planting. One source says not to cut off roots that are too large for the hole, but to dig a bigger hole.",
+   "limit": null,
+   "trace": [
+    "AF-19"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000019 item 5",
+   "question": "How deep should I plant the bud union?",
+   "text": "I couldn't find advice on how deep to plant the bud union (the knobbly join near the base where the rose was grafted) in New Zealand's colder districts. A local rose society is the place to ask.",
+   "limit": null,
+   "trace": [
+    "R-2",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "NZ"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000019 item 6",
+   "question": "How deep should I plant the bud union?",
+   "text": "I only found advice on bud-union depth for New Zealand, Australia, the UK and the US. Elsewhere, a local rose society is the place to ask.",
+   "limit": null,
+   "trace": [
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000020 item 2",
+   "question": "Can I plant a rose where another rose grew?",
+   "text": "If you plant in the same spot, swap the soil in the planting hole for fresh soil from another part of the garden. Sources differ on how much to take out: from two buckets of soil, along with the old rose's roots, to a hole 45 to 60 cm (18 to 24 inches) across and 30 to 45 cm (12 to 18 inches) deep. One source gives planting somewhere else as another option.",
+   "limit": null,
+   "trace": [
+    "AF-13"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 2",
+   "question": "How do I move an established rose?",
+   "text": "In New Zealand, one garden centre says the best time to move a rose is after pruning in July, while it is dormant, and once the risk of frost has passed. Months are only a guide, because frosts vary from year to year.",
+   "limit": null,
+   "trace": [
+    "AF-28",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ"
+   ]
+  },
+  {
+   "ref": "PKR-CGD-000021 item 3",
+   "question": "How do I move an established rose?",
+   "text": "Cut the top growth back before a winter move. Sources differ on how much: from cutting it back by a third, to cutting it down to 25 to 30 cm (10 to 12 inches), to cutting it right back to 3 to 5 buds above the base.",
+   "limit": null,
+   "trace": [
+    "AF-29",
+    "C-5"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": null
+  }
+ ],
+ "results": [
+  {
+   "ref": "PKR-CGD-000016 item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "The only change is the bare-root gloss, which matches YAT-NZ ('roses supplied without any soil'). The rest stands as before: winter bare-root planting in Australia (RSSA 'Planting winter bare rooted roses', GA-2014P 'Because it's winter, Sophie's planting bare-rooted roses', RSNSW-G dormant and sold only in winter); 'Two rose societies say June or July' (RSSA, RSNSW-CAL); 'one source says from May' (GA-MAG). The range is shown and the one-source month is said as one source. Months are said to be only a guide. Moderate matches AF-2. Shown only in Australia.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000016 item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "The only change is the bare-root gloss, which is supported. The timing is RHS-PL word for word in substance ('Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes'), with DA-BR agreeing. It gives seasons and a check on the plant, not months. Moderate matches AF-3. The RHS frozen-ground sentence is not repeated here; the two separate windows already leave midwinter out, and PKR-CGD-000016 item 1, shown to every gardener, says it.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000016 item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "The only change is the bare-root gloss, which is supported. CSU ('For bare-root roses, spring planting is preferred over fall'), ISU (spring, Iowa) and MU support the first sentence; the second is MU alone and is said as one source ('winter temperatures dip below -10 degrees Fahrenheit, spring planting is preferred'; otherwise 'either fall or spring planting is satisfactory'). 'Preferred' says less than ISU's 'must', which is allowed. Moderate matches AF-3. Shown only in the US, in the unit the page uses.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000016 item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Earlier package point resolved. The limit line now says 'One New Zealand source says autumn or winter is still the best time', which is ABG ('Planting is best done in autumn or winter', said of container plants), so a gardener in a cold-winter country can see it is not advice for them. The other two limit sentences are RHS-PL ('provided the ground is neither frozen, nor very dry') and NZRS-FAQ ('If planting potted roses during spring and summer, keep them well watered'), each said as one source. The main text matches AF-4 as corrected (RHS-PL, YAT-NZ, PALM-G all year; CSU and MU growing season). High matches, for the reason recorded on AF-4.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000016 item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "The change is the added reason, 'because frosts vary from year to year'. That is the wording of rule 6 itself ('Months are only a guide, because temperatures and frosts vary from year to year'), which the trace cites, so it is not Pip's own, and it sits well beside the page's own frost condition. The rest is PALM-FAQ as confirmed ('after pruning in July when the rose is dormant with no active growth'; 'make sure that the risk of frosts (or freezing weather) has passed'). One garden centre, said as one; New Zealand only; Low matches AF-28. Identical to PKR-CGD-000021 item 2.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000018 item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Earlier package point resolved. 'Healthy' is gone and the second sentence is now MU's own case: 'If they are too large for the hole, don't cut them off', followed by 'Replace the plant and dig a larger hole'. Said as one source. The first sentence rests on ISU, GA-MAG and YAT-NZ. Moderate matches AF-19.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000019 item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Earlier note resolved: the bud-union gloss is now in the statement, so it stands alone. Still a true gap as recorded (dossier 4.3, R-2), in the first person, marked as a gap, pointing to local expert help, shown only in New Zealand.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000019 item 6",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "New. It is true to the record and allowed under rule 5. The commission's scope was 'New Zealand, Australian, UK and US sources' (dossier section 2), and every page that states a bud-union depth is from one of those four countries, so 'I only found advice ... for New Zealand, Australia, the UK and the US' is accurate and does not claim a search that was not made. It is in the first person, is marked as a gap and points to local expert help. It answers my earlier package point that gardeners elsewhere were given nothing to do. Three things to tidy. (1) It is the only bud-union statement without the gloss, and it may be seen alone. (2) Its trace is 'rule 5' only. No gap for other countries is recorded in dossier 4.3 or section 9; the basis is the scope in section 2, and the trace should say so, so the statement can be followed back to the record. (3) It is shown to every gardener, including those in the four countries, for whom it says nothing they can use. If the app can show it only where the plant is outside those four, it should; if it cannot, the suggested wording reads sensibly to both.",
+   "suggested_wording": "The advice I found on how deep to plant the bud union (the knobbly join near the base where the rose was grafted) comes from New Zealand, Australia, the UK and the US. If your rose is somewhere else, a local rose society is the place to ask."
+  },
+  {
+   "ref": "PKR-CGD-000020 item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Earlier package point resolved. The inches added are the pages' own: RHS-PL '45cm (18in)', RHS-RD '60cm (2ft)' and '30cm (1ft)'. Everything else stands as checked before (fresh soil from another part of the garden: RHS-PL, RHS-RD, RSSA, DA-MOVE; two buckets and the old roots: RSSA; planting elsewhere: RHS-RD, one source). Moderate matches AF-13.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Identical to PKR-CGD-000016 item 8 and passes for the same reasons: PALM-FAQ as confirmed, one garden centre said as one, New Zealand only, Low matching AF-28, and the added reason taken from rule 6.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000021 item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Earlier fail resolved. The range now runs to its far end and each figure is the page's: KINGS 'cut them back by a third'; HEIR 'Cut the rose canes back to 10-12 inches' (25 to 30 cm); TUI-Q 'cut it back hard to about 3-5 buds (or nodes) from the graft at ground level', with TUI-T 'Prune roses back hard before moving'. NRS-T (by half) and UW-PAL (three to four canes) fall inside it. Still limited to a winter move, which is where the seven voices that cut back agree. Moderate matches AF-29.",
+   "suggested_wording": null
+  }
+ ],
+ "package_notes": [
+  "Of the eleven changed statements, ten pass and one passes with a note (the new gap statement, PKR-CGD-000019 item 6). None fails. The one fail from my last check (the cut-back range, PKR-CGD-000021 item 3) is resolved.",
+  "The earlier package points these changes were meant to answer are answered: the potted-rose limit now names New Zealand, 'healthy roots' is replaced by the source's own case, the soil-swap sizes carry inches, the New Zealand gap carries the bud-union gloss, and gardeners outside the four countries now have a pointer for bud-union depth.",
+  "The two New Zealand moving statements (PKR-CGD-000016 item 8 and PKR-CGD-000021 item 2) are still word for word the same, as they must be.",
+  "The findings file does not show the two limitation fixes described to me. On disk, AF-7 still reads 'Only ABG's sentence on this is a recorded quotation; the others were read at the check', and AF-23 still gives no reason why the bare-root soil-mark half is not used on its own. Neither affects a statement result, but the file should be checked and saved again.",
+  "Still open from my last check, and outside the eleven: confirm the app has a label for an ordinary Low statement from one local source (PKR-CGD-000016 item 8 and PKR-CGD-000021 item 2); 'mycorrhizal fungi' and 'dieback' are not explained; PKR-CGD-000018 item 8 shows Moderate on a claim that two New Zealand voices support.",
+  "There is no matching pointer for planting time for gardeners outside the four countries. It matters less there, because PKR-CGD-000016 item 1 gives every gardener a check on the plant (dormant, with no leaves)."
+ ],
+ "findings_comments": []
+}

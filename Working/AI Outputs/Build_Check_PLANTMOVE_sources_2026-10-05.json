@@ -1,0 +1,2588 @@
+{
+ "what": "Build Check Part 1 (ROC Operations Manual §14.2A): every source the Source Register lists for a finding was reopened on 5 October 2026 and each recorded quotation looked for on its page.",
+ "totals": {
+  "sources": 34,
+  "opened": 34,
+  "quotations": 213,
+  "confirmed": 206,
+  "near": 7,
+  "not_found": 0,
+  "supports": {
+   "yes": 145,
+   "partly": 60,
+   "n/a": 1,
+   "no": 7
+  }
+ },
+ "sources": [
+  {
+   "code": "RHS-PL",
+   "url": "https://www.rhs.org.uk/plants/roses/planting",
+   "final_url": "https://www.rhs.org.uk/plants/roses/planting",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.\"",
+     "result": "Confirmed",
+     "page_wording": "Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.",
+     "supports_finding": "yes",
+     "note": "Word for word, under the bare-root heading of 'When to plant roses'; the page describes bare-root roses as lifted 'while dormant'. It supports the UK part only (nothing on New Zealand or Australia). The page gives two windows, not one continuous season, and the next sentence says 'Avoid planting in the middle of winter when the ground is frozen.'"
+    },
+    {
+     "finding": "AF-3",
+     "recorded": "\"Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.\"",
+     "result": "Confirmed",
+     "page_wording": "Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.",
+     "supports_finding": "yes",
+     "note": "Word for word and about bare-root roses, so the RHS half of the finding is supported. This page says nothing about US practice, so the comparison rests on other sources. The RHS also says to avoid mid-winter when the ground is frozen."
+    },
+    {
+     "finding": "AF-4",
+     "recorded": "\"Plant all year round, provided the ground is neither frozen, nor very dry.\"",
+     "result": "Confirmed",
+     "page_wording": "Plant all year round, provided the ground is neither frozen, nor very dry.",
+     "supports_finding": "yes",
+     "note": "Word for word, under the 'containerised and container-grown roses' part of 'When to plant roses'. The two conditions (ground not frozen, not very dry) are the ones the finding refers to. UK source; no date shown."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"Spacing depends on type and habit. Check catalogue or label details.\"",
+     "result": "Confirmed",
+     "page_wording": "Spacing depends on type and habit. Check catalogue or label details.",
+     "supports_finding": "partly",
+     "note": "Word for word, in the planting steps. It supports only that spacing varies with the rose, and the page says 'type and habit', not 'mature size'. The page gives no distances at all, so it does not support the 50 cm to 1 m range."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"as roses are at risk from replant disease.\"",
+     "result": "Confirmed",
+     "page_wording": "...exchange it with soil from a different part of the garden, as roses are at risk from replant disease, also known as soil sickness.",
+     "supports_finding": "partly",
+     "note": "The fragment is word for word and is about replacing old roses with new ones. It only names the risk; this page does not describe poor establishment or poor growth. The page's other name for it is 'soil sickness', not 'rose sickness'."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"dig out the soil to a depth and width of 45cm (18in) and exchange it with soil from a different part of the garden\"",
+     "result": "Confirmed",
+     "page_wording": "If you are replacing old roses with new roses, ensure that you dig out the soil to a depth and width of 45cm (18in)...",
+     "supports_finding": "yes",
+     "note": "Word for word. It supports the 'replace the soil' remedy with one stated amount (45 cm deep and wide, swapped with soil from elsewhere in the garden). This page gives no other remedy: no planting elsewhere, no rotation, no mycorrhizal fungi."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"dig a hole roughly twice the width of the plant's roots and the depth of a spade's blade.\"",
+     "result": "Confirmed",
+     "page_wording": "For each rose dig a hole roughly twice the width of the plant's roots and the depth of a spade's blade.",
+     "supports_finding": "yes",
+     "note": "Word for word, in 'How to plant roses', and applies to each rose whether bare-root or potted. It is one data point for 'wider than the roots'."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"is at soil level (not below as this is reported to increase the risk of rose dieback).\"",
+     "result": "Confirmed",
+     "page_wording": "ensure the graft union (...) is at soil level (not below as this is reported to increase the risk of rose dieback).",
+     "supports_finding": "yes",
+     "note": "Word for word. The instruction is given for 'each rose' in the planting steps and puts the graft union at soil level, which is one of the three positions the finding lists."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"is at soil level (not below as this is reported to increase the risk of rose dieback).\"",
+     "result": "Confirmed",
+     "page_wording": "ensure the graft union (...) is at soil level (not below as this is reported to increase the risk of rose dieback).",
+     "supports_finding": "yes",
+     "note": "Word for word, and it supports the RHS half: not below soil level, with the reason given as 'reported to increase the risk of rose dieback' (reported, not stated as fact). This page says nothing about cold winters or frost in connection with union depth, so that half rests on other sources."
+    },
+    {
+     "finding": "AF-25",
+     "recorded": "\"Prune back in the first winter after planting. Do this in late winter or early spring.\"",
+     "result": "Confirmed",
+     "page_wording": "Prune back in the first winter after planting. Do this in late winter or early spring.",
+     "supports_finding": "yes",
+     "note": "Word for word, under Aftercare, Pruning. As a data point: the RHS times pruning for the first winter after planting, not at planting, with amounts by type (hybrid teas 10-15 cm, floribundas about 15 cm, climbers and ramblers 30-40 cm 'if not already pruned at the nursery', shrub roses left unpruned). The page gives no instruction to prune at planting."
+    },
+    {
+     "finding": "OTHER",
+     "recorded": "Consistency (BASICCARE F2): \"Water well in dry spells for at least two summers after planting.\"",
+     "result": "Confirmed",
+     "page_wording": "Water well in dry spells for at least two summers after planting.",
+     "supports_finding": "n/a",
+     "note": "Word for word, under Aftercare, general care."
+    }
+   ],
+   "contradictions": [
+    "Bare-root timing is qualified: 'Avoid planting in the middle of winter when the ground is frozen', and the page gives two windows (late autumn at leaf fall; late winter to early spring), which is narrower than a plain 'late autumn to early spring' (AF-1, AF-3).",
+    "The page gives no spacing distances, so it cannot support the 50 cm to 1 m range in AF-9.",
+    "The page calls replant disease 'soil sickness' and does not describe its effects (AF-11).",
+    "Within the RHS the soil-swap size differs: 45 cm depth and width here, about 60 cm across and at least 30 cm deep on the RHS replant disease page (AF-13)."
+   ]
+  },
+  {
+   "code": "RHS-RD",
+   "url": "https://www.rhs.org.uk/prevention-protection/replant-disease",
+   "final_url": "https://www.rhs.org.uk/prevention-protection/replant-disease",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"New plantings may struggle to establish, make poor growth and may even die\"",
+     "result": "Confirmed",
+     "page_wording": "New plantings may struggle to establish, make poor growth and may even die.",
+     "supports_finding": "yes",
+     "note": "Word for word, in the list introduced by 'Plants affected by replant disease may show the following'. The page says 'Roses are particularly prone, though it can affect other trees and shrubs' and uses both 'replant disorder or replant disease' and 'rose sickness'."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "\"Replant disease is a recognised but poorly understood problem.\"",
+     "result": "Confirmed",
+     "page_wording": "Replant disease is a recognised but poorly understood problem.",
+     "supports_finding": "yes",
+     "note": "Word for word, and it is the only sentence on the page saying the problem is not understood. The page does offer a leading theory, worded as belief: 'It is believed to be caused by a build-up of soil pests and pathogens', with fungal root diseases and nematodes as 'favourite suspects' and soil sterilisation as evidence for a biological cause. So 'not established' holds, but 'unknown' would overstate it; the statement is about replant disease generally, not only roses."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"This is usually about 60cm (2ft) diameter and at least 30cm (1ft) deep.\"",
+     "result": "Confirmed",
+     "page_wording": "This is usually about 60cm (2ft) diameter and at least 30cm (1ft) deep.",
+     "supports_finding": "yes",
+     "note": "Word for word (one tool answer labelled it NEAR but gave identical wording). 'This' is the planting hole: the preceding lines are 'STEP 1: Swap the soil with fresh soil from another part of the garden' and that the hole should be a few centimetres larger than the root spread. The page also gives replanting on another site, a cardboard box lining, nitrogen feed, mycorrhizal products and organic matter in the backfill, and tolerant rootstocks; it does not mention rotating with other plants."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"The problem can persist for at least nine years following removal of the first planting.\"",
+     "result": "Confirmed",
+     "page_wording": "The problem can persist for at least nine years following removal of the first planting.",
+     "supports_finding": "yes",
+     "note": "Word for word. It sits in the explanation of the pest-and-pathogen theory and is about replant disease in general, not roses in particular. No source or study is cited on the page for the nine years."
+    }
+   ],
+   "contradictions": [
+    "The page gives a leading explanation (build-up of soil pests and pathogens; sterilisation removes the problem, 'suggesting a biological cause'), which qualifies a bare statement that the cause is not established (AF-12).",
+    "The page does not mention crop rotation or growing other plants first, so it does not support the 'rotate with other plants' remedy in AF-13.",
+    "The page lists remedies not named in AF-13: lining the hole with a cardboard box, high-nitrogen fertiliser, and tolerant rootstocks such as Rosa 'Laxa'.",
+    "The nine-year statement is general to replant disease, not specific to roses (AF-14)."
+   ]
+  },
+  {
+   "code": "RHS-MOVE",
+   "url": "https://www.rhs.org.uk/plants/types/trees/moving-trees-shrubs",
+   "final_url": "https://www.rhs.org.uk/plants/types/trees/moving-trees-shrubs",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-26",
+     "recorded": "\"Move at any time during the dormant season from late October to mid-March\"",
+     "result": "Confirmed",
+     "page_wording": "Deciduous plants: Move at any time during the dormant season from late October to mid-March",
+     "supports_finding": "yes",
+     "note": "Word for word, under 'Timing', which opens 'The optimum time to move established trees or shrubs depends on their type'. It is general guidance for deciduous trees and shrubs, not written about roses, though the page names Rosa elsewhere. Evergreens are treated differently ('Best moved during October or late March')."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Thin the growth lightly by pruning out any old, worn-out wood, but do not prune hard.\"",
+     "result": "Confirmed",
+     "page_wording": "Thin the growth lightly by pruning out any old, worn-out wood, but do not prune hard.",
+     "supports_finding": "partly",
+     "note": "Word for word, but the context is narrower than the finding suggests: it is the third step under 'Preparation', which begins 'If possible prepare mature specimens a year in advance', after digging a root-pruning trench in November to February. It supports 'do not prune hard', for mature trees and shrubs generally, as year-ahead preparation; the 'Lifting and moving' steps themselves mention no pruning. Two tool answers disagreed on the neighbouring sentence; a third pass settled it as: before, 'Back fill the trench with sharp sand...'; after, 'Where necessary, re-shaping can be done once the plant is well re-established'."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Ensure that plants are watered in thoroughly after planting and during dry spells\"",
+     "result": "Confirmed",
+     "page_wording": "Ensure that plants are watered in thoroughly after planting and during dry spells",
+     "supports_finding": "yes",
+     "note": "Word for word, a bullet under 'Aftercare', whose opening sentence sets the period as the year after moving. General to moved trees and shrubs, not rose-specific. The page words the duration as a year, not 'until it recovers'; it also advises a thick mulch."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"Plants resenting root disturbance such as Rosa, Magnolia, Cytisus and Cistus can be tricky to move.\" / \"plants that have been growing in position for more than five years are much less likely to survive transplanting\"",
+     "result": "Confirmed",
+     "page_wording": "Plants resenting root disturbance such as Rosa... can be tricky to move. / ...plants... more than five years are much less likely to survive transplanting...",
+     "supports_finding": "yes",
+     "note": "Both fragments are word for word. The five-year rule of thumb applies to trees and shrubs generally and the page gives no age limit for roses, as the finding says. Note that the Rosa sentence says roses are tricky to move because they resent root disturbance, at any age, not only when old."
+    }
+   ],
+   "contradictions": [
+    "The 'do not prune hard' advice is part of preparing mature specimens a year in advance, not an instruction for the day of the move (AF-29).",
+    "The page says Rosa resents root disturbance and 'can be tricky to move' whatever its age, which is a stronger caution than 'older roses are harder to move' (AF-34).",
+    "The dormant-season window is stated for deciduous plants only; evergreens are 'Best moved during October or late March' (AF-26)."
+   ]
+  },
+  {
+   "code": "RHS-FAQ",
+   "url": "https://www.rhs.org.uk/plants/roses/frequently-asked-questions",
+   "final_url": "https://www.rhs.org.uk/plants/roses/frequently-asked-questions",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"it is likely that they are suffering from a problem known as replant disorder or rose sickness.\"",
+     "result": "Confirmed",
+     "page_wording": "If you planted your new roses straight into soil where other roses had recently been grown then it is likely... replant disorder or rose sickness.",
+     "supports_finding": "yes",
+     "note": "Word for word, in the 'Roots' section, answering a question about new roses that never thrived in an old rose border. The next sentence gives the effects: 'This is characterised by poor establishment, dieback and a lack of healthy fine, feeder roots.' The answer says 'replant disorder or rose sickness' (not 'replant disease'), is worded as 'likely', and gives no remedy."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "code": "RSNSW-G",
+   "url": "https://nsw.rose.org.au/growing-roses",
+   "final_url": "https://nsw.rose.org.au/growing-roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Bare rooted plants are dormant – they have no leaves or flowers and are only available in winter.\"",
+     "result": "Confirmed",
+     "page_wording": "Bare rooted plants are dormant – they have no leaves or flowers and are only available in winter.",
+     "supports_finding": "partly",
+     "note": "Word for word. It says bare-root roses are dormant and are sold only in winter; it does not say when to plant them, and the page gives no planting months. Planting in winter is implied, not stated, and it covers Australia (New South Wales) only."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"It is best to soak bare rooted roses in a bucket of water for 24 hours before planting in the garden.\"",
+     "result": "Confirmed",
+     "page_wording": "It is best to soak bare rooted roses in a bucket of water for 24 hours before planting in the garden.",
+     "supports_finding": "yes",
+     "note": "Word for word. Plain recommendation to soak before planting."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"soak bare rooted roses in a bucket of water for 24 hours\"",
+     "result": "Confirmed",
+     "page_wording": "It is best to soak bare rooted roses in a bucket of water for 24 hours before planting in the garden.",
+     "supports_finding": "yes",
+     "note": "Word for word, and it supplies the 24-hour end of the range. Here 24 hours is the recommended soak ('It is best'), not a limit or maximum. The same society's care calendar says 'at least two hours'."
+    }
+   ],
+   "contradictions": [
+    "The page does not state a planting season for bare-root roses, only that they are available in winter (AF-1).",
+    "The page says bare-root roses can be stored in their transport packaging 'providing the roots are kept moist, for up to 14 days'.",
+    "The same society's care calendar gives a different soaking time ('at least two hours') from the 24 hours given here (AF-18)."
+   ]
+  },
+  {
+   "code": "RSNSW-CAL",
+   "url": "https://nsw.rose.org.au/growing-roses/care-calendar",
+   "final_url": "https://nsw.rose.org.au/growing-roses/care-calendar",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-2",
+     "recorded": "\"Prepare the soil for planting in June/July.\"",
+     "result": "Confirmed",
+     "page_wording": "Prepare the soil for planting in June/July.",
+     "supports_finding": "yes",
+     "note": "Word for word, under the 'Late April / May' heading, so it means prepare the soil now for planting in June/July. Bare-root planting steps then appear under June; the July section says nothing about planting. It supports the 'June to July' option for Australia only: May is not named as a planting month and the page says nothing about New Zealand. One tool answer misread the sentence as soil preparation in June/July; the heading it sits under rules that out."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "\"Make a mound in the hole and place the roots over and down around the mound.\"",
+     "result": "Confirmed",
+     "page_wording": "Make a mound in the hole and place the roots over and down around the mound.",
+     "supports_finding": "yes",
+     "note": "Word for word, under June (one tool answer cut the sentence short; a second confirmed the ending 'the mound'). About planting bare-root roses."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"Before planting bare root roses soak the plants in a bucket of water with seaweed solution for at least two hours.\"",
+     "result": "Confirmed",
+     "page_wording": "Before planting bare root roses soak the plants in a bucket of water with seaweed solution for at least two hours.",
+     "supports_finding": "yes",
+     "note": "Word for word, under June. Note the soak is in water with seaweed solution."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"for at least two hours.\"",
+     "result": "Confirmed",
+     "page_wording": "...soak the plants in a bucket of water with seaweed solution for at least two hours.",
+     "supports_finding": "yes",
+     "note": "Word for word. Two hours is a minimum here ('at least') and no maximum is given; it falls inside the stated one-to-24-hour range."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"sitting 3-5cm above ground level.\"",
+     "result": "Confirmed",
+     "page_wording": "The bud union needs to be facing north or west and sitting 3-5cm above ground level.",
+     "supports_finding": "yes",
+     "note": "The fragment is word for word within this sentence, under June, and it is the bud union that sits above ground. It is the 'above the soil' data point. Written for New South Wales."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"sitting 3-5cm above ground level.\"",
+     "result": "Confirmed",
+     "page_wording": "The bud union needs to be facing north or west and sitting 3-5cm above ground level.",
+     "supports_finding": "yes",
+     "note": "Word for word. Supports the Australian part (bud union above ground level); nothing here about New Zealand."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Water well, poking around the roots to maintain soil and root contact.\"",
+     "result": "Confirmed",
+     "page_wording": "Water well, poking around the roots to maintain soil and root contact.",
+     "supports_finding": "yes",
+     "note": "Word for word, under June. It comes straight after 'Backfill the soil halfway up the hole', so it describes watering part-way through backfilling, which is consistent with watering in thoroughly."
+    }
+   ],
+   "contradictions": [
+    "The page names June/July, and only June carries planting steps; it does not name May as a planting month (AF-2).",
+    "Soaking time here ('at least two hours', with seaweed solution) differs from the 24 hours on the same society's Rose Growing Advice page (AF-18).",
+    "The page says nothing about trimming damaged roots or pruning at planting."
+   ]
+  },
+  {
+   "code": "ISU",
+   "url": "https://yardandgarden.extension.iastate.edu/how-to/how-plant-bare-root-shrubs-and-roses",
+   "final_url": "https://yardandgarden.extension.iastate.edu/how-to/how-plant-bare-root-shrubs-and-roses",
+   "opened": true,
+   "page_date": "Last reviewed January 2025",
+   "checks": [
+    {
+     "finding": "AF-3",
+     "recorded": "\"Bare root shrubs must be planted in spring before growth begins.\"",
+     "result": "Confirmed",
+     "page_wording": "Bare root shrubs must be planted in spring before growth begins.",
+     "supports_finding": "yes",
+     "note": "Word for word, in the opening section; a later line reads 'Plant bare root shrubs, including roses, as soon as possible before spring growth begins', so roses are covered. Iowa is a cold-winter state. The page says 'must', which is stronger than 'prefer', and does not mention autumn planting."
+    },
+    {
+     "finding": "AF-5",
+     "recorded": "\"store them in a cool, non-freezing location at around 40°F, such as a refrigerator\"",
+     "result": "Confirmed",
+     "page_wording": "If planting has to be delayed, store them in a cool, non-freezing location at around 40°F, such as a refrigerator, unheated garage, or root cellar.",
+     "supports_finding": "partly",
+     "note": "The fragment is word for word but is the exception for delayed planting, so on its own it shows only that roots are kept cool until planting. The same page carries direct support that was not recorded: 'Plant bare root shrubs as soon as possible after receiving them' and 'Do not let any part of the bare root shrub dry out, especially the root system.' Those sentences were reported in one tool answer and should be used instead."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"dig a hole that is two to two-and-a-half times wider than the spread of the shrub's root system\"",
+     "result": "Confirmed",
+     "page_wording": "...dig a hole that is two to two-and-a-half times wider than the spread of the shrub's root system.",
+     "supports_finding": "yes",
+     "note": "Word for word. One data point for a hole wider than the roots; written for bare-root shrubs including roses."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"soak the shrubs' roots in a bucket of water for one to two hours\"",
+     "result": "Confirmed",
+     "page_wording": "Prior to planting, soak the shrubs' roots in a bucket of water for one to two hours.",
+     "supports_finding": "yes",
+     "note": "Word for word."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"for one to two hours\"",
+     "result": "Confirmed",
+     "page_wording": "Prior to planting, soak the shrubs' roots in a bucket of water for one to two hours.",
+     "supports_finding": "yes",
+     "note": "Word for word, and it supplies the one-hour end of the range. This page gives no maximum soaking time, so it is not one of the two sources setting a 24-hour limit."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"prune off damaged or broken roots\"",
+     "result": "Confirmed",
+     "page_wording": "Also, prune off damaged or broken roots.",
+     "supports_finding": "yes",
+     "note": "Word for word apart from the leading 'Also,'. It follows the soaking sentence and applies before planting."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"the bud/graft union should be planted 2 to 4 inches below the soil surface\"",
+     "result": "Near",
+     "page_wording": "In Iowa, the bud/graft union (denoted by a knob or crook in the plant stem) should be planted 2 to 4 inches below the soil...",
+     "supports_finding": "yes",
+     "note": "The recorded quotation drops the bracketed words '(denoted by a knob or crook in the plant stem)' without marking the gap, and drops the opening 'In Iowa,'. The meaning is unchanged: union 2 to 4 inches below the soil. The advice is explicitly for Iowa."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"the bud/graft union should be planted 2 to 4 inches below the soil surface\"",
+     "result": "Near",
+     "page_wording": "In Iowa, the bud/graft union (denoted by a knob or crook in the plant stem) should be planted 2 to 4 inches below the soil...",
+     "supports_finding": "yes",
+     "note": "Same unmarked omission as above. The cold-winter link is on the page but not in the recorded fragment: the sentence starts 'In Iowa,' and the next sentence is 'This helps protect the rose from harsh winter weather.' That following sentence should be recorded too. The RHS half rests on the RHS page."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Finally, water the shrub thoroughly.\"",
+     "result": "Confirmed",
+     "page_wording": "Finally, water the shrub thoroughly.",
+     "supports_finding": "yes",
+     "note": "Word for word, the last planting step."
+    }
+   ],
+   "contradictions": [
+    "The page says bare-root shrubs 'must' be planted in spring, a firmer statement than 'prefer spring' (AF-3).",
+    "The page gives no maximum soaking time; it should not be counted among sources that set 24 hours as a limit (AF-18).",
+    "The buried-union advice is limited to Iowa by the words 'In Iowa' (AF-20, AF-22)."
+   ]
+  },
+  {
+   "code": "DA-BR",
+   "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses",
+   "final_url": "https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses",
+   "opened": true,
+   "page_date": "29 September 2025",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"The ideal moment is during dormancy, from late autumn to early spring.\"",
+     "result": "Confirmed",
+     "page_wording": "The ideal moment is during dormancy, from late autumn to early spring.",
+     "supports_finding": "yes",
+     "note": "Word for word. The sentence names no country or months; the page is on the UK site of a UK nursery. Supports the UK part only."
+    },
+    {
+     "finding": "AF-5",
+     "recorded": "\"keep the roses in their packaging in a cool, dry place, protected from frost, for up to three weeks.\"",
+     "result": "Confirmed",
+     "page_wording": "If planting will be delayed, keep the roses in their packaging in a cool, dry place, protected from frost, for up to three weeks.",
+     "supports_finding": "no",
+     "note": "The fragment is word for word, but it says the opposite of prompt planting: roses may be kept in their packaging for up to three weeks if planting is delayed. Two passes found no wording such as 'as soon as possible' or 'on arrival' and no instruction to keep roots from drying out; the only related line is the pre-planting soak 'to rehydrate them'."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Select a location that enjoys at least four hours of direct sun each day.\"",
+     "result": "Confirmed",
+     "page_wording": "Select a location that enjoys at least four hours of direct sun each day.",
+     "supports_finding": "yes",
+     "note": "Word for word. It is the four-hour end of the stated range. Commercial source, dated 29 September 2025."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"Before planting, soak the roots in water for a couple of hours to rehydrate them.\"",
+     "result": "Confirmed",
+     "page_wording": "Before planting, soak the roots in water for a couple of hours to rehydrate them.",
+     "supports_finding": "yes",
+     "note": "Word for word."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"soak the roots in water for a couple of hours\"",
+     "result": "Confirmed",
+     "page_wording": "Before planting, soak the roots in water for a couple of hours to rehydrate them.",
+     "supports_finding": "yes",
+     "note": "Word for word. 'A couple of hours' sits inside the one-to-24-hour range; no maximum is given."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"keeping the graft union 2-3 inches, 5-8 cm, below the soil surface\"",
+     "result": "Confirmed",
+     "page_wording": "Plant the rose as you would in the ground, keeping the graft union 2-3 inches, 5-8 cm, below the soil surface.",
+     "supports_finding": "partly",
+     "note": "The fragment is word for word but appears only under 'Shrub Roses in a Pot' and 'Climbing Roses in a Pot'. This page gives no in-ground planting steps or depth; it links to separate guides for that. The words 'as you would in the ground' suggest the same depth applies in the garden, but the page does not say so directly and gives no reason for the depth."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Water deeply after planting so the soil settles around the roots.\"",
+     "result": "Confirmed",
+     "page_wording": "Water deeply after planting so the soil settles around the roots.",
+     "supports_finding": "yes",
+     "note": "Word for word, under 'Caring for Newly Planted Roses', which is not limited to pots or to the ground."
+    }
+   ],
+   "contradictions": [
+    "The page allows bare-root roses to be held in their packaging for up to three weeks, in a 'cool, dry place', and does not say to plant promptly or to keep roots moist; this qualifies AF-5.",
+    "The below-soil graft union depth is stated only in the pot-planting sections of this page (AF-20).",
+    "The page gives no reason for burying the graft union, and no link to cold winters (relevant to AF-22 if this source is relied on there)."
+   ]
+  },
+  {
+   "code": "HEIR",
+   "url": "https://heirloomroses.com/blogs/how-to-articles/transplanting-roses",
+   "final_url": "https://heirloomroses.com/blogs/how-to-articles/transplanting-roses",
+   "opened": true,
+   "page_date": "13 April 2023",
+   "checks": [
+    {
+     "finding": "AF-26",
+     "recorded": "\"The best time to transplant is always during the dormant season in early spring\"",
+     "result": "Confirmed",
+     "page_wording": "The best time to transplant is always during the dormant season in early spring as it will cause less stress and shock to the plant.",
+     "supports_finding": "yes",
+     "note": "Word for word. Note the page narrows dormancy to 'early spring' and does not mention late autumn or winter. US own-root rose nursery, dated 13 April 2023."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"roses are adaptable to being moved to a new home\"",
+     "result": "Confirmed",
+     "page_wording": "Well, it's a good thing that roses are adaptable to being moved to a new home!",
+     "supports_finding": "no",
+     "note": "The fragment is word for word, but it is about choosing a new spot (the next lines say roses like 'brand new homes'), not about the time of year. The page does support the finding in a different passage that was not recorded: the section 'Transplanting During the Growing Season' opens 'If you need to transplant your rose during the growing season (non-dormant), you can still be successful but water is key!' That section stresses watering (water deeply beforehand, vitamin B1 feed) but its pruning step is not heavier than the dormant one."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Cut the rose canes back to 10-12 inches and remove any foliage\"",
+     "result": "Confirmed",
+     "page_wording": "Cut the rose canes back to 10-12 inches and remove any foliage so the plant can focus on root development in its new home.",
+     "supports_finding": "yes",
+     "note": "Word for word, as a step under 'Transplanting While Dormant'. One data point for cutting back before moving. The growing-season section words it differently: prune out dried or dead material and 'cut the taller canes down to a manageable height before digging up the rose'."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"Take as many of the roots with you as possible.\"",
+     "result": "Confirmed",
+     "page_wording": "Take as many of the roots with you as possible and gently transfer to the new hole.",
+     "supports_finding": "partly",
+     "note": "Word for word, in both the dormant and growing-season sections. It supports keeping as many roots as possible. The page gives no root-ball size and says nothing about keeping soil on the roots; the nearest line is 'Remove the rose by digging far enough away from the root ball so you don't damage the roots.'"
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Water the new rose every day for a week or two depending on your weather.\"",
+     "result": "Confirmed",
+     "page_wording": "Water the new rose every day for a week or two depending on your weather.",
+     "supports_finding": "yes",
+     "note": "Word for word, in both sections. It supports watering and continued watering, but for a fixed 'week or two', not 'until it recovers', and nothing is said about watering after that. The page adds 'Do not fertilize or use any insecticides until you see new growth on the rose.'"
+    }
+   ],
+   "contradictions": [
+    "The quotation recorded for AF-27 is about choosing a new location, not about moving outside dormancy; the supporting text is the section 'Transplanting During the Growing Season'.",
+    "For growing-season moves the page asks for more watering ('water is key') but not clearly more pruning: the dormant step is the more specific cut (10-12 inches), which qualifies the 'more pruning' part of AF-27.",
+    "The page puts the best time 'in early spring' only, narrower than 'while dormant' (AF-26).",
+    "The page does not mention keeping soil on the roots or a root-ball size (AF-30)."
+   ]
+  },
+  {
+   "code": "ABG",
+   "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+   "final_url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-6",
+     "recorded": "\"Roses can be used in many situations but do best in full sun.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses can be used in many situations but do best in full sun.",
+     "supports_finding": "partly",
+     "note": "Word for word. It supports a sunny site ('do best in full sun') but the page states no number of hours, so it does not support the four-to-six-hour range."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"They should be sheltered from strong winds and have good drainage.\"",
+     "result": "Confirmed",
+     "page_wording": "They should be sheltered from strong winds and have good drainage.",
+     "supports_finding": "partly",
+     "note": "Word for word. It supports the need for good drainage. The page does not mention raised beds or mounds; for heavy soils it says 'add compost before planting and gypsum to particularly heavy soils, like clay'."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"Always plant at the same depth as they are in their container.\"",
+     "result": "Confirmed",
+     "page_wording": "Always plant at the same depth as they are in their container.",
+     "supports_finding": "yes",
+     "note": "Word for word, in the planting section of a page about roses, following 'Planting is best done in autumn or winter.' The page refers only to container plants and never mentions bare-root roses or the bud union. New Zealand (Auckland) source."
+    }
+   ],
+   "contradictions": [
+    "For heavy soil the page recommends compost and gypsum, not raised beds or mounds (AF-7).",
+    "The page says 'Planting is best done in autumn or winter', which qualifies any claim that potted roses can be planted through most of the year (AF-4, if this source is used there).",
+    "No hours of sun are stated (AF-6)."
+   ]
+  },
+  {
+   "code": "RSSA",
+   "url": "https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf",
+   "final_url": "https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf",
+   "opened": true,
+   "page_date": "not shown (PDF sits in a 2015/10 upload folder; no date in the document)",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"This is best done in June or July.\"",
+     "result": "Confirmed",
+     "page_wording": "Planting winter bare rooted roses: This is best done in June or July.",
+     "supports_finding": "partly",
+     "note": "Sits directly under the heading 'Planting winter bare rooted roses', so it supports winter bare-root planting in (South) Australia. The page does not say the roses are planted 'while dormant' (the word appears only about dormant buds and suckers), and it says nothing about the UK or New Zealand."
+    },
+    {
+     "finding": "AF-2",
+     "recorded": "\"This is best done in June or July.\"",
+     "result": "Confirmed",
+     "page_wording": "Planting winter bare rooted roses: This is best done in June or July.",
+     "supports_finding": "yes",
+     "note": "Supports the 'June to July' option for an Australian source, for bare-rooted roses. May is not mentioned on this page; the New Zealand half of the finding is not something this source can support."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Roses like full sun with at least 5 to 6 hours of direct sunlight each day.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses like full sun with at least 5 to 6 hours of direct sunlight each day.",
+     "supports_finding": "yes",
+     "note": "Under 'The Rose Bed'. Gives a minimum of 5 to 6 hours of direct sun, which is inside the four-to-six-hour range the finding states."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"Soil must be well drained, preferably neutral and containing copious quantities of organic matter.\"",
+     "result": "Confirmed",
+     "page_wording": "Soil must be well drained, preferably neutral and containing copious quantities of organic matter.",
+     "supports_finding": "partly",
+     "note": "Supports the well-drained soil part. The page does not mention raised beds or mounds; for alkaline clay soil it says to work in gypsum, compost, fertiliser and/or mulch."
+    },
+    {
+     "finding": "AF-8",
+     "recorded": "\"Avoid root competition from nearby trees and shrubs.\"",
+     "result": "Confirmed",
+     "page_wording": "Avoid root competition from nearby trees and shrubs.",
+     "supports_finding": "yes",
+     "note": "Word for word, in the rose bed/site advice. Supports the finding in full."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"The new rose will not tolerate any old rose roots remaining in its root zone.\"",
+     "result": "Confirmed",
+     "page_wording": "Often called 'rose sick soil', the new rose will not tolerate any old rose roots remaining in its root zone.",
+     "supports_finding": "yes",
+     "note": "The recorded words are the second half of a sentence that begins \"Often called 'rose sick soil'\". The next sentence says the new rose 'will not die, but will not thrive for many months'. The page's term is 'rose sick soil', not 'replant disease' or 'rose sickness'; section is about replacing a single old rose."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"Remove the old plant with as many roots as possible, plus an extra 2 buckets of soil.\"",
+     "result": "Confirmed",
+     "page_wording": "Remove the old plant with as many roots as possible, plus an extra 2 buckets of soil.",
+     "supports_finding": "yes",
+     "note": "Followed by 'Replace with fresh garden soil from an area free of roses.' Supports soil replacement as this source's remedy, with a stated amount (2 buckets). It does not mention the other remedies (rotation, compost, mycorrhizal fungi)."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"Dig a hole 30cm square by a spade depth.\"",
+     "result": "Confirmed",
+     "page_wording": "Dig a hole 30cm square by a spade depth.",
+     "supports_finding": "partly",
+     "note": "Gives a stated hole size for a bare-rooted rose, so it supports 'stated sizes vary'. The page does not say the hole should be wider than the roots."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "\"Position the roots over the soil mound\"",
+     "result": "Confirmed",
+     "page_wording": "place a slight mound of soil at the base of the hole, and position the roots over the soil mound with the bud union...",
+     "supports_finding": "yes",
+     "note": "Bare-rooted rose planting steps. One of three WebFetch answers gave the wording as 'place the roots over the soil mound'; two later answers, including a fuller copy of the passage, gave 'position the roots over the soil mound', matching the record."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"Place plant in a bucket of water for 1 hour or more to thoroughly wet the roots.\"",
+     "result": "Confirmed",
+     "page_wording": "Place plant in a bucket of water for 1 hour or more to thoroughly wet the roots in case they have dried out...",
+     "supports_finding": "yes",
+     "note": "The recorded quotation stops with a full stop where the page sentence carries on ('in case they have dried out in the wrapping'). One answer gave 'wet roots' without 'the'; a fuller copy gave 'wet the roots'. Supports soaking bare roots before planting."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"for 1 hour or more\"",
+     "result": "Confirmed",
+     "page_wording": "Place plant in a bucket of water for 1 hour or more to thoroughly wet the roots in case they have dried out...",
+     "supports_finding": "yes",
+     "note": "Supports the one-hour lower end of the range. The wording is 'or more' with no upper limit given; the 24-hour limit in the finding comes from other sources, not this one."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"with the bud union (kink in the stem) to finish at soil level.\"",
+     "result": "Near",
+     "page_wording": "...with the bud union (kink in the stem where the branches emerge) to finish at soil level.",
+     "supports_finding": "yes",
+     "note": "The record shortens the bracket to '(kink in the stem)' without marking the omission; the page has '(kink in the stem where the branches emerge)'. Meaning is unchanged: this source puts the bud union at soil level, one of the three positions in the finding."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"with the bud union (kink in the stem) to finish at soil level.\"",
+     "result": "Near",
+     "page_wording": "...with the bud union (kink in the stem where the branches emerge) to finish at soil level.",
+     "supports_finding": "yes",
+     "note": "Same unmarked omission inside the bracket as for AF-20. An Australian source placing the bud union at soil level, for bare-rooted roses; the page gives no other depth."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Back fill with soil to fill half the hole, fill hole with water.\"",
+     "result": "Confirmed",
+     "page_wording": "Back fill with soil to fill half the hole, fill hole with water.",
+     "supports_finding": "yes",
+     "note": "Next sentence: 'When water has drained away, back fill with soil to fill the hole and rake level.' Watering is done into the half-filled hole; the page does not tell you to water again after the hole is filled."
+    }
+   ],
+   "contradictions": [
+    "For heavy/alkaline clay soil the page advises gypsum, compost, fertiliser and/or mulch worked into the bed; raised beds and mounded beds are not mentioned (qualifies AF-7).",
+    "Soaking is 'for 1 hour or more ... in case they have dried out in the wrapping' - no upper time limit is given (qualifies AF-18).",
+    "The page does not use 'dormant' for planting time and does not mention May (qualifies AF-1, AF-2)."
+   ]
+  },
+  {
+   "code": "CSU",
+   "url": "https://extension.colostate.edu/resource/selecting-and-planting-roses/",
+   "final_url": "https://extension.colostate.edu/resource/selecting-and-planting-roses/",
+   "opened": true,
+   "page_date": "Published May 1996; reviewed August 2025",
+   "checks": [
+    {
+     "finding": "AF-3",
+     "recorded": "\"For bare-root roses, spring planting is preferred over fall.\"",
+     "result": "Confirmed",
+     "page_wording": "For bare-root roses, spring planting is preferred over fall.",
+     "supports_finding": "yes",
+     "note": "Word for word. The page gives no reason and does not itself mention cold winters; that link rests on it being a Colorado source. It also says to finish bare-root planting by mid-April at lower elevations. The RHS half of the finding is not from this page."
+    },
+    {
+     "finding": "AF-4",
+     "recorded": "\"Potted roses can be planted during the growing season, any time after the last killing frost.\"",
+     "result": "Confirmed",
+     "page_wording": "Potted roses can be planted during the growing season, any time after the last killing frost.",
+     "supports_finding": "partly",
+     "note": "The page limits potted roses to the growing season, after the last killing frost, and adds that a late planting needs time to establish 'before the first killing frost'. In Colorado that is narrower than 'most of the year'."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"receive a minimum of five to six hours of sunshine each day.\"",
+     "result": "Confirmed",
+     "page_wording": "Locate the plants so they receive a minimum of five to six hours of sunshine each day.",
+     "supports_finding": "yes",
+     "note": "Recorded fragment is the end of this sentence. Gives a minimum of five to six hours; the page also says roses prefer full sun and names early-morning sun as a good second choice."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"Roses prefer full sun, rich, well-drained soil, and good air circulation\"",
+     "result": "Confirmed",
+     "page_wording": "Roses prefer full sun, rich, well-drained soil, and good air circulation.",
+     "supports_finding": "partly",
+     "note": "Supports the well-drained soil part. Asked directly, the page has no mention of raised beds, mounds, clay or drainage problems; for compacted soil it suggests a larger planting hole (up to 36 inches wide)."
+    },
+    {
+     "finding": "AF-8",
+     "recorded": "\"avoid places where the roses have to compete with tree or shrub roots.\"",
+     "result": "Confirmed",
+     "page_wording": "avoid places where the roses have to compete with tree or shrub roots for water and nutrients.",
+     "supports_finding": "yes",
+     "note": "The page sentence continues 'for water and nutrients' after the recorded words. Supports the finding in full."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"usually about 18-24 inches in diameter and 14-18 inches deep.\"",
+     "result": "Confirmed",
+     "page_wording": "dig the hole so it accommodates the root system, usually about 18-24 inches in diameter and 14-18 inches deep.",
+     "supports_finding": "partly",
+     "note": "Gives a stated size and says the hole should accommodate the root system; it does not say in terms that the hole is wider than the roots. For compacted soil it allows up to 36 inches wide and 18 inches deep."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"If bare-root plants appear dry when they are received, soak them in a bucket of water overnight\"",
+     "result": "Confirmed",
+     "page_wording": "If bare-root plants appear dry when they are received, soak them in a bucket of water overnight, but not leave them in water...",
+     "supports_finding": "partly",
+     "note": "Soaking is conditional here: only 'if bare-root plants appear dry when they are received'. The page does not tell the reader to soak every bare-root rose before planting."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"but not leave them in water for more than 24 hours.\"",
+     "result": "Confirmed",
+     "page_wording": "...soak them in a bucket of water overnight, but not leave them in water for more than 24 hours.",
+     "supports_finding": "yes",
+     "note": "Supports a US extension source setting 24 hours as the limit; the soak itself is 'overnight' and only for plants that appear dry."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"the bud union is below ground level, typically two to four inches.\"",
+     "result": "Confirmed",
+     "page_wording": "Budded roses need to be planted so that the bud union is below ground level, typically two to four inches.",
+     "supports_finding": "yes",
+     "note": "Recorded fragment is the end of this sentence, which is about budded (grafted) roses. Supports the 'below soil' position, 2 to 4 inches. The page gives no circumstance where the union sits at or above soil level."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"the bud union is below ground level, typically two to four inches.\"",
+     "result": "Confirmed",
+     "page_wording": "Budded roses need to be planted so that the bud union is below ground level, typically two to four inches.",
+     "supports_finding": "partly",
+     "note": "The page says to bury the bud union but gives no reason. Asked twice, it does not link depth to winter, cold, freezing or hardiness. The cold-winter link is only an inference from the source being in Colorado; the RHS half is not from this page."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Water deeply at planting.\"",
+     "result": "Confirmed",
+     "page_wording": "Water deeply at planting.",
+     "supports_finding": "yes",
+     "note": "Word for word, as a sentence on its own in the planting instructions. Supports the finding."
+    },
+    {
+     "finding": "AF-25",
+     "recorded": "\"leaving about 5 to 12 inches of the cane.\"",
+     "result": "Confirmed",
+     "page_wording": "Make pruning cuts at a 30 to 45 degree angle ... above a bud eye, leaving about 5 to 12 inches of the cane.",
+     "supports_finding": "yes",
+     "note": "Context: 'Bare-root roses may need pruning after planting, since they are harvested ... by machine'. So this source prunes bare-root roses at planting ('may need'), to 5-12 inch canes; it says nothing about pruning potted roses at planting."
+    }
+   ],
+   "contradictions": [
+    "Bud union depth: the page gives no reason for planting it 2-4 inches below ground and never mentions cold or winter in that connection (qualifies AF-22).",
+    "Potted roses: 'If planting late in the season, the plant should have time to become well established in its new location before the first killing frost' - growing season only, not most of the year (qualifies AF-4).",
+    "Soaking is only for bare-root plants that 'appear dry when they are received' (qualifies AF-17).",
+    "No mention of raised beds or mounded beds for heavy or poorly drained soil (qualifies AF-7)."
+   ]
+  },
+  {
+   "code": "TUI-T",
+   "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/transplanting-trees-shrubs-roses-perennials-and-bulbs/",
+   "final_url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/transplanting-trees-shrubs-roses-perennials-and-bulbs/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-21",
+     "recorded": "\"ensure the graft is above the soil when placed in its new position.\"",
+     "result": "Confirmed",
+     "page_wording": "Prune roses back hard before moving, and ensure the graft is above the soil when placed in its new position.",
+     "supports_finding": "yes",
+     "note": "New Zealand source placing the graft above the soil. Context is moving an established rose (the 'Roses' entry of a transplanting guide), not planting a newly bought one."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"Roses - readily transplant in winter.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses - readily transplant in winter.",
+     "supports_finding": "partly",
+     "note": "Supports winter as the season. The page says roses 'readily transplant' in winter, not that winter is best for roses, and it does not use 'dormant' for roses (only for bulbs). Separately it says 'Winter is the best time to transplant for most things'."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Prune roses back hard before moving\"",
+     "result": "Confirmed",
+     "page_wording": "Prune roses back hard before moving, and ensure the graft is above the soil when placed in its new position.",
+     "supports_finding": "yes",
+     "note": "Supports this source as one that cuts roses back before moving, and hard. No amount or height is given."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Once planted, water the plant well\"",
+     "result": "Confirmed",
+     "page_wording": "Once planted, water the plant well and apply Tui Organic Seaweed Plant Tonic regularly to keep your plant growing healthily in its new spot.",
+     "supports_finding": "partly",
+     "note": "This is a general 'How to transplant' step for all plants, not rose-specific. It supports watering well at planting; the only ongoing care named is regular seaweed tonic, not keeping the plant watered until it recovers."
+    }
+   ],
+   "contradictions": [
+    "The page does not say winter is the 'best' time for roses or call them dormant; it says they 'readily transplant in winter' (qualifies AF-26).",
+    "No plain ongoing watering advice after the move, only regular seaweed tonic (qualifies AF-33)."
+   ]
+  },
+  {
+   "code": "TUI-Q",
+   "url": "https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/",
+   "final_url": "https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/",
+   "opened": true,
+   "page_date": "February shown, no year",
+   "checks": [
+    {
+     "finding": "AF-26",
+     "recorded": "\"the best time of year to move a rose is winter when it is dormant\"",
+     "result": "Confirmed",
+     "page_wording": "Hi Sylvie, the best time of year to move a rose is winter when it is dormant.",
+     "supports_finding": "yes",
+     "note": "Word for word. Question from Manawatu, asked in February (summer); the answer goes on 'Depending when it has to be moved, start feeding it with ... Seaweed Plant Tonic now', so it allows for a move outside winter."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"cut it back hard to about 3-5 buds (or nodes) from the graft at ground level\"",
+     "result": "Confirmed",
+     "page_wording": "...but cut it back hard to about 3-5 buds (or nodes) from the graft at ground level,",
+     "supports_finding": "yes",
+     "note": "Supports hard cutting back for a move, with a stated amount. It is prefaced by 'It depends how long the rose has been in the ground'; the order (before digging) is implied by the sentence, not stated outright."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"dig around the rose at around 25-30cm from the base in a circle to approximately a spade depth\"",
+     "result": "Confirmed",
+     "page_wording": "dig around the rose at around 25-30cm from the base in a circle to approximately a spade depth.",
+     "supports_finding": "no",
+     "note": "The page gives a fixed digging distance and depth only. It does not say to dig as large a root ball as practicable or to keep as many roots or as much soil as possible; it only mentions 'the root ball' in passing."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"dig around the rose at around 25-30cm from the base in a circle to approximately a spade depth\"",
+     "result": "Confirmed",
+     "page_wording": "dig around the rose at around 25-30cm from the base in a circle to approximately a spade depth.",
+     "supports_finding": "yes",
+     "note": "Supports the lower end of the range: 25-30 cm from the base of the plant, to about a spade's depth."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"water in well\"",
+     "result": "Confirmed",
+     "page_wording": "Make sure the container you are planting into is big enough to take the root ball, and water in well.",
+     "supports_finding": "partly",
+     "note": "Supports watering in at replanting. Here the rose is being moved into a container, not into the ground. Follow-up care named is 'Keep using Seaweed Plant Tonic once it is transferred', not keeping it watered until it recovers."
+    }
+   ],
+   "contradictions": [
+    "The answer is about a rose being moved into a container ('Make sure the container you are planting into is big enough to take the root ball'), which narrows AF-30, AF-31 and AF-33.",
+    "No statement about keeping as many roots or as much soil as possible (AF-30)."
+   ]
+  },
+  {
+   "code": "DA-MOVE",
+   "url": "https://eu.davidaustinroses.com/blogs/rose-care/how-to-move-a-rose",
+   "final_url": "https://eu.davidaustinroses.com/blogs/rose-care/how-to-move-a-rose",
+   "opened": true,
+   "page_date": "3 September 2026 (author Megan Edmondson)",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"If the new position has previously been home to another rose\"",
+     "result": "Confirmed",
+     "page_wording": "If the new position has previously been home to another rose, there is one additional step to take before planting.",
+     "supports_finding": "yes",
+     "note": "The recorded fragment is only the opening clause and states no remedy by itself. Under 'What if a Rose Has Grown There Before?' the page then says to remove as much soil from the old hole as reasonably possible, replace it with fresh soil or topsoil, and replant with mycorrhizal fungi."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"If possible, wait until your rose is fully dormant before moving it.\"",
+     "result": "Confirmed",
+     "page_wording": "If possible, wait until your rose is fully dormant before moving it.",
+     "supports_finding": "yes",
+     "note": "Word for word. The page adds 'In the UK and Europe, this is usually between November and February, once the leaves have fallen', and says a growing-season move 'can still be done' with temporary stress."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Cut back some of the top growth and remove any dead, damaged or weak stems.\"",
+     "result": "Confirmed",
+     "page_wording": "Cut back some of the top growth and remove any dead, damaged or weak stems.",
+     "supports_finding": "yes",
+     "note": "Supports this source as one that cuts back top growth before moving. The amount is only 'some'; no fraction or height is given, and it does not say to prune hard."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"Begin digging at least a spade's width from the base, gradually working around the plant and loosening the soil.\"",
+     "result": "Confirmed",
+     "page_wording": "Begin digging at least a spade's width from the base, gradually working around the plant and loosening the soil with a spade or fork.",
+     "supports_finding": "partly",
+     "note": "Page sentence continues 'with a spade or fork'. The quotation gives a minimum distance only. The page separately says 'Aim to preserve as much of the root system as possible', which supports the roots part; it does not say to keep as much soil as possible or to take a large root ball."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Begin digging at least a spade's width from the base\"",
+     "result": "Confirmed",
+     "page_wording": "Begin digging at least a spade's width from the base, gradually working around the plant and loosening the soil with a spade or fork.",
+     "supports_finding": "partly",
+     "note": "The page gives no figure in centimetres or inches for digging distance, only 'at least a spade's width from the base'. Placing this inside a 25-60 cm range is the researcher's conversion, and a spade's width is commonly under 25 cm."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Water regularly, particularly during dry weather.\" / \"For its first year in the new position, treat it much as you would a newly planted rose.\"",
+     "result": "Confirmed",
+     "page_wording": "Water regularly, particularly during dry weather, and keep an eye on its progress. / For its first year ... treat it much as you would a newly planted rose.",
+     "supports_finding": "yes",
+     "note": "Both fragments are word for word; the first sentence continues 'and keep an eye on its progress'. The page also says 'Once planted, give your rose a generous watering'. It does not use the words 'until it recovers', but first-year care covers it."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "\"Moving a rose is quite forgiving, but a few simple precautions can make its transition much easier.\"",
+     "result": "Confirmed",
+     "page_wording": "Moving a rose is quite forgiving, but a few simple precautions can make its transition much easier.",
+     "supports_finding": "yes",
+     "note": "Word for word. The page also says 'Roses are wonderfully resilient'. It gives no success rate and does not discuss older or larger roses being harder to move. Commercial nursery page."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"If the new position has previously been home to another rose\"",
+     "result": "Confirmed",
+     "page_wording": "If the new position has previously been home to another rose, there is one additional step to take before planting.",
+     "supports_finding": "yes",
+     "note": "The fragment alone does not state the remedy; the following text does: 'Remove as much of the soil from the previous planting hole as reasonably possible and replace it with fresh soil from another part of the garden or good-quality topsoil.' Mycorrhizal fungi are advised as well."
+    }
+   ],
+   "contradictions": [
+    "The page says 'The graft union ... should sit around 2 inches below soil level' when replanting. Not checked against this source, but it bears on AF-20 (a UK source burying the union).",
+    "No digging distance in cm or inches is given; only 'at least a spade's width from the base' (qualifies AF-31).",
+    "Where a rose grew before, the page advises mycorrhizal fungi as well as replacing the soil; it gives no reason and does not name replant disease (bears on AF-13, AF-36).",
+    "A growing-season move 'can still be done, but you may see some temporary signs of stress' (qualifies AF-26)."
+   ]
+  },
+  {
+   "code": "UW-PAL",
+   "url": "https://depts.washington.edu/hortlib/pal/transplanting-roses",
+   "final_url": "https://depts.washington.edu/hortlib/pal/transplanting-roses",
+   "opened": true,
+   "page_date": "not shown (answer cites a 1989 book)",
+   "checks": [
+    {
+     "finding": "AF-16",
+     "recorded": "\"build a mound of soil, and spread the roots over it\"",
+     "result": "Confirmed",
+     "page_wording": "Add two inches of compost, build a mound of soil, and spread the roots over it.",
+     "supports_finding": "partly",
+     "note": "On this page the sentence is about replanting an established rose that has just been dug up and moved, not planting a newly bought bare-root rose. It shows the mound method, but in a different situation from the finding."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"the best time to transplant it to its new location is early spring or late fall\"",
+     "result": "Confirmed",
+     "page_wording": "The best time to transplant it to its new location is early spring or late fall.",
+     "supports_finding": "partly",
+     "note": "Gives early spring or late fall. The page never uses 'dormant' (checked twice) and says nothing about leaves or growth stage. It adds that the cited book prefers spring 'because with warm weather on the way, the rose will have a better chance of starting new growth'."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Before moving it, prune it, leaving three to four canes\"",
+     "result": "Confirmed",
+     "page_wording": "Before moving it, prune it, leaving three to four canes.",
+     "supports_finding": "yes",
+     "note": "Supports this source as one that prunes before moving, to three or four canes. No cane length is given."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"dig a circular trench one foot away from the crown of the plant\"",
+     "result": "Confirmed",
+     "page_wording": "When digging up your rose, dig a circular trench one foot away from the crown of the plant, removing the soil around the plant...",
+     "supports_finding": "no",
+     "note": "The page gives a fixed distance and tells you to remove the soil around the plant, loosen the root ball and later spread the roots over a mound. It does not say to dig as large a root ball as possible or to keep as many roots or as much soil as possible."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"dig a circular trench one foot away from the crown of the plant\"",
+     "result": "Confirmed",
+     "page_wording": "When digging up your rose, dig a circular trench one foot away from the crown of the plant, removing the soil around the plant...",
+     "supports_finding": "yes",
+     "note": "One foot (about 30 cm) from the crown, which falls inside the stated 25-60 cm range. The page gives it in feet, not centimetres."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"water carefully, neither too much nor too little\"",
+     "result": "Confirmed",
+     "page_wording": "Afterwards, water carefully, neither too much nor too little.",
+     "supports_finding": "partly",
+     "note": "The 'water well' part comes from the sentence before, not the recorded one: 'Fill in with topsoil, make a ridge of soil around the base of the plant, and water well.' The recorded sentence is a caution about later watering, and nothing says 'until it recovers'."
+    }
+   ],
+   "contradictions": [
+    "The page says spring transplanting is preferred over late fall, 'because with warm weather on the way, the rose will have a better chance of starting new growth'; 'dormant' is not used (qualifies AF-26).",
+    "The method removes soil from around the plant and replants with roots spread over a mound, which runs against keeping as much soil as possible (AF-30).",
+    "The advice is taken from a single 1989 book (Roses: 1001 Gardening Questions Answered, Garden Way Publishing), relayed by a library answer service."
+   ]
+  },
+  {
+   "code": "NZRS-FAQ",
+   "url": "https://nzroses.org.nz/faq/",
+   "final_url": "https://nzroses.org.nz/faq/",
+   "opened": true,
+   "page_date": "not shown on the page (page metadata gives last modified 30 March 2026)",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Winter is the best time to plant as it allows the plant to establish before summer arrives.\"",
+     "result": "Confirmed",
+     "page_wording": "Winter is the best time to plant as it allows the plant to establish before summer arrives.",
+     "supports_finding": "partly",
+     "note": "Answer to 'When can I plant roses?'. It supports winter planting in New Zealand for roses in general. The page never says 'bare root' or 'dormant' (checked twice), so it does not tie the advice to bare-root roses or to dormancy."
+    },
+    {
+     "finding": "AF-4",
+     "recorded": "\"If planting potted roses during spring and summer, keep them well watered.\"",
+     "result": "Confirmed",
+     "page_wording": "If planting potted roses during spring and summer, keep them well watered.",
+     "supports_finding": "partly",
+     "note": "Supports planting potted roses in spring and summer on condition they are kept well watered. The page does not say potted roses can be planted all year or through most of the year."
+    },
+    {
+     "finding": "AF-5",
+     "recorded": "\"Avoid any plants that have shrivelled or wrinkled canes, this is a sign it has dried out.\"",
+     "result": "Confirmed",
+     "page_wording": "Avoid any plants that have shrivelled or wrinkled canes, this is a sign it has dried out.",
+     "supports_finding": "no",
+     "note": "This sits under 'What should I look for when buying roses?' and is about choosing a plant by its canes. The page does not mention bare-root roses, roots drying out, or planting promptly; the nearest line is 'Dehydrated plants are a major factor in plants failing to establish'."
+    }
+   ],
+   "contradictions": [
+    "The page does not use the terms 'bare root', 'dormant' or 'container' at all, so its planting-time advice is for roses generally (qualifies AF-1).",
+    "No advice to plant promptly, keep roots moist or soak roots before planting (bears on AF-5)."
+   ]
+  },
+  {
+   "code": "ARS-RRD",
+   "url": "https://rose.org/advanced-in-understanding-rose-replant-disease/",
+   "final_url": "https://rose.org/advanced-in-understanding-rose-replant-disease/",
+   "opened": true,
+   "page_date": "Web page dated 5 September 2024; article originally Fall 2013 (Rose Hybridizer Association Newsletter), reprinted Winter 2014",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"they may not grow as well as they would if they were planted in soil never planted with roses.\"",
+     "result": "Confirmed",
+     "page_wording": "When new roses are planted where old roses used to be, they may not grow as well as they would if ... never planted with roses.",
+     "supports_finding": "yes",
+     "note": "Word for word; the article's opening uses both terms, 'rose replant disease' and 'rose sickness'. Supports the finding in full."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "\"Nothing specific has been identified as the cause of this phenomenon.\"",
+     "result": "Confirmed",
+     "page_wording": "Nothing specific has been identified as the cause of this phenomenon.",
+     "supports_finding": "yes",
+     "note": "Second sentence of the article. The article then reports 2013 German research (Winkelmann, Yim, Smalla) pointing to an inhibitory factor in the soil, probably microbes, but it does not claim the cause is identified. The statement is as of 2013."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"Crop rotation (using other species between crops of roses) is practiced in Germany by some rose nurseries.\"",
+     "result": "Confirmed",
+     "page_wording": "Crop rotation (using other species between crops of roses) is practiced in Germany by some rose nurseries.",
+     "supports_finding": "partly",
+     "note": "Supports rotation with other plants as a practice, with tall marigolds (Tagetes erecta) named. It is about commercial rose nurseries in Germany, not home gardens, and the article gives gardeners no advice on soil replacement, planting elsewhere, compost or mycorrhizal fungi."
+    }
+   ],
+   "contradictions": [
+    "The article is a research summary from 2013: it reports that seedlings grew better in heat-treated or irradiated soil, pointing to a soil-borne inhibitory factor, while still saying the cause is not identified (qualifies AF-12).",
+    "Crop rotation is described for commercial nurseries only; no home-garden remedies are recommended (qualifies AF-13)."
+   ]
+  },
+  {
+   "code": "MU",
+   "url": "https://extension.missouri.edu/publications/g6600",
+   "final_url": "https://extension.missouri.edu/publications/g6600",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Plants should be planted in a dormant condition if purchased bare rooted\"",
+     "result": "Confirmed",
+     "page_wording": "Plants should be planted in a dormant condition if purchased bare rooted, but container-grown plants may be planted throughout the growing season.",
+     "supports_finding": "partly",
+     "note": "Supports only 'bare-root roses are planted while dormant'. The page is about Missouri (US); it says nothing about the UK, New Zealand or Australia, and names fall or spring rather than winter as the planting seasons."
+    },
+    {
+     "finding": "AF-3",
+     "recorded": "\"spring planting is preferred\"",
+     "result": "Confirmed",
+     "page_wording": "If you live in an area where winter temperatures dip below -10 degrees Fahrenheit, spring planting is preferred.",
+     "supports_finding": "yes",
+     "note": "Supports the US half: the preference for spring is tied to areas where winter falls below -10 F. The next point on the page says that where it does not get that cold 'either fall or spring planting is satisfactory'. The RHS half is not on this page."
+    },
+    {
+     "finding": "AF-4",
+     "recorded": "\"container-grown plants may be planted throughout the growing season.\"",
+     "result": "Confirmed",
+     "page_wording": "Plants should be planted in a dormant condition if purchased bare rooted, but container-grown plants may be planted throughout the growing season.",
+     "supports_finding": "partly",
+     "note": "The page says 'throughout the growing season', which is narrower than 'most of the year'. Conditions are given elsewhere on the page: keep them moist, and give temporary shade if planted in midsummer heat."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"a minimum of six hours of bright sunlight each day.\"",
+     "result": "Confirmed",
+     "page_wording": "...locate them where they get a minimum of six hours of bright sunlight each day.",
+     "supports_finding": "yes",
+     "note": "Supports a sunny site and gives the six-hour end of the stated range. The page adds that morning-only sun is preferable to afternoon-only sun. Recorded fragment is the end of a longer sentence."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"The water should drain from the hole in 90 to 120 minutes.\"",
+     "result": "Confirmed",
+     "page_wording": "The water should drain from the hole in 90 to 120 minutes.",
+     "supports_finding": "yes",
+     "note": "The recorded sentence is only a drainage test. The raised-bed part is supported by a different sentence on the same page: 'If well-drained areas are not available, consider planting them in a raised bed or installing subsurface tile drainage.' No mention of mounds."
+    },
+    {
+     "finding": "AF-8",
+     "recorded": "\"The roots of most roses don't compete well with those of trees and shrubs planted close by.\"",
+     "result": "Confirmed",
+     "page_wording": "The roots of most roses don't compete well with those of trees and shrubs planted close by.",
+     "supports_finding": "yes",
+     "note": "Word for word, and it carries the whole finding."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"hybrid tea roses should be spaced 2-1/2 to 3 feet apart.\"",
+     "result": "Confirmed",
+     "page_wording": "In most of Missouri, hybrid tea roses should be spaced 2-1/2 to 3 feet apart.",
+     "supports_finding": "yes",
+     "note": "2.5 to 3 feet is about 76 to 91 cm, inside the stated 50 cm to 1 m band. The page qualifies it with 'In most of Missouri' and gives more room to bigger growers (hybrid perpetuals 3 to 5 feet, climbers 8 to 10 feet), which supports the mature-size point."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"Planting holes should be at least 12 to 16 inches deep and 18 to 20 inches wide.\"",
+     "result": "Confirmed",
+     "page_wording": "The planting holes should be at least 12 to 16 inches deep and 18 to 20 inches wide.",
+     "supports_finding": "yes",
+     "note": "Gives one stated size. 'Wider than the roots' is carried by another sentence on the page: 'The hole should be large enough to permit full spread of the roots without touching the edges of the hole.'"
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"Soak the roots for several hours or overnight\"",
+     "result": "Confirmed",
+     "page_wording": "If they will be set out the same day or the following day, soak the roots for several hours or overnight.",
+     "supports_finding": "yes",
+     "note": "About bare-root plants, which the page says 'are often slightly dried'. The soak is given for plants going in the same or next day; if not planted within 24 hours the page says to re-moisten the packing and repack instead."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"Soaking for more than 24 hours may damage the root system.\"",
+     "result": "Confirmed",
+     "page_wording": "Soaking for more than 24 hours may damage the root system.",
+     "supports_finding": "yes",
+     "note": "Word for word. Supports this source as one that sets 24 hours as the limit; 'several hours or overnight' is this page's own soaking time. The one-hour end of the range and the second US source are not on this page."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"In northern Missouri, this union should be 2 inches below soil level.\"",
+     "result": "Confirmed",
+     "page_wording": "In northern Missouri, this union should be 2 inches below soil level.",
+     "supports_finding": "yes",
+     "note": "Supplies the 'below soil' position only. This page never recommends at or above soil level; the other positions must come from other sources."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"In southeast Missouri, plant roses so that this union is slightly below the soil level.\"",
+     "result": "Confirmed",
+     "page_wording": "In southeast Missouri, plant roses so that this union is slightly below the soil level.",
+     "supports_finding": "yes",
+     "note": "The recorded sentence does not itself mention cold. In context it does support the cold link: deeper in the colder north, shallower in the southeast, and the page says 'If this union is injured by cold weather, the entire top may die'. The RHS half is not on this page."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"A minimum of one gallon of water should be applied at planting time.\"",
+     "result": "Confirmed",
+     "page_wording": "A minimum of one gallon of water should be applied at planting time.",
+     "supports_finding": "yes",
+     "note": "In the bare-root planting steps: fill the part-filled hole with water, let it drain, add more and let it drain again, then finish filling. Supports watering in thoroughly."
+    },
+    {
+     "finding": "AF-25",
+     "recorded": "\"Packaged plants have been pruned and rarely need additional pruning.\"",
+     "result": "Confirmed",
+     "page_wording": "Packaged plants have been pruned and rarely need additional pruning.",
+     "supports_finding": "yes",
+     "note": "One data point for 'sources differ': this page says packaged plants rarely need more pruning. The page gives no other pruning-at-planting advice; on roots it says if they are too large for the hole 'don't cut them off' but dig a larger hole."
+    }
+   ],
+   "contradictions": [
+    "Timing (AF-1, AF-3): 'Where temperatures don't drop below -10 degrees Fahrenheit, either fall or spring planting is satisfactory' - spring is preferred only in the colder areas.",
+    "Container roses (AF-4): the page says 'throughout the growing season', not most of the year, and asks for temporary shade if planted in midsummer.",
+    "Bud union (AF-20, AF-22): the page gives only below-soil depths (2 inches in northern Missouri, slightly below in the southeast); it never recommends at or above soil level.",
+    "Roots: 'If they are too large for the hole, don't cut them off' - relevant to any finding about trimming roots at planting, though the page does not mention broken roots."
+   ]
+  },
+  {
+   "code": "KINGS",
+   "url": "https://www.kings.co.nz/growing-guides/roses",
+   "final_url": "https://www.kings.co.nz/growing-guides/roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Roses are best planted in winter, however they can be planted right through spring.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses are best planted in winter, however they can be planted right through spring.",
+     "supports_finding": "partly",
+     "note": "Supports 'winter' for New Zealand, but for roses in general: the page never uses the words bare-root or dormant in connection with planting, and its planting steps describe a potted rose ('gently tap the plant out of its pot'). Says nothing on the UK or Australia."
+    },
+    {
+     "finding": "AF-2",
+     "recorded": "\"New seasons Roses arrive in store from June.\"",
+     "result": "Confirmed",
+     "page_wording": "New seasons Roses arrive in store from June.",
+     "supports_finding": "yes",
+     "note": "Supports the New Zealand half (stock from June; the adjoining sentence says planting can run right through spring). The line appears twice with different spelling: 'New seasons Roses arrive in store from June' and 'New season roses arrive instore from June'. Nothing on Australia here."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Roses are best planted in a sheltered position that gets full sun.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses are best planted in a sheltered position that gets full sun.",
+     "supports_finding": "partly",
+     "note": "Supports a sunny site only. The page gives no number of hours, so it does not support the four-to-six-hour range."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"plant onto a raised mound and sprinkle Gypsum Clay Breaker into the bottom of the hole.\"",
+     "result": "Confirmed",
+     "page_wording": "In heavier clay soils, where drainage is likely to be an issue, plant onto a raised mound and sprinkle Gypsum Clay Breaker...",
+     "supports_finding": "yes",
+     "note": "Supports the raised mound for heavy clay with poor drainage. The need for drainage is stated separately: 'Roses like a free draining soil that is rich in organic matter.' The gypsum product is a house brand recommendation."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"so that when planted the top of the plant's roots sit level with the surrounding ground\"",
+     "result": "Confirmed",
+     "page_wording": "Back fill the hole with this soil, so that when planted the top of the plant's roots sit level with the surrounding ground.",
+     "supports_finding": "yes",
+     "note": "The steps are for a potted rose ('gently tap the plant out of its pot'), so the top of the root ball sits level with the ground, i.e. the depth it grew at in the pot. The page does not mention the bud union or graft."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Water slowly allowing the water to sink down into the roots\"",
+     "result": "Confirmed",
+     "page_wording": "Water slowly allowing the water to sink down into the roots, rather than allowing it to run off...",
+     "supports_finding": "partly",
+     "note": "The recorded sentence sits under Care > Watering and is general ongoing watering advice, not watering in at planting. The planting steps do support the finding with a different sentence: 'Firm the soil down gently and water in well with Aquaticus Organic Garden Booster.' The wrong sentence was recorded."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"This is best done when dormant during Winter.\"",
+     "result": "Confirmed",
+     "page_wording": "This is best done when dormant during Winter.",
+     "supports_finding": "yes",
+     "note": "Last sentence of a short 'Beginner Tip' about moving roses; 'This' refers to moving them. Supports moving while dormant, in winter (New Zealand)."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"If you need to move any roses, cut them back by a third\"",
+     "result": "Confirmed",
+     "page_wording": "If you need to move any roses, cut them back by a third and dig out as large a root ball...",
+     "supports_finding": "yes",
+     "note": "Supports cutting back before moving, by a third. One data point for 'the amount varies'."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"dig out as large a root ball as you can manage.\"",
+     "result": "Confirmed",
+     "page_wording": "...cut them back by a third and dig out as large a root ball as you can manage.",
+     "supports_finding": "yes",
+     "note": "Supports 'as large a root ball as practicable'. The page does not separately mention keeping soil on the roots."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Make sure you keep your plant well watered until it recovers.\"",
+     "result": "Confirmed",
+     "page_wording": "Make sure you keep your plant well watered until it recovers.",
+     "supports_finding": "yes",
+     "note": "Word for word, in the moving tip, and it carries the whole finding."
+    }
+   ],
+   "contradictions": [
+    "AF-1: the page never mentions bare-root roses; its winter advice is for roses in general and its planting steps are for potted plants.",
+    "AF-6: no hours of sun are given, only 'full sun' and 'sheltered'."
+   ]
+  },
+  {
+   "code": "YAT-NZ",
+   "url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
+   "final_url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"arrive in garden centres in time for winter planting\"",
+     "result": "Confirmed",
+     "page_wording": "Bare-rooted roses (roses supplied without any soil, often packed into plastic bags) arrive in garden centres in time for winter planting...",
+     "supports_finding": "yes",
+     "note": "Supports winter planting of bare-rooted roses in New Zealand. The page does not use the word 'dormant' about planting (only about pruning climbers) and names no months. Nothing on the UK or Australia."
+    },
+    {
+     "finding": "AF-4",
+     "recorded": "\"potted roses are often available (and can be planted) throughout the year.\"",
+     "result": "Near",
+     "page_wording": "...gorgeous potted roses are often available from garden centres (and can be planted throughout the year).",
+     "supports_finding": "partly",
+     "note": "Recorded wording drops 'from garden centres' and moves the bracket; the page reads 'potted roses are often available from garden centres (and can be planted throughout the year)'. Meaning is the same. The page attaches no conditions at all, so the 'with conditions' part is not supported here."
+    },
+    {
+     "finding": "AF-5",
+     "recorded": "\"Don't buy bare-rooted rose plants until you're ready to plant; they need to go into the ground promptly.\"",
+     "result": "Confirmed",
+     "page_wording": "Don't buy bare-rooted rose plants until you're ready to plant; they need to go into the ground promptly.",
+     "supports_finding": "partly",
+     "note": "Supports 'planted promptly'. The page does not say the roots must not be allowed to dry out; it only says to soak them before planting."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Choose a sunny spot with well drained soil.\"",
+     "result": "Confirmed",
+     "page_wording": "Choose a sunny spot with well drained soil.",
+     "supports_finding": "partly",
+     "note": "Supports a sunny site only. The page also says 'Full sun' but gives no number of hours."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"Choose a sunny spot with well drained soil.\"",
+     "result": "Confirmed",
+     "page_wording": "Choose a sunny spot with well drained soil.",
+     "supports_finding": "partly",
+     "note": "Supports well-drained soil only. No raised beds or mounds for heavy soil; for clay the page says 'If the soil is clay-based, add gypsum and fork it in well.' (The mound in the planting step is for spreading bare roots, not for drainage.)"
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"Before planting bare-rooted roses, soak the roots in a bucket of water and seaweed tonic\"",
+     "result": "Confirmed",
+     "page_wording": "Before planting bare-rooted roses, soak the roots in a bucket of water and seaweed tonic, to hydrate them and remove traces of soil.",
+     "supports_finding": "yes",
+     "note": "Supports soaking bare roots before planting. No soaking time is given; the seaweed tonic is a product recommendation."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"will be 5cm above the top of the final soil level.\"",
+     "result": "Confirmed",
+     "page_wording": "...so you can confirm the graft union will be 5cm above the top of the final soil level.",
+     "supports_finding": "yes",
+     "note": "Supplies the 'above the soil' position. Appears twice, under growing in a garden and growing in a pot. The page calls it the graft union ('the bumpy bit where the stem joins onto the rootstock')."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"will be 5cm above the top of the final soil level.\"",
+     "result": "Confirmed",
+     "page_wording": "...so you can confirm the graft union will be 5cm above the top of the final soil level.",
+     "supports_finding": "yes",
+     "note": "A New Zealand source putting the union 5 cm above final soil level, which fits 'at or above soil level'. One source only; says nothing about Australia."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Water it in well, then mulch with organic mulch, like woodchip or pea straw.\"",
+     "result": "Confirmed",
+     "page_wording": "Water it in well, then mulch with organic mulch, like woodchip or pea straw.",
+     "supports_finding": "yes",
+     "note": "The step straight after backfilling and firming. Appears twice (garden and pot). Supports watering in well."
+    }
+   ],
+   "contradictions": [
+    "AF-4: no conditions are attached to planting potted roses throughout the year.",
+    "AF-5: nothing about roots drying out.",
+    "AF-7: clay soil is dealt with by forking in gypsum, not by raised beds or mounds.",
+    "Not a conflict but relevant: the planting step says 'prune off any damaged or broken roots'."
+   ]
+  },
+  {
+   "code": "NRS-T",
+   "url": "https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/",
+   "final_url": "https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/",
+   "opened": true,
+   "page_date": "9 November 2020",
+   "checks": [
+    {
+     "finding": "AF-19",
+     "recorded": "\"Prune any broken roots before planting it at the new site.\"",
+     "result": "Confirmed",
+     "page_wording": "Prune any broken roots before planting it at the new site.",
+     "supports_finding": "partly",
+     "note": "Word for word, but it is about an established rose that has just been dug up and is being replanted, not about planting a new rose. Supports trimming broken roots in the moving setting only."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"Late winter to early spring is the best time.\"",
+     "result": "Confirmed",
+     "page_wording": "Late winter to early spring is the best time.",
+     "supports_finding": "yes",
+     "note": "The sentence before it reads 'Roses need to be dormant or going dormant, not actively growing, when they are moved', which carries the finding directly. Nashville, US zone 7."
+    },
+    {
+     "finding": "AF-28",
+     "recorded": "\"In our zone #7, December through the first of February is the ideal time.\"",
+     "result": "Confirmed",
+     "page_wording": "In our zone #7, December through the first of February is the ideal time.",
+     "supports_finding": "partly",
+     "note": "December to 1 February in Nashville is early to mid winter, not clearly late winter, and nothing here ties it to pruning or frosts. The sentence just before ('Late winter to early spring is the best time') would support 'late winter' better; the two sentences sit side by side and do not quite agree."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Cut the canes back by 1/2 to compensate for root loss.\"",
+     "result": "Confirmed",
+     "page_wording": "Cut the canes back by 1/2 to compensate for root loss.",
+     "supports_finding": "yes",
+     "note": "Supports cutting back by half. In the page's order of steps this comes after the rose is dug and lifted and before it is replanted, so 'before moving' is loose; it is before replanting."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"Carefully dig around the plant (18″ – 24″) to cut roots on all sides with a sharp spade or shovel.\"",
+     "result": "Confirmed",
+     "page_wording": "Carefully dig around the plant (18″ – 24″) to cut roots on all sides with a sharp spade or shovel.",
+     "supports_finding": "partly",
+     "note": "The recorded sentence gives a digging measurement and says to cut the roots; it does not say to take as large a root ball as possible or to keep soil. Closest support is elsewhere: lift the root ball 'taking care to damage as few of the roots as possible'."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Carefully dig around the plant (18″ – 24″)\"",
+     "result": "Confirmed",
+     "page_wording": "Carefully dig around the plant (18″ – 24″) to cut roots on all sides with a sharp spade or shovel.",
+     "supports_finding": "yes",
+     "note": "18 to 24 inches is about 46 to 61 cm, at the top of the stated band. The page does not say whether this is the distance out from the plant, the width across, or the depth."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"The day before you transplant your rose bushes, water the soil around the rose bush very well.\"",
+     "result": "Confirmed",
+     "page_wording": "The day before you transplant your rose bushes, water the soil around the rose bush very well.",
+     "supports_finding": "partly",
+     "note": "Supports 'one source waters the day before'. The page says nothing about keeping roots moist, wrapped or covered between digging and replanting."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Water thoroughly and mound the mulch around the bush\"",
+     "result": "Confirmed",
+     "page_wording": "Water thoroughly and mound the mulch around the bush to protect the rose for the remainder of the winter.",
+     "supports_finding": "yes",
+     "note": "Supports watering well at replanting. Continued watering is in the next sentence: 'If there has been no rain, then water every 7 days.' The page does not use the words 'until it recovers'."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "\"I have moved over 100 rose bushes with great success.\"",
+     "result": "Confirmed",
+     "page_wording": "I have moved over 100 rose bushes with great success.",
+     "supports_finding": "yes",
+     "note": "Word for word, the author's own experience (Ron Daniels). The sentence before it says 'Roses are very resilient and will do well in the upcoming Spring.' This is for roses moved while dormant in zone 7."
+    }
+   ],
+   "contradictions": [
+    "AF-28: the page gives two timings together - 'Late winter to early spring is the best time' and 'December through the first of February is the ideal time' for zone 7 - which do not fully match.",
+    "AF-32: no advice on keeping roots moist during the move.",
+    "AF-35: the success claim is tied to moving roses that are dormant or going dormant, not actively growing."
+   ]
+  },
+  {
+   "code": "OSU-AE",
+   "url": "https://ask.extension.org/kb/faq.php?id=740633",
+   "final_url": "https://ask.extension.org/kb/faq.php?id=740633",
+   "opened": true,
+   "page_date": "25 March 2021 (expert reply); question asked 24 March 2021",
+   "checks": [
+    {
+     "finding": "AF-20",
+     "recorded": "\"In Eugene, plant with the bud union one inch above soil level\"",
+     "result": "Confirmed",
+     "page_wording": "In Eugene, plant with the bud union one inch above soil level, add two to four inches of mulch to retain moisture.",
+     "supports_finding": "yes",
+     "note": "Supplies the 'above soil' position for Eugene (asker in Lane County, Oregon). The same answer also gives a below-soil position: 'In Central Oregon you would plant with the bud union two inches below soil level', so the page itself shows the difference."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"The reasons for planting deeper include avoidance of cold damage and stabilizing against wind rock.\"",
+     "result": "Confirmed",
+     "page_wording": "The reasons for planting deeper include avoidance of cold damage and stabilizing against wind rock.",
+     "supports_finding": "yes",
+     "note": "Supports the cold-winter link; the sentence before it reads 'In colder regions, where winter temperatures predictably drop below 20 degrees, the graft should be 1 to 2 inches below the soil.' Wind rock is given as a second reason. The page does not mention the RHS or dieback, so that half is not from here."
+    }
+   ],
+   "contradictions": [
+    "AF-22: cold is not the only reason given for deep planting - 'stabilizing against wind rock' is also named. The page adds 'In milder climates, disease susceptibility of the graft is a risk' as the reason against burying; it does not mention dieback or the RHS.",
+    "Source description: the words 'Oregon State University' do not appear in the page text; the institution shows only through linked extension.oregonstate.edu addresses. Expert name Stephen Oldfield and the dates are as recorded."
+   ]
+  },
+  {
+   "code": "AE-T",
+   "url": "https://ask.extension.org/kb/faq.php?id=872229",
+   "final_url": "https://ask.extension.org/kb/faq.php?id=872229",
+   "opened": true,
+   "page_date": "10 June 2024 (expert reply); question asked 8 June 2024",
+   "checks": [
+    {
+     "finding": "AF-27",
+     "recorded": "\"You can still transplant the roses now; be sure to dig a good-sized root ball with them\"",
+     "result": "Confirmed",
+     "page_wording": "You can still transplant the roses now; be sure to dig a good-sized root ball with them and then make sure to...",
+     "supports_finding": "yes",
+     "note": "A June question from Douglas County, Colorado, about roses that were blooming, so this is a move outside dormancy with extra watering. It supports 'more watering' only; this answer says no pruning is needed, just removal of flowers and buds."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"There's no need to prune them back first\"",
+     "result": "Confirmed",
+     "page_wording": "There's no need to prune them back first, though it would help to remove the flowers and flower buds.",
+     "supports_finding": "yes",
+     "note": "Supports this source as one of those that say not to prune first. Note the rest of the sentence: remove the flowers and flower buds so the plant puts effort into roots. Context is a summer move of blooming roses."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"be sure to dig a good-sized root ball with them\"",
+     "result": "Confirmed",
+     "page_wording": "You can still transplant the roses now; be sure to dig a good-sized root ball with them...",
+     "supports_finding": "partly",
+     "note": "The page says 'good-sized', not as large as practicable, and says nothing about keeping soil or as many roots as possible."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"give them a little extra TLC (in the form of water) through the summer.\"",
+     "result": "Confirmed",
+     "page_wording": "...make sure to give them a little extra TLC (in the form of water) through the summer.",
+     "supports_finding": "yes",
+     "note": "Supports extra watering after the move, 'through the summer' rather than 'until it recovers'. The page adds syringing (spraying the plants with water) on hot afternoons. Context is a June move in Colorado."
+    }
+   ],
+   "contradictions": [
+    "The answer gives no ideal time for moving roses; it only says it can still be done in June.",
+    "AF-29: although it says no pruning first, it does recommend removing flowers and flower buds.",
+    "Source description is accurate: expert shown as 'John', no institution on the page."
+   ]
+  },
+  {
+   "code": "UAEX",
+   "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx",
+   "final_url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx",
+   "opened": true,
+   "page_date": "Q&A entries dated August 2007 to 28 April 2018",
+   "checks": [
+    {
+     "finding": "AF-26",
+     "recorded": "\"The dormant season--November through February is considered the best transplant season for most hardy plants\"",
+     "result": "Confirmed",
+     "page_wording": "In general, the dormant season--November through February is considered the best transplant season for most hardy plants, simply because the plants...",
+     "supports_finding": "partly",
+     "note": "The sentence is about 'most hardy plants', in a January 2010 answer on moving hydrangeas, roses, butterfly bushes and herbs; it is not said of roses specifically. The rose-specific line in the same answer is 'for roses, I suggest moving them after you prune them in February'. Arkansas."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"With proper care--mainly watering, you can successfully move most plants year-round.\"",
+     "result": "Confirmed",
+     "page_wording": "With proper care--mainly watering, you can successfully move most plants year-round.",
+     "supports_finding": "partly",
+     "note": "Said of 'most plants' in the same January 2010 mixed-plant answer, not of roses specifically; it supports the 'more watering' condition. A rose-specific line is in the August 2007 entry: 'If you must move them this fall, it can be done, but I would avoid pruning if possible' - the opposite of 'more pruning'."
+    },
+    {
+     "finding": "AF-28",
+     "recorded": "\"The best time to move roses would be February, the same time we prune them.\"",
+     "result": "Confirmed",
+     "page_wording": "The best time to move roses would be February, the same time we prune them.",
+     "supports_finding": "yes",
+     "note": "August 2007 entry about moving rose bushes within a yard, Arkansas. Supports late winter and at pruning time. Repeated in other entries (January 2010, September 2012). Nothing about frosts."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Get it in the ground, mulch it and water.\"",
+     "result": "Confirmed",
+     "page_wording": "Get it in the ground, mulch it and water.",
+     "supports_finding": "no",
+     "note": "This sentence is in the March 2010 entry about newly bought bare-root roses that have not yet been planted ('Bare root plants are shipped dormant and meant to be planted dormant'), not a moved rose. The nearest thing for a moved rose is in the November 2012 entry (a rooted Knock Out cutting moved to a bed): 'Plant it in the ground, mulch it and water if dry and it should do well.'"
+    }
+   ],
+   "contradictions": [
+    "AF-26 and AF-27: the two recorded sentences are general statements about 'most hardy plants' and 'most plants', not about roses.",
+    "AF-27 and AF-29: for a fall move the page says 'I would avoid pruning if possible' because pruned roses going into winter are more open to winter damage.",
+    "AF-33: the recorded sentence is about planting a new bare-root rose, not about watering a moved rose.",
+    "Source description: the page carries an entry dated 28 April 2018, later than the recorded range of 2007 to 2014.",
+    "Checker note: two answers placed 'The dormant season is the best time to move plants' in different entries (January 2010 and September 2012); it may appear in both."
+   ]
+  },
+  {
+   "code": "PALM-G",
+   "url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
+   "final_url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"The best planting time for all rose varieties is from winter through to spring.\"",
+     "result": "Confirmed",
+     "page_wording": "The best planting time for all rose varieties is from winter through to spring.",
+     "supports_finding": "partly",
+     "note": "Word for word, under 'How to plant'. It is about all roses in general: the page never uses 'bare root' or 'dormant', so it does not say bare-root roses are planted while dormant. It supports only a New Zealand winter-into-spring planting window."
+    },
+    {
+     "finding": "AF-2",
+     "recorded": "\"The best planting time for all rose varieties is from winter through to spring.\"",
+     "result": "Confirmed",
+     "page_wording": "The best planting time for all rose varieties is from winter through to spring.",
+     "supports_finding": "partly",
+     "note": "Supports the New Zealand part 'winter ... planting into spring'. The page says nothing about stock arriving from June (the only months named are July and August, for pruning) and nothing about Australia."
+    },
+    {
+     "finding": "AF-4",
+     "recorded": "\"Container grown roses can be planted in your garden at any time of the year.\"",
+     "result": "Confirmed",
+     "page_wording": "Container grown roses can be planted in your garden at any time of the year.",
+     "supports_finding": "partly",
+     "note": "Word for word. The page says 'any time of the year' flatly; the next sentence is 'There is no need to disturb the root system.' No weather, watering or season conditions are attached, so the 'with conditions' part of the finding is not supported here."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Five hours of sunlight is adequate.\"",
+     "result": "Confirmed",
+     "page_wording": "Five hours of sunlight is adequate.",
+     "supports_finding": "yes",
+     "note": "Word for word. Preceding sentence: 'Roses love lots of sun but they will be fine with some afternoon shade.' Five hours sits inside the four-to-six range; the page does not say 'direct' sun."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"If drainage is a problem try raised beds (at least 30cm above ground level).\"",
+     "result": "Confirmed",
+     "page_wording": "If drainage is a problem try raised beds (at least 30cm above ground level).",
+     "supports_finding": "yes",
+     "note": "Word for word. The page also says roses prefer soil that 'is never waterlogged'. It speaks of drainage problems, not 'heavy soil', and mentions raised beds only, not mounds."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"dug to twice the depth and width of the root ball.\"",
+     "result": "Confirmed",
+     "page_wording": "...lift the plant from the container and place into the hole that is dug to twice the depth and width of the root ball.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word. It is about a container-grown rose and its root ball, not bare roots. Supports a hole wider than the roots (twice the width, and twice the depth)."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "\"Make a mound 5-7cm high in the centre and sit the central core of roots on it.\"",
+     "result": "Confirmed",
+     "page_wording": "Make a mound 5-7cm high in the centre and sit the central core of roots on it.",
+     "supports_finding": "partly",
+     "note": "Word for word, but it sits in the single paragraph under the heading 'Container grown roses', and the page never mentions bare-root roses. It supports a mound in the hole with the roots sat on it; it does not say the roots are bare or that they are 'spread' over the mound."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"is 2-5cm above ground level when the hole is filled in.\"",
+     "result": "Confirmed",
+     "page_wording": "...place the rose in so that the bud union (...) is 2-5cm above ground level when the hole is filled in.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word and the subject is the bud union. Gives the 'above the soil' position (2-5 cm above). Context is the 'Container grown roses' paragraph."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"is 2-5cm above ground level when the hole is filled in.\"",
+     "result": "Confirmed",
+     "page_wording": "...place the rose in so that the bud union (...) is 2-5cm above ground level when the hole is filled in.",
+     "supports_finding": "yes",
+     "note": "New Zealand source putting the bud union 2-5 cm above ground level. Stated in the 'Container grown roses' paragraph."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Water deeply as roses are deep rooting so water must penetrate to the lowest roots.\"",
+     "result": "Confirmed",
+     "page_wording": "Water deeply as roses are deep rooting so water must penetrate to the lowest roots.",
+     "supports_finding": "partly",
+     "note": "Word for word, but it is under 'Watering and mulching' and is general watering advice, not an instruction to water in after planting. The page does support the finding in a different sentence in the planting paragraph: 'Firm down and water thoroughly.'"
+    }
+   ],
+   "contradictions": [
+    "The page never mentions bare-root or dormant roses; its planting-time sentence covers 'all rose varieties'.",
+    "Says container roses can be planted 'at any time of the year' with no conditions attached (AF-4 says most of the year, with conditions).",
+    "The mound instruction is in the 'Container grown roses' paragraph, not in a bare-root section (AF-16).",
+    "Sun is qualified: roses 'will be fine with some afternoon shade'."
+   ]
+  },
+  {
+   "code": "PALM-FAQ",
+   "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
+   "final_url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-26",
+     "recorded": "\"the best time to relocate them would be after pruning in July when the rose is dormant with no active growth.\"",
+     "result": "Confirmed",
+     "page_wording": "...so the best time to relocate them would be after pruning in July when the rose is dormant with no active growth.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word, under the question 'When is the best time to move roses in the garden?'. New Zealand source; July is midwinter there. No date on the page."
+    },
+    {
+     "finding": "AF-28",
+     "recorded": "\"make sure that the risk of frosts (or freezing weather) has passed\"",
+     "result": "Confirmed",
+     "page_wording": "When it comes time to transplant the rose, make sure that the risk of frosts (or freezing weather) has passed and dig in plenty...",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word inside a longer sentence, in the same answer as 'after pruning in July'. Supports both 'after pruning' and 'after frosts'. Note the page asks for July and for frost risk to have passed, which pull in different directions in cold districts. One of three readings gave a different sentence around the fragment; the third reading settled it as shown."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"be sure to give it a good water.\"",
+     "result": "Confirmed",
+     "page_wording": "Make sure the new hole is large enough to accommodate the roses' roots comfortably and be sure to give it a good water.",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word. Supports watering well at replanting only. The page says nothing about keeping the rose watered afterwards or until it recovers."
+    }
+   ],
+   "contradictions": [
+    "Same answer says move 'after pruning in July' and also 'make sure that the risk of frosts (or freezing weather) has passed'; the page does not reconcile the two.",
+    "No aftercare beyond one 'good water'; nothing on moving outside dormancy."
+   ]
+  },
+  {
+   "code": "GA-2014P",
+   "url": "https://www.abc.net.au/gardening/how-to/planting-roses/9435672",
+   "final_url": "https://www.abc.net.au/gardening/how-to/planting-roses/9435672",
+   "opened": true,
+   "page_date": "Sat 26 Jul 2014",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Because it's winter, Sophie's planting bare-rooted roses.\"",
+     "result": "Confirmed",
+     "page_wording": "Because it's winter, Sophie's planting bare-rooted roses.",
+     "supports_finding": "yes",
+     "note": "Word for word. Supports winter bare-root planting in Australia as far as one source can. The page does not use the word 'dormant' (it says the plants 'are not actively growing'), names no month and names no place."
+    },
+    {
+     "finding": "AF-5",
+     "recorded": "\"it's vital not to let the roots dry out before planting\"",
+     "result": "Confirmed",
+     "page_wording": "Sophie says it's vital not to let the roots dry out before planting, so she likes to leave them soaking in a bucket...",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word. Supports 'roots are not allowed to dry out'. The page does not say bare-root roses should be planted promptly or soon after buying."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "\"She creates a mound of earth in the centre of the hole, to encourage the roots to grow down over the mound.\"",
+     "result": "Confirmed",
+     "page_wording": "She creates a mound of earth in the centre of the hole, to encourage the roots to grow down over the mound.",
+     "supports_finding": "yes",
+     "note": "Word for word, about bare-rooted roses. The page says the roots are to 'grow down over the mound' rather than 'spread'; the practice is the same."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"she likes to leave them soaking in a bucket of water\"",
+     "result": "Confirmed",
+     "page_wording": "...so she likes to leave them soaking in a bucket of water while she's preparing the holes.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word. No soaking time is given; one reading had the sentence continue 'while she's preparing the holes', another ended it at 'bucket of water'."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"It should be kept just above the soil level.\"",
+     "result": "Confirmed",
+     "page_wording": "It should be kept just above the soil level.",
+     "supports_finding": "yes",
+     "note": "Word for word. 'It' is the bud union: the sentence before reads 'She also ensures the bud union - the swollen joint found near the soil level - isn't buried.' Gives the 'above the soil' position."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"It should be kept just above the soil level.\"",
+     "result": "Confirmed",
+     "page_wording": "It should be kept just above the soil level.",
+     "supports_finding": "yes",
+     "note": "Australian source putting the bud union just above soil level; subject confirmed as the bud union by the preceding sentence."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"She waters them in well to help the soil settle\"",
+     "result": "Confirmed",
+     "page_wording": "She waters them in well to help the soil settle - but being winter, she thinks she shouldn't need to water them again...",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word. Supports watering in at planting. The same sentence adds that in winter no more watering should be needed until spring."
+    }
+   ],
+   "contradictions": [
+    "Qualifier on watering: after watering in, 'she shouldn't need to water them again until spring'.",
+    "Page says nothing about planting promptly after purchase (AF-5) and gives no soaking time."
+   ]
+  },
+  {
+   "code": "GA-2019",
+   "url": "https://www.abc.net.au/gardening/how-to/tips-on-planting-bare-rooted-roses/11202854",
+   "final_url": "https://www.abc.net.au/gardening/how-to/tips-on-planting-bare-rooted-roses/11202854",
+   "opened": true,
+   "page_date": "Fri 14 Jun 2019",
+   "checks": [
+    {
+     "finding": "AF-5",
+     "recorded": "\"They need to be planted almost immediately after purchasing.\"",
+     "result": "Confirmed",
+     "page_wording": "But it does mean they need to be planted almost immediately after purchasing.",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word. Supports 'planted promptly'. The page does not say the roots must not dry out or must be kept moist, and it has no soaking step."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "\"Place rose into hole, and gently spread roots over mound\"",
+     "result": "Confirmed",
+     "page_wording": "Place rose into hole, and gently spread roots over mound - this will improve drainage.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word; the step before is 'In the bottom of the hole, mound up soil.' About bare-rooted roses (Wagner's Rose Nursery, Kalangadoo, South Australia). The page gives drainage as the reason."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Prune root system back by around one third.\"",
+     "result": "Confirmed",
+     "page_wording": "Prune root system back by around one third.",
+     "supports_finding": "no",
+     "note": "Word for word, but it is a routine instruction to cut the whole root system back by about a third. The page does not mention damaged or broken roots at all, so it does not support a finding about trimming damaged roots; it describes a different and heavier practice."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"Ensure that the soil level is no higher than the graft or bud union.\"",
+     "result": "Near",
+     "page_wording": "Backfill hole, ensuring that the soil level is no higher than the graft or bud union.",
+     "supports_finding": "yes",
+     "note": "The recorded quotation is reworded: the page step begins 'Backfill hole, ensuring that', not 'Ensure that'. Meaning is unchanged. It puts the union at or above soil level, which is one of the positions in the finding."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"Ensure that the soil level is no higher than the graft or bud union.\"",
+     "result": "Near",
+     "page_wording": "Backfill hole, ensuring that the soil level is no higher than the graft or bud union.",
+     "supports_finding": "yes",
+     "note": "Recorded wording differs from the page ('Backfill hole, ensuring that ...'); meaning unchanged. Australian source: soil no higher than the union, i.e. union at or above soil level."
+    },
+    {
+     "finding": "AF-25",
+     "recorded": "\"Prune top growth of rose by around a third to half which will ensure balanced root growth.\"",
+     "result": "Confirmed",
+     "page_wording": "Prune top growth of rose by around a third to half which will ensure balanced root growth and healthy foliage.",
+     "supports_finding": "yes",
+     "note": "Recorded fragment is word for word but stops early; two of three readings show the step continuing 'and healthy foliage'. It gives one side of the difference (prune top growth by a third to half at planting); a single page cannot show that sources differ."
+    }
+   ],
+   "contradictions": [
+    "Roots: the page prunes the whole root system by about a third; it never mentions damaged or broken roots (AF-19).",
+    "No soaking step, no watering-in step and no statement about roots drying out."
+   ]
+  },
+  {
+   "code": "GA-MAG",
+   "url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+   "final_url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+   "opened": true,
+   "page_date": "9 April 2024",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"May, June and July are the months to plant bare-rooted roses in Australia.\"",
+     "result": "Confirmed",
+     "page_wording": "May, June and July are the months to plant bare-rooted roses in Australia.",
+     "supports_finding": "partly",
+     "note": "Word for word. Supports an Australian bare-root window, but May is late autumn, not winter, and the page never uses the word 'dormant'. Australia only."
+    },
+    {
+     "finding": "AF-2",
+     "recorded": "\"May, June and July are the months to plant bare-rooted roses in Australia.\"",
+     "result": "Confirmed",
+     "page_wording": "May, June and July are the months to plant bare-rooted roses in Australia.",
+     "supports_finding": "yes",
+     "note": "Word for word. Directly supports 'May to July' for Australia. Says nothing about New Zealand."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Roses need at least 4–6 hours of sunlight daily.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses need at least 4-6 hours of sunlight daily.",
+     "supports_finding": "yes",
+     "note": "Word for word (page uses an en dash). The page also says 'Grow roses in full sun with lots of space around them.' It says 'sunlight', not 'direct' sun."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"if you have a heavy soil, consider building a raised bed or mounding the soil.\"",
+     "result": "Confirmed",
+     "page_wording": "If you have a heavy soil, consider building a raised bed or mounding the soil.",
+     "supports_finding": "yes",
+     "note": "Same sentence; only the capital letter differs. The page also asks for good drainage."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"leave breathing space between rose plants so there's good air circulation.\"",
+     "result": "Confirmed",
+     "page_wording": "It's important, especially in humid climates, to leave breathing space between rose plants so there's good air circulation.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word. This is the source that gives air circulation as the reason for spacing; the page qualifies it with 'especially in humid climates'."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"soak the rose in a bucket of water with added seaweed solution for several hours.\"",
+     "result": "Confirmed",
+     "page_wording": "Trim damaged roots and soak the rose in a bucket of water with added seaweed solution for several hours.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word, under 'Planting a bare-root rose'. The soak includes seaweed solution."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"for several hours.\"",
+     "result": "Confirmed",
+     "page_wording": "...soak the rose in a bucket of water with added seaweed solution for several hours.",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word, but 'several hours' is not a figure: it is consistent with a one-to-24-hour range without fixing either end. Nothing on this page about a 24-hour limit; it is an Australian magazine, not a US extension source."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Trim damaged roots and soak the rose\"",
+     "result": "Confirmed",
+     "page_wording": "Trim damaged roots and soak the rose in a bucket of water with added seaweed solution for several hours.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word, under 'Planting a bare-root rose'. Says damaged roots only; broken roots are not named separately."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"Ensure the soil mark on the stem aligns with the level of the garden bed.\"",
+     "result": "Confirmed",
+     "page_wording": "Ensure the soil mark on the stem aligns with the level of the garden bed.",
+     "supports_finding": "partly",
+     "note": "Word for word, but it is under the heading 'Planting a bare-root rose' and refers to the nursery soil mark on a bare-rooted plant. The page has no instructions for planting out a potted rose (its 'Planting into containers' section is about putting a bare-root rose into a pot). It supports 'same depth as before' only for a bare-root rose, not for a potted one."
+    }
+   ],
+   "contradictions": [
+    "AF-23: the page gives no advice on planting a potted rose from its container into the ground; the soil-mark sentence is about bare-root roses.",
+    "Air-circulation reason is qualified: 'especially in humid climates'.",
+    "Page also says 'Shrub roses are usually planted about 1m apart' and, for pots, 'ensure the graft union will be above the pot rim'."
+   ]
+  },
+  {
+   "code": "TRE-T",
+   "url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
+   "final_url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
+   "opened": true,
+   "page_date": "not shown (footer copyright 2023-2024 only)",
+   "checks": [
+    {
+     "finding": "AF-26",
+     "recorded": "\"The best time to move a rose is in the winter dormancy when the plant is asleep\"",
+     "result": "Confirmed",
+     "page_wording": "The best time to move a rose is in the winter dormancy when the plant is asleep and will not be looking for...",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word. Australian rose nursery; no months named, no date on the page."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"Prune to at least half of its size, the balance of roots to growth will be important\"",
+     "result": "Confirmed",
+     "page_wording": "Prune to at least half of its size, the balance of roots to growth will be important to make sure that the plant...",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word and sits under 'Transplanting during the growing season', so it is the out-of-dormancy case. Supports more pruning; on watering the page only says the plant will recover 'if kept moist'."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Prune to at least half of its size\"",
+     "result": "Confirmed",
+     "page_wording": "Prune to at least half of its size, the balance of roots to growth will be important...",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word, but 'at least half' applies only to growing-season moves. For a dormant move the page says to dig 'when you have done your winter prune' and to balance top growth to the roots left. Both are cutting back before or at the move."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"cut a circle around the plant about 45cm in diameter (the larger the better).\"",
+     "result": "Confirmed",
+     "page_wording": "Get a long narrow spade and cut a circle around the plant about 45cm in diameter (the larger the better).",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word and 'the larger the better' supports digging wide. But it is under 'Dormant Transplanting', where the page then says to shake the soil off the roots and replant as a bare-root rose. 'Keep as much soil around the roots as possible' appears only under growing-season moves."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"cut a circle around the plant about 45cm in diameter (the larger the better).\"",
+     "result": "Confirmed",
+     "page_wording": "Get a long narrow spade and cut a circle around the plant about 45cm in diameter (the larger the better).",
+     "supports_finding": "yes",
+     "note": "Word for word. 45 cm is a diameter across the plant, inside the 25-60 cm range. Given for dormant moves."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"It is very important to keep the roots moist until planting into the new location.\"",
+     "result": "Confirmed",
+     "page_wording": "It is very important to keep the roots moist until planting into the new location. Never let the roots dry out.",
+     "supports_finding": "yes",
+     "note": "Word for word, under 'Dormant Transplanting'; the roots go into a bucket of plain water for the move. This page does not mention watering the day before (the finding attributes that to one other source)."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"if kept moist it will recover.\"",
+     "result": "Confirmed",
+     "page_wording": "...may wilt a bit or just sit for a few weeks once in its new location but if kept moist it will recover.",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word, but it is under 'Transplanting during the growing season'. It supports keeping a moved rose moist until it recovers for growing-season moves only; one reading also found 'Back fill the hole and water in well.' The dormant section just says to plant as a bare-root rose."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"The older the rose, the more likely that it will not appreciate being moved, although it is possible.\" / \"If your plant has been settled for many years it does become tricky.\"",
+     "result": "Confirmed",
+     "page_wording": "The older the rose, the more likely that it will not appreciate being moved, although it is possible. / ...it does become tricky.",
+     "supports_finding": "yes",
+     "note": "Both sentences are word for word, in the introduction. The page gives no age limit in years, which matches the finding."
+    }
+   ],
+   "contradictions": [
+    "For dormant moves the page says to shake the soil from the roots, carry the rose in a bucket of water and replant it as a bare-root rose; this conflicts with 'keeping as much soil as possible' (AF-30) except for growing-season moves.",
+    "'Prune to at least half' is for growing-season moves only, not for winter moves."
+   ]
+  },
+  {
+   "code": "AMORE",
+   "url": "https://www.amoreroses.co.nz/rose-growing-guide.html",
+   "final_url": "https://www.amoreroses.co.nz/rose-growing-guide.html",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-6",
+     "recorded": "\"a minimum of six hours of direct sunlight is recommended.\"",
+     "result": "Confirmed",
+     "page_wording": "For best results, a minimum of six hours of direct sunlight is recommended.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word; preceded by 'Roses thrive on direct sunlight.' Gives the six-hour end of the range, as a recommendation 'for best results'."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"60-100cm from other roses (depending on the size of the rose at maturity).\"",
+     "result": "Confirmed",
+     "page_wording": "Plant your rose 100cm away from other plants and 60-100cm from other roses (depending on the size of the rose at maturity).",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word, under 'Avoid intense competition from other plants'. 60-100 cm sits inside 50 cm-1 m and depends on mature size. The guide covers several rose types and does not limit this figure to bush roses; the reason given is competition for moisture and sunlight."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"Soak it well for 24 hours in a bucket of cold water before planting into the ground.\"",
+     "result": "Confirmed",
+     "page_wording": "Soak it well for 24 hours in a bucket of cold water before planting into the ground.",
+     "supports_finding": "yes",
+     "note": "Word for word in two of three readings (a third shortened it), under 'Planting a bareroot rose', after 'Plant your bareroot rose as soon as possible.'"
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"Soak it well for 24 hours in a bucket of cold water\"",
+     "result": "Confirmed",
+     "page_wording": "Soak it well for 24 hours in a bucket of cold water before planting into the ground.",
+     "supports_finding": "yes",
+     "note": "Gives the 24-hour top of the range. It is an instruction to soak for 24 hours, not a statement that 24 hours is a limit, and it is a New Zealand commercial source, not a US extension one."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"Ensure you plant the rose up to the crown where all the shoots/branches are coming out from.\"",
+     "result": "Confirmed",
+     "page_wording": "Ensure you plant the rose up to the crown where all the shoots/branches are coming out from.",
+     "supports_finding": "partly",
+     "note": "Word for word (it appears under both the potted and bareroot headings). The page never uses 'bud union' or 'graft'; it speaks of the 'crown'. A caption says 'This is the correct depth - the crown is sitting at soil level, unless you are planting a Standard (Tree) Rose.' So it supports 'at soil level' only if crown is read as bud union, and the page adds that a long shank 'needs to be well buried'."
+    }
+   ],
+   "contradictions": [
+    "Uses 'crown', not 'bud union'; the depth rule excludes standard (tree) roses.",
+    "'Some of the budded roses have a long shank between the roots and crown. The shank needs to be well buried...' - a deep-planting instruction for the shank.",
+    "Spacing reason is competition for moisture and sunlight, not air circulation."
+   ]
+  },
+  {
+   "code": "FG-RRD",
+   "url": "https://www.finegardening.com/article/planting-roses-where-roses-used-to-be-do-you-have-to-remove-all-the-old-soil",
+   "final_url": "https://www.finegardening.com/article/planting-roses-where-roses-used-to-be-do-you-have-to-remove-all-the-old-soil",
+   "opened": true,
+   "page_date": "17 November 2011; modified 26 July 2023",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"The old method of dealing with rose replant disease was to remove all the old soil and replace it with fresh soil.\"",
+     "result": "Confirmed",
+     "page_wording": "The old method of dealing with rose replant disease was to remove all the old soil and replace it with fresh soil.",
+     "supports_finding": "partly",
+     "note": "Word for word, but this sentence only names 'rose replant disease' and an old remedy. The poor-growth claim is elsewhere and reported second-hand: 'The reasons cited are because the new roses won't do well and may even die', followed by 'There are mixed feelings about this with some people saying it's true and some saying it isn't.' The term 'rose sickness' is not used."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"It has been proven that roses treated with mycorrhizal fungi thrive in soil where roses used to be.\"",
+     "result": "Confirmed",
+     "page_wording": "It has been proven that roses treated with mycorrhizal fungi thrive in soil where roses used to be.",
+     "supports_finding": "yes",
+     "note": "Word for word. The article supplies two of the remedies: mycorrhizal fungi and adding well-rotted manure or compost, and mentions soil replacement as the 'old method'. The 'has been proven' claim has no source or study cited, and it does not mention rotation, planting elsewhere or how much soil to replace."
+    }
+   ],
+   "contradictions": [
+    "The article presents replant disease as disputed: 'some people saying it's true and some saying it isn't'.",
+    "'It has been proven' is unsupported by any citation on the page; a reader comment asks for the studies.",
+    "Author treats soil replacement as outdated ('Luckily there is a much easier method').",
+    "Byline shows an email address (lbergeron@taunton.com); the article is signed 'Paul'."
+   ]
+  },
+  {
+   "code": "FG-SP",
+   "url": "https://www.finegardening.com/article/what-is-the-proper-spacing-when-planting-roses",
+   "final_url": "https://www.finegardening.com/article/what-is-the-proper-spacing-when-planting-roses",
+   "opened": true,
+   "page_date": "28 April 2011; modified 26 July 2023",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "\"plant them anywhere from 20 inches to 30 inches apart depending on the ultimate size of the plant.\"",
+     "result": "Confirmed",
+     "page_wording": "...I choose good Garden Roses and plant them anywhere from 20 inches to 30 inches apart depending on the ultimate size of the plant.",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word; 20-30 inches is about 51-76 cm, inside the range, and it depends on ultimate size. But it is the author's own deliberately close planting of disease-resistant 'Garden Roses' for a carpet of bloom, set against rose guides that say to space far apart. Bush roses are not named, no metric figure is given, and he adds that warmer climates may need wider spacing."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"The reason given is that magic air circulation argument.\"",
+     "result": "Confirmed",
+     "page_wording": "The reason given is that magic air circulation argument. Air circulation is supposed to prevent disease.",
+     "supports_finding": "yes",
+     "note": "Word for word. The author goes on to question it: 'To which my response always is, why are you planting disease prone roses in the first place!' This is the source that questions the air-circulation reason."
+    }
+   ],
+   "contradictions": [
+    "The 20-30 inch figure is closer than the rose guides the author is arguing against, which he says recommend spacing roses 'far apart so they don't touch each other'.",
+    "Climate qualifier: 'If you live in warmer climates you may need to space them further apart. Cooler climates can go tighter'."
+   ]
+  }
+ ],
+ "further_sentences_confirmed": [
+  {
+   "code": "ISU",
+   "url": "https://yardandgarden.extension.iastate.edu/how-to/how-plant-bare-root-shrubs-and-roses",
+   "final_url": "https://yardandgarden.extension.iastate.edu/how-to/how-plant-bare-root-shrubs-and-roses",
+   "opened": true,
+   "page_date": "January 2025 (author Aaron Steil)",
+   "checks": [
+    {
+     "finding": "AF-5",
+     "recorded": "Plant bare root shrubs as soon as possible after receiving them",
+     "result": "Confirmed",
+     "page_wording": "Plant bare root shrubs as soon as possible after receiving them.",
+     "supports_finding": "partly",
+     "note": "Word for word, under the heading \"Care Before Planting\". It is written about bare-root shrubs generally (the page title covers shrubs and roses), about planting, not moving. It carries only the \"planted promptly\" half of AF-5; the drying-out half is in the next recorded sentence. If planting is delayed the page allows cool storage at about 40F with damp packing."
+    },
+    {
+     "finding": "AF-5",
+     "recorded": "Do not let any part of the bare root shrub dry out, especially the root system.",
+     "result": "Confirmed",
+     "page_wording": "Do not let any part of the bare root shrub dry out, especially the root system.",
+     "supports_finding": "partly",
+     "note": "Word for word, under \"Care Before Planting\", about bare-root shrubs generally (roses included by the page title). It carries only the \"roots not allowed to dry out\" half of AF-5; taken with the previous sentence the page supports the whole finding."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "This helps protect the rose from harsh winter weather.",
+     "result": "Confirmed",
+     "page_wording": "This helps protect the rose from harsh winter weather.",
+     "supports_finding": "partly",
+     "note": "Word for word, under \"Planting\". \"This\" refers to the sentence before it: \"In Iowa, the bud/graft union ... should be planted 2 to 4 inches below the soil surface\", for grafted roses (hybrid tea, grandiflora, floribunda). Supports the first half of AF-22 (burying linked to cold winters, Iowa). The RHS/dieback half is not on this page at all."
+    }
+   ],
+   "contradictions": [
+    "The page permits delayed planting: store bare-root plants at around 40F with the packing kept damp but not wet, so \"as soon as possible\" is not absolute."
+   ]
+  },
+  {
+   "code": "HEIR",
+   "url": "https://heirloomroses.com/blogs/how-to-articles/transplanting-roses",
+   "final_url": "https://heirloomroses.com/blogs/how-to-articles/transplanting-roses",
+   "opened": true,
+   "page_date": "13 April 2023 (shown as 04/13/2023; author Robin Jennings)",
+   "checks": [
+    {
+     "finding": "AF-27",
+     "recorded": "If you need to transplant your rose during the growing season (non-dormant), you can still be successful but water is key!",
+     "result": "Confirmed",
+     "page_wording": "If you need to transplant your rose during the growing season (non-dormant), you can still be successful but water is key!",
+     "supports_finding": "yes",
+     "note": "Word for word, under the heading \"Transplanting During the Growing Season\"; about moving an established rose while in growth. The section goes on to say water deeply beforehand, cut taller canes \"down to a manageable height\", and \"Water the new rose every day for a week or two depending on your weather\". The seller is an own-root rose nursery (US)."
+    }
+   ],
+   "contradictions": [
+    "Pruning is optional on this page: \"You can also choose not to cut the rose back, and it will show you how much it can support by wilting at the tips.\""
+   ]
+  },
+  {
+   "code": "DA-MOVE",
+   "url": "https://eu.davidaustinroses.com/blogs/rose-care/how-to-move-a-rose",
+   "final_url": "https://eu.davidaustinroses.com/blogs/rose-care/how-to-move-a-rose",
+   "opened": true,
+   "page_date": "3 September 2026 (author Megan Edmondson)",
+   "checks": [
+    {
+     "finding": "AF-30",
+     "recorded": "Aim to preserve as much of the root system as possible.",
+     "result": "Confirmed",
+     "page_wording": "Aim to preserve as much of the root system as possible.",
+     "supports_finding": "partly",
+     "note": "Word for word, under \"Step 3: Lift the Rose\"; about lifting an established rose to move it. It supports keeping as many roots as possible. It does not say to keep soil on the roots or to dig as large a root ball as practicable; the only size given is \"Begin digging at least a spade's width from the base\"."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "the graft union should sit around 2 inches below soil level",
+     "result": "Confirmed",
+     "page_wording": "The graft union, the swollen area where the rose has been grafted onto its rootstock, should sit around 2 inches below soil level.",
+     "supports_finding": "yes",
+     "note": "The recorded words are exact but are the two ends of a longer sentence with a clause in between. It sits under \"Step 4: Replant with Care\", so it is about replanting a moved rose, not first planting. It supplies the \"below soil level\" position (about 2 inches; inches only, no cm) for AF-20, which is as far as one source can go on a \"sources differ\" finding."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "can still be done, but you may see some temporary signs of stress",
+     "result": "Confirmed",
+     "page_wording": "If you need to move a rose during the growing season, it can still be done, but you may see some temporary signs...",
+     "supports_finding": "yes",
+     "note": "Recorded fragment is word for word, under \"When is the Best Time to Move a Rose?\". The next sentences add: \"Keep the rose well-watered and consider using liquid seaweed to support it while it settles.\" So it supports moving outside dormancy with more watering; the page asks for no extra pruning for a growing-season move. Best time stated is November to February (UK and Europe)."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "(what does the page tell the gardener to do if a rose has grown in the new spot before? quote it)",
+     "result": "Confirmed",
+     "page_wording": "\"Remove as much of the soil from the previous planting hole as reasonably possible and replace it with fresh soil\" / \"Adding well-rotted manure or soil improver will help\"",
+     "supports_finding": "yes",
+     "note": "The page answers the question under the heading \"What if a Rose Has Grown There Before?\": \"If the new position has previously been home to another rose, there is one additional step to take before planting\", then replace the soil (fresh soil from elsewhere in the garden or good-quality topsoil) and add well-rotted manure or soil improver. No measured amount of soil is given. The reader also reported a sub-heading \"Replant with Mycorrhizal Fungi\" in that section in three of four answers, with no text under it, and one listing of headings did not show it; treat the mycorrhizal part as unconfirmed. The page does not use the words \"replant disease\" or \"rose sickness\"."
+    }
+   ],
+   "contradictions": [
+    "The page advises pruning before moving (\"Step 2: Prune Before Moving\": cut back some top growth), and does not tell the gardener to keep soil on the roots.",
+    "Graft-union depth of about 2 inches below soil is given for replanting a moved rose; it conflicts with sources that put the union at or above soil level (which is the point of AF-20)."
+   ]
+  },
+  {
+   "code": "NRS-T",
+   "url": "https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/",
+   "final_url": "https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/",
+   "opened": true,
+   "page_date": "9 November 2020 (author Ron Daniels, ARS Master Consulting Rosarian)",
+   "checks": [
+    {
+     "finding": "AF-30",
+     "recorded": "taking care to damage as few of the roots as possible",
+     "result": "Confirmed",
+     "page_wording": "Lift the root ball of the dormant plant ... with a shovel, taking care to damage as few of the roots as possible.",
+     "supports_finding": "partly",
+     "note": "Recorded fragment is word for word; it is about lifting a dormant established rose to move it (late winter to early spring; December to early February in zone 7, per the page). It supports keeping as many roots as possible. The page gives a fixed digging distance (\"Carefully dig around the plant (18 to 24 inches) to cut roots on all sides\") and says nothing about keeping soil on the roots or digging as large a ball as practicable."
+    }
+   ],
+   "contradictions": [
+    "The page accepts root loss: \"Cut the canes back by 1/2 to compensate for root loss.\" (given as a step at replanting)."
+   ]
+  },
+  {
+   "code": "YAT-NZ",
+   "url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
+   "final_url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-19",
+     "recorded": "prune off any damaged or broken roots",
+     "result": "Confirmed",
+     "page_wording": "Remove the rose plant from its packaging or pot, remove excess soil and prune off any damaged or broken roots.",
+     "supports_finding": "yes",
+     "note": "Recorded fragment is word for word. It is step 3 under \"How to Grow Roses in a Garden\" and the same wording appears again as step 3 under \"How to Grow Roses in a Pot\". \"Packaging or pot\" means it applies to both bare-root and potted roses at planting. New Zealand, commercial (garden products)."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "code": "UAEX",
+   "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx",
+   "final_url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx",
+   "opened": true,
+   "page_date": "Q&A entries individually dated; those checked are August 2007, January 2010 and November 2012 (page as a whole: no single date)",
+   "checks": [
+    {
+     "finding": "AF-29",
+     "recorded": "If you must move them this fall, it can be done, but I would avoid pruning if possible",
+     "result": "Confirmed",
+     "page_wording": "If you must move them this fall, it can be done, but I would avoid pruning if possible.",
+     "supports_finding": "partly",
+     "note": "Word for word, in the August 2007 entry about moving rose bushes within a yard (Arkansas). It supports \"do not prune first\" only for an autumn move; the reason given is \"Pruned roses heading into fall and winter would make them more susceptible to winter damage.\" The same answer says the best time to move is February, \"the same time we prune them\", so it is not advice against pruning in general."
+    },
+    {
+     "finding": "AF-28",
+     "recorded": "for roses, I suggest moving them after you prune them in February",
+     "result": "Confirmed",
+     "page_wording": "For roses, I suggest moving them after you prune them in February so you deal with less thorns.",
+     "supports_finding": "yes",
+     "note": "Recorded fragment is exact apart from the capital F and the dropped ending \"so you deal with less thorns\". January 2010 entry about moving several plants (roses, butterfly bush, herbs), Arkansas. It supports late winter and after pruning; the reason given is convenience (fewer thorns), not plant health, and the entry gives November to February as the general dormant window."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "Plant it in the ground, mulch it and water if dry and it should do well.",
+     "result": "Confirmed",
+     "page_wording": "Yes, plant it in the ground, mulch it and water if dry and it should do well.",
+     "supports_finding": "partly",
+     "note": "Recorded wording is exact apart from the leading \"Yes,\" and capital P. But the November 2012 entry is about planting out a pot-grown Knock Out rose raised from a cutting, not about moving an established rose, and \"water if dry\" is weaker than \"watered well and kept watered until it recovers\". It is thin support for AF-33. The August 2007 entry (about moved rose bushes) was reported to say \"water well, and mulch\" and \"Monitor the plant this winter\", which fits the finding better but was not the quotation recorded."
+    }
+   ],
+   "contradictions": [
+    "September 2012 entry (as reported): \"prune as little as possible to make the move feasible\" and heavy autumn pruning makes roses more susceptible to winter damage; this qualifies \"most sources cut back top growth before moving\" for autumn moves.",
+    "All advice is for Arkansas (mild-winter southern US); February pruning and moving dates are regional."
+   ]
+  },
+  {
+   "code": "KINGS",
+   "url": "https://www.kings.co.nz/growing-guides/roses",
+   "final_url": "https://www.kings.co.nz/growing-guides/roses",
+   "opened": true,
+   "page_date": "not shown (only related-article dates of 2021 appear)",
+   "checks": [
+    {
+     "finding": "AF-24",
+     "recorded": "Firm the soil down gently and water in well with Aquaticus Organic Garden Booster.",
+     "result": "Confirmed",
+     "page_wording": "Firm the soil down gently and water in well with Aquaticus Organic Garden Booster.",
+     "supports_finding": "yes",
+     "note": "Word for word, under the heading \"Plant\". The steps begin \"Gently tap the plant out of its pot\", so it is about planting a potted rose in the garden; the same sentence is repeated in the section on planting in containers. The watering-in is tied to a named product sold by the garden centre. Bare-root roses are not addressed in this section."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "code": "PALM-G",
+   "url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
+   "final_url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
+   "opened": true,
+   "page_date": "not shown (copyright 2026 only)",
+   "checks": [
+    {
+     "finding": "AF-24",
+     "recorded": "Firm down and water thoroughly.",
+     "result": "Confirmed",
+     "page_wording": "Firm down and water thoroughly.",
+     "supports_finding": "yes",
+     "note": "Word for word, under the heading \"Container grown roses\", which is about planting a nursery-pot rose into the garden (\"Fill to top of hole. Firm down and water thoroughly.\"). The page does not mention bare-root roses at all, so support is for potted roses only. The page also says \"Regular watering will be required to get plants established.\""
+    }
+   ],
+   "contradictions": [
+    "The page says \"Container grown roses can be planted in your garden at any time of the year\" but also \"The best planting time for all rose varieties is from winter through to spring\" (not part of AF-24, but relevant to planting-time findings)."
+   ]
+  },
+  {
+   "code": "RHS-PL",
+   "url": "https://www.rhs.org.uk/plants/roses/planting",
+   "final_url": "https://www.rhs.org.uk/plants/roses/planting",
+   "opened": true,
+   "page_date": "not shown (copyright 2026 only)",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "Avoid planting in the middle of winter when the ground is frozen",
+     "result": "Confirmed",
+     "page_wording": "Avoid planting in the middle of winter when the ground is frozen.",
+     "supports_finding": "partly",
+     "note": "Word for word, in the bare-root roses part of the page. On its own it is only the frozen-ground caveat. The UK timing in AF-1 is carried by the sentence before it: \"Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.\" The page says nothing about New Zealand or Australia, so that part of AF-1 is not supported here."
+    }
+   ],
+   "contradictions": [
+    "The RHS wording gives two windows (late autumn at leaf fall; late winter to early spring) and tells the gardener to avoid midwinter when the ground is frozen, so \"late autumn to early spring\" as one unbroken season slightly overstates it."
+   ]
+  },
+  {
+   "code": "RSNSW-G",
+   "url": "https://nsw.rose.org.au/growing-roses",
+   "final_url": "https://nsw.rose.org.au/growing-roses",
+   "opened": true,
+   "page_date": "not shown (copyright 2026 only)",
+   "checks": [
+    {
+     "finding": "AF-5",
+     "recorded": "providing the roots are kept moist, for up to 14 days",
+     "result": "Confirmed",
+     "page_wording": "...can be stored in their transport packaging, providing the roots are kept moist, for up to 14 days.",
+     "supports_finding": "partly",
+     "note": "Recorded fragment is word for word; the full sentence begins \"They are cheaper to buy than potted roses, are quick and easy to transport and\". It is about storing bare-root roses before planting. It supports keeping the roots moist. It does not support \"planted promptly\": the page nowhere says as soon as possible, immediately or promptly, and instead allows up to 14 days in the packaging."
+    }
+   ],
+   "contradictions": [
+    "Qualifies AF-5: bare-root roses \"can be stored in their transport packaging ... for up to 14 days\" if roots are kept moist; the page also says to soak them in water for 24 hours before planting."
+   ]
+  },
+  {
+   "code": "GA-MAG",
+   "url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+   "final_url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+   "opened": true,
+   "page_date": "9 April 2024 (author Loren Desbruslais; reader also reported \"last modified 4 September 2025\")",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "Shrub roses are usually planted about 1m apart",
+     "result": "Confirmed",
+     "page_wording": "Small or miniature rose varieties are often at their best in containers, while shrub roses are usually planted about 1m apart.",
+     "supports_finding": "partly",
+     "note": "The recorded words are on the page but as the second half of a longer sentence, not a sentence of their own (so lower-case \"shrub\"); it sits under \"How to plant roses\". One answer presented it as a separate sentence and a later answer quoting the whole paragraph showed it is a clause; I report the paragraph version. It supports only the 1 m upper figure, for \"shrub roses\". The page does not say spacing depends on mature size and gives no 50 cm spacing; its stated reason is air circulation, \"especially in humid climates\"."
+    }
+   ],
+   "contradictions": [
+    "The other distances on the page (40-50cm+ container diameter; hole 60cm wide and 30cm deep) are not plant spacings and must not be read as such."
+   ]
+  },
+  {
+   "code": "ABG",
+   "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+   "final_url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+   "opened": true,
+   "page_date": "not shown (linked brochures reported as dated 2018)",
+   "checks": [
+    {
+     "finding": "AF-7",
+     "recorded": "add compost before planting and gypsum to particularly heavy soils, like clay",
+     "result": "Confirmed",
+     "page_wording": "In heavy soils add compost before planting and gypsum to particularly heavy soils, like clay.",
+     "supports_finding": "partly",
+     "note": "Recorded fragment is word for word; the sentence opens \"In heavy soils\", under \"How to plant\". The same section says roses \"should be sheltered from strong winds and have good drainage\", which supports the drainage half (the page does not use the words \"well-drained\"). The page does not mention raised beds or mounds; its remedy for heavy soil is compost and gypsum."
+    },
+    {
+     "finding": "AF-4",
+     "recorded": "Planting is best done in autumn or winter",
+     "result": "Confirmed",
+     "page_wording": "Planting is best done in autumn or winter.",
+     "supports_finding": "no",
+     "note": "Word for word, under \"How to plant\". It does not say container roses can be planted through most of the year; the page gives no other planting time and does not mention bare-root roses. The next sentence (\"Always plant at the same depth as they are in their container\") shows the advice is about container-grown plants, so the page narrows planting to autumn or winter and can serve AF-4 only as a qualifying condition, not as support."
+    }
+   ],
+   "contradictions": [
+    "\"Planting is best done in autumn or winter\" (said of roses planted from containers) qualifies AF-4's \"through most of the year\".",
+    "For heavy soil the page recommends compost and gypsum, not raised beds or mounds (AF-7)."
+   ]
+  },
+  {
+   "code": "MU",
+   "url": "https://extension.missouri.edu/publications/g6600",
+   "final_url": "https://extension.missouri.edu/publications/g6600",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-3",
+     "recorded": "Where temperatures don't drop below -10 degrees Fahrenheit, either fall or spring planting is satisfactory",
+     "result": "Confirmed",
+     "page_wording": "Where temperatures don't drop below -10 degrees Fahrenheit, either fall or spring planting is satisfactory.",
+     "supports_finding": "partly",
+     "note": "Word for word, under the heading \"Planting roses\" (general planting time, not limited to bare-root). The recorded sentence itself says either season is satisfactory in milder areas; the cold-winter spring preference in AF-3 is in the next sentence, which was not recorded: \"If you live in an area where winter temperatures dip below -10 degrees Fahrenheit, spring planting is preferred.\" The RHS half of AF-3 is not on this page."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "If they are too large for the hole, don't cut them off",
+     "result": "Confirmed",
+     "page_wording": "If they are too large for the hole, don't cut them off.",
+     "supports_finding": "no",
+     "note": "Word for word, under \"Planting bare-root roses\"; \"they\" are the roots, and the next sentence is \"Replace the plant and dig a larger hole.\" This is advice NOT to cut healthy roots to fit the hole. The reader found no sentence on the page about trimming damaged or broken roots, so the quotation does not support AF-19; it is a qualifier (do not shorten sound roots). The reader gave two different versions of the sentence just before it (\"Remove the plant from bucket or wrapping for prompt planting.\" and \"Don't allow roots to dry.\"), so the exact preceding sentence is uncertain."
+    }
+   ],
+   "contradictions": [
+    "AF-19: the page says not to cut off roots that are too large for the hole (dig a bigger hole instead) and has no instruction to trim damaged roots.",
+    "AF-3: in areas that do not fall below -10F the page treats fall and spring planting as equally satisfactory, so the spring preference applies only to the coldest areas.",
+    "Bud-union depth on this page varies by region: slightly below soil level in southeast Missouri, 2 inches below in northern Missouri."
+   ]
+  },
+  {
+   "code": "UW-PAL",
+   "url": "https://depts.washington.edu/hortlib/pal/transplanting-roses",
+   "final_url": "https://depts.washington.edu/hortlib/pal/transplanting-roses",
+   "opened": true,
+   "page_date": "not shown for the answer; the book quoted is dated 1989",
+   "checks": [
+    {
+     "finding": "AF-33",
+     "recorded": "Fill in with topsoil, make a ridge of soil around the base of the plant, and water well.",
+     "result": "Confirmed",
+     "page_wording": "Fill in with topsoil, make a ridge of soil around the base of the plant, and water well.",
+     "supports_finding": "partly",
+     "note": "Word for word; about replanting an established rose that is being moved (from under a tree), with spring preferred and early spring or late fall both acceptable. The advice is quoted from \"Roses: 1001 Gardening Questions Answered\" (Garden Way Publishing, 1989), not the library's own. It supports watering well at replanting. For afterwards the page says only \"Afterwards, water carefully, neither too much nor too little\", with nothing about continuing until the rose recovers."
+    }
+   ],
+   "contradictions": [
+    "After the initial watering the page counsels moderation (\"neither too much nor too little\"), which tempers \"kept watered\".",
+    "The page says to prune before moving, \"leaving three to four canes\", and to dig a trench one foot from the crown; it does not mention keeping a ball of soil."
+   ]
+  },
+  {
+   "code": "TRE-T",
+   "url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
+   "final_url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
+   "opened": true,
+   "page_date": "not shown (footer copyright 2023-2024 only)",
+   "checks": [
+    {
+     "finding": "AF-30",
+     "recorded": "Keep as much soil around the roots as possible",
+     "result": "Confirmed",
+     "page_wording": "When lifting the plant from the ground, make sure you keep as much soil around the roots as possible - the more the better.",
+     "supports_finding": "partly",
+     "note": "The recorded words are in this sentence (lower-case \"keep\"). One answer gave a shorter version of the sentence; when asked for it character for character the reader gave the wording shown. It sits under \"Transplanting during the growing season\" only. For a dormant (winter) move the same page says the opposite, so it supports AF-30 only for growing-season moves."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "(what does the page say to do with the soil on the roots when moving a rose in winter dormancy? quote it)",
+     "result": "Confirmed",
+     "page_wording": "Reach down and pull the rose out by the base of the plant, giving it a shake to release the soil form the roots.",
+     "supports_finding": "no",
+     "note": "The page answers the question under \"Dormant Transplanting\": the soil is shaken off (\"form\" is the page's typo for \"from\"), then \"Place the rose roots into a bucket of plain water\" and \"You can then plant as a bare root rose in the new location.\" The digging circle is \"about 45cm in diameter\". This contradicts AF-30 for dormant moves: no soil is kept and the root ball is not maximised."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "Back fill the hole and water in well.",
+     "result": "Confirmed",
+     "page_wording": "Back fill the hole and water in well.",
+     "supports_finding": "partly",
+     "note": "Word for word, once only, under \"Transplanting during the growing season\". The same section adds \"Your plant may wilt a bit or just sit for a few weeks once in its new location but if kept moist it will recover\", so the growing-season section supports the whole of AF-33. The \"Dormant Transplanting\" section, as read, has no sentence about watering after replanting, so support is limited to growing-season moves."
+    }
+   ],
+   "contradictions": [
+    "AF-30: for winter-dormant moves the page says to shake the soil off the roots and replant as a bare-root rose; keeping soil applies only in the growing season.",
+    "For growing-season moves the page says \"Prune to at least half of its size\"; the dormant move is done after the winter prune."
+   ]
+  }
+ ]
+}

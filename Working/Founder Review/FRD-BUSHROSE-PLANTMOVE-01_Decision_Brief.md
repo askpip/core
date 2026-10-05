@@ -1,5 +1,7 @@
 # Decision Brief — Planting a New Bush Rose and Moving an Established One
 
+> **Replaced, 5 October 2026.** Under the one-approval trial a Founder reads `PKR-CGD-BUSHROSE-PLANTMOVE-01_Pips_Answers.md` and fills in its one-question form. This Brief and its Review Form are no longer used. The Brief describes the findings before the Build Check corrected them (dossier section 11). It is kept as a record.
+
 This is the plain-language companion to `FRD-BUSHROSE-PLANTMOVE-01`. It adds no evidence, changes no finding and changes no confidence level. If the Brief and the FRD differ, the FRD governs.
 
 ## 1. What you are being asked to do

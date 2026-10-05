@@ -7,7 +7,7 @@
 | Dossier Identifier | `FRD-BUSHROSE-PLANTMOVE-01` |
 | Title | Founder Review Dossier — Planting a New Bush Rose and Moving an Established One |
 | Commission Reference | `BUSHROSE-PLANTMOVE`; Research Commission Record `Working/AI Outputs/Research_Commission_Record_Planting_and_Moving.md` (v0.1, authorised 1 October 2026) |
-| Status | Submitted for Founder review |
+| Status | Submitted for Founder review. **Revised 5 October 2026** after the Build Check: §11 added. Where §11 differs from §1 and §6 to §10, §11 governs. |
 | Preparer | Claude, acting in the ROC role |
 | Date | 1 October 2026 |
 | Governing Standards | Founder Review Dossier Standard (FRDS) v1.3; Evidence Assessment Standard (EAS) v1.4; ROC Operations Manual v2.9 |
@@ -425,6 +425,131 @@ The options are listed for each decision. The ROC recommendation is labelled as 
    - *ROC recommendation:* (a), given New Zealand is the priority market.
 
 7. **Accept the recommended defaults in R-1 to R-4, or commission any of them?**
+
+---
+
+## 11. Corrections from the Build Check (5 October 2026)
+
+Under the one-approval trial (`Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md` §1A), the Build Check was run before this dossier went to a Founder, and what it found is corrected here first. **Where this section differs from §1 and §6 to §10, this section governs.** §2 to §5 and the quotations in §7 are unchanged.
+
+### 11.1 What the check found
+
+All 34 sources relied on were reopened on 5 October 2026, in sessions that took no part in the research. Each of the 213 recorded quotations was looked for on its page: 206 were found word for word and 7 with small differences of wording that do not change the meaning. None was missing and no page failed to open. 145 fully support the finding they were recorded against, 60 support part of it and 7 do not support it. A further 26 sentences that the checkers reported from the same pages were then confirmed and added to the Source Register. The results are in `Working/AI Outputs/Build_Check_PLANTMOVE_sources_2026-10-05.json`.
+
+So the quotations are sound. In the findings below, the wording said more than the sources do.
+
+### 11.2 Wording or level corrected
+
+| Finding | As submitted | Corrected | Why |
+|---|---|---|---|
+| AF-3 | Cold-winter US extension sources prefer spring for bare-root planting; the RHS gives late autumn or late winter to early spring (Moderate) | Cold-winter US extension sources prefer or require spring for bare-root planting; the RHS gives late autumn or late winter to early spring (**Moderate**) | Only MU gives cold as the reason. MU prefers spring only where winters fall below -10 °F; elsewhere it says autumn or spring is satisfactory. ISU says bare-root shrubs must be planted in spring. |
+| AF-4 | Container (potted) roses can be planted through most of the year, with conditions (High) | Container (potted) roses can be planted outside the bare-root season: all year in UK and New Zealand sources, through the growing season in two US extension sources (**High**) | Only RHS-PL attaches conditions to all-year planting (ground neither frozen nor very dry). CSU and MU limit it to the growing season, CSU once the last killing frost has passed. NZRS-FAQ covers spring and summer, with watering. Two New Zealand pages still give a best season: ABG autumn or winter, PALM-G winter through spring. High is kept for the claim that a potted rose has a longer planting season than a bare-root one, on which six sources agree. |
+| AF-5 | Bare-root roses are planted promptly, and their roots are not allowed to dry out (High) | Bare-root roses are planted soon after they are received, and their roots are not allowed to dry out; three sources describe storing them first, for two to three weeks where a time is given (**Moderate**, was High) | No single recorded quotation carried both halves. Planting soon: YAT-NZ, GA-2019, ISU. Roots not drying out: GA-2014P, ISU. AMORE also says to plant as soon as possible. Storage conditions differ: DA-BR up to three weeks in a cool, dry place; RSNSW-G up to 14 days with the roots kept moist; ISU cool and not freezing, with no time given. The NZRS-FAQ quotation is about choosing a plant and does not support the finding. Two ISU sentences were added to the record at the check. |
+| AF-7 | Roses need well-drained soil; raised beds or mounds are suggested where soil is heavy or drains poorly (High) | Roses need well-drained soil; for heavy soil, four sources suggest raised beds or mounds and four suggest gypsum, two of them with compost (**High**) | Raised beds or mounds: MU, KINGS, PALM-G, GA-MAG. Gypsum: ABG, RSSA, YAT-NZ, KINGS; ABG and RSSA add compost. ABG's and KINGS's sentences on this are recorded quotations; the others were read at the check. CSU suggests a larger hole for compacted soil. High rests on the need for drainage. |
+| AF-9 | Spacing depends on the rose's mature size; stated distances for bush roses fall roughly between 50 cm and 1 m (Moderate) | Spacing depends on the rose's type and habit; stated distances run from about 50 cm to 1 m, and the one given for hybrid teas is 75 to 90 cm (**Moderate**) | RHS-PL gives no distance. Only MU's 75 to 90 cm is said of a bush rose (hybrid teas, in most of Missouri). AMORE's 60 to 100 cm covers several rose types. FG-SP's 50 to 75 cm is the author's own close planting of garden roses. |
+| AF-13 | Sources give different remedies: replace the soil (by differing amounts), plant elsewhere, rotate with other plants, or add compost and mycorrhizal fungi (Moderate) | Sources give different remedies: replace the soil with soil from another part of the garden (by differing amounts), plant elsewhere, or add compost and mycorrhizal fungi; commercial nurseries are reported to rotate with other plants (**Moderate**) | ARS-RRD describes rotation as a practice of commercial nurseries in Germany, not advice for gardeners. RHS-RD, read at the check, also lists a cardboard-box lining, high-nitrogen fertiliser, tolerant rootstocks, and mycorrhizal products with organic matter alongside the soil swap; these are not recorded quotations. DA-MOVE says to replace the soil and add well-rotted manure or soil improver. No source compares the remedies (R-3). |
+| AF-23 | A potted rose is planted at the same depth it grew in its container (Moderate) | A rose is planted at the depth it grew before: a potted rose at its container depth, and in one source a bare-root rose to its soil mark (**Moderate**) | Potted roses: ABG and KINGS, both New Zealand. GA-MAG's sentence is about a bare-root rose. Moderate is kept for the shared principle, which three voices give; the potted-rose part alone has two. For a grafted rose this sits beside the bud-union advice (AF-20 to AF-22), which is why the bare-root half is not used on its own. |
+| AF-27 | Some sources describe moving a rose outside dormancy, with more pruning or more watering (Moderate) | Some sources describe moving a rose in the growing season, with extra watering; they differ on whether to cut it back first (**Moderate**) | AE-T, TRE-T, HEIR and DA-MOVE describe it; UAEX says it of plants in general. TRE-T prunes to at least half; AE-T says there is no need to prune first; UAEX says to avoid pruning for an autumn move. The HEIR quotation first recorded was about choosing a spot; the supporting sentence was recorded at the check. |
+| AF-29 | Most sources cut back top growth before moving; the amount varies, and two sources say not to prune hard or not to prune first (Moderate) | Most sources cut back top growth before moving a dormant rose; the amount varies, and three sources say not to prune first or not to prune hard, none of them about an ordinary winter move (**Moderate**) | AE-T is a summer move and UAEX an autumn move. RHS-MOVE's 'do not prune hard' is year-ahead preparation of mature trees and shrubs. TRE-T's 'at least half' is for growing-season moves; its dormant moves follow the normal winter prune. |
+| AF-30 | Dig as large a root ball as practicable, keeping as many roots and as much soil as possible (High) | Dig widely and keep as much of the root system as possible; sources differ on whether to keep the soil on the roots (C-10, added at the check) (**Moderate**, was High) | Six sources support keeping the roots: KINGS, TRE-T, HEIR, DA-MOVE, NRS-T and AE-T; four are commercial or one rosarian's account. None but KINGS says 'as large a root ball as you can manage'. Keeping the soil is not supported: for a dormant move TRE-T shakes the soil off and UW-PAL removes it; TRE-T keeps the soil only for a growing-season move. TUI-Q and UW-PAL give a fixed digging distance only. |
+
+### 11.3 Limitations added
+
+Wording and Evidence Confidence Level are unchanged.
+
+| Finding | Limitation added |
+|---|---|
+| AF-1 | Three New Zealand sources (NZRS-FAQ, KINGS, PALM-G) say winter of roses in general, not of bare-root roses. RSNSW-G says only that bare-root roses are sold in winter. RHS-PL adds not to plant in mid-winter when the ground is frozen. |
+| AF-2 | May rests on GA-MAG alone; RSNSW-CAL and RSSA name June and July. PALM-G says winter into spring and names no month; June in New Zealand is KINGS alone. ABG, said of container plants, says planting is best done in autumn or winter. |
+| AF-6 | ABG, KINGS and YAT-NZ say full sun or a sunny spot and give no hours. PALM-G adds that roses are fine with some afternoon shade. |
+| AF-11 | RHS-PL only names the risk. FG-RRD reports the poor-growth claim second-hand and says opinion is divided. |
+| AF-12 | RHS-RD gives a leading explanation, a build-up of soil pests and pathogens. ARS-RRD (2013) reports research pointing to a soil-borne factor. |
+| AF-14 | Said of replant disease generally, not of roses. |
+| AF-15 | RSSA and CSU give a hole size without saying it is wider than the roots. |
+| AF-16 | The four pages that fully support it are Australian, and are three voices. PALM-G's mound is for a container-grown rose and UW-PAL's for a rose being replanted after a move. |
+| AF-17 | CSU soaks only if the plants appear dry when received. |
+| AF-18 | GA-MAG says 'several hours'. The two Rose Society of NSW pages differ from each other. ISU gives no maximum. |
+| AF-19 | Supported for planting by ISU, GA-MAG and YAT-NZ (added at the check). NRS-T says it of a rose being moved. GA-2019 describes a different practice, cutting the whole root system back by a third, and does not support the finding. MU says not to cut off roots that are too large for the hole. |
+| AF-20 | DA-BR states its below-soil depth only for roses planted in pots. DA-MOVE, also UK, replants a moved rose with the union about 2 inches below soil level. |
+| AF-21 | AMORE speaks of the 'crown', not the bud union, and says a long shank is buried. |
+| AF-22 | The finding holds two claims. The cold-winter link rests on US extension sources and is Moderate. The RHS advice against burying rests on one organisation, and Pip uses it only as one side of the UK disagreement. DA-BR and DA-MOVE, both UK, bury the union and give no reason. CSU buries the union and gives no reason. OSU-AE also gives steadying against wind rock as a reason, and disease at the graft as the risk in mild climates. ISU's reason is in a sentence added at the check. |
+| AF-24 | For KINGS and PALM-G the sentence first recorded was general watering advice; the planting-step sentences that support the finding were recorded at the check. |
+| AF-26 | TUI-T says roses readily transplant in winter. UW-PAL says early spring or late autumn and prefers spring. UAEX's sentence is about hardy plants in general. HEIR says the dormant season in early spring. |
+| AF-28 | NRS-T gives two timings that do not quite agree. PALM-FAQ says after pruning in July and also once the risk of frost has passed. Used only as a local month for New Zealand from one garden company (rule 4). |
+| AF-31 | DA-MOVE gives no figure, only 'at least a spade's width'. TUI-Q's rose is being moved into a container. |
+| AF-32 | Keeping roots moist is TRE-T only; watering the day before is NRS-T only. |
+| AF-33 | High is kept because ten voices water at replanting and the RHS supports the whole finding. Six sources support it in full (RHS-MOVE, HEIR, DA-MOVE, KINGS, NRS-T, AE-T). TUI-T, TUI-Q, UW-PAL and PALM-FAQ support watering at replanting only. TRE-T's sentence is for growing-season moves. The UAEX quotation is about a newly planted rose and does not support the finding. |
+| AF-34 | RHS-MOVE says Rosa resents root disturbance and can be tricky to move at any age; its five-year figure is for trees and shrubs in general. Used as a precaution (rule 7). |
+| AF-35 | NRS-T's success is with roses that are dormant or going dormant. |
+
+### 11.4 Sources and quotations
+
+**No longer relied on for a finding.** The quotation is on the page but does not support the finding.
+
+- AF-5, NZRS-FAQ: the sentence is about choosing a plant by its canes.
+- AF-19, GA-2019: it describes cutting the whole root system back by a third, a different practice.
+- AF-30, TUI-Q: it gives a fixed digging distance only; it still supports AF-31.
+- AF-33, UAEX: the sentence is about a newly planted rose.
+
+**Added for a finding,** from sentences confirmed at the check: AF-5, RSNSW-G; AF-9, GA-MAG; AF-19, YAT-NZ; AF-20, DA-MOVE; AF-27, DA-MOVE; AF-29, UAEX.
+
+**Quotations whose wording differed slightly from the page** are corrected in the Source Register to the page's wording: ISU (AF-20, AF-22), RSSA (AF-20, AF-21), YAT-NZ (AF-4) and GA-2019 (AF-20, AF-21).
+
+**Source descriptions.** UAEX carries an entry dated 28 April 2018, later than the 2007 to 2014 recorded in §4.1. OSU-AE's page does not name Oregon State University in its text; the institution shows through its linked addresses. The Fine Gardening replant article is signed "Paul" and its byline shows an email address.
+
+### 11.5 A conflict added
+
+**C-10 — Soil on the roots when moving (AF-30).** For a dormant move TRE-T shakes the soil off the roots and replants the rose as a bare-root rose, and UW-PAL removes the soil around the plant. KINGS: "dig out as large a root ball as you can manage." For a move in the growing season TRE-T says to keep as much soil around the roots as possible. Unresolved.
+
+### 11.6 What Pip may use
+
+Set by the Pip Knowledge Rules §3 from each finding's Evidence Confidence Level as corrected.
+
+| Finding | Subject | Evidence Confidence Level | Use |
+|---|---|---|---|
+| AF-1 | Bare-root roses are planted while dormant: late autumn to early spring in the UK, winter in New Zealand and Australia | High | Available to Pip |
+| AF-2 | Australian sources name May to July or June to July; New Zealand sources say winter, with stock from June and planting into spring | Moderate | Available to Pip |
+| AF-3 | Cold-winter US extension sources prefer or require spring for bare-root planting; the RHS gives late autumn or late winter to early spring | Moderate | Available to Pip |
+| AF-4 | Container (potted) roses can be planted outside the bare-root season: all year in UK and New Zealand sources, through the growing season in two US extension sources | High | Available to Pip |
+| AF-5 | Bare-root roses are planted soon after they are received, and their roots are not allowed to dry out; three sources describe storing them first, for two to three weeks where a time is given | Moderate | Available to Pip |
+| AF-6 | Roses need a sunny site; stated minimums range from four to six hours of direct sun a day | High | Available to Pip |
+| AF-7 | Roses need well-drained soil; for heavy soil, four sources suggest raised beds or mounds and four suggest gypsum, two of them with compost | High | Available to Pip |
+| AF-8 | Avoid competition from the roots of nearby trees and shrubs | Moderate | Available to Pip |
+| AF-9 | Spacing depends on the rose's type and habit; stated distances run from about 50 cm to 1 m, and the one given for hybrid teas is 75 to 90 cm | Moderate | Available to Pip |
+| AF-10 | One source gives air circulation as the reason for spacing; another questions that reason | Low | On record only |
+| AF-11 | New roses planted where roses grew before may establish and grow poorly ("replant disease", "rose sickness") | Moderate | Available to Pip |
+| AF-12 | The cause of rose replant disease is not established | Moderate | Not used: does not help a gardener (Pip Knowledge Rules §1) |
+| AF-13 | Sources give different remedies: replace the soil with soil from another part of the garden (by differing amounts), plant elsewhere, or add compost and mycorrhizal fungi; commercial nurseries are reported to rotate with other plants | Moderate | Available to Pip |
+| AF-14 | One source states replant disease can persist for at least nine years | Low | On record only |
+| AF-15 | The planting hole is wider than the roots; stated sizes vary | Moderate | Available to Pip |
+| AF-16 | Bare roots are spread over a mound of soil in the bottom of the hole | Moderate | Available to Pip |
+| AF-17 | Bare roots are soaked in water before planting | High | Available to Pip |
+| AF-18 | Stated soaking times range from one hour to 24 hours; two US extension sources set 24 hours as the limit | Moderate | Available to Pip |
+| AF-19 | Damaged or broken roots are trimmed at planting | Moderate | Available to Pip |
+| AF-20 | Recommended bud-union depth differs: above the soil, at soil level, or below it | High | Available to Pip |
+| AF-21 | New Zealand and Australian sources that state a depth put the bud union at or above soil level | Moderate | Available to Pip |
+| AF-22 | Burying the bud union is linked to cold winters; the RHS advises against burying it because of reported dieback risk | Moderate | Available to Pip |
+| AF-23 | A rose is planted at the depth it grew before: a potted rose at its container depth, and in one source a bare-root rose to its soil mark | Moderate | Available to Pip |
+| AF-24 | A newly planted rose is watered in thoroughly | High | Available to Pip |
+| AF-25 | Sources differ on pruning at planting | Moderate | Available to Pip |
+| AF-26 | The best time to move an established rose is while it is dormant | High | Available to Pip |
+| AF-27 | Some sources describe moving a rose in the growing season, with extra watering; they differ on whether to cut it back first | Moderate | Available to Pip |
+| AF-28 | Within the dormant season, some sources favour late winter, after pruning, or after frosts | Low | Available to Pip in New Zealand, as a local month from one garden company (rule 4) |
+| AF-29 | Most sources cut back top growth before moving a dormant rose; the amount varies, and three sources say not to prune first or not to prune hard, none of them about an ordinary winter move | Moderate | Available to Pip |
+| AF-30 | Dig widely and keep as much of the root system as possible; sources differ on whether to keep the soil on the roots (C-10, added at the check) | Moderate | Available to Pip |
+| AF-31 | Stated digging distances range from about 25 cm to 60 cm from or across the plant | Moderate | Available to Pip |
+| AF-32 | Roots are kept moist during the move, and one source waters the day before | Low | Available to Pip, as a precaution (rule 7) |
+| AF-33 | A moved rose is watered well and kept watered until it recovers | High | Available to Pip |
+| AF-34 | Older, long-settled roses are described as harder to move; no rose-specific age limit is given | Low | Available to Pip, as a precaution (rule 7) |
+| AF-35 | Two sources describe moving roses as forgiving or report high success | Low | On record only |
+| AF-36 | One source says to replace the soil if a rose is moved to a spot where a rose grew | Low | On record only |
+| AF-37 | No source consulted gives success rates or odds for moving a rose | Low | Available to Pip only to say there is a gap (rule 5) |
+
+Of the 37 findings, 28 are available to Pip without condition, 1 in New Zealand only, 2 as precautions and 1 to say there is a gap. 4 are on record only and 1 is not used because it does not help a gardener.
+
+### 11.7 Decision points in §10
+
+The Pip Knowledge Rules and the standing decisions now settle decision points 2 to 7 of §10 without a Founder decision: planting and moving belong in Pip where the research provides it (standing decision, 5 October 2026); disagreement, ranges, local information and gaps are handled by rules 2 to 5. One decision remains, and it is asked on the Pip's Answers Form: approval of Pip's answers, which also approves these findings as corrected for an Approved Research Compilation.
 
 ---
 
