@@ -2,8 +2,9 @@ import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PipSitting } from '@/components/PipAvatar'
 import { PIP_SITTING_FRAME } from '@/components/pipSittingFrame'
-import { ConfidenceTag, SourcesLink } from '@/components/PkrStatements'
-import { HOME_QUESTIONS, questionsFor, type CommonQuestion, type QuestionKey } from '@/data/commonQuestions'
+import { SourcesLink, StatementLimit, StatementTag } from '@/components/PkrStatements'
+import { HOME_QUESTIONS, questionByKey, questionsFor, type BuiltInKey, type CommonQuestion, type QuestionKey } from '@/data/commonQuestions'
+import { shownIn, type CountryCode } from '@/lib/place'
 import { supabase } from '@/lib/supabase'
 import { cn } from '@/lib/utils'
 
@@ -25,7 +26,7 @@ const HEADING_CLEARANCE = Math.round(PIP_RIGHT + PIP_WIDTH - (PIP_SITTING_FRAME.
  * shows the same one wherever it is opened. When he can't answer yet, his hands stay down.
  */
 function pipGestures(q: CommonQuestion): boolean {
-  return !q.pending && HOME_QUESTIONS.indexOf(q.key) % 2 === 0
+  return !q.pending && HOME_QUESTIONS.indexOf(q.key as BuiltInKey) % 2 === 0
 }
 
 /**
@@ -40,6 +41,7 @@ export function CommonQuestions({
   initialVisible,
   className,
   plantId,
+  countryCode,
 }: {
   keys: QuestionKey[]
   title?: string
@@ -48,6 +50,11 @@ export function CommonQuestions({
   className?: string
   /** When shown on a plant's page: lets an answer open that plant's growing-season check. */
   plantId?: string
+  /**
+   * The country the plant is in, when known. Statements marked for certain countries are shown
+   * only there (Pip Knowledge Rules, rule 4). Left out, or unknown, they are not shown.
+   */
+  countryCode?: CountryCode
 }) {
   const navigate = useNavigate()
   const questions = questionsFor(keys)
@@ -65,7 +72,10 @@ export function CommonQuestions({
   if (questions.length === 0) return null
 
   const visible = initialVisible && !showAll ? questions.slice(0, initialVisible) : questions
-  const current = questions.find((q) => q.key === open)
+  // A topic's follow-up answers ("More about spraying") aren't in the list of chips, so look wider.
+  const current = open ? (questions.find((q) => q.key === open) ?? questionByKey(open)) : undefined
+  const shown = current ? current.statements.filter((s) => shownIn(s.place, countryCode)) : []
+  const heldBack = current ? current.statements.length - shown.length : 0
 
   function choose(q: CommonQuestion) {
     const next = open === q.key ? null : q.key
@@ -133,14 +143,38 @@ export function CommonQuestions({
             <>
               {current.lead && <p className="mb-2 text-sm text-pip-text-soft">{current.lead}</p>}
               <ul className="flex flex-col gap-1.5">
-                {current.statements.map((s) => (
+                {shown.map((s) => (
                   <li key={s.text} className="rounded-xl bg-pip-bg px-3.5 py-2.5 text-sm leading-relaxed">
                     {s.text}
-                    <ConfidenceTag level={s.confidence} />
+                    <StatementTag statement={s} />
+                    <StatementLimit statement={s} />
                   </li>
                 ))}
               </ul>
+              {heldBack > 0 && !countryCode && (
+                <p className="mt-2 text-xs text-pip-text-soft">
+                  {plantId
+                    ? "Some of this answer is only for certain countries. I can't tell which country this rose is in, so I've left those parts out."
+                    : "Some of this answer is only for certain countries. Open this question from your rose's page to see what applies where it grows."}
+                </p>
+              )}
               <SourcesLink pkrIds={current.pkrIds} />
+              {current.more && (
+                <div className="mt-3">
+                  <p className="mb-1.5 text-xs font-bold uppercase tracking-wide text-pip-text-soft">{current.more.title}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {current.more.items.map((m) => (
+                      <button
+                        key={m.key}
+                        onClick={() => setOpen(m.key)}
+                        className="min-h-11 rounded-full bg-pip-secondary px-4 py-2 text-left text-sm font-bold text-pip-primary transition-colors hover:bg-pip-secondary-hover"
+                      >
+                        {m.question}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
               {current.check && plantId && (
                 <button
                   onClick={() => navigate(`/plant/${plantId}/${current.check!.path}`)}

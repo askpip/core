@@ -11,6 +11,39 @@ export function ConfidenceTag({ level }: { level?: Statement['confidence'] }) {
   )
 }
 
+/**
+ * The chip beside a statement. An ordinary claim shows its confidence. A
+ * precaution is marked as one, so a Low level isn't read as "ignore this". A
+ * disagreement or a gap says so in place of a level, and app framing shows
+ * nothing (Pip Knowledge Rules §3A).
+ */
+export function StatementTag({ statement }: { statement: Statement }) {
+  const chip = 'ml-1.5 whitespace-nowrap rounded-full bg-pip-secondary px-2 py-0.5 text-xs font-medium text-pip-text-soft'
+  switch (statement.kind) {
+    case 'framing':
+      return null
+    case 'gap':
+      return <span className={chip}>No source found</span>
+    case 'disagreement':
+      return <span className={chip}>Sources disagree</span>
+    case 'precaution':
+      return (
+        <>
+          <span className={chip}>Precaution</span>
+          <ConfidenceTag level={statement.confidence} />
+        </>
+      )
+    default:
+      return <ConfidenceTag level={statement.confidence} />
+  }
+}
+
+/** The finding's limits, shown under its statement in smaller type. */
+export function StatementLimit({ statement }: { statement: Statement }) {
+  if (!statement.limit) return null
+  return <span className="mt-1 block text-xs leading-snug text-pip-text-soft">{statement.limit}</span>
+}
+
 export function StatementList({ items }: { items: Statement[] }) {
   return (
     <ul className="flex flex-col gap-1.5">

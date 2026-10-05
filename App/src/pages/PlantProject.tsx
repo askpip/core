@@ -12,6 +12,7 @@ import { Button } from '@/components/Button'
 import { CareBlock } from '@/components/PkrStatements'
 import { SeasonCard } from '@/components/SeasonCard'
 import { CommonQuestions } from '@/components/CommonQuestions'
+import { countryCodeFor } from '@/lib/place'
 import { HOME_QUESTIONS } from '@/data/commonQuestions'
 import { CARE_DISCLOSURE, SAVED_ROSE_TYPE_LABELS, growingSeasonObservation, publishedCare, roseTypeName, roseTypePasses } from '@/data/pkr'
 import type { CareGuidance } from '@/data/pkr'
@@ -161,7 +162,7 @@ export function PlantProject() {
           </div>
         )}
 
-        <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} plantId={project.id} />
+        <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} plantId={project.id} countryCode={countryCodeFor(project)} />
 
         <div>
           <h2 className="mb-1 text-sm font-medium">Notes</h2>

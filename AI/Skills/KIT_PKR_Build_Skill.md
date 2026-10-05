@@ -9,8 +9,8 @@ description: Build, submit and (after Founder approval) mark Published the PIP K
 
 **Document Title:** KIT PKR Build Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
-**Version:** 0.2
-**Status:** Approved — Version 0.1 approved by a Founder in chat, 1 October 2026; Version 0.2 approved by AskPIP Founder Authority, 5 October 2026
+**Version:** 0.3
+**Status:** Approved — Version 0.1 approved by a Founder in chat, 1 October 2026; Version 0.2 approved by AskPIP Founder Authority, 5 October 2026; Version 0.3 at a Founder's direction, 5 October 2026 (coverage, statement rules, question topics, Build Check rounds)
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/KIT_PKR_Build_Skill.md`
 **Last Updated:** 5 October 2026
@@ -52,6 +52,8 @@ These were set by the Founders in chat and apply until they change them.
 
 - **The Pip Knowledge Rules decide what Pip may say.** Build from findings whose Use status in the ARC is Available to Pip. Low and Very Low findings are on record only unless the rules make them available (Pip Knowledge Rules §3; ROC OM §11.4A).
 - **Build Check before the Founders.** Every package goes to ROC for the Build Check before it is presented (KIT OM Chapter 13A).
+- **Use every finding Pip may use.** Route each to a statement, or list it with the reason it was left out (KIT OM §5.3). The Founders' words: the knowledge is not to be wasted.
+- **Write each statement to the Pip Knowledge Rules §3A** (KIT OM §7.7): name a single source, show a Moderate finding's limits, make each statement stand alone, mark precautions, gaps, disagreements and local statements.
 - **Only approved content.** A PKR may contain only what approved ARCs say. Operational approval is given in chat by a Founder, and the Founders have said: "As long as they only contain content from the already approved ARCs, I approve." KIT still presents every package and waits for that approval. It is never assumed.
 - **Every source verifiable.** Every Source PKR carries a full web address and access date, or a stable identifier for an offline source (ROC OM §5.5).
 - **Never substitute a source silently.** If a register entry doesn't match an existing Source PKR (different page, edition, date or address), report it and let the Founders decide.
@@ -91,7 +93,7 @@ Set the title-line status to `(v0.1, Draft)`. The package has these sections, in
    - **Observation (§5.1):** Visual Criteria table with a confidence and "Photographable?" per signal; What the Photo Cannot Establish; Comparison Image PKR, or "documented gap"; Confirmation Requirement and Responses (Confirmed, Doesn't match, Not sure); the "any more?" question.
    - **Decision Logic (§5.3):** Available Choices and Conditions (Cut, Leave, Decide later, Get experienced local help) with per-row confidence; gate conditions; Deferral Triggers.
    - **Suitability Gate (§5.4):** Question or Check; Acceptable Answers with results; Stopping Threshold.
-   - **Care Guidance (§5.7):** Care Topic; Guidance Mode; Presentation Points; items with trace, confidence and applicability.
+   - **Care Guidance (§5.7):** Care Topic; Guidance Mode; Presentation Points; items with trace, confidence and applicability, and where they apply the limit shown, the kind (precaution, gap, disagreement, framing) and the countries the item is shown in. For question answers: the topic and the record's order in it. A subject usually needs several short question answers under one topic, with one lead question, so that every usable finding has a place. `PKR-CGD-BUSHROSE-SPRAYING-01-submission.md` is the worked example.
    - **Revisions** of published PKRs list only the changed fields and state the new version.
 3. **Wording Boundary Check** (KIT OM §7.7): how each paraphrase stays within its finding.
 4. **Remaining Dependencies and Decisions for the Founders.** Any question the ARC's §2 doesn't settle, with options and a KIT recommendation. KIT can't decide horticultural questions by inference (KIT OM §9.3).
@@ -119,7 +121,7 @@ Set the title-line status to `(v0.1, Draft)`. The package has these sections, in
    2. copy to `/mnt/user-data/outputs/…`;
    3. commit to the device (pass the expected modified-time when overwriting);
    4. list the folder and **check every file size** against your copy. A stale commit has landed before.
-2. Give the package to ROC for the Build Check. Fix anything it fails and have it rechecked.
+2. Give the package to ROC for the Build Check. Fix anything it fails, act on the notes, and have the changed statements rechecked, until nothing fails. Record each round in the package, and list any correction to the research record the check proposes.
 3. Present ROC's Build Check Brief: Pip's words with each result, what was left out, and any open decision.
 4. Ask each open decision separately, then ask for approval of the package. Ask only what the Pip Knowledge Rules §5 leave to the Founders.
 

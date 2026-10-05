@@ -9,11 +9,11 @@ description: Publish Founder-approved PKRs into the Live Intelligence Library (L
 
 **Document Title:** KIT LIL Publication Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
-**Version:** 0.1
+**Version:** 0.2
 **Status:** Approved — Approved by the Founder (Shaphan) in chat, 1 October 2026
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/KIT_LIL_Publication_Skill.md`
-**Last Updated:** 1 October 2026
+**Last Updated:** 5 October 2026
 **Purpose:** To let any AI acting as KIT move Founder-approved PKRs into the LIL correctly and verifiably, without reconstructing the procedure from past sessions.
 **Related Documents:**
 - `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md` (Chapters 16–18)
@@ -90,7 +90,7 @@ Never use it to put a Draft into the LIL. The LIL holds only Published, Suspende
 - **`content` is declarative data only** (PKR Standard §9.1): no code and no conditions beyond plain stated values. Follow the shape of the existing records of the same type; the app reads these fields by name:
   - **Observation:** `key`, `feature`, `journey_order`, `look_for`, `criteria`, `photo_limit`, the confirm, doesn't-match and not-sure texts, `any_more_question`.
   - **Decision Logic:** `choices`, `decision_notes`, `not_sure_choices`, `gate_conditions`, `cut_care_guidance`, `headline_confidence`.
-  - **Care Guidance:** `heading`, `label`, `items`, `presentation`, `disclosure`.
+  - **Care Guidance:** `heading`, `label`, `items`, `presentation`, `disclosure`. Each item is `{ "text", "confidence" }` and may also carry `limit` (shown under the statement), `kind` (`precaution`, `gap`, `disagreement` or `framing`), `place` (country codes such as `NZ`, `AU`, `US`; the item is shown only where the plant is in one of them) and `trace` (the findings, conflicts or gaps it rests on). An item of kind `gap`, `disagreement` or `framing` may have no `confidence`. A question answer that belongs to a topic carries `presentation.question_answer`: `{ "topic", "topic_title", "order" }`; order 1 is the lead question (PKR Standard §5.7, Version 0.12).
   - **Source:** `source_type`, `identity`, `url`, `register_code`, `relevance`.
 - **A new field or a new kind of content is an app change as well.** Tell the Founders and update `App/src/data/pkr.ts`. Never smuggle meaning into an existing field.
 - **Content equivalence (PKR Standard §9.3).** Every value must say what the approved Founder Review Rendering says, nothing more.

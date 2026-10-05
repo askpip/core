@@ -8,7 +8,7 @@
 
 **Folder:** 04 – Standards
 
-**Version:** 0.1
+**Version:** 0.2
 
 **Status:** Approved
 
@@ -20,7 +20,7 @@
 
 **Approved By:** AskPIP Founder Authority
 
-**Revision Note:** Version 0.1 creates this Standard. A Founder agreed the eight rules in conversation on 5 October 2026 and directed that the Knowledge Curation System's documents be altered so the rules are followed throughout research and the preparation of dossiers, briefs and forms. The same day the Founder decided the three standing decisions on where a gardener is, garden companies and local months, and planting and moving (§7).
+**Revision Note:** Version 0.2 (5 October 2026, at a Founder's direction, after the Spraying commission and the first Build Check). The eight rules are unchanged. New §3A says how the rules show in Pip's words. §6 adds what keeps the rules at commissioning, in research, at the build and in the app. §7 records three standing decisions a Founder made that day: products are named by type, exclusions are the Founders' alone, and every finding Pip may use is to reach gardeners. Version 0.1 created this Standard. A Founder agreed the eight rules in conversation on 5 October 2026 and directed that the Knowledge Curation System's documents be altered so the rules are followed throughout research and the preparation of dossiers, briefs and forms. The same day the Founder decided the three standing decisions on where a gardener is, garden companies and local months, and planting and moving (§7).
 
 **Purpose:** To state, in one place, the rules that decide what Pip may say, so that the Research Origin Curator (ROC), the Knowledge Integration Technician (KIT) and Pip apply the same rules, and the Founders are asked only what the rules cannot settle.
 
@@ -78,6 +78,19 @@ A rating measures how strong the evidence is. It does not measure how much a fin
 
 **The better-supported view (rule 2)** is the view whose findings carry the higher Evidence Confidence Levels. The evidence is evenly split only where the opposing findings carry the same level and neither has clearly more reputable, independent sources behind it.
 
+# 3A. How the Rules Show in Pip's Words
+
+These follow from the rules and from the table above. They apply to every statement Pip makes.
+
+- **Who says it (rule 1).** "Sources say" means at least two independent sources say that thing. Where one source says it, Pip names the source.
+- **Limits (the table above).** A statement from a Moderate finding is shown with the finding's limits, in plain words, with the statement.
+- **Disagreement (rule 2).** The statement names who holds each view. It is marked "Sources disagree" in place of a confidence level.
+- **Gaps (rule 5).** The statement says no source was found and points to local expert help. It is marked "No source found".
+- **Precautions (rule 7).** A precaution is marked as one, with its confidence level, so that a Low level is not read as a reason to ignore it.
+- **Local information (rule 4).** A local statement is shown only where the plant is, and names its source.
+- **Each statement stands alone.** A gardener may see one statement without its neighbours, so each makes sense by itself.
+- **Pip may say less than a finding, never more.** Where the sources say less than a finding's wording, Pip follows the sources.
+
 # 4. Reliable Sources
 
 For rule 4, a reliable source is:
@@ -113,13 +126,14 @@ A Founder may still change, exclude or question anything at any approval.
 
 | Stage | Who | What keeps the rules |
 |---|---|---|
-| Commissioning | The Founders, ROC | Scope is settled before research starts (ROC Operations Manual §3.5). |
-| Research | ROC | Sources are recorded with their web address. Each finding is rated on its own evidence. |
+| Commissioning | The Founders, ROC | Scope is settled before research starts. Only a Founder may exclude anything (ROC Operations Manual §3.5). |
+| Research | ROC | Sources are recorded with their web address. Everything a source says on the question is recorded, and checked for completeness (ROC Operations Manual §5.6A, §8.5A). Each finding says no more than its sources (§8.3) and is rated on its own evidence. |
 | Dossier | ROC | The dossier states what the rules give for each commissioned question (ROC Operations Manual §8.6A). It raises a Founder Decision Point only for a matter in section 5. |
 | Founder review | A Founder | Approves the research record. |
-| Build | KIT | Builds only from findings Pip may use, and words them without adding to them (PKR Standard §4.3). |
-| Build Check | ROC | Reopens the sources and checks every statement Pip will make against the finding and the sources (ROC Operations Manual Chapter 14). |
+| Build | KIT | Builds only from findings Pip may use, and words them without adding to them (PKR Standard §4.3). Uses every such finding, or lists it with the reason it was left out (KIT Operations Manual §5.3). |
+| Build Check | ROC | Reopens the sources and checks every statement Pip will make against the finding and against what the pages say, and rechecks until none fails (ROC Operations Manual Chapter 14). |
 | Founder approval | A Founder | Reads Pip's words with the check result, and approves them for publishing. |
+| In the app | KIT | Every published statement can be reached by a gardener: questions are grouped by topic, and local statements are shown where the plant is (PKR Standard §5.7). |
 | After publishing | ROC, KIT | Where a source changes or is shown to be wrong, the finding goes back to the sources, and Pip's words follow. |
 
 # 7. Standing Decisions
@@ -133,6 +147,9 @@ A standing decision is a Founder decision that applies to every later commission
 | **Where a gardener is.** Pip uses the device's location where the gardener allows it. Where they do not, the gardener says where the plant is, in that plant's journal entry. The place belongs to the plant, because a gardener may have plants in different places. | 5 October 2026 |
 | **Garden companies and local months.** A garden company is an acceptable source for local month advice. Pip says that only one source was found, and that months are only a guide. | 5 October 2026 |
 | **Planting and moving.** Advice on planting and on moving a plant belongs in Pip where the research provides it. | 5 October 2026 |
+| **Products.** Pip names a type of spray or other product as the sources name it. Pip never names a brand or gives a mixing amount. | 5 October 2026 |
+| **Exclusions.** Nothing is kept out of a commission unless a Founder directs it. The ROC does not write an exclusion of its own. | 5 October 2026 |
+| **Nothing wasted.** Every finding Pip may use is to reach gardeners through the app. A finding left out is listed with the reason. | 5 October 2026 |
 
 No standing decision is open.
 

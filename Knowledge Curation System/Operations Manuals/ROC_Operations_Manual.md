@@ -20,7 +20,7 @@
 ** Approved
 
 **Version:  
-** 2.10
+** 2.11
 
 **Last Updated:  
 ** 5 October 2026
@@ -30,7 +30,7 @@
 **Approved By:  
 ** AskPIP Founder Authority
 
-**Revision Note:** **Version 2.10 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, so that the Pip Knowledge Rules are followed throughout research and Founder review. §3.5 settles scope when a commission is opened. §7.4 and new §8.6A have the ROC state what the rules give, without asking the Founders to choose between views. New §10.6A requires the Decision Brief and Review Form, and §10.10 checks them. New §11.2A records that either Founder may decide alone (first directed 28 September 2026; it had not reached the repository). New §11.4A and §11.4B set which findings Pip may use and what the Founders are asked. §11.9 and §12.5 have the ARC hold every finding with its use status and its Build Check status. New Chapter 14 adds the Build Check: the ROC's check of Pip's statements against the findings and their sources, after KIT has built them and before the Founders approve them. Previous: **Version 2.9 (approved by Shaphan, AskPIP Founder Authority, 29 September 2026)**, at Shaphan's direction ("we need to be able to verify where we have got our information from on every instance"). It amends §5.5 and §12.6 and adds §12.10. §5.5 previously required a source to be recorded well enough to be "identified and retrieved in the future", but never required a web address. Five of seven bush-rose commissions (crossing/rubbing stems, inward-growing stems, damaged growth, weak/congested growth, basic care) therefore recorded no links, while two (rose type, pruning framework) did. For web pages, a title and publisher alone do not reliably let a source be retrieved and checked later. §5.5 now requires a web address and access date for every online source, or a stable identifier for offline sources. §12.6 requires every ARC to carry its own Source Register, so that source traceability survives the retirement of review-stage documents under §12.9. §12.10 sets out how ROC closes the gap for ARCs approved before this amendment, without altering any finding. Previous: Version 2.8 adds §12.9 at Shaphan's direction: once an ARC has been created from a Founder Review Dossier, the dossier, its Decision Brief, Review Form, and any superseded revisions or companion research notes are removed from the working folders they occupied during review, since the Core repository would otherwise grow without bound as every revision of every dossier stayed in place indefinitely. Documentary traceability under §12.6 is preserved through the ARC's own metadata and the Core repository's version-control history, not through retaining a live copy of a superseded working document. §12.9 applies only to Founder Review working documents; it does not authorise deletion of a Research Commission Record, underlying research or evidence records, or any ARC, which remain governed by §11.10 and Chapter 13. Version 2.7 (draft, for Founder confirmation) amends §7.7 and §10.10 at Shaphan's direction, following the Basic Bush Rose Care commission (`BUSHROSE-BASICCARE`): a first Founder Review Dossier for that commission recorded five Recommendations for Further Research, four of which turned out to need nothing but further searching within the ROC's own existing authority and scope — no Founder decision was actually required to resolve them, only a second round the Founders then had to separately commission and later review. Only the fifth (a source-availability gap for a whole region) genuinely required Founder judgement, since closing it would mean accepting a different evidentiary standard than the rest of the commission used. §7.7 now requires the ROC to attempt to resolve a candidate recommendation itself, before the dossier is finalised, unless doing so would exceed the commission's approved scope, require accepting a different evidentiary standard, or demand materially disproportionate effort; only recommendations meeting one of those tests may still be recorded as open. §10.10's quality review checklist gains a matching check. The intent is that Founder Review Dossiers arrive at Founder Review closer to their final, decidable state, and that "Recommendations for Further Research" comes to mean "this needs your judgement," not "we didn't get to this yet." Version 2.6 adds §8.4A, implementing Evidence Assessment Standard v1.4 §2.10 at Founder direction: where the ROC identifies a relationship or interaction between findings that the available evidence does not itself state — the ROC's own reasoned synthesis — it is not proposed for adoption into an ARC in any form, but is instead carried forward as a specific Recommendation for Further Research (§7.7), so it can be tested against independent evidence rather than adopted on its own plausibility. This preserves rather than suppresses the ROC's capacity for reasoned synthesis; it changes only what happens to that synthesis afterward. §7.7 is extended to name this as a recommendation category. Version 2.5 aligns this manual with EAS v1.3's Assessed Finding model, at Founder direction: §9.3 previously required the Evidence Assessment to evaluate "the commission as a whole," with individual findings receiving their own assessment only "where appropriate" — this made the overall commission level the default and per-finding assessment optional, the reverse of what is actually correct. §9.3 and §9.5 now require an Evidence Confidence Level per Assessed Finding as the only level that exists; §7.6, §6.8 and §8.3 are updated for consistency. Version 2.4 retires the Founder Executive Brief (FEB) at Founder request and rewrites Chapter 10 accordingly: the Founder Review Dossier (FRD), prepared under the new Founder Review Dossier Standard, is now the sole Founder Review Documentation, and §10.4/§10.8 (both concerning the FEB) are removed with the remainder of the chapter renumbered. The retirement reflects that the FEB's stated purpose — efficient review at volume, without requiring the complete research record to be examined in every instance — describes a need the platform does not yet have: with a single Founder reviewing every commission directly, a summary document duplicates effort rather than saving it. The FEB may be reinstated by future Founder decision if review volume grows to require it. Version 2.3 renames "Approved Information Compilation (AIC)" to "Approved Research Compilation (ARC)" throughout this manual, following SINS-001 v0.4's retirement of the AIC term. Version 2.2 adds Evidence Confidence Level as explicit AIC metadata in §12.5, recorded directly on the AIC itself rather than only referenced through the linked Evidence Assessment, so KIT can retrieve it without opening the full Evidence Assessment record. Version 2.1 replaces "Knowledge Asset (KA)" with "Approved Information Compilation (AIC)" throughout (Chapters 1, 11, 12 and 13), following SINS-001 v0.2's retirement of the KA term. Chapter 12's title changed from "Creating Mother Information Library Knowledge Assets" to "Creating Mother Information Library AICs" at Version 2.1, and to "Creating Mother Information Library ARCs" at Version 2.3; no procedural steps changed at either point.
+**Revision Note:** **Version 2.11 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, after the Spraying commission and the first Build Check, so that every later commission is researched, written up and checked the same way. §3.5 forbids an exclusion the Founders did not direct, and says how products are recorded. §4.7 has the plan say how many websites will be opened. New §5.6A requires everything a source says on a commissioned question to be recorded, and every quotation used to be in the Source Register. §8.3 holds a finding's wording to what its sources say. New §8.5A is a completeness check before synthesis. §7.7 has each recommendation say what the rules give until it is pursued. §10.6 names the parts of the dossier that carry this. Chapter 14 sets out the Build Check as it was first run: the source check, the wording check, the recheck, and what happens when the check finds the record itself says more than its sources. Previous: **Version 2.10 (approved by AskPIP Founder Authority, 5 October 2026)**, at a Founder's direction, so that the Pip Knowledge Rules are followed throughout research and Founder review. §3.5 settles scope when a commission is opened. §7.4 and new §8.6A have the ROC state what the rules give, without asking the Founders to choose between views. New §10.6A requires the Decision Brief and Review Form, and §10.10 checks them. New §11.2A records that either Founder may decide alone (first directed 28 September 2026; it had not reached the repository). New §11.4A and §11.4B set which findings Pip may use and what the Founders are asked. §11.9 and §12.5 have the ARC hold every finding with its use status and its Build Check status. New Chapter 14 adds the Build Check: the ROC's check of Pip's statements against the findings and their sources, after KIT has built them and before the Founders approve them. Previous: **Version 2.9 (approved by Shaphan, AskPIP Founder Authority, 29 September 2026)**, at Shaphan's direction ("we need to be able to verify where we have got our information from on every instance"). It amends §5.5 and §12.6 and adds §12.10. §5.5 previously required a source to be recorded well enough to be "identified and retrieved in the future", but never required a web address. Five of seven bush-rose commissions (crossing/rubbing stems, inward-growing stems, damaged growth, weak/congested growth, basic care) therefore recorded no links, while two (rose type, pruning framework) did. For web pages, a title and publisher alone do not reliably let a source be retrieved and checked later. §5.5 now requires a web address and access date for every online source, or a stable identifier for offline sources. §12.6 requires every ARC to carry its own Source Register, so that source traceability survives the retirement of review-stage documents under §12.9. §12.10 sets out how ROC closes the gap for ARCs approved before this amendment, without altering any finding. Previous: Version 2.8 adds §12.9 at Shaphan's direction: once an ARC has been created from a Founder Review Dossier, the dossier, its Decision Brief, Review Form, and any superseded revisions or companion research notes are removed from the working folders they occupied during review, since the Core repository would otherwise grow without bound as every revision of every dossier stayed in place indefinitely. Documentary traceability under §12.6 is preserved through the ARC's own metadata and the Core repository's version-control history, not through retaining a live copy of a superseded working document. §12.9 applies only to Founder Review working documents; it does not authorise deletion of a Research Commission Record, underlying research or evidence records, or any ARC, which remain governed by §11.10 and Chapter 13. Version 2.7 (draft, for Founder confirmation) amends §7.7 and §10.10 at Shaphan's direction, following the Basic Bush Rose Care commission (`BUSHROSE-BASICCARE`): a first Founder Review Dossier for that commission recorded five Recommendations for Further Research, four of which turned out to need nothing but further searching within the ROC's own existing authority and scope — no Founder decision was actually required to resolve them, only a second round the Founders then had to separately commission and later review. Only the fifth (a source-availability gap for a whole region) genuinely required Founder judgement, since closing it would mean accepting a different evidentiary standard than the rest of the commission used. §7.7 now requires the ROC to attempt to resolve a candidate recommendation itself, before the dossier is finalised, unless doing so would exceed the commission's approved scope, require accepting a different evidentiary standard, or demand materially disproportionate effort; only recommendations meeting one of those tests may still be recorded as open. §10.10's quality review checklist gains a matching check. The intent is that Founder Review Dossiers arrive at Founder Review closer to their final, decidable state, and that "Recommendations for Further Research" comes to mean "this needs your judgement," not "we didn't get to this yet." Version 2.6 adds §8.4A, implementing Evidence Assessment Standard v1.4 §2.10 at Founder direction: where the ROC identifies a relationship or interaction between findings that the available evidence does not itself state — the ROC's own reasoned synthesis — it is not proposed for adoption into an ARC in any form, but is instead carried forward as a specific Recommendation for Further Research (§7.7), so it can be tested against independent evidence rather than adopted on its own plausibility. This preserves rather than suppresses the ROC's capacity for reasoned synthesis; it changes only what happens to that synthesis afterward. §7.7 is extended to name this as a recommendation category. Version 2.5 aligns this manual with EAS v1.3's Assessed Finding model, at Founder direction: §9.3 previously required the Evidence Assessment to evaluate "the commission as a whole," with individual findings receiving their own assessment only "where appropriate" — this made the overall commission level the default and per-finding assessment optional, the reverse of what is actually correct. §9.3 and §9.5 now require an Evidence Confidence Level per Assessed Finding as the only level that exists; §7.6, §6.8 and §8.3 are updated for consistency. Version 2.4 retires the Founder Executive Brief (FEB) at Founder request and rewrites Chapter 10 accordingly: the Founder Review Dossier (FRD), prepared under the new Founder Review Dossier Standard, is now the sole Founder Review Documentation, and §10.4/§10.8 (both concerning the FEB) are removed with the remainder of the chapter renumbered. The retirement reflects that the FEB's stated purpose — efficient review at volume, without requiring the complete research record to be examined in every instance — describes a need the platform does not yet have: with a single Founder reviewing every commission directly, a summary document duplicates effort rather than saving it. The FEB may be reinstated by future Founder decision if review volume grows to require it. Version 2.3 renames "Approved Information Compilation (AIC)" to "Approved Research Compilation (ARC)" throughout this manual, following SINS-001 v0.4's retirement of the AIC term. Version 2.2 adds Evidence Confidence Level as explicit AIC metadata in §12.5, recorded directly on the AIC itself rather than only referenced through the linked Evidence Assessment, so KIT can retrieve it without opening the full Evidence Assessment record. Version 2.1 replaces "Knowledge Asset (KA)" with "Approved Information Compilation (AIC)" throughout (Chapters 1, 11, 12 and 13), following SINS-001 v0.2's retirement of the KA term. Chapter 12's title changed from "Creating Mother Information Library Knowledge Assets" to "Creating Mother Information Library AICs" at Version 2.1, and to "Creating Mother Information Library ARCs" at Version 2.3; no procedural steps changed at either point.
 
 **Related Documents:**
 
@@ -267,6 +267,10 @@ Research shall remain within the approved scope unless amended by the Founders.
 
 Whether a subject belongs in Pip is a Founder decision (Pip Knowledge Rules §5). It shall be settled when the commission is opened and recorded in the Research Commission Record. Where it has not been settled, the ROC shall ask before research begins, and shall not leave it to be raised as a Founder Decision Point in the dossier.
 
+**Exclusions.** An exclusion keeps knowledge out of Pip. The ROC shall record an exclusion only where a Founder has directed it, with the date and the Founder's words. The ROC shall not write an exclusion of its own into a commission. Where the ROC believes one is warranted, it shall ask before research begins.
+
+**Products and materials.** Where sources name a spray, fertiliser or other product, the ROC records the type or the active ingredient as the source names it, what it is used for and when. Brand names and mixing amounts are not compiled: the product label and local rules govern them (Pip Knowledge Rules, rule 7).
+
 ---
 
 ### 3.6 Establishing Research Requirements
@@ -418,6 +422,8 @@ Before commencing evidence collection, the ROC shall prepare a research plan tha
 
 The research plan may be revised during the investigation as new information becomes available, provided that any significant changes remain consistent with the approved scope of the commission.
 
+The plan shall say roughly how many websites will be opened. Each website new to a session may need a Founder's approval before it can be read, so the ROC shall tell the Founder how many and why before a batch of web reading begins.
+
 ## 4.7A Planning Boundaries
 
 The purpose of the Research Plan is to define how the commission will be undertaken.
@@ -525,6 +531,16 @@ The ROC shall distinguish between:
 - personal or anecdotal experience.
 
 The original meaning of the evidence shall be preserved throughout the research process.
+
+---
+
+## 5.6A Recording Everything a Source Says on the Question
+
+For each commissioned question, the ROC shall record everything the source says that bears on it, in the source's own terms: what it names, what it is for, when it is done, and any condition the source attaches. The ROC shall not leave out part of what a source says because it seems secondary or because it names a product type.
+
+Every quotation the ROC relies on, including one used only in a finding's text or in a recorded conflict, shall be entered in the Source Register against the finding it supports. A quotation that is not in the Source Register cannot be reopened at the Build Check, and a statement that rests on it cannot be published.
+
+Where a quotation is a fragment of a longer sentence, the ROC shall record any condition the rest of the sentence attaches (for example "where weather favours severe disease").
 
 ---
 
@@ -805,7 +821,7 @@ Recommendations for further research shall be clearly distinguished from the fin
 - committing research effort materially disproportionate to the rest of the commission (for example, sourcing and translating non-English-language material); or
 - another matter that depends on Founder judgement rather than further searching.
 
-Each retained recommendation shall state, briefly, why it could not be resolved within the commission, and what a Founder decision would need to settle before it could be pursued. This does not lower the bar for what the ROC pursues before submission; it raises it, by requiring the attempt before the option to defer is used.
+Each retained recommendation shall state, briefly, why it could not be resolved within the commission, and what a Founder decision would need to settle before it could be pursued. It shall also state what the Pip Knowledge Rules give until it is pursued (for a gap, that Pip says no source was found), so that no "recommended default" is put to the Founders as a question. This does not lower the bar for what the ROC pursues before submission; it raises it, by requiring the attempt before the option to defer is used.
 
 ---
 
@@ -856,6 +872,15 @@ Each finding shall:
 
 Findings shall describe what the evidence demonstrates rather than what the ROC believes.
 
+**A finding says no more than its sources.** The first Build Check found findings whose wording was stronger than the pages behind them. To prevent that:
+
+- "Sources say" requires at least two independent sources that each support that part of the finding. Pages from one organisation count as one source.
+- Where one source says it, the finding names that source.
+- Where a finding has several parts, the finding's text shows which sources support which part. A source is not listed for a finding it supports only in a general way.
+- The finding uses the sources' own terms for a class of thing ("broad-spectrum", "higher-toxicity"). The ROC does not supply a label of its own ("lower-toxicity") that no quotation uses.
+- A condition a source attaches is kept ("generally", "consider", "where the disease is severe").
+- A count in a finding ("three universities", "two nurseries") is a count of sources that say that thing.
+
 Where two findings could reasonably be supported to a different degree by the available evidence, the ROC shall keep them as separate findings rather than merging them, so that each becomes its own Assessed Finding under the Evidence Assessment Standard (Chapter 9) and is not diluted by, or credited with, the evidential strength of the other.
 
 ---
@@ -899,6 +924,18 @@ The ROC shall determine whether:
 - the matter should be referred to the Founders.
 
 Not every commission will result in complete knowledge.
+
+---
+
+## 8.5A Completeness Check
+
+Before preparing the dossier, the ROC shall check, question by question, that nothing the sources say has been left out:
+
+1. For each commissioned question, list what the sources name: practices, types of product, timings, conditions and precautions.
+2. Confirm that each is in a finding, or is recorded with the reason it is not (outside the commissioned questions; a brand or a mixing amount; a Founder-directed exclusion).
+3. Ask what a gardener who already does this task would expect to find, and confirm it is there or recorded as a gap. A common practice that is missing is the sign of something left out.
+
+Anything the sources say that falls outside the commissioned questions is recorded as a recommendation for further research (§7.7), so that it is not lost.
 
 ---
 
@@ -1148,6 +1185,15 @@ While the structure may vary according to the nature of the commission, every do
 - unresolved uncertainty;
 - the completed Evidence Assessment; and
 - any recommendations arising from the research.
+
+The dossier shall also carry:
+
+- in its list of findings, a "For Pip" column showing whether Pip may use each finding and, for a Low or Very Low finding that is available, the rule that makes it so (§11.4A);
+- for each recommendation for further research, what a Founder decision would need to settle and what the rules give until then (§7.7);
+- in its Founder Decision Points, part (a) what the rules give for each commissioned question, and part (b) the decisions asked (§8.6A; Founder Review Dossier Standard §4.2 item 10); and
+- where it revises an earlier dossier, a short statement near the top of what changed (Founder Review Dossier Standard §9.3).
+
+`FRD-BUSHROSE-SPRAYING-02` is the worked example.
 
 ---
 
@@ -1704,6 +1750,22 @@ The ROC reports what it finds. It does not create or edit PKRs.
 
 ---
 
+## 14.2A Method
+
+The Build Check has two parts, and then a recheck.
+
+**Part 1: the source check.** For every source the Source Register lists for a finding the package uses, a checker reopens the page and asks, for each recorded quotation, whether it is on the page: word for word, nearly, or not found. It records each as Confirmed, Changed or Could not open. It also records whether the page supports the finding fully, partly or not at all, and anything the page says that limits or contradicts the finding. Only the page-reading tool is used; where it cannot open a page, the page is recorded as Could not open and no other route is tried.
+
+**Part 2: the wording check.** A checker that took no part in the build reads the whole ARC, the Pip Knowledge Rules and the results of Part 1, and checks every statement under §14.3. It checks each statement against what the pages were confirmed to say, not only against the ARC's wording. It also checks the package as a whole: that every finding available to Pip is used or listed with a reason, that nothing on record only is used, that each gap is said, and that a gardener would learn of each recorded conflict.
+
+**Recheck.** KIT corrects every failure and acts on the notes. The statements that changed are checked again. This repeats until no statement fails.
+
+Before Part 1 begins the ROC shall tell the Founder how many websites will be opened (§4.7).
+
+The results of each part are kept with the package in `Working/AI Outputs/`, named `Build_Check_<subject>_…`.
+
+---
+
 ## 14.3 What Is Checked
 
 For every statement in every gardener-facing draft PKR in the package, the ROC shall confirm:
@@ -1716,6 +1778,10 @@ For every statement in every gardener-facing draft PKR in the package, the ROC s
 6. **Confidence shown.** The confidence shown with the statement matches the ARC.
 7. **Rules.** Disagreement, ranges, local information, gaps, products and precautions are handled as the Pip Knowledge Rules require.
 8. **Founder decisions.** The package follows the decisions recorded in the ARC's Founder Decision Record and the standing decisions.
+9. **Stands alone.** The statement makes sense read on its own, because the app may show it away from its neighbours.
+10. **Limits.** A statement from a Moderate finding shows the finding's limits (Pip Knowledge Rules §3).
+
+A statement may say less than its finding, and shall do so where Part 1 shows the sources say less.
 
 ---
 
@@ -1730,6 +1796,15 @@ Each statement is recorded as one of:
 A statement fails where none of its finding's sources could be opened. A failed statement shall not be published until it has been corrected and checked again.
 
 Where the fault is in the wording or the trace, the ROC returns the statement to KIT. Where a source no longer supports a finding, the ROC corrects the research record under Chapter 13 and reports the finding to the Founders.
+
+**Where the record says more than its sources.** Part 1 may show that a finding's wording, or its Evidence Confidence Level, is stronger than the pages support, though every quotation is confirmed. The ROC shall then:
+
+- list each such finding in the Build Check Brief, with what the record says and what the sources say;
+- propose the correction, including any change of level and of Use status;
+- hold out of the package any statement whose finding would no longer be available to Pip; and
+- make the correction only after a Founder authorises it (§13.4). The Build Check Form's approval option carries that authorisation.
+
+Pip's statements follow the sources in the meantime, so publication does not wait on the correction.
 
 ---
 

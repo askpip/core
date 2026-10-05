@@ -55,9 +55,27 @@ export interface LilRecord {
 /** Confidence as shown to the gardener: one of the five levels, or an approved default. */
 export type ShownConfidence = ConfidenceLevel | 'Approved default'
 
+/** What a statement is, where it is not an ordinary rated claim (PKR Standard §5.7, Version 0.12). */
+export type StatementKind = 'precaution' | 'gap' | 'disagreement' | 'framing'
+
 export interface Statement {
   text: string
   confidence?: ShownConfidence
+  /** The finding's limits, in plain words, shown under the statement. */
+  limit?: string
+  kind?: StatementKind
+  /** Country codes whose gardeners see this statement; absent means everyone. */
+  place?: string[]
+}
+
+/** A Care Guidance record that answers a question within a topic (for example "Spraying"). */
+export interface QuestionAnswer {
+  pkrId: string
+  question: string
+  topic: string
+  topicTitle: string
+  order: number
+  statements: Statement[]
 }
 
 export type RoseTypeAnswerId = SavedRoseType | 'variety-only'
@@ -365,6 +383,28 @@ export function publishedRecord(id: string): LilRecord | undefined {
 
 export function publishedCare(id: string): CareGuidance | undefined {
   return CARE.get(id)
+}
+
+/**
+ * Every Published question answer that belongs to a topic, in topic order.
+ * Read from the records themselves, so a newly published topic reaches
+ * gardeners without an app release.
+ */
+export function publishedQuestionAnswers(): QuestionAnswer[] {
+  const out: QuestionAnswer[] = []
+  for (const r of BY_ID.values()) {
+    const qa = r.pkr_type === 'care_guidance' ? r.content?.presentation?.question_answer : undefined
+    if (!qa || typeof qa.topic !== 'string' || typeof qa.order !== 'number' || !Array.isArray(r.content.items)) continue
+    out.push({
+      pkrId: r.pkr_id,
+      question: r.content.heading ?? r.title,
+      topic: qa.topic,
+      topicTitle: qa.topic_title ?? qa.topic,
+      order: qa.order,
+      statements: r.content.items,
+    })
+  }
+  return out.sort((a, b) => a.topic.localeCompare(b.topic) || a.order - b.order)
 }
 
 /** Sources behind a set of Published PKRs, de-duplicated, for "Where this comes from". */

@@ -1,0 +1,159 @@
+{
+ "statements": [
+  {
+   "ref": "PKR-CGD-000009 item 1",
+   "result": "Pass",
+   "note": "Both attributions now match the pages (NZRS-FAQ 'Grow varieties that are very disease tolerant'; ABG-R 'We only grow those that perform well and stay healthy without spraying'). Limit now says UC's sentence is about fungicides."
+  },
+  {
+   "ref": "PKR-CGD-000009 item 2",
+   "result": "Pass",
+   "note": "The ranking ('a main way') is gone; six pages from five voices say to choose resistant or tolerant varieties."
+  },
+  {
+   "ref": "PKR-CGD-000009 item 3",
+   "result": "Pass with a note",
+   "note": "Wording now matches the pages: the RHS sentence is scoped to the newest varieties, and the Auckland sentence rests on the article's title (2000-2020) and abstract. Still open, unchanged from before: this is conflict C-3, but kind is null, so it shows 'Moderate confidence' rather than 'Sources disagree', and shown alone it leads with the Moderate view (AF-3) ahead of the High one (AF-1). ARC 6.1 does not say which view is better supported for C-3, so this may need a ruling rather than a wording change."
+  },
+  {
+   "ref": "PKR-CGD-000009 item 4",
+   "result": "Pass",
+   "note": "Name change only."
+  },
+  {
+   "ref": "PKR-CGD-000009 item 6",
+   "result": "Pass with a note",
+   "note": "New last sentence is supported: ARC 6.1 'The RHS recommends that gardeners don't use fungicides on roses at all (AF-5, High, as one organisation's position)'; three RHS pages confirmed. AF-5 added to trace; first finding is still AF-4 (Moderate). Still true, unchanged: the University of Maryland is named only on the dissenting side, though its problems page ('Use a pesticide only as a last resort') is a source for the better-supported view (AF-6)."
+  },
+  {
+   "ref": "PKR-CGD-000009 item 7",
+   "result": "Pass",
+   "note": "Name change only."
+  },
+  {
+   "ref": "PKR-CGD-000010 item 1",
+   "result": "Pass",
+   "note": "'Tie' is supported by UCIPM-BS and GU-DIS; the strong wording is now given to the University of California alone and matches its page ('leaves must remain wet for more than about 7 hours')."
+  },
+  {
+   "ref": "PKR-CGD-000010 item 4",
+   "result": "Pass",
+   "note": "Name change only."
+  },
+  {
+   "ref": "PKR-CGD-000010 item 5",
+   "result": "Pass",
+   "note": "WISC-BS, CLEM-DIS, GU-DIS and PSU-RD support the text. The new limit matches ARC 4A for AF-17 ('Qualified for powdery mildew (AF-18)')."
+  },
+  {
+   "ref": "PKR-CGD-000010 item 6",
+   "result": "Pass",
+   "note": "The unconfirmed RHS sentence is removed. The new limit is supported by C-4 and confirmed pages (WISC-BS 'DO NOT overhead water'; PSU-RD 'Water in a manner that keeps foliage surfaces dry', under black spot), and states the limit a Moderate finding needs."
+  },
+  {
+   "ref": "PKR-CGD-000010 item 8",
+   "result": "Pass",
+   "note": "Each source is now named for what its page says (NZRS-FAQ 'Water and fertilise them well and you can grow good roses with minimal disease problems'; GA-BS 'the better fed they are, the more likely they are to resist disease')."
+  },
+  {
+   "ref": "PKR-CGD-000011 item 2",
+   "result": "Pass",
+   "note": "Limit now follows the gardener's own words and says 'some varieties' and 'rust'."
+  },
+  {
+   "ref": "PKR-CGD-000011 item 3",
+   "result": "Pass",
+   "note": "UC's condition added and matches the page ('Where weather favors severe disease')."
+  },
+  {
+   "ref": "PKR-CGD-000011 item 4",
+   "result": "Pass",
+   "note": "Name change only."
+  },
+  {
+   "ref": "PKR-CGD-000011 item 5",
+   "result": "Pass",
+   "note": "Name change only."
+  },
+  {
+   "ref": "PKR-CGD-000012 item 2",
+   "result": "Pass",
+   "note": "Description of Ross Roses added; correct per the Source Register."
+  },
+  {
+   "ref": "PKR-CGD-000012 item 4",
+   "result": "Pass",
+   "note": "Each sentence matches its page (WISC-BS; RSNSW 'big infestation ... may need to be sprayed more frequently'). Says less than AF-11. Limit unchanged and correct."
+  },
+  {
+   "ref": "PKR-CGD-000012 item 5",
+   "result": "Pass with a note",
+   "note": "The failed sentence is corrected and now matches the source note ('A typical pesticide regime recommended by ABG for a home gardener at this time ... two- to three-week intervals'). It now passes. To know: the statement follows the page, not the ARC, which still says 'Auckland Botanic Gardens' former programme' (AF-10) and 'formerly sprayed' (C-7). That correction to the research record needs to be added to the list in package 14 for a Founder's authorisation; I have not seen whether it has been."
+  },
+  {
+   "ref": "PKR-CGD-000012 item 7",
+   "result": "Pass",
+   "note": "Rule 5 pointer added; it comes from the rule and needs no finding."
+  },
+  {
+   "ref": "PKR-CGD-000013 item 2",
+   "result": "Pass",
+   "note": "Limit now carries both limitations ARC 4A records for AF-37."
+  },
+  {
+   "ref": "PKR-CGD-000013 item 3",
+   "result": "Pass",
+   "note": "Limit now carries all three limitations ARC 4A records for AF-36."
+  },
+  {
+   "ref": "PKR-CGD-000013 item 4",
+   "result": "Pass",
+   "note": "Now reads sensibly on its own."
+  },
+  {
+   "ref": "PKR-CGD-000013 item 7",
+   "result": "Pass",
+   "note": "Rule 5 pointer added. 'What works near you' goes no further than the rule's 'local expert help'."
+  },
+  {
+   "ref": "PKR-CGD-000014 item 1",
+   "result": "Pass",
+   "note": "All nine AF-30 pages support 'read and follow the product label'; RHS-CHEM confirmed for the legal requirement."
+  },
+  {
+   "ref": "PKR-CGD-000014 item 2",
+   "result": "Pass",
+   "note": "The New Zealand sentence now matches the page ('We do this by setting rules around neonicotinoid use')."
+  },
+  {
+   "ref": "PKR-CGD-000014 item 3",
+   "result": "Pass",
+   "note": "The EPA sentence now uses the confirmed wording ('Avoid spraying budding or flowering plants', said of neonicotinoid insecticides). No source is now named for 'when bees are foraging', so the statement says less than AF-32's headline, which is allowed."
+  },
+  {
+   "ref": "PKR-CGD-000014 item 4",
+   "result": "Pass",
+   "note": "Name change and description only."
+  },
+  {
+   "ref": "PKR-CGD-000014 item 5",
+   "result": "Pass",
+   "note": "Both nurseries are now placed in Australia, which lets a reader place '25 degrees'. Limit 'Two sources' is correct."
+  },
+  {
+   "ref": "PKR-CGD-000015 item 1",
+   "result": "Pass",
+   "note": "Hosing: UCIPM-INS, CLEM-INS, ROSS-SP. Squashing is now given to the RHS alone and matches its page ('Use finger and thumb to squash aphid colonies where practical')."
+  },
+  {
+   "ref": "PKR-CGD-000015 item 2",
+   "result": "Pass",
+   "note": "Description of Ross Roses added."
+  },
+  {
+   "ref": "PKR-CGD-000015 item 3",
+   "result": "Pass with a note",
+   "note": "Supported: Clemson ('Higher toxicity insecticides ... kill the natural enemies of rose aphids') and UC (broad-spectrum insecticides kill spider mites' natural enemies) for the first sentence; UMD-PROB for the second. To know: 'stronger' is the wording I suggested and is a paraphrase; no page uses it. The pages' own terms are 'higher toxicity' (Clemson) and 'broad-spectrum' (University of California). 'Sources say higher-toxicity or broad-spectrum insecticides can harm aphids' natural enemies' would use only the sources' words."
+  }
+ ]
+}

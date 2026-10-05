@@ -4,12 +4,12 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.2
+**Version:** 0.3
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `AI/Context/Ask_Pip_App_Build_Status_Context.md`
-**Last Updated:** 3 October 2026
+**Last Updated:** 5 October 2026
 **Purpose:** To give any artificial intelligence (AI) or Founder a current, accurate snapshot of what is actually built in the Ask Pip application, what is deliberately deferred and why, and what remains blocked pending Founder-approved knowledge — without requiring that state to be reconstructed from git history, conversation history or a fresh reading of every source file.
 **Related Documents:** `AGENTS.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `MVP/Architecture/Ask_Pip_App_Engineering_Architecture.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `Working/AI Outputs/Ask_Pip_Bush_Rose_Guided_Journey_Flow_Proposal.md`; `AI/Context/Ask_Pip_App_Known_Issues_and_Process_Notes_Context.md`
 
@@ -146,6 +146,18 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
 
 **Also built in the 1 October 2026 redesign trial** and present in the same code: the "This season" card (`App/src/components/SeasonCard.tsx`, on the plant page and the journey's care step), the whole-session progress stages and three-step photo coaching in `App/src/pages/Journey.tsx`, and the Google Gemini photo disclosure in the journey and on the About page. `CHANGELOG.md` has the full list.
 
+## 3.5 Topics, Local Statements, Limits and Labels (5 October 2026)
+
+Built so that a subject's whole body of approved findings reaches gardeners, in short answers, without typed questions. Governed by PKR Standard §5.7 (Version 0.12) and the Pip Knowledge Rules §3A.
+
+**Topics** (`App/src/data/commonQuestions.ts`, `App/src/data/pkr.ts`). A Care Guidance record may carry `content.presentation.question_answer` (`topic`, `topic_title`, `order`). `publishedQuestionAnswers()` reads every such Published record. The record with order 1 is the topic's lead question. A built-in question becomes the lead once its topic is Published (`TOPIC_FOR`; so far `spraying`), and stays "still learning" until then. The other records in the topic are offered under the answer as "More about …", and each of those offers the rest. Follow-up answers are keyed `pkr:<record id>` and need no app release when a new one is published. "Black spots on the leaves?" offers the spraying topic's answers once they are Published, and its first line then stops saying Pip can't say how to treat it.
+
+**Local statements** (`App/src/lib/place.ts`). A statement may carry `place`, a list of country codes. `countryCodeFor(plant)` gives the plant's country from the country typed in its journal entry (New Zealand, Australia, the United Kingdom, the United States, Canada), or from its saved position where that is unambiguous (New Zealand and Australia only). `CommonQuestions` takes `countryCode` and shows a marked statement only where it matches. Where the country isn't known, marked statements are left out and one line says so. Only the plant page passes a country; the Welcome and plant-list pages have no plant, so they never show local statements. Not yet built: asking a gardener which country a GPS-located plant is in, when it is outside New Zealand and Australia.
+
+**Limits and labels** (`App/src/components/PkrStatements.tsx`). `StatementLimit` shows a statement's `limit` under it in smaller type. `StatementTag` shows the confidence level, or "Precaution" with the level, or "Sources disagree", or "No source found", or nothing for app framing, by the statement's `kind`.
+
+**Checked** in a headless browser at phone widths (390 and 320 pixels) against test copies of the seven spraying records, for six cases: no plant; New Zealand by name; Australia by position; the United States; the United Kingdom; and a position in Canada, which correctly gives no country. The build passes. Not checked: the signed-in screens, and a real phone.
+
 # 4. Phase B — Blocked on Founder-Approved Knowledge
 
 Phase B covers the Primer's remaining horticultural cards, the "Pruning your bush rose" Learn shelf, the before-you-cut lesson, and observation ordering. None of it can be built with real content until the underlying research clears Founder review, is compiled into an Approved Research Compilation (ARC), and is published as a PIP Knowledge Record (PKR) by the Knowledge Integration Technician (KIT). Writing placeholder horticultural content into the app ahead of that is exactly the problem `learnTopics.ts`'s own governing comment warns against, and shall not be done to make Phase B appear further along than it is.
@@ -187,5 +199,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **3 October 2026 (Version 0.2, update):** The menu's Disclaimer is now "About this beta" and the contact address is founders@askpip.garden. An invite gate exists in the database (`hook_beta_invite_only`) but is not switched on, so sign-in is still open to any address. The app has no feedback form yet, although the website wording promises one.
 
 - **3 October 2026 (Version 0.2, update):** The invite gate is on: a Founder enabled Supabase Auth's "Before User Created" hook with `hook_beta_invite_only`, so a new account needs an approved request in the Shed's Beta Requests. Existing accounts are unaffected. The website is live at askpip.garden. The app now has a feedback form (`pages/Feedback.tsx`, wording in `data/feedbackForm.ts`, approved by a Founder in chat; record in `Working/AI Outputs/Ask_Pip_Feedback_Form_Wording.md`). Pip offers it when a pruning session is saved (`Journey.tsx` now goes to `/plant/:id/feedback/pruning`, where "Not now" leads to the plant's page) and on the last screen of the growing-season check (`BlindShootCheck.tsx`). The menu has "Give feedback" (`/feedback`). Feedback is sent with `app_send_feedback` and read in the Garden Shed's "Beta Feedback" tool; it never goes to Pip, and the form says so. Not yet checked with a real gardener's feedback from the deployed app.
+
+- **5 October 2026 (Version 0.3):** Added §3.5: question answers grouped into topics and read from the Published records; statements shown by the plant's country; limits and the Precaution, Sources disagree and No source found labels.
 
 # End of Document

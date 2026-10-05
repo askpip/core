@@ -9,10 +9,21 @@
  * Questions Pip can't answer yet carry `pending`: the app says so honestly and
  * records the tap (public.question_interest), so gardeners' own interest shows
  * which research to approve next.
+ *
+ * Topics (from 5 October 2026). A subject with a lot of approved knowledge is
+ * published as several short question answers under one topic (PKR Standard
+ * §5.7, "Topic and order"). The first is the lead question, which sits in the
+ * list here; the others open from its answer as "More about …". They are read
+ * from the Published records themselves, so a new topic's follow-up answers
+ * reach gardeners without an app release. This is how every finding Pip may
+ * use gets a place, without one long answer.
  */
-import { publishedRecord, type Statement } from './pkr'
+import { publishedQuestionAnswers, publishedRecord, type QuestionAnswer, type Statement } from './pkr'
 
-export type QuestionKey =
+/** A follow-up answer inside a topic, keyed by its record. */
+export type TopicKey = `pkr:${string}`
+
+export type BuiltInKey =
   | 'when-to-prune'
   | 'too-late'
   | 'how-much'
@@ -31,6 +42,13 @@ export type QuestionKey =
   | 'prune-too-hard'
   | 'plant-move'
 
+export type QuestionKey = BuiltInKey | TopicKey
+
+/** Which topic's lead question a built-in question becomes once that topic is Published. */
+const TOPIC_FOR: Partial<Record<BuiltInKey, string>> = {
+  spraying: 'spraying',
+}
+
 export interface CommonQuestion {
   key: QuestionKey
   question: string
@@ -43,6 +61,8 @@ export interface CommonQuestion {
   pending?: string
   /** A growing-season check this answer can open for a specific plant. */
   check?: { label: string; path: 'blind-shoots' }
+  /** Other answers in the same topic, offered under this one. */
+  more?: { title: string; items: { key: QuestionKey; question: string }[] }
 }
 
 const PENDING =
@@ -60,10 +80,30 @@ function all(pkrId: string, field: string): Statement[] {
   return publishedRecord(pkrId)?.content?.[field] ?? []
 }
 
+const topicKey = (a: QuestionAnswer): TopicKey => `pkr:${a.pkrId}`
+
+/** The other answers in a topic, as "More about …" links. */
+function moreIn(answers: QuestionAnswer[], except?: string): CommonQuestion['more'] {
+  const items = answers.filter((a) => a.pkrId !== except).map((a) => ({ key: topicKey(a), question: a.question }))
+  return items.length > 0 ? { title: `More about ${answers[0].topicTitle.toLowerCase()}`, items } : undefined
+}
+
+/** A built-in question answered by its topic's lead record, if that topic is Published. */
+function fromTopic(key: BuiltInKey, question: string, topics: Map<string, QuestionAnswer[]>): CommonQuestion | undefined {
+  const answers = topics.get(TOPIC_FOR[key] ?? '')
+  const lead = answers?.[0]
+  if (!answers || !lead) return undefined
+  return { key, question, statements: lead.statements, pkrIds: [lead.pkrId], more: moreIn(answers, lead.pkrId) }
+}
+
 /** Built on demand so it always reflects the live LIL. Questions whose statements can't be found are left out. */
 export function commonQuestions(): CommonQuestion[] {
   const sgt1 = publishedRecord('PKR-SGT-000001')?.content
   const cgd2 = publishedRecord('PKR-CGD-000002')?.content
+
+  const topics = new Map<string, QuestionAnswer[]>()
+  for (const a of publishedQuestionAnswers()) topics.set(a.topic, [...(topics.get(a.topic) ?? []), a])
+  const spraying = topics.get('spraying')
 
   const list: CommonQuestion[] = [
     {
@@ -136,9 +176,12 @@ export function commonQuestions(): CommonQuestion[] {
     {
       key: 'black-spot',
       question: 'Black spots on the leaves?',
-      lead: "I can't tell you how to treat it yet. Here is what I can say:",
+      // Until the spraying research is Published, this is all Pip can say. Once it is, the
+      // answers on leaf disease and sprays open from here.
+      lead: spraying ? 'Here is what to watch for:' : "I can't tell you how to treat it yet. Here is what I can say:",
       statements: pick('PKR-CGD-000004', 'items', ['Watch for blackspot', 'Look over the leaves']),
       pkrIds: ['PKR-CGD-000004'],
+      more: spraying ? moreIn(spraying) : undefined,
     },
     {
       key: 'yellow-leaves',
@@ -159,7 +202,13 @@ export function commonQuestions(): CommonQuestion[] {
       pkrIds: ['PKR-CGD-000008'],
       check: { label: 'Check for blind shoots with Pip', path: 'blind-shoots' },
     },
-    { key: 'spraying', question: 'Should I spray my roses?', statements: [], pkrIds: [], pending: PENDING },
+    fromTopic('spraying', 'Should I spray my roses?', topics) ?? {
+      key: 'spraying',
+      question: 'Should I spray my roses?',
+      statements: [],
+      pkrIds: [],
+      pending: PENDING,
+    },
     {
       key: 'prune-too-hard',
       question: 'Can I kill my rose by pruning too hard?',
@@ -169,6 +218,13 @@ export function commonQuestions(): CommonQuestion[] {
     { key: 'plant-move', question: 'When can I plant or move a rose?', statements: [], pkrIds: [], pending: PENDING },
   ]
 
+  // The follow-up answers of every Published topic. They aren't in the home list; they open from a lead answer.
+  for (const answers of topics.values()) {
+    for (const a of answers) {
+      list.push({ key: topicKey(a), question: a.question, statements: a.statements, pkrIds: [a.pkrId], more: moreIn(answers, a.pkrId) })
+    }
+  }
+
   return list.filter((q) => q.pending || q.statements.length > 0)
 }
 
@@ -177,8 +233,13 @@ export function questionsFor(keys: QuestionKey[]): CommonQuestion[] {
   return keys.map((k) => byKey.get(k)).filter((q): q is CommonQuestion => Boolean(q))
 }
 
+/** Any one question by key, including a topic's follow-up answers. */
+export function questionByKey(key: QuestionKey): CommonQuestion | undefined {
+  return commonQuestions().find((q) => q.key === key)
+}
+
 /** The ones shown on the home and plant pages, most-asked first. */
-export const HOME_QUESTIONS: QuestionKey[] = [
+export const HOME_QUESTIONS: BuiltInKey[] = [
   'when-to-prune',
   'how-much',
   'too-late',

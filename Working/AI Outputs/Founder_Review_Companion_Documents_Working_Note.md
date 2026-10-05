@@ -7,10 +7,10 @@
 **Status:** Approved for use — the patterns here are required by Founder Review Dossier Standard §2.6 and ROC Operations Manual §10.6A and §14.5
 **Prepared By:** Research Origin Curator (ROC), at a Founder's request
 **Date:** 5 October 2026
-**Version:** 0.6
+**Version:** 0.7
 **Purpose:** To give the patterns for the four documents a Founder reads or fills in: the Decision Brief and Review Form that go with a Founder Review Dossier (FRD), and the Build Check Brief and Build Check Form that go with a package of PIP Knowledge Records (PKRs) built by the Knowledge Integration Technician (KIT).
 **Related Documents:** `Knowledge Curation System/Standards/Pip_Knowledge_Rules.md`; `Knowledge Curation System/Standards/Founder_Review_Dossier_Standard.md` §2.6 and §2.6A; `Knowledge Curation System/Operations Manuals/ROC_Operations_Manual.md` §8.6A, §11.4A, §11.4B and Chapter 14; `Shed/README.md` ("Fillable forms"); `AI/Skills/Garden_Shed_Operations_Skill.md`
-**Revision Note:** Version 0.6 rebuilds the patterns on the Pip Knowledge Rules. Three short forms in a row asked a Founder to choose between answers the research had already settled. The Decision Brief now states what Pip would say under the rules, and the Review Form asks only what the rules leave to the Founders, which is usually the overall decision alone. Version 0.5 added the question test and the checks before delivery. Version 0.4 replaced the long form that asked for a decision on every finding, and added the Build Check documents.
+**Revision Note:** Version 0.7 (5 October 2026) brings the Build Check Brief and Form into line with the first Build Check as run, names the worked examples, and adds the checks that would have caught the faults that check found. Version 0.6 rebuilt the patterns on the Pip Knowledge Rules. Three short forms in a row asked a Founder to choose between answers the research had already settled. The Decision Brief now states what Pip would say under the rules, and the Review Form asks only what the rules leave to the Founders, which is usually the overall decision alone. Version 0.5 added the question test and the checks before delivery. Version 0.4 replaced the long form that asked for a decision on every finding, and added the Build Check documents.
 
 ---
 
@@ -40,6 +40,10 @@ Plain language, proportionate to the dossier. A Founder who reads only sections 
 9. **Where to find the detail,** and a source key.
 
 Say plainly that a rating measures how strong the evidence is, not how much the finding matters.
+
+Where sources name types of product, section 2 has a block saying which types the sources name, who names them and how strong that is. Brand names and mixing amounts never appear.
+
+Worked example: `FRD-BUSHROSE-SPRAYING-02_Decision_Brief.md`.
 
 ## 3. Review Form
 
@@ -93,15 +97,17 @@ Every question on a form shall pass all five.
 3. **Dry run.** Read the Brief and answer the form as a Founder would, using nothing else. Fix whatever needed anything else.
 4. **Show the Brief's "What Pip would say" and the form's questions to a Founder in conversation** before delivery.
 5. **One first.** When the pattern has changed, deliver one, let a Founder try it, and only then prepare the others.
+6. **Who says it.** Wherever the Brief says "sources say", check the dossier shows at least two independent sources for that part. Where one source says it, name it.
+7. **Nothing left out.** For each commissioned question, check that what the sources name is in the Brief or is listed under "What Pip would not say" with its reason.
 
 ## 4. Build Check Brief
 
 Prepared by the ROC after the Build Check (ROC Operations Manual Chapter 14). Sections, in this order:
 
 1. **What this is.** The package, the ARC or ARCs it was built from, and what is being asked: approval to publish.
-2. **What gardeners will see.** Pip's words, record by record and statement by statement, in a table: the statement, its confidence, the finding it rests on, and the result (Pass, Pass with a note, Fail).
-3. **The check in numbers.** Statements checked, passed, passed with a note and failed. Sources reopened: confirmed, changed, could not open.
-4. **Notes and failures.** Each one, and what was done about it. A failed statement is corrected and rechecked before the Brief goes to the Founders, and the Brief says so.
+2. **What gardeners will see.** Pip's words, question by question and statement by statement, in a table: the statement, the limit shown under it, what it is shown with (its confidence, or Precaution, Sources disagree, No source found), who it is shown to, the finding it rests on, and the result (Pass, Pass with a note, Fail).
+3. **The check in numbers.** Sources reopened and quotations checked: confirmed, changed, could not open. Statements checked, passed, passed with a note and failed, round by round. One plain sentence on how the pages were read.
+4. **Notes and failures.** Each failure in plain words, and what was done about it. Each note on the final version. Then, where the check found the research record says more than its sources: a table of each such finding, what the record says and what the sources say, with any change of rating in bold. A failed statement is corrected and rechecked before the Brief goes to the Founders, and the Brief says so.
 5. **What was left out.** The findings KIT did not use, grouped by reason: on record only, or not needed.
 6. **Decisions still open.** Any choice the package needs from a Founder, with options in words. Omitted when there is none.
 7. **Where to find the detail.** The package file, the ARC and its Source Register.
@@ -127,14 +133,18 @@ A check-off. Skeleton:
 
 A decision still open is added before "Approval to publish", and shall pass the question test (§3A).
 
+Where the Brief's section 4 lists corrections to the research record, the first option reads "Approve for publishing, and make the corrections to the research record listed in Brief section 4." That option carries the Founder authorisation the corrections need (ROC Operations Manual §13.4, §14.4). No separate question is asked about them.
+
+Worked example: `PKR-CGD-BUSHROSE-SPRAYING-01_Build_Check_Brief.md` and its Form.
+
 ## 6. File Naming and Location
 
 | Document | Name | Location |
 |---|---|---|
 | Decision Brief | `FRD-<subject-scope>-<sequence>_Decision_Brief.md` | `Working/Founder Review/` |
 | Review Form | `FRD-<subject-scope>-<sequence>_Review_Form.md` | `Working/Founder Review/` |
-| Build Check Brief | `<package file name>_Build_Check_Brief.md` | `Working/Founder Review/` |
-| Build Check Form | `<package file name>_Build_Check_Form.md` | `Working/Founder Review/` |
+| Build Check Brief | `<package name>_Build_Check_Brief.md` (for example `PKR-CGD-BUSHROSE-SPRAYING-01_Build_Check_Brief.md`) | `Working/Founder Review/` |
+| Build Check Form | `<package name>_Build_Check_Form.md` | `Working/Founder Review/` |
 
 Renaming or moving a form's file makes the Garden Shed delete the old row and every saved answer with it. Change a form's content in place.
 

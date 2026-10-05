@@ -7,7 +7,7 @@
 **Document Title:** PIP Knowledge Integration Technician (KIT) Operations Manual
 **Volume:** Volume VI – Knowledge Curation System
 **Folder:** 03 – Operations Manuals
-**Version:** 0.7
+**Version:** 0.8
 **Status:** **Approved**
 **Owner:** The Founders
 **Last Updated:** 5 October 2026
@@ -19,6 +19,8 @@
 **Related Documents:** PIP Knowledge Integration Technician (KIT) Charter; PIP Knowledge Record (PKR) Standard; Live Intelligence Library (LIL) Standard; Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Pip Runtime Architecture; PIP Knowledge Integration Workflow; PIP Research Origin Curator (ROC) Operations Manual (structural model for this document); PIP System Identity and Naming Standard (SINS-001).
 
 **Drafting Note:** This is the first version of this Manual. No KIT Operations Manual existed before this draft — the KIT Charter and PKR Standard both anticipated one without it being written. Rather than draft this speculatively, a real dry run was performed first: an AI instance, using only the Charter, the PKR Standard, the LIL Standard, the MIL Standard, the Pip Runtime Architecture and the Knowledge Integration Workflow, attempted to build one real draft Observation PKR from ARC-BUSHROSE-DEADWOOD-01 (`Working/AI Outputs/KIT_Dry_Run_BUSHROSE_DEADWOOD_01.md`). It produced a usable partial draft and stalled at six specific, concrete points. This Manual is written directly against those six stalls, using the same case as its worked example throughout, in the same spirit as how a real research commission on dead-versus-living wood shaped the Founder Review Dossier Standard and the Assessed Finding model earlier in this session. Sections below reference "the dry run" and "Gap 1" through "Gap 6" by number, matching that document.
+
+**Version 0.8 (approved by AskPIP Founder Authority, 5 October 2026):** at a Founder's direction, after the first Build Check, so that approved knowledge is used and not wasted. §5.3 requires every finding Pip may use to be routed to a statement or listed with its reason. §7.7 sets out how each statement is written. Chapter 13A has the Build Check repeat until nothing fails, and has the package record each round and any correction proposed to the research record.
 
 **Version 0.7 (approved by AskPIP Founder Authority, 5 October 2026):** at a Founder's direction, so that the Pip Knowledge Rules are followed when PKRs are built. KIT builds only from findings Pip may use (§4.2, §5.2, §8.3). §7.7 names rule 8. New Chapter 13A sends every package to ROC for the Build Check before the Founders see it, and Chapter 14 submits ROC's Build Check Brief with the package.
 
@@ -157,6 +159,8 @@ KIT shall build only from findings whose Use status is Available to Pip, and sha
 
 KIT shall record this routing explicitly, as a short table, before drafting begins — which finding supports which PKR type — and carry that table forward into the draft submission so the Founders can see how the ARC's content was distributed, not only the resulting individual PKRs.
 
+**Every finding Pip may use is used.** The triage table shall list every finding of the ARC. A finding whose Use status is Available to Pip shall be routed to at least one statement, or listed as not routed with the reason. "Not needed" is not a reason. The table also lists each recorded conflict and each gap, and where the gardener is told of it. KIT shall state the totals: findings routed, on record only, and held.
+
 ## 5.4 Content With No Current Destination
 
 Where an Assessed Finding or Founder observation does not map to any PKR type currently defined in the PKR Standard §3, KIT shall not build an undefined PKR type to hold it. It shall report this to the Founders as a Standard-extension gap, per PKR Standard §10, and hold the content pending that decision.
@@ -220,6 +224,16 @@ Where making a claim gardener-readable requires resolving a genuine ambiguity in
 A practical check: before finalising a field's wording, KIT should confirm it could point to the specific documented claim and say the field means the same thing, just in different words — not a related, broader, or more confident thing.
 
 This is rule 8 of the Pip Knowledge Rules: KIT adds no claim, reason or certainty that the sources do not give. How a disagreement, a range, local information, a gap, a product or a precaution is presented follows rules 2 to 7.
+
+**How each statement is written (Pip Knowledge Rules §3A):**
+
+- "Sources say" only where the finding shows at least two independent sources for that part. Otherwise name the source.
+- Each statement makes sense read alone. It does not lean on the statement before it ("they", "the view above", "the exception").
+- A Moderate finding's limits go with its statement, in plain words, as its Limit.
+- A disagreement names who holds each view. A gap says no source was found and points to local expert help. A precaution is marked as one.
+- A local statement is marked with the countries it is shown in, and names its source.
+- A company is named only as a source. No brand of product and no mixing amount appears.
+- Where the Build Check shows the sources say less than the finding, the statement follows the sources.
 
 ---
 
@@ -400,7 +414,9 @@ Deficiencies identified during this review shall be corrected before submission.
 
 After its own quality review, KIT shall give the complete package, with its triage record and Founder Review Rendering, to ROC for the Build Check (ROC Operations Manual Chapter 14).
 
-KIT shall correct any statement the Build Check fails, without changing the meaning of any other statement, and return it for rechecking. KIT shall not submit a package to the Founders while a failure is open.
+KIT shall correct any statement the Build Check fails, act on its notes, and return the changed statements for rechecking. This repeats until no statement fails. KIT shall not submit a package to the Founders while a failure is open.
+
+The package shall record what changed in each round, and shall list any correction to the research record that the Build Check proposes (ROC Operations Manual §14.4). A statement whose finding would no longer be available to Pip under a proposed correction is held out of the package.
 
 ---
 
