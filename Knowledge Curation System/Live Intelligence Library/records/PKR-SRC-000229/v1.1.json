@@ -1,0 +1,44 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000229",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-19 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden centre)",
+    "identity": "Kings Plant Barn, \"Roses - Grow Well Guides\", date not shown. Commercial (garden centre), New Zealand. https://www.kings.co.nz/growing-guides/roses, accessed 1 October 2026 (register code NOFLOWERS:KINGS)",
+    "url": "https://www.kings.co.nz/growing-guides/roses",
+    "register_code": "NOFLOWERS:KINGS",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.1: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:KINGS). Nothing else changed. Version 1.0 retired."
+  }
+}

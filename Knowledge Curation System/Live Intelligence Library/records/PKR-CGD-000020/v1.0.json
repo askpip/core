@@ -1,0 +1,85 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000020",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Can I plant a rose where another rose grew?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000141",
+      "PKR-SRC-000156",
+      "PKR-SRC-000268",
+      "PKR-SRC-000270",
+      "PKR-SRC-000279",
+      "PKR-SRC-000290",
+      "PKR-SRC-000292"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000017"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000018"
+      }
+    ],
+    "preserved_uncertainty": "Sources disagree on how real replant disease is and what to do about it (C-4). No comparison of remedies in home gardens was found (R-3). The amount of soil to replace differs, including between two pages of the same body. That the cause is not established (AF-12), and that the problem can persist for at least nine years (AF-14, one source, not said of roses), are not used.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Can I plant a rose where another rose grew?",
+    "label": null,
+    "items": [
+      {
+        "text": "A new rose planted where a rose grew before may struggle to establish and may grow poorly. This is called replant disease.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-11"
+        ]
+      },
+      {
+        "text": "If you plant in the same spot, swap the soil in the planting hole for fresh soil from another part of the garden. Sources differ on how much to take out: from two buckets of soil, along with the old rose's roots, to a hole 45 to 60 cm (18 to 24 inches) across and 30 to 45 cm (12 to 18 inches) deep. One source gives planting somewhere else as another option.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-13"
+        ]
+      },
+      {
+        "text": "Experts disagree about replant disease. Several advise replacing the soil. One rose specialist calls that the old method and instead adds compost or well-rotted manure and treats the new rose with mycorrhizal fungi. That source reports that opinion is divided on whether the problem is real.",
+        "kind": "disagreement",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 C-4",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-13",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-11"
+        ]
+      },
+      {
+        "text": "I couldn't find a comparison of which remedy for replant disease works best in a home garden. A local rose society is the place to ask.",
+        "kind": "gap",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 R-3",
+          "rule 5"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "planting",
+        "topic_title": "Planting and moving",
+        "order": 5
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

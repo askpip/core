@@ -4,12 +4,12 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.4
+**Version:** 0.5
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `AI/Context/Ask_Pip_App_Build_Status_Context.md`
-**Last Updated:** 5 October 2026
+**Last Updated:** 6 October 2026
 **Purpose:** To give any artificial intelligence (AI) or Founder a current, accurate snapshot of what is actually built in the Ask Pip application, what is deliberately deferred and why, and what remains blocked pending Founder-approved knowledge — without requiring that state to be reconstructed from git history, conversation history or a fresh reading of every source file.
 **Related Documents:** `AGENTS.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `MVP/Architecture/Ask_Pip_App_Engineering_Architecture.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `Working/AI Outputs/Ask_Pip_Bush_Rose_Guided_Journey_Flow_Proposal.md`; `AI/Context/Ask_Pip_App_Known_Issues_and_Process_Notes_Context.md`
 
@@ -113,7 +113,8 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
   - "Can I kill my rose by pruning too hard?" reads PKR-CGD-000007.
   - "Why isn't my rose flowering?" reads PKR-CGD-000008. Opened on a plant's page, it also offers the blind-shoot check for that plant.
 - "Should I spray my roses?" reads PKR-CGD-000009, the lead question of the Spraying topic (published 5 October 2026). Its answer offers the topic's six other answers, PKR-CGD-000010 to PKR-CGD-000015, under "More about spraying". "Black spots on the leaves?" offers them too.
-- **One question has no approved answer yet:** "When can I plant or move a rose?". It says Pip is still learning, and records the tap in the table `public.question_interest`. A failed insert never affects the gardener.
+- "When can I plant or move a rose?" reads PKR-CGD-000016, the lead question of the Planting and moving topic (published 6 October 2026). Its answer offers the topic's five other answers, PKR-CGD-000017 to PKR-CGD-000021, under "More about planting and moving".
+- **Every question in the list now has an approved answer.** A question with none says Pip is still learning, and records the tap in the table `public.question_interest`; a failed insert never affects the gardener. That path is kept for questions added later.
 - **Missing statements.** A question whose statements cannot be found in the Published records is left out.
 - **Wording.** The question wording is app copy, approved "for now" by a Founder in chat on 2 October 2026.
 
@@ -151,13 +152,13 @@ Both are in the code on `main` at commit `7bf0f2c`. This section was written fro
 
 Built so that a subject's whole body of approved findings reaches gardeners, in short answers, without typed questions. Governed by PKR Standard §5.7 and the Pip Knowledge Rules §3A (Version 0.3: plain words, sources under the answer, and only what helps a gardener).
 
-**Topics** (`App/src/data/commonQuestions.ts`, `App/src/data/pkr.ts`). A Care Guidance record may carry `content.presentation.question_answer` (`topic`, `topic_title`, `order`). `publishedQuestionAnswers()` reads every such Published record. The record with order 1 is the topic's lead question. A built-in question becomes the lead once its topic is Published (`TOPIC_FOR`; so far `spraying`), and stays "still learning" until then. The other records in the topic are offered under the answer as "More about …", and each of those offers the rest. Follow-up answers are keyed `pkr:<record id>` and need no app release when a new one is published. "Black spots on the leaves?" offers the spraying topic's answers once they are Published, and its first line then stops saying Pip can't say how to treat it.
+**Topics** (`App/src/data/commonQuestions.ts`, `App/src/data/pkr.ts`). A Care Guidance record may carry `content.presentation.question_answer` (`topic`, `topic_title`, `order`). `publishedQuestionAnswers()` reads every such Published record. The record with order 1 is the topic's lead question. A built-in question becomes the lead once its topic is Published (`TOPIC_FOR`: `spraying`, and `plant-move` for the topic `planting`), and stays "still learning" until then. The other records in the topic are offered under the answer as "More about …", and each of those offers the rest. Follow-up answers are keyed `pkr:<record id>` and need no app release when a new one is published. "Black spots on the leaves?" offers the spraying topic's answers once they are Published, and its first line then stops saying Pip can't say how to treat it.
 
 **Local statements** (`App/src/lib/place.ts`). A statement may carry `place`, a list of country codes. `countryCodeFor(plant)` gives the plant's country from the country typed in its journal entry (New Zealand, Australia, the United Kingdom, the United States, Canada), or from its saved position where that is unambiguous (New Zealand and Australia only). `CommonQuestions` takes `countryCode` and shows a marked statement only where it matches. Where the country isn't known, marked statements are left out and one line says so. Only the plant page passes a country; the Welcome and plant-list pages have no plant, so they never show local statements. Not yet built: asking a gardener which country a GPS-located plant is in, when it is outside New Zealand and Australia.
 
 **Limits and labels** (`App/src/components/PkrStatements.tsx`). `StatementLimit` shows a statement's `limit` under it in smaller type. `StatementTag` shows the confidence level, or "Precaution" with the level, or "Sources disagree", or "No source found", or nothing for app framing, by the statement's `kind`.
 
-**Checked** in a headless browser at phone widths (390 and 320 pixels), first against test copies of the seven spraying records and again on 5 October 2026 against the published records, for six cases: no plant; New Zealand by name; Australia by position; the United States; the United Kingdom; and a position in Canada, which correctly gives no country. The build passes. Not checked: the signed-in screens, and a real phone.
+**Checked** in a headless browser at phone widths (390 and 320 pixels), first against test copies of the seven spraying records and again on 5 October 2026 against the published records, and on 5 October 2026 against test copies of the six planting and moving records (identical in wording to those published), for six cases: no plant; New Zealand by name; Australia by position; the United States; the United Kingdom; and a position in Canada, which correctly gives no country. The build passes. Not checked: the signed-in screens, and a real phone.
 
 # 4. Phase B — Blocked on Founder-Approved Knowledge
 

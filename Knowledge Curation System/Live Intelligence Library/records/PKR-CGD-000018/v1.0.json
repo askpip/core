@@ -1,0 +1,144 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000018",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "How do I plant a rose?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000097",
+      "PKR-SRC-000152",
+      "PKR-SRC-000156",
+      "PKR-SRC-000229",
+      "PKR-SRC-000253",
+      "PKR-SRC-000270",
+      "PKR-SRC-000271",
+      "PKR-SRC-000272",
+      "PKR-SRC-000273",
+      "PKR-SRC-000277",
+      "PKR-SRC-000278",
+      "PKR-SRC-000279",
+      "PKR-SRC-000280",
+      "PKR-SRC-000281",
+      "PKR-SRC-000282",
+      "PKR-SRC-000284",
+      "PKR-SRC-000285",
+      "PKR-SRC-000286",
+      "PKR-SRC-000289",
+      "PKR-SRC-000291"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000016"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000019"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-SGT-000003"
+      }
+    ],
+    "preserved_uncertainty": "Soaking times differ from one hour to 24 hours (C-2). Storage advice for a bare-root rose differs. Hole sizes differ. Sources disagree on pruning at planting (C-6), consistent with the conflict preserved in ARC-BUSHROSE-RECENTPLANT-01. One source cuts the whole root system back by a third, and one says not to cut roots that are too large for the hole. The mound method is described mainly by Australian sources. Planting a potted rose at its container depth rests on two New Zealand sources.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "How do I plant a rose?",
+    "label": null,
+    "items": [
+      {
+        "text": "Plant a bare-root rose (one sold without soil on its roots) soon after you get it, and don't let its roots dry out.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-5"
+        ]
+      },
+      {
+        "text": "If you can't plant a bare-root rose straight away, keep it in its packaging somewhere cool and safe from frost. One source allows up to two weeks, with the roots kept moist, and another up to three weeks.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-5"
+        ]
+      },
+      {
+        "text": "Soak the roots of a bare-root rose in water before planting.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-17"
+        ]
+      },
+      {
+        "text": "Soak a bare-root rose's roots for anywhere from one hour to 24 hours before planting. Sources differ within that range. Two say not to soak for longer than 24 hours, and one of them says it may damage the roots.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-18",
+          "ARC-BUSHROSE-PLANTMOVE-01 C-2"
+        ]
+      },
+      {
+        "text": "Trim off any damaged or broken roots before planting. One source says not to cut off roots that are too large for the hole, but to dig a bigger hole.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-19"
+        ]
+      },
+      {
+        "text": "Dig the planting hole wider than the roots. Several sources say about twice as wide.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-15"
+        ]
+      },
+      {
+        "text": "For a bare-root rose, make a mound of soil in the bottom of the hole and spread the roots over it.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-16"
+        ]
+      },
+      {
+        "text": "Plant a potted rose at the same depth it was growing in its pot. Advice on where the bud union (the knobbly join near the base where the rose was grafted) should sit differs, so check that too.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-23",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-20"
+        ]
+      },
+      {
+        "text": "Water the rose in well as soon as it is planted.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-24"
+        ]
+      },
+      {
+        "text": "Experts disagree on whether to prune a bare-root rose at planting. Some cut the stems back when they plant. One source says a packaged rose has already been pruned and rarely needs more, and another prunes in the first winter after planting.",
+        "kind": "disagreement",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 C-6",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-25"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "planting",
+        "topic_title": "Planting and moving",
+        "order": 3
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

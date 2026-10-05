@@ -1,0 +1,40 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000286",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Iowa State University Extension and Outreach (Aaron Steil) — \"How to Plant Bare Root Shrubs and Roses\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension, US",
+    "identity": "Iowa State University Extension and Outreach (Aaron Steil), \"How to Plant Bare Root Shrubs and Roses\", January 2025. University extension, US. https://yardandgarden.extension.iastate.edu/how-to/how-plant-bare-root-shrubs-and-roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:ISU)",
+    "url": "https://yardandgarden.extension.iastate.edu/how-to/how-plant-bare-root-shrubs-and-roses",
+    "register_code": "PLANTMOVE:ISU",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

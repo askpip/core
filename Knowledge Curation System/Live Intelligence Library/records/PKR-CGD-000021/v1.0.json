@@ -1,0 +1,141 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000021",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "How do I move an established rose?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000229",
+      "PKR-SRC-000269",
+      "PKR-SRC-000270",
+      "PKR-SRC-000274",
+      "PKR-SRC-000275",
+      "PKR-SRC-000276",
+      "PKR-SRC-000283",
+      "PKR-SRC-000287",
+      "PKR-SRC-000288",
+      "PKR-SRC-000289",
+      "PKR-SRC-000291",
+      "PKR-SRC-000294"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000016"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000020"
+      }
+    ],
+    "preserved_uncertainty": "How much to cut back before a move differs widely (C-5). Sources differ on whether to keep the soil on the roots (C-10). Stated digging distances mix distance out from the plant with width across. Evidence on moving comes mainly from nurseries, garden companies, rosarians and short extension answers; all New Zealand moving sources are commercial (R-4). No source gives success rates or a rose-specific age limit (R-1). That moving a rose is forgiving (AF-35) is on record only (C-7).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "How do I move an established rose?",
+    "label": null,
+    "items": [
+      {
+        "text": "Move an established rose while it is dormant, which means it is not actively growing. Most sources say winter. Some say late autumn or early spring.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-26"
+        ]
+      },
+      {
+        "text": "In New Zealand, one garden centre says the best time to move a rose is after pruning in July, while it is dormant, and once the risk of frost has passed. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-28",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Cut the top growth back before a winter move. Sources differ on how much: from cutting it back by a third, to cutting it down to 25 to 30 cm (10 to 12 inches), to cutting it right back to 3 to 5 buds above the base.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-29",
+          "ARC-BUSHROSE-PLANTMOVE-01 C-5"
+        ]
+      },
+      {
+        "text": "Dig wide around the rose and keep as many of the roots as you can. Sources give different distances, from about 25 cm (10 inches) out from the base to as much as 60 cm (24 inches), and one says the larger the better.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-30",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-31"
+        ]
+      },
+      {
+        "text": "Sources differ on the soil around the roots. For a winter move, one shakes the soil off and replants the rose like a bare-root one, and one says to keep as large a root ball as you can. For a move in the growing season, one says to keep as much soil on the roots as possible.",
+        "kind": "disagreement",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 C-10",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-30"
+        ]
+      },
+      {
+        "text": "One source says it is very important to keep the roots moist until the rose is replanted. Another waters the soil well the day before the move.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-32"
+        ]
+      },
+      {
+        "text": "Water the rose well once it is replanted, and keep it watered until it recovers. Sources differ on how long: from every day for a week or two, to watering in dry spells through the first year.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-33"
+        ]
+      },
+      {
+        "text": "A rose can be moved in the growing season if you have to. It will need extra watering afterwards. Sources disagree on whether to cut it back first.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-27"
+        ]
+      },
+      {
+        "text": "One source says a rose that has been settled for many years becomes tricky to move. Another lists roses among plants that dislike having their roots disturbed.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-34"
+        ]
+      },
+      {
+        "text": "I couldn't find how often a moved rose survives, or an age beyond which a rose is too old to move. A local rose society is the place to ask.",
+        "kind": "gap",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-37",
+          "ARC-BUSHROSE-PLANTMOVE-01 R-1",
+          "rule 5"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "planting",
+        "topic_title": "Planting and moving",
+        "order": 6
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

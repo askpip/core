@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 342,
-  "published_count": 306,
+  "record_count": 382,
+  "published_count": 339,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -146,6 +146,54 @@
       "status": "Published",
       "title": "What should I do about aphids?",
       "sha256": "69b63d6c8f23d45db294d3cf8398978eee3a2c9ce239156cdf25bfeb9405cbff"
+    },
+    {
+      "pkr_id": "PKR-CGD-000016",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When can I plant or move a rose?",
+      "sha256": "3f3a07746ea5ad3840a0576b6b2496478597ca962939f09738554c24c2dc460a"
+    },
+    {
+      "pkr_id": "PKR-CGD-000017",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Where should I plant a rose?",
+      "sha256": "f0190b442928f9db4fb58d21a3a2bf78025d62d61f707e50e5cc515526a9018e"
+    },
+    {
+      "pkr_id": "PKR-CGD-000018",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "How do I plant a rose?",
+      "sha256": "d1ba97a034f52d0fd98dca9c752a129f50f459de64f884dac544e603b4574d42"
+    },
+    {
+      "pkr_id": "PKR-CGD-000019",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "How deep should I plant the bud union?",
+      "sha256": "8b2855651401532c098f5dcce1dab8f87a14e8f558ffdb534a3f14d177e6a10b"
+    },
+    {
+      "pkr_id": "PKR-CGD-000020",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Can I plant a rose where another rose grew?",
+      "sha256": "7c819bd97c1b2d97ad718bd73f61ab48bedfc39292b9063596e5eddb45c8a16e"
+    },
+    {
+      "pkr_id": "PKR-CGD-000021",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "How do I move an established rose?",
+      "sha256": "b271acf02e55b57a90abfe410875bbd4bd97d97c8348b5ec08e66cc97ca6c689"
     },
     {
       "pkr_id": "PKR-DEC-000001",
@@ -679,9 +727,17 @@
       "pkr_id": "PKR-SRC-000034",
       "version": "1.2",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The New Zealand Rose Society — FAQ",
       "sha256": "6df5be7d2f494e291e380d1caaddb0fa0f2d9865dd0c6cf9a4b5333205805f5f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000034",
+      "version": "1.3",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The New Zealand Rose Society — FAQ",
+      "sha256": "d7208a15b3e6d60836f03c8e0135be3712cabacd7e471508fc4882c74d987a8d"
     },
     {
       "pkr_id": "PKR-SRC-000035",
@@ -1255,9 +1311,17 @@
       "pkr_id": "PKR-SRC-000097",
       "version": "1.2",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rose Society of NSW — Rose Growing Advice",
       "sha256": "e73484358375de75f14fe7ec1ebb3cc86801208f9f24ff26776f9a6429faefb9"
+    },
+    {
+      "pkr_id": "PKR-SRC-000097",
+      "version": "1.3",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of NSW — Rose Growing Advice",
+      "sha256": "0151888f9948b66101aebb897810054de735e8d9a07fb196353c1e47e590e408"
     },
     {
       "pkr_id": "PKR-SRC-000098",
@@ -1687,9 +1751,17 @@
       "pkr_id": "PKR-SRC-000141",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — Rose problems: frequently asked questions",
       "sha256": "6ad0a77fa3c4d553c60e6b1e32898ba0d2ebcdca22d9cfa8966c3d9b4dd56d8a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000141",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — Rose problems: frequently asked questions",
+      "sha256": "bca7ebd54a6f13183ad6ebd9149dd19f75e58227887cdbfc1086d55882828af6"
     },
     {
       "pkr_id": "PKR-SRC-000142",
@@ -1775,9 +1847,17 @@
       "pkr_id": "PKR-SRC-000152",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Oregon State University Extension via Ask Extension — Plant rose bud union above or below the soil? (#740633)",
       "sha256": "bf7083f3f50c262f3f7b5aa2e0e985fe369de3d295dedc3d539d14dd9ab4ed1c"
+    },
+    {
+      "pkr_id": "PKR-SRC-000152",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Oregon State University Extension via Ask Extension — Plant rose bud union above or below the soil? (#740633)",
+      "sha256": "ff28f17b37f976583ab3fcce6b7a0580de567a84ad2d975345796264a98caedd"
     },
     {
       "pkr_id": "PKR-SRC-000153",
@@ -1807,9 +1887,17 @@
       "pkr_id": "PKR-SRC-000156",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — Roses: planting",
       "sha256": "7c9aec9cc2670e20bb3a9c6bf794eb2eda3b74b4274e6c92a54ff0d08459200d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000156",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — Roses: planting",
+      "sha256": "dbf7f50f744c36d9fc55e9fa4f285a075c9b8ddbddec9f9976cc04c2ecc8bc21"
     },
     {
       "pkr_id": "PKR-SRC-000157",
@@ -2431,9 +2519,17 @@
       "pkr_id": "PKR-SRC-000229",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
       "sha256": "586750eb68c20104312a18463fd1cddf9f26499c55920160b2593557fe38a359"
+    },
+    {
+      "pkr_id": "PKR-SRC-000229",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
+      "sha256": "4e833af903d293eeabc0bf0a97224d0f7197595bbbf24a2e1e4e448d9b55491e"
     },
     {
       "pkr_id": "PKR-SRC-000230",
@@ -2623,9 +2719,17 @@
       "pkr_id": "PKR-SRC-000253",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Auckland Botanic Gardens — \"Roses\"",
       "sha256": "2d62bc7f5ec31679a351d6071c6f39088e4e56cb6dbe49cfa79304c0932d01eb"
+    },
+    {
+      "pkr_id": "PKR-SRC-000253",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Auckland Botanic Gardens — \"Roses\"",
+      "sha256": "240cc129d769e640bad70d92659e10cec66440ea054e92654c861af0c2b28bee"
     },
     {
       "pkr_id": "PKR-SRC-000254",
@@ -2738,6 +2842,222 @@
       "status": "Published",
       "title": "Eutrema (Russell) — \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\"",
       "sha256": "87478813f8367612f3e8c89975f9a7e0a065f252afb089f77e15e7445140d353"
+    },
+    {
+      "pkr_id": "PKR-SRC-000268",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Replant disease\"",
+      "sha256": "64f82c6d8c5244e8f2de046ade1d874ea368f27a60e29a52a8bdc73adcd31e42"
+    },
+    {
+      "pkr_id": "PKR-SRC-000269",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Moving trees and shrubs\"",
+      "sha256": "04288e27d17a01e409496d2b279fdc74719ba57c0495593e9850789626b7142d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000270",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"Moving a Rose: A Step-by-Step Guide\"",
+      "sha256": "3316f1a017ff092f7fd27f278d5f3ebd3c4b76578de27a9b2e1fd7b92f80153e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000271",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\"",
+      "sha256": "fc7af0cf5ce75e35a893a40695820625747bd585ae3c6b99b152055e0b4fcf39"
+    },
+    {
+      "pkr_id": "PKR-SRC-000272",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Yates New Zealand — \"How to Grow Glorious Roses\"",
+      "sha256": "53326b5a4a70c8d96f6fb863890ca5e60ae48be005bfeeefb7764a4bc112f103"
+    },
+    {
+      "pkr_id": "PKR-SRC-000273",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Palmers — \"How to Grow Bush Roses\"",
+      "sha256": "4b4d672b6553666610833427d046cd9cae8f8ca829c6262958eb21f766ea1952"
+    },
+    {
+      "pkr_id": "PKR-SRC-000274",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Palmers — \"Most Frequently Asked Rose Questions\"",
+      "sha256": "177d5067463f49375f771eade013e165bc51665017170d3275cccdd9958b2a79"
+    },
+    {
+      "pkr_id": "PKR-SRC-000275",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Tui Garden — \"Transplanting trees, shrubs, roses, perennials and bulbs\"",
+      "sha256": "324d6b8dd6c77776e3012d568ae9af7ae028cde9ef6f0496d6046c9290754d65"
+    },
+    {
+      "pkr_id": "PKR-SRC-000276",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Tui Garden — \"What is the best way to shift my rose?\"",
+      "sha256": "72538077b50f36bf733e5de83cecaf3ce1b0bee203c1f853718147bad8ce9f35"
+    },
+    {
+      "pkr_id": "PKR-SRC-000277",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Amore Roses — \"How To Grow Roses - A Guide To Our Rose Breeds\"",
+      "sha256": "ebd67143edc1fc820ffc02ec2f652037a0158b675ac2ad82f2a3c549efd741cd"
+    },
+    {
+      "pkr_id": "PKR-SRC-000278",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Rose Society of NSW — \"Rose Care Calendar\"",
+      "sha256": "bbffcfee79e867faf5b2dd83abb9c3d482fe889d652cc26238a959dae06ca1c6"
+    },
+    {
+      "pkr_id": "PKR-SRC-000279",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Rose Society of South Australia Inc. — \"Rose Growing Guide\"",
+      "sha256": "f71e78ca0e32c56d9f11b5381ea298cd0477502dc1c14eb7893a8de6ce08e32b"
+    },
+    {
+      "pkr_id": "PKR-SRC-000280",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Sophie Thomson) — \"Planting Roses\"",
+      "sha256": "70d0c1abac49bce0f37a624d020e768892bd1f4b1b6d17c701f74b92ce653c3a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000281",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Sophie Thomson) — \"Rosy Road Trip - Bare-rooted Roses\"",
+      "sha256": "bdfe0e38709927ad4a6d738f8c2228fe9138b1cde126c5b454666b0c485bf435"
+    },
+    {
+      "pkr_id": "PKR-SRC-000282",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia magazine (Loren Desbruslais) — \"Growing roses 101\"",
+      "sha256": "f28da0e2a22db10b271c6e34342d02559db93e5b32541173fbcbf99d634719a2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000283",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Treloar Roses — \"Transplanting established roses\"",
+      "sha256": "eef9e68fb499fbdd78cc1aa554f194ebe8c4dd63c1752efd49cd21ac53673322"
+    },
+    {
+      "pkr_id": "PKR-SRC-000284",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Colorado State University Extension (O'Connor, Nelson, Swift, Heins) — \"Selecting and Planting Roses\"",
+      "sha256": "49c58f0df203f666daf652689b7773c171ba73ffacc58446af96881b733eca15"
+    },
+    {
+      "pkr_id": "PKR-SRC-000285",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Missouri Extension (rev. Dave Trinklein) — \"Roses: Selecting and Planting\"",
+      "sha256": "6efb3fd5334d81092621d61f7f634443a930801a583932ef288623d3dfa30ea8"
+    },
+    {
+      "pkr_id": "PKR-SRC-000286",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Iowa State University Extension and Outreach (Aaron Steil) — \"How to Plant Bare Root Shrubs and Roses\"",
+      "sha256": "e3a79cfba724904b38b83fb026fc0581896e9ec5a405786f826a41d722ed8468"
+    },
+    {
+      "pkr_id": "PKR-SRC-000287",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Arkansas Cooperative Extension Service — \"Transplanting\"",
+      "sha256": "a8da74492df6c1b039270c429452189967686289c6c2a94c7f206d4395a820f8"
+    },
+    {
+      "pkr_id": "PKR-SRC-000288",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Ask Extension — \"Timing for transplanting rose bushes\"",
+      "sha256": "51a9f21c19065e412acfe90c9d68be7fa4256864c92f8d9b1f26f281c4548db5"
+    },
+    {
+      "pkr_id": "PKR-SRC-000289",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Elisabeth C. Miller Library, University of Washington, Plant Answer Line — \"Transplanting roses\"",
+      "sha256": "ca8189d61afa43f96e0db333b6cb294fb146fe89420a0f145b1b92f3729499ce"
+    },
+    {
+      "pkr_id": "PKR-SRC-000290",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Zlesak — \"Advanced in Understanding Rose Replant Disease\"",
+      "sha256": "acad67bdca4e92fa094c0695aa5edeb09bb20939ef79bfbfde93334562a827f8"
+    },
+    {
+      "pkr_id": "PKR-SRC-000291",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Ron Daniels, ARS Master Consulting Rosarian, Nashville Rose Society — \"Transplanting and Moving Rose Bushes\"",
+      "sha256": "9c8ced64f11eab1861e8dad5bba232793d68b35b45842729c65db089fb70f63e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000292",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Paul Zimmerman, Fine Gardening — \"Planting Roses where roses used to be. Do you have to remove all the old soil??\"",
+      "sha256": "4bf42c9af7e30422ef4b9b3e1a5006b25f631630b568b0146330fd21f536d59e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000293",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Paul Zimmerman, Fine Gardening — \"What Is The Proper Spacing When Planting Roses?\"",
+      "sha256": "25615576820c27543ff971512edf913bae4b72213887ab4e81ab600293973cd2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000294",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Heirloom Roses (Robin Jennings) — \"How To Transplant or Move a Rose Bush\"",
+      "sha256": "e03522cbdac92b3140a116d323353574d1ff1b928d0af0aa43fa026216742bf9"
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000097",
+  "version": "1.3",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Rose Society of NSW — Rose Growing Advice",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Quote found: \"no less than 10mm\". The page title is \"Rose Growing Advice\"; the dossier records \"Growing Roses\".",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-6 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-10 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-11 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "Rose Society of NSW, \"Rose Growing Advice\" (growing-roses page); web address <https://nsw.rose.org.au/growing-roses>, accessed 29 September 2026; FRD code RSNSW",
+    "url": "https://nsw.rose.org.au/growing-roses",
+    "register_code": null,
+    "relevance": "Supports AF-5. Verification: Quote found: \"no less than 10mm\". The page title is \"Rose Growing Advice\"; the dossier records \"Growing Roses\"."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.3: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:RSNSW-G). Nothing else changed. Version 1.2 retired."
+  }
+}

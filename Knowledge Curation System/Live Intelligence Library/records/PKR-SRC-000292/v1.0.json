@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000292",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Paul Zimmerman, Fine Gardening — \"Planting Roses where roses used to be. Do you have to remove all the old soil??\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Gardening magazine (rose specialist author), US",
+    "identity": "Paul Zimmerman, Fine Gardening, \"Planting Roses where roses used to be. Do you have to remove all the old soil??\", 17 November 2011; modified 26 July 2023. Gardening magazine (rose specialist author), US. https://www.finegardening.com/article/planting-roses-where-roses-used-to-be-do-you-have-to-remove-all-the-old-soil, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:FG-RRD)",
+    "url": "https://www.finegardening.com/article/planting-roses-where-roses-used-to-be-do-you-have-to-remove-all-the-old-soil",
+    "register_code": "PLANTMOVE:FG-RRD",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

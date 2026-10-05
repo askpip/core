@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000274",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Palmers — \"Most Frequently Asked Rose Questions\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-28 (Low)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden centre), New Zealand",
+    "identity": "Palmers, \"Most Frequently Asked Rose Questions\", date not shown. Commercial (garden centre), New Zealand. https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:PALM-FAQ)",
+    "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
+    "register_code": "PLANTMOVE:PALM-FAQ",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000034",
+  "version": "1.3",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The New Zealand Rose Society — FAQ",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Given in a pruning answer, not specifically about classification.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-24 (Moderate)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-25 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-17 (Low) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "The New Zealand Rose Society, \"FAQ\", https://nzroses.org.nz/faq/, accessed 27 September 2026 (FRD code NZRS-Q)",
+    "url": "https://nzroses.org.nz/faq/",
+    "register_code": null,
+    "relevance": "Directs an unsure gardener to a local rose society or a pruning demonstration."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.3: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:NZRS-FAQ). Nothing else changed. Version 1.2 retired."
+  }
+}

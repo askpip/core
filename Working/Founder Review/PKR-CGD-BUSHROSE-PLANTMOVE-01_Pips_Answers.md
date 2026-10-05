@@ -1,5 +1,7 @@
 # Pip's Answers — Planting and Moving a Rose
 
+> **Approved and published, 6 October 2026.** A Founder approved these answers on the form ("Approve. Publish these answers."). They are published as PKR-CGD-000016 to PKR-CGD-000021, and the research is filed as `ARC-BUSHROSE-PLANTMOVE-01`. This document is kept as the record of what was approved.
+
 This is everything Pip would say about planting a rose and moving one. **You are asked for one thing: approval of these answers.** Approving them also approves the research behind them and lets them be published. Nothing else needs reading.
 
 ## 1. What gardeners will see

@@ -1,0 +1,124 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000019",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "How deep should I plant the bud union?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000152",
+      "PKR-SRC-000156",
+      "PKR-SRC-000270",
+      "PKR-SRC-000271",
+      "PKR-SRC-000272",
+      "PKR-SRC-000273",
+      "PKR-SRC-000275",
+      "PKR-SRC-000277",
+      "PKR-SRC-000278",
+      "PKR-SRC-000279",
+      "PKR-SRC-000280",
+      "PKR-SRC-000281",
+      "PKR-SRC-000284",
+      "PKR-SRC-000285",
+      "PKR-SRC-000286"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000018"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-SGT-000003"
+      }
+    ],
+    "preserved_uncertainty": "Recommended bud-union depth differs: above the soil, at soil level or below it (C-1), consistent with ARC-BUSHROSE-SUCKERS-01 AF-12. The difference follows climate in the sources that give a reason. No New Zealand non-commercial source states a depth, and none addresses New Zealand's colder districts (R-2). In the UK a rose nursery buries the union where the Royal Horticultural Society says not to. No source was read for countries other than New Zealand, Australia, the UK and the US.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "How deep should I plant the bud union?",
+    "label": null,
+    "items": [
+      {
+        "text": "Experts disagree on how deep to plant the bud union (the knobbly join near the base where the rose was grafted). Advice ranges from up to 5 cm (2 inches) above the soil, to level with it, to as much as 10 cm (4 inches) below. Sources that give a reason for burying it are speaking of places with cold winters, and say it protects the rose from the cold. Two sources give reasons against burying it: a reported risk of dieback, and, in mild climates, disease at the union.",
+        "kind": "disagreement",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 C-1",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-20",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-22"
+        ]
+      },
+      {
+        "text": "In New Zealand and Australia, plant the bud union level with the soil or up to 5 cm above it.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ",
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-21"
+        ]
+      },
+      {
+        "text": "In the UK, sources differ on the bud union. One says to plant it at soil level, not below, because burying it is reported to raise the risk of dieback. A UK rose nursery sets it about 5 cm below the soil when replanting a rose.",
+        "kind": "disagreement",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 C-1",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-20",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-22"
+        ]
+      },
+      {
+        "text": "In the US, extension sources in places with cold winters plant the bud union below the soil, from slightly below to 4 inches (about 10 cm) down. In one mild area, one source plants it an inch above. Ask your local extension service what is done where you live.",
+        "confidence": "Moderate",
+        "place": [
+          "US"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-22",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "I couldn't find advice on how deep to plant the bud union in New Zealand's colder districts. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 R-2",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "The advice I found on how deep to plant the bud union comes from New Zealand, Australia, the UK and the US. If your rose is somewhere else, a local rose society is the place to ask.",
+        "kind": "gap",
+        "trace": [
+          "rule 5",
+          "commission scope"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "planting",
+        "topic_title": "Planting and moving",
+        "order": 4
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

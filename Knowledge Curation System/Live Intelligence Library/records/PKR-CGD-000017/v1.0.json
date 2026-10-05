@@ -1,0 +1,100 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000017",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Where should I plant a rose?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000141",
+      "PKR-SRC-000156",
+      "PKR-SRC-000229",
+      "PKR-SRC-000253",
+      "PKR-SRC-000268",
+      "PKR-SRC-000270",
+      "PKR-SRC-000271",
+      "PKR-SRC-000272",
+      "PKR-SRC-000273",
+      "PKR-SRC-000277",
+      "PKR-SRC-000279",
+      "PKR-SRC-000282",
+      "PKR-SRC-000284",
+      "PKR-SRC-000285",
+      "PKR-SRC-000290",
+      "PKR-SRC-000292",
+      "PKR-SRC-000293"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000016"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000020"
+      }
+    ],
+    "preserved_uncertainty": "The minimum hours of sun stated range from four to six. For heavy soil, some sources suggest raised beds or mounds and others gypsum, some with compost. Stated spacing differs, and only one figure is said of a bush rose. Why roses are spaced is disputed (C-8), which is on record only.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Where should I plant a rose?",
+    "label": null,
+    "items": [
+      {
+        "text": "Choose a sunny spot. Sources give a minimum of four to six hours of direct sun a day.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-6"
+        ]
+      },
+      {
+        "text": "Roses need soil that drains well. Where the soil is heavy or drains poorly, some sources suggest a raised bed or mound, and others suggest digging in gypsum or compost.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-7"
+        ]
+      },
+      {
+        "text": "Keep roses away from the roots of nearby trees and shrubs, which compete with them.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-8"
+        ]
+      },
+      {
+        "text": "How far apart to plant depends on the type of rose and how big it will grow, so check the label. Where sources give a distance, it is about 50 cm to 1 m (20 inches to 3 feet). One gives 75 to 90 cm (2½ to 3 feet) for hybrid tea roses.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-9"
+        ]
+      },
+      {
+        "text": "A new rose planted where a rose grew before may struggle to establish and may grow poorly. One source suggests choosing a spot where roses haven't grown.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-11",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-13"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "planting",
+        "topic_title": "Planting and moving",
+        "order": 2
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

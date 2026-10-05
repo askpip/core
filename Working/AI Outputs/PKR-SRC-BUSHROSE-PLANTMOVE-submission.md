@@ -1,8 +1,8 @@
-# PKR Submission Package — Source PKRs for Planting and Moving (v0.3, Draft)
+# PKR Submission Package — Source PKRs for Planting and Moving (v1.0, Published)
 
-**Draft, awaiting a Founder's approval.** Supports `PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md`. Built by KIT on 5 October 2026 from the Source Register of `FRD-BUSHROSE-PLANTMOVE-01` (`Working/AI Outputs/Source_Register_PLANTMOVE.json`, as corrected at the Build Check). Only sources that at least one finding relies on get a Source PKR.
+**Published 6 October 2026**, with `PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md`, on a Founder's approval of Pip's answers (Pip's Answers Form, 6 October 2026). Built by KIT on 5 October 2026 from the Source Register of `ARC-BUSHROSE-PLANTMOVE-01` (§8; `Working/AI Outputs/Source_Register_PLANTMOVE.json`). Only sources that at least one finding relies on get a Source PKR.
 
-**Matching (KIT PKR Build Skill §4):** every relied-on source was matched against the Published Source PKRs by web address. 7 match and are reused (Part B: on approval, a new version with the new MIL references, and the old version retired). 27 have no match and get new Source PKRs (Part A). Matching was by address only; a page that moved to a new address would appear here as new. IDs reserved: PKR-SRC-000268 to PKR-SRC-000294.
+**Matching (KIT PKR Build Skill §4):** every relied-on source was matched against the Published Source PKRs by web address. 7 match and are reused (Part B: a new version with the new MIL references added; the old version retired). 27 have no match and get new Source PKRs (Part A). Matching was by address only; a page that moved to a new address would appear here as new. IDs: PKR-SRC-000268 to PKR-SRC-000294.
 
 ## Part A — New Source PKRs
 
@@ -13,10 +13,10 @@
 | PKR ID | PKR-SRC-000268 |
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — "Replant disease" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -33,10 +33,10 @@
 | PKR ID | PKR-SRC-000269 |
 | PKR Type | Source PKR |
 | Title | Royal Horticultural Society — "Moving trees and shrubs" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -53,10 +53,10 @@
 | PKR ID | PKR-SRC-000270 |
 | PKR Type | Source PKR |
 | Title | David Austin Roses (Megan Edmondson) — "Moving a Rose: A Step-by-Step Guide" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -73,10 +73,10 @@
 | PKR ID | PKR-SRC-000271 |
 | PKR Type | Source PKR |
 | Title | David Austin Roses (Megan Edmondson) — "Planting Bare Root Roses: Step-by-Step for Garden and Pots" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -93,10 +93,10 @@
 | PKR ID | PKR-SRC-000272 |
 | PKR Type | Source PKR |
 | Title | Yates New Zealand — "How to Grow Glorious Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -113,10 +113,10 @@
 | PKR ID | PKR-SRC-000273 |
 | PKR Type | Source PKR |
 | Title | Palmers — "How to Grow Bush Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -133,10 +133,10 @@
 | PKR ID | PKR-SRC-000274 |
 | PKR Type | Source PKR |
 | Title | Palmers — "Most Frequently Asked Rose Questions" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -153,10 +153,10 @@
 | PKR ID | PKR-SRC-000275 |
 | PKR Type | Source PKR |
 | Title | Tui Garden — "Transplanting trees, shrubs, roses, perennials and bulbs" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -173,10 +173,10 @@
 | PKR ID | PKR-SRC-000276 |
 | PKR Type | Source PKR |
 | Title | Tui Garden — "What is the best way to shift my rose?" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -193,10 +193,10 @@
 | PKR ID | PKR-SRC-000277 |
 | PKR Type | Source PKR |
 | Title | Amore Roses — "How To Grow Roses - A Guide To Our Rose Breeds" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -213,10 +213,10 @@
 | PKR ID | PKR-SRC-000278 |
 | PKR Type | Source PKR |
 | Title | The Rose Society of NSW — "Rose Care Calendar" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -233,10 +233,10 @@
 | PKR ID | PKR-SRC-000279 |
 | PKR Type | Source PKR |
 | Title | The Rose Society of South Australia Inc. — "Rose Growing Guide" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -253,10 +253,10 @@
 | PKR ID | PKR-SRC-000280 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Sophie Thomson) — "Planting Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -273,10 +273,10 @@
 | PKR ID | PKR-SRC-000281 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Sophie Thomson) — "Rosy Road Trip - Bare-rooted Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -293,10 +293,10 @@
 | PKR ID | PKR-SRC-000282 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia magazine (Loren Desbruslais) — "Growing roses 101" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -313,10 +313,10 @@
 | PKR ID | PKR-SRC-000283 |
 | PKR Type | Source PKR |
 | Title | Treloar Roses — "Transplanting established roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -333,10 +333,10 @@
 | PKR ID | PKR-SRC-000284 |
 | PKR Type | Source PKR |
 | Title | Colorado State University Extension (O'Connor, Nelson, Swift, Heins) — "Selecting and Planting Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -353,10 +353,10 @@
 | PKR ID | PKR-SRC-000285 |
 | PKR Type | Source PKR |
 | Title | University of Missouri Extension (rev. Dave Trinklein) — "Roses: Selecting and Planting" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -373,10 +373,10 @@
 | PKR ID | PKR-SRC-000286 |
 | PKR Type | Source PKR |
 | Title | Iowa State University Extension and Outreach (Aaron Steil) — "How to Plant Bare Root Shrubs and Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -393,10 +393,10 @@
 | PKR ID | PKR-SRC-000287 |
 | PKR Type | Source PKR |
 | Title | University of Arkansas Cooperative Extension Service — "Transplanting" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -413,10 +413,10 @@
 | PKR ID | PKR-SRC-000288 |
 | PKR Type | Source PKR |
 | Title | Ask Extension — "Timing for transplanting rose bushes" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -433,10 +433,10 @@
 | PKR ID | PKR-SRC-000289 |
 | PKR Type | Source PKR |
 | Title | Elisabeth C. Miller Library, University of Washington, Plant Answer Line — "Transplanting roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -453,10 +453,10 @@
 | PKR ID | PKR-SRC-000290 |
 | PKR Type | Source PKR |
 | Title | David Zlesak — "Advanced in Understanding Rose Replant Disease" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -473,10 +473,10 @@
 | PKR ID | PKR-SRC-000291 |
 | PKR Type | Source PKR |
 | Title | Ron Daniels, ARS Master Consulting Rosarian, Nashville Rose Society — "Transplanting and Moving Rose Bushes" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -493,10 +493,10 @@
 | PKR ID | PKR-SRC-000292 |
 | PKR Type | Source PKR |
 | Title | Paul Zimmerman, Fine Gardening — "Planting Roses where roses used to be. Do you have to remove all the old soil??" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -513,10 +513,10 @@
 | PKR ID | PKR-SRC-000293 |
 | PKR Type | Source PKR |
 | Title | Paul Zimmerman, Fine Gardening — "What Is The Proper Spacing When Planting Roses?" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -533,10 +533,10 @@
 | PKR ID | PKR-SRC-000294 |
 | PKR Type | Source PKR |
 | Title | Heirloom Roses (Robin Jennings) — "How To Transplant or Move a Rose Bush" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | Supports PKR-CGD-000016 to PKR-CGD-000021 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -548,9 +548,9 @@
 
 ## Part B — Existing Source PKRs reused
 
-On approval each gets a new version with these MIL references added. Nothing else in the record changes.
+Each has a new Published version with these MIL references added, and its earlier version is Retired. Nothing else in the record changed.
 
-| Source PKR | Title | Version now | Version on approval | Register code | MIL references to add |
+| Source PKR | Title | Earlier version (Retired) | Version now (Published) | Register code | MIL references added |
 |---|---|---|---|---|---|
 | PKR-SRC-000156 | Royal Horticultural Society — Roses: planting | 1.0 | 1.1 | PLANTMOVE:RHS-PL | ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High); ARC-BUSHROSE-PLANTMOVE-01, AF-3 (Moderate); ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High); ARC-BUSHROSE-PLANTMOVE-01, AF-9 (Moderate); ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate); ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate); ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate); ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High); ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate); ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate) |
 | PKR-SRC-000141 | Royal Horticultural Society — Rose problems: frequently asked questions | 1.1 | 1.2 | PLANTMOVE:RHS-FAQ | ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate) |

@@ -1,0 +1,43 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000284",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Colorado State University Extension (O'Connor, Nelson, Swift, Heins) — \"Selecting and Planting Roses\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension, US",
+    "identity": "Colorado State University Extension (O'Connor, Nelson, Swift, Heins), \"Selecting and Planting Roses\", May 1996; reviewed August 2025. University extension, US. https://extension.colostate.edu/resource/selecting-and-planting-roses/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:CSU)",
+    "url": "https://extension.colostate.edu/resource/selecting-and-planting-roses/",
+    "register_code": "PLANTMOVE:CSU",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

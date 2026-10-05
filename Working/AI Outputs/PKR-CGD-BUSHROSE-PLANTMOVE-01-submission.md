@@ -1,12 +1,12 @@
-# PKR Submission Package — Planting and Moving: Six Question Answers (v0.3, Draft)
+# PKR Submission Package — Planting and Moving: Six Question Answers (v1.0, Published)
 
-**Draft, awaiting a Founder's approval.** Not published. Built by KIT on 5 October 2026 from `FRD-BUSHROSE-PLANTMOVE-01` as corrected by the Build Check (its §11), under the Pip Knowledge Rules v0.3. On approval the dossier becomes `ARC-BUSHROSE-PLANTMOVE-01` and these records are published. Sources are in `PKR-SRC-BUSHROSE-PLANTMOVE-submission.md`. IDs reserved: PKR-CGD-000016 to PKR-CGD-000021.
+**Published 6 October 2026.** A Founder approved these answers on the Pip's Answers Form ("Approve. Publish these answers.") and in chat on 6 October 2026. It was the first approval under the one-approval trial (`Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md` §1A): it covers the research, which is now `ARC-BUSHROSE-PLANTMOVE-01` (v1.0), Pip's words, and publishing. The statements are those in `Working/Founder Review/PKR-CGD-BUSHROSE-PLANTMOVE-01_Pips_Answers.md`, unchanged.
 
-This is the first package run under the one-approval trial (`Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md` §1A). What a Founder reads is `Working/Founder Review/PKR-CGD-BUSHROSE-PLANTMOVE-01_Pips_Answers.md`.
+Built by KIT on 5 October 2026 under the Pip Knowledge Rules v0.3. Sources are in `PKR-SRC-BUSHROSE-PLANTMOVE-submission.md`. IDs: PKR-CGD-000016 to PKR-CGD-000021 (new, Version 1.0).
 
 ## 1. Triage Record
 
-Every finding, conflict and gap of the dossier is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant?
+Every finding, conflict and gap of the research is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant?
 
 | Item | Use | Routed to |
 |---|---|---|
@@ -76,11 +76,11 @@ As in PKR Standard §5.7: Shown to (countries), Kind (precaution, gap, disagreem
 | PKR ID | PKR-CGD-000016 |
 | PKR Type | Care Guidance PKR |
 | Title | When can I plant or move a rose? |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question |
 | Supporting Source(s) | AF-1: PKR-SRC-000034, PKR-SRC-000097, PKR-SRC-000156, PKR-SRC-000229, PKR-SRC-000271, PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000279, PKR-SRC-000280, PKR-SRC-000282, PKR-SRC-000285; AF-2: PKR-SRC-000229, PKR-SRC-000273, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000282; AF-3: PKR-SRC-000156, PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000286; AF-4: PKR-SRC-000034, PKR-SRC-000156, PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000284, PKR-SRC-000285; AF-26: PKR-SRC-000229, PKR-SRC-000269, PKR-SRC-000270, PKR-SRC-000274, PKR-SRC-000275, PKR-SRC-000276, PKR-SRC-000283, PKR-SRC-000287, PKR-SRC-000289, PKR-SRC-000291, PKR-SRC-000294; AF-27: PKR-SRC-000270, PKR-SRC-000283, PKR-SRC-000287, PKR-SRC-000288, PKR-SRC-000294; AF-28: PKR-SRC-000274, PKR-SRC-000287, PKR-SRC-000291 |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | PKR-CGD-000017; PKR-CGD-000018; PKR-CGD-000021 |
 | Preserved Uncertainty or Limitations | Planting months differ by country and climate (C-3): the UK source gives late autumn or late winter to early spring, and cold-winter US sources prefer or require spring. New Zealand months come from garden centres only, and May in Australia from one source. Three New Zealand sources speak of roses in general, not bare-root roses. For potted roses two New Zealand pages still give a best season. Sources differ on the best point in the dormant season to move a rose (C-9). |
 | Evidence Confidence | See per-claim confidence |
@@ -111,11 +111,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000017 |
 | PKR Type | Care Guidance PKR |
 | Title | Where should I plant a rose? |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question |
 | Supporting Source(s) | AF-6: PKR-SRC-000229, PKR-SRC-000253, PKR-SRC-000271, PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000277, PKR-SRC-000279, PKR-SRC-000282, PKR-SRC-000284, PKR-SRC-000285; AF-7: PKR-SRC-000229, PKR-SRC-000253, PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000279, PKR-SRC-000282, PKR-SRC-000284, PKR-SRC-000285; AF-8: PKR-SRC-000279, PKR-SRC-000284, PKR-SRC-000285; AF-9: PKR-SRC-000156, PKR-SRC-000277, PKR-SRC-000282, PKR-SRC-000285, PKR-SRC-000293; AF-11: PKR-SRC-000141, PKR-SRC-000156, PKR-SRC-000268, PKR-SRC-000279, PKR-SRC-000290, PKR-SRC-000292; AF-13: PKR-SRC-000156, PKR-SRC-000268, PKR-SRC-000270, PKR-SRC-000279, PKR-SRC-000290, PKR-SRC-000292 |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | PKR-CGD-000016; PKR-CGD-000020 |
 | Preserved Uncertainty or Limitations | The minimum hours of sun stated range from four to six. For heavy soil, some sources suggest raised beds or mounds and others gypsum, some with compost. Stated spacing differs, and only one figure is said of a bush rose. Why roses are spaced is disputed (C-8), which is on record only. |
 | Evidence Confidence | See per-claim confidence |
@@ -142,11 +142,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000018 |
 | PKR Type | Care Guidance PKR |
 | Title | How do I plant a rose? |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question |
 | Supporting Source(s) | AF-5: PKR-SRC-000097, PKR-SRC-000271, PKR-SRC-000272, PKR-SRC-000280, PKR-SRC-000281, PKR-SRC-000286; AF-15: PKR-SRC-000156, PKR-SRC-000273, PKR-SRC-000279, PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000286; AF-16: PKR-SRC-000273, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000280, PKR-SRC-000281, PKR-SRC-000289; AF-17: PKR-SRC-000097, PKR-SRC-000271, PKR-SRC-000272, PKR-SRC-000277, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000280, PKR-SRC-000282, PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000286; AF-18: PKR-SRC-000097, PKR-SRC-000271, PKR-SRC-000277, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000282, PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000286; AF-19: PKR-SRC-000272, PKR-SRC-000282, PKR-SRC-000286, PKR-SRC-000291; AF-20: PKR-SRC-000152, PKR-SRC-000156, PKR-SRC-000270, PKR-SRC-000271, PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000280, PKR-SRC-000281, PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000286; AF-23: PKR-SRC-000229, PKR-SRC-000253, PKR-SRC-000282; AF-24: PKR-SRC-000229, PKR-SRC-000271, PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000280, PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000286; AF-25: PKR-SRC-000156, PKR-SRC-000281, PKR-SRC-000284, PKR-SRC-000285 |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | PKR-CGD-000016; PKR-CGD-000019; PKR-SGT-000003 |
 | Preserved Uncertainty or Limitations | Soaking times differ from one hour to 24 hours (C-2). Storage advice for a bare-root rose differs. Hole sizes differ. Sources disagree on pruning at planting (C-6), consistent with the conflict preserved in ARC-BUSHROSE-RECENTPLANT-01. One source cuts the whole root system back by a third, and one says not to cut roots that are too large for the hole. The mound method is described mainly by Australian sources. Planting a potted rose at its container depth rests on two New Zealand sources. |
 | Evidence Confidence | See per-claim confidence |
@@ -178,11 +178,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000019 |
 | PKR Type | Care Guidance PKR |
 | Title | How deep should I plant the bud union? |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question |
 | Supporting Source(s) | AF-20: PKR-SRC-000152, PKR-SRC-000156, PKR-SRC-000270, PKR-SRC-000271, PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000280, PKR-SRC-000281, PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000286; AF-21: PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000275, PKR-SRC-000277, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000280, PKR-SRC-000281; AF-22: PKR-SRC-000152, PKR-SRC-000156, PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000286 |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | PKR-CGD-000018; PKR-SGT-000003 |
 | Preserved Uncertainty or Limitations | Recommended bud-union depth differs: above the soil, at soil level or below it (C-1), consistent with ARC-BUSHROSE-SUCKERS-01 AF-12. The difference follows climate in the sources that give a reason. No New Zealand non-commercial source states a depth, and none addresses New Zealand's colder districts (R-2). In the UK a rose nursery buries the union where the Royal Horticultural Society says not to. No source was read for countries other than New Zealand, Australia, the UK and the US. |
 | Evidence Confidence | See per-claim confidence |
@@ -210,11 +210,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000020 |
 | PKR Type | Care Guidance PKR |
 | Title | Can I plant a rose where another rose grew? |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question |
 | Supporting Source(s) | AF-11: PKR-SRC-000141, PKR-SRC-000156, PKR-SRC-000268, PKR-SRC-000279, PKR-SRC-000290, PKR-SRC-000292; AF-13: PKR-SRC-000156, PKR-SRC-000268, PKR-SRC-000270, PKR-SRC-000279, PKR-SRC-000290, PKR-SRC-000292 |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | PKR-CGD-000017; PKR-CGD-000018 |
 | Preserved Uncertainty or Limitations | Sources disagree on how real replant disease is and what to do about it (C-4). No comparison of remedies in home gardens was found (R-3). The amount of soil to replace differs, including between two pages of the same body. That the cause is not established (AF-12), and that the problem can persist for at least nine years (AF-14, one source, not said of roses), are not used. |
 | Evidence Confidence | See per-claim confidence |
@@ -240,11 +240,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000021 |
 | PKR Type | Care Guidance PKR |
 | Title | How do I move an established rose? |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question |
 | Supporting Source(s) | AF-26: PKR-SRC-000229, PKR-SRC-000269, PKR-SRC-000270, PKR-SRC-000274, PKR-SRC-000275, PKR-SRC-000276, PKR-SRC-000283, PKR-SRC-000287, PKR-SRC-000289, PKR-SRC-000291, PKR-SRC-000294; AF-27: PKR-SRC-000270, PKR-SRC-000283, PKR-SRC-000287, PKR-SRC-000288, PKR-SRC-000294; AF-28: PKR-SRC-000274, PKR-SRC-000287, PKR-SRC-000291; AF-29: PKR-SRC-000229, PKR-SRC-000269, PKR-SRC-000270, PKR-SRC-000275, PKR-SRC-000276, PKR-SRC-000283, PKR-SRC-000287, PKR-SRC-000288, PKR-SRC-000289, PKR-SRC-000291, PKR-SRC-000294; AF-30: PKR-SRC-000229, PKR-SRC-000270, PKR-SRC-000283, PKR-SRC-000288, PKR-SRC-000289, PKR-SRC-000291, PKR-SRC-000294; AF-31: PKR-SRC-000270, PKR-SRC-000276, PKR-SRC-000283, PKR-SRC-000289, PKR-SRC-000291; AF-32: PKR-SRC-000283, PKR-SRC-000291; AF-33: PKR-SRC-000229, PKR-SRC-000269, PKR-SRC-000270, PKR-SRC-000274, PKR-SRC-000275, PKR-SRC-000276, PKR-SRC-000283, PKR-SRC-000288, PKR-SRC-000289, PKR-SRC-000291, PKR-SRC-000294; AF-34: PKR-SRC-000269, PKR-SRC-000283 |
-| Founder Approval Date | — |
+| Founder Approval Date | 6 October 2026 |
 | Related PKRs | PKR-CGD-000016; PKR-CGD-000020 |
 | Preserved Uncertainty or Limitations | How much to cut back before a move differs widely (C-5). Sources differ on whether to keep the soil on the roots (C-10). Stated digging distances mix distance out from the plant with width across. Evidence on moving comes mainly from nurseries, garden companies, rosarians and short extension answers; all New Zealand moving sources are commercial (R-4). No source gives success rates or a rose-specific age limit (R-1). That moving a rose is forgiving (AF-35) is on record only (C-7). |
 | Evidence Confidence | See per-claim confidence |
@@ -278,16 +278,16 @@ All statements are rose-specific.
 - Disagreements say that experts or sources disagree and what each side says. Gaps say "I couldn't find…" and point to a local rose society.
 - No brand, no mixing amount and no product recipe appears. Gypsum, compost and mycorrhizal fungi are named as types, as the sources name them.
 - Pip speaks in the first person. The text says "rose" or "roses", never "bush rose".
-- Every statement says no more than its finding as corrected in `FRD-BUSHROSE-PLANTMOVE-01` §11.
+- Every statement says no more than its finding as corrected (`ARC-BUSHROSE-PLANTMOVE-01` §4).
 
 ## 10. Dependencies
 
-- **The app.** One small change is needed so that "When can I plant or move a rose?" reads the lead record of this topic once it is Published (`App/src/data/commonQuestions.ts`). It is delivered with this package and does nothing until the records are Published.
+- **The app.** One small change is needed so that "When can I plant or move a rose?" reads the lead record of this topic once it is Published (`App/src/data/commonQuestions.ts`). It was delivered with the draft package (commit `fb92e3c`) and takes effect now that the records are Published.
 - **Comparison images.** None are needed.
 
 ## 11. Build Check Record
 
-**Part 1, sources.** All 34 sources reopened; all 213 recorded quotations found on their pages (206 word for word, 7 with small differences). 145 fully support their finding, 60 partly, 7 not. 26 further sentences confirmed and added. The corrections this led to are in `FRD-BUSHROSE-PLANTMOVE-01` §11: 10 findings reworded, two of them lowered from High to Moderate (AF-5 and AF-30); limitations added to 22; four source links removed; one conflict added (C-10).
+**Part 1, sources.** All 34 sources reopened; all 213 recorded quotations found on their pages (206 word for word, 7 with small differences). 145 fully support their finding, 60 partly, 7 not. 26 further sentences confirmed and added. The corrections this led to are in `ARC-BUSHROSE-PLANTMOVE-01`: 10 findings reworded, two of them lowered from High to Moderate (AF-5 and AF-30); limitations added to 22; four source links removed; one conflict added (C-10).
 
 **Part 2, wording.** Checked by sessions that took no part in writing the statements.
 

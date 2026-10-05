@@ -7,7 +7,7 @@
 | Dossier Identifier | `FRD-BUSHROSE-PLANTMOVE-01` |
 | Title | Founder Review Dossier — Planting a New Bush Rose and Moving an Established One |
 | Commission Reference | `BUSHROSE-PLANTMOVE`; Research Commission Record `Working/AI Outputs/Research_Commission_Record_Planting_and_Moving.md` (v0.1, authorised 1 October 2026) |
-| Status | Submitted for Founder review. **Revised 5 October 2026** after the Build Check: §11 added. Where §11 differs from §1 and §6 to §10, §11 governs. |
+| Status | **Approved 6 October 2026** through Pip's Answers (one-approval trial); the approved record is `ARC-BUSHROSE-PLANTMOVE-01`. Revised 5 October 2026 after the Build Check: §11 added. Where §11 differs from §1 and §6 to §10, §11 governs. |
 | Preparer | Claude, acting in the ROC role |
 | Date | 1 October 2026 |
 | Governing Standards | Founder Review Dossier Standard (FRDS) v1.3; Evidence Assessment Standard (EAS) v1.4; ROC Operations Manual v2.9 |

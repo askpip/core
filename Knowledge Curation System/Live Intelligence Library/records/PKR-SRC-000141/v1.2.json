@@ -1,0 +1,40 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000141",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — Rose problems: frequently asked questions",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-2 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-11 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-17 (High)",
+      "ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-21 (High) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-25 (Moderate) (added v1.1, 2 October 2026)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Royal Horticultural Society, \"Rose problems: frequently asked questions\", date not shown. Horticultural body, UK.; web address <https://www.rhs.org.uk/plants/roses/frequently-asked-questions>, accessed 29 September 2026; register code RHS-FAQ",
+    "url": "https://www.rhs.org.uk/plants/roses/frequently-asked-questions",
+    "register_code": "RHS-FAQ",
+    "relevance": "Supports AF-1, AF-2, AF-3, AF-11, AF-17, AF-18."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.2: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:RHS-FAQ). Nothing else changed. Version 1.1 retired."
+  }
+}

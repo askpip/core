@@ -1,0 +1,163 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000016",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "When can I plant or move a rose?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000034",
+      "PKR-SRC-000097",
+      "PKR-SRC-000156",
+      "PKR-SRC-000229",
+      "PKR-SRC-000269",
+      "PKR-SRC-000270",
+      "PKR-SRC-000271",
+      "PKR-SRC-000272",
+      "PKR-SRC-000273",
+      "PKR-SRC-000274",
+      "PKR-SRC-000275",
+      "PKR-SRC-000276",
+      "PKR-SRC-000278",
+      "PKR-SRC-000279",
+      "PKR-SRC-000280",
+      "PKR-SRC-000282",
+      "PKR-SRC-000283",
+      "PKR-SRC-000284",
+      "PKR-SRC-000285",
+      "PKR-SRC-000286",
+      "PKR-SRC-000287",
+      "PKR-SRC-000288",
+      "PKR-SRC-000289",
+      "PKR-SRC-000291",
+      "PKR-SRC-000294"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000017"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000018"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000021"
+      }
+    ],
+    "preserved_uncertainty": "Planting months differ by country and climate (C-3): the UK source gives late autumn or late winter to early spring, and cold-winter US sources prefer or require spring. New Zealand months come from garden centres only, and May in Australia from one source. Three New Zealand sources speak of roses in general, not bare-root roses. For potted roses two New Zealand pages still give a best season. Sources differ on the best point in the dormant season to move a rose (C-9).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "When can I plant or move a rose?",
+    "label": null,
+    "items": [
+      {
+        "text": "Plant a bare-root rose (one sold without soil on its roots) while it is dormant, with no leaves, between late autumn and early spring. One source says to avoid the middle of winter when the ground is frozen.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-1"
+        ]
+      },
+      {
+        "text": "In New Zealand, winter is the best time to plant a rose, and roses can be planted on through spring. One garden centre says new-season roses reach the shops from June. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-2",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-1",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Australia, plant bare-root roses in winter, while they are dormant. Two rose societies say June or July, and one source says from May. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-2",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-1",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In the UK, plant bare-root roses in late autumn, or from late winter to early spring before growth starts.",
+        "confidence": "Moderate",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-3",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-1"
+        ]
+      },
+      {
+        "text": "In the US, where winters are very cold, spring is the preferred time to plant bare-root roses. One source puts the line at winters that fall below -10 °F, and says that where it stays warmer than that, autumn or spring both work.",
+        "confidence": "Moderate",
+        "place": [
+          "US"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-3",
+          "ARC-BUSHROSE-PLANTMOVE-01 C-3"
+        ]
+      },
+      {
+        "text": "A rose in a pot can be planted over a longer season than a bare-root rose. UK and New Zealand sources say all year, and two US sources say through the growing season.",
+        "confidence": "High",
+        "limit": "One source says not to plant into frozen or very dry ground. Another says to keep it well watered if you plant in spring or summer. One New Zealand source says autumn or winter is still the best time.",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-4"
+        ]
+      },
+      {
+        "text": "Move an established rose while it is dormant, which means it is not actively growing. Most sources say winter. Some say late autumn or early spring.",
+        "confidence": "High",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-26"
+        ]
+      },
+      {
+        "text": "In New Zealand, one garden centre says the best time to move a rose is after pruning in July, while it is dormant, and once the risk of frost has passed. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-28",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "A rose can be moved in the growing season if you have to. It will need extra watering afterwards.",
+        "confidence": "Moderate",
+        "trace": [
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-27"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "planting",
+        "topic_title": "Planting and moving",
+        "order": 1
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

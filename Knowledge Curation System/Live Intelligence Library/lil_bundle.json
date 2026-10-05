@@ -1887,6 +1887,757 @@
    }
   },
   {
+   "pkr_id": "PKR-CGD-000016",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "When can I plant or move a rose?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000034",
+     "PKR-SRC-000097",
+     "PKR-SRC-000156",
+     "PKR-SRC-000229",
+     "PKR-SRC-000269",
+     "PKR-SRC-000270",
+     "PKR-SRC-000271",
+     "PKR-SRC-000272",
+     "PKR-SRC-000273",
+     "PKR-SRC-000274",
+     "PKR-SRC-000275",
+     "PKR-SRC-000276",
+     "PKR-SRC-000278",
+     "PKR-SRC-000279",
+     "PKR-SRC-000280",
+     "PKR-SRC-000282",
+     "PKR-SRC-000283",
+     "PKR-SRC-000284",
+     "PKR-SRC-000285",
+     "PKR-SRC-000286",
+     "PKR-SRC-000287",
+     "PKR-SRC-000288",
+     "PKR-SRC-000289",
+     "PKR-SRC-000291",
+     "PKR-SRC-000294"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000017"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000018"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000021"
+     }
+    ],
+    "preserved_uncertainty": "Planting months differ by country and climate (C-3): the UK source gives late autumn or late winter to early spring, and cold-winter US sources prefer or require spring. New Zealand months come from garden centres only, and May in Australia from one source. Three New Zealand sources speak of roses in general, not bare-root roses. For potted roses two New Zealand pages still give a best season. Sources differ on the best point in the dormant season to move a rose (C-9).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "When can I plant or move a rose?",
+    "label": null,
+    "items": [
+     {
+      "text": "Plant a bare-root rose (one sold without soil on its roots) while it is dormant, with no leaves, between late autumn and early spring. One source says to avoid the middle of winter when the ground is frozen.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-1"
+      ]
+     },
+     {
+      "text": "In New Zealand, winter is the best time to plant a rose, and roses can be planted on through spring. One garden centre says new-season roses reach the shops from June. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-2",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-1",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Australia, plant bare-root roses in winter, while they are dormant. Two rose societies say June or July, and one source says from May. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-2",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-1",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In the UK, plant bare-root roses in late autumn, or from late winter to early spring before growth starts.",
+      "confidence": "Moderate",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-3",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-1"
+      ]
+     },
+     {
+      "text": "In the US, where winters are very cold, spring is the preferred time to plant bare-root roses. One source puts the line at winters that fall below -10 °F, and says that where it stays warmer than that, autumn or spring both work.",
+      "confidence": "Moderate",
+      "place": [
+       "US"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-3",
+       "ARC-BUSHROSE-PLANTMOVE-01 C-3"
+      ]
+     },
+     {
+      "text": "A rose in a pot can be planted over a longer season than a bare-root rose. UK and New Zealand sources say all year, and two US sources say through the growing season.",
+      "confidence": "High",
+      "limit": "One source says not to plant into frozen or very dry ground. Another says to keep it well watered if you plant in spring or summer. One New Zealand source says autumn or winter is still the best time.",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-4"
+      ]
+     },
+     {
+      "text": "Move an established rose while it is dormant, which means it is not actively growing. Most sources say winter. Some say late autumn or early spring.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-26"
+      ]
+     },
+     {
+      "text": "In New Zealand, one garden centre says the best time to move a rose is after pruning in July, while it is dormant, and once the risk of frost has passed. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-28",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "A rose can be moved in the growing season if you have to. It will need extra watering afterwards.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-27"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "planting",
+      "topic_title": "Planting and moving",
+      "order": 1
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000017",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Where should I plant a rose?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000141",
+     "PKR-SRC-000156",
+     "PKR-SRC-000229",
+     "PKR-SRC-000253",
+     "PKR-SRC-000268",
+     "PKR-SRC-000270",
+     "PKR-SRC-000271",
+     "PKR-SRC-000272",
+     "PKR-SRC-000273",
+     "PKR-SRC-000277",
+     "PKR-SRC-000279",
+     "PKR-SRC-000282",
+     "PKR-SRC-000284",
+     "PKR-SRC-000285",
+     "PKR-SRC-000290",
+     "PKR-SRC-000292",
+     "PKR-SRC-000293"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000016"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000020"
+     }
+    ],
+    "preserved_uncertainty": "The minimum hours of sun stated range from four to six. For heavy soil, some sources suggest raised beds or mounds and others gypsum, some with compost. Stated spacing differs, and only one figure is said of a bush rose. Why roses are spaced is disputed (C-8), which is on record only.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Where should I plant a rose?",
+    "label": null,
+    "items": [
+     {
+      "text": "Choose a sunny spot. Sources give a minimum of four to six hours of direct sun a day.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-6"
+      ]
+     },
+     {
+      "text": "Roses need soil that drains well. Where the soil is heavy or drains poorly, some sources suggest a raised bed or mound, and others suggest digging in gypsum or compost.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-7"
+      ]
+     },
+     {
+      "text": "Keep roses away from the roots of nearby trees and shrubs, which compete with them.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-8"
+      ]
+     },
+     {
+      "text": "How far apart to plant depends on the type of rose and how big it will grow, so check the label. Where sources give a distance, it is about 50 cm to 1 m (20 inches to 3 feet). One gives 75 to 90 cm (2½ to 3 feet) for hybrid tea roses.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-9"
+      ]
+     },
+     {
+      "text": "A new rose planted where a rose grew before may struggle to establish and may grow poorly. One source suggests choosing a spot where roses haven't grown.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-11",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-13"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "planting",
+      "topic_title": "Planting and moving",
+      "order": 2
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000018",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "How do I plant a rose?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000097",
+     "PKR-SRC-000152",
+     "PKR-SRC-000156",
+     "PKR-SRC-000229",
+     "PKR-SRC-000253",
+     "PKR-SRC-000270",
+     "PKR-SRC-000271",
+     "PKR-SRC-000272",
+     "PKR-SRC-000273",
+     "PKR-SRC-000277",
+     "PKR-SRC-000278",
+     "PKR-SRC-000279",
+     "PKR-SRC-000280",
+     "PKR-SRC-000281",
+     "PKR-SRC-000282",
+     "PKR-SRC-000284",
+     "PKR-SRC-000285",
+     "PKR-SRC-000286",
+     "PKR-SRC-000289",
+     "PKR-SRC-000291"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000016"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000019"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000003"
+     }
+    ],
+    "preserved_uncertainty": "Soaking times differ from one hour to 24 hours (C-2). Storage advice for a bare-root rose differs. Hole sizes differ. Sources disagree on pruning at planting (C-6), consistent with the conflict preserved in ARC-BUSHROSE-RECENTPLANT-01. One source cuts the whole root system back by a third, and one says not to cut roots that are too large for the hole. The mound method is described mainly by Australian sources. Planting a potted rose at its container depth rests on two New Zealand sources.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "How do I plant a rose?",
+    "label": null,
+    "items": [
+     {
+      "text": "Plant a bare-root rose (one sold without soil on its roots) soon after you get it, and don't let its roots dry out.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-5"
+      ]
+     },
+     {
+      "text": "If you can't plant a bare-root rose straight away, keep it in its packaging somewhere cool and safe from frost. One source allows up to two weeks, with the roots kept moist, and another up to three weeks.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-5"
+      ]
+     },
+     {
+      "text": "Soak the roots of a bare-root rose in water before planting.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-17"
+      ]
+     },
+     {
+      "text": "Soak a bare-root rose's roots for anywhere from one hour to 24 hours before planting. Sources differ within that range. Two say not to soak for longer than 24 hours, and one of them says it may damage the roots.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-18",
+       "ARC-BUSHROSE-PLANTMOVE-01 C-2"
+      ]
+     },
+     {
+      "text": "Trim off any damaged or broken roots before planting. One source says not to cut off roots that are too large for the hole, but to dig a bigger hole.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-19"
+      ]
+     },
+     {
+      "text": "Dig the planting hole wider than the roots. Several sources say about twice as wide.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-15"
+      ]
+     },
+     {
+      "text": "For a bare-root rose, make a mound of soil in the bottom of the hole and spread the roots over it.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-16"
+      ]
+     },
+     {
+      "text": "Plant a potted rose at the same depth it was growing in its pot. Advice on where the bud union (the knobbly join near the base where the rose was grafted) should sit differs, so check that too.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-23",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-20"
+      ]
+     },
+     {
+      "text": "Water the rose in well as soon as it is planted.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-24"
+      ]
+     },
+     {
+      "text": "Experts disagree on whether to prune a bare-root rose at planting. Some cut the stems back when they plant. One source says a packaged rose has already been pruned and rarely needs more, and another prunes in the first winter after planting.",
+      "kind": "disagreement",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 C-6",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-25"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "planting",
+      "topic_title": "Planting and moving",
+      "order": 3
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000019",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "How deep should I plant the bud union?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000152",
+     "PKR-SRC-000156",
+     "PKR-SRC-000270",
+     "PKR-SRC-000271",
+     "PKR-SRC-000272",
+     "PKR-SRC-000273",
+     "PKR-SRC-000275",
+     "PKR-SRC-000277",
+     "PKR-SRC-000278",
+     "PKR-SRC-000279",
+     "PKR-SRC-000280",
+     "PKR-SRC-000281",
+     "PKR-SRC-000284",
+     "PKR-SRC-000285",
+     "PKR-SRC-000286"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000018"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000003"
+     }
+    ],
+    "preserved_uncertainty": "Recommended bud-union depth differs: above the soil, at soil level or below it (C-1), consistent with ARC-BUSHROSE-SUCKERS-01 AF-12. The difference follows climate in the sources that give a reason. No New Zealand non-commercial source states a depth, and none addresses New Zealand's colder districts (R-2). In the UK a rose nursery buries the union where the Royal Horticultural Society says not to. No source was read for countries other than New Zealand, Australia, the UK and the US.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "How deep should I plant the bud union?",
+    "label": null,
+    "items": [
+     {
+      "text": "Experts disagree on how deep to plant the bud union (the knobbly join near the base where the rose was grafted). Advice ranges from up to 5 cm (2 inches) above the soil, to level with it, to as much as 10 cm (4 inches) below. Sources that give a reason for burying it are speaking of places with cold winters, and say it protects the rose from the cold. Two sources give reasons against burying it: a reported risk of dieback, and, in mild climates, disease at the union.",
+      "kind": "disagreement",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 C-1",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-20",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-22"
+      ]
+     },
+     {
+      "text": "In New Zealand and Australia, plant the bud union level with the soil or up to 5 cm above it.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ",
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-21"
+      ]
+     },
+     {
+      "text": "In the UK, sources differ on the bud union. One says to plant it at soil level, not below, because burying it is reported to raise the risk of dieback. A UK rose nursery sets it about 5 cm below the soil when replanting a rose.",
+      "kind": "disagreement",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 C-1",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-20",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-22"
+      ]
+     },
+     {
+      "text": "In the US, extension sources in places with cold winters plant the bud union below the soil, from slightly below to 4 inches (about 10 cm) down. In one mild area, one source plants it an inch above. Ask your local extension service what is done where you live.",
+      "confidence": "Moderate",
+      "place": [
+       "US"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-22",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "I couldn't find advice on how deep to plant the bud union in New Zealand's colder districts. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 R-2",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "The advice I found on how deep to plant the bud union comes from New Zealand, Australia, the UK and the US. If your rose is somewhere else, a local rose society is the place to ask.",
+      "kind": "gap",
+      "trace": [
+       "rule 5",
+       "commission scope"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "planting",
+      "topic_title": "Planting and moving",
+      "order": 4
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000020",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Can I plant a rose where another rose grew?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000141",
+     "PKR-SRC-000156",
+     "PKR-SRC-000268",
+     "PKR-SRC-000270",
+     "PKR-SRC-000279",
+     "PKR-SRC-000290",
+     "PKR-SRC-000292"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000017"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000018"
+     }
+    ],
+    "preserved_uncertainty": "Sources disagree on how real replant disease is and what to do about it (C-4). No comparison of remedies in home gardens was found (R-3). The amount of soil to replace differs, including between two pages of the same body. That the cause is not established (AF-12), and that the problem can persist for at least nine years (AF-14, one source, not said of roses), are not used.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Can I plant a rose where another rose grew?",
+    "label": null,
+    "items": [
+     {
+      "text": "A new rose planted where a rose grew before may struggle to establish and may grow poorly. This is called replant disease.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-11"
+      ]
+     },
+     {
+      "text": "If you plant in the same spot, swap the soil in the planting hole for fresh soil from another part of the garden. Sources differ on how much to take out: from two buckets of soil, along with the old rose's roots, to a hole 45 to 60 cm (18 to 24 inches) across and 30 to 45 cm (12 to 18 inches) deep. One source gives planting somewhere else as another option.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-13"
+      ]
+     },
+     {
+      "text": "Experts disagree about replant disease. Several advise replacing the soil. One rose specialist calls that the old method and instead adds compost or well-rotted manure and treats the new rose with mycorrhizal fungi. That source reports that opinion is divided on whether the problem is real.",
+      "kind": "disagreement",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 C-4",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-13",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-11"
+      ]
+     },
+     {
+      "text": "I couldn't find a comparison of which remedy for replant disease works best in a home garden. A local rose society is the place to ask.",
+      "kind": "gap",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 R-3",
+       "rule 5"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "planting",
+      "topic_title": "Planting and moving",
+      "order": 5
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000021",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "How do I move an established rose?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000229",
+     "PKR-SRC-000269",
+     "PKR-SRC-000270",
+     "PKR-SRC-000274",
+     "PKR-SRC-000275",
+     "PKR-SRC-000276",
+     "PKR-SRC-000283",
+     "PKR-SRC-000287",
+     "PKR-SRC-000288",
+     "PKR-SRC-000289",
+     "PKR-SRC-000291",
+     "PKR-SRC-000294"
+    ],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000016"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000020"
+     }
+    ],
+    "preserved_uncertainty": "How much to cut back before a move differs widely (C-5). Sources differ on whether to keep the soil on the roots (C-10). Stated digging distances mix distance out from the plant with width across. Evidence on moving comes mainly from nurseries, garden companies, rosarians and short extension answers; all New Zealand moving sources are commercial (R-4). No source gives success rates or a rose-specific age limit (R-1). That moving a rose is forgiving (AF-35) is on record only (C-7).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "How do I move an established rose?",
+    "label": null,
+    "items": [
+     {
+      "text": "Move an established rose while it is dormant, which means it is not actively growing. Most sources say winter. Some say late autumn or early spring.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-26"
+      ]
+     },
+     {
+      "text": "In New Zealand, one garden centre says the best time to move a rose is after pruning in July, while it is dormant, and once the risk of frost has passed. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-28",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Cut the top growth back before a winter move. Sources differ on how much: from cutting it back by a third, to cutting it down to 25 to 30 cm (10 to 12 inches), to cutting it right back to 3 to 5 buds above the base.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-29",
+       "ARC-BUSHROSE-PLANTMOVE-01 C-5"
+      ]
+     },
+     {
+      "text": "Dig wide around the rose and keep as many of the roots as you can. Sources give different distances, from about 25 cm (10 inches) out from the base to as much as 60 cm (24 inches), and one says the larger the better.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-30",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-31"
+      ]
+     },
+     {
+      "text": "Sources differ on the soil around the roots. For a winter move, one shakes the soil off and replants the rose like a bare-root one, and one says to keep as large a root ball as you can. For a move in the growing season, one says to keep as much soil on the roots as possible.",
+      "kind": "disagreement",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 C-10",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-30"
+      ]
+     },
+     {
+      "text": "One source says it is very important to keep the roots moist until the rose is replanted. Another waters the soil well the day before the move.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-32"
+      ]
+     },
+     {
+      "text": "Water the rose well once it is replanted, and keep it watered until it recovers. Sources differ on how long: from every day for a week or two, to watering in dry spells through the first year.",
+      "confidence": "High",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-33"
+      ]
+     },
+     {
+      "text": "A rose can be moved in the growing season if you have to. It will need extra watering afterwards. Sources disagree on whether to cut it back first.",
+      "confidence": "Moderate",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-27"
+      ]
+     },
+     {
+      "text": "One source says a rose that has been settled for many years becomes tricky to move. Another lists roses among plants that dislike having their roots disturbed.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-34"
+      ]
+     },
+     {
+      "text": "I couldn't find how often a moved rose survives, or an age beyond which a rose is too old to move. A local rose society is the place to ask.",
+      "kind": "gap",
+      "trace": [
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-37",
+       "ARC-BUSHROSE-PLANTMOVE-01 R-1",
+       "rule 5"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "planting",
+      "topic_title": "Planting and moving",
+      "order": 6
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
    "pkr_id": "PKR-DEC-000001",
    "version": "1.1",
    "pkr_type": "decision_logic",
@@ -5482,7 +6233,7 @@
    "pkr_id": "PKR-SRC-000034",
    "version": "1.2",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "The New Zealand Rose Society — FAQ",
    "common": {
     "applies_to": "Bush rose; rose-type scope qualification",
@@ -5515,6 +6266,47 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-05",
     "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.2: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:NZRS-FAQ). Nothing else changed. Version 1.1 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000034",
+   "version": "1.3",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "The New Zealand Rose Society — FAQ",
+   "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Given in a pruning answer, not specifically about classification.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-ROSETYPE-01, AF-24 (Moderate)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-25 (Low) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-17 (Low) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "The New Zealand Rose Society, \"FAQ\", https://nzroses.org.nz/faq/, accessed 27 September 2026 (FRD code NZRS-Q)",
+    "url": "https://nzroses.org.nz/faq/",
+    "register_code": null,
+    "relevance": "Directs an unsure gardener to a local rose society or a pruning demonstration."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.3: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:NZRS-FAQ). Nothing else changed. Version 1.2 retired."
    }
   },
   {
@@ -7949,7 +8741,7 @@
    "pkr_id": "PKR-SRC-000097",
    "version": "1.2",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "Rose Society of NSW — Rose Growing Advice",
    "common": {
     "applies_to": "Established bush rose; dormant pruning",
@@ -7984,6 +8776,51 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-05",
     "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13). Version 1.2: MIL references to ARC-BUSHROSE-SPRAYING-01 added (register code SPRAYING:RSNSW). Nothing else changed. Version 1.1 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000097",
+   "version": "1.3",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Rose Society of NSW — Rose Growing Advice",
+   "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Quote found: \"no less than 10mm\". The page title is \"Rose Growing Advice\"; the dossier records \"Growing Roses\".",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-6 (Moderate) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-7 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-30 (Very High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Recognised horticultural society",
+    "identity": "Rose Society of NSW, \"Rose Growing Advice\" (growing-roses page); web address <https://nsw.rose.org.au/growing-roses>, accessed 29 September 2026; FRD code RSNSW",
+    "url": "https://nsw.rose.org.au/growing-roses",
+    "register_code": null,
+    "relevance": "Supports AF-5. Verification: Quote found: \"no less than 10mm\". The page title is \"Rose Growing Advice\"; the dossier records \"Growing Roses\"."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.3: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:RSNSW-G). Nothing else changed. Version 1.2 retired."
    }
   },
   {
@@ -9809,7 +10646,7 @@
    "pkr_id": "PKR-SRC-000141",
    "version": "1.1",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "Royal Horticultural Society — Rose problems: frequently asked questions",
    "common": {
     "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
@@ -9841,6 +10678,45 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "v1.1: MIL references for ARC-BUSHROSE-HARDPRUNE-01 / ARC-BUSHROSE-NOFLOWERS-01 added, approved by Shaphan in chat, 2 October 2026. v1.0 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000141",
+   "version": "1.2",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Royal Horticultural Society — Rose problems: frequently asked questions",
+   "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SUCKERS-01, AF-1 (High)",
+     "ARC-BUSHROSE-SUCKERS-01, AF-2 (High)",
+     "ARC-BUSHROSE-SUCKERS-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-SUCKERS-01, AF-11 (High)",
+     "ARC-BUSHROSE-SUCKERS-01, AF-17 (High)",
+     "ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-21 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-25 (Moderate) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Royal Horticultural Society, \"Rose problems: frequently asked questions\", date not shown. Horticultural body, UK.; web address <https://www.rhs.org.uk/plants/roses/frequently-asked-questions>, accessed 29 September 2026; register code RHS-FAQ",
+    "url": "https://www.rhs.org.uk/plants/roses/frequently-asked-questions",
+    "register_code": "RHS-FAQ",
+    "relevance": "Supports AF-1, AF-2, AF-3, AF-11, AF-17, AF-18."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.2: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:RHS-FAQ). Nothing else changed. Version 1.1 retired."
    }
   },
   {
@@ -10215,7 +11091,7 @@
    "pkr_id": "PKR-SRC-000152",
    "version": "1.0",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "Oregon State University Extension via Ask Extension — Plant rose bud union above or below the soil? (#740633)",
    "common": {
     "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
@@ -10240,6 +11116,39 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-01",
     "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000152",
+   "version": "1.1",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Oregon State University Extension via Ask Extension — Plant rose bud union above or below the soil? (#740633)",
+   "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SUCKERS-01, AF-12 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Stephen Oldfield, Oregon State University Extension, via Ask Extension, \"Plant rose bud union above or below the soil? (#740633)\", 25 March 2021. University extension, US.; web address <https://ask.extension.org/kb/faq.php?id=740633>, accessed 29 September 2026; register code OSU-AE",
+    "url": "https://ask.extension.org/kb/faq.php?id=740633",
+    "register_code": "OSU-AE",
+    "relevance": "Supports AF-12."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.1: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:OSU-AE). Nothing else changed. Version 1.0 retired."
    }
   },
   {
@@ -10345,7 +11254,7 @@
    "pkr_id": "PKR-SRC-000156",
    "version": "1.0",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "Royal Horticultural Society — Roses: planting",
    "common": {
     "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
@@ -10370,6 +11279,47 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-01",
     "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000156",
+   "version": "1.1",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Royal Horticultural Society — Roses: planting",
+   "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SUCKERS-01, AF-12 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Royal Horticultural Society, \"Roses: planting\", RHS Advice, date not shown. Horticultural body, UK.; web address <https://www.rhs.org.uk/plants/roses/planting>, accessed 29 September 2026; register code RHS-PL",
+    "url": "https://www.rhs.org.uk/plants/roses/planting",
+    "register_code": "RHS-PL",
+    "relevance": "Supports AF-12."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.1: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:RHS-PL). Nothing else changed. Version 1.0 retired."
    }
   },
   {
@@ -12886,7 +13836,7 @@
    "pkr_id": "PKR-SRC-000229",
    "version": "1.0",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
@@ -12913,6 +13863,49 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "Approved by Shaphan in chat, 2 October 2026, with PKR-CGD-000007, PKR-CGD-000008 and PKR-CGD-000003 v1.1."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000229",
+   "version": "1.1",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-6 (Moderate)",
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-19 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden centre)",
+    "identity": "Kings Plant Barn, \"Roses - Grow Well Guides\", date not shown. Commercial (garden centre), New Zealand. https://www.kings.co.nz/growing-guides/roses, accessed 1 October 2026 (register code NOFLOWERS:KINGS)",
+    "url": "https://www.kings.co.nz/growing-guides/roses",
+    "register_code": "NOFLOWERS:KINGS",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.1: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:KINGS). Nothing else changed. Version 1.0 retired."
    }
   },
   {
@@ -13708,7 +14701,7 @@
    "pkr_id": "PKR-SRC-000253",
    "version": "1.0",
    "pkr_type": "source",
-   "status": "Published",
+   "status": "Retired",
    "title": "Auckland Botanic Gardens — \"Roses\"",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
@@ -13735,6 +14728,42 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-05",
     "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000253",
+   "version": "1.1",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Auckland Botanic Gardens — \"Roses\"",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+     "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public botanic garden (Auckland Council), New Zealand",
+    "identity": "Auckland Botanic Gardens, \"Roses\" (garden advice), date not shown. Public botanic garden (Auckland Council), New Zealand. https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:ABG-R)",
+    "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+    "register_code": "SPRAYING:ABG-R",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11). Version 1.1: MIL references to ARC-BUSHROSE-PLANTMOVE-01 added (register code PLANTMOVE:ABG). Nothing else changed. Version 1.0 retired."
    }
   },
   {
@@ -14229,6 +15258,998 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-05",
     "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000268",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Royal Horticultural Society — \"Replant disease\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-12 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-14 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK",
+    "identity": "Royal Horticultural Society, \"Replant disease\", date not shown. Horticultural body, UK. https://www.rhs.org.uk/prevention-protection/replant-disease, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:RHS-RD)",
+    "url": "https://www.rhs.org.uk/prevention-protection/replant-disease",
+    "register_code": "PLANTMOVE:RHS-RD",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000269",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Royal Horticultural Society — \"Moving trees and shrubs\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-34 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK",
+    "identity": "Royal Horticultural Society, \"Moving trees and shrubs\" (names *Rosa*), date not shown. Horticultural body, UK. https://www.rhs.org.uk/plants/types/trees/moving-trees-shrubs, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:RHS-MOVE)",
+    "url": "https://www.rhs.org.uk/plants/types/trees/moving-trees-shrubs",
+    "register_code": "PLANTMOVE:RHS-MOVE",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000270",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "David Austin Roses (Megan Edmondson) — \"Moving a Rose: A Step-by-Step Guide\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-35 (Low)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-36 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK",
+    "identity": "David Austin Roses (Megan Edmondson), \"Moving a Rose: A Step-by-Step Guide\", 3 September 2026 (as shown). Commercial (rose breeder and nursery), UK. https://eu.davidaustinroses.com/blogs/rose-care/how-to-move-a-rose, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:DA-MOVE)",
+    "url": "https://eu.davidaustinroses.com/blogs/rose-care/how-to-move-a-rose",
+    "register_code": "PLANTMOVE:DA-MOVE",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000271",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "David Austin Roses (Megan Edmondson) — \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK",
+    "identity": "David Austin Roses (Megan Edmondson), \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\", 29 September 2025. Commercial (rose breeder and nursery), UK. https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:DA-BR)",
+    "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses",
+    "register_code": "PLANTMOVE:DA-BR",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000272",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Yates New Zealand — \"How to Grow Glorious Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden products), New Zealand",
+    "identity": "Yates New Zealand, \"How to Grow Glorious Roses\", date not shown. Commercial (garden products), New Zealand. https://www.yates.co.nz/plants/roses/how-to-grow-roses/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:YAT-NZ)",
+    "url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
+    "register_code": "PLANTMOVE:YAT-NZ",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000273",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Palmers — \"How to Grow Bush Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden centre), New Zealand",
+    "identity": "Palmers, \"How to Grow Bush Roses\", date not shown. Commercial (garden centre), New Zealand. https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:PALM-G)",
+    "url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
+    "register_code": "PLANTMOVE:PALM-G",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000274",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Palmers — \"Most Frequently Asked Rose Questions\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-28 (Low)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden centre), New Zealand",
+    "identity": "Palmers, \"Most Frequently Asked Rose Questions\", date not shown. Commercial (garden centre), New Zealand. https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:PALM-FAQ)",
+    "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
+    "register_code": "PLANTMOVE:PALM-FAQ",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000275",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Tui Garden — \"Transplanting trees, shrubs, roses, perennials and bulbs\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden products), New Zealand",
+    "identity": "Tui Garden, \"Transplanting trees, shrubs, roses, perennials and bulbs\", date not shown. Commercial (garden products), New Zealand. https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/transplanting-trees-shrubs-roses-perennials-and-bulbs/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:TUI-T)",
+    "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/transplanting-trees-shrubs-roses-perennials-and-bulbs/",
+    "register_code": "PLANTMOVE:TUI-T",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000276",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Tui Garden — \"What is the best way to shift my rose?\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden products), New Zealand",
+    "identity": "Tui Garden, \"What is the best way to shift my rose?\", date not shown. Commercial (garden products), New Zealand. https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:TUI-Q)",
+    "url": "https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/",
+    "register_code": "PLANTMOVE:TUI-Q",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000277",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Amore Roses — \"How To Grow Roses - A Guide To Our Rose Breeds\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose brand), New Zealand",
+    "identity": "Amore Roses, \"How To Grow Roses - A Guide To Our Rose Breeds\", date not shown. Commercial (rose brand), New Zealand. https://www.amoreroses.co.nz/rose-growing-guide.html, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:AMORE)",
+    "url": "https://www.amoreroses.co.nz/rose-growing-guide.html",
+    "register_code": "PLANTMOVE:AMORE",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000278",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "The Rose Society of NSW — \"Rose Care Calendar\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Australia",
+    "identity": "The Rose Society of NSW, \"Rose Care Calendar\", date not shown. Rose society, Australia. https://nsw.rose.org.au/growing-roses/care-calendar, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:RSNSW-CAL)",
+    "url": "https://nsw.rose.org.au/growing-roses/care-calendar",
+    "register_code": "PLANTMOVE:RSNSW-CAL",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000279",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "The Rose Society of South Australia Inc. — \"Rose Growing Guide\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Australia",
+    "identity": "The Rose Society of South Australia Inc., \"Rose Growing Guide\" (PDF hosted by the National Rose Trial Garden of Australia), date not shown. Rose society, Australia. https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:RSSA)",
+    "url": "https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf",
+    "register_code": "PLANTMOVE:RSSA",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000280",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "ABC Gardening Australia (Sophie Thomson) — \"Planting Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster, Australia",
+    "identity": "ABC Gardening Australia (Sophie Thomson), \"Planting Roses\", 26 July 2014. Public broadcaster, Australia. https://www.abc.net.au/gardening/how-to/planting-roses/9435672, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:GA-2014P)",
+    "url": "https://www.abc.net.au/gardening/how-to/planting-roses/9435672",
+    "register_code": "PLANTMOVE:GA-2014P",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000281",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "ABC Gardening Australia (Sophie Thomson) — \"Rosy Road Trip - Bare-rooted Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster, Australia",
+    "identity": "ABC Gardening Australia (Sophie Thomson), \"Rosy Road Trip - Bare-rooted Roses\", 14 June 2019. Public broadcaster, Australia. https://www.abc.net.au/gardening/how-to/tips-on-planting-bare-rooted-roses/11202854, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:GA-2019)",
+    "url": "https://www.abc.net.au/gardening/how-to/tips-on-planting-bare-rooted-roses/11202854",
+    "register_code": "PLANTMOVE:GA-2019",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000282",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "ABC Gardening Australia magazine (Loren Desbruslais) — \"Growing roses 101\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-10 (Low)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster magazine, Australia",
+    "identity": "ABC Gardening Australia magazine (Loren Desbruslais), \"Growing roses 101\", 9 April 2024. Public broadcaster magazine, Australia. https://www.gardeningaustraliamag.com.au/growing-roses-101/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:GA-MAG)",
+    "url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+    "register_code": "PLANTMOVE:GA-MAG",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000283",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Treloar Roses — \"Transplanting established roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-32 (Low)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-34 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), Australia",
+    "identity": "Treloar Roses, \"Transplanting established roses\", date not shown. Commercial (rose nursery), Australia. https://www.treloarroses.com.au/Transplanting-Established-Roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:TRE-T)",
+    "url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
+    "register_code": "PLANTMOVE:TRE-T",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000284",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Colorado State University Extension (O'Connor, Nelson, Swift, Heins) — \"Selecting and Planting Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "Colorado State University Extension (O'Connor, Nelson, Swift, Heins), \"Selecting and Planting Roses\", May 1996; reviewed August 2025. University extension, US. https://extension.colostate.edu/resource/selecting-and-planting-roses/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:CSU)",
+    "url": "https://extension.colostate.edu/resource/selecting-and-planting-roses/",
+    "register_code": "PLANTMOVE:CSU",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000285",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "University of Missouri Extension (rev. Dave Trinklein) — \"Roses: Selecting and Planting\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "University of Missouri Extension (rev. Dave Trinklein), \"Roses: Selecting and Planting\" (G6600), date not shown. University extension, US. https://extension.missouri.edu/publications/g6600, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:MU)",
+    "url": "https://extension.missouri.edu/publications/g6600",
+    "register_code": "PLANTMOVE:MU",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000286",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Iowa State University Extension and Outreach (Aaron Steil) — \"How to Plant Bare Root Shrubs and Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "Iowa State University Extension and Outreach (Aaron Steil), \"How to Plant Bare Root Shrubs and Roses\", January 2025. University extension, US. https://yardandgarden.extension.iastate.edu/how-to/how-plant-bare-root-shrubs-and-roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:ISU)",
+    "url": "https://yardandgarden.extension.iastate.edu/how-to/how-plant-bare-root-shrubs-and-roses",
+    "register_code": "PLANTMOVE:ISU",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000287",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "University of Arkansas Cooperative Extension Service — \"Transplanting\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-28 (Low)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, US",
+    "identity": "University of Arkansas Cooperative Extension Service, \"Transplanting\" (rose Q&A reference desk), Entries 2007–2014. University extension, US. https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:UAEX)",
+    "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx",
+    "register_code": "PLANTMOVE:UAEX",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000288",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Ask Extension — \"Timing for transplanting rose bushes\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension network, US",
+    "identity": "Ask Extension, \"Timing for transplanting rose bushes\" (#872229); answering institution not shown, 10 June 2024. University extension network, US. https://ask.extension.org/kb/faq.php?id=872229, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:AE-T)",
+    "url": "https://ask.extension.org/kb/faq.php?id=872229",
+    "register_code": "PLANTMOVE:AE-T",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000289",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Elisabeth C. Miller Library, University of Washington, Plant Answer Line — \"Transplanting roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "University library, US",
+    "identity": "Elisabeth C. Miller Library, University of Washington, Plant Answer Line, \"Transplanting roses\" (relays *Roses: 1001 Gardening Questions Answered*, 1989), date not shown. University library, US. https://depts.washington.edu/hortlib/pal/transplanting-roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:UW-PAL)",
+    "url": "https://depts.washington.edu/hortlib/pal/transplanting-roses",
+    "register_code": "PLANTMOVE:UW-PAL",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000290",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "David Zlesak — \"Advanced in Understanding Rose Replant Disease\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-12 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, US",
+    "identity": "David Zlesak, \"Advanced in Understanding Rose Replant Disease\", American Rose Society website, Fall 2013 / Winter 2014. Rose society, US. https://rose.org/advanced-in-understanding-rose-replant-disease/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:ARS-RRD)",
+    "url": "https://rose.org/advanced-in-understanding-rose-replant-disease/",
+    "register_code": "PLANTMOVE:ARS-RRD",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000291",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Ron Daniels, ARS Master Consulting Rosarian, Nashville Rose Society — \"Transplanting and Moving Rose Bushes\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-28 (Low)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-32 (Low)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-35 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society (expert rosarian), US",
+    "identity": "Ron Daniels, ARS Master Consulting Rosarian, Nashville Rose Society, \"Transplanting and Moving Rose Bushes\", 9 November 2020. Rose society (expert rosarian), US. https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:NRS-T)",
+    "url": "https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/",
+    "register_code": "PLANTMOVE:NRS-T",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000292",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Paul Zimmerman, Fine Gardening — \"Planting Roses where roses used to be. Do you have to remove all the old soil??\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Gardening magazine (rose specialist author), US",
+    "identity": "Paul Zimmerman, Fine Gardening, \"Planting Roses where roses used to be. Do you have to remove all the old soil??\", 17 November 2011; modified 26 July 2023. Gardening magazine (rose specialist author), US. https://www.finegardening.com/article/planting-roses-where-roses-used-to-be-do-you-have-to-remove-all-the-old-soil, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:FG-RRD)",
+    "url": "https://www.finegardening.com/article/planting-roses-where-roses-used-to-be-do-you-have-to-remove-all-the-old-soil",
+    "register_code": "PLANTMOVE:FG-RRD",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000293",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Paul Zimmerman, Fine Gardening — \"What Is The Proper Spacing When Planting Roses?\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-9 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-10 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Gardening magazine (rose specialist author), US",
+    "identity": "Paul Zimmerman, Fine Gardening, \"What Is The Proper Spacing When Planting Roses?\", 28 April 2011; modified 26 July 2023. Gardening magazine (rose specialist author), US. https://www.finegardening.com/article/what-is-the-proper-spacing-when-planting-roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:FG-SP)",
+    "url": "https://www.finegardening.com/article/what-is-the-proper-spacing-when-planting-roses",
+    "register_code": "PLANTMOVE:FG-SP",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000294",
+   "version": "1.0",
+   "pkr_type": "source",
+   "status": "Published",
+   "title": "Heirloom Roses (Robin Jennings) — \"How To Transplant or Move a Rose Bush\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (own-root rose nursery), US",
+    "identity": "Heirloom Roses (Robin Jennings), \"How To Transplant or Move a Rose Bush\", 13 April 2023. Commercial (own-root rose nursery), US. https://heirloomroses.com/blogs/how-to-articles/transplanting-roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:HEIR)",
+    "url": "https://heirloomroses.com/blogs/how-to-articles/transplanting-roses",
+    "register_code": "PLANTMOVE:HEIR",
+    "relevance": "Supports the findings listed above."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
    }
   }
  ]

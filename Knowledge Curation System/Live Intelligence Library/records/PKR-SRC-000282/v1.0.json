@@ -1,0 +1,41 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000282",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "ABC Gardening Australia magazine (Loren Desbruslais) — \"Growing roses 101\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-10 (Low)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Public broadcaster magazine, Australia",
+    "identity": "ABC Gardening Australia magazine (Loren Desbruslais), \"Growing roses 101\", 9 April 2024. Public broadcaster magazine, Australia. https://www.gardeningaustraliamag.com.au/growing-roses-101/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:GA-MAG)",
+    "url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+    "register_code": "PLANTMOVE:GA-MAG",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}

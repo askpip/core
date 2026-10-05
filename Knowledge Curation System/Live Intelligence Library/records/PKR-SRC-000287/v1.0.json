@@ -1,0 +1,35 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000287",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Arkansas Cooperative Extension Service — \"Transplanting\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-27 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-28 (Low)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension, US",
+    "identity": "University of Arkansas Cooperative Extension Service, \"Transplanting\" (rose Q&A reference desk), Entries 2007–2014. University extension, US. https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:UAEX)",
+    "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx",
+    "register_code": "PLANTMOVE:UAEX",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-PLANTMOVE-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-06",
+    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+  }
+}
