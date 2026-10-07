@@ -51,6 +51,7 @@ const UK_NATION: Record<string, string> = { scotland: 'GB-SCT', wales: 'GB-WLS',
  * Towns the approved research names. A statement marked for a town is shown to a
  * plant whose typed town is that town, or whose GPS position is within `km` of it.
  * 15 km takes in a town and its edges without reaching the next district.
+ * A large city has a wider distance, to take in its suburbs.
  */
 export interface Town {
   code: string
@@ -67,6 +68,8 @@ export const TOWNS: Town[] = [
   { code: 'NZ-CAN:Christchurch', name: 'Christchurch', region: 'NZ-CAN', latitude: -43.532, longitude: 172.636, km: 15, aliases: ['christchurch', 'ōtautahi', 'otautahi'] },
   { code: 'NZ-MWT:Whanganui', name: 'Whanganui', region: 'NZ-MWT', latitude: -39.93, longitude: 175.05, km: 15, aliases: ['whanganui', 'wanganui'] },
   { code: 'NZ-WGN:Masterton', name: 'Masterton', region: 'NZ-WGN', latitude: -40.952, longitude: 175.658, km: 15, aliases: ['masterton'] },
+  { code: 'AU-NSW:Sydney', name: 'Sydney', region: 'AU-NSW', latitude: -33.869, longitude: 151.209, km: 40, aliases: ['sydney'] },
+  { code: 'AU-QLD:Brisbane', name: 'Brisbane', region: 'AU-QLD', latitude: -27.47, longitude: 153.026, km: 25, aliases: ['brisbane'] },
 ]
 
 const tidy = (s?: string) => (s ?? '').trim().toLowerCase().replace(/\./g, '').replace(/\s+/g, ' ')

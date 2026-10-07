@@ -1,0 +1,1225 @@
+{
+ "what": "Build Check Part 2 (wording check), statements version 0.1, 7 October 2026.",
+ "statements_checked": [
+  {
+   "ref": "PKR-CGD-000022 AU item 1",
+   "question": "Which months do I prune my rose?",
+   "text": "In most of Australia, the main winter pruning is done in July. In some places it can start in June. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-11",
+    "AF-13",
+    "C-2",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 2",
+   "question": "Which months do I prune my rose?",
+   "text": "In a cold or frosty area, wait until August to prune, so that frost does not damage the new shoots. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-14",
+    "AF-16",
+    "C-3",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 3",
+   "question": "Which months do I prune my rose?",
+   "text": "In New South Wales, near the coast where frosts are rare or never come, July is the time to prune. One rose society says you can start in late June. Inland, or where frosts are regular, it says to prune in August. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-12",
+    "AF-46",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU-NSW"
+   ],
+   "shown_to": "Gardeners in New South Wales only"
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 4",
+   "question": "Which months do I prune my rose?",
+   "text": "In Victoria, one rose society says the best time to prune is June or July. In a cold area, it says to wait until August, so that frost does not knock back the new shoots. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-47",
+    "C-2",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-VIC"
+   ],
+   "shown_to": "Gardeners in Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 5",
+   "question": "Which months do I prune my rose?",
+   "text": "In South Australia, prune in July. One nursery says pruning can start in late June. In a frost area, one rose society says to wait until August; the nursery says July. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-48",
+    "C-3",
+    "C-9",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU-SA"
+   ],
+   "shown_to": "Gardeners in South Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 6",
+   "question": "Which months do I prune my rose?",
+   "text": "In Western Australia, one rose society says to prune in winter, in June and July. Months are only a guide.",
+   "trace": [
+    "AF-49",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-WA"
+   ],
+   "shown_to": "Gardeners in Western Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 7",
+   "question": "Which months do I prune my rose?",
+   "text": "In Brisbane, one public rose garden says the best time to prune is June or July. One rose farm there prunes in July. Months are only a guide.",
+   "trace": [
+    "AF-50",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-QLD:Brisbane"
+   ],
+   "shown_to": "Gardeners in or near Brisbane only"
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 8",
+   "question": "Which months do I prune my rose?",
+   "text": "I couldn't find months for rose jobs written for Tasmania. A local rose society is the place to ask.",
+   "trace": [
+    "AF-51",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "AU-TAS"
+   ],
+   "shown_to": "Gardeners in Tasmania only"
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 9",
+   "question": "Which months do I prune my rose?",
+   "text": "I couldn't find months for rose jobs written for the Northern Territory. A local garden society or botanic garden is the place to ask.",
+   "trace": [
+    "AF-52",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "AU-NT"
+   ],
+   "shown_to": "Gardeners in the Northern Territory only"
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 10",
+   "question": "Which months do I prune my rose?",
+   "text": "I couldn't find months for rose jobs written for the dry inland of Australia, such as Alice Springs or Mildura. A local rose society is the place to ask.",
+   "trace": [
+    "AF-45",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 1",
+   "question": "When do I start and stop feeding?",
+   "text": "Start feeding in spring, after the winter prune, as new growth appears. One nursery waits until the rose has plenty of leaves and its first blooms.",
+   "trace": [
+    "AF-20",
+    "C-4"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 2",
+   "question": "When do I start and stop feeding?",
+   "text": "Give the first feed of spring in the second half of August or in September. Months are only a guide.",
+   "trace": [
+    "AF-19",
+    "C-4",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 3",
+   "question": "When do I start and stop feeding?",
+   "text": "Give the last feed in late summer or early autumn, in February or March. Two rose societies feed later, into April or May, and one nursery says not to feed in late autumn. Months are only a guide.",
+   "trace": [
+    "AF-22",
+    "C-5",
+    "AF-23",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 4",
+   "question": "When do I start and stop feeding?",
+   "text": "In New South Wales, one rose society gives the first feed after the winter prune and says the second half of August is ideal, or September in a cold area. It gives the last feed in mid to late February. Months are only a guide.",
+   "trace": [
+    "AF-53",
+    "AF-21",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-NSW"
+   ],
+   "shown_to": "Gardeners in New South Wales only"
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 5",
+   "question": "When do I start and stop feeding?",
+   "text": "In Victoria, one rose society says to feed roses at the end of August. Months are only a guide.",
+   "trace": [
+    "AF-54",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-VIC"
+   ],
+   "shown_to": "Gardeners in Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 6",
+   "question": "When do I start and stop feeding?",
+   "text": "In Victoria, one rose society says not to feed a newly planted bare-root rose (a dormant plant sold in winter, with no leaves or flowers) until late November or early December. Months are only a guide.",
+   "trace": [
+    "AF-26",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-VIC"
+   ],
+   "shown_to": "Gardeners in Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 7",
+   "question": "When do I start and stop feeding?",
+   "text": "In South Australia, feed in September and again in February. One rose society says early in September, and in March if you missed February. On sandy soil it feeds four times: in September, November, February and April. Months are only a guide.",
+   "trace": [
+    "AF-55",
+    "AF-23",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU-SA"
+   ],
+   "shown_to": "Gardeners in South Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 8",
+   "question": "When do I start and stop feeding?",
+   "text": "In Western Australia, one rose society says to feed as new growth appears in early spring, in August or September, and to keep feeding into May. Months are only a guide.",
+   "trace": [
+    "AF-56",
+    "AF-23",
+    "C-5",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-WA"
+   ],
+   "shown_to": "Gardeners in Western Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 1",
+   "question": "When do I stop deadheading?",
+   "text": "I couldn't find a month to stop deadheading (cutting off the finished blooms) in Australia. A local rose society is the place to ask.",
+   "trace": [
+    "AF-29",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 2",
+   "question": "When do I stop deadheading?",
+   "text": "For more flowers in autumn, give the rose a light trim in summer or early autumn. This is done between January and April, depending on where you live. Months are only a guide.",
+   "trace": [
+    "AF-27",
+    "C-11",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 3",
+   "question": "When do I stop deadheading?",
+   "text": "In New South Wales, one rose society says to trim roses in summer for flowers in autumn: in January in a cool area, early in February in a mild area, and in March in a warm area. Months are only a guide.",
+   "trace": [
+    "AF-28",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-NSW"
+   ],
+   "shown_to": "Gardeners in New South Wales only"
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 4",
+   "question": "When do I stop deadheading?",
+   "text": "In Victoria, one rose society says to give a summer trim in February if you are timing the flowers for a show or special event. It is still deadheading in April. Months are only a guide.",
+   "trace": [
+    "AF-57",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-VIC"
+   ],
+   "shown_to": "Gardeners in Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 5",
+   "question": "When do I stop deadheading?",
+   "text": "In South Australia, a light trim in late summer or early autumn brings on the autumn flowers. One nursery says mid February, and one rose society says one to two weeks after the February feed. Months are only a guide.",
+   "trace": [
+    "AF-58",
+    "C-11",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU-SA"
+   ],
+   "shown_to": "Gardeners in South Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 6",
+   "question": "When do I stop deadheading?",
+   "text": "In Western Australia, one rose society says to give a light summer prune, taking off about one-third, in March or April, and to keep deadheading into May. Months are only a guide.",
+   "trace": [
+    "AF-59",
+    "C-11",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-WA"
+   ],
+   "shown_to": "Gardeners in Western Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 1",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Australia, plant a bare-root rose (a dormant plant sold in winter, with no leaves or flowers) in June or July. Planting can start in May. Months are only a guide.",
+   "trace": [
+    "AF-31",
+    "AF-32",
+    "C-6",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 2",
+   "question": "Which months do I plant or move a rose?",
+   "text": "Move an established rose in winter, while it is dormant.",
+   "trace": [
+    "AF-34"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 3",
+   "question": "Which months do I plant or move a rose?",
+   "text": "Don't plant a rose in very hot weather.",
+   "trace": [
+    "AF-33",
+    "rule 7"
+   ],
+   "confidence": "Moderate",
+   "kind": "precaution",
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 4",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In New South Wales, one rose society says to prepare the soil in late April or May, for planting in June or July. Months are only a guide.",
+   "trace": [
+    "AF-60",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-NSW"
+   ],
+   "shown_to": "Gardeners in New South Wales only"
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 5",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Sydney, one garden centre says a rose in a pot can be planted at any time of year, though not in very hot weather.",
+   "trace": [
+    "AF-64",
+    "AF-33",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-NSW:Sydney"
+   ],
+   "shown_to": "Gardeners in or near Sydney only"
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 6",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Victoria, one rose society says to order new roses in May and start planting them in June. June is also its month for moving an established rose. Months are only a guide.",
+   "trace": [
+    "AF-61",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-VIC"
+   ],
+   "shown_to": "Gardeners in Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 7",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In South Australia, plant a bare-root rose in June or July. One rose society says planting can go on until early August, and one nursery says bare-root roses can still be planted in August. Months are only a guide.",
+   "trace": [
+    "AF-62",
+    "C-6",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU-SA"
+   ],
+   "shown_to": "Gardeners in South Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 8",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Western Australia, one rose society says to plant new roses in May, and to plant or repot as needed in June and July. Months are only a guide.",
+   "trace": [
+    "AF-63",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-WA"
+   ],
+   "shown_to": "Gardeners in Western Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 1",
+   "question": "When do I clear up and spray in winter?",
+   "text": "After the winter prune, pick off any leaves left on the rose, clear up the prunings and fallen leaves, and get rid of them. One source says to put them in the rubbish bin, not the compost.",
+   "trace": [
+    "AF-35",
+    "C-10"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 2",
+   "question": "When do I clear up and spray in winter?",
+   "text": "If you use a clean-up spray in winter (a spray to clear pests and diseases left on the plant), put it on after pruning. Lime sulphur, copper and oil are the types used. Follow the label on the spray.",
+   "trace": [
+    "AF-36",
+    "rule 7"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 3",
+   "question": "When do I clear up and spray in winter?",
+   "text": "If you use lime sulphur as a winter spray, put it on while the rose is dormant, before new growth appears. One source says lime sulphur burns new growth. Follow the label on the spray.",
+   "trace": [
+    "AF-37",
+    "rule 7"
+   ],
+   "confidence": "Moderate",
+   "kind": "precaution",
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 4",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In New South Wales, one rose society says to put the prunings and fallen leaves in the green waste bin as soon as pruning is finished, in July, and then to spray with a fungicide or lime sulphur. Follow the label on the spray. Months are only a guide.",
+   "trace": [
+    "AF-65",
+    "C-10",
+    "rule 4",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-NSW"
+   ],
+   "shown_to": "Gardeners in New South Wales only"
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 5",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Victoria, one rose society says to take all the leaves off the bushes and rake up around the beds in July. It then sprays the bare roses, and lightly the ground around them, with copper and white oil, or with lime sulphur. Follow the label on the spray. Months are only a guide.",
+   "trace": [
+    "AF-66",
+    "rule 4",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-VIC"
+   ],
+   "shown_to": "Gardeners in Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 6",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In South Australia, clear up the prunings and fallen leaves after pruning, and then spray. One nursery does this in July and one rose society in August. Oil, lime sulphur and copper are the sprays used. Follow the label on the spray. Months are only a guide.",
+   "trace": [
+    "AF-67",
+    "C-7",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU-SA"
+   ],
+   "shown_to": "Gardeners in South Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 7",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Western Australia, one rose society says to spray after pruning, in June or July, to clean up pests and disease. Follow the label on the spray. Months are only a guide.",
+   "trace": [
+    "AF-68",
+    "rule 4",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-WA"
+   ],
+   "shown_to": "Gardeners in Western Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 8",
+   "question": "When do I clear up and spray in winter?",
+   "text": "I couldn't find Australian advice on covering roses or mounding soil over the base for winter. A local rose society is the place to ask.",
+   "trace": [
+    "AF-38",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 1",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "When to do each rose job depends on where you live. Conditions vary across Australia and from one part of a state to another, and one source says even between neighbouring suburbs.",
+   "trace": [
+    "AF-40"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 2",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "In an area that gets frosts, wait until the last frost has passed before you prune.",
+   "trace": [
+    "AF-43"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 3",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "Large areas of northern Australia are generally free of frost, the national weather bureau says. Days cold enough for frost fall mainly between late autumn and early spring.",
+   "trace": [
+    "AF-41"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 4",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "Frost is local: how severe it is can vary a lot over a very small area, the national weather bureau says. Valleys often get frost when the land around them stays free of it.",
+   "trace": [
+    "AF-42"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 5",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "In a humid climate, roses are more likely to get fungal diseases, and one source says they are harder to manage in the hot tropics. Another says to choose a rose that is not prone to these diseases if your climate is humid.",
+   "trace": [
+    "AF-6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "AU"
+   ],
+   "shown_to": "Gardeners in Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 6",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "In South Australia, one rose society says it is colder and wetter in the Adelaide Hills, the South-East, and Southern Yorke Peninsula and Eyre Peninsula, and that frosts are common in country areas.",
+   "trace": [
+    "AF-69",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-SA"
+   ],
+   "shown_to": "Gardeners in South Australia only"
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 7",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "In Queensland, one rose society says growing and climate conditions vary across the state, so try things and see what works for you.",
+   "trace": [
+    "AF-70",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "AU-QLD"
+   ],
+   "shown_to": "Gardeners in Queensland only"
+  }
+ ],
+ "results": [
+  {
+   "ref": "PKR-CGD-000022 AU item 1",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "July is supported at High: GAM and GA-MAG 'July is the ideal time to prune roses in most areas' (one voice, no state named); RSV-M 'Start pruning roses' under July (Victoria); SARS-CAL, SARS-WIN and RSSA-GG (one society, South Australia); ROSS-CAL 'Pruning time in most districts' (South Australia); RSNSW-CAL July 'the ideal month' in mild areas. June is supported by five voices: RSV-PB 'June or July', NFP 'June/July', RSWA under 'WINTER (June - July)', ROSS-CAL 'late June', RSNSW-G 'late June to the end of July'. To be known: no page says 'most of Australia'. The only general wording is 'in most areas', on one national page, and no page gives months for Tasmania, the Northern Territory, the dry inland or Queensland outside Brisbane. 'In most areas' keeps to the page. The June sentence rests on AF-13 (Moderate) and sits under the High label.",
+   "suggested_wording": "In most areas, the main winter pruning is done in July. In some places it can start in June. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, and rightly shown to all of Australia. August: RSNSW-G 'from the beginning to the end of August' inland or with regular frosts; RSNSW-CAL 'not until August' in cold areas; RSV-M August in cold areas; RSV-PB and GA-RP08 'early August' in 'a really cold area of Australia' (one voice); RSSA-GG 'August in frost areas'; GA-FAQ 'late August' in a very cold area. 'August' covers early to late August (rule 3). The reason is on the pages (RSNSW-CAL, RSV-PB, RSV-M, GA-FAQ). Three societies and the broadcaster: High is right. The one page that differs, ROSS-CAL (frosty districts in July), is written for South Australia and is said there (item 5).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 3",
+   "result": "Pass with a note",
+   "points_failed": [
+    4
+   ],
+   "note": "The words are supported. RSNSW-G: near the coast with rare or no frosts 'the most dormant period is late June to the end of July', and inland or with regular frosts 'from the beginning to the end of August'. RSNSW-CAL: July 'the ideal month' in mild areas; 'not until August' in cold areas. 'One rose society says' is right for late June and for August. To be known: the Moderate label needs a second voice, and the only one is FP ('in warm and coastal climates ... early July is ideal'), a garden centre article for Sydney and the Hunter. The same article is treated as Sydney only in 000025 item 5. Either reading can stand, but the two should match: if FP speaks only for Sydney, the coastal sentence here is one society and Low.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, one organisation, said so. RSV-PB: 'The best time to prune is in June or July. But if you live in a really cold area of Australia, then wait until early August so that the frosts don't knock back the new shoots.' RSV-M: 'Prune now in cold areas so as to avoid frost damage' under August. The society's calendar lists 'Start pruning roses' under July (C-2); 'June or July' covers it. Label matches AF-47.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported. July: SARS-CAL, SARS-WIN and RSSA-GG (one society) and ROSS-CAL 'Pruning time in most districts': two voices, Moderate. Late June: ROSS-CAL alone, said as one nursery. Frost areas: RSSA-GG 'July (or August in frost areas)'; ROSS-CAL, under July, 'In frosty districts delay pruning until now'. Naming who says which is what rule 2 asks. The Moderate label belongs to the July sentence; the frost sentence is one society against one nursery (see the package note on 'Sources disagree').",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, one organisation, said so: RSWA lists 'Prune to suit your flowering goals' under 'WINTER (June - July)'. The months are the heading, not the sentence. 'In June or July' would match 000026 item 7 and read a little more plainly than 'in June and July'.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 7",
+   "result": "Fail",
+   "points_failed": [
+    12
+   ],
+   "note": "The first sentence is supported: NFP (a Brisbane City Council rose garden), 'The best time to prune roses is in June/July'. The second sentence, 'One rose farm there prunes in July', fails the sentence test. It is true to GA-SUB ('before they're pruned in July'), but it is about what a source does, no rule needs it (it is not the only source, not a disagreement and adds nothing to the range), and it gives a gardener nothing to act on because July is already inside 'June or July'. GA-SUB is also a 2018 television segment on one grower's practice, which rules section 4 does not count on its own. Take the sentence out; AF-50 still stands on NFP at Low.",
+   "suggested_wording": "In Brisbane, one public rose garden says the best time to prune is June or July. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "A gap, marked as one, shown only in Tasmania. No page checked names Tasmania for any job, and the dossier's source log (section 4.3) records that no Tasmanian rose source giving months was located. Points to local help (rule 5). It says 'rose jobs' but is shown only under the pruning question (see the package notes).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 9",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "A gap, marked as one, shown only in the Northern Territory. The only Northern Territory page (GA-TROP, one garden south of Darwin, 2006) gives no months and is on record only. Points to local help (rule 5).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 AU item 10",
+   "result": "Pass with a note",
+   "points_failed": [
+    7
+   ],
+   "note": "The gap is real (dossier section 4.3; OGO lists Alice Springs and Mildura among its arid towns), and the words are plain. The fault is where it is shown. Marked for all of Australia, it reaches gardeners in Tasmania and on the coast, to whom it says nothing, and a Northern Territory gardener reads it straight after item 9, which already says the same for the whole Territory. Show it in New South Wales, Victoria, Queensland, South Australia and Western Australia only, and then name a town in those states.",
+   "suggested_wording": "I couldn't find months for rose jobs written for the dry inland of Australia, such as Mildura. A local rose society is the place to ask."
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 1",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "Each part has two or more sources. After the winter prune: RSNSW-G 'First feed after the winter prune'; GA-RP08 'about three weeks after you've pruned'. As new growth appears: RSWA; OGTR 'once new growth begins'; SARS-SPR shoots 'around 2cms'. TRE-CAL is given fairly as one nursery. One point: 'in spring' sits badly beside item 2, whose first month is August, which most Australians count as winter. The feed is tied to the prune and to growth, so the season can go.",
+   "suggested_wording": "Start feeding after the winter prune, as new growth appears. One nursery waits until the rose has plenty of leaves and its first blooms."
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 2",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "The range is supported across four states: RSNSW-CAL 'The latter half of August is ideal for feeding roses, though in cold areas this can be delayed until September'; RSV-M the end of August; SARS-CAL and RSSA-GG early September; RSWA under 'EARLY SPRING (August - September)'; ROSS-CAL September. Four societies: High is right. Two small points. 'First' is the builder's reading: only RSNSW-G speaks of a first feed, and it ties it to the prune, not to a month. 'Of spring' is said of a feed that starts in August; only RSWA's heading calls August spring.",
+   "suggested_wording": "Give the spring feed in the second half of August or in September. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 3",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    7,
+    10
+   ],
+   "note": "The first sentence is supported: RSNSW-G 'the last feed in mid to late February'; SARS-CAL February and SARS-AUT 'in March' if February was missed; TRE-CAL 'early Autumn'; GA-MAG and TSC 'the start of autumn'; FP 'spring to early autumn'. The nursery sentence is supported (TRE-CAL 'Do not fertilise in late Autumn'). The middle sentence is not supported as written. 'Two rose societies feed later, into April or May' leaves out that the South Australian April feed is 'in sandy soils' only (RSSA-GG); the same society's own schedule for heavy soil ends in February, and it is one of the sources for the first sentence. The other is RSWA, 'Continue feeding and deadheading' under 'LATE AUTUMN (May)', which is Western Australia. Both are local, and both are already told in their own states (items 7 and 8, where the sandy-soil condition is said). Shown to the whole country without the condition, the sentence invites a gardener in Victoria or New South Wales to feed into late autumn. Say less here.",
+   "suggested_wording": "Give the last feed in late summer or early autumn, in February or March. One nursery says not to feed in late autumn. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, one organisation, said so. RSNSW-G: 'First feed after the winter prune ... and the last feed in mid to late February.' RSNSW-CAL: 'The latter half of August is ideal for feeding roses, though in cold areas this can be delayed until September.' The two pages are joined fairly. Label matches AF-53.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 5",
+   "result": "Pass with a note",
+   "points_failed": [
+    10
+   ],
+   "note": "Supported: RSV-M, under August, 'At end of month feed all roses with a specialist rose fertiliser'. But the same sentence goes on 'except newly planted bare-root roses'. That exception is in item 6, and this statement may be read without it; a gardener with a rose planted that winter would then feed it three months early. Say the exception here.",
+   "suggested_wording": "In Victoria, one rose society says to feed roses at the end of August, but not a newly planted bare-root rose. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 6",
+   "result": "Pass with a note",
+   "points_failed": [
+    10
+   ],
+   "note": "Supported: RSV-M, 'except newly planted bare-root roses which should not be fed until late November or early December but at half the recommended amount'. The meaning of bare-root is from RSNSW-G ('dormant – they have no leaves or flowers and are only available in winter'). The page's 'half the recommended amount' is left out. It would change what a gardener does, and it is not a mixing amount, so it can be said.",
+   "suggested_wording": "In Victoria, one rose society says not to feed a newly planted bare-root rose (a dormant plant sold in winter, with no leaves or flowers) until late November or early December, and then at half the recommended amount. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported. September and February: RSSA-GG 'early September and February in heavy soil'; SARS-CAL; ROSS-CAL (September 'the main fertilising for the year', and a feed listed in February). March if February was missed: SARS-AUT. Sandy soil, four times: RSSA-GG. The soil condition is said and no brand is named. 'It says to feed four times' would be about the gardener; 'it feeds' is about the society. Label matches AF-55.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 AU item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, one organisation, said so. RSWA: 'Feed as new growth appears and apply mulch' under 'EARLY SPRING (August - September)'; feeding listed in each season after; 'Continue feeding and deadheading' under 'LATE AUTUMN (May)'. The page does not call May the last feed, and the statement does not say it is.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "A gap, marked as one. RSNSW-CAL, NFP, GA-MAG, SARS-CAL, RSSA-GG and ROSS-CAL describe deadheading and give no time to stop; RSV-M and RSWA list it into April and May and name no stop. The meaning in brackets is from GA-MAG ('finished a show of blooms, cut them off (called deadheading)').",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 2",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    7
+   ],
+   "note": "The trim itself is supported: RSNSW-CAL trims 'for March blooms' and 'for blooms in May'; SARS-CAL 'to achieve a strong and vibrant autumn flush'; SARS-AUT 'A light, late summer or early autumn trim'; ROSS-CAL 'To bring on the autumn display lightly trim'. Two things say more than the pages. (1) April. For a trim that brings on autumn flowers the confirmed months are January to March: RSNSW-CAL January, early February or March by area; RSV-M February; ROSS-CAL mid February; FP mid January to early February. April comes only from RSWA, whose 'Light summer prune (about one-third)' sits under 'EARLY AUTUMN (March - April)' and is 'to encourage fresh growth'; the page does not tie it to autumn flowers. It is one state society's month, shown to the whole country under a High label and joined to a purpose its page does not give. It is already told in Western Australia (item 6). (2) 'For more flowers'. The pages speak of bringing on or timing the autumn flowers, not of more of them.",
+   "suggested_wording": "To bring on flowers in autumn, give the rose a light trim in summer or early autumn. This is done between January and March, depending on where you live. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 3",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "Supported: RSNSW-CAL, 'trim your plants early this month [February] in mild climate areas. In cool areas do this in January for March blooms, and in warm areas trim in March for blooms in May.' One slip: the statement says 'in summer' and then gives March, which is autumn. The confirmed sentences do not say 'summer'.",
+   "suggested_wording": "In New South Wales, one rose society says to trim roses for flowers in autumn: in January in a cool area, early in February in a mild area, and in March in a warm area. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 4",
+   "result": "Pass with a note",
+   "points_failed": [
+    12
+   ],
+   "note": "Supported: RSV-M, 'Summer-trim all roses if timing flowering for a show or special event' under February, and 'Deadhead and enjoy' under April. The second sentence, 'It is still deadheading in April', is about what the source does, and 'It' can be read as the rose or the trim. Say what the gardener does.",
+   "suggested_wording": "In Victoria, one rose society says to give a summer trim in February if you are timing the flowers for a show or special event. It also says to deadhead in April. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported. SARS-AUT: 'A light, late summer or early autumn trim will ensure a great flush of flowers around 55 days later.' ROSS-CAL: 'To bring on the autumn display lightly trim all over the bush in mid-February'. SARS-CAL, under February: 'Roses can be trimmed in summer, one to two weeks after fertilising'. To be known: 'the February feed' is read from the heading the sentence sits under; the page says February is 'the month to fertilise'. The two timings differ, so naming who says which is a range. Label matches AF-58.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 AU item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, one organisation, said so. RSWA: 'Light summer prune (about one-third) to encourage fresh growth' under 'EARLY AUTUMN (March - April)', and 'Continue feeding and deadheading' under 'LATE AUTUMN (May)'. The page's reason (fresh growth) is left out, which is allowed. 'Summer prune' beside March and April is the page's own wording.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 1",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    8
+   ],
+   "note": "June or July is supported at High: OGTR 'June & July in Australia'; GA-MAG 'May, June and July are the months to plant bare-rooted roses in Australia'; RSSA-GG 'June or July'; SARS-WIN 'June, July or early August'; RSV-M and ROSS-CAL June. The fault is 'Planting can start in May', said flat under the High label. The statement is about a bare-root rose, and for a bare-root rose May is one source, GA-MAG. RSWA lists 'Plant new roses' under May and does not say bare-root; PEN's May to July is when one nursery sends roses out, not when to plant. Where only one source says it, Pip says so (rule 1), and Pip already does in the published PKR-CGD-000016: 'one source says from May'. The meaning of bare-root is from RSNSW-G and is fair.",
+   "suggested_wording": "In Australia, plant a bare-root rose (a dormant plant sold in winter, with no leaves or flowers) in June or July. One source says planting can start in May. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported. Winter: SARS-WIN 'Winter is the best time to transplant existing roses'; TRE-CAL and TRE-T (one company) 'in the winter dormancy'; FP 'in winter, when they are dormant'; RSV-M lists it under June. 'While it is dormant' is the nursery and the garden centre, two voices. No month is named, so no month line is needed. Moderate is right. 'Dormant' and 'established' are not explained (see the package note on terms).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 3",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "Supported as a precaution by two independent sources in two states: SARS-POT 'Remember don't plant in hot weather', and FP 'you should avoid planting in very hot weather'. Marked as a precaution. To be known: both sentences are about roses in pots (SARS-POT is a page on roses grown in containers; FP speaks of potted roses), and the statement says 'a rose'. That widens it a little, but a precaution only asks for more care, and bare-root roses are planted in winter in any case. No change is needed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, one organisation, said so: RSNSW-CAL, under late April and May, 'Prepare the soil for planting in June/July.'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported: FP, 'potted roses can be planted year-round (however, you should avoid planting in very hot weather)'. It is one garden company's local timing advice, which rules section 4 allows; it says only one source and names no month. On the builder's doubt: the article is for Sydney and the Hunter, so showing it in or near Sydney only is narrower than the page, which is allowed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 6",
+   "result": "Pass with a note",
+   "points_failed": [
+    12
+   ],
+   "note": "Supported: RSV-M, 'order new roses for winter planting' (May), 'Start planting new roses' (June), 'Move established roses to new locations' (June). 'June is also its month for moving an established rose' is about the society's calendar. Say what the gardener does.",
+   "suggested_wording": "In Victoria, one rose society says to order new roses in May and start planting them in June. It also says to move an established rose in June. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 7",
+   "result": "Pass with a note",
+   "points_failed": [
+    9,
+    12
+   ],
+   "note": "Supported. RSSA-GG 'This is best done in June or July' (bare-rooted roses); SARS-WIN 'June, July or early August'; ROSS-CAL 'Planting time for new plants' (June) and 'Bare-rooted plants can still be planted this month' (August). Two points. The society and the nursery agree that planting runs into August, so the second sentence can say so without counting them. And 'bare-root' is not explained here, though the statement may be read alone; items 000023/6 and 000025/1 explain it.",
+   "suggested_wording": "In South Australia, plant a bare-root rose (a dormant plant sold in winter, with no leaves or flowers) in June or July. Planting can go on into August. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 AU item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, one organisation, said so. RSWA: 'Plant new roses for future seasons of colour' under 'LATE AUTUMN (May)'; 'Plant or repot roses as needed' under 'WINTER (June - July)'. The statement does not say bare-root, and nor does the page.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported. Clearing prunings and fallen leaves at pruning: RSNSW-G, RSNSW-CAL, RSV-M, SARS-CAL, SARS-WIN, ROSS-CAL, GAM, GA-RP08 (five voices; High). Picking off the leaves left on the plant: RSV-M 'Remove all leaves from bushes' and RSNSW-G 'pick off any foliage', two societies, so it can be said plainly. Rubbish bin: GA-RP08 'Don't put them into the compost, but into the rubbish bin', with GA-MAG of infected leaves; both are the national broadcaster, so 'one source says' is right. The New South Wales green waste bin (C-10) is said in that state.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 2",
+   "result": "Pass with a note",
+   "points_failed": [
+    11
+   ],
+   "note": "Supported. After pruning: RSNSW-CAL, RSV-M, SARS-CAL, RSSA-GG, RSWA, ROSS-SP, GAM, TRE-CAL, TSC, FP. Types: lime sulphur (ten pages), copper (RSV-M, RSSA-GG, SARS-WIN, ROSS-CAL, ROSS-SP), oil (RSV-M, SARS-CAL, SARS-WIN, RSSA-GG, ROSS-CAL, ROSS-SP). The meaning in brackets is on the pages (RSWA 'to clean up pests and disease'; GAM 'overwintering pests and diseases'). 'If you use' agrees with the published PKR-CGD-000013. One word: 'oil' alone may puzzle a beginner. The published answer says 'a spraying oil'; the pages say winter oil, pest oil or white oil.",
+   "suggested_wording": "If you use a clean-up spray in winter (a spray to clear pests and diseases left on the plant), put it on after pruning. Lime sulphur, copper and a spraying oil are the types used. Follow the label on the spray."
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 3",
+   "result": "Pass with a note",
+   "points_failed": [
+    4
+   ],
+   "note": "The words are supported and it is marked as a precaution. GAM: 'This must be done before the new growth appears, as lime burns new growth.' FP: 'After pruning and before new growth appears ... while they are dormant.' GA-RP08: 'while the plants have no leaves and are dormant.' 'One source says' is right for the burning. To be known, on the level: the source log gives GAM and FP the same author, and GAM and GA-RP08 are one broadcaster, so there are two voices at most, and 'before new growth appears' comes from one author's two pages. Moderate is the top of what that carries; Low is the careful level. It may be used either way, because it is a precaution (rule 7).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 4",
+   "result": "Pass with a note",
+   "points_failed": [
+    10
+   ],
+   "note": "Supported: RSNSW-CAL, July section, 'Immediately pruning is completed, the prunings and fallen leaves should be put in the green waste bin and the plants sprayed with a fungicide', and 'Lime Sulphur is recognised as being effective'. One point: 'in July' is the heading the sentence sits under, and the same section says 'In cold areas it is better not to prune until August.' The page ties the job to the end of pruning, not to July, and a gardener inland, told to prune in August (000022 item 3), is here told July. Leave the month out; the month line then goes too.",
+   "suggested_wording": "In New South Wales, one rose society says to put the prunings and fallen leaves in the green waste bin as soon as pruning is finished, and then to spray with a fungicide or lime sulphur. Follow the label on the spray."
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 5",
+   "result": "Pass with a note",
+   "points_failed": [
+    3,
+    12
+   ],
+   "note": "Supported, one organisation, said so: RSV-M, July, 'Remove all leaves from bushes and rake up all around the rose beds', '... spray on bare roses and lightly on ground around bushes to kill all black spot spores', 'Alternative spray is Lime Sulphur.' On the builder's doubt: copper with white oil is in the source check's notes, twice and the same each time ('copper-based fungicide with white oil'), but not in a sentence confirmed word for word. It may stand if that sentence is read once more; otherwise leave the types to the national statement (item 2), which names all three. Also, 'It then sprays' is about what the society does; say what the gardener does.",
+   "suggested_wording": "In Victoria, one rose society says to take all the leaves off the bushes and rake up around the beds in July, and then to spray the bare roses and, lightly, the ground around them. Follow the label on the spray. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported. August: SARS-CAL 'Ensure rose prunings and as many fallen leaves as possible are removed' and 'After tidying up, ensure roses are sprayed with Winter Oil (or pest oil) or Lime Sulphur'. July: ROSS-CAL 'Rake up cuttings and leaves and dispose of them', and ROSS-SP 'After pruning in July it is good practise to spray'. Types: oil or lime sulphur (SARS-CAL); oil or copper (RSSA-GG); oil, lime sulphur or copper (SARS-WIN); copper or lime sulphur with oil (ROSS). The months differ (C-7), so naming who does which is allowed. A South Australian gardener reads the three types twice in this answer (item 2).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, one organisation, said so: RSWA, 'Spray after pruning to clean up pests and disease' under 'WINTER (June - July)'. The page names no type of spray, and nor does the statement.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 AU item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "A gap, marked as one. The dossier's source log (section 4.3) records that no Australian rose source describing winter protection was located, and no page in the source check mentions it. 'I couldn't find' does not say it is never needed. Points to local help.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 1",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    11,
+    12
+   ],
+   "note": "Three faults. (1) 'When to do each rose job depends on where you live' is said flat, but only one source says it of rose jobs in general: TRE-CAL, 'Due to Australia's vast climatic variations, seasonal tasks may vary to the following list.' FP says it of pruning only ('depending on local conditions'). QRS-G and SARS-WIN say conditions vary and do not mention timing; OGO is about vegetables and seeds. (2) 'Conditions vary across Australia and from one part of a state to another' states the obvious, and 'from one part of a state to another' is what two societies say of their own states (QRS-G of Queensland, SARS-WIN of South Australia), each already told there (items 6 and 7). (3) Nothing in the statement is something a gardener can do, look for or decide. What is worth keeping is that the months can shift from place to place and, from one source, even between suburbs; rule 6 gives the gardener the use of it.",
+   "suggested_wording": "The right time for a rose job can differ from place to place. One source says conditions vary even between neighbouring suburbs, so treat the months as a guide."
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported by two nurseries, so it can be said plainly: TRE-CAL 'If you live in an area that receives frosts, wait until the last frost has passed' (in its winter pruning section), and PEN 'pruned after the last frost'. OGTR agrees in substance ('when there is no chance of frost damaging the tender new shoots'). Moderate is right; three of the four sources are commercial. It sits beside 'wait until August' in 000022 item 2 (see the package notes).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 3",
+   "result": "Pass with a note",
+   "points_failed": [
+    4
+   ],
+   "note": "The words are right: BOM-FROST, 'extensive areas in northern Australia are generally frost free' and 'Potential frost days are mainly confined to a period from late autumn to early spring'. 'Days cold enough for frost' is a fair plain rendering of potential frost days. 'The national weather bureau says' does the work of 'one source says' without giving a name, as 'one rose society' does. On the builder's doubt: High on one organisation is too high. It is one voice, the figures end in 2005, and AF-42, from the same bureau on the same footing, is Moderate. Lower AF-41 to Moderate and the label follows. The statement lets a gardener in the north judge whether the frost advice is for them; it gives nothing to do, which is acceptable for this question but thin.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 4",
+   "result": "Fail",
+   "points_failed": [
+    3,
+    5
+   ],
+   "note": "The first sentence is confirmed word for word: BOM-WIF, 'Frost is a localised phenomenon, the severity of which can vary significantly over a very small area.' The second sentence is not. On the builder's doubt: the valley sentence was read once, as a paraphrase with a gap in it ('Frost hollows often occur in valleys due to cold air drainage...result in frost forming in valleys when surrounding areas remain frost-free'), and was not read a second time. In that reading 'often' belongs to where frost hollows occur, not to how often valleys get frost, so 'Valleys often get frost' says more than was read. The sentence is also not in the wording of AF-42, which says only that frost is localised and can vary over a very small area, so the statement says more than its finding. Read the page's sentence once more and add it to AF-42, and until then say less.",
+   "suggested_wording": "Frost is local: how severe it is can vary a lot over a very small area, the national weather bureau says. Frost can form in a valley while the land around it stays free of it."
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 5",
+   "result": "Pass with a note",
+   "points_failed": [
+    9
+   ],
+   "note": "Supported. Humid areas and fungal disease: OGTR, TSC ('may be more susceptible'), PEN, GA-MAG; four voices, two of them commercial, so Moderate is right. Hot tropics: OGTR alone ('more difficult to manage in hot tropical regions'), said as one source. Choosing a rose: GA-MAG alone, said as another. One slip: 'they are harder to manage' can be read as the diseases; OGTR says it of roses.",
+   "suggested_wording": "In a humid climate, roses are more likely to get fungal diseases, and one source says roses are harder to manage in the hot tropics. Another says to choose a rose that is not prone to these diseases if your climate is humid."
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 6",
+   "result": "Pass with a note",
+   "points_failed": [
+    9,
+    11
+   ],
+   "note": "Supported, one organisation, said so: SARS-WIN, 'colder and wetter in the Adelaide Hills, the South-East and Southern Yorke Peninsula and Eyre Peninsula. Frosts are also common in country areas.' Two things to know. It does not say colder than where; the start of the page's sentence was not recorded. And the page does not say any job changes, so the use to a gardener is only to judge whether theirs is a frost area (000022 items 2 and 5). Leading with the frost sentence makes that use plainer.",
+   "suggested_wording": "In South Australia, one rose society says frosts are common in country areas, and that it is colder and wetter in the Adelaide Hills, the South-East, and Southern Yorke Peninsula and Eyre Peninsula."
+  },
+  {
+   "ref": "PKR-CGD-000027 AU item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, one organisation, said so: QRS-G, 'Growing and climate conditions will vary across the State of Queensland. Try and see what works for you.' The page gives no months. See the package note on Queensland outside Brisbane.",
+   "suggested_wording": null
+  }
+ ],
+ "package_notes": [
+  "No share was named at the end of the instruction, so all 47 statements were checked.",
+  "An earlier bc_out_B1.json was already in the folder. It was read only after these results were drafted, as a cross-check, and this file replaces it. It agreed on most points; where it differed it is noted in the reply.",
+  "Structure is sound: every trace names a finding, conflict or rule that exists; every finding available to Pip is used; nothing on record only is used; every label matches the level of the first finding in its trace; every statement that names a month says months are only a guide; no brand or mixing amount appears; the gaps speak in the first person.",
+  "Six statements fail: the Brisbane rose farm sentence (000022 item 7), the last feed (000023 item 3), the summer trim (000024 item 2), bare-root planting in May (000025 item 1), 'depends on where you live' (000027 item 1) and the valley frost sentence (000027 item 4). Each fix says less; only the valley sentence would gain from the page being read once more.",
+  "No Australia statement rests wholly on one state's pages. Four carry a part that is local or single: April for the summer trim is Western Australia alone (000024 item 2); feeding into April or May is South Australia on sandy soil and Western Australia (000023 item 3); 'from one part of a state to another' is Queensland and South Australia (000027 item 1); May for a bare-root rose is one national source (000025 item 1). The first three are already told in their own states.",
+  "No state statement goes beyond what was said of that state. Two things to know: the New South Wales pruning statement (000022 item 3) leans on a Sydney and Hunter garden centre for its Moderate label, while the same article is kept to Sydney in 000025 item 5; and in the New South Wales clear-up statement (000026 item 4) 'in July' is the page's heading, in a section that sends cold areas to August.",
+  "Queensland outside Brisbane has no months and no statement saying so. AF-50's own limitation records that no source gives months for the rest of Queensland, so a gardener in Cairns, Townsville or Toowoomba sees only the national months and the 'try and see' line. Add a gap for Queensland outside Brisbane, as for Tasmania and the Northern Territory.",
+  "A gardener in the Australian Capital Territory sees only the national statements. The two Canberra pages could not be opened, so Pip cannot honestly say it found nothing. Try those pages again; until then nothing tells a Canberra gardener that local advice exists.",
+  "The Tasmania and Northern Territory gaps say 'rose jobs' but are shown only under the pruning question. Under feeding, the summer trim, planting and clear-up, those gardeners read national months with no word that nothing was found for their place.",
+  "The dry-inland gap (000022 item 10) is shown to all of Australia. A Tasmanian reads it for no reason, and a Northern Territory gardener reads two gaps that overlap. Show it in the five mainland states only.",
+  "Conflicts: C-2, C-3, C-4, C-5, C-6, C-9, C-10 and C-11 reach gardeners; C-7 reaches South Australian gardeners, where both its sources are. C-1 (zone names) and C-8 (rest in the subtropics) are on record only, each for a stated reason. If the fixes above are made, C-5's later feeds and C-11's April are told in South Australia and Western Australia only, which is where the pages speak of, and those gardeners still read both sides.",
+  "No statement is marked 'Sources disagree'. Every disagreement is carried inside a statement with a confidence label, by saying who differs (000022 item 5, 000023 items 1 and 3, 000026 item 6). That meets rule 2. But rules section 3A marks a disagreement 'Sources disagree' in place of a level, and two points are close to an even split: frost areas in South Australia (one society says August, one nursery July) and the South Australian spray month. Someone should decide whether those two need a statement of their own so marked.",
+  "A difference is not recorded as a conflict: frost areas are told to 'wait until August' (000022 item 2, High) and to 'wait until the last frost has passed' (000027 item 2, Moderate). Where frosts run past August the two give different answers. Rule 6 settles it for the gardener (the month is a guide), but the record should show the two as a conflict.",
+  "Repeats a gardener will notice in one answer: a New South Wales gardener reads the pruning months three times (000022 items 1 to 3) and the August and September feed twice (000023 items 2 and 4); a Victorian reads the cold-area advice twice (000022 items 2 and 4); a Sydney gardener reads 'very hot weather' twice (000025 items 3 and 5); a South Australian reads the three spray types twice (000026 items 2 and 6). None contradicts.",
+  "Things the same gardener reads that pull against each other: in New South Wales, 'rubbish bin, not the compost' and 'green waste bin' in one answer (C-10; each is fairly marked, but a beginner is left to choose); in South Australia, 'wait until August' at High and then 'the nursery says July' (C-3, fairly marked); in Victoria, a trim for autumn flowers nationally and a trim only for a show locally (000024 items 2 and 4); everywhere, 'Start feeding in spring' followed by a first feed in the second half of August.",
+  "Against what Pip already says: nothing contradicts the published answers, but three things differ. PKR-CGD-000016 says 'one source says from May' and carries Moderate, where 000025 item 1 says May flat and carries High for the same June or July. PKR-CGD-000013 carries Moderate for the winter spray and its types, and says copper timing differs between sources, where 000026 item 2 carries High and says 'put it on after pruning'. PKR-CGD-000013 says 'a spraying oil' where 000026 says 'oil'.",
+  "PKR-CGD-000016 ('When can I plant or move a rose?') and 000025 ('Which months do I plant or move a rose?') ask nearly the same question, and the published sentence counts its sources ('Two rose societies say June or July') in the way the sentence test now fails. Bring the published statement into line when this is published.",
+  "Independence: the source log gives the same author to GAM and FP, and section 4.2 of the dossier does not record it. It matters for AF-37, where 'before new growth appears' comes from those two pages only, and for AF-14, which counts them as two sources that name no month.",
+  "The builder's judgement calls hold: the split by place; Moderate for South Australia where the society and one nursery agree; lowering AF-40; narrowing AF-33 to the precaution; saying nothing for Canberra; keeping the television segments on record; the findings left out as being about the research; the dropped and moved quotations. One follows through unevenly: having ruled that a television segment on one grower does not count on its own, the Brisbane farm should not have a sentence of its own (000022 item 7). The Tasmania and Northern Territory gaps rest on the dossier's source log, which is the only place an absence can be recorded; that is acceptable.",
+  "The builder's five doubts. Flower Power as Sydney only: allowed, it is narrower than the page. AF-41 at High on one organisation: lower it to Moderate. Victoria's copper and white oil: in the checker's notes, not in a quoted sentence; read the page once more or leave the types out. The frost-hollow sentence: read once with a gap; say less and read it once more. The arid gap Australia-wide: narrow it to the five mainland states.",
+  "Several one-society statements describe the society, not the job: 'It then sprays' (000026 item 5), 'It is still deadheading in April' (000024 item 4), 'June is also its month for' (000025 item 6), 'it feeds four times' (000023 item 7), 'It gives the last feed' (000023 item 4). They read better as what the gardener does ('and then to spray', 'It also says to deadhead in April').",
+  "Nineteen local statements carry Low. The label list in the instruction has no plain 'Low confidence' label, only 'Precaution · Low confidence'. Check how the app shows a Low local statement, so that Low is not read as a reason to ignore the only local advice there is.",
+  "Rule 6: no Australian pruning statement gives a gardener anything to look for on the plant, because no page times pruning by the plant (AF-18). One confirmed sentence comes close: RSNSW-G, 'The best time to prune roses is when they are in their most dormant period.' It is one society and would belong in the New South Wales statement.",
+  "Terms a beginner may not know and that no answer explains: 'dormant' and 'established' (000025 item 2, 000026 item 3), 'fungicide' (000026 item 4), 'white oil' (000026 item 5), 'fungal diseases' (000027 item 5; OGTR gives black spot as an example), 'prunings'. 'Bare-root' is explained truly to the one page that describes it, but the explanation uses 'dormant' and does not say what makes a rose bare-root, because no confirmed page says it; it is missing from 000025 item 7.",
+  "The same summer job has three names across one answer: 'light trim', 'summer trim' and 'light summer prune'. Each follows its own page, but a beginner may take them for different jobs, and 'summer' sits beside March and April in two of them."
+ ],
+ "findings_comments": [
+  {
+   "finding": "AF-27",
+   "comment": "Wording. Put the months back to January to March for the trim that brings on autumn flowers (RSNSW-CAL, RSV-M, ROSS-CAL, FP). RSWA's March to April prune is 'to encourage fresh growth' and belongs in AF-59 and in the limitation here, not in the range. C-11 stays on record. The level can stay."
+  },
+  {
+   "finding": "AF-23",
+   "comment": "Use. Both halves are local: April is sandy soil in South Australia, May is Western Australia. Use it only in those two state statements (it is already in 000023 items 7 and 8), not as one side of a national disagreement, and never without the sandy-soil condition."
+  },
+  {
+   "finding": "AF-32",
+   "comment": "Wording. Say in the finding itself that for bare-root roses May rests on one source (GA-MAG); RSWA plants 'new roses' in May and does not say bare-root. The statement then says 'one source says', as the published PKR-CGD-000016 does."
+  },
+  {
+   "finding": "AF-41",
+   "comment": "Level. Lower from High to Moderate: one organisation, figures ending in 2005, and the same footing as AF-42, which is Moderate. The label on 000027 item 3 follows."
+  },
+  {
+   "finding": "AF-42",
+   "comment": "Wording. The finding says only that frost is localised and varies over a very small area; the frost-hollow sentence is in its source list but not in its wording, and was read once with a gap. Read it once more, record it exactly and add it to the finding before a statement uses it."
+  },
+  {
+   "finding": "AF-37",
+   "comment": "Level and limitation. Record that GAM and FP have the same author and that GAM and GA-RP08 are one broadcaster. That leaves two voices at most; Moderate is the top of what it carries and Low is the careful level. It stays available as a precaution either way."
+  },
+  {
+   "finding": "AF-40",
+   "comment": "Wording. Say plainly that timing varying for rose jobs in general is one nursery (TRE-CAL), and for pruning one garden centre as well (FP), so that a statement cannot say 'each rose job' flat. Moderate is the most it carries."
+  },
+  {
+   "finding": "AF-12",
+   "comment": "Limitation. Say whether FP counts as a second voice for the New South Wales coast or only for Sydney and the Hunter, and treat it the same way as in AF-64. If only for Sydney and the Hunter, the statewide finding is one society and Low."
+  },
+  {
+   "finding": "AF-50",
+   "comment": "Wording and a missing gap. The Brisbane farm (GA-SUB) agrees with NFP and adds nothing a gardener can use; keep it in the limitation, not in the finding's main words. A gap finding is missing beside this one: no source gives months for Queensland outside Brisbane (this finding's own limitation says so). Add one, for use as a gap in Queensland."
+  },
+  {
+   "finding": "AF-66",
+   "comment": "Wording. Copper with white oil is from the checker's notes, not a sentence confirmed word for word. Read that sentence of RSV-M once more and record it, or drop the two types and keep lime sulphur."
+  },
+  {
+   "finding": "AF-20",
+   "comment": "Limitation. GA-MAG and TSC feed 'at their first flush in spring'. Say whether that is read as first growth or first flowering; if flowering, they stand with the nursery that waits for the first blooms, and it is not alone."
+  },
+  {
+   "finding": "AF-19",
+   "comment": "Limitation. 'No one page gives late August or September' is not quite right: RSNSW-CAL gives both ('The latter half of August ... though in cold areas this can be delayed until September'). The finding and its level are unaffected."
+  },
+  {
+   "finding": "AF-14",
+   "comment": "Wording. 'Two sources name no month' (GAM and FP) are one author by the source log; count them once. The level is unaffected."
+  },
+  {
+   "finding": "AF-15",
+   "comment": "Use is right (on record only), but the two Canberra pages should be tried again; nothing local reaches a gardener in the Australian Capital Territory."
+  }
+ ]
+}

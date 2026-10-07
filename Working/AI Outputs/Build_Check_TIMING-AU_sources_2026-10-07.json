@@ -1,0 +1,1956 @@
+{
+ "what": "Build Check Part 1 (ROC Operations Manual §14.2A): every source the Source Register lists for a finding was reopened on 7 October 2026 and each recorded quotation looked for on its page. 'also_says' lists further sentences the checkers confirmed on the same pages. Two pages (HSOC-AUG, HSOC-AUT) returned a server error on every try, including a later try.",
+ "totals": {
+  "sources": 33,
+  "opened": 31,
+  "could_not_open": 2,
+  "quotations": 145,
+  "confirmed": 134,
+  "near": 6,
+  "not_found": 1,
+  "on_pages_not_opened": 4,
+  "supports": {
+   "partly": 80,
+   "yes": 61,
+   "no": 4
+  },
+  "further_sentences": 65
+ },
+ "read_again_by_the_builder": [
+  {
+   "finding": "AF-66",
+   "code": "RSV-M",
+   "sentence": "Remove all leaves from bushes and rake up all around the rose beds."
+  },
+  {
+   "finding": "AF-66",
+   "code": "RSV-M",
+   "sentence": "spray on bare roses and lightly on ground around bushes to kill all black spot spores"
+  },
+  {
+   "finding": "AF-66",
+   "code": "RSV-M",
+   "sentence": "Alternative spray is Lime Sulphur."
+  },
+  {
+   "finding": "AF-42",
+   "code": "BOM-WIF",
+   "sentence": "Frost hollows often occur in valleys due to cold air drainage."
+  },
+  {
+   "finding": "AF-42",
+   "code": "BOM-WIF",
+   "sentence": "This is referred to as a katabatic wind, and can result in frost forming in valleys when surrounding areas remain frost-free."
+  },
+  {
+   "finding": "AF-66",
+   "code": "RSV-M",
+   "sentence": "Use [brand] and White Oil mixed together to spray on bare roses and lightly on ground around bushes to kill all black spot spores."
+  }
+ ],
+ "sources": [
+  {
+   "code": "RSNSW-G",
+   "url": "https://nsw.rose.org.au/growing-roses",
+   "final_url": "https://nsw.rose.org.au/growing-roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "If you live near the coast, and rarely or never get frosts, the most dormant period is late June to the end of July.",
+     "result": "Confirmed",
+     "page_wording": "If you live near the coast, and rarely or never get frosts, the most dormant period is late June to the end of July.",
+     "supports_finding": "partly",
+     "note": "Page (NSW society) splits pruning by coast with no frosts versus inland or regular frosts, so it supports timing by frost/coast. It says nothing about the five gardening zones, so the 'not by zones' part is not shown by this page alone. NSW."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "If you live near the coast, and rarely or never get frosts, the most dormant period is late June to the end of July.",
+     "result": "Confirmed",
+     "page_wording": "If you live near the coast, and rarely or never get frosts, the most dormant period is late June to the end of July.",
+     "supports_finding": "partly",
+     "note": "Supports late June to end of July for main pruning on the NSW coast with no/rare frost. The page does not say early July is ideal (asked twice; not stated). Publisher is NSW; sentence names coastal, rarely frosty areas."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "it is best to prune from the beginning to the end of August.",
+     "result": "Confirmed",
+     "page_wording": "If you live inland or an area that gets any frosts over a regular period, it is best to prune from the beginning to the end of August.",
+     "supports_finding": "partly",
+     "note": "Supports August main pruning for NSW inland or regularly frosty areas. Victoria, South Australia and Canberra are not named on this page (NSW society, no other place stated)."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "The best time to prune roses is when they are in their most dormant period.",
+     "result": "Confirmed",
+     "page_wording": "The best time to prune roses is when they are in their most dormant period.",
+     "supports_finding": "yes",
+     "note": "Page ties pruning to dormancy and region/frost months, with no mention of bud swell found. Fits the finding that this page does not use bud swell. NSW, no other place stated."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "First feed after the winter prune",
+     "result": "Confirmed",
+     "page_wording": "First feed after the winter prune; second feed in mid September in time in the warmer zones or early to mid-October in the cooler zones; third feed...",
+     "supports_finding": "yes",
+     "note": "First feed is tied to the winter prune, not a month. NSW society, no region stated for this sentence. Later feeds are given by month."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "second feed in mid September in time in the warmer zones or early to mid-October in the cooler zones",
+     "result": "Confirmed",
+     "page_wording": "second feed in mid September in time in the warmer zones or early to mid-October in the cooler zones",
+     "supports_finding": "partly",
+     "note": "This is the SECOND feed, mid-September warmer vs early-to-mid October cooler zones, about 2-4 weeks later; it is not the spring start of feeding. Zones are not defined. NSW society."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "the last feed in mid to late February.",
+     "result": "Confirmed",
+     "page_wording": "...and the last feed in mid to late February.",
+     "supports_finding": "partly",
+     "note": "Supports last feed mid to late February. Finding says late summer to early autumn, February to March, southern states; page gives only mid-late February, written by NSW society, no other place stated."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "Bare rooted plants are dormant – they have no leaves or flowers and are only available in winter.",
+     "result": "Confirmed",
+     "page_wording": "Bare rooted plants are dormant – they have no leaves or flowers and are only available in winter.",
+     "supports_finding": "partly",
+     "note": "Says bare-root roses are only available in winter; gives no June/July planting months (asked directly). NSW, no place stated."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "Roses growing in pots are available for sale all year round",
+     "result": "Confirmed",
+     "page_wording": "Roses growing in pots are available for sale all year round and are actively growing with leaves and possibly flowers.",
+     "supports_finding": "partly",
+     "note": "Says potted roses are for sale all year; does not say they can be planted any time or to avoid hot weather (asked; no such sentence). NSW only; South Australia not on page."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q1 pruning by climate",
+     "quote": "If you live inland or an area that gets any frosts over a regular period, it is best to prune from the beginning to the end of August.",
+     "note": "Main winter pruning, August, NSW inland or regular frost areas"
+    },
+    {
+     "topic": "Q5 leaf clearing",
+     "quote": "Clean up all the prunings, pick off any foliage and clear up dead and diseased leaves from the garden.",
+     "note": "Clear-up after pruning, no month given, NSW society; no spray type named on page"
+    }
+   ]
+  },
+  {
+   "code": "RSNSW-CAL",
+   "url": "https://nsw.rose.org.au/growing-roses/care-calendar",
+   "final_url": "https://nsw.rose.org.au/growing-roses/care-calendar",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "In cold areas it is better not to prune until August.",
+     "result": "Confirmed",
+     "page_wording": "In cold areas it is better not to prune until August.",
+     "supports_finding": "partly",
+     "note": "July section, main pruning, Rose Society of NSW; 'cold areas' versus 'mild areas', so frost/climate wording not zones. Does not itself mention the five gardening zones or coast/inland. No place stated beyond NSW publisher."
+    },
+    {
+     "finding": "AF-5",
+     "recorded": "[No definition of mild, cold, cool or warm areas on the page; checked directly.]",
+     "result": "Confirmed",
+     "page_wording": "",
+     "supports_finding": "yes",
+     "note": "Asked directly; page gives no definition of mild, cold, cool or warm areas. Page uses 'mild', 'cold', 'cool', 'warm' areas undefined. NSW society."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "In mild areas this is the ideal month for pruning roses. [July]",
+     "result": "Confirmed",
+     "page_wording": "In mild areas this is the ideal month for pruning roses.",
+     "supports_finding": "partly",
+     "note": "July section: July is ideal for main pruning in 'mild areas' (undefined). Does not say coastal or frost-free, nor 'late June'. NSW society, no place stated beyond that."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "In cold areas it is better not to prune until August.",
+     "result": "Confirmed",
+     "page_wording": "In cold areas it is better not to prune until August.",
+     "supports_finding": "partly",
+     "note": "Supports delaying main pruning to August in 'cold areas' (undefined); does not say frosty or inland, nor name Victoria, South Australia or Canberra. NSW society."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "Young growth in those areas is very subject to damage by frosts.",
+     "result": "Confirmed",
+     "page_wording": "Young growth in those areas is very subject to damage by frosts.",
+     "supports_finding": "yes",
+     "note": "Follows the cold-areas sentence in the July section; gives frost damage to young growth as the reason for waiting until August. NSW society."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "The latter half of August is ideal for feeding roses",
+     "result": "Confirmed",
+     "page_wording": "The latter half of August is ideal for feeding roses, though in cold areas this can be delayed until September.",
+     "supports_finding": "partly",
+     "note": "August section: spring feeding in latter half of August, with September in cold areas. Supports 'late August or September' but only for this NSW society; no other state named."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "though in cold areas this can be delayed until September.",
+     "result": "Confirmed",
+     "page_wording": "The latter half of August is ideal for feeding roses, though in cold areas this can be delayed until September.",
+     "supports_finding": "partly",
+     "note": "Supports delay of spring feeding in cold areas to September, from latter half of August. It gives no 'two to four weeks' figure; cold areas undefined. NSW society."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "trim your plants early this month in mild climate areas. In cool areas do this in January",
+     "result": "Confirmed",
+     "page_wording": "trim your plants early this month in mild climate areas. In cool areas do this in January for March blooms",
+     "supports_finding": "yes",
+     "note": "February section: light trim to time autumn blooms, January to March by area. NSW society, areas undefined."
+    },
+    {
+     "finding": "AF-28",
+     "recorded": "in warm areas trim in March for blooms in May.",
+     "result": "Confirmed",
+     "page_wording": "In cool areas do this in January for March blooms, and in warm areas trim in March for blooms in May.",
+     "supports_finding": "yes",
+     "note": "Matches: January cool, early February mild, March warm. Summer trim for autumn flowers. NSW society; areas undefined."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "those growing in March and April will mature adequately before mid-winter.",
+     "result": "Confirmed",
+     "page_wording": "Stake all basal shoots; those growing in March and April will mature adequately before mid-winter.",
+     "supports_finding": "yes",
+     "note": "March section, NSW society. Says shoots growing in March and April mature before mid-winter. No region stated."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "Prepare the soil for planting in June/July.",
+     "result": "Confirmed",
+     "page_wording": "Prepare the soil for planting in June/July.",
+     "supports_finding": "partly",
+     "note": "Under the Late April/May heading; it says to prepare soil for planting in June/July, not that planting is in those months, and does not say bare-root. A separate sentence about soaking bare-root roses sits under a planting month (page appears to say June). NSW society."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "Lime Sulphur is recognised as being effective [July]",
+     "result": "Confirmed",
+     "page_wording": "Lime Sulphur is recognised as being effective and it will also address white scale.",
+     "supports_finding": "yes",
+     "note": "July section: spray immediately after pruning is finished; page names a fungicide aimed at black spot, mildew and rust, and lime sulphur. Winter spray type: lime sulphur. NSW society (July), no other place stated."
+    }
+   ],
+   "contradictions": [
+    "The page calls July 'the ideal month' for pruning in mild areas, whereas the NSW Growing Roses page says coastal frost-free pruning is late June to end of July and gives no 'ideal' month."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 winter spray and clear-up",
+     "quote": "Immediately pruning is completed, the prunings and fallen leaves should be put in the green waste bin and the plants sprayed with a fungicide",
+     "note": "July, after main pruning; clear-up of leaves and prunings; NSW society, no region stated"
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Remove faded flowers.",
+     "note": "December section only; the page gives no stop month for deadheading. NSW society"
+    }
+   ]
+  },
+  {
+   "code": "RSV-M",
+   "url": "https://www.rosesocietyvic.org.au/index.php/monthly-care-of-roses/",
+   "final_url": "https://www.rosesocietyvic.org.au/index.php/monthly-care-of-roses/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "Start pruning roses. [July]",
+     "result": "Confirmed",
+     "page_wording": "Start pruning roses. Remove all leaves from bushes and rake up all around the rose beds.",
+     "supports_finding": "yes",
+     "note": "July section of the Rose Society of Victoria calendar: main pruning starts in July. Page is written for Victoria; no region qualifier on this sentence. Supports July as the pruning month for Victoria only."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "Prune now in cold areas so as to avoid frost damage. [August]",
+     "result": "Confirmed",
+     "page_wording": "Prune now in cold areas so as to avoid frost damage.",
+     "supports_finding": "partly",
+     "note": "August section: pruning in cold areas of Victoria is placed in August to avoid frost damage. 'Cold areas' undefined; no mention of inland, South Australia, NSW or Canberra. Wording reads as 'prune now', i.e. prune in August in cold areas."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "At end of month feed all roses with a specialist rose fertiliser [August]",
+     "result": "Confirmed",
+     "page_wording": "At end of month feed all roses with a specialist rose fertiliser, except newly planted bare-root roses ... half the recommended amount.",
+     "supports_finding": "partly",
+     "note": "August section, Victoria: feed at the end of August. Supports 'late August' but not 'or September'; no cold-area delay is stated here."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "newly planted bare-root roses which should not be fed until late November or early December",
+     "result": "Confirmed",
+     "page_wording": "except newly planted bare-root roses which should not be fed until late November or early December but at half the recommended amount.",
+     "supports_finding": "yes",
+     "note": "August section, Victoria: new bare-root roses not fed until late November or early December. Applies to newly planted bare-root roses only."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "Summer-trim all roses if timing flowering for a show or special event. [February]",
+     "result": "Confirmed",
+     "page_wording": "Summer-trim all roses if timing flowering for a show or special event.",
+     "supports_finding": "partly",
+     "note": "February section, Victoria: summer trim is for timing flowers for a show or event. It gives February only, not January to March, and does not mention autumn flowers."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "Deadhead and enjoy. [April]",
+     "result": "Confirmed",
+     "page_wording": "Deadhead and enjoy.",
+     "supports_finding": "partly",
+     "note": "Page has 'Deadhead and enjoy.' under April (second check confirmed), also deadheading in Nov, Dec and Jan. No stop month is given; May has no deadheading line found. Supports 'continue into April' only for Victoria, not May."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "Start planting new roses using compost and slow-release fertiliser only. [June]",
+     "result": "Confirmed",
+     "page_wording": "Start planting new roses using compost and slow-release fertiliser only.",
+     "supports_finding": "partly",
+     "note": "June section, Victoria: planting starts in June. The page's May entry mentions ordering new roses for winter planting. Not stated as bare-root; no July planting line checked, so 'June and July' only partly shown."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "Move established roses to new locations if they are in the wrong place or too close together. [June]",
+     "result": "Confirmed",
+     "page_wording": "Move established roses to new locations if they are in the wrong place or too close together.",
+     "supports_finding": "partly",
+     "note": "June section, Victoria: moving established roses is listed in June. It does not say 'while dormant' or 'winter'; June is a winter month."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "Remove all leaves from bushes and rake up all around the rose beds. [July]",
+     "result": "Confirmed",
+     "page_wording": "Remove all leaves from bushes and rake up all around the rose beds.",
+     "supports_finding": "partly",
+     "note": "July section, Victoria, alongside 'Start pruning roses'. Supports clearing at winter pruning in July; August is not mentioned for this."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "spray on bare roses and lightly on ground around bushes to kill all black spot spores [July]",
+     "result": "Confirmed",
+     "page_wording": "... spray on bare roses and lightly on ground around bushes to kill all black spot spores.",
+     "supports_finding": "yes",
+     "note": "July section, Victoria: after pruning, bare roses sprayed. Types named: copper-based fungicide with white oil; alternative lime sulphur."
+    }
+   ],
+   "contradictions": [
+    "The page puts feeding at the end of August for all roses and no delay to September in cold areas, whereas other sources delay."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 winter spray type",
+     "quote": "Alternative spray is Lime Sulphur.",
+     "note": "July, winter spray on bare roses after pruning; also copper with white oil; Victoria"
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Continue deadheading.",
+     "note": "January section; Victoria"
+    },
+    {
+     "topic": "Q4 planting order",
+     "quote": "order new roses for winter planting",
+     "note": "May section, Victoria; planting starts June"
+    }
+   ]
+  },
+  {
+   "code": "RSV-PB",
+   "url": "https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/",
+   "final_url": "https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "The best time to prune is in June or July.",
+     "result": "Confirmed",
+     "page_wording": "The best time to prune is in June or July.",
+     "supports_finding": "partly",
+     "note": "Rose Society of Victoria: main pruning June or July (Victoria; sentence says 'in Australia' only for the cold-area exception). Supports June opening for Victoria only; South Australia, Western Australia and Brisbane are not named."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "if you live in a really cold area of Australia, then wait until early August",
+     "result": "Confirmed",
+     "page_wording": "But if you live in a really cold area of Australia, then wait until early August so that the frosts don't knock back the new shoots.",
+     "supports_finding": "partly",
+     "note": "Supports delay to early August for 'a really cold area of Australia' (undefined), main pruning. Does not name inland, frosty, NSW, South Australia or Canberra; says early August, not all of August."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "so that the frosts don't knock back the new shoots.",
+     "result": "Confirmed",
+     "page_wording": "...wait until early August so that the frosts don't knock back the new shoots.",
+     "supports_finding": "yes",
+     "note": "States the reason for delay in really cold areas: frost damage to new shoots. Victorian society; place stated is 'a really cold area of Australia'."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "[No sentence timing pruning by bud swell or new growth; checked directly.]",
+     "result": "Confirmed",
+     "page_wording": "",
+     "supports_finding": "yes",
+     "note": "Asked directly twice: no sentence times pruning by bud swell or buds starting to move; page uses months (June/July, early August) and frost. Victorian society."
+    }
+   ],
+   "contradictions": [
+    "One WebFetch answer said the page advises avoiding winter pruning of repeat-flowering roses before July in most areas; two further asks could only return the June or July sentence, so that claim is unconfirmed and not recorded."
+   ],
+   "also_says": []
+  },
+  {
+   "code": "SARS-CAL",
+   "url": "https://sarose.org.au/growing-advice/a-calendar-for-rose-growers",
+   "final_url": "https://sarose.org.au/growing-advice/a-calendar-for-rose-growers",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"It's rose pruning time! Start with climbing roses, followed by bush roses.\" [July]",
+     "result": "Confirmed",
+     "page_wording": "It's rose pruning time! Start with climbing roses, followed by bush roses.",
+     "supports_finding": "yes",
+     "note": "Under the July heading of the Rose Society of South Australia calendar (South Australia; page undated). Supports July as the main winter pruning month for bush roses, for South Australia only; no frost or region split on the page."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Fertilise early in the month\" [September]",
+     "result": "Confirmed",
+     "page_wording": "Fertilise early in the month with Neutrog Sudden Impact for Roses.",
+     "supports_finding": "partly",
+     "note": "Under September heading, South Australia (publisher's state). Supports early September for the spring feed, but not August; the page names a brand product. The finding says late August or September, so only the September half is supported."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"This is the month to fertilise\" [February]",
+     "result": "Confirmed",
+     "page_wording": "This is the month to fertilise with Neutrog Sudden Impact for Roses pellets.",
+     "supports_finding": "partly",
+     "note": "Under February heading, South Australia. Supports a February feed, but the page does not call it the last feed, and the finding's March half is not supported by this sentence. Page gives no end-of-feeding statement."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"Roses can be trimmed in summer, one to two weeks after fertilising, to achieve a strong and vibrant autumn flush.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses can be trimmed in summer, one to two weeks after fertilising, to achieve a strong and vibrant autumn flush.",
+     "supports_finding": "partly",
+     "note": "Under February heading, South Australia. Supports a summer trim timed after the February feed for autumn flowers; it gives no January-to-March range and no 'light' qualifier in this sentence."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "\"Ensure rose prunings and as many fallen leaves as possible are removed.\" [August]",
+     "result": "Confirmed",
+     "page_wording": "Ensure rose prunings and as many fallen leaves as possible are removed.",
+     "supports_finding": "partly",
+     "note": "Under August heading, South Australia. Supports clearing leaves and prunings, but names August only, not July to August; the July entry has no such sentence."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"After tidying up, ensure roses are sprayed with Winter Oil (or pest oil) or Lime Sulphur\" [August]",
+     "result": "Confirmed",
+     "page_wording": "After tidying up, ensure roses are sprayed with Winter Oil (or pest oil) or Lime Sulphur.",
+     "supports_finding": "yes",
+     "note": "Under August heading, South Australia. Supports the South Australian August winter spray after tidying; spray types named are oil (winter/pest oil) or lime sulphur."
+    }
+   ],
+   "contradictions": [
+    "No sentence gives a frost or cold-area delay; the calendar is purely by month for South Australia."
+   ],
+   "also_says": [
+    {
+     "topic": "Q4 planting bare-root",
+     "quote": "New roses will arrive and can be planted...Ensure they are removed from plastic, soaked in a bucket of water for 12 hours.",
+     "note": "June heading, South Australia; bare-root planting in June."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Earlier flowering cultivars should have their spent blooms removed by taking the dead flower and around 15cm of stem down to the second five leaflet.",
+     "note": "November heading, South Australia; deadheading method; page gives no stop date."
+    },
+    {
+     "topic": "Q1 pruning",
+     "quote": "The outer canes should be reduced to one-third to half of their original height.",
+     "note": "July heading, South Australia; pruning method, not timing."
+    }
+   ]
+  },
+  {
+   "code": "SARS-WIN",
+   "url": "https://sarose.org.au/growing-advice/winter-rose-growing-culture-notes-for-south-australia",
+   "final_url": "https://sarose.org.au/growing-advice/winter-rose-growing-culture-notes-for-south-australia",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"Pruning in July is recommended and avoid the temptation to prune too early.\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning in July is recommended and avoid the temptation to prune too early.",
+     "supports_finding": "yes",
+     "note": "Rose Society of South Australia winter notes, South Australia (Adelaide baseline). Supports July for the main winter pruning; no frost or region exception given for pruning."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "[No sentence timing pruning by bud swell or new growth; checked directly.]",
+     "result": "Not found",
+     "page_wording": "",
+     "supports_finding": "yes",
+     "note": "Asked directly twice: the page times pruning by the month (July) and does not mention bud swell or new growth. Absence supports the finding for this South Australian page. Not a quotation, so there is nothing to confirm."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Planting is best done in June, July or early August.\"",
+     "result": "Confirmed",
+     "page_wording": "Planting is best done in June, July or early August.",
+     "supports_finding": "partly",
+     "note": "South Australia. Supports June and July but the window also runs to early August; the sentence says 'Planting' and the page's following material is about bare-root, so applies to bare-root only by context."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Planting is best done in June, July or early August.\"",
+     "result": "Confirmed",
+     "page_wording": "Planting is best done in June, July or early August.",
+     "supports_finding": "partly",
+     "note": "South Australia. Supports an August extension (early August) for planting; says nothing about May or Canberra."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"Winter is the best time to transplant existing roses.\"",
+     "result": "Confirmed",
+     "page_wording": "Winter is the best time to transplant existing roses. This can be easily done until the rose is about 10 years old.",
+     "supports_finding": "yes",
+     "note": "South Australia. Supports winter as the time to move an established rose; the sentence does not say 'dormant' and names no month."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "\"most of the fallen leaves are gathered up and disposed of together with any discarded rose prunings\"",
+     "result": "Near",
+     "page_wording": "Once roses lose their leaves and assuming most of the fallen leaves are gathered up and disposed of together with discarded rose prunings, winter is a great time for pest and disease control.",
+     "supports_finding": "partly",
+     "note": "South Australia. Page says leaves and prunings are gathered up, as a precondition for winter pest and disease spraying; it names winter generally, not July to August. Recorded fragment is slightly reworded ('any discarded')."
+    },
+    {
+     "finding": "AF-40",
+     "recorded": "\"colder and wetter in the Adelaide Hills ... Frosts are also common in country areas.\"",
+     "result": "Near",
+     "page_wording": "colder and wetter in the Adelaide Hills, the South-East and Southern Yorke Peninsula and Eyre Peninsula. Frosts are also common in country areas.",
+     "supports_finding": "partly",
+     "note": "South Australia. Supports that conditions differ within the state (Adelaide vs Hills, South-East, Yorke and Eyre Peninsulas, country areas); it does not say timing changes, nor go down to neighbouring suburbs. The ellipsis joins two sentences."
+    }
+   ],
+   "contradictions": [
+    "The page's pruning advice is July with no August or frost delay, unlike the same society's Rose Growing Guide (RSSA-GG) which says August in frost areas."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 winter spray type",
+     "quote": "they can readily be treated with winter dormancy sprays, for example oil sprays or Lime Sulphur.",
+     "note": "South Australia; winter generally, no month given; type: oil or lime sulphur."
+    },
+    {
+     "topic": "Q5 winter spray type",
+     "quote": "Copper Oxy Chloride sprays can also be used.",
+     "note": "South Australia; winter; copper type; no month."
+    }
+   ]
+  },
+  {
+   "code": "SARS-AUT",
+   "url": "https://sarose.org.au/growing-advice/autumn-rose-growing-culture-notes-for-south-australia",
+   "final_url": "https://sarose.org.au/growing-advice/autumn-rose-growing-culture-notes-for-south-australia",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-22",
+     "recorded": "\"If an application of Sudden Impact for Roses was not applied in February, ensure the rose plants receive it in March.\"",
+     "result": "Confirmed",
+     "page_wording": "If an application of Sudden Impact for Roses was not applied in February, ensure the rose plants receive it in March.",
+     "supports_finding": "yes",
+     "note": "Fertilising section, South Australia (publisher's state). Supports a feed in February to March in autumn notes; names a brand product. Page also says a liquid fertiliser is applied fortnightly until the end of March, consistent with March as the last feed."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"A light, late summer or early autumn trim will ensure a great flush of flowers around 55 days later.\"",
+     "result": "Confirmed",
+     "page_wording": "A light, late summer or early autumn trim will ensure a great flush of flowers around 55 days later.",
+     "supports_finding": "partly",
+     "note": "Flowering section, South Australia. Supports a light trim in late summer or early autumn timed for autumn flowers (55 days); it names no months, so the January to March range is not stated here."
+    }
+   ],
+   "contradictions": [
+    "Finding AF-22 says February to March; page says liquid feed continues until the end of March, so March is the last feed for South Australia."
+   ],
+   "also_says": [
+    {
+     "topic": "Q2 last feed",
+     "quote": "Sudden Impact for Roses Liquid Fertiliser applied in fortnightly applications until the end of March",
+     "note": "Fertilising section, South Australia; last feed end of March."
+    },
+    {
+     "topic": "Q5 spray type",
+     "quote": "apply a preventative organic oil or fungicide spray mid to late April to ensure plants remain clean",
+     "note": "Pests and Diseases section, South Australia; mid to late April; type: organic oil or fungicide; this is an autumn preventative spray, not the winter dormancy spray."
+    },
+    {
+     "topic": "Q4 bare-root ordering",
+     "quote": "If you want to purchase bare root roses in winter, it's time to order them now.",
+     "note": "South Australia; autumn; ordering only, planting is in winter."
+    },
+    {
+     "topic": "Q8 weather",
+     "quote": "Look at the forward weather forecast for the next 7 days",
+     "note": "South Australia; autumn; used to decide watering, not pruning or feeding timing."
+    }
+   ]
+  },
+  {
+   "code": "SARS-SPR",
+   "url": "https://sarose.org.au/growing-advice/spring-rose-growing-culture-notes-for-south-australia",
+   "final_url": "https://sarose.org.au/growing-advice/spring-rose-growing-culture-notes-for-south-australia",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-20",
+     "recorded": "\"be applied when the young shoots are around 2cms in length.\"",
+     "result": "Confirmed",
+     "page_wording": "It is recommended that Neutrog 'Sudden Impact for Roses' be applied when the young shoots are around 2cms in length.",
+     "supports_finding": "yes",
+     "note": "South Australia (publisher's state). Supports tying the first spring feed to a growth stage (young shoots about 2 cm) rather than a month; the page gives no month for it."
+    },
+    {
+     "finding": "AF-40",
+     "recorded": "\"mid to late October in warmer areas, including Adelaide, and in early to mid-November in cooler areas of the State\"",
+     "result": "Confirmed",
+     "page_wording": "The first flush of flowers can be expected in mid to late October in warmer areas, including Adelaide, and in early to mid-November in cooler areas.",
+     "supports_finding": "partly",
+     "note": "South Australia. The sentence is about when the first flowers appear, not about timing of tasks; it supports regional variation within the state (warmer areas incl. Adelaide vs cooler areas) but not suburb-level variation or that task timing changes."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q5 spray type (spring)",
+     "quote": "Natural oil sprays, such as Eco Oil, and milk spray are great 'gentle on the environment', preventative sprays.",
+     "note": "South Australia; spring preventative spray (oil or milk), not a winter spray; no month."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "If blooms are one per stem, the old bloom and a portion of stem down to second five-leaflet leaf is recommended to be removed.",
+     "note": "South Australia; spring deadheading method; no stop date."
+    }
+   ]
+  },
+  {
+   "code": "RSSA-GG",
+   "url": "https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf",
+   "final_url": "https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"Pruning is best done in July (or August in frost areas).\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning is best done in July (or August in frost areas).",
+     "supports_finding": "yes",
+     "note": "Rose Society of South Australia guide, South Australia. Supports July for the main winter pruning, with August for frost areas."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"Pruning is best done in July (or August in frost areas).\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning is best done in July (or August in frost areas).",
+     "supports_finding": "partly",
+     "note": "South Australia. Supports August delay in frost areas for South Australia only; says nothing about NSW inland, Victoria or Canberra, and does not say 'cold' or 'inland'."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"early September and February in heavy soil\"",
+     "result": "Near",
+     "page_wording": "Fertiliser is best applied twice over a 12 month period - early September and February in heavy soil",
+     "supports_finding": "partly",
+     "note": "South Australia, heavy soil. Supports early September as the first spring feed (heavy soil; sandy soils also start in September), but not late August. Fragment omits the leading words 'twice over a 12 month period'."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"four times a year in September, November, February and April in sandy soils\"",
+     "result": "Confirmed",
+     "page_wording": "four times a year in September, November, February and April in sandy soils",
+     "supports_finding": "yes",
+     "note": "South Australia, sandy soils only. Supports an April last feed in sandy soils in South Australia; does not cover Western Australia or May."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"This is best done in June or July.\"",
+     "result": "Confirmed",
+     "page_wording": "This is best done in June or July.",
+     "supports_finding": "yes",
+     "note": "South Australia; under planting winter bare-rooted roses. Supports June and July for bare-root planting there."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"After pruning, spray with Pest Oil, Winter Oil or Copper Oxychloride to combat overwintering fungal spores.\"",
+     "result": "Confirmed",
+     "page_wording": "After pruning, spray with Pest Oil, Winter Oil or Copper Oxychloride to combat overwintering fungal spores",
+     "supports_finding": "partly",
+     "note": "South Australia; in the pruning section. Supports a spray after pruning (types: oil or copper); no month given for the spray, so July vs August is only implied by the pruning months (July, or August in frost areas)."
+    }
+   ],
+   "contradictions": [
+    "AF-19 says late August or September; this guide says early September (and September in sandy soils), with no August start."
+   ],
+   "also_says": [
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Remove dead flowers and hips with a short stem as if picking a bunch of flowers.",
+     "note": "South Australia; method only; no stop date."
+    },
+    {
+     "topic": "Q6 climate/soil",
+     "quote": "Fertiliser is best applied twice over a 12 month period - early September and February in heavy soil",
+     "note": "South Australia; feeding schedule varies with soil type (heavy: twice, sandy: four times) rather than climate zone."
+    }
+   ]
+  },
+  {
+   "code": "SARS-POT",
+   "url": "https://sarose.org.au/growing-advice/potted-roses",
+   "final_url": "https://sarose.org.au/growing-advice/potted-roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-33",
+     "recorded": "\"Remember don't plant in hot weather.\"",
+     "result": "Confirmed",
+     "page_wording": "Remember don't plant in hot weather.",
+     "supports_finding": "partly",
+     "note": "South Australia (publisher's state). Sits in the container-choice section of a page on roses grown in pots; it supports only the 'avoid hot weather' half. The page does not say potted roses can be planted at any time of year; asked directly, it said no such statement exists. Page metadata shows image dates of 2026-09-12, not a page date."
+    }
+   ],
+   "contradictions": [
+    "The page does not say potted roses can be planted all year; it only advises against hot weather. It also says repotting is done when dormant, every 3 to 5 years."
+   ],
+   "also_says": [
+    {
+     "topic": "Q4 repotting/moving",
+     "quote": "Roses should be repotted with new soil, when dormant, every 3 to 5 years.",
+     "note": "South Australia; container roses; dormant (winter) repotting, no months."
+    },
+    {
+     "topic": "Q5 spray type",
+     "quote": "An occasional spray with Eco-oil or pest oil will control fungal problems and help with insect control.",
+     "note": "South Australia; container roses; oil type; not a winter spray, no month."
+    }
+   ]
+  },
+  {
+   "code": "RSWA",
+   "url": "https://www.rosesocietywa.au/rose-care-calendar",
+   "final_url": "https://www.rosesocietywa.au/rose-care-calendar",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"Prune to suit your flowering goals, remove inward-growing shoots.\" [WINTER (June - July)]",
+     "result": "Confirmed",
+     "page_wording": "Prune to suit your flowering goals, remove inward-growing shoots.",
+     "supports_finding": "yes",
+     "note": "Rose Society of Western Australia calendar, Western Australia (no sub-region). Under the heading WINTER (June - July), so pruning is placed from June; the sentence itself names no month."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Feed as new growth appears and apply mulch.\" [EARLY SPRING (August - September)]",
+     "result": "Confirmed",
+     "page_wording": "Feed as new growth appears and apply mulch.",
+     "supports_finding": "partly",
+     "note": "Western Australia. Under EARLY SPRING (August - September): supports spring feeding starting in August to September, but tied to new growth rather than a month; the finding's 'late August or September' is narrower than the heading."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"Feed as new growth appears and apply mulch.\"",
+     "result": "Confirmed",
+     "page_wording": "Feed as new growth appears and apply mulch.",
+     "supports_finding": "yes",
+     "note": "Western Australia. Supports tying the first spring feed to growth appearing, not to a pruning date."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"Continue feeding and deadheading.\" [LATE AUTUMN (May)]",
+     "result": "Confirmed",
+     "page_wording": "Continue feeding and deadheading.",
+     "supports_finding": "yes",
+     "note": "Western Australia. Under LATE AUTUMN (May): supports feeding continuing into May. The page does not call it the last feed, but no feeding is listed for June to July."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"Light summer prune (about one-third) to encourage fresh growth.\" [EARLY AUTUMN (March - April)]",
+     "result": "Confirmed",
+     "page_wording": "Light summer prune (about one-third) to encourage fresh growth.",
+     "supports_finding": "partly",
+     "note": "Western Australia. The page places the light summer prune in March to April (heading EARLY AUTUMN), later than the finding's January to March, and says the aim is fresh growth, not timing autumn flowers."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Continue feeding and deadheading.\" [LATE AUTUMN (May)]",
+     "result": "Confirmed",
+     "page_wording": "Continue feeding and deadheading.",
+     "supports_finding": "yes",
+     "note": "Western Australia. Deadheading is listed through May (and again Nov-Dec); the page gives no month to stop. Supports that some sources continue deadheading into May."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Plant new roses for future seasons of colour.\" [LATE AUTUMN (May)]",
+     "result": "Confirmed",
+     "page_wording": "Plant new roses for future seasons of colour.",
+     "supports_finding": "partly",
+     "note": "Western Australia. Under LATE AUTUMN (May): supports planting new roses in May, but does not say bare-root; the June to July heading separately says 'Plant or repot roses as needed'."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"Spray after pruning to clean up pests and disease.\" [WINTER (June - July)]",
+     "result": "Confirmed",
+     "page_wording": "Spray after pruning to clean up pests and disease.",
+     "supports_finding": "yes",
+     "note": "Western Australia. Under WINTER (June - July): supports a post-pruning spray in June to July. The page names no spray type."
+    }
+   ],
+   "contradictions": [
+    "The page gives no frost, regional or weather-based adjustment; it is calendar-only for Western Australia."
+   ],
+   "also_says": [
+    {
+     "topic": "Q4 planting/repotting",
+     "quote": "Plant or repot roses as needed.",
+     "note": "Western Australia; WINTER (June - July); not specific to bare-root."
+    },
+    {
+     "topic": "Q2 feeding",
+     "quote": "Feed, water well, and watch for powdery mildew, black spot and rust.",
+     "note": "Western Australia; EARLY AUTUMN (March - April); feeding in March to April."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Deadhead, feed, and remove any suckers growing below the graft.",
+     "note": "Western Australia; SUMMER (January - February)."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Continue feeding, deadheading and mulching.",
+     "note": "Western Australia; EARLY SUMMER (November - December)."
+    }
+   ]
+  },
+  {
+   "code": "QRS-G",
+   "url": "https://qld.rose.org.au/growing-roses/",
+   "final_url": "https://qld.rose.org.au/growing-roses/",
+   "opened": true,
+   "page_date": "published 29 May 2026 (page metadata also shows modified 1 Oct 2026)",
+   "checks": [
+    {
+     "finding": "AF-40",
+     "recorded": "\"Growing and climate conditions will vary across the State of Queensland.\"",
+     "result": "Confirmed",
+     "page_wording": "Growing and climate conditions will vary across the State of Queensland. Try and see what works for you.",
+     "supports_finding": "partly",
+     "note": "Queensland (publisher's state). Supports that conditions vary across the state, in general terms only; it gives no timing, no zones and nothing about suburbs. Next sentence advises trial and observation."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "NFP",
+   "url": "https://newfarmpark.com.au/tips-for-a-flourishing-rose-garden/",
+   "final_url": "https://newfarmpark.com.au/tips-for-a-flourishing-rose-garden/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"The best time to prune roses is in June/July to prepare them for flowering in Spring.\"",
+     "result": "Confirmed",
+     "page_wording": "The best time to prune roses is in June/July to prepare them for flowering in Spring.",
+     "supports_finding": "yes",
+     "note": "New Farm Park, Brisbane City Council, Brisbane (sub-tropical climate per the page); no date shown. Supports pruning from June in Brisbane, with June to July as the window."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q6 climate",
+     "quote": "Pruning also allows good airflow and light to the plants which is important particularly in Brisbane's sub-tropical climate.",
+     "note": "Brisbane; pruning section; names the sub-tropical climate, no timing."
+    },
+    {
+     "topic": "Q4 planting",
+     "quote": "If you are wanting to get your hands on some roses out of season, opt for some potted roses or bare rooted roses.",
+     "note": "Brisbane; final paragraph on seasonal planting; no months given."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "You can encourage repeat flowering by regularly removing dead flowers.",
+     "note": "Brisbane; after the pruning paragraph; no stop date."
+    }
+   ]
+  },
+  {
+   "code": "GAM",
+   "url": "https://www.gardeningaustraliamag.com.au/pruning-roses/",
+   "final_url": "https://www.gardeningaustraliamag.com.au/pruning-roses/",
+   "opened": true,
+   "page_date": "Published 13 June 2023; last modified 10 July 2026",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"July is the ideal time to prune roses in most areas\"",
+     "result": "Confirmed",
+     "page_wording": "July is the ideal time to prune roses in most areas, but in very cold zones, especially those subject to late frosts, leave your pruning until the end of winter.",
+     "supports_finding": "yes",
+     "note": "Main winter pruning, July, 'most areas'. No place stated (national magazine, no state named). Supports July as the commonly named month; the same sentence adds a cold-zone exception."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"in very cold zones, especially those subject to late frosts, leave your pruning until the end of winter.\"",
+     "result": "Confirmed",
+     "page_wording": "in very cold zones, especially those subject to late frosts, leave your pruning until the end of winter.",
+     "supports_finding": "partly",
+     "note": "Main winter pruning, 'end of winter' in 'very cold zones' with late frosts; no place stated and no state, region or zone named. It supports delay in frosty areas but does not name August or any of the listed regions."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "\"Pick up all fallen prunings and diseased leaves and dispose of them.\"",
+     "result": "Confirmed",
+     "page_wording": "Pick up all fallen prunings and diseased leaves and dispose of them.",
+     "supports_finding": "partly",
+     "note": "Clear-up at winter pruning; no place stated. Page gives no months for the clean-up other than July via the pruning sentence, and 'July to August' and 'southern states' are not stated."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"Apply a protective spray of lime sulfur over your pruned rose\"",
+     "result": "Confirmed",
+     "page_wording": "Apply a protective spray of lime sulfur over your pruned rose to target overwintering pests and diseases.",
+     "supports_finding": "partly",
+     "note": "Winter spray, type lime sulfur, applied after pruning; no place stated. It supports 'follows pruning' but gives no month, so none of the month/state variants in the finding is supported here."
+    },
+    {
+     "finding": "AF-37",
+     "recorded": "\"This must be done before the new growth appears, as lime burns new growth.\"",
+     "result": "Confirmed",
+     "page_wording": "This must be done before the new growth appears, as lime burns new growth.",
+     "supports_finding": "yes",
+     "note": "Winter lime sulfur spray must go on before new growth appears; no place stated, no month given."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "GA-MAG",
+   "url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+   "final_url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+   "opened": true,
+   "page_date": "Published 9 April 2024 (modified 4 September 2025 per input; not re-verified on the page text)",
+   "checks": [
+    {
+     "finding": "AF-6",
+     "recorded": "\"select a rose that is not prone to fungal diseases, particularly if you live in a humid climate.\"",
+     "result": "Confirmed",
+     "page_wording": "Lastly, select a rose that is not prone to fungal diseases, particularly if you live in a humid climate.",
+     "supports_finding": "partly",
+     "note": "Plant choice advice for humid climates; no place stated. It links humidity to fungal disease but does not say roses are harder in hot, tropical areas, or that they grow in most of Australia."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"July is the ideal time to prune roses in most areas\"",
+     "result": "Confirmed",
+     "page_wording": "July is the ideal time to prune roses in most areas, but in very cold zones, especially those subject to...",
+     "supports_finding": "yes",
+     "note": "Main winter pruning, July, 'most areas'; no place stated. Same sentence has a cold-zone exception."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"at their first flush in spring, at the start of summer and again at the start of autumn.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses can do with a feed three times a year, at their first flush in spring, at the start of summer and again at the start of autumn.",
+     "supports_finding": "partly",
+     "note": "Feeding, three feeds a year, the last at 'the start of autumn'; no place stated and no months named. The finding's 'late summer to early autumn, February to March' is not stated; start of autumn would be March by the usual calendar but the page gives no month."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"May, June and July are the months to plant bare-rooted roses in Australia.\"",
+     "result": "Confirmed",
+     "page_wording": "May, June and July are the months to plant bare-rooted roses in Australia.",
+     "supports_finding": "partly",
+     "note": "Planting bare-root, May to July, stated for Australia as a whole (no region). Finding says June and July; the page gives a wider May to July window."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"May, June and July are the months to plant bare-rooted roses in Australia.\"",
+     "result": "Confirmed",
+     "page_wording": "May, June and July are the months to plant bare-rooted roses in Australia.",
+     "supports_finding": "partly",
+     "note": "Bare-root planting; supports May being in the window (Australia as a whole). Does not mention August or Canberra, so the August part is not supported."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q3 deadheading",
+     "quote": "As soon as your rose bush has finished a show of blooms, cut them off (called deadheading).",
+     "note": "Deadheading, tied to bloom finishing, no month, no place stated. Page goes by the plant, not the calendar."
+    },
+    {
+     "topic": "Q3 summer pruning",
+     "quote": "Summer rose pruning is like winter pruning, only not as hard. The aim is to give them a general tidy up and reduce their height by about a third.",
+     "note": "Summer pruning of repeat-flowering roses; no month, no place stated. Page wording was a NEAR match on re-check."
+    },
+    {
+     "topic": "Q5 clear-up of leaves",
+     "quote": "Pick up any infected leaves that are lying on the ground, and dispose of them in the bin, not in the compost",
+     "note": "Black spot management; no month, no place stated."
+    },
+    {
+     "topic": "Q2 feeding",
+     "quote": "Roses can do with a feed three times a year, at their first flush in spring, at the start of summer and again at the start of autumn.",
+     "note": "Gives feed times by season, no months; no place stated. Already recorded under AF-22."
+    }
+   ]
+  },
+  {
+   "code": "GA-FAQ",
+   "url": "https://www.abc.net.au/gardening/how-to/faqs-pruning-roses-jackfruit-fruit-leather/106732162",
+   "final_url": "https://www.abc.net.au/gardening/how-to/faqs-pruning-roses-jackfruit-fruit-leather/106732162",
+   "opened": true,
+   "page_date": "29 May 2026",
+   "checks": [
+    {
+     "finding": "AF-14",
+     "recorded": "\"If you're in a very cold area you might delay pruning until late August\"",
+     "result": "Confirmed",
+     "page_wording": "If you're in a very cold area you might delay pruning until late August so that the new growth that is stimulated will not be killed off by a late frost.",
+     "supports_finding": "partly",
+     "note": "Winter pruning of repeat-flowering roses, delayed to late August in 'a very cold area'; no place stated (no state or region named for roses). Supports August for cold areas but names none of the listed regions."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "\"so that the new growth that is stimulated will not be killed off by a late frost.\"",
+     "result": "Confirmed",
+     "page_wording": "so that the new growth that is stimulated will not be killed off by a late frost.",
+     "supports_finding": "yes",
+     "note": "Reason for delaying winter pruning in a very cold area is late frost killing new growth; no place stated."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q1 pruning timing by flowering type",
+     "quote": "prune them hard immediately after flowering; if you leave it till winter you'll be cutting off the wood that would produce the flowers.",
+     "note": "Applies to spring-flowering (once-flowering) roses, not repeat-flowering bush roses; pruned straight after flowering, not in winter. No place stated."
+    }
+   ]
+  },
+  {
+   "code": "GA-RP08",
+   "url": "https://www.abc.net.au/gardening/how-to/rose-pruning/9428904",
+   "final_url": "https://www.abc.net.au/gardening/how-to/rose-pruning/9428904",
+   "opened": true,
+   "page_date": "Published 27/28 June 2008 (WebFetch said 27 June 2008, modified 16 December 2019)",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"The best time to prune is in June or July.\"",
+     "result": "Confirmed",
+     "page_wording": "The best time to prune is in June or July. But if you live in a really cold area of Australia, then wait until early August...",
+     "supports_finding": "partly",
+     "note": "Main winter pruning, June or July, for Australia generally (no state or city named; the page is a 2008 national programme item). It supports a June opening but names none of Victoria, South Australia, Western Australia or Brisbane."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"Fertilise about three weeks after you've pruned.\"",
+     "result": "Confirmed",
+     "page_wording": "Fertilise about three weeks after you've pruned.",
+     "supports_finding": "yes",
+     "note": "Spring feeding tied to the pruning date (three weeks after pruning), not to a month; no place stated. Page gives no other feeding timing."
+    },
+    {
+     "finding": "AF-37",
+     "recorded": "\"Spray them with lime sulphur while the plants have no leaves and are dormant.\"",
+     "result": "Confirmed",
+     "page_wording": "Spray them with lime sulphur while the plants have no leaves and are dormant.",
+     "supports_finding": "partly",
+     "note": "Winter spray, lime sulphur, while plants are leafless and dormant; no place stated. It supports timing before growth indirectly (dormant) but does not use the words 'before new growth appears'."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q1 cold-area pruning",
+     "quote": "if you live in a really cold area of Australia, then wait until early August so that the frosts don't knock back the new shoots.",
+     "note": "Main winter pruning delayed to early August in a really cold area; no place named beyond 'cold area of Australia'."
+    },
+    {
+     "topic": "Q3 deadheading (summer)",
+     "quote": "Just look for the spent flowers and snip them off a few centimetres below the flower.",
+     "note": "Deadheading method; no month, no place stated."
+    },
+    {
+     "topic": "Q5 clear-up of prunings",
+     "quote": "Remove the clippings and prunings from the garden. Clear them up. Don't put them into the compost, but into the rubbish bin.",
+     "note": "Clear-up after winter pruning; no month other than the June-July pruning window; no place stated."
+    }
+   ]
+  },
+  {
+   "code": "GA-TROP",
+   "url": "https://www.abc.net.au/gardening/how-to/tropical-roses/9427370",
+   "final_url": "https://www.abc.net.au/gardening/how-to/tropical-roses/9427370",
+   "opened": true,
+   "page_date": "27/28 October 2006 (WebFetch said 27 October 2006)",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"climbers and ramblers, to hybrid teas, floribundas, bushes, shrubs and miniatures\"",
+     "result": "Confirmed",
+     "page_wording": "Jenny has a range of different rose styles, from climbers and ramblers, to hybrid teas, floribundas, bushes, shrubs and miniatures.",
+     "supports_finding": "partly",
+     "note": "Berry Springs, south of Darwin, tropical Northern Territory. Hybrid Teas and Floribundas are named among her roses and the page says 'They peak during the dry season and flower all year' (roses in general, not specifically these types); no statement on how Hybrid Teas or Floribundas perform."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"In the tropics we do a light prune throughout the year\"",
+     "result": "Confirmed",
+     "page_wording": "In the tropics we do a light prune throughout the year - the aim being to end up with a nice, bushy plant.",
+     "supports_finding": "yes",
+     "note": "Pruning in the tropics, Berry Springs near Darwin NT: a light prune all year, no winter prune stated (the absence of a winter prune is implied, not said)."
+    },
+    {
+     "finding": "AF-25",
+     "recorded": "\"Jenny fertilises about every six weeks.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses are hungry feeders and Jenny fertilises about every six weeks.",
+     "supports_finding": "yes",
+     "note": "Feeding interval of about six weeks in a tropical garden at Berry Springs near Darwin, NT; no months given."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q8 flowering season in the tropics",
+     "quote": "They peak during the dry season and flower all year.",
+     "note": "Roses in a tropical NT garden (Berry Springs); peak in the dry season; no months given."
+    }
+   ]
+  },
+  {
+   "code": "GA-SUB",
+   "url": "https://www.abc.net.au/gardening/how-to/subtropical-surprise/10333054",
+   "final_url": "https://www.abc.net.au/gardening/how-to/subtropical-surprise/10333054",
+   "opened": true,
+   "page_date": "5 October 2018",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "\"Roses growing in the sub tropics grow as evergreens, growing through the winter without a rest period.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses growing in the sub tropics grow as evergreens, growing through the winter without a rest period.",
+     "supports_finding": "yes",
+     "note": "Subtropics, in a segment about Bartons Rose Farm, Brisbane, Queensland: roses keep growing through winter."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"so that they slow down and can rest a bit before they're pruned in July.\"",
+     "result": "Confirmed",
+     "page_wording": "The Barton's try and give them a break by not feeding in the lead up to winter, so that they slow down and can rest a bit before they're pruned in July.",
+     "supports_finding": "partly",
+     "note": "Main winter pruning in July at one rose farm, Brisbane, Queensland. It supports July for Brisbane only; it does not support 'southern states generally'."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"try and give them a break by not feeding in the lead up to winter\"",
+     "result": "Confirmed",
+     "page_wording": "The Barton's try and give them a break by not feeding in the lead up to winter, so that they slow down and can rest a bit before they're pruned in July.",
+     "supports_finding": "yes",
+     "note": "Feeding stopped in the lead-up to winter at Bartons Rose Farm, Brisbane (subtropical Queensland); no months named for the stop."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q5 sprays",
+     "quote": "He uses horticultural oil as a 'sticker extender', prolonging the life of these treatments",
+     "note": "Type: horticultural oil used with disease/pest treatments in the growing season, cautioned against in high 20s temperatures; not a winter spray. Brisbane, no month."
+    },
+    {
+     "topic": "Q2 feeding type",
+     "quote": "They also use a low in nitrogen fertiliser which sent encourage too much soft growth, which is prone to aphids.",
+     "note": "Feeding type not timing; Bartons Rose Farm, Brisbane."
+    }
+   ]
+  },
+  {
+   "code": "OGO",
+   "url": "https://www.organicgardener.com.au/understanding-climate-zones/",
+   "final_url": "https://www.organicgardener.com.au/understanding-climate-zones/",
+   "opened": true,
+   "page_date": "Modified 17 August 2026",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Typically, cool winters with light frost, usually non-existent on the coast.\" [Warm Temperate]",
+     "result": "Confirmed",
+     "page_wording": "Typically, cool winters with light frost, usually non-existent on the coast.",
+     "supports_finding": "yes",
+     "note": "The page lists five zones (Tropical, Subtropical, Arid/Semi-arid, Warm Temperate, Cold Temperate) each with example towns; the recorded fragment is the Warm Temperate description (Sydney, Perth, Adelaide, Newcastle and others). National vegetable and seed-planting guide, no rose content and no place beyond the zone lists."
+    },
+    {
+     "finding": "AF-2",
+     "recorded": "\"Cold winter temperatures with some areas experience heavy frosts and snow.\" [Cold Temperate]",
+     "result": "Confirmed",
+     "page_wording": "Cold winter temperatures with some areas experience heavy frosts and snow.",
+     "supports_finding": "partly",
+     "note": "Page names this zone Cold Temperate and lists Melbourne, Canberra, Hobart, Launceston, Ballarat, Bendigo, Geelong, Mt Gambier, and puts Adelaide in Warm Temperate. It supports zone naming ('Cold Temperate') only; the finding's claim that a nursery groups Adelaide with Melbourne is not from this page."
+    },
+    {
+     "finding": "AF-39",
+     "recorded": "\"Think of our planting guides as a starting point.\"",
+     "result": "Confirmed",
+     "page_wording": "Think of our planting guides as a starting point.",
+     "supports_finding": "partly",
+     "note": "The page does place gardeners by listing example towns for each zone, but this recorded sentence only says the guides are a starting point; the town lists carry the finding, not this quote. No place stated for the sentence itself."
+    },
+    {
+     "finding": "AF-40",
+     "recorded": "\"even between neighbouring suburbs\"",
+     "result": "Confirmed",
+     "page_wording": "Conditions vary within climate zones and even between neighbouring suburbs.",
+     "supports_finding": "yes",
+     "note": "Conditions vary within zones and between neighbouring suburbs; national page, no place stated, about vegetable and seed planting in general (not roses)."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q6 zone boundaries",
+     "quote": "Typically, a hot, humid summer and no frosts in colder months...from Exmouth, Western Australia, to south Townsville, Queensland.",
+     "note": "Tropical zone bounded by a named west and east limit; the other zones are bounded by lists of example towns. Subtropical includes Brisbane; Arid includes Alice Springs, Mildura, Wagga Wagga."
+    },
+    {
+     "topic": "Q8 microclimate",
+     "quote": "North-facing walls, shaded corners, raised beds, frost hollows or nearby structures all influence how well a plant grows.",
+     "note": "Microclimate within a single garden; plants in general, no month, no place stated."
+    }
+   ]
+  },
+  {
+   "code": "TSC",
+   "url": "https://www.theseedcollection.com.au/growguide/rose",
+   "final_url": "https://www.theseedcollection.com.au/growguide/rose",
+   "opened": true,
+   "page_date": "Copyright 2026; no page date shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Includes: Sydney, Perth, Adelaide, Newcastle, Toowoomba, Central Coast NSW, Wollongong, Bunbury\" [Temperate]",
+     "result": "Confirmed",
+     "page_wording": "Includes: Sydney, Perth, Adelaide, Newcastle, Toowoomba, Central Coast NSW, Wollongong, Bunbury",
+     "supports_finding": "yes",
+     "note": "National retailer page divides Australia into five zones (Cool, Temperate, Sub-Tropical, Tropical, Arid) and bounds them by town lists; this is the Temperate list. Supports the five-zone method; page's own names are 'Temperate' and 'Cool'."
+    },
+    {
+     "finding": "AF-2",
+     "recorded": "\"Includes: Melbourne, Canberra, Hobart, Launceston, Ballarat, Bendigo, Geelong, Mt Gambier\" [Cool]",
+     "result": "Confirmed",
+     "page_wording": "Includes: Melbourne, Canberra, Hobart, Launceston, Ballarat, Bendigo, Geelong, Mt Gambier",
+     "supports_finding": "partly",
+     "note": "Here the same town list is called 'Cool' (another source calls it 'Cold Temperate'), and Adelaide is in Temperate, not Cool. So it supports the naming difference between sources but not a nursery grouping Adelaide with Melbourne."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Roses may be more susceptible to fungal diseases in more humid areas.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses may be more susceptible to fungal diseases in more humid areas.",
+     "supports_finding": "partly",
+     "note": "Humid areas, no place stated. Supports the humidity and fungal-disease part; it does not mention tropical or hot areas or that roses grow across most of Australia."
+    },
+    {
+     "finding": "AF-39",
+     "recorded": "\"Includes: Darwin, Cairns, Townsville, Exmouth\" [Tropical]",
+     "result": "Confirmed",
+     "page_wording": "Includes: Darwin, Cairns, Townsville, Exmouth",
+     "supports_finding": "yes",
+     "note": "Tropical zone listed by example towns, as the other zones are; national page."
+    }
+   ],
+   "contradictions": [
+    "Page's planting table is titled 'When to Plant Bare-rooted Roses'; the page reading reported JUN, JUL, AUG shown for all five zones but also said the cells were empty with no marking (a repeat question did not settle this), so the month window is uncertain."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 pruning",
+     "quote": "Pruning is best done mid to late winter or early spring.",
+     "note": "Main pruning, no months and no zone differences; national, no place stated."
+    },
+    {
+     "topic": "Q2 feeding",
+     "quote": "Fertilising is best done three times a year; at the first flush in spring, the start of summer, and at the start of autumn.",
+     "note": "Feeding times by season, no months; next sentence: Do not fertilise in winter or at the time of planting. National, no place stated."
+    },
+    {
+     "topic": "Q5 winter spray",
+     "quote": "After winter pruning, roses can be sprayed with Lime Sulphur which helps eliminate fungal spores and the eggs of pests.",
+     "note": "Winter spray type: lime sulphur, after winter pruning; no month, no place stated."
+    },
+    {
+     "topic": "Q4 bare-root planting table",
+     "quote": "When to Plant Bare-rooted Roses (table, JUN JUL AUG)",
+     "note": "Reading of the table was inconsistent (see contradictions); possible June to August for all zones; page mentions no Hybrid Tea or Floribunda guidance."
+    }
+   ]
+  },
+  {
+   "code": "PEN",
+   "url": "https://penfieldroses.com.au/how-to-select-the-perfect-rose-variety-for-australian-gardens/",
+   "final_url": "https://penfieldroses.com.au/how-to-select-the-perfect-rose-variety-for-australian-gardens/",
+   "opened": true,
+   "page_date": "14 April 2026",
+   "checks": [
+    {
+     "finding": "AF-2",
+     "recorded": "\"Places like Melbourne, Canberra, Adelaide, and Hobart offer ideal growing conditions for most rose types.\"",
+     "result": "Confirmed",
+     "page_wording": "Places like Melbourne, Canberra, Adelaide, and Hobart offer ideal growing conditions for most rose types.",
+     "supports_finding": "yes",
+     "note": "Under the page heading '3) Cool Southern Zones'; the nursery (South Australia) groups Adelaide with Melbourne, Canberra and Hobart. Supports the nursery-grouping part; the zone-naming differences between sources come from other pages."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Tropical and subtropical regions like Brisbane, Darwin, and parts of NSW face high humidity, summer rain, and increased risk of fungal disease.\"",
+     "result": "Confirmed",
+     "page_wording": "Tropical and subtropical regions like Brisbane, Darwin, and parts of NSW face high humidity, summer rain, and increased risk of fungal disease.",
+     "supports_finding": "partly",
+     "note": "Tropical and subtropical regions (Brisbane, Darwin, parts of NSW) have higher fungal risk. The page also names Floribundas, carpet roses and newer hybrids bred for humidity for coastal humid areas, so roses are not ruled out. Does not say roses grow in most of Australia."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"Places like Melbourne, Canberra, Adelaide, and Hobart offer ideal growing conditions for most rose types.\"",
+     "result": "Confirmed",
+     "page_wording": "Places like Melbourne, Canberra, Adelaide, and Hobart offer ideal growing conditions for most rose types.",
+     "supports_finding": "yes",
+     "note": "Cool southern zones named as ideal for most rose types; the page also says 'Temperate zones are some of the easiest places to grow roses in Australia'. Publisher is a South Australian rose nursery."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Your bare rooted roses will be dispatched between May – July\"",
+     "result": "Confirmed",
+     "page_wording": "Your bare rooted roses will be dispatched between May – July.",
+     "supports_finding": "partly",
+     "note": "This is the nursery's dispatch window (South Australia), not a planting window as such. Supports May being in the window; August is not mentioned and Canberra is not tied to a bare-root month."
+    },
+    {
+     "finding": "AF-43",
+     "recorded": "\"planted in full sun and pruned after the last frost.\"",
+     "result": "Confirmed",
+     "page_wording": "Many old garden varieties and modern bush roses cope well, as long as they're planted in full sun and pruned after the last frost.",
+     "supports_finding": "yes",
+     "note": "In the paragraph on regions with cold winters and heavy frost (frost-prone inland areas, no place named); pruning is tied to the last frost, not a month. Main winter pruning."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q6 / Q7 zone choice",
+     "quote": "Temperate zones are some of the easiest places to grow roses in Australia.",
+     "note": "Climate suitability, no months; page also recommends cold-hardy roses where winters are cold with heavy frost. No separate guidance for Hybrid Teas by zone found."
+    },
+    {
+     "topic": "Q6 frost regions",
+     "quote": "In regions with cold winters and heavy frost, you'll want cold-hardy roses.",
+     "note": "Cold-hardy roses for frosty regions; no place named."
+    }
+   ]
+  },
+  {
+   "code": "BOM-CZ",
+   "url": "https://www.bom.gov.au/resources/learn-and-explore/climate-knowledge-centre/australian-climate-zones",
+   "final_url": "https://www.bom.gov.au/resources/learn-and-explore/climate-knowledge-centre/australian-climate-zones",
+   "opened": true,
+   "page_date": "Last modified 24 June 2026 (per page); published 16 Feb 2021 per input",
+   "checks": [
+    {
+     "finding": "AF-3",
+     "recorded": "\"Places like Brisbane and Alice Springs are considered subtropical. Summers are hot, winters are mild.",
+     "result": "Confirmed",
+     "page_wording": "The subtropical zone is further away from the equator. Places like Brisbane and Alice Springs are considered subtropical. Summers are hot, winters are mild.",
+     "supports_finding": "yes",
+     "note": "National page; Brisbane (Queensland) and Alice Springs (Northern Territory) both named in the Subtropical zone. Page also uses Tropical (Cairns, Darwin), Temperate (Hobart, Melbourne), Equatorial, Desert, Grasslands and Polar; does not mention Adelaide, Perth or Sydney."
+    },
+    {
+     "finding": "AF-3",
+     "recorded": "The location of climate zones is largely determined by their distance from the equator.\"",
+     "result": "Confirmed",
+     "page_wording": "The location of climate zones is largely determined by their distance from the equator.",
+     "supports_finding": "partly",
+     "note": "This sentence says how the zones are set (distance from the equator) but does not itself place Brisbane and Alice Springs together; the previous sentence does. It also appears as 'determined by the Sun' in a video transcript."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "BOM-FROST",
+   "url": "https://www.bom.gov.au/climate/maps/averages/frost/",
+   "final_url": "https://www.bom.gov.au/climate/maps/averages/frost/",
+   "opened": true,
+   "page_date": "Climatology 1976 to 2005; page date not shown",
+   "checks": [
+    {
+     "finding": "AF-41",
+     "recorded": "\"extensive areas in northern Australia are generally frost free",
+     "result": "Confirmed",
+     "page_wording": "extensive areas in northern Australia are generally frost free",
+     "supports_finding": "partly",
+     "note": "National map page; northern Australia generally frost free. Supports only the 'northern Australia' half of the finding; the monthly mapping and frost-day timing come from the other fragment."
+    },
+    {
+     "finding": "AF-41",
+     "recorded": "Potential frost days are mainly confined to a period from late autumn to early spring\"",
+     "result": "Confirmed",
+     "page_wording": "Potential frost days are mainly confined to a period from late autumn to early spring",
+     "supports_finding": "partly",
+     "note": "National, no place stated; frost days (days with minimum temperature below a threshold, not actual frost) fall mainly late autumn to early spring. Does not on its own show that monthly maps are provided or name northern Australia."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "BOM-WIF",
+   "url": "https://www.bom.gov.au/climate/map/frost/what-is-frost.shtml",
+   "final_url": "https://www.bom.gov.au/climate/map/frost/what-is-frost.shtml",
+   "opened": true,
+   "page_date": "Not reliably shown (page footer showed the fetch date, 6 October 2026; input says updated 25 February 2014, not verified)",
+   "checks": [
+    {
+     "finding": "AF-42",
+     "recorded": "\"Frost is a localised phenomenon, the severity of which can vary significantly over a very small area.\"",
+     "result": "Confirmed",
+     "page_wording": "Frost is a localised phenomenon, the severity of which can vary significantly over a very small area.",
+     "supports_finding": "yes",
+     "note": "National meteorological agency; frost varies over small distances, no place stated and not about roses."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q8 frost hollows",
+     "quote": "Frost hollows often occur in valleys due to cold air drainage...result in frost forming in valleys when surrounding areas remain frost-free.",
+     "note": "Local frost in valleys; general, no month, no place stated. Single reading (tool paraphrase with ellipsis)."
+    }
+   ]
+  },
+  {
+   "code": "OGTR",
+   "url": "https://www.ogtr.gov.au/sites/default/files/files/2021-07/the_biology_of_hybrid_tea_rose.pdf",
+   "final_url": "https://www.ogtr.gov.au/sites/default/files/files/2021-07/the_biology_of_hybrid_tea_rose.pdf",
+   "opened": true,
+   "page_date": "Version 2, March 2009 (per input); last 1010 characters of the PDF were not read",
+   "checks": [
+    {
+     "finding": "AF-6",
+     "recorded": "\"are more difficult to manage in hot tropical regions, due to the diseases such as black spot\" [s2.3]",
+     "result": "Confirmed",
+     "page_wording": "Roses for the garden will grow in most parts of Australia, but are more difficult to manage in hot tropical regions, due to the diseases such as black spot which are more prevalent in hot humid areas.",
+     "supports_finding": "yes",
+     "note": "Australia as a whole: roses grow in most parts, harder in hot tropical regions because of black spot in hot humid areas. Supports the whole finding."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"grow best in full sun, in a temperate climate\"",
+     "result": "Confirmed",
+     "page_wording": "Roses are tolerant of a range of conditions but grow best in full sun, in a temperate climate, in a well-drained sandy or clay loam with a pH of 6-7",
+     "supports_finding": "partly",
+     "note": "Temperate climate is best, no place stated. It does not say 'cool southern' climates and does not name regions."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"In temperate climates, rose plants growing outside tend to shed leaves in autumn and enter a dormant phase until bud break in spring.\"",
+     "result": "Confirmed",
+     "page_wording": "In temperate climates, rose plants growing outside tend to shed leaves in autumn and enter a dormant phase until bud break in spring.",
+     "supports_finding": "yes",
+     "note": "Temperate climates, outdoor roses; leaf drop in autumn, dormant until spring; no place or month stated."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "\"when there is no chance of frost damaging the tender new shoots.\"",
+     "result": "Confirmed",
+     "page_wording": "...usually done significantly once a year in late winter/early spring when there is no chance of frost damaging the tender new shoots.",
+     "supports_finding": "partly",
+     "note": "Main yearly pruning, late winter/early spring; reason is frost damage to new shoots. It does not itself say pruning is delayed in cold areas, no place stated."
+    },
+    {
+     "finding": "AF-43",
+     "recorded": "\"in late winter/early spring when there is no chance of frost damaging the tender new shoots.\"",
+     "result": "Confirmed",
+     "page_wording": "Most roses should be pruned ... once a year in late winter/early spring when there is no chance of frost damaging the tender new shoots.",
+     "supports_finding": "partly",
+     "note": "Pruning timed to when frost risk has passed, no place stated; it gives a season (late winter/early spring), and does not tell frost-area gardeners specifically to wait for the last frost or local conditions."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q4 bare-root planting",
+     "quote": "Rose plants are usually purchased as bare-rooted stock and are planted in autumn, winter or early spring (June & July in Australia) into dry, crumbly soil.",
+     "note": "Bare-root planting June and July in Australia as a whole; no state named."
+    },
+    {
+     "topic": "Q2 feeding",
+     "quote": "Fertilizer (especially rotted manure or blood and bone) is best added around the roots once new growth begins.",
+     "note": "Feeding tied to the start of new growth, not a month; no place stated."
+    }
+   ]
+  },
+  {
+   "code": "HSOC-AUG",
+   "url": "https://hsoc.org.au/what-to-do-in-the-garden-in-august/",
+   "final_url": "https://hsoc.org.au/what-to-do-in-the-garden-in-august/",
+   "opened": false,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-15",
+     "recorded": "\"Prune most roses and spray this month or in early September.\"",
+     "result": "Could not open",
+     "page_wording": "",
+     "supports_finding": "no",
+     "note": "WebFetch returned a 503 server error on two or more tries; quotation not checked."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Plant new roses this month.\"",
+     "result": "Could not open",
+     "page_wording": "",
+     "supports_finding": "no",
+     "note": "WebFetch returned a 503 server error on two or more tries; quotation not checked."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"Prune most roses and spray this month or in early September.\"",
+     "result": "Could not open",
+     "page_wording": "",
+     "supports_finding": "no",
+     "note": "WebFetch returned a 503 server error on two or more tries; quotation not checked."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "HSOC-AUT",
+   "url": "https://hsoc.org.au/2019/05/02/autumn-garden/",
+   "final_url": "https://hsoc.org.au/2019/05/02/autumn-garden/",
+   "opened": false,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-14",
+     "recorded": "\"Wait till late July or early August before you prune roses\"",
+     "result": "Could not open",
+     "page_wording": "",
+     "supports_finding": "no",
+     "note": "WebFetch returned a 503 server error on two or more tries; quotation not checked."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "TRE-CAL",
+   "url": "https://www.treloarroses.com.au/Seasonal-Rose-Care-Calendar",
+   "final_url": "https://www.treloarroses.com.au/Seasonal-Rose-Care-Calendar",
+   "opened": true,
+   "page_date": "not shown (copyright 2023-2024)",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "\"If you live in an area that receives frosts, wait until the last frost has passed.\"",
+     "result": "Confirmed",
+     "page_wording": "If you live in an area that receives frosts, wait until the last frost has passed.",
+     "supports_finding": "partly",
+     "note": "Winter pruning and planting section, roses generally; Treloar is a Victorian nursery selling nationally, but the sentence names no place. It supports timing by frost, but the page names no coast or inland split and no zones."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"Apply once the roses have produced a significant amount of foliage and have produced the first blooms.\"",
+     "result": "Confirmed",
+     "page_wording": "Apply once the roses have produced a significant amount of foliage and have produced the first blooms.",
+     "supports_finding": "yes",
+     "note": "Spring section, feeding, roses generally; no place stated and no month named. It ties the first feed to growth stage and first blooms, not a month."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"Fertilise your roses in early Autumn. Do not fertilise in late Autumn.\"",
+     "result": "Confirmed",
+     "page_wording": "Fertilise your roses in early Autumn. Do not fertilise in late Autumn.",
+     "supports_finding": "partly",
+     "note": "Autumn section, roses generally, no place stated. It gives early autumn as the last feed but names no months, so February to March is not stated; the page does not say that early autumn means those months."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Planting is best done during winter, this is when your bare root roses will be delivered.\"",
+     "result": "Confirmed",
+     "page_wording": "Planting is best done during winter, this is when your bare root roses will be delivered.",
+     "supports_finding": "partly",
+     "note": "Winter section, bare-root planting, no place stated (Victorian nursery). It says winter only; June and July are not named."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"If you need to move or repot any roses, winter is the best time to do so.\"",
+     "result": "Confirmed",
+     "page_wording": "If you need to move or repot any roses, winter is the best time to do so.",
+     "supports_finding": "yes",
+     "note": "Winter section, moving or repotting roses, no place stated. It supports winter; it does not name June, which the finding says only one source does."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"Don't forget to spray with Lime Sulphur after pruning.\"",
+     "result": "Confirmed",
+     "page_wording": "Don't forget to spray with Lime Sulphur after pruning.",
+     "supports_finding": "partly",
+     "note": "Winter section, roses generally, no place stated. Spray type is lime sulphur, after pruning; no month is given, so the July/June-July/August timings are not supported."
+    },
+    {
+     "finding": "AF-40",
+     "recorded": "\"Due to Australia's vast climatic variations, seasonal tasks may vary to the following list.\"",
+     "result": "Confirmed",
+     "page_wording": "Due to Australia's vast climatic variations, seasonal tasks may vary to the following list.",
+     "supports_finding": "partly",
+     "note": "Disclaimer before the calendar, Australia as a whole. It says tasks vary across the country's climates; it does not mention variation within zones, states or between suburbs."
+    },
+    {
+     "finding": "AF-43",
+     "recorded": "\"If you live in an area that receives frosts, wait until the last frost has passed.\"",
+     "result": "Confirmed",
+     "page_wording": "If you live in an area that receives frosts, wait until the last frost has passed.",
+     "supports_finding": "yes",
+     "note": "Winter section, pruning, frosty areas, no place stated. It tells frost-area gardeners to wait for the last frost, not a fixed month."
+    }
+   ],
+   "contradictions": [
+    "Page says 'Pruning is best done mid-late winter' with no months named, so it cannot support any month-specific finding."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 pruning timing",
+     "quote": "Pruning is best done mid-late winter.",
+     "note": "Main winter pruning, roses generally; no month and no place stated."
+    },
+    {
+     "topic": "Q3 deadheading/summer pruning",
+     "quote": "Prune once flowering roses, such as Albertine, banksia roses and some heritage roses.",
+     "note": "Applies to once-flowering roses only, not bush roses; no month or place stated. Page gives no stop date for deadheading."
+    },
+    {
+     "topic": "Q5 spray choice",
+     "quote": "Remember to always use ecofriendly or organic sprays where possible.",
+     "note": "General spray advice, no month, no place; lime sulphur is the only winter spray type named."
+    }
+   ]
+  },
+  {
+   "code": "TRE-T",
+   "url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
+   "final_url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
+   "opened": true,
+   "page_date": "not shown (copyright 2023-2024)",
+   "checks": [
+    {
+     "finding": "AF-34",
+     "recorded": "\"The best time to move a rose is in the winter dormancy when the plant is asleep\"",
+     "result": "Confirmed",
+     "page_wording": "The best time to move a rose is in the winter dormancy when the plant is asleep and will not be looking for nourishment from the soil.",
+     "supports_finding": "yes",
+     "note": "Moving an established rose; Treloar is in Bolwarra, Victoria, but the sentence names no place and no month. It supports winter and dormancy; June is not named."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q4 moving a rose",
+     "quote": "Prune to at least half of its size, the balance of roots to growth will be important to make sure that the plant is not shocked.",
+     "note": "Moving an established rose; no month, no place stated."
+    }
+   ]
+  },
+  {
+   "code": "ROSS-CAL",
+   "url": "https://rossroses.com.au/calendar/",
+   "final_url": "https://rossroses.com.au/calendar/",
+   "opened": true,
+   "page_date": "not shown (copyright 2026)",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "\"In frosty districts delay pruning until now.\" [July]",
+     "result": "Confirmed",
+     "page_wording": "In frosty districts delay pruning until now.",
+     "supports_finding": "partly",
+     "note": "July section, main winter pruning, written for South Australia (Willunga nursery). Supports a frost-based split (frosty districts versus most districts) but not coast versus inland or any wider national picture."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"Pruning time in most districts.\" [July]",
+     "result": "Confirmed",
+     "page_wording": "Pruning time in most districts.",
+     "supports_finding": "yes",
+     "note": "July section, main winter pruning, written for South Australia; no climate zone named beyond 'most districts' versus 'frosty districts'. Supports July as the pruning month there."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"Pruning may commence in late June.\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning may commence in late June.",
+     "supports_finding": "partly",
+     "note": "June section, main winter pruning, South Australia. It supports a late-June opening for SA only, and not Victoria, WA or Brisbane."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"This is the main fertilising for the year.\" [September]",
+     "result": "Confirmed",
+     "page_wording": "This is the main fertilising for the year.",
+     "supports_finding": "partly",
+     "note": "September section, spring feeding, South Australia. September is the main feed, but the page does not say feeding starts then, or in late August (August says organic fertiliser can go on later in the month)."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"lightly trim all over the bush in mid-February by cutting off finished flowers.\"",
+     "result": "Near",
+     "page_wording": "To bring on the autumn display lightly trim all over the bush in mid-February by cutting off finished flowers with a short stem.",
+     "supports_finding": "yes",
+     "note": "February section, light summer trim for autumn flowers, South Australia. Recorded text is a fragment and the page wording is slightly longer; it supports a mid-February trim, inside the January to March range."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Good blooms can continue well into the month.\" [May]",
+     "result": "Near",
+     "page_wording": "Good blooms can continue well into the month.",
+     "supports_finding": "partly",
+     "note": "May section, South Australia. The page says blooms continue into May but does not mention deadheading; the January section says to keep spent blooms trimmed. No stop date is given."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Planting time for new plants.\" [June]",
+     "result": "Confirmed",
+     "page_wording": "Planting time for new plants.",
+     "supports_finding": "partly",
+     "note": "June section, planting new plants, South Australia. The page does not say bare-root in this sentence and does not name July for planting; a bare-root sentence appears under August."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Bare-rooted plants can still be planted this month.\" [August]",
+     "result": "Confirmed",
+     "page_wording": "Bare-rooted plants can still be planted this month.",
+     "supports_finding": "yes",
+     "note": "August section, bare-root planting, South Australia; supports the August extension there but is not about Canberra."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "\"Rake up cuttings and leaves and dispose of them.\" [July]",
+     "result": "Confirmed",
+     "page_wording": "Rake up cuttings and leaves and dispose of them.",
+     "supports_finding": "yes",
+     "note": "July section, clean-up with winter pruning, South Australia. The page says July only; August is not named for it."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"Spray thoroughly with 'Liquid Copper', or 'Copper oxy-chloride' followed by 'White oil.'\" [July]",
+     "result": "Near",
+     "page_wording": "Spray thoroughly with 'Liquid Copper', or 'Copper oxy-chloride' followed by 'White oil' or 'Pest Oil'",
+     "supports_finding": "yes",
+     "note": "July section, winter spray, South Australia. Page adds 'or Pest Oil' after White oil. Types are copper then oil; supports July in SA. The page does not say the spray follows pruning, but July lists pruning first."
+    }
+   ],
+   "contradictions": [
+    "AF-36: this SA nursery gives July for the winter spray; the finding lists August for one South Australian source, which is a different source (the sibling spraying page also says July).",
+    "AF-31/AF-32: June planting 'new plants' and August 'bare-rooted plants can still be planted' give a June to August planting spread in SA, wider than June and July."
+   ],
+   "also_says": [
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Keep the spent blooms trimmed off by cutting with short stems to encourage new bushy growth.",
+     "note": "January section, South Australia; no stop date."
+    },
+    {
+     "topic": "Q2 feeding",
+     "quote": "Fertilise with Neutrog's 'Rapid Raiser' or 'Rose food' according to instructions.",
+     "note": "February section, South Australia; the only fertilising entry between spring and September; no last-feed month stated."
+    },
+    {
+     "topic": "Q2 feeding",
+     "quote": "If using organic fertiliser can be applied later this month.",
+     "note": "August section, South Australia; organic fertiliser only."
+    },
+    {
+     "topic": "Q1/Q4 winter-flowering",
+     "quote": "Prune winter flowering varieties now (Lorraine Lee and Nancy Hayward).",
+     "note": "April section, South Australia; named winter-flowering varieties only, not the main winter pruning."
+    },
+    {
+     "topic": "Q4 planting",
+     "quote": "Order while they are flowering to help with your choice.",
+     "note": "April section, South Australia; selecting new roses, not planting time."
+    }
+   ]
+  },
+  {
+   "code": "ROSS-SP",
+   "url": "https://rossroses.com.au/spraying-roses/",
+   "final_url": "https://rossroses.com.au/spraying-roses/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-36",
+     "recorded": "\"After pruning in July it is good practise to spray the plants with two products\"",
+     "result": "Confirmed",
+     "page_wording": "After pruning in July it is good practise to spray the plants with two products to help control problems in spring.",
+     "supports_finding": "yes",
+     "note": "Winter spray after pruning, July; South Australian nursery but the page names no place. Types: a copper or lime sulphur fungal spray plus a winter or pest oil."
+    }
+   ],
+   "contradictions": [
+    "The page says July and gives no August timing for the winter spray, so it does not back the finding's 'August in one South Australian source'."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 spray timing",
+     "quote": "when the temperature is less than 25 degrees to control fungal attacks when new growth appears in spring",
+     "note": "Spring fungal spray condition; no month and no place stated; page does not name Hybrid Tea or Floribunda."
+    }
+   ]
+  },
+  {
+   "code": "FP",
+   "url": "https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/",
+   "final_url": "https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/",
+   "opened": true,
+   "page_date": "not shown in fetch (source record says September 2021)",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "\"Leave pruning until late winter in frost-prone areas\"",
+     "result": "Confirmed",
+     "page_wording": "Leave pruning until late winter in frost-prone areas, but in warm and coastal climates it is safe to prune roses in mid-winter",
+     "supports_finding": "partly",
+     "note": "Main winter pruning, written for temperate climates like Sydney and the Hunter. The page gives a frost-prone versus warm and coastal split, which fits, but names no zones and only speaks for Sydney and Hunter."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "\"in warm and coastal climates it is safe to prune roses in mid-winter (early July is ideal).\"",
+     "result": "Confirmed",
+     "page_wording": "in warm and coastal climates it is safe to prune roses in mid-winter (early July is ideal).",
+     "supports_finding": "partly",
+     "note": "Main winter pruning, warm and coastal climates in a Sydney/Hunter, NSW article. Early July and mid-winter match; the late June to end of July range is not stated."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"Leave pruning until late winter in frost-prone areas\"",
+     "result": "Confirmed",
+     "page_wording": "Leave pruning until late winter in frost-prone areas",
+     "supports_finding": "partly",
+     "note": "Main winter pruning, frost-prone areas, Sydney/Hunter article. It says late winter, not August by name (elsewhere 'July or early August'); the page does not name Victoria, SA or Canberra."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"Feed through spring to early autumn with a rose food\"",
+     "result": "Confirmed",
+     "page_wording": "Feed through spring to early autumn with a rose food such as Sudden Impact for Roses",
+     "supports_finding": "partly",
+     "note": "Feeding, Sydney/Hunter temperate article. Early autumn as the end of feeding is stated, but not February or March; the page does not say 'last feed'."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"In mid summer (around mid January to early February), lightly prune roses\"",
+     "result": "Confirmed",
+     "page_wording": "In mid summer (around mid January to early February), lightly prune roses to encourage a new flush",
+     "supports_finding": "partly",
+     "note": "Summer light prune, Sydney/Hunter temperate article. Mid January to early February is in the Jan to March range but does not reach March; the page gives it as a way to get a new flush, not specifically autumn timing."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"potted roses can be planted year-round (however, you should avoid planting in very hot weather).\"",
+     "result": "Confirmed",
+     "page_wording": "potted roses can be planted year-round (however, you should avoid planting in very hot weather).",
+     "supports_finding": "partly",
+     "note": "Planting potted roses, Sydney/Hunter NSW article. It supports year-round with a heat caveat for NSW; nothing on South Australia."
+    },
+    {
+     "finding": "AF-37",
+     "recorded": "\"After pruning and before new growth appears, spray roses with lime sulphur\"",
+     "result": "Confirmed",
+     "page_wording": "After pruning and before new growth appears, spray roses with lime sulphur to control pests and diseases while they are dormant.",
+     "supports_finding": "yes",
+     "note": "Winter spray, lime sulphur, Sydney/Hunter article. It says to spray before new growth appears."
+    },
+    {
+     "finding": "AF-43",
+     "recorded": "\"Winter pruning can be done in July or early August depending on local conditions.\"",
+     "result": "Confirmed",
+     "page_wording": "Winter pruning can be done in July or early August depending on local conditions.",
+     "supports_finding": "yes",
+     "note": "Main winter pruning, July or early August, Sydney/Hunter article. It ties timing to local conditions rather than a fixed month."
+    }
+   ],
+   "contradictions": [
+    "The page's pruning window is 'July or early August', which does not match the finding AF-14 'delayed to August' as a firm date for frost areas."
+   ],
+   "also_says": [
+    {
+     "topic": "Q4 moving a rose",
+     "quote": "The ideal time to transplant roses is in winter, when they are dormant.",
+     "note": "Moving an established rose, winter, Sydney/Hunter temperate."
+    },
+    {
+     "topic": "Q4 planting bare-root",
+     "quote": "The best planting time for dormant roses is winter",
+     "note": "Bare-root/dormant planting, winter, no month named, Sydney/Hunter (the fetch paraphrased this; wording not re-confirmed exactly)."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "dead head spent flowers, cutting back to just above a node",
+     "note": "Spring task; no stop date; Sydney/Hunter."
+    },
+    {
+     "topic": "Q6 rose types",
+     "quote": "Small bush roses such as Floribunda varieties can be grown successfully in pots.",
+     "note": "Potted growing, Floribunda named; no zone given for Hybrid Tea or Floribunda; Sydney/Hunter."
+    }
+   ]
+  }
+ ]
+}

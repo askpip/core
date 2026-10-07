@@ -1,493 +1,545 @@
 [
- {
-  "code": "RSNSW-G",
-  "source": "The Rose Society of NSW, \"Rose Growing Advice\", date not shown. Rose society, New South Wales. Accessed 1 Oct 2026.",
-  "url": "https://nsw.rose.org.au/growing-roses",
-  "status": "Opened",
-  "findings": [
-   "AF-4",
-   "AF-12",
-   "AF-14",
-   "AF-18",
-   "AF-20",
-   "AF-21",
-   "AF-22",
-   "AF-31",
-   "AF-33"
-  ],
-  "quote": "AF-4: \"If you live near the coast, and rarely or never get frosts, the most dormant period is late June to the end of July.\" || AF-12: \"If you live near the coast, and rarely or never get frosts, the most dormant period is late June to the end of July.\" || AF-14: \"it is best to prune from the beginning to the end of August.\" || AF-18: \"The best time to prune roses is when they are in their most dormant period.\" || AF-20: \"First feed after the winter prune\" || AF-21: \"second feed in mid September in time in the warmer zones or early to mid-October in the cooler zones\" || AF-22: \"the last feed in mid to late February.\" || AF-31: \"Bare rooted plants are dormant – they have no leaves or flowers and are only available in winter.\" || AF-33: \"Roses growing in pots are available for sale all year round\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "RSNSW-CAL",
-  "source": "The Rose Society of NSW, \"Rose Care Calendar\", date not shown. Rose society, New South Wales. Accessed 1 Oct 2026.",
-  "url": "https://nsw.rose.org.au/growing-roses/care-calendar",
-  "status": "Opened",
-  "findings": [
-   "AF-4",
-   "AF-5",
-   "AF-12",
-   "AF-14",
-   "AF-16",
-   "AF-19",
-   "AF-21",
-   "AF-27",
-   "AF-28",
-   "AF-30",
-   "AF-31",
-   "AF-36"
-  ],
-  "quote": "AF-4: \"In cold areas it is better not to prune until August.\" || AF-5: [No definition of mild, cold, cool or warm areas on the page; checked directly.] || AF-12: \"In mild areas this is the ideal month for pruning roses.\" [July] || AF-14: \"In cold areas it is better not to prune until August.\" || AF-16: \"Young growth in those areas is very subject to damage by frosts.\" || AF-19: \"The latter half of August is ideal for feeding roses\" || AF-21: \"though in cold areas this can be delayed until September.\" || AF-27: \"trim your plants early this month in mild climate areas. In cool areas do this in January\" [February] || AF-28: \"in warm areas trim in March for blooms in May.\" || AF-30: \"those growing in March and April will mature adequately before mid-winter.\" || AF-31: \"Prepare the soil for planting in June/July.\" || AF-36: \"Lime Sulphur is recognised as being effective\" [July]",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "RSV-M",
-  "source": "The Rose Society of Victoria, \"Monthly Care of Roses\", date not shown. Rose society, Victoria. Accessed 1 Oct 2026.",
-  "url": "https://www.rosesocietyvic.org.au/index.php/monthly-care-of-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-11",
-   "AF-14",
-   "AF-19",
-   "AF-26",
-   "AF-27",
-   "AF-29",
-   "AF-31",
-   "AF-34",
-   "AF-35",
-   "AF-36"
-  ],
-  "quote": "AF-11: \"Start pruning roses.\" [July] || AF-14: \"Prune now in cold areas so as to avoid frost damage.\" [August] || AF-19: \"At end of month feed all roses with a specialist rose fertiliser\" [August] || AF-26: \"newly planted bare-root roses which should not be fed until late November or early December\" || AF-27: \"Summer-trim all roses if timing flowering for a show or special event.\" [February] || AF-29: \"Deadhead and enjoy.\" [April] || AF-31: \"Start planting new roses using compost and slow-release fertiliser only.\" [June] || AF-34: \"Move established roses to new locations if they are in the wrong place or too close together.\" [June] || AF-35: \"Remove all leaves from bushes and rake up all around the rose beds.\" [July] || AF-36: \"spray on bare roses and lightly on ground around bushes to kill all black spot spores\" [July]",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "RSV-PB",
-  "source": "The Rose Society of Victoria, \"The Pruning Bible\", date not shown. Rose society, Victoria. Accessed 1 Oct 2026.",
-  "url": "https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/",
-  "status": "Opened",
-  "findings": [
-   "AF-13",
-   "AF-14",
-   "AF-16",
-   "AF-18"
-  ],
-  "quote": "AF-13: \"The best time to prune is in June or July.\" || AF-14: \"if you live in a really cold area of Australia, then wait until early August\" || AF-16: \"so that the frosts don't knock back the new shoots.\" || AF-18: [No sentence timing pruning by bud swell or new growth; checked directly.]",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "SARS-CAL",
-  "source": "Rose Society of South Australia, \"A Calendar for Rose Growers\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026.",
-  "url": "https://sarose.org.au/growing-advice/a-calendar-for-rose-growers",
-  "status": "Opened",
-  "findings": [
-   "AF-11",
-   "AF-19",
-   "AF-22",
-   "AF-27",
-   "AF-35",
-   "AF-36"
-  ],
-  "quote": "AF-11: \"It's rose pruning time! Start with climbing roses, followed by bush roses.\" [July] || AF-19: \"Fertilise early in the month\" [September] || AF-22: \"This is the month to fertilise\" [February] || AF-27: \"Roses can be trimmed in summer, one to two weeks after fertilising, to achieve a strong and vibrant autumn flush.\" || AF-35: \"Ensure rose prunings and as many fallen leaves as possible are removed.\" [August] || AF-36: \"After tidying up, ensure roses are sprayed with Winter Oil (or pest oil) or Lime Sulphur\" [August]",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "SARS-WIN",
-  "source": "Rose Society of South Australia, \"Winter Rose Growing Culture Notes for South Australia\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026.",
-  "url": "https://sarose.org.au/growing-advice/winter-rose-growing-culture-notes-for-south-australia",
-  "status": "Opened",
-  "findings": [
-   "AF-11",
-   "AF-18",
-   "AF-31",
-   "AF-32",
-   "AF-34",
-   "AF-35",
-   "AF-40"
-  ],
-  "quote": "AF-11: \"Pruning in July is recommended and avoid the temptation to prune too early.\" || AF-18: [No sentence timing pruning by bud swell or new growth; checked directly.] || AF-31: \"Planting is best done in June, July or early August.\" || AF-32: \"Planting is best done in June, July or early August.\" || AF-34: \"Winter is the best time to transplant existing roses.\" || AF-35: \"most of the fallen leaves are gathered up and disposed of together with any discarded rose prunings\" || AF-40: \"colder and wetter in the Adelaide Hills ... Frosts are also common in country areas.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "SARS-AUT",
-  "source": "Rose Society of South Australia, \"Autumn Rose Growing Culture Notes for South Australia\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026.",
-  "url": "https://sarose.org.au/growing-advice/autumn-rose-growing-culture-notes-for-south-australia",
-  "status": "Opened",
-  "findings": [
-   "AF-22",
-   "AF-27"
-  ],
-  "quote": "AF-22: \"If an application of Sudden Impact for Roses was not applied in February, ensure the rose plants receive it in March.\" || AF-27: \"A light, late summer or early autumn trim will ensure a great flush of flowers around 55 days later.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "SARS-SPR",
-  "source": "Rose Society of South Australia, \"Spring Rose Growing Culture Notes for South Australia\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026.",
-  "url": "https://sarose.org.au/growing-advice/spring-rose-growing-culture-notes-for-south-australia",
-  "status": "Opened",
-  "findings": [
-   "AF-20",
-   "AF-40"
-  ],
-  "quote": "AF-20: \"be applied when the young shoots are around 2cms in length.\" || AF-40: \"mid to late October in warmer areas, including Adelaide, and in early to mid-November in cooler areas of the State\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "RSSA-GG",
-  "source": "The Rose Society of South Australia Inc., \"Rose Growing Guide\" (PDF hosted by the National Rose Trial Garden of Australia), date not shown. Rose society, South Australia. Accessed 1 Oct 2026.",
-  "url": "https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf",
-  "status": "Opened",
-  "findings": [
-   "AF-11",
-   "AF-14",
-   "AF-19",
-   "AF-23",
-   "AF-31",
-   "AF-36"
-  ],
-  "quote": "AF-11: \"Pruning is best done in July (or August in frost areas).\" || AF-14: \"Pruning is best done in July (or August in frost areas).\" || AF-19: \"early September and February in heavy soil\" || AF-23: \"four times a year in September, November, February and April in sandy soils\" || AF-31: \"This is best done in June or July.\" || AF-36: \"After pruning, spray with Pest Oil, Winter Oil or Copper Oxychloride to combat overwintering fungal spores.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "SARS-POT",
-  "source": "Melanie Trimper, Rose Society of South Australia, \"Potted Roses\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026.",
-  "url": "https://sarose.org.au/growing-advice/potted-roses",
-  "status": "Opened",
-  "findings": [
-   "AF-33"
-  ],
-  "quote": "AF-33: \"Remember don't plant in hot weather.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "RSWA",
-  "source": "The Rose Society of Western Australia Inc., \"Rose Care Calendar\", date not shown. Rose society, Western Australia. Accessed 1 Oct 2026.",
-  "url": "https://www.rosesocietywa.au/rose-care-calendar",
-  "status": "Opened",
-  "findings": [
-   "AF-13",
-   "AF-19",
-   "AF-20",
-   "AF-23",
-   "AF-27",
-   "AF-29",
-   "AF-32",
-   "AF-36"
-  ],
-  "quote": "AF-13: \"Prune to suit your flowering goals, remove inward-growing shoots.\" [WINTER (June - July)] || AF-19: \"Feed as new growth appears and apply mulch.\" [EARLY SPRING (August - September)] || AF-20: \"Feed as new growth appears and apply mulch.\" || AF-23: \"Continue feeding and deadheading.\" [LATE AUTUMN (May)] || AF-27: \"Light summer prune (about one-third) to encourage fresh growth.\" [EARLY AUTUMN (March - April)] || AF-29: \"Continue feeding and deadheading.\" [LATE AUTUMN (May)] || AF-32: \"Plant new roses for future seasons of colour.\" [LATE AUTUMN (May)] || AF-36: \"Spray after pruning to clean up pests and disease.\" [WINTER (June - July)]",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "QRS-G",
-  "source": "The Queensland Rose Society Inc, \"Growing Roses\", published 29 May 2026. Rose society, Queensland. Accessed 1 Oct 2026.",
-  "url": "https://qld.rose.org.au/growing-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-40"
-  ],
-  "quote": "AF-40: \"Growing and climate conditions will vary across the State of Queensland.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GAM",
-  "source": "ABC Gardening Australia magazine (Jennifer Stackhouse), \"How to prune roses in winter\", 13 June 2023. Public broadcaster's magazine, national. Accessed 1 Oct 2026.",
-  "url": "https://www.gardeningaustraliamag.com.au/pruning-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-11",
-   "AF-14",
-   "AF-35",
-   "AF-36",
-   "AF-37"
-  ],
-  "quote": "AF-11: \"July is the ideal time to prune roses in most areas\" || AF-14: \"in very cold zones, especially those subject to late frosts, leave your pruning until the end of winter.\" || AF-35: \"Pick up all fallen prunings and diseased leaves and dispose of them.\" || AF-36: \"Apply a protective spray of lime sulfur over your pruned rose\" || AF-37: \"This must be done before the new growth appears, as lime burns new growth.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GA-MAG",
-  "source": "ABC Gardening Australia magazine (Loren Desbruslais, with text by several authors), \"Growing roses 101\", 9 April 2024, modified 4 September 2025. Public broadcaster's magazine, national. Accessed 1 Oct 2026.",
-  "url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
-  "status": "Opened",
-  "findings": [
-   "AF-6",
-   "AF-11",
-   "AF-22",
-   "AF-31",
-   "AF-32"
-  ],
-  "quote": "AF-6: \"select a rose that is not prone to fungal diseases, particularly if you live in a humid climate.\" || AF-11: \"July is the ideal time to prune roses in most areas\" || AF-22: \"at their first flush in spring, at the start of summer and again at the start of autumn.\" || AF-31: \"May, June and July are the months to plant bare-rooted roses in Australia.\" || AF-32: \"May, June and July are the months to plant bare-rooted roses in Australia.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GA-FAQ",
-  "source": "ABC Gardening Australia (Sophie Thomson), \"FAQs - Pruning Roses\", 29 May 2026. Public broadcaster, national. Accessed 1 Oct 2026.",
-  "url": "https://www.abc.net.au/gardening/how-to/faqs-pruning-roses-jackfruit-fruit-leather/106732162",
-  "status": "Opened",
-  "findings": [
-   "AF-14",
-   "AF-16"
-  ],
-  "quote": "AF-14: \"If you're in a very cold area you might delay pruning until late August\" || AF-16: \"so that the new growth that is stimulated will not be killed off by a late frost.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GA-RP08",
-  "source": "ABC Gardening Australia (Jane Edmanson), \"Rose Pruning\", 28 June 2008. Public broadcaster, national. Accessed 1 Oct 2026.",
-  "url": "https://www.abc.net.au/gardening/how-to/rose-pruning/9428904",
-  "status": "Opened",
-  "findings": [
-   "AF-13",
-   "AF-20",
-   "AF-37"
-  ],
-  "quote": "AF-13: \"The best time to prune is in June or July.\" || AF-20: \"Fertilise about three weeks after you've pruned.\" || AF-37: \"Spray them with lime sulphur while the plants have no leaves and are dormant.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GA-TROP",
-  "source": "ABC Gardening Australia (Leonie Norrington), \"Tropical Roses\", 28 October 2006. Public broadcaster; garden at Berry Springs, south of Darwin, Northern Territory. Accessed 1 Oct 2026.",
-  "url": "https://www.abc.net.au/gardening/how-to/tropical-roses/9427370",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-17",
-   "AF-25"
-  ],
-  "quote": "AF-8: \"climbers and ramblers, to hybrid teas, floribundas, bushes, shrubs and miniatures\" || AF-17: \"In the tropics we do a light prune throughout the year\" || AF-25: \"Jenny fertilises about every six weeks.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GA-SUB",
-  "source": "ABC Gardening Australia (Jerry Coleby-Williams), \"Subtropical Surprise\", 5 October 2018. Public broadcaster; rose farm on the outskirts of Brisbane, Queensland. Accessed 1 Oct 2026.",
-  "url": "https://www.abc.net.au/gardening/how-to/subtropical-surprise/10333054",
-  "status": "Opened",
-  "findings": [
-   "AF-9",
-   "AF-11",
-   "AF-24"
-  ],
-  "quote": "AF-9: \"Roses growing in the sub tropics grow as evergreens, growing through the winter without a rest period.\" || AF-11: \"so that they slow down and can rest a bit before they're pruned in July.\" || AF-24: \"try and give them a break by not feeding in the lead up to winter\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "NFP",
-  "source": "Brisbane City Council, New Farm Park, \"Tips for a flourishing rose garden\", date not shown. Local government public rose garden, Brisbane, Queensland. Accessed 1 Oct 2026.",
-  "url": "https://newfarmpark.com.au/tips-for-a-flourishing-rose-garden/",
-  "status": "Opened",
-  "findings": [
-   "AF-13"
-  ],
-  "quote": "AF-13: \"The best time to prune roses is in June/July to prepare them for flowering in Spring.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "OGO",
-  "source": "ABC Organic Gardener magazine (nextmedia, under licence from the ABC), \"Understanding Climate Zones\", modified 17 August 2026. Broadcaster-licensed gardening magazine, national. Accessed 1 Oct 2026.",
-  "url": "https://www.organicgardener.com.au/understanding-climate-zones/",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-2",
-   "AF-39",
-   "AF-40"
-  ],
-  "quote": "AF-1: \"Typically, cool winters with light frost, usually non-existent on the coast.\" [Warm Temperate] || AF-2: \"Cold winter temperatures with some areas experience heavy frosts and snow.\" [Cold Temperate] || AF-39: \"Think of our planting guides as a starting point.\" || AF-40: \"even between neighbouring suburbs\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "TSC",
-  "source": "The Seed Collection Pty Ltd, \"How to Grow Roses (bare-rooted)\", copyright 2026. Commercial (seed and plant retailer), national. Accessed 1 Oct 2026.",
-  "url": "https://www.theseedcollection.com.au/growguide/rose",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-2",
-   "AF-6",
-   "AF-39"
-  ],
-  "quote": "AF-1: \"Includes: Sydney, Perth, Adelaide, Newcastle, Toowoomba, Central Coast NSW, Wollongong, Bunbury\" [Temperate] || AF-2: \"Includes: Melbourne, Canberra, Hobart, Launceston, Ballarat, Bendigo, Geelong, Mt Gambier\" [Cool] || AF-6: \"Roses may be more susceptible to fungal diseases in more humid areas.\" || AF-39: \"Includes: Darwin, Cairns, Townsville, Exmouth\" [Tropical]",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "PEN",
-  "source": "Penfield Gardens Rose Nursery, \"How to Select the Perfect Rose Variety for Australian Gardens\", 14 April 2026. Commercial (rose nursery), South Australia. Accessed 1 Oct 2026.",
-  "url": "https://penfieldroses.com.au/how-to-select-the-perfect-rose-variety-for-australian-gardens/",
-  "status": "Opened",
-  "findings": [
-   "AF-2",
-   "AF-6",
-   "AF-7",
-   "AF-32",
-   "AF-43"
-  ],
-  "quote": "AF-2: \"Places like Melbourne, Canberra, Adelaide, and Hobart offer ideal growing conditions for most rose types.\" || AF-6: \"Tropical and subtropical regions like Brisbane, Darwin, and parts of NSW face high humidity, summer rain, and increased risk of fungal disease.\" || AF-7: \"Places like Melbourne, Canberra, Adelaide, and Hobart offer ideal growing conditions for most rose types.\" || AF-32: \"Your bare rooted roses will be dispatched between May – July\" || AF-43: \"planted in full sun and pruned after the last frost.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "BOM-CZ",
-  "source": "Bureau of Meteorology, \"Australian climate zones\", published 16 February 2021, modified 24 June 2026. National meteorological agency. Accessed 1 Oct 2026.",
-  "url": "https://www.bom.gov.au/resources/learn-and-explore/climate-knowledge-centre/australian-climate-zones",
-  "status": "Opened",
-  "findings": [
-   "AF-3"
-  ],
-  "quote": "AF-3: \"Places like Brisbane and Alice Springs are considered subtropical. Summers are hot, winters are mild. || The location of climate zones is largely determined by their distance from the equator.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "BOM-FROST",
-  "source": "Bureau of Meteorology, \"Annual and monthly potential frost days\" (climatology 1976-2005), product IDCJCM0012, date not shown. National meteorological agency. Accessed 1 Oct 2026.",
-  "url": "https://www.bom.gov.au/climate/maps/averages/frost/",
-  "status": "Opened",
-  "findings": [
-   "AF-41"
-  ],
-  "quote": "AF-41: \"extensive areas in northern Australia are generally frost free || Potential frost days are mainly confined to a period from late autumn to early spring\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "BOM-WIF",
-  "source": "Bureau of Meteorology, \"About potential frost days - Australian Maps\", updated 25 February 2014. National meteorological agency. Accessed 1 Oct 2026.",
-  "url": "https://www.bom.gov.au/climate/map/frost/what-is-frost.shtml",
-  "status": "Opened",
-  "findings": [
-   "AF-42"
-  ],
-  "quote": "AF-42: \"Frost is a localised phenomenon, the severity of which can vary significantly over a very small area.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "OGTR",
-  "source": "Australian Government Office of the Gene Technology Regulator, \"The Biology of Hybrid Tea Rose (Rosa x hybrida)\", Version 2, March 2009. Government regulator. Accessed 1 Oct 2026.",
-  "url": "https://www.ogtr.gov.au/sites/default/files/files/2021-07/the_biology_of_hybrid_tea_rose.pdf",
-  "status": "Opened",
-  "findings": [
-   "AF-6",
-   "AF-7",
-   "AF-10",
-   "AF-16",
-   "AF-43"
-  ],
-  "quote": "AF-6: \"are more difficult to manage in hot tropical regions, due to the diseases such as black spot\" [s2.3] || AF-7: \"grow best in full sun, in a temperate climate\" || AF-10: \"In temperate climates, rose plants growing outside tend to shed leaves in autumn and enter a dormant phase until bud break in spring.\" || AF-16: \"when there is no chance of frost damaging the tender new shoots.\" || AF-43: \"in late winter/early spring when there is no chance of frost damaging the tender new shoots.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "HSOC-AUG",
-  "source": "Horticultural Society of Canberra Inc., \"What to Do in the Garden in August\", modified 2 May 2019. Horticultural society, Australian Capital Territory. Accessed 1 Oct 2026.",
-  "url": "https://hsoc.org.au/what-to-do-in-the-garden-in-august/",
-  "status": "Opened",
-  "findings": [
-   "AF-15",
-   "AF-32",
-   "AF-36"
-  ],
-  "quote": "AF-15: \"Prune most roses and spray this month or in early September.\" || AF-32: \"Plant new roses this month.\" || AF-36: \"Prune most roses and spray this month or in early September.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "HSOC-AUT",
-  "source": "Horticultural Society of Canberra Inc. (Tad Feng), \"Autumn Garden\", 2 May 2019. Horticultural society, Australian Capital Territory. Accessed 1 Oct 2026.",
-  "url": "https://hsoc.org.au/2019/05/02/autumn-garden/",
-  "status": "Opened",
-  "findings": [
-   "AF-14"
-  ],
-  "quote": "AF-14: \"Wait till late July or early August before you prune roses\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "TRE-CAL",
-  "source": "Treloar Roses, \"Seasonal Rose Care Calendar\", copyright 2023-2024. Commercial (rose nursery), Victoria; national sales. Accessed 1 Oct 2026.",
-  "url": "https://www.treloarroses.com.au/Seasonal-Rose-Care-Calendar",
-  "status": "Opened",
-  "findings": [
-   "AF-4",
-   "AF-20",
-   "AF-22",
-   "AF-31",
-   "AF-34",
-   "AF-36",
-   "AF-40",
-   "AF-43"
-  ],
-  "quote": "AF-4: \"If you live in an area that receives frosts, wait until the last frost has passed.\" || AF-20: \"Apply once the roses have produced a significant amount of foliage and have produced the first blooms.\" || AF-22: \"Fertilise your roses in early Autumn. Do not fertilise in late Autumn.\" || AF-31: \"Planting is best done during winter, this is when your bare root roses will be delivered.\" || AF-34: \"If you need to move or repot any roses, winter is the best time to do so.\" || AF-36: \"Don't forget to spray with Lime Sulphur after pruning.\" || AF-40: \"Due to Australia's vast climatic variations, seasonal tasks may vary to the following list.\" || AF-43: \"If you live in an area that receives frosts, wait until the last frost has passed.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "TRE-T",
-  "source": "Treloar Roses, \"Transplanting established roses\", copyright 2023-2024. Commercial (rose nursery), Victoria. Accessed 1 Oct 2026.",
-  "url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
-  "status": "Opened",
-  "findings": [
-   "AF-34"
-  ],
-  "quote": "AF-34: \"The best time to move a rose is in the winter dormancy when the plant is asleep\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "ROSS-CAL",
-  "source": "Ross Roses, \"Calendar\", copyright 2026. Commercial (rose nursery), Willunga, South Australia. Accessed 1 Oct 2026.",
-  "url": "https://rossroses.com.au/calendar/",
-  "status": "Opened",
-  "findings": [
-   "AF-4",
-   "AF-11",
-   "AF-13",
-   "AF-19",
-   "AF-27",
-   "AF-29",
-   "AF-31",
-   "AF-32",
-   "AF-35",
-   "AF-36"
-  ],
-  "quote": "AF-4: \"In frosty districts delay pruning until now.\" [July] || AF-11: \"Pruning time in most districts.\" [July] || AF-13: \"Pruning may commence in late June.\" || AF-19: \"This is the main fertilising for the year.\" [September] || AF-27: \"lightly trim all over the bush in mid-February by cutting off finished flowers.\" || AF-29: \"Good blooms can continue well into the month.\" [May] || AF-31: \"Planting time for new plants.\" [June] || AF-32: \"Bare-rooted plants can still be planted this month.\" [August] || AF-35: \"Rake up cuttings and leaves and dispose of them.\" [July] || AF-36: \"Spray thoroughly with 'Liquid Copper', or 'Copper oxy-chloride' followed by 'White oil.'\" [July]",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "ROSS-SP",
-  "source": "Ross Roses, \"Spraying Roses\", date not shown. Commercial (rose nursery), South Australia. Accessed 1 Oct 2026.",
-  "url": "https://rossroses.com.au/spraying-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-36"
-  ],
-  "quote": "AF-36: \"After pruning in July it is good practise to spray the plants with two products\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "FP",
-  "source": "Flower Power (Jennifer Stackhouse), \"Rose care for temperate climate gardens: pruning, feeding & pests\", September 2021. Commercial (garden centre chain), Sydney, New South Wales. Accessed 1 Oct 2026.",
-  "url": "https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/",
-  "status": "Opened",
-  "findings": [
-   "AF-4",
-   "AF-12",
-   "AF-14",
-   "AF-22",
-   "AF-27",
-   "AF-33",
-   "AF-37",
-   "AF-43"
-  ],
-  "quote": "AF-4: \"Leave pruning until late winter in frost-prone areas\" || AF-12: \"in warm and coastal climates it is safe to prune roses in mid-winter (early July is ideal).\" || AF-14: \"Leave pruning until late winter in frost-prone areas\" || AF-22: \"Feed through spring to early autumn with a rose food\" || AF-27: \"In mid summer (around mid January to early February), lightly prune roses\" || AF-33: \"potted roses can be planted year-round (however, you should avoid planting in very hot weather).\" || AF-37: \"After pruning and before new growth appears, spray roses with lime sulphur\" || AF-43: \"Winter pruning can be done in July or early August depending on local conditions.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "QRS-TOP",
-  "source": "Queensland Rose Society, \"Top Ten\" page. Located only: the address redirected between http and https and could not be opened. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "http://www.qld.rose.org.au/topten.html",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "BOM-FROST-ABOUT",
-  "source": "Bureau of Meteorology, \"About Annual and monthly potential frost days\". Located only: the address redirected between http and https and could not be opened. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "http://www.bom.gov.au/climate/maps/averages/frost/about.shtml",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- }
+  {
+    "code": "RSNSW-G",
+    "source": "The Rose Society of NSW, \"Rose Growing Advice\", date not shown. Rose society, New South Wales. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://nsw.rose.org.au/growing-roses",
+    "status": "Opened",
+    "findings": [
+      "AF-4",
+      "AF-12",
+      "AF-14",
+      "AF-18",
+      "AF-20",
+      "AF-21",
+      "AF-22",
+      "AF-35",
+      "AF-46",
+      "AF-53",
+      "AF-60",
+      "AF-65"
+    ],
+    "quote": "AF-4: \"If you live near the coast, and rarely or never get frosts, the most dormant period is late June to the end of July.\" || AF-12: \"If you live near the coast, and rarely or never get frosts, the most dormant period is late June to the end of July.\" || AF-14: \"it is best to prune from the beginning to the end of August.\" || AF-18: \"The best time to prune roses is when they are in their most dormant period.\" || AF-20: \"First feed after the winter prune\" || AF-21: \"second feed in mid September in time in the warmer zones or early to mid-October in the cooler zones\" || AF-22: \"the last feed in mid to late February.\" || AF-60 (recorded as AF-31): \"Bare rooted plants are dormant – they have no leaves or flowers and are only available in winter.\" || Not relied on (was AF-33; it says potted roses are for sale all year round, not when to plant them): \"Roses growing in pots are available for sale all year round\" || AF-12: \"The best time to prune roses is when they are in their most dormant period.\" (added at the Build Check, 7 Oct 2026) || AF-14: \"If you live inland or an area that gets any frosts over a regular period, it is best to prune from the beginning to the end of August.\" (added at the Build Check, 7 Oct 2026) || AF-35: \"Clean up all the prunings, pick off any foliage and clear up dead and diseased leaves from the garden.\" (added at the Build Check, 7 Oct 2026) || AF-46: \"If you live inland or an area that gets any frosts over a regular period, it is best to prune from the beginning to the end of August.\" (added at the Build Check, 7 Oct 2026) || AF-53: \"First feed after the winter prune; second feed in mid September in time in the warmer zones or early to mid-October in the cooler zones; third feed...\" (added at the Build Check, 7 Oct 2026) || AF-53: \"the last feed in mid to late February.\" (added at the Build Check, 7 Oct 2026) || AF-65: \"Clean up all the prunings, pick off any foliage and clear up dead and diseased leaves from the garden.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "RSNSW-CAL",
+    "source": "The Rose Society of NSW, \"Rose Care Calendar\", date not shown. Rose society, New South Wales. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://nsw.rose.org.au/growing-roses/care-calendar",
+    "status": "Opened",
+    "findings": [
+      "AF-4",
+      "AF-5",
+      "AF-11",
+      "AF-12",
+      "AF-14",
+      "AF-16",
+      "AF-19",
+      "AF-21",
+      "AF-27",
+      "AF-28",
+      "AF-30",
+      "AF-35",
+      "AF-36",
+      "AF-46",
+      "AF-53",
+      "AF-60",
+      "AF-65"
+    ],
+    "quote": "AF-4: \"In cold areas it is better not to prune until August.\" || AF-5: [No definition of mild, cold, cool or warm areas on the page; checked directly.] || AF-12: \"In mild areas this is the ideal month for pruning roses.\" [July] || AF-14: \"In cold areas it is better not to prune until August.\" || AF-16: \"Young growth in those areas is very subject to damage by frosts.\" || AF-19: \"The latter half of August is ideal for feeding roses\" || AF-21: \"though in cold areas this can be delayed until September.\" || AF-27: \"trim your plants early this month in mild climate areas. In cool areas do this in January\" [February] || AF-28: \"in warm areas trim in March for blooms in May.\" || AF-30: \"those growing in March and April will mature adequately before mid-winter.\" || AF-60 (recorded as AF-31): \"Prepare the soil for planting in June/July.\" || AF-36: \"Lime Sulphur is recognised as being effective\" [July] || AF-11: \"In mild areas this is the ideal month for pruning roses.\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-29: \"Remove faded flowers.\" (added at the Build Check, 7 Oct 2026) || AF-35: \"Immediately pruning is completed, the prunings and fallen leaves should be put in the green waste bin and the plants sprayed with a fungicide\" (added at the Build Check, 7 Oct 2026) || AF-36: \"Immediately pruning is completed, the prunings and fallen leaves should be put in the green waste bin and the plants sprayed with a fungicide\" (added at the Build Check, 7 Oct 2026) || AF-46: \"In cold areas it is better not to prune until August.\" (added at the Build Check, 7 Oct 2026) || AF-46: \"Young growth in those areas is very subject to damage by frosts.\" (added at the Build Check, 7 Oct 2026) || AF-53: \"The latter half of August is ideal for feeding roses, though in cold areas this can be delayed until September.\" (added at the Build Check, 7 Oct 2026) || AF-65: \"Immediately pruning is completed, the prunings and fallen leaves should be put in the green waste bin and the plants sprayed with a fungicide\" (added at the Build Check, 7 Oct 2026) || AF-65: \"Lime Sulphur is recognised as being effective and it will also address white scale.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "RSV-M",
+    "source": "The Rose Society of Victoria, \"Monthly Care of Roses\", date not shown. Rose society, Victoria. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.rosesocietyvic.org.au/index.php/monthly-care-of-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-11",
+      "AF-14",
+      "AF-16",
+      "AF-19",
+      "AF-26",
+      "AF-27",
+      "AF-29",
+      "AF-31",
+      "AF-34",
+      "AF-35",
+      "AF-36",
+      "AF-47",
+      "AF-54",
+      "AF-57",
+      "AF-61",
+      "AF-66"
+    ],
+    "quote": "AF-11: \"Start pruning roses.\" [July] || AF-14: \"Prune now in cold areas so as to avoid frost damage.\" [August] || AF-19: \"At end of month feed all roses with a specialist rose fertiliser\" [August] || AF-26: \"newly planted bare-root roses which should not be fed until late November or early December\" || AF-27: \"Summer-trim all roses if timing flowering for a show or special event.\" [February] || AF-29: \"Deadhead and enjoy.\" [April] || AF-31: \"Start planting new roses using compost and slow-release fertiliser only.\" [June] || AF-34: \"Move established roses to new locations if they are in the wrong place or too close together.\" [June] || AF-35: \"Remove all leaves from bushes and rake up all around the rose beds.\" [July] || AF-36: \"spray on bare roses and lightly on ground around bushes to kill all black spot spores\" [July] || AF-16: \"Prune now in cold areas so as to avoid frost damage.\" (added at the Build Check, 7 Oct 2026) || AF-36: \"Alternative spray is Lime Sulphur.\" (added at the Build Check, 7 Oct 2026) || AF-47: \"Start pruning roses.\" (added at the Build Check, 7 Oct 2026) || AF-47: \"Prune now in cold areas so as to avoid frost damage.\" (added at the Build Check, 7 Oct 2026) || AF-54: \"At end of month feed all roses with a specialist rose fertiliser\" (added at the Build Check, 7 Oct 2026) || AF-57: \"Summer-trim all roses if timing flowering for a show or special event.\" (added at the Build Check, 7 Oct 2026) || AF-57: \"Deadhead and enjoy.\" (added at the Build Check, 7 Oct 2026) || AF-57: \"Continue deadheading.\" (added at the Build Check, 7 Oct 2026) || AF-61: \"order new roses for winter planting\" (added at the Build Check, 7 Oct 2026) || AF-61: \"Start planting new roses using compost and slow-release fertiliser only.\" (added at the Build Check, 7 Oct 2026) || AF-61: \"Move established roses to new locations if they are in the wrong place or too close together.\" (added at the Build Check, 7 Oct 2026) || AF-66: \"Remove all leaves from bushes and rake up all around the rose beds.\" (read again, 7 Oct 2026) || AF-66: \"spray on bare roses and lightly on ground around bushes to kill all black spot spores\" (read again, 7 Oct 2026) || AF-66: \"Alternative spray is Lime Sulphur.\" (read again, 7 Oct 2026) || Qualifies AF-66: \"Use [brand] and White Oil mixed together to spray on bare roses and lightly on ground around bushes to kill all black spot spores.\" (read again, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "RSV-PB",
+    "source": "The Rose Society of Victoria, \"The Pruning Bible\", date not shown. Rose society, Victoria. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/",
+    "status": "Opened",
+    "findings": [
+      "AF-13",
+      "AF-14",
+      "AF-16",
+      "AF-18",
+      "AF-47"
+    ],
+    "quote": "AF-13: \"The best time to prune is in June or July.\" || AF-14: \"if you live in a really cold area of Australia, then wait until early August\" || AF-16: \"so that the frosts don't knock back the new shoots.\" || AF-18: [No sentence timing pruning by bud swell or new growth; checked directly.] || AF-47: \"The best time to prune is in June or July.\" (added at the Build Check, 7 Oct 2026) || AF-47: \"But if you live in a really cold area of Australia, then wait until early August so that the frosts don't knock back the new shoots.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "SARS-CAL",
+    "source": "Rose Society of South Australia, \"A Calendar for Rose Growers\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://sarose.org.au/growing-advice/a-calendar-for-rose-growers",
+    "status": "Opened",
+    "findings": [
+      "AF-11",
+      "AF-19",
+      "AF-22",
+      "AF-27",
+      "AF-31",
+      "AF-35",
+      "AF-36",
+      "AF-48",
+      "AF-55",
+      "AF-58",
+      "AF-62",
+      "AF-67"
+    ],
+    "quote": "AF-11: \"It's rose pruning time! Start with climbing roses, followed by bush roses.\" [July] || AF-19: \"Fertilise early in the month\" [September] || AF-22: \"This is the month to fertilise\" [February] || AF-27: \"Roses can be trimmed in summer, one to two weeks after fertilising, to achieve a strong and vibrant autumn flush.\" || AF-35: \"Ensure rose prunings and as many fallen leaves as possible are removed.\" [August] || AF-36: \"After tidying up, ensure roses are sprayed with Winter Oil (or pest oil) or Lime Sulphur\" [August] || AF-31: \"New roses will arrive and can be planted...Ensure they are removed from plastic, soaked in a bucket of water for 12 hours.\" (added at the Build Check, 7 Oct 2026) || AF-48: \"It's rose pruning time! Start with climbing roses, followed by bush roses.\" (added at the Build Check, 7 Oct 2026) || AF-55: \"Fertilise early in the month with [brand].\" (added at the Build Check, 7 Oct 2026) || AF-55: \"This is the month to fertilise\" (added at the Build Check, 7 Oct 2026) || AF-58: \"Roses can be trimmed in summer, one to two weeks after fertilising, to achieve a strong and vibrant autumn flush.\" (added at the Build Check, 7 Oct 2026) || AF-62: \"New roses will arrive and can be planted...Ensure they are removed from plastic, soaked in a bucket of water for 12 hours.\" (added at the Build Check, 7 Oct 2026) || AF-67: \"Ensure rose prunings and as many fallen leaves as possible are removed.\" (added at the Build Check, 7 Oct 2026) || AF-67: \"After tidying up, ensure roses are sprayed with Winter Oil (or pest oil) or Lime Sulphur.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "SARS-WIN",
+    "source": "Rose Society of South Australia, \"Winter Rose Growing Culture Notes for South Australia\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://sarose.org.au/growing-advice/winter-rose-growing-culture-notes-for-south-australia",
+    "status": "Opened",
+    "findings": [
+      "AF-11",
+      "AF-18",
+      "AF-31",
+      "AF-32",
+      "AF-34",
+      "AF-35",
+      "AF-36",
+      "AF-40",
+      "AF-48",
+      "AF-62",
+      "AF-67",
+      "AF-69"
+    ],
+    "quote": "AF-11: \"Pruning in July is recommended and avoid the temptation to prune too early.\" || AF-18: [No sentence timing pruning by bud swell or new growth; checked directly.] || AF-31: \"Planting is best done in June, July or early August.\" || AF-32: \"Planting is best done in June, July or early August.\" || AF-34: \"Winter is the best time to transplant existing roses.\" || AF-35: \"most of the fallen leaves are gathered up and disposed of together with any discarded rose prunings\" || AF-40: \"colder and wetter in the Adelaide Hills ... Frosts are also common in country areas.\" || AF-35, the page's wording as read at the Build Check: \"Once roses lose their leaves and assuming most of the fallen leaves are gathered up and disposed of together with discarded rose prunings, winter is a great time for pest and disease control.\" || AF-40, the page's wording as read at the Build Check: \"colder and wetter in the Adelaide Hills, the South-East and Southern Yorke Peninsula and Eyre Peninsula. Frosts are also common in country areas.\" || AF-36: \"they can readily be treated with winter dormancy sprays, for example oil sprays or Lime Sulphur.\" (added at the Build Check, 7 Oct 2026) || AF-36: \"Copper Oxy Chloride sprays can also be used.\" (added at the Build Check, 7 Oct 2026) || AF-48: \"Pruning in July is recommended and avoid the temptation to prune too early.\" (added at the Build Check, 7 Oct 2026) || AF-62: \"Planting is best done in June, July or early August.\" (added at the Build Check, 7 Oct 2026) || AF-67: \"Once roses lose their leaves and assuming most of the fallen leaves are gathered up and disposed of together with discarded rose prunings, winter is a great time for pest and disease control.\" (added at the Build Check, 7 Oct 2026) || AF-67: \"they can readily be treated with winter dormancy sprays, for example oil sprays or Lime Sulphur.\" (added at the Build Check, 7 Oct 2026) || AF-67: \"Copper Oxy Chloride sprays can also be used.\" (added at the Build Check, 7 Oct 2026) || AF-69: \"colder and wetter in the Adelaide Hills, the South-East and Southern Yorke Peninsula and Eyre Peninsula. Frosts are also common in country areas.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "SARS-AUT",
+    "source": "Rose Society of South Australia, \"Autumn Rose Growing Culture Notes for South Australia\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://sarose.org.au/growing-advice/autumn-rose-growing-culture-notes-for-south-australia",
+    "status": "Opened",
+    "findings": [
+      "AF-22",
+      "AF-27",
+      "AF-55",
+      "AF-58"
+    ],
+    "quote": "AF-22: \"If an application of Sudden Impact for Roses was not applied in February, ensure the rose plants receive it in March.\" || AF-27: \"A light, late summer or early autumn trim will ensure a great flush of flowers around 55 days later.\" || AF-22: \"[brand] Liquid Fertiliser applied in fortnightly applications until the end of March\" (added at the Build Check, 7 Oct 2026) || AF-55: \"[brand] Liquid Fertiliser applied in fortnightly applications until the end of March\" (added at the Build Check, 7 Oct 2026) || AF-58: \"A light, late summer or early autumn trim will ensure a great flush of flowers around 55 days later.\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-62: \"If you want to purchase bare root roses in winter, it's time to order them now.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "SARS-SPR",
+    "source": "Rose Society of South Australia, \"Spring Rose Growing Culture Notes for South Australia\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://sarose.org.au/growing-advice/spring-rose-growing-culture-notes-for-south-australia",
+    "status": "Opened",
+    "findings": [
+      "AF-20",
+      "AF-40",
+      "AF-55",
+      "AF-69"
+    ],
+    "quote": "AF-20: \"be applied when the young shoots are around 2cms in length.\" || AF-40: \"mid to late October in warmer areas, including Adelaide, and in early to mid-November in cooler areas of the State\" || AF-55: \"be applied when the young shoots are around 2cms in length.\" (added at the Build Check, 7 Oct 2026) || AF-69: \"The first flush of flowers can be expected in mid to late October in warmer areas, including Adelaide, and in early to mid-November in cooler areas.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "RSSA-GG",
+    "source": "The Rose Society of South Australia Inc., \"Rose Growing Guide\" (PDF hosted by the National Rose Trial Garden of Australia), date not shown. Rose society, South Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf",
+    "status": "Opened",
+    "findings": [
+      "AF-11",
+      "AF-14",
+      "AF-19",
+      "AF-23",
+      "AF-31",
+      "AF-36",
+      "AF-48",
+      "AF-55",
+      "AF-62",
+      "AF-67"
+    ],
+    "quote": "AF-11: \"Pruning is best done in July (or August in frost areas).\" || AF-14: \"Pruning is best done in July (or August in frost areas).\" || AF-19: \"early September and February in heavy soil\" || AF-23: \"four times a year in September, November, February and April in sandy soils\" || AF-31: \"This is best done in June or July.\" || AF-36: \"After pruning, spray with Pest Oil, Winter Oil or Copper Oxychloride to combat overwintering fungal spores.\" || AF-19, the page's wording as read at the Build Check: \"Fertiliser is best applied twice over a 12 month period - early September and February in heavy soil\" || AF-48: \"Pruning is best done in July (or August in frost areas).\" (added at the Build Check, 7 Oct 2026) || AF-55: \"Fertiliser is best applied twice over a 12 month period - early September and February in heavy soil\" (added at the Build Check, 7 Oct 2026) || AF-55: \"four times a year in September, November, February and April in sandy soils\" (added at the Build Check, 7 Oct 2026) || AF-62: \"This is best done in June or July.\" (added at the Build Check, 7 Oct 2026) || AF-67: \"After pruning, spray with Pest Oil, Winter Oil or Copper Oxychloride to combat overwintering fungal spores\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "SARS-POT",
+    "source": "Melanie Trimper, Rose Society of South Australia, \"Potted Roses\", date not shown. Rose society, South Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://sarose.org.au/growing-advice/potted-roses",
+    "status": "Opened",
+    "findings": [
+      "AF-33"
+    ],
+    "quote": "AF-33: \"Remember don't plant in hot weather.\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "RSWA",
+    "source": "The Rose Society of Western Australia Inc., \"Rose Care Calendar\", date not shown. Rose society, Western Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.rosesocietywa.au/rose-care-calendar",
+    "status": "Opened",
+    "findings": [
+      "AF-13",
+      "AF-19",
+      "AF-20",
+      "AF-23",
+      "AF-27",
+      "AF-29",
+      "AF-32",
+      "AF-36",
+      "AF-49",
+      "AF-56",
+      "AF-59",
+      "AF-63",
+      "AF-68"
+    ],
+    "quote": "AF-13: \"Prune to suit your flowering goals, remove inward-growing shoots.\" [WINTER (June - July)] || AF-19: \"Feed as new growth appears and apply mulch.\" [EARLY SPRING (August - September)] || AF-20: \"Feed as new growth appears and apply mulch.\" || AF-23: \"Continue feeding and deadheading.\" [LATE AUTUMN (May)] || AF-27: \"Light summer prune (about one-third) to encourage fresh growth.\" [EARLY AUTUMN (March - April)] || AF-29: \"Continue feeding and deadheading.\" [LATE AUTUMN (May)] || AF-32: \"Plant new roses for future seasons of colour.\" [LATE AUTUMN (May)] || AF-36: \"Spray after pruning to clean up pests and disease.\" [WINTER (June - July)] || AF-49: \"Prune to suit your flowering goals, remove inward-growing shoots.\" (added at the Build Check, 7 Oct 2026) || AF-56: \"Feed as new growth appears and apply mulch.\" (added at the Build Check, 7 Oct 2026) || AF-56: \"Continue feeding, deadheading and mulching.\" (added at the Build Check, 7 Oct 2026) || AF-56: \"Deadhead, feed, and remove any suckers growing below the graft.\" (added at the Build Check, 7 Oct 2026) || AF-56: \"Feed, water well, and watch for powdery mildew, black spot and rust.\" (added at the Build Check, 7 Oct 2026) || AF-56: \"Continue feeding and deadheading.\" (added at the Build Check, 7 Oct 2026) || AF-59: \"Light summer prune (about one-third) to encourage fresh growth.\" (added at the Build Check, 7 Oct 2026) || AF-59: \"Continue feeding and deadheading.\" (added at the Build Check, 7 Oct 2026) || AF-63: \"Plant new roses for future seasons of colour.\" (added at the Build Check, 7 Oct 2026) || AF-63: \"Plant or repot roses as needed.\" (added at the Build Check, 7 Oct 2026) || AF-68: \"Spray after pruning to clean up pests and disease.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "QRS-G",
+    "source": "The Queensland Rose Society Inc, \"Growing Roses\", published 29 May 2026. Rose society, Queensland. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://qld.rose.org.au/growing-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-40",
+      "AF-70"
+    ],
+    "quote": "AF-40: \"Growing and climate conditions will vary across the State of Queensland.\" || AF-70: \"Growing and climate conditions will vary across the State of Queensland. Try and see what works for you.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GAM",
+    "source": "ABC Gardening Australia magazine (Jennifer Stackhouse), \"How to prune roses in winter\", 13 June 2023. Public broadcaster's magazine, national. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.gardeningaustraliamag.com.au/pruning-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-11",
+      "AF-14",
+      "AF-35",
+      "AF-36",
+      "AF-37"
+    ],
+    "quote": "AF-11: \"July is the ideal time to prune roses in most areas\" || AF-14: \"in very cold zones, especially those subject to late frosts, leave your pruning until the end of winter.\" || AF-35: \"Pick up all fallen prunings and diseased leaves and dispose of them.\" || AF-36: \"Apply a protective spray of lime sulfur over your pruned rose\" || AF-37: \"This must be done before the new growth appears, as lime burns new growth.\" || AF-11: \"July is the ideal time to prune roses in most areas, but in very cold zones, especially those subject to late frosts, leave your pruning until the end of winter.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GA-MAG",
+    "source": "ABC Gardening Australia magazine (Loren Desbruslais, with text by several authors), \"Growing roses 101\", 9 April 2024, modified 4 September 2025. Public broadcaster's magazine, national. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+    "status": "Opened",
+    "findings": [
+      "AF-6",
+      "AF-11",
+      "AF-22",
+      "AF-31",
+      "AF-32"
+    ],
+    "quote": "AF-6: \"select a rose that is not prone to fungal diseases, particularly if you live in a humid climate.\" || AF-11: \"July is the ideal time to prune roses in most areas\" || AF-22: \"at their first flush in spring, at the start of summer and again at the start of autumn.\" || AF-31: \"May, June and July are the months to plant bare-rooted roses in Australia.\" || AF-32: \"May, June and July are the months to plant bare-rooted roses in Australia.\" || Qualifies AF-20: \"Roses can do with a feed three times a year, at their first flush in spring, at the start of summer and again at the start of autumn.\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-27: \"Summer rose pruning is like winter pruning, only not as hard. The aim is to give them a general tidy up and reduce their height by about a third.\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-29: \"As soon as your rose bush has finished a show of blooms, cut them off (called deadheading).\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-35: \"Pick up any infected leaves that are lying on the ground, and dispose of them in the bin, not in the compost\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GA-FAQ",
+    "source": "ABC Gardening Australia (Sophie Thomson), \"FAQs - Pruning Roses\", 29 May 2026. Public broadcaster, national. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.abc.net.au/gardening/how-to/faqs-pruning-roses-jackfruit-fruit-leather/106732162",
+    "status": "Opened",
+    "findings": [
+      "AF-14",
+      "AF-16"
+    ],
+    "quote": "AF-14: \"If you're in a very cold area you might delay pruning until late August\" || AF-16: \"so that the new growth that is stimulated will not be killed off by a late frost.\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GA-RP08",
+    "source": "ABC Gardening Australia (Jane Edmanson), \"Rose Pruning\", 28 June 2008. Public broadcaster, national. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.abc.net.au/gardening/how-to/rose-pruning/9428904",
+    "status": "Opened",
+    "findings": [
+      "AF-13",
+      "AF-14",
+      "AF-16",
+      "AF-20",
+      "AF-35",
+      "AF-36",
+      "AF-37"
+    ],
+    "quote": "AF-13: \"The best time to prune is in June or July.\" || AF-20: \"Fertilise about three weeks after you've pruned.\" || AF-37: \"Spray them with lime sulphur while the plants have no leaves and are dormant.\" || AF-14: \"if you live in a really cold area of Australia, then wait until early August so that the frosts don't knock back the new shoots.\" (added at the Build Check, 7 Oct 2026) || AF-16: \"if you live in a really cold area of Australia, then wait until early August so that the frosts don't knock back the new shoots.\" (added at the Build Check, 7 Oct 2026) || AF-35: \"Remove the clippings and prunings from the garden. Clear them up. Don't put them into the compost, but into the rubbish bin.\" (added at the Build Check, 7 Oct 2026) || AF-36: \"Spray them with lime sulphur while the plants have no leaves and are dormant.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GA-TROP",
+    "source": "ABC Gardening Australia (Leonie Norrington), \"Tropical Roses\", 28 October 2006. Public broadcaster; garden at Berry Springs, south of Darwin, Northern Territory. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.abc.net.au/gardening/how-to/tropical-roses/9427370",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-17",
+      "AF-25"
+    ],
+    "quote": "AF-8: \"climbers and ramblers, to hybrid teas, floribundas, bushes, shrubs and miniatures\" || AF-17: \"In the tropics we do a light prune throughout the year\" || AF-25: \"Jenny fertilises about every six weeks.\" || AF-8: \"They peak during the dry season and flower all year.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GA-SUB",
+    "source": "ABC Gardening Australia (Jerry Coleby-Williams), \"Subtropical Surprise\", 5 October 2018. Public broadcaster; rose farm on the outskirts of Brisbane, Queensland. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.abc.net.au/gardening/how-to/subtropical-surprise/10333054",
+    "status": "Opened",
+    "findings": [
+      "AF-9",
+      "AF-24",
+      "AF-50"
+    ],
+    "quote": "AF-9: \"Roses growing in the sub tropics grow as evergreens, growing through the winter without a rest period.\" || AF-50 (recorded as AF-11): \"so that they slow down and can rest a bit before they're pruned in July.\" || AF-24: \"try and give them a break by not feeding in the lead up to winter\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "NFP",
+    "source": "Brisbane City Council, New Farm Park, \"Tips for a flourishing rose garden\", date not shown. Local government public rose garden, Brisbane, Queensland. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://newfarmpark.com.au/tips-for-a-flourishing-rose-garden/",
+    "status": "Opened",
+    "findings": [
+      "AF-13",
+      "AF-50"
+    ],
+    "quote": "AF-13: \"The best time to prune roses is in June/July to prepare them for flowering in Spring.\" || Qualifies AF-29: \"You can encourage repeat flowering by regularly removing dead flowers.\" (added at the Build Check, 7 Oct 2026) || AF-50: \"The best time to prune roses is in June/July to prepare them for flowering in Spring.\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-50: \"Pruning also allows good airflow and light to the plants which is important particularly in Brisbane's sub-tropical climate.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "OGO",
+    "source": "ABC Organic Gardener magazine (nextmedia, under licence from the ABC), \"Understanding Climate Zones\", modified 17 August 2026. Broadcaster-licensed gardening magazine, national. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.organicgardener.com.au/understanding-climate-zones/",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-2",
+      "AF-39",
+      "AF-40"
+    ],
+    "quote": "AF-1: \"Typically, cool winters with light frost, usually non-existent on the coast.\" [Warm Temperate] || AF-2: \"Cold winter temperatures with some areas experience heavy frosts and snow.\" [Cold Temperate] || AF-39: \"Think of our planting guides as a starting point.\" || AF-40: \"even between neighbouring suburbs\" || Qualifies AF-40: \"North-facing walls, shaded corners, raised beds, frost hollows or nearby structures all influence how well a plant grows.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "TSC",
+    "source": "The Seed Collection Pty Ltd, \"How to Grow Roses (bare-rooted)\", copyright 2026. Commercial (seed and plant retailer), national. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.theseedcollection.com.au/growguide/rose",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-2",
+      "AF-6",
+      "AF-22",
+      "AF-36",
+      "AF-39"
+    ],
+    "quote": "AF-1: \"Includes: Sydney, Perth, Adelaide, Newcastle, Toowoomba, Central Coast NSW, Wollongong, Bunbury\" [Temperate] || AF-2: \"Includes: Melbourne, Canberra, Hobart, Launceston, Ballarat, Bendigo, Geelong, Mt Gambier\" [Cool] || AF-6: \"Roses may be more susceptible to fungal diseases in more humid areas.\" || AF-39: \"Includes: Darwin, Cairns, Townsville, Exmouth\" [Tropical] || Qualifies AF-11: \"Pruning is best done mid to late winter or early spring.\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-20: \"Fertilising is best done three times a year; at the first flush in spring, the start of summer, and at the start of autumn.\" (added at the Build Check, 7 Oct 2026) || AF-22: \"Fertilising is best done three times a year; at the first flush in spring, the start of summer, and at the start of autumn.\" (added at the Build Check, 7 Oct 2026) || AF-36: \"After winter pruning, roses can be sprayed with Lime Sulphur which helps eliminate fungal spores and the eggs of pests.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "PEN",
+    "source": "Penfield Gardens Rose Nursery, \"How to Select the Perfect Rose Variety for Australian Gardens\", 14 April 2026. Commercial (rose nursery), South Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://penfieldroses.com.au/how-to-select-the-perfect-rose-variety-for-australian-gardens/",
+    "status": "Opened",
+    "findings": [
+      "AF-2",
+      "AF-6",
+      "AF-7",
+      "AF-32",
+      "AF-43"
+    ],
+    "quote": "AF-2: \"Places like Melbourne, Canberra, Adelaide, and Hobart offer ideal growing conditions for most rose types.\" || AF-6: \"Tropical and subtropical regions like Brisbane, Darwin, and parts of NSW face high humidity, summer rain, and increased risk of fungal disease.\" || AF-7: \"Places like Melbourne, Canberra, Adelaide, and Hobart offer ideal growing conditions for most rose types.\" || AF-32: \"Your bare rooted roses will be dispatched between May – July\" || AF-43: \"planted in full sun and pruned after the last frost.\" || AF-7: \"Temperate zones are some of the easiest places to grow roses in Australia.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "BOM-CZ",
+    "source": "Bureau of Meteorology, \"Australian climate zones\", published 16 February 2021, modified 24 June 2026. National meteorological agency. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.bom.gov.au/resources/learn-and-explore/climate-knowledge-centre/australian-climate-zones",
+    "status": "Opened",
+    "findings": [
+      "AF-3"
+    ],
+    "quote": "AF-3: \"Places like Brisbane and Alice Springs are considered subtropical. Summers are hot, winters are mild. || The location of climate zones is largely determined by their distance from the equator.\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "BOM-FROST",
+    "source": "Bureau of Meteorology, \"Annual and monthly potential frost days\" (climatology 1976-2005), product IDCJCM0012, date not shown. National meteorological agency. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.bom.gov.au/climate/maps/averages/frost/",
+    "status": "Opened",
+    "findings": [
+      "AF-41"
+    ],
+    "quote": "AF-41: \"extensive areas in northern Australia are generally frost free || Potential frost days are mainly confined to a period from late autumn to early spring\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "BOM-WIF",
+    "source": "Bureau of Meteorology, \"About potential frost days - Australian Maps\", updated 25 February 2014. National meteorological agency. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.bom.gov.au/climate/map/frost/what-is-frost.shtml",
+    "status": "Opened",
+    "findings": [
+      "AF-42"
+    ],
+    "quote": "AF-42: \"Frost is a localised phenomenon, the severity of which can vary significantly over a very small area.\" || AF-42: \"Frost hollows often occur in valleys due to cold air drainage.\" (read again, 7 Oct 2026) || AF-42: \"This is referred to as a katabatic wind, and can result in frost forming in valleys when surrounding areas remain frost-free.\" (read again, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "OGTR",
+    "source": "Australian Government Office of the Gene Technology Regulator, \"The Biology of Hybrid Tea Rose (Rosa x hybrida)\", Version 2, March 2009. Government regulator. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.ogtr.gov.au/sites/default/files/files/2021-07/the_biology_of_hybrid_tea_rose.pdf",
+    "status": "Opened",
+    "findings": [
+      "AF-6",
+      "AF-7",
+      "AF-10",
+      "AF-16",
+      "AF-20",
+      "AF-31",
+      "AF-43"
+    ],
+    "quote": "AF-6: \"are more difficult to manage in hot tropical regions, due to the diseases such as black spot\" [s2.3] || AF-7: \"grow best in full sun, in a temperate climate\" || AF-10: \"In temperate climates, rose plants growing outside tend to shed leaves in autumn and enter a dormant phase until bud break in spring.\" || AF-16: \"when there is no chance of frost damaging the tender new shoots.\" || AF-43: \"in late winter/early spring when there is no chance of frost damaging the tender new shoots.\" || AF-6: \"Roses for the garden will grow in most parts of Australia, but are more difficult to manage in hot tropical regions, due to the diseases such as black spot which are more prevalent in hot humid areas.\" (added at the Build Check, 7 Oct 2026) || AF-20: \"Fertilizer (especially rotted manure or blood and bone) is best added around the roots once new growth begins.\" (added at the Build Check, 7 Oct 2026) || AF-31: \"Rose plants are usually purchased as bare-rooted stock and are planted in autumn, winter or early spring (June & July in Australia) into dry, crumbly soil.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "HSOC-AUG",
+    "source": "Horticultural Society of Canberra Inc., \"What to Do in the Garden in August\", modified 2 May 2019. Horticultural society, Australian Capital Territory. Accessed 1 Oct 2026. Could not be opened on 7 Oct 2026 (the site returned an error on every try).",
+    "url": "https://hsoc.org.au/what-to-do-in-the-garden-in-august/",
+    "status": "Opened 1 Oct 2026; could not be opened again (not relied on)",
+    "findings": [],
+    "quote": "Not relied on (was AF-15; the page could not be opened on 7 October 2026, so the quotation is not confirmed): \"Prune most roses and spray this month or in early September.\" || Not relied on (was AF-32; the page could not be opened on 7 October 2026, so the quotation is not confirmed): \"Plant new roses this month.\" || Not relied on (was AF-36; the page could not be opened on 7 October 2026, so the quotation is not confirmed): \"Prune most roses and spray this month or in early September.\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "HSOC-AUT",
+    "source": "Horticultural Society of Canberra Inc. (Tad Feng), \"Autumn Garden\", 2 May 2019. Horticultural society, Australian Capital Territory. Accessed 1 Oct 2026. Could not be opened on 7 Oct 2026 (the site returned an error on every try).",
+    "url": "https://hsoc.org.au/2019/05/02/autumn-garden/",
+    "status": "Opened 1 Oct 2026; could not be opened again (not relied on)",
+    "findings": [],
+    "quote": "Not relied on (was AF-14; the page could not be opened on 7 October 2026, so the quotation is not confirmed): \"Wait till late July or early August before you prune roses\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "TRE-CAL",
+    "source": "Treloar Roses, \"Seasonal Rose Care Calendar\", copyright 2023-2024. Commercial (rose nursery), Victoria; national sales. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.treloarroses.com.au/Seasonal-Rose-Care-Calendar",
+    "status": "Opened",
+    "findings": [
+      "AF-4",
+      "AF-20",
+      "AF-22",
+      "AF-31",
+      "AF-34",
+      "AF-36",
+      "AF-40",
+      "AF-43"
+    ],
+    "quote": "AF-4: \"If you live in an area that receives frosts, wait until the last frost has passed.\" || AF-20: \"Apply once the roses have produced a significant amount of foliage and have produced the first blooms.\" || AF-22: \"Fertilise your roses in early Autumn. Do not fertilise in late Autumn.\" || AF-31: \"Planting is best done during winter, this is when your bare root roses will be delivered.\" || AF-34: \"If you need to move or repot any roses, winter is the best time to do so.\" || AF-36: \"Don't forget to spray with Lime Sulphur after pruning.\" || AF-40: \"Due to Australia's vast climatic variations, seasonal tasks may vary to the following list.\" || AF-43: \"If you live in an area that receives frosts, wait until the last frost has passed.\" || Qualifies AF-11: \"Pruning is best done mid-late winter.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "TRE-T",
+    "source": "Treloar Roses, \"Transplanting established roses\", copyright 2023-2024. Commercial (rose nursery), Victoria. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.treloarroses.com.au/Transplanting-Established-Roses",
+    "status": "Opened",
+    "findings": [
+      "AF-34"
+    ],
+    "quote": "AF-34: \"The best time to move a rose is in the winter dormancy when the plant is asleep\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "ROSS-CAL",
+    "source": "Ross Roses, \"Calendar\", copyright 2026. Commercial (rose nursery), Willunga, South Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://rossroses.com.au/calendar/",
+    "status": "Opened",
+    "findings": [
+      "AF-4",
+      "AF-11",
+      "AF-13",
+      "AF-19",
+      "AF-27",
+      "AF-31",
+      "AF-32",
+      "AF-35",
+      "AF-36",
+      "AF-48",
+      "AF-55",
+      "AF-58",
+      "AF-62",
+      "AF-67"
+    ],
+    "quote": "AF-4: \"In frosty districts delay pruning until now.\" [July] || AF-11: \"Pruning time in most districts.\" [July] || AF-13: \"Pruning may commence in late June.\" || AF-19: \"This is the main fertilising for the year.\" [September] || AF-27: \"lightly trim all over the bush in mid-February by cutting off finished flowers.\" || Not relied on (was AF-29; the sentence is about blooms continuing into May and does not mention deadheading): \"Good blooms can continue well into the month.\" [May] || AF-31: \"Planting time for new plants.\" [June] || AF-32: \"Bare-rooted plants can still be planted this month.\" [August] || AF-35: \"Rake up cuttings and leaves and dispose of them.\" [July] || AF-36: \"Spray thoroughly with 'Liquid Copper', or 'Copper oxy-chloride' followed by 'White oil.'\" [July] || AF-27, the page's wording as read at the Build Check: \"To bring on the autumn display lightly trim all over the bush in mid-February by cutting off finished flowers with a short stem.\" || AF-29, the page's wording as read at the Build Check: \"Good blooms can continue well into the month.\" || AF-36, the page's wording as read at the Build Check: \"Spray thoroughly with 'Liquid Copper', or 'Copper oxy-chloride' followed by 'White oil' or 'Pest Oil'\" || Qualifies AF-14: \"In frosty districts delay pruning until now.\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-19: \"If using organic fertiliser can be applied later this month.\" (added at the Build Check, 7 Oct 2026) || AF-48: \"Pruning time in most districts.\" (added at the Build Check, 7 Oct 2026) || AF-48: \"Pruning may commence in late June.\" (added at the Build Check, 7 Oct 2026) || AF-48: \"In frosty districts delay pruning until now.\" (added at the Build Check, 7 Oct 2026) || AF-55: \"This is the main fertilising for the year.\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-55: \"If using organic fertiliser can be applied later this month.\" (added at the Build Check, 7 Oct 2026) || AF-58: \"To bring on the autumn display lightly trim all over the bush in mid-February by cutting off finished flowers with a short stem.\" (added at the Build Check, 7 Oct 2026) || AF-62: \"Planting time for new plants.\" (added at the Build Check, 7 Oct 2026) || AF-62: \"Bare-rooted plants can still be planted this month.\" (added at the Build Check, 7 Oct 2026) || AF-67: \"Rake up cuttings and leaves and dispose of them.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "ROSS-SP",
+    "source": "Ross Roses, \"Spraying Roses\", date not shown. Commercial (rose nursery), South Australia. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://rossroses.com.au/spraying-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-36",
+      "AF-67"
+    ],
+    "quote": "AF-36: \"After pruning in July it is good practise to spray the plants with two products\" || AF-67: \"After pruning in July it is good practise to spray the plants with two products to help control problems in spring.\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "FP",
+    "source": "Flower Power (Jennifer Stackhouse), \"Rose care for temperate climate gardens: pruning, feeding & pests\", September 2021. Commercial (garden centre chain), Sydney, New South Wales. Accessed 1 Oct 2026. Opened again 7 Oct 2026.",
+    "url": "https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/",
+    "status": "Opened",
+    "findings": [
+      "AF-4",
+      "AF-12",
+      "AF-14",
+      "AF-22",
+      "AF-27",
+      "AF-33",
+      "AF-34",
+      "AF-36",
+      "AF-37",
+      "AF-40",
+      "AF-43",
+      "AF-64"
+    ],
+    "quote": "AF-4: \"Leave pruning until late winter in frost-prone areas\" || AF-12: \"in warm and coastal climates it is safe to prune roses in mid-winter (early July is ideal).\" || AF-14: \"Leave pruning until late winter in frost-prone areas\" || AF-22: \"Feed through spring to early autumn with a rose food\" || AF-27: \"In mid summer (around mid January to early February), lightly prune roses\" || AF-33: \"potted roses can be planted year-round (however, you should avoid planting in very hot weather).\" || AF-37: \"After pruning and before new growth appears, spray roses with lime sulphur\" || AF-43: \"Winter pruning can be done in July or early August depending on local conditions.\" || Qualifies AF-12: \"Leave pruning until late winter in frost-prone areas, but in warm and coastal climates it is safe to prune roses in mid-winter\" (added at the Build Check, 7 Oct 2026) || Qualifies AF-14: \"Winter pruning can be done in July or early August depending on local conditions.\" (added at the Build Check, 7 Oct 2026) || AF-34: \"The ideal time to transplant roses is in winter, when they are dormant.\" (added at the Build Check, 7 Oct 2026) || AF-36: \"After pruning and before new growth appears, spray roses with lime sulphur to control pests and diseases while they are dormant.\" (added at the Build Check, 7 Oct 2026) || AF-40: \"Winter pruning can be done in July or early August depending on local conditions.\" (added at the Build Check, 7 Oct 2026) || AF-64: \"potted roses can be planted year-round (however, you should avoid planting in very hot weather).\" (added at the Build Check, 7 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "QRS-TOP",
+    "source": "Queensland Rose Society, \"Top Ten\" page. Located only: the address redirected between http and https and could not be opened. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "http://www.qld.rose.org.au/topten.html",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "BOM-FROST-ABOUT",
+    "source": "Bureau of Meteorology, \"About Annual and monthly potential frost days\". Located only: the address redirected between http and https and could not be opened. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "http://www.bom.gov.au/climate/maps/averages/frost/about.shtml",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  }
 ]
