@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000359",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Harkness Roses (Harkness Roses (Global) Ltd, operated by You Garden Ltd) — \"Pruning Tips\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-9 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (rose nursery brand), UK",
+    "identity": "Harkness Roses (Harkness Roses (Global) Ltd, operated by You Garden Ltd), \"Pruning Tips\", date not shown. Commercial (rose nursery brand), UK. https://www.roses.co.uk/pruning-tips, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:HARK-PT)",
+    "url": "https://www.roses.co.uk/pruning-tips",
+    "register_code": "TIMING-UK:HARK-PT",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT."
+  }
+}

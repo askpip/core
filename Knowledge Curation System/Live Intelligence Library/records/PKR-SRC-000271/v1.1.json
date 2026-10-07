@@ -1,0 +1,39 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000271",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "David Austin Roses (Megan Edmondson) — \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK",
+    "identity": "David Austin Roses (Megan Edmondson), \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\", 29 September 2025. Commercial (rose breeder and nursery), UK. https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:DA-BR)",
+    "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses",
+    "register_code": "PLANTMOVE:DA-BR",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-UK-01 added (register code TIMING-UK:DA-BR). Nothing else changed. Version 1.0 retired."
+  }
+}

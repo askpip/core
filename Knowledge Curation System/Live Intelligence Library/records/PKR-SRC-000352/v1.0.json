@@ -1,0 +1,38 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000352",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Peter Beales Roses — \"Rose Gardening Calendar\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-UK-01, AF-9 (Low)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-12 (Low)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-16 (Low)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-21 (Moderate)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-22 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-37 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (rose nursery), UK",
+    "identity": "Peter Beales Roses, \"Rose Gardening Calendar\", 16 July 2020. Commercial (rose nursery), UK. https://www.peterbealesroses.com/blog/rose-gardening-calendar/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:PB-CAL)",
+    "url": "https://www.peterbealesroses.com/blog/rose-gardening-calendar/",
+    "register_code": "TIMING-UK:PB-CAL",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT."
+  }
+}

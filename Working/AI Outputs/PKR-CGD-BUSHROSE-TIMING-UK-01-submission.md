@@ -1,33 +1,33 @@
-# PKR Submission Package — United Kingdom Months: Statements Added to the Six Question Answers (v0.3, Draft)
+# PKR Submission Package — United Kingdom Months: Statements Added to the Six Question Answers (v1.0, Published)
 
-**Draft, awaiting a Founder's approval.** Not published. Built by KIT on 8 October 2026 from `FRD-BUSHROSE-TIMING-UK-01` as corrected by the Build Check (its §11), under the Pip Knowledge Rules. On approval the dossier becomes `ARC-BUSHROSE-TIMING-UK-01` and these statements are published. Sources are in `PKR-SRC-BUSHROSE-TIMING-UK-submission.md`.
+**Published 8 October 2026.** A Founder approved these answers in chat on 8 October 2026 ("I approve the UK timing."), after reading `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-UK-01_Pips_Answers.md`, with one change: information from one rose nursery that disagrees with the Royal Horticultural Society is not included. The two statements that gave the nursery's months were removed; no other wording changed. The one approval covers the research, which is now `ARC-BUSHROSE-TIMING-UK-01` (v1.0), Pip's words, and publishing.
 
-**No new record IDs.** The six question answers already exist as PKR-CGD-000022 to PKR-CGD-000027 (version 1.1, Published, with the New Zealand and Australian statements). On approval each gets version 1.2: the United Kingdom statements below are added after those, which do not change, and version 1.1 is retired.
+Built by KIT on 8 October 2026 under the Pip Knowledge Rules. Sources are in `PKR-SRC-BUSHROSE-TIMING-UK-submission.md`.
 
-What a Founder reads is `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-UK-01_Pips_Answers.md`.
+**No new record IDs.** The six question answers are PKR-CGD-000022 to PKR-CGD-000027. Each is now at Version 1.2: the United Kingdom statements below follow the New Zealand and Australian statements, which did not change, and Version 1.1 is retired.
 
 ## 1. Triage Record
 
-Every finding, conflict and gap of the dossier is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant? Item numbers count the United Kingdom statements of each record.
+Every finding, conflict and gap of the research is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant? Item numbers count the United Kingdom statements of each record.
 
 | Item | Use | Routed to |
 |---|---|---|
-| AF-1 | Available to Pip | PKR-CGD-000022 item 1; PKR-CGD-000022 item 3 |
+| AF-1 | Available to Pip | PKR-CGD-000022 item 1 |
 | AF-2 | Available to Pip | PKR-CGD-000022 item 2 |
-| AF-3 | Available to Pip | PKR-CGD-000022 item 2; PKR-CGD-000022 item 4 |
+| AF-3 | Available to Pip | PKR-CGD-000022 item 2 |
 | AF-4 | Available to Pip | PKR-CGD-000022 item 1 |
-| AF-5 | Used only as one side of a disagreement (rule 2) | PKR-CGD-000022 item 3; PKR-CGD-000022 item 4 |
+| AF-5 | On record only | Not routed. On record only, at a Founder's direction (8 October 2026): one rose nursery's months, which disagree with the Royal Horticultural Society, are not shown. |
 | AF-6 | Used only as one side of a disagreement (rule 2) | PKR-CGD-000022 item 1 |
-| AF-7 | Available to Pip | PKR-CGD-000022 item 5 |
+| AF-7 | Available to Pip | PKR-CGD-000022 item 3 |
 | AF-8 | On record only | Not routed. On record only (Low, one rose grower). It is not local information, a precaution or a gap, so the rules keep it on record. The opposite claim, from one rose nursery, is not used either (C-12). |
-| AF-9 | Available to Pip for that place, as local information or local months (rule 4) | PKR-CGD-000022 item 6 |
+| AF-9 | Available to Pip for that place, as local information or local months (rule 4) | PKR-CGD-000022 item 4 |
 | AF-10 | Available to Pip | PKR-CGD-000023 item 1 |
 | AF-11 | Available to Pip | PKR-CGD-000023 item 2 |
 | AF-12 | Available to Pip for that place, as local information or local months (rule 4) | PKR-CGD-000023 item 3 |
 | AF-13 | Available to Pip, as a precaution (rule 7) | PKR-CGD-000023 item 3 |
 | AF-14 | Available to Pip | PKR-CGD-000024 item 1 |
 | AF-15 | Available to Pip | PKR-CGD-000024 item 2 |
-| AF-16 | Available to Pip, as a precaution (rule 7) | PKR-CGD-000022 item 7 |
+| AF-16 | Available to Pip, as a precaution (rule 7) | PKR-CGD-000022 item 5 |
 | AF-17 | Available to Pip | PKR-CGD-000025 item 1 |
 | AF-18 | Available to Pip | PKR-CGD-000025 item 2 |
 | AF-19 | Available to Pip | PKR-CGD-000025 item 3 |
@@ -51,37 +51,37 @@ Every finding, conflict and gap of the dossier is routed to a statement, or list
 | AF-37 | Available to Pip for that place, as local information or local months (rule 4) | PKR-CGD-000026 item 2 |
 | AF-38 | Available to Pip only to say there is a gap (rule 5) | PKR-CGD-000026 item 5 |
 | C-1 (which months for the main pruning) | Rule 2 or 3 | PKR-CGD-000022 item 1 |
-| C-2 (the local signal for pruning) | Rule 2 or 3 | PKR-CGD-000022 item 5 |
+| C-2 (the local signal for pruning) | Rule 2 or 3 | PKR-CGD-000022 item 3 |
 | C-3 (the last feed) | Rule 2 or 3 | PKR-CGD-000023 item 3 |
 | C-4 (bare-root planting in mid-winter) | Rule 2 or 3 | PKR-CGD-000025 item 2 |
 | C-5 (the moving window) | Rule 2 or 3 | PKR-CGD-000025 item 5 |
 | C-6 (stopping deadheading) | Rule 2 or 3 | PKR-CGD-000024 item 1 |
-| C-7 (timing of the autumn trim) | Rule 2 or 3 | PKR-CGD-000022 item 6 |
+| C-7 (timing of the autumn trim) | Rule 2 or 3 | PKR-CGD-000022 item 4 |
 | C-8 (winter protection by mounding) | Rule 2 or 3 | Told as a gap at PKR-CGD-000026 (AF-26): no UK page describes mounding. |
-| C-9 (southern pruning in early winter) | Rule 2 or 3 | PKR-CGD-000022 item 3 |
+| C-9 (southern pruning in early winter) | Rule 2 or 3 | Not routed, at a Founder's direction (8 October 2026): one rose nursery's months, which disagree with the Royal Horticultural Society, are not shown. |
 | C-10 (how much to take off in the autumn trim) | Rule 2 or 3 | Not routed: Pip says no amount for the autumn trim, because one grower's own pages differ. |
 | C-11 (the month of the first feed) | Rule 2 or 3 | PKR-CGD-000023 item 1 |
 | C-12 (whether pruning in March is too late) | Rule 2 or 3 | Not routed: both sides are on record only (AF-8, and the nursery's claim about flowering in AF-5). |
 | C-13 (when to stop deadheading a rose grown for hips) | Rule 2 or 3 | PKR-CGD-000024 item 2 |
-| C-14 (hard pruning in autumn) | Rule 2 or 3 | PKR-CGD-000022 item 3; PKR-CGD-000022 item 7 |
-| C-15 (when the north of England and Scotland prune) | Rule 2 or 3 | PKR-CGD-000022 item 4 |
+| C-14 (hard pruning in autumn) | Rule 2 or 3 | PKR-CGD-000022 item 5 |
+| C-15 (when the north of England and Scotland prune) | Rule 2 or 3 | Not routed, at a Founder's direction (8 October 2026), as C-9. |
 | R-1 (where the milder and colder areas divide) | — | Not routed: no line is drawn. Pip says the areas in the sources' own words (standing decision "Frost"). |
 | R-2 (whether the pruning month changes flowering time) | — | Not routed: one nursery's claim, on record only. |
 | R-3 (whether winter spray products are authorised for UK home gardens) | — | Pip gives no winter spray for the United Kingdom and says so as a gap at PKR-CGD-000026 (AF-38). |
 | R-4 (guidance from two further bodies) | — | Not routed: it is about the research. |
 | R-5 (the ROC's own synthesis) | — | Never used (rule 8). |
 
-**Totals.** 26 statements added to six records (26 distinct). 31 of 38 findings routed. 7 not routed: AF-8, AF-24, AF-27, AF-28, AF-29, AF-32, AF-34.
+**Totals.** 24 statements added to six records (24 distinct). 30 of 38 findings routed. 8 not routed: AF-5, AF-8, AF-24, AF-27, AF-28, AF-29, AF-32, AF-34.
 
 ## 2. Fields used
 
 As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace, and Topic and order. Topic: "When to do each job" (`timing`). No statement carries a Limit.
 
-**Shown to.** Every statement in this package is local information and is marked for a place: the United Kingdom (`GB`), or, for the two statements that give one nursery's months, the regions its page names: the Midlands and the south of England (`GB-ENG-EM`, `GB-ENG-WM`, `GB-ENG-EE`, `GB-ENG-LN`, `GB-ENG-SE`, `GB-ENG-SW`) and the north of England and Scotland (`GB-ENG-NE`, `GB-ENG-NW`, `GB-ENG-YH`, `GB-SCT`). The app shows a statement only where the plant is in that place (PKR Standard §5.7; standing decision "Places inside a country"). "The south" and "northern and colder areas" are said in words to everyone in the United Kingdom, because no page draws that line.
+**Shown to.** Every statement in this package is local information and is marked for the United Kingdom (`GB`). The app shows it only where the plant is there (PKR Standard §5.7; standing decision "Places inside a country"). "The south" and "northern and colder areas" are said in words to everyone in the United Kingdom, because no page draws that line. No statement is marked for a smaller place: the one page that names regions for its months is the nursery whose months are not shown.
 
 **This topic is shared by the five countries.** New Zealand's statements were published on 7 October 2026 and Australia's on 8 October 2026. When the research for the United States and Canada is approved, its statements are added to the same six records as further versions, each marked for its place.
 
-**On approval, in each record's common fields:** Applies To becomes "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question"; Supporting Sources gains the Source PKRs listed below; Preserved Uncertainty keeps the New Zealand and Australian text and gains the United Kingdom text below.
+**In each record's common fields at Version 1.2:** Applies To is "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question"; Supporting Sources has the Source PKRs listed below added; Preserved Uncertainty keeps the New Zealand and Australian text and has the United Kingdom text below added.
 
 ## 3. PKR-CGD-000022 — Which months do I prune my rose?
 
@@ -90,13 +90,13 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000022 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I prune my rose? |
-| Status | Version 1.1 Published (New Zealand and Australian statements). These statements: Draft |
-| Version | 0.3 of the United Kingdom statements; the record becomes 1.2 on approval |
+| Status | Published |
+| Version | 1.2 (the United Kingdom statements added; Version 1.1 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United Kingdom; answer to a common question |
-| Supporting Source(s) to add | AF-1: PKR-SRC-000001, PKR-SRC-000095, PKR-SRC-000200, PKR-SRC-000343, PKR-SRC-000345, PKR-SRC-000359, PKR-SRC-000360, PKR-SRC-000361; AF-2: PKR-SRC-000095, PKR-SRC-000361; AF-3: PKR-SRC-000095, PKR-SRC-000361; AF-4: PKR-SRC-000344, PKR-SRC-000351, PKR-SRC-000357, PKR-SRC-000358; AF-5: PKR-SRC-000363; AF-6: PKR-SRC-000364; AF-7: PKR-SRC-000095, PKR-SRC-000344, PKR-SRC-000351, PKR-SRC-000359, PKR-SRC-000360, PKR-SRC-000361, PKR-SRC-000363, PKR-SRC-000364; AF-9: PKR-SRC-000200, PKR-SRC-000351, PKR-SRC-000352, PKR-SRC-000354, PKR-SRC-000359; AF-16: PKR-SRC-000200, PKR-SRC-000352, PKR-SRC-000354 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-1: PKR-SRC-000001, PKR-SRC-000095, PKR-SRC-000200, PKR-SRC-000343, PKR-SRC-000345, PKR-SRC-000359, PKR-SRC-000360, PKR-SRC-000361; AF-2: PKR-SRC-000095, PKR-SRC-000361; AF-3: PKR-SRC-000095, PKR-SRC-000361; AF-4: PKR-SRC-000344, PKR-SRC-000351, PKR-SRC-000357, PKR-SRC-000358; AF-6: PKR-SRC-000364; AF-7: PKR-SRC-000095, PKR-SRC-000344, PKR-SRC-000351, PKR-SRC-000359, PKR-SRC-000360, PKR-SRC-000361, PKR-SRC-000363, PKR-SRC-000364; AF-9: PKR-SRC-000200, PKR-SRC-000351, PKR-SRC-000352, PKR-SRC-000354, PKR-SRC-000359; AF-16: PKR-SRC-000200, PKR-SRC-000352, PKR-SRC-000354 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | Sources differ on the months: February to March, January to February, or a frost-free day from November to March (C-1). One rose grower's own pages changed from February and March (2017) to January and February (2025 and 2026). No source says where 'the south' ends or 'northern and colder areas' begin, and a location cannot tell (AF-27, R-1). One rose nursery's much earlier months, for the Midlands and south counties and for the north of England and Scotland, contradict the RHS and the approved dormancy research (C-9, C-15), and are shown only as the other side of a disagreement, in the regions its page names; its claim that pruning in March delays flowering is not used (R-2, C-12). The signals named differ, and whether 'growth just resuming' and 'before buds swell' are the same moment is not stated (C-2). Most month detail is from commercial sources; no rose society page could be read (R-4). Months for the autumn trim against wind differ from September to November (C-7), and one grower's pages differ on how much to take off (C-10). One grower's advice not to cut back hard in autumn runs against the nursery's November and December (C-14). |
+| Preserved Uncertainty or Limitations added | Sources differ on the months: February to March, January to February, or a frost-free day from November to March (C-1). One rose grower's own pages changed from February and March (2017) to January and February (2025 and 2026). No source says where 'the south' ends or 'northern and colder areas' begin, and a location cannot tell (AF-27, R-1). One rose nursery's much earlier months, for the Midlands and south counties and for the north of England and Scotland, contradict the RHS and the approved dormancy research (C-9, C-15), and are not shown, at a Founder's direction; its claim that pruning in March delays flowering is not used (R-2, C-12). The signals named differ, and whether 'growth just resuming' and 'before buds swell' are the same moment is not stated (C-2). Most month detail is from commercial sources; no rose society page could be read (R-4). Months for the autumn trim against wind differ from September to November (C-7), and one grower's pages differ on how much to take off (C-10). One grower's advice not to cut back hard in autumn runs against the nursery's November and December (C-14). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United Kingdom):** Month windows for the main pruning of a Hybrid Tea, Floribunda or Grandiflora rose in the United Kingdom, by area where sources name one, with the signals sources tie it to
@@ -108,11 +108,9 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 |---|---|---|---|---|
 | 1 | In the UK, the main pruning is done in late winter or early spring, in February or March. Two rose growers say January or February, and one garden company says on a frost-free day between November and March. Months are only a guide, because frosts vary from year to year. | ARC-BUSHROSE-TIMING-UK-01 AF-1; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-1; ARC-BUSHROSE-TIMING-UK-01 AF-4; ARC-BUSHROSE-TIMING-UK-01 AF-6; Pip Knowledge Rules, rule 6 | High confidence | Gardeners in the United Kingdom only |
 | 2 | In the south of the UK, do the main pruning around mid-February. In northern and colder areas, wait until March; one garden company says mid to late March. Months are only a guide, because frosts vary from year to year. | ARC-BUSHROSE-TIMING-UK-01 AF-2; ARC-BUSHROSE-TIMING-UK-01 AF-3; Pip Knowledge Rules, rule 6 | Moderate confidence | Gardeners in the United Kingdom only |
-| 3 | In the UK, do the main pruning in February or March. For the Midlands and the south of England, one rose nursery says November or December instead. Months are only a guide, because frosts vary from year to year. | ARC-BUSHROSE-TIMING-UK-01 AF-1; ARC-BUSHROSE-TIMING-UK-01 AF-5; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-9; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-14; Pip Knowledge Rules, rule 2; Pip Knowledge Rules, rule 6 | Sources disagree | Gardeners in the Midlands and the south of England only |
-| 4 | In northern and colder areas of the UK, wait until March for the main pruning. For the north of England and Scotland, one rose nursery says between January and late February instead. Months are only a guide, because frosts vary from year to year. | ARC-BUSHROSE-TIMING-UK-01 AF-3; ARC-BUSHROSE-TIMING-UK-01 AF-5; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-15; Pip Knowledge Rules, rule 2; Pip Knowledge Rules, rule 6 | Sources disagree | Gardeners in the north of England or in Scotland only |
-| 5 | Prune on a frost-free day, before new growth begins and the buds start to open. One source says to prune when growth is just resuming. | ARC-BUSHROSE-TIMING-UK-01 AF-7; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-2 | Moderate confidence | Gardeners in the United Kingdom only |
-| 6 | Two rose growers say a rose can be trimmed in autumn, between September and November, so that winter wind does not rock or damage it. One of them says this is for tall roses, and that October is too early to cut a rose back hard. Months are only a guide. | ARC-BUSHROSE-TIMING-UK-01 AF-9; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-7; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in the United Kingdom only |
-| 7 | One rose grower says not to cut a rose back hard in autumn, because frost can then damage the cut tips. | ARC-BUSHROSE-TIMING-UK-01 AF-16; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-14; Pip Knowledge Rules, rule 7 | Precaution · Low confidence | Gardeners in the United Kingdom only |
+| 3 | Prune on a frost-free day, before new growth begins and the buds start to open. One source says to prune when growth is just resuming. | ARC-BUSHROSE-TIMING-UK-01 AF-7; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-2 | Moderate confidence | Gardeners in the United Kingdom only |
+| 4 | Two rose growers say a rose can be trimmed in autumn, between September and November, so that winter wind does not rock or damage it. One of them says this is for tall roses, and that October is too early to cut a rose back hard. Months are only a guide. | ARC-BUSHROSE-TIMING-UK-01 AF-9; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-7; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in the United Kingdom only |
+| 5 | One rose grower says not to cut a rose back hard in autumn, because frost can then damage the cut tips. | ARC-BUSHROSE-TIMING-UK-01 AF-16; ARC-BUSHROSE-TIMING-UK-01 §5.1 C-14; Pip Knowledge Rules, rule 7 | Precaution · Low confidence | Gardeners in the United Kingdom only |
 
 All statements are rose-specific.
 
@@ -123,13 +121,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000023 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I start and stop feeding? |
-| Status | Version 1.1 Published (New Zealand and Australian statements). These statements: Draft |
-| Version | 0.3 of the United Kingdom statements; the record becomes 1.2 on approval |
+| Status | Published |
+| Version | 1.2 (the United Kingdom statements added; Version 1.1 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United Kingdom; answer to a common question |
-| Supporting Source(s) to add | AF-10: PKR-SRC-000130, PKR-SRC-000345, PKR-SRC-000346, PKR-SRC-000353, PKR-SRC-000358, PKR-SRC-000360, PKR-SRC-000362; AF-11: PKR-SRC-000130, PKR-SRC-000345, PKR-SRC-000353, PKR-SRC-000360, PKR-SRC-000362; AF-12: PKR-SRC-000352, PKR-SRC-000353; AF-13: PKR-SRC-000353 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-10: PKR-SRC-000130, PKR-SRC-000345, PKR-SRC-000346, PKR-SRC-000353, PKR-SRC-000358, PKR-SRC-000360, PKR-SRC-000362; AF-11: PKR-SRC-000130, PKR-SRC-000345, PKR-SRC-000353, PKR-SRC-000360, PKR-SRC-000362; AF-12: PKR-SRC-000352, PKR-SRC-000353; AF-13: PKR-SRC-000353 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000004 (unchanged) |
-| Preserved Uncertainty or Limitations to add | Months for the first feed run from late February to April, and one rose grower's two pages differ (C-11). Only one rose grower names a last feed, by the end of August; the RHS gives no end date for feeding (C-3). Whether a feed in late August risks soft growth in the north is not known. No source gives different feeding months for different parts of the UK (AF-28). |
+| Preserved Uncertainty or Limitations added | Months for the first feed run from late February to April, and one rose grower's two pages differ (C-11). Only one rose grower names a last feed, by the end of August; the RHS gives no end date for feeding (C-3). Whether a feed in late August risks soft growth in the north is not known. No source gives different feeding months for different parts of the UK (AF-28). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United Kingdom):** Months for the first and last feed of a Hybrid Tea, Floribunda or Grandiflora rose in the United Kingdom
@@ -152,13 +150,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000024 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I stop deadheading? |
-| Status | Version 1.1 Published (New Zealand and Australian statements). These statements: Draft |
-| Version | 0.3 of the United Kingdom statements; the record becomes 1.2 on approval |
+| Status | Published |
+| Version | 1.2 (the United Kingdom statements added; Version 1.1 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United Kingdom; answer to a common question |
-| Supporting Source(s) to add | AF-14: PKR-SRC-000338, PKR-SRC-000351, PKR-SRC-000354, PKR-SRC-000362; AF-15: PKR-SRC-000130, PKR-SRC-000347 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-14: PKR-SRC-000338, PKR-SRC-000351, PKR-SRC-000354, PKR-SRC-000362; AF-15: PKR-SRC-000130, PKR-SRC-000347 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000004 (unchanged) |
-| Preserved Uncertainty or Limitations to add | No UK source located gives a month to stop deadheading (AF-35); the approved general pattern, from US sources, stops in early to mid autumn (C-6). October rests on one rose grower. The two sources on roses grown for hips give different times to stop (C-13), and neither names Hybrid Teas or Floribundas. No UK source located gives a date to stop summer pruning. |
+| Preserved Uncertainty or Limitations added | No UK source located gives a month to stop deadheading (AF-35); the approved general pattern, from US sources, stops in early to mid autumn (C-6). October rests on one rose grower. The two sources on roses grown for hips give different times to stop (C-13), and neither names Hybrid Teas or Floribundas. No UK source located gives a date to stop summer pruning. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United Kingdom):** When deadheading of a Hybrid Tea, Floribunda or Grandiflora rose stops before winter in the United Kingdom, and the summer-pruning cut-off
@@ -181,13 +179,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000025 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I plant or move a rose? |
-| Status | Version 1.1 Published (New Zealand and Australian statements). These statements: Draft |
-| Version | 0.3 of the United Kingdom statements; the record becomes 1.2 on approval |
+| Status | Published |
+| Version | 1.2 (the United Kingdom statements added; Version 1.1 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United Kingdom; answer to a common question |
-| Supporting Source(s) to add | AF-17: PKR-SRC-000130, PKR-SRC-000156, PKR-SRC-000271, PKR-SRC-000345, PKR-SRC-000348, PKR-SRC-000352, PKR-SRC-000356, PKR-SRC-000357, PKR-SRC-000358, PKR-SRC-000362; AF-18: PKR-SRC-000156, PKR-SRC-000357; AF-19: PKR-SRC-000156, PKR-SRC-000349, PKR-SRC-000360, PKR-SRC-000362; AF-20: PKR-SRC-000362; AF-21: PKR-SRC-000269, PKR-SRC-000350, PKR-SRC-000352, PKR-SRC-000358; AF-36: PKR-SRC-000349 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-17: PKR-SRC-000130, PKR-SRC-000156, PKR-SRC-000271, PKR-SRC-000345, PKR-SRC-000348, PKR-SRC-000352, PKR-SRC-000356, PKR-SRC-000357, PKR-SRC-000358, PKR-SRC-000362; AF-18: PKR-SRC-000156, PKR-SRC-000357; AF-19: PKR-SRC-000156, PKR-SRC-000349, PKR-SRC-000360, PKR-SRC-000362; AF-20: PKR-SRC-000362; AF-21: PKR-SRC-000269, PKR-SRC-000350, PKR-SRC-000352, PKR-SRC-000358; AF-36: PKR-SRC-000349 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000016; PKR-CGD-000021 (unchanged) |
-| Preserved Uncertainty or Limitations to add | The whole bare-root range, October to early March, is on one garden company's page; the RHS names seasons only and leaves out the middle of winter, while one rose grower calls December one of the best months (C-4). Months for moving a rose differ (C-5), and the RHS window is for deciduous shrubs in general, not roses. The ideal months for potted roses, and the warning about extreme heat, each rest on one source. |
+| Preserved Uncertainty or Limitations added | The whole bare-root range, October to early March, is on one garden company's page; the RHS names seasons only and leaves out the middle of winter, while one rose grower calls December one of the best months (C-4). Months for moving a rose differ (C-5), and the RHS window is for deciduous shrubs in general, not roses. The ideal months for potted roses, and the warning about extreme heat, each rest on one source. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United Kingdom):** Months for planting bare-root and potted Hybrid Tea, Floribunda and Grandiflora roses, and for moving an established one, in the United Kingdom
@@ -212,13 +210,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000026 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I clear up and spray in winter? |
-| Status | Version 1.1 Published (New Zealand and Australian statements). These statements: Draft |
-| Version | 0.3 of the United Kingdom statements; the record becomes 1.2 on approval |
+| Status | Published |
+| Version | 1.2 (the United Kingdom statements added; Version 1.1 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United Kingdom; answer to a common question |
-| Supporting Source(s) to add | AF-22: PKR-SRC-000239, PKR-SRC-000241, PKR-SRC-000344, PKR-SRC-000345, PKR-SRC-000352, PKR-SRC-000355; AF-23: PKR-SRC-000239; AF-25: PKR-SRC-000355; AF-37: PKR-SRC-000352, PKR-SRC-000354, PKR-SRC-000355, PKR-SRC-000356, PKR-SRC-000358 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-22: PKR-SRC-000239, PKR-SRC-000241, PKR-SRC-000344, PKR-SRC-000345, PKR-SRC-000352, PKR-SRC-000355; AF-23: PKR-SRC-000239; AF-25: PKR-SRC-000355; AF-37: PKR-SRC-000352, PKR-SRC-000354, PKR-SRC-000355, PKR-SRC-000356, PKR-SRC-000358 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000013; PKR-CGD-000006 (unchanged) |
-| Preserved Uncertainty or Limitations to add | Months for clearing leaves come from one rose grower (AF-37); the RHS names autumn only. No UK gardening body or rose society page located describes a winter spray; one company that sells lime sulphur describes one, and whether such a product is authorised for home gardens in the UK is not established, so Pip gives no timing for it (AF-24, R-3). No UK source describes mounding soil over the base for winter (AF-26, C-8), and none says when mulch over exposed roots comes off. |
+| Preserved Uncertainty or Limitations added | Months for clearing leaves come from one rose grower (AF-37); the RHS names autumn only. No UK gardening body or rose society page located describes a winter spray; one company that sells lime sulphur describes one, and whether such a product is authorised for home gardens in the UK is not established, so Pip gives no timing for it (AF-24, R-3). No UK source describes mounding soil over the base for winter (AF-26, C-8), and none says when mulch over exposed roots comes off. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United Kingdom):** Timing of the autumn and winter clear-up, the winter clean-up spray and winter protection for a Hybrid Tea, Floribunda or Grandiflora rose in the United Kingdom
@@ -244,13 +242,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000027 |
 | PKR Type | Care Guidance PKR |
 | Title | How do I allow for frost and my own garden? |
-| Status | Version 1.1 Published (New Zealand and Australian statements). These statements: Draft |
-| Version | 0.3 of the United Kingdom statements; the record becomes 1.2 on approval |
+| Status | Published |
+| Version | 1.2 (the United Kingdom statements added; Version 1.1 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United Kingdom; answer to a common question |
-| Supporting Source(s) to add | AF-30: PKR-SRC-000341, PKR-SRC-000342; AF-31: PKR-SRC-000339, PKR-SRC-000340, PKR-SRC-000341; AF-33: PKR-SRC-000339, PKR-SRC-000341 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-30: PKR-SRC-000341, PKR-SRC-000342; AF-31: PKR-SRC-000339, PKR-SRC-000340, PKR-SRC-000341; AF-33: PKR-SRC-000339, PKR-SRC-000341 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | The frost statements come from the national weather service and the RHS, and are about frost and tender plants, not roses. That the coast has its last frost earlier is confirmed word for word. That sheltered and town gardens are earlier was seen on the pages at the check and not confirmed word for word, so it is left out of the statement. No source says how a gardener tells whether they are in 'the south' or a 'colder area' (AF-32). The RHS's five frost regions are for planting out tender plants; whether they suit rose timing is the research's own question and is not used (AF-29, R-5a). |
+| Preserved Uncertainty or Limitations added | The frost statements come from the national weather service and the RHS, and are about frost and tender plants, not roses. That the coast has its last frost earlier is confirmed word for word. That sheltered and town gardens are earlier was seen on the pages at the check and not confirmed word for word, so it is left out of the statement. No source says how a gardener tells whether they are in 'the south' or a 'colder area' (AF-32). The RHS's five frost regions are for planting out tender plants; whether they suit rose timing is the research's own question and is not used (AF-29, R-5a). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United Kingdom):** How timing varies with place, frost and the garden's own conditions in the United Kingdom, for a Hybrid Tea, Floribunda or Grandiflora rose
@@ -270,24 +268,24 @@ Both statements in this record are about frost and the garden's site, not about 
 - Each sentence is about the plant or what the gardener does. A sentence speaks of the sources only where a rule requires it: "one source says", a disagreement, or a range (ROC Operations Manual §14.3 item 12). No sentence counts sources or says what they "name" or "include".
 - Each statement says the thing itself, in plain words a beginner can act on. No source is named. A single source is identified by its kind where that helps ("one rose grower", "one garden company", "one rose nursery", "the national weather service"), and otherwise as "one source".
 - Every statement that names a month for a job says that months are only a guide (rule 6). Ranges are given where sources differ (rule 3).
-- Where a statement leads with the better-supported view and says who differs (rule 2), it carries the confidence label of the leading finding. "Sources disagree" marks the two statements that set one nursery's earlier months against the rest: each leads with the better-supported months and is shown only in the regions the nursery's page names.
+- Where a statement leads with the better-supported view and says who differs (rule 2), it carries the confidence label of the leading finding. No statement is marked "Sources disagree".
 - "The south" and "northern and colder areas" are said in words to every gardener in the United Kingdom, under the standing decision "Frost": no page draws the line, and Pip does not ask the gardener which they are in.
 - Terms are explained in brackets where a page or an approved record supports the explanation: deadhead, hips, dormant, mulch, bare-root (from `ARC-BUSHROSE-PLANTMOVE-01` AF-1, as already published). "Flush" is said as "round of flowers" and "hard prune" as "cut back hard".
 - No winter spray is given for the United Kingdom. One page describes lime sulphur, from a company that sells it, and whether such products are authorised for home gardens there is not established. Pip says it found no advice from a gardening body or rose society.
 - Pip speaks in the first person. Gaps say "I couldn't find…" and point to a local rose society.
-- Every statement says no more than its finding as corrected in `FRD-BUSHROSE-TIMING-UK-01` §11.
+- Every statement says no more than its finding as corrected in `ARC-BUSHROSE-TIMING-UK-01`.
 
 ## 10. Dependencies
 
-- **Shared records.** These statements are added to PKR-CGD-000022 to PKR-CGD-000027 as version 1.2. The New Zealand and Australian statements in those records do not change. Version 1.1 is retired when 1.2 is published.
+- **Shared records.** These statements were added to PKR-CGD-000022 to PKR-CGD-000027 as version 1.2. The New Zealand and Australian statements in those records do not change. Version 1.1 is retired when 1.2 is published.
 - **No app change.** The questions, the place piece (which already knows the United Kingdom's nations and English regions) and the labels were built with the New Zealand statements. No town is added.
-- **General answers shown to every gardener.** PKR-CGD-000004 says to stop deadheading in early to mid autumn, and PKR-CGD-000006 says to mound soil over the base of the rose for winter. Neither rests on a United Kingdom source, and a UK gardener sees them beside these statements. Whether to mark them for the places their sources speak of is put to the Founder (recorded in `FRD-BUSHROSE-TIMING-UK-01` §11.5).
+- **General answers shown to every gardener.** PKR-CGD-000004 says to stop deadheading in early to mid autumn, and PKR-CGD-000006 says to mound soil over the base of the rose for winter. Neither rests on a United Kingdom source, and a UK gardener sees them beside these statements. Whether to mark them for the places their sources speak of is put to the Founder (recorded in `ARC-BUSHROSE-TIMING-UK-01` §8.1).
 - **The published planting answer** (PKR-CGD-000016) gives UK bare-root planting as late autumn, or late winter to early spring. This package gives October to early March. The two agree; the older one can be brought into line as a follow-up.
 - **Comparison images.** None are needed.
 
 ## 11. Build Check Record
 
-**Part 1, sources (8 October 2026).** All 38 sources (10 websites) reopened; all 103 recorded quotations found on their pages (94 word for word, 9 with small differences). 37 fully support the finding they were recorded against, 63 support part of it and 3 do not support it. The corrections are in `FRD-BUSHROSE-TIMING-UK-01` §11: 28 findings reworded or changed in level, limitations added to 6 more, 4 findings added and 6 conflicts added.
+**Part 1, sources (8 October 2026).** All 38 sources (10 websites) reopened; all 103 recorded quotations found on their pages (94 word for word, 9 with small differences). 37 fully support the finding they were recorded against, 63 support part of it and 3 do not support it. The corrections are in `ARC-BUSHROSE-TIMING-UK-01`: 28 findings reworded or changed in level, limitations added to 6 more, 4 findings added and 6 conflicts added.
 
 **Part 2, wording (8 October 2026).** Checked by a session that took no part in writing the statements.
 
@@ -305,11 +303,13 @@ Versions 0.2 and 0.3 were checked only where they had changed.
 
 **Changed from the checker's notes.** "In the south" now says the south of the UK. The first feed gives the one grower's own words for its earlier date. "Early" is gone from the hips statement, because neither page says it. Bare-root is explained. Leaves still on the plant are picked off "to help against the disease black spot", as the page says. The frost statement about a garden's site is cut back to what was confirmed word for word. Two conflicts were recorded (C-14, C-15).
 
-**Left as they are, from the checker's notes.** Whether one nursery's months should be shown at all is a Founder's decision and is asked with Pip's Answers. The general answers on deadheading and mounding (PKR-CGD-000004, PKR-CGD-000006) are not changed here.
+**Version 0.4, a Founder's decision at approval (8 October 2026).** A Founder approved Pip's answers and directed that information from one rose nursery that disagrees with the Royal Horticultural Society is not included. The two "Sources disagree" statements were removed. No wording changed, so nothing was checked again. The app test below was run before the removal; with it, no statement is marked for a place smaller than the United Kingdom.
+
+**Left as they are, from the checker's notes.** The general answers on deadheading and mounding (PKR-CGD-000004, PKR-CGD-000006) are not changed here.
 
 The results are in `Working/AI Outputs/Build_Check_TIMING-UK_*.json`.
 
-**In the app.** On 8 October 2026, test copies of the six records at version 1.2 were loaded into a local build (never the live LIL) and opened at phone widths for fourteen plants: GPS positions in London, Norwich, Exeter, Manchester, Edinburgh, Cardiff and Belfast; typed locations in Birmingham and York; a typed "United Kingdom" with no region, and a typed "England" with no region, where the app asked which region the rose is in; and plants in Sydney, Dunedin and Toronto. Each saw the statements for its own place and no others: roses in London, Birmingham, Norwich and Exeter saw the nursery's months for the Midlands and the south, roses in Manchester, York and Edinburgh saw those for the north of England and Scotland, and roses in Cardiff and Belfast saw neither. The New Zealand and Australian answers and the earlier Spraying and Planting answers were unchanged. The test copies were removed afterwards. Not checked: the signed-in screens, and a real phone.
+**In the app.** On 8 October 2026, before approval, test copies of the six records at version 1.2 were loaded into a local build (never the live LIL) and opened at phone widths for fourteen plants: GPS positions in London, Norwich, Exeter, Manchester, Edinburgh, Cardiff and Belfast; typed locations in Birmingham and York; a typed "United Kingdom" with no region, and a typed "England" with no region, where the app asked which region the rose is in; and plants in Sydney, Dunedin and Toronto. Each saw the statements for its own place and no others: roses in London, Birmingham, Norwich and Exeter saw the nursery's months for the Midlands and the south, roses in Manchester, York and Edinburgh saw those for the north of England and Scotland, and roses in Cardiff and Belfast saw neither. The New Zealand and Australian answers and the earlier Spraying and Planting answers were unchanged. The test copies were removed afterwards. Not checked: the signed-in screens, and a real phone.
 
 **Sources.** 27 new Source PKRs (PKR-SRC-000338 to PKR-SRC-000364), and 10 existing ones get the new references added. All are listed in the Source PKR package.
 

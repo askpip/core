@@ -1,0 +1,327 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000025",
+  "version": "1.2",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Which months do I plant or move a rose?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000034",
+      "PKR-SRC-000097",
+      "PKR-SRC-000130",
+      "PKR-SRC-000156",
+      "PKR-SRC-000157",
+      "PKR-SRC-000190",
+      "PKR-SRC-000193",
+      "PKR-SRC-000228",
+      "PKR-SRC-000229",
+      "PKR-SRC-000253",
+      "PKR-SRC-000269",
+      "PKR-SRC-000271",
+      "PKR-SRC-000272",
+      "PKR-SRC-000273",
+      "PKR-SRC-000274",
+      "PKR-SRC-000276",
+      "PKR-SRC-000278",
+      "PKR-SRC-000279",
+      "PKR-SRC-000282",
+      "PKR-SRC-000283",
+      "PKR-SRC-000296",
+      "PKR-SRC-000299",
+      "PKR-SRC-000300",
+      "PKR-SRC-000301",
+      "PKR-SRC-000311",
+      "PKR-SRC-000315",
+      "PKR-SRC-000316",
+      "PKR-SRC-000317",
+      "PKR-SRC-000320",
+      "PKR-SRC-000321",
+      "PKR-SRC-000330",
+      "PKR-SRC-000334",
+      "PKR-SRC-000335",
+      "PKR-SRC-000336",
+      "PKR-SRC-000337",
+      "PKR-SRC-000345",
+      "PKR-SRC-000348",
+      "PKR-SRC-000349",
+      "PKR-SRC-000350",
+      "PKR-SRC-000352",
+      "PKR-SRC-000356",
+      "PKR-SRC-000357",
+      "PKR-SRC-000358",
+      "PKR-SRC-000360",
+      "PKR-SRC-000362"
+    ],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000016"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000021"
+      }
+    ],
+    "preserved_uncertainty": "New Zealand: Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies. Australia: The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society. United Kingdom: The whole bare-root range, October to early March, is on one garden company's page; the RHS names seasons only and leaves out the middle of winter, while one rose grower calls December one of the best months (C-4). Months for moving a rose differ (C-5), and the RHS window is for deciduous shrubs in general, not roses. The ideal months for potted roses, and the warning about extreme heat, each rest on one source.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Which months do I plant or move a rose?",
+    "label": null,
+    "items": [
+      {
+        "text": "In New Zealand, winter is the best time to plant a rose, and planting can go on through spring. One garden company says June and July are the best months. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-27",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "New roses for winter planting reach garden centres from June. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-26",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Canterbury, one source says to plant roses in June, July and August, while they are dormant. July and August are its months for bare-root roses, which are sold without soil on their roots. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-CAN"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-42",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-27",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Auckland, one source says roses are best planted in autumn or winter.",
+        "confidence": "Low",
+        "place": [
+          "NZ-AUK"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-28",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-8",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "A rose in a pot can be planted at any time of year. Keep it well watered if you plant in spring or summer.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-29"
+        ]
+      },
+      {
+        "text": "Move an established rose in winter, while it is dormant. One garden centre page says autumn instead.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-30",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-7",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-31"
+        ]
+      },
+      {
+        "text": "For moving a rose, one garden centre says July, after pruning and once the risk of frost has passed. One garden company says June or July. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-43",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Australia, plant a bare-root rose (a dormant plant sold in winter, with no leaves or flowers) in June or July. One source says planting can start in May. Months are only a guide.",
+        "confidence": "High",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-31",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-32",
+          "ARC-BUSHROSE-TIMING-AU-01 C-6",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Move an established rose in winter, while it is dormant.",
+        "confidence": "Moderate",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-34"
+        ]
+      },
+      {
+        "text": "Don't plant a rose in very hot weather.",
+        "confidence": "Moderate",
+        "kind": "precaution",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-33",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In New South Wales, one rose society says to prepare the soil in late April or May, for planting in June or July. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-NSW"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-60",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Sydney, one garden centre says a rose in a pot can be planted at any time of year, though not in very hot weather.",
+        "confidence": "Low",
+        "place": [
+          "AU-NSW:Sydney"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-64",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-33",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "In Victoria, one rose society says to order new roses in May and start planting them in June. It also says to move an established rose in June. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-VIC"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-61",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In South Australia, plant a bare-root rose in June or July. Planting can go on into August. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "AU-SA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-62",
+          "ARC-BUSHROSE-TIMING-AU-01 C-6",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Western Australia, one rose society says to plant new roses in May, and to plant or repot as needed in June and July. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-WA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-63",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In the UK, plant a bare-root rose (one sold without soil on its roots) while it is dormant (not actively growing), between October and early March. Months are only a guide.",
+        "confidence": "High",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-17",
+          "rule 6",
+          "ARC-BUSHROSE-PLANTMOVE-01 AF-1"
+        ]
+      },
+      {
+        "text": "Don't plant a bare-root rose while the ground is frozen. One rose grower says to keep it in a bucket of water or compost until the ground has thawed.",
+        "confidence": "Moderate",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-18",
+          "ARC-BUSHROSE-TIMING-UK-01 C-4"
+        ]
+      },
+      {
+        "text": "A rose in a pot can be planted at any time of year, as long as the ground is not frozen, waterlogged or very dry. One garden company says the ideal months are September to November and March to May. Months are only a guide.",
+        "confidence": "High",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-19",
+          "ARC-BUSHROSE-TIMING-UK-01 AF-20",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "One rose grower says not to plant a potted rose in extreme heat.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-36",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "Move an established rose while it is dormant, between November and February. One source says shrubs that drop their leaves in winter can be moved at any time from late October to mid-March. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-21",
+          "ARC-BUSHROSE-TIMING-UK-01 C-5",
+          "rule 6"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 4
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-UK-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.2: the United Kingdom statements are added after the statements already published, which are unchanged (approved renderings for those: the earlier timing packages in Working/AI Outputs). Version 1.1 retired."
+  }
+}

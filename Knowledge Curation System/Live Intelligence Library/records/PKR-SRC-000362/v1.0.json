@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000362",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Love the Garden (by Miracle-Gro) — \"How to plant and care for roses\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-UK-01, AF-10 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-11 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-14 (Moderate)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-19 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-20 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden products), UK",
+    "identity": "Love the Garden (by Miracle-Gro), \"How to plant and care for roses\", date not shown. Commercial (garden products), UK. https://www.lovethegarden.com/uk-en/growing-guide/how-grow-roses, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:LTG-GG)",
+    "url": "https://www.lovethegarden.com/uk-en/growing-guide/how-grow-roses",
+    "register_code": "TIMING-UK:LTG-GG",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT."
+  }
+}

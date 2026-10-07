@@ -1,0 +1,494 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000022",
+  "version": "1.2",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Which months do I prune my rose?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000001",
+      "PKR-SRC-000034",
+      "PKR-SRC-000066",
+      "PKR-SRC-000067",
+      "PKR-SRC-000068",
+      "PKR-SRC-000095",
+      "PKR-SRC-000097",
+      "PKR-SRC-000157",
+      "PKR-SRC-000158",
+      "PKR-SRC-000190",
+      "PKR-SRC-000193",
+      "PKR-SRC-000194",
+      "PKR-SRC-000196",
+      "PKR-SRC-000200",
+      "PKR-SRC-000228",
+      "PKR-SRC-000229",
+      "PKR-SRC-000253",
+      "PKR-SRC-000273",
+      "PKR-SRC-000278",
+      "PKR-SRC-000279",
+      "PKR-SRC-000282",
+      "PKR-SRC-000295",
+      "PKR-SRC-000296",
+      "PKR-SRC-000297",
+      "PKR-SRC-000300",
+      "PKR-SRC-000301",
+      "PKR-SRC-000302",
+      "PKR-SRC-000308",
+      "PKR-SRC-000311",
+      "PKR-SRC-000312",
+      "PKR-SRC-000314",
+      "PKR-SRC-000315",
+      "PKR-SRC-000316",
+      "PKR-SRC-000317",
+      "PKR-SRC-000321",
+      "PKR-SRC-000323",
+      "PKR-SRC-000324",
+      "PKR-SRC-000326",
+      "PKR-SRC-000327",
+      "PKR-SRC-000334",
+      "PKR-SRC-000336",
+      "PKR-SRC-000337",
+      "PKR-SRC-000343",
+      "PKR-SRC-000344",
+      "PKR-SRC-000345",
+      "PKR-SRC-000351",
+      "PKR-SRC-000352",
+      "PKR-SRC-000354",
+      "PKR-SRC-000357",
+      "PKR-SRC-000358",
+      "PKR-SRC-000359",
+      "PKR-SRC-000360",
+      "PKR-SRC-000361",
+      "PKR-SRC-000363",
+      "PKR-SRC-000364"
+    ],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-SGT-000001"
+      }
+    ],
+    "preserved_uncertainty": "New Zealand: Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts. Australia: Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18). United Kingdom: Sources differ on the months: February to March, January to February, or a frost-free day from November to March (C-1). One rose grower's own pages changed from February and March (2017) to January and February (2025 and 2026). No source says where 'the south' ends or 'northern and colder areas' begin, and a location cannot tell (AF-27, R-1). One rose nursery's much earlier months, for the Midlands and south counties and for the north of England and Scotland, contradict the RHS and the approved dormancy research (C-9, C-15), and are not shown, at a Founder's direction; its claim that pruning in March delays flowering is not used (R-2, C-12). The signals named differ, and whether 'growth just resuming' and 'before buds swell' are the same moment is not stated (C-2). Most month detail is from commercial sources; no rose society page could be read (R-4). Months for the autumn trim against wind differ from September to November (C-7), and one grower's pages differ on how much to take off (C-10). One grower's advice not to cut back hard in autumn runs against the nursery's November and December (C-14).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Which months do I prune my rose?",
+    "label": null,
+    "items": [
+      {
+        "text": "In New Zealand, the main winter pruning is done between June and August, depending on where you live. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-8",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-36",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Prune later where it is colder: the north starts earlier than the south. One garden company says the opposite: that cooler places can prune earlier, once all the leaves have fallen.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-1",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-2",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-17"
+        ]
+      },
+      {
+        "text": "Up north, one source says pruning starts around early July. Another says it can start a little before July. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-N"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-9",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-3",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In the colder parts of the South Island, pruning gets under way in August. In Dunedin, one source prunes in late July. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ-S"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-10",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-10",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-11",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Northland, one garden company says the end of July to early August is a good time to prune. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-NTL"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-40",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-3",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Auckland, one garden service says to prune in July. One garden company says June to July, before the rose bursts into leaf, which can be as early as August in Auckland. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-AUK"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-39",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-3",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Whanganui, one garden centre manager says roses are best pruned in July. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-MWT:Whanganui"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-13",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Masterton, one garden company says to prune in July to August. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-WGN:Masterton"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-13",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Canterbury, one source says pruning can begin towards the end of July in milder parts and be completed there in August. Colder areas may prefer to wait until August, and colder inland districts prune once the worst frosts have passed. It says to finish winter pruning in September. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-CAN"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-12",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-10",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-4",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Christchurch, one garden company says to leave pruning until late winter or early spring, after the last frost.",
+        "confidence": "Low",
+        "place": [
+          "NZ-CAN:Christchurch"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-49",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-4",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "In Dunedin, one source prunes its modern roses in late July, when they are most dormant and the worst frosts are over. In a frosty spot that can mean waiting until mid-August. One garden company says June or July, and August if you are unsure. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-OTA:Dunedin"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-11",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-45",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-10",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Prune in winter, when the rose is dormant and not in active growth. In colder or frosty places, wait until the worst frosts have passed.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-14"
+        ]
+      },
+      {
+        "text": "Don't leave pruning too late: prune before the rose bursts into growth.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-41"
+        ]
+      },
+      {
+        "text": "Don't prune too early, because frost can damage the new growth that follows.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-15"
+        ]
+      },
+      {
+        "text": "Two garden companies differ on a rose that still has its leaves or flowers in June. One says to wait until it is fully dormant, with no leaves left, which may mean pruning in July. The other says a rose can be pruned even if it is still flowering. Months are only a guide.",
+        "kind": "disagreement",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 C-12",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-37",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-46",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In most areas, the main winter pruning is done in July. In some places it can start in June. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "High",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-11",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-13",
+          "ARC-BUSHROSE-TIMING-AU-01 C-2",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In a cold or frosty area, wait until August to prune, so that frost does not damage the new shoots. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "High",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-14",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-16",
+          "ARC-BUSHROSE-TIMING-AU-01 C-3",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In New South Wales, one rose society says to prune in July near the coast, where frosts are rare or never come, and that you can start in late June. Inland, or where frosts are regular, it says to prune in August. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "AU-NSW"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-12",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-46",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Victoria, one rose society says the best time to prune is June or July. In a cold area, it says to wait until August, so that frost does not knock back the new shoots. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "AU-VIC"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-47",
+          "ARC-BUSHROSE-TIMING-AU-01 C-2",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In South Australia, prune in July. One nursery says pruning can start in late June. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Moderate",
+        "place": [
+          "AU-SA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-48",
+          "ARC-BUSHROSE-TIMING-AU-01 C-2",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "For a frost area in South Australia, one rose society says to wait until August to prune, and one nursery says July. Months are only a guide, because frosts vary from year to year.",
+        "kind": "disagreement",
+        "place": [
+          "AU-SA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 C-9",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-48",
+          "ARC-BUSHROSE-TIMING-AU-01 C-3",
+          "rule 2",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Western Australia, one rose society says to prune in winter, in June and July. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-WA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-49",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Brisbane, one public rose garden says the best time to prune is June or July. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-QLD:Brisbane"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-50",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "I couldn't find months for rose jobs written for Tasmania. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "AU-TAS"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-51",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "I couldn't find months for rose jobs written for the Northern Territory. A local garden society or botanic garden is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "AU-NT"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-52",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "I couldn't find months for rose jobs written for Queensland, apart from pruning in Brisbane. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "AU-QLD"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-71",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "I couldn't find months for rose jobs written for the dry inland of Australia, such as Mildura. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "AU-NSW",
+          "AU-VIC",
+          "AU-QLD",
+          "AU-SA",
+          "AU-WA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-45",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "In the UK, the main pruning is done in late winter or early spring, in February or March. Two rose growers say January or February, and one garden company says on a frost-free day between November and March. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "High",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-1",
+          "ARC-BUSHROSE-TIMING-UK-01 C-1",
+          "ARC-BUSHROSE-TIMING-UK-01 AF-4",
+          "ARC-BUSHROSE-TIMING-UK-01 AF-6",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In the south of the UK, do the main pruning around mid-February. In northern and colder areas, wait until March; one garden company says mid to late March. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Moderate",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-2",
+          "ARC-BUSHROSE-TIMING-UK-01 AF-3",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Prune on a frost-free day, before new growth begins and the buds start to open. One source says to prune when growth is just resuming.",
+        "confidence": "Moderate",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-7",
+          "ARC-BUSHROSE-TIMING-UK-01 C-2"
+        ]
+      },
+      {
+        "text": "Two rose growers say a rose can be trimmed in autumn, between September and November, so that winter wind does not rock or damage it. One of them says this is for tall roses, and that October is too early to cut a rose back hard. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-9",
+          "ARC-BUSHROSE-TIMING-UK-01 C-7",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "One rose grower says not to cut a rose back hard in autumn, because frost can then damage the cut tips.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-16",
+          "ARC-BUSHROSE-TIMING-UK-01 C-14",
+          "rule 7"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 1
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-UK-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.2: the United Kingdom statements are added after the statements already published, which are unchanged (approved renderings for those: the earlier timing packages in Working/AI Outputs). Version 1.1 retired."
+  }
+}

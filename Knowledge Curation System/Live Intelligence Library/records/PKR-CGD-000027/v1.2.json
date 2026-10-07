@@ -1,0 +1,182 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000027",
+  "version": "1.2",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "How do I allow for frost and my own garden?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000034",
+      "PKR-SRC-000067",
+      "PKR-SRC-000158",
+      "PKR-SRC-000228",
+      "PKR-SRC-000282",
+      "PKR-SRC-000296",
+      "PKR-SRC-000297",
+      "PKR-SRC-000303",
+      "PKR-SRC-000304",
+      "PKR-SRC-000306",
+      "PKR-SRC-000307",
+      "PKR-SRC-000317",
+      "PKR-SRC-000319",
+      "PKR-SRC-000329",
+      "PKR-SRC-000330",
+      "PKR-SRC-000332",
+      "PKR-SRC-000333",
+      "PKR-SRC-000334",
+      "PKR-SRC-000335",
+      "PKR-SRC-000337",
+      "PKR-SRC-000339",
+      "PKR-SRC-000340",
+      "PKR-SRC-000341",
+      "PKR-SRC-000342"
+    ],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-SGT-000001"
+      }
+    ],
+    "preserved_uncertainty": "New Zealand: The frost statements come from one source, the national climate research institute, and are about climate, not roses. That the garden itself matters is one botanic garden's point. No rose source draws a boundary for its climate bands (AF-3). Whether the institute's 'north of Waikato' matches the 'up north' of rose sources is the ROC's own question and is not used (R-5a). Australia: The frost statements come from one source, the national weather bureau, and are about climate, not roses; a potential frost day is not an observed frost. That conditions vary even between suburbs is one general gardening magazine's point. No rose source defines its cold, frosty or mild areas (AF-5), and the gardening climate zones are not used (AF-1 to AF-3, AF-39). The South Australian and Queensland statements each rest on one society. No source gives advice for an unusually early or late season (AF-44). United Kingdom: The frost statements come from the national weather service and the RHS, and are about frost and tender plants, not roses. That the coast has its last frost earlier is confirmed word for word. That sheltered and town gardens are earlier was seen on the pages at the check and not confirmed word for word, so it is left out of the statement. No source says how a gardener tells whether they are in 'the south' or a 'colder area' (AF-32). The RHS's five frost regions are for planting out tender plants; whether they suit rose timing is the research's own question and is not used (AF-29, R-5a).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "How do I allow for frost and my own garden?",
+    "label": null,
+    "items": [
+      {
+        "text": "When to prune depends on where you live. Go by your own garden too: one source says the right time can differ even within one suburb, and that a frosty spot can mean waiting longer.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-36"
+        ]
+      },
+      {
+        "text": "Frosts are common in the cooler months in most of New Zealand, the national climate institute says. They are rare north of Waikato, less frequent near the coast, and most frequent at inland South Island places such as Alexandra. They can still happen anywhere.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-4",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-5"
+        ]
+      },
+      {
+        "text": "Your garden is more likely to get frost if it is on flat ground where cold air can't drain away, or in a valley or basin, the national climate institute says. Frost can vary widely over a small area.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-6"
+        ]
+      },
+      {
+        "text": "Your local rose society can advise on timing for your own climate.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-38"
+        ]
+      },
+      {
+        "text": "In an area that gets frosts, wait until the last frost has passed before you prune.",
+        "confidence": "Moderate",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-43",
+          "ARC-BUSHROSE-TIMING-AU-01 C-12"
+        ]
+      },
+      {
+        "text": "Large areas of northern Australia are generally free of frost, the national weather bureau says. Days cold enough for frost fall mainly between late autumn and early spring.",
+        "confidence": "Moderate",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-41"
+        ]
+      },
+      {
+        "text": "Frost is local: how severe it is can vary a lot over a very small area, the national weather bureau says. Frost can form in a valley while the land around it stays free of it.",
+        "confidence": "Moderate",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-42"
+        ]
+      },
+      {
+        "text": "In a humid climate, roses are more likely to get fungal diseases, and one source says roses are harder to manage in the hot tropics. Another says to choose a rose that is not prone to these diseases if your climate is humid.",
+        "confidence": "Moderate",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-6"
+        ]
+      },
+      {
+        "text": "In South Australia, one rose society says frosts are common in country areas, and that it is colder and wetter in the Adelaide Hills, the South-East, and Southern Yorke Peninsula and Eyre Peninsula.",
+        "confidence": "Low",
+        "place": [
+          "AU-SA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-69",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "On average, the last frost of spring comes earlier in southern and coastal parts of the UK, often before the end of April, the national weather service says. Further north and on higher ground it often comes well into May, and in a few places in June. Late frosts still happen, so months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-30",
+          "ARC-BUSHROSE-TIMING-UK-01 AF-33",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Frosts go on later in spring on an exposed, rural or high site than near the coast. In a valley, cold air drains downhill and pools overnight, so frost is especially likely there.",
+        "confidence": "Moderate",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-31"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 6
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-UK-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.2: the United Kingdom statements are added after the statements already published, which are unchanged (approved renderings for those: the earlier timing packages in Working/AI Outputs). Version 1.1 retired."
+  }
+}

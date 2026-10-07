@@ -1,0 +1,45 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000156",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — Roses: planting",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora)",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SUCKERS-01, AF-12 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-19 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural or institutional publication",
+    "identity": "Royal Horticultural Society, \"Roses: planting\", RHS Advice, date not shown. Horticultural body, UK.; web address <https://www.rhs.org.uk/plants/roses/planting>, accessed 29 September 2026; register code RHS-PL",
+    "url": "https://www.rhs.org.uk/plants/roses/planting",
+    "register_code": "RHS-PL",
+    "relevance": "Supports AF-12."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.2: MIL references to ARC-BUSHROSE-TIMING-UK-01 added (register code TIMING-UK:RHS-PL). Nothing else changed. Version 1.1 retired."
+  }
+}

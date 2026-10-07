@@ -11,7 +11,7 @@
 | Document Title | Research Commission Record — Month-Level Timing for Bush Rose Care in the United Kingdom |
 | Document Type | Research Commission Record (RCR) — authorised commission |
 | Version | 0.2 |
-| Status | Authorised. Research completed 1 October 2026; dossier submitted for Founder review. |
+| Status | Authorised. Research completed 1 October 2026. Build Check completed 8 October 2026. Pip's Answers approved by a Founder 8 October 2026; `ARC-BUSHROSE-TIMING-UK-01` created and the statements published in PKR-CGD-000022 to PKR-CGD-000027 (Version 1.2). |
 | Owner | The Founders |
 | Prepared By | Claude, acting in the Research Origin Curator (ROC) role, at Shaphan's direction |
 | Date Prepared | 1 October 2026 |
@@ -32,7 +32,7 @@
 | Research Objective | To establish, from reputable sources, the month windows for the main bush rose care tasks in the United Kingdom, for each climate band those sources recognise, and how a gardener can be placed in the right band. |
 | Commission Description | Ask Pip currently gives season-level timing only, derived from the gardener's hemisphere. Month-level timing is required. This commission gathers what sources say about the months for each task in the United Kingdom, how they divide the country by climate, and what local signals (such as frost dates) they tie timing to. |
 | Priority | Second group (with the United States and Canada) (the order proposed in the draft, which the Founder approved with all five drafts on 1 October 2026) |
-| Current Status | Research completed; dossier submitted |
+| Current Status | Complete: approved, archived as `ARC-BUSHROSE-TIMING-UK-01`, published |
 | Related Commissions | `BUSHROSE-TIMING-NZ`, `BUSHROSE-TIMING-CA`, `BUSHROSE-TIMING-AU`, `BUSHROSE-TIMING-US` |
 
 ## 3. Background — the gap

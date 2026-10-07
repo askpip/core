@@ -1,0 +1,249 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000023",
+  "version": "1.2",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "When do I start and stop feeding?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000066",
+      "PKR-SRC-000097",
+      "PKR-SRC-000130",
+      "PKR-SRC-000228",
+      "PKR-SRC-000229",
+      "PKR-SRC-000253",
+      "PKR-SRC-000272",
+      "PKR-SRC-000278",
+      "PKR-SRC-000279",
+      "PKR-SRC-000282",
+      "PKR-SRC-000302",
+      "PKR-SRC-000307",
+      "PKR-SRC-000309",
+      "PKR-SRC-000310",
+      "PKR-SRC-000311",
+      "PKR-SRC-000313",
+      "PKR-SRC-000315",
+      "PKR-SRC-000316",
+      "PKR-SRC-000318",
+      "PKR-SRC-000319",
+      "PKR-SRC-000321",
+      "PKR-SRC-000324",
+      "PKR-SRC-000329",
+      "PKR-SRC-000334",
+      "PKR-SRC-000335",
+      "PKR-SRC-000336",
+      "PKR-SRC-000337",
+      "PKR-SRC-000345",
+      "PKR-SRC-000346",
+      "PKR-SRC-000352",
+      "PKR-SRC-000353",
+      "PKR-SRC-000358",
+      "PKR-SRC-000360",
+      "PKR-SRC-000362"
+    ],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000004"
+      }
+    ],
+    "preserved_uncertainty": "New Zealand: Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2). Australia: Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25). United Kingdom: Months for the first feed run from late February to April, and one rose grower's two pages differ (C-11). Only one rose grower names a last feed, by the end of August; the RHS gives no end date for feeding (C-3). Whether a feed in late August risks soft growth in the north is not known. No source gives different feeding months for different parts of the UK (AF-28).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "When do I start and stop feeding?",
+    "label": null,
+    "items": [
+      {
+        "text": "Start feeding in spring, as new growth appears.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-18"
+        ]
+      },
+      {
+        "text": "In New Zealand, the first feed is usually given in September. It can be as early as late August or as late as mid to late October. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-19",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-6",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In a frosty area, one source says it is better to wait until the last frosts before you feed your roses.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-20",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "Sources disagree on when to stop feeding. One says no later than the end of February, so that the canes (stems) can harden before winter. Others say March or early April, and some feed through autumn. Months are only a guide.",
+        "kind": "disagreement",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 C-5",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-21",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-22",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Start feeding after the winter prune, as new growth appears. One nursery waits until the rose has plenty of leaves and its first blooms.",
+        "confidence": "Moderate",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-20",
+          "ARC-BUSHROSE-TIMING-AU-01 C-4"
+        ]
+      },
+      {
+        "text": "Give the spring feed in the second half of August or in September. Months are only a guide.",
+        "confidence": "High",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-19",
+          "ARC-BUSHROSE-TIMING-AU-01 C-4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Give the last feed in late summer or early autumn, in February or March. One nursery says not to feed in late autumn. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-22",
+          "ARC-BUSHROSE-TIMING-AU-01 C-5",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In New South Wales, one rose society says to give the first feed after the winter prune, ideally in the second half of August, or in September in a cold area. It says to give the last feed in mid to late February. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-NSW"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-53",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-21",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Victoria, one rose society says to feed roses at the end of August. For a newly planted bare-root rose (a dormant plant sold in winter, with no leaves or flowers), it says to wait until late November or early December, and then to feed at half the recommended amount. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-VIC"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-54",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-26",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In South Australia, feed in September and again in February. One rose society says early in September, and in March if you missed February. On sandy soil, it says to feed four times: in September, November, February and April. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "AU-SA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-55",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-23",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Western Australia, one rose society says to feed as new growth appears in early spring, in August or September, and to keep feeding into May. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-WA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-56",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-23",
+          "ARC-BUSHROSE-TIMING-AU-01 C-5",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Give the first feed in spring, in March or April, before the rose flowers. One rose grower says towards the end of February or in early March. Months are only a guide.",
+        "confidence": "High",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-10",
+          "ARC-BUSHROSE-TIMING-UK-01 C-11",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Feed the rose again in mid-summer, after its first round of flowers. One rose grower says in July. Months are only a guide.",
+        "confidence": "High",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-11",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "One rose grower says to give the last feed before the end of August, so that the rose can slow down for winter and frost does not damage new growth. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-13",
+          "ARC-BUSHROSE-TIMING-UK-01 AF-12",
+          "ARC-BUSHROSE-TIMING-UK-01 C-3",
+          "rule 7",
+          "rule 6"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 2
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-UK-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.2: the United Kingdom statements are added after the statements already published, which are unchanged (approved renderings for those: the earlier timing packages in Working/AI Outputs). Version 1.1 retired."
+  }
+}

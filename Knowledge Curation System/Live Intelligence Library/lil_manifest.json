@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 462,
-  "published_count": 388,
+  "record_count": 505,
+  "published_count": 415,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -223,9 +223,17 @@
       "pkr_id": "PKR-CGD-000022",
       "version": "1.1",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Which months do I prune my rose?",
       "sha256": "a1e6f301d16a1b30b106e46b12d512cea590f30674e06aaac7285ec9b46f2b36"
+    },
+    {
+      "pkr_id": "PKR-CGD-000022",
+      "version": "1.2",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Which months do I prune my rose?",
+      "sha256": "31ef75694e9c2b11b14fdf3e74cad9a2866d12cef3184461e653d8e00904c61d"
     },
     {
       "pkr_id": "PKR-CGD-000023",
@@ -239,9 +247,17 @@
       "pkr_id": "PKR-CGD-000023",
       "version": "1.1",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When do I start and stop feeding?",
       "sha256": "b98ffb2710579ae0cd84037cef9a313de0e9ab576fd57f56fbdad427a66e4344"
+    },
+    {
+      "pkr_id": "PKR-CGD-000023",
+      "version": "1.2",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I start and stop feeding?",
+      "sha256": "0042668cf6ed5e6eb4de1b41459ec943c97711e500022326e8e66a74d1b15941"
     },
     {
       "pkr_id": "PKR-CGD-000024",
@@ -255,9 +271,17 @@
       "pkr_id": "PKR-CGD-000024",
       "version": "1.1",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When do I stop deadheading?",
       "sha256": "cbde9fbe7bc2f93e76aa6b95078716d9b4899bdf0d56d28267d7d9b1c97750e2"
+    },
+    {
+      "pkr_id": "PKR-CGD-000024",
+      "version": "1.2",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I stop deadheading?",
+      "sha256": "84c93d0bcd3cb8c447bf4376d4e378ed28ec6d4eed2d3fc97f2ecffc10c6c843"
     },
     {
       "pkr_id": "PKR-CGD-000025",
@@ -271,9 +295,17 @@
       "pkr_id": "PKR-CGD-000025",
       "version": "1.1",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Which months do I plant or move a rose?",
       "sha256": "3dc050f38c4b9ac259f1d0d598ea6e8e20f838a011cd725e619e3cf45ee0198f"
+    },
+    {
+      "pkr_id": "PKR-CGD-000025",
+      "version": "1.2",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Which months do I plant or move a rose?",
+      "sha256": "bb69522be5a18ce0ce3b0e6e0166e3e58f936d0758e42ce1bd2ff9f496f1b90d"
     },
     {
       "pkr_id": "PKR-CGD-000026",
@@ -287,9 +319,17 @@
       "pkr_id": "PKR-CGD-000026",
       "version": "1.1",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When do I clear up and spray in winter?",
       "sha256": "656408cc575e212d748fea8e7635fd312001295c50d64486e0a43e19adf9254f"
+    },
+    {
+      "pkr_id": "PKR-CGD-000026",
+      "version": "1.2",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I clear up and spray in winter?",
+      "sha256": "65a96d05308bbc66d544e7e04aa1c13d19dc09326d7c18eb24ddad047f1d95cf"
     },
     {
       "pkr_id": "PKR-CGD-000027",
@@ -303,9 +343,17 @@
       "pkr_id": "PKR-CGD-000027",
       "version": "1.1",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "How do I allow for frost and my own garden?",
       "sha256": "3cd5f230f0735ae66d436d174cde7155308b5efd70ceea007a04d1fe0db52ec3"
+    },
+    {
+      "pkr_id": "PKR-CGD-000027",
+      "version": "1.2",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "How do I allow for frost and my own garden?",
+      "sha256": "2be9bc5e9f79c38b8896dc212a53b4409ded49e97696b05c7eed209d25ce81c2"
     },
     {
       "pkr_id": "PKR-DEC-000001",
@@ -519,9 +567,17 @@
       "pkr_id": "PKR-SRC-000001",
       "version": "1.5",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "RHS — Rose pruning: general tips",
       "sha256": "c5feb10f52fbe3efc750fe2c29b87132bd58976283f1af7084eb0141f1df8f0d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000001",
+      "version": "1.6",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "RHS — Rose pruning: general tips",
+      "sha256": "e55445f910c66e57e3b772d55749c2a953f23e8964fbdb2ef10ea8c568bb2f4e"
     },
     {
       "pkr_id": "PKR-SRC-000002",
@@ -1423,9 +1479,17 @@
       "pkr_id": "PKR-SRC-000095",
       "version": "1.3",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — Rose Pruning: Floribunda & Hybrid Tea Roses",
       "sha256": "19b870ab2cee0c959552ed8b168f502e7ec31dc2e526e4f0ddf1fb45bf174a34"
+    },
+    {
+      "pkr_id": "PKR-SRC-000095",
+      "version": "1.4",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — Rose Pruning: Floribunda & Hybrid Tea Roses",
+      "sha256": "5b1d7972ea972ea9f8b7cc3108b458d7dabc5da6e94dd9e95a06eb41e12adb6c"
     },
     {
       "pkr_id": "PKR-SRC-000096",
@@ -1775,9 +1839,17 @@
       "pkr_id": "PKR-SRC-000130",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — How to grow roses (Growing Guide)",
       "sha256": "6d1b7a10eef76da8801752ddab3a51fdd68e4d5446994e01f011f2958c2a7d0f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000130",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — How to grow roses (Growing Guide)",
+      "sha256": "debb10285082473583458e671154bff0a11cc6cb43497882d480307da273e44d"
     },
     {
       "pkr_id": "PKR-SRC-000131",
@@ -2047,9 +2119,17 @@
       "pkr_id": "PKR-SRC-000156",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — Roses: planting",
       "sha256": "dbf7f50f744c36d9fc55e9fa4f285a075c9b8ddbddec9f9976cc04c2ecc8bc21"
+    },
+    {
+      "pkr_id": "PKR-SRC-000156",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — Roses: planting",
+      "sha256": "6b33c80e14481e1807dc17ee830aa60e525bca201799092276fcc1dd6f307e4b"
     },
     {
       "pkr_id": "PKR-SRC-000157",
@@ -2479,9 +2559,17 @@
       "pkr_id": "PKR-SRC-000200",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Peter Beales Roses — \"A worry free guide to pruning roses\"",
       "sha256": "8c226792020305a6a9ee0cc5edf91837a7c73e7da644736b260cc6473ecc0c02"
+    },
+    {
+      "pkr_id": "PKR-SRC-000200",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"A worry free guide to pruning roses\"",
+      "sha256": "213d8396e1662a171d7bd29d04972dce5a9060fbc275abc248aa20431f2fb871"
     },
     {
       "pkr_id": "PKR-SRC-000201",
@@ -2823,9 +2911,17 @@
       "pkr_id": "PKR-SRC-000239",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — \"Rose black spot: Symptoms & Control\"",
       "sha256": "1d0f386f3106870e751cfd83f473388e61023a5c8af4d97ff8c32bec731c5b28"
+    },
+    {
+      "pkr_id": "PKR-SRC-000239",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Rose black spot: Symptoms & Control\"",
+      "sha256": "23ac417da6fd925c2f408fd79747403a23d4ce9d6e79c9b44725af640aabd7f6"
     },
     {
       "pkr_id": "PKR-SRC-000240",
@@ -2839,9 +2935,17 @@
       "pkr_id": "PKR-SRC-000241",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — \"Rose rust: Symptoms & Control\"",
       "sha256": "33826ffae3a2974be7c121e6dd93b1d8d98708f87dd810b14e4ba165e95e9079"
+    },
+    {
+      "pkr_id": "PKR-SRC-000241",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Rose rust: Symptoms & Control\"",
+      "sha256": "33b4aad7cb89379207752aa3f576259b4f214ca33861757bbb91800eb8941cfa"
     },
     {
       "pkr_id": "PKR-SRC-000242",
@@ -3071,9 +3175,17 @@
       "pkr_id": "PKR-SRC-000267",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Eutrema (Russell) — \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\"",
       "sha256": "87478813f8367612f3e8c89975f9a7e0a065f252afb089f77e15e7445140d353"
+    },
+    {
+      "pkr_id": "PKR-SRC-000267",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Eutrema (Russell) — \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\"",
+      "sha256": "6c6d4408b797c98799058fded30f146238325eaab0c92ae544f15e392ce71192"
     },
     {
       "pkr_id": "PKR-SRC-000268",
@@ -3087,9 +3199,17 @@
       "pkr_id": "PKR-SRC-000269",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Royal Horticultural Society — \"Moving trees and shrubs\"",
       "sha256": "04288e27d17a01e409496d2b279fdc74719ba57c0495593e9850789626b7142d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000269",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Moving trees and shrubs\"",
+      "sha256": "8c09c011c8a145d120095f18c4befa90230801f6b2e6c9180a1f06d379604bcc"
     },
     {
       "pkr_id": "PKR-SRC-000270",
@@ -3103,9 +3223,17 @@
       "pkr_id": "PKR-SRC-000271",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "David Austin Roses (Megan Edmondson) — \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\"",
       "sha256": "fc7af0cf5ce75e35a893a40695820625747bd585ae3c6b99b152055e0b4fcf39"
+    },
+    {
+      "pkr_id": "PKR-SRC-000271",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\"",
+      "sha256": "60dbba5ee79bdfb05b72c586a3c5111a21e0348ccb41a8300633a10aef29d65b"
     },
     {
       "pkr_id": "PKR-SRC-000272",
@@ -3698,6 +3826,222 @@
       "status": "Published",
       "title": "Flower Power (Jennifer Stackhouse) — \"Rose care for temperate climate gardens: pruning, feeding & pests\"",
       "sha256": "b58cec47a7395abbe0716d1ea88c1b735d45b633054bb57abab34fab50598525"
+    },
+    {
+      "pkr_id": "PKR-SRC-000338",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Deadheading Plants: How and Why\"",
+      "sha256": "afc42280118e6577d94327f153e5e2788fa2ffff15a1da7c8adf0154ec1c9c87"
+    },
+    {
+      "pkr_id": "PKR-SRC-000339",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"When to plant out tender plants – avoiding late frosts\"",
+      "sha256": "174cc7aec53db249fcdbc261db623160a9b257b54a170a4ffbd372334286aa0e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000340",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Royal Horticultural Society — \"Microclimates: assessing your garden\"",
+      "sha256": "e37050dea7042cf5f5345893a70e57a131678f5b0a600718d0de988ed7b0b70c"
+    },
+    {
+      "pkr_id": "PKR-SRC-000341",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Met Office — \"Why frost can still occur in late Spring\"",
+      "sha256": "e3809f52c3637375594acb6b2e8afa0ad8e0f499fb5a09052dc78077d471d510"
+    },
+    {
+      "pkr_id": "PKR-SRC-000342",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Met Office — \"When does Spring start?\"",
+      "sha256": "c555b74d0fd2a82528367f21673b31494f85ad3f725db92df6921dfc80f1b7ba"
+    },
+    {
+      "pkr_id": "PKR-SRC-000343",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Met Office — \"5 gardening tips for March\"",
+      "sha256": "f6bc060f8d62ad0ae9a626700a8879b90f9747ac83ecd4fd5f867258a7e34bcc"
+    },
+    {
+      "pkr_id": "PKR-SRC-000344",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"Pruning Roses: A Guide for the Season Ahead\"",
+      "sha256": "4e4b00010504452dffe224997087949a85a1d1191942266a81807c6d480e7634"
+    },
+    {
+      "pkr_id": "PKR-SRC-000345",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"The Basics of Growing Roses\"",
+      "sha256": "7659d6019e773914092b045ca268f77fd3612bbec0c45b875fa104d2e104d1ce"
+    },
+    {
+      "pkr_id": "PKR-SRC-000346",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"Rose Feeds Explained: Choosing and Using the Right Feed for Your English Roses\"",
+      "sha256": "6036f850800b5a435e40206e593e7ed01b0891f3b7fc1950c2e41d41b3ecc5c2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000347",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"A Masterclass in Deadheading Roses: How to Prolong the Perfect Bloom\"",
+      "sha256": "81cc1df710e1186c538b3fd18912c908ba245b793562337482b0cce1e31fa289"
+    },
+    {
+      "pkr_id": "PKR-SRC-000348",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses — \"Bare Root Roses\"",
+      "sha256": "2d662ac5f9063af81147ec6e7e06bbebb8f18ec60c703b22aab7c8ab93c33107"
+    },
+    {
+      "pkr_id": "PKR-SRC-000349",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"How to Plant a Potted Shrub Rose: Step-by-Step\"",
+      "sha256": "72b42aa73a7b10143460e1b61955cddde4be80eb2c0f31cfb30854359cc1a3c6"
+    },
+    {
+      "pkr_id": "PKR-SRC-000350",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David Austin Roses (Megan Edmondson) — \"Moving a Rose: A Step-by-Step Guide\"",
+      "sha256": "9566bd58d6e7883b556228344f16f51ee816bc738112d73e5e0cbd1202e945f3"
+    },
+    {
+      "pkr_id": "PKR-SRC-000351",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"When and How Should I Prune Hybrid Tea Roses vs. Climbing Roses?\"",
+      "sha256": "52080fc9a7ada70f5d56f6bf85e3cc7518c53b69a7be4e3c6f753a962fd53a79"
+    },
+    {
+      "pkr_id": "PKR-SRC-000352",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"Rose Gardening Calendar\"",
+      "sha256": "c13c12b74eeebe0437fda90d67d59dc966da0f76e8037247b68a8666d29f27cf"
+    },
+    {
+      "pkr_id": "PKR-SRC-000353",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"Rose Feeding Guide\"",
+      "sha256": "a1c014e244a745c53184d66bd9da3cab8c1b19256454e0ced0d70848b0b291c4"
+    },
+    {
+      "pkr_id": "PKR-SRC-000354",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"Caring For Your Roses In October\"",
+      "sha256": "934cef8b998e976579586e1033c056bea2b1599d1f165038c730e04bd3e2cf7d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000355",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"Looking After Your Roses In November\"",
+      "sha256": "a2477ed335bfb3378897aec91b67902b4d0489c520c8979667ffdac75b916da4"
+    },
+    {
+      "pkr_id": "PKR-SRC-000356",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"Caring For Your Roses In December\"",
+      "sha256": "0ca818af8ceecd3a371e39699ddab5113f7dfe624eb90b1acd689aa7814bde40"
+    },
+    {
+      "pkr_id": "PKR-SRC-000357",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"Caring For Your Roses In January\"",
+      "sha256": "bba8ebd8ec94ea211b255ff4db432f01d5afa29d966a763c947ad9bc2d8c9b90"
+    },
+    {
+      "pkr_id": "PKR-SRC-000358",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Peter Beales Roses — \"Caring For Your Roses In February\"",
+      "sha256": "9689d6f837d014d770e7fd0a45929becb9ec2ba9c30360beec1c5594c9826ad4"
+    },
+    {
+      "pkr_id": "PKR-SRC-000359",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Harkness Roses (Harkness Roses (Global) Ltd, operated by You Garden Ltd) — \"Pruning Tips\"",
+      "sha256": "d1be73c77ec5b1a4b84b1355952189df3deba995f60efd43e5358e8b1d85ed2e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000360",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Harkness Roses — \"The Essential Guide To Roses\"",
+      "sha256": "1caec72b27d816ebd9849d1b161a7ec7b1693cb1514d0667bfc4a3832ce9de4b"
+    },
+    {
+      "pkr_id": "PKR-SRC-000361",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Love the Garden (by Miracle-Gro) (Kate Turner, horticulturalist) — \"When and How To Prune Roses\"",
+      "sha256": "bb76b6f1eef29e16e8c2fd235b2d38a6f9890a687fc6af1782473a3080f4bd4c"
+    },
+    {
+      "pkr_id": "PKR-SRC-000362",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Love the Garden (by Miracle-Gro) — \"How to plant and care for roses\"",
+      "sha256": "3f07eafb173b9ac5abb21c9dd81e65a3ed7439973d8e8c4b15c7f8f412211254"
+    },
+    {
+      "pkr_id": "PKR-SRC-000363",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Style Roses — \"Rose Pruning Advice: When & How?\"",
+      "sha256": "299b5329fd9e9cb7cf6e4ec330d5cbe6baa3bb493ee00e8f1749d2f2a4969fdc"
+    },
+    {
+      "pkr_id": "PKR-SRC-000364",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Thompson & Morgan (Mandy Bradshaw) — \"How to prune roses\"",
+      "sha256": "bc71c62020d2b7471457b4a357f230ba9e2cc32b279e61b0c84ef240ec086d40"
     }
   ]
 }

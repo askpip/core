@@ -1,0 +1,49 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000095",
+  "version": "1.4",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — Rose Pruning: Floribunda & Hybrid Tea Roses",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-12 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-13 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
+      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-6 (Moderate) (added v1.3, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.3, 2 October 2026)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate) (added v1.3, 2 October 2026)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-27 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Recognised horticultural publication",
+    "identity": "Royal Horticultural Society, \"Rose Pruning: Floribunda & Hybrid Tea Roses\"; web address <https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide>, accessed 29 September 2026; FRD code RHS-BUSH",
+    "url": "https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide",
+    "register_code": null,
+    "relevance": "Supports AF-1, AF-4, AF-8. Verification: Quote found: \"If the bush is crowded cut out some old shoots completely to keep the centre open.\""
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.4: MIL references to ARC-BUSHROSE-TIMING-UK-01 added (register code TIMING-UK:RHS-MB). Nothing else changed. Version 1.3 retired."
+  }
+}

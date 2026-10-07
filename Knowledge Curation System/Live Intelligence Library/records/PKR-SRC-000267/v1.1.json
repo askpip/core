@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000267",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Eutrema (Russell) — \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SPRAYING-01, AF-28 (Low)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-24 (Very Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden products), UK",
+    "identity": "Eutrema (Russell), \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\", 24 June 2023. Commercial (garden products), UK. https://eutrema.co.uk/controlling-black-spot-on-roses-unleashing-the-power-of-lime-sulphur/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:EUTREMA)",
+    "url": "https://eutrema.co.uk/controlling-black-spot-on-roses-unleashing-the-power-of-lime-sulphur/",
+    "register_code": "SPRAYING:EUTREMA",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-UK-01 added (register code TIMING-UK:EUTREMA). Nothing else changed. Version 1.0 retired."
+  }
+}

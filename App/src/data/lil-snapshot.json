@@ -2168,16 +2168,18 @@
   },
   {
    "pkr_id": "PKR-CGD-000022",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "care_guidance",
    "title": "Which months do I prune my rose?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
     "supporting_sources": [
+     "PKR-SRC-000001",
      "PKR-SRC-000034",
      "PKR-SRC-000066",
      "PKR-SRC-000067",
      "PKR-SRC-000068",
+     "PKR-SRC-000095",
      "PKR-SRC-000097",
      "PKR-SRC-000157",
      "PKR-SRC-000158",
@@ -2185,6 +2187,7 @@
      "PKR-SRC-000193",
      "PKR-SRC-000194",
      "PKR-SRC-000196",
+     "PKR-SRC-000200",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
      "PKR-SRC-000253",
@@ -2212,7 +2215,20 @@
      "PKR-SRC-000327",
      "PKR-SRC-000334",
      "PKR-SRC-000336",
-     "PKR-SRC-000337"
+     "PKR-SRC-000337",
+     "PKR-SRC-000343",
+     "PKR-SRC-000344",
+     "PKR-SRC-000345",
+     "PKR-SRC-000351",
+     "PKR-SRC-000352",
+     "PKR-SRC-000354",
+     "PKR-SRC-000357",
+     "PKR-SRC-000358",
+     "PKR-SRC-000359",
+     "PKR-SRC-000360",
+     "PKR-SRC-000361",
+     "PKR-SRC-000363",
+     "PKR-SRC-000364"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -2221,7 +2237,7 @@
       "pkr_id": "PKR-SGT-000001"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts. Australia: Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18).",
+    "preserved_uncertainty": "New Zealand: Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts. Australia: Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18). United Kingdom: Sources differ on the months: February to March, January to February, or a frost-free day from November to March (C-1). One rose grower's own pages changed from February and March (2017) to January and February (2025 and 2026). No source says where 'the south' ends or 'northern and colder areas' begin, and a location cannot tell (AF-27, R-1). One rose nursery's much earlier months, for the Midlands and south counties and for the north of England and Scotland, contradict the RHS and the approved dormancy research (C-9, C-15), and are not shown, at a Founder's direction; its claim that pruning in March delays flowering is not used (R-2, C-12). The signals named differ, and whether 'growth just resuming' and 'before buds swell' are the same moment is not stated (C-2). Most month detail is from commercial sources; no rose society page could be read (R-4). Months for the autumn trim against wind differ from September to November (C-7), and one grower's pages differ on how much to take off (C-10). One grower's advice not to cut back hard in autumn runs against the nursery's November and December (C-14).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2560,6 +2576,69 @@
        "ARC-BUSHROSE-TIMING-AU-01 AF-45",
        "rule 5"
       ]
+     },
+     {
+      "text": "In the UK, the main pruning is done in late winter or early spring, in February or March. Two rose growers say January or February, and one garden company says on a frost-free day between November and March. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "High",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-1",
+       "ARC-BUSHROSE-TIMING-UK-01 C-1",
+       "ARC-BUSHROSE-TIMING-UK-01 AF-4",
+       "ARC-BUSHROSE-TIMING-UK-01 AF-6",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In the south of the UK, do the main pruning around mid-February. In northern and colder areas, wait until March; one garden company says mid to late March. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Moderate",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-2",
+       "ARC-BUSHROSE-TIMING-UK-01 AF-3",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Prune on a frost-free day, before new growth begins and the buds start to open. One source says to prune when growth is just resuming.",
+      "confidence": "Moderate",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-7",
+       "ARC-BUSHROSE-TIMING-UK-01 C-2"
+      ]
+     },
+     {
+      "text": "Two rose growers say a rose can be trimmed in autumn, between September and November, so that winter wind does not rock or damage it. One of them says this is for tall roses, and that October is too early to cut a rose back hard. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-9",
+       "ARC-BUSHROSE-TIMING-UK-01 C-7",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "One rose grower says not to cut a rose back hard in autumn, because frost can then damage the cut tips.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-16",
+       "ARC-BUSHROSE-TIMING-UK-01 C-14",
+       "rule 7"
+      ]
      }
     ],
     "presentation": {
@@ -2575,14 +2654,15 @@
   },
   {
    "pkr_id": "PKR-CGD-000023",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "care_guidance",
    "title": "When do I start and stop feeding?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000066",
      "PKR-SRC-000097",
+     "PKR-SRC-000130",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
      "PKR-SRC-000253",
@@ -2606,7 +2686,14 @@
      "PKR-SRC-000334",
      "PKR-SRC-000335",
      "PKR-SRC-000336",
-     "PKR-SRC-000337"
+     "PKR-SRC-000337",
+     "PKR-SRC-000345",
+     "PKR-SRC-000346",
+     "PKR-SRC-000352",
+     "PKR-SRC-000353",
+     "PKR-SRC-000358",
+     "PKR-SRC-000360",
+     "PKR-SRC-000362"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -2615,7 +2702,7 @@
       "pkr_id": "PKR-CGD-000004"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2). Australia: Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25).",
+    "preserved_uncertainty": "New Zealand: Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2). Australia: Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25). United Kingdom: Months for the first feed run from late February to April, and one rose grower's two pages differ (C-11). Only one rose grower names a last feed, by the end of August; the RHS gives no end date for feeding (C-3). Whether a feed in late August risks soft growth in the north is not known. No source gives different feeding months for different parts of the UK (AF-28).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2755,6 +2842,44 @@
        "rule 4",
        "rule 6"
       ]
+     },
+     {
+      "text": "Give the first feed in spring, in March or April, before the rose flowers. One rose grower says towards the end of February or in early March. Months are only a guide.",
+      "confidence": "High",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-10",
+       "ARC-BUSHROSE-TIMING-UK-01 C-11",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Feed the rose again in mid-summer, after its first round of flowers. One rose grower says in July. Months are only a guide.",
+      "confidence": "High",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-11",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "One rose grower says to give the last feed before the end of August, so that the rose can slow down for winter and frost does not damage new growth. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-13",
+       "ARC-BUSHROSE-TIMING-UK-01 AF-12",
+       "ARC-BUSHROSE-TIMING-UK-01 C-3",
+       "rule 7",
+       "rule 6"
+      ]
      }
     ],
     "presentation": {
@@ -2770,12 +2895,13 @@
   },
   {
    "pkr_id": "PKR-CGD-000024",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "care_guidance",
    "title": "When do I stop deadheading?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
     "supporting_sources": [
+     "PKR-SRC-000130",
      "PKR-SRC-000193",
      "PKR-SRC-000228",
      "PKR-SRC-000278",
@@ -2785,7 +2911,12 @@
      "PKR-SRC-000318",
      "PKR-SRC-000321",
      "PKR-SRC-000336",
-     "PKR-SRC-000337"
+     "PKR-SRC-000337",
+     "PKR-SRC-000338",
+     "PKR-SRC-000347",
+     "PKR-SRC-000351",
+     "PKR-SRC-000354",
+     "PKR-SRC-000362"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -2794,7 +2925,7 @@
       "pkr_id": "PKR-CGD-000004"
      }
     ],
-    "preserved_uncertainty": "New Zealand: The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25). Australia: No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming.",
+    "preserved_uncertainty": "New Zealand: The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25). Australia: No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming. United Kingdom: No UK source located gives a month to stop deadheading (AF-35); the approved general pattern, from US sources, stops in early to mid autumn (C-6). October rests on one rose grower. The two sources on roses grown for hips give different times to stop (C-13), and neither names Hybrid Teas or Floribundas. No UK source located gives a date to stop summer pruning.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2911,6 +3042,40 @@
        "rule 4",
        "rule 6"
       ]
+     },
+     {
+      "text": "Deadhead (remove the faded flowers) while the rose is in flower, through summer and into autumn. One rose grower says to keep deadheading in October. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-14",
+       "ARC-BUSHROSE-TIMING-UK-01 C-6",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "If your rose is grown for its hips (the rose's fruit), stop deadheading in time for the hips to form. One source says to stop in mid-summer, and one rose grower says after the second round of flowers.",
+      "confidence": "Moderate",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-15",
+       "ARC-BUSHROSE-TIMING-UK-01 C-13"
+      ]
+     },
+     {
+      "text": "For a rose that is not grown for its hips (the rose's fruit), I couldn't find a month to stop deadheading in the UK. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-35",
+       "rule 5"
+      ]
      }
     ],
     "presentation": {
@@ -2926,20 +3091,24 @@
   },
   {
    "pkr_id": "PKR-CGD-000025",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "care_guidance",
    "title": "Which months do I plant or move a rose?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000034",
      "PKR-SRC-000097",
+     "PKR-SRC-000130",
+     "PKR-SRC-000156",
      "PKR-SRC-000157",
      "PKR-SRC-000190",
      "PKR-SRC-000193",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
      "PKR-SRC-000253",
+     "PKR-SRC-000269",
+     "PKR-SRC-000271",
      "PKR-SRC-000272",
      "PKR-SRC-000273",
      "PKR-SRC-000274",
@@ -2962,7 +3131,17 @@
      "PKR-SRC-000334",
      "PKR-SRC-000335",
      "PKR-SRC-000336",
-     "PKR-SRC-000337"
+     "PKR-SRC-000337",
+     "PKR-SRC-000345",
+     "PKR-SRC-000348",
+     "PKR-SRC-000349",
+     "PKR-SRC-000350",
+     "PKR-SRC-000352",
+     "PKR-SRC-000356",
+     "PKR-SRC-000357",
+     "PKR-SRC-000358",
+     "PKR-SRC-000360",
+     "PKR-SRC-000362"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -2975,7 +3154,7 @@
       "pkr_id": "PKR-CGD-000021"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies. Australia: The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society.",
+    "preserved_uncertainty": "New Zealand: Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies. Australia: The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society. United Kingdom: The whole bare-root range, October to early March, is on one garden company's page; the RHS names seasons only and leaves out the middle of winter, while one rose grower calls December one of the best months (C-4). Months for moving a rose differ (C-5), and the RHS window is for deciduous shrubs in general, not roses. The ideal months for potted roses, and the warning about extreme heat, each rest on one source.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -3157,6 +3336,65 @@
        "rule 4",
        "rule 6"
       ]
+     },
+     {
+      "text": "In the UK, plant a bare-root rose (one sold without soil on its roots) while it is dormant (not actively growing), between October and early March. Months are only a guide.",
+      "confidence": "High",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-17",
+       "rule 6",
+       "ARC-BUSHROSE-PLANTMOVE-01 AF-1"
+      ]
+     },
+     {
+      "text": "Don't plant a bare-root rose while the ground is frozen. One rose grower says to keep it in a bucket of water or compost until the ground has thawed.",
+      "confidence": "Moderate",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-18",
+       "ARC-BUSHROSE-TIMING-UK-01 C-4"
+      ]
+     },
+     {
+      "text": "A rose in a pot can be planted at any time of year, as long as the ground is not frozen, waterlogged or very dry. One garden company says the ideal months are September to November and March to May. Months are only a guide.",
+      "confidence": "High",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-19",
+       "ARC-BUSHROSE-TIMING-UK-01 AF-20",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "One rose grower says not to plant a potted rose in extreme heat.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-36",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "Move an established rose while it is dormant, between November and February. One source says shrubs that drop their leaves in winter can be moved at any time from late October to mid-March. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-21",
+       "ARC-BUSHROSE-TIMING-UK-01 C-5",
+       "rule 6"
+      ]
      }
     ],
     "presentation": {
@@ -3172,11 +3410,11 @@
   },
   {
    "pkr_id": "PKR-CGD-000026",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "care_guidance",
    "title": "When do I clear up and spray in winter?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000066",
      "PKR-SRC-000097",
@@ -3186,6 +3424,8 @@
      "PKR-SRC-000196",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
+     "PKR-SRC-000239",
+     "PKR-SRC-000241",
      "PKR-SRC-000253",
      "PKR-SRC-000263",
      "PKR-SRC-000272",
@@ -3210,7 +3450,14 @@
      "PKR-SRC-000329",
      "PKR-SRC-000335",
      "PKR-SRC-000336",
-     "PKR-SRC-000337"
+     "PKR-SRC-000337",
+     "PKR-SRC-000344",
+     "PKR-SRC-000345",
+     "PKR-SRC-000352",
+     "PKR-SRC-000354",
+     "PKR-SRC-000355",
+     "PKR-SRC-000356",
+     "PKR-SRC-000358"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -3223,7 +3470,7 @@
       "pkr_id": "PKR-CGD-000006"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). Australia: The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01).",
+    "preserved_uncertainty": "New Zealand: Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). Australia: The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). United Kingdom: Months for clearing leaves come from one rose grower (AF-37); the RHS names autumn only. No UK gardening body or rose society page located describes a winter spray; one company that sells lime sulphur describes one, and whether such a product is authorised for home gardens in the UK is not established, so Pip gives no timing for it (AF-24, R-3). No UK source describes mounding soil over the base for winter (AF-26, C-8), and none says when mulch over exposed roots comes off.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -3407,6 +3654,73 @@
        "ARC-BUSHROSE-TIMING-AU-01 AF-38",
        "rule 5"
       ]
+     },
+     {
+      "text": "Clear away fallen rose leaves in autumn, so that disease has nowhere to linger. One source says to destroy them, or bury them under a layer of mulch (material spread over the soil).",
+      "confidence": "High",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-22"
+      ]
+     },
+     {
+      "text": "One rose grower says to pick up fallen leaves and cut off diseased leaves in October and November, and to tidy the beds in February, ready for spring. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-37",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "One source says to pick off any leaves still on the rose over the winter months, if practical, and dispose of them, to help against the disease black spot.",
+      "confidence": "Low",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-23",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "One rose grower says to check the base of your rose for exposed roots before the winter weather takes hold, and to build up a layer of mulch around any that show, to protect them from the cold.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-25",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "I couldn't find UK advice from a gardening body or rose society on spraying roses in winter. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-38",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "I couldn't find UK advice on mounding soil over the base of a rose for winter. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-26",
+       "rule 5"
+      ]
      }
     ],
     "presentation": {
@@ -3422,11 +3736,11 @@
   },
   {
    "pkr_id": "PKR-CGD-000027",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "care_guidance",
    "title": "How do I allow for frost and my own garden?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000034",
      "PKR-SRC-000067",
@@ -3447,7 +3761,11 @@
      "PKR-SRC-000333",
      "PKR-SRC-000334",
      "PKR-SRC-000335",
-     "PKR-SRC-000337"
+     "PKR-SRC-000337",
+     "PKR-SRC-000339",
+     "PKR-SRC-000340",
+     "PKR-SRC-000341",
+     "PKR-SRC-000342"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -3456,7 +3774,7 @@
       "pkr_id": "PKR-SGT-000001"
      }
     ],
-    "preserved_uncertainty": "New Zealand: The frost statements come from one source, the national climate research institute, and are about climate, not roses. That the garden itself matters is one botanic garden's point. No rose source draws a boundary for its climate bands (AF-3). Whether the institute's 'north of Waikato' matches the 'up north' of rose sources is the ROC's own question and is not used (R-5a). Australia: The frost statements come from one source, the national weather bureau, and are about climate, not roses; a potential frost day is not an observed frost. That conditions vary even between suburbs is one general gardening magazine's point. No rose source defines its cold, frosty or mild areas (AF-5), and the gardening climate zones are not used (AF-1 to AF-3, AF-39). The South Australian and Queensland statements each rest on one society. No source gives advice for an unusually early or late season (AF-44).",
+    "preserved_uncertainty": "New Zealand: The frost statements come from one source, the national climate research institute, and are about climate, not roses. That the garden itself matters is one botanic garden's point. No rose source draws a boundary for its climate bands (AF-3). Whether the institute's 'north of Waikato' matches the 'up north' of rose sources is the ROC's own question and is not used (R-5a). Australia: The frost statements come from one source, the national weather bureau, and are about climate, not roses; a potential frost day is not an observed frost. That conditions vary even between suburbs is one general gardening magazine's point. No rose source defines its cold, frosty or mild areas (AF-5), and the gardening climate zones are not used (AF-1 to AF-3, AF-39). The South Australian and Queensland statements each rest on one society. No source gives advice for an unusually early or late season (AF-44). United Kingdom: The frost statements come from the national weather service and the RHS, and are about frost and tender plants, not roses. That the coast has its last frost earlier is confirmed word for word. That sheltered and town gardens are earlier was seen on the pages at the check and not confirmed word for word, so it is left out of the statement. No source says how a gardener tells whether they are in 'the south' or a 'colder area' (AF-32). The RHS's five frost regions are for planting out tender plants; whether they suit rose timing is the research's own question and is not used (AF-29, R-5a).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -3554,6 +3872,28 @@
       "trace": [
        "ARC-BUSHROSE-TIMING-AU-01 AF-69",
        "rule 4"
+      ]
+     },
+     {
+      "text": "On average, the last frost of spring comes earlier in southern and coastal parts of the UK, often before the end of April, the national weather service says. Further north and on higher ground it often comes well into May, and in a few places in June. Late frosts still happen, so months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-30",
+       "ARC-BUSHROSE-TIMING-UK-01 AF-33",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Frosts go on later in spring on an exposed, rural or high site than near the coast. In a valley, cold air drains downhill and pools overnight, so frost is especially likely there.",
+      "confidence": "Moderate",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-UK-01 AF-31"
       ]
      }
     ],
@@ -5323,7 +5663,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000001",
-   "version": "1.5",
+   "version": "1.6",
    "pkr_type": "source",
    "title": "RHS — Rose pruning: general tips",
    "common": {
@@ -5343,7 +5683,8 @@
      "ARC-BUSHROSE-DAMAGEDGROWTH-01, AF-11 (High)",
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-38 (Not assigned; see C11)",
      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-19 (Moderate)",
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-8 (Moderate) (added v1.5, 2 October 2026)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-8 (Moderate) (added v1.5, 2 October 2026)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)"
     ]
    },
    "content": {
@@ -7987,7 +8328,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000095",
-   "version": "1.3",
+   "version": "1.4",
    "pkr_type": "source",
    "title": "Royal Horticultural Society — Rose Pruning: Floribunda & Hybrid Tea Roses",
    "common": {
@@ -8010,7 +8351,12 @@
      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-4 (High)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-6 (Moderate) (added v1.3, 2 October 2026)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.3, 2 October 2026)",
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate) (added v1.3, 2 October 2026)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate) (added v1.3, 2 October 2026)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-27 (Moderate)"
     ]
    },
    "content": {
@@ -8944,7 +9290,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000130",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Royal Horticultural Society — How to grow roses (Growing Guide)",
    "common": {
@@ -8956,7 +9302,12 @@
     "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
     "mil_references": [
      "ARC-BUSHROSE-BASICCARE-01, F2 (High)",
-     "ARC-BUSHROSE-BASICCARE-01, F3 (High)"
+     "ARC-BUSHROSE-BASICCARE-01, F3 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-28 (Moderate)"
     ]
    },
    "content": {
@@ -9698,7 +10049,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000156",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "source",
    "title": "Royal Horticultural Society — Roses: planting",
    "common": {
@@ -9719,7 +10070,10 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-19 (High)"
     ]
    },
    "content": {
@@ -10837,7 +11191,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000200",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Peter Beales Roses — \"A worry free guide to pruning roses\"",
    "common": {
@@ -10850,7 +11204,10 @@
     "mil_references": [
      "ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-3 (Low)",
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-16 (Low)"
     ]
    },
    "content": {
@@ -11894,7 +12251,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000239",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Royal Horticultural Society — \"Rose black spot: Symptoms & Control\"",
    "common": {
@@ -11909,7 +12266,9 @@
      "ARC-BUSHROSE-SPRAYING-01, AF-4 (Moderate)",
      "ARC-BUSHROSE-SPRAYING-01, AF-5 (High)",
      "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
-     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)"
+     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-22 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-23 (Low)"
     ]
    },
    "content": {
@@ -11951,7 +12310,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000241",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Royal Horticultural Society — \"Rose rust: Symptoms & Control\"",
    "common": {
@@ -11965,7 +12324,8 @@
      "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
      "ARC-BUSHROSE-SPRAYING-01, AF-5 (High)",
      "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
-     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)"
+     "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-22 (High)"
     ]
    },
    "content": {
@@ -12697,7 +13057,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000267",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Eutrema (Russell) — \"Controlling Black Spot on Roses; unleashing the power of Lime Sulphur\"",
    "common": {
@@ -12709,7 +13069,8 @@
     "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
     "mil_references": [
      "ARC-BUSHROSE-SPRAYING-01, AF-28 (Low)",
-     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)"
+     "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-24 (Very Low)"
     ]
    },
    "content": {
@@ -12749,7 +13110,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000269",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Royal Horticultural Society — \"Moving trees and shrubs\"",
    "common": {
@@ -12763,7 +13124,8 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-34 (Low)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-34 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-21 (Moderate)"
     ]
    },
    "content": {
@@ -12809,7 +13171,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000271",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "David Austin Roses (Megan Edmondson) — \"Planting Bare Root Roses: Step-by-Step for Garden and Pots\"",
    "common": {
@@ -12826,7 +13188,8 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)"
     ]
    },
    "content": {
@@ -14771,6 +15134,710 @@
     "identity": "Flower Power (Jennifer Stackhouse), \"Rose care for temperate climate gardens: pruning, feeding & pests\", September 2021. Commercial (garden centre chain), Sydney. https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:FP)",
     "url": "https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/",
     "register_code": "TIMING-AU:FP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000338",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Royal Horticultural Society — \"Deadheading Plants: How and Why\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-14 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK (general, names roses)",
+    "identity": "Royal Horticultural Society, \"Deadheading Plants: How and Why\", date not shown. Horticultural body, UK (general, names roses). https://www.rhs.org.uk/garden-jobs/deadheading-plants, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:RHS-DH)",
+    "url": "https://www.rhs.org.uk/garden-jobs/deadheading-plants",
+    "register_code": "TIMING-UK:RHS-DH",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000339",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Royal Horticultural Society — \"When to plant out tender plants – avoiding late frosts\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-33 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK (frost guidance, not rose-specific)",
+    "identity": "Royal Horticultural Society, \"When to plant out tender plants – avoiding late frosts\", date not shown. Horticultural body, UK (frost guidance, not rose-specific). https://www.rhs.org.uk/garden-jobs/when-to-plant-out-tender-plants-avoiding-late-frosts, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:RHS-FROST)",
+    "url": "https://www.rhs.org.uk/garden-jobs/when-to-plant-out-tender-plants-avoiding-late-frosts",
+    "register_code": "TIMING-UK:RHS-FROST",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000340",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Royal Horticultural Society — \"Microclimates: assessing your garden\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-31 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural body, UK (not rose-specific)",
+    "identity": "Royal Horticultural Society, \"Microclimates: assessing your garden\", date not shown. Horticultural body, UK (not rose-specific). https://www.rhs.org.uk/garden-design/microclimates-assessing-garden, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:RHS-MICRO)",
+    "url": "https://www.rhs.org.uk/garden-design/microclimates-assessing-garden",
+    "register_code": "TIMING-UK:RHS-MICRO",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000341",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Met Office — \"Why frost can still occur in late Spring\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-34 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "National weather service, UK",
+    "identity": "Met Office, \"Why frost can still occur in late Spring\" (blog), 11 May 2026. National weather service, UK. https://www.metoffice.gov.uk/blog/2026/why-frost-can-still-occur-in-late-spring, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:MO-FROST)",
+    "url": "https://www.metoffice.gov.uk/blog/2026/why-frost-can-still-occur-in-late-spring",
+    "register_code": "TIMING-UK:MO-FROST",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000342",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Met Office — \"When does Spring start?\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-30 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "National weather service, UK",
+    "identity": "Met Office, \"When does Spring start?\" (blog), 23 February 2026. National weather service, UK. https://www.metoffice.gov.uk/blog/2026/when-does-spring-start, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:MO-SPRING)",
+    "url": "https://www.metoffice.gov.uk/blog/2026/when-does-spring-start",
+    "register_code": "TIMING-UK:MO-SPRING",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000343",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Met Office — \"5 gardening tips for March\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "National weather service, UK",
+    "identity": "Met Office, \"5 gardening tips for March\", date not shown. National weather service, UK. https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/your-home/gardening/gardening-tips-for-march, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:MO-MAR)",
+    "url": "https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/your-home/gardening/gardening-tips-for-march",
+    "register_code": "TIMING-UK:MO-MAR",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000344",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "David Austin Roses (Megan Edmondson) — \"Pruning Roses: A Guide for the Season Ahead\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-8 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-22 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK; covers shrub, climbing, standard and potted roses",
+    "identity": "David Austin Roses (Megan Edmondson), \"Pruning Roses: A Guide for the Season Ahead\", 24 January 2026. Commercial (rose breeder and nursery), UK; covers shrub, climbing, standard and potted roses. https://www.davidaustinroses.co.uk/blogs/rose-care/a-guide-to-pruning, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:DA-PR)",
+    "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/a-guide-to-pruning",
+    "register_code": "TIMING-UK:DA-PR",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000345",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "David Austin Roses (Megan Edmondson) — \"The Basics of Growing Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-22 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK",
+    "identity": "David Austin Roses (Megan Edmondson), \"The Basics of Growing Roses\", 6 January 2026. Commercial (rose breeder and nursery), UK. https://www.davidaustinroses.co.uk/blogs/rose-care/the-basics-of-growing-roses, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:DA-BASICS)",
+    "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/the-basics-of-growing-roses",
+    "register_code": "TIMING-UK:DA-BASICS",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000346",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "David Austin Roses (Megan Edmondson) — \"Rose Feeds Explained: Choosing and Using the Right Feed for Your English Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-10 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK",
+    "identity": "David Austin Roses (Megan Edmondson), \"Rose Feeds Explained: Choosing and Using the Right Feed for Your English Roses\", 17 March 2026. Commercial (rose breeder and nursery), UK. https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-feed-a-rose, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:DA-FEED)",
+    "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-feed-a-rose",
+    "register_code": "TIMING-UK:DA-FEED",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000347",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "David Austin Roses (Megan Edmondson) — \"A Masterclass in Deadheading Roses: How to Prolong the Perfect Bloom\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-15 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK",
+    "identity": "David Austin Roses (Megan Edmondson), \"A Masterclass in Deadheading Roses: How to Prolong the Perfect Bloom\", 4 June 2026. Commercial (rose breeder and nursery), UK. https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-deadhead-a-rose, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:DA-DH)",
+    "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-deadhead-a-rose",
+    "register_code": "TIMING-UK:DA-DH",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000348",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "David Austin Roses — \"Bare Root Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK",
+    "identity": "David Austin Roses, \"Bare Root Roses\" (collection page), date not shown. Commercial (rose breeder and nursery), UK. https://www.davidaustinroses.co.uk/collections/bare-root, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:DA-BRC)",
+    "url": "https://www.davidaustinroses.co.uk/collections/bare-root",
+    "register_code": "TIMING-UK:DA-BRC",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000349",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "David Austin Roses (Megan Edmondson) — \"How to Plant a Potted Shrub Rose: Step-by-Step\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-19 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-36 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK",
+    "identity": "David Austin Roses (Megan Edmondson), \"How to Plant a Potted Shrub Rose: Step-by-Step\", 11 June 2026. Commercial (rose breeder and nursery), UK. https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-plant-a-potted-shrub-rose, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:DA-POT)",
+    "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-plant-a-potted-shrub-rose",
+    "register_code": "TIMING-UK:DA-POT",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000350",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "David Austin Roses (Megan Edmondson) — \"Moving a Rose: A Step-by-Step Guide\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-21 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose breeder and nursery), UK",
+    "identity": "David Austin Roses (Megan Edmondson), \"Moving a Rose: A Step-by-Step Guide\", 3 September 2026. Commercial (rose breeder and nursery), UK. https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-move-a-rose, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:DA-MOVE)",
+    "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-move-a-rose",
+    "register_code": "TIMING-UK:DA-MOVE",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000351",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Peter Beales Roses — \"When and How Should I Prune Hybrid Tea Roses vs. Climbing Roses?\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-14 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), UK",
+    "identity": "Peter Beales Roses, \"When and How Should I Prune Hybrid Tea Roses vs. Climbing Roses?\", 11 March 2025. Commercial (rose nursery), UK. https://www.peterbealesroses.com/blog/when-and-how-should-i-prune-hybrid-tea-roses-vs-climbing-roses/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:PB-HT)",
+    "url": "https://www.peterbealesroses.com/blog/when-and-how-should-i-prune-hybrid-tea-roses-vs-climbing-roses/",
+    "register_code": "TIMING-UK:PB-HT",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000352",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Peter Beales Roses — \"Rose Gardening Calendar\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-16 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-22 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-37 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), UK",
+    "identity": "Peter Beales Roses, \"Rose Gardening Calendar\", 16 July 2020. Commercial (rose nursery), UK. https://www.peterbealesroses.com/blog/rose-gardening-calendar/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:PB-CAL)",
+    "url": "https://www.peterbealesroses.com/blog/rose-gardening-calendar/",
+    "register_code": "TIMING-UK:PB-CAL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000353",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Peter Beales Roses — \"Rose Feeding Guide\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-13 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), UK",
+    "identity": "Peter Beales Roses, \"Rose Feeding Guide\" (\"Our Rosarians Guide To Feeding Your Roses\"), date not shown. Commercial (rose nursery), UK. https://www.peterbealesroses.com/feeding-roses-i40, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:PB-FEED)",
+    "url": "https://www.peterbealesroses.com/feeding-roses-i40",
+    "register_code": "TIMING-UK:PB-FEED",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000354",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Peter Beales Roses — \"Caring For Your Roses In October\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-14 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-16 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-37 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), UK",
+    "identity": "Peter Beales Roses, \"Caring For Your Roses In October\", 29 September 2026. Commercial (rose nursery), UK. https://www.peterbealesroses.com/blog/looking-after-your-roses-in-october/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:PB-OCT)",
+    "url": "https://www.peterbealesroses.com/blog/looking-after-your-roses-in-october/",
+    "register_code": "TIMING-UK:PB-OCT",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000355",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Peter Beales Roses — \"Looking After Your Roses In November\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-22 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-25 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-37 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), UK",
+    "identity": "Peter Beales Roses, \"Looking After Your Roses In November\", 31 October 2025. Commercial (rose nursery), UK. https://www.peterbealesroses.com/blog/looking-after-your-roses-in-november/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:PB-NOV)",
+    "url": "https://www.peterbealesroses.com/blog/looking-after-your-roses-in-november/",
+    "register_code": "TIMING-UK:PB-NOV",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000356",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Peter Beales Roses — \"Caring For Your Roses In December\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-37 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), UK",
+    "identity": "Peter Beales Roses, \"Caring For Your Roses In December\", 2 December 2025. Commercial (rose nursery), UK. https://www.peterbealesroses.com/blog/caring-for-your-roses-in-december/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:PB-DEC)",
+    "url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-december/",
+    "register_code": "TIMING-UK:PB-DEC",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000357",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Peter Beales Roses — \"Caring For Your Roses In January\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-18 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), UK",
+    "identity": "Peter Beales Roses, \"Caring For Your Roses In January\", 7 January 2026. Commercial (rose nursery), UK. https://www.peterbealesroses.com/blog/caring-for-your-roses-in-january/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:PB-JAN)",
+    "url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-january/",
+    "register_code": "TIMING-UK:PB-JAN",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000358",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Peter Beales Roses — \"Caring For Your Roses In February\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-37 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), UK",
+    "identity": "Peter Beales Roses, \"Caring For Your Roses In February\", 30 January 2026. Commercial (rose nursery), UK. https://www.peterbealesroses.com/blog/caring-for-your-roses-in-february/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:PB-FEB)",
+    "url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-february/",
+    "register_code": "TIMING-UK:PB-FEB",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000359",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Harkness Roses (Harkness Roses (Global) Ltd, operated by You Garden Ltd) — \"Pruning Tips\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-9 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery brand), UK",
+    "identity": "Harkness Roses (Harkness Roses (Global) Ltd, operated by You Garden Ltd), \"Pruning Tips\", date not shown. Commercial (rose nursery brand), UK. https://www.roses.co.uk/pruning-tips, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:HARK-PT)",
+    "url": "https://www.roses.co.uk/pruning-tips",
+    "register_code": "TIMING-UK:HARK-PT",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000360",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Harkness Roses — \"The Essential Guide To Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-19 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery brand), UK",
+    "identity": "Harkness Roses, \"The Essential Guide To Roses\", date not shown. Commercial (rose nursery brand), UK. https://www.roses.co.uk/the-essential-guide-to-roses, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:HARK-EG)",
+    "url": "https://www.roses.co.uk/the-essential-guide-to-roses",
+    "register_code": "TIMING-UK:HARK-EG",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000361",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Love the Garden (by Miracle-Gro) (Kate Turner, horticulturalist) — \"When and How To Prune Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-32 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden products), UK",
+    "identity": "Love the Garden (by Miracle-Gro) (Kate Turner, horticulturalist), \"When and How To Prune Roses\", date not shown. Commercial (garden products), UK. https://www.lovethegarden.com/uk-en/article/pruning-roses-how-and-when-make-cut, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:LTG-PR)",
+    "url": "https://www.lovethegarden.com/uk-en/article/pruning-roses-how-and-when-make-cut",
+    "register_code": "TIMING-UK:LTG-PR",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000362",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Love the Garden (by Miracle-Gro) — \"How to plant and care for roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-14 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-17 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-19 (High)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-20 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden products), UK",
+    "identity": "Love the Garden (by Miracle-Gro), \"How to plant and care for roses\", date not shown. Commercial (garden products), UK. https://www.lovethegarden.com/uk-en/growing-guide/how-grow-roses, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:LTG-GG)",
+    "url": "https://www.lovethegarden.com/uk-en/growing-guide/how-grow-roses",
+    "register_code": "TIMING-UK:LTG-GG",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000363",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Style Roses — \"Rose Pruning Advice: When & How?\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-5 (Very Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-27 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery, Holbeach, Lincolnshire), UK",
+    "identity": "Style Roses, \"Rose Pruning Advice: When & How?\", 2 September 2021; modified 18 March 2024. Commercial (rose nursery, Holbeach, Lincolnshire), UK. https://styleroses.co.uk/garden-roses-aftercare/tips/rose-pruning-advice/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:STYLE)",
+    "url": "https://styleroses.co.uk/garden-roses-aftercare/tips/rose-pruning-advice/",
+    "register_code": "TIMING-UK:STYLE",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000364",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Thompson & Morgan (Mandy Bradshaw) — \"How to prune roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-UK-01, AF-6 (Low)",
+     "ARC-BUSHROSE-TIMING-UK-01, AF-7 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (seed and plant company), UK",
+    "identity": "Thompson & Morgan (Mandy Bradshaw), \"How to prune roses\", date not shown. Commercial (seed and plant company), UK. https://www.thompson-morgan.com/pruning/roses, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:TM)",
+    "url": "https://www.thompson-morgan.com/pruning/roses",
+    "register_code": "TIMING-UK:TM",
     "relevance": "Supports the findings listed above."
    }
   }

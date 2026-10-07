@@ -1,5 +1,7 @@
 # Pip's Answers — Which Months to Do Each Rose Job in the United Kingdom
 
+> **Approved and published, 8 October 2026, with one change.** A Founder approved these answers in chat ("I approve the UK timing.") and decided that information from one rose nursery that disagrees with the Royal Horticultural Society is not included. The two statements marked "Sources disagree" under the pruning question were removed and are not published; they are marked below. Everything else is published as shown, in PKR-CGD-000022 to PKR-CGD-000027 at Version 1.2, and the research is filed as `ARC-BUSHROSE-TIMING-UK-01`. The Founder also decided that the general advice on deadheading stays for every gardener. This document is kept as the record of what was read and approved.
+
 This is everything Pip would say about which months to prune, feed, deadhead, plant, move and clear up around a rose in the United Kingdom. **You are asked for one thing: approval of these answers.** Approving them also approves the research behind them and lets them be published. Nothing else needs reading.
 
 ## 1. What gardeners will see
@@ -12,8 +14,8 @@ Every statement is shown only for a rose in the United Kingdom. Two are shown on
 
 - In the UK, the main pruning is done in late winter or early spring, in February or March. Two rose growers say January or February, and one garden company says on a frost-free day between November and March. Months are only a guide, because frosts vary from year to year. *[High confidence]*
 - In the south of the UK, do the main pruning around mid-February. In northern and colder areas, wait until March; one garden company says mid to late March. Months are only a guide, because frosts vary from year to year. *[Moderate confidence]*
-- In the UK, do the main pruning in February or March. For the Midlands and the south of England, one rose nursery says November or December instead. Months are only a guide, because frosts vary from year to year. *[Sources disagree]* **Gardeners in the Midlands and the south of England only.**
-- In northern and colder areas of the UK, wait until March for the main pruning. For the north of England and Scotland, one rose nursery says between January and late February instead. Months are only a guide, because frosts vary from year to year. *[Sources disagree]* **Gardeners in the north of England or in Scotland only.**
+- ~~In the UK, do the main pruning in February or March. For the Midlands and the south of England, one rose nursery says November or December instead. Months are only a guide, because frosts vary from year to year.~~ *[Removed at approval. Not published.]* **Gardeners in the Midlands and the south of England only.**
+- ~~In northern and colder areas of the UK, wait until March for the main pruning. For the north of England and Scotland, one rose nursery says between January and late February instead. Months are only a guide, because frosts vary from year to year.~~ *[Removed at approval. Not published.]* **Gardeners in the north of England or in Scotland only.**
 - Prune on a frost-free day, before new growth begins and the buds start to open. One source says to prune when growth is just resuming. *[Moderate confidence]*
 - Two rose growers say a rose can be trimmed in autumn, between September and November, so that winter wind does not rock or damage it. One of them says this is for tall roses, and that October is too early to cut a rose back hard. Months are only a guide. *[Low confidence]*
 - One rose grower says not to cut a rose back hard in autumn, because frost can then damage the cut tips. *[Precaution · Low confidence]*

@@ -1,0 +1,36 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000241",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — \"Rose rust: Symptoms & Control\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SPRAYING-01, AF-2 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-5 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-22 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Horticultural body, UK",
+    "identity": "Royal Horticultural Society, \"Rose rust: Symptoms & Control\", date not shown. Horticultural body, UK. https://www.rhs.org.uk/disease/rose-rust, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:RHS-RUST)",
+    "url": "https://www.rhs.org.uk/disease/rose-rust",
+    "register_code": "SPRAYING:RHS-RUST",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-UK-01 added (register code TIMING-UK:RHS-RUST). Nothing else changed. Version 1.0 retired."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000342",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Met Office — \"When does Spring start?\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-UK-01, AF-30 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "National weather service, UK",
+    "identity": "Met Office, \"When does Spring start?\" (blog), 23 February 2026. National weather service, UK. https://www.metoffice.gov.uk/blog/2026/when-does-spring-start, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:MO-SPRING)",
+    "url": "https://www.metoffice.gov.uk/blog/2026/when-does-spring-start",
+    "register_code": "TIMING-UK:MO-SPRING",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT."
+  }
+}

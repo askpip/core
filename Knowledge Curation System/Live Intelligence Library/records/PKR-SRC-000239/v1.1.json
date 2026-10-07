@@ -1,0 +1,38 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000239",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Royal Horticultural Society — \"Rose black spot: Symptoms & Control\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SPRAYING-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-5 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-15 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-22 (High)",
+      "ARC-BUSHROSE-TIMING-UK-01, AF-23 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Horticultural body, UK",
+    "identity": "Royal Horticultural Society, \"Rose black spot: Symptoms & Control\", date not shown. Horticultural body, UK. https://www.rhs.org.uk/disease/rose-black-spot, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:RHS-BS)",
+    "url": "https://www.rhs.org.uk/disease/rose-black-spot",
+    "register_code": "SPRAYING:RHS-BS",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-UK-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United Kingdom months), with one change directed at approval: one rose nursery's months are not shown. Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-UK-01 added (register code TIMING-UK:RHS-BS). Nothing else changed. Version 1.0 retired."
+  }
+}
