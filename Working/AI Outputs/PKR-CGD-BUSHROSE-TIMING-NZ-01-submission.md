@@ -1,12 +1,12 @@
-# PKR Submission Package — New Zealand Months: Six Question Answers (v0.6, Draft)
+# PKR Submission Package — New Zealand Months: Six Question Answers (v1.0, Published)
 
-**Draft, awaiting a Founder's approval.** Not published. Built by KIT on 6 October 2026 from `FRD-BUSHROSE-TIMING-NZ-01` as corrected by the Build Check (its §11), under the Pip Knowledge Rules. On approval the dossier becomes `ARC-BUSHROSE-TIMING-NZ-01` and these records are published. Sources are in `PKR-SRC-BUSHROSE-TIMING-NZ-submission.md`. IDs reserved: PKR-CGD-000022 to PKR-CGD-000027.
+**Published 7 October 2026.** A Founder approved these answers in chat on 7 October 2026 ("I approve this."), after reading `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-NZ-01_Pips_Answers.md` as rewritten in plain words that day. The one approval covers the research, which is now `ARC-BUSHROSE-TIMING-NZ-01` (v1.0), Pip's words, and publishing. The statements are those in Pip's Answers, unchanged.
 
-What a Founder reads is `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-NZ-01_Pips_Answers.md`.
+Built by KIT on 6 and 7 October 2026 under the Pip Knowledge Rules. Sources are in `PKR-SRC-BUSHROSE-TIMING-NZ-submission.md`. IDs: PKR-CGD-000022 to PKR-CGD-000027 (new, Version 1.0).
 
 ## 1. Triage Record
 
-Every finding, conflict and gap of the dossier is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant?
+Every finding, conflict and gap of the research is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant?
 
 | Item | Use | Routed to |
 |---|---|---|
@@ -94,11 +94,11 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000022 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I prune my rose? |
-| Status | Draft |
-| Version | 0.6 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-1: PKR-SRC-000034, PKR-SRC-000194, PKR-SRC-000228, PKR-SRC-000295, PKR-SRC-000300, PKR-SRC-000301; AF-8: PKR-SRC-000066, PKR-SRC-000067, PKR-SRC-000157, PKR-SRC-000158, PKR-SRC-000190, PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000229, PKR-SRC-000273, PKR-SRC-000311; AF-9: PKR-SRC-000034, PKR-SRC-000228; AF-10: PKR-SRC-000034, PKR-SRC-000194, PKR-SRC-000228, PKR-SRC-000297, PKR-SRC-000300, PKR-SRC-000301; AF-11: PKR-SRC-000295, PKR-SRC-000296, PKR-SRC-000297; AF-12: PKR-SRC-000300, PKR-SRC-000301, PKR-SRC-000302; AF-13: PKR-SRC-000194, PKR-SRC-000308; AF-14: PKR-SRC-000067, PKR-SRC-000228, PKR-SRC-000253, PKR-SRC-000273, PKR-SRC-000295, PKR-SRC-000296, PKR-SRC-000301, PKR-SRC-000308; AF-15: PKR-SRC-000194, PKR-SRC-000228, PKR-SRC-000296, PKR-SRC-000308; AF-17: PKR-SRC-000311; AF-36: PKR-SRC-000034, PKR-SRC-000067, PKR-SRC-000158, PKR-SRC-000228, PKR-SRC-000296, PKR-SRC-000297; AF-37: PKR-SRC-000312; AF-39: PKR-SRC-000194, PKR-SRC-000314; AF-40: PKR-SRC-000194; AF-41: PKR-SRC-000194, PKR-SRC-000273, PKR-SRC-000296; AF-45: PKR-SRC-000194; AF-46: PKR-SRC-000194; AF-49: PKR-SRC-000194 |
-| Founder Approval Date | — |
+| Founder Approval Date | 7 October 2026 |
 | Related PKRs | PKR-SGT-000001 |
 | Preserved Uncertainty or Limitations | Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts. |
 | Evidence Confidence | See per-claim confidence |
@@ -135,11 +135,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000023 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I start and stop feeding? |
-| Status | Draft |
-| Version | 0.6 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-18: PKR-SRC-000228, PKR-SRC-000253, PKR-SRC-000272, PKR-SRC-000302, PKR-SRC-000307, PKR-SRC-000309, PKR-SRC-000313; AF-19: PKR-SRC-000302, PKR-SRC-000307, PKR-SRC-000310, PKR-SRC-000311, PKR-SRC-000313; AF-20: PKR-SRC-000066; AF-21: PKR-SRC-000228, PKR-SRC-000229, PKR-SRC-000307, PKR-SRC-000309, PKR-SRC-000310, PKR-SRC-000311; AF-22: PKR-SRC-000307 |
-| Founder Approval Date | — |
+| Founder Approval Date | 7 October 2026 |
 | Related PKRs | PKR-CGD-000004 |
 | Preserved Uncertainty or Limitations | Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2). |
 | Evidence Confidence | See per-claim confidence |
@@ -165,11 +165,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000024 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I stop deadheading? |
-| Status | Draft |
-| Version | 0.6 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-23: PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000314; AF-24: PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000314 |
-| Founder Approval Date | — |
+| Founder Approval Date | 7 October 2026 |
 | Related PKRs | PKR-CGD-000004 |
 | Preserved Uncertainty or Limitations | The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25). |
 | Evidence Confidence | See per-claim confidence |
@@ -194,11 +194,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000025 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I plant or move a rose? |
-| Status | Draft |
-| Version | 0.6 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-26: PKR-SRC-000157, PKR-SRC-000228, PKR-SRC-000229; AF-27: PKR-SRC-000034, PKR-SRC-000190, PKR-SRC-000229, PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000296, PKR-SRC-000311; AF-28: PKR-SRC-000253; AF-29: PKR-SRC-000034, PKR-SRC-000193, PKR-SRC-000272, PKR-SRC-000273; AF-30: PKR-SRC-000229, PKR-SRC-000274, PKR-SRC-000276, PKR-SRC-000311; AF-31: PKR-SRC-000228; AF-42: PKR-SRC-000299, PKR-SRC-000300, PKR-SRC-000301; AF-43: PKR-SRC-000274, PKR-SRC-000311 |
-| Founder Approval Date | — |
+| Founder Approval Date | 7 October 2026 |
 | Related PKRs | PKR-CGD-000016; PKR-CGD-000021 |
 | Preserved Uncertainty or Limitations | Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies. |
 | Evidence Confidence | See per-claim confidence |
@@ -227,11 +227,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000026 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I clear up and spray in winter? |
-| Status | Draft |
-| Version | 0.6 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-32: PKR-SRC-000066, PKR-SRC-000157, PKR-SRC-000190, PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000253, PKR-SRC-000274, PKR-SRC-000297, PKR-SRC-000298, PKR-SRC-000299, PKR-SRC-000300, PKR-SRC-000308, PKR-SRC-000314; AF-33: PKR-SRC-000066, PKR-SRC-000157, PKR-SRC-000190, PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000229, PKR-SRC-000272, PKR-SRC-000274, PKR-SRC-000295, PKR-SRC-000311, PKR-SRC-000312, PKR-SRC-000313; AF-44: PKR-SRC-000066, PKR-SRC-000313; AF-47: PKR-SRC-000157, PKR-SRC-000229, PKR-SRC-000313; AF-48: PKR-SRC-000298, PKR-SRC-000299, PKR-SRC-000300 |
-| Founder Approval Date | — |
+| Founder Approval Date | 7 October 2026 |
 | Related PKRs | PKR-CGD-000013; PKR-CGD-000006 |
 | Preserved Uncertainty or Limitations | Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). |
 | Evidence Confidence | See per-claim confidence |
@@ -260,11 +260,11 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000027 |
 | PKR Type | Care Guidance PKR |
 | Title | How do I allow for frost and my own garden? |
-| Status | Draft |
-| Version | 0.6 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-4: PKR-SRC-000303, PKR-SRC-000306; AF-5: PKR-SRC-000303, PKR-SRC-000304; AF-6: PKR-SRC-000303, PKR-SRC-000304; AF-36: PKR-SRC-000034, PKR-SRC-000067, PKR-SRC-000158, PKR-SRC-000228, PKR-SRC-000296, PKR-SRC-000297; AF-38: PKR-SRC-000034, PKR-SRC-000307 |
-| Founder Approval Date | — |
+| Founder Approval Date | 7 October 2026 |
 | Related PKRs | PKR-SGT-000001 |
 | Preserved Uncertainty or Limitations | The frost statements come from one source, the national climate research institute, and are about climate, not roses. That the garden itself matters is one botanic garden's point. No rose source draws a boundary for its climate bands (AF-3). Whether the institute's 'north of Waikato' matches the 'up north' of rose sources is the ROC's own question and is not used (R-5a). |
 | Evidence Confidence | See per-claim confidence |
@@ -294,19 +294,19 @@ The frost statements in this record are about climate, from a climate research i
 - Terms are explained once, in the first statement of an answer that uses them: deadhead, hips, canes, bare-root, clean-up spray, summer pruning. "Modern roses" is the Dunedin source's own term and is not explained, because no confirmed page explains it.
 - Spray types are named as the pages name them (lime sulphur, copper, oil). No brand, no mixing amount. Each spray statement sends the gardener to the label (rule 7).
 - Pip speaks in the first person. Gaps say "I couldn't find…" and point to a local rose society.
-- Every statement says no more than its finding as corrected in `FRD-BUSHROSE-TIMING-NZ-01` §11.
+- Every statement says no more than its finding as corrected in `ARC-BUSHROSE-TIMING-NZ-01`.
 
 ## 10. Dependencies
 
-- **Places in the app.** These records are the first to be marked for a region, an island or a town. The app change that works out a plant's region and nearest town on the gardener's own device is delivered with this package (`App/src/lib/place.ts`, `placeGeo.ts`, `usePlantPlace.ts`, `App/src/data/places/`). Without it the app would show none of the statements marked for a place smaller than a country.
-- **The question in the list.** "Which months do I prune my rose?" is added to the app's list of questions (`App/src/data/commonQuestions.ts`). It appears only once these records are Published. For a rose outside New Zealand it says Pip has nothing yet for that place, and records that the gardener asked.
-- **PKR Standard §5.7** describes "Shown to" as a list of countries. It is amended with this package (Version 0.15) to allow a region, an island or a town.
-- **The published Spraying answer** gives two weeks for keeping lime sulphur and copper apart. This package gives two weeks, three weeks and "never mix", each from one source. The Spraying record is to be brought into line (recorded in `FRD-BUSHROSE-TIMING-NZ-01` §11.5).
+- **Places in the app.** These records are the first to be marked for a region, an island or a town. The app change that works out a plant's region and nearest town on the gardener's own device was delivered with the draft package, commit `bdb0c4c` (`App/src/lib/place.ts`, `placeGeo.ts`, `usePlantPlace.ts`, `App/src/data/places/`). Without it the app would show none of the statements marked for a place smaller than a country.
+- **The question in the list.** "Which months do I prune my rose?" is added to the app's list of questions (`App/src/data/commonQuestions.ts`). It appears now that these records are Published. For a rose outside New Zealand it says Pip has nothing yet for that place, and records that the gardener asked.
+- **PKR Standard §5.7** describes "Shown to" as a list of countries. It was amended with the draft package (Version 0.15) to allow a region, an island or a town.
+- **The published Spraying answer** gives two weeks for keeping lime sulphur and copper apart. This package gives two weeks, three weeks and "never mix", each from one source. The Spraying record is to be brought into line (recorded in `ARC-BUSHROSE-TIMING-NZ-01` §8.1).
 - **Comparison images.** None are needed.
 
 ## 11. Build Check Record
 
-**Part 1, sources (6 October 2026).** All 36 sources (20 websites) reopened; all 122 recorded quotations found on their pages (120 word for word, 2 with small differences). 39 fully support the finding they were recorded against and 83 support part of it. 123 further sentences were confirmed. The corrections are in `FRD-BUSHROSE-TIMING-NZ-01` §11: 27 findings reworded or changed in level, limitations added to 8 more, 11 narrower findings added and 3 conflicts added.
+**Part 1, sources (6 October 2026).** All 36 sources (20 websites) reopened; all 122 recorded quotations found on their pages (120 word for word, 2 with small differences). 39 fully support the finding they were recorded against and 83 support part of it. 123 further sentences were confirmed. The corrections are in `ARC-BUSHROSE-TIMING-NZ-01`: 27 findings reworded or changed in level, limitations added to 8 more, 11 narrower findings added and 3 conflicts added.
 
 **Part 2, wording (7 October 2026).** Checked by sessions that took no part in writing the statements.
 
@@ -331,7 +331,7 @@ Version 0.3 changed four statements, each to wording a checker had suggested; th
 
 The results are in `Working/AI Outputs/Build_Check_TIMING-NZ_*.json`.
 
-**In the app.** Test copies of the six draft records were loaded into a local build (never the live LIL) and opened at phone widths for fourteen plants: typed and GPS locations in Auckland, Northland, Wellington, Whanganui, Masterton, Christchurch, Dunedin and Central Otago; a typed "New Zealand" with no region and a GPS position on the Nelson and Tasman border, where the app asked for the region; and plants in Sydney, the United Kingdom, Tokyo and with no plant. Each saw the statements for its own place and no others. The earlier Spraying and Planting answers were unchanged. The test copies were removed afterwards and the app build passes. Not checked: the signed-in screens, and a real phone.
+**In the app.** Before approval, test copies of the six draft records, at version 0.3 of the wording, were loaded into a local build (never the live LIL) and opened at phone widths for fourteen plants: typed and GPS locations in Auckland, Northland, Wellington, Whanganui, Masterton, Christchurch, Dunedin and Central Otago; a typed "New Zealand" with no region and a GPS position on the Nelson and Tasman border, where the app asked for the region; and plants in Sydney, the United Kingdom, Tokyo and with no plant. Each saw the statements for its own place and no others. The earlier Spraying and Planting answers were unchanged. The test copies were removed afterwards and the app build passes. Not checked: the signed-in screens, and a real phone.
 
 **Sources.** 20 new Source PKRs (PKR-SRC-000295 to PKR-SRC-000314), and 15 existing ones get the new references added. All are listed in the Source PKR package.
 

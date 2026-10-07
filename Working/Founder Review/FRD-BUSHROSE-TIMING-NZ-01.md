@@ -7,7 +7,7 @@
 | Dossier Identifier | `FRD-BUSHROSE-TIMING-NZ-01` |
 | Title | Founder Review Dossier — Which Months Should I Do Each Rose Job, Where I Live in New Zealand? |
 | Commission Reference | `BUSHROSE-TIMING-NZ`; Research Commission Record `Working/AI Outputs/Research_Commission_Record_Monthly_Timing_New_Zealand.md` (v0.2, authorised by Shaphan in chat, 1 October 2026) |
-| Status | Approved as research by a Founder on the Review Form, 3 October 2026 (the earlier pattern). **Revised 6 October 2026** after the Build Check: §11 added. Where §11 differs from §1 and §6 to §10, §11 governs. Passed to KIT for the build; what Pip says from it is submitted for approval as Pip's Answers. |
+| Status | **Approved 7 October 2026** through Pip's Answers; the approved record is `ARC-BUSHROSE-TIMING-NZ-01`. Approved as research by a Founder on the Review Form, 3 October 2026 (the earlier pattern). **Revised 6 October 2026** after the Build Check: §11 added. Where §11 differs from §1 and §6 to §10, §11 governs. Passed to KIT for the build; what Pip says from it is submitted for approval as Pip's Answers. |
 | Preparer | Claude, acting in the ROC role |
 | Date | 1 October 2026 |
 | Governing Standards | Founder Review Dossier Standard (FRDS) v1.3; Evidence Assessment Standard (EAS) v1.4; ROC Operations Manual v2.9 |

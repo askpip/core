@@ -1,0 +1,52 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000229",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-1 (High)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-NOFLOWERS-01, AF-19 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-21 (Low)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-26 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-27 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-30 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-34 (Low)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-47 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden centre)",
+    "identity": "Kings Plant Barn, \"Roses - Grow Well Guides\", date not shown. Commercial (garden centre), New Zealand. https://www.kings.co.nz/growing-guides/roses, accessed 1 October 2026 (register code NOFLOWERS:KINGS)",
+    "url": "https://www.kings.co.nz/growing-guides/roses",
+    "register_code": "NOFLOWERS:KINGS",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT. Version 1.2: MIL references to ARC-BUSHROSE-TIMING-NZ-01 added (register code TIMING-NZ:KINGS). Nothing else changed. Version 1.1 retired."
+  }
+}

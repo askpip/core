@@ -1,0 +1,36 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000307",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Hayden Foulds, GrownUps New Zealand — \"Feeding roses\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-19 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-21 (Low)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-22 (Low)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-38 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "General-interest website (rose column), New Zealand",
+    "identity": "Hayden Foulds, GrownUps New Zealand, \"Feeding roses\", 22 September 2017. General-interest website (rose column), New Zealand. https://grownups.co.nz/life/gardening/feeding-roses/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:GU-F)",
+    "url": "https://grownups.co.nz/life/gardening/feeding-roses/",
+    "register_code": "TIMING-NZ:GU-F",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

@@ -11,7 +11,7 @@
 | Document Title | Research Commission Record — Month-Level Timing for Bush Rose Care in New Zealand |
 | Document Type | Research Commission Record (RCR) — authorised commission |
 | Version | 0.2 |
-| Status | Authorised. Research completed 1 October 2026. Findings approved as research by a Founder on 3 October 2026. Build Check run 6 and 7 October 2026 and the dossier corrected (its §11). Pip's Answers submitted for approval 7 October 2026. |
+| Status | Authorised. Research completed 1 October 2026. Findings approved as research by a Founder on 3 October 2026. Build Check run 6 and 7 October 2026 and the dossier corrected (its §11). Pip's Answers approved by a Founder 7 October 2026; `ARC-BUSHROSE-TIMING-NZ-01` created and PKR-CGD-000022 to PKR-CGD-000027 published. |
 | Owner | The Founders |
 | Prepared By | Claude, acting in the Research Origin Curator (ROC) role, at Shaphan's direction |
 | Date Prepared | 1 October 2026 |
@@ -32,7 +32,7 @@
 | Research Objective | To establish, from reputable sources, the month windows for the main bush rose care tasks in New Zealand, for each climate band those sources recognise, and how a gardener can be placed in the right band. |
 | Commission Description | Ask Pip currently gives season-level timing only, derived from the gardener's hemisphere. Month-level timing is required. This commission gathers what sources say about the months for each task in New Zealand, how they divide the country by climate, and what local signals (such as frost dates) they tie timing to. |
 | Priority | First (the order proposed in the draft, which the Founder approved with all five drafts on 1 October 2026) |
-| Current Status | Build Check complete; Pip's Answers submitted for approval |
+| Current Status | Complete: approved, archived as `ARC-BUSHROSE-TIMING-NZ-01`, published |
 | Related Commissions | `BUSHROSE-TIMING-CA`, `BUSHROSE-TIMING-AU`, `BUSHROSE-TIMING-UK`, `BUSHROSE-TIMING-US` |
 
 ## 3. Background — the gap

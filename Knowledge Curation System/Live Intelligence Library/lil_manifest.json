@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 382,
-  "published_count": 339,
+  "record_count": 423,
+  "published_count": 365,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -194,6 +194,54 @@
       "status": "Published",
       "title": "How do I move an established rose?",
       "sha256": "b271acf02e55b57a90abfe410875bbd4bd97d97c8348b5ec08e66cc97ca6c689"
+    },
+    {
+      "pkr_id": "PKR-CGD-000022",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Which months do I prune my rose?",
+      "sha256": "b4cd9263d0fc2b46aa044d8d0849b135177a454a8ea6f6eae9265744d301d1e4"
+    },
+    {
+      "pkr_id": "PKR-CGD-000023",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I start and stop feeding?",
+      "sha256": "483db96c6f3c6af508ca0b5d5759eba70a0b2c46eb3deb89f120ba400a274211"
+    },
+    {
+      "pkr_id": "PKR-CGD-000024",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I stop deadheading?",
+      "sha256": "e6a4f8a5e6dd6cb91ee264cf65d9178f6b7d00b871ea4e1f525c16c18a6b6984"
+    },
+    {
+      "pkr_id": "PKR-CGD-000025",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Which months do I plant or move a rose?",
+      "sha256": "59b92b35e1ba8e28e244da441f2a205234e238cd656f60f6072d64678d092ed2"
+    },
+    {
+      "pkr_id": "PKR-CGD-000026",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I clear up and spray in winter?",
+      "sha256": "7dc3912f3e47def5854ab514f12c963853997b5b28bbcda6cdf2b185742939cf"
+    },
+    {
+      "pkr_id": "PKR-CGD-000027",
+      "version": "1.0",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "How do I allow for frost and my own garden?",
+      "sha256": "d31b14beae98e62be548f29dbb077d90029df38c93cb9d45683f4552d9df5517"
     },
     {
       "pkr_id": "PKR-DEC-000001",
@@ -735,9 +783,17 @@
       "pkr_id": "PKR-SRC-000034",
       "version": "1.3",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The New Zealand Rose Society — FAQ",
       "sha256": "d7208a15b3e6d60836f03c8e0135be3712cabacd7e471508fc4882c74d987a8d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000034",
+      "version": "1.4",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The New Zealand Rose Society — FAQ",
+      "sha256": "647cf30a5b07e407d0bf50640edfeaa124505a0ba9bdb05420f34fa3d6ba2072"
     },
     {
       "pkr_id": "PKR-SRC-000035",
@@ -1007,17 +1063,33 @@
       "pkr_id": "PKR-SRC-000066",
       "version": "1.4",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Yates New Zealand — How to Prune Your Roses",
       "sha256": "fd59ce57fc0b27805dc808d0bd3870374adbdfa403f75d8f3da486109eea0955"
+    },
+    {
+      "pkr_id": "PKR-SRC-000066",
+      "version": "1.5",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Yates New Zealand — How to Prune Your Roses",
+      "sha256": "34a3302a25dcadd9b65dcb907dd47ffc3aef4f433bfeff325cd9ead63c449091"
     },
     {
       "pkr_id": "PKR-SRC-000067",
       "version": "1.3",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "South Pacific Roses — Pruning Your Roses",
       "sha256": "552620d34036ec5616ff57bcdfcc7d58f54d1bd351c2790c08087f1d3f7690ed"
+    },
+    {
+      "pkr_id": "PKR-SRC-000067",
+      "version": "1.4",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "South Pacific Roses — Pruning Your Roses",
+      "sha256": "e0c078d807561008864e3ec2612a7cdd896541851c379a11039cd3d6c8a57b43"
     },
     {
       "pkr_id": "PKR-SRC-000068",
@@ -1919,17 +1991,33 @@
       "pkr_id": "PKR-SRC-000157",
       "version": "1.2",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The New Zealand Rose Society — Winter Rose Care",
       "sha256": "52ddacdbd6461c66acd05eba2fc79445acf7b17ba83d1a0e063e1de484a523e5"
+    },
+    {
+      "pkr_id": "PKR-SRC-000157",
+      "version": "1.3",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The New Zealand Rose Society — Winter Rose Care",
+      "sha256": "4070e2f4f131e7acdeb8d808aa71004e4c05d9d4ba4196fac95721349c7b0d2d"
     },
     {
       "pkr_id": "PKR-SRC-000158",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The New Zealand Rose Society — Free Rose Pruning Demonstrations",
       "sha256": "f26c71d9aae086ba820b91d33585666a96168a732014e7ad25721455a0ba2435"
+    },
+    {
+      "pkr_id": "PKR-SRC-000158",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The New Zealand Rose Society — Free Rose Pruning Demonstrations",
+      "sha256": "b728e47a228569fa029765566c00f427762bae2580a6e82bb450553becbfc275"
     },
     {
       "pkr_id": "PKR-SRC-000159",
@@ -2199,9 +2287,17 @@
       "pkr_id": "PKR-SRC-000190",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Hayden Foulds, GrownUps New Zealand — \"Pruning roses\"",
       "sha256": "e6e8587132e38c9b343078af9aa2825b1b74c0a47fc851aa8438c297031fc857"
+    },
+    {
+      "pkr_id": "PKR-SRC-000190",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Hayden Foulds, GrownUps New Zealand — \"Pruning roses\"",
+      "sha256": "8aedf111711e6ab68444a4872e905efda47444220072b93a7533dd0303cd34e3"
     },
     {
       "pkr_id": "PKR-SRC-000191",
@@ -2223,17 +2319,33 @@
       "pkr_id": "PKR-SRC-000193",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Matthews Nurseries — \"Advice\"",
       "sha256": "8d0116b1f3cc833bf3ceb5cfb27e2f68d63a0158af699777fd1801383e72e783"
+    },
+    {
+      "pkr_id": "PKR-SRC-000193",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Matthews Nurseries — \"Advice\"",
+      "sha256": "2eb2efbaf0916743e071c155691d427d3cfed833395e96cdd6a16a2b8ab9b4f2"
     },
     {
       "pkr_id": "PKR-SRC-000194",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Tui Garden — \"Rose Pruning Guide\"",
       "sha256": "44861d0e3fed3e5b439b308e8fa510b156a2347a4487086ba2c191072b94aa0d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000194",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Tui Garden — \"Rose Pruning Guide\"",
+      "sha256": "3aac77568853885a846bd8031714a76d715224cdff9ae7b41a5d1a350457f618"
     },
     {
       "pkr_id": "PKR-SRC-000195",
@@ -2511,9 +2623,17 @@
       "pkr_id": "PKR-SRC-000228",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Palmers Garden Centre — \"Year Round Rose Care\"",
       "sha256": "30c6948869b54b240effbf2eca6d79a29c738279b3d943ad88492a7f6fdda1c5"
+    },
+    {
+      "pkr_id": "PKR-SRC-000228",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Palmers Garden Centre — \"Year Round Rose Care\"",
+      "sha256": "a06e382128137bbafc259192acd6bb8d9385b7adc5aaaa2dff7e3b1550ea6280"
     },
     {
       "pkr_id": "PKR-SRC-000229",
@@ -2527,9 +2647,17 @@
       "pkr_id": "PKR-SRC-000229",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
       "sha256": "4e833af903d293eeabc0bf0a97224d0f7197595bbbf24a2e1e4e448d9b55491e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000229",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
+      "sha256": "a656fe1d25713046181621d88c8e6ba6b8c22ded67def4d58184b59295d46095"
     },
     {
       "pkr_id": "PKR-SRC-000230",
@@ -2727,9 +2855,17 @@
       "pkr_id": "PKR-SRC-000253",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Auckland Botanic Gardens — \"Roses\"",
       "sha256": "240cc129d769e640bad70d92659e10cec66440ea054e92654c861af0c2b28bee"
+    },
+    {
+      "pkr_id": "PKR-SRC-000253",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Auckland Botanic Gardens — \"Roses\"",
+      "sha256": "48b9d3b2362c6d1472c395085d6e96b00a498a2b19cabadd0c4452041fb10596"
     },
     {
       "pkr_id": "PKR-SRC-000254",
@@ -2879,25 +3015,49 @@
       "pkr_id": "PKR-SRC-000272",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Yates New Zealand — \"How to Grow Glorious Roses\"",
       "sha256": "53326b5a4a70c8d96f6fb863890ca5e60ae48be005bfeeefb7764a4bc112f103"
+    },
+    {
+      "pkr_id": "PKR-SRC-000272",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Yates New Zealand — \"How to Grow Glorious Roses\"",
+      "sha256": "fcd0cd793741d9e33b383268156acc2453ca517827ba54b5783b063da9846435"
     },
     {
       "pkr_id": "PKR-SRC-000273",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Palmers — \"How to Grow Bush Roses\"",
       "sha256": "4b4d672b6553666610833427d046cd9cae8f8ca829c6262958eb21f766ea1952"
+    },
+    {
+      "pkr_id": "PKR-SRC-000273",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Palmers — \"How to Grow Bush Roses\"",
+      "sha256": "77523d596785f04eadc15f1be53948909816b63fcddae0e156459fcb4f6daa57"
     },
     {
       "pkr_id": "PKR-SRC-000274",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Palmers — \"Most Frequently Asked Rose Questions\"",
       "sha256": "177d5067463f49375f771eade013e165bc51665017170d3275cccdd9958b2a79"
+    },
+    {
+      "pkr_id": "PKR-SRC-000274",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Palmers — \"Most Frequently Asked Rose Questions\"",
+      "sha256": "96044bf78045c0152cd847508b27f8538b5d8c303da985773b4dcbdd4d35a4d5"
     },
     {
       "pkr_id": "PKR-SRC-000275",
@@ -2911,9 +3071,17 @@
       "pkr_id": "PKR-SRC-000276",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Tui Garden — \"What is the best way to shift my rose?\"",
       "sha256": "72538077b50f36bf733e5de83cecaf3ce1b0bee203c1f853718147bad8ce9f35"
+    },
+    {
+      "pkr_id": "PKR-SRC-000276",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Tui Garden — \"What is the best way to shift my rose?\"",
+      "sha256": "ead927f1ab035b32f773a983e4e3acee65eacea477cf0d9652d3683ffed7b1db"
     },
     {
       "pkr_id": "PKR-SRC-000277",
@@ -3058,6 +3226,166 @@
       "status": "Published",
       "title": "Heirloom Roses (Robin Jennings) — \"How To Transplant or Move a Rose Bush\"",
       "sha256": "e03522cbdac92b3140a116d323353574d1ff1b928d0af0aa43fa026216742bf9"
+    },
+    {
+      "pkr_id": "PKR-SRC-000295",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Dunedin Botanic Garden (Linda Hellyer) — \"Practical Tips for Rose Pruning\"",
+      "sha256": "f5292a83b87c6156da95b82ec31d91f6a0b00c35a32822cfbc6d78c8b46fcdbb"
+    },
+    {
+      "pkr_id": "PKR-SRC-000296",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Dunedin Botanic Garden (Linda Hellyer) — \"Summer Flower Needs Winter Maintenance\"",
+      "sha256": "03fef63fb655fea92183ea81611b420fd3f52ce08dc0497e2f29f03389afe00c"
+    },
+    {
+      "pkr_id": "PKR-SRC-000297",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Otago Daily Times, Garden Life (produced by Dunedin Botanic Garden) — \"Rose pruning can be easy\"",
+      "sha256": "73816ea002ac8ac1ce58b67716de5177344bbb097fc126b9434bb547649ff7b8"
+    },
+    {
+      "pkr_id": "PKR-SRC-000298",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Canterbury Horticultural Society — \"May in the Garden\"",
+      "sha256": "5c72d5943fd43d890dbabc93ae5b9678e4b47a6bf93a251727e4f7201f72a533"
+    },
+    {
+      "pkr_id": "PKR-SRC-000299",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Canterbury Horticultural Society — \"June in the Garden\"",
+      "sha256": "c75457c4fdd5548c4806d0226086990f40464e522c19e47f91cf1f25aba00276"
+    },
+    {
+      "pkr_id": "PKR-SRC-000300",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Canterbury Horticultural Society — \"July in the Garden\"",
+      "sha256": "cd3c95f08113c709fd3d0276a07634be0eca134036ab137011156bcb709de4df"
+    },
+    {
+      "pkr_id": "PKR-SRC-000301",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Canterbury Horticultural Society — \"August in the Garden\"",
+      "sha256": "4fef960fefbf4034fc0dd3da2f670a04c17a124bd6bd6057600e281f7873b04f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000302",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Canterbury Horticultural Society — \"September in the Garden\"",
+      "sha256": "98e768b228a10f26df930c42cc282a0593c858497c220008b2ae08e7b345db00"
+    },
+    {
+      "pkr_id": "PKR-SRC-000303",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "NIWA (G. R. Macara) — \"The Climate and Weather of New Zealand\"",
+      "sha256": "f7cb1f6ac4b76aec5db1924fa651d54a3cf2ada2dd2503ef3c9a9bb8b93d2007"
+    },
+    {
+      "pkr_id": "PKR-SRC-000304",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "NIWA (G. R. Macara) — \"The Climate and Weather of Otago\"",
+      "sha256": "6851fc7351baffbf64982d9bfad0b099721053c67a2b287b86330d686af1ea02"
+    },
+    {
+      "pkr_id": "PKR-SRC-000305",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "NIWA — \"Overview of New Zealand's climate\"",
+      "sha256": "0b1ddb6bddca89f952e1add93fd7a35c3cc9817c2ee8357c297545289beb2ef3"
+    },
+    {
+      "pkr_id": "PKR-SRC-000306",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Figure.NZ — \"Annual days of ground frost across selected New Zealand locations\"",
+      "sha256": "ac96f9159090609a783601d3a6e75cebefac247a76f2fec624fa23b39572c2da"
+    },
+    {
+      "pkr_id": "PKR-SRC-000307",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Hayden Foulds, GrownUps New Zealand — \"Feeding roses\"",
+      "sha256": "d3e6d9debf840c21e11a2f46f8d9bc71f116a20413bad885984fcb8348158872"
+    },
+    {
+      "pkr_id": "PKR-SRC-000308",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Gareth Carter (general manager, Springvale Garden Centre), Whanganui Chronicle via NZ Herald — \"Pruning deciduous fruit trees and roses\"",
+      "sha256": "7990b8e3c7b1d0b4a06ff45855524fbda05f8edd5c21a0c6e334ee8b00133e4c"
+    },
+    {
+      "pkr_id": "PKR-SRC-000309",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Tui Garden — \"How often do I feed my roses?\"",
+      "sha256": "e7f0a603ef1e3c217fb12c4b1cf954f590b03302168138f117a1629f0fdd7e71"
+    },
+    {
+      "pkr_id": "PKR-SRC-000310",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "South Pacific Roses — \"Feeding & Watering Roses\"",
+      "sha256": "b920636d67bdd742e2f249da77cf72b4644ae2dc4133493db19a92e62840e60d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000311",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Daltons — \"How to Grow Roses Guide\"",
+      "sha256": "f925691cd58408ae1ff553dccac792d2c82c96a416ca91e78fd7c50c557d5879"
+    },
+    {
+      "pkr_id": "PKR-SRC-000312",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Daltons, question and answer on winter pruning of roses",
+      "sha256": "a1ba75068afce5633aa37d4575a40ef3987ae41da539f2e650d23e342333b4f4"
+    },
+    {
+      "pkr_id": "PKR-SRC-000313",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Oderings Garden Centres — \"Roses: A Year-Round Guide\"",
+      "sha256": "ec4068471907ea7d0715d05f667cea427f506a5ac2de06bb2c14cff33e74f9b0"
+    },
+    {
+      "pkr_id": "PKR-SRC-000314",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Garden Fairies — \"Autumn rose care for Auckland's climate\"",
+      "sha256": "f984e574e97d43582a04b5b848d08e7e41770e5ba74a220e4d137ad49265c2cc"
     }
   ]
 }

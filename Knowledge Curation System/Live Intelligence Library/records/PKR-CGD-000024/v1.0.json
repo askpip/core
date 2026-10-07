@@ -1,0 +1,85 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000024",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "When do I stop deadheading?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000193",
+      "PKR-SRC-000228",
+      "PKR-SRC-000314"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000004"
+      }
+    ],
+    "preserved_uncertainty": "The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "When do I stop deadheading?",
+    "label": null,
+    "items": [
+      {
+        "text": "Deadhead (remove the faded flowers) while the rose is flowering. Two garden companies say when to stop: one at the end of February, and one at the end of March, leaving the last flowers so that hips (the rose's fruit) can form. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-23",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-24",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-9",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Auckland, one garden service says to stop deadheading from March, so that the rose can form hips and rest before winter. Another Auckland source says to keep removing dead flowers all through the flowering season. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-AUK"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-23",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-24",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-9",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "I couldn't find when to stop summer pruning (a light prune in summer to encourage more flowers) in New Zealand. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-25",
+          "rule 5"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 3
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-NZ-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000306",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Figure.NZ — \"Annual days of ground frost across selected New Zealand locations\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-4 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Non-profit data publisher reproducing NIWA data, New Zealand",
+    "identity": "Figure.NZ, \"Annual days of ground frost across selected New Zealand locations\" (provider: NIWA, 1991 to 2020 means), date not shown. Non-profit data publisher reproducing NIWA data, New Zealand. https://figure.nz/chart/Hra3vx0XfcsJEf5H, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:FIG-FROST)",
+    "url": "https://figure.nz/chart/Hra3vx0XfcsJEf5H",
+    "register_code": "TIMING-NZ:FIG-FROST",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

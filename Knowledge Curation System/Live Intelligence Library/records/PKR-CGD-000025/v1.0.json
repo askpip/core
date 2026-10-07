@@ -1,0 +1,144 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000025",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Which months do I plant or move a rose?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000034",
+      "PKR-SRC-000157",
+      "PKR-SRC-000190",
+      "PKR-SRC-000193",
+      "PKR-SRC-000228",
+      "PKR-SRC-000229",
+      "PKR-SRC-000253",
+      "PKR-SRC-000272",
+      "PKR-SRC-000273",
+      "PKR-SRC-000274",
+      "PKR-SRC-000276",
+      "PKR-SRC-000296",
+      "PKR-SRC-000299",
+      "PKR-SRC-000300",
+      "PKR-SRC-000301",
+      "PKR-SRC-000311"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000016"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000021"
+      }
+    ],
+    "preserved_uncertainty": "Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Which months do I plant or move a rose?",
+    "label": null,
+    "items": [
+      {
+        "text": "In New Zealand, winter is the best time to plant a rose, and planting can go on through spring. One garden company says June and July are the best months. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-27",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "New roses for winter planting reach garden centres from June. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-26",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Canterbury, one source says to plant roses in June, July and August, while they are dormant. July and August are its months for bare-root roses, which are sold without soil on their roots. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-CAN"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-42",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-27",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Auckland, one source says roses are best planted in autumn or winter.",
+        "confidence": "Low",
+        "place": [
+          "NZ-AUK"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-28",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-8",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "A rose in a pot can be planted at any time of year. Keep it well watered if you plant in spring or summer.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-29"
+        ]
+      },
+      {
+        "text": "Move an established rose in winter, while it is dormant. One garden centre page says autumn instead.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-30",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-7",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-31"
+        ]
+      },
+      {
+        "text": "For moving a rose, one garden centre says July, after pruning and once the risk of frost has passed. One garden company says June or July. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-43",
+          "rule 4",
+          "rule 6"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 4
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-NZ-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

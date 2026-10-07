@@ -1,0 +1,101 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000023",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "When do I start and stop feeding?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000066",
+      "PKR-SRC-000228",
+      "PKR-SRC-000229",
+      "PKR-SRC-000253",
+      "PKR-SRC-000272",
+      "PKR-SRC-000302",
+      "PKR-SRC-000307",
+      "PKR-SRC-000309",
+      "PKR-SRC-000310",
+      "PKR-SRC-000311",
+      "PKR-SRC-000313"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000004"
+      }
+    ],
+    "preserved_uncertainty": "Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "When do I start and stop feeding?",
+    "label": null,
+    "items": [
+      {
+        "text": "Start feeding in spring, as new growth appears.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-18"
+        ]
+      },
+      {
+        "text": "In New Zealand, the first feed is usually given in September. It can be as early as late August or as late as mid to late October. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-19",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-6",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In a frosty area, one source says it is better to wait until the last frosts before you feed your roses.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-20",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "Sources disagree on when to stop feeding. One says no later than the end of February, so that the canes (stems) can harden before winter. Others say March or early April, and some feed through autumn. Months are only a guide.",
+        "kind": "disagreement",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 C-5",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-21",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-22",
+          "rule 6"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 2
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-NZ-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

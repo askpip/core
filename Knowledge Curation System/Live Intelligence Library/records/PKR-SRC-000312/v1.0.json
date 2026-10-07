@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000312",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Daltons, question and answer on winter pruning of roses",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-37 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden soils and fertiliser), New Zealand",
+    "identity": "Daltons, question and answer on winter pruning of roses, date not shown. Commercial (garden soils and fertiliser), New Zealand. https://www.daltons.co.nz/gardening-guides/winter-pruning-roses, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:DALT-Q)",
+    "url": "https://www.daltons.co.nz/gardening-guides/winter-pruning-roses",
+    "register_code": "TIMING-NZ:DALT-Q",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

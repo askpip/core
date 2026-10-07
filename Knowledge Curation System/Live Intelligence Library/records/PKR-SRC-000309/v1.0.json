@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000309",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Tui Garden — \"How often do I feed my roses?\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-21 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden products), New Zealand",
+    "identity": "Tui Garden, \"How often do I feed my roses?\", date not shown. Commercial (garden products), New Zealand. https://tuigarden.co.nz/garden-questions/how-often-do-i-feed-my-roses/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:TUI-FEED)",
+    "url": "https://tuigarden.co.nz/garden-questions/how-often-do-i-feed-my-roses/",
+    "register_code": "TIMING-NZ:TUI-FEED",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

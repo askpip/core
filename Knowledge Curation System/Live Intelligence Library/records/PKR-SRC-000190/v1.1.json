@@ -1,0 +1,38 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000190",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Hayden Foulds, GrownUps New Zealand — \"Pruning roses\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-17 (Low)",
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-27 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "General-interest website (rose column)",
+    "identity": "Hayden Foulds, GrownUps New Zealand, \"Pruning roses\", date not shown. General-interest website (rose column), New Zealand. https://grownups.co.nz/life/gardening/pruning-roses/, accessed 1 October 2026 (register code HARDPRUNE:GU-P)",
+    "url": "https://grownups.co.nz/life/gardening/pruning-roses/",
+    "register_code": "HARDPRUNE:GU-P",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-NZ-01 added (register code TIMING-NZ:GU-P). Nothing else changed. Version 1.0 retired."
+  }
+}

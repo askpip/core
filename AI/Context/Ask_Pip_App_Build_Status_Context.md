@@ -4,7 +4,7 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.6
+**Version:** 0.7
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
@@ -156,11 +156,11 @@ Built so that a subject's whole body of approved findings reaches gardeners, in 
 
 **Local statements** (`App/src/lib/place.ts`, `placeGeo.ts`, `usePlantPlace.ts`, `App/src/data/places/`; rebuilt 6 and 7 October 2026 on a Founder's decision that a country alone is not enough). A statement may carry `place`, a list of place codes: a country (`NZ`), a region (`NZ-CAN`), a group of regions (`NZ-N`, `NZ-S`, `GB-ENG`) or a town the research names (`NZ-OTA:Dunedin`; the list is `TOWNS` in `place.ts`). `usePlantPlace(plant)` gives every place a plant is in. A typed country, region and town are read from names and common spellings. A GPS position is placed against simplified region outlines for the five countries (Natural Earth, public domain), on the gardener's own device; the outlines load only when needed and nothing is sent anywhere. Within 10 km of another region the app does not decide: `CommonQuestions` asks the gardener which region the rose is in, saves the answer with the plant, and offers "Somewhere else, or I'm not sure". It asks only where the answer would change what is shown. A town is matched by its typed name or by a position within 15 km. Where the place isn't known, marked statements are left out and one line says so. Where a question has nothing for the plant's place, the answer says so and the tap is recorded in `question_interest`. Only the plant page passes a place; the Welcome and plant-list pages have no plant, so they never show local statements. A position just across a foreign border (for example Tijuana) is asked about, not placed.
 
-**Month-level timing** (`App/src/data/commonQuestions.ts`). The built-in question `months`, "Which months do I prune my rose?", is the lead of the topic `timing` ("When to do each job") and appears second in the list once that topic's first records are Published. The six records are shared by the five countries: each country's statements are added to them as new versions, marked for their places.
+**Month-level timing** (`App/src/data/commonQuestions.ts`). The built-in question `months`, "Which months do I prune my rose?", is the lead of the topic `timing` ("When to do each job") and appears second in the list once that topic's first records are Published. The six records are shared by the five countries: each country's statements are added to them as new versions, marked for their places. The New Zealand statements (PKR-CGD-000022 to PKR-CGD-000027) were approved on 7 October 2026; a rose outside New Zealand is told Pip has nothing for that place yet.
 
 **Limits and labels** (`App/src/components/PkrStatements.tsx`). `StatementLimit` shows a statement's `limit` under it in smaller type. `StatementTag` shows the confidence level, or "Precaution" with the level, or "Sources disagree", or "No source found", or nothing for app framing, by the statement's `kind`.
 
-**Checked** in a headless browser at phone widths (390 and 320 pixels), first against test copies of the seven spraying records and again on 5 October 2026 against the published records, and on 5 October 2026 against test copies of the six planting and moving records (identical in wording to those published), for six cases: no plant; New Zealand by name; Australia by position; the United States; the United Kingdom; and a position in Canada. On 7 October 2026 the place piece was run against 65 towns and cities in and around the five countries, and test copies of the six New Zealand timing records were opened for fourteen plants (typed and GPS locations across New Zealand, two that needed the region asked, and plants in Sydney, the United Kingdom and Tokyo); each saw the statements for its own place and no others, and the Spraying and Planting answers were unchanged. The build passes. Not checked: the signed-in screens, and a real phone.
+**Checked** in a headless browser at phone widths (390 and 320 pixels), first against test copies of the seven spraying records and again on 5 October 2026 against the published records, and on 5 October 2026 against test copies of the six planting and moving records (identical in wording to those published), for six cases: no plant; New Zealand by name; Australia by position; the United States; the United Kingdom; and a position in Canada. On 7 October 2026 the place piece was run against 65 towns and cities in and around the five countries, and test copies of the six New Zealand timing records were opened for fourteen plants (typed and GPS locations across New Zealand, two that needed the region asked, and plants in Sydney, the United Kingdom and Tokyo); each saw the statements for its own place and no others, and the Spraying and Planting answers were unchanged. The same fourteen plants were run again on 7 October 2026 against the published New Zealand records: all 40 approved statements appeared word for word, each only in its place. The build passes. Not checked: the signed-in screens, and a real phone.
 
 # 4. Phase B — Blocked on Founder-Approved Knowledge
 
@@ -207,5 +207,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **5 October 2026 (Version 0.3):** Added §3.5: question answers grouped into topics and read from the Published records; statements shown by the plant's country; limits and the Precaution, Sources disagree and No source found labels.
 
 - **7 October 2026 (Version 0.6):** §3.5 rewritten for places inside a country (regions, groups of regions and towns, worked out on the device, with the gardener asked near a region's edge) and for the month-level timing question.
+
+- **7 October 2026 (Version 0.7):** New Zealand month-level timing approved and its records in the snapshot; the place test rerun against the published records.
 
 # End of Document

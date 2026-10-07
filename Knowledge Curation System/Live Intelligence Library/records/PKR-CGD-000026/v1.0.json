@@ -1,0 +1,147 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000026",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "When do I clear up and spray in winter?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000066",
+      "PKR-SRC-000157",
+      "PKR-SRC-000190",
+      "PKR-SRC-000193",
+      "PKR-SRC-000228",
+      "PKR-SRC-000229",
+      "PKR-SRC-000253",
+      "PKR-SRC-000272",
+      "PKR-SRC-000274",
+      "PKR-SRC-000295",
+      "PKR-SRC-000297",
+      "PKR-SRC-000298",
+      "PKR-SRC-000299",
+      "PKR-SRC-000300",
+      "PKR-SRC-000308",
+      "PKR-SRC-000311",
+      "PKR-SRC-000312",
+      "PKR-SRC-000313",
+      "PKR-SRC-000314"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000013"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000006"
+      }
+    ],
+    "preserved_uncertainty": "Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "When do I clear up and spray in winter?",
+    "label": null,
+    "items": [
+      {
+        "text": "Clear away fallen and diseased leaves in autumn and winter, and pick up the prunings and fallen leaves after pruning. Burn them or put them in the rubbish, not the compost.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-32"
+        ]
+      },
+      {
+        "text": "In Canterbury, one source says to remove diseased leaves from roses in May, June and July. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-CAN"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-48",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "If you use a clean-up spray in winter (a spray meant to clear pests and diseases left on the plant), put it on at pruning or just after. Some put a first spray on in June, before pruning. Months are only a guide, and the label on the spray comes first.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-33",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-11",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In New Zealand, lime sulphur, copper and a spraying oil are used as winter sprays. Follow the label on the spray.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-33",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "One source says lime sulphur strips the leaves from new growth, so if you use it as a winter spray, put it on at pruning time and don't leave it too late. Follow the label on the spray.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-44",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "If you use lime sulphur, never mix it with other sprays, and leave two to three weeks before you use a copper spray. One garden centre says to wait three weeks before any other spray. Follow the label on the spray.",
+        "confidence": "Moderate",
+        "kind": "precaution",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-47",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "I couldn't find New Zealand advice on covering roses or mounding soil over the base for winter. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-35",
+          "rule 5"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 5
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-NZ-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

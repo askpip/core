@@ -1,0 +1,35 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000308",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Gareth Carter (general manager, Springvale Garden Centre), Whanganui Chronicle via NZ Herald — \"Pruning deciduous fruit trees and roses\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-13 (Low)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-15 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Newspaper column by a garden-centre manager, New Zealand",
+    "identity": "Gareth Carter (general manager, Springvale Garden Centre), Whanganui Chronicle via NZ Herald, \"Pruning deciduous fruit trees and roses\", 20 July 2020. Newspaper column by a garden-centre manager, New Zealand. https://www.nzherald.co.nz/whanganui-chronicle/news/pruning-deciduous-fruit-trees-and-roses/3X7LTSFCPJQOXDEY6Y2SR6GVGQ/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:NZH-W)",
+    "url": "https://www.nzherald.co.nz/whanganui-chronicle/news/pruning-deciduous-fruit-trees-and-roses/3X7LTSFCPJQOXDEY6Y2SR6GVGQ/",
+    "register_code": "TIMING-NZ:NZH-W",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

@@ -2163,6 +2163,777 @@
    }
   },
   {
+   "pkr_id": "PKR-CGD-000022",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "title": "Which months do I prune my rose?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000034",
+     "PKR-SRC-000066",
+     "PKR-SRC-000067",
+     "PKR-SRC-000157",
+     "PKR-SRC-000158",
+     "PKR-SRC-000190",
+     "PKR-SRC-000193",
+     "PKR-SRC-000194",
+     "PKR-SRC-000228",
+     "PKR-SRC-000229",
+     "PKR-SRC-000253",
+     "PKR-SRC-000273",
+     "PKR-SRC-000295",
+     "PKR-SRC-000296",
+     "PKR-SRC-000297",
+     "PKR-SRC-000300",
+     "PKR-SRC-000301",
+     "PKR-SRC-000302",
+     "PKR-SRC-000308",
+     "PKR-SRC-000311",
+     "PKR-SRC-000312",
+     "PKR-SRC-000314"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000001"
+     }
+    ],
+    "preserved_uncertainty": "Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Which months do I prune my rose?",
+    "label": null,
+    "items": [
+     {
+      "text": "In New Zealand, the main winter pruning is done between June and August, depending on where you live. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "High",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-8",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-36",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Prune later where it is colder: the north starts earlier than the south. One garden company says the opposite: that cooler places can prune earlier, once all the leaves have fallen.",
+      "confidence": "High",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-1",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-2",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-17"
+      ]
+     },
+     {
+      "text": "Up north, one source says pruning starts around early July. Another says it can start a little before July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-N"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-9",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-3",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In the colder parts of the South Island, pruning gets under way in August. In Dunedin, one source prunes in late July. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ-S"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-10",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-10",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-11",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Northland, one garden company says the end of July to early August is a good time to prune. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-NTL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-40",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-3",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Auckland, one garden service says to prune in July. One garden company says June to July, before the rose bursts into leaf, which can be as early as August in Auckland. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-AUK"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-39",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-3",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Whanganui, one garden centre manager says roses are best pruned in July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-MWT:Whanganui"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-13",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Masterton, one garden company says to prune in July to August. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-WGN:Masterton"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-13",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Canterbury, one source says pruning can begin towards the end of July in milder parts and be completed there in August. Colder areas may prefer to wait until August, and colder inland districts prune once the worst frosts have passed. It says to finish winter pruning in September. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-CAN"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-12",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-10",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-4",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Christchurch, one garden company says to leave pruning until late winter or early spring, after the last frost.",
+      "confidence": "Low",
+      "place": [
+       "NZ-CAN:Christchurch"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-49",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-4",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Dunedin, one source prunes its modern roses in late July, when they are most dormant and the worst frosts are over. In a frosty spot that can mean waiting until mid-August. One garden company says June or July, and August if you are unsure. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-OTA:Dunedin"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-11",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-45",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-10",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Prune in winter, when the rose is dormant and not in active growth. In colder or frosty places, wait until the worst frosts have passed.",
+      "confidence": "High",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-14"
+      ]
+     },
+     {
+      "text": "Don't leave pruning too late: prune before the rose bursts into growth.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-41"
+      ]
+     },
+     {
+      "text": "Don't prune too early, because frost can damage the new growth that follows.",
+      "confidence": "High",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-15"
+      ]
+     },
+     {
+      "text": "Two garden companies differ on a rose that still has its leaves or flowers in June. One says to wait until it is fully dormant, with no leaves left, which may mean pruning in July. The other says a rose can be pruned even if it is still flowering. Months are only a guide.",
+      "kind": "disagreement",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 C-12",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-37",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-46",
+       "rule 6"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "timing",
+      "topic_title": "When to do each job",
+      "order": 1
+     }
+    }
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000023",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "title": "When do I start and stop feeding?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000066",
+     "PKR-SRC-000228",
+     "PKR-SRC-000229",
+     "PKR-SRC-000253",
+     "PKR-SRC-000272",
+     "PKR-SRC-000302",
+     "PKR-SRC-000307",
+     "PKR-SRC-000309",
+     "PKR-SRC-000310",
+     "PKR-SRC-000311",
+     "PKR-SRC-000313"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000004"
+     }
+    ],
+    "preserved_uncertainty": "Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "When do I start and stop feeding?",
+    "label": null,
+    "items": [
+     {
+      "text": "Start feeding in spring, as new growth appears.",
+      "confidence": "High",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-18"
+      ]
+     },
+     {
+      "text": "In New Zealand, the first feed is usually given in September. It can be as early as late August or as late as mid to late October. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-19",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-6",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In a frosty area, one source says it is better to wait until the last frosts before you feed your roses.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-20",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "Sources disagree on when to stop feeding. One says no later than the end of February, so that the canes (stems) can harden before winter. Others say March or early April, and some feed through autumn. Months are only a guide.",
+      "kind": "disagreement",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 C-5",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-21",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-22",
+       "rule 6"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "timing",
+      "topic_title": "When to do each job",
+      "order": 2
+     }
+    }
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000024",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "title": "When do I stop deadheading?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000193",
+     "PKR-SRC-000228",
+     "PKR-SRC-000314"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000004"
+     }
+    ],
+    "preserved_uncertainty": "The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "When do I stop deadheading?",
+    "label": null,
+    "items": [
+     {
+      "text": "Deadhead (remove the faded flowers) while the rose is flowering. Two garden companies say when to stop: one at the end of February, and one at the end of March, leaving the last flowers so that hips (the rose's fruit) can form. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-23",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-24",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-9",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Auckland, one garden service says to stop deadheading from March, so that the rose can form hips and rest before winter. Another Auckland source says to keep removing dead flowers all through the flowering season. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-AUK"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-23",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-24",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-9",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "I couldn't find when to stop summer pruning (a light prune in summer to encourage more flowers) in New Zealand. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-25",
+       "rule 5"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "timing",
+      "topic_title": "When to do each job",
+      "order": 3
+     }
+    }
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000025",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "title": "Which months do I plant or move a rose?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000034",
+     "PKR-SRC-000157",
+     "PKR-SRC-000190",
+     "PKR-SRC-000193",
+     "PKR-SRC-000228",
+     "PKR-SRC-000229",
+     "PKR-SRC-000253",
+     "PKR-SRC-000272",
+     "PKR-SRC-000273",
+     "PKR-SRC-000274",
+     "PKR-SRC-000276",
+     "PKR-SRC-000296",
+     "PKR-SRC-000299",
+     "PKR-SRC-000300",
+     "PKR-SRC-000301",
+     "PKR-SRC-000311"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000016"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000021"
+     }
+    ],
+    "preserved_uncertainty": "Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Which months do I plant or move a rose?",
+    "label": null,
+    "items": [
+     {
+      "text": "In New Zealand, winter is the best time to plant a rose, and planting can go on through spring. One garden company says June and July are the best months. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-27",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "New roses for winter planting reach garden centres from June. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-26",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Canterbury, one source says to plant roses in June, July and August, while they are dormant. July and August are its months for bare-root roses, which are sold without soil on their roots. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-CAN"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-42",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-27",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Auckland, one source says roses are best planted in autumn or winter.",
+      "confidence": "Low",
+      "place": [
+       "NZ-AUK"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-28",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-8",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "A rose in a pot can be planted at any time of year. Keep it well watered if you plant in spring or summer.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-29"
+      ]
+     },
+     {
+      "text": "Move an established rose in winter, while it is dormant. One garden centre page says autumn instead.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-30",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-7",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-31"
+      ]
+     },
+     {
+      "text": "For moving a rose, one garden centre says July, after pruning and once the risk of frost has passed. One garden company says June or July. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-43",
+       "rule 4",
+       "rule 6"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "timing",
+      "topic_title": "When to do each job",
+      "order": 4
+     }
+    }
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000026",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "title": "When do I clear up and spray in winter?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000066",
+     "PKR-SRC-000157",
+     "PKR-SRC-000190",
+     "PKR-SRC-000193",
+     "PKR-SRC-000228",
+     "PKR-SRC-000229",
+     "PKR-SRC-000253",
+     "PKR-SRC-000272",
+     "PKR-SRC-000274",
+     "PKR-SRC-000295",
+     "PKR-SRC-000297",
+     "PKR-SRC-000298",
+     "PKR-SRC-000299",
+     "PKR-SRC-000300",
+     "PKR-SRC-000308",
+     "PKR-SRC-000311",
+     "PKR-SRC-000312",
+     "PKR-SRC-000313",
+     "PKR-SRC-000314"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000013"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000006"
+     }
+    ],
+    "preserved_uncertainty": "Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "When do I clear up and spray in winter?",
+    "label": null,
+    "items": [
+     {
+      "text": "Clear away fallen and diseased leaves in autumn and winter, and pick up the prunings and fallen leaves after pruning. Burn them or put them in the rubbish, not the compost.",
+      "confidence": "High",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-32"
+      ]
+     },
+     {
+      "text": "In Canterbury, one source says to remove diseased leaves from roses in May, June and July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "NZ-CAN"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-48",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "If you use a clean-up spray in winter (a spray meant to clear pests and diseases left on the plant), put it on at pruning or just after. Some put a first spray on in June, before pruning. Months are only a guide, and the label on the spray comes first.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-33",
+       "ARC-BUSHROSE-TIMING-NZ-01 C-11",
+       "rule 6",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In New Zealand, lime sulphur, copper and a spraying oil are used as winter sprays. Follow the label on the spray.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-33",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "One source says lime sulphur strips the leaves from new growth, so if you use it as a winter spray, put it on at pruning time and don't leave it too late. Follow the label on the spray.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-44",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "If you use lime sulphur, never mix it with other sprays, and leave two to three weeks before you use a copper spray. One garden centre says to wait three weeks before any other spray. Follow the label on the spray.",
+      "confidence": "Moderate",
+      "kind": "precaution",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-47",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "I couldn't find New Zealand advice on covering roses or mounding soil over the base for winter. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-35",
+       "rule 5"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "timing",
+      "topic_title": "When to do each job",
+      "order": 5
+     }
+    }
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000027",
+   "version": "1.0",
+   "pkr_type": "care_guidance",
+   "title": "How do I allow for frost and my own garden?",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000034",
+     "PKR-SRC-000067",
+     "PKR-SRC-000158",
+     "PKR-SRC-000228",
+     "PKR-SRC-000296",
+     "PKR-SRC-000297",
+     "PKR-SRC-000303",
+     "PKR-SRC-000304",
+     "PKR-SRC-000306",
+     "PKR-SRC-000307"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000001"
+     }
+    ],
+    "preserved_uncertainty": "The frost statements come from one source, the national climate research institute, and are about climate, not roses. That the garden itself matters is one botanic garden's point. No rose source draws a boundary for its climate bands (AF-3). Whether the institute's 'north of Waikato' matches the 'up north' of rose sources is the ROC's own question and is not used (R-5a).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "How do I allow for frost and my own garden?",
+    "label": null,
+    "items": [
+     {
+      "text": "When to prune depends on where you live. Go by your own garden too: one source says the right time can differ even within one suburb, and that a frosty spot can mean waiting longer.",
+      "confidence": "High",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-36"
+      ]
+     },
+     {
+      "text": "Frosts are common in the cooler months in most of New Zealand, the national climate institute says. They are rare north of Waikato, less frequent near the coast, and most frequent at inland South Island places such as Alexandra. They can still happen anywhere.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-4",
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-5"
+      ]
+     },
+     {
+      "text": "Your garden is more likely to get frost if it is on flat ground where cold air can't drain away, or in a valley or basin, the national climate institute says. Frost can vary widely over a small area.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-6"
+      ]
+     },
+     {
+      "text": "Your local rose society can advise on timing for your own climate.",
+      "confidence": "Moderate",
+      "place": [
+       "NZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-38"
+      ]
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false,
+     "question_answer": {
+      "topic": "timing",
+      "topic_title": "When to do each job",
+      "order": 6
+     }
+    }
+   }
+  },
+  {
    "pkr_id": "PKR-DEC-000001",
    "version": "1.1",
    "pkr_type": "decision_logic",
@@ -4913,7 +5684,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000034",
-   "version": "1.3",
+   "version": "1.4",
    "pkr_type": "source",
    "title": "The New Zealand Rose Society — FAQ",
    "common": {
@@ -4934,7 +5705,15 @@
      "ARC-BUSHROSE-SPRAYING-01, AF-19 (High)",
      "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-4 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-2 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-38 (Moderate)"
     ]
    },
    "content": {
@@ -5770,7 +6549,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000066",
-   "version": "1.4",
+   "version": "1.5",
    "pkr_type": "source",
    "title": "Yates New Zealand — How to Prune Your Roses",
    "common": {
@@ -5799,7 +6578,12 @@
      "ARC-BUSHROSE-SUCKERS-01, AF-17 (High)",
      "ARC-BUSHROSE-SUCKERS-01, AF-18 (Moderate)",
      "ARC-BUSHROSE-SUCKERS-01, AF-20 (High)",
-     "ARC-BUSHROSE-SUCKERS-01, AF-22 (Low)"
+     "ARC-BUSHROSE-SUCKERS-01, AF-22 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-20 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-44 (Low)"
     ]
    },
    "content": {
@@ -5812,7 +6596,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000067",
-   "version": "1.3",
+   "version": "1.4",
    "pkr_type": "source",
    "title": "South Pacific Roses — Pruning Your Roses",
    "common": {
@@ -5829,7 +6613,10 @@
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-14 (High)",
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
-     "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)"
+     "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-36 (High)"
     ]
    },
    "content": {
@@ -8293,7 +9080,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000157",
-   "version": "1.2",
+   "version": "1.3",
    "pkr_type": "source",
    "title": "The New Zealand Rose Society — Winter Rose Care",
    "common": {
@@ -8315,7 +9102,12 @@
      "ARC-BUSHROSE-SPRAYING-01, AF-28 (Low)",
      "ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate)",
      "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)",
-     "ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate)"
+     "ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-26 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-47 (Moderate)"
     ]
    },
    "content": {
@@ -8328,7 +9120,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000158",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "The New Zealand Rose Society — Free Rose Pruning Demonstrations",
    "common": {
@@ -8339,7 +9131,9 @@
     "preserved_uncertainty": "None beyond those recorded on the citing findings.",
     "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
     "mil_references": [
-     "ARC-BUSHROSE-SUCKERS-01, AF-25 (Low)"
+     "ARC-BUSHROSE-SUCKERS-01, AF-25 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-36 (High)"
     ]
    },
    "content": {
@@ -9119,7 +9913,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000190",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Hayden Foulds, GrownUps New Zealand — \"Pruning roses\"",
    "common": {
@@ -9132,7 +9926,11 @@
     "mil_references": [
      "ARC-BUSHROSE-HARDPRUNE-01, AF-1 (High)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-17 (Low)",
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-18 (Moderate)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)"
     ]
    },
    "content": {
@@ -9194,7 +9992,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000193",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Matthews Nurseries — \"Advice\"",
    "common": {
@@ -9205,7 +10003,13 @@
     "preserved_uncertainty": "Commercial source.",
     "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
     "mil_references": [
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-23 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-24 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)"
     ]
    },
    "content": {
@@ -9218,7 +10022,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000194",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Tui Garden — \"Rose Pruning Guide\"",
    "common": {
@@ -9229,7 +10033,17 @@
     "preserved_uncertainty": "Commercial source.",
     "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
     "mil_references": [
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-13 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-15 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-39 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-40 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-41 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-45 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-46 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-49 (Low)"
     ]
    },
    "content": {
@@ -10108,7 +10922,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000228",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Palmers Garden Centre — \"Year Round Rose Care\"",
    "common": {
@@ -10120,7 +10934,22 @@
     "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
     "mil_references": [
      "ARC-BUSHROSE-NOFLOWERS-01, AF-2 (Moderate)",
-     "ARC-BUSHROSE-NOFLOWERS-01, AF-19 (High)"
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-19 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-15 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-21 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-23 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-24 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-26 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-31 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-36 (High)"
     ]
    },
    "content": {
@@ -10133,7 +10962,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000229",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "source",
    "title": "Kings Plant Barn — \"Roses - Grow Well Guides\"",
    "common": {
@@ -10156,7 +10985,15 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-21 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-26 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-34 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-47 (Moderate)"
     ]
    },
    "content": {
@@ -10797,7 +11634,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000253",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "source",
    "title": "Auckland Botanic Gardens — \"Roses\"",
    "common": {
@@ -10813,7 +11650,11 @@
      "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-28 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)"
     ]
    },
    "content": {
@@ -11339,7 +12180,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000272",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Yates New Zealand — \"How to Grow Glorious Roses\"",
    "common": {
@@ -11359,7 +12200,11 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)"
     ]
    },
    "content": {
@@ -11372,7 +12217,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000273",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Palmers — \"How to Grow Bush Roses\"",
    "common": {
@@ -11392,7 +12237,12 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-16 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-41 (Moderate)"
     ]
    },
    "content": {
@@ -11405,7 +12255,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000274",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Palmers — \"Most Frequently Asked Rose Questions\"",
    "common": {
@@ -11418,7 +12268,12 @@
     "mil_references": [
      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-28 (Low)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-34 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-43 (Low)"
     ]
    },
    "content": {
@@ -11458,7 +12313,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000276",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Tui Garden — \"What is the best way to shift my rose?\"",
    "common": {
@@ -11472,7 +12327,8 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-30 (Moderate)"
     ]
    },
    "content": {
@@ -12020,6 +12876,540 @@
     "identity": "Heirloom Roses (Robin Jennings), \"How To Transplant or Move a Rose Bush\", 13 April 2023. Commercial (own-root rose nursery), US. https://heirloomroses.com/blogs/how-to-articles/transplanting-roses, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:HEIR)",
     "url": "https://heirloomroses.com/blogs/how-to-articles/transplanting-roses",
     "register_code": "PLANTMOVE:HEIR",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000295",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Dunedin Botanic Garden (Linda Hellyer) — \"Practical Tips for Rose Pruning\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-11 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public botanic garden (Dunedin City Council), New Zealand",
+    "identity": "Dunedin Botanic Garden (Linda Hellyer), \"Practical Tips for Rose Pruning\", 26 June 2014. Public botanic garden (Dunedin City Council), New Zealand. https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:DUN-PT)",
+    "url": "https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning",
+    "register_code": "TIMING-NZ:DUN-PT",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000296",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Dunedin Botanic Garden (Linda Hellyer) — \"Summer Flower Needs Winter Maintenance\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-11 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-15 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-41 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Public botanic garden, New Zealand",
+    "identity": "Dunedin Botanic Garden (Linda Hellyer), \"Summer Flower Needs Winter Maintenance\", 9 July 2015. Public botanic garden, New Zealand. https://dunedinbotanicgarden.co.nz/collections/garden-life-article/summer-flower-needs-winter-maintenance, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:DUN-WM)",
+    "url": "https://dunedinbotanicgarden.co.nz/collections/garden-life-article/summer-flower-needs-winter-maintenance",
+    "register_code": "TIMING-NZ:DUN-WM",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000297",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Otago Daily Times, Garden Life (produced by Dunedin Botanic Garden) — \"Rose pruning can be easy\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-11 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-36 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Newspaper column by a public botanic garden, New Zealand",
+    "identity": "Otago Daily Times, Garden Life (produced by Dunedin Botanic Garden), \"Rose pruning can be easy\", 5 July 2018. Newspaper column by a public botanic garden, New Zealand. https://www.odt.co.nz/lifestyle/home-garden/rose-pruning-can-be-easy, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:ODT-GL)",
+    "url": "https://www.odt.co.nz/lifestyle/home-garden/rose-pruning-can-be-easy",
+    "register_code": "TIMING-NZ:ODT-GL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000298",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Canterbury Horticultural Society — \"May in the Garden\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-48 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural society, Canterbury",
+    "identity": "Canterbury Horticultural Society, \"May in the Garden\", 30 April 2026. Horticultural society, Canterbury. https://www.chsgardens.co.nz/may-in-the-garden/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:CHS-MAY)",
+    "url": "https://www.chsgardens.co.nz/may-in-the-garden/",
+    "register_code": "TIMING-NZ:CHS-MAY",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000299",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Canterbury Horticultural Society — \"June in the Garden\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-42 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-48 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural society, Canterbury",
+    "identity": "Canterbury Horticultural Society, \"June in the Garden\", 28 May 2026. Horticultural society, Canterbury. https://www.chsgardens.co.nz/june-in-the-garden/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:CHS-JUN)",
+    "url": "https://www.chsgardens.co.nz/june-in-the-garden/",
+    "register_code": "TIMING-NZ:CHS-JUN",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000300",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Canterbury Horticultural Society — \"July in the Garden\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-42 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-48 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural society, Canterbury",
+    "identity": "Canterbury Horticultural Society, \"July in the Garden\", 1 July 2026. Horticultural society, Canterbury. https://www.chsgardens.co.nz/july-in-the-garden/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:CHS-JUL)",
+    "url": "https://www.chsgardens.co.nz/july-in-the-garden/",
+    "register_code": "TIMING-NZ:CHS-JUL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000301",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Canterbury Horticultural Society — \"August in the Garden\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-10 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-42 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural society, Canterbury",
+    "identity": "Canterbury Horticultural Society, \"August in the Garden\", 27 July 2026. Horticultural society, Canterbury. https://www.chsgardens.co.nz/august-in-the-garden/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:CHS-AUG)",
+    "url": "https://www.chsgardens.co.nz/august-in-the-garden/",
+    "register_code": "TIMING-NZ:CHS-AUG",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000302",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Canterbury Horticultural Society — \"September in the Garden\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-19 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural society, Canterbury",
+    "identity": "Canterbury Horticultural Society, \"September in the Garden\", 31 August 2026. Horticultural society, Canterbury. https://www.chsgardens.co.nz/september-in-the-garden/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:CHS-SEP)",
+    "url": "https://www.chsgardens.co.nz/september-in-the-garden/",
+    "register_code": "TIMING-NZ:CHS-SEP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000303",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "NIWA (G. R. Macara) — \"The Climate and Weather of New Zealand\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-6 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "National climate research institute, New Zealand",
+    "identity": "NIWA (G. R. Macara), \"The Climate and Weather of New Zealand\", NIWA Science and Technology Series No. 74, 2018. National climate research institute, New Zealand. https://webstatic.niwa.co.nz/static/web/NZ_Climate-NIWA.pdf, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:NIWA-NZ)",
+    "url": "https://webstatic.niwa.co.nz/static/web/NZ_Climate-NIWA.pdf",
+    "register_code": "TIMING-NZ:NIWA-NZ",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000304",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "NIWA (G. R. Macara) — \"The Climate and Weather of Otago\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-5 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-6 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "National climate research institute, New Zealand",
+    "identity": "NIWA (G. R. Macara), \"The Climate and Weather of Otago\", NIWA Science and Technology Series No. 67, 2015. National climate research institute, New Zealand. https://niwa.co.nz/sites/default/files/Otago%20Climate%20book%20WEB%202021.pdf, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:NIWA-OT)",
+    "url": "https://niwa.co.nz/sites/default/files/Otago%20Climate%20book%20WEB%202021.pdf",
+    "register_code": "TIMING-NZ:NIWA-OT",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000305",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "NIWA — \"Overview of New Zealand's climate\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-7 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "National climate research institute, New Zealand",
+    "identity": "NIWA, \"Overview of New Zealand's climate\", date not shown. National climate research institute, New Zealand. https://niwa.co.nz/education-and-training/schools/resources/climate/overview, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:NIWA-OV)",
+    "url": "https://niwa.co.nz/education-and-training/schools/resources/climate/overview",
+    "register_code": "TIMING-NZ:NIWA-OV",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000306",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Figure.NZ — \"Annual days of ground frost across selected New Zealand locations\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-4 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Non-profit data publisher reproducing NIWA data, New Zealand",
+    "identity": "Figure.NZ, \"Annual days of ground frost across selected New Zealand locations\" (provider: NIWA, 1991 to 2020 means), date not shown. Non-profit data publisher reproducing NIWA data, New Zealand. https://figure.nz/chart/Hra3vx0XfcsJEf5H, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:FIG-FROST)",
+    "url": "https://figure.nz/chart/Hra3vx0XfcsJEf5H",
+    "register_code": "TIMING-NZ:FIG-FROST",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000307",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Hayden Foulds, GrownUps New Zealand — \"Feeding roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-19 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-21 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-22 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-38 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "General-interest website (rose column), New Zealand",
+    "identity": "Hayden Foulds, GrownUps New Zealand, \"Feeding roses\", 22 September 2017. General-interest website (rose column), New Zealand. https://grownups.co.nz/life/gardening/feeding-roses/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:GU-F)",
+    "url": "https://grownups.co.nz/life/gardening/feeding-roses/",
+    "register_code": "TIMING-NZ:GU-F",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000308",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Gareth Carter (general manager, Springvale Garden Centre), Whanganui Chronicle via NZ Herald — \"Pruning deciduous fruit trees and roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-13 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-15 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Newspaper column by a garden-centre manager, New Zealand",
+    "identity": "Gareth Carter (general manager, Springvale Garden Centre), Whanganui Chronicle via NZ Herald, \"Pruning deciduous fruit trees and roses\", 20 July 2020. Newspaper column by a garden-centre manager, New Zealand. https://www.nzherald.co.nz/whanganui-chronicle/news/pruning-deciduous-fruit-trees-and-roses/3X7LTSFCPJQOXDEY6Y2SR6GVGQ/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:NZH-W)",
+    "url": "https://www.nzherald.co.nz/whanganui-chronicle/news/pruning-deciduous-fruit-trees-and-roses/3X7LTSFCPJQOXDEY6Y2SR6GVGQ/",
+    "register_code": "TIMING-NZ:NZH-W",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000309",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Tui Garden — \"How often do I feed my roses?\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-21 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden products), New Zealand",
+    "identity": "Tui Garden, \"How often do I feed my roses?\", date not shown. Commercial (garden products), New Zealand. https://tuigarden.co.nz/garden-questions/how-often-do-i-feed-my-roses/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:TUI-FEED)",
+    "url": "https://tuigarden.co.nz/garden-questions/how-often-do-i-feed-my-roses/",
+    "register_code": "TIMING-NZ:TUI-FEED",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000310",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "South Pacific Roses — \"Feeding & Watering Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-19 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-21 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), New Zealand",
+    "identity": "South Pacific Roses, \"Feeding & Watering Roses\", 28 August 2019. Commercial (rose nursery), New Zealand. https://southpacificroses.co.nz/feeding-watering-roses/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:SPR-F)",
+    "url": "https://southpacificroses.co.nz/feeding-watering-roses/",
+    "register_code": "TIMING-NZ:SPR-F",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000311",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Daltons — \"How to Grow Roses Guide\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-8 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-17 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-19 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-21 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-34 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-43 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden soils and fertiliser), New Zealand",
+    "identity": "Daltons, \"How to Grow Roses Guide\", date not shown. Commercial (garden soils and fertiliser), New Zealand. https://www.daltons.co.nz/gardening-guides/how-to-grow-roses-guide, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:DALT-G)",
+    "url": "https://www.daltons.co.nz/gardening-guides/how-to-grow-roses-guide",
+    "register_code": "TIMING-NZ:DALT-G",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000312",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Daltons, question and answer on winter pruning of roses",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-37 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden soils and fertiliser), New Zealand",
+    "identity": "Daltons, question and answer on winter pruning of roses, date not shown. Commercial (garden soils and fertiliser), New Zealand. https://www.daltons.co.nz/gardening-guides/winter-pruning-roses, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:DALT-Q)",
+    "url": "https://www.daltons.co.nz/gardening-guides/winter-pruning-roses",
+    "register_code": "TIMING-NZ:DALT-Q",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000313",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Oderings Garden Centres — \"Roses: A Year-Round Guide\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-19 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-34 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-44 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-47 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden centre), New Zealand",
+    "identity": "Oderings Garden Centres, \"Roses: A Year-Round Guide\", date not shown. Commercial (garden centre), New Zealand. https://www.oderings.co.nz/learn/garden-guides/roses-year-round-guide-__I.900045__N.710770, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:ODER)",
+    "url": "https://www.oderings.co.nz/learn/garden-guides/roses-year-round-guide-__I.900045__N.710770",
+    "register_code": "TIMING-NZ:ODER",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000314",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "The Garden Fairies — \"Autumn rose care for Auckland's climate\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-23 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-24 (Low)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-NZ-01, AF-39 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden maintenance service, Auckland), New Zealand",
+    "identity": "The Garden Fairies, \"Autumn rose care for Auckland's climate\", 26 April 2018. Commercial (garden maintenance service, Auckland), New Zealand. https://www.thegardenfairies.co.nz/autumn-rose-care-for-aucklands-climate/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:GF)",
+    "url": "https://www.thegardenfairies.co.nz/autumn-rose-care-for-aucklands-climate/",
+    "register_code": "TIMING-NZ:GF",
     "relevance": "Supports the findings listed above."
    }
   }

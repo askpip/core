@@ -1,0 +1,41 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000253",
+  "version": "1.2",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Auckland Botanic Gardens — \"Roses\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-05",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-SPRAYING-01, AF-1 (High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-14 (Very High)",
+      "ARC-BUSHROSE-SPRAYING-01, AF-20 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-14 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-18 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-28 (Low)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Public botanic garden (Auckland Council), New Zealand",
+    "identity": "Auckland Botanic Gardens, \"Roses\" (garden advice), date not shown. Public botanic garden (Auckland Council), New Zealand. https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/, accessed 1 October 2026 and 5 October 2026 (register code SPRAYING:ABG-R)",
+    "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+    "register_code": "SPRAYING:ABG-R",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT. Version 1.2: MIL references to ARC-BUSHROSE-TIMING-NZ-01 added (register code TIMING-NZ:ABG). Nothing else changed. Version 1.1 retired."
+  }
+}

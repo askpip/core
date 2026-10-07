@@ -1,0 +1,39 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000274",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Palmers — \"Most Frequently Asked Rose Questions\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-28 (Low)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-30 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-32 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-33 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-34 (Low)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-43 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden centre), New Zealand",
+    "identity": "Palmers, \"Most Frequently Asked Rose Questions\", date not shown. Commercial (garden centre), New Zealand. https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:PALM-FAQ)",
+    "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
+    "register_code": "PLANTMOVE:PALM-FAQ",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-NZ-01 added (register code TIMING-NZ:PALM-FAQ). Nothing else changed. Version 1.0 retired."
+  }
+}

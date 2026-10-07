@@ -1,5 +1,7 @@
 # Pip's Answers — Which Months to Do Each Rose Job in New Zealand
 
+> **Approved and published, 7 October 2026.** A Founder approved these answers in chat ("I approve this."). They are published as PKR-CGD-000022 to PKR-CGD-000027, and the research is filed as `ARC-BUSHROSE-TIMING-NZ-01`. This document is kept as the record of what was approved.
+
 This is everything Pip would say about which months to prune, feed, deadhead, plant, move and spray a rose in New Zealand. **You are asked for one thing: approval of these answers.** Approving them also approves the research behind them and lets them be published. Nothing else needs reading.
 
 ## 1. What gardeners will see

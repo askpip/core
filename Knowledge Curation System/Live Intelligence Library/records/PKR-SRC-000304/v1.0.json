@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000304",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "NIWA (G. R. Macara) — \"The Climate and Weather of Otago\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-5 (Moderate)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-6 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "National climate research institute, New Zealand",
+    "identity": "NIWA (G. R. Macara), \"The Climate and Weather of Otago\", NIWA Science and Technology Series No. 67, 2015. National climate research institute, New Zealand. https://niwa.co.nz/sites/default/files/Otago%20Climate%20book%20WEB%202021.pdf, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:NIWA-OT)",
+    "url": "https://niwa.co.nz/sites/default/files/Otago%20Climate%20book%20WEB%202021.pdf",
+    "register_code": "TIMING-NZ:NIWA-OT",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}

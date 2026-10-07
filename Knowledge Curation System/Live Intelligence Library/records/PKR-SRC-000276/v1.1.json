@@ -1,0 +1,36 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000276",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Tui Garden — \"What is the best way to shift my rose?\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+      "ARC-BUSHROSE-TIMING-NZ-01, AF-30 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden products), New Zealand",
+    "identity": "Tui Garden, \"What is the best way to shift my rose?\", date not shown. Commercial (garden products), New Zealand. https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:TUI-Q)",
+    "url": "https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/",
+    "register_code": "PLANTMOVE:TUI-Q",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-NZ-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-NZ-01 added (register code TIMING-NZ:TUI-Q). Nothing else changed. Version 1.0 retired."
+  }
+}

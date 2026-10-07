@@ -1,0 +1,94 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000027",
+  "version": "1.0",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "How do I allow for frost and my own garden?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000034",
+      "PKR-SRC-000067",
+      "PKR-SRC-000158",
+      "PKR-SRC-000228",
+      "PKR-SRC-000296",
+      "PKR-SRC-000297",
+      "PKR-SRC-000303",
+      "PKR-SRC-000304",
+      "PKR-SRC-000306",
+      "PKR-SRC-000307"
+    ],
+    "founder_approval_date": "2026-10-07",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-SGT-000001"
+      }
+    ],
+    "preserved_uncertainty": "The frost statements come from one source, the national climate research institute, and are about climate, not roses. That the garden itself matters is one botanic garden's point. No rose source draws a boundary for its climate bands (AF-3). Whether the institute's 'north of Waikato' matches the 'up north' of rose sources is the ROC's own question and is not used (R-5a).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "How do I allow for frost and my own garden?",
+    "label": null,
+    "items": [
+      {
+        "text": "When to prune depends on where you live. Go by your own garden too: one source says the right time can differ even within one suburb, and that a frosty spot can mean waiting longer.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-36"
+        ]
+      },
+      {
+        "text": "Frosts are common in the cooler months in most of New Zealand, the national climate institute says. They are rare north of Waikato, less frequent near the coast, and most frequent at inland South Island places such as Alexandra. They can still happen anywhere.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-4",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-5"
+        ]
+      },
+      {
+        "text": "Your garden is more likely to get frost if it is on flat ground where cold air can't drain away, or in a valley or basin, the national climate institute says. Frost can vary widely over a small area.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-6"
+        ]
+      },
+      {
+        "text": "Your local rose society can advise on timing for your own climate.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-38"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 6
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-NZ-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-07",
+    "note": "Approved by a Founder in chat on 7 October 2026 (Pip's Answers, New Zealand months). Published by KIT."
+  }
+}
