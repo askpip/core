@@ -1,4 +1,4 @@
-# PKR Submission Package — New Zealand Months: Six Question Answers (v0.3, Draft)
+# PKR Submission Package — New Zealand Months: Six Question Answers (v0.6, Draft)
 
 **Draft, awaiting a Founder's approval.** Not published. Built by KIT on 6 October 2026 from `FRD-BUSHROSE-TIMING-NZ-01` as corrected by the Build Check (its §11), under the Pip Knowledge Rules. On approval the dossier becomes `ARC-BUSHROSE-TIMING-NZ-01` and these records are published. Sources are in `PKR-SRC-BUSHROSE-TIMING-NZ-submission.md`. IDs reserved: PKR-CGD-000022 to PKR-CGD-000027.
 
@@ -95,7 +95,7 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I prune my rose? |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-1: PKR-SRC-000034, PKR-SRC-000194, PKR-SRC-000228, PKR-SRC-000295, PKR-SRC-000300, PKR-SRC-000301; AF-8: PKR-SRC-000066, PKR-SRC-000067, PKR-SRC-000157, PKR-SRC-000158, PKR-SRC-000190, PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000229, PKR-SRC-000273, PKR-SRC-000311; AF-9: PKR-SRC-000034, PKR-SRC-000228; AF-10: PKR-SRC-000034, PKR-SRC-000194, PKR-SRC-000228, PKR-SRC-000297, PKR-SRC-000300, PKR-SRC-000301; AF-11: PKR-SRC-000295, PKR-SRC-000296, PKR-SRC-000297; AF-12: PKR-SRC-000300, PKR-SRC-000301, PKR-SRC-000302; AF-13: PKR-SRC-000194, PKR-SRC-000308; AF-14: PKR-SRC-000067, PKR-SRC-000228, PKR-SRC-000253, PKR-SRC-000273, PKR-SRC-000295, PKR-SRC-000296, PKR-SRC-000301, PKR-SRC-000308; AF-15: PKR-SRC-000194, PKR-SRC-000228, PKR-SRC-000296, PKR-SRC-000308; AF-17: PKR-SRC-000311; AF-36: PKR-SRC-000034, PKR-SRC-000067, PKR-SRC-000158, PKR-SRC-000228, PKR-SRC-000296, PKR-SRC-000297; AF-37: PKR-SRC-000312; AF-39: PKR-SRC-000194, PKR-SRC-000314; AF-40: PKR-SRC-000194; AF-41: PKR-SRC-000194, PKR-SRC-000273, PKR-SRC-000296; AF-45: PKR-SRC-000194; AF-46: PKR-SRC-000194; AF-49: PKR-SRC-000194 |
 | Founder Approval Date | — |
@@ -110,20 +110,20 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 
 | # | Guidance statement (gardener-facing) | Trace | Shown with | Shown to |
 |---|---|---|---|---|
-| 1 | In New Zealand, the main winter pruning is done between June and August, depending on where you live. Every source that names a month includes July. Months are only a guide, because frosts vary from year to year. | ARC-BUSHROSE-TIMING-NZ-01 AF-8; ARC-BUSHROSE-TIMING-NZ-01 AF-36; Pip Knowledge Rules, rule 6 | High confidence | Gardeners in New Zealand only |
+| 1 | In New Zealand, the main winter pruning is done between June and August, depending on where you live. Months are only a guide, because frosts vary from year to year. | ARC-BUSHROSE-TIMING-NZ-01 AF-8; ARC-BUSHROSE-TIMING-NZ-01 AF-36; Pip Knowledge Rules, rule 6 | High confidence | Gardeners in New Zealand only |
 | 2 | Prune later where it is colder: the north starts earlier than the south. One garden company says the opposite: that cooler places can prune earlier, once all the leaves have fallen. | ARC-BUSHROSE-TIMING-NZ-01 AF-1; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-2; ARC-BUSHROSE-TIMING-NZ-01 AF-17 | High confidence | Gardeners in New Zealand only |
-| 3 | Up north, one source says pruning starts around early July, and one garden centre says it can start a little before July. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-9; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-3; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in the North Island only |
-| 4 | For the colder parts of the South Island, sources name August as the month pruning gets under way. In Dunedin, one source prunes in late July. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-10; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-10; ARC-BUSHROSE-TIMING-NZ-01 AF-11; Pip Knowledge Rules, rule 6 | Moderate confidence | Gardeners in the South Island only |
+| 3 | Up north, one source says pruning starts around early July. Another says it can start a little before July. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-9; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-3; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in the North Island only |
+| 4 | In the colder parts of the South Island, pruning gets under way in August. In Dunedin, one source prunes in late July. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-10; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-10; ARC-BUSHROSE-TIMING-NZ-01 AF-11; Pip Knowledge Rules, rule 6 | Moderate confidence | Gardeners in the South Island only |
 | 5 | In Northland, one garden company says the end of July to early August is a good time to prune. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-40; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-3; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Northland only |
-| 6 | In Auckland, one garden company names July and another names June to July. The second says to prune before the rose bursts into leaf, which can be as early as August there. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-39; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-3; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Auckland only |
+| 6 | In Auckland, one garden service says to prune in July. One garden company says June to July, before the rose bursts into leaf, which can be as early as August in Auckland. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-39; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-3; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Auckland only |
 | 7 | In Whanganui, one garden centre manager says roses are best pruned in July. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-13; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in or near Whanganui only |
 | 8 | In Masterton, one garden company says to prune in July to August. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-13; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in or near Masterton only |
-| 9 | In Canterbury, one source says pruning can begin towards the end of July in milder parts and be completed there in August. Colder areas may prefer to wait until August, and colder inland districts prune once the worst frosts have passed. Its September list says to finish winter pruning. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-12; ARC-BUSHROSE-TIMING-NZ-01 AF-10; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-4; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Canterbury only |
+| 9 | In Canterbury, one source says pruning can begin towards the end of July in milder parts and be completed there in August. Colder areas may prefer to wait until August, and colder inland districts prune once the worst frosts have passed. It says to finish winter pruning in September. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-12; ARC-BUSHROSE-TIMING-NZ-01 AF-10; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-4; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Canterbury only |
 | 10 | In Christchurch, one garden company says to leave pruning until late winter or early spring, after the last frost. | ARC-BUSHROSE-TIMING-NZ-01 AF-49; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-4; Pip Knowledge Rules, rule 4 | Low confidence | Gardeners in or near Christchurch only |
 | 11 | In Dunedin, one source prunes its modern roses in late July, when they are most dormant and the worst frosts are over. In a frosty spot that can mean waiting until mid-August. One garden company says June or July, and August if you are unsure. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-11; ARC-BUSHROSE-TIMING-NZ-01 AF-45; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-10; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in or near Dunedin only |
 | 12 | Prune in winter, when the rose is dormant and not in active growth. In colder or frosty places, wait until the worst frosts have passed. | ARC-BUSHROSE-TIMING-NZ-01 AF-14 | High confidence | Gardeners in New Zealand only |
-| 13 | Prune before the rose bursts into growth. | ARC-BUSHROSE-TIMING-NZ-01 AF-41 | Moderate confidence | Gardeners in New Zealand only |
-| 14 | Don't prune too early. Frost can damage the new growth that follows. | ARC-BUSHROSE-TIMING-NZ-01 AF-15 | High confidence | Gardeners in New Zealand only |
+| 13 | Don't leave pruning too late: prune before the rose bursts into growth. | ARC-BUSHROSE-TIMING-NZ-01 AF-41 | Moderate confidence | Gardeners in New Zealand only |
+| 14 | Don't prune too early, because frost can damage the new growth that follows. | ARC-BUSHROSE-TIMING-NZ-01 AF-15 | High confidence | Gardeners in New Zealand only |
 | 15 | Two garden companies differ on a rose that still has its leaves or flowers in June. One says to wait until it is fully dormant, with no leaves left, which may mean pruning in July. The other says a rose can be pruned even if it is still flowering. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-12; ARC-BUSHROSE-TIMING-NZ-01 AF-37; ARC-BUSHROSE-TIMING-NZ-01 AF-46; Pip Knowledge Rules, rule 6 | Sources disagree | Gardeners in New Zealand only |
 
 All statements are rose-specific.
@@ -136,7 +136,7 @@ All statements are rose-specific.
 | PKR Type | Care Guidance PKR |
 | Title | When do I start and stop feeding? |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-18: PKR-SRC-000228, PKR-SRC-000253, PKR-SRC-000272, PKR-SRC-000302, PKR-SRC-000307, PKR-SRC-000309, PKR-SRC-000313; AF-19: PKR-SRC-000302, PKR-SRC-000307, PKR-SRC-000310, PKR-SRC-000311, PKR-SRC-000313; AF-20: PKR-SRC-000066; AF-21: PKR-SRC-000228, PKR-SRC-000229, PKR-SRC-000307, PKR-SRC-000309, PKR-SRC-000310, PKR-SRC-000311; AF-22: PKR-SRC-000307 |
 | Founder Approval Date | — |
@@ -152,9 +152,9 @@ All statements are rose-specific.
 | # | Guidance statement (gardener-facing) | Trace | Shown with | Shown to |
 |---|---|---|---|---|
 | 1 | Start feeding in spring, as new growth appears. | ARC-BUSHROSE-TIMING-NZ-01 AF-18 | High confidence | Gardeners in New Zealand only |
-| 2 | In New Zealand, September is the month named most often for the first feed. One source starts in late August, and one garden company not until mid to late October. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-19; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-6; Pip Knowledge Rules, rule 6 | Moderate confidence | Gardeners in New Zealand only |
+| 2 | In New Zealand, the first feed is usually given in September. It can be as early as late August or as late as mid to late October. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-19; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-6; Pip Knowledge Rules, rule 6 | Moderate confidence | Gardeners in New Zealand only |
 | 3 | In a frosty area, one source says it is better to wait until the last frosts before you feed your roses. | ARC-BUSHROSE-TIMING-NZ-01 AF-20; Pip Knowledge Rules, rule 7 | Precaution · Low confidence | Gardeners in New Zealand only |
-| 4 | Sources disagree on when to stop feeding. One says no later than the end of February, so that the canes (stems) can harden before winter. One nursery feeds until March and one garden company until early April, and two garden companies feed through autumn. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-5; ARC-BUSHROSE-TIMING-NZ-01 AF-21; ARC-BUSHROSE-TIMING-NZ-01 AF-22; Pip Knowledge Rules, rule 6 | Sources disagree | Gardeners in New Zealand only |
+| 4 | Sources disagree on when to stop feeding. One says no later than the end of February, so that the canes (stems) can harden before winter. Others say March or early April, and some feed through autumn. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-5; ARC-BUSHROSE-TIMING-NZ-01 AF-21; ARC-BUSHROSE-TIMING-NZ-01 AF-22; Pip Knowledge Rules, rule 6 | Sources disagree | Gardeners in New Zealand only |
 
 All statements are rose-specific.
 
@@ -166,7 +166,7 @@ All statements are rose-specific.
 | PKR Type | Care Guidance PKR |
 | Title | When do I stop deadheading? |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-23: PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000314; AF-24: PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000314 |
 | Founder Approval Date | — |
@@ -181,8 +181,8 @@ All statements are rose-specific.
 
 | # | Guidance statement (gardener-facing) | Trace | Shown with | Shown to |
 |---|---|---|---|---|
-| 1 | Several sources say to deadhead (remove the faded flowers) while the rose is flowering and name no time to stop. Two garden companies name one: one deadheads until the end of February, and one until the end of March and then leaves the flowers so that hips (the rose's fruit) can form. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-23; ARC-BUSHROSE-TIMING-NZ-01 AF-24; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-9; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in New Zealand only |
-| 2 | In Auckland, one garden service says to stop deadheading from March, so that the rose can form hips and rest before winter. Another Auckland source says to remove dead flowers all through the flowering season and names no time to stop. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-23; ARC-BUSHROSE-TIMING-NZ-01 AF-24; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-9; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Auckland only |
+| 1 | Deadhead (remove the faded flowers) while the rose is flowering. Two garden companies say when to stop: one at the end of February, and one at the end of March, leaving the last flowers so that hips (the rose's fruit) can form. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-23; ARC-BUSHROSE-TIMING-NZ-01 AF-24; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-9; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in New Zealand only |
+| 2 | In Auckland, one garden service says to stop deadheading from March, so that the rose can form hips and rest before winter. Another Auckland source says to keep removing dead flowers all through the flowering season. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-23; ARC-BUSHROSE-TIMING-NZ-01 AF-24; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-9; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Auckland only |
 | 3 | I couldn't find when to stop summer pruning (a light prune in summer to encourage more flowers) in New Zealand. A local rose society is the place to ask. | ARC-BUSHROSE-TIMING-NZ-01 AF-25; Pip Knowledge Rules, rule 5 | No source found | Gardeners in New Zealand only |
 
 All statements are rose-specific.
@@ -195,7 +195,7 @@ All statements are rose-specific.
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I plant or move a rose? |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-26: PKR-SRC-000157, PKR-SRC-000228, PKR-SRC-000229; AF-27: PKR-SRC-000034, PKR-SRC-000190, PKR-SRC-000229, PKR-SRC-000272, PKR-SRC-000273, PKR-SRC-000296, PKR-SRC-000311; AF-28: PKR-SRC-000253; AF-29: PKR-SRC-000034, PKR-SRC-000193, PKR-SRC-000272, PKR-SRC-000273; AF-30: PKR-SRC-000229, PKR-SRC-000274, PKR-SRC-000276, PKR-SRC-000311; AF-31: PKR-SRC-000228; AF-42: PKR-SRC-000299, PKR-SRC-000300, PKR-SRC-000301; AF-43: PKR-SRC-000274, PKR-SRC-000311 |
 | Founder Approval Date | — |
@@ -210,9 +210,9 @@ All statements are rose-specific.
 
 | # | Guidance statement (gardener-facing) | Trace | Shown with | Shown to |
 |---|---|---|---|---|
-| 1 | In New Zealand, winter is the best time to plant a rose. One garden company names June and July, and two garden centres say planting can go on through spring. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-27; Pip Knowledge Rules, rule 6 | Moderate confidence | Gardeners in New Zealand only |
+| 1 | In New Zealand, winter is the best time to plant a rose, and planting can go on through spring. One garden company says June and July are the best months. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-27; Pip Knowledge Rules, rule 6 | Moderate confidence | Gardeners in New Zealand only |
 | 2 | New roses for winter planting reach garden centres from June. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-26; Pip Knowledge Rules, rule 6 | Moderate confidence | Gardeners in New Zealand only |
-| 3 | In Canterbury, one source lists June, July and August for planting roses while they are dormant. It names July and August for bare-root roses, which are sold without soil on their roots. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-42; ARC-BUSHROSE-TIMING-NZ-01 AF-27; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Canterbury only |
+| 3 | In Canterbury, one source says to plant roses in June, July and August, while they are dormant. July and August are its months for bare-root roses, which are sold without soil on their roots. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-42; ARC-BUSHROSE-TIMING-NZ-01 AF-27; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Canterbury only |
 | 4 | In Auckland, one source says roses are best planted in autumn or winter. | ARC-BUSHROSE-TIMING-NZ-01 AF-28; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-8; Pip Knowledge Rules, rule 4 | Low confidence | Gardeners in Auckland only |
 | 5 | A rose in a pot can be planted at any time of year. Keep it well watered if you plant in spring or summer. | ARC-BUSHROSE-TIMING-NZ-01 AF-29 | Moderate confidence | Gardeners in New Zealand only |
 | 6 | Move an established rose in winter, while it is dormant. One garden centre page says autumn instead. | ARC-BUSHROSE-TIMING-NZ-01 AF-30; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-7; ARC-BUSHROSE-TIMING-NZ-01 AF-31 | Moderate confidence | Gardeners in New Zealand only |
@@ -228,7 +228,7 @@ All statements are rose-specific.
 | PKR Type | Care Guidance PKR |
 | Title | When do I clear up and spray in winter? |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-32: PKR-SRC-000066, PKR-SRC-000157, PKR-SRC-000190, PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000253, PKR-SRC-000274, PKR-SRC-000297, PKR-SRC-000298, PKR-SRC-000299, PKR-SRC-000300, PKR-SRC-000308, PKR-SRC-000314; AF-33: PKR-SRC-000066, PKR-SRC-000157, PKR-SRC-000190, PKR-SRC-000193, PKR-SRC-000228, PKR-SRC-000229, PKR-SRC-000272, PKR-SRC-000274, PKR-SRC-000295, PKR-SRC-000311, PKR-SRC-000312, PKR-SRC-000313; AF-44: PKR-SRC-000066, PKR-SRC-000313; AF-47: PKR-SRC-000157, PKR-SRC-000229, PKR-SRC-000313; AF-48: PKR-SRC-000298, PKR-SRC-000299, PKR-SRC-000300 |
 | Founder Approval Date | — |
@@ -243,12 +243,12 @@ All statements are rose-specific.
 
 | # | Guidance statement (gardener-facing) | Trace | Shown with | Shown to |
 |---|---|---|---|---|
-| 1 | Clear away fallen and diseased leaves in autumn and winter, and pick up the prunings and fallen leaves after pruning. Several sources say to burn them or put them in the rubbish, not the compost. | ARC-BUSHROSE-TIMING-NZ-01 AF-32 | High confidence | Gardeners in New Zealand only |
-| 2 | In Canterbury, one source lists removing diseased leaves from roses in May, June and July. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-48; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Canterbury only |
-| 3 | If you use a clean-up spray in winter (a spray meant to clear pests and diseases left on the plant), most sources apply it at pruning or just after. Two put a first clean-up spray in June, before pruning, and one of them names lime sulphur. Where a month is named for the winter spray, it is June or July. Months are only a guide, and the label on the spray comes first. | ARC-BUSHROSE-TIMING-NZ-01 AF-33; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-11; Pip Knowledge Rules, rule 6; Pip Knowledge Rules, rule 7 | Moderate confidence | Gardeners in New Zealand only |
-| 4 | For the winter spray, New Zealand sources name lime sulphur, copper and a spraying oil. Follow the label on the spray. | ARC-BUSHROSE-TIMING-NZ-01 AF-33; Pip Knowledge Rules, rule 7 | Moderate confidence | Gardeners in New Zealand only |
+| 1 | Clear away fallen and diseased leaves in autumn and winter, and pick up the prunings and fallen leaves after pruning. Burn them or put them in the rubbish, not the compost. | ARC-BUSHROSE-TIMING-NZ-01 AF-32 | High confidence | Gardeners in New Zealand only |
+| 2 | In Canterbury, one source says to remove diseased leaves from roses in May, June and July. Months are only a guide. | ARC-BUSHROSE-TIMING-NZ-01 AF-48; Pip Knowledge Rules, rule 4; Pip Knowledge Rules, rule 6 | Low confidence | Gardeners in Canterbury only |
+| 3 | If you use a clean-up spray in winter (a spray meant to clear pests and diseases left on the plant), put it on at pruning or just after. Some put a first spray on in June, before pruning. Months are only a guide, and the label on the spray comes first. | ARC-BUSHROSE-TIMING-NZ-01 AF-33; ARC-BUSHROSE-TIMING-NZ-01 §5.1 C-11; Pip Knowledge Rules, rule 6; Pip Knowledge Rules, rule 7 | Moderate confidence | Gardeners in New Zealand only |
+| 4 | In New Zealand, lime sulphur, copper and a spraying oil are used as winter sprays. Follow the label on the spray. | ARC-BUSHROSE-TIMING-NZ-01 AF-33; Pip Knowledge Rules, rule 7 | Moderate confidence | Gardeners in New Zealand only |
 | 5 | One source says lime sulphur strips the leaves from new growth, so if you use it as a winter spray, put it on at pruning time and don't leave it too late. Follow the label on the spray. | ARC-BUSHROSE-TIMING-NZ-01 AF-44; Pip Knowledge Rules, rule 7 | Precaution · Low confidence | Gardeners in New Zealand only |
-| 6 | If you use lime sulphur, keep it apart from other sprays. One source says not to use it within two weeks of a copper spray, one says to wait three weeks before any other spray, and one says never to mix it with other sprays. Follow the label on the spray. | ARC-BUSHROSE-TIMING-NZ-01 AF-47; Pip Knowledge Rules, rule 7 | Precaution · Moderate confidence | Gardeners in New Zealand only |
+| 6 | If you use lime sulphur, never mix it with other sprays, and leave two to three weeks before you use a copper spray. One garden centre says to wait three weeks before any other spray. Follow the label on the spray. | ARC-BUSHROSE-TIMING-NZ-01 AF-47; Pip Knowledge Rules, rule 7 | Precaution · Moderate confidence | Gardeners in New Zealand only |
 | 7 | I couldn't find New Zealand advice on covering roses or mounding soil over the base for winter. A local rose society is the place to ask. | ARC-BUSHROSE-TIMING-NZ-01 AF-35; Pip Knowledge Rules, rule 5 | No source found | Gardeners in New Zealand only |
 
 All statements are rose-specific.
@@ -261,7 +261,7 @@ All statements are rose-specific.
 | PKR Type | Care Guidance PKR |
 | Title | How do I allow for frost and my own garden? |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question |
 | Supporting Source(s) | AF-4: PKR-SRC-000303, PKR-SRC-000306; AF-5: PKR-SRC-000303, PKR-SRC-000304; AF-6: PKR-SRC-000303, PKR-SRC-000304; AF-36: PKR-SRC-000034, PKR-SRC-000067, PKR-SRC-000158, PKR-SRC-000228, PKR-SRC-000296, PKR-SRC-000297; AF-38: PKR-SRC-000034, PKR-SRC-000307 |
 | Founder Approval Date | — |
@@ -276,15 +276,16 @@ All statements are rose-specific.
 
 | # | Guidance statement (gardener-facing) | Trace | Shown with | Shown to |
 |---|---|---|---|---|
-| 1 | When to prune depends on where you live. One source says it also depends on your own garden: conditions can differ even within one suburb, so watch your own garden. | ARC-BUSHROSE-TIMING-NZ-01 AF-36 | High confidence | Gardeners in New Zealand only |
-| 2 | The national climate institute says frosts are common in the cooler months in most of New Zealand, but rare north of Waikato and less frequent near the coast. They are most frequent at inland South Island places such as Alexandra, and can still happen anywhere. | ARC-BUSHROSE-TIMING-NZ-01 AF-4; ARC-BUSHROSE-TIMING-NZ-01 AF-5 | Moderate confidence | Gardeners in New Zealand only |
-| 3 | The national climate institute says frost is local and can vary widely over a small area. Flat ground where cold air can't drain away, valleys and basins are the most likely to get frost. | ARC-BUSHROSE-TIMING-NZ-01 AF-6 | Moderate confidence | Gardeners in New Zealand only |
+| 1 | When to prune depends on where you live. Go by your own garden too: one source says the right time can differ even within one suburb, and that a frosty spot can mean waiting longer. | ARC-BUSHROSE-TIMING-NZ-01 AF-36 | High confidence | Gardeners in New Zealand only |
+| 2 | Frosts are common in the cooler months in most of New Zealand, the national climate institute says. They are rare north of Waikato, less frequent near the coast, and most frequent at inland South Island places such as Alexandra. They can still happen anywhere. | ARC-BUSHROSE-TIMING-NZ-01 AF-4; ARC-BUSHROSE-TIMING-NZ-01 AF-5 | Moderate confidence | Gardeners in New Zealand only |
+| 3 | Your garden is more likely to get frost if it is on flat ground where cold air can't drain away, or in a valley or basin, the national climate institute says. Frost can vary widely over a small area. | ARC-BUSHROSE-TIMING-NZ-01 AF-6 | Moderate confidence | Gardeners in New Zealand only |
 | 4 | Your local rose society can advise on timing for your own climate. | ARC-BUSHROSE-TIMING-NZ-01 AF-38 | Moderate confidence | Gardeners in New Zealand only |
 
 The frost statements in this record are about climate, from a climate research institute, and are not rose-specific. The others are rose-specific.
 
 ## 9. Wording Boundary Check (KIT Operations Manual §7.7)
 
+- Each sentence is about the plant or what the gardener does. A sentence speaks of the sources only where a rule requires it: "one source says", a disagreement, or a range (ROC Operations Manual §14.3 item 12). No sentence counts sources or says what they "name" or "include".
 - Each statement says the thing itself, in plain words a beginner can act on. No source is named. A single source is identified by its kind where that helps ("one garden company", "one garden centre manager", "the national climate institute"), and otherwise as "one source".
 - Every statement that names a month for a job says that months are only a guide (rule 6). Ranges are given where sources differ (rule 3).
 - Where a statement leads with the better-supported view and says who disagrees (rule 2), it carries the confidence label of the leading finding. "Sources disagree" marks the two statements where the sides are evenly matched: the last feed, and a rose still in leaf or flower in June.
@@ -314,8 +315,15 @@ The frost statements in this record are about climate, from a climate research i
 | 0.1 | 36 | 9 | 17 | 10 |
 | 0.2 | 40 | 32 | 8 | 0 |
 | 0.3 | 4 | 4 | 0 | 0 |
+| 0.4 | 16 | 10 | 5 | 1 |
+| 0.5 | 12 | 10 | 0 | 2 |
+| 0.6 | 2 | 2 | 0 | 0 |
 
 Version 0.3 changed four statements, each to wording a checker had suggested; those four were checked again.
+
+**Versions 0.4 to 0.6, plain words (7 October 2026).** A Founder read Pip's Answers at version 0.3 and found a sentence that was only about the sources ("Every source that names a month includes July"). It had been carried from the corrected finding into Pip's words, and the wording check had passed it because it was true. 21 statements were reworded so that each sentence is about the plant or what the gardener does; no fact was added. Version 0.4 (16 statements changed) was checked for accuracy by a new session: one failed, where a plain range for lime sulphur said more than the pages. Version 0.5 (12 changed) had two fails, both wording, and version 0.6 set those two to the checker's wording; both pass.
+
+**Part 3, the plain read (7 October 2026).** A session that saw only the statements read all 40 as a gardener would. It flagged nine sentences in version 0.4 (vague, repeated, or reading like a report) and one in version 0.5. Each was reworded, except that "modern roses" stays unexplained and the two frost statements still name their one source. The result is in `Working/AI Outputs/Build_Check_TIMING-NZ_plain_read_2026-10-07.json`.
 
 **What failed in version 0.1 and how it was fixed.** A one-source claim stated as the general view ("up north"). A Dunedin sentence shown to the whole country. Leaf fall given as part of what dormant means, where one company says it. "Most sources" where the count was three against three. Lime sulphur in June before pruning credited to two pages where one names it. "Each job" where the pages are about pruning. Months given without "months are only a guide". Statements resting on one organisation that did not say so. The check also found one conflict the research had not recorded (whether to wait for the leaves to fall), and five claims that had no finding of their own.
 

@@ -1,4 +1,4 @@
-# PKR Submission Package — Source PKRs for New Zealand Months (v0.3, Draft)
+# PKR Submission Package — Source PKRs for New Zealand Months (v0.6, Draft)
 
 **Draft, awaiting a Founder's approval.** Supports `PKR-CGD-BUSHROSE-TIMING-NZ-01-submission.md`. Built by KIT on 6 October 2026 from the Source Register of `FRD-BUSHROSE-TIMING-NZ-01` (`Working/AI Outputs/Source_Register_TIMING-NZ.json`, as corrected at the Build Check). Only sources that at least one finding relies on get a Source PKR.
 
@@ -14,7 +14,7 @@
 | PKR Type | Source PKR |
 | Title | Dunedin Botanic Garden (Linda Hellyer) — "Practical Tips for Rose Pruning" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -34,7 +34,7 @@
 | PKR Type | Source PKR |
 | Title | Dunedin Botanic Garden (Linda Hellyer) — "Summer Flower Needs Winter Maintenance" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -54,7 +54,7 @@
 | PKR Type | Source PKR |
 | Title | Otago Daily Times, Garden Life (produced by Dunedin Botanic Garden) — "Rose pruning can be easy" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -74,7 +74,7 @@
 | PKR Type | Source PKR |
 | Title | Canterbury Horticultural Society — "May in the Garden" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -94,7 +94,7 @@
 | PKR Type | Source PKR |
 | Title | Canterbury Horticultural Society — "June in the Garden" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -114,7 +114,7 @@
 | PKR Type | Source PKR |
 | Title | Canterbury Horticultural Society — "July in the Garden" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -134,7 +134,7 @@
 | PKR Type | Source PKR |
 | Title | Canterbury Horticultural Society — "August in the Garden" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -154,7 +154,7 @@
 | PKR Type | Source PKR |
 | Title | Canterbury Horticultural Society — "September in the Garden" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -174,7 +174,7 @@
 | PKR Type | Source PKR |
 | Title | NIWA (G. R. Macara) — "The Climate and Weather of New Zealand" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -194,7 +194,7 @@
 | PKR Type | Source PKR |
 | Title | NIWA (G. R. Macara) — "The Climate and Weather of Otago" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -214,7 +214,7 @@
 | PKR Type | Source PKR |
 | Title | NIWA — "Overview of New Zealand's climate" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -234,7 +234,7 @@
 | PKR Type | Source PKR |
 | Title | Figure.NZ — "Annual days of ground frost across selected New Zealand locations" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -254,7 +254,7 @@
 | PKR Type | Source PKR |
 | Title | Hayden Foulds, GrownUps New Zealand — "Feeding roses" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -274,7 +274,7 @@
 | PKR Type | Source PKR |
 | Title | Gareth Carter (general manager, Springvale Garden Centre), Whanganui Chronicle via NZ Herald — "Pruning deciduous fruit trees and roses" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -294,7 +294,7 @@
 | PKR Type | Source PKR |
 | Title | Tui Garden — "How often do I feed my roses?" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -314,7 +314,7 @@
 | PKR Type | Source PKR |
 | Title | South Pacific Roses — "Feeding & Watering Roses" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -334,7 +334,7 @@
 | PKR Type | Source PKR |
 | Title | Daltons — "How to Grow Roses Guide" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -354,7 +354,7 @@
 | PKR Type | Source PKR |
 | Title | Daltons, question and answer on winter pruning of roses |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -374,7 +374,7 @@
 | PKR Type | Source PKR |
 | Title | Oderings Garden Centres — "Roses: A Year-Round Guide" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
@@ -394,7 +394,7 @@
 | PKR Type | Source PKR |
 | Title | The Garden Fairies — "Autumn rose care for Auckland's climate" |
 | Status | Draft |
-| Version | 0.3 |
+| Version | 0.6 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
 | Founder Approval Date | — |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |

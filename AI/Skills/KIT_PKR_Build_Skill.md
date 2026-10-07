@@ -9,8 +9,8 @@ description: Build, submit and (after Founder approval) mark Published the PIP K
 
 **Document Title:** KIT PKR Build Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
-**Version:** 0.6
-**Status:** Approved — Version 0.1 approved by a Founder in chat, 1 October 2026; Version 0.2 approved by AskPIP Founder Authority, 5 October 2026; Version 0.3 at a Founder's direction, 5 October 2026 (coverage, statement rules, question topics, Build Check rounds); Version 0.4 at a Founder's direction, 5 October 2026; Version 0.5 on a Founder's decision of 6 October 2026 to keep the one-approval pattern (build from the completed dossier; Pip's Answers; one approval); Version 0.6, 7 October 2026, on a Founder's decision of 6 October 2026 (a statement is marked for the place its source names)
+**Version:** 0.7
+**Status:** Approved — Version 0.1 approved by a Founder in chat, 1 October 2026; Version 0.2 approved by AskPIP Founder Authority, 5 October 2026; Version 0.3 at a Founder's direction, 5 October 2026 (coverage, statement rules, question topics, Build Check rounds); Version 0.4 at a Founder's direction, 5 October 2026; Version 0.5 on a Founder's decision of 6 October 2026 to keep the one-approval pattern (build from the completed dossier; Pip's Answers; one approval); Version 0.6, 7 October 2026, on a Founder's decision of 6 October 2026 (a statement is marked for the place its source names); Version 0.7, 7 October 2026, at a Founder's direction (plain words: the sentence test and the plain read)
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/KIT_PKR_Build_Skill.md`
 **Last Updated:** 7 October 2026
@@ -63,6 +63,7 @@ These were set by the Founders in chat and apply until they change them.
 - **Never substitute a source silently.** If a register entry doesn't match an existing Source PKR (different page, edition, date or address), report it and let the Founders decide.
 - **Per-claim confidence**, never blended (PKR Standard §4.2).
 - **Clarify, never alter** (PKR Standard §4.3): gardener-friendly wording must not add, extend or reinterpret a finding. ROC's own synthesis (EAS §2.10) never enters a PKR.
+- **Plain words, about the plant** (a Founder's direction, 7 October 2026). Write each sentence so that it tells the gardener what to do, look for or decide. A sentence about the sources (how many said what, or what they "name", "list" or "include") is written only where a rule requires it: "one source says", a disagreement, or a range. Never carry a finding's research wording into Pip's words: the finding may count sources, and Pip does not. When the Build Check finds a count is off, fix it by saying the thing plainly or saying less, not by adding more counting.
 - **Gardener copy names the rose type** ("your Hybrid Tea", "your rose"), never "bush rose".
 - **Journey conventions:**
   - Every observation loops ("Can you see any more …?") until the gardener says no.
@@ -115,6 +116,7 @@ Set the title-line status to `(v0.1, Draft)`. The package has these sections, in
 # 5. Check before submitting (KIT OM Chapter 13)
 
 - Every confidence level matches the ARC's summary table.
+- Read every statement sentence by sentence, as a gardener would. Remove or reword any sentence that is about the sources, is empty, or cannot be acted on (ROC OM §14.3 item 12). The Build Check's plain read (ROC OM §14.2A, Part 3) tests the same thing.
 - Every finding has a Source PKR list that matches the ARC's Source Register. Check this by script where you can.
 - Nothing appears that isn't in the ARC. Defaults are labelled "approved default".
 - No "Not sure" route offers Cut.

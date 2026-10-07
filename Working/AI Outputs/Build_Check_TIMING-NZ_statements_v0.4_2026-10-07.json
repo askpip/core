@@ -1,0 +1,801 @@
+{
+ "what": "Build Check Part 2 (wording check), statements version 0.4, 7 October 2026.",
+ "statements_checked": [
+  {
+   "ref": "PKR-CGD-000022 item 1",
+   "question": "Which months do I prune my rose?",
+   "text": "In New Zealand, the main winter pruning is done between June and August, depending on where you live. Months are only a guide, because frosts vary from year to year.",
+   "limit": null,
+   "trace": [
+    "AF-8",
+    "AF-36",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 2",
+   "question": "Which months do I prune my rose?",
+   "text": "Prune later where it is colder: the north starts earlier than the south. One garden company says the opposite: that cooler places can prune earlier, once all the leaves have fallen.",
+   "limit": null,
+   "trace": [
+    "AF-1",
+    "C-2",
+    "AF-17"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 3",
+   "question": "Which months do I prune my rose?",
+   "text": "Up north, one source says pruning starts around early July. Another says it can start a little earlier. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-9",
+    "C-3",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-N"
+   ],
+   "shown_to": "Gardeners in the North Island only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 4",
+   "question": "Which months do I prune my rose?",
+   "text": "In the colder parts of the South Island, pruning gets under way in August. In Dunedin, one source prunes in late July. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-10",
+    "C-10",
+    "AF-11",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ-S"
+   ],
+   "shown_to": "Gardeners in the South Island only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 5",
+   "question": "Which months do I prune my rose?",
+   "text": "In Northland, one garden company says the end of July to early August is a good time to prune. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-40",
+    "C-3",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-NTL"
+   ],
+   "shown_to": "Gardeners in Northland only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 6",
+   "question": "Which months do I prune my rose?",
+   "text": "In Auckland, one garden company says to prune in July. Another says June to July, before the rose bursts into leaf, which can be as early as August there. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-39",
+    "C-3",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-AUK"
+   ],
+   "shown_to": "Gardeners in Auckland only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 7",
+   "question": "Which months do I prune my rose?",
+   "text": "In Whanganui, one garden centre manager says roses are best pruned in July. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-13",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-MWT:Whanganui"
+   ],
+   "shown_to": "Gardeners in or near Whanganui only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 8",
+   "question": "Which months do I prune my rose?",
+   "text": "In Masterton, one garden company says to prune in July to August. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-13",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-WGN:Masterton"
+   ],
+   "shown_to": "Gardeners in or near Masterton only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 9",
+   "question": "Which months do I prune my rose?",
+   "text": "In Canterbury, one source says pruning can begin towards the end of July in milder parts and be completed there in August. Colder areas may prefer to wait until August, and colder inland districts until the worst frosts have passed. It says to finish winter pruning in September. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-12",
+    "AF-10",
+    "C-4",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-CAN"
+   ],
+   "shown_to": "Gardeners in Canterbury only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 10",
+   "question": "Which months do I prune my rose?",
+   "text": "In Christchurch, one garden company says to leave pruning until late winter or early spring, after the last frost.",
+   "limit": null,
+   "trace": [
+    "AF-49",
+    "C-4",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-CAN:Christchurch"
+   ],
+   "shown_to": "Gardeners in or near Christchurch only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 11",
+   "question": "Which months do I prune my rose?",
+   "text": "In Dunedin, one source prunes its modern roses in late July, when they are most dormant and the worst frosts are over. In a frosty spot that can mean waiting until mid-August. One garden company says June or July, and August if you are unsure. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-11",
+    "AF-45",
+    "C-10",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-OTA:Dunedin"
+   ],
+   "shown_to": "Gardeners in or near Dunedin only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 12",
+   "question": "Which months do I prune my rose?",
+   "text": "Prune in winter, when the rose is dormant and not in active growth. In colder or frosty places, wait until the worst frosts have passed.",
+   "limit": null,
+   "trace": [
+    "AF-14"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 13",
+   "question": "Which months do I prune my rose?",
+   "text": "Prune before the rose bursts into growth.",
+   "limit": null,
+   "trace": [
+    "AF-41"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 14",
+   "question": "Which months do I prune my rose?",
+   "text": "Don't prune too early. Frost can damage the new growth that follows.",
+   "limit": null,
+   "trace": [
+    "AF-15"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000022 item 15",
+   "question": "Which months do I prune my rose?",
+   "text": "Two garden companies differ on a rose that still has its leaves or flowers in June. One says to wait until it is fully dormant, with no leaves left, which may mean pruning in July. The other says a rose can be pruned even if it is still flowering. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "C-12",
+    "AF-37",
+    "AF-46",
+    "rule 6"
+   ],
+   "confidence": null,
+   "kind": "disagreement",
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000023 item 1",
+   "question": "When do I start and stop feeding?",
+   "text": "Start feeding in spring, as new growth appears.",
+   "limit": null,
+   "trace": [
+    "AF-18"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000023 item 2",
+   "question": "When do I start and stop feeding?",
+   "text": "In New Zealand, the first feed is usually given in September. It can be as early as late August or as late as mid to late October. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-19",
+    "C-6",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000023 item 3",
+   "question": "When do I start and stop feeding?",
+   "text": "In a frosty area, one source says it is better to wait until the last frosts before you feed your roses.",
+   "limit": null,
+   "trace": [
+    "AF-20",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": "precaution",
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000023 item 4",
+   "question": "When do I start and stop feeding?",
+   "text": "Sources disagree on when to stop feeding. One says no later than the end of February, so that the canes (stems) can harden before winter. Others say March or early April, and some feed right through autumn. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "C-5",
+    "AF-21",
+    "AF-22",
+    "rule 6"
+   ],
+   "confidence": null,
+   "kind": "disagreement",
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000024 item 1",
+   "question": "When do I stop deadheading?",
+   "text": "Deadhead (remove the faded flowers) while the rose is flowering. Two garden companies say when to stop: one at the end of February, and one at the end of March, leaving the last flowers so that hips (the rose's fruit) can form. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-23",
+    "AF-24",
+    "C-9",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000024 item 2",
+   "question": "When do I stop deadheading?",
+   "text": "In Auckland, one garden service says to stop deadheading from March, so that the rose can form hips and rest before winter. Another Auckland source says to keep removing dead flowers all through the flowering season. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-23",
+    "AF-24",
+    "C-9",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-AUK"
+   ],
+   "shown_to": "Gardeners in Auckland only"
+  },
+  {
+   "ref": "PKR-CGD-000024 item 3",
+   "question": "When do I stop deadheading?",
+   "text": "I couldn't find when to stop summer pruning (a light prune in summer to encourage more flowers) in New Zealand. A local rose society is the place to ask.",
+   "limit": null,
+   "trace": [
+    "AF-25",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000025 item 1",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In New Zealand, winter is the best time to plant a rose, and planting can go on through spring. One garden company says June and July are the best months. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-27",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000025 item 2",
+   "question": "Which months do I plant or move a rose?",
+   "text": "New roses for winter planting reach garden centres from June. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-26",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000025 item 3",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Canterbury, one source says to plant roses in June, July and August, while they are dormant. July and August are its months for bare-root roses, which are sold without soil on their roots. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-42",
+    "AF-27",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-CAN"
+   ],
+   "shown_to": "Gardeners in Canterbury only"
+  },
+  {
+   "ref": "PKR-CGD-000025 item 4",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Auckland, one source says roses are best planted in autumn or winter.",
+   "limit": null,
+   "trace": [
+    "AF-28",
+    "C-8",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-AUK"
+   ],
+   "shown_to": "Gardeners in Auckland only"
+  },
+  {
+   "ref": "PKR-CGD-000025 item 5",
+   "question": "Which months do I plant or move a rose?",
+   "text": "A rose in a pot can be planted at any time of year. Keep it well watered if you plant in spring or summer.",
+   "limit": null,
+   "trace": [
+    "AF-29"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000025 item 6",
+   "question": "Which months do I plant or move a rose?",
+   "text": "Move an established rose in winter, while it is dormant. One garden centre page says autumn instead.",
+   "limit": null,
+   "trace": [
+    "AF-30",
+    "C-7",
+    "AF-31"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000025 item 7",
+   "question": "Which months do I plant or move a rose?",
+   "text": "For moving a rose, one garden centre says July, after pruning and once the risk of frost has passed. One garden company says June or July. Months are only a guide, because frosts vary from year to year.",
+   "limit": null,
+   "trace": [
+    "AF-43",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000026 item 1",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Clear away fallen and diseased leaves in autumn and winter, and pick up the prunings and fallen leaves after pruning. Burn them or put them in the rubbish, not the compost.",
+   "limit": null,
+   "trace": [
+    "AF-32"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000026 item 2",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Canterbury, one source says to remove diseased leaves from roses in May, June and July. Months are only a guide.",
+   "limit": null,
+   "trace": [
+    "AF-48",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "NZ-CAN"
+   ],
+   "shown_to": "Gardeners in Canterbury only"
+  },
+  {
+   "ref": "PKR-CGD-000026 item 3",
+   "question": "When do I clear up and spray in winter?",
+   "text": "If you use a clean-up spray in winter (a spray meant to clear pests and diseases left on the plant), put it on at pruning or just after, in June or July. Some put a first spray on in June, before pruning. Months are only a guide, and the label on the spray comes first.",
+   "limit": null,
+   "trace": [
+    "AF-33",
+    "C-11",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000026 item 4",
+   "question": "When do I clear up and spray in winter?",
+   "text": "The winter sprays used in New Zealand are lime sulphur, copper and a spraying oil. Follow the label on the spray.",
+   "limit": null,
+   "trace": [
+    "AF-33",
+    "rule 7"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000026 item 5",
+   "question": "When do I clear up and spray in winter?",
+   "text": "One source says lime sulphur strips the leaves from new growth, so if you use it as a winter spray, put it on at pruning time and don't leave it too late. Follow the label on the spray.",
+   "limit": null,
+   "trace": [
+    "AF-44",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": "precaution",
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000026 item 6",
+   "question": "When do I clear up and spray in winter?",
+   "text": "If you use lime sulphur, never mix it with other sprays, and leave two to three weeks before you use another one. Follow the label on the spray.",
+   "limit": null,
+   "trace": [
+    "AF-47",
+    "rule 7"
+   ],
+   "confidence": "Moderate",
+   "kind": "precaution",
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000026 item 7",
+   "question": "When do I clear up and spray in winter?",
+   "text": "I couldn't find New Zealand advice on covering roses or mounding soil over the base for winter. A local rose society is the place to ask.",
+   "limit": null,
+   "trace": [
+    "AF-35",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000027 item 1",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "When to prune depends on where you live. One source says it also depends on your own garden: conditions can differ even within one suburb, so watch your own garden.",
+   "limit": null,
+   "trace": [
+    "AF-36"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000027 item 2",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "The national climate institute says frosts are common in the cooler months in most of New Zealand, but rare north of Waikato and less frequent near the coast. They are most frequent at inland South Island places such as Alexandra, and can still happen anywhere.",
+   "limit": null,
+   "trace": [
+    "AF-4",
+    "AF-5"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000027 item 3",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "The national climate institute says frost is local and can vary widely over a small area. Flat ground where cold air can't drain away, valleys and basins are the most likely to get frost.",
+   "limit": null,
+   "trace": [
+    "AF-6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  },
+  {
+   "ref": "PKR-CGD-000027 item 4",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "Your local rose society can advise on timing for your own climate.",
+   "limit": null,
+   "trace": [
+    "AF-38"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "NZ"
+   ],
+   "shown_to": "Gardeners in New Zealand only"
+  }
+ ],
+ "results": [
+  {
+   "ref": "PKR-CGD-000022 item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "June to August: AF-8 (MATT; NZRS-DEMO late June to mid August; June/July and July/August pages). 'Depending on where you live': AF-36 (NZRS-FAQ, NZRS-DEMO, SPR-P, PALM-YRC). The frost reason is rule 6's own. Dropping the July sentence says less.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 item 3",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Rule (a), exactness. PALM-YRC (AF-9) says the north can start 'a bit earlier than this', where 'this' is July through mid-late August, so it means before July. After 'around early July', 'a little earlier' can be read as still in July. The old wording, 'a little before July', was exact. Both halves are still marked as one source each (NZRS-FAQ; PALM-YRC).",
+   "suggested_wording": "Up north, one source says pruning starts around early July. Another says it can start a little before July. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000022 item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "August for the colder South Island is backed by three organisations (AF-10): NZRS-FAQ in these words, CHS-JUL/CHS-AUG for colder Canterbury, ODT-GL for frosty Dunedin spots (mid-August). Dunedin late July is one organisation on three pages (AF-11) and is still marked.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-39: GF names July as pruning time; TUI-PG says June to July, before bursting into leaf, as early as August in Auckland. Each is marked as one source.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 item 9",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Rule (a), exactness. CHS-AUG (AF-10, AF-12) says 'In colder inland districts, prune once the worst frosts have passed', an instruction. The new sentence reads 'colder inland districts [may prefer to wait] until the worst frosts have passed', which turns it into an option the page does not give. It is weaker, not stronger, so not a fail. 'It says to finish winter pruning in September' is fair: CHS-SEP's sentence sits on the September page.",
+   "suggested_wording": "In Canterbury, one source says pruning can begin towards the end of July in milder parts and be completed there in August. Colder areas may prefer to wait until August, and colder inland districts prune once the worst frosts have passed. It says to finish winter pruning in September. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "'Usually given in September' is supported (AF-19): four of five organisations point to September. GU-F says September is usually the first month and SPR-F names September in words; ODER ('After August') and CHS-SEP (September page) imply it. Each end of the range is one page (late August GU-F; mid to late October DALT-G); I have treated the sentence as a rule (c) range, which needs no source count.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 item 4",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Rule (a), one word. 'Right through autumn' is new. AF-21 says two companies feed through autumn: KINGS says 'through to the end of autumn', but YAT-NZ says only 'from spring to autumn', so 'right through' is one page's wording set against 'some'. Drop 'right'. The rest holds: end of February and the canes reason are GU-F and marked 'One says'; March is SPR-F, early April DALT-G.",
+   "suggested_wording": "Sources disagree on when to stop feeding. One says no later than the end of February, so that the canes (stems) can harden before winter. Others say March or early April, and some feed through autumn. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000024 item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Deadheading while the rose flowers is backed by several organisations (ABG, YAT-NZ, PALM-G, DALT-G). The two stop times are MATT (end of February, implied) and PALM-YRC (end of March, hips), and the sentence naming them is needed by rule (b) and because they differ (AF-23, AF-24).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "GF: stop from March, hips and rest before winter. ABG: remove spent flowers throughout the flowering season. Each is marked as one source (AF-23, AF-24).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Winter best: NZRS-FAQ, KINGS, DUN-WM and others. Through spring: KINGS and PALM-G, two separate companies, so it can be stated plainly. June and July as the best months is DALT-G alone and is marked (AF-27).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "CHS-JUN, CHS-JUL, CHS-AUG, one organisation, marked (AF-42). 'Its months' keeps the second sentence tied to that source, as rule (b) requires. 'It says to plant bare-root roses in July and August' would be plainer but is not required.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "'Burn them or put them in the rubbish, not the compost' is backed by more than two sources (AF-32). GU-P says rubbish or burnt, do not compost, for prunings and fallen leaves. NZH-W says burn or rubbish rather than composting, for diseased prunings. ODT-GL says not the compost. NZRS-W says to burn fallen leaves. No source count is needed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "CHS-MAY, CHS-JUN, CHS-JUL, one organisation, marked (AF-48).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 item 3",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Rules (a) and (b) are met, but joining the months to the instruction creates a clash. 'At pruning or just after' is many pages (AF-33). 'In June or July' for that spray is two of them (GU-P July; ODER June/July); the rest name no month and tie the spray to pruning only. Pip's own pruning answers run to August (item 1) and say August for the colder South Island (item 4), so a gardener who prunes in August is told both 'at pruning or just after' and 'in June or July'. The old wording kept the months apart from the instruction. Saying less removes the clash. 'Some put a first spray on in June, before pruning' is KINGS and NZRS-W (C-11) and is fine.",
+   "suggested_wording": "If you use a clean-up spray in winter (a spray meant to clear pests and diseases left on the plant), put it on at pruning or just after. Some put a first spray on in June, before pruning. Months are only a guide, and the label on the spray comes first."
+  },
+  {
+   "ref": "PKR-CGD-000026 item 4",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Rule (a), wording. Each type is named by more than two organisations (AF-33), so no source count is needed. But 'The winter sprays used in New Zealand are' reads as a complete list and as a fact about national practice; the pages only name these three as what they use. Turn the sentence round so it does not claim to be the whole list.",
+   "suggested_wording": "In New Zealand, lime sulphur, copper and a spraying oil are used as winter sprays. Follow the label on the spray."
+  },
+  {
+   "ref": "PKR-CGD-000026 item 6",
+   "result": "Fail",
+   "points_failed": [
+    "a"
+   ],
+   "note": "Rule (a). 'Two to three weeks before you use another one' is not a fair range of AF-47. The two weeks is said only of copper (NZRS-W: lime sulphur and copper based sprays not within 2 weeks of each other). The three weeks is said of any other spray (KINGS). No page gives two weeks for sprays in general, so the new wording stretches NZRS-W's figure to every spray; the finding's limitation also records DALT-G using an oil 3 or 4 days after. For copper alone the range is fair. 'Never mix it with other sprays' is ODER's wording and is carried by KINGS's three-week rule for all other sprays, so it can stand without a source count. The three weeks for any other spray is KINGS alone, so rule (b) needs it marked. A shorter version that also passes: end the second sentence at 'copper spray' and leave the third out.",
+   "suggested_wording": "If you use lime sulphur, never mix it with other sprays. Leave two to three weeks before you use a copper spray. One garden centre says to leave three weeks before any other spray. Follow the label on the spray."
+  }
+ ],
+ "package_notes": [
+  "The same Auckland business (GF) is 'one garden company' in PKR-CGD-000022 item 6 and 'one garden service' in PKR-CGD-000024 item 2. Both are shown to Auckland gardeners; one description would be cleaner.",
+  "PKR-CGD-000026 item 3 ties the spray to June or July, while PKR-CGD-000022 items 1 and 4 have pruning running to August. See the note on that item.",
+  "No sentence failed rule (e). Every sentence about sources that remains is a 'one source' marker, a disagreement, or a range. Every statement that names a month says months are only a guide.",
+  "AF-39, AF-42, AF-47 and AF-48 have no entry in view_findings.txt. They were checked against findings_corrected.json and the page quotations in view_also.txt (KINGS, NZRS-W, ODER, GU-P, NZH-W, ODT-GL, TUI-PG). No website was opened."
+ ],
+ "findings_comments": [
+  "AF-47: the 'says' keeps the scope of each interval (two weeks for copper, three weeks for any other spray). The reworded statement lost it. The source notes also show DALT-G and DALT-Q telling the gardener not to mix lime sulphur and copper, which is not listed under AF-47 and would be a second page in words for 'never mix'.",
+  "AF-32: the source notes record two more disposal lines not listed in the finding's limitation: a TUI-PG reader reply (rubbish or burn, not compost) and YAT-NZ (burn diseased clippings or use the green bin). Neither is needed for the statement to pass.",
+  "AF-19: 'usually' is GU-F's own word; the other three September pages support the month, not the word. Enough for the statement as written."
+ ]
+}
