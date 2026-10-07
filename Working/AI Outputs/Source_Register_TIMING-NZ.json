@@ -1,591 +1,628 @@
 [
- {
-  "code": "NZRS-FAQ",
-  "source": "The New Zealand Rose Society, \"FAQ\", page modified 30 March 2026. Rose society, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://nzroses.org.nz/faq/",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-2",
-   "AF-9",
-   "AF-10",
-   "AF-27",
-   "AF-29",
-   "AF-38"
-  ],
-  "quote": "AF-1: \"Pruning starts up north around early July while in the colder parts of the South Island, it gets under-way in August.\" || AF-2: \"Peak bloom in spring is first two weeks in November for the upper North Island, last two weeks for the lower North Island\" || AF-9: \"Pruning starts up north around early July\" || AF-10: \"in the colder parts of the South Island, it gets under-way in August.\" || AF-27: \"Winter is the best time to plant as it allows the plant to establish before summer arrives.\" || AF-29: \"If planting potted roses during spring and summer, keep them well watered.\" || AF-38: \"Your local rose society can provide advice suited to your own climate.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "NZRS-W",
-  "source": "The New Zealand Rose Society (Peter Elliott), \"Winter Rose Care\", extract from NZ Rosarian, June 1996; posted 30 March 2009. Rose society, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://nzroses.org.nz/winter-rose-care/",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-26",
-   "AF-32",
-   "AF-33"
-  ],
-  "quote": "AF-8: \"Most people prune in July and even August.\" || AF-26: \"most garden centres promote new roses early in June.\" || AF-32: \"Rake up all fallen leaves and burn them as they can harbour spores that spread disease later on.\" || AF-33: \"it is highly recommended that clean up sprays be applied in June.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "NZRS-DEMO",
-  "source": "The New Zealand Rose Society, \"Free Rose Pruning Demonstrations\", updated 6 June 2019. Rose society, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://nzroses.org.nz/free-rose-pruning-demonstrations/",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-36"
-  ],
-  "quote": "AF-8: \"roses are usually pruned between late June and mid August depending on where you live\" || AF-36: \"depending on where you live\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "DUN-PT",
-  "source": "Dunedin Botanic Garden (Linda Hellyer, curator of the rose garden), \"Practical Tips for Rose Pruning\", first published 26 June 2014. Public botanic garden (Dunedin City Council), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-11",
-   "AF-14"
-  ],
-  "quote": "AF-1: \"The general rule is the colder the climate, the later you prune in winter.\" || AF-11: \"At Dunedin Botanic Garden we prune modern roses in late July\" || AF-14: \"when they are at their most dormant and hopefully the heaviest of frosts have passed.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "DUN-WM",
-  "source": "Dunedin Botanic Garden (Linda Hellyer), \"Summer Flower Needs Winter Maintenance\", 9 July 2015. Public botanic garden, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://dunedinbotanicgarden.co.nz/collections/garden-life-article/summer-flower-needs-winter-maintenance",
-  "status": "Opened",
-  "findings": [
-   "AF-11",
-   "AF-15"
-  ],
-  "quote": "AF-11: \"at Dunedin Botanic Garden pruning is left until late July, after the worst of the frosts.\" || AF-15: \"If pruned too early, roses can be hit by frost but too late and growth will have already started.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "ODT-GL",
-  "source": "Otago Daily Times, Garden Life column (produced by Dunedin Botanic Garden; contact Linda Hellyer), \"Rose pruning can be easy\", 5 July 2018. Newspaper column by a public botanic garden, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.odt.co.nz/lifestyle/home-garden/rose-pruning-can-be-easy",
-  "status": "Opened",
-  "findings": [
-   "AF-10",
-   "AF-11",
-   "AF-36"
-  ],
-  "quote": "AF-10: \"frosty locations can mean waiting until mid-August.\" || AF-11: \"Roses need pruning when they are at their most dormant, which in Dunedin tends to be late July.\" || AF-36: \"Take into consideration the microclimate in your garden, though, as frosty locations can mean waiting until mid-August.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "CHS-MAY",
-  "source": "Canterbury Horticultural Society (CHS Website Editor), \"May in the Garden\", 30 April 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.chsgardens.co.nz/may-in-the-garden/",
-  "status": "Opened",
-  "findings": [
-   "AF-32"
-  ],
-  "quote": "AF-32: \"Roses — Begin light tidy-up pruning and remove diseased foliage.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "CHS-JUN",
-  "source": "Canterbury Horticultural Society (CHS Website Editor), \"June in the Garden\", 28 May 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.chsgardens.co.nz/june-in-the-garden/",
-  "status": "Opened",
-  "findings": [
-   "AF-27",
-   "AF-32"
-  ],
-  "quote": "AF-27: \"A great time for planting deciduous trees, roses and hardy shrubs while dormant.\" || AF-32: \"Roses — Remove diseased leaves and begin light winter pruning where needed.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "CHS-JUL",
-  "source": "Canterbury Horticultural Society (CHS Website Editor), \"July in the Garden\", 1 July 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.chsgardens.co.nz/july-in-the-garden/",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-10",
-   "AF-12",
-   "AF-27",
-   "AF-32"
-  ],
-  "quote": "AF-1: \"In milder parts of Canterbury, pruning can begin towards the end of the month; colder areas may prefer to wait until August.\" || AF-10: \"colder areas may prefer to wait until August.\" || AF-12: \"In milder parts of Canterbury, pruning can begin towards the end of the month\" || AF-27: \"July is one of the best months to plant roses, deciduous trees, shrubs and hedging while dormant.\" || AF-32: \"Remove any remaining diseased leaves.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "CHS-AUG",
-  "source": "Canterbury Horticultural Society (CHS Website Editor), \"August in the Garden\", 27 July 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.chsgardens.co.nz/august-in-the-garden/",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-10",
-   "AF-12",
-   "AF-14",
-   "AF-27"
-  ],
-  "quote": "AF-1: \"Complete winter pruning in milder areas. In colder inland districts, prune once the worst frosts have passed.\" || AF-10: \"In colder inland districts, prune once the worst frosts have passed.\" || AF-12: \"Complete winter pruning in milder areas.\" || AF-14: \"prune once the worst frosts have passed.\" || AF-27: \"August remains an excellent time to plant roses, deciduous trees, shrubs and hedging while they are dormant.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "CHS-SEP",
-  "source": "Canterbury Horticultural Society (CHS Website Editor), \"September in the Garden\", 31 August 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.chsgardens.co.nz/september-in-the-garden/",
-  "status": "Opened",
-  "findings": [
-   "AF-18",
-   "AF-19"
-  ],
-  "quote": "AF-18: \"Finish winter pruning and begin feeding roses as new growth appears.\" || AF-19: \"Finish winter pruning and begin feeding roses as new growth appears.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "ABG",
-  "source": "Auckland Botanic Gardens, \"Roses\" (garden advice), date not shown. Public botanic garden (Auckland Council), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-14",
-   "AF-18",
-   "AF-28"
-  ],
-  "quote": "AF-14: \"Roses benefit from pruning each winter when they are not in active growth.\" || AF-18: \"Apply fertiliser in spring to help keep plants healthy.\" || AF-28: \"Planting is best done in autumn or winter.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "NIWA-NZ",
-  "source": "NIWA (G. R. Macara), \"The Climate and Weather of New Zealand\", NIWA Science and Technology Series No. 74, 2018. National climate research institute, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://webstatic.niwa.co.nz/static/web/NZ_Climate-NIWA.pdf",
-  "status": "Opened",
-  "findings": [
-   "AF-4",
-   "AF-5",
-   "AF-6"
-  ],
-  "quote": "AF-4: \"Frosts are common in the cooler months for most of the country, however they occur rarely north of Waikato.\" || AF-5: \"they occur less frequently in coastal and northernmost areas.\" || AF-6: \"Areas most likely to experience frost are flat areas ... and in valleys and basins.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "NIWA-OT",
-  "source": "NIWA (G. R. Macara), \"The Climate and Weather of Otago\", NIWA Science and Technology Series No. 67, 2015. National climate research institute, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://niwa.co.nz/sites/default/files/Otago%20Climate%20book%20WEB%202021.pdf",
-  "status": "Opened",
-  "findings": [
-   "AF-5",
-   "AF-6"
-  ],
-  "quote": "AF-5: \"air frosts occur most frequently at the inland location of Alexandra.\" || AF-6: \"Frost is a local phenomenon and both its frequency of occurrence and intensity can vary widely over small areas.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "NIWA-OV",
-  "source": "NIWA, \"Overview of New Zealand's climate\", date not shown. National climate research institute, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://niwa.co.nz/education-and-training/schools/resources/climate/overview",
-  "status": "Opened",
-  "findings": [
-   "AF-7"
-  ],
-  "quote": "AF-7: \"New Zealand's climate is complex and varies from warm subtropical in the far north to cool temperate climates in the far south\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "FIG-FROST",
-  "source": "Figure.NZ, \"Annual days of ground frost across selected New Zealand locations\" (provider: NIWA; mean annual values 1991 to 2020), date not shown. Non-profit data publisher reproducing NIWA data, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://figure.nz/chart/Hra3vx0XfcsJEf5H",
-  "status": "Opened",
-  "findings": [
-   "AF-4"
-  ],
-  "quote": "AF-4: \"Annual days of ground frost across selected New Zealand locations ... Provider: NIWA\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GU-P",
-  "source": "Hayden Foulds, GrownUps New Zealand, \"Pruning roses\", date not shown. General-interest website (rose column), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://grownups.co.nz/life/gardening/pruning-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-32",
-   "AF-33"
-  ],
-  "quote": "AF-8: \"July and August are the two main months for pruning roses in New Zealand\" || AF-32: \"The same applies to any fallen leaves which you must pick up after pruning.\" || AF-33: \"Get a winter clean up spray of copper applied to your roses but leave it a few days after pruning.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GU-F",
-  "source": "Hayden Foulds, GrownUps New Zealand, \"Feeding roses\", 22 September 2017. General-interest website (rose column), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://grownups.co.nz/life/gardening/feeding-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-18",
-   "AF-19",
-   "AF-21",
-   "AF-22"
-  ],
-  "quote": "AF-18: \"you want to get your first application on as the roses are coming into growth.\" || AF-19: \"In late August and into September, you want to get your first application on as the roses are coming into growth.\" || AF-21: \"similar applications in December after the first flush of blooms and again no later than the end of February.\" || AF-22: \"After this time, let the roses prepare for winter by allowing the canes to harden up.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GU-DH",
-  "source": "GrownUps New Zealand, \"Deadheading – Rose Bush Care\", 9 April 2025, author not shown. General-interest website, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://grownups.co.nz/life/gardening/deadheading-rose-bush-care/",
-  "status": "Opened",
-  "findings": [
-   "AF-23",
-   "AF-24"
-  ],
-  "quote": "AF-23: \"you may wish to stop deadheading in late summer to allow them to develop.\" || AF-24: \"If you enjoy the look of rose hips, you may wish to stop deadheading in late summer\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "NZH-W",
-  "source": "Gareth Carter (general manager, Springvale Garden Centre), Whanganui Chronicle / Wanganui Midweek via NZ Herald, \"Pruning deciduous fruit trees and roses\", 20 July 2020. Newspaper column by a garden-centre manager, New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.nzherald.co.nz/whanganui-chronicle/news/pruning-deciduous-fruit-trees-and-roses/3X7LTSFCPJQOXDEY6Y2SR6GVGQ/",
-  "status": "Opened",
-  "findings": [
-   "AF-13",
-   "AF-15"
-  ],
-  "quote": "AF-13: \"In Whanganui, roses and deciduous fruit trees such as apples and pears are best pruned in July.\" || AF-15: \"The plant can then produce some new growth which risks getting walloped with a July frost.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "TUI-PG",
-  "source": "Tui Garden, \"Rose Pruning Guide\" (with reader questions and answers), date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/rose-pruning-guide/",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-9",
-   "AF-10",
-   "AF-13",
-   "AF-15"
-  ],
-  "quote": "AF-1: \"as you are in a colder climate we would recommend leaving pruning until late winter or early spring after the last frost.\" || AF-9: \"the end of July, early August is a good time to prune in Northland.\" || AF-10: \"as you are in a colder climate we would recommend leaving pruning until late winter or early spring after the last frost.\" || AF-13: \"prune roses in your region in mid to late winter which is July - August.\" || AF-15: \"If you prune too early you risk the plant sending out new growth which won't have had time to harden off\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "TUI-FEED",
-  "source": "Tui Garden, \"How often do I feed my roses?\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://tuigarden.co.nz/garden-questions/how-often-do-i-feed-my-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-18",
-   "AF-21"
-  ],
-  "quote": "AF-18: \"feed roses in early spring when the buds burst into life\" || AF-21: \"and again in late summer, early autumn\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "TUI-Q",
-  "source": "Tui Garden, \"What is the best way to shift my rose?\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/",
-  "status": "Opened",
-  "findings": [
-   "AF-30"
-  ],
-  "quote": "AF-30: \"the best time of year to move a rose is winter when it is dormant\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "YAT-PR",
-  "source": "Yates New Zealand, \"How to Prune Roses\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-20",
-   "AF-32",
-   "AF-33"
-  ],
-  "quote": "AF-8: \"July is the month when most roses are pruned.\" || AF-20: \"In frosty areas, it's better to wait until the last frosts before feeding your roses.\" || AF-32: \"Remove any remaining foliage from stems, clean up any fallen foliage around the bush and discard it.\" || AF-33: \"Pruning time is the ideal window of opportunity to apply Lime Sulfur\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "YAT-NZ",
-  "source": "Yates New Zealand, \"How to Grow Glorious Roses\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-27",
-   "AF-29",
-   "AF-33"
-  ],
-  "quote": "AF-27: \"arrive in garden centres in time for winter planting\" || AF-29: \"potted roses are often available (and can be planted) throughout the year.\" || AF-33: \"Immediately after pruning, spray with Yates Lime Sulfur to clean up any pests and diseases\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "PALM-YRC",
-  "source": "Palmers Garden Centre, \"Year Round Rose Care\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/year-round-rose-care",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-8",
-   "AF-9",
-   "AF-10",
-   "AF-15",
-   "AF-18",
-   "AF-21",
-   "AF-23",
-   "AF-24",
-   "AF-31",
-   "AF-32",
-   "AF-33",
-   "AF-36"
-  ],
-  "quote": "AF-1: \"In the north, it is perfectly fine to start a bit earlier than this, and in the south a bit later.\" || AF-8: \"In most parts of the country, the best time to prune your roses is July through to mid-late August.\" || AF-9: \"In the north, it is perfectly fine to start a bit earlier than this\" || AF-10: \"and in the south a bit later.\" || AF-15: \"Don't prune too early for your region as the new growth can be damaged by the last of the frosts.\" || AF-18: \"Apply fertiliser in early Spring after pruning.\" || AF-21: \"Give your roses a final feed before Winter.\" || AF-23: \"continue dead-heading until the end of March and leave for colourful hips to form.\" || AF-24: \"leave for colourful hips to form.\" || AF-31: \"Autumn is the best time for transplanting as they'll have time to get established over Winter.\" || AF-32: \"Collect any infected leaves that have fallen to the ground, as these can carry diseases from one year to the next.\" || AF-33: \"We also recommend a good Winter spray of lime sulphur followed by a copper spray\" || AF-36: \"Don't prune too early for your region\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "PALM-G",
-  "source": "Palmers Garden Centre, \"How to Grow Bush Roses\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
-  "status": "Opened",
-  "findings": [
-   "AF-27",
-   "AF-29"
-  ],
-  "quote": "AF-27: \"The best planting time for all rose varieties is from winter through to spring.\" || AF-29: \"Container grown roses can be planted in your garden at any time of the year.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "PALM-FAQ",
-  "source": "Palmers Garden Centre, \"Most Frequently Asked Rose Questions\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
-  "status": "Opened",
-  "findings": [
-   "AF-30",
-   "AF-34"
-  ],
-  "quote": "AF-30: \"The best time to relocate them would be after pruning in July when the rose is dormant with no active growth.\" || AF-34: \"Spray your roses with copper and a winter spraying oil at the time of pruning and again one month after.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "KINGS",
-  "source": "Kings Plant Barn, \"Roses - Grow Well Guides\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.kings.co.nz/growing-guides/roses",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-21",
-   "AF-26",
-   "AF-27",
-   "AF-30",
-   "AF-33",
-   "AF-34"
-  ],
-  "quote": "AF-8: \"Roses should be pruned in June/July each year.\" || AF-21: \"Feed with Kings Slow Release Rose Food in spring, summer and autumn.\" || AF-26: \"New seasons Roses arrive in store from June.\" || AF-27: \"Roses are best planted in winter, however they can be planted right through spring.\" || AF-30: \"This is best done when dormant during Winter.\" || AF-33: \"In winter after leaf fall spray with Lime Sulfur\" || AF-34: \"At bud burst spray with a copper spray to prevent any diseases.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "SPR-P",
-  "source": "South Pacific Roses, \"Pruning Your Roses\", 28 August 2019. Commercial (rose nursery; Christchurch and Kapiti Coast), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://southpacificroses.co.nz/pruning-your-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-14",
-   "AF-36"
-  ],
-  "quote": "AF-8: \"June or July are generally the preferred months but some folk will prune in August\" || AF-14: \"when the rose bush has gone into it's Winter dormancy.\" || AF-36: \"it all depends on where you live in the country.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "SPR-F",
-  "source": "South Pacific Roses, \"Feeding & Watering Roses\", 28 August 2019. Commercial (rose nursery), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://southpacificroses.co.nz/feeding-watering-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-19",
-   "AF-21"
-  ],
-  "quote": "AF-19: \"Apply about 3 applications from early Spring to late summer (September to March).\" || AF-21: \"Apply about 3 applications from early Spring to late summer (September to March).\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "MATT",
-  "source": "Matthews Nurseries, \"Advice\", date not shown. Commercial (rose nursery), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.matthewsroses.co.nz/advice/",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-23",
-   "AF-24",
-   "AF-29"
-  ],
-  "quote": "AF-8: \"In New Zealand you can prune over the winter months of June, July and August.\" || AF-23: \"The keen gardener dead-heads rigorously, but an occasional stroll around the roses can be just as invigorating until the end of February.\" || AF-24: \"Allow your rose plants to set their hips in Autumn\" || AF-29: \"If you are planting a Potted Rose in Spring/Summer try not to disturb the roots in the potting mix.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "DALT-G",
-  "source": "Daltons, \"How to Grow Roses Guide\", date not shown. Commercial (garden soils and fertiliser), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.daltons.co.nz/gardening-guides/how-to-grow-roses-guide",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-17",
-   "AF-19",
-   "AF-21",
-   "AF-27",
-   "AF-30"
-  ],
-  "quote": "AF-8: \"June/July are the best months to plant, relocate and prune roses.\" || AF-17: \"In cooler climates you can prune earlier once all the leaves have fallen\" || AF-17: \"in warmer climates delay pruning until mid-late July when the plant has lost all its leaves.\" || AF-19: \"from mid-late October through to early December\" || AF-21: \"Recommence feeding again from mid-February through to early April.\" || AF-27: \"June/July are the best months to plant, relocate and prune roses.\" || AF-30: \"June/July are the best months to plant, relocate and prune roses.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "DALT-Q",
-  "source": "Daltons, gardening question and answer, \"Usually I prune my roses towards the end of June ... when is the best time to prune?\", date not shown. Commercial (garden soils and fertiliser), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.daltons.co.nz/gardening-guides/winter-pruning-roses",
-  "status": "Opened",
-  "findings": [
-   "AF-33",
-   "AF-37"
-  ],
-  "quote": "AF-33: \"still apply winter clean up applications of a copper compound at any time during the next few months\" || AF-37: \"Pruning any earlier with the very mild autumn we are experiencing may result in new growth appearing\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "ODER",
-  "source": "Oderings Garden Centres, \"Roses: A Year-Round Guide\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.oderings.co.nz/learn/garden-guides/roses-year-round-guide-__I.900045__N.710770",
-  "status": "Opened",
-  "findings": [
-   "AF-18",
-   "AF-19",
-   "AF-33",
-   "AF-34"
-  ],
-  "quote": "AF-18: \"Avoid fertilising in winter, as roses are dormant and won't absorb nutrients.\" || AF-19: \"After August, feed roses with a half-cup of rose-specific fertiliser every three months (excluding winter).\" || AF-33: \"In June/July , after pruning, apply lime sulphur to bare, dormant rose plants\" || AF-34: \"Three to four weeks after lime sulphur, apply liquid copper before buds begin to swell.\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "GF",
-  "source": "The Garden Fairies, \"Autumn rose care for Auckland's climate\", 26 April 2018. Commercial (garden maintenance service, Auckland), New Zealand. Accessed 1 Oct 2026.",
-  "url": "https://www.thegardenfairies.co.nz/autumn-rose-care-for-aucklands-climate/",
-  "status": "Opened",
-  "findings": [
-   "AF-9",
-   "AF-23",
-   "AF-24",
-   "AF-32"
-  ],
-  "quote": "AF-9: \"leave them be until pruning time, in July.\" || AF-23: \"it's best to stop deadheading from March, and allow the plants to develop their rosehips\" || AF-24: \"allow the plants to develop their rosehips\" || AF-32: \"it's best now to just clear the ground beneath them of spent foliage\"",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "POST-AP",
-  "source": "The Post (Stuff), \"Autumn pruning: advice on cutting back hedges, fruit trees, roses and more\". Located only: page returned metadata, no article text. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://www.thepost.co.nz/home-property/360959553/autumn-pruning-what-cut-back-now-and-why-timing-matters",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "DOUG",
-  "source": "Doug the Gardener Wanaka, \"Autumn & Winter Garden Guide\" (Central Otago). Located only: fetch refused by the site (robots.txt). Not read. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://www.dougthegardener.com/blog/doug-the-gardeners-autumn-and-winter-gardening-guide-for-central-otago",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "CHS-FEB",
-  "source": "Canterbury Horticultural Society, \"February in the Garden\". Located only: HTTP 404. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://www.chsgardens.co.nz/february-in-the-garden/",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "CHS-MAR",
-  "source": "Canterbury Horticultural Society, \"March in the Garden\", 25 February 2026. Opened; contains no rose content. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://www.chsgardens.co.nz/march-in-the-garden/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "CHS-APR",
-  "source": "Canterbury Horticultural Society, \"April in the Garden\". Opened; contains no rose content. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://www.chsgardens.co.nz/april-in-the-garden/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "CHS-RPM",
-  "source": "Canterbury Horticultural Society, \"Roses: Plant of the Month\". Opened; page links to a third-party PDF only, no timing text on the page. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://www.chsgardens.co.nz/roses-plant-of-the-month/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "ARS-AK",
-  "source": "Auckland Rose Society Inc, home page. Opened; no rose-care timing given. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://aucklandrosesociety.org.nz/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "NIWA-GF",
-  "source": "NIWA, \"Mean number of days of ground frost\" (dataset download page). Opened; dataset download only, no narrative. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://niwa.co.nz/climate-and-weather/mean-number-days-ground-frost",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "KIWI",
-  "source": "Kiwicare, \"How to Prune Roses\", 7 November 2014. Commercial. Opened; its timing sentence repeats South Pacific Roses wording almost word for word, so not counted as a separate voice. Not relied on. Accessed 1 Oct 2026.",
-  "url": "https://www.kiwicare.co.nz/advice/garden/how-to-prune-roses/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "TUI-T",
-  "source": "Tui Garden, \"Transplanting trees, shrubs, roses, perennials and bulbs\". Commercial. Opened; says roses \"readily transplant in winter\", the same position as TUI-Q from the same company, so not counted separately. Not relied on. Accessed 1 Oct 2026.",
-  "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/transplanting-trees-shrubs-roses-perennials-and-bulbs/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "NICH",
-  "source": "Nichols Garden Group, \"How to Prune Roses\", 26 June 2020. Commercial. Opened; states July to mid-August, adding nothing beyond Palmers. Not relied on. Accessed 1 Oct 2026.",
-  "url": "https://www.nichols.co.nz/Home/Articles-News/ArtMID/1586/ArticleID/76/How-to-Prune-Roses",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- },
- {
-  "code": "PALM-WP",
-  "source": "Palmers Garden Centre, \"What to Prune and When to do it\". Commercial. Opened; repeats Palmers timing already recorded under PALM-YRC. Not relied on. Accessed 1 Oct 2026.",
-  "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/what-to-prune-and-when",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "1 October 2026"
- }
+  {
+    "code": "NZRS-FAQ",
+    "source": "The New Zealand Rose Society, \"FAQ\", page modified 30 March 2026. Rose society, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://nzroses.org.nz/faq/",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-2",
+      "AF-9",
+      "AF-10",
+      "AF-27",
+      "AF-29",
+      "AF-36",
+      "AF-38"
+    ],
+    "quote": "AF-1: \"Pruning starts up north around early July while in the colder parts of the South Island, it gets under-way in August.\" || AF-2: \"Peak bloom in spring is first two weeks in November for the upper North Island, last two weeks for the lower North Island\" || AF-9: \"Pruning starts up north around early July\" || AF-10: \"in the colder parts of the South Island, it gets under-way in August.\" || AF-27: \"Winter is the best time to plant as it allows the plant to establish before summer arrives.\" || AF-29: \"If planting potted roses during spring and summer, keep them well watered.\" || AF-38: \"Your local rose society can provide advice suited to your own climate.\" || AF-36: \"Depends on where you live.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "NZRS-W",
+    "source": "The New Zealand Rose Society (Peter Elliott), \"Winter Rose Care\", extract from NZ Rosarian, June 1996; posted 30 March 2009. Rose society, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://nzroses.org.nz/winter-rose-care/",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-26",
+      "AF-32",
+      "AF-33",
+      "AF-47"
+    ],
+    "quote": "AF-8: \"Most people prune in July and even August.\" || AF-26: \"most garden centres promote new roses early in June.\" || AF-32: \"Rake up all fallen leaves and burn them as they can harbour spores that spread disease later on.\" || AF-33: \"it is highly recommended that clean up sprays be applied in June.\" || AF-33: \"Don't forget a post prune spray of copper and oil to complete the job.\" (added at the Build Check, 6 Oct 2026) || AF-47: \"Note that you must not use lime sulphur and copper based sprays within 2 weeks of each other.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "NZRS-DEMO",
+    "source": "The New Zealand Rose Society, \"Free Rose Pruning Demonstrations\", updated 6 June 2019. Rose society, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://nzroses.org.nz/free-rose-pruning-demonstrations/",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-36"
+    ],
+    "quote": "AF-8: \"roses are usually pruned between late June and mid August depending on where you live\" || AF-36: \"depending on where you live\" || Qualifies AF-10: \"Feilding Saturday 20th July; Otago Saturday 20th July; Southland Sunday 21st July; Westland Saturday 20th July. (2019 demonstration dates, read from the page's list)\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "DUN-PT",
+    "source": "Dunedin Botanic Garden (Linda Hellyer, curator of the rose garden), \"Practical Tips for Rose Pruning\", first published 26 June 2014. Public botanic garden (Dunedin City Council), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-11",
+      "AF-14",
+      "AF-33"
+    ],
+    "quote": "AF-1: \"The general rule is the colder the climate, the later you prune in winter.\" || AF-11: \"At Dunedin Botanic Garden we prune modern roses in late July\" || AF-14: \"when they are at their most dormant and hopefully the heaviest of frosts have passed.\" || AF-33: \"After pruning, apply a spray of copper and oil at winter strength, spray around bud union to destroy over-wintering diseases\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "DUN-WM",
+    "source": "Dunedin Botanic Garden (Linda Hellyer), \"Summer Flower Needs Winter Maintenance\", 9 July 2015. Public botanic garden, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://dunedinbotanicgarden.co.nz/collections/garden-life-article/summer-flower-needs-winter-maintenance",
+    "status": "Opened",
+    "findings": [
+      "AF-11",
+      "AF-14",
+      "AF-15",
+      "AF-27",
+      "AF-36",
+      "AF-41"
+    ],
+    "quote": "AF-11: \"at Dunedin Botanic Garden pruning is left until late July, after the worst of the frosts.\" || AF-15: \"If pruned too early, roses can be hit by frost but too late and growth will have already started.\" || AF-14: \"so at Dunedin Botanic Garden pruning is left until late July, after the worst of the frosts.\" (added at the Build Check, 6 Oct 2026) || AF-27: \"It is the ideal time to plant new roses, and prune existing ones.\" (added at the Build Check, 6 Oct 2026) || AF-36: \"Knowing your garden is key to judging timing.\" (added at the Build Check, 6 Oct 2026) || AF-36: \"Different locations can have different conditions, even pockets within the same suburb, so observe your own garden to decide exactly when is best.\" (added at the Build Check, 6 Oct 2026) || AF-41: \"If pruned too early, roses can be hit by frost but too late and growth will have already started.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "ODT-GL",
+    "source": "Otago Daily Times, Garden Life column (produced by Dunedin Botanic Garden; contact Linda Hellyer), \"Rose pruning can be easy\", 5 July 2018. Newspaper column by a public botanic garden, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.odt.co.nz/lifestyle/home-garden/rose-pruning-can-be-easy",
+    "status": "Opened",
+    "findings": [
+      "AF-10",
+      "AF-11",
+      "AF-32",
+      "AF-36"
+    ],
+    "quote": "AF-10: \"frosty locations can mean waiting until mid-August.\" || AF-11: \"Roses need pruning when they are at their most dormant, which in Dunedin tends to be late July.\" || AF-36: \"Take into consideration the microclimate in your garden, though, as frosty locations can mean waiting until mid-August.\" || AF-32: \"pick up all the clippings and leaves but to avoid spreading pests and diseases, don't put them in the compost.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "CHS-MAY",
+    "source": "Canterbury Horticultural Society (CHS Website Editor), \"May in the Garden\", 30 April 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.chsgardens.co.nz/may-in-the-garden/",
+    "status": "Opened",
+    "findings": [
+      "AF-32",
+      "AF-48"
+    ],
+    "quote": "AF-32: \"Roses — Begin light tidy-up pruning and remove diseased foliage.\" || AF-48: \"Roses — Begin light tidy-up pruning and remove diseased foliage.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "CHS-JUN",
+    "source": "Canterbury Horticultural Society (CHS Website Editor), \"June in the Garden\", 28 May 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.chsgardens.co.nz/june-in-the-garden/",
+    "status": "Opened",
+    "findings": [
+      "AF-32",
+      "AF-42",
+      "AF-48"
+    ],
+    "quote": "AF-42 (recorded as AF-27): \"A great time for planting deciduous trees, roses and hardy shrubs while dormant.\" || AF-32: \"Roses — Remove diseased leaves and begin light winter pruning where needed.\" || AF-48: \"Roses — Remove diseased leaves and begin light winter pruning where needed.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "CHS-JUL",
+    "source": "Canterbury Horticultural Society (CHS Website Editor), \"July in the Garden\", 1 July 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.chsgardens.co.nz/july-in-the-garden/",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-10",
+      "AF-12",
+      "AF-32",
+      "AF-42",
+      "AF-48"
+    ],
+    "quote": "AF-1: \"In milder parts of Canterbury, pruning can begin towards the end of the month; colder areas may prefer to wait until August.\" || AF-10: \"colder areas may prefer to wait until August.\" || AF-12: \"In milder parts of Canterbury, pruning can begin towards the end of the month\" || AF-42 (recorded as AF-27): \"July is one of the best months to plant roses, deciduous trees, shrubs and hedging while dormant.\" || AF-32: \"Remove any remaining diseased leaves.\" || AF-48: \"Roses - Remove any remaining diseased leaves.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "CHS-AUG",
+    "source": "Canterbury Horticultural Society (CHS Website Editor), \"August in the Garden\", 27 July 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.chsgardens.co.nz/august-in-the-garden/",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-10",
+      "AF-12",
+      "AF-14",
+      "AF-42"
+    ],
+    "quote": "AF-1: \"Complete winter pruning in milder areas. In colder inland districts, prune once the worst frosts have passed.\" || AF-10: \"In colder inland districts, prune once the worst frosts have passed.\" || AF-12: \"Complete winter pruning in milder areas.\" || AF-14: \"prune once the worst frosts have passed.\" || AF-42 (recorded as AF-27): \"August remains an excellent time to plant roses, deciduous trees, shrubs and hedging while they are dormant.\" || AF-42: \"Continue planting bare-rooted trees and roses, prune deciduous fruit trees\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "CHS-SEP",
+    "source": "Canterbury Horticultural Society (CHS Website Editor), \"September in the Garden\", 31 August 2026. Horticultural society, Canterbury, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.chsgardens.co.nz/september-in-the-garden/",
+    "status": "Opened",
+    "findings": [
+      "AF-12",
+      "AF-18",
+      "AF-19"
+    ],
+    "quote": "AF-18: \"Finish winter pruning and begin feeding roses as new growth appears.\" || AF-19: \"Finish winter pruning and begin feeding roses as new growth appears.\" || AF-12: \"Roses – Finish winter pruning and begin feeding roses as new growth appears.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "ABG",
+    "source": "Auckland Botanic Gardens, \"Roses\" (garden advice), date not shown. Public botanic garden (Auckland Council), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-14",
+      "AF-18",
+      "AF-28",
+      "AF-32"
+    ],
+    "quote": "AF-14: \"Roses benefit from pruning each winter when they are not in active growth.\" || AF-18: \"Apply fertiliser in spring to help keep plants healthy.\" || AF-28: \"Planting is best done in autumn or winter.\" || Qualifies AF-23: \"Remove spent flowers throughout the flowering season as this will help encourage new flowers and prolong flowering.\" (added at the Build Check, 6 Oct 2026) || AF-32: \"Always tidy up any dead and diseased fallen leaves and apply fertiliser in spring to help keep plants healthy.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "NIWA-NZ",
+    "source": "NIWA (G. R. Macara), \"The Climate and Weather of New Zealand\", NIWA Science and Technology Series No. 74, 2018. National climate research institute, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://webstatic.niwa.co.nz/static/web/NZ_Climate-NIWA.pdf",
+    "status": "Opened",
+    "findings": [
+      "AF-4",
+      "AF-5",
+      "AF-6"
+    ],
+    "quote": "AF-4: \"Frosts are common in the cooler months for most of the country, however they occur rarely north of Waikato.\" || AF-5: \"they occur less frequently in coastal and northernmost areas.\" || AF-6: \"Areas most likely to experience frost are flat areas ... and in valleys and basins.\" || AF-5: \"Ground frosts occur more frequently than air frosts, and both types occur most frequently at inland South Island locations such as Alexandra.\" (added at the Build Check, 6 Oct 2026) || AF-6: \"Frost is a local phenomenon and both its frequency of occurrence and intensity can vary widely over small areas.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "NIWA-OT",
+    "source": "NIWA (G. R. Macara), \"The Climate and Weather of Otago\", NIWA Science and Technology Series No. 67, 2015. National climate research institute, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://niwa.co.nz/sites/default/files/Otago%20Climate%20book%20WEB%202021.pdf",
+    "status": "Opened",
+    "findings": [
+      "AF-5",
+      "AF-6"
+    ],
+    "quote": "AF-5: \"air frosts occur most frequently at the inland location of Alexandra.\" || AF-6: \"Frost is a local phenomenon and both its frequency of occurrence and intensity can vary widely over small areas.\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "NIWA-OV",
+    "source": "NIWA, \"Overview of New Zealand's climate\", date not shown. National climate research institute, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://niwa.co.nz/education-and-training/schools/resources/climate/overview",
+    "status": "Opened",
+    "findings": [
+      "AF-7"
+    ],
+    "quote": "AF-7: \"New Zealand's climate is complex and varies from warm subtropical in the far north to cool temperate climates in the far south\" || Qualifies AF-4: \"Frosts can occur anywhere in New Zealand and usually form on cold nights with clear skies and little wind.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "FIG-FROST",
+    "source": "Figure.NZ, \"Annual days of ground frost across selected New Zealand locations\" (provider: NIWA; mean annual values 1991 to 2020), date not shown. Non-profit data publisher reproducing NIWA data, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://figure.nz/chart/Hra3vx0XfcsJEf5H",
+    "status": "Opened",
+    "findings": [
+      "AF-4"
+    ],
+    "quote": "AF-4: \"Annual days of ground frost across selected New Zealand locations ... Provider: NIWA\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GU-P",
+    "source": "Hayden Foulds, GrownUps New Zealand, \"Pruning roses\", date not shown. General-interest website (rose column), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://grownups.co.nz/life/gardening/pruning-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-27",
+      "AF-32",
+      "AF-33"
+    ],
+    "quote": "AF-8: \"July and August are the two main months for pruning roses in New Zealand\" || AF-32: \"The same applies to any fallen leaves which you must pick up after pruning.\" || AF-33: \"Get a winter clean up spray of copper applied to your roses but leave it a few days after pruning.\" || AF-8: \"It's pruning time all month and into August.\" (added at the Build Check, 6 Oct 2026) || AF-27: \"Continue to plant new seasons roses.\" (added at the Build Check, 6 Oct 2026) || AF-32: \"Rose pruning's should be disposed of in the rubbish or burnt – do not compost as this will lead to disease problems later on.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GU-F",
+    "source": "Hayden Foulds, GrownUps New Zealand, \"Feeding roses\", 22 September 2017. General-interest website (rose column), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://grownups.co.nz/life/gardening/feeding-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-18",
+      "AF-19",
+      "AF-21",
+      "AF-22",
+      "AF-38"
+    ],
+    "quote": "AF-18: \"you want to get your first application on as the roses are coming into growth.\" || AF-19: \"In late August and into September, you want to get your first application on as the roses are coming into growth.\" || AF-21: \"similar applications in December after the first flush of blooms and again no later than the end of February.\" || AF-22: \"After this time, let the roses prepare for winter by allowing the canes to harden up.\" || AF-19: \"However, September is usually the first-month roses need an application of fertiliser to get them off to a good start for the growing season ahead.\" (added at the Build Check, 6 Oct 2026) || AF-38: \"Experts in your local rose society will be able to give you a better idea of timing for your local conditions.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GU-DH",
+    "source": "GrownUps New Zealand, \"Deadheading – Rose Bush Care\", 9 April 2025, author not shown. General-interest website, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://grownups.co.nz/life/gardening/deadheading-rose-bush-care/",
+    "status": "Opened (not relied on after the Build Check)",
+    "findings": [],
+    "quote": "Not relied on (was AF-23; the sentence is about shrub and old-fashioned roses, is optional, and the article does not mention New Zealand): \"you may wish to stop deadheading in late summer to allow them to develop.\" || Not relied on (was AF-24; as for AF-23): \"If you enjoy the look of rose hips, you may wish to stop deadheading in late summer\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "NZH-W",
+    "source": "Gareth Carter (general manager, Springvale Garden Centre), Whanganui Chronicle / Wanganui Midweek via NZ Herald, \"Pruning deciduous fruit trees and roses\", 20 July 2020. Newspaper column by a garden-centre manager, New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.nzherald.co.nz/whanganui-chronicle/news/pruning-deciduous-fruit-trees-and-roses/3X7LTSFCPJQOXDEY6Y2SR6GVGQ/",
+    "status": "Opened",
+    "findings": [
+      "AF-13",
+      "AF-14",
+      "AF-15",
+      "AF-32"
+    ],
+    "quote": "AF-13: \"In Whanganui, roses and deciduous fruit trees such as apples and pears are best pruned in July.\" || AF-15: \"The plant can then produce some new growth which risks getting walloped with a July frost.\" || AF-14: \"The timing for pruning roses and many deciduous trees and fruits is best completed during winter when these plants are dormant and deciduous.\" (added at the Build Check, 6 Oct 2026) || AF-32: \"If prunings are diseased, burn them or send out with the rubbish, rather than composting.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "TUI-PG",
+    "source": "Tui Garden, \"Rose Pruning Guide\" (with reader questions and answers), date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/rose-pruning-guide/",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-10",
+      "AF-13",
+      "AF-15",
+      "AF-39",
+      "AF-40",
+      "AF-41",
+      "AF-45",
+      "AF-46",
+      "AF-49"
+    ],
+    "quote": "AF-1: \"as you are in a colder climate we would recommend leaving pruning until late winter or early spring after the last frost.\" || AF-40 (recorded as AF-9): \"the end of July, early August is a good time to prune in Northland.\" || AF-10: \"as you are in a colder climate we would recommend leaving pruning until late winter or early spring after the last frost.\" || AF-13: \"prune roses in your region in mid to late winter which is July - August.\" || AF-15: \"sending out new growth which won't have had time to harden off and could potentially get damaged by frost\" || Qualifies AF-10: \"If unsure, wait until August when temperatures warm and there is less chance of severe frost damaging foliage.\" (added at the Build Check, 6 Oct 2026) || Qualifies AF-10: \"Roses can be pruned even if they are still flowering, wait until June/July before pruning to make sure no new growth emerges as this is at risk of getting frost damage which leads to disease entering the plant.\" (added at the Build Check, 6 Oct 2026) || AF-39: \"The main season to prune roses is in June - July, before they start bursting into leaf, which can be as early as August in Auckland.\" (added at the Build Check, 6 Oct 2026) || AF-41: \"The main season to prune roses is in June - July, before they start bursting into leaf, which can be as early as August in Auckland.\" (added at the Build Check, 6 Oct 2026) || AF-45: \"Roses can be pruned even if they are still flowering, wait until June/July before pruning to make sure no new growth emerges as this is at risk of getting frost damage which leads to disease entering the plant.\" (added at the Build Check, 6 Oct 2026) || AF-45: \"If unsure, wait until August when temperatures warm and there is less chance of severe frost damaging foliage.\" (added at the Build Check, 6 Oct 2026) || AF-46: \"Roses can be pruned even if they are still flowering, wait until June/July before pruning to make sure no new growth emerges as this is at risk of getting frost damage which leads to disease entering the plant.\" (added at the Build Check, 6 Oct 2026) || AF-49: \"as you are in a colder climate we would recommend leaving pruning until late winter or early spring after the last frost.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "TUI-FEED",
+    "source": "Tui Garden, \"How often do I feed my roses?\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://tuigarden.co.nz/garden-questions/how-often-do-i-feed-my-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-18",
+      "AF-21"
+    ],
+    "quote": "AF-18: \"feed roses in early spring when the buds burst into life\" || AF-21: \"and again in late summer, early autumn\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "TUI-Q",
+    "source": "Tui Garden, \"What is the best way to shift my rose?\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/",
+    "status": "Opened",
+    "findings": [
+      "AF-30"
+    ],
+    "quote": "AF-30: \"the best time of year to move a rose is winter when it is dormant\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "YAT-PR",
+    "source": "Yates New Zealand, \"How to Prune Roses\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-20",
+      "AF-32",
+      "AF-33",
+      "AF-44"
+    ],
+    "quote": "AF-8: \"July is the month when most roses are pruned.\" || AF-20: \"In frosty areas, it's better to wait until the last frosts before feeding your roses.\" || AF-32: \"Remove any remaining foliage from stems, clean up any fallen foliage around the bush and discard it.\" || AF-33: \"Pruning time is the ideal window of opportunity to apply Lime Sulfur\" || AF-44: \"as it will defoliate the leaves on any new growth - don't leave it too late to spray!\" (added at the Build Check, 6 Oct 2026) || Qualifies AF-25: \"For a light summer prune to encourage a second flush, remove dead flowers, dead or diseased stems and trim stems back by one-third.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "YAT-NZ",
+    "source": "Yates New Zealand, \"How to Grow Glorious Roses\", date not shown. Commercial (garden products), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-18",
+      "AF-27",
+      "AF-29",
+      "AF-33"
+    ],
+    "quote": "AF-27: \"arrive in garden centres in time for winter planting\" || AF-29: \"if you miss the winter window, gorgeous potted roses are often available from garden centres (and can be planted throughout the year)\" || AF-33: \"Immediately after pruning, spray with Yates Lime Sulfur to clean up any pests and diseases\" || AF-18: \"Once shoots or leafy growth start to appear, feed the rose weekly\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "PALM-YRC",
+    "source": "Palmers Garden Centre, \"Year Round Rose Care\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/year-round-rose-care",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-8",
+      "AF-9",
+      "AF-10",
+      "AF-14",
+      "AF-15",
+      "AF-18",
+      "AF-21",
+      "AF-23",
+      "AF-24",
+      "AF-26",
+      "AF-31",
+      "AF-32",
+      "AF-33",
+      "AF-36"
+    ],
+    "quote": "AF-1: \"In the north, it is perfectly fine to start a bit earlier than this, and in the south a bit later.\" || AF-8: \"In most parts of the country, the best time to prune your roses is July through to mid-late August.\" || AF-9: \"In the north, it is perfectly fine to start a bit earlier than this\" || AF-10: \"and in the south a bit later.\" || AF-15: \"Don't prune too early for your region as the new growth can be damaged by the last of the frosts.\" || AF-18: \"Apply fertiliser in early Spring after pruning.\" || AF-21: \"Give your roses a final feed before Winter.\" || AF-23: \"continue dead-heading until the end of March and leave for colourful hips to form.\" || AF-24: \"leave for colourful hips to form.\" || AF-31: \"Autumn is the best time for transplanting as they'll have time to get established over Winter.\" || AF-32: \"Collect any infected leaves that have fallen to the ground, as these can carry diseases from one year to the next.\" || AF-33: \"We also recommend a good Winter spray of lime sulphur followed by a copper spray\" || AF-36: \"Don't prune too early for your region\" || AF-14: \"Don't prune too early for your region as the new growth can be damaged by the last of the frosts.\" (added at the Build Check, 6 Oct 2026) || AF-26: \"Winter is the time that new season's roses hit stores.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "PALM-G",
+    "source": "Palmers Garden Centre, \"How to Grow Bush Roses\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-14",
+      "AF-27",
+      "AF-29",
+      "AF-41"
+    ],
+    "quote": "AF-27: \"The best planting time for all rose varieties is from winter through to spring.\" || AF-29: \"Container grown roses can be planted in your garden at any time of the year.\" || AF-8: \"Pruned roses respond by sending out new shoots at the first sign of warm weather, so July and August is an ideal time to begin pruning.\" (added at the Build Check, 6 Oct 2026) || AF-14: \"Most roses should be pruned in winter while the plant is dormant, before they burst into growth and flowering.\" (added at the Build Check, 6 Oct 2026) || AF-41: \"Most roses should be pruned in winter while the plant is dormant, before they burst into growth and flowering.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "PALM-FAQ",
+    "source": "Palmers Garden Centre, \"Most Frequently Asked Rose Questions\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
+    "status": "Opened",
+    "findings": [
+      "AF-30",
+      "AF-32",
+      "AF-33",
+      "AF-34",
+      "AF-43"
+    ],
+    "quote": "AF-30: \"The best time to relocate them would be after pruning in July when the rose is dormant with no active growth.\" || AF-34: \"Spray your roses with copper and a winter spraying oil at the time of pruning and again one month after.\" || AF-32: \"After you prune the rose, ensure all leaves are cleaned up from around the rose bush.\" (added at the Build Check, 6 Oct 2026) || AF-33: \"Spray your roses with copper and a winter spraying oil at the time of pruning and again one month after.\" (added at the Build Check, 6 Oct 2026) || AF-43: \"so the best time to relocate them would be after pruning in July when the rose is dormant with no active growth.\" (added at the Build Check, 6 Oct 2026) || AF-43: \"When it comes time to transplant the rose, make sure that the risk of frosts (or freezing weather) has passed\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "KINGS",
+    "source": "Kings Plant Barn, \"Roses - Grow Well Guides\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.kings.co.nz/growing-guides/roses",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-21",
+      "AF-26",
+      "AF-27",
+      "AF-30",
+      "AF-33",
+      "AF-34",
+      "AF-47"
+    ],
+    "quote": "AF-8: \"Roses should be pruned in June/July each year.\" || AF-21: \"Feed with Kings Slow Release Rose Food in spring, summer and autumn.\" || AF-26: \"New seasons Roses arrive in store from June.\" || AF-27: \"Roses are best planted in winter, however they can be planted right through spring.\" || AF-30: \"This is best done when dormant during Winter.\" || AF-33: \"In winter after leaf fall spray with Lime Sulfur\" || AF-34: \"At bud burst spray with a copper spray to prevent any diseases.\" || AF-33: \"In June (before pruning) spray with [brand] Lime Sulphur this will clean up any fungal spores or insects pests.\" (added at the Build Check, 6 Oct 2026) || AF-47: \"Do not spray with others sprays until 3 weeks after using Lime Sulphur.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "SPR-P",
+    "source": "South Pacific Roses, \"Pruning Your Roses\", 28 August 2019. Commercial (rose nursery; Christchurch and Kapiti Coast), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://southpacificroses.co.nz/pruning-your-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-14",
+      "AF-36"
+    ],
+    "quote": "AF-8: \"June or July are generally the preferred months but some folk will prune in August\" || AF-14: \"when the rose bush has gone into it's Winter dormancy.\" || AF-36: \"it all depends on where you live in the country.\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "SPR-F",
+    "source": "South Pacific Roses, \"Feeding & Watering Roses\", 28 August 2019. Commercial (rose nursery), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://southpacificroses.co.nz/feeding-watering-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-19",
+      "AF-21"
+    ],
+    "quote": "AF-19: \"Apply about 3 applications from early Spring to late summer (September to March).\" || AF-21: \"Apply about 3 applications from early Spring to late summer (September to March).\"",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "MATT",
+    "source": "Matthews Nurseries, \"Advice\", date not shown. Commercial (rose nursery), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.matthewsroses.co.nz/advice/",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-23",
+      "AF-24",
+      "AF-29",
+      "AF-32",
+      "AF-33"
+    ],
+    "quote": "AF-8: \"In New Zealand you can prune over the winter months of June, July and August.\" || AF-23: \"The keen gardener dead-heads rigorously, but an occasional stroll around the roses can be just as invigorating until the end of February.\" || AF-24: \"Allow your rose plants to set their hips in Autumn\" || AF-29: \"If you are planting a Potted Rose in Spring/Summer try not to disturb the roots in the potting mix.\" || AF-32: \"Ensure to clean up all leaves and prunings then you're done!\" (added at the Build Check, 6 Oct 2026) || AF-33: \"Copper Oxichloride (especially after pruning in winter).\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "DALT-G",
+    "source": "Daltons, \"How to Grow Roses Guide\", date not shown. Commercial (garden soils and fertiliser), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.daltons.co.nz/gardening-guides/how-to-grow-roses-guide",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-17",
+      "AF-19",
+      "AF-21",
+      "AF-27",
+      "AF-30",
+      "AF-33",
+      "AF-34",
+      "AF-43"
+    ],
+    "quote": "AF-8: \"June/July are the best months to plant, relocate and prune roses.\" || AF-17: \"In cooler climates you can prune earlier once all the leaves have fallen\" || AF-17: \"in warmer climates delay pruning until mid-late July when the plant has lost all its leaves.\" || AF-19: \"from mid-late October through to early December\" || AF-21: \"Recommence feeding again from mid-February through to early April.\" || AF-27: \"June/July are the best months to plant, relocate and prune roses.\" || AF-30: \"June/July are the best months to plant, relocate and prune roses.\" || AF-8: \"For most varieties, pruning should be done during winter from June.\" (added at the Build Check, 6 Oct 2026) || Qualifies AF-14: \"Wait till leaves have dropped before pruning.\" (added at the Build Check, 6 Oct 2026) || AF-33: \"One week after pruning spray with Lime Sulphur and/or a Copper compound such as Copper Oxychloride to ward off fungal diseases\" (added at the Build Check, 6 Oct 2026) || AF-34: \"then 3 or 4 days later apply a horticultural spray such as [brand] Oil to kill off any overwintering pests\" (added at the Build Check, 6 Oct 2026) || AF-43: \"June/July are the best months to plant, relocate and prune roses.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "DALT-Q",
+    "source": "Daltons, gardening question and answer, \"Usually I prune my roses towards the end of June ... when is the best time to prune?\", date not shown. Commercial (garden soils and fertiliser), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.daltons.co.nz/gardening-guides/winter-pruning-roses",
+    "status": "Opened",
+    "findings": [
+      "AF-33",
+      "AF-37"
+    ],
+    "quote": "AF-33: \"still apply winter clean up applications of a copper compound at any time during the next few months\" || AF-37: \"Pruning any earlier with the very mild autumn we are experiencing may result in new growth appearing\" || Qualifies AF-14: \"It is imperative that you delay pruning your roses until they have become completely dormant; ie: leaves no longer present on the plant.\" (added at the Build Check, 6 Oct 2026) || AF-33: \"One week after pruning, spray with Lime Sulphur and/or a copper compound such as Copper Oxychloride to ward off fungal diseases.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "ODER",
+    "source": "Oderings Garden Centres, \"Roses: A Year-Round Guide\", date not shown. Commercial (garden centre), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.oderings.co.nz/learn/garden-guides/roses-year-round-guide-__I.900045__N.710770",
+    "status": "Opened",
+    "findings": [
+      "AF-18",
+      "AF-19",
+      "AF-33",
+      "AF-34",
+      "AF-44",
+      "AF-47"
+    ],
+    "quote": "AF-18: \"Avoid fertilising in winter, as roses are dormant and won't absorb nutrients.\" || AF-19: \"After August, feed roses with a half-cup of rose-specific fertiliser every three months (excluding winter).\" || AF-33: \"In June/July , after pruning, apply lime sulphur to bare, dormant rose plants\" || AF-34: \"Three to four weeks after lime sulphur, apply liquid copper before buds begin to swell.\" || AF-34: \"Around one week after copper, apply spraying oil, coating branches and stems so the oil runs into cracks and joints.\" (added at the Build Check, 6 Oct 2026) || AF-44: \"In June/July , after pruning, apply lime sulphur to bare, dormant rose plants, ensuring thorough coverage of all canes, joints, forks, and crevices.\" (added at the Build Check, 6 Oct 2026) || AF-47: \"Never mix lime sulphur with other sprays.\" (added at the Build Check, 6 Oct 2026) || Qualifies AF-35: \"Roses are hardy but benefit from being shielded from harsh winds.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "GF",
+    "source": "The Garden Fairies, \"Autumn rose care for Auckland's climate\", 26 April 2018. Commercial (garden maintenance service, Auckland), New Zealand. Accessed 1 Oct 2026. Opened again 6 Oct 2026.",
+    "url": "https://www.thegardenfairies.co.nz/autumn-rose-care-for-aucklands-climate/",
+    "status": "Opened",
+    "findings": [
+      "AF-23",
+      "AF-24",
+      "AF-32",
+      "AF-39"
+    ],
+    "quote": "AF-39 (recorded as AF-9): \"leave them be until pruning time, in July.\" || AF-23: \"it's best to stop deadheading from March, and allow the plants to develop their rosehips\" || AF-24: \"allow the plants to develop their rosehips\" || AF-32: \"it's best now to just clear the ground beneath them of spent foliage\" || AF-24: \"As winter approaches, your rose plants need to rest.\" (added at the Build Check, 6 Oct 2026)",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "POST-AP",
+    "source": "The Post (Stuff), \"Autumn pruning: advice on cutting back hedges, fruit trees, roses and more\". Located only: page returned metadata, no article text. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://www.thepost.co.nz/home-property/360959553/autumn-pruning-what-cut-back-now-and-why-timing-matters",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "DOUG",
+    "source": "Doug the Gardener Wanaka, \"Autumn & Winter Garden Guide\" (Central Otago). Located only: fetch refused by the site (robots.txt). Not read. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://www.dougthegardener.com/blog/doug-the-gardeners-autumn-and-winter-gardening-guide-for-central-otago",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "CHS-FEB",
+    "source": "Canterbury Horticultural Society, \"February in the Garden\". Located only: HTTP 404. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://www.chsgardens.co.nz/february-in-the-garden/",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "CHS-MAR",
+    "source": "Canterbury Horticultural Society, \"March in the Garden\", 25 February 2026. Opened; contains no rose content. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://www.chsgardens.co.nz/march-in-the-garden/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "CHS-APR",
+    "source": "Canterbury Horticultural Society, \"April in the Garden\". Opened; contains no rose content. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://www.chsgardens.co.nz/april-in-the-garden/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "CHS-RPM",
+    "source": "Canterbury Horticultural Society, \"Roses: Plant of the Month\". Opened; page links to a third-party PDF only, no timing text on the page. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://www.chsgardens.co.nz/roses-plant-of-the-month/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "ARS-AK",
+    "source": "Auckland Rose Society Inc, home page. Opened; no rose-care timing given. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://aucklandrosesociety.org.nz/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "NIWA-GF",
+    "source": "NIWA, \"Mean number of days of ground frost\" (dataset download page). Opened; dataset download only, no narrative. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://niwa.co.nz/climate-and-weather/mean-number-days-ground-frost",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "KIWI",
+    "source": "Kiwicare, \"How to Prune Roses\", 7 November 2014. Commercial. Opened; its timing sentence repeats South Pacific Roses wording almost word for word, so not counted as a separate voice. Not relied on. Accessed 1 Oct 2026.",
+    "url": "https://www.kiwicare.co.nz/advice/garden/how-to-prune-roses/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "TUI-T",
+    "source": "Tui Garden, \"Transplanting trees, shrubs, roses, perennials and bulbs\". Commercial. Opened; says roses \"readily transplant in winter\", the same position as TUI-Q from the same company, so not counted separately. Not relied on. Accessed 1 Oct 2026.",
+    "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/transplanting-trees-shrubs-roses-perennials-and-bulbs/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "NICH",
+    "source": "Nichols Garden Group, \"How to Prune Roses\", 26 June 2020. Commercial. Opened; states July to mid-August, adding nothing beyond Palmers. Not relied on. Accessed 1 Oct 2026.",
+    "url": "https://www.nichols.co.nz/Home/Articles-News/ArtMID/1586/ArticleID/76/How-to-Prune-Roses",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  },
+  {
+    "code": "PALM-WP",
+    "source": "Palmers Garden Centre, \"What to Prune and When to do it\". Commercial. Opened; repeats Palmers timing already recorded under PALM-YRC. Not relied on. Accessed 1 Oct 2026.",
+    "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/what-to-prune-and-when",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "1 October 2026"
+  }
 ]

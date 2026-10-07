@@ -1,5 +1,7 @@
 # Decision Brief — Which Months for Each Rose Job, Where I Live in New Zealand?
 
+> **Replaced, 7 October 2026.** A Founder decided on this Brief's Review Form on 3 October 2026, and that decision on the research stands. What Pip says from it is now in `PKR-CGD-BUSHROSE-TIMING-NZ-01_Pips_Answers.md`, with a one-question form. This Brief describes the findings before the Build Check corrected them (dossier section 11). It is kept as a record.
+
 This is the plain-language companion to `FRD-BUSHROSE-TIMING-NZ-01`. It adds no evidence, changes no finding and changes no confidence level. If the Brief and the FRD differ, the FRD governs.
 
 ## 1. What you are being asked to do

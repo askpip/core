@@ -64,7 +64,7 @@ export interface Statement {
   /** The finding's limits, in plain words, shown under the statement. */
   limit?: string
   kind?: StatementKind
-  /** Country codes whose gardeners see this statement; absent means everyone. */
+  /** Place codes (country, region or town, see lib/place.ts) whose gardeners see this statement; absent means everyone. */
   place?: string[]
 }
 

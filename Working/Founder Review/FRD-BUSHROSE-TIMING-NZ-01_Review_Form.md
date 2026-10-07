@@ -1,6 +1,8 @@
 <!-- shed-form v1 -->
 # Founder Review Form — Which Months for Each Rose Job, Where I Live in New Zealand?
 
+**Finished by a Founder on 3 October 2026. Nothing more to fill in here.** That decision on the research stands. What Pip says from it is in **Pip's Answers — Which Months to Do Each Rose Job in New Zealand**, which has its own one-question form.
+
 Fill this in here in the Shed, with the **Decision Brief** open in a second tab. Everything saves as you go and stays private to you until you have both pressed **Finish**. After that you can each see where your answers differ. Either Founder's own finished, decisive answer is enough on its own for the ROC to act.
 
 For each finding, choose one:

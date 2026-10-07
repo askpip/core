@@ -1,0 +1,954 @@
+{
+ "countries": {
+  "NZ": "New Zealand",
+  "AU": "Australia",
+  "GB": "United Kingdom",
+  "US": "United States",
+  "CA": "Canada"
+ },
+ "regions": [
+  {
+   "code": "AU-ACT",
+   "name": "Australian Capital Territory",
+   "country": "AU",
+   "aliases": [
+    "act",
+    "australian capital territory",
+    "canberra"
+   ]
+  },
+  {
+   "code": "AU-NSW",
+   "name": "New South Wales",
+   "country": "AU",
+   "aliases": [
+    "new south wales",
+    "nsw"
+   ]
+  },
+  {
+   "code": "AU-NT",
+   "name": "Northern Territory",
+   "country": "AU",
+   "aliases": [
+    "northern territory",
+    "nt"
+   ]
+  },
+  {
+   "code": "AU-QLD",
+   "name": "Queensland",
+   "country": "AU",
+   "aliases": [
+    "qld",
+    "queensland"
+   ]
+  },
+  {
+   "code": "AU-SA",
+   "name": "South Australia",
+   "country": "AU",
+   "aliases": [
+    "sa",
+    "south australia"
+   ]
+  },
+  {
+   "code": "AU-TAS",
+   "name": "Tasmania",
+   "country": "AU",
+   "aliases": [
+    "tas",
+    "tasmania"
+   ]
+  },
+  {
+   "code": "AU-VIC",
+   "name": "Victoria",
+   "country": "AU",
+   "aliases": [
+    "vic",
+    "victoria"
+   ]
+  },
+  {
+   "code": "AU-WA",
+   "name": "Western Australia",
+   "country": "AU",
+   "aliases": [
+    "wa",
+    "western australia"
+   ]
+  },
+  {
+   "code": "CA-AB",
+   "name": "Alberta",
+   "country": "CA",
+   "aliases": [
+    "ab",
+    "alberta"
+   ]
+  },
+  {
+   "code": "CA-BC",
+   "name": "British Columbia",
+   "country": "CA",
+   "aliases": [
+    "bc",
+    "british columbia"
+   ]
+  },
+  {
+   "code": "CA-MB",
+   "name": "Manitoba",
+   "country": "CA",
+   "aliases": [
+    "manitoba",
+    "mb"
+   ]
+  },
+  {
+   "code": "CA-NB",
+   "name": "New Brunswick",
+   "country": "CA",
+   "aliases": [
+    "nb",
+    "new brunswick"
+   ]
+  },
+  {
+   "code": "CA-NL",
+   "name": "Newfoundland and Labrador",
+   "country": "CA",
+   "aliases": [
+    "labrador",
+    "newfoundland",
+    "newfoundland and labrador",
+    "nl"
+   ]
+  },
+  {
+   "code": "CA-NT",
+   "name": "Northwest Territories",
+   "country": "CA",
+   "aliases": [
+    "northwest territories",
+    "nt",
+    "nwt"
+   ]
+  },
+  {
+   "code": "CA-NS",
+   "name": "Nova Scotia",
+   "country": "CA",
+   "aliases": [
+    "nova scotia",
+    "ns"
+   ]
+  },
+  {
+   "code": "CA-NU",
+   "name": "Nunavut",
+   "country": "CA",
+   "aliases": [
+    "nu",
+    "nunavut"
+   ]
+  },
+  {
+   "code": "CA-ON",
+   "name": "Ontario",
+   "country": "CA",
+   "aliases": [
+    "on",
+    "ontario"
+   ]
+  },
+  {
+   "code": "CA-PE",
+   "name": "Prince Edward Island",
+   "country": "CA",
+   "aliases": [
+    "pe",
+    "pei",
+    "prince edward island"
+   ]
+  },
+  {
+   "code": "CA-QC",
+   "name": "Québec",
+   "country": "CA",
+   "aliases": [
+    "qc",
+    "quebec",
+    "québec"
+   ]
+  },
+  {
+   "code": "CA-SK",
+   "name": "Saskatchewan",
+   "country": "CA",
+   "aliases": [
+    "saskatchewan",
+    "sk"
+   ]
+  },
+  {
+   "code": "CA-YT",
+   "name": "Yukon",
+   "country": "CA",
+   "aliases": [
+    "yt",
+    "yukon",
+    "yukon territory"
+   ]
+  },
+  {
+   "code": "GB-ENG-EM",
+   "name": "East Midlands",
+   "country": "GB",
+   "group": "GB-ENG",
+   "aliases": [
+    "east midlands"
+   ]
+  },
+  {
+   "code": "GB-ENG-EE",
+   "name": "East of England",
+   "country": "GB",
+   "group": "GB-ENG",
+   "aliases": [
+    "east",
+    "east anglia",
+    "east of england"
+   ]
+  },
+  {
+   "code": "GB-ENG-LN",
+   "name": "London",
+   "country": "GB",
+   "group": "GB-ENG",
+   "aliases": [
+    "greater london",
+    "london"
+   ]
+  },
+  {
+   "code": "GB-ENG-NE",
+   "name": "North East",
+   "country": "GB",
+   "group": "GB-ENG",
+   "aliases": [
+    "north east",
+    "north east england"
+   ]
+  },
+  {
+   "code": "GB-ENG-NW",
+   "name": "North West",
+   "country": "GB",
+   "group": "GB-ENG",
+   "aliases": [
+    "north west",
+    "north west england"
+   ]
+  },
+  {
+   "code": "GB-NIR",
+   "name": "Northern Ireland",
+   "country": "GB",
+   "aliases": [
+    "n ireland",
+    "ni",
+    "northern ireland"
+   ]
+  },
+  {
+   "code": "GB-SCT",
+   "name": "Scotland",
+   "country": "GB",
+   "aliases": [
+    "scotland"
+   ]
+  },
+  {
+   "code": "GB-ENG-SE",
+   "name": "South East",
+   "country": "GB",
+   "group": "GB-ENG",
+   "aliases": [
+    "south east",
+    "south east england"
+   ]
+  },
+  {
+   "code": "GB-ENG-SW",
+   "name": "South West",
+   "country": "GB",
+   "group": "GB-ENG",
+   "aliases": [
+    "south west",
+    "south west england",
+    "west country"
+   ]
+  },
+  {
+   "code": "GB-WLS",
+   "name": "Wales",
+   "country": "GB",
+   "aliases": [
+    "wales"
+   ]
+  },
+  {
+   "code": "GB-ENG-WM",
+   "name": "West Midlands",
+   "country": "GB",
+   "group": "GB-ENG",
+   "aliases": [
+    "west midlands"
+   ]
+  },
+  {
+   "code": "GB-ENG-YH",
+   "name": "Yorkshire and the Humber",
+   "country": "GB",
+   "group": "GB-ENG",
+   "aliases": [
+    "yorkshire",
+    "yorkshire and humber",
+    "yorkshire and the humber"
+   ]
+  },
+  {
+   "code": "NZ-AUK",
+   "name": "Auckland",
+   "country": "NZ",
+   "group": "NZ-N",
+   "aliases": [
+    "auckland"
+   ]
+  },
+  {
+   "code": "NZ-BOP",
+   "name": "Bay of Plenty",
+   "country": "NZ",
+   "group": "NZ-N",
+   "aliases": [
+    "bay of plenty"
+   ]
+  },
+  {
+   "code": "NZ-CAN",
+   "name": "Canterbury",
+   "country": "NZ",
+   "group": "NZ-S",
+   "aliases": [
+    "canterbury"
+   ]
+  },
+  {
+   "code": "NZ-CIT",
+   "name": "Chatham Islands",
+   "country": "NZ",
+   "aliases": [
+    "chatham islands",
+    "chatham islands territory",
+    "chathams"
+   ]
+  },
+  {
+   "code": "NZ-GIS",
+   "name": "Gisborne",
+   "country": "NZ",
+   "group": "NZ-N",
+   "aliases": [
+    "gisborne",
+    "gisborne district"
+   ]
+  },
+  {
+   "code": "NZ-HKB",
+   "name": "Hawke's Bay",
+   "country": "NZ",
+   "group": "NZ-N",
+   "aliases": [
+    "hawke's bay",
+    "hawkes bay"
+   ]
+  },
+  {
+   "code": "NZ-MWT",
+   "name": "Manawatū-Whanganui",
+   "country": "NZ",
+   "group": "NZ-N",
+   "aliases": [
+    "manawatu",
+    "manawatu whanganui",
+    "manawatu-wanganui",
+    "manawatu-whanganui",
+    "manawatū-whanganui",
+    "wanganui",
+    "whanganui"
+   ]
+  },
+  {
+   "code": "NZ-MBH",
+   "name": "Marlborough",
+   "country": "NZ",
+   "group": "NZ-S",
+   "aliases": [
+    "marlborough",
+    "marlborough district"
+   ]
+  },
+  {
+   "code": "NZ-NSN",
+   "name": "Nelson",
+   "country": "NZ",
+   "group": "NZ-S",
+   "aliases": [
+    "nelson",
+    "nelson city"
+   ]
+  },
+  {
+   "code": "NZ-NTL",
+   "name": "Northland",
+   "country": "NZ",
+   "group": "NZ-N",
+   "aliases": [
+    "far north",
+    "northland"
+   ]
+  },
+  {
+   "code": "NZ-OTA",
+   "name": "Otago",
+   "country": "NZ",
+   "group": "NZ-S",
+   "aliases": [
+    "otago"
+   ]
+  },
+  {
+   "code": "NZ-STL",
+   "name": "Southland",
+   "country": "NZ",
+   "group": "NZ-S",
+   "aliases": [
+    "southland"
+   ]
+  },
+  {
+   "code": "NZ-TKI",
+   "name": "Taranaki",
+   "country": "NZ",
+   "group": "NZ-N",
+   "aliases": [
+    "taranaki"
+   ]
+  },
+  {
+   "code": "NZ-TAS",
+   "name": "Tasman",
+   "country": "NZ",
+   "group": "NZ-S",
+   "aliases": [
+    "tasman",
+    "tasman district"
+   ]
+  },
+  {
+   "code": "NZ-WKO",
+   "name": "Waikato",
+   "country": "NZ",
+   "group": "NZ-N",
+   "aliases": [
+    "waikato"
+   ]
+  },
+  {
+   "code": "NZ-WGN",
+   "name": "Wellington",
+   "country": "NZ",
+   "group": "NZ-N",
+   "aliases": [
+    "greater wellington",
+    "wairarapa",
+    "wellington"
+   ]
+  },
+  {
+   "code": "NZ-WTC",
+   "name": "West Coast",
+   "country": "NZ",
+   "group": "NZ-S",
+   "aliases": [
+    "west coast",
+    "westland"
+   ]
+  },
+  {
+   "code": "US-AL",
+   "name": "Alabama",
+   "country": "US",
+   "aliases": [
+    "al",
+    "alabama"
+   ]
+  },
+  {
+   "code": "US-AK",
+   "name": "Alaska",
+   "country": "US",
+   "aliases": [
+    "ak",
+    "alaska"
+   ]
+  },
+  {
+   "code": "US-AZ",
+   "name": "Arizona",
+   "country": "US",
+   "aliases": [
+    "arizona",
+    "az"
+   ]
+  },
+  {
+   "code": "US-AR",
+   "name": "Arkansas",
+   "country": "US",
+   "aliases": [
+    "ar",
+    "arkansas"
+   ]
+  },
+  {
+   "code": "US-CA",
+   "name": "California",
+   "country": "US",
+   "aliases": [
+    "ca",
+    "california"
+   ]
+  },
+  {
+   "code": "US-CO",
+   "name": "Colorado",
+   "country": "US",
+   "aliases": [
+    "co",
+    "colorado"
+   ]
+  },
+  {
+   "code": "US-CT",
+   "name": "Connecticut",
+   "country": "US",
+   "aliases": [
+    "connecticut",
+    "ct"
+   ]
+  },
+  {
+   "code": "US-DE",
+   "name": "Delaware",
+   "country": "US",
+   "aliases": [
+    "de",
+    "delaware"
+   ]
+  },
+  {
+   "code": "US-DC",
+   "name": "District of Columbia",
+   "country": "US",
+   "aliases": [
+    "dc",
+    "district of columbia",
+    "washington d.c.",
+    "washington dc"
+   ]
+  },
+  {
+   "code": "US-FL",
+   "name": "Florida",
+   "country": "US",
+   "aliases": [
+    "fl",
+    "florida"
+   ]
+  },
+  {
+   "code": "US-GA",
+   "name": "Georgia",
+   "country": "US",
+   "aliases": [
+    "ga",
+    "georgia"
+   ]
+  },
+  {
+   "code": "US-HI",
+   "name": "Hawaii",
+   "country": "US",
+   "aliases": [
+    "hawaii",
+    "hi"
+   ]
+  },
+  {
+   "code": "US-ID",
+   "name": "Idaho",
+   "country": "US",
+   "aliases": [
+    "id",
+    "idaho"
+   ]
+  },
+  {
+   "code": "US-IL",
+   "name": "Illinois",
+   "country": "US",
+   "aliases": [
+    "il",
+    "illinois"
+   ]
+  },
+  {
+   "code": "US-IN",
+   "name": "Indiana",
+   "country": "US",
+   "aliases": [
+    "in",
+    "indiana"
+   ]
+  },
+  {
+   "code": "US-IA",
+   "name": "Iowa",
+   "country": "US",
+   "aliases": [
+    "ia",
+    "iowa"
+   ]
+  },
+  {
+   "code": "US-KS",
+   "name": "Kansas",
+   "country": "US",
+   "aliases": [
+    "kansas",
+    "ks"
+   ]
+  },
+  {
+   "code": "US-KY",
+   "name": "Kentucky",
+   "country": "US",
+   "aliases": [
+    "kentucky",
+    "ky"
+   ]
+  },
+  {
+   "code": "US-LA",
+   "name": "Louisiana",
+   "country": "US",
+   "aliases": [
+    "la",
+    "louisiana"
+   ]
+  },
+  {
+   "code": "US-ME",
+   "name": "Maine",
+   "country": "US",
+   "aliases": [
+    "maine",
+    "me"
+   ]
+  },
+  {
+   "code": "US-MD",
+   "name": "Maryland",
+   "country": "US",
+   "aliases": [
+    "maryland",
+    "md"
+   ]
+  },
+  {
+   "code": "US-MA",
+   "name": "Massachusetts",
+   "country": "US",
+   "aliases": [
+    "ma",
+    "massachusetts"
+   ]
+  },
+  {
+   "code": "US-MI",
+   "name": "Michigan",
+   "country": "US",
+   "aliases": [
+    "mi",
+    "michigan"
+   ]
+  },
+  {
+   "code": "US-MN",
+   "name": "Minnesota",
+   "country": "US",
+   "aliases": [
+    "minnesota",
+    "mn"
+   ]
+  },
+  {
+   "code": "US-MS",
+   "name": "Mississippi",
+   "country": "US",
+   "aliases": [
+    "mississippi",
+    "ms"
+   ]
+  },
+  {
+   "code": "US-MO",
+   "name": "Missouri",
+   "country": "US",
+   "aliases": [
+    "missouri",
+    "mo"
+   ]
+  },
+  {
+   "code": "US-MT",
+   "name": "Montana",
+   "country": "US",
+   "aliases": [
+    "montana",
+    "mt"
+   ]
+  },
+  {
+   "code": "US-NE",
+   "name": "Nebraska",
+   "country": "US",
+   "aliases": [
+    "ne",
+    "nebraska"
+   ]
+  },
+  {
+   "code": "US-NV",
+   "name": "Nevada",
+   "country": "US",
+   "aliases": [
+    "nevada",
+    "nv"
+   ]
+  },
+  {
+   "code": "US-NH",
+   "name": "New Hampshire",
+   "country": "US",
+   "aliases": [
+    "new hampshire",
+    "nh"
+   ]
+  },
+  {
+   "code": "US-NJ",
+   "name": "New Jersey",
+   "country": "US",
+   "aliases": [
+    "new jersey",
+    "nj"
+   ]
+  },
+  {
+   "code": "US-NM",
+   "name": "New Mexico",
+   "country": "US",
+   "aliases": [
+    "new mexico",
+    "nm"
+   ]
+  },
+  {
+   "code": "US-NY",
+   "name": "New York",
+   "country": "US",
+   "aliases": [
+    "new york",
+    "ny"
+   ]
+  },
+  {
+   "code": "US-NC",
+   "name": "North Carolina",
+   "country": "US",
+   "aliases": [
+    "nc",
+    "north carolina"
+   ]
+  },
+  {
+   "code": "US-ND",
+   "name": "North Dakota",
+   "country": "US",
+   "aliases": [
+    "nd",
+    "north dakota"
+   ]
+  },
+  {
+   "code": "US-OH",
+   "name": "Ohio",
+   "country": "US",
+   "aliases": [
+    "oh",
+    "ohio"
+   ]
+  },
+  {
+   "code": "US-OK",
+   "name": "Oklahoma",
+   "country": "US",
+   "aliases": [
+    "ok",
+    "oklahoma"
+   ]
+  },
+  {
+   "code": "US-OR",
+   "name": "Oregon",
+   "country": "US",
+   "aliases": [
+    "or",
+    "oregon"
+   ]
+  },
+  {
+   "code": "US-PA",
+   "name": "Pennsylvania",
+   "country": "US",
+   "aliases": [
+    "pa",
+    "pennsylvania"
+   ]
+  },
+  {
+   "code": "US-RI",
+   "name": "Rhode Island",
+   "country": "US",
+   "aliases": [
+    "rhode island",
+    "ri"
+   ]
+  },
+  {
+   "code": "US-SC",
+   "name": "South Carolina",
+   "country": "US",
+   "aliases": [
+    "sc",
+    "south carolina"
+   ]
+  },
+  {
+   "code": "US-SD",
+   "name": "South Dakota",
+   "country": "US",
+   "aliases": [
+    "sd",
+    "south dakota"
+   ]
+  },
+  {
+   "code": "US-TN",
+   "name": "Tennessee",
+   "country": "US",
+   "aliases": [
+    "tennessee",
+    "tn"
+   ]
+  },
+  {
+   "code": "US-TX",
+   "name": "Texas",
+   "country": "US",
+   "aliases": [
+    "texas",
+    "tx"
+   ]
+  },
+  {
+   "code": "US-UT",
+   "name": "Utah",
+   "country": "US",
+   "aliases": [
+    "ut",
+    "utah"
+   ]
+  },
+  {
+   "code": "US-VT",
+   "name": "Vermont",
+   "country": "US",
+   "aliases": [
+    "vermont",
+    "vt"
+   ]
+  },
+  {
+   "code": "US-VA",
+   "name": "Virginia",
+   "country": "US",
+   "aliases": [
+    "va",
+    "virginia"
+   ]
+  },
+  {
+   "code": "US-WA",
+   "name": "Washington",
+   "country": "US",
+   "aliases": [
+    "wa",
+    "washington"
+   ]
+  },
+  {
+   "code": "US-WV",
+   "name": "West Virginia",
+   "country": "US",
+   "aliases": [
+    "west virginia",
+    "wv"
+   ]
+  },
+  {
+   "code": "US-WI",
+   "name": "Wisconsin",
+   "country": "US",
+   "aliases": [
+    "wi",
+    "wisconsin"
+   ]
+  },
+  {
+   "code": "US-WY",
+   "name": "Wyoming",
+   "country": "US",
+   "aliases": [
+    "wy",
+    "wyoming"
+   ]
+  }
+ ]
+}

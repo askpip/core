@@ -7,10 +7,10 @@
 **Document Title:** PIP Knowledge Integration Technician (KIT) Operations Manual
 **Volume:** Volume VI – Knowledge Curation System
 **Folder:** 03 – Operations Manuals
-**Version:** 0.10
+**Version:** 0.11
 **Status:** **Approved**
 **Owner:** The Founders
-**Last Updated:** 6 October 2026
+**Last Updated:** 7 October 2026
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `Knowledge Curation System/Operations Manuals/KIT_Operations_Manual.md`
 **Purpose:** To define, at a procedural level, how the PIP Knowledge Integration Technician (KIT) carries out the responsibilities and authority the KIT Charter grants it — receiving a completed Founder Review Dossier from ROC, or retrieving Founder-approved information from the Mother Information Library (MIL), building draft PIP Knowledge Records (PKRs), preparing them for Founder operational review, and publishing and maintaining approved PKRs within the Live Intelligence Library (LIL) — so that any AI instance, bootstrapped from this document chain alone, can perform KIT's work consistently.
@@ -19,6 +19,8 @@
 **Related Documents:** PIP Knowledge Integration Technician (KIT) Charter; PIP Knowledge Record (PKR) Standard; Live Intelligence Library (LIL) Standard; Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Pip Runtime Architecture; PIP Knowledge Integration Workflow; PIP Research Origin Curator (ROC) Operations Manual (structural model for this document); PIP System Identity and Naming Standard (SINS-001).
 
 **Drafting Note:** This is the first version of this Manual. No KIT Operations Manual existed before this draft — the KIT Charter and PKR Standard both anticipated one without it being written. Rather than draft this speculatively, a real dry run was performed first: an AI instance, using only the Charter, the PKR Standard, the LIL Standard, the MIL Standard, the Pip Runtime Architecture and the Knowledge Integration Workflow, attempted to build one real draft Observation PKR from ARC-BUSHROSE-DEADWOOD-01 (`Working/AI Outputs/KIT_Dry_Run_BUSHROSE_DEADWOOD_01.md`). It produced a usable partial draft and stalled at six specific, concrete points. This Manual is written directly against those six stalls, using the same case as its worked example throughout, in the same spirit as how a real research commission on dead-versus-living wood shaped the Founder Review Dossier Standard and the Assessed Finding model earlier in this session. Sections below reference "the dry run" and "Gap 1" through "Gap 6" by number, matching that document.
+
+**Version 0.11 (7 October 2026):** on a Founder's decision of 6 October 2026: §7.7 has a local statement marked with the place its source names (a country, a region or a town), not only a country.
 
 **Version 0.10 (approved by AskPIP Founder Authority, 6 October 2026):** on a Founder's decision to keep the one-approval pattern. KIT builds draft PKRs from a completed Founder Review Dossier that ROC passes to it, before the Founders decide (§3.1, §3.3, Chapter 4). Nothing built this way is published until the Founders approve and the ARC is archived (Chapter 16). Chapter 14 submits Pip's Answers in place of the Build Check Brief; Chapter 15 gives the three answers.
 
@@ -241,7 +243,7 @@ This is rule 8 of the Pip Knowledge Rules: KIT adds no claim, reason or certaint
 - Let the confidence label carry how strong it is. Do not repeat it in words.
 - Add a limit only where it would change what a gardener does.
 - Each statement makes sense read alone.
-- A disagreement says that experts disagree and what each side says. A gap says Pip couldn't find it and points to local expert help. A precaution is marked as one. A local statement is marked with the countries it is shown in.
+- A disagreement says that experts disagree and what each side says. A gap says Pip couldn't find it and points to local expert help. A precaution is marked as one. A local statement is marked with the place its source names: a country, a region or a town (PKR Standard §5.7). It is not marked for a wider place than the source speaks of.
 - No brand of product and no mixing amount appears.
 - Where the Build Check shows the sources say less than the finding, the statement follows the sources.
 

@@ -25,6 +25,7 @@ export type TopicKey = `pkr:${string}`
 
 export type BuiltInKey =
   | 'when-to-prune'
+  | 'months'
   | 'too-late'
   | 'how-much'
   | 'how-to-cut'
@@ -46,6 +47,7 @@ export type QuestionKey = BuiltInKey | TopicKey
 
 /** Which topic's lead question a built-in question becomes once that topic is Published. */
 const TOPIC_FOR: Partial<Record<BuiltInKey, string>> = {
+  months: 'timing',
   spraying: 'spraying',
   'plant-move': 'planting',
 }
@@ -105,6 +107,8 @@ export function commonQuestions(): CommonQuestion[] {
   const topics = new Map<string, QuestionAnswer[]>()
   for (const a of publishedQuestionAnswers()) topics.set(a.topic, [...(topics.get(a.topic) ?? []), a])
   const spraying = topics.get('spraying')
+  // Month-level timing, by place. Not in the list until its first records are Published.
+  const months = fromTopic('months', 'Which months do I prune my rose?', topics)
 
   const list: CommonQuestion[] = [
     {
@@ -116,6 +120,7 @@ export function commonQuestions(): CommonQuestion[] {
         : [],
       pkrIds: ['PKR-SGT-000001'],
     },
+    ...(months ? [months] : []),
     {
       key: 'too-late',
       question: 'Is it too late to prune?',
@@ -248,6 +253,7 @@ export function questionByKey(key: QuestionKey): CommonQuestion | undefined {
 /** The ones shown on the home and plant pages, most-asked first. */
 export const HOME_QUESTIONS: BuiltInKey[] = [
   'when-to-prune',
+  'months',
   'how-much',
   'too-late',
   'no-flowers',

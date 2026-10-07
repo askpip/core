@@ -1,0 +1,2164 @@
+{
+ "what": "Build Check Part 1 (ROC Operations Manual §14.2A): every source the Source Register lists for a finding was reopened on 6 October 2026 and each recorded quotation looked for on its page. 'also_says' lists further sentences the checkers confirmed on the same pages.",
+ "totals": {
+  "sources": 36,
+  "opened": 36,
+  "quotations": 122,
+  "confirmed": 120,
+  "near": 2,
+  "not_found": 0,
+  "supports": {
+   "yes": 39,
+   "partly": 83
+  },
+  "further_sentences": 123
+ },
+ "sources": [
+  {
+   "code": "NZRS-FAQ",
+   "url": "https://nzroses.org.nz/faq/",
+   "final_url": "https://nzroses.org.nz/faq/",
+   "opened": true,
+   "page_date": "modified 30 March 2026",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Pruning starts up north around early July while in the colder parts of the South Island, it gets under-way in August.\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning starts up north around early July while in the colder parts of the South Island, it gets under-way in August.",
+     "supports_finding": "yes",
+     "note": "Word for word, under the question 'When is the best time to prune your roses in New Zealand?', after 'Depends on where you live.' It contrasts 'up north' (early July) with 'the colder parts of the South Island' (August), so later where colder. The page never mentions frost or 'milder/frosty districts'; that wording is not from this page."
+    },
+    {
+     "finding": "AF-2",
+     "recorded": "\"Peak bloom in spring is first two weeks in November for the upper North Island, last two weeks for the lower North Island\"",
+     "result": "Confirmed",
+     "page_wording": "Peak bloom in spring is first two weeks in November for the upper North Island, last two weeks for the lower North Island and...",
+     "supports_finding": "yes",
+     "note": "Word for word; the recorded fragment stops before the South Island part, but the full sentence does give all three areas. It is about when to see roses in flower (visitor question), not about pruning or care timing. The next sentence adds that there are regional variations and each season differs."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"Pruning starts up north around early July\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning starts up north around early July while in the colder parts of the South Island, it gets under-way in August.",
+     "supports_finding": "partly",
+     "note": "The page supports only the start: pruning 'starts up north around early July'. It gives no end date for the north; 'to early August' is not on this page. 'Up north' is not defined."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"in the colder parts of the South Island, it gets under-way in August.\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning starts up north around early July while in the colder parts of the South Island, it gets under-way in August.",
+     "supports_finding": "partly",
+     "note": "Supports 'colder parts of the South Island ... gets under-way in August' (a start month). The page does not say 'or later', does not mention frost or 'once the worst frosts have passed', and does not name inland or frost-prone districts."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"Winter is the best time to plant as it allows the plant to establish before summer arrives.\"",
+     "result": "Confirmed",
+     "page_wording": "Winter is the best time to plant as it allows the plant to establish before summer arrives.",
+     "supports_finding": "partly",
+     "note": "Word for word under 'When can I plant roses?'. Supports winter as the best planting time for roses generally (New Zealand as a whole). The page does not say 'bare-root', names no months (no June to August), and does not mention Canterbury; its spring/summer remark is about potted roses only."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"If planting potted roses during spring and summer, keep them well watered.\"",
+     "result": "Confirmed",
+     "page_wording": "If planting potted roses during spring and summer, keep them well watered.",
+     "supports_finding": "partly",
+     "note": "Word for word, second sentence under 'When can I plant roses?'. It supports keeping potted roses well watered if planted in spring and summer. The page does not say potted roses can be planted 'at any time of year'; that is an inference (autumn is not mentioned at all)."
+    },
+    {
+     "finding": "AF-38",
+     "recorded": "\"Your local rose society can provide advice suited to your own climate.\"",
+     "result": "Confirmed",
+     "page_wording": "Your local rose society can provide advice suited to your own climate.",
+     "supports_finding": "yes",
+     "note": "Word for word, the last sentence of the answer on when to prune roses in New Zealand. In context it is advice about pruning timing for the gardener's own climate."
+    }
+   ],
+   "contradictions": [
+    "Nothing on the page contradicts the findings, but it is thinner than several findings imply: no end date for northern pruning, no mention of frost anywhere, no months for planting, no use of 'bare-root', and no statement that potted roses can go in at any time of year."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1/Q6 pruning timing depends on location",
+     "quote": "Depends on where you live.",
+     "note": "Opening sentence of the answer to 'When is the best time to prune your roses in New Zealand?'; main winter pruning, New Zealand as a whole."
+    },
+    {
+     "topic": "Q8 seasons vary",
+     "quote": "There are some regional variations within these areas and each season is always slightly different.",
+     "note": "Follows the peak-bloom sentence (best time to see roses in flower), so it is about spring bloom dates, not pruning; New Zealand as a whole."
+    },
+    {
+     "topic": "Q6 how NZ is divided",
+     "quote": "...and from the 3rd week in November to mid December in the South Island.",
+     "note": "End of the peak-bloom sentence: three areas (upper North Island, lower North Island, South Island) for spring peak bloom, not for care tasks."
+    }
+   ]
+  },
+  {
+   "code": "NZRS-W",
+   "url": "https://nzroses.org.nz/winter-rose-care/",
+   "final_url": "https://nzroses.org.nz/winter-rose-care/",
+   "opened": true,
+   "page_date": "posted 30 March 2009; credited as an extract from NZ Rosarian, June 1996 (Peter Elliott)",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"Most people prune in July and even August.\"",
+     "result": "Confirmed",
+     "page_wording": "Most people prune in July and even August.",
+     "supports_finding": "partly",
+     "note": "Word for word, in the PRUNING section. Supports July and August as the usual months. The page does not mention pruning in June and says nothing about regions, climate or frost, so the 'June to August' range is not from this page. Text dates from 1996."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"most garden centres promote new roses early in June.\"",
+     "result": "Confirmed",
+     "page_wording": "If not most garden centres promote new roses early in June.",
+     "supports_finding": "partly",
+     "note": "The fragment is word for word, in the PURCHASING section, after a sentence about roses ordered from a nursery. It says garden centres 'promote new roses early in June'; it does not say 'bare-root' and says 'promote', not arrive or reach. 1996 text; no region given."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Rake up all fallen leaves and burn them as they can harbour spores that spread disease later on.\"",
+     "result": "Confirmed",
+     "page_wording": "Rake up all fallen leaves and burn them as they can harbour spores that spread disease later on.",
+     "supports_finding": "partly",
+     "note": "Word for word, in the PREPARATION section, between 'new beds should be prepared in April/May' and the June clean-up spray. Supports clearing fallen leaves in the autumn/early-winter preparation stage, but the sentence itself names no month, does not say 'at pruning', and the page does not mention Canterbury."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"it is highly recommended that clean up sprays be applied in June.\"",
+     "result": "Confirmed",
+     "page_wording": "In preparation for the spring, it is highly recommended that clean up sprays be applied in June.",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word, in the PREPARATION section. Supports a clean-up spray in June only. The page does not say this June spray is after pruning (it sits before the July/August pruning section), and July is not named for spraying. The only spray it places after pruning is 'a post prune spray of copper and oil', with no month."
+    }
+   ],
+   "contradictions": [
+    "AF-33: the June clean-up spray is given under PREPARATION, ahead of pruning ('Most people prune in July and even August'), so on this page it is not an after-pruning spray; the after-pruning spray is a separate one (copper and oil) with no month named. July is not named for spraying.",
+    "AF-33: the page does not say which type the June clean-up spray is; it only warns that lime sulphur and copper based sprays must not be used within 2 weeks of each other.",
+    "AF-32: leaf raking is listed with bed preparation, not with pruning.",
+    "The page is a 1996 text with no regional guidance at all (no north/south, no frost)."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 winter spray type after pruning",
+     "quote": "Don't forget a post prune spray of copper and oil to complete the job.",
+     "note": "PRUNING section; spray after the main winter pruning (July/August on this page); type copper and oil; no month given; no region."
+    },
+    {
+     "topic": "Q5 winter spray types",
+     "quote": "Note that you must not use lime sulphur and copper based sprays within 2 weeks of each other.",
+     "note": "PREPARATION section, straight after the June clean-up spray sentence; names lime sulphur and copper as the winter spray types; no region."
+    },
+    {
+     "topic": "Q4 preparing for planting",
+     "quote": "Any new beds should be prepared in April/May.",
+     "note": "PREPARATION section; preparing new rose beds before winter planting; the PLANTING section itself names no month; no region."
+    },
+    {
+     "topic": "Q2 feeding (autumn/winter dressing, not spring start)",
+     "quote": "Put a dressing of slow acting fertiliser on existing your beds.",
+     "note": "PREPARATION section, the sentence before the leaf-raking one (wording as on page). No month attached; it is not a spring first feed or a last feed."
+    }
+   ]
+  },
+  {
+   "code": "NZRS-DEMO",
+   "url": "https://nzroses.org.nz/free-rose-pruning-demonstrations/",
+   "final_url": "https://nzroses.org.nz/free-rose-pruning-demonstrations/",
+   "opened": true,
+   "page_date": "published 12 May 2019; updated 6 June 2019",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"roses are usually pruned between late June and mid August depending on where you live\"",
+     "result": "Confirmed",
+     "page_wording": "Its almost rose pruning time in New Zealand ... roses are usually pruned between late June and mid August depending on where you live.",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word, in the opening sentence of a 2019 news item about pruning demonstrations; it is about the main winter pruning for New Zealand as a whole. Supports the range (late June to mid August). It does not say 'most often July and August'; the only hint is that all four listed demonstrations are on 20-21 July 2019."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"depending on where you live\"",
+     "result": "Confirmed",
+     "page_wording": "roses are usually pruned between late June and mid August depending on where you live.",
+     "supports_finding": "partly",
+     "note": "Word for word. Supports 'depends on where you live' for the pruning window. The page does not mention microclimate, frost or climate at all, so the microclimate half of the finding is not supported here."
+    }
+   ],
+   "contradictions": [
+    "No contradiction. The page says nothing about microclimate, frost, north or south. Its demonstrations for Otago, Southland and Westland are all on 20-21 July (2019), which sits a little awkwardly with a blanket 'August or later' for the colder South Island (AF-10, not checked against this source)."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 pruning demonstrations by place",
+     "quote": "Feilding Saturday 20th July; Otago Saturday 20th July; Southland Sunday 21st July; Westland Saturday 20th July.",
+     "note": "List of 2019 rose-society pruning demonstrations (dates as read from the page list, not one sentence); main winter pruning; all in the third week of July, including the southern South Island."
+    }
+   ]
+  },
+  {
+   "code": "DUN-PT",
+   "url": "https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning",
+   "final_url": "https://www.dunedin.govt.nz/bg/collections/garden-life-article/practical-tips-for-rose-pruning",
+   "opened": true,
+   "page_date": "first published 26 June 2014",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"The general rule is the colder the climate, the later you prune in winter.\"",
+     "result": "Confirmed",
+     "page_wording": "The general rule is the colder the climate, the later you prune in winter.",
+     "supports_finding": "partly",
+     "note": "Word for word, the second sentence of the article, straight before the Dunedin late-July sentence. It supports 'prune later where it is colder' as a general rule (main winter pruning). The page does not itself contrast north and south or name any other district; it names only Dunedin Botanic Garden."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"At Dunedin Botanic Garden we prune modern roses in late July\"",
+     "result": "Confirmed",
+     "page_wording": "At Dunedin Botanic Garden we prune modern roses in late July, when they are at their most dormant and hopefully the heaviest...",
+     "supports_finding": "yes",
+     "note": "Word for word. Stated for Dunedin Botanic Garden practice and for 'modern roses' (main winter pruning); 2014 article, which also advertises a pruning demonstration on Saturday 19th July."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"when they are at their most dormant and hopefully the heaviest of frosts have passed.\"",
+     "result": "Confirmed",
+     "page_wording": "...we prune modern roses in late July, when they are at their most dormant and hopefully the heaviest of frosts have passed.",
+     "supports_finding": "yes",
+     "note": "Word for word. Both signals are named: 'most dormant' and 'the heaviest of frosts have passed' (qualified by 'hopefully'). It is stated as Dunedin Botanic Garden's own practice for modern roses, not as a national rule."
+    }
+   ],
+   "contradictions": [
+    "No contradiction. Note the timing sentence is limited to 'modern roses' at Dunedin Botanic Garden and the frost signal is hedged with 'hopefully'."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 winter spray type and timing",
+     "quote": "After pruning, apply a spray of copper and oil at winter strength, spray around bud union to destroy over-wintering diseases...",
+     "note": "Winter spray after the main pruning (late July at Dunedin); type copper and oil; sentence continues 'and insect eggs that tend to hide at the base' (one of three readings stopped at 'diseases')."
+    }
+   ]
+  },
+  {
+   "code": "DUN-WM",
+   "url": "https://dunedinbotanicgarden.co.nz/collections/garden-life-article/summer-flower-needs-winter-maintenance",
+   "final_url": "https://dunedinbotanicgarden.co.nz/collections/garden-life-article/summer-flower-needs-winter-maintenance",
+   "opened": true,
+   "page_date": "9 July 2015",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"at Dunedin Botanic Garden pruning is left until late July, after the worst of the frosts.\"",
+     "result": "Confirmed",
+     "page_wording": "...so at Dunedin Botanic Garden pruning is left until late July, after the worst of the frosts.",
+     "supports_finding": "yes",
+     "note": "Word for word. The full sentence begins 'Modern roses are pruned hard and low to the ground, leaving them vulnerable to frost, so...', so late July is for modern (bush) roses at Dunedin Botanic Garden. The same page says old fashioned roses had already been pruned over the past month."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"If pruned too early, roses can be hit by frost but too late and growth will have already started.\"",
+     "result": "Confirmed",
+     "page_wording": "If pruned too early, roses can be hit by frost but too late and growth will have already started.",
+     "supports_finding": "partly",
+     "note": "Word for word, after 'Knowing your garden is key to judging timing.' It supports 'pruning too early risks frost damage'. It does not say that new growth is what gets damaged: the page's stated reason is that modern roses pruned hard and low are left 'vulnerable to frost'. Stated in a Dunedin article, not as a national rule."
+    }
+   ],
+   "contradictions": [
+    "AF-15: the page gives the frost risk as hard-pruned, low plants being 'vulnerable to frost', not as frost damage to new growth; no sentence on the page links new growth to frost.",
+    "AF-11: late July is for modern roses only; old fashioned roses 'over the past month' (before 9 July) were already being pruned, because they are pruned higher and are 'less vulnerable to frosts'."
+   ],
+   "also_says": [
+    {
+     "topic": "Q8 go by your own garden",
+     "quote": "Knowing your garden is key to judging timing.",
+     "note": "Main winter pruning; general statement in a Dunedin article, directly before the too-early/too-late sentence."
+    },
+    {
+     "topic": "Q8 microclimate",
+     "quote": "Different locations can have different conditions, even pockets within the same suburb, so observe your own garden to decide exactly when is best.",
+     "note": "Main winter pruning timing; Dunedin article; follows the too-early/too-late sentence."
+    },
+    {
+     "topic": "Q4 planting time",
+     "quote": "It is the ideal time to plant new roses, and prune existing ones.",
+     "note": "'It' is winter ('Over winter there is plenty to keep a rose gardener busy.'); article dated 9 July, Dunedin; no months named. A later sentence gives a planting method for 'bare-rooted roses' without a month."
+    },
+    {
+     "topic": "Q1 old fashioned roses pruned earlier",
+     "quote": "...over the past month, we have been pruning the old fashioned roses, just to shape and tidy them...",
+     "note": "Dunedin Botanic Garden, article dated 9 July, so roughly June to early July; sentence continues 'they are pruned higher than the moderns so are less vulnerable to frosts'."
+    }
+   ]
+  },
+  {
+   "code": "ODT-GL",
+   "url": "https://www.odt.co.nz/lifestyle/home-garden/rose-pruning-can-be-easy",
+   "final_url": "https://www.odt.co.nz/lifestyle/home-garden/rose-pruning-can-be-easy",
+   "opened": true,
+   "page_date": "Thursday 5 July 2018",
+   "checks": [
+    {
+     "finding": "AF-10",
+     "recorded": "\"frosty locations can mean waiting until mid-August.\"",
+     "result": "Confirmed",
+     "page_wording": "Take into consideration the microclimate in your garden, though, as frosty locations can mean waiting until mid-August.",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word. Supports waiting until mid-August in 'frosty locations' (main winter pruning), said about garden microclimate in a Dunedin article. It does not say 'August or later', does not name the colder South Island or inland districts, and does not use the words 'once the worst frosts have passed'. 'Until mid-August' reads as an upper limit."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"Roses need pruning when they are at their most dormant, which in Dunedin tends to be late July.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses need pruning when they are at their most dormant, which in Dunedin tends to be late July.",
+     "supports_finding": "yes",
+     "note": "Word for word. Main winter pruning; stated for Dunedin, hedged with 'tends to be'; the signal named is 'most dormant'. Article dated 5 July 2018 and promotes a demonstration on 21 July, mainly for modern roses."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"Take into consideration the microclimate in your garden, though, as frosty locations can mean waiting until mid-August.\"",
+     "result": "Confirmed",
+     "page_wording": "Take into consideration the microclimate in your garden, though, as frosty locations can mean waiting until mid-August.",
+     "supports_finding": "partly",
+     "note": "Word for word. Supports the microclimate half of the finding (frosty gardens wait until mid-August). The page does not say timing depends on 'where you live' and names no place other than Dunedin."
+    }
+   ],
+   "contradictions": [
+    "AF-10: the page gives late July for Dunedin, a southern South Island city, and treats mid-August as the limit for frosty spots ('waiting until mid-August'), not 'August or later'. It names no inland or colder district."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 clearing leaves and prunings",
+     "quote": "...pick up all the clippings and leaves but to avoid spreading pests and diseases, don't put them in the compost.",
+     "note": "Sentence begins 'When you have finished pruning,'; clear-up straight after the main winter pruning (late July in Dunedin). No spray, feeding or planting advice on the page."
+    }
+   ]
+  },
+  {
+   "code": "ABG",
+   "url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+   "final_url": "https://www.aucklandbotanicgardens.co.nz/garden-advice/what-to-grow/roses/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-14",
+     "recorded": "\"Roses benefit from pruning each winter when they are not in active growth.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses benefit from pruning each winter when they are not in active growth.",
+     "supports_finding": "partly",
+     "note": "Word for word. Supports only a dormancy-type signal ('not in active growth') for winter pruning, on a page about roses for the Auckland region. The page does not use the words 'dormant' or 'frost' and names no month, so 'worst frosts having passed' is not supported here."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"Apply fertiliser in spring to help keep plants healthy.\"",
+     "result": "Confirmed",
+     "page_wording": "Always tidy up any dead and diseased fallen leaves and apply fertiliser in spring to help keep plants healthy.",
+     "supports_finding": "partly",
+     "note": "The recorded words are the second half of a longer sentence (page has lower-case 'apply'). Supports feeding in spring only. The page does not say 'as new growth appears' or 'after pruning', names no month, and gives no last feed."
+    },
+    {
+     "finding": "AF-28",
+     "recorded": "\"Planting is best done in autumn or winter.\"",
+     "result": "Confirmed",
+     "page_wording": "Planting is best done in autumn or winter.",
+     "supports_finding": "yes",
+     "note": "Word for word, in the planting advice. The page is about roses for 'the Auckland region'; the sentence itself does not repeat Auckland. The next sentence refers to plants 'in their container', so it is not specifically about bare-root roses; no months named."
+    }
+   ],
+   "contradictions": [
+    "AF-14: the page never mentions frost or dormancy, and names no month for anything.",
+    "AF-18: no trigger for the first feed is given beyond 'in spring'.",
+    "The garden says it only grows roses that 'stay healthy without spraying'; no winter spray is recommended on this page."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 clearing fallen leaves; Q2 feeding",
+     "quote": "Always tidy up any dead and diseased fallen leaves and apply fertiliser in spring to help keep plants healthy.",
+     "note": "Clear-up is 'always' (no season given); feeding 'in spring'; roses in the Auckland region."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Remove spent flowers throughout the flowering season as this will help encourage new flowers and prolong flowering.",
+     "note": "Deadheading through the whole flowering season; the page gives no point at which to stop; Auckland region."
+    },
+    {
+     "topic": "Q4 planting potted roses",
+     "quote": "Always plant at the same depth as they are in their container.",
+     "note": "Follows 'Planting is best done in autumn or winter.', so the autumn/winter advice is given for container-grown plants; Auckland region."
+    },
+    {
+     "topic": "Q5 no spray programme",
+     "quote": "We only grow those that perform well and stay healthy without spraying.",
+     "note": "Follows 'Many different cultivars of roses can be grown in the Auckland region.'; the page names no winter spray of any type."
+    }
+   ]
+  },
+  {
+   "code": "NIWA-NZ",
+   "url": "https://webstatic.niwa.co.nz/static/web/NZ_Climate-NIWA.pdf",
+   "final_url": "https://webstatic.niwa.co.nz/static/web/NZ_Climate-NIWA.pdf",
+   "opened": true,
+   "page_date": "2018 (NIWA Science and Technology Series No. 74)",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "\"Frosts are common in the cooler months for most of the country, however they occur rarely north of Waikato.\"",
+     "result": "Confirmed",
+     "page_wording": "Frosts are common in the cooler months for most of the country, however they occur rarely north of Waikato.",
+     "supports_finding": "yes",
+     "note": "Word for word; reported as being in the Summary (about page 4) of the PDF. It is a general climate statement for New Zealand; 'cooler months' are not named as months."
+    },
+    {
+     "finding": "AF-5",
+     "recorded": "\"they occur less frequently in coastal and northernmost areas.\"",
+     "result": "Confirmed",
+     "page_wording": "Both types of frost are quite common for many New Zealand locations..., but they occur less frequently in coastal and northernmost areas.",
+     "supports_finding": "yes",
+     "note": "Fragment is word for word (Frosts subsection, about page 32). The quotation itself covers only 'less frequent in coastal and northernmost areas'. The 'most frequent inland' half is carried by a neighbouring sentence: 'both types occur most frequently at inland South Island locations such as Alexandra' (inland South Island, not inland generally)."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Areas most likely to experience frost are flat areas ... and in valleys and basins.\"",
+     "result": "Confirmed",
+     "page_wording": "...areas most likely to experience frost are flat areas, where relatively cold air is not able to drain away..., and in valleys and basins...",
+     "supports_finding": "yes",
+     "note": "The recorded text (with its ellipsis) matches; the sentence starts 'Therefore, areas...' and continues after 'basins'. The quotation covers flat areas, valleys and basins; the 'local, varies widely over small areas' half is the opening sentence of the same Frosts subsection, which two separate readings found word for word."
+    }
+   ],
+   "contradictions": [
+    "None found. Note 'most frequently' is said of inland South Island locations such as Alexandra, not of inland areas in general. Table values for frost days could not be read reliably through WebFetch (PDF table) and were not used."
+   ],
+   "also_says": [
+    {
+     "topic": "Q6 where frost is most frequent",
+     "quote": "Ground frosts occur more frequently than air frosts, and both types occur most frequently at inland South Island locations such as Alexandra.",
+     "note": "Frosts subsection (about page 32); climate statement for New Zealand, not rose advice."
+    },
+    {
+     "topic": "Q8 frost is local",
+     "quote": "Frost is a local phenomenon and both its frequency of occurrence and intensity can vary widely over small areas.",
+     "note": "First sentence of the Frosts subsection in the national document (same sentence as recorded from the Otago document)."
+    },
+    {
+     "topic": "Q6 season of frost",
+     "quote": "Frosts occur most frequently in winter during periods of anticyclonic conditions, primarily for two reasons.",
+     "note": "Second sentence of the Frosts subsection; names winter but no months; New Zealand as a whole."
+    }
+   ]
+  },
+  {
+   "code": "NIWA-OT",
+   "url": "https://niwa.co.nz/sites/default/files/Otago%20Climate%20book%20WEB%202021.pdf",
+   "final_url": "https://niwa.co.nz/sites/default/files/Otago%20Climate%20book%20WEB%202021.pdf",
+   "opened": true,
+   "page_date": "2015, 2nd edition (NIWA Science and Technology Series No. 67); file name says WEB 2021",
+   "checks": [
+    {
+     "finding": "AF-5",
+     "recorded": "\"air frosts occur most frequently at the inland location of Alexandra.\"",
+     "result": "Confirmed",
+     "page_wording": "Ground frosts occur more frequently than air frosts, and air frosts occur most frequently at the inland location of Alexandra.",
+     "supports_finding": "partly",
+     "note": "Fragment is word for word (the first reading mislabelled it NEAR and quoted the wrong sentence; a second reading gave the full sentence). It covers Otago only and air frosts only: inland Alexandra has the most. It says nothing about coastal or northernmost areas of New Zealand, so it supports only the 'most frequent inland' part, for one region."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"Frost is a local phenomenon and both its frequency of occurrence and intensity can vary widely over small areas.\"",
+     "result": "Confirmed",
+     "page_wording": "Frost is a local phenomenon and both its frequency of occurrence and intensity can vary widely over small areas.",
+     "supports_finding": "partly",
+     "note": "Word for word (about page 29). The quotation supports 'frost is local and can vary widely over small areas'. For the second half, this document says 'flat areas ... and in valleys'; the phrase 'valleys and basins' was not found in the Otago document, so 'basins' comes only from the national document. The document covers Otago only."
+    }
+   ],
+   "contradictions": [
+    "None found. The document is regional (Otago), so it cannot by itself carry a 'National' label. Two readings of the frost-day table through WebFetch disagreed (Alexandra air frosts 12 versus 68 a year; Dunedin Musselburgh 0.4 versus 5.1), so no table figure from this PDF should be relied on without opening the PDF directly."
+   ],
+   "also_says": [
+    {
+     "topic": "Q6 season of frost in Otago",
+     "quote": "Both types of frost are common in Otago in the cooler months.",
+     "note": "Frosts subsection (about page 29); Otago only; no months named."
+    },
+    {
+     "topic": "Q8 where frost settles",
+     "quote": "...areas most likely to experience frost are flat areas, where relatively cold air is not able to drain away..., and in valleys...",
+     "note": "Otago document; sentence starts 'Therefore,' and continues about cold air pooling; says 'valleys', not 'valleys and basins'."
+    },
+    {
+     "topic": "Q6 season of frost",
+     "quote": "Frosts occur most frequently in winter during periods of anticyclonic conditions, primarily for two reasons.",
+     "note": "Sentence straight after 'Frost is a local phenomenon...'; names winter, no months; Otago document."
+    }
+   ]
+  },
+  {
+   "code": "NIWA-OV",
+   "url": "https://niwa.co.nz/education-and-training/schools/resources/climate/overview",
+   "final_url": "https://niwa.co.nz/climate-and-weather/overview-new-zealands-climate",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-7",
+     "recorded": "\"New Zealand's climate is complex and varies from warm subtropical in the far north to cool temperate climates in the far south\"",
+     "result": "Confirmed",
+     "page_wording": "New Zealand's climate is complex and varies from warm subtropical in the far north to cool temperate climates in the far south, with...",
+     "supports_finding": "yes",
+     "note": "Word for word; it is the first sentence of the page, which continues 'with severe alpine conditions in the mountainous areas'. The recorded URL resolved on the same host to /climate-and-weather/overview-new-zealands-climate (page title now carries 'Earth Sciences New Zealand | NIWA'). No date for the page itself."
+    }
+   ],
+   "contradictions": [
+    "Not a contradiction of AF-7, but the page says 'Frosts can occur anywhere in New Zealand', which qualifies the 'rare north of Waikato' wording used in AF-4 (rare is not never)."
+   ],
+   "also_says": [
+    {
+     "topic": "Q6 frost anywhere",
+     "quote": "Frosts can occur anywhere in New Zealand and usually form on cold nights with clear skies and little wind.",
+     "note": "General climate statement for New Zealand as a whole; no months."
+    },
+    {
+     "topic": "Q6 coldest and warmest months",
+     "quote": "The coldest month is usually July and the warmest month is usually January or February.",
+     "note": "New Zealand as a whole; climate statement, not rose advice."
+    },
+    {
+     "topic": "Q6 how NZ is divided by climate",
+     "quote": "To summarise the climate of New Zealand, selected locations throughout the country have been grouped into broad climate zones.",
+     "note": "The page then lists zones: Northern New Zealand, Central North Island, South-West North Island, Eastern North Island, Northern, Western, Eastern and Inland South Island, Mount Cook, Southern New Zealand (plus Chatham Islands and Scott Base)."
+    },
+    {
+     "topic": "Q6 north to south temperature",
+     "quote": "Mean annual temperatures range from 10°C in the south to 16°C in the north of New Zealand.",
+     "note": "New Zealand as a whole; climate statement."
+    }
+   ]
+  },
+  {
+   "code": "FIG-FROST",
+   "url": "https://figure.nz/chart/Hra3vx0XfcsJEf5H",
+   "final_url": "https://figure.nz/chart/Hra3vx0XfcsJEf5H",
+   "opened": true,
+   "page_date": "not shown (data are mean annual values for 1991 to 2020)",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "\"Annual days of ground frost across selected New Zealand locations ... Provider: NIWA\"",
+     "result": "Confirmed",
+     "page_wording": "Annual days of ground frost across selected New Zealand locations; Mean annual values for 1991-2020, days; Provider: NIWA",
+     "supports_finding": "partly",
+     "note": "Title and provider are on the page; the chart data were readable as text and came out the same in two readings. The figures back 'rare north of Waikato' (Kaitaia about 0.1 and Auckland about 4.2 ground-frost days a year against Hamilton about 45.5). The chart gives annual totals for ground frost only, so it says nothing about 'cooler months', and it has no sentence about 'north of Waikato'. It also shows few frosts in some places south of Waikato."
+    }
+   ],
+   "contradictions": [
+    "Qualifies 'common for most of the country': Wellington (about 3.1 days), Whanganui (about 6.5) and New Plymouth (about 8.4) are all south of Waikato yet have very few ground frosts, fewer or little more than Auckland. The values are for ground frost, not air frost, at selected stations."
+   ],
+   "also_says": [
+    {
+     "topic": "Q6 frost days by place (data, not a sentence)",
+     "quote": "Kaitaia 0.14; Auckland 4.23; Hamilton 45.55; Wellington 3.11; Christchurch 84.75; Dunedin 49.78; Alexandra 116.62 (days of ground frost a year).",
+     "note": "Chart data, mean annual ground-frost days 1991 to 2020, NIWA; rounded from the page's values; read the same in two separate WebFetch calls. Other stations include Nelson 74.9, Queenstown 116.8, Invercargill 66.8, Lake Tekapo 158.0."
+    }
+   ]
+  },
+  {
+   "code": "CHS-MAY",
+   "url": "https://www.chsgardens.co.nz/may-in-the-garden/",
+   "final_url": "https://www.chsgardens.co.nz/may-in-the-garden/",
+   "opened": true,
+   "page_date": "30 April 2026 (shown as 2026-04-30); author CHS Website Editor",
+   "checks": [
+    {
+     "finding": "AF-32",
+     "recorded": "\"Roses — Begin light tidy-up pruning and remove diseased foliage.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses — Begin light tidy-up pruning and remove diseased foliage.",
+     "supports_finding": "partly",
+     "note": "Word for word, under 'Flower Garden' on a page written for Christchurch ('May in Christchurch settles firmly into late autumn'). It supports removing DISEASED foliage from roses in May (late autumn) in Christchurch only. It does not mention fallen leaves, winter, or clearing at pruning, and it is not a national statement; the page has no sentence about raking up fallen leaves."
+    }
+   ],
+   "contradictions": [
+    "The same line tells readers to 'Begin light tidy-up pruning' of roses in May; this is a light tidy, not the main winter prune, but it should not be read as a main-pruning month.",
+    "The page nowhere mentions fallen leaves, so on its own it supports only the 'diseased leaves in autumn' part of AF-32."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 clear-up",
+     "quote": "Tidy up — Cut back perennials, remove spent annuals, and clear debris to reduce disease.",
+     "note": "General flower-garden clear-up (not roses specifically), May, Christchurch."
+    }
+   ]
+  },
+  {
+   "code": "CHS-JUN",
+   "url": "https://www.chsgardens.co.nz/june-in-the-garden/",
+   "final_url": "https://www.chsgardens.co.nz/june-in-the-garden/",
+   "opened": true,
+   "page_date": "28 May 2026 (shown as 2026-05-28); author CHS Website Editor",
+   "checks": [
+    {
+     "finding": "AF-27",
+     "recorded": "\"A great time for planting deciduous trees, roses and hardy shrubs while dormant.\"",
+     "result": "Confirmed",
+     "page_wording": "A great time for planting deciduous trees, roses and hardy shrubs while dormant.",
+     "supports_finding": "partly",
+     "note": "Word for word, under 'Flower Garden' on a page for Canterbury/Christchurch ('June marks the beginning of winter in Canterbury'). It supports planting roses while dormant in June in Canterbury. The page never uses the words 'bare-root', so the bare-root reading rests on 'while dormant'; it names June only, is not national, and says nothing about continuing into spring."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Roses — Remove diseased leaves and begin light winter pruning where needed.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses — Remove diseased leaves and begin light winter pruning where needed.",
+     "supports_finding": "partly",
+     "note": "Word for word, under 'Flower Garden', June, Canterbury/Christchurch. It supports removing DISEASED leaves from roses in early winter. Fallen leaves are not in this sentence (they are in a separate general flower-garden line on the same page), and the sentence is Canterbury advice, not national."
+    }
+   ],
+   "contradictions": [
+    "The rose line says to 'begin light winter pruning where needed' in June; the page gives no month for the main prune, so June is light pruning only and must not be read as the Canterbury main-pruning month.",
+    "The planting sentence does not say 'bare-root'; the word does not appear anywhere on the June page."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 clear fallen leaves",
+     "quote": "Remove spent foliage and fallen leaves to reduce overwintering pests and diseases.",
+     "note": "General flower-garden clear-up (not rose-specific), June, Canterbury/Christchurch. Under 'Flower Garden'."
+    },
+    {
+     "topic": "Q5 winter protection",
+     "quote": "Frost protection — Protecting vulnerable plants now reduces winter damage.",
+     "note": "General ('vulnerable plants', not roses), June, Canterbury/Christchurch; sits in a 'Why this matters now' part of the page."
+    }
+   ]
+  },
+  {
+   "code": "CHS-JUL",
+   "url": "https://www.chsgardens.co.nz/july-in-the-garden/",
+   "final_url": "https://www.chsgardens.co.nz/july-in-the-garden/",
+   "opened": true,
+   "page_date": "1 July 2026 (one WebFetch answer also mentioned 30 June 2026 as a published date); author CHS Website Editor",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"In milder parts of Canterbury, pruning can begin towards the end of the month; colder areas may prefer to wait until August.\"",
+     "result": "Confirmed",
+     "page_wording": "In milder parts of Canterbury, pruning can begin towards the end of the month; colder areas may prefer to wait until August.",
+     "supports_finding": "partly",
+     "note": "Word for word, in the 'Roses' entry of the July page (main winter pruning of roses). It supports the 'milder versus colder districts, later where colder' part, but only within Canterbury. It says nothing about a warmer north and colder south of New Zealand."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"colder areas may prefer to wait until August.\"",
+     "result": "Confirmed",
+     "page_wording": "…colder areas may prefer to wait until August.",
+     "supports_finding": "partly",
+     "note": "Word for word (second half of the roses sentence). It supports August for 'colder areas' of Canterbury, worded as an option ('may prefer'). It does not say 'or later', does not mention frost or the worst frosts passing, and does not name inland districts or the South Island as a whole."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "\"In milder parts of Canterbury, pruning can begin towards the end of the month\"",
+     "result": "Confirmed",
+     "page_wording": "In milder parts of Canterbury, pruning can begin towards the end of the month…",
+     "supports_finding": "partly",
+     "note": "Word for word, roses entry, July page, so 'the end of the month' means late July. It supports the 'can begin at the end of July' half for milder parts of Canterbury. 'Completed in August' is not on this page (it comes from the August page)."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"July is one of the best months to plant roses, deciduous trees, shrubs and hedging while dormant.\"",
+     "result": "Confirmed",
+     "page_wording": "Bare-root planting — July is one of the best months to plant roses, deciduous trees, shrubs and hedging while dormant.",
+     "supports_finding": "yes",
+     "note": "Word for word, and on the page it carries the label 'Bare-root planting —', so it is clearly about bare-root planting of roses in July (winter). The page is for Canterbury/Christchurch, so it supports the Canterbury part and the month July only; it says nothing national and nothing about continuing into spring."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Remove any remaining diseased leaves.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses - Remove any remaining diseased leaves.",
+     "supports_finding": "partly",
+     "note": "Word for word, first sentence of the 'Roses' entry, directly before the pruning sentence, July, Canterbury. It supports removing DISEASED leaves from roses in winter around pruning time. Fallen leaves are only in a separate general 'Winter tidy' line; the rose sentence does not mention them and is not national."
+    }
+   ],
+   "contradictions": [
+    "None found that conflict with the findings. Note the July page ties later pruning only to 'colder areas'; the frost wording ('once the worst frosts have passed') is on the August page, not here.",
+    "No spray of any kind is mentioned on the page."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 clear fallen leaves",
+     "quote": "Remove diseased foliage, spent annuals and fallen leaves to minimise pests and fungal diseases over winter.",
+     "note": "General flower-garden 'Winter tidy' line (not rose-specific), July, Canterbury/Christchurch. One WebFetch answer gave it without the last two words 'over winter'."
+    },
+    {
+     "topic": "Q4 bare-root label",
+     "quote": "Bare-root planting — July is one of the best months to plant roses, deciduous trees, shrubs and hedging while dormant.",
+     "note": "The recorded quotation omitted the label 'Bare-root planting —', which is what makes it a bare-root statement. July, Canterbury/Christchurch."
+    }
+   ]
+  },
+  {
+   "code": "CHS-AUG",
+   "url": "https://www.chsgardens.co.nz/august-in-the-garden/",
+   "final_url": "https://www.chsgardens.co.nz/august-in-the-garden/",
+   "opened": true,
+   "page_date": "27 July 2026 (shown as 2026-07-27); author CHS Website Editor",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Complete winter pruning in milder areas. In colder inland districts, prune once the worst frosts have passed.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses – Complete winter pruning in milder areas. In colder inland districts, prune once the worst frosts have passed.",
+     "supports_finding": "partly",
+     "note": "Word for word; these two sentences are the whole 'Roses' entry on the August page titled for Christchurch. It supports 'milder versus colder inland districts, later where colder'. It does not contrast the north of New Zealand with the south, and the sentence names no region."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"In colder inland districts, prune once the worst frosts have passed.\"",
+     "result": "Confirmed",
+     "page_wording": "In colder inland districts, prune once the worst frosts have passed.",
+     "supports_finding": "yes",
+     "note": "Word for word, roses entry, main winter pruning. It supports colder inland districts pruning once the worst frosts have passed; 'August or later' comes from this being the August page, as the sentence names no month. The page is for Christchurch/Canterbury, so 'inland districts' means inland from there; the page does not name the South Island as a whole."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "\"Complete winter pruning in milder areas.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses – Complete winter pruning in milder areas.",
+     "supports_finding": "partly",
+     "note": "Word for word, roses entry, August page. It supports the 'completed in August' half. The sentence says 'milder areas', not 'milder parts of Canterbury' (the page is titled for Christchurch), and the 'begin at the end of July' half is on the July page, not here."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"prune once the worst frosts have passed.\"",
+     "result": "Confirmed",
+     "page_wording": "In colder inland districts, prune once the worst frosts have passed.",
+     "supports_finding": "partly",
+     "note": "Word for word. It supports the frost signal ('once the worst frosts have passed'), but only for colder inland districts, on a Christchurch/Canterbury page, not nationally. Full dormancy is NOT given on this page as a signal for pruning; 'dormant' appears only in the bare-root planting sentence."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"August remains an excellent time to plant roses, deciduous trees, shrubs and hedging while they are dormant.\"",
+     "result": "Confirmed",
+     "page_wording": "Bare-root planting – August remains an excellent time to plant roses, deciduous trees, shrubs and hedging while they are dormant.",
+     "supports_finding": "yes",
+     "note": "Word for word, and on the page it carries the label 'Bare-root planting –'; the intro also says to continue planting bare-rooted trees and roses. It supports bare-root rose planting in August for Christchurch/Canterbury only. It says nothing national and nothing about continuing into spring or the season ending."
+    }
+   ],
+   "contradictions": [
+    "None found that conflict with the findings. The September page of the same series says 'Finish winter pruning' in September, which qualifies 'Complete winter pruning in milder areas' (August) as an end date.",
+    "No spray of any kind and no rose feeding is mentioned on the page."
+   ],
+   "also_says": [
+    {
+     "topic": "Q4 bare-root planting",
+     "quote": "Continue planting bare-rooted trees and roses, prune deciduous fruit trees…",
+     "note": "From the page intro/summary; bare-root rose planting continues in August, Christchurch/Canterbury."
+    },
+    {
+     "topic": "Q5 clear fallen leaves",
+     "quote": "Remove diseased foliage, spent annuals and fallen leaves to reduce overwintering pests and fungal diseases.",
+     "note": "General flower-garden clear-up (not rose-specific), August, Christchurch/Canterbury."
+    }
+   ]
+  },
+  {
+   "code": "CHS-SEP",
+   "url": "https://www.chsgardens.co.nz/september-in-the-garden/",
+   "final_url": "https://www.chsgardens.co.nz/september-in-the-garden/",
+   "opened": true,
+   "page_date": "31 August 2026 (shown as 2026-08-31); author CHS Website Editor",
+   "checks": [
+    {
+     "finding": "AF-18",
+     "recorded": "\"Finish winter pruning and begin feeding roses as new growth appears.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses – Finish winter pruning and begin feeding roses as new growth appears.",
+     "supports_finding": "yes",
+     "note": "Word for word; it is the whole 'Roses' entry on the September page ('Spring Gardening Tips for Christchurch'). It supports starting to feed roses in spring as new growth appears, paired with finishing pruning. It is Christchurch/Canterbury advice, not a national statement."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Finish winter pruning and begin feeding roses as new growth appears.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses – Finish winter pruning and begin feeding roses as new growth appears.",
+     "supports_finding": "partly",
+     "note": "Word for word, but the sentence names no month. It supports September for the first feed only because it sits on the September page, and only for Christchurch/Canterbury. It gives no part of the month and nothing about late August or October."
+    }
+   ],
+   "contradictions": [
+    "'Finish winter pruning' is listed as a September task for roses, so in Christchurch winter pruning runs into September. This qualifies any finding that pruning is completed in August (AF-12) or falls only between June and August (AF-8).",
+    "The page warns that September frosts can still be severe in Canterbury, which qualifies 'once the worst frosts have passed' as a fixed August signal."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 pruning end month",
+     "quote": "Roses – Finish winter pruning and begin feeding roses as new growth appears.",
+     "note": "Already recorded for feeding, but it also answers Q1: winter pruning of roses is finished in September in Christchurch/Canterbury."
+    },
+    {
+     "topic": "Q8 weather not calendar",
+     "quote": "Keep an eye on the forecast, though, as Canterbury can still deliver plenty of frosty mornings alongside those first warm Spring days.",
+     "note": "General intro remark for September in Canterbury; not rose-specific."
+    },
+    {
+     "topic": "Q2 feeding (general)",
+     "quote": "Give established beds and borders a boost with compost or a suitable feed as plants begin active growth.",
+     "note": "General flower-garden feeding (beds and borders, not roses specifically), September, Christchurch/Canterbury."
+    }
+   ]
+  },
+  {
+   "code": "GU-P",
+   "url": "https://grownups.co.nz/life/gardening/pruning-roses/",
+   "final_url": "https://grownups.co.nz/life/gardening/pruning-roses/",
+   "opened": true,
+   "page_date": "not shown (author Hayden Foulds)",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"July and August are the two main months for pruning roses in New Zealand\"",
+     "result": "Confirmed",
+     "page_wording": "July and August are the two main months for pruning roses in New Zealand so I am going to cover some principles.",
+     "supports_finding": "yes",
+     "note": "Word for word, the opening sentence, about main winter pruning of roses in New Zealand as a whole. It supports 'most often July and August'. June is not mentioned anywhere on the page, so the 'between June and August' start comes from other sources; the page makes no regional or frost distinction."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"The same applies to any fallen leaves which you must pick up after pruning.\"",
+     "result": "Confirmed",
+     "page_wording": "The same applies to any fallen leaves which you must pick up after pruning.",
+     "supports_finding": "partly",
+     "note": "Word for word. It follows the sentence saying rose prunings should go in the rubbish or be burnt and not composted, so it supports picking up FALLEN leaves after pruning and not composting them (national rose column). It does not cover clearing through autumn and winter, and does not mention diseased leaves on the plant."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Get a winter clean up spray of copper applied to your roses but leave it a few days after pruning.\"",
+     "result": "Confirmed",
+     "page_wording": "Get a winter clean up spray of copper applied to your roses but leave it a few days after pruning.",
+     "supports_finding": "yes",
+     "note": "Word for word, under the heading 'In the garden for July'. It supports a winter clean-up spray (type named: copper) put on a few days after pruning, in July, for New Zealand generally. June is NOT named on this page for the spray, so only the July half of 'June and July' is supported here."
+    }
+   ],
+   "contradictions": [
+    "The page names no June pruning and no June spray; it supports July and August only.",
+    "The page gives no north/south or frost-based difference in pruning time and names no dormancy or frost signal."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 pruning months",
+     "quote": "It's pruning time all month and into August.",
+     "note": "Main winter pruning of roses; under 'In the garden for July'; New Zealand generally."
+    },
+    {
+     "topic": "Q5 clear-up at pruning",
+     "quote": "Once pruned, give the soil a forking over and pick up any fallen debris.",
+     "note": "Clear-up straight after pruning, July list; New Zealand generally."
+    },
+    {
+     "topic": "Q4 planting",
+     "quote": "Continue to plant new seasons roses.",
+     "note": "Planting new-season roses continues in July (the next sentence covers both container-held and bare-root plants); New Zealand generally."
+    },
+    {
+     "topic": "Q4 planting, wet soil",
+     "quote": "If the soil is too wet, you can either hold it in the container… or if bare root, heal into a corner of the garden.",
+     "note": "Condition on July planting: wait if soil is too wet; heel in bare-root roses meanwhile. Quote shortened with an ellipsis; page spells it 'heal'."
+    },
+    {
+     "topic": "Q5 disposal of prunings",
+     "quote": "Rose pruning's should be disposed of in the rubbish or burnt – do not compost as this will lead to disease problems later on.",
+     "note": "The sentence before the recorded fallen-leaves sentence; gives the reason (disease) for not composting prunings or fallen leaves."
+    }
+   ]
+  },
+  {
+   "code": "GU-F",
+   "url": "https://grownups.co.nz/life/gardening/feeding-roses/",
+   "final_url": "https://grownups.co.nz/life/gardening/feeding-roses/",
+   "opened": true,
+   "page_date": "22 September 2017 (author Hayden Foulds)",
+   "checks": [
+    {
+     "finding": "AF-18",
+     "recorded": "\"you want to get your first application on as the roses are coming into growth.\"",
+     "result": "Confirmed",
+     "page_wording": "In late August and into September, you want to get your first application on as the roses are coming into growth.",
+     "supports_finding": "yes",
+     "note": "The recorded fragment is word for word the second half of this sentence, about the first fertiliser application for roses. It supports feeding starting as roses come into growth; the page also says rose pruning is completed by September. Note the start named is late August, which is late winter by the calendar, running into September."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"In late August and into September, you want to get your first application on as the roses are coming into growth.\"",
+     "result": "Confirmed",
+     "page_wording": "In late August and into September, you want to get your first application on as the roses are coming into growth.",
+     "supports_finding": "yes",
+     "note": "Word for word. It supports the 'late August' start and September for the first feed; the page also says September is usually the first month roses need fertiliser. October is not named on this page for a first feed."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"similar applications in December after the first flush of blooms and again no later than the end of February.\"",
+     "result": "Confirmed",
+     "page_wording": "You then want to do similar applications in December after the first flush of blooms and again no later than the end of February.",
+     "supports_finding": "yes",
+     "note": "The recorded fragment is on the page as the end of this sentence (one WebFetch answer dropped 'the' before 'end of February'; two others gave it with 'the'). It supports the last feed being no later than the end of February, for roses generally. Early April and feeding through autumn are not on this page; it only mentions an autumn flower display in March and April."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"After this time, let the roses prepare for winter by allowing the canes to harden up.\"",
+     "result": "Confirmed",
+     "page_wording": "After this time, let the roses prepare for winter by allowing the canes to harden up.",
+     "supports_finding": "yes",
+     "note": "Word for word, and it is the sentence directly after the 'no later than the end of February' sentence, so 'after this time' means after the end-of-February feed. It supports the stated reason for the last feed: letting the canes harden before winter."
+    }
+   ],
+   "contradictions": [
+    "The page qualifies its own months: local rose society experts 'will be able to give you a better idea of timing for your local conditions', so the months are a general guide, not fixed.",
+    "The page is dated 22 September 2017; it gives a last feed of no later than the end of February, which is the early end of the range in AF-21 and does not support feeding into April or through autumn."
+   ],
+   "also_says": [
+    {
+     "topic": "Q2 first feed month",
+     "quote": "However, September is usually the first-month roses need an application of fertiliser to get them off to a good start for the growing season ahead.",
+     "note": "First feed, September, roses generally in New Zealand."
+    },
+    {
+     "topic": "Q8 local conditions",
+     "quote": "Experts in your local rose society will be able to give you a better idea of timing for your local conditions.",
+     "note": "Feeding timing varies with local conditions; no regions are named."
+    },
+    {
+     "topic": "Q1 pruning finished",
+     "quote": "September is a quiet time generally in the rose garden with rose pruning completed for another year.",
+     "note": "Rose pruning is treated as finished by September; New Zealand generally. It is the sentence directly before the 'September is usually the first-month…' sentence."
+    },
+    {
+     "topic": "Q5 mulch (spring)",
+     "quote": "Apply mulch to your roses.",
+     "note": "Under 'In the rose garden for September'; a spring mulch, not winter protection."
+    }
+   ]
+  },
+  {
+   "code": "GU-DH",
+   "url": "https://grownups.co.nz/life/gardening/deadheading-rose-bush-care/",
+   "final_url": "https://grownups.co.nz/life/gardening/deadheading-rose-bush-care/",
+   "opened": true,
+   "page_date": "9 April 2025 (one WebFetch answer also mentioned 8 April 2025 as a published date); author not shown",
+   "checks": [
+    {
+     "finding": "AF-23",
+     "recorded": "\"you may wish to stop deadheading in late summer to allow them to develop.\"",
+     "result": "Confirmed",
+     "page_wording": "If you enjoy the look of rose hips, you may wish to stop deadheading in late summer to allow them to develop.",
+     "supports_finding": "partly",
+     "note": "On the page word for word (the first WebFetch answer gave a different wording, two later answers confirmed this one). It supports 'late summer' only, as an option ('may wish'), and it sits in the part about shrub and old-fashioned roses, not bush roses. No month is named, the article body never mentions New Zealand or Auckland, and nothing says February or March."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"If you enjoy the look of rose hips, you may wish to stop deadheading in late summer\"",
+     "result": "Confirmed",
+     "page_wording": "If you enjoy the look of rose hips, you may wish to stop deadheading in late summer to allow them to develop.",
+     "supports_finding": "partly",
+     "note": "Word for word, under 'Different Approaches for Different Roses'. It supports the reason (to let hips develop), but as an optional choice for people who like hips, and it is said of shrub and old-fashioned roses. For hybrid teas and floribundas the page says to deadhead regularly through the growing season and gives no stopping point."
+    }
+   ],
+   "contradictions": [
+    "For hybrid tea and floribunda (bush) roses the page says they 'benefit most from regular deadheading throughout the growing season' and gives no time to stop; the stop-in-late-summer sentence is about shrub and old-fashioned roses.",
+    "The article body does not mention New Zealand, any New Zealand place or any month; it is generic text on a New Zealand site, so it is not a New Zealand-specific timing source.",
+    "Stopping is optional ('may wish', 'consider', 'if you'd like'), not a rule."
+   ],
+   "also_says": [
+    {
+     "topic": "Q3 stop deadheading",
+     "quote": "In late summer, consider leaving the last round of flowers on the plant if you'd like to enjoy decorative rose hips in autumn.",
+     "note": "Under 'A Seasonal Approach to Rose Care'; roses generally; late summer, no month and no place named; optional."
+    },
+    {
+     "topic": "Q3 why deadhead",
+     "quote": "When a rose is left to form hips, it assumes its job is done and slows down flower production.",
+     "note": "Reason for deadheading, under 'Why Deadheading Matters'; no month or place."
+    }
+   ]
+  },
+  {
+   "code": "NZH-W",
+   "url": "https://www.nzherald.co.nz/whanganui-chronicle/news/pruning-deciduous-fruit-trees-and-roses/3X7LTSFCPJQOXDEY6Y2SR6GVGQ/",
+   "final_url": "https://www.nzherald.co.nz/whanganui-chronicle/news/pruning-deciduous-fruit-trees-and-roses/3X7LTSFCPJQOXDEY6Y2SR6GVGQ/",
+   "opened": true,
+   "page_date": "20 July 2020 (author Gareth Carter)",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"In Whanganui, roses and deciduous fruit trees such as apples and pears are best pruned in July.\"",
+     "result": "Confirmed",
+     "page_wording": "In Whanganui, roses and deciduous fruit trees such as apples and pears are best pruned in July.",
+     "supports_finding": "yes",
+     "note": "Word for word; main winter pruning of roses and deciduous fruit trees, July, stated for Whanganui. It supports the Whanganui half only. Masterton is not mentioned in the article, so 'Masterton, July to August' must rest on another source."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"The plant can then produce some new growth which risks getting walloped with a July frost.\"",
+     "result": "Confirmed",
+     "page_wording": "The plant can then produce some new growth which risks getting walloped with a July frost.",
+     "supports_finding": "partly",
+     "note": "Word for word. It follows 'Any earlier and in our temperate climate we risk getting a warm snap that makes the plant think it is spring', so it does say pruning earlier than July risks frost-damaged new growth. But it is stated for Whanganui's temperate climate, not nationally, and the trigger named is a warm snap after early pruning."
+    }
+   ],
+   "contradictions": [
+    "The frost-risk reasoning is given for Whanganui ('our temperate climate'), not as a national rule.",
+    "The article names no month other than July for pruning and no finishing deadline; it does not compare warmer and colder districts."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 signal for pruning",
+     "quote": "The timing for pruning roses and many deciduous trees and fruits is best completed during winter when these plants are dormant and deciduous.",
+     "note": "Dormancy given as the signal for winter pruning of roses and deciduous trees; general statement in a Whanganui column."
+    },
+    {
+     "topic": "Q1 why not earlier",
+     "quote": "Any earlier and in our temperate climate we risk getting a warm snap that makes the plant think it is spring.",
+     "note": "The sentence before the recorded frost sentence; pruning earlier than July, Whanganui."
+    },
+    {
+     "topic": "Q5 disposal of prunings",
+     "quote": "If prunings are diseased, burn them or send out with the rubbish, rather than composting.",
+     "note": "Clear-up at pruning, roses and fruit trees, Whanganui column, July. The article recommends a pruning paste on cuts but names no clean-up spray."
+    }
+   ]
+  },
+  {
+   "code": "GF",
+   "url": "https://www.thegardenfairies.co.nz/autumn-rose-care-for-aucklands-climate/",
+   "final_url": "https://www.thegardenfairies.co.nz/autumn-rose-care-for-aucklands-climate/",
+   "opened": true,
+   "page_date": "not shown (WebFetch found no date on the page in two tries; the source description gives 26 April 2018, which could not be verified)",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "\"leave them be until pruning time, in July.\"",
+     "result": "Confirmed",
+     "page_wording": "It's best now to just clear the ground beneath them… and leave them be until pruning time, in July.",
+     "supports_finding": "partly",
+     "note": "Word for word (page wording shortened here with an ellipsis). It supports July as rose pruning time in Auckland, said in passing in an autumn-care article. It does not say early July or early August, and it is one Auckland business, not 'the north' generally."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"it's best to stop deadheading from March, and allow the plants to develop their rosehips\"",
+     "result": "Confirmed",
+     "page_wording": "It's best to stop deadheading from March, and allow the plants to develop their rosehips and enter their dormant stage.",
+     "supports_finding": "partly",
+     "note": "Word for word (page starts with a capital I). It supports stopping deadheading from March, the start of autumn, for Auckland. The page names only 'from March'; it does not say 'the end of February' or 'the end of March', and it does not say late summer."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"allow the plants to develop their rosehips\"",
+     "result": "Confirmed",
+     "page_wording": "It's best to stop deadheading from March, and allow the plants to develop their rosehips and enter their dormant stage.",
+     "supports_finding": "partly",
+     "note": "Word for word. Hips are named, but the same sentence adds 'and enter their dormant stage', and the two sentences before it give the main reason: the plants need to rest before winter and send their strength to the roots. So on this page hip formation is part of the reason, not the whole of it."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"it's best now to just clear the ground beneath them of spent foliage\"",
+     "result": "Confirmed",
+     "page_wording": "It's best now to just clear the ground beneath them of spent foliage, treat the plants for disease if/when required…",
+     "supports_finding": "partly",
+     "note": "Word for word (page starts with a capital I; shortened here with an ellipsis). It supports clearing fallen 'spent foliage' from under roses in autumn (March onwards) in Auckland. It is not national or Canterbury, and says nothing about winter, pruning time or removing diseased leaves from the plant."
+    }
+   ],
+   "contradictions": [
+    "The page says Auckland's sub-tropical winters are warm enough for roses to keep blooming long into winter if deadheaded; stopping from March is its advice for Auckland, tied to rest and dormancy, not only to hips.",
+    "The page gives the reason for stopping deadheading as rest and root strength before winter, which qualifies AF-24's 'the stated reason is to let hips form'.",
+    "No date could be seen on the page, so the recorded date of 26 April 2018 is unverified."
+   ],
+   "also_says": [
+    {
+     "topic": "Q3 why stop deadheading",
+     "quote": "As winter approaches, your rose plants need to rest.",
+     "note": "Reason given for stopping deadheading from March; Auckland; autumn."
+    },
+    {
+     "topic": "Q3 why stop deadheading",
+     "quote": "…they need to direct their strength into their roots so they can come back strong the next season.",
+     "note": "Second half of the sentence before the 'stop deadheading from March' sentence; Auckland; autumn."
+    },
+    {
+     "topic": "Q6/Q8 Auckland climate",
+     "quote": "…with Auckland's climate being sub-tropical, our winters tend to be warm enough for roses to bloom, if deadheaded regularly, long into winter.",
+     "note": "How the page characterises Auckland's climate for roses; explains why a deliberate stop is advised."
+    },
+    {
+     "topic": "Q5 autumn disease treatment",
+     "quote": "…treat the plants for disease if/when required, and leave them be until pruning time, in July.",
+     "note": "Autumn, Auckland; treat only if needed; no spray type is named and no winter spray is described."
+    }
+   ]
+  },
+  {
+   "code": "TUI-PG",
+   "url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/rose-pruning-guide/",
+   "final_url": "https://tuigarden.co.nz/inspiration-hub/ideas-and-inspiration/rose-pruning-guide/",
+   "opened": true,
+   "page_date": "not shown (reader comments carry no dates)",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"as you are in a colder climate we would recommend leaving pruning until late winter or early spring after the last frost.\"",
+     "result": "Confirmed",
+     "page_wording": "Hi Martin, as you are in a colder climate we would recommend leaving pruning until late winter or early spring after the last frost.",
+     "supports_finding": "partly",
+     "note": "Word for word, but it is a Tui Team reply to one reader (Martin, who says he lives in Christchurch), not the main article. It supports 'prune later where it is colder' for one Christchurch garden; it does not itself contrast north with south. The main article gives a single window ('Prune in mid to late winter') with no regional split."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"the end of July, early August is a good time to prune in Northland.\"",
+     "result": "Confirmed",
+     "page_wording": "... this will force new growth, the end of July, early August is a good time to prune in Northland.",
+     "supports_finding": "partly",
+     "note": "Words are exact but sit inside a longer sentence, in a reply to a reader in Kerikeri. It gives end of July to early August for Northland, which is only the late end of the finding's 'early July to early August'; nothing here supports early July, and the reply warns against pruning too early."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"as you are in a colder climate we would recommend leaving pruning until late winter or early spring after the last frost.\"",
+     "result": "Confirmed",
+     "page_wording": "as you are in a colder climate we would recommend leaving pruning until late winter or early spring after the last frost.",
+     "supports_finding": "partly",
+     "note": "Exact; reply to a Christchurch reader about main winter pruning. Supports waiting until after the last frost in a colder place, but names no month ('late winter or early spring'), so 'August or later' is not stated in this quotation. Another reply on the page, to a Dunedin reader, says 'wait until June/July before pruning' and then 'If unsure, wait until August when temperatures warm and there is less chance of severe frost', so the page gives both June/July and August for the colder south."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"prune roses in your region in mid to late winter which is July - August.\"",
+     "result": "Confirmed",
+     "page_wording": "prune roses in your region in mid to late winter which is July - August.",
+     "supports_finding": "partly",
+     "note": "Exact; it is a reply to a reader in Masterton, so the Masterton half (July to August) is supported. The page has no reader from Whanganui and no pruning month for Whanganui, so the 'Whanganui, July' half gets no support from this quotation or this page."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"If you prune too early you risk the plant sending out new growth which won't have had time to harden off\"",
+     "result": "Near",
+     "page_wording": "... sending out new growth which won't have had time to harden off and could potentially get damaged by frost.",
+     "supports_finding": "yes",
+     "note": "The recorded words are exact but stop short; the page's sentence continues 'and could potentially get damaged by frost', which is the part that carries the finding. It is in the reply to the Masterton reader about main winter pruning, not a statement made for the whole country."
+    }
+   ],
+   "contradictions": [
+    "Reply to a Dunedin reader: 'wait until June/July before pruning to make sure no new growth emerges as this is at risk of getting frost damage', followed at once by 'If unsure, wait until August when temperatures warm and there is less chance of severe frost damaging foliage.' June/July for a cold southern city sits awkwardly with AF-10 (August or later in the colder south), but the same reply offers August as the safer fallback, so it is mixed, not a flat contradiction.",
+    "Reply to a South East Auckland reader: 'The main season to prune roses is in June - July' - earlier than AF-9's early July to early August for the north.",
+    "The main article gives one window for everyone, 'Prune in mid to late winter', with no north/south or frost distinction; all regional timing on this page comes from replies to individual readers.",
+    "Whanganui is not mentioned in any pruning advice on the page (AF-13)."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 main winter pruning, whole article",
+     "quote": "Prune in mid to late winter.",
+     "note": "Main article, main winter pruning of roses, no month and no region named."
+    },
+    {
+     "topic": "Q1 main winter pruning, Dunedin",
+     "quote": "wait until June/July before pruning to make sure no new growth emerges as this is at risk of getting frost damage",
+     "note": "Tui Team reply to a reader in Dunedin whose rose was still flowering; main pruning; June/July; tied to frost risk to new growth. The full sentence starts 'Roses can be pruned even if they are still flowering,' and ends 'which leads to disease entering the plant.'"
+    },
+    {
+     "topic": "Q1 main winter pruning, Dunedin, fallback (also Q8)",
+     "quote": "If unsure, wait until August when temperatures warm and there is less chance of severe frost damaging foliage.",
+     "note": "Same Tui Team reply to the Dunedin reader, the sentence straight after the June/July one; main pruning; August; tied to warming temperatures and lower risk of severe frost."
+    },
+    {
+     "topic": "Q1 main winter pruning, Auckland",
+     "quote": "The main season to prune roses is in June - July, before they start bursting into leaf, which can be as early as August ...",
+     "note": "Tui Team reply to a reader in South East Auckland; main pruning June to July; local signal is bud burst (leafing), as early as August in Auckland. The page sentence ends 'in Auckland'."
+    },
+    {
+     "topic": "Q1 main winter pruning, Bay of Plenty",
+     "quote": "mid to late winter is the best time to prune roses.",
+     "note": "Tui Team reply to a reader in Bay of Plenty; main pruning; no month named."
+    },
+    {
+     "topic": "Q5 winter spray type",
+     "quote": "A copper based spray will be good as a protectant spray for your roses to help prevent die-back",
+     "note": "Tui Team reply to a Christchurch reader with diseased roses; type named is copper (a spraying oil mixed with copper is also suggested for mites); no month given and lime sulphur is not mentioned on the page."
+    },
+    {
+     "topic": "Q5 clearing fallen leaves",
+     "quote": "Collect any diseased leaves that fall off your rose to stop it spreading.",
+     "note": "Main article, pruning section; clear-up of diseased leaves at pruning; a reader reply adds to put fallen leaves in the rubbish or burn them, not compost; no month."
+    }
+   ]
+  },
+  {
+   "code": "TUI-FEED",
+   "url": "https://tuigarden.co.nz/garden-questions/how-often-do-i-feed-my-roses/",
+   "final_url": "https://tuigarden.co.nz/garden-questions/how-often-do-i-feed-my-roses/",
+   "opened": true,
+   "page_date": "no year shown; question is labelled 'Auckland December'",
+   "checks": [
+    {
+     "finding": "AF-18",
+     "recorded": "\"feed roses in early spring when the buds burst into life\"",
+     "result": "Confirmed",
+     "page_wording": "Feed roses in early spring when the buds burst into life and again in late summer, early autumn, as this will help promote flowering ...",
+     "supports_finding": "partly",
+     "note": "Exact (capital F on the page). Supports feeding starting in early spring at bud burst, i.e. as new growth appears. It does not mention pruning at all, so the 'or after pruning' alternative is not supported here. It is an answer to one reader labelled Auckland, stated generally with no region condition."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"and again in late summer, early autumn\"",
+     "result": "Confirmed",
+     "page_wording": "... and again in late summer, early autumn, as this will help promote flowering for next season.",
+     "supports_finding": "partly",
+     "note": "Exact. It gives a second feed in 'late summer, early autumn' but names no month, does not call it a last or final feed, and does not say to stop feeding or to feed through autumn. It fits loosely inside the finding's range but does not support any of the months named."
+    }
+   ],
+   "contradictions": [
+    "The page names no months at all for feeding and never describes the late summer/early autumn feed as the last one (qualifies AF-21).",
+    "Pruning is not mentioned on the page (qualifies the 'after pruning' part of AF-18)."
+   ],
+   "also_says": []
+  },
+  {
+   "code": "TUI-Q",
+   "url": "https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/",
+   "final_url": "https://tuigarden.co.nz/garden-questions/what-is-the-best-way-to-shift-my-rose/",
+   "opened": true,
+   "page_date": "no year shown; question is labelled 'Manawatu February'",
+   "checks": [
+    {
+     "finding": "AF-30",
+     "recorded": "\"the best time of year to move a rose is winter when it is dormant\"",
+     "result": "Confirmed",
+     "page_wording": "The best time of year to move a rose is winter when it is dormant.",
+     "supports_finding": "partly",
+     "note": "Exact (capital T on the page). Supports moving an established rose in winter while dormant. No month is named: neither 'June' nor 'July' appears in the answer, so the 'named as June or July' part is not supported by this page. The answer is to a Manawatu reader moving house in February and goes on to give out-of-season steps."
+    }
+   ],
+   "contradictions": [
+    "No month is named for moving a rose; the page says only 'winter' (AF-30 says June or July).",
+    "The answer goes on to tell the reader how to move the rose out of season (in February): cut back hard, dig it out, pot it up, so winter is given as best, not as the only time."
+   ],
+   "also_says": [
+    {
+     "topic": "Q4 moving an established rose, method when moved out of season",
+     "quote": "cut it back hard to about 3-5 buds (or nodes) from the graft at ground level",
+     "note": "Moving an established rose; advice given to a Manawatu reader shifting house in February, with the rose then dug out and put in a container; no month named."
+    }
+   ]
+  },
+  {
+   "code": "YAT-PR",
+   "url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/",
+   "final_url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"July is the month when most roses are pruned.\"",
+     "result": "Confirmed",
+     "page_wording": "July is the month when most roses are pruned.",
+     "supports_finding": "partly",
+     "note": "Exact; about main winter pruning of roses. It names July only: June and August do not appear on the page, so it supports the 'July' core of the finding but not the June to August span. No region or climate split is given for pruning time, and the next sentence excepts ramblers such as banksia roses and weeping standards (pruned after spring flowering)."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"In frosty areas, it's better to wait until the last frosts before feeding your roses.\"",
+     "result": "Confirmed",
+     "page_wording": "In frosty areas, it's better to wait until the last frosts before feeding your roses.",
+     "supports_finding": "yes",
+     "note": "Exact. The sentence just before it reads 'In warm climates, before applying the mulch, sprinkle [rose food] over the soil', within the pruning-time steps, so both halves of the finding (frosty areas wait; warm climates feed at pruning) are on the page. The warm-climate half is carried by the neighbouring sentence, not by the recorded quotation itself. No month is named."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Remove any remaining foliage from stems, clean up any fallen foliage around the bush and discard it.\"",
+     "result": "Confirmed",
+     "page_wording": "Remove any remaining foliage from stems, clean up any fallen foliage around the bush and discard it.",
+     "supports_finding": "partly",
+     "note": "Exact; it is a step in the pruning procedure, so it supports clearing fallen leaves at pruning (July). It says nothing about autumn or about clearing through winter generally, nothing about Canterbury, and does not single out diseased leaves."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Pruning time is the ideal window of opportunity to apply Lime Sulfur\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning time is the ideal window of opportunity to apply Lime Sulfur, as it will defoliate the leaves on any new growth ...",
+     "supports_finding": "partly",
+     "note": "Exact (the page sentence runs on). Supports a clean-up spray at pruning time and names the type, lime sulphur. No month is named for the spray: July is given only for pruning, and June is not on the page at all. The page says 'pruning time', not 'after pruning', and warns not to spray late because it strips leaves from new growth."
+    }
+   ],
+   "contradictions": [
+    "June and August are not named anywhere on the page; only July is given for pruning (qualifies AF-8 and the 'June and July' in AF-33).",
+    "The page excepts some roses from July pruning: ramblers such as banksia roses and weeping standards are pruned just after they flower in spring.",
+    "The lime sulphur spray carries a timing warning: it will defoliate new growth, so it must not be left too late."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 roses not pruned in winter",
+     "quote": "There are a few exceptions, including ramblers like thornless banksia roses or weeping standards, which should be pruned just after they flower in spring.",
+     "note": "Main pruning; exception to July for ramblers and weeping standards, not bush roses; spring after flowering; no region named."
+    },
+    {
+     "topic": "Q2 first feed, by climate",
+     "quote": "In warm climates, before applying the mulch, sprinkle Yates Thrive Rose & Flower Granular Plant Food over the soil.",
+     "note": "Feeding at pruning time (July) in warm climates only; the next sentence tells frosty areas to wait for the last frosts. Brand name appears in the page's sentence."
+    },
+    {
+     "topic": "Q3 summer pruning",
+     "quote": "For a light summer prune to encourage a second flush, remove dead flowers, dead or diseased stems and trim stems back by one-third.",
+     "note": "Summer pruning, in the hybrid tea section; no month and no stopping date given; no region."
+    },
+    {
+     "topic": "Q5 winter spray type and caution",
+     "quote": "as it will defoliate the leaves on any new growth - don't leave it too late to spray!",
+     "note": "Winter clean-up spray at pruning time; type named is lime sulphur only (no copper or oil); no month named beyond July for pruning."
+    }
+   ]
+  },
+  {
+   "code": "YAT-NZ",
+   "url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
+   "final_url": "https://www.yates.co.nz/plants/roses/how-to-grow-roses/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-27",
+     "recorded": "\"arrive in garden centres in time for winter planting\"",
+     "result": "Confirmed",
+     "page_wording": "Bare-rooted roses (roses supplied without any soil, often packed into plastic bags) arrive in garden centres in time for winter planting",
+     "supports_finding": "partly",
+     "note": "Exact. Supports bare-root roses being planted in winter, stated generally with no region. No month is named (June, July and August do not appear for planting), nothing is said about Canterbury, and the page does not say bare-root planting continues into spring; it calls winter a 'window' that can be missed."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"potted roses are often available (and can be planted) throughout the year.\"",
+     "result": "Near",
+     "page_wording": "if you miss the winter window, gorgeous potted roses are often available from garden centres (and can be planted throughout the year).",
+     "supports_finding": "partly",
+     "note": "The recorded quotation drops 'from garden centres' and moves the closing bracket; the page reads '(and can be planted throughout the year)'. The meaning is unchanged and supports potted roses being planted at any time of year. The 'kept well watered in spring and summer' part is not on this page."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Immediately after pruning, spray with Yates Lime Sulfur to clean up any pests and diseases\"",
+     "result": "Confirmed",
+     "page_wording": "Immediately after pruning, spray with Yates Lime Sulfur to clean up any pests and diseases - this gives the roses a fresh start.",
+     "supports_finding": "partly",
+     "note": "Exact; a brand name is part of the page's sentence, the type is lime sulphur. Supports a clean-up spray straight after pruning, and pruning is said to be 'in the depths of winter'. No month is named anywhere on the page for pruning or spraying, so 'June and July' is not supported here."
+    }
+   ],
+   "contradictions": [
+    "No months are named on the page for planting, pruning or spraying; all timing is by season ('winter', 'the depths of winter', 'spring to autumn').",
+    "Feeding is given as weekly 'from spring to autumn' with no last-feed month.",
+    "The page makes no distinction between regions or climates and does not mention frost."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 main winter pruning",
+     "quote": "Prune Hybrid Tea and Floribunda Roses in the depths of winter, cutting them back to around knee height.",
+     "note": "Main winter pruning of bush roses (hybrid teas and floribundas); 'depths of winter', no month, no region."
+    },
+    {
+     "topic": "Q2 start of feeding",
+     "quote": "Once shoots or leafy growth start to appear, feed the rose weekly",
+     "note": "First feed tied to a plant signal (new shoots or leaves appearing), not a month; no region. The page sentence goes on to name a branded liquid food."
+    },
+    {
+     "topic": "Q2 feeding period",
+     "quote": "Feed roses each week with Yates Thrive Roses & Flowers Liquid Plant Food from spring to autumn, to keep them healthy and flourishing.",
+     "note": "Feeding runs from spring to autumn; no last-feed month and no stop date; no region."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Pinch off spent flowers to prevent fruiting, which keeps the flowers coming.",
+     "note": "Deadheading during flowering; the page gives no time to stop; no region."
+    },
+    {
+     "topic": "Q5 clear-up at pruning",
+     "quote": "If you spot any pests or diseases while pruning, destroy the rose clippings by burning them, or dispose of them in 'green bin' garden waste.",
+     "note": "Clear-up of diseased prunings at winter pruning; the page says nothing about fallen leaves; no month."
+    }
+   ]
+  },
+  {
+   "code": "PALM-YRC",
+   "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/year-round-rose-care",
+   "final_url": "https://www.palmers.co.nz/blogs/gardening-inspiration/year-round-rose-care",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"In the north, it is perfectly fine to start a bit earlier than this, and in the south a bit later.\"",
+     "result": "Confirmed",
+     "page_wording": "In the north, it is perfectly fine to start a bit earlier than this, and in the south a bit later.",
+     "supports_finding": "yes",
+     "note": "Exact; Winter, Pruning section, about main winter pruning for New Zealand generally. It contrasts north (earlier) with south (later), and the next sentence ties timing to 'the last of the frosts'. It says 'north' and 'south' only; it does not use the words milder, colder or frosty districts."
+    },
+    {
+     "finding": "AF-8",
+     "recorded": "\"In most parts of the country, the best time to prune your roses is July through to mid-late August.\"",
+     "result": "Confirmed",
+     "page_wording": "In most parts of the country, the best time to prune your roses is July through to mid-late August.",
+     "supports_finding": "yes",
+     "note": "Exact; main winter pruning, stated for 'most parts of the country'. Supports July and August as the usual window. June is not named on the page; it is only implied by 'a bit earlier' in the north."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"In the north, it is perfectly fine to start a bit earlier than this\"",
+     "result": "Confirmed",
+     "page_wording": "In the north, it is perfectly fine to start a bit earlier than this, and in the south a bit later.",
+     "supports_finding": "partly",
+     "note": "Exact, but no month is given for the north. 'A bit earlier than this' refers to July through mid-late August, so it points to starting before July (late June), not to an 'early July to early August' window. It supports 'the north prunes earlier', not the months in the finding."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"and in the south a bit later.\"",
+     "result": "Confirmed",
+     "page_wording": "In the north, it is perfectly fine to start a bit earlier than this, and in the south a bit later.",
+     "supports_finding": "partly",
+     "note": "Exact. Supports later pruning in 'the south' than July to mid-late August, with no month named. It does not say 'August or later', does not mention the South Island, inland or frost-prone districts by name, and 'once the worst frosts have passed' is not in this sentence (the next sentence mentions the last of the frosts for any region)."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"Don't prune too early for your region as the new growth can be damaged by the last of the frosts.\"",
+     "result": "Confirmed",
+     "page_wording": "Don't prune too early for your region as the new growth can be damaged by the last of the frosts.",
+     "supports_finding": "yes",
+     "note": "Exact; Winter, Pruning section, main winter pruning, stated for New Zealand generally. It carries the whole finding."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"Apply fertiliser in early Spring after pruning.\"",
+     "result": "Confirmed",
+     "page_wording": "Apply fertiliser in early Spring after pruning.",
+     "supports_finding": "yes",
+     "note": "Exact. It sits under the Summer heading's Feeding section, not under Spring, and is followed by 'Another application should be made during the first bloom period.' No month named; stated for New Zealand generally."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"Give your roses a final feed before Winter.\"",
+     "result": "Confirmed",
+     "page_wording": "Give your roses a final feed before Winter.",
+     "supports_finding": "partly",
+     "note": "Exact; Autumn, Feeding section. Supports a last feed in autumn, but names no month, so none of 'end of February to early April' is supported by this page. 'Before Winter' could mean as late as May."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"continue dead-heading until the end of March and leave for colourful hips to form.\"",
+     "result": "Confirmed",
+     "page_wording": "To prevent rot, snip off any soggy or shrivelled blooms and continue dead-heading until the end of March and leave for colourful hips to form.",
+     "supports_finding": "partly",
+     "note": "Exact (the page sentence has an opening clause about rot); Autumn section. Supports stopping deadheading at the end of March only; the end of February is not on the page. The page speaks for New Zealand generally and does not mention Auckland, so 'one Auckland source' cannot be confirmed from the page itself."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"leave for colourful hips to form.\"",
+     "result": "Confirmed",
+     "page_wording": "continue dead-heading until the end of March and leave for colourful hips to form.",
+     "supports_finding": "yes",
+     "note": "Exact; Autumn section. The stated reason for leaving the flowers after the end of March is for hips to form."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Autumn is the best time for transplanting as they'll have time to get established over Winter.\"",
+     "result": "Confirmed",
+     "page_wording": "If you're planning to relocate your rose, Autumn is the best time for transplanting as they'll have time to get established over Winter.",
+     "supports_finding": "yes",
+     "note": "Exact; Autumn section, about moving an established rose, no month and no region. Note the same company's FAQ page (PALM-FAQ) says the best time is after pruning in July, which disagrees with this page."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Collect any infected leaves that have fallen to the ground, as these can carry diseases from one year to the next.\"",
+     "result": "Confirmed",
+     "page_wording": "Collect any infected leaves that have fallen to the ground, as these can carry diseases from one year to the next.",
+     "supports_finding": "partly",
+     "note": "Exact; it sits in the Autumn section only. Supports clearing fallen infected leaves in autumn. The page does not repeat this for winter or at pruning, and does not mention Canterbury."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"We also recommend a good Winter spray of lime sulphur followed by a copper spray\"",
+     "result": "Confirmed",
+     "page_wording": "We also recommend a good Winter spray of lime sulphur followed by a copper spray to give your rose a perfect start to Spring.",
+     "supports_finding": "partly",
+     "note": "Exact; it is the last sentence of the Winter, Pruning section. Supports a winter spray and names the types (lime sulphur, then copper). The page does not say 'after pruning' in words and names no month for the spray; June is not on the page at all. One WebFetch answer read 'after pruning' from its position after the pruning text, another said the timing is not stated; the wording itself does not state it."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"Don't prune too early for your region\"",
+     "result": "Confirmed",
+     "page_wording": "Don't prune too early for your region as the new growth can be damaged by the last of the frosts.",
+     "supports_finding": "partly",
+     "note": "Exact. Supports timing depending on your region and on local frosts. The page says nothing about a garden's own microclimate, and the words 'where you live' and 'microclimate' are not on the page."
+    }
+   ],
+   "contradictions": [
+    "The spray sentence does not say the lime sulphur and copper spray comes after pruning, and gives no month (AF-33).",
+    "Transplanting: this page says autumn is best; the same company's FAQ page says after pruning in July (AF-31 against AF-30).",
+    "No months are named on the page other than July, August (pruning) and March (deadheading); the final feed is only 'before Winter' (AF-21).",
+    "The page excepts old-fashioned once-flowering roses from winter pruning; they are pruned straight after flowering in early summer (qualifies AF-8 for those roses, not for bush roses generally).",
+    "The page never names Auckland or any town or region; it speaks of 'most parts of the country', 'the north' and 'the south' (AF-23's 'one Auckland source')."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 roses not pruned in winter",
+     "quote": "The exception is old-fashioned roses that flower only once a year in early Summer",
+     "note": "Winter pruning section; once-flowering old roses are an exception and are pruned immediately after flowering; no region."
+    },
+    {
+     "topic": "Q2 second feed",
+     "quote": "Another application should be made during the first bloom period.",
+     "note": "Feeding; follows the early spring feed after pruning; timed by the plant (first flush of bloom), no month; New Zealand generally."
+    },
+    {
+     "topic": "Q2 feeding season",
+     "quote": "Feed in Spring and Summer, when they are actively growing.",
+     "note": "Feeding, under the Summer heading; no months; New Zealand generally."
+    },
+    {
+     "topic": "Q3 deadheading in summer",
+     "quote": "It is necessary to remove spent flowers to conserve the plant's energy and encourage repeat blooms.",
+     "note": "Deadheading through summer; the only stopping point on the page is the end of March (already recorded)."
+    },
+    {
+     "topic": "Q4 new roses planted in winter",
+     "quote": "Winter is the time that new season's roses hit stores.",
+     "note": "Planting new roses, Winter section; no month; bare-root is not specified in the sentence; an Autumn sentence adds to prepare soil then 'if you're planting new roses in Winter'."
+    },
+    {
+     "topic": "Q5 spray programme start",
+     "quote": "Spring is the perfect time to start a spray program.",
+     "note": "Growing-season spraying, Spring section; no spray type or month given in this sentence; separate from the winter lime sulphur then copper spray."
+    }
+   ]
+  },
+  {
+   "code": "PALM-G",
+   "url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
+   "final_url": "https://www.palmers.co.nz/blogs/how-to-guides/how-to-grow-bush-roses",
+   "opened": true,
+   "page_date": "not shown (footer copyright 2026 only)",
+   "checks": [
+    {
+     "finding": "AF-27",
+     "recorded": "\"The best planting time for all rose varieties is from winter through to spring.\"",
+     "result": "Confirmed",
+     "page_wording": "The best planting time for all rose varieties is from winter through to spring.",
+     "supports_finding": "partly",
+     "note": "Exact; about planting roses generally, in the soil preparation and planting part of the page. Supports planting from winter into spring. The page never mentions bare-root roses, names no months (June to August are not given for planting), and does not mention Canterbury or any region."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"Container grown roses can be planted in your garden at any time of the year.\"",
+     "result": "Confirmed",
+     "page_wording": "Container grown roses can be planted in your garden at any time of the year.",
+     "supports_finding": "partly",
+     "note": "Exact; about planting potted roses, no region. Supports 'any time of year'. The page attaches no condition about keeping them well watered in spring and summer, so that part of the finding is not supported here."
+    }
+   ],
+   "contradictions": [
+    "The words 'bare root' do not appear on the page; the winter-to-spring planting sentence is about 'all rose varieties' (AF-27).",
+    "The page says faded flowers should be removed to prevent rosehips, 'which can inhibit flower production', and gives no time to stop deadheading."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 main winter pruning and its signal",
+     "quote": "... sending out new shoots at the first sign of warm weather, so July and August is an ideal time to begin pruning.",
+     "note": "Main winter pruning of bush roses, under 'When to prune'; July and August; no region; the sentence before says prune in winter while dormant, before they burst into growth."
+    },
+    {
+     "topic": "Q5 winter spray type",
+     "quote": "We also recommend a good winter clean up spray of lime sulphur followed by an organic copper oxy spray ...",
+     "note": "Winter clean-up spray; types named are lime sulphur followed by copper; 'winter' only, no month and not tied in words to pruning."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "As flowers fade they should be removed to encourage more blooms and to prevent the shrub from developing rosehips, which can inhibit flower production.",
+     "note": "Deadheading; no month and no time to stop given; no region."
+    },
+    {
+     "topic": "Q5 winter protection (mulch)",
+     "quote": "It will also help protect roots from temperature extremes and keep weeds out.",
+     "note": "Mulching with bark, peat, compost or pea straw; said to protect roots from temperature extremes; no season or month named."
+    }
+   ]
+  },
+  {
+   "code": "PALM-FAQ",
+   "url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
+   "final_url": "https://www.palmers.co.nz/blogs/gardening-inspiration/frequently-asked-rose-questions",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-30",
+     "recorded": "\"The best time to relocate them would be after pruning in July when the rose is dormant with no active growth.\"",
+     "result": "Confirmed",
+     "page_wording": "... so the best time to relocate them would be after pruning in July when the rose is dormant with no active growth.",
+     "supports_finding": "partly",
+     "note": "Exact; under 'When is the best time to move roses in the garden?'. Supports moving an established rose in winter while dormant, named as July, after pruning. June is not named. The very next sentence adds a condition: 'make sure that the risk of frosts (or freezing weather) has passed', which in frosty districts would push the move later than July."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"Spray your roses with copper and a winter spraying oil at the time of pruning and again one month after.\"",
+     "result": "Confirmed",
+     "page_wording": "Spray your roses with copper and a winter spraying oil at the time of pruning and again one month after.",
+     "supports_finding": "partly",
+     "note": "Exact; under 'What is the best way to prune a rose?'. Supports a second winter spray (copper and oil) one month after the spray at pruning. The page does not mention bud swell or bud burst and gives no reason or end point for the follow-up spray, so that part of the finding is not supported."
+    }
+   ],
+   "contradictions": [
+    "Moving a rose carries a frost condition on this page: 'make sure that the risk of frosts (or freezing weather) has passed' (qualifies AF-30's June or July).",
+    "June is not named for moving a rose; only July is.",
+    "This page's July advice for moving a rose disagrees with the same company's 'Year Round Rose Care' page, which says autumn is best (AF-31).",
+    "The follow-up spray is fixed at 'one month after' pruning, not tied to bud swell or bud burst (AF-34).",
+    "The winter spray types here are copper and oil at pruning; lime sulphur appears only in a list '(copper/oil/lime sulphur)' under blackspot, whereas the other Palmers pages name lime sulphur followed by copper."
+   ],
+   "also_says": [
+    {
+     "topic": "Q4 moving a rose, frost condition (also Q8)",
+     "quote": "When it comes time to transplant the rose, make sure that the risk of frosts (or freezing weather) has passed",
+     "note": "Moving an established rose; follows the 'after pruning in July' sentence; a weather condition, no region named."
+    },
+    {
+     "topic": "Q4 planting new roses; Q1 pruning; Q5 spraying",
+     "quote": "Winter is the time to plant new roses, prune roses in the garden and to spray them to keep pest and disease problems down ...",
+     "note": "Planting new roses, main pruning and winter spraying all placed in winter; no months; no region; bare-root and potted not distinguished."
+    },
+    {
+     "topic": "Q5 clearing leaves",
+     "quote": "After you prune the rose, ensure all leaves are cleaned up from around the rose bush.",
+     "note": "Clear-up of leaves at winter pruning; no month named; no region."
+    },
+    {
+     "topic": "Q5 winter spray types",
+     "quote": "A good winter clean up spray (copper/oil/lime sulphur) will help for next year",
+     "note": "Winter clean-up spray, under the diseases question (blackspot); types listed are copper, oil and lime sulphur; no month."
+    },
+    {
+     "topic": "Q2 feeding frequency",
+     "quote": "Make sure that you continue regular, deep watering of the plant and apply a good quality rose fertiliser monthly.",
+     "note": "Feeding monthly; the page gives no first or last month or season for it; which question it sits under was not established."
+    }
+   ]
+  },
+  {
+   "code": "KINGS",
+   "url": "https://www.kings.co.nz/growing-guides/roses",
+   "final_url": "https://www.kings.co.nz/growing-guides/roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"Roses should be pruned in June/July each year.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses should be pruned in June/July each year.",
+     "supports_finding": "partly",
+     "note": "Main winter pruning of roses, stated for no particular region (the page names no place). It names June/July only: August is not mentioned anywhere on the page, so it does not support 'most often July and August'."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"Feed with Kings Slow Release Rose Food in spring, summer and autumn.\"",
+     "result": "Confirmed",
+     "page_wording": "Feed with Kings Slow Release Rose Food in spring, summer and autumn.",
+     "supports_finding": "partly",
+     "note": "Feeding of roses generally; seasons only, no months. Supports only the 'some sources feed through autumn' part; the page names no month for a last feed. The next sentence adds a monthly liquid feed 'from spring through to the end of autumn'."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"New seasons Roses arrive in store from June.\"",
+     "result": "Confirmed",
+     "page_wording": "New seasons Roses arrive in store from June.",
+     "supports_finding": "partly",
+     "note": "Supports new-season roses arriving in store from June (this chain's own stores). The page never uses the words bare-root or bare root, so 'bare-root' is not supported by this page."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"Roses are best planted in winter, however they can be planted right through spring.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses are best planted in winter, however they can be planted right through spring.",
+     "supports_finding": "partly",
+     "note": "Planting roses generally, no region. Supports winter as best and planting continuing through spring. It does not say bare-root, and it names no months for planting (only 'arrive in store from June' in the sentence before); June to August is not stated, and nothing is said about Canterbury."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"This is best done when dormant during Winter.\"",
+     "result": "Confirmed",
+     "page_wording": "This is best done when dormant during Winter.",
+     "supports_finding": "partly",
+     "note": "In the 'Beginner Tip' box about moving roses (cut back by a third, dig a large root ball, keep watered). Supports moving in winter while dormant. No month is named for moving: June and July appear on the page only for pruning, store arrival and the lime sulphur tip. One WebFetch answer claimed June for moving but its quotation did not contain a month."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"In winter after leaf fall spray with Lime Sulfur\"",
+     "result": "Confirmed",
+     "page_wording": "In winter after leaf fall spray with Lime Sulfur, this will clear up any over wintering spores on the plants and treat any scale insect",
+     "supports_finding": "partly",
+     "note": "Winter spray, type lime sulphur, timed 'after leaf fall' in the Spraying section. It does not say 'after pruning' and names no month here. The page's Expert Tip says 'In June (before pruning)' for the lime sulphur spray, which contradicts 'after pruning'; July is not named for the spray. Spelling: three of four readings gave 'Sulfur' in this sentence and 'Sulphur' in the Expert Tip; one reading gave 'Sulphur' here (trivial)."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"At bud burst spray with a copper spray to prevent any diseases.\"",
+     "result": "Confirmed",
+     "page_wording": "At bud burst spray with a copper spray to prevent any diseases.",
+     "supports_finding": "yes",
+     "note": "Spraying section, directly after the winter lime sulphur sentence: a copper spray at bud burst. Supports a further spray at bud burst following the winter spray. The Expert Tip adds not to use other sprays until 3 weeks after lime sulphur."
+    }
+   ],
+   "contradictions": [
+    "AF-33: the Expert Tip says the lime sulphur spray is done 'In June (before pruning)', not after pruning; the Spraying section ties it to leaf fall, not to pruning.",
+    "AF-8: the page gives June/July only for pruning and never mentions August.",
+    "AF-26/AF-27: the page speaks of 'roses' and 'new seasons roses' only; bare-root is not mentioned.",
+    "AF-30: no month is given for moving a rose.",
+    "The page makes no division of New Zealand by region, climate or frost."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 winter spray timing and type",
+     "quote": "In June (before pruning) spray with [brand] Lime Sulphur this will clean up any fungal spores or insects pests.",
+     "note": "Expert Tip box. Winter spray, type lime sulphur, June, before pruning; no region stated. Brand name removed from the quotation."
+    },
+    {
+     "topic": "Q5 winter spray, gap before other sprays",
+     "quote": "Do not spray with others sprays until 3 weeks after using Lime Sulphur.",
+     "note": "Expert Tip box; follows the June lime sulphur tip. No region."
+    },
+    {
+     "topic": "Q2 last feed",
+     "quote": "from spring through to the end of autumn, this encourages root growth",
+     "note": "Part of the sentence on a monthly liquid feed (brand named on the page) given in addition to the slow-release food; seasons only, no months, no region."
+    }
+   ]
+  },
+  {
+   "code": "SPR-P",
+   "url": "https://southpacificroses.co.nz/pruning-your-roses/",
+   "final_url": "https://southpacificroses.co.nz/pruning-your-roses/",
+   "opened": true,
+   "page_date": "28 August 2019 (published and modified dates in the page data)",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"June or July are generally the preferred months but some folk will prune in August\"",
+     "result": "Confirmed",
+     "page_wording": "June or July are generally the preferred months but some folk will prune in August, it all depends on where you live in the country.",
+     "supports_finding": "partly",
+     "note": "Main winter pruning, stated for New Zealand generally ('where you live in the country'). Supports the June to August span. It says June or July are preferred and only 'some folk' prune in August, which runs against 'most often July and August' for this source."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"when the rose bush has gone into it's Winter dormancy.\"",
+     "result": "Confirmed",
+     "page_wording": "The best time to prune your roses is in the Winter time when the rose bush has gone into it's Winter dormancy.",
+     "supports_finding": "partly",
+     "note": "Main winter pruning tied to the bush having gone into winter dormancy. Supports the dormancy signal only. The word 'frost' does not appear on the page, so 'the worst frosts having passed' is not supported here."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"it all depends on where you live in the country.\"",
+     "result": "Confirmed",
+     "page_wording": "June or July are generally the preferred months but some folk will prune in August, it all depends on where you live in the country.",
+     "supports_finding": "partly",
+     "note": "Supports the pruning month depending on where in the country you live. The page names no region, town or climate and says nothing about microclimate or the garden's own conditions, so that half of the finding is not supported here."
+    }
+   ],
+   "contradictions": [
+    "AF-8: June or July are called the preferred months; August is what 'some folk' do, so this page does not back 'most often July and August'.",
+    "AF-14: no mention of frost anywhere on the page.",
+    "AF-36: no mention of microclimate; no regions are named."
+   ],
+   "also_says": []
+  },
+  {
+   "code": "SPR-F",
+   "url": "https://southpacificroses.co.nz/feeding-watering-roses/",
+   "final_url": "https://southpacificroses.co.nz/feeding-watering-roses/",
+   "opened": true,
+   "page_date": "published 27 August 2019, updated 28 August 2019 (page data)",
+   "checks": [
+    {
+     "finding": "AF-19",
+     "recorded": "\"Apply about 3 applications from early Spring to late summer (September to March).\"",
+     "result": "Confirmed",
+     "page_wording": "Apply about 3 applications from early Spring to late summer (September to March).",
+     "supports_finding": "partly",
+     "note": "Feeding roses; the sentence sits under one named compound fertiliser product in the page's feeding recommendations, not roses in general. Supports September ('early Spring') as the start of that feeding window; the page does not call it the first feed or tie it to new growth or pruning. No region stated; the page says to use it 'as a guide only'."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"Apply about 3 applications from early Spring to late summer (September to March).\"",
+     "result": "Confirmed",
+     "page_wording": "Apply about 3 applications from early Spring to late summer (September to March).",
+     "supports_finding": "partly",
+     "note": "Same sentence, for one named product. Supports March as the end of the feeding window (the page calls it 'late summer'); it does not say 'last feed' or tell the reader to stop, and it does not mention feeding in autumn or winter. No region stated."
+    }
+   ],
+   "contradictions": [
+    "The September to March window is given for one named fertiliser product only, and the page says its recommendations are 'a guide only, all gardens are different'.",
+    "The page labels March 'late summer'; it does not mention any autumn feeding."
+   ],
+   "also_says": [
+    {
+     "topic": "Q8 going by the garden, not a fixed rule",
+     "quote": "Here are our recommendations for feeding, use this as a guide only, all gardens are different and require different nutrients.",
+     "note": "Feeding; introduces the list of recommended feeds. No months, no region."
+    }
+   ]
+  },
+  {
+   "code": "MATT",
+   "url": "https://www.matthewsroses.co.nz/advice/",
+   "final_url": "https://www.matthewsroses.co.nz/advice/",
+   "opened": true,
+   "page_date": "not shown on the page; page data gives a modified date of 24 June 2024",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"In New Zealand you can prune over the winter months of June, July and August.\"",
+     "result": "Confirmed",
+     "page_wording": "In New Zealand you can prune over the winter months of June, July and August.",
+     "supports_finding": "yes",
+     "note": "Main winter pruning (heading 'How to Prune your Roses - WINTER'), stated for New Zealand as a whole. Supports the June to August span. The page does not say which month is most common or best, and does not tie timing to region or frost, so it neither backs nor contradicts 'most often July and August'."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"The keen gardener dead-heads rigorously, but an occasional stroll around the roses can be just as invigorating until the end of February.\"",
+     "result": "Confirmed",
+     "page_wording": "The keen gardener dead-heads rigorously, but an occasional stroll around the roses can be just as invigorating until the end of February.",
+     "supports_finding": "partly",
+     "note": "Deadheading during the flowering season. The sentence implies deadheading carries on until the end of February; it does not say in plain words to stop then and gives no reason. 'End of March' is not on this page. The nursery's footer shows Whanganui, not Auckland, so this page is not the 'Auckland source'."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Allow your rose plants to set their hips in Autumn\"",
+     "result": "Confirmed",
+     "page_wording": "Allow your rose plants to set their hips in Autumn - they are great for picking or making rose hip tea",
+     "supports_finding": "partly",
+     "note": "Comes straight after the 'until the end of February' deadheading sentence. Supports letting hips set in autumn; the page does not say in so many words that this is the reason to stop deadheading. The reason it gives for hips is picking and rose hip tea."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"If you are planting a Potted Rose in Spring/Summer try not to disturb the roots in the potting mix.\"",
+     "result": "Confirmed",
+     "page_wording": "If you are planting a Potted Rose in Spring/Summer try not to disturb the roots in the potting mix.",
+     "supports_finding": "partly",
+     "note": "Planting potted roses. Shows only that potted roses may be planted in spring/summer; the phrases 'any time', 'anytime', 'all year' and 'year round' do not appear on the page. The watering advice in the same paragraph is general ('REMEMBER TO ALWAYS WATER THOROUGHLY!'), not specific to spring and summer."
+    }
+   ],
+   "contradictions": [
+    "AF-23: the nursery is in Whanganui (footer), not Auckland; the page names the end of February only and does not explicitly say to stop deadheading.",
+    "AF-29: the page never says potted roses can be planted at any time of year.",
+    "AF-24: the page does not link hips to stopping deadheading in words; the link is only by the two sentences sitting together."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 main winter pruning",
+     "quote": "Roses will live without pruning but as they are deciduous they respond well to a good prune in winter.",
+     "note": "Main winter pruning; sentence before the June, July, August sentence. New Zealand generally."
+    },
+    {
+     "topic": "Q5 clearing leaves",
+     "quote": "Ensure to clean up all leaves and prunings then you're done!",
+     "note": "Clear-up at the end of winter pruning (heading 'How to Prune your Roses - WINTER'). No month beyond the June to August pruning window."
+    },
+    {
+     "topic": "Q5 winter spray type",
+     "quote": "Copper Oxichloride (especially after pruning in winter).",
+     "note": "Under 'Rose Care'. Winter spray after pruning, type copper (copper oxychloride). No month, no region."
+    },
+    {
+     "topic": "Q5 winter spray type",
+     "quote": "Lime Sulphur can also be applied in Winter.",
+     "note": "Under 'Rose Care'. Winter spray, type lime sulphur. No month, no region."
+    },
+    {
+     "topic": "Q2 feeding",
+     "quote": "Once established, garden roses can be fed seasonally to assist with healthy growth.",
+     "note": "Feeding established roses; no months given for first or last feed."
+    },
+    {
+     "topic": "Q2 feeding at planting",
+     "quote": "With newly planted roses it's best to fertilise at planting time to help give them a kick start in their new home.",
+     "note": "Feeding newly planted roses at planting time; no month."
+    }
+   ]
+  },
+  {
+   "code": "DALT-G",
+   "url": "https://www.daltons.co.nz/gardening-guides/how-to-grow-roses-guide",
+   "final_url": "https://www.daltons.co.nz/gardening-guides/how-to-grow-roses-guide",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"June/July are the best months to plant, relocate and prune roses.\"",
+     "result": "Confirmed",
+     "page_wording": "June/July are the best months to plant, relocate and prune roses.",
+     "supports_finding": "partly",
+     "note": "Under 'Top Tasks for Winter'; covers planting, relocating and pruning; no region. Supports June and July only. August is not mentioned for pruning anywhere on the page, so 'most often July and August' is not supported. The Pruning section adds 'pruning should be done during winter from June'."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"In cooler climates you can prune earlier once all the leaves have fallen\"",
+     "result": "Confirmed",
+     "page_wording": "In cooler climates you can prune earlier once all the leaves have fallen, in warmer climates delay pruning until mid-late July",
+     "supports_finding": "yes",
+     "note": "Pruning section, main winter pruning. First half of one sentence which, read whole, carries the finding: earlier in cooler climates once all leaves have fallen. 'Earlier' is relative to the preceding sentence ('during winter from June'). The page does not say which parts of New Zealand are cooler or warmer."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"in warmer climates delay pruning until mid-late July when the plant has lost all its leaves.\"",
+     "result": "Confirmed",
+     "page_wording": "in warmer climates delay pruning until mid-late July when the plant has lost all its leaves.",
+     "supports_finding": "yes",
+     "note": "Second half of the same sentence: warmer climates delay to mid-late July when all leaves are lost. Supports the finding. Warmer climates are not defined; elsewhere the page says June/July are the best months and 'Wait till leaves have dropped before pruning'."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"from mid-late October through to early December\"",
+     "result": "Confirmed",
+     "page_wording": "Feed Roses with [brand fertilisers] from mid-late October through to early December",
+     "supports_finding": "partly",
+     "note": "Feeding section, roses generally, no region. Mid-late October is the earliest fertiliser date the page names, so it supports the late end of the range only; the page does not call it the first feed and says nothing of August or September, so it cannot back 'most often September'. The Spring task list words it 'from late October to Christmas'."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "\"Recommence feeding again from mid-February through to early April.\"",
+     "result": "Confirmed",
+     "page_wording": "Recommence feeding again from mid-February through to early April.",
+     "supports_finding": "partly",
+     "note": "Feeding section; feeding resumes after a pause in the height of summer and the window ends in early April. Supports early April as the end of feeding, though the page does not say 'last feed' or give a reason for stopping. The Autumn task list says 'Do not over fertilise existing plants during this period'."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"June/July are the best months to plant, relocate and prune roses.\"",
+     "result": "Confirmed",
+     "page_wording": "June/July are the best months to plant, relocate and prune roses.",
+     "supports_finding": "partly",
+     "note": "Planting roses generally, under 'Top Tasks for Winter'. Supports winter planting in June/July. It is not specific to bare-root roses, does not name August, says nothing about continuing into spring and nothing about Canterbury. Elsewhere: bare-rooted plants 'will need to be planted as soon as possible'."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"June/July are the best months to plant, relocate and prune roses.\"",
+     "result": "Confirmed",
+     "page_wording": "June/July are the best months to plant, relocate and prune roses.",
+     "supports_finding": "partly",
+     "note": "'Relocate' in a winter task list supports moving a rose in winter in June/July. The page does not say 'dormant' for moving and gives no other guidance on moving an established rose."
+    }
+   ],
+   "contradictions": [
+    "AF-8: the page never mentions August for pruning.",
+    "AF-19: the Feeding section says 'mid-late October through to early December' but the Spring task list says 'from late October to Christmas' - a small inconsistency inside the page.",
+    "AF-21: the Autumn task list says 'Do not over fertilise existing plants during this period', which qualifies feeding to early April.",
+    "Winter spray timing is given two ways on the page: 'One week after pruning' (lime sulphur and/or copper, then oil 3 or 4 days later) and 'Straight after your winter pruning is completed' (oil and copper).",
+    "The Autumn task list was read once as saying 'Remove old flowers to encourage new flowering growth', i.e. deadheading continues in autumn (single reading, not re-checked).",
+    "Summer feeding sentence: two readings gave 'Don't fertiliser during the height of summer when plants are struggling with the heat.'; the tool also claimed 'Avoid fertilising plants during summer as they are heat stressed.' was on the page, then on a strict search said 'heat stressed' was not. Treat the second wording as unverified."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 main winter pruning month",
+     "quote": "For most varieties, pruning should be done during winter from June.",
+     "note": "Pruning section; main winter pruning; sentence before the cooler/warmer climates sentence. No region."
+    },
+    {
+     "topic": "Q1 local signal / Q8 going by the plant",
+     "quote": "Wait till leaves have dropped before pruning.",
+     "note": "Under 'Top Tasks for Winter', after the June/July sentence. Signal is leaf drop. No region."
+    },
+    {
+     "topic": "Q5 winter spray type and timing",
+     "quote": "One week after pruning spray with Lime Sulphur and/or a Copper compound such as Copper Oxychloride to ward off fungal diseases",
+     "note": "Winter spray one week after pruning; types lime sulphur and/or copper; the page adds not to mix them. No month, no region."
+    },
+    {
+     "topic": "Q5 winter spray type and timing",
+     "quote": "then 3 or 4 days later apply a horticultural spray such as [brand] Oil to kill off any overwintering pests",
+     "note": "Follows the lime sulphur/copper spray; type horticultural oil; not to be mixed with copper. Brand name removed."
+    },
+    {
+     "topic": "Q5 winter spray type and timing",
+     "quote": "Straight after your winter pruning is completed apply a very thorough clean-up spray of horticulture oil ... and an application of Copper compound",
+     "note": "Winter clean-up spray straight after pruning; types horticultural oil and copper. Shortened; brand names removed. The tool gave its heading once as 'Top Tasks for Winter' and once as 'Pests and Diseases'."
+    },
+    {
+     "topic": "Q5 clearing fallen leaves",
+     "quote": "Garden hygiene is very important with roses so remove any dead leaves or diseased wood from the ground.",
+     "note": "Clear-up of fallen leaves and diseased wood; no month or season stated in the sentence."
+    },
+    {
+     "topic": "Q2 feeding pause in summer",
+     "quote": "Don't fertiliser during the height of summer when plants are struggling with the heat.",
+     "note": "Feeding section; explains the gap between the October-December and February-April feeds. No region."
+    },
+    {
+     "topic": "Q2 first feed",
+     "quote": "Feed with [brand] Rose & Flower Fertiliser from late October to Christmas",
+     "note": "Under 'Top Tasks for Spring'; feeding window late October to Christmas. Brand name shortened."
+    },
+    {
+     "topic": "Q2 last feed",
+     "quote": "Do not over fertilise existing plants during this period, and remember to mulch with [brand] Mulch & Feed.",
+     "note": "Under 'Top Tasks for Autumn'; feeding in autumn is to be restrained. No month."
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Deadhead once a week to encourage repeat flowering",
+     "note": "Under 'Top Tasks for Summer'. No stop date given."
+    },
+    {
+     "topic": "Q4 bare-root planting",
+     "quote": "Bare rooted plants are generally cheaper and will need to be planted as soon as possible.",
+     "note": "Planting bare-root roses; no month in the sentence (June/July given in the winter task list)."
+    },
+    {
+     "topic": "Q6 climate division",
+     "quote": "Regional tips in general – the colder the climate the better the roses.",
+     "note": "The page's only 'regional' statement besides cooler/warmer climates for pruning; no regions named."
+    }
+   ]
+  },
+  {
+   "code": "DALT-Q",
+   "url": "https://www.daltons.co.nz/gardening-guides/winter-pruning-roses",
+   "final_url": "https://www.daltons.co.nz/gardening-guides/winter-pruning-roses",
+   "opened": true,
+   "page_date": "not shown (the question is written in 'early June' of an unstated year)",
+   "checks": [
+    {
+     "finding": "AF-33",
+     "recorded": "\"still apply winter clean up applications of a copper compound at any time during the next few months\"",
+     "result": "Confirmed",
+     "page_wording": "You should still apply winter clean up applications of a copper compound at any time during the next few months however",
+     "supports_finding": "partly",
+     "note": "Winter clean-up spray, type copper, advised in early June for 'any time during the next few months'. This sentence does not tie the spray to after pruning (it is to be done even though pruning is delayed and leaves are still on) and names no month. A later sentence does say 'One week after pruning, spray with Lime Sulphur and/or a copper compound'. July is named only for pruning. No region or town is stated."
+    },
+    {
+     "finding": "AF-37",
+     "recorded": "\"Pruning any earlier with the very mild autumn we are experiencing may result in new growth appearing\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning any earlier with the very mild autumn we are experiencing may result in new growth appearing which will then suffer",
+     "supports_finding": "yes",
+     "note": "Main winter pruning, in a reply to a reader who normally prunes at the end of June and whose roses were still flowering in early June. With its neighbours ('delay pruning ... until they have become completely dormant' and 'Pruning roses may well now be a July task') it supports the finding. It is advice for one particular mild season; no region stated."
+    }
+   ],
+   "contradictions": [
+    "AF-33: the recorded copper sentence is about spraying at any time over the coming months whether or not the bush has been pruned or has leaves; 'after pruning' comes from a different sentence on the page. No month is named for any spray.",
+    "The follow-up 'horticultural spray' on this page is not given a type (oil is not named here)."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 local signal / Q8 going by the plant",
+     "quote": "It is imperative that you delay pruning your roses until they have become completely dormant; ie: leaves no longer present on the plant.",
+     "note": "Main winter pruning; signal is complete dormancy shown by no leaves. Reply written in early June; no region."
+    },
+    {
+     "topic": "Q1 month / Q8 late season",
+     "quote": "Pruning roses may well now be a July task.",
+     "note": "Main winter pruning pushed to July in a mild autumn; reader normally prunes at the end of June. No region."
+    },
+    {
+     "topic": "Q5 winter spray type and timing",
+     "quote": "One week after pruning, spray with Lime Sulphur and/or a copper compound such as Copper Oxychloride to ward off fungal diseases.",
+     "note": "Winter spray one week after pruning; types lime sulphur and/or copper. No month, no region."
+    },
+    {
+     "topic": "Q5 winter spray follow-up",
+     "quote": "Then, 3 or 4 days later, apply a horticultural spray to kill off any overwintering pests.",
+     "note": "Follows the lime sulphur/copper spray; spray type not specified on this page."
+    }
+   ]
+  },
+  {
+   "code": "ODER",
+   "url": "https://www.oderings.co.nz/learn/garden-guides/roses-year-round-guide-__I.900045__N.710770",
+   "final_url": "https://www.oderings.co.nz/learn/garden-guides/roses-year-round-guide-__I.900045__N.710770",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-18",
+     "recorded": "\"Avoid fertilising in winter, as roses are dormant and won't absorb nutrients.\"",
+     "result": "Confirmed",
+     "page_wording": "Avoid fertilising in winter, as roses are dormant and won't absorb nutrients.",
+     "supports_finding": "partly",
+     "note": "Feed section. It says not to feed in winter; it does not itself say feeding starts in spring. The next sentence ('After August, feed roses ...') gives the start. Nothing on the page ties the first feed to new growth appearing or to pruning."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"After August, feed roses with a half-cup of rose-specific fertiliser every three months (excluding winter).\"",
+     "result": "Confirmed",
+     "page_wording": "After August, feed roses with a half-cup of rose-specific fertiliser every three months (excluding winter).",
+     "supports_finding": "yes",
+     "note": "Feeding garden roses (labelled 'Garden:'); start of feeding is 'After August', i.e. from the start of September at the earliest, which sits inside the finding's range. September is not named in words. Roses in pots are treated separately: 'Feed in early spring and late summer'. No region stated."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"In June/July , after pruning, apply lime sulphur to bare, dormant rose plants\"",
+     "result": "Confirmed",
+     "page_wording": "In June/July , after pruning, apply lime sulphur to bare, dormant rose plants, ensuring thorough coverage of all canes, joints, forks, and crevices.",
+     "supports_finding": "yes",
+     "note": "Spraying Roses section: winter spray, type lime sulphur, in June/July after pruning, on bare dormant plants. Supports the whole finding. No region is stated in the article itself (one reading showed Christchurch and Havelock North stores in the page's opening-hours panel)."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"Three to four weeks after lime sulphur, apply liquid copper before buds begin to swell.\"",
+     "result": "Confirmed",
+     "page_wording": "Three to four weeks after lime sulphur, apply liquid copper before buds begin to swell.",
+     "supports_finding": "yes",
+     "note": "Spraying Roses section: copper three to four weeks after the lime sulphur, before buds swell. Supports the finding. The page then adds a spraying oil about a week after the copper."
+    }
+   ],
+   "contradictions": [
+    "AF-18: the page does not mention new growth or pruning as the cue to start feeding; the cue is the calendar ('After August').",
+    "AF-19: garden roses are fed 'every three months (excluding winter)' after August; pots are fed 'in early spring and late summer' - two different schedules.",
+    "The page names no month for pruning itself (only 'winter pruning', and June/July for the spray that follows it) and makes no division by region, climate or frost."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 winter spray type (third spray)",
+     "quote": "Around one week after copper, apply spraying oil, coating branches and stems so the oil runs into cracks and joints.",
+     "note": "Winter spray sequence: lime sulphur (June/July after pruning), copper 3-4 weeks later, then oil about a week after copper. No region."
+    },
+    {
+     "topic": "Q5 winter spray, repeat",
+     "quote": "A second application can be made 10 to 21 days later.",
+     "note": "Refers to a second application of the spraying oil."
+    },
+    {
+     "topic": "Q5 winter spray caution",
+     "quote": "Never mix lime sulphur with other sprays.",
+     "note": "Spraying Roses section; applies to the June/July lime sulphur spray."
+    },
+    {
+     "topic": "Q2 feeding roses in pots",
+     "quote": "Pots: Feed in early spring and late summer with [brand rose foods].",
+     "note": "Roses in pots: first feed early spring, last feed late summer; no months. Brand names removed."
+    },
+    {
+     "topic": "Q2 feeding new roses",
+     "quote": "Avoid fertilisers for the first month to protect tender roots.",
+     "note": "Newly planted roses, in the Prepare Soil section; no month."
+    },
+    {
+     "topic": "Q1 main winter pruning",
+     "quote": "Winter pruning is essential for maintaining healthy, manageable plants",
+     "note": "Pruning Roses section; season only ('winter'), no month, no local signal named."
+    },
+    {
+     "topic": "Q4 planting season",
+     "quote": "Planting, pruning, tidying, and spraying roses in winter lays the foundation for their spectacular performance in spring and summer.",
+     "note": "Planting roses in winter; season only, no months, bare-root not specified."
+    },
+    {
+     "topic": "Q5 protection",
+     "quote": "Roses are hardy but benefit from being shielded from harsh winds.",
+     "note": "Protection section; general shelter from wind, not a winter-specific or frost measure. The page has no frost advice."
+    }
+   ]
+  }
+ ]
+}

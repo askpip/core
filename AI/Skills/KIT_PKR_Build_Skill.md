@@ -9,11 +9,11 @@ description: Build, submit and (after Founder approval) mark Published the PIP K
 
 **Document Title:** KIT PKR Build Skill
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Skill
-**Version:** 0.5
-**Status:** Approved — Version 0.1 approved by a Founder in chat, 1 October 2026; Version 0.2 approved by AskPIP Founder Authority, 5 October 2026; Version 0.3 at a Founder's direction, 5 October 2026 (coverage, statement rules, question topics, Build Check rounds); Version 0.4 at a Founder's direction, 5 October 2026; Version 0.5 on a Founder's decision of 6 October 2026 to keep the one-approval pattern (build from the completed dossier; Pip's Answers; one approval)
+**Version:** 0.6
+**Status:** Approved — Version 0.1 approved by a Founder in chat, 1 October 2026; Version 0.2 approved by AskPIP Founder Authority, 5 October 2026; Version 0.3 at a Founder's direction, 5 October 2026 (coverage, statement rules, question topics, Build Check rounds); Version 0.4 at a Founder's direction, 5 October 2026; Version 0.5 on a Founder's decision of 6 October 2026 to keep the one-approval pattern (build from the completed dossier; Pip's Answers; one approval); Version 0.6, 7 October 2026, on a Founder's decision of 6 October 2026 (a statement is marked for the place its source names)
 **Owner:** The Founders
 **Permanent Location:** `AI/Skills/KIT_PKR_Build_Skill.md`
-**Last Updated:** 6 October 2026
+**Last Updated:** 7 October 2026
 **Purpose:** To give any AI acting as KIT the working procedure for turning a completed dossier, or an approved ARC, into Published PKRs: the steps, file conventions and standing Founder rules established in practice. It distils, and never overrides, the KIT Charter, KIT Operations Manual and PKR Standard.
 **Related Documents:**
 - `Knowledge Curation System/Charters/KIT_Charter.md`
@@ -97,7 +97,7 @@ Set the title-line status to `(v0.1, Draft)`. The package has these sections, in
    - **Observation (§5.1):** Visual Criteria table with a confidence and "Photographable?" per signal; What the Photo Cannot Establish; Comparison Image PKR, or "documented gap"; Confirmation Requirement and Responses (Confirmed, Doesn't match, Not sure); the "any more?" question.
    - **Decision Logic (§5.3):** Available Choices and Conditions (Cut, Leave, Decide later, Get experienced local help) with per-row confidence; gate conditions; Deferral Triggers.
    - **Suitability Gate (§5.4):** Question or Check; Acceptable Answers with results; Stopping Threshold.
-   - **Care Guidance (§5.7):** Care Topic; Guidance Mode; Presentation Points; items with trace, confidence and applicability, and where they apply the limit shown, the kind (precaution, gap, disagreement, framing) and the countries the item is shown in. For question answers: the topic and the record's order in it. A subject usually needs several short question answers under one topic, with one lead question, so that every usable finding has a place. `PKR-CGD-BUSHROSE-SPRAYING-01-submission.md` is the worked example.
+   - **Care Guidance (§5.7):** Care Topic; Guidance Mode; Presentation Points; items with trace, confidence and applicability, and where they apply the limit shown, the kind (precaution, gap, disagreement, framing) and the places the item is shown in (a country, region or town: the place the source names, never a wider one). For question answers: the topic and the record's order in it. A subject usually needs several short question answers under one topic, with one lead question, so that every usable finding has a place. `PKR-CGD-BUSHROSE-SPRAYING-01-submission.md` is the worked example.
    - **Revisions** of published PKRs list only the changed fields and state the new version.
 3. **Wording Boundary Check** (KIT OM §7.7): how each paraphrase stays within its finding.
 4. **Remaining Dependencies and Decisions for the Founders.** Any question the rules, the standing decisions and the dossier don't settle. Put it to a Founder before submission, in plain words with its options. KIT can't decide horticultural questions by inference (KIT OM §9.3).
@@ -128,7 +128,7 @@ Set the title-line status to `(v0.1, Draft)`. The package has these sections, in
    4. list the folder and **check every file size** against your copy. A stale commit has landed before.
 2. Give the package to ROC for the Build Check. Fix anything it fails, act on the notes, and have the changed statements rechecked, until nothing fails. Record each round in the package. Where the check corrects the dossier, rebuild what rests on the corrected findings.
 3. With the ROC, write **Pip's Answers** and its one-question Form (`Working/AI Outputs/Founder_Review_Companion_Documents_Working_Note.md`): every word gardeners will see, what a Founder should know, the check in one line, where the detail is. Check by script that section 1 matches the draft records statement for statement. Mark any earlier brief or form for the same dossier as replaced.
-4. Load test copies of the draft records into a local build of the app (never the live LIL, never `public.lil_pkr`) and look at them, at phone width, for a plant in each country that has its own statements. Remove the test copies afterwards.
+4. Load test copies of the draft records into a local build of the app (never the live LIL, never `public.lil_pkr`) and look at them, at phone width, for a plant in each place that has its own statements, and for one outside them. Remove the test copies afterwards.
 5. Deliver, and once the Founder has pushed, post it in the Shed: point a Founder Attention Request at Pip's Answers, with links to the Form and the dossier, and edit the to-do (Garden Shed Operations Skill §5).
 
 # 7. On approval

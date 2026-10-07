@@ -12,7 +12,8 @@ import { Button } from '@/components/Button'
 import { CareBlock } from '@/components/PkrStatements'
 import { SeasonCard } from '@/components/SeasonCard'
 import { CommonQuestions } from '@/components/CommonQuestions'
-import { countryCodeFor } from '@/lib/place'
+import { countryName } from '@/lib/place'
+import { usePlantPlace } from '@/lib/usePlantPlace'
 import { HOME_QUESTIONS } from '@/data/commonQuestions'
 import { CARE_DISCLOSURE, SAVED_ROSE_TYPE_LABELS, growingSeasonObservation, publishedCare, roseTypeName, roseTypePasses } from '@/data/pkr'
 import type { CareGuidance } from '@/data/pkr'
@@ -35,6 +36,7 @@ export function PlantProject() {
   // hooks — usePlantPhotoUrl already treats an undefined path as "no photo."
   const labelPhotoUrl = usePlantPhotoUrl(project?.varietyLabelPhotoPath)
   const [showCare, setShowCare] = useState(false)
+  const { place, skipAsk } = usePlantPlace(project)
 
   if (loading) {
     return <div className="p-6 text-sm text-pip-text-soft">Loading…</div>
@@ -162,7 +164,17 @@ export function PlantProject() {
           </div>
         )}
 
-        <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} plantId={project.id} countryCode={countryCodeFor(project)} />
+        <CommonQuestions
+          keys={HOME_QUESTIONS}
+          initialVisible={6}
+          plantId={project.id}
+          place={place}
+          onRegion={(region) =>
+            // The region is saved with the plant, and the country with it, so a plant found by GPS keeps both.
+            void updateProject(project.id, { locationRegion: region.name, locationCountry: countryName(region.country) })
+          }
+          onSkipRegion={skipAsk}
+        />
 
         <div>
           <h2 className="mb-1 text-sm font-medium">Notes</h2>
