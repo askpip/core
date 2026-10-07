@@ -1,9 +1,9 @@
 {
   "schema": "pip-lil-record/1",
   "pkr_id": "PKR-CGD-000014",
-  "version": "1.0",
+  "version": "1.1",
   "pkr_type": "care_guidance",
-  "status": "Retired",
+  "status": "Published",
   "title": "How do I spray safely?",
   "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
@@ -24,7 +24,7 @@
       "PKR-SRC-000265",
       "PKR-SRC-000267"
     ],
-    "founder_approval_date": "2026-10-05",
+    "founder_approval_date": "2026-10-07",
     "related_pkrs": [
       {
         "relationship": "related",
@@ -51,10 +51,21 @@
     "label": null,
     "items": [
       {
-        "text": "Read and follow the product label. In the UK this is a legal requirement.",
+        "text": "Read and follow the product label.",
         "confidence": "Very High",
         "trace": [
           "ARC-BUSHROSE-SPRAYING-01 AF-30"
+        ]
+      },
+      {
+        "text": "In the UK, one source says that following the label is a legal requirement.",
+        "confidence": "Very High",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-SPRAYING-01 AF-30",
+          "rule 4"
         ]
       },
       {
@@ -125,9 +136,9 @@
     }
   },
   "provenance": {
-    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md (section 15)",
     "published_to_lil_by": "KIT",
-    "published_to_lil_at": "2026-10-05",
-    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+    "published_to_lil_at": "2026-10-07",
+    "note": "Revised at a Founder's direction in chat on 7 October 2026 (\"Make those follow up changes\"). Version 1.1: the sentence about UK law is now its own statement, shown only where the rose is in the United Kingdom, and says that one source states it. Nothing else changed. Version 1.0 retired."
   }
 }

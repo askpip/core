@@ -1,6 +1,6 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 423,
+  "record_count": 425,
   "published_count": 365,
   "records": [
     {
@@ -127,17 +127,33 @@
       "pkr_id": "PKR-CGD-000013",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "What about a winter spray after pruning?",
       "sha256": "ad43919496c407630a5568c514359f4fc8ab843c3b360057f9439053996364cb"
+    },
+    {
+      "pkr_id": "PKR-CGD-000013",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "What about a winter spray after pruning?",
+      "sha256": "6ba89be927f3d6bb1b0731e3bca8718ff4f0618f8ca277bfc6cbcf0a63634630"
     },
     {
       "pkr_id": "PKR-CGD-000014",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "How do I spray safely?",
       "sha256": "5c469df67f85847a7badfd3186ad82458786d1dc6cb496a36830423b7513c79d"
+    },
+    {
+      "pkr_id": "PKR-CGD-000014",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "How do I spray safely?",
+      "sha256": "ea735896c29db5d8c72b81421f53485dd196ada67bc1935e2af4a661b396d576"
     },
     {
       "pkr_id": "PKR-CGD-000015",

@@ -1085,7 +1085,7 @@
   },
   {
    "pkr_id": "PKR-CGD-000013",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "What about a winter spray after pruning?",
    "common": {
@@ -1094,6 +1094,7 @@
      "PKR-SRC-000073",
      "PKR-SRC-000097",
      "PKR-SRC-000157",
+     "PKR-SRC-000229",
      "PKR-SRC-000239",
      "PKR-SRC-000241",
      "PKR-SRC-000243",
@@ -1112,9 +1113,10 @@
      "PKR-SRC-000264",
      "PKR-SRC-000265",
      "PKR-SRC-000266",
-     "PKR-SRC-000267"
+     "PKR-SRC-000267",
+     "PKR-SRC-000313"
     ],
-    "founder_approval_date": "2026-10-05",
+    "founder_approval_date": "2026-10-07",
     "related_pkrs": [
      {
       "relationship": "related",
@@ -1177,27 +1179,18 @@
       ]
      },
      {
-      "text": "One source says not to use lime sulphur and copper sprays within two weeks of each other.",
-      "confidence": "Low",
+      "text": "If you use lime sulphur, never mix it with other sprays, and leave two to three weeks before you use a copper spray. One garden centre says to wait three weeks before any other spray. Follow the label on the spray.",
+      "confidence": "Moderate",
       "kind": "precaution",
       "place": [
        "NZ",
        "AU"
       ],
       "trace": [
-       "ARC-BUSHROSE-SPRAYING-01 AF-28"
-      ]
-     },
-     {
-      "text": "One source says never to mix lime sulphur and oil, or spray them together.",
-      "confidence": "Low",
-      "kind": "precaution",
-      "place": [
-       "NZ",
-       "AU"
-      ],
-      "trace": [
-       "ARC-BUSHROSE-SPRAYING-01 AF-41"
+       "ARC-BUSHROSE-TIMING-NZ-01 AF-47",
+       "ARC-BUSHROSE-SPRAYING-01 AF-28",
+       "ARC-BUSHROSE-SPRAYING-01 AF-41",
+       "rule 7"
       ]
      },
      {
@@ -1244,7 +1237,7 @@
   },
   {
    "pkr_id": "PKR-CGD-000014",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "How do I spray safely?",
    "common": {
@@ -1266,7 +1259,7 @@
      "PKR-SRC-000265",
      "PKR-SRC-000267"
     ],
-    "founder_approval_date": "2026-10-05",
+    "founder_approval_date": "2026-10-07",
     "related_pkrs": [
      {
       "relationship": "related",
@@ -1293,10 +1286,21 @@
     "label": null,
     "items": [
      {
-      "text": "Read and follow the product label. In the UK this is a legal requirement.",
+      "text": "Read and follow the product label.",
       "confidence": "Very High",
       "trace": [
        "ARC-BUSHROSE-SPRAYING-01 AF-30"
+      ]
+     },
+     {
+      "text": "In the UK, one source says that following the label is a legal requirement.",
+      "confidence": "Very High",
+      "place": [
+       "GB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-SPRAYING-01 AF-30",
+       "rule 4"
       ]
      },
      {

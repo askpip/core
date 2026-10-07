@@ -1,9 +1,9 @@
 {
   "schema": "pip-lil-record/1",
   "pkr_id": "PKR-CGD-000013",
-  "version": "1.0",
+  "version": "1.1",
   "pkr_type": "care_guidance",
-  "status": "Retired",
+  "status": "Published",
   "title": "What about a winter spray after pruning?",
   "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
@@ -11,6 +11,7 @@
       "PKR-SRC-000073",
       "PKR-SRC-000097",
       "PKR-SRC-000157",
+      "PKR-SRC-000229",
       "PKR-SRC-000239",
       "PKR-SRC-000241",
       "PKR-SRC-000243",
@@ -29,9 +30,10 @@
       "PKR-SRC-000264",
       "PKR-SRC-000265",
       "PKR-SRC-000266",
-      "PKR-SRC-000267"
+      "PKR-SRC-000267",
+      "PKR-SRC-000313"
     ],
-    "founder_approval_date": "2026-10-05",
+    "founder_approval_date": "2026-10-07",
     "related_pkrs": [
       {
         "relationship": "related",
@@ -94,27 +96,18 @@
         ]
       },
       {
-        "text": "One source says not to use lime sulphur and copper sprays within two weeks of each other.",
-        "confidence": "Low",
+        "text": "If you use lime sulphur, never mix it with other sprays, and leave two to three weeks before you use a copper spray. One garden centre says to wait three weeks before any other spray. Follow the label on the spray.",
+        "confidence": "Moderate",
         "kind": "precaution",
         "place": [
           "NZ",
           "AU"
         ],
         "trace": [
-          "ARC-BUSHROSE-SPRAYING-01 AF-28"
-        ]
-      },
-      {
-        "text": "One source says never to mix lime sulphur and oil, or spray them together.",
-        "confidence": "Low",
-        "kind": "precaution",
-        "place": [
-          "NZ",
-          "AU"
-        ],
-        "trace": [
-          "ARC-BUSHROSE-SPRAYING-01 AF-41"
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-47",
+          "ARC-BUSHROSE-SPRAYING-01 AF-28",
+          "ARC-BUSHROSE-SPRAYING-01 AF-41",
+          "rule 7"
         ]
       },
       {
@@ -159,9 +152,9 @@
     }
   },
   "provenance": {
-    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md",
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-SPRAYING-01-submission.md (section 15)",
     "published_to_lil_by": "KIT",
-    "published_to_lil_at": "2026-10-05",
-    "note": "A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 (\"Approve for publishing, and make the corrections to the research record listed in Brief section 4\"), then directed in chat on 5 October 2026 that they be reworded in plain language before publishing (\"reword and then publish, then alter the rules to suit\"). The reworded statements were checked again by the ROC before publishing (package §13)."
+    "published_to_lil_at": "2026-10-07",
+    "note": "Revised at a Founder's direction in chat on 7 October 2026 (\"Make those follow up changes\"). Version 1.1: the two lime sulphur precautions are replaced by the statement a Founder approved on 7 October 2026 for PKR-CGD-000026, used word for word (PKR Standard §4.5), so that both answers say the same. Nothing else changed. Version 1.0 retired."
   }
 }

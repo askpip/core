@@ -1,4 +1,4 @@
-# PKR Submission Package — Spraying: Seven Question Answers (v1.0, Published)
+# PKR Submission Package — Spraying: Seven Question Answers (v1.0, Published; two records revised to v1.1 on 7 October 2026, section 15)
 
 **Published 5 October 2026.** A Founder approved Pip's words for publishing on the Build Check Form on 5 October 2026 ("Approve for publishing, and make the corrections to the research record listed in Brief section 4"), and then directed in chat that they be reworded in plain language before publishing, with sources listed under the answer and not named in the sentence ("reword and then publish, then alter the rules to suit"). This is the reworded version, checked again before publishing (§13).
 
@@ -482,5 +482,23 @@ Every recorded quotation is on its page. In these findings the ARC's wording sai
 **Found at the last check, not yet in the record:** the Royal Horticultural Society page also says pesticides should not be used in wet, windy, very calm or hot, sunny weather. AF-33 says no institutional source addresses heat. That is to be confirmed and added, which would let Pip say more than "one source says never to spray in the heat of the day".
 
 **Sources.** 29 new Source PKRs (PKR-SRC-000239 to PKR-SRC-000267), and 6 existing ones get the new references added. All are listed in the Source PKR package.
+
+## 15. Revision of 7 October 2026 (PKR-CGD-000013 and PKR-CGD-000014, Version 1.1)
+
+Made at a Founder's direction in chat on 7 October 2026, after the New Zealand timing research. Sections 1 to 14 describe Version 1.0 and are unchanged.
+
+**PKR-CGD-000013, "What about a winter spray after pruning?"** Two statements are replaced by one.
+
+- Before: "One source says not to use lime sulphur and copper sprays within two weeks of each other." and "One source says never to mix lime sulphur and oil, or spray them together." (both Precaution · Low confidence)
+- Now: "If you use lime sulphur, never mix it with other sprays, and leave two to three weeks before you use a copper spray. One garden centre says to wait three weeks before any other spray. Follow the label on the spray." (Precaution · Moderate confidence; gardeners in New Zealand and Australia, as before)
+- Why: the New Zealand timing Build Check confirmed two more sources (`ARC-BUSHROSE-TIMING-NZ-01` AF-47): one garden centre waits three weeks before any other spray, and one says never to mix lime sulphur with other sprays. The statement is the one a Founder approved for PKR-CGD-000026 on 7 October 2026, used word for word, so both answers say the same. Trace: `ARC-BUSHROSE-TIMING-NZ-01` AF-47, with `ARC-BUSHROSE-SPRAYING-01` AF-28 and AF-41. Source PKRs added: PKR-SRC-000229 and PKR-SRC-000313.
+
+**PKR-CGD-000014, "How do I spray safely?"** One statement is split in two.
+
+- Before: "Read and follow the product label. In the UK this is a legal requirement." (Very High confidence; everyone)
+- Now: "Read and follow the product label." (Very High confidence; everyone) and "In the UK, one source says that following the label is a legal requirement." (Very High confidence; gardeners in the United Kingdom only)
+- Why: the sentence about UK law was shown in every country. Only one source, a UK horticultural society, states it, so the statement now says so (rule 1).
+
+**Check.** A session that took no part in writing them checked the three revised statements against the confirmed source sentences on 7 October 2026. The two label statements passed. It questioned the lime sulphur statement: it would give two weeks as a minimum for copper and say "one garden centre" for "never mix". The statement is kept as approved, because the earlier wording check of the same sentence against the full pages passed it on both points, and because the two answers should not differ. No website was opened.
 
 # End of Document

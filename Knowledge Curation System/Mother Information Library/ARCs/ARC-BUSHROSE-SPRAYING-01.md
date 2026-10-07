@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-SPRAYING-01** |
 | ARC Title | Spraying an Established Bush Rose: Whether, When and How Often |
-| Version | 1.1 |
+| Version | 1.2 |
 | Approval Status | **Approved** |
 | Approval Date | 5 October 2026 |
 | Approving Authority | AskPIP Founder Authority (a Founder, in chat, 5 October 2026) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-SPRAYING-02` §8 (all 45 Assessed Findings), reproduced at §4A |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding (§3). No single blended level (EAS §2.9, §3.2) |
 | Related ARCs | `ARC-BUSHROSE-BASICCARE-01` (F6 problems to watch for and watering at the base; F11 clearing fallen leaves before winter; F12 noticing signs early). `ARC-BUSHROSE-NOFLOWERS-01` (AF-31, black spot and flowering). |
-| Revision History | v1.0 — 5 October 2026 — created from `FRD-BUSHROSE-SPRAYING-02`, Founder-approved for AF-1 to AF-45 as a whole, with each finding's Use status and Build Check status (ROC Operations Manual §12.5) and a Source Register (§8, ROC Operations Manual §12.6). v1.1 — 5 October 2026 — corrections found by the Build Check, authorised by a Founder on the Build Check Form on 5 October 2026: §4B added, which governs where it differs from §4, §4A, §5, §6.1 and §7; AF-26 changed from Moderate to Low and to on record only; Build Check status entered for every finding (§3); one date corrected in the Source Register (§8). No finding was added or removed. |
+| Revision History | v1.0 — 5 October 2026 — created from `FRD-BUSHROSE-SPRAYING-02`, Founder-approved for AF-1 to AF-45 as a whole, with each finding's Use status and Build Check status (ROC Operations Manual §12.5) and a Source Register (§8, ROC Operations Manual §12.6). v1.1 — 5 October 2026 — corrections found by the Build Check, authorised by a Founder on the Build Check Form on 5 October 2026: §4B added, which governs where it differs from §4, §4A, §5, §6.1 and §7; AF-26 changed from Moderate to Low and to on record only; Build Check status entered for every finding (§3); one date corrected in the Source Register (§8). No finding was added or removed. v1.2 — 7 October 2026 — at a Founder's direction in chat: a cross-reference to `ARC-BUSHROSE-TIMING-NZ-01` AF-47 added at §7 for AF-28 and AF-41, and a note on AF-30. No finding changed. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Pip Knowledge Rules v0.3 (v0.1 when approved); Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS) v1.4; Founder Review Dossier Standard (FRDS) v1.4; ROC Operations Manual v2.10 |
 
@@ -479,6 +479,8 @@ CLEM-INS and UCIPM-INS name sprays for spider mites, rose scale, thrips, caterpi
 ---
 
 ## 7. Downstream Note for KIT
+
+*Version 1.2 (7 October 2026, at a Founder's direction in chat): a cross-reference only; no finding here is changed. AF-28 records one rose society's two weeks between lime sulphur and copper, and AF-41 one nursery's "never mixed" for lime sulphur and oil. `ARC-BUSHROSE-TIMING-NZ-01` AF-47 (Moderate, a precaution) records two further New Zealand sources confirmed on 6 October 2026: one garden centre waits three weeks after lime sulphur before any other spray, and one says never to mix lime sulphur with other sprays. What Pip says about keeping lime sulphur apart from other sprays now rests on AF-47 (PKR-CGD-000013 Version 1.1 and PKR-CGD-000026). The sentence on UK law under AF-30 rests on one source, the Royal Horticultural Society, and Pip now says it only in the United Kingdom (PKR-CGD-000014 Version 1.1).*
 
 *Version 1.1: AF-26 is now on record only, so five findings are on record only and 40 are available to Pip. PKR-CGD-000009 to PKR-CGD-000015 were built from this ARC and published on 5 October 2026 under the Pip Knowledge Rules v0.3: each finding that helps a gardener is used, and one that does not is listed in the package with the reason (AF-45).*
 
