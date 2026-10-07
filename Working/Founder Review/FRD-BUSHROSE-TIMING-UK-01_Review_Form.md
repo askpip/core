@@ -1,6 +1,8 @@
 <!-- shed-form v1 -->
 # Founder Review Form — Which Months for Each Rose Job in the United Kingdom?
 
+**Replaced, 8 October 2026. Please do not fill this in.** The decision is now asked on `PKR-CGD-BUSHROSE-TIMING-UK-01_Pips_Answers_Form.md`, after reading Pip's Answers. The questions below are settled by the Pip Knowledge Rules and standing decisions (dossier section 11.8). Kept as a record.
+
 Read the **Decision Brief** first. This form asks for nine decisions. You are not asked to decide each finding: Brief section 4 explains which findings Pip may use, and section 5 marks each one. Your answers save as you go. Press **Finish** when you are done. Either Founder's finished form is enough for the ROC to act.
 
 ## How Pip handles this

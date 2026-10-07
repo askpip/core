@@ -1,5 +1,7 @@
 # Decision Brief — Which Months for Each Rose Job in the United Kingdom?
 
+> **Replaced, 8 October 2026.** No Founder completed this Brief's Review Form. Under the one-approval pattern, what Pip says from this research is now in `PKR-CGD-BUSHROSE-TIMING-UK-01_Pips_Answers.md`, with a one-question form. This Brief describes the findings before the Build Check corrected them (dossier section 11), and its questions are settled by the Pip Knowledge Rules and standing decisions (dossier section 11.8). It is kept as a record.
+
 This is the plain-language companion to `FRD-BUSHROSE-TIMING-UK-01`. It adds no evidence, changes no finding and changes no confidence level. If the Brief and the FRD differ, the FRD governs.
 
 ## 1. What you are being asked to do

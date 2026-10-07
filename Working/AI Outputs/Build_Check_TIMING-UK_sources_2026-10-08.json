@@ -1,0 +1,1490 @@
+{
+ "what": "Build Check Part 1 (ROC Operations Manual §14.2A): every source the Source Register lists for a finding was reopened on 8 October 2026 and each recorded quotation looked for on its page. 'also_says' lists further sentences the checkers confirmed on the same pages.",
+ "totals": {
+  "sources": 38,
+  "opened": 38,
+  "could_not_open": 0,
+  "quotations": 103,
+  "confirmed": 94,
+  "near": 9,
+  "not_found": 0,
+  "on_pages_not_opened": 0,
+  "supports": {
+   "yes": 37,
+   "partly": 63,
+   "no": 3
+  },
+  "further_sentences": 35
+ },
+ "sources": [
+  {
+   "code": "RHS-MB",
+   "url": "https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide",
+   "final_url": "https://www.rhs.org.uk/plants/roses/modern-bush/pruning-guide",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-2",
+     "recorded": "\"usually in mid-February in the south\"",
+     "result": "Confirmed",
+     "page_wording": "Roses can be pruned during late winter when growth is just resuming, usually in mid-February in the south, but in northern and colder areas wait until March.",
+     "supports_finding": "yes",
+     "note": "Main pruning of modern bush roses. 'The south' stated without a boundary; UK, no other place stated. Supports mid-February for the south/milder band. No date on page."
+    },
+    {
+     "finding": "AF-3",
+     "recorded": "\"but in northern and colder areas wait until March.\"",
+     "result": "Confirmed",
+     "page_wording": "...but in northern and colder areas wait until March.",
+     "supports_finding": "partly",
+     "note": "Supports March for northern and colder areas (UK, no place stated beyond 'northern and colder'). Page says 'March' only, not 'mid to late March', so the 'mid to late' wording of the finding is not supported."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"Roses can be pruned during late winter when growth is just resuming\"",
+     "result": "Confirmed",
+     "page_wording": "Roses can be pruned during late winter when growth is just resuming",
+     "supports_finding": "partly",
+     "note": "Ties pruning to growth just resuming, a plant signal, alongside months. Only one signal; no mention of buds, dormancy or frost-free day. Main pruning, UK, no place stated."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"usually in mid-February in the south, but in northern and colder areas wait until March.\"",
+     "result": "Confirmed",
+     "page_wording": "usually in mid-February in the south, but in northern and colder areas wait until March.",
+     "supports_finding": "yes",
+     "note": "Shows two broad bands (south; northern and colder areas) and gives no boundary. The 'none states a boundary' part concerns all sources; this page alone is consistent with it."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "RHS-GT",
+   "url": "https://www.rhs.org.uk/plants/roses/pruning-guide",
+   "final_url": "https://www.rhs.org.uk/plants/roses/pruning-guide",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Late winter (February or March) is often a good time for pruning roses\"",
+     "result": "Confirmed",
+     "page_wording": "Late winter (February or March) is often a good time for pruning roses",
+     "supports_finding": "partly",
+     "note": "Supports February to March for pruning roses. UK, no place stated. Sentence says 'often', and is about roses generally, not specifically established bush roses; 'early spring' part not stated in this sentence."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q2 feeding",
+     "quote": "Feed all pruned roses with a general purpose or rose fertiliser in spring",
+     "note": "Feeding after pruning, spring, no month; UK, no place stated. Single-fetch, not re-confirmed."
+    }
+   ]
+  },
+  {
+   "code": "RHS-GG",
+   "url": "https://www.rhs.org.uk/plants/roses/growing-guide",
+   "final_url": "https://www.rhs.org.uk/plants/roses/growing-guide",
+   "opened": true,
+   "page_date": "not shown (copyright 2026 only)",
+   "checks": [
+    {
+     "finding": "AF-10",
+     "recorded": "\"in March/April before flowering\"",
+     "result": "Confirmed",
+     "page_wording": "in March/April before flowering",
+     "supports_finding": "partly",
+     "note": "First feed of roses, March/April, UK no place stated. Supports 'most often March or April' but not the 'late February' start."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"in mid-summer after the first flush of flowers (especially for repeat-flowering types)\"",
+     "result": "Confirmed",
+     "page_wording": "in mid-summer after the first flush of flowers (especially for repeat-flowering types)",
+     "supports_finding": "yes",
+     "note": "Further feed in mid-summer after first flush, mainly repeat-flowering types. UK, no place stated."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "\"Feed once a fortnight from mid-spring to late summer\"",
+     "result": "Confirmed",
+     "page_wording": "Feed once a fortnight from mid-spring to late summer",
+     "supports_finding": "no",
+     "note": "This sentence is about regular fortnightly feeding (context probably container roses; not checked) and gives 'late summer', not 'end of August'. Page gives no end date for feeding. UK, no place stated."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"you should stop deadheading these plants in mid-summer to give the hips time to form\"",
+     "result": "Near",
+     "page_wording": "Some roses produce particularly decorative hips - you should stop deadheading these plants in mid-summer to give the hips time to form",
+     "supports_finding": "yes",
+     "note": "Page wording differs trivially in the lead-in. Applies only to roses grown for hips, stop in mid-summer; UK, no place stated. Page gives no 'after the second flush' wording."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"usually in late autumn or from late winter to early spring, while the plant is not actively growing\"",
+     "result": "Confirmed",
+     "page_wording": "usually in late autumn or from late winter to early spring, while the plant is not actively growing",
+     "supports_finding": "partly",
+     "note": "Bare-root planting while dormant: late autumn, late winter to early spring. No named months (not October/November/March). UK, no place stated."
+    },
+    {
+     "finding": "AF-28",
+     "recorded": "\"in March/April before flowering\"",
+     "result": "Confirmed",
+     "page_wording": "in March/April before flowering",
+     "supports_finding": "yes",
+     "note": "Page gives uniform timing with no regional variation for feeding, deadheading or planting; consistent with no area-specific months. A single page cannot prove the absence in other sources."
+    }
+   ],
+   "contradictions": [
+    "Page gives no end date for feeding; 'late summer' only."
+   ],
+   "also_says": []
+  },
+  {
+   "code": "RHS-PL",
+   "url": "https://www.rhs.org.uk/plants/roses/planting",
+   "final_url": "https://www.rhs.org.uk/plants/roses/planting",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-17",
+     "recorded": "\"Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.\"",
+     "result": "Confirmed",
+     "page_wording": "Plant in late autumn at leaf fall, and from late winter to early spring, before growth resumes.",
+     "supports_finding": "partly",
+     "note": "Bare-root roses, late autumn at leaf fall and late winter to early spring. No months named (not October/November/March). UK, no place stated."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"Avoid planting in the middle of winter when the ground is frozen.\"",
+     "result": "Confirmed",
+     "page_wording": "Avoid planting in the middle of winter when the ground is frozen.",
+     "supports_finding": "yes",
+     "note": "Bare-root roses; avoid planting when ground frozen in midwinter. UK, no place stated."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Plant all year round, provided the ground is neither frozen, nor very dry.\"",
+     "result": "Confirmed",
+     "page_wording": "Plant all year round, provided the ground is neither frozen, nor very dry.",
+     "supports_finding": "partly",
+     "note": "Container-grown roses, any time of year. Page mentions frozen and very dry but not waterlogged. UK, no place stated."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "RHS-DH",
+   "url": "https://www.rhs.org.uk/garden-jobs/deadheading-plants",
+   "final_url": "https://www.rhs.org.uk/garden-jobs/deadheading-plants",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-14",
+     "recorded": "\"remove spent flowers as soon as they look scruffy, whatever the time of year.\"",
+     "result": "Near",
+     "page_wording": "It's best to remove spent flowers as soon as they look scruffy, whatever the time of year.",
+     "supports_finding": "partly",
+     "note": "General deadheading advice for all plants; no place stated. Supports no fixed end month in general, but page names no month to stop for roses and says nothing about autumn or October for roses, so the 'described into autumn and October' part is unsupported here."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "RHS-MOVE",
+   "url": "https://www.rhs.org.uk/plants/types/trees/moving-trees-shrubs",
+   "final_url": "https://www.rhs.org.uk/plants/types/trees/moving-trees-shrubs",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-21",
+     "recorded": "\"Move at any time during the dormant season from late October to mid-March\"",
+     "result": "Confirmed",
+     "page_wording": "Deciduous plants: Move at any time during the dormant season from late October to mid-March",
+     "supports_finding": "partly",
+     "note": "Applies to deciduous shrubs and trees generally; UK, no place stated. Page lists Rosa as resenting root disturbance and tricky to move, so the window is not rose-specific. Supports the late October to mid-March range only."
+    }
+   ],
+   "contradictions": [
+    "Page names Rosa as resenting root disturbance and tricky to move."
+   ],
+   "also_says": []
+  },
+  {
+   "code": "RHS-BS",
+   "url": "https://www.rhs.org.uk/disease/rose-black-spot",
+   "final_url": "https://www.rhs.org.uk/disease/rose-black-spot",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-22",
+     "recorded": "\"Collect and destroy fallen leaves in the autumn, or bury under a layer of mulch.\"",
+     "result": "Confirmed",
+     "page_wording": "Collect and destroy fallen leaves in the autumn, or bury under a layer of mulch.",
+     "supports_finding": "partly",
+     "note": "Clear-up of fallen leaves in autumn, for black spot control; UK, no place stated. No months named (not October/November) and no February tidy."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"If practical, pick off and dispose of any leaves that remain on the plant over the winter months.\"",
+     "result": "Confirmed",
+     "page_wording": "If practical, pick off and dispose of any leaves that remain on the plant over the winter months.",
+     "supports_finding": "yes",
+     "note": "Leaves remaining on roses over winter, for black spot; UK, no place stated. Page is RHS."
+    }
+   ],
+   "contradictions": [
+    "Page recommends against using fungicides; no winter spray type named."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 winter protection / mulch",
+     "quote": "Mulch is a layer of material, at least 5cm (2in) thick, applied to the soil surface in late autumn to late winter (Nov-Feb).",
+     "note": "Mulching, November to February; UK, no place stated."
+    },
+    {
+     "topic": "Q1 pruning (disease)",
+     "quote": "Prune out all stem lesions in spring before leaves appear.",
+     "note": "Removing black-spot stem lesions, spring; UK, no place stated; not main pruning."
+    }
+   ]
+  },
+  {
+   "code": "RHS-RUST",
+   "url": "https://www.rhs.org.uk/disease/rose-rust",
+   "final_url": "https://www.rhs.org.uk/disease/rose-rust",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-22",
+     "recorded": "\"Collect and destroy fallen leaves in autumn to reduce the number of overwintering resting spores\"",
+     "result": "Confirmed",
+     "page_wording": "Collect and destroy fallen leaves in autumn to reduce the number of overwintering resting spores",
+     "supports_finding": "partly",
+     "note": "Leaf clear-up in autumn, for rust control; UK, no place stated. No months named and no February tidy."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "RHS-FROST",
+   "url": "https://www.rhs.org.uk/garden-jobs/when-to-plant-out-tender-plants-avoiding-late-frosts",
+   "final_url": "https://www.rhs.org.uk/garden-jobs/when-to-plant-out-tender-plants-avoiding-late-frosts",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-29",
+     "recorded": "\"These timings reflect the typical first safe planting time in an average year.\"",
+     "result": "Confirmed",
+     "page_wording": "These timings reflect the typical first safe planting time in an average year.",
+     "supports_finding": "partly",
+     "note": "About planting out tender plants (not roses), UK general. Supports the 'average year' basis; the full five-region claim needs the region list."
+    },
+    {
+     "finding": "AF-29",
+     "recorded": "\"The Highlands and northern Scotland: mid June\"",
+     "result": "Confirmed",
+     "page_wording": "The Highlands and northern Scotland: mid June",
+     "supports_finding": "yes",
+     "note": "Fifth and last of five regions (south-west tip and south coast, southern England and south Wales, Midlands/NW England/Yorkshire/north Wales, NE England/southern Scotland/NI, Highlands). Tender plants, not roses."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Exposed, rural or higher elevation sites (e.g. Shropshire, Cotswolds, Pennines): delay 1–3 weeks\"",
+     "result": "Confirmed",
+     "page_wording": "Exposed, rural or higher elevation sites (e.g. Shropshire, Cotswolds, Pennines): delay 1-3 weeks",
+     "supports_finding": "partly",
+     "note": "Supports exposed, rural, high sites later. Page also advances sheltered/urban/coastal by 1-2 weeks and says plant later or avoid frost pockets and valley bottoms (from one fetch, not quoted). Tender plants, UK."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"April 2021 recorded the most April air frosts in at least 60 years\"",
+     "result": "Confirmed",
+     "page_wording": "April 2021 recorded the most April air frosts in at least 60 years.",
+     "supports_finding": "partly",
+     "note": "Supports a late-frost example; the page also says 'Spring is variable and late frosts still occur', which carries the year-to-year point. Tender plants, UK."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "RHS-MICRO",
+   "url": "https://www.rhs.org.uk/garden-design/microclimates-assessing-garden",
+   "final_url": "https://www.rhs.org.uk/garden-design/microclimates-assessing-garden",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-31",
+     "recorded": "\"A garden in a frost pocket is at significant risk of late and early frosts and has a shortened growing season\"",
+     "result": "Confirmed",
+     "page_wording": "A garden in a frost pocket is at significant risk of late and early frosts and has a shortened growing season",
+     "supports_finding": "partly",
+     "note": "Supports frost pockets being later/riskier only. Page did not clearly say sheltered, urban or coastal sites are earlier or exposed sites later (answer was NEAR, South-facing areas get more light and warmth). Not rose-specific; UK, no place stated."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "PB-HT",
+   "url": "https://www.peterbealesroses.com/blog/when-and-how-should-i-prune-hybrid-tea-roses-vs-climbing-roses/",
+   "final_url": "https://www.peterbealesroses.com/blog/when-and-how-should-i-prune-hybrid-tea-roses-vs-climbing-roses/",
+   "opened": true,
+   "page_date": "March 11, 2025 (published and modified in page metadata)",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "February is the ideal month to prune hybrid tea roses",
+     "result": "Confirmed",
+     "page_wording": "According to experienced rosarians, February is the ideal month to prune hybrid tea roses.",
+     "supports_finding": "partly",
+     "note": "Main pruning of hybrid teas in February; UK, no place stated (grower is in Norfolk). Supports February only; the finding says January and February, so this sentence covers one month of the two. Page dated March 2025."
+    },
+    {
+     "finding": "AF-4",
+     "recorded": "January – February: Main pruning period for hybrid tea and climbing roses before new growth begins.",
+     "result": "Confirmed",
+     "page_wording": "January – February: Main pruning period for hybrid tea and climbing roses before new growth begins.",
+     "supports_finding": "yes",
+     "note": "Main pruning of hybrid tea and climbing roses, January to February, tied to before new growth begins; UK, no place stated. Fully supports the finding for this one grower."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "Autumn (October – November): Light prune tall hybrid tea roses to prevent wind damage.",
+     "result": "Confirmed",
+     "page_wording": "Autumn (October – November): Light prune tall hybrid tea roses to prevent wind damage.",
+     "supports_finding": "partly",
+     "note": "Light autumn prune of tall hybrid teas, October to November, against wind; UK, no place stated. The finding says September to November and 'not a hard prune'; this gives October-November only, and elsewhere the page says reduce height by about 50 percent, which is large for a 'light' prune."
+    }
+   ],
+   "contradictions": [
+    "Page says 'Consider a light prune in autumn, reducing their height by about 50%', much more than the 30cm of PB-CAL; qualifies 'light height reduction' in AF-9.",
+    "Page also says 'Pruning in January or February is still effective' (page wording), consistent with AF-4."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 main pruning",
+     "quote": "February is the ideal month to prune hybrid tea roses.",
+     "note": "Main pruning, February, UK no place stated (Norfolk grower)"
+    },
+    {
+     "topic": "Q2 feeding",
+     "quote": "Recommends feeding in February with balanced rose fertiliser and mulch after pruning",
+     "note": "Paraphrase from fetch summary, not a verified exact sentence; first feed, February, UK no place stated"
+    },
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Summer Deadheading: Regularly remove spent flowers to encourage continuous blooming.",
+     "note": "Deadheading in summer, no stop month given; UK no place stated"
+    }
+   ]
+  },
+  {
+   "code": "PB-WF",
+   "url": "https://www.peterbealesroses.com/blog/a-worry-free-guide-to-pruning-roses/",
+   "final_url": "https://www.peterbealesroses.com/blog/a-worry-free-guide-to-pruning-roses/",
+   "opened": true,
+   "page_date": "September 6th, 2017",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "The best time to prune your roses is during February and March.",
+     "result": "Confirmed",
+     "page_wording": "The best time to prune your roses is during February and March.",
+     "supports_finding": "yes",
+     "note": "Main pruning of roses generally, February and March; UK, no place stated (grower in Norfolk). Supports the finding for this source. Page dated 2017, so older than the other Peter Beales pages (which say January-February)."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "It is not recommended to hard prune them during the autumn though as the tips can then become damaged by frost.",
+     "result": "Confirmed",
+     "page_wording": "It is not recommended to hard prune them during the autumn though as the tips can then become damaged by frost.",
+     "supports_finding": "yes",
+     "note": "Hard pruning in autumn advised against because of frost damage to tips; roses generally; UK, no place stated. Fully supports the finding."
+    }
+   ],
+   "contradictions": [
+    "This 2017 page says February and March for main pruning, while the same grower's 2025 pages say January-February (PB-HT, PB-FEB); the grower's own advice differs by page."
+   ],
+   "also_says": [
+    {
+     "topic": "Q3 deadheading",
+     "quote": "During the summer modern shrub roses require dead heading after they have flowered to help new growth develop to produce another flush later on.",
+     "note": "Deadheading in summer, no stop month; UK no place stated"
+    },
+    {
+     "topic": "Q5 winter protection",
+     "quote": "tall Hybrid Teas that may need a slight trim to protect them from being damaged by heavy winds during the winter months",
+     "note": "Autumn/winter light trim of tall hybrid teas, no month given; UK no place stated"
+    }
+   ]
+  },
+  {
+   "code": "PB-CAL",
+   "url": "https://www.peterbealesroses.com/blog/rose-gardening-calendar/",
+   "final_url": "https://www.peterbealesroses.com/blog/rose-gardening-calendar/",
+   "opened": true,
+   "page_date": "not shown (not seen in fetches)",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "removing approximately 30cm (12 inches) from the top of established plants",
+     "result": "Confirmed",
+     "page_wording": "Light prune remaining roses in preparation for winter months – by removing approximately 30cm (12 inches) from the top of established plants will help to protect them",
+     "supports_finding": "yes",
+     "note": "September section: light height reduction of about 30cm to protect from winter wind, explicitly not a hard prune because of frost. UK, no place stated (Norfolk grower). Supports light autumn height reduction, but only September; finding's range September to November is not covered by this page alone."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "Late August is usually the time you apply your last feed, to encourage the final flush",
+     "result": "Confirmed",
+     "page_wording": "Late August is usually the time you apply your last feed, to encourage the final flush of blooms.",
+     "supports_finding": "yes",
+     "note": "August section: last feed in late August, for roses generally; UK, no place stated. Supports the finding."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "Traditionally, this is the best time to plant bare rooted roses",
+     "result": "Confirmed",
+     "page_wording": "Traditionally, this is the best time to plant bare rooted roses.",
+     "supports_finding": "partly",
+     "note": "Sits in the November section, so supports November only for bare-root planting; the finding's range (October or November to March) is not covered by this sentence. UK, no place stated."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "This is also the time to transplant mature roses",
+     "result": "Confirmed",
+     "page_wording": "This is also the time to transplant mature roses and replace the top two or three inches of compost.",
+     "supports_finding": "partly",
+     "note": "November section: moving established roses in November; UK, no place stated. Supports one of the stated windows (November) only."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "pick up any foliage that has dropped onto the soil",
+     "result": "Near",
+     "page_wording": "Remove diseased foliage from plants and pick up any foliage that has dropped onto the soil.",
+     "supports_finding": "partly",
+     "note": "The fetch placed this under OCTOBER (not November); it is about removing diseased foliage and picking up dropped leaves. Supports clearing fallen leaves in October; says nothing about November or February. UK, no place stated. Recorded fragment is only a part of the sentence."
+    }
+   ],
+   "contradictions": [
+    "Calendar places first feed in March (fertiliser such as fish, blood and bone) and liquid high-potash feed from May; consistent with spring feeding but note 'Vitax Q4' is a brand and not recorded.",
+    "Calendar puts deadheading 'begins' in July; no stop date given.",
+    "Calendar gives light autumn prune in September, not October-November as in PB-HT."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 main pruning",
+     "quote": "All established bush and repeat flowering shrubs should receive annual prune",
+     "note": "February section of calendar; main pruning in February; UK no place stated (summary of fetch, wording not verified exactly)"
+    },
+    {
+     "topic": "Q2 first feed",
+     "quote": "Apply a good fertiliser like Fish, Blood, and Bone",
+     "note": "March section; first feed in March; UK no place stated; fetch wording not verified exactly"
+    },
+    {
+     "topic": "Q5 winter protection",
+     "quote": "give them added protection from frosts; once pruned the freshly cut tips are open to the winter elements and can become damaged by frost",
+     "note": "September; reason for not hard pruning in autumn; UK no place stated"
+    }
+   ]
+  },
+  {
+   "code": "PB-FEED",
+   "url": "https://www.peterbealesroses.com/feeding-roses-i40",
+   "final_url": "https://www.peterbealesroses.com/feeding-roses-i40",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-10",
+     "recorded": "ideally in March, as the rose starts to leave its winter, dormant state.",
+     "result": "Confirmed",
+     "page_wording": "We recommend giving your roses a slow-release granular feed at the beginning of Spring each year, ideally in March, as the rose starts to leave its winter, dormant state.",
+     "supports_finding": "partly",
+     "note": "First feed of the year, March, tied to the rose leaving dormancy; roses generally; UK, no place stated. Supports March only; the finding's range late February to April is not covered by this sentence."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "after the first flush of blooms has gone over in July.",
+     "result": "Confirmed",
+     "page_wording": "Then our Rosarians recommend giving your rose another slow-release, granular feed after the first flush of blooms has gone over in July.",
+     "supports_finding": "yes",
+     "note": "A second granular feed after the first flush, July; roses generally; UK, no place stated. Supports the finding."
+    },
+    {
+     "finding": "AF-12",
+     "recorded": "do your last liquid feed before the end of August",
+     "result": "Confirmed",
+     "page_wording": "Our Rosarians advise to do your last liquid feed before the end of August and before the growth of the rose starts to slow down for autumn and winter.",
+     "supports_finding": "yes",
+     "note": "Last liquid feed before the end of August; roses generally; UK, no place stated. Note it says 'last liquid feed' (granular feeds are separate: March and July); supports the finding."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "prevents any new growth from being damaged by the frost.",
+     "result": "Confirmed",
+     "page_wording": "Ending feeding at this point encourages the plant to start entering its dormant state as the weather cools and prevents any new growth from being damaged by the frost.",
+     "supports_finding": "yes",
+     "note": "Reason for stopping feeding: lets the plant enter dormancy and avoids frost damage to new growth; roses generally; UK, no place stated. Supports both parts of the finding."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q2 stop feeding",
+     "quote": "Stop feeding from September to February (fetch summary; not verified as an exact sentence)",
+     "note": "No feeding September to February; UK no place stated; wording unverified"
+    }
+   ]
+  },
+  {
+   "code": "PB-OCT",
+   "url": "https://www.peterbealesroses.com/blog/looking-after-your-roses-in-october/",
+   "final_url": "https://www.peterbealesroses.com/blog/looking-after-your-roses-in-october/",
+   "opened": true,
+   "page_date": "September 29th, 2026 (published, per fetch)",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "just remember not to do anything too drastic, as it is too early to do a hard prune.",
+     "result": "Confirmed",
+     "page_wording": "If you choose to trim your stems down, just remember not to do anything too drastic, as it is too early to do a hard prune.",
+     "supports_finding": "partly",
+     "note": "October: optional trimming of taller stems against wind, nothing drastic; roses generally; UK, no place stated (Norfolk grower). Supports 'not a hard prune' and October only; gives no amount, and the page says cut taller stems down 'to make them less vulnerable to the wind'."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "make sure you are still deadheading your roses, once the flowers have gone over.",
+     "result": "Confirmed",
+     "page_wording": "As you have been throughout the summer, make sure you are still deadheading your roses, once the flowers have gone over.",
+     "supports_finding": "yes",
+     "note": "Deadheading continues in October with no stop date given; roses generally; UK, no place stated. Supports the finding."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "as it is too early to do a hard prune.",
+     "result": "Confirmed",
+     "page_wording": "just remember not to do anything too drastic, as it is too early to do a hard prune.",
+     "supports_finding": "partly",
+     "note": "October: says it is too early for a hard prune, but gives no frost reason; the frost-damage reason is not on this page (it is on PB-WF and PB-CAL). UK, no place stated."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q5 winter protection",
+     "quote": "you can cut your taller stems down to make them less vulnerable to the wind",
+     "note": "October; taller roses, wind protection; UK no place stated"
+    },
+    {
+     "topic": "Q5 clear-up",
+     "quote": "remove any diseased leaves from the plant and keep an eye on it",
+     "note": "October; removing diseased leaves before they fall; UK no place stated; no spray mentioned"
+    }
+   ]
+  },
+  {
+   "code": "PB-NOV",
+   "url": "https://www.peterbealesroses.com/blog/looking-after-your-roses-in-november/",
+   "final_url": "https://www.peterbealesroses.com/blog/looking-after-your-roses-in-november/",
+   "opened": true,
+   "page_date": "October 31st, 2025 (published); January 13, 2026 (modified)",
+   "checks": [
+    {
+     "finding": "AF-22",
+     "recorded": "removing any fallen leaves from the ground",
+     "result": "Confirmed",
+     "page_wording": "you can tidy them up by removing any fallen leaves from the ground and cut off any diseased leaves",
+     "supports_finding": "yes",
+     "note": "November clear-up: remove fallen leaves from the ground; roses generally; UK, no place stated (Norfolk grower). Supports November for leaf clearing; the October and February parts of the finding are not on this page."
+    },
+    {
+     "finding": "AF-25",
+     "recorded": "Before the winter weather takes hold, it is crucial to check the base of your roses, for root exposure.",
+     "result": "Confirmed",
+     "page_wording": "Before the winter weather takes hold, it is crucial to check the base of your roses, for root exposure.",
+     "supports_finding": "partly",
+     "note": "November: check the base for exposed roots before winter weather; roses generally; UK, no place stated. The mulch itself is in the next sentence; this one only says check."
+    },
+    {
+     "finding": "AF-25",
+     "recorded": "you will need to build up a mulch layer around them to protect them from the cold.",
+     "result": "Confirmed",
+     "page_wording": "you will need to build up a mulch layer around them to protect them from the cold.",
+     "supports_finding": "yes",
+     "note": "November: if roots are starting to show, build up a mulch layer to protect from the cold; roses generally; UK, no place stated. Mulching is conditional on roots being visible."
+    }
+   ],
+   "contradictions": [
+    "Mulch is advised only if roots are starting to become visible, not as a blanket November task (qualifies AF-25)."
+   ],
+   "also_says": [
+    {
+     "topic": "Q1 pruning signal",
+     "quote": "The key is to wait until the roses go into their dormant state, which usually happens when the weather is consistently 5 degrees or lower.",
+     "note": "Climbers and ramblers pruning start, tied to dormancy and cold weather; UK no place stated"
+    },
+    {
+     "topic": "Q6 regions",
+     "quote": "This is usually around mid-November for most of the UK, but can be earlier in colder more northerly areas.",
+     "note": "Timing of dormancy, mid-November for most of UK, earlier in colder northerly areas; bounds are vague, no named line"
+    },
+    {
+     "topic": "Q8 plant not calendar",
+     "quote": "wait until the roses go into their dormant state, which usually happens when the weather is consistently 5 degrees or lower",
+     "note": "Weather and plant signal rather than date; UK no place stated"
+    }
+   ]
+  },
+  {
+   "code": "PB-DEC",
+   "url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-december/",
+   "final_url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-december/",
+   "opened": true,
+   "page_date": "December 2nd, 2025 (published)",
+   "checks": [
+    {
+     "finding": "AF-17",
+     "recorded": "December is one of the best months of the year to plant your bare root roses",
+     "result": "Confirmed",
+     "page_wording": "December is one of the best months of the year to plant your bare root roses",
+     "supports_finding": "partly",
+     "note": "Bare-root planting in December; UK, no place stated (Norfolk grower). Supports December only; the finding's range (late autumn to March) is wider. Page says the cold ground keeps the rose dormant after planting."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q4 bare-root planting reason",
+     "quote": "the ground is cold, which means the rose will stay dormant for a couple of months after it has been planted",
+     "note": "December; bare-root planting; UK no place stated"
+    },
+    {
+     "topic": "Q5 clear-up",
+     "quote": "it is important to monitor your other varieties of roses and cut off any diseased leaves so they don't contaminate the soil",
+     "note": "December; removing diseased leaves; no spray named; UK no place stated"
+    }
+   ]
+  },
+  {
+   "code": "PB-JAN",
+   "url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-january/",
+   "final_url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-january/",
+   "opened": true,
+   "page_date": "January 7th, 2026 (published); January 13th, 2026 (modified)",
+   "checks": [
+    {
+     "finding": "AF-17",
+     "recorded": "Planting your bare roots in January means the rose will stay dormant for a couple of months",
+     "result": "Confirmed",
+     "page_wording": "Planting your bare roots in January means the rose will stay dormant for a couple of months after it has been planted.",
+     "supports_finding": "partly",
+     "note": "Bare-root planting in January; UK, no place stated (Norfolk grower). Supports January only, not the whole October/November-to-March range."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "until the ground has thawed enough for you to plant it.",
+     "result": "Confirmed",
+     "page_wording": "If you receive your bare root rose while the ground is frozen, you can store it in a bucket of water or compost until the ground has thawed enough for you to plant it.",
+     "supports_finding": "yes",
+     "note": "If the ground is frozen, store the bare-root rose in water or compost and plant once thawed; roses generally; UK, no place stated. Supports the finding."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q1 main pruning",
+     "quote": "January and February are the best months of the year to prune your shrub roses and any climbing and rambling roses.",
+     "note": "Main pruning, January and February; UK no place stated (Norfolk grower)"
+    }
+   ]
+  },
+  {
+   "code": "PB-FEB",
+   "url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-february/",
+   "final_url": "https://www.peterbealesroses.com/blog/caring-for-your-roses-in-february/",
+   "opened": true,
+   "page_date": "January 30, 2026 (published); updated March 31, 2026",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "January and February are the best months of the year to prune your shrubs, hybrid teas, and any other roses",
+     "result": "Confirmed",
+     "page_wording": "January and February are the best months of the year to prune your shrubs, hybrid teas, and any other roses",
+     "supports_finding": "yes",
+     "note": "Main pruning of shrubs, hybrid teas and other roses, January and February; UK, no place stated (Norfolk grower). Supports the finding for this grower."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "Towards the end of February or in early March, our rosarians recommend adding a layer of slow-release fertiliser",
+     "result": "Confirmed",
+     "page_wording": "Towards the end of February or in early March, our rosarians recommend adding a layer of slow-release fertiliser",
+     "supports_finding": "partly",
+     "note": "First feed late February to early March; UK, no place stated. Supports the early end of the range only; April is not on this page. Differs slightly from PB-FEED, which says ideally March."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "Planting your bare-root roses in February allows the rose to put all of its energy into establishing strong roots",
+     "result": "Confirmed",
+     "page_wording": "Planting your bare-root roses in February allows the rose to put all of its energy into establishing strong roots",
+     "supports_finding": "partly",
+     "note": "Bare-root planting in February; UK, no place stated. Supports February only; page also says to store roses until frozen ground thaws."
+    },
+    {
+     "finding": "AF-21",
+     "recorded": "If there are any roses in your garden that you need to move, February is the time to do it.",
+     "result": "Confirmed",
+     "page_wording": "If there are any roses in your garden that you need to move, February is the time to do it.",
+     "supports_finding": "partly",
+     "note": "Moving established roses in February; UK, no place stated. Supports one of the stated windows (February) only; page adds keep as much root attached as possible."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "February is the perfect time to tidy up your flower beds, ready for the spring.",
+     "result": "Confirmed",
+     "page_wording": "February is the perfect time to tidy up your flower beds, ready for the spring.",
+     "supports_finding": "yes",
+     "note": "February tidy of beds, including removing leaves, fallen stems, mushy hips and weeds; UK, no place stated. Supports the February tidy; the October-November part is on other pages."
+    }
+   ],
+   "contradictions": [
+    "Page implies frozen ground may hold up bare-root planting in February (store until thawed), qualifying a fixed calendar window."
+   ],
+   "also_says": [
+    {
+     "topic": "Q5 clear-up",
+     "quote": "removing any leaves, fallen stems, mushy hips and weeds that have survived the frost",
+     "note": "February tidy-up; UK no place stated; fetch gave shortened wording"
+    },
+    {
+     "topic": "Q4 bare-root frozen ground",
+     "quote": "store it in a bucket of water or compost until the ground has thawed enough",
+     "note": "If received while ground is frozen; UK no place stated; shortened wording"
+    }
+   ]
+  },
+  {
+   "code": "DA-PR",
+   "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/a-guide-to-pruning",
+   "final_url": "https://www.davidaustinroses.co.uk/blogs/rose-care/a-guide-to-pruning",
+   "opened": true,
+   "page_date": "24 January 2026 (as in input; date not re-verified on page)",
+   "checks": [
+    {
+     "finding": "AF-4",
+     "recorded": "\"Winter pruning is best completed while roses are dormant, and for most gardens that means January or February.\"",
+     "result": "Confirmed",
+     "page_wording": "Winter pruning is best completed while roses are dormant, and for most gardens that means January or February.",
+     "supports_finding": "yes",
+     "note": "Supports January or February as the main winter pruning window for roses. UK, no place stated; one commercial grower's page, no regions or conditions attached."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"Winter pruning is best completed while roses are dormant\"",
+     "result": "Confirmed",
+     "page_wording": "Winter pruning is best completed while roses are dormant, and for most gardens that means January or February.",
+     "supports_finding": "partly",
+     "note": "Quotation is on the page and ties pruning to dormancy, but it is part of a sentence that also gives months. Page has no frost-free-day or bud signal; elsewhere only 'signs of new growth' (not a trigger). UK, no place stated."
+    },
+    {
+     "finding": "AF-8",
+     "recorded": "\"And if March arrives and you still haven't done it, you haven't missed your chance.\"",
+     "result": "Confirmed",
+     "page_wording": "And if March arrives and you still haven't done it, you haven't missed your chance.",
+     "supports_finding": "yes",
+     "note": "Supports that pruning slipping into March is still fine; page also says 'If you notice signs of new growth and you still haven't pruned, don't worry.' Winter pruning of roses; UK, no place stated."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q1 pruning tied to new growth",
+     "quote": "If you notice signs of new growth and you still haven't pruned, don't worry.",
+     "note": "Main winter pruning; reassurance that late pruning after new growth is acceptable; UK, no place stated."
+    },
+    {
+     "topic": "Q5 clear-up",
+     "quote": "Any old foliage should be removed from around the rose and disposed of carefully.",
+     "note": "Pruning clear-up; no month stated; UK, no place stated."
+    }
+   ]
+  },
+  {
+   "code": "DA-BASICS",
+   "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/the-basics-of-growing-roses",
+   "final_url": "https://www.davidaustinroses.co.uk/blogs/rose-care/the-basics-of-growing-roses",
+   "opened": true,
+   "page_date": "6 January 2026 (as in input; date not re-verified on page)",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"In late winter or early spring remove anything that is obviously dead, diseased, or rubbing.\"",
+     "result": "Confirmed",
+     "page_wording": "In late winter or early spring remove anything that is obviously dead, diseased, or rubbing.",
+     "supports_finding": "partly",
+     "note": "Gives late winter or early spring only; no months named, so 'most commonly February to March' is not supported. Sentence is about removing dead, diseased or rubbing wood, not explicitly the main pruning. UK, no place stated."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"A feed in spring encourages fresh growth\"",
+     "result": "Confirmed",
+     "page_wording": "A feed in spring encourages fresh growth, and another in midsummer helps repeat flowering varieties.",
+     "supports_finding": "partly",
+     "note": "Supports first feed in spring only; no months (late February to April or March/April) stated. UK, no place stated."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"another in midsummer helps repeat flowering varieties.\"",
+     "result": "Confirmed",
+     "page_wording": "...and another in midsummer helps repeat flowering varieties.",
+     "supports_finding": "partly",
+     "note": "Supports a second feed in midsummer, stated for repeat-flowering varieties; page does not say 'after the first flush'. Feeding; UK, no place stated."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"Bare root roses are planted from late autumn to early spring while they are resting.\"",
+     "result": "Confirmed",
+     "page_wording": "Bare root roses are planted from late autumn to early spring while they are resting.",
+     "supports_finding": "partly",
+     "note": "Supports dormant planting late autumn to early spring; no months (October, November, March) named. UK, no place stated."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"Fallen leaves should be cleared so disease has nowhere to linger.\"",
+     "result": "Confirmed",
+     "page_wording": "Fallen leaves should be cleared so disease has nowhere to linger.",
+     "supports_finding": "partly",
+     "note": "Supports clearing fallen leaves for disease reasons; page names no months (not October/November or February). UK, no place stated."
+    }
+   ],
+   "contradictions": [
+    "Page names no months at all for pruning, feeding or leaf clearing; only seasons."
+   ],
+   "also_says": []
+  },
+  {
+   "code": "DA-FEED",
+   "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-feed-a-rose",
+   "final_url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-feed-a-rose",
+   "opened": true,
+   "page_date": "17 March 2026 (as in input; date not re-verified on page)",
+   "checks": [
+    {
+     "finding": "AF-10",
+     "recorded": "\"Apply in late March or early April, just before new growth begins.\"",
+     "result": "Confirmed",
+     "page_wording": "Apply in late March or early April, just before new growth begins.",
+     "supports_finding": "partly",
+     "note": "Supports first feed in late March or early April, tied to just before new growth. Finding's range 'late February to April' is wider than this one source. UK, no place stated."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q2 start feeding",
+     "quote": "Most feeding begins in early spring, just as roses start to grow again after winter.",
+     "note": "Start of feeding, tied to growth restarting; UK, no place stated."
+    },
+    {
+     "topic": "Q2 later feeds",
+     "quote": "Through spring and summer, additional feeds such as liquid seaweed or tomato fertiliser can be used to support healthy growth and encourage flowering.",
+     "note": "Spring and summer extra feeds; no last-feed date given; UK, no place stated."
+    }
+   ]
+  },
+  {
+   "code": "DA-DH",
+   "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-deadhead-a-rose",
+   "final_url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-deadhead-a-rose",
+   "opened": true,
+   "page_date": "4 June 2026 (as in input; date not re-verified on page)",
+   "checks": [
+    {
+     "finding": "AF-15",
+     "recorded": "\"Do not deadhead roses renowned for their autumn fruit after the second flush.\"",
+     "result": "Confirmed",
+     "page_wording": "Do not deadhead roses renowned for their autumn fruit after the second flush.",
+     "supports_finding": "partly",
+     "note": "Supports stopping deadheading after the second flush only for roses grown for autumn hips. 'Mid-summer' stop is not on this page, and page gives no month or place; UK, no place stated."
+    }
+   ],
+   "contradictions": [
+    "Page gives no stop date for deadheading repeat-flowering roses."
+   ],
+   "also_says": [
+    {
+     "topic": "Q3 deadheading once-flowering roses",
+     "quote": "Once-flowering varieties that do not produce decorative autumn fruit should be deadheaded immediately after their mid-summer flush.",
+     "note": "Deadheading once-flowering roses after mid-summer flush; UK, no place stated."
+    }
+   ]
+  },
+  {
+   "code": "DA-BR",
+   "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses",
+   "final_url": "https://www.davidaustinroses.co.uk/blogs/rose-care/planting-bare-root-roses",
+   "opened": true,
+   "page_date": "29 September 2025 (as in input; date not re-verified on page)",
+   "checks": [
+    {
+     "finding": "AF-17",
+     "recorded": "\"The ideal moment is during dormancy, from late autumn to early spring.\"",
+     "result": "Confirmed",
+     "page_wording": "The ideal moment is during dormancy, from late autumn to early spring.",
+     "supports_finding": "partly",
+     "note": "Supports dormant bare-root planting late autumn to early spring; no months named, and no mention of frozen or waterlogged ground. UK, no place stated."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "DA-BRC",
+   "url": "https://www.davidaustinroses.co.uk/collections/bare-root",
+   "final_url": "https://www.davidaustinroses.co.uk/collections/bare-root",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-17",
+     "recorded": "\"The winter planting season usually begins in October and our bare root roses can be ordered for delivery between November and April.\"",
+     "result": "Confirmed",
+     "page_wording": "The winter planting season usually begins in October and our bare root roses can be ordered for delivery between November and April.",
+     "supports_finding": "partly",
+     "note": "Supports an October start of the planting season; delivery window runs to April, so does not support planting ending in March. Commercial shop page about ordering/delivery; UK, no place stated."
+    }
+   ],
+   "contradictions": [
+    "Delivery to April is later than the finding's end of March."
+   ],
+   "also_says": []
+  },
+  {
+   "code": "DA-POT",
+   "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-plant-a-potted-shrub-rose",
+   "final_url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-plant-a-potted-shrub-rose",
+   "opened": true,
+   "page_date": "11 June 2026 (as in input; date not re-verified on page)",
+   "checks": [
+    {
+     "finding": "AF-19",
+     "recorded": "\"Potted roses can be planted at almost any time of year, provided the ground is not frozen, waterlogged or in drought conditions.\"",
+     "result": "Confirmed",
+     "page_wording": "Potted roses can be planted at almost any time of year, provided the ground is not frozen, waterlogged or in drought conditions.",
+     "supports_finding": "yes",
+     "note": "Supports year-round potted planting unless ground frozen, waterlogged or in drought (finding's 'very dry'). UK, no place stated."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Avoid planting during periods of extreme heat\"",
+     "result": "Confirmed",
+     "page_wording": "Avoid planting during periods of extreme heat.",
+     "supports_finding": "partly",
+     "note": "Page-qualified: extreme heat is a further condition not in the finding, so supports the idea of conditions on year-round planting but not the finding's stated three. UK, no place stated."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q4 potted planting in summer",
+     "quote": "If planting between May and September, we recommend watering your new rose twice a week or every other day during warm weather.",
+     "note": "Potted rose planting May to September needs watering; UK, no place stated."
+    }
+   ]
+  },
+  {
+   "code": "DA-MOVE",
+   "url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-move-a-rose",
+   "final_url": "https://www.davidaustinroses.co.uk/blogs/rose-care/how-to-move-a-rose",
+   "opened": true,
+   "page_date": "3 September 2026 (as in input; date not re-verified on page)",
+   "checks": [
+    {
+     "finding": "AF-21",
+     "recorded": "\"In the UK and Europe, this is usually between November and February, once the leaves have fallen and active growth has slowed.\"",
+     "result": "Confirmed",
+     "page_wording": "In the UK and Europe, this is usually between November and February, once the leaves have fallen and active growth has slowed.",
+     "supports_finding": "yes",
+     "note": "Supports moving a dormant established rose November to February, tied to leaf fall and slowed growth. Stated for 'the UK and Europe', no finer place."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q4 moving in growing season",
+     "quote": "If you need to move a rose during the growing season, it can still be done, but you may see some temporary signs of stress.",
+     "note": "Moving a rose out of dormancy is possible but stressful; UK, no place stated."
+    }
+   ]
+  },
+  {
+   "code": "MO-FROST",
+   "url": "https://www.metoffice.gov.uk/blog/2026/why-frost-can-still-occur-in-late-spring",
+   "final_url": "https://www.metoffice.gov.uk/blog/2026/why-frost-can-still-occur-in-late-spring",
+   "opened": true,
+   "page_date": "11 May 2026",
+   "checks": [
+    {
+     "finding": "AF-30",
+     "recorded": "\"In southern and coastal regions, the average last air frost tends to occur earlier in the spring, often before April comes to an end.\"",
+     "result": "Confirmed",
+     "page_wording": "In southern and coastal regions, the average last air frost tends to occur earlier in the spring, often before April comes to an end.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated (Met Office, UK-wide). Supports the earlier-in-south-and-coasts half only; the north and higher-ground half is in the other quotation. About last air frost, not rose tasks."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"Further north, and over higher ground, the average last frost often extends well into May and, in a few places, even into June.\"",
+     "result": "Confirmed",
+     "page_wording": "Further north, and over higher ground, the average last frost often extends well into May and, in a few places, even into June.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Supports the later-in-north-and-higher-ground half; together with the previous quotation the whole finding is covered. Not about roses."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"valleys are especially prone as colder air drains downhill and pools near the surface overnight.\"",
+     "result": "Confirmed",
+     "page_wording": "valleys are especially prone as colder air drains downhill and pools near the surface overnight.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Supports only the valley or frost-pocket part. The page also says towns and cities stay slightly warmer (urban heat island) and frost is more common in rural places, which backs the urban and rural parts, but those are not in this quotation."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"frosts can and do still occur well into late spring, including May.\"",
+     "result": "Confirmed",
+     "page_wording": "frosts can and do still occur well into late spring, including May.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Supports that late frosts still occur into May; the page does not in this sentence speak of year-to-year variation, though it warns of late cold snaps after warm springs."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"the average date of the last spring frost has been shifting earlier in the year.\"",
+     "result": "Confirmed",
+     "page_wording": "the average date of the last spring frost has been shifting earlier in the year.",
+     "supports_finding": "yes",
+     "note": "UK, no place stated. Page dated 11 May 2026. Directly supports the finding; no rose task involved."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q8 weather not calendar",
+     "quote": "warmer springs can encourage plants and blossoms to develop earlier, leaving them more vulnerable if a late cold snap does occur",
+     "note": "Plants generally, spring, UK no place stated; advises watching forecasts for final cold snaps (reported by WebFetch; not re-confirmed with a second question)"
+    }
+   ]
+  },
+  {
+   "code": "MO-SPRING",
+   "url": "https://www.metoffice.gov.uk/blog/2026/when-does-spring-start",
+   "final_url": "https://www.metoffice.gov.uk/blog/2026/when-does-spring-start",
+   "opened": true,
+   "page_date": "23 February 2026 (as recorded in input; not re-checked)",
+   "checks": [
+    {
+     "finding": "AF-30",
+     "recorded": "\"Northern areas, including Scotland, typically remain cooler for longer, while southern parts of the UK tend to warm up earlier.\"",
+     "result": "Confirmed",
+     "page_wording": "Northern areas, including Scotland, typically remain cooler for longer, while southern parts of the UK tend to warm up earlier.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Supports a north-south spring warming pattern generally, but says nothing about last air frost, coasts or higher ground, so it only partly carries the finding."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"March sees a higher likelihood of snow or sleet than December\"",
+     "result": "Confirmed",
+     "page_wording": "March sees a higher likelihood of snow or sleet than December.",
+     "supports_finding": "no",
+     "note": "UK, no place stated. Wintry weather being likelier in March than December is not a statement about spring variability or late frosts; the page does not mention late frosts or year-to-year variation of spring."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "MO-MAR",
+   "url": "https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/your-home/gardening/gardening-tips-for-march",
+   "final_url": "https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/your-home/gardening/gardening-tips-for-march",
+   "opened": true,
+   "page_date": "not shown (climate figures use 1981-2010 average)",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Pruning roses is a classic March task\"",
+     "result": "Confirmed",
+     "page_wording": "Pruning roses is a classic March task but be sure to seek out the latest RHS advice on pruning roses before reaching for the secateurs.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Supports March only (not February to March, and not late winter), roses generally. The page defers to RHS advice and gives no region or local signal."
+    }
+   ],
+   "contradictions": [
+    "Sentence tells readers to seek the latest RHS advice before pruning, so the page does not itself settle the timing."
+   ],
+   "also_says": [
+    {
+     "topic": "Q8 weather not calendar",
+     "quote": "March can still produce a flashback of frost or snow",
+     "note": "Garden generally, March, UK no place stated (reported by WebFetch; not re-confirmed)"
+    }
+   ]
+  },
+  {
+   "code": "MO-FEB",
+   "url": "https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/your-home/gardening/gardening-tips-for-february",
+   "final_url": "https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/your-home/gardening/gardening-tips-for-february",
+   "opened": true,
+   "page_date": "not shown (climate figures use 1981-2010 average)",
+   "checks": [
+    {
+     "finding": "AF-30",
+     "recorded": "\"Cornwall seeing around 11 days of air frost and with Eastern Scotland seeing over 14 days of air frost on average\"",
+     "result": "Confirmed",
+     "page_wording": "In February we would expect air frost on 11 days... Cornwall seeing around 11 days of air frost and Eastern Scotland over 14 days on average during the month.",
+     "supports_finding": "no",
+     "note": "Cornwall and Eastern Scotland, February. This counts February air-frost days, not the date of the average last air frost, and Cornwall equals the UK figure of 11. It does not show earlier in the south and coasts or later on higher ground; the page makes no north-south frost-timing comparison."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "HARK-PT",
+   "url": "https://www.roses.co.uk/pruning-tips",
+   "final_url": "https://www.roses.co.uk/pruning-tips",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"prune to one third original size in a frost-free period from mid-February to mid-March\"",
+     "result": "Confirmed",
+     "page_wording": "prune to one third original size in a frost-free period from mid-February to mid-March",
+     "supports_finding": "partly",
+     "note": "UK, no place stated (commercial nursery). Page applies this to established bush roses, main prune. Gives mid-February to mid-March, which sits inside the finding's February to March but is narrower; no late-winter wording."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"in a frost-free period from mid-February to mid-March\"",
+     "result": "Confirmed",
+     "page_wording": "in a frost-free period from mid-February to mid-March",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Ties pruning to a frost-free period, which is a weather condition, but the page names no bud, growth or dormancy signal (WebFetch found none), so only the frost-free part of the finding is supported."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"Roses can be trimmed back after they finish flowering in November to stop wind-rock\"",
+     "result": "Confirmed",
+     "page_wording": "Roses can be trimmed back after they finish flowering in November to stop wind-rock",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Supports a light trim against wind-rock, in November only. The finding says September to November and mentions tall bush roses; this page gives only November and says roses generally (a Sept-to-Nov range was not found on this page)."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "HARK-EG",
+   "url": "https://www.roses.co.uk/the-essential-guide-to-roses",
+   "final_url": "https://www.roses.co.uk/the-essential-guide-to-roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"Prune fully around March, removing dead or damaged stems\"",
+     "result": "Confirmed",
+     "page_wording": "Prune fully around March, removing dead or damaged stems, then through the year to maintain shape.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Says around March only, roses generally. A separate sentence on the page says late winter or early spring, which fits the finding better than this one."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"Aim to prune a bush rose before fresh buds start to open\"",
+     "result": "Near",
+     "page_wording": "Aim to prune a bush rose before fresh buds start to open, either in either late winter or early spring.",
+     "supports_finding": "yes",
+     "note": "UK, no place stated. Bush roses. Recorded fragment is cut short; page adds late winter or early spring. Bud-opening is a plant signal and supports the finding alongside the months."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"Apply feed twice a year - before flowering\"",
+     "result": "Confirmed",
+     "page_wording": "Apply feed twice a year - before flowering, then again in mid-summer after the first flush.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Says only before flowering for the first feed; no month named, so it does not support late February to April or March or April."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"then again in mid-summer after the first flush.\"",
+     "result": "Confirmed",
+     "page_wording": "Apply feed twice a year - before flowering, then again in mid-summer after the first flush.",
+     "supports_finding": "yes",
+     "note": "UK, no place stated. Roses generally. Directly supports a mid-summer feed after the first flush."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Roses can be planted in the garden at any time of the year, so long as ground conditions aren't frozen or waterlogged.\"",
+     "result": "Confirmed",
+     "page_wording": "Roses can be planted in the garden at any time of the year, so long as ground conditions aren't frozen or waterlogged.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Supports any time of year if not frozen or waterlogged. Page says roses generally, not container-grown specifically, and does not mention very dry ground."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q3 deadheading",
+     "quote": "Remove blooms once they are spent by hand, including any developing seedheads.",
+     "note": "Roses generally, no month stated, UK no place stated (WebFetch single answer)"
+    },
+    {
+     "topic": "Q5 clear-up",
+     "quote": "Gather fallen leaves and wash the plant when dormant to avoid reinfection.",
+     "note": "Given for rust treatment; dormant period, no month; UK no place stated (WebFetch single answer, wording NEAR)"
+    }
+   ]
+  },
+  {
+   "code": "LTG-PR",
+   "url": "https://www.lovethegarden.com/uk-en/article/pruning-roses-how-and-when-make-cut",
+   "final_url": "https://www.lovethegarden.com/uk-en/article/pruning-roses-how-and-when-make-cut",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"stick to February to March, the most common pruning time for roses.\"",
+     "result": "Confirmed",
+     "page_wording": "stick to February to March, the most common pruning time for roses.",
+     "supports_finding": "yes",
+     "note": "UK, no place stated. Main pruning of roses, February to March. Supports the national finding."
+    },
+    {
+     "finding": "AF-2",
+     "recorded": "\"In the south you are safest to prune roses in mid-February before new growth begins on rose plants.\"",
+     "result": "Confirmed",
+     "page_wording": "In the south you are safest to prune roses in mid-February before new growth begins on rose plants.",
+     "supports_finding": "yes",
+     "note": "'The south' of the UK, not bounded. Mid-February, tied to before new growth. Supports the finding."
+    },
+    {
+     "finding": "AF-3",
+     "recorded": "\"in the north and other colder areas of the UK we would recommend waiting until mid to late March\"",
+     "result": "Near",
+     "page_wording": "If you live in the north and other colder areas of the UK we would recommend waiting until mid to late March before pruning roses.",
+     "supports_finding": "yes",
+     "note": "'The north and other colder areas of the UK', not bounded. Difference from recorded is only the lead-in words. Supports mid to late March."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"before leaf buds are starting to swell, but this normally depends on your climate and where you are.\"",
+     "result": "Confirmed",
+     "page_wording": "before leaf buds are starting to swell, but this normally depends on your climate and where you are.",
+     "supports_finding": "yes",
+     "note": "UK, no place stated. Gives swelling leaf buds as the signal and says it depends on climate and place."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"February is prime time in milder areas of the UK, but in colder regions March is best.\"",
+     "result": "Confirmed",
+     "page_wording": "February is prime time in milder areas of the UK, but in colder regions March is best.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Shows the milder against colder two-band wording. The 'none states a boundary' part is borne out on this page (it defines none), but a claim about all sources cannot rest on one page."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"this normally depends on your climate and where you are.\"",
+     "result": "Confirmed",
+     "page_wording": "this normally depends on your climate and where you are.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Page says it depends on climate and place but offers no way to tell which band you are in (WebFetch found no guidance), consistent with the finding; one page cannot show that no UK source does."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q3 deadheading",
+     "quote": "recommended after flowering to help preserve the plant's energies",
+     "note": "Deadheading, no month, UK no place stated (WebFetch paraphrase, not exact sentence; not re-confirmed)"
+    }
+   ]
+  },
+  {
+   "code": "LTG-GG",
+   "url": "https://www.lovethegarden.com/uk-en/growing-guide/how-grow-roses",
+   "final_url": "https://www.lovethegarden.com/uk-en/growing-guide/how-grow-roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-10",
+     "recorded": "\"use a granular rose food in early spring, or after pruning\"",
+     "result": "Confirmed",
+     "page_wording": "use a granular rose food in early spring, or after pruning",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Roses generally. Says early spring or after pruning; no months named, so it supports a spring first feed but not the late February to April range."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"and again in mid-summer.\"",
+     "result": "Confirmed",
+     "page_wording": "and again in mid-summer",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Supports a mid-summer feed; the page does not say 'after the first flush' in this fragment."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"Deadhead roses in the UK regularly during their blooming season, typically from late spring to autumn.\"",
+     "result": "Confirmed",
+     "page_wording": "Deadhead roses in the UK regularly during their blooming season, typically from late spring to autumn.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Roses generally. Names autumn but not October, and gives no stop month (page does not say when to stop), which agrees with the finding's 'no month to stop'."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"Bare-root roses are best planted between October and early March.\"",
+     "result": "Confirmed",
+     "page_wording": "Bare-root roses are best planted between October and early March.",
+     "supports_finding": "yes",
+     "note": "UK, no place stated. Bare-root. October to early March, slightly wider than the finding's October or November to March but consistent."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Can be planted anytime of year\"",
+     "result": "Near",
+     "page_wording": "These can be planted at any time of year, providing that the ground is not frozen solid, waterlogged or suffering from drought conditions.",
+     "supports_finding": "yes",
+     "note": "UK, no place stated. Container-grown roses. Fragment is table-style; page wording carries all three conditions (frozen, waterlogged, dry)."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"Can be planted anytime of year but ideally September to November and March to May.\"",
+     "result": "Near",
+     "page_wording": "ideally plant them September to November and march to May",
+     "supports_finding": "yes",
+     "note": "UK, no place stated. Container-grown roses. Page wording slightly different from the recorded sentence. Supports a preference for those months."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "STYLE",
+   "url": "https://styleroses.co.uk/garden-roses-aftercare/tips/rose-pruning-advice/",
+   "final_url": "https://styleroses.co.uk/garden-roses-aftercare/tips/rose-pruning-advice/",
+   "opened": true,
+   "page_date": "2 Sept 2021, modified 18 March 2024 (per input; not checked)",
+   "checks": [
+    {
+     "finding": "AF-5",
+     "recorded": "\"this task should be completed every year during November/December for Midlands & South counties, January/Late February for North of England and Scotland\"",
+     "result": "Confirmed",
+     "page_wording": "this task should be completed every year during November/December for Midlands & South counties, January/Late February for North of England and Scotland",
+     "supports_finding": "yes",
+     "note": "Two bands: Midlands and South counties, and North of England and Scotland. Main winter pruning, roses generally (height advice varies by type). Boundary not defined."
+    },
+    {
+     "finding": "AF-5",
+     "recorded": "\"will simply delay your roses from flowering in the following summer by up to 6 weeks!\"",
+     "result": "Confirmed",
+     "page_wording": "Delaying this main pruning to March and beyond...will simply delay your roses from flowering in the following summer by up to 6 weeks!",
+     "supports_finding": "partly",
+     "note": "Applies to the whole page, no place stated for this sentence. It is the reason given for not pruning later than the stated months; it does not state the two bands or months itself."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"Prune on a frost-free day\"",
+     "result": "Near",
+     "page_wording": "Prune on a frost-free day and cut off any thin and weak spindly growth",
+     "supports_finding": "partly",
+     "note": "No place stated. A frost-free day is a weather condition only; the page gives no bud or growth signal (WebFetch found no local signals)."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"for Midlands & South counties, January/Late February for North of England and Scotland\"",
+     "result": "Confirmed",
+     "page_wording": "November/December for Midlands & South counties, January/Late February for North of England and Scotland",
+     "supports_finding": "partly",
+     "note": "Shows a two-band split by region. The page does not define the boundary of 'Midlands & South counties'. Bands are named regions, not milder/colder wording, and one page cannot show the claim for all sources."
+    }
+   ],
+   "contradictions": [
+    "Page advises pruning in November to February, and says delaying to March and beyond delays flowering; this conflicts with sources giving February to March (AF-1) as the main window."
+   ],
+   "also_says": []
+  },
+  {
+   "code": "TM",
+   "url": "https://www.thompson-morgan.com/pruning/roses",
+   "final_url": "https://www.thompson-morgan.com/pruning/roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-6",
+     "recorded": "\"the best time to prune is a frost-free day between November and March.\"",
+     "result": "Near",
+     "page_wording": "Apart from ramblers and some shrub roses, the best time to prune is a frost-free day between November and March.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. Roses generally except ramblers and some shrub roses, which the page prunes after flowering in summer. Supports the November to March window."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"a frost-free day between November and March.\"",
+     "result": "Confirmed",
+     "page_wording": "Apart from ramblers and some shrub roses, the best time to prune is a frost-free day between November and March.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated. A frost-free day is a weather condition only; no bud, growth or dormancy signal and no region on the page (WebFetch found none)."
+    }
+   ],
+   "contradictions": [
+    "Page excepts ramblers and some shrub roses, which are pruned after flowering in summer."
+   ],
+   "also_says": []
+  },
+  {
+   "code": "EUTREMA",
+   "url": "https://eutrema.co.uk/controlling-black-spot-on-roses-unleashing-the-power-of-lime-sulphur/",
+   "final_url": "https://eutrema.co.uk/controlling-black-spot-on-roses-unleashing-the-power-of-lime-sulphur/",
+   "opened": true,
+   "page_date": "24 June 2023 published; modified 11 July 2026",
+   "checks": [
+    {
+     "finding": "AF-24",
+     "recorded": "\"This typically occurs in late winter or early spring before new growth begins.\"",
+     "result": "Confirmed",
+     "page_wording": "This typically occurs in late winter or early spring before new growth begins.",
+     "supports_finding": "partly",
+     "note": "UK, no place stated (commercial products site). 'This' is the dormant lime sulphur spray on roses, late winter or early spring. The page does not mention the RHS, so the RHS half of the finding is not tested here."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "Q5 winter spray type",
+     "quote": "Applying lime sulphur during the growing season is possible but the dose rate needs to be reduced...",
+     "note": "Spray type is lime sulphur; dormant use late winter or early spring, UK no place stated (WebFetch single answer)"
+    }
+   ]
+  }
+ ]
+}

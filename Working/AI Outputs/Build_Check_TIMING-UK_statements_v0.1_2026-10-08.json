@@ -1,0 +1,672 @@
+{
+ "what": "Build Check Part 2 (wording check), statements version 0.1, 8 October 2026.",
+ "statements_checked": [
+  {
+   "ref": "PKR-CGD-000022 UK item 1",
+   "question": "Which months do I prune my rose?",
+   "text": "In the UK, the main pruning is done in late winter or early spring, in February or March. Two rose growers say January or February, and one garden company says on a frost-free day between November and March. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-1",
+    "C-1",
+    "AF-4",
+    "AF-6",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 2",
+   "question": "Which months do I prune my rose?",
+   "text": "In the south, prune around mid-February. In northern and colder areas, wait until March; one garden company says mid to late March. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-2",
+    "AF-3",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 3",
+   "question": "Which months do I prune my rose?",
+   "text": "In the Midlands and the south of England, one rose nursery says to do the main pruning in November or December. Others say February or March. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-5",
+    "C-9",
+    "C-1",
+    "AF-1",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Very Low",
+   "kind": null,
+   "place": [
+    "GB-ENG-EM",
+    "GB-ENG-WM",
+    "GB-ENG-EE",
+    "GB-ENG-LN",
+    "GB-ENG-SE",
+    "GB-ENG-SW"
+   ],
+   "shown_to": "Gardeners in the Midlands and the south of England only"
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 4",
+   "question": "Which months do I prune my rose?",
+   "text": "In the north of England and Scotland, one rose nursery says to do the main pruning between January and late February. Others say to wait until March in northern and colder areas. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-5",
+    "AF-3",
+    "C-1",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Very Low",
+   "kind": null,
+   "place": [
+    "GB-ENG-NE",
+    "GB-ENG-NW",
+    "GB-ENG-YH",
+    "GB-SCT"
+   ],
+   "shown_to": "Gardeners in the north of England or in Scotland only"
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 5",
+   "question": "Which months do I prune my rose?",
+   "text": "Prune on a frost-free day, before new growth begins and the buds start to open. One source says to prune when growth is just resuming.",
+   "trace": [
+    "AF-7",
+    "C-2"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 6",
+   "question": "Which months do I prune my rose?",
+   "text": "Two rose growers say a rose can be trimmed in autumn, between September and November, so that winter wind does not rock or damage it. One of them says this is for tall roses, and that it is too early then for a hard prune. Months are only a guide.",
+   "trace": [
+    "AF-9",
+    "C-7",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 7",
+   "question": "Which months do I prune my rose?",
+   "text": "One rose grower says not to prune a rose hard in autumn, because frost can then damage the cut tips.",
+   "trace": [
+    "AF-16",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": "precaution",
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000023 UK item 1",
+   "question": "When do I start and stop feeding?",
+   "text": "Give the first feed in spring, in March or April, before the rose flowers. One rose grower says it can go on from the end of February. Months are only a guide.",
+   "trace": [
+    "AF-10",
+    "C-11",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000023 UK item 2",
+   "question": "When do I start and stop feeding?",
+   "text": "Feed the rose again in mid-summer, after its first flush of flowers. One rose grower says in July. Months are only a guide.",
+   "trace": [
+    "AF-11",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000023 UK item 3",
+   "question": "When do I start and stop feeding?",
+   "text": "One rose grower says to give the last feed before the end of August, so that the rose can slow down for winter and frost does not damage new growth. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-13",
+    "AF-12",
+    "C-3",
+    "rule 7",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": "precaution",
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000024 UK item 1",
+   "question": "When do I stop deadheading?",
+   "text": "Deadhead (remove the faded flowers) while the rose is in flower, through summer and into autumn. One rose grower says to keep deadheading in October. Months are only a guide.",
+   "trace": [
+    "AF-14",
+    "C-6",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000024 UK item 2",
+   "question": "When do I stop deadheading?",
+   "text": "If your rose is grown for its hips (the rose's fruit), stop deadheading early so that the hips have time to form. One source says to stop in mid-summer, and one rose grower says after the second flush of flowers.",
+   "trace": [
+    "AF-15",
+    "C-13"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000024 UK item 3",
+   "question": "When do I stop deadheading?",
+   "text": "I couldn't find a month to stop deadheading in the UK. A local rose society is the place to ask.",
+   "trace": [
+    "AF-35",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 1",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In the UK, plant a bare-root rose while it is dormant (not actively growing), between October and early March. Months are only a guide.",
+   "trace": [
+    "AF-17",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 2",
+   "question": "Which months do I plant or move a rose?",
+   "text": "Don't plant a bare-root rose while the ground is frozen. One rose grower says to keep it in a bucket of water or compost until the ground has thawed.",
+   "trace": [
+    "AF-18",
+    "C-4"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 3",
+   "question": "Which months do I plant or move a rose?",
+   "text": "A rose in a pot can be planted at any time of year, as long as the ground is not frozen, waterlogged or very dry. One garden company says the ideal months are September to November and March to May. Months are only a guide.",
+   "trace": [
+    "AF-19",
+    "AF-20",
+    "rule 6"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 4",
+   "question": "Which months do I plant or move a rose?",
+   "text": "One rose grower says not to plant a potted rose in extreme heat.",
+   "trace": [
+    "AF-36",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": "precaution",
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 5",
+   "question": "Which months do I plant or move a rose?",
+   "text": "Move an established rose while it is dormant, between November and February. For deciduous shrubs in general, one source says any time from late October to mid-March. Months are only a guide.",
+   "trace": [
+    "AF-21",
+    "C-5",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 1",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Clear away fallen rose leaves in autumn, so that disease has nowhere to linger. One source says to destroy them, or bury them under a layer of mulch (material spread over the soil).",
+   "trace": [
+    "AF-22"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 2",
+   "question": "When do I clear up and spray in winter?",
+   "text": "One rose grower says to pick up fallen leaves and remove diseased ones in October and November, and to tidy the beds in February, ready for spring. Months are only a guide.",
+   "trace": [
+    "AF-37",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 3",
+   "question": "When do I clear up and spray in winter?",
+   "text": "One source says to pick off any leaves still on the rose over the winter months, if practical, and dispose of them.",
+   "trace": [
+    "AF-23",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 4",
+   "question": "When do I clear up and spray in winter?",
+   "text": "One rose grower says to check the base of your rose for exposed roots before the winter weather takes hold, and to build up a layer of mulch around any that show, to protect them from the cold.",
+   "trace": [
+    "AF-25",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": "precaution",
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 5",
+   "question": "When do I clear up and spray in winter?",
+   "text": "I couldn't find UK advice from a gardening body or rose society on spraying roses in winter. A local rose society is the place to ask.",
+   "trace": [
+    "AF-38",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 6",
+   "question": "When do I clear up and spray in winter?",
+   "text": "I couldn't find UK advice on mounding soil over the base of a rose for winter. A local rose society is the place to ask.",
+   "trace": [
+    "AF-26",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000027 UK item 1",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "On average, the last frost of spring comes earlier in southern and coastal parts of the UK, often before the end of April, the national weather service says. Further north and on higher ground it often comes well into May, and in a few places in June. Late frosts still happen, so months are only a guide.",
+   "trace": [
+    "AF-30",
+    "AF-33",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  },
+  {
+   "ref": "PKR-CGD-000027 UK item 2",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "Frosts go on later in spring on an exposed, rural or high site than in a sheltered spot, in a town or near the coast. In a valley, cold air drains downhill and pools overnight, so frost is especially likely there.",
+   "trace": [
+    "AF-31"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "GB"
+   ],
+   "shown_to": "Gardeners in the United Kingdom only"
+  }
+ ],
+ "results": [
+  {
+   "ref": "PKR-CGD-000022 UK item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported. February or March: RHS-GT 'Late winter (February or March) is often a good time for pruning roses'; LTG-PR 'stick to February to March'; HARK-PT 'a frost-free period from mid-February to mid-March'. That is three independent voices, so High stands, though only just: PB-WF is the 2017 page of a grower now on the other side, and MO-MAR defers to the RHS. 'Early spring' is HARK-EG. 'Two rose growers' is the right count: David Austin (DA-PR, 'for most gardens that means January or February') and Peter Beales (PB-FEB, PB-HT, PB-JAN). 'One garden company' is TM, confirmed ('a frost-free day between November and March'). The better-supported view leads (rule 2), the differing windows are all shown (rule 3) and months are said to be a guide. To be known: the November end of the one company's window sits against item 7 (no hard pruning in autumn); see the package notes.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 2",
+   "result": "Pass with a note",
+   "points_failed": [
+    9
+   ],
+   "note": "Supported. RHS-MB: 'usually in mid-February in the south, but in northern and colder areas wait until March'. LTG-PR: 'In the south you are safest to prune roses in mid-February', and 'mid to late March' for 'the north and other colder areas of the UK'. 'One garden company' is right for mid to late March (LTG-PR alone). Saying the two areas in words to everyone follows the Frost decision, since neither page gives a line. One point: read on its own, 'In the south' does not say the south of what, and 'prune' does not say this is the main pruning.",
+   "suggested_wording": "In the south of the UK, do the main pruning around mid-February. In northern and colder areas, wait until March; one garden company says mid to late March. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 3",
+   "result": "Fail",
+   "points_failed": [
+    7
+   ],
+   "note": "The nursery's words are reported accurately (STYLE: 'should be completed every year during November/December for Midlands & South counties'), 'one rose nursery' is right, and the statement is shown only in the nursery's own area. It fails on rule 2. The statement sets out a disagreement (its trace cites C-9 and C-1) and leads with the Very Low view. Rule 2 and section 3 of the rules say Pip leads with the view whose findings carry the higher level: here AF-1 (High; RHS-GT, LTG-PR, HARK-PT: February or March) and, for the south, AF-2 (Moderate; RHS-MB and LTG-PR: mid-February). Rule 4's allowance for one garden company's months suits a place with no better source; for the south the RHS and a second source already speak, so the nursery is a dissent, not the only local voice. Section 3A says a statement that sets out a disagreement is marked 'Sources disagree' in place of a level. Lead with February or March, give the nursery second, and mark it 'Sources disagree'. Two more things to know. (1) Read alone, it gives a beginner November as a month for the main pruning, while items 6 and 7 in the same answer say autumn is too early for a hard prune and that frost can damage the cut tips (PB-OCT, PB-WF). Nothing tells the gardener these clash. (2) Place: the page gives 'South counties' no edge. London, the South East and the South West are plainly covered. The East of England (Norfolk, Suffolk) is the builder's reading, and a gardener there may not see themselves in 'the Midlands and the south of England'. Wales is rightly left out.",
+   "suggested_wording": "In the UK, do the main pruning in February or March. For the Midlands and the south of England, one rose nursery says November or December instead. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 4",
+   "result": "Fail",
+   "points_failed": [
+    7
+   ],
+   "note": "Accurate to the page (STYLE: 'January/Late February for North of England and Scotland'), shown only in the four regions the page names, and 'one rose nursery' is right. It fails on rule 2 for the same reason as item 3, and more plainly: for this very area the better-supported advice is the opposite, to wait until March (AF-3, Moderate: RHS-MB 'in northern and colder areas wait until March'; LTG-PR 'mid to late March'), yet the Very Low view leads. Lead with March, give the nursery second, and mark it 'Sources disagree' (section 3A). To be known: 'between January and late February' reads the page's 'January/Late February' as a span, while 'November/December' in item 3 is read as 'or'; each reading is the builder's. 'Others' is two voices, the RHS and one garden company.",
+   "suggested_wording": "In northern and colder areas of the UK, wait until March for the main pruning. For the north of England and Scotland, one rose nursery says between January and late February instead. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, each part by three companies. A frost-free day or period: HARK-PT, TM, STYLE. Before growth or buds: LTG-PR 'before leaf buds are starting to swell', PB-HT 'before new growth begins', HARK-EG 'before fresh buds start to open'. 'One source' is right for growth just resuming (RHS-MB alone), and it lets the gardener see C-2. No one page joins a frost-free day to the bud signal, but joining two conditions for the same job says no more than the pages do. 'Before the buds start to open' agrees with Pip's published pruning check (PKR-SGT-000001), which treats buds 'just beginning to swell' as still dormant.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported. Two growers: Peter Beales (PB-CAL September; PB-OCT October; PB-HT 'Autumn (October – November): Light prune tall hybrid tea roses to prevent wind damage') and Harkness (HARK-PT 'Roses can be trimmed back after they finish flowering in November to stop wind-rock'). September to November is the span of their months, shown as a range under rule 3; no one page gives it all, and the second grower names November only. 'Tall' is Peter Beales (PB-HT, PB-WF, PB-OCT), and 'too early for a hard prune' is PB-OCT. No amount is given, which is right (C-10). 'Hard prune' is explained nowhere in this answer; Pip's published pruning check already uses 'pruning hard' without explaining it.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 UK item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Confirmed word for word. PB-WF: 'It is not recommended to hard prune them during the autumn though as the tips can then become damaged by frost.' One grower (Peter Beales), said so; marked as a precaution. It repeats the end of item 6 from the same grower, which does no harm.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 UK item 1",
+   "result": "Pass with a note",
+   "points_failed": [
+    9
+   ],
+   "note": "Supported at High. RHS-GG: 'in March/April before flowering'. DA-FEED: 'late March or early April'. PB-FEED: 'ideally in March'. HARK-EG: 'before flowering'. The second sentence is right in substance (PB-FEB alone: 'Towards the end of February or in early March') and lets the gardener see C-11. Its wording is unclear: 'it can go on from the end of February' can be read as the feed being put on or as feeding carrying on, and the page gives a time, not an open start.",
+   "suggested_wording": "Give the first feed in spring, in March or April, before the rose flowers. One rose grower says towards the end of February or in early March. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 UK item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported at High. RHS-GG: 'in mid-summer after the first flush of flowers'. HARK-EG: 'then again in mid-summer after the first flush'. PB-FEED: 'after the first flush of blooms has gone over in July'. LTG-GG and DA-BASICS say mid-summer. July is PB-FEED alone and is said as one grower. 'Flush' is not explained.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 UK item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported, and marked as a precaution. PB-FEED: 'do your last liquid feed before the end of August', and ending then 'encourages the plant to start entering its dormant state as the weather cools and prevents any new growth from being damaged by the frost'. PB-CAL: 'Late August is usually the time you apply your last feed'. One grower, said so. 'Last feed' is PB-CAL's wording; PB-FEED says last liquid feed. It agrees with Pip's general growing-season answer (PKR-CGD-000004), which says to stop feeding by mid-to-late summer.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 UK item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported at Moderate. LTG-GG: 'Deadhead roses in the UK regularly during their blooming season, typically from late spring to autumn.' PB-OCT: 'make sure you are still deadheading your roses' (October; one grower, said so). RHS-DH says the same of plants in general. The meaning in brackets is on the pages ('remove spent flowers'). To be known: Pip's general growing-season answer (PKR-CGD-000004, shown to everyone) says to stop deadheading in early-to-mid autumn; see the package notes (C-6).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 UK item 2",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "Supported. RHS-GG: 'you should stop deadheading these plants in mid-summer to give the hips time to form'. DA-DH: 'Do not deadhead roses renowned for their autumn fruit after the second flush.' Both times are given, each as one source, so the gardener sees C-13. One word says more than the pages: 'early'. Neither page says it, and 'after the second flush' need not be early. 'Second flush' is not explained.",
+   "suggested_wording": "If your rose is grown for its hips (the rose's fruit), stop deadheading in time for the hips to form. One source says to stop in mid-summer, and one rose grower says after the second flush of flowers."
+  },
+  {
+   "ref": "PKR-CGD-000024 UK item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "A true gap (AF-35): the check found no stop month on RHS-DH, LTG-GG, DA-DH, PB-OCT, PB-HT or PB-WF. First person, points to local help, marked as a gap.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 1",
+   "result": "Pass with a note",
+   "points_failed": [
+    11
+   ],
+   "note": "Supported at High. Dormant: RHS-GG 'while the plant is not actively growing', RHS-PL, DA-BR, DA-BASICS. Months: LTG-GG 'Bare-root roses are best planted between October and early March' (the only page with the whole range); DA-BRC 'usually begins in October'; PB-CAL, PB-DEC, PB-JAN and PB-FEB name November to February. The range is shown as rule 3 asks. One point: 'bare-root' is explained nowhere in this answer, and no page confirmed in this check defines it. Pip's published planting answer (PKR-CGD-000016) already explains it as 'one sold without soil on its roots'; the same words could be used here if the trace cites where they come from. To be known: the same gardener also sees, in that other answer, 'In the UK, plant bare-root roses in late autumn, or from late winter to early spring before growth starts' (Moderate). The two agree, but one gives a single window at High and the other two windows at Moderate.",
+   "suggested_wording": "In the UK, plant a bare-root rose (one sold without soil on its roots) while it is dormant (not actively growing), between October and early March. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported. RHS-PL: 'Avoid planting in the middle of winter when the ground is frozen.' PB-JAN: 'you can store it in a bucket of water or compost until the ground has thawed enough for you to plant it'. One grower, said so. Both make frozen ground the limit, so C-4 needs no more than this. 'Bare-root' is not explained here either (see item 1).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported at High. RHS-PL: 'Plant all year round, provided the ground is neither frozen, nor very dry.' DA-POT: 'not frozen, waterlogged or in drought conditions'. HARK-EG: 'aren't frozen or waterlogged'. LTG-GG gives all three. Each condition has three voices or more. The ideal months are LTG-GG alone ('ideally plant them September to November and march to May') and are said as one garden company.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Confirmed. DA-POT: 'Avoid planting during periods of extreme heat.' One grower, said so; marked as a precaution.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 UK item 5",
+   "result": "Pass with a note",
+   "points_failed": [
+    11
+   ],
+   "note": "Supported. DA-MOVE: 'In the UK and Europe, this is usually between November and February'. PB-CAL names November and PB-FEB February. Two growers, so the first sentence can be said plainly at Moderate. The second sentence is true to RHS-MOVE ('Deciduous plants: Move at any time during the dormant season from late October to mid-March') and honest that the page is not about roses. But 'deciduous shrubs in general' is not a beginner's wording and reads like a research caveat. Say it in plain words. (The same page lists roses as disliking root disturbance; Pip already says so in its moving answer, PKR-CGD-000021.)",
+   "suggested_wording": "Move an established rose while it is dormant, between November and February. One source says shrubs that drop their leaves in winter can be moved at any time from late October to mid-March. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Supported at High. RHS-BS: 'Collect and destroy fallen leaves in the autumn, or bury under a layer of mulch.' RHS-RUST: 'Collect and destroy fallen leaves in autumn'. PB-CAL and PB-NOV clear them in October and November. DA-BASICS: 'Fallen leaves should be cleared so disease has nowhere to linger.' 'One source' is right for burying them under mulch (RHS-BS). The meaning of mulch is on RHS-BS ('a layer of material ... applied to the soil surface').",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 2",
+   "result": "Pass with a note",
+   "points_failed": [
+    9
+   ],
+   "note": "Supported; one organisation, said so. PB-CAL (October section): 'Remove diseased foliage from plants and pick up any foliage that has dropped onto the soil.' PB-NOV: 'removing any fallen leaves from the ground and cut off any diseased leaves'. PB-FEB: 'February is the perfect time to tidy up your flower beds, ready for the spring.' One slip: 'remove diseased ones' can be read as diseased fallen leaves. The pages mean diseased leaves still on the plant.",
+   "suggested_wording": "One rose grower says to pick up fallen leaves and cut off diseased leaves in October and November, and to tidy the beds in February, ready for spring. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 3",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "The words follow RHS-BS closely ('If practical, pick off and dispose of any leaves that remain on the plant over the winter months'), and 'one source' is right. But RHS-BS gives this as a control for black spot, and the finding's own limitation says so. With that left out, the statement tells every gardener to strip the leaves in winter, which is wider than the page.",
+   "suggested_wording": "One source says to pick off any leaves still on the rose over the winter months, if practical, and dispose of them, to help against black spot."
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Confirmed in both parts. PB-NOV: 'Before the winter weather takes hold, it is crucial to check the base of your roses, for root exposure' and 'you will need to build up a mulch layer around them to protect them from the cold'. One grower, said so. The mulch is kept to roots that show, as on the page. Marked as a precaution.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "A true gap (AF-38). RHS-BS and RHS-RUST name no winter spray, RHS-BS recommends against using fungicides, and the rose society's pages could not be read. 'From a gardening body or rose society' is needed for the sentence to be true, because one seller's page was found and is kept on record only (AF-24). The statement names no type of spray and no time, so it does not lead a gardener to use one. It agrees with Pip's published spraying answer (PKR-CGD-000013).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 UK item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "A true gap (AF-26). It matters to a UK gardener, because Pip's general winter answer (PKR-CGD-000006, shown to everyone) tells gardeners to mound soil 10 to 12 inches over the base, and that rests on US sources (C-8).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000027 UK item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Confirmed word for word on MO-FROST: 'In southern and coastal regions, the average last air frost tends to occur earlier in the spring, often before April comes to an end' and 'Further north, and over higher ground, the average last frost often extends well into May and, in a few places, even into June.' 'Late frosts still happen' is MO-FROST ('frosts can and do still occur well into late spring, including May') and RHS-FROST. One organisation carries the pattern, and the statement says whose it is; Moderate is right.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000027 UK item 2",
+   "result": "Pass with a note",
+   "points_failed": [
+    3,
+    5
+   ],
+   "note": "The second sentence is confirmed (MO-FROST: 'valleys are especially prone as colder air drains downhill and pools near the surface overnight'). In the first sentence, high ground and the coast are confirmed on MO-FROST, and exposed, rural or higher sites on RHS-FROST, though there as a delay of one to three weeks in planting out tender plants, not as a sentence about frost. 'A sheltered spot' and 'in a town' are not confirmed word for word: the source check saw them on RHS-FROST and MO-FROST in one reading and did not quote them, and RHS-MICRO did not clearly say it. Either put a second question to those two pages for the sentences, or say only what was confirmed.",
+   "suggested_wording": "Frosts go on later in spring on an exposed, rural or high site than near the coast. In a valley, cold air drains downhill and pools overnight, so frost is especially likely there."
+  }
+ ],
+ "package_notes": [
+  "No share was named, so all 26 statements and the package were checked. No website was opened. To see what UK gardeners already read, Pip's published records in the working copy (Live Intelligence Library/records) were read as well as p8/published_uk.txt.",
+  "Structure is sound: every trace names a finding, conflict or rule that exists; every label matches the corrected level of the first finding in its trace; every finding available to Pip is used; the seven unused findings (AF-8, AF-24, AF-27, AF-28, AF-29, AF-32, AF-34) each have a reason; nothing on record only is used, and the nursery's flowering-delay claim appears nowhere; every statement that names a month says months are only a guide; there is no brand name or mixing amount; the three gaps are in the first person and point to local help; the four precautions are marked.",
+  "Result: 16 pass, 8 pass with a note, 2 fail. Both fails are the one nursery's months (PKR-CGD-000022 items 3 and 4), and both are about order and marking, not about accuracy. Every fix reorders, narrows or says less; none adds a count of sources.",
+  "My view on the one nursery's months (AF-5): the rules allow them to be shown, and only a Founder may leave a finding out, but they should not be shown as they are. The statements lead with a Very Low view against the RHS, where rule 2 says to lead with the better-supported view. Rule 4's allowance for a garden company's months is meant for a place with no better source; here the RHS and a second source already speak of the south and of northern areas, and only 'the Midlands' is named by the nursery alone. The nursery's own reason (later pruning delays flowering) is unsupported and rightly unused, so its months reach the gardener with no reason attached. Show them second, in a statement led by the better-supported months and marked 'Sources disagree', only in the regions the nursery names. Whether to keep them at all is worth putting to the Founder when the answers are approved.",
+  "No published statement in the app carries a Very Low label yet; I looked through the published records and found none. Items 3 and 4 as written would be the first.",
+  "A clash that is not recorded as a conflict: one rose grower says not to prune hard in autumn and that October is too early for a hard prune (AF-16, AF-9), while the nursery puts the main pruning in November and December (AF-5) and one garden company's window starts in November (AF-6). A gardener in the Midlands or the south sees items 1, 3, 6 and 7 under one question and is not told that they pull against each other. Record it, with C-9 or as a new conflict; leading item 3 with February or March removes most of the confusion.",
+  "No statement marked for the whole UK rests only on what a page says of one part of it. The whole-UK pages state no place (the grower pages are from Norfolk and Shropshire but name none). 'In the south' and 'in northern and colder areas' are said in words, which is right, because neither RHS-MB nor LTG-PR gives a line.",
+  "The two regional statements do not go beyond what was said of those places in their first sentences. Their second sentences ('Others say ...') are national advice and are worded so. Two readings are the builder's: 'South counties' taken as the East of England, London, the South East and the South West (the East of England is the doubtful one), and 'January/Late February' taken as a span.",
+  "Conflicts: a gardener learns of C-1 (item 1), C-2 (pruning signal), C-5 (moving), C-7 (autumn trim months), C-9 (the nursery), C-11 (first feed) and C-13 (hips). C-3 shows as the mid-summer feed beside one grower's last feed in August. C-4 is covered by frozen ground being the limit. C-6 and C-8 show as the two gaps. C-10 (how much to trim) and C-12 (whether March is too late) are on record only, each with a stated reason, and I agree with both.",
+  "Gaps: the three that matter to a gardener are said (no month to stop deadheading, no winter spray advice from a gardening body, no UK advice on mounding). Two smaller absences are not said and need not be: no date to stop summer pruning, and no time to take mulch off exposed roots.",
+  "AF-28 (no source gives different months by area for feeding, deadheading, planting, moving or clear-up) is left out as being about the research. That is defensible, but in the Australian answers the same kind of absence was said as a gap to gardeners in the place. A gardener in Scotland or on high ground is given one UK window for each of these jobs and only 'months are only a guide' to warn them. Worth a thought; not a failure.",
+  "Repeats within one answer are harmless: items 2 and 4 both say to wait until March in northern and colder areas; items 1 and 3 both give February or March; items 6 and 7 both say no hard prune in autumn. No two statements under one question contradict each other apart from the autumn pruning clash noted above.",
+  "p8/published_uk.txt is incomplete. It lists the three UK statements and mentions general advice on spraying, planting and moving, but UK gardeners also see the general growing-season answer (PKR-CGD-000004) and the general winter answer (PKR-CGD-000006), which have no place set.",
+  "Against PKR-CGD-000004: it says 'Stop in early-to-mid autumn' for deadheading (High, from US sources), while here one UK grower keeps deadheading in October and Pip says it found no UK month to stop (C-6). The two do not flatly contradict, since October is mid-autumn, but nothing tells a UK gardener which to follow. That is a matter for the general answer, not for these statements; it should be put with the approval.",
+  "Against PKR-CGD-000006: it tells everyone to mound soil 10 to 12 inches over the base (Very High, US sources). The UK gap on mounding (PKR-CGD-000026 item 6) is the only thing that tells a UK gardener no UK source says so. Keep it.",
+  "Against the published planting and moving answers (PKR-CGD-000016, PKR-CGD-000021): no contradiction. Bare-root planting 'between October and early March' sits inside 'late autumn to early spring'; the frozen-ground and pot statements partly repeat the general ones under a different question; moving 'between November and February' agrees with 'most sources say winter'.",
+  "Winter spray (R-3): nothing here could lead a UK gardener to use a winter spray product. The only statement on it is the gap (PKR-CGD-000026 item 5), which names no type and no time. The seller's lime sulphur page stays on record only, and Pip's published spraying answers already say to use only a product labelled for roses where you live and to follow the label.",
+  "Terms: 'deadhead', 'hips', 'dormant' and 'mulch' are each explained once in their answer. Not explained anywhere in their answer: 'bare-root' (PKR-CGD-000025 items 1 and 2; a published explanation exists in PKR-CGD-000016), 'deciduous' (PKR-CGD-000025 item 5; reworded in my suggestion), 'hard prune' (PKR-CGD-000022 items 6 and 7) and 'flush' (PKR-CGD-000023 item 2, PKR-CGD-000024 item 2). The last two are close to plain English and are already used elsewhere in Pip, so I have not failed anything for them. The rest is within a beginner's reach.",
+  "Sentence test: no sentence is empty or states the obvious. Every sentence about sources is there because one source says the thing, because sources disagree, or because of a range. 'Two rose growers say' (PKR-CGD-000022 items 1 and 6) is allowed on the same footing. The one sentence that read like research is the 'deciduous shrubs in general' sentence, noted above.",
+  "Levels: I agree with all the corrected levels. AF-30 and AF-31 are rightly lowered to Moderate. AF-1 keeps High on three independent voices that name both months (the RHS, one garden company, one rose grower); that is the least High can rest on. AF-9 is Low although two independent growers describe the trim; Low can stand because they agree only on the practice, not on the month, the kind of rose or the amount.",
+  "The builder's judgement calls in p8/uk_notes.md: I agree with the split into AF-35 to AF-38, the removal of 'most commonly', 'most often' and 'several', the three dropped quotations (RHS-GG from AF-12, MO-FEB from AF-30, MO-SPRING from AF-33), AF-24 on record only, and AF-8, AF-29 and AF-34 on record. AF-8 would help a late pruner, but items 1 and 2 already tell the gardener that March is a pruning month, so little is lost. AF-29 should stay on record even if its dates were confirmed again, because it is about tender plants.",
+  "p8/uk_notes.md is out of date on the nursery: it still says the south counties are 'said in words in the UK-wide statement'. The later correction took that out of item 2 and put the south of England into item 3's place. findings_corrected.json has the corrected account.",
+  "Nothing rests on an 'also_says' entry that was not confirmed by a second question. The nearest case is the sheltered and town part of PKR-CGD-000027 item 2, which rests on a checker's note from one reading; it is the builder's own doubt, and it is noted on that statement.",
+  "The two frost statements (PKR-CGD-000027) tie no rose job to the last frost, which is right, because no UK page does. A beginner might still take them to mean waiting until after the last frost to prune, when the better-supported UK months for the main pruning are February and March, well before it. Nothing can be added from the sources; the Founder should know when reading them."
+ ],
+ "findings_comments": [
+  {
+   "finding": "AF-5",
+   "comment": "Change its use from local months (rule 4) to one side of a disagreement (rule 2), still shown only in the regions the nursery names, as AF-6 is used for the whole UK. The RHS and a second source already speak of the south and of northern areas, so the nursery is a dissent there and not the only local source. Level (Very Low) and wording are right. Say in the limitation that the East of England is a reading of 'South counties', and that 'January/Late February' is read as a span."
+  },
+  {
+   "finding": "AF-9",
+   "comment": "Wording: 'One trims tall hybrid teas, or taller stems, in September, in October or in October to November' puts 'tall' on the September page. PB-CAL's September sentence speaks of 'remaining roses' and 'established plants'; 'tall' is on PB-HT, PB-WF and PB-OCT. Level can stay Low."
+  },
+  {
+   "finding": "AF-16",
+   "comment": "Add to the limitation, and to the conflicts, that this precaution runs against the nursery's November and December main pruning (AF-5) and the November start of one garden company's window (AF-6). The clash is not recorded at present."
+  },
+  {
+   "finding": "AF-31",
+   "comment": "Wording: 'Sheltered, urban and coastal sites are earlier' is confirmed only for the coast (MO-FROST: 'In southern and coastal regions, the average last air frost tends to occur earlier'). The sheltered and urban part was seen once and not quoted. Either confirm the sentences on RHS-FROST and MO-FROST with a second question, or cut the finding back to the coast. Level (Moderate) is right."
+  }
+ ]
+}
