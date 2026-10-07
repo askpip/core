@@ -1,0 +1,45 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000336",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Ross Roses — \"Calendar\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-AU-01, AF-4 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-32 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-48 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-55 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-58 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-62 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-67 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (rose nursery), Willunga, South Australia",
+    "identity": "Ross Roses, \"Calendar\", Copyright 2026. Commercial (rose nursery), Willunga, South Australia. https://rossroses.com.au/calendar/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:ROSS-CAL)",
+    "url": "https://rossroses.com.au/calendar/",
+    "register_code": "TIMING-AU:ROSS-CAL",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT."
+  }
+}

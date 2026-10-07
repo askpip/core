@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000329",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The Seed Collection Pty Ltd — \"How to Grow Roses (bare-rooted)\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-AU-01, AF-1 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-39 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (seed and plant retailer), national",
+    "identity": "The Seed Collection Pty Ltd, \"How to Grow Roses (bare-rooted)\", Copyright 2026. Commercial (seed and plant retailer), national. https://www.theseedcollection.com.au/growguide/rose, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:TSC)",
+    "url": "https://www.theseedcollection.com.au/growguide/rose",
+    "register_code": "TIMING-AU:TSC",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT."
+  }
+}

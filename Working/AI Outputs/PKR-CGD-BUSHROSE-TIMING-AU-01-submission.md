@@ -1,14 +1,14 @@
-# PKR Submission Package — Australian Months: Statements Added to the Six Question Answers (v0.3, Draft)
+# PKR Submission Package — Australian Months: Statements Added to the Six Question Answers (v1.0, Published)
 
-**Draft, awaiting a Founder's approval.** Not published. Built by KIT on 7 October 2026 from `FRD-BUSHROSE-TIMING-AU-01` as corrected by the Build Check (its §11), under the Pip Knowledge Rules. On approval the dossier becomes `ARC-BUSHROSE-TIMING-AU-01` and these statements are published. Sources are in `PKR-SRC-BUSHROSE-TIMING-AU-submission.md`.
+**Published 8 October 2026.** A Founder approved these answers in chat on 8 October 2026 ("I approve this."), after reading `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-AU-01_Pips_Answers.md`. The one approval covers the research, which is now `ARC-BUSHROSE-TIMING-AU-01` (v1.0), Pip's words, and publishing. The statements are those in Pip's Answers, unchanged.
 
-**No new record IDs.** The six question answers already exist as PKR-CGD-000022 to PKR-CGD-000027 (version 1.0, Published, New Zealand). On approval each gets version 1.1: the Australian statements below are added after the New Zealand statements, which do not change, and version 1.0 is retired.
+Built by KIT on 7 and 8 October 2026 under the Pip Knowledge Rules. Sources are in `PKR-SRC-BUSHROSE-TIMING-AU-submission.md`.
 
-What a Founder reads is `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-AU-01_Pips_Answers.md`.
+**No new record IDs.** The six question answers are PKR-CGD-000022 to PKR-CGD-000027. Each is now at Version 1.1: the Australian statements below follow the New Zealand statements, which did not change (their approved rendering is `PKR-CGD-BUSHROSE-TIMING-NZ-01-submission.md`), and Version 1.0 is retired.
 
 ## 1. Triage Record
 
-Every finding, conflict and gap of the dossier is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant? Item numbers count the Australian statements of each record.
+Every finding, conflict and gap of the research is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant? Item numbers count the Australian statements of each record.
 
 | Item | Use | Routed to |
 |---|---|---|
@@ -111,7 +111,7 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 
 **This topic is shared by the five countries.** The questions are worded for any country. New Zealand's statements were published on 7 October 2026. When the research for the United Kingdom, the United States and Canada is approved, its statements are added to the same six records as further versions, each marked for its place.
 
-**On approval, in each record's common fields:** Applies To becomes "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question"; Supporting Sources gains the Source PKRs listed below; Preserved Uncertainty keeps the New Zealand text and gains the Australian text below.
+**In each record's common fields at Version 1.1:** Applies To is "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question"; Supporting Sources has the Source PKRs listed below added; Preserved Uncertainty keeps the New Zealand text and has the Australian text below added.
 
 ## 3. PKR-CGD-000022 — Which months do I prune my rose?
 
@@ -120,13 +120,13 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000022 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I prune my rose? |
-| Status | Version 1.0 Published (New Zealand statements). These statements: Draft |
-| Version | 0.3 of the Australian statements; the record becomes 1.1 on approval |
+| Status | Published |
+| Version | 1.1 (the Australian statements added; Version 1.0 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Australia; answer to a common question |
-| Supporting Source(s) to add | AF-11: PKR-SRC-000196, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000282, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000336; AF-12: PKR-SRC-000097, PKR-SRC-000278, PKR-SRC-000337; AF-13: PKR-SRC-000068, PKR-SRC-000321, PKR-SRC-000324, PKR-SRC-000327, PKR-SRC-000336; AF-14: PKR-SRC-000068, PKR-SRC-000097, PKR-SRC-000196, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000315, PKR-SRC-000323, PKR-SRC-000324, PKR-SRC-000337; AF-16: PKR-SRC-000068, PKR-SRC-000278, PKR-SRC-000315, PKR-SRC-000323, PKR-SRC-000324, PKR-SRC-000334; AF-46: PKR-SRC-000097, PKR-SRC-000278; AF-47: PKR-SRC-000068, PKR-SRC-000315; AF-48: PKR-SRC-000279, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000336; AF-49: PKR-SRC-000321; AF-50: PKR-SRC-000326, PKR-SRC-000327 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-11: PKR-SRC-000196, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000282, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000336; AF-12: PKR-SRC-000097, PKR-SRC-000278, PKR-SRC-000337; AF-13: PKR-SRC-000068, PKR-SRC-000321, PKR-SRC-000324, PKR-SRC-000327, PKR-SRC-000336; AF-14: PKR-SRC-000068, PKR-SRC-000097, PKR-SRC-000196, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000315, PKR-SRC-000323, PKR-SRC-000324, PKR-SRC-000337; AF-16: PKR-SRC-000068, PKR-SRC-000278, PKR-SRC-000315, PKR-SRC-000323, PKR-SRC-000324, PKR-SRC-000334; AF-46: PKR-SRC-000097, PKR-SRC-000278; AF-47: PKR-SRC-000068, PKR-SRC-000315; AF-48: PKR-SRC-000279, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000336; AF-49: PKR-SRC-000321; AF-50: PKR-SRC-000326, PKR-SRC-000327 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18). |
+| Preserved Uncertainty or Limitations added | Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Australia):** Month windows for the main winter pruning of a Hybrid Tea, Floribunda or Grandiflora rose in Australia, by state, with the frost conditions sources tie it to
@@ -158,13 +158,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000023 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I start and stop feeding? |
-| Status | Version 1.0 Published (New Zealand statements). These statements: Draft |
-| Version | 0.3 of the Australian statements; the record becomes 1.1 on approval |
+| Status | Published |
+| Version | 1.1 (the Australian statements added; Version 1.0 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Australia; answer to a common question |
-| Supporting Source(s) to add | AF-19: PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000321, PKR-SRC-000336; AF-20: PKR-SRC-000097, PKR-SRC-000319, PKR-SRC-000321, PKR-SRC-000324, PKR-SRC-000334, PKR-SRC-000335; AF-21: PKR-SRC-000097, PKR-SRC-000278; AF-22: PKR-SRC-000097, PKR-SRC-000282, PKR-SRC-000316, PKR-SRC-000318, PKR-SRC-000329, PKR-SRC-000335, PKR-SRC-000337; AF-23: PKR-SRC-000279, PKR-SRC-000321; AF-26: PKR-SRC-000315; AF-53: PKR-SRC-000097, PKR-SRC-000278; AF-54: PKR-SRC-000315; AF-55: PKR-SRC-000279, PKR-SRC-000316, PKR-SRC-000318, PKR-SRC-000319, PKR-SRC-000336; AF-56: PKR-SRC-000321 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-19: PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000321, PKR-SRC-000336; AF-20: PKR-SRC-000097, PKR-SRC-000319, PKR-SRC-000321, PKR-SRC-000324, PKR-SRC-000334, PKR-SRC-000335; AF-21: PKR-SRC-000097, PKR-SRC-000278; AF-22: PKR-SRC-000097, PKR-SRC-000282, PKR-SRC-000316, PKR-SRC-000318, PKR-SRC-000329, PKR-SRC-000335, PKR-SRC-000337; AF-23: PKR-SRC-000279, PKR-SRC-000321; AF-26: PKR-SRC-000315; AF-53: PKR-SRC-000097, PKR-SRC-000278; AF-54: PKR-SRC-000315; AF-55: PKR-SRC-000279, PKR-SRC-000316, PKR-SRC-000318, PKR-SRC-000319, PKR-SRC-000336; AF-56: PKR-SRC-000321 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000004 (unchanged) |
-| Preserved Uncertainty or Limitations to add | Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25). |
+| Preserved Uncertainty or Limitations added | Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Australia):** Months for the first and last feed of a Hybrid Tea, Floribunda or Grandiflora rose in Australia
@@ -191,13 +191,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000024 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I stop deadheading? |
-| Status | Version 1.0 Published (New Zealand statements). These statements: Draft |
-| Version | 0.3 of the Australian statements; the record becomes 1.1 on approval |
+| Status | Published |
+| Version | 1.1 (the Australian statements added; Version 1.0 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Australia; answer to a common question |
-| Supporting Source(s) to add | AF-27: PKR-SRC-000278, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000318, PKR-SRC-000321, PKR-SRC-000336, PKR-SRC-000337; AF-28: PKR-SRC-000278; AF-29: PKR-SRC-000315, PKR-SRC-000321; AF-57: PKR-SRC-000315; AF-58: PKR-SRC-000316, PKR-SRC-000318, PKR-SRC-000336; AF-59: PKR-SRC-000321 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-27: PKR-SRC-000278, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000318, PKR-SRC-000321, PKR-SRC-000336, PKR-SRC-000337; AF-28: PKR-SRC-000278; AF-29: PKR-SRC-000315, PKR-SRC-000321; AF-57: PKR-SRC-000315; AF-58: PKR-SRC-000316, PKR-SRC-000318, PKR-SRC-000336; AF-59: PKR-SRC-000321 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000004 (unchanged) |
-| Preserved Uncertainty or Limitations to add | No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming. |
+| Preserved Uncertainty or Limitations added | No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Australia):** When deadheading and the summer trim of a Hybrid Tea, Floribunda or Grandiflora rose are done before winter in Australia
@@ -223,13 +223,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000025 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I plant or move a rose? |
-| Status | Version 1.0 Published (New Zealand statements). These statements: Draft |
-| Version | 0.3 of the Australian statements; the record becomes 1.1 on approval |
+| Status | Published |
+| Version | 1.1 (the Australian statements added; Version 1.0 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Australia; answer to a common question |
-| Supporting Source(s) to add | AF-31: PKR-SRC-000279, PKR-SRC-000282, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000334, PKR-SRC-000335, PKR-SRC-000336; AF-32: PKR-SRC-000282, PKR-SRC-000317, PKR-SRC-000321, PKR-SRC-000330, PKR-SRC-000336; AF-33: PKR-SRC-000320, PKR-SRC-000337; AF-34: PKR-SRC-000283, PKR-SRC-000315, PKR-SRC-000317, PKR-SRC-000335, PKR-SRC-000337; AF-60: PKR-SRC-000097, PKR-SRC-000278; AF-61: PKR-SRC-000315; AF-62: PKR-SRC-000279, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000336; AF-63: PKR-SRC-000321; AF-64: PKR-SRC-000337 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-31: PKR-SRC-000279, PKR-SRC-000282, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000334, PKR-SRC-000335, PKR-SRC-000336; AF-32: PKR-SRC-000282, PKR-SRC-000317, PKR-SRC-000321, PKR-SRC-000330, PKR-SRC-000336; AF-33: PKR-SRC-000320, PKR-SRC-000337; AF-34: PKR-SRC-000283, PKR-SRC-000315, PKR-SRC-000317, PKR-SRC-000335, PKR-SRC-000337; AF-60: PKR-SRC-000097, PKR-SRC-000278; AF-61: PKR-SRC-000315; AF-62: PKR-SRC-000279, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000336; AF-63: PKR-SRC-000321; AF-64: PKR-SRC-000337 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000016; PKR-CGD-000021 (unchanged) |
-| Preserved Uncertainty or Limitations to add | The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society. |
+| Preserved Uncertainty or Limitations added | The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Australia):** Months for planting bare-root and potted Hybrid Tea, Floribunda and Grandiflora roses, and for moving an established one, in Australia
@@ -257,13 +257,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000026 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I clear up and spray in winter? |
-| Status | Version 1.0 Published (New Zealand statements). These statements: Draft |
-| Version | 0.3 of the Australian statements; the record becomes 1.1 on approval |
+| Status | Published |
+| Version | 1.1 (the Australian statements added; Version 1.0 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Australia; answer to a common question |
-| Supporting Source(s) to add | AF-35: PKR-SRC-000097, PKR-SRC-000196, PKR-SRC-000278, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000324, PKR-SRC-000336; AF-36: PKR-SRC-000196, PKR-SRC-000263, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000321, PKR-SRC-000324, PKR-SRC-000329, PKR-SRC-000335, PKR-SRC-000336, PKR-SRC-000337; AF-37: PKR-SRC-000196, PKR-SRC-000324, PKR-SRC-000337; AF-65: PKR-SRC-000097, PKR-SRC-000278; AF-66: PKR-SRC-000315; AF-67: PKR-SRC-000263, PKR-SRC-000279, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000336; AF-68: PKR-SRC-000321 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-35: PKR-SRC-000097, PKR-SRC-000196, PKR-SRC-000278, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000324, PKR-SRC-000336; AF-36: PKR-SRC-000196, PKR-SRC-000263, PKR-SRC-000278, PKR-SRC-000279, PKR-SRC-000315, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000321, PKR-SRC-000324, PKR-SRC-000329, PKR-SRC-000335, PKR-SRC-000336, PKR-SRC-000337; AF-37: PKR-SRC-000196, PKR-SRC-000324, PKR-SRC-000337; AF-65: PKR-SRC-000097, PKR-SRC-000278; AF-66: PKR-SRC-000315; AF-67: PKR-SRC-000263, PKR-SRC-000279, PKR-SRC-000316, PKR-SRC-000317, PKR-SRC-000336; AF-68: PKR-SRC-000321 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000013; PKR-CGD-000006 (unchanged) |
-| Preserved Uncertainty or Limitations to add | The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). |
+| Preserved Uncertainty or Limitations added | The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Australia):** Timing of the winter clear-up, the winter clean-up spray and winter protection for a Hybrid Tea, Floribunda or Grandiflora rose in Australia
@@ -291,13 +291,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000027 |
 | PKR Type | Care Guidance PKR |
 | Title | How do I allow for frost and my own garden? |
-| Status | Version 1.0 Published (New Zealand statements). These statements: Draft |
-| Version | 0.3 of the Australian statements; the record becomes 1.1 on approval |
+| Status | Published |
+| Version | 1.1 (the Australian statements added; Version 1.0 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Australia; answer to a common question |
-| Supporting Source(s) to add | AF-6: PKR-SRC-000282, PKR-SRC-000329, PKR-SRC-000330, PKR-SRC-000334; AF-41: PKR-SRC-000332; AF-42: PKR-SRC-000333; AF-43: PKR-SRC-000330, PKR-SRC-000334, PKR-SRC-000335, PKR-SRC-000337; AF-69: PKR-SRC-000317, PKR-SRC-000319 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-6: PKR-SRC-000282, PKR-SRC-000329, PKR-SRC-000330, PKR-SRC-000334; AF-41: PKR-SRC-000332; AF-42: PKR-SRC-000333; AF-43: PKR-SRC-000330, PKR-SRC-000334, PKR-SRC-000335, PKR-SRC-000337; AF-69: PKR-SRC-000317, PKR-SRC-000319 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | The frost statements come from one source, the national weather bureau, and are about climate, not roses; a potential frost day is not an observed frost. That conditions vary even between suburbs is one general gardening magazine's point. No rose source defines its cold, frosty or mild areas (AF-5), and the gardening climate zones are not used (AF-1 to AF-3, AF-39). The South Australian and Queensland statements each rest on one society. No source gives advice for an unusually early or late season (AF-44). |
+| Preserved Uncertainty or Limitations added | The frost statements come from one source, the national weather bureau, and are about climate, not roses; a potential frost day is not an observed frost. That conditions vary even between suburbs is one general gardening magazine's point. No rose source defines its cold, frosty or mild areas (AF-5), and the gardening climate zones are not used (AF-1 to AF-3, AF-39). The South Australian and Queensland statements each rest on one society. No source gives advice for an unusually early or late season (AF-44). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Australia):** How timing varies with place, frost and climate in Australia, for a Hybrid Tea, Floribunda or Grandiflora rose
@@ -326,20 +326,20 @@ The two frost statements from the national weather bureau are about climate and 
 - Terms are explained once, in the first statement of an answer that uses them: deadheading, bare-root, clean-up spray. Bare-root is explained only as far as a confirmed page explains it. "Dormant" and "established" are used as in the New Zealand statements.
 - Spray types are named as the pages name them. Lime sulphur and a spraying oil are named for Australia; copper is named only in South Australia, where the pages that name it are. No brand, no mixing amount. Each spray statement sends the gardener to the label (rule 7).
 - Pip speaks in the first person. Gaps say "I couldn't find…" and point to a local rose society.
-- Every statement says no more than its finding as corrected in `FRD-BUSHROSE-TIMING-AU-01` §11.
+- Every statement says no more than its finding as corrected in `ARC-BUSHROSE-TIMING-AU-01`.
 
 ## 10. Dependencies
 
-- **Shared records.** These statements are added to PKR-CGD-000022 to PKR-CGD-000027 as version 1.1. The New Zealand statements in those records do not change. The KIT LIL Publication Skill's steps for a new version apply: version 1.0 is retired when 1.1 is published.
-- **Two towns in the app.** Sydney and Brisbane are added to the app's list of named towns (`App/src/lib/place.ts`), with this package. A rose is taken to be in Sydney within 40 km of the city centre and in Brisbane within 25 km, or where the gardener typed the city's name. Without the two towns the app would not show the two statements marked for them.
+- **Shared records.** These statements were added to PKR-CGD-000022 to PKR-CGD-000027 as version 1.1. The New Zealand statements in those records do not change. The KIT LIL Publication Skill's steps for a new version apply: version 1.0 is retired when 1.1 is published.
+- **Two towns in the app.** Sydney and Brisbane were added to the app's list of named towns (`App/src/lib/place.ts`) with the draft package, commit `4418fdf`. A rose is taken to be in Sydney within 40 km of the city centre and in Brisbane within 25 km, or where the gardener typed the city's name. Without the two towns the app would not show the two statements marked for them.
 - **No other app change.** The questions, the place piece and the labels were built with the New Zealand statements.
-- **The published planting answer** (PKR-CGD-000016, "When can I plant or move a rose?") gives the same Australian months in older wording that counts its sources, with a Moderate label where this package has High. The published winter spray answer (PKR-CGD-000013) carries Moderate where this package has High for "after pruning". Both are to be brought into line as a follow-up, with a Founder's agreement (recorded in `FRD-BUSHROSE-TIMING-AU-01` §11.5).
+- **The published planting answer** (PKR-CGD-000016, "When can I plant or move a rose?") gives the same Australian months in older wording that counts its sources, with a Moderate label where this package has High. The published winter spray answer (PKR-CGD-000013) carries Moderate where this package has High for "after pruning". Both are to be brought into line as a follow-up, with a Founder's agreement (recorded in `ARC-BUSHROSE-TIMING-AU-01` §8.1).
 - **Canberra.** The two pages of the Horticultural Society of Canberra are to be tried again. If they open, statements for the Australian Capital Territory are a small addition, checked and approved in the same way.
 - **Comparison images.** None are needed.
 
 ## 11. Build Check Record
 
-**Part 1, sources (7 October 2026).** 33 sources (18 websites) reopened; 31 opened and two (both of the Horticultural Society of Canberra) returned an error on every try. Of the 141 quotations on the pages that opened, 134 were found word for word and 6 with small differences; one entry was a note, not a quotation. 60 fully support the finding they were recorded against and 80 support part of it. 65 further sentences were confirmed. The corrections are in `FRD-BUSHROSE-TIMING-AU-01` §11: 27 findings reworded or changed in level, limitations added to 18 more, 26 findings added (a narrower finding for each state or city, and three gaps) and 4 conflicts added.
+**Part 1, sources (7 October 2026).** 33 sources (18 websites) reopened; 31 opened and two (both of the Horticultural Society of Canberra) returned an error on every try. Of the 141 quotations on the pages that opened, 134 were found word for word and 6 with small differences; one entry was a note, not a quotation. 60 fully support the finding they were recorded against and 80 support part of it. 65 further sentences were confirmed. The corrections are in `ARC-BUSHROSE-TIMING-AU-01`: 27 findings reworded or changed in level, limitations added to 18 more, 26 findings added (a narrower finding for each state or city, and three gaps) and 4 conflicts added.
 
 **Part 2, wording (7 October 2026).** Checked by a session that took no part in writing the statements.
 
@@ -361,7 +361,7 @@ Versions 0.2 and 0.3 were checked only where they had changed.
 
 The results are in `Working/AI Outputs/Build_Check_TIMING-AU_*.json`.
 
-**In the app.** On 8 October 2026, test copies of the six records at version 1.1 were loaded into a local build (never the live LIL) and opened at phone widths for seventeen plants: GPS positions in Sydney, Parramatta, Wagga Wagga, Adelaide, Perth, Brisbane, Cairns, Darwin and Canberra; typed locations in Sydney (no state given), Melbourne and Hobart; a typed "Australia" with no state and a GPS position on the New South Wales and Victoria border at Albury, where the app asked for the state; and plants in Dunedin, Auckland and the United Kingdom. Each saw the statements for its own place and no others: a Parramatta rose saw the Sydney statement, a Wagga Wagga rose did not, and a Canberra rose saw only the Australia-wide statements. The New Zealand answers and the earlier Spraying and Planting answers were unchanged. The test copies were removed afterwards and the app build passes. Not checked: the signed-in screens, and a real phone.
+**In the app.** On 8 October 2026, before approval, test copies of the six records at version 1.1 were loaded into a local build (never the live LIL) and opened at phone widths for seventeen plants: GPS positions in Sydney, Parramatta, Wagga Wagga, Adelaide, Perth, Brisbane, Cairns, Darwin and Canberra; typed locations in Sydney (no state given), Melbourne and Hobart; a typed "Australia" with no state and a GPS position on the New South Wales and Victoria border at Albury, where the app asked for the state; and plants in Dunedin, Auckland and the United Kingdom. Each saw the statements for its own place and no others: a Parramatta rose saw the Sydney statement, a Wagga Wagga rose did not, and a Canberra rose saw only the Australia-wide statements. The New Zealand answers and the earlier Spraying and Planting answers were unchanged. The test copies were removed afterwards and the app build passes. Not checked: the signed-in screens, and a real phone.
 
 **Sources.** 23 new Source PKRs (PKR-SRC-000315 to PKR-SRC-000337), and 8 existing ones get the new references added. All are listed in the Source PKR package.
 

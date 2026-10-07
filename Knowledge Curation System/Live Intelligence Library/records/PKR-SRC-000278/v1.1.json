@@ -1,0 +1,55 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000278",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The Rose Society of NSW — \"Rose Care Calendar\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-4 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-5 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-12 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-16 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-21 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-28 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-30 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-46 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-53 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-60 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-65 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Rose society, Australia",
+    "identity": "The Rose Society of NSW, \"Rose Care Calendar\", date not shown. Rose society, Australia. https://nsw.rose.org.au/growing-roses/care-calendar, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:RSNSW-CAL)",
+    "url": "https://nsw.rose.org.au/growing-roses/care-calendar",
+    "register_code": "PLANTMOVE:RSNSW-CAL",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-AU-01 added (register code TIMING-AU:RSNSW-CAL). Nothing else changed. Version 1.0 retired."
+  }
+}

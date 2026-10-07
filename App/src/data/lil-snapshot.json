@@ -2168,24 +2168,30 @@
   },
   {
    "pkr_id": "PKR-CGD-000022",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "Which months do I prune my rose?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000034",
      "PKR-SRC-000066",
      "PKR-SRC-000067",
+     "PKR-SRC-000068",
+     "PKR-SRC-000097",
      "PKR-SRC-000157",
      "PKR-SRC-000158",
      "PKR-SRC-000190",
      "PKR-SRC-000193",
      "PKR-SRC-000194",
+     "PKR-SRC-000196",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
      "PKR-SRC-000253",
      "PKR-SRC-000273",
+     "PKR-SRC-000278",
+     "PKR-SRC-000279",
+     "PKR-SRC-000282",
      "PKR-SRC-000295",
      "PKR-SRC-000296",
      "PKR-SRC-000297",
@@ -2195,16 +2201,27 @@
      "PKR-SRC-000308",
      "PKR-SRC-000311",
      "PKR-SRC-000312",
-     "PKR-SRC-000314"
+     "PKR-SRC-000314",
+     "PKR-SRC-000315",
+     "PKR-SRC-000316",
+     "PKR-SRC-000317",
+     "PKR-SRC-000321",
+     "PKR-SRC-000323",
+     "PKR-SRC-000324",
+     "PKR-SRC-000326",
+     "PKR-SRC-000327",
+     "PKR-SRC-000334",
+     "PKR-SRC-000336",
+     "PKR-SRC-000337"
     ],
-    "founder_approval_date": "2026-10-07",
+    "founder_approval_date": "2026-10-08",
     "related_pkrs": [
      {
       "relationship": "related",
       "pkr_id": "PKR-SGT-000001"
      }
     ],
-    "preserved_uncertainty": "Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts.",
+    "preserved_uncertainty": "New Zealand: Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts. Australia: Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2393,6 +2410,156 @@
        "ARC-BUSHROSE-TIMING-NZ-01 AF-46",
        "rule 6"
       ]
+     },
+     {
+      "text": "In most areas, the main winter pruning is done in July. In some places it can start in June. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "High",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-11",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-13",
+       "ARC-BUSHROSE-TIMING-AU-01 C-2",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In a cold or frosty area, wait until August to prune, so that frost does not damage the new shoots. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "High",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-14",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-16",
+       "ARC-BUSHROSE-TIMING-AU-01 C-3",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In New South Wales, one rose society says to prune in July near the coast, where frosts are rare or never come, and that you can start in late June. Inland, or where frosts are regular, it says to prune in August. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "AU-NSW"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-12",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-46",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Victoria, one rose society says the best time to prune is June or July. In a cold area, it says to wait until August, so that frost does not knock back the new shoots. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "AU-VIC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-47",
+       "ARC-BUSHROSE-TIMING-AU-01 C-2",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In South Australia, prune in July. One nursery says pruning can start in late June. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Moderate",
+      "place": [
+       "AU-SA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-48",
+       "ARC-BUSHROSE-TIMING-AU-01 C-2",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "For a frost area in South Australia, one rose society says to wait until August to prune, and one nursery says July. Months are only a guide, because frosts vary from year to year.",
+      "kind": "disagreement",
+      "place": [
+       "AU-SA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 C-9",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-48",
+       "ARC-BUSHROSE-TIMING-AU-01 C-3",
+       "rule 2",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Western Australia, one rose society says to prune in winter, in June and July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-WA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-49",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Brisbane, one public rose garden says the best time to prune is June or July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-QLD:Brisbane"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-50",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "I couldn't find months for rose jobs written for Tasmania. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "AU-TAS"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-51",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "I couldn't find months for rose jobs written for the Northern Territory. A local garden society or botanic garden is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "AU-NT"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-52",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "I couldn't find months for rose jobs written for Queensland, apart from pruning in Brisbane. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "AU-QLD"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-71",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "I couldn't find months for rose jobs written for the dry inland of Australia, such as Mildura. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "AU-NSW",
+       "AU-VIC",
+       "AU-QLD",
+       "AU-SA",
+       "AU-WA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-45",
+       "rule 5"
+      ]
      }
     ],
     "presentation": {
@@ -2408,32 +2575,47 @@
   },
   {
    "pkr_id": "PKR-CGD-000023",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "When do I start and stop feeding?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000066",
+     "PKR-SRC-000097",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
      "PKR-SRC-000253",
      "PKR-SRC-000272",
+     "PKR-SRC-000278",
+     "PKR-SRC-000279",
+     "PKR-SRC-000282",
      "PKR-SRC-000302",
      "PKR-SRC-000307",
      "PKR-SRC-000309",
      "PKR-SRC-000310",
      "PKR-SRC-000311",
-     "PKR-SRC-000313"
+     "PKR-SRC-000313",
+     "PKR-SRC-000315",
+     "PKR-SRC-000316",
+     "PKR-SRC-000318",
+     "PKR-SRC-000319",
+     "PKR-SRC-000321",
+     "PKR-SRC-000324",
+     "PKR-SRC-000329",
+     "PKR-SRC-000334",
+     "PKR-SRC-000335",
+     "PKR-SRC-000336",
+     "PKR-SRC-000337"
     ],
-    "founder_approval_date": "2026-10-07",
+    "founder_approval_date": "2026-10-08",
     "related_pkrs": [
      {
       "relationship": "related",
       "pkr_id": "PKR-CGD-000004"
      }
     ],
-    "preserved_uncertainty": "Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2).",
+    "preserved_uncertainty": "New Zealand: Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2). Australia: Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2486,6 +2668,93 @@
        "ARC-BUSHROSE-TIMING-NZ-01 AF-22",
        "rule 6"
       ]
+     },
+     {
+      "text": "Start feeding after the winter prune, as new growth appears. One nursery waits until the rose has plenty of leaves and its first blooms.",
+      "confidence": "Moderate",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-20",
+       "ARC-BUSHROSE-TIMING-AU-01 C-4"
+      ]
+     },
+     {
+      "text": "Give the spring feed in the second half of August or in September. Months are only a guide.",
+      "confidence": "High",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-19",
+       "ARC-BUSHROSE-TIMING-AU-01 C-4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Give the last feed in late summer or early autumn, in February or March. One nursery says not to feed in late autumn. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-22",
+       "ARC-BUSHROSE-TIMING-AU-01 C-5",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In New South Wales, one rose society says to give the first feed after the winter prune, ideally in the second half of August, or in September in a cold area. It says to give the last feed in mid to late February. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-NSW"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-53",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-21",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Victoria, one rose society says to feed roses at the end of August. For a newly planted bare-root rose (a dormant plant sold in winter, with no leaves or flowers), it says to wait until late November or early December, and then to feed at half the recommended amount. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-VIC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-54",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-26",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In South Australia, feed in September and again in February. One rose society says early in September, and in March if you missed February. On sandy soil, it says to feed four times: in September, November, February and April. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "AU-SA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-55",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-23",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Western Australia, one rose society says to feed as new growth appears in early spring, in August or September, and to keep feeding into May. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-WA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-56",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-23",
+       "ARC-BUSHROSE-TIMING-AU-01 C-5",
+       "rule 4",
+       "rule 6"
+      ]
      }
     ],
     "presentation": {
@@ -2501,24 +2770,31 @@
   },
   {
    "pkr_id": "PKR-CGD-000024",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "When do I stop deadheading?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000193",
      "PKR-SRC-000228",
-     "PKR-SRC-000314"
+     "PKR-SRC-000278",
+     "PKR-SRC-000314",
+     "PKR-SRC-000315",
+     "PKR-SRC-000316",
+     "PKR-SRC-000318",
+     "PKR-SRC-000321",
+     "PKR-SRC-000336",
+     "PKR-SRC-000337"
     ],
-    "founder_approval_date": "2026-10-07",
+    "founder_approval_date": "2026-10-08",
     "related_pkrs": [
      {
       "relationship": "related",
       "pkr_id": "PKR-CGD-000004"
      }
     ],
-    "preserved_uncertainty": "The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25).",
+    "preserved_uncertainty": "New Zealand: The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25). Australia: No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2563,6 +2839,78 @@
        "ARC-BUSHROSE-TIMING-NZ-01 AF-25",
        "rule 5"
       ]
+     },
+     {
+      "text": "I couldn't find a month to stop deadheading (cutting off the finished blooms) in Australia. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-29",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "To bring on flowers in autumn, give the rose a light trim in summer or early autumn. This is done between January and March, depending on where you live. Months are only a guide.",
+      "confidence": "High",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-27",
+       "ARC-BUSHROSE-TIMING-AU-01 C-11",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In New South Wales, one rose society says to trim roses for flowers in autumn: in January in a cool area, early in February in a mild area, and in March in a warm area. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-NSW"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-28",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Victoria, one rose society says to give a summer trim in February if you are timing the flowers for a show or special event. It also says to deadhead in April. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-VIC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-57",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In South Australia, a light trim in late summer or early autumn brings on the autumn flowers. One nursery says mid February, and one rose society says one to two weeks after the February feed. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "AU-SA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-58",
+       "ARC-BUSHROSE-TIMING-AU-01 C-11",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Western Australia, one rose society says to give a light prune, taking off about one-third, in March or April, and to keep deadheading into May. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-WA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-59",
+       "ARC-BUSHROSE-TIMING-AU-01 C-11",
+       "rule 4",
+       "rule 6"
+      ]
      }
     ],
     "presentation": {
@@ -2578,13 +2926,14 @@
   },
   {
    "pkr_id": "PKR-CGD-000025",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "Which months do I plant or move a rose?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000034",
+     "PKR-SRC-000097",
      "PKR-SRC-000157",
      "PKR-SRC-000190",
      "PKR-SRC-000193",
@@ -2595,13 +2944,27 @@
      "PKR-SRC-000273",
      "PKR-SRC-000274",
      "PKR-SRC-000276",
+     "PKR-SRC-000278",
+     "PKR-SRC-000279",
+     "PKR-SRC-000282",
+     "PKR-SRC-000283",
      "PKR-SRC-000296",
      "PKR-SRC-000299",
      "PKR-SRC-000300",
      "PKR-SRC-000301",
-     "PKR-SRC-000311"
+     "PKR-SRC-000311",
+     "PKR-SRC-000315",
+     "PKR-SRC-000316",
+     "PKR-SRC-000317",
+     "PKR-SRC-000320",
+     "PKR-SRC-000321",
+     "PKR-SRC-000330",
+     "PKR-SRC-000334",
+     "PKR-SRC-000335",
+     "PKR-SRC-000336",
+     "PKR-SRC-000337"
     ],
-    "founder_approval_date": "2026-10-07",
+    "founder_approval_date": "2026-10-08",
     "related_pkrs": [
      {
       "relationship": "related",
@@ -2612,7 +2975,7 @@
       "pkr_id": "PKR-CGD-000021"
      }
     ],
-    "preserved_uncertainty": "Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies.",
+    "preserved_uncertainty": "New Zealand: Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies. Australia: The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2699,6 +3062,101 @@
        "rule 4",
        "rule 6"
       ]
+     },
+     {
+      "text": "In Australia, plant a bare-root rose (a dormant plant sold in winter, with no leaves or flowers) in June or July. One source says planting can start in May. Months are only a guide.",
+      "confidence": "High",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-31",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-32",
+       "ARC-BUSHROSE-TIMING-AU-01 C-6",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Move an established rose in winter, while it is dormant.",
+      "confidence": "Moderate",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-34"
+      ]
+     },
+     {
+      "text": "Don't plant a rose in very hot weather.",
+      "confidence": "Moderate",
+      "kind": "precaution",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-33",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In New South Wales, one rose society says to prepare the soil in late April or May, for planting in June or July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-NSW"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-60",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Sydney, one garden centre says a rose in a pot can be planted at any time of year, though not in very hot weather.",
+      "confidence": "Low",
+      "place": [
+       "AU-NSW:Sydney"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-64",
+       "ARC-BUSHROSE-TIMING-AU-01 AF-33",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Victoria, one rose society says to order new roses in May and start planting them in June. It also says to move an established rose in June. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-VIC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-61",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In South Australia, plant a bare-root rose in June or July. Planting can go on into August. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "AU-SA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-62",
+       "ARC-BUSHROSE-TIMING-AU-01 C-6",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Western Australia, one rose society says to plant new roses in May, and to plant or repot as needed in June and July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-WA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-63",
+       "rule 4",
+       "rule 6"
+      ]
      }
     ],
     "presentation": {
@@ -2714,21 +3172,26 @@
   },
   {
    "pkr_id": "PKR-CGD-000026",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "When do I clear up and spray in winter?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000066",
+     "PKR-SRC-000097",
      "PKR-SRC-000157",
      "PKR-SRC-000190",
      "PKR-SRC-000193",
+     "PKR-SRC-000196",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
      "PKR-SRC-000253",
+     "PKR-SRC-000263",
      "PKR-SRC-000272",
      "PKR-SRC-000274",
+     "PKR-SRC-000278",
+     "PKR-SRC-000279",
      "PKR-SRC-000295",
      "PKR-SRC-000297",
      "PKR-SRC-000298",
@@ -2738,9 +3201,18 @@
      "PKR-SRC-000311",
      "PKR-SRC-000312",
      "PKR-SRC-000313",
-     "PKR-SRC-000314"
+     "PKR-SRC-000314",
+     "PKR-SRC-000315",
+     "PKR-SRC-000316",
+     "PKR-SRC-000317",
+     "PKR-SRC-000321",
+     "PKR-SRC-000324",
+     "PKR-SRC-000329",
+     "PKR-SRC-000335",
+     "PKR-SRC-000336",
+     "PKR-SRC-000337"
     ],
-    "founder_approval_date": "2026-10-07",
+    "founder_approval_date": "2026-10-08",
     "related_pkrs": [
      {
       "relationship": "related",
@@ -2751,7 +3223,7 @@
       "pkr_id": "PKR-CGD-000006"
      }
     ],
-    "preserved_uncertainty": "Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01).",
+    "preserved_uncertainty": "New Zealand: Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). Australia: The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2838,6 +3310,103 @@
        "ARC-BUSHROSE-TIMING-NZ-01 AF-35",
        "rule 5"
       ]
+     },
+     {
+      "text": "After the winter prune, pick off any leaves left on the rose, clear up the prunings and fallen leaves, and get rid of them. One source says to put them in the rubbish bin, not the compost.",
+      "confidence": "High",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-35",
+       "ARC-BUSHROSE-TIMING-AU-01 C-10"
+      ]
+     },
+     {
+      "text": "If you use a clean-up spray in winter (a spray to clear pests and diseases left on the plant), put it on after pruning. Lime sulphur and a spraying oil are two of the types used. Follow the label on the spray.",
+      "confidence": "High",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-36",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "If you use lime sulphur as a winter spray, put it on while the rose is dormant, before new growth appears. One source says lime sulphur burns new growth. Follow the label on the spray.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-37",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In New South Wales, one rose society says to put the prunings and fallen leaves in the green waste bin as soon as pruning is finished, and then to spray. It says lime sulphur is effective. Follow the label on the spray.",
+      "confidence": "Low",
+      "place": [
+       "AU-NSW"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-65",
+       "ARC-BUSHROSE-TIMING-AU-01 C-10",
+       "rule 4",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In Victoria, one rose society says to take all the leaves off the bushes and rake up around the beds in July, and then to spray the bare roses and, lightly, the ground around them. Follow the label on the spray. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-VIC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-66",
+       "rule 4",
+       "rule 6",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In South Australia, clear up the prunings and fallen leaves after pruning, in July or August, and then spray. Lime sulphur, copper and a spraying oil are the sprays used. Follow the label on the spray. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "AU-SA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-67",
+       "ARC-BUSHROSE-TIMING-AU-01 C-7",
+       "rule 6",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In Western Australia, one rose society says to spray after pruning, in June or July, to clean up pests and disease. Follow the label on the spray. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "AU-WA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-68",
+       "rule 4",
+       "rule 6",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "I couldn't find Australian advice on covering roses or mounding soil over the base for winter. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-38",
+       "rule 5"
+      ]
      }
     ],
     "presentation": {
@@ -2853,31 +3422,41 @@
   },
   {
    "pkr_id": "PKR-CGD-000027",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "How do I allow for frost and my own garden?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand or Australia; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000034",
      "PKR-SRC-000067",
      "PKR-SRC-000158",
      "PKR-SRC-000228",
+     "PKR-SRC-000282",
      "PKR-SRC-000296",
      "PKR-SRC-000297",
      "PKR-SRC-000303",
      "PKR-SRC-000304",
      "PKR-SRC-000306",
-     "PKR-SRC-000307"
+     "PKR-SRC-000307",
+     "PKR-SRC-000317",
+     "PKR-SRC-000319",
+     "PKR-SRC-000329",
+     "PKR-SRC-000330",
+     "PKR-SRC-000332",
+     "PKR-SRC-000333",
+     "PKR-SRC-000334",
+     "PKR-SRC-000335",
+     "PKR-SRC-000337"
     ],
-    "founder_approval_date": "2026-10-07",
+    "founder_approval_date": "2026-10-08",
     "related_pkrs": [
      {
       "relationship": "related",
       "pkr_id": "PKR-SGT-000001"
      }
     ],
-    "preserved_uncertainty": "The frost statements come from one source, the national climate research institute, and are about climate, not roses. That the garden itself matters is one botanic garden's point. No rose source draws a boundary for its climate bands (AF-3). Whether the institute's 'north of Waikato' matches the 'up north' of rose sources is the ROC's own question and is not used (R-5a).",
+    "preserved_uncertainty": "New Zealand: The frost statements come from one source, the national climate research institute, and are about climate, not roses. That the garden itself matters is one botanic garden's point. No rose source draws a boundary for its climate bands (AF-3). Whether the institute's 'north of Waikato' matches the 'up north' of rose sources is the ROC's own question and is not used (R-5a). Australia: The frost statements come from one source, the national weather bureau, and are about climate, not roses; a potential frost day is not an observed frost. That conditions vary even between suburbs is one general gardening magazine's point. No rose source defines its cold, frosty or mild areas (AF-5), and the gardening climate zones are not used (AF-1 to AF-3, AF-39). The South Australian and Queensland statements each rest on one society. No source gives advice for an unusually early or late season (AF-44).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2923,6 +3502,58 @@
       ],
       "trace": [
        "ARC-BUSHROSE-TIMING-NZ-01 AF-38"
+      ]
+     },
+     {
+      "text": "In an area that gets frosts, wait until the last frost has passed before you prune.",
+      "confidence": "Moderate",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-43",
+       "ARC-BUSHROSE-TIMING-AU-01 C-12"
+      ]
+     },
+     {
+      "text": "Large areas of northern Australia are generally free of frost, the national weather bureau says. Days cold enough for frost fall mainly between late autumn and early spring.",
+      "confidence": "Moderate",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-41"
+      ]
+     },
+     {
+      "text": "Frost is local: how severe it is can vary a lot over a very small area, the national weather bureau says. Frost can form in a valley while the land around it stays free of it.",
+      "confidence": "Moderate",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-42"
+      ]
+     },
+     {
+      "text": "In a humid climate, roses are more likely to get fungal diseases, and one source says roses are harder to manage in the hot tropics. Another says to choose a rose that is not prone to these diseases if your climate is humid.",
+      "confidence": "Moderate",
+      "place": [
+       "AU"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-6"
+      ]
+     },
+     {
+      "text": "In South Australia, one rose society says frosts are common in country areas, and that it is colder and wetter in the Adelaide Hills, the South-East, and Southern Yorke Peninsula and Eyre Peninsula.",
+      "confidence": "Low",
+      "place": [
+       "AU-SA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-AU-01 AF-69",
+       "rule 4"
       ]
      }
     ],
@@ -6633,7 +7264,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000068",
-   "version": "1.4",
+   "version": "1.5",
    "pkr_type": "source",
    "title": "Rose Society of Victoria — The Pruning Bible",
    "common": {
@@ -6650,7 +7281,12 @@
      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-5 (Moderate)",
      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-12 (High)",
      "ARC-BUSHROSE-WEAKCONGESTED-01, AF-13 (High)",
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High) (added v1.4, 2 October 2026)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High) (added v1.4, 2 October 2026)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-13 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-16 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-18 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-47 (Low)"
     ]
    },
    "content": {
@@ -7411,7 +8047,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000097",
-   "version": "1.3",
+   "version": "1.4",
    "pkr_type": "source",
    "title": "Rose Society of NSW — Rose Growing Advice",
    "common": {
@@ -7436,7 +8072,19 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-5 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-4 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-18 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-21 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-46 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-53 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-60 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-65 (Low)"
     ]
    },
    "content": {
@@ -10084,7 +10732,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000196",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "ABC Gardening Australia magazine (Jennifer Stackhouse) — \"How to prune roses in winter\"",
    "common": {
@@ -10095,7 +10743,12 @@
     "preserved_uncertainty": "",
     "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
     "mil_references": [
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-37 (Low)"
     ]
    },
    "content": {
@@ -11915,7 +12568,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000263",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Ross Roses — \"Spraying Roses\"",
    "common": {
@@ -11936,7 +12589,9 @@
      "ARC-BUSHROSE-SPRAYING-01, AF-36 (Moderate)",
      "ARC-BUSHROSE-SPRAYING-01, AF-37 (Moderate)",
      "ARC-BUSHROSE-SPRAYING-01, AF-38 (Moderate)",
-     "ARC-BUSHROSE-SPRAYING-01, AF-40 (High)"
+     "ARC-BUSHROSE-SPRAYING-01, AF-40 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-67 (Moderate)"
     ]
    },
    "content": {
@@ -12373,7 +13028,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000278",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "The Rose Society of NSW — \"Rose Care Calendar\"",
    "common": {
@@ -12390,7 +13045,24 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-4 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-5 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-16 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-21 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-28 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-30 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-46 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-53 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-60 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-65 (Low)"
     ]
    },
    "content": {
@@ -12403,7 +13075,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000279",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "The Rose Society of South Australia Inc. — \"Rose Growing Guide\"",
    "common": {
@@ -12427,7 +13099,17 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-23 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-48 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-55 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-62 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-67 (Moderate)"
     ]
    },
    "content": {
@@ -12498,7 +13180,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000282",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "ABC Gardening Australia magazine (Loren Desbruslais) — \"Growing roses 101\"",
    "common": {
@@ -12518,7 +13200,12 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-6 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-32 (Moderate)"
     ]
    },
    "content": {
@@ -12531,7 +13218,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000283",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Treloar Roses — \"Transplanting established roses\"",
    "common": {
@@ -12549,7 +13236,8 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-32 (Low)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-34 (Low)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-34 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-34 (Moderate)"
     ]
    },
    "content": {
@@ -13414,6 +14102,675 @@
     "identity": "The Garden Fairies, \"Autumn rose care for Auckland's climate\", 26 April 2018. Commercial (garden maintenance service, Auckland), New Zealand. https://www.thegardenfairies.co.nz/autumn-rose-care-for-aucklands-climate/, accessed 1 October 2026 and 6 October 2026 (register code TIMING-NZ:GF)",
     "url": "https://www.thegardenfairies.co.nz/autumn-rose-care-for-aucklands-climate/",
     "register_code": "TIMING-NZ:GF",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000315",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "The Rose Society of Victoria — \"Monthly Care of Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-16 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-26 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-29 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-34 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-47 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-54 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-57 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-61 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-66 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Victoria",
+    "identity": "The Rose Society of Victoria, \"Monthly Care of Roses\", date not shown. Rose society, Victoria. https://www.rosesocietyvic.org.au/index.php/monthly-care-of-roses/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:RSV-M)",
+    "url": "https://www.rosesocietyvic.org.au/index.php/monthly-care-of-roses/",
+    "register_code": "TIMING-AU:RSV-M",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000316",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Rose Society of South Australia — \"A Calendar for Rose Growers\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-48 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-55 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-58 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-62 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-67 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, South Australia",
+    "identity": "Rose Society of South Australia, \"A Calendar for Rose Growers\", date not shown. Rose society, South Australia. https://sarose.org.au/growing-advice/a-calendar-for-rose-growers, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:SARS-CAL)",
+    "url": "https://sarose.org.au/growing-advice/a-calendar-for-rose-growers",
+    "register_code": "TIMING-AU:SARS-CAL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000317",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Rose Society of South Australia — \"Winter Rose Growing Culture Notes for South Australia\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-18 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-32 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-34 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-40 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-48 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-62 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-67 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-69 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, South Australia",
+    "identity": "Rose Society of South Australia, \"Winter Rose Growing Culture Notes for South Australia\", date not shown. Rose society, South Australia. https://sarose.org.au/growing-advice/winter-rose-growing-culture-notes-for-south-australia, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:SARS-WIN)",
+    "url": "https://sarose.org.au/growing-advice/winter-rose-growing-culture-notes-for-south-australia",
+    "register_code": "TIMING-AU:SARS-WIN",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000318",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Rose Society of South Australia — \"Autumn Rose Growing Culture Notes for South Australia\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-55 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-58 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, South Australia",
+    "identity": "Rose Society of South Australia, \"Autumn Rose Growing Culture Notes for South Australia\", date not shown. Rose society, South Australia. https://sarose.org.au/growing-advice/autumn-rose-growing-culture-notes-for-south-australia, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:SARS-AUT)",
+    "url": "https://sarose.org.au/growing-advice/autumn-rose-growing-culture-notes-for-south-australia",
+    "register_code": "TIMING-AU:SARS-AUT",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000319",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Rose Society of South Australia — \"Spring Rose Growing Culture Notes for South Australia\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-40 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-55 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-69 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, South Australia",
+    "identity": "Rose Society of South Australia, \"Spring Rose Growing Culture Notes for South Australia\", date not shown. Rose society, South Australia. https://sarose.org.au/growing-advice/spring-rose-growing-culture-notes-for-south-australia, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:SARS-SPR)",
+    "url": "https://sarose.org.au/growing-advice/spring-rose-growing-culture-notes-for-south-australia",
+    "register_code": "TIMING-AU:SARS-SPR",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000320",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Melanie Trimper, Rose Society of South Australia — \"Potted Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-33 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, South Australia",
+    "identity": "Melanie Trimper, Rose Society of South Australia, \"Potted Roses\", date not shown. Rose society, South Australia. https://sarose.org.au/growing-advice/potted-roses, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:SARS-POT)",
+    "url": "https://sarose.org.au/growing-advice/potted-roses",
+    "register_code": "TIMING-AU:SARS-POT",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000321",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "The Rose Society of Western Australia Inc. — \"Rose Care Calendar\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-13 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-23 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-29 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-32 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-49 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-56 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-59 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-63 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-68 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Western Australia",
+    "identity": "The Rose Society of Western Australia Inc., \"Rose Care Calendar\", date not shown. Rose society, Western Australia. https://www.rosesocietywa.au/rose-care-calendar, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:RSWA)",
+    "url": "https://www.rosesocietywa.au/rose-care-calendar",
+    "register_code": "TIMING-AU:RSWA",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000322",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "The Queensland Rose Society Inc — \"Growing Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-40 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-70 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Queensland",
+    "identity": "The Queensland Rose Society Inc, \"Growing Roses\", 29 May 2026. Rose society, Queensland. https://qld.rose.org.au/growing-roses/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:QRS-G)",
+    "url": "https://qld.rose.org.au/growing-roses/",
+    "register_code": "TIMING-AU:QRS-G",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000323",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "ABC Gardening Australia (Sophie Thomson) — \"FAQs - Pruning Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-16 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster, national",
+    "identity": "ABC Gardening Australia (Sophie Thomson), \"FAQs - Pruning Roses\", 29 May 2026. Public broadcaster, national. https://www.abc.net.au/gardening/how-to/faqs-pruning-roses-jackfruit-fruit-leather/106732162, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:GA-FAQ)",
+    "url": "https://www.abc.net.au/gardening/how-to/faqs-pruning-roses-jackfruit-fruit-leather/106732162",
+    "register_code": "TIMING-AU:GA-FAQ",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000324",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "ABC Gardening Australia (Jane Edmanson) — \"Rose Pruning\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-13 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-16 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-37 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster, national",
+    "identity": "ABC Gardening Australia (Jane Edmanson), \"Rose Pruning\", 28 June 2008. Public broadcaster, national. https://www.abc.net.au/gardening/how-to/rose-pruning/9428904, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:GA-RP08)",
+    "url": "https://www.abc.net.au/gardening/how-to/rose-pruning/9428904",
+    "register_code": "TIMING-AU:GA-RP08",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000325",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "ABC Gardening Australia (Leonie Norrington) — \"Tropical Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-8 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-17 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-25 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster; a garden at Berry Springs, south of Darwin, Northern Territory",
+    "identity": "ABC Gardening Australia (Leonie Norrington), \"Tropical Roses\", 28 October 2006. Public broadcaster; a garden at Berry Springs, south of Darwin, Northern Territory. https://www.abc.net.au/gardening/how-to/tropical-roses/9427370, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:GA-TROP)",
+    "url": "https://www.abc.net.au/gardening/how-to/tropical-roses/9427370",
+    "register_code": "TIMING-AU:GA-TROP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000326",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "ABC Gardening Australia (Jerry Coleby-Williams) — \"Subtropical Surprise\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-24 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-50 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Public broadcaster; a rose farm on the outskirts of Brisbane",
+    "identity": "ABC Gardening Australia (Jerry Coleby-Williams), \"Subtropical Surprise\", 5 October 2018. Public broadcaster; a rose farm on the outskirts of Brisbane. https://www.abc.net.au/gardening/how-to/subtropical-surprise/10333054, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:GA-SUB)",
+    "url": "https://www.abc.net.au/gardening/how-to/subtropical-surprise/10333054",
+    "register_code": "TIMING-AU:GA-SUB",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000327",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Brisbane City Council, New Farm Park — \"Tips for a flourishing rose garden\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-13 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-50 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Local government public rose garden, Brisbane",
+    "identity": "Brisbane City Council, New Farm Park, \"Tips for a flourishing rose garden\", date not shown. Local government public rose garden, Brisbane. https://newfarmpark.com.au/tips-for-a-flourishing-rose-garden/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:NFP)",
+    "url": "https://newfarmpark.com.au/tips-for-a-flourishing-rose-garden/",
+    "register_code": "TIMING-AU:NFP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000328",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "ABC Organic Gardener magazine (nextmedia, under licence from the ABC) — \"Understanding Climate Zones\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-1 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-39 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-40 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Broadcaster-licensed gardening magazine, national",
+    "identity": "ABC Organic Gardener magazine (nextmedia, under licence from the ABC), \"Understanding Climate Zones\", Modified 17 August 2026. Broadcaster-licensed gardening magazine, national. https://www.organicgardener.com.au/understanding-climate-zones/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:OGO)",
+    "url": "https://www.organicgardener.com.au/understanding-climate-zones/",
+    "register_code": "TIMING-AU:OGO",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000329",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "The Seed Collection Pty Ltd — \"How to Grow Roses (bare-rooted)\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-1 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-6 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-39 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (seed and plant retailer), national",
+    "identity": "The Seed Collection Pty Ltd, \"How to Grow Roses (bare-rooted)\", Copyright 2026. Commercial (seed and plant retailer), national. https://www.theseedcollection.com.au/growguide/rose, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:TSC)",
+    "url": "https://www.theseedcollection.com.au/growguide/rose",
+    "register_code": "TIMING-AU:TSC",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000330",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Penfield Gardens Rose Nursery — \"How to Select the Perfect Rose Variety for Australian Gardens\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-2 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-6 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-7 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-32 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-43 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), South Australia",
+    "identity": "Penfield Gardens Rose Nursery, \"How to Select the Perfect Rose Variety for Australian Gardens\", 14 April 2026. Commercial (rose nursery), South Australia. https://penfieldroses.com.au/how-to-select-the-perfect-rose-variety-for-australian-gardens/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:PEN)",
+    "url": "https://penfieldroses.com.au/how-to-select-the-perfect-rose-variety-for-australian-gardens/",
+    "register_code": "TIMING-AU:PEN",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000331",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Bureau of Meteorology — \"Australian climate zones\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-3 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "National meteorological agency",
+    "identity": "Bureau of Meteorology, \"Australian climate zones\", 16 February 2021; modified 24 June 2026. National meteorological agency. https://www.bom.gov.au/resources/learn-and-explore/climate-knowledge-centre/australian-climate-zones, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:BOM-CZ)",
+    "url": "https://www.bom.gov.au/resources/learn-and-explore/climate-knowledge-centre/australian-climate-zones",
+    "register_code": "TIMING-AU:BOM-CZ",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000332",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Bureau of Meteorology — \"Annual and monthly potential frost days\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-41 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "National meteorological agency",
+    "identity": "Bureau of Meteorology, \"Annual and monthly potential frost days\" (product IDCJCM0012; climatology 1976 to 2005), date not shown. National meteorological agency. https://www.bom.gov.au/climate/maps/averages/frost/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:BOM-FROST)",
+    "url": "https://www.bom.gov.au/climate/maps/averages/frost/",
+    "register_code": "TIMING-AU:BOM-FROST",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000333",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Bureau of Meteorology — \"About potential frost days - Australian Maps\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-42 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "National meteorological agency",
+    "identity": "Bureau of Meteorology, \"About potential frost days - Australian Maps\", Updated 25 February 2014. National meteorological agency. https://www.bom.gov.au/climate/map/frost/what-is-frost.shtml, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:BOM-WIF)",
+    "url": "https://www.bom.gov.au/climate/map/frost/what-is-frost.shtml",
+    "register_code": "TIMING-AU:BOM-WIF",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000334",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Office of the Gene Technology Regulator — \"The Biology of Hybrid Tea Rose (Rosa x hybrida)\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-6 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-7 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-10 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-16 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-43 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Australian Government regulator",
+    "identity": "Office of the Gene Technology Regulator, \"The Biology of Hybrid Tea Rose (Rosa x hybrida)\", Version 2, March 2009. Australian Government regulator. https://www.ogtr.gov.au/sites/default/files/files/2021-07/the_biology_of_hybrid_tea_rose.pdf, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:OGTR)",
+    "url": "https://www.ogtr.gov.au/sites/default/files/files/2021-07/the_biology_of_hybrid_tea_rose.pdf",
+    "register_code": "TIMING-AU:OGTR",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000335",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Treloar Roses — \"Seasonal Rose Care Calendar\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-4 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-34 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-40 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-43 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), Victoria; national sales",
+    "identity": "Treloar Roses, \"Seasonal Rose Care Calendar\", Copyright 2023-2024. Commercial (rose nursery), Victoria; national sales. https://www.treloarroses.com.au/Seasonal-Rose-Care-Calendar, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:TRE-CAL)",
+    "url": "https://www.treloarroses.com.au/Seasonal-Rose-Care-Calendar",
+    "register_code": "TIMING-AU:TRE-CAL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000336",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Ross Roses — \"Calendar\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-4 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-13 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-32 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-48 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-55 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-58 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-62 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-67 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (rose nursery), Willunga, South Australia",
+    "identity": "Ross Roses, \"Calendar\", Copyright 2026. Commercial (rose nursery), Willunga, South Australia. https://rossroses.com.au/calendar/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:ROSS-CAL)",
+    "url": "https://rossroses.com.au/calendar/",
+    "register_code": "TIMING-AU:ROSS-CAL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000337",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Flower Power (Jennifer Stackhouse) — \"Rose care for temperate climate gardens: pruning, feeding & pests\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-AU-01, AF-4 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-33 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-34 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-37 (Low)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-40 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-AU-01, AF-64 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial (garden centre chain), Sydney",
+    "identity": "Flower Power (Jennifer Stackhouse), \"Rose care for temperate climate gardens: pruning, feeding & pests\", September 2021. Commercial (garden centre chain), Sydney. https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:FP)",
+    "url": "https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/",
+    "register_code": "TIMING-AU:FP",
     "relevance": "Supports the findings listed above."
    }
   }

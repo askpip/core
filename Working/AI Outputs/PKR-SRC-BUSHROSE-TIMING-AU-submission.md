@@ -1,8 +1,8 @@
-# PKR Submission Package — Source PKRs for Australian Months (v0.3, Draft)
+# PKR Submission Package — Source PKRs for Australian Months (v1.0, Published)
 
-**Draft, awaiting a Founder's approval.** Supports `PKR-CGD-BUSHROSE-TIMING-AU-01-submission.md`. Built by KIT on 7 October 2026 from the Source Register of `FRD-BUSHROSE-TIMING-AU-01` (`Working/AI Outputs/Source_Register_TIMING-AU.json`, as corrected at the Build Check). Only sources that at least one finding relies on get a Source PKR. The two pages that could not be opened are not relied on and get none.
+**Published 8 October 2026**, with `PKR-CGD-BUSHROSE-TIMING-AU-01-submission.md`, on a Founder's approval of Pip's answers (in chat, 8 October 2026). Built by KIT on 7 October 2026 from the Source Register of `ARC-BUSHROSE-TIMING-AU-01` (§8; `Working/AI Outputs/Source_Register_TIMING-AU.json`). Only sources that at least one finding relies on get a Source PKR. The two pages that could not be opened are not relied on and get none.
 
-**Matching (KIT PKR Build Skill §4):** every relied-on source was matched against the Published Source PKRs by web address. 8 match and are reused (Part B: on approval, a new version with the new MIL references, and the old version retired). 23 have no match and get new Source PKRs (Part A). Matching was by address only; a page that moved to a new address would appear here as new. IDs reserved: PKR-SRC-000315 to PKR-SRC-000337.
+**Matching (KIT PKR Build Skill §4):** every relied-on source was matched against the Published Source PKRs by web address. 8 match and are reused (Part B: a new version with the new MIL references added; the old version retired). 23 have no match and get new Source PKRs (Part A). Matching was by address only; a page that moved to a new address would appear here as new. IDs: PKR-SRC-000315 to PKR-SRC-000337.
 
 ## Part A — New Source PKRs
 
@@ -13,10 +13,10 @@
 | PKR ID | PKR-SRC-000315 |
 | PKR Type | Source PKR |
 | Title | The Rose Society of Victoria — "Monthly Care of Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -33,10 +33,10 @@
 | PKR ID | PKR-SRC-000316 |
 | PKR Type | Source PKR |
 | Title | Rose Society of South Australia — "A Calendar for Rose Growers" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -53,10 +53,10 @@
 | PKR ID | PKR-SRC-000317 |
 | PKR Type | Source PKR |
 | Title | Rose Society of South Australia — "Winter Rose Growing Culture Notes for South Australia" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -73,10 +73,10 @@
 | PKR ID | PKR-SRC-000318 |
 | PKR Type | Source PKR |
 | Title | Rose Society of South Australia — "Autumn Rose Growing Culture Notes for South Australia" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -93,10 +93,10 @@
 | PKR ID | PKR-SRC-000319 |
 | PKR Type | Source PKR |
 | Title | Rose Society of South Australia — "Spring Rose Growing Culture Notes for South Australia" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -113,10 +113,10 @@
 | PKR ID | PKR-SRC-000320 |
 | PKR Type | Source PKR |
 | Title | Melanie Trimper, Rose Society of South Australia — "Potted Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -133,10 +133,10 @@
 | PKR ID | PKR-SRC-000321 |
 | PKR Type | Source PKR |
 | Title | The Rose Society of Western Australia Inc. — "Rose Care Calendar" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -153,10 +153,10 @@
 | PKR ID | PKR-SRC-000322 |
 | PKR Type | Source PKR |
 | Title | The Queensland Rose Society Inc — "Growing Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -173,10 +173,10 @@
 | PKR ID | PKR-SRC-000323 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Sophie Thomson) — "FAQs - Pruning Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -193,10 +193,10 @@
 | PKR ID | PKR-SRC-000324 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Jane Edmanson) — "Rose Pruning" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -213,10 +213,10 @@
 | PKR ID | PKR-SRC-000325 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Leonie Norrington) — "Tropical Roses" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -233,10 +233,10 @@
 | PKR ID | PKR-SRC-000326 |
 | PKR Type | Source PKR |
 | Title | ABC Gardening Australia (Jerry Coleby-Williams) — "Subtropical Surprise" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -253,10 +253,10 @@
 | PKR ID | PKR-SRC-000327 |
 | PKR Type | Source PKR |
 | Title | Brisbane City Council, New Farm Park — "Tips for a flourishing rose garden" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -273,10 +273,10 @@
 | PKR ID | PKR-SRC-000328 |
 | PKR Type | Source PKR |
 | Title | ABC Organic Gardener magazine (nextmedia, under licence from the ABC) — "Understanding Climate Zones" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -293,10 +293,10 @@
 | PKR ID | PKR-SRC-000329 |
 | PKR Type | Source PKR |
 | Title | The Seed Collection Pty Ltd — "How to Grow Roses (bare-rooted)" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -313,10 +313,10 @@
 | PKR ID | PKR-SRC-000330 |
 | PKR Type | Source PKR |
 | Title | Penfield Gardens Rose Nursery — "How to Select the Perfect Rose Variety for Australian Gardens" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -333,10 +333,10 @@
 | PKR ID | PKR-SRC-000331 |
 | PKR Type | Source PKR |
 | Title | Bureau of Meteorology — "Australian climate zones" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -353,10 +353,10 @@
 | PKR ID | PKR-SRC-000332 |
 | PKR Type | Source PKR |
 | Title | Bureau of Meteorology — "Annual and monthly potential frost days" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -373,10 +373,10 @@
 | PKR ID | PKR-SRC-000333 |
 | PKR Type | Source PKR |
 | Title | Bureau of Meteorology — "About potential frost days - Australian Maps" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -393,10 +393,10 @@
 | PKR ID | PKR-SRC-000334 |
 | PKR Type | Source PKR |
 | Title | Office of the Gene Technology Regulator — "The Biology of Hybrid Tea Rose (Rosa x hybrida)" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -413,10 +413,10 @@
 | PKR ID | PKR-SRC-000335 |
 | PKR Type | Source PKR |
 | Title | Treloar Roses — "Seasonal Rose Care Calendar" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -433,10 +433,10 @@
 | PKR ID | PKR-SRC-000336 |
 | PKR Type | Source PKR |
 | Title | Ross Roses — "Calendar" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -453,10 +453,10 @@
 | PKR ID | PKR-SRC-000337 |
 | PKR Type | Source PKR |
 | Title | Flower Power (Jennifer Stackhouse) — "Rose care for temperate climate gardens: pruning, feeding & pests" |
-| Status | Draft |
-| Version | 0.3 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | Commercial source. |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -468,9 +468,9 @@
 
 ## Part B — Existing Source PKRs reused
 
-On approval each gets a new version with these MIL references added. Nothing else in the record changes.
+Each has a new Published version with these MIL references added, and its earlier version is Retired. Nothing else in the record changed.
 
-| Source PKR | Title | Version now | Version on approval | Register code | MIL references to add |
+| Source PKR | Title | Earlier version (Retired) | Version now (Published) | Register code | MIL references added |
 |---|---|---|---|---|---|
 | PKR-SRC-000097 | Rose Society of NSW — Rose Growing Advice | 1.3 | 1.4 | TIMING-AU:RSNSW-G | ARC-BUSHROSE-TIMING-AU-01, AF-4 (High); ARC-BUSHROSE-TIMING-AU-01, AF-12 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-14 (High); ARC-BUSHROSE-TIMING-AU-01, AF-18 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-20 (Moderate); ARC-BUSHROSE-TIMING-AU-01, AF-21 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate); ARC-BUSHROSE-TIMING-AU-01, AF-35 (High); ARC-BUSHROSE-TIMING-AU-01, AF-46 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-53 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-60 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-65 (Low) |
 | PKR-SRC-000278 | The Rose Society of NSW — "Rose Care Calendar" | 1.0 | 1.1 | TIMING-AU:RSNSW-CAL | ARC-BUSHROSE-TIMING-AU-01, AF-4 (High); ARC-BUSHROSE-TIMING-AU-01, AF-5 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-11 (High); ARC-BUSHROSE-TIMING-AU-01, AF-12 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-14 (High); ARC-BUSHROSE-TIMING-AU-01, AF-16 (High); ARC-BUSHROSE-TIMING-AU-01, AF-19 (High); ARC-BUSHROSE-TIMING-AU-01, AF-21 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-27 (High); ARC-BUSHROSE-TIMING-AU-01, AF-28 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-30 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-35 (High); ARC-BUSHROSE-TIMING-AU-01, AF-36 (High); ARC-BUSHROSE-TIMING-AU-01, AF-46 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-53 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-60 (Low); ARC-BUSHROSE-TIMING-AU-01, AF-65 (Low) |

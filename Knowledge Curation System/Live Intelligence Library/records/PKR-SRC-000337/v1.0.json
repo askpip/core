@@ -1,0 +1,43 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000337",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Flower Power (Jennifer Stackhouse) — \"Rose care for temperate climate gardens: pruning, feeding & pests\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-AU-01, AF-4 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-12 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-33 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-34 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-37 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-40 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-43 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-64 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (garden centre chain), Sydney",
+    "identity": "Flower Power (Jennifer Stackhouse), \"Rose care for temperate climate gardens: pruning, feeding & pests\", September 2021. Commercial (garden centre chain), Sydney. https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:FP)",
+    "url": "https://www.flowerpower.com.au/garden-advice/gardening/rose-care-for-sydney-gardens-pruning-feeding-pests/",
+    "register_code": "TIMING-AU:FP",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT."
+  }
+}

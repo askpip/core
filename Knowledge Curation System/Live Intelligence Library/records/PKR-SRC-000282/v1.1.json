@@ -1,0 +1,46 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000282",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "ABC Gardening Australia magazine (Loren Desbruslais) — \"Growing roses 101\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-9 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-10 (Low)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-23 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-6 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-32 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Public broadcaster magazine, Australia",
+    "identity": "ABC Gardening Australia magazine (Loren Desbruslais), \"Growing roses 101\", 9 April 2024. Public broadcaster magazine, Australia. https://www.gardeningaustraliamag.com.au/growing-roses-101/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:GA-MAG)",
+    "url": "https://www.gardeningaustraliamag.com.au/growing-roses-101/",
+    "register_code": "PLANTMOVE:GA-MAG",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-AU-01 added (register code TIMING-AU:GA-MAG). Nothing else changed. Version 1.0 retired."
+  }
+}

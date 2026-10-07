@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000333",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Bureau of Meteorology — \"About potential frost days - Australian Maps\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-AU-01, AF-42 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "National meteorological agency",
+    "identity": "Bureau of Meteorology, \"About potential frost days - Australian Maps\", Updated 25 February 2014. National meteorological agency. https://www.bom.gov.au/climate/map/frost/what-is-frost.shtml, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:BOM-WIF)",
+    "url": "https://www.bom.gov.au/climate/map/frost/what-is-frost.shtml",
+    "register_code": "TIMING-AU:BOM-WIF",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT."
+  }
+}

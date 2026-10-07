@@ -1,0 +1,44 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000321",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The Rose Society of Western Australia Inc. — \"Rose Care Calendar\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-AU-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-20 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-23 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-29 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-32 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-49 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-56 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-59 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-63 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-68 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Rose society, Western Australia",
+    "identity": "The Rose Society of Western Australia Inc., \"Rose Care Calendar\", date not shown. Rose society, Western Australia. https://www.rosesocietywa.au/rose-care-calendar, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:RSWA)",
+    "url": "https://www.rosesocietywa.au/rose-care-calendar",
+    "register_code": "TIMING-AU:RSWA",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT."
+  }
+}

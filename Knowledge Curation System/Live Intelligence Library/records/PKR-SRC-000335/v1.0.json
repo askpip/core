@@ -1,0 +1,39 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000335",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Treloar Roses — \"Seasonal Rose Care Calendar\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Commercial source.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-AU-01, AF-4 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-20 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-22 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-34 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-40 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-43 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial (rose nursery), Victoria; national sales",
+    "identity": "Treloar Roses, \"Seasonal Rose Care Calendar\", Copyright 2023-2024. Commercial (rose nursery), Victoria; national sales. https://www.treloarroses.com.au/Seasonal-Rose-Care-Calendar, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:TRE-CAL)",
+    "url": "https://www.treloarroses.com.au/Seasonal-Rose-Care-Calendar",
+    "register_code": "TIMING-AU:TRE-CAL",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT."
+  }
+}

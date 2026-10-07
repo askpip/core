@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 425,
-  "published_count": 365,
+  "record_count": 462,
+  "published_count": 388,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -215,49 +215,97 @@
       "pkr_id": "PKR-CGD-000022",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Which months do I prune my rose?",
       "sha256": "b4cd9263d0fc2b46aa044d8d0849b135177a454a8ea6f6eae9265744d301d1e4"
+    },
+    {
+      "pkr_id": "PKR-CGD-000022",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Which months do I prune my rose?",
+      "sha256": "a1e6f301d16a1b30b106e46b12d512cea590f30674e06aaac7285ec9b46f2b36"
     },
     {
       "pkr_id": "PKR-CGD-000023",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When do I start and stop feeding?",
       "sha256": "483db96c6f3c6af508ca0b5d5759eba70a0b2c46eb3deb89f120ba400a274211"
+    },
+    {
+      "pkr_id": "PKR-CGD-000023",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I start and stop feeding?",
+      "sha256": "b98ffb2710579ae0cd84037cef9a313de0e9ab576fd57f56fbdad427a66e4344"
     },
     {
       "pkr_id": "PKR-CGD-000024",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When do I stop deadheading?",
       "sha256": "e6a4f8a5e6dd6cb91ee264cf65d9178f6b7d00b871ea4e1f525c16c18a6b6984"
+    },
+    {
+      "pkr_id": "PKR-CGD-000024",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I stop deadheading?",
+      "sha256": "cbde9fbe7bc2f93e76aa6b95078716d9b4899bdf0d56d28267d7d9b1c97750e2"
     },
     {
       "pkr_id": "PKR-CGD-000025",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Which months do I plant or move a rose?",
       "sha256": "59b92b35e1ba8e28e244da441f2a205234e238cd656f60f6072d64678d092ed2"
+    },
+    {
+      "pkr_id": "PKR-CGD-000025",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Which months do I plant or move a rose?",
+      "sha256": "3dc050f38c4b9ac259f1d0d598ea6e8e20f838a011cd725e619e3cf45ee0198f"
     },
     {
       "pkr_id": "PKR-CGD-000026",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When do I clear up and spray in winter?",
       "sha256": "7dc3912f3e47def5854ab514f12c963853997b5b28bbcda6cdf2b185742939cf"
+    },
+    {
+      "pkr_id": "PKR-CGD-000026",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I clear up and spray in winter?",
+      "sha256": "656408cc575e212d748fea8e7635fd312001295c50d64486e0a43e19adf9254f"
     },
     {
       "pkr_id": "PKR-CGD-000027",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "How do I allow for frost and my own garden?",
       "sha256": "d31b14beae98e62be548f29dbb077d90029df38c93cb9d45683f4552d9df5517"
+    },
+    {
+      "pkr_id": "PKR-CGD-000027",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "How do I allow for frost and my own garden?",
+      "sha256": "3cd5f230f0735ae66d436d174cde7155308b5efd70ceea007a04d1fe0db52ec3"
     },
     {
       "pkr_id": "PKR-DEC-000001",
@@ -1119,9 +1167,17 @@
       "pkr_id": "PKR-SRC-000068",
       "version": "1.4",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rose Society of Victoria — The Pruning Bible",
       "sha256": "c7065f990bb666ad333250f434dae96a1e4ff89bd1595cf3bb510a395297775f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000068",
+      "version": "1.5",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of Victoria — The Pruning Bible",
+      "sha256": "867a69b3d0d3bb4f844762af8560d22a0ee342803376ba46a20854911af8b679"
     },
     {
       "pkr_id": "PKR-SRC-000069",
@@ -1407,9 +1463,17 @@
       "pkr_id": "PKR-SRC-000097",
       "version": "1.3",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rose Society of NSW — Rose Growing Advice",
       "sha256": "0151888f9948b66101aebb897810054de735e8d9a07fb196353c1e47e590e408"
+    },
+    {
+      "pkr_id": "PKR-SRC-000097",
+      "version": "1.4",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of NSW — Rose Growing Advice",
+      "sha256": "3d8dfa7dac6377cbb8b627bb4ea69d5e048173112f1bf2b4b626e192dcfe8421"
     },
     {
       "pkr_id": "PKR-SRC-000098",
@@ -2375,9 +2439,17 @@
       "pkr_id": "PKR-SRC-000196",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "ABC Gardening Australia magazine (Jennifer Stackhouse) — \"How to prune roses in winter\"",
       "sha256": "c8a4869c61f9f57b6455485f5e5fa6556e925ea446cc1e06813e8b4adf505de0"
+    },
+    {
+      "pkr_id": "PKR-SRC-000196",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia magazine (Jennifer Stackhouse) — \"How to prune roses in winter\"",
+      "sha256": "dc56da5fff80101fe1623e58fd55d7ffbbfc151ee63b94f4e55ee304471e83f2"
     },
     {
       "pkr_id": "PKR-SRC-000197",
@@ -2959,9 +3031,17 @@
       "pkr_id": "PKR-SRC-000263",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Ross Roses — \"Spraying Roses\"",
       "sha256": "2cc44680f2e8f20fa59c27efb53d33b23012a7dfa47693dec98be861c4d24951"
+    },
+    {
+      "pkr_id": "PKR-SRC-000263",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Ross Roses — \"Spraying Roses\"",
+      "sha256": "443eb6a754999caa0e5c9ecb5dc8f9061da2bfbf0eb15f951ff947dc6c2382de"
     },
     {
       "pkr_id": "PKR-SRC-000264",
@@ -3111,17 +3191,33 @@
       "pkr_id": "PKR-SRC-000278",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The Rose Society of NSW — \"Rose Care Calendar\"",
       "sha256": "bbffcfee79e867faf5b2dd83abb9c3d482fe889d652cc26238a959dae06ca1c6"
+    },
+    {
+      "pkr_id": "PKR-SRC-000278",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Rose Society of NSW — \"Rose Care Calendar\"",
+      "sha256": "a712d6f047061d9c7d08c9daed58854ae7fc91758698ff7a07ce42b504594648"
     },
     {
       "pkr_id": "PKR-SRC-000279",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "The Rose Society of South Australia Inc. — \"Rose Growing Guide\"",
       "sha256": "f71e78ca0e32c56d9f11b5381ea298cd0477502dc1c14eb7893a8de6ce08e32b"
+    },
+    {
+      "pkr_id": "PKR-SRC-000279",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Rose Society of South Australia Inc. — \"Rose Growing Guide\"",
+      "sha256": "56dec4326b8d8773d453c0f295ab054d84cf32e532eaf1a252d36f668c2b69cb"
     },
     {
       "pkr_id": "PKR-SRC-000280",
@@ -3143,17 +3239,33 @@
       "pkr_id": "PKR-SRC-000282",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "ABC Gardening Australia magazine (Loren Desbruslais) — \"Growing roses 101\"",
       "sha256": "f28da0e2a22db10b271c6e34342d02559db93e5b32541173fbcbf99d634719a2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000282",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia magazine (Loren Desbruslais) — \"Growing roses 101\"",
+      "sha256": "9517685d8d5996af5b77a8d2c29e7f88c3f8e62621a1e8103094127bac5b6db1"
     },
     {
       "pkr_id": "PKR-SRC-000283",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Treloar Roses — \"Transplanting established roses\"",
       "sha256": "eef9e68fb499fbdd78cc1aa554f194ebe8c4dd63c1752efd49cd21ac53673322"
+    },
+    {
+      "pkr_id": "PKR-SRC-000283",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Treloar Roses — \"Transplanting established roses\"",
+      "sha256": "5cf0787ee47390451a0202436f64f657d3cede8556e528faa38cda47801ecb65"
     },
     {
       "pkr_id": "PKR-SRC-000284",
@@ -3402,6 +3514,190 @@
       "status": "Published",
       "title": "The Garden Fairies — \"Autumn rose care for Auckland's climate\"",
       "sha256": "f984e574e97d43582a04b5b848d08e7e41770e5ba74a220e4d137ad49265c2cc"
+    },
+    {
+      "pkr_id": "PKR-SRC-000315",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Rose Society of Victoria — \"Monthly Care of Roses\"",
+      "sha256": "820139b870289f2b3d6a28a13b2a89e3cb824a1a72b0f5aa2702dfd31a77aea0"
+    },
+    {
+      "pkr_id": "PKR-SRC-000316",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of South Australia — \"A Calendar for Rose Growers\"",
+      "sha256": "c43acaa5f9a61245c8663307f17dd4b644a76034c0674bdaaca95f3fc3c28fb5"
+    },
+    {
+      "pkr_id": "PKR-SRC-000317",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of South Australia — \"Winter Rose Growing Culture Notes for South Australia\"",
+      "sha256": "687ed160e56935841bbd6ea41e7e4ec887ad05df10b1c7cb898ee329de8c370c"
+    },
+    {
+      "pkr_id": "PKR-SRC-000318",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of South Australia — \"Autumn Rose Growing Culture Notes for South Australia\"",
+      "sha256": "aa052fa9273086fb82cf094ea405e0cf6c6902dc83bdb480fe59df331f71334e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000319",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Rose Society of South Australia — \"Spring Rose Growing Culture Notes for South Australia\"",
+      "sha256": "509bde14cbc2b150a6cbc023f675374cfbd5ee52833ab72f0301fcc9e681196a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000320",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Melanie Trimper, Rose Society of South Australia — \"Potted Roses\"",
+      "sha256": "39fd54fcc7bd3d171d7f06bd924c7ce51a998f0f608da748de1a06f43eb422ff"
+    },
+    {
+      "pkr_id": "PKR-SRC-000321",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Rose Society of Western Australia Inc. — \"Rose Care Calendar\"",
+      "sha256": "1bd84de9d375ec238d712729b3d3e2294c984044ea8f58847a78f8f0fa65a3e1"
+    },
+    {
+      "pkr_id": "PKR-SRC-000322",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Queensland Rose Society Inc — \"Growing Roses\"",
+      "sha256": "8b6c816e63ea81476daa106b377dc1ea336b7b112b77313d1116000d96e8489d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000323",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Sophie Thomson) — \"FAQs - Pruning Roses\"",
+      "sha256": "c3359f27dd9bf106b52f633969a0d9ffbbbd553553727b11284b63b6581ee3f7"
+    },
+    {
+      "pkr_id": "PKR-SRC-000324",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Jane Edmanson) — \"Rose Pruning\"",
+      "sha256": "f830a2b8624f4d2860a6804481348b95878dfb9c24a72d841a96ed5c5b0e30a7"
+    },
+    {
+      "pkr_id": "PKR-SRC-000325",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Leonie Norrington) — \"Tropical Roses\"",
+      "sha256": "c10c9a9c38fe805355acbb0dfa9b697b9a7f70efe6809900c4f5176e617e6fcc"
+    },
+    {
+      "pkr_id": "PKR-SRC-000326",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Gardening Australia (Jerry Coleby-Williams) — \"Subtropical Surprise\"",
+      "sha256": "79edb6f798866b1a229690cde78822222cc0725e8e1b1b8b2e74680bde90732b"
+    },
+    {
+      "pkr_id": "PKR-SRC-000327",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Brisbane City Council, New Farm Park — \"Tips for a flourishing rose garden\"",
+      "sha256": "fa3fd2709056dab9cb4f79e1d89ff55d5f4648e51f9b77d3bade39f6070920f2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000328",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "ABC Organic Gardener magazine (nextmedia, under licence from the ABC) — \"Understanding Climate Zones\"",
+      "sha256": "29034492fcb17e482778dc68bfb475fef3e051f68def80fa440cacd1b13375d8"
+    },
+    {
+      "pkr_id": "PKR-SRC-000329",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The Seed Collection Pty Ltd — \"How to Grow Roses (bare-rooted)\"",
+      "sha256": "930c3e9cf8266972d970e85f46d1b8a9150463e889d27c0b0736d91d1fbc0d11"
+    },
+    {
+      "pkr_id": "PKR-SRC-000330",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Penfield Gardens Rose Nursery — \"How to Select the Perfect Rose Variety for Australian Gardens\"",
+      "sha256": "76864eaa0aa050b2edb8fd708976206ae3e70d36dd5688f29beb85db0bef9f70"
+    },
+    {
+      "pkr_id": "PKR-SRC-000331",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Bureau of Meteorology — \"Australian climate zones\"",
+      "sha256": "f21ebaa55dbff5d7017d52f8c19f398b4efccc6904fa436b3f5db88dd37aa913"
+    },
+    {
+      "pkr_id": "PKR-SRC-000332",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Bureau of Meteorology — \"Annual and monthly potential frost days\"",
+      "sha256": "4ea8b3a6975ef1e32844581e981b95f9e069870cf8dd6eacdb45914165b25261"
+    },
+    {
+      "pkr_id": "PKR-SRC-000333",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Bureau of Meteorology — \"About potential frost days - Australian Maps\"",
+      "sha256": "edffcdf1fbe620726de87428a8a52abd7cc3b810786dc29c42993619cbafa877"
+    },
+    {
+      "pkr_id": "PKR-SRC-000334",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Office of the Gene Technology Regulator — \"The Biology of Hybrid Tea Rose (Rosa x hybrida)\"",
+      "sha256": "bc2dbbc13af999a6b3bedb368ea6decf50cf50e50fbae8524d6bd3a4e41b2d17"
+    },
+    {
+      "pkr_id": "PKR-SRC-000335",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Treloar Roses — \"Seasonal Rose Care Calendar\"",
+      "sha256": "ed24ad31d8a1c089435e6db8fa04131b1201b8ff77435167f9bd630abd06563c"
+    },
+    {
+      "pkr_id": "PKR-SRC-000336",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Ross Roses — \"Calendar\"",
+      "sha256": "427183246649b54d65b499e6013020b342ee45c17fe4793770701c77c6e4d266"
+    },
+    {
+      "pkr_id": "PKR-SRC-000337",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Flower Power (Jennifer Stackhouse) — \"Rose care for temperate climate gardens: pruning, feeding & pests\"",
+      "sha256": "b58cec47a7395abbe0716d1ea88c1b735d45b633054bb57abab34fab50598525"
     }
   ]
 }

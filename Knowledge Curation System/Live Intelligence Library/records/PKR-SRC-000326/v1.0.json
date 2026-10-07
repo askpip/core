@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000326",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "ABC Gardening Australia (Jerry Coleby-Williams) — \"Subtropical Surprise\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-AU-01, AF-9 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-24 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-50 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Public broadcaster; a rose farm on the outskirts of Brisbane",
+    "identity": "ABC Gardening Australia (Jerry Coleby-Williams), \"Subtropical Surprise\", 5 October 2018. Public broadcaster; a rose farm on the outskirts of Brisbane. https://www.abc.net.au/gardening/how-to/subtropical-surprise/10333054, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:GA-SUB)",
+    "url": "https://www.abc.net.au/gardening/how-to/subtropical-surprise/10333054",
+    "register_code": "TIMING-AU:GA-SUB",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT."
+  }
+}

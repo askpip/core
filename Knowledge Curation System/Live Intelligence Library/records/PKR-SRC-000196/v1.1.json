@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000196",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "ABC Gardening Australia magazine (Jennifer Stackhouse) — \"How to prune roses in winter\"",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-02",
+    "related_pkrs": [],
+    "preserved_uncertainty": "",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-HARDPRUNE-01, AF-10 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-37 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Public broadcaster's magazine",
+    "identity": "ABC Gardening Australia magazine (Jennifer Stackhouse), \"How to prune roses in winter\", 13 June 2023. Public broadcaster's magazine, Australia. https://www.gardeningaustraliamag.com.au/pruning-roses/, accessed 1 October 2026 (register code HARDPRUNE:GAM)",
+    "url": "https://www.gardeningaustraliamag.com.au/pruning-roses/",
+    "register_code": "HARDPRUNE:GAM",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-AU-01 added (register code TIMING-AU:GAM). Nothing else changed. Version 1.0 retired."
+  }
+}

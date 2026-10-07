@@ -1,0 +1,55 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000279",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The Rose Society of South Australia Inc. — \"Rose Growing Guide\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-1 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-2 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-6 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-7 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-11 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-13 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-17 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-18 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-21 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-23 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-48 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-55 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-62 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-67 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Rose society, Australia",
+    "identity": "The Rose Society of South Australia Inc., \"Rose Growing Guide\" (PDF hosted by the National Rose Trial Garden of Australia), date not shown. Rose society, Australia. https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:RSSA)",
+    "url": "https://www.nationalrosetrialgarden.com.au/wp-content/uploads/2015/10/SARoseSocietyRoseGrowingGuide.pdf",
+    "register_code": "PLANTMOVE:RSSA",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-AU-01 added (register code TIMING-AU:RSSA-GG). Nothing else changed. Version 1.0 retired."
+  }
+}

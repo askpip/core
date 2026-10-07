@@ -4,12 +4,12 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.7
+**Version:** 0.8
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `AI/Context/Ask_Pip_App_Build_Status_Context.md`
-**Last Updated:** 7 October 2026
+**Last Updated:** 8 October 2026
 **Purpose:** To give any artificial intelligence (AI) or Founder a current, accurate snapshot of what is actually built in the Ask Pip application, what is deliberately deferred and why, and what remains blocked pending Founder-approved knowledge — without requiring that state to be reconstructed from git history, conversation history or a fresh reading of every source file.
 **Related Documents:** `AGENTS.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `MVP/Architecture/Ask_Pip_App_Engineering_Architecture.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `Working/AI Outputs/Ask_Pip_Bush_Rose_Guided_Journey_Flow_Proposal.md`; `AI/Context/Ask_Pip_App_Known_Issues_and_Process_Notes_Context.md`
 
@@ -156,7 +156,7 @@ Built so that a subject's whole body of approved findings reaches gardeners, in 
 
 **Local statements** (`App/src/lib/place.ts`, `placeGeo.ts`, `usePlantPlace.ts`, `App/src/data/places/`; rebuilt 6 and 7 October 2026 on a Founder's decision that a country alone is not enough). A statement may carry `place`, a list of place codes: a country (`NZ`), a region (`NZ-CAN`), a group of regions (`NZ-N`, `NZ-S`, `GB-ENG`) or a town the research names (`NZ-OTA:Dunedin`; the list is `TOWNS` in `place.ts`). `usePlantPlace(plant)` gives every place a plant is in. A typed country, region and town are read from names and common spellings. A GPS position is placed against simplified region outlines for the five countries (Natural Earth, public domain), on the gardener's own device; the outlines load only when needed and nothing is sent anywhere. Within 10 km of another region the app does not decide: `CommonQuestions` asks the gardener which region the rose is in, saves the answer with the plant, and offers "Somewhere else, or I'm not sure". It asks only where the answer would change what is shown. A town is matched by its typed name or by a position within 15 km. Where the place isn't known, marked statements are left out and one line says so. Where a question has nothing for the plant's place, the answer says so and the tap is recorded in `question_interest`. Only the plant page passes a place; the Welcome and plant-list pages have no plant, so they never show local statements. A position just across a foreign border (for example Tijuana) is asked about, not placed.
 
-**Month-level timing** (`App/src/data/commonQuestions.ts`). The built-in question `months`, "Which months do I prune my rose?", is the lead of the topic `timing` ("When to do each job") and appears second in the list once that topic's first records are Published. The six records are shared by the five countries: each country's statements are added to them as new versions, marked for their places. The New Zealand statements (PKR-CGD-000022 to PKR-CGD-000027) were approved on 7 October 2026; a rose outside New Zealand is told Pip has nothing for that place yet.
+**Month-level timing** (`App/src/data/commonQuestions.ts`). The built-in question `months`, "Which months do I prune my rose?", is the lead of the topic `timing` ("When to do each job") and appears second in the list once that topic's first records are Published. The six records are shared by the five countries: each country's statements are added to them as new versions, marked for their places. The New Zealand statements (PKR-CGD-000022 to PKR-CGD-000027, Version 1.0) were approved on 7 October 2026 and the Australian statements (the same records, Version 1.1) on 8 October 2026; a rose outside New Zealand and Australia is told Pip has nothing for that place yet. Sydney (within 40 km) and Brisbane (within 25 km) were added to `TOWNS` for the Australian statements. Nothing is marked for the Australian Capital Territory, so a rose there sees the statements for all of Australia.
 
 **Limits and labels** (`App/src/components/PkrStatements.tsx`). `StatementLimit` shows a statement's `limit` under it in smaller type. `StatementTag` shows the confidence level, or "Precaution" with the level, or "Sources disagree", or "No source found", or nothing for app framing, by the statement's `kind`.
 
@@ -209,5 +209,6 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **7 October 2026 (Version 0.6):** §3.5 rewritten for places inside a country (regions, groups of regions and towns, worked out on the device, with the gardener asked near a region's edge) and for the month-level timing question.
 
 - **7 October 2026 (Version 0.7):** New Zealand month-level timing approved and its records in the snapshot; the place test rerun against the published records.
+- **8 October 2026 (Version 0.8):** Australian month-level timing approved and in the snapshot (the six timing records at Version 1.1); Sydney and Brisbane added to the named towns. Checked in a headless browser for seventeen plants against test copies identical in wording to the published records.
 
 # End of Document

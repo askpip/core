@@ -1,0 +1,47 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000315",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "The Rose Society of Victoria — \"Monthly Care of Roses\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-AU-01, AF-11 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-14 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-16 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-19 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-26 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-27 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-29 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-31 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-34 (Moderate)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-35 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-36 (High)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-47 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-54 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-57 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-61 (Low)",
+      "ARC-BUSHROSE-TIMING-AU-01, AF-66 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Rose society, Victoria",
+    "identity": "The Rose Society of Victoria, \"Monthly Care of Roses\", date not shown. Rose society, Victoria. https://www.rosesocietyvic.org.au/index.php/monthly-care-of-roses/, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:RSV-M)",
+    "url": "https://www.rosesocietyvic.org.au/index.php/monthly-care-of-roses/",
+    "register_code": "TIMING-AU:RSV-M",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT."
+  }
+}

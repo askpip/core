@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000320",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Melanie Trimper, Rose Society of South Australia — \"Potted Roses\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-AU-01, AF-33 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Rose society, South Australia",
+    "identity": "Melanie Trimper, Rose Society of South Australia, \"Potted Roses\", date not shown. Rose society, South Australia. https://sarose.org.au/growing-advice/potted-roses, accessed 1 October 2026 and 7 October 2026 (register code TIMING-AU:SARS-POT)",
+    "url": "https://sarose.org.au/growing-advice/potted-roses",
+    "register_code": "TIMING-AU:SARS-POT",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-AU-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, Australian months). Published by KIT."
+  }
+}
