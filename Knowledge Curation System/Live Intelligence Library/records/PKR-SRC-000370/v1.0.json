@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000370",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Ursula Schuch, University of Arizona Cooperative Extension — \"Arizona Climate Zones and their Application to Growing Plants\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-4 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension, Arizona; Phoenix metro zone 10, Tucson 9b (Table 1, as extracted)",
+    "identity": "Ursula Schuch, University of Arizona Cooperative Extension, \"Arizona Climate Zones and their Application to Growing Plants\", April 2021. University extension, Arizona; Phoenix metro zone 10, Tucson 9b (Table 1, as extracted). https://extension.arizona.edu/publication/arizona-climate-zones-and-their-application-growing-plants, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:AZ-CZ)",
+    "url": "https://extension.arizona.edu/publication/arizona-climate-zones-and-their-application-growing-plants",
+    "register_code": "TIMING-US:AZ-CZ",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000388",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Bob Westerfield and Malgorzata Florkowska, UGA Extension Circular 1001 — \"Roses in Georgia: Selecting and Growing Techniques\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-80 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-81 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension, Georgia statewide; zone not stated",
+    "identity": "Bob Westerfield and Malgorzata Florkowska, UGA Extension Circular 1001, \"Roses in Georgia: Selecting and Growing Techniques\", Page dated 21 July 2026. University extension, Georgia statewide; zone not stated. https://fieldreport.caes.uga.edu/publications/C1001/roses-in-georgia-selecting-and-growing-techniques/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UGA-C1001)",
+    "url": "https://fieldreport.caes.uga.edu/publications/C1001/roses-in-georgia-selecting-and-growing-techniques/",
+    "register_code": "TIMING-US:UGA-C1001",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

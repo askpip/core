@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000393",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UC Master Gardener Program of Contra Costa County — \"Easy Guide to Hard Pruning Roses this Winter\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-20 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-62 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-88 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-89 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-90 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension (Master Gardener), Contra Costa County, California; zone not stated",
+    "identity": "UC Master Gardener Program of Contra Costa County, \"Easy Guide to Hard Pruning Roses this Winter\", date not shown. University extension (Master Gardener), Contra Costa County, California; zone not stated. https://ucanr.edu/site/uc-master-gardener-program-contra-costa-county/article/easy-guide-hard-pruning-roses-winter, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UC-CC)",
+    "url": "https://ucanr.edu/site/uc-master-gardener-program-contra-costa-county/article/easy-guide-hard-pruning-roses-winter",
+    "register_code": "TIMING-US:UC-CC",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

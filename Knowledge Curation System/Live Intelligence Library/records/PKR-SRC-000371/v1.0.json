@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000371",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "UC Marin Master Gardeners — \"What Is Your Climate Zone?\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-5 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension (Master Gardener), Marin County, California; zones 9b and 10a",
+    "identity": "UC Marin Master Gardeners, \"What Is Your Climate Zone?\", Updated 11 August 2026. University extension (Master Gardener), Marin County, California; zones 9b and 10a. https://ucanr.edu/site/uc-marin-master-gardeners/what-your-climate-zone, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UC-MARIN-Z)",
+    "url": "https://ucanr.edu/site/uc-marin-master-gardeners/what-your-climate-zone",
+    "register_code": "TIMING-US:UC-MARIN-Z",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

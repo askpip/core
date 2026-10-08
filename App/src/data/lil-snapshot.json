@@ -2188,19 +2188,28 @@
   },
   {
    "pkr_id": "PKR-CGD-000022",
-   "version": "1.2",
+   "version": "1.3",
    "pkr_type": "care_guidance",
    "title": "Which months do I prune my rose?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000001",
+     "PKR-SRC-000003",
+     "PKR-SRC-000004",
+     "PKR-SRC-000006",
+     "PKR-SRC-000018",
      "PKR-SRC-000034",
      "PKR-SRC-000066",
      "PKR-SRC-000067",
      "PKR-SRC-000068",
      "PKR-SRC-000095",
      "PKR-SRC-000097",
+     "PKR-SRC-000108",
+     "PKR-SRC-000131",
+     "PKR-SRC-000132",
+     "PKR-SRC-000135",
+     "PKR-SRC-000136",
      "PKR-SRC-000157",
      "PKR-SRC-000158",
      "PKR-SRC-000190",
@@ -2248,7 +2257,23 @@
      "PKR-SRC-000360",
      "PKR-SRC-000361",
      "PKR-SRC-000363",
-     "PKR-SRC-000364"
+     "PKR-SRC-000364",
+     "PKR-SRC-000374",
+     "PKR-SRC-000375",
+     "PKR-SRC-000376",
+     "PKR-SRC-000377",
+     "PKR-SRC-000379",
+     "PKR-SRC-000381",
+     "PKR-SRC-000383",
+     "PKR-SRC-000384",
+     "PKR-SRC-000385",
+     "PKR-SRC-000386",
+     "PKR-SRC-000388",
+     "PKR-SRC-000389",
+     "PKR-SRC-000390",
+     "PKR-SRC-000391",
+     "PKR-SRC-000392",
+     "PKR-SRC-000393"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -2257,7 +2282,7 @@
       "pkr_id": "PKR-SGT-000001"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts. Australia: Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18). United Kingdom: Sources differ on the months: February to March, January to February, or a frost-free day from November to March (C-1). One rose grower's own pages changed from February and March (2017) to January and February (2025 and 2026). No source says where 'the south' ends or 'northern and colder areas' begin, and a location cannot tell (AF-27, R-1). One rose nursery's much earlier months, for the Midlands and south counties and for the north of England and Scotland, contradict the RHS and the approved dormancy research (C-9, C-15), and are not shown, at a Founder's direction; its claim that pruning in March delays flowering is not used (R-2, C-12). The signals named differ, and whether 'growth just resuming' and 'before buds swell' are the same moment is not stated (C-2). Most month detail is from commercial sources; no rose society page could be read (R-4). Months for the autumn trim against wind differ from September to November (C-7), and one grower's pages differ on how much to take off (C-10). One grower's advice not to cut back hard in autumn runs against the nursery's November and December (C-14).",
+    "preserved_uncertainty": "New Zealand: Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts. Australia: Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18). United Kingdom: Sources differ on the months: February to March, January to February, or a frost-free day from November to March (C-1). One rose grower's own pages changed from February and March (2017) to January and February (2025 and 2026). No source says where 'the south' ends or 'northern and colder areas' begin, and a location cannot tell (AF-27, R-1). One rose nursery's much earlier months, for the Midlands and south counties and for the north of England and Scotland, contradict the RHS and the approved dormancy research (C-9, C-15), and are not shown, at a Founder's direction; its claim that pruning in March delays flowering is not used (R-2, C-12). The signals named differ, and whether 'growth just resuming' and 'before buds swell' are the same moment is not stated (C-2). Most month detail is from commercial sources; no rose society page could be read (R-4). Months for the autumn trim against wind differ from September to November (C-7), and one grower's pages differ on how much to take off (C-10). One grower's advice not to cut back hard in autumn runs against the nursery's November and December (C-14). United States: No page checked gives pruning months by USDA zone, and Pip does not ask for one (AF-6). Each end of the national range rests on two organisations, each speaking only of its own place (AF-15). Months for every state, county and city rest on one organisation, except that Minnesota has two that agree on spring and give no month. No month was found for Illinois, Pennsylvania, Minnesota or Wisconsin; those statements give the season and the signal. Illinois Extension and a Nashville rosarian differ on the forsythia signal (C-10). Sources differ on cutting roses back in late fall (C-11). The San Antonio column dates from 2003, the South Carolina factsheet from 1999. One Nashville member's own pruning dates are on record only (AF-12).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2659,6 +2684,281 @@
        "ARC-BUSHROSE-TIMING-UK-01 C-14",
        "rule 7"
       ]
+     },
+     {
+      "text": "In the United States, the main pruning is done between December and mid-April, depending on where you live: as early as December in South Florida, and as late as mid-April in Colorado and in the mountains of South Carolina. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Moderate",
+      "place": [
+       "US"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-15",
+       "ARC-BUSHROSE-TIMING-US-01 AF-91",
+       "ARC-BUSHROSE-TIMING-US-01 AF-100",
+       "ARC-BUSHROSE-TIMING-US-01 AF-14",
+       "rule 3",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Look at the buds to judge when to prune: prune when they begin to swell.",
+      "confidence": "Moderate",
+      "place": [
+       "US"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-61"
+      ]
+     },
+     {
+      "text": "Don't prune too early. Pruning before the last hard frost, or before forecast cold weather, can make the canes (stems) die back.",
+      "confidence": "Moderate",
+      "place": [
+       "US"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-62"
+      ]
+     },
+     {
+      "text": "In Iowa, one extension service says early spring is the best time to prune, once any winter protection has been removed. It says to prune out the dead wood after the protection comes off, in late March to mid-April. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-IA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-10",
+       "ARC-BUSHROSE-TIMING-US-01 AF-66",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Minnesota, do the main pruning in spring, while the rose is still partly dormant. One rose expert says to pull the winter mulch back first.",
+      "confidence": "Moderate",
+      "place": [
+       "US-MN"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-67"
+      ]
+     },
+     {
+      "text": "In Wisconsin, one rose expert says to prune in spring, after pulling the winter mulch back.",
+      "confidence": "Low",
+      "place": [
+       "US-WI"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-68",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Illinois, one extension service says most pruning is done in spring, and that many rose growers suggest waiting until the forsythias start to bloom as the signal to begin.",
+      "confidence": "Low",
+      "place": [
+       "US-IL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-11",
+       "ARC-BUSHROSE-TIMING-US-01 C-10",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Nashville, one rose society says to prune by the end of March and to finish early in April. It says fall is not the time to prune, but that in December you can cut Hybrid Tea roses back to about three feet, so that the wind does not rock them. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-TN:Nashville"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-12",
+       "ARC-BUSHROSE-TIMING-US-01 C-11",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Nashville, one rose society says the old rule of pruning when the forsythia blooms may no longer work, because newer kinds of forsythia may bloom too early.",
+      "confidence": "Low",
+      "place": [
+       "US-TN:Nashville"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-9",
+       "ARC-BUSHROSE-TIMING-US-01 C-10",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Georgia, one extension service says to prune roses in late winter, before growth begins.",
+      "confidence": "Low",
+      "place": [
+       "US-GA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-80",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Cobb County, one county extension guide says to prune roses that flower more than once a year from the last week of February until March 15. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-GA:Cobb County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-76",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In South Carolina, one extension service says to do the main pruning in spring, just as the buds start to swell: from mid to late February near the coast to mid-April in the mountains. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-SC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-14",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In South Carolina, one extension service says to cut roses back by about a third of their height in late fall, to help stop winter winds breaking the canes (stems).",
+      "confidence": "Low",
+      "place": [
+       "US-SC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-14",
+       "ARC-BUSHROSE-TIMING-US-01 C-11",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Arkansas, one extension service says most roses should be pruned in late February. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-AR"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-96",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Florida, one extension service says to prune roses in February or March in North and Central Florida, and in December in South Florida. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-FL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-91",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Colorado, one extension service says to cut tall roses back by a third of their height in November, to prevent winter damage; otherwise, mid-April is the best time to prune. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-CO"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-100",
+       "ARC-BUSHROSE-TIMING-US-01 C-11",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Along Utah's Wasatch Front, one botanic garden says roses are usually pruned in March, after the buds have started to swell but before they fully leaf out. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-UT"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-104",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Oregon's Willamette Valley, one extension service says to prune from mid-February to early March, when the weather lets the rose start growing. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-OR"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-105",
+       "ARC-BUSHROSE-TIMING-US-01 AF-62",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Pima County, one extension service says to start pruning established roses in the middle of January. If you haven't pruned by February, it says to do it early in the month. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-AZ:Pima County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-13",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Marin County, one rose society says to begin pruning towards the end of December, to prune in January, and to finish in February. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Marin County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-82",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Orange County, California, one rose society says to prune in January, taking all the leaves off as you do, and that February is still not too late. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Orange County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-84",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Contra Costa County, one extension source says the best time for the main hard pruning is January to February, after the last frost. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Contra Costa County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-88",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In San Antonio, one extension source says roses are usually pruned twice a year, in October and again in mid-February, and that the late-winter pruning is the heaviest. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-TX:San Antonio"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-107",
+       "rule 4",
+       "rule 6"
+      ]
      }
     ],
     "presentation": {
@@ -2674,15 +2974,21 @@
   },
   {
    "pkr_id": "PKR-CGD-000023",
-   "version": "1.2",
+   "version": "1.3",
    "pkr_type": "care_guidance",
    "title": "When do I start and stop feeding?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
     "supporting_sources": [
+     "PKR-SRC-000047",
      "PKR-SRC-000066",
      "PKR-SRC-000097",
      "PKR-SRC-000130",
+     "PKR-SRC-000131",
+     "PKR-SRC-000132",
+     "PKR-SRC-000133",
+     "PKR-SRC-000135",
+     "PKR-SRC-000136",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
      "PKR-SRC-000253",
@@ -2713,7 +3019,19 @@
      "PKR-SRC-000353",
      "PKR-SRC-000358",
      "PKR-SRC-000360",
-     "PKR-SRC-000362"
+     "PKR-SRC-000362",
+     "PKR-SRC-000373",
+     "PKR-SRC-000374",
+     "PKR-SRC-000375",
+     "PKR-SRC-000378",
+     "PKR-SRC-000379",
+     "PKR-SRC-000385",
+     "PKR-SRC-000387",
+     "PKR-SRC-000388",
+     "PKR-SRC-000390",
+     "PKR-SRC-000391",
+     "PKR-SRC-000392",
+     "PKR-SRC-000393"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -2722,7 +3040,7 @@
       "pkr_id": "PKR-CGD-000004"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2). Australia: Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25). United Kingdom: Months for the first feed run from late February to April, and one rose grower's two pages differ (C-11). Only one rose grower names a last feed, by the end of August; the RHS gives no end date for feeding (C-3). Whether a feed in late August risks soft growth in the north is not known. No source gives different feeding months for different parts of the UK (AF-28).",
+    "preserved_uncertainty": "New Zealand: Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2). Australia: Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25). United Kingdom: Months for the first feed run from late February to April, and one rose grower's two pages differ (C-11). Only one rose grower names a last feed, by the end of August; the RHS gives no end date for feeding (C-3). Whether a feed in late August risks soft growth in the north is not known. No source gives different feeding months for different parts of the UK (AF-28). United States: The national range for the last feed is built from pages that each speak of their own place; no page gives it (AF-25). In Minnesota and Wisconsin the end of nitrogen feeding differs by about five weeks (C-1). Nashville is too late for granular feeds in September while Cobb County still feeds then (C-2). One Marin rose society starts after the first flowers rather than at new growth (C-4). Iowa's page gives a feed in mid to late July and no date to stop (C-7). Months for every other state, county and city rest on one organisation.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2900,6 +3218,241 @@
        "rule 7",
        "rule 6"
       ]
+     },
+     {
+      "text": "Give the first feed of the year as new growth appears.",
+      "confidence": "Moderate",
+      "place": [
+       "US"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-20",
+       "ARC-BUSHROSE-TIMING-US-01 C-4"
+      ]
+     },
+     {
+      "text": "Stop feeding between July and November, depending on where you live, so that the stems can mature before winter: after July in Missouri and the Kansas City area, and in November in Nashville and in Florida outside South Florida. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "US"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-25",
+       "ARC-BUSHROSE-TIMING-US-01 C-2",
+       "rule 3",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Iowa, one extension service says to feed in spring, just as the new growth begins to emerge. It says roses also benefit from a feed while they are first in flower and another in mid to late July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-IA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-63",
+       "ARC-BUSHROSE-TIMING-US-01 C-7",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Minnesota, start feeding in May. One rose expert says to wait until new growth is showing, in early to mid-May. One rose society says to feed again in early June, early July and early August. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "US-MN"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-16",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Minnesota and Wisconsin, stop using fertiliser that contains nitrogen between late July and the end of August. In Minnesota, one rose society says to use none after August 15. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "US-MN",
+       "US-WI"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-21",
+       "ARC-BUSHROSE-TIMING-US-01 C-1",
+       "rule 3",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Wisconsin, one rose expert says to begin feeding in early to mid-May, once new growth is showing. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-WI"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-69",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In North and South Dakota, one rose society says to stop using nitrogen fertilisers after August. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-ND",
+       "US-SD"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-70",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Illinois, one extension service says not to feed after August 15. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-IL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-22",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Pennsylvania, one extension service says to feed once a month from April and to stop in August, so that there is less new growth that may not mature before winter. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-PA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-17",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Missouri, one extension service says to give the first feed in spring, once the danger of a severe freeze is past, and not to feed after July. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-MO"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-97",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In the Kansas City area, one extension source says to feed four times a season: in mid-April, mid-May, mid-June and mid to late July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-KS:Kansas City",
+       "US-MO:Kansas City"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-101",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Nashville, one rose society says to give an organic fertiliser in March and to feed established roses in April. It says that by September it is getting too late for dry (granular) fertilisers, though liquid feeds can go on for a while, and to stop all feeding in November. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-TN:Nashville"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-18",
+       "ARC-BUSHROSE-TIMING-US-01 AF-23",
+       "ARC-BUSHROSE-TIMING-US-01 C-2",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Georgia, one extension service says that, without a soil test, roses are usually fed once a month from March through September. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-GA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-81",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Cobb County, one county extension guide says to start feeding in March, and to feed every other week in September. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-GA:Cobb County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-77",
+       "ARC-BUSHROSE-TIMING-US-01 C-2",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In South Carolina, one extension service says to feed when the rose first leafs out and again after each round of flowers, and to stop six weeks before your expected first frost.",
+      "confidence": "Low",
+      "place": [
+       "US-SC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-26",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Florida, one extension service says to feed once a month from mid-February to mid-November; in South Florida, it says the monthly feeds can go on all year round. In Central Florida, it says to feed after pruning in February. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-FL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-92",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Marin County, one rose society differs: it says to begin feeding in April, after the first round of flowers. It says September is the last month for regular feeding, and to stop all feeding in November so that the rose can go dormant. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Marin County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-19",
+       "ARC-BUSHROSE-TIMING-US-01 AF-24",
+       "ARC-BUSHROSE-TIMING-US-01 C-4",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Orange County, California, one rose society says to feed once there are 3 inches of new growth, and that October is the last month to feed. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Orange County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-85",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Contra Costa County, one extension source says to feed in spring, once you see 2 to 3 inches of new growth.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Contra Costa County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-89",
+       "rule 4"
+      ]
      }
     ],
     "presentation": {
@@ -2915,13 +3468,18 @@
   },
   {
    "pkr_id": "PKR-CGD-000024",
-   "version": "1.2",
+   "version": "1.3",
    "pkr_type": "care_guidance",
    "title": "When do I stop deadheading?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
     "supporting_sources": [
+     "PKR-SRC-000003",
      "PKR-SRC-000130",
+     "PKR-SRC-000131",
+     "PKR-SRC-000132",
+     "PKR-SRC-000135",
+     "PKR-SRC-000136",
      "PKR-SRC-000193",
      "PKR-SRC-000228",
      "PKR-SRC-000278",
@@ -2936,7 +3494,13 @@
      "PKR-SRC-000347",
      "PKR-SRC-000351",
      "PKR-SRC-000354",
-     "PKR-SRC-000362"
+     "PKR-SRC-000362",
+     "PKR-SRC-000373",
+     "PKR-SRC-000375",
+     "PKR-SRC-000378",
+     "PKR-SRC-000385",
+     "PKR-SRC-000387",
+     "PKR-SRC-000392"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -2945,7 +3509,7 @@
       "pkr_id": "PKR-CGD-000004"
      }
     ],
-    "preserved_uncertainty": "New Zealand: The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25). Australia: No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming. United Kingdom: No UK source located gives a month to stop deadheading (AF-35); the approved general pattern, from US sources, stops in early to mid autumn (C-6). October rests on one rose grower. The two sources on roses grown for hips give different times to stop (C-13), and neither names Hybrid Teas or Floribundas. No UK source located gives a date to stop summer pruning.",
+    "preserved_uncertainty": "New Zealand: The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25). Australia: No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming. United Kingdom: No UK source located gives a month to stop deadheading (AF-35); the approved general pattern, from US sources, stops in early to mid autumn (C-6). October rests on one rose grower. The two sources on roses grown for hips give different times to stop (C-13), and neither names Hybrid Teas or Floribundas. No UK source located gives a date to stop summer pruning. United States: Times to stop run from mid-August (the Kansas City area) to November or December (Marin and Orange Counties), and Nashville still cuts flowers in November while Cobb County stops in October (C-2). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree. Pip's general answer, shown to everyone, gives a general time; the local times here differ from it. It says to stop in early-to-mid autumn so the rose can form hips.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -3096,6 +3660,128 @@
        "ARC-BUSHROSE-TIMING-UK-01 AF-35",
        "rule 5"
       ]
+     },
+     {
+      "text": "In Iowa, one extension service says to deadhead (remove the faded flowers) during the summer, but to stop towards the end of summer, as fall nears.",
+      "confidence": "Low",
+      "place": [
+       "US-IA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-64",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Minnesota and Wisconsin, stop deadheading (removing the faded flowers) at the end of August or in September. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "US-MN",
+       "US-WI"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-27",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In North and South Dakota, one rose society says to stop deadheading (removing the faded flowers) after August, to help the canes (stems) harden off and mature. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-ND",
+       "US-SD"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-70",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Illinois, one extension service says to stop deadheading (removing the faded flowers) or cutting flowers after October 1, so that the rose can form hips (its fruit) and begin to harden for winter. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-IL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-28",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Pennsylvania, one extension service says to stop cutting off the faded flowers in early fall, so that hips (the rose's fruit) can form.",
+      "confidence": "Low",
+      "place": [
+       "US-PA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-74",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In the Kansas City area, one extension source says to stop deadheading (removing the faded flowers) after mid-August, and only to pull off the spent petals after that. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-KS:Kansas City",
+       "US-MO:Kansas City"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-31",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Nashville, one rose society says to keep cutting buds and blooms in November; sometimes there are flowers until Thanksgiving. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-TN:Nashville"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-75",
+       "ARC-BUSHROSE-TIMING-US-01 C-2",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Cobb County, one county extension guide says to stop deadheading (removing the faded flowers) in October. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-GA:Cobb County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-29",
+       "ARC-BUSHROSE-TIMING-US-01 C-2",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Marin County, one rose society says to stop cutting off the faded flowers in November, so that hips (the rose's fruit) can form. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Marin County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-30",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Orange County, California, one rose society says to stop deadheading (removing the faded flowers) in November and December, and just to pull off the old petals. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Orange County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-86",
+       "rule 4",
+       "rule 6"
+      ]
      }
     ],
     "presentation": {
@@ -3111,15 +3797,18 @@
   },
   {
    "pkr_id": "PKR-CGD-000025",
-   "version": "1.2",
+   "version": "1.3",
    "pkr_type": "care_guidance",
    "title": "Which months do I plant or move a rose?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000034",
+     "PKR-SRC-000047",
      "PKR-SRC-000097",
      "PKR-SRC-000130",
+     "PKR-SRC-000131",
+     "PKR-SRC-000132",
      "PKR-SRC-000156",
      "PKR-SRC-000157",
      "PKR-SRC-000190",
@@ -3137,6 +3826,10 @@
      "PKR-SRC-000279",
      "PKR-SRC-000282",
      "PKR-SRC-000283",
+     "PKR-SRC-000284",
+     "PKR-SRC-000285",
+     "PKR-SRC-000287",
+     "PKR-SRC-000291",
      "PKR-SRC-000296",
      "PKR-SRC-000299",
      "PKR-SRC-000300",
@@ -3161,7 +3854,18 @@
      "PKR-SRC-000357",
      "PKR-SRC-000358",
      "PKR-SRC-000360",
-     "PKR-SRC-000362"
+     "PKR-SRC-000362",
+     "PKR-SRC-000374",
+     "PKR-SRC-000375",
+     "PKR-SRC-000377",
+     "PKR-SRC-000379",
+     "PKR-SRC-000382",
+     "PKR-SRC-000383",
+     "PKR-SRC-000384",
+     "PKR-SRC-000385",
+     "PKR-SRC-000387",
+     "PKR-SRC-000390",
+     "PKR-SRC-000392"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -3174,7 +3878,7 @@
       "pkr_id": "PKR-CGD-000021"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies. Australia: The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society. United Kingdom: The whole bare-root range, October to early March, is on one garden company's page; the RHS names seasons only and leaves out the middle of winter, while one rose grower calls December one of the best months (C-4). Months for moving a rose differ (C-5), and the RHS window is for deciduous shrubs in general, not roses. The ideal months for potted roses, and the warning about extreme heat, each rest on one source.",
+    "preserved_uncertainty": "New Zealand: Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies. Australia: The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society. United Kingdom: The whole bare-root range, October to early March, is on one garden company's page; the RHS names seasons only and leaves out the middle of winter, while one rose grower calls December one of the best months (C-4). Months for moving a rose differ (C-5), and the RHS window is for deciduous shrubs in general, not roses. The ideal months for potted roses, and the warning about extreme heat, each rest on one source. United States: Every planting and moving month rests on one organisation in its own place. Places differ on the season for moving a rose, from fall (Illinois) to December to March (Arizona's low desert, Nashville, Arkansas, Marin County) and early spring (Iowa); the Nashville society's own pages give two times. Florida's months say when bare-root roses are on sale, not when to plant them. Missouri's -10 °F line for bare-root planting is already in Pip's US answer on planting (PKR-CGD-000016) and is on record only here (AF-99).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -3415,6 +4119,208 @@
        "ARC-BUSHROSE-TIMING-UK-01 C-5",
        "rule 6"
       ]
+     },
+     {
+      "text": "A rose in a pot can be planted at almost any time during the growing season.",
+      "confidence": "Moderate",
+      "place": [
+       "US"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-38"
+      ]
+     },
+     {
+      "text": "In Iowa, one extension service says to plant a bare-root rose (one sold while dormant, not actively growing) in early spring, before growth begins, as soon as you get it: in late March or April. It says a rose in a pot can go in from April through midsummer. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-IA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-65",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Iowa, one extension service says to move an established rose in early spring, before it leafs out, usually late March to mid-April. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-IA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-65",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Minnesota, one rose society says to plant bare-root roses (sold while dormant, not actively growing) between April 10 and May 15, and roses in pots from May 15 on through the growing season. One rose expert says to plant a bare-root rose as soon as the soil can be worked. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-MN"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-32",
+       "ARC-BUSHROSE-TIMING-US-01 AF-36",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Wisconsin, one rose expert says to plant a bare-root rose (one sold while dormant, not actively growing) as soon as the soil can be worked and plants are available.",
+      "confidence": "Low",
+      "place": [
+       "US-WI"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-71",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Illinois, one extension service says fall is a good time to move a rose.",
+      "confidence": "Low",
+      "place": [
+       "US-IL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-39",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Colorado, one extension service says to plant a bare-root rose (one sold while dormant, not actively growing) in spring rather than fall, and to finish by mid-April at the lower elevations of the state. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-CO"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-35",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Colorado, one extension service says a rose in a pot can be planted during the growing season, any time after the last killing frost.",
+      "confidence": "Low",
+      "place": [
+       "US-CO"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-35",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In the Kansas City area, one extension source says to plant roses grown in containers after May 1. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-KS:Kansas City",
+       "US-MO:Kansas City"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-102",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Nashville, one rose society says to plant a bare-root rose (one sold while dormant, not actively growing) in March. It says to move an established rose while it is dormant or going dormant, ideally from December to the first of February. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-TN:Nashville"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-40",
+       "ARC-BUSHROSE-TIMING-US-01 AF-33",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Arkansas, one extension service says the dormant season, between November and February, is the best time to move a rose. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-AR"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-42",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In South Carolina, one extension service says to plant bare-root roses (sold while dormant, not actively growing) in late fall, late winter or early spring, and roses grown in containers later in spring.",
+      "confidence": "Low",
+      "place": [
+       "US-SC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-95",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Florida, one extension service says bare-root roses (sold while dormant, not actively growing) are usually on sale from October to March, and that roses can be planted all year round, except in North Florida, where early spring is better. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-FL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-93",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Arizona's low desert, one extension service says the best time to plant a bare-root rose (one sold while dormant, not actively growing) is mid-December through February. It says a rose in a pot can be planted at any time of year, but spring or fall is best. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-AZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-34",
+       "ARC-BUSHROSE-TIMING-US-01 AF-37",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Arizona's low desert, one extension service says the best time to move a rose is from December through March. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-AZ"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-41",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Marin County, one rose society says bare-root roses (sold while dormant, not actively growing) reach nurseries in December, and to plant them in January and finish in February. It says December, along with pruning, is also a good time to move a rose. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Marin County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-83",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Orange County, California, one rose society says January is the season for bare-root roses (sold while dormant, not actively growing). Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Orange County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-87",
+       "rule 4",
+       "rule 6"
+      ]
      }
     ],
     "presentation": {
@@ -3430,14 +4336,20 @@
   },
   {
    "pkr_id": "PKR-CGD-000026",
-   "version": "1.2",
+   "version": "1.3",
    "pkr_type": "care_guidance",
    "title": "When do I clear up and spray in winter?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia or the United Kingdom; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
     "supporting_sources": [
+     "PKR-SRC-000004",
      "PKR-SRC-000066",
      "PKR-SRC-000097",
+     "PKR-SRC-000131",
+     "PKR-SRC-000132",
+     "PKR-SRC-000133",
+     "PKR-SRC-000135",
+     "PKR-SRC-000136",
      "PKR-SRC-000157",
      "PKR-SRC-000190",
      "PKR-SRC-000193",
@@ -3477,7 +4389,21 @@
      "PKR-SRC-000354",
      "PKR-SRC-000355",
      "PKR-SRC-000356",
-     "PKR-SRC-000358"
+     "PKR-SRC-000358",
+     "PKR-SRC-000373",
+     "PKR-SRC-000375",
+     "PKR-SRC-000376",
+     "PKR-SRC-000377",
+     "PKR-SRC-000378",
+     "PKR-SRC-000380",
+     "PKR-SRC-000381",
+     "PKR-SRC-000384",
+     "PKR-SRC-000385",
+     "PKR-SRC-000386",
+     "PKR-SRC-000387",
+     "PKR-SRC-000390",
+     "PKR-SRC-000392",
+     "PKR-SRC-000393"
     ],
     "founder_approval_date": "2026-10-08",
     "related_pkrs": [
@@ -3490,7 +4416,7 @@
       "pkr_id": "PKR-CGD-000006"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). Australia: The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). United Kingdom: Months for clearing leaves come from one rose grower (AF-37); the RHS names autumn only. No UK gardening body or rose society page located describes a winter spray; one company that sells lime sulphur describes one, and whether such a product is authorised for home gardens in the UK is not established, so Pip gives no timing for it (AF-24, R-3). No UK source describes mounding soil over the base for winter (AF-26, C-8), and none says when mulch over exposed roots comes off.",
+    "preserved_uncertainty": "New Zealand: Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). Australia: The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). United Kingdom: Months for clearing leaves come from one rose grower (AF-37); the RHS names autumn only. No UK gardening body or rose society page located describes a winter spray; one company that sells lime sulphur describes one, and whether such a product is authorised for home gardens in the UK is not established, so Pip gives no timing for it (AF-24, R-3). No UK source describes mounding soil over the base for winter (AF-26, C-8), and none says when mulch over exposed roots comes off. United States: One Cobb County neem oil spray rests only on a checker's note and is left out (AF-78). Winter-spray months differ from place to place, from mid to late October (Minnesota, Wisconsin and the Dakotas) to February (Nashville), and most pages name no type (C-6). In Minnesota and Wisconsin, one rose expert begins mounding soil in September, earlier than the hard frosts other pages wait for (C-3). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree on the covering and its removal. No page for Arizona's low desert or Marin County describes winter protection (AF-60). Pip's general winter answer, shown to everyone, already says when mounding goes on and comes off (AF-59). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -3740,6 +4666,343 @@
       "trace": [
        "ARC-BUSHROSE-TIMING-UK-01 AF-26",
        "rule 5"
+      ]
+     },
+     {
+      "text": "Clear up fallen leaves and debris from around your roses, to help keep diseases from coming back: in fall, before winter, or, where roses are pruned in winter, at pruning time.",
+      "confidence": "Moderate",
+      "place": [
+       "US"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-43"
+      ]
+     },
+     {
+      "text": "In Iowa, one extension service says to clear away fallen leaves and flower debris after the first killing frost, to help keep disease from coming back.",
+      "confidence": "Low",
+      "place": [
+       "US-IA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-66",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Iowa, one extension service says getting roses ready for winter starts in late fall, in mid-November. It says the winter protection comes off once the ground thaws and the harsh cold has passed, before the buds begin to open. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-IA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-66",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Minnesota and Wisconsin, cover roses with leaves for winter once it turns cold: in early November as temperatures drop, or after the ground has frozen. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Moderate",
+      "place": [
+       "US-MN",
+       "US-WI"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-52",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Most advice, including the general winter advice, waits until there have been hard frosts before mounding soil around the base of the rose. In Minnesota and Wisconsin, one rose expert differs: they say you can start as early as mid to late September. Months are only a guide.",
+      "kind": "disagreement",
+      "place": [
+       "US-MN",
+       "US-WI"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-52",
+       "ARC-BUSHROSE-TIMING-US-01 C-3",
+       "rule 2",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Minnesota and Wisconsin, take the winter cover off in spring. One rose expert says to do it just after the ground thaws; one rose society says to remove the leaves early in April and the rest of the cover by mid-April. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Moderate",
+      "place": [
+       "US-MN",
+       "US-WI"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-56",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Minnesota, Wisconsin and the Dakotas, one rose society says to give roses a dormant spray (a spray put on while the rose is dormant) in mid to late October, at the general fall clean-up. Months are only a guide. Follow the label on the spray.",
+      "confidence": "Low",
+      "place": [
+       "US-MN",
+       "US-WI",
+       "US-ND",
+       "US-SD"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-48",
+       "ARC-BUSHROSE-TIMING-US-01 C-6",
+       "rule 4",
+       "rule 6",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In Minnesota and Wisconsin, one rose expert says a dormant spray (a spray put on while the rose is dormant) of lime sulphur with a horticultural (spraying) oil can be used if you want one. Follow the label on the spray.",
+      "confidence": "Low",
+      "place": [
+       "US-MN",
+       "US-WI"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-72",
+       "rule 4",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In North and South Dakota, one rose society says to add a blanket of leaves 12 to 18 inches deep in early November, as temperatures drop. It says to take the leaves off early in April and the rest of the cover by mid-April. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-ND",
+       "US-SD"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-73",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Illinois, one extension service says to wait until a hard killing frost has made most of the leaves fall before you protect roses for winter.",
+      "confidence": "Low",
+      "place": [
+       "US-IL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-53",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Pennsylvania, one extension service says to clean up all fallen leaves and flowers before winter, and to put winter protection on only after several killing freezes, once the rose is dormant. It says to take it off in very early spring, once lows are no longer forecast to fall below 20°F.",
+      "confidence": "Low",
+      "place": [
+       "US-PA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-44",
+       "ARC-BUSHROSE-TIMING-US-01 AF-57",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Missouri, one extension service says to take the winter covering off carefully in spring, once the danger of a severe freeze is over.",
+      "confidence": "Low",
+      "place": [
+       "US-MO"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-98",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Colorado, one extension service says to clear all leaves and debris from the ground around Thanksgiving. Once night temperatures have dropped to 20°F for several days, it says to mound soil over the base of the rose, and in spring to take the cover off gradually, once the danger of hard frost has passed. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-CO"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-47",
+       "ARC-BUSHROSE-TIMING-US-01 AF-55",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In the Kansas City area, one extension source says to wait for several hard freezes in fall, strip the leaves from the bushes and clear the bed, and then cover grafted roses with 8 to 12 inches of soil, mulch or leaves. It says to take the cover off in mid-April. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-KS:Kansas City",
+       "US-MO:Kansas City"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-103",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Nashville, one rose society says to clean up the beds in November, and to clear all diseased leaves from the rose beds in December. It says to put winter protection on once there have been two freezes in a row below 28°F. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-TN:Nashville"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-45",
+       "ARC-BUSHROSE-TIMING-US-01 AF-54",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Nashville, one rose society says to uncover the roses carefully around the third week of March, depending on the weather, but to leave the mulch at the base until after the last frost date (April 15 to 23), and then pull it away gradually. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-TN:Nashville"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-58",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Nashville, one rose society says not to take the winter mulch off in early March, because bad weather can go on for several weeks and late freezes are usually more damaging than winter ones. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-TN:Nashville"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-9",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Nashville, one rose society says to give a dormant oil spray (an oil spray put on while the rose is dormant) in February, once temperatures have been over 40°F for 24 hours. Months are only a guide. Follow the label on the spray.",
+      "confidence": "Low",
+      "place": [
+       "US-TN:Nashville"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-49",
+       "ARC-BUSHROSE-TIMING-US-01 C-6",
+       "rule 4",
+       "rule 6",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In Cobb County, one county extension guide says to remove diseased leaves from the plants and beds in October and November. In December, after the second hard frost (28°F), it says to mound wood mulch 12 to 18 inches deep over the base of the rose. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "US-GA:Cobb County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-78",
+       "ARC-BUSHROSE-TIMING-US-01 AF-79",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Cobb County, one county extension guide says to spray with a dormant oil (an oil spray put on while the rose is dormant) every other week in December. Months are only a guide. Follow the label on the spray.",
+      "confidence": "Low",
+      "place": [
+       "US-GA:Cobb County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-78",
+       "ARC-BUSHROSE-TIMING-US-01 C-6",
+       "rule 4",
+       "rule 6",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In Florida, one extension service says to take all the leaves off the plants at winter pruning, and to rake up the dead and diseased leaves that have fallen beneath them during the year.",
+      "confidence": "Low",
+      "place": [
+       "US-FL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-94",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Pima County, one extension service says that after pruning you should throw away all fallen leaves and cuttings that may be diseased, and not leave them under the plants or compost them.",
+      "confidence": "Low",
+      "place": [
+       "US-AZ:Pima County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-46",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "I couldn't find advice written for Arizona's low desert, the Tucson area or Marin County on covering or mounding roses for winter. A local rose society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "US-AZ",
+       "US-CA:Marin County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-60",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "In Oregon's Willamette Valley, one extension service says that a dormant oil spray (an oil spray put on while the rose is dormant), given after pruning, needs to go on before the rose sends out new shoots. Follow the label on the spray.",
+      "confidence": "Low",
+      "place": [
+       "US-OR"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-106",
+       "rule 4",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In Marin County, one rose society says to clear up all cuttings and fallen leaves and take them out of the garden in January, at pruning, and to put on a dormant spray (a spray put on while the rose is dormant) before new growth begins. Months are only a guide. Follow the label on the spray.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Marin County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-50",
+       "rule 4",
+       "rule 6",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In Orange County, California, one rose society says to use a dormant spray (a spray put on while the rose is dormant) in January, such as copper sulphate or a horticultural oil. Months are only a guide. Follow the label on the spray.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Orange County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-51",
+       "ARC-BUSHROSE-TIMING-US-01 C-6",
+       "rule 4",
+       "rule 6",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In Contra Costa County, one extension source says you can, if you choose, put on a horticultural oil after the winter pruning, to smother insect eggs and scale insects that are overwintering on the rose. Follow the label on the spray.",
+      "confidence": "Low",
+      "place": [
+       "US-CA:Contra Costa County"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-US-01 AF-90",
+       "rule 4",
+       "rule 7"
       ]
      }
     ],
@@ -5750,7 +7013,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000003",
-   "version": "1.6",
+   "version": "1.7",
    "pkr_type": "source",
    "title": "University of Illinois Extension — Pruning",
    "common": {
@@ -5793,7 +7056,10 @@
      "ARC-BUSHROSE-HARDPRUNE-01, AF-12 (Low) (added v1.6, 2 October 2026)",
      "ARC-BUSHROSE-NOFLOWERS-01, AF-11 (Moderate) (added v1.6, 2 October 2026)",
      "ARC-BUSHROSE-NOFLOWERS-01, AF-14 (High) (added v1.6, 2 October 2026)",
-     "ARC-BUSHROSE-NOFLOWERS-01, AF-15 (Low) (added v1.6, 2 October 2026)"
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-15 (Low) (added v1.6, 2 October 2026)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-11 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-28 (Low)"
     ]
    },
    "content": {
@@ -5806,7 +7072,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000004",
-   "version": "1.7",
+   "version": "1.8",
    "pkr_type": "source",
    "title": "Oregon State University Extension Service — Pruning roses",
    "common": {
@@ -5845,7 +7111,10 @@
      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-6 (Moderate)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-9 (Moderate) (added v1.7, 2 October 2026)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High) (added v1.7, 2 October 2026)",
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate) (added v1.7, 2 October 2026)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate) (added v1.7, 2 October 2026)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-62 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-105 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-106 (Low)"
     ]
    },
    "content": {
@@ -5895,7 +7164,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000006",
-   "version": "1.6",
+   "version": "1.7",
    "pkr_type": "source",
    "title": "Clemson University Cooperative Extension (HGIC) — Pruning Roses",
    "common": {
@@ -5932,7 +7201,12 @@
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)",
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-28 (Moderate)",
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-30 (Low)",
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.6, 2 October 2026)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate) (added v1.6, 2 October 2026)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-14 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-61 (Moderate)"
     ]
    },
    "content": {
@@ -6265,7 +7539,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000018",
-   "version": "1.2",
+   "version": "1.3",
    "pkr_type": "source",
    "title": "University of Arkansas Cooperative Extension Service — Pruning",
    "common": {
@@ -6283,7 +7557,8 @@
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-17 (Moderate)",
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-20 (Low)",
      "ARC-BUSHROSE-NOFLOWERS-01, AF-13 (Low) (added v1.2, 2 October 2026)",
-     "ARC-BUSHROSE-NOFLOWERS-01, AF-15 (Low) (added v1.2, 2 October 2026)"
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-15 (Low) (added v1.2, 2 October 2026)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-96 (Low)"
     ]
    },
    "content": {
@@ -7014,7 +8289,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000047",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Clemson HGIC — Growing Roses",
    "common": {
@@ -7025,7 +8300,11 @@
     "preserved_uncertainty": "No Grandiflora-specific pruning in the factsheet consulted.",
     "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
     "mil_references": [
-     "ARC-BUSHROSE-ROSETYPE-01, AF-4 (Moderate)"
+     "ARC-BUSHROSE-ROSETYPE-01, AF-4 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-26 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-95 (Low)"
     ]
    },
    "content": {
@@ -8729,7 +10008,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000108",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "source",
    "title": "Red Butte Garden — How to Prune Roses",
    "common": {
@@ -8748,7 +10027,10 @@
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-21 (High)",
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-22 (Moderate)",
      "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-25 (High)",
-     "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)"
+     "ARC-BUSHROSE-PRUNINGFRAMEWORK-01, AF-27 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-61 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-104 (Low)"
     ]
    },
    "content": {
@@ -9340,7 +10622,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000131",
-   "version": "1.2",
+   "version": "1.3",
    "pkr_type": "source",
    "title": "Iowa State University Extension — Rose Care by Season",
    "common": {
@@ -9359,7 +10641,14 @@
      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-15 (High)",
      "ARC-BUSHROSE-POSTBUDBREAK-01, AF-16 (Moderate)",
      "ARC-BUSHROSE-NOFLOWERS-01, AF-19 (High) (added v1.2, 2 October 2026)",
-     "ARC-BUSHROSE-NOFLOWERS-01, AF-20 (Low) (added v1.2, 2 October 2026)"
+     "ARC-BUSHROSE-NOFLOWERS-01, AF-20 (Low) (added v1.2, 2 October 2026)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-10 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-63 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-64 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-65 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-66 (Low)"
     ]
    },
    "content": {
@@ -9372,7 +10661,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000132",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "University of Illinois Extension — Care (Roses)",
    "common": {
@@ -9387,7 +10676,14 @@
      "ARC-BUSHROSE-BASICCARE-01, F3 (High)",
      "ARC-BUSHROSE-BASICCARE-01, F4 (High (pattern))",
      "ARC-BUSHROSE-BASICCARE-01, F5 (High (pattern))",
-     "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)"
+     "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-11 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-22 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-28 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-39 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-53 (Low)"
     ]
    },
    "content": {
@@ -9400,7 +10696,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000133",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "University of Missouri Extension — Roses: Care After Planting (G6601)",
    "common": {
@@ -9415,7 +10711,12 @@
      "ARC-BUSHROSE-BASICCARE-01, F3 (High)",
      "ARC-BUSHROSE-BASICCARE-01, F6 (High)",
      "ARC-BUSHROSE-BASICCARE-01, F7 (High)",
-     "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)"
+     "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-59 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-97 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-98 (Low)"
     ]
    },
    "content": {
@@ -9453,7 +10754,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000135",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "source",
    "title": "Penn State Extension — Protecting Your Roses through Pennsylvania Winters",
    "common": {
@@ -9470,7 +10771,15 @@
      "ARC-BUSHROSE-BASICCARE-01, F11 (Moderate)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-14 (Moderate) (added v1.1, 2 October 2026)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-15 (Low) (added v1.1, 2 October 2026)",
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High) (added v1.1, 2 October 2026)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-16 (High) (added v1.1, 2 October 2026)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-17 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-44 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-57 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-62 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-74 (Low)"
     ]
    },
    "content": {
@@ -9483,7 +10792,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000136",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "UGA Extension (Cobb County) — Rose Maintenance Guide and Schedule",
    "common": {
@@ -9496,7 +10805,14 @@
     "mil_references": [
      "ARC-BUSHROSE-BASICCARE-01, F4 (High (pattern))",
      "ARC-BUSHROSE-BASICCARE-01, F5 (High (pattern))",
-     "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)"
+     "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-29 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-76 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-77 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-78 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-79 (Low)"
     ]
    },
    "content": {
@@ -13633,7 +14949,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000284",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Colorado State University Extension (O'Connor, Nelson, Swift, Heins) — \"Selecting and Planting Roses\"",
    "common": {
@@ -13655,7 +14971,11 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-35 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-38 (Moderate)"
     ]
    },
    "content": {
@@ -13668,7 +14988,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000285",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "University of Missouri Extension (rev. Dave Trinklein) — \"Roses: Selecting and Planting\"",
    "common": {
@@ -13692,7 +15012,9 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-20 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-22 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-24 (High)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-38 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-99 (Low)"
     ]
    },
    "content": {
@@ -13737,7 +15059,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000287",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "University of Arkansas Cooperative Extension Service — \"Transplanting\"",
    "common": {
@@ -13751,7 +15073,8 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-27 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-28 (Low)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-42 (Low)"
     ]
    },
    "content": {
@@ -13846,7 +15169,7 @@
   },
   {
    "pkr_id": "PKR-SRC-000291",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Ron Daniels, ARS Master Consulting Rosarian, Nashville Rose Society — \"Transplanting and Moving Rose Bushes\"",
    "common": {
@@ -13865,7 +15188,9 @@
      "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-32 (Low)",
      "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
-     "ARC-BUSHROSE-PLANTMOVE-01, AF-35 (Low)"
+     "ARC-BUSHROSE-PLANTMOVE-01, AF-35 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-6 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-40 (Low)"
     ]
    },
    "content": {
@@ -15858,6 +17183,795 @@
     "identity": "Thompson & Morgan (Mandy Bradshaw), \"How to prune roses\", date not shown. Commercial (seed and plant company), UK. https://www.thompson-morgan.com/pruning/roses, accessed 1 October 2026 and 8 October 2026 (register code TIMING-UK:TM)",
     "url": "https://www.thompson-morgan.com/pruning/roses",
     "register_code": "TIMING-UK:TM",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000365",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "USDA Agricultural Research Service — \"USDA Plant Hardiness Zone Map\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-2 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Federal government, national",
+    "identity": "USDA Agricultural Research Service, \"USDA Plant Hardiness Zone Map\" (2023 map), 2023 map. Federal government, national. https://planthardiness.ars.usda.gov/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:USDA)",
+    "url": "https://planthardiness.ars.usda.gov/",
+    "register_code": "TIMING-US:USDA",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000366",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Patrick Breen, Oregon State University Landscape Plants — \"USDA Hardiness Zone Maps of the United States\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-4 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "University, national",
+    "identity": "Patrick Breen, Oregon State University Landscape Plants, \"USDA Hardiness Zone Maps of the United States\", Maps issued 15 November 2023. University, national. https://landscapeplants.oregonstate.edu/usda-hardiness-zone-maps-united-states, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:OSU-LP)",
+    "url": "https://landscapeplants.oregonstate.edu/usda-hardiness-zone-maps-united-states",
+    "register_code": "TIMING-US:OSU-LP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000367",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Aaron Steil, Iowa State University Extension and Outreach — \"New Plant Hardiness Zone Map Released from the USDA\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-4 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, Iowa; zone 5a–5b",
+    "identity": "Aaron Steil, Iowa State University Extension and Outreach, \"New Plant Hardiness Zone Map Released from the USDA\", 12 December 2023. University extension, Iowa; zone 5a–5b. https://yardandgarden.extension.iastate.edu/article/2023/12/new-plant-hardiness-zone-map-released-usda, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:ISU-ZONE)",
+    "url": "https://yardandgarden.extension.iastate.edu/article/2023/12/new-plant-hardiness-zone-map-released-usda",
+    "register_code": "TIMING-US:ISU-ZONE",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000368",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Carole MacMullan (guest columnist), UGA Extension Fulton County — \"Planting zone confusion – What are the current planting zones?\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-3 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension (county blog), Georgia; Cobb County zone 8",
+    "identity": "Carole MacMullan (guest columnist), UGA Extension Fulton County, \"Planting zone confusion – What are the current planting zones?\", 19 June 2024. University extension (county blog), Georgia; Cobb County zone 8. https://site.extension.uga.edu/fultonag/2024/06/planting-zone-confusion-what-are-the-current-planting-zones/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UGA-ZONE)",
+    "url": "https://site.extension.uga.edu/fultonag/2024/06/planting-zone-confusion-what-are-the-current-planting-zones/",
+    "register_code": "TIMING-US:UGA-ZONE",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000369",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "UGA Cooperative Extension climate blog — \"New USDA Plant Hardiness Zone map shows most of Southeast has gotten one half zone warmer\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-2 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-3 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, Southeast",
+    "identity": "UGA Cooperative Extension climate blog, \"New USDA Plant Hardiness Zone map shows most of Southeast has gotten one half zone warmer\", 26 November 2023. University extension, Southeast. https://site.extension.uga.edu/climate/2023/11/new-usda-plant-hardiness-zone-map-shows-most-of-southeast-has-gotten-one-half-zone-warmer/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UGA-CLIM)",
+    "url": "https://site.extension.uga.edu/climate/2023/11/new-usda-plant-hardiness-zone-map-shows-most-of-southeast-has-gotten-one-half-zone-warmer/",
+    "register_code": "TIMING-US:UGA-CLIM",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000370",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Ursula Schuch, University of Arizona Cooperative Extension — \"Arizona Climate Zones and their Application to Growing Plants\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-4 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, Arizona; Phoenix metro zone 10, Tucson 9b (Table 1, as extracted)",
+    "identity": "Ursula Schuch, University of Arizona Cooperative Extension, \"Arizona Climate Zones and their Application to Growing Plants\", April 2021. University extension, Arizona; Phoenix metro zone 10, Tucson 9b (Table 1, as extracted). https://extension.arizona.edu/publication/arizona-climate-zones-and-their-application-growing-plants, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:AZ-CZ)",
+    "url": "https://extension.arizona.edu/publication/arizona-climate-zones-and-their-application-growing-plants",
+    "register_code": "TIMING-US:AZ-CZ",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000371",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "UC Marin Master Gardeners — \"What Is Your Climate Zone?\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-5 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension (Master Gardener), Marin County, California; zones 9b and 10a",
+    "identity": "UC Marin Master Gardeners, \"What Is Your Climate Zone?\", Updated 11 August 2026. University extension (Master Gardener), Marin County, California; zones 9b and 10a. https://ucanr.edu/site/uc-marin-master-gardeners/what-your-climate-zone, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UC-MARIN-Z)",
+    "url": "https://ucanr.edu/site/uc-marin-master-gardeners/what-your-climate-zone",
+    "register_code": "TIMING-US:UC-MARIN-Z",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000372",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Elaine Applebaum, UC Master Gardeners of Placer County — \"USDA and Sunset Zones\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-5 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension (Master Gardener), California",
+    "identity": "Elaine Applebaum, UC Master Gardeners of Placer County, \"USDA and Sunset Zones\", date not shown. University extension (Master Gardener), California. https://ucanr.edu/site/uc-master-gardeners-placer-county/article/usda-and-sunset-zones, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UC-PLACER)",
+    "url": "https://ucanr.edu/site/uc-master-gardeners-placer-county/article/usda-and-sunset-zones",
+    "register_code": "TIMING-US:UC-PLACER",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000373",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Lois Ann Helgeson, American Rose Society — \"Winterizing Roses in the North Central District\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-6 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-48 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-52 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-56 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-70 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-73 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "National rose society, Minnesota, Wisconsin, North and South Dakota; zones 3–5 (stated)",
+    "identity": "Lois Ann Helgeson, American Rose Society, \"Winterizing Roses in the North Central District\", 28 April 2018. National rose society, Minnesota, Wisconsin, North and South Dakota; zones 3–5 (stated). https://rose.org/winterizing-roses-in-the-north-central-district/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:ARS-NCD)",
+    "url": "https://rose.org/winterizing-roses-in-the-north-central-district/",
+    "register_code": "TIMING-US:ARS-NCD",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000374",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Minnesota Rose Society — \"General Rose Care\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-32 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-36 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-38 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-67 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Minnesota; band A by ARS-NCD's statement that Minnesota is in zones 3–5",
+    "identity": "Minnesota Rose Society, \"General Rose Care\", Last modified 5 October 2013. Rose society, Minnesota; band A by ARS-NCD's statement that Minnesota is in zones 3–5. https://minnesotarosesociety.org/general-rose-care/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:MRS-MN)",
+    "url": "https://minnesotarosesociety.org/general-rose-care/",
+    "register_code": "TIMING-US:MRS-MN",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000375",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "David C. Zlesak (Professor of Horticulture, University of Wisconsin–River Falls) — \"Growing Roses in the Northern Midwest\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-16 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-27 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-32 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-52 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-56 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-61 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-67 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-68 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-69 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-71 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-72 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rosarian's guide hosted by a rose society, \"northern Midwest\"; region's zone not stated (see §4.2)",
+    "identity": "David C. Zlesak (Professor of Horticulture, University of Wisconsin–River Falls), \"Growing Roses in the Northern Midwest\", hosted by the Twin Cities Rose Club, 2023 revision. Rosarian's guide hosted by a rose society, \"northern Midwest\"; region's zone not stated (see §4.2). https://twincitiesrose.org/wp-content/uploads/2023/04/Growing-Roses-in-the-Northern-Midwest-2023.pdf, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:ZLESAK)",
+    "url": "https://twincitiesrose.org/wp-content/uploads/2023/04/Growing-Roses-in-the-Northern-Midwest-2023.pdf",
+    "register_code": "TIMING-US:ZLESAK",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000376",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Iowa State University Extension and Outreach — \"When should I prune hybrid tea roses in spring?\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-10 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-66 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, Iowa; zone 5 (ISU-ZONE)",
+    "identity": "Iowa State University Extension and Outreach, \"When should I prune hybrid tea roses in spring?\", Updated 3 December 2024. University extension, Iowa; zone 5 (ISU-ZONE). https://yardandgarden.extension.iastate.edu/faq/when-should-i-prune-hybrid-tea-roses-spring, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:ISU-HT)",
+    "url": "https://yardandgarden.extension.iastate.edu/faq/when-should-i-prune-hybrid-tea-roses-spring",
+    "register_code": "TIMING-US:ISU-HT",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000377",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Nashville Rose Society (NRS Editor) — \"A Year of Rose Care – Winter\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-40 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-45 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-49 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-54 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Middle Tennessee; zone 7 (NRS-T)",
+    "identity": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care – Winter\", 30 November 2020; updated 23 September 2024. Rose society, Middle Tennessee; zone 7 (NRS-T). https://www.nashvillerosesociety.org/year-rose-care-winter/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:NRS-W)",
+    "url": "https://www.nashvillerosesociety.org/year-rose-care-winter/",
+    "register_code": "TIMING-US:NRS-W",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000378",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Nashville Rose Society (NRS Editor) — \"A Year of Rose Care – Fall\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-23 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-45 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-54 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-75 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Middle Tennessee; zone 7 (NRS-T)",
+    "identity": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care – Fall\", 29 October 2020; updated 4 July 2025. Rose society, Middle Tennessee; zone 7 (NRS-T). https://www.nashvillerosesociety.org/year-rose-garden-fall/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:NRS-F)",
+    "url": "https://www.nashvillerosesociety.org/year-rose-garden-fall/",
+    "register_code": "TIMING-US:NRS-F",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000379",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Nashville Rose Society (NRS Editor) — \"A Year of Rose Care – Spring\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-12 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-18 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-33 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Middle Tennessee; zone 7 (NRS-T)",
+    "identity": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care – Spring\", 30 March 2020; updated 4 July 2025. Rose society, Middle Tennessee; zone 7 (NRS-T). https://www.nashvillerosesociety.org/year-rose-care-spring/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:NRS-S)",
+    "url": "https://www.nashvillerosesociety.org/year-rose-care-spring/",
+    "register_code": "TIMING-US:NRS-S",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000380",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Nashville Rose Society (NRS Editor) — \"Spring Pruning for Established Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-58 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Middle Tennessee; zone 7 (NRS-T)",
+    "identity": "Nashville Rose Society (NRS Editor), \"Spring Pruning for Established Roses\", 9 October 2020. Rose society, Middle Tennessee; zone 7 (NRS-T). https://www.nashvillerosesociety.org/spring-pruning-for-established-roses/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:NRS-SP)",
+    "url": "https://www.nashvillerosesociety.org/spring-pruning-for-established-roses/",
+    "register_code": "TIMING-US:NRS-SP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000381",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Marty Reich (Master Rosarian), Nashville Rose Society — \"March Rose Growing Notes\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-12 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Middle Tennessee; zone 7 (NRS-T)",
+    "identity": "Marty Reich (Master Rosarian), Nashville Rose Society, \"March Rose Growing Notes\", 7 March 2019. Rose society, Middle Tennessee; zone 7 (NRS-T). https://www.nashvillerosesociety.org/march-rose-growing-notes/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:NRS-MAR)",
+    "url": "https://www.nashvillerosesociety.org/march-rose-growing-notes/",
+    "register_code": "TIMING-US:NRS-MAR",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000382",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Lucy Bradley, University of Arizona Cooperative Extension — \"Rose Selection & Planting in the Low Desert\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-34 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-37 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-41 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, Arizona low desert; Phoenix zone 10 (AZ-CZ)",
+    "identity": "Lucy Bradley, University of Arizona Cooperative Extension, \"Rose Selection & Planting in the Low Desert\" (AZ1304), October 2002. University extension, Arizona low desert; Phoenix zone 10 (AZ-CZ). https://extension.arizona.edu/sites/default/files/2024-08/az1304.pdf, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:AZ-LD)",
+    "url": "https://extension.arizona.edu/sites/default/files/2024-08/az1304.pdf",
+    "register_code": "TIMING-US:AZ-LD",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000383",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Paul Larson, Laurie Vance, Deborah North, University of Arizona Cooperative Extension — \"January Monthly Gardening Guide for Pima County\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-13 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-34 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension (county), Tucson area; zone 9b (AZ-CZ Table 1, as extracted)",
+    "identity": "Paul Larson, Laurie Vance, Deborah North, University of Arizona Cooperative Extension, \"January Monthly Gardening Guide for Pima County\", January 2025. University extension (county), Tucson area; zone 9b (AZ-CZ Table 1, as extracted). https://extension.arizona.edu/publication/january-monthly-gardening-guide-pima-county, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:PIMA-J)",
+    "url": "https://extension.arizona.edu/publication/january-monthly-gardening-guide-pima-county",
+    "register_code": "TIMING-US:PIMA-J",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000384",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "The same authors — \"February Monthly Gardening Guide for Pima County\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-13 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-34 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-46 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "As PIMA-J",
+    "identity": "The same authors, \"February Monthly Gardening Guide for Pima County\", January 2025. As PIMA-J. https://extension.arizona.edu/publication/february-monthly-gardening-guide-pima-county, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:PIMA-F)",
+    "url": "https://extension.arizona.edu/publication/february-monthly-gardening-guide-pima-county",
+    "register_code": "TIMING-US:PIMA-F",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000385",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Marin Rose Society — \"Annual Rose Calendar\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-19 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-24 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-30 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-50 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-82 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-83 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Marin County, California; zones 9b and 10a (UC-MARIN-Z)",
+    "identity": "Marin Rose Society, \"Annual Rose Calendar\", 6 October 2019. Rose society, Marin County, California; zones 9b and 10a (UC-MARIN-Z). https://www.marinrose.org/care-basics/annual-rose-calendar/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:MARIN)",
+    "url": "https://www.marinrose.org/care-basics/annual-rose-calendar/",
+    "register_code": "TIMING-US:MARIN",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000386",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Colorado State University Extension, PlantTalk Colorado 1726 — \"Roses: Winter Care\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-47 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-55 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-59 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-100 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, Colorado; zone not stated",
+    "identity": "Colorado State University Extension, PlantTalk Colorado 1726, \"Roses: Winter Care\", date not shown. University extension, Colorado; zone not stated. https://planttalk.colostate.edu/topics/trees-shrubs-vines/1726-roses-winter-care/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:CSU-W)",
+    "url": "https://planttalk.colostate.edu/topics/trees-shrubs-vines/1726-roses-winter-care/",
+    "register_code": "TIMING-US:CSU-W",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000387",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Johnson County Extension Master Gardeners, K-State Research and Extension — \"Rose Care\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-31 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-101 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-102 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-103 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension (Master Gardener), Kansas City area; zone not stated",
+    "identity": "Johnson County Extension Master Gardeners, K-State Research and Extension, \"Rose Care\", date not shown. University extension (Master Gardener), Kansas City area; zone not stated. https://www.johnson.k-state.edu/docs/lawn-and-garden/in-house-publications/roses/Rose%20Care.pdf, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:KSU-JO)",
+    "url": "https://www.johnson.k-state.edu/docs/lawn-and-garden/in-house-publications/roses/Rose%20Care.pdf",
+    "register_code": "TIMING-US:KSU-JO",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000388",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Bob Westerfield and Malgorzata Florkowska, UGA Extension Circular 1001 — \"Roses in Georgia: Selecting and Growing Techniques\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-80 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-81 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, Georgia statewide; zone not stated",
+    "identity": "Bob Westerfield and Malgorzata Florkowska, UGA Extension Circular 1001, \"Roses in Georgia: Selecting and Growing Techniques\", Page dated 21 July 2026. University extension, Georgia statewide; zone not stated. https://fieldreport.caes.uga.edu/publications/C1001/roses-in-georgia-selecting-and-growing-techniques/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UGA-C1001)",
+    "url": "https://fieldreport.caes.uga.edu/publications/C1001/roses-in-georgia-selecting-and-growing-techniques/",
+    "register_code": "TIMING-US:UGA-C1001",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000389",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Nathan Riggs, Texas AgriLife Extension Bexar County — \"Valentines Day Means Pruning Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-107 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension (county), San Antonio, Texas; zone not stated",
+    "identity": "Nathan Riggs, Texas AgriLife Extension Bexar County, \"Valentines Day Means Pruning Roses\", 15 February 2003. University extension (county), San Antonio, Texas; zone not stated. https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/valentines-day-means-pruning-roses/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:BEXAR)",
+    "url": "https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/valentines-day-means-pruning-roses/",
+    "register_code": "TIMING-US:BEXAR",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000390",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "S. Park Brown, UF/IFAS Solutions for Your Life — \"Growing Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-8 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-91 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-92 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-93 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-94 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, Florida statewide; Florida zones 8–11 (UF-ZONE)",
+    "identity": "S. Park Brown, UF/IFAS Solutions for Your Life, \"Growing Roses\" (from CIR 344), Revised December 2013 and December 2016. University extension, Florida statewide; Florida zones 8–11 (UF-ZONE). https://sfyl.ifas.ufl.edu/lawn-and-garden/growing-roses, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UF-SFYL)",
+    "url": "https://sfyl.ifas.ufl.edu/lawn-and-garden/growing-roses",
+    "register_code": "TIMING-US:UF-SFYL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000391",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Sydney Park Brown and Tiare Saracino, UF/IFAS EDIS ENH1189 — \"Central Florida Gardening Calendar\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-91 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-92 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension, central Florida; zone not stated",
+    "identity": "Sydney Park Brown and Tiare Saracino, UF/IFAS EDIS ENH1189, \"Central Florida Gardening Calendar\", 3 March 2025. University extension, central Florida; zone not stated. https://ask.ifas.ufl.edu/publication/EP450, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UF-CAL)",
+    "url": "https://ask.ifas.ufl.edu/publication/EP450",
+    "register_code": "TIMING-US:UF-CAL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000392",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Orange County Rose Society — \"Rose Care Calendar\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-51 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-84 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-85 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-86 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-87 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-108 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, Orange County, California; zone not stated",
+    "identity": "Orange County Rose Society, \"Rose Care Calendar\" (organic sections credited to Paulette Moucher, American Rose magazine, March 2012), date not shown. Rose society, Orange County, California; zone not stated. https://www.orangecountyrosesociety.org/rose-care-calendar, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:OCRS)",
+    "url": "https://www.orangecountyrosesociety.org/rose-care-calendar",
+    "register_code": "TIMING-US:OCRS",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000393",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "UC Master Gardener Program of Contra Costa County — \"Easy Guide to Hard Pruning Roses this Winter\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-20 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-62 (Moderate)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-88 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-89 (Low)",
+     "ARC-BUSHROSE-TIMING-US-01, AF-90 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "University extension (Master Gardener), Contra Costa County, California; zone not stated",
+    "identity": "UC Master Gardener Program of Contra Costa County, \"Easy Guide to Hard Pruning Roses this Winter\", date not shown. University extension (Master Gardener), Contra Costa County, California; zone not stated. https://ucanr.edu/site/uc-master-gardener-program-contra-costa-county/article/easy-guide-hard-pruning-roses-winter, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UC-CC)",
+    "url": "https://ucanr.edu/site/uc-master-gardener-program-contra-costa-county/article/easy-guide-hard-pruning-roses-winter",
+    "register_code": "TIMING-US:UC-CC",
     "relevance": "Supports the findings listed above."
    }
   }

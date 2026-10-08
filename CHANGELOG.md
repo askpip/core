@@ -10,6 +10,11 @@ Git provides the complete technical history of the repository. This changelog re
 
 ### Changed
 
+- **United States months approved and ready to publish (8 October 2026).** A Founder approved Pip's answers in chat, with no change.
+  - **Research filed:** `Knowledge Curation System/Mother Information Library/ARCs/ARC-BUSHROSE-TIMING-US-01.md` (v1.0): 108 findings as corrected by the Build Check, eleven preserved conflicts and a Source Register of 68 entries.
+  - **Records:** PKR-CGD-000022 to PKR-CGD-000026 are at Version 1.3: the 96 United States statements follow the New Zealand, Australian and United Kingdom statements, which did not change; Version 1.2 of those five is retired. PKR-CGD-000027 has no United States statement and stays at Version 1.2. 29 new Source PKRs, PKR-SRC-000365 to PKR-SRC-000393. Fifteen existing Source PKRs have a new version with the new references. The library files and the app's snapshot are rebuilt: 555 records, 444 Published, 111 Retired.
+  - **In the app:** a rose in the United States now sees the national statements and those for its own state, county or city. No app code changed at approval; the named places were added with the draft.
+  - **Review documents:** Pip's Answers, its Form, the dossier, both packages and the Research Commission Record are marked approved or published. `AI/Context/Ask_Pip_App_Build_Status_Context.md` is at Version 0.10.
 - **United States months: Pip's answers ready for approval (8 October 2026).** Not published. Fourth of the five month-level timing topics.
   - **What a Founder reads:** `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-US-01_Pips_Answers.md` and its one-question form. 96 statements under five of the six questions; a gardener sees the national ones and those for their own state, county or city. The 1 October Decision Brief and Review Form, which no Founder had completed, are marked replaced.
   - **Checked before a Founder saw it.** All 46 sources (29 websites) were reopened and all 172 recorded quotations were on their pages (163 word for word, 9 with small differences); 56 fully support their finding, 105 in part and 11 not. Pip's statements were checked by two sessions that took no part in writing them, and read twice by a session that saw only the statements (`Working/AI Outputs/Build_Check_TIMING-US_*.json`).

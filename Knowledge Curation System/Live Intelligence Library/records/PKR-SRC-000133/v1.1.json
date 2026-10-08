@@ -1,0 +1,41 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000133",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Missouri Extension — Roses: Care After Planting (G6601)",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Soak \"to a depth of at least 1 foot\"; water \"in the morning or early in the afternoon\"; mulch \"2 to 3 inches deep\"; \"Don't fertilize after July\"; new plants: \"leave as much foliage on the plant as possible\"; mound \"to a height of 10 to 12 inches\"; black spot, powdery mildew, aphids, spider mites. The page doesn't contain F13's claim.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-BASICCARE-01, F2 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F3 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F6 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F7 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-59 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-97 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-98 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Missouri)",
+    "identity": "University of Missouri Extension, Ray R. Rothenberger, \"Roses: Care After Planting\" (G6601); web address <https://extension.missouri.edu/publications/g6601>, accessed 29 September 2026; register code MO-G6601",
+    "url": "https://extension.missouri.edu/publications/g6601",
+    "register_code": "MO-G6601",
+    "relevance": "Supports F2, F3, F6, F7, F9."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-US-01 added (register code TIMING-US:MO-G6601). Nothing else changed. Version 1.0 retired."
+  }
+}

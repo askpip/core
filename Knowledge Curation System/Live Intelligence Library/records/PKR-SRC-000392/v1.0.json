@@ -1,0 +1,39 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000392",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Orange County Rose Society — \"Rose Care Calendar\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-20 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-51 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-84 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-85 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-86 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-87 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-108 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Rose society, Orange County, California; zone not stated",
+    "identity": "Orange County Rose Society, \"Rose Care Calendar\" (organic sections credited to Paulette Moucher, American Rose magazine, March 2012), date not shown. Rose society, Orange County, California; zone not stated. https://www.orangecountyrosesociety.org/rose-care-calendar, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:OCRS)",
+    "url": "https://www.orangecountyrosesociety.org/rose-care-calendar",
+    "register_code": "TIMING-US:OCRS",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000372",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Elaine Applebaum, UC Master Gardeners of Placer County — \"USDA and Sunset Zones\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-1 (High)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-5 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension (Master Gardener), California",
+    "identity": "Elaine Applebaum, UC Master Gardeners of Placer County, \"USDA and Sunset Zones\", date not shown. University extension (Master Gardener), California. https://ucanr.edu/site/uc-master-gardeners-placer-county/article/usda-and-sunset-zones, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UC-PLACER)",
+    "url": "https://ucanr.edu/site/uc-master-gardeners-placer-county/article/usda-and-sunset-zones",
+    "register_code": "TIMING-US:UC-PLACER",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

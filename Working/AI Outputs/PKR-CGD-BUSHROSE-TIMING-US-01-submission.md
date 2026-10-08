@@ -1,14 +1,16 @@
-# PKR Submission Package — United States Months: Statements Added to the Six Question Answers (v0.4, Draft)
+# PKR Submission Package — United States Months: Statements Added to the Six Question Answers (v1.0, Published)
 
-**Draft, awaiting a Founder's approval.** Not published. Built by KIT on 8 October 2026 from `FRD-BUSHROSE-TIMING-US-01` as corrected by the Build Check (its §11), under the Pip Knowledge Rules. On approval the dossier becomes `ARC-BUSHROSE-TIMING-US-01` and these statements are published. Sources are in `PKR-SRC-BUSHROSE-TIMING-US-submission.md`.
+**Published 8 October 2026.** A Founder approved these answers in chat on 8 October 2026 ("i approve, push done"), after reading `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-US-01_Pips_Answers.md`, with no change. The one approval covers the research, which is now `ARC-BUSHROSE-TIMING-US-01` (v1.0), Pip's words, and publishing.
 
-**No new record IDs.** The six question answers already exist as PKR-CGD-000022 to PKR-CGD-000027 (version 1.2, Published, with the New Zealand, Australian and United Kingdom statements). On approval each gets version 1.3: the United States statements below are added after those, which do not change, and version 1.2 is retired.
+Built by KIT on 8 October 2026 under the Pip Knowledge Rules. Sources are in `PKR-SRC-BUSHROSE-TIMING-US-submission.md`.
 
-What a Founder reads is `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-US-01_Pips_Answers.md`.
+**No new record IDs.** The six question answers are PKR-CGD-000022 to PKR-CGD-000027. PKR-CGD-000022 to PKR-CGD-000026 are now at Version 1.3: the United States statements below follow the New Zealand, Australian and United Kingdom statements, which did not change, and Version 1.2 is retired. PKR-CGD-000027 has no United States statement and stays at Version 1.2.
+
+What a Founder read is `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-US-01_Pips_Answers.md`.
 
 ## 1. Triage Record
 
-Every finding, conflict and gap of the dossier is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant? Item numbers count the United States statements of each record.
+Every finding, conflict and gap of the research is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant? Item numbers count the United States statements of each record.
 
 | Item | Use | Routed to |
 |---|---|---|
@@ -147,7 +149,7 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 
 **This topic is shared by the five countries.** New Zealand's statements were published on 7 October 2026, and Australia's and the United Kingdom's on 8 October 2026. When the research for Canada is approved, its statements are added to the same six records as a further version, each marked for its place.
 
-**On approval, in each record's common fields:** Applies To becomes "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question"; Supporting Sources gains the Source PKRs listed below; Preserved Uncertainty keeps the earlier text and gains the United States text below.
+**In the common fields of PKR-CGD-000022 to PKR-CGD-000026 at Version 1.3:** Applies To is "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question"; Supporting Sources has the Source PKRs listed below added; Preserved Uncertainty keeps the earlier text and has the United States text below added.
 
 ## 3. PKR-CGD-000022 — Which months do I prune my rose?
 
@@ -156,13 +158,13 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000022 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I prune my rose? |
-| Status | Version 1.2 Published (New Zealand, Australian and United Kingdom statements). These statements: Draft |
-| Version | 0.4 of the United States statements; the record becomes 1.3 on approval |
+| Status | Published |
+| Version | 1.3 (the United States statements added; Version 1.2 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United States; answer to a common question |
-| Supporting Source(s) to add | AF-9: PKR-SRC-000381; AF-10: PKR-SRC-000131, PKR-SRC-000376; AF-11: PKR-SRC-000003, PKR-SRC-000132; AF-12: PKR-SRC-000377, PKR-SRC-000379, PKR-SRC-000381; AF-13: PKR-SRC-000383, PKR-SRC-000384; AF-14: PKR-SRC-000006; AF-15: PKR-SRC-000006, PKR-SRC-000376, PKR-SRC-000385, PKR-SRC-000386, PKR-SRC-000390; AF-61: PKR-SRC-000006, PKR-SRC-000108, PKR-SRC-000375; AF-62: PKR-SRC-000004, PKR-SRC-000135, PKR-SRC-000393; AF-66: PKR-SRC-000131, PKR-SRC-000376; AF-67: PKR-SRC-000374, PKR-SRC-000375; AF-68: PKR-SRC-000375; AF-76: PKR-SRC-000136; AF-80: PKR-SRC-000388; AF-82: PKR-SRC-000385; AF-84: PKR-SRC-000392; AF-88: PKR-SRC-000393; AF-91: PKR-SRC-000390, PKR-SRC-000391; AF-96: PKR-SRC-000018; AF-100: PKR-SRC-000386; AF-104: PKR-SRC-000108; AF-105: PKR-SRC-000004; AF-107: PKR-SRC-000389 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-9: PKR-SRC-000381; AF-10: PKR-SRC-000131, PKR-SRC-000376; AF-11: PKR-SRC-000003, PKR-SRC-000132; AF-12: PKR-SRC-000377, PKR-SRC-000379, PKR-SRC-000381; AF-13: PKR-SRC-000383, PKR-SRC-000384; AF-14: PKR-SRC-000006; AF-15: PKR-SRC-000006, PKR-SRC-000376, PKR-SRC-000385, PKR-SRC-000386, PKR-SRC-000390; AF-61: PKR-SRC-000006, PKR-SRC-000108, PKR-SRC-000375; AF-62: PKR-SRC-000004, PKR-SRC-000135, PKR-SRC-000393; AF-66: PKR-SRC-000131, PKR-SRC-000376; AF-67: PKR-SRC-000374, PKR-SRC-000375; AF-68: PKR-SRC-000375; AF-76: PKR-SRC-000136; AF-80: PKR-SRC-000388; AF-82: PKR-SRC-000385; AF-84: PKR-SRC-000392; AF-88: PKR-SRC-000393; AF-91: PKR-SRC-000390, PKR-SRC-000391; AF-96: PKR-SRC-000018; AF-100: PKR-SRC-000386; AF-104: PKR-SRC-000108; AF-105: PKR-SRC-000004; AF-107: PKR-SRC-000389 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | No page checked gives pruning months by USDA zone, and Pip does not ask for one (AF-6). Each end of the national range rests on two organisations, each speaking only of its own place (AF-15). Months for every state, county and city rest on one organisation, except that Minnesota has two that agree on spring and give no month. No month was found for Illinois, Pennsylvania, Minnesota or Wisconsin; those statements give the season and the signal. Illinois Extension and a Nashville rosarian differ on the forsythia signal (C-10). Sources differ on cutting roses back in late fall (C-11). The San Antonio column dates from 2003, the South Carolina factsheet from 1999. One Nashville member's own pruning dates are on record only (AF-12). |
+| Preserved Uncertainty or Limitations added | No page checked gives pruning months by USDA zone, and Pip does not ask for one (AF-6). Each end of the national range rests on two organisations, each speaking only of its own place (AF-15). Months for every state, county and city rest on one organisation, except that Minnesota has two that agree on spring and give no month. No month was found for Illinois, Pennsylvania, Minnesota or Wisconsin; those statements give the season and the signal. Illinois Extension and a Nashville rosarian differ on the forsythia signal (C-10). Sources differ on cutting roses back in late fall (C-11). The San Antonio column dates from 2003, the South Carolina factsheet from 1999. One Nashville member's own pruning dates are on record only (AF-12). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United States):** Month windows for the main pruning of a Hybrid Tea, Floribunda or Grandiflora rose in the United States, by state, county or city, with the signals sources tie it to
@@ -205,13 +207,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000023 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I start and stop feeding? |
-| Status | Version 1.2 Published (New Zealand, Australian and United Kingdom statements). These statements: Draft |
-| Version | 0.4 of the United States statements; the record becomes 1.3 on approval |
+| Status | Published |
+| Version | 1.3 (the United States statements added; Version 1.2 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United States; answer to a common question |
-| Supporting Source(s) to add | AF-16: PKR-SRC-000374, PKR-SRC-000375; AF-17: PKR-SRC-000135; AF-18: PKR-SRC-000379; AF-19: PKR-SRC-000385; AF-20: PKR-SRC-000047, PKR-SRC-000131, PKR-SRC-000375, PKR-SRC-000392, PKR-SRC-000393; AF-21: PKR-SRC-000373, PKR-SRC-000374, PKR-SRC-000375; AF-22: PKR-SRC-000132; AF-23: PKR-SRC-000378; AF-24: PKR-SRC-000385; AF-25: PKR-SRC-000132, PKR-SRC-000133, PKR-SRC-000135, PKR-SRC-000373, PKR-SRC-000378, PKR-SRC-000385, PKR-SRC-000387, PKR-SRC-000388, PKR-SRC-000390, PKR-SRC-000392; AF-26: PKR-SRC-000047; AF-63: PKR-SRC-000131; AF-69: PKR-SRC-000375; AF-70: PKR-SRC-000373; AF-77: PKR-SRC-000136; AF-81: PKR-SRC-000388; AF-85: PKR-SRC-000392; AF-89: PKR-SRC-000393; AF-92: PKR-SRC-000390, PKR-SRC-000391; AF-97: PKR-SRC-000133; AF-101: PKR-SRC-000387 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-16: PKR-SRC-000374, PKR-SRC-000375; AF-17: PKR-SRC-000135; AF-18: PKR-SRC-000379; AF-19: PKR-SRC-000385; AF-20: PKR-SRC-000047, PKR-SRC-000131, PKR-SRC-000375, PKR-SRC-000392, PKR-SRC-000393; AF-21: PKR-SRC-000373, PKR-SRC-000374, PKR-SRC-000375; AF-22: PKR-SRC-000132; AF-23: PKR-SRC-000378; AF-24: PKR-SRC-000385; AF-25: PKR-SRC-000132, PKR-SRC-000133, PKR-SRC-000135, PKR-SRC-000373, PKR-SRC-000378, PKR-SRC-000385, PKR-SRC-000387, PKR-SRC-000388, PKR-SRC-000390, PKR-SRC-000392; AF-26: PKR-SRC-000047; AF-63: PKR-SRC-000131; AF-69: PKR-SRC-000375; AF-70: PKR-SRC-000373; AF-77: PKR-SRC-000136; AF-81: PKR-SRC-000388; AF-85: PKR-SRC-000392; AF-89: PKR-SRC-000393; AF-92: PKR-SRC-000390, PKR-SRC-000391; AF-97: PKR-SRC-000133; AF-101: PKR-SRC-000387 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000004 (unchanged) |
-| Preserved Uncertainty or Limitations to add | The national range for the last feed is built from pages that each speak of their own place; no page gives it (AF-25). In Minnesota and Wisconsin the end of nitrogen feeding differs by about five weeks (C-1). Nashville is too late for granular feeds in September while Cobb County still feeds then (C-2). One Marin rose society starts after the first flowers rather than at new growth (C-4). Iowa's page gives a feed in mid to late July and no date to stop (C-7). Months for every other state, county and city rest on one organisation. |
+| Preserved Uncertainty or Limitations added | The national range for the last feed is built from pages that each speak of their own place; no page gives it (AF-25). In Minnesota and Wisconsin the end of nitrogen feeding differs by about five weeks (C-1). Nashville is too late for granular feeds in September while Cobb County still feeds then (C-2). One Marin rose society starts after the first flowers rather than at new growth (C-4). Iowa's page gives a feed in mid to late July and no date to stop (C-7). Months for every other state, county and city rest on one organisation. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United States):** When to start feeding and when to give the last feed for a Hybrid Tea, Floribunda or Grandiflora rose in the United States, by state, county or city
@@ -250,13 +252,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000024 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I stop deadheading? |
-| Status | Version 1.2 Published (New Zealand, Australian and United Kingdom statements). These statements: Draft |
-| Version | 0.4 of the United States statements; the record becomes 1.3 on approval |
+| Status | Published |
+| Version | 1.3 (the United States statements added; Version 1.2 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United States; answer to a common question |
-| Supporting Source(s) to add | AF-27: PKR-SRC-000373, PKR-SRC-000375; AF-28: PKR-SRC-000003, PKR-SRC-000132; AF-29: PKR-SRC-000136; AF-30: PKR-SRC-000385; AF-31: PKR-SRC-000387; AF-64: PKR-SRC-000131; AF-70: PKR-SRC-000373; AF-74: PKR-SRC-000135; AF-75: PKR-SRC-000378; AF-86: PKR-SRC-000392 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-27: PKR-SRC-000373, PKR-SRC-000375; AF-28: PKR-SRC-000003, PKR-SRC-000132; AF-29: PKR-SRC-000136; AF-30: PKR-SRC-000385; AF-31: PKR-SRC-000387; AF-64: PKR-SRC-000131; AF-70: PKR-SRC-000373; AF-74: PKR-SRC-000135; AF-75: PKR-SRC-000378; AF-86: PKR-SRC-000392 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000004 (unchanged) |
-| Preserved Uncertainty or Limitations to add | Times to stop run from mid-August (the Kansas City area) to November or December (Marin and Orange Counties), and Nashville still cuts flowers in November while Cobb County stops in October (C-2). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree. Pip's general answer, shown to everyone, gives a general time; the local times here differ from it. It says to stop in early-to-mid autumn so the rose can form hips. |
+| Preserved Uncertainty or Limitations added | Times to stop run from mid-August (the Kansas City area) to November or December (Marin and Orange Counties), and Nashville still cuts flowers in November while Cobb County stops in October (C-2). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree. Pip's general answer, shown to everyone, gives a general time; the local times here differ from it. It says to stop in early-to-mid autumn so the rose can form hips. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United States):** When deadheading of a Hybrid Tea, Floribunda or Grandiflora rose stops before winter in the United States, by state, county or city
@@ -286,13 +288,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000025 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I plant or move a rose? |
-| Status | Version 1.2 Published (New Zealand, Australian and United Kingdom statements). These statements: Draft |
-| Version | 0.4 of the United States statements; the record becomes 1.3 on approval |
+| Status | Published |
+| Version | 1.3 (the United States statements added; Version 1.2 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United States; answer to a common question |
-| Supporting Source(s) to add | AF-32: PKR-SRC-000374, PKR-SRC-000375; AF-33: PKR-SRC-000379; AF-34: PKR-SRC-000382, PKR-SRC-000383, PKR-SRC-000384; AF-35: PKR-SRC-000284; AF-36: PKR-SRC-000374; AF-37: PKR-SRC-000382; AF-38: PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000374; AF-39: PKR-SRC-000132; AF-40: PKR-SRC-000291, PKR-SRC-000377; AF-41: PKR-SRC-000382; AF-42: PKR-SRC-000287; AF-65: PKR-SRC-000131; AF-71: PKR-SRC-000375; AF-83: PKR-SRC-000385; AF-87: PKR-SRC-000392; AF-93: PKR-SRC-000390; AF-95: PKR-SRC-000047; AF-102: PKR-SRC-000387 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-32: PKR-SRC-000374, PKR-SRC-000375; AF-33: PKR-SRC-000379; AF-34: PKR-SRC-000382, PKR-SRC-000383, PKR-SRC-000384; AF-35: PKR-SRC-000284; AF-36: PKR-SRC-000374; AF-37: PKR-SRC-000382; AF-38: PKR-SRC-000284, PKR-SRC-000285, PKR-SRC-000374; AF-39: PKR-SRC-000132; AF-40: PKR-SRC-000291, PKR-SRC-000377; AF-41: PKR-SRC-000382; AF-42: PKR-SRC-000287; AF-65: PKR-SRC-000131; AF-71: PKR-SRC-000375; AF-83: PKR-SRC-000385; AF-87: PKR-SRC-000392; AF-93: PKR-SRC-000390; AF-95: PKR-SRC-000047; AF-102: PKR-SRC-000387 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000016; PKR-CGD-000021 (unchanged) |
-| Preserved Uncertainty or Limitations to add | Every planting and moving month rests on one organisation in its own place. Places differ on the season for moving a rose, from fall (Illinois) to December to March (Arizona's low desert, Nashville, Arkansas, Marin County) and early spring (Iowa); the Nashville society's own pages give two times. Florida's months say when bare-root roses are on sale, not when to plant them. Missouri's -10 °F line for bare-root planting is already in Pip's US answer on planting (PKR-CGD-000016) and is on record only here (AF-99). |
+| Preserved Uncertainty or Limitations added | Every planting and moving month rests on one organisation in its own place. Places differ on the season for moving a rose, from fall (Illinois) to December to March (Arizona's low desert, Nashville, Arkansas, Marin County) and early spring (Iowa); the Nashville society's own pages give two times. Florida's months say when bare-root roses are on sale, not when to plant them. Missouri's -10 °F line for bare-root planting is already in Pip's US answer on planting (PKR-CGD-000016) and is on record only here (AF-99). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United States):** Months for planting bare-root and potted Hybrid Tea, Floribunda and Grandiflora roses, and for moving an established one, in the United States, by state, county or city
@@ -329,13 +331,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000026 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I clear up and spray in winter? |
-| Status | Version 1.2 Published (New Zealand, Australian and United Kingdom statements). These statements: Draft |
-| Version | 0.4 of the United States statements; the record becomes 1.3 on approval |
+| Status | Published |
+| Version | 1.3 (the United States statements added; Version 1.2 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United States; answer to a common question |
-| Supporting Source(s) to add | AF-9: PKR-SRC-000381; AF-43: PKR-SRC-000131, PKR-SRC-000135, PKR-SRC-000136, PKR-SRC-000378, PKR-SRC-000384, PKR-SRC-000385, PKR-SRC-000386, PKR-SRC-000387, PKR-SRC-000390; AF-44: PKR-SRC-000135; AF-45: PKR-SRC-000377, PKR-SRC-000378; AF-46: PKR-SRC-000384; AF-47: PKR-SRC-000386; AF-48: PKR-SRC-000373; AF-49: PKR-SRC-000377; AF-50: PKR-SRC-000385; AF-51: PKR-SRC-000392; AF-52: PKR-SRC-000373, PKR-SRC-000375; AF-53: PKR-SRC-000132; AF-54: PKR-SRC-000377, PKR-SRC-000378; AF-55: PKR-SRC-000386; AF-56: PKR-SRC-000373, PKR-SRC-000375; AF-57: PKR-SRC-000135; AF-58: PKR-SRC-000380; AF-66: PKR-SRC-000131, PKR-SRC-000376; AF-72: PKR-SRC-000375; AF-73: PKR-SRC-000373; AF-78: PKR-SRC-000136; AF-79: PKR-SRC-000136; AF-90: PKR-SRC-000393; AF-94: PKR-SRC-000390; AF-98: PKR-SRC-000133; AF-103: PKR-SRC-000387; AF-106: PKR-SRC-000004 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-9: PKR-SRC-000381; AF-43: PKR-SRC-000131, PKR-SRC-000135, PKR-SRC-000136, PKR-SRC-000378, PKR-SRC-000384, PKR-SRC-000385, PKR-SRC-000386, PKR-SRC-000387, PKR-SRC-000390; AF-44: PKR-SRC-000135; AF-45: PKR-SRC-000377, PKR-SRC-000378; AF-46: PKR-SRC-000384; AF-47: PKR-SRC-000386; AF-48: PKR-SRC-000373; AF-49: PKR-SRC-000377; AF-50: PKR-SRC-000385; AF-51: PKR-SRC-000392; AF-52: PKR-SRC-000373, PKR-SRC-000375; AF-53: PKR-SRC-000132; AF-54: PKR-SRC-000377, PKR-SRC-000378; AF-55: PKR-SRC-000386; AF-56: PKR-SRC-000373, PKR-SRC-000375; AF-57: PKR-SRC-000135; AF-58: PKR-SRC-000380; AF-66: PKR-SRC-000131, PKR-SRC-000376; AF-72: PKR-SRC-000375; AF-73: PKR-SRC-000373; AF-78: PKR-SRC-000136; AF-79: PKR-SRC-000136; AF-90: PKR-SRC-000393; AF-94: PKR-SRC-000390; AF-98: PKR-SRC-000133; AF-103: PKR-SRC-000387; AF-106: PKR-SRC-000004 |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | PKR-CGD-000013; PKR-CGD-000006 (unchanged) |
-| Preserved Uncertainty or Limitations to add | One Cobb County neem oil spray rests only on a checker's note and is left out (AF-78). Winter-spray months differ from place to place, from mid to late October (Minnesota, Wisconsin and the Dakotas) to February (Nashville), and most pages name no type (C-6). In Minnesota and Wisconsin, one rose expert begins mounding soil in September, earlier than the hard frosts other pages wait for (C-3). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree on the covering and its removal. No page for Arizona's low desert or Marin County describes winter protection (AF-60). Pip's general winter answer, shown to everyone, already says when mounding goes on and comes off (AF-59). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). |
+| Preserved Uncertainty or Limitations added | One Cobb County neem oil spray rests only on a checker's note and is left out (AF-78). Winter-spray months differ from place to place, from mid to late October (Minnesota, Wisconsin and the Dakotas) to February (Nashville), and most pages name no type (C-6). In Minnesota and Wisconsin, one rose expert begins mounding soil in September, earlier than the hard frosts other pages wait for (C-3). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree on the covering and its removal. No page for Arizona's low desert or Marin County describes winter protection (AF-60). Pip's general winter answer, shown to everyone, already says when mounding goes on and comes off (AF-59). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United States):** Timing of the fall or winter clear-up, the winter (dormant) spray and winter protection for a Hybrid Tea, Floribunda or Grandiflora rose in the United States, by state, county or city
@@ -382,13 +384,13 @@ All statements are rose-specific.
 | PKR ID | PKR-CGD-000027 |
 | PKR Type | Care Guidance PKR |
 | Title | How do I allow for frost and my own garden? |
-| Status | Version 1.2 Published (New Zealand, Australian and United Kingdom statements). These statements: Draft |
-| Version | 0.4 of the United States statements; the record becomes 1.3 on approval |
+| Status | Published, unchanged |
+| Version | 1.2 (no United States statement, so no new version) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in the United States; answer to a common question |
-| Supporting Source(s) to add |  |
-| Founder Approval Date | — |
+| Supporting Source(s) added | None |
+| Founder Approval Date | — (unchanged at Version 1.2) |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | No page checked gives rose months by USDA zone, and Pip does not ask for a zone (AF-1 to AF-6). The frost and cold signals sources give are in each job's own answer, where the job is. Within-state differences are given only where a page names them (South Carolina, Florida, Colorado). Orange County's 'two climates' gives no advice for either and is on record only (AF-108). No US statement is made in this answer. |
+| Preserved Uncertainty or Limitations (on record here; the published record is unchanged) | No page checked gives rose months by USDA zone, and Pip does not ask for a zone (AF-1 to AF-6). The frost and cold signals sources give are in each job's own answer, where the job is. Within-state differences are given only where a page names them (South Carolina, Florida, Colorado). Orange County's 'two climates' gives no advice for either and is on record only (AF-108). No US statement is made in this answer. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (United States):** How timing varies with place, frost and the garden's own conditions in the United States, for a Hybrid Tea, Floribunda or Grandiflora rose
@@ -412,18 +414,18 @@ There is no United States statement in this record: no confirmed US page gives a
 - Terms are explained in brackets where a confirmed page supports it: bare-root ("sold while dormant, not actively growing"), dormant spray ("a spray put on while the rose is dormant"), canes (stems). Rose type names are kept only where the advice depends on them.
 - Spray types are named as the pages name them, only in the places whose pages name them. No brand, no mixing amount. Each spray statement sends the gardener to the label (rule 7). The project's spelling is used (fertiliser, sulphur).
 - No information from one garden company or nursery that disagrees with a recognised body is shown (a Founder's decision, 8 October 2026). No statement here rests on a garden company.
-- Every statement says no more than its finding as corrected in `FRD-BUSHROSE-TIMING-US-01` §11.
+- Every statement says no more than its finding as corrected in `ARC-BUSHROSE-TIMING-US-01`.
 
 ## 10. Dependencies
 
-- **Shared records.** These statements are added to PKR-CGD-000022 to PKR-CGD-000026 as version 1.3. The earlier statements in those records do not change. Version 1.2 is retired when 1.3 is published. PKR-CGD-000027 gets no United States statement and no new version.
+- **Shared records.** These statements were added to PKR-CGD-000022 to PKR-CGD-000026 as version 1.3. The earlier statements in those records do not change. Version 1.2 of those five is retired. PKR-CGD-000027 gets no United States statement and no new version.
 - **Counties and cities in the app.** 8 areas are added to the app's list of named places (`App/src/lib/place.ts`), each with a distance that takes in the county or built-up area: Cobb County, Contra Costa County, Kansas City, Marin County, Nashville, Orange County, Pima County, San Antonio. Kansas City has one entry in Kansas and one in Missouri. Without them the app would not show the statements marked for those areas.
 - **General answers shown to every gardener.** The general winter answer (mounding once the rose has had several hard frosts) and the general growing-season answer (deadheading) are unchanged; where a US place differs, its own statement says so.
 - **Comparison images.** None are needed.
 
 ## 11. Build Check Record
 
-**Part 1, sources (8 October 2026).** All 46 sources (29 websites) reopened; all 172 recorded quotations found on their pages (163 word for word, 9 with small differences). 56 fully support the finding they were recorded against, 105 support part of it and 11 do not support it. The corrections are in `FRD-BUSHROSE-TIMING-US-01` §11: 57 findings reworded or changed in level, limitations added to 3 more, 48 findings added and 3 conflicts added.
+**Part 1, sources (8 October 2026).** All 46 sources (29 websites) reopened; all 172 recorded quotations found on their pages (163 word for word, 9 with small differences). 56 fully support the finding they were recorded against, 105 support part of it and 11 do not support it. The corrections are in `ARC-BUSHROSE-TIMING-US-01`: 57 findings reworded or changed in level, limitations added to 3 more, 48 findings added and 3 conflicts added.
 
 **Part 2, wording (8 October 2026).** Checked by two sessions that took no part in writing the statements, one for pruning and feeding and one for the other answers.
 
@@ -443,7 +445,7 @@ Versions 0.2 and 0.3 were checked only where they had changed. The one statement
 
 The results are in `Working/AI Outputs/Build_Check_TIMING-US_*.json`.
 
-**In the app.** On 8 October 2026, test copies of the records at version 1.3 were loaded into a local build (never the live LIL) and opened at phone widths for twenty plants: GPS positions in Minneapolis, Nashville, Marietta (Cobb County), south Atlanta, Tucson, Irvine (Orange County), Los Angeles, Kansas City on both sides of the state line, San Antonio, Boston and Miami; typed locations in Des Moines and San Rafael, and "Nashville" typed with no state, where the app asked for the state rather than guess; a typed "United States" with no state, where the app asked and Wisconsin was chosen; and plants in London, Sydney, Dunedin and Toronto. Each saw the statements for its own place and no others: a rose in Marietta saw Cobb County's, one in south Atlanta only Georgia's; one in Irvine saw Orange County's, one in Los Angeles only the national statements, because no statement is marked for California as a whole. Near the Kansas City state line the app asked which state the rose is in. The New Zealand, Australian and UK answers, and the earlier Spraying and Planting answers, were unchanged. The test copies were removed afterwards and the app build passes. Not checked: the signed-in screens, and a real phone.
+**In the app.** On 8 October 2026, before approval, test copies of the records at version 1.3 were loaded into a local build (never the live LIL) and opened at phone widths for twenty plants: GPS positions in Minneapolis, Nashville, Marietta (Cobb County), south Atlanta, Tucson, Irvine (Orange County), Los Angeles, Kansas City on both sides of the state line, San Antonio, Boston and Miami; typed locations in Des Moines and San Rafael, and "Nashville" typed with no state, where the app asked for the state rather than guess; a typed "United States" with no state, where the app asked and Wisconsin was chosen; and plants in London, Sydney, Dunedin and Toronto. Each saw the statements for its own place and no others: a rose in Marietta saw Cobb County's, one in south Atlanta only Georgia's; one in Irvine saw Orange County's, one in Los Angeles only the national statements, because no statement is marked for California as a whole. Near the Kansas City state line the app asked which state the rose is in. The New Zealand, Australian and UK answers, and the earlier Spraying and Planting answers, were unchanged. The test copies were removed afterwards and the app build passes. Not checked: the signed-in screens, and a real phone.
 
 **Sources.** 29 new Source PKRs (PKR-SRC-000365 to PKR-SRC-000393), and 15 existing ones get the new references added. All are listed in the Source PKR package.
 

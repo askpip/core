@@ -1,0 +1,691 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000026",
+  "version": "1.3",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "When do I clear up and spray in winter?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000004",
+      "PKR-SRC-000066",
+      "PKR-SRC-000097",
+      "PKR-SRC-000131",
+      "PKR-SRC-000132",
+      "PKR-SRC-000133",
+      "PKR-SRC-000135",
+      "PKR-SRC-000136",
+      "PKR-SRC-000157",
+      "PKR-SRC-000190",
+      "PKR-SRC-000193",
+      "PKR-SRC-000196",
+      "PKR-SRC-000228",
+      "PKR-SRC-000229",
+      "PKR-SRC-000239",
+      "PKR-SRC-000241",
+      "PKR-SRC-000253",
+      "PKR-SRC-000263",
+      "PKR-SRC-000272",
+      "PKR-SRC-000274",
+      "PKR-SRC-000278",
+      "PKR-SRC-000279",
+      "PKR-SRC-000295",
+      "PKR-SRC-000297",
+      "PKR-SRC-000298",
+      "PKR-SRC-000299",
+      "PKR-SRC-000300",
+      "PKR-SRC-000308",
+      "PKR-SRC-000311",
+      "PKR-SRC-000312",
+      "PKR-SRC-000313",
+      "PKR-SRC-000314",
+      "PKR-SRC-000315",
+      "PKR-SRC-000316",
+      "PKR-SRC-000317",
+      "PKR-SRC-000321",
+      "PKR-SRC-000324",
+      "PKR-SRC-000329",
+      "PKR-SRC-000335",
+      "PKR-SRC-000336",
+      "PKR-SRC-000337",
+      "PKR-SRC-000344",
+      "PKR-SRC-000345",
+      "PKR-SRC-000352",
+      "PKR-SRC-000354",
+      "PKR-SRC-000355",
+      "PKR-SRC-000356",
+      "PKR-SRC-000358",
+      "PKR-SRC-000373",
+      "PKR-SRC-000375",
+      "PKR-SRC-000376",
+      "PKR-SRC-000377",
+      "PKR-SRC-000378",
+      "PKR-SRC-000380",
+      "PKR-SRC-000381",
+      "PKR-SRC-000384",
+      "PKR-SRC-000385",
+      "PKR-SRC-000386",
+      "PKR-SRC-000387",
+      "PKR-SRC-000390",
+      "PKR-SRC-000392",
+      "PKR-SRC-000393"
+    ],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000013"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000006"
+      }
+    ],
+    "preserved_uncertainty": "New Zealand: Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). Australia: The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). United Kingdom: Months for clearing leaves come from one rose grower (AF-37); the RHS names autumn only. No UK gardening body or rose society page located describes a winter spray; one company that sells lime sulphur describes one, and whether such a product is authorised for home gardens in the UK is not established, so Pip gives no timing for it (AF-24, R-3). No UK source describes mounding soil over the base for winter (AF-26, C-8), and none says when mulch over exposed roots comes off. United States: One Cobb County neem oil spray rests only on a checker's note and is left out (AF-78). Winter-spray months differ from place to place, from mid to late October (Minnesota, Wisconsin and the Dakotas) to February (Nashville), and most pages name no type (C-6). In Minnesota and Wisconsin, one rose expert begins mounding soil in September, earlier than the hard frosts other pages wait for (C-3). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree on the covering and its removal. No page for Arizona's low desert or Marin County describes winter protection (AF-60). Pip's general winter answer, shown to everyone, already says when mounding goes on and comes off (AF-59). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "When do I clear up and spray in winter?",
+    "label": null,
+    "items": [
+      {
+        "text": "Clear away fallen and diseased leaves in autumn and winter, and pick up the prunings and fallen leaves after pruning. Burn them or put them in the rubbish, not the compost.",
+        "confidence": "High",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-32"
+        ]
+      },
+      {
+        "text": "In Canterbury, one source says to remove diseased leaves from roses in May, June and July. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-CAN"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-48",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "If you use a clean-up spray in winter (a spray meant to clear pests and diseases left on the plant), put it on at pruning or just after. Some put a first spray on in June, before pruning. Months are only a guide, and the label on the spray comes first.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-33",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-11",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In New Zealand, lime sulphur, copper and a spraying oil are used as winter sprays. Follow the label on the spray.",
+        "confidence": "Moderate",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-33",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "One source says lime sulphur strips the leaves from new growth, so if you use it as a winter spray, put it on at pruning time and don't leave it too late. Follow the label on the spray.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-44",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "If you use lime sulphur, never mix it with other sprays, and leave two to three weeks before you use a copper spray. One garden centre says to wait three weeks before any other spray. Follow the label on the spray.",
+        "confidence": "Moderate",
+        "kind": "precaution",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-47",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "I couldn't find New Zealand advice on covering roses or mounding soil over the base for winter. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-35",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "After the winter prune, pick off any leaves left on the rose, clear up the prunings and fallen leaves, and get rid of them. One source says to put them in the rubbish bin, not the compost.",
+        "confidence": "High",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-35",
+          "ARC-BUSHROSE-TIMING-AU-01 C-10"
+        ]
+      },
+      {
+        "text": "If you use a clean-up spray in winter (a spray to clear pests and diseases left on the plant), put it on after pruning. Lime sulphur and a spraying oil are two of the types used. Follow the label on the spray.",
+        "confidence": "High",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-36",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "If you use lime sulphur as a winter spray, put it on while the rose is dormant, before new growth appears. One source says lime sulphur burns new growth. Follow the label on the spray.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-37",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In New South Wales, one rose society says to put the prunings and fallen leaves in the green waste bin as soon as pruning is finished, and then to spray. It says lime sulphur is effective. Follow the label on the spray.",
+        "confidence": "Low",
+        "place": [
+          "AU-NSW"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-65",
+          "ARC-BUSHROSE-TIMING-AU-01 C-10",
+          "rule 4",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In Victoria, one rose society says to take all the leaves off the bushes and rake up around the beds in July, and then to spray the bare roses and, lightly, the ground around them. Follow the label on the spray. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-VIC"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-66",
+          "rule 4",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In South Australia, clear up the prunings and fallen leaves after pruning, in July or August, and then spray. Lime sulphur, copper and a spraying oil are the sprays used. Follow the label on the spray. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "AU-SA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-67",
+          "ARC-BUSHROSE-TIMING-AU-01 C-7",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In Western Australia, one rose society says to spray after pruning, in June or July, to clean up pests and disease. Follow the label on the spray. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-WA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-68",
+          "rule 4",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "I couldn't find Australian advice on covering roses or mounding soil over the base for winter. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-38",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "Clear away fallen rose leaves in autumn, so that disease has nowhere to linger. One source says to destroy them, or bury them under a layer of mulch (material spread over the soil).",
+        "confidence": "High",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-22"
+        ]
+      },
+      {
+        "text": "One rose grower says to pick up fallen leaves and cut off diseased leaves in October and November, and to tidy the beds in February, ready for spring. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-37",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "One source says to pick off any leaves still on the rose over the winter months, if practical, and dispose of them, to help against the disease black spot.",
+        "confidence": "Low",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-23",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "One rose grower says to check the base of your rose for exposed roots before the winter weather takes hold, and to build up a layer of mulch around any that show, to protect them from the cold.",
+        "confidence": "Low",
+        "kind": "precaution",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-25",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "I couldn't find UK advice from a gardening body or rose society on spraying roses in winter. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-38",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "I couldn't find UK advice on mounding soil over the base of a rose for winter. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-26",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "Clear up fallen leaves and debris from around your roses, to help keep diseases from coming back: in fall, before winter, or, where roses are pruned in winter, at pruning time.",
+        "confidence": "Moderate",
+        "place": [
+          "US"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-43"
+        ]
+      },
+      {
+        "text": "In Iowa, one extension service says to clear away fallen leaves and flower debris after the first killing frost, to help keep disease from coming back.",
+        "confidence": "Low",
+        "place": [
+          "US-IA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-66",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "In Iowa, one extension service says getting roses ready for winter starts in late fall, in mid-November. It says the winter protection comes off once the ground thaws and the harsh cold has passed, before the buds begin to open. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "US-IA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-66",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Minnesota and Wisconsin, cover roses with leaves for winter once it turns cold: in early November as temperatures drop, or after the ground has frozen. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Moderate",
+        "place": [
+          "US-MN",
+          "US-WI"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-52",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Most advice, including the general winter advice, waits until there have been hard frosts before mounding soil around the base of the rose. In Minnesota and Wisconsin, one rose expert differs: they say you can start as early as mid to late September. Months are only a guide.",
+        "kind": "disagreement",
+        "place": [
+          "US-MN",
+          "US-WI"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-52",
+          "ARC-BUSHROSE-TIMING-US-01 C-3",
+          "rule 2",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Minnesota and Wisconsin, take the winter cover off in spring. One rose expert says to do it just after the ground thaws; one rose society says to remove the leaves early in April and the rest of the cover by mid-April. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Moderate",
+        "place": [
+          "US-MN",
+          "US-WI"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-56",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Minnesota, Wisconsin and the Dakotas, one rose society says to give roses a dormant spray (a spray put on while the rose is dormant) in mid to late October, at the general fall clean-up. Months are only a guide. Follow the label on the spray.",
+        "confidence": "Low",
+        "place": [
+          "US-MN",
+          "US-WI",
+          "US-ND",
+          "US-SD"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-48",
+          "ARC-BUSHROSE-TIMING-US-01 C-6",
+          "rule 4",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In Minnesota and Wisconsin, one rose expert says a dormant spray (a spray put on while the rose is dormant) of lime sulphur with a horticultural (spraying) oil can be used if you want one. Follow the label on the spray.",
+        "confidence": "Low",
+        "place": [
+          "US-MN",
+          "US-WI"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-72",
+          "rule 4",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In North and South Dakota, one rose society says to add a blanket of leaves 12 to 18 inches deep in early November, as temperatures drop. It says to take the leaves off early in April and the rest of the cover by mid-April. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "US-ND",
+          "US-SD"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-73",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Illinois, one extension service says to wait until a hard killing frost has made most of the leaves fall before you protect roses for winter.",
+        "confidence": "Low",
+        "place": [
+          "US-IL"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-53",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "In Pennsylvania, one extension service says to clean up all fallen leaves and flowers before winter, and to put winter protection on only after several killing freezes, once the rose is dormant. It says to take it off in very early spring, once lows are no longer forecast to fall below 20°F.",
+        "confidence": "Low",
+        "place": [
+          "US-PA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-44",
+          "ARC-BUSHROSE-TIMING-US-01 AF-57",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "In Missouri, one extension service says to take the winter covering off carefully in spring, once the danger of a severe freeze is over.",
+        "confidence": "Low",
+        "place": [
+          "US-MO"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-98",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "In Colorado, one extension service says to clear all leaves and debris from the ground around Thanksgiving. Once night temperatures have dropped to 20°F for several days, it says to mound soil over the base of the rose, and in spring to take the cover off gradually, once the danger of hard frost has passed. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "US-CO"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-47",
+          "ARC-BUSHROSE-TIMING-US-01 AF-55",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In the Kansas City area, one extension source says to wait for several hard freezes in fall, strip the leaves from the bushes and clear the bed, and then cover grafted roses with 8 to 12 inches of soil, mulch or leaves. It says to take the cover off in mid-April. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "US-KS:Kansas City",
+          "US-MO:Kansas City"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-103",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Nashville, one rose society says to clean up the beds in November, and to clear all diseased leaves from the rose beds in December. It says to put winter protection on once there have been two freezes in a row below 28°F. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "US-TN:Nashville"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-45",
+          "ARC-BUSHROSE-TIMING-US-01 AF-54",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Nashville, one rose society says to uncover the roses carefully around the third week of March, depending on the weather, but to leave the mulch at the base until after the last frost date (April 15 to 23), and then pull it away gradually. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "US-TN:Nashville"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-58",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Nashville, one rose society says not to take the winter mulch off in early March, because bad weather can go on for several weeks and late freezes are usually more damaging than winter ones. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "US-TN:Nashville"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-9",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Nashville, one rose society says to give a dormant oil spray (an oil spray put on while the rose is dormant) in February, once temperatures have been over 40°F for 24 hours. Months are only a guide. Follow the label on the spray.",
+        "confidence": "Low",
+        "place": [
+          "US-TN:Nashville"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-49",
+          "ARC-BUSHROSE-TIMING-US-01 C-6",
+          "rule 4",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In Cobb County, one county extension guide says to remove diseased leaves from the plants and beds in October and November. In December, after the second hard frost (28°F), it says to mound wood mulch 12 to 18 inches deep over the base of the rose. Months are only a guide, because frosts vary from year to year.",
+        "confidence": "Low",
+        "place": [
+          "US-GA:Cobb County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-78",
+          "ARC-BUSHROSE-TIMING-US-01 AF-79",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Cobb County, one county extension guide says to spray with a dormant oil (an oil spray put on while the rose is dormant) every other week in December. Months are only a guide. Follow the label on the spray.",
+        "confidence": "Low",
+        "place": [
+          "US-GA:Cobb County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-78",
+          "ARC-BUSHROSE-TIMING-US-01 C-6",
+          "rule 4",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In Florida, one extension service says to take all the leaves off the plants at winter pruning, and to rake up the dead and diseased leaves that have fallen beneath them during the year.",
+        "confidence": "Low",
+        "place": [
+          "US-FL"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-94",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "In Pima County, one extension service says that after pruning you should throw away all fallen leaves and cuttings that may be diseased, and not leave them under the plants or compost them.",
+        "confidence": "Low",
+        "place": [
+          "US-AZ:Pima County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-46",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "I couldn't find advice written for Arizona's low desert, the Tucson area or Marin County on covering or mounding roses for winter. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "US-AZ",
+          "US-CA:Marin County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-60",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "In Oregon's Willamette Valley, one extension service says that a dormant oil spray (an oil spray put on while the rose is dormant), given after pruning, needs to go on before the rose sends out new shoots. Follow the label on the spray.",
+        "confidence": "Low",
+        "place": [
+          "US-OR"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-106",
+          "rule 4",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In Marin County, one rose society says to clear up all cuttings and fallen leaves and take them out of the garden in January, at pruning, and to put on a dormant spray (a spray put on while the rose is dormant) before new growth begins. Months are only a guide. Follow the label on the spray.",
+        "confidence": "Low",
+        "place": [
+          "US-CA:Marin County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-50",
+          "rule 4",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In Orange County, California, one rose society says to use a dormant spray (a spray put on while the rose is dormant) in January, such as copper sulphate or a horticultural oil. Months are only a guide. Follow the label on the spray.",
+        "confidence": "Low",
+        "place": [
+          "US-CA:Orange County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-51",
+          "ARC-BUSHROSE-TIMING-US-01 C-6",
+          "rule 4",
+          "rule 6",
+          "rule 7"
+        ]
+      },
+      {
+        "text": "In Contra Costa County, one extension source says you can, if you choose, put on a horticultural oil after the winter pruning, to smother insect eggs and scale insects that are overwintering on the rose. Follow the label on the spray.",
+        "confidence": "Low",
+        "place": [
+          "US-CA:Contra Costa County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-90",
+          "rule 4",
+          "rule 7"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 5
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-US-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT. Version 1.3: the United States statements are added after the statements already published, which are unchanged (approved renderings for those: the earlier timing packages in Working/AI Outputs). Version 1.2 retired."
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000024",
+  "version": "1.3",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "When do I stop deadheading?",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000003",
+      "PKR-SRC-000130",
+      "PKR-SRC-000131",
+      "PKR-SRC-000132",
+      "PKR-SRC-000135",
+      "PKR-SRC-000136",
+      "PKR-SRC-000193",
+      "PKR-SRC-000228",
+      "PKR-SRC-000278",
+      "PKR-SRC-000314",
+      "PKR-SRC-000315",
+      "PKR-SRC-000316",
+      "PKR-SRC-000318",
+      "PKR-SRC-000321",
+      "PKR-SRC-000336",
+      "PKR-SRC-000337",
+      "PKR-SRC-000338",
+      "PKR-SRC-000347",
+      "PKR-SRC-000351",
+      "PKR-SRC-000354",
+      "PKR-SRC-000362",
+      "PKR-SRC-000373",
+      "PKR-SRC-000375",
+      "PKR-SRC-000378",
+      "PKR-SRC-000385",
+      "PKR-SRC-000387",
+      "PKR-SRC-000392"
+    ],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000004"
+      }
+    ],
+    "preserved_uncertainty": "New Zealand: The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25). Australia: No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming. United Kingdom: No UK source located gives a month to stop deadheading (AF-35); the approved general pattern, from US sources, stops in early to mid autumn (C-6). October rests on one rose grower. The two sources on roses grown for hips give different times to stop (C-13), and neither names Hybrid Teas or Floribundas. No UK source located gives a date to stop summer pruning. United States: Times to stop run from mid-August (the Kansas City area) to November or December (Marin and Orange Counties), and Nashville still cuts flowers in November while Cobb County stops in October (C-2). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree. Pip's general answer, shown to everyone, gives a general time; the local times here differ from it. It says to stop in early-to-mid autumn so the rose can form hips.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "When do I stop deadheading?",
+    "label": null,
+    "items": [
+      {
+        "text": "Deadhead (remove the faded flowers) while the rose is flowering. Two garden companies say when to stop: one at the end of February, and one at the end of March, leaving the last flowers so that hips (the rose's fruit) can form. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-23",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-24",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-9",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Auckland, one garden service says to stop deadheading from March, so that the rose can form hips and rest before winter. Another Auckland source says to keep removing dead flowers all through the flowering season. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "NZ-AUK"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-23",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-24",
+          "ARC-BUSHROSE-TIMING-NZ-01 C-9",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "I couldn't find when to stop summer pruning (a light prune in summer to encourage more flowers) in New Zealand. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "NZ"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-25",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "I couldn't find a month to stop deadheading (cutting off the finished blooms) in Australia. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-29",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "To bring on flowers in autumn, give the rose a light trim in summer or early autumn. This is done between January and March, depending on where you live. Months are only a guide.",
+        "confidence": "High",
+        "place": [
+          "AU"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-27",
+          "ARC-BUSHROSE-TIMING-AU-01 C-11",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In New South Wales, one rose society says to trim roses for flowers in autumn: in January in a cool area, early in February in a mild area, and in March in a warm area. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-NSW"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-28",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Victoria, one rose society says to give a summer trim in February if you are timing the flowers for a show or special event. It also says to deadhead in April. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-VIC"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-57",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In South Australia, a light trim in late summer or early autumn brings on the autumn flowers. One nursery says mid February, and one rose society says one to two weeks after the February feed. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "AU-SA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-58",
+          "ARC-BUSHROSE-TIMING-AU-01 C-11",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Western Australia, one rose society says to give a light prune, taking off about one-third, in March or April, and to keep deadheading into May. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "AU-WA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-AU-01 AF-59",
+          "ARC-BUSHROSE-TIMING-AU-01 C-11",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "Deadhead (remove the faded flowers) while the rose is in flower, through summer and into autumn. One rose grower says to keep deadheading in October. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-14",
+          "ARC-BUSHROSE-TIMING-UK-01 C-6",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "If your rose is grown for its hips (the rose's fruit), stop deadheading in time for the hips to form. One source says to stop in mid-summer, and one rose grower says after the second round of flowers.",
+        "confidence": "Moderate",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-15",
+          "ARC-BUSHROSE-TIMING-UK-01 C-13"
+        ]
+      },
+      {
+        "text": "For a rose that is not grown for its hips (the rose's fruit), I couldn't find a month to stop deadheading in the UK. A local rose society is the place to ask.",
+        "kind": "gap",
+        "place": [
+          "GB"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-UK-01 AF-35",
+          "rule 5"
+        ]
+      },
+      {
+        "text": "In Iowa, one extension service says to deadhead (remove the faded flowers) during the summer, but to stop towards the end of summer, as fall nears.",
+        "confidence": "Low",
+        "place": [
+          "US-IA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-64",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "In Minnesota and Wisconsin, stop deadheading (removing the faded flowers) at the end of August or in September. Months are only a guide.",
+        "confidence": "Moderate",
+        "place": [
+          "US-MN",
+          "US-WI"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-27",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In North and South Dakota, one rose society says to stop deadheading (removing the faded flowers) after August, to help the canes (stems) harden off and mature. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "US-ND",
+          "US-SD"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-70",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Illinois, one extension service says to stop deadheading (removing the faded flowers) or cutting flowers after October 1, so that the rose can form hips (its fruit) and begin to harden for winter. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "US-IL"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-28",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Pennsylvania, one extension service says to stop cutting off the faded flowers in early fall, so that hips (the rose's fruit) can form.",
+        "confidence": "Low",
+        "place": [
+          "US-PA"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-74",
+          "rule 4"
+        ]
+      },
+      {
+        "text": "In the Kansas City area, one extension source says to stop deadheading (removing the faded flowers) after mid-August, and only to pull off the spent petals after that. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "US-KS:Kansas City",
+          "US-MO:Kansas City"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-31",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Nashville, one rose society says to keep cutting buds and blooms in November; sometimes there are flowers until Thanksgiving. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "US-TN:Nashville"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-75",
+          "ARC-BUSHROSE-TIMING-US-01 C-2",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Cobb County, one county extension guide says to stop deadheading (removing the faded flowers) in October. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "US-GA:Cobb County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-29",
+          "ARC-BUSHROSE-TIMING-US-01 C-2",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Marin County, one rose society says to stop cutting off the faded flowers in November, so that hips (the rose's fruit) can form. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "US-CA:Marin County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-30",
+          "rule 4",
+          "rule 6"
+        ]
+      },
+      {
+        "text": "In Orange County, California, one rose society says to stop deadheading (removing the faded flowers) in November and December, and just to pull off the old petals. Months are only a guide.",
+        "confidence": "Low",
+        "place": [
+          "US-CA:Orange County"
+        ],
+        "trace": [
+          "ARC-BUSHROSE-TIMING-US-01 AF-86",
+          "rule 4",
+          "rule 6"
+        ]
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false,
+      "question_answer": {
+        "topic": "timing",
+        "topic_title": "When to do each job",
+        "order": 3
+      }
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-TIMING-US-01-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT. Version 1.3: the United States statements are added after the statements already published, which are unchanged (approved renderings for those: the earlier timing packages in Working/AI Outputs). Version 1.2 retired."
+  }
+}

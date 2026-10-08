@@ -1,0 +1,37 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000374",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Minnesota Rose Society — \"General Rose Care\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-16 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-21 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-32 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-36 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-38 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-67 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Rose society, Minnesota; band A by ARS-NCD's statement that Minnesota is in zones 3–5",
+    "identity": "Minnesota Rose Society, \"General Rose Care\", Last modified 5 October 2013. Rose society, Minnesota; band A by ARS-NCD's statement that Minnesota is in zones 3–5. https://minnesotarosesociety.org/general-rose-care/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:MRS-MN)",
+    "url": "https://minnesotarosesociety.org/general-rose-care/",
+    "register_code": "TIMING-US:MRS-MN",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

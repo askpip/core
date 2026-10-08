@@ -7,7 +7,7 @@
 | Dossier Identifier | `FRD-BUSHROSE-TIMING-US-01` |
 | Title | Founder Review Dossier — Which Months Should I Do Each Rose Job, Where I Live in the United States? |
 | Commission Reference | `BUSHROSE-TIMING-US`; Research Commission Record `Working/AI Outputs/Research_Commission_Record_Monthly_Timing_United_States.md` (v0.2, authorised by Shaphan in chat, 1 October 2026) |
-| Status | Submitted for Founder review on 1 October 2026 with a Decision Brief and Review Form; no Founder completed the form. **Revised 8 October 2026** under the one-approval pattern: §11 added after the Build Check. Where §11 differs from §1 and §6 to §10, §11 governs. Passed to KIT for the build; what Pip says from it is submitted for approval as Pip's Answers. |
+| Status | **Approved 8 October 2026** through Pip's Answers; the approved record is `ARC-BUSHROSE-TIMING-US-01`. Submitted for Founder review on 1 October 2026 with a Decision Brief and Review Form; no Founder completed the form. **Revised 8 October 2026** under the one-approval pattern: §11 added after the Build Check. Where §11 differs from §1 and §6 to §10, §11 governs. Passed to KIT for the build; what Pip says from it is submitted for approval as Pip's Answers. |
 | Preparer | Claude, acting in the ROC role |
 | Date | 1 October 2026 |
 | Governing Standards | Founder Review Dossier Standard (FRDS) v1.3; Evidence Assessment Standard (EAS) v1.4; ROC Operations Manual v2.9 |

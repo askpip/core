@@ -1,0 +1,43 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000132",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "University of Illinois Extension — Care (Roses)",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose; general care outside pruning",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "None beyond those recorded on the citing findings.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-BASICCARE-01, F2 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F3 (High)",
+      "ARC-BUSHROSE-BASICCARE-01, F4 (High (pattern))",
+      "ARC-BUSHROSE-BASICCARE-01, F5 (High (pattern))",
+      "ARC-BUSHROSE-BASICCARE-01, F9 (Very High)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-11 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-22 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-28 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-39 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-53 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication (University of Illinois)",
+    "identity": "University of Illinois Extension, \"Care\" (Roses); web address <https://extension.illinois.edu/roses/care>, accessed 29 September 2026; register code ILL-CARE",
+    "url": "https://extension.illinois.edu/roses/care",
+    "register_code": "ILL-CARE",
+    "relevance": "Supports F2, F3, F4, F5, F9."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-US-01 added (register code TIMING-US:ILL-CARE). Nothing else changed. Version 1.0 retired."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000390",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "S. Park Brown, UF/IFAS Solutions for Your Life — \"Growing Roses\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-8 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-91 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-92 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-93 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-94 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension, Florida statewide; Florida zones 8–11 (UF-ZONE)",
+    "identity": "S. Park Brown, UF/IFAS Solutions for Your Life, \"Growing Roses\" (from CIR 344), Revised December 2013 and December 2016. University extension, Florida statewide; Florida zones 8–11 (UF-ZONE). https://sfyl.ifas.ufl.edu/lawn-and-garden/growing-roses, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UF-SFYL)",
+    "url": "https://sfyl.ifas.ufl.edu/lawn-and-garden/growing-roses",
+    "register_code": "TIMING-US:UF-SFYL",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

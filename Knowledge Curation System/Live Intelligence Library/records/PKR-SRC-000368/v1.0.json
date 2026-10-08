@@ -1,0 +1,32 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000368",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Carole MacMullan (guest columnist), UGA Extension Fulton County — \"Planting zone confusion – What are the current planting zones?\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-3 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "University extension (county blog), Georgia; Cobb County zone 8",
+    "identity": "Carole MacMullan (guest columnist), UGA Extension Fulton County, \"Planting zone confusion – What are the current planting zones?\", 19 June 2024. University extension (county blog), Georgia; Cobb County zone 8. https://site.extension.uga.edu/fultonag/2024/06/planting-zone-confusion-what-are-the-current-planting-zones/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UGA-ZONE)",
+    "url": "https://site.extension.uga.edu/fultonag/2024/06/planting-zone-confusion-what-are-the-current-planting-zones/",
+    "register_code": "TIMING-US:UGA-ZONE",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

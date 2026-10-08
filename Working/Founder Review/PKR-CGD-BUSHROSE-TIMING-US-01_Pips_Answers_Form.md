@@ -1,6 +1,8 @@
 <!-- shed-form v1 -->
 # Pip's Answers Form — Which Months to Do Each Rose Job in the United States
 
+**Decided, 8 October 2026. Nothing more to fill in here.** A Founder approved Pip's answers in chat, and they are published.
+
 Read **Pip's Answers — Which Months to Do Each Rose Job in the United States** first. Its section 1 is every word gardeners would see.
 
 ## Your decision

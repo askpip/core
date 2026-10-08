@@ -1,0 +1,42 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000291",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Ron Daniels, ARS Master Consulting Rosarian, Nashville Rose Society — \"Transplanting and Moving Rose Bushes\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-06",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-19 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-26 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-28 (Low)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-29 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-30 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-31 (Moderate)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-32 (Low)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-33 (High)",
+      "ARC-BUSHROSE-PLANTMOVE-01, AF-35 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-6 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-40 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Rose society (expert rosarian), US",
+    "identity": "Ron Daniels, ARS Master Consulting Rosarian, Nashville Rose Society, \"Transplanting and Moving Rose Bushes\", 9 November 2020. Rose society (expert rosarian), US. https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/, accessed 1 October 2026 and 5 October 2026 (register code PLANTMOVE:NRS-T)",
+    "url": "https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/",
+    "register_code": "PLANTMOVE:NRS-T",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-US-01 added (register code TIMING-US:NRS-T). Nothing else changed. Version 1.0 retired."
+  }
+}

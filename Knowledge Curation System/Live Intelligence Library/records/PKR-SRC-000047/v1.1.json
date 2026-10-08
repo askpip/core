@@ -1,0 +1,36 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000047",
+  "version": "1.1",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Clemson HGIC — Growing Roses",
+  "common": {
+    "applies_to": "Bush rose; rose-type scope qualification",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-09-29",
+    "related_pkrs": [],
+    "preserved_uncertainty": "No Grandiflora-specific pruning in the factsheet consulted.",
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-ROSETYPE-01, AF-4 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-7 (High)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-20 (Moderate)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-26 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-95 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Extension publication",
+    "identity": "Clemson Cooperative Extension, Home and Garden Information Center, \"Growing Roses\", https://hgic.clemson.edu/factsheet/growing-roses/, accessed 27 September 2026 (FRD code CLE)",
+    "url": "https://hgic.clemson.edu/factsheet/growing-roses/",
+    "register_code": null,
+    "relevance": "Describes Grandiflora as a class (US usage)."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT. Version 1.1: MIL references to ARC-BUSHROSE-TIMING-US-01 added (register code TIMING-US:CLE-GR). Nothing else changed. Version 1.0 retired."
+  }
+}

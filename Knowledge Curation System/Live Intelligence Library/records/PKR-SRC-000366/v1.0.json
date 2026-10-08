@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000366",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Patrick Breen, Oregon State University Landscape Plants — \"USDA Hardiness Zone Maps of the United States\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-1 (High)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-4 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "University, national",
+    "identity": "Patrick Breen, Oregon State University Landscape Plants, \"USDA Hardiness Zone Maps of the United States\", Maps issued 15 November 2023. University, national. https://landscapeplants.oregonstate.edu/usda-hardiness-zone-maps-united-states, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:OSU-LP)",
+    "url": "https://landscapeplants.oregonstate.edu/usda-hardiness-zone-maps-united-states",
+    "register_code": "TIMING-US:OSU-LP",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}

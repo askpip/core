@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 506,
-  "published_count": 415,
+  "record_count": 555,
+  "published_count": 444,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -239,9 +239,17 @@
       "pkr_id": "PKR-CGD-000022",
       "version": "1.2",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Which months do I prune my rose?",
       "sha256": "31ef75694e9c2b11b14fdf3e74cad9a2866d12cef3184461e653d8e00904c61d"
+    },
+    {
+      "pkr_id": "PKR-CGD-000022",
+      "version": "1.3",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Which months do I prune my rose?",
+      "sha256": "a44c11550e77e343f6ff42d3e5ac1603a5f493e1a56f33c4044d64a1d42872d7"
     },
     {
       "pkr_id": "PKR-CGD-000023",
@@ -263,9 +271,17 @@
       "pkr_id": "PKR-CGD-000023",
       "version": "1.2",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When do I start and stop feeding?",
       "sha256": "0042668cf6ed5e6eb4de1b41459ec943c97711e500022326e8e66a74d1b15941"
+    },
+    {
+      "pkr_id": "PKR-CGD-000023",
+      "version": "1.3",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I start and stop feeding?",
+      "sha256": "b8f589c9273f181d1453cf5a5b71be7c9f2588fd385a5da5ce9faa6d4a233e50"
     },
     {
       "pkr_id": "PKR-CGD-000024",
@@ -287,9 +303,17 @@
       "pkr_id": "PKR-CGD-000024",
       "version": "1.2",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When do I stop deadheading?",
       "sha256": "84c93d0bcd3cb8c447bf4376d4e378ed28ec6d4eed2d3fc97f2ecffc10c6c843"
+    },
+    {
+      "pkr_id": "PKR-CGD-000024",
+      "version": "1.3",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I stop deadheading?",
+      "sha256": "4bbf0a26984d63b042ba3dfa038ccaf2d55beb1b19f77d8c55394cee1af1276d"
     },
     {
       "pkr_id": "PKR-CGD-000025",
@@ -311,9 +335,17 @@
       "pkr_id": "PKR-CGD-000025",
       "version": "1.2",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Which months do I plant or move a rose?",
       "sha256": "bb69522be5a18ce0ce3b0e6e0166e3e58f936d0758e42ce1bd2ff9f496f1b90d"
+    },
+    {
+      "pkr_id": "PKR-CGD-000025",
+      "version": "1.3",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Which months do I plant or move a rose?",
+      "sha256": "66c16a1ed09605fa4d8558a620a2edcf4efad9fc6804a020f1b95124ec864042"
     },
     {
       "pkr_id": "PKR-CGD-000026",
@@ -335,9 +367,17 @@
       "pkr_id": "PKR-CGD-000026",
       "version": "1.2",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When do I clear up and spray in winter?",
       "sha256": "65a96d05308bbc66d544e7e04aa1c13d19dc09326d7c18eb24ddad047f1d95cf"
+    },
+    {
+      "pkr_id": "PKR-CGD-000026",
+      "version": "1.3",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When do I clear up and spray in winter?",
+      "sha256": "af1204787b76cfb846978b058fa90501d926e53c4b9129530bd13cd3d5bdee93"
     },
     {
       "pkr_id": "PKR-CGD-000027",
@@ -607,9 +647,17 @@
       "pkr_id": "PKR-SRC-000003",
       "version": "1.6",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Illinois Extension — Pruning",
       "sha256": "4ee0ddb2c54354e7650c13a9d9372a7144dd7ea917daecd68b361fddfb39e035"
+    },
+    {
+      "pkr_id": "PKR-SRC-000003",
+      "version": "1.7",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Illinois Extension — Pruning",
+      "sha256": "c56db12c166887785431f6f445556b7f61e63d3ad22d1d595088911f257f5415"
     },
     {
       "pkr_id": "PKR-SRC-000004",
@@ -623,9 +671,17 @@
       "pkr_id": "PKR-SRC-000004",
       "version": "1.7",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Oregon State University Extension Service — Pruning roses",
       "sha256": "8c88fac9f3a99322a19b8c63c140d194e164d098c99429e0273153e22e0d37a5"
+    },
+    {
+      "pkr_id": "PKR-SRC-000004",
+      "version": "1.8",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Oregon State University Extension Service — Pruning roses",
+      "sha256": "06d8a6832d7d2f6dd1ff97faea24a6b89d35fd8bef514deef218b7ac8a18fca1"
     },
     {
       "pkr_id": "PKR-SRC-000005",
@@ -655,9 +711,17 @@
       "pkr_id": "PKR-SRC-000006",
       "version": "1.6",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Clemson University Cooperative Extension (HGIC) — Pruning Roses",
       "sha256": "cf29ce029f58e11e950e625fb9eedb5205ac84bb87ebbdf38f2751bf9aeb5e32"
+    },
+    {
+      "pkr_id": "PKR-SRC-000006",
+      "version": "1.7",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Clemson University Cooperative Extension (HGIC) — Pruning Roses",
+      "sha256": "5c1a56eeef401a8acbe6238e03490c5f3e4687a0103248ff75ef017a46f9d8d4"
     },
     {
       "pkr_id": "PKR-SRC-000007",
@@ -759,9 +823,17 @@
       "pkr_id": "PKR-SRC-000018",
       "version": "1.2",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Arkansas Cooperative Extension Service — Pruning",
       "sha256": "5675787748daf4e4660568fd23a421477e1831a7c5d185cf2b7cbf03d2bbea6a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000018",
+      "version": "1.3",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Arkansas Cooperative Extension Service — Pruning",
+      "sha256": "32eb2e8baa9a6601f6e47bc01aadfb1a3c80d7f7b236bdb78cdf3148952cd9bb"
     },
     {
       "pkr_id": "PKR-SRC-000019",
@@ -1023,9 +1095,17 @@
       "pkr_id": "PKR-SRC-000047",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Clemson HGIC — Growing Roses",
       "sha256": "65eb8ff7ad7ae4c20b90582d5e4da0e33614d05efff3e5449ca5f55afccaddd1"
+    },
+    {
+      "pkr_id": "PKR-SRC-000047",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Clemson HGIC — Growing Roses",
+      "sha256": "3fbe718b7da76cd477f2564665d1593f6183ad9b820ba821437ed94590da01d2"
     },
     {
       "pkr_id": "PKR-SRC-000048",
@@ -1647,9 +1727,17 @@
       "pkr_id": "PKR-SRC-000108",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Red Butte Garden — How to Prune Roses",
       "sha256": "df54490734bc6e6649732ac9fa3a3137203fa1cc3180bbc9dfc5c9cdd6bdb626"
+    },
+    {
+      "pkr_id": "PKR-SRC-000108",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Red Butte Garden — How to Prune Roses",
+      "sha256": "f35ad2409825d4499123494ac2fb3580edf681d7a90320ce999be9f0c9f4f48c"
     },
     {
       "pkr_id": "PKR-SRC-000109",
@@ -1871,25 +1959,49 @@
       "pkr_id": "PKR-SRC-000131",
       "version": "1.2",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Iowa State University Extension — Rose Care by Season",
       "sha256": "2e7bda95e874ef2ec02735a34ca69a821dcb418e14134ff0bf3f5c665e285d6f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000131",
+      "version": "1.3",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Iowa State University Extension — Rose Care by Season",
+      "sha256": "cb9d5574743b1b2a687ab2f8fafce6aca7dedd2a80755b933de182e46434244f"
     },
     {
       "pkr_id": "PKR-SRC-000132",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Illinois Extension — Care (Roses)",
       "sha256": "40a6b8d3327877cd72a791c42c24939ddefc3377fccf45713aff73c9a9041c81"
+    },
+    {
+      "pkr_id": "PKR-SRC-000132",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Illinois Extension — Care (Roses)",
+      "sha256": "057f053fcdc5dd8bfc911b42d9755e87ce72e4aedb3462e0a7be08b85e99c858"
     },
     {
       "pkr_id": "PKR-SRC-000133",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Missouri Extension — Roses: Care After Planting (G6601)",
       "sha256": "b70087cea455c384ff60d1d2286bf2f54c9a0ba4fff5f2d188169edabb92eb9f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000133",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Missouri Extension — Roses: Care After Planting (G6601)",
+      "sha256": "53bce714283117f9274d185b10900910d95b6b2cb2464524e8ffb52e48ed362a"
     },
     {
       "pkr_id": "PKR-SRC-000134",
@@ -1911,17 +2023,33 @@
       "pkr_id": "PKR-SRC-000135",
       "version": "1.1",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Penn State Extension — Protecting Your Roses through Pennsylvania Winters",
       "sha256": "ad19583364db52716a890e30ccc48856334601b967a8399831c0f5dd59757555"
+    },
+    {
+      "pkr_id": "PKR-SRC-000135",
+      "version": "1.2",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Penn State Extension — Protecting Your Roses through Pennsylvania Winters",
+      "sha256": "3a95217bc01caea78633bb2a13000680ee73fc65e6ad4c8910c90e17b95e6ef4"
     },
     {
       "pkr_id": "PKR-SRC-000136",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "UGA Extension (Cobb County) — Rose Maintenance Guide and Schedule",
       "sha256": "e43e156c48ad9e2abc812903739f336e41fe734f0cf7794a44d54ee4b13f1337"
+    },
+    {
+      "pkr_id": "PKR-SRC-000136",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "UGA Extension (Cobb County) — Rose Maintenance Guide and Schedule",
+      "sha256": "e49e687b8f6d6d33ca9580ae98fdbdc0613eccc78a1ca663a2678f8f7ae24522"
     },
     {
       "pkr_id": "PKR-SRC-000137",
@@ -3407,17 +3535,33 @@
       "pkr_id": "PKR-SRC-000284",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Colorado State University Extension (O'Connor, Nelson, Swift, Heins) — \"Selecting and Planting Roses\"",
       "sha256": "49c58f0df203f666daf652689b7773c171ba73ffacc58446af96881b733eca15"
+    },
+    {
+      "pkr_id": "PKR-SRC-000284",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Colorado State University Extension (O'Connor, Nelson, Swift, Heins) — \"Selecting and Planting Roses\"",
+      "sha256": "5f1f0243035ec5cd8e6f288e43a9518dadcb74a0c93e881389012f9b45b63da2"
     },
     {
       "pkr_id": "PKR-SRC-000285",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Missouri Extension (rev. Dave Trinklein) — \"Roses: Selecting and Planting\"",
       "sha256": "6efb3fd5334d81092621d61f7f634443a930801a583932ef288623d3dfa30ea8"
+    },
+    {
+      "pkr_id": "PKR-SRC-000285",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Missouri Extension (rev. Dave Trinklein) — \"Roses: Selecting and Planting\"",
+      "sha256": "3fd03fee41ff5cc93c86b184afa469f6a96c00b733d19a7d60067d06dcf54572"
     },
     {
       "pkr_id": "PKR-SRC-000286",
@@ -3431,9 +3575,17 @@
       "pkr_id": "PKR-SRC-000287",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "University of Arkansas Cooperative Extension Service — \"Transplanting\"",
       "sha256": "a8da74492df6c1b039270c429452189967686289c6c2a94c7f206d4395a820f8"
+    },
+    {
+      "pkr_id": "PKR-SRC-000287",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "University of Arkansas Cooperative Extension Service — \"Transplanting\"",
+      "sha256": "ce23f580e5d9a2c97c1f968ee695215fca16520af8eb18f64ed6bd127050ce90"
     },
     {
       "pkr_id": "PKR-SRC-000288",
@@ -3463,9 +3615,17 @@
       "pkr_id": "PKR-SRC-000291",
       "version": "1.0",
       "pkr_type": "source",
-      "status": "Published",
+      "status": "Retired",
       "title": "Ron Daniels, ARS Master Consulting Rosarian, Nashville Rose Society — \"Transplanting and Moving Rose Bushes\"",
       "sha256": "9c8ced64f11eab1861e8dad5bba232793d68b35b45842729c65db089fb70f63e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000291",
+      "version": "1.1",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Ron Daniels, ARS Master Consulting Rosarian, Nashville Rose Society — \"Transplanting and Moving Rose Bushes\"",
+      "sha256": "2f156adcf2f057287f65ca433978a57e3886464cc1144ef8f2ce81e837837bef"
     },
     {
       "pkr_id": "PKR-SRC-000292",
@@ -4050,6 +4210,238 @@
       "status": "Published",
       "title": "Thompson & Morgan (Mandy Bradshaw) — \"How to prune roses\"",
       "sha256": "bc71c62020d2b7471457b4a357f230ba9e2cc32b279e61b0c84ef240ec086d40"
+    },
+    {
+      "pkr_id": "PKR-SRC-000365",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "USDA Agricultural Research Service — \"USDA Plant Hardiness Zone Map\"",
+      "sha256": "3f57f29428a8524d7681cf6161e791792967484d082932d01b6199bdefb55ab6"
+    },
+    {
+      "pkr_id": "PKR-SRC-000366",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Patrick Breen, Oregon State University Landscape Plants — \"USDA Hardiness Zone Maps of the United States\"",
+      "sha256": "c99ff1d88dca0e5524e1fa3e0eddb2561eb1640dbf12e3f7e10654488b616bc5"
+    },
+    {
+      "pkr_id": "PKR-SRC-000367",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Aaron Steil, Iowa State University Extension and Outreach — \"New Plant Hardiness Zone Map Released from the USDA\"",
+      "sha256": "ca07b7d40f1c1118971aba150a49252c570998680979bd07f25853d2eb3b2597"
+    },
+    {
+      "pkr_id": "PKR-SRC-000368",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Carole MacMullan (guest columnist), UGA Extension Fulton County — \"Planting zone confusion – What are the current planting zones?\"",
+      "sha256": "99b2daa580e74e19192b447fa847a600b68866701d312d15f573a67d674d1dd0"
+    },
+    {
+      "pkr_id": "PKR-SRC-000369",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "UGA Cooperative Extension climate blog — \"New USDA Plant Hardiness Zone map shows most of Southeast has gotten one half zone warmer\"",
+      "sha256": "8217aebe0838e1eddaea01fbc616eec75f5a03fa6167f2b49ea8192c67686a99"
+    },
+    {
+      "pkr_id": "PKR-SRC-000370",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Ursula Schuch, University of Arizona Cooperative Extension — \"Arizona Climate Zones and their Application to Growing Plants\"",
+      "sha256": "e8f1d60b0d542ac94991f1cdab06e06de3965f5f95ad147da9673c71cca3a123"
+    },
+    {
+      "pkr_id": "PKR-SRC-000371",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "UC Marin Master Gardeners — \"What Is Your Climate Zone?\"",
+      "sha256": "7d1b313defddb63c7ace2a8a301c3f88af3af9d0760e12be6f8ca02624534c51"
+    },
+    {
+      "pkr_id": "PKR-SRC-000372",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Elaine Applebaum, UC Master Gardeners of Placer County — \"USDA and Sunset Zones\"",
+      "sha256": "7cbf6a5bed3e3e093c6cea440c5c4f958c289e2f9cd6443fafbcfb71236974dd"
+    },
+    {
+      "pkr_id": "PKR-SRC-000373",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Lois Ann Helgeson, American Rose Society — \"Winterizing Roses in the North Central District\"",
+      "sha256": "49d46a40c3744910e785e6928a5db31a07449fc99c116a5d5061277190b1c742"
+    },
+    {
+      "pkr_id": "PKR-SRC-000374",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Minnesota Rose Society — \"General Rose Care\"",
+      "sha256": "b0f0c57c3d5ad7e8cb003ce36a64604f4fe4d7c9d4f16a248aa812e4062cdaf8"
+    },
+    {
+      "pkr_id": "PKR-SRC-000375",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "David C. Zlesak (Professor of Horticulture, University of Wisconsin–River Falls) — \"Growing Roses in the Northern Midwest\"",
+      "sha256": "a9004d47467c307b8efb5c306545e3b5ee8285ccf16185e4a54f23f06b54e193"
+    },
+    {
+      "pkr_id": "PKR-SRC-000376",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Iowa State University Extension and Outreach — \"When should I prune hybrid tea roses in spring?\"",
+      "sha256": "a40c9d0d304af24536abe4de3cc2d65a3b860e487dd4fd577daa322e1af973b7"
+    },
+    {
+      "pkr_id": "PKR-SRC-000377",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Nashville Rose Society (NRS Editor) — \"A Year of Rose Care – Winter\"",
+      "sha256": "7492d62e620d5e071abf479dd010dbe048133767b9ff55c99861cd0da725f15a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000378",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Nashville Rose Society (NRS Editor) — \"A Year of Rose Care – Fall\"",
+      "sha256": "1d2239aad26a8173a6545f53ae367e35c5e31201493b777aee49982cb388f34e"
+    },
+    {
+      "pkr_id": "PKR-SRC-000379",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Nashville Rose Society (NRS Editor) — \"A Year of Rose Care – Spring\"",
+      "sha256": "0e3cec6ddfc75de293d3a44414b2f75244c600b4195a549d41c2314e4eb231d3"
+    },
+    {
+      "pkr_id": "PKR-SRC-000380",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Nashville Rose Society (NRS Editor) — \"Spring Pruning for Established Roses\"",
+      "sha256": "9731a0b199810407d6f773944073eb54d8eabfe08977b0bb9a795cc2684a93d9"
+    },
+    {
+      "pkr_id": "PKR-SRC-000381",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Marty Reich (Master Rosarian), Nashville Rose Society — \"March Rose Growing Notes\"",
+      "sha256": "71bb403fa8dab62dd6a23afc09154d009f9ed6d07b6ee15e664e4994528f8e5f"
+    },
+    {
+      "pkr_id": "PKR-SRC-000382",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Lucy Bradley, University of Arizona Cooperative Extension — \"Rose Selection & Planting in the Low Desert\"",
+      "sha256": "c15c80b60b97666595b2be36c9ab3396ca107ffdbe2b37989ae22006253b04c2"
+    },
+    {
+      "pkr_id": "PKR-SRC-000383",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Paul Larson, Laurie Vance, Deborah North, University of Arizona Cooperative Extension — \"January Monthly Gardening Guide for Pima County\"",
+      "sha256": "17fb3a45e7dd19941002f0280448bd287fb7f5bb8ac92388078dc03ec464c0db"
+    },
+    {
+      "pkr_id": "PKR-SRC-000384",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "The same authors — \"February Monthly Gardening Guide for Pima County\"",
+      "sha256": "fe9413cb2ccd907434f8ba94d916e82742c9c77b00c11bcb5e38f23a83ee2fd3"
+    },
+    {
+      "pkr_id": "PKR-SRC-000385",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Marin Rose Society — \"Annual Rose Calendar\"",
+      "sha256": "52f5a68bdafe7b6b401746cac9e085f32466f52459024a9e3112ad2457491f34"
+    },
+    {
+      "pkr_id": "PKR-SRC-000386",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Colorado State University Extension, PlantTalk Colorado 1726 — \"Roses: Winter Care\"",
+      "sha256": "7499a00f04111729e5ce5615b41b1b3e1313dd45594efe2c6e10f2a4d5d75107"
+    },
+    {
+      "pkr_id": "PKR-SRC-000387",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Johnson County Extension Master Gardeners, K-State Research and Extension — \"Rose Care\"",
+      "sha256": "993001334780f00b9cc6779ad82f19d5d27efb9dbe8443ce9ade37e5fe46d482"
+    },
+    {
+      "pkr_id": "PKR-SRC-000388",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Bob Westerfield and Malgorzata Florkowska, UGA Extension Circular 1001 — \"Roses in Georgia: Selecting and Growing Techniques\"",
+      "sha256": "2a9a539daa1adaf39a0a35fcd988a66df0cf6c1ff34b0314d4d062075792493d"
+    },
+    {
+      "pkr_id": "PKR-SRC-000389",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Nathan Riggs, Texas AgriLife Extension Bexar County — \"Valentines Day Means Pruning Roses\"",
+      "sha256": "5606bf1ecbd14e31c613a0f89377fc75b9693b387a460b8dc75e6a9ba19e4441"
+    },
+    {
+      "pkr_id": "PKR-SRC-000390",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "S. Park Brown, UF/IFAS Solutions for Your Life — \"Growing Roses\"",
+      "sha256": "4dcf254e64637feb8732ca5837ff5ee9ac0771893d933cb8e6f4d87d0ad67321"
+    },
+    {
+      "pkr_id": "PKR-SRC-000391",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Sydney Park Brown and Tiare Saracino, UF/IFAS EDIS ENH1189 — \"Central Florida Gardening Calendar\"",
+      "sha256": "faa4cf83c0243975a3b1cb41e0f9fe198562eea7ae87c19d384ae67cce01b14a"
+    },
+    {
+      "pkr_id": "PKR-SRC-000392",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "Orange County Rose Society — \"Rose Care Calendar\"",
+      "sha256": "56fa5427b1e07f01dd974467d1c2ff167ff6fd232cec7f3e1148eeac21c8d330"
+    },
+    {
+      "pkr_id": "PKR-SRC-000393",
+      "version": "1.0",
+      "pkr_type": "source",
+      "status": "Published",
+      "title": "UC Master Gardener Program of Contra Costa County — \"Easy Guide to Hard Pruning Roses this Winter\"",
+      "sha256": "54d22c44a8992cef730db834cc82772d7534cb3f2d7176fbaf8ea3819962cd66"
     }
   ]
 }

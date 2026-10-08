@@ -1,8 +1,8 @@
-# PKR Submission Package — Source PKRs for United States Months (v0.4, Draft)
+# PKR Submission Package — Source PKRs for United States Months (v1.0, Published)
 
-**Draft, awaiting a Founder's approval.** Supports `PKR-CGD-BUSHROSE-TIMING-US-01-submission.md`. Built by KIT on 8 October 2026 from the Source Register of `FRD-BUSHROSE-TIMING-US-01` (`Working/AI Outputs/Source_Register_TIMING-US.json`, as corrected at the Build Check). Only sources that at least one finding relies on get a Source PKR.
+**Published 8 October 2026**, with `PKR-CGD-BUSHROSE-TIMING-US-01-submission.md`, on a Founder's approval of Pip's answers (in chat, 8 October 2026). Built by KIT on 8 October 2026 from the Source Register of `ARC-BUSHROSE-TIMING-US-01` (§8; `Working/AI Outputs/Source_Register_TIMING-US.json`). Only sources that at least one finding relies on get a Source PKR.
 
-**Matching (KIT PKR Build Skill §4):** every relied-on source was matched against the Published Source PKRs by web address. 15 match and are reused (Part B: on approval, a new version with the new MIL references, and the old version retired). 29 have no match and get new Source PKRs (Part A). Matching was by address only; a page that moved to a new address would appear here as new. IDs reserved: PKR-SRC-000365 to PKR-SRC-000393.
+**Matching (KIT PKR Build Skill §4):** every relied-on source was matched against the Published Source PKRs by web address. 15 match and are reused (Part B: a new version with the new MIL references added; the old version retired). 29 have no match and get new Source PKRs (Part A). Matching was by address only; a page that moved to a new address would appear here as new. IDs: PKR-SRC-000365 to PKR-SRC-000393.
 
 ## Part A — New Source PKRs
 
@@ -13,10 +13,10 @@
 | PKR ID | PKR-SRC-000365 |
 | PKR Type | Source PKR |
 | Title | USDA Agricultural Research Service — "USDA Plant Hardiness Zone Map" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -33,10 +33,10 @@
 | PKR ID | PKR-SRC-000366 |
 | PKR Type | Source PKR |
 | Title | Patrick Breen, Oregon State University Landscape Plants — "USDA Hardiness Zone Maps of the United States" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -53,10 +53,10 @@
 | PKR ID | PKR-SRC-000367 |
 | PKR Type | Source PKR |
 | Title | Aaron Steil, Iowa State University Extension and Outreach — "New Plant Hardiness Zone Map Released from the USDA" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -73,10 +73,10 @@
 | PKR ID | PKR-SRC-000368 |
 | PKR Type | Source PKR |
 | Title | Carole MacMullan (guest columnist), UGA Extension Fulton County — "Planting zone confusion – What are the current planting zones?" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -93,10 +93,10 @@
 | PKR ID | PKR-SRC-000369 |
 | PKR Type | Source PKR |
 | Title | UGA Cooperative Extension climate blog — "New USDA Plant Hardiness Zone map shows most of Southeast has gotten one half zone warmer" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -113,10 +113,10 @@
 | PKR ID | PKR-SRC-000370 |
 | PKR Type | Source PKR |
 | Title | Ursula Schuch, University of Arizona Cooperative Extension — "Arizona Climate Zones and their Application to Growing Plants" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -133,10 +133,10 @@
 | PKR ID | PKR-SRC-000371 |
 | PKR Type | Source PKR |
 | Title | UC Marin Master Gardeners — "What Is Your Climate Zone?" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -153,10 +153,10 @@
 | PKR ID | PKR-SRC-000372 |
 | PKR Type | Source PKR |
 | Title | Elaine Applebaum, UC Master Gardeners of Placer County — "USDA and Sunset Zones" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -173,10 +173,10 @@
 | PKR ID | PKR-SRC-000373 |
 | PKR Type | Source PKR |
 | Title | Lois Ann Helgeson, American Rose Society — "Winterizing Roses in the North Central District" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -193,10 +193,10 @@
 | PKR ID | PKR-SRC-000374 |
 | PKR Type | Source PKR |
 | Title | Minnesota Rose Society — "General Rose Care" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -213,10 +213,10 @@
 | PKR ID | PKR-SRC-000375 |
 | PKR Type | Source PKR |
 | Title | David C. Zlesak (Professor of Horticulture, University of Wisconsin–River Falls) — "Growing Roses in the Northern Midwest" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -233,10 +233,10 @@
 | PKR ID | PKR-SRC-000376 |
 | PKR Type | Source PKR |
 | Title | Iowa State University Extension and Outreach — "When should I prune hybrid tea roses in spring?" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -253,10 +253,10 @@
 | PKR ID | PKR-SRC-000377 |
 | PKR Type | Source PKR |
 | Title | Nashville Rose Society (NRS Editor) — "A Year of Rose Care – Winter" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -273,10 +273,10 @@
 | PKR ID | PKR-SRC-000378 |
 | PKR Type | Source PKR |
 | Title | Nashville Rose Society (NRS Editor) — "A Year of Rose Care – Fall" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -293,10 +293,10 @@
 | PKR ID | PKR-SRC-000379 |
 | PKR Type | Source PKR |
 | Title | Nashville Rose Society (NRS Editor) — "A Year of Rose Care – Spring" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -313,10 +313,10 @@
 | PKR ID | PKR-SRC-000380 |
 | PKR Type | Source PKR |
 | Title | Nashville Rose Society (NRS Editor) — "Spring Pruning for Established Roses" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -333,10 +333,10 @@
 | PKR ID | PKR-SRC-000381 |
 | PKR Type | Source PKR |
 | Title | Marty Reich (Master Rosarian), Nashville Rose Society — "March Rose Growing Notes" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -353,10 +353,10 @@
 | PKR ID | PKR-SRC-000382 |
 | PKR Type | Source PKR |
 | Title | Lucy Bradley, University of Arizona Cooperative Extension — "Rose Selection & Planting in the Low Desert" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -373,10 +373,10 @@
 | PKR ID | PKR-SRC-000383 |
 | PKR Type | Source PKR |
 | Title | Paul Larson, Laurie Vance, Deborah North, University of Arizona Cooperative Extension — "January Monthly Gardening Guide for Pima County" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -393,10 +393,10 @@
 | PKR ID | PKR-SRC-000384 |
 | PKR Type | Source PKR |
 | Title | The same authors — "February Monthly Gardening Guide for Pima County" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -413,10 +413,10 @@
 | PKR ID | PKR-SRC-000385 |
 | PKR Type | Source PKR |
 | Title | Marin Rose Society — "Annual Rose Calendar" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -433,10 +433,10 @@
 | PKR ID | PKR-SRC-000386 |
 | PKR Type | Source PKR |
 | Title | Colorado State University Extension, PlantTalk Colorado 1726 — "Roses: Winter Care" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -453,10 +453,10 @@
 | PKR ID | PKR-SRC-000387 |
 | PKR Type | Source PKR |
 | Title | Johnson County Extension Master Gardeners, K-State Research and Extension — "Rose Care" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -473,10 +473,10 @@
 | PKR ID | PKR-SRC-000388 |
 | PKR Type | Source PKR |
 | Title | Bob Westerfield and Malgorzata Florkowska, UGA Extension Circular 1001 — "Roses in Georgia: Selecting and Growing Techniques" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -493,10 +493,10 @@
 | PKR ID | PKR-SRC-000389 |
 | PKR Type | Source PKR |
 | Title | Nathan Riggs, Texas AgriLife Extension Bexar County — "Valentines Day Means Pruning Roses" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -513,10 +513,10 @@
 | PKR ID | PKR-SRC-000390 |
 | PKR Type | Source PKR |
 | Title | S. Park Brown, UF/IFAS Solutions for Your Life — "Growing Roses" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -533,10 +533,10 @@
 | PKR ID | PKR-SRC-000391 |
 | PKR Type | Source PKR |
 | Title | Sydney Park Brown and Tiare Saracino, UF/IFAS EDIS ENH1189 — "Central Florida Gardening Calendar" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -553,10 +553,10 @@
 | PKR ID | PKR-SRC-000392 |
 | PKR Type | Source PKR |
 | Title | Orange County Rose Society — "Rose Care Calendar" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -573,10 +573,10 @@
 | PKR ID | PKR-SRC-000393 |
 | PKR Type | Source PKR |
 | Title | UC Master Gardener Program of Contra Costa County — "Easy Guide to Hard Pruning Roses this Winter" |
-| Status | Draft |
-| Version | 0.4 |
+| Status | Published |
+| Version | 1.0 |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose |
-| Founder Approval Date | — |
+| Founder Approval Date | 8 October 2026 |
 | Related PKRs | Supports PKR-CGD-000022 to PKR-CGD-000027 (see MIL References) |
 | Preserved Uncertainty or Limitations | — |
 | Evidence Confidence | Not Applicable (PKR Standard §5.5) |
@@ -588,9 +588,9 @@
 
 ## Part B — Existing Source PKRs reused
 
-On approval each gets a new version with these MIL references added. Nothing else in the record changes.
+Each has a new Published version with these MIL references added, and its earlier version is Retired. Nothing else in the record changed.
 
-| Source PKR | Title | Version now | Version on approval | Register code | MIL references to add |
+| Source PKR | Title | Earlier version (Retired) | Version now (Published) | Register code | MIL references added |
 |---|---|---|---|---|---|
 | PKR-SRC-000131 | Iowa State University Extension — Rose Care by Season | 1.2 | 1.3 | TIMING-US:ISU-RC | ARC-BUSHROSE-TIMING-US-01, AF-10 (Low); ARC-BUSHROSE-TIMING-US-01, AF-20 (Moderate); ARC-BUSHROSE-TIMING-US-01, AF-43 (Moderate); ARC-BUSHROSE-TIMING-US-01, AF-63 (Low); ARC-BUSHROSE-TIMING-US-01, AF-64 (Low); ARC-BUSHROSE-TIMING-US-01, AF-65 (Low); ARC-BUSHROSE-TIMING-US-01, AF-66 (Low) |
 | PKR-SRC-000132 | University of Illinois Extension — Care (Roses) | 1.0 | 1.1 | TIMING-US:ILL-CARE | ARC-BUSHROSE-TIMING-US-01, AF-7 (High); ARC-BUSHROSE-TIMING-US-01, AF-11 (Low); ARC-BUSHROSE-TIMING-US-01, AF-22 (Low); ARC-BUSHROSE-TIMING-US-01, AF-25 (Moderate); ARC-BUSHROSE-TIMING-US-01, AF-28 (Low); ARC-BUSHROSE-TIMING-US-01, AF-39 (Low); ARC-BUSHROSE-TIMING-US-01, AF-53 (Low) |

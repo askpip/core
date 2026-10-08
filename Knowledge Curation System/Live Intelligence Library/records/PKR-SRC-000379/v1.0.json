@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000379",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Nashville Rose Society (NRS Editor) — \"A Year of Rose Care – Spring\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-08",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-US-01, AF-12 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-18 (Low)",
+      "ARC-BUSHROSE-TIMING-US-01, AF-33 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Rose society, Middle Tennessee; zone 7 (NRS-T)",
+    "identity": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care – Spring\", 30 March 2020; updated 4 July 2025. Rose society, Middle Tennessee; zone 7 (NRS-T). https://www.nashvillerosesociety.org/year-rose-care-spring/, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:NRS-S)",
+    "url": "https://www.nashvillerosesociety.org/year-rose-care-spring/",
+    "register_code": "TIMING-US:NRS-S",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-US-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-08",
+    "note": "Approved by a Founder in chat on 8 October 2026 (Pip's Answers, United States months), with no change. Published by KIT."
+  }
+}
