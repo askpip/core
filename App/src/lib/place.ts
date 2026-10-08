@@ -70,6 +70,16 @@ export const TOWNS: Town[] = [
   { code: 'NZ-WGN:Masterton', name: 'Masterton', region: 'NZ-WGN', latitude: -40.952, longitude: 175.658, km: 15, aliases: ['masterton'] },
   { code: 'AU-NSW:Sydney', name: 'Sydney', region: 'AU-NSW', latitude: -33.869, longitude: 151.209, km: 40, aliases: ['sydney'] },
   { code: 'AU-QLD:Brisbane', name: 'Brisbane', region: 'AU-QLD', latitude: -27.47, longitude: 153.026, km: 25, aliases: ['brisbane'] },
+  // United States: counties, cities and one metropolitan area that a source speaks of. Kansas City spans two states.
+  { code: 'US-TN:Nashville', name: 'Nashville', region: 'US-TN', latitude: 36.162, longitude: -86.781, km: 30, aliases: ['nashville'] },
+  { code: 'US-GA:Cobb County', name: 'Cobb County', region: 'US-GA', latitude: 33.941, longitude: -84.577, km: 18, aliases: ['cobb county'] },
+  { code: 'US-AZ:Pima County', name: 'Pima County', region: 'US-AZ', latitude: 32.222, longitude: -110.975, km: 45, aliases: ['pima county', 'tucson'] },
+  { code: 'US-CA:Marin County', name: 'Marin County', region: 'US-CA', latitude: 38.052, longitude: -122.719, km: 25, aliases: ['marin county', 'marin', 'san rafael'] },
+  { code: 'US-CA:Orange County', name: 'Orange County', region: 'US-CA', latitude: 33.703, longitude: -117.761, km: 30, aliases: ['orange county'] },
+  { code: 'US-CA:Contra Costa County', name: 'Contra Costa County', region: 'US-CA', latitude: 37.919, longitude: -121.951, km: 30, aliases: ['contra costa county', 'contra costa', 'walnut creek'] },
+  { code: 'US-TX:San Antonio', name: 'San Antonio', region: 'US-TX', latitude: 29.424, longitude: -98.494, km: 30, aliases: ['san antonio'] },
+  { code: 'US-KS:Kansas City', name: 'Kansas City', region: 'US-KS', latitude: 39.1, longitude: -94.579, km: 40, aliases: ['kansas city'] },
+  { code: 'US-MO:Kansas City', name: 'Kansas City', region: 'US-MO', latitude: 39.1, longitude: -94.579, km: 40, aliases: ['kansas city'] },
 ]
 
 const tidy = (s?: string) => (s ?? '').trim().toLowerCase().replace(/\./g, '').replace(/\s+/g, ' ')
@@ -139,7 +149,8 @@ function townFor(plant: Located, region: Region | undefined): Town | undefined {
   const city = tidy(plant.locationCity)
   return TOWNS.find((t) => {
     if (region && t.region !== region.code) return false
-    if (city && t.aliases.includes(city)) return true
+    // A US town name typed without a state is too often shared by several states to place the rose by name alone.
+    if (city && t.aliases.includes(city) && (region || !t.code.startsWith('US-'))) return true
     return (
       plant.latitude !== undefined &&
       plant.longitude !== undefined &&

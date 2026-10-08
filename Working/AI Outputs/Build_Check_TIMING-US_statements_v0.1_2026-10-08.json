@@ -1,0 +1,2399 @@
+{
+ "what": "Build Check Part 2 (wording check), statements version 0.1, 8 October 2026.",
+ "statements_checked": [
+  {
+   "ref": "PKR-CGD-000022 US item 1",
+   "question": "Which months do I prune my rose?",
+   "text": "In the United States, the main pruning is done between December and mid-April: as early as December in South Florida, and as late as mid-April in Colorado and in the mountains of South Carolina. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-15",
+    "AF-91",
+    "AF-100",
+    "AF-14",
+    "rule 3",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ],
+   "shown_to": "Gardeners in the United States only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 2",
+   "question": "Which months do I prune my rose?",
+   "text": "Look at the buds to judge when to prune: prune when they begin to swell.",
+   "trace": [
+    "AF-61"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ],
+   "shown_to": "Gardeners in the United States only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 3",
+   "question": "Which months do I prune my rose?",
+   "text": "Don't prune too early. Pruning before the last hard frost, or before forecast cold weather, can make the canes (stems) die back.",
+   "trace": [
+    "AF-62"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ],
+   "shown_to": "Gardeners in the United States only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 4",
+   "question": "Which months do I prune my rose?",
+   "text": "In Iowa, one extension service says early spring is the best time to prune, once any winter protection has been removed. It says to prune out the dead wood after the protection comes off, in late March to mid-April. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-10",
+    "AF-66",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IA"
+   ],
+   "shown_to": "Gardeners in Iowa only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 5",
+   "question": "Which months do I prune my rose?",
+   "text": "In Minnesota, do the main pruning in spring. One rose expert says to pull the winter mulch back first, and to prune once the new buds start to swell.",
+   "trace": [
+    "AF-67",
+    "AF-61"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US-MN"
+   ],
+   "shown_to": "Gardeners in Minnesota only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 6",
+   "question": "Which months do I prune my rose?",
+   "text": "In Wisconsin, one rose expert says to prune in spring: pull the winter mulch back first, and prune once the new buds start to swell.",
+   "trace": [
+    "AF-68",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-WI"
+   ],
+   "shown_to": "Gardeners in Wisconsin only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 7",
+   "question": "Which months do I prune my rose?",
+   "text": "In Illinois, most pruning is done in spring. One extension service says many rose growers wait until the forsythias start to bloom as the signal to begin.",
+   "trace": [
+    "AF-11",
+    "C-10",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IL"
+   ],
+   "shown_to": "Gardeners in Illinois only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 8",
+   "question": "Which months do I prune my rose?",
+   "text": "In Nashville, one rose society says to finish pruning by the end of March, or early in April at the latest. It says fall is not the time to prune, but that in December you can cut Hybrid Teas back to about three feet, so that the wind does not rock them. Months are only a guide.",
+   "trace": [
+    "AF-12",
+    "C-11",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TN:Nashville"
+   ],
+   "shown_to": "Gardeners in or near Nashville only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 9",
+   "question": "Which months do I prune my rose?",
+   "text": "In Nashville, one rose society says not to go by the old rule of pruning when the forsythia blooms, because newer kinds of forsythia may bloom too early.",
+   "trace": [
+    "AF-9",
+    "C-10",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TN:Nashville"
+   ],
+   "shown_to": "Gardeners in or near Nashville only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 10",
+   "question": "Which months do I prune my rose?",
+   "text": "In Georgia, one extension service says to prune Hybrid Teas, Floribundas and Grandifloras in late winter, before growth begins.",
+   "trace": [
+    "AF-80",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-GA"
+   ],
+   "shown_to": "Gardeners in Georgia only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 11",
+   "question": "Which months do I prune my rose?",
+   "text": "In Cobb County, one county extension guide says to prune roses that flower more than once a year from the last week of February until March 15. Months are only a guide.",
+   "trace": [
+    "AF-76",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-GA:Cobb County"
+   ],
+   "shown_to": "Gardeners in or near Cobb County only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 12",
+   "question": "Which months do I prune my rose?",
+   "text": "In South Carolina, one extension service says to do the main pruning in spring, just as the buds break dormancy: from mid to late February near the coast to mid-April in the mountains. Months are only a guide.",
+   "trace": [
+    "AF-14",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-SC"
+   ],
+   "shown_to": "Gardeners in South Carolina only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 13",
+   "question": "Which months do I prune my rose?",
+   "text": "In South Carolina, one extension service says to cut roses back by about a third of their height in late fall, so that winter winds don't break the canes (stems).",
+   "trace": [
+    "AF-14",
+    "C-11",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-SC"
+   ],
+   "shown_to": "Gardeners in South Carolina only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 14",
+   "question": "Which months do I prune my rose?",
+   "text": "In Arkansas, one extension service says most roses should be pruned in late February. Months are only a guide.",
+   "trace": [
+    "AF-96",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-AR"
+   ],
+   "shown_to": "Gardeners in Arkansas only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 15",
+   "question": "Which months do I prune my rose?",
+   "text": "In Florida, one extension service says to prune Hybrid Teas, Grandifloras and Floribundas in February or March in North and Central Florida, and in December in South Florida. Months are only a guide.",
+   "trace": [
+    "AF-91",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-FL"
+   ],
+   "shown_to": "Gardeners in Florida only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 16",
+   "question": "Which months do I prune my rose?",
+   "text": "In Colorado, one extension service says to cut tall roses back by a third of their height in November, to prevent winter damage; otherwise, mid-April is the best time to prune. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-100",
+    "C-11",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CO"
+   ],
+   "shown_to": "Gardeners in Colorado only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 17",
+   "question": "Which months do I prune my rose?",
+   "text": "Along Utah's Wasatch Front, one botanic garden says roses are usually pruned in March, after the buds have started to swell but before they fully leaf out. Months are only a guide.",
+   "trace": [
+    "AF-104",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-UT"
+   ],
+   "shown_to": "Gardeners in Utah only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 18",
+   "question": "Which months do I prune my rose?",
+   "text": "In Oregon's Willamette Valley, one extension service says to prune from mid-February to early March, when the weather lets the rose start growing. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-105",
+    "AF-62",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-OR"
+   ],
+   "shown_to": "Gardeners in Oregon only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 19",
+   "question": "Which months do I prune my rose?",
+   "text": "In Pima County, one extension service says to start pruning established roses in the middle of January. If you haven't pruned by February, it says to do it early in the month. Months are only a guide.",
+   "trace": [
+    "AF-13",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-AZ:Pima County"
+   ],
+   "shown_to": "Gardeners in or near Pima County only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 20",
+   "question": "Which months do I prune my rose?",
+   "text": "In Marin County, one rose society says to begin pruning towards the end of December, to prune in January, and to finish in February. Months are only a guide.",
+   "trace": [
+    "AF-82",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Marin County"
+   ],
+   "shown_to": "Gardeners in or near Marin County only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 21",
+   "question": "Which months do I prune my rose?",
+   "text": "In Orange County, California, one rose society says to prune in January, taking all the leaves off as you do, and that February is still not too late. Months are only a guide.",
+   "trace": [
+    "AF-84",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Orange County"
+   ],
+   "shown_to": "Gardeners in or near Orange County only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 22",
+   "question": "Which months do I prune my rose?",
+   "text": "In Contra Costa County, one extension source says the best time for the main hard pruning is January to February, after the last frost. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-88",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Contra Costa County"
+   ],
+   "shown_to": "Gardeners in or near Contra Costa County only"
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 23",
+   "question": "Which months do I prune my rose?",
+   "text": "In San Antonio, one extension source says roses are usually pruned twice a year, in October and again in mid-February, and that the late-winter pruning is the hardest. Months are only a guide.",
+   "trace": [
+    "AF-107",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TX:San Antonio"
+   ],
+   "shown_to": "Gardeners in or near San Antonio only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 1",
+   "question": "When do I start and stop feeding?",
+   "text": "Start feeding in spring, as new growth appears.",
+   "trace": [
+    "AF-20",
+    "C-4"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ],
+   "shown_to": "Gardeners in the United States only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 2",
+   "question": "When do I start and stop feeding?",
+   "text": "Give the last feed between July and November, depending on where you live, so that the rose can harden before winter: from July in Missouri and the Kansas City area to November in Nashville and Florida. Months are only a guide.",
+   "trace": [
+    "AF-25",
+    "C-2",
+    "rule 3",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ],
+   "shown_to": "Gardeners in the United States only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 3",
+   "question": "When do I start and stop feeding?",
+   "text": "In Iowa, one extension service says to feed in spring, just as the new growth begins to emerge. It says Hybrid Teas, Grandifloras and Floribundas also benefit from a feed while they are first in flower and another in mid to late July. Months are only a guide.",
+   "trace": [
+    "AF-63",
+    "C-7",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IA"
+   ],
+   "shown_to": "Gardeners in Iowa only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 4",
+   "question": "When do I start and stop feeding?",
+   "text": "In Minnesota, start feeding in early May. One rose expert says to wait until new growth is showing, in early to mid-May. One rose society says to feed again in June, July and August. Months are only a guide.",
+   "trace": [
+    "AF-16",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US-MN"
+   ],
+   "shown_to": "Gardeners in Minnesota only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 5",
+   "question": "When do I start and stop feeding?",
+   "text": "In Minnesota and Wisconsin, stop using fertiliser that contains nitrogen between late July and the end of August. In Minnesota, one rose society says to use none after August 15. Months are only a guide.",
+   "trace": [
+    "AF-21",
+    "C-1",
+    "rule 3",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US-MN",
+    "US-WI"
+   ],
+   "shown_to": "Gardeners in Minnesota or in Wisconsin only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 6",
+   "question": "When do I start and stop feeding?",
+   "text": "In Wisconsin, one rose expert says to begin feeding in early to mid-May, once new growth is showing. Months are only a guide.",
+   "trace": [
+    "AF-69",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-WI"
+   ],
+   "shown_to": "Gardeners in Wisconsin only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 7",
+   "question": "When do I start and stop feeding?",
+   "text": "In North and South Dakota, one rose society says to stop using nitrogen fertilisers after August. Months are only a guide.",
+   "trace": [
+    "AF-70",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-ND",
+    "US-SD"
+   ],
+   "shown_to": "Gardeners in North Dakota or in South Dakota only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 8",
+   "question": "When do I start and stop feeding?",
+   "text": "In Illinois, one extension service says not to feed after August 15. Months are only a guide.",
+   "trace": [
+    "AF-22",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IL"
+   ],
+   "shown_to": "Gardeners in Illinois only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 9",
+   "question": "When do I start and stop feeding?",
+   "text": "In Pennsylvania, one extension service says to feed once a month from April and to stop in August, so that there is less new growth that may not harden before winter. Months are only a guide.",
+   "trace": [
+    "AF-17",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-PA"
+   ],
+   "shown_to": "Gardeners in Pennsylvania only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 10",
+   "question": "When do I start and stop feeding?",
+   "text": "In Missouri, one extension service says to give the first feed in spring, once the danger of a severe freeze is past, and not to feed after July. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-97",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-MO"
+   ],
+   "shown_to": "Gardeners in Missouri only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 11",
+   "question": "When do I start and stop feeding?",
+   "text": "In the Kansas City area, one extension source says to feed four times a season: in mid-April, mid-May, mid-June and mid to late July. Months are only a guide.",
+   "trace": [
+    "AF-101",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-KS:Kansas City",
+    "US-MO:Kansas City"
+   ],
+   "shown_to": "Gardeners in or near Kansas City or in or near Kansas City only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 12",
+   "question": "When do I start and stop feeding?",
+   "text": "In Nashville, one rose society says to give an organic fertiliser in March and to feed established roses in April. It says that by September it is getting too late for granular fertilisers, though liquid feeds can go on for a while, and to stop all feeding in November. Months are only a guide.",
+   "trace": [
+    "AF-18",
+    "AF-23",
+    "C-2",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TN:Nashville"
+   ],
+   "shown_to": "Gardeners in or near Nashville only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 13",
+   "question": "When do I start and stop feeding?",
+   "text": "In Georgia, one extension service says to feed once a month from March through September. Months are only a guide.",
+   "trace": [
+    "AF-81",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-GA"
+   ],
+   "shown_to": "Gardeners in Georgia only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 14",
+   "question": "When do I start and stop feeding?",
+   "text": "In Cobb County, one county extension guide says to start feeding in March, and to keep feeding every other week through September. Months are only a guide.",
+   "trace": [
+    "AF-77",
+    "C-2",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-GA:Cobb County"
+   ],
+   "shown_to": "Gardeners in or near Cobb County only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 15",
+   "question": "When do I start and stop feeding?",
+   "text": "In South Carolina, one extension service says to feed when the rose first leafs out and again after each flush of flowers, and to stop six weeks before your expected first frost.",
+   "trace": [
+    "AF-26",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-SC"
+   ],
+   "shown_to": "Gardeners in South Carolina only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 16",
+   "question": "When do I start and stop feeding?",
+   "text": "In Florida, one extension service says to feed once a month from mid-February to mid-November; in South Florida, it says the monthly feeds can go on all year round. In Central Florida, it says to feed after pruning in February. Months are only a guide.",
+   "trace": [
+    "AF-92",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-FL"
+   ],
+   "shown_to": "Gardeners in Florida only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 17",
+   "question": "When do I start and stop feeding?",
+   "text": "In Marin County, one rose society says to begin feeding in April, after the first round of flowers, rather than when new growth appears. It says September is the last month for regular feeding, and to stop all feeding in November so that the rose can go dormant. Months are only a guide.",
+   "trace": [
+    "AF-19",
+    "AF-24",
+    "C-4",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Marin County"
+   ],
+   "shown_to": "Gardeners in or near Marin County only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 18",
+   "question": "When do I start and stop feeding?",
+   "text": "In Orange County, California, one rose society says to feed once there are 3 inches of new growth, and that October is the last month to feed. Months are only a guide.",
+   "trace": [
+    "AF-85",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Orange County"
+   ],
+   "shown_to": "Gardeners in or near Orange County only"
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 19",
+   "question": "When do I start and stop feeding?",
+   "text": "In Contra Costa County, one extension source says to feed in spring, once you see 2 to 3 inches of new growth.",
+   "trace": [
+    "AF-89",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Contra Costa County"
+   ],
+   "shown_to": "Gardeners in or near Contra Costa County only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 1",
+   "question": "When do I stop deadheading?",
+   "text": "In Iowa, one extension service says to deadhead (remove the faded flowers) during the summer, but to stop as fall approaches.",
+   "trace": [
+    "AF-64",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IA"
+   ],
+   "shown_to": "Gardeners in Iowa only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 2",
+   "question": "When do I stop deadheading?",
+   "text": "In Minnesota and Wisconsin, stop deadheading (removing the faded flowers) at the end of August or in September. Months are only a guide.",
+   "trace": [
+    "AF-27",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US-MN",
+    "US-WI"
+   ],
+   "shown_to": "Gardeners in Minnesota or in Wisconsin only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 3",
+   "question": "When do I stop deadheading?",
+   "text": "In North and South Dakota, one rose society says to stop deadheading (removing the faded flowers) after August, to help the canes (stems) harden before winter. Months are only a guide.",
+   "trace": [
+    "AF-70",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-ND",
+    "US-SD"
+   ],
+   "shown_to": "Gardeners in North Dakota or in South Dakota only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 4",
+   "question": "When do I stop deadheading?",
+   "text": "In Illinois, one extension service says to stop deadheading (removing the faded flowers) or cutting flowers after October 1, so that the rose can form hips (its fruit) and begin to harden for winter. Months are only a guide.",
+   "trace": [
+    "AF-28",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IL"
+   ],
+   "shown_to": "Gardeners in Illinois only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 5",
+   "question": "When do I stop deadheading?",
+   "text": "In Pennsylvania, one extension service says to stop cutting off the faded flowers in early fall, so that hips (the rose's fruit) can form.",
+   "trace": [
+    "AF-74",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-PA"
+   ],
+   "shown_to": "Gardeners in Pennsylvania only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 6",
+   "question": "When do I stop deadheading?",
+   "text": "In the Kansas City area, one extension source says to stop deadheading (removing the faded flowers) after mid-August, and only to pull off the spent petals after that. Months are only a guide.",
+   "trace": [
+    "AF-31",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-KS:Kansas City",
+    "US-MO:Kansas City"
+   ],
+   "shown_to": "Gardeners in or near Kansas City or in or near Kansas City only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 7",
+   "question": "When do I stop deadheading?",
+   "text": "In Nashville, one rose society says to keep cutting buds and blooms in November; sometimes there are flowers until Thanksgiving. Months are only a guide.",
+   "trace": [
+    "AF-75",
+    "C-2",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TN:Nashville"
+   ],
+   "shown_to": "Gardeners in or near Nashville only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 8",
+   "question": "When do I stop deadheading?",
+   "text": "In Cobb County, one county extension guide says to stop deadheading (removing the faded flowers) in October. Months are only a guide.",
+   "trace": [
+    "AF-29",
+    "C-2",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-GA:Cobb County"
+   ],
+   "shown_to": "Gardeners in or near Cobb County only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 9",
+   "question": "When do I stop deadheading?",
+   "text": "In Marin County, one rose society says to stop cutting off the faded flowers in November, so that hips (the rose's fruit) can form. Months are only a guide.",
+   "trace": [
+    "AF-30",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Marin County"
+   ],
+   "shown_to": "Gardeners in or near Marin County only"
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 10",
+   "question": "When do I stop deadheading?",
+   "text": "In Orange County, California, one rose society says to stop deadheading (removing the faded flowers) in November and December, and just to pull off the old petals. Months are only a guide.",
+   "trace": [
+    "AF-86",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Orange County"
+   ],
+   "shown_to": "Gardeners in or near Orange County only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 1",
+   "question": "Which months do I plant or move a rose?",
+   "text": "A rose in a pot can be planted at any time during the growing season.",
+   "trace": [
+    "AF-38"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ],
+   "shown_to": "Gardeners in the United States only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 2",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Iowa, one extension service says to plant a bare-root rose (one sold while dormant, not actively growing) in early spring, before growth begins, as soon as you get it: in late March or April. It says a rose in a pot can go in from April through midsummer. Months are only a guide.",
+   "trace": [
+    "AF-65",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IA"
+   ],
+   "shown_to": "Gardeners in Iowa only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 3",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Iowa, one extension service says to move an established rose in early spring, before it leafs out, usually late March to mid-April. Months are only a guide.",
+   "trace": [
+    "AF-65",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IA"
+   ],
+   "shown_to": "Gardeners in Iowa only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 4",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Minnesota, one rose society says to plant bare-root roses (sold while dormant, not actively growing) between April 10 and May 15, and roses in pots from May 15 on through the growing season. One rose expert says to plant a bare-root rose as soon as the soil can be worked. Months are only a guide.",
+   "trace": [
+    "AF-32",
+    "AF-36",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-MN"
+   ],
+   "shown_to": "Gardeners in Minnesota only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 5",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Wisconsin, one rose expert says to plant a bare-root rose (one sold while dormant, not actively growing) as soon as the soil can be worked and plants are available.",
+   "trace": [
+    "AF-71",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-WI"
+   ],
+   "shown_to": "Gardeners in Wisconsin only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 6",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Illinois, one extension service says fall is a good time to think about moving a rose.",
+   "trace": [
+    "AF-39",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IL"
+   ],
+   "shown_to": "Gardeners in Illinois only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 7",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Colorado, one extension service says to plant a bare-root rose (one sold while dormant, not actively growing) in spring rather than fall, and to finish by mid-April at the lower elevations of the state. Months are only a guide.",
+   "trace": [
+    "AF-35",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CO"
+   ],
+   "shown_to": "Gardeners in Colorado only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 8",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Colorado, one extension service says a rose in a pot can be planted during the growing season, any time after the last killing frost.",
+   "trace": [
+    "AF-35",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CO"
+   ],
+   "shown_to": "Gardeners in Colorado only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 9",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In the Kansas City area, one extension source says to plant roses grown in containers after May 1. Months are only a guide.",
+   "trace": [
+    "AF-102",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-KS:Kansas City",
+    "US-MO:Kansas City"
+   ],
+   "shown_to": "Gardeners in or near Kansas City or in or near Kansas City only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 10",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Nashville, one rose society says to plant a bare-root rose (one sold while dormant, not actively growing) in March. It says to move an established rose while it is dormant or going dormant, ideally from December to the first of February, though one of its pages says late winter to early spring. Months are only a guide.",
+   "trace": [
+    "AF-40",
+    "AF-33",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TN:Nashville"
+   ],
+   "shown_to": "Gardeners in or near Nashville only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 11",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Arkansas, one extension service says the dormant season, between November and February, is the best time to move a rose. Months are only a guide.",
+   "trace": [
+    "AF-42",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-AR"
+   ],
+   "shown_to": "Gardeners in Arkansas only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 12",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In South Carolina, one extension service says to plant bare-root roses in late fall, late winter or early spring, and roses grown in containers later in spring.",
+   "trace": [
+    "AF-95",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-SC"
+   ],
+   "shown_to": "Gardeners in South Carolina only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 13",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Florida, one extension service says bare-root roses are usually on sale from October to March, and that roses can be planted all year round, except in North Florida, where early spring is better. Months are only a guide.",
+   "trace": [
+    "AF-93",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-FL"
+   ],
+   "shown_to": "Gardeners in Florida only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 14",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Arizona's low desert, one extension service says the best time to plant a bare-root rose (one sold while dormant, not actively growing) is mid-December through February. It says a rose in a pot can be planted at any time of year, but spring or fall is best. Months are only a guide.",
+   "trace": [
+    "AF-34",
+    "AF-37",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-AZ"
+   ],
+   "shown_to": "Gardeners in Arizona only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 15",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Arizona's low desert, one extension service says the best time to move a rose is from December through March. Months are only a guide.",
+   "trace": [
+    "AF-41",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-AZ"
+   ],
+   "shown_to": "Gardeners in Arizona only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 16",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Marin County, one rose society says bare-root roses reach nurseries in December, and to plant them in January and finish in February. It says December, along with pruning, is also a good time to move a rose. Months are only a guide.",
+   "trace": [
+    "AF-83",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Marin County"
+   ],
+   "shown_to": "Gardeners in or near Marin County only"
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 17",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Orange County, California, one rose society says January is the season for bare-root roses. Months are only a guide.",
+   "trace": [
+    "AF-87",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Orange County"
+   ],
+   "shown_to": "Gardeners in or near Orange County only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 1",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Clear up fallen leaves and debris from around your roses, so that diseases don't overwinter there: in fall, before winter, or, where roses are pruned in winter, at pruning time.",
+   "trace": [
+    "AF-43"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US"
+   ],
+   "shown_to": "Gardeners in the United States only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 2",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Iowa, one extension service says to clear away fallen leaves and flower debris after the first killing frost, to help keep disease from coming back.",
+   "trace": [
+    "AF-66",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IA"
+   ],
+   "shown_to": "Gardeners in Iowa only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 3",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Iowa, one extension service says getting roses ready for winter starts in late fall, in mid-November. It says the winter protection comes off once the ground thaws and the harsh cold has passed, before the buds break. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-66",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IA"
+   ],
+   "shown_to": "Gardeners in Iowa only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 4",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Minnesota and Wisconsin, cover roses with leaves for winter once it turns cold: in early November as temperatures drop, or after the ground has frozen. One rose expert says you can start mounding soil around the base of the rose in mid to late September. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-52",
+    "C-3",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US-MN",
+    "US-WI"
+   ],
+   "shown_to": "Gardeners in Minnesota or in Wisconsin only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 5",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Minnesota and Wisconsin, take the winter cover off in spring, just after the ground thaws. One rose society says to remove the leaves early in April and the rest of the cover by mid-April. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-56",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "US-MN",
+    "US-WI"
+   ],
+   "shown_to": "Gardeners in Minnesota or in Wisconsin only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 6",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Minnesota, Wisconsin and the Dakotas, one rose society says to give roses a dormant spray (one put on while the rose is dormant, before new growth begins) in mid to late October, at the general fall clean-up. Months are only a guide. Follow the label on the spray.",
+   "trace": [
+    "AF-48",
+    "C-6",
+    "rule 4",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-MN",
+    "US-WI",
+    "US-ND",
+    "US-SD"
+   ],
+   "shown_to": "Gardeners in Minnesota or in Wisconsin or in North Dakota or in South Dakota only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 7",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Minnesota and Wisconsin, one rose expert says a dormant spray of lime sulphur with horticultural oil can be used if you want one. Follow the label on the spray.",
+   "trace": [
+    "AF-72",
+    "rule 4",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-MN",
+    "US-WI"
+   ],
+   "shown_to": "Gardeners in Minnesota or in Wisconsin only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 8",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In North and South Dakota, one rose society says to add a blanket of leaves 12 to 18 inches deep in early November, as temperatures drop. It says to take the leaves off early in April and the rest of the cover by mid-April. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-73",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-ND",
+    "US-SD"
+   ],
+   "shown_to": "Gardeners in North Dakota or in South Dakota only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 9",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Illinois, one extension service says to wait until a hard killing frost has made most of the leaves fall before you protect roses for winter, and perhaps until the temperature has dropped into the teens (°F) for several nights.",
+   "trace": [
+    "AF-53",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-IL"
+   ],
+   "shown_to": "Gardeners in Illinois only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 10",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Pennsylvania, one extension service says to clean up all fallen leaves and flowers before winter, and to put winter protection on only after several killing freezes, once the rose is dormant. It says to take it off in very early spring, once lows are no longer forecast to fall below 20°F.",
+   "trace": [
+    "AF-44",
+    "AF-57",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-PA"
+   ],
+   "shown_to": "Gardeners in Pennsylvania only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 11",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Missouri, one extension service says to take the winter covering off carefully in spring, once the danger of a severe freeze is over.",
+   "trace": [
+    "AF-98",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-MO"
+   ],
+   "shown_to": "Gardeners in Missouri only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 12",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Colorado, one extension service says to clear all leaves and debris from the ground around Thanksgiving. Once night temperatures have dropped to 20°F for several days, it says to mound soil over the base of the rose; in spring, take the mulch off gradually, once the danger of hard frost has passed.",
+   "trace": [
+    "AF-47",
+    "AF-55",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CO"
+   ],
+   "shown_to": "Gardeners in Colorado only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 13",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In the Kansas City area, one extension source says to wait for several hard freezes in fall, strip the leaves and clear the bed, and then cover grafted roses with 8 to 12 inches of soil, mulch or leaves. Take the cover off in mid-April. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-103",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-KS:Kansas City",
+    "US-MO:Kansas City"
+   ],
+   "shown_to": "Gardeners in or near Kansas City or in or near Kansas City only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 14",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Nashville, one rose society says to clean up the beds in November, and to clear all diseased leaves from the rose beds in December. It says to put winter protection on once there have been two freezes in a row below 28°F. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-45",
+    "AF-54",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TN:Nashville"
+   ],
+   "shown_to": "Gardeners in or near Nashville only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 15",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Nashville, one rose society says to uncover the roses carefully around the third week of March, depending on the weather, and to start pulling the mulch away from the base gradually after the last frost date, April 15 to 23. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-58",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TN:Nashville"
+   ],
+   "shown_to": "Gardeners in or near Nashville only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 16",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Nashville, one rose society says not to take the winter mulch off early in March, even in warm weather, because late freezes are usually more damaging than winter ones. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-9",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TN:Nashville"
+   ],
+   "shown_to": "Gardeners in or near Nashville only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 17",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Nashville, one rose society says to give a dormant oil spray (an oil spray put on while the rose is dormant) in February, once temperatures have been over 40°F for 24 hours. Months are only a guide. Follow the label on the spray.",
+   "trace": [
+    "AF-49",
+    "C-6",
+    "rule 4",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-TN:Nashville"
+   ],
+   "shown_to": "Gardeners in or near Nashville only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 18",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Cobb County, one county extension guide says to remove diseased leaves from the plants and beds in October and November. In December, after the second hard frost (28°F), it says to mound wood mulch 12 to 18 inches deep over the base of the rose. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-78",
+    "AF-79",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-GA:Cobb County"
+   ],
+   "shown_to": "Gardeners in or near Cobb County only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 19",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Cobb County, one county extension guide says to spray with neem oil every other week in November, and with a dormant oil (an oil spray put on while the rose is dormant) every other week in December. Months are only a guide. Follow the label on the spray.",
+   "trace": [
+    "AF-78",
+    "C-6",
+    "rule 4",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-GA:Cobb County"
+   ],
+   "shown_to": "Gardeners in or near Cobb County only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 20",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Florida, one extension service says to take all the leaves off the plants at winter pruning, and to rake up the dead and diseased leaves that have fallen beneath them during the year.",
+   "trace": [
+    "AF-94",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-FL"
+   ],
+   "shown_to": "Gardeners in Florida only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 21",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Pima County, one extension service says that after pruning in February, you should throw away all fallen leaves and cuttings that may be diseased, and not leave them under the plants or compost them. Months are only a guide.",
+   "trace": [
+    "AF-46",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-AZ:Pima County"
+   ],
+   "shown_to": "Gardeners in or near Pima County only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 22",
+   "question": "When do I clear up and spray in winter?",
+   "text": "I couldn't find advice written for Arizona's low desert or for Marin County on covering or mounding roses for winter. A local rose society is the place to ask.",
+   "trace": [
+    "AF-60",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "US-AZ",
+    "US-CA:Marin County"
+   ],
+   "shown_to": "Gardeners in Arizona or in or near Marin County only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 23",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Oregon's Willamette Valley, one extension service says that a dormant oil spray (an oil spray put on while the rose is dormant), given after pruning, needs to go on before the rose sends out new shoots. Follow the label on the spray.",
+   "trace": [
+    "AF-106",
+    "rule 4",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-OR"
+   ],
+   "shown_to": "Gardeners in Oregon only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 24",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Marin County, one rose society says to clear up all cuttings and fallen leaves and take them out of the garden in January, at pruning, and to put on a dormant spray (one put on while the rose is dormant, before new growth begins). Months are only a guide. Follow the label on the spray.",
+   "trace": [
+    "AF-50",
+    "rule 4",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Marin County"
+   ],
+   "shown_to": "Gardeners in or near Marin County only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 25",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Orange County, California, one rose society says to use a dormant spray (one put on while the rose is dormant, before new growth begins) in January, such as copper sulphate or a horticultural oil. Months are only a guide. Follow the label on the spray.",
+   "trace": [
+    "AF-51",
+    "C-6",
+    "rule 4",
+    "rule 6",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Orange County"
+   ],
+   "shown_to": "Gardeners in or near Orange County only"
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 26",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Contra Costa County, one extension source says you can, if you choose, put on a horticultural oil after the winter pruning, to smother insect eggs and scale insects that are overwintering on the rose. Follow the label on the spray.",
+   "trace": [
+    "AF-90",
+    "rule 4",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Contra Costa County"
+   ],
+   "shown_to": "Gardeners in or near Contra Costa County only"
+  },
+  {
+   "ref": "PKR-CGD-000027 US item 1",
+   "question": "How do I allow for frost and my own garden?",
+   "text": "In Orange County, California, one rose society says there are two climates to work around: near the coast and inland.",
+   "trace": [
+    "AF-108",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "US-CA:Orange County"
+   ],
+   "shown_to": "Gardeners in or near Orange County only"
+  }
+ ],
+ "results": [
+  {
+   "ref": "PKR-CGD-000022 US item 1",
+   "result": "Pass with a note",
+   "points_failed": [
+    10
+   ],
+   "note": "Supported: UF-SFYL 'December in South Florida', CSU-W 'Otherwise, mid-April pruning is best', CLE-P 'mid-April in the mountains'; label Moderate matches AF-15. But the range is the span of the places checked, not a national limit: no month was found for the coldest states (Minnesota and Wisconsin give only 'in spring' and bud swell, ZLESAK, MRS-MN), so 'as late as mid-April' could lead a gardener there to prune before the buds are ready. 'Depending on where you live' makes it plainer that this is not one window for every garden.",
+   "suggested_wording": "In the United States, the main pruning is done between December and mid-April, depending on where you live: as early as December in South Florida, and as late as mid-April in Colorado and in the mountains of South Carolina. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "CLE-P 'look at the buds; when they begin to swell, go ahead and prune', ZLESAK 'prune after new buds start to swell', RBG 'after buds have started to swell'. Three independent voices (South Carolina, the northern Midwest, Utah); Moderate is right. None of the three is from a mild-winter area (see package).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "PSU 'Don't prune roses too early, as late winter dieback can occur'; OSU-P 'Earlier pruning (before the last hard frost or forecasted cold weather) may cause die-back'; UC-CC 'after the last frost'. The 'forecast cold weather' condition is OSU-P alone, but the core (too early causes die-back) has two voices and the statement only asks for more care, so it stands.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ISU-RC 'Early spring (after removing overwinter materials, if applicable) is the best time to prune roses'; ISU-HT 'prune out the dead wood after the winter protection is removed from modern roses in late March to mid-April'. One institution, said as one; label Low matches AF-10.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 5",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Supported: MRS-MN 'Spring is the time for major pruning, while plants are semi-dormant' and ZLESAK 'pull the mulch back and prune after new buds start to swell'; two voices on spring, so Moderate is right. The bud-swell half repeats US item 2, which the same gardener sees just above. It could be cut, leaving the new point (pull the mulch back first).",
+   "suggested_wording": "In Minnesota, do the main pruning in spring, while the rose is still partly dormant. One rose expert says to pull the winter mulch back first."
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 6",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "ZLESAK only, placed in Wisconsin because the guide names Minnesota and Wisconsin (us_notes 'Unsure'); acceptable. The bud-swell half repeats US item 2, seen by the same gardener.",
+   "suggested_wording": "In Wisconsin, one rose expert says to prune in spring, after pulling the winter mulch back."
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 7",
+   "result": "Fail",
+   "points_failed": [
+    7,
+    8
+   ],
+   "note": "AF-11 rests on one institution (ILL-CARE and ILL-PR, University of Illinois Extension) and is Low, yet the first sentence, 'In Illinois, most pruning is done in spring', is stated as plain fact with no 'one source says' (rule 1, rule 4, standing decision 'Sources under the answer'). Read on its own it presents one source as settled. ILL-PR also says growers 'suggest waiting' until forsythias bloom, not that they wait. A beginner may not know what forsythia is (see package).",
+   "suggested_wording": "In Illinois, one extension service says most pruning is done in spring, and that many rose growers suggest waiting until the forsythias start to bloom as the signal to begin."
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 8",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "NRS-S March 'Prune roses by the end of month', April 'Complete pruning early in the month'; NRS-F 'Fall is not the time to prune!'; NRS-W December 'Cut hybrid teas back to about three feet to keep the wind from rocking the rose'. 'At the latest' adds a firmness the calendar does not give; it only says to complete pruning early in April.",
+   "suggested_wording": "In Nashville, one rose society says to prune by the end of March and to finish early in April. It says fall is not the time to prune, but that in December you can cut Hybrid Teas back to about three feet, so that the wind does not rock them. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 9",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "NRS-MAR: 'We used to say prune when the forsythia blooms, but there are newer varieties of forsythia which bloom perhaps too early.' The page does not tell gardeners 'not to go by' the rule; it says the rule may mislead. Slightly firmer than the page.",
+   "suggested_wording": "In Nashville, one rose society says the old rule of pruning when the forsythia blooms may no longer work, because newer kinds of forsythia may bloom too early."
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 10",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UGA-C1001 'Prune Hybrid Teas, Floribundas and Grandifloras in late winter before growth begins.' Exact; no month, so no guide sentence needed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 11",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UGA-COBB 'Prune roses that repeat bloom (remontant) during last week in February' and '...until March 15th.' Exact; 'flower more than once a year' is a fair plain-word rendering of repeat-blooming.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 12",
+   "result": "Pass with a note",
+   "points_failed": [
+    11
+   ],
+   "note": "CLE-P confirmed ('done in the spring, just as the buds break dormancy'; 'mid-to late February near the coast to mid-April in the mountains'). 'Break dormancy' is research wording a beginner may not follow; CLE-P itself gives the plain signal ('when they begin to swell'). The factsheet dates from 1999.",
+   "suggested_wording": "In South Carolina, one extension service says to do the main pruning in spring, just as the buds start to swell: from mid to late February near the coast to mid-April in the mountains. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 13",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "CLE-P: 'In the late fall, prune roses back by about one-third of their height. This helps prevent breaking of canes in winter winds.' 'So that winter winds don't break the canes' is firmer than 'helps prevent'.",
+   "suggested_wording": "In South Carolina, one extension service says to cut roses back by about a third of their height in late fall, to help stop winter winds breaking the canes (stems)."
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 14",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UAEX-P 'In general, most rose bushes should be pruned in late February.' Exact.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 15",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UF-SFYL exact; UF-CAL February for Central Florida agrees (same institution, said as one). The December point repeats US item 1 for South Florida, which is acceptable because this statement gives the whole state.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 16",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "CSU-W 'prune all tall plants by one-third of their height in November' and 'Otherwise, mid-April pruning is best.' 'Otherwise' keeps the page's own ambiguity, which is acceptable; C-11 is local to Colorado.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 17",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "RBG 'Along the Wasatch Front, this means rose pruning typically takes place in March after buds have started to swell but before they fully leaf out.' The area is said in words, so a gardener elsewhere in Utah can tell it is not for them (see package).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 18",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "OSU-P 'In the Willamette Valley, prune from mid-February to early March, when the weather is conducive for the plants to start growing.' Exact; the valley is said in words.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 19",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "PIMA-J 'Prune established roses beginning in the middle of the month' (January); PIMA-F 'If you did not prune established roses earlier, do so early in the month' (February). One guide series, said as one.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 20",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "MARIN: December 'Begin pruning toward the end of the month', January 'Prune established roses', February 'Finish pruning' (January and February as the checker read them, recorded in the MARIN note).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 21",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "OCRS January 'Pruning each bush back and removing all foliage...'; February 'It still is not too late to prune.' Exact.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 22",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UC-CC 'In Contra Costa County, the best time to hard prune roses is January to February, after the last frost.' 'Main' is a fair gloss of hard pruning in this record.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 US item 23",
+   "result": "Pass with a note",
+   "points_failed": [
+    11
+   ],
+   "note": "BEXAR (2003 column): 'pruned twice a year-in October and again in mid-February'; 'The late winter pruning is the most severe'. 'Hardest' can be read as 'most difficult'; 'heaviest' says what the page means. The page does not say what the October pruning is, so a gardener learns only that there is one.",
+   "suggested_wording": "In San Antonio, one extension source says roses are usually pruned twice a year, in October and again in mid-February, and that the late-winter pruning is the heaviest. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 1",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "The signal is well supported: ISU-RC 'just as the new growth begins to emerge', ZLESAK 'after new growth is evident', CLE-GR 'when the plant first leafs out', OCRS '3 inches of new growth', UC-CC '2-3 inches of new growth'; Moderate is right. 'In spring' is not on every page: OCRS puts its first feed under January, UF-SFYL starts in mid-February, and in South Florida feeding goes on all year (item 16). Dropping 'in spring' says less and stays true everywhere. Marin's dissent (C-4) is shown in Marin (item 17), which is right.",
+   "suggested_wording": "Give the first feed of the year as new growth appears."
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 2",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    7
+   ],
+   "note": "A gardener in South Florida sees this ('to November in ... Florida', 'so that the rose can harden before winter') and then item 16 ('in South Florida ... the monthly feeds can go on all year round', UF-SFYL), which contradicts it. UF-SFYL's mid-November end is for Florida outside the south only. Nashville's November is 'Stop all feeding' (NRS-F), the month feeding stops, not a month for the last feed. Missouri's 'Don't fertilize after July' (MO-G6601) and Kansas City's last feed 'mid- to late July' (KSU-JO) are confirmed. The reason is given by MO-G6601, PSU and ARS-NCD. 'Harden' is unexplained for a beginner; ARS-NCD's own words ('hardening off, or maturing, of the canes') give the plain sense.",
+   "suggested_wording": "Stop feeding between July and November, depending on where you live, so that the stems can mature before winter: after July in Missouri and the Kansas City area, and by November in Nashville and in Florida outside South Florida. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ISU-RC 'in the spring, just as the new growth begins to emerge'; 'Modern roses, such as hybrid teas, grandifloras, and floribundas, benefit from additional fertilizer applications during the first bloom period and in mid to late July.' The page gives no date to stop (C-7); US item 2 covers that for an Iowa gardener.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 4",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "MRS-MN 'Add of a handful of complete fertilizer in early May, June, July and August'; ZLESAK 'Begin fertilizing in early to mid-May after new growth is evident.' Two voices agree on May; Moderate is right. 'In June, July and August' drops the society's 'early'. That matters in August, because the same society says no nitrogen after August 15 (item 5). The first sentence could say May rather than pick 'early May' where ZLESAK gives early to mid-May (rule 3).",
+   "suggested_wording": "In Minnesota, start feeding in May. One rose expert says to wait until new growth is showing, in early to mid-May. One rose society says to feed again in early June, early July and early August. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ZLESAK 'Ending especially nitrogen fertilization in late-July'; ARS-NCD 'Stopping nitrogen fertilizers ... after August'; MRS-MN 'Do not apply any nitrogen containing fertilizers after August 15th.' The range is shown (rule 3, C-1) and the August 15 date is one source, as said.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ZLESAK 'Begin fertilizing in early to mid-May after new growth is evident.' One source, as said.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ARS-NCD (North Central District: MN, WI, ND, SD) 'Stopping nitrogen fertilizers ... after August'. One source for the Dakotas, as said.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ILL-CARE 'No fertilizer should be applied after August 15.' Exact.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 9",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "PSU 'Start monthly fertilization in April and stop in August to reduce new growth that may not harden off before winter.' Exact in substance.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 10",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "MO-G6601 'Make the first fertilizer application in spring after danger of severe freeze is past'; 'Don't fertilize after July'. Agrees with item 11 for Kansas City, Missouri.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 11",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "KSU-JO '4 times a season, i.e., mid-April, mid-May, mid-June, and mid- to late July.' Exact. (The shown_to text repeats 'in or near Kansas City' twice; see package.)",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 12",
+   "result": "Pass with a note",
+   "points_failed": [
+    11
+   ],
+   "note": "NRS-S March 'Apply organic fertilizer', April 'Apply fertilizer on established bushes'; NRS-F September 'getting too late to feed granular fertilizers, but you may certainly feed liquids ... for a while yet', November 'Stop all feeding.' Supported. 'Granular' may not be clear to a beginner; 'dry (granular)' would help.",
+   "suggested_wording": "In Nashville, one rose society says to give an organic fertiliser in March and to feed established roses in April. It says that by September it is getting too late for dry (granular) fertilisers, though liquid feeds can go on for a while, and to stop all feeding in November. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 13",
+   "result": "Pass with a note",
+   "points_failed": [
+    10
+   ],
+   "note": "UGA-C1001: the March through September monthly feed is given for a garden 'without a soil test' ('it is generally recommended ... each month from March through September'). Leaving the condition out could matter to a gardener who has a soil test result.",
+   "suggested_wording": "In Georgia, one extension service says that, without a soil test, roses are usually fed once a month from March through September. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 14",
+   "result": "Fail",
+   "points_failed": [
+    5
+   ],
+   "note": "UGA-COBB lists 'Fertilize' under March and 'Fertilize ... for Roses every other week' under September only (the checker notes April feeding too). 'Keep feeding every other week through September' reads as every other week from March to September, which the confirmed page does not say.",
+   "suggested_wording": "In Cobb County, one county extension guide says to start feeding in March, and in September to feed every other week. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 15",
+   "result": "Pass with a note",
+   "points_failed": [
+    11
+   ],
+   "note": "CLE-GR 'fertilize when the plant first leafs out and repeat after each flush of bloom until six weeks before the earliest frost date for your area'; 'Stop fertilizing your roses six weeks before your expected first frost date.' Supported (1999 factsheet). 'Flush of flowers' is research wording; 'round of flowers' is plainer and matches the Marin statement.",
+   "suggested_wording": "In South Carolina, one extension service says to feed when the rose first leafs out and again after each round of flowers, and to stop six weeks before your expected first frost."
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 16",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UF-SFYL 'Fertilize once a month from mid-February to mid-November (in South Florida these monthly applications can be made year-round)'; UF-CAL February 'After pruning, fertilize and apply a fresh layer of mulch.' One institution, said as one.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 17",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "MARIN April 'Begin fertilizing with a complete fertilizer after the first round of blooms'; September 'This is the last month for regular rose fertilizer'; November 'Stop all fertilizing; let plants go dormant'. 'Rather than when new growth appears' is Pip's contrast with US item 1 (C-4), put in the society's mouth. The page draws no such contrast. Rule 2 wants the difference said; say it as Pip's, not as the society's.",
+   "suggested_wording": "In Marin County, one rose society differs: it says to begin feeding in April, after the first round of flowers. It says September is the last month for regular feeding, and to stop all feeding in November so that the rose can go dormant. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 18",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "OCRS 'When there is 3 inches of new growth, then you should fertilize'; 'October is the last month to feed your roses.' Exact.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 US item 19",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UC-CC 'in the spring once you see 2-3 inches of new growth.' Exact; no month, so no guide sentence needed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ISU-RC confirmed: 'Deadheading is desirable during the summer to promote more blooms, but as fall approaches, it's best to stop.' No month, so no months line is needed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Two independent voices for Minnesota and Wisconsin: ZLESAK 'Discontinuing to deadhead spent blooms in September' and ARS-NCD 'discontinuing deadheading after August'. The range is given (rule 3), Moderate matches AF-27, and the months line is there.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 3",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "ARS-NCD confirmed: stopping deadheading after August 'will encourage the hardening off, or maturing, of the canes'. 'Before winter' is not in that sentence. Hardening off does mean getting ready for winter, so this is small, but the page's own words are enough.",
+   "suggested_wording": "In North and South Dakota, one rose society says to stop deadheading (removing the faded flowers) after August, to help the canes (stems) harden off and mature. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ILL-CARE: 'stop dead-heading or cutting flowers after October 1 and allow the plant to form hips'. ILL-PR: not cut after October 1 'to allow the plant to begin hardening off for the winter'. One institution, so 'one extension service' is right.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "PSU confirmed: 'Stop trimming off rose flowers in early fall to allow the hips (seedpods) to develop.' It names a season, not a month.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "KSU-JO confirmed: 'After mid-August in our area, deadheading should be discontinued and only the spent petals removed.' This mid-August stop comes before the 'early-to-mid autumn' in Pip's general answer, which the same gardener also sees (see package). The shown_to text repeats 'Kansas City' twice (see package).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "NRS-F under November: 'Continue to cut buds and blooms (sometimes we have them until Thanksgiving!)'. Accurate. C-2 sets this against Cobb County, which no Nashville gardener sees. This is later than the general answer's 'early-to-mid autumn' (see package).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UGA-COBB under October: 'Stop deadheading.'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 9",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "MARIN under November: 'Do not trim off spent blooms; let hips develop'.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 US item 10",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "OCRS under November and December: 'Stop deadheading and pull off old petals.' 'Just' is implied by the page.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 1",
+   "result": "Pass with a note",
+   "points_failed": [
+    5,
+    7
+   ],
+   "note": "AF-38 rests on MO-G6600 'at almost any time during the growing season', CSU-PL 'during the growing season, any time after the last killing frost' and MRS-MN 'from May 15 throughout the growing season': three organisations, all in the Midwest or Mountain West. Missouri says 'almost', and an Iowa gardener sees this next to ISU-RC's narrower 'from April through midsummer' (item 2). Saying 'almost' matches the pages and softens that clash. Nothing for the South or West contradicts it (Arizona and Florida say any time of year).",
+   "suggested_wording": "A rose in a pot can be planted at almost any time during the growing season."
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ISU-RC confirmed: bare-root roses 'planted in early spring before spring growth begins, as soon as they are received or purchased from the nursery (late March or April)'; container-grown 'from April through midsummer'.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ISU-RC, confirmed twice: 'Early spring (before the plant begins to leaf out) is the best time to transplant a rose. This is typically late March to mid-April in Iowa.'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "MRS-MN: 'Dormant roses may be planted between April 10 and May 15' (the checker reads 'dormant' as bare-root) and 'Potted roses ... may be planted from May 15 throughout the growing season'. ZLESAK: 'Plant as soon as soil is workable and plants are available.' Each part is one source and is attributed that way. The level is Low, which matches AF-32. 'As soon as the soil can be worked' may need explaining to a beginner (see package).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ZLESAK confirmed: 'Plant as soon as soil is workable and plants are available.' It gives a soil condition and no month.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ILL-CARE: 'fall is a good time to consider transplanting'. 'Think about' follows the page; it gives no month.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "CSU-PL: 'For bare-root roses, spring planting is preferred over fall' and 'best to finish planting bare-root roses by mid-April in lower elevation portions of the state'. The lower-elevation limit is said. This agrees with PKR-CGD-000016.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "CSU-PL: 'Potted roses can be planted during the growing season, any time after the last killing frost.' It adds the frost condition to the national item 1.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 9",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "KSU-JO: 'Container grown plants should be planted after May 1.'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 10",
+   "result": "Pass with a note",
+   "points_failed": [
+    5,
+    12
+   ],
+   "note": "NRS-T gives both times on the same transplanting page ('December through the first of February is the ideal time' and 'Late winter to early spring is the best time'), and NRS-W adds 'between now and the first of February'. 'One of its pages says' is research wording and suggests a different page. Plainer: say the society gives both times.",
+   "suggested_wording": "In Nashville, one rose society says to plant a bare-root rose (one sold while dormant, not actively growing) in March. It says to move an established rose while it is dormant or going dormant, ideally from December to the first of February, though it also says late winter to early spring is best. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 11",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UAEX-T (the roses reference desk): 'The dormant season is the best time to move plants—between November and February.' 'Preferably February' was correctly left out, because it was read only once.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 12",
+   "result": "Pass with a note",
+   "points_failed": [
+    9,
+    11
+   ],
+   "note": "CLE-GR confirmed: 'You can plant bare root roses in late fall, late winter or early spring in South Carolina' and 'Container-grown plants can be planted later in the spring.' The statement is supported, but 'bare-root' is not explained here, though it is in the other states' statements. The statement must stand alone for a beginner.",
+   "suggested_wording": "In South Carolina, one extension service says to plant bare-root roses (sold while dormant, not actively growing) in late fall, late winter or early spring, and roses grown in containers later in spring."
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 13",
+   "result": "Pass with a note",
+   "points_failed": [
+    9,
+    11
+   ],
+   "note": "UF-SFYL confirmed: 'bare-root plants are usually available from October to March' and 'Roses can be planted year-round except in north Florida, where planting is better in early spring.' The statement is supported, but 'bare-root' is not explained.",
+   "suggested_wording": "In Florida, one extension service says bare-root roses (sold while dormant, not actively growing) are usually on sale from October to March, and that roses can be planted all year round, except in North Florida, where early spring is better. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 14",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AZ-LD: 'The best time to plant bare-root roses in the low desert is mid-December through February' and 'Container-grown roses can be planted any time of the year, but spring or fall is best.' The low desert is said in words for Arizona, as the Places decision requires. The source dates from 2002.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 15",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AZ-LD: 'The best time for transplanting is December through March.'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 16",
+   "result": "Pass with a note",
+   "points_failed": [
+    9,
+    11
+   ],
+   "note": "MARIN under December: 'bare root plants should be available at nurseries for planting. It is also a good time (along with pruning) to do any relocation of plants'; under January: 'Plant new roses (bare root season)'; under February: finish planting. The statement is supported, but 'bare-root' is not explained.",
+   "suggested_wording": "In Marin County, one rose society says bare-root roses (sold while dormant, not actively growing) reach nurseries in December, and to plant them in January and finish in February. It says December, along with pruning, is also a good time to move a rose. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 US item 17",
+   "result": "Pass with a note",
+   "points_failed": [
+    9,
+    11
+   ],
+   "note": "OCRS under January: 'Need a new rose? It's bare root rose season!' The statement is supported, but 'bare-root' is not explained, and the statement is the only one Orange County gardeners see on planting.",
+   "suggested_wording": "In Orange County, California, one rose society says January is the season for bare-root roses (sold while dormant, not actively growing). Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 1",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "About nine independent organisations, from Iowa, Pennsylvania and Colorado to Florida, Pima and Marin, agree on clearing up, so a national statement is well founded. But the reason is worded more firmly than the pages: only PSU says spores 'do not overwinter underneath the plant'. ISU-RC says 'help reduce disease recurrence', CSU-W says 'help prevent the spread of some diseases', and the rest give no reason or speak of diseased leaves. 'So that diseases don't overwinter there' adds certainty.",
+   "suggested_wording": "Clear up fallen leaves and debris from around your roses, to help keep diseases from coming back: in fall, before winter, or, where roses are pruned in winter, at pruning time."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ISU-RC: 'After the first killing frost, removal of fallen leaves and flower debris is beneficial to help reduce disease recurrence.'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ISU-RC: 'The process for preparing roses for winter starts in late fall (mid-November)' and protection comes off 'once the ground thaws and harsh cold temperatures of winter have passed, but before the plants break bud.' 'Before the buds break' could be plainer for a beginner ('before the buds begin to open').",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 4",
+   "result": "Fail",
+   "points_failed": [
+    7,
+    10
+   ],
+   "note": "The leaf cover is supported by two voices (ARS-NCD 'As the temperatures drop in early November, a blanket of leaves 12″ – 18″ deep is added'; ZLESAK 'After the ground has frozen cover with additional leaves'). But the September sentence is ZLESAK alone, and it is the genuine conflict C-3: it is earlier than the hard or killing frosts that other pages wait for (ILL-CARE, PSU, KSU-JO, CSU-W, NRS-W, UGA-COBB). It also clashes with Pip's general winter answer, which the same gardener sees: 'Once the rose has had several hard frosts and gone dormant, mound soil...'. The statement gives the September date as a plain option under a Moderate label and does not say that it differs (rule 2). A gardener could mound a still-growing rose in September.",
+   "suggested_wording": "In Minnesota and Wisconsin, cover roses with leaves for winter once it turns cold: in early November as temperatures drop, or after the ground has frozen. One rose expert says you can start mounding soil around the base of the rose as early as mid to late September, but most advice waits until there have been hard frosts. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 5",
+   "result": "Pass with a note",
+   "points_failed": [
+    5,
+    8
+   ],
+   "note": "ZLESAK: 'reverse the process just after the ground has thawed'; ARS-NCD: 'Early in April the leaves are removed. By the middle of April, the rest of the process is reversed.' Both agree that the cover comes off in spring (Moderate). But 'just after the ground thaws' is ZLESAK alone and is given unattributed, while the April months, also from one source, are attributed. Treat both the same way.",
+   "suggested_wording": "In Minnesota and Wisconsin, take the winter cover off in spring. One rose expert says to do it just after the ground thaws; one rose society says to remove the leaves early in April and the rest of the cover by mid-April. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 6",
+   "result": "Pass with a note",
+   "points_failed": [
+    5,
+    11
+   ],
+   "note": "ARS-NCD confirmed: 'Roses are dormant sprayed in mid to late October at the time when you are doing general fall cleanup'. It names no type. The explanation 'before new growth begins' comes from MARIN and OSU-P, whose sprays are in late winter. Attached to an October spray, it reads oddly and could make a gardener think the spray should wait for spring. A shorter explanation fits both seasons.",
+   "suggested_wording": "In Minnesota, Wisconsin and the Dakotas, one rose society says to give roses a dormant spray (a spray put on while the rose is dormant) in mid to late October, at the general fall clean-up. Months are only a guide. Follow the label on the spray."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 7",
+   "result": "Pass with a note",
+   "points_failed": [
+    9
+   ],
+   "note": "ZLESAK: 'Apply a mixed lime-sulfur and horticultural oil dormant spray if desired.' The statement is supported, with a type named, no brand and no amount. But 'dormant spray' is not explained here, and the statement must stand alone.",
+   "suggested_wording": "In Minnesota and Wisconsin, one rose expert says a dormant spray (one put on while the rose is dormant) of lime sulfur with horticultural oil can be used if you want one. Follow the label on the spray."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ARS-NCD: early November 'a blanket of leaves 12″ – 18″ deep is added'; 'Early in April the leaves are removed. By the middle of April, the rest of the process is reversed.'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 9",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "ILL-CARE: 'Wait until a hard killing frost has caused most of the leaves to fall' and 'You may also want to wait until the temperature has dropped into the teens for several nights.' 'Perhaps' fairly renders 'may also want to'.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 10",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "PSU: 'clean up all debris (leaves, fallen flowers, etc.) before winter' and 'proceed with winter insulation only after several killing freezes to ensure that winter dormancy has been reached'. Also: 'very early spring and winter lows are not forecasted to dip below 20°F, remove whatever structure you have created.'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 11",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "MO-G6601: 'Carefully remove the covering in spring after danger of severe freeze is over.' Supported. It nearly repeats Pip's general winter answer, which is why AF-59 is on record only; only 'carefully' is new (see package).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 12",
+   "result": "Pass with a note",
+   "points_failed": [
+    7,
+    9
+   ],
+   "note": "CSU-W confirmed: Thanksgiving clear-up; 'When the night temperatures drop to 20 degrees Fahrenheit for several days, mound soil over the rose crown'; 'Mulch should be removed gradually in the spring after the danger of hard frost has passed.' Two problems. First, Thanksgiving is a calendar date, but the 'months are only a guide' line is missing (rule 6). Second, the statement says to mound 'soil' and then to take 'the mulch' off, which confuses a beginner; the page lists mulch materials too.",
+   "suggested_wording": "In Colorado, one extension service says to clear all leaves and debris from the ground around Thanksgiving. Once night temperatures have dropped to 20°F for several days, it says to mound soil over the base of the rose, and in spring to take the cover off gradually, once the danger of hard frost has passed. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 13",
+   "result": "Pass with a note",
+   "points_failed": [
+    8,
+    11
+   ],
+   "note": "KSU-JO confirmed: after several hard freezes, after leaves are stripped and debris removed, 'grafted rose bushes need to be covered with 8 to 12 inches of soil, mulch, or leaves'; 'Remove winter protection in mid-April.' The second sentence is an unattributed instruction from a single source, so it reads as Pip's own; the other statements use 'It says'. 'Grafted' is not explained for a beginner.",
+   "suggested_wording": "In the Kansas City area, one extension source says to wait for several hard freezes in fall, strip the leaves from the bushes and clear the bed, and then cover grafted roses with 8 to 12 inches of soil, mulch or leaves. It says to take the cover off in mid-April. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 14",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "NRS-F, November: 'Clean up beds.' NRS-W, December: 'Clean up all diseased leaves from the rose beds' (the unnamed spray is rightly left out) and 'Once we have two consecutive freezes below 28 degrees apply winter protection'. Reading the figure as °F is safe for a Tennessee calendar.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 15",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "NRS-SP: 'On or about the third week of March (depending on the weather), uncover the roses very carefully' and 'After the last frost date (April 15-23), you can begin to gradually pull the mulch away from the crown.' This fits item 16.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 16",
+   "result": "Fail",
+   "points_failed": [
+    3,
+    5
+   ],
+   "note": "The only check of this sentence is NRS-MAR's further sentence: 'Do not ... take the mulch off. We could still have bad weather for several weeks and the late freezes are usually more damaging than the real winter ones.' 'Even in warm weather' comes from the dossier as first submitted ('Even if the weather is warm right now...') and was not confirmed at the check, so the statement says more than the confirmed page. The page's own reason, that bad weather can go on for several weeks, is confirmed and is more useful. 'Early in March' rests on the notes being dated 7 March, which is fair.",
+   "suggested_wording": "In Nashville, one rose society says not to take the winter mulch off in early March, because bad weather can go on for several weeks and late freezes are usually more damaging than winter ones. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 17",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "NRS-W, under February: 'Spray with a dormant oil spray when temps are over 40 degrees for 24 hours'. Reading the figure as °F is safe.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 18",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UGA-COBB: 'Remove diseased leaves from plants and beds' under October and November; under December, 'Mound wood mulch over crowns (12-18 inches) after second hard frost (28 degrees).'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 19",
+   "result": "Pass with a note",
+   "points_failed": [
+    3
+   ],
+   "note": "'Spray dormant oil every other week' under December is a confirmed quotation. The November neem oil spray appears only in the checker's note under AF-49 ('The page also lists Neem oil spray every other week in November'). It was not checked as a quotation, and AF-78's limitation says so. A once-read sentence like this should be confirmed word for word, or the neem oil should be left out, as was done for UAEX-T 'February' and the ILL-CARE depths.",
+   "suggested_wording": "In Cobb County, one county extension guide says to spray with a dormant oil (an oil spray put on while the rose is dormant) every other week in December. Months are only a guide. Follow the label on the spray."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 20",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UF-SFYL: 'During winter pruning, remove all leaves from the plants, and rake the area beneath the bush to remove dead and diseased leaves that have fallen during the year.'",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 21",
+   "result": "Pass with a note",
+   "points_failed": [
+    5,
+    9
+   ],
+   "note": "PIMA-F: 'Discard all potentially diseased, dropped leaves and cuttings—do not leave them under plants or compost them.' It follows 'If you did not prune established roses earlier, do so early in the month.' 'After pruning in February' implies pruning is done in February, but the Pima pruning statement (PKR-CGD-000022) starts it in mid-January. The point is to clear up after pruning, whenever that is.",
+   "suggested_wording": "In Pima County, one extension service says that after pruning you should throw away all fallen leaves and cuttings that may be diseased, and not leave them under the plants or compost them."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 22",
+   "result": "Pass with a note",
+   "points_failed": [
+    2,
+    9
+   ],
+   "note": "This is a gap correctly marked 'No source found', with local help pointed to (rule 5). AF-60 also covers Pima County (PIMA-F speaks only of plants in general), but the wording names only the low desert and Marin. A Tucson gardener may not count Tucson as low desert, so naming the Tucson area makes the gap clear to them. It is shown to all of Arizona, which is right because the place is said in words.",
+   "suggested_wording": "I couldn't find advice written for Arizona's low desert, the Tucson area or Marin County on covering or mounding roses for winter. A local rose society is the place to ask."
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 23",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "OSU-P: 'The oil needs to be applied before the rose sends out new shoots', which the checker places after pruning, Willamette Valley. The valley is said in words for Oregon.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 24",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "MARIN under January: 'clean up all cuttings, leaf litter and remove from the garden' and 'apply a dormant spray before new growth begins'.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 25",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "OCRS under January: 'a dormant spray such as copper sulfate and/or horticulture oil'. 'Or' says slightly less than 'and/or', which is allowed. The source spells it 'sulfate'; the app's spelling should be consistent (see package).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 US item 26",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "UC-CC: 'Optional – apply a horticultural oil to smother overwintering scale and insect eggs', in its post-prune care.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000027 US item 1",
+   "result": "Fail",
+   "points_failed": [
+    3,
+    11,
+    12
+   ],
+   "note": "The only confirmed quotation is OCRS 'Generally, we have 2 climates to work around.' 'Near the coast and inland' comes from the checker's note and the dossier's reading, not from a quotation (the builder was unsure of it). More importantly, the page gives no separate months or advice for the two climates. The sentence is about the place and tells a gardener nothing to do, look for or decide, so it fails the sentence test. If no action can be attached, it should stay on record. The wording suggested ties it to rule 6, so that the gardener knows to check the plant.",
+   "suggested_wording": "In Orange County, California, one rose society says gardens near the coast and inland have different climates. Months are only a guide, so check your own rose before you act."
+  }
+ ],
+ "package_notes": [
+  "Every finding available to Pip that belongs to these two records is used (AF-9 to AF-26, AF-61 to AF-63, AF-66 to AF-70, AF-76, AF-77, AF-80 to AF-82, AF-84, AF-85, AF-88, AF-89, AF-91, AF-92, AF-96, AF-97, AF-100, AF-101, AF-104, AF-105, AF-107); a check of all 96 statements found no available finding that is untraced. Nothing on record only (AF-1 to AF-8, AF-59, AF-99) is used in these records.",
+  "No statement in these records rests on a garden company or nursery, so the Founder's 8 October decision is not broken here.",
+  "Conflicts: C-1 is shown as a range in Minnesota and Wisconsin (023 item 5); C-4 is shown in Marin (023 item 17); C-10 and C-11 are each shown only in their own places, and no gardener sees both sides, which is right because each side speaks only of its own place. C-2 (Nashville against Cobb County) is the same: each gardener sees only their own. C-7 (Iowa gives no date to stop) is not said, but US 023 item 2 gives an Iowa gardener the range. Iowa's 'Refrain from pruning ... in the fall' (C-11) is not shown, but no Iowa gardener is shown a fall cut, so nothing is lost.",
+  "The two US-wide month statements (022 item 1, 023 item 2) are ranges built from about a dozen states, counties and cities. No page gives them. They hold as ranges with 'depending on where you live', but they are not limits: the coldest states checked (Minnesota, Wisconsin) give no pruning month, and nothing was checked for Alaska, Hawaii, New England or the northern Rockies.",
+  "023 item 2 contradicts 023 item 16 for a South Florida gardener (last feed by November against feeding all year); fixed in the suggested wording. No other contradiction was found between statements one gardener would see, or with the published US answers (planting, bud union, deadheading, winter mound).",
+  "Repeats: the bud-swell signal in 022 item 2 (US) is repeated in Minnesota (022 item 5) and Wisconsin (022 item 6); the suggested wordings drop the repeat.",
+  "US-wide signal statements rest on pages from cold or temperate winters (022 item 2: South Carolina, the northern Midwest, Utah; 022 item 3: Pennsylvania, Oregon, Contra Costa). None was confirmed for mild-winter areas such as South Florida or coastal Southern California, where Orange County strips the leaves to force dormancy. That is not a contradiction, but it is worth knowing.",
+  "A gardener in a state with no statements of its own (for example New York, Ohio, Texas outside San Antonio, Washington) gets for pruning a December to mid-April range, the bud-swell signal and the too-early warning, which is usable. For feeding they get only 'as new growth appears' and a July to November range, with no way to tell where they fall. A rule 5 gap statement shown to US gardeners would help, in the form Pip already uses for the bud union, for example: 'I couldn't find feeding or pruning months for every state. Your local extension service or rose society can tell you what is done where you live.'",
+  "Utah (022 item 17) and Oregon (022 item 18) are shown statewide but speak only of the Wasatch Front and the Willamette Valley. They say so in words, so gardeners elsewhere in those states are not misled, but they get no local months.",
+  "Terms a beginner may not know: 'forsythia' (022 items 7 and 9; no confirmed page describes it, so it cannot be glossed without a source), 'break dormancy' (022 item 12), 'granular' (023 item 12), 'flush' (023 item 15), 'harden' (023 items 2 and 9; ARS-NCD's 'hardening off, or maturing, of the canes' supports 'mature'). 'Canes (stems)', 'established' and the rose type names are fine.",
+  "Spelling: 'fertiliser' is used in statements shown only to US gardeners. That is fine if it is the house style, but it should be a deliberate choice.",
+  "Display: the shown_to text for 023 item 11 reads 'in or near Kansas City or in or near Kansas City only' (Kansas and Missouri codes) and should read once, for example 'Gardeners in or near Kansas City only'.",
+  "Every finding available to Pip in the six US records is used in some statement; only AF-1 to AF-8, AF-59 and AF-99 are unused, each with a reason. Nothing on record only (AF-59, AF-99) is used in records 24 to 27.",
+  "Pip's general answer, shown to everyone, says to stop deadheading 'in early-to-mid autumn'. US gardeners in the Kansas City area (stop after mid-August), Nashville (keep cutting in November), Marin (stop in November) and Orange County (November and December) see a local time outside that window right beside it, and nothing says which to follow. Consider having the US local statements say they are the local times, or flagging the general answer as a general guide.",
+  "PKR-CGD-000026 US item 4 contradicts Pip's general winter answer for Minnesota and Wisconsin gardeners: September mounding against mounding 'once the rose has had several hard frosts'. This is conflict C-3, and it must say who differs (rule 2).",
+  "Iowa gardeners see 'A rose in a pot can be planted at any time during the growing season' (national) next to ISU-RC's 'from April through midsummer'. Adding Missouri's 'almost' to the national statement softens the clash.",
+  "PKR-CGD-000026 US item 11 (Missouri, cover off after the danger of severe freeze) nearly repeats the general winter answer, which is the reason AF-59 is on record only. It adds only 'carefully'. It is not wrong, but it is the same point said twice to Missouri gardeners.",
+  "Conflicts: C-2 (Nashville against Cobb County) and C-6 (winter-spray months) are between places, so no single gardener sees both sides; each side is shown in its own place, which is the stated reason and is acceptable. C-3 does reach a gardener but is not signalled (item 4, Fail). Nashville's two moving times (AF-40) are said. C-1, C-4, C-5, C-7 to C-11 do not arise in these four records.",
+  "National statements: PKR-CGD-000026 US item 1 (clear-up) rests on pages from about nine organisations across the country and is well founded nationally. PKR-CGD-000025 US item 1 (potted roses) rests on three Midwest and Mountain West organisations (Missouri, Colorado, Minnesota). It is not contradicted by the southern or western pages, which allow any time of year, so it stands for the country.",
+  "Local scope: every state, county and city statement in these records stays within what was said of that place. ZLESAK's 'northern Midwest' is placed only in the two states it names. ARS-NCD is placed in its four district states. Kansas City is used only for KSU-JO's 'in our area'. Arizona's low desert, Colorado's lower elevations, North Florida and Oregon's Willamette Valley are said in words. Nothing said of one place is shown to the whole country.",
+  "The shown_to text for Kansas City items reads 'Gardeners in or near Kansas City or in or near Kansas City only', because of the two state entries. It should read once, for example 'Gardeners in or near Kansas City (Kansas or Missouri) only'.",
+  "No source is a garden company or nursery, so nothing breaks the Founder's decision of 8 October 2026 on garden companies that disagree with a recognised body.",
+  "PKR-CGD-000027 (frost and your own garden) has one statement, for Orange County only, and it fails the sentence test. Every other US gardener gets nothing US-specific in this answer. That is acceptable only if the general frost answer is shown to them; the frost signals are in each job's own answer, as the record says. If item 1 is dropped, the record has no US items at all, and that should be a decision, not an accident.",
+  "Gardeners in states with no statements of their own (for example New York, Ohio, Michigan, Texas outside San Antonio, Washington) still get a usable answer. Deadheading: the general answer. Planting: the national potted-rose item plus PKR-CGD-000016 on bare-root roses. Clear-up: the national clear-up item plus the general winter answer. No winter-spray timing reaches them, which fits the spraying record's finding that a winter spray's benefit is not established.",
+  "No gap statement covers planting or moving in Pennsylvania, or bare-root months in Illinois, where no page gave one. The national items and PKR-CGD-000016 cover this well enough that a separate gap statement is not needed.",
+  "Terms a beginner may not know: 'bare-root' is explained in some statements and not in others (25 items 12, 13, 16 and 17). The explanation 'sold while dormant, not actively growing' does not say what bare-root means, but no confirmed page says 'without soil'. 'As soon as the soil can be worked' (25 items 4 and 5), 'before the buds break' (26 item 3), 'grafted' (26 item 13), 'the rest of the cover' (26 item 8), 'neem oil' and 'scale insects' would also help with a plain gloss where a source supports one.",
+  "Spelling: the US statements use 'lime sulphur' and 'copper sulphate', but the sources and US readers use 'sulfur' and 'sulfate'. Whichever the app uses, it should be the same everywhere.",
+  "The 'dormant spray' explanation 'before new growth begins' (from MARIN and OSU-P, both late-winter sprays) is attached to an October spray for the North Central District (26 item 6), where it reads oddly. A shorter explanation, 'a spray put on while the rose is dormant', fits every place."
+ ],
+ "findings_comments": [
+  {
+   "finding": "AF-15",
+   "comment": "The limitation says 'each end of the range rests on one source', then names two for each end (UF-SFYL and MARIN; CSU-W and CLE-P). Reword it to say that each end rests on two organisations, each speaking only of its own place, and that no page gives the range. Moderate is right."
+  },
+  {
+   "finding": "AF-25",
+   "comment": "The limitation should record that South Florida feeds all year (UF-SFYL), so 'mid-November (Florida)' is for Florida outside the south. It should also record that Nashville's and Marin's November entries are when all feeding stops ('Stop all feeding'; 'Stop all fertilizing'), not a month for a last feed. Moderate is acceptable for the range; the ten organisations agree that feeding ends before winter, not on a month."
+  },
+  {
+   "finding": "AF-77",
+   "comment": "Make clear that 'every other week' is under September only; the page gives 'Fertilize' under March and also lists April. This guards against the reading in 023 item 14."
+  },
+  {
+   "finding": "AF-81",
+   "comment": "The 'without a soil test' condition is in the finding; it should also be carried into Pip's words (023 item 13)."
+  },
+  {
+   "finding": "AF-61",
+   "comment": "Add to the limitation that the three pages come from places with cold or temperate winters, and none from a mild-winter area."
+  },
+  {
+   "finding": "AF-9",
+   "comment": "'Even in warm weather' is not in the sentence confirmed at the check ('Do not ... take the mulch off. We could still have bad weather for several weeks and the late freezes are usually more damaging than the real winter ones.'). It comes from the dossier's first record. Remove it from the finding, or have the sentence confirmed word for word. Add the confirmed reason that bad weather can go on for several weeks."
+  },
+  {
+   "finding": "AF-78",
+   "comment": "The November neem oil spray rests only on the checker's note under AF-49, not on a checked quotation. Confirm it word for word or remove it, as was done for the other once-read sentences."
+  },
+  {
+   "finding": "AF-108",
+   "comment": "'Coastal and inland' is the checker's and dossier's reading, not the quoted sentence. More importantly, the page gives no separate advice for the two climates, so the finding gives a gardener nothing to do. Unless it is used only to back a rule-6 reminder, consider 'On record only: does not help a gardener'."
+  },
+  {
+   "finding": "AF-52",
+   "comment": "Moderate is right for the leaf covering. The mid-to-late September mounding inside it is ZLESAK alone and is the C-3 conflict. Any statement using it must say that it is earlier than other advice, which waits for hard frosts."
+  },
+  {
+   "finding": "AF-56",
+   "comment": "Moderate is right for 'comes off in spring'. 'Just after the ground has thawed' is ZLESAK alone and the April months are ARS-NCD alone, so neither should be stated unattributed."
+  },
+  {
+   "finding": "AF-43",
+   "comment": "The level could arguably be higher than Moderate: about nine independent organisations across the country agree on the clear-up. But the reason 'so that disease does not overwinter there' is PSU's wording alone; the others say 'help reduce' or 'help prevent', so the finding should use the softer wording."
+  },
+  {
+   "finding": "AF-60",
+   "comment": "The finding covers Pima County, but the gap statement names only the low desert and Marin. Either name the Tucson area in the statement or narrow the finding."
+  }
+ ]
+}

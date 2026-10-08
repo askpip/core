@@ -1,832 +1,842 @@
 [
- {
-  "code": "USDA",
-  "source": "USDA Agricultural Research Service, \"USDA Plant Hardiness Zone Map\", 2023 map. Federal government, national. Accessed 1 Oct 2026.",
-  "url": "https://planthardiness.ars.usda.gov/",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-2"
-  ],
-  "quote": "AF-1: \"The map is based on the average annual extreme minimum winter temperature, displayed as 10-degree F zones and 5-degree F half zones.\" || AF-2: \"enter your zip code in the Quick Zip Code Search box in the map above\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "OSU-LP",
-  "source": "Patrick Breen, Oregon State University Landscape Plants, \"USDA Hardiness Zone Maps of the United States\", maps issued 15 November 2023. University, national. Accessed 1 Oct 2026.",
-  "url": "https://landscapeplants.oregonstate.edu/usda-hardiness-zone-maps-united-states",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-4"
-  ],
-  "quote": "AF-1: \"These Zones are based on the average annual extreme minimum temperature\" || AF-4: \"do not take into account other aspects influencing plant survival and performance, such as snow cover, summer heat\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "ISU-ZONE",
-  "source": "Aaron Steil, Iowa State University Extension and Outreach, \"New Plant Hardiness Zone Map Released from the USDA\", 12 December 2023. University extension, Iowa. Accessed 1 Oct 2026.",
-  "url": "https://yardandgarden.extension.iastate.edu/article/2023/12/new-plant-hardiness-zone-map-released-usda",
-  "status": "Opened",
-  "findings": [
-   "AF-3",
-   "AF-4",
-   "AF-6",
-   "AF-9"
-  ],
-  "quote": "AF-3: \"Nearly all of Iowa is now in Zone 5, with the northern half in 5a and the southern half in 5b.\" || AF-4: \"The maps are only guides.\" || AF-6: \"Nearly all of Iowa is now in Zone 5\" || AF-9: \"Periodically, these averages will be exceeded, sometimes by a wide margin.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "ISWS",
-  "source": "Illinois State Climatologist (Illinois State Water Survey), \"Illinois Plant Hardiness Zones\", date not shown. State climatologist, Illinois. Accessed 1 Oct 2026.",
-  "url": "https://stateclimatologist.isws.illinois.edu/climate-of-illinois/illinois-plant-hardiness-zones/",
-  "status": "Opened",
-  "findings": [
-   "AF-6"
-  ],
-  "quote": "AF-6: \"The most northern zone (5a) is isolated to the very northwest corner of the state\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UGA-ZONE",
-  "source": "Carole MacMullan (guest columnist), UGA Extension Fulton County, \"Planting zone confusion - What are the current planting zones?\", 19 June 2024. University extension (county blog), Georgia. Accessed 1 Oct 2026.",
-  "url": "https://site.extension.uga.edu/fultonag/2024/06/planting-zone-confusion-what-are-the-current-planting-zones/",
-  "status": "Opened",
-  "findings": [
-   "AF-3",
-   "AF-6"
-  ],
-  "quote": "AF-3: \"If you do an internet search to determine your planting zone, you will find two sources of information.\" || AF-6: \"now Fulton, Cobb, Forsyth and Cherokee have been reassigned to Planting Zones 8.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UGA-CLIM",
-  "source": "UGA Cooperative Extension climate blog, \"New USDA Plant Hardiness Zone map shows most of Southeast has gotten one half zone warmer\", 26 November 2023. University extension, Southeast. Accessed 1 Oct 2026.",
-  "url": "https://site.extension.uga.edu/climate/2023/11/new-usda-plant-hardiness-zone-map-shows-most-of-southeast-has-gotten-one-half-zone-warmer/",
-  "status": "Opened",
-  "findings": [
-   "AF-2",
-   "AF-3",
-   "AF-9"
-  ],
-  "quote": "AF-2: \"It allows you to search for your location using the zip code or zooming in to your location.\" || AF-3: \"more than half of the Southeast has shifted its category by half a zone towards a warmer climate.\" || AF-9: \"there can still be outliers like the cold blast that occurred around December 2022\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UF-ZONE",
-  "source": "Julia Sirchia, UF/IFAS Extension Pasco County, \"Understanding USDA Plant Hardiness Zones\", 4 December 2024. University extension, Florida. Accessed 1 Oct 2026.",
-  "url": "https://blogs.ifas.ufl.edu/pascoco/2024/12/04/understanding-usda-plant-hardiness-zones/",
-  "status": "Opened",
-  "findings": [
-   "AF-6"
-  ],
-  "quote": "AF-6: \"In sunny Florida, we've have Zones 8 through 11.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "AZ-CZ",
-  "source": "Ursula Schuch, University of Arizona Cooperative Extension, \"Arizona Climate Zones and their Application to Growing Plants\", April 2021. University extension, Arizona. Tucson zone 9b taken from Table 1 as extracted. Accessed 1 Oct 2026.",
-  "url": "https://extension.arizona.edu/publication/arizona-climate-zones-and-their-application-growing-plants",
-  "status": "Opened",
-  "findings": [
-   "AF-4",
-   "AF-5",
-   "AF-6"
-  ],
-  "quote": "AF-4: \"When it comes to hardiness, cold is only one extreme plants experience during the year.\" || AF-5: \"USDA zones 9a and 9b common in southern Arizona also occur along the Oregon Coast\" || AF-6: \"zone 10, mainly along the Colorado River and the Phoenix metropolitan area\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UC-MARIN-Z",
-  "source": "UC Marin Master Gardeners, \"What Is Your Climate Zone?\", updated 11 August 2026. University extension (Master Gardener), Marin County, California. Accessed 1 Oct 2026.",
-  "url": "https://ucanr.edu/site/uc-marin-master-gardeners/what-your-climate-zone",
-  "status": "Opened",
-  "findings": [
-   "AF-5",
-   "AF-6"
-  ],
-  "quote": "AF-5: \"Marin County is situated in Sunset Zones 15, 16, and 17.\" || AF-6: \"Marin's hardiness zones are: 10a (minimum annual winter temperatures of 30 to 35 degrees Fahrenheit), and 9b\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UC-PLACER",
-  "source": "Elaine Applebaum, UC Master Gardeners of Placer County, \"USDA and Sunset Zones\", date not shown. University extension (Master Gardener), California. Accessed 1 Oct 2026.",
-  "url": "https://ucanr.edu/site/uc-master-gardeners-placer-county/article/usda-and-sunset-zones",
-  "status": "Opened",
-  "findings": [
-   "AF-1",
-   "AF-5"
-  ],
-  "quote": "AF-1: \"mapped the country into eleven hardiness zones based on the average minimum winter temperature.\" || AF-5: \"A much more useful guide for California gardeners are the zones set out in the Sunset Western Garden book.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "ARS-NCD",
-  "source": "Lois Ann Helgeson, American Rose Society, \"Winterizing Roses in the North Central District\", 28 April 2018. National rose society; Minnesota, Wisconsin, North and South Dakota; zones 3-5 stated. Accessed 1 Oct 2026.",
-  "url": "https://rose.org/winterizing-roses-in-the-north-central-district/",
-  "status": "Opened",
-  "findings": [
-   "AF-6",
-   "AF-21",
-   "AF-27",
-   "AF-43",
-   "AF-48",
-   "AF-52",
-   "AF-56"
-  ],
-  "quote": "AF-6: \"situated in USDA plant hardiness zones 3, 4, and 5.\" || AF-21: \"stopping nitrogen fertilizers and discontinuing deadheading after August will encourage the hardening off\" || AF-27: \"stopping nitrogen fertilizers and discontinuing deadheading after August will encourage the hardening off\" || AF-43: \"Roses are dormant sprayed in mid to late October at the time when you are doing general fall cleanup\" || AF-48: \"Roses are dormant sprayed in mid to late October\" || AF-52: \"As the temperatures drop in early November, a blanket of leaves 12″ – 18″ deep is added\" || AF-56: \"Early in April the leaves are removed. By the middle of April, the rest of the process is reversed\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "MRS-MN",
-  "source": "Minnesota Rose Society, \"General Rose Care\", last modified 5 October 2013. Rose society, Minnesota. Accessed 1 Oct 2026.",
-  "url": "https://minnesotarosesociety.org/general-rose-care/",
-  "status": "Opened",
-  "findings": [
-   "AF-10",
-   "AF-16",
-   "AF-21",
-   "AF-32",
-   "AF-36"
-  ],
-  "quote": "AF-10: \"Spring is the time for major pruning, while plants are semi-dormant.\" || AF-16: \"Add of a handful of complete fertilizer in early May, June, July and August around each bush.\" || AF-21: \"Do not apply any nitrogen containing fertilizers after August 15th.\" || AF-32: \"Dormant roses may be planted between April 10 and May 15.\" || AF-36: \"Potted roses should show good growth and may be planted from May 15 throughout the growing season.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "ZLESAK",
-  "source": "David C. Zlesak (Professor of Horticulture, University of Wisconsin-River Falls), \"Growing Roses in the Northern Midwest\", 2023 revision, hosted by the Twin Cities Rose Club. Rosarian's guide, northern Midwest; region's zone not stated. Accessed 1 Oct 2026.",
-  "url": "https://twincitiesrose.org/wp-content/uploads/2023/04/Growing-Roses-in-the-Northern-Midwest-2023.pdf",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-10",
-   "AF-16",
-   "AF-21",
-   "AF-27",
-   "AF-32",
-   "AF-52",
-   "AF-56"
-  ],
-  "quote": "AF-7: \"prune after new buds start to swell.\" || AF-10: \"In spring carefully wash soil and/or pull the mulch back and prune after new buds start to swell.\" || AF-16: \"Begin fertilizing in early to mid-May after new growth is evident.\" || AF-21: \"Ending especially nitrogen fertilization in late-July.\" || AF-27: \"Discontinuing to deadhead spent blooms in September.\" || AF-32: \"Plant as soon as soil is workable and plants are available.\" || AF-52: \"One can begin to mound up soil around the crowns of your tender bush roses in mid to late September.\" || AF-56: \"In the spring, reverse the process just after the ground has thawed.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "ISU-RC",
-  "source": "Aaron Steil, Iowa State University Extension and Outreach, \"Rose Care by Season\", June 2025. University extension, Iowa. Accessed 1 Oct 2026.",
-  "url": "https://yardandgarden.extension.iastate.edu/how-to/rose-care-season",
-  "status": "Opened",
-  "findings": [
-   "AF-10",
-   "AF-16",
-   "AF-21",
-   "AF-27",
-   "AF-32",
-   "AF-36",
-   "AF-43",
-   "AF-52"
-  ],
-  "quote": "AF-10: \"Early spring (after removing overwinter materials, if applicable) is the best time to prune roses.\" || AF-16: \"in the spring, just as the new growth begins to emerge.\" || AF-21: \"additional fertilizer applications during the first bloom period and in mid to late July.\" || AF-27: \"as fall approaches, it's best to stop.\" || AF-32: \"as soon as they are received or purchased from the nursery (late March or April).\" || AF-36: \"Container-grown roses can be planted from April through midsummer.\" || AF-43: \"After the first killing frost, removal of fallen leaves and flower debris is beneficial.\" || AF-52: \"The process for preparing roses for winter starts in late fall (mid-November).\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "ISU-HT",
-  "source": "Iowa State University Extension and Outreach, \"When should I prune hybrid tea roses in spring?\", updated 3 December 2024. University extension, Iowa. Accessed 1 Oct 2026.",
-  "url": "https://yardandgarden.extension.iastate.edu/faq/when-should-i-prune-hybrid-tea-roses-spring",
-  "status": "Opened",
-  "findings": [
-   "AF-10",
-   "AF-15",
-   "AF-56"
-  ],
-  "quote": "AF-15: \"in late March to mid-April.\" || AF-10: \"Gardeners should prune out the dead wood after the winter protection is removed from modern roses in late March to mid-April.\" || AF-56: \"after the winter protection is removed from modern roses in late March to mid-April.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "ILL-CARE",
-  "source": "University of Illinois Extension, \"Care\" (Our Rose Garden), date not shown. University extension, Illinois. Accessed 1 Oct 2026.",
-  "url": "https://extension.illinois.edu/roses/care",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-11",
-   "AF-22",
-   "AF-28",
-   "AF-39",
-   "AF-53"
-  ],
-  "quote": "AF-7: \"Wait until a hard killing frost has caused most of the leaves to fall\" || AF-11: \"The majority of the pruning will be done in the spring\" || AF-22: \"No fertilizer should be applied after August 15\" || AF-28: \"stop dead-heading or cutting flowers after October 1\" || AF-39: \"fall is a good time to consider transplanting\" || AF-53: \"You may also want to wait until the temperature has dropped into the teens for several nights\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "ILL-PR",
-  "source": "University of Illinois Extension, \"Pruning\" (Our Rose Garden), date not shown. University extension, Illinois. Accessed 1 Oct 2026.",
-  "url": "https://extension.illinois.edu/roses/pruning",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-11",
-   "AF-28"
-  ],
-  "quote": "AF-7: \"Many rose growers suggest waiting until the forsythias start to bloom as a good signal for the pruning season to begin.\" || AF-11: \"The majority of pruning is done in the spring.\" || AF-28: \"Flowers should not be cut after October 1 to allow the plant to begin hardening off for the winter.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "PSU",
-  "source": "Susan Marquesen, Penn State Extension, \"Protecting Your Roses through Pennsylvania Winters\", 15 November 2023. University extension (Master Gardener), Pennsylvania; zones 5a-7b stated. Accessed 1 Oct 2026.",
-  "url": "https://extension.psu.edu/protecting-your-roses-through-pennsylvania-winters",
-  "status": "Opened",
-  "findings": [
-   "AF-6",
-   "AF-7",
-   "AF-11",
-   "AF-17",
-   "AF-22",
-   "AF-44",
-   "AF-53",
-   "AF-57"
-  ],
-  "quote": "AF-6: \"Pennsylvania's climate varies from USDA Plant Hardiness Zones 5a through 7b.\" || AF-7: \"proceed with winter insulation only after several killing freezes\" || AF-11: \"Don't prune roses too early, as late winter dieback can occur.\" || AF-17: \"Start monthly fertilization in April\" || AF-22: \"stop in August to reduce new growth that may not harden off before winter.\" || AF-44: \"clean up all debris (leaves, fallen flowers, etc.) before winter so that fungal spores do not overwinter\" || AF-53: \"proceed with winter insulation only after several killing freezes to ensure that winter dormancy has been reached.\" || AF-57: \"winter lows are not forecasted to dip below 20°F, remove whatever structure you have created.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "NRS-T",
-  "source": "Ron Daniels (ARS Master Consulting Rosarian), Nashville Rose Society, \"Transplanting and Moving Rose Bushes\", 9 November 2020. Rose society, Middle Tennessee; zone 7 stated. Accessed 1 Oct 2026.",
-  "url": "https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/",
-  "status": "Opened",
-  "findings": [
-   "AF-6",
-   "AF-40"
-  ],
-  "quote": "AF-6: \"In our zone #7\" || AF-40: \"In our zone #7, December through the first of February is the ideal time.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "NRS-W",
-  "source": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care - Winter\", 30 November 2020, updated 23 September 2024. Rose society, Middle Tennessee. Accessed 1 Oct 2026.",
-  "url": "https://www.nashvillerosesociety.org/year-rose-care-winter/",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-45",
-   "AF-49",
-   "AF-54"
-  ],
-  "quote": "AF-7: \"Once we have two consecutive freezes below 28 degrees apply winter protection\" || AF-45: \"Clean up all diseased leaves from the rose beds then spray the beds well\" || AF-49: \"Spray with a dormant oil spray when temps are over 40 degrees for 24 hours\" || AF-54: \"Once we have two consecutive freezes below 28 degrees apply winter protection\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "NRS-F",
-  "source": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care - Fall\", 29 October 2020, updated 4 July 2025. Rose society, Middle Tennessee. Accessed 1 Oct 2026.",
-  "url": "https://www.nashvillerosesociety.org/year-rose-garden-fall/",
-  "status": "Opened",
-  "findings": [
-   "AF-23",
-   "AF-29",
-   "AF-45"
-  ],
-  "quote": "AF-23: \"It is getting too late to feed granular fertilizers\" || AF-29: \"Continue to cut buds and blooms (sometimes we have them until Thanksgiving!)\" || AF-45: \"Clean up beds.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "NRS-S",
-  "source": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care - Spring\", 30 March 2020, updated 4 July 2025. Rose society, Middle Tennessee. Accessed 1 Oct 2026.",
-  "url": "https://www.nashvillerosesociety.org/year-rose-care-spring/",
-  "status": "Opened",
-  "findings": [
-   "AF-12",
-   "AF-18",
-   "AF-33"
-  ],
-  "quote": "AF-12: \"Prune roses by the end of month\" (listed under March) || AF-18: \"Apply fertilizer on established bushes\" (listed under April) || AF-33: \"Plant bare root roses\" (listed under March)",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "NRS-SP",
-  "source": "Nashville Rose Society (NRS Editor), \"Spring Pruning for Established Roses\", 9 October 2020. Rose society, Middle Tennessee. Accessed 1 Oct 2026.",
-  "url": "https://www.nashvillerosesociety.org/spring-pruning-for-established-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-58"
-  ],
-  "quote": "AF-58: \"On or about the third week of March (depending on the weather), uncover the roses very carefully\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "NRS-MAR",
-  "source": "Marty Reich (Master Rosarian), Nashville Rose Society, \"March Rose Growing Notes\", 7 March 2019. Rose society, Middle Tennessee. Accessed 1 Oct 2026.",
-  "url": "https://www.nashvillerosesociety.org/march-rose-growing-notes/",
-  "status": "Opened",
-  "findings": [
-   "AF-9",
-   "AF-12"
-  ],
-  "quote": "AF-9: \"there are newer varieties of forsythia which bloom perhaps too early.\" || AF-12: \"Last year I pruned my HTs and Fls March 16-18\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UGA-COBB",
-  "source": "Bruce Gillett (Lifetime Master Gardener, Certified Consulting Rosarian), UGA Extension Cobb County, \"Rose Maintenance Guide and Schedule\", revised 11 March 2016. University extension (county), Cobb County, Georgia. Product names not collected. Accessed 1 Oct 2026.",
-  "url": "https://extension.uga.edu/content/dam/extension-county-offices/cobb-county/anr/Rose%20Maintenance%20Guide%20and%20Schedule.pdf",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-12",
-   "AF-18",
-   "AF-23",
-   "AF-29",
-   "AF-45",
-   "AF-49",
-   "AF-54"
-  ],
-  "quote": "AF-7: \"Mound wood mulch over crowns (12–18 inches) after second hard frost (28 degrees).\" || AF-12: \"Prune roses that repeat bloom (remontant) until March 15th.\" || AF-18: \"Fertilize with ...\" (listed under March) || AF-23: \"Fertilize with ... for Roses every other week.\" (listed under September) || AF-29: \"Stop deadheading. Remove diseased leaves\" (listed under October) || AF-45: \"Remove diseased leaves from plants and beds.\" (listed under November) || AF-49: \"Spray dormant oil every other week.\" (listed under December) || AF-54: \"Mound wood mulch over crowns (12–18 inches) after second hard frost (28 degrees).\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "AZ-LD",
-  "source": "Lucy Bradley, University of Arizona Cooperative Extension, \"Rose Selection & Planting in the Low Desert\" (AZ1304), October 2002. University extension, Arizona low desert. Accessed 1 Oct 2026.",
-  "url": "https://extension.arizona.edu/sites/default/files/2024-08/az1304.pdf",
-  "status": "Opened",
-  "findings": [
-   "AF-34",
-   "AF-37",
-   "AF-41",
-   "AF-60"
-  ],
-  "quote": "AF-60: \"Roses provide splendid color during the cooler months of March to June and October to February.\" || AF-34: \"The best time to plant bare-root roses in the low desert is mid-December through February.\" || AF-37: \"Container-grown roses can be planted any time of the year, but spring or fall is best.\" || AF-41: \"The best time for transplanting is December through March.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "PIMA-J",
-  "source": "Paul Larson, Laurie Vance, Deborah North, University of Arizona Cooperative Extension, \"January Monthly Gardening Guide for Pima County\", January 2025. University extension (county), Tucson area. Accessed 1 Oct 2026.",
-  "url": "https://extension.arizona.edu/publication/january-monthly-gardening-guide-pima-county",
-  "status": "Opened",
-  "findings": [
-   "AF-13",
-   "AF-34"
-  ],
-  "quote": "AF-13: \"Prune established roses beginning in the middle of the month.\" || AF-34: \"Plant bare-root roses.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "PIMA-F",
-  "source": "Paul Larson, Laurie Vance, Deborah North, University of Arizona Cooperative Extension, \"February Monthly Gardening Guide for Pima County\", January 2025. University extension (county), Tucson area. Accessed 1 Oct 2026.",
-  "url": "https://extension.arizona.edu/publication/february-monthly-gardening-guide-pima-county",
-  "status": "Opened",
-  "findings": [
-   "AF-13",
-   "AF-34",
-   "AF-46"
-  ],
-  "quote": "AF-13: \"If you did not prune established roses earlier, do so early in the month.\" || AF-34: \"Plant bare-root roses near the end of the month.\" || AF-46: \"Discard all potentially diseased, dropped leaves and cuttings\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "MARIN",
-  "source": "Marin Rose Society, \"Annual Rose Calendar\", 6 October 2019. Rose society, Marin County, California. Accessed 1 Oct 2026.",
-  "url": "https://www.marinrose.org/care-basics/annual-rose-calendar/",
-  "status": "Opened",
-  "findings": [
-   "AF-13",
-   "AF-15",
-   "AF-19",
-   "AF-24",
-   "AF-30",
-   "AF-34",
-   "AF-46",
-   "AF-50"
-  ],
-  "quote": "AF-13: \"Begin pruning toward the end of the month\" (listed under December) || AF-15: \"Begin pruning toward the end of the month\" (listed under December) || AF-19: \"Begin fertilizing with a complete fertilizer after the first round of blooms\" (listed under April) || AF-24: \"This is the last month for regular rose fertilizer\" (listed under September) || AF-30: \"Do not trim off spent blooms; let hips develop\" (listed under November) || AF-34: \"Plant new roses (bare root season)\" (listed under January) || AF-46: \"clean up all cuttings, leaf litter and remove from the garden\" (listed under January) || AF-50: \"apply a dormant spray before new growth begins\" (listed under January)",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "MO-G6601",
-  "source": "Ray R. Rothenberger, University of Missouri Extension, \"Roses: Care After Planting\" (G6601), date not shown. University extension, Missouri. Accessed 1 Oct 2026.",
-  "url": "https://extension.missouri.edu/publications/g6601",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-20",
-   "AF-25",
-   "AF-59"
-  ],
-  "quote": "AF-7: \"Make the first fertilizer application in spring after danger of severe freeze is past\" || AF-20: \"Make the first fertilizer application in spring after danger of severe freeze is past\" || AF-25: \"Don't fertilize after July\" || AF-59: \"Carefully remove the covering in spring after danger of severe freeze is over.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "MO-G6600",
-  "source": "University of Missouri Extension, \"Roses\" (G6600), revised by Dave Trinklein, date not shown. University extension, Missouri. Accessed 1 Oct 2026.",
-  "url": "https://extension.missouri.edu/publications/g6600",
-  "status": "Opened",
-  "findings": [
-   "AF-35",
-   "AF-38"
-  ],
-  "quote": "AF-35: \"If you live in an area where winter temperatures dip below -10 degrees Fahrenheit, spring planting is preferred.\" || AF-38: \"Plants started in containers can be purchased and planted at almost any time during the growing season.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "CSU-W",
-  "source": "Colorado State University Extension, PlantTalk Colorado 1726, \"Roses: Winter Care\", date not shown. University extension, Colorado. Accessed 1 Oct 2026.",
-  "url": "https://planttalk.colostate.edu/topics/trees-shrubs-vines/1726-roses-winter-care/",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-14",
-   "AF-15",
-   "AF-47",
-   "AF-55",
-   "AF-59"
-  ],
-  "quote": "AF-15: \"Otherwise, mid-April pruning is best\" || AF-7: \"When the night temperatures drop to 20 degrees Fahrenheit for several days, mound soil over the rose crown\" || AF-14: \"Otherwise, mid-April pruning is best\" || AF-47: \"Around Thanksgiving, remove all leaves and debris from the ground\" || AF-55: \"When the night temperatures drop to 20 degrees Fahrenheit for several days, mound soil over the rose crown\" || AF-59: \"Mulch should be removed gradually in the spring after the danger of hard frost has passed\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "CSU-PL",
-  "source": "Alison O'Connor, A.W. Nelson, C.E. Swift and Roger Heins, Colorado State University Extension, \"Selecting and Planting Roses\", May 1996, reviewed August 2025. University extension, Colorado. Accessed 1 Oct 2026.",
-  "url": "https://extension.colostate.edu/resource/selecting-and-planting-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-8",
-   "AF-35",
-   "AF-38"
-  ],
-  "quote": "AF-7: \"Potted roses can be planted during the growing season, any time after the last killing frost.\" || AF-8: \"It is best to finish planting bare-root roses by mid-April in lower elevation portions of the state.\" || AF-35: \"For bare-root roses, spring planting is preferred over fall.\" || AF-38: \"Potted roses can be planted during the growing season, any time after the last killing frost.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "KSU-JO",
-  "source": "Johnson County Extension Master Gardeners, K-State Research and Extension, \"Rose Care\", date not shown. University extension (Master Gardener), Kansas City area. Accessed 1 Oct 2026.",
-  "url": "https://www.johnson.k-state.edu/docs/lawn-and-garden/in-house-publications/roses/Rose%20Care.pdf",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-20",
-   "AF-25",
-   "AF-31",
-   "AF-38",
-   "AF-47",
-   "AF-55",
-   "AF-59"
-  ],
-  "quote": "AF-7: \"After several hard freezes in the fall\" || AF-20: \"4 times a season, i.e., mid-April, mid-May, mid-June, and mid- to late July.\" || AF-25: \"mid-April, mid-May, mid-June, and mid- to late July.\" || AF-31: \"After mid-August in our area, deadheading should be discontinued and only the spent petals removed.\" || AF-38: \"Container grown plants should be planted after May 1.\" || AF-47: \"after all the leaves are striped from the bushes and all the debris is removed from the bed\" || AF-55: \"After several hard freezes in the fall\" || AF-59: \"Remove winter protection in mid-April.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "RBG",
-  "source": "Cheryl Underwood and Crystal Kim, Red Butte Garden, \"How to Prune Roses\", date not shown. Botanic garden, Wasatch Front, Utah. Accessed 1 Oct 2026.",
-  "url": "https://redbuttegarden.org/gardening-information/how-to-prune-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-14"
-  ],
-  "quote": "AF-7: \"after buds have started to swell but before they fully leaf out.\" || AF-14: \"Along the Wasatch Front, this means rose pruning typically takes place in March after buds have started to swell\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "CLE-P",
-  "source": "Karen Russ and Robert F. Polomski, Clemson Cooperative Extension HGIC, \"Pruning Roses\", 27 June 1999. University extension, South Carolina. Accessed 1 Oct 2026.",
-  "url": "https://hgic.clemson.edu/factsheet/pruning-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-8",
-   "AF-14",
-   "AF-15"
-  ],
-  "quote": "AF-7: \"when they begin to swell, go ahead and prune.\" || AF-8: \"This could be mid-to late February near the coast to mid-April in the mountains.\" || AF-14: \"This could be mid-to late February near the coast to mid-April in the mountains.\" || AF-15: \"mid-April in the mountains.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "CLE-GR",
-  "source": "Karen Russ and Robert F. Polomski, Clemson Cooperative Extension HGIC, \"Growing Roses\", 27 April 1999. University extension, South Carolina. Accessed 1 Oct 2026.",
-  "url": "https://hgic.clemson.edu/factsheet/growing-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-20",
-   "AF-26",
-   "AF-35",
-   "AF-38"
-  ],
-  "quote": "AF-7: \"Stop fertilizing your roses six weeks before your expected first frost date.\" || AF-20: \"fertilize when the plant first leafs out\" || AF-26: \"Stop fertilizing your roses six weeks before your expected first frost date.\" || AF-35: \"You can plant bare root roses in late fall, late winter or early spring in South Carolina.\" || AF-38: \"Container-grown plants can be planted later in the spring.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UAEX-P",
-  "source": "University of Arkansas Cooperative Extension Service, \"Pruning\" (Roses reference desk), entries 2009-2015. University extension, Arkansas. Accessed 1 Oct 2026.",
-  "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx",
-  "status": "Opened",
-  "findings": [
-   "AF-14"
-  ],
-  "quote": "AF-14: \"most rose bushes should be pruned in late February\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UAEX-T",
-  "source": "University of Arkansas Cooperative Extension Service, \"Transplanting\" (Roses reference desk), entries 2007-2018. University extension, Arkansas. Accessed 1 Oct 2026.",
-  "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx",
-  "status": "Opened",
-  "findings": [
-   "AF-42"
-  ],
-  "quote": "AF-42: \"The dormant season is the best time to move plants—between November and February.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UGA-C1001",
-  "source": "Bob Westerfield and Malgorzata Florkowska, UGA Extension Circular 1001, \"Roses in Georgia: Selecting and Growing Techniques\", page dated 21 July 2026. University extension, Georgia statewide. Accessed 1 Oct 2026.",
-  "url": "https://fieldreport.caes.uga.edu/publications/C1001/roses-in-georgia-selecting-and-growing-techniques/",
-  "status": "Opened",
-  "findings": [
-   "AF-14",
-   "AF-20",
-   "AF-25",
-   "AF-35"
-  ],
-  "quote": "AF-14: \"Prune Hybrid Teas, Floribundas and Grandifloras in late winter before growth begins.\" || AF-20: \"each month from March through September.\" || AF-25: \"each month from March through September.\" || AF-35: \"Roses should be planted 5 to 6 feet apart in February.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "OSU-P",
-  "source": "Barbara McMullen, Oregon State University Extension, \"Pruning roses\", May 2007, reviewed 2024. University extension, Willamette Valley, Oregon. Accessed 1 Oct 2026.",
-  "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses",
-  "status": "Opened",
-  "findings": [
-   "AF-14"
-  ],
-  "quote": "AF-14: \"In the Willamette Valley, prune from mid-February to early March\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "BEXAR",
-  "source": "Nathan Riggs, Texas AgriLife Extension Bexar County, \"Valentines Day Means Pruning Roses\", 15 February 2003. University extension (county), San Antonio, Texas. Accessed 1 Oct 2026.",
-  "url": "https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/valentines-day-means-pruning-roses/",
-  "status": "Opened",
-  "findings": [
-   "AF-14"
-  ],
-  "quote": "AF-14: \"Roses are usually pruned twice a year–in October and again in mid-February.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UF-SFYL",
-  "source": "S. Park Brown, UF/IFAS Solutions for Your Life, \"Growing Roses\" (from CIR 344), revised December 2013 and December 2016. University extension, Florida statewide. Accessed 1 Oct 2026.",
-  "url": "https://sfyl.ifas.ufl.edu/lawn-and-garden/growing-roses",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-14",
-   "AF-15",
-   "AF-20",
-   "AF-25",
-   "AF-35",
-   "AF-38"
-  ],
-  "quote": "AF-8: \"Prune hybrid teas, grandifloras, and floribundas in February or March in North and Central Florida and December in South Florida.\" || AF-14: \"in February or March in North and Central Florida and December in South Florida.\" || AF-15: \"December in South Florida.\" || AF-20: \"Fertilize once a month from mid-February to mid-November\" || AF-25: \"(in South Florida these monthly applications can be made year-round).\" || AF-35: \"Bare-root plants are usually available from October to March.\" || AF-38: \"Roses can be planted year-round except in north Florida, where planting is better in early spring.\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UF-CAL",
-  "source": "Sydney Park Brown and Tiare Saracino, UF/IFAS EDIS ENH1189, \"Central Florida Gardening Calendar\", 3 March 2025. University extension, central Florida. Accessed 1 Oct 2026.",
-  "url": "https://ask.ifas.ufl.edu/publication/EP450",
-  "status": "Opened",
-  "findings": [
-   "AF-14"
-  ],
-  "quote": "AF-14: \"Prune roses this month to remove damaged canes and improve the overall form.\" (listed under February)",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "OCRS",
-  "source": "Orange County Rose Society, \"Rose Care Calendar\" (organic sections credited to Paulette Moucher, American Rose magazine, March 2012), date not shown. Rose society, Orange County, California. Accessed 1 Oct 2026.",
-  "url": "https://www.orangecountyrosesociety.org/rose-care-calendar",
-  "status": "Opened",
-  "findings": [
-   "AF-8",
-   "AF-14",
-   "AF-20",
-   "AF-25",
-   "AF-31",
-   "AF-35",
-   "AF-51"
-  ],
-  "quote": "AF-8: \"Generally, we have 2 climates to work around.\" || AF-14: \"Pruning each bush back and removing all foliage forces the energy of growing back into the roots and canes.\" (listed under January) || AF-20: \"When there is 3 inches of new growth, then you should fertilize.\" || AF-25: \"October is the last month to feed your roses.\" || AF-31: \"Stop deadheading and pull off old petals.\" (listed under November, December) || AF-35: \"Need a new rose? It's bare root rose season!\" (listed under January) || AF-51: \"a dormant spray such as copper sulfate and/or horticulture oil.\" (listed under January, February)",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UC-CC",
-  "source": "UC Master Gardener Program of Contra Costa County, \"Easy Guide to Hard Pruning Roses this Winter\", date not shown. University extension (Master Gardener), Contra Costa County, California. Accessed 1 Oct 2026.",
-  "url": "https://ucanr.edu/site/uc-master-gardener-program-contra-costa-county/article/easy-guide-hard-pruning-roses-winter",
-  "status": "Opened",
-  "findings": [
-   "AF-7",
-   "AF-14",
-   "AF-20",
-   "AF-51"
-  ],
-  "quote": "AF-7: \"the best time to hard prune roses is January to February, after the last frost.\" || AF-14: \"In Contra Costa County, the best time to hard prune roses is January to February, after the last frost.\" || AF-20: \"once you see 2-3 inches of new growth.\" || AF-51: \"Optional – apply a horticultural oil to smother overwintering scale and insect eggs\"",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UMN-ROSE",
-  "source": "University of Minnesota Extension, \"Growing hardy roses in Minnesota: beauty that endures the cold\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://extension.umn.edu/news/growing-hardy-roses-minnesota-beauty-endures-cold",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UF-EP339",
-  "source": "UF/IFAS EDIS EP339, \"Growing Roses in Florida\". Located only: HTTP 410. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://edis.ifas.ufl.edu/publication/EP339",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UF-CIR344",
-  "source": "\"CIR 344 Growing Roses in Florida\" (journal PDF). Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://journals.flvc.org/edis/article/download/116893/115052/169205",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UC-SLO",
-  "source": "UC Master Gardeners of San Luis Obispo County, \"Rose Care Calendar\". Located only: HTTP 403; a linked PDF from the same program also returned HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://ucanr.edu/site/uc-master-gardeners-san-luis-obispo-county/rose-care-calendar",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "OSU-NEWS",
-  "source": "Oregon State University Extension, \"New plant hardiness map, used by gardeners nationwide and based on OSU climate data, unveiled\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://extension.oregonstate.edu/news/new-plant-hardiness-map-used-gardeners-nationwide-based-osu-climate-data-unveiled",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "KCRS",
-  "source": "Kansas City Rose Society, \"Pruning Roses\". Located only: robots check rate-limited; not read. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://www.kansascityrosesociety.org/prune-roses",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "TCMG",
-  "source": "Texas AgriLife Travis County, \"February - the Rose Pruning Month\" (Carolyn Williams). Located only: redirected to an unencrypted address, not followed. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://travis-tx.tamu.edu/2021/02/15/february-is-the-rose-pruning-month-by-carolyn-williams/",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "PRS-PAC",
-  "source": "Pacific Rose Society, \"Quick Month-by-Month Tips for Annual Rose Care\". Located only: redirected to an unencrypted address, not followed. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "http://www.pacificrosesociety.org/MonthlyRoseCare.html",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UCIPM-CULT",
-  "source": "UC IPM, roses cultural practices Pest Notes. Located only: HTTP 404. Supports no finding. Accessed 1 Oct 2026.",
-  "url": "https://ipm.ucanr.edu/home-and-landscape/roses-cultural-practices-and-weed-control/pest-notes/",
-  "status": "Located (title match only)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UMD-PR",
-  "source": "University of Maryland Extension, \"Guide to Pruning Roses\". No months stated. Accessed 1 Oct 2026.",
-  "url": "https://extension.umd.edu/resource/guide-pruning-roses",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "ARS-BPP",
-  "source": "American Rose Society, \"Basic Pruning Principles\" (17 July 2024). No timing stated. Accessed 1 Oct 2026.",
-  "url": "https://rose.org/basic-pruning-principles/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UF-RFL",
-  "source": "UF/IFAS Gardening Solutions, \"Roses for Florida\". No months stated. Accessed 1 Oct 2026.",
-  "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/roses-for-florida/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "CLE-SITE",
-  "source": "Clemson HGIC, \"Site Considerations When Selecting Plants\". South Carolina zones shown only in a map image. Accessed 1 Oct 2026.",
-  "url": "https://hgic.clemson.edu/factsheet/choosing-a-planting-location/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "YAV-R",
-  "source": "University of Arizona Cooperative Extension Yavapai County, \"Roses\" (30 June 2024). No pruning or planting months; area zone not stated. Accessed 1 Oct 2026.",
-  "url": "https://extension.arizona.edu/sites/default/files/2024-10/Roses_0.pdf",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "YAV-P",
-  "source": "University of Arizona Yavapai County, \"Pruning Roses\" (18 February 2015). No months stated. Accessed 1 Oct 2026.",
-  "url": "https://cales.arizona.edu/yavapai/anr/hort/byg/archive/pruningroses2015.html",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "PUR",
-  "source": "Purdue University, Rosie Lerner, \"Spring Pruning of Roses\" (22 March 2011). No months; signal content already carried by relied-on sources; zone not stated. Accessed 1 Oct 2026.",
-  "url": "https://www.purdue.edu/hla/sites/yardandgarden/spring-pruning-of-roses/?cat=15",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UNH",
-  "source": "UNH Extension, \"Winter Protection of Roses\" (November 2016). No months; frost trigger already carried by relied-on sources; zone not stated. Accessed 1 Oct 2026.",
-  "url": "https://extension.unh.edu/resource/winter-protection-roses",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "NCS-J",
-  "source": "NC State Extension Jackson County, \"When to Prune Roses\" (18 February 2026). No months; forsythia signal already carried by ILL-PR; zone not stated. Accessed 1 Oct 2026.",
-  "url": "https://jackson.ces.ncsu.edu/2026/02/when-to-prune-roses",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UCF",
-  "source": "UC ANR Fresno Gardening Green, \"Rosie's Corner: It's time to prune roses\" (1 February 2025). Gives a feeding date only; area zone not stated. Accessed 1 Oct 2026.",
-  "url": "https://ucanr.edu/blog/fresno-gardening-green/article/rosies-corner-its-time-prune-roses",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "NEB-WP",
-  "source": "Nebraska Extension Lancaster County, Sarah Browning, \"Rose Winter Protection\" (13 October 2019). Area zone not stated; content duplicates relied-on band A and B sources. Accessed 1 Oct 2026.",
-  "url": "https://lancaster.unl.edu/rose-winter-protection",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "PRS",
-  "source": "Portland Rose Society, Natalie Humphrey, \"How to Prune Your Roses\". Area zone not stated; Oregon timing carried by OSU-P. Accessed 1 Oct 2026.",
-  "url": "https://www.portlandrosesociety.org/blog/springpruning",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- },
- {
-  "code": "UF-MAN",
-  "source": "UF/IFAS Extension Manatee County, \"Zone Changes: What You Need to Know\" (15 November 2023). No relied-on source covers Manatee County. Accessed 1 Oct 2026.",
-  "url": "https://blogs.ifas.ufl.edu/manateeco/2023/11/15/zone-changes-what-you-need-to-know/",
-  "status": "Opened (not relied on)",
-  "findings": [],
-  "quote": "",
-  "accessed": "2026-10-01"
- }
+  {
+    "code": "USDA",
+    "source": "USDA Agricultural Research Service, \"USDA Plant Hardiness Zone Map\", 2023 map. Federal government, national. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://planthardiness.ars.usda.gov/",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-2"
+    ],
+    "quote": "AF-1: \"The map is based on the average annual extreme minimum winter temperature, displayed as 10-degree F zones and 5-degree F half zones.\" || AF-2: \"enter your zip code in the Quick Zip Code Search box in the map above\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "OSU-LP",
+    "source": "Patrick Breen, Oregon State University Landscape Plants, \"USDA Hardiness Zone Maps of the United States\", maps issued 15 November 2023. University, national. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://landscapeplants.oregonstate.edu/usda-hardiness-zone-maps-united-states",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-4"
+    ],
+    "quote": "AF-1: \"These Zones are based on the average annual extreme minimum temperature\" || AF-4: \"do not take into account other aspects influencing plant survival and performance, such as snow cover, summer heat\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "ISU-ZONE",
+    "source": "Aaron Steil, Iowa State University Extension and Outreach, \"New Plant Hardiness Zone Map Released from the USDA\", 12 December 2023. University extension, Iowa. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://yardandgarden.extension.iastate.edu/article/2023/12/new-plant-hardiness-zone-map-released-usda",
+    "status": "Opened",
+    "findings": [
+      "AF-4"
+    ],
+    "quote": "Not relied on (was AF-3; the sentence gives Iowa's zone only and says nothing of a half-zone shift or of older information circulating): \"Nearly all of Iowa is now in Zone 5, with the northern half in 5a and the southern half in 5b.\" || AF-4: \"The maps are only guides.\" || Not relied on (was AF-6; the sentence only states the USDA zone of an area and says nothing about roses or rose timing): \"Nearly all of Iowa is now in Zone 5\" || Not relied on (was AF-9; the finding is narrowed to Nashville; the sentence is about hardiness-zone averages in Iowa, not roses): \"Periodically, these averages will be exceeded, sometimes by a wide margin.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "ISWS",
+    "source": "Illinois State Climatologist (Illinois State Water Survey), \"Illinois Plant Hardiness Zones\", date not shown. State climatologist, Illinois. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://stateclimatologist.isws.illinois.edu/climate-of-illinois/illinois-plant-hardiness-zones/",
+    "status": "Opened (not relied on after the Build Check)",
+    "findings": [],
+    "quote": "Not relied on (was AF-6; the sentence only states the USDA zone of an area and says nothing about roses or rose timing): \"The most northern zone (5a) is isolated to the very northwest corner of the state\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UGA-ZONE",
+    "source": "Carole MacMullan (guest columnist), UGA Extension Fulton County, \"Planting zone confusion - What are the current planting zones?\", 19 June 2024. University extension (county blog), Georgia. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://site.extension.uga.edu/fultonag/2024/06/planting-zone-confusion-what-are-the-current-planting-zones/",
+    "status": "Opened",
+    "findings": [
+      "AF-3"
+    ],
+    "quote": "AF-3: \"If you do an internet search to determine your planting zone, you will find two sources of information.\" || Not relied on (was AF-6; the sentence only states the USDA zone of an area and says nothing about roses or rose timing): \"now Fulton, Cobb, Forsyth and Cherokee have been reassigned to Planting Zones 8.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UGA-CLIM",
+    "source": "UGA Cooperative Extension climate blog, \"New USDA Plant Hardiness Zone map shows most of Southeast has gotten one half zone warmer\", 26 November 2023. University extension, Southeast. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://site.extension.uga.edu/climate/2023/11/new-usda-plant-hardiness-zone-map-shows-most-of-southeast-has-gotten-one-half-zone-warmer/",
+    "status": "Opened",
+    "findings": [
+      "AF-2",
+      "AF-3"
+    ],
+    "quote": "AF-2: \"It allows you to search for your location using the zip code or zooming in to your location.\" || AF-3: \"more than half of the Southeast has shifted its category by half a zone towards a warmer climate.\" || Not relied on (was AF-9; the finding is narrowed to Nashville; the sentence is about a cold outlier in the Southeast, not roses): \"there can still be outliers like the cold blast that occurred around December 2022\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UF-ZONE",
+    "source": "Julia Sirchia, UF/IFAS Extension Pasco County, \"Understanding USDA Plant Hardiness Zones\", 4 December 2024. University extension, Florida. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://blogs.ifas.ufl.edu/pascoco/2024/12/04/understanding-usda-plant-hardiness-zones/",
+    "status": "Opened (not relied on after the Build Check)",
+    "findings": [],
+    "quote": "Not relied on (was AF-6; the sentence only states the USDA zone of an area and says nothing about roses or rose timing): \"In sunny Florida, we've have Zones 8 through 11.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "AZ-CZ",
+    "source": "Ursula Schuch, University of Arizona Cooperative Extension, \"Arizona Climate Zones and their Application to Growing Plants\", April 2021. University extension, Arizona. Tucson zone 9b taken from Table 1 as extracted. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.arizona.edu/publication/arizona-climate-zones-and-their-application-growing-plants",
+    "status": "Opened",
+    "findings": [
+      "AF-4"
+    ],
+    "quote": "AF-4: \"When it comes to hardiness, cold is only one extreme plants experience during the year.\" || Not relied on (was AF-5; the sentence is about Arizona's USDA zones occurring elsewhere, not about California gardeners preferring Sunset zones): \"USDA zones 9a and 9b common in southern Arizona also occur along the Oregon Coast\" || Not relied on (was AF-6; the sentence only states the USDA zone of an area and says nothing about roses or rose timing): \"zone 10, mainly along the Colorado River and the Phoenix metropolitan area\" || AF-5, the page's wording as read at the Build Check: \"USDA zones 9a and 9b common in southern Arizona also occur along the Oregon Coast and on the tip of the Olympic Peninsula in Washington.\" || AF-6, the page's wording as read at the Build Check: \"The warmest locations are in the southwestern and southcentral part of the state, zone 10, mainly along the Colorado River and the Phoenix metropolitan area with minimum temperatures between 30°F to 40°F.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UC-MARIN-Z",
+    "source": "UC Marin Master Gardeners, \"What Is Your Climate Zone?\", updated 11 August 2026. University extension (Master Gardener), Marin County, California. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://ucanr.edu/site/uc-marin-master-gardeners/what-your-climate-zone",
+    "status": "Opened",
+    "findings": [
+      "AF-5"
+    ],
+    "quote": "AF-5: \"Marin County is situated in Sunset Zones 15, 16, and 17.\" || Not relied on (was AF-6; the sentence only states the USDA zone of an area and says nothing about roses or rose timing): \"Marin's hardiness zones are: 10a (minimum annual winter temperatures of 30 to 35 degrees Fahrenheit), and 9b\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UC-PLACER",
+    "source": "Elaine Applebaum, UC Master Gardeners of Placer County, \"USDA and Sunset Zones\", date not shown. University extension (Master Gardener), California. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://ucanr.edu/site/uc-master-gardeners-placer-county/article/usda-and-sunset-zones",
+    "status": "Opened",
+    "findings": [
+      "AF-1",
+      "AF-5"
+    ],
+    "quote": "AF-1: \"mapped the country into eleven hardiness zones based on the average minimum winter temperature.\" || AF-5: \"A much more useful guide for California gardeners are the zones set out in the Sunset Western Garden book.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "ARS-NCD",
+    "source": "Lois Ann Helgeson, American Rose Society, \"Winterizing Roses in the North Central District\", 28 April 2018. National rose society; Minnesota, Wisconsin, North and South Dakota; zones 3-5 stated. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://rose.org/winterizing-roses-in-the-north-central-district/",
+    "status": "Opened",
+    "findings": [
+      "AF-6",
+      "AF-21",
+      "AF-25",
+      "AF-27",
+      "AF-48",
+      "AF-52",
+      "AF-56",
+      "AF-70",
+      "AF-73"
+    ],
+    "quote": "AF-6: \"situated in USDA plant hardiness zones 3, 4, and 5.\" || AF-21: \"stopping nitrogen fertilizers and discontinuing deadheading after August will encourage the hardening off\" || AF-27: \"stopping nitrogen fertilizers and discontinuing deadheading after August will encourage the hardening off\" || AF-48 (recorded as AF-43): \"Roses are dormant sprayed in mid to late October at the time when you are doing general fall cleanup\" || AF-48: \"Roses are dormant sprayed in mid to late October\" || AF-52: \"As the temperatures drop in early November, a blanket of leaves 12″ – 18″ deep is added\" || AF-56: \"Early in April the leaves are removed. By the middle of April, the rest of the process is reversed\" || AF-25: \"Stopping nitrogen fertilizers and discontinuing deadheading after August will encourage the hardening off, or maturing, of the canes.\" (added at the Build Check, 8 Oct 2026) || AF-70: \"Stopping nitrogen fertilizers and discontinuing deadheading after August will encourage the hardening off, or maturing, of the canes.\" (added at the Build Check, 8 Oct 2026) || AF-73: \"As the temperatures drop in early November, a blanket of leaves 12″ – 18″ deep is added.\" (added at the Build Check, 8 Oct 2026) || AF-73: \"Early in April the leaves are removed. By the middle of April, the rest of the process is reversed.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "MRS-MN",
+    "source": "Minnesota Rose Society, \"General Rose Care\", last modified 5 October 2013. Rose society, Minnesota. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://minnesotarosesociety.org/general-rose-care/",
+    "status": "Opened",
+    "findings": [
+      "AF-16",
+      "AF-21",
+      "AF-32",
+      "AF-36",
+      "AF-38",
+      "AF-67"
+    ],
+    "quote": "AF-67 (recorded as AF-10): \"Spring is the time for major pruning, while plants are semi-dormant.\" || AF-16: \"Add of a handful of complete fertilizer in early May, June, July and August around each bush.\" || AF-21: \"Do not apply any nitrogen containing fertilizers after August 15th.\" || AF-32: \"Dormant roses may be planted between April 10 and May 15.\" || AF-36: \"Potted roses should show good growth and may be planted from May 15 throughout the growing season.\" || AF-16, the page's wording as read at the Build Check: \"Add of a handful of complete fertilizer in early May, June, July and August around each bush.\" || AF-38: \"Potted roses should show good growth and may be planted from May 15 throughout the growing season.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "ZLESAK",
+    "source": "David C. Zlesak (Professor of Horticulture, University of Wisconsin-River Falls), \"Growing Roses in the Northern Midwest\", 2023 revision, hosted by the Twin Cities Rose Club. Rosarian's guide, northern Midwest; region's zone not stated. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://twincitiesrose.org/wp-content/uploads/2023/04/Growing-Roses-in-the-Northern-Midwest-2023.pdf",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-16",
+      "AF-20",
+      "AF-21",
+      "AF-27",
+      "AF-32",
+      "AF-52",
+      "AF-56",
+      "AF-61",
+      "AF-67",
+      "AF-68",
+      "AF-69",
+      "AF-71",
+      "AF-72"
+    ],
+    "quote": "AF-7: \"prune after new buds start to swell.\" || AF-67 (recorded as AF-10): \"In spring carefully wash soil and/or pull the mulch back and prune after new buds start to swell.\" || AF-16: \"Begin fertilizing in early to mid-May after new growth is evident.\" || AF-21: \"Ending especially nitrogen fertilization in late-July.\" || AF-27: \"Discontinuing to deadhead spent blooms in September.\" || AF-32: \"Plant as soon as soil is workable and plants are available.\" || AF-52: \"One can begin to mound up soil around the crowns of your tender bush roses in mid to late September.\" || AF-56: \"In the spring, reverse the process just after the ground has thawed.\" || AF-20: \"Begin fertilizing in early to mid-May after new growth is evident.\" (added at the Build Check, 8 Oct 2026) || AF-61: \"In spring carefully wash soil and/or pull the mulch back and prune after new buds start to swell.\" (added at the Build Check, 8 Oct 2026) || AF-52: \"After the ground has frozen cover with additional leaves to provide insulation.\" (added at the Build Check, 8 Oct 2026) || AF-68: \"In spring carefully wash soil and/or pull the mulch back and prune after new buds start to swell.\" (added at the Build Check, 8 Oct 2026) || AF-69: \"Begin fertilizing in early to mid-May after new growth is evident.\" (added at the Build Check, 8 Oct 2026) || AF-71: \"Plant as soon as soil is workable and plants are available.\" (added at the Build Check, 8 Oct 2026) || AF-72: \"Apply a mixed lime-sulfur and horticultural oil dormant spray if desired.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "ISU-RC",
+    "source": "Aaron Steil, Iowa State University Extension and Outreach, \"Rose Care by Season\", June 2025. University extension, Iowa. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://yardandgarden.extension.iastate.edu/how-to/rose-care-season",
+    "status": "Opened",
+    "findings": [
+      "AF-10",
+      "AF-20",
+      "AF-43",
+      "AF-63",
+      "AF-64",
+      "AF-65",
+      "AF-66"
+    ],
+    "quote": "AF-10: \"Early spring (after removing overwinter materials, if applicable) is the best time to prune roses.\" || AF-63 (recorded as AF-16): \"in the spring, just as the new growth begins to emerge.\" || AF-63 (recorded as AF-21): \"additional fertilizer applications during the first bloom period and in mid to late July.\" || AF-64 (recorded as AF-27): \"as fall approaches, it's best to stop.\" || AF-65 (recorded as AF-32): \"as soon as they are received or purchased from the nursery (late March or April).\" || AF-65 (recorded as AF-36): \"Container-grown roses can be planted from April through midsummer.\" || AF-43: \"After the first killing frost, removal of fallen leaves and flower debris is beneficial.\" || AF-66 (recorded as AF-52): \"The process for preparing roses for winter starts in late fall (mid-November).\" || AF-20: \"Apply an all-purpose garden fertilizer, such as 10-10-10, in the spring, just as the new growth begins to emerge.\" (added at the Build Check, 8 Oct 2026) || Qualifies AF-10: \"Refrain from pruning any other plant material in the fall - this task is best left for spring.\" (added at the Build Check, 8 Oct 2026) || AF-64: \"Deadheading is desirable during the summer to promote more blooms, but as fall approaches, it's best to stop.\" (added at the Build Check, 8 Oct 2026) || AF-65: \"Early spring (before the plant begins to leaf out) is the best time to transplant a rose. This is typically late March to mid-April in Iowa.\" (added at the Build Check, 8 Oct 2026) || AF-66: \"After the first killing frost, removal of fallen leaves and flower debris is beneficial to help reduce disease recurrence.\" (added at the Build Check, 8 Oct 2026) || AF-66: \"This is done once the ground thaws and harsh cold temperatures of winter have passed, but before the plants break bud.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "ISU-HT",
+    "source": "Iowa State University Extension and Outreach, \"When should I prune hybrid tea roses in spring?\", updated 3 December 2024. University extension, Iowa. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://yardandgarden.extension.iastate.edu/faq/when-should-i-prune-hybrid-tea-roses-spring",
+    "status": "Opened",
+    "findings": [
+      "AF-10",
+      "AF-15",
+      "AF-66"
+    ],
+    "quote": "AF-15: \"in late March to mid-April.\" || AF-10: \"Gardeners should prune out the dead wood after the winter protection is removed from modern roses in late March to mid-April.\" || AF-66 (recorded as AF-56): \"after the winter protection is removed from modern roses in late March to mid-April.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "ILL-CARE",
+    "source": "University of Illinois Extension, \"Care\" (Our Rose Garden), date not shown. University extension, Illinois. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.illinois.edu/roses/care",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-11",
+      "AF-22",
+      "AF-25",
+      "AF-28",
+      "AF-39",
+      "AF-53"
+    ],
+    "quote": "AF-7: \"Wait until a hard killing frost has caused most of the leaves to fall\" || AF-11: \"The majority of the pruning will be done in the spring\" || AF-22: \"No fertilizer should be applied after August 15\" || AF-28: \"stop dead-heading or cutting flowers after October 1\" || AF-39: \"fall is a good time to consider transplanting\" || AF-53: \"You may also want to wait until the temperature has dropped into the teens for several nights\" || AF-25: \"No fertilizer should be applied after August 15.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "ILL-PR",
+    "source": "University of Illinois Extension, \"Pruning\" (Our Rose Garden), date not shown. University extension, Illinois. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.illinois.edu/roses/pruning",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-11",
+      "AF-28"
+    ],
+    "quote": "AF-7: \"Many rose growers suggest waiting until the forsythias start to bloom as a good signal for the pruning season to begin.\" || AF-11: \"The majority of pruning is done in the spring.\" || AF-28: \"Flowers should not be cut after October 1 to allow the plant to begin hardening off for the winter.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "PSU",
+    "source": "Susan Marquesen, Penn State Extension, \"Protecting Your Roses through Pennsylvania Winters\", 15 November 2023. University extension (Master Gardener), Pennsylvania; zones 5a-7b stated. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.psu.edu/protecting-your-roses-through-pennsylvania-winters",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-17",
+      "AF-25",
+      "AF-43",
+      "AF-44",
+      "AF-57",
+      "AF-62",
+      "AF-74"
+    ],
+    "quote": "Not relied on (was AF-6; the sentence only states the USDA zone of an area and says nothing about roses or rose timing): \"Pennsylvania's climate varies from USDA Plant Hardiness Zones 5a through 7b.\" || AF-7: \"proceed with winter insulation only after several killing freezes\" || AF-62 (recorded as AF-11): \"Don't prune roses too early, as late winter dieback can occur.\" || AF-17: \"Start monthly fertilization in April\" || AF-17 (recorded as AF-22): \"stop in August to reduce new growth that may not harden off before winter.\" || AF-44: \"clean up all debris (leaves, fallen flowers, etc.) before winter so that fungal spores do not overwinter\" || AF-44 (recorded as AF-53): \"proceed with winter insulation only after several killing freezes to ensure that winter dormancy has been reached.\" || AF-57: \"winter lows are not forecasted to dip below 20°F, remove whatever structure you have created.\" || AF-17, the page's wording as read at the Build Check: \"Start monthly fertilization in April and stop in August to reduce new growth that may not harden off before winter.\" || AF-44, the page's wording as read at the Build Check: \"clean up all debris (leaves, fallen flowers, etc.) before winter so that fungal spores do not overwinter underneath the plant.\" || AF-57, the page's wording as read at the Build Check: \"When the weather begins to warm in very early spring and winter lows are not forecasted to dip below 20°F, remove whatever structure you have created.\" || AF-25: \"Start monthly fertilization in April and stop in August to reduce new growth that may not harden off before winter.\" (added at the Build Check, 8 Oct 2026) || AF-43: \"clean up all debris (leaves, fallen flowers, etc.) before winter so that fungal spores do not overwinter underneath the plant.\" (added at the Build Check, 8 Oct 2026) || AF-74: \"Stop trimming off rose flowers in early fall to allow the hips (seedpods) to develop.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "NRS-T",
+    "source": "Ron Daniels (ARS Master Consulting Rosarian), Nashville Rose Society, \"Transplanting and Moving Rose Bushes\", 9 November 2020. Rose society, Middle Tennessee; zone 7 stated. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.nashvillerosesociety.org/transplanting-and-moving-rose-bushes/",
+    "status": "Opened",
+    "findings": [
+      "AF-6",
+      "AF-40"
+    ],
+    "quote": "AF-6: \"In our zone #7\" || AF-40: \"In our zone #7, December through the first of February is the ideal time.\" || Qualifies AF-40: \"Roses need to be dormant or going dormant, not actively growing, when they are moved. Late winter to early spring is the best time.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "NRS-W",
+    "source": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care - Winter\", 30 November 2020, updated 23 September 2024. Rose society, Middle Tennessee. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.nashvillerosesociety.org/year-rose-care-winter/",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-12",
+      "AF-40",
+      "AF-45",
+      "AF-49",
+      "AF-54"
+    ],
+    "quote": "AF-7: \"Once we have two consecutive freezes below 28 degrees apply winter protection\" || AF-45: \"Clean up all diseased leaves from the rose beds then spray the beds well\" || AF-49: \"Spray with a dormant oil spray when temps are over 40 degrees for 24 hours\" || AF-54: \"Once we have two consecutive freezes below 28 degrees apply winter protection\" || AF-12: \"Cut hybrid teas back to about three feet to keep the wind from rocking the rose.\" (added at the Build Check, 8 Oct 2026) || AF-40: \"If a rose needs to be moved, move it between now and the first of February.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "NRS-F",
+    "source": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care - Fall\", 29 October 2020, updated 4 July 2025. Rose society, Middle Tennessee. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.nashvillerosesociety.org/year-rose-garden-fall/",
+    "status": "Opened",
+    "findings": [
+      "AF-23",
+      "AF-25",
+      "AF-43",
+      "AF-45",
+      "AF-54",
+      "AF-75"
+    ],
+    "quote": "AF-23: \"It is getting too late to feed granular fertilizers\" || AF-75 (recorded as AF-29): \"Continue to cut buds and blooms (sometimes we have them until Thanksgiving!)\" || AF-45: \"Clean up beds.\" || AF-25: \"Stop all feeding.\" (added at the Build Check, 8 Oct 2026) || AF-43: \"Clean up beds.\" (added at the Build Check, 8 Oct 2026) || Qualifies AF-12: \"Fall is not the time to prune!\" (added at the Build Check, 8 Oct 2026) || AF-23: \"Stop all feeding.\" (added at the Build Check, 8 Oct 2026) || AF-54: \"Prepare roses for winter protection.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "NRS-S",
+    "source": "Nashville Rose Society (NRS Editor), \"A Year of Rose Care - Spring\", 30 March 2020, updated 4 July 2025. Rose society, Middle Tennessee. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.nashvillerosesociety.org/year-rose-care-spring/",
+    "status": "Opened",
+    "findings": [
+      "AF-12",
+      "AF-18",
+      "AF-33"
+    ],
+    "quote": "AF-12: \"Prune roses by the end of month\" (listed under March) || AF-18: \"Apply fertilizer on established bushes\" (listed under April) || AF-33: \"Plant bare root roses\" (listed under March) || AF-12: \"Complete pruning early in the month\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "NRS-SP",
+    "source": "Nashville Rose Society (NRS Editor), \"Spring Pruning for Established Roses\", 9 October 2020. Rose society, Middle Tennessee. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.nashvillerosesociety.org/spring-pruning-for-established-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-58"
+    ],
+    "quote": "AF-58: \"On or about the third week of March (depending on the weather), uncover the roses very carefully\" || AF-58: \"After the last frost date (April 15-23), you can begin to gradually pull the mulch away from the crown.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "NRS-MAR",
+    "source": "Marty Reich (Master Rosarian), Nashville Rose Society, \"March Rose Growing Notes\", 7 March 2019. Rose society, Middle Tennessee. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.nashvillerosesociety.org/march-rose-growing-notes/",
+    "status": "Opened",
+    "findings": [
+      "AF-9",
+      "AF-12"
+    ],
+    "quote": "AF-9: \"there are newer varieties of forsythia which bloom perhaps too early.\" || AF-12: \"Last year I pruned my HTs and Fls March 16-18\" || AF-9: \"Do not ... take the mulch off. We could still have bad weather for several weeks and the late freezes are usually more damaging than the real winter ones.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UGA-COBB",
+    "source": "Bruce Gillett (Lifetime Master Gardener, Certified Consulting Rosarian), UGA Extension Cobb County, \"Rose Maintenance Guide and Schedule\", revised 11 March 2016. University extension (county), Cobb County, Georgia. Product names not collected. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.uga.edu/content/dam/extension-county-offices/cobb-county/anr/Rose%20Maintenance%20Guide%20and%20Schedule.pdf",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-29",
+      "AF-43",
+      "AF-76",
+      "AF-77",
+      "AF-78",
+      "AF-79"
+    ],
+    "quote": "AF-7: \"Mound wood mulch over crowns (12–18 inches) after second hard frost (28 degrees).\" || AF-76 (recorded as AF-12): \"Prune roses that repeat bloom (remontant) until March 15th.\" || AF-77 (recorded as AF-18): \"Fertilize with ...\" (listed under March) || AF-77 (recorded as AF-23): \"Fertilize with ... for Roses every other week.\" (listed under September) || AF-29: \"Stop deadheading. Remove diseased leaves\" (listed under October) || AF-78 (recorded as AF-45): \"Remove diseased leaves from plants and beds.\" (listed under November) || AF-78 (recorded as AF-49): \"Spray dormant oil every other week.\" (listed under December) || AF-79 (recorded as AF-54): \"Mound wood mulch over crowns (12–18 inches) after second hard frost (28 degrees).\" || AF-43: \"Remove diseased leaves from plants and beds.\" (added at the Build Check, 8 Oct 2026) || AF-76: \"Prune roses that repeat bloom (remontant) during last week in February.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "AZ-LD",
+    "source": "Lucy Bradley, University of Arizona Cooperative Extension, \"Rose Selection & Planting in the Low Desert\" (AZ1304), October 2002. University extension, Arizona low desert. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.arizona.edu/sites/default/files/2024-08/az1304.pdf",
+    "status": "Opened",
+    "findings": [
+      "AF-34",
+      "AF-37",
+      "AF-41"
+    ],
+    "quote": "Not relied on (was AF-60; the sentence is about when roses give colour in the low desert and says nothing about winter protection): \"Roses provide splendid color during the cooler months of March to June and October to February.\" || AF-34: \"The best time to plant bare-root roses in the low desert is mid-December through February.\" || AF-37: \"Container-grown roses can be planted any time of the year, but spring or fall is best.\" || AF-41: \"The best time for transplanting is December through March.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "PIMA-J",
+    "source": "Paul Larson, Laurie Vance, Deborah North, University of Arizona Cooperative Extension, \"January Monthly Gardening Guide for Pima County\", January 2025. University extension (county), Tucson area. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.arizona.edu/publication/january-monthly-gardening-guide-pima-county",
+    "status": "Opened",
+    "findings": [
+      "AF-13",
+      "AF-34"
+    ],
+    "quote": "AF-13: \"Prune established roses beginning in the middle of the month.\" || AF-34: \"Plant bare-root roses.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "PIMA-F",
+    "source": "Paul Larson, Laurie Vance, Deborah North, University of Arizona Cooperative Extension, \"February Monthly Gardening Guide for Pima County\", January 2025. University extension (county), Tucson area. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.arizona.edu/publication/february-monthly-gardening-guide-pima-county",
+    "status": "Opened",
+    "findings": [
+      "AF-13",
+      "AF-34",
+      "AF-43",
+      "AF-46"
+    ],
+    "quote": "AF-13: \"If you did not prune established roses earlier, do so early in the month.\" || AF-34: \"Plant bare-root roses near the end of the month.\" || AF-46: \"Discard all potentially diseased, dropped leaves and cuttings\" || AF-43: \"Discard all potentially diseased, dropped leaves and cuttings—do not leave them under plants or compost them.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "MARIN",
+    "source": "Marin Rose Society, \"Annual Rose Calendar\", 6 October 2019. Rose society, Marin County, California. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.marinrose.org/care-basics/annual-rose-calendar/",
+    "status": "Opened",
+    "findings": [
+      "AF-15",
+      "AF-19",
+      "AF-24",
+      "AF-25",
+      "AF-30",
+      "AF-43",
+      "AF-50",
+      "AF-82",
+      "AF-83"
+    ],
+    "quote": "AF-82 (recorded as AF-13): \"Begin pruning toward the end of the month\" (listed under December) || AF-15: \"Begin pruning toward the end of the month\" (listed under December) || AF-19: \"Begin fertilizing with a complete fertilizer after the first round of blooms\" (listed under April) || AF-24: \"This is the last month for regular rose fertilizer\" (listed under September) || AF-30: \"Do not trim off spent blooms; let hips develop\" (listed under November) || AF-83 (recorded as AF-34): \"Plant new roses (bare root season)\" (listed under January) || AF-50 (recorded as AF-46): \"clean up all cuttings, leaf litter and remove from the garden\" (listed under January) || AF-50: \"apply a dormant spray before new growth begins\" (listed under January) || AF-25: \"This is the last month for regular rose fertilizer\" (added at the Build Check, 8 Oct 2026) || AF-43: \"clean up all cuttings, leaf litter and remove from the garden\" (added at the Build Check, 8 Oct 2026) || AF-24: \"Stop all fertilizing; let plants go dormant\" (added at the Build Check, 8 Oct 2026) || Qualifies AF-50: \"Keep fallen leaves picked up to reduce spread of diseases\" (added at the Build Check, 8 Oct 2026) || AF-83: \"bare root plants should be available at nurseries for planting. It is also a good time (along with pruning) to do any relocation of plants.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "MO-G6601",
+    "source": "Ray R. Rothenberger, University of Missouri Extension, \"Roses: Care After Planting\" (G6601), date not shown. University extension, Missouri. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.missouri.edu/publications/g6601",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-25",
+      "AF-59",
+      "AF-97",
+      "AF-98"
+    ],
+    "quote": "AF-7: \"Make the first fertilizer application in spring after danger of severe freeze is past\" || AF-97 (recorded as AF-20): \"Make the first fertilizer application in spring after danger of severe freeze is past\" || AF-25: \"Don't fertilize after July\" || AF-59: \"Carefully remove the covering in spring after danger of severe freeze is over.\" || AF-97: \"Don't fertilize after July; reducing fertility in the fall helps harden the plants for winter\" (added at the Build Check, 8 Oct 2026) || AF-98: \"Carefully remove the covering in spring after danger of severe freeze is over.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "MO-G6600",
+    "source": "University of Missouri Extension, \"Roses\" (G6600), revised by Dave Trinklein, date not shown. University extension, Missouri. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.missouri.edu/publications/g6600",
+    "status": "Opened",
+    "findings": [
+      "AF-38",
+      "AF-99"
+    ],
+    "quote": "AF-99 (recorded as AF-35): \"If you live in an area where winter temperatures dip below -10 degrees Fahrenheit, spring planting is preferred.\" || AF-38: \"Plants started in containers can be purchased and planted at almost any time during the growing season.\" || AF-99: \"Where temperatures don't drop below -10 degrees Fahrenheit, either fall or spring planting is satisfactory.\" (added at the Build Check, 8 Oct 2026) || AF-99: \"Plants started in containers can be purchased and planted at almost any time during the growing season.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "CSU-W",
+    "source": "Colorado State University Extension, PlantTalk Colorado 1726, \"Roses: Winter Care\", date not shown. University extension, Colorado. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://planttalk.colostate.edu/topics/trees-shrubs-vines/1726-roses-winter-care/",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-15",
+      "AF-43",
+      "AF-47",
+      "AF-55",
+      "AF-59",
+      "AF-100"
+    ],
+    "quote": "AF-15: \"Otherwise, mid-April pruning is best\" || AF-7: \"When the night temperatures drop to 20 degrees Fahrenheit for several days, mound soil over the rose crown\" || AF-100 (recorded as AF-14): \"Otherwise, mid-April pruning is best\" || AF-47: \"Around Thanksgiving, remove all leaves and debris from the ground\" || AF-55: \"When the night temperatures drop to 20 degrees Fahrenheit for several days, mound soil over the rose crown\" || AF-59: \"Mulch should be removed gradually in the spring after the danger of hard frost has passed\" || AF-47, the page's wording as read at the Build Check: \"Around Thanksgiving, remove all leaves and debris from the ground; this will help prevent the spread of some diseases!\" || AF-43: \"Around Thanksgiving, remove all leaves and debris from the ground; this will help prevent the spread of some diseases!\" (added at the Build Check, 8 Oct 2026) || AF-55: \"Use pine needles or boughs, leaves, rotted manure or shredded newspaper.\" (added at the Build Check, 8 Oct 2026) || AF-55: \"Mulch should be removed gradually in the spring after the danger of hard frost has passed.\" (added at the Build Check, 8 Oct 2026) || AF-100: \"To prevent this, prune all tall plants by one-third of their height in November.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "CSU-PL",
+    "source": "Alison O'Connor, A.W. Nelson, C.E. Swift and Roger Heins, Colorado State University Extension, \"Selecting and Planting Roses\", May 1996, reviewed August 2025. University extension, Colorado. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.colostate.edu/resource/selecting-and-planting-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-8",
+      "AF-35",
+      "AF-38"
+    ],
+    "quote": "AF-7: \"Potted roses can be planted during the growing season, any time after the last killing frost.\" || AF-8: \"It is best to finish planting bare-root roses by mid-April in lower elevation portions of the state.\" || AF-35: \"For bare-root roses, spring planting is preferred over fall.\" || AF-38: \"Potted roses can be planted during the growing season, any time after the last killing frost.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "KSU-JO",
+    "source": "Johnson County Extension Master Gardeners, K-State Research and Extension, \"Rose Care\", date not shown. University extension (Master Gardener), Kansas City area. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.johnson.k-state.edu/docs/lawn-and-garden/in-house-publications/roses/Rose%20Care.pdf",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-25",
+      "AF-31",
+      "AF-43",
+      "AF-101",
+      "AF-102",
+      "AF-103"
+    ],
+    "quote": "AF-7: \"After several hard freezes in the fall\" || AF-101 (recorded as AF-20): \"4 times a season, i.e., mid-April, mid-May, mid-June, and mid- to late July.\" || AF-25: \"mid-April, mid-May, mid-June, and mid- to late July.\" || AF-31: \"After mid-August in our area, deadheading should be discontinued and only the spent petals removed.\" || AF-102 (recorded as AF-38): \"Container grown plants should be planted after May 1.\" || AF-103 (recorded as AF-47): \"after all the leaves are striped from the bushes and all the debris is removed from the bed\" || AF-103 (recorded as AF-55): \"After several hard freezes in the fall\" || AF-103 (recorded as AF-59): \"Remove winter protection in mid-April.\" || AF-43: \"after all the leaves are striped from the bushes and all the debris is removed from the bed\" (added at the Build Check, 8 Oct 2026) || AF-103: \"Remove winter protection in mid-April.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "RBG",
+    "source": "Cheryl Underwood and Crystal Kim, Red Butte Garden, \"How to Prune Roses\", date not shown. Botanic garden, Wasatch Front, Utah. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://redbuttegarden.org/gardening-information/how-to-prune-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-61",
+      "AF-104"
+    ],
+    "quote": "AF-7: \"after buds have started to swell but before they fully leaf out.\" || AF-104 (recorded as AF-14): \"Along the Wasatch Front, this means rose pruning typically takes place in March after buds have started to swell\" || AF-61: \"Along the Wasatch Front, this means rose pruning typically takes place in March after buds have started to swell but before they fully leaf out.\" (added at the Build Check, 8 Oct 2026) || AF-104: \"Repeat-blooming roses are typically pruned in late winter to early spring.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "CLE-P",
+    "source": "Karen Russ and Robert F. Polomski, Clemson Cooperative Extension HGIC, \"Pruning Roses\", 27 June 1999. University extension, South Carolina. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://hgic.clemson.edu/factsheet/pruning-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-8",
+      "AF-14",
+      "AF-15",
+      "AF-61"
+    ],
+    "quote": "AF-7: \"when they begin to swell, go ahead and prune.\" || AF-8: \"This could be mid-to late February near the coast to mid-April in the mountains.\" || AF-14: \"This could be mid-to late February near the coast to mid-April in the mountains.\" || AF-15: \"mid-April in the mountains.\" || AF-61: \"The best way to judge when to prune is to look at the buds; when they begin to swell, go ahead and prune.\" (added at the Build Check, 8 Oct 2026) || AF-14: \"Repeat blooming roses such as floribunda and hybrid tea roses need a heavy annual pruning that is done in the spring, just as the buds break dormancy.\" (added at the Build Check, 8 Oct 2026) || AF-14: \"In the late fall, prune roses back by about one-third of their height. This helps prevent breaking of canes in winter winds.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "CLE-GR",
+    "source": "Karen Russ and Robert F. Polomski, Clemson Cooperative Extension HGIC, \"Growing Roses\", 27 April 1999. University extension, South Carolina. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://hgic.clemson.edu/factsheet/growing-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-20",
+      "AF-26",
+      "AF-95"
+    ],
+    "quote": "AF-7: \"Stop fertilizing your roses six weeks before your expected first frost date.\" || AF-20: \"fertilize when the plant first leafs out\" || AF-26: \"Stop fertilizing your roses six weeks before your expected first frost date.\" || AF-95 (recorded as AF-35): \"You can plant bare root roses in late fall, late winter or early spring in South Carolina.\" || AF-95 (recorded as AF-38): \"Container-grown plants can be planted later in the spring.\" || AF-26: \"fertilize when the plant first leafs out and repeat after each flush of bloom until six weeks before the earliest frost date for your area.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UAEX-P",
+    "source": "University of Arkansas Cooperative Extension Service, \"Pruning\" (Roses reference desk), entries 2009-2015. University extension, Arkansas. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx",
+    "status": "Opened",
+    "findings": [
+      "AF-96"
+    ],
+    "quote": "AF-96 (recorded as AF-14): \"most rose bushes should be pruned in late February\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UAEX-T",
+    "source": "University of Arkansas Cooperative Extension Service, \"Transplanting\" (Roses reference desk), entries 2007-2018. University extension, Arkansas. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/transplanting.aspx",
+    "status": "Opened",
+    "findings": [
+      "AF-42"
+    ],
+    "quote": "AF-42: \"The dormant season is the best time to move plants—between November and February.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UGA-C1001",
+    "source": "Bob Westerfield and Malgorzata Florkowska, UGA Extension Circular 1001, \"Roses in Georgia: Selecting and Growing Techniques\", page dated 21 July 2026. University extension, Georgia statewide. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://fieldreport.caes.uga.edu/publications/C1001/roses-in-georgia-selecting-and-growing-techniques/",
+    "status": "Opened",
+    "findings": [
+      "AF-25",
+      "AF-80",
+      "AF-81"
+    ],
+    "quote": "AF-80 (recorded as AF-14): \"Prune Hybrid Teas, Floribundas and Grandifloras in late winter before growth begins.\" || AF-81 (recorded as AF-20): \"each month from March through September.\" || AF-25: \"each month from March through September.\" || Not relied on (was AF-35; the sentence is about spacing roses 5 to 6 feet apart, does not say bare-root and gives no planting season): \"Roses should be planted 5 to 6 feet apart in February.\"",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "OSU-P",
+    "source": "Barbara McMullen, Oregon State University Extension, \"Pruning roses\", May 2007, reviewed 2024. University extension, Willamette Valley, Oregon. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses",
+    "status": "Opened",
+    "findings": [
+      "AF-62",
+      "AF-105",
+      "AF-106"
+    ],
+    "quote": "AF-105 (recorded as AF-14): \"In the Willamette Valley, prune from mid-February to early March\" || AF-62: \"Earlier pruning (before the last hard frost or forecasted cold weather) may cause die-back that necessitates repruning.\" (added at the Build Check, 8 Oct 2026) || Qualifies AF-105: \"Earlier pruning (before the last hard frost or forecasted cold weather) may cause die-back that necessitates repruning.\" (added at the Build Check, 8 Oct 2026) || AF-106: \"The oil needs to be applied before the rose sends out new shoots.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "BEXAR",
+    "source": "Nathan Riggs, Texas AgriLife Extension Bexar County, \"Valentines Day Means Pruning Roses\", 15 February 2003. University extension (county), San Antonio, Texas. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/valentines-day-means-pruning-roses/",
+    "status": "Opened",
+    "findings": [
+      "AF-107"
+    ],
+    "quote": "AF-107 (recorded as AF-14): \"Roses are usually pruned twice a year–in October and again in mid-February.\" || AF-107: \"The late winter pruning is the most severe, as this is the time to truly renew the plant for spring growth.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UF-SFYL",
+    "source": "S. Park Brown, UF/IFAS Solutions for Your Life, \"Growing Roses\" (from CIR 344), revised December 2013 and December 2016. University extension, Florida statewide. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://sfyl.ifas.ufl.edu/lawn-and-garden/growing-roses",
+    "status": "Opened",
+    "findings": [
+      "AF-8",
+      "AF-15",
+      "AF-25",
+      "AF-43",
+      "AF-91",
+      "AF-92",
+      "AF-93",
+      "AF-94"
+    ],
+    "quote": "AF-8: \"Prune hybrid teas, grandifloras, and floribundas in February or March in North and Central Florida and December in South Florida.\" || AF-91 (recorded as AF-14): \"in February or March in North and Central Florida and December in South Florida.\" || AF-15: \"December in South Florida.\" || AF-92 (recorded as AF-20): \"Fertilize once a month from mid-February to mid-November\" || AF-25: \"(in South Florida these monthly applications can be made year-round).\" || AF-93 (recorded as AF-35): \"Bare-root plants are usually available from October to March.\" || AF-93 (recorded as AF-38): \"Roses can be planted year-round except in north Florida, where planting is better in early spring.\" || AF-35, the page's wording as read at the Build Check: \"Nurseries sell potted roses year-round; bare-root plants are usually available from October to March.\" || AF-43: \"During winter pruning, remove all leaves from the plants, and rake the area beneath the bush to remove dead and diseased leaves that have fallen during the year.\" (added at the Build Check, 8 Oct 2026) || AF-92: \"Fertilize once a month from mid-February to mid-November (in South Florida these monthly applications can be made year-round).\" (added at the Build Check, 8 Oct 2026) || AF-94: \"During winter pruning, remove all leaves from the plants, and rake the area beneath the bush to remove dead and diseased leaves that have fallen during the year.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UF-CAL",
+    "source": "Sydney Park Brown and Tiare Saracino, UF/IFAS EDIS ENH1189, \"Central Florida Gardening Calendar\", 3 March 2025. University extension, central Florida. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://ask.ifas.ufl.edu/publication/EP450",
+    "status": "Opened",
+    "findings": [
+      "AF-91",
+      "AF-92"
+    ],
+    "quote": "AF-91 (recorded as AF-14): \"Prune roses this month to remove damaged canes and improve the overall form.\" (listed under February) || AF-92: \"After pruning, fertilize and apply a fresh layer of mulch.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "OCRS",
+    "source": "Orange County Rose Society, \"Rose Care Calendar\" (organic sections credited to Paulette Moucher, American Rose magazine, March 2012), date not shown. Rose society, Orange County, California. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://www.orangecountyrosesociety.org/rose-care-calendar",
+    "status": "Opened",
+    "findings": [
+      "AF-20",
+      "AF-25",
+      "AF-51",
+      "AF-84",
+      "AF-85",
+      "AF-86",
+      "AF-87",
+      "AF-108"
+    ],
+    "quote": "AF-108 (recorded as AF-8): \"Generally, we have 2 climates to work around.\" || AF-84 (recorded as AF-14): \"Pruning each bush back and removing all foliage forces the energy of growing back into the roots and canes.\" (listed under January) || AF-20: \"When there is 3 inches of new growth, then you should fertilize.\" || AF-25: \"October is the last month to feed your roses.\" || AF-86 (recorded as AF-31): \"Stop deadheading and pull off old petals.\" (listed under November, December) || AF-87 (recorded as AF-35): \"Need a new rose? It's bare root rose season!\" (listed under January) || AF-51: \"a dormant spray such as copper sulfate and/or horticulture oil.\" (listed under January, February) || AF-51, the page's wording as read at the Build Check: \"Using a dormant spray such as copper sulfate and/or horticulture oil (page lacks leading 'a')\" || AF-84: \"It still is not too late to prune.\" (added at the Build Check, 8 Oct 2026) || AF-85: \"When there is 3 inches of new growth, then you should fertilize.\" (added at the Build Check, 8 Oct 2026) || AF-85: \"October is the last month to feed your roses.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UC-CC",
+    "source": "UC Master Gardener Program of Contra Costa County, \"Easy Guide to Hard Pruning Roses this Winter\", date not shown. University extension (Master Gardener), Contra Costa County, California. Accessed 1 Oct 2026. Opened again 8 Oct 2026.",
+    "url": "https://ucanr.edu/site/uc-master-gardener-program-contra-costa-county/article/easy-guide-hard-pruning-roses-winter",
+    "status": "Opened",
+    "findings": [
+      "AF-7",
+      "AF-20",
+      "AF-62",
+      "AF-88",
+      "AF-89",
+      "AF-90"
+    ],
+    "quote": "AF-7: \"the best time to hard prune roses is January to February, after the last frost.\" || AF-88 (recorded as AF-14): \"In Contra Costa County, the best time to hard prune roses is January to February, after the last frost.\" || AF-20: \"once you see 2-3 inches of new growth.\" || AF-90 (recorded as AF-51): \"Optional – apply a horticultural oil to smother overwintering scale and insect eggs\" || AF-62: \"In Contra Costa County, the best time to hard prune roses is January to February, after the last frost.\" (added at the Build Check, 8 Oct 2026) || AF-89: \"Apply organic or natural, balanced, rose-specific fertilizer in the spring once you see 2-3 inches of new growth.\" (added at the Build Check, 8 Oct 2026)",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UMN-ROSE",
+    "source": "University of Minnesota Extension, \"Growing hardy roses in Minnesota: beauty that endures the cold\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://extension.umn.edu/news/growing-hardy-roses-minnesota-beauty-endures-cold",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UF-EP339",
+    "source": "UF/IFAS EDIS EP339, \"Growing Roses in Florida\". Located only: HTTP 410. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://edis.ifas.ufl.edu/publication/EP339",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UF-CIR344",
+    "source": "\"CIR 344 Growing Roses in Florida\" (journal PDF). Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://journals.flvc.org/edis/article/download/116893/115052/169205",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UC-SLO",
+    "source": "UC Master Gardeners of San Luis Obispo County, \"Rose Care Calendar\". Located only: HTTP 403; a linked PDF from the same program also returned HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://ucanr.edu/site/uc-master-gardeners-san-luis-obispo-county/rose-care-calendar",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "OSU-NEWS",
+    "source": "Oregon State University Extension, \"New plant hardiness map, used by gardeners nationwide and based on OSU climate data, unveiled\". Located only: HTTP 403. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://extension.oregonstate.edu/news/new-plant-hardiness-map-used-gardeners-nationwide-based-osu-climate-data-unveiled",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "KCRS",
+    "source": "Kansas City Rose Society, \"Pruning Roses\". Located only: robots check rate-limited; not read. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://www.kansascityrosesociety.org/prune-roses",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "TCMG",
+    "source": "Texas AgriLife Travis County, \"February - the Rose Pruning Month\" (Carolyn Williams). Located only: redirected to an unencrypted address, not followed. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://travis-tx.tamu.edu/2021/02/15/february-is-the-rose-pruning-month-by-carolyn-williams/",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "PRS-PAC",
+    "source": "Pacific Rose Society, \"Quick Month-by-Month Tips for Annual Rose Care\". Located only: redirected to an unencrypted address, not followed. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "http://www.pacificrosesociety.org/MonthlyRoseCare.html",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UCIPM-CULT",
+    "source": "UC IPM, roses cultural practices Pest Notes. Located only: HTTP 404. Supports no finding. Accessed 1 Oct 2026.",
+    "url": "https://ipm.ucanr.edu/home-and-landscape/roses-cultural-practices-and-weed-control/pest-notes/",
+    "status": "Located (title match only)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UMD-PR",
+    "source": "University of Maryland Extension, \"Guide to Pruning Roses\". No months stated. Accessed 1 Oct 2026.",
+    "url": "https://extension.umd.edu/resource/guide-pruning-roses",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "ARS-BPP",
+    "source": "American Rose Society, \"Basic Pruning Principles\" (17 July 2024). No timing stated. Accessed 1 Oct 2026.",
+    "url": "https://rose.org/basic-pruning-principles/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UF-RFL",
+    "source": "UF/IFAS Gardening Solutions, \"Roses for Florida\". No months stated. Accessed 1 Oct 2026.",
+    "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/roses-for-florida/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "CLE-SITE",
+    "source": "Clemson HGIC, \"Site Considerations When Selecting Plants\". South Carolina zones shown only in a map image. Accessed 1 Oct 2026.",
+    "url": "https://hgic.clemson.edu/factsheet/choosing-a-planting-location/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "YAV-R",
+    "source": "University of Arizona Cooperative Extension Yavapai County, \"Roses\" (30 June 2024). No pruning or planting months; area zone not stated. Accessed 1 Oct 2026.",
+    "url": "https://extension.arizona.edu/sites/default/files/2024-10/Roses_0.pdf",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "YAV-P",
+    "source": "University of Arizona Yavapai County, \"Pruning Roses\" (18 February 2015). No months stated. Accessed 1 Oct 2026.",
+    "url": "https://cales.arizona.edu/yavapai/anr/hort/byg/archive/pruningroses2015.html",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "PUR",
+    "source": "Purdue University, Rosie Lerner, \"Spring Pruning of Roses\" (22 March 2011). No months; signal content already carried by relied-on sources; zone not stated. Accessed 1 Oct 2026.",
+    "url": "https://www.purdue.edu/hla/sites/yardandgarden/spring-pruning-of-roses/?cat=15",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UNH",
+    "source": "UNH Extension, \"Winter Protection of Roses\" (November 2016). No months; frost trigger already carried by relied-on sources; zone not stated. Accessed 1 Oct 2026.",
+    "url": "https://extension.unh.edu/resource/winter-protection-roses",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "NCS-J",
+    "source": "NC State Extension Jackson County, \"When to Prune Roses\" (18 February 2026). No months; forsythia signal already carried by ILL-PR; zone not stated. Accessed 1 Oct 2026.",
+    "url": "https://jackson.ces.ncsu.edu/2026/02/when-to-prune-roses",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UCF",
+    "source": "UC ANR Fresno Gardening Green, \"Rosie's Corner: It's time to prune roses\" (1 February 2025). Gives a feeding date only; area zone not stated. Accessed 1 Oct 2026.",
+    "url": "https://ucanr.edu/blog/fresno-gardening-green/article/rosies-corner-its-time-prune-roses",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "NEB-WP",
+    "source": "Nebraska Extension Lancaster County, Sarah Browning, \"Rose Winter Protection\" (13 October 2019). Area zone not stated; content duplicates relied-on band A and B sources. Accessed 1 Oct 2026.",
+    "url": "https://lancaster.unl.edu/rose-winter-protection",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "PRS",
+    "source": "Portland Rose Society, Natalie Humphrey, \"How to Prune Your Roses\". Area zone not stated; Oregon timing carried by OSU-P. Accessed 1 Oct 2026.",
+    "url": "https://www.portlandrosesociety.org/blog/springpruning",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  },
+  {
+    "code": "UF-MAN",
+    "source": "UF/IFAS Extension Manatee County, \"Zone Changes: What You Need to Know\" (15 November 2023). No relied-on source covers Manatee County. Accessed 1 Oct 2026.",
+    "url": "https://blogs.ifas.ufl.edu/manateeco/2023/11/15/zone-changes-what-you-need-to-know/",
+    "status": "Opened (not relied on)",
+    "findings": [],
+    "quote": "",
+    "accessed": "2026-10-01"
+  }
 ]
