@@ -1,6 +1,6 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 505,
+  "record_count": 506,
   "published_count": 415,
   "records": [
     {
@@ -167,9 +167,17 @@
       "pkr_id": "PKR-CGD-000016",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "When can I plant or move a rose?",
       "sha256": "3f3a07746ea5ad3840a0576b6b2496478597ca962939f09738554c24c2dc460a"
+    },
+    {
+      "pkr_id": "PKR-CGD-000016",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "When can I plant or move a rose?",
+      "sha256": "a376663173fa35bad9cf73e0bf9f0b69087bf205bbe34ab845098b5e6c80c655"
     },
     {
       "pkr_id": "PKR-CGD-000017",

@@ -1,16 +1,18 @@
 {
   "schema": "pip-lil-record/1",
   "pkr_id": "PKR-CGD-000016",
-  "version": "1.0",
+  "version": "1.1",
   "pkr_type": "care_guidance",
-  "status": "Retired",
+  "status": "Published",
   "title": "When can I plant or move a rose?",
   "common": {
     "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose; answer to a common question",
     "supporting_sources": [
       "PKR-SRC-000034",
       "PKR-SRC-000097",
+      "PKR-SRC-000130",
       "PKR-SRC-000156",
+      "PKR-SRC-000190",
       "PKR-SRC-000229",
       "PKR-SRC-000269",
       "PKR-SRC-000270",
@@ -32,9 +34,26 @@
       "PKR-SRC-000288",
       "PKR-SRC-000289",
       "PKR-SRC-000291",
-      "PKR-SRC-000294"
+      "PKR-SRC-000294",
+      "PKR-SRC-000296",
+      "PKR-SRC-000311",
+      "PKR-SRC-000315",
+      "PKR-SRC-000316",
+      "PKR-SRC-000317",
+      "PKR-SRC-000321",
+      "PKR-SRC-000330",
+      "PKR-SRC-000334",
+      "PKR-SRC-000335",
+      "PKR-SRC-000336",
+      "PKR-SRC-000345",
+      "PKR-SRC-000348",
+      "PKR-SRC-000352",
+      "PKR-SRC-000356",
+      "PKR-SRC-000357",
+      "PKR-SRC-000358",
+      "PKR-SRC-000362"
     ],
-    "founder_approval_date": "2026-10-06",
+    "founder_approval_date": "2026-10-08",
     "related_pkrs": [
       {
         "relationship": "related",
@@ -64,37 +83,38 @@
         ]
       },
       {
-        "text": "In New Zealand, winter is the best time to plant a rose, and roses can be planted on through spring. One garden centre says new-season roses reach the shops from June. Months are only a guide.",
+        "text": "In New Zealand, winter is the best time to plant a rose, and planting can go on through spring. One garden company says June and July are the best months. Months are only a guide.",
         "confidence": "Moderate",
         "place": [
           "NZ"
         ],
         "trace": [
-          "ARC-BUSHROSE-PLANTMOVE-01 AF-2",
-          "ARC-BUSHROSE-PLANTMOVE-01 AF-1",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-27",
           "rule 6"
         ]
       },
       {
-        "text": "In Australia, plant bare-root roses in winter, while they are dormant. Two rose societies say June or July, and one source says from May. Months are only a guide.",
-        "confidence": "Moderate",
+        "text": "In Australia, plant a bare-root rose in June or July. One source says planting can start in May. Months are only a guide.",
+        "confidence": "High",
         "place": [
           "AU"
         ],
         "trace": [
-          "ARC-BUSHROSE-PLANTMOVE-01 AF-2",
-          "ARC-BUSHROSE-PLANTMOVE-01 AF-1",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-31",
+          "ARC-BUSHROSE-TIMING-AU-01 AF-32",
+          "ARC-BUSHROSE-TIMING-AU-01 C-6",
           "rule 6"
         ]
       },
       {
-        "text": "In the UK, plant bare-root roses in late autumn, or from late winter to early spring before growth starts.",
-        "confidence": "Moderate",
+        "text": "In the UK, plant a bare-root rose while it is dormant, between October and early March. Months are only a guide.",
+        "confidence": "High",
         "place": [
           "GB"
         ],
         "trace": [
-          "ARC-BUSHROSE-PLANTMOVE-01 AF-3",
+          "ARC-BUSHROSE-TIMING-UK-01 AF-17",
+          "rule 6",
           "ARC-BUSHROSE-PLANTMOVE-01 AF-1"
         ]
       },
@@ -125,13 +145,13 @@
         ]
       },
       {
-        "text": "In New Zealand, one garden centre says the best time to move a rose is after pruning in July, while it is dormant, and once the risk of frost has passed. Months are only a guide, because frosts vary from year to year.",
+        "text": "In New Zealand, one garden centre says to move a rose in July, after pruning and once the risk of frost has passed. One garden company says June or July. Months are only a guide, because frosts vary from year to year.",
         "confidence": "Low",
         "place": [
           "NZ"
         ],
         "trace": [
-          "ARC-BUSHROSE-PLANTMOVE-01 AF-28",
+          "ARC-BUSHROSE-TIMING-NZ-01 AF-43",
           "rule 4",
           "rule 6"
         ]
@@ -155,9 +175,9 @@
     }
   },
   "provenance": {
-    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md",
+    "approved_rendering": "Working/AI Outputs/PKR-CGD-BUSHROSE-PLANTMOVE-01-submission.md (section 12)",
     "published_to_lil_by": "KIT",
-    "published_to_lil_at": "2026-10-06",
-    "note": "A Founder approved Pip's answers on planting and moving on the Pip's Answers Form (\"Approve. Publish these answers.\") and in chat on 6 October 2026, under the one-approval trial. The statements were checked by the ROC before approval (package §11)."
+    "published_to_lil_at": "2026-10-08",
+    "note": "Revised at a Founder's direction in chat on 8 October 2026 (\"bring everything into line if required from new research\"). Version 1.1: the New Zealand, Australian and UK month statements now use the approved month-level timing statements (ARC-BUSHROSE-TIMING-NZ-01, -AU-01, -UK-01), so that this answer and the timing answers say the same. Nothing else changed. Version 1.0 retired."
   }
 }

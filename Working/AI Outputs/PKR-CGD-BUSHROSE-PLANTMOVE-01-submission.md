@@ -305,4 +305,27 @@ The results are in `Working/AI Outputs/Build_Check_PLANTMOVE_*.json`.
 
 **Sources.** 27 new Source PKRs (PKR-SRC-000268 to PKR-SRC-000294), and 7 existing ones get the new references added. All are listed in the Source PKR package.
 
+## 12. Revision of 8 October 2026 (PKR-CGD-000016, Version 1.1)
+
+Made at a Founder's direction in chat on 8 October 2026, after the month-level timing research for New Zealand, Australia and the United Kingdom was approved. Sections 1 to 11 describe Version 1.0 and are unchanged. Four statements of "When can I plant or move a rose?" now use the approved timing statements, so that this answer and "Which months do I plant or move a rose?" say the same. Nothing else changed.
+
+- **Gardeners in New Zealand only.**
+  - Before: "In New Zealand, winter is the best time to plant a rose, and roses can be planted on through spring. One garden centre says new-season roses reach the shops from June. Months are only a guide." (Moderate confidence)
+  - Now: "In New Zealand, winter is the best time to plant a rose, and planting can go on through spring. One garden company says June and July are the best months. Months are only a guide." (Moderate confidence)
+  - Why: Now word for word the New Zealand timing statement.
+- **Gardeners in Australia only.**
+  - Before: "In Australia, plant bare-root roses in winter, while they are dormant. Two rose societies say June or July, and one source says from May. Months are only a guide." (Moderate confidence)
+  - Now: "In Australia, plant a bare-root rose in June or July. One source says planting can start in May. Months are only a guide." (High confidence)
+  - Why: Now the Australian timing statement, without its explanation of bare-root, which this answer's first statement already gives.
+- **Gardeners in the United Kingdom only.**
+  - Before: "In the UK, plant bare-root roses in late autumn, or from late winter to early spring before growth starts." (Moderate confidence)
+  - Now: "In the UK, plant a bare-root rose while it is dormant, between October and early March. Months are only a guide." (High confidence)
+  - Why: Now the UK timing statement, without its two explanations in brackets, which this answer already gives.
+- **Gardeners in New Zealand only.**
+  - Before: "In New Zealand, one garden centre says the best time to move a rose is after pruning in July, while it is dormant, and once the risk of frost has passed. Months are only a guide, because frosts vary from year to year." (Low confidence)
+  - Now: "In New Zealand, one garden centre says to move a rose in July, after pruning and once the risk of frost has passed. One garden company says June or July. Months are only a guide, because frosts vary from year to year." (Low confidence)
+  - Why: Now the New Zealand timing statement on moving, with "In New Zealand" at the start so that it stands alone in this answer.
+
+**Check.** Each new statement is an approved timing statement that passed the Build Check of its topic, used word for word or with an explanation in brackets removed because this answer already gives it, or, for moving in New Zealand, with the place named at the start. No claim is added. The two answers can no longer give a gardener different months.
+
 # End of Document
