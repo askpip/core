@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000399",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Natural Resources Canada — \"In the zone: Canada's plant hardiness zone maps and website get an update\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-CA-01, AF-1 (High)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-6 (High)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-7 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Federal government, national",
+    "identity": "Natural Resources Canada, \"In the zone: Canada's plant hardiness zone maps and website get an update\", July 2025. Federal government, national. https://natural-resources.canada.ca/stories/simply-science/zone-canada-s-plant-hardiness-zone-maps-website-get-update, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:NRCAN-ST)",
+    "url": "https://natural-resources.canada.ca/stories/simply-science/zone-canada-s-plant-hardiness-zone-maps-website-get-update",
+    "register_code": "TIMING-CA:NRCAN-ST",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-CA-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-16",
+    "note": "Approved by a Founder in chat on 16 October 2026 (Pip's Answers, Canadian months), with no change. Published by KIT."
+  }
+}

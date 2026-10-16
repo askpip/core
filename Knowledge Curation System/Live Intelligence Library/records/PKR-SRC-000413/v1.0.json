@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000413",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Jardin Dion — \"Tout sur les protections hivernales\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-CA-01, AF-43 (Low)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-46 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial garden centre, Quebec (Sainte-Therese)",
+    "identity": "Jardin Dion, \"Tout sur les protections hivernales\" (French), updated 11 June 2026. Commercial garden centre, Quebec (Sainte-Therese). https://www.jardindion.com/conseils-dexperts/rosiers/tout-sur-les-protections-hivernales/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:JD)",
+    "url": "https://www.jardindion.com/conseils-dexperts/rosiers/tout-sur-les-protections-hivernales/",
+    "register_code": "TIMING-CA:JD",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-CA-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-16",
+    "note": "Approved by a Founder in chat on 16 October 2026 (Pip's Answers, Canadian months), with no change. Published by KIT."
+  }
+}

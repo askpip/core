@@ -1,0 +1,36 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000420",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "DNA Gardens — \"Overwintering Hybid Tea and Floribunda Roses\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-CA-01, AF-29 (Low)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-31 (Moderate)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-45 (Low)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-48 (Low)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-49 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial nursery and winery, Alberta (Elnora)",
+    "identity": "DNA Gardens, \"Overwintering Hybid Tea and Floribunda Roses\" [sic], 19 May 2024. Commercial nursery and winery, Alberta (Elnora). https://dnagardens.ca/blogs/news/overwintering-hybid-tea-and-floribunda-roses, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:DNA)",
+    "url": "https://dnagardens.ca/blogs/news/overwintering-hybid-tea-and-floribunda-roses",
+    "register_code": "TIMING-CA:DNA",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-CA-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-16",
+    "note": "Approved by a Founder in chat on 16 October 2026 (Pip's Answers, Canadian months), with no change. Published by KIT."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000422",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Prairie Gardens — \"Canadian Hardiness Zones are Not the Same as US Hardiness Zones!\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-CA-01, AF-3 (Moderate)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-4 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Commercial garden centre, Alberta (near Edmonton)",
+    "identity": "Prairie Gardens, \"Canadian Hardiness Zones are Not the Same as US Hardiness Zones!\", 13 February 2024. Commercial garden centre, Alberta (near Edmonton). https://prairiegardens.org/garden-centre/canadian-hardiness-zones-are-not-the-same-as-us-hardiness-zones/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:PG)",
+    "url": "https://prairiegardens.org/garden-centre/canadian-hardiness-zones-are-not-the-same-as-us-hardiness-zones/",
+    "register_code": "TIMING-CA:PG",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-CA-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-16",
+    "note": "Approved by a Founder in chat on 16 October 2026 (Pip's Answers, Canadian months), with no change. Published by KIT."
+  }
+}

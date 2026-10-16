@@ -1,0 +1,34 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000412",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Laidback Gardener (Mathieu Hodgson) — \"New Plant Hardiness Map for Canada\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-CA-01, AF-1 (High)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-6 (High)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-7 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Garden writer's blog, national",
+    "identity": "Laidback Gardener (Mathieu Hodgson), \"New Plant Hardiness Map for Canada\", 10 August 2025. Garden writer's blog, national. https://laidbackgardener.blog/2025/08/10/new-plant-hardiness-map-for-canada/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:LBG-MAP)",
+    "url": "https://laidbackgardener.blog/2025/08/10/new-plant-hardiness-map-for-canada/",
+    "register_code": "TIMING-CA:LBG-MAP",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-CA-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-16",
+    "note": "Approved by a Founder in chat on 16 October 2026 (Pip's Answers, Canadian months), with no change. Published by KIT."
+  }
+}

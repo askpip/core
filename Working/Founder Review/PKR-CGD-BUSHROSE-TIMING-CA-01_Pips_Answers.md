@@ -1,5 +1,7 @@
 # Pip's Answers — Which Months to Do Each Rose Job in Canada
 
+> **Approved and published, 16 October 2026.** A Founder approved these answers in chat ("push done I approve"), with no change. Everything in section 1 is published as shown, in PKR-CGD-000022 to PKR-CGD-000026 at Version 1.4, and the research is filed as `ARC-BUSHROSE-TIMING-CA-01`. This document is kept as the record of what was read and approved.
+
 This is everything Pip would say about which months to prune, feed, deadhead, plant, move, clear up and protect a rose in Canada. **You are asked for one thing: approval of these answers.** Approving them also approves the research behind them and lets them be published. Nothing else needs reading.
 
 ## 1. What gardeners will see

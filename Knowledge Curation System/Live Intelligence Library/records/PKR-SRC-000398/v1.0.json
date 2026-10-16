@@ -1,0 +1,39 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000398",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Huronia Rose Society — \"Your Guide for Planting & Caring for a Rose Garden\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-CA-01, AF-13 (High)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-15 (Moderate)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-24 (High)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-26 (Moderate)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-34 (Moderate)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-39 (Moderate)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-51 (Low)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-52 (Low)"
+    ]
+  },
+  "content": {
+    "source_type": "Local rose society, Ontario (Barrie and Orillia)",
+    "identity": "Huronia Rose Society, \"Your Guide for Planting & Caring for a Rose Garden\", 25 May 2020, modified 9 December 2024. Local rose society, Ontario (Barrie and Orillia). https://huroniarose.wordpress.com/rose-links/plantingguide/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:HRS)",
+    "url": "https://huroniarose.wordpress.com/rose-links/plantingguide/",
+    "register_code": "TIMING-CA:HRS",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-CA-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-16",
+    "note": "Approved by a Founder in chat on 16 October 2026 (Pip's Answers, Canadian months), with no change. Published by KIT."
+  }
+}

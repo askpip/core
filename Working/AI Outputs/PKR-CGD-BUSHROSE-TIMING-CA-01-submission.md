@@ -1,14 +1,14 @@
-# PKR Submission Package — Canadian Months: Statements Added to the Six Question Answers (v0.4, Draft)
+# PKR Submission Package — Canadian Months: Statements Added to the Six Question Answers (v1.0, Published)
 
-**Draft, awaiting a Founder's approval.** Not published. Built by KIT on 16 October 2026 from `FRD-BUSHROSE-TIMING-CA-01` as corrected by the Build Check (its §11), under the Pip Knowledge Rules. On approval the dossier becomes `ARC-BUSHROSE-TIMING-CA-01` and these statements are published. Sources are in `PKR-SRC-BUSHROSE-TIMING-CA-submission.md`.
+**Published 16 October 2026.** A Founder approved these answers in chat on 16 October 2026 ("push done I approve"), after reading `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-CA-01_Pips_Answers.md`, with no change. The one approval covers the research, which is now `ARC-BUSHROSE-TIMING-CA-01` (v1.0), and Pip's words. Built by KIT on 16 October 2026 under the Pip Knowledge Rules. Sources are in `PKR-SRC-BUSHROSE-TIMING-CA-submission.md`.
 
-**No new record IDs.** The six question answers already exist as PKR-CGD-000022 to PKR-CGD-000027 (PKR-CGD-000022 to 000026 at version 1.3, with the New Zealand, Australian, United Kingdom and United States statements; PKR-CGD-000027 at version 1.2). On approval each of PKR-CGD-000022 to 000026 gets version 1.4: the Canadian statements below are added after those, which do not change, and version 1.3 is retired. PKR-CGD-000027 gets no Canadian statement and does not change.
+**No new record IDs.** The six question answers are PKR-CGD-000022 to PKR-CGD-000027. PKR-CGD-000022 to PKR-CGD-000026 are now at Version 1.4: the Canadian statements below follow the New Zealand, Australian, United Kingdom and United States statements, which did not change, and Version 1.3 is retired. PKR-CGD-000027 has no Canadian statement and stays at Version 1.2.
 
-What a Founder reads is `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-CA-01_Pips_Answers.md`.
+What a Founder read is `Working/Founder Review/PKR-CGD-BUSHROSE-TIMING-CA-01_Pips_Answers.md`.
 
 ## 1. Triage Record
 
-Every finding of the dossier is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant? Item numbers count the Canadian statements of each record.
+Every finding of the research is routed to a statement, or listed as not routed with the reason. The test is the Pip Knowledge Rules §1: does it help a gardener understand, grow or care for the plant? Item numbers count the Canadian statements of each record.
 
 | Item | Use | Routed to |
 |---|---|---|
@@ -76,7 +76,7 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 
 **This topic is shared by the five countries.** Canada is the last. New Zealand's statements were published on 7 October 2026, and Australia's, the United Kingdom's and the United States' on 8 October 2026.
 
-**On approval, in each record's common fields:** Applies To becomes "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom, the United States or Canada; answer to a common question"; Supporting Sources gains the Source PKRs listed below; Preserved Uncertainty keeps the earlier text and gains the Canadian text below.
+**In the common fields of PKR-CGD-000022 to PKR-CGD-000026 at Version 1.4:** Applies To is "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom, the United States or Canada; answer to a common question"; Supporting Sources has the Source PKRs listed below added; Preserved Uncertainty keeps the earlier text and has the Canadian text below added.
 
 ## 3. PKR-CGD-000022 — Which months do I prune my rose?
 
@@ -85,13 +85,13 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000022 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I prune my rose? |
-| Status | Version 1.3 Published (New Zealand, Australian, United Kingdom and United States statements). These statements: Draft |
-| Version | 0.4 of the Canadian statements; the record becomes 1.4 on approval |
+| Status | Published |
+| Version | 1.4 (the Canadian statements added; Version 1.3 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Canada; answer to a common question |
-| Supporting Source(s) to add | AF-13: PKR-SRC-000201, PKR-SRC-000395, PKR-SRC-000398, PKR-SRC-000402, PKR-SRC-000406, PKR-SRC-000409, PKR-SRC-000417, PKR-SRC-000418; AF-14: PKR-SRC-000201, PKR-SRC-000404, PKR-SRC-000416, PKR-SRC-000419; AF-15: PKR-SRC-000201, PKR-SRC-000395, PKR-SRC-000398, PKR-SRC-000409; AF-16: PKR-SRC-000395; AF-17: PKR-SRC-000404; AF-18: PKR-SRC-000416, PKR-SRC-000417, PKR-SRC-000418, PKR-SRC-000419; AF-19: PKR-SRC-000417, PKR-SRC-000419; AF-22: PKR-SRC-000402, PKR-SRC-000404, PKR-SRC-000417 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-13: PKR-SRC-000201, PKR-SRC-000395, PKR-SRC-000398, PKR-SRC-000402, PKR-SRC-000406, PKR-SRC-000409, PKR-SRC-000417, PKR-SRC-000418; AF-14: PKR-SRC-000201, PKR-SRC-000404, PKR-SRC-000416, PKR-SRC-000419; AF-15: PKR-SRC-000201, PKR-SRC-000395, PKR-SRC-000398, PKR-SRC-000409; AF-16: PKR-SRC-000395; AF-17: PKR-SRC-000404; AF-18: PKR-SRC-000416, PKR-SRC-000417, PKR-SRC-000418, PKR-SRC-000419; AF-19: PKR-SRC-000417, PKR-SRC-000419; AF-22: PKR-SRC-000402, PKR-SRC-000404, PKR-SRC-000417 |
+| Founder Approval Date | 16 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | No page checked gives pruning months by hardiness zone, and Pip does not ask for one (AF-8, AF-9). The national month rests on the Canadian Rose Society alone (AF-16). No month was found for Quebec, the Prairies or the Atlantic provinces (AF-12, AF-21). Coastal BC's range rests on two garden companies, a magazine and a newspaper column (AF-18). |
+| Preserved Uncertainty or Limitations added | No page checked gives pruning months by hardiness zone, and Pip does not ask for one (AF-8, AF-9). The national month rests on the Canadian Rose Society alone (AF-16). No month was found for Quebec, the Prairies or the Atlantic provinces (AF-12, AF-21). Coastal BC's range rests on two garden companies, a magazine and a newspaper column (AF-18). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Canada):** Month windows for the main pruning of a Hybrid Tea, Floribunda or Grandiflora rose in Canada, by province, town or area, with the signals sources tie it to
@@ -119,13 +119,13 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000023 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I start and stop feeding? |
-| Status | Version 1.3 Published (New Zealand, Australian, United Kingdom and United States statements). These statements: Draft |
-| Version | 0.4 of the Canadian statements; the record becomes 1.4 on approval |
+| Status | Published |
+| Version | 1.4 (the Canadian statements added; Version 1.3 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Canada; answer to a common question |
-| Supporting Source(s) to add | AF-24: PKR-SRC-000397, PKR-SRC-000398, PKR-SRC-000402, PKR-SRC-000403, PKR-SRC-000409, PKR-SRC-000415, PKR-SRC-000419; AF-26: PKR-SRC-000397, PKR-SRC-000398, PKR-SRC-000414; AF-27: PKR-SRC-000403, PKR-SRC-000405, PKR-SRC-000408, PKR-SRC-000409; AF-28: PKR-SRC-000418, PKR-SRC-000419; AF-51: PKR-SRC-000398 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-24: PKR-SRC-000397, PKR-SRC-000398, PKR-SRC-000402, PKR-SRC-000403, PKR-SRC-000409, PKR-SRC-000415, PKR-SRC-000419; AF-26: PKR-SRC-000397, PKR-SRC-000398, PKR-SRC-000414; AF-27: PKR-SRC-000403, PKR-SRC-000405, PKR-SRC-000408, PKR-SRC-000409; AF-28: PKR-SRC-000418, PKR-SRC-000419; AF-51: PKR-SRC-000398 |
+| Founder Approval Date | 16 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | The national last feed rests on the Canadian Rose Society with a local rose society and a Quebec nursery (AF-26). Later dates from single garden companies are not shown (AF-27, AF-29; a Founder's direction, 8 October 2026). On the BC coast two garden companies disagree with the national society (C-8). |
+| Preserved Uncertainty or Limitations added | The national last feed rests on the Canadian Rose Society with a local rose society and a Quebec nursery (AF-26). Later dates from single garden companies are not shown (AF-27, AF-29; a Founder's direction, 8 October 2026). On the BC coast two garden companies disagree with the national society (C-8). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Canada):** When to give the first and the last feed of the year in Canada, by province, town or area
@@ -148,13 +148,13 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000024 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I stop deadheading? |
-| Status | Version 1.3 Published (New Zealand, Australian, United Kingdom and United States statements). These statements: Draft |
-| Version | 0.4 of the Canadian statements; the record becomes 1.4 on approval |
+| Status | Published |
+| Version | 1.4 (the Canadian statements added; Version 1.3 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Canada; answer to a common question |
-| Supporting Source(s) to add | AF-30: PKR-SRC-000403, PKR-SRC-000409, PKR-SRC-000417; AF-31: PKR-SRC-000403, PKR-SRC-000408, PKR-SRC-000418, PKR-SRC-000419, PKR-SRC-000420; AF-32: PKR-SRC-000394, PKR-SRC-000403, PKR-SRC-000408, PKR-SRC-000416 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-30: PKR-SRC-000403, PKR-SRC-000409, PKR-SRC-000417; AF-31: PKR-SRC-000403, PKR-SRC-000408, PKR-SRC-000418, PKR-SRC-000419, PKR-SRC-000420; AF-32: PKR-SRC-000394, PKR-SRC-000403, PKR-SRC-000408, PKR-SRC-000416 |
+| Founder Approval Date | 16 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | No Canadian source gives a month to stop deadheading; the end of the season and, for one grower, a month before the first frost are used (AF-30). Amounts to shorten tall canes differ (C-7); Pip gives none. |
+| Preserved Uncertainty or Limitations added | No Canadian source gives a month to stop deadheading; the end of the season and, for one grower, a month before the first frost are used (AF-30). Amounts to shorten tall canes differ (C-7); Pip gives none. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Canada):** When to stop deadheading and avoid late pruning in Canada
@@ -175,13 +175,13 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000025 |
 | PKR Type | Care Guidance PKR |
 | Title | Which months do I plant or move a rose? |
-| Status | Version 1.3 Published (New Zealand, Australian, United Kingdom and United States statements). These statements: Draft |
-| Version | 0.4 of the Canadian statements; the record becomes 1.4 on approval |
+| Status | Published |
+| Version | 1.4 (the Canadian statements added; Version 1.3 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Canada; answer to a common question |
-| Supporting Source(s) to add | AF-34: PKR-SRC-000396, PKR-SRC-000398, PKR-SRC-000406, PKR-SRC-000407; AF-35: PKR-SRC-000396, PKR-SRC-000402, PKR-SRC-000406; AF-36: PKR-SRC-000396; AF-37: PKR-SRC-000396, PKR-SRC-000406, PKR-SRC-000414 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-34: PKR-SRC-000396, PKR-SRC-000398, PKR-SRC-000406, PKR-SRC-000407; AF-35: PKR-SRC-000396, PKR-SRC-000402, PKR-SRC-000406; AF-36: PKR-SRC-000396; AF-37: PKR-SRC-000396, PKR-SRC-000406, PKR-SRC-000414 |
+| Founder Approval Date | 16 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | The fall planting times differ by source and are given separately (AF-35, C-2). No Canadian source on moving an established rose was found (AF-38). |
+| Preserved Uncertainty or Limitations added | The fall planting times differ by source and are given separately (AF-35, C-2). No Canadian source on moving an established rose was found (AF-38). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Canada):** Month windows for planting bare-root and potted roses in Canada, and the gap for moving an established rose
@@ -205,13 +205,13 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000026 |
 | PKR Type | Care Guidance PKR |
 | Title | When do I clear up and spray in winter? |
-| Status | Version 1.3 Published (New Zealand, Australian, United Kingdom and United States statements). These statements: Draft |
-| Version | 0.4 of the Canadian statements; the record becomes 1.4 on approval |
+| Status | Published |
+| Version | 1.4 (the Canadian statements added; Version 1.3 retired) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Canada; answer to a common question |
-| Supporting Source(s) to add | AF-10: PKR-SRC-000394, PKR-SRC-000406, PKR-SRC-000410, PKR-SRC-000414, PKR-SRC-000415, PKR-SRC-000421; AF-11: PKR-SRC-000394, PKR-SRC-000418, PKR-SRC-000419; AF-39: PKR-SRC-000394, PKR-SRC-000398, PKR-SRC-000408, PKR-SRC-000419; AF-41: PKR-SRC-000394, PKR-SRC-000403, PKR-SRC-000408, PKR-SRC-000410, PKR-SRC-000421; AF-42: PKR-SRC-000403, PKR-SRC-000408; AF-43: PKR-SRC-000413, PKR-SRC-000415; AF-44: PKR-SRC-000419; AF-45: PKR-SRC-000420; AF-46: PKR-SRC-000201, PKR-SRC-000395, PKR-SRC-000403, PKR-SRC-000408, PKR-SRC-000410, PKR-SRC-000413; AF-47: PKR-SRC-000408; AF-48: PKR-SRC-000420; AF-50: PKR-SRC-000408, PKR-SRC-000421; AF-52: PKR-SRC-000398; AF-53: PKR-SRC-000421 |
-| Founder Approval Date | — |
+| Supporting Source(s) added | AF-10: PKR-SRC-000394, PKR-SRC-000406, PKR-SRC-000410, PKR-SRC-000414, PKR-SRC-000415, PKR-SRC-000421; AF-11: PKR-SRC-000394, PKR-SRC-000418, PKR-SRC-000419; AF-39: PKR-SRC-000394, PKR-SRC-000398, PKR-SRC-000408, PKR-SRC-000419; AF-41: PKR-SRC-000394, PKR-SRC-000403, PKR-SRC-000408, PKR-SRC-000410, PKR-SRC-000421; AF-42: PKR-SRC-000403, PKR-SRC-000408; AF-43: PKR-SRC-000413, PKR-SRC-000415; AF-44: PKR-SRC-000419; AF-45: PKR-SRC-000420; AF-46: PKR-SRC-000201, PKR-SRC-000395, PKR-SRC-000403, PKR-SRC-000408, PKR-SRC-000410, PKR-SRC-000413; AF-47: PKR-SRC-000408; AF-48: PKR-SRC-000420; AF-50: PKR-SRC-000408, PKR-SRC-000421; AF-52: PKR-SRC-000398; AF-53: PKR-SRC-000421 |
+| Founder Approval Date | 16 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | The national statements rest on pages from Ontario, Quebec, Alberta and the national rose society; the national society's zone bands are not used (AF-8, AF-20, AF-33). How soon protection comes off is shown as a disagreement (C-4). One Quebec company's covering before the first frosts and one Alberta nursery's fall cut are not shown (C-3, C-9). A Quebec company's dormant oil is on record only (AF-40). |
+| Preserved Uncertainty or Limitations added | The national statements rest on pages from Ontario, Quebec, Alberta and the national rose society; the national society's zone bands are not used (AF-8, AF-20, AF-33). How soon protection comes off is shown as a disagreement (C-4). One Quebec company's covering before the first frosts and one Alberta nursery's fall cut are not shown (C-3, C-9). A Quebec company's dormant oil is on record only (AF-40). |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Canada):** Fall clear-up, a local winter spray, and when winter protection goes on and comes off in Canada, by province, town or area
@@ -242,13 +242,13 @@ As in PKR Standard §5.7: Shown to, Kind (precaution, gap, disagreement), Trace,
 | PKR ID | PKR-CGD-000027 |
 | PKR Type | Care Guidance PKR |
 | Title | How do I allow for frost and my own garden? |
-| Status | Version 1.2 Published (New Zealand, Australian, United Kingdom statements). These statements: Draft |
-| Version | 0.4 of the Canadian statements; no new version (no Canadian statement) |
+| Status | Published (Version 1.2; no Canadian statement) |
+| Version | 1.2 (unchanged) |
 | Applies To | Hybrid Tea, Floribunda or Grandiflora bush rose in Canada; answer to a common question |
-| Supporting Source(s) to add |  |
-| Founder Approval Date | — |
+| Supporting Source(s) added |  |
+| Founder Approval Date | 16 October 2026 |
 | Related PKRs | PKR-SGT-000001 (unchanged) |
-| Preserved Uncertainty or Limitations to add | No Canadian statement is made in this answer. The frost and cold signals sources give are in each job's own answer. |
+| Preserved Uncertainty or Limitations added | No Canadian statement is made in this answer. The frost and cold signals sources give are in each job's own answer. |
 | Evidence Confidence | See per-claim confidence |
 
 - **Care Topic (Canada):** How timing varies with place, frost and the garden's own conditions in Canada
@@ -276,7 +276,7 @@ There is no Canadian statement in this record.
 
 ## 10. Dependencies
 
-- **Shared records.** These statements are added to PKR-CGD-000022 to PKR-CGD-000026 as version 1.4. The earlier statements in those records do not change. Version 1.3 is retired when 1.4 is published. PKR-CGD-000027 gets no Canadian statement and no new version.
+- **Shared records.** These statements were added to PKR-CGD-000022 to PKR-CGD-000026 as Version 1.4. The earlier statements in those records did not change. Version 1.3 is retired. PKR-CGD-000027 gets no Canadian statement and no new version.
 - **Towns and areas in the app.** Nine are added to the app's list of named places (`App/src/lib/place.ts`), each with a distance that takes in the town or area: Toronto (25 km), Kingston (20 km), Barrie (12 km), Orillia (12 km), Georgina (12 km), the Lower Mainland (32 km), the Fraser Valley (28 km), Victoria (30 km) and the Okanagan (70 km, centred on Kelowna, taking in Penticton and Vernon). The distances are set so that no two overlap except at the edge of the Lower Mainland and the Fraser Valley, which share every statement. Without them the app would not show the statements marked for those places.
 - **General answers shown to every gardener.** The general winter answer (mounding once the rose has had several hard frosts) and the general growing-season answer (deadheading) are unchanged.
 - **Comparison images.** None are needed.

@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000401",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "McKenney, Pedlar, Lawrence, DeBoer and MacDonald — \"Updated plant hardiness zones for Canada and assessment of change over time\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-CA-01, AF-1 (High)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-6 (High)"
+    ]
+  },
+  "content": {
+    "source_type": "1038/s41598-025-00931-5; abstract read via DOAJ record. Peer-reviewed journal, national",
+    "identity": "McKenney, Pedlar, Lawrence, DeBoer and MacDonald, \"Updated plant hardiness zones for Canada and assessment of change over time\", Scientific Reports, July 2025, DOI 10.1038/s41598-025-00931-5; abstract read via DOAJ record. Peer-reviewed journal, national. https://doaj.org/article/60a3345256a64864b3264efec5b44e5f, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:SR-MCK)",
+    "url": "https://doaj.org/article/60a3345256a64864b3264efec5b44e5f",
+    "register_code": "TIMING-CA:SR-MCK",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-CA-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-16",
+    "note": "Approved by a Founder in chat on 16 October 2026 (Pip's Answers, Canadian months), with no change. Published by KIT."
+  }
+}

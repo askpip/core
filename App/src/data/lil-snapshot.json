@@ -2188,11 +2188,11 @@
   },
   {
    "pkr_id": "PKR-CGD-000022",
-   "version": "1.3",
+   "version": "1.4",
    "pkr_type": "care_guidance",
    "title": "Which months do I prune my rose?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom, the United States or Canada; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000001",
      "PKR-SRC-000003",
@@ -2217,6 +2217,7 @@
      "PKR-SRC-000194",
      "PKR-SRC-000196",
      "PKR-SRC-000200",
+     "PKR-SRC-000201",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
      "PKR-SRC-000253",
@@ -2273,16 +2274,26 @@
      "PKR-SRC-000390",
      "PKR-SRC-000391",
      "PKR-SRC-000392",
-     "PKR-SRC-000393"
+     "PKR-SRC-000393",
+     "PKR-SRC-000395",
+     "PKR-SRC-000398",
+     "PKR-SRC-000402",
+     "PKR-SRC-000404",
+     "PKR-SRC-000406",
+     "PKR-SRC-000409",
+     "PKR-SRC-000416",
+     "PKR-SRC-000417",
+     "PKR-SRC-000418",
+     "PKR-SRC-000419"
     ],
-    "founder_approval_date": "2026-10-08",
+    "founder_approval_date": "2026-10-16",
     "related_pkrs": [
      {
       "relationship": "related",
       "pkr_id": "PKR-SGT-000001"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts. Australia: Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18). United Kingdom: Sources differ on the months: February to March, January to February, or a frost-free day from November to March (C-1). One rose grower's own pages changed from February and March (2017) to January and February (2025 and 2026). No source says where 'the south' ends or 'northern and colder areas' begin, and a location cannot tell (AF-27, R-1). One rose nursery's much earlier months, for the Midlands and south counties and for the north of England and Scotland, contradict the RHS and the approved dormancy research (C-9, C-15), and are not shown, at a Founder's direction; its claim that pruning in March delays flowering is not used (R-2, C-12). The signals named differ, and whether 'growth just resuming' and 'before buds swell' are the same moment is not stated (C-2). Most month detail is from commercial sources; no rose society page could be read (R-4). Months for the autumn trim against wind differ from September to November (C-7), and one grower's pages differ on how much to take off (C-10). One grower's advice not to cut back hard in autumn runs against the nursery's November and December (C-14). United States: No page checked gives pruning months by USDA zone, and Pip does not ask for one (AF-6). Each end of the national range rests on two organisations, each speaking only of its own place (AF-15). Months for every state, county and city rest on one organisation, except that Minnesota has two that agree on spring and give no month. No month was found for Illinois, Pennsylvania, Minnesota or Wisconsin; those statements give the season and the signal. Illinois Extension and a Nashville rosarian differ on the forsythia signal (C-10). Sources differ on cutting roses back in late fall (C-11). The San Antonio column dates from 2003, the South Carolina factsheet from 1999. One Nashville member's own pruning dates are on record only (AF-12).",
+    "preserved_uncertainty": "New Zealand: Sources differ within the June to August window (C-1). One company says cooler places prune earlier, against the rest (C-2). Times for the north differ by up to a month (C-3). Christchurch is placed differently by two sources (C-4). Southern sources differ between late July and August (C-10). Two companies differ on whether to wait for the leaves to fall (C-12). No source draws a boundary for 'up north' or 'colder parts'. Months for the north, Northland, Auckland, Whanganui, Masterton, Canterbury, Christchurch and Dunedin each rest on one organisation or on garden companies. No New Zealand source names bud swell; three say to prune before growth starts. Australia: Sources differ on whether pruning can begin in June (C-2), and on when in August cold or frosty areas prune (C-3). One South Australian nursery puts frosty districts in July, and the South Australian society's own pages differ (C-9). No source defines a cold, frosty or mild area (AF-5). Months for inland New South Wales, Victoria, Western Australia and Brisbane each rest on one organisation. The Canberra pages could not be opened on 7 October 2026, so Pip says nothing for Canberra (AF-15). No months were found for Tasmania, the Northern Territory or the arid zone (AF-51, AF-52, AF-45); what one garden near Darwin does is on record only. No Australian rose page checked times pruning by bud swell (AF-18). United Kingdom: Sources differ on the months: February to March, January to February, or a frost-free day from November to March (C-1). One rose grower's own pages changed from February and March (2017) to January and February (2025 and 2026). No source says where 'the south' ends or 'northern and colder areas' begin, and a location cannot tell (AF-27, R-1). One rose nursery's much earlier months, for the Midlands and south counties and for the north of England and Scotland, contradict the RHS and the approved dormancy research (C-9, C-15), and are not shown, at a Founder's direction; its claim that pruning in March delays flowering is not used (R-2, C-12). The signals named differ, and whether 'growth just resuming' and 'before buds swell' are the same moment is not stated (C-2). Most month detail is from commercial sources; no rose society page could be read (R-4). Months for the autumn trim against wind differ from September to November (C-7), and one grower's pages differ on how much to take off (C-10). One grower's advice not to cut back hard in autumn runs against the nursery's November and December (C-14). United States: No page checked gives pruning months by USDA zone, and Pip does not ask for one (AF-6). Each end of the national range rests on two organisations, each speaking only of its own place (AF-15). Months for every state, county and city rest on one organisation, except that Minnesota has two that agree on spring and give no month. No month was found for Illinois, Pennsylvania, Minnesota or Wisconsin; those statements give the season and the signal. Illinois Extension and a Nashville rosarian differ on the forsythia signal (C-10). Sources differ on cutting roses back in late fall (C-11). The San Antonio column dates from 2003, the South Carolina factsheet from 1999. One Nashville member's own pruning dates are on record only (AF-12). Canada: No page checked gives pruning months by hardiness zone, and Pip does not ask for one (AF-8, AF-9). The national month rests on the Canadian Rose Society alone (AF-16). No month was found for Quebec, the Prairies or the Atlantic provinces (AF-12, AF-21). Coastal BC's range rests on two garden companies, a magazine and a newspaper column (AF-18).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -2959,6 +2970,129 @@
        "rule 4",
        "rule 6"
       ]
+     },
+     {
+      "text": "In Canada, one rose society says the main pruning is usually done in April. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-16",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-13",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Let the forsythia (a shrub with yellow flowers) tell you when: prune your rose when the forsythia is in flower where you live.",
+      "confidence": "High",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-13"
+      ]
+     },
+     {
+      "text": "Look at the buds as well: prune as they begin to swell, before any leaves open.",
+      "confidence": "Moderate",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-14"
+      ]
+     },
+     {
+      "text": "If your rose has winter protection, take it off first, then prune.",
+      "confidence": "Moderate",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-15"
+      ]
+     },
+     {
+      "text": "Wait until the danger of a hard frost has passed, or the newly pruned tips may be killed.",
+      "confidence": "Moderate",
+      "kind": "precaution",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-22",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In Toronto, one Master Gardener group says the main pruning is usually in April or May, just before new growth begins and as the buds begin to swell. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "CA-ON:Toronto"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-17",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-14",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "On the coast of British Columbia, the main pruning is done in late winter, between late February and mid-March, as the buds begin to swell. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Moderate",
+      "place": [
+       "CA-BC:Lower Mainland",
+       "CA-BC:Fraser Valley",
+       "CA-BC:Victoria"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-18",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-14",
+       "rule 3",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In the Okanagan, one garden company says not to prune in fall, but to wait until early spring. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "CA-BC:Okanagan"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-19",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "I couldn't find a source that gives a month for the main pruning of Hybrid Tea or Floribunda roses in Quebec, Alberta, Saskatchewan or Manitoba. A local rose society or horticultural society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "CA-QC",
+       "CA-AB",
+       "CA-SK",
+       "CA-MB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-21",
+       "rule 5"
+      ]
+     },
+     {
+      "text": "I couldn't find rose months from a source in Nova Scotia, New Brunswick, Prince Edward Island or Newfoundland and Labrador. A local rose society or horticultural society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "CA-NS",
+       "CA-NB",
+       "CA-PE",
+       "CA-NL"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-12",
+       "rule 5"
+      ]
      }
     ],
     "presentation": {
@@ -2974,11 +3108,11 @@
   },
   {
    "pkr_id": "PKR-CGD-000023",
-   "version": "1.3",
+   "version": "1.4",
    "pkr_type": "care_guidance",
    "title": "When do I start and stop feeding?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom, the United States or Canada; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000047",
      "PKR-SRC-000066",
@@ -3031,16 +3165,27 @@
      "PKR-SRC-000390",
      "PKR-SRC-000391",
      "PKR-SRC-000392",
-     "PKR-SRC-000393"
+     "PKR-SRC-000393",
+     "PKR-SRC-000397",
+     "PKR-SRC-000398",
+     "PKR-SRC-000402",
+     "PKR-SRC-000403",
+     "PKR-SRC-000405",
+     "PKR-SRC-000408",
+     "PKR-SRC-000409",
+     "PKR-SRC-000414",
+     "PKR-SRC-000415",
+     "PKR-SRC-000418",
+     "PKR-SRC-000419"
     ],
-    "founder_approval_date": "2026-10-08",
+    "founder_approval_date": "2026-10-16",
     "related_pkrs": [
      {
       "relationship": "related",
       "pkr_id": "PKR-CGD-000004"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2). Australia: Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25). United Kingdom: Months for the first feed run from late February to April, and one rose grower's two pages differ (C-11). Only one rose grower names a last feed, by the end of August; the RHS gives no end date for feeding (C-3). Whether a feed in late August risks soft growth in the north is not known. No source gives different feeding months for different parts of the UK (AF-28). United States: The national range for the last feed is built from pages that each speak of their own place; no page gives it (AF-25). In Minnesota and Wisconsin the end of nitrogen feeding differs by about five weeks (C-1). Nashville is too late for granular feeds in September while Cobb County still feeds then (C-2). One Marin rose society starts after the first flowers rather than at new growth (C-4). Iowa's page gives a feed in mid to late July and no date to stop (C-7). Months for every other state, county and city rest on one organisation.",
+    "preserved_uncertainty": "New Zealand: Months for the first feed differ from late August to mid-late October (C-6) and come mostly from companies. Sources conflict on the last feed, from the end of February to early April, and two companies feed through autumn (C-5). One company's advice to wait for the last frosts in frosty areas is given as a precaution (AF-20). No non-commercial New Zealand source names a month for the last feed (R-2). Australia: Months for the first feed run from the latter half of August to September, and some sources go by growth or by the pruning date instead (C-4). Sources differ on the last feed, from mid February to May (C-5); only one society calls any feed the last. Months for New South Wales, Victoria and Western Australia each rest on one society. What one Brisbane rose farm and one garden near Darwin do is on record only (AF-24, AF-25). United Kingdom: Months for the first feed run from late February to April, and one rose grower's two pages differ (C-11). Only one rose grower names a last feed, by the end of August; the RHS gives no end date for feeding (C-3). Whether a feed in late August risks soft growth in the north is not known. No source gives different feeding months for different parts of the UK (AF-28). United States: The national range for the last feed is built from pages that each speak of their own place; no page gives it (AF-25). In Minnesota and Wisconsin the end of nitrogen feeding differs by about five weeks (C-1). Nashville is too late for granular feeds in September while Cobb County still feeds then (C-2). One Marin rose society starts after the first flowers rather than at new growth (C-4). Iowa's page gives a feed in mid to late July and no date to stop (C-7). Months for every other state, county and city rest on one organisation. Canada: The national last feed rests on the Canadian Rose Society with a local rose society and a Quebec nursery (AF-26). Later dates from single garden companies are not shown (AF-27, AF-29; a Founder's direction, 8 October 2026). On the BC coast two garden companies disagree with the national society (C-8).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -3453,6 +3598,69 @@
        "ARC-BUSHROSE-TIMING-US-01 AF-89",
        "rule 4"
       ]
+     },
+     {
+      "text": "Give the first feed in spring, once you have tidied the bed and pruned, as new growth begins.",
+      "confidence": "High",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-24"
+      ]
+     },
+     {
+      "text": "Give the last feed by mid-July, so that the stems can ripen before winter. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-26",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Toronto, one Master Gardener group says not to feed your roses after the end of July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "CA-ON:Toronto"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-27",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Barrie and Orillia, one rose society says to feed established roses once you have tidied the bed, following the directions on the container, again before the peak of bloom in June, and a last time in mid-July. Months are only a guide.",
+      "confidence": "Low",
+      "place": [
+       "CA-ON:Barrie",
+       "CA-ON:Orillia"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-51",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-24",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "On the coast of British Columbia, sources disagree about the last feed. The national rose society says to give the last feed by mid-July. A garden company says to stop feeding by late summer, and a rose nursery says to give no feed from September onward. Months are only a guide.",
+      "kind": "disagreement",
+      "place": [
+       "CA-BC:Lower Mainland",
+       "CA-BC:Fraser Valley",
+       "CA-BC:Victoria"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-28",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-26",
+       "ARC-BUSHROSE-TIMING-CA-01 C-8",
+       "rule 2",
+       "rule 6"
+      ]
      }
     ],
     "presentation": {
@@ -3468,11 +3676,11 @@
   },
   {
    "pkr_id": "PKR-CGD-000024",
-   "version": "1.3",
+   "version": "1.4",
    "pkr_type": "care_guidance",
    "title": "When do I stop deadheading?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom, the United States or Canada; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000003",
      "PKR-SRC-000130",
@@ -3500,16 +3708,25 @@
      "PKR-SRC-000378",
      "PKR-SRC-000385",
      "PKR-SRC-000387",
-     "PKR-SRC-000392"
+     "PKR-SRC-000392",
+     "PKR-SRC-000394",
+     "PKR-SRC-000403",
+     "PKR-SRC-000408",
+     "PKR-SRC-000409",
+     "PKR-SRC-000416",
+     "PKR-SRC-000417",
+     "PKR-SRC-000418",
+     "PKR-SRC-000419",
+     "PKR-SRC-000420"
     ],
-    "founder_approval_date": "2026-10-08",
+    "founder_approval_date": "2026-10-16",
     "related_pkrs": [
      {
       "relationship": "related",
       "pkr_id": "PKR-CGD-000004"
      }
     ],
-    "preserved_uncertainty": "New Zealand: The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25). Australia: No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming. United Kingdom: No UK source located gives a month to stop deadheading (AF-35); the approved general pattern, from US sources, stops in early to mid autumn (C-6). October rests on one rose grower. The two sources on roses grown for hips give different times to stop (C-13), and neither names Hybrid Teas or Floribundas. No UK source located gives a date to stop summer pruning. United States: Times to stop run from mid-August (the Kansas City area) to November or December (Marin and Orange Counties), and Nashville still cuts flowers in November while Cobb County stops in October (C-2). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree. Pip's general answer, shown to everyone, gives a general time; the local times here differ from it. It says to stop in early-to-mid autumn so the rose can form hips.",
+    "preserved_uncertainty": "New Zealand: The times to stop come from two garden companies and one garden service, about a month apart (C-9). Other pages name no time to stop, and one says to deadhead throughout the flowering season. No New Zealand source gives a month to stop summer pruning (AF-25). Australia: No Australian source gives a month to stop deadheading (AF-29). Months for the summer trim differ by state, from January to April (C-11); the Western Australian society's aim is fresh growth, and the Victorian society trims only for a show or event. The areas the New South Wales society calls cool, mild and warm are not defined (AF-5). No Australian source gives a time to stop summer trimming. United Kingdom: No UK source located gives a month to stop deadheading (AF-35); the approved general pattern, from US sources, stops in early to mid autumn (C-6). October rests on one rose grower. The two sources on roses grown for hips give different times to stop (C-13), and neither names Hybrid Teas or Floribundas. No UK source located gives a date to stop summer pruning. United States: Times to stop run from mid-August (the Kansas City area) to November or December (Marin and Orange Counties), and Nashville still cuts flowers in November while Cobb County stops in October (C-2). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree. Pip's general answer, shown to everyone, gives a general time; the local times here differ from it. It says to stop in early-to-mid autumn so the rose can form hips. Canada: No Canadian source gives a month to stop deadheading; the end of the season and, for one grower, a month before the first frost are used (AF-30). Amounts to shorten tall canes differ (C-7); Pip gives none.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -3782,6 +3999,38 @@
        "rule 4",
        "rule 6"
       ]
+     },
+     {
+      "text": "Towards the end of the season, stop deadheading (removing the faded flowers) and let the last flowers go to seed. The hips (the rose's fruit) can stay on the stems over winter.",
+      "confidence": "Moderate",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-30"
+      ]
+     },
+     {
+      "text": "One rose grower says to stop deadheading a month before the first frost is expected.",
+      "confidence": "Low",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-30",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "Don't prune your rose in late summer or fall; leave the main pruning until spring. The one exception is shortening very tall canes, so that winter winds don't whip them about.",
+      "confidence": "Moderate",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-31",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-32"
+      ]
      }
     ],
     "presentation": {
@@ -3797,11 +4046,11 @@
   },
   {
    "pkr_id": "PKR-CGD-000025",
-   "version": "1.3",
+   "version": "1.4",
    "pkr_type": "care_guidance",
    "title": "Which months do I plant or move a rose?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom, the United States or Canada; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000034",
      "PKR-SRC-000047",
@@ -3865,9 +4114,15 @@
      "PKR-SRC-000385",
      "PKR-SRC-000387",
      "PKR-SRC-000390",
-     "PKR-SRC-000392"
+     "PKR-SRC-000392",
+     "PKR-SRC-000396",
+     "PKR-SRC-000398",
+     "PKR-SRC-000402",
+     "PKR-SRC-000406",
+     "PKR-SRC-000407",
+     "PKR-SRC-000414"
     ],
-    "founder_approval_date": "2026-10-08",
+    "founder_approval_date": "2026-10-16",
     "related_pkrs": [
      {
       "relationship": "related",
@@ -3878,7 +4133,7 @@
       "pkr_id": "PKR-CGD-000021"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies. Australia: The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society. United Kingdom: The whole bare-root range, October to early March, is on one garden company's page; the RHS names seasons only and leaves out the middle of winter, while one rose grower calls December one of the best months (C-4). Months for moving a rose differ (C-5), and the RHS window is for deciduous shrubs in general, not roses. The ideal months for potted roses, and the warning about extreme heat, each rest on one source. United States: Every planting and moving month rests on one organisation in its own place. Places differ on the season for moving a rose, from fall (Illinois) to December to March (Arizona's low desert, Nashville, Arkansas, Marin County) and early spring (Iowa); the Nashville society's own pages give two times. Florida's months say when bare-root roses are on sale, not when to plant them. Missouri's -10 °F line for bare-root planting is already in Pip's US answer on planting (PKR-CGD-000016) and is on record only here (AF-99).",
+    "preserved_uncertainty": "New Zealand: Named planting months come from one company nationally and from one organisation for Canterbury. Auckland Botanic Gardens says autumn or winter, of container plants (C-8). All sources on moving are commercial, and one garden centre gives two different answers on its own pages (C-7). The potted-rose statement rests on two companies. Australia: The edges of the bare-root window differ: from May in two sources, and into August in South Australia (C-6). The Canberra page that named August could not be opened (AF-32). That potted roses can be planted at any time is one Sydney garden centre's statement (AF-64). Only the Victorian society names a month for moving a rose, and it does not say winter or dormant. Named months for New South Wales, Victoria and Western Australia each rest on one society. United Kingdom: The whole bare-root range, October to early March, is on one garden company's page; the RHS names seasons only and leaves out the middle of winter, while one rose grower calls December one of the best months (C-4). Months for moving a rose differ (C-5), and the RHS window is for deciduous shrubs in general, not roses. The ideal months for potted roses, and the warning about extreme heat, each rest on one source. United States: Every planting and moving month rests on one organisation in its own place. Places differ on the season for moving a rose, from fall (Illinois) to December to March (Arizona's low desert, Nashville, Arkansas, Marin County) and early spring (Iowa); the Nashville society's own pages give two times. Florida's months say when bare-root roses are on sale, not when to plant them. Missouri's -10 °F line for bare-root planting is already in Pip's US answer on planting (PKR-CGD-000016) and is on record only here (AF-99). Canada: The fall planting times differ by source and are given separately (AF-35, C-2). No Canadian source on moving an established rose was found (AF-38).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -4321,6 +4576,75 @@
        "rule 4",
        "rule 6"
       ]
+     },
+     {
+      "text": "Plant a bare-root rose in spring: in April, or as soon as the ground has thawed and you can dig the soil. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-34",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "Outside the Prairies (Alberta, Saskatchewan and Manitoba), a rose can also be planted in fall: sources give September, or late fall. Months are only a guide.",
+      "confidence": "Moderate",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-35",
+       "rule 3",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "On the Prairies (Alberta, Saskatchewan and Manitoba), one rose society says planting in fall is not recommended.",
+      "confidence": "Low",
+      "place": [
+       "CA-AB",
+       "CA-SK",
+       "CA-MB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-36",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "A rose in a pot can be planted at any time during the growing season.",
+      "confidence": "Moderate",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-37"
+      ]
+     },
+     {
+      "text": "In Kingston, one Master Gardener group says a rose in a pot is best planted in spring or early summer, and that bare-root grafted roses can be ordered for planting in late fall.",
+      "confidence": "Low",
+      "place": [
+       "CA-ON:Kingston"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-37",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-35",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "I couldn't find a Canadian source on when to move an established rose. A local rose society or horticultural society is the place to ask.",
+      "kind": "gap",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-38",
+       "rule 5"
+      ]
      }
     ],
     "presentation": {
@@ -4336,11 +4660,11 @@
   },
   {
    "pkr_id": "PKR-CGD-000026",
-   "version": "1.3",
+   "version": "1.4",
    "pkr_type": "care_guidance",
    "title": "When do I clear up and spray in winter?",
    "common": {
-    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom or the United States; answer to a common question",
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose in New Zealand, Australia, the United Kingdom, the United States or Canada; answer to a common question",
     "supporting_sources": [
      "PKR-SRC-000004",
      "PKR-SRC-000066",
@@ -4354,6 +4678,7 @@
      "PKR-SRC-000190",
      "PKR-SRC-000193",
      "PKR-SRC-000196",
+     "PKR-SRC-000201",
      "PKR-SRC-000228",
      "PKR-SRC-000229",
      "PKR-SRC-000239",
@@ -4403,9 +4728,23 @@
      "PKR-SRC-000387",
      "PKR-SRC-000390",
      "PKR-SRC-000392",
-     "PKR-SRC-000393"
+     "PKR-SRC-000393",
+     "PKR-SRC-000394",
+     "PKR-SRC-000395",
+     "PKR-SRC-000398",
+     "PKR-SRC-000403",
+     "PKR-SRC-000406",
+     "PKR-SRC-000408",
+     "PKR-SRC-000410",
+     "PKR-SRC-000413",
+     "PKR-SRC-000414",
+     "PKR-SRC-000415",
+     "PKR-SRC-000418",
+     "PKR-SRC-000419",
+     "PKR-SRC-000420",
+     "PKR-SRC-000421"
     ],
-    "founder_approval_date": "2026-10-08",
+    "founder_approval_date": "2026-10-16",
     "related_pkrs": [
      {
       "relationship": "related",
@@ -4416,7 +4755,7 @@
       "pkr_id": "PKR-CGD-000006"
      }
     ],
-    "preserved_uncertainty": "New Zealand: Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). Australia: The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). United Kingdom: Months for clearing leaves come from one rose grower (AF-37); the RHS names autumn only. No UK gardening body or rose society page located describes a winter spray; one company that sells lime sulphur describes one, and whether such a product is authorised for home gardens in the UK is not established, so Pip gives no timing for it (AF-24, R-3). No UK source describes mounding soil over the base for winter (AF-26, C-8), and none says when mulch over exposed roots comes off. United States: One Cobb County neem oil spray rests only on a checker's note and is left out (AF-78). Winter-spray months differ from place to place, from mid to late October (Minnesota, Wisconsin and the Dakotas) to February (Nashville), and most pages name no type (C-6). In Minnesota and Wisconsin, one rose expert begins mounding soil in September, earlier than the hard frosts other pages wait for (C-3). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree on the covering and its removal. No page for Arizona's low desert or Marin County describes winter protection (AF-60). Pip's general winter answer, shown to everyone, already says when mounding goes on and comes off (AF-59). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01).",
+    "preserved_uncertainty": "New Zealand: Sources differ on whether a winter spray goes on before or after pruning (C-11). Months for the spray come from a 1996 rose society article, one rose columnist and two garden centres. Sources differ on how long to keep lime sulphur apart from other sprays (AF-47). Follow-up sprays differ from page to page and are on record only (AF-34). No New Zealand source describes covering or mounding roses for winter (AF-35). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). Australia: The month of the winter spray differs by state and, within South Australia, between the society and one nursery (C-7). Sources differ on whether prunings go in the green waste or the rubbish (C-10). The lime sulphur precaution rests on the national broadcaster and one Sydney garden centre. The Canberra page on spraying could not be opened (AF-36). No Australian source describes covering or mounding roses for winter (AF-38). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). United Kingdom: Months for clearing leaves come from one rose grower (AF-37); the RHS names autumn only. No UK gardening body or rose society page located describes a winter spray; one company that sells lime sulphur describes one, and whether such a product is authorised for home gardens in the UK is not established, so Pip gives no timing for it (AF-24, R-3). No UK source describes mounding soil over the base for winter (AF-26, C-8), and none says when mulch over exposed roots comes off. United States: One Cobb County neem oil spray rests only on a checker's note and is left out (AF-78). Winter-spray months differ from place to place, from mid to late October (Minnesota, Wisconsin and the Dakotas) to February (Nashville), and most pages name no type (C-6). In Minnesota and Wisconsin, one rose expert begins mounding soil in September, earlier than the hard frosts other pages wait for (C-3). Each place rests on one organisation, except Minnesota and Wisconsin, where two agree on the covering and its removal. No page for Arizona's low desert or Marin County describes winter protection (AF-60). Pip's general winter answer, shown to everyone, already says when mounding goes on and comes off (AF-59). Whether a winter spray makes a measurable difference is not established (ARC-BUSHROSE-SPRAYING-01). Canada: The national statements rest on pages from Ontario, Quebec, Alberta and the national rose society; the national society's zone bands are not used (AF-8, AF-20, AF-33). How soon protection comes off is shown as a disagreement (C-4). One Quebec company's covering before the first frosts and one Alberta nursery's fall cut are not shown (C-3, C-9). A Quebec company's dormant oil is on record only (AF-40).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -5001,6 +5340,159 @@
       ],
       "trace": [
        "ARC-BUSHROSE-TIMING-US-01 AF-90",
+       "rule 4",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "In the colder parts of Canada, Hybrid Tea and Floribunda roses need protecting over winter.",
+      "confidence": "High",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-10"
+      ]
+     },
+     {
+      "text": "In fall, as you get your roses ready for winter, remove all dead leaves and clippings from the bed.",
+      "confidence": "Moderate",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-39"
+      ]
+     },
+     {
+      "text": "Put the winter protection (such as a mound of soil or a cover) on after hard frosts, once the rose is dormant (resting, no longer growing) and the ground is starting to freeze. Don't put it on too early.",
+      "confidence": "High",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-41"
+      ]
+     },
+     {
+      "text": "Take the winter protection off in spring as the soil thaws. Sources disagree on how soon: some say as soon as thawing allows, while the national rose society waits until late spring, when a hard freeze is no longer expected.",
+      "kind": "disagreement",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-46",
+       "ARC-BUSHROSE-TIMING-CA-01 C-4",
+       "rule 2"
+      ]
+     },
+     {
+      "text": "Take the protection off a little at a time as the ground thaws, not all at once.",
+      "confidence": "Low",
+      "kind": "precaution",
+      "place": [
+       "CA"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-50",
+       "rule 7"
+      ]
+     },
+     {
+      "text": "On the coast of British Columbia, winter protection is not usually needed. If extreme cold is forecast, protect newly planted roses, and move roses in pots into a garage or other unheated space.",
+      "confidence": "Moderate",
+      "place": [
+       "CA-BC:Lower Mainland",
+       "CA-BC:Fraser Valley",
+       "CA-BC:Victoria"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-11"
+      ]
+     },
+     {
+      "text": "In Ontario, one source says to put winter protection on in mid- to late November, once the ground is frozen, and not too early. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "CA-ON"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-42",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Georgina, one garden centre says to start getting roses ready for winter in early to mid-November or after the first few hard frosts, and to wait for several hard frosts before covering them, because covering too soon can trap moisture and invite rot or mildew. It says to uncover them gradually, around late April or early May, once the snow has melted and daytime temperatures consistently stay above freezing. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "CA-ON:Georgina"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-47",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-42",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-41",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-50",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In Quebec, one garden company says to wait for the cooler weather of November before putting on foam cones, though nets, wooden frames and snow fences can go up earlier. It says to take the protection off as soon as the snow and ice allow.",
+      "confidence": "Low",
+      "place": [
+       "CA-QC"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-43",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-46",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Alberta, one guide says to cut the canes back to about 70 cm and remove the remaining leaves, to wait until the rose is fully dormant (resting, no longer growing), and then to build the mound once the ground is at least partly frozen.",
+      "confidence": "Low",
+      "place": [
+       "CA-AB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-53",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Alberta, one garden company says to water your roses for the winter on 15 October, and to take the winter cover off around the May long weekend. Months are only a guide, because frosts vary from year to year.",
+      "confidence": "Low",
+      "place": [
+       "CA-AB"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-45",
+       "ARC-BUSHROSE-TIMING-CA-01 AF-48",
+       "rule 4",
+       "rule 6"
+      ]
+     },
+     {
+      "text": "In the Okanagan, one garden company says to mound soil or compost around the base of grafted roses in late fall.",
+      "confidence": "Low",
+      "place": [
+       "CA-BC:Okanagan"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-44",
+       "rule 4"
+      ]
+     },
+     {
+      "text": "In Barrie and Orillia, one rose society says a dormant-oil spray early in spring, and again before the winter protection goes on, will keep disease down. If you use one, follow the label and the local rules.",
+      "confidence": "Low",
+      "place": [
+       "CA-ON:Barrie",
+       "CA-ON:Orillia"
+      ],
+      "trace": [
+       "ARC-BUSHROSE-TIMING-CA-01 AF-52",
        "rule 4",
        "rule 7"
       ]
@@ -12556,13 +13048,13 @@
   },
   {
    "pkr_id": "PKR-SRC-000201",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "source",
    "title": "Landscape Ontario — \"Roses: type and pruning\"",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose",
     "supporting_sources": [],
-    "founder_approval_date": "2026-10-02",
+    "founder_approval_date": "2026-10-16",
     "related_pkrs": [],
     "preserved_uncertainty": "",
     "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
@@ -12572,7 +13064,11 @@
      "ARC-BUSHROSE-HARDPRUNE-01, AF-8 (Moderate)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-9 (Moderate)",
      "ARC-BUSHROSE-HARDPRUNE-01, AF-11 (Moderate)",
-     "ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate)"
+     "ARC-BUSHROSE-HARDPRUNE-01, AF-21 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-13 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-14 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-46 (High)"
     ]
    },
    "content": {
@@ -17972,6 +18468,807 @@
     "identity": "UC Master Gardener Program of Contra Costa County, \"Easy Guide to Hard Pruning Roses this Winter\", date not shown. University extension (Master Gardener), Contra Costa County, California; zone not stated. https://ucanr.edu/site/uc-master-gardener-program-contra-costa-county/article/easy-guide-hard-pruning-roses-winter, accessed 1 October 2026 and 8 October 2026 (register code TIMING-US:UC-CC)",
     "url": "https://ucanr.edu/site/uc-master-gardener-program-contra-costa-county/article/easy-guide-hard-pruning-roses-winter",
     "register_code": "TIMING-US:UC-CC",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000394",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Canadian Rose Society — \"Winter Protection\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-8 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-20 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-33 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-39 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-41 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, national (by zone band)",
+    "identity": "Canadian Rose Society, \"Winter Protection\", date not shown. Rose society, national (by zone band). https://canadianrosesociety.org/winter-protection/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:CRS-WP)",
+    "url": "https://canadianrosesociety.org/winter-protection/",
+    "register_code": "TIMING-CA:CRS-WP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000395",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Canadian Rose Society — \"Spring Maintenance & Pruning\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-13 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-16 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-46 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-49 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, national (no band named)",
+    "identity": "Canadian Rose Society, \"Spring Maintenance & Pruning\", date not shown. Rose society, national (no band named). https://canadianrosesociety.org/spring-maintenance-pruning/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:CRS-SP)",
+    "url": "https://canadianrosesociety.org/spring-maintenance-pruning/",
+    "register_code": "TIMING-CA:CRS-SP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000396",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Canadian Rose Society — \"Planting\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-34 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-35 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-36 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-37 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, national",
+    "identity": "Canadian Rose Society, \"Planting\" (page heading \"Site Selection and Preparation\"), date not shown. Rose society, national. https://canadianrosesociety.org/planting/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:CRS-PL)",
+    "url": "https://canadianrosesociety.org/planting/",
+    "register_code": "TIMING-CA:CRS-PL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000397",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Canadian Rose Society — \"Ongoing Care\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-26 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Rose society, national",
+    "identity": "Canadian Rose Society, \"Ongoing Care\", date not shown. Rose society, national. https://canadianrosesociety.org/ongoing-care/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:CRS-OC)",
+    "url": "https://canadianrosesociety.org/ongoing-care/",
+    "register_code": "TIMING-CA:CRS-OC",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000398",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Huronia Rose Society — \"Your Guide for Planting & Caring for a Rose Garden\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-13 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-26 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-34 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-39 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-51 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-52 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Local rose society, Ontario (Barrie and Orillia)",
+    "identity": "Huronia Rose Society, \"Your Guide for Planting & Caring for a Rose Garden\", 25 May 2020, modified 9 December 2024. Local rose society, Ontario (Barrie and Orillia). https://huroniarose.wordpress.com/rose-links/plantingguide/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:HRS)",
+    "url": "https://huroniarose.wordpress.com/rose-links/plantingguide/",
+    "register_code": "TIMING-CA:HRS",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000399",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Natural Resources Canada — \"In the zone: Canada's plant hardiness zone maps and website get an update\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-6 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-7 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Federal government, national",
+    "identity": "Natural Resources Canada, \"In the zone: Canada's plant hardiness zone maps and website get an update\", July 2025. Federal government, national. https://natural-resources.canada.ca/stories/simply-science/zone-canada-s-plant-hardiness-zone-maps-website-get-update, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:NRCAN-ST)",
+    "url": "https://natural-resources.canada.ca/stories/simply-science/zone-canada-s-plant-hardiness-zone-maps-website-get-update",
+    "register_code": "TIMING-CA:NRCAN-ST",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000400",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Natural Resources Canada — \"Plant Hardiness Zones of Canada\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-2 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Federal government, national",
+    "identity": "Natural Resources Canada, \"Plant Hardiness Zones of Canada\", Open Government Portal dataset record, published 26 March 2026. Federal government, national. https://open.canada.ca/data/en/dataset/adda404d-93e4-48e9-b6bf-5d1d3952ff22, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:NRCAN-OD)",
+    "url": "https://open.canada.ca/data/en/dataset/adda404d-93e4-48e9-b6bf-5d1d3952ff22",
+    "register_code": "TIMING-CA:NRCAN-OD",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000401",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "McKenney, Pedlar, Lawrence, DeBoer and MacDonald — \"Updated plant hardiness zones for Canada and assessment of change over time\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-6 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "1038/s41598-025-00931-5; abstract read via DOAJ record. Peer-reviewed journal, national",
+    "identity": "McKenney, Pedlar, Lawrence, DeBoer and MacDonald, \"Updated plant hardiness zones for Canada and assessment of change over time\", Scientific Reports, July 2025, DOI 10.1038/s41598-025-00931-5; abstract read via DOAJ record. Peer-reviewed journal, national. https://doaj.org/article/60a3345256a64864b3264efec5b44e5f, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:SR-MCK)",
+    "url": "https://doaj.org/article/60a3345256a64864b3264efec5b44e5f",
+    "register_code": "TIMING-CA:SR-MCK",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000402",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Royal Botanical Gardens (Christie Brodie, Interpretation Projects Coordinator) — \"Caring for Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-13 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-35 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Botanic garden, Ontario",
+    "identity": "Royal Botanical Gardens (Christie Brodie, Interpretation Projects Coordinator), \"Caring for Roses\", 16 July 2020. Botanic garden, Ontario. https://www.rbg.ca/caring-for-roses/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:RBG)",
+    "url": "https://www.rbg.ca/caring-for-roses/",
+    "register_code": "TIMING-CA:RBG",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000403",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Landscape Ontario — \"Rose care throughout the year\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-25 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-27 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-41 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-42 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-46 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Horticultural trade association, Ontario",
+    "identity": "Landscape Ontario, \"Rose care throughout the year\", 4 June 2013, no byline. Horticultural trade association, Ontario. https://landscapeontario.com/rose-care-throughout-the-year/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:LO-YR)",
+    "url": "https://landscapeontario.com/rose-care-throughout-the-year/",
+    "register_code": "TIMING-CA:LO-YR",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000404",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Toronto Master Gardeners — \"Pruning Roses: A Toronto Master Gardeners Guide\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-14 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-17 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-49 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Master Gardener volunteers, Ontario (Toronto)",
+    "identity": "Toronto Master Gardeners, \"Pruning Roses: A Toronto Master Gardeners Guide\", September 2021. Master Gardener volunteers, Ontario (Toronto). https://www.torontomastergardeners.ca/gardeningguides/pruning-roses-a-toronto-master-gardeners-guide/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:TMG-P)",
+    "url": "https://www.torontomastergardeners.ca/gardeningguides/pruning-roses-a-toronto-master-gardeners-guide/",
+    "register_code": "TIMING-CA:TMG-P",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000405",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Toronto Master Gardeners — \"Late July: Feeding Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-27 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Master Gardener volunteers, Ontario (Toronto)",
+    "identity": "Toronto Master Gardeners, \"Late July: Feeding Roses\", shown as posted 18 July 2026 and updated 1 September 2025. Master Gardener volunteers, Ontario (Toronto). https://www.torontomastergardeners.ca/late-july-feeding-roses/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:TMG-F)",
+    "url": "https://www.torontomastergardeners.ca/late-july-feeding-roses/",
+    "register_code": "TIMING-CA:TMG-F",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000406",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "1000 Islands Master Gardeners (Nancy Shepherd) — \"Growing Roses in Zone 5\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-13 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-34 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-35 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-37 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Master Gardener volunteers, Ontario (Kingston area)",
+    "identity": "1000 Islands Master Gardeners (Nancy Shepherd), \"Growing Roses in Zone 5\", 4 July 2020, modified 17 December 2025. Master Gardener volunteers, Ontario (Kingston area). https://1000islandsmastergardeners.ca/2020/07/04/growing-roses-in-zone-5/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:TIMG)",
+    "url": "https://1000islandsmastergardeners.ca/2020/07/04/growing-roses-in-zone-5/",
+    "register_code": "TIMING-CA:TIMG",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000407",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Toronto Gardens (Sarah Battersby) — \"Planting Bare-Root Roses in Canada in Spring\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-34 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Garden writers' blog, Ontario (Toronto)",
+    "identity": "Toronto Gardens (Sarah Battersby), \"Planting Bare-Root Roses in Canada in Spring\", 24 March 2009. Garden writers' blog, Ontario (Toronto). https://www.torontogardens.com/2009/03/planting-bare-root-roses-in-canada-in.html/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:TG)",
+    "url": "https://www.torontogardens.com/2009/03/planting-bare-root-roses-in-canada-in.html/",
+    "register_code": "TIMING-CA:TG",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000408",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Georgina Garden Centre — \"Frosty Nights, Rosy Delights: How to Winterize Roses in Georgina\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-27 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-32 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-39 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-41 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-42 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-46 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-47 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-49 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-50 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial garden centre, Ontario (Georgina)",
+    "identity": "Georgina Garden Centre, \"Frosty Nights, Rosy Delights: How to Winterize Roses in Georgina\", 17 November 2025. Commercial garden centre, Ontario (Georgina). https://shop.ggconline.ca/blogs/gardening-blogs/frosty-nights-rosy-delights-how-to-winterize-roses-in-georgina, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:GGC)",
+    "url": "https://shop.ggconline.ca/blogs/gardening-blogs/frosty-nights-rosy-delights-how-to-winterize-roses-in-georgina",
+    "register_code": "TIMING-CA:GGC",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000409",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Palatine Roses — \"Planting Instructions for Potted Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-13 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-15 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-27 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-30 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial rose grower, Ontario",
+    "identity": "Palatine Roses, \"Planting Instructions for Potted Roses\" (PDF), date not shown. Commercial rose grower, Ontario. https://palatinefruit.com/wp-content/uploads/2021/07/planting_potted_roses.pdf, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:PAL)",
+    "url": "https://palatinefruit.com/wp-content/uploads/2021/07/planting_potted_roses.pdf",
+    "register_code": "TIMING-CA:PAL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000410",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Laidback Gardener (Larry Hodgson) — \"Winter Protection for Tender Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-5 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-41 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-46 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Garden writer's blog, Quebec",
+    "identity": "Laidback Gardener (Larry Hodgson), \"Winter Protection for Tender Roses\", 16 November 2017. Garden writer's blog, Quebec. https://laidbackgardener.blog/2017/11/16/winter-protection-for-tender-roses/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:LBG-WP)",
+    "url": "https://laidbackgardener.blog/2017/11/16/winter-protection-for-tender-roses/",
+    "register_code": "TIMING-CA:LBG-WP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000411",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Laidback Gardener (Larry Hodgson) — \"Hardiness of Bush Roses: Don't Trust the Label!\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-5 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Garden writer's blog, Quebec",
+    "identity": "Laidback Gardener (Larry Hodgson), \"Hardiness of Bush Roses: Don't Trust the Label!\", 10 April 2019. Garden writer's blog, Quebec. https://laidbackgardener.blog/2019/04/10/when-plant-labels-lie-bush-roses/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:LBG-HZ)",
+    "url": "https://laidbackgardener.blog/2019/04/10/when-plant-labels-lie-bush-roses/",
+    "register_code": "TIMING-CA:LBG-HZ",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000412",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Laidback Gardener (Mathieu Hodgson) — \"New Plant Hardiness Map for Canada\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-1 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-6 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-7 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Garden writer's blog, national",
+    "identity": "Laidback Gardener (Mathieu Hodgson), \"New Plant Hardiness Map for Canada\", 10 August 2025. Garden writer's blog, national. https://laidbackgardener.blog/2025/08/10/new-plant-hardiness-map-for-canada/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:LBG-MAP)",
+    "url": "https://laidbackgardener.blog/2025/08/10/new-plant-hardiness-map-for-canada/",
+    "register_code": "TIMING-CA:LBG-MAP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000413",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Jardin Dion — \"Tout sur les protections hivernales\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-43 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-46 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial garden centre, Quebec (Sainte-Therese)",
+    "identity": "Jardin Dion, \"Tout sur les protections hivernales\" (French), updated 11 June 2026. Commercial garden centre, Quebec (Sainte-Therese). https://www.jardindion.com/conseils-dexperts/rosiers/tout-sur-les-protections-hivernales/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:JD)",
+    "url": "https://www.jardindion.com/conseils-dexperts/rosiers/tout-sur-les-protections-hivernales/",
+    "register_code": "TIMING-CA:JD",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000414",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Pépinière Villeneuve — \"Rosier hybride de thé, floribunda et grandiflora\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-26 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-37 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-40 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial nursery, Quebec (L'Assomption)",
+    "identity": "Pépinière Villeneuve, \"Rosier hybride de thé, floribunda et grandiflora\" (French), 13 October 2017. Commercial nursery, Quebec (L'Assomption). https://pepinierevilleneuve.com/rosier-non-rustique/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:PV)",
+    "url": "https://pepinierevilleneuve.com/rosier-non-rustique/",
+    "register_code": "TIMING-CA:PV",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000415",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "La Pièce magazine (Passion Jardins) — \"L'entretien des rosiers à l'automne\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-43 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial garden-centre network content, Quebec",
+    "identity": "La Pièce magazine (Passion Jardins), \"L'entretien des rosiers à l'automne\" (French), 25 October 2020. Commercial garden-centre network content, Quebec. https://lapiece.ca/en/magazine/5f957852515a690ef299101d, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:LP)",
+    "url": "https://lapiece.ca/en/magazine/5f957852515a690ef299101d",
+    "register_code": "TIMING-CA:LP",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000416",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Times Colonist — \"Helen Chesnut's Garden Notes: Pruning schedule depends on type of rose\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-14 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-32 (High)"
+    ]
+   },
+   "content": {
+    "source_type": "Newspaper garden column, BC (Victoria, Vancouver Island)",
+    "identity": "Times Colonist, \"Helen Chesnut's Garden Notes: Pruning schedule depends on type of rose\", date not shown. Newspaper garden column, BC (Victoria, Vancouver Island). https://www.timescolonist.com/homes/helen-chesnuts-garden-notes-pruning-schedule-depends-on-type-of-rose-4676520, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:TC)",
+    "url": "https://www.timescolonist.com/homes/helen-chesnuts-garden-notes-pruning-schedule-depends-on-type-of-rose-4676520",
+    "register_code": "TIMING-CA:TC",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000417",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "BC Living (Christine Allen) — \"Rose Care: Pruning\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-13 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-19 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-22 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-23 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-30 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-49 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "General-interest magazine, BC, quoting a rose grower named Brad",
+    "identity": "BC Living (Christine Allen), \"Rose Care: Pruning\", 12 February 2009. General-interest magazine, BC, quoting a rose grower named Brad. https://bcliving.ca/home/garden/rose-care-pruning/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:BCL)",
+    "url": "https://bcliving.ca/home/garden/rose-care-pruning/",
+    "register_code": "TIMING-CA:BCL",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000418",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Fraser Valley Rose Farm — \"Fraser Valley Rose Guide\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-13 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-28 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-49 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial rose nursery, BC (Fraser Valley)",
+    "identity": "Fraser Valley Rose Farm, \"Fraser Valley Rose Guide\", 21 November 2024. Commercial rose nursery, BC (Fraser Valley). https://www.fraservalleyrosefarm.com/fraser-valley-rose-guide/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:FVRF)",
+    "url": "https://www.fraservalleyrosefarm.com/fraser-valley-rose-guide/",
+    "register_code": "TIMING-CA:FVRF",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000419",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "GARDENWORKS — \"Rose Care Guide for Coastal BC\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-11 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-14 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-18 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-19 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-24 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-28 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-39 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-44 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial garden-centre chain, BC (coastal, with Okanagan and Penticton guidance)",
+    "identity": "GARDENWORKS, \"Rose Care Guide for Coastal BC\", date not shown. Commercial garden-centre chain, BC (coastal, with Okanagan and Penticton guidance). https://www.gardenworks.ca/care-tips/roses, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:GW)",
+    "url": "https://www.gardenworks.ca/care-tips/roses",
+    "register_code": "TIMING-CA:GW",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000420",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "DNA Gardens — \"Overwintering Hybid Tea and Floribunda Roses\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-29 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-31 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-45 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-48 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-49 (Moderate)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial nursery and winery, Alberta (Elnora)",
+    "identity": "DNA Gardens, \"Overwintering Hybid Tea and Floribunda Roses\" [sic], 19 May 2024. Commercial nursery and winery, Alberta (Elnora). https://dnagardens.ca/blogs/news/overwintering-hybid-tea-and-floribunda-roses, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:DNA)",
+    "url": "https://dnagardens.ca/blogs/news/overwintering-hybid-tea-and-floribunda-roses",
+    "register_code": "TIMING-CA:DNA",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000421",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Mossfield — \"Protecting Roses for Alberta Winter\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-6 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-9 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-10 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-41 (High)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-50 (Low)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-53 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Business-run community plant guide (shop announced, not yet open), treated as commercial in character, Alberta",
+    "identity": "Mossfield, \"Protecting Roses for Alberta Winter\", last updated September 2026. Business-run community plant guide (shop announced, not yet open), treated as commercial in character, Alberta. https://www.mossfield.ca/learn/protect-roses-winter-alberta, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:MOSS)",
+    "url": "https://www.mossfield.ca/learn/protect-roses-winter-alberta",
+    "register_code": "TIMING-CA:MOSS",
+    "relevance": "Supports the findings listed above."
+   }
+  },
+  {
+   "pkr_id": "PKR-SRC-000422",
+   "version": "1.0",
+   "pkr_type": "source",
+   "title": "Prairie Gardens — \"Canadian Hardiness Zones are Not the Same as US Hardiness Zones!\"",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+     "ARC-BUSHROSE-TIMING-CA-01, AF-3 (Moderate)",
+     "ARC-BUSHROSE-TIMING-CA-01, AF-4 (Low)"
+    ]
+   },
+   "content": {
+    "source_type": "Commercial garden centre, Alberta (near Edmonton)",
+    "identity": "Prairie Gardens, \"Canadian Hardiness Zones are Not the Same as US Hardiness Zones!\", 13 February 2024. Commercial garden centre, Alberta (near Edmonton). https://prairiegardens.org/garden-centre/canadian-hardiness-zones-are-not-the-same-as-us-hardiness-zones/, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:PG)",
+    "url": "https://prairiegardens.org/garden-centre/canadian-hardiness-zones-are-not-the-same-as-us-hardiness-zones/",
+    "register_code": "TIMING-CA:PG",
     "relevance": "Supports the findings listed above."
    }
   }

@@ -1,0 +1,33 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SRC-000400",
+  "version": "1.0",
+  "pkr_type": "source",
+  "status": "Published",
+  "title": "Natural Resources Canada — \"Plant Hardiness Zones of Canada\"",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora bush rose",
+    "supporting_sources": [],
+    "founder_approval_date": "2026-10-16",
+    "related_pkrs": [],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Not Applicable (PKR Standard §5.5)",
+    "mil_references": [
+      "ARC-BUSHROSE-TIMING-CA-01, AF-1 (High)",
+      "ARC-BUSHROSE-TIMING-CA-01, AF-2 (Moderate)"
+    ]
+  },
+  "content": {
+    "source_type": "Federal government, national",
+    "identity": "Natural Resources Canada, \"Plant Hardiness Zones of Canada\", Open Government Portal dataset record, published 26 March 2026. Federal government, national. https://open.canada.ca/data/en/dataset/adda404d-93e4-48e9-b6bf-5d1d3952ff22, accessed 1 October 2026 and 16 October 2026 (register code TIMING-CA:NRCAN-OD)",
+    "url": "https://open.canada.ca/data/en/dataset/adda404d-93e4-48e9-b6bf-5d1d3952ff22",
+    "register_code": "TIMING-CA:NRCAN-OD",
+    "relevance": "Supports the findings listed above."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-SRC-BUSHROSE-TIMING-CA-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-16",
+    "note": "Approved by a Founder in chat on 16 October 2026 (Pip's Answers, Canadian months), with no change. Published by KIT."
+  }
+}
