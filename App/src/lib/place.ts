@@ -80,6 +80,16 @@ export const TOWNS: Town[] = [
   { code: 'US-TX:San Antonio', name: 'San Antonio', region: 'US-TX', latitude: 29.424, longitude: -98.494, km: 30, aliases: ['san antonio'] },
   { code: 'US-KS:Kansas City', name: 'Kansas City', region: 'US-KS', latitude: 39.1, longitude: -94.579, km: 40, aliases: ['kansas city'] },
   { code: 'US-MO:Kansas City', name: 'Kansas City', region: 'US-MO', latitude: 39.1, longitude: -94.579, km: 40, aliases: ['kansas city'] },
+  // Canada: towns and areas a source speaks of. Coastal British Columbia is shown as three areas: the Lower Mainland, the Fraser Valley and Victoria.
+  { code: 'CA-ON:Toronto', name: 'Toronto', region: 'CA-ON', latitude: 43.653, longitude: -79.383, km: 25, aliases: ['toronto', 'scarborough', 'etobicoke', 'north york'] },
+  { code: 'CA-ON:Kingston', name: 'Kingston', region: 'CA-ON', latitude: 44.231, longitude: -76.486, km: 20, aliases: ['kingston'] },
+  { code: 'CA-ON:Barrie', name: 'Barrie', region: 'CA-ON', latitude: 44.389, longitude: -79.69, km: 12, aliases: ['barrie'] },
+  { code: 'CA-ON:Orillia', name: 'Orillia', region: 'CA-ON', latitude: 44.608, longitude: -79.419, km: 12, aliases: ['orillia'] },
+  { code: 'CA-ON:Georgina', name: 'Georgina', region: 'CA-ON', latitude: 44.3, longitude: -79.4, km: 12, aliases: ['georgina', 'keswick', 'sutton', 'pefferlaw'] },
+  { code: 'CA-BC:Lower Mainland', name: 'the Lower Mainland', region: 'CA-BC', latitude: 49.22, longitude: -122.95, km: 32, aliases: ['lower mainland', 'vancouver', 'burnaby', 'surrey', 'richmond', 'north vancouver', 'west vancouver', 'coquitlam', 'new westminster', 'delta', 'langley'] },
+  { code: 'CA-BC:Fraser Valley', name: 'the Fraser Valley', region: 'CA-BC', latitude: 49.08, longitude: -122.15, km: 28, aliases: ['fraser valley', 'abbotsford', 'chilliwack', 'mission'] },
+  { code: 'CA-BC:Victoria', name: 'Victoria', region: 'CA-BC', latitude: 48.428, longitude: -123.365, km: 30, aliases: ['victoria', 'saanich', 'esquimalt', 'oak bay', 'langford', 'sidney'] },
+  { code: 'CA-BC:Okanagan', name: 'the Okanagan', region: 'CA-BC', latitude: 49.888, longitude: -119.496, km: 70, aliases: ['okanagan', 'kelowna', 'west kelowna', 'penticton', 'vernon', 'summerland'] },
 ]
 
 const tidy = (s?: string) => (s ?? '').trim().toLowerCase().replace(/\./g, '').replace(/\s+/g, ' ')

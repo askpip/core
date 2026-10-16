@@ -1,0 +1,166 @@
+{
+ "what": "Build Check Part 2 (wording check), statements version 0.3, 16 October 2026.",
+ "statements_checked": [
+  {
+   "ref": "PKR-CGD-000023 CA item 4",
+   "question": "When do I start and stop feeding?",
+   "text": "In Barrie and Orillia, one rose society says to feed established roses once you have tidied the bed, again before the peak of bloom in June, and a last time in mid-July, following the directions on the container. Months are only a guide.",
+   "trace": [
+    "AF-51",
+    "AF-24",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Barrie",
+    "CA-ON:Orillia"
+   ],
+   "shown_to": "Gardeners in or near Barrie and Orillia only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 5",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Kingston, one Master Gardener group says a rose in a pot is best planted in spring or early summer, and that bare-root grafted roses can be ordered for planting in late fall.",
+   "trace": [
+    "AF-37",
+    "AF-35",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Kingston"
+   ],
+   "shown_to": "Gardeners in or near Kingston only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 1",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In the colder parts of Canada, Hybrid Tea and Floribunda roses need protecting over winter.",
+   "trace": [
+    "AF-10"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 4",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Take the winter protection off in spring as the soil thaws. Sources disagree on how soon: some say as soon as thawing allows, while the national rose society waits until late spring, when a hard freeze is no longer expected.",
+   "trace": [
+    "AF-46",
+    "C-4",
+    "rule 2"
+   ],
+   "confidence": null,
+   "kind": "disagreement",
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 8",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Georgina, one garden centre says to start getting roses ready for winter in early to mid-November or after the first few hard frosts, and to wait for several hard frosts before covering them, because covering too soon can trap moisture and invite rot or mildew. It says to uncover them gradually, around late April or early May, once the snow has melted and daytime temperatures consistently stay above freezing. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-47",
+    "AF-42",
+    "AF-41",
+    "AF-50",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Georgina"
+   ],
+   "shown_to": "Gardeners in or near Georgina only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 13",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Barrie and Orillia, one rose society says a dormant-oil spray early in spring, and again before the winter protection goes on, will keep disease down. If you use one, follow the label and the local rules.",
+   "trace": [
+    "AF-52",
+    "rule 4",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Barrie",
+    "CA-ON:Orillia"
+   ],
+   "shown_to": "Gardeners in or near Barrie and Orillia only"
+  }
+ ],
+ "results": [
+  {
+   "ref": "PKR-CGD-000023 CA item 4",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "HRS page: 'When spring clean up has been completed fertilize ESTABLISHED roses according to the directions on the container'; 'Next fertilization is before the peak of bloom (June) and the final third application mid-July'. One local rose society, Low, Barrie and Orillia only, months-are-a-guide present, label rule 7 now met. In the page the container directions are attached to the first feed; the statement's closing placement spreads them to all three, which is the safe way and harmless, but AF-51 puts it after the first feed. Optional tidy: place it there.",
+   "suggested_wording": "In Barrie and Orillia, one rose society says to feed established roses once you have tidied the bed, following the directions on the container, again before the peak of bloom in June, and a last time in mid-July. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "TIMG: 'Potted roses are best planted in the spring or early summer'; 'order bare-root grafted roses for late fall planting'. One source, Kingston only, Low. Gloss removed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-10: CRS-WP (colder zones), LBG-WP ('colder climates'), TIMG, PV, MOSS. Names only the two kinds the finding names. High as the finding.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Disagreement with no level (rule 2, C-4). LO-TP 'As soon as thawing permits', LO-YR 'as it thaws', JD 'dès que la neige et la glace permettent'; CRS-SP 'In late spring, when the soil has thawed and a hard freeze is no longer expected'. Better-supported view leads; the society is named, which is the point.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "GGC: 'early to mid-November or after the first few hard frosts'; 'Wait until several hard frosts hit, if you cover too soon, you could trap moisture and invite rot or mildew'; 'the key is to uncover gradually'; 'Once the snow melts and daytime temperatures consistently stay above freezing (around late April or early May in Georgina)'. Georgina only, one garden centre, months-only-a-guide present.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 13",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "HRS: 'A dormant-oil spray early in spring & before winter protection will keep disease down.' Confirmed at the check by a second question, per the coordinator. Product type only, no brand or amount; label and local rules told (rule 7). Gloss removed.",
+   "suggested_wording": null
+  }
+ ],
+ "package_notes": [
+  "C-8 text is now correct (leads with the national rose society, rule 2). Other statements keep their earlier results. 'Tidied the bed' as a gloss of 'spring clean-up' remains for ROC to accept (see 23/1). Feeding statements 23/1 to 23/3 and 23/5 still carry no 'follow the label' line; the label is now said only in the Barrie and Orillia statement.",
+  "26/9: keeping JD's early removal is acceptable, because Landscape Ontario and a garden writer say the same and 26/4 gives the national view; the Founder direction does not apply to it.",
+  "I did not see the new AF-52 and AF-53 check results myself; this relies on the coordinator's statement that the second question confirmed them."
+ ],
+ "findings_comments": [
+  {
+   "finding": "AF-51",
+   "comment": "Corrected wording now records the container directions; still no check_results entry, but the HRS check under AF-24 confirms the page words. Register quotes match the statement."
+  },
+  {
+   "finding": "AF-24",
+   "comment": "Unchanged; HRS directions-on-the-container wording confirmed in its check result."
+  }
+ ]
+}

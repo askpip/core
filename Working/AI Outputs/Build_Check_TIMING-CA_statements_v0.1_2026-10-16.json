@@ -1,0 +1,991 @@
+{
+ "what": "Build Check Part 2 (wording check), statements version 0.1, 16 October 2026.",
+ "statements_checked": [
+  {
+   "ref": "PKR-CGD-000022 CA item 1",
+   "question": "Which months do I prune my rose?",
+   "text": "In Canada, one rose society says the main pruning is usually done in April, or when the forsythia is in bloom where you live. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-16",
+    "AF-13",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 2",
+   "question": "Which months do I prune my rose?",
+   "text": "Let the forsythia tell you when: prune your rose when the forsythia is in flower where you live.",
+   "trace": [
+    "AF-13"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 3",
+   "question": "Which months do I prune my rose?",
+   "text": "Look at the buds as well: prune as they begin to swell, before any leaves open.",
+   "trace": [
+    "AF-14"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 4",
+   "question": "Which months do I prune my rose?",
+   "text": "If your rose has winter protection, take it off first, then prune.",
+   "trace": [
+    "AF-15"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 5",
+   "question": "Which months do I prune my rose?",
+   "text": "Wait until the danger of a hard frost has passed, or the newly pruned tips may be killed.",
+   "trace": [
+    "AF-22",
+    "rule 7"
+   ],
+   "confidence": "Moderate",
+   "kind": "precaution",
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 6",
+   "question": "Which months do I prune my rose?",
+   "text": "In Toronto, one Master Gardener group says the main pruning is usually in April or May, just before new growth begins and as the buds begin to swell. Months are only a guide.",
+   "trace": [
+    "AF-17",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Toronto"
+   ],
+   "shown_to": "Gardeners in or near Toronto only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 7",
+   "question": "Which months do I prune my rose?",
+   "text": "On the coast of British Columbia, the main pruning is done in late winter, between late February and mid-March, as the buds begin to swell. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-18",
+    "AF-14",
+    "rule 3",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA-BC:Lower Mainland",
+    "CA-BC:Fraser Valley",
+    "CA-BC:Victoria"
+   ],
+   "shown_to": "Gardeners in or near the Lower Mainland, the Fraser Valley and Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 8",
+   "question": "Which months do I prune my rose?",
+   "text": "In the Okanagan, one garden company says not to prune in fall, but to wait until early spring.",
+   "trace": [
+    "AF-19",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-BC:Okanagan"
+   ],
+   "shown_to": "Gardeners in or near the Okanagan only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 9",
+   "question": "Which months do I prune my rose?",
+   "text": "I couldn't find a source that gives a month for the main pruning in Quebec, Alberta, Saskatchewan or Manitoba. A local rose society or horticultural society is the place to ask.",
+   "trace": [
+    "AF-21",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "CA-QC",
+    "CA-AB",
+    "CA-SK",
+    "CA-MB"
+   ],
+   "shown_to": "Gardeners in Quebec, Alberta, Saskatchewan and Manitoba only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 10",
+   "question": "Which months do I prune my rose?",
+   "text": "I couldn't find rose months from a source in Nova Scotia, New Brunswick, Prince Edward Island or Newfoundland and Labrador. A local rose society or horticultural society is the place to ask.",
+   "trace": [
+    "AF-12",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "CA-NS",
+    "CA-NB",
+    "CA-PE",
+    "CA-NL"
+   ],
+   "shown_to": "Gardeners in Nova Scotia, New Brunswick, Prince Edward Island and Newfoundland and Labrador only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 1",
+   "question": "When do I start and stop feeding?",
+   "text": "Give the first feed in spring, once the spring clean-up and pruning are done and new growth begins.",
+   "trace": [
+    "AF-24"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 2",
+   "question": "When do I start and stop feeding?",
+   "text": "Give the last feed by mid-July, so that the stems can ripen before winter. Months are only a guide.",
+   "trace": [
+    "AF-26",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 3",
+   "question": "When do I start and stop feeding?",
+   "text": "In Toronto, one Master Gardener group says not to feed your roses after the end of July. Months are only a guide.",
+   "trace": [
+    "AF-27",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Toronto"
+   ],
+   "shown_to": "Gardeners in or near Toronto only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 4",
+   "question": "When do I start and stop feeding?",
+   "text": "In Barrie and Orillia, one rose society says to feed established roses when the spring clean-up is done, again before the peak of bloom in June, and a last time in mid-July. It says not to feed after July, because the rose needs to prepare for winter. Months are only a guide.",
+   "trace": [
+    "AF-51",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Barrie",
+    "CA-ON:Orillia"
+   ],
+   "shown_to": "Gardeners in or near Barrie and Orillia only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 5",
+   "question": "When do I start and stop feeding?",
+   "text": "On the coast of British Columbia, two garden companies say you can feed until late summer, and one says to give no feed from September onward. The national rose society differs: it says the last feed is in mid-July. Months are only a guide.",
+   "trace": [
+    "AF-28",
+    "AF-26",
+    "C-8",
+    "rule 2",
+    "rule 6"
+   ],
+   "confidence": null,
+   "kind": "disagreement",
+   "place": [
+    "CA-BC:Lower Mainland",
+    "CA-BC:Fraser Valley",
+    "CA-BC:Victoria"
+   ],
+   "shown_to": "Gardeners in or near the Lower Mainland, the Fraser Valley and Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000024 CA item 1",
+   "question": "When do I stop deadheading?",
+   "text": "Towards the end of the season, stop deadheading (removing the faded flowers) and let the last flowers go to seed. The hips (the rose's fruit) can stay on the stems over winter.",
+   "trace": [
+    "AF-30"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000024 CA item 2",
+   "question": "When do I stop deadheading?",
+   "text": "One rose grower says to stop deadheading a month before the first frost is expected.",
+   "trace": [
+    "AF-30",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000024 CA item 3",
+   "question": "When do I stop deadheading?",
+   "text": "Don't prune your rose in late summer or fall; leave the main pruning until spring. The one exception is shortening very tall canes, so that winter winds don't whip them about.",
+   "trace": [
+    "AF-31",
+    "AF-32"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 1",
+   "question": "Which months do I plant or move a rose?",
+   "text": "Plant a bare-root rose (one sold while dormant, not actively growing) in spring: in April, or as soon as the ground has thawed and the soil can be worked. Months are only a guide.",
+   "trace": [
+    "AF-34",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 2",
+   "question": "Which months do I plant or move a rose?",
+   "text": "Outside the Prairies, you can also plant a rose in fall, at any time from September to late fall. Months are only a guide.",
+   "trace": [
+    "AF-35",
+    "rule 3",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 3",
+   "question": "Which months do I plant or move a rose?",
+   "text": "On the Prairies, one rose society says planting in fall is not recommended.",
+   "trace": [
+    "AF-36",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-AB",
+    "CA-SK",
+    "CA-MB"
+   ],
+   "shown_to": "Gardeners in Alberta, Saskatchewan and Manitoba only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 4",
+   "question": "Which months do I plant or move a rose?",
+   "text": "A rose in a pot can be planted at any time during the growing season.",
+   "trace": [
+    "AF-37"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 5",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Kingston, one Master Gardener group says a rose in a pot is best planted in spring or early summer, and that bare-root grafted roses can be ordered for planting in late fall.",
+   "trace": [
+    "AF-37",
+    "AF-35",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Kingston"
+   ],
+   "shown_to": "Gardeners in or near Kingston only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 6",
+   "question": "Which months do I plant or move a rose?",
+   "text": "I couldn't find a Canadian source on when to move an established rose. A local rose society or horticultural society is the place to ask.",
+   "trace": [
+    "AF-38",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 1",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Except on the coast of British Columbia, Hybrid Tea and Floribunda roses need protecting over winter.",
+   "trace": [
+    "AF-10"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 2",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In fall, as you get your roses ready for winter, remove all dead leaves and clippings from the bed.",
+   "trace": [
+    "AF-39"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 3",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Put the winter protection on after hard frosts, once the rose is dormant and the ground is starting to freeze. Don't put it on too early.",
+   "trace": [
+    "AF-41"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 4",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Take the winter protection off in spring, once the soil has thawed and a hard freeze is no longer expected.",
+   "trace": [
+    "AF-46"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 5",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Take the protection off a little at a time as the ground thaws, not all at once.",
+   "trace": [
+    "AF-50",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": "precaution",
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 6",
+   "question": "When do I clear up and spray in winter?",
+   "text": "On the coast of British Columbia, winter protection is not usually needed, apart from a mound of soil for tender kinds. If extreme cold is forecast, protect newly planted roses, and move roses in pots into a garage or other unheated space.",
+   "trace": [
+    "AF-11"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA-BC:Lower Mainland",
+    "CA-BC:Fraser Valley",
+    "CA-BC:Victoria"
+   ],
+   "shown_to": "Gardeners in or near the Lower Mainland, the Fraser Valley and Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 7",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Ontario, winter protection goes on in November, between early and late November, once the ground is starting to freeze. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-42",
+    "rule 3",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON"
+   ],
+   "shown_to": "Gardeners in Ontario only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 8",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Georgina, one garden centre says to wait until several hard frosts have come before covering roses, because covering too soon can trap moisture and invite rot or mildew. It says to uncover them gradually, around late April or early May, once the snow has melted and daytime temperatures stay above freezing. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-47",
+    "AF-41",
+    "AF-50",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Georgina"
+   ],
+   "shown_to": "Gardeners in or near Georgina only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 9",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Quebec, one garden company says to wait for the cooler weather of November before putting on foam cones and covers, though nets, wooden frames and snow fences can go up earlier. It says to take the protection off as soon as the snow and ice allow.",
+   "trace": [
+    "AF-43",
+    "AF-46",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-QC"
+   ],
+   "shown_to": "Gardeners in Quebec only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 10",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Alberta, one guide says to cut the canes back to about 70 cm and remove the remaining leaves, to wait until the rose is fully dormant, and then to build the mound once the ground is at least partly frozen.",
+   "trace": [
+    "AF-53",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-AB"
+   ],
+   "shown_to": "Gardeners in Alberta only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 11",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Alberta, one garden company says to water your roses for the winter around 15 October, and to take the cover off around the May long weekend. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-45",
+    "AF-48",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-AB"
+   ],
+   "shown_to": "Gardeners in Alberta only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 12",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In the Okanagan, one garden company says to mound soil or compost around the base of grafted roses in late fall.",
+   "trace": [
+    "AF-44",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-BC:Okanagan"
+   ],
+   "shown_to": "Gardeners in or near the Okanagan only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 13",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Barrie and Orillia, one rose society says a dormant-oil spray early in spring, and again before the winter protection goes on, will keep disease down. If you use one, follow the label and the local rules.",
+   "trace": [
+    "AF-52",
+    "rule 4",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Barrie",
+    "CA-ON:Orillia"
+   ],
+   "shown_to": "Gardeners in or near Barrie and Orillia only"
+  }
+ ],
+ "results": [
+  {
+   "ref": "PKR-CGD-000022 CA item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "CRS-SP page: 'usually April or when the forsythia is in bloom in your area'. One source, national, Low, 'one rose society says' and months-are-a-guide present. See package note on BC coast gardeners also seeing item 7.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-13 High; eight pages confirm the forsythia cue (FVRF only 'Near', cut off after 'shrubs', part relied on is confirmed). Says no more than the finding.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-14 Moderate. LO-TP 'swelling ... showing no leaves'; TC, GW, TMG-P 'begin to swell'. RBG correctly not relied on (it concerns dead and damaged canes).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-15: CRS-SP 'pruned after the soil mounds have been removed', HRS 'after the winter protection has been removed', LO-TP, PAL. Conditional 'if your rose has winter protection' is right.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-22 precaution, Moderate; wording follows TMG-P 'Wait until the danger of a hard frost is past or newly pruned tips may be killed'; BCL says the same for late frost. Marked as precaution (kind). RBG does not state the risk, but is not relied on.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 6",
+   "result": "Pass with a note",
+   "points_failed": [
+    1
+   ],
+   "note": "TMG-P page confirmed: 'In Toronto this is usually in April or May, just before new growth begins and as the buds begin to swell.' The 'buds begin to swell' part sits in AF-14 (TMG-P quote), not in AF-17's recorded quote, so the trace should also cite AF-14 (Moderate; lowest level stays Low). Wording is supported.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 7",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-18 Moderate: FVRF 'late February to mid-March', GW 'Late February to early March, just as buds begin to swell', BCL 'early March in the Lower Mainland', TC 'late winter' (Victoria). Range shown, places right, frost reason from rule 6.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 8",
+   "result": "Pass with a note",
+   "points_failed": [
+    7
+   ],
+   "note": "GW page (Penticton and Okanagan): 'Avoid fall pruning - wait until early spring'. One garden company, Low, Okanagan only, correct. A garden-company local timing needs 'months are only a guide' (standing decision 5 Oct; rule 6) and this sentence lacks it.",
+   "suggested_wording": "In the Okanagan, one garden company says not to prune in fall, but to wait until early spring. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 9",
+   "result": "Pass with a note",
+   "points_failed": [
+    5
+   ],
+   "note": "AF-21 is a gap for Hybrid Teas or Floribundas, Quebec, the Prairies and the Maritimes; the statement drops the rose types and covers only Quebec and the Prairies (Maritimes left to item 10). Check that this answer is about those rose types; if it covers other roses, name them as AF-21 does. Quebec 'Au printemps' (PV) is correctly not used.",
+   "suggested_wording": "I couldn't find a source that gives a month for the main pruning of Hybrid Tea or Floribunda roses in Quebec, Alberta, Saskatchewan or Manitoba. A local rose society or horticultural society is the place to ask."
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 10",
+   "result": "Pass with a note",
+   "points_failed": [
+    4,
+    5
+   ],
+   "note": "AF-12's corrected wording says 'Maritime provinces' (Nova Scotia, New Brunswick, Prince Edward Island). Newfoundland and Labrador appears only in AF-12 as first written. Dossier should restore the four provinces in AF-12's corrected wording, or the statement should drop Newfoundland and Labrador. Gap marking and pointer to local help are right.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 1",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-24 High: CRS-OC 'When spring clean-up has been completed', HRS same, RBG 'after spring pruning', LO-YR 'when growth begins', GW 'as new growth appears'. No month given, none added. See package note on the label.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 2",
+   "result": "Pass with a note",
+   "points_failed": [
+    9
+   ],
+   "note": "AF-26 Moderate, supported by CRS-OC 'mid-July ... plants must ripen wood before winter' and LO-YR 'mid-July at the time of your last fertilization'. Shown to all Canada, so a gardener on the BC coast sees this flat advice; it stands alone only because item 5 shows the disagreement beside it. PV is conditional on poor soil and HRS says 'after July'; neither is used here. Keep the statement.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "TMG-F page: 'Don't feed your roses after the end of July so that the growth can slow down'. One Master Gardener group, Toronto only, Low. Later dates from garden companies are not shown (Founder direction 8 Oct 2026).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 4",
+   "result": "Pass with a note",
+   "points_failed": [
+    1
+   ],
+   "note": "HRS: 'before the peak of bloom (June) and the final third application mid-July'; 'APPLICATIONS after July ARE NOT RECOMMENDED because the bush needs to prepare for winter and go dormant'. The first clause (spring clean-up) comes from AF-24 (HRS), so the trace should cite AF-24 too. AF-51 has no check_results; the register quotes match the statement. HRS's sentence also says 'according to the directions on the container' (see package note).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 5",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    7,
+    8
+   ],
+   "note": "Breaks rule 2: AF-26 (Moderate, national society) outranks AF-28 (Low, two commercial sources), so Pip must lead with the national society's mid-July, not with the companies; C-8 says 'leads with neither', which the rules allow only for equal levels. Also 'two garden companies' is not exact: GW is a garden company, FVRF a rose nursery, and FVRF says 'from September onward', not 'late summer'. Founder direction 8 Oct: ROC to confirm it does not remove garden-company or nursery views that differ from a recognised body; if it does, delete this item.",
+   "suggested_wording": "On the coast of British Columbia, sources disagree about the last feed. The national rose society says to give the last feed by mid-July. A garden company says to stop feeding by late summer, and a rose nursery says to give no feed from September onward. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000024 CA item 1",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "Matches AF-30 (LO-YR 'Let the last flowers go to seed'; BCL 'leave any rosehips to overwinter'). The glosses '(removing the faded flowers)' and '(the rose's fruit)' are not in the finding or pages. The two pages are Ontario and BC, shown Canada-wide as the finding allows without condition.",
+   "suggested_wording": "Towards the end of the season, stop deadheading and let the last flowers go to seed. The hips can stay on the stems over winter."
+  },
+  {
+   "ref": "PKR-CGD-000024 CA item 2",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "PAL page: 'Stop deadheading a month before first expected frost.' Confirmed; 'one rose grower says' is right. PAL is an Ontario grower and the page names no place; shown Canada-wide at Low (below AF-30's Moderate), which is the safe side.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000024 CA item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-31 (Moderate): DNA 'Do not prune in late summer', GW 'Avoid fall pruning', GGC 'Leave the major shaping until spring', FVRF 'from September onward'. AF-32 (High): LO-YR, TC, GGC, CRS-WP tall canes exception. No amount given, as AF-32's limitation requires. Level Moderate is the lowest of the two.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 1",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "CRS-PL 'planting in April, or as soon as the soil is workable'; HRS 'as soon as the ground has thawed'. Confirmed. The gloss '(one sold while dormant, not actively growing)' is in no finding or page; TIMG says 'bagged', not that it is dormant. Rule 8: remove it.",
+   "suggested_wording": "Plant a bare-root rose in spring: in April, or as soon as the ground has thawed and the soil can be worked. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 2",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "AF-35: CRS-PL 'in September for fall planting', RBG 'late autumn', TIMG 'late fall' (bare-root grafted, Kingston). The pages give three separate times. 'At any time from September to late fall' says the whole span is open, which no page says. Show the times as the sources give them.",
+   "suggested_wording": "Outside the Prairies, some sources also allow planting a rose in fall: in September, or in late fall. Months are only a guide."
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-36: CRS-PL 'fall planting is not recommended across the Prairies Provinces'. Single source, Low, shown only in AB, SK and MB. 'One rose society says' fits the rule.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-37: CRS-PL 'container-grown roses can be planted anytime during the growing season'; PV agrees. The narrower TIMG view is shown to Kingston in item 5.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "TIMG 'Potted roses are best planted in the spring or early summer' and 'order bare-root grafted roses for late fall planting'. One source, Kingston only, Low. 'If possible' is dropped, which is a small softening only.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 6",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-38 is a gap record, used only to say the gap exists, with a pointer to local expert help (rule 5). Nothing else claimed.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 1",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "AF-10 wording is matched. But the pages speak for limited places: CRS-WP for its colder zones, LBG-WP 'colder climates' (and says no protection in warm areas), TIMG Kingston, PV and LP Quebec, MOSS Alberta. Check notes say 'across much of Canada' is an inference. 'Except on the coast of BC' then covers e.g. Atlantic Canada and milder inland places that no page speaks for. Suggest naming the colder places.",
+   "suggested_wording": "In the colder parts of Canada, Hybrid Tea and Floribunda roses need protecting over winter."
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 2",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "CRS-WP and HRS 'Remove all dead leaves and any ... from the bed', in winter-preparation context; GGC and GW agree. 'In fall' matches the finding. 'Clippings' is the CRS wording.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 3",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-41 (High): GGC 'Wait until several hard frosts hit' and 'Once the ground is starting to freeze'; LBG-WP and MOSS on dormancy; LO-YR 'not too early'. Every part has a page behind it.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 4",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "AF-46 (High): CRS-SP 'when the soil has thawed and a hard freeze is no longer expected'. Other pages say 'as soon as thawing permits' (see finding comment on AF-46).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 5",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "Precaution (rule 7), AF-50: GGC 'a little at a time' and 'the key is to uncover gradually'; MOSS 'Uncover in stages as the ground thaws, don't take everything off in one go'. Low is allowed for a precaution; must be shown marked as a precaution.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 6",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "CRS-WP 'Otherwise, winter protection is not usually necessary in Coastal B.C'; GW 'Protect newly planted roses if extreme cold is forecast'; FVRF 'tuck them into a garage or similar unheated indoor space'. The 'mound of soil for tender kinds' rests on the earlier CRS-WP quote; the Build Check page read only confirmed 'Otherwise ...' and its note says the preceding sentence was not returned. Keep only if the ROC reconfirms that sentence.",
+   "suggested_wording": "On the coast of British Columbia, winter protection is not usually needed. If extreme cold is forecast, protect newly planted roses, and move roses in pots into a garage or other unheated space."
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 7",
+   "result": "Fail",
+   "points_failed": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "note": "Early November comes only from the Georgina garden centre (GGC: 'early to mid-November or after the first few hard frosts', Georgina's growing zone 5); that page is for Georgina and has its own item 8. For Ontario the only page is LO-YR: 'When the ground is frozen, (not too early, mid- to late November)', so 'one source says' is needed (rule 4). 'Starting to freeze' is GGC's wording, not LO-YR's. 'In November, between early and late November' is also muddled.",
+   "suggested_wording": "In Ontario, one source says to put winter protection on in mid- to late November, once the ground is frozen, and not too early. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 8",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "GGC: 'Wait until several hard frosts hit, if you cover too soon, you could trap moisture and invite rot or mildew'; 'the key is to uncover gradually'; 'Once the snow melts and daytime temperatures consistently stay above freezing (around late April or early May in Georgina)'. Georgina only, one source, months-only-a-guide present. 'Consistently' is dropped; small.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 9",
+   "result": "Fail",
+   "points_failed": [
+    5,
+    7,
+    10
+   ],
+   "note": "Only JD is used. AF-43 records LP (Quebec) saying roses are cut 'juste avant les premiers gels' and 'recouverts rapidement d'un cône en styromousse', which differs from JD's wait for November (C-3). Rule 3: different timings are shown, not one picked; the conflict changes when a gardener covers. Also JD's 'toiles et jutes' (= covers) was not shown verbatim at the check ('Near'); say 'foam cones' unless reconfirmed.",
+   "suggested_wording": "In Quebec, one garden company says to wait for the cooler weather of November before putting on foam cones, though nets, wooden frames and snow fences can go up earlier. Another says to cut roses just before the first frosts and cover them quickly with a foam cone. The first says to take the protection off as soon as the snow and ice allow."
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 10",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "MOSS lines match AF-53 ('Cut the canes back to about 70 cm and remove the remaining leaves (Canadian Rose Society)'; 'Wait until the rose is fully dormant'; 'build the mound once the ground is at least partly frozen'). No check_results are recorded for AF-53, only Build Check quotes. 70 cm is the low end of CRS-WP's 70 cm to 1 m (C-7); it is attributed to one guide, so acceptable, but Pip gives no amount in AF-32's statement. DNA's 6 in. cut is rightly not shown (C-9, Founder direction).",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 11",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "DNA 'October 15th at this time, water your roses for the winter' and 'Approximately May long weekend remove pail'. Confirmed. 'The cover' stands alone poorly (the page means a pail left on after a 6 in. cut that is not shown); 'around 15 October' softens the page's date. Say 'winter cover'.",
+   "suggested_wording": "In Alberta, one garden company says to water your roses for the winter on 15 October, and to take the winter cover off around the May long weekend. Months are only a guide, because frosts vary from year to year."
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 12",
+   "result": "Pass",
+   "points_failed": [],
+   "note": "GW (Penticton and the Okanagan, Winter Protection): 'In late fall, mound soil or compost around the base of grafted roses'. One garden company, Okanagan only, Low.",
+   "suggested_wording": null
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 13",
+   "result": "Pass with a note",
+   "points_failed": [],
+   "note": "HRS: 'A dormant-oil spray early in spring & before winter protection will keep disease down.' No check_results are recorded for AF-52, only the Build Check quote. Product type only, no brand or amount, label and local rules told (rule 7). Local, one rose society, Low.",
+   "suggested_wording": null
+  }
+ ],
+ "package_notes": [
+  "Findings used: AF-12 (22/10), AF-13 (22/1, 22/2), AF-14 (22/3, 22/7), AF-15 (22/4), AF-16 (22/1), AF-17 (22/6), AF-18 (22/7), AF-19 (22/8), AF-21 (22/9), AF-22 (22/5), AF-24 (23/1), AF-26 (23/2), AF-27 (23/3), AF-28 (23/5), AF-51 (23/4). Not used: AF-19's BC Living note that forsythia flowers later in the north and interior (no month; saying less is allowed). Nothing used is on record only.",
+  "Gaps said: pruning months for Quebec, the Prairies and the Maritimes (items 9, 10). No gap is said for feeding months in the Prairies, Maritimes or Quebec; no finding records one. ROC to say whether a feeding gap should be recorded.",
+  "Conflict C-8 (BC coast last feed) is told, but item 5 leads wrongly (see Fail). C-9 (Alberta, DNA nursery against the national society) is not shown, per the Founder direction; no statement here is affected.",
+  "Conflict C-1 (Ontario later feeding cut-offs, AF-27): outside Toronto, Ontario gardeners see only 'mid-July' (23/2) and, in Barrie and Orillia, the HRS schedule. PAL and GGC are garden companies, covered by the direction. Landscape Ontario's 'late August' is a trade association, not clearly covered, and the same LO-YR page also gives mid-July as the last feed. ROC to confirm this is intended.",
+  "BC coast gardeners see item 1 (national 'usually April') and item 7 (late February to mid-March) together. Item 1 does not name the coast, so it is not wrong, but ROC may want item 1 hidden where a local statement exists, or the two shown as a range.",
+  "Label rule (rule 7): HRS says feed 'according to the directions on the container'; no feeding statement tells the gardener to follow the product label, and none gives an amount. ROC to decide whether a short 'follow the label' line is needed with the feeding answer.",
+  "Sources: some register quotes were added at this Build Check and carry no check_results (TMG-P in AF-14, LP in AF-24, HRS in AF-51). The statements do not rest on LP; TMG-P's sentence is confirmed under AF-17; AF-51's quotes match the statement.",
+  "Findings used: all 22 findings in the input (AF-10, 11, 30, 31, 32, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 50, 52, 53) appear in a statement. AF-33, AF-40, AF-49 and AF-51 are named in the dossier (for example AF-33, the Thanksgiving cut, in AF-39) but are not in the input, so I cannot say whether they belong to these records.",
+  "Nothing on record only is used. AF-36 and AF-50 are used under their allowed conditions (local, precaution). AF-38 is used only as the gap.",
+  "Gap: the gap on moving an established rose is said (000025 item 6). Nobody found a month for stopping deadheading, but the statements give the frost and end-of-season guides, so no gap is needed.",
+  "Conflicts a gardener would not learn of: C-3 (Quebec, JD against LP) is hidden by item 9; C-4 (removal of protection: CRS-SP 'late spring' with a hard freeze no longer expected, against LO-TP, LO-YR, LBG-WP, JD 'as soon as thawing permits' or temperatures above freezing) is not shown in item 4, which gives only the CRS-SP wording. Consider adding 'or as soon as thawing allows'. C-9 is handled as the Founder directed; C-8 concerns feeding, not these records.",
+  "Place: items 24-1, 24-2 and 26-1 are shown Canada-wide while the pages are Ontario, BC, Quebec or Alberta only. 24-1 and 24-2 are allowed by the findings (without condition); 26-1 is the one that goes furthest.",
+  "Glosses in parentheses (24-1, 25-1) are added by the builder and are in none of the findings; remove them or have the ROC record them.",
+  "Items 26-10 and 26-13 rest on AF-53 and AF-52, which were added at the Build Check and have no source-check results recorded; the checkers should confirm them before approval."
+ ],
+ "findings_comments": [
+  {
+   "finding": "AF-12",
+   "comment": "Corrected wording says 'Maritime provinces' only; statement 22/10 also names Newfoundland and Labrador (in the first-written text). Align the finding."
+  },
+  {
+   "finding": "AF-13",
+   "comment": "Supported at High. HRS may derive from CRS; FVRF returned cut off. Level stands."
+  },
+  {
+   "finding": "AF-14",
+   "comment": "Corrected wording lists TMG-P but TMG-P's new quote has no check_results; the same sentence is confirmed under AF-17. GW and LO-TP each support one source only."
+  },
+  {
+   "finding": "AF-17",
+   "comment": "Corrected wording omits 'as the buds begin to swell', which the page confirms and statement 22/6 uses; add it or cite AF-14."
+  },
+  {
+   "finding": "AF-19",
+   "comment": "GW's line sits under Winter Protection in Okanagan guidance and gives no month; statement should carry 'months are only a guide'."
+  },
+  {
+   "finding": "AF-21",
+   "comment": "Scope is Hybrid Teas or Floribundas and includes the Maritimes; the statement should keep the rose types."
+  },
+  {
+   "finding": "AF-24",
+   "comment": "HRS sentence continues 'according to the directions on the container', not recorded in the finding. LP quote has no check_results. PAL only 'partly'. Wording joins separate cues (clean-up, pruning, new growth) with 'and'; each source gives one."
+  },
+  {
+   "finding": "AF-26",
+   "comment": "Limitation field is empty but PV's mid-July applies only 'si le sol est pauvre', HRS says 'after July' (partly), and LO-YR's own page also gives late August (AF-27). Level Moderate still rests on CRS-OC."
+  },
+  {
+   "finding": "AF-27",
+   "comment": "Used for Toronto only. Later cut-offs (PAL, GGC, LO-YR) are not shown; confirm against Founder direction (LO-YR is a trade association)."
+  },
+  {
+   "finding": "AF-28",
+   "comment": "GW 'partly': the page says 'by late summer', not September. FVRF is a rose nursery, GW a garden-centre chain; 'two garden companies' should not be used."
+  },
+  {
+   "finding": "AF-51",
+   "comment": "No check_results recorded; register quotes match the statement. The spring clean-up clause is AF-24 (HRS), not AF-51's quotes."
+  },
+  {
+   "finding": "AF-10",
+   "comment": "Level High, but the pages speak for colder zones (CRS-WP, LBG-WP), Kingston (TIMG), Quebec (PV, LP) and Alberta (MOSS). Four of six checks say 'partly' and note that 'across much of Canada' is an inference. Wording that reaches all of Canada but coastal BC goes further than the pages."
+  },
+  {
+   "finding": "AF-11",
+   "comment": "Mounding for tender kinds at the coast is not reconfirmed at the Build Check (CRS-WP note: preceding sentence not returned verbatim). GW and FVRF checks are 'partly'. Moderate stands for the extreme-cold advice."
+  },
+  {
+   "finding": "AF-30",
+   "comment": "LO-YR and BCL checks are 'partly' (no frost or cut-off stated). The frost link is PAL alone, so the 'month before frost' statement correctly stays as one grower."
+  },
+  {
+   "finding": "AF-31",
+   "comment": "Four of five checks are 'partly' and each page speaks for one place only. The wording keeps the places in its list, but a Canada-wide statement rests on that spread (Alberta, Fraser Valley, Okanagan, Georgina, Ontario)."
+  },
+  {
+   "finding": "AF-34",
+   "comment": "TG is for packaged roses sold in stores; TIMG says 'bagged', not bare-root; HRS gives no April. The April or soil-workable wording rests on CRS-PL alone."
+  },
+  {
+   "finding": "AF-35",
+   "comment": "Three separate times, not a span (September, late autumn, late fall). Keep them as separate times in Pip's words."
+  },
+  {
+   "finding": "AF-37",
+   "comment": "TIMG narrows to spring or early summer for Kingston; PV's sentence was not checked for potted roses. Fine as wording because the Kingston view is shown separately."
+  },
+  {
+   "finding": "AF-42",
+   "comment": "Early to mid-November and 'first few hard frosts' come from the Georgina page only; mid- to late November from LO-YR (the only Ontario-wide page). A statement for all of Ontario should not use the Georgina timing. The finding's own wording ('early to late November') makes this easy to mistake."
+  },
+  {
+   "finding": "AF-43",
+   "comment": "Recorded as conflict C-3. JD's check is 'Near' and 'partly' ('toiles et jutes' not shown verbatim). Both views belong in Pip's words."
+  },
+  {
+   "finding": "AF-45",
+   "comment": "DNA's date is confirmed; 'at this time' sits with a cut to 6 in. that is not shown. The statement should not depend on that method."
+  },
+  {
+   "finding": "AF-46",
+   "comment": "CRS-SP checked 'partly': it says 'late spring' and does not use the finding's 'temperatures rise above freezing'. Other pages say 'as soon as thawing permits' (C-4). Level High is for the thaw-based idea, not the CRS-SP wording."
+  },
+  {
+   "finding": "AF-50",
+   "comment": "Corrected wording says 'two sources'; MOSS check is 'partly' as one source. Both pages do say the same advice; acceptable as a precaution."
+  },
+  {
+   "finding": "AF-52",
+   "comment": "No source-check result recorded; only the register quotation added at the Build Check."
+  },
+  {
+   "finding": "AF-53",
+   "comment": "No source-check results recorded. The 70 cm figure is the low end of the CRS-WP range of 70 cm to 1 m (C-7) and is cited through MOSS, not read on a CRS page."
+  }
+ ]
+}

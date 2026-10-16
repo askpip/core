@@ -1,0 +1,591 @@
+{
+ "what": "Statements version 0.4, 16 October 2026: the one note left at version 0.3 (PKR-CGD-000023 CA item 4) set to the wording checker's own suggested wording; no other change. This is the set put to a Founder in Pip's Answers.",
+ "statements": [
+  {
+   "ref": "PKR-CGD-000022 CA item 1",
+   "question": "Which months do I prune my rose?",
+   "text": "In Canada, one rose society says the main pruning is usually done in April. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-16",
+    "AF-13",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 2",
+   "question": "Which months do I prune my rose?",
+   "text": "Let the forsythia (a shrub with yellow flowers) tell you when: prune your rose when the forsythia is in flower where you live.",
+   "trace": [
+    "AF-13"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 3",
+   "question": "Which months do I prune my rose?",
+   "text": "Look at the buds as well: prune as they begin to swell, before any leaves open.",
+   "trace": [
+    "AF-14"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 4",
+   "question": "Which months do I prune my rose?",
+   "text": "If your rose has winter protection, take it off first, then prune.",
+   "trace": [
+    "AF-15"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 5",
+   "question": "Which months do I prune my rose?",
+   "text": "Wait until the danger of a hard frost has passed, or the newly pruned tips may be killed.",
+   "trace": [
+    "AF-22",
+    "rule 7"
+   ],
+   "confidence": "Moderate",
+   "kind": "precaution",
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 6",
+   "question": "Which months do I prune my rose?",
+   "text": "In Toronto, one Master Gardener group says the main pruning is usually in April or May, just before new growth begins and as the buds begin to swell. Months are only a guide.",
+   "trace": [
+    "AF-17",
+    "AF-14",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Toronto"
+   ],
+   "shown_to": "Gardeners in or near Toronto only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 7",
+   "question": "Which months do I prune my rose?",
+   "text": "On the coast of British Columbia, the main pruning is done in late winter, between late February and mid-March, as the buds begin to swell. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-18",
+    "AF-14",
+    "rule 3",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA-BC:Lower Mainland",
+    "CA-BC:Fraser Valley",
+    "CA-BC:Victoria"
+   ],
+   "shown_to": "Gardeners in or near the Lower Mainland, the Fraser Valley and Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 8",
+   "question": "Which months do I prune my rose?",
+   "text": "In the Okanagan, one garden company says not to prune in fall, but to wait until early spring. Months are only a guide.",
+   "trace": [
+    "AF-19",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-BC:Okanagan"
+   ],
+   "shown_to": "Gardeners in or near the Okanagan only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 9",
+   "question": "Which months do I prune my rose?",
+   "text": "I couldn't find a source that gives a month for the main pruning of Hybrid Tea or Floribunda roses in Quebec, Alberta, Saskatchewan or Manitoba. A local rose society or horticultural society is the place to ask.",
+   "trace": [
+    "AF-21",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "CA-QC",
+    "CA-AB",
+    "CA-SK",
+    "CA-MB"
+   ],
+   "shown_to": "Gardeners in Quebec, Alberta, Saskatchewan and Manitoba only"
+  },
+  {
+   "ref": "PKR-CGD-000022 CA item 10",
+   "question": "Which months do I prune my rose?",
+   "text": "I couldn't find rose months from a source in Nova Scotia, New Brunswick, Prince Edward Island or Newfoundland and Labrador. A local rose society or horticultural society is the place to ask.",
+   "trace": [
+    "AF-12",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "CA-NS",
+    "CA-NB",
+    "CA-PE",
+    "CA-NL"
+   ],
+   "shown_to": "Gardeners in Nova Scotia, New Brunswick, Prince Edward Island and Newfoundland and Labrador only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 1",
+   "question": "When do I start and stop feeding?",
+   "text": "Give the first feed in spring, once you have tidied the bed and pruned, as new growth begins.",
+   "trace": [
+    "AF-24"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 2",
+   "question": "When do I start and stop feeding?",
+   "text": "Give the last feed by mid-July, so that the stems can ripen before winter. Months are only a guide.",
+   "trace": [
+    "AF-26",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 3",
+   "question": "When do I start and stop feeding?",
+   "text": "In Toronto, one Master Gardener group says not to feed your roses after the end of July. Months are only a guide.",
+   "trace": [
+    "AF-27",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Toronto"
+   ],
+   "shown_to": "Gardeners in or near Toronto only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 4",
+   "question": "When do I start and stop feeding?",
+   "text": "In Barrie and Orillia, one rose society says to feed established roses once you have tidied the bed, following the directions on the container, again before the peak of bloom in June, and a last time in mid-July. Months are only a guide.",
+   "trace": [
+    "AF-51",
+    "AF-24",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Barrie",
+    "CA-ON:Orillia"
+   ],
+   "shown_to": "Gardeners in or near Barrie and Orillia only"
+  },
+  {
+   "ref": "PKR-CGD-000023 CA item 5",
+   "question": "When do I start and stop feeding?",
+   "text": "On the coast of British Columbia, sources disagree about the last feed. The national rose society says to give the last feed by mid-July. A garden company says to stop feeding by late summer, and a rose nursery says to give no feed from September onward. Months are only a guide.",
+   "trace": [
+    "AF-28",
+    "AF-26",
+    "C-8",
+    "rule 2",
+    "rule 6"
+   ],
+   "confidence": null,
+   "kind": "disagreement",
+   "place": [
+    "CA-BC:Lower Mainland",
+    "CA-BC:Fraser Valley",
+    "CA-BC:Victoria"
+   ],
+   "shown_to": "Gardeners in or near the Lower Mainland, the Fraser Valley and Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000024 CA item 1",
+   "question": "When do I stop deadheading?",
+   "text": "Towards the end of the season, stop deadheading (removing the faded flowers) and let the last flowers go to seed. The hips (the rose's fruit) can stay on the stems over winter.",
+   "trace": [
+    "AF-30"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000024 CA item 2",
+   "question": "When do I stop deadheading?",
+   "text": "One rose grower says to stop deadheading a month before the first frost is expected.",
+   "trace": [
+    "AF-30",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000024 CA item 3",
+   "question": "When do I stop deadheading?",
+   "text": "Don't prune your rose in late summer or fall; leave the main pruning until spring. The one exception is shortening very tall canes, so that winter winds don't whip them about.",
+   "trace": [
+    "AF-31",
+    "AF-32"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 1",
+   "question": "Which months do I plant or move a rose?",
+   "text": "Plant a bare-root rose in spring: in April, or as soon as the ground has thawed and you can dig the soil. Months are only a guide.",
+   "trace": [
+    "AF-34",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 2",
+   "question": "Which months do I plant or move a rose?",
+   "text": "Outside the Prairies (Alberta, Saskatchewan and Manitoba), a rose can also be planted in fall: sources give September, or late fall. Months are only a guide.",
+   "trace": [
+    "AF-35",
+    "rule 3",
+    "rule 6"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 3",
+   "question": "Which months do I plant or move a rose?",
+   "text": "On the Prairies (Alberta, Saskatchewan and Manitoba), one rose society says planting in fall is not recommended.",
+   "trace": [
+    "AF-36",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-AB",
+    "CA-SK",
+    "CA-MB"
+   ],
+   "shown_to": "Gardeners in Alberta, Saskatchewan and Manitoba only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 4",
+   "question": "Which months do I plant or move a rose?",
+   "text": "A rose in a pot can be planted at any time during the growing season.",
+   "trace": [
+    "AF-37"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 5",
+   "question": "Which months do I plant or move a rose?",
+   "text": "In Kingston, one Master Gardener group says a rose in a pot is best planted in spring or early summer, and that bare-root grafted roses can be ordered for planting in late fall.",
+   "trace": [
+    "AF-37",
+    "AF-35",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Kingston"
+   ],
+   "shown_to": "Gardeners in or near Kingston only"
+  },
+  {
+   "ref": "PKR-CGD-000025 CA item 6",
+   "question": "Which months do I plant or move a rose?",
+   "text": "I couldn't find a Canadian source on when to move an established rose. A local rose society or horticultural society is the place to ask.",
+   "trace": [
+    "AF-38",
+    "rule 5"
+   ],
+   "confidence": null,
+   "kind": "gap",
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 1",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In the colder parts of Canada, Hybrid Tea and Floribunda roses need protecting over winter.",
+   "trace": [
+    "AF-10"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 2",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In fall, as you get your roses ready for winter, remove all dead leaves and clippings from the bed.",
+   "trace": [
+    "AF-39"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 3",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Put the winter protection (such as a mound of soil or a cover) on after hard frosts, once the rose is dormant (resting, no longer growing) and the ground is starting to freeze. Don't put it on too early.",
+   "trace": [
+    "AF-41"
+   ],
+   "confidence": "High",
+   "kind": null,
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 4",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Take the winter protection off in spring as the soil thaws. Sources disagree on how soon: some say as soon as thawing allows, while the national rose society waits until late spring, when a hard freeze is no longer expected.",
+   "trace": [
+    "AF-46",
+    "C-4",
+    "rule 2"
+   ],
+   "confidence": null,
+   "kind": "disagreement",
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 5",
+   "question": "When do I clear up and spray in winter?",
+   "text": "Take the protection off a little at a time as the ground thaws, not all at once.",
+   "trace": [
+    "AF-50",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": "precaution",
+   "place": [
+    "CA"
+   ],
+   "shown_to": "Gardeners in Canada only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 6",
+   "question": "When do I clear up and spray in winter?",
+   "text": "On the coast of British Columbia, winter protection is not usually needed. If extreme cold is forecast, protect newly planted roses, and move roses in pots into a garage or other unheated space.",
+   "trace": [
+    "AF-11"
+   ],
+   "confidence": "Moderate",
+   "kind": null,
+   "place": [
+    "CA-BC:Lower Mainland",
+    "CA-BC:Fraser Valley",
+    "CA-BC:Victoria"
+   ],
+   "shown_to": "Gardeners in or near the Lower Mainland, the Fraser Valley and Victoria only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 7",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Ontario, one source says to put winter protection on in mid- to late November, once the ground is frozen, and not too early. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-42",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON"
+   ],
+   "shown_to": "Gardeners in Ontario only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 8",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Georgina, one garden centre says to start getting roses ready for winter in early to mid-November or after the first few hard frosts, and to wait for several hard frosts before covering them, because covering too soon can trap moisture and invite rot or mildew. It says to uncover them gradually, around late April or early May, once the snow has melted and daytime temperatures consistently stay above freezing. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-47",
+    "AF-42",
+    "AF-41",
+    "AF-50",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Georgina"
+   ],
+   "shown_to": "Gardeners in or near Georgina only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 9",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Quebec, one garden company says to wait for the cooler weather of November before putting on foam cones, though nets, wooden frames and snow fences can go up earlier. It says to take the protection off as soon as the snow and ice allow.",
+   "trace": [
+    "AF-43",
+    "AF-46",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-QC"
+   ],
+   "shown_to": "Gardeners in Quebec only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 10",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Alberta, one guide says to cut the canes back to about 70 cm and remove the remaining leaves, to wait until the rose is fully dormant (resting, no longer growing), and then to build the mound once the ground is at least partly frozen.",
+   "trace": [
+    "AF-53",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-AB"
+   ],
+   "shown_to": "Gardeners in Alberta only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 11",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Alberta, one garden company says to water your roses for the winter on 15 October, and to take the winter cover off around the May long weekend. Months are only a guide, because frosts vary from year to year.",
+   "trace": [
+    "AF-45",
+    "AF-48",
+    "rule 4",
+    "rule 6"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-AB"
+   ],
+   "shown_to": "Gardeners in Alberta only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 12",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In the Okanagan, one garden company says to mound soil or compost around the base of grafted roses in late fall.",
+   "trace": [
+    "AF-44",
+    "rule 4"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-BC:Okanagan"
+   ],
+   "shown_to": "Gardeners in or near the Okanagan only"
+  },
+  {
+   "ref": "PKR-CGD-000026 CA item 13",
+   "question": "When do I clear up and spray in winter?",
+   "text": "In Barrie and Orillia, one rose society says a dormant-oil spray early in spring, and again before the winter protection goes on, will keep disease down. If you use one, follow the label and the local rules.",
+   "trace": [
+    "AF-52",
+    "rule 4",
+    "rule 7"
+   ],
+   "confidence": "Low",
+   "kind": null,
+   "place": [
+    "CA-ON:Barrie",
+    "CA-ON:Orillia"
+   ],
+   "shown_to": "Gardeners in or near Barrie and Orillia only"
+  }
+ ]
+}

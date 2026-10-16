@@ -1,0 +1,1900 @@
+{
+ "what": "Build Check Part 1 (ROC Operations Manual §14.2A): every source the Source Register lists for a finding was reopened on 16 October 2026 and each recorded quotation looked for on its page. 'also_says' lists further sentences the checkers reported on the same pages; some are marked by the checkers as paraphrases and are not relied on.",
+ "totals": {
+  "sources": 30,
+  "opened": 30,
+  "could_not_open": 0,
+  "quotations": 136,
+  "confirmed": 129,
+  "near": 7,
+  "not_found": 0,
+  "on_pages_not_opened": 0,
+  "supports": {
+   "partly": 37,
+   "yes": 99
+  },
+  "further_sentences": 75
+ },
+ "sources": [
+  {
+   "code": "CRS-WP",
+   "url": "https://canadianrosesociety.org/winter-protection/",
+   "final_url": "https://canadianrosesociety.org/winter-protection/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-8",
+     "recorded": "\"Zones 2-4 [heading] ... Zones 5-6 [heading] ... Zones 7-9 [heading]\"",
+     "result": "Confirmed",
+     "page_wording": "Zones 2-4 / Zones 5-6 / Zones 7-9",
+     "supports_finding": "yes",
+     "note": "Page has the three zone headings and does not say whether zones are Canadian or USDA. No organisation name or date shown on the fetched text."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"Tender roses (Hybrid Teas, Floribundas, Austins and Grandifloras) require layers of winter protection.\"",
+     "result": "Confirmed",
+     "page_wording": "Tender roses (Hybrid Teas, Floribundas, Austins and Grandifloras) require layers of winter protection.",
+     "supports_finding": "yes",
+     "note": "Canadian Rose Society page; place not stated beyond a Coastal B.C. mention and Chinook winds. 'Across much of Canada' is an inference from the zone bands, not stated."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"Otherwise, winter protection is not usually necessary in Coastal B.C\"",
+     "result": "Confirmed",
+     "page_wording": "Otherwise, winter protection is not usually necessary in Coastal B.C",
+     "supports_finding": "yes",
+     "note": "Says coastal B.C. usually needs no winter protection; the 'except tender or newly planted roses in extreme cold' part rests on the word 'Otherwise' and the preceding sentence, which was not returned verbatim."
+    },
+    {
+     "finding": "AF-20",
+     "recorded": "\"In the spring, when the bush begins to leaf out again, any winter kill can be removed and the bush shaped if necessary.\"",
+     "result": "Near",
+     "page_wording": "In the spring, when the bush begins to leaf out again, any winter kill can be removed",
+     "supports_finding": "yes",
+     "note": "Same sense; the tail 'and the bush shaped if necessary' was not returned by WebFetch. No month given. Zone 2-4 attribution to this sentence was not separately shown."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Cut canes back to about 70cm to 1m (28-40 in) to prevent them whipping about in the wind.\"",
+     "result": "Confirmed",
+     "page_wording": "Cut canes back to about 70cm to 1m (28-40 in) to prevent them whipping about in the wind.",
+     "supports_finding": "yes",
+     "note": "Canadian Rose Society; zone band for this sentence not shown in the returned text."
+    },
+    {
+     "finding": "AF-33",
+     "recorded": "\"Around Thanksgiving cut canes back to about 70cm (28 in) and defoliate them.\"",
+     "result": "Confirmed",
+     "page_wording": "Around Thanksgiving cut canes back to about 70cm (28 in) and defoliate them.",
+     "supports_finding": "yes",
+     "note": "Page says tender roses in Zones 2-4 are cut back and defoliated around Thanksgiving (Canadian Thanksgiving, second Monday of October); winter-hardy roses are not cut back in fall."
+    },
+    {
+     "finding": "AF-39",
+     "recorded": "\"Remove all dead leaves and any clippings from the bed.\"",
+     "result": "Confirmed",
+     "page_wording": "Remove all dead leaves and any clippings from the bed.",
+     "supports_finding": "yes",
+     "note": "Canadian Rose Society, in the winter-preparation context. The finding says 'debris'; page says 'clippings'. No month given."
+    },
+    {
+     "finding": "AF-41",
+     "recorded": "\"When the ground is at least partially frozen, place a collar around each bush\"",
+     "result": "Confirmed",
+     "page_wording": "When the ground is at least partially frozen, place a collar around each bush and fill with dry soil and peat moss.",
+     "supports_finding": "yes",
+     "note": "Protection tied to ground freezing, not a date. 'After hard frosts' is not in the returned text. Applies to the cold-zone (2-4) method."
+    }
+   ],
+   "contradictions": [
+    "Winter-hardy roses should not be cut back in fall; only tender roses are cut at Thanksgiving.",
+    "Page says ALL newly planted roses in Zones 5-6 should get some winter protection the first winter or two."
+   ],
+   "also_says": [
+    {
+     "topic": "winter protection",
+     "quote": "Note that ALL newly planted roses in Zones 5-6 should receive some winter protection the first winter or two",
+     "note": "Zones 5-6; no month; Canadian Rose Society"
+    },
+    {
+     "topic": "frost",
+     "quote": "Covering the bushes in Zones 2-4 is meant to keep them frozen until spring (paraphrase from WebFetch, not verbatim)",
+     "note": "Zones 2-4, even where Chinook winds are common"
+    }
+   ]
+  },
+  {
+   "code": "CRS-SP",
+   "url": "https://canadianrosesociety.org/spring-maintenance-pruning/",
+   "final_url": "https://canadianrosesociety.org/spring-maintenance-pruning/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"usually April or when the forsythia is in bloom in your area\"",
+     "result": "Confirmed",
+     "page_wording": "usually April or when the forsythia is in bloom in your area",
+     "supports_finding": "yes",
+     "note": "Canadian Rose Society, no place or band stated; forsythia is given as an alternative to April."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"Established rose bushes are pruned after the soil mounds have been removed in the spring\"",
+     "result": "Confirmed",
+     "page_wording": "Established rose bushes are pruned after the soil mounds have been removed in the spring",
+     "supports_finding": "yes",
+     "note": "Pruning follows removal of soil mounds. Cold-winter area is implied by mounds; page names no place."
+    },
+    {
+     "finding": "AF-16",
+     "recorded": "\"usually April or when the forsythia is in bloom in your area\"",
+     "result": "Confirmed",
+     "page_wording": "usually April or when the forsythia is in bloom in your area",
+     "supports_finding": "yes",
+     "note": "Canadian Rose Society, no band named. Says usually April."
+    },
+    {
+     "finding": "AF-46",
+     "recorded": "\"In late spring, when the soil has thawed and a hard freeze is no longer expected, carefully remove soil mounds\"",
+     "result": "Confirmed",
+     "page_wording": "In late spring, when the soil has thawed and a hard freeze is no longer expected, carefully remove soil mounds",
+     "supports_finding": "partly",
+     "note": "Tied to thaw and no expected hard freeze, but also says 'late spring'; page gives no fixed date or place. Finding's 'temperatures rise above freezing' wording is not on the page."
+    },
+    {
+     "finding": "AF-49",
+     "recorded": "\"usually April\"",
+     "result": "Confirmed",
+     "page_wording": "usually April or when the forsythia is in bloom in your area",
+     "supports_finding": "yes",
+     "note": "'Usually' is used for April pruning on this page."
+    }
+   ],
+   "contradictions": [
+    "Page says newly planted roses are cut back hard in spring, a different timing from established roses."
+   ],
+   "also_says": [
+    {
+     "topic": "winter protection removal",
+     "quote": "Remove the soil mounds in late spring (paraphrase from WebFetch; see AF-46 verbatim)",
+     "note": "Late spring; place not stated"
+    },
+    {
+     "topic": "pruning",
+     "quote": "Newly planted roses are cut back hard in spring, leaving three strong canes about 10-12 cm long (paraphrase from WebFetch, not verbatim)",
+     "note": "Spring; place not stated"
+    }
+   ]
+  },
+  {
+   "code": "CRS-PL",
+   "url": "https://canadianrosesociety.org/planting/",
+   "final_url": "https://canadianrosesociety.org/planting/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-34",
+     "recorded": "\"prepare the beds at least 3 weeks before planting in April, or as soon as the soil is workable for spring planting\"",
+     "result": "Confirmed",
+     "page_wording": "prepare the beds at least 3 weeks before planting in April, or as soon as the soil is workable for spring planting",
+     "supports_finding": "yes",
+     "note": "Canadian Rose Society; spring planting in April or when soil is workable. Place not stated."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "\"or in September for fall planting.\"",
+     "result": "Confirmed",
+     "page_wording": "or in September for fall planting.",
+     "supports_finding": "yes",
+     "note": "September given for fall planting by this society; other sources' 'late autumn/late fall' not checked here."
+    },
+    {
+     "finding": "AF-36",
+     "recorded": "\"Note that fall planting is not recommended across the Prairies Provinces\"",
+     "result": "Confirmed",
+     "page_wording": "Note that fall planting is not recommended across the Prairies Provinces",
+     "supports_finding": "yes",
+     "note": "Canadian Rose Society, Prairie provinces (page spells 'Prairies Provinces')."
+    },
+    {
+     "finding": "AF-37",
+     "recorded": "\"container-grown roses can be planted anytime during the growing season.\"",
+     "result": "Confirmed",
+     "page_wording": "container-grown roses can be planted anytime during the growing season.",
+     "supports_finding": "yes",
+     "note": "No place or months stated."
+    }
+   ],
+   "contradictions": [
+    "Page uses USDA-style 'Zones 2-5' for planting depth, so zone type is mixed with Canadian advice."
+   ],
+   "also_says": [
+    {
+     "topic": "feeding",
+     "quote": "To avoid injury to the young roots DO NOT ADD any other fertilizer at planting time.",
+     "note": "At planting; no month or place"
+    },
+    {
+     "topic": "winter protection removal",
+     "quote": "Remove the mounds when the plants are established and the buds begin to break.",
+     "note": "Spring; place not stated"
+    }
+   ]
+  },
+  {
+   "code": "CRS-OC",
+   "url": "https://canadianrosesociety.org/ongoing-care/",
+   "final_url": "https://canadianrosesociety.org/ongoing-care/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-24",
+     "recorded": "\"When spring clean-up has been completed, fertilize established roses with granular fertilizer\"",
+     "result": "Confirmed",
+     "page_wording": "When spring clean-up has been completed, fertilize established roses with granular fertilizer",
+     "supports_finding": "yes",
+     "note": "Canadian Rose Society; tied to spring clean-up, not a month. Place stated only as Canada."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"a third application may be made in mid-July. Later applications are not recommended as plants must ripen wood before winter sets in.\"",
+     "result": "Confirmed",
+     "page_wording": "a third application may be made in mid-July. Later applications are not recommended as plants must ripen wood before winter sets in.",
+     "supports_finding": "yes",
+     "note": "This page gives mid-July as the last feed; it is one source only. The 'four sources' count depends on other pages. Page mentions a Quebec note (alfalfa tea) and a Montreal botanical garden article."
+    }
+   ],
+   "contradictions": [
+    "Page also says newly planted roses are not fed until after first bloom, and the next feed is just before peak bloom around June."
+   ],
+   "also_says": [
+    {
+     "topic": "feeding",
+     "quote": "Make the next application just before peak bloom, around June (paraphrase from WebFetch, not verbatim)",
+     "note": "June; Canada"
+    },
+    {
+     "topic": "deadheading",
+     "quote": "Cut just above an outward-facing five-leaflet leaf on a cane strong enough to support a new bloom (paraphrase from WebFetch, not verbatim)",
+     "note": "No cut-off month given"
+    }
+   ]
+  },
+  {
+   "code": "HRS",
+   "url": "https://huroniarose.wordpress.com/rose-links/plantingguide/",
+   "final_url": "https://huroniarose.wordpress.com/rose-links/plantingguide/",
+   "opened": true,
+   "page_date": "25 May 2020, modified 9 December 2024",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"or when the FORSTYHIA is in bloom in your area.\"",
+     "result": "Confirmed",
+     "page_wording": "or when the FORSTYHIA is in bloom in your area.",
+     "supports_finding": "yes",
+     "note": "Huronia Rose Society, Ontario (Barrie and Orillia). Page's spelling 'FORSTYHIA'."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"Rose bushes are pruned after the winter protection has been removed in the spring\"",
+     "result": "Confirmed",
+     "page_wording": "Rose bushes are pruned after the winter protection has been removed in the spring",
+     "supports_finding": "yes",
+     "note": "Ontario; pruning follows removal of winter protection."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"When spring clean up has been completed fertilize ESTABLISHED roses.\"",
+     "result": "Near",
+     "page_wording": "When spring clean up has been completed fertilize ESTABLISHED roses according to the directions on the container.",
+     "supports_finding": "yes",
+     "note": "Recorded words are the start of a longer sentence. Ontario; tied to spring clean-up, not a month."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"APPLICATIONS after July ARE NOT RECOMMENDED because the bush needs to prepare for winter\"",
+     "result": "Confirmed",
+     "page_wording": "APPLICATIONS after July ARE NOT RECOMMENDED because the bush needs to prepare for winter and go dormant.",
+     "supports_finding": "partly",
+     "note": "Ontario society says no feeds after July; mid-July is said to be the final application in the page's schedule (WebFetch paraphrase). The recorded sentence itself says 'after July', not 'mid-July'."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"Ideal planting time is early spring, as soon as the ground has thawed.\"",
+     "result": "Confirmed",
+     "page_wording": "Ideal planting time is early spring, as soon as the ground has thawed.",
+     "supports_finding": "partly",
+     "note": "Supports 'as soon as thawed'; no April month given here. Ontario."
+    },
+    {
+     "finding": "AF-39",
+     "recorded": "\"Remove all dead leaves and any debris from the bed.\"",
+     "result": "Confirmed",
+     "page_wording": "Remove all dead leaves and any debris from the bed.",
+     "supports_finding": "yes",
+     "note": "Ontario; winter-preparation context; no month."
+    }
+   ],
+   "contradictions": [
+    "Page also advises a dormant-oil spray early in spring and again before winter protection (paraphrase from WebFetch)."
+   ],
+   "also_says": [
+    {
+     "topic": "winter protection",
+     "quote": "Cut tender roses back to about 28-40 inches to limit wind whipping (paraphrase from WebFetch, not verbatim)",
+     "note": "Fall; Ontario"
+    },
+    {
+     "topic": "feeding",
+     "quote": "The next feeding comes before peak bloom in June, with a final application in mid-July (paraphrase from WebFetch, not verbatim)",
+     "note": "June and mid-July; Ontario"
+    }
+   ]
+  },
+  {
+   "code": "DNA",
+   "url": "https://dnagardens.ca/blogs/news/overwintering-hybid-tea-and-floribunda-roses",
+   "final_url": "https://dnagardens.ca/blogs/news/overwintering-hybid-tea-and-floribunda-roses",
+   "opened": true,
+   "page_date": "19 May 2024",
+   "checks": [
+    {
+     "finding": "AF-29",
+     "recorded": "\"In mid August stop all fertilizer.\"",
+     "result": "Confirmed",
+     "page_wording": "In mid August stop all fertilizer.",
+     "supports_finding": "yes",
+     "note": "DNA Gardens, Elnora, Alberta (from contact details); page itself names no region."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Do not prune in late summer.\"",
+     "result": "Confirmed",
+     "page_wording": "Do not prune in late summer.",
+     "supports_finding": "partly",
+     "note": "Supports late-summer pruning avoided, but only for this Alberta nursery; the finding lists coastal BC, Okanagan and Ontario, and 'fall' is not mentioned here."
+    },
+    {
+     "finding": "AF-45",
+     "recorded": "\"October 15th at this time, water your roses for the winter.\"",
+     "result": "Confirmed",
+     "page_wording": "October 15th at this time, water your roses for the winter.",
+     "supports_finding": "yes",
+     "note": "Alberta nursery gives 15 October for last winter watering; watering also stopped in mid-August."
+    },
+    {
+     "finding": "AF-48",
+     "recorded": "\"Approximately May long weekend remove pail. ... Leave pail on the roses until night time temperature is plus 10.\"",
+     "result": "Confirmed",
+     "page_wording": "Approximately May long weekend remove pail. / Leave pail on the roses until night time temperature is plus 10.",
+     "supports_finding": "yes",
+     "note": "Alberta nursery; uncovering around the May long weekend. Temperature unit not stated on the page."
+    },
+    {
+     "finding": "AF-49",
+     "recorded": "\"Approximately May long weekend remove pail.\"",
+     "result": "Confirmed",
+     "page_wording": "Approximately May long weekend remove pail.",
+     "supports_finding": "yes",
+     "note": "'Approximately' is used for the May long weekend date."
+    }
+   ],
+   "contradictions": [
+    "Page says cut canes to about 6 inches before winter, much shorter than the Canadian Rose Society's 70 cm.",
+    "Page does not name a region or mention frost."
+   ],
+   "also_says": [
+    {
+     "topic": "deadheading",
+     "quote": "Remove spent flower heads after blooming to encourage continued flowering (paraphrase from WebFetch, not verbatim)",
+     "note": "During bloom; Alberta"
+    },
+    {
+     "topic": "winter protection",
+     "quote": "Remove dead leaves and fallen rose leaves, then mound soil over the plant; cover with a 5-gallon pail (paraphrase from WebFetch, not verbatim)",
+     "note": "Fall; Alberta"
+    }
+   ]
+  },
+  {
+   "code": "TC",
+   "url": "https://www.timescolonist.com/homes/helen-chesnuts-garden-notes-pruning-schedule-depends-on-type-of-rose-4676520",
+   "final_url": "https://www.timescolonist.com/homes/helen-chesnuts-garden-notes-pruning-schedule-depends-on-type-of-rose-4676520",
+   "opened": true,
+   "page_date": "not shown (event listings mention Oct. 23 and Oct. 26, no year)",
+   "checks": [
+    {
+     "finding": "AF-14",
+     "recorded": "\"Leave the main pruning of bush roses until late winter, ideally as growth buds show the first signs of swelling.\"",
+     "result": "Confirmed",
+     "page_wording": "Leave the main pruning of bush roses until late winter, ideally as growth buds show the first signs of swelling.",
+     "supports_finding": "yes",
+     "note": "Times Colonist garden column, Victoria BC; ties pruning to buds swelling. Only one of the 'four sources'."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"Leave the main pruning of bush roses until late winter\"",
+     "result": "Confirmed",
+     "page_wording": "Leave the main pruning of bush roses until late winter",
+     "supports_finding": "partly",
+     "note": "Page says 'late winter' for the Victoria area; no 'late February to mid-March' months were returned from the page."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Restrict pruning in the fall to shortening over-long canes prone to being whipped about and damaged or broken in winter winds.\"",
+     "result": "Near",
+     "page_wording": "Restrict pruning in the fall to shortening over-long canes prone to being whipped about...",
+     "supports_finding": "yes",
+     "note": "WebFetch returned the sentence truncated; same sense. Victoria BC."
+    }
+   ],
+   "contradictions": [
+    "Page says repeat-flowering modern climbers are pruned in late autumn; ramblers and once-flowering climbers in July (not bush roses)."
+   ],
+   "also_says": [
+    {
+     "topic": "winter clean-up",
+     "quote": "Rose leaves still on the plants should be removed by December (paraphrase from WebFetch, not verbatim)",
+     "note": "December; Victoria BC"
+    },
+    {
+     "topic": "mulching",
+     "quote": "Plan to mulch early in spring (paraphrase from WebFetch, not verbatim)",
+     "note": "Early spring; Victoria BC"
+    }
+   ]
+  },
+  {
+   "code": "TG",
+   "url": "https://www.torontogardens.com/2009/03/planting-bare-root-roses-in-canada-in.html/",
+   "final_url": "https://www.torontogardens.com/2009/03/planting-bare-root-roses-in-canada-in.html/",
+   "opened": true,
+   "page_date": "24 March 2009",
+   "checks": [
+    {
+     "finding": "AF-34",
+     "recorded": "\"buy and plant early, usually 1st week of April in most parts of Canada, certainly in Toronto.\"",
+     "result": "Confirmed",
+     "page_wording": "buy and plant early, usually 1st week of April in most parts of Canada, certainly in Toronto.",
+     "supports_finding": "yes",
+     "note": "Toronto Gardens blog (Sarah Battersby site), 2009; the advice is for packaged roses sold in stores, Toronto named. 'As soon as soil workable' is not in this sentence."
+    }
+   ],
+   "contradictions": [
+    "Advice is aimed at packaged roses from grocery stores and garden outlets, and is 17 years old."
+   ],
+   "also_says": [
+    {
+     "topic": "planting",
+     "quote": "Mound soil about 10 inches deep to protect the plant while it sets roots, and remove the mound about 2 weeks after planting (paraphrase from WebFetch, not verbatim)",
+     "note": "After April planting; Toronto"
+    },
+    {
+     "topic": "frost",
+     "quote": "The bud union should sit at least 2 inches below the soil surface in zone 6 and colder (paraphrase from WebFetch, not verbatim)",
+     "note": "Zone 6 and colder"
+    }
+   ]
+  },
+  {
+   "code": "LO-TP",
+   "url": "https://landscapeontario.com/roses-type-and-pruning/",
+   "final_url": "https://landscapeontario.com/roses-type-and-pruning/",
+   "opened": true,
+   "page_date": "29 May 2013",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"When the yellow flowers of forsythia are in bloom, your roses should be showing signs of life.\"",
+     "result": "Confirmed",
+     "page_wording": "When the yellow flowers of forsythia are in bloom, your roses should be showing signs of life.",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario (29 May 2013); ties spring pruning timing to forsythia bloom. Place not stated on page (Ontario trade body)."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"The buds should be swelling and quite obvious but showing no leaves.\"",
+     "result": "Confirmed",
+     "page_wording": "The buds should be swelling and quite obvious but showing no leaves.",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; buds swelling as the pruning cue. Only one of the four sources in the finding; place not stated."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"Somewhat later, remove the soil that you mounded up around the base of the canes the previous fall\"",
+     "result": "Confirmed",
+     "page_wording": "Somewhat later, remove the soil that you mounded up around the base of the canes the previous fall, and rough prune by cutting winter-killed tips down to the live wood.",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; mound removal then rough pruning, no month given. Place not stated."
+    },
+    {
+     "finding": "AF-46",
+     "recorded": "\"As soon as thawing permits, take away the evergreen boughs or remove the rose collars if you installed any.\"",
+     "result": "Confirmed",
+     "page_wording": "As soon as thawing permits, take away the evergreen boughs or remove the rose collars if you installed any.",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; protection removed as thawing permits, no fixed date. Place not stated on page."
+    }
+   ],
+   "contradictions": [
+    "Page does not name a place; Ontario inferred from the publisher."
+   ],
+   "also_says": [
+    {
+     "topic": "pruning",
+     "quote": "Winter weather may have already killed the top half, so cut to the first live wood.",
+     "note": "Spring, place not stated"
+    },
+    {
+     "topic": "pruning",
+     "quote": "At this time, cut out all dead stems, twiggy growth and retain only three or four strong canes at the most.",
+     "note": "Spring, place not stated"
+    },
+    {
+     "topic": "deadheading/pruning",
+     "quote": "This form of pruning in mid-summer results in strong, vigorous, fast replacement of new blossoms",
+     "note": "Mid-summer, place not stated"
+    }
+   ]
+  },
+  {
+   "code": "LO-YR",
+   "url": "https://landscapeontario.com/rose-care-throughout-the-year/",
+   "final_url": "https://landscapeontario.com/rose-care-throughout-the-year/",
+   "opened": true,
+   "page_date": "4 June 2013",
+   "checks": [
+    {
+     "finding": "AF-24",
+     "recorded": "\"Start to fertilize when growth begins.\"",
+     "result": "Confirmed",
+     "page_wording": "Start to fertilize when growth begins.",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; first feed tied to start of growth. Ontario."
+    },
+    {
+     "finding": "AF-25",
+     "recorded": "\"Apply in early May, mid-June and again in mid-July.\"",
+     "result": "Confirmed",
+     "page_wording": "Apply in early May, mid-June and again in mid-July.",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; feeding schedule early May, mid-June, mid-July. Ontario."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"Start thinking of over-wintering your roses in mid-July at the time of your last fertilization.\"",
+     "result": "Confirmed",
+     "page_wording": "Start thinking of over-wintering your roses in mid-July at the time of your last fertilization.",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; last feed mid-July. Supports only this one of the four sources."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"Established roses should be fed every week from early spring to late August.\"",
+     "result": "Confirmed",
+     "page_wording": "Established roses should be fed every week from early spring to late August.",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; feeding to late August (conflicts with the same page's mid-July last feed). Ontario."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"Let the last flowers go to seed; do not prune.\"",
+     "result": "Confirmed",
+     "page_wording": "Let the last flowers go to seed; do not prune.",
+     "supports_finding": "partly",
+     "note": "Landscape Ontario; stop pruning at the end of the season, no month or frost trigger stated in this sentence. Does not itself show 'no source gives a month'."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Let the last flowers go to seed; do not prune.\"",
+     "result": "Confirmed",
+     "page_wording": "Let the last flowers go to seed; do not prune.",
+     "supports_finding": "partly",
+     "note": "Landscape Ontario (Ontario) says no pruning at the end of season; the quote does not mention late summer/fall explicitly and covers Ontario only, not Alberta/BC."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Do not prune at this time, unless the canes are so tall they could whip about in the winter winds\"",
+     "result": "Confirmed",
+     "page_wording": "Do not prune at this time, unless the canes are so tall they could whip about in the winter winds",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; only exception to fall non-pruning is tall canes. Ontario."
+    },
+    {
+     "finding": "AF-41",
+     "recorded": "\"When the ground is frozen, (not too early, mid- to late November)\"",
+     "result": "Confirmed",
+     "page_wording": "When the ground is frozen, (not too early, mid- to late November)",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; protection goes on when ground is frozen, mid- to late November. Ontario."
+    },
+    {
+     "finding": "AF-42",
+     "recorded": "\"When the ground is frozen, (not too early, mid- to late November)\"",
+     "result": "Confirmed",
+     "page_wording": "When the ground is frozen, (not too early, mid- to late November)",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; mid- to late November, Ontario."
+    },
+    {
+     "finding": "AF-46",
+     "recorded": "\"Remove the collar and then the soil as it thaws.\"",
+     "result": "Confirmed",
+     "page_wording": "Remove the collar and then the soil as it thaws.",
+     "supports_finding": "yes",
+     "note": "Landscape Ontario; removal as soil thaws, no fixed date. Ontario."
+    }
+   ],
+   "contradictions": [
+    "Same page gives last feed mid-July and also 'every week from early spring to late August', so it disagrees with itself."
+   ],
+   "also_says": [
+    {
+     "topic": "feeding",
+     "quote": "After three or four weeks, change to a brand name rose food.",
+     "note": "After planting, Ontario"
+    },
+    {
+     "topic": "watering",
+     "quote": "Reduce the watering schedule in the fall.",
+     "note": "Fall, Ontario"
+    }
+   ]
+  },
+  {
+   "code": "TIMG",
+   "url": "https://1000islandsmastergardeners.ca/2020/07/04/growing-roses-in-zone-5/",
+   "final_url": "https://1000islandsmastergardeners.ca/2020/07/04/growing-roses-in-zone-5/",
+   "opened": true,
+   "page_date": "4 July 2020, updated 17 December 2025",
+   "checks": [
+    {
+     "finding": "AF-3",
+     "recorded": "\"The United States Department of Agriculture Map's zones are different- zone 6 here may be zone 5 there.\"",
+     "result": "Confirmed",
+     "page_wording": "The United States Department of Agriculture Map's zones are different- zone 6 here may be zone 5 there.",
+     "supports_finding": "yes",
+     "note": "1000 Islands Master Gardeners (Kingston, Ontario, 2020/updated Dec 2025); says Canadian zone about one higher than USDA. Only this one source on the page."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"The Kingston area is designated as Zone 5a-6a on the Natural Resources Canada Map, depending on where you live.\"",
+     "result": "Confirmed",
+     "page_wording": "The Kingston area is designated as Zone 5a-6a on the Natural Resources Canada Map, depending on where you live.",
+     "supports_finding": "partly",
+     "note": "Names the Kingston area and the NRCan (Canadian) zone, supporting place plus Canadian zone; says nothing about other towns or regions."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"Winter protection is advised for this group\"",
+     "result": "Confirmed",
+     "page_wording": "Winter protection is advised for this group.",
+     "supports_finding": "partly",
+     "note": "Said for Hybrid Teas (and 'Winter protection is still advised' for Floribundas) for a Zone 5 Kingston garden; not 'across much of Canada'."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"a reblooming rose should be pruned in spring when the forsythia blooms.\"",
+     "result": "Confirmed",
+     "page_wording": "a reblooming rose should be pruned in spring when the forsythia blooms.",
+     "supports_finding": "yes",
+     "note": "1000 Islands Master Gardeners; forsythia cue for reblooming roses. Kingston, Ontario."
+    },
+    {
+     "finding": "AF-34",
+     "recorded": "\"bagged roses best in early spring.\"",
+     "result": "Confirmed",
+     "page_wording": "bagged roses best in early spring.",
+     "supports_finding": "partly",
+     "note": "Says bagged roses best in early spring; no April and no 'soil workable' wording, and 'bagged' not stated as bare-root."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "\"If possible, order bare-root grafted roses for late fall planting.\"",
+     "result": "Confirmed",
+     "page_wording": "If possible, order bare-root grafted roses for late fall planting.",
+     "supports_finding": "partly",
+     "note": "Late fall bare-root planting for grafted roses, Kingston; only one of the fall dates in the finding."
+    },
+    {
+     "finding": "AF-37",
+     "recorded": "\"Potted roses are best planted in the spring or early summer\"",
+     "result": "Confirmed",
+     "page_wording": "Potted roses are best planted in the spring or early summer",
+     "supports_finding": "partly",
+     "note": "Says best in spring or early summer, which narrows the finding's 'any time in the growing season'."
+    }
+   ],
+   "contradictions": [
+    "Potted roses 'best' in spring or early summer, narrower than any time in the growing season.",
+    "Bagged roses early spring; no April given."
+   ],
+   "also_says": [
+    {
+     "topic": "pruning",
+     "quote": "Prune the dead canes out at the base, and any weak, diseased, or crossing canes to allow air circulation through the rose.",
+     "note": "No month, Kingston"
+    },
+    {
+     "topic": "winter protection",
+     "quote": "Grafted roses in a zone 5 garden should be planted with the graft union 5 cms below the soil level for winter protection.",
+     "note": "Planting depth, Kingston"
+    },
+    {
+     "topic": "winter protection",
+     "quote": "Winter protection is still advised.",
+     "note": "Floribunda section, Kingston"
+    }
+   ]
+  },
+  {
+   "code": "TMG-P",
+   "url": "https://www.torontomastergardeners.ca/gardeningguides/pruning-roses-a-toronto-master-gardeners-guide/",
+   "final_url": "https://www.torontomastergardeners.ca/gardeningguides/pruning-roses-a-toronto-master-gardeners-guide/",
+   "opened": true,
+   "page_date": "September 2021",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "\"In Toronto this is usually in April or May, just before new growth begins.\"",
+     "result": "Confirmed",
+     "page_wording": "In Toronto this is usually in April or May, just before new growth begins and as the buds begin to swell.",
+     "supports_finding": "yes",
+     "note": "Toronto Master Gardeners (Sept 2021); Toronto pruning timing named by place. Recorded quote is the first part of the sentence."
+    },
+    {
+     "finding": "AF-17",
+     "recorded": "\"In Toronto this is usually in April or May, just before new growth begins.\"",
+     "result": "Confirmed",
+     "page_wording": "In Toronto this is usually in April or May, just before new growth begins and as the buds begin to swell.",
+     "supports_finding": "yes",
+     "note": "Toronto Master Gardeners; Toronto, April or May ('usually')."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"Wait until the danger of a hard frost is past or newly pruned tips may be killed.\"",
+     "result": "Confirmed",
+     "page_wording": "Wait until the danger of a hard frost is past or newly pruned tips may be killed.",
+     "supports_finding": "yes",
+     "note": "Toronto Master Gardeners; Toronto, spring pruning risk of frost kill."
+    },
+    {
+     "finding": "AF-49",
+     "recorded": "\"usually in April or May\"",
+     "result": "Confirmed",
+     "page_wording": "In Toronto this is usually in April or May, just before new growth begins and as the buds begin to swell.",
+     "supports_finding": "yes",
+     "note": "Toronto Master Gardeners use 'usually' for the months; Toronto."
+    }
+   ],
+   "contradictions": [
+    "Full sentence adds 'and as the buds begin to swell' beyond the recorded words."
+   ],
+   "also_says": [
+    {
+     "topic": "pruning",
+     "quote": "Roses should be pruned in early spring at the end of the dormant season.",
+     "note": "Early spring, Toronto"
+    },
+    {
+     "topic": "deadheading",
+     "quote": "Light pruning should be done when flowers are cut for indoor use or when deadheading.",
+     "note": "No month, Toronto"
+    },
+    {
+     "topic": "planting",
+     "quote": "Prune newly planted roses immediately, unless they are planted in the fall.",
+     "note": "Toronto"
+    },
+    {
+     "topic": "winter protection",
+     "quote": "Because these roses have been grafted onto tall rootstock, their grafts usually require winter protection.",
+     "note": "Toronto"
+    }
+   ]
+  },
+  {
+   "code": "TMG-F",
+   "url": "https://www.torontomastergardeners.ca/late-july-feeding-roses/",
+   "final_url": "https://www.torontomastergardeners.ca/late-july-feeding-roses/",
+   "opened": true,
+   "page_date": "posted 18 July 2026 (1 September 2025 also shown)",
+   "checks": [
+    {
+     "finding": "AF-27",
+     "recorded": "\"Don't feed your roses after the end of July so that the growth can slow down before the weather turns cold.\"",
+     "result": "Confirmed",
+     "page_wording": "Don't feed your roses after the end of July so that the growth can slow down before the weather turns cold.",
+     "supports_finding": "yes",
+     "note": "Toronto Master Gardeners; Toronto, last feed end of July. Date shown: posted 18 July 2026, 1 Sept 2025 also shown."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "PV",
+   "url": "https://pepinierevilleneuve.com/rosier-non-rustique/",
+   "final_url": "https://pepinierevilleneuve.com/rosier-non-rustique/",
+   "opened": true,
+   "page_date": "13 October 2017 (modified 5 April 2019)",
+   "checks": [
+    {
+     "finding": "AF-10",
+     "recorded": "\"les rosiers hybrides de thé, floribunda et grandiflora ont absolument besoin d'une protection hivernale. [hybrid tea, floribunda and grandiflora roses absolutely need winter protection]\"",
+     "result": "Confirmed",
+     "page_wording": "Dans leur cas, les rosiers hybrides de thé, floribunda et grandiflora ont absolument besoin d’une protection hivernale.",
+     "supports_finding": "yes",
+     "note": "Pépinière Villeneuve (L'Assomption, Quebec); winter protection essential for these types. Quebec only, not 'much of Canada'."
+    },
+    {
+     "finding": "AF-26",
+     "recorded": "\"il faut fertiliser deux ou trois fois en début de saison, toujours avant la mi-juillet. [fertilize two or three times early in the season, always before mid-July]\"",
+     "result": "Confirmed",
+     "page_wording": "Si le sol est pauvre, il faut fertiliser deux ou trois fois en début de saison, toujours avant la mi-juillet.",
+     "supports_finding": "yes",
+     "note": "Pépinière Villeneuve, Quebec; fertilise before mid-July. Conditional on poor soil."
+    },
+    {
+     "finding": "AF-37",
+     "recorded": "\"La plantation peut s'effectuer à n'importe quel moment de la saison. [planting can be done at any time in the season]\"",
+     "result": "Confirmed",
+     "page_wording": "La plantation peut s’effectuer à n’importe quel moment de la saison.",
+     "supports_finding": "yes",
+     "note": "Pépinière Villeneuve, Quebec; planting any time in the season (context of potted roses not checked beyond the sentence)."
+    },
+    {
+     "finding": "AF-40",
+     "recorded": "\"Au printemps, avant la sortie des bourgeons, il est prudent d'appliquer de l'huile dormance. [in spring, before the buds emerge, it is prudent to apply dormant oil]\"",
+     "result": "Confirmed",
+     "page_wording": "Au printemps, avant la sortie des bourgeons, il est prudent d’appliquer de l’huile dormance.",
+     "supports_finding": "yes",
+     "note": "Pépinière Villeneuve, Quebec; dormant oil in spring before buds emerge."
+    }
+   ],
+   "contradictions": [
+    "Fertilising advice is conditional on poor soil."
+   ],
+   "also_says": [
+    {
+     "topic": "feeding",
+     "quote": "L’épandage de compost est nécessaire chaque printemps tout comme l’ajout d’engrais.",
+     "note": "Spring, Quebec"
+    },
+    {
+     "topic": "pruning",
+     "quote": "Au printemps, enlever les branches mortes ou celles qui se croisent ainsi que les pousses trop faibles.",
+     "note": "Spring, Quebec"
+    },
+    {
+     "topic": "pruning",
+     "quote": "En début de saison, gardez 3 tiges jeunes et vigoureuses; supprimer les autres.",
+     "note": "Early season, Quebec"
+    }
+   ]
+  },
+  {
+   "code": "NRCAN-OD",
+   "url": "https://open.canada.ca/data/en/dataset/adda404d-93e4-48e9-b6bf-5d1d3952ff22",
+   "final_url": "https://open.canada.ca/data/en/dataset/adda404d-93e4-48e9-b6bf-5d1d3952ff22",
+   "opened": true,
+   "page_date": "published 2026-03-26",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"The map is based on a formula using seven climate variables that influence plant survival\"",
+     "result": "Confirmed",
+     "page_wording": "The map is based on a formula using seven climate variables that influence plant survival",
+     "supports_finding": "yes",
+     "note": "Natural Resources Canada dataset record published 2026-03-26; national. USDA comparison is not on the page."
+    },
+    {
+     "finding": "AF-2",
+     "recorded": "\"an alternative plant hardiness zone approach using just one climate variable: average extreme minimum temperature for the period 1991 to 2020.\"",
+     "result": "Confirmed",
+     "page_wording": "an alternative plant hardiness zone approach using just one climate variable: average extreme minimum temperature for the period 1991 to 2020.",
+     "supports_finding": "yes",
+     "note": "Natural Resources Canada; alternative single-variable map, national. Fetch returned it split in two quotes."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "JD",
+   "url": "https://www.jardindion.com/conseils-dexperts/rosiers/tout-sur-les-protections-hivernales/",
+   "final_url": "https://www.jardindion.com/conseils-dexperts/rosiers/tout-sur-les-protections-hivernales/",
+   "opened": true,
+   "page_date": "updated 11 June 2026",
+   "checks": [
+    {
+     "finding": "AF-43",
+     "recorded": "\"il est préférable d'attendre les températures plus fraîches du mois de novembre pour installer cônes de styromousse, toiles et jutes. [it is better to wait for the cooler temperatures of November to install foam cones, fabrics and jute]\"",
+     "result": "Near",
+     "page_wording": "il est préférable d’attendre les températures plus fraîches du mois de novembre pour installer cônes de styromousse",
+     "supports_finding": "partly",
+     "note": "Jardin Dion (stores in Sainte-Thérèse area, Quebec); wait for cooler November temperatures to install foam cones. Rest of recorded sentence (toiles et jutes) not shown verbatim by the fetch; 'just before first frosts' not supported."
+    },
+    {
+     "finding": "AF-46",
+     "recorded": "\"Il faut retirer les protections dès que la neige et la glace permettent de le faire. [protections must be removed as soon as the snow and ice allow]\"",
+     "result": "Confirmed",
+     "page_wording": "Il faut retirer les protections dès que la neige et la glace permettent de le faire.",
+     "supports_finding": "yes",
+     "note": "Jardin Dion, Quebec; remove protection as soon as snow and ice allow, no fixed date."
+    }
+   ],
+   "contradictions": [
+    "Page says supports such as nets and snow fences can be installed earlier than November."
+   ],
+   "also_says": [
+    {
+     "topic": "winter protection",
+     "quote": "Les filets, les structures de bois (sans la toile) et les clôtures à neige peuvent être installés plus tôt,",
+     "note": "Earlier than November, Quebec"
+    },
+    {
+     "topic": "pruning",
+     "quote": "Tailler d’abord l’arbuste comme il se doit, installer le cône,",
+     "note": "Before installing cone, Quebec"
+    },
+    {
+     "topic": "frost",
+     "quote": "protéger les racines des nouvelles plantations et des vivaces plus délicates lors des épisodes de gels/dégels hivernaux.",
+     "note": "Winter, Quebec"
+    }
+   ]
+  },
+  {
+   "code": "GGC",
+   "url": "https://shop.ggconline.ca/blogs/gardening-blogs/frosty-nights-rosy-delights-how-to-winterize-roses-in-georgina",
+   "final_url": "https://shop.ggconline.ca/blogs/gardening-blogs/frosty-nights-rosy-delights-how-to-winterize-roses-in-georgina",
+   "opened": true,
+   "page_date": "17 November 2025",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "\"Learn how to winterize roses in Canadian zone 5!\"",
+     "result": "Confirmed",
+     "page_wording": "Learn how to winterize roses in Canadian zone 5!",
+     "supports_finding": "yes",
+     "note": "Appears in the page's meta description, not the article body. Georgina Garden Centre, Georgina, Ontario; the body also names the town and 'Georgina's growing zone 5'."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"Around mid-August, stop fertilizing your roses.\"",
+     "result": "Confirmed",
+     "page_wording": "Around mid-August, stop fertilizing your roses.",
+     "supports_finding": "yes",
+     "note": "Georgina Garden Centre, Georgina, Ontario. Gives mid-August as the last feed."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Leave the major shaping until spring, you'll want to see what survives the winter before making big cuts.\"",
+     "result": "Confirmed",
+     "page_wording": "Leave the major shaping until spring, you’ll want to see what survives the winter before making big cuts.",
+     "supports_finding": "yes",
+     "note": "Georgina Garden Centre, Ontario. Supports the Ontario part only; says to leave major shaping to spring, not in so many words that late-summer pruning is avoided."
+    },
+    {
+     "finding": "AF-32",
+     "recorded": "\"Trim the top third of tall canes on shrub, hybrid tea, and floribunda roses to prevent them from snapping in winter winds.\"",
+     "result": "Confirmed",
+     "page_wording": "Trim the top third of tall canes on shrub, hybrid tea, and floribunda roses to prevent them from snapping in winter winds.",
+     "supports_finding": "yes",
+     "note": "Georgina Garden Centre, Ontario. Fall trimming of tall canes only; no month given in this sentence."
+    },
+    {
+     "finding": "AF-39",
+     "recorded": "\"Clean up debris under and around your rose bushes.\"",
+     "result": "Confirmed",
+     "page_wording": "Clean up debris under and around your rose bushes.",
+     "supports_finding": "yes",
+     "note": "Bullet in the winterizing routine, Georgina, Ontario. Does not say 'dead leaves' in this sentence."
+    },
+    {
+     "finding": "AF-41",
+     "recorded": "\"Once the ground is starting to freeze, mound 8-12 inches of soil or compost around the base of each rose.\"",
+     "result": "Confirmed",
+     "page_wording": "Once the ground is starting to freeze, mound 8-12 inches of soil or compost around the base of each rose.",
+     "supports_finding": "yes",
+     "note": "Georgina Garden Centre, Ontario. Tied to ground freezing; page also says to wait for several hard frosts."
+    },
+    {
+     "finding": "AF-42",
+     "recorded": "\"aim to start your rose winterizing routine in early to mid-November, or after the first few hard frosts.\"",
+     "result": "Confirmed",
+     "page_wording": "In Georgina’s growing zone 5, aim to start your rose winterizing routine in early to mid-November or after the first few hard frosts.",
+     "supports_finding": "yes",
+     "note": "Georgina, Ontario. Gives early to mid-November (or after hard frosts); the finding's 'early to late November' range is only partly this source's own wording. Sentence shown as returned by WebFetch (comma before 'or' not shown in fetch)."
+    },
+    {
+     "finding": "AF-46",
+     "recorded": "\"Once the snow melts and daytime temperatures consistently stay above freezing\"",
+     "result": "Confirmed",
+     "page_wording": "Once the snow melts and daytime temperatures consistently stay above freezing (around late April or early May in Georgina),",
+     "supports_finding": "yes",
+     "note": "Georgina Garden Centre, Ontario. Condition-based uncovering, with an approximate date in brackets."
+    },
+    {
+     "finding": "AF-47",
+     "recorded": "\"around late April or early May in Georgina\"",
+     "result": "Confirmed",
+     "page_wording": "around late April or early May in Georgina",
+     "supports_finding": "yes",
+     "note": "Georgina, Ontario; late April or early May for uncovering, inside a bracket after the snow-melt condition."
+    },
+    {
+     "finding": "AF-49",
+     "recorded": "\"around late April or early May in Georgina\"",
+     "result": "Confirmed",
+     "page_wording": "around late April or early May in Georgina",
+     "supports_finding": "yes",
+     "note": "'around' marks the date as approximate; also 'around mid-August' and 'early to mid-November'."
+    },
+    {
+     "finding": "AF-50",
+     "recorded": "\"start pulling back mulch and soil mounds a little at a time.\"",
+     "result": "Confirmed",
+     "page_wording": "start pulling back mulch and soil mounds a little at a time.",
+     "supports_finding": "yes",
+     "note": "Georgina Garden Centre, Ontario. Staged uncovering; supports this one source of the 'two sources' claim."
+    }
+   ],
+   "contradictions": [
+    "Page also says to wait until several hard frosts have hit before covering, which narrows the 'early November' start.",
+    "Page says mid-August is the last feed, while other sources in the project give late July or early August."
+   ],
+   "also_says": [
+    {
+     "topic": "feeding",
+     "quote": "Fertilizer encourages new, tender growth that won’t have time to harden off before frost hits.",
+     "note": "Why feeding stops in mid-August; Georgina, Ontario."
+    },
+    {
+     "topic": "winter protection",
+     "quote": "Avoid wood mulch or bark for the mound, they don’t insulate as effectively as soil.",
+     "note": "Georgina, Ontario; no month."
+    },
+    {
+     "topic": "winter protection",
+     "quote": "Plastic traps moisture and heat, causing your roses to sweat (and rot).",
+     "note": "Georgina, Ontario; no month."
+    },
+    {
+     "topic": "frost",
+     "quote": "Wait until several hard frosts hit, if you cover too soon, you could trap moisture and invite rot or mildew.",
+     "note": "Georgina, Ontario; covering is tied to hard frosts."
+    }
+   ]
+  },
+  {
+   "code": "BCL",
+   "url": "https://bcliving.ca/home/garden/rose-care-pruning/",
+   "final_url": "https://bcliving.ca/home/garden/rose-care-pruning/",
+   "opened": true,
+   "page_date": "12 February 2009 (page metadata last modified 12 January 2024)",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "\"early March in the Lower Mainland, later in the north and interior of the province.\"",
+     "result": "Confirmed",
+     "page_wording": "early March in the Lower Mainland, later in the north and interior of the province",
+     "supports_finding": "yes",
+     "note": "BC Living (Canada Wide Media), British Columbia; names the Lower Mainland and the north and interior rather than a zone. Only a fragment of a longer sentence was returned."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"Brad recommends pruning when the yellow-flowered forsythia blooms\"",
+     "result": "Confirmed",
+     "page_wording": "Brad recommends pruning when the yellow-flowered forsythia blooms",
+     "supports_finding": "yes",
+     "note": "A rose grower named Brad, quoted by BC Living; British Columbia. Fragment of a longer sentence."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"early March in the Lower Mainland\"",
+     "result": "Confirmed",
+     "page_wording": "early March in the Lower Mainland, later in the north and interior of the province",
+     "supports_finding": "partly",
+     "note": "Page says early March for the Lower Mainland; the finding's 'late February to mid-March' range is wider than this source. Lower Mainland is coastal BC."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"later in the north and interior of the province.\"",
+     "result": "Confirmed",
+     "page_wording": "early March in the Lower Mainland, later in the north and interior of the province",
+     "supports_finding": "yes",
+     "note": "Later than the Lower Mainland, no month given, BC north and interior."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"Earlier pruning risks damage from late frosts to the tender, exposed canes\"",
+     "result": "Confirmed",
+     "page_wording": "Earlier pruning risks damage from late frosts to the tender, exposed canes.",
+     "supports_finding": "yes",
+     "note": "BC Living, British Columbia."
+    },
+    {
+     "finding": "AF-23",
+     "recorded": "\"late pruning, even after the rose has already leafed out, will merely delay flowering by a week or two.\"",
+     "result": "Confirmed",
+     "page_wording": "late pruning, even after the rose has already leafed out, will merely delay flowering by a week or two.",
+     "supports_finding": "yes",
+     "note": "BC Living (Brad), British Columbia."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"At the end of the season, leave any rosehips to overwinter on the stems\"",
+     "result": "Confirmed",
+     "page_wording": "At the end of the season, leave any rosehips to overwinter on the stems",
+     "supports_finding": "partly",
+     "note": "Page speaks of the end of the season for leaving rosehips; it does not mention first frost or a deadheading cut-off. Consistent with 'no month' but not direct support for tying deadheading to frost."
+    },
+    {
+     "finding": "AF-49",
+     "recorded": "\"As spring arrives at different times in different places\"",
+     "result": "Confirmed",
+     "page_wording": "As spring arrives at different times in different places",
+     "supports_finding": "partly",
+     "note": "Shows timing varies by place, but the page's months are not framed with 'usually/on average'. Fragment of a longer sentence."
+    }
+   ],
+   "contradictions": [
+    "Page is from 2009 (metadata modified 2024), older than the other sources.",
+    "'Early March' for the Lower Mainland is narrower than a 'late February to mid-March' window."
+   ],
+   "also_says": [
+    {
+     "topic": "feeding",
+     "quote": "\"Most roses die from overfertilizing,\" Brad warns.",
+     "note": "British Columbia; no month."
+    },
+    {
+     "topic": "feeding",
+     "quote": "These amounts applied twice in the growing season are enough.",
+     "note": "British Columbia; two feeds a season, no months."
+    },
+    {
+     "topic": "pruning",
+     "quote": "\"It is far better to prune a rose at least once a year than not to prune it at all,\" says Brad.",
+     "note": "British Columbia; no month."
+    },
+    {
+     "topic": "watering",
+     "quote": "Roses in containers need a thorough watering once a day, more often in hot weather.",
+     "note": "British Columbia; not timing of the listed topics."
+    }
+   ]
+  },
+  {
+   "code": "RBG",
+   "url": "https://www.rbg.ca/caring-for-roses/",
+   "final_url": "https://www.rbg.ca/caring-for-roses/",
+   "opened": true,
+   "page_date": "16 July 2020",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"This timing lines up with when forsythia is in flower, a natural reminder!\"",
+     "result": "Confirmed",
+     "page_wording": "This timing lines up with when forsythia is in flower, a natural reminder!",
+     "supports_finding": "yes",
+     "note": "Royal Botanical Gardens, Burlington, Ontario. Follows the sentence on pruning just before bud break after the last frost."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"Prune dead, damaged, or diseased canes in spring just before bud break, but after the last frost.\"",
+     "result": "Confirmed",
+     "page_wording": "Prune dead, damaged, or diseased canes in spring just before bud break, but after the last frost.",
+     "supports_finding": "yes",
+     "note": "RBG, Ontario; just before bud break."
+    },
+    {
+     "finding": "AF-22",
+     "recorded": "\"Prune dead, damaged, or diseased canes in spring just before bud break, but after the last frost.\"",
+     "result": "Confirmed",
+     "page_wording": "Prune dead, damaged, or diseased canes in spring just before bud break, but after the last frost.",
+     "supports_finding": "yes",
+     "note": "RBG, Ontario; 'after the last frost'. It does not state the frost-damage risk outright."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Apply organic fertilizers, such as manure and compost, after spring pruning.\"",
+     "result": "Confirmed",
+     "page_wording": "Apply organic fertilizers, such as manure and compost, after spring pruning.",
+     "supports_finding": "yes",
+     "note": "RBG, Ontario; spring feeding tied to pruning, not a month."
+    },
+    {
+     "finding": "AF-35",
+     "recorded": "\"It's best to plant roses in either spring or late autumn.\"",
+     "result": "Confirmed",
+     "page_wording": "It’s best to plant roses in either spring or late autumn.",
+     "supports_finding": "yes",
+     "note": "RBG, Ontario; late autumn as an alternative to spring."
+    }
+   ],
+   "contradictions": [],
+   "also_says": [
+    {
+     "topic": "pruning",
+     "quote": "Make your cuts 6 mm above an outside bud so new growth goes outward.",
+     "note": "Ontario; no month."
+    },
+    {
+     "topic": "deadheading",
+     "quote": "Deadhead spent flowers by pruning back to the first outward, true leaf (with 5 leaflets).",
+     "note": "Ontario; no cut-off month."
+    },
+    {
+     "topic": "planting",
+     "quote": "Water well to remove any air pockets, then finish filling the hole.",
+     "note": "Ontario; planting method, no month."
+    },
+    {
+     "topic": "watering",
+     "quote": "Roses need about 2.5 cm of water per week and may need watering if the rain cannot provide it.",
+     "note": "Ontario; no month."
+    }
+   ]
+  },
+  {
+   "code": "PAL",
+   "url": "https://palatinefruit.com/wp-content/uploads/2021/07/planting_potted_roses.pdf",
+   "final_url": "https://palatinefruit.com/wp-content/uploads/2021/07/planting_potted_roses.pdf (WebFetch reported the page domain as www.palatineroses.com)",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "finding": "AF-13",
+     "recorded": "\"In spring when the Forsythias bloom un-mound and prune your roses.\"",
+     "result": "Confirmed",
+     "page_wording": "In spring when the Forsythias bloom un-mound and prune your roses.",
+     "supports_finding": "yes",
+     "note": "Palatine (organisation not named on the page itself; domain only). Place not stated on the page."
+    },
+    {
+     "finding": "AF-15",
+     "recorded": "\"In spring when the Forsythias bloom un-mound and prune your roses.\"",
+     "result": "Confirmed",
+     "page_wording": "In spring when the Forsythias bloom un-mound and prune your roses.",
+     "supports_finding": "yes",
+     "note": "Un-mounding and pruning are given together, so pruning follows removal of protection. Place not stated."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Spring is the best time to fertilize your roses.\"",
+     "result": "Confirmed",
+     "page_wording": "Spring is the best time to fertilize your roses.",
+     "supports_finding": "partly",
+     "note": "Says spring generally; does not tie feeding to clean-up, pruning or new growth. Place not stated."
+    },
+    {
+     "finding": "AF-27",
+     "recorded": "\"Stop fertilizing in early August.\"",
+     "result": "Confirmed",
+     "page_wording": "Stop fertilizing in early August.",
+     "supports_finding": "yes",
+     "note": "Early August as last feed; place not stated on the page (Ontario comes from the project's own source note)."
+    },
+    {
+     "finding": "AF-30",
+     "recorded": "\"Stop deadheading a month before first expected frost.\"",
+     "result": "Confirmed",
+     "page_wording": "Stop deadheading a month before first expected frost.",
+     "supports_finding": "yes",
+     "note": "Tied to expected first frost, no month named. Place not stated."
+    }
+   ],
+   "contradictions": [
+    "Page shows no date, organisation name or place, so the 'Ontario' label is not confirmed by the page itself."
+   ],
+   "also_says": [
+    {
+     "topic": "winter protection",
+     "quote": "VERY IMPORTANT: In late fall mound 6\"-12\" of soil over the crown of the rose bush.",
+     "note": "Late fall; place not stated."
+    },
+    {
+     "topic": "pruning",
+     "quote": "Hybrid Tea and Grandiflora Roses are pruned back to 3-5 canes with 3-5 buds on each cane.",
+     "note": "No month; place not stated."
+    },
+    {
+     "topic": "feeding",
+     "quote": "Avoid adding commercial fertilizer until your plants are well established (6-12 months after planting).",
+     "note": "No month; place not stated."
+    },
+    {
+     "topic": "deadheading",
+     "quote": "Removing the spent bloom helps the rose to re-bloom faster.",
+     "note": "No month; place not stated."
+    }
+   ]
+  },
+  {
+   "code": "NRCAN-ST",
+   "url": "https://natural-resources.canada.ca/stories/simply-science/zone-canada-s-plant-hardiness-zone-maps-website-get-update",
+   "final_url": "https://natural-resources.canada.ca/stories/simply-science/zone-canada-s-plant-hardiness-zone-maps-website-get-update",
+   "opened": true,
+   "page_date": "July 2025 (page shows 'Date modified: 2026-05-27')",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"lowest average daily temperature in the region's coldest month; length of frost-free periods; rainfall totals from June to November\"",
+     "result": "Confirmed",
+     "page_wording": "They’re based on several important climate variables, including: [bullets] lowest average daily temperature in the region's coldest month; length of frost-free periods; rainfall totals from June to November",
+     "supports_finding": "partly",
+     "note": "Natural Resources Canada, national. Items are bullets under 'several important climate variables'. The page gave no USDA comparison, so the USDA half of the finding is not supported here."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"many areas shifting by half a zone or more and some by as much as two full zones\"",
+     "result": "Confirmed",
+     "page_wording": "Compared with earlier versions, the new map shows a small but significant warming shift in many parts of the country, with many areas shifting by half a zone or more and some by as much as two full zones.",
+     "supports_finding": "yes",
+     "note": "Natural Resources Canada, national, 2025 update."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"the plant hardiness zone website provides a storehouse of valuable information for choosing plants that will thrive in a particular area\"",
+     "result": "Confirmed",
+     "page_wording": "the plant hardiness zone website provides a storehouse of valuable information for choosing plants that will thrive in a particular area",
+     "supports_finding": "partly",
+     "note": "Page says the website helps choose plants for an area; no sentence about looking up your municipality was found. Closest is 'explore the new maps and discover what’s possible in your region.'"
+    }
+   ],
+   "contradictions": [
+    "No sentence on looking up a municipality was returned.",
+    "No USDA comparison was returned from the page."
+   ],
+   "also_says": [
+    {
+     "topic": "frost",
+     "quote": "Extreme climate events, like late frosts, droughts and drastic temperature swings, are still possible",
+     "note": "National; truncated by WebFetch; no month."
+    },
+    {
+     "topic": "planting",
+     "quote": "These changes can also pose a risk for plants being introduced to new hardiness zones.",
+     "note": "National; no month."
+    },
+    {
+     "topic": "planting",
+     "quote": "These maps complement the general hardiness zone map by providing planting guidance for specific species of interest.",
+     "note": "National; no month."
+    }
+   ]
+  },
+  {
+   "code": "LP",
+   "url": "https://lapiece.ca/en/magazine/5f957852515a690ef299101d",
+   "final_url": "https://lapiece.ca/en/magazine/5f957852515a690ef299101d",
+   "opened": true,
+   "page_date": "25 October 2020",
+   "checks": [
+    {
+     "finding": "AF-10",
+     "recorded": "\"La première catégorie, celle des rosiers non rustiques, comprend les hybrides de thé, les florbunda et les grandiflora. [the first category, non-hardy roses, includes hybrid teas, floribundas and grandifloras]\"",
+     "result": "Confirmed",
+     "page_wording": "La première catégorie, celle des rosiers non rustiques, comprend les hybrides de thé, les florbunda et les grandiflora.",
+     "supports_finding": "partly",
+     "note": "La Pièce (Passion Jardins), Quebec. Calls these non-hardy roses and says they need autumn care; speaks for Quebec, not 'much of Canada'."
+    },
+    {
+     "finding": "AF-43",
+     "recorded": "\"juste avant les premiers gels, une taille est nécessaire, car ils doivent être recouverts rapidement d'un cône en styromousse. [just before the first frosts, pruning is needed, because they must be covered quickly with a foam cone]\"",
+     "result": "Confirmed",
+     "page_wording": "En effet, juste avant les premiers gels, une taille est nécessaire, car ils doivent être recouverts rapidement d'un cône en styromousse.",
+     "supports_finding": "yes",
+     "note": "Quebec; protection (foam cone) goes on just before the first frosts. No month of November was shown. Applies to non-hardy roses."
+    }
+   ],
+   "contradictions": [
+    "Page says 'La taille est recommandée seulement au printemps', which sits oddly beside the pre-frost pruning before covering.",
+    "No November date returned for Quebec protection."
+   ],
+   "also_says": [
+    {
+     "topic": "fall care",
+     "quote": "À l'automne, ce sont surtout les rosiers non rustiques qui doivent faire l'objet d'un entretien.",
+     "note": "Autumn; Quebec."
+    },
+    {
+     "topic": "pruning",
+     "quote": "La taille est recommandée seulement au printemps.",
+     "note": "Spring; Quebec."
+    },
+    {
+     "topic": "pruning",
+     "quote": "À la sortie des bourgeons, les bouts gelés pendant l'hiver peuvent être éliminés.",
+     "note": "At bud break; Quebec."
+    },
+    {
+     "topic": "feeding",
+     "quote": "N'oubliez pas qu'au printemps, dès le bourgeonnement, c'est le moment de débuter la fertilisation, ils sont très gourmants!",
+     "note": "Spring, from budding; Quebec."
+    }
+   ]
+  },
+  {
+   "code": "LBG-WP",
+   "url": "https://laidbackgardener.blog/2017/11/16/winter-protection-for-tender-roses/",
+   "final_url": "https://laidbackgardener.blog/2017/11/16/winter-protection-for-tender-roses/",
+   "opened": true,
+   "page_date": "16 November 2017",
+   "checks": [
+    {
+     "finding": "AF-5",
+     "recorded": "\"The label on bush roses usually accords them a zone 5 hardiness rating, but that's actually a blatant lie.\"",
+     "result": "Confirmed",
+     "page_wording": "The label on bush roses usually accords them a zone 5 hardiness rating, but that's actually a blatant lie.",
+     "supports_finding": "partly",
+     "note": "Larry Hodgson (Laidback Gardener blog) says this for colder climates; place not stated beyond that. The zone 8 hardiness of Hybrid Teas and Floribundas is not on this page (see LBG-HZ)."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"(AgCan zone 6)\"",
+     "result": "Confirmed",
+     "page_wording": "should be able to survive in USDA zone 5 (AgCan zone 6)",
+     "supports_finding": "partly",
+     "note": "Page names the Canadian zone alongside the USDA zone for a well-protected rose; it gives no town or region, so the 'timing tied to named places' part is not supported here."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"But for gardeners in colder climates, good winter protection is absolutely necessary.\"",
+     "result": "Confirmed",
+     "page_wording": "But for gardeners in colder climates, good winter protection is absolutely necessary.",
+     "supports_finding": "partly",
+     "note": "Says 'colder climates' only, not 'across much of Canada'; the page is about tender/bush roses and does not name Hybrid Teas or Floribundas in the returned text. Blog is Quebec-based; says protection is unnecessary in warm areas."
+    },
+    {
+     "finding": "AF-41",
+     "recorded": "\"wait until all growth has stopped on your rose bushes and the leaves have dropped off, usually after several bouts with subzero cold\"",
+     "result": "Confirmed",
+     "page_wording": "wait until all growth has stopped on your rose bushes and the leaves have dropped off... usually after several bouts with subzero cold.",
+     "supports_finding": "yes",
+     "note": "Hodgson ties protection to growth stopping, leaf drop and repeated subzero cold, not a date. Place not stated."
+    },
+    {
+     "finding": "AF-46",
+     "recorded": "\"as soon as temperatures start to regularly rise above freezing during the day, it's time to remove cones and fabrics.\"",
+     "result": "Confirmed",
+     "page_wording": "as soon as temperatures start to regularly rise above freezing during the day, it's time to remove cones and fabrics.",
+     "supports_finding": "yes",
+     "note": "Removal tied to daytime temperatures regularly above freezing; no date; place not stated. Does not mention ground thaw."
+    }
+   ],
+   "contradictions": [
+    "Page also says no protection is needed in warm areas (south of the Mason-Dixon line), which narrows 'needed across much of Canada'."
+   ],
+   "also_says": [
+    {
+     "topic": "fall pruning",
+     "quote": "In the fall, don't prune trenched roses other than to remove any remaining leaves or flowers.",
+     "note": "Fall, trenched roses; place not stated."
+    },
+    {
+     "topic": "winter protection",
+     "quote": "Insert stakes here and there so as not to crush the plants when the fabric is covered with snow.",
+     "note": "Winter; cold climates."
+    },
+    {
+     "topic": "spring uncovering",
+     "quote": "Don't expose tender buds to full sun too rapidly in the spring.",
+     "note": "Spring; cold climates; supports gradual uncovering."
+    }
+   ]
+  },
+  {
+   "code": "LBG-HZ",
+   "url": "https://laidbackgardener.blog/2019/04/10/when-plant-labels-lie-bush-roses/",
+   "final_url": "https://laidbackgardener.blog/2019/04/10/when-plant-labels-lie-bush-roses/",
+   "opened": true,
+   "page_date": "10 April 2019 (originally published 9 April 2015)",
+   "checks": [
+    {
+     "finding": "AF-5",
+     "recorded": "\"Their zone 5 label is designed to give you an idea of what the plants can take ... Most are hardy only to zone 8.\"",
+     "result": "Near",
+     "page_wording": "Their zone 5 label is designed to give you an idea of what the plants can take ... if they are carefully protected for the winter. ... Most are hardy only to zone 8.",
+     "supports_finding": "yes",
+     "note": "Larry Hodgson says the zone 5 label assumes careful winter protection and most bush roses are hardy only to zone 8. Speaks for cold climates (northern US, southern Canada); the ellipsis in the recorded text hides the 'if they are carefully protected' clause. Page does not name Hybrid Teas/Floribundas in returned text."
+    }
+   ],
+   "contradictions": [
+    "Also says some hardy roses need no protection if planted in their proper zone or milder."
+   ],
+   "also_says": [
+    {
+     "topic": "winter protection",
+     "quote": "Excellent winter protection is required for most bush roses.",
+     "note": "Cold climates, no month."
+    },
+    {
+     "topic": "winter protection",
+     "quote": "No winter protection is needed for these hardy roses as long as you plant them in their proper zone or a milder one.",
+     "note": "Applies to hardy rose types; no month."
+    },
+    {
+     "topic": "frost/winter",
+     "quote": "a really hard winter will probably kill these roses even with a good protection.",
+     "note": "No month; cold climates."
+    }
+   ]
+  },
+  {
+   "code": "LBG-MAP",
+   "url": "https://laidbackgardener.blog/2025/08/10/new-plant-hardiness-map-for-canada/",
+   "final_url": "https://laidbackgardener.blog/2025/08/10/new-plant-hardiness-map-for-canada/",
+   "opened": true,
+   "page_date": "10 August 2025",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"based solely on the average annual minimum temperature.\"",
+     "result": "Confirmed",
+     "page_wording": "In the United States, the USDA system is based solely on the average annual minimum temperature.",
+     "supports_finding": "yes",
+     "note": "Mathieu Hodgson (Laidback Gardener) contrasts the USDA system with Canada's multi-variable index; Natural Resources Canada updated the maps in July 2025."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"a widespread increase in hardiness zones across Canada\"",
+     "result": "Confirmed",
+     "page_wording": "The results of the most recent update to the hardiness zones show a widespread increase in hardiness zones across Canada.",
+     "supports_finding": "partly",
+     "note": "Supports a widespread increase across Canada (2025 update); the 'half a zone to two full zones' range is not on this page (see SR-MCK)."
+    },
+    {
+     "finding": "AF-7",
+     "recorded": "\"Consult the hardiness zone map by municipality to find out which zone you are in.\"",
+     "result": "Confirmed",
+     "page_wording": "Consult the hardiness zone map by municipality to find out which zone you are in.",
+     "supports_finding": "yes",
+     "note": "National advice from Laidback Gardener, August 2025."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention roses."
+   ],
+   "also_says": [
+    {
+     "topic": "frost",
+     "quote": "Despite the warming trend, the risks of late spring frosts, summer heat waves, and periods of intense cold in winter are still very much present.",
+     "note": "Canada-wide; no month; WebFetch gave the sentence in truncated form."
+    }
+   ]
+  },
+  {
+   "code": "GW",
+   "url": "https://www.gardenworks.ca/care-tips/roses",
+   "final_url": "https://www.gardenworks.ca/care-tips/roses",
+   "opened": true,
+   "page_date": "not shown (footer only: (c) GARDENWORKS 2020)",
+   "checks": [
+    {
+     "finding": "AF-11",
+     "recorded": "\"Protect newly planted roses if extreme cold is forecast\"",
+     "result": "Confirmed",
+     "page_wording": "Protect newly planted roses if extreme cold is forecast",
+     "supports_finding": "partly",
+     "note": "Listed under South Coastal BC, Winter. The page also says 'Minimal care needed in our mild climate', which supports the 'not usually needing protection' part; the 'tender roses' part is not stated."
+    },
+    {
+     "finding": "AF-14",
+     "recorded": "\"Late February to early March, just as buds begin to swell.\"",
+     "result": "Confirmed",
+     "page_wording": "Late February to early March, just as buds begin to swell.",
+     "supports_finding": "partly",
+     "note": "GARDENWORKS, Coastal BC pruning. Supports buds swelling for one source only; the 'four sources' count is not testable from this page."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"Late February to early March\"",
+     "result": "Confirmed",
+     "page_wording": "Late February to early March, just as buds begin to swell.",
+     "supports_finding": "partly",
+     "note": "Coastal BC pruning given as late February to early March; the finding's 'mid-March' end is not on this page (it comes from Fraser Valley Rose Farm)."
+    },
+    {
+     "finding": "AF-19",
+     "recorded": "\"Avoid fall pruning — wait until early spring\"",
+     "result": "Confirmed",
+     "page_wording": "Avoid fall pruning — wait until early spring",
+     "supports_finding": "partly",
+     "note": "Listed under Penticton and the Okanagan, Winter Protection. Gives 'early spring', no month; does not say pruning is later than in the Lower Mainland or mention the north."
+    },
+    {
+     "finding": "AF-24",
+     "recorded": "\"Apply a balanced rose fertilizer in early spring as new growth appears\"",
+     "result": "Confirmed",
+     "page_wording": "Apply a balanced rose fertilizer in early spring as new growth appears",
+     "supports_finding": "yes",
+     "note": "South Coastal BC feeding. Ties feeding to new growth; 'early spring' is a season, not a month. Sentence continues with a product example."
+    },
+    {
+     "finding": "AF-28",
+     "recorded": "\"Stop fertilizing by late summer to allow plants to prepare for winter.\"",
+     "result": "Confirmed",
+     "page_wording": "Stop fertilizing by late summer to allow plants to prepare for winter.",
+     "supports_finding": "partly",
+     "note": "South Coastal BC feeding. Supports 'last feed by late summer'; the 'none from September' wording is not on this page."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Avoid fall pruning — wait until early spring\"",
+     "result": "Confirmed",
+     "page_wording": "Avoid fall pruning — wait until early spring",
+     "supports_finding": "partly",
+     "note": "Penticton and the Okanagan only; page does not cover Alberta or Ontario and says nothing of late summer pruning."
+    },
+    {
+     "finding": "AF-39",
+     "recorded": "\"Clean up fallen leaves\"",
+     "result": "Confirmed",
+     "page_wording": "Clean up fallen leaves",
+     "supports_finding": "partly",
+     "note": "South Coastal BC fall calendar item; it is a short list item, not described as part of winter preparation for the bed or roses."
+    },
+    {
+     "finding": "AF-44",
+     "recorded": "\"In late fall, mound soil or compost around the base of grafted roses\"",
+     "result": "Confirmed",
+     "page_wording": "In late fall, mound soil or compost around the base of grafted roses",
+     "supports_finding": "yes",
+     "note": "GARDENWORKS, Penticton and the Okanagan, Winter Protection. Late fall, no month."
+    }
+   ],
+   "contradictions": [
+    "Coastal BC winter care is described as 'Minimal care needed in our mild climate', narrowing protection advice to newly planted roses and extreme cold.",
+    "Page is undated (footer 2020)."
+   ],
+   "also_says": [
+    {
+     "topic": "feeding",
+     "quote": "Feed again after the first flush of blooms.",
+     "note": "South Coastal BC; no month."
+    },
+    {
+     "topic": "deadheading",
+     "quote": "Deadhead spent blooms during the growing season to encourage repeat flowering.",
+     "note": "South Coastal BC; no cut-off month given."
+    },
+    {
+     "topic": "winter",
+     "quote": "Minimal care needed in our mild climate",
+     "note": "South Coastal BC winter."
+    }
+   ]
+  },
+  {
+   "code": "FVRF",
+   "url": "https://www.fraservalleyrosefarm.com/fraser-valley-rose-guide/",
+   "final_url": "https://www.fraservalleyrosefarm.com/fraser-valley-rose-guide/",
+   "opened": true,
+   "page_date": "21 November 2024 (published and last modified)",
+   "checks": [
+    {
+     "finding": "AF-9",
+     "recorded": "\"On average, that happens here in late February to mid-March.\"",
+     "result": "Confirmed",
+     "page_wording": "On average, that happens here in late February to mid-March.",
+     "supports_finding": "partly",
+     "note": "Fraser Valley Rose Farm ties pruning to 'here' (Fraser Valley, BC, near Mission) and to forsythia; no zone is named in the returned text, so the zone part is untested."
+    },
+    {
+     "finding": "AF-11",
+     "recorded": "\"Our Fraser Valley winters are generally mild and wet, but are punctuated by some cold arctic outflow systems.\"",
+     "result": "Near",
+     "page_wording": "Our Fraser Valley winters are generally mild and wet, but are punctuated by some cold arctic “outflow” systems",
+     "supports_finding": "partly",
+     "note": "Same sentence apart from quotation marks round outflow. Fraser Valley nursery describes mild winters with cold snaps and advises protection in extreme cold forecasts (container roses to garage); young roses are protected, 'tender' is not stated."
+    },
+    {
+     "finding": "AF-13",
+     "recorded": "\"The rule of thumb is to watch for Forsythia (pictured) or other early-flowering shrubs to bloom before picking up the pruners.\"",
+     "result": "Near",
+     "page_wording": "The rule of thumb is to watch for Forsythia (pictured) or other early-flowering shrubs",
+     "supports_finding": "yes",
+     "note": "WebFetch returned the sentence cut off after 'shrubs'; the rest of the recorded wording was not returned, so the end is unconfirmed. Fraser Valley Rose Farm, BC. Ties pruning to forsythia bloom."
+    },
+    {
+     "finding": "AF-18",
+     "recorded": "\"On average, that happens here in late February to mid-March.\"",
+     "result": "Confirmed",
+     "page_wording": "On average, that happens here in late February to mid-March.",
+     "supports_finding": "yes",
+     "note": "Fraser Valley Rose Farm, Fraser Valley (coastal BC): main pruning late February to mid-March on average."
+    },
+    {
+     "finding": "AF-28",
+     "recorded": "\"Refrain from fertilizing and pruning from September onward.\"",
+     "result": "Confirmed",
+     "page_wording": "Refrain from fertilizing and pruning from September onward.",
+     "supports_finding": "yes",
+     "note": "Fraser Valley Rose Farm, BC: no feeding from September."
+    },
+    {
+     "finding": "AF-31",
+     "recorded": "\"Refrain from fertilizing and pruning from September onward.\"",
+     "result": "Confirmed",
+     "page_wording": "Refrain from fertilizing and pruning from September onward.",
+     "supports_finding": "partly",
+     "note": "Supports no pruning from September for the Fraser Valley only; other regions in the finding are not covered by this page."
+    },
+    {
+     "finding": "AF-49",
+     "recorded": "\"On average, that happens here in late February to mid-March.\"",
+     "result": "Confirmed",
+     "page_wording": "On average, that happens here in late February to mid-March.",
+     "supports_finding": "yes",
+     "note": "Uses 'on average' for the pruning window, Fraser Valley."
+    }
+   ],
+   "contradictions": [
+    "Page advises skipping extreme-cold protection for young roses that still need to establish ('If your rose is younger, and still needs time to establish - skip it' appears in the context of the hardening-off advice; exact meaning not clear from the returned text)."
+   ],
+   "also_says": [
+    {
+     "topic": "winter/frost",
+     "quote": "Roses will withstand the cold better if they’ve had a chance to harden off from the growing season.",
+     "note": "Fraser Valley, BC; no month."
+    },
+    {
+     "topic": "winter protection",
+     "quote": "If the forecast warns of extreme cold, you can also tuck them into a garage or similar unheated indoor space",
+     "note": "Container roses, Fraser Valley, BC."
+    },
+    {
+     "topic": "planting",
+     "quote": "Water regularly until established.",
+     "note": "Fraser Valley, BC; no month."
+    }
+   ]
+  },
+  {
+   "code": "MOSS",
+   "url": "https://www.mossfield.ca/learn/protect-roses-winter-alberta",
+   "final_url": "https://www.mossfield.ca/learn/protect-roses-winter-alberta",
+   "opened": true,
+   "page_date": "Last updated September 2026",
+   "checks": [
+    {
+     "finding": "AF-6",
+     "recorded": "\"Edmonton and Calgary are both zone 4a on the 2025 hardiness map\"",
+     "result": "Confirmed",
+     "page_wording": "Edmonton and Calgary are both zone 4a on the 2025 hardiness map",
+     "supports_finding": "partly",
+     "note": "Mossfield (Alberta) gives zone 4a for Edmonton and Calgary on the 2025 map; it does not say how much zones rose, so the half-to-two-zone range is not supported here."
+    },
+    {
+     "finding": "AF-9",
+     "recorded": "\"Edmonton and Calgary are both zone 4a on the 2025 hardiness map\"",
+     "result": "Confirmed",
+     "page_wording": "Edmonton and Calgary are both zone 4a on the 2025 hardiness map",
+     "supports_finding": "yes",
+     "note": "Names towns (Edmonton, Calgary) and gives the Canadian 2025 zone, Alberta."
+    },
+    {
+     "finding": "AF-10",
+     "recorded": "\"Hybrid teas, floribundas, grandifloras and David Austin roses need real protection every year.\"",
+     "result": "Confirmed",
+     "page_wording": "Hybrid teas, floribundas, grandifloras and David Austin roses need real protection every year.",
+     "supports_finding": "yes",
+     "note": "Mossfield, Alberta only; 'across much of Canada' is wider than this page speaks for."
+    },
+    {
+     "finding": "AF-41",
+     "recorded": "\"Wait until the rose is fully dormant.\"",
+     "result": "Confirmed",
+     "page_wording": "Wait until the rose is fully dormant.",
+     "supports_finding": "yes",
+     "note": "Alberta. Page also says 'build the mound once the ground is at least partly frozen' and mentions cutting canes back around Thanksgiving; ties timing to dormancy and frozen ground."
+    },
+    {
+     "finding": "AF-50",
+     "recorded": "\"Uncover in stages as the ground thaws, don't take everything off in one go\"",
+     "result": "Confirmed",
+     "page_wording": "Uncover in stages as the ground thaws, don’t take everything off in one go",
+     "supports_finding": "partly",
+     "note": "Mossfield, Alberta, says uncover in stages; it is one source and the finding speaks of two."
+    }
+   ],
+   "contradictions": [
+    "Page mentions a Thanksgiving (October) cut-back of canes to about 70 cm, which is a date-linked cue alongside the dormancy cue."
+   ],
+   "also_says": [
+    {
+     "topic": "winter protection on",
+     "quote": "Then build the mound once the ground is at least partly frozen.",
+     "note": "Alberta; no month."
+    },
+    {
+     "topic": "fall cut-back",
+     "quote": "around Thanksgiving, cut the canes back to about 70 cm and strip the leaves",
+     "note": "Alberta; Thanksgiving is October in Canada. Truncated by WebFetch."
+    },
+    {
+     "topic": "spring pruning",
+     "quote": "In spring, prune out dead and diseased canes",
+     "note": "Alberta; no month. Truncated by WebFetch."
+    }
+   ]
+  },
+  {
+   "code": "SR-MCK",
+   "url": "https://doaj.org/article/60a3345256a64864b3264efec5b44e5f",
+   "final_url": "https://doaj.org/article/60a3345256a64864b3264efec5b44e5f",
+   "opened": true,
+   "page_date": "July 2025",
+   "checks": [
+    {
+     "finding": "AF-1",
+     "recorded": "\"In the United States, the plant hardiness system involves averaging annual extreme minimum temperatures over a period of interest\"",
+     "result": "Confirmed",
+     "page_wording": "In the United States, the plant hardiness system involves averaging annual extreme minimum temperatures over a period of interest",
+     "supports_finding": "partly",
+     "note": "Abstract in Scientific Reports (McKenney et al., 2025) supports the US side. The Canadian several-variables side was not in the returned text."
+    },
+    {
+     "finding": "AF-6",
+     "recorded": "\"zone values have increased by between half a zone and two full zones across the country\"",
+     "result": "Confirmed",
+     "page_wording": "zone values have increased by between half a zone and two full zones across the country",
+     "supports_finding": "yes",
+     "note": "Comparison with 1961-1990 maps; largest increases in western and northwestern Canada. National, July 2025."
+    }
+   ],
+   "contradictions": [],
+   "also_says": []
+  },
+  {
+   "code": "PG",
+   "url": "https://prairiegardens.org/garden-centre/canadian-hardiness-zones-are-not-the-same-as-us-hardiness-zones/",
+   "final_url": "https://prairiegardens.org/garden-centre/canadian-hardiness-zones-are-not-the-same-as-us-hardiness-zones/",
+   "opened": true,
+   "page_date": "13 February 2024",
+   "checks": [
+    {
+     "finding": "AF-3",
+     "recorded": "\"The Canadian Hardiness Map and the USA hardiness map are not the same, and can not be used interchangeably.\"",
+     "result": "Confirmed",
+     "page_wording": "The Canadian Hardiness Map and the USA hardiness map are not the same, and can not be used interchangeably.",
+     "supports_finding": "yes",
+     "note": "Prairie Gardens (Bon Accord, Alberta, near Edmonton) also says there is about a one-zone difference, with USDA 4 equal to Canadian 5."
+    },
+    {
+     "finding": "AF-4",
+     "recorded": "\"Many Canadian box stores use, without ever stating it, the American hardiness zone system.\"",
+     "result": "Confirmed",
+     "page_wording": "Many Canadian box stores use, without ever stating it, the American hardiness zone system.",
+     "supports_finding": "yes",
+     "note": "Prairie Gardens, Alberta; the claim is theirs and not backed by a named study."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention roses."
+   ],
+   "also_says": [
+    {
+     "topic": "frost",
+     "quote": "seeing more frost-free days",
+     "note": "Edmonton area, Alberta; fragment as returned by WebFetch, no month."
+    },
+    {
+     "topic": "season length",
+     "quote": "Now we're getting an extra month.",
+     "note": "Edmonton area; fragment, not rose-specific."
+    }
+   ]
+  }
+ ]
+}
