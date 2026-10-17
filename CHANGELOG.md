@@ -10,6 +10,11 @@ Git provides the complete technical history of the repository. This changelog re
 
 ### Changed
 
+- **Older answers, batch 3: Pip's corrected answers ready for approval (18 October 2026).** Not published. The last of the three batches: what can be removed once a rose is growing, how much to remove, whether pruning too hard harms a rose, why a rose isn't flowering (with the blind-shoot check), the three basic-care answers, the rose-type question, and the tools and cutting guides (twelve answer records, on five approved research records and the main-framework research).
+  - **What a Founder reads:** `Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md` and its one-question form. Approval also authorises the corrections to the research listed in its section 3 (ROC Operations Manual §14.4).
+  - **Checked.** 132 sources on 68 websites were reopened and all opened. 98 sentences were checked by six sessions that took no part in writing them (28 failed at first, then none) and read as a gardener would (`Working/AI Outputs/Build_Check_OLDER-BATCH3_*.json`).
+  - **Draft records:** `Working/AI Outputs/PKR-OLDER-BATCH3-submission.md` (12 new record versions on approval). **The app:** `App/src/components/RoseTypeQuestion.tsx` shows the label line's tag ("Precaution"); the app build passes.
+- **LIL publish recorded (17 October 2026, batch 2).** KIT published commit `d84c170` with `lil_publish_from_git`: 6 records inserted. PKR-OBS/DEC-000004 to -000006 are Published at their new versions. The live LIL holds 604 records, 471 Published and 133 Retired, and its digest matches the manifest.
 - **Older answers, batch 2 approved and ready to publish (17 October 2026).** A Founder approved Pip's corrected answers in chat ("approve"), with no change.
   - **Research corrected:** each of the three research records has a new Build Check Corrections section (ROC Operations Manual §14.4): ARC-BUSHROSE-DAMAGEDGROWTH-01 v1.2, ARC-BUSHROSE-WEAKCONGESTED-01 v1.3 and ARC-BUSHROSE-PRUNINGFRAMEWORK-01 v1.2.
   - **Records:** PKR-OBS-000004 v1.1, PKR-DEC-000004 v1.2, PKR-OBS-000005 v1.1, PKR-DEC-000005 v1.2, PKR-OBS-000006 v1.2 and PKR-DEC-000006 v1.2; the versions before them are retired. The library files and the app's snapshot are rebuilt: 604 records, 471 Published, 133 Retired.

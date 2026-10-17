@@ -1,0 +1,2241 @@
+{
+ "round": "v0.1",
+ "B1": {
+  "results": [
+   {
+    "record": "PKR-SGT-000001",
+    "field": "removalOnly.intro",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     6,
+     7,
+     10
+    ],
+    "traces_to": [
+     "AF-3",
+     "AF-4",
+     "AF-1",
+     "AF-2",
+     "AF-17",
+     "C-1"
+    ],
+    "note": "\"This is not the time for full pruning\" is stated flat, but AF-3 records that sources differ (C-1): Ask Extension #615970 says pruning \"only becomes a problem if you have a couple of inches of new growth already leafed out\". The disagreement and the new-growth limit are not shown (rule 2, rule 10). AF-4 only places major pruning at or near bud break; it says nothing against later pruning. \"Can cost you flowers\" is stronger than DA-APR (\"might delay flowering a little\"); OSU says \"reduce flowering\". \"You can still remove\" for a rose already in leaf rests on AF-2/AF-17 (Low, with the condition \"without damaging the foliage\"), not on AF-1 (Moderate, generic \"at any time\"), so Moderate is too high for that clause and the condition is missing.",
+    "suggested_wording": "Your rose is already growing, so full pruning now is likely to reduce or delay flowering. One source says pruning is fine until there is a couple of inches of new growth. Dead, damaged or diseased wood can still be removed, but go gently so you do not damage the new leaves."
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "removalOnly.notSureIntro",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     5,
+     7,
+     12
+    ],
+    "traces_to": [
+     "AF-3",
+     "AF-1",
+     "AF-2"
+    ],
+    "note": "\"Check back in a week or two\" traces to no finding: it is a calendar interval Pip supplies itself (rules 6 and 8). \"We\" does not match the standing decision that Pip speaks as \"I\"/\"it\". The leave-full-pruning-for-now stance rests on AF-3, which is split (C-1). \"Dormant\" is not tied to a finding about how a gardener can tell. The \"still remove wood\" sentence needs the same go-gently condition (AF-17) when the rose may already be in leaf.",
+    "suggested_wording": "Since I can't be sure your rose is still dormant, I'll leave full pruning for now. You can still remove wood that is dead, damaged or diseased; if the rose has new leaves, go gently so you do not damage them."
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "removalOnly.conditions[0]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     5,
+     6,
+     10
+    ],
+    "traces_to": [
+     "AF-3",
+     "AF-1",
+     "C-1",
+     "photo-limit Founder decision (ARC-BUSHROSE-DEADWOOD-01 s6)"
+    ],
+    "note": "\"Don't shorten or shape healthy canes today\" is a flat ban. AF-3 gives a cost for heavy pruning (OSU \"any type of heavy pruning ... potential to reduce flowering\") and DA-APR says the aim is to remove dead or damaged wood \"and give the plant some shape\"; AEX-615970 says pruning is fine until a couple of inches of new growth. A ban on all shortening or shaping is more than the finding says and ignores the split (C-1). \"Remove only the wood you've confirmed\" rests on the Founder photo-limit decision, not a finding: acceptable as framing.",
+    "suggested_wording": "Remove only the wood you are sure is dead, damaged or diseased. Heavy pruning of healthy canes at this stage can reduce flowering."
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "removalOnly.conditions[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5,
+     6
+    ],
+    "traces_to": [
+     "AF-17",
+     "AF-2"
+    ],
+    "note": "Matches AF-17 (Low): OSU-LATE \"without damaging the foliage\", DA-APR \"go a little more gently\". Low is allowed because it is a precaution (rule 7), but the record has kind null: it should be marked as a precaution so the Low is not read as a reason to ignore it. \"And shoots\" is not in either page (they say foliage/leaves).",
+    "suggested_wording": "Go gently and avoid damaging the new leaves."
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "removalOnly.conditions[2]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     7
+    ],
+    "traces_to": [
+     "AF-19",
+     "AF-13",
+     "AF-14"
+    ],
+    "note": "\"White or pale green\" pith: no finding mentions pale green. Pages say \"white\" (MRS), \"white to cream-colored\" (VT-BOT), \"healthy white pith\" (RHS-PG), and AZ1528 gives \"until the hole is no longer visible\" with no mention of pith. It also departs from the batch 1 answer (cut back to white pith). \"Exactly as at any other time\" is stronger than AF-19, which only says no located source gives a different growing-season rule (RHS, AZ and ARS pages are partial and none speaks to growing season).",
+    "suggested_wording": "Cut back to healthy wood, where the inside of the cane (the pith) is white, as you would at any other time of year."
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "removalOnly.conditions[3]",
+    "result": "Pass with a note",
+    "points_failed": [
+     1,
+     6,
+     9
+    ],
+    "traces_to": [
+     "AF-20",
+     "AF-8",
+     "other research (cleaning blades)"
+    ],
+    "note": "\"Cut well below the affected part\" matches AF-20 (High; CLE-D, PNW-C, AEX, UNL-L all confirmed). \"Bin the prunings\" rests on AF-8 (\"remove and destroy\", Moderate; only two pages confirm it for diseased wood, RHS does not), so High is too high for the sentence as a whole. \"Clean your blades\" is not in these findings; pass only if it is supported by other research. \"The usual care applies\" does not stand alone. No timing claim is made, which is right given C-3.",
+    "suggested_wording": "For anything that looks like canker or disease, cut well below the affected part and destroy the prunings."
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "removalOnly.lateSeason",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     6,
+     8,
+     10,
+     11
+    ],
+    "traces_to": [
+     "AF-15",
+     "AF-16",
+     "AF-1",
+     "AF-11",
+     "C-3"
+    ],
+    "note": "Label High, but the diseased-wood exception rests on AF-16 (Moderate), so the lowest level is Moderate. \"Sources don't say whether dead wood is exempt\" is a research statement, not help for the gardener, and is contradicted by AF-1: CBG (\"Dead, diseased, spindly, or crossing branches can be removed at any time\"), PTC (\"Dead wood can be removed at any time\") and RHS-DB (\"as soon as it is seen\") all cover dead wood. As a gap it also lacks the pointer to local expert help (rule 5). \"Sources advise\" names sources in the sentence (rule 11). \"Exception\" is the finding's reading: NYBG says \"cut that back at any time, including the fall\" and ISU lists diseased canes in its fall section. UCIPM-CB (AF-11, Low) places infected-cane removal in the dry-weather dormant season; the disagreement is not shown (see judgement_view).",
+    "suggested_wording": "Pruning late in the growing season is discouraged, because it can encourage new growth that winter cold may damage. Diseased wood can still be cut out, including in the fall. Dead and damaged wood can also be removed at any time."
+   }
+  ],
+  "finding_corrections": [
+   {
+    "research": "POSTBUDBREAK",
+    "finding": "AF-3",
+    "was": "Heavy pruning after leaf-out described as having a cost; AEX-615970 quoted as support.",
+    "correction": "Split it: OSU-LATE says heavy pruning now may reduce flowering and plant size; DA-APR (commercial) says it might delay flowering a little; AEX-615970 (Maryland extension) says pruning is fine until a couple of inches of new growth, so it does not support a cost. Record this as a disagreement (C-1) with AEX as the dissent, not as a supporter.",
+    "level_was": "Moderate",
+    "level_now": "Moderate (disagreement recorded; Founder to confirm, see judgement_view)",
+    "why": "AEX page says pruning is fine now; only OSU and one commercial page state a cost"
+   },
+   {
+    "research": "POSTBUDBREAK",
+    "finding": "AF-4",
+    "was": "Many guides place dead/damaged/diseased removal first and major pruning at or near bud break.",
+    "correction": "Reword to what the pages show: dead and damaged wood is removed first in the spring session (RHS, UMD, Purdue, ISU); major pruning is placed at or near bud break (TAMU-EP, NYBG-LG, OSU). Drop Illinois, Dunedin and Georgia from the first-step and bud-break lists (they say other things: spring pruning generally, late July, mid Feb to early March). Keep the line that none says whether such wood may be removed later.",
+    "level_was": "High",
+    "level_now": "High",
+    "why": "most pages support only one half of the finding"
+   },
+   {
+    "research": "POSTBUDBREAK",
+    "finding": "AF-8",
+    "was": "Diseased or infected wood removed promptly or at any time: NYBG, AEX, RHS-DB.",
+    "correction": "Drop RHS-DB as a source for diseased wood: its sentence is about dead and damaged wood and the page gives no removal advice for diseased wood. Two sources remain (NYBG-FAQ, AEX-236546).",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "RHS page does not mention diseased wood"
+   },
+   {
+    "research": "POSTBUDBREAK",
+    "finding": "AF-16",
+    "was": "Two sources exempt diseased wood; no source says whether dead wood is exempt.",
+    "correction": "Reword \"exempt\" to what the pages say: NYBG-FAQ says diseased growth can be cut back at any time including the fall; ISU-S lists pruning out obviously diseased canes in its fall section. Remove or qualify the last sentence: AF-1 sources (CBG, PTC, RHS-DB) say dead wood can be removed at any time, so the gap claim is overstated.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "'Exempt' is an inference; the gap line conflicts with AF-1"
+   },
+   {
+    "research": "POSTBUDBREAK",
+    "finding": "AF-19",
+    "was": "Sources outside the dormant session give the same cut-to-healthy-tissue rule; none gives a different one.",
+    "correction": "Reword: sources on removal outside dormancy say cut back to healthy wood, with white pith (MRS, RHS-PG, ARS) or white to cream (VT-BOT); for borers AZ1528 says cut an inch or two at a time until the hole is gone. Remove \"none gives a different rule\" or mark it as not found: RHS, AZ and ARS pages do not speak of the growing season.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "three of five pages support only part; absence claim is not a source statement"
+   }
+  ],
+  "judgement_view": "Founder judgement is needed on two points. First, C-1: whether the opening should lead with the view that full pruning should wait (OSU, DA, and general guides at bud break) and show the Maryland extension answer (fine until a couple of inches of new growth) as the dissent, or treat the two as evenly split and give both without leading. Second, C-3: whether to show UCIPM-CB's single Low-level advice (remove infected canes in dry weather in the dormant season) next to the higher-level advice to remove diseased wood promptly or at any time. Under the Founder direction of 16 October 2026 it could be left out, since it is Low and one source; the other findings do not need a Founder.",
+  "package_notes": [
+   "Pip's voice: notSureIntro uses \"we\", while the standing decision has Pip speaking as \"I\" and referred to as \"it\".",
+   "conditions[1] (go gently) is a precaution and should carry kind=precaution with its Low label.",
+   "Several sentences state limits as flat rules (don't shorten or shape, not the time for full pruning); the research on leaf-out is split, so the wording should show that.",
+   "lateSeason and conditions[3] labels should be the lowest of the findings used (Moderate), not High.",
+   "\"Bin\" and \"clean your blades\" are not in the findings given; confirm against other research or use \"destroy\" as the sources do.",
+   "Statements on removing dead wood in a rose already in leaf rest on AF-2 and AF-17 (Low, two sources); keep the go-gently condition with them."
+  ]
+ },
+ "B2": {
+  "results": [
+   {
+    "record": "PKR-CGD-000008",
+    "field": "heading",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Question only; no claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Approved default"
+    ],
+    "note": "Framing; adds no claim the research contradicts.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-1"
+    ],
+    "note": "Seven pages say it plainly (e.g. ARS: 'too much shade will not produce many blooms'; UMD, Clemson, Yates NZ/AU, DA, Treloar). RHS only links shade to blind shoots, CSU/Ask Ext/NZRS/Kings only say roses need sun; the sentence does not lean on those.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[2]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "11"
+    ],
+    "traces_to": [
+     "AF-2"
+    ],
+    "note": "All 13 pages confirm the figures (4 to 8). 'Sources give' is research talk; and 'Six is the most common figure' is about the research count, not about the plant. The range is shown, which is right.",
+    "suggested_wording": "Roses need at least four to eight hours of direct sun a day. Six is the figure most often given."
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[3]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "5",
+     "11"
+    ],
+    "traces_to": [
+     "AF-3"
+    ],
+    "note": "Finding says only YAT-NZ ties competition to light, moisture and nutrients. Other pages (ARS 'Tree roots will steal water and nutrients', ILL, OKS, NMSU) speak of roots/water/food, not light. 'Light' is a one-source claim stated as agreed. 'Sources advise' is research talk.",
+    "suggested_wording": "Tree roots and nearby shrubs compete with a rose for water and food. Plant roses away from them."
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[4]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-5"
+    ],
+    "note": "Five pages confirm (UCIPM 'at the expense of flowers', AE-CSU, UMD, Clemson, AE-ILL). Yates AU is partial but not relied on.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[5]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "11"
+    ],
+    "traces_to": [
+     "AF-6"
+    ],
+    "note": "Only CSU, Kings and Yates AU were confirmed as saying too little feeding hurts flowering. RHS (feeding as control for blind shoots), NMSU ('Nitrogen is the main nutrient responsible for this required cyclic growth') and RSNSW ('hungry plants') do not state the link. 'Is also given as a reason' is research talk. 'My care tips' refers to app content (other research).",
+    "suggested_wording": "Too little feeding can also mean fewer flowers, and feeding helps. My care tips give the feeding pattern."
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[6]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "5",
+     "10"
+    ],
+    "traces_to": [
+     "AF-8"
+    ],
+    "note": "Reduced flowering is confirmed only by Marin Rose Society ('producing small blooms') and Clemson (general: flowers 'dry and drop off'). CSU, UCIPM and NMSU pages do not say drought reduces flowering. 'Pale, limp leaves' is NMSU only, and the page says afternoon heat can cause similar signs, a limit that changes what the gardener does. Dropped leaves rest on Marin and UCIPM (defoliation).",
+    "suggested_wording": "Too little water, or drought, can reduce flowering. A rose short of water may drop leaves and make small flowers. Pale, limp leaves can also come from afternoon heat."
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[7]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "10",
+     "11"
+    ],
+    "traces_to": [
+     "AF-11"
+    ],
+    "note": "Confirmed by Ask Ext, UMD ('improper pruning (either too much, too little, or at the wrong time)') and Tui. Illinois page does not say it (supports: no); OSU speaks of weakening, not flowering. 'Is listed as a reason' and 'No source says' are research talk. The gap should point to local help (rule 5).",
+    "suggested_wording": "Pruning too hard, too little or at the wrong time can mean fewer flowers. I couldn't find how much pruning is too much; a local rose society can help."
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[8]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "6"
+    ],
+    "traces_to": [
+     "AF-12"
+    ],
+    "note": "Each half rests on one extension page: OSU 'cut the plants more severely' for a few large flowers; UCIPM 'Less pruning ... a greater number of smaller flowers'. UGA does not say it (variety vigour only). Together they give one agreed relation, so Moderate can stand without UGA.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[9]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-19"
+    ],
+    "note": "Four pages confirm (UCIPM, ISU, PALM, KINGS).",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[10]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-16"
+    ],
+    "note": "Five pages confirm (CSU 'late spring or early summer', DA, UVM, GrownUps). Gap and local help follow rule 5; app routes are framing.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[11]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-14"
+    ],
+    "note": "Illinois ('all pruning should be delayed until after flowering'), UVM (rambler pruned after blooming) and Ask Ext confirm. DA and Clemson pages do not mention pruning before flowering and are not relied on.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[12]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-21"
+    ],
+    "note": "RHS 'develop normally, but fail to develop a terminal flower bud'; Ask Ext, VSRG, Tantau confirm.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[13]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-22"
+    ],
+    "note": "RHS 'The cause is unknown', VSRG, Ask Ext confirm; Tantau names the day/night swing. Weather and shade are RHS-linked.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[14]",
+    "result": "Fail",
+    "points_failed": [
+     "2",
+     "6",
+     "7",
+     "11"
+    ],
+    "traces_to": [
+     "AF-24"
+    ],
+    "note": "Finding records that the cut point differs (C-4). Sources disagree on where to cut, so the label must be 'Sources disagree', not Moderate. It leads with the RHS, but the three cut points carry the same level and are each on one page, so lead with none. RHS is named though its name is not the point. Each cut point is a single page (RHS; VSRG 'next lower stipule'; Tantau 'next fully formed five-leaf').",
+    "suggested_wording": "Cut a blind shoot back so it can send up a new shoot that flowers later in the season. Sources disagree on where to cut: one cuts back by half to a strong bud, another to the next leaf joint down, another to the next full five-leaflet leaf. (Label: Sources disagree)"
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[15]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "5",
+     "6"
+    ],
+    "traces_to": [
+     "AF-25"
+    ],
+    "note": "RHS FAQ ('usually caused by cool, wet weather') and RHS Flower balling ('develop normally but do not open'; 'papery') confirm; Treloar confirms only buds that ball with brown petals, not the weather. 'Feels soft' is not among the page words confirmed (inner-petals sentence seen only in paraphrase). Cause and signs rest on the RHS alone.",
+    "suggested_wording": "Buds that form but don't open after cool, wet weather may be 'balled': the outer petals dry into a brown, papery shell."
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[16]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "1",
+     "5",
+     "11"
+    ],
+    "traces_to": [
+     "AF-26"
+    ],
+    "note": "RHS confirms 'Remove balled buds promptly before grey mould sets in'. Air flow and no overhead watering are Treloar (botrytis page) only, so 'sources ... suggest' overstates; it is one source. 'Rotting buds' is not on the RHS page.",
+    "suggested_wording": "Remove balled buds promptly, before grey mould sets in. One source also suggests better air flow around the plant and watering at the base, not over the leaves."
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[17]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-27"
+    ],
+    "note": "UW/UC Davis ('spotted flower petals ... woolly gray fungal spores') and Treloar ('more prevalent in cool, wet weather') confirm. RHS page is not used for symptoms. 'Sources link' is slightly research-flavoured but harmless.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[18]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-28"
+    ],
+    "note": "UCIPM 'streak with brown or become distorted', UMD, UGA, UW confirm.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[19]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-29"
+    ],
+    "note": "RSWA ('burrow into buds'), UCIPM ('bore into flower buds'), Yates ('Holes in flower buds') together support holes in buds and caterpillars.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[20]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "5",
+     "10"
+    ],
+    "traces_to": [
+     "AF-31"
+    ],
+    "note": "Fewer flowers is stated by OKS-BS ('Repeated severe defoliation weakens the plant so that it produces fewer and poorer quality blooms') and CSU in part. UMD and UAEX say only foliage loss / weakening. The sentence drops the condition 'repeated severe' leaf loss and states it as certain.",
+    "suggested_wording": "Black spot (dark spots on the leaves, then yellowing and leaf drop) can weaken a rose. Repeated severe leaf loss means fewer, poorer flowers."
+   },
+   {
+    "record": "PKR-CGD-000008",
+    "field": "items[21]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Approved default"
+    ],
+    "note": "Framing only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "look_for",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-21"
+    ],
+    "note": "RHS-BLIND, Ask Ext, VSRG, Tantau confirm.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "criteria[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-21"
+    ],
+    "note": "RHS 'Leaf and stem growth can appear perfectly healthy'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "criteria[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "1",
+     "6"
+    ],
+    "traces_to": [
+     "AF-21"
+    ],
+    "note": "The tip look is Tantau ('no longer visible or even dried up'); no other confirmed page gives it, and 'empty' is a paraphrase. A one-page detail carries the High label of the whole finding.",
+    "suggested_wording": "One source says the tip may be missing or dried up."
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "criteria[2]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "5"
+    ],
+    "traces_to": [
+     "AF-22"
+    ],
+    "note": "Pages say 'The cause is unknown' (RHS) and 'A single proven and accepted cause is still unknown' (VSRG). 'Nobody knows for certain' is wider than that and adds certainty.",
+    "suggested_wording": "The cause of blind shoots isn't known."
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "photo_limit",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision (ARC-BUSHROSE-DEADWOOD-01 s6)"
+    ],
+    "note": "Photo rule, not a finding.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "confirm_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-21"
+    ],
+    "note": "Question only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "confirm_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-21"
+    ],
+    "note": "Label only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "doesnt_match_note",
+    "result": "Fail",
+    "points_failed": [
+     "1",
+     "5"
+    ],
+    "traces_to": [
+     "AF-21 (first half only)"
+    ],
+    "note": "'Then it isn't a blind shoot' follows from the definition (no terminal bud). 'Leave it to flower' is an instruction and a certainty no finding gives: a shoot with a bud may still fail to open (balling, thrips, budworm in the same answer).",
+    "suggested_wording": "Then it isn't a blind shoot."
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "not_sure_guidance",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision (photo rule)"
+    ],
+    "note": "No claim beyond the photo rule.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000008",
+    "field": "any_more_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-21"
+    ],
+    "note": "Question only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000008",
+    "field": "cut_method[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "2",
+     "6"
+    ],
+    "traces_to": [
+     "AF-24"
+    ],
+    "note": "RHS page confirms 'back by half to a strong bud' and 'should produce flowers later in the season'. It is one source, and the next line says sources differ, so this is one side of a disagreement, not Moderate agreed advice.",
+    "suggested_wording": "One source cuts the blind shoot back by about half, to a strong bud. This should give a new shoot that can flower later in the season."
+   },
+   {
+    "record": "PKR-DEC-000008",
+    "field": "cut_method[1]",
+    "result": "Fail",
+    "points_failed": [
+     "2",
+     "6"
+    ],
+    "traces_to": [
+     "AF-24"
+    ],
+    "note": "Says sources differ yet is labelled Moderate; a disagreement is marked 'Sources disagree' in place of a level. Cut points (VSRG 'next lower stipule', Tantau 'next fully formed five-leaf') are each one page; 'leaf joint' is a plain paraphrase of stipule, not confirmed as exact.",
+    "suggested_wording": "Sources disagree on where to cut: one cuts to the next leaf joint down, another to the next full five-leaflet leaf. (Label: Sources disagree)"
+   },
+   {
+    "record": "PKR-DEC-000008",
+    "field": "cut_method[2]",
+    "result": "Pass with a note",
+    "points_failed": [
+     "6"
+    ],
+    "traces_to": [
+     "AF-24"
+    ],
+    "note": "VSRG confirms removal of a short blind shoot from old wood low on the plant ('It will never do anything'). It is one page, so Moderate is more than it supports.",
+    "suggested_wording": "One source removes a short blind shoot growing low on old wood completely."
+   }
+  ],
+  "finding_corrections": [
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-1",
+    "was": "Cites RHS-BLIND, CSU, Ask Ext, NZRS-FAQ, KINGS as support that shade reduces flowering",
+    "correction": "Rest on TRE-SH, ARS-RRP, DA-BAS, YAT-NZ, YAT-AU, UMD, CLEM. RHS links shade only to blind shoots; CSU, Ask Ext, NZRS, Kings say roses need sun, not that shade cuts flowers.",
+    "level_was": "High",
+    "level_now": "High",
+    "why": "Five cited pages confirm only part (7 pages confirm fully)."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-3",
+    "was": "Competition for light, water and nutrients as agreed",
+    "correction": "Roots compete for water and nutrients (ARS, ILL, OKS, NMSU, YAT-NZ). Competition for light is YAT-NZ only; record as one source.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Light is on one page."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-6",
+    "was": "Too little feeding as cause, from RHS, NMSU, RSNSW and others",
+    "correction": "Cause confirmed by CSU, Kings, Yates AU only. RHS gives feeding as a control for blind shoots; NMSU and RSNSW say feed regularly without linking it to flowering. Drop them as support for the cause.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Three pages partial; three confirm."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-8",
+    "was": "Too little water reduces flowering, from CSU, UCIPM, NMSU, Clemson, Marin",
+    "correction": "Reduced flowering confirmed by Marin (small blooms) and Clemson (general plants) only. CSU gives a water amount; UCIPM links drought to leaf loss and cane sunburn; NMSU gives pale limp leaves as a sign and says afternoon heat can look similar. Add that limitation.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Three of five pages do not state flowering loss; one source is general, not rose."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-11",
+    "was": "Improper pruning as cause, incl. Illinois and OSU",
+    "correction": "Confirmed by Ask Ext, UMD, Tui. Drop Illinois (describes how hard to prune, not a cause). OSU says weakening, not poor flowering.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Illinois supports: no; OSU partial."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-12",
+    "was": "Harder pruning gives fewer, larger flowers; lighter gives more, smaller (OSU, UCIPM, UGA)",
+    "correction": "Drop UGA (variety vigour only). Harder half rests on OSU; lighter half on UCIPM.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "UGA does not state it; each half on one page."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-14",
+    "was": "Cites DA-FAQ and CLEM as support",
+    "correction": "Drop DA-FAQ (flowers on older growth, nothing on pruning) and CLEM (climbers, severe cutting) as support for pruning before flowering removes flowers. Keep ILL-PRUNE, AE-UVM, Ask Ext.",
+    "level_was": "High",
+    "level_now": "High",
+    "why": "Two pages partial; three confirm."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-24",
+    "was": "Cut-back of blind shoots as one Moderate finding with a differing cut point",
+    "correction": "Record as a disagreement on where to cut: RHS (half to a strong bud), VSRG (next lower stipule), Tantau (next fully formed five-leaf), each on one page. The cut-back itself is agreed. Short blind shoot on old wood removed entirely is VSRG alone. Under the 16 Oct direction Tantau (a breeder) disagreeing with a recognised body may be left out, VSRG then remains.",
+    "level_was": "Moderate",
+    "level_now": "Sources disagree (cut point); one source (removal)",
+    "why": "Disagreement; each cut on one page."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-25",
+    "was": "Balling cause, signs and susceptibility as one Moderate finding",
+    "correction": "Buds not opening with brown petals: RHS and Treloar. Cool, wet weather cause, papery shell and softness: RHS pages only (Treloar silent on weather); 'feels soft' not among confirmed words. Record those as one source.",
+    "level_was": "Moderate",
+    "level_now": "Moderate (existence); one source (cause, signs)",
+    "why": "Treloar supports only part; RHS two pages are one source."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-26",
+    "was": "Remove buds, improve air flow, avoid overhead water as agreed",
+    "correction": "RHS confirms prompt removal of balled buds only. Air flow and no overhead watering are Treloar (botrytis) only. Record C-7 (RHS: no chemical treatments for balling; Treloar fungicide for botrytis).",
+    "level_was": "Moderate",
+    "level_now": "Moderate (removal); one source (air flow, watering)",
+    "why": "RHS page lacks Treloar advice."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-27",
+    "was": "RHS-BALL cited for botrytis symptoms",
+    "correction": "RHS says grey mould can follow balling; it does not describe spotted petals. Symptoms and cool, wet weather rest on UW (UC Davis) and Treloar.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "RHS quote is about removing buds."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-28",
+    "was": "CSU cited with thrips petal streaking",
+    "correction": "CSU only names thrips as a possible cause. Streaking and distortion rest on UCIPM, UMD, UGA, UW.",
+    "level_was": "High",
+    "level_now": "High",
+    "why": "CSU page partial."
+   },
+   {
+    "research": "NOFLOWERS",
+    "finding": "AF-31",
+    "was": "Black spot weakens the rose and it produces fewer flowers",
+    "correction": "Fewer flowers is stated by OKS-BS ('repeated severe defoliation') and, in part, CSU (inadequate foliage). UMD and UAEX say foliage loss and weakening only. Add the condition: repeated severe leaf loss.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Flowering link on one page plus one partial."
+   }
+  ],
+  "judgement_view": "Founder judgement may be wanted on two points. (1) Blind-shoot cut point: whether VSRG (a public rose garden) counts as a reliable source for a disagreement with the RHS, and whether Tantau (breeder) is dropped under the 16 October direction on a nursery disagreeing with a recognised body. The wording above works either way. (2) Whether a detail resting on one page inside a Moderate finding (balled-bud signs, air flow, removing a short blind shoot) may stand with 'one source says', or should be left out. Otherwise none.",
+  "package_notes": [
+   "Counts: 36 statements; Pass 20, Pass with a note 13, Fail 3.",
+   "Main fault: blind-shoot cut point is a disagreement but carries a Moderate label in both CGD items[14] and DEC cut_method[1]; fix both together so they match, and lead with neither side.",
+   "Recurring phrasing fault: 'Sources give / suggest / link / is listed' (research talk) in CGD items 2, 3, 5, 6, 7, 16, 17; say the thing itself.",
+   "OBS doesnt_match_note 'Leave it to flower' is Pip's own instruction; remove.",
+   "Findings partly cited: AF-1, AF-6, AF-8, AF-11, AF-12, AF-14, AF-25, AF-26, AF-27, AF-28 list pages that support only part; corrections above change the citing, not the main claims.",
+   "Consistent with batch 1 and 2 answers: no conflict found with dead wood to white pith, 3 to 7 canes, or framework shortening."
+  ]
+ },
+ "B3": {
+  "results": [
+   {
+    "record": "PKR-CGD-000004",
+    "field": "items[0]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     5,
+     6
+    ],
+    "traces_to": [
+     "BASICCARE F2"
+    ],
+    "note": "Deep and less often: RHS 'a good soak once a week', Iowa 'thorough watering every 7 to 10 days', Missouri soak to 1 foot. But '1-2 inches' is only Cornell ('one to two inches'); Illinois says 'one inch'; RHS gives 5-10 litres per plant; Iowa gives an interval, not inches. Amount rests on two US pages, so High is too strong; sources differ on the measure.",
+    "suggested_wording": "Water deeply and less often, rather than a little and often. In the growing season, roughly 1–2 inches (about 2.5–5 cm) of water a week, counting rain, is a common guide when it's dry. [label Moderate]"
+   },
+   {
+    "record": "PKR-CGD-000004",
+    "field": "items[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     3
+    ],
+    "traces_to": [
+     "BASICCARE F3"
+    ],
+    "note": "Depth differs: Cornell 'two inch', RHS 'at least 5cm (2in)', Missouri 'Make the mulch 2 to 3 inches deep', Iowa 2 to 4 inches. Rule 3 asks for the range, not 2-3. Keep-clear gap: RHS 4in, Missouri about 6in, so 'a few inches' fits. RHS applies mulch Nov-Feb, not growing season; Illinois supports as written.",
+    "suggested_wording": "Spread organic mulch about 2–4 inches (5–10 cm) deep around the base — bark, well-rotted manure, wood chips or pine needles — kept a few inches clear of the stems."
+   },
+   {
+    "record": "PKR-CGD-000004",
+    "field": "items[2]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     5,
+     6
+    ],
+    "traces_to": [
+     "BASICCARE F4"
+    ],
+    "note": "Only Illinois and Penn State confirmed in full. UGA Cobb County lists fertilising in September and 'does not say when to stop', and names a brand. Finding says the cutoff varies by source and region; sentence gives one cutoff. 'Stop earlier where winter comes earlier' is not in the finding or the pages shown (added reason). Two full sources supports Moderate, not High.",
+    "suggested_wording": "Start feeding in spring as new growth begins and feed again through summer. Stop by mid-to-late summer so new growth can toughen before winter; the last feeding date varies by region. [label Moderate]"
+   },
+   {
+    "record": "PKR-CGD-000004",
+    "field": "items[3]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "BASICCARE F5"
+    ],
+    "note": "Illinois and Iowa State confirmed; UGA 'Stop deadheading' (October) is consistent. Stop-time is a range-like 'early-to-mid autumn'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000004",
+    "field": "items[4]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "BASICCARE F6"
+    ],
+    "note": "Maryland, Iowa State and Missouri all confirmed.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000004",
+    "field": "items[5]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     3,
+     5,
+     6
+    ],
+    "traces_to": [
+     "BASICCARE F12"
+    ],
+    "note": "One source only (Maryland): 'inspecting leaves, buds, and stems for symptoms'. The returned text 'does not list' yellowing, leaf drop, stunting, twisting or fewer flowers, so the list is unsupported. Single partly-supporting page cannot carry Moderate; it is Low and not a precaution, so Pip does not use it.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000004",
+    "field": "items[6]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     5
+    ],
+    "traces_to": [
+     "BASICCARE F13"
+    ],
+    "note": "Level Low and not a precaution, so Pip may not use it (rules section 3). Page says 'Poor growing conditions, incorrect care, weather extremes, and soggy soil are the major cause of plant decline.' It does not say 'uneven watering' and does not say 'think about these first'. 'These cause most decline' also adds 'most'. Drop.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000004",
+    "field": "disclosure",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "BASICCARE F2-F13 sources"
+    ],
+    "note": "Sources are one UK (RHS) and mostly US extensions; fits.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000005",
+    "field": "heading",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "framing"
+    ],
+    "note": "No claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000005",
+    "field": "items[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6
+    ],
+    "traces_to": [
+     "BASICCARE F7"
+    ],
+    "note": "Cornell confirmed in full; Missouri 'leave as much foliage on the plant as possible. It is usually best not to cut flowers from a new plant'; Fine Gardening (general-interest) 'less food it can make and the less energy it has to get established'. Practice has three sources; 'past year' and the root-energy reason rest on Cornell and Fine Gardening. Label should be Moderate.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000005",
+    "field": "items[1]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     6
+    ],
+    "traces_to": [
+     "BASICCARE F2"
+    ],
+    "note": "'Roughly the first two years' is not on any page shown: Iowa 'Newly planted shrubs particularly benefit from regular water'; RHS regular watering for new roses; Illinois, Missouri and Iowa notes say the two-year point is not stated. Only partly supported, so not High.",
+    "suggested_wording": "Pay closer attention to watering a newly planted rose. [label Moderate]"
+   },
+   {
+    "record": "PKR-CGD-000005",
+    "field": "items[2]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     5,
+     9
+    ],
+    "traces_to": [
+     "none in these findings (other research?)"
+    ],
+    "note": "No finding given says full pruning waits about three years. 'I'll check this again next time' is a promise of Pip's own and only about the research, not about the plant.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000005",
+    "field": "disclosure",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "BASICCARE F2, F7 sources"
+    ],
+    "note": "Sources are mostly US plus RHS; fits.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000006",
+    "field": "items[0]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     5,
+     6
+    ],
+    "traces_to": [
+     "BASICCARE F9"
+    ],
+    "note": "Height differs: Illinois, UNH, Missouri '10 to 12 inches'; UGA 'Mound wood mulch over crowns (12–18 inches) after second hard frost'. Rule 3 needs the range. Timing: Illinois 'a hard killing frost', UGA 'second hard frost', Missouri gives no timing. Graft union is not on the Illinois or Missouri pages; spring removal is not on Illinois or UNH pages. Four of six pages only partly support, so Very High is too strong.",
+    "suggested_wording": "Once the rose has had hard frosts and gone dormant, mound soil, compost or mulch about 10–12 inches (25–30 cm) high around the base, covering the graft union; one source says up to 18 inches (45 cm). Remove the mound in spring once hard frosts have passed. [label High]"
+   },
+   {
+    "record": "PKR-CGD-000006",
+    "field": "items[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     11
+    ],
+    "traces_to": [
+     "BASICCARE F10"
+    ],
+    "note": "UNH confirmed; Penn State only 'straw wrapped in burlap', no tar paper or wire collar, so the collar rests on one source. 'Sources also describe' names sources; say the thing itself.",
+    "suggested_wording": "In colder or more exposed spots, you can also build a collar of tar paper or wire mesh around the rose and fill it with straw, pine bark or peat moss, or wrap the canes in burlap or evergreen boughs."
+   },
+   {
+    "record": "PKR-CGD-000006",
+    "field": "items[2]",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "BASICCARE F11"
+    ],
+    "note": "Penn State confirmed in full. Nebraska 'continue to water roses until the ground freezes, even if they are dormant' does not mention 'after the first hard frost'; so that timing rests on one source. Sentence says less than Nebraska (no depth or interval); fine.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000006",
+    "field": "disclosure",
+    "result": "Fail",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "BASICCARE F9-F11 sources"
+    ],
+    "note": "Every winter source shown is a US extension (Illinois, Cornell, UGA, Penn State, UNH, Missouri, Nebraska); none is UK.",
+    "suggested_wording": "This care advice comes mainly from US gardening services. Timings and amounts may differ where you live."
+   }
+  ],
+  "finding_corrections": [
+   {
+    "research": "BASICCARE",
+    "finding": "F2",
+    "was": "Deep, infrequent; 1–2 in per week; closer attention first two years",
+    "correction": "Deep, less frequent watering; amounts differ: about 1 in (Illinois), 1–2 in (Cornell), 5–10 litres per plant in dry spells (RHS), a thorough soak every 7–10 days (Iowa). Newly planted roses need regular watering; drop 'first two years' (not on the pages).",
+    "level_was": "High",
+    "level_now": "Moderate",
+    "why": "amount rests on two pages; two-year point unsupported"
+   },
+   {
+    "research": "BASICCARE",
+    "finding": "F3",
+    "was": "2–3 in organic mulch in growing season",
+    "correction": "Depth 2 to 4 in (RHS at least 2, Cornell 2, Missouri and Illinois 2–3, Iowa 2–4); keep clear 4–6 in (RHS, Missouri). RHS applies Nov–Feb. Materials vary: manure not on Iowa page.",
+    "level_was": "High",
+    "level_now": "High",
+    "why": "depth is a range, not 2–3"
+   },
+   {
+    "research": "BASICCARE",
+    "finding": "F4",
+    "was": "Start spring, stop mid-to-late summer",
+    "correction": "Drop UGA as support for the stop date (it lists September feeding, names a brand, gives no stop). Keep Illinois and Penn State; record the cutoff as varying by region.",
+    "level_was": "High (pattern)",
+    "level_now": "Moderate",
+    "why": "only two pages confirm fully; UGA differs"
+   },
+   {
+    "research": "BASICCARE",
+    "finding": "F7",
+    "was": "Leave foliage in first season; energy to root",
+    "correction": "Practice is supported by Cornell, Missouri and Fine Gardening; the 'past year' and root-energy reason rest on Cornell and Fine Gardening (general-interest).",
+    "level_was": "High",
+    "level_now": "Moderate",
+    "why": "two of three pages only partly support"
+   },
+   {
+    "research": "BASICCARE",
+    "finding": "F9",
+    "was": "Mound 10–12 in after several hard frosts; graft union; spring removal",
+    "correction": "Height 10–12 in on Illinois, UNH, Missouri; UGA says 12–18 in after the second hard frost (record as a difference). Graft union is not on Illinois or Missouri pages; spring removal is not on Illinois or UNH pages; Illinois says one killing frost.",
+    "level_was": "Very High",
+    "level_now": "High",
+    "why": "four of six pages partial; height differs"
+   },
+   {
+    "research": "BASICCARE",
+    "finding": "F10",
+    "was": "Collar and wrap methods",
+    "correction": "Tar paper or wire collar is from UNH only; Penn State gives burlap-wrapped straw only.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "collar rests on one page; keep wording to what each shows"
+   },
+   {
+    "research": "BASICCARE",
+    "finding": "F11",
+    "was": "Water after first hard frost; clear leaves",
+    "correction": "'After the first hard frost' rests on Penn State; Nebraska says continue watering until the ground freezes (8–12 in, every 2–3 weeks).",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "timing differs between pages"
+   },
+   {
+    "research": "BASICCARE",
+    "finding": "F12",
+    "was": "General non-diagnostic signs to notice",
+    "correction": "Regular inspection of leaves, buds and stems and early detection only (Maryland); the list of specific signs is not on the returned text.",
+    "level_was": "Moderate",
+    "level_now": "Low",
+    "why": "one source, partly supports; list unsupported"
+   },
+   {
+    "research": "BASICCARE",
+    "finding": "F13",
+    "was": "Ordinary conditions most common cause; inconsistent watering",
+    "correction": "One page says poor growing conditions, incorrect care, weather extremes and soggy soil are the major cause of plant decline. Remove 'inconsistent watering' and 'rather than pests'.",
+    "level_was": "Low–Moderate",
+    "level_now": "Low",
+    "why": "single page; wording goes past it"
+   }
+  ],
+  "judgement_view": "none",
+  "package_notes": [
+   "PKR-CGD-000005 items[2] has no finding in this set; if other research supports 'about three years', keep only that sentence and drop 'I'll check this again next time'.",
+   "PKR-CGD-000004 items[5] and items[6] are Low and not precautions, so rules section 3 says Pip does not use them.",
+   "Mulch, watering and mound heights are ranges across sources; show them as ranges (rule 3).",
+   "Maryland page (F12, F13) is the only source for both; avoid repeating one page as two supports."
+  ]
+ },
+ "B4": {
+  "results": [
+   {
+    "record": "PKR-SGT-000003",
+    "field": "question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app framing"
+    ],
+    "note": "A prompt. Makes no claim beyond asking where the gardener's knowledge of the type came from.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000003",
+    "field": "labelAbbreviations",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     3,
+     4,
+     5,
+     6,
+     10
+    ],
+    "traces_to": [
+     "ROSETYPE AF-L30",
+     "ROSETYPE AF-L31"
+    ],
+    "note": "AF-L30: no Kings page expands 'Ht' ('the page never says Hybrid Tea or Floribunda'); the mapping is the researcher's own matching of names across shops, so it is not available. AF-L31 contradicts the sentence: Palmers sells 'Fordell Ht' and its page says 'Floribunda'. 'Usually means' and 'does tell you the type' are not given by any page. Label Moderate is not supported; AF-L31 rests on one retailer.",
+    "suggested_wording": "Don't rely on \"Ht\" or \"Fl\" in a rose's name to tell you its type. One New Zealand shop sells a rose as \"Ht\" that its own page describes as a Floribunda. (Label: Low, one source says; only one source was found.)"
+   },
+   {
+    "record": "PKR-SGT-000003",
+    "field": "grandifloraNote",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "ROSETYPE AF-4 (context only)",
+     "other research"
+    ],
+    "note": "'Same guidance as a Hybrid Tea' and 'no Grandiflora-specific advice' are not an AF-4 claim; AF-4 only says Grandiflora is in US and some NZ sources but not the NZ Rose Society list. Passes only if this rests on a recorded Founder default or other research. AF-4 evidence for the NZ-absence half is partly from an Australian society.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000003",
+    "field": "roseFinder",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "ROSETYPE AF-19"
+    ],
+    "note": "Rose Finder page confirmed ('supports: yes'). Rests on one source (the society itself, a reliable local source), so rule 4 asks that only one source was found be shown; the society is named because it is the tool the gardener uses. 'Each rose it holds' matches 'each listed cultivar'. The 'can't find it = I don't know' line is app behaviour.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000003",
+    "field": "journalOnly.base",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "scope of pruning guidance (other research)",
+     "grandifloraNote"
+    ],
+    "note": "States Pip's coverage, no claim about roses. Consistent with the Grandiflora line.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000003",
+    "field": "journalOnly.excluded",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "scope of pruning guidance"
+    ],
+    "note": "No claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000003",
+    "field": "journalOnly.bushOnly",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    "traces_to": [
+     "ROSETYPE AF-17"
+    ],
+    "note": "Pages support 'bush' for a shrub rose (Wairere: 'compact modern shrub bush') and a groundcover rose (Tesselaar: 'each Flower Carpet rose bush', region not named as NZ). No page shows 'bush' for patio roses (Tui keeps patio separate). Yates and Tui do not support the finding. 'Garden retailers use it' is wider than one nursery each. Level Moderate is not supported.",
+    "suggested_wording": "\"Bush\" on a label doesn't always say which type a rose is. At least one New Zealand nursery calls a shrub rose a \"bush\" rose. (Label: Low, one source says.)"
+   },
+   {
+    "record": "PKR-SGT-000003",
+    "field": "journalOnly.unknown",
+    "result": "Fail",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "ROSETYPE AF-20",
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 §6 (photos)"
+    ],
+    "note": "AF-20 says identifying is difficult and depends on many plant parts (Heritage Roses: yes; Ask Extension and Ross Roses: partly). 'Unreliable even for experts' is added: no page says experts cannot do it. The photo rule is a Founder decision, fine to keep, but the reason given must be AF-20's.",
+    "suggested_wording": "Without a confirmed type I can't be sure the guidance fits. I don't try to identify roses from photos, because telling one rose from another is difficult and depends on many parts of the plant."
+   },
+   {
+    "record": "PKR-SGT-000003",
+    "field": "journalOnly.keep",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app behaviour"
+    ],
+    "note": "Describes what the app does. No research claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000003",
+    "field": "journalOnly.help",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "ROSETYPE AF-24"
+    ],
+    "note": "AF-24: sources point to a rose society, rosarian or second opinion (Heritage Roses and Ross Roses: yes; NZ Rose Society: 'contact your local rose society', no rosarian). 'The best place to ask' is added ranking; the pages only point there. Fits rule 5.",
+    "suggested_wording": "If you want the type identified, a local rose society or an experienced rose grower can help."
+   }
+  ],
+  "finding_corrections": [
+   {
+    "research": "ROSETYPE",
+    "finding": "AF-L30",
+    "was": "Kings 'Bush Rose Ht' titles are Hybrid Teas, 'Fl' are Floribunda, in every case checked",
+    "correction": "Record only that Kings titles carry 'Ht'/'Fl'; no checked page states what the letters mean. The mapping came from matching names across other shops, which is an inference. Not available to Pip.",
+    "level_was": "Moderate",
+    "level_now": "Very Low (kept on record, not used)",
+    "why": "All seven pages 'supports: no'"
+   },
+   {
+    "research": "ROSETYPE",
+    "finding": "AF-L31",
+    "was": "Palmers uses Ht and Fl in titles; one Ht title is on a rose its page calls a Floribunda",
+    "correction": "Keep as: at Palmers, 'Fordell Ht' is described on its own page as a Floribunda, and 'My Daughter Bush Fl' as Floribunda. Drop the Matthews page as support for Palmers' labelling. Single retailer, so say one source.",
+    "level_was": "Moderate",
+    "level_now": "Low (local, one source)",
+    "why": "Palmers pages support it; Matthews page says nothing of Palmers; one retailer only"
+   },
+   {
+    "research": "ROSETYPE",
+    "finding": "AF-17",
+    "was": "NZ retailers use 'bush' for patio, shrub-category and groundcover roses",
+    "correction": "Reword to: a New Zealand nursery (Wairere) calls a shrub rose a 'bush'; Tesselaar (AU/NZ) calls its groundcover roses a 'bush'. Drop patio. Drop Yates and Tui as support (they show 'bush' used for a growth-habit group and 'standard and bush', not other types).",
+    "level_was": "Moderate",
+    "level_now": "Low",
+    "why": "No page supports patio; two of five pages 'no'; others each show one sense"
+   },
+   {
+    "research": "ROSETYPE",
+    "finding": "AF-4",
+    "was": "Grandiflora in US and some NZ consumer sources but not in NZ Rose Society list or two NZ nurseries' lists",
+    "correction": "Keep, but drop the Rose Society of NSW (Australian) as support for the NZ-absence part; US pages support the 'appears' half only. State the absence from the NZ Rose Society list and Matthews as the confirmed part.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Australian list is not an NZ source; Plant Store has no wording"
+   },
+   {
+    "research": "ROSETYPE",
+    "finding": "AF-24",
+    "was": "Sources point to a rose society, rosarian or second opinion",
+    "correction": "Say 'a rose society or an experienced rose grower'. NZ Rose Society page supports the rose society part only.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "One source mentions only a local rose society"
+   }
+  ],
+  "judgement_view": "none",
+  "package_notes": [
+   "Grandiflora being given Hybrid Tea guidance is not a finding; confirm it rests on a recorded Founder default or other research (not checked here).",
+   "labelAbbreviations and bushOnly both gave certainty the pages do not; with AF-L30 unavailable, the app should warn against relying on 'Ht'/'Fl' and 'Bush' rather than decode them.",
+   "Statements that make a claim (labelAbbreviations, bushOnly, unknown) carry no label or the wrong one; add the lower label (Low, one source says) where suggested."
+  ]
+ },
+ "B5": {
+  "results": [
+   {
+    "record": "PKR-CGD-000001",
+    "field": "items[0]",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-25"
+    ],
+    "note": "Only Red Butte, Yates and Texas A&M (general woody plants) tie each tool to thickness; the rest support parts (Maryland: 'For larger canes use lopper pruners... very old, woody roses a hand pruning saw'). Parts are each backed by several pages, so High is defensible. Keep.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000001",
+    "field": "items[1]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     5,
+     3
+    ],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-26"
+    ],
+    "note": "AF-26 is Low and is not a precaution or local, so Pip may not use it (table, Low 'anything else'). Also adds 'or a saw above that', which AF-26 does not say, and picks 3/4 inch when Texas A&M gives 'up to 1/2 inch' (rule 3: range, not one figure). Thickness-to-tool is already covered by items[0].",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000001",
+    "field": "items[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Approved default",
+     "PRUNINGFRAMEWORK AF-25 (bypass for thin canes)"
+    ],
+    "note": "Founder-approved default; nothing in the findings contradicts it.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000001",
+    "field": "items[3]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-27"
+    ],
+    "note": "Sharp tools and clean cut backed by many pages (Red Butte, Yates, Iowa State, OSU, Maryland, Dunedin, Texas A&M). Texas/Clemson/ARS support only 'sharp'; fine at High overall.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000001",
+    "field": "items[4]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     7,
+     12
+    ],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-28"
+    ],
+    "note": "'70 percent alcohol' comes from Clemson alone, which says 'periodically', not between plants; AF-28 names no alcohol or wiping. 'A sensible precaution, not a strict rule' is Pip's own judgement, not in the pages. Precaution should be marked as one by label, not by Pip's added opinion.",
+    "suggested_wording": "Clean your blades between plants, and after cutting out diseased wood, so you don't spread disease from one plant to another."
+   },
+   {
+    "record": "PKR-CGD-000002",
+    "field": "removeStem[0]",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-29"
+    ],
+    "note": "Only Yates and Texas A&M (general woody plants) fully support; others each support a part (Dunedin 'cutting off cleanly at the base', KCRS 'Don't leave short stubs', ARS 'close to the bud union'). Sentence says no more than AF-29. Keep at Moderate.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000002",
+    "field": "shorten[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-21"
+    ],
+    "note": "16 pages say outward-facing bud; none contradicts. C11 disputes slant, not bud direction.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000002",
+    "field": "shorten[1]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     3,
+     5,
+     12
+    ],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-22"
+    ],
+    "note": "Quarter inch is well supported. The 'up to half an inch is also fine... avoid the stub dying back' part rests on Texas A&M's reasoning, but no Texas A&M page appears among AF-22's checked sources, and every page checked says the half-inch reasoning 'is not on this page'. Not confirmed, so it adds a claim and a reason.",
+    "suggested_wording": "Cut about a quarter of an inch (about 6 mm) above the bud."
+   },
+   {
+    "record": "PKR-CGD-000002",
+    "field": "shorten[2]",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-23",
+     "AF-38 / C11 (not used)"
+    ],
+    "note": "Six pages say about 45 degrees; CSU says '30 to 45-degree', so 'roughly' is fair. Rose Society of South Australia ('Don't worry about cutting through at an angle') is a plant society that differs; Ludwig's (a grower) says 90 degrees. Per the 16 Oct direction the single grower is not shown; the society is a Founder point (see judgement_view).",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000002",
+    "field": "shorten[3]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     6
+    ],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-24"
+    ],
+    "note": "AF-24 is Low and not a precaution or local, so Pip may not use it. Also flat wording: AF-24 says 'most often', and C11 records dissent (Ludwig's 90 degrees; South Australia society).",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000002",
+    "field": "seal",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     6,
+     3,
+     10
+    ],
+    "traces_to": [
+     "PRUNINGFRAMEWORK AF-35",
+     "PRUNINGFRAMEWORK AF-30"
+    ],
+    "note": "'Thinner cuts don't need it' is on no page (Clemson only says cuts thicker than a pencil 'should be sealed'; Texas A&M El Paso 'maybe sealed'). Materials and the pencil threshold come from AF-30 (Low), so the label cannot be Moderate; lowest level is Low. UGA says 'Sealing is not crucial' and CSU PlantTalk says the nesting wasps are 'harmless', not cane borers; 'you can... to keep insects out' states the borer reason more firmly than two pages allow. Usable only as a Low precaution, marked as one.",
+    "suggested_wording": "Some sources seal the cut end of a cane roughly pencil-thick or thicker, with glue, nail polish or pruning sealer, to keep cane-boring insects out. One source says sealing is not crucial."
+   }
+  ],
+  "finding_corrections": [
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-22",
+    "was": "Minority half-inch figure with Texas A&M reasoning (bud dies if too close, wood dies back if too far)",
+    "correction": "Sources that give a distance most often say about one-quarter inch (about 6 mm) above the bud. Drop the half-inch figure and the tradeoff reasoning, or restore only after a Texas A&M page confirming them is checked.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "No checked page says half inch or the reasoning"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-35",
+    "was": "Rose sources seal for cane borers; not contradicted by wound-dressing research",
+    "correction": "Where rose sources recommend sealing larger cut ends, the reason given is to keep cane-boring insects out (ARS and Arizona support). Drop CSU PlantTalk (wasps called harmless) and Texas A&M El Paso (reason cut off) as support for the borer reason.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Two of four rose pages do not confirm the borer reason"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-30",
+    "was": "Sealing advised by some, contested",
+    "correction": "Keep as Low. Record that UGA says 'Sealing is not crucial' and that the pencil-thickness threshold rests on Clemson (South Carolina, 'may not apply to other areas') only; no page says thinner cuts need no sealing.",
+    "level_was": "Low",
+    "level_now": "Low",
+    "why": "Threshold single-source; 'thinner needs none' unsupported"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-28",
+    "was": "Disinfect between plants or after diseased wood",
+    "correction": "Add limit: no page gives alcohol or wiping except Clemson ('periodically', 70 percent); Texas A&M is for diseased plants, general woody plants. Alcohol strength stays out of Pip.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Method details are single-source"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-24",
+    "was": "Slant most often away from the bud",
+    "correction": "Record the dissent in the finding: Ludwig's (square 90 degrees) and Rose Society of South Australia (angle unnecessary) are carried only in C11.",
+    "level_was": "Low",
+    "level_now": "Low",
+    "why": "Dissent affects whether it can be stated flatly"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-26",
+    "was": "Pruners to about 3/4 inch; general text 1/2 inch",
+    "correction": "If ever used, show as a range (1/2 to 3/4 inch). Stays Low and unused.",
+    "level_was": "Low",
+    "level_now": "Low",
+    "why": "Two figures; rule 3"
+   }
+  ],
+  "judgement_view": "Founder point: Rose Society of South Australia (a plant society, rule 4 reliable) says the slant is unnecessary, against about six pages recommending 45 degrees. Decide whether shorten[2] should say so (rule 2) or keep as is under the 16 Oct direction (which covers only a lone nursery/company). Also decide whether the sealing statement should be marked 'Sources disagree' rather than a Low precaution, given UGA 'not crucial'.",
+  "package_notes": [
+   "AF-26 and AF-24 are Low non-precautions; items[1] and shorten[3] cannot be used. Dropping them leaves 000001 with items 0, 2, 3, 4 and 000002 without a slant-direction line.",
+   "Statements and suggestions stay consistent with batch notes: framework counts and sealing disagreement after borer damage are not contradicted.",
+   "Texas A&M page is general woody plants, not roses, wherever it is the only full support (AF-25, AF-29)."
+  ]
+ },
+ "B6": {
+  "results": [
+   {
+    "record": "PKR-CGD-000003",
+    "field": "heading",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Heading only, no claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5,
+     12
+    ],
+    "traces_to": [
+     "other research (general pruning guidance)",
+     "WEAKCONGESTED AF-18 (one-third part only)"
+    ],
+    "note": "Only AF-18 is given: NC State says 'not remove more than a third of the total crown of a plant in any one year'. The reasons (stress, drained stored energy, flush of uncontrolled regrowth) and 'in one session' are not in any finding given here. Pass only if the other research gives them; otherwise say less. 'In one session' differs from 'in any one year' in item 1.",
+    "suggested_wording": "A general pruning rule for shrubs and trees is to remove no more than about a third of a plant's growth at a time."
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6
+    ],
+    "traces_to": [
+     "WEAKCONGESTED AF-18"
+    ],
+    "note": "Wording matches NC State ('not remove more than a third of the total crown of a plant in any one year'). It is one source, and the sentence says so, but the label is Moderate; one page supports it, so Low (a precaution).",
+    "suggested_wording": "One general source says to remove no more than a third of a plant's crown in any one year. (label Low)"
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[2]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-22 (RHS-REN two or three years; UCF a third at a time)",
+     "other research"
+    ],
+    "note": "'The same guidance' links the staged plan to the crown rule; in AF-22 the two-or-three-years advice is RHS for general shrubs and 'a third at a time' is UCF for roses, separate pages from NC State. Do not tie them to one source.",
+    "suggested_wording": "If an overgrown bush needs more than that, some sources spread the work over two or three years, about a third at a time."
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[3]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     5,
+     8,
+     11
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-22 (CBG renovates in one go) for the 'single hard renovation' part"
+    ],
+    "note": "'Hasn't been tested on roses' is a statement about the research, not found in any finding, and adds a claim. 'Treat it as a cautious guide, not a limit' is Pip's own advice; no finding gives it. Only the CBG one-go renovation (AF-22, Moderate) is supported.",
+    "suggested_wording": "Some rose sources renovate an old rose in one go instead of in stages."
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[4]",
+    "result": "Pass with a note",
+    "points_failed": [
+     3,
+     4,
+     7
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-10"
+    ],
+    "note": "AF-10 High. ABC page gives half to two-thirds for roses in general, not Hybrid Teas and Floribunda specifically. The finding's own sources also give 'a third to two-thirds' (NYBG) and 'at least a third or up to half' (MATT), a range; the published batch 1 answer gives framework shortening as about a third to a half. Show the range so the two answers agree.",
+    "suggested_wording": "Rose growers commonly remove more than this at winter pruning: from a third to two-thirds of a Hybrid Tea's or Floribunda's growth or height, with half to two-thirds the most usual figure."
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[5]",
+    "result": "Pass with a note",
+    "points_failed": [
+     7
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-5"
+    ],
+    "note": "LO and YAT-AU call a third 'light'; NYBG calls cutting back by a third 'moderate' ('heading back ... is a moderate pruning where the plant is cut back by 1/3'). Terms are defined differently, so the disagreement should show.",
+    "suggested_wording": "Rose sources use these words differently: some call cutting back by a third \"light\" pruning, and another calls it \"moderate\"."
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "heading",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Question only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "items[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     11,
+     9
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-1"
+    ],
+    "note": "AF-1 High; all pages support except Orange County (partly: 'a rose bush is one tough cookie', not outright). Rest of the pages say it plainly. The sentence names kinds of source and countries, which belongs under the answer. It also stands alone without the conditions in the next two lines (cut below the ground line).",
+    "suggested_wording": "Pruning, even hard or badly done, doesn't kill an established rose that is otherwise healthy."
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "items[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5,
+     9
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-2"
+    ],
+    "note": "'Some of them' does not stand alone. Each condition rests on one page: healthy (CBG), ground line (PRS), roots (SARS 'provided the roots are somewhat in tact'). 'Intact' is stronger than 'somewhat in tact'; and SARS is about regrowth after dieback to the stump, not about pruning. RHS part of AF-2 is general shrubs and unused here.",
+    "suggested_wording": "One source says a rose won't die from pruning if it is otherwise healthy. Another says a rose cut back to the stump will shoot again if its roots are somewhat intact."
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "items[2]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     4,
+     5,
+     6,
+     11
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-14"
+    ],
+    "note": "AF-14 pages: only PRS (rose society) says 'unless you cut the rose below the ground line'. RHS 'take care not to cut back below the scion' is general shrubs and does not say the rose is lost; PSU is winter damage to the graft, not a pruning cut; SARS has no graft or ground line. 'Below the graft' as a pruning cut that loses a rose is not supported. One source only: needs 'one source says' and a lower label (Low, precaution). 'The cut sources say' is research wording.",
+    "suggested_wording": "One source says a rose will survive pruning unless it is cut below the ground line."
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "items[3]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     7
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-11"
+    ],
+    "note": "First sentence matches AF-11. 'or remove them' is not in AF-11 (RHS: 'Prune back less vigorous shoots more severely'; LO: 'Weak stems are cut back further'). 'Sources still cut' names sources and 'single' is added. The two directions (weak rose lighter, weak shoots harder) are recorded as C-2.",
+    "suggested_wording": "A weak or slow-growing rose is pruned less hard than a vigorous one. Within a bush, weak shoots are cut back further."
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "items[4]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "HARDPRUNE AF-16"
+    ],
+    "note": "AF-16 High; six pages support (OSU, PSU, NMSU, TUI, RSV, TRE). Says no more than 'risks frost damage ... and dieback'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "items[5]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     11
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-4"
+    ],
+    "note": "'Any harm ... is a short-term setback' is stronger than DA-SR ('rarely anything more than a short-term setback') and GU-P1 ('may sulk for a little bit'). 'Sources describe' is research wording. 'One says the first year ... recovery year' matches CBG ('a recovery year for growth'); drop 'after a hard pruning' scope only if CBG's wording is kept as given.",
+    "suggested_wording": "Harm from pruning too hard is usually only a short-term setback. One source says the first year after a hard pruning is a recovery year for growth."
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "items[6]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "HARDPRUNE AF-21"
+    ],
+    "note": "AF-21 Moderate; OSU 'neglected roses can easily be rejuvenated by pruning', LO, CBG, RNRS support. 'Can' keeps it modest.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "items[7]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-22"
+    ],
+    "note": "Approved default; staged over two or three years (RHS-REN, general shrubs) and a third at a time (UCF) are in AF-22, and CBG does it in one go. 'None gives a rule' is not exact: RHS-REN gives one for shrubs (robust shrubs in one year, unknown response staged). AF-22 says no rose-specific rule.",
+    "suggested_wording": "My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for roses for choosing."
+   },
+   {
+    "record": "PKR-CGD-000007",
+    "field": "items[8]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6,
+     11
+    ],
+    "traces_to": [
+     "HARDPRUNE AF-24",
+     "HARDPRUNE AF-25"
+    ],
+    "note": "AF-24 Low: no rose-specific source gives signs or a waiting time; AF-25 NZRS says contact your local rose society. The first sentence is a gap and should be marked 'No source found' (rule 5) and say Pip couldn't find it, not 'Sources give no'. The 'if no new growth appears' trigger is the default; not contradicted (SARS: shoots 'when the conditions are favourable').",
+    "suggested_wording": "Pip couldn't find signs, or a waiting time, for judging whether a hard-pruned rose is recovering. If no new growth appears during the growing season, ask your local rose society."
+   }
+  ],
+  "finding_corrections": [
+   {
+    "research": "HARDPRUNE",
+    "finding": "AF-1",
+    "was": "Orange County Rose Society cited as support",
+    "correction": "Drop OCRS from the support for 'pruning does not kill'. It says the bush is tough but not that pruning, even hard, does not kill.",
+    "level_now": "High",
+    "level_was": "High",
+    "why": "page supports only partly; other pages carry it"
+   },
+   {
+    "research": "HARDPRUNE",
+    "finding": "AF-2",
+    "was": "Several sources attach conditions (CBG, PRS, SARS, RHS-REN)",
+    "correction": "Record each condition as one source: CBG healthy rose; PRS not cut below the ground line; SARS regrowth after dieback to the stump depends on roots being 'somewhat in tact'. Drop RHS-REN (general shrubs, not the pruning-does-not-kill claim).",
+    "level_now": "Low",
+    "level_was": "Moderate",
+    "why": "each condition has one page behind it"
+   },
+   {
+    "research": "HARDPRUNE",
+    "finding": "AF-14",
+    "was": "Cutting below the graft or ground line can lose the rose (PRS, RHS-REN, PSU, SARS)",
+    "correction": "Reword: one rose society says a rose survives pruning unless cut below the ground line. Move RHS-REN (take care not to cut below the scion, general shrubs) and PSU (winter graft damage) out as not about a pruning cut losing a rose. SARS is about roots, not the graft.",
+    "level_now": "Low",
+    "level_was": "Moderate",
+    "why": "only PRS supports the claim for roses; others support part or different points"
+   },
+   {
+    "research": "HARDPRUNE",
+    "finding": "AF-11",
+    "was": "Weak rose pruned less hard; RHS-MB and LO say weak shoots cut back further",
+    "correction": "Keep both directions; record that nothing given says weak shoots are removed. State that the first is about the whole rose and the second about shoots within it, as the RHS page and the LO page (partly) say.",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "RHS and LO pages support only the opposite shoot-level part"
+   },
+   {
+    "research": "HARDPRUNE",
+    "finding": "AF-10",
+    "was": "Half to two-thirds of Hybrid Tea and Floribunda growth or height at winter pruning",
+    "correction": "Show the range the finding's own sources give: a third to two-thirds (NYBG, MATT at least a third or up to half), half to two-thirds most usually; note ABC Gardening Australia speaks of roses in general, not Hybrid Teas and Floribundas.",
+    "level_now": "High",
+    "level_was": "High",
+    "why": "range among sources; one page broader than the finding"
+   },
+   {
+    "research": "HARDPRUNE",
+    "finding": "AF-5",
+    "was": "Terms defined differently (LO, NYBG, ILL, YAT-AU, SARS)",
+    "correction": "Record explicitly that a third is 'light' (LO, YAT-AU) but 'moderate' (NYBG); Illinois page does not use 'usually'.",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "recorded disagreement on one term; wording 'usually' unconfirmed"
+   },
+   {
+    "research": "HARDPRUNE",
+    "finding": "AF-4",
+    "was": "Harm from over-pruning is temporary",
+    "correction": "Reword to 'usually a short-term setback' (DA-SR 'rarely anything more than').",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "wording stronger than DA-SR"
+   },
+   {
+    "research": "HARDPRUNE",
+    "finding": "AF-22",
+    "was": "One go versus staged renovation (RHS-REN, CBG, UCF, RNRS, LO)",
+    "correction": "Keep; note the RHS-REN rule for choosing is for general shrubs, so 'no rose-specific rule' is the accurate wording. The RHS page supports only its own part.",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "RHS partly; general shrubs"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-18",
+    "was": "Over-opening a congested centre risks sunscald, plus a general one-third rule",
+    "correction": "Split into two findings: (a) sunscald in hot summer areas, UC Master Gardeners San Luis Obispo only ('leave some interior growth to shade the graft'); (b) NC State only, 'not remove more than a third of the total crown of a plant in any one year'. Neither page supports the other half; delete 'sources recommend' and the single-pass wording.",
+    "level_now": "Low",
+    "level_was": "Moderate",
+    "why": "two single pages, each supporting only half"
+   }
+  ],
+  "judgement_view": "none",
+  "package_notes": [
+   "PKR-CGD-000003 and 000007 give different figures for how much is removed (item 4 half to two-thirds vs published batch 1 framework shortening about a third to a half); show the range in both.",
+   "Statements in 000007 name kinds of source and countries (items 0, 3, 5); the rules say keep sources under the answer.",
+   "Precautions (items 1, 2 of 000007; item 1 of 000003) are not marked as precautions in the 'kind' field.",
+   "000003 items 0 and 2 rest on research not given here; confirm the reasons ('stress ... stored energy ... flush of regrowth') exist in it, or remove them."
+  ]
+ },
+ "corrections_adopted": [
+  {
+   "research": "BASICCARE",
+   "finding": "F10",
+   "was": "Collar and wrap methods",
+   "correction": "Tar paper or wire collar is from UNH only; Penn State gives burlap-wrapped straw only.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "collar rests on one page; keep wording to what each shows"
+  },
+  {
+   "research": "BASICCARE",
+   "finding": "F11",
+   "was": "Water after first hard frost; clear leaves",
+   "correction": "'After the first hard frost' rests on Penn State; Nebraska says continue watering until the ground freezes (8–12 in, every 2–3 weeks).",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "timing differs between pages"
+  },
+  {
+   "research": "BASICCARE",
+   "finding": "F12",
+   "was": "General non-diagnostic signs to notice",
+   "correction": "Regular inspection of leaves, buds and stems and early detection only (Maryland); the list of specific signs is not on the returned text.",
+   "level_was": "Moderate",
+   "level_now": "Low",
+   "why": "one source, partly supports; list unsupported"
+  },
+  {
+   "research": "BASICCARE",
+   "finding": "F13",
+   "was": "Ordinary conditions most common cause; inconsistent watering",
+   "correction": "One page says poor growing conditions, incorrect care, weather extremes and soggy soil are the major cause of plant decline. Remove 'inconsistent watering' and 'rather than pests'.",
+   "level_was": "Low–Moderate",
+   "level_now": "Low",
+   "why": "single page; wording goes past it"
+  },
+  {
+   "research": "BASICCARE",
+   "finding": "F2",
+   "was": "Deep, infrequent; 1–2 in per week; closer attention first two years",
+   "correction": "Deep, less frequent watering; amounts differ: about 1 in (Illinois), 1–2 in (Cornell), 5–10 litres per plant in dry spells (RHS), a thorough soak every 7–10 days (Iowa). Newly planted roses need regular watering; drop 'first two years' (not on the pages).",
+   "level_was": "High",
+   "level_now": "Moderate",
+   "why": "amount rests on two pages; two-year point unsupported"
+  },
+  {
+   "research": "BASICCARE",
+   "finding": "F3",
+   "was": "2–3 in organic mulch in growing season",
+   "correction": "Depth 2 to 4 in (RHS at least 2, Cornell 2, Missouri and Illinois 2–3, Iowa 2–4); keep clear 4–6 in (RHS, Missouri). RHS applies Nov–Feb. Materials vary: manure not on Iowa page.",
+   "level_was": "High",
+   "level_now": "High",
+   "why": "depth is a range, not 2–3"
+  },
+  {
+   "research": "BASICCARE",
+   "finding": "F4",
+   "was": "Start spring, stop mid-to-late summer",
+   "correction": "Drop UGA as support for the stop date (it lists September feeding, names a brand, gives no stop). Keep Illinois and Penn State; record the cutoff as varying by region.",
+   "level_was": "High (pattern)",
+   "level_now": "Moderate",
+   "why": "only two pages confirm fully; UGA differs"
+  },
+  {
+   "research": "BASICCARE",
+   "finding": "F7",
+   "was": "Leave foliage in first season; energy to root",
+   "correction": "Practice is supported by Cornell, Missouri and Fine Gardening; the 'past year' and root-energy reason rest on Cornell and Fine Gardening (general-interest).",
+   "level_was": "High",
+   "level_now": "Moderate",
+   "why": "two of three pages only partly support"
+  },
+  {
+   "research": "BASICCARE",
+   "finding": "F9",
+   "was": "Mound 10–12 in after several hard frosts; graft union; spring removal",
+   "correction": "Height 10–12 in on Illinois, UNH, Missouri; UGA says 12–18 in after the second hard frost (record as a difference). Graft union is not on Illinois or Missouri pages; spring removal is not on Illinois or UNH pages; Illinois says one killing frost.",
+   "level_was": "Very High",
+   "level_now": "High",
+   "why": "four of six pages partial; height differs"
+  },
+  {
+   "research": "HARDPRUNE",
+   "finding": "AF-1",
+   "was": "Orange County Rose Society cited as support",
+   "correction": "Drop OCRS from the support for 'pruning does not kill'. It says the bush is tough but not that pruning, even hard, does not kill.",
+   "level_now": "High",
+   "level_was": "High",
+   "why": "page supports only partly; other pages carry it"
+  },
+  {
+   "research": "HARDPRUNE",
+   "finding": "AF-10",
+   "was": "Half to two-thirds of Hybrid Tea and Floribunda growth or height at winter pruning",
+   "correction": "Show the range the finding's own sources give: a third to two-thirds (NYBG, MATT at least a third or up to half), half to two-thirds most usually; note ABC Gardening Australia speaks of roses in general, not Hybrid Teas and Floribundas.",
+   "level_now": "High",
+   "level_was": "High",
+   "why": "range among sources; one page broader than the finding"
+  },
+  {
+   "research": "HARDPRUNE",
+   "finding": "AF-11",
+   "was": "Weak rose pruned less hard; RHS-MB and LO say weak shoots cut back further",
+   "correction": "Keep both directions; record that nothing given says weak shoots are removed. State that the first is about the whole rose and the second about shoots within it, as the RHS page and the LO page (partly) say.",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "RHS and LO pages support only the opposite shoot-level part"
+  },
+  {
+   "research": "HARDPRUNE",
+   "finding": "AF-14",
+   "was": "Cutting below the graft or ground line can lose the rose (PRS, RHS-REN, PSU, SARS)",
+   "correction": "Reword: one rose society says a rose survives pruning unless cut below the ground line. Move RHS-REN (take care not to cut below the scion, general shrubs) and PSU (winter graft damage) out as not about a pruning cut losing a rose. SARS is about roots, not the graft.",
+   "level_now": "Low",
+   "level_was": "Moderate",
+   "why": "only PRS supports the claim for roses; others support part or different points"
+  },
+  {
+   "research": "HARDPRUNE",
+   "finding": "AF-2",
+   "was": "Several sources attach conditions (CBG, PRS, SARS, RHS-REN)",
+   "correction": "Record each condition as one source: CBG healthy rose; PRS not cut below the ground line; SARS regrowth after dieback to the stump depends on roots being 'somewhat in tact'. Drop RHS-REN (general shrubs, not the pruning-does-not-kill claim).",
+   "level_now": "Low",
+   "level_was": "Moderate",
+   "why": "each condition has one page behind it"
+  },
+  {
+   "research": "HARDPRUNE",
+   "finding": "AF-22",
+   "was": "One go versus staged renovation (RHS-REN, CBG, UCF, RNRS, LO)",
+   "correction": "Keep; note the RHS-REN rule for choosing is for general shrubs, so 'no rose-specific rule' is the accurate wording. The RHS page supports only its own part.",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "RHS partly; general shrubs"
+  },
+  {
+   "research": "HARDPRUNE",
+   "finding": "AF-4",
+   "was": "Harm from over-pruning is temporary",
+   "correction": "Reword to 'usually a short-term setback' (DA-SR 'rarely anything more than').",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "wording stronger than DA-SR"
+  },
+  {
+   "research": "HARDPRUNE",
+   "finding": "AF-5",
+   "was": "Terms defined differently (LO, NYBG, ILL, YAT-AU, SARS)",
+   "correction": "Record explicitly that a third is 'light' (LO, YAT-AU) but 'moderate' (NYBG); Illinois page does not use 'usually'.",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "recorded disagreement on one term; wording 'usually' unconfirmed"
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-1",
+   "was": "Cites RHS-BLIND, CSU, Ask Ext, NZRS-FAQ, KINGS as support that shade reduces flowering",
+   "correction": "Rest on TRE-SH, ARS-RRP, DA-BAS, YAT-NZ, YAT-AU, UMD, CLEM. RHS links shade only to blind shoots; CSU, Ask Ext, NZRS, Kings say roses need sun, not that shade cuts flowers.",
+   "level_was": "High",
+   "level_now": "High",
+   "why": "Five cited pages confirm only part (7 pages confirm fully)."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-11",
+   "was": "Improper pruning as cause, incl. Illinois and OSU",
+   "correction": "Confirmed by Ask Ext, UMD, Tui. Drop Illinois (describes how hard to prune, not a cause). OSU says weakening, not poor flowering.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Illinois supports: no; OSU partial."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-12",
+   "was": "Harder pruning gives fewer, larger flowers; lighter gives more, smaller (OSU, UCIPM, UGA)",
+   "correction": "Drop UGA (variety vigour only). Harder half rests on OSU; lighter half on UCIPM.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "UGA does not state it; each half on one page."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-14",
+   "was": "Cites DA-FAQ and CLEM as support",
+   "correction": "Drop DA-FAQ (flowers on older growth, nothing on pruning) and CLEM (climbers, severe cutting) as support for pruning before flowering removes flowers. Keep ILL-PRUNE, AE-UVM, Ask Ext.",
+   "level_was": "High",
+   "level_now": "High",
+   "why": "Two pages partial; three confirm."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-24",
+   "was": "Cut-back of blind shoots as one Moderate finding with a differing cut point",
+   "correction": "Record as a disagreement on where to cut: RHS (half to a strong bud), VSRG (next lower stipule), Tantau (next fully formed five-leaf), each on one page. The cut-back itself is agreed. Short blind shoot on old wood removed entirely is VSRG alone. Tantau (a breeder) is not shown: a single company that disagrees with a recognised body (a Founder direction, 8 October 2026). The disagreement shown is RHS against the public rose garden.",
+   "level_was": "Moderate",
+   "level_now": "Sources disagree (cut point); one source (removal)",
+   "why": "Disagreement; each cut on one page."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-25",
+   "was": "Balling cause, signs and susceptibility as one Moderate finding",
+   "correction": "Buds not opening with brown petals: RHS and Treloar. Cool, wet weather cause, papery shell and softness: RHS pages only (Treloar silent on weather); 'feels soft' not among confirmed words. Record those as one source.",
+   "level_was": "Moderate",
+   "level_now": "Moderate (existence); one source (cause, signs)",
+   "why": "Treloar supports only part; RHS two pages are one source."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-26",
+   "was": "Remove buds, improve air flow, avoid overhead water as agreed",
+   "correction": "RHS confirms prompt removal of balled buds only. Air flow and no overhead watering are Treloar (botrytis) only. Record C-7 (RHS: no chemical treatments for balling; Treloar fungicide for botrytis).",
+   "level_was": "Moderate",
+   "level_now": "Moderate (removal); one source (air flow, watering)",
+   "why": "RHS page lacks Treloar advice."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-27",
+   "was": "RHS-BALL cited for botrytis symptoms",
+   "correction": "RHS says grey mould can follow balling; it does not describe spotted petals. Symptoms and cool, wet weather rest on UW (UC Davis) and Treloar.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "RHS quote is about removing buds."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-28",
+   "was": "CSU cited with thrips petal streaking",
+   "correction": "CSU only names thrips as a possible cause. Streaking and distortion rest on UCIPM, UMD, UGA, UW.",
+   "level_was": "High",
+   "level_now": "High",
+   "why": "CSU page partial."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-3",
+   "was": "Competition for light, water and nutrients as agreed",
+   "correction": "Roots compete for water and nutrients (ARS, ILL, OKS, NMSU, YAT-NZ). Competition for light is YAT-NZ only; record as one source.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Light is on one page."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-31",
+   "was": "Black spot weakens the rose and it produces fewer flowers",
+   "correction": "Fewer flowers is stated by OKS-BS ('repeated severe defoliation') and, in part, CSU (inadequate foliage). UMD and UAEX say foliage loss and weakening only. Add the condition: repeated severe leaf loss.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Flowering link on one page plus one partial."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-6",
+   "was": "Too little feeding as cause, from RHS, NMSU, RSNSW and others",
+   "correction": "Cause confirmed by CSU, Kings, Yates AU only. RHS gives feeding as a control for blind shoots; NMSU and RSNSW say feed regularly without linking it to flowering. Drop them as support for the cause.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Three pages partial; three confirm."
+  },
+  {
+   "research": "NOFLOWERS",
+   "finding": "AF-8",
+   "was": "Too little water reduces flowering, from CSU, UCIPM, NMSU, Clemson, Marin",
+   "correction": "Reduced flowering confirmed by Marin (small blooms) and Clemson (general plants) only. CSU gives a water amount; UCIPM links drought to leaf loss and cane sunburn; NMSU gives pale limp leaves as a sign and says afternoon heat can look similar. Add that limitation.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Three of five pages do not state flowering loss; one source is general, not rose."
+  },
+  {
+   "research": "POSTBUDBREAK",
+   "finding": "AF-16",
+   "was": "Two sources exempt diseased wood; no source says whether dead wood is exempt.",
+   "correction": "Reword \"exempt\" to what the pages say: NYBG-FAQ says diseased growth can be cut back at any time including the fall; ISU-S lists pruning out obviously diseased canes in its fall section. Remove or qualify the last sentence: AF-1 sources (CBG, PTC, RHS-DB) say dead wood can be removed at any time, so the gap claim is overstated.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "'Exempt' is an inference; the gap line conflicts with AF-1"
+  },
+  {
+   "research": "POSTBUDBREAK",
+   "finding": "AF-19",
+   "was": "Sources outside the dormant session give the same cut-to-healthy-tissue rule; none gives a different one.",
+   "correction": "Reword: sources on removal outside dormancy say cut back to healthy wood, with white pith (MRS, RHS-PG, ARS) or white to cream (VT-BOT); for borers AZ1528 says cut an inch or two at a time until the hole is gone. Remove \"none gives a different rule\" or mark it as not found: RHS, AZ and ARS pages do not speak of the growing season.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "three of five pages support only part; absence claim is not a source statement"
+  },
+  {
+   "research": "POSTBUDBREAK",
+   "finding": "AF-3",
+   "was": "Heavy pruning after leaf-out described as having a cost; AEX-615970 quoted as support.",
+   "correction": "Split it: OSU-LATE says heavy pruning now may reduce flowering and plant size; DA-APR (commercial) says it might delay flowering a little; AEX-615970 (Maryland extension) says pruning is fine until a couple of inches of new growth, so it does not support a cost. Record this as a disagreement (C-1) with AEX as the dissent, not as a supporter.",
+   "level_was": "Moderate",
+   "level_now": "Moderate (disagreement recorded; Founder to confirm, see judgement_view)",
+   "why": "AEX page says pruning is fine now; only OSU and one commercial page state a cost"
+  },
+  {
+   "research": "POSTBUDBREAK",
+   "finding": "AF-4",
+   "was": "Many guides place dead/damaged/diseased removal first and major pruning at or near bud break.",
+   "correction": "Reword to what the pages show: dead and damaged wood is removed first in the spring session (RHS, UMD, Purdue, ISU); major pruning is placed at or near bud break (TAMU-EP, NYBG-LG, OSU). Drop Illinois, Dunedin and Georgia from the first-step and bud-break lists (they say other things: spring pruning generally, late July, mid Feb to early March). Keep the line that none says whether such wood may be removed later.",
+   "level_was": "High",
+   "level_now": "High",
+   "why": "most pages support only one half of the finding"
+  },
+  {
+   "research": "POSTBUDBREAK",
+   "finding": "AF-8",
+   "was": "Diseased or infected wood removed promptly or at any time: NYBG, AEX, RHS-DB.",
+   "correction": "Drop RHS-DB as a source for diseased wood: its sentence is about dead and damaged wood and the page gives no removal advice for diseased wood. Two sources remain (NYBG-FAQ, AEX-236546).",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "RHS page does not mention diseased wood"
+  },
+  {
+   "research": "POSTBUDBREAK",
+   "finding": "C-1",
+   "was": "Sources differ on pruning after leaf-out",
+   "correction": "Shown leading with the better-supported view (full pruning now is likely to reduce or delay flowering: OSU, David Austin, general guides placing major pruning at bud break) and naming the Maryland extension answer (fine until a couple of inches of new growth) as one source.",
+   "level_was": "—",
+   "level_now": "Moderate (the leading view)",
+   "why": "Founder direction of 16 October 2026; batch 1 ruling on naming one dissenting source."
+  },
+  {
+   "research": "POSTBUDBREAK",
+   "finding": "C-3",
+   "was": "UCIPM: remove infected canes in dry weather in the dormant season (Low)",
+   "correction": "Kept on record and not shown: one source at Low, beside better-supported advice to remove diseased wood promptly or at any time (Founder direction of 16 October 2026).",
+   "level_was": "Low",
+   "level_now": "Low",
+   "why": "Single source, not a precaution."
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-22",
+   "was": "Minority half-inch figure with Texas A&M reasoning (bud dies if too close, wood dies back if too far)",
+   "correction": "Sources that give a distance most often say about one-quarter inch (about 6 mm) above the bud. Drop the half-inch figure and the tradeoff reasoning, or restore only after a Texas A&M page confirming them is checked.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "No checked page says half inch or the reasoning"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-24",
+   "was": "Slant most often away from the bud",
+   "correction": "Record the dissent in the finding: Ludwig's (square 90 degrees) and Rose Society of South Australia (angle unnecessary) are carried only in C11.",
+   "level_was": "Low",
+   "level_now": "Low",
+   "why": "Dissent affects whether it can be stated flatly"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-26",
+   "was": "Pruners to about 3/4 inch; general text 1/2 inch",
+   "correction": "If ever used, show as a range (1/2 to 3/4 inch). Stays Low and unused.",
+   "level_was": "Low",
+   "level_now": "Low",
+   "why": "Two figures; rule 3"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-28",
+   "was": "Disinfect between plants or after diseased wood",
+   "correction": "Add limit: no page gives alcohol or wiping except Clemson ('periodically', 70 percent); Texas A&M is for diseased plants, general woody plants. Alcohol strength stays out of Pip.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Method details are single-source"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-30",
+   "was": "Sealing advised by some, contested",
+   "correction": "Keep as Low. Record that UGA says 'Sealing is not crucial' and that the pencil-thickness threshold rests on Clemson (South Carolina, 'may not apply to other areas') only; no page says thinner cuts need no sealing.",
+   "level_was": "Low",
+   "level_now": "Low",
+   "why": "Threshold single-source; 'thinner needs none' unsupported"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-35",
+   "was": "Rose sources seal for cane borers; not contradicted by wound-dressing research",
+   "correction": "Where rose sources recommend sealing larger cut ends, the reason given is to keep cane-boring insects out (ARS and Arizona support). Drop CSU PlantTalk (wasps called harmless) and Texas A&M El Paso (reason cut off) as support for the borer reason.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Two of four rose pages do not confirm the borer reason"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-38",
+   "was": "Rose Society of South Australia on cut angle (Not assigned)",
+   "correction": "Named in the cut-angle line as one rose society that says not to worry about the angle; Ludwig's Roses (a nursery) is not shown.",
+   "level_was": "Not assigned",
+   "level_now": "Not assigned (shown as one source)",
+   "why": "Rule 2: name who disagrees."
+  },
+  {
+   "research": "ROSETYPE",
+   "finding": "AF-17",
+   "was": "NZ retailers use 'bush' for patio, shrub-category and groundcover roses",
+   "correction": "Reword to: a New Zealand nursery (Wairere) calls a shrub rose a 'bush'; Tesselaar (AU/NZ) calls its groundcover roses a 'bush'. Drop patio. Drop Yates and Tui as support (they show 'bush' used for a growth-habit group and 'standard and bush', not other types).",
+   "level_was": "Moderate",
+   "level_now": "Low",
+   "why": "No page supports patio; two of five pages 'no'; others each show one sense"
+  },
+  {
+   "research": "ROSETYPE",
+   "finding": "AF-24",
+   "was": "Sources point to a rose society, rosarian or second opinion",
+   "correction": "Say 'a rose society or an experienced rose grower'. NZ Rose Society page supports the rose society part only.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "One source mentions only a local rose society"
+  },
+  {
+   "research": "ROSETYPE",
+   "finding": "AF-4",
+   "was": "Grandiflora in US and some NZ consumer sources but not in NZ Rose Society list or two NZ nurseries' lists",
+   "correction": "Keep, but drop the Rose Society of NSW (Australian) as support for the NZ-absence part; US pages support the 'appears' half only. State the absence from the NZ Rose Society list and Matthews as the confirmed part.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Australian list is not an NZ source; Plant Store has no wording"
+  },
+  {
+   "research": "ROSETYPE",
+   "finding": "AF-L30",
+   "was": "Kings 'Bush Rose Ht' titles are Hybrid Teas, 'Fl' are Floribunda, in every case checked",
+   "correction": "Record only that Kings titles carry 'Ht'/'Fl'; no checked page states what the letters mean. The mapping came from matching names across other shops, which is an inference. Not available to Pip.",
+   "level_was": "Moderate",
+   "level_now": "Very Low (kept on record, not used)",
+   "why": "All seven pages 'supports: no'"
+  },
+  {
+   "research": "ROSETYPE",
+   "finding": "AF-L31",
+   "was": "Palmers uses Ht and Fl in titles; one Ht title is on a rose its page calls a Floribunda",
+   "correction": "Keep as: at Palmers, 'Fordell Ht' is described on its own page as a Floribunda, and 'My Daughter Bush Fl' as Floribunda. Drop the Matthews page as support for Palmers' labelling. Single retailer, so say one source.",
+   "level_was": "Moderate",
+   "level_now": "Low (local, one source)",
+   "why": "Palmers pages support it; Matthews page says nothing of Palmers; one retailer only"
+  }
+ ]
+}

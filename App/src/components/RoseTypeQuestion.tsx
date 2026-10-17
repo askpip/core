@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button } from '@/components/Button'
 import { ROSE_TYPE_GATE } from '@/data/pkr'
+import { StatementTag } from '@/components/PkrStatements'
 import type { SavedRoseType } from '@/lib/types'
 
 interface RoseTypeQuestionProps {
@@ -63,6 +64,7 @@ export function RoseTypeQuestion({ onAnswer, onSkip, disabled }: RoseTypeQuestio
       {ROSE_TYPE_GATE.labelAbbreviations && (
         <p className="rounded-xl border border-pip-border bg-pip-bg px-3.5 py-2.5 text-sm text-pip-text-soft">
           {ROSE_TYPE_GATE.labelAbbreviations.text}
+          <StatementTag statement={ROSE_TYPE_GATE.labelAbbreviations} />
         </p>
       )}
       {ROSE_TYPE_GATE.answers.map((a) => (
