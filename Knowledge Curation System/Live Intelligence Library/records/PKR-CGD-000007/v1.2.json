@@ -1,0 +1,99 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000007",
+  "version": "1.2",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Can pruning too hard kill or harm my rose?",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000006",
+      "PKR-SRC-000034",
+      "PKR-SRC-000059",
+      "PKR-SRC-000068",
+      "PKR-SRC-000091",
+      "PKR-SRC-000095",
+      "PKR-SRC-000097",
+      "PKR-SRC-000100",
+      "PKR-SRC-000101",
+      "PKR-SRC-000110",
+      "PKR-SRC-000119",
+      "PKR-SRC-000121",
+      "PKR-SRC-000135",
+      "PKR-SRC-000190",
+      "PKR-SRC-000191",
+      "PKR-SRC-000194",
+      "PKR-SRC-000195",
+      "PKR-SRC-000197",
+      "PKR-SRC-000199",
+      "PKR-SRC-000200",
+      "PKR-SRC-000201",
+      "PKR-SRC-000203"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-CGD-000003"
+      },
+      {
+        "relationship": "related",
+        "pkr_id": "PKR-SGT-000001"
+      }
+    ],
+    "preserved_uncertainty": "The view that pruning does not kill a rose is expert opinion, not measured (AF-1). One commercial website disagrees, saying cutting back too far \"could stress it out or even kill it\" (AF-20, Very Low; C-1). Sources disagree on whether \"weak\" means the whole plant or a single shoot (C-2), and on renovating in one go or in stages (C-4). Newly planted roses are outside this record.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Can pruning too hard kill or harm my rose?",
+    "label": null,
+    "items": [
+      {
+        "text": "Pruning, even hard or badly done, doesn't kill an established rose that is otherwise healthy.",
+        "confidence": "High"
+      },
+      {
+        "text": "One source says a rose will survive pruning unless it is cut below the ground line.",
+        "confidence": "Low",
+        "kind": "precaution"
+      },
+      {
+        "text": "A weak or slow-growing rose is pruned less hard than a vigorous one. Within a bush, weak shoots are cut back further.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Pruning before the frosts have passed risks frost damage to the new growth and dieback.",
+        "confidence": "High"
+      },
+      {
+        "text": "Harm from pruning too hard is usually only a short-term setback. One source says the first year after a hard pruning is a recovery year for growth.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "An old or neglected rose can be brought back with hard pruning.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and I couldn't find a rule for roses on which to choose.",
+        "confidence": "Approved default"
+      },
+      {
+        "text": "I couldn't find signs, or a waiting time, for judging whether a hard-pruned rose is recovering. If no new growth appears during the growing season, ask your local rose society.",
+        "confidence": "Approved default"
+      }
+    ],
+    "presentation": {
+      "common_question": true,
+      "journey_step": false
+    }
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.2: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.1 retired."
+  }
+}

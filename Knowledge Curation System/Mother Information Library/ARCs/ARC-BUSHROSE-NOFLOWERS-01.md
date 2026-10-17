@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-NOFLOWERS-01** |
 | ARC Title | Why an Established Bush Rose Is Not Flowering, or Flowering Poorly |
-| Version | 1.0 |
+| Version | 1.1 |
 | Approval Status | **Approved** |
 | Approval Date | 2 October 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan: Shed Review Form finished 1 October 2026; further-research defaults confirmed in chat, 2 October 2026) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-NOFLOWERS-01` §8 (all 34 Assessed Findings), reproduced at §4A |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | `ARC-BUSHROSE-BASICCARE-01` (F4 feeding pattern, F5 deadheading, F12, F13). `ARC-BUSHROSE-PRUNINGFRAMEWORK-01` (AF-34, AF-41; once-flowering roses pruned after flowering). `ARC-BUSHROSE-SUCKERS-01` (rootstock flowers). `ARC-BUSHROSE-ROSETYPE-01`. |
-| Revision History | v1.0 — 2 October 2026 — initial creation from `FRD-BUSHROSE-NOFLOWERS-01`, Founder-approved for AF-1 to AF-34 as a whole, with a Source Register (§8) under ROC Operations Manual §12.6. |
+| Revision History | v1.1 — 18 October 2026 — Build Check Corrections added (older-answers check, batch 3). v1.0 — 2 October 2026 — initial creation from `FRD-BUSHROSE-NOFLOWERS-01`, Founder-approved for AF-1 to AF-34 as a whole, with a Source Register (§8) under ROC Operations Manual §12.6. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS) v1.3; ROC Operations Manual v2.9 |
 
@@ -342,6 +342,30 @@ Under ROC Operations Manual §12.6. 50 entries, from `Working/AI Outputs/Source_
 | GA-LAR | ABC Gardening Australia (Sophie Thomson), "Looking After Roses", 3 July 2010. Opened; no content on poor flowering. Accessed 1 Oct 2026. | <https://www.abc.net.au/gardening/how-to/looking-after-roses/9431348> | Opened, not relied on | — |  |
 | GA-FAQ | ABC Gardening Australia (Jerry Coleby-Williams), "FAQs" (roses for the subtropics), 13 November 2020. Opened; addresses variety choice for the subtropics, not poor flowering. Accessed 1 Oct 2026. | <https://www.abc.net.au/gardening/how-to/faqs-no-fruit-on-citrus-roses-for-subtropics-parsnip-prob/12882508> | Opened, not relied on | — |  |
 | MATT | Matthews Nurseries, "Advice". Opened; deadheading statement returned by one extraction only and not re-checked. Accessed 1 Oct 2026. | <https://www.matthewsroses.co.nz/advice/> | Opened, not relied on | — |  |
+
+---
+
+## Build Check Corrections (18 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 3, every source page was reopened with WebFetch and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md` (§3) and approved by a Founder in chat on 18 October 2026, as §14.4 requires for an approved ARC. Where they differ from the findings above, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH3_sources_2026-10-18.json` (and, for the main-framework research, `Build_Check_OLDER-BATCH2_sources_2026-10-17.json`) and `Build_Check_OLDER-BATCH3_statements_v0.1_2026-10-18.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-1 | Cites RHS-BLIND, CSU, Ask Ext, NZRS-FAQ, KINGS as support that shade reduces flowering | Rest on TRE-SH, ARS-RRP, DA-BAS, YAT-NZ, YAT-AU, UMD, CLEM. RHS links shade only to blind shoots; CSU, Ask Ext, NZRS, Kings say roses need sun, not that shade cuts flowers. | High → High | Five cited pages confirm only part (7 pages confirm fully). |
+| AF-11 | Improper pruning as cause, incl. Illinois and OSU | Confirmed by Ask Ext, UMD, Tui. Drop Illinois (describes how hard to prune, not a cause). OSU says weakening, not poor flowering. | Moderate → Moderate | Illinois supports: no; OSU partial. |
+| AF-12 | Harder pruning gives fewer, larger flowers; lighter gives more, smaller (OSU, UCIPM, UGA) | Drop UGA (variety vigour only). Harder half rests on OSU; lighter half on UCIPM. | Moderate → Moderate | UGA does not state it; each half on one page. |
+| AF-14 | Cites DA-FAQ and CLEM as support | Drop DA-FAQ (flowers on older growth, nothing on pruning) and CLEM (climbers, severe cutting) as support for pruning before flowering removes flowers. Keep ILL-PRUNE, AE-UVM, Ask Ext. | High → High | Two pages partial; three confirm. |
+| AF-24 | Cut-back of blind shoots as one Moderate finding with a differing cut point | Record as a disagreement on where to cut: RHS (half to a strong bud), VSRG (next lower stipule), Tantau (next fully formed five-leaf), each on one page. The cut-back itself is agreed. Short blind shoot on old wood removed entirely is VSRG alone. Tantau (a breeder) is not shown: a single company that disagrees with a recognised body (a Founder direction, 8 October 2026). The disagreement shown is RHS against the public rose garden. | Moderate → Sources disagree (cut point); one source (removal) | Disagreement; each cut on one page. |
+| AF-25 | Balling cause, signs and susceptibility as one Moderate finding | Buds not opening with brown petals: RHS and Treloar. Cool, wet weather cause, papery shell and softness: RHS pages only (Treloar silent on weather); 'feels soft' not among confirmed words. Record those as one source. | Moderate → Moderate (existence); one source (cause, signs) | Treloar supports only part; RHS two pages are one source. |
+| AF-26 | Remove buds, improve air flow, avoid overhead water as agreed | RHS confirms prompt removal of balled buds only. Air flow and no overhead watering are Treloar (botrytis) only. Record C-7 (RHS: no chemical treatments for balling; Treloar fungicide for botrytis). | Moderate → Moderate (removal); one source (air flow, watering) | RHS page lacks Treloar advice. |
+| AF-27 | RHS-BALL cited for botrytis symptoms | RHS says grey mould can follow balling; it does not describe spotted petals. Symptoms and cool, wet weather rest on UW (UC Davis) and Treloar. | Moderate → Moderate | RHS quote is about removing buds. |
+| AF-28 | CSU cited with thrips petal streaking | CSU only names thrips as a possible cause. Streaking and distortion rest on UCIPM, UMD, UGA, UW. | High → High | CSU page partial. |
+| AF-3 | Competition for light, water and nutrients as agreed | Roots compete for water and nutrients (ARS, ILL, OKS, NMSU, YAT-NZ). Competition for light is YAT-NZ only; record as one source. | Moderate → Moderate | Light is on one page. |
+| AF-31 | Black spot weakens the rose and it produces fewer flowers | Fewer flowers is stated by OKS-BS ('repeated severe defoliation') and, in part, CSU (inadequate foliage). UMD and UAEX say foliage loss and weakening only. Add the condition: repeated severe leaf loss. | Moderate → Moderate | Flowering link on one page plus one partial. |
+| AF-6 | Too little feeding as cause, from RHS, NMSU, RSNSW and others | Cause confirmed by CSU, Kings, Yates AU only. RHS gives feeding as a control for blind shoots; NMSU and RSNSW say feed regularly without linking it to flowering. Drop them as support for the cause. | Moderate → Moderate | Three pages partial; three confirm. |
+| AF-8 | Too little water reduces flowering, from CSU, UCIPM, NMSU, Clemson, Marin | Reduced flowering confirmed by Marin (small blooms) and Clemson (general plants) only. CSU gives a water amount; UCIPM links drought to leaf loss and cane sunburn; NMSU gives pale limp leaves as a sign and says afternoon heat can look similar. Add that limitation. | Moderate → Moderate | Three of five pages do not state flowering loss; one source is general, not rose. |
+
+**Effect on Pip's answers.** PKR-CGD-000008 v1.2, PKR-OBS-000008 v1.1 and PKR-DEC-000008 v1.1: the blind-shoot cut shown as "Sources disagree" (RHS against the public rose garden; the breeder not shown, by a Founder's direction of 8 October 2026); one-page details shown as one source; "leave it to flower" removed.
 
 ---
 

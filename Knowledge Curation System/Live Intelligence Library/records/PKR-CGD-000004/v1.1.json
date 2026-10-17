@@ -1,0 +1,58 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000004",
+  "version": "1.1",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Growing-season care for a Hybrid Tea, Floribunda or Grandiflora rose",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose (a rose that has passed PKR-SGT-000003); general care outside pruning",
+    "supporting_sources": [
+      "PKR-SRC-000111",
+      "PKR-SRC-000130",
+      "PKR-SRC-000131",
+      "PKR-SRC-000132",
+      "PKR-SRC-000133",
+      "PKR-SRC-000135",
+      "PKR-SRC-000136",
+      "PKR-SRC-000137"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Feeding and deadheading: when to stop depends on the region, and no single date is given (F4, F5). Watering amounts and mulch depth vary between sources and are given as ranges (F2, F3). This record doesn't diagnose anything (F6); the single-source warning-sign and growing-conditions lines were removed at the Build Check (F12, F13, 18 October 2026). Region: sources are UK and US.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Growing-season care",
+    "label": null,
+    "items": [
+      {
+        "text": "Water deeply and less often, rather than a little and often. In the growing season, roughly 1–2 inches (about 2.5–5 cm) of water a week, counting rain, is a common guide when it's dry.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Spread organic mulch about 2–4 inches (5–10 cm) deep around the base — bark, well-rotted manure, wood chips or pine needles — kept a few inches clear of the stems.",
+        "confidence": "High"
+      },
+      {
+        "text": "Start feeding in spring as new growth begins and feed again through summer. Stop by mid-to-late summer so new growth can toughen before winter; the last feeding date varies by region.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Remove faded flowers through the growing season to encourage more. Stop in early-to-mid autumn, so the rose can form hips (the round seed pods) and slow down for winter.",
+        "confidence": "High"
+      },
+      {
+        "text": "Watch for blackspot, powdery mildew, aphids and spider mites. Water at the base, or in the morning if you water from above, to keep the leaves drier.",
+        "confidence": "High"
+      }
+    ],
+    "disclosure": "This care advice comes mainly from UK and US gardening services. Timings and amounts may differ where you live."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+  }
+}

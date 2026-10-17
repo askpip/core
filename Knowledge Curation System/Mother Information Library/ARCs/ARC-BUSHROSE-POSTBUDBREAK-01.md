@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-POSTBUDBREAK-01** |
 | ARC Title | Removing Dead, Damaged or Diseased Wood After Bud Break on an Established Bush Rose |
-| Version | 1.0 |
+| Version | 1.1 |
 | Approval Status | **Approved** |
 | Approval Date | 29 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan, in chat, 29 September 2026) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-POSTBUDBREAK-01` §8 (all 20 Assessed Findings), reproduced at §4A |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | `ARC-BUSHROSE-DORMANCY-01` (AF-1 bud-swell window; PKR-SGT-000001). `ARC-BUSHROSE-DAMAGEDGROWTH-01` (AF-11 pith check; AF-13 canker/borer steps; AF-14 and §5 C-2 frost-damage timing; PKR-DEC-000004). `ARC-BUSHROSE-DEADWOOD-01` (AF-7, AF-8; PKR-DEC-000001). `ARC-BUSHROSE-RECENTPLANT-01` (AF-1 dead-wood exemption). |
-| Revision History | v1.0 — 29 September 2026 — initial creation from `FRD-BUSHROSE-POSTBUDBREAK-01`, Founder-approved for AF-1 to AF-20 as a whole, with a Source Register (§8) under ROC Operations Manual §12.6. |
+| Revision History | v1.1 — 18 October 2026 — Build Check Corrections added (older-answers check, batch 3). v1.0 — 29 September 2026 — initial creation from `FRD-BUSHROSE-POSTBUDBREAK-01`, Founder-approved for AF-1 to AF-20 as a whole, with a Source Register (§8) under ROC Operations Manual §12.6. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS) v1.3; ROC Operations Manual v2.9 |
 
@@ -268,6 +268,24 @@ Under ROC Operations Manual §12.6. 41 entries, from `Working/AI Outputs/Source_
 | ILL-C | University of Illinois Extension, "Care" (Roses). No date shown. Consulted; duplicates ILL. Accessed 29 September 2026. | <https://extension.illinois.edu/roses/care> | Opened | — | The majority of the pruning will be done in the spring to remove dead and diseased canes. |
 | UAEX | University of Arkansas Cooperative Extension Service, "Pruning" (Roses reference desk; entries 2006–2015). Consulted; no statement on removal after bud break. Accessed 29 September 2026. | <https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx> | Opened | — | most rose bushes should be pruned in late February |
 | UMASS | UMass Amherst Center for Agriculture, Food and the Environment, Angela Madeiras, "Raspberry IPM- Raspberry Cane Borers" (6 August 2019). Consulted; does not mention roses, so not used. Accessed 29 September 2026. | <https://www.umass.edu/agriculture-food-environment/fruit/fact-sheets/raspberry-ipm-raspberry-cane-borers> | Opened | — | Pruning and destroying symptomatic canes several inches below the lower ring is the most effective way of managing this pest. |
+
+---
+
+## Build Check Corrections (18 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 3, every source page was reopened with WebFetch and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md` (§3) and approved by a Founder in chat on 18 October 2026, as §14.4 requires for an approved ARC. Where they differ from the findings above, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH3_sources_2026-10-18.json` (and, for the main-framework research, `Build_Check_OLDER-BATCH2_sources_2026-10-17.json`) and `Build_Check_OLDER-BATCH3_statements_v0.1_2026-10-18.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-16 | Two sources exempt diseased wood; no source says whether dead wood is exempt. | Reword "exempt" to what the pages say: NYBG-FAQ says diseased growth can be cut back at any time including the fall; ISU-S lists pruning out obviously diseased canes in its fall section. Remove or qualify the last sentence: AF-1 sources (CBG, PTC, RHS-DB) say dead wood can be removed at any time, so the gap claim is overstated. | Moderate → Moderate | 'Exempt' is an inference; the gap line conflicts with AF-1 |
+| AF-19 | Sources outside the dormant session give the same cut-to-healthy-tissue rule; none gives a different one. | Reword: sources on removal outside dormancy say cut back to healthy wood, with white pith (MRS, RHS-PG, ARS) or white to cream (VT-BOT); for borers AZ1528 says cut an inch or two at a time until the hole is gone. Remove "none gives a different rule" or mark it as not found: RHS, AZ and ARS pages do not speak of the growing season. | Moderate → Moderate | three of five pages support only part; absence claim is not a source statement |
+| AF-3 | Heavy pruning after leaf-out described as having a cost; AEX-615970 quoted as support. | Split it: OSU-LATE says heavy pruning now may reduce flowering and plant size; DA-APR (commercial) says it might delay flowering a little; AEX-615970 (Maryland extension) says pruning is fine until a couple of inches of new growth, so it does not support a cost. Record this as a disagreement (C-1) with AEX as the dissent, not as a supporter. | Moderate → Moderate (disagreement recorded; Founder to confirm, see judgement_view) | AEX page says pruning is fine now; only OSU and one commercial page state a cost |
+| AF-4 | Many guides place dead/damaged/diseased removal first and major pruning at or near bud break. | Reword to what the pages show: dead and damaged wood is removed first in the spring session (RHS, UMD, Purdue, ISU); major pruning is placed at or near bud break (TAMU-EP, NYBG-LG, OSU). Drop Illinois, Dunedin and Georgia from the first-step and bud-break lists (they say other things: spring pruning generally, late July, mid Feb to early March). Keep the line that none says whether such wood may be removed later. | High → High | most pages support only one half of the finding |
+| AF-8 | Diseased or infected wood removed promptly or at any time: NYBG, AEX, RHS-DB. | Drop RHS-DB as a source for diseased wood: its sentence is about dead and damaged wood and the page gives no removal advice for diseased wood. Two sources remain (NYBG-FAQ, AEX-236546). | Moderate → Moderate | RHS page does not mention diseased wood |
+| C-1 | Sources differ on pruning after leaf-out | Shown leading with the better-supported view (full pruning now is likely to reduce or delay flowering: OSU, David Austin, general guides placing major pruning at bud break) and naming the Maryland extension answer (fine until a couple of inches of new growth) as one source. | — → Moderate (the leading view) | Founder direction of 16 October 2026; batch 1 ruling on naming one dissenting source. |
+| C-3 | UCIPM: remove infected canes in dry weather in the dormant season (Low) | Kept on record and not shown: one source at Low, beside better-supported advice to remove diseased wood promptly or at any time (Founder direction of 16 October 2026). | Low → Low | Single source, not a precaution. |
+
+**Effect on Pip's answers.** PKR-SGT-000001 v1.3 (removal-only session): full pruning after leaf-out leads with the better-supported view and names the Maryland extension answer; C-3 not shown; labels lowered to Moderate where the findings are; pith colour and disposal match the dead-wood and damaged-growth answers.
 
 ---
 

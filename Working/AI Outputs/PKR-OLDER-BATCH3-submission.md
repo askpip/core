@@ -1,14 +1,14 @@
-# PKR Submission Package — Older Answers Check, Batch 3: Care, Hard Pruning, Flowering, Rose Type, Tools and Cuts (draft v0.4)
+# PKR Submission Package — Older Answers Check, Batch 3: Care, Hard Pruning, Flowering, Rose Type, Tools and Cuts (v1.0, Published)
 
-**Draft, for a Founder's approval.** Built by KIT on 18 October 2026 under the Pip Knowledge Rules v0.5, after the Build Check (ROC Operations Manual Ch. 14). What a Founder reads is `Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md`.
+**Published 18 October 2026.** A Founder approved these answers in chat on 18 October 2026 ("push done, approve"), with no change. Built by KIT on 18 October 2026 under the Pip Knowledge Rules v0.5, after the Build Check (ROC Operations Manual Ch. 14). What a Founder reads is `Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md`.
 
-**On approval:** each record below gets a new version (minor version +1), and its current version is retired. For PKR-SGT-000001 only the removal-only session changes; the rest of the record is as published in batch 1. PKR-CGD-000003's `presentation.applies_to_decisions` no longer lists PKR-DEC-000003, retired in batch 1. App change: `App/src/components/RoseTypeQuestion.tsx` shows the label line's tag.
+**At approval:** each record below got a new version (minor version +1), and the version before it is retired. Internal notes (`common.preserved_uncertainty`, not shown to gardeners) of PKR-CGD-000004, -000005 and PKR-DEC-000008 were brought into line; the last records that this approval replaces decision D6(a) (RHS cut point alone) with both cut points shown. For PKR-SGT-000001 only the removal-only session changes; the rest of the record is as published in batch 1. PKR-CGD-000003's `presentation.applies_to_decisions` no longer lists PKR-DEC-000003, retired in batch 1. App change: `App/src/components/RoseTypeQuestion.tsx` shows the label line's tag.
 
-The corrections to the approved research (ROC OM §14.4) are listed in section 3 of Pip's Answers and made on approval; the full list is `corrections_adopted` in `Build_Check_OLDER-BATCH3_statements_v0.1_2026-10-18.json`.
+The corrections to the approved research (ROC OM §14.4) are listed in section 3 of Pip's Answers and were made at approval, as a Build Check Corrections section in ARC-BUSHROSE-POSTBUDBREAK-01 1.1, -HARDPRUNE-01 1.1, -NOFLOWERS-01 1.1, -BASICCARE-01 1.5, -ROSETYPE-01 1.4 and -PRUNINGFRAMEWORK-01 1.3; the full list is `corrections_adopted` in `Build_Check_OLDER-BATCH3_statements_v0.1_2026-10-18.json`.
 
 ## Records as they will be
 
-### PKR-CGD-000001 (now v1.0)
+### PKR-CGD-000001 (was v1.0)
 
 ```json
 {
@@ -36,7 +36,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-CGD-000002 (now v1.0)
+### PKR-CGD-000002 (was v1.0)
 
 ```json
 {
@@ -67,7 +67,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-CGD-000003 (now v1.1)
+### PKR-CGD-000003 (was v1.1)
 
 ```json
 {
@@ -110,7 +110,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-CGD-000004 (now v1.0)
+### PKR-CGD-000004 (was v1.0)
 
 ```json
 {
@@ -142,7 +142,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-CGD-000005 (now v1.0)
+### PKR-CGD-000005 (was v1.0)
 
 ```json
 {
@@ -166,7 +166,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-CGD-000006 (now v1.0)
+### PKR-CGD-000006 (was v1.0)
 
 ```json
 {
@@ -190,7 +190,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-CGD-000007 (now v1.1)
+### PKR-CGD-000007 (was v1.1)
 
 ```json
 {
@@ -238,7 +238,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-CGD-000008 (now v1.1)
+### PKR-CGD-000008 (was v1.1)
 
 ```json
 {
@@ -341,7 +341,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-DEC-000008 (now v1.0)
+### PKR-DEC-000008 (was v1.0)
 
 ```json
 {
@@ -405,7 +405,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-OBS-000008 (now v1.0)
+### PKR-OBS-000008 (was v1.0)
 
 ```json
 {
@@ -443,7 +443,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-SGT-000001 (now v1.2)
+### PKR-SGT-000001 (was v1.2)
 
 ```json
 {
@@ -488,7 +488,7 @@ The corrections to the approved research (ROC OM §14.4) are listed in section 3
 }
 ```
 
-### PKR-SGT-000003 (now v1.1)
+### PKR-SGT-000003 (was v1.1)
 
 ```json
 {

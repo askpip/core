@@ -1,5 +1,7 @@
 # Pip's Answers — Older Answers Check, Batch 3: Care, Hard Pruning, Flowering, Rose Type, Tools and Cuts
 
+**Approved, 18 October 2026.** A Founder approved these answers in chat ("push done, approve"), with no change. The corrections in section 3 are made in the research records, and the answers are published.
+
 These answers were published before the source check existed. They are now checked: every source page was reopened, and every sentence was checked against what the pages say. This document shows every sentence that changes, word for word as gardeners will see it. **You are asked for one thing: approval.** Approving it also authorises the corrections to the approved research (section 3) and lets the changes be published. Nothing else needs reading.
 
 This is the last of the three batches. It covers twelve answers: what you can still remove once a rose is growing; how much to remove; can pruning too hard harm my rose; why isn't my rose flowering, with the blind-shoot check; the three basic-care answers; the rose-type question; and the tools and cutting guides.

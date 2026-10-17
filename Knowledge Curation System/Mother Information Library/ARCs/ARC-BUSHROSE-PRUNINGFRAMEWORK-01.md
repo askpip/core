@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-PRUNINGFRAMEWORK-01** |
 | ARC Title | Whole-Bush Pruning Framework for an Established, Dormant Bush Rose |
-| Version | 1.2 |
+| Version | 1.3 |
 | Approval Status | **Approved** |
 | Approval Date | 27 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-PRUNINGFRAMEWORK-04` §8 (all 41 Assessed Findings) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | ARC-BUSHROSE-DEADWOOD-01 (dead wood is governed there and not re-assessed here); ARC-BUSHROSE-RECENTPLANT-01; ARC-BUSHROSE-DORMANCY-01; ARC-BUSHROSE-BASICCARE-01 |
-| Revision History | v1.2 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 2). v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-PRUNINGFRAMEWORK-04` (incorporating Revisions 1–3), Founder-approved for AF-1 to AF-41 as a whole, including the eleven recorded conflicts and the practical defaults adopted for them. v1.1 — 29 September 2026 — §10 Source Register added (ROC Operations Manual §12.6/§12.10, v2.9), approved by Shaphan. No finding, confidence level, conflict or default changed. |
+| Revision History | v1.3 — 18 October 2026 — Build Check Corrections added (older-answers check, batch 3). v1.2 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 2). v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-PRUNINGFRAMEWORK-04` (incorporating Revisions 1–3), Founder-approved for AF-1 to AF-41 as a whole, including the eleven recorded conflicts and the practical defaults adopted for them. v1.1 — 29 September 2026 — §10 Source Register added (ROC Operations Manual §12.6/§12.10, v2.9), approved by Shaphan. No finding, confidence level, conflict or default changed. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01` |
 
@@ -764,6 +764,24 @@ The answers built on this research were published before the Build Check existed
 | AF-41 | Shape and crossing canes visible; vigour and internal health need handling | Only partly shown: outline and crossing canes are visible (David Austin, Orange County). A bend test for vigour is one source (David Austin). Pith colour and the base are on no page. NC State and ARS 'no'. | Low → Very Low | Two pages 'no', two 'partly'; pith and base unsupported |
 
 **Effect on Pip's answers.** PKR-OBS-000006 v1.2 and PKR-DEC-000006 v1.2: keeper canes at High (AF-9 part a); younger canes, new shoots as a sign of health, yearly renewal and replacement (AF-9 part b, AF-10, AF-20, AF-39) not used; new basal canes and the sucker check now trace to ARC-BUSHROSE-SUCKERS-01 AF-24 and AF-1; the cane count is 3 to 7.
+
+---
+
+## Build Check Corrections (18 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 3, every source page was reopened with WebFetch and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md` (§3) and approved by a Founder in chat on 18 October 2026, as §14.4 requires for an approved ARC. Where they differ from the findings above, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH3_sources_2026-10-18.json` (and, for the main-framework research, `Build_Check_OLDER-BATCH2_sources_2026-10-17.json`) and `Build_Check_OLDER-BATCH3_statements_v0.1_2026-10-18.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-22 | Minority half-inch figure with Texas A&M reasoning (bud dies if too close, wood dies back if too far) | Sources that give a distance most often say about one-quarter inch (about 6 mm) above the bud. Drop the half-inch figure and the tradeoff reasoning, or restore only after a Texas A&M page confirming them is checked. | Moderate → Moderate | No checked page says half inch or the reasoning |
+| AF-24 | Slant most often away from the bud | Record the dissent in the finding: Ludwig's (square 90 degrees) and Rose Society of South Australia (angle unnecessary) are carried only in C11. | Low → Low | Dissent affects whether it can be stated flatly |
+| AF-26 | Pruners to about 3/4 inch; general text 1/2 inch | If ever used, show as a range (1/2 to 3/4 inch). Stays Low and unused. | Low → Low | Two figures; rule 3 |
+| AF-28 | Disinfect between plants or after diseased wood | Add limit: no page gives alcohol or wiping except Clemson ('periodically', 70 percent); Texas A&M is for diseased plants, general woody plants. Alcohol strength stays out of Pip. | Moderate → Moderate | Method details are single-source |
+| AF-30 | Sealing advised by some, contested | Keep as Low. Record that UGA says 'Sealing is not crucial' and that the pencil-thickness threshold rests on Clemson (South Carolina, 'may not apply to other areas') only; no page says thinner cuts need no sealing. | Low → Low | Threshold single-source; 'thinner needs none' unsupported |
+| AF-35 | Rose sources seal for cane borers; not contradicted by wound-dressing research | Where rose sources recommend sealing larger cut ends, the reason given is to keep cane-boring insects out (ARS and Arizona support). Drop CSU PlantTalk (wasps called harmless) and Texas A&M El Paso (reason cut off) as support for the borer reason. | Moderate → Moderate | Two of four rose pages do not confirm the borer reason |
+| AF-38 | Rose Society of South Australia on cut angle (Not assigned) | Named in the cut-angle line as one rose society that says not to worry about the angle; Ludwig's Roses (a nursery) is not shown. | Not assigned → Not assigned (shown as one source) | Rule 2: name who disagrees. |
+
+**Effect on Pip's answers.** PKR-CGD-000001 v1.1 and PKR-CGD-000002 v1.1: the pruner-thickness line (AF-26) and slant-direction line (AF-24) are removed; the half-inch distance is removed; the Rose Society of South Australia is named on the cut angle; sealing shown as "Sources disagree", matching PKR-DEC-000004.
 
 ---
 

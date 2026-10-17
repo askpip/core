@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-BASICCARE-01** |
 | ARC Title | Basic Bush Rose Care — Classification, Ordinary Year-Round Care, and Winter Protection |
-| Version | 1.4 |
+| Version | 1.5 |
 | Approval Status | **Approved** |
 | Approval Date | 27 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-BASICCARE-01` §8 (F1–F10, F12, F13) and `FRD-BUSHROSE-BASICCARE-02` §8 (F11, revised) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | ARC-BUSHROSE-RECENTPLANT-01; ARC-BUSHROSE-DORMANCY-01. This ARC's F2 (watering vigilance, roughly the first two years) and RECENTPLANT's AF-1 (pruning readiness, three or more years) concern different questions and are compatible, not competing — see §4, F2. |
-| Revision History | v1.4 — 2 October 2026 — Source Register correction approved by Shaphan in chat: the ISU-RC note said Iowa State advises stopping fertiliser after mid-July. The page (last reviewed June 2025, re-checked 2 October 2026) says to give a further feed "during the first bloom period and in mid to late July", with no stop date. No finding or Evidence Confidence Level changes. v1.3 — 1 October 2026 — Founder Decision Point 2 (geographic diversity) decided: accept the current evidence base with the UK/US limitation disclosed to gardeners (§5, §6). No finding or confidence level changes. v1.2 — 29 September 2026 — §8 Source Register added under ROC OM v2.9 §12.6/§12.10 from the approved `Source_Register_Addendum_BASICCARE.md`. Founder-approved source-list corrections (Shaphan, in chat): the moved RHS page is replaced by the RHS "How to grow roses" guide (F2, F3); F13's source is corrected from Missouri G6601 to the University of Maryland page, which is where the claim appears; Illinois is added to F2 and F3; Iowa State is named for F6. No finding or Evidence Confidence Level changed. v1.1 — 29 September 2026 — Founder decision on gardener-facing terminology (F1a; FRD-BUSHROSE-BASICCARE-02 Decision 5) recorded at §6. No finding changed. v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-BASICCARE-01` and `-02`, Founder-approved for Findings F1–F13 as a whole. |
+| Revision History | v1.5 — 18 October 2026 — Build Check Corrections added (older-answers check, batch 3). v1.4 — 2 October 2026 — Source Register correction approved by Shaphan in chat: the ISU-RC note said Iowa State advises stopping fertiliser after mid-July. The page (last reviewed June 2025, re-checked 2 October 2026) says to give a further feed "during the first bloom period and in mid to late July", with no stop date. No finding or Evidence Confidence Level changes. v1.3 — 1 October 2026 — Founder Decision Point 2 (geographic diversity) decided: accept the current evidence base with the UK/US limitation disclosed to gardeners (§5, §6). No finding or confidence level changes. v1.2 — 29 September 2026 — §8 Source Register added under ROC OM v2.9 §12.6/§12.10 from the approved `Source_Register_Addendum_BASICCARE.md`. Founder-approved source-list corrections (Shaphan, in chat): the moved RHS page is replaced by the RHS "How to grow roses" guide (F2, F3); F13's source is corrected from Missouri G6601 to the University of Maryland page, which is where the claim appears; Illinois is added to F2 and F3; Iowa State is named for F6. No finding or Evidence Confidence Level changed. v1.1 — 29 September 2026 — Founder decision on gardener-facing terminology (F1a; FRD-BUSHROSE-BASICCARE-02 Decision 5) recorded at §6. No finding changed. v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-BASICCARE-01` and `-02`, Founder-approved for Findings F1–F13 as a whole. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01` |
 
@@ -271,4 +271,25 @@ Added at version 1.2 (29 September 2026) under ROC Operations Manual v2.9 §12.6
 | NEB | Nebraska Extension, Lancaster County, Sarah Browning, "Preparing Roses for Winter" (11 Oct 2018) | <https://lancaster.unl.edu/preparing-roses-winter> | Confirmed | F11 | "continue to water roses until the ground freezes"; "Soak plants to a depth of 8-12 inches, every 2-3 weeks"; "Leaves serve as a good source of overwintering fungal spores". |
 
 ---
+
+## Build Check Corrections (18 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 3, every source page was reopened with WebFetch and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md` (§3) and approved by a Founder in chat on 18 October 2026, as §14.4 requires for an approved ARC. Where they differ from the findings above, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH3_sources_2026-10-18.json` (and, for the main-framework research, `Build_Check_OLDER-BATCH2_sources_2026-10-17.json`) and `Build_Check_OLDER-BATCH3_statements_v0.1_2026-10-18.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| F10 | Collar and wrap methods | Tar paper or wire collar is from UNH only; Penn State gives burlap-wrapped straw only. | Moderate → Moderate | collar rests on one page; keep wording to what each shows |
+| F11 | Water after first hard frost; clear leaves | 'After the first hard frost' rests on Penn State; Nebraska says continue watering until the ground freezes (8–12 in, every 2–3 weeks). | Moderate → Moderate | timing differs between pages |
+| F12 | General non-diagnostic signs to notice | Regular inspection of leaves, buds and stems and early detection only (Maryland); the list of specific signs is not on the returned text. | Moderate → Low | one source, partly supports; list unsupported |
+| F13 | Ordinary conditions most common cause; inconsistent watering | One page says poor growing conditions, incorrect care, weather extremes and soggy soil are the major cause of plant decline. Remove 'inconsistent watering' and 'rather than pests'. | Low–Moderate → Low | single page; wording goes past it |
+| F2 | Deep, infrequent; 1–2 in per week; closer attention first two years | Deep, less frequent watering; amounts differ: about 1 in (Illinois), 1–2 in (Cornell), 5–10 litres per plant in dry spells (RHS), a thorough soak every 7–10 days (Iowa). Newly planted roses need regular watering; drop 'first two years' (not on the pages). | High → Moderate | amount rests on two pages; two-year point unsupported |
+| F3 | 2–3 in organic mulch in growing season | Depth 2 to 4 in (RHS at least 2, Cornell 2, Missouri and Illinois 2–3, Iowa 2–4); keep clear 4–6 in (RHS, Missouri). RHS applies Nov–Feb. Materials vary: manure not on Iowa page. | High → High | depth is a range, not 2–3 |
+| F4 | Start spring, stop mid-to-late summer | Drop UGA as support for the stop date (it lists September feeding, names a brand, gives no stop). Keep Illinois and Penn State; record the cutoff as varying by region. | High (pattern) → Moderate | only two pages confirm fully; UGA differs |
+| F7 | Leave foliage in first season; energy to root | Practice is supported by Cornell, Missouri and Fine Gardening; the 'past year' and root-energy reason rest on Cornell and Fine Gardening (general-interest). | High → Moderate | two of three pages only partly support |
+| F9 | Mound 10–12 in after several hard frosts; graft union; spring removal | Height 10–12 in on Illinois, UNH, Missouri; UGA says 12–18 in after the second hard frost (record as a difference). Graft union is not on Illinois or Missouri pages; spring removal is not on Illinois or UNH pages; Illinois says one killing frost. | Very High → High | four of six pages partial; height differs |
+
+**Effect on Pip's answers.** PKR-CGD-000004 v1.1, PKR-CGD-000005 v1.1 and PKR-CGD-000006 v1.1: amounts shown as ranges; the warning-sign and growing-conditions lines removed (Low); the newly planted pruning line now matches PKR-SGT-000002 v1.1 (ARC-BUSHROSE-RECENTPLANT-01 AF-1 as corrected); the winter note names US sources only.
+
+---
+
 # End of Document

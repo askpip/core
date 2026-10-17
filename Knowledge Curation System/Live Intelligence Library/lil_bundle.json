@@ -5,7 +5,7 @@
    "pkr_id": "PKR-CGD-000001",
    "version": "1.0",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Choosing, sharpening and cleaning pruning tools for a bush rose",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
@@ -62,10 +62,67 @@
    }
   },
   {
+   "pkr_id": "PKR-CGD-000001",
+   "version": "1.1",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Choosing, sharpening and cleaning pruning tools for a bush rose",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
+    "supporting_sources": [
+     "PKR-SRC-000004",
+     "PKR-SRC-000006",
+     "PKR-SRC-000009",
+     "PKR-SRC-000013",
+     "PKR-SRC-000022",
+     "PKR-SRC-000051",
+     "PKR-SRC-000065",
+     "PKR-SRC-000066",
+     "PKR-SRC-000067",
+     "PKR-SRC-000108",
+     "PKR-SRC-000109",
+     "PKR-SRC-000110"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "The thickness at which hand pruners give way to loppers differs between sources: three-quarters of an inch in two rose sources, half an inch in a general woody-plant text (C8). Sources name bypass pruners without giving a reason, and one recommends anvil pruners for dead wood (C9). Sources differ on what to disinfect with and how often, and none cites evidence of effectiveness (C10). No source compares sharp and blunt tools directly; the advice rests on practitioner agreement (AF-27).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Your tools",
+    "label": null,
+    "items": [
+     {
+      "text": "Match the tool to the stem: bypass hand pruners for thin canes, loppers for thicker ones, and a pruning saw for the thickest or oldest canes.",
+      "confidence": "High"
+     },
+     {
+      "text": "Use bypass (scissor-action) pruners. Anvil pruners (which crush the stem against a flat edge) are fine for clearing dead wood only.",
+      "confidence": "Approved default"
+     },
+     {
+      "text": "Keep your tools sharp and clean, so each cut is clean and doesn't crush the cane.",
+      "confidence": "High"
+     },
+     {
+      "text": "Clean your blades between plants, and after cutting out diseased wood, so you don't spread disease from one plant to another.",
+      "confidence": "Moderate",
+      "kind": "precaution"
+     }
+    ]
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+   }
+  },
+  {
    "pkr_id": "PKR-CGD-000002",
    "version": "1.0",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Making a pruning cut on a bush rose: removing a whole stem, or shortening one back to a bud",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
@@ -141,6 +198,81 @@
    }
   },
   {
+   "pkr_id": "PKR-CGD-000002",
+   "version": "1.1",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Making a pruning cut on a bush rose: removing a whole stem, or shortening one back to a bud",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
+    "supporting_sources": [
+     "PKR-SRC-000001",
+     "PKR-SRC-000002",
+     "PKR-SRC-000003",
+     "PKR-SRC-000004",
+     "PKR-SRC-000005",
+     "PKR-SRC-000006",
+     "PKR-SRC-000007",
+     "PKR-SRC-000009",
+     "PKR-SRC-000013",
+     "PKR-SRC-000022",
+     "PKR-SRC-000049",
+     "PKR-SRC-000051",
+     "PKR-SRC-000059",
+     "PKR-SRC-000065",
+     "PKR-SRC-000066",
+     "PKR-SRC-000067",
+     "PKR-SRC-000080",
+     "PKR-SRC-000088",
+     "PKR-SRC-000102",
+     "PKR-SRC-000108",
+     "PKR-SRC-000109",
+     "PKR-SRC-000110",
+     "PKR-SRC-000122",
+     "PKR-SRC-000123",
+     "PKR-SRC-000124",
+     "PKR-SRC-000125",
+     "PKR-SRC-000126"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Distance above the bud (C2): most sources say about a quarter inch; a few say up to half an inch. Both are defensible answers to the same tradeoff (too close risks killing the bud; too far risks the stub dying back). All the quarter-inch sources are from the United States. Slant direction (C3): most sources say \"away from the bud\"; a few say \"in the same direction as the bud\", and it's unresolved whether that's the same technique. Whether angle and bud direction matter at all (C11): rose societies in South Australia and South Africa say they matter little, or recommend a straight cut; neither gives a reason. The approved default keeps the majority convention. Sealing (C4, AF-30, AF-35): most sources, including every UK and New Zealand source, don't mention it. Where rose sources recommend it, the reason is to keep cane-boring insects out of the soft pith, not to help the cut heal. General tree research finds that wound dressings don't help healing, which answers a different question. No trial of sealed against unsealed rose canes was found. Stubs (AF-29): five of the nine sources are about dead canes, so whether the rule applies equally to every kind of removal isn't directly addressed. Two kinds of cut (AF-31): only one of the three sources is rose-specific. Outward bud (AF-21): two sources allow an exception for a cane that already spreads sideways.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "removeStem": [
+     {
+      "text": "Cut the stem off where it starts: at the base, at the bud union, or where it joins its parent stem. Don't leave a stub.",
+      "confidence": "Moderate"
+     }
+    ],
+    "shorten": [
+     {
+      "text": "Cut just above a bud that faces outward, away from the centre of the bush.",
+      "confidence": "High"
+     },
+     {
+      "text": "Cut about a quarter of an inch (about 6 mm) above the bud.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Make the cut on a slant, at roughly 45 degrees, not flat. One rose society says not to worry about the angle.",
+      "confidence": "Moderate"
+     }
+    ],
+    "seal": {
+     "text": "Sources disagree on sealing: some seal the cut end of a cane roughly pencil-thick or thicker with glue, nail polish or pruning sealer, to keep cane-boring insects out; another says sealing is not crucial.",
+     "kind": "disagreement"
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+   }
+  },
+  {
    "pkr_id": "PKR-CGD-000003",
    "version": "1.0",
    "pkr_type": "care_guidance",
@@ -204,7 +336,7 @@
    "pkr_id": "PKR-CGD-000003",
    "version": "1.1",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Advisory: removing no more than about a third of a bush in one session (general pruning guidance, not rose-specific)",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
@@ -280,10 +412,85 @@
    }
   },
   {
+   "pkr_id": "PKR-CGD-000003",
+   "version": "1.2",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Advisory: removing no more than about a third of a bush in one session (general pruning guidance, not rose-specific)",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
+    "supporting_sources": [
+     "PKR-SRC-000060",
+     "PKR-SRC-000127",
+     "PKR-SRC-000128",
+     "PKR-SRC-000129",
+     "PKR-SRC-000003",
+     "PKR-SRC-000059",
+     "PKR-SRC-000097",
+     "PKR-SRC-000168",
+     "PKR-SRC-000192",
+     "PKR-SRC-000193",
+     "PKR-SRC-000196",
+     "PKR-SRC-000197",
+     "PKR-SRC-000198",
+     "PKR-SRC-000200",
+     "PKR-SRC-000201"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "This is a general rule for shrubs and trees, not tested on roses. One rose-specific source recommends a hard, one-time renovation instead, which suggests the rule is a cautious default rather than a rose requirement (AF-40). The NC State wording is about a plant's crown in any one year, not about a single session (WEAKCONGESTED AF-18). No source links the choice between one hard cutback and a staged approach to a particular bush's condition (AF-40). A fifth source listed for AF-40 (Colorado State University, Adams County) couldn't be confirmed and isn't cited. Rose sources measure the amount removed in different ways (share of growth, of height, or of cane length), so their figures and the one-third rule may not measure the same thing (ARC-BUSHROSE-HARDPRUNE-01 C-3).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "How much to remove",
+    "label": "General pruning guidance, with what rose growers do",
+    "items": [
+     {
+      "text": "One source says to remove no more than about a third of a plant's top growth in any one year.",
+      "confidence": "Low",
+      "kind": "precaution"
+     },
+     {
+      "text": "If an overgrown bush needs a lot taken off, some sources spread the work over two or three years, about a third at a time.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Some rose sources renovate an old rose in one go instead of in stages.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "At winter pruning rose growers commonly remove from a third to two-thirds of a Hybrid Tea's or Floribunda's growth or height, with half to two-thirds the most usual figure.",
+      "confidence": "High"
+     },
+     {
+      "text": "Rose sources disagree on what to call cutting back by a third: some call it \"light\" pruning, and another calls it \"moderate\".",
+      "kind": "disagreement"
+     }
+    ],
+    "presentation": {
+     "before_first_cut": true,
+     "repeat_every_n_cuts": 3,
+     "applies_to_decisions": [
+      "PKR-DEC-000001",
+      "PKR-DEC-000002",
+      "PKR-DEC-000004",
+      "PKR-DEC-000005",
+      "PKR-DEC-000006"
+     ]
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.2: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.1 retired."
+   }
+  },
+  {
    "pkr_id": "PKR-CGD-000004",
    "version": "1.0",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Growing-season care for a Hybrid Tea, Floribunda or Grandiflora rose",
    "common": {
     "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose (a rose that has passed PKR-SGT-000003); general care outside pruning",
@@ -345,10 +552,67 @@
    }
   },
   {
+   "pkr_id": "PKR-CGD-000004",
+   "version": "1.1",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Growing-season care for a Hybrid Tea, Floribunda or Grandiflora rose",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose (a rose that has passed PKR-SGT-000003); general care outside pruning",
+    "supporting_sources": [
+     "PKR-SRC-000111",
+     "PKR-SRC-000130",
+     "PKR-SRC-000131",
+     "PKR-SRC-000132",
+     "PKR-SRC-000133",
+     "PKR-SRC-000135",
+     "PKR-SRC-000136",
+     "PKR-SRC-000137"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Feeding and deadheading: when to stop depends on the region, and no single date is given (F4, F5). Watering amounts and mulch depth vary between sources and are given as ranges (F2, F3). This record doesn't diagnose anything (F6); the single-source warning-sign and growing-conditions lines were removed at the Build Check (F12, F13, 18 October 2026). Region: sources are UK and US.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Growing-season care",
+    "label": null,
+    "items": [
+     {
+      "text": "Water deeply and less often, rather than a little and often. In the growing season, roughly 1–2 inches (about 2.5–5 cm) of water a week, counting rain, is a common guide when it's dry.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Spread organic mulch about 2–4 inches (5–10 cm) deep around the base — bark, well-rotted manure, wood chips or pine needles — kept a few inches clear of the stems.",
+      "confidence": "High"
+     },
+     {
+      "text": "Start feeding in spring as new growth begins and feed again through summer. Stop by mid-to-late summer so new growth can toughen before winter; the last feeding date varies by region.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Remove faded flowers through the growing season to encourage more. Stop in early-to-mid autumn, so the rose can form hips (the round seed pods) and slow down for winter.",
+      "confidence": "High"
+     },
+     {
+      "text": "Watch for blackspot, powdery mildew, aphids and spider mites. Water at the base, or in the morning if you water from above, to keep the leaves drier.",
+      "confidence": "High"
+     }
+    ],
+    "disclosure": "This care advice comes mainly from UK and US gardening services. Timings and amounts may differ where you live."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+   }
+  },
+  {
    "pkr_id": "PKR-CGD-000005",
    "version": "1.0",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Caring for a recently planted Hybrid Tea, Floribunda or Grandiflora rose",
    "common": {
     "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose that PKR-SGT-000002 has stopped (planted less than about three years ago, or establishment not shown)",
@@ -392,10 +656,57 @@
    }
   },
   {
+   "pkr_id": "PKR-CGD-000005",
+   "version": "1.1",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Caring for a recently planted Hybrid Tea, Floribunda or Grandiflora rose",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose that PKR-SGT-000002 has stopped (planted less than about three years ago, or establishment not shown)",
+    "supporting_sources": [
+     "PKR-SRC-000028",
+     "PKR-SRC-000111",
+     "PKR-SRC-000130",
+     "PKR-SRC-000131",
+     "PKR-SRC-000132",
+     "PKR-SRC-000133"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "F7 concerns roughly the first year. The pruning line matches PKR-SGT-000002 v1.1 (ARC-BUSHROSE-RECENTPLANT-01 AF-1 as corrected): rose sources leave a newly planted rose unpruned, apart from dead wood, until established, and give no number of years; K-State prunes at planting and RHS in the first winter. No page gives a period of closer watering, so none is stated (F2, as corrected).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Caring for a recently planted rose",
+    "label": null,
+    "items": [
+     {
+      "text": "If your rose was planted within about the past year, leave as much of its leaves and stems as you can this first season. Only remove faded flowers, and don't cut stems for the vase. A new rose uses its leaves to make the energy it needs to grow roots.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Water a newly planted rose regularly.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Most sources leave a newly planted rose unpruned, apart from dead wood, until it has established; two prune at planting or in the first winter.",
+      "confidence": "Moderate"
+     }
+    ],
+    "disclosure": "This care advice comes mainly from UK and US gardening services. Timings and amounts may differ where you live."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+   }
+  },
+  {
    "pkr_id": "PKR-CGD-000006",
    "version": "1.0",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Preparing a Hybrid Tea, Floribunda or Grandiflora rose for winter",
    "common": {
     "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose (a rose that has passed PKR-SGT-000003), in an area with hard winter frosts",
@@ -437,6 +748,54 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-01",
     "note": "Initial LIL load: gardener-facing content transcribed from the Published submission package (Founder Review Rendering). Earlier versions are preserved in git history of that package."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000006",
+   "version": "1.1",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Preparing a Hybrid Tea, Floribunda or Grandiflora rose for winter",
+   "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose (a rose that has passed PKR-SGT-000003), in an area with hard winter frosts",
+    "supporting_sources": [
+     "PKR-SRC-000111",
+     "PKR-SRC-000132",
+     "PKR-SRC-000133",
+     "PKR-SRC-000134",
+     "PKR-SRC-000135",
+     "PKR-SRC-000136",
+     "PKR-SRC-000138"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "Winter mounding applies where winters bring hard frosts (F9). Mound heights vary between sources, from 8 to 18 inches, around the common 10–12 (Source Register §3, matter 4). Collars and wraps rest on two sources and are described particularly for climbing roses or exposed sites (F10). All sources are from the US (ARC §5).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Preparing for winter",
+    "label": "If your winters bring hard frosts…",
+    "items": [
+     {
+      "text": "Once the rose has had hard frosts and gone dormant, mound soil, compost or mulch about 10–12 inches (25–30 cm) high around the base, covering the graft union (the swollen join near the base); one source says up to 18 inches (45 cm). Remove the mound in spring once hard frosts have passed.",
+      "confidence": "High"
+     },
+     {
+      "text": "In colder or more exposed spots, you can also wrap the canes in burlap or evergreen boughs. One source also builds a collar of tar paper or wire mesh around the rose and fills it with straw, pine bark or peat moss.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Water thoroughly after the first hard frost and before the ground freezes, and clear fallen leaves from around the plant before winter.",
+      "confidence": "Moderate"
+     }
+    ],
+    "disclosure": "This care advice comes mainly from US gardening services. Timings and amounts may differ where you live."
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
    }
   },
   {
@@ -544,7 +903,7 @@
    "pkr_id": "PKR-CGD-000007",
    "version": "1.1",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Can pruning too hard kill or harm my rose?",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
@@ -639,6 +998,104 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "v1.1 by Founder direction in chat, 2 October 2026 (\"Pip shouldn't talk in the third person\"): Pip speaks in the first person. Wording only; no finding, confidence, source or limitation changed. v1.0 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000007",
+   "version": "1.2",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Can pruning too hard kill or harm my rose?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000003",
+     "PKR-SRC-000004",
+     "PKR-SRC-000006",
+     "PKR-SRC-000034",
+     "PKR-SRC-000059",
+     "PKR-SRC-000068",
+     "PKR-SRC-000091",
+     "PKR-SRC-000095",
+     "PKR-SRC-000097",
+     "PKR-SRC-000100",
+     "PKR-SRC-000101",
+     "PKR-SRC-000110",
+     "PKR-SRC-000119",
+     "PKR-SRC-000121",
+     "PKR-SRC-000135",
+     "PKR-SRC-000190",
+     "PKR-SRC-000191",
+     "PKR-SRC-000194",
+     "PKR-SRC-000195",
+     "PKR-SRC-000197",
+     "PKR-SRC-000199",
+     "PKR-SRC-000200",
+     "PKR-SRC-000201",
+     "PKR-SRC-000203"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000003"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000001"
+     }
+    ],
+    "preserved_uncertainty": "The view that pruning does not kill a rose is expert opinion, not measured (AF-1). One commercial website disagrees, saying cutting back too far \"could stress it out or even kill it\" (AF-20, Very Low; C-1). Sources disagree on whether \"weak\" means the whole plant or a single shoot (C-2), and on renovating in one go or in stages (C-4). Newly planted roses are outside this record.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Can pruning too hard kill or harm my rose?",
+    "label": null,
+    "items": [
+     {
+      "text": "Pruning, even hard or badly done, doesn't kill an established rose that is otherwise healthy.",
+      "confidence": "High"
+     },
+     {
+      "text": "One source says a rose will survive pruning unless it is cut below the ground line.",
+      "confidence": "Low",
+      "kind": "precaution"
+     },
+     {
+      "text": "A weak or slow-growing rose is pruned less hard than a vigorous one. Within a bush, weak shoots are cut back further.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Pruning before the frosts have passed risks frost damage to the new growth and dieback.",
+      "confidence": "High"
+     },
+     {
+      "text": "Harm from pruning too hard is usually only a short-term setback. One source says the first year after a hard pruning is a recovery year for growth.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "An old or neglected rose can be brought back with hard pruning.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and I couldn't find a rule for roses on which to choose.",
+      "confidence": "Approved default"
+     },
+     {
+      "text": "I couldn't find signs, or a waiting time, for judging whether a hard-pruned rose is recovering. If no new growth appears during the growing season, ask your local rose society.",
+      "confidence": "Approved default"
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.2: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.1 retired."
    }
   },
   {
@@ -812,7 +1269,7 @@
    "pkr_id": "PKR-CGD-000008",
    "version": "1.1",
    "pkr_type": "care_guidance",
-   "status": "Published",
+   "status": "Retired",
    "title": "Why isn't my rose flowering?",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
@@ -973,6 +1430,173 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "v1.1 by Founder direction in chat, 2 October 2026 (\"Pip shouldn't talk in the third person\"): Pip speaks in the first person. Wording only; no finding, confidence, source or limitation changed. v1.0 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-CGD-000008",
+   "version": "1.2",
+   "pkr_type": "care_guidance",
+   "status": "Published",
+   "title": "Why isn't my rose flowering?",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); answer to a common question",
+    "supporting_sources": [
+     "PKR-SRC-000003",
+     "PKR-SRC-000034",
+     "PKR-SRC-000097",
+     "PKR-SRC-000131",
+     "PKR-SRC-000137",
+     "PKR-SRC-000141",
+     "PKR-SRC-000205",
+     "PKR-SRC-000206",
+     "PKR-SRC-000207",
+     "PKR-SRC-000208",
+     "PKR-SRC-000209",
+     "PKR-SRC-000210",
+     "PKR-SRC-000211",
+     "PKR-SRC-000212",
+     "PKR-SRC-000213",
+     "PKR-SRC-000214",
+     "PKR-SRC-000215",
+     "PKR-SRC-000216",
+     "PKR-SRC-000217",
+     "PKR-SRC-000218",
+     "PKR-SRC-000219",
+     "PKR-SRC-000220",
+     "PKR-SRC-000221",
+     "PKR-SRC-000222",
+     "PKR-SRC-000223",
+     "PKR-SRC-000224",
+     "PKR-SRC-000226",
+     "PKR-SRC-000227",
+     "PKR-SRC-000228",
+     "PKR-SRC-000229",
+     "PKR-SRC-000230",
+     "PKR-SRC-000231",
+     "PKR-SRC-000232",
+     "PKR-SRC-000234",
+     "PKR-SRC-000235",
+     "PKR-SRC-000236",
+     "PKR-SRC-000237",
+     "PKR-SRC-000238"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000004"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-SGT-000003"
+     }
+    ],
+    "preserved_uncertainty": "No source gives a tested way to tell the causes apart, or says which is most common (R-1). Sources disagree on sun hours (C-1), on feeding (C-2), on where to cut a blind shoot (C-4), on first-season flowering (C-5), on how hard is too hard (C-6) and on chemical treatment of balling (C-7). Rose midge has no New Zealand or Australian source (R-3). Lower-confidence findings (potassium AF-7, heat AF-9, cold AF-10, hips AF-20, rootstock AF-32, pesticides AF-33) are not used in this answer.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "heading": "Why isn't my rose flowering?",
+    "label": null,
+    "items": [
+     {
+      "text": "I can't tell you which reason applies to your rose. Here are the common reasons, with what to look for and what helps.",
+      "confidence": "Approved default"
+     },
+     {
+      "text": "Too little sun, or too much shade, means fewer flowers.",
+      "confidence": "High"
+     },
+     {
+      "text": "Roses need at least four to eight hours of direct sun a day. Six is the figure most often given.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Tree roots and nearby shrubs compete with a rose for water and food. Plant roses away from them.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Too much fertiliser, especially nitrogen, gives lots of leafy growth and few flowers.",
+      "confidence": "High"
+     },
+     {
+      "text": "Too little feeding can also mean fewer flowers, and feeding helps.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Too little water, or drought, can reduce flowering. A rose short of water may drop leaves and make small flowers. Pale, limp leaves can also come from afternoon heat.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Pruning too hard, too little or at the wrong time can mean fewer flowers. I couldn't find how much pruning is too much; a local rose society can help.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Harder pruning gives fewer, larger flowers. Lighter pruning gives more, smaller ones.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Removing spent flowers from a repeat-flowering rose encourages more flowers.",
+      "confidence": "High"
+     },
+     {
+      "text": "If your rose flowered once in late spring or early summer and not again, it may be a once-flowering variety. I can't support those yet. A local rose society or garden centre can help, or you can check its type with my rose-type questions.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Pruning a once-flowering rose before it flowers removes its flowers.",
+      "confidence": "High"
+     },
+     {
+      "text": "A blind shoot grows and leafs normally but has no flower bud at its tip.",
+      "confidence": "High"
+     },
+     {
+      "text": "The cause of blind shoots isn't known. Sources suggest weather, shade, over-feeding and big swings between day and night temperatures.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Cut a blind shoot back so it can send up a new shoot that flowers later in the season. Sources disagree on where to cut: one cuts it back by about half, to a strong bud; another cuts to the next leaf joint down.",
+      "kind": "disagreement"
+     },
+     {
+      "text": "One source says buds that form but don't open after cool, wet weather may be \"balled\": the outer petals dry into a brown, papery shell.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Remove balled buds promptly, before grey mould sets in. One source also suggests better air flow around the plant and watering at the base, not over the leaves.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Spotted petals with grey fuzz may point to grey mould (botrytis), which is more common in cool, wet weather.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Brown or white streaks on petals, or distorted flowers, may point to thrips (tiny insects that feed on flowers).",
+      "confidence": "High"
+     },
+     {
+      "text": "Holes in buds, with caterpillars, may point to budworm (caterpillars that feed on buds).",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Black spot (dark spots on the leaves, then yellowing and leaf drop) can weaken a rose. Repeated severe leaf loss means fewer, poorer flowers.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "A photo alone can't show why a rose isn't flowering. Check these signs on the plant itself.",
+      "confidence": "Approved default"
+     }
+    ],
+    "presentation": {
+     "common_question": true,
+     "journey_step": false
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.2: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.1 retired."
    }
   },
   {
@@ -14891,7 +15515,7 @@
    "pkr_id": "PKR-DEC-000008",
    "version": "1.0",
    "pkr_type": "decision_logic",
-   "status": "Published",
+   "status": "Retired",
    "title": "Blind shoot — what to do once confirmed",
    "common": {
     "applies_to": "As PKR-OBS-000008",
@@ -14978,6 +15602,99 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "Approved by Shaphan in chat, 2 October 2026 (Decisions 1(a), 2(a), 3(a); package \"yes\")."
+   }
+  },
+  {
+   "pkr_id": "PKR-DEC-000008",
+   "version": "1.1",
+   "pkr_type": "decision_logic",
+   "status": "Published",
+   "title": "Blind shoot — what to do once confirmed",
+   "common": {
+    "applies_to": "As PKR-OBS-000008",
+    "supporting_sources": [
+     "PKR-SRC-000205",
+     "PKR-SRC-000231",
+     "PKR-SRC-000238"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [
+     {
+      "relationship": "governed by",
+      "pkr_id": "PKR-OBS-000008"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000002"
+     }
+    ],
+    "preserved_uncertainty": "Sources differ on where to cut (ARC-BUSHROSE-NOFLOWERS-01 C-4): RHS cuts back by half to a strong bud; a public rose garden cuts to the next leaf joint down. Both are shown as 'Sources disagree' (Founder approval of 18 October 2026, replacing decision D6(a), which used the RHS cut point alone). A breeder's third cut point is not shown (Founder direction of 8 October 2026).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "choices": [
+     {
+      "choice": "cut",
+      "label": "Cut it back to a strong bud",
+      "cutKind": "shorten"
+     },
+     {
+      "choice": "leave",
+      "label": "Leave it"
+     },
+     {
+      "choice": "decide-later",
+      "label": "Decide later"
+     },
+     {
+      "choice": "get-help",
+      "label": "Get experienced local help"
+     }
+    ],
+    "decision_notes": [],
+    "doesnt_match_choices": null,
+    "doesnt_match_notes": null,
+    "not_sure_choices": [
+     {
+      "choice": "leave",
+      "label": "Leave it"
+     },
+     {
+      "choice": "decide-later",
+      "label": "Decide later"
+     },
+     {
+      "choice": "get-help",
+      "label": "Get experienced local help"
+     }
+    ],
+    "headline_confidence": "Moderate",
+    "gate_conditions": {
+     "PKR-SGT-000001": "not_applicable_growing_season",
+     "PKR-SGT-000002": "applies",
+     "PKR-SGT-000003": "applies"
+    },
+    "cut_care_guidance": false,
+    "cut_method": [
+     {
+      "text": "Cut the blind shoot back so it can send up a new shoot that can flower later in the season.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Sources disagree on where to cut: one cuts it back by about half, to a strong bud; another cuts to the next leaf joint down.",
+      "kind": "disagreement"
+     },
+     {
+      "text": "One source removes a short blind shoot growing low on old wood completely.",
+      "confidence": "Moderate"
+     }
+    ]
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
    }
   },
   {
@@ -16156,7 +16873,7 @@
    "pkr_id": "PKR-OBS-000008",
    "version": "1.0",
    "pkr_type": "observation",
-   "status": "Published",
+   "status": "Retired",
    "title": "Blind shoots — healthy shoots with no flower bud at the tip",
    "common": {
     "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora rose (passed PKR-SGT-000003), in the growing season",
@@ -16223,6 +16940,75 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-02",
     "note": "Approved by Shaphan in chat, 2 October 2026 (Decisions 1(a), 2(a), 3(a); package \"yes\")."
+   }
+  },
+  {
+   "pkr_id": "PKR-OBS-000008",
+   "version": "1.1",
+   "pkr_type": "observation",
+   "status": "Published",
+   "title": "Blind shoots — healthy shoots with no flower bud at the tip",
+   "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora rose (passed PKR-SGT-000003), in the growing season",
+    "supporting_sources": [
+     "PKR-SRC-000141",
+     "PKR-SRC-000205",
+     "PKR-SRC-000211",
+     "PKR-SRC-000231",
+     "PKR-SRC-000238"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [
+     {
+      "relationship": "decided by",
+      "pkr_id": "PKR-DEC-000008"
+     },
+     {
+      "relationship": "related",
+      "pkr_id": "PKR-CGD-000008"
+     }
+    ],
+    "preserved_uncertainty": "The cause of blind shoots is not known (ARC-BUSHROSE-NOFLOWERS-01 AF-22, C-3). No source says what a photograph can show. No source says how soon a shoot without a bud counts as blind; Pip offers this check only once other shoots have buds or flowers (approved default, Decision 2).",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "key": "blind-shoot",
+    "feature": "Blind shoots",
+    "session": "growing-season",
+    "journey_order": 100,
+    "look_for": "Let's check for blind shoots. A blind shoot grows and leafs normally, but has no flower bud at its tip.",
+    "criteria": [
+     {
+      "text": "The shoot and its leaves can look perfectly healthy.",
+      "confidence": "High"
+     },
+     {
+      "text": "One source says the tip may be missing or dried up.",
+      "confidence": "Moderate"
+     }
+    ],
+    "photo_limit": "I can't confirm a blind shoot from a photo. Look at the tip of the shoot itself.",
+    "confirm_question": "Look closely at the very tip of the shoot. Is there a flower bud there?",
+    "confirm_label": "No bud at the tip",
+    "doesnt_match_label": "There's a bud",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": "Then it isn't a blind shoot.",
+    "not_sure_guidance": "That's alright. Look again at the tip on the plant, not in a photo.",
+    "any_more_question": "Can you see any more shoots like this, with leaves but no bud at the tip?",
+    "comparison_images": [],
+    "offer_when": {
+     "question": "Do other shoots on your rose already have flower buds or flowers?",
+     "yes": "Yes",
+     "not_yet": "Not yet",
+     "not_sure": "Not sure",
+     "not_yet_note": "Then it's too early to call a shoot blind. Come back to this check once other shoots on your rose have buds or flowers."
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
    }
   },
   {
@@ -16318,7 +17104,7 @@
    "pkr_id": "PKR-SGT-000001",
    "version": "1.2",
    "pkr_type": "suitability_gate",
-   "status": "Published",
+   "status": "Retired",
    "title": "Dormancy gate — is the rose in the window for structural pruning?",
    "common": {
     "applies_to": "Established bush rose. Prerequisite for structural and whole-bush pruning (PKR-OBS/DEC-000002, 000005, 000006, and any shortening or shaping of healthy canes). Does not govern removal of wood confirmed dead, damaged or diseased (PKR-DEC-000001, PKR-DEC-000004), which follows the removal-only session.",
@@ -16401,6 +17187,96 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-17",
     "note": "Older answers check, batch 1: a Founder approved Pip's corrected answers in chat on 17 October 2026 ('approve'), after reading Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md, with no change. Version 1.2: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.1 retired."
+   }
+  },
+  {
+   "pkr_id": "PKR-SGT-000001",
+   "version": "1.3",
+   "pkr_type": "suitability_gate",
+   "status": "Published",
+   "title": "Dormancy gate — is the rose in the window for structural pruning?",
+   "common": {
+    "applies_to": "Established bush rose. Prerequisite for structural and whole-bush pruning (PKR-OBS/DEC-000002, 000005, 000006, and any shortening or shaping of healthy canes). Does not govern removal of wood confirmed dead, damaged or diseased (PKR-DEC-000001, PKR-DEC-000004), which follows the removal-only session.",
+    "supporting_sources": [
+     "PKR-SRC-000002",
+     "PKR-SRC-000003",
+     "PKR-SRC-000004",
+     "PKR-SRC-000007",
+     "PKR-SRC-000016",
+     "PKR-SRC-000017",
+     "PKR-SRC-000018",
+     "PKR-SRC-000019",
+     "PKR-SRC-000020",
+     "PKR-SRC-000021",
+     "PKR-SRC-000022",
+     "PKR-SRC-000023",
+     "PKR-SRC-000024",
+     "PKR-SRC-000065",
+     "PKR-SRC-000069",
+     "PKR-SRC-000090",
+     "PKR-SRC-000095",
+     "PKR-SRC-000131",
+     "PKR-SRC-000163",
+     "PKR-SRC-000164",
+     "PKR-SRC-000165",
+     "PKR-SRC-000166",
+     "PKR-SRC-000167",
+     "PKR-SRC-000168",
+     "PKR-SRC-000169",
+     "PKR-SRC-000170",
+     "PKR-SRC-000171",
+     "PKR-SRC-000180"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "AF-3 (Moderate): in mild or warm-winter climates, full leaf loss may not occur and premature bud break is a documented risk — the gardener should judge dormancy by bud state specifically, not by whether leaves are present. A follow-up commission (FRD-BUSHROSE-DORMANCY-02, submitted alongside this package) is testing whether the bud-swell signal itself needs a stated mild-climate exception; this gate's wording will be revised if that research changes the picture.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "question": "Look closely at the buds along your rose's canes. Are they still tight and closed, or just beginning to swell? Or have leaves opened and new shoots started to grow?",
+    "caveat": "In a mild winter, a rose may keep some of its leaves, so judge by the buds, not by whether the leaves have dropped. Warm spells can also start buds growing early.",
+    "answers": {
+     "dormant": "Still dormant — buds are tight and closed, or just beginning to swell; no new leaves have opened anywhere",
+     "growing": "Active new growth is already well underway — leaves have opened and new shoots are clearly growing",
+     "notSure": "Not sure"
+    },
+    "notSureFallback": "That's alright — have another look at the buds, not the leaves: are they still tight and closed, or have any started to swell or open?",
+    "removalOnly": {
+     "intro": {
+      "text": "Your rose is already growing, so full pruning now is likely to reduce or delay flowering. One source says pruning is fine until there is a couple of inches of new growth. You can still remove wood that is dead, damaged or diseased.",
+      "confidence": "Moderate"
+     },
+     "notSureIntro": "Since I can't be sure your rose is still dormant, I'll leave full pruning for now. You can still remove wood that is dead, damaged or diseased.",
+     "conditions": [
+      {
+       "text": "Remove only the wood you are sure is dead, damaged or diseased. Heavy pruning of healthy canes at this stage can reduce flowering.",
+       "confidence": "Moderate"
+      },
+      {
+       "text": "Go gently and avoid damaging the new leaves.",
+       "confidence": "Low",
+       "kind": "precaution"
+      },
+      {
+       "text": "Cut back to healthy wood, where the inside of the cane (the pith) is white.",
+       "confidence": "Moderate"
+      },
+      {
+       "text": "For anything that looks like canker (sunken, discoloured patches on a cane) or other disease, cut well below the affected part, and bin the prunings or burn them where local rules allow.",
+       "confidence": "Moderate"
+      }
+     ],
+     "lateSeason": {
+      "text": "Pruning late in the growing season is discouraged, because it can encourage new growth that winter cold may damage. Diseased wood can still be cut out, including in the autumn, and dead and damaged wood can be removed at any time.",
+      "confidence": "Moderate"
+     }
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.3: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.2 retired."
    }
   },
   {
@@ -16605,7 +17481,7 @@
    "pkr_id": "PKR-SGT-000003",
    "version": "1.1",
    "pkr_type": "suitability_gate",
-   "status": "Published",
+   "status": "Retired",
    "title": "Rose-type gate — is this rose a supported bush-rose type?",
    "common": {
     "applies_to": "Any rose a gardener brings to the pruning journey. This prerequisite check runs before every other gate and every observation, dead wood included.",
@@ -16715,6 +17591,116 @@
     "published_to_lil_by": "KIT",
     "published_to_lil_at": "2026-10-01",
     "note": "v1.1 adds the label-abbreviation line (ARC-BUSHROSE-ROSETYPE-01 v1.2, AF-L30 to AF-L32, R-L6). Approved by Shaphan in chat, 1 October 2026. Supersedes v1.0."
+   }
+  },
+  {
+   "pkr_id": "PKR-SGT-000003",
+   "version": "1.2",
+   "pkr_type": "suitability_gate",
+   "status": "Published",
+   "title": "Rose-type gate — is this rose a supported bush-rose type?",
+   "common": {
+    "applies_to": "Any rose a gardener brings to the pruning journey. This prerequisite check runs before every other gate and every observation, dead wood included.",
+    "supporting_sources": [
+     "PKR-SRC-000033",
+     "PKR-SRC-000034",
+     "PKR-SRC-000035",
+     "PKR-SRC-000036",
+     "PKR-SRC-000037",
+     "PKR-SRC-000038",
+     "PKR-SRC-000039",
+     "PKR-SRC-000040",
+     "PKR-SRC-000041",
+     "PKR-SRC-000042",
+     "PKR-SRC-000043",
+     "PKR-SRC-000044",
+     "PKR-SRC-000045",
+     "PKR-SRC-000046",
+     "PKR-SRC-000047",
+     "PKR-SRC-000048",
+     "PKR-SRC-000181",
+     "PKR-SRC-000182",
+     "PKR-SRC-000183",
+     "PKR-SRC-000184",
+     "PKR-SRC-000185",
+     "PKR-SRC-000186",
+     "PKR-SRC-000187",
+     "PKR-SRC-000188",
+     "PKR-SRC-000189"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "(1) Pip can't tell a rose's type from photos or a dormant plant (AF-20, R-1). The gate relies entirely on what the gardener has been told. (2) Some cultivars are classed differently by different authorities (ARC §4, AF-5), so a stated type isn't infallible. (3) Grandiflora is included provisionally only. It's largely absent from NZ classification sources (AF-4), and Pip gives no Grandiflora-specific pruning guidance (R-4). (4) \"Ht\" and \"Fl\" are shop abbreviations that no source spells out; their meaning was shown by matching five Kings Plant Barn roses against nurseries that name the class in full (AF-L30, AF-L32). One Palmers title uses \"Ht\" on a rose its own page calls a Floribunda (AF-L31), so the hint says \"usually\". Either way the rose qualifies.",
+    "evidence_confidence": "Per claim — see content"
+   },
+   "content": {
+    "question": "Do you know what type of rose this is — from its label or pot tag, a receipt or nursery listing, or someone experienced who has told you?",
+    "labelAbbreviations": {
+     "text": "Don't rely on \"Ht\" or \"Fl\" in a rose's name to tell you its type: one New Zealand shop sells a rose as \"Ht\" that its own page describes as a Floribunda.",
+     "confidence": "Low",
+     "kind": "precaution",
+     "sources": [
+      "PKR-SRC-000188",
+      "PKR-SRC-000189"
+     ]
+    },
+    "answers": [
+     {
+      "id": "hybrid-tea",
+      "label": "Hybrid Tea (large-flowered)",
+      "passes": true
+     },
+     {
+      "id": "floribunda",
+      "label": "Floribunda (cluster-flowered)",
+      "passes": true
+     },
+     {
+      "id": "grandiflora",
+      "label": "Grandiflora",
+      "passes": true
+     },
+     {
+      "id": "excluded",
+      "label": "Another type (shrub, English, patio, miniature, groundcover, climbing or rambling, standard, old garden or species rose)",
+      "passes": false
+     },
+     {
+      "id": "bush-only",
+      "label": "The label only says \"bush rose\" or \"rose bush\"",
+      "passes": false
+     },
+     {
+      "id": "variety-only",
+      "label": "I know its variety name but not its type",
+      "passes": false
+     },
+     {
+      "id": "unknown",
+      "label": "I don't know",
+      "passes": false
+     }
+    ],
+    "grandifloraNote": "Grandiflora is supported provisionally. It gets the same guidance as a Hybrid Tea; there is no Grandiflora-specific advice.",
+    "roseFinder": {
+     "text": "The New Zealand Rose Society's Rose Finder lists a type for each rose it holds. Look the name up there, then answer this question again. If you can't find it, the answer is the same as \"I don't know\".",
+     "confidence": "Moderate",
+     "source": "PKR-SRC-000033"
+    },
+    "journalOnly": {
+     "base": "I can't yet help prune this rose. My pruning guidance so far covers only Hybrid Tea, Floribunda and Grandiflora bush roses.",
+     "excluded": "That type isn't one my pruning guidance covers yet.",
+     "bushOnly": "\"Bush\" on a label doesn't always say which type a rose is. At least one New Zealand nursery calls a shrub rose a \"bush\" rose.",
+     "unknown": "Without a confirmed type I can't be sure the guidance fits. I don't try to identify roses from photos, because telling one rose from another is difficult and depends on many parts of the plant.",
+     "keep": "Your rose stays in your garden list as a journal: photos, notes and history all remain available. If you later confirm it is a Hybrid Tea, Floribunda or Grandiflora, you can answer this question again.",
+     "help": "If you want the type identified, a local rose society or an experienced rose grower can help."
+    }
+   },
+   "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.2: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.1 retired."
    }
   },
   {

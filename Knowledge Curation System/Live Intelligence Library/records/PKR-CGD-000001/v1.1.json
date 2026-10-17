@@ -1,0 +1,58 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000001",
+  "version": "1.1",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Choosing, sharpening and cleaning pruning tools for a bush rose",
+  "common": {
+    "applies_to": "Established Hybrid Tea, Floribunda or Grandiflora bush rose (a rose that has passed PKR-SGT-000003); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000004",
+      "PKR-SRC-000006",
+      "PKR-SRC-000009",
+      "PKR-SRC-000013",
+      "PKR-SRC-000022",
+      "PKR-SRC-000051",
+      "PKR-SRC-000065",
+      "PKR-SRC-000066",
+      "PKR-SRC-000067",
+      "PKR-SRC-000108",
+      "PKR-SRC-000109",
+      "PKR-SRC-000110"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "The thickness at which hand pruners give way to loppers differs between sources: three-quarters of an inch in two rose sources, half an inch in a general woody-plant text (C8). Sources name bypass pruners without giving a reason, and one recommends anvil pruners for dead wood (C9). Sources differ on what to disinfect with and how often, and none cites evidence of effectiveness (C10). No source compares sharp and blunt tools directly; the advice rests on practitioner agreement (AF-27).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Your tools",
+    "label": null,
+    "items": [
+      {
+        "text": "Match the tool to the stem: bypass hand pruners for thin canes, loppers for thicker ones, and a pruning saw for the thickest or oldest canes.",
+        "confidence": "High"
+      },
+      {
+        "text": "Use bypass (scissor-action) pruners. Anvil pruners (which crush the stem against a flat edge) are fine for clearing dead wood only.",
+        "confidence": "Approved default"
+      },
+      {
+        "text": "Keep your tools sharp and clean, so each cut is clean and doesn't crush the cane.",
+        "confidence": "High"
+      },
+      {
+        "text": "Clean your blades between plants, and after cutting out diseased wood, so you don't spread disease from one plant to another.",
+        "confidence": "Moderate",
+        "kind": "precaution"
+      }
+    ]
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+  }
+}

@@ -3,7 +3,7 @@
   "pkr_id": "PKR-SGT-000003",
   "version": "1.1",
   "pkr_type": "suitability_gate",
-  "status": "Published",
+  "status": "Retired",
   "title": "Rose-type gate — is this rose a supported bush-rose type?",
   "common": {
     "applies_to": "Any rose a gardener brings to the pruning journey. This prerequisite check runs before every other gate and every observation, dead wood included.",

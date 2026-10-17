@@ -4,12 +4,12 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.13
+**Version:** 0.14
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `AI/Context/Ask_Pip_App_Build_Status_Context.md`
-**Last Updated:** 17 October 2026
+**Last Updated:** 18 October 2026
 **Purpose:** To give any artificial intelligence (AI) or Founder a current, accurate snapshot of what is actually built in the Ask Pip application, what is deliberately deferred and why, and what remains blocked pending Founder-approved knowledge — without requiring that state to be reconstructed from git history, conversation history or a fresh reading of every source file.
 **Related Documents:** `AGENTS.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `MVP/Architecture/Ask_Pip_App_Engineering_Architecture.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `Working/AI Outputs/Ask_Pip_Bush_Rose_Guided_Journey_Flow_Proposal.md`; `AI/Context/Ask_Pip_App_Known_Issues_and_Process_Notes_Context.md`
 
@@ -209,6 +209,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **7 October 2026 (Version 0.6):** §3.5 rewritten for places inside a country (regions, groups of regions and towns, worked out on the device, with the gardener asked near a region's edge) and for the month-level timing question.
 
 - **7 October 2026 (Version 0.7):** New Zealand month-level timing approved and its records in the snapshot; the place test rerun against the published records.
+- **18 October 2026 (Version 0.14):** Older answers check, batch 3 approved and in the snapshot: PKR-SGT-000001 v1.3 (removal-only session), PKR-SGT-000003 v1.2, PKR-CGD-000001 to -000008 (CGD-001/002 v1.1, CGD-003 v1.2, CGD-004/005/006 v1.1, CGD-007/008 v1.2), PKR-OBS/DEC-000008 v1.1. App change: `RoseTypeQuestion.tsx` shows the label line's tag. The older-answers check is complete: every answer published before the Build Check has now been checked. Checked by running the app's data code against the new snapshot (gates, cutting guide, care answers, blind-shoot check); the app build passes. Not opened in a browser.
 - **17 October 2026 (Version 0.13):** Older answers check, batch 2 approved and in the snapshot: PKR-OBS/DEC-000004 (1.1/1.2), -000005 (1.1/1.2), -000006 (1.2/1.2). App change: `StatementList` in `App/src/components/PkrStatements.tsx` now shows each statement's tag ("Precaution", "Sources disagree") and its limit in the pruning steps and the blind-shoot check, as the common-question answers already did. Checked by rendering the list and running the journey code against the new snapshot; the app build passes. Not opened in a browser.
 - **17 October 2026 (Version 0.12):** Older answers check, batch 1 approved and in the snapshot: PKR-SGT-000001 v1.2, PKR-SGT-000002 v1.1, PKR-OBS/DEC-000001 (1.1/1.2), -000002 (1.1/1.1), -000007 (1.1/1.1); PKR-OBS/DEC-000003 retired. One app change: an unknown planting date gets the dead-wood-only check when the gate has no fallback questions. Checked by running the app's gate and journey code against the new snapshot (six pruning steps; recent and unknown give dead wood only); the app build passes. Not opened in a browser.
 - **16 October 2026 (Version 0.11):** Canadian month-level timing approved and in the snapshot (five timing records at Version 1.4); nine Canadian towns and areas added to the named towns. Checked by running the app's place code against the published statements for 24 test plants; the app build passes. Not opened in a browser.

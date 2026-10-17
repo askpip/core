@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-ROSETYPE-01** |
 | ARC Title | Recognising a Supported Rose Type: Bush Rose Scope Qualification for the Ask Pip MVP |
-| Version | 1.3 |
+| Version | 1.4 |
 | Approval Status | **Approved** |
 | Approval Date | 28 September 2026 (v1.0); 1 October 2026 (v1.1, retail-labelling findings; v1.2, "Ht"/"Fl" addendum) |
 | Approving Authority | AskPIP Founder Authority (Shaphan and Karla, both via Review Form; AF-21/AF-22 exclusion at Shaphan's subsequent direction; v1.1 retail-labelling findings approved by Shaphan in chat, 1 October 2026 — see §2) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-ROSETYPE-01` §8 (all 24 Assessed Findings; AF-21 and AF-22 assessed there but not carried into this ARC — see §2); retail-labelling findings embedded within `FRD-BUSHROSE-ROSETYPE-LABELS-01` §8 (all 29 Assessed Findings, carried here as AF-L1 to AF-L29) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | `FRD-BUSHROSE-SCOPE-01` (the approved Bush Rose scope this ARC qualifies against — patio exclusion and provisional Grandiflora inclusion both reaffirmed here, §5). Companion research `FRD-BUSHROSE-ROSETYPE-LABELS-01` (rose-type retail labelling across New Zealand, Australia, the United Kingdom and the United States) was pending its own Founder decision at v1.0 and is incorporated in v1.1 as AF-L1 to AF-L29. |
-| Revision History | v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-ROSETYPE-01`, Founder-approved for AF-1 to AF-24 with AF-21 and AF-22 excluded from the approved record (§2). v1.1 — 1 October 2026 — incorporates `FRD-BUSHROSE-ROSETYPE-LABELS-01` (AF-1 to AF-29, carried here as AF-L1 to AF-L29 so they cannot be confused with this ARC's own AF-1 to AF-24), its approved defaults and a source key (§8). No v1.0 finding, confidence level or decision changes. v1.2 — 1 October 2026 — adds the addendum `FRD-BUSHROSE-ROSETYPE-LABELS-02` (what "Ht" and "Fl" mean in New Zealand rose product names) as AF-L30 to AF-L32, default R-L6 and its sources (§8). Nothing earlier changes. v1.3 — 2 October 2026 — records the Founder's Review Form for `FRD-BUSHROSE-ROSETYPE-LABELS-01` and his confirmation of approval in chat (§2, v1.3); Grandiflora by market (R-L4) restated as same treatment everywhere until the Grandiflora scope decision, then varied by market. No finding or Evidence Confidence Level changes. |
+| Revision History | v1.4 — 18 October 2026 — Build Check Corrections added (older-answers check, batch 3). v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-ROSETYPE-01`, Founder-approved for AF-1 to AF-24 with AF-21 and AF-22 excluded from the approved record (§2). v1.1 — 1 October 2026 — incorporates `FRD-BUSHROSE-ROSETYPE-LABELS-01` (AF-1 to AF-29, carried here as AF-L1 to AF-L29 so they cannot be confused with this ARC's own AF-1 to AF-24), its approved defaults and a source key (§8). No v1.0 finding, confidence level or decision changes. v1.2 — 1 October 2026 — adds the addendum `FRD-BUSHROSE-ROSETYPE-LABELS-02` (what "Ht" and "Fl" mean in New Zealand rose product names) as AF-L30 to AF-L32, default R-L6 and its sources (§8). Nothing earlier changes. v1.3 — 2 October 2026 — records the Founder's Review Form for `FRD-BUSHROSE-ROSETYPE-LABELS-01` and his confirmation of approval in chat (§2, v1.3); Grandiflora by market (R-L4) restated as same treatment everywhere until the Grandiflora scope decision, then varied by market. No finding or Evidence Confidence Level changes. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01`; `Working/AI Outputs/Photo_and_Comparison_Image_Requirements_Rose_Types.md` and `Working/AI Outputs/Ask_Pip_Rose_Type_Comparison_Image_Sourcing_Brief.md` (downstream production work drawn from this ARC's approved findings, not themselves findings of this commission) |
 
@@ -848,6 +848,22 @@ The sources relied on for AF-L1 to AF-L29, as recorded in `FRD-BUSHROSE-ROSETYPE
 | WAI-LG | Wairere Nursery, "Legend" product page | Nursery, New Zealand | https://www.wairere.nz/Roses/Hybrid-Tea/Legend-Rose |
 | PAL-FO | Palmers, "Fordell Ht 4.7L" product page | Garden centre, New Zealand | https://www.palmers.co.nz/products/998165190 |
 | PAL-MD | Palmers, "My Daughter Bush Fl" product page | Garden centre, New Zealand | https://www.palmers.co.nz/products/998157152 |
+
+---
+
+## Build Check Corrections (18 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 3, every source page was reopened with WebFetch and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md` (§3) and approved by a Founder in chat on 18 October 2026, as §14.4 requires for an approved ARC. Where they differ from the findings above, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH3_sources_2026-10-18.json` (and, for the main-framework research, `Build_Check_OLDER-BATCH2_sources_2026-10-17.json`) and `Build_Check_OLDER-BATCH3_statements_v0.1_2026-10-18.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-17 | NZ retailers use 'bush' for patio, shrub-category and groundcover roses | Reword to: a New Zealand nursery (Wairere) calls a shrub rose a 'bush'; Tesselaar (AU/NZ) calls its groundcover roses a 'bush'. Drop patio. Drop Yates and Tui as support (they show 'bush' used for a growth-habit group and 'standard and bush', not other types). | Moderate → Low | No page supports patio; two of five pages 'no'; others each show one sense |
+| AF-24 | Sources point to a rose society, rosarian or second opinion | Say 'a rose society or an experienced rose grower'. NZ Rose Society page supports the rose society part only. | Moderate → Moderate | One source mentions only a local rose society |
+| AF-4 | Grandiflora in US and some NZ consumer sources but not in NZ Rose Society list or two NZ nurseries' lists | Keep, but drop the Rose Society of NSW (Australian) as support for the NZ-absence part; US pages support the 'appears' half only. State the absence from the NZ Rose Society list and Matthews as the confirmed part. | Moderate → Moderate | Australian list is not an NZ source; Plant Store has no wording |
+| AF-L30 | Kings 'Bush Rose Ht' titles are Hybrid Teas, 'Fl' are Floribunda, in every case checked | Record only that Kings titles carry 'Ht'/'Fl'; no checked page states what the letters mean. The mapping came from matching names across other shops, which is an inference. Not available to Pip. | Moderate → Very Low (kept on record, not used) | All seven pages 'supports: no' |
+| AF-L31 | Palmers uses Ht and Fl in titles; one Ht title is on a rose its page calls a Floribunda | Keep as: at Palmers, 'Fordell Ht' is described on its own page as a Floribunda, and 'My Daughter Bush Fl' as Floribunda. Drop the Matthews page as support for Palmers' labelling. Single retailer, so say one source. | Moderate → Low (local, one source) | Palmers pages support it; Matthews page says nothing of Palmers; one retailer only |
+
+**Effect on Pip's answers.** PKR-SGT-000003 v1.2: the "Ht"/"Fl" line becomes a Low precaution against relying on the letters (AF-L31); the "bush" line narrowed to a shrub-rose example; "unreliable even for experts" replaced with AF-20's reason.
 
 ---
 

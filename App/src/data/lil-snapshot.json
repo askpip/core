@@ -3,7 +3,7 @@
  "records": [
   {
    "pkr_id": "PKR-CGD-000001",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "Choosing, sharpening and cleaning pruning tools for a bush rose",
    "common": {
@@ -22,7 +22,7 @@
      "PKR-SRC-000109",
      "PKR-SRC-000110"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [],
     "preserved_uncertainty": "The thickness at which hand pruners give way to loppers differs between sources: three-quarters of an inch in two rose sources, half an inch in a general woody-plant text (C8). Sources name bypass pruners without giving a reason, and one recommends anvil pruners for dead wood (C9). Sources differ on what to disinfect with and how often, and none cites evidence of effectiveness (C10). No source compares sharp and blunt tools directly; the advice rests on practitioner agreement (AF-27).",
     "evidence_confidence": "Per claim — see content"
@@ -36,11 +36,7 @@
       "confidence": "High"
      },
      {
-      "text": "Hand pruners are for stems up to about three-quarters of an inch (about 2 cm) thick. Use loppers or a saw above that.",
-      "confidence": "Low"
-     },
-     {
-      "text": "Use bypass (scissor-action) pruners. Anvil pruners are fine for clearing dead wood only.",
+      "text": "Use bypass (scissor-action) pruners. Anvil pruners (which crush the stem against a flat edge) are fine for clearing dead wood only.",
       "confidence": "Approved default"
      },
      {
@@ -48,15 +44,16 @@
       "confidence": "High"
      },
      {
-      "text": "Wipe the blades with 70 percent alcohol between plants, and after cutting out diseased wood. A sensible precaution, not a strict rule.",
-      "confidence": "Moderate"
+      "text": "Clean your blades between plants, and after cutting out diseased wood, so you don't spread disease from one plant to another.",
+      "confidence": "Moderate",
+      "kind": "precaution"
      }
     ]
    }
   },
   {
    "pkr_id": "PKR-CGD-000002",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "Making a pruning cut on a bush rose: removing a whole stem, or shortening one back to a bud",
    "common": {
@@ -90,7 +87,7 @@
      "PKR-SRC-000125",
      "PKR-SRC-000126"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [],
     "preserved_uncertainty": "Distance above the bud (C2): most sources say about a quarter inch; a few say up to half an inch. Both are defensible answers to the same tradeoff (too close risks killing the bud; too far risks the stub dying back). All the quarter-inch sources are from the United States. Slant direction (C3): most sources say \"away from the bud\"; a few say \"in the same direction as the bud\", and it's unresolved whether that's the same technique. Whether angle and bud direction matter at all (C11): rose societies in South Australia and South Africa say they matter little, or recommend a straight cut; neither gives a reason. The approved default keeps the majority convention. Sealing (C4, AF-30, AF-35): most sources, including every UK and New Zealand source, don't mention it. Where rose sources recommend it, the reason is to keep cane-boring insects out of the soft pith, not to help the cut heal. General tree research finds that wound dressings don't help healing, which answers a different question. No trial of sealed against unsealed rose canes was found. Stubs (AF-29): five of the nine sources are about dead canes, so whether the rule applies equally to every kind of removal isn't directly addressed. Two kinds of cut (AF-31): only one of the three sources is rose-specific. Outward bud (AF-21): two sources allow an exception for a cane that already spreads sideways.",
     "evidence_confidence": "Per claim — see content"
@@ -108,27 +105,23 @@
       "confidence": "High"
      },
      {
-      "text": "Cut about a quarter of an inch (about 6 mm) above the bud. Up to half an inch is also fine if you'd rather avoid the stub dying back.",
+      "text": "Cut about a quarter of an inch (about 6 mm) above the bud.",
       "confidence": "Moderate"
      },
      {
-      "text": "Make the cut on a slant, at roughly 45 degrees, not flat.",
+      "text": "Make the cut on a slant, at roughly 45 degrees, not flat. One rose society says not to worry about the angle.",
       "confidence": "Moderate"
-     },
-     {
-      "text": "Slant the cut away from the bud.",
-      "confidence": "Low"
      }
     ],
     "seal": {
-     "text": "On cuts roughly pencil-thick or larger, you can seal the end with wood glue, nail polish or pruning sealer, to keep cane-boring insects out. Thinner cuts don't need it.",
-     "confidence": "Moderate"
+     "text": "Sources disagree on sealing: some seal the cut end of a cane roughly pencil-thick or thicker with glue, nail polish or pruning sealer, to keep cane-boring insects out; another says sealing is not crucial.",
+     "kind": "disagreement"
     }
    }
   },
   {
    "pkr_id": "PKR-CGD-000003",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "care_guidance",
    "title": "Advisory: removing no more than about a third of a bush in one session (general pruning guidance, not rose-specific)",
    "common": {
@@ -150,7 +143,7 @@
      "PKR-SRC-000200",
      "PKR-SRC-000201"
     ],
-    "founder_approval_date": "2026-10-02",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [],
     "preserved_uncertainty": "This is a general rule for shrubs and trees, not tested on roses. One rose-specific source recommends a hard, one-time renovation instead, which suggests the rule is a cautious default rather than a rose requirement (AF-40). The NC State wording is about a plant's crown in any one year, not about a single session (WEAKCONGESTED AF-18). No source links the choice between one hard cutback and a staged approach to a particular bush's condition (AF-40). A fifth source listed for AF-40 (Colorado State University, Adams County) couldn't be confirmed and isn't cited. Rose sources measure the amount removed in different ways (share of growth, of height, or of cane length), so their figures and the one-third rule may not measure the same thing (ARC-BUSHROSE-HARDPRUNE-01 C-3).",
     "evidence_confidence": "Per claim — see content"
@@ -160,28 +153,25 @@
     "label": "General pruning guidance, with what rose growers do",
     "items": [
      {
-      "text": "A general pruning rule for shrubs and trees is to remove no more than about a third of a plant's growth in one session. Removing more can stress the plant, drain its stored energy and cause a flush of uncontrolled regrowth.",
-      "confidence": "Low"
+      "text": "One source says to remove no more than about a third of a plant's top growth in any one year.",
+      "confidence": "Low",
+      "kind": "precaution"
      },
      {
-      "text": "One general source puts it as no more than a third of a plant's crown in any one year.",
+      "text": "If an overgrown bush needs a lot taken off, some sources spread the work over two or three years, about a third at a time.",
       "confidence": "Moderate"
      },
      {
-      "text": "If an overgrown bush needs more than that, the same guidance spreads the work over two or three years, about a third at a time.",
-      "confidence": "Low"
+      "text": "Some rose sources renovate an old rose in one go instead of in stages.",
+      "confidence": "Moderate"
      },
      {
-      "text": "This rule hasn't been tested on roses, and at least one rose source recommends a single hard renovation instead. Treat it as a cautious guide, not a limit.",
-      "confidence": "Low"
-     },
-     {
-      "text": "Rose growers commonly remove more than this at winter pruning: about half to two-thirds of a Hybrid Tea's or Floribunda's growth or height.",
+      "text": "At winter pruning rose growers commonly remove from a third to two-thirds of a Hybrid Tea's or Floribunda's growth or height, with half to two-thirds the most usual figure.",
       "confidence": "High"
      },
      {
-      "text": "Some rose sources call cutting back by a third \"light\" pruning.",
-      "confidence": "Moderate"
+      "text": "Rose sources disagree on what to call cutting back by a third: some call it \"light\" pruning, and another calls it \"moderate\".",
+      "kind": "disagreement"
      }
     ],
     "presentation": {
@@ -190,7 +180,6 @@
      "applies_to_decisions": [
       "PKR-DEC-000001",
       "PKR-DEC-000002",
-      "PKR-DEC-000003",
       "PKR-DEC-000004",
       "PKR-DEC-000005",
       "PKR-DEC-000006"
@@ -200,7 +189,7 @@
   },
   {
    "pkr_id": "PKR-CGD-000004",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "Growing-season care for a Hybrid Tea, Floribunda or Grandiflora rose",
    "common": {
@@ -215,9 +204,9 @@
      "PKR-SRC-000136",
      "PKR-SRC-000137"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [],
-    "preserved_uncertainty": "Feeding and deadheading: when to stop depends on the region, and no single date is given (F4, F5). Mulch depth: sources give 2 to 4 inches (Source Register §3, matter 4). Watching for problems: this record doesn't diagnose anything (F6). The \"notice first\" framing rests on one source (F12). The claim that growing conditions cause most decline is also single-source (F13). Region: all sources are UK or US (ARC §5).",
+    "preserved_uncertainty": "Feeding and deadheading: when to stop depends on the region, and no single date is given (F4, F5). Watering amounts and mulch depth vary between sources and are given as ranges (F2, F3). This record doesn't diagnose anything (F6); the single-source warning-sign and growing-conditions lines were removed at the Build Check (F12, F13, 18 October 2026). Region: sources are UK and US.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -225,32 +214,24 @@
     "label": null,
     "items": [
      {
-      "text": "Water deeply and less often, rather than a little and often. In the growing season, aim for roughly 1–2 inches (about 2.5–5 cm) of water a week, counting rain, when it's dry.",
+      "text": "Water deeply and less often, rather than a little and often. In the growing season, roughly 1–2 inches (about 2.5–5 cm) of water a week, counting rain, is a common guide when it's dry.",
+      "confidence": "Moderate"
+     },
+     {
+      "text": "Spread organic mulch about 2–4 inches (5–10 cm) deep around the base — bark, well-rotted manure, wood chips or pine needles — kept a few inches clear of the stems.",
       "confidence": "High"
      },
      {
-      "text": "Spread organic mulch about 2–3 inches (5–8 cm) deep around the base — bark, well-rotted manure, wood chips or pine needles — kept a few inches clear of the stems.",
-      "confidence": "High"
+      "text": "Start feeding in spring as new growth begins and feed again through summer. Stop by mid-to-late summer so new growth can toughen before winter; the last feeding date varies by region.",
+      "confidence": "Moderate"
      },
      {
-      "text": "Start feeding in spring as new growth begins, feed again through summer, and stop by mid-to-late summer so new growth can toughen before winter. Stop earlier where winter comes earlier.",
-      "confidence": "High"
-     },
-     {
-      "text": "Remove faded flowers through the growing season to encourage more. Stop in early-to-mid autumn, so the rose can form hips and slow down for winter.",
+      "text": "Remove faded flowers through the growing season to encourage more. Stop in early-to-mid autumn, so the rose can form hips (the round seed pods) and slow down for winter.",
       "confidence": "High"
      },
      {
       "text": "Watch for blackspot, powdery mildew, aphids and spider mites. Water at the base, or in the morning if you water from above, to keep the leaves drier.",
       "confidence": "High"
-     },
-     {
-      "text": "Look over the leaves, buds and stems regularly for yellowing, spots, dropping leaves, stunted or twisted growth, or fewer flowers. Noticing early is the useful first step.",
-      "confidence": "Moderate"
-     },
-     {
-      "text": "If your rose looks unwell, think about its growing conditions first: uneven watering, soggy soil or extreme weather. One extension service says these cause most decline.",
-      "confidence": "Low"
      }
     ],
     "disclosure": "This care advice comes mainly from UK and US gardening services. Timings and amounts may differ where you live."
@@ -258,7 +239,7 @@
   },
   {
    "pkr_id": "PKR-CGD-000005",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "Caring for a recently planted Hybrid Tea, Floribunda or Grandiflora rose",
    "common": {
@@ -271,9 +252,9 @@
      "PKR-SRC-000132",
      "PKR-SRC-000133"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [],
-    "preserved_uncertainty": "F7 concerns roughly the first year. F2's closer watering covers roughly the first two years. The pruning wait (PKR-SGT-000002) is about three years or more. These are three different questions and are stated separately, not merged (ARC F2 limitations). The gate's own question is about three years, so item 1 is worded for the gardener to apply if the rose went in within about the past year.",
+    "preserved_uncertainty": "F7 concerns roughly the first year. The pruning line matches PKR-SGT-000002 v1.1 (ARC-BUSHROSE-RECENTPLANT-01 AF-1 as corrected): rose sources leave a newly planted rose unpruned, apart from dead wood, until established, and give no number of years; K-State prunes at planting and RHS in the first winter. No page gives a period of closer watering, so none is stated (F2, as corrected).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -282,14 +263,14 @@
     "items": [
      {
       "text": "If your rose was planted within about the past year, leave as much of its leaves and stems as you can this first season. Only remove faded flowers, and don't cut stems for the vase. A new rose uses its leaves to make the energy it needs to grow roots.",
-      "confidence": "High"
+      "confidence": "Moderate"
      },
      {
-      "text": "Pay closer attention to watering for roughly the first two years after planting.",
-      "confidence": "High"
+      "text": "Water a newly planted rose regularly.",
+      "confidence": "Moderate"
      },
      {
-      "text": "Full pruning usually waits until a rose has been in the ground about three years. I'll check this again next time.",
+      "text": "Most sources leave a newly planted rose unpruned, apart from dead wood, until it has established; two prune at planting or in the first winter.",
       "confidence": "Moderate"
      }
     ],
@@ -298,7 +279,7 @@
   },
   {
    "pkr_id": "PKR-CGD-000006",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "care_guidance",
    "title": "Preparing a Hybrid Tea, Floribunda or Grandiflora rose for winter",
    "common": {
@@ -312,7 +293,7 @@
      "PKR-SRC-000136",
      "PKR-SRC-000138"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [],
     "preserved_uncertainty": "Winter mounding applies where winters bring hard frosts (F9). Mound heights vary between sources, from 8 to 18 inches, around the common 10–12 (Source Register §3, matter 4). Collars and wraps rest on two sources and are described particularly for climbing roses or exposed sites (F10). All sources are from the US (ARC §5).",
     "evidence_confidence": "Per claim — see content"
@@ -322,11 +303,11 @@
     "label": "If your winters bring hard frosts…",
     "items": [
      {
-      "text": "Once the rose has had several hard frosts and gone dormant, mound soil, compost or mulch about 10–12 inches (25–30 cm) high around the base, covering the graft union. Remove the mound in spring once hard frosts have passed.",
-      "confidence": "Very High"
+      "text": "Once the rose has had hard frosts and gone dormant, mound soil, compost or mulch about 10–12 inches (25–30 cm) high around the base, covering the graft union (the swollen join near the base); one source says up to 18 inches (45 cm). Remove the mound in spring once hard frosts have passed.",
+      "confidence": "High"
      },
      {
-      "text": "For colder or exposed spots, sources also describe a collar of tar paper or wire mesh filled with straw, pine bark or peat moss, or wrapping canes in burlap or evergreen boughs.",
+      "text": "In colder or more exposed spots, you can also wrap the canes in burlap or evergreen boughs. One source also builds a collar of tar paper or wire mesh around the rose and fills it with straw, pine bark or peat moss.",
       "confidence": "Moderate"
      },
      {
@@ -334,12 +315,12 @@
       "confidence": "Moderate"
      }
     ],
-    "disclosure": "This care advice comes mainly from UK and US gardening services. Timings and amounts may differ where you live."
+    "disclosure": "This care advice comes mainly from US gardening services. Timings and amounts may differ where you live."
    }
   },
   {
    "pkr_id": "PKR-CGD-000007",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "care_guidance",
    "title": "Can pruning too hard kill or harm my rose?",
    "common": {
@@ -370,7 +351,7 @@
      "PKR-SRC-000201",
      "PKR-SRC-000203"
     ],
-    "founder_approval_date": "2026-10-02",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [
      {
       "relationship": "related",
@@ -389,19 +370,16 @@
     "label": null,
     "items": [
      {
-      "text": "Rose societies, rose growers and a botanic garden in New Zealand, Australia, the UK and the US say pruning, even hard or badly done, doesn't kill an established rose.",
+      "text": "Pruning, even hard or badly done, doesn't kill an established rose that is otherwise healthy.",
       "confidence": "High"
      },
      {
-      "text": "Some of them add conditions: the rose is otherwise healthy, it isn't cut below the ground line, and its roots are intact.",
-      "confidence": "Moderate"
+      "text": "One source says a rose will survive pruning unless it is cut below the ground line.",
+      "confidence": "Low",
+      "kind": "precaution"
      },
      {
-      "text": "The cut sources say can lose a rose is one made below the graft or below the ground line.",
-      "confidence": "Moderate"
-     },
-     {
-      "text": "A weak or slow-growing rose is pruned less hard than a vigorous one. Within a bush, sources still cut single weak shoots back further or remove them.",
+      "text": "A weak or slow-growing rose is pruned less hard than a vigorous one. Within a bush, weak shoots are cut back further.",
       "confidence": "Moderate"
      },
      {
@@ -409,7 +387,7 @@
       "confidence": "High"
      },
      {
-      "text": "Sources describe any harm from pruning too hard as a short-term setback. One says the first year after a hard pruning is a recovery year.",
+      "text": "Harm from pruning too hard is usually only a short-term setback. One source says the first year after a hard pruning is a recovery year for growth.",
       "confidence": "Moderate"
      },
      {
@@ -417,11 +395,11 @@
       "confidence": "Moderate"
      },
      {
-      "text": "My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and none gives a rule for choosing.",
+      "text": "My approach to a heavy renovation is to spread it over two or three years, about a third at a time. Some sources do it all in one go, and I couldn't find a rule for roses on which to choose.",
       "confidence": "Approved default"
      },
      {
-      "text": "Sources give no signs or waiting time for judging recovery. If no new growth appears during the growing season, ask your local rose society.",
+      "text": "I couldn't find signs, or a waiting time, for judging whether a hard-pruned rose is recovering. If no new growth appears during the growing season, ask your local rose society.",
       "confidence": "Approved default"
      }
     ],
@@ -433,7 +411,7 @@
   },
   {
    "pkr_id": "PKR-CGD-000008",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "care_guidance",
    "title": "Why isn't my rose flowering?",
    "common": {
@@ -478,7 +456,7 @@
      "PKR-SRC-000237",
      "PKR-SRC-000238"
     ],
-    "founder_approval_date": "2026-10-02",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [
      {
       "relationship": "related",
@@ -497,7 +475,7 @@
     "label": null,
     "items": [
      {
-      "text": "I can't tell you which reason applies to your rose. Here are the reasons sources give, with what to look for and what they suggest.",
+      "text": "I can't tell you which reason applies to your rose. Here are the common reasons, with what to look for and what helps.",
       "confidence": "Approved default"
      },
      {
@@ -505,11 +483,11 @@
       "confidence": "High"
      },
      {
-      "text": "Sources give a minimum of four to eight hours of direct sun a day. Six is the most common figure.",
+      "text": "Roses need at least four to eight hours of direct sun a day. Six is the figure most often given.",
       "confidence": "Moderate"
      },
      {
-      "text": "Trees and shrubs nearby compete with a rose for light, water and food. Sources advise planting roses away from them.",
+      "text": "Tree roots and nearby shrubs compete with a rose for water and food. Plant roses away from them.",
       "confidence": "Moderate"
      },
      {
@@ -517,15 +495,15 @@
       "confidence": "High"
      },
      {
-      "text": "Too little feeding is also given as a reason, and feeding as a remedy. My care tips give the feeding pattern.",
+      "text": "Too little feeding can also mean fewer flowers, and feeding helps.",
       "confidence": "Moderate"
      },
      {
-      "text": "Too little water, or drought, reduces flowering. Sources describe pale, limp leaves, dropped leaves and small flowers.",
+      "text": "Too little water, or drought, can reduce flowering. A rose short of water may drop leaves and make small flowers. Pale, limp leaves can also come from afternoon heat.",
       "confidence": "Moderate"
      },
      {
-      "text": "Pruning too much, too little or at the wrong time is listed as a reason. No source says where too much begins.",
+      "text": "Pruning too hard, too little or at the wrong time can mean fewer flowers. I couldn't find how much pruning is too much; a local rose society can help.",
       "confidence": "Moderate"
      },
      {
@@ -553,31 +531,31 @@
       "confidence": "Moderate"
      },
      {
-      "text": "Sources cut a blind shoot back to get a new shoot that can flower. The RHS cuts it back by half to a strong bud. Others cut to the next leaf joint down, or to the next full five-leaflet leaf.",
+      "text": "Cut a blind shoot back so it can send up a new shoot that flowers later in the season. Sources disagree on where to cut: one cuts it back by about half, to a strong bud; another cuts to the next leaf joint down.",
+      "kind": "disagreement"
+     },
+     {
+      "text": "One source says buds that form but don't open after cool, wet weather may be \"balled\": the outer petals dry into a brown, papery shell.",
       "confidence": "Moderate"
      },
      {
-      "text": "Buds that form but don't open after cool, wet weather may be \"balled\": the bud feels soft and its outer petals turn brown and papery.",
+      "text": "Remove balled buds promptly, before grey mould sets in. One source also suggests better air flow around the plant and watering at the base, not over the leaves.",
       "confidence": "Moderate"
      },
      {
-      "text": "Sources remove balled or rotting buds promptly, and suggest better air flow around the plant and watering at the base, not over the leaves.",
+      "text": "Spotted petals with grey fuzz may point to grey mould (botrytis), which is more common in cool, wet weather.",
       "confidence": "Moderate"
      },
      {
-      "text": "Sources link spotted petals with grey fuzz to grey mould (botrytis), which is more common in cool, wet weather.",
-      "confidence": "Moderate"
-     },
-     {
-      "text": "Sources link brown or white streaks on petals, or distorted flowers, to thrips.",
+      "text": "Brown or white streaks on petals, or distorted flowers, may point to thrips (tiny insects that feed on flowers).",
       "confidence": "High"
      },
      {
-      "text": "Sources link holes in buds, with caterpillars, to budworm.",
+      "text": "Holes in buds, with caterpillars, may point to budworm (caterpillars that feed on buds).",
       "confidence": "Moderate"
      },
      {
-      "text": "Black spot (dark spots on the leaves, then yellowing and leaf drop) weakens a rose so it flowers less.",
+      "text": "Black spot (dark spots on the leaves, then yellowing and leaf drop) can weaken a rose. Repeated severe leaf loss means fewer, poorer flowers.",
       "confidence": "Moderate"
      },
      {
@@ -6348,7 +6326,7 @@
   },
   {
    "pkr_id": "PKR-DEC-000008",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "decision_logic",
    "title": "Blind shoot — what to do once confirmed",
    "common": {
@@ -6358,7 +6336,7 @@
      "PKR-SRC-000231",
      "PKR-SRC-000238"
     ],
-    "founder_approval_date": "2026-10-02",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [
      {
       "relationship": "governed by",
@@ -6369,7 +6347,7 @@
       "pkr_id": "PKR-CGD-000002"
      }
     ],
-    "preserved_uncertainty": "Sources differ on where to cut (ARC-BUSHROSE-NOFLOWERS-01 C-4). The RHS cut point is used, per Founder decision D6(a).",
+    "preserved_uncertainty": "Sources differ on where to cut (ARC-BUSHROSE-NOFLOWERS-01 C-4): RHS cuts back by half to a strong bud; a public rose garden cuts to the next leaf joint down. Both are shown as 'Sources disagree' (Founder approval of 18 October 2026, replacing decision D6(a), which used the RHS cut point alone). A breeder's third cut point is not shown (Founder direction of 8 October 2026).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -6418,12 +6396,12 @@
     "cut_care_guidance": false,
     "cut_method": [
      {
-      "text": "Cut the blind shoot back by about half, to a strong bud. This should give a new shoot that can flower later in the season.",
+      "text": "Cut the blind shoot back so it can send up a new shoot that can flower later in the season.",
       "confidence": "Moderate"
      },
      {
-      "text": "Other sources cut to the next leaf joint down, or to the next full five-leaflet leaf. Sources differ on where to cut.",
-      "confidence": "Moderate"
+      "text": "Sources disagree on where to cut: one cuts it back by about half, to a strong bud; another cuts to the next leaf joint down.",
+      "kind": "disagreement"
      },
      {
       "text": "One source removes a short blind shoot growing low on old wood completely.",
@@ -6981,7 +6959,7 @@
   },
   {
    "pkr_id": "PKR-OBS-000008",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "observation",
    "title": "Blind shoots — healthy shoots with no flower bud at the tip",
    "common": {
@@ -6993,7 +6971,7 @@
      "PKR-SRC-000231",
      "PKR-SRC-000238"
     ],
-    "founder_approval_date": "2026-10-02",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [
      {
       "relationship": "decided by",
@@ -7015,15 +6993,11 @@
     "look_for": "Let's check for blind shoots. A blind shoot grows and leafs normally, but has no flower bud at its tip.",
     "criteria": [
      {
-      "text": "The shoot and its leaves can look perfectly healthy; what's missing is a flower bud at the tip.",
+      "text": "The shoot and its leaves can look perfectly healthy.",
       "confidence": "High"
      },
      {
-      "text": "The tip may look empty, or dried up.",
-      "confidence": "High"
-     },
-     {
-      "text": "Nobody knows for certain what causes blind shoots.",
+      "text": "One source says the tip may be missing or dried up.",
       "confidence": "Moderate"
      }
     ],
@@ -7032,7 +7006,7 @@
     "confirm_label": "No bud at the tip",
     "doesnt_match_label": "There's a bud",
     "doesnt_match_route": "none",
-    "doesnt_match_note": "Then it isn't a blind shoot. Leave it to flower.",
+    "doesnt_match_note": "Then it isn't a blind shoot.",
     "not_sure_guidance": "That's alright. Look again at the tip on the plant, not in a photo.",
     "any_more_question": "Can you see any more shoots like this, with leaves but no bud at the tip?",
     "comparison_images": [],
@@ -7047,7 +7021,7 @@
   },
   {
    "pkr_id": "PKR-SGT-000001",
-   "version": "1.2",
+   "version": "1.3",
    "pkr_type": "suitability_gate",
    "title": "Dormancy gate — is the rose in the window for structural pruning?",
    "common": {
@@ -7082,7 +7056,7 @@
      "PKR-SRC-000171",
      "PKR-SRC-000180"
     ],
-    "founder_approval_date": "2026-10-17",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [],
     "preserved_uncertainty": "AF-3 (Moderate): in mild or warm-winter climates, full leaf loss may not occur and premature bud break is a documented risk — the gardener should judge dormancy by bud state specifically, not by whether leaves are present. A follow-up commission (FRD-BUSHROSE-DORMANCY-02, submitted alongside this package) is testing whether the bud-swell signal itself needs a stated mild-climate exception; this gate's wording will be revised if that research changes the picture.",
     "evidence_confidence": "Per claim — see content"
@@ -7098,31 +7072,32 @@
     "notSureFallback": "That's alright — have another look at the buds, not the leaves: are they still tight and closed, or have any started to swell or open?",
     "removalOnly": {
      "intro": {
-      "text": "Your rose is already growing, so this is not the time for full pruning. Pruning hard now can cost you flowers. But you can still remove wood that is dead, damaged or diseased.",
+      "text": "Your rose is already growing, so full pruning now is likely to reduce or delay flowering. One source says pruning is fine until there is a couple of inches of new growth. You can still remove wood that is dead, damaged or diseased.",
       "confidence": "Moderate"
      },
-     "notSureIntro": "Since we can't be sure your rose is still dormant, we'll leave full pruning for now — check back in a week or two. You can still remove wood that is dead, damaged or diseased today.",
+     "notSureIntro": "Since I can't be sure your rose is still dormant, I'll leave full pruning for now. You can still remove wood that is dead, damaged or diseased.",
      "conditions": [
       {
-       "text": "Remove only the wood you've confirmed. Don't shorten or shape healthy canes today.",
+       "text": "Remove only the wood you are sure is dead, damaged or diseased. Heavy pruning of healthy canes at this stage can reduce flowering.",
        "confidence": "Moderate"
       },
       {
-       "text": "Go gently and avoid damaging the new leaves and shoots.",
-       "confidence": "Low"
+       "text": "Go gently and avoid damaging the new leaves.",
+       "confidence": "Low",
+       "kind": "precaution"
       },
       {
-       "text": "Cut back until the pith is white or pale green, exactly as at any other time.",
+       "text": "Cut back to healthy wood, where the inside of the cane (the pith) is white.",
        "confidence": "Moderate"
       },
       {
-       "text": "For anything that looks like canker or disease, the usual care applies: cut well below the affected part, clean your blades, and bin the prunings.",
-       "confidence": "High"
+       "text": "For anything that looks like canker (sunken, discoloured patches on a cane) or other disease, cut well below the affected part, and bin the prunings or burn them where local rules allow.",
+       "confidence": "Moderate"
       }
      ],
      "lateSeason": {
-      "text": "Late in the season (advice only): sources advise against pruning late in the growing season, because it can encourage new growth that winter cold may damage. Diseased wood is the exception — remove it whenever you find it. Sources don't say whether dead (as distinct from diseased) wood is exempt.",
-      "confidence": "High"
+      "text": "Pruning late in the growing season is discouraged, because it can encourage new growth that winter cold may damage. Diseased wood can still be cut out, including in the autumn, and dead and damaged wood can be removed at any time.",
+      "confidence": "Moderate"
      }
     }
    }
@@ -7167,7 +7142,7 @@
   },
   {
    "pkr_id": "PKR-SGT-000003",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "suitability_gate",
    "title": "Rose-type gate — is this rose a supported bush-rose type?",
    "common": {
@@ -7199,7 +7174,7 @@
      "PKR-SRC-000188",
      "PKR-SRC-000189"
     ],
-    "founder_approval_date": "2026-10-01",
+    "founder_approval_date": "2026-10-18",
     "related_pkrs": [],
     "preserved_uncertainty": "(1) Pip can't tell a rose's type from photos or a dormant plant (AF-20, R-1). The gate relies entirely on what the gardener has been told. (2) Some cultivars are classed differently by different authorities (ARC §4, AF-5), so a stated type isn't infallible. (3) Grandiflora is included provisionally only. It's largely absent from NZ classification sources (AF-4), and Pip gives no Grandiflora-specific pruning guidance (R-4). (4) \"Ht\" and \"Fl\" are shop abbreviations that no source spells out; their meaning was shown by matching five Kings Plant Barn roses against nurseries that name the class in full (AF-L30, AF-L32). One Palmers title uses \"Ht\" on a rose its own page calls a Floribunda (AF-L31), so the hint says \"usually\". Either way the rose qualifies.",
     "evidence_confidence": "Per claim — see content"
@@ -7207,16 +7182,10 @@
    "content": {
     "question": "Do you know what type of rose this is — from its label or pot tag, a receipt or nursery listing, or someone experienced who has told you?",
     "labelAbbreviations": {
-     "text": "Some New Zealand shops shorten the type in a rose's name: \"Ht\" usually means Hybrid Tea and \"Fl\" usually means Floribunda. So a label like \"Bush Rose Ht\" does tell you the type.",
-     "confidence": "Moderate",
+     "text": "Don't rely on \"Ht\" or \"Fl\" in a rose's name to tell you its type: one New Zealand shop sells a rose as \"Ht\" that its own page describes as a Floribunda.",
+     "confidence": "Low",
+     "kind": "precaution",
      "sources": [
-      "PKR-SRC-000181",
-      "PKR-SRC-000182",
-      "PKR-SRC-000183",
-      "PKR-SRC-000184",
-      "PKR-SRC-000185",
-      "PKR-SRC-000186",
-      "PKR-SRC-000187",
       "PKR-SRC-000188",
       "PKR-SRC-000189"
      ]
@@ -7267,10 +7236,10 @@
     "journalOnly": {
      "base": "I can't yet help prune this rose. My pruning guidance so far covers only Hybrid Tea, Floribunda and Grandiflora bush roses.",
      "excluded": "That type isn't one my pruning guidance covers yet.",
-     "bushOnly": "\"Bush\" on a label doesn't say which type a rose is — garden retailers use it for patio, shrub and groundcover roses too.",
-     "unknown": "Without a confirmed type I can't be sure the guidance fits, and I don't try to identify roses from photos, because that's unreliable even for experts.",
+     "bushOnly": "\"Bush\" on a label doesn't always say which type a rose is. At least one New Zealand nursery calls a shrub rose a \"bush\" rose.",
+     "unknown": "Without a confirmed type I can't be sure the guidance fits. I don't try to identify roses from photos, because telling one rose from another is difficult and depends on many parts of the plant.",
      "keep": "Your rose stays in your garden list as a journal: photos, notes and history all remain available. If you later confirm it is a Hybrid Tea, Floribunda or Grandiflora, you can answer this question again.",
-     "help": "If you want the type identified, a local rose society or an experienced rose grower is the best place to ask."
+     "help": "If you want the type identified, a local rose society or an experienced rose grower can help."
     }
    }
   },

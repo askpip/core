@@ -1,0 +1,48 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-CGD-000005",
+  "version": "1.1",
+  "pkr_type": "care_guidance",
+  "status": "Published",
+  "title": "Caring for a recently planted Hybrid Tea, Floribunda or Grandiflora rose",
+  "common": {
+    "applies_to": "Hybrid Tea, Floribunda or Grandiflora rose that PKR-SGT-000002 has stopped (planted less than about three years ago, or establishment not shown)",
+    "supporting_sources": [
+      "PKR-SRC-000028",
+      "PKR-SRC-000111",
+      "PKR-SRC-000130",
+      "PKR-SRC-000131",
+      "PKR-SRC-000132",
+      "PKR-SRC-000133"
+    ],
+    "founder_approval_date": "2026-10-18",
+    "related_pkrs": [],
+    "preserved_uncertainty": "F7 concerns roughly the first year. The pruning line matches PKR-SGT-000002 v1.1 (ARC-BUSHROSE-RECENTPLANT-01 AF-1 as corrected): rose sources leave a newly planted rose unpruned, apart from dead wood, until established, and give no number of years; K-State prunes at planting and RHS in the first winter. No page gives a period of closer watering, so none is stated (F2, as corrected).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "heading": "Caring for a recently planted rose",
+    "label": null,
+    "items": [
+      {
+        "text": "If your rose was planted within about the past year, leave as much of its leaves and stems as you can this first season. Only remove faded flowers, and don't cut stems for the vase. A new rose uses its leaves to make the energy it needs to grow roots.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Water a newly planted rose regularly.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Most sources leave a newly planted rose unpruned, apart from dead wood, until it has established; two prune at planting or in the first winter.",
+        "confidence": "Moderate"
+      }
+    ],
+    "disclosure": "This care advice comes mainly from UK and US gardening services. Timings and amounts may differ where you live."
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH3-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-18",
+    "note": "Older answers check, batch 3: a Founder approved Pip's corrected answers in chat on 18 October 2026 ('push done, approve'), after reading Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+  }
+}

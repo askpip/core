@@ -1,23 +1,39 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 604,
+  "record_count": 616,
   "published_count": 471,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Choosing, sharpening and cleaning pruning tools for a bush rose",
       "sha256": "7bfb92fd619be57d85d2a588b58d857200f02f745144229a8e7b9bb6cbb84722"
+    },
+    {
+      "pkr_id": "PKR-CGD-000001",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Choosing, sharpening and cleaning pruning tools for a bush rose",
+      "sha256": "fc571d172cfcadb96b15b9790422eaa2e7b6509f3bec1e34bdb5dd0be3308fcb"
     },
     {
       "pkr_id": "PKR-CGD-000002",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Making a pruning cut on a bush rose: removing a whole stem, or shortening one back to a bud",
       "sha256": "ebb40b9f901948fd9044e52437c0aedcd6c67bc504bda243e98b38e2ec0f75b8"
+    },
+    {
+      "pkr_id": "PKR-CGD-000002",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Making a pruning cut on a bush rose: removing a whole stem, or shortening one back to a bud",
+      "sha256": "9ffcc2faaf1a01bfcc7f18e7d9d3356a57f6366781fc90a6fa8f156df837eaf8"
     },
     {
       "pkr_id": "PKR-CGD-000003",
@@ -31,33 +47,65 @@
       "pkr_id": "PKR-CGD-000003",
       "version": "1.1",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Advisory: removing no more than about a third of a bush in one session (general pruning guidance, not rose-specific)",
       "sha256": "10ef195513910976706cc9c6259171128e4c8befdc30d8172a8cfb48b87a3e22"
+    },
+    {
+      "pkr_id": "PKR-CGD-000003",
+      "version": "1.2",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Advisory: removing no more than about a third of a bush in one session (general pruning guidance, not rose-specific)",
+      "sha256": "ab7acdacf59237bb507d8c686614e2a70903a465d039ff7b2e1356100c269acb"
     },
     {
       "pkr_id": "PKR-CGD-000004",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Growing-season care for a Hybrid Tea, Floribunda or Grandiflora rose",
       "sha256": "831e8e5a39dfab4e153731fc0ae69f4889310f1c3068eaf56de39e6c20a59b65"
+    },
+    {
+      "pkr_id": "PKR-CGD-000004",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Growing-season care for a Hybrid Tea, Floribunda or Grandiflora rose",
+      "sha256": "c23eeffbab8abc65aabd9b929365e375cb921226fdb7f98bdfb0391cff47b40f"
     },
     {
       "pkr_id": "PKR-CGD-000005",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Caring for a recently planted Hybrid Tea, Floribunda or Grandiflora rose",
       "sha256": "fc09a85acb472832b85d3ebdc4bc0f3726df1278b1223a55e8a55f9ad7e2bd13"
+    },
+    {
+      "pkr_id": "PKR-CGD-000005",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Caring for a recently planted Hybrid Tea, Floribunda or Grandiflora rose",
+      "sha256": "11fe24d2304008f3812ed2129c91e893d9461473e0d0ee1a6950658c86fef427"
     },
     {
       "pkr_id": "PKR-CGD-000006",
       "version": "1.0",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Preparing a Hybrid Tea, Floribunda or Grandiflora rose for winter",
       "sha256": "138e60f617db406dcaee75663e73835eebec00e31468691bcd3785217f9109b7"
+    },
+    {
+      "pkr_id": "PKR-CGD-000006",
+      "version": "1.1",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Preparing a Hybrid Tea, Floribunda or Grandiflora rose for winter",
+      "sha256": "0725dab290d60b2bf60be01dcaf07ddd5d59157dca074882991c1cefda57dccd"
     },
     {
       "pkr_id": "PKR-CGD-000007",
@@ -71,9 +119,17 @@
       "pkr_id": "PKR-CGD-000007",
       "version": "1.1",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Can pruning too hard kill or harm my rose?",
       "sha256": "82266c17a165fb9d90b5c66bcf00b79ea1648a20dd6d4eafcadf307f8b16fbbd"
+    },
+    {
+      "pkr_id": "PKR-CGD-000007",
+      "version": "1.2",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Can pruning too hard kill or harm my rose?",
+      "sha256": "2fd948195a9916f34cac6731c2a3879113e19b3a2c6e0d6085df6643573ee2da"
     },
     {
       "pkr_id": "PKR-CGD-000008",
@@ -87,9 +143,17 @@
       "pkr_id": "PKR-CGD-000008",
       "version": "1.1",
       "pkr_type": "care_guidance",
-      "status": "Published",
+      "status": "Retired",
       "title": "Why isn't my rose flowering?",
       "sha256": "6c0c00fcd8af573804905d2f50710fcce774c632c272db39d87275ff15eb0740"
+    },
+    {
+      "pkr_id": "PKR-CGD-000008",
+      "version": "1.2",
+      "pkr_type": "care_guidance",
+      "status": "Published",
+      "title": "Why isn't my rose flowering?",
+      "sha256": "0c4220d83c31beaac31db1063673cff9056c38139d2241c4b20a6eff8c8393df"
     },
     {
       "pkr_id": "PKR-CGD-000009",
@@ -551,9 +615,17 @@
       "pkr_id": "PKR-DEC-000008",
       "version": "1.0",
       "pkr_type": "decision_logic",
-      "status": "Published",
+      "status": "Retired",
       "title": "Blind shoot — what to do once confirmed",
       "sha256": "b96fde33bbc7c44284e9dcb4d10f54dad549a540db0f30be6f5bf2e8234f7339"
+    },
+    {
+      "pkr_id": "PKR-DEC-000008",
+      "version": "1.1",
+      "pkr_type": "decision_logic",
+      "status": "Published",
+      "title": "Blind shoot — what to do once confirmed",
+      "sha256": "2dc95d1f93be97d22ae152180c2aa4ca4652992bda9186a3bc47da75289b2fb1"
     },
     {
       "pkr_id": "PKR-DEF-000001",
@@ -703,9 +775,17 @@
       "pkr_id": "PKR-OBS-000008",
       "version": "1.0",
       "pkr_type": "observation",
-      "status": "Published",
+      "status": "Retired",
       "title": "Blind shoots — healthy shoots with no flower bud at the tip",
       "sha256": "84c427904d05162030496285be73ea5dd5edfc669ce2301f4d74107d31070bb5"
+    },
+    {
+      "pkr_id": "PKR-OBS-000008",
+      "version": "1.1",
+      "pkr_type": "observation",
+      "status": "Published",
+      "title": "Blind shoots — healthy shoots with no flower bud at the tip",
+      "sha256": "3edf5a2ab05c6afaecab78bb4488ff3406df702d3d7a11eaeea9b39ca273dee8"
     },
     {
       "pkr_id": "PKR-SGT-000001",
@@ -719,9 +799,17 @@
       "pkr_id": "PKR-SGT-000001",
       "version": "1.2",
       "pkr_type": "suitability_gate",
-      "status": "Published",
+      "status": "Retired",
       "title": "Dormancy gate — is the rose in the window for structural pruning?",
       "sha256": "91f249d79ef9a51ab38538f7ed6c15f6943eae57517063b487d43063a384b3f8"
+    },
+    {
+      "pkr_id": "PKR-SGT-000001",
+      "version": "1.3",
+      "pkr_type": "suitability_gate",
+      "status": "Published",
+      "title": "Dormancy gate — is the rose in the window for structural pruning?",
+      "sha256": "87bf58b9265362eb381f5d316789008fd7473ea2375bb11bff143ef9107eeb03"
     },
     {
       "pkr_id": "PKR-SGT-000002",
@@ -751,9 +839,17 @@
       "pkr_id": "PKR-SGT-000003",
       "version": "1.1",
       "pkr_type": "suitability_gate",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rose-type gate — is this rose a supported bush-rose type?",
       "sha256": "3aa901f0dd62f1bb614311fd637fac31ef50a5c925ba8702d6937c266218388c"
+    },
+    {
+      "pkr_id": "PKR-SGT-000003",
+      "version": "1.2",
+      "pkr_type": "suitability_gate",
+      "status": "Published",
+      "title": "Rose-type gate — is this rose a supported bush-rose type?",
+      "sha256": "62d64b16f6e2da74a776f461b7be6abed644bc66341ce12e4068edfb01567f11"
     },
     {
       "pkr_id": "PKR-SRC-000001",

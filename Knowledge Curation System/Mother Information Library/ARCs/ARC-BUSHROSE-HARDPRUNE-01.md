@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-HARDPRUNE-01** |
 | ARC Title | Can Pruning Too Hard Kill or Harm an Established Bush Rose? |
-| Version | 1.0 |
+| Version | 1.1 |
 | Approval Status | **Approved** |
 | Approval Date | 2 October 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan: Shed Review Form finished 1 October 2026; further-research defaults confirmed in chat, 2 October 2026) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-HARDPRUNE-01` §8 (all 25 Assessed Findings), reproduced at §4A |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | `ARC-BUSHROSE-PRUNINGFRAMEWORK-01` (AF-17, AF-18, AF-20, AF-39, AF-40; §5 C1 and C5; §6 staged-renovation default; PKR-CGD-000003). `ARC-BUSHROSE-WEAKCONGESTED-01` (AF-16). `ARC-BUSHROSE-DORMANCY-01` (AF-2). `ARC-BUSHROSE-RECENTPLANT-01` (AF-1). |
-| Revision History | v1.0 — 2 October 2026 — initial creation from `FRD-BUSHROSE-HARDPRUNE-01`, Founder-approved for AF-1 to AF-25 as a whole, with a Source Register (§8) under ROC Operations Manual §12.6. |
+| Revision History | v1.1 — 18 October 2026 — Build Check Corrections added (older-answers check, batch 3). v1.0 — 2 October 2026 — initial creation from `FRD-BUSHROSE-HARDPRUNE-01`, Founder-approved for AF-1 to AF-25 as a whole, with a Source Register (§8) under ROC Operations Manual §12.6. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS) v1.3; ROC Operations Manual v2.9 |
 
@@ -282,6 +282,25 @@ Under ROC Operations Manual §12.6. 40 entries, from `Working/AI Outputs/Source_
 | GW-PR | BBC Gardeners' World, "How to prune roses". Located only: redirected to a third-party access gateway, not followed. Supports no finding. Accessed 1 Oct 2026. | <https://www.gardenersworld.com/how-to/grow-plants/how-to-prune-roses/> | Located (title match only) | — |  |
 | GW-OG | BBC Gardeners' World, "Dealing with Overgrown Plants". Located only: redirected to a third-party access gateway, not followed. Supports no finding. Accessed 1 Oct 2026. | <https://www.gardenersworld.com/plants/dealing-with-overgrown-plants/> | Located (title match only) | — |  |
 | PA-HT | PlantAmnesty, "Hybrid Tea Rose Pruning" (PDF). Located only: HTTP 404. Supports no finding. Accessed 1 Oct 2026. | <https://www.plantamnesty.org/wp-content/uploads/Hybrid-Tea-Rose-Pruning.pdf> | Located (title match only) | — |  |
+
+---
+
+## Build Check Corrections (18 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 3, every source page was reopened with WebFetch and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH3-CARE-AND-COMMON-QUESTIONS_Pips_Answers.md` (§3) and approved by a Founder in chat on 18 October 2026, as §14.4 requires for an approved ARC. Where they differ from the findings above, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH3_sources_2026-10-18.json` (and, for the main-framework research, `Build_Check_OLDER-BATCH2_sources_2026-10-17.json`) and `Build_Check_OLDER-BATCH3_statements_v0.1_2026-10-18.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-1 | Orange County Rose Society cited as support | Drop OCRS from the support for 'pruning does not kill'. It says the bush is tough but not that pruning, even hard, does not kill. | High → High | page supports only partly; other pages carry it |
+| AF-10 | Half to two-thirds of Hybrid Tea and Floribunda growth or height at winter pruning | Show the range the finding's own sources give: a third to two-thirds (NYBG, MATT at least a third or up to half), half to two-thirds most usually; note ABC Gardening Australia speaks of roses in general, not Hybrid Teas and Floribundas. | High → High | range among sources; one page broader than the finding |
+| AF-11 | Weak rose pruned less hard; RHS-MB and LO say weak shoots cut back further | Keep both directions; record that nothing given says weak shoots are removed. State that the first is about the whole rose and the second about shoots within it, as the RHS page and the LO page (partly) say. | Moderate → Moderate | RHS and LO pages support only the opposite shoot-level part |
+| AF-14 | Cutting below the graft or ground line can lose the rose (PRS, RHS-REN, PSU, SARS) | Reword: one rose society says a rose survives pruning unless cut below the ground line. Move RHS-REN (take care not to cut below the scion, general shrubs) and PSU (winter graft damage) out as not about a pruning cut losing a rose. SARS is about roots, not the graft. | Moderate → Low | only PRS supports the claim for roses; others support part or different points |
+| AF-2 | Several sources attach conditions (CBG, PRS, SARS, RHS-REN) | Record each condition as one source: CBG healthy rose; PRS not cut below the ground line; SARS regrowth after dieback to the stump depends on roots being 'somewhat in tact'. Drop RHS-REN (general shrubs, not the pruning-does-not-kill claim). | Moderate → Low | each condition has one page behind it |
+| AF-22 | One go versus staged renovation (RHS-REN, CBG, UCF, RNRS, LO) | Keep; note the RHS-REN rule for choosing is for general shrubs, so 'no rose-specific rule' is the accurate wording. The RHS page supports only its own part. | Moderate → Moderate | RHS partly; general shrubs |
+| AF-4 | Harm from over-pruning is temporary | Reword to 'usually a short-term setback' (DA-SR 'rarely anything more than'). | Moderate → Moderate | wording stronger than DA-SR |
+| AF-5 | Terms defined differently (LO, NYBG, ILL, YAT-AU, SARS) | Record explicitly that a third is 'light' (LO, YAT-AU) but 'moderate' (NYBG); Illinois page does not use 'usually'. | Moderate → Moderate | recorded disagreement on one term; wording 'usually' unconfirmed |
+
+**Effect on Pip's answers.** PKR-CGD-000003 v1.2 and PKR-CGD-000007 v1.2: one-source conditions shown as one source or removed; the amount removed shown as a range; "light" and "moderate" shown as "Sources disagree"; reasons on no page removed.
 
 ---
 
