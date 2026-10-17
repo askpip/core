@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-DAMAGEDGROWTH-01** |
 | ARC Title | Damaged Growth on an Established, Dormant Bush Rose — Recognition, Photographic Limits, and Pruning Choices |
-| Version | 1.1 |
+| Version | 1.2 |
 | Approval Status | **Approved** |
 | Approval Date | 28 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Karla, via finished, decisive Review Form — sufficient per ROC Operations Manual §11.2A) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-DAMAGEDGROWTH-02` §8 (all 16 Assessed Findings) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | `ARC-BUSHROSE-DEADWOOD-01` (the live/dead pith test this ARC's AF-11 builds directly on; generic pruning safety, cross-referred to). `ARC-BUSHROSE-PRUNINGFRAMEWORK-01` (general cut mechanics, cross-referred to). `ARC-BUSHROSE-STEMCROSSING-01` and `ARC-BUSHROSE-INWARDGROWTH-01` (establish the "always cut fully to point of origin" pattern this ARC's AF-12 explicitly, and legitimately, differs from). |
-| Revision History | v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-DAMAGEDGROWTH-02`, Founder-approved for AF-1 to AF-16 as a whole. v1.1 — 29 September 2026 — §8 Source Register added under ROC Operations Manual §12.6/§12.10, approved by Shaphan 29 September 2026. No Assessed Finding, Evidence Confidence Level, conflict, default or Founder decision changed. |
+| Revision History | v1.2 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 2). v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-DAMAGEDGROWTH-02`, Founder-approved for AF-1 to AF-16 as a whole. v1.1 — 29 September 2026 — §8 Source Register added under ROC Operations Manual §12.6/§12.10, approved by Shaphan 29 September 2026. No Assessed Finding, Evidence Confidence Level, conflict, default or Founder decision changed. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01` |
 
@@ -363,6 +363,32 @@ Added at version 1.1 (29 September 2026) under ROC Operations Manual §12.6 and 
 **Matters reported, with Founder decisions (Shaphan, 29 September 2026):** Ask Extension #743094 is not confirmed (its address now serves a different question). AF-10 stays at Low, also resting on Illinois RPD 626. The "University of Arkansas" source in AF-11 is not identified; AF-11 stays at High on eight other confirmed sources.
 
 **Open question referred for research (29 September 2026):** AF-14/C-2 advise waiting until live growth emerges before judging frost damage, while the dormancy gate (`ARC-BUSHROSE-DORMANCY-01`, PKR-SGT-000001) stops pruning once leaf-out is well underway. At Shaphan's direction, ROC is commissioned to research whether removing damaged or dead wood after bud break is acceptable (`Working/AI Outputs/Research_Commission_Record_Post_Budbreak_Removal.md`). No finding here changes pending that research.
+
+---
+
+## Build Check Corrections (17 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 2, every source page was reopened with WebFetch and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md` (§3) and approved by a Founder in chat on 17 October 2026, as §14.4 requires for an approved ARC. Where they differ from the findings above, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH2_sources_2026-10-17.json` and `Build_Check_OLDER-BATCH2_statements_v0.1_2026-10-17.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-1 | Damaged is a category distinct from dead | Several sources list dead, diseased and damaged wood together; Kansas City Rose Society treats dead canes and broken or cold-damaged canes as separate steps. | Moderate → Low | All five pages partly support; none shows 'distinct category' |
+| AF-2 | Several distinct causes named across sources | Drop Maryland and Colorado PlantTalk (support 'no'). Sunscald (Victoria only) and splitting/frost cracks (Illinois only) recorded as single-source. | Moderate → Moderate | Two cited pages name no cause; two causes single-source |
+| AF-4 | Multiple sources converge on a consistent set of canker symptoms | Each sign is on two or more pages, but no page gives the full set; the colour range 'tan to purplish-brown' is Clemson alone, others say brown or purple/grey-white. | High → High | Pages support the signs separately, colour range narrower |
+| AF-5 | Definitive confirmation requires a destructive pith test; tips blacken | Frost damage shows as browned shoot tips (RHS) and cold-discoloured canes (Kansas City); pages give a pith colour check. No page says a cut is the only way, or mentions blackening. | Moderate → Moderate | 'Only' and 'blackening' unsupported |
+| AF-6 | No non-destructive test for hidden split; visible damage is sufficient | Visible signs only: Kansas City Rose Society names broken canes and canes that rub; RHS names damage where crossing branches rub together. The claim that no source describes a test for a hidden split is dropped (an absence, not on a page). | Low → Moderate | Two independent pages support the visible signs (raised under a Founder direction of 16 October 2026: go with what the research most strongly suggests). |
+| AF-7 | Borer shows as wilting tip, entry hole and swelling; wasp caveat | Wilting tip and swollen node: Marin and Oregon State. Entry hole: Marin only. Harmless wasp nest in a pruning cut: Colorado PlantTalk only. | Low → Moderate for a suddenly wilting tip and a swollen spot (Marin Rose Society, Oregon State); not used: entry hole (Marin only) and the harmless-wasp caveat (Colorado PlantTalk only) | Two pages support part; the rest is single-source |
+| AF-8 | Photo shows external signs but not internal condition | Not a finding Pip can use: no rose page; Marin and Alabama do not support it; others are about trees or lawns. Photo lines rest on the Founder decision only. | Low → Not Assigned | Inference, not on any page for roses |
+| AF-9 | Galls harmless but could be mistaken for damage; heavy infestation may weaken | Mossy and spiny galls appear harmless (Washington State, Iowa State); Robin's pin-cushion harmless (RHS); heavy infestation of mossy gall may weaken the plant above (Iowa State only). Drop 'mistaken for damage by a beginner'. | Moderate → Moderate | Beginner-mistake point on no page |
+| AF-10 | Canker colouring overlaps with normal new-cane pigmentation | Pages give early canker spot colours (Illinois) and a Master Gardener unable to diagnose from pictures. Neither says the colours match normal new growth. Drop the overlap claim. | Low → Not Assigned | Overlap on no page |
+| AF-11 | Near-unanimous: cut to healthy tissue; white or pale green good, brown/black/grey dead | Cut to healthy wood: broad. White pith: broad. Pale green: Oregon State only. Brown or grey: Iowa State; brown: Oregon State. Black: no page seen. | High → High | Core broad; colour details narrower |
+| AF-12 | Severity-based branch: slight shortened, severe removed whole | No live buds, remove whole cane: Clemson, Iowa State, Texas A&M, Purdue. Slight versus severe branch: Purdue only. | Moderate → Moderate for no live buds; Low for severity branch | Branch single-source; other pages give none |
+| AF-13 | Cause adds extra steps: 2–3 inch margin, disinfect, seal borer cuts | Canker margin: 'well below' (Kansas City, Ask Extension); 2–3 inches Illinois only. Sealing: Colorado PlantTalk and Kansas City advise; Marin and Illinois do not. Record sealing as a disagreement; keep disinfecting under AF-15. | Moderate → Moderate for margin; Low for sealing | Figure single-source; sealing disputed |
+| AF-14 | Wait until at or near bud break; second pass may be needed | Pages say wait until spring and prune before new growth/bud break (Robeson, North Dakota, Florida, Portland). Second pass is Portland only. Two pages are general plants, not roses. | Moderate → Moderate | 'At or near bud break' and second pass not on most pages |
+| AF-15 | Disinfect between cuts with alcohol or 1:9 bleach | Frequency is a range: 'ideally between each cut' and 'at minimum between plants' (Iowa State), 'after use on a diseased plant' (Clemson, Oklahoma, Ask Extension). Record as a range. Dilution is a mixing amount: not for Pip. | Moderate → Moderate | Pages differ on frequency |
+| AF-16 | Burn or trash, not compost, because compost is too cool | Burn or bin: Oklahoma, Clemson, Illinois, RHS. The compost-temperature reason is RHS only, and RHS says composting suits some less persistent diseases. Bonfire limits need local rules. | Moderate → Moderate | Reason single-source |
+
+**Effect on Pip's answers.** PKR-OBS-000004 v1.1 and PKR-DEC-000004 v1.2: wording cut back to the pages; physical damage (AF-6) raised to Moderate and the borer signs (AF-7) split, under a Founder's direction, "whatever the research most strongly suggests" (16 October 2026); AF-8 and AF-10 not used; sealing after borer damage shown as "Sources disagree".
 
 ---
 

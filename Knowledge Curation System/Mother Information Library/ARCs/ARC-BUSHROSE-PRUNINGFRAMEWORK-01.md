@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-PRUNINGFRAMEWORK-01** |
 | ARC Title | Whole-Bush Pruning Framework for an Established, Dormant Bush Rose |
-| Version | 1.1 |
+| Version | 1.2 |
 | Approval Status | **Approved** |
 | Approval Date | 27 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-PRUNINGFRAMEWORK-04` §8 (all 41 Assessed Findings) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | ARC-BUSHROSE-DEADWOOD-01 (dead wood is governed there and not re-assessed here); ARC-BUSHROSE-RECENTPLANT-01; ARC-BUSHROSE-DORMANCY-01; ARC-BUSHROSE-BASICCARE-01 |
-| Revision History | v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-PRUNINGFRAMEWORK-04` (incorporating Revisions 1–3), Founder-approved for AF-1 to AF-41 as a whole, including the eleven recorded conflicts and the practical defaults adopted for them. v1.1 — 29 September 2026 — §10 Source Register added (ROC Operations Manual §12.6/§12.10, v2.9), approved by Shaphan. No finding, confidence level, conflict or default changed. |
+| Revision History | v1.2 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 2). v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-PRUNINGFRAMEWORK-04` (incorporating Revisions 1–3), Founder-approved for AF-1 to AF-41 as a whole, including the eleven recorded conflicts and the practical defaults adopted for them. v1.1 — 29 September 2026 — §10 Source Register added (ROC Operations Manual §12.6/§12.10, v2.9), approved by Shaphan. No finding, confidence level, conflict or default changed. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01` |
 
@@ -742,6 +742,28 @@ Added at version 1.1 (29 September 2026) under ROC Operations Manual §12.6 and 
 - **C7 cane count:** Pip presents 3–7 as the range, with 4–6 as typical, harmonised with `ARC-BUSHROSE-WEAKCONGESTED-01` C-2.
 - **AF-37:** Grandifloras are treated exactly as Hybrid Teas, without the gentler-cutback nuance, consistent with `ARC-BUSHROSE-ROSETYPE-01` R-4.
 - **AF-8:** sucker removal is held pending ROC research (`Working/AI Outputs/Research_Commission_Record_Rootstock_Suckers.md`).
+
+---
+
+## Build Check Corrections (17 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 2, every source page was reopened with WebFetch and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md` (§3) and approved by a Founder in chat on 17 October 2026, as §14.4 requires for an approved ARC. Where they differ from the findings above, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH2_sources_2026-10-17.json` and `Build_Check_OLDER-BATCH2_statements_v0.1_2026-10-17.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-8 | Two sources say to tear sucker away at its origin | One source (Illinois) says tear off at the origin; Fresno says dig out with its root; ARS says remove from below the bud union. Applies to grafted roses. Drop Iowa State and Ask Extension. | Moderate → Moderate | Only Illinois says tear; Iowa State and Ask 'no' |
+| AF-9 | Strong, healthy, vigorous canes retained; in several sources the younger or previous year's canes | Split: (a) strong, healthy, vigorous canes are kept (many pages); (b) younger canes are favoured by a few sources, mostly for climbers or shrub roses (Fresno, Maryland, Arkansas, Illinois). | Moderate → (a) High, (b) Low | Younger-cane part rests on climber/shrub pages; (a) is on about eight pages |
+| AF-10 | New basal shoots are a sign of good health and a route to renewing the framework | One source (ARS) says pruning can encourage new basal growth from the bud union. No page calls it a sign of health or a way to renew the framework. | Low → Very Low | UC ANR 'no'; ARS says less than the finding |
+| AF-15 | A small number of strong canes is retained; counts between three and eight | Restated as about 3 to 7 canes for bush roses (Clemson, Illinois, Cornell, Kansas City Rose Society, UC ANR); no bush-rose page checked gives 8; higher counts are for climbers. | Moderate → Moderate | No quoted bush-rose page gives 8. |
+| AF-17 | Height commonly reduced by about a third to a half | Keep, and record the disagreement: Illinois says half to two-thirds; KCRS says half and 6-8 inches for hybrid teas; Arkansas gives a third to a half for shrub roses but 8-18 inches for hybrid teas. | Moderate → Moderate | Illinois 'no'; five pages only partly |
+| AF-20 | Multi-year renewal removes about a third of old canes each year | One source (UC ANR Fresno) says it. Illinois says it for repeat-flowering shrub roses only. Cornell and Arkansas do not. | Low → Very Low | One full source; two pages 'no' |
+| AF-34 | Plant-diagnostic guidance consistently favours physical examination over photographs | Some extension pages prefer a physical sample (Mississippi State, Iowa State clinic, CSU) while Cornell and CSU accept good photos. Not rose-specific. Drop 'consistently'. | Low → Very Low | Cornell says good photos allow confident IDs; CSU accepts photos |
+| AF-36 | Grey with rough, scaly, crusty or streaked bark; prickles as a further marker | Grey is the common marker (three regional pages). Scaly (Texas A&M), crusty (Arizona) and streaked (Houston) are each one source. Missing prickles is one source. 'Rough' is on no page. | Moderate → Moderate for grey; Low for the other markers | All three pages 'partly'; 'rough' not found |
+| AF-37 | Grandifloras pruned like hybrid teas; similar or slightly fewer canes; gentler cutback in some | Grandifloras are generally pruned like hybrid teas. Drop the cane-count and cutback detail: the ARS page returned only a table of contents, and Heirloom Roses (a retailer) gives no cane count. | Moderate → Moderate (core claim only) | Detail rests on one weak page each |
+| AF-39 | A badly overgrown, weak or sickly bush is sometimes better replaced | One source (RHS) says a declining shrub may be better replaced; it is about shrubs generally, not roses. Iowa State is about conifers and hedges only. | Low → Low (single source, shrubs generally) | Second page does not support it |
+| AF-41 | Shape and crossing canes visible; vigour and internal health need handling | Only partly shown: outline and crossing canes are visible (David Austin, Orange County). A bend test for vigour is one source (David Austin). Pith colour and the base are on no page. NC State and ARS 'no'. | Low → Very Low | Two pages 'no', two 'partly'; pith and base unsupported |
+
+**Effect on Pip's answers.** PKR-OBS-000006 v1.2 and PKR-DEC-000006 v1.2: keeper canes at High (AF-9 part a); younger canes, new shoots as a sign of health, yearly renewal and replacement (AF-9 part b, AF-10, AF-20, AF-39) not used; new basal canes and the sucker check now trace to ARC-BUSHROSE-SUCKERS-01 AF-24 and AF-1; the cane count is 3 to 7.
 
 ---
 

@@ -1,0 +1,91 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000004",
+  "version": "1.1",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Damaged growth",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000009",
+      "PKR-SRC-000011",
+      "PKR-SRC-000012",
+      "PKR-SRC-000022",
+      "PKR-SRC-000049",
+      "PKR-SRC-000062",
+      "PKR-SRC-000068",
+      "PKR-SRC-000069",
+      "PKR-SRC-000070",
+      "PKR-SRC-000073",
+      "PKR-SRC-000074",
+      "PKR-SRC-000076",
+      "PKR-SRC-000078",
+      "PKR-SRC-000079",
+      "PKR-SRC-000080",
+      "PKR-SRC-000081",
+      "PKR-SRC-000082",
+      "PKR-SRC-000083",
+      "PKR-SRC-000084",
+      "PKR-SRC-000085",
+      "PKR-SRC-000086",
+      "PKR-SRC-000089"
+    ],
+    "founder_approval_date": "2026-10-17",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000004"
+      }
+    ],
+    "preserved_uncertainty": "Causes aren't equally evidenced: sunscald rests on one source, and rodent and snow damage on one each (AF-2). Signs of physical damage are visible ones only (AF-6, as corrected 17 October 2026). The borer entry hole and the harmless-wasp caveat rest on one page each and are not shown (AF-7). Experts disagree on whether canker can be diagnosed from a photo (C-3), so Pip always states its confidence. Sources are UK, US and Australian.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "damaged-growth",
+    "feature": "Damaged growth",
+    "journey_order": 2,
+    "look_for": "Now let's look for damaged growth — canes that are injured or diseased.",
+    "criteria": [
+      {
+        "text": "Canker: brown to purplish sunken patches with cracking edges, tiny black dots, or dieback above a patch that rings the cane.",
+        "confidence": "High"
+      },
+      {
+        "text": "Frost or winter injury: browned shoot tips and discoloured canes. Cutting into a cane shows the pith (its centre), and the pith's colour tells living wood from dead.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Physical damage: a broken cane, or damage where canes rub together.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Borer (an insect that tunnels into canes): a new shoot tip that suddenly wilts, or a swollen spot on the cane.",
+        "confidence": "Moderate",
+        "limit": "A wilting tip can have other causes."
+      },
+      {
+        "text": "Not damage: mossy or spiny galls on canes are generally harmless.",
+        "confidence": "Moderate",
+        "limit": "One source says a heavy infestation of mossy gall can weaken the plant above it."
+      }
+    ],
+    "photo_limit": "A photo can show outside signs, but not what's happening inside the cane.",
+    "confirm_question": "Find that cane on your rose. Can you see damage like this?",
+    "confirm_label": "Yes, I can see damage",
+    "doesnt_match_label": "No — it's not damaged",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": null,
+    "not_sure_guidance": "Look closely at that spot on the plant itself, not at a photo.",
+    "any_more_question": "Can you see any more damaged stems?",
+    "comparison_images": []
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH2-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-17",
+    "note": "Older answers check, batch 2: a Founder approved Pip's corrected answers in chat on 17 October 2026 ('approve'), after reading Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+  }
+}

@@ -1,5 +1,7 @@
 # Pip's Answers — Older Answers Check, Batch 2: Damaged Growth, Weak Growth and the Main Framework
 
+**Approved, 17 October 2026.** A Founder approved these answers in chat ("approve"), with no change. The corrections in section 3 are made in the three research records, and the answers are published.
+
 These answers were published before the source check existed. They are now checked: every source page was reopened, and every sentence was checked against what the pages say. This document shows every sentence that changes, word for word as gardeners will see it. **You are asked for one thing: approval.** Approving it also authorises the corrections to the approved research (section 3) and lets the changes be published. Nothing else needs reading.
 
 It covers three checks in the pruning journey: damaged growth, weak or crowded growth, and the main framework to keep.

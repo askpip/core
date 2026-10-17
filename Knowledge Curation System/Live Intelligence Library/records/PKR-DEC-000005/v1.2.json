@@ -1,0 +1,114 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-DEC-000005",
+  "version": "1.2",
+  "pkr_type": "decision_logic",
+  "status": "Published",
+  "title": "Weak or congested growth — what to do once confirmed",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000007",
+      "PKR-SRC-000013",
+      "PKR-SRC-000049",
+      "PKR-SRC-000058",
+      "PKR-SRC-000059",
+      "PKR-SRC-000060",
+      "PKR-SRC-000068",
+      "PKR-SRC-000088",
+      "PKR-SRC-000096",
+      "PKR-SRC-000098",
+      "PKR-SRC-000099",
+      "PKR-SRC-000101",
+      "PKR-SRC-000102"
+    ],
+    "founder_approval_date": "2026-10-17",
+    "related_pkrs": [
+      {
+        "relationship": "governed by",
+        "pkr_id": "PKR-OBS-000005"
+      }
+    ],
+    "preserved_uncertainty": "The number of canes to keep varies by source: about 3 to 7 for bush roses on the pages checked (AF-7, as corrected); one South African nursery's 1-4 is not shown. The sunscald caution comes from one source and applies to hot-summer climates (AF-18). The Rose Society of South Australia says not to worry about cutting out the centre (shown). No source explains why weak canes should be removed before congestion is decided (AF-14; U-6).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "choices": [
+      {
+        "choice": "cut",
+        "label": "Cut",
+        "cutKind": "remove-stem"
+      },
+      {
+        "choice": "leave",
+        "label": "Leave"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "decision_notes": [
+      {
+        "text": "Weak cane: remove it completely, at its base or where it starts. Don't shorten it.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Crowded bush: cut out some canes completely rather than shortening them. Keep the stronger canes, evenly spaced around the plant, so the centre stays open. One rose society says not to worry about cutting out the centre.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Keep roughly 3 to 7 strong canes.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "If the plant already looks weak or small, take out less.",
+        "confidence": "Low",
+        "kind": "precaution"
+      },
+      {
+        "text": "One source says that in hot-summer areas it helps to leave some growth in the middle to shade the graft (the swollen join near the base) and prevent sunscald (sun damage to the bark).",
+        "confidence": "Low",
+        "kind": "precaution"
+      },
+      {
+        "text": "Reaching inside the bush, wear eye protection and long-cuffed gloves.",
+        "confidence": "Moderate",
+        "kind": "precaution"
+      }
+    ],
+    "doesnt_match_choices": null,
+    "doesnt_match_notes": null,
+    "not_sure_choices": [
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "headline_confidence": "Moderate",
+    "gate_conditions": {
+      "PKR-SGT-000001": "applies",
+      "PKR-SGT-000002": "applies",
+      "PKR-SGT-000003": "applies"
+    },
+    "cut_care_guidance": true
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH2-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-17",
+    "note": "Older answers check, batch 2: a Founder approved Pip's corrected answers in chat on 17 October 2026 ('approve'), after reading Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md, with no change. Version 1.2: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.1 retired."
+  }
+}

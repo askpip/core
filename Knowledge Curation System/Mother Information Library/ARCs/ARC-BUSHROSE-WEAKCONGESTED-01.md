@@ -10,8 +10,8 @@
 **Custodian:** Research Origin Curator (ROC), per ROC Operations Manual v2.7
 **Date of Approval:** 28 September 2026
 **Prepared/Compiled:** 28 September 2026
-**Version:** 1.2
-**Revision History:** v1.0 — 28 September 2026 — initial creation. v1.1 — 29 September 2026 — §8 Source Register added (ROC Operations Manual §12.6/§12.10, v2.9), approved by Shaphan. v1.2 — 29 September 2026 — Orange County Rose Society's position corrected in AF-5's evidence and in §5 C-1, at Shaphan's direction, after the source check found the page supports the pencil rule rather than questioning it. No Evidence Confidence Level, default or Founder decision changed.
+**Version:** 1.3
+**Revision History:** v1.0 — 28 September 2026 — initial creation. v1.1 — 29 September 2026 — §8 Source Register added (ROC Operations Manual §12.6/§12.10, v2.9), approved by Shaphan. v1.2 — 29 September 2026 — Orange County Rose Society's position corrected in AF-5's evidence and in §5 C-1, at Shaphan's direction, after the source check found the page supports the pencil rule rather than questioning it. No Evidence Confidence Level, default or Founder decision changed. v1.3 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 2).
 
 ---
 
@@ -492,6 +492,31 @@ Added at version 1.1 (29 September 2026) under ROC Operations Manual §12.6 and 
 | "Ten causes" source (unlisted) | A "lower-authority source cataloguing ten causes of thin canes", named in AF-11's evidence | — | **Not identified** | AF-11 | Not named or logged. It is cited only for an absence. AF-11 (Low) otherwise rests on Ludwig's Roses (confirmed). |
 
 **Founder decisions (Shaphan, 29 September 2026):** the Orange County correction is made at v1.2 (AF-5, C-1). AF-15's young-rose leniency is covered by the published recently-planted gate (PKR-SGT-000002, about three years), so no separate rule is added. The Not identified and Not confirmed entries are recorded; every affected finding rests on other confirmed sources.
+
+---
+
+## Build Check Corrections (17 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 2, every source page was reopened with WebFetch and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md` (§3) and approved by a Founder in chat on 17 October 2026, as §14.4 requires for an approved ARC. Where they differ from the findings above, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH2_sources_2026-10-17.json` and `Build_Check_OLDER-BATCH2_statements_v0.1_2026-10-17.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-1 | Sources consistently frame weak as single-cane, congestion as whole-bush | Weak growth is judged cane by cane (UF/IFAS 'thinner than a pencil'; Clemson, Texas list weak stems). Crowding is judged for the whole bush (RHS 'If the bush is crowded'). No page states the contrast itself. | Moderate → Moderate | All four pages 'partly'; contrast not stated |
+| AF-5 | Pencil threshold universal; measurements disagree by nearly 2x | Pencil thickness is the threshold in Clemson, Illinois, Texas, Victoria, UF/IFAS, OCRS. Only Rose Society of NSW gives a figure (10mm, for canes kept). Drop the factor-of-two disagreement. | Moderate → Moderate | No page shows a second measurement |
+| AF-6 | Weak growth twiggy, unproductive, poor bloom, fuzzy tips | One page (ARS) says remove 'weak or twiggy growth'. One page (Chicago) links fuzzy tip growth instead of full, lush canes to old, congested canes. 'Unproductive' and 'poor bloom' for weak canes are not on the pages. | Moderate → Low | Each cue has one source; none cover weak canes |
+| AF-7 | Retained cane count 1-4 (S. Africa) to 4-8; 3-5 most repeated | Bush roses: 3-5 (Clemson, Illinois), 3-6 (Oregon), 3-7 (Kansas City), 4-7 (UC Inyo), 5-6 (UGA); 1-4 from Ludwig's Roses (nursery, South Africa). 5-7 (Texas) and 5-8 (UC Inyo) are climbers. '4-8' not shown for bush roses. | Moderate → Moderate | Range restated to what pages show |
+| AF-8 | Congestion indicators well corroborated; twiggy never whole-bush | Open centre goal: Chicago, RHS, ARS, Texas, Illinois. 'If crowded' trigger: RHS only. Spoke shape: ARS only. Record disagreement: Rose Society of South Australia says 'Don't concern yourself with cutting out the centre'. 'Twiggy' claim rests on ARS alone. | Moderate → Moderate | Partial pages; one dissenting society page omitted |
+| AF-9 | ROC synthesis: size from photo alone is unreliable | Pages (Clemson, Iowa State x2, Colorado State) say to include a coin, pencil or ruler for size in plant photos. No page says thickness 'can't' be judged, nor mentions photogrammetry. | Low → Low | Pages support the advice, not the stronger claim |
+| AF-10 | Density more distance-robust than size; occlusion limits one photo | Drop the occlusion/Arevalo source (page not opened, unverified). Pages support: take photos from several angles and distances (Clemson, Colorado State). Patterson tree-crown paper: tree crowns, not roses. | Low → Low | Key source unverified; others do not cover the claim |
+| AF-11 | Thorn/bark colour differentiates new vs weak canes | One source (Ludwig's Roses) gives thorn and bark colour by cane age. No source says a thin new cane can be mistaken for a weak one, so Pip should not say so. | Low → Low | Single source; the mistaken-for-weak link is inference |
+| AF-12 | Weak cane removed whole at base or origin, not shortened | Whole-cane removal at origin supported by Victoria and UC Inyo. Illinois and Kansas City show removal not shortening; base cutting is stated there only for dead canes. ARS and South Australia do not support it. | High → Moderate | 2 of 6 pages fully support |
+| AF-13 | Congestion thinning whole-cane, selected by vigour then spacing | Pages support an open centre and evenly spaced, stout canes (ARS, Illinois, Victoria, Texas); RHS says cut out some old shoots completely. 'Whole canes only' and selection order are not on the pages. | High → Moderate | All four pages 'partly' |
+| AF-15 | Multiple sources agree young roses get leniency, 1 to 3 years | Clemson: prune first-year plants lightly. Illinois: shrub roses can be left unpruned for two or three seasons. Neither ties this to weak-growth removal or to cane counts; Texas has nothing. | Moderate → Low | Two pages, each for a narrower case |
+| AF-16 | Caution against heavy thinning tied to weak/small plants; several societies encourage confident pruning | Portland: a bush with only 2-4 canes should keep them all. Illinois supports (wording not recorded). Only Chicago (one page) encourages confident pruning of a healthy rose. Treat as a precaution. | Moderate → Low | One full and one partial page; 'several' unsupported |
+| AF-17 | Sources flag eye protection and gauntlet gloves inside the canopy | UC SLO lists gauntlet-style gloves and safety glasses in an equipment list, not tied to reaching inside. RHS 'How to Garden Safely' is recorded as supporting. Keep as a precaution. | Moderate → Moderate | One of two pages does not tie it to canopy work |
+| AF-18 | Sources recommend leaving interior growth (sunscald); general one-third rule also applies | Split in two. (a) One source (UC SLO): in hot-summer areas leave some interior growth to shade the graft. (b) One source (NC State): not more than a third of a plant's crown in any one year. 'Clear all at once' and 'sources recommend' are not on the pages. The sunscald half is used as a one-source precaution. | Moderate → Low | Each half is a single source |
+
+**Effect on Pip's answers.** PKR-OBS-000005 v1.1 and PKR-DEC-000005 v1.2: the twiggy and thorn-colour cues (AF-6, AF-11) are no longer shown; whole-cane removal and thinning shown at Moderate; the Rose Society of South Australia's view is named; the cane count is 3 to 7; leniency, sunscald and protective gear shown as precautions. PKR-CGD-000003 moves to batch 3.
 
 ---
 

@@ -4,7 +4,7 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.12
+**Version:** 0.13
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
@@ -209,6 +209,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **7 October 2026 (Version 0.6):** §3.5 rewritten for places inside a country (regions, groups of regions and towns, worked out on the device, with the gardener asked near a region's edge) and for the month-level timing question.
 
 - **7 October 2026 (Version 0.7):** New Zealand month-level timing approved and its records in the snapshot; the place test rerun against the published records.
+- **17 October 2026 (Version 0.13):** Older answers check, batch 2 approved and in the snapshot: PKR-OBS/DEC-000004 (1.1/1.2), -000005 (1.1/1.2), -000006 (1.2/1.2). App change: `StatementList` in `App/src/components/PkrStatements.tsx` now shows each statement's tag ("Precaution", "Sources disagree") and its limit in the pruning steps and the blind-shoot check, as the common-question answers already did. Checked by rendering the list and running the journey code against the new snapshot; the app build passes. Not opened in a browser.
 - **17 October 2026 (Version 0.12):** Older answers check, batch 1 approved and in the snapshot: PKR-SGT-000001 v1.2, PKR-SGT-000002 v1.1, PKR-OBS/DEC-000001 (1.1/1.2), -000002 (1.1/1.1), -000007 (1.1/1.1); PKR-OBS/DEC-000003 retired. One app change: an unknown planting date gets the dead-wood-only check when the gate has no fallback questions. Checked by running the app's gate and journey code against the new snapshot (six pruning steps; recent and unknown give dead wood only); the app build passes. Not opened in a browser.
 - **16 October 2026 (Version 0.11):** Canadian month-level timing approved and in the snapshot (five timing records at Version 1.4); nine Canadian towns and areas added to the named towns. Checked by running the app's place code against the published statements for 24 test plants; the app build passes. Not opened in a browser.
 - **8 October 2026 (Version 0.10):** United States month-level timing approved and in the snapshot (five timing records at Version 1.3); eight US counties and cities added to the named towns, and a US town name typed without a state is no longer placed by name alone. Checked in a headless browser for twenty plants against test copies identical in wording to the published records.

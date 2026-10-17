@@ -1,6 +1,6 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 598,
+  "record_count": 604,
   "published_count": 471,
   "records": [
     {
@@ -487,25 +487,49 @@
       "pkr_id": "PKR-DEC-000004",
       "version": "1.1",
       "pkr_type": "decision_logic",
-      "status": "Published",
+      "status": "Retired",
       "title": "Damaged growth — what to do once confirmed",
       "sha256": "72094aa30065173f799c8040d899ec557baef34cd0156c01a0f66b83ff200b77"
+    },
+    {
+      "pkr_id": "PKR-DEC-000004",
+      "version": "1.2",
+      "pkr_type": "decision_logic",
+      "status": "Published",
+      "title": "Damaged growth — what to do once confirmed",
+      "sha256": "e48fb60352e0391a96347ad862d48d04a6bf37482fda9afc4eccebdb65ca5001"
     },
     {
       "pkr_id": "PKR-DEC-000005",
       "version": "1.1",
       "pkr_type": "decision_logic",
-      "status": "Published",
+      "status": "Retired",
       "title": "Weak or congested growth — what to do once confirmed",
       "sha256": "e2f5b0ddc02bed3c5994130114abef263f36a797fd80d17cbb7143376a50f302"
+    },
+    {
+      "pkr_id": "PKR-DEC-000005",
+      "version": "1.2",
+      "pkr_type": "decision_logic",
+      "status": "Published",
+      "title": "Weak or congested growth — what to do once confirmed",
+      "sha256": "2b650b8afa5c3d9fa1e1e78834f61778a63fb168063a7373e6da6414401b08aa"
     },
     {
       "pkr_id": "PKR-DEC-000006",
       "version": "1.1",
       "pkr_type": "decision_logic",
-      "status": "Published",
+      "status": "Retired",
       "title": "The main framework — what to keep, what to remove, and how much to shorten",
       "sha256": "96a4392b5a7460081cd2424b0b5eba8ab6dea8af7ef8c0f5eba2b7ededf02fff"
+    },
+    {
+      "pkr_id": "PKR-DEC-000006",
+      "version": "1.2",
+      "pkr_type": "decision_logic",
+      "status": "Published",
+      "title": "The main framework — what to keep, what to remove, and how much to shorten",
+      "sha256": "fce518e41d5df0accffa0adc87ec2976244691c569330da8f66d88940ad0d8e1"
     },
     {
       "pkr_id": "PKR-DEC-000007",
@@ -615,25 +639,49 @@
       "pkr_id": "PKR-OBS-000004",
       "version": "1.0",
       "pkr_type": "observation",
-      "status": "Published",
+      "status": "Retired",
       "title": "Damaged growth",
       "sha256": "4647cf8cf98fbcaa5fd4cc3226e6a62403e8588ae3d6422cca9fa722a8df27b5"
+    },
+    {
+      "pkr_id": "PKR-OBS-000004",
+      "version": "1.1",
+      "pkr_type": "observation",
+      "status": "Published",
+      "title": "Damaged growth",
+      "sha256": "4642f394dba4829b414f016aa7bb3680e882312b2cf0bd63d3c1542ee4880361"
     },
     {
       "pkr_id": "PKR-OBS-000005",
       "version": "1.0",
       "pkr_type": "observation",
-      "status": "Published",
+      "status": "Retired",
       "title": "Weak or congested growth",
       "sha256": "783f2e486deeceab21d45e5c46554a319e2342f8eeffb86bdf961d5d4d2f19b7"
+    },
+    {
+      "pkr_id": "PKR-OBS-000005",
+      "version": "1.1",
+      "pkr_type": "observation",
+      "status": "Published",
+      "title": "Weak or congested growth",
+      "sha256": "74349d8364c1a06056895ee34dcc462281b7dffcbba9261e5aed2835e023b920"
     },
     {
       "pkr_id": "PKR-OBS-000006",
       "version": "1.1",
       "pkr_type": "observation",
-      "status": "Published",
+      "status": "Retired",
       "title": "The main framework to retain",
       "sha256": "79191e8622b0d3af4310f2cbe63610eae37ee526a294e6b888e88caa467e7aa9"
+    },
+    {
+      "pkr_id": "PKR-OBS-000006",
+      "version": "1.2",
+      "pkr_type": "observation",
+      "status": "Published",
+      "title": "The main framework to retain",
+      "sha256": "d63a2f0e1b158093a3ffddd1aa47f01e654b8e77a46d9b6536b7c1a340987e19"
     },
     {
       "pkr_id": "PKR-OBS-000007",

@@ -1,0 +1,74 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000005",
+  "version": "1.1",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Weak or congested growth",
+  "common": {
+    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora); dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000003",
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000013",
+      "PKR-SRC-000049",
+      "PKR-SRC-000055",
+      "PKR-SRC-000058",
+      "PKR-SRC-000059",
+      "PKR-SRC-000068",
+      "PKR-SRC-000069",
+      "PKR-SRC-000085",
+      "PKR-SRC-000095",
+      "PKR-SRC-000097",
+      "PKR-SRC-000100",
+      "PKR-SRC-000101",
+      "PKR-SRC-000102",
+      "PKR-SRC-000103",
+      "PKR-SRC-000104",
+      "PKR-SRC-000105",
+      "PKR-SRC-000106",
+      "PKR-SRC-000107"
+    ],
+    "founder_approval_date": "2026-10-17",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000005"
+      }
+    ],
+    "preserved_uncertainty": "Only one source puts a number on a weak cane (10 mm for canes kept), so Pip uses no number (AF-5, as corrected). Why canes become weak is thinly evidenced (AF-2, Low). The twiggy and thorn-colour cues rest on one page each and are not shown (AF-6, AF-11). No source describes weak canes as arching or flopping (U-2).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "weak-congested",
+    "feature": "Weak or congested growth",
+    "journey_order": 5,
+    "look_for": "Let's look for weak canes — thinner than a pencil — and at whether the middle of the bush is crowded.",
+    "criteria": [
+      {
+        "text": "A cane thinner than about a pencil may be weak.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Crowded: the bush is densely packed rather than open in the middle.",
+        "confidence": "Moderate"
+      }
+    ],
+    "photo_limit": "Thickness is hard to judge from a photo unless something of known size, such as a coin or pencil, is beside the cane. One angle can miss crowding at the back of the bush.",
+    "confirm_question": "Check the cane against a pencil, and look at the middle of the bush from more than one side. Is it weak, or is the bush crowded?",
+    "confirm_label": "Yes, weak or crowded",
+    "doesnt_match_label": "No",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": null,
+    "not_sure_guidance": "Take a photo with a coin or pencil beside the cane, or look at the middle from another side, then check again.",
+    "any_more_question": "Can you see any more weak canes?",
+    "comparison_images": []
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH2-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-17",
+    "note": "Older answers check, batch 2: a Founder approved Pip's corrected answers in chat on 17 October 2026 ('approve'), after reading Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+  }
+}

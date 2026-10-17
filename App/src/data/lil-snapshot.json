@@ -5873,7 +5873,7 @@
   },
   {
    "pkr_id": "PKR-DEC-000004",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "decision_logic",
    "title": "Damaged growth — what to do once confirmed",
    "common": {
@@ -5916,14 +5916,14 @@
      "PKR-SRC-000178",
      "PKR-SRC-000179"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "governed by",
       "pkr_id": "PKR-OBS-000004"
      }
     ],
-    "preserved_uncertainty": "No source defines \"slight\" versus \"severe\" precisely (AF-12). The answer is always to keep cutting down until healthy pith is found. The canker margin is worded \"2–3 inches\" or \"well below\" (AF-13). Disinfectant strength and how often to use it vary between sources (AF-15). Sources differ on how long to wait after frost damage (C-2).",
+    "preserved_uncertainty": "Only one source gives a slight-versus-severe rule, so Pip uses the no-live-buds rule instead (AF-12, as corrected). The canker margin figure is one source's (AF-13). How often to disinfect varies between sources and is shown as a range (AF-15). Sources disagree on sealing a cut after borer damage (shown). Sources differ on how long to wait after frost damage (C-2).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -5948,27 +5948,31 @@
     ],
     "decision_notes": [
      {
-      "text": "Cut the damaged cane back until you reach healthy wood: white or pale-green pith. Brown, black or grey means keep cutting a little further down.",
+      "text": "Cut the damaged cane back until you reach healthy wood, where the pith is white. If the pith is brown or grey, keep cutting a little further down.",
       "confidence": "High"
      },
      {
-      "text": "Slight damage: shorten just to healthy wood. Severe damage, or no living pith or buds below it: remove the whole cane at its base.",
+      "text": "If no live buds remain on the cane, remove it whole at its base. Otherwise cut back only as far as healthy wood.",
       "confidence": "Moderate"
      },
      {
-      "text": "If it looks like canker or disease: cut well below the patch (commonly 2–3 inches, about 5–8 cm), clean your blades between cuts, and bin or burn the prunings.",
+      "text": "If it looks like canker or disease: cut well below the patch (one source says at least 2–3 inches, about 5–8 cm). Disinfect your blades after cutting diseased wood; sources range from after each diseased plant to between every cut. Bin the prunings, or burn them where local rules allow.",
       "confidence": "Moderate"
      },
      {
-      "text": "If it looks like borer damage: cut below the damaged part until the pith is white or the hole is gone, then seal the fresh cut.",
+      "text": "If it looks like borer damage: cut below the damaged part, a little at a time, until the pith is white.",
       "confidence": "Moderate"
      },
      {
-      "text": "Frost or winter damage often doesn't show its full extent straight away. Sources advise waiting until live growth is emerging, so \"Decide later\" is the recommended choice for a frost-damaged cane. When you come back, I'll help you remove it even if the rose is growing.",
+      "text": "Sources disagree on sealing the fresh cut after removing borer damage: some say to seal it with waterproof glue, while another says pruning cuts made just above a node (where a leaf or bud joins the cane) heal over on their own.",
+      "kind": "disagreement"
+     },
+     {
+      "text": "Frost or winter damage often doesn't show its full extent straight away. It's best to wait until spring, before new growth starts, to see what survived, so \"Decide later\" is the recommended choice for a frost-damaged cane. When you come back, I'll help you remove it even if the rose is growing.",
       "confidence": "Moderate"
      },
      {
-      "text": "Leave: sources advise cutting confirmed damage back to healthy wood.",
+      "text": "Leave: confirmed damage should be cut back to healthy wood, so leaving it is not recommended.",
       "confidence": "High"
      }
     ],
@@ -5995,7 +5999,7 @@
   },
   {
    "pkr_id": "PKR-DEC-000005",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "decision_logic",
    "title": "Weak or congested growth — what to do once confirmed",
    "common": {
@@ -6019,14 +6023,14 @@
      "PKR-SRC-000101",
      "PKR-SRC-000102"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "governed by",
       "pkr_id": "PKR-OBS-000005"
      }
     ],
-    "preserved_uncertainty": "The number of canes to keep varies by source and region, from 1–4 to 4–8 (C-2), so Pip gives a range. The sunscald caution comes from one source and applies to hot-summer climates (AF-18). The one-third caution comes from general (not rose-specific) advice about annual crown removal (AF-18). No source explains why weak canes should be removed before congestion is decided; the order follows how sources sequence the work (AF-14; U-6).",
+    "preserved_uncertainty": "The number of canes to keep varies by source: about 3 to 7 for bush roses on the pages checked (AF-7, as corrected); one South African nursery's 1-4 is not shown. The sunscald caution comes from one source and applies to hot-summer climates (AF-18). The Rose Society of South Australia says not to worry about cutting out the centre (shown). No source explains why weak canes should be removed before congestion is decided (AF-14; U-6).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -6052,27 +6056,30 @@
     "decision_notes": [
      {
       "text": "Weak cane: remove it completely, at its base or where it starts. Don't shorten it.",
-      "confidence": "High"
-     },
-     {
-      "text": "Crowded bush: remove whole canes, never part-shorten one. Keep the strongest, then aim for even spacing and an open, airy centre.",
-      "confidence": "High"
-     },
-     {
-      "text": "Keep roughly 3–7 strong canes, 4–6 typical, and fewer for a modest or young plant.",
       "confidence": "Moderate"
      },
      {
-      "text": "If the plant already looks weak or small, prune it lightly.",
+      "text": "Crowded bush: cut out some canes completely rather than shortening them. Keep the stronger canes, evenly spaced around the plant, so the centre stays open. One rose society says not to worry about cutting out the centre.",
       "confidence": "Moderate"
      },
      {
-      "text": "In hot-summer areas, leave some growth in the middle to shade the graft. Don't clear all the crowding at once.",
+      "text": "Keep roughly 3 to 7 strong canes.",
       "confidence": "Moderate"
+     },
+     {
+      "text": "If the plant already looks weak or small, take out less.",
+      "confidence": "Low",
+      "kind": "precaution"
+     },
+     {
+      "text": "One source says that in hot-summer areas it helps to leave some growth in the middle to shade the graft (the swollen join near the base) and prevent sunscald (sun damage to the bark).",
+      "confidence": "Low",
+      "kind": "precaution"
      },
      {
       "text": "Reaching inside the bush, wear eye protection and long-cuffed gloves.",
-      "confidence": "Moderate"
+      "confidence": "Moderate",
+      "kind": "precaution"
      }
     ],
     "doesnt_match_choices": null,
@@ -6087,7 +6094,7 @@
       "label": "Get experienced local help"
      }
     ],
-    "headline_confidence": "High",
+    "headline_confidence": "Moderate",
     "gate_conditions": {
      "PKR-SGT-000001": "applies",
      "PKR-SGT-000002": "applies",
@@ -6098,7 +6105,7 @@
   },
   {
    "pkr_id": "PKR-DEC-000006",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "decision_logic",
    "title": "The main framework — what to keep, what to remove, and how much to shorten",
    "common": {
@@ -6130,14 +6137,14 @@
      "PKR-SRC-000119",
      "PKR-SRC-000120"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "governed by",
       "pkr_id": "PKR-OBS-000006"
      }
     ],
-    "preserved_uncertainty": "Final heights vary widely between sources, so no fixed height is given (C1). How many canes to keep varies from 3 to 8 (C7). The one-third-per-year renewal figure comes from sources about shrub, landscape and climbing roses, not specifically Hybrid Teas or Floribundas (AF-20). The \"replace a sickly bush\" point is general shrub advice (AF-39).",
+    "preserved_uncertainty": "Final heights vary widely between sources, so no fixed height is given (C1). The bush-rose pages checked give about 3 to 7 canes to keep (AF-15, as corrected). One source (Illinois) shortens by half to two-thirds (shown). Yearly one-third renewal and replacing a sickly bush rest on one page each and are not shown (AF-20, AF-39).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -6162,15 +6169,15 @@
     ],
     "decision_notes": [
      {
-      "text": "Keep the strong, healthy canes spread around the base, aiming for an open centre.",
+      "text": "Keep the strong, healthy canes spread around the base, aiming for an open centre. One rose society says not to worry about cutting out the centre.",
       "confidence": "High"
      },
      {
-      "text": "Keep roughly 3–7 canes, 4–6 typical, and fewer for a modest or young plant.",
+      "text": "Keep roughly 3 to 7 strong canes.",
       "confidence": "Moderate"
      },
      {
-      "text": "Shorten kept canes by roughly a third to a half. Hybrid Teas are cut lower, or to fewer canes, than Floribundas. Grandifloras are pruned as Hybrid Teas.",
+      "text": "Shorten kept canes by about a third to a half; one source says half to two-thirds. Hybrid Teas are cut lower, or to fewer canes, than Floribundas. Grandifloras are pruned much like Hybrid Teas.",
       "confidence": "Moderate"
      }
     ],
@@ -6195,16 +6202,8 @@
     ],
     "doesnt_match_notes": [
      {
-      "text": "Remove old, grey, unproductive canes at their base, in favour of younger ones.",
+      "text": "Remove old, woody or unproductive canes at their base, in favour of younger ones.",
       "confidence": "Moderate"
-     },
-     {
-      "text": "Renewing an old bush: remove about a third of the old canes each year, over several years, rather than all at once.",
-      "confidence": "Low"
-     },
-     {
-      "text": "For a badly overgrown, weak or sickly bush, experienced local help is worth asking — such a bush is sometimes better replaced.",
-      "confidence": "Low"
      }
     ],
     "not_sure_choices": [
@@ -6669,7 +6668,7 @@
   },
   {
    "pkr_id": "PKR-OBS-000004",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "observation",
    "title": "Damaged growth",
    "common": {
@@ -6700,44 +6699,46 @@
      "PKR-SRC-000086",
      "PKR-SRC-000089"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "decided by",
       "pkr_id": "PKR-DEC-000004"
      }
     ],
-    "preserved_uncertainty": "Causes aren't equally evidenced: sunscald rests on one source, and rodent and snow damage on one each (AF-2). No test exists for a split that isn't visible from outside (AF-6). Experts themselves disagree on whether canker can be diagnosed from a photo (C-3), so Pip always states its confidence. Sources are UK, US and Australian.",
+    "preserved_uncertainty": "Causes aren't equally evidenced: sunscald rests on one source, and rodent and snow damage on one each (AF-2). Signs of physical damage are visible ones only (AF-6, as corrected 17 October 2026). The borer entry hole and the harmless-wasp caveat rest on one page each and are not shown (AF-7). Experts disagree on whether canker can be diagnosed from a photo (C-3), so Pip always states its confidence. Sources are UK, US and Australian.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
     "key": "damaged-growth",
     "feature": "Damaged growth",
     "journey_order": 2,
-    "look_for": "Now let's look for damaged growth — canes that are injured or diseased but not simply dead.",
+    "look_for": "Now let's look for damaged growth — canes that are injured or diseased.",
     "criteria": [
      {
-      "text": "Canker: tan to purplish-brown sunken patches with cracking edges, tiny black dots, or dieback above a patch that rings the cane.",
+      "text": "Canker: brown to purplish sunken patches with cracking edges, tiny black dots, or dieback above a patch that rings the cane.",
       "confidence": "High"
      },
      {
-      "text": "Frost or winter injury: browned or blackened tips and discoloured canes. Confirming it needs a cut into the pith.",
+      "text": "Frost or winter injury: browned shoot tips and discoloured canes. Cutting into a cane shows the pith (its centre), and the pith's colour tells living wood from dead.",
       "confidence": "Moderate"
      },
      {
-      "text": "Physical damage: a visibly broken cane, or worn, rubbed bark where canes touch.",
-      "confidence": "Low"
-     },
-     {
-      "text": "Borer: a new tip that suddenly wilts, an entry hole, or slight swelling. A hole in the end of an old pruning cut is often a harmless wasp nest.",
-      "confidence": "Low"
-     },
-     {
-      "text": "Not damage: mossy or spiny insect galls are generally harmless, and red, purple or yellow spots on young canes can be their normal colour.",
+      "text": "Physical damage: a broken cane, or damage where canes rub together.",
       "confidence": "Moderate"
+     },
+     {
+      "text": "Borer (an insect that tunnels into canes): a new shoot tip that suddenly wilts, or a swollen spot on the cane.",
+      "confidence": "Moderate",
+      "limit": "A wilting tip can have other causes."
+     },
+     {
+      "text": "Not damage: mossy or spiny galls on canes are generally harmless.",
+      "confidence": "Moderate",
+      "limit": "One source says a heavy infestation of mossy gall can weaken the plant above it."
      }
     ],
-    "photo_limit": "A photo can show outside signs, but not what's happening inside the cane. If it's unclear, look closely at the plant rather than taking another photo.",
+    "photo_limit": "A photo can show outside signs, but not what's happening inside the cane.",
     "confirm_question": "Find that cane on your rose. Can you see damage like this?",
     "confirm_label": "Yes, I can see damage",
     "doesnt_match_label": "No — it's not damaged",
@@ -6750,7 +6751,7 @@
   },
   {
    "pkr_id": "PKR-OBS-000005",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "observation",
    "title": "Weak or congested growth",
    "common": {
@@ -6778,40 +6779,32 @@
      "PKR-SRC-000106",
      "PKR-SRC-000107"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "decided by",
       "pkr_id": "PKR-DEC-000005"
      }
     ],
-    "preserved_uncertainty": "The two sources that put a number on \"pencil thickness\" disagree (about 6 mm versus 10 mm, C-1), so Pip uses no number. Why canes become weak is thinly evidenced; one source links congestion to weak growth, and one links old age to it (AF-2, Low). No source describes weak canes as arching or flopping, so that isn't used as a sign (U-2).",
+    "preserved_uncertainty": "Only one source puts a number on a weak cane (10 mm for canes kept), so Pip uses no number (AF-5, as corrected). Why canes become weak is thinly evidenced (AF-2, Low). The twiggy and thorn-colour cues rest on one page each and are not shown (AF-6, AF-11). No source describes weak canes as arching or flopping (U-2).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
     "key": "weak-congested",
     "feature": "Weak or congested growth",
     "journey_order": 5,
-    "look_for": "Let's look for weak canes — thinner than a pencil, twiggy or unproductive — and at whether the middle of the bush is crowded.",
+    "look_for": "Let's look for weak canes — thinner than a pencil — and at whether the middle of the bush is crowded.",
     "criteria": [
      {
-      "text": "A cane thinner than about a pencil is a candidate weak cane. No number is used.",
+      "text": "A cane thinner than about a pencil may be weak.",
       "confidence": "Moderate"
      },
      {
-      "text": "Twiggy or unproductive growth, with thin tips rather than full, lush canes.",
+      "text": "Crowded: the bush is densely packed rather than open in the middle.",
       "confidence": "Moderate"
-     },
-     {
-      "text": "Crowded: the bush is densely packed, especially at ground level, rather than open in the middle.",
-      "confidence": "Moderate"
-     },
-     {
-      "text": "A thin cane with brown or reddish thorns may be this season's new growth rather than a weak cane.",
-      "confidence": "Low"
      }
     ],
-    "photo_limit": "Without a size reference, thickness can't be judged from a photo — hold a coin or pencil beside the cane. No photo can rule out crowding at the back of the bush.",
+    "photo_limit": "Thickness is hard to judge from a photo unless something of known size, such as a coin or pencil, is beside the cane. One angle can miss crowding at the back of the bush.",
     "confirm_question": "Check the cane against a pencil, and look at the middle of the bush from more than one side. Is it weak, or is the bush crowded?",
     "confirm_label": "Yes, weak or crowded",
     "doesnt_match_label": "No",
@@ -6824,7 +6817,7 @@
   },
   {
    "pkr_id": "PKR-OBS-000006",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "observation",
    "title": "The main framework to retain",
    "common": {
@@ -6859,14 +6852,14 @@
      "PKR-SRC-000116",
      "PKR-SRC-000121"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "decided by",
       "pkr_id": "PKR-DEC-000006"
      }
     ],
-    "preserved_uncertainty": "Sources define \"younger\" differently (AF-9). No finding sets an age in years for \"old\" wood. The approved default treats canes older than about three years as candidates, which is a convention, not a measured fact (C6). No source describes how to spot new basal shoots on a dormant bush (AF-10).",
+    "preserved_uncertainty": "Younger canes are favoured only on climber and shrub-rose pages, so Pip does not say it (AF-9, as corrected). No finding sets an age in years for old wood; the approved default treats canes older than about three years as candidates, a convention, not a measured fact (C6). New basal canes and the sucker check rest on ARC-BUSHROSE-SUCKERS-01 (AF-24, AF-1).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -6876,33 +6869,33 @@
     "look_for": "Finally, let's choose the framework to keep: the strong canes spread around the base that will form the shape of your rose.",
     "criteria": [
      {
-      "text": "Keeper canes: strong, healthy, vigorous canes, generally the younger ones.",
-      "confidence": "Moderate"
+      "text": "Keeper canes: strong, healthy, vigorous canes.",
+      "confidence": "High"
      },
      {
       "text": "Target shape: an open centre, with kept canes spread evenly around the base, like a vase or the spokes of a wheel.",
       "confidence": "High"
      },
      {
-      "text": "Old wood: grey, rough, scaly or crusty bark, sometimes with worn prickles.",
+      "text": "Old wood: the bark is usually grey.",
       "confidence": "Moderate"
      },
      {
-      "text": "New shoots from the base are a sign of good health and a way to renew the framework.",
-      "confidence": "Low"
+      "text": "Keep your rose's own new canes from the base.",
+      "confidence": "High"
      },
      {
-      "text": "Keep your rose's own new canes from the base. First check where each starts: a shoot from below the bud union is a sucker.",
+      "text": "On a grafted rose, a shoot that starts below the bud union (the swollen join near the base) is a sucker from the rootstock, not a new cane.",
       "confidence": "High"
      }
     ],
-    "photo_limit": "A photo can show the outline, but not how vigorous a cane really is, the pith, or the base close up. Check those by hand.",
+    "photo_limit": "A photo can show the outline, but not how vigorous a cane really is, the inside of the cane, or the base close up. Check those by hand.",
     "confirm_question": "Check this cane on your rose, down to the base. Is it a strong framework cane?",
     "confirm_label": "Yes, it's a strong cane",
     "doesnt_match_label": "No — it's old, grey or unproductive",
     "doesnt_match_route": "decide",
     "doesnt_match_note": null,
-    "not_sure_guidance": "Look at the base close up and gently check the cane.",
+    "not_sure_guidance": "Look closely at the cane and where it starts at the base.",
     "any_more_question": "Are there any more canes to check?",
     "comparison_images": []
    }

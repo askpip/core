@@ -1,0 +1,134 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-DEC-000004",
+  "version": "1.2",
+  "pkr_type": "decision_logic",
+  "status": "Published",
+  "title": "Damaged growth — what to do once confirmed",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning, or the removal-only session of PKR-SGT-000001 v1.1 §2.1",
+    "supporting_sources": [
+      "PKR-SRC-000001",
+      "PKR-SRC-000002",
+      "PKR-SRC-000004",
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000007",
+      "PKR-SRC-000009",
+      "PKR-SRC-000013",
+      "PKR-SRC-000021",
+      "PKR-SRC-000049",
+      "PKR-SRC-000069",
+      "PKR-SRC-000071",
+      "PKR-SRC-000072",
+      "PKR-SRC-000073",
+      "PKR-SRC-000075",
+      "PKR-SRC-000077",
+      "PKR-SRC-000080",
+      "PKR-SRC-000081",
+      "PKR-SRC-000082",
+      "PKR-SRC-000087",
+      "PKR-SRC-000088",
+      "PKR-SRC-000090",
+      "PKR-SRC-000091",
+      "PKR-SRC-000092",
+      "PKR-SRC-000093",
+      "PKR-SRC-000094",
+      "PKR-SRC-000164",
+      "PKR-SRC-000165",
+      "PKR-SRC-000172",
+      "PKR-SRC-000173",
+      "PKR-SRC-000174",
+      "PKR-SRC-000175",
+      "PKR-SRC-000176",
+      "PKR-SRC-000177",
+      "PKR-SRC-000178",
+      "PKR-SRC-000179"
+    ],
+    "founder_approval_date": "2026-10-17",
+    "related_pkrs": [
+      {
+        "relationship": "governed by",
+        "pkr_id": "PKR-OBS-000004"
+      }
+    ],
+    "preserved_uncertainty": "Only one source gives a slight-versus-severe rule, so Pip uses the no-live-buds rule instead (AF-12, as corrected). The canker margin figure is one source's (AF-13). How often to disinfect varies between sources and is shown as a range (AF-15). Sources disagree on sealing a cut after borer damage (shown). Sources differ on how long to wait after frost damage (C-2).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "choices": [
+      {
+        "choice": "cut",
+        "label": "Cut",
+        "cutKind": "remove-stem"
+      },
+      {
+        "choice": "leave",
+        "label": "Leave"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "decision_notes": [
+      {
+        "text": "Cut the damaged cane back until you reach healthy wood, where the pith is white. If the pith is brown or grey, keep cutting a little further down.",
+        "confidence": "High"
+      },
+      {
+        "text": "If no live buds remain on the cane, remove it whole at its base. Otherwise cut back only as far as healthy wood.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "If it looks like canker or disease: cut well below the patch (one source says at least 2–3 inches, about 5–8 cm). Disinfect your blades after cutting diseased wood; sources range from after each diseased plant to between every cut. Bin the prunings, or burn them where local rules allow.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "If it looks like borer damage: cut below the damaged part, a little at a time, until the pith is white.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Sources disagree on sealing the fresh cut after removing borer damage: some say to seal it with waterproof glue, while another says pruning cuts made just above a node (where a leaf or bud joins the cane) heal over on their own.",
+        "kind": "disagreement"
+      },
+      {
+        "text": "Frost or winter damage often doesn't show its full extent straight away. It's best to wait until spring, before new growth starts, to see what survived, so \"Decide later\" is the recommended choice for a frost-damaged cane. When you come back, I'll help you remove it even if the rose is growing.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Leave: confirmed damage should be cut back to healthy wood, so leaving it is not recommended.",
+        "confidence": "High"
+      }
+    ],
+    "doesnt_match_choices": null,
+    "doesnt_match_notes": null,
+    "not_sure_choices": [
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "headline_confidence": "High",
+    "gate_conditions": {
+      "PKR-SGT-000001": "removal_allowed_after_bud_break",
+      "PKR-SGT-000002": "applies",
+      "PKR-SGT-000003": "applies"
+    },
+    "cut_care_guidance": true
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH2-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-17",
+    "note": "Older answers check, batch 2: a Founder approved Pip's corrected answers in chat on 17 October 2026 ('approve'), after reading Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md, with no change. Version 1.2: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.1 retired."
+  }
+}

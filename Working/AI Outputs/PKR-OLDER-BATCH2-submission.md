@@ -1,14 +1,14 @@
-# PKR Submission Package — Older Answers Check, Batch 2: Damaged Growth, Weak Growth and the Main Framework (draft v0.4)
+# PKR Submission Package — Older Answers Check, Batch 2: Damaged Growth, Weak Growth and the Main Framework (v1.0, Published)
 
-**Draft, for a Founder's approval.** Built by KIT on 17 October 2026 under the Pip Knowledge Rules v0.5, after the Build Check (ROC Operations Manual Ch. 14). What a Founder reads is `Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md`.
+**Published 17 October 2026.** A Founder approved these answers in chat on 17 October 2026 ("approve"), with no change. Built by KIT on 17 October 2026 under the Pip Knowledge Rules v0.5, after the Build Check (ROC Operations Manual Ch. 14). What a Founder reads is `Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md`.
 
-**On approval:** each record below gets a new version (minor version +1), and its current version is retired. PKR-CGD-000003 is not changed here; it moves to batch 3 with the hard-pruning research. App change: `App/src/components/PkrStatements.tsx` StatementList shows each statement's tag (precaution, disagreement) and its limit, as in the common-question answers.
+**At approval:** each record below got a new version: PKR-OBS-000004 1.1, PKR-DEC-000004 1.2, PKR-OBS-000005 1.1, PKR-DEC-000005 1.2, PKR-OBS-000006 1.2, PKR-DEC-000006 1.2; the versions before them are retired. Their internal notes (`common.preserved_uncertainty`, not shown to gardeners) were brought into line with the corrections. PKR-CGD-000003 is not changed here; it moves to batch 3 with the hard-pruning research. App change: `App/src/components/PkrStatements.tsx` StatementList shows each statement's tag (precaution, disagreement) and its limit, as in the common-question answers.
 
-The corrections to the three approved research records (ROC OM §14.4) are listed in section 3 of Pip's Answers and are made on approval; the full list is `corrections_adopted` in `Build_Check_OLDER-BATCH2_statements_v0.1_2026-10-17.json`.
+The corrections to the three approved research records (ROC OM §14.4) are listed in section 3 of Pip's Answers and were made at approval, as a Build Check Corrections section in each ARC (DAMAGEDGROWTH 1.2, WEAKCONGESTED 1.3, PRUNINGFRAMEWORK 1.2); the full list is `corrections_adopted` in `Build_Check_OLDER-BATCH2_statements_v0.1_2026-10-17.json`.
 
 ## Records as they will be
 
-### PKR-DEC-000004 (now v1.1)
+### PKR-DEC-000004 (was v1.1)
 
 ```json
 {
@@ -83,7 +83,7 @@ The corrections to the three approved research records (ROC OM §14.4) are liste
 }
 ```
 
-### PKR-DEC-000005 (now v1.1)
+### PKR-DEC-000005 (was v1.1)
 
 ```json
 {
@@ -157,7 +157,7 @@ The corrections to the three approved research records (ROC OM §14.4) are liste
 }
 ```
 
-### PKR-DEC-000006 (now v1.1)
+### PKR-DEC-000006 (was v1.1)
 
 ```json
 {
@@ -243,7 +243,7 @@ The corrections to the three approved research records (ROC OM §14.4) are liste
 }
 ```
 
-### PKR-OBS-000004 (now v1.0)
+### PKR-OBS-000004 (was v1.0)
 
 ```json
 {
@@ -287,7 +287,7 @@ The corrections to the three approved research records (ROC OM §14.4) are liste
 }
 ```
 
-### PKR-OBS-000005 (now v1.0)
+### PKR-OBS-000005 (was v1.0)
 
 ```json
 {
@@ -317,7 +317,7 @@ The corrections to the three approved research records (ROC OM §14.4) are liste
 }
 ```
 
-### PKR-OBS-000006 (now v1.1)
+### PKR-OBS-000006 (was v1.1)
 
 ```json
 {

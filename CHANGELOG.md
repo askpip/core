@@ -10,6 +10,11 @@ Git provides the complete technical history of the repository. This changelog re
 
 ### Changed
 
+- **Older answers, batch 2 approved and ready to publish (17 October 2026).** A Founder approved Pip's corrected answers in chat ("approve"), with no change.
+  - **Research corrected:** each of the three research records has a new Build Check Corrections section (ROC Operations Manual §14.4): ARC-BUSHROSE-DAMAGEDGROWTH-01 v1.2, ARC-BUSHROSE-WEAKCONGESTED-01 v1.3 and ARC-BUSHROSE-PRUNINGFRAMEWORK-01 v1.2.
+  - **Records:** PKR-OBS-000004 v1.1, PKR-DEC-000004 v1.2, PKR-OBS-000005 v1.1, PKR-DEC-000005 v1.2, PKR-OBS-000006 v1.2 and PKR-DEC-000006 v1.2; the versions before them are retired. The library files and the app's snapshot are rebuilt: 604 records, 471 Published, 133 Retired.
+  - **In the app:** no further code change at approval (the statement-tag fix came with the draft). Checked by running the journey code against the new snapshot; the app build passes. Not opened in a browser.
+  - **Review documents:** Pip's Answers, its Form and the submission package are marked approved or published. `AI/Context/Ask_Pip_App_Build_Status_Context.md` is at Version 0.13.
 - **Older answers, batch 2: Pip's corrected answers ready for approval (17 October 2026).** Not published. Batch 2 is three checks in the pruning journey: damaged growth, weak or crowded growth, and the main framework (three approved research records; six answer records, PKR-OBS/DEC-000004 to -000006).
   - **What a Founder reads:** `Working/Founder Review/PKR-OLDER-BATCH2-PRUNING-JOURNEY-MIDDLE-CHECKS_Pips_Answers.md` and its one-question form. Approval also authorises the corrections to the three research records listed in its section 3 (ROC Operations Manual §14.4).
   - **Checked.** 86 sources on 56 websites were reopened and 85 opened. 54 sentences were checked by three sessions that took no part in writing them (21 failed at first, then 2, then none) and read as a gardener would (`Working/AI Outputs/Build_Check_OLDER-BATCH2_*.json`). PKR-CGD-000003 (how much to remove) rests mainly on the hard-pruning research and moves to batch 3.
