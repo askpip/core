@@ -1,0 +1,170 @@
+{
+ "round": "v0.3",
+ "B1": {
+  "results": [
+   {
+    "record": "PKR-SGT-000001",
+    "field": "caveat",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "DORMANCY AF-1",
+     "DORMANCY AF-3"
+    ],
+    "note": "Arkansas 'semi-evergreen most winters'; Minnesota warm-spell bud break; judge by buds follows AF-1. Moderate label matches AF-3.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000002",
+    "field": "question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "RECENTPLANT AF-1 as corrected"
+    ],
+    "note": "Matches Cornell ('The first season new bushes are planted') and Marin ('newly planted'). Moderate matches the restraint.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000002",
+    "field": "restricted_reason_recent",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "RECENTPLANT AF-1 as corrected"
+    ],
+    "note": "Leads with Marin, Fine Gardening and Cornell (dead wood excepted) and names the two that differ (K-State at planting, RHS first winter), as rule 2 asks.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "criteria[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "DEADWOOD AF-2 as corrected"
+    ],
+    "note": "Iowa, Illinois, ARS support the colours; the bronze/older-cane limit is Colorado alone and says 'one source says'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "criteria[3]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "DEADWOOD AF-1 as corrected"
+    ],
+    "note": "White living, brown dead is on all seven pages; 'the centre' matches Clemson's 'center of the canes'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000001",
+    "field": "decision_notes[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "DEADWOOD AF-8 as corrected",
+     "DEADWOOD AF-3 as corrected"
+    ],
+    "note": "Cutting lower while brown: Georgia, El Paso, Colorado (small steps). Whole cane: Clemson alone ('If no live buds remain, remove the entire cane'), now stated as one source.",
+    "suggested_wording": null
+   }
+  ],
+  "package_notes": [
+   "All six pass. Earlier notes still stand for the ROC: Clemson alone supports whole-cane removal in AF-3; AF-2's 'pith as follow-up' was not confirmed at the source check."
+  ]
+ },
+ "B2": {
+  "results": [
+   {
+    "record": "PKR-OBS-000002",
+    "field": "criteria[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Unlabelled app framing; no confidence claim. Crossing and rubbing are both named by Kansas City Rose Society and Texas A&M.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000002",
+    "field": "decision_notes[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "STEMCROSSING AF-6 (Moderate)"
+    ],
+    "note": "Portland 'back to the bud union, or back to the major cane'; Martin 'flush with the bud union or flush with the cane'. Disagreement shown: Kansas City 'back to the next outward facing bud'. Stands alone now.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000002",
+    "field": "decision_notes[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "INWARDGROWTH AF-1 (Moderate)"
+    ],
+    "note": "ARS 'avoid the growth from being directed inward'; Texas A&M 'buds that point to the outside'; Victoria 'eye that is facing outwards'; Maryland 'grow outwards, not into the center'; Yates 'just above an outward-facing bud'. Centre-open phrase removed.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "criteria[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-1 (High)",
+     "SUCKERS AF-14 (Low)"
+    ],
+    "note": "Prabhu 'graft union or a few inches above'; Victoria 'if above the graft - basal shoot'. Limit matches Eastcroft 'any part of it's stem above the union'. Make sure the limit field shows its own Low label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "sucker_steps.supporting",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-3",
+     "SUCKERS AF-4",
+     "SUCKERS AF-6",
+     "SUCKERS AF-7 (all Moderate)"
+    ],
+    "note": "Harkness 'often smaller, lighter in colour, or with more leaflets'; RHS 'different number of leaflets'; Treloar 'often notice' flowers differ; Eastcroft 'often more vigorous'; David Austin 'not always reliable'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "removal_method[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6
+    ],
+    "traces_to": [
+     "SUCKERS AF-18 (sources disagree)",
+     "SUCKERS AF-19 (Moderate)"
+    ],
+    "note": "Content right and disagreement now stated (pull/tear side about 8 pages, cut side 4-5; RHS 'dormant basal buds are removed'; UCCE 'prevent the sucker from growing back'). Because the statement says sources disagree, it should carry 'Sources disagree' in place of Moderate (rules s3A).",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "removal_method[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-18 (sources disagree)",
+     "SUCKERS AF-17 (High)"
+    ],
+    "note": "Cut side: UCCE Ventura, Treloar, Fine Gardening ('cutting above...sprout faster'). Pull side: RHS FAQ ('don't just cut it off at soil level'), Harkness ('Cutting suckers at the surface encourages regrowth'). Both sides do say not at soil level.",
+    "suggested_wording": null
+   }
+  ],
+  "package_notes": [
+   "Only open point: removal_method[1] label. Use 'Sources disagree' instead of Moderate, or remove the disagreement sentence from it and leave that to removal_method[2].",
+   "Ensure the limit field on OBS-7 criteria[0] shows a Low label."
+  ]
+ },
+ "after": "DEC-007 removal_method[1] relabelled Sources disagree and removal_method[2] removed as its duplicate (v0.4), as the B2 note asked"
+}

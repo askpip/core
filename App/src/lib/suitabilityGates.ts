@@ -45,13 +45,14 @@ const DEAD_WOOD_ONLY_OBSERVATION_IDS = ['dead-wood']
 
 /**
  * Evaluates PKR-SGT-000002's Primary Question:
- * "Do you know approximately when this rose was planted? If so, has it
- * been growing in this spot for about three years or more?"
+ * "Was this rose planted within the last year, so that this is its first
+ * growing season in this spot?" (v1.1; v1.0 asked about three years or more)
  *
  * Mirrors the PKR's 3-row Acceptable Answer(s) table exactly:
- *   established (>= 3 years) -> gate passes, all observations proceed
- *   recent (< 3 years)       -> restricted to dead wood only
- *   unknown                  -> falls through to the Fallback Check
+ *   established (past its first growing season) -> gate passes, all observations proceed
+ *   recent (planted within the last year)       -> restricted to dead wood only
+ *   unknown                                     -> restricted to dead wood only when the PKR
+ *                                                  has no fallback signals (v1.1); otherwise the Fallback Check
  */
 export function evaluateRecentlyPlantedPrimary(
   answer: RecentlyPlantedPrimaryAnswer,
@@ -64,6 +65,15 @@ export function evaluateRecentlyPlantedPrimary(
       status: 'restricted',
       allowedObservationIds: DEAD_WOOD_ONLY_OBSERVATION_IDS,
       reason: RECENTLY_PLANTED_GATE.restrictedReasonRecent,
+    }
+  }
+  // PKR-SGT-000002 v1.1 has no fallback signals (the Build Check found them Low and
+  // not a precaution, 16 October 2026): an unknown planting date gets the dead-wood-only check.
+  if (RECENTLY_PLANTED_GATE.fallbackQuestions.length === 0) {
+    return {
+      status: 'restricted',
+      allowedObservationIds: DEAD_WOOD_ONLY_OBSERVATION_IDS,
+      reason: RECENTLY_PLANTED_GATE.restrictedReasonFallback,
     }
   }
   return 'needs-fallback'

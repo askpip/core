@@ -1,0 +1,3022 @@
+{
+ "what": "Build Check Part 1 for approved research (ROC Operations Manual §14.2A, §14.4 \"An ARC already approved\"): every Source PKR the batch-1 records cite was reopened on 16 October 2026 and checked against each finding it is cited for.",
+ "sources": [
+  {
+   "pkr": "PKR-SRC-000001",
+   "url": "https://www.rhs.org.uk/plants/roses/pruning-guide",
+   "final_url": "https://www.rhs.org.uk/plants/roses/pruning-guide",
+   "opened": true,
+   "page_date": "not shown (copyright 2026)",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-1",
+     "recorded": "Quote checked: \"Cut out dead and diseased stems and spindly and crossing stems\". Already cited by PKR-SRC-000001.",
+     "result": "Confirmed",
+     "page_wording": "Prune dieback to healthy white pith.",
+     "supports_finding": "partly",
+     "note": "RHS (UK, implied) says only to prune dieback to healthy white pith and keep secateurs sharp. No brown/grey/black pith, no tip-downward incremental cutting, no dull-tool crushing point."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-2",
+     "recorded": "Quote checked: \"Cut out dead and diseased stems and spindly and crossing stems\". Already cited by PKR-SRC-000001.",
+     "result": "Confirmed",
+     "page_wording": "",
+     "supports_finding": "no",
+     "note": "Page does not discuss green vs brown/black bark as a live/dead test or bronze cultivars. It mentions grey flaky bark only as oldest climber/rambler stems and green-barked younger side stems."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-7",
+     "recorded": "Quote checked: \"Cut out dead and diseased stems and spindly and crossing stems\". Already cited by PKR-SRC-000001.",
+     "result": "Confirmed",
+     "page_wording": "Prune dieback to healthy white pith.",
+     "supports_finding": "partly",
+     "note": "RHS supports cutting dieback back to healthy white pith; green bark and 'not merely where dead tissue first shows' are not stated."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-1",
+     "recorded": "Quote checked: \"Cut out dead and diseased stems and spindly and crossing stems\". Already cited by PKR-SRC-000001.",
+     "result": "Confirmed",
+     "page_wording": "Cut out dead and diseased stems and spindly and crossing stems",
+     "supports_finding": "no",
+     "note": "Page names crossing stems only, in a general list; rubbing stems are not mentioned, so it does not show a linked pair."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "Quote checked: \"Cut out dead and diseased stems and spindly and crossing stems\". Already cited by PKR-SRC-000001.",
+     "result": "Confirmed",
+     "page_wording": "Cut out dead and diseased stems and spindly and crossing stems",
+     "supports_finding": "partly",
+     "note": "RHS general tip lists crossing stems for cutting out on all roses, in a late-winter (Feb/March) context. Rubbing stems not mentioned; no explicit 'not deferred or referred' statement."
+    }
+   ],
+   "contradictions": [
+    "Quoted sentence appears in a general tips list; the page does not mention rubbing stems, brown/black pith or bark colour tests."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000140",
+   "url": "https://www.rhs.org.uk/plants/types/trees/removing-suckers-trees-shrubs",
+   "final_url": "https://www.rhs.org.uk/plants/types/trees/removing-suckers-trees-shrubs",
+   "opened": true,
+   "page_date": "not shown (copyright 2026)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "\"On grafted plants such as roses, suckers can grow from below the graft union, on the rootstock material.\"",
+     "result": "Confirmed",
+     "page_wording": "On grafted plants such as roses, suckers can grow from below the graft union, on the rootstock material.",
+     "supports_finding": "partly",
+     "note": "RHS (UK) says suckers grow from below the graft union. It does not describe the basal shoot from or above the union."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "\"Remove suckers as close as possible to the point of origin on the root, scraping away soil to reach the base if necessary.\"",
+     "result": "Confirmed",
+     "page_wording": "Remove suckers as close as possible to the point of origin on the root, scraping away soil to reach the base if necessary.",
+     "supports_finding": "partly",
+     "note": "RHS supports clearing soil to reach the base. 'Some distance from the plant' and tracing the shoot down are not stated."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "\"Remove suckers as close as possible to the point of origin on the root, scraping away soil to reach the base if necessary.\"",
+     "result": "Confirmed",
+     "page_wording": "Remove suckers as close as possible to the point of origin on the root, scraping away soil to reach the base if necessary.",
+     "supports_finding": "partly",
+     "note": "RHS says remove at the point of origin on the root. The page excerpt does not say a soil-level cut regrows (it gives regrowth reasoning for tearing)."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "\"Tear, rather than cut away, the shoot so that the majority of dormant basal buds are removed, thus reducing the possibility of regrowth.\"",
+     "result": "Confirmed",
+     "page_wording": "Tear, rather than cut away, the shoot so that the majority of dormant basal buds are removed",
+     "supports_finding": "partly",
+     "note": "RHS is on the tear side of the disagreement. The page does not speak for the cut-cleanly sources."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-19",
+     "recorded": "\"Tear, rather than cut away, the shoot so that the majority of dormant basal buds are removed, thus reducing the possibility of regrowth.\"",
+     "result": "Confirmed",
+     "page_wording": "Tear, rather than cut away, the shoot so that the majority of dormant basal buds are removed",
+     "supports_finding": "yes",
+     "note": "RHS gives this exact reason for tearing. WebFetch returned the sentence cut at 'removed'; the 'reducing regrowth' ending was not in its output."
+    }
+   ],
+   "contradictions": [
+    "General page on trees and shrubs, applied to roses only via the grafted-plants sentence."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000141",
+   "url": "https://www.rhs.org.uk/plants/roses/frequently-asked-questions",
+   "final_url": "https://www.rhs.org.uk/plants/roses/frequently-asked-questions",
+   "opened": true,
+   "page_date": "not shown (copyright 2026)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "Suckers (shoots produced from the rootstock) will develop from below ground level",
+     "result": "Near",
+     "page_wording": "Suckers ... 'develop from below ground level.'",
+     "supports_finding": "partly",
+     "note": "WebFetch returned the fragment 'develop from below ground level' and described suckers as growing from the rootstock; the parenthetical was paraphrased, not shown verbatim. RHS (UK) does not mention the graft/bud union comparison."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "Suckers (shoots produced from the rootstock) will develop from below ground level",
+     "result": "Near",
+     "page_wording": "develop from below ground level",
+     "supports_finding": "partly",
+     "note": "Page supports below-ground origin and digging down to the origin. 'Some distance from the plant' and tracing the shoot are not stated."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-3",
+     "recorded": "For example, they may be a different colour (often paler) and/or have a different number of leaflets.",
+     "result": "Near",
+     "page_wording": "may be a different colour (often paler) and/or have a different number of leaflets.",
+     "supports_finding": "partly",
+     "note": "Wording matches apart from the 'For example,' lead-in, which WebFetch did not return. Only the RHS part of the multi-source finding is checked."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-11",
+     "recorded": "it may still produce suckers from the roots, but these shoots will be identical to the rest of the plant",
+     "result": "Near",
+     "page_wording": "these shoots will be identical to the rest of the plant",
+     "supports_finding": "yes",
+     "note": "RHS says shoots from an own-root rose are identical to the plant. Only the second half of the recorded sentence came back verbatim."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "dig down to expose its origin on the root, and then pull it away at this point",
+     "result": "Confirmed",
+     "page_wording": "dig down to expose its origin on the root, and then pull it away at this point; don't just cut it off at soil level, or it will regrow.",
+     "supports_finding": "yes",
+     "note": "RHS (UK) states this directly."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "then pull it away at this point; don't just cut it off at soil level, or it will regrow.",
+     "result": "Confirmed",
+     "page_wording": "dig down to expose its origin on the root, and then pull it away at this point; don't just cut it off at soil level, or it will regrow.",
+     "supports_finding": "partly",
+     "note": "RHS is on the pull side; it also says gently pull off young ones. Does not speak for the cut-cleanly sources."
+    }
+   ],
+   "contradictions": [
+    "Page says to pull suckers off rather than cut at soil level (narrows AF-18 to the pull camp)."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000156",
+   "url": "https://www.rhs.org.uk/plants/roses/planting",
+   "final_url": "https://www.rhs.org.uk/plants/roses/planting",
+   "opened": true,
+   "page_date": "not shown (copyright 2026)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-12",
+     "recorded": "AF-12: \"is at soil level (not below as this is reported to increase the risk of rose dieback).\"",
+     "result": "Confirmed",
+     "page_wording": "ensure the graft union ... is at soil level (not below as this is reported to increase the risk of rose dieback).",
+     "supports_finding": "partly",
+     "note": "RHS (UK) says union at soil level, not below. That is one source's position; the finding is about sources differing."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000008",
+   "url": "https://extension.missouri.edu/news/start-your-shears-its-pruning-time",
+   "final_url": "https://extension.missouri.edu/news/start-your-shears-its-pruning-time",
+   "opened": true,
+   "page_date": "not shown (says 'Published' with no date)",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-7",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Remove all dead wood by cutting at least an inch below the dead area.",
+     "supports_finding": "partly",
+     "note": "University of Missouri Extension (Columbia, Missouri) says cut at least an inch below the dead area. Pith colour, green bark and living tissue are not mentioned."
+    }
+   ],
+   "contradictions": [
+    "Page gives an inch-below-dead-area rule, not a living-tissue (pith/bark colour) test."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000054",
+   "url": "https://extension.missouri.edu/publications/g6870",
+   "final_url": "https://extension.missouri.edu/publications/g6870",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "Quotes found: \"look for branches that are broken, crossing or rubbing each other\"; thinning removes a shoot \"back to ground level or back to another main branch\". No publication date is shown on the page.",
+     "result": "Confirmed",
+     "page_wording": "look for branches that are broken, crossing or rubbing each other and correct these problems.",
+     "supports_finding": "partly",
+     "note": "University of Missouri Extension (Missouri) says correct crossing or rubbing branches, with early-spring dormant pruning advice. General ornamentals, not roses; 'remove' is worded as 'correct'."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-6",
+     "recorded": "Quotes found: \"look for branches that are broken, crossing or rubbing each other\"; thinning removes a shoot \"back to ground level or back to another main branch\". No publication date is shown on the page.",
+     "result": "Near",
+     "page_wording": "back to ground level ... back to another main branch or trunk",
+     "supports_finding": "partly",
+     "note": "Page's thinning cut goes back to ground level or another main branch or trunk (recorded text lacks 'or trunk'). This is general thinning guidance, not specific to crossing stems or roses."
+    }
+   ],
+   "contradictions": [
+    "General ornamental trees and shrubs guide, not rose-specific."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000061",
+   "url": "https://extension.missouri.edu/publications/mg8",
+   "final_url": "https://extension.missouri.edu/publications/mg8",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-4",
+     "recorded": "Quote found: \"Walk around the plant to view it from all sides.\"",
+     "result": "Confirmed",
+     "page_wording": "Walk around the plant to view it from all sides.",
+     "supports_finding": "partly",
+     "note": "Missouri Master Gardener manual (Missouri) tells pruners to view the plant from all sides. It does not mention photographs, so the photo-limit point is inferred."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-3",
+     "recorded": "Quote found: \"Walk around the plant to view it from all sides.\"",
+     "result": "Confirmed",
+     "page_wording": "Walk around the plant to view it from all sides.",
+     "supports_finding": "partly",
+     "note": "Same sentence supports viewing from multiple sides; nothing about photographs or inward growth."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000022",
+   "url": "https://dunedinbotanicgarden.co.nz/collections/garden-life-article/practical-tips-for-rose-pruning",
+   "final_url": "https://dunedinbotanicgarden.co.nz/collections/garden-life-article/practical-tips-for-rose-pruning",
+   "opened": true,
+   "page_date": "26 Jun 2014 (first published)",
+   "checks": [
+    {
+     "research": "DORMANCY",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "The general rule is the colder the climate, the later you prune in winter. ... modern roses are pruned in late July, when they are at their most dormant and hopefully the heaviest of frosts have passed.",
+     "supports_finding": "partly",
+     "note": "Dunedin Botanic Garden prunes modern roses in late July after the heaviest frosts and says colder climate means later pruning. Supports the Dunedin end only; Oregon and the five-month spread are not on this page. Opened at dunedinbotanicgarden.co.nz, not the dunedin.govt.nz address in the identity."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Open up bush -remove inward facing growth and side shoots.",
+     "supports_finding": "yes",
+     "note": "Page names inward-facing growth, i.e. direction toward the bush interior, as a category. The page does not name its country or city."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-4",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Open up bush -remove inward facing growth and side shoots.",
+     "supports_finding": "partly",
+     "note": "Page says remove inward-facing growth during the winter pruning. It does not mention crossing or rubbing stems, so 'same basis as crossing stems' is not shown."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention crossing or rubbing stems.",
+    "Page url differs from the identity (dunedin.govt.nz); the page itself does not name a country."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000055",
+   "url": "https://blogs.ifas.ufl.edu/leonco/2014/02/14/roses-are-red-pruning-florida-roses/",
+   "final_url": "https://blogs.ifas.ufl.edu/leonco/2014/02/14/roses-are-red-pruning-florida-roses/",
+   "opened": true,
+   "page_date": "Posted 14 Feb 2014; byline 15 Feb 2014; last updated 14 Jun 2021",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "Quote found: \"the weakest of those branches should be removed\". The FRD recorded the title descriptively as \"Rose pruning advice\".",
+     "result": "Confirmed",
+     "page_wording": "If you notice any rubbing or crossing branches the weakest of those branches should be removed.",
+     "supports_finding": "partly",
+     "note": "UF/IFAS Leon County (Florida) says remove the weaker rubbing or crossing branch, with modern roses pruned mid to late February. Dormant-season framing is Florida timing."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-7",
+     "recorded": "Quote found: \"the weakest of those branches should be removed\". The FRD recorded the title descriptively as \"Rose pruning advice\".",
+     "result": "Confirmed",
+     "page_wording": "If you notice any rubbing or crossing branches the weakest of those branches should be removed.",
+     "supports_finding": "yes",
+     "note": "Page uses a weakness criterion: remove the weakest. Matches the finding."
+    }
+   ],
+   "contradictions": [
+    "Identity gives 25 Feb 2014; page shows posted 14 Feb 2014, byline 15 Feb 2014."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000010",
+   "url": "https://www.lsuagcenter.com/articles/page1747856424360",
+   "final_url": "https://www.lsuagcenter.com/articles/page1747856424360",
+   "opened": true,
+   "page_date": "5/21/2025 timestamp (unclear if publication date)",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-4",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Bend a small twig to see if it's still flexible.",
+     "supports_finding": "yes",
+     "note": "Page says living wood bends and dead wood snaps and feels brittle (WebFetch summarised the second part). Organisation and place not identified in the page text; it is a general woody-plant test, not rose-specific."
+    }
+   ],
+   "contradictions": [
+    "Page also gives a scratch test (green moist tissue under bark means alive); organisation and place not shown in fetched text."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000030",
+   "url": "https://springhillnursery.com/pages/about_rose_grading",
+   "final_url": "https://springhillnursery.com/pages/about_rose_grading",
+   "opened": true,
+   "page_date": "not shown (copyright 2026)",
+   "checks": [
+    {
+     "research": "RECENTPLANT",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Each Grade #1 rose has an average of three \"flower-ready\" canes that will grow in the first season.",
+     "supports_finding": "partly",
+     "note": "Spring Hill Nursery (place not stated) supports only the roughly three-cane Grade #1 baseline. Active new growth and firm anchoring as establishment signals are not on the page."
+    }
+   ],
+   "contradictions": [
+    "Page does not discuss establishment signals."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000013",
+   "url": "https://rose.org/basic-pruning-principles/",
+   "final_url": "https://rose.org/basic-pruning-principles/",
+   "opened": true,
+   "page_date": "17 July 2024 (modified 24 July 2024)",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "prune to \"good healthy tissue easily recognized by the green bark on the outside of the cane and white pith core.\"",
+     "supports_finding": "partly",
+     "note": "American Rose Society, rose bushes generally (US, no place stated). Gives green bark and white pith as healthy; says nothing on brown pith, tip-downward increments or dull tools."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "green bark on the outside of the cane and white pith core",
+     "supports_finding": "partly",
+     "note": "ARS. Green bark named as healthy tissue only; no brown/grey/black/shriveled dead signs, no false-negative warning for older canes or bronze cultivars."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-3",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "The eye is normally visible as a slight swelling above the surface of the cane.",
+     "supports_finding": "no",
+     "note": "ARS. Mentions dormant eyes only as where to place the cut; does not say plump buds show living wood or that a cane with no live buds is removed."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-7",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Remove old canes that appear woody by sawing them off as close to the bud union as possible.",
+     "supports_finding": "partly",
+     "note": "ARS. General advice to cut to healthy green-bark, white-pith tissue and clean up stubs; no explicit rule about cutting dead wood back past where dead tissue first shows."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Such cuts avoid the growth from being directed inward and colliding with other stems.",
+     "supports_finding": "yes",
+     "note": "ARS, rose bushes generally. Uses the prospective outward-facing-eye cut so growth points away from the centre; does not treat existing inward stems as a named defect."
+    }
+   ],
+   "contradictions": [
+    "Page speaks of green bark/white pith only; no brown pith or incremental-cutting procedure.",
+    "Both recorded notes for this source are only 'web address already held' notices, not quotations."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000146",
+   "url": "https://www.rose.org/single-post/2020/08/04/Satish-Says-Mid-Season-Pruning",
+   "final_url": "https://www.rose.org/single-post/2020/08/04/Satish-Says-Mid-Season-Pruning",
+   "opened": true,
+   "page_date": "not shown (identifies a 2016 Award of Merit article)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "a basal break is generally defined as growth originating from the graft union or a few inches above it.",
+     "result": "Confirmed",
+     "page_wording": "a basal break is generally defined as growth originating from the graft union or a few inches above it.",
+     "supports_finding": "yes",
+     "note": "Satish Prabhu, Master Rosarian, South Carolina Rose Society (US). Defines basal break by graft union origin."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "cleaning up of soil around the point where the sucker originated in order to be able to clearly see it",
+     "result": "Near",
+     "page_wording": "clearing soil around the sucker's origin (WebFetch gave this as paraphrase, not verbatim)",
+     "supports_finding": "partly",
+     "note": "South Carolina Rose Society author. Recommends clearing soil to see where the sucker starts; below-ground or distant origin and 'trace the shoot' not shown."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-4",
+     "recorded": "its foliage can resemble any other common hybrid tea roses.",
+     "result": "Confirmed",
+     "page_wording": "its foliage can resemble any other common hybrid tea roses.",
+     "supports_finding": "partly",
+     "note": "South Carolina Rose Society author. Supports the Dr. Huey foliage point only; leaflet-count points are not from this page."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-5",
+     "recorded": "Most basal breaks are red in color, in contrast to the light green color of rootstocks",
+     "result": "Near",
+     "page_wording": "Most basal breaks are red in color",
+     "supports_finding": "yes",
+     "note": "South Carolina Rose Society author. Red basal breaks versus light green rootstock growth; the contrast clause came back as paraphrase; Dr. Huey exception not seen in the retrieved text."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-13",
+     "recorded": "Though sometimes confused with a rootstock sucker, a basal break",
+     "result": "Near",
+     "page_wording": "sometimes confused with a rootstock sucker",
+     "supports_finding": "yes",
+     "note": "South Carolina Rose Society author. Page says basal breaks are sometimes confused with suckers and beginners may remove them by mistake."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "cutting flush with the trunk is more effective in preventing re-suckering than just yanking it off!",
+     "result": "Confirmed",
+     "page_wording": "cutting flush with the trunk is more effective in preventing re-suckering than just yanking it off!",
+     "supports_finding": "partly",
+     "note": "South Carolina Rose Society author. Favours a clean flush cut over pulling; this source sits on the cut side only."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-20",
+     "recorded": "If a sucker is allowed to grow and mature, removal will then result in even more suckers arising from the same spot",
+     "result": "Near",
+     "page_wording": "when a sucker is left to grow, removing it later causes repeated suckering from the same spot (paraphrase from WebFetch)",
+     "supports_finding": "yes",
+     "note": "South Carolina Rose Society author. Supports removing early; exact sentence not returned verbatim."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-24",
+     "recorded": "NEVER remove basal breaks! That is really not good for your bushes!",
+     "result": "Confirmed",
+     "page_wording": "NEVER remove basal breaks!",
+     "supports_finding": "yes",
+     "note": "South Carolina Rose Society author. Strong keep-basal-breaks statement."
+    }
+   ],
+   "contradictions": [
+    "Page has no date; the 4 August 2020 repost date was not shown.",
+    "Advice is for South Carolina / US grafted roses."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000006",
+   "url": "https://hgic.clemson.edu/factsheet/pruning-roses/",
+   "final_url": "https://hgic.clemson.edu/factsheet/pruning-roses/",
+   "opened": true,
+   "page_date": "27 June 1999 (HGIC 1173)",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "The center of the canes (rose stems) should be white and plump, not brown and withered.",
+     "supports_finding": "partly",
+     "note": "Clemson Extension HGIC, South Carolina only (page says recommendations may not apply elsewhere). White centre healthy, brown not; no tip-downward increment method or tool-sharpness point seen (only alcohol-dipping shears)."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-3",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "If no live buds remain, remove the entire cane.",
+     "supports_finding": "yes",
+     "note": "Clemson Extension, South Carolina. Removes a cane with no live buds; plump-bud-means-living point not seen separately."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-7",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "If they appear diseased, you will need to cut farther down into healthy wood.",
+     "supports_finding": "yes",
+     "note": "Clemson Extension, South Carolina. Cut down into healthy wood; green bark not mentioned."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-8",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "If no live buds remain, remove the entire cane.",
+     "supports_finding": "partly",
+     "note": "Clemson Extension, South Carolina. Keep cutting to healthy tissue and remove whole cane; bud union not mentioned."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Whenever two canes cross each other, one can be removed.",
+     "supports_finding": "partly",
+     "note": "Clemson Extension, South Carolina. Says one can be removed (permissive); does not say dormant-season routine or not deferred."
+    }
+   ],
+   "contradictions": [
+    "Applies to South Carolina conditions only; page says may not apply elsewhere.",
+    "Crossing canes: 'can be removed', weaker than 'is removed'.",
+    "Page does not mention the bud union."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000157",
+   "url": "https://nzroses.org.nz/winter-rose-care/",
+   "final_url": "https://nzroses.org.nz/winter-rose-care/",
+   "opened": true,
+   "page_date": "30 March 2009 (page metadata; text extract from NZ Rosarian, June 1996)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "Suckers are coming from the under stock of a budded plant and take goodness away from the bush itself.",
+     "result": "Confirmed",
+     "page_wording": "Suckers are coming from the under stock of a budded plant and take goodness away from the bush itself.",
+     "supports_finding": "partly",
+     "note": "New Zealand Rose Society, New Zealand. Says suckers come from the understock; gives no position-relative-to-bud-union test."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-20",
+     "recorded": "suckers are loathed and need to be eliminated at the earliest opportunity.",
+     "result": "Confirmed",
+     "page_wording": "suckers are loathed and need to be eliminated at the earliest opportunity.",
+     "supports_finding": "yes",
+     "note": "New Zealand Rose Society, New Zealand. Supports early removal."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-21",
+     "recorded": "Suckers are coming from the under stock of a budded plant and take goodness away from the bush itself.",
+     "result": "Confirmed",
+     "page_wording": "Suckers are coming from the under stock of a budded plant and take goodness away from the bush itself.",
+     "supports_finding": "yes",
+     "note": "New Zealand Rose Society, New Zealand. Supports suckers taking goodness from the bush; 'take over' not stated here."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-24",
+     "recorded": "Basal shoots are the lifeblood of the plant and are to be protected at all costs",
+     "result": "Confirmed",
+     "page_wording": "Basal shoots are the lifeblood of the plant and are to be protected at all costs",
+     "supports_finding": "yes",
+     "note": "New Zealand Rose Society, New Zealand. Direct support."
+    }
+   ],
+   "contradictions": [
+    "Text is a 1996 magazine extract posted in 2009."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000158",
+   "url": "https://nzroses.org.nz/free-rose-pruning-demonstrations/",
+   "final_url": "https://nzroses.org.nz/free-rose-pruning-demonstrations/",
+   "opened": true,
+   "page_date": "Published 12 May 2019; updated 6 June 2019",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-25",
+     "recorded": "you can learn what to do from local rose experts",
+     "result": "Confirmed",
+     "page_wording": "In a friendly, relaxed environment, you can learn what to do from local rose experts.",
+     "supports_finding": "partly",
+     "note": "New Zealand Rose Society, New Zealand (demonstrations in Feilding, Otago, Southland, Westland). Pruning demonstration advert; no mention of suckers or being in doubt, as the finding itself admits."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention suckers or what to do when in doubt."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000020",
+   "url": "https://extension.umn.edu/yard-and-garden-news/how-will-warm-winter-affect-my-plants",
+   "final_url": "https://extension.umn.edu/yard-and-garden-news/how-will-warm-winter-affect-my-plants",
+   "opened": true,
+   "page_date": "16 February 2024",
+   "checks": [
+    {
+     "research": "DORMANCY",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "If your tree or shrub is showing signs of emerging from winter dormancy, like exhibiting swollen buds",
+     "supports_finding": "partly",
+     "note": "University of Minnesota Extension, Minnesota. Trees and shrubs generally, roses not mentioned; says prune up to just before bud break and delay when buds swollen."
+    },
+    {
+     "research": "DORMANCY",
+     "finding": "AF-3",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "The recent warm temperatures combined with longer day length triggered bud break on a few species",
+     "supports_finding": "partly",
+     "note": "University of Minnesota Extension, Minnesota. Supports early bud break then cold damage to new growth (general plants); roses and semi-evergreen/defoliation points are not on this page."
+    }
+   ],
+   "contradictions": [
+    "Roses are not mentioned; advice is for general trees and shrubs.",
+    "Says pruning timing can be 'just before bud break', not at swell for all plants."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000057",
+   "url": "https://www.fs.usda.gov/nrs/pubs/na/NA-FR-01-95-Rev-2012.pdf",
+   "final_url": "https://www.fs.usda.gov/nrs/pubs/na/NA-FR-01-95-Rev-2012.pdf",
+   "opened": true,
+   "page_date": "Revised August 2012",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "Removal confirmed: \"Branches that rub or cross another branch should be removed.\" **Note:** its cut guidance is to cut at a node, rather than stating \"back to the point of origin\" in those words. SC AF-6 treats it only as concurring \"for general crown thinning\", which is consistent.",
+     "result": "Confirmed",
+     "page_wording": "Branches that rub or cross another branch should be removed.",
+     "supports_finding": "partly",
+     "note": "USDA Forest Service Northeastern Area, US. About trees, not roses; says rubbing/crossing branches should be removed, with no dormant-season or routine-maintenance wording."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-6",
+     "recorded": "Removal confirmed: \"Branches that rub or cross another branch should be removed.\" **Note:** its cut guidance is to cut at a node, rather than stating \"back to the point of origin\" in those words. SC AF-6 treats it only as concurring \"for general crown thinning\", which is consistent.",
+     "result": "Confirmed",
+     "page_wording": "Proper pruning cuts are made at a node, the point at which one branch or twig attaches to another.",
+     "supports_finding": "no",
+     "note": "USDA Forest Service, trees. Cut is at a node / outside the branch bark ridge; 'point of origin', ground or bud union not stated. The recorded note itself says this."
+    }
+   ],
+   "contradictions": [
+    "About trees, not roses.",
+    "Cut guidance (node, branch collar) differs from 'back to the point of origin' wording."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000017",
+   "url": "https://jackson.ces.ncsu.edu/2026/02/when-to-prune-roses",
+   "final_url": "https://jackson.ces.ncsu.edu/2026/02/when-to-prune-roses",
+   "opened": true,
+   "page_date": "18 February 2026",
+   "checks": [
+    {
+     "research": "DORMANCY",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Roses are among the first landscape plants to resume growth, which begins as buds swell and new stems develop.",
+     "supports_finding": "partly",
+     "note": "N.C. Cooperative Extension, Jackson County, North Carolina. Gives no fixed dates and ties timing to plant cues, but does not state outright to prune at bud swell; says prune during dormancy and notes folklore of forsythia bloom."
+    }
+   ],
+   "contradictions": [
+    "Does not mention leaf-out.",
+    "Once-blooming roses are pruned after flowering, which narrows the finding."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000032",
+   "url": "https://foreveryard.com/how-long-do-shrubs-take-to-establish/",
+   "final_url": "https://foreveryard.com/how-long-do-shrubs-take-to-establish/",
+   "opened": true,
+   "page_date": "2 May 2025",
+   "checks": [
+    {
+     "research": "RECENTPLANT",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "If it feels firmly anchored in the ground, it indicates a strong root system.",
+     "supports_finding": "partly",
+     "note": "ForeverYard (Matthew Lewis), commercial gardening site, no place stated. Supports new growth and firm anchoring for shrubs generally; cane count and Grade #1 baseline not mentioned, and roses get only an establishment-time note."
+    }
+   ],
+   "contradictions": [
+    "Roses given 1-2 years to establish; no rose-specific signs or cane count."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000145",
+   "url": "https://www.eastcroftroses.co.uk/pages/suckers",
+   "final_url": "https://www.eastcroftroses.co.uk/pages/suckers",
+   "opened": true,
+   "page_date": "not shown (footer copyright 2026)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "if strange looking shoots appear from below the union they can only be suckers.",
+     "result": "Confirmed",
+     "page_wording": "if strange looking shoots appear from below the union they can only be suckers.",
+     "supports_finding": "partly",
+     "note": "Eastcroft Roses (UK nursery) says shoots from below the union are suckers. The page also says the rootstock can send shoots from its stem above the union, so a shoot at or just above the union is not simply the rose's own basal shoot; it does not describe basal shoots."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "If they appear some distance from the plant lift them free from the soil (try a fork)",
+     "result": "Near",
+     "page_wording": "underground roots that develop into underground stems that pop up at some distance from the main plant.",
+     "supports_finding": "partly",
+     "note": "WebFetch returned a paraphrase of the fork advice, not the recorded sentence word for word. Page supports shoots appearing at a distance and tracing them to the root; it does not mention clearing soil to see below-ground origin. UK nursery."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-3",
+     "recorded": "They have leaves with seven leaflets and are pale grey green in colour",
+     "result": "Confirmed",
+     "page_wording": "They have leaves with seven leaflets and are pale grey green in colour",
+     "supports_finding": "yes",
+     "note": "Eastcroft (UK) says sucker leaves have seven leaflets and are pale grey green. Matches the EAST part of the finding."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-4",
+     "recorded": "but a lot of roses have seven leaflets as well",
+     "result": "Near",
+     "page_wording": "",
+     "supports_finding": "yes",
+     "note": "WebFetch gave a paraphrase only (other roses can have seven leaflets, so leaf count alone is not conclusive). Same sense as the recorded words. UK nursery."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-5",
+     "recorded": "unlike a lot of rose varieties where the young leaves are often red or bronze",
+     "result": "Near",
+     "page_wording": "",
+     "supports_finding": "yes",
+     "note": "WebFetch gave a paraphrase (unlike many varieties with red or bronze young leaves), same sense. Supports the EAST part of the finding; UK nursery."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-6",
+     "recorded": "If left they will flower, the flowers are small with a single whorl of petals mostly pale pink or off white in colour.",
+     "result": "Confirmed",
+     "page_wording": "If left they will flower, the flowers are small with a single whorl of petals mostly pale pink or off white in colour.",
+     "supports_finding": "yes",
+     "note": "Eastcroft (UK) describes sucker flowers as small, single-whorl, pale pink or off white. Supports the EAST part of the finding."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-7",
+     "recorded": "Suckers are often more vigorous than the variety and can become dominant.",
+     "result": "Confirmed",
+     "page_wording": "Suckers are often more vigorous than the variety and can become dominant.",
+     "supports_finding": "yes",
+     "note": "Eastcroft (UK) says suckers are often more vigorous than the variety. Dormancy not stated."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-9",
+     "recorded": "in our case we use Rosa laxa, but there are other rootstocks that can be used e.g. Rosa multiflora.",
+     "result": "Near",
+     "page_wording": "in our case we use Rosa laxa,",
+     "supports_finding": "partly",
+     "note": "WebFetch returned the first half verbatim and Rosa multiflora as a mentioned alternative. Supports only that this UK nursery uses R. laxa; page says nothing about other countries."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-12",
+     "recorded": "This is why we like to plant roses so the union is above soil level",
+     "result": "Near",
+     "page_wording": "so the union is above soil level",
+     "supports_finding": "yes",
+     "note": "Eastcroft (UK) plants with the union above soil level. Only part of the recorded sentence was returned, same sense. Supports the EAST part of the finding."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-14",
+     "recorded": "producing shoots from any part of it's stem above the union (where the plant was budded) if it has not been cut off",
+     "result": "Confirmed",
+     "page_wording": "producing shoots from any part of it's stem above the union (where the plant was budded)",
+     "supports_finding": "partly",
+     "note": "Page says rootstock stem above the union can produce shoots, and to cut the stem off cleanly closer to the union. The 'if it has not been cut off' clause was not returned by WebFetch. UK nursery."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "avoid cutting them off at ground level as they will reappear!",
+     "result": "Near",
+     "page_wording": "they will reappear!",
+     "supports_finding": "yes",
+     "note": "Eastcroft (UK) says do not cut suckers at ground level because they reappear. Only the end of the sentence was returned."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "feel down (under the soil) the sucker to where it is attached to the root and push downwards",
+     "result": "Near",
+     "page_wording": "",
+     "supports_finding": "yes",
+     "note": "WebFetch gave a paraphrase: feel down to where the sucker joins the root and push downwards; for shoots above the union, cut cleanly close to the union. Matches how the finding places EAST."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-21",
+     "recorded": "Suckers are often more vigorous than the variety and can become dominant.",
+     "result": "Confirmed",
+     "page_wording": "Suckers are often more vigorous than the variety and can become dominant.",
+     "supports_finding": "partly",
+     "note": "The recorded sentence is on the page but is the vigour sentence; the page gives no explicit reason about drawing strength from the rose, only implies it by 'can become dominant'. UK nursery."
+    }
+   ],
+   "contradictions": [
+    "Page calls suckers 'usually pretty rare but it can happen'.",
+    "Rootstock shoots can also grow from the stem above the union, so shoot position alone does not separate sucker from basal shoot on this page.",
+    "Leaf-count clue stated to be not conclusive.",
+    "Page gives no explicit reason for removal and no dormancy guidance."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000007",
+   "url": "https://fieldreport.caes.uga.edu/news/prune-roses-now-for-more-blooms-later/",
+   "final_url": "https://fieldreport.caes.uga.edu/news/prune-roses-now-for-more-blooms-later/",
+   "opened": true,
+   "page_date": "Published 8 Feb 2012; last modified 28 May 2025",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "If the pith is brown or black, continue to cut down the cane until green or white pith is revealed.",
+     "supports_finding": "partly",
+     "note": "UGA CAES (Georgia, USA) supports brown/black pith meaning damage, cutting down in steps and checking pith. The page does not mention gray pith, pale-green pith, or dull tools crushing the cane (it only recommends bypass pruners)."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-7",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "If the pith is brown or black, continue to cut down the cane until green or white pith is revealed.",
+     "supports_finding": "yes",
+     "note": "UGA (Georgia) says keep cutting until healthy green or white pith shows, i.e. back into living tissue."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-8",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "the cane will have to be removed at the bud union using a small pruning saw.",
+     "supports_finding": "yes",
+     "note": "UGA (Georgia) says if darkened pith continues down the cane, remove it at the bud union. Removal of the entire cane is implied by cutting at the bud union."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Remove any canes that cross through the center of the plant or grow inward.",
+     "supports_finding": "yes",
+     "note": "UGA (Georgia) names inward growth (and crossing through the centre) as the thing to remove, with no other visual marker."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-4",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Remove any canes that cross through the center of the plant or grow inward.",
+     "supports_finding": "yes",
+     "note": "UGA (Georgia) puts inward-growing and centre-crossing canes in one removal instruction. Dormant-season timing was not shown in the WebFetch result."
+    }
+   ],
+   "contradictions": [
+    "Page does not say dull tools obscure pith; only recommends bypass pruners.",
+    "Page speaks of brown or black pith only, not gray."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000018",
+   "url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx",
+   "final_url": "https://www.uaex.uada.edu/yard-garden/in-the-garden/reference-desk/roses/pruning.aspx",
+   "opened": true,
+   "page_date": "Q&A archive, latest entry Nov/Dec 2015 (entries 2006 to 2015)",
+   "checks": [
+    {
+     "research": "DORMANCY",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "We do recommend pruning in late February—weather allowing.",
+     "supports_finding": "partly",
+     "note": "University of Arkansas Extension speaks for Arkansas only: late February, later (late March) after snow and ice. Supports timing shifting with weather, but not the five-month range or hemisphere point, and gives no frost rule."
+    },
+    {
+     "research": "DORMANCY",
+     "finding": "AF-3",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Roses are quite hardy in all parts of Arkansas, and it is not unusual for them to be semi-evergreen most winters.",
+     "supports_finding": "partly",
+     "note": "Supports the Arkansas semi-evergreen point. Page also says many roses are sprouting in mild winters and late pruning can delay blooms, but no cold-snap risk to new growth is shown; the California and Minnesota parts are not on this page."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention frost dates or bud swell as triggers; guidance is tied to late February and the start of new growth.",
+    "Climbers and once-bloomers are pruned after flowering, not at this time."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000052",
+   "url": "https://www.uaex.uada.edu/yard-garden/plant-health-clinic/disease-notes/posts/pruning-roses.aspx",
+   "final_url": "https://www.uaex.uada.edu/yard-garden/plant-health-clinic/disease-notes/posts/pruning-roses.aspx",
+   "opened": true,
+   "page_date": "20 Feb 2023",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "Removal of crossing canes confirmed: \"All canes crossing each other through the middle should be removed.\"",
+     "result": "Confirmed",
+     "page_wording": "All canes crossing each other through the middle should be removed.",
+     "supports_finding": "yes",
+     "note": "University of Arkansas Extension (Sherrie Smith, Fayetteville, Arkansas) says remove canes crossing through the middle and prune before new growth starts. Rubbing canes are not addressed separately."
+    }
+   ],
+   "contradictions": [
+    "No separate guidance on rubbing canes.",
+    "Once-blooming roses are pruned after bloom, not before spring growth."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000053",
+   "url": "https://www.uaex.uada.edu/publications/pdf/FSA-6149.pdf",
+   "final_url": "https://www.uaex.uada.edu/publications/pdf/FSA-6149.pdf",
+   "opened": true,
+   "page_date": "not shown (code FSA6149-PD-8-2017N suggests 2017)",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-6",
+     "recorded": "The FRD recorded the title as \"Pruning Landscape Trees and Shrubs\". FSA6149's actual title is \"Homeowner's Guide to Pruning Ornamental Trees\" (same author, number and date). **Discrepancy:** the document defines a removal cut (\"removes a branch back to its point of origin\") and lists crossing branches as a structural problem, but doesn't itself apply the removal cut to crossing branches, which SC AF-6's evidence says it does. See §3.",
+     "result": "Confirmed",
+     "page_wording": "A pruning cut that removes a branch back to its point of origin.",
+     "supports_finding": "partly",
+     "note": "The embedded quotation is on the page, and the actual title matches the recorded correction. University of Arkansas (Arkansas, trees and shrubs, not roses) defines the removal cut and lists crossing branches as a structural problem, but does not link the two or mention rubbing."
+    }
+   ],
+   "contradictions": [
+    "Guide is about ornamental trees, not bush roses.",
+    "Does not apply the removal cut to crossing branches, nor say they must always be removed."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000029",
+   "url": "https://www.marinrose.org/care-basics/pruning-roses/",
+   "final_url": "https://www.marinrose.org/care-basics/pruning-roses/",
+   "opened": true,
+   "page_date": "Last modified 7 Oct 2019",
+   "checks": [
+    {
+     "research": "RECENTPLANT",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Do not prune newly planted roses – they need to get established before you remove any growth (other than dead wood).",
+     "supports_finding": "partly",
+     "note": "Marin Rose Society (Master Rosarian, Marin County, California) supports waiting for new roses to establish and allowing dead wood removal. It gives no figure of three years; it only says prune first-year roses lightly."
+    },
+    {
+     "research": "RECENTPLANT",
+     "finding": "AF-4",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Prune first year roses (those you have grown for one season) lightly.",
+     "supports_finding": "yes",
+     "note": "Marin Rose Society (California) says prune roses lightly after one season, because they may lack top growth and need all their canes. It does not define 'light' against specific observations."
+    }
+   ],
+   "contradictions": [
+    "No number of years to wait before heavier pruning is given."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000031",
+   "url": "https://www.marinrose.org/care-basics/buying-roses/",
+   "final_url": "https://www.marinrose.org/care-basics/buying-roses/",
+   "opened": true,
+   "page_date": "not shown (footer copyright 2026)",
+   "checks": [
+    {
+     "research": "RECENTPLANT",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "must have at least three strong canes 5/16 inch in caliper (diameter) or greater",
+     "supports_finding": "partly",
+     "note": "Marin Rose Society (California) gives the Grade #1 minimum of three strong canes. The page does not discuss signs of establishment, new growth, cane count above three, or how firmly the plant is anchored."
+    }
+   ],
+   "contradictions": [
+    "Page is about buying roses and does not say how to judge the age or establishment of a planted rose."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000058",
+   "url": "https://gagasgarden.com/2019/04/portland-rose-society-guide-to-pruning-roses/",
+   "final_url": "https://gagasgarden.com/2019/04/portland-rose-society-guide-to-pruning-roses/",
+   "opened": true,
+   "page_date": "5 Apr 2019",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-6",
+     "recorded": "Both quotes found (removed \"entirely back to the bud union, or back to the major cane\"; \"usually leaving the larger one of each crowded pair\").",
+     "result": "Confirmed",
+     "page_wording": "should either be removed entirely back to the bud union, or back to the major cane",
+     "supports_finding": "yes",
+     "note": "Portland Rose Society (Oregon, republished on a blog) says crossing canes are removed entirely back to the bud union or the major cane."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-7",
+     "recorded": "Both quotes found (removed \"entirely back to the bud union, or back to the major cane\"; \"usually leaving the larger one of each crowded pair\").",
+     "result": "Confirmed",
+     "page_wording": "usually leaving the larger one of each crowded pair",
+     "supports_finding": "partly",
+     "note": "The larger cane is kept, a size criterion, but it is given for crowded canes rather than crossing ones. Portland Rose Society (Oregon)."
+    }
+   ],
+   "contradictions": [
+    "The keep-the-larger rule applies to crowded pairs, not stated for crossing canes."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000019",
+   "url": "https://cales.arizona.edu/yavapai/anr/hort/byg/archive/pruningroses2015.html",
+   "final_url": "https://cales.arizona.edu/yavapai/anr/hort/byg/archive/pruningroses2015.html",
+   "opened": true,
+   "page_date": "18 Feb 2015 (last updated 13 Feb 2015)",
+   "checks": [
+    {
+     "research": "DORMANCY",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "The best way to judge when to prune is to look at the buds; when they begin to swell, go ahead and prune.",
+     "supports_finding": "yes",
+     "note": "University of Arizona Extension, Yavapai County (Arizona) gives bud swell as the signal for repeat bloomers. It does not mention leaf-out or the absence of leaves, and gives no calendar dates."
+    }
+   ],
+   "contradictions": [
+    "Once-blooming roses and climbers are pruned right after flowering, not at bud swell.",
+    "Page does not mention frost or leaf-out."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000056",
+   "url": "https://pressbooks.lib.vt.edu/emgtraining/chapter/14/",
+   "final_url": "https://pressbooks.lib.vt.edu/emgtraining/chapter/14/",
+   "opened": true,
+   "page_date": "not shown (2023 copyright; reviser 2021)",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "Quote found: \"Remove crossing branches that rub or interfere with each other.\"",
+     "result": "Confirmed",
+     "page_wording": "To avoid future problems, remove crossing branches that rub or interfere with each other.",
+     "supports_finding": "yes",
+     "note": "Virginia Cooperative Extension (Virginia, USA) says remove crossing branches, and for roses to remove branches that cross or interfere; most pruning is done in the dormant season, preferably just before active growth. General woody-plant chapter, not roses only."
+    }
+   ],
+   "contradictions": [
+    "General woody-plant chapter; spring-flowering shrubs are pruned after bloom."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000028",
+   "url": "https://www.finegardening.com/project-guides/pruning/how-soon-can-you-prune-a-young-rose",
+   "final_url": "https://www.finegardening.com/project-guides/pruning/how-soon-can-you-prune-a-young-rose",
+   "opened": true,
+   "page_date": "Published 12 Feb 2013; last modified 30 Jan 2025",
+   "checks": [
+    {
+     "research": "RECENTPLANT",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "I feel it's best to let my roses get to mature size and fully establish themselves first.",
+     "supports_finding": "partly",
+     "note": "Paul Zimmerman (Fine Gardening, no region named) says let young roses reach mature size first, that original canes are gone by about the third year, and to remove dead wood only. The page gives no number of years for 'established', so the 'three or more years' figure is an inference from the cane-replacement remark."
+    }
+   ],
+   "contradictions": [
+    "No specific year count for when full pruning may start.",
+    "Author suggests light trimming of a vigorous young rose whose canes may snap, which narrows 'wait for full pruning'.",
+    "Some of the dead-wood wording comes from the author's reader-comment replies, not the article body."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000151",
+   "url": "https://www.finegardening.com/article/what-is-a-sucker-on-a-rose-bush",
+   "final_url": "https://www.finegardening.com/article/what-is-a-sucker-on-a-rose-bush",
+   "opened": true,
+   "page_date": "Published 15 Apr 2011; modified 3 Aug 2023",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "AF-1: \"Occasionally the understock will produce a cane from beneath the bud union that pops up out of the ground\"",
+     "result": "Near",
+     "page_wording": "A sucker is a cane that \"pops up out of the ground\" from beneath the bud union (WebFetch summary; exact full sentence not returned).",
+     "supports_finding": "partly",
+     "note": "Fine Gardening (Zimmerman, US) says suckers come from the understock beneath the bud union. It does not describe the basal-shoot side (growth at or just above the union)."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "AF-2: \"Simply follow it all the way back to where it is growing from the understock. You may even have to dig down a bit.\"",
+     "result": "Confirmed",
+     "page_wording": "simply follow it all the way back to where it is growing from the understock.",
+     "supports_finding": "yes",
+     "note": "US magazine page says trace the cane back and possibly dig. It does not mention suckers appearing far from the plant."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-3",
+     "recorded": "AF-3: \"R. multiflora produces sprays of small white, single blooms. Also R. multiflora is generally thornless, with lighter green foliage.\"",
+     "result": "Near",
+     "page_wording": "R. multiflora \"is generally thornless, with lighter green foliage.\" (blooms: clusters of small, white, single flowers, paraphrased by WebFetch)",
+     "supports_finding": "partly",
+     "note": "Supports only the R. multiflora lighter-foliage point (US). The other sources in the finding are not on this page."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-4",
+     "recorded": "AF-4: \"The canes and foliage of Dr. Huey are generally harder to tell apart from the rose variety you purchased.\"",
+     "result": "Confirmed",
+     "page_wording": "Its canes and foliage \"are generally harder to tell apart from the rose variety you purchased.\"",
+     "supports_finding": "yes",
+     "note": "Page says Dr. Huey canes and foliage are hard to tell from the purchased rose; matches the FG-Z part of the finding. US."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-6",
+     "recorded": "AF-6: \"Dr. Huey is a small dark red bloom\"",
+     "result": "Near",
+     "page_wording": "Dr. Huey: flowers are small and dark red; R. multiflora: clusters of small, white, single flowers (WebFetch paraphrase).",
+     "supports_finding": "yes",
+     "note": "Page gives the Dr. Huey and R. multiflora flower descriptions cited for FG-Z. Page also says first spring flowering is the time to identify suckers."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-8",
+     "recorded": "AF-8: \"R. multiflora produces sprays of small white, single blooms. Also R. multiflora is generally thornless, with lighter green foliage.\"",
+     "result": "Near",
+     "page_wording": "R. multiflora \"is generally thornless, with lighter green foliage.\"",
+     "supports_finding": "yes",
+     "note": "Supports the FG-Z parts (multiflora generally thornless; Dr. Huey canes hard to tell apart). HMF-R part not on this page."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-9",
+     "recorded": "AF-9: \"Most roses in the United States use Dr. Huey or Rosa multiflora as understocks\"",
+     "result": "Not found",
+     "page_wording": "In the United States, the understock is almost always Dr. Huey.",
+     "supports_finding": "partly",
+     "note": "Page says US understock is almost always Dr. Huey, narrower than the recorded 'Dr. Huey or R. multiflora'. Other countries' rootstocks are not on this page."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-11",
+     "recorded": "AF-11: \"They cannot produce a sucker because there is no understock.\"",
+     "result": "Confirmed",
+     "page_wording": "They cannot produce a sucker because there is no understock.",
+     "supports_finding": "yes",
+     "note": "Page says own-root roses cannot produce suckers (US). It does not discuss own-root shoots being the same variety."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "AF-17: \"Cut it off right at that point of contact. If you cut above it, then it will simply sprout faster\"",
+     "result": "Confirmed",
+     "page_wording": "Cut it off right at that point of contact. ... it will simply sprout faster and even produce more canes.",
+     "supports_finding": "yes",
+     "note": "Page says cut at the junction with the understock; cutting above causes faster regrowth. US."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "AF-18: \"Cut it off right at that point of contact.\"",
+     "result": "Confirmed",
+     "page_wording": "Cut it off right at that point of contact.",
+     "supports_finding": "yes",
+     "note": "Page puts FG-Z in the 'cut cleanly at the origin' group and does not discuss pulling or tearing."
+    }
+   ],
+   "contradictions": [
+    "Page says the US understock is almost always Dr. Huey, narrower than 'Dr. Huey or R. multiflora'.",
+    "Page says first spring flowering is the perfect time to identify suckers, which differs from removing suckers early (SUCKERS AF-20, C-5).",
+    "Page recommends cutting only and does not discuss pulling."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000162",
+   "url": "https://www.finegardening.com/article/when-planting-roses-bury-the-bud-union",
+   "final_url": "https://www.finegardening.com/article/when-planting-roses-bury-the-bud-union",
+   "opened": true,
+   "page_date": "Published 10 Feb 2011",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-12",
+     "recorded": "AF-12: \"Always bury the bud union on a grafted rose.\"",
+     "result": "Confirmed",
+     "page_wording": "Always bury the bud union on a grafted rose.",
+     "supports_finding": "yes",
+     "note": "Paul Zimmerman (Fine Gardening, US) says always bury it, 'regardless of climate'; no location limit. This disagrees with climate-dependent advice (OSU-AE) and union-at-soil-level (RHS-PL)."
+    }
+   ],
+   "contradictions": [
+    "Page says bury the union in any climate, narrowing or opposing the climate-dependent and above-soil advice in the finding.",
+    "Reader comments (not the article) mention 4-6 inches below ground in cold climates."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000066",
+   "url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/",
+   "final_url": "https://www.yates.co.nz/ideas-plans/project-guides-articles/all/how-to-prune-your-roses/",
+   "opened": true,
+   "page_date": "not shown (footer (c) 2025 Yates; FRD recorded 1 Mar 2021)",
+   "checks": [
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-1",
+     "recorded": "Quote found: \"Always cut just above an outward-facing bud\". The page shows no date; the FRD recorded 1 Mar 2021.",
+     "result": "Confirmed",
+     "page_wording": "Always cut just above an outward-facing bud, at a 45° angle.",
+     "supports_finding": "partly",
+     "note": "Yates NZ gives the cut-to-outward-bud instruction. It has no named inward-growth defect; it only asks 'Is the centre of the bush nice and open so that the sun and air can get right into it?'"
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "AF-1: \"remove any 'suckers' or shoots sprouting below the bud union\"",
+     "result": "Confirmed",
+     "page_wording": "Look towards the bottom of the rose bush and remove any 'suckers' or shoots sprouting below the bud union",
+     "supports_finding": "partly",
+     "note": "Yates NZ says suckers sprout below the bud union. It does not describe basal shoots from or above the union."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "AF-2: \"The best tip to get rid of suckers is to gently uncover them, so you can see where they're sprouting from.\"",
+     "result": "Confirmed",
+     "page_wording": "The best tip to get rid of suckers is to gently uncover them, so you can see where they're sprouting from.",
+     "supports_finding": "yes",
+     "note": "Yates NZ supports uncovering to see the origin. It does not say suckers appear at a distance from the plant."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "AF-17: \"this prevents them from re-sprouting from a stump, which can happen if you cut them.\"",
+     "result": "Confirmed",
+     "page_wording": "this prevents them from re-sprouting from a stump, which can happen if you cut them.",
+     "supports_finding": "yes",
+     "note": "Yates NZ says ripping off prevents regrowth from a stump left by cutting. The finding's 'removed at point of origin' wording is not stated this way on the page."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "AF-18: \"Put on your gloves, support the stem with one hand and forcefully rip the sucker off with the other\"",
+     "result": "Confirmed",
+     "page_wording": "Put on your gloves, support the stem with one hand and forcefully rip the sucker off with the other",
+     "supports_finding": "yes",
+     "note": "Yates NZ is in the 'tear or rip off' group."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-20",
+     "recorded": "AF-20: \"Make sure you remove suckers as soon as you spot them, they're quite difficult to wrench off once they get established!\"",
+     "result": "Confirmed",
+     "page_wording": "Make sure you remove suckers as soon as you spot them, they're quite difficult to wrench off once they get established!",
+     "supports_finding": "yes",
+     "note": "Yates NZ advises early removal."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-22",
+     "recorded": "AF-22: \"Put on your gloves, support the stem with one hand and forcefully rip the sucker off with the other\"",
+     "result": "Confirmed",
+     "page_wording": "Put on your gloves, support the stem with one hand and forcefully rip the sucker off with the other",
+     "supports_finding": "yes",
+     "note": "Yates NZ gives the glove and stem-support precaution."
+    }
+   ],
+   "contradictions": [
+    "Page does not discuss inward growth as a defect; only cutting to outward-facing buds and an open centre.",
+    "Page gives no publication date; the recorded 1 Mar 2021 is not on the page."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000002",
+   "url": "https://planttalk.colostate.edu/topics/trees-shrubs-vines/1763-pruning-roses/",
+   "final_url": "https://planttalk.colostate.edu/topics/trees-shrubs-vines/1763-pruning-roses/",
+   "opened": true,
+   "page_date": "not shown (copyright 2026)",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Live wood on older canes or roses with bronze stems may look brown instead of green.",
+     "supports_finding": "partly",
+     "note": "Colorado State Extension (Colorado) supports only the false-negative risk (live wood can look brown). It does not describe dead wood as brown, gray, black or shriveled, or mention a pith check."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-7",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Prune the cane back one-half-inch into green live wood.",
+     "supports_finding": "partly",
+     "note": "Colorado State Extension says cut back into green live wood. It does not mention white or pale-green pith."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-8",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Clip from the top down, checking for live growth with each small portion removed.",
+     "supports_finding": "partly",
+     "note": "Page supports cutting in small steps and checking for live growth. It does not say to continue to the bud union or the whole cane if dieback persists."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention brown pith, white tissue or cutting to the bud union.",
+    "Page says in severe winters there may be only a few inches of green on canes, which narrows how far back to expect live wood."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000051",
+   "url": "https://aggie-horticulture.tamu.edu/earthkind/landscape/proper-pruning-techniques/",
+   "final_url": "https://aggie-horticulture.tamu.edu/earthkind/landscape/proper-pruning-techniques/",
+   "opened": true,
+   "page_date": "Publication Revised November 2008",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-1",
+     "recorded": "Both quotes found: \"remove one of two canes which may be rubbing one another\"; \"the new shoots will not grow through the interior of the plants or crisscross\".",
+     "result": "Confirmed",
+     "page_wording": "remove one of two canes which may be rubbing one another. / By cutting to an outside bud, the new shoots will not grow through the interior of the plants or crisscross.",
+     "supports_finding": "partly",
+     "note": "Texas A&M AgriLife (Texas) mentions rubbing canes and crisscross, but in separate sentences and not as a linked pair; crisscross is handled by cutting to outside buds."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "Both quotes found: \"remove one of two canes which may be rubbing one another\"; \"the new shoots will not grow through the interior of the plants or crisscross\".",
+     "result": "Confirmed",
+     "page_wording": "remove one of two canes which may be rubbing one another. / In general, the best time to prune most plants is during late winter or early spring before growth begins.",
+     "supports_finding": "partly",
+     "note": "Page says remove one of two rubbing canes and gives a late winter/early spring pruning time for plants in general. It does not say removal is routine, nor address crossing stems once present."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-1",
+     "recorded": "Both quotes found: \"remove one of two canes which may be rubbing one another\"; \"the new shoots will not grow through the interior of the plants or crisscross\".",
+     "result": "Confirmed",
+     "page_wording": "Selected buds that point to the outside of the plant are more desirable than buds pointing to the inside.",
+     "supports_finding": "yes",
+     "note": "Texas A&M gives the prospective cut-to-outside-bud instruction, matching the finding. No named inward-growth defect."
+    }
+   ],
+   "contradictions": [
+    "Pruning timing is for plants in general, not roses specifically."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000059",
+   "url": "https://sarose.org.au/growing-advice/pruning-roses-a-home-gardener-s-guide",
+   "final_url": "https://sarose.org.au/growing-advice/pruning-roses-a-home-gardener-s-guide",
+   "opened": true,
+   "page_date": "not shown (copyright 2026)",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "C-1",
+     "recorded": "C-1 confirmed: \"a healthy plant will fill the space soon enough\"; \"let the leaves shade the base of the plant\".",
+     "result": "Confirmed",
+     "page_wording": "Don't concern yourself with cutting out the centre of the plant to allow for more light and ventilation. / Leave the canes and let the leaves shade the base of the plant as nature intended.",
+     "supports_finding": "partly",
+     "note": "Rose Society of South Australia (Doug Gregory, South Australia) advises against opening the centre. Finding text was not supplied; the page says nothing about crossing or rubbing stems specifically."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "C-1",
+     "recorded": "C-1 confirmed: \"a healthy plant will fill the space soon enough\"; \"let the leaves shade the base of the plant\".",
+     "result": "Confirmed",
+     "page_wording": "Don't concern yourself with cutting out the centre of the plant to allow for more light and ventilation.",
+     "supports_finding": "partly",
+     "note": "Page advises not removing growth from the centre (Observation 5), so it is a counter-view to centre-clearing. Finding text was not supplied; inward growth is not named."
+    }
+   ],
+   "contradictions": [
+    "Page advises against cutting out the centre, opposite to open-centre advice in other sources.",
+    "No text on crossing, rubbing or inward-growing stems was found."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000023",
+   "url": "https://depts.washington.edu/hortlib/pal/pruning-roses",
+   "final_url": "https://depts.washington.edu/hortlib/pal/pruning-roses",
+   "opened": true,
+   "page_date": "not shown (copyright 2026)",
+   "checks": [
+    {
+     "research": "DORMANCY",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "In the Pacific Northwest, most sources recommend pruning in late fall or early spring.",
+     "supports_finding": "partly",
+     "note": "UW Miller Library (Seattle, Pacific Northwest) gives only a general late fall/early spring window. The page gives no dates, frost rule or comparison with other climates; the 'mid-February in western Oregon' figure is not on it."
+    }
+   ],
+   "contradictions": [
+    "'Late fall' pruning disagrees with 'after the coldest part of winter and the heaviest frost risk'.",
+    "Page says the cut location depends on rose type."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000067",
+   "url": "https://southpacificroses.co.nz/pruning-your-roses/",
+   "final_url": "https://southpacificroses.co.nz/pruning-your-roses/",
+   "opened": true,
+   "page_date": "Published and last modified 28 Aug 2019",
+   "checks": [
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-1",
+     "recorded": "Quote found: \"cut to an outside facing bud\".",
+     "result": "Confirmed",
+     "page_wording": "Try to cut to an outside facing bud as the new growth will grow up & outwards, helping to develop an open, airy rose bush.",
+     "supports_finding": "yes",
+     "note": "South Pacific Roses (New Zealand, likely) gives the cut-to-outside-bud instruction for an open bush. It also says remove stems 'crossing over each other through the middle of the bush', but names no inward-growth defect."
+    }
+   ],
+   "contradictions": [
+    "Page does not use the term inward-growing; it treats middle-crossing stems as a separate removal."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000149",
+   "url": "https://www.treloarroses.com.au/Suckers-Roses",
+   "final_url": "https://www.treloarroses.com.au/Suckers-Roses",
+   "opened": true,
+   "page_date": "not shown (footer copyright 2023-2024)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "The only solution to this is to cut off the sucker at its base - this may involve digging down into the soil.",
+     "result": "Near",
+     "page_wording": "this may involve digging down into the soil. ... to cut off the sucker at its base",
+     "supports_finding": "partly",
+     "note": "Treloar Roses (Australian nursery) says suckers come from below the ground next to a rose and removal may need digging. It does not say suckers appear some distance from the plant or that you should trace the shoot down; it says nothing on dormancy."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-6",
+     "recorded": "very strong growth with different foliage and flowers to the rest of the rose plant",
+     "result": "Confirmed",
+     "page_wording": "They appear as very strong growth with different foliage and flowers to the rest of the rose plant.",
+     "supports_finding": "yes",
+     "note": "Treloar Roses (Australia) says suckers have different foliage and flowers. The water-shoot comparison in the finding comes from the other Treloar page, not this one."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-7",
+     "recorded": "very strong growth with different foliage and flowers to the rest of the rose plant",
+     "result": "Confirmed",
+     "page_wording": "They appear as very strong growth with different foliage and flowers to the rest of the rose plant.",
+     "supports_finding": "yes",
+     "note": "Treloar Roses (Australia) describes suckers as very strong growth. Dormancy not stated."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-13",
+     "recorded": "They are very easy to mistake with water shoots (basal shoots)",
+     "result": "Confirmed",
+     "page_wording": "They are very easy to mistake with water shoots (basal shoots).",
+     "supports_finding": "yes",
+     "note": "Treloar Roses (Australia) states the warning directly. Place is Australia (nursery site)."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "this multiplies the problem as three may come up where one was cut off.",
+     "result": "Confirmed",
+     "page_wording": "this multiplies the problem as three may come up where one was cut off.",
+     "supports_finding": "yes",
+     "note": "Treloar Roses (Australia) says cutting a below-ground sucker at soil level makes it worse and the fix is cutting at the base."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "The only solution to this is to cut off the sucker at its base - this may involve digging down into the soil.",
+     "result": "Near",
+     "page_wording": "to cut off the sucker at its base",
+     "supports_finding": "yes",
+     "note": "Treloar Roses (Australia) belongs in the 'cut at the origin' group; it does not mention tearing or pulling. Quotation returned only as fragments but same sense."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-21",
+     "recorded": "If left to grow, the sucker will completely take over the plant.",
+     "result": "Near",
+     "page_wording": "the sucker will completely take over the plant.",
+     "supports_finding": "partly",
+     "note": "Treloar Roses (Australia) says an unremoved sucker takes over the plant. It does not say the sucker draws strength from the grafted rose (as far as returned)."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-24",
+     "recorded": "which grow from the bud union and grow into the new stems of the rose.",
+     "result": "Confirmed",
+     "page_wording": "Water shoots \"grow from the bud union and grow into the new stems of the rose.\"",
+     "supports_finding": "yes",
+     "note": "Treloar Roses (Australia) says water shoots grow into the rose's new stems; the wording is descriptive, not an explicit instruction to keep them."
+    }
+   ],
+   "contradictions": [
+    "Page speaks of suckers coming from below the ground next to the rose; no mention of distant suckers or tracing.",
+    "Page recommends cutting at the base, not tearing or pulling."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000154",
+   "url": "https://www.treloarroses.com.au/Watershoots-Roses",
+   "final_url": "https://www.treloarroses.com.au/Watershoots-Roses",
+   "opened": true,
+   "page_date": "not shown (footer copyright 2023-2024)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "The best way to assess if the growth is a sucker, is to look at where it originates.",
+     "result": "Confirmed",
+     "page_wording": "The best way to assess if the growth is a sucker, is to look at where it originates. ... Suckers occur from below the graft and mostly appear from below the soil.",
+     "supports_finding": "yes",
+     "note": "Treloar Roses (Australia nursery, Victoria-based, ships nationwide) says to judge by origin and that suckers occur below the graft."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-3",
+     "recorded": "you will often notice the foliage and flowers are different to your rose.",
+     "result": "Confirmed",
+     "page_wording": "you will often notice the foliage and flowers are different to your rose.",
+     "supports_finding": "yes",
+     "note": "Treloar Roses (Australia) says 'often', matching the finding's qualification."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-4",
+     "recorded": "Some rose varieties can occasionally produce 7 leaflets on water shoots, and some rootstock varieties only have 5.",
+     "result": "Confirmed",
+     "page_wording": "Some rose varieties can occasionally produce 7 leaflets on water shoots, and some rootstock varieties only have 5.",
+     "supports_finding": "partly",
+     "note": "Treloar Roses (Australia) supports the 7-versus-5 leaflet caveat. The finding's exact phrase 'the old rule of 7 leaflets is not always correct' was not returned by the fetch; the sense is the same."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-6",
+     "recorded": "They will have the same foliage and flowers as the remainder of the plant.",
+     "result": "Confirmed",
+     "page_wording": "They will have the same foliage and flowers as the remainder of the plant.",
+     "supports_finding": "yes",
+     "note": "Treloar Roses (Australia) says the rose's own water shoots match the plant."
+    }
+   ],
+   "contradictions": [
+    "Page notes leaf clues are imperfect (water shoots may have 7 leaflets, some rootstocks 5)."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000143",
+   "url": "https://www.abc.net.au/gardening/how-to/dealing-with-grafted-rose-suckers/9435358",
+   "final_url": "https://www.abc.net.au/gardening/how-to/dealing-with-grafted-rose-suckers/9435358",
+   "opened": true,
+   "page_date": "26 April 2014",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-7",
+     "recorded": "it will eventually be so strong and so big, it will take over and the big mother rose will gradually get weaker and weaker.",
+     "result": "Near",
+     "page_wording": "it will take over and the big mother rose will gradually get weaker and weaker.",
+     "supports_finding": "yes",
+     "note": "ABC Gardening Australia, rose grower Penny McKinlay, Pittsworth Queensland. Wording returned in part; 'so strong and so big' not shown in the fetch but same sense."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-13",
+     "recorded": "See how he's attached under the graft on the rose? Gardeners look at it and they say, 'Oh isn't that a healthy shoot.'",
+     "result": "Near",
+     "page_wording": "Oh isn't that a healthy shoot.",
+     "supports_finding": "yes",
+     "note": "ABC Gardening Australia (Queensland grower) says gardeners mistake a sucker for a healthy shoot. Only the second sentence was returned by the fetch."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "Penny recommends cutting them away - but not with secateurs. She breaks them off at the base by stamping on them with her foot",
+     "result": "Near",
+     "page_wording": "She breaks them off at the base by stamping on them with her foot.",
+     "supports_finding": "yes",
+     "note": "ABC Gardening Australia (Penny McKinlay, Queensland) breaks suckers off by stamping, not cutting. First sentence of the recorded quote not returned."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-21",
+     "recorded": "it will eventually be so strong and so big, it will take over and the big mother rose will gradually get weaker and weaker.",
+     "result": "Near",
+     "page_wording": "it will take over and the big mother rose will gradually get weaker and weaker.",
+     "supports_finding": "yes",
+     "note": "ABC Gardening Australia says an unremoved sucker takes over and weakens the grafted rose. Place: Queensland garden."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-22",
+     "recorded": "If you've got a very sharp knife, you could pull it down and scrape right into the trunk",
+     "result": "Confirmed",
+     "page_wording": "If you've got a very sharp knife, you could pull it down and scrape right into the trunk.",
+     "supports_finding": "yes",
+     "note": "ABC Gardening Australia grower also suggests dabbing water-based paint on the wound and mounding soil, as the finding says."
+    }
+   ],
+   "contradictions": [
+    "Page's method is stamping/breaking off, and says not to use secateurs."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000144",
+   "url": "https://www.abc.net.au/gardening/how-to/fixing-suckering-roses/12368198",
+   "final_url": "https://www.abc.net.au/gardening/how-to/fixing-suckering-roses/12368198",
+   "opened": true,
+   "page_date": "19 June 2020",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-21",
+     "recorded": "Allowing the suckers to grow will divert energy from the part of the plant that you chose it for.",
+     "result": "Confirmed",
+     "page_wording": "Allowing the suckers to grow will divert energy from the part of the plant that you chose it for.",
+     "supports_finding": "yes",
+     "note": "ABC Gardening Australia (Millie Ross). No region named; program is for Australian gardeners."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-23",
+     "recorded": "Using a sharp spade, she digs up the whole rose plant. Do this in winter, when the plant is dormant.",
+     "result": "Confirmed",
+     "page_wording": "Using a sharp spade, she digs up the whole rose plant. Do this in winter, when the plant is dormant. ... She carefully cuts this whole section away with a sharp, sterilised pruning saw.",
+     "supports_finding": "yes",
+     "note": "ABC Gardening Australia describes lifting the rose in winter, washing roots and cutting away the bulbous area with a sterilised saw. Pruning of damaged roots and top growth not confirmed by the fetch."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000009",
+   "url": "https://yardandgarden.extension.iastate.edu/how-to/how-prune-roses",
+   "final_url": "https://yardandgarden.extension.iastate.edu/how-to/how-prune-roses",
+   "opened": true,
+   "page_date": "Last reviewed February 2025",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "When pruned, the center of the stem (pith) is white. ... Its pith is brown or gray. ... Dull tools tend to crush the canes.",
+     "supports_finding": "partly",
+     "note": "Iowa State Extension (Iowa) supports white pith as live, brown/gray as dead, and dull tools crushing canes. Pale-green and black pith and the tip-downward incremental cutting are not on the page."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Live wood is green and has plump, healthy buds. Dead wood is brown and has no live buds.",
+     "supports_finding": "partly",
+     "note": "Iowa State Extension (Iowa) gives green as live and brown as dead. Gray, black, shriveled bark and the false-negative risk (older canes, bronze cultivars) are not mentioned."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-3",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Live wood is green and has plump, healthy buds. Dead wood is brown and has no live buds.",
+     "supports_finding": "partly",
+     "note": "Iowa State Extension (Iowa) links plump buds to live wood and no live buds to dead wood. It does not say 'dormant buds' or that a cane with no live buds along its length is a candidate for full removal."
+    }
+   ],
+   "contradictions": [
+    "Page uses only white pith for live and brown/gray for dead.",
+    "Advice is tied to Iowa timing (late March to mid-April)."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000114",
+   "url": "https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/roses-part-2-the-mystery-of-pruning/",
+   "final_url": "https://bexar-tx.tamu.edu/homehort/archives-of-weekly-articles-davids-plant-of-the-week/roses-part-2-the-mystery-of-pruning/",
+   "opened": true,
+   "page_date": "6 February 2005",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Basal breaks refer to new shoots, soon to be producing canes, which arise from the graft union. These should not be confused with 'suckers' which arise from the rootstock below the graft union.",
+     "supports_finding": "yes",
+     "note": "Texas A&M AgriLife Extension, Bexar County, Texas (Douglas Welsh column). Matches the TAMU-W part of the finding."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-13",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "These should not be confused with 'suckers' which arise from the rootstock below the graft union.",
+     "supports_finding": "yes",
+     "note": "Texas A&M AgriLife Extension, Bexar County, Texas. States the distinction as a warning."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-24",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "This pruning will encourage future 'basal' breaks which are the life blood of any rose bush.",
+     "supports_finding": "yes",
+     "note": "Texas A&M AgriLife Extension, Bexar County, Texas. Calls basal breaks the life blood of any rose bush; it does not say 'never remove' them."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000060",
+   "url": "https://content.ces.ncsu.edu/general-pruning-techniques",
+   "final_url": "https://content.ces.ncsu.edu/general-pruning-techniques",
+   "opened": true,
+   "page_date": "7 April 2020 (reviewed/revised 5 March 2025)",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-4",
+     "recorded": "Quote found: \"step back and look over the plant from all sides\".",
+     "result": "Confirmed",
+     "page_wording": "After you make these cuts, step back and look over the plant from all sides. This will give you perspective and allow you to prune in keeping with the plant's natural form.",
+     "supports_finding": "partly",
+     "note": "NC State Extension (North Carolina), general pruning, not rose-specific. Supports viewing the plant from all sides; says nothing about photographs or whether stems truly touch."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-3",
+     "recorded": "Quote found: \"step back and look over the plant from all sides\".",
+     "result": "Confirmed",
+     "page_wording": "After you make these cuts, step back and look over the plant from all sides. This will give you perspective and allow you to prune in keeping with the plant's natural form.",
+     "supports_finding": "partly",
+     "note": "NC State Extension (North Carolina), general pruning, not rose-specific. Supports viewing from all sides; no mention of photographs or stem growth direction limits."
+    }
+   ],
+   "contradictions": [
+    "Page does not address photographs at all; the photo-limit conclusion is the research's inference."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000025",
+   "url": "https://ccenassau.org/resources/-rose-culture-and-pruning",
+   "final_url": "https://ccenassau.org/resources/-rose-culture-and-pruning",
+   "opened": true,
+   "page_date": "review stamp 11/01 (November 2001)",
+   "checks": [
+    {
+     "research": "RECENTPLANT",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "The first season new bushes are planted, it is best to cut flowers only to remove faded blooms",
+     "supports_finding": "no",
+     "note": "Cornell Cooperative Extension Nassau County (New York) gives no number of years before full pruning. It limits first-season flower cutting and gives planting-time trimming; it does support removing dead or damaged canes, but not a three-year restraint."
+    }
+   ],
+   "contradictions": [
+    "Page gives no years-after-planting figure and says bare-root tops are pruned at planting and bush roses pruned in spring."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000068",
+   "url": "https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/",
+   "final_url": "https://www.rosesocietyvic.org.au/index.php/the-pruning-bible/",
+   "opened": true,
+   "page_date": "not shown (footer (c) 2026)",
+   "checks": [
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-1",
+     "recorded": "Quote found: \"Shorten these branches to a well-developed eye that is facing outwards.\"",
+     "result": "Confirmed",
+     "page_wording": "Shorten these branches to a well-developed eye that is facing outwards.",
+     "supports_finding": "yes",
+     "note": "Rose Society of Victoria (Victoria, Australia) gives the outward-facing-eye instruction. It does not treat inward growth as its own named defect; it lists crossing growth separately (Remove any growths that are crossing the centre or vertical branches)."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000139",
+   "url": "https://www.davidaustinroses.com/blogs/rose-care/understanding-and-managing-rose-suckers",
+   "final_url": "https://www.davidaustinroses.com/blogs/rose-care/understanding-and-managing-rose-suckers",
+   "opened": true,
+   "page_date": "10 June 2025",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "If it comes from below the graft - that slightly knobbly join near the base of the plant",
+     "result": "Near",
+     "page_wording": "The surest way to tell a sucker from a healthy new stem is to look at its point of origin. | If it comes from below the graft",
+     "supports_finding": "yes",
+     "note": "WebFetch returned only the first part of the recorded phrase (\"If it comes from below the graft\"); the 'knobbly join' wording was not returned. David Austin Roses (US site), UK-based breeder; place not stated. Page says origin is the key test."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "You might need to gently ease back the soil to find where it starts.",
+     "result": "Confirmed",
+     "page_wording": "You might need to gently ease back the soil to find where it starts.",
+     "supports_finding": "yes",
+     "note": "David Austin Roses says to ease back soil to find the start; it also says a sucker may come from soil a short distance away. Place not stated (US site)."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-4",
+     "recorded": "While this can sometimes help, it's not always reliable.",
+     "result": "Confirmed",
+     "page_wording": "While this can sometimes help, it's not always reliable. | Dr. Huey, a commonly used rootstock, often has dark green, glossy leaves",
+     "supports_finding": "yes",
+     "note": "Page says leaf clues are not always reliable and names 'Dr. Huey' leaves as dark green and glossy. It does not mention the other sources' 5-versus-7 leaflet rules beyond saying roses can have five, seven or nine leaflets."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-5",
+     "recorded": "Roses can naturally have five, seven, or even nine leaflets, and new growth often has a reddish tint.",
+     "result": "Confirmed",
+     "page_wording": "Roses can naturally have five, seven, or even nine leaflets, and new growth often has a reddish tint.",
+     "supports_finding": "yes",
+     "note": "David Austin Roses lists reddish new growth as a reason appearance cues are unreliable, as the finding says. Page does not say suckers are pale or light green."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-11",
+     "recorded": "is part of the original variety and not a sucker in the traditional sense.",
+     "result": "Confirmed",
+     "page_wording": "Any shoot on an own-root rose is \"not a sucker in the traditional sense.\"",
+     "supports_finding": "yes",
+     "note": "Page says shoots on an own-root rose are not suckers in the traditional sense. The fetch result gave a short fragment, not the full sentence; the 'part of the original variety' wording was not returned in full."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "Then grip it as close to the rootstock as possible and pull it away in one firm motion.",
+     "result": "Confirmed",
+     "page_wording": "Then grip it as close to the rootstock as possible and pull it away in one firm motion.",
+     "supports_finding": "partly",
+     "note": "Page says to pull the sucker away close to the rootstock and that a clean cut can stimulate regrowth. It does not say in so many words that cutting at soil level causes regrowth."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "If you're certain it's a sucker, remove it by hand rather than cutting it. A clean cut can often stimulate regrowth",
+     "result": "Confirmed",
+     "page_wording": "If you're certain it's a sucker, remove it by hand rather than cutting it.",
+     "supports_finding": "yes",
+     "note": "David Austin Roses recommends hand removal rather than cutting, which matches the finding's pull-or-tear group."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-19",
+     "recorded": "If you're certain it's a sucker, remove it by hand rather than cutting it. A clean cut can often stimulate regrowth",
+     "result": "Confirmed",
+     "page_wording": "A clean cut can often stimulate regrowth.",
+     "supports_finding": "yes",
+     "note": "Page says a clean cut can stimulate regrowth, as the finding quotes. It does not mention dormant buds at the base of the sucker."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-20",
+     "recorded": "You'll find this is easiest when the shoot is young.",
+     "result": "Confirmed",
+     "page_wording": "You'll find this is easiest when the shoot is young. | If left too long, it becomes tougher to remove and more likely to return.",
+     "supports_finding": "yes",
+     "note": "Page says removal is easiest while young and a late sucker is tougher and more likely to return."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-21",
+     "recorded": "a sucker can draw strength away from the grafted rose, weakening the plant above. It may even take over entirely.",
+     "result": "Confirmed",
+     "page_wording": "Left to its own devices, a sucker can draw strength away from the grafted rose, weakening the plant above. It may even take over entirely.",
+     "supports_finding": "yes",
+     "note": "David Austin Roses wording matches the finding."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-25",
+     "recorded": "If you're certain it's a sucker, remove it by hand rather than cutting it. A clean cut can often stimulate regrowth",
+     "result": "Confirmed",
+     "page_wording": "If you're certain it's a sucker, remove it by hand rather than cutting it.",
+     "supports_finding": "partly",
+     "note": "Page ties removal to being certain, as the finding says. It does not point to experienced growers when in doubt (that part comes from other sources)."
+    }
+   ],
+   "contradictions": [
+    "Page says a sucker may also come from the soil a short distance from the plant, so origin is not always at the base.",
+    "Page says a clean cut can stimulate regrowth and advises hand removal; sources that advise clean cutting (AF-18) disagree.",
+    "Page applies to grafted roses and standard roses; own-root roses are treated differently. No climate or region named."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000004",
+   "url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses",
+   "final_url": "https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/pruning-roses",
+   "opened": true,
+   "page_date": "Published May 2007, reviewed 2024",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Cut canes back to \"white or pale green live pith.\" | \"Keep your pruner sharp so it makes a clean cut.\"",
+     "supports_finding": "partly",
+     "note": "OSU Extension (Willamette Valley, Oregon) names white or pale green pith as live and brown pith as dead or dying. It does not mention gray or black pith, cutting from the tip in small steps, or dull tools crushing the cane."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-7",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Cut canes back to \"white or pale green live pith.\"",
+     "supports_finding": "yes",
+     "note": "OSU Extension says to cut back to live pith, and to cut lower on the crown if the pith is brown. It does not mention green bark."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "These tend to promote damage to the canes, and that encourages disease.",
+     "supports_finding": "partly",
+     "note": "OSU Extension tells readers to remove crossing or rubbing canes in one instruction, so they are treated as a pair. The exact wording of that instruction was not returned by WebFetch."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "These tend to promote damage to the canes, and that encourages disease.",
+     "supports_finding": "yes",
+     "note": "OSU Extension gives damage to canes and disease as the reason for removing crossing or rubbing canes."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-8",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Earlier pruning (before the last hard frost or forecasted cold weather) may cause die-back that necessitates repruning.",
+     "supports_finding": "yes",
+     "note": "OSU Extension gives general timing reasons (frost dieback, easier to see buds). It gives no deferral reason tied to crossing stems. Applies to the Willamette Valley."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-6",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Remove interior lateral canes to promote good air circulation.",
+     "supports_finding": "partly",
+     "note": "Page gives only general timing reasons for waiting. It does not use the term inward-growing; the nearest advice is removing interior lateral canes on floribundas."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention gray or black pith.",
+    "Page does not discuss dull tools, only keeping pruners sharp.",
+    "Timing advice is for the Willamette Valley only."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000016",
+   "url": "https://extension.oregonstate.edu/ask-extension/featured/when-should-i-prune-my-roses",
+   "final_url": "https://extension.oregonstate.edu/ask-extension/featured/when-should-i-prune-my-roses",
+   "opened": true,
+   "page_date": "Published 29 January 2020; reviewed 2024; last modified 1 December 2025",
+   "checks": [
+    {
+     "research": "DORMANCY",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "In Western Oregon/Willamette Valley the best time to prune is mid-February to early March. | In the higher elevations of Eastern and Central Oregon, it is better to wait until April, until after any possible heavy, severe freezes.",
+     "supports_finding": "partly",
+     "note": "OSU Extension speaks for western Oregon (mid-February to early March) and higher Oregon elevations (April), which supports the point that timing depends on climate and the frost risk. It says nothing about Dunedin or the hemisphere."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention bud swell."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000147",
+   "url": "https://www.vicstaterosegarden.com.au/about/rose-stories/suckers",
+   "final_url": "https://www.vicstaterosegarden.com.au/about/rose-stories/suckers",
+   "opened": true,
+   "page_date": "17 January 2018 (signed Wal J)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "AF-1: \"If below the graft – sucker; conversely, if above the graft – basal shoot.\"",
+     "result": "Confirmed",
+     "page_wording": "If below the graft – sucker; conversely, if above the graft – basal shoot.",
+     "supports_finding": "yes",
+     "note": "Victoria State Rose Garden, Werribee South, Victoria, Australia, uses the graft position as the test, as the finding says."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-9",
+     "recorded": "AF-9: \"the most common form we find in our Garden\"",
+     "result": "Confirmed",
+     "page_wording": "The most common form we find in our Garden is Dr Huey.",
+     "supports_finding": "yes",
+     "note": "Page says 'Dr Huey' is the most common form in its garden in Victoria, Australia. It does not list other rootstocks."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-16",
+     "recorded": "AF-16: \"Damaging the roots may cause the plant to throw up a new cane which is attached to the roots or rootstock.\"",
+     "result": "Confirmed",
+     "page_wording": "Damaging the roots may cause the plant to throw up a new cane which is attached to the roots or rootstock.",
+     "supports_finding": "yes",
+     "note": "Page links root damage with new canes from the roots or rootstock and warns home gardeners to take care when underplanting."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-25",
+     "recorded": "AF-25: \"If in doubt, call on one of our senior members to determine if it is a sucker.\"",
+     "result": "Confirmed",
+     "page_wording": "If in doubt, call on one of our senior members to determine if it is a sucker.",
+     "supports_finding": "yes",
+     "note": "Page is an instruction to garden volunteers to ask senior members; it is not general advice for home gardeners."
+    }
+   ],
+   "contradictions": [
+    "Page treats 'Dr Huey' as a rambler rootstock found in the garden's festoons; it makes no general claim about rootstocks by country."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000005",
+   "url": "https://elp.tamu.edu/files/2010/10/Rose-Pruning-Handout-Feb-2010.pdf",
+   "final_url": "https://elp.tamu.edu/files/2010/10/Rose-Pruning-Handout-Feb-2010.pdf",
+   "opened": true,
+   "page_date": "not shown (file name says Feb 2010)",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "The pith should be creamy white, not brown or gray, on healthy, live wood. | If the inside of the stem is brown, prune the cane back farther, at least one inch below the dead area.",
+     "supports_finding": "partly",
+     "note": "Texas A&M AgriLife, El Paso County Master Gardeners (El Paso, Texas), gives creamy white as live and brown or gray as not live, and says to cut back farther if brown. It does not mention green or black pith, tip-down small steps, or dull tools. Text is partly garbled from scanning."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-7",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Remove dead wood to the crown, or to the nearest healthy bud.",
+     "supports_finding": "yes",
+     "note": "Page says to remove dead wood to the crown or nearest healthy bud and to cut at least one inch below brown pith. It does not mention green bark."
+    }
+   ],
+   "contradictions": [
+    "Page describes live pith as creamy white, not white or pale green.",
+    "Page does not discuss dull tools, only clean sharp tools."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000021",
+   "url": "https://libanswers.nybg.org/faq/223492",
+   "final_url": "https://libanswers.nybg.org/faq/223492",
+   "opened": true,
+   "page_date": "Last updated 30 October 2024",
+   "checks": [
+    {
+     "research": "DORMANCY",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Prune in early spring when about half the buds are swollen, but before the leaves start to expand. | take your signal from the plants: buds swelling or roses fading",
+     "supports_finding": "yes",
+     "note": "NYBG Mertz Library (New York City area) gives bud swell as the pruning signal for hybrid teas, floribundas and grandifloras, before the leaves expand. For repeat-flowering roses it also says late March or early April once buds start to break."
+    },
+    {
+     "research": "DORMANCY",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "The precise timing will vary with where you live.",
+     "supports_finding": "partly",
+     "note": "NYBG says timing varies with location and gives New York City dates (late March or early April). It gives no frost-based rule and says nothing about hemisphere or New Zealand."
+    }
+   ],
+   "contradictions": [
+    "Once-flowering roses are pruned within a month after flowering, not before spring growth.",
+    "Page gives no frost-specific timing."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000062",
+   "url": "https://doi.org/10.3390/f10040349",
+   "final_url": "not reached",
+   "opened": false,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-4",
+     "recorded": "Quote found (§4.3): \"Virtual surveys are not appropriate for detailed assessments of tree risk...\".",
+     "result": "Could not open",
+     "page_wording": "",
+     "supports_finding": "unchecked",
+     "note": "Page not opened: WebFetch was rejected by the proxy (HTTP 429) with an instruction not to fetch again. The recorded quotation could not be checked, so 'Not found' here means unchecked."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-3",
+     "recorded": "Quote found (§4.3): \"Virtual surveys are not appropriate for detailed assessments of tree risk...\".",
+     "result": "Could not open",
+     "page_wording": "",
+     "supports_finding": "unchecked",
+     "note": "Page not opened: WebFetch was rejected by the proxy (HTTP 429) with an instruction not to fetch again. The recorded quotation could not be checked, so 'Not found' here means unchecked."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000153",
+   "url": "https://www.sciencedirect.com/science/article/pii/S0304423823001760",
+   "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0304423823001760",
+   "opened": false,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-15",
+     "recorded": "AF-15: \"form a lot of root suckers\"",
+     "result": "Could not open",
+     "page_wording": "",
+     "supports_finding": "unchecked",
+     "note": "Page not opened: ScienceDirect refused WebFetch (robots disallowed); the DOI redirect to linkinghub.elsevier.com returned an empty page. The recorded quotation could not be checked, so 'Not found' here means unchecked."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000150",
+   "url": "https://support.roses.co.uk/support/solutions/articles/77000588419-suckers",
+   "final_url": "https://support.roses.co.uk/support/solutions/articles/77000588419-suckers",
+   "opened": true,
+   "page_date": "Modified Mon, 8 Dec, 2025",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "It grows from below the graft union (the swollen 'knuckle' near the base of the plant).",
+     "result": "Confirmed",
+     "page_wording": "A sucker is a shoot that grows from the rootstock, not from your chosen rose variety. It grows from below the graft union (the swollen 'knuckle' near the base of the plant).",
+     "supports_finding": "partly",
+     "note": "Harkness Roses (UK nursery) says a sucker grows from below the graft union; place not stated on the page beyond UK units. The page does not say that growth from the union or just above it is the rose's own basal shoot."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "Trace the shoot down to where it emerges. If it comes from below the graft union or directly from the roots, it's a sucker.",
+     "result": "Near",
+     "page_wording": "Trace the shoot down to where it emerges.",
+     "supports_finding": "partly",
+     "note": "The first recorded sentence is on the page; the 'If it comes from below the graft union or directly from the roots' sentence was not returned by WebFetch. The page does not say a sucker may start some distance away (soil clearing appears only in the dig-down step recorded for AF-18)."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-3",
+     "recorded": "The leaves may look different — often smaller, lighter in colour, or with more leaflets.",
+     "result": "Confirmed",
+     "page_wording": "The leaves may look different — often smaller, lighter in colour, or with more leaflets.",
+     "supports_finding": "yes",
+     "note": "Harkness Roses (UK) gives this leaf difference as a possible sign; no dormancy comment on the page."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-7",
+     "recorded": "It grows very vigorously, often straight and tall compared to the rest of the plant.",
+     "result": "Confirmed",
+     "page_wording": "It grows very vigorously, often straight and tall compared to the rest of the plant.",
+     "supports_finding": "yes",
+     "note": "Harkness Roses (UK) states this directly. Dormancy not stated."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-12",
+     "recorded": "Plant roses deeply — ensure the graft union is about 2.5 - 5cm (1-2 inches) below the soil surface when planting.",
+     "result": "Confirmed",
+     "page_wording": "ensure the graft union is about 2.5 - 5cm (1-2 inches) below the soil surface when planting.",
+     "supports_finding": "yes",
+     "note": "Harkness Roses (UK) supports its own line of the finding (2.5 to 5 cm below). The other sources' depths are not on this page."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-16",
+     "recorded": "Avoid damaging the rootstock during weeding or cultivation.",
+     "result": "Confirmed",
+     "page_wording": "Avoid damaging the rootstock during weeding or cultivation.",
+     "supports_finding": "partly",
+     "note": "The page advises avoiding rootstock damage but does not say damage causes suckering in the words returned. Harkness Roses, UK."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "Cutting suckers at the surface encourages regrowth.",
+     "result": "Confirmed",
+     "page_wording": "Cutting suckers at the surface encourages regrowth.",
+     "supports_finding": "yes",
+     "note": "Harkness Roses (UK) says surface cutting encourages regrowth, consistent with removal at the point of origin."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "Carefully dig down to expose where the sucker joins the rootstock. Then, tear it cleanly away",
+     "result": "Near",
+     "page_wording": "Then, tear it cleanly away with a sharp tug or use a knife to remove it flush with the root.",
+     "supports_finding": "partly",
+     "note": "The 'tear it cleanly away' part is on the page; the 'Carefully dig down' sentence was not returned. The page offers a tug or a knife flush with the root, so it is not purely a tear-only source. Harkness Roses, UK."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-19",
+     "recorded": "remove the dormant bud tissue that causes regrowth.",
+     "result": "Confirmed",
+     "page_wording": "This helps to remove the dormant bud tissue that causes regrowth.",
+     "supports_finding": "yes",
+     "note": "Harkness Roses (UK) gives removal of dormant bud tissue as the reason for tearing."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-20",
+     "recorded": "Check regularly — remove any new suckers as soon as they appear.",
+     "result": "Confirmed",
+     "page_wording": "Check regularly — remove any new suckers as soon as they appear.",
+     "supports_finding": "yes",
+     "note": "Harkness Roses (UK) advises early removal."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-22",
+     "recorded": "Refill the soil and firm it gently around the base.",
+     "result": "Confirmed",
+     "page_wording": "Refill the soil and firm it gently around the base.",
+     "supports_finding": "yes",
+     "note": "Harkness Roses (UK) gives this as a single-source precaution."
+    }
+   ],
+   "contradictions": [
+    "Page allows removal with a knife flush with the root as well as tearing (narrows a tear-only reading of AF-18).",
+    "Page does not describe basal shoots from or just above the union (part of AF-1 not covered).",
+    "Page does not mention shoots arising some distance from the plant."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000049",
+   "url": "https://www.kansascityrosesociety.org/prune-roses",
+   "final_url": "https://www.kansascityrosesociety.org/prune-roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-1",
+     "recorded": "All three quoted passages found (rubbing damage; removed \"to the ground or back to the next outward facing bud\"; \"grow toward the center of the bush...\").",
+     "result": "Confirmed",
+     "page_wording": "Canes that rub against each other cause damage to the cane tissue which allows for disease entry. One of the crossing canes needs to be removed to the ground or back to the next outward facing bud.",
+     "supports_finding": "yes",
+     "note": "Kansas City Rose Society (Kansas City area) treats rubbing and crossing canes together in one passage. Only one source, so the 'great majority' claim is not tested here."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-2",
+     "recorded": "All three quoted passages found (rubbing damage; removed \"to the ground or back to the next outward facing bud\"; \"grow toward the center of the bush...\").",
+     "result": "Confirmed",
+     "page_wording": "Canes that rub against each other cause damage to the cane tissue which allows for disease entry.",
+     "supports_finding": "yes",
+     "note": "Kansas City Rose Society states damage then disease entry exactly as the finding says."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "All three quoted passages found (rubbing damage; removed \"to the ground or back to the next outward facing bud\"; \"grow toward the center of the bush...\").",
+     "result": "Confirmed",
+     "page_wording": "One of the crossing canes needs to be removed to the ground or back to the next outward facing bud.",
+     "supports_finding": "yes",
+     "note": "Removal is part of the spring pruning (first week or two of April, Kansas City area, after frost). Page says only 'one of' the crossing canes is removed."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-6",
+     "recorded": "All three quoted passages found (rubbing damage; removed \"to the ground or back to the next outward facing bud\"; \"grow toward the center of the bush...\").",
+     "result": "Confirmed",
+     "page_wording": "One of the crossing canes needs to be removed to the ground or back to the next outward facing bud.",
+     "supports_finding": "partly",
+     "note": "'To the ground' fits a full cut, but 'back to the next outward facing bud' is a shortening cut, not a cut to the point of origin. Kansas City area."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-2",
+     "recorded": "All three quoted passages found (rubbing damage; removed \"to the ground or back to the next outward facing bud\"; \"grow toward the center of the bush...\").",
+     "result": "Confirmed",
+     "page_wording": "Occasionally, canes will grow toward the center of the bush or are otherwise not growing in a graceful, natural direction.",
+     "supports_finding": "yes",
+     "note": "Kansas City Rose Society names growth toward the centre as the indicator, with no further visual marker."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-4",
+     "recorded": "All three quoted passages found (rubbing damage; removed \"to the ground or back to the next outward facing bud\"; \"grow toward the center of the bush...\").",
+     "result": "Confirmed",
+     "page_wording": "Remove them to the ground or back to the next outward facing bud.",
+     "supports_finding": "yes",
+     "note": "Same removal wording as for crossing canes, within the spring pruning; Kansas City area."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-5",
+     "recorded": "All three quoted passages found (rubbing damage; removed \"to the ground or back to the next outward facing bud\"; \"grow toward the center of the bush...\").",
+     "result": "Confirmed",
+     "page_wording": "Remove them to the ground or back to the next outward facing bud.",
+     "supports_finding": "partly",
+     "note": "'To the ground' is a full cut but 'back to the next outward facing bud' is a shortening cut, so not purely a cut to the point of origin."
+    }
+   ],
+   "contradictions": [
+    "Removal may be 'back to the next outward facing bud', which narrows the 'full cut to point of origin' findings (STEMCROSSING AF-6, INWARDGROWTH AF-5).",
+    "Advice is for the Kansas City area (April pruning, after frost)."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000148",
+   "url": "https://rossroses.com.au/rootstock-suckers/",
+   "final_url": "https://rossroses.com.au/rootstock-suckers/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "dig down and clear the soil away so locating where the shoot is growing from.",
+     "result": "Confirmed",
+     "page_wording": "The only way to properly remove a sucker is to dig down and clear the soil away so locating where the shoot is growing from.",
+     "supports_finding": "yes",
+     "note": "Ross Roses (South Australia nursery) says to clear the soil to find where the shoot starts. Does not say suckers can be some distance from the plant."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-11",
+     "recorded": "In the future a larger range of roses will be grown on their own roots so 'suckers' will not be a problem",
+     "result": "Confirmed",
+     "page_wording": "In the future a larger range of roses will be grown on their own roots so 'suckers' will not be a problem.",
+     "supports_finding": "partly",
+     "note": "Ross Roses says own-root roses mean suckers will not be a problem, but in a future-tense remark. It does not say shoots from an own-root rose are the same variety."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "DO NOT JUST CUT OFF as it can re-shoot.",
+     "result": "Confirmed",
+     "page_wording": "Once identified DO NOT JUST CUT OFF as it can re-shoot.",
+     "supports_finding": "yes",
+     "note": "Ross Roses (Australia) warns against cutting off only, as it can re-shoot."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-19",
+     "recorded": "Taking some of the surrounding bark which has dormant eyes and are likely to regrow is a good idea.",
+     "result": "Confirmed",
+     "page_wording": "Taking some of the surrounding bark which has dormant eyes and are likely to regrow is a good idea.",
+     "supports_finding": "yes",
+     "note": "Ross Roses (Australia) gives removal of bark with dormant eyes as the reason."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000011",
+   "url": "https://extension.umd.edu/resource/canker-roses-shrubs-and-vines",
+   "final_url": "https://extension.umd.edu/resource/canker-roses-shrubs-and-vines",
+   "opened": true,
+   "page_date": "Updated March 7, 2023",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-5",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "As cankers enlarge they kill the living tissue within the branch or main stem.",
+     "supports_finding": "partly",
+     "note": "University of Maryland Extension (no region stated) describes canker as slightly darker, sunken, target-shaped with concentric rings, and killing tissue as it enlarges. The page says nothing about red, purple or bronze cane colour being normal, nor about canker resembling dead wood."
+    }
+   ],
+   "contradictions": [
+    "Page does not discuss normal red/purple/bronze cane colouring or lookalike with dead wood; only the canker half of the finding is covered."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000065",
+   "url": "https://extension.umd.edu/resource/guide-pruning-roses",
+   "final_url": "https://extension.umd.edu/resource/guide-pruning-roses",
+   "opened": true,
+   "page_date": "Updated June 13, 2023 (byline: Revised 12/2020)",
+   "checks": [
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-1",
+     "recorded": "Quote found verbatim.",
+     "result": "No quotation",
+     "page_wording": "Pruning to an outward bud encourages the branch to grow outwards, not into the center of the shrub.",
+     "supports_finding": "yes",
+     "note": "The recorded entry gives no actual words, so it cannot be matched. University of Maryland Extension (region not stated) uses the prospective outward-bud instruction and does not address crossing, rubbing or inward canes as a named defect, matching the finding."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000026",
+   "url": "https://www.johnson.k-state.edu/programs/lawn-garden/agent-articles-fact-sheets-and-more/agent-articles/emg-fact-sheets/roses-docs/Rose%20Care.pdf",
+   "final_url": "https://www.johnson.k-state.edu/programs/lawn-garden/agent-articles-fact-sheets-and-more/agent-articles/emg-fact-sheets/roses-docs/Rose%20Care.pdf",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "RECENTPLANT",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Dead, damaged, weak and/or crossing canes should be removed; the remaining 3 to 5 healthy canes should be pruned to 8 to 12 inches.",
+     "supports_finding": "no",
+     "note": "Johnson County Master Gardeners (K-State Research and Extension, Kansas City area) advise pruning at planting, including crossing canes, and again each spring. The page does not hold back full pruning for about three years or separate newly planted from established roses by years."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Remove winter protection in mid-April. At that time, prune out all weak, dead, damaged, and/or crossing canes",
+     "supports_finding": "yes",
+     "note": "Johnson County Master Gardeners (Kansas) give removal of crossing canes as routine spring pruning. Rubbing canes are not mentioned."
+    }
+   ],
+   "contradictions": [
+    "Advises pruning at planting (cutting to 3 to 5 canes of 8 to 12 inches), which disagrees with a restraint period of about three years.",
+    "Rubbing canes not mentioned."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000063",
+   "url": "https://www.extension.iastate.edu/linn/winterizing-roses",
+   "final_url": "https://www.extension.iastate.edu/linn/winterizing-roses",
+   "opened": true,
+   "page_date": "not shown (page marked archived, may contain outdated content)",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-8",
+     "recorded": "Named only in the AF-8 evidence. Quote found: \"Wait until the leaf buds are a half inch or so long...\".",
+     "result": "Confirmed",
+     "page_wording": "In spring, don't prune too early. Wait until the leaf buds are a half inch or so long so it's easier to decipher what's dead and what's not.",
+     "supports_finding": "partly",
+     "note": "Iowa State Extension, Linn County (Iowa) gives general spring timing so live and dead wood can be told apart. Cold-damage dieback is not named as the reason in the words returned. The page does not mention crossing or rubbing stems."
+    },
+    {
+     "research": "INWARDGROWTH",
+     "finding": "AF-6",
+     "recorded": "Named only in the AF-8 evidence. Quote found: \"Wait until the leaf buds are a half inch or so long...\".",
+     "result": "Confirmed",
+     "page_wording": "In spring, don't prune too early. Wait until the leaf buds are a half inch or so long so it's easier to decipher what's dead and what's not.",
+     "supports_finding": "partly",
+     "note": "Same general timing advice for Iowa; the page does not mention inward-growing stems, and gives no dieback reason."
+    }
+   ],
+   "contradictions": [
+    "Page is marked archived and may be outdated.",
+    "Crossing, rubbing and inward-growing stems are not mentioned."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000160",
+   "url": "https://www.helpmefind.com/rose/ezine.php?publicationID=931&tab=1",
+   "final_url": "https://www.helpmefind.com/rose/ezine.php?publicationID=931&tab=1",
+   "opened": true,
+   "page_date": "not shown (copyright 2026 only)",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-8",
+     "recorded": "AF-8: \"R. Multiflora is available in many forms, including several that are completely thornless\" // AF-8: \"It's also extremely thorny so is no fun to work with\" (said of R. rugosa)",
+     "result": "Near",
+     "page_wording": "including several that are completely thornless ... It's also *extremely* thorny so is no fun to work with.",
+     "supports_finding": "yes",
+     "note": "Kim L. Rupert (HelpMeFind ezine; examples mostly Californian, no single region stated) says some R. multiflora forms are thornless and R. rugosa is extremely thorny. The 'available in many forms' opening was not returned in full by WebFetch; the rugosa line matches."
+    }
+   ],
+   "contradictions": []
+  },
+  {
+   "pkr": "PKR-SRC-000024",
+   "url": "https://ucanr.edu/blog/uc-master-gardener-program-statewide-blog/article/pruning-roses-and-cultivating-beauty",
+   "final_url": "https://ucanr.edu/blog/uc-master-gardener-program-statewide-blog/article/pruning-roses-and-cultivating-beauty",
+   "opened": true,
+   "page_date": "13 February 2024 (updated 31 March 2025)",
+   "checks": [
+    {
+     "research": "DORMANCY",
+     "finding": "AF-2",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "In California, where winters are mild, the ideal time for pruning is typically between late winter and early spring.",
+     "supports_finding": "partly",
+     "note": "UC Master Gardener Program (UC ANR) gives a late winter to early spring window for California only. It does not mention frost, other climates or hemispheres, so the 'no single calendar window' point is not supported by this page."
+    },
+    {
+     "research": "DORMANCY",
+     "finding": "AF-3",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "If the plant is dormant (recommended), remove all remaining leaves.",
+     "supports_finding": "partly",
+     "note": "UC Master Gardener Program (California) only hints at leaf removal as a dormant-season step. It says nothing about roses keeping leaves in mild winters or about premature bud break from warmth."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention frost or leaf retention; it ties pruning to dormancy in late winter to early spring in California."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000098",
+   "url": "https://ucanr.edu/sites/default/files/2020-01/318605.pdf",
+   "final_url": "https://ucanr.edu/sites/default/files/2020-01/318605.pdf",
+   "opened": true,
+   "page_date": "February 2002",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-1",
+     "recorded": "AF-1: \"These are extra–vigorous shoots arising from rootstock below the bud union.\"",
+     "result": "Confirmed",
+     "page_wording": "Suckers are \"extra-vigorous shoots arising from rootstock below the bud union.\"",
+     "supports_finding": "yes",
+     "note": "UCCE Inyo and Mono Counties (California) says suckers arise from rootstock below the bud union. It does not describe basal shoots from or above the union."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-7",
+     "recorded": "AF-7: \"These are extra–vigorous shoots arising from rootstock below the bud union.\"",
+     "result": "Confirmed",
+     "page_wording": "Suckers are \"extra-vigorous shoots arising from rootstock below the bud union.\"",
+     "supports_finding": "yes",
+     "note": "UCCE Inyo and Mono Counties describes suckers as extra-vigorous. Dormancy is not addressed, matching the finding's 'not stated'."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "AF-17: \"Suckers should be removed completely, not just clipped off where they emerge from the soil.\"",
+     "result": "Confirmed",
+     "page_wording": "\"Suckers should be removed completely, not just clipped off where they emerge from the soil.\"",
+     "supports_finding": "yes",
+     "note": "UCCE Inyo and Mono Counties (California) says remove completely rather than clip at the soil. It gives no reason such as regrowth in the returned text."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "AF-18: \"Grab hold of the sucker close to the trunk and pull downward to break the sucker off.\"",
+     "result": "Near",
+     "page_wording": "Grab the sucker near the trunk and \"pull downward to break the sucker off.\"",
+     "supports_finding": "yes",
+     "note": "Same sense; WebFetch returned only the tail as a direct quote. UCCE Inyo and Mono Counties puts it in the pull/break-off group."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-19",
+     "recorded": "AF-19: \"This will remove any adjacent buds as well and prevent the sucker from growing back.\"",
+     "result": "Confirmed",
+     "page_wording": "\"This will remove any adjacent buds as well and prevent the sucker from growing back.\"",
+     "supports_finding": "yes",
+     "note": "UCCE Inyo and Mono Counties gives the adjacent-bud reason for pulling."
+    }
+   ],
+   "contradictions": [
+    "Page says soil is moved away from the trunk to find the connection point; it covers all garden roses, not only bush roses."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000142",
+   "url": "https://ucanr.edu/county/cooperative-extension-ventura-county/sucker-growth-roses",
+   "final_url": "https://ucanr.edu/county/cooperative-extension-ventura-county/sucker-growth-roses",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-2",
+     "recorded": "AF-2: \"it may be necessary to dig some soil away from the base of the plant to expose the base of the suckers.\"",
+     "result": "Confirmed",
+     "page_wording": "it may be necessary to dig some soil away from the base of the plant to expose the base of the suckers.",
+     "supports_finding": "yes",
+     "note": "UCCE Ventura County says soil may need digging away to expose the sucker base. Place not stated on the page."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-17",
+     "recorded": "AF-17: \"Cut the suckers off cleanly and as close to the rootstock trunk as possible.\"",
+     "result": "Confirmed",
+     "page_wording": "Cut the suckers off cleanly and as close to the rootstock trunk as possible.",
+     "supports_finding": "partly",
+     "note": "UCCE Ventura County says cut close to the rootstock trunk, which fits removal at origin. The page does not address regrowth after cutting at soil level."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "AF-18: \"Cut the suckers off cleanly and as close to the rootstock trunk as possible.\"",
+     "result": "Confirmed",
+     "page_wording": "Cut the suckers off cleanly and as close to the rootstock trunk as possible.",
+     "supports_finding": "yes",
+     "note": "UCCE Ventura County is correctly placed in the cut-cleanly group."
+    }
+   ],
+   "contradictions": [
+    "Page does not state regrowth or give a place for the advice."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000003",
+   "url": "https://extension.illinois.edu/roses/pruning",
+   "final_url": "https://extension.illinois.edu/roses/pruning",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-2",
+     "recorded": "Web address already held by Published PKR-SRC-000003. Shares OSU's text.",
+     "result": "No quotation",
+     "page_wording": "These can be identified as canes that are shriveled, dark brown, or black.",
+     "supports_finding": "partly",
+     "note": "Illinois Extension (Urbana, Illinois) names shriveled, dark brown or black canes as dead. It does not mention green living wood or the false-negative risk for older or bronze canes. The recorded text is a note, not a quotation."
+    },
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-7",
+     "recorded": "Web address already held by Published PKR-SRC-000003. Shares OSU's text.",
+     "result": "No quotation",
+     "page_wording": "cut them off at the base or point of discoloration.",
+     "supports_finding": "partly",
+     "note": "Illinois Extension says cut dead canes at the base or at the point of discoloration. It does not mention living tissue or pith, and cutting at the discoloration point is the opposite of the finding's 'not merely where dead tissue first becomes visible'."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-1",
+     "recorded": "Web address already held by Published PKR-SRC-000003. Shares OSU's text.",
+     "result": "No quotation",
+     "page_wording": "",
+     "supports_finding": "no",
+     "note": "The page does not mention crossing or rubbing canes. It lists pruning goals as removing dead, damaged or diseased wood and increasing air circulation."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-2",
+     "recorded": "Web address already held by Published PKR-SRC-000003. Shares OSU's text.",
+     "result": "No quotation",
+     "page_wording": "",
+     "supports_finding": "no",
+     "note": "The page does not mention rubbing canes or damage from contact as a disease entry point. It only lists removing diseased wood and improving air circulation."
+    }
+   ],
+   "contradictions": [
+    "No crossing or rubbing canes content on this page.",
+    "Cutting dead canes 'at the point of discoloration' narrows or conflicts with cutting back into living tissue."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000027",
+   "url": "https://extension.illinois.edu/blogs/merry-gardener/2017-02-24-roses-are-red-prunings-you",
+   "final_url": "https://extension.illinois.edu/blogs/merry-gardener/2017-02-24-roses-are-red-prunings-you",
+   "opened": true,
+   "page_date": "24 February 2017",
+   "checks": [
+    {
+     "research": "RECENTPLANT",
+     "finding": "AF-1",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "For ever-blooming shrub roses, pruning will not be required in the first few years of growth. When the shrub is three or more years old, prune out one-third of the oldest canes, keeping the shape of the bush even.",
+     "supports_finding": "partly",
+     "note": "Illinois Extension (southern Illinois blog) says shrub roses need no pruning in the first few years and a three-or-more-year trigger for cane thinning. It speaks of ever-blooming shrub roses, not bush roses or a six-observation set, and does not tie dead wood removal to young plants ('Remove all dead canes')."
+    }
+   ],
+   "contradictions": [
+    "Same page says modern ever-blooming roses are pruned out by one-half to two thirds in early spring, with no young-plant exception stated."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000159",
+   "url": "https://extension.illinois.edu/roses/selecting-rose-plants",
+   "final_url": "https://extension.illinois.edu/roses/selecting-rose-plants",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-3",
+     "recorded": "AF-3: \"Rootstocks of budded roses often send up suckers that produce leaves and flowers that are totally different from the budded cultivar.\"",
+     "result": "Confirmed",
+     "page_wording": "Rootstocks of budded roses often send up suckers that produce leaves and flowers that are totally different from the budded cultivar.",
+     "supports_finding": "yes",
+     "note": "Illinois Extension (Urbana) says sucker leaves are totally different from the budded cultivar. Place of advice is not stated beyond the office address."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-6",
+     "recorded": "AF-6: \"Rootstocks of budded roses often send up suckers that produce leaves and flowers that are totally different from the budded cultivar.\"",
+     "result": "Confirmed",
+     "page_wording": "Rootstocks of budded roses often send up suckers that produce leaves and flowers that are totally different from the budded cultivar.",
+     "supports_finding": "yes",
+     "note": "Illinois Extension says sucker flowers are totally different from the budded cultivar."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-9",
+     "recorded": "AF-9: \"Rootstocks used are often Rosa multiflora, Rosa canna, or Rosa laxa.\"",
+     "result": "Confirmed",
+     "page_wording": "Rootstocks used are often Rosa multiflora, Rosa canna, or Rosa laxa.",
+     "supports_finding": "partly",
+     "note": "Illinois Extension lists the three rootstocks, but the page spells 'Rosa canna', not R. canina. It does not say rootstock differs by country or nursery."
+    }
+   ],
+   "contradictions": [
+    "Page spells 'Rosa canna' rather than Rosa canina."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000155",
+   "url": "https://homegarden.cahnr.uconn.edu/2024/06/28/remove-those-suckers/",
+   "final_url": "https://homegarden.cahnr.uconn.edu/2024/06/28/remove-those-suckers/",
+   "opened": true,
+   "page_date": "28 June 2024",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-6",
+     "recorded": "AF-6: \"one might notice a stem with red flowers when the plant was purchased as a named cultivar with different colored flowers.\"",
+     "result": "Near",
+     "page_wording": "one might notice a stem with red flowers when the plant was purchased",
+     "supports_finding": "yes",
+     "note": "UConn Home & Garden Education Center (Connecticut) gives the red-flowered sucker example. WebFetch returned only the first part of the sentence, so the tail of the recorded quotation was not seen."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-18",
+     "recorded": "AF-18: \"Once they reach pencil-size in thickness, cut with clean, sharp pruners.\"",
+     "result": "Confirmed",
+     "page_wording": "Once they reach pencil-size in thickness, cut with clean, sharp pruners.",
+     "supports_finding": "yes",
+     "note": "UConn says pencil-thick suckers are cut with pruners, and young ones can be rubbed or twisted off. Connecticut, general sucker advice."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-20",
+     "recorded": "AF-20: \"Often, they can just be rubbed or twisted off in spring as their stem is just starting to expand.\"",
+     "result": "Confirmed",
+     "page_wording": "Ideally suckers and water sprouts should be removed as soon as they are produced.",
+     "supports_finding": "yes",
+     "note": "UConn says remove suckers as soon as they are produced, supporting early removal. The page covers suckers and water sprouts generally."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-21",
+     "recorded": "AF-21: \"crowd out the main plant resulting in reduced vigor.\"",
+     "result": "Confirmed",
+     "page_wording": "If not removed, they can crowd out the main plant resulting in reduced vigor.",
+     "supports_finding": "yes",
+     "note": "UConn says unremoved suckers crowd out the main plant and reduce vigor. It does not use the 'draw strength' wording."
+    }
+   ],
+   "contradictions": [
+    "Page is general sucker/water sprout advice for Connecticut, not rose-specific wording."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000012",
+   "url": "https://ask.extension.org/kb/faq.php?id=743094",
+   "final_url": "https://ask.extension.org/kb/faq.php?id=743094",
+   "opened": true,
+   "page_date": "Asked 7 April 2021; answered 8 April 2021",
+   "checks": [
+    {
+     "research": "DEADWOOD",
+     "finding": "AF-5",
+     "recorded": "none recorded",
+     "result": "No quotation",
+     "page_wording": "Cankers usually show as discolored areas of rose canes caused by fungi.",
+     "supports_finding": "partly",
+     "note": "Colorado Master Gardener (Denver County) says canker lesions 'vary in color but can be a light brown to a dark purple' and can kill the cane or rose base. The expert says it is not clear the roses have canker; normal colouring and sunken or target-ringed lesions are not covered."
+    }
+   ],
+   "contradictions": [
+    "Expert says 'It is not clear that your roses have canker.'",
+    "Page does not describe normal red/purple cane colouring or sunken lesions."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000152",
+   "url": "https://ask.extension.org/kb/faq.php?id=740633",
+   "final_url": "https://ask.extension.org/kb/faq.php?id=740633",
+   "opened": true,
+   "page_date": "Asked 24 March 2021; answered 25 March 2021",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-12",
+     "recorded": "AF-12: \"the bud union two inches below soil level and mulch two to five inches.\"",
+     "result": "Near",
+     "page_wording": "The different instructions on how to plant roses generally reflect differences in climate.",
+     "supports_finding": "yes",
+     "note": "OSU Extension (Stephen Oldfield, Eugene, Oregon) says mild areas keep the union above soil, colder areas bury the graft 1 to 2 inches, and Central Oregon uses two inches below soil level with two to five inches of mulch. The recorded quote is a condensed join of two page phrases."
+    }
+   ],
+   "contradictions": [
+    "Eugene advice is union one inch above grade, differing from the Central Oregon two-inch burial."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000050",
+   "url": "https://www.nashvillerosesociety.org/ten-principals-of-rose-pruning/",
+   "final_url": "https://www.nashvillerosesociety.org/ten-principals-of-rose-pruning/",
+   "opened": true,
+   "page_date": "Posted 2 March 2021; updated 7 March 2021",
+   "checks": [
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-5",
+     "recorded": "Quote checked: \"Cut off any canes that cross over the center ... flush with the bud union or flush with the cane\". The page spells \"Principals\". The Acadiana Rose Society republication was not separately located.",
+     "result": "Confirmed",
+     "page_wording": "Cut off any canes that cross over the center with loppers or pruning saw, flush with the bud union or flush with the cane.",
+     "supports_finding": "partly",
+     "note": "Nashville Rose Society (Tennessee; originally Acadiana Rose Society) says to cut crossing canes. It does not mention rubbing canes and gives no dormant-season timing or 'routine maintenance' framing."
+    },
+    {
+     "research": "STEMCROSSING",
+     "finding": "AF-6",
+     "recorded": "Quote checked: \"Cut off any canes that cross over the center ... flush with the bud union or flush with the cane\". The page spells \"Principals\". The Acadiana Rose Society republication was not separately located.",
+     "result": "Confirmed",
+     "page_wording": "Cut off any canes that cross over the center with loppers or pruning saw, flush with the bud union or flush with the cane.",
+     "supports_finding": "yes",
+     "note": "Nashville Rose Society says cut crossing canes flush with the bud union or the cane, i.e. removal at origin. Rubbing canes are not mentioned."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention rubbing canes or give a dormant-season date."
+   ]
+  },
+  {
+   "pkr": "PKR-SRC-000161",
+   "url": "https://grownups.co.nz/life/gardening/rootstocks-and-budding/",
+   "final_url": "https://grownups.co.nz/life/gardening/rootstocks-and-budding/",
+   "opened": true,
+   "page_date": "not shown",
+   "checks": [
+    {
+     "research": "SUCKERS",
+     "finding": "AF-9",
+     "recorded": "AF-9: \"The main rootstock used in rose production in New Zealand is Rosa multiflora or various strains derived from it\"",
+     "result": "Confirmed",
+     "page_wording": "One nursery in NZ also uses Rosa laxa as a rootstock, which is the main rootstock used in the UK and parts of Europe.",
+     "supports_finding": "yes",
+     "note": "Hayden Foulds (GrownUps NZ, New Zealand) says R. multiflora is the main NZ rootstock, one NZ nursery also uses R. laxa, and R. laxa is main in the UK and parts of Europe. WebFetch quoted the recorded sentence in part."
+    },
+    {
+     "research": "SUCKERS",
+     "finding": "AF-15",
+     "recorded": "AF-15: \"produce very few suckers and are highly resistant to diseases.\"",
+     "result": "Confirmed",
+     "page_wording": "Plants are easily propagated by cuttings, produce very few suckers and are highly resistant to diseases. It also produces a good root system and throws virtually no suckers.",
+     "supports_finding": "yes",
+     "note": "GrownUps NZ says R. multiflora produces very few suckers and R. laxa throws virtually no suckers. The page does not mention R. canina; the R. canina point comes from another source."
+    }
+   ],
+   "contradictions": [
+    "Page does not mention Rosa canina."
+   ]
+  }
+ ],
+ "totals": {
+  "sources": 78,
+  "opened": 73,
+  "checks": 231,
+  "results": {
+   "Confirmed": 127,
+   "Near": 34,
+   "No quotation": 66,
+   "Not found": 1,
+   "Could not open": 3
+  },
+  "supports": {
+   "partly": 98,
+   "no": 8,
+   "yes": 122,
+   "unchecked": 3
+  }
+ }
+}

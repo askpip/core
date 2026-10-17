@@ -70,8 +70,8 @@ export interface PlantProject {
    * Free-text planting context, as the gardener describes it ("about 3 years
    * ago", "spring 2024", "not sure") — matches Architecture §6.1's "planting
    * context" profile field. Deliberately not a date picker: the recently
-   * planted Suitability Gate (PKR-SGT-000002) only needs roughly-3-years-or-
-   * more vs. less vs. unknown, not a precise date, and a free-text answer is
+   * planted Suitability Gate (PKR-SGT-000002) only needs first growing season
+   * or not vs. unknown, not a precise date, and a free-text answer is
    * one fewer point of friction for a beginner gardener who often won't know
    * an exact date anyway.
    *

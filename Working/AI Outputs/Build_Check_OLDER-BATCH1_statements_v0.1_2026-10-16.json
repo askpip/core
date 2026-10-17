@@ -1,0 +1,1010 @@
+{
+ "round": "v0.1",
+ "B1": {
+  "results": [
+   {
+    "record": "PKR-SGT-000001",
+    "field": "question",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     9
+    ],
+    "traces_to": [
+     "DORMANCY AF-1"
+    ],
+    "note": "Counts 'buds swelling' as active growth already begun, but AF-1 says bud swell IS the pruning-readiness signal (Arizona: 'when they begin to swell, go ahead and prune'). It also contradicts answers.dormant, which puts 'just beginning to swell' under dormant. A gardener with swelling buds is steered the wrong way.",
+    "suggested_wording": "Look closely at the buds along your rose's canes. Are they still tight and closed, just beginning to swell, or have leaves opened and new shoots started to grow?"
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "caveat",
+    "result": "Pass with a note",
+    "points_failed": [
+     6,
+     10
+    ],
+    "traces_to": [
+     "DORMANCY AF-1",
+     "DORMANCY AF-3"
+    ],
+    "note": "Judging by buds not leaves follows AF-1. 'Doesn't always lose all its leaves' is Arkansas's page ('semi-evergreen most winters') and early bud break is a Minnesota page on plants in general; AF-3 is Moderate and unlabelled here. Show the label; do not widen to 'milder climates' generally.",
+    "suggested_wording": "In a mild winter, roses may keep some leaves, so judge by the buds, not by whether the leaves have dropped. Warm spells can also start buds growing early."
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "answers.dormant",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "DORMANCY AF-1"
+    ],
+    "note": "Prune at or just before bud swell, before leaf-out (NYBG: 'before the leaves start to expand').",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "answers.growing",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "DORMANCY AF-1"
+    ],
+    "note": "Matches 'before active leaf-out is well underway'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000001",
+    "field": "notSureFallback",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     5
+    ],
+    "traces_to": [
+     "DORMANCY AF-1"
+    ],
+    "note": "'The safest choice is to treat the rose as not quite ready' and 'check back in a week or two' are in no finding or page. Adds a safety claim and a time. Buds-not-leaves part is fine.",
+    "suggested_wording": "That's alright - have another look at the buds specifically, not the leaves: are they still tight and closed, or have any started to swell or open?"
+   },
+   {
+    "record": "PKR-SGT-000002",
+    "field": "question",
+    "result": "Pass with a note",
+    "points_failed": [
+     10
+    ],
+    "traces_to": [
+     "RECENTPLANT AF-1 as corrected"
+    ],
+    "note": "Only passes with the proposed Low, as a precaution label. 'About three years' is Illinois's figure for ever-blooming shrub roses; no bush-rose page gives it. Marin ('prune first year roses lightly') and Cornell/RHS point to the first season or winter. Sources differ on whether to wait at all (K-State, RHS) and this is not shown.",
+    "suggested_wording": "Was this rose planted within the last growing season?  (or keep wording only if labelled 'Precaution - Low')"
+   },
+   {
+    "record": "PKR-SGT-000002",
+    "field": "answers.established",
+    "result": "Pass with a note",
+    "points_failed": [
+     10
+    ],
+    "traces_to": [
+     "RECENTPLANT AF-1 as corrected"
+    ],
+    "note": "Same note as the question: the three-year figure is a shrub-rose figure, Low.",
+    "suggested_wording": "Yes, it was planted before last season (if the question is changed); otherwise keep with Low precaution label"
+   },
+   {
+    "record": "PKR-SGT-000002",
+    "field": "answers.recent",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "RECENTPLANT AF-1 as corrected"
+    ],
+    "note": "Framing only; follows whichever question wording is chosen.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-SGT-000002",
+    "field": "fallback_intro",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     2,
+     5
+    ],
+    "traces_to": [
+     "RECENTPLANT AF-2"
+    ],
+    "note": "'Plenty of gardeners aren't sure' is a claim no finding gives. 'Three signs' rests on AF-2, which is Low and not a precaution (the signs would lift the dead-wood-only limit, i.e. allow more pruning), so Pip does not use it. AF-2 also rests on a shrubs-in-general commercial page and a nursery grading page.",
+    "suggested_wording": "That's alright."
+   },
+   {
+    "record": "PKR-SGT-000002",
+    "field": "restricted_reason_recent",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "RECENTPLANT AF-1 as corrected"
+    ],
+    "note": "Dead wood is excepted (Marin: 'other than dead wood'). 'Long enough' implies a set time; under the three-year question that is Low.",
+    "suggested_wording": "A newly planted rose is left unpruned apart from dead wood until it has established, so we'll only look at dead wood today."
+   },
+   {
+    "record": "PKR-SGT-000002",
+    "field": "restricted_reason_fallback",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "RECENTPLANT AF-1 as corrected"
+    ],
+    "note": "'To stay safe' adds a reason no page gives; the restraint is what three rose pages say. Say it without the reason. Also 'we': standing decision says Pip is 'it' and speaks first person - check consistency.",
+    "suggested_wording": "We can't confirm this rose has established yet, so we'll only look at dead wood today."
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "feature",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Heading only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "look_for",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     6,
+     10
+    ],
+    "traces_to": [
+     "DEADWOOD AF-2",
+     "DEADWOOD AF-3"
+    ],
+    "note": "'Grey' bark as dead is on no page (Iowa: 'brown'; Illinois: 'shriveled, dark brown, or black'; the grey pith lines are about pith). Unlabelled although AF-2/AF-3 are Moderate, and the older/bronze-cane limit is missing here though it changes what a gardener does.",
+    "suggested_wording": "Let's look for dead wood. Dead canes are usually brown, black or shriveled rather than green, and have no live buds. (Moderate)"
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "criteria[0]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     7
+    ],
+    "traces_to": [
+     "DEADWOOD AF-2 as corrected"
+    ],
+    "note": "'Grey' not on any bark page. The older/bronze-cane risk rests on Colorado alone ('Live wood on older canes or roses with bronze stems may look brown instead of green'), so it needs 'one source says'; 'can mislead' does not say which way.",
+    "suggested_wording": "Bark colour: green suggests living; brown, black or shriveled suggests dead. One source says living wood on older canes or bronze-stemmed roses can look brown."
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "criteria[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "DEADWOOD AF-3 as corrected"
+    ],
+    "note": "Clemson ('If no live buds remain') and Iowa ('plump, healthy buds ... no live buds'). 'Visible' and 'none anywhere' are not on the pages.",
+    "suggested_wording": "Buds: plump, healthy buds suggest living wood; no live buds suggests dead."
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "criteria[2]",
+    "result": "Pass with a note",
+    "points_failed": [
+     7
+    ],
+    "traces_to": [
+     "DEADWOOD AF-5 as corrected"
+    ],
+    "note": "Low, so usable only as a precaution, and it is not marked as one. Maryland: canker sunken, kills tissue as it enlarges; Colorado MG: discoloured areas caused by fungi. Name what a gardener learns: it is a disease, not static dead wood. Do not say 'not routine dead wood' as fact; Colorado's expert was unsure of the case.",
+    "suggested_wording": "Precaution: sunken patches or lesions on a cane may be canker, a fungal disease that kills more tissue as it enlarges, rather than ordinary dead wood."
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "criteria[3]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     7
+    ],
+    "traces_to": [
+     "DEADWOOD AF-1 as corrected"
+    ],
+    "note": "'The surest check' is on no page. Seven pages agree only on white = living, brown = dead; pale green is Oregon only, black is Georgia only, grey is Iowa/El Paso, so listing them as one agreed set says more than the pages.",
+    "suggested_wording": "Cut into the cane and look at the pith: white is living, brown is dead."
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "criteria[4]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     3,
+     7,
+     11
+    ],
+    "traces_to": [
+     "DEADWOOD AF-4"
+    ],
+    "note": "AF-4 is Low, one source, not a precaution, so Pip does not use it (rule 1, section 3 table). Page only says 'Bend a small twig'; 'dead snaps' came from a summary; general woody plants, not rose. Remove it.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "photo_limit",
+    "result": "Pass with a note",
+    "points_failed": [
+     2
+    ],
+    "traces_to": [
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 s6",
+     "DEADWOOD AF-1"
+    ],
+    "note": "Pith part fine. 'How it bends' refers to AF-4, which Pip does not use; drop it with criteria[4].",
+    "suggested_wording": "A photo can't show the pith inside the cane - check that on the plant."
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "confirm_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Prompt only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "confirm_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Prompt only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "doesnt_match_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Prompt only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "not_sure_guidance",
+    "result": "Fail",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "DEADWOOD AF-2",
+     "DEADWOOD AF-3"
+    ],
+    "note": "'Right down low' is an instruction no finding or page gives for bark or buds.",
+    "suggested_wording": "Look again at the cane on the plant itself - its buds and its bark colour."
+   },
+   {
+    "record": "PKR-OBS-000001",
+    "field": "any_more_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Prompt only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000001",
+    "field": "decision_notes[0]",
+    "result": "Fail",
+    "points_failed": [
+     7,
+     10,
+     5
+    ],
+    "traces_to": [
+     "DEADWOOD AF-7 as corrected"
+    ],
+    "note": "Rule 2: Illinois says cut 'at the base or point of discoloration' (opposite); not shown, and the label should read 'Sources disagree' (section 3A). Missouri and El Paso say at least an inch below the dead area, a limit not shown. 'Pale-green pith' is Oregon only; 'green bark' is Colorado/ARS only.",
+    "suggested_wording": "Cut a dead cane back into living wood, where the pith is white, not just to where the dead part first shows. One source says to cut at the point of discoloration. [label: Sources disagree]"
+   },
+   {
+    "record": "PKR-DEC-000001",
+    "field": "decision_notes[1]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     5,
+     7,
+     10
+    ],
+    "traces_to": [
+     "DEADWOOD AF-8 as corrected"
+    ],
+    "note": "Only Georgia supports the bud union ('the cane will have to be removed at the bud union'). Clemson removes the whole cane when no live buds remain (a different condition); Colorado supports stepwise cuts only. 'Keep going toward' is not on a page. Single source needs 'one source says'.",
+    "suggested_wording": "One source says that if the pith is still dark after repeated cuts, the cane has to be removed at the bud union."
+   }
+  ],
+  "proposed_changes": [
+   {
+    "record": "PKR-SGT-000002",
+    "field": "question / answer_confidence",
+    "result": "Pass with a note",
+    "note": "Moving Moderate to Low as a precaution is within the rules: it only holds back pruning (rule 7, section 3 table), and the correction shows the restraint is Moderate but any number of years is Low. The note: the label must read as a precaution, the three-year figure is a shrub-rose figure, and sources that prune at planting or first winter (K-State, RHS) are not shown. Better-supported wording is the alternative below.",
+    "suggested_wording": "Was this rose planted within the last growing season?"
+   }
+  ],
+  "judgement_view": "Both options are within the rules, but the alternative rests better on the evidence. Under the rules, a Low finding may be used only as a precaution, and holding back pruning apart from dead wood can fairly be called one, so the three-year question can stay if it is labelled 'Precaution - Low' and no more is said about three years. But the three-year figure comes from Illinois's page on ever-blooming shrub roses; no bush-rose page gives it, and Marin (prune first-year roses lightly after one season) points to a shorter time. Rule 8 says Pip adds nothing the sources do not give, and a precise number that no bush-rose page gives is the sort of added certainty it forbids, even under a Low label. The alternative question (planted within its first growing season) uses what Marin Rose Society, Fine Gardening and Cornell actually say and keeps the Moderate level. Whichever is chosen, the differing views (K-State prunes at planting, RHS in the first winter) are a rule 2 disagreement that the gate wording does not yet show, and the unsupported 'three signs' fallback should go whichever is chosen.",
+  "package_notes": [
+   "Ten of 26 statements fail, mostly for added claims ('safest', 'surest', 'right down low', 'plenty of gardeners', 'to stay safe') and for 'grey' bark, which no page gives.",
+   "DEADWOOD AF-4 (Low, not a precaution) is used in criteria[4] and photo_limit; RECENTPLANT AF-2 (Low) is used in the 'three signs' fallback. Neither is usable under section 3.",
+   "DEADWOOD AF-8 is rated Moderate but at the source check only Georgia supports the bud-union step; the ROC may want to rate it again.",
+   "Disagreement in DEADWOOD AF-7 (Illinois) and RECENTPLANT AF-1 (K-State, RHS) is not shown in Pip's words.",
+   "Several Moderate statements carry no label (SGT-1 caveat, OBS look_for); claims need a label.",
+   "Pale-green, black and grey pith/bark details are each on one or two pages; DEADWOOD AF-1 High covers only white = living, brown = dead.",
+   "'We' in SGT-2 restricted reasons: check against the standing decision that Pip speaks in the first person as 'it'."
+  ]
+ },
+ "B2": {
+  "results": [
+   {
+    "record": "PKR-OBS-000002",
+    "field": "feature",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Title only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "look_for",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App framing; no claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "criteria[0]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     3,
+     6
+    ],
+    "traces_to": [
+     "STEMCROSSING AF-1 (proposed Low)"
+    ],
+    "note": "Moderate is wrong, and the proposed Low does not rescue it: Low, not a precaution, local or a gap, is 'kept on record, Pip does not use it' (rules s3). Pages also do not show the pair: RHS 'crossing stems' only; Illinois neither; Texas A&M 'rubbing' and 'crisscross' in separate sentences. Only Kansas City Rose Society states it ('Canes that rub against each other... One of the crossing canes').",
+    "suggested_wording": "A stem that crosses another, or rubs against it, is a candidate."
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "criteria[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Approved default"
+    ],
+    "note": "Founder-approved default; nothing in the pages contradicts it (Kansas City Rose Society: rubbing 'cause damage to the cane tissue').",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "criteria[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Approved default"
+    ],
+    "note": "Founder-approved default; no contradiction in the pages.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "photo_limit",
+    "result": "Pass with a note",
+    "points_failed": [
+     1
+    ],
+    "traces_to": [
+     "STEMCROSSING AF-4 (Low)",
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 s6"
+    ],
+    "note": "Pages (Missouri 'view it from all sides'; NC State 'look over the plant from all sides') support 'look from several sides', not the photo claim; Berland not opened. Acceptable only as the Founder's recorded app behaviour, not as a researched claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "confirm_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App question.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "confirm_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "doesnt_match_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "not_sure_guidance",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App guidance; 'look from another side' matches the Missouri and NC State pages.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000002",
+    "field": "any_more_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App question.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000002",
+    "field": "decision_notes[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "STEMCROSSING AF-5 (High)"
+    ],
+    "note": "Level stands as corrected. But the pages are looser than the sentence: Clemson 'one can be removed' (permissive); Kansas City Rose Society and Texas A&M say remove 'one of' the two; Kansas City and Johnson County put it in spring (April), after frost. 'The' stem reads as if both go. Timing is for the later dormancy-gate batch.",
+    "suggested_wording": "Remove one of the two crossing or rubbing stems as part of ordinary pruning, in the dormant season."
+   },
+   {
+    "record": "PKR-DEC-000002",
+    "field": "decision_notes[1]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     5,
+     7,
+     10
+    ],
+    "traces_to": [
+     "STEMCROSSING AF-6 (Moderate)"
+    ],
+    "note": "Pages disagree and the sentence shows only one side. Portland ('removed entirely back to the bud union, or back to the major cane') and Martin ('flush with the bud union or flush with the cane') agree; Kansas City Rose Society says 'to the ground or back to the next outward facing bud', a shortening cut. 'Don't just shorten it' is contradicted by that page. 'The ground' rests only on Kansas City (and a trees page). Rule 2: lead with the better-supported view and say who disagrees.",
+    "suggested_wording": "Cut it back to the bud union or to the larger cane it grows from, rather than just shortening it. One source also allows cutting back to the next outward-facing bud."
+   },
+   {
+    "record": "PKR-DEC-000002",
+    "field": "decision_notes[2]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     5,
+     7,
+     11
+    ],
+    "traces_to": [
+     "STEMCROSSING AF-7 (Low)"
+    ],
+    "note": "Low, not a precaution: Pip does not use it (rules s3). Also says more than the pages: 'thinner' is on no page; Portland says 'larger one of each crowded pair' (crowded, not crossing); only Florida (UF/IFAS 'the weakest of those branches should be removed') is on point, so it is one source. 'The few sources that give a rule' is research talk.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000002",
+    "field": "decision_notes[3]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "STEMCROSSING AF-2 (Moderate)"
+    ],
+    "note": "Supported by Oregon State ('damage to the canes, and that encourages disease') and Kansas City ('damage to the cane tissue which allows for disease entry'). Neither page says 'bark'; use the pages' word.",
+    "suggested_wording": "Stems rubbing together damage each other's canes, which lets disease in."
+   },
+   {
+    "record": "PKR-DEC-000002",
+    "field": "decision_notes[4]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Approved default"
+    ],
+    "note": "Founder-approved default; pages do not contradict it.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000003",
+    "field": "look_for",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App framing.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000003",
+    "field": "criteria[0]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     11
+    ],
+    "traces_to": [
+     "INWARDGROWTH AF-2 (Low)"
+    ],
+    "note": "Low, not a precaution: not available to Pip (rules s3). 'No source gives a more specific sign' is about the research, not the plant. Pages (Dunedin 'inward facing growth'; Georgia 'grow inward'; Kansas City 'grow toward the center') do support the direction itself, but at Low.",
+    "suggested_wording": "Look for a stem growing toward the centre of the bush."
+   },
+   {
+    "record": "PKR-OBS-000003",
+    "field": "photo_limit",
+    "result": "Pass with a note",
+    "points_failed": [
+     1
+    ],
+    "traces_to": [
+     "INWARDGROWTH AF-3 (Low)",
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 s6"
+    ],
+    "note": "As for crossing stems: pages say only 'view it from all sides'; none speaks of photographs. Acceptable as the Founder's recorded app behaviour.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000003",
+    "field": "confirm_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App question.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000003",
+    "field": "confirm_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000003",
+    "field": "doesnt_match_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000003",
+    "field": "not_sure_guidance",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App guidance.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000003",
+    "field": "any_more_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App question.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000003",
+    "field": "decision_notes[0]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     5,
+     7,
+     11
+    ],
+    "traces_to": [
+     "INWARDGROWTH AF-4 (Low)"
+    ],
+    "note": "Low, not a precaution: not available (rules s3). 'Few sources cover this' is research talk. 'None disagrees' is not shown: the Rose Society of South Australia (C-1) advises 'Don't concern yourself with cutting out the centre'. 'The same way as a crossing stem' is shown only by Georgia and Kansas City; Dunedin does not mention crossing. What Pip can say at Moderate is the outward-bud cut (AF-1: Texas A&M 'buds that point to the outside... are more desirable'; Victoria 'well-developed eye that is facing outwards').",
+    "suggested_wording": "When you cut, cut to an outward-facing bud, so new growth points away from the centre."
+   },
+   {
+    "record": "PKR-DEC-000003",
+    "field": "decision_notes[1]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     4,
+     5,
+     10
+    ],
+    "traces_to": [
+     "INWARDGROWTH AF-5 (Moderate)"
+    ],
+    "note": "The only page, Kansas City ('Remove them to the ground or back to the next outward facing bud'), allows a shortening cut, so 'Don't just shorten it' contradicts it; 'where it starts' is not on the page. Level Moderate rests on one 'partly' page: ROC should check the rating.",
+    "suggested_wording": "One source says to remove it to the ground or back to the next outward-facing bud."
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "look_for",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "SUCKERS AF-1 (High)"
+    ],
+    "note": "Definition is on RHS ('suckers can grow from below the graft union, on the rootstock') and Harkness. 'Knobbly join' is David Austin's wording, which the fetch did not return; Harkness says 'swollen knuckle'. Use 'swollen join'.",
+    "suggested_wording": "Let's check for suckers. A sucker is a shoot from the rootstock your rose was grafted onto, below the bud union, the swollen join near the base. It isn't your rose's own new cane."
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "criteria[0]",
+    "result": "Fail",
+    "points_failed": [
+     10
+    ],
+    "traces_to": [
+     "SUCKERS AF-1 (High)",
+     "SUCKERS AF-14 (Low)"
+    ],
+    "note": "'At the union or just above it is your rose's own' is supported (Prabhu 'graft union or a few inches above'; Victoria 'if above the graft - basal shoot'), but Eastcroft says the rootstock can also shoot 'from any part of it's stem above the union'. That limit changes what a gardener keeps, so it must be shown (see proposed change).",
+    "suggested_wording": "Where the shoot starts is the deciding check: below the bud union is a sucker; at the union or just above it is usually your rose's own new cane, which you keep. One nursery says the rootstock can also send up shoots from its stem above the union."
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "criteria[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "SUCKERS AF-2 (High)"
+    ],
+    "note": "'Below the soil' is on RHS ('develop from below ground level') and Treloar. 'A little away' is on Eastcroft ('at some distance') and David Austin only; most pages do not say it. Acceptable at this softness; the tracing/clearing-soil advice is what most pages give.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "criteria[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-12 (Moderate)"
+    ],
+    "note": "RHS 'at soil level'; Eastcroft 'above soil level'; Harkness '2.5 - 5cm below'; Fine Gardening 'always bury'. Says only that depth varies.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "photo_limit",
+    "result": "Pass with a note",
+    "points_failed": [
+     1
+    ],
+    "traces_to": [
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 s6",
+     "SUCKERS AF-2"
+    ],
+    "note": "'Especially under the soil' is supported (RHS, Treloar, Ross). The photo claim itself is a Founder decision, not a finding.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "confirm_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App question; matches 'Trace the shoot down' (Harkness) and Fine Gardening.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "confirm_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "doesnt_match_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "doesnt_match_note",
+    "result": "Pass with a note",
+    "points_failed": [
+     5,
+     6
+    ],
+    "traces_to": [
+     "SUCKERS AF-1 (High)",
+     "SUCKERS AF-24 (High)",
+     "SUCKERS AF-14 (Low)"
+    ],
+    "note": "'Keep it' and 'valuable' are supported (NZ Rose Society 'lifeblood'; Prabhu 'NEVER remove basal breaks!'). The flat 'That's your rose's own new cane' is more certain than the pages given Eastcroft; the button says 'at or above', wider than 'just above'. Carries claims but has no label.",
+    "suggested_wording": "That is most likely your rose's own new cane. Keep it: the rose's own basal canes are valuable. It's considered in the framework step."
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "not_sure_guidance",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     6
+    ],
+    "traces_to": [
+     "SUCKERS AF-13 (Moderate)"
+    ],
+    "note": "'Even for experienced gardeners' is on no page: Prabhu says 'beginners may remove them by mistake'; Treloar 'very easy to mistake'; ABC 'gardeners' look and say 'healthy shoot'. Added claim, and the claim carries no label.",
+    "suggested_wording": "That's alright. Suckers and a rose's own new shoots are easy to mix up. Look again at where the shoot starts, on the plant, not in a photo."
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "any_more_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App question.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "sucker_steps.hasShoot",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App question; 'from the ground near it' fits AF-2.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "sucker_steps.unionVisible",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "SUCKERS AF-1"
+    ],
+    "note": "'Knobbly' is David Austin's wording, not returned by the fetch; Harkness says 'swollen... knuckle'.",
+    "suggested_wording": "Can you see the bud union, the swollen join near the base where your rose was grafted?"
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "sucker_steps.noUnion",
+    "result": "Pass with a note",
+    "points_failed": [
+     1
+    ],
+    "traces_to": [
+     "SUCKERS AF-12 (Moderate)",
+     "SUCKERS AF-2 (High)"
+    ],
+    "note": "'Union may be buried' (Fine Gardening 'Always bury the bud union'; Harkness) and 'gently clear... soil' (Yates 'gently uncover'; David Austin 'gently ease back the soil') are supported. 'Ask experienced local help' has only AF-25 (Low, not usable); Victoria's page is an instruction to its own volunteers. Fine as app design; not a researched claim. 'Leave the shoot' is app design.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "sucker_steps.ownRoot",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "SUCKERS AF-11 (High)",
+     "SUCKERS AF-24 (High)"
+    ],
+    "note": "RHS 'identical to the rest of the plant'; Fine Gardening 'cannot produce a sucker because there is no understock'. 'Keep them' is not in AF-11 and AF-24 is about basal shoots of a grafted rose. David Austin says 'not a sucker in the traditional sense' (terminology differs, C-3).",
+    "suggested_wording": "If you know your rose grows on its own roots (it wasn't grafted), shoots from the base are the same rose, so they are not suckers in the usual sense."
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "sucker_steps.supporting",
+    "result": "Pass with a note",
+    "points_failed": [
+     5,
+     6
+    ],
+    "traces_to": [
+     "SUCKERS AF-3 (Moderate)",
+     "SUCKERS AF-4 (Moderate)",
+     "SUCKERS AF-6 (Moderate)",
+     "SUCKERS AF-7 (Moderate)"
+    ],
+    "note": "Leaves (RHS 'often paler'; Harkness 'often smaller, lighter... more leaflets') and 'seven leaflets not reliable' (Treloar, David Austin 'not always reliable') are supported. Flowers: stated flat, but Treloar says 'often'. 'Straight and tall' is Harkness alone. Several claims, no label (Moderate). Dr Huey leaves resembling the rose (David Austin, Prabhu) is a limit worth keeping.",
+    "suggested_wording": "In the growing season only, these can help you look, but never decide on their own: sucker leaves are often paler or smaller or have a different number of leaflets (though the 'seven leaflets' rule isn't reliable); sucker flowers often differ from your rose's; suckers are often unusually vigorous."
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "decision_notes[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-21 (High)"
+    ],
+    "note": "David Austin 'can draw strength away from the grafted rose... may even take over entirely'; ABC 'take over'; Treloar 'completely take over'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "decision_notes[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-20 (High)"
+    ],
+    "note": "David Austin 'easiest when the shoot is young'; Yates 'difficult to wrench off once they get established'; Harkness 'as soon as they appear'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "decision_notes[2]",
+    "result": "Fail",
+    "points_failed": [
+     9,
+     11
+    ],
+    "traces_to": [
+     "SUCKERS AF-21 (High)",
+     "SUCKERS AF-17"
+    ],
+    "note": "'Sources advise' names the research (the exact fault in rules s3A). 'Leave:' prefix does not stand alone. The reason is supported (ABC 'weaker and weaker').",
+    "suggested_wording": "Don't leave a confirmed sucker. It weakens your rose, so remove it."
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "decision_notes[3]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     2,
+     5,
+     6
+    ],
+    "traces_to": [
+     "SUCKERS AF-23 (Low)"
+    ],
+    "note": "No finding says to get local help for repeat suckering. AF-23 is one broadcast segment's lift-and-cut method (Low, not usable). AF-25 (Low) is a volunteer instruction and a pruning-demo advert, not about repeat suckers. Remove, or ROC records the gap as 'No source found'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "removal_method[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "SUCKERS AF-17 (High)",
+     "SUCKERS AF-2 (High)"
+    ],
+    "note": "RHS FAQ 'don't just cut it off at soil level, or it will regrow'; Harkness 'Cutting suckers at the surface encourages regrowth'; Ross 'can re-shoot'; Treloar 'three may come up'. 'Never' and 'grows back' are firmer than 'can/encourages'.",
+    "suggested_wording": "Uncover the point where the sucker starts, clearing soil if needed, and remove it right there. Don't just cut it off at soil level, because it can grow back."
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "removal_method[1]",
+    "result": "Fail",
+    "points_failed": [
+     6,
+     7,
+     12
+    ],
+    "traces_to": [
+     "SUCKERS AF-18 (Moderate; sources disagree)",
+     "SUCKERS AF-19 (Moderate)",
+     "SUCKERS AF-22 (Low)"
+    ],
+    "note": "Method is a disagreement, so it carries 'Sources disagree', not Moderate. 'Main method' hides that: Prabhu says 'cutting flush with the trunk is more effective in preventing re-suckering than just yanking it off!'; David Austin says 'a clean cut can often stimulate regrowth'. 'With gloves on' is a single-source (Yates) precaution inside a Moderate label. Tear side is better supported (about 8 pages to 4-5), so leading with it is fine if the disagreement is stated.",
+    "suggested_wording": "Most sources say to grip the sucker as close to where it starts as you can and pull or tear it away. They say tearing takes the dormant buds at its base with it, so it is less likely to regrow."
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "removal_method[2]",
+    "result": "Fail",
+    "points_failed": [
+     6
+    ],
+    "traces_to": [
+     "SUCKERS AF-18 (Moderate; sources disagree)"
+    ],
+    "note": "Right content (UCCE Ventura 'Cut the suckers off cleanly and as close to the rootstock trunk as possible'; Treloar; Fine Gardening; Prabhu), but a disagreement must be marked 'Sources disagree', not Moderate. 'Both agree it must go at the origin' is supported by AF-17.",
+    "suggested_wording": "Other sources cut it cleanly, flush at the point where it starts. Sources disagree on which works better; all agree it must go at the point where it starts."
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "removal_method[3]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6,
+     7
+    ],
+    "traces_to": [
+     "SUCKERS AF-22 (Low)"
+    ],
+    "note": "Two single-source items: Yates 'support the stem with one hand'; Harkness 'Refill the soil and firm it gently around the base'. Should be marked as precautions and say 'one source says'. Yates' 'the stem' is unclear on the page extract.",
+    "suggested_wording": "Precaution: one source says to put on gloves and support the stem with one hand while you pull the sucker off. Another says to refill the soil afterwards and firm it gently around the base."
+   },
+   {
+    "record": "PKR-DEC-000007",
+    "field": "removal_method[4]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6,
+     7
+    ],
+    "traces_to": [
+     "SUCKERS AF-16 (Low)"
+    ],
+    "note": "Victoria 'Damaging the roots may cause the plant to throw up a new cane'; Harkness 'Avoid damaging the rootstock during weeding or cultivation' (does not say damage causes suckering). 'Is linked with' firmer than 'may cause'. Mark as a precaution.",
+    "suggested_wording": "Precaution: take care around the base when weeding or digging. One source says damaging the roots may cause suckers."
+   }
+  ],
+  "proposed_changes": [
+   {
+    "record": "PKR-OBS-000002",
+    "field": "criteria[0]",
+    "result": "Fail",
+    "note": "Text unchanged, label Moderate to Low. Low (non-precaution) is not usable by Pip, so relabelling leaves the sentence unusable; the pair claim is on one page only (Kansas City). Say less and drop the pair claim.",
+    "suggested_wording": "A stem that crosses another, or rubs against it, is a candidate."
+   },
+   {
+    "record": "PKR-OBS-000007",
+    "field": "criteria[0]",
+    "result": "Fail",
+    "note": "Right to add the Eastcroft limit, but the draft adds to the page: 'rarely' is not on it; 'just above' (page: 'any part of it's stem above the union'); 'if it wasn't cut back closely' rests on a clause the fetch did not return; 'rose grower' (page: commercial nursery). Level of added sentence is Low (single source), shown as a limit on the High statement.",
+    "suggested_wording": "Where the shoot starts is the deciding check: below the bud union is a sucker; at the union or just above it is usually your rose's own new cane, which you keep. One nursery says the rootstock can also send up shoots from its stem above the union."
+   }
+  ],
+  "judgement_view": "No judgement is put to the Founder in this pack (judgement_for_the_Founder is null). If one is needed, it is this: whether Low-rated non-precaution lines (inward-growing stems, the crossing-stem tie-break, the sucker 'ask local help') may stay in Pip. Under rules s3 they may not: Low, 'anything else', is kept on record and not used, and no Founder decision is needed on an individual finding. So no judgement should be put; the lines should be cut or reworded to say less, not rescued by Founder approval. The photo-limit lines are the only items resting on a Founder decision (ARC-BUSHROSE-DEADWOOD-01 s6), and that is already recorded.",
+  "package_notes": [
+   "Low non-precaution lines to remove or reword: OBS-2 criteria[0] (after relabel), DEC-2[2], OBS-3 criteria[0], DEC-3[0]. Inward-growing stems have almost no usable content apart from the Moderate outward-bud cut (AF-1).",
+   "INWARDGROWTH AF-5 is rated Moderate but its only checked page (Kansas City) is 'partly' and allows a shortening cut; ROC should re-check the rating. DEC-3[1] contradicts that page.",
+   "Disagreement labels: the removal-method lines (DEC-7 [1], [2]) and the cut-depth line (DEC-2[1]) must be marked 'Sources disagree' / lead with the better-supported view and name the other side (rules s2, s3A).",
+   "Precautions (DEC-7 removal_method[1] gloves, [3], [4]) should be marked as precautions with their level and 'one source says'.",
+   "Unlabelled app lines that carry claims (OBS-7 doesnt_match_note, not_sure_guidance, supporting, ownRoot) need either a label or less claim.",
+   "'Knobbly join' (David Austin) was not returned by the fetch; Harkness has 'swollen knuckle'. Used in OBS-7 look_for and sucker_steps.unionVisible.",
+   "DEC-7[3] 'get experienced local help' has no finding behind it; if the gap is wanted, ROC must record 'No source found' for repeated suckering.",
+   "Dormancy timing of 'ordinary dormant pruning' (DEC-2[0]) is left to the later batch; the Kansas City and Johnson County pages put crossing-cane removal in April, after frost."
+  ]
+ }
+}
