@@ -1,0 +1,497 @@
+{
+ "round": "v0.2",
+ "B1": {
+  "results": [
+   {
+    "record": "PKR-OBS-000004",
+    "field": "look_for",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-1"
+    ],
+    "note": "Claims only injured or diseased canes; no added claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-4"
+    ],
+    "note": "Each sign on two or more pages; 'brown to purplish' fits Clemson 'light tan to dark purplish-brown', Kansas State 'brown ... deep purple margins', Illinois.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-5"
+    ],
+    "note": "RHS 'Browning and dieback of the tips'; Kansas City 'discolored from cold damage' and pith colour check; Texas A&M pith colour. No 'only' or 'blackened' now.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-6"
+    ],
+    "note": "RHS 'crossing branches rub together'; Kansas City 'broken or ... rub against each other'. Moderate fits the two pages.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[3]",
+    "result": "Pass with a note",
+    "points_failed": [
+     10
+    ],
+    "traces_to": [
+     "AF-7"
+    ],
+    "note": "Wilting and swollen node on Marin and Oregon State. Marin adds a wilting tip 'may have many causes', a limit that could change what a gardener does; consider showing it under the sentence.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[4]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-9"
+    ],
+    "note": "Washington State: mossy and spiny harmless; Iowa State: mossy harmless. Limit matches Iowa State 'may weaken or kill portions of a plant above the gall' and says 'one source'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "photo_limit",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 §6"
+    ],
+    "note": "Unchanged; rests on the Founder decision, not on AF-8.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "confirm_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app framing"
+    ],
+    "note": "Unchanged.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "confirm_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app framing"
+    ],
+    "note": "Unchanged.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "doesnt_match_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app framing"
+    ],
+    "note": "Unchanged.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "not_sure_guidance",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 §6"
+    ],
+    "note": "Unchanged.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "any_more_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app framing"
+    ],
+    "note": "Unchanged.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-11"
+    ],
+    "note": "Healthy wood and white pith broad; brown or grey on Iowa State ('brown or gray') and Texas A&M. Pale green and black dropped.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-12",
+     "AF-11"
+    ],
+    "note": "'No live buds, remove the entire cane' on Clemson, Iowa State, Texas A&M, Purdue; 'otherwise cut to healthy wood' on AF-11 pages.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[2]",
+    "result": "Pass with a note",
+    "points_failed": [
+     7
+    ],
+    "traces_to": [
+     "AF-13",
+     "AF-15",
+     "AF-16"
+    ],
+    "note": "2-3 inches shown as 'one source says' (Illinois); frequency range matches Iowa State versus Clemson/Oklahoma. Burning can be governed by local rules (rule 7); RHS notes bonfire limits. Add a follow-local-rules line, e.g. under the sentence.",
+    "suggested_wording": "If it looks like canker or disease: cut well below the patch (one source says at least 2–3 inches, about 5–8 cm). Disinfect your blades after cutting diseased wood; sources range from after each diseased plant to between every cut. Bin the prunings, or burn them where local rules allow."
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[3]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-13",
+     "AF-11"
+    ],
+    "note": "Marin 'Cut below the wilted portion, then keep making short cuts until the pith is white'; white pith on AF-11 pages.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[4]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     9
+    ],
+    "traces_to": [
+     "AF-13"
+    ],
+    "note": "Says sources disagree but not what each side says, so the gardener has nothing to act on (rule 2). Pages: Colorado PlantTalk 'Seal cuts with water-insoluble glue or nail polish'; Kansas City 'seal cut with waterproof carpenter's glue'; Illinois says cuts just above a node callus over.",
+    "suggested_wording": "Sources disagree on sealing a fresh cut after removing borer damage: two say to seal it with waterproof glue, while another says cuts just above a node heal over on their own."
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[5]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-14",
+     "other research (post-bud-break removal)"
+    ],
+    "note": "Robeson 'before bud break', North Dakota 'before new growth begins', Florida 'wait until spring'. Last sentence rests on other research.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[6]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-11"
+    ],
+    "note": "Plain; no source named; broad support for cutting to healthy tissue.",
+    "suggested_wording": null
+   }
+  ],
+  "package_notes": [
+   "Round 2: 10 Pass, 2 Pass with a note (criteria[3], decision_notes[2]), 1 Fail (decision_notes[4]); changed-sentence list only.",
+   "decision_notes[4] needs the sides stated; the Illinois 'callus over' side is from the earlier evidence note and should be confirmed as page wording before use.",
+   "Rule 7: add local-rules wording for burning prunings."
+  ]
+ },
+ "B2": {
+  "results": [
+   {
+    "record": "PKR-OBS-000005",
+    "field": "look_for",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-5",
+     "AF-1",
+     "AF-8"
+    ],
+    "note": "Pencil: Clemson, Illinois, Texas, Victoria, UF/IFAS. Crowded middle: RHS 'If the bush is crowded...keep the centre open'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "criteria[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-5"
+    ],
+    "note": "Moderate fits: pencil threshold on six or more pages ('thinner than a pencil').",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "criteria[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-8",
+     "AF-1"
+    ],
+    "note": "RHS, Chicago ('thick and congested at ground level'), ARS open centre. Ground-level claim removed.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "photo_limit",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 s6",
+     "AF-9",
+     "AF-10"
+    ],
+    "note": "Coin or pencil beside the specimen: Iowa State pages. 'Can miss' crowding says no more than Clemson/Colorado (several angles).",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "headline_confidence",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-12",
+     "AF-13",
+     "AF-7"
+    ],
+    "note": "Moderate matches the lowered findings; Low items are marked precautions.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-12"
+    ],
+    "note": "Victoria 'Remove at their origins...'; UC Inyo; Illinois and Kansas City remove, not shorten. Moderate fits.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     2
+    ],
+    "traces_to": [
+     "AF-13",
+     "AF-4",
+     "AF-8"
+    ],
+    "note": "Supported: RHS 'cut out some old shoots completely'; ARS/Illinois/Texas open centre; Illinois/Victoria evenly spaced. The South Australia page says 'Don't concern yourself with cutting out the centre of the plant to allow for more light and ventilation', which is milder than 'advises against clearing out the centre'. Rule 3A: a disagreement is marked 'Sources disagree' in place of a level, so the label should show that.",
+    "suggested_wording": "Crowded bush: cut out some canes completely rather than shortening them. Keep the stronger canes, evenly spaced around the plant, so the centre stays open. One rose society says not to worry about cutting out the centre of the plant."
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[2]",
+    "result": "Pass with a note",
+    "points_failed": [
+     9
+    ],
+    "traces_to": [
+     "AF-7"
+    ],
+    "note": "3 to 7 fits the bush-rose pages (Clemson 3-5, Oregon 3-6, Kansas City 3-7, UC Inyo 4-7, UGA 5-6). Climbers are higher (Texas 5-7, UC Inyo 5-8), and the sentence does not say it is for bush roses, so it does not stand alone.",
+    "suggested_wording": "Keep roughly 3 to 7 strong canes on a bush rose such as a hybrid tea or floribunda."
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[3]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-16"
+    ],
+    "note": "Precaution at Low is allowed (rule 7). Portland: bush with 2-4 canes keep them all; Illinois supports. Says no more.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[4]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-18"
+    ],
+    "note": "UC Master Gardeners SLO: 'In hot summer areas, leave some interior growth to shade the graft and prevent sunscald.' 'One source says' is right; precaution at Low.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[5]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-17"
+    ],
+    "note": "UC SLO equipment list (gauntlet gloves, safety glasses) plus RHS 'How to Garden Safely'; two sources, Moderate precaution.",
+    "suggested_wording": null
+   }
+  ],
+  "package_notes": [
+   "Disagreement in DEC decision_notes[1]: check the label shows 'Sources disagree' (rule 3A) rather than Moderate alone.",
+   "DEC decision_notes[2] should say it is for bush roses, since climbers keep more canes.",
+   "My earlier finding_corrections stand: AF-6 and AF-11 removed from use; AF-12, AF-13 to Moderate; AF-8 to record the South Australia page as 'Don't concern yourself with cutting out the centre...'.",
+   "PKR-CGD-000003 results from v01 are carried to batch 3 unchanged."
+  ]
+ },
+ "B3": {
+  "results": [
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-9 (a, strong/healthy/vigorous)"
+    ],
+    "note": "Claim is the split part (a): UC ANR, UGA, Oregon State 'yes'; Clemson 'most vigorous, healthy canes', RHS 'strongest remaining shoots', KCRS healthy canes. High fits.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-36 (grey)"
+    ],
+    "note": "Grey is on all three pages (Houston 'grey, streaked bark'; Texas A&M 'usually gray in color and scaly'; Arizona 'old gray crusty wood'). 'Usually' is A&M's word. Pages are all Texas/Arizona; Moderate stands.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[3]",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-24"
+    ],
+    "note": "SUCKERS evidence was not in my material, so I rely on your statement that AF-24 is High ('lifeblood', keep them). 'They are valuable' says no more than that. Stands alone: it is clear this means the rose's own canes, and the next line separates suckers.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[4]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-1",
+     "PRUNINGFRAMEWORK AF-8"
+    ],
+    "note": "Grafted-rose limit shown. UC ANR, Yates and ARS ('from below the bud union') agree in AF-8. High rests on SUCKERS AF-1 as you state; AF-8 alone would be Moderate.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "not_sure_guidance",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision on photo limit"
+    ],
+    "note": "An instruction to look, with no claim added.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "decision_notes[0]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     5,
+     6,
+     7
+    ],
+    "traces_to": [
+     "AF-9 (a)",
+     "AF-14",
+     "not found: against clearing the centre"
+    ],
+    "note": "First sentence is fine (AF-14 High, AF-9a High). Second sentence: nothing in my material says any society advises against clearing the centre. The Rose Society of South Australia page (AF-38) says only 'Don't worry about cutting through at an angle' and cuts within 5mm of a bud; nothing about the centre. If a finding exists, it is a disagreement, so the label should be 'Sources disagree', not High, and the society named (rule 2). 'One rose society' unnamed does not meet rule 2.",
+    "suggested_wording": "Keep the strong, healthy canes spread around the base, aiming for an open centre. (Add the South Australia sentence, and change the label to 'Sources disagree', only once the finding and page wording are shown to me.)"
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "decision_notes[1]",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "AF-15"
+    ],
+    "note": "Pages shown support 3-7: Clemson 'three to five', Illinois '3 to 5', Cornell 'four or five', KCRS '3-7', UC ANR '5-7'. I cannot see an 8 in any quoted wording; the finding says 3-8 and KCRS is noted 'not at the top', so some page gives 8 (UGA, Oregon State or Dunedin, whose wording is not shown). I cannot say whether it is a bush-rose page. If one is, 3 to 7 drops the top of the range (rule 3). AF-15 should be restated as 3-7, or the 8 page named.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "decision_notes[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-17",
+     "AF-18",
+     "AF-37"
+    ],
+    "note": "Third-to-half is on UC ANR, Fresno, Red Butte, Dunedin, Yates; Illinois 'one-half to two-thirds' is shown as one source. HT lower / fewer canes: RHS, Cornell, Oregon State. Grandifloras 'much like' HTs: Arizona and LSU 'yes'. Moderate is the lowest.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "doesnt_match_notes[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-7",
+     "AF-29"
+    ],
+    "note": "AF-7 has six 'yes' pages (UC ANR, Fresno, Red Butte, ARS, KCRS, Yates); 'at their base' is on Yates, Texas A&M, Dunedin. 'In favour of younger ones' is part of AF-7 itself, so the AF-9 split does not remove it.",
+    "suggested_wording": null
+   }
+  ],
+  "package_notes": [
+   "SUCKERS AF-1 and AF-24 were not in my material; I accepted your statement of their level and wording. Please confirm criteria[3] and [4] against the batch 1 check.",
+   "decision_notes[0] second sentence is the only failure; the South Australia page I was given does not mention the centre. Show me the finding, or drop the sentence.",
+   "AF-15: shown page wording supports 3-7 only. No quoted page gives 8; say which page does and whether it is a bush rose, or restate AF-15 as 3-7.",
+   "The disagreement label ('Sources disagree') replaces High on any line that carries a named disagreeing society."
+  ]
+ }
+}

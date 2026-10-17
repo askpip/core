@@ -50,7 +50,8 @@ export function StatementList({ items }: { items: Statement[] }) {
       {items.map((s) => (
         <li key={s.text} className="rounded-xl bg-pip-bg px-3.5 py-2.5 text-xs leading-relaxed">
           {s.text}
-          <ConfidenceTag level={s.confidence} />
+          <StatementTag statement={s} />
+          <StatementLimit statement={s} />
         </li>
       ))}
     </ul>

@@ -1,0 +1,193 @@
+{
+ "round": "v0.3",
+ "B1": {
+  "results": [
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[3]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-7"
+    ],
+    "note": "Sentence: Marin and Oregon State (wilting, swollen node). Limit matches Marin 'may have many causes'.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-13",
+     "AF-15",
+     "AF-16"
+    ],
+    "note": "Burning now tied to local rules (rule 7); 2-3 inches shown as one source (Illinois); frequency shown as a range.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[4]",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "AF-13"
+    ],
+    "note": "Both sides now stated: Colorado PlantTalk and Kansas City advise sealing with glue; Illinois says no sealant needed, cuts just above a node callus over. Illinois speaks of pruning cuts generally, not borer cuts, and 'just above a node' is a condition; sentence keeps it. Colorado PlantTalk's stated reason is preventing wasp nests, not shown.",
+    "suggested_wording": null
+   }
+  ],
+  "package_notes": [
+   "Only three items arrived; the message said four. The fourth was not received and is unchecked.",
+   "decision_notes[4]: if the Illinois wording is about canker pruning cuts only, consider 'a cut just above a node heals over on its own, according to one source'."
+  ]
+ },
+ "B2": {
+  "results": [
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-13",
+     "AF-4",
+     "AF-8"
+    ],
+    "note": "RHS 'cut out some old shoots completely'; ARS/Illinois/Texas open centre; Illinois/Victoria evenly spaced. South Australia: 'Don't concern yourself with cutting out the centre of the plant...' matches 'not to worry about cutting out the centre'. Level kept under the Batch 1 ruling.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-7"
+    ],
+    "note": "Withdrawn: with the rose-type gate (Hybrid Tea, Floribunda, Grandiflora) the sentence stands alone. Clemson 3-5, Oregon 3-6, Kansas City 3-7, UC Inyo 4-7 (HT, grandiflora, floribunda) fit 3 to 7.",
+    "suggested_wording": null
+   }
+  ],
+  "package_notes": [
+   "The gate rules out climbers (5-8 canes), so the 3 to 7 figure must not show for them."
+  ]
+ },
+ "B3": {
+  "results": [
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-9 (a)"
+    ],
+    "note": "Unchanged from round 2.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-36 (grey)"
+    ],
+    "note": "Unchanged from round 2.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[3]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-24"
+    ],
+    "note": "With the evidence you give (NZ Rose Society 'lifeblood of the plant', Texas A&M 'life blood', Prabhu 'NEVER remove basal breaks!'), 'valuable' says no more than the pages. High fits.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[4]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "SUCKERS AF-1",
+     "AF-8"
+    ],
+    "note": "RHS 'suckers can grow from below the graft union, on the rootstock'; UC ANR, Yates, ARS agree in AF-8. Grafted-rose limit shown.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "not_sure_guidance",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision on photo limit"
+    ],
+    "note": "Instruction to look; no claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "decision_notes[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     2
+    ],
+    "traces_to": [
+     "AF-9 (a)",
+     "AF-14",
+     "WEAKCONGESTED AF-8",
+     "STEMCROSSING C-1"
+    ],
+    "note": "Page words: 'Don't concern yourself with cutting out the centre'; 'not to worry about' says no more. Leading with the open-centre view (Chicago, RHS, ARS, Texas, Illinois) and giving one dissent under the batch 1 ruling keeps High. Note: the batch 1 ruling says name the dissenter; 'one rose society' does not, and here the name is the point (rule 2). It also does not say the page is from South Australia.",
+    "suggested_wording": "Keep the strong, healthy canes spread around the base, aiming for an open centre. The Rose Society of South Australia says not to worry about cutting out the centre."
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "decision_notes[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-15 (restated 3 to 7)"
+    ],
+    "note": "Pages shown support 3-7 (Clemson, Illinois, Cornell, KCRS 3-7, UC ANR 5-7). Passes once AF-15 is restated as 3 to 7.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "decision_notes[2]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-17",
+     "AF-18",
+     "AF-37"
+    ],
+    "note": "Unchanged from round 2.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "doesnt_match_notes[0]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-7",
+     "AF-29"
+    ],
+    "note": "Unchanged from round 2.",
+    "suggested_wording": null
+   }
+  ],
+  "package_notes": [
+   "decision_notes[0]: name the Rose Society of South Australia in the dissent sentence; otherwise it passes under the batch 1 ruling.",
+   "decision_notes[1] passes only if AF-15 is restated as 3 to 7 in the record."
+  ]
+ }
+}

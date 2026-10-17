@@ -1,0 +1,1593 @@
+{
+ "round": "v0.1",
+ "B1": {
+  "results": [
+   {
+    "record": "PKR-OBS-000004",
+    "field": "look_for",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "AF-1"
+    ],
+    "note": "'but not simply dead' rests on AF-1's 'distinct category' half, which no page confirms (Clemson, RHS, Dunedin list dead and damaged together).",
+    "suggested_wording": "Now let's look for damaged growth — canes that are injured or diseased."
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "AF-4"
+    ],
+    "note": "Each sign is on two or more pages (sunken: Clemson, Maryland, Kansas State; cracked edges: Maryland, Kansas State, Illinois; black dots: RHS, Illinois; girdling/dieback: Clemson, Maryland, Illinois). 'Tan to purplish-brown' is Clemson alone ('light tan to dark purplish-brown'); Maryland says only 'slightly darker', Kansas State 'brown', Illinois grey-white/purple or light to dark brown. Keep High; soften colour.",
+    "suggested_wording": "Canker: brown to purplish sunken patches with cracking edges, tiny black dots, or dieback above a patch that rings the cane."
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[1]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     6
+    ],
+    "traces_to": [
+     "AF-5"
+    ],
+    "note": "'Blackened' is on no page (RHS: 'Browning and dieback of the tips'; Kansas City: 'discolored from cold damage'). 'Confirming it needs a cut' goes beyond the pages: none says a cut is the only way; they only give a pith colour check. Tip browning is RHS alone.",
+    "suggested_wording": "Frost or winter injury: browned shoot tips and discoloured canes. Cutting into a cane shows the pith colour, which tells live wood from dead."
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[2]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     6
+    ],
+    "traces_to": [
+     "AF-6",
+     "AF-2"
+    ],
+    "note": "AF-6 is Low and this is not a precaution, so Pip may not use it. Two pages do support the sign (RHS: 'Physical damage, for example ... crossing branches rub together'; Kansas City: broken canes, canes that rub). 'Worn, rubbed bark' adds 'bark'; pages say damage to the cane.",
+    "suggested_wording": "Physical damage: a broken cane, or damage where canes rub together. (Use only if AF-6 is raised to Moderate on the two pages; otherwise remove.)"
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[3]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     5,
+     6,
+     7
+    ],
+    "traces_to": [
+     "AF-7"
+    ],
+    "note": "AF-7 is Low, so unusable. Entry hole is Marin alone (Oregon State has none). 'Often a harmless wasp nest' is Colorado PlantTalk alone and the page does not say 'often'; single source needs 'one source says'. Wilting tip and swollen node are on Marin and Oregon State.",
+    "suggested_wording": "Borer: a new tip that suddenly wilts, or a swollen spot on the cane. One source says a hole in the end of an old pruning cut can be a harmless wasp nest. (Use only if the wilting/swelling part is raised to Moderate; otherwise remove.)"
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "criteria[4]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     5,
+     6,
+     10
+    ],
+    "traces_to": [
+     "AF-9",
+     "AF-10"
+    ],
+    "note": "Galls part: Washington State ('appears harmless') and Iowa State support mossy/spiny harmless, but Iowa State also says heavy infestations 'may weaken or kill portions of a plant above the gall': a limit that changes what a gardener does. Spots part: AF-10 is Low and neither page (Illinois, Colorado Master Gardener) says these colours are normal new-cane colour. Label Moderate is wrong for that half.",
+    "suggested_wording": "Not damage: mossy and spiny galls on canes are generally harmless, though a heavy infestation of mossy gall can weaken the plant above it."
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "photo_limit",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 §6",
+     "AF-8 (not relied on)"
+    ],
+    "note": "Rests on the Founder decision. AF-8 has no rose page and two pages do not support it (Marin, Alabama says a good photo may be enough); do not cite AF-8 for this line.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "confirm_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app framing"
+    ],
+    "note": "Question only; no claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "confirm_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app framing"
+    ],
+    "note": "Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "doesnt_match_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app framing"
+    ],
+    "note": "Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "not_sure_guidance",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 §6"
+    ],
+    "note": "Prompt; no claim beyond the Founder decision.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000004",
+    "field": "any_more_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "app framing"
+    ],
+    "note": "Question only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "AF-11"
+    ],
+    "note": "Cutting to healthy wood and white pith are broad. 'Pale-green' is Oregon State alone; 'black' is on no page seen (Iowa State: 'brown or gray'; Oregon State: 'Brown'). High stays for the core instruction.",
+    "suggested_wording": "Cut the damaged cane back until you reach healthy wood: white pith. Brown or grey pith means keep cutting a little further down. One source also counts pale green as healthy."
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[1]",
+    "result": "Fail",
+    "points_failed": [
+     6,
+     7
+    ],
+    "traces_to": [
+     "AF-12"
+    ],
+    "note": "'No live buds, remove the whole cane' is on Clemson, Iowa State, Texas A&M ('If there are no live buds, remove the entire branch or cane'). The slight versus severe branch is Purdue alone: every other page gives no such branch. 'No living pith' is on no page seen. Single source labelled Moderate.",
+    "suggested_wording": "If no live buds remain, remove the whole cane at its base. Otherwise cut back only as far as healthy wood."
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[2]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     5,
+     7
+    ],
+    "traces_to": [
+     "AF-13",
+     "AF-15",
+     "AF-16"
+    ],
+    "note": "'Commonly 2–3 inches' is University of Illinois alone ('at least 2 to 3 inches'); others say 'well below'. Blade frequency differs: Iowa State 'ideally between each cut', 'at minimum ... between plants'; Clemson, Oklahoma, Ask Extension 'after use on a diseased plant'. Picking 'between cuts' breaks the range rule. 'Clean' is weaker than 'disinfect'. Burning can be restricted by local rules (rule 7).",
+    "suggested_wording": "If it looks like canker or disease: cut well below the patch (one source says at least 2–3 inches, about 5–8 cm). Disinfect your blades after cutting diseased wood, ideally between cuts and at least between plants. Bin the prunings, or burn them where local rules allow."
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[3]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     3,
+     5,
+     6,
+     7
+    ],
+    "traces_to": [
+     "AF-13",
+     "AF-7",
+     "AF-11"
+    ],
+    "note": "Label Moderate but AF-7 is Low. 'Or the hole is gone' is on no page. Sealing: Colorado PlantTalk and Kansas City advise it; Marin does not (only plugs a hole with glue after killing larvae); Illinois says cuts above a node callus over. Sources do not agree, and Kansas City gives no borer reason.",
+    "suggested_wording": "If it looks like borer damage: cut below the damaged part, a little at a time, until the pith is white."
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[4]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     5
+    ],
+    "traces_to": [
+     "AF-14",
+     "other research (post-bud-break removal)"
+    ],
+    "note": "'Waiting until live growth is emerging' is not what pages say: Robeson 'before bud break', North Dakota 'before new growth begins', Florida 'wait until spring', Portland 'early spring'. None says wait for growth to emerge. Last sentence rests on other research.",
+    "suggested_wording": "Frost or winter damage often doesn't show its full extent straight away. Sources advise waiting until spring to see what survived, before new growth starts, so \"Decide later\" is the recommended choice for a frost-damaged cane. When you come back, I'll help you remove it even if the rose is growing."
+   },
+   {
+    "record": "PKR-DEC-000004",
+    "field": "decision_notes[5]",
+    "result": "Pass with a note",
+    "points_failed": [
+     11
+    ],
+    "traces_to": [
+     "AF-11"
+    ],
+    "note": "Names 'sources' in the sentence (rule 11). The claim itself is broad (cut to healthy tissue).",
+    "suggested_wording": "Leave: confirmed damage should be cut back to healthy wood, so leaving it is not recommended."
+   }
+  ],
+  "finding_corrections": [
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-1",
+    "was": "Damaged is a category distinct from dead",
+    "correction": "Several sources list dead, diseased and damaged wood together; Kansas City Rose Society treats dead canes and broken or cold-damaged canes as separate steps.",
+    "level_now": "Low",
+    "level_was": "Moderate",
+    "why": "All five pages partly support; none shows 'distinct category'"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-2",
+    "was": "Several distinct causes named across sources",
+    "correction": "Drop Maryland and Colorado PlantTalk (support 'no'). Sunscald (Victoria only) and splitting/frost cracks (Illinois only) recorded as single-source.",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "Two cited pages name no cause; two causes single-source"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-4",
+    "was": "Multiple sources converge on a consistent set of canker symptoms",
+    "correction": "Each sign is on two or more pages, but no page gives the full set; the colour range 'tan to purplish-brown' is Clemson alone, others say brown or purple/grey-white.",
+    "level_now": "High",
+    "level_was": "High",
+    "why": "Pages support the signs separately, colour range narrower"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-5",
+    "was": "Definitive confirmation requires a destructive pith test; tips blacken",
+    "correction": "Frost damage shows as browned shoot tips (RHS) and cold-discoloured canes (Kansas City); pages give a pith colour check. No page says a cut is the only way, or mentions blackening.",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "'Only' and 'blackening' unsupported"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-6",
+    "was": "No non-destructive test for hidden split; visible damage is sufficient",
+    "correction": "Drop the 'no source describes a test' claim (an absence, not on any page). Keep: RHS and Kansas City name rubbing, and Kansas City broken canes, as damage.",
+    "level_now": "Moderate",
+    "level_was": "Low",
+    "why": "Two reputable independent pages support the visible sign"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-7",
+    "was": "Borer shows as wilting tip, entry hole and swelling; wasp caveat",
+    "correction": "Wilting tip and swollen node: Marin and Oregon State. Entry hole: Marin only. Harmless wasp nest in a pruning cut: Colorado PlantTalk only.",
+    "level_now": "Moderate for wilting/swelling; Low for entry hole and wasp caveat",
+    "level_was": "Low",
+    "why": "Two pages support part; the rest is single-source"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-8",
+    "was": "Photo shows external signs but not internal condition",
+    "correction": "Not a finding Pip can use: no rose page; Marin and Alabama do not support it; others are about trees or lawns. Photo lines rest on the Founder decision only.",
+    "level_now": "Not Assigned",
+    "level_was": "Low",
+    "why": "Inference, not on any page for roses"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-9",
+    "was": "Galls harmless but could be mistaken for damage; heavy infestation may weaken",
+    "correction": "Mossy and spiny galls appear harmless (Washington State, Iowa State); Robin's pin-cushion harmless (RHS); heavy infestation of mossy gall may weaken the plant above (Iowa State only). Drop 'mistaken for damage by a beginner'.",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "Beginner-mistake point on no page"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-10",
+    "was": "Canker colouring overlaps with normal new-cane pigmentation",
+    "correction": "Pages give early canker spot colours (Illinois) and a Master Gardener unable to diagnose from pictures. Neither says the colours match normal new growth. Drop the overlap claim.",
+    "level_now": "Not Assigned",
+    "level_was": "Low",
+    "why": "Overlap on no page"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-11",
+    "was": "Near-unanimous: cut to healthy tissue; white or pale green good, brown/black/grey dead",
+    "correction": "Cut to healthy wood: broad. White pith: broad. Pale green: Oregon State only. Brown or grey: Iowa State; brown: Oregon State. Black: no page seen.",
+    "level_now": "High",
+    "level_was": "High",
+    "why": "Core broad; colour details narrower"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-12",
+    "was": "Severity-based branch: slight shortened, severe removed whole",
+    "correction": "No live buds, remove whole cane: Clemson, Iowa State, Texas A&M, Purdue. Slight versus severe branch: Purdue only.",
+    "level_now": "Moderate for no live buds; Low for severity branch",
+    "level_was": "Moderate",
+    "why": "Branch single-source; other pages give none"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-13",
+    "was": "Cause adds extra steps: 2–3 inch margin, disinfect, seal borer cuts",
+    "correction": "Canker margin: 'well below' (Kansas City, Ask Extension); 2–3 inches Illinois only. Sealing: Colorado PlantTalk and Kansas City advise; Marin and Illinois do not. Record sealing as a disagreement; keep disinfecting under AF-15.",
+    "level_now": "Moderate for margin; Low for sealing",
+    "level_was": "Moderate",
+    "why": "Figure single-source; sealing disputed"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-14",
+    "was": "Wait until at or near bud break; second pass may be needed",
+    "correction": "Pages say wait until spring and prune before new growth/bud break (Robeson, North Dakota, Florida, Portland). Second pass is Portland only. Two pages are general plants, not roses.",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "'At or near bud break' and second pass not on most pages"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-15",
+    "was": "Disinfect between cuts with alcohol or 1:9 bleach",
+    "correction": "Frequency is a range: 'ideally between each cut' and 'at minimum between plants' (Iowa State), 'after use on a diseased plant' (Clemson, Oklahoma, Ask Extension). Record as a range. Dilution is a mixing amount: not for Pip.",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "Pages differ on frequency"
+   },
+   {
+    "research": "DAMAGEDGROWTH",
+    "finding": "AF-16",
+    "was": "Burn or trash, not compost, because compost is too cool",
+    "correction": "Burn or bin: Oklahoma, Clemson, Illinois, RHS. The compost-temperature reason is RHS only, and RHS says composting suits some less persistent diseases. Bonfire limits need local rules.",
+    "level_now": "Moderate",
+    "level_was": "Moderate",
+    "why": "Reason single-source"
+   }
+  ],
+  "judgement_view": "If ROC keeps AF-6 and AF-7 at Low, the physical-damage and borer sign lines cannot stay in the app. A Founder may want to say whether those signs should stay as signs to check at a raised level, or go. Otherwise none.",
+  "package_notes": [
+   "Low findings used in criteria[2], criteria[3] and decision_notes[3] are not precautions or local information; Pip may not use them as they stand.",
+   "AF-8 and AF-10 have no page support for the claims made; criteria[4] second half and the photo lines must not cite them.",
+   "decision_notes[2] and [3] need a rule 7 note on burning and sealing products by type only; no brand or mixing amount is given.",
+   "Single-source details (2–3 inches, pale green, wasp nest, severity branch) need 'one source says' where kept.",
+   "Purdue, Kansas City (partly), Texas A&M and Illinois are marked 'yes' without page wording in the input; those checks rest on the stated 'yes'."
+  ]
+ },
+ "B2": {
+  "results": [
+   {
+    "record": "PKR-OBS-000005",
+    "field": "feature",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Title only; no claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "look_for",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     4,
+     5
+    ],
+    "traces_to": [
+     "AF-5",
+     "AF-6",
+     "AF-1"
+    ],
+    "note": "'Twiggy or unproductive' is not supported: ARS page says only 'remove weak or twiggy growth'; no page says 'unproductive' of weak canes. Pencil and crowded middle are supported (Clemson, Illinois, RHS).",
+    "suggested_wording": "Let's look for weak canes — thinner than a pencil — and at whether the middle of the bush is crowded."
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "criteria[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "AF-5"
+    ],
+    "note": "Pencil threshold stated by Clemson, Illinois, Texas, Victoria, UF/IFAS ('thinner than a pencil'). 'No number is used' is about Pip's method, not the plant; NSW page gives 10mm, so leaving the number out is right but needs no sentence.",
+    "suggested_wording": "A cane thinner than about a pencil is a candidate weak cane."
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "criteria[1]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "traces_to": [
+     "AF-6"
+    ],
+    "note": "No page supports the whole sentence. ARS: 'remove weak or twiggy growth' (twiggy, one source). Chicago: 'fuzzy tip growth instead of full, lush canes' is about old canes on a congested base and does not say 'weak'. 'Unproductive' not on either page. Each part rests on one source, so 'Moderate' is too high.",
+    "suggested_wording": "One source says to remove weak or twiggy growth."
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "criteria[2]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "AF-8",
+     "AF-1"
+    ],
+    "note": "Crowded/open centre supported by RHS ('If the bush is crowded...keep the centre open'), Chicago, ARS. 'Especially at ground level' rests on Chicago alone. Rose Society of South Australia advises against opening the centre (see judgement_view).",
+    "suggested_wording": "Crowded: the bush is densely packed rather than open in the middle."
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "criteria[3]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     3,
+     5,
+     6
+    ],
+    "traces_to": [
+     "AF-11"
+    ],
+    "note": "The finding itself says no source warns that a thin new cane can be mistaken for a weak one; the link is the ROC's inference from one page (Ludwig's) giving thorn and bark colour by cane age. The sentence adds that case, and 'brown or reddish' is not supported by any quoted page. Single source, so needs 'one source says'.",
+    "suggested_wording": "One source says the colour of a cane's thorns and bark shows how old it is."
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "photo_limit",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 s6",
+     "AF-9",
+     "AF-10"
+    ],
+    "note": "Pages say a size object helps (Iowa State: 'coin, pencil, ruler'; Clemson: 'provide some estimate of size'), not that thickness 'can't be judged'. 'No photo can rule out' crowding rests on a page that could not be opened (Arevalo); Clemson/Colorado only advise several angles.",
+    "suggested_wording": "Thickness is hard to judge from a photo unless something of known size, such as a coin or pencil, is beside the cane. One angle can miss crowding at the back of the bush."
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "confirm_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-5",
+     "AF-1"
+    ],
+    "note": "Framing; pencil and look-from-more-than-one-side advice consistent with pages.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "confirm_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Framing.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "not_sure_guidance",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-9"
+    ],
+    "note": "Framing; coin or pencil beside the cane matches Iowa State page.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000005",
+    "field": "any_more_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Framing.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6
+    ],
+    "traces_to": [
+     "AF-12"
+    ],
+    "note": "Whole-cane removal at origin: Victoria 'Remove at their origins any growths that are less than a pencil thickness' and UC Inyo (yes). Illinois/KC show removal not shortening but base cutting only for dead canes; ARS and SA do not tie it to weak canes. Only 2 of 6 pages fully support, so High is too high; 'Don't shorten' is implied by removal, not stated.",
+    "suggested_wording": "Weak cane: remove it completely, at its base or where it starts. Don't shorten it. [label Moderate]"
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[1]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     4,
+     5,
+     6,
+     2
+    ],
+    "traces_to": [
+     "AF-13",
+     "AF-4",
+     "AF-8"
+    ],
+    "note": "All four AF-13 pages are 'partly'. None says whole canes only or 'never part-shorten'; none sets 'strongest first, then spacing'. RHS: 'cut out some old shoots completely'; ARS/Illinois/Texas: open centre; Illinois/Victoria: evenly spaced. Rose Society of South Australia says 'Don't concern yourself with cutting out the centre' (disagreement not shown). High unsupported.",
+    "suggested_wording": "Crowded bush: cut out some canes completely rather than shortening them. Keep the stronger canes, evenly spaced round the plant, so the centre stays open. [label Moderate; disagreement per judgement_view]"
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[2]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     3,
+     6
+    ],
+    "traces_to": [
+     "AF-7",
+     "AF-15",
+     "AF-16"
+    ],
+    "note": "'4-6 typical' is on no page and contradicts the finding (3-5 most repeated; pages 3-5, 3-5, 3-6, 3-7, 4-7, 5-6). 'Fewer for a young plant' has no page (Clemson: first-year plants pruned lightly, not fewer canes). Portland: bush with only 2-4 canes keep them all (one source). Not stated that this is for bush roses; Texas 5-7 is climbers.",
+    "suggested_wording": "Keep roughly 3 to 7 strong canes on a bush rose such as a hybrid tea or floribunda."
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[3]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6
+    ],
+    "traces_to": [
+     "AF-16",
+     "AF-15"
+    ],
+    "note": "Only Illinois fully supports (wording not recorded); Portland partly ('2, 3 or 4 canes...allow them all to remain'); Clemson none. 'Prune lightly' is only in Clemson for first-year plants. Better as a precaution at Low, marked as such.",
+    "suggested_wording": "If the plant already looks weak or small, go easy and take out less. [precaution, label Low]"
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[4]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     5,
+     6,
+     2
+    ],
+    "traces_to": [
+     "AF-18"
+    ],
+    "note": "Only UC Master Gardeners SLO: 'In hot summer areas, leave some interior growth to shade the graft and prevent sunscald.' One source, so 'one source says' and not Moderate. 'Don't clear all the crowding at once' is not on the page.",
+    "suggested_wording": "One source says that in hot-summer areas it helps to leave some growth in the middle to shade the graft and prevent sunscald. [precaution, label Low]"
+   },
+   {
+    "record": "PKR-DEC-000005",
+    "field": "decision_notes[5]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6
+    ],
+    "traces_to": [
+     "AF-17"
+    ],
+    "note": "UC SLO lists 'Gauntlet-style gloves for protection. Safety glasses or goggles.' (equipment list); RHS 'How to Garden Safely' recorded as supporting. Two sources, so Moderate is fair. It is a precaution and should be marked as one (kind is empty).",
+    "suggested_wording": "Reaching inside the bush, wear eye protection and long-cuffed gloves. [mark as precaution, Moderate]"
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "heading",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "Heading only.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[0]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     5,
+     9
+    ],
+    "traces_to": [
+     "AF-18"
+    ],
+    "note": "NC State: 'not remove more than a third of the total crown of a plant in any one year'. Sentence says 'growth', 'one session', 'shrubs and trees', and adds three effects (stress, drained energy, uncontrolled regrowth) that are on no page. Repeats items[1] with a different label (Low vs Moderate) for the same page.",
+    "suggested_wording": "A general rule for plants is not to remove more than about a third of the crown in any one year."
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[1]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6
+    ],
+    "traces_to": [
+     "AF-18"
+    ],
+    "note": "Matches NC State ('Typically...a third of the total crown...in any one year'). One source, so Moderate is too high; use Low. Duplicates items[0] if that is reworded.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[2]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     2,
+     5
+    ],
+    "traces_to": [
+     "none found in B2 material"
+    ],
+    "note": "Spreading over two or three years is not in AF-18 or on the NC State page. If it rests on other research, supply that finding; otherwise drop.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[3]",
+    "result": "Fail",
+    "points_failed": [
+     5,
+     8,
+     11
+    ],
+    "traces_to": [
+     "other research (rose hard-pruning source)",
+     "AF-18"
+    ],
+    "note": "'Hasn't been tested on roses' is a claim about research, not on any page. 'Treat it as a cautious guide, not a limit' is Pip's own advice. The hard-renovation part rests on other research.",
+    "suggested_wording": "This is general guidance for plants, not specific to roses."
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[4]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "other research"
+    ],
+    "note": "Rests on other research (hard pruning); nothing in AF-1 to AF-19 contradicts it.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-CGD-000003",
+    "field": "items[5]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "other research"
+    ],
+    "note": "Rests on other research; nothing in these findings contradicts it.",
+    "suggested_wording": null
+   }
+  ],
+  "finding_corrections": [
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-1",
+    "was": "Sources consistently frame weak as single-cane, congestion as whole-bush",
+    "correction": "Weak growth is judged cane by cane (UF/IFAS 'thinner than a pencil'; Clemson, Texas list weak stems). Crowding is judged for the whole bush (RHS 'If the bush is crowded'). No page states the contrast itself.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "All four pages 'partly'; contrast not stated"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-5",
+    "was": "Pencil threshold universal; measurements disagree by nearly 2x",
+    "correction": "Pencil thickness is the threshold in Clemson, Illinois, Texas, Victoria, UF/IFAS, OCRS. Only Rose Society of NSW gives a figure (10mm, for canes kept). Drop the factor-of-two disagreement.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "No page shows a second measurement"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-6",
+    "was": "Weak growth twiggy, unproductive, poor bloom, fuzzy tips",
+    "correction": "One page (ARS) says remove 'weak or twiggy growth'. One page (Chicago) links fuzzy tip growth instead of full, lush canes to old, congested canes. 'Unproductive' and 'poor bloom' for weak canes are not on the pages.",
+    "level_was": "Moderate",
+    "level_now": "Low",
+    "why": "Each cue has one source; none cover weak canes"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-7",
+    "was": "Retained cane count 1-4 (S. Africa) to 4-8; 3-5 most repeated",
+    "correction": "Bush roses: 3-5 (Clemson, Illinois), 3-6 (Oregon), 3-7 (Kansas City), 4-7 (UC Inyo), 5-6 (UGA); 1-4 from Ludwig's Roses (nursery, South Africa). 5-7 (Texas) and 5-8 (UC Inyo) are climbers. '4-8' not shown for bush roses.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Range restated to what pages show"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-8",
+    "was": "Congestion indicators well corroborated; twiggy never whole-bush",
+    "correction": "Open centre goal: Chicago, RHS, ARS, Texas, Illinois. 'If crowded' trigger: RHS only. Spoke shape: ARS only. Record disagreement: Rose Society of South Australia says 'Don't concern yourself with cutting out the centre'. 'Twiggy' claim rests on ARS alone.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Partial pages; one dissenting society page omitted"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-9",
+    "was": "ROC synthesis: size from photo alone is unreliable",
+    "correction": "Pages (Clemson, Iowa State x2, Colorado State) say to include a coin, pencil or ruler for size in plant photos. No page says thickness 'can't' be judged, nor mentions photogrammetry.",
+    "level_was": "Low",
+    "level_now": "Low",
+    "why": "Pages support the advice, not the stronger claim"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-10",
+    "was": "Density more distance-robust than size; occlusion limits one photo",
+    "correction": "Drop the occlusion/Arevalo source (page not opened, unverified). Pages support: take photos from several angles and distances (Clemson, Colorado State). Patterson tree-crown paper: tree crowns, not roses.",
+    "level_was": "Low",
+    "level_now": "Low",
+    "why": "Key source unverified; others do not cover the claim"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-11",
+    "was": "Thorn/bark colour differentiates new vs weak canes",
+    "correction": "One source (Ludwig's Roses) gives thorn and bark colour by cane age. No source says a thin new cane can be mistaken for a weak one, so Pip should not say so.",
+    "level_was": "Low",
+    "level_now": "Low",
+    "why": "Single source; the mistaken-for-weak link is inference"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-12",
+    "was": "Weak cane removed whole at base or origin, not shortened",
+    "correction": "Whole-cane removal at origin supported by Victoria and UC Inyo. Illinois and Kansas City show removal not shortening; base cutting is stated there only for dead canes. ARS and South Australia do not support it.",
+    "level_was": "High",
+    "level_now": "Moderate",
+    "why": "2 of 6 pages fully support"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-13",
+    "was": "Congestion thinning whole-cane, selected by vigour then spacing",
+    "correction": "Pages support an open centre and evenly spaced, stout canes (ARS, Illinois, Victoria, Texas); RHS says cut out some old shoots completely. 'Whole canes only' and selection order are not on the pages.",
+    "level_was": "High",
+    "level_now": "Moderate",
+    "why": "All four pages 'partly'"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-15",
+    "was": "Multiple sources agree young roses get leniency, 1 to 3 years",
+    "correction": "Clemson: prune first-year plants lightly. Illinois: shrub roses can be left unpruned for two or three seasons. Neither ties this to weak-growth removal or to cane counts; Texas has nothing.",
+    "level_was": "Moderate",
+    "level_now": "Low",
+    "why": "Two pages, each for a narrower case"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-16",
+    "was": "Caution against heavy thinning tied to weak/small plants; several societies encourage confident pruning",
+    "correction": "Portland: a bush with only 2-4 canes should keep them all. Illinois supports (wording not recorded). Only Chicago (one page) encourages confident pruning of a healthy rose. Treat as a precaution.",
+    "level_was": "Moderate",
+    "level_now": "Low",
+    "why": "One full and one partial page; 'several' unsupported"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-17",
+    "was": "Sources flag eye protection and gauntlet gloves inside the canopy",
+    "correction": "UC SLO lists gauntlet-style gloves and safety glasses in an equipment list, not tied to reaching inside. RHS 'How to Garden Safely' is recorded as supporting. Keep as a precaution.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "One of two pages does not tie it to canopy work"
+   },
+   {
+    "research": "WEAKCONGESTED",
+    "finding": "AF-18",
+    "was": "Sources recommend leaving interior growth (sunscald); general one-third rule also applies",
+    "correction": "Split in two. (a) One source (UC SLO): in hot-summer areas leave some interior growth to shade the graft. (b) One source (NC State): not more than a third of a plant's crown in any one year. 'Clear all at once' and 'sources recommend' are not on the pages.",
+    "level_was": "Moderate",
+    "level_now": "Low",
+    "why": "Each half is a single source"
+   }
+  ],
+  "judgement_view": "1) Rose Society of South Australia (a plant society, not a garden company) says 'Don't concern yourself with cutting out the centre'; the open-centre advice (Chicago, RHS, ARS, Texas, Illinois) is better supported, but rule 2 says to name the dissenter. Founder to decide whether to show it. 2) Several findings drop to Low (AF-6, AF-11, AF-15 and the AF-18 halves): Founder to decide whether single-source cues and the one-third general rule are shown as 'one source says' or kept on record only; precautions (AF-16, AF-18 sunscald) may stay at Low under rule 7.",
+  "package_notes": [
+   "Precautions (DEC notes 3, 4, 5) have kind empty; they should be marked as precautions with their level.",
+   "CGD items[0] and items[1] say the same thing from one page with different labels; merge into one sentence at Low.",
+   "CGD items[4] and items[5] and the 'hard renovation' part of items[3] rest on other research and were passed unchecked; confirm they are in the later batch.",
+   "Several findings were recorded with the page title only, not a quotation (Chicago, UF/IFAS, Clemson photo page); their support could not be fully confirmed.",
+   "AF-12 and AF-13 at High and AF-7 wording are the main overstatements; Founder direction of 16 Oct 2026 (go with what the research most strongly suggests) was applied by stating only what the pages show."
+  ]
+ },
+ "B3": {
+  "results": [
+   {
+    "record": "PKR-OBS-000006",
+    "field": "feature",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "title only"
+    ],
+    "note": "Title, no claim.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "look_for",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-9",
+     "AF-14"
+    ],
+    "note": "Strong canes spread around the base: AF-14 (High) and AF-9 (Moderate) support it. Unlabelled framing, adds nothing.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "AF-9"
+    ],
+    "note": "Strong, healthy, vigorous is backed by the pages (UC ANR, UGA, Oregon State, Clemson 'most vigorous, healthy canes'). 'Generally the younger ones' is stated more firmly than the pages: only Illinois (shrub roses) and climber pages (Fresno, Maryland, Arkansas) favour younger canes; Clemson, RHS, KCRS do not mention it. Moderate label is fine.",
+    "suggested_wording": "Keeper canes: strong, healthy, vigorous canes. Some sources also prefer younger canes."
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[1]",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-14"
+    ],
+    "note": "Open centre is on nearly every page (Clemson, RHS, Red Butte, KCRS, Oregon State: 'open in the middle'). Vase and even spread around the base are on UC ANR, ARS, UGA, Illinois, Yates, Dunedin. Says no more than AF-14. High fits.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[2]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     3,
+     5,
+     6,
+     7
+    ],
+    "traces_to": [
+     "AF-36"
+    ],
+    "note": "No page says 'rough': Houston = 'grey, streaked bark; missing or disintegrating prickles'; Texas A&M = 'gray in color and scaly'; Arizona = 'old gray crusty wood'. All three pages are only 'partly'. Worn prickles are one source only (Houston) yet stated as 'sometimes' with no 'one source says'. Terms from three single pages are merged into one list.",
+    "suggested_wording": "Old wood: grey bark, which may look scaly or crusty."
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[3]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "traces_to": [
+     "AF-10"
+    ],
+    "note": "AF-10 is Low and 'anything else', so Pip may not use it. Pages do not support it: UC ANR 'no'; ARS says only pruning 'can encourage new basal growth from the bud union' and does not call it a sign of health or a way to renew the framework.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "criteria[4]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     3,
+     5,
+     6,
+     10
+    ],
+    "traces_to": [
+     "AF-8",
+     "AF-10",
+     "AF-9"
+    ],
+    "note": "High is too high: AF-8 is Moderate (Iowa State and Ask Extension 'no'; Fresno, ARS, Illinois only partly). 'Keep your rose's own new canes from the base' rests on AF-10, which the pages do not support. Sucker below the bud union applies to grafted roses only (AF-8 says so); an own-root rose has no bud union, and that limit changes what the gardener does.",
+    "suggested_wording": "On a grafted rose, a shoot that starts below the bud union is a sucker, and is removed."
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "photo_limit",
+    "result": "Pass with a note",
+    "points_failed": [],
+    "traces_to": [
+     "Founder decision ARC-BUSHROSE-DEADWOOD-01 s6",
+     "AF-41 (weak)"
+    ],
+    "note": "Rests on the Founder decision, not a finding. AF-41 pages only partly back it: David Austin 'Step back often, look at the outline' and a bend test; Orange County 'crossing directly over the center'. Pith and base are not on any page. Says nothing the pages contradict.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "confirm_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-9"
+    ],
+    "note": "App prompt; no claim beyond a strong framework cane.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "confirm_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-9"
+    ],
+    "note": "Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "doesnt_match_label",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [
+     "AF-7",
+     "AF-36"
+    ],
+    "note": "Old or unproductive canes are removed (AF-7); grey is a marker of old wood (AF-36). Button label.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "not_sure_guidance",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "Founder decision on photo limit"
+    ],
+    "note": "No finding tells the gardener to look at the base close up; 'gently check the cane' echoes only the bend test from one source (David Austin). Unlabelled and unspecific, so it adds no claim, but it is not from the research.",
+    "suggested_wording": "Look closely at the cane and where it starts at the base."
+   },
+   {
+    "record": "PKR-OBS-000006",
+    "field": "any_more_question",
+    "result": "Pass",
+    "points_failed": [],
+    "traces_to": [],
+    "note": "App prompt.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "decision_notes[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     6
+    ],
+    "traces_to": [
+     "AF-9",
+     "AF-14",
+     "AF-16"
+    ],
+    "note": "Label is High but the lowest combined finding, AF-9, is Moderate. The 'strong, healthy' part is backed by about eight pages; the Moderate comes from the 'younger' part, which this sentence does not use. High holds only if AF-9 is split (see finding_corrections). Otherwise label Moderate.",
+    "suggested_wording": null
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "decision_notes[1]",
+    "result": "Fail",
+    "points_failed": [
+     3,
+     5,
+     6,
+     10
+    ],
+    "traces_to": [
+     "AF-15"
+    ],
+    "note": "AF-15 says counts run 'between three and eight'; the sentence shows 3-7, dropping the top of the range (rule 3). '4-6 typical' and 'fewer for a modest or young plant' are in no finding (Clemson's 'first-year plants are pruned lightly' is about cutting, not cane count).",
+    "suggested_wording": "Keep a small number of strong canes. Sources give anywhere from 3 to 8."
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "decision_notes[2]",
+    "result": "Fail",
+    "points_failed": [
+     2,
+     5,
+     7,
+     9
+    ],
+    "traces_to": [
+     "AF-17",
+     "AF-18",
+     "AF-37"
+    ],
+    "note": "AF-17: Illinois says 'about one-half to two-thirds of the plant's height' (heavier) and KCRS/Arkansas give lower cuts for hybrid teas; sentence states a third to a half with no disagreement shown. AF-37 says grandifloras are 'closer to hybrid tea' practice, in some sources gentler; 'pruned as Hybrid Teas' is stronger, and two of four pages are weak (ARS table of contents only; Heirloom Roses a retailer with no cane count).",
+    "suggested_wording": "Shorten kept canes by about a third to a half. One source says to remove half to two-thirds. Hybrid Teas are cut lower, or to fewer canes, than Floribundas. Grandifloras are pruned much like Hybrid Teas."
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "doesnt_match_notes[0]",
+    "result": "Pass with a note",
+    "points_failed": [
+     5
+    ],
+    "traces_to": [
+     "AF-7",
+     "AF-29",
+     "AF-36"
+    ],
+    "note": "AF-7 has six pages that say it (UC ANR, Fresno, Red Butte, ARS, KCRS, Yates); 'at their base' fits AF-29 (Yates, Texas A&M, Dunedin 'cutting off cleanly at the base'). 'Grey' is a marker of old wood from three regional pages, not a reason on its own; the sentence reads it as one set with 'unproductive'.",
+    "suggested_wording": "Remove old, woody or unproductive canes at their base, in favour of younger ones."
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "doesnt_match_notes[1]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     2,
+     3,
+     6
+    ],
+    "traces_to": [
+     "AF-20"
+    ],
+    "note": "AF-20 is Low and not marked as a precaution, so it falls under 'Low: anything else'. Only Fresno fully supports it; Illinois says it for repeat-flowering shrub roses only; Cornell and Arkansas 'no'. Single source stated as a general rule, with no 'one source says'.",
+    "suggested_wording": "One source says to renew an old bush over several years, removing about a third of the old canes each year. (Only if treated as a precaution; see judgement_view. Otherwise drop.)"
+   },
+   {
+    "record": "PKR-DEC-000006",
+    "field": "doesnt_match_notes[2]",
+    "result": "Fail",
+    "points_failed": [
+     1,
+     2,
+     5,
+     7,
+     11
+    ],
+    "traces_to": [
+     "AF-39"
+    ],
+    "note": "AF-39 is Low and 'anything else'. Only RHS 'Renovating Overgrown Shrubs' backs it, for shrubs generally; Iowa State is about conifers and hedges, not weak shrubs or roses. 'Experienced local help is worth asking' is in no finding (rule 5 applies only where no source was found). 'Sometimes' states a single source without 'one source says'.",
+    "suggested_wording": null
+   }
+  ],
+  "finding_corrections": [
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-9",
+    "was": "Strong, healthy, vigorous canes retained; in several sources the younger or previous year's canes",
+    "correction": "Split: (a) strong, healthy, vigorous canes are kept (many pages); (b) younger canes are favoured by a few sources, mostly for climbers or shrub roses (Fresno, Maryland, Arkansas, Illinois).",
+    "level_was": "Moderate",
+    "level_now": "(a) High, (b) Low",
+    "why": "Younger-cane part rests on climber/shrub pages; (a) is on about eight pages"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-10",
+    "was": "New basal shoots are a sign of good health and a route to renewing the framework",
+    "correction": "One source (ARS) says pruning can encourage new basal growth from the bud union. No page calls it a sign of health or a way to renew the framework.",
+    "level_was": "Low",
+    "level_now": "Very Low",
+    "why": "UC ANR 'no'; ARS says less than the finding"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-8",
+    "was": "Two sources say to tear sucker away at its origin",
+    "correction": "One source (Illinois) says tear off at the origin; Fresno says dig out with its root; ARS says remove from below the bud union. Applies to grafted roses. Drop Iowa State and Ask Extension.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Only Illinois says tear; Iowa State and Ask 'no'"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-36",
+    "was": "Grey with rough, scaly, crusty or streaked bark; prickles as a further marker",
+    "correction": "Grey is the common marker (three regional pages). Scaly (Texas A&M), crusty (Arizona) and streaked (Houston) are each one source. Missing prickles is one source. 'Rough' is on no page.",
+    "level_was": "Moderate",
+    "level_now": "Moderate for grey; Low for the other markers",
+    "why": "All three pages 'partly'; 'rough' not found"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-17",
+    "was": "Height commonly reduced by about a third to a half",
+    "correction": "Keep, and record the disagreement: Illinois says half to two-thirds; KCRS says half and 6-8 inches for hybrid teas; Arkansas gives a third to a half for shrub roses but 8-18 inches for hybrid teas.",
+    "level_was": "Moderate",
+    "level_now": "Moderate",
+    "why": "Illinois 'no'; five pages only partly"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-37",
+    "was": "Grandifloras pruned like hybrid teas; similar or slightly fewer canes; gentler cutback in some",
+    "correction": "Grandifloras are generally pruned like hybrid teas. Drop the cane-count and cutback detail: the ARS page returned only a table of contents, and Heirloom Roses (a retailer) gives no cane count.",
+    "level_was": "Moderate",
+    "level_now": "Moderate (core claim only)",
+    "why": "Detail rests on one weak page each"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-20",
+    "was": "Multi-year renewal removes about a third of old canes each year",
+    "correction": "One source (UC ANR Fresno) says it. Illinois says it for repeat-flowering shrub roses only. Cornell and Arkansas do not.",
+    "level_was": "Low",
+    "level_now": "Very Low",
+    "why": "One full source; two pages 'no'"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-39",
+    "was": "A badly overgrown, weak or sickly bush is sometimes better replaced",
+    "correction": "One source (RHS) says a declining shrub may be better replaced; it is about shrubs generally, not roses. Iowa State is about conifers and hedges only.",
+    "level_was": "Low",
+    "level_now": "Low (single source, shrubs generally)",
+    "why": "Second page does not support it"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-41",
+    "was": "Shape and crossing canes visible; vigour and internal health need handling",
+    "correction": "Only partly shown: outline and crossing canes are visible (David Austin, Orange County). A bend test for vigour is one source (David Austin). Pith colour and the base are on no page. NC State and ARS 'no'.",
+    "level_was": "Low",
+    "level_now": "Very Low",
+    "why": "Two pages 'no', two 'partly'; pith and base unsupported"
+   },
+   {
+    "research": "PRUNINGFRAMEWORK",
+    "finding": "AF-34",
+    "was": "Plant-diagnostic guidance consistently favours physical examination over photographs",
+    "correction": "Some extension pages prefer a physical sample (Mississippi State, Iowa State clinic, CSU) while Cornell and CSU accept good photos. Not rose-specific. Drop 'consistently'.",
+    "level_was": "Low",
+    "level_now": "Very Low",
+    "why": "Cornell says good photos allow confident IDs; CSU accepts photos"
+   }
+  ],
+  "judgement_view": "AF-20 (renew an old bush a third a year): the rules let Pip use a Low finding only if it is a precaution. Whether gradual renewal 'only asks the gardener to take more care of the plant' is a classification a Founder may want to decide; if yes, it can stay as a marked, one-source precaution, otherwise drop it. AF-39 is not a precaution and should be dropped.",
+  "package_notes": [
+   "Three sentences use Low findings that Pip may not use (criteria[3], doesnt_match_notes[1] unless a precaution, doesnt_match_notes[2]).",
+   "Labels High on criteria[4] and decision_notes[0] sit above the lowest finding they rest on (AF-8 and AF-9, both Moderate); fix by label or by splitting AF-9.",
+   "Two sentences add claims found in no finding: '4-6 typical, fewer for a modest or young plant' and 'experienced local help is worth asking'.",
+   "Several partly-supported pages are climber, shrub-rose or general-shrub pages (AF-9, AF-17, AF-20, AF-39); the answers state them as bush-rose facts.",
+   "Photo-limit and not-sure lines rest on a Founder decision and are only weakly backed by AF-41."
+  ]
+ },
+ "corrections_adopted": [
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-1",
+   "was": "Damaged is a category distinct from dead",
+   "correction": "Several sources list dead, diseased and damaged wood together; Kansas City Rose Society treats dead canes and broken or cold-damaged canes as separate steps.",
+   "level_now": "Low",
+   "level_was": "Moderate",
+   "why": "All five pages partly support; none shows 'distinct category'"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-2",
+   "was": "Several distinct causes named across sources",
+   "correction": "Drop Maryland and Colorado PlantTalk (support 'no'). Sunscald (Victoria only) and splitting/frost cracks (Illinois only) recorded as single-source.",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "Two cited pages name no cause; two causes single-source"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-4",
+   "was": "Multiple sources converge on a consistent set of canker symptoms",
+   "correction": "Each sign is on two or more pages, but no page gives the full set; the colour range 'tan to purplish-brown' is Clemson alone, others say brown or purple/grey-white.",
+   "level_now": "High",
+   "level_was": "High",
+   "why": "Pages support the signs separately, colour range narrower"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-5",
+   "was": "Definitive confirmation requires a destructive pith test; tips blacken",
+   "correction": "Frost damage shows as browned shoot tips (RHS) and cold-discoloured canes (Kansas City); pages give a pith colour check. No page says a cut is the only way, or mentions blackening.",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "'Only' and 'blackening' unsupported"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-6",
+   "was": "No non-destructive test for hidden split; visible damage is sufficient",
+   "correction": "Visible signs only: Kansas City Rose Society names broken canes and canes that rub; RHS names damage where crossing branches rub together. The claim that no source describes a test for a hidden split is dropped (an absence, not on a page).",
+   "level_now": "Moderate",
+   "level_was": "Low",
+   "why": "Two independent pages support the visible signs (raised under a Founder direction of 16 October 2026: go with what the research most strongly suggests)."
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-7",
+   "was": "Borer shows as wilting tip, entry hole and swelling; wasp caveat",
+   "correction": "Wilting tip and swollen node: Marin and Oregon State. Entry hole: Marin only. Harmless wasp nest in a pruning cut: Colorado PlantTalk only.",
+   "level_now": "Moderate for a suddenly wilting tip and a swollen spot (Marin Rose Society, Oregon State); not used: entry hole (Marin only) and the harmless-wasp caveat (Colorado PlantTalk only)",
+   "level_was": "Low",
+   "why": "Two pages support part; the rest is single-source"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-8",
+   "was": "Photo shows external signs but not internal condition",
+   "correction": "Not a finding Pip can use: no rose page; Marin and Alabama do not support it; others are about trees or lawns. Photo lines rest on the Founder decision only.",
+   "level_now": "Not Assigned",
+   "level_was": "Low",
+   "why": "Inference, not on any page for roses"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-9",
+   "was": "Galls harmless but could be mistaken for damage; heavy infestation may weaken",
+   "correction": "Mossy and spiny galls appear harmless (Washington State, Iowa State); Robin's pin-cushion harmless (RHS); heavy infestation of mossy gall may weaken the plant above (Iowa State only). Drop 'mistaken for damage by a beginner'.",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "Beginner-mistake point on no page"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-10",
+   "was": "Canker colouring overlaps with normal new-cane pigmentation",
+   "correction": "Pages give early canker spot colours (Illinois) and a Master Gardener unable to diagnose from pictures. Neither says the colours match normal new growth. Drop the overlap claim.",
+   "level_now": "Not Assigned",
+   "level_was": "Low",
+   "why": "Overlap on no page"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-11",
+   "was": "Near-unanimous: cut to healthy tissue; white or pale green good, brown/black/grey dead",
+   "correction": "Cut to healthy wood: broad. White pith: broad. Pale green: Oregon State only. Brown or grey: Iowa State; brown: Oregon State. Black: no page seen.",
+   "level_now": "High",
+   "level_was": "High",
+   "why": "Core broad; colour details narrower"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-12",
+   "was": "Severity-based branch: slight shortened, severe removed whole",
+   "correction": "No live buds, remove whole cane: Clemson, Iowa State, Texas A&M, Purdue. Slight versus severe branch: Purdue only.",
+   "level_now": "Moderate for no live buds; Low for severity branch",
+   "level_was": "Moderate",
+   "why": "Branch single-source; other pages give none"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-13",
+   "was": "Cause adds extra steps: 2–3 inch margin, disinfect, seal borer cuts",
+   "correction": "Canker margin: 'well below' (Kansas City, Ask Extension); 2–3 inches Illinois only. Sealing: Colorado PlantTalk and Kansas City advise; Marin and Illinois do not. Record sealing as a disagreement; keep disinfecting under AF-15.",
+   "level_now": "Moderate for margin; Low for sealing",
+   "level_was": "Moderate",
+   "why": "Figure single-source; sealing disputed"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-14",
+   "was": "Wait until at or near bud break; second pass may be needed",
+   "correction": "Pages say wait until spring and prune before new growth/bud break (Robeson, North Dakota, Florida, Portland). Second pass is Portland only. Two pages are general plants, not roses.",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "'At or near bud break' and second pass not on most pages"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-15",
+   "was": "Disinfect between cuts with alcohol or 1:9 bleach",
+   "correction": "Frequency is a range: 'ideally between each cut' and 'at minimum between plants' (Iowa State), 'after use on a diseased plant' (Clemson, Oklahoma, Ask Extension). Record as a range. Dilution is a mixing amount: not for Pip.",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "Pages differ on frequency"
+  },
+  {
+   "research": "DAMAGEDGROWTH",
+   "finding": "AF-16",
+   "was": "Burn or trash, not compost, because compost is too cool",
+   "correction": "Burn or bin: Oklahoma, Clemson, Illinois, RHS. The compost-temperature reason is RHS only, and RHS says composting suits some less persistent diseases. Bonfire limits need local rules.",
+   "level_now": "Moderate",
+   "level_was": "Moderate",
+   "why": "Reason single-source"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-8",
+   "was": "Two sources say to tear sucker away at its origin",
+   "correction": "One source (Illinois) says tear off at the origin; Fresno says dig out with its root; ARS says remove from below the bud union. Applies to grafted roses. Drop Iowa State and Ask Extension.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Only Illinois says tear; Iowa State and Ask 'no'"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-9",
+   "was": "Strong, healthy, vigorous canes retained; in several sources the younger or previous year's canes",
+   "correction": "Split: (a) strong, healthy, vigorous canes are kept (many pages); (b) younger canes are favoured by a few sources, mostly for climbers or shrub roses (Fresno, Maryland, Arkansas, Illinois).",
+   "level_was": "Moderate",
+   "level_now": "(a) High, (b) Low",
+   "why": "Younger-cane part rests on climber/shrub pages; (a) is on about eight pages"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-10",
+   "was": "New basal shoots are a sign of good health and a route to renewing the framework",
+   "correction": "One source (ARS) says pruning can encourage new basal growth from the bud union. No page calls it a sign of health or a way to renew the framework.",
+   "level_was": "Low",
+   "level_now": "Very Low",
+   "why": "UC ANR 'no'; ARS says less than the finding"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-15",
+   "was": "A small number of strong canes is retained; counts between three and eight",
+   "correction": "Restated as about 3 to 7 canes for bush roses (Clemson, Illinois, Cornell, Kansas City Rose Society, UC ANR); no bush-rose page checked gives 8; higher counts are for climbers.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "No quoted bush-rose page gives 8."
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-17",
+   "was": "Height commonly reduced by about a third to a half",
+   "correction": "Keep, and record the disagreement: Illinois says half to two-thirds; KCRS says half and 6-8 inches for hybrid teas; Arkansas gives a third to a half for shrub roses but 8-18 inches for hybrid teas.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Illinois 'no'; five pages only partly"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-20",
+   "was": "Multi-year renewal removes about a third of old canes each year",
+   "correction": "One source (UC ANR Fresno) says it. Illinois says it for repeat-flowering shrub roses only. Cornell and Arkansas do not.",
+   "level_was": "Low",
+   "level_now": "Very Low",
+   "why": "One full source; two pages 'no'"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-34",
+   "was": "Plant-diagnostic guidance consistently favours physical examination over photographs",
+   "correction": "Some extension pages prefer a physical sample (Mississippi State, Iowa State clinic, CSU) while Cornell and CSU accept good photos. Not rose-specific. Drop 'consistently'.",
+   "level_was": "Low",
+   "level_now": "Very Low",
+   "why": "Cornell says good photos allow confident IDs; CSU accepts photos"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-36",
+   "was": "Grey with rough, scaly, crusty or streaked bark; prickles as a further marker",
+   "correction": "Grey is the common marker (three regional pages). Scaly (Texas A&M), crusty (Arizona) and streaked (Houston) are each one source. Missing prickles is one source. 'Rough' is on no page.",
+   "level_was": "Moderate",
+   "level_now": "Moderate for grey; Low for the other markers",
+   "why": "All three pages 'partly'; 'rough' not found"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-37",
+   "was": "Grandifloras pruned like hybrid teas; similar or slightly fewer canes; gentler cutback in some",
+   "correction": "Grandifloras are generally pruned like hybrid teas. Drop the cane-count and cutback detail: the ARS page returned only a table of contents, and Heirloom Roses (a retailer) gives no cane count.",
+   "level_was": "Moderate",
+   "level_now": "Moderate (core claim only)",
+   "why": "Detail rests on one weak page each"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-39",
+   "was": "A badly overgrown, weak or sickly bush is sometimes better replaced",
+   "correction": "One source (RHS) says a declining shrub may be better replaced; it is about shrubs generally, not roses. Iowa State is about conifers and hedges only.",
+   "level_was": "Low",
+   "level_now": "Low (single source, shrubs generally)",
+   "why": "Second page does not support it"
+  },
+  {
+   "research": "PRUNINGFRAMEWORK",
+   "finding": "AF-41",
+   "was": "Shape and crossing canes visible; vigour and internal health need handling",
+   "correction": "Only partly shown: outline and crossing canes are visible (David Austin, Orange County). A bend test for vigour is one source (David Austin). Pith colour and the base are on no page. NC State and ARS 'no'.",
+   "level_was": "Low",
+   "level_now": "Very Low",
+   "why": "Two pages 'no', two 'partly'; pith and base unsupported"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-1",
+   "was": "Sources consistently frame weak as single-cane, congestion as whole-bush",
+   "correction": "Weak growth is judged cane by cane (UF/IFAS 'thinner than a pencil'; Clemson, Texas list weak stems). Crowding is judged for the whole bush (RHS 'If the bush is crowded'). No page states the contrast itself.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "All four pages 'partly'; contrast not stated"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-5",
+   "was": "Pencil threshold universal; measurements disagree by nearly 2x",
+   "correction": "Pencil thickness is the threshold in Clemson, Illinois, Texas, Victoria, UF/IFAS, OCRS. Only Rose Society of NSW gives a figure (10mm, for canes kept). Drop the factor-of-two disagreement.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "No page shows a second measurement"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-6",
+   "was": "Weak growth twiggy, unproductive, poor bloom, fuzzy tips",
+   "correction": "One page (ARS) says remove 'weak or twiggy growth'. One page (Chicago) links fuzzy tip growth instead of full, lush canes to old, congested canes. 'Unproductive' and 'poor bloom' for weak canes are not on the pages.",
+   "level_was": "Moderate",
+   "level_now": "Low",
+   "why": "Each cue has one source; none cover weak canes"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-7",
+   "was": "Retained cane count 1-4 (S. Africa) to 4-8; 3-5 most repeated",
+   "correction": "Bush roses: 3-5 (Clemson, Illinois), 3-6 (Oregon), 3-7 (Kansas City), 4-7 (UC Inyo), 5-6 (UGA); 1-4 from Ludwig's Roses (nursery, South Africa). 5-7 (Texas) and 5-8 (UC Inyo) are climbers. '4-8' not shown for bush roses.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Range restated to what pages show"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-8",
+   "was": "Congestion indicators well corroborated; twiggy never whole-bush",
+   "correction": "Open centre goal: Chicago, RHS, ARS, Texas, Illinois. 'If crowded' trigger: RHS only. Spoke shape: ARS only. Record disagreement: Rose Society of South Australia says 'Don't concern yourself with cutting out the centre'. 'Twiggy' claim rests on ARS alone.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "Partial pages; one dissenting society page omitted"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-9",
+   "was": "ROC synthesis: size from photo alone is unreliable",
+   "correction": "Pages (Clemson, Iowa State x2, Colorado State) say to include a coin, pencil or ruler for size in plant photos. No page says thickness 'can't' be judged, nor mentions photogrammetry.",
+   "level_was": "Low",
+   "level_now": "Low",
+   "why": "Pages support the advice, not the stronger claim"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-10",
+   "was": "Density more distance-robust than size; occlusion limits one photo",
+   "correction": "Drop the occlusion/Arevalo source (page not opened, unverified). Pages support: take photos from several angles and distances (Clemson, Colorado State). Patterson tree-crown paper: tree crowns, not roses.",
+   "level_was": "Low",
+   "level_now": "Low",
+   "why": "Key source unverified; others do not cover the claim"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-11",
+   "was": "Thorn/bark colour differentiates new vs weak canes",
+   "correction": "One source (Ludwig's Roses) gives thorn and bark colour by cane age. No source says a thin new cane can be mistaken for a weak one, so Pip should not say so.",
+   "level_was": "Low",
+   "level_now": "Low",
+   "why": "Single source; the mistaken-for-weak link is inference"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-12",
+   "was": "Weak cane removed whole at base or origin, not shortened",
+   "correction": "Whole-cane removal at origin supported by Victoria and UC Inyo. Illinois and Kansas City show removal not shortening; base cutting is stated there only for dead canes. ARS and South Australia do not support it.",
+   "level_was": "High",
+   "level_now": "Moderate",
+   "why": "2 of 6 pages fully support"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-13",
+   "was": "Congestion thinning whole-cane, selected by vigour then spacing",
+   "correction": "Pages support an open centre and evenly spaced, stout canes (ARS, Illinois, Victoria, Texas); RHS says cut out some old shoots completely. 'Whole canes only' and selection order are not on the pages.",
+   "level_was": "High",
+   "level_now": "Moderate",
+   "why": "All four pages 'partly'"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-15",
+   "was": "Multiple sources agree young roses get leniency, 1 to 3 years",
+   "correction": "Clemson: prune first-year plants lightly. Illinois: shrub roses can be left unpruned for two or three seasons. Neither ties this to weak-growth removal or to cane counts; Texas has nothing.",
+   "level_was": "Moderate",
+   "level_now": "Low",
+   "why": "Two pages, each for a narrower case"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-16",
+   "was": "Caution against heavy thinning tied to weak/small plants; several societies encourage confident pruning",
+   "correction": "Portland: a bush with only 2-4 canes should keep them all. Illinois supports (wording not recorded). Only Chicago (one page) encourages confident pruning of a healthy rose. Treat as a precaution.",
+   "level_was": "Moderate",
+   "level_now": "Low",
+   "why": "One full and one partial page; 'several' unsupported"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-17",
+   "was": "Sources flag eye protection and gauntlet gloves inside the canopy",
+   "correction": "UC SLO lists gauntlet-style gloves and safety glasses in an equipment list, not tied to reaching inside. RHS 'How to Garden Safely' is recorded as supporting. Keep as a precaution.",
+   "level_was": "Moderate",
+   "level_now": "Moderate",
+   "why": "One of two pages does not tie it to canopy work"
+  },
+  {
+   "research": "WEAKCONGESTED",
+   "finding": "AF-18",
+   "was": "Sources recommend leaving interior growth (sunscald); general one-third rule also applies",
+   "correction": "Split in two. (a) One source (UC SLO): in hot-summer areas leave some interior growth to shade the graft. (b) One source (NC State): not more than a third of a plant's crown in any one year. 'Clear all at once' and 'sources recommend' are not on the pages. The sunscald half is used as a one-source precaution.",
+   "level_was": "Moderate",
+   "level_now": "Low",
+   "why": "Each half is a single source"
+  }
+ ],
+ "note": "PKR-CGD-000003 results in B2 are kept for batch 3."
+}
