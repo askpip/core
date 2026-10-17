@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-DORMANCY-01** |
 | ARC Title | Determining Dormancy — Established Bush Rose, by Location and Season |
-| Version | 1.2 |
+| Version | 1.3 |
 | Approval Status | **Approved (in part)** |
 | Approval Date | 23 August 2026 (v1.0–v1.1); 9 September 2026 (v1.2) |
 | Approving Authority | AskPIP Founder Authority (Shaphan) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within FRD-BUSHROSE-DORMANCY-01 §8 and FRD-BUSHROSE-DORMANCY-02 §8; not separately filed |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS v1.3 §2.9/§3.2 |
 | Related ARCs | ARC-BUSHROSE-DEADWOOD-01 — this ARC's Dormancy Suitability Gate is a prerequisite dependency of that ARC's Decision Logic PKR (PKR-DEC-BUSHROSE-DEADWOOD-01), whose Conditions field will need to reference the resulting gate PKR once built |
-| Revision History | v1.2 — 9 September 2026 — incorporated FRD-BUSHROSE-DORMANCY-02's AF-1 as AF-4; see §8. v1.1 — 23 August 2026 — the Founder refined the ruling recorded at v1.0: FRD §7.4 is not excluded outright but routed as a Recommendation for Further Research, per newly-established EAS v1.4 §2.10 and ROC Operations Manual v2.6 §8.4A. §2, §2A and §5 revised accordingly; §6 gains the resulting research recommendation. v1.0 — 23 August 2026 — initial creation from FRD-BUSHROSE-DORMANCY-01. AF-1 and AF-2 approved and adopted as the basis for the Dormancy Suitability Gate PKR; AF-3 approved and carried forward as a documented caveat, not a blocking condition. FRD §7.4 (ROC's interaction/synthesis observation) initially recorded as excluded from this ARC in any form — see v1.1 for the refined disposition. |
+| Revision History | v1.3 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 1). v1.2 — 9 September 2026 — incorporated FRD-BUSHROSE-DORMANCY-02's AF-1 as AF-4; see §8. v1.1 — 23 August 2026 — the Founder refined the ruling recorded at v1.0: FRD §7.4 is not excluded outright but routed as a Recommendation for Further Research, per newly-established EAS v1.4 §2.10 and ROC Operations Manual v2.6 §8.4A. §2, §2A and §5 revised accordingly; §6 gains the resulting research recommendation. v1.0 — 23 August 2026 — initial creation from FRD-BUSHROSE-DORMANCY-01. AF-1 and AF-2 approved and adopted as the basis for the Dormancy Suitability Gate PKR; AF-3 approved and carried forward as a documented caveat, not a blocking condition. FRD §7.4 (ROC's interaction/synthesis observation) initially recorded as excluded from this ARC in any form — see v1.1 for the refined disposition. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard §"Custodianship" |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS) v1.3; Founder Review Dossier Standard (FRDS) v1.1; ROC Operations Manual |
 
@@ -174,9 +174,24 @@ This ARC is traceable to:
 
 | Version | Date | Change | Authority |
 |---|---|---|---|
+| 1.3 | 17 October 2026 | Added the Build Check Corrections section (older-answers check, batch 1): limitations, dropped sources, recorded conflicts and reworded findings, as listed there. | A Founder, AskPIP Founder Authority |
 | 1.2 | 9 September 2026 | Incorporated FRD-BUSHROSE-DORMANCY-02's AF-1 (bud swell as the pruning-readiness signal in mild/warm-winter climates, Moderate confidence, 3 sources) as AF-4. This independently corroborates, without adopting, the substantive conclusion of §7.4's unapproved synthesis, per the standing principle at §2A. AF-3 remains a separately-stated caveat, not merged with AF-4, consistent with the resolution recorded at `Working/Project_Backlog.md`. §2 (new §2B), §3, §4, §5, §6 and §7 revised accordingly. | Shaphan, AskPIP Founder Authority |
 | 1.1 | 23 August 2026 | Refined the Decision Point 2 ruling: FRD §7.4 (ROC's interaction observation) is not adopted as approved content, but is no longer treated as simply excluded — it is carried forward as a Recommendation for Further Research (§6), per newly Founder-approved EAS v1.4 §2.10 and ROC Operations Manual v2.6 §8.4A, which establish that an assessor's reasoned synthesis is valuable and must be routed to further research rather than suppressed or adopted untested. §2, §2A and §5 revised accordingly. | Shaphan, AskPIP Founder Authority |
 | 1.0 | 23 August 2026 | Initial creation from FRD-BUSHROSE-DORMANCY-01. AF-1 (High) and AF-2 (High) approved as sufficient basis for the Dormancy Suitability Gate PKR; AF-3 (Moderate) approved as a documented caveat. FRD §7.4 (ROC synthesis) recorded as excluded from approved content — see v1.1 for the refined disposition. | Shaphan, AskPIP Founder Authority |
+
+---
+
+## Build Check Corrections (17 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 1, every source page was reopened with WebFetch and every recorded quotation looked for, and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md` (§3) and approved by a Founder in chat on 17 October 2026, as §14.4 requires for an approved ARC. Where they differ from §4, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH1_sources_2026-10-16.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-1 | Bud swell is the pruning-readiness signal (High) | Unchanged. Limitation added: the University of Minnesota page is about trees and shrubs in general; the North Carolina page ties timing to the plant but does not say 'bud swell' in so many words. | High → High | Two rose pages (Arizona, New York Botanical Garden) state it; it is also in the approved timing research for three countries. |
+| AF-2 | No single calendar window; prune after the hardest frost risk, before growth is well underway (High) | Unchanged. Limitation added: each page gives its own place only (Dunedin late July; Arkansas late February; western Oregon mid-February to early March; New York late March or early April; California late winter). The University of Washington page gives only 'late fall or early spring' and is no longer relied on. | High → High | The range is made of places; no page states it. The approved month-level timing research now gives months by place. |
+| AF-3 | Mild winters: leaves may stay on; warmth can trigger early growth that cold then damages (Moderate) | Unchanged. Limitation added: the semi-evergreen point is Arkansas's; the cold-damage point is from a Minnesota page on plants in general. | Moderate → Moderate | — |
+
+**Effect on Pip's answers.** The dormancy gate (PKR-SGT-000001 v1.2) now asks whether the buds are still tight or just beginning to swell, or whether leaves have opened; the old question counted swelling buds as growth already begun.
 
 ---
 

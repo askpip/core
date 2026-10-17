@@ -1,5 +1,7 @@
 # Pip's Answers — Older Answers Check, Batch 1: the First Checks in the Pruning Journey
 
+**Approved, 17 October 2026.** A Founder approved these answers in chat ("approve"), with no change. The corrections in section 3 are made in the six research records, and the answers are published.
+
 These answers were published before the source check existed. They are now checked: every source page was reopened, and every sentence was checked against what the pages say. This document shows every sentence that changes, word for word as gardeners will see it. **You are asked for one thing: approval.** Approving it also authorises the corrections to the approved research (section 3) and lets the changes be published. Nothing else needs reading.
 
 It covers the two gates at the start of the pruning journey (is the rose dormant; is it newly planted) and four checks: dead wood, crossing or rubbing stems, inward-growing stems and suckers.

@@ -5685,7 +5685,7 @@
   },
   {
    "pkr_id": "PKR-DEC-000001",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "decision_logic",
    "title": "Dead vs. living wood — cut/leave decision",
    "common": {
@@ -5710,7 +5710,7 @@
      "PKR-SRC-000177",
      "PKR-SRC-000179"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "governed by",
@@ -5742,11 +5742,11 @@
     ],
     "decision_notes": [
      {
-      "text": "Remove it back into living tissue — white or pale-green pith and green bark — not just to the first sign of dead tissue.",
+      "text": "Cut a dead cane back into living wood, where the pith is white, not just to where the dead part first shows. One source differs: it says to cut at the point of discoloration.",
       "confidence": "High"
      },
      {
-      "text": "If dieback carries on after repeated cuts, keep going toward the bud union, or remove the whole cane.",
+      "text": "If the pith is still brown, keep cutting lower in small steps. One source says to remove the whole cane if no live buds remain on it.",
       "confidence": "Moderate"
      }
     ],
@@ -5773,7 +5773,7 @@
   },
   {
    "pkr_id": "PKR-DEC-000002",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "decision_logic",
    "title": "Crossing or rubbing stems — what to do once confirmed",
    "common": {
@@ -5798,14 +5798,14 @@
      "PKR-SRC-000063",
      "PKR-SRC-000064"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "governed by",
       "pkr_id": "PKR-OBS-000002"
      }
     ],
-    "preserved_uncertainty": "Only 2 of about 16 sources give any rule for which of the two stems to remove (AF-7, Low). One source argues against deliberately opening the centre of the bush (C-1, unresolved; the majority view is recorded). Whether a gardener should wait when unsure which stem to remove was not addressed by any source (AF-8).",
+    "preserved_uncertainty": "Only 2 of about 16 sources give any rule for which of the two stems to remove (AF-7, Low), so Pip gives none. The Kansas City Rose Society allows cutting back to the next outward-facing bud instead of a full cut (shown). One source argues against deliberately opening the centre of the bush (C-1, unresolved). Whether a gardener should wait when unsure which stem to remove was not addressed by any source (AF-8).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -5830,19 +5830,19 @@
     ],
     "decision_notes": [
      {
-      "text": "Remove the crossing or rubbing stem as ordinary dormant pruning.",
+      "text": "Where two stems cross or rub, remove one of them as part of ordinary pruning.",
       "confidence": "High"
      },
      {
-      "text": "Remove it completely, back to where it starts (the ground, the bud union, or the larger cane it grows from). Don't just shorten it.",
+      "text": "Cut the stem you remove back to the bud union (the swollen join near the base) or to the larger cane it grows from, rather than just shortening it. One source also allows cutting it back to the next outward-facing bud.",
       "confidence": "Moderate"
      },
      {
-      "text": "If you need to choose which one, the few sources that give a rule say remove the weaker, thinner one and keep the stronger one.",
-      "confidence": "Low"
+      "text": "When you shorten a cane, cut just above a bud that faces outward, so the new shoot grows away from the centre of the bush.",
+      "confidence": "Moderate"
      },
      {
-      "text": "Why: stems rubbing together damage each other's bark, which lets disease in.",
+      "text": "Why: stems rubbing together damage each other's canes, which lets disease in.",
       "confidence": "Moderate"
      },
      {
@@ -5863,83 +5863,6 @@
      }
     ],
     "headline_confidence": "High",
-    "gate_conditions": {
-     "PKR-SGT-000001": "applies",
-     "PKR-SGT-000002": "applies",
-     "PKR-SGT-000003": "applies"
-    },
-    "cut_care_guidance": true
-   }
-  },
-  {
-   "pkr_id": "PKR-DEC-000003",
-   "version": "1.0",
-   "pkr_type": "decision_logic",
-   "title": "Inward-growing stems — what to do once confirmed",
-   "common": {
-    "applies_to": "Established bush rose; dormant pruning",
-    "supporting_sources": [
-     "PKR-SRC-000004",
-     "PKR-SRC-000007",
-     "PKR-SRC-000022",
-     "PKR-SRC-000049",
-     "PKR-SRC-000059",
-     "PKR-SRC-000063",
-     "PKR-SRC-000064"
-    ],
-    "founder_approval_date": "2026-09-29",
-    "related_pkrs": [
-     {
-      "relationship": "governed by",
-      "pkr_id": "PKR-OBS-000003"
-     }
-    ],
-    "preserved_uncertainty": "Far fewer sources than for crossing stems (IG AF-4, Low), because of thin coverage, not disagreement. Only one source states the full-removal cut for inward stems specifically (IG AF-5). One source argues against deliberately opening the centre (C-1, unresolved).",
-    "evidence_confidence": "Per claim — see content"
-   },
-   "content": {
-    "choices": [
-     {
-      "choice": "cut",
-      "label": "Cut",
-      "cutKind": "remove-stem"
-     },
-     {
-      "choice": "leave",
-      "label": "Leave"
-     },
-     {
-      "choice": "decide-later",
-      "label": "Decide later"
-     },
-     {
-      "choice": "get-help",
-      "label": "Get experienced local help"
-     }
-    ],
-    "decision_notes": [
-     {
-      "text": "Remove a confirmed inward-growing stem the same way as a crossing stem. Few sources cover this, but none disagrees.",
-      "confidence": "Low"
-     },
-     {
-      "text": "Remove it completely, back to where it starts. Don't just shorten it.",
-      "confidence": "Moderate"
-     }
-    ],
-    "doesnt_match_choices": null,
-    "doesnt_match_notes": null,
-    "not_sure_choices": [
-     {
-      "choice": "decide-later",
-      "label": "Decide later"
-     },
-     {
-      "choice": "get-help",
-      "label": "Get experienced local help"
-     }
-    ],
-    "headline_confidence": "Low",
     "gate_conditions": {
      "PKR-SGT-000001": "applies",
      "PKR-SGT-000002": "applies",
@@ -6309,7 +6232,7 @@
   },
   {
    "pkr_id": "PKR-DEC-000007",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "decision_logic",
    "title": "Rootstock sucker — what to do once confirmed",
    "common": {
@@ -6335,7 +6258,7 @@
      "PKR-SRC-000157",
      "PKR-SRC-000158"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "governed by",
@@ -6375,12 +6298,8 @@
       "confidence": "High"
      },
      {
-      "text": "Leave: sources advise removing confirmed suckers, because they weaken the rose.",
+      "text": "Don't leave a confirmed sucker. It weakens your rose, so remove it.",
       "confidence": "High"
-     },
-     {
-      "text": "If suckers keep coming back after removal, get experienced local help.",
-      "confidence": "Low"
      }
     ],
     "doesnt_match_choices": null,
@@ -6408,24 +6327,22 @@
     "cut_care_guidance": false,
     "removal_method": [
      {
-      "text": "Uncover the point where the sucker starts, clearing soil if needed, and remove it right there. Never cut it off at soil level — a sucker cut at the surface grows back.",
+      "text": "Uncover the point where the sucker starts, clearing soil if needed, and remove it right there. Don't just cut it off at soil level, because it can grow back.",
       "confidence": "High"
      },
      {
-      "text": "Main method: with gloves on, grip the sucker as close to where it starts as you can and pull or tear it away. Tearing takes the hidden buds at its base with it, which makes regrowth less likely.",
-      "confidence": "Moderate"
+      "text": "Most sources say to grip the sucker as close to where it starts as you can and pull or tear it away, because tearing takes the dormant buds at its base with it and so makes regrowth less likely. Some sources disagree and cut it cleanly instead.",
+      "kind": "disagreement"
      },
      {
-      "text": "Alternative: some sources cut it cleanly, flush at the point where it starts. Sources disagree on which works better; both agree it must go at the origin.",
-      "confidence": "Moderate"
+      "text": "One source says to wear gloves and support the stem with one hand while you pull the sucker off. Another says to refill the soil afterwards and firm it gently around the base.",
+      "confidence": "Low",
+      "kind": "precaution"
      },
      {
-      "text": "Support the stem with one hand; afterwards refill the soil and firm it gently around the base.",
-      "confidence": "Low"
-     },
-     {
-      "text": "Take care around the base when weeding or digging — root damage is linked with suckering.",
-      "confidence": "Low"
+      "text": "Take care around the base when weeding or digging. One source says damaging the roots may cause suckers.",
+      "confidence": "Low",
+      "kind": "precaution"
      }
     ]
    }
@@ -6628,7 +6545,7 @@
   },
   {
    "pkr_id": "PKR-OBS-000001",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "observation",
    "title": "Dead vs. living wood",
    "common": {
@@ -6649,57 +6566,54 @@
      "PKR-SRC-000013",
      "PKR-SRC-000014"
     ],
-    "founder_approval_date": "2026-08-23",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "decided by",
       "pkr_id": "PKR-DEC-000001"
      }
     ],
-    "preserved_uncertainty": "No Comparison Image PKR exists yet (documented gap, Founder decision 24 August 2026). Pith colour needs a cut and flexibility needs a bend, so neither can be judged from a photo.",
+    "preserved_uncertainty": "No Comparison Image PKR exists yet (documented gap, Founder decision 24 August 2026). Pith colour needs a cut, so it cannot be judged from a photo. The bending test is no longer used (one page about woody plants in general; Build Check, 17 October 2026).",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
     "key": "dead-wood",
     "feature": "Dead versus living wood",
     "journey_order": 1,
-    "look_for": "Let's look for dead wood. Dead canes are usually brown, grey, black or shrivelled rather than green, and have no plump buds anywhere along them.",
+    "look_for": "Let's look for dead wood. Dead canes are usually brown, black or shrivelled rather than green, and have no live buds.",
     "criteria": [
      {
-      "text": "Bark colour: green suggests living; brown, grey, black or shrivelled suggests dead. Older or bronze canes can mislead.",
+      "text": "Bark colour: green suggests living; brown, black or shrivelled suggests dead. One source says living wood on older canes, or on roses with bronze stems, can look brown.",
       "confidence": "Moderate"
      },
      {
-      "text": "Buds: plump visible buds suggest living; none anywhere suggests dead.",
+      "text": "Buds: plump, healthy buds suggest living wood; no live buds suggests dead.",
       "confidence": "Moderate"
      },
      {
-      "text": "Sunken patches or lesions may be canker, not routine dead wood.",
-      "confidence": "Low"
+      "text": "Sunken patches or lesions on a cane may be canker, a fungal disease that kills more of the cane as it spreads, rather than ordinary dead wood.",
+      "confidence": "Low",
+      "kind": "precaution"
      },
      {
-      "text": "The surest check is the pith once cut: white or pale green is living; brown, grey or black is dead.",
+      "text": "Cut into the cane and look at the pith (the centre): white is living, brown is dead.",
       "confidence": "High"
-     },
-     {
-      "text": "A living cane bends; a dead one is brittle and snaps.",
-      "confidence": "Low"
      }
     ],
-    "photo_limit": "A photo can't show the pith inside the cane or how it bends — check those on the plant.",
+    "photo_limit": "A photo can't show the pith inside the cane — check that on the plant.",
     "confirm_question": "Find that cane on your rose and look at it closely. Is it dead?",
     "confirm_label": "Yes, it looks dead",
     "doesnt_match_label": "No — it's living wood",
     "doesnt_match_route": "none",
     "doesnt_match_note": null,
-    "not_sure_guidance": "Look again at the cane on the plant itself — its buds and its bark colour, right down low.",
+    "not_sure_guidance": "Look again at the cane on the plant itself — its buds and its bark colour.",
     "any_more_question": "Can you see any more dead canes?",
     "comparison_images": []
    }
   },
   {
    "pkr_id": "PKR-OBS-000002",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "observation",
    "title": "Crossing or rubbing stems",
    "common": {
@@ -6714,14 +6628,14 @@
      "PKR-SRC-000061",
      "PKR-SRC-000062"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "decided by",
       "pkr_id": "PKR-DEC-000002"
      }
     ],
-    "preserved_uncertainty": "No source describes what a rubbing wound looks like; the rubbing/crossing distinction below is an approved default, not a sourced finding. No beginner lookalike list exists (SC §6). Whether crossing and inward-growing stems usually occur together is unknown (SC §6).",
+    "preserved_uncertainty": "No source describes what a rubbing wound looks like; the rubbing/crossing distinction is an approved default, not a sourced finding. No beginner lookalike list exists (SC §6). The separate inward-growing step (PKR-OBS/DEC-000003) is retired; its outward-facing-bud cut is in PKR-DEC-000002.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
@@ -6731,8 +6645,7 @@
     "look_for": "Next, let's look for stems that cross each other or rub together.",
     "criteria": [
      {
-      "text": "A stem crossing another is a candidate. Crossing and rubbing are looked for together.",
-      "confidence": "Moderate"
+      "text": "A stem that crosses another, or rubs against it, is a candidate."
      },
      {
       "text": "Bark damage, wear or a flattened face where two stems touch: treat as rubbing.",
@@ -6751,59 +6664,6 @@
     "doesnt_match_note": null,
     "not_sure_guidance": "Take another photo from a different angle, and look again from another side.",
     "any_more_question": "Can you see any more crossing or rubbing stems?",
-    "comparison_images": []
-   }
-  },
-  {
-   "pkr_id": "PKR-OBS-000003",
-   "version": "1.0",
-   "pkr_type": "observation",
-   "title": "Inward-growing stems",
-   "common": {
-    "applies_to": "Established bush rose (Hybrid Tea, Floribunda, provisional Grandiflora); dormant pruning",
-    "supporting_sources": [
-     "PKR-SRC-000007",
-     "PKR-SRC-000013",
-     "PKR-SRC-000022",
-     "PKR-SRC-000049",
-     "PKR-SRC-000051",
-     "PKR-SRC-000060",
-     "PKR-SRC-000061",
-     "PKR-SRC-000062",
-     "PKR-SRC-000065",
-     "PKR-SRC-000066",
-     "PKR-SRC-000067",
-     "PKR-SRC-000068"
-    ],
-    "founder_approval_date": "2026-09-29",
-    "related_pkrs": [
-     {
-      "relationship": "decided by",
-      "pkr_id": "PKR-DEC-000003"
-     }
-    ],
-    "preserved_uncertainty": "Most sources don't treat an inward-growing stem as its own defect; they prevent it by cutting to an outward-facing bud (IG AF-1, Moderate). Only a few name it as something to find and remove, and their standard is a soft judgement (\"not growing in a graceful, natural direction\"). A stem curving toward a gap in the light could be mistaken for inward growth. That's a plausible but unsourced caution, worth bearing in mind, not a rule (IG §6 default). No beginner lookalike list exists (IG §6).",
-    "evidence_confidence": "Per claim — see content"
-   },
-   "content": {
-    "key": "inward-stem",
-    "feature": "Inward-growing stems",
-    "journey_order": 4,
-    "look_for": "Now let's look for stems growing into the centre of the bush.",
-    "criteria": [
-     {
-      "text": "A stem growing toward the centre of the bush is a candidate. No source gives a more specific sign.",
-      "confidence": "Low"
-     }
-    ],
-    "photo_limit": "One photo has real limits for judging which way a stem grows. Look from more than one side.",
-    "confirm_question": "Check the stem on your rose from more than one side. Is it growing into the centre?",
-    "confirm_label": "Yes, it grows inward",
-    "doesnt_match_label": "No — it doesn't",
-    "doesnt_match_route": "none",
-    "doesnt_match_note": null,
-    "not_sure_guidance": "Take another photo that shows the middle of the bush more clearly, and look again from another side.",
-    "any_more_question": "Can you see any more stems growing inward?",
     "comparison_images": []
    }
   },
@@ -7049,7 +6909,7 @@
   },
   {
    "pkr_id": "PKR-OBS-000007",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "observation",
    "title": "Rootstock suckers — shoots from below the bud union",
    "common": {
@@ -7078,7 +6938,7 @@
      "PKR-SRC-000159",
      "PKR-SRC-000162"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [
      {
       "relationship": "decided by",
@@ -7092,11 +6952,12 @@
     "key": "rootstock-sucker",
     "feature": "Rootstock suckers",
     "journey_order": 6,
-    "look_for": "Let's check for suckers. A sucker is a shoot from the rootstock your rose was grafted onto, below the bud union — the knobbly join near the base. It isn't your rose's own new cane.",
+    "look_for": "Let's check for suckers. A sucker is a shoot from the rootstock your rose was grafted onto, below the bud union — the swollen join near the base. It isn't your rose's own new cane.",
     "criteria": [
      {
-      "text": "Where the shoot starts is the deciding check: below the bud union is a sucker; at the union or just above it is your rose's own new cane, which you keep.",
-      "confidence": "High"
+      "text": "Where the shoot starts is the deciding check: below the bud union is a sucker; at the union or just above it is usually your rose's own new cane, which you keep.",
+      "confidence": "High",
+      "limit": "One nursery says the rootstock can also send up shoots from its stem above the union."
      },
      {
       "text": "A sucker can start below the soil, sometimes a little away from the plant.",
@@ -7112,16 +6973,16 @@
     "confirm_label": "Below the bud union",
     "doesnt_match_label": "At or above the bud union",
     "doesnt_match_route": "none",
-    "doesnt_match_note": "That's your rose's own new cane. Keep it — the rose's own basal canes are valuable. It's considered in the framework step.",
-    "not_sure_guidance": "That's alright. It's easy to confuse these, even for experienced gardeners. Look again at where the shoot starts, on the plant, not in a photo.",
+    "doesnt_match_note": "That is most likely your rose's own new cane. Keep it: new canes from the base are valuable. I'll look at it again when we check the main framework.",
+    "not_sure_guidance": "That's alright. Suckers and a rose's own new shoots are easy to mix up. Look again at where the shoot starts, on the plant, not in a photo.",
     "any_more_question": "Can you see any more shoots like this coming from the base?",
     "comparison_images": [],
     "sucker_steps": {
      "hasShoot": "Is there a shoot coming from the base of your rose, or from the ground near it?",
-     "unionVisible": "Can you see the bud union — the knobbly join near the base where your rose was grafted?",
+     "unionVisible": "Can you see the bud union — the swollen join near the base where your rose was grafted?",
      "noUnion": "Then I won't call it a sucker. The union may just be buried. If you like, gently clear a little soil and look again — otherwise leave the shoot, and ask experienced local help if you're concerned.",
-     "ownRoot": "If you know your rose grows on its own roots (it wasn't grafted), shoots from the base are the same rose, so none is a sucker — keep them.",
-     "supporting": "In the growing season only, these can help you look, but never decide on their own: sucker leaves are often paler or smaller or have a different number of leaflets (though the \"seven leaflets\" rule isn't reliable); sucker flowers differ from your rose's; suckers are often unusually vigorous, straight and tall."
+     "ownRoot": "If you know your rose grows on its own roots (it wasn't grafted), shoots from the base are the same rose, so they are not suckers in the usual sense.",
+     "supporting": "In the growing season only, these can help you look, but never decide on their own: sucker leaves are often paler or smaller, or have a different number of leaflets (though counting seven leaflets isn't always a reliable test); sucker flowers often differ from your rose's; suckers are often unusually vigorous."
     }
    }
   },
@@ -7193,11 +7054,11 @@
   },
   {
    "pkr_id": "PKR-SGT-000001",
-   "version": "1.1",
+   "version": "1.2",
    "pkr_type": "suitability_gate",
    "title": "Dormancy gate — is the rose in the window for structural pruning?",
    "common": {
-    "applies_to": "Established bush rose. Prerequisite for structural and whole-bush pruning (PKR-OBS/DEC-000002, 000003, 000005, 000006, and any shortening or shaping of healthy canes). Does not govern removal of wood confirmed dead, damaged or diseased (PKR-DEC-000001, PKR-DEC-000004), which follows the removal-only session.",
+    "applies_to": "Established bush rose. Prerequisite for structural and whole-bush pruning (PKR-OBS/DEC-000002, 000005, 000006, and any shortening or shaping of healthy canes). Does not govern removal of wood confirmed dead, damaged or diseased (PKR-DEC-000001, PKR-DEC-000004), which follows the removal-only session.",
     "supporting_sources": [
      "PKR-SRC-000002",
      "PKR-SRC-000003",
@@ -7228,20 +7089,20 @@
      "PKR-SRC-000171",
      "PKR-SRC-000180"
     ],
-    "founder_approval_date": "2026-09-29",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [],
     "preserved_uncertainty": "AF-3 (Moderate): in mild or warm-winter climates, full leaf loss may not occur and premature bud break is a documented risk — the gardener should judge dormancy by bud state specifically, not by whether leaves are present. A follow-up commission (FRD-BUSHROSE-DORMANCY-02, submitted alongside this package) is testing whether the bud-swell signal itself needs a stated mild-climate exception; this gate's wording will be revised if that research changes the picture.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
-    "question": "Look closely at the dormant buds along your rose's canes. Has active new growth already begun — buds swelling, breaking open, or new leaves emerging anywhere on the plant — or does the plant still appear dormant?",
-    "caveat": "If your climate is mild or unusually warm, judge this by bud state specifically — not by whether the leaves have dropped. In milder climates a rose doesn't always lose all its leaves, and buds can sometimes break earlier than expected.",
+    "question": "Look closely at the buds along your rose's canes. Are they still tight and closed, or just beginning to swell? Or have leaves opened and new shoots started to grow?",
+    "caveat": "In a mild winter, a rose may keep some of its leaves, so judge by the buds, not by whether the leaves have dropped. Warm spells can also start buds growing early.",
     "answers": {
      "dormant": "Still dormant — buds are tight and closed, or just beginning to swell; no new leaves have opened anywhere",
      "growing": "Active new growth is already well underway — leaves have opened and new shoots are clearly growing",
      "notSure": "Not sure"
     },
-    "notSureFallback": "That's alright — have another look at the buds specifically, not the leaves: are they still tight and closed, or have any started to swell or open? If you're still not certain after a closer look, the safest choice is to treat the rose as not quite ready yet, and check back in a week or two.",
+    "notSureFallback": "That's alright — have another look at the buds, not the leaves: are they still tight and closed, or have any started to swell or open?",
     "removalOnly": {
      "intro": {
       "text": "Your rose is already growing, so this is not the time for full pruning. Pruning hard now can cost you flowers. But you can still remove wood that is dead, damaged or diseased.",
@@ -7275,7 +7136,7 @@
   },
   {
    "pkr_id": "PKR-SGT-000002",
-   "version": "1.0",
+   "version": "1.1",
    "pkr_type": "suitability_gate",
    "title": "Recently planted gate — is the rose established enough for full pruning guidance?",
    "common": {
@@ -7290,38 +7151,22 @@
      "PKR-SRC-000031",
      "PKR-SRC-000032"
     ],
-    "founder_approval_date": "2026-08-23",
+    "founder_approval_date": "2026-10-17",
     "related_pkrs": [],
-    "preserved_uncertainty": "AF-1 (Moderate): the ~3-year threshold is an approximate range from the strongest available source, not a precise, validated figure; RHS's shorter \"first winter\" guidance remains unreconciled (ARC §5). AF-2 (Low): the fallback signals are unvalidated in combination and may not apply equally across own-root and grafted roses.",
+    "preserved_uncertainty": "AF-1 as corrected by the Build Check (17 October 2026): rose sources leave a newly planted rose unpruned, apart from dead wood, until it has established, but give no number of years for a bush rose; K-State's Master Gardeners prune at planting and RHS in the first winter (disagreement shown in the restricted reason). AF-2 (Low, not a precaution): the signs of establishment are not used, so an unknown planting date gets the dead-wood-only check.",
     "evidence_confidence": "Per claim — see content"
    },
    "content": {
-    "question": "Do you know approximately when this rose was planted? If so, has it been growing in this spot for about three years or more?",
+    "question": "Was this rose planted this growing season, so that this is its first season in this spot?",
     "answers": {
-     "established": "Yes, three years or more",
-     "recent": "No, it's more recent than that",
+     "established": "No, it has been growing here longer than that",
+     "recent": "Yes, it was planted this growing season",
      "unknown": "I'm not sure"
     },
     "answer_confidence": "Moderate",
-    "fallback_intro": "That's alright — plenty of gardeners aren't sure. Let's check three signs together.",
-    "fallback_questions": [
-     {
-      "key": "activeNewGrowth",
-      "label": "Is it putting out active new growth right now?"
-     },
-     {
-      "key": "caneCountAboveBaseline",
-      "label": "Does it have noticeably more canes than a newly bought rose (more than about 3)?"
-     },
-     {
-      "key": "baseFeelsFirm",
-      "label": "Does the base feel firmly rooted when you gently test it?"
-     }
-    ],
-    "fallback_confidence": "Low",
-    "fallback_rule": "all_three_support_established",
-    "restricted_reason_recent": "This rose hasn't been in the ground long enough yet for the full check, so we'll only look at dead wood today.",
-    "restricted_reason_fallback": "We can't confirm this rose is established enough yet, so we'll only look at dead wood today, to stay safe.",
+    "fallback_questions": [],
+    "restricted_reason_recent": "Most sources leave a newly planted rose unpruned, apart from dead wood, until it has established; two prune at planting or in the first winter. So I'll only look at dead wood today.",
+    "restricted_reason_fallback": "I can't tell whether this rose has established yet, so I'll only look at dead wood today.",
     "exempt_observations": [
      "PKR-OBS-000001"
     ]

@@ -1,14 +1,14 @@
-# PKR Submission Package — Older Answers Check, Batch 1: the First Checks in the Pruning Journey (draft v0.4)
+# PKR Submission Package — Older Answers Check, Batch 1: the First Checks in the Pruning Journey (v1.0, Published)
 
-**Draft, for a Founder's approval.** Built by KIT on 17 October 2026 under the Pip Knowledge Rules v0.5, after the Build Check (ROC Operations Manual Ch. 14). What a Founder reads is `Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md`.
+**Published 17 October 2026.** A Founder approved these answers in chat on 17 October 2026 ("approve"), with no change. Built by KIT on 17 October 2026 under the Pip Knowledge Rules v0.5, after the Build Check (ROC Operations Manual Ch. 14). What a Founder reads is `Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md`.
 
-**On approval:** each record below gets a new version (minor version +1), and its current version is retired. PKR-OBS-000003 and PKR-DEC-000003 (inward-growing stems) are retired without a successor; the outward-facing-bud cut moves to PKR-DEC-000002. The app change for PKR-SGT-000002 (no fallback signals: an unknown planting date gets the dead-wood-only check) is in `App/src/lib/suitabilityGates.ts`.
+**At approval:** each record below got a new version (minor version +1): PKR-SGT-000001 1.2, PKR-SGT-000002 1.1, PKR-OBS-000001 1.1, PKR-DEC-000001 1.2, PKR-OBS-000002 1.1, PKR-DEC-000002 1.1, PKR-OBS-000007 1.1, PKR-DEC-000007 1.1; the versions before them are retired. Stale internal notes (`common.applies_to` of PKR-SGT-000001; `common.preserved_uncertainty` of PKR-SGT-000002, PKR-OBS-000001, PKR-OBS-000002 and PKR-DEC-000002) were brought into line; they are not shown to gardeners. PKR-OBS-000003 and PKR-DEC-000003 (inward-growing stems) are retired without a successor; the outward-facing-bud cut moves to PKR-DEC-000002. The app change for PKR-SGT-000002 (no fallback signals: an unknown planting date gets the dead-wood-only check) is in `App/src/lib/suitabilityGates.ts`.
 
-The corrections to the six approved research records (ROC OM §14.4) are listed in section 3 of Pip's Answers and are made on approval.
+The corrections to the six approved research records (ROC OM §14.4) are listed in section 3 of Pip's Answers and were made at approval, as a Build Check Corrections section in each ARC (DORMANCY 1.3, RECENTPLANT 1.1, DEADWOOD 1.3, STEMCROSSING 1.2, INWARDGROWTH 1.2, SUCKERS 1.1).
 
 ## Records as they will be
 
-### PKR-DEC-000001 (now v1.1)
+### PKR-DEC-000001 (was v1.1)
 
 ```json
 {
@@ -63,7 +63,7 @@ The corrections to the six approved research records (ROC OM §14.4) are listed 
 }
 ```
 
-### PKR-DEC-000002 (now v1.0)
+### PKR-DEC-000002 (was v1.0)
 
 ```json
 {
@@ -130,7 +130,7 @@ The corrections to the six approved research records (ROC OM §14.4) are listed 
 }
 ```
 
-### PKR-DEC-000007 (now v1.0)
+### PKR-DEC-000007 (was v1.0)
 
 ```json
 {
@@ -213,7 +213,7 @@ The corrections to the six approved research records (ROC OM §14.4) are listed 
 }
 ```
 
-### PKR-OBS-000001 (now v1.0)
+### PKR-OBS-000001 (was v1.0)
 
 ```json
 {
@@ -252,7 +252,7 @@ The corrections to the six approved research records (ROC OM §14.4) are listed 
 }
 ```
 
-### PKR-OBS-000002 (now v1.0)
+### PKR-OBS-000002 (was v1.0)
 
 ```json
 {
@@ -285,7 +285,7 @@ The corrections to the six approved research records (ROC OM §14.4) are listed 
 }
 ```
 
-### PKR-OBS-000007 (now v1.0)
+### PKR-OBS-000007 (was v1.0)
 
 ```json
 {
@@ -327,7 +327,7 @@ The corrections to the six approved research records (ROC OM §14.4) are listed 
 }
 ```
 
-### PKR-SGT-000001 (now v1.1)
+### PKR-SGT-000001 (was v1.1)
 
 ```json
 {
@@ -371,7 +371,7 @@ The corrections to the six approved research records (ROC OM §14.4) are listed 
 }
 ```
 
-### PKR-SGT-000002 (now v1.0)
+### PKR-SGT-000002 (was v1.0)
 
 ```json
 {

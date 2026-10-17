@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-RECENTPLANT-01** |
 | ARC Title | Recently Planted Bush Roses — Pruning Restraint Suitability Gate |
-| Version | 1.0 |
+| Version | 1.1 |
 | Approval Status | **Approved** |
 | Approval Date | 23 August 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within FRD-BUSHROSE-RECENTPLANT-01 through -04, each document's own Evidence Assessment section |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | ARC-BUSHROSE-DEADWOOD-01; ARC-BUSHROSE-DORMANCY-01. This ARC covers a different Suitability and Safety Area (Architecture §5.4's "recent planting," distinct from "dormancy or active growth") but supports the same MVP journey. |
-| Revision History | v1.0 — 23 August 2026 — initial creation, synthesising FRD-BUSHROSE-RECENTPLANT-01 through -04, Founder-approved with the two-tier gate design (§2). |
+| Revision History | v1.1 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 1). v1.0 — 23 August 2026 — initial creation, synthesising FRD-BUSHROSE-RECENTPLANT-01 through -04, Founder-approved with the two-tier gate design (§2). |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS) v1.4; Founder Review Dossier Standard (FRDS) v1.1; `MVP/Architecture/Ask_Pip_MVP_Bush_Rose_V1_Architecture.md` §5.4 |
 
@@ -143,6 +143,19 @@ Each Assessed Finding is reproduced here faithfully from the Founder-approved Ev
 ## 7. Downstream Note for KIT
 
 KIT should build this gate's Suitability Gate PKR strictly from AF-1 and AF-2 (§3's "operationalised" column). AF-3 and AF-4 are preserved here for traceability and potential future revision but must **not** appear in the published gate's Question, Acceptable Answers, or Stopping Threshold — including them would introduce content the Founder explicitly declined to operationalise at this time. The gate's fallback path (AF-2) must route any ambiguous, mixed, or "not sure" signal reading to the conservative (not-yet-established) outcome, never to a guessed pass, per the Founder's explicit safety framing recorded at §2.
+
+---
+
+## Build Check Corrections (17 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 1, every source page was reopened with WebFetch and every recorded quotation looked for, and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md` (§3) and approved by a Founder in chat on 17 October 2026, as §14.4 requires for an approved ARC. Where they differ from §4, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH1_sources_2026-10-16.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-1 | Full pruning should wait about three or more years after planting; dead wood may go sooner (Moderate) | A newly planted bush rose is not pruned (other than dead wood) until it has established: the Marin Rose Society ('Do not prune newly planted roses – they need to get established before you remove any growth (other than dead wood)'), a rose writer in Fine Gardening ('let my roses get to mature size and fully establish themselves first') and Cornell Extension (in the first season, cut flowers only). No page gives a number of years for a bush rose: 'three or more years' is Illinois Extension's figure for ever-blooming shrub roses. Two sources differ: K-State Extension's Master Gardeners prune at planting, and RHS prunes in the first winter after planting. | Moderate → Moderate (the restraint); Low (any number of years) | The check found no bush-rose page that gives three years (two of the five pages do not support the finding as written). |
+| AF-2 | Signs of establishment when the planting date is unknown (Low) | Unchanged. Limitation added: new growth and firm anchoring are from one commercial page about shrubs in general (ForeverYard); the three-cane baseline is from a nursery's grading and the Marin Rose Society. | Low → Low | — |
+
+**Effect on Pip's answers.** The recently-planted gate (PKR-SGT-000002 v1.1) now asks whether the rose was planted this growing season, not whether it has grown in its spot for about three years. AF-2's signs of establishment are not used (Low, not a precaution), so an unknown planting date gets the dead-wood-only check. Settled by a Founder's direction, "whatever the research most strongly suggests" (16 October 2026).
 
 ---
 

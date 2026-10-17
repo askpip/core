@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-INWARDGROWTH-01** |
 | ARC Title | Inward-Growing Stems on an Established, Dormant Bush Rose — Recognition, Photographic Limits, and Pruning Choices |
-| Version | 1.1 |
+| Version | 1.2 |
 | Approval Status | **Approved** |
 | Approval Date | 28 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Karla, via finished, decisive Review Form — sufficient per ROC Operations Manual §11.2A) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-INWARDGROWTH-02` §8 (all 6 Assessed Findings) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | `ARC-BUSHROSE-STEMCROSSING-01` (the companion dossier from the same research commission; AF-3 and AF-6 below are stated identically there, since the underlying evidence concerns structural photo-assessment and general pruning timing generally, not either observation specifically). `ARC-BUSHROSE-DEADWOOD-01` (generic pruning safety, cross-referred to). `ARC-BUSHROSE-PRUNINGFRAMEWORK-01` (general cut mechanics, cross-referred to). |
-| Revision History | v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-INWARDGROWTH-02`, Founder-approved for AF-1 to AF-6 as a whole. v1.1 — 29 September 2026 — §8 Source Register added, per ROC Operations Manual §12.6/§12.10 (v2.9), from `Working/AI Outputs/Source_Register_Addendum_STEMCROSSING_INWARDGROWTH.md`, approved by Shaphan 29 September 2026. No Assessed Finding, Evidence Confidence Level, conflict, default or Founder decision changed. |
+| Revision History | v1.2 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 1). v1.0 — 28 September 2026 — initial creation, synthesising `FRD-BUSHROSE-INWARDGROWTH-02`, Founder-approved for AF-1 to AF-6 as a whole. v1.1 — 29 September 2026 — §8 Source Register added, per ROC Operations Manual §12.6/§12.10 (v2.9), from `Working/AI Outputs/Source_Register_Addendum_STEMCROSSING_INWARDGROWTH.md`, approved by Shaphan 29 September 2026. No Assessed Finding, Evidence Confidence Level, conflict, default or Founder decision changed. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01` |
 
@@ -186,6 +186,20 @@ Added at version 1.1 (29 September 2026) under ROC Operations Manual §12.6 and 
 | MGNV | Master Gardeners of Northern Virginia, Illustrated Glossary, "Phototropism" (11 Aug 2021) | <https://mgnv.org/plants/glossary/glossary-phototropism/> | Confirmed | A botanical definition only; the phototropism caution itself remains unsourced (IG §6). |
 
 **Founder decision on the matter reported (Shaphan, 29 September 2026):** AF-6 stays at **Moderate**, now resting on two confirmed sources (OSU; ISU-LINN) with CSU-ASK marked Not located.
+
+---
+
+## Build Check Corrections (17 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 1, every source page was reopened with WebFetch and every recorded quotation looked for, and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md` (§3) and approved by a Founder in chat on 17 October 2026, as §14.4 requires for an approved ARC. Where they differ from §4, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH1_sources_2026-10-16.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-3 | A single photograph has limits for judging growth direction (Low) | As for STEMCROSSING AF-4: the pages say to look at the plant from all sides; no page checked speaks of photographs. | Low → Low | — |
+| AF-4 | Remove a confirmed inward-growing stem, as for crossing stems (Low) | Unchanged. Limitation added: Dunedin Botanic Garden says to remove inward-facing growth in the winter pruning but does not link it with crossing stems. | Low → Low | — |
+| AF-5 | The cut is a full cut to the point of origin (Moderate) | As for STEMCROSSING AF-6: the Kansas City Rose Society also allows a cut back to the next outward-facing bud. | Moderate → Moderate | — |
+
+**Effect on Pip's answers.** The separate inward-growing step (PKR-OBS-000003, PKR-DEC-000003) is retired without a successor, because its sign and its removal rested on Low findings. AF-1 (Moderate: cut to an outward-facing bud) is used in PKR-DEC-000002 v1.1. Settled by a Founder's direction, "whatever the research most strongly suggests" (16 October 2026).
 
 ---
 

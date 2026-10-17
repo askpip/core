@@ -1,0 +1,96 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-DEC-000001",
+  "version": "1.2",
+  "pkr_type": "decision_logic",
+  "status": "Published",
+  "title": "Dead vs. living wood — cut/leave decision",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning, or the removal-only session of PKR-SGT-000001 v1.1 §2.1",
+    "supporting_sources": [
+      "PKR-SRC-000001",
+      "PKR-SRC-000002",
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000007",
+      "PKR-SRC-000008",
+      "PKR-SRC-000013",
+      "PKR-SRC-000015",
+      "PKR-SRC-000021",
+      "PKR-SRC-000069",
+      "PKR-SRC-000163",
+      "PKR-SRC-000164",
+      "PKR-SRC-000165",
+      "PKR-SRC-000174",
+      "PKR-SRC-000177",
+      "PKR-SRC-000179"
+    ],
+    "founder_approval_date": "2026-10-17",
+    "related_pkrs": [
+      {
+        "relationship": "governed by",
+        "pkr_id": "PKR-OBS-000001"
+      }
+    ],
+    "preserved_uncertainty": null,
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "choices": [
+      {
+        "choice": "cut",
+        "label": "Cut",
+        "cutKind": "dead-wood"
+      },
+      {
+        "choice": "leave",
+        "label": "Leave"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "decision_notes": [
+      {
+        "text": "Cut a dead cane back into living wood, where the pith is white, not just to where the dead part first shows. One source differs: it says to cut at the point of discoloration.",
+        "confidence": "High"
+      },
+      {
+        "text": "If the pith is still brown, keep cutting lower in small steps. One source says to remove the whole cane if no live buds remain on it.",
+        "confidence": "Moderate"
+      }
+    ],
+    "doesnt_match_choices": null,
+    "doesnt_match_notes": null,
+    "not_sure_choices": [
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "headline_confidence": "High",
+    "gate_conditions": {
+      "PKR-SGT-000001": "removal_allowed_after_bud_break",
+      "PKR-SGT-000002": "exempt",
+      "PKR-SGT-000003": "applies"
+    },
+    "cut_care_guidance": true
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH1-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-17",
+    "note": "Older answers check, batch 1: a Founder approved Pip's corrected answers in chat on 17 October 2026 ('approve'), after reading Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md, with no change. Version 1.2: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.1 retired."
+  }
+}

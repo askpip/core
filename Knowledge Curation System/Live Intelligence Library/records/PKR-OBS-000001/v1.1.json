@@ -1,0 +1,76 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-OBS-000001",
+  "version": "1.1",
+  "pkr_type": "observation",
+  "status": "Published",
+  "title": "Dead vs. living wood",
+  "common": {
+    "applies_to": "Established bush rose; dormant pruning",
+    "supporting_sources": [
+      "PKR-SRC-000001",
+      "PKR-SRC-000002",
+      "PKR-SRC-000003",
+      "PKR-SRC-000004",
+      "PKR-SRC-000005",
+      "PKR-SRC-000006",
+      "PKR-SRC-000007",
+      "PKR-SRC-000008",
+      "PKR-SRC-000009",
+      "PKR-SRC-000010",
+      "PKR-SRC-000011",
+      "PKR-SRC-000012",
+      "PKR-SRC-000013",
+      "PKR-SRC-000014"
+    ],
+    "founder_approval_date": "2026-10-17",
+    "related_pkrs": [
+      {
+        "relationship": "decided by",
+        "pkr_id": "PKR-DEC-000001"
+      }
+    ],
+    "preserved_uncertainty": "No Comparison Image PKR exists yet (documented gap, Founder decision 24 August 2026). Pith colour needs a cut, so it cannot be judged from a photo. The bending test is no longer used (one page about woody plants in general; Build Check, 17 October 2026).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "key": "dead-wood",
+    "feature": "Dead versus living wood",
+    "journey_order": 1,
+    "look_for": "Let's look for dead wood. Dead canes are usually brown, black or shrivelled rather than green, and have no live buds.",
+    "criteria": [
+      {
+        "text": "Bark colour: green suggests living; brown, black or shrivelled suggests dead. One source says living wood on older canes, or on roses with bronze stems, can look brown.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Buds: plump, healthy buds suggest living wood; no live buds suggests dead.",
+        "confidence": "Moderate"
+      },
+      {
+        "text": "Sunken patches or lesions on a cane may be canker, a fungal disease that kills more of the cane as it spreads, rather than ordinary dead wood.",
+        "confidence": "Low",
+        "kind": "precaution"
+      },
+      {
+        "text": "Cut into the cane and look at the pith (the centre): white is living, brown is dead.",
+        "confidence": "High"
+      }
+    ],
+    "photo_limit": "A photo can't show the pith inside the cane — check that on the plant.",
+    "confirm_question": "Find that cane on your rose and look at it closely. Is it dead?",
+    "confirm_label": "Yes, it looks dead",
+    "doesnt_match_label": "No — it's living wood",
+    "doesnt_match_route": "none",
+    "doesnt_match_note": null,
+    "not_sure_guidance": "Look again at the cane on the plant itself — its buds and its bark colour.",
+    "any_more_question": "Can you see any more dead canes?",
+    "comparison_images": []
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH1-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-17",
+    "note": "Older answers check, batch 1: a Founder approved Pip's corrected answers in chat on 17 October 2026 ('approve'), after reading Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+  }
+}

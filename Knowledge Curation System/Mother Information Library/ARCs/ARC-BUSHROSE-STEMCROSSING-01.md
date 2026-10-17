@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-STEMCROSSING-01** |
 | ARC Title | Crossing or Rubbing Stems on an Established, Dormant Bush Rose — Recognition, Photographic Limits, and Pruning Choices |
-| Version | 1.1 |
+| Version | 1.2 |
 | Approval Status | **Approved** |
 | Approval Date | 27 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-STEMCROSSING-02` §8 (all 8 Assessed Findings) |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | ARC-BUSHROSE-DEADWOOD-01 (generic pruning safety, cross-referred to, not re-assessed); ARC-BUSHROSE-PRUNINGFRAMEWORK-01 (general cut mechanics, cross-referred to; its AF-33 is corroborated and extended by this ARC's AF-7). Companion research: `FRD-BUSHROSE-INWARDGROWTH-01` (inward-growing stems, from the same commission, pending its own approval). |
-| Revision History | v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-STEMCROSSING-02`, Founder-approved for AF-1 to AF-8 as a whole. v1.1 — 29 September 2026 — §8 Source Register added, per ROC Operations Manual §12.6/§12.10 (v2.9), from `Working/AI Outputs/Source_Register_Addendum_STEMCROSSING_INWARDGROWTH.md`, approved by Shaphan 29 September 2026. No Assessed Finding, Evidence Confidence Level, conflict, default or Founder decision changed. |
+| Revision History | v1.2 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 1). v1.0 — 27 September 2026 — initial creation, synthesising `FRD-BUSHROSE-STEMCROSSING-02`, Founder-approved for AF-1 to AF-8 as a whole. v1.1 — 29 September 2026 — §8 Source Register added, per ROC Operations Manual §12.6/§12.10 (v2.9), from `Working/AI Outputs/Source_Register_Addendum_STEMCROSSING_INWARDGROWTH.md`, approved by Shaphan 29 September 2026. No Assessed Finding, Evidence Confidence Level, conflict, default or Founder decision changed. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS); `FRD-BUSHROSE-SCOPE-01` |
 
@@ -227,6 +227,23 @@ Added at version 1.1 (29 September 2026) under ROC Operations Manual §12.6 and 
 | CSU-ASK | Colorado State University Extension / Ask Extension, answer recommending light autumn pruning with structural pruning deferred to spring | — | **Not located** | Several Ask Extension and CSU pages were checked. None matched the described answer, and one likely candidate is marked private. It is not substituted. SC AF-8 and IG AF-6 still rest on two other confirmed sources (OSU, ISU-LINN). |
 
 **Founder decisions on the matters reported (Shaphan, 29 September 2026):** AF-8 stays at **Moderate**, now resting on two confirmed sources (OSU; ISU-LINN) with CSU-ASK marked Not located. AF-6 stays at Moderate. The UAEXFSA title correction and evidence discrepancy are recorded above; five other confirmed sources support the finding.
+
+---
+
+## Build Check Corrections (17 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 1, every source page was reopened with WebFetch and every recorded quotation looked for, and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md` (§3) and approved by a Founder in chat on 17 October 2026, as §14.4 requires for an approved ARC. Where they differ from §4, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH1_sources_2026-10-16.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-1 | Crossing and rubbing stems are treated as a pair (Moderate) | Unchanged in wording. RHS 'Rose pruning: general tips' and Illinois Extension 'Pruning' are no longer relied on for it (one names crossing stems only, the other neither). Rests on the Kansas City Rose Society, Oregon State and Texas A&M. | Moderate → Low | Lowered: one page states the pair outright; two in part. |
+| AF-2 | Rubbing damages the bark, which lets disease in (Moderate) | Unchanged. Illinois Extension 'Pruning' is no longer relied on for it. Rests on Oregon State and the Kansas City Rose Society. | Moderate → Moderate | Two independent pages, both confirmed. |
+| AF-4 | A single photograph has limits for judging whether stems touch (Low) | Pruning guides say to look at the plant from all sides before cutting (Missouri Master Gardeners; North Carolina State Extension). No page checked speaks of photographs; the app's photo limits rest on a Founder's decision (ARC-BUSHROSE-DEADWOOD-01 §6). The academic study (Berland) could not be opened. | Low → Low | The pages support 'look from all sides', not the photo claim. |
+| AF-5 | Once confirmed, a crossing or rubbing stem is removed as routine dormant pruning (High) | Unchanged. Limitation added: the USDA Forest Service page is about trees and the University of Missouri page about ornamentals in general; the rose pages (RHS, Florida Extension, Clemson, Texas A&M, the Nashville Rose Society and others) carry the level. | High → High | — |
+| AF-6 | The cut is a full cut to the stem's point of origin (Moderate) | Unchanged in wording. The USDA Forest Service page (trees; cuts at a node) is no longer relied on. Rests on the Portland Rose Society ('removed entirely back to the bud union, or back to the major cane') and a former American Rose Society president ('flush with the bud union or flush with the cane'). Conflict recorded: the Kansas City Rose Society allows 'to the ground or back to the next outward facing bud'. | Moderate → Moderate | Two rose pages agree; one allows a shortening cut instead. |
+| AF-7 | Tie-break: keep the stronger cane (Low) | Unchanged. Limitation added: Florida Extension says remove the weaker rubbing or crossing branch; the Portland page keeps the larger cane among crowded canes. | Low → Low | — |
+
+**Effect on Pip's answers.** PKR-OBS-000002 v1.1 and PKR-DEC-000002 v1.1: the pair claim carries no label; the tie-break (AF-7) is not used; the Kansas City outward-bud cut is shown as one source; the outward-facing-bud cut (INWARDGROWTH AF-1) is added to PKR-DEC-000002.
 
 ---
 

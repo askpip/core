@@ -1,0 +1,125 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-DEC-000007",
+  "version": "1.1",
+  "pkr_type": "decision_logic",
+  "status": "Published",
+  "title": "Rootstock sucker — what to do once confirmed",
+  "common": {
+    "applies_to": "Established grafted Hybrid Tea, Floribunda or provisional Grandiflora rose",
+    "supporting_sources": [
+      "PKR-SRC-000007",
+      "PKR-SRC-000066",
+      "PKR-SRC-000098",
+      "PKR-SRC-000139",
+      "PKR-SRC-000140",
+      "PKR-SRC-000141",
+      "PKR-SRC-000142",
+      "PKR-SRC-000143",
+      "PKR-SRC-000144",
+      "PKR-SRC-000145",
+      "PKR-SRC-000146",
+      "PKR-SRC-000147",
+      "PKR-SRC-000148",
+      "PKR-SRC-000149",
+      "PKR-SRC-000150",
+      "PKR-SRC-000151",
+      "PKR-SRC-000155",
+      "PKR-SRC-000157",
+      "PKR-SRC-000158"
+    ],
+    "founder_approval_date": "2026-10-17",
+    "related_pkrs": [
+      {
+        "relationship": "governed by",
+        "pkr_id": "PKR-OBS-000007"
+      }
+    ],
+    "preserved_uncertainty": "Sources disagree on tearing versus cutting at the origin, and no trial compares them on roses (C-1; R-4). Sources differ on removing early versus waiting for the first flowers to identify a sucker (C-5); Pip follows removal on confirmed origin. Each precaution rests on a single source (AF-22).",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "choices": [
+      {
+        "choice": "cut",
+        "label": "Remove the sucker where it starts",
+        "cutKind": "sucker"
+      },
+      {
+        "choice": "leave",
+        "label": "Leave"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "decision_notes": [
+      {
+        "text": "Suckers draw strength from your rose and, left alone, can take it over.",
+        "confidence": "High"
+      },
+      {
+        "text": "Remove it early, while it's young — it's easier then.",
+        "confidence": "High"
+      },
+      {
+        "text": "Don't leave a confirmed sucker. It weakens your rose, so remove it.",
+        "confidence": "High"
+      }
+    ],
+    "doesnt_match_choices": null,
+    "doesnt_match_notes": null,
+    "not_sure_choices": [
+      {
+        "choice": "leave",
+        "label": "Leave it"
+      },
+      {
+        "choice": "decide-later",
+        "label": "Decide later"
+      },
+      {
+        "choice": "get-help",
+        "label": "Get experienced local help"
+      }
+    ],
+    "headline_confidence": "High",
+    "gate_conditions": {
+      "PKR-SGT-000001": "removal_allowed_after_bud_break",
+      "PKR-SGT-000002": "applies",
+      "PKR-SGT-000003": "applies"
+    },
+    "cut_care_guidance": false,
+    "removal_method": [
+      {
+        "text": "Uncover the point where the sucker starts, clearing soil if needed, and remove it right there. Don't just cut it off at soil level, because it can grow back.",
+        "confidence": "High"
+      },
+      {
+        "text": "Most sources say to grip the sucker as close to where it starts as you can and pull or tear it away, because tearing takes the dormant buds at its base with it and so makes regrowth less likely. Some sources disagree and cut it cleanly instead.",
+        "kind": "disagreement"
+      },
+      {
+        "text": "One source says to wear gloves and support the stem with one hand while you pull the sucker off. Another says to refill the soil afterwards and firm it gently around the base.",
+        "confidence": "Low",
+        "kind": "precaution"
+      },
+      {
+        "text": "Take care around the base when weeding or digging. One source says damaging the roots may cause suckers.",
+        "confidence": "Low",
+        "kind": "precaution"
+      }
+    ]
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH1-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-17",
+    "note": "Older answers check, batch 1: a Founder approved Pip's corrected answers in chat on 17 October 2026 ('approve'), after reading Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+  }
+}

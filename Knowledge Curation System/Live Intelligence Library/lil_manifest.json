@@ -1,7 +1,7 @@
 {
   "schema": "pip-lil-manifest/1",
-  "record_count": 590,
-  "published_count": 473,
+  "record_count": 598,
+  "published_count": 471,
   "records": [
     {
       "pkr_id": "PKR-CGD-000001",
@@ -447,23 +447,39 @@
       "pkr_id": "PKR-DEC-000001",
       "version": "1.1",
       "pkr_type": "decision_logic",
-      "status": "Published",
+      "status": "Retired",
       "title": "Dead vs. living wood — cut/leave decision",
       "sha256": "29e28d52cee21c0f771043d4f86a9a615b45978fe335efede68ae7067a149423"
+    },
+    {
+      "pkr_id": "PKR-DEC-000001",
+      "version": "1.2",
+      "pkr_type": "decision_logic",
+      "status": "Published",
+      "title": "Dead vs. living wood — cut/leave decision",
+      "sha256": "54f78130b5a0e90964fce87a100b188441a2f2632024bd7cb42eb9fce4549542"
     },
     {
       "pkr_id": "PKR-DEC-000002",
       "version": "1.0",
       "pkr_type": "decision_logic",
-      "status": "Published",
+      "status": "Retired",
       "title": "Crossing or rubbing stems — what to do once confirmed",
       "sha256": "de9368e7f4da0289dc5776da3d3a05a74f513d457b285353e6cdfbc6e9e976e6"
+    },
+    {
+      "pkr_id": "PKR-DEC-000002",
+      "version": "1.1",
+      "pkr_type": "decision_logic",
+      "status": "Published",
+      "title": "Crossing or rubbing stems — what to do once confirmed",
+      "sha256": "19b53ac632f7957df9d48c51965ae7dae6dbcc23f10e03e7a3f068fc6f4062c8"
     },
     {
       "pkr_id": "PKR-DEC-000003",
       "version": "1.0",
       "pkr_type": "decision_logic",
-      "status": "Published",
+      "status": "Retired",
       "title": "Inward-growing stems — what to do once confirmed",
       "sha256": "405aa15f2c92c69eb48b78faca7e8afd1fe7b8f76acfc13f28c4f5bf4ef8d45a"
     },
@@ -495,9 +511,17 @@
       "pkr_id": "PKR-DEC-000007",
       "version": "1.0",
       "pkr_type": "decision_logic",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rootstock sucker — what to do once confirmed",
       "sha256": "33c6bd4c41bfe694bce3b855d66086eae4051f114131d9726110155367ead1dc"
+    },
+    {
+      "pkr_id": "PKR-DEC-000007",
+      "version": "1.1",
+      "pkr_type": "decision_logic",
+      "status": "Published",
+      "title": "Rootstock sucker — what to do once confirmed",
+      "sha256": "4104b5bf9e274fd13ddd848732855ff10c2512978a9cb47bbeaf9765521e2548"
     },
     {
       "pkr_id": "PKR-DEC-000008",
@@ -551,23 +575,39 @@
       "pkr_id": "PKR-OBS-000001",
       "version": "1.0",
       "pkr_type": "observation",
-      "status": "Published",
+      "status": "Retired",
       "title": "Dead vs. living wood",
       "sha256": "c7c973fe82f9698fd3db5f0d97ef912a38c4f47c53ad78e34b20b9a48f48c32c"
+    },
+    {
+      "pkr_id": "PKR-OBS-000001",
+      "version": "1.1",
+      "pkr_type": "observation",
+      "status": "Published",
+      "title": "Dead vs. living wood",
+      "sha256": "6adff49a1991f070e55ca1958414f4140252745009ad8c10ef765c2fe8cc13ce"
     },
     {
       "pkr_id": "PKR-OBS-000002",
       "version": "1.0",
       "pkr_type": "observation",
-      "status": "Published",
+      "status": "Retired",
       "title": "Crossing or rubbing stems",
       "sha256": "3f3a7595b0c18b0acafdcfbc3501d0ac381696d865933028bb8f7698b34c32ff"
+    },
+    {
+      "pkr_id": "PKR-OBS-000002",
+      "version": "1.1",
+      "pkr_type": "observation",
+      "status": "Published",
+      "title": "Crossing or rubbing stems",
+      "sha256": "4392be7c5d0fc9f95020b007b1eee7133aa61576522f6df979cc682342cce781"
     },
     {
       "pkr_id": "PKR-OBS-000003",
       "version": "1.0",
       "pkr_type": "observation",
-      "status": "Published",
+      "status": "Retired",
       "title": "Inward-growing stems",
       "sha256": "76a0a0ff2ff5e2976b78eff4a23e4afefa35b2a36af7db6881a9ab6a3fe3379c"
     },
@@ -599,9 +639,17 @@
       "pkr_id": "PKR-OBS-000007",
       "version": "1.0",
       "pkr_type": "observation",
-      "status": "Published",
+      "status": "Retired",
       "title": "Rootstock suckers — shoots from below the bud union",
       "sha256": "2a11296bea8c9b515d53d1802c9e63627a003732f7b539f4dacc7096f1da8b28"
+    },
+    {
+      "pkr_id": "PKR-OBS-000007",
+      "version": "1.1",
+      "pkr_type": "observation",
+      "status": "Published",
+      "title": "Rootstock suckers — shoots from below the bud union",
+      "sha256": "922ddf294fdfbee4b2f45db7b6b12f60b21db01782ef5f1e87eacebc74fe8fc2"
     },
     {
       "pkr_id": "PKR-OBS-000008",
@@ -615,17 +663,33 @@
       "pkr_id": "PKR-SGT-000001",
       "version": "1.1",
       "pkr_type": "suitability_gate",
-      "status": "Published",
+      "status": "Retired",
       "title": "Dormancy gate — is the rose in the window for structural pruning?",
       "sha256": "932db62dd86789a6686bf1d8993ac74529f449b702133c1aa5d536ef5138d4ac"
+    },
+    {
+      "pkr_id": "PKR-SGT-000001",
+      "version": "1.2",
+      "pkr_type": "suitability_gate",
+      "status": "Published",
+      "title": "Dormancy gate — is the rose in the window for structural pruning?",
+      "sha256": "91f249d79ef9a51ab38538f7ed6c15f6943eae57517063b487d43063a384b3f8"
     },
     {
       "pkr_id": "PKR-SGT-000002",
       "version": "1.0",
       "pkr_type": "suitability_gate",
-      "status": "Published",
+      "status": "Retired",
       "title": "Recently planted gate — is the rose established enough for full pruning guidance?",
       "sha256": "a98a05650057fbbca8862ac818b480a73560a9fd55feb38a57a95ad95a33f1f9"
+    },
+    {
+      "pkr_id": "PKR-SGT-000002",
+      "version": "1.1",
+      "pkr_type": "suitability_gate",
+      "status": "Published",
+      "title": "Recently planted gate — is the rose established enough for full pruning guidance?",
+      "sha256": "dd3d0e4722572fd034c8db3e5f3551366a0c21cf2427698cdbe299cd0c9e3ea9"
     },
     {
       "pkr_id": "PKR-SGT-000003",

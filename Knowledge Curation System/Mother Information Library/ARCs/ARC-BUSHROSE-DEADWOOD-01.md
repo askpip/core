@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-DEADWOOD-01** |
 | ARC Title | Dead Wood vs. Living Wood — Established Dormant Bush Rose |
-| Version | 1.2 |
+| Version | 1.3 |
 | Approval Status | **Approved** |
 | Approval Date | 22 August 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within FRD-BUSHROSE-DEADWOOD-01 §8 (Evidence Assessment); not separately filed |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding below (§4) — no single blended level, per EAS v1.3 §2.9/§3.2 and MIL Standard v0.05 |
 | Related ARCs | None yet. This is the first ARC created within the Mother Information Library. |
-| Revision History | v1.2 — 22 August 2026 — added AF-7 and AF-8 (the decision-rule findings: cutting back confirmed dead wood; escalating removal where dieback persists), assessed from source material already in §4's log, and a Founder observation on confirmed living wood. v1.1 — 22 August 2026 — added Founder observation on the photograph vs. physical-check boundary (§6). v1.0 — 22 August 2026 — initial creation, from FRD-BUSHROSE-DEADWOOD-01, Founder-approved in full. See §9 for full detail. |
+| Revision History | v1.3 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 1). v1.2 — 22 August 2026 — added AF-7 and AF-8 (the decision-rule findings: cutting back confirmed dead wood; escalating removal where dieback persists), assessed from source material already in §4's log, and a Founder observation on confirmed living wood. v1.1 — 22 August 2026 — added Founder observation on the photograph vs. physical-check boundary (§6). v1.0 — 22 August 2026 — initial creation, from FRD-BUSHROSE-DEADWOOD-01, Founder-approved in full. See §9 for full detail. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard §"Custodianship" |
 | Related Documents | Mother Information Library (MIL) Standard v0.05; Evidence Assessment Standard (EAS) v1.3; Founder Review Dossier Standard (FRDS) v1.1; ROC Operations Manual Chapter 12 |
 
@@ -252,9 +252,27 @@ This ARC is traceable to:
 
 | Version | Date | Change | Authority |
 |---|---|---|---|
+| 1.3 | 17 October 2026 | Added the Build Check Corrections section (older-answers check, batch 1): limitations, dropped sources, recorded conflicts and reworded findings, as listed there. | A Founder, AskPIP Founder Authority |
 | 1.2 | 22 August 2026 | Added AF-7 (High) and AF-8 (Moderate) — the decision-rule findings (cutting back confirmed dead wood; escalating removal where dieback persists) — assessed from source material already present in the existing source log, plus a Founder observation (§6A) on confirmed living wood. Prompted by the Founder's observation that a Decision Logic PKR needs its own properly-evidenced, separately-confidence-rated content, not an assumption carried over from the diagnostic findings. | Shaphan, AskPIP Founder Authority |
 | 1.1 | 22 August 2026 | Added §6, a Founder observation on the photograph vs. physical-check boundary, resolving the gap a KIT dry run identified (the Observation PKR's "What the Photo Cannot Establish" field). Approved as Founder-authority content, not as a new Assessed Finding. | Shaphan, AskPIP Founder Authority |
 | 1.0 | 22 August 2026 | Initial creation from FRD-BUSHROSE-DEADWOOD-01, all six Assessed Findings approved as assessed | Shaphan, AskPIP Founder Authority |
+
+---
+
+## Build Check Corrections (17 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 1, every source page was reopened with WebFetch and every recorded quotation looked for, and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md` (§3) and approved by a Founder in chat on 17 October 2026, as §14.4 requires for an approved ARC. Where they differ from §4, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH1_sources_2026-10-16.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-1 | Pith colour; cut from the tip in small steps; dull tools crush the cane (High) | Unchanged in wording. Limitation added: each page gives part. White pith is living on every page; pale green on Oregon State only; brown or grey as dead on Iowa State, Texas A&M (El Paso) and Oregon State; black on Georgia only; cutting down in steps on Georgia and El Paso; dull tools crushing the cane on Iowa State only. | High → High | Seven pages agree on white pith as living and brown as dead; the other details each rest on one or two pages. |
+| AF-2 | Bark colour, with the false-negative risk for older or bronze canes (Moderate) | Unchanged in wording. RHS 'Rose pruning: general tips' (PKR-SRC-000001) is no longer relied on for it: the page does not use bark colour as a live/dead test. The bronze and older-cane risk rests on Colorado State Extension ('Live wood on older canes or roses with bronze stems may look brown instead of green'). | Moderate → Moderate | Four pages remain (American Rose Society, Colorado State, Iowa State, Illinois Extension). |
+| AF-3 | Plump buds show living wood; a cane with no live buds is removed (Moderate) | Unchanged in wording. The American Rose Society page (PKR-SRC-000013) is no longer relied on for it: it mentions the eye only as where to cut. Rests on Clemson Extension ('If no live buds remain, remove the entire cane') and Iowa State Extension ('Live wood is green and has plump, healthy buds'). | Moderate → Moderate | Two independent extension pages. |
+| AF-5 | Normal red, purple or bronze colouring can look like canker (Low) | Limitation added: the University of Maryland page describes canker (sunken, darker, ringed lesions) but not normal colouring; Colorado Master Gardeners say canker lesions 'vary in color but can be a light brown to a dark purple'. | Low → Low | Each page gives part. |
+| AF-7 | Cut dead wood back into living tissue, not just to where dead tissue first shows (High) | Unchanged in wording. Conflict recorded: Illinois Extension says to cut dead canes 'at the base or at the point of discoloration'; University of Missouri Extension says to cut at least an inch below the dead area. | High → High | RHS, Colorado State, the American Rose Society and four other pages support cutting back into healthy tissue; Illinois differs. |
+| AF-8 | If dieback carries on, keep going to the bud union or the whole cane (Moderate) | Unchanged. Limitation added: Clemson (South Carolina) says remove the whole cane; Colorado State supports cutting in steps but not continuing to the bud union. | Moderate → Moderate | — |
+
+**Effect on Pip's answers.** PKR-OBS-000001 v1.1 and PKR-DEC-000001 v1.2: grey bark, "the surest check" and the bending test are no longer used; the Illinois dissent and Clemson's whole-cane removal are named as one source each.
 
 ---
 

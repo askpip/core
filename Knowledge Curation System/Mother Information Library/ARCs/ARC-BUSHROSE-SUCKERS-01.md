@@ -6,7 +6,7 @@
 |---|---|
 | ARC Identifier | **ARC-BUSHROSE-SUCKERS-01** |
 | ARC Title | Rootstock Suckers on a Grafted Bush Rose — Recognition, Reliability, Removal and When to Get Help |
-| Version | 1.0 |
+| Version | 1.1 |
 | Approval Status | **Approved** |
 | Approval Date | 29 September 2026 |
 | Approving Authority | AskPIP Founder Authority (Shaphan, in chat, 29 September 2026) |
@@ -15,7 +15,7 @@
 | Associated Evidence Assessment | Embedded within `FRD-BUSHROSE-SUCKERS-01` §8 (all 25 Assessed Findings), reproduced at §4A |
 | Evidence Confidence Level(s) | Recorded per Assessed Finding (§3) — no single blended level, per EAS §2.9/§3.2 |
 | Related ARCs | `ARC-BUSHROSE-PRUNINGFRAMEWORK-01` (AF-8 sucker removal, previously held; AF-10 basal shoots — this ARC resolves AF-8's recognition gap in part). `ARC-BUSHROSE-RECENTPLANT-01` (AF-3 bud-union visibility, asymmetric signal). `ARC-BUSHROSE-DEADWOOD-01` (generic pruning safety). |
-| Revision History | v1.0 — 29 September 2026 — initial creation from `FRD-BUSHROSE-SUCKERS-01`, Founder-approved for AF-1 to AF-25 as a whole, with a Source Register (§8) under ROC Operations Manual §12.6. |
+| Revision History | v1.1 — 17 October 2026 — Build Check Corrections added (older-answers check, batch 1). v1.0 — 29 September 2026 — initial creation from `FRD-BUSHROSE-SUCKERS-01`, Founder-approved for AF-1 to AF-25 as a whole, with a Source Register (§8) under ROC Operations Manual §12.6. |
 | Custodian | PIP Research Origin Curator (ROC), per MIL Standard |
 | Related Documents | Mother Information Library (MIL) Standard; Evidence Assessment Standard (EAS); Founder Review Dossier Standard (FRDS) v1.3; ROC Operations Manual v2.9 |
 
@@ -266,6 +266,19 @@ Under ROC Operations Manual §12.6. 28 entries, from `Working/AI Outputs/Source_
 | GU-R | Hayden Foulds, GrownUps New Zealand, "Rootstocks and budding" ("In the Rose Garden" column), date not shown. General-interest website, rose columnist, New Zealand. Accessed 29 Sep 2026. | <https://grownups.co.nz/life/gardening/rootstocks-and-budding/> | Opened | AF-9, AF-15 | AF-9: "The main rootstock used in rose production in New Zealand is Rosa multiflora or various strains derived from it" // AF-15: "produce very few suckers and are highly resistant to diseases." |
 | FG-B | Paul Zimmerman, Fine Gardening (Taunton Press), "When Planting Roses; Bury The Bud Union", 10 February 2011. Gardening magazine (rose specialist author), US. Accessed 29 Sep 2026. | <https://www.finegardening.com/article/when-planting-roses-bury-the-bud-union> | Opened | AF-12 | AF-12: "Always bury the bud union on a grafted rose." |
 | GU-B | GrownUps New Zealand, "Basal shoots and suckers". Title match from search only; page returned HTTP 403 on two attempts. Not read. Accessed (attempted) 29 Sep 2026. | <https://grownups.co.nz/life/gardening/basal-shoots-suckers/> | Located (title match only) | — | — |
+
+---
+
+## Build Check Corrections (17 October 2026)
+
+The answers built on this research were published before the Build Check existed (ROC Operations Manual Ch. 14). In the older-answers check, batch 1, every source page was reopened with WebFetch and every recorded quotation looked for, and the answer text was checked against the pages. The corrections below were proposed in `Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md` (§3) and approved by a Founder in chat on 17 October 2026, as §14.4 requires for an approved ARC. Where they differ from §4, they take precedence. Check results: `Working/AI Outputs/Build_Check_OLDER-BATCH1_sources_2026-10-16.json`.
+
+| Finding | As recorded | Correction | Level (was → now) | Why |
+|---|---|---|---|---|
+| AF-1 | Below the bud union is a sucker; from or just above the union is the rose's own shoot (High) | Unchanged. Limitation added: one rose nursery (Eastcroft, UK) says the rootstock can also shoot from its stem just above the union where it was not cut back closely (AF-14). | High → High | Thirteen pages; six fully, seven in part. |
+| AF-9 | The rootstock differs by country and nursery (Moderate) | Quotation corrected: the Fine Gardening page says United States understock is 'almost always' Dr. Huey; R. multiflora is not on that page. The Illinois page spells R. canina 'Rosa canna'. | Moderate → Moderate | — |
+
+**Effect on Pip's answers.** PKR-OBS-000007 v1.1 and PKR-DEC-000007 v1.1: AF-14 is shown as a limit under AF-1; pulling or tearing versus cutting is shown as "Sources disagree"; lines no page supports are removed.
 
 ---
 

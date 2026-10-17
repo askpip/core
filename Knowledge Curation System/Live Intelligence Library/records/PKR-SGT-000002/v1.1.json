@@ -1,0 +1,46 @@
+{
+  "schema": "pip-lil-record/1",
+  "pkr_id": "PKR-SGT-000002",
+  "version": "1.1",
+  "pkr_type": "suitability_gate",
+  "status": "Published",
+  "title": "Recently planted gate — is the rose established enough for full pruning guidance?",
+  "common": {
+    "applies_to": "Established or recently planted bush rose; prerequisite check, before the five non-dead-wood pruning observations proceed. Does not restrict dead-wood removal (see §4).",
+    "supporting_sources": [
+      "PKR-SRC-000025",
+      "PKR-SRC-000026",
+      "PKR-SRC-000027",
+      "PKR-SRC-000028",
+      "PKR-SRC-000029",
+      "PKR-SRC-000030",
+      "PKR-SRC-000031",
+      "PKR-SRC-000032"
+    ],
+    "founder_approval_date": "2026-10-17",
+    "related_pkrs": [],
+    "preserved_uncertainty": "AF-1 as corrected by the Build Check (17 October 2026): rose sources leave a newly planted rose unpruned, apart from dead wood, until it has established, but give no number of years for a bush rose; K-State's Master Gardeners prune at planting and RHS in the first winter (disagreement shown in the restricted reason). AF-2 (Low, not a precaution): the signs of establishment are not used, so an unknown planting date gets the dead-wood-only check.",
+    "evidence_confidence": "Per claim — see content"
+  },
+  "content": {
+    "question": "Was this rose planted this growing season, so that this is its first season in this spot?",
+    "answers": {
+      "established": "No, it has been growing here longer than that",
+      "recent": "Yes, it was planted this growing season",
+      "unknown": "I'm not sure"
+    },
+    "answer_confidence": "Moderate",
+    "fallback_questions": [],
+    "restricted_reason_recent": "Most sources leave a newly planted rose unpruned, apart from dead wood, until it has established; two prune at planting or in the first winter. So I'll only look at dead wood today.",
+    "restricted_reason_fallback": "I can't tell whether this rose has established yet, so I'll only look at dead wood today.",
+    "exempt_observations": [
+      "PKR-OBS-000001"
+    ]
+  },
+  "provenance": {
+    "approved_rendering": "Working/AI Outputs/PKR-OLDER-BATCH1-submission.md",
+    "published_to_lil_by": "KIT",
+    "published_to_lil_at": "2026-10-17",
+    "note": "Older answers check, batch 1: a Founder approved Pip's corrected answers in chat on 17 October 2026 ('approve'), after reading Working/Founder Review/PKR-OLDER-BATCH1-PRUNING-JOURNEY-FIRST-CHECKS_Pips_Answers.md, with no change. Version 1.1: gardener-facing text as checked by the Build Check (source check, wording check, plain read); see section 1 of Pip's Answers. Version 1.0 retired."
+  }
+}

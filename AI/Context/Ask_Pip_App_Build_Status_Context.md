@@ -4,12 +4,12 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.11
+**Version:** 0.12
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
 **Permanent Location:** `AI/Context/Ask_Pip_App_Build_Status_Context.md`
-**Last Updated:** 16 October 2026
+**Last Updated:** 17 October 2026
 **Purpose:** To give any artificial intelligence (AI) or Founder a current, accurate snapshot of what is actually built in the Ask Pip application, what is deliberately deferred and why, and what remains blocked pending Founder-approved knowledge — without requiring that state to be reconstructed from git history, conversation history or a fresh reading of every source file.
 **Related Documents:** `AGENTS.md`; `AI/PIP_AI_Operations_Manual.md`; `AI/PIP_AI_Loading_Guide.md`; `MVP/Architecture/Ask_Pip_App_Engineering_Architecture.md`; `MVP/Journeys/Ask_Pip_MVP_Bush_Rose_V1_First_Guided_Care_Journey.md`; `Working/AI Outputs/Ask_Pip_Bush_Rose_Guided_Journey_Flow_Proposal.md`; `AI/Context/Ask_Pip_App_Known_Issues_and_Process_Notes_Context.md`
 
@@ -59,9 +59,9 @@ The pruning journey now runs on Published knowledge. `npm run build` (TypeScript
 
 - **PKR data module** (`App/src/data/pkr.ts`, `App/src/data/pkrSources.ts`). Gardener-facing wording is transcribed from the Published PKRs: SGT-000001 v1.1, SGT-000002, SGT-000003, OBS/DEC-000001 to 000007, and CGD-000001 to 000006. Every record carries id, version and status. Only `Published` records are exposed, through the `published*` accessors. `pkrSources.ts` is generated from the Source PKR files and lists each PKR's Supporting Source(s) with its web address. It feeds "Where this comes from".
 - **Rose-type gate** (PKR-SGT-000003). It runs first. Only a stated Hybrid Tea, Floribunda or Grandiflora passes; Grandiflora shows its provisional note. A known variety name goes to the NZ Rose Society Rose Finder. Every other answer ends at a journal-only screen saying "I can't yet help prune this rose…". No basic care is shown there.
-- **Dormancy gate** (PKR-SGT-000001 v1.1). Interactive, with the mild-climate caveat and the "Not sure" fallback wording. It replaces the old self-attested checkbox. Dormant gives the full journey. Growing, or still not sure, gives the removal-only session: dead wood, damaged growth and suckers, with its conditions and the late-season advisory.
-- **Recently-planted gate** (PKR-SGT-000002). Unchanged. When it restricts, the session is dead wood only.
-- **Observations.** The session runs through dead wood, damaged growth, crossing/rubbing, inward, weak/congested, suckers and main framework, each filtered by the gates. Each observation offers Confirmed, Doesn't match and Not sure.
+- **Dormancy gate** (PKR-SGT-000001 v1.2 since 17 October 2026; the question now asks whether buds are tight or just swelling, or leaves have opened). Interactive, with the mild-climate caveat and the "Not sure" fallback wording. It replaces the old self-attested checkbox. Dormant gives the full journey. Growing, or still not sure, gives the removal-only session: dead wood, damaged growth and suckers, with its conditions and the late-season advisory.
+- **Recently-planted gate** (PKR-SGT-000002 v1.1 since 17 October 2026). Asks whether the rose was planted this growing season. Version 1.1 has no fallback questions, so "I'm not sure" also restricts (`evaluateRecentlyPlantedPrimary` in `App/src/lib/suitabilityGates.ts`). When it restricts, the session is dead wood only.
+- **Observations.** The session runs through dead wood, damaged growth, crossing/rubbing, weak/congested, suckers and main framework (the inward-growing step, PKR-OBS/DEC-000003, was retired on 17 October 2026 and its outward-facing-bud cut moved to PKR-DEC-000002), each filtered by the gates. Each observation offers Confirmed, Doesn't match and Not sure.
   - **Doesn't match** is recorded and never reaches Cut. The one exception is the framework's defined old-wood path.
   - **Not sure** shows the record's own guidance. If the gardener is still unsure, only the non-Cut choices are offered.
   - Each observation loops on "Can you see any more …?".
@@ -209,6 +209,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **7 October 2026 (Version 0.6):** §3.5 rewritten for places inside a country (regions, groups of regions and towns, worked out on the device, with the gardener asked near a region's edge) and for the month-level timing question.
 
 - **7 October 2026 (Version 0.7):** New Zealand month-level timing approved and its records in the snapshot; the place test rerun against the published records.
+- **17 October 2026 (Version 0.12):** Older answers check, batch 1 approved and in the snapshot: PKR-SGT-000001 v1.2, PKR-SGT-000002 v1.1, PKR-OBS/DEC-000001 (1.1/1.2), -000002 (1.1/1.1), -000007 (1.1/1.1); PKR-OBS/DEC-000003 retired. One app change: an unknown planting date gets the dead-wood-only check when the gate has no fallback questions. Checked by running the app's gate and journey code against the new snapshot (six pruning steps; recent and unknown give dead wood only); the app build passes. Not opened in a browser.
 - **16 October 2026 (Version 0.11):** Canadian month-level timing approved and in the snapshot (five timing records at Version 1.4); nine Canadian towns and areas added to the named towns. Checked by running the app's place code against the published statements for 24 test plants; the app build passes. Not opened in a browser.
 - **8 October 2026 (Version 0.10):** United States month-level timing approved and in the snapshot (five timing records at Version 1.3); eight US counties and cities added to the named towns, and a US town name typed without a state is no longer placed by name alone. Checked in a headless browser for twenty plants against test copies identical in wording to the published records.
 - **8 October 2026 (Version 0.9):** United Kingdom month-level timing approved and in the snapshot (the six timing records at Version 1.2). No app change. Checked in a headless browser for fourteen plants against test copies, before two regional statements were removed at approval.
