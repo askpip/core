@@ -270,6 +270,8 @@ export function Journey() {
   }
 
   function choosePrimary(answer: RecentlyPlantedPrimaryAnswer) {
+    // Saved so "Help me with [rose name]" knows the answer; the journey still asks every time.
+    updateProject(project!.id, { recentlyPlanted: answer })
     const result = evaluateRecentlyPlantedPrimary(answer)
     if (result === 'needs-fallback') {
       go('planted-fallback')

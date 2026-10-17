@@ -62,6 +62,8 @@ interface PlantNotesProps {
   notes: FollowUpNote[]
   onAdd: (text: string) => Promise<unknown>
   onRemove: (note: FollowUpNote) => void
+  /** An id for the text box, so another part of the page can bring the gardener to it. */
+  inputId?: string
   className?: string
 }
 
@@ -74,7 +76,7 @@ interface PlantNotesProps {
  * (Architecture §6.4's "Follow-Up") but had never been wired into the app
  * until this feature — see src/lib/store.ts's addNote/deleteNote.
  */
-export function PlantNotes({ notes, onAdd, onRemove, className }: PlantNotesProps) {
+export function PlantNotes({ notes, onAdd, onRemove, className, inputId }: PlantNotesProps) {
   const [draft, setDraft] = useState('')
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -101,6 +103,7 @@ export function PlantNotes({ notes, onAdd, onRemove, className }: PlantNotesProp
   return (
     <div className={className}>
       <textarea
+        id={inputId}
         value={draft}
         onChange={(e) => setDraft(e.target.value)}
         placeholder="Jot down anything about this plant…"

@@ -12,6 +12,8 @@ import { Button } from '@/components/Button'
 import { CareBlock } from '@/components/PkrStatements'
 import { SeasonCard } from '@/components/SeasonCard'
 import { CommonQuestions } from '@/components/CommonQuestions'
+import { HelpMeWith } from '@/components/HelpMeWith'
+import { CareLogList } from '@/components/CareLog'
 import { countryName } from '@/lib/place'
 import { usePlantPlace } from '@/lib/usePlantPlace'
 import { HOME_QUESTIONS } from '@/data/commonQuestions'
@@ -29,13 +31,23 @@ const SEASON_LABEL: Record<ReturnType<typeof seasonForHemisphere>, string> = {
 export function PlantProject() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
-  const { getProject, loading, updateProject, addProgressPhoto, deleteProgressPhoto, addNote, deleteNote } =
-    useProjects()
+  const {
+    getProject,
+    loading,
+    updateProject,
+    addProgressPhoto,
+    deleteProgressPhoto,
+    addNote,
+    deleteNote,
+    addCareLog,
+    deleteCareLog,
+  } = useProjects()
   const project = id ? getProject(id) : undefined
   // Called unconditionally (before the early returns below) per the rules of
   // hooks — usePlantPhotoUrl already treats an undefined path as "no photo."
   const labelPhotoUrl = usePlantPhotoUrl(project?.varietyLabelPhotoPath)
   const [showCare, setShowCare] = useState(false)
+  const [showHelp, setShowHelp] = useState(false)
   const { place, skipAsk } = usePlantPlace(project)
 
   if (loading) {
@@ -54,6 +66,23 @@ export function PlantProject() {
   // (resume bookkeeping), not observations the gardener made, so they're left
   // out of the journal list.
   const shownObservations = project.observations.filter((o) => o.outcome !== 'none-remaining')
+
+  // From the Help panel: close it and take the gardener to that part of this page.
+  function goTo(elementId: string) {
+    setShowHelp(false)
+    requestAnimationFrame(() => {
+      const el = document.getElementById(elementId)
+      const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      el?.scrollIntoView({ behavior: calm ? 'auto' : 'smooth', block: 'center' })
+      el?.focus({ preventScroll: true })
+    })
+  }
+
+  const helpButton = (variant: 'primary' | 'secondary') => (
+    <Button variant={variant} onClick={() => setShowHelp(true)}>
+      Help me with {project.name}
+    </Button>
+  )
 
   return (
     <div className="flex h-full flex-col">
@@ -81,6 +110,7 @@ export function PlantProject() {
               pruning journey?
             </ChatBubble>
             <Button onClick={() => navigate(`/journey/${project.id}`)}>Begin journey</Button>
+            {helpButton('secondary')}
           </>
         ) : (
           <>
@@ -88,6 +118,7 @@ export function PlantProject() {
               Here's {project.name}'s journal — what we looked at, what you saw and what you
               decided.
             </ChatBubble>
+            {helpButton('primary')}
 
             {shownObservations.length > 0 && (
               <p className="rounded-xl border border-pip-border bg-pip-card px-4 py-3 text-sm">
@@ -164,6 +195,7 @@ export function PlantProject() {
           </div>
         )}
 
+        <div id="plant-questions" tabIndex={-1} className="outline-none">
         <CommonQuestions
           keys={HOME_QUESTIONS}
           initialVisible={6}
@@ -175,6 +207,7 @@ export function PlantProject() {
           }
           onSkipRegion={skipAsk}
         />
+        </div>
 
         <div>
           <h2 className="mb-1 text-sm font-medium">Notes</h2>
@@ -183,11 +216,19 @@ export function PlantProject() {
             for and understanding {project.name} better.
           </p>
           <PlantNotes
+            inputId="plant-notes-input"
             notes={project.notes}
             onAdd={(text) => addNote(project.id, text)}
             onRemove={(note) => deleteNote(project.id, note.id)}
           />
         </div>
+
+        {project.careLog.length > 0 && (
+          <div>
+            <h2 className="mb-1 text-sm font-medium">Care log</h2>
+            <CareLogList entries={project.careLog} onRemove={(e) => void deleteCareLog(project.id, e.id)} />
+          </div>
+        )}
 
         <div>
           <h2 className="mb-1 text-sm font-medium">Progress photos</h2>
@@ -212,6 +253,7 @@ export function PlantProject() {
             {/* PKR-SGT-000003's saved answer. Changing it here is how a gardener
                 updates it after finding out the type; the journey reads it. */}
             <select
+              id="plant-rose-type"
               aria-label="Rose type"
               value={project.roseType ?? ''}
               onChange={(e) =>
@@ -269,6 +311,24 @@ export function PlantProject() {
         )}
         </div>
       </div>
+
+      {showHelp && (
+        <HelpMeWith
+          project={project}
+          place={place}
+          onClose={() => setShowHelp(false)}
+          onRecentlyPlanted={(answer) => void updateProject(project.id, { recentlyPlanted: answer })}
+          onAddCareLog={(kind, doneOn) => addCareLog(project.id, kind, doneOn)}
+          onUndoCareLog={(entry) => void deleteCareLog(project.id, entry.id)}
+          onAddNote={() => goTo('plant-notes-input')}
+          onSetRoseType={() => goTo('plant-rose-type')}
+          onAllQuestions={() => goTo('plant-questions')}
+          onRegion={(region) =>
+            void updateProject(project.id, { locationRegion: region.name, locationCountry: countryName(region.country) })
+          }
+          onSkipRegion={skipAsk}
+        />
+      )}
     </div>
   )
 }

@@ -995,3 +995,45 @@ begin
     where f.id = feedback_id and not (who = any (f.opened_by));
 end;
 $$;
+
+-- ---------------------------------------------------------------------------
+-- "Help me with [rose name]" (18 October 2026). Run this section on its own
+-- in the SQL Editor; it is safe to run again.
+--
+-- care_log: the one-tap care log ("I fed it", "I watered it", "I deadheaded
+-- it", "I mulched it"), one row per tap, with the gardener's own date. Same
+-- owner-only rules as follow_ups. Gardener-owned data, never KCS knowledge.
+--
+-- recently_planted: the gardener's last answer to PKR-SGT-000002's question,
+-- saved from the journey, the blind-shoot check or the Help panel. Null = not
+-- asked yet.
+-- ---------------------------------------------------------------------------
+
+alter table public.bush_rose_profiles add column if not exists recently_planted text
+  check (recently_planted in ('established', 'recent', 'unknown'));
+
+create table if not exists public.care_log (
+  id uuid primary key default gen_random_uuid(),
+  profile_id uuid not null references public.bush_rose_profiles (id) on delete cascade,
+  user_id uuid not null references auth.users (id) on delete cascade,
+  kind text not null check (kind in ('fed', 'watered', 'deadheaded', 'mulched')),
+  done_on date not null default current_date,
+  created_at timestamptz not null default now()
+);
+
+create index if not exists care_log_profile_id_idx on public.care_log (profile_id);
+
+alter table public.care_log enable row level security;
+
+drop policy if exists "care_log_select_own" on public.care_log;
+create policy "care_log_select_own" on public.care_log
+  for select using (auth.uid() = user_id);
+drop policy if exists "care_log_insert_own" on public.care_log;
+create policy "care_log_insert_own" on public.care_log
+  for insert with check (auth.uid() = user_id);
+drop policy if exists "care_log_update_own" on public.care_log;
+create policy "care_log_update_own" on public.care_log
+  for update using (auth.uid() = user_id) with check (auth.uid() = user_id);
+drop policy if exists "care_log_delete_own" on public.care_log;
+create policy "care_log_delete_own" on public.care_log
+  for delete using (auth.uid() = user_id);

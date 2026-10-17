@@ -1,6 +1,6 @@
 # Proposal — "Help me with [rose name]"
 
-**Status:** Proposal for Founder approval. Nothing built yet.
+**Status:** Approved by a Founder in chat ("pulled, approve, build"), 18 October 2026, with no change. Built the same day; see `AI/Context/Ask_Pip_App_Build_Status_Context.md` §3.6.
 **Prepared:** 18 October 2026, by Claude, for the Founders
 **Form:** `APP-HELP-ME-WITH-ROSE_Proposal_Form.md` (one question)
 **Affects:** `App/src/pages/PlantProject.tsx`, a new Help panel and care-log component, one new Supabase table.

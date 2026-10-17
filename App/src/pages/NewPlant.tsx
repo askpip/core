@@ -218,6 +218,7 @@ export function NewPlant() {
         observations: [],
         progressPhotos: [],
         notes: [],
+        careLog: [],
         journeyCloseUpPhotoPaths: [],
         journeyComplete: false,
       })

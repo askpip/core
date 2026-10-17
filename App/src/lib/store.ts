@@ -3,6 +3,9 @@ import { supabase } from './supabase'
 import { journeyCloseUpPhotoPath, progressPhotoPath, removePlantPhoto, uploadPlantPhoto } from './photos'
 import type {
   BushRoseProfileRow,
+  CareKind,
+  CareLogEntry,
+  CareLogRow,
   FollowUpNote,
   FollowUpRow,
   ObservationRecord,
@@ -17,6 +20,7 @@ function toPlantProject(
   observationRows: ObservationRow[],
   photoRows: PlantPhotoLogRow[],
   noteRows: FollowUpRow[],
+  careRows: CareLogRow[],
 ): PlantProject {
   return {
     id: row.id,
@@ -33,6 +37,7 @@ function toPlantProject(
     hemisphere: row.hemisphere ?? undefined,
     plantedWhen: row.planted_when ?? undefined,
     roseType: row.rose_type ?? undefined,
+    recentlyPlanted: row.recently_planted ?? undefined,
     personalMeaning: row.personal_meaning ?? undefined,
     safetyChecklist: row.safety_checklist ?? undefined,
     safetyAcknowledgedAt: row.safety_acknowledged_at ?? undefined,
@@ -53,6 +58,7 @@ function toPlantProject(
       note: n.note,
       createdAt: n.created_at,
     })),
+    careLog: careRows.map((c) => ({ id: c.id, kind: c.kind, doneOn: c.done_on, createdAt: c.created_at })),
     journeyComplete: row.journey_complete,
     observations: observationRows.map((o) => ({
       id: o.id,
@@ -103,11 +109,14 @@ export function useProjects() {
         { data: observationRows, error: observationError },
         { data: photoRows, error: photoError },
         { data: noteRows, error: noteError },
+        { data: careRows, error: careError },
       ] = await Promise.all([
         supabase.from('bush_rose_profiles').select('*').order('created_at', { ascending: true }),
         supabase.from('observations').select('*').order('created_at', { ascending: true }),
         supabase.from('plant_photo_log').select('*').order('created_at', { ascending: true }),
         supabase.from('follow_ups').select('*').order('created_at', { ascending: true }),
+        // Until the care_log migration in schema.sql is run, this fails and the care log is simply empty.
+        supabase.from('care_log').select('*').order('created_at', { ascending: true }),
       ])
 
       if (!active) return
@@ -125,6 +134,9 @@ export function useProjects() {
       }
       if (noteError) {
         console.error('Failed to load notes:', noteError)
+      }
+      if (careError) {
+        console.error('Failed to load care log:', careError)
       }
 
       const observationsByProfile = new Map<string, ObservationRow[]>()
@@ -148,6 +160,13 @@ export function useProjects() {
         notesByProfile.set(row.profile_id, list)
       }
 
+      const careByProfile = new Map<string, CareLogRow[]>()
+      for (const row of careRows ?? []) {
+        const list = careByProfile.get(row.profile_id) ?? []
+        list.push(row)
+        careByProfile.set(row.profile_id, list)
+      }
+
       setProjects(
         (profileRows ?? []).map((row) =>
           toPlantProject(
@@ -155,6 +174,7 @@ export function useProjects() {
             observationsByProfile.get(row.id) ?? [],
             photosByProfile.get(row.id) ?? [],
             notesByProfile.get(row.id) ?? [],
+            careByProfile.get(row.id) ?? [],
           ),
         ),
       )
@@ -260,6 +280,16 @@ export function useProjects() {
     if (Object.keys(profilePatch).length > 0) {
       const { error } = await supabase.from('bush_rose_profiles').update(profilePatch).eq('id', id)
       if (error) console.error('Failed to update plant:', error)
+    }
+
+    // A write of its own, so that before the care_log migration adds the column,
+    // its failure can't take any other change to the plant down with it.
+    if ('recentlyPlanted' in patch) {
+      const { error } = await supabase
+        .from('bush_rose_profiles')
+        .update({ recently_planted: patch.recentlyPlanted ?? null })
+        .eq('id', id)
+      if (error) console.error('Failed to save recently planted answer:', error)
     }
 
     if (patch.observations !== undefined) {
@@ -444,6 +474,37 @@ export function useProjects() {
   }
 
   /**
+   * Adds one care-log entry ("I fed it today"). Throws on failure, like addNote:
+   * the care log says right there that it didn't save.
+   */
+  async function addCareLog(profileId: string, kind: CareKind, doneOn: string) {
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+    if (!user) throw new Error('Not signed in')
+
+    const id = crypto.randomUUID()
+    const createdAt = new Date().toISOString()
+    const { error } = await supabase
+      .from('care_log')
+      .insert({ id, profile_id: profileId, user_id: user.id, kind, done_on: doneOn, created_at: createdAt })
+    if (error) throw error
+
+    const entry: CareLogEntry = { id, kind, doneOn, createdAt }
+    setProjects((prev) => prev.map((p) => (p.id === profileId ? { ...p, careLog: [...p.careLog, entry] } : p)))
+    return entry
+  }
+
+  /** Removes one care-log entry (the care log's Undo). */
+  async function deleteCareLog(profileId: string, entryId: string) {
+    setProjects((prev) =>
+      prev.map((p) => (p.id === profileId ? { ...p, careLog: p.careLog.filter((c) => c.id !== entryId) } : p)),
+    )
+    const { error } = await supabase.from('care_log').delete().eq('id', entryId)
+    if (error) console.error('Failed to delete care log entry:', error)
+  }
+
+  /**
    * Adds one photo to this journey's close-up gallery
    * (journeyCloseUpPhotoPaths) — Journey.tsx's 'photos' phase asks for "a
    * few close-ups," not one, so unlike journeyOverviewPhotoPath this isn't a
@@ -522,6 +583,8 @@ export function useProjects() {
     deleteProgressPhoto,
     addNote,
     deleteNote,
+    addCareLog,
+    deleteCareLog,
     addJourneyCloseUpPhoto,
     removeJourneyCloseUpPhoto,
     getProject,

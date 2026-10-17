@@ -44,6 +44,7 @@ export function CommonQuestions({
   place,
   onRegion,
   onSkipRegion,
+  initialOpen,
 }: {
   keys: QuestionKey[]
   title?: string
@@ -61,17 +62,25 @@ export function CommonQuestions({
   onRegion?: (region: Region) => void
   /** The gardener has chosen not to say. */
   onSkipRegion?: () => void
+  /** A question to show already open (the Help panel opens one this way). */
+  initialOpen?: QuestionKey
 }) {
   const navigate = useNavigate()
   const questions = questionsFor(keys)
-  const [open, setOpen] = useState<QuestionKey | null>(null)
+  const [open, setOpen] = useState<QuestionKey | null>(initialOpen ?? null)
   const [showAll, setShowAll] = useState(false)
   const [regionChoice, setRegionChoice] = useState('')
   // The answer opens below the whole list of questions, which on a phone is often off
   // the bottom of the screen. Bring it into view whenever a question is opened (reported
   // by a Founder, 2 October 2026). Closing a question doesn't move the screen.
   const answerRef = useRef<HTMLDivElement>(null)
+  // A question shown already open is where the gardener is looking, so it isn't scrolled to.
+  const openedAtStart = useRef(Boolean(initialOpen))
   useEffect(() => {
+    if (openedAtStart.current) {
+      openedAtStart.current = false
+      return
+    }
     if (!open) return
     const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     answerRef.current?.scrollIntoView({ behavior: calm ? 'auto' : 'smooth', block: 'start' })
@@ -120,6 +129,8 @@ export function CommonQuestions({
   return (
     <div className={cn('flex flex-col gap-2.5', className)}>
       {title && <p className="text-xs font-bold uppercase tracking-wide text-pip-text-soft">{title}</p>}
+      {/* Opened from elsewhere on its own, the answer card's heading already names the question. */}
+      {!(initialOpen && questions.length === 1) && (
       <div className="flex flex-wrap gap-2">
         {visible.map((q) => (
           <button
@@ -145,6 +156,7 @@ export function CommonQuestions({
           </button>
         )}
       </div>
+      )}
 
       {current && (
         // The padding leaves room for Pip above the card, and scrolling to this wrapper

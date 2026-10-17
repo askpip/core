@@ -38,7 +38,7 @@ type Step = 'offer' | 'not-yet' | 'planted' | 'planted-fallback' | 'look' | 'dec
 export function BlindShootCheck() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
-  const { getProject, addObservation, loading } = useProjects()
+  const { getProject, addObservation, updateProject, loading } = useProjects()
   const project = id ? getProject(id) : undefined
   const obs = growingSeasonObservation('blind-shoot')
 
@@ -132,6 +132,8 @@ export function BlindShootCheck() {
                   key={a}
                   variant={i === 0 ? 'primary' : 'secondary'}
                   onClick={() => {
+                    // Saved so "Help me with [rose name]" knows the answer; this check still asks every time.
+                    void updateProject(project.id, { recentlyPlanted: a })
                     const r = evaluateRecentlyPlantedPrimary(a)
                     if (r === 'needs-fallback') setStep('planted-fallback')
                     else {

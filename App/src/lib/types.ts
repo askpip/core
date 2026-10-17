@@ -14,6 +14,12 @@ export type Choice = 'cut' | 'leave' | 'decide-later' | 'get-help'
  */
 export type SavedRoseType = 'hybrid-tea' | 'floribunda' | 'grandiflora' | 'excluded' | 'bush-only' | 'unknown'
 
+/** The gardener's last answer to PKR-SGT-000002's question, as saved on the plant. */
+export type RecentlyPlantedAnswer = 'established' | 'recent' | 'unknown'
+
+/** What a care-log tap records ("I fed it", "I watered it", ...). */
+export type CareKind = 'fed' | 'watered' | 'deadheaded' | 'mulched'
+
 /** How a plant's location was captured — see src/lib/location.ts. */
 export type LocationMethod = 'geolocation' | 'manual'
 export type Hemisphere = 'northern' | 'southern'
@@ -83,6 +89,12 @@ export interface PlantProject {
   plantedWhen?: string
   /** PKR-SGT-000003 answer, asked once (Add a plant or first journey). Absent = not asked yet. */
   roseType?: SavedRoseType
+  /**
+   * The last answer to PKR-SGT-000002's question, from the journey, the blind-shoot
+   * check or "Help me with [rose name]". Absent = not asked yet. The journey and the
+   * check still ask each time; this lets the Help panel know without asking again.
+   */
+  recentlyPlanted?: RecentlyPlantedAnswer
   personalMeaning?: string
   /**
    * A record of what Journey.tsx's pre-journey safety checklist actually
@@ -169,6 +181,8 @@ export interface PlantProject {
    * see src/components/PlantNotes.tsx.
    */
   notes: FollowUpNote[]
+  /** One-tap care log (public.care_log), oldest first — see src/components/CareLog.tsx. */
+  careLog: CareLogEntry[]
   journeyComplete: boolean
 }
 
@@ -210,6 +224,8 @@ export interface BushRoseProfileRow {
   hemisphere: Hemisphere | null
   planted_when: string | null
   rose_type: SavedRoseType | null
+  /** Absent until the care_log migration in schema.sql has been run. */
+  recently_planted?: RecentlyPlantedAnswer | null
   personal_meaning: string | null
   safety_checklist: SafetyChecklistEntry[] | null
   safety_acknowledged_at: string | null
@@ -229,6 +245,25 @@ export interface PlantPhotoLogRow {
   user_id: string
   storage_path: string
   caption: string | null
+  created_at: string
+}
+
+/** One care-log entry — see PlantProject.careLog above. */
+export interface CareLogEntry {
+  id: string
+  kind: CareKind
+  /** The gardener's local date, YYYY-MM-DD. */
+  doneOn: string
+  createdAt: string
+}
+
+/** Row shape for public.care_log — see CareLogEntry above. */
+export interface CareLogRow {
+  id: string
+  profile_id: string
+  user_id: string
+  kind: CareKind
+  done_on: string
   created_at: string
 }
 

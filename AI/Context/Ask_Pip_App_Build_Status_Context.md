@@ -4,7 +4,7 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.14
+**Version:** 0.15
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
@@ -162,6 +162,22 @@ Built so that a subject's whole body of approved findings reaches gardeners, in 
 
 **Checked** in a headless browser at phone widths (390 and 320 pixels), first against test copies of the seven spraying records and again on 5 October 2026 against the published records, and on 5 October 2026 against test copies of the six planting and moving records (identical in wording to those published), for six cases: no plant; New Zealand by name; Australia by position; the United States; the United Kingdom; and a position in Canada. On 7 October 2026 the place piece was run against 65 towns and cities in and around the five countries, and test copies of the six New Zealand timing records were opened for fourteen plants (typed and GPS locations across New Zealand, two that needed the region asked, and plants in Sydney, the United Kingdom and Tokyo); each saw the statements for its own place and no others, and the Spraying and Planting answers were unchanged. The same fourteen plants were run again on 7 October 2026 against the published New Zealand records: all 40 approved statements appeared word for word, each only in its place. The build passes. Not checked: the signed-in screens, and a real phone.
 
+## 3.6 "Help me with [rose name]" (18 October 2026)
+
+Built to `Working/Founder Review/APP-HELP-ME-WITH-ROSE_Proposal.md`, approved by a Founder in chat on 18 October 2026 with no change.
+
+**The panel** (`App/src/components/HelpMeWith.tsx`, opened by a button under Pip's first bubble on `App/src/pages/PlantProject.tsx`). Pip says what fits the season where the rose grows and offers up to three choices, with the rest under "More". The choosing is in `App/src/lib/helpMeWith.ts` (`helpPlan`), following the proposal's rules A to C. Care tips and common questions open inside the panel; the journey and the blind-shoot check open their own pages; "Add a note" and "Set the rose type" close the panel and go to that part of the plant page. `CommonQuestions` takes `initialOpen` for this.
+
+**Pruning months** (`App/src/data/pruningMonths.ts`). The months each main-pruning statement in PKR-CGD-000022 names, keyed by the statement's opening words. An entry counts only while its statement is Published and shown for the rose's place. Build readings within the approved rule: a season word counts the matching calendar months for the hemisphere; autumn trims, cut-backs against wind and San Antonio's lighter October pruning are not counted. Because a country's statement is shown everywhere in that country, its months apply in every region: for example, the United States' December to mid-April.
+
+**Recently planted** (`recentlyPlanted` on the plant, column `recently_planted`). The journey and the blind-shoot check save the gardener's answer to PKR-SGT-000002's question and still ask it each time. The panel asks it once when no answer is saved.
+
+**Care log** (`App/src/components/CareLog.tsx`, table `care_log`). Four one-tap buttons save the gardener's local date; Undo removes the entry. Each kind shows "You last … ago" and, for a rose whose type passes, the Published timing statements for its place word for word (PKR-CGD-000023 feeding, -000024 deadheading, PKR-CGD-000004 otherwise). Entries also show as a "Care log" list on the plant page.
+
+**The database needs the new section at the end of `App/supabase/schema.sql` run once** (column `recently_planted` and table `care_log`, with owner-only rules). Until then the care log is empty, a tap says it didn't save, and a recently-planted answer lasts only until the page reloads.
+
+**Checked.** `App/scripts/check_help_me_with.ts` runs against the snapshot: the month table matches PKR-CGD-000022; 14 test roses (New Zealand, Australia, the UK, the US, Canada, recently planted, no place, journal-only, type not set) across all 12 months get the choices the rules give; and every care-log statement is a Published item for that place. All checks pass, and the app build passes. The panel was opened in headless Chromium at 375 pixels with test data and every choice tapped, with no errors. Not yet checked in the live app on a signed-in test rose.
+
 # 4. Phase B — Blocked on Founder-Approved Knowledge
 
 Phase B covers the Primer's remaining horticultural cards, the "Pruning your bush rose" Learn shelf, the before-you-cut lesson, and observation ordering. None of it can be built with real content until the underlying research clears Founder review, is compiled into an Approved Research Compilation (ARC), and is published as a PIP Knowledge Record (PKR) by the Knowledge Integration Technician (KIT). Writing placeholder horticultural content into the app ahead of that is exactly the problem `learnTopics.ts`'s own governing comment warns against, and shall not be done to make Phase B appear further along than it is.
@@ -209,6 +225,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **7 October 2026 (Version 0.6):** §3.5 rewritten for places inside a country (regions, groups of regions and towns, worked out on the device, with the gardener asked near a region's edge) and for the month-level timing question.
 
 - **7 October 2026 (Version 0.7):** New Zealand month-level timing approved and its records in the snapshot; the place test rerun against the published records.
+- **18 October 2026 (Version 0.15):** Added §3.6: "Help me with [rose name]" built (panel, pruning-month table, saved recently-planted answer, care log). Needs the new `schema.sql` section run once. Checked against the snapshot and in headless Chromium with test data; not yet in the live app.
 - **18 October 2026 (Version 0.14):** Older answers check, batch 3 approved and in the snapshot: PKR-SGT-000001 v1.3 (removal-only session), PKR-SGT-000003 v1.2, PKR-CGD-000001 to -000008 (CGD-001/002 v1.1, CGD-003 v1.2, CGD-004/005/006 v1.1, CGD-007/008 v1.2), PKR-OBS/DEC-000008 v1.1. App change: `RoseTypeQuestion.tsx` shows the label line's tag. The older-answers check is complete: every answer published before the Build Check has now been checked. Checked by running the app's data code against the new snapshot (gates, cutting guide, care answers, blind-shoot check); the app build passes. Not opened in a browser.
 - **17 October 2026 (Version 0.13):** Older answers check, batch 2 approved and in the snapshot: PKR-OBS/DEC-000004 (1.1/1.2), -000005 (1.1/1.2), -000006 (1.2/1.2). App change: `StatementList` in `App/src/components/PkrStatements.tsx` now shows each statement's tag ("Precaution", "Sources disagree") and its limit in the pruning steps and the blind-shoot check, as the common-question answers already did. Checked by rendering the list and running the journey code against the new snapshot; the app build passes. Not opened in a browser.
 - **17 October 2026 (Version 0.12):** Older answers check, batch 1 approved and in the snapshot: PKR-SGT-000001 v1.2, PKR-SGT-000002 v1.1, PKR-OBS/DEC-000001 (1.1/1.2), -000002 (1.1/1.1), -000007 (1.1/1.1); PKR-OBS/DEC-000003 retired. One app change: an unknown planting date gets the dead-wood-only check when the gate has no fallback questions. Checked by running the app's gate and journey code against the new snapshot (six pruning steps; recent and unknown give dead wood only); the app build passes. Not opened in a browser.
