@@ -1037,3 +1037,129 @@ create policy "care_log_update_own" on public.care_log
 drop policy if exists "care_log_delete_own" on public.care_log;
 create policy "care_log_delete_own" on public.care_log
   for delete using (auth.uid() = user_id);
+
+-- ---------------------------------------------------------------------------
+-- "Coming up", a rose's place, and pruning-time emails (18 October 2026,
+-- Working/Founder Review/APP-REMINDERS-AND-PLACE_Proposal.md). Run this
+-- section on its own in the SQL Editor.
+--
+-- pruning_months: the rose's pruning months (1 = January), worked out on the
+-- gardener's device from its place and saved by the app. The server never
+-- works out a place (Founder decision, 6 October 2026); the email job reads
+-- only these numbers.
+--
+-- email_reminders: one row per gardener who has chosen; only the choice is
+-- kept. The address is the one they sign in with (auth.users).
+-- ---------------------------------------------------------------------------
+
+alter table public.bush_rose_profiles add column if not exists pruning_months smallint[]
+  check (pruning_months <@ array[1,2,3,4,5,6,7,8,9,10,11,12]::smallint[]);
+
+create table if not exists public.email_reminders (
+  user_id uuid primary key references auth.users (id) on delete cascade,
+  enabled boolean not null default false,
+  updated_at timestamptz not null default now(),
+  -- 'YYYY-MM' of the last pruning-time email, so a month is never sent twice.
+  last_sent_month text
+);
+
+alter table public.email_reminders enable row level security;
+
+drop policy if exists "email_reminders_select_own" on public.email_reminders;
+create policy "email_reminders_select_own" on public.email_reminders
+  for select using (auth.uid() = user_id);
+drop policy if exists "email_reminders_insert_own" on public.email_reminders;
+create policy "email_reminders_insert_own" on public.email_reminders
+  for insert with check (auth.uid() = user_id);
+drop policy if exists "email_reminders_update_own" on public.email_reminders;
+create policy "email_reminders_update_own" on public.email_reminders
+  for update using (auth.uid() = user_id) with check (auth.uid() = user_id);
+
+-- Sends the pruning-time emails for the month of p_date: one email to each
+-- gardener who has them on and has a rose whose pruning months start that month
+-- (the month is in its pruning_months and the month before is not). Only roses
+-- whose type passes PKR-SGT-000003 count. The lines are the approved app wording
+-- (proposal §5, lines 2, 6 and 7).
+--
+-- p_test_email: send only to the gardener with this sign-in address, whether or
+-- not they have the emails on, without recording it as sent. For checking.
+create or replace function public.send_pruning_reminders(p_date date default current_date, p_test_email text default null)
+returns jsonb
+language plpgsql security definer
+set search_path to 'public', 'extensions'
+as $$
+declare
+  m smallint := extract(month from p_date)::smallint;
+  prev smallint := case when m = 1 then 12 else m - 1 end;
+  sent_month text := to_char(p_date, 'YYYY-MM');
+  u record;
+  g record;
+  names text[];
+  lines text[];
+  first_rose text;
+  first_place text;
+  rose_count int;
+  subject text;
+  problem text;
+  sent int := 0;
+  failed jsonb := '[]'::jsonb;
+begin
+  for u in
+    select au.id, au.email
+    from auth.users au
+    left join public.email_reminders er on er.user_id = au.id
+    where au.email is not null
+      and case when p_test_email is not null then lower(au.email) = lower(p_test_email)
+               else coalesce(er.enabled, false) and er.last_sent_month is distinct from sent_month end
+  loop
+    lines := '{}';
+    rose_count := 0;
+    first_rose := null;
+    first_place := null;
+    for g in
+      select nullif(btrim(coalesce(nullif(p.location_city, ''), p.location_region, '')), '') as place,
+             array_agg(p.name order by p.created_at) as roses
+      from public.bush_rose_profiles p
+      where p.user_id = u.id
+        and p.rose_type in ('hybrid-tea', 'floribunda', 'grandiflora')
+        and p.pruning_months @> array[m]
+        and not (p.pruning_months @> array[prev])
+      group by 1
+      order by 1 nulls last
+    loop
+      names := array(select public.beta_html(x) from unnest(g.roses) x);
+      lines := lines || (
+        'It''s pruning time' || coalesce(' in ' || public.beta_html(g.place), '') || ': ' ||
+        case when cardinality(names) = 1 then names[1]
+             else array_to_string(names[1:cardinality(names) - 1], ', ') || ' and ' || names[cardinality(names)] end ||
+        '. Start the pruning journey to check each rose first.');
+      rose_count := rose_count + cardinality(g.roses);
+      first_rose := coalesce(first_rose, g.roses[1]);
+      first_place := coalesce(first_place, g.place);
+    end loop;
+    continue when rose_count = 0;
+    subject := case when rose_count = 1
+                    then 'Pruning time for ' || first_rose || coalesce(' in ' || first_place, '')
+                    else 'Pruning time for your roses' end;
+    problem := public.beta_send_email(
+      'Ask Pip <founders@contact.askpip.garden>', u.email, 'founders@askpip.garden', subject,
+      '<p>' || array_to_string(lines, '</p><p>') || '</p>' ||
+      '<p>Open Ask Pip: <a href="https://app.askpip.garden">app.askpip.garden</a></p>' ||
+      '<p>To stop these emails, turn them off in the Ask Pip menu.</p>');
+    if problem is null then
+      sent := sent + 1;
+      if p_test_email is null then
+        update public.email_reminders set last_sent_month = sent_month where user_id = u.id;
+      end if;
+    else
+      failed := failed || jsonb_build_object('user', u.id, 'problem', problem);
+    end if;
+  end loop;
+  return jsonb_build_object('month', sent_month, 'sent', sent, 'failed', failed);
+end;
+$$;
+revoke execute on function public.send_pruning_reminders(date, text) from anon, authenticated, public;
+
+-- Early on the 1st of each month (UTC). Re-scheduling under the same name replaces the job.
+create extension if not exists pg_cron;
+select cron.schedule('pruning-reminders', '5 0 1 * *', $cron$select public.send_pruning_reminders()$cron$);

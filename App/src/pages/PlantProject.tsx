@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useProjects } from '@/lib/store'
 import { seasonForHemisphere } from '@/lib/location'
@@ -15,6 +15,8 @@ import { CommonQuestions } from '@/components/CommonQuestions'
 import { HelpMeWith } from '@/components/HelpMeWith'
 import { CareLogList } from '@/components/CareLog'
 import { PhotoViewer } from '@/components/PhotoViewer'
+import { LocationEditor } from '@/components/LocationEditor'
+import { useSavePruningMonths } from '@/lib/useSavePruningMonths'
 import { countryName } from '@/lib/place'
 import { usePlantPlace } from '@/lib/usePlantPlace'
 import { HOME_QUESTIONS } from '@/data/commonQuestions'
@@ -50,7 +52,17 @@ export function PlantProject() {
   const [showCare, setShowCare] = useState(false)
   const [showHelp, setShowHelp] = useState(false)
   const [showLabelPhoto, setShowLabelPhoto] = useState(false)
+  const [editPlace, setEditPlace] = useState(false)
   const { place, skipAsk } = usePlantPlace(project)
+  // Hooks run before the early returns below; with no project these see an empty list.
+  const projectList = useMemo(() => (project ? [project] : []), [project])
+  const placeMap = useMemo(() => new Map(project ? [[project.id, place]] : []), [project, place])
+  const saveMonths = useCallback(
+    (plantId: string, months: number[]) => void updateProject(plantId, { pruningMonths: months }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [],
+  )
+  useSavePruningMonths(projectList, placeMap, saveMonths)
 
   if (loading) {
     return <div className="p-6 text-sm text-pip-text-soft">Loading…</div>
@@ -274,11 +286,12 @@ export function PlantProject() {
           {project.roseType && !roseTypePasses(project.roseType) && (
             <p className="mt-1">I can't yet help prune this rose; it's kept as a journal.</p>
           )}
-          {project.location && (
-            <p className="mt-1">
-              <span className="font-medium text-pip-text">Location:</span> {project.location}
-            </p>
-          )}
+          <p className="mt-1">
+            <span className="font-medium text-pip-text">Location:</span> {project.location || '—'}{' '}
+            <button onClick={() => setEditPlace(true)} className="ml-1 font-medium text-pip-primary underline underline-offset-2">
+              Change
+            </button>
+          </p>
           {project.hemisphere && (
             <p className="mt-1">
               <span className="font-medium text-pip-text">Season there right now:</span>{' '}
@@ -312,6 +325,14 @@ export function PlantProject() {
         </div>
       </div>
 
+      {editPlace && (
+        <LocationEditor
+          name={project.name}
+          onSave={(patch) => updateProject(project.id, patch)}
+          onClose={() => setEditPlace(false)}
+        />
+      )}
+
       {showLabelPhoto && labelPhotoUrl && (
         <PhotoViewer url={labelPhotoUrl} label="Nursery label" onClose={() => setShowLabelPhoto(false)} />
       )}
@@ -327,6 +348,10 @@ export function PlantProject() {
           onAddNote={() => goTo('plant-notes-input')}
           onSetRoseType={() => goTo('plant-rose-type')}
           onAllQuestions={() => goTo('plant-questions')}
+          onSetPlace={() => {
+            setShowHelp(false)
+            setEditPlace(true)
+          }}
           onRegion={(region) =>
             void updateProject(project.id, { locationRegion: region.name, locationCountry: countryName(region.country) })
           }

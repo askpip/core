@@ -1,6 +1,8 @@
 <!-- shed-form v1 -->
 # Proposal Form — Pip Knowledge Rules §3A: One Disagreeing Source
 
+**Decided, 18 October 2026. Nothing more to fill in here.** A Founder approved the proposal in chat, with no change, and the rules are updated.
+
 Read **Proposal — Pip Knowledge Rules §3A: One Disagreeing Source** first. Section 2 is the exact new wording.
 
 ## Your decision

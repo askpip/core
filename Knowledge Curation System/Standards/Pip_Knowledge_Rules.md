@@ -8,19 +8,19 @@
 
 **Folder:** 04 – Standards
 
-**Version:** 0.5
+**Version:** 0.6
 
 **Status:** Approved
 
 **Owner:** The Founders
 
-**Last Updated:** 7 October 2026
+**Last Updated:** 18 October 2026
 
 **Permanent Location:** `Knowledge Curation System/Standards/Pip_Knowledge_Rules.md`
 
 **Approved By:** AskPIP Founder Authority
 
-**Revision Note:** Version 0.5 (7 October 2026): §7 records two standing decisions a Founder made on 6 October 2026 during the New Zealand timing work: places inside a country, and frost. Version 0.4 (6 October 2026, a Founder's decision after the first topic run this way): a Founder reads Pip's answers and approves once. §5 and §6 say so, and §7 records it as a standing decision. No rule changed. Version 0.3 (5 October 2026, at a Founder's direction, after reading Pip's first answers written under these rules). The answers named their sources inside each sentence and carried statements that were about the research, not about the plant. §1 now puts helping the gardener first. Rule 1 has the confidence label and the list of sources under the answer carry what the sentence used to, and has Pip say "one source says" where only one does. Rule 4 lists the source under the answer. §3 shows a limit only where it would change what a gardener does. §3A is rewritten to match, and §7 records both decisions, replacing "nothing wasted". Version 0.2 (5 October 2026, at a Founder's direction, after the Spraying commission and the first Build Check). The eight rules are unchanged. New §3A says how the rules show in Pip's words. §6 adds what keeps the rules at commissioning, in research, at the build and in the app. §7 records three standing decisions a Founder made that day: products are named by type, exclusions are the Founders' alone, and every finding Pip may use is to reach gardeners. Version 0.1 created this Standard. A Founder agreed the eight rules in conversation on 5 October 2026 and directed that the Knowledge Curation System's documents be altered so the rules are followed throughout research and the preparation of dossiers, briefs and forms. The same day the Founder decided the three standing decisions on where a gardener is, garden companies and local months, and planting and moving (§7).
+**Revision Note:** Version 0.6 (18 October 2026, approved by a Founder in chat): §3A says what Pip does where one source disagrees, as the older-answers check settled it in practice (a Founder's direction of 16 October 2026). No rule changed. Version 0.5 (7 October 2026): §7 records two standing decisions a Founder made on 6 October 2026 during the New Zealand timing work: places inside a country, and frost. Version 0.4 (6 October 2026, a Founder's decision after the first topic run this way): a Founder reads Pip's answers and approves once. §5 and §6 say so, and §7 records it as a standing decision. No rule changed. Version 0.3 (5 October 2026, at a Founder's direction, after reading Pip's first answers written under these rules). The answers named their sources inside each sentence and carried statements that were about the research, not about the plant. §1 now puts helping the gardener first. Rule 1 has the confidence label and the list of sources under the answer carry what the sentence used to, and has Pip say "one source says" where only one does. Rule 4 lists the source under the answer. §3 shows a limit only where it would change what a gardener does. §3A is rewritten to match, and §7 records both decisions, replacing "nothing wasted". Version 0.2 (5 October 2026, at a Founder's direction, after the Spraying commission and the first Build Check). The eight rules are unchanged. New §3A says how the rules show in Pip's words. §6 adds what keeps the rules at commissioning, in research, at the build and in the app. §7 records three standing decisions a Founder made that day: products are named by type, exclusions are the Founders' alone, and every finding Pip may use is to reach gardeners. Version 0.1 created this Standard. A Founder agreed the eight rules in conversation on 5 October 2026 and directed that the Knowledge Curation System's documents be altered so the rules are followed throughout research and the preparation of dossiers, briefs and forms. The same day the Founder decided the three standing decisions on where a gardener is, garden companies and local months, and planting and moving (§7).
 
 **Purpose:** To state, in one place, the rules that decide what Pip may say, so that the Research Origin Curator (ROC), the Knowledge Integration Technician (KIT) and Pip apply the same rules, and the Founders are asked only what the rules cannot settle.
 
@@ -90,7 +90,7 @@ These apply to every statement Pip makes.
 - **One source (rule 1).** Where only one source says something, Pip says "one source says". The source is in the list under the answer.
 - **How strong (rule 1).** The confidence label carries it. Pip does not repeat it in words.
 - **Limits.** A limit is shown under a statement only where it would change what a gardener does.
-- **Disagreement (rule 2).** The statement says that experts disagree and what each side says. It is marked "Sources disagree" in place of a confidence level.
+- **Disagreement (rule 2).** The statement says that experts disagree and what each side says. It is marked "Sources disagree" in place of a confidence level. Where one source disagrees, Pip says "one source says" or "another says" and does not name it; its name is in the list under the answer. Pip names it only where the name is the point, as when a national body such as the Royal Horticultural Society disagrees with the rest.
 - **Gaps (rule 5).** The statement says Pip couldn't find it and points to local expert help. It is marked "No source found".
 - **Precautions (rule 7).** A precaution is marked as one, with its confidence level, so that a Low level is not read as a reason to ignore it.
 - **Local information (rule 4).** A local statement is shown only where the plant is.

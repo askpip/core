@@ -18,6 +18,7 @@ import {
 } from '@/lib/homeScreen'
 import { InfoModal } from './InfoModal'
 import { Button } from './Button'
+import { EmailReminders } from './EmailReminders'
 
 type InfoPanel = 'disclaimer' | 'contact' | 'info' | 'privacy' | null
 
@@ -95,6 +96,7 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
   const location = useLocation()
   const { user } = useAuth()
   const [menuOpen, setMenuOpen] = useState(false)
+  const [showEmails, setShowEmails] = useState(false)
   const [infoPanel, setInfoPanel] = useState<InfoPanel>(null)
   // "My Name" editing — reuses InfoModal's chrome (see its render below)
   // rather than a dedicated modal component, since a name field and a Save
@@ -264,6 +266,13 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
                   }}
                 />
               )}
+              <MenuItem
+                label="Email me when it's pruning time"
+                onClick={() => {
+                  setMenuOpen(false)
+                  setShowEmails(true)
+                }}
+              />
               <MenuItem label="Check for updates" onClick={openUpdateCheck} />
               <MenuItem label="My Name" onClick={openNameEditor} />
               <MenuItem label="Change Password" onClick={openPasswordEditor} />
@@ -344,6 +353,12 @@ export function AppHeader({ onBack }: AppHeaderProps = {}) {
               <Button onClick={() => setInstallHelp(null)}>Got it</Button>
             </div>
           )}
+        </InfoModal>
+      )}
+
+      {showEmails && (
+        <InfoModal title="Email me when it's pruning time" onClose={() => setShowEmails(false)}>
+          <EmailReminders email={user?.email} />
         </InfoModal>
       )}
 

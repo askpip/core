@@ -1,6 +1,6 @@
 # Proposal — Pip Knowledge Rules §3A: One Disagreeing Source
 
-**Status:** Proposal for Founder approval. The rules are unchanged until a Founder approves.
+**Status:** Approved by a Founder in chat ("approve both"), 18 October 2026, with no change. Applied: `Pip_Knowledge_Rules.md` Version 0.6.
 **Prepared:** 18 October 2026, by Claude, for the Founders
 **Form:** `RULES-3A-ONE-DISSENTING-SOURCE_Proposal_Form.md` (one question)
 **Affects:** `Knowledge Curation System/Standards/Pip_Knowledge_Rules.md` §3A, Version 0.5 to 0.6. No published statement changes.

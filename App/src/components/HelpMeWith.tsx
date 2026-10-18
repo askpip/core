@@ -29,6 +29,8 @@ function choiceLabel(c: HelpChoice, season?: Season): string {
       return 'Set the rose type'
     case 'all-questions':
       return 'Questions gardeners ask'
+    case 'set-place':
+      return 'Tell Pip where it grows'
     case 'note':
       return 'Add a note'
   }
@@ -61,6 +63,7 @@ export function HelpMeWith({
   onAddNote,
   onSetRoseType,
   onAllQuestions,
+  onSetPlace,
   onRegion,
   onSkipRegion,
 }: {
@@ -73,6 +76,7 @@ export function HelpMeWith({
   onAddNote: () => void
   onSetRoseType: () => void
   onAllQuestions: () => void
+  onSetPlace: () => void
   onRegion: (region: Region) => void
   onSkipRegion: () => void
 }) {
@@ -106,6 +110,8 @@ export function HelpMeWith({
         return onSetRoseType()
       case 'all-questions':
         return onAllQuestions()
+      case 'set-place':
+        return onSetPlace()
       case 'note':
         return onAddNote()
     }

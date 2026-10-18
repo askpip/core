@@ -1,6 +1,6 @@
 # Proposal — "Coming up", Changing a Rose's Place, and Pruning-Time Emails
 
-**Status:** Proposal for Founder approval. Nothing built yet.
+**Status:** Approved by a Founder in chat ("approve both, build"), 18 October 2026, with no change. Being built.
 **Prepared:** 18 October 2026, by Claude, for the Founders
 **Form:** `APP-REMINDERS-AND-PLACE_Proposal_Form.md` (one question)
 **Affects:** `App/src/pages/Library.tsx`, `App/src/pages/PlantProject.tsx`, the menu (`App/src/components/AppHeader.tsx`), one new column on the plants table, one new table for email choices, one scheduled database job.

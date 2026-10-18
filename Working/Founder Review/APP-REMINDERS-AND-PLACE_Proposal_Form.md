@@ -1,6 +1,8 @@
 <!-- shed-form v1 -->
 # Proposal Form — "Coming up", Changing a Rose's Place, and Pruning-Time Emails
 
+**Decided, 18 October 2026. Nothing more to fill in here.** A Founder approved the proposal in chat, with no change.
+
 Read **Proposal — "Coming up", Changing a Rose's Place, and Pruning-Time Emails** first. Section 5 is every new app line, and section 6 is the mock-up.
 
 ## Your decision

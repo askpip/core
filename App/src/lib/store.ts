@@ -38,6 +38,7 @@ function toPlantProject(
     plantedWhen: row.planted_when ?? undefined,
     roseType: row.rose_type ?? undefined,
     recentlyPlanted: row.recently_planted ?? undefined,
+    pruningMonths: row.pruning_months ?? undefined,
     personalMeaning: row.personal_meaning ?? undefined,
     safetyChecklist: row.safety_checklist ?? undefined,
     safetyAcknowledgedAt: row.safety_acknowledged_at ?? undefined,
@@ -284,6 +285,14 @@ export function useProjects() {
 
     // A write of its own, so that before the care_log migration adds the column,
     // its failure can't take any other change to the plant down with it.
+    if ('pruningMonths' in patch) {
+      const { error } = await supabase
+        .from('bush_rose_profiles')
+        .update({ pruning_months: patch.pruningMonths ?? null })
+        .eq('id', id)
+      if (error) console.error('Failed to save pruning months:', error)
+    }
+
     if ('recentlyPlanted' in patch) {
       const { error } = await supabase
         .from('bush_rose_profiles')

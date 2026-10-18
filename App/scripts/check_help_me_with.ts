@@ -13,7 +13,8 @@ import { PRUNING_MONTHS, PRUNING_MONTHS_PKR } from '@/data/pruningMonths'
 import { publishedRecord, type Statement } from '@/data/pkr'
 import { agoText, careTiming, daysBetween, helpPlan, pruningMonths, type HelpChoice } from '@/lib/helpMeWith'
 import { placeFromText } from '@/lib/place'
-import type { Hemisphere, RecentlyPlantedAnswer } from '@/lib/types'
+import { comingUp } from '@/lib/comingUp'
+import type { Hemisphere, PlantProject, RecentlyPlantedAnswer } from '@/lib/types'
 
 let failures = 0
 function check(ok: boolean, what: string) {
@@ -124,7 +125,7 @@ check(first('Christchurch', 5).includes('care:006') && first('Christchurch', 4).
 // Rules A and B.
 check(first('Journal-only rose', 10) === 'note', 'Journal-only rose: a note only')
 check(first('Rose type not set', 10) === 'set-rose-type, note', 'Rose type not set: set the type, or a note')
-check(first('No place', 10) === 'q:sucker, all-questions, note', 'No season: suckers, common questions, a note')
+check(first('No place', 10) === 'set-place, q:sucker, all-questions, note', 'No season: tell Pip the place, suckers, common questions, a note')
 check(planFor({ label: 'x', hemisphere: 'southern', country: 'New Zealand', recent: undefined } as Rose, 10).askRecentlyPlanted === false, 'test roses carry an answer')
 check(
   helpPlan({ roseTypePasses: true, roseTypeSet: true, hemisphere: 'southern', codes: ['NZ'], date: new Date(2026, 9, 15) }).askRecentlyPlanted,
@@ -150,7 +151,27 @@ check(!nzFeed.some((s) => /late summer/.test(s.text)), 'Christchurch feeding: no
 console.log('\nChristchurch, feeding:')
 nzFeed.forEach((s) => console.log(`  - ${s.text}${s.kind ? ` [${s.kind}]` : ''}`))
 
-// 4. App line 6.
+// 4. "Coming up" on the home screen.
+const rose = (id: string, city: string | undefined, country: string | undefined, roseType: string) =>
+  ({ id, name: id, locationCity: city, locationCountry: country, roseType, careLog: [] }) as unknown as PlantProject
+const roses = [
+  rose('A', 'Christchurch', 'New Zealand', 'hybrid-tea'),
+  rose('B', 'Christchurch', 'New Zealand', 'floribunda'),
+  rose('C', 'Christchurch', 'New Zealand', 'excluded'),
+  rose('D', undefined, 'France', 'hybrid-tea'),
+  rose('E', 'London', 'United Kingdom', 'hybrid-tea'),
+]
+const placeMap = new Map(roses.map((r) => [r.id, placeFromText(r) ?? { codes: [] }]))
+const show = (month: number) =>
+  comingUp(roses, placeMap, new Date(2026, month - 1, 15)).map((g) => `${g.kind}:${g.place}${g.month ? `>${g.month}` : ''}=${g.roses.map((r) => r.id).join('+')}`).join(' | ')
+console.log('\nComing up:')
+for (const m of [5, 6, 9, 10, 1]) console.log(`  ${MONTHS[m - 1]}: ${show(m) || '—'}`)
+check(show(5) === 'soon:Christchurch>June=A+B', 'Coming up, May: Christchurch starts in June, A and B together, C (journal-only) and D (no place) left out')
+check(show(7).startsWith('now:Christchurch=A+B'), 'Coming up, July: pruning time in Christchurch')
+check(show(10) === 'soon:London>November=E', 'Coming up, October: only London, starting in November')
+check(show(1) === 'now:London=E', 'Coming up, January: London only')
+
+// 5. App line 6.
 check(agoText(daysBetween('2026-09-06', '2026-10-18')) === '6 weeks ago', '42 days is "6 weeks ago"')
 check(agoText(1) === '1 day ago' && agoText(0) === 'today' && agoText(90) === '3 months ago', 'other ages')
 

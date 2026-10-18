@@ -95,6 +95,12 @@ export interface PlantProject {
    * check still ask each time; this lets the Help panel know without asking again.
    */
   recentlyPlanted?: RecentlyPlantedAnswer
+  /**
+   * The pruning months for where this rose grows (1 = January), as worked out on the
+   * gardener's device from its place (lib/helpMeWith.ts). Saved so the pruning-time
+   * email job can run without the server ever working out a place. Absent = not saved yet.
+   */
+  pruningMonths?: number[]
   personalMeaning?: string
   /**
    * A record of what Journey.tsx's pre-journey safety checklist actually
@@ -226,6 +232,7 @@ export interface BushRoseProfileRow {
   rose_type: SavedRoseType | null
   /** Absent until the care_log migration in schema.sql has been run. */
   recently_planted?: RecentlyPlantedAnswer | null
+  pruning_months?: number[] | null
   personal_meaning: string | null
   safety_checklist: SafetyChecklistEntry[] | null
   safety_acknowledged_at: string | null

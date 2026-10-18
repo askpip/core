@@ -4,7 +4,7 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.15
+**Version:** 0.16
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
@@ -178,6 +178,21 @@ Built to `Working/Founder Review/APP-HELP-ME-WITH-ROSE_Proposal.md`, approved by
 
 **Checked.** `App/scripts/check_help_me_with.ts` runs against the snapshot: the month table matches PKR-CGD-000022; 14 test roses (New Zealand, Australia, the UK, the US, Canada, recently planted, no place, journal-only, type not set) across all 12 months get the choices the rules give; and every care-log statement is a Published item for that place. All checks pass, and the app build passes. The panel was opened in headless Chromium at 375 pixels with test data and every choice tapped, with no errors. Not yet checked in the live app on a signed-in test rose.
 
+## 3.7 Journal Photos, "Coming up", a Rose's Place and Pruning-Time Emails (18 October 2026)
+
+**Journal photos** (`App/src/components/PhotoViewer.tsx`). A progress photo or the nursery label photo opens full size; arrows step through progress photos.
+
+Built to `Working/Founder Review/APP-REMINDERS-AND-PLACE_Proposal.md`, approved by a Founder in chat on 18 October 2026 with no change:
+
+- **"Coming up"** (`App/src/components/ComingUp.tsx`, `App/src/lib/comingUp.ts`) at the top of the home screen, for roses whose type passes, when their place is in its pruning months or they start next month. Roses in the same place are listed together; each name opens the rose. Places for several roses come from `App/src/lib/usePlantPlaces.ts`, on the device.
+- **A rose's place** (`App/src/components/LocationEditor.tsx`): a Change button on the Location line, with Add a plant's question and its two ways (GPS or typed); the other way's fields are cleared. The Help panel's rule B gains "Tell Pip where it grows".
+- **Pruning months saved** (`pruning_months` on the plant, `App/src/lib/useSavePruningMonths.ts`): the home screen and the rose's page save each rose's pruning months, worked out on the device, whenever they differ. None for a rose whose type doesn't pass.
+- **Pruning-time emails.** A menu item, "Email me when it's pruning time" (`App/src/components/EmailReminders.tsx`), stores only the choice in `email_reminders`. `public.send_pruning_reminders()` sends one email on the 1st to each gardener who has them on and has a rose whose pruning months start that month, through Resend as the Shed's emails do, and records the month so it is never sent twice. Where a rose has no typed town or region, the line drops "in [place]" ("It's pruning time: [rose].") rather than name a place the server cannot know. Gardeners cannot call the function.
+
+**Database:** the column, the table and the function are applied and checked. **The monthly schedule (`pg_cron`, job `pruning-reminders`) is not yet switched on:** it waits for a test send to a Founder's address only, once the new app version has saved that Founder's roses' months.
+
+**Checked.** `App/scripts/check_help_me_with.ts` adds "Coming up" cases (May, June, September, October and January; a journal-only rose and a rose with no place left out); all checks pass and the app build passes. The card, the place editor and the photo viewer were opened in headless Chromium at 375 pixels with test data, with no errors. Not yet checked in the live app.
+
 # 4. Phase B — Blocked on Founder-Approved Knowledge
 
 Phase B covers the Primer's remaining horticultural cards, the "Pruning your bush rose" Learn shelf, the before-you-cut lesson, and observation ordering. None of it can be built with real content until the underlying research clears Founder review, is compiled into an Approved Research Compilation (ARC), and is published as a PIP Knowledge Record (PKR) by the Knowledge Integration Technician (KIT). Writing placeholder horticultural content into the app ahead of that is exactly the problem `learnTopics.ts`'s own governing comment warns against, and shall not be done to make Phase B appear further along than it is.
@@ -225,6 +240,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **7 October 2026 (Version 0.6):** §3.5 rewritten for places inside a country (regions, groups of regions and towns, worked out on the device, with the gardener asked near a region's edge) and for the month-level timing question.
 
 - **7 October 2026 (Version 0.7):** New Zealand month-level timing approved and its records in the snapshot; the place test rerun against the published records.
+- **18 October 2026 (Version 0.16):** Added §3.7: journal photos open full size; "Coming up", changing a rose's place, saved pruning months and pruning-time emails built. The monthly email schedule waits for one test send to a Founder.
 - **18 October 2026 (Version 0.15):** Added §3.6: "Help me with [rose name]" built (panel, pruning-month table, saved recently-planted answer, care log). Needs the new `schema.sql` section run once. Checked against the snapshot and in headless Chromium with test data; not yet in the live app.
 - **18 October 2026 (Version 0.14):** Older answers check, batch 3 approved and in the snapshot: PKR-SGT-000001 v1.3 (removal-only session), PKR-SGT-000003 v1.2, PKR-CGD-000001 to -000008 (CGD-001/002 v1.1, CGD-003 v1.2, CGD-004/005/006 v1.1, CGD-007/008 v1.2), PKR-OBS/DEC-000008 v1.1. App change: `RoseTypeQuestion.tsx` shows the label line's tag. The older-answers check is complete: every answer published before the Build Check has now been checked. Checked by running the app's data code against the new snapshot (gates, cutting guide, care answers, blind-shoot check); the app build passes. Not opened in a browser.
 - **17 October 2026 (Version 0.13):** Older answers check, batch 2 approved and in the snapshot: PKR-OBS/DEC-000004 (1.1/1.2), -000005 (1.1/1.2), -000006 (1.2/1.2). App change: `StatementList` in `App/src/components/PkrStatements.tsx` now shows each statement's tag ("Precaution", "Sources disagree") and its limit in the pruning steps and the blind-shoot check, as the common-question answers already did. Checked by rendering the list and running the journey code against the new snapshot; the app build passes. Not opened in a browser.

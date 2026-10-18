@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Plus, Check, Trash2, BookOpen, ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -9,6 +9,10 @@ import { AppHeader } from '@/components/AppHeader'
 import { Button } from '@/components/Button'
 import { CommonQuestions } from '@/components/CommonQuestions'
 import { HOME_QUESTIONS } from '@/data/commonQuestions'
+import { ComingUp } from '@/components/ComingUp'
+import { comingUp } from '@/lib/comingUp'
+import { usePlantPlaces } from '@/lib/usePlantPlaces'
+import { useSavePruningMonths } from '@/lib/useSavePruningMonths'
 
 // Same fallback Welcome.tsx uses when a gardener somehow has no saved name
 // yet — shouldn't happen in the normal flow, but a heading shouldn't break
@@ -17,7 +21,15 @@ const FALLBACK_NAME = 'Gardener'
 
 export function Library() {
   const navigate = useNavigate()
-  const { projects, deleteProject } = useProjects()
+  const { projects, deleteProject, updateProject } = useProjects()
+  const places = usePlantPlaces(projects)
+  const upcoming = useMemo(() => comingUp(projects, places, new Date()), [projects, places])
+  const saveMonths = useCallback(
+    (plantId: string, months: number[]) => void updateProject(plantId, { pruningMonths: months }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [],
+  )
+  useSavePruningMonths(projects, places, saveMonths)
   const { user } = useAuth()
   const displayName = user?.user_metadata?.displayName
   const name = typeof displayName === 'string' && displayName.trim() ? displayName.trim() : FALLBACK_NAME
@@ -91,6 +103,8 @@ export function Library() {
             Hidden in select mode, same reasoning as the "Add a plant" tile
             below: nothing here should compete for attention with a delete
             decision in progress. */}
+        {!selectMode && <ComingUp groups={upcoming} />}
+
         {!selectMode && (
           <button
             onClick={() => navigate('/learn')}

@@ -25,6 +25,7 @@ export type HelpChoice =
   | { kind: 'question'; key: BuiltInKey }
   | { kind: 'set-rose-type' }
   | { kind: 'all-questions' }
+  | { kind: 'set-place' }
   | { kind: 'note' }
 
 export type HelpRule = 'journal-only' | 'no-season' | 'seasonal'
@@ -90,7 +91,9 @@ export function helpPlan({
   }
 
   if (!hemisphere) {
+    // Telling Pip the place is offered first (APP-REMINDERS-AND-PLACE proposal §3).
     const first: HelpChoice[] = [
+      { kind: 'set-place' },
       ...(answered('sucker') ? [{ kind: 'question', key: 'sucker' } as const] : []),
       { kind: 'all-questions' },
       { kind: 'note' },
