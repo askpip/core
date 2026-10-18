@@ -2,30 +2,33 @@ import { useRef, useState, type ChangeEvent } from 'react'
 import { Camera, Upload, X, Loader2, Trash2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { usePlantPhotoUrl } from '@/lib/photos'
+import { PhotoViewer } from '@/components/PhotoViewer'
 import type { ProgressPhoto } from '@/lib/types'
 
 interface ThumbProps {
   photo: ProgressPhoto
+  onOpen: () => void
   onRemove: () => void
 }
 
-function ProgressPhotoThumb({ photo, onRemove }: ThumbProps) {
+const dateLabelOf = (photo: ProgressPhoto) =>
+  new Date(photo.createdAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })
+
+function ProgressPhotoThumb({ photo, onOpen, onRemove }: ThumbProps) {
   const url = usePlantPhotoUrl(photo.path)
   const [confirming, setConfirming] = useState(false)
-  const dateLabel = new Date(photo.createdAt).toLocaleDateString(undefined, {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-  })
+  const dateLabel = dateLabelOf(photo)
 
   return (
     <div className="relative aspect-square overflow-hidden rounded-xl bg-pip-bg-deep">
       {url ? (
-        <img
-          src={url}
-          alt={photo.caption ?? `Progress photo from ${dateLabel}`}
-          className="h-full w-full object-cover"
-        />
+        <button type="button" onClick={onOpen} aria-label={`Open the photo from ${dateLabel}`} className="h-full w-full">
+          <img
+            src={url}
+            alt={photo.caption ?? `Progress photo from ${dateLabel}`}
+            className="h-full w-full object-cover"
+          />
+        </button>
       ) : (
         <div className="flex h-full w-full items-center justify-center">
           <Loader2 size={18} className="animate-spin text-pip-text-soft" />
@@ -91,6 +94,7 @@ export function ProgressPhotos({ photos, onAdd, onRemove, className }: ProgressP
   const fileInputRef = useRef<HTMLInputElement>(null)
   const [uploading, setUploading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   async function handleFile(e: ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0]
@@ -159,11 +163,26 @@ export function ProgressPhotos({ photos, onAdd, onRemove, className }: ProgressP
         </div>
 
         {sorted.map((photo) => (
-          <ProgressPhotoThumb key={photo.id} photo={photo} onRemove={() => onRemove(photo)} />
+          <ProgressPhotoThumb
+            key={photo.id}
+            photo={photo}
+            onOpen={() => setOpenIndex(sorted.indexOf(photo))}
+            onRemove={() => onRemove(photo)}
+          />
         ))}
       </div>
 
       {error && <p className="mt-2 text-xs text-red-600">{error}</p>}
+
+      {openIndex !== null && sorted[openIndex] && (
+        <PhotoViewer
+          path={sorted[openIndex].path}
+          label={sorted[openIndex].caption ?? dateLabelOf(sorted[openIndex])}
+          onClose={() => setOpenIndex(null)}
+          onPrev={openIndex > 0 ? () => setOpenIndex(openIndex - 1) : undefined}
+          onNext={openIndex < sorted.length - 1 ? () => setOpenIndex(openIndex + 1) : undefined}
+        />
+      )}
     </div>
   )
 }

@@ -14,6 +14,7 @@ import { SeasonCard } from '@/components/SeasonCard'
 import { CommonQuestions } from '@/components/CommonQuestions'
 import { HelpMeWith } from '@/components/HelpMeWith'
 import { CareLogList } from '@/components/CareLog'
+import { PhotoViewer } from '@/components/PhotoViewer'
 import { countryName } from '@/lib/place'
 import { usePlantPlace } from '@/lib/usePlantPlace'
 import { HOME_QUESTIONS } from '@/data/commonQuestions'
@@ -48,6 +49,7 @@ export function PlantProject() {
   const labelPhotoUrl = usePlantPhotoUrl(project?.varietyLabelPhotoPath)
   const [showCare, setShowCare] = useState(false)
   const [showHelp, setShowHelp] = useState(false)
+  const [showLabelPhoto, setShowLabelPhoto] = useState(false)
   const { place, skipAsk } = usePlantPlace(project)
 
   if (loading) {
@@ -301,16 +303,18 @@ export function PlantProject() {
               <p className="mb-3 whitespace-pre-wrap">{project.varietyLabelNote}</p>
             )}
             {labelPhotoUrl && (
-              <img
-                src={labelPhotoUrl}
-                alt="Nursery label"
-                className="w-1/2 rounded-lg object-contain"
-              />
+              <button type="button" onClick={() => setShowLabelPhoto(true)} aria-label="Open the nursery label photo" className="w-1/2">
+                <img src={labelPhotoUrl} alt="Nursery label" className="w-full rounded-lg object-contain" />
+              </button>
             )}
           </div>
         )}
         </div>
       </div>
+
+      {showLabelPhoto && labelPhotoUrl && (
+        <PhotoViewer url={labelPhotoUrl} label="Nursery label" onClose={() => setShowLabelPhoto(false)} />
+      )}
 
       {showHelp && (
         <HelpMeWith
