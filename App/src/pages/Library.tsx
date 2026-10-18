@@ -104,27 +104,7 @@ export function Library() {
       <AppHeader />
 
       <div className="flex-1 overflow-y-auto px-4 pt-4">
-        <div className="mb-1 flex items-center justify-between">
-          <h2 className="font-heading text-2xl">{name}'s Plant Journal</h2>
-          {reorderMode ? (
-            <button onClick={finishReorder} className="text-sm font-bold text-pip-primary">
-              Done
-            </button>
-          ) : (
-            projects.length > 0 && (
-              <div className="flex gap-4">
-                {!selectMode && projects.length > 1 && (
-                  <button onClick={() => setDraftOrder(savedOrder.map((p) => p.id))} className="text-sm font-medium text-pip-primary">
-                    Reorder
-                  </button>
-                )}
-                <button onClick={toggleSelectMode} className="text-sm font-medium text-pip-primary">
-                  {selectMode ? 'Cancel' : 'Select'}
-                </button>
-              </div>
-            )
-          )}
-        </div>
+        <h2 className="font-heading mb-1 text-2xl">{name}'s Plant Journal</h2>
         <p className="mb-4 text-sm text-pip-text-soft">
           {reorderMode
             ? 'Use the arrows to put your plants in the order you like, then tap Done.'
@@ -133,32 +113,7 @@ export function Library() {
             : "Every plant's story lives here — photos, decisions and what happened next."}
         </p>
 
-        {/* Learn used to be reachable only from the header's ⋯ menu — easy to
-            never notice. This is the same destination (/learn), just given
-            real visibility on the one screen every gardener actually returns
-            to, rather than sitting buried alongside Log Out and Privacy.
-            Hidden in select mode, same reasoning as the "Add a plant" tile
-            below: nothing here should compete for attention with a delete
-            decision in progress. */}
         {!selectMode && !reorderMode && <ComingUp groups={upcoming} />}
-
-        {!selectMode && !reorderMode && (
-          <button
-            onClick={() => navigate('/learn')}
-            className="mb-5 flex w-full items-center gap-3 rounded-2xl bg-pip-secondary/60 px-4 py-3.5 text-left shadow-sm transition-transform hover:-translate-y-0.5"
-          >
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-pip-card text-pip-primary">
-              <BookOpen size={20} strokeWidth={1.75} />
-            </span>
-            <div className="flex-1">
-              <p className="text-sm font-medium text-pip-text">How Pip works</p>
-              <p className="text-xs text-pip-text-soft">
-                Pruning together, care through the year, your rose's journal, and more
-              </p>
-            </div>
-            <ChevronRight size={18} className="shrink-0 text-pip-text-soft" />
-          </button>
-        )}
 
         <div className="grid grid-cols-2 gap-4">
           {projects.map((project, index) => {
@@ -243,6 +198,55 @@ export function Library() {
             </button>
           )}
         </div>
+
+        {/* Below the plants and above the questions (a Founder's direction, 18 October 2026). */}
+        {projects.length > 0 && (
+          <div className="mt-4 flex justify-end gap-5">
+            {reorderMode ? (
+              <button onClick={finishReorder} className="min-h-11 px-1 text-sm font-bold text-pip-primary">
+                Done
+              </button>
+            ) : (
+              <>
+                {!selectMode && projects.length > 1 && (
+                  <button
+                    onClick={() => setDraftOrder(savedOrder.map((p) => p.id))}
+                    className="min-h-11 px-1 text-sm font-medium text-pip-primary"
+                  >
+                    Reorder
+                  </button>
+                )}
+                <button onClick={toggleSelectMode} className="min-h-11 px-1 text-sm font-medium text-pip-primary">
+                  {selectMode ? 'Cancel' : 'Select'}
+                </button>
+              </>
+            )}
+          </div>
+        )}
+
+        {/* Learn used to be reachable only from the header's ⋯ menu — easy to
+            never notice. This is the same destination (/learn), just given
+            real visibility on the one screen every gardener actually returns
+            to. Below the plants and their controls (a Founder's direction,
+            18 October 2026). Hidden while selecting or reordering, like the
+            "Add a plant" tile: nothing here should compete with that. */}
+        {!selectMode && !reorderMode && (
+          <button
+            onClick={() => navigate('/learn')}
+            className="mt-5 flex w-full items-center gap-3 rounded-2xl bg-pip-secondary/60 px-4 py-3.5 text-left shadow-sm transition-transform hover:-translate-y-0.5"
+          >
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-pip-card text-pip-primary">
+              <BookOpen size={20} strokeWidth={1.75} />
+            </span>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-pip-text">How Pip works</p>
+              <p className="text-xs text-pip-text-soft">
+                Pruning together, care through the year, your rose's journal, and more
+              </p>
+            </div>
+            <ChevronRight size={18} className="shrink-0 text-pip-text-soft" />
+          </button>
+        )}
 
         {!selectMode && !reorderMode && (
           <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} className="mb-8 mt-8" />
