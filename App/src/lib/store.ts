@@ -112,7 +112,12 @@ export function useProjects() {
         { data: noteRows, error: noteError },
         { data: careRows, error: careError },
       ] = await Promise.all([
-        supabase.from('bush_rose_profiles').select('*').order('created_at', { ascending: true }),
+        // The gardener's own order first (Library.tsx "Reorder"); plants not yet placed follow, oldest first.
+        supabase
+          .from('bush_rose_profiles')
+          .select('*')
+          .order('sort_order', { ascending: true, nullsFirst: false })
+          .order('created_at', { ascending: true }),
         supabase.from('observations').select('*').order('created_at', { ascending: true }),
         supabase.from('plant_photo_log').select('*').order('created_at', { ascending: true }),
         supabase.from('follow_ups').select('*').order('created_at', { ascending: true }),
@@ -573,6 +578,16 @@ export function useProjects() {
     if (error) console.error('Failed to update journey close-up photos:', error)
   }
 
+  /** Saves the gardener's order for their plants: `ids` is every plant, in the new order. */
+  async function reorderProjects(ids: string[]) {
+    setProjects((prev) => ids.map((id) => prev.find((p) => p.id === id)).filter((p): p is PlantProject => Boolean(p)))
+    const results = await Promise.all(
+      ids.map((id, i) => supabase.from('bush_rose_profiles').update({ sort_order: i }).eq('id', id)),
+    )
+    const failed = results.find((r) => r.error)
+    if (failed) console.error('Failed to save plant order:', failed.error)
+  }
+
   function getProject(id: string) {
     return projects.find((p) => p.id === id)
   }
@@ -598,6 +613,7 @@ export function useProjects() {
     removeJourneyCloseUpPhoto,
     getProject,
     deleteProject,
+    reorderProjects,
     loading,
   }
 }

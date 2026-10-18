@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Button } from '@/components/Button'
-import { supabase } from '@/lib/supabase'
+import { useEmailReminderChoice } from '@/lib/emailReminders'
 
 /**
  * The pruning-time email switch, from the menu (APP-REMINDERS-AND-PLACE proposal §4,
@@ -9,44 +9,16 @@ import { supabase } from '@/lib/supabase'
  * with, and the monthly job reads it there.
  */
 export function EmailReminders({ email }: { email?: string }) {
-  const [enabled, setEnabled] = useState<boolean | null>(null)
+  const { choice, set } = useEmailReminderChoice()
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const enabled = choice === 'on'
 
-  useEffect(() => {
-    let current = true
-    void supabase
-      .from('email_reminders')
-      .select('enabled')
-      .maybeSingle()
-      .then(({ data, error: e }) => {
-        if (!current) return
-        if (e) console.warn('Email choice not loaded:', e.message)
-        setEnabled(Boolean(data?.enabled))
-      })
-    return () => {
-      current = false
-    }
-  }, [])
-
-  async function set(next: boolean) {
+  async function toggle() {
     setSaving(true)
     setError(null)
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    const { error: e } = user
-      ? await supabase
-          .from('email_reminders')
-          .upsert({ user_id: user.id, enabled: next, updated_at: new Date().toISOString() })
-      : { error: new Error('Not signed in') }
+    if (!(await set(!enabled))) setError("That didn't save — check your connection and try again.")
     setSaving(false)
-    if (e) {
-      console.error('Email choice not saved:', e)
-      setError("That didn't save — check your connection and try again.")
-      return
-    }
-    setEnabled(next)
   }
 
   return (
@@ -55,12 +27,12 @@ export function EmailReminders({ email }: { email?: string }) {
         I'll email you at {email ?? 'your sign-in address'} on the first of a month when one of your roses reaches its pruning
         months. You can turn this off here at any time.
       </p>
-      {enabled === null ? (
+      {choice === 'loading' ? (
         <p className="text-xs">Loading…</p>
       ) : (
         <>
           <p className="text-sm font-medium text-pip-text">{enabled ? 'On' : 'Off'}</p>
-          <Button variant={enabled ? 'secondary' : 'primary'} disabled={saving} onClick={() => void set(!enabled)}>
+          <Button variant={enabled ? 'secondary' : 'primary'} disabled={saving} onClick={() => void toggle()}>
             {enabled ? 'Turn off' : 'Turn on'}
           </Button>
         </>

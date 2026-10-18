@@ -1163,3 +1163,7 @@ revoke execute on function public.send_pruning_reminders(date, text) from anon, 
 -- Early on the 1st of each month (UTC). Re-scheduling under the same name replaces the job.
 create extension if not exists pg_cron;
 select cron.schedule('pruning-reminders', '5 0 1 * *', $cron$select public.send_pruning_reminders()$cron$);
+
+-- 18 October 2026: the gardener's own order for their plants in the journal
+-- (Library.tsx "Reorder"). Null = not placed yet; those follow, oldest first.
+alter table public.bush_rose_profiles add column if not exists sort_order integer;

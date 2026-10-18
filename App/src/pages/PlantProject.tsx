@@ -16,6 +16,7 @@ import { HelpMeWith } from '@/components/HelpMeWith'
 import { CareLogList } from '@/components/CareLog'
 import { PhotoViewer } from '@/components/PhotoViewer'
 import { LocationEditor } from '@/components/LocationEditor'
+import { EmailOffer } from '@/components/EmailOffer'
 import { useSavePruningMonths } from '@/lib/useSavePruningMonths'
 import { countryName } from '@/lib/place'
 import { usePlantPlace } from '@/lib/usePlantPlace'
@@ -52,6 +53,7 @@ export function PlantProject() {
   const [showCare, setShowCare] = useState(false)
   const [showHelp, setShowHelp] = useState(false)
   const [showLabelPhoto, setShowLabelPhoto] = useState(false)
+  const [coverUrl, setCoverUrl] = useState<string | null>(null)
   const [editPlace, setEditPlace] = useState(false)
   const { place, skipAsk } = usePlantPlace(project)
   // Hooks run before the early returns below; with no project these see an empty list.
@@ -110,6 +112,7 @@ export function PlantProject() {
           profileId={project.id}
           slot="overview"
           onPhotoChange={(path) => updateProject(project.id, { overviewPhotoPath: path })}
+          onOpen={setCoverUrl}
         />
 
         <div className="flex flex-col gap-4 pt-5">
@@ -167,6 +170,9 @@ export function PlantProject() {
             </div>
           </>
         )}
+
+        {/* Offered once, once Pip knows this rose's pruning months (a Founder's decision, 18 October 2026). */}
+        {(project.pruningMonths?.length ?? 0) > 0 && <EmailOffer name={project.name} />}
 
         {/* Basic care as a journal reference: PKR-CGD-000004 and 000006 list
             "in the plant journal of a rose that passed PKR-SGT-000003" as a
@@ -332,6 +338,8 @@ export function PlantProject() {
           onClose={() => setEditPlace(false)}
         />
       )}
+
+      {coverUrl && <PhotoViewer url={coverUrl} label={project.name} onClose={() => setCoverUrl(null)} />}
 
       {showLabelPhoto && labelPhotoUrl && (
         <PhotoViewer url={labelPhotoUrl} label="Nursery label" onClose={() => setShowLabelPhoto(false)} />

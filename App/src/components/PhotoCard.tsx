@@ -22,6 +22,8 @@ interface PhotoCardProps {
   profileId?: string
   slot?: PlantPhotoSlot
   onPhotoChange?: (path: string | undefined) => void
+  /** Tapping the photo opens it full size; the page shows it (PhotoViewer), outside this card. */
+  onOpen?: (url: string) => void
 }
 
 /**
@@ -39,6 +41,7 @@ export function PhotoCard({
   profileId,
   slot,
   onPhotoChange,
+  onOpen,
 }: PhotoCardProps) {
   const editable = Boolean(profileId && slot && onPhotoChange)
 
@@ -99,17 +102,27 @@ export function PhotoCard({
   return (
     <div className={cn('rounded-[1.75rem] bg-white p-2 shadow-md', className)}>
       <div className="relative aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-[#7fae61] via-[#a8c98a] to-[#e0a872]">
-        {photoUrl && (
-          <img
-            src={photoUrl}
-            alt={overlayName ?? 'Plant photo'}
-            className="absolute inset-0 h-full w-full object-cover"
-          />
-        )}
+        {photoUrl &&
+          (onOpen ? (
+            <button
+              type="button"
+              onClick={() => onOpen(photoUrl)}
+              aria-label={`Open the photo of ${overlayName ?? 'this plant'}`}
+              className="absolute inset-0 h-full w-full"
+            >
+              <img src={photoUrl} alt={overlayName ?? 'Plant photo'} className="h-full w-full object-cover" />
+            </button>
+          ) : (
+            <img
+              src={photoUrl}
+              alt={overlayName ?? 'Plant photo'}
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+          ))}
         {overlayName && (
           <>
-            <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-black/55 to-transparent" />
-            <span className="font-heading absolute bottom-3 left-4 right-4 text-3xl text-white drop-shadow-sm">
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-black/55 to-transparent" />
+            <span className="font-heading pointer-events-none absolute bottom-3 left-4 right-4 text-3xl text-white drop-shadow-sm">
               {overlayName}
             </span>
           </>

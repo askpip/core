@@ -1,6 +1,6 @@
 import { useCallback, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Plus, Check, Trash2, BookOpen, ChevronRight } from 'lucide-react'
+import { Plus, Check, Trash2, BookOpen, ChevronRight, ChevronUp, ChevronDown } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useProjects } from '@/lib/store'
 import { useAuth } from '@/lib/auth'
@@ -21,7 +21,31 @@ const FALLBACK_NAME = 'Gardener'
 
 export function Library() {
   const navigate = useNavigate()
-  const { projects, deleteProject, updateProject } = useProjects()
+  const { projects: savedOrder, deleteProject, updateProject, reorderProjects } = useProjects()
+  // While reordering, the cards follow the draft order; it is saved on Done.
+  const [draftOrder, setDraftOrder] = useState<string[] | null>(null)
+  const projects = useMemo(
+    () => (draftOrder ? draftOrder.map((id) => savedOrder.find((p) => p.id === id)).filter((p) => p !== undefined) : savedOrder),
+    [draftOrder, savedOrder],
+  )
+  const reorderMode = draftOrder !== null
+
+  function move(id: string, by: -1 | 1) {
+    setDraftOrder((order) => {
+      if (!order) return order
+      const i = order.indexOf(id)
+      const j = i + by
+      if (i < 0 || j < 0 || j >= order.length) return order
+      const next = [...order]
+      ;[next[i], next[j]] = [next[j], next[i]]
+      return next
+    })
+  }
+
+  function finishReorder() {
+    if (draftOrder && draftOrder.some((id, i) => id !== savedOrder[i]?.id)) void reorderProjects(draftOrder)
+    setDraftOrder(null)
+  }
   const places = usePlantPlaces(projects)
   const upcoming = useMemo(() => comingUp(projects, places, new Date()), [projects, places])
   const saveMonths = useCallback(
@@ -52,6 +76,7 @@ export function Library() {
   }
 
   function handleCardClick(id: string) {
+    if (reorderMode) return
     if (selectMode) {
       toggleSelected(id)
     } else {
@@ -81,17 +106,29 @@ export function Library() {
       <div className="flex-1 overflow-y-auto px-4 pt-4">
         <div className="mb-1 flex items-center justify-between">
           <h2 className="font-heading text-2xl">{name}'s Plant Journal</h2>
-          {projects.length > 0 && (
-            <button
-              onClick={toggleSelectMode}
-              className="text-sm font-medium text-pip-primary"
-            >
-              {selectMode ? 'Cancel' : 'Select'}
+          {reorderMode ? (
+            <button onClick={finishReorder} className="text-sm font-bold text-pip-primary">
+              Done
             </button>
+          ) : (
+            projects.length > 0 && (
+              <div className="flex gap-4">
+                {!selectMode && projects.length > 1 && (
+                  <button onClick={() => setDraftOrder(savedOrder.map((p) => p.id))} className="text-sm font-medium text-pip-primary">
+                    Reorder
+                  </button>
+                )}
+                <button onClick={toggleSelectMode} className="text-sm font-medium text-pip-primary">
+                  {selectMode ? 'Cancel' : 'Select'}
+                </button>
+              </div>
+            )
           )}
         </div>
         <p className="mb-4 text-sm text-pip-text-soft">
-          {selectMode
+          {reorderMode
+            ? 'Use the arrows to put your plants in the order you like, then tap Done.'
+            : selectMode
             ? 'Tap the plants you want to delete.'
             : "Every plant's story lives here — photos, decisions and what happened next."}
         </p>
@@ -103,9 +140,9 @@ export function Library() {
             Hidden in select mode, same reasoning as the "Add a plant" tile
             below: nothing here should compete for attention with a delete
             decision in progress. */}
-        {!selectMode && <ComingUp groups={upcoming} />}
+        {!selectMode && !reorderMode && <ComingUp groups={upcoming} />}
 
-        {!selectMode && (
+        {!selectMode && !reorderMode && (
           <button
             onClick={() => navigate('/learn')}
             className="mb-5 flex w-full items-center gap-3 rounded-2xl bg-pip-secondary/60 px-4 py-3.5 text-left shadow-sm transition-transform hover:-translate-y-0.5"
@@ -124,7 +161,7 @@ export function Library() {
         )}
 
         <div className="grid grid-cols-2 gap-4">
-          {projects.map((project) => {
+          {projects.map((project, index) => {
             const selected = selectedIds.has(project.id)
             return (
               <div
@@ -145,6 +182,28 @@ export function Library() {
                     label={project.name}
                     className="aspect-square w-full"
                   />
+                  {reorderMode && (
+                    <div className="absolute inset-x-0 bottom-2 flex justify-center gap-3">
+                      <button
+                        type="button"
+                        disabled={index === 0}
+                        onClick={() => move(project.id, -1)}
+                        aria-label={`Move ${project.name} earlier`}
+                        className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-pip-text shadow-sm disabled:opacity-30"
+                      >
+                        <ChevronUp size={20} />
+                      </button>
+                      <button
+                        type="button"
+                        disabled={index === projects.length - 1}
+                        onClick={() => move(project.id, 1)}
+                        aria-label={`Move ${project.name} later`}
+                        className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-pip-text shadow-sm disabled:opacity-30"
+                      >
+                        <ChevronDown size={20} />
+                      </button>
+                    </div>
+                  )}
                   {selectMode && (
                     <span
                       className={cn(
@@ -174,7 +233,7 @@ export function Library() {
             )
           })}
 
-          {!selectMode && (
+          {!selectMode && !reorderMode && (
             <button
               onClick={() => navigate('/new-plant')}
               className="flex aspect-square flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-pip-border text-pip-text-soft transition-colors hover:border-pip-primary hover:text-pip-primary"
@@ -185,7 +244,7 @@ export function Library() {
           )}
         </div>
 
-        {!selectMode && (
+        {!selectMode && !reorderMode && (
           <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} className="mb-8 mt-8" />
         )}
 

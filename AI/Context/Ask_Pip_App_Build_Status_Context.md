@@ -4,7 +4,7 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.16
+**Version:** 0.17
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
@@ -189,7 +189,15 @@ Built to `Working/Founder Review/APP-REMINDERS-AND-PLACE_Proposal.md`, approved 
 - **Pruning months saved** (`pruning_months` on the plant, `App/src/lib/useSavePruningMonths.ts`): the home screen and the rose's page save each rose's pruning months, worked out on the device, whenever they differ. None for a rose whose type doesn't pass.
 - **Pruning-time emails.** A menu item, "Email me when it's pruning time" (`App/src/components/EmailReminders.tsx`), stores only the choice in `email_reminders`. `public.send_pruning_reminders()` sends one email on the 1st to each gardener who has them on and has a rose whose pruning months start that month, through Resend as the Shed's emails do, and records the month so it is never sent twice. Where a rose has no typed town or region, the line drops "in [place]" ("It's pruning time: [rose].") rather than name a place the server cannot know. Gardeners cannot call the function.
 
-**Database:** the column, the table and the function are applied and checked. **The monthly schedule (`pg_cron`, job `pruning-reminders`) is not yet switched on:** it waits for a test send to a Founder's address only, once the new app version has saved that Founder's roses' months.
+**Database:** the column, the table and the function are applied and checked. A test email to a Founder's address only (as if 1 June 2026) was accepted by Resend and confirmed received and correct by the Founder on 18 October 2026. **The monthly schedule is on:** `pg_cron` job `pruning-reminders`, `5 0 1 * *` (00:05 UTC on the 1st), checked active.
+
+**Added the same day, at a Founder's direction:**
+
+- **Pip offers the emails once** (`App/src/components/EmailOffer.tsx`, `App/src/lib/emailReminders.ts`) on a rose's page, the first time the rose has pruning months saved: "Would you like an email when it's pruning time for [rose]? You can change this in the menu." · "Yes, email me" · "No thanks". Either answer leaves a row in `email_reminders`, so it isn't asked again; a failed read counts as answered.
+- **The rose's main photo opens full size** (`PhotoCard` `onOpen`, shown by `PlantProject.tsx`); the edit pencil is unchanged.
+- **Reorder** on the home screen (`Library.tsx`): up and down arrows on each card, saved on Done as `sort_order` (column added and applied). Plants are loaded in that order; plants never placed follow, oldest first.
+
+Checked in the real app in headless Chromium against stand-in data for a signed-in gardener: reorder writes the new order; the offer shows, and is gone after an answer; the menu item, the Change button and the main photo open; no errors.
 
 **Checked.** `App/scripts/check_help_me_with.ts` adds "Coming up" cases (May, June, September, October and January; a journal-only rose and a rose with no place left out); all checks pass and the app build passes. The card, the place editor and the photo viewer were opened in headless Chromium at 375 pixels with test data, with no errors. Not yet checked in the live app.
 
@@ -240,6 +248,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **7 October 2026 (Version 0.6):** §3.5 rewritten for places inside a country (regions, groups of regions and towns, worked out on the device, with the gardener asked near a region's edge) and for the month-level timing question.
 
 - **7 October 2026 (Version 0.7):** New Zealand month-level timing approved and its records in the snapshot; the place test rerun against the published records.
+- **18 October 2026 (Version 0.17):** Monthly pruning-time email schedule switched on after a Founder confirmed the test email. Pip offers the emails once; the main photo opens full size; plants can be reordered (`sort_order`).
 - **18 October 2026 (Version 0.16):** Added §3.7: journal photos open full size; "Coming up", changing a rose's place, saved pruning months and pruning-time emails built. The monthly email schedule waits for one test send to a Founder.
 - **18 October 2026 (Version 0.15):** Added §3.6: "Help me with [rose name]" built (panel, pruning-month table, saved recently-planted answer, care log). Needs the new `schema.sql` section run once. Checked against the snapshot and in headless Chromium with test data; not yet in the live app.
 - **18 October 2026 (Version 0.14):** Older answers check, batch 3 approved and in the snapshot: PKR-SGT-000001 v1.3 (removal-only session), PKR-SGT-000003 v1.2, PKR-CGD-000001 to -000008 (CGD-001/002 v1.1, CGD-003 v1.2, CGD-004/005/006 v1.1, CGD-007/008 v1.2), PKR-OBS/DEC-000008 v1.1. App change: `RoseTypeQuestion.tsx` shows the label line's tag. The older-answers check is complete: every answer published before the Build Check has now been checked. Checked by running the app's data code against the new snapshot (gates, cutting guide, care answers, blind-shoot check); the app build passes. Not opened in a browser.

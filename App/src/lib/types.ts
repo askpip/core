@@ -233,6 +233,7 @@ export interface BushRoseProfileRow {
   /** Absent until the care_log migration in schema.sql has been run. */
   recently_planted?: RecentlyPlantedAnswer | null
   pruning_months?: number[] | null
+  sort_order?: number | null
   personal_meaning: string | null
   safety_checklist: SafetyChecklistEntry[] | null
   safety_acknowledged_at: string | null
