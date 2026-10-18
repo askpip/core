@@ -123,5 +123,20 @@ export function usePlantPhotoUrl(path?: string) {
 /** Progress photos as the list shows them. */
 export const newestFirst = (photos: ProgressPhoto[]) => [...photos].sort((a, b) => b.createdAt.localeCompare(a.createdAt))
 
+/** The pruning journey's photos (whole bush, then close-ups), labelled for the rose's gallery. */
+export function journeyPhotosOf(project: { journeyOverviewPhotoPath?: string; journeyCloseUpPhotoPaths: string[] }) {
+  const closeUps = project.journeyCloseUpPhotoPaths
+  return [
+    ...(project.journeyOverviewPhotoPath
+      ? [{ id: 'journey-overview', path: project.journeyOverviewPhotoPath, label: 'Pruning journey: the whole bush' }]
+      : []),
+    ...closeUps.map((path, i) => ({
+      id: `journey-close-up-${i}`,
+      path,
+      label: closeUps.length > 1 ? `Pruning journey: close-up ${i + 1}` : 'Pruning journey: close-up',
+    })),
+  ]
+}
+
 export const dateLabelOf = (photo: ProgressPhoto) =>
   new Date(photo.createdAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })

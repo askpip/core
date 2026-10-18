@@ -2,7 +2,8 @@ import { useCallback, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useProjects } from '@/lib/store'
 import { seasonForHemisphere } from '@/lib/location'
-import { dateLabelOf, newestFirst, usePlantPhotoUrl } from '@/lib/photos'
+import { dateLabelOf, journeyPhotosOf, newestFirst, usePlantPhotoUrl } from '@/lib/photos'
+import { JourneyPhotos } from '@/components/JourneyPhotos'
 import { AppHeader } from '@/components/AppHeader'
 import { PhotoCard } from '@/components/PhotoCard'
 import { ProgressPhotos } from '@/components/ProgressPhotos'
@@ -54,7 +55,8 @@ export function PlantProject() {
   const [showCare, setShowCare] = useState(false)
   const [showHelp, setShowHelp] = useState(false)
   const [showLabelPhoto, setShowLabelPhoto] = useState(false)
-  // The rose's photos as one gallery: the main photo first, then the progress photos, newest first.
+  // The rose's photos as one gallery: the main photo first, then the progress photos, newest
+  // first, then the pruning journey's photos.
   const [galleryAt, setGalleryAt] = useState<number | null>(null)
   const gallery = useMemo(
     () =>
@@ -62,6 +64,7 @@ export function PlantProject() {
         ? [
             ...(project.overviewPhotoPath ? [{ id: 'cover', path: project.overviewPhotoPath, label: project.name }] : []),
             ...newestFirst(project.progressPhotos).map((p) => ({ id: p.id, path: p.path, label: p.caption ?? dateLabelOf(p) })),
+            ...journeyPhotosOf(project),
           ]
         : [],
     [project],
@@ -278,6 +281,17 @@ export function PlantProject() {
             onOpen={(photo) => setGalleryAt(gallery.findIndex((g) => g.id === photo.id))}
           />
         </div>
+
+        {journeyPhotosOf(project).length > 0 && (
+          <div>
+            <h2 className="mb-1 text-sm font-medium">Pruning journey photos</h2>
+            <p className="mb-2 text-xs text-pip-text-soft">The whole bush and the close-ups from the pruning journey.</p>
+            <JourneyPhotos
+              photos={journeyPhotosOf(project)}
+              onOpen={(id) => setGalleryAt(gallery.findIndex((g) => g.id === id))}
+            />
+          </div>
+        )}
 
         <div className="mt-4 rounded-xl bg-pip-card p-4 text-xs text-pip-text-soft shadow-sm">
           <p>

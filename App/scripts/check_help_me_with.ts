@@ -170,6 +170,19 @@ check(show(5) === 'soon:Christchurch>June=A+B', 'Coming up, May: Christchurch st
 check(show(7).startsWith('now:Christchurch=A+B'), 'Coming up, July: pruning time in Christchurch')
 check(show(10) === 'soon:London>November=E', 'Coming up, October: only London, starting in November')
 check(show(1) === 'now:London=E', 'Coming up, January: London only')
+// A paused journey, and the blind-shoot check in spring and summer (hemisphere set).
+const seasonal = [
+  { ...rose('F', 'Christchurch', 'New Zealand', 'hybrid-tea'), hemisphere: 'southern', safetyAcknowledgedAt: '2026-07-01', journeyComplete: false },
+  { ...rose('G', 'Christchurch', 'New Zealand', 'excluded'), hemisphere: 'southern', safetyAcknowledgedAt: '2026-07-01', journeyComplete: false },
+  { ...rose('H', 'London', 'United Kingdom', 'floribunda'), hemisphere: 'northern', safetyAcknowledgedAt: '2026-02-01', journeyComplete: true },
+] as unknown as PlantProject[]
+const seasonalPlaces = new Map(seasonal.map((r) => [r.id, placeFromText(r) ?? { codes: [] }]))
+const show2 = (month: number) =>
+  comingUp(seasonal, seasonalPlaces, new Date(2026, month - 1, 15)).map((g) => `${g.kind}:${g.place}${g.month ? `>${g.month}` : ''}=${g.roses.map((r) => r.id).join('+')}`).join(' | ')
+for (const m of [1, 4, 7, 10]) console.log(`  ${MONTHS[m - 1]} (paused and growing): ${show2(m) || '—'}`)
+check(show2(10) === 'paused:=F | soon:London>November=H | growing:Christchurch=F', 'October: F paused (G journal-only left out; H finished), London starts in November, blind-shoot check in Christchurch spring')
+check(show2(7) === 'paused:=F | now:Christchurch=F | growing:London=H', 'July: F paused, pruning time in Christchurch, London summer check for H')
+check(show2(4) === 'paused:=F | growing:London=H', 'April: Christchurch autumn has no check; London spring does')
 
 // 5. App line 6.
 check(agoText(daysBetween('2026-09-06', '2026-10-18')) === '6 weeks ago', '42 days is "6 weeks ago"')
