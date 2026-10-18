@@ -1,5 +1,7 @@
 # Founder Review Dossier — Crossing or Rubbing Stems on an Established, Dormant Bush Rose
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-STEMCROSSING-02`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 ## 1. Document Metadata
 
 **Dossier Identifier:** FRD-BUSHROSE-STEMCROSSING-01

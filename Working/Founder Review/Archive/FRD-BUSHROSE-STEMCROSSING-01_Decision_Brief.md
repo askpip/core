@@ -1,5 +1,7 @@
 # Decision Brief — Crossing or Rubbing Stems on an Established, Dormant Bush Rose
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-STEMCROSSING-02`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 This is the plain-language companion to `FRD-BUSHROSE-STEMCROSSING-01`. It's one of two dossiers split out of what was originally a single combined document — see §0 below for why.
 
 ## 1. What you are being asked to do

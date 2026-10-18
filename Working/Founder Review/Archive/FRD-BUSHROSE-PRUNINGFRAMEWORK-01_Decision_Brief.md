@@ -1,5 +1,7 @@
 # Founder Decision Brief — Pruning an Established, Dormant Bush Rose as a Whole
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-PRUNINGFRAMEWORK-04`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 ## Document Metadata
 
 **Document Title:** Founder Decision Brief — Pruning an Established, Dormant Bush Rose as a Whole: Framework and Cut Mechanics  

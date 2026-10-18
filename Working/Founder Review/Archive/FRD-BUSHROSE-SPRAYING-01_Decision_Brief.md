@@ -1,5 +1,7 @@
 # Decision Brief — Spraying Roses: Whether, When and How Often (Bush Roses)
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-SPRAYING-02`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 **Superseded.** The research has been revised as `FRD-BUSHROSE-SPRAYING-02`. Please read the Decision Brief for `FRD-BUSHROSE-SPRAYING-02` instead. This Brief is kept as the record of what went with `FRD-BUSHROSE-SPRAYING-01`.
 
 This is the plain-language companion to `FRD-BUSHROSE-SPRAYING-01`. It adds no evidence, changes no finding and changes no confidence level. If the Brief and the FRD differ, the FRD governs.

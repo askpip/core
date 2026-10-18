@@ -1,5 +1,7 @@
 # Decision Brief — Weak or Congested Growth on an Established, Dormant Bush Rose
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-WEAKCONGESTED-02`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 This is the plain-language companion to `FRD-BUSHROSE-WEAKCONGESTED-01`. Like the project's more recent dossiers, it's built for one real decision, not a list of open questions.
 
 ## 1. What you are being asked to do

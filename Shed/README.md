@@ -2030,7 +2030,7 @@ behaviour, autosave payload, progress, optional section not counted, Finish with
 gaps, lock/re-open, download, compare, load failure, desktop and phone layouts). Not yet
 verified against the real page with a real passphrase.
 
-The first form built this way is `Working/Founder Review/FRD-BUSHROSE-PRUNINGFRAMEWORK-01_Review_Form.md`.
+The first form built this way is `Working/Founder Review/Archive/FRD-BUSHROSE-PRUNINGFRAMEWORK-01_Review_Form.md`.
 
 ## Documents synced from Core are now shown formatted (added 21 September 2026)
 

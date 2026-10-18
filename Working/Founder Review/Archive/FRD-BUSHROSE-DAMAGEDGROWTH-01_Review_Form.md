@@ -1,6 +1,8 @@
 <!-- shed-form v1 -->
 # Founder Review Form — Damaged Growth on an Established, Dormant Bush Rose
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-DAMAGEDGROWTH-02`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 Fill this in here in the Shed, with the **Decision Brief** open in a second tab. Everything saves as you go and stays private to you until you have both pressed **Finish**. After that you can each see where your answers differ.
 
 This dossier is built the same way the project's more recent ones are: one real decision, with defaults already stated for everything research couldn't close.

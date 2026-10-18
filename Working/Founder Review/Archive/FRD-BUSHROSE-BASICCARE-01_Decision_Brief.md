@@ -1,5 +1,7 @@
 # Founder Decision Brief — Basic Bush Rose Care
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-BASICCARE-02`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 ## Document Metadata
 
 **Document Title:** Founder Decision Brief — Basic Bush Rose Care

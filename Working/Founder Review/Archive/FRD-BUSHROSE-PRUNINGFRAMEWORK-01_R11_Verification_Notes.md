@@ -1,5 +1,7 @@
 # Companion Record — R-11 Verification Notes
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-PRUNINGFRAMEWORK-04`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 **Parent dossier:** FRD-BUSHROSE-PRUNINGFRAMEWORK-01, superseded for R-11 purposes by FRD-BUSHROSE-PRUNINGFRAMEWORK-02
 **Purpose:** Full record of the verification pass that resolved R-11 ("Verify before writing an ARC. Check every quotation against the live page, and compare each finding with the full text of the approved dormancy and recently-planted findings.")
 **Date:** 22 September 2026

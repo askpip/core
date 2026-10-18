@@ -1,5 +1,7 @@
 # FRD-BUSHROSE-PRUNINGFRAMEWORK-01 — Research Notes (Traceability Companion)
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-PRUNINGFRAMEWORK-04`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 **Companion to:** FRD-BUSHROSE-PRUNINGFRAMEWORK-01 (Founder Review Dossier), §4 "Traceability"
 **Prepared:** 21 September 2026, acting in the ROC role
 **Status:** Working record — not an approved document; not a Founder Review Dossier

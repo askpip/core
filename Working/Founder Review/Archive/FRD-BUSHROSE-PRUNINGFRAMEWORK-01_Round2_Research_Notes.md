@@ -1,5 +1,7 @@
 # Companion Record — Round 2 Research Notes
 
+**Retired, 18 October 2026.** Replaced by `FRD-BUSHROSE-PRUNINGFRAMEWORK-04`, which the approved research record names as current. Kept as part of the commission record (Founder Review Dossier Standard §9.2). Nothing here is waiting on a decision.
+
 **Parent dossier:** FRD-BUSHROSE-PRUNINGFRAMEWORK-02, to be consolidated into FRD-BUSHROSE-PRUNINGFRAMEWORK-03
 **Purpose:** Full record of the further-research round Shaphan directly commissioned on 22 September 2026 ("carry out any further research we need to to create a final rose bush pruning entry for the MIL"), covering R-1 through R-10 and R-12 of FRD-BUSHROSE-PRUNINGFRAMEWORK-01 §9 (R-11 was already resolved separately — see the R-11 Verification Notes).
 **Date:** 22 September 2026
