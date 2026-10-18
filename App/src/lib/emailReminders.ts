@@ -50,3 +50,19 @@ export function useEmailReminderChoice(): { choice: EmailChoice; set: (enabled: 
 
   return { choice, set }
 }
+
+/** Pip's one-time email offer on a rose's page (components/EmailOffer.tsx). */
+export function useEmailOffer(enabled: boolean) {
+  const { choice, set } = useEmailReminderChoice()
+  const [saving, setSaving] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+
+  async function answer(on: boolean) {
+    setSaving(true)
+    setError(null)
+    if (!(await set(on))) setError("That didn't save — check your connection and try again.")
+    setSaving(false)
+  }
+
+  return { show: enabled && choice === 'unasked', saving, error, answer }
+}

@@ -1,6 +1,5 @@
-import { useState } from 'react'
 import { Button } from '@/components/Button'
-import { useEmailReminderChoice } from '@/lib/emailReminders'
+import type { useEmailOffer } from '@/lib/emailReminders'
 
 /**
  * Pip offers the pruning-time emails once (a Founder's decision, 18 October 2026),
@@ -9,23 +8,9 @@ import { useEmailReminderChoice } from '@/lib/emailReminders'
  *
  * There is only ever one Pip on a screen (a Founder's direction, 18 October 2026),
  * so the question goes inside the page's own Pip bubble (`EmailOfferQuestion`) and
- * the answers sit under it (`EmailOfferAnswers`).
+ * the answers sit under it (`EmailOfferAnswers`). The state is `useEmailOffer`
+ * (lib/emailReminders.ts).
  */
-export function useEmailOffer(enabled: boolean) {
-  const { choice, set } = useEmailReminderChoice()
-  const [saving, setSaving] = useState(false)
-  const [error, setError] = useState<string | null>(null)
-
-  async function answer(on: boolean) {
-    setSaving(true)
-    setError(null)
-    if (!(await set(on))) setError("That didn't save — check your connection and try again.")
-    setSaving(false)
-  }
-
-  return { show: enabled && choice === 'unasked', saving, error, answer }
-}
-
 export function EmailOfferQuestion({ name }: { name: string }) {
   return (
     <span className="mt-3 block">
