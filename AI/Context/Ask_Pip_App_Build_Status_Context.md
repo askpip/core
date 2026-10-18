@@ -193,7 +193,7 @@ Built to `Working/Founder Review/APP-REMINDERS-AND-PLACE_Proposal.md`, approved 
 
 **Added the same day, at a Founder's direction:**
 
-- **Pip offers the emails once** (`App/src/components/EmailOffer.tsx`, `App/src/lib/emailReminders.ts`) on a rose's page, the first time the rose has pruning months saved: "Would you like an email when it's pruning time for [rose]? You can change this in the menu." · "Yes, email me" · "No thanks". Either answer leaves a row in `email_reminders`, so it isn't asked again; a failed read counts as answered.
+- **Pip offers the emails once** (`App/src/components/EmailOffer.tsx`, `App/src/lib/emailReminders.ts`), inside the Pip bubble already at the top of a rose's page, with the two answers under it: there is only ever one Pip on a screen (a Founder's direction, 18 October 2026). It is offered on a rose's page the first time the rose has pruning months saved: "Would you like an email when it's pruning time for [rose]? You can change this in the menu." · "Yes, email me" · "No thanks". Either answer leaves a row in `email_reminders`, so it isn't asked again; a failed read counts as answered.
 - **The rose's main photo opens full size** (`PhotoCard` `onOpen`, shown by `PlantProject.tsx`); the edit pencil is unchanged.
 - **Reorder** on the home screen (`Library.tsx`): up and down arrows on each card, saved on Done as `sort_order` (column added and applied). Plants are loaded in that order; plants never placed follow, oldest first.
 

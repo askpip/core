@@ -16,7 +16,7 @@ import { HelpMeWith } from '@/components/HelpMeWith'
 import { CareLogList } from '@/components/CareLog'
 import { PhotoViewer } from '@/components/PhotoViewer'
 import { LocationEditor } from '@/components/LocationEditor'
-import { EmailOffer } from '@/components/EmailOffer'
+import { EmailOfferAnswers, EmailOfferQuestion, useEmailOffer } from '@/components/EmailOffer'
 import { useSavePruningMonths } from '@/lib/useSavePruningMonths'
 import { countryName } from '@/lib/place'
 import { usePlantPlace } from '@/lib/usePlantPlace'
@@ -65,6 +65,8 @@ export function PlantProject() {
     [],
   )
   useSavePruningMonths(projectList, placeMap, saveMonths)
+  // Offered once, once Pip knows this rose's pruning months, inside Pip's own bubble below.
+  const emailOffer = useEmailOffer((project?.pruningMonths?.length ?? 0) > 0)
 
   if (loading) {
     return <div className="p-6 text-sm text-pip-text-soft">Loading…</div>
@@ -125,7 +127,9 @@ export function PlantProject() {
             <ChatBubble>
               We haven't looked at {project.name} together yet. Ready to begin the guided
               pruning journey?
+              {emailOffer.show && <EmailOfferQuestion name={project.name} />}
             </ChatBubble>
+            {emailOffer.show && <EmailOfferAnswers offer={emailOffer} />}
             <Button onClick={() => navigate(`/journey/${project.id}`)}>Begin journey</Button>
             {helpButton('secondary')}
           </>
@@ -134,7 +138,9 @@ export function PlantProject() {
             <ChatBubble pose="gesturing">
               Here's {project.name}'s journal — what we looked at, what you saw and what you
               decided.
+              {emailOffer.show && <EmailOfferQuestion name={project.name} />}
             </ChatBubble>
+            {emailOffer.show && <EmailOfferAnswers offer={emailOffer} />}
             {helpButton('primary')}
 
             {shownObservations.length > 0 && (
@@ -170,9 +176,6 @@ export function PlantProject() {
             </div>
           </>
         )}
-
-        {/* Offered once, once Pip knows this rose's pruning months (a Founder's decision, 18 October 2026). */}
-        {(project.pruningMonths?.length ?? 0) > 0 && <EmailOffer name={project.name} />}
 
         {/* Basic care as a journal reference: PKR-CGD-000004 and 000006 list
             "in the plant journal of a rose that passed PKR-SGT-000003" as a
