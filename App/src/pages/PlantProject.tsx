@@ -2,7 +2,7 @@ import { useCallback, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useProjects } from '@/lib/store'
 import { seasonForHemisphere } from '@/lib/location'
-import { usePlantPhotoUrl } from '@/lib/photos'
+import { dateLabelOf, newestFirst, usePlantPhotoUrl } from '@/lib/photos'
 import { AppHeader } from '@/components/AppHeader'
 import { PhotoCard } from '@/components/PhotoCard'
 import { ProgressPhotos } from '@/components/ProgressPhotos'
@@ -54,7 +54,18 @@ export function PlantProject() {
   const [showCare, setShowCare] = useState(false)
   const [showHelp, setShowHelp] = useState(false)
   const [showLabelPhoto, setShowLabelPhoto] = useState(false)
-  const [coverUrl, setCoverUrl] = useState<string | null>(null)
+  // The rose's photos as one gallery: the main photo first, then the progress photos, newest first.
+  const [galleryAt, setGalleryAt] = useState<number | null>(null)
+  const gallery = useMemo(
+    () =>
+      project
+        ? [
+            ...(project.overviewPhotoPath ? [{ id: 'cover', path: project.overviewPhotoPath, label: project.name }] : []),
+            ...newestFirst(project.progressPhotos).map((p) => ({ id: p.id, path: p.path, label: p.caption ?? dateLabelOf(p) })),
+          ]
+        : [],
+    [project],
+  )
   const [editPlace, setEditPlace] = useState(false)
   const { place, skipAsk } = usePlantPlace(project)
   // Hooks run before the early returns below; with no project these see an empty list.
@@ -115,7 +126,7 @@ export function PlantProject() {
           profileId={project.id}
           slot="overview"
           onPhotoChange={(path) => updateProject(project.id, { overviewPhotoPath: path })}
-          onOpen={setCoverUrl}
+          onOpen={() => setGalleryAt(0)}
         />
 
         <div className="flex flex-col gap-4 pt-5">
@@ -264,6 +275,7 @@ export function PlantProject() {
             photos={project.progressPhotos}
             onAdd={(file) => addProgressPhoto(project.id, file)}
             onRemove={(photo) => deleteProgressPhoto(project.id, photo.id, photo.path)}
+            onOpen={(photo) => setGalleryAt(gallery.findIndex((g) => g.id === photo.id))}
           />
         </div>
 
@@ -343,7 +355,16 @@ export function PlantProject() {
         />
       )}
 
-      {coverUrl && <PhotoViewer url={coverUrl} label={project.name} onClose={() => setCoverUrl(null)} />}
+      {galleryAt !== null && gallery[galleryAt] && (
+        <PhotoViewer
+          key={gallery[galleryAt].id}
+          path={gallery[galleryAt].path}
+          label={gallery[galleryAt].label}
+          onClose={() => setGalleryAt(null)}
+          onPrev={galleryAt > 0 ? () => setGalleryAt(galleryAt - 1) : undefined}
+          onNext={galleryAt < gallery.length - 1 ? () => setGalleryAt(galleryAt + 1) : undefined}
+        />
+      )}
 
       {showLabelPhoto && labelPhotoUrl && (
         <PhotoViewer url={labelPhotoUrl} label="Nursery label" onClose={() => setShowLabelPhoto(false)} />

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { supabase } from './supabase'
+import type { ProgressPhoto } from './types'
 
 /**
  * Private bucket for gardener-uploaded rose photos — see supabase/schema.sql
@@ -118,3 +119,9 @@ export function usePlantPhotoUrl(path?: string) {
 
   return url
 }
+
+/** Progress photos as the list shows them. */
+export const newestFirst = (photos: ProgressPhoto[]) => [...photos].sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+
+export const dateLabelOf = (photo: ProgressPhoto) =>
+  new Date(photo.createdAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })

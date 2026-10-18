@@ -1,7 +1,7 @@
 import { useRef, useState, type ChangeEvent } from 'react'
 import { Camera, Upload, X, Loader2, Trash2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
-import { usePlantPhotoUrl } from '@/lib/photos'
+import { dateLabelOf, newestFirst, usePlantPhotoUrl } from '@/lib/photos'
 import { PhotoViewer } from '@/components/PhotoViewer'
 import type { ProgressPhoto } from '@/lib/types'
 
@@ -10,9 +10,6 @@ interface ThumbProps {
   onOpen: () => void
   onRemove: () => void
 }
-
-const dateLabelOf = (photo: ProgressPhoto) =>
-  new Date(photo.createdAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })
 
 function ProgressPhotoThumb({ photo, onOpen, onRemove }: ThumbProps) {
   const url = usePlantPhotoUrl(photo.path)
@@ -80,6 +77,11 @@ interface ProgressPhotosProps {
   onAdd: (file: File) => Promise<unknown>
   onRemove: (photo: ProgressPhoto) => void
   className?: string
+  /**
+   * Opens a photo in the page's own gallery (with the rose's main photo), in place
+   * of this list's viewer, which steps through the progress photos only.
+   */
+  onOpen?: (photo: ProgressPhoto) => void
 }
 
 /**
@@ -89,7 +91,7 @@ interface ProgressPhotosProps {
  * they like, to see how the plant changes over time. Newest first, since
  * that's what someone checking in on a plant wants to see up top.
  */
-export function ProgressPhotos({ photos, onAdd, onRemove, className }: ProgressPhotosProps) {
+export function ProgressPhotos({ photos, onAdd, onRemove, className, onOpen }: ProgressPhotosProps) {
   const cameraInputRef = useRef<HTMLInputElement>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
   const [uploading, setUploading] = useState(false)
@@ -118,7 +120,7 @@ export function ProgressPhotos({ photos, onAdd, onRemove, className }: ProgressP
     }
   }
 
-  const sorted = [...photos].sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+  const sorted = newestFirst(photos)
 
   return (
     <div className={className}>
@@ -166,7 +168,7 @@ export function ProgressPhotos({ photos, onAdd, onRemove, className }: ProgressP
           <ProgressPhotoThumb
             key={photo.id}
             photo={photo}
-            onOpen={() => setOpenIndex(sorted.indexOf(photo))}
+            onOpen={() => (onOpen ? onOpen(photo) : setOpenIndex(sorted.indexOf(photo)))}
             onRemove={() => onRemove(photo)}
           />
         ))}
