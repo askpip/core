@@ -4,7 +4,7 @@
 
 **Document Title:** Ask Pip App Build Status
 **Document Type:** PIP Artificial Intelligence Operating System (PIP AI OS) Context
-**Version:** 0.18
+**Version:** 0.19
 **Status:** Draft — for Founder Review
 **Owner:** The Founders
 **Approved By:** AskPIP Founder Authority
@@ -248,6 +248,7 @@ This document can go stale the moment a session forgets to update it. Where prec
 - **7 October 2026 (Version 0.6):** §3.5 rewritten for places inside a country (regions, groups of regions and towns, worked out on the device, with the gardener asked near a region's edge) and for the month-level timing question.
 
 - **7 October 2026 (Version 0.7):** New Zealand month-level timing approved and its records in the snapshot; the place test rerun against the published records.
+- **19 October 2026 (Version 0.19):** Ask Pip in your own words built: `App/src/components/AskPip.tsx`, `App/src/lib/askPip.ts`, Edge Function `pip-ask` (deployed, `verify_jwt` off because it checks the caller itself; Gemini chooses only; records in `pip_questions`; 20 a day, 3,000 a month; a checking mode keyed to a Vault secret). Tested 97/100 with no safety question given a rose answer. The Gemini key's per-minute limit is low; the function retries. A Shed page for typed questions is not built yet.
 - **18 October 2026 (Version 0.18):** At a Founder's direction: the pruning journey's photos show on the rose's page and in its gallery (`App/src/components/JourneyPhotos.tsx`); Coming up adds a paused-journey line and, in spring and summer, the blind-shoot check (`App/src/lib/comingUp.ts`). The rose's photos open as one gallery (main photo, progress photos, journey photos). The home screen order is plants, Reorder and Select, How Pip works, then the questions.
 - **18 October 2026 (Version 0.17):** Monthly pruning-time email schedule switched on after a Founder confirmed the test email. Pip offers the emails once; the main photo opens full size; plants can be reordered (`sort_order`).
 - **18 October 2026 (Version 0.16):** Added §3.7: journal photos open full size; "Coming up", changing a rose's place, saved pruning months and pruning-time emails built. The monthly email schedule waits for one test send to a Founder.

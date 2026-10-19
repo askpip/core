@@ -45,6 +45,7 @@ export function CommonQuestions({
   onRegion,
   onSkipRegion,
   initialOpen,
+  onOpen,
 }: {
   keys: QuestionKey[]
   title?: string
@@ -64,6 +65,8 @@ export function CommonQuestions({
   onSkipRegion?: () => void
   /** A question to show already open (the Help panel opens one this way). */
   initialOpen?: QuestionKey
+  /** Called when the gardener opens a question, so the page can keep one Pip on screen. */
+  onOpen?: () => void
 }) {
   const navigate = useNavigate()
   const questions = questionsFor(keys)
@@ -115,6 +118,7 @@ export function CommonQuestions({
   function choose(q: CommonQuestion) {
     const next = open === q.key ? null : q.key
     setOpen(next)
+    if (next) onOpen?.()
     const empty = Boolean(plantId && placeKnown && !q.pending && !q.statements.some((s) => shownIn(s.place, codes)))
     if (next && (q.pending || empty)) {
       void supabase

@@ -62,7 +62,7 @@ const INFO_CONTENT: Record<Exclude<InfoPanel, null>, { title: string; body: stri
   },
   privacy: {
     title: 'Privacy',
-    body: 'Your information is kept in a secure location and will never be shared or sold. Pip has access to what you enter here — your plants, photos and notes — so it can learn about your garden and help guide its care over time.',
+    body: 'Your information is kept in a secure location and will never be shared or sold. Pip has access to what you enter here — your plants, photos and notes — so it can learn about your garden and help guide its care over time.\n\nIf you type a question for Pip, the question is kept so the Founders can see what gardeners want to know. It is sent to an AI service only to choose which of Pip\'s answers fits, and deleted with your account.',
   },
 }
 

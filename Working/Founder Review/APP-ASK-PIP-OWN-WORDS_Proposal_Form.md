@@ -1,6 +1,8 @@
 <!-- shed-form v1 -->
 # Proposal Form — Ask Pip in Your Own Words
 
+**Decided, 19 October 2026. Nothing more to fill in here.** A Founder approved the proposal in chat, with no change, and it is built.
+
 Read **Proposal — Ask Pip in Your Own Words** first. Section 3 is the four decisions, and section 4 is every new app line.
 
 ## Your decision

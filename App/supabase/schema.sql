@@ -1167,3 +1167,28 @@ select cron.schedule('pruning-reminders', '5 0 1 * *', $cron$select public.send_
 -- 18 October 2026: the gardener's own order for their plants in the journal
 -- (Library.tsx "Reorder"). Null = not placed yet; those follow, oldest first.
 alter table public.bush_rose_profiles add column if not exists sort_order integer;
+
+-- ---------------------------------------------------------------------------
+-- Ask Pip in your own words (19 October 2026, Working/Founder Review/
+-- APP-ASK-PIP-OWN-WORDS_Proposal.md). Each typed question, with which of Pip's
+-- answers the AI chose (or why none), for the Founders. Written only by the
+-- pip-ask Edge Function (service role); a gardener can read their own. Deleted
+-- with the gardener's account.
+-- ---------------------------------------------------------------------------
+
+create table if not exists public.pip_questions (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users (id) on delete cascade,
+  question text not null check (char_length(question) between 1 and 300),
+  outcome text not null check (outcome in ('match', 'none', 'off-topic', 'safety')),
+  matched_key text,
+  created_at timestamptz not null default now()
+);
+
+create index if not exists pip_questions_user_created_idx on public.pip_questions (user_id, created_at);
+
+alter table public.pip_questions enable row level security;
+
+drop policy if exists "pip_questions_select_own" on public.pip_questions;
+create policy "pip_questions_select_own" on public.pip_questions
+  for select using (auth.uid() = user_id);

@@ -1,6 +1,6 @@
 # Proposal — Ask Pip in Your Own Words
 
-**Status:** Proposal for Founder approval. Nothing built yet.
+**Status:** Approved by a Founder in chat ("approve, build"), 19 October 2026, with no change, and with one direction: Pip answers in his own speech bubble. Built; test results in `Working/AI Outputs/AskPip_Test_Results_2026-10-19.json`.
 **Prepared:** 19 October 2026, by Claude, for the Founders
 **Form:** `APP-ASK-PIP-OWN-WORDS_Proposal_Form.md` (one question)
 **Affects:** the home screen and each rose's page (a question box), one new server function, one new table, the Privacy text in the menu, and a page in the Shed.

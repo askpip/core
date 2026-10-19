@@ -5,6 +5,7 @@ import { PipAvatar } from '@/components/PipAvatar'
 import { CareBlock } from '@/components/PkrStatements'
 import { CommonQuestions } from '@/components/CommonQuestions'
 import { CareLog } from '@/components/CareLog'
+import { AskPipBox, AskPipReply, type AskPipReplyState } from '@/components/AskPip'
 import { questionsFor, type BuiltInKey } from '@/data/commonQuestions'
 import { CARE_DISCLOSURE, RECENTLY_PLANTED_GATE, publishedCare, roseTypePasses } from '@/data/pkr'
 import { helpPlan, type HelpChoice } from '@/lib/helpMeWith'
@@ -36,13 +37,18 @@ function choiceLabel(c: HelpChoice, season?: Season): string {
   }
 }
 
-type View = { kind: 'choices' } | { kind: 'care'; pkrId: string } | { kind: 'question'; key: BuiltInKey }
+type View =
+  | { kind: 'choices' }
+  | { kind: 'care'; pkrId: string }
+  | { kind: 'question'; key: BuiltInKey }
+  // Pip's reply to a typed question, in the panel's own Pip bubble (one Pip on screen).
+  | { kind: 'asked'; reply: AskPipReplyState }
 
 function PipSays({ children }: { children: ReactNode }) {
   return (
     <div className="flex items-start gap-2">
       <PipAvatar size={56} pose="gesturing" className="-ml-2 shrink-0" />
-      <p className="rounded-2xl bg-pip-bg px-3.5 py-2.5 text-sm leading-relaxed">{children}</p>
+      <div className="min-w-0 flex-1 rounded-2xl bg-pip-bg px-3.5 py-2.5 text-sm leading-relaxed">{children}</div>
     </div>
   )
 }
@@ -163,6 +169,15 @@ export function HelpMeWith({
             </div>
           )}
 
+          {view.kind === 'asked' && (
+            <>
+              <PipSays>
+                <AskPipReply reply={view.reply} place={place} plantId={project.id} />
+              </PipSays>
+              <AskPipBox onReply={(reply) => setView({ kind: 'asked', reply })} />
+            </>
+          )}
+
           {view.kind === 'question' && (
             <CommonQuestions
               keys={[view.key]}
@@ -223,6 +238,8 @@ export function HelpMeWith({
               )}
               {/* Always below the choices (proposal 3C); under rules A and B it is one of them. */}
               {plan.rule === 'seasonal' && choiceButton({ kind: 'note' })}
+
+              <AskPipBox onReply={(reply) => setView({ kind: 'asked', reply })} />
 
               <hr className="border-pip-border" />
               <CareLog

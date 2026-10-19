@@ -10,6 +10,8 @@ import { Button } from '@/components/Button'
 import { CommonQuestions } from '@/components/CommonQuestions'
 import { HOME_QUESTIONS } from '@/data/commonQuestions'
 import { ComingUp } from '@/components/ComingUp'
+import { AskPipBox, AskPipReply, type AskPipReplyState } from '@/components/AskPip'
+import { ChatBubble } from '@/components/ChatBubble'
 import { comingUp } from '@/lib/comingUp'
 import { usePlantPlaces } from '@/lib/usePlantPlaces'
 import { useSavePruningMonths } from '@/lib/useSavePruningMonths'
@@ -59,6 +61,10 @@ export function Library() {
   const name = typeof displayName === 'string' && displayName.trim() ? displayName.trim() : FALLBACK_NAME
 
   const [selectMode, setSelectMode] = useState(false)
+  // Pip's reply to a typed question. One Pip on screen: a new reply closes any open
+  // question below (by remounting it), and opening a question clears the reply.
+  const [askReply, setAskReply] = useState<AskPipReplyState | null>(null)
+  const [questionsKey, setQuestionsKey] = useState(0)
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
 
   function toggleSelectMode() {
@@ -249,7 +255,29 @@ export function Library() {
         )}
 
         {!selectMode && !reorderMode && (
-          <CommonQuestions keys={HOME_QUESTIONS} initialVisible={6} className="mb-8 mt-8" />
+          <div className="mt-8 flex flex-col gap-3">
+            <AskPipBox
+              onReply={(reply) => {
+                setAskReply(reply)
+                setQuestionsKey((k) => k + 1)
+              }}
+            />
+            {askReply && (
+              <ChatBubble pose="gesturing">
+                <AskPipReply reply={askReply} />
+              </ChatBubble>
+            )}
+          </div>
+        )}
+
+        {!selectMode && !reorderMode && (
+          <CommonQuestions
+            key={questionsKey}
+            keys={HOME_QUESTIONS}
+            initialVisible={6}
+            className="mb-8 mt-8"
+            onOpen={() => setAskReply(null)}
+          />
         )}
 
         {selectMode && (
